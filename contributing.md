@@ -1,0 +1,53 @@
+---
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+
+---
+# Contributi
+
+Grazie per aver scelto di contribuire!
+
+Le seguenti sono una serie di linee guida da seguire quando contribuisci a questo progetto.
+
+## Codice di condotta
+
+Il progetto aderisce al [Codice di condotta Adobe](code-of-conduct.md). Con la tua partecipazione,
+dovrai rispettare questo codice. Segnala comportamenti inaccettabili all’indirizzo
+[Grp-opensourceoffice@adobe.com](mailto:Grp-opensourceoffice@adobe.com).
+
+## Hai domande?
+
+Inizia compilando una segnalazione. I committer esistenti di questo progetto lavorano per ottenere
+un consenso sulla direzione del progetto e la risoluzione dei problemi all’interno dei thread
+relativi (quando opportuno).
+
+## Contratto di licenza del collaboratore
+
+Tutti i contributi di terze parti a questo progetto devono essere accompagnati da un contratto di licenza del collaboratore firmato. Questo autorizza Adobe a distribuire i tuoi contributi
+come parte del progetto. [Firmate il nostro CLA](http://opensource.adobe.com/cla.html). Dovrai
+inviare un contratto di licenza Adobe solo una volta, quindi se ne hai già inviato uno in precedenza,
+puoi procedere!
+
+## Revisioni di codice
+
+Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione
+dei committer del progetto. Leggi [la documentazione
+della richiesta di pull github](https://help.github.com/articles/about-pull-requests/)per ulteriori informazioni sull&#39;invio di richieste pull.
+
+<!--
+Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
+submitting a pull request!
+-->
+
+## Da collaboratore a committer
+
+Apprezziamo i contributi della nostra community! Se vuoi fare il passo successivo
+e diventare un committer, con accesso completo in scrittura e una voce in capitolo nel progetto, devi
+essere invitato al progetto. I committer esistenti utilizzano un processo di designazione interno
+in cui si deve raggiungere il consenso approssimativo (silenzio assenso) prima di emettere
+inviti. Se ritieni di essere qualificato e vuoi essere coinvolto in modo più approfondito,
+rivolgiti ai committer esistenti per parlarne con loro.
+
+## Problemi di sicurezza
+
+I problemi relativi alla sicurezza non dovrebbero essere riportati in questo Issue tracker. Al contrario [, potete segnalare un problema ai nostri esperti di protezione](https://helpx.adobe.com/security/alertus.html)
