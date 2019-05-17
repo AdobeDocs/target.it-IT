@@ -1,0 +1,137 @@
+---
+description: Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
+keywords: offerta remota;creazione di offerta remota
+seo-description: Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
+seo-title: Creare offerte JSON
+solution: Target
+title: Creare offerte JSON
+topic: Standard
+uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
+translation-type: tm+mt
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+
+---
+
+
+# Creare offerte JSON{#create-json-offers}
+
+Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
+
+Le offerte JSON possono essere utilizzate in attività basate su moduli per casi di utilizzo in cui è richiesto un processo decisionale di Target per inviare un’offerta in formato JSON per l’utilizzo in ambito SPA (Single-page application, applicazione a pagina singola) o per integrazioni lato server.
+
+Quando lavori con le offerte JSON, considera quanto segue:
+
+* Le offerte JSON sono attualmente disponibili solo per le attività AB e XT.
+* Le offerte JSON possono essere utilizzate solo nelle attività basate su moduli.
+* L’offerta JSON può essere recuperata direttamente quando utilizzi API lato server, SDK per dispositivi mobili o SDK per NodeJS.
+* Nel browser, le offerte JSON possono essere recuperate SOLO tramite at.js 1.2.3 (o versione successiva) e utilizzando  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando le azioni tramite l’azione `setJson`.
+* Le offerte JSON vengono consegnate come oggetti JSON nativi anziché come stringhe. I consumatori di questi oggetti non devono più gestire gli oggetti come stringhe e convertirli in oggetti JSON.
+* Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere l’offerta in modo esplicito utilizzando  [Getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* Le offerte JSON non sono supportate se utilizzi mbox.js.
+
+## Creazione di un’offerta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
+
+1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte di codice]**.
+1. Fai clic su **[!UICONTROL Crea]** &gt; **[!UICONTROL Offerta JSON]**.
+
+   ![](assets/offer-json.png)
+
+1. Digita un nome per l’offerta.
+1. Digita o incolla il codice JSON nella casella **[!UICONTROL Codice]**.
+1. Fai clic su **[!UICONTROL Salva]**.
+
+## Esempio {#section_A54F7BB2B55D4B7ABCD5002E0C72D8C9}
+
+Le offerte JSON sono supportate solo nelle attività create utilizzando il Compositore esperienza basato su moduli. Attualmente le offerte JSON possono essere utilizzate solo tramite chiamate API dirette.
+
+Di seguito è riportato un esempio:
+
+```
+adobe.target.getOffer({ 
+  mbox: "some-mbox", 
+  success: function(actions) { 
+    console.log('Success', actions); 
+  }, 
+  error: function(status, error) { 
+    console.log('Error', status, error); 
+  } 
+});
+```
+
+Le azioni passate alla chiamata di ritorno di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
+
+```
+{ 
+  "demo": {"a": 1, "b": 2} 
+}
+```
+
+La matrice di azioni avrà questa struttura:
+
+```
+[ 
+ { 
+   action: "setJson", 
+   content: [{ 
+     "demo": {"a": 1, "b": 2} 
+   }] 
+ }  
+]
+```
+
+Per estrarre l’offerta JSON, è necessario eseguire iterazioni attraverso le azioni e quella con l’azione `setJson`, quindi eseguire iterazioni attraverso la matrice del contenuto.
+
+## Caso d’uso {#section_85B07907B51A43239C8E3498EF58B1E5}
+
+Supponiamo che la seguente offerta JSON arrivi alla tua pagina web:
+
+```
+{ 
+    "_id": "5a65d24d8fafc966921e9169", 
+    "index": 0, 
+    "guid": "7c006504-c6f7-468d-a46f-f72531ea454c", 
+    "isActive": true, 
+    "balance": "$2,075.06", 
+    "picture": "https://placehold.it/32x32", 
+    "tags": [ 
+      "esse", 
+      "commodo", 
+      "excepteur", 
+    ], 
+    "friends": [ 
+      { 
+        "id": 0, 
+        "name": "Carla Lyons" 
+      }, 
+      { 
+        "id": 1, 
+        "name": "Ollie Mooney" 
+      }, 
+    ], 
+    "greeting": "Hello, Stephenson Fernandez! You have 4 unread messages.", 
+    "favoriteFruit": "strawberry" 
+} 
+  
+```
+
+Nel codice seguente viene illustrato come accedere all’attributo “greeting”:
+
+```
+adobe.target.getOffer({   
+  "mbox": "name_of_mbox", 
+  "params": {}, 
+  "success": function(offer) {           
+        console.log(offer[0].content[0].greeting); 
+  },   
+  "error": function(status, error) {           
+      console.log('Error', status, error); 
+  } 
+});
+```
+
+## Filtraggio delle offerte per tipo di offerta JSON  {#section_52533555BCE6420C8A95EB4EB8907BDE}
+
+È possibile filtrare la libreria delle offerte in base al tipo di offerta JSON facendo clic sull’elenco a discesa **[!UICONTROL Tipo]** e selezionando la casella di controllo **[!UICONTROL JSON]**.
+
+![](assets/offer-json-filter.png)
+
