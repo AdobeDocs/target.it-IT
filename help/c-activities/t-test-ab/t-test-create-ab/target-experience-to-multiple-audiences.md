@@ -8,7 +8,7 @@ title: Più versioni di esperienza in un test A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -33,7 +33,9 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 
 1. [Crea un&#39;attività A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) come si farebbe normalmente.
 
-   Al momento di configurare l&#39;esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti. 1.Seleziona l’esperienza, quindi fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Tipi di pubblico]** &gt; **[!UICONTROL Più tipi di pubblico]**.
+   Al momento di configurare l&#39;esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
+
+1. Select the experience, then click **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![](assets/multiple-audiences.png)
 
@@ -44,6 +46,7 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
    Se il pubblico non esiste ancora, fai clic su [Crea pubblico](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 
    Se un visitatore è adeguato per più di un pubblico, il contenuto viene respinto per tutti i tipi di pubblico e l&#39;ultimo nell&#39;elenco esegue effettivamente il rendering sulla pagina.
+
 1. Continua a configurare l’attività.
 
 **Best practice**
