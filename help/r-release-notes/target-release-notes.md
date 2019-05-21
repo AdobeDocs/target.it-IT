@@ -8,7 +8,7 @@ title: Note sulla versione di Target (pre-rilascio)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 17 maggio 2019**
+**Ultimo aggiornamento: 21 maggio 2019**
 
 >[!NOTE]
 >
@@ -33,8 +33,7 @@ Questa versione include le seguenti funzionalità, modifiche e miglioramenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Compositore esperienza visivo per app a pagina singola (SPA di SPA) | Il Compositore di esperienze visive SPA include i seguenti miglioramenti per permetterti di lavorare in modo più rapido ed efficiente:<ul><li>Facendo clic su un&#39;azione in SPA viene evidenziata l&#39;elemento sul sito in cui verrà applicata l&#39;azione. Ogni azione VEC creata in una vista presenta quattro icone corrispondenti: Informazioni, Modifica, Sposta ed Elimina. La nuova funzionalità Sposta di questa versione consente di spostare l&#39;azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già esistente nel pannello delle modifiche. (TGT-33746)</li><li>Potrai eseguire molte azioni prima che la pagina si carichi nel VEC, anche nel caso in cui la pagina non riesca a caricarsi completamente (per esempio, il codice personalizzato non è più operativo). Nell’interfaccia utente di Target, le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate. (TGT-33851 e TGT-34149)</li></ul> |
-| Recommendations<br>![Premium badge](/help/assets/premium.png) | È possibile utilizzare l’opzione Consigliare gli articoli precedentemente acquistati durante la creazione della logica Articoli visualizzati di recente. (TGT-34030) |
+| Compositore esperienza visivo per app a pagina singola (SPA di SPA) | Il Compositore di esperienze visive SPA include i seguenti miglioramenti per permetterti di lavorare in modo più rapido ed efficiente:<ul><li>Facendo clic su un&#39;azione in SPA viene evidenziata l&#39;elemento sul sito in cui verrà applicata l&#39;azione. Ogni azione VEC creata in una vista presenta quattro icone corrispondenti: Informazioni, Modifica, Sposta ed Elimina. La nuova funzionalità Sposta di questa versione consente di spostare l&#39;azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già esistente nel pannello delle modifiche. (TGT-33746)</li><li>Potrai eseguire molte azioni prima che la pagina si carichi nel VEC, anche nel caso in cui la pagina non riesca a caricarsi completamente (per esempio, il codice personalizzato non è più operativo). Nell’interfaccia utente di Target, le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate. (TGT-33851 e TGT-34149)</li></ul>Per ulteriori informazioni, consulta [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md). |
 
 ### Miglioramenti, correzioni e modifiche
 
