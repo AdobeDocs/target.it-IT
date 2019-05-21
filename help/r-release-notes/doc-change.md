@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 # Modifiche alla documentazione{#documentation-changes}
 
 In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target] alla documentazione.
+
+## Adobe Target Standard/Premium 19.5.1 (21 maggio 2019) {tgt -19-5-1}
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 21 maggio 2019 | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Aggiornate le informazioni sull&#39;opzione «Sposta».</li><li>Aggiunta nota che è possibile eseguire numerose azioni prima che la pagina venga caricata nell&#39;aula virtuale o anche se la pagina non è in grado di caricarla completamente. </li></ul> |
+|  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Testo, immagini aggiornate e video di formazione aggiunti. |
+|  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Testo e immagini nascosti. |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Aggiunto il limite di caratteri per l&#39;ID alias del cliente. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.5.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 19.4.2 (30 aprile 2019) {19-4-2}
 
