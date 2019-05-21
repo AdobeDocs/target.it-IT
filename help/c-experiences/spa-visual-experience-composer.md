@@ -8,7 +8,7 @@ title: Compositore esperienza visivo per app a pagina singola (SPA)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
 
 ---
 
@@ -198,9 +198,9 @@ Il pannello delle [!UICONTROL Modifiche], come si vede di seguito, acquisisce le
 
 **Azioni**
 
-Facendo clic su un’azione viene evidenziato l’elemento del sito dove questa verrà applicata. Ogni azione del Compositore esperienza visivo creata in una visualizzazione possiede quattro icone come mostrato di seguito: Informazioni, Modifica, Sposta a “Caricamento pagina” ed Elimina.
+Facendo clic su un’azione viene evidenziato l’elemento del sito dove questa verrà applicata. Ogni azione VEC creata in una visualizzazione presenta quattro icone come mostrato di seguito: Informazioni, Modifica, Sposta ed Elimina.
 
-![Pannello delle modifiche](/help/c-experiences/assets/modifications.png)
+![Modifiche](/help/c-experiences/assets/modifications-new.png)
 
 Nella tabella seguente viene descritta ogni azione:
 
@@ -208,8 +208,12 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Sposta a “Caricamento pagina” | Sposta l’azione a un evento caricamento pagina. Queste azioni si applicano in genere all’HTML statico dell’applicazione a pagina singola utilizzato tra pagine, ad esempio intestazione e piè di pagina. |
+| Sposta  | Sposta l&#39;azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già presente nel pannello delle modifiche.<br>[!UICONTROL Evento] di caricamento della pagina: tutte le azioni corrispondenti all&#39;evento di caricamento della pagina vengono applicate al caricamento iniziale della pagina dell&#39;applicazione Web.<br>**Nota** : per vedere se lo spostamento è un&#39;operazione valida, è necessario passare alla vista nell&#39;aula virtuale tramite Sfoglia. Se l&#39;azione non può essere applicata alla Vista, viene visualizzato un errore |
 | Elimina | Elimina l’azione. |
+
+>[!NOTE]
+>
+>È possibile eseguire numerose azioni prima che la pagina venga caricata nell&#39;aula virtuale o anche se la pagina non è in grado di caricarla completamente. Nell’interfaccia utente di , le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate.
 
 **Esempio 1**
 
