@@ -8,7 +8,7 @@ title: 'Android: configurare l''app mobile'
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 5f58e6dc0e91a3341d73273edf953206a95d6450
 
 ---
 
@@ -305,3 +305,18 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
    public static void prefetchOffersBackground();
    ```
 
+## Esercitazione: Implementazione di Experience Cloud nelle applicazioni Android mobile {#tutorial}
+
+* [Implementazione di Experience Cloud nelle applicazioni Android mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+
+Dopo aver completato questa esercitazione potrete:
+
+* Creare una proprietà di avvio mobile
+* Installazione di una proprietà Launch in un&#39;app Android
+* Implementa le seguenti soluzioni Adobe Experience Cloud:
+   * Servizio Experience Cloud ID
+   * Adobe Target
+   * Adobe Analytics 
+   * Adobe Audience Manager
+
+* Pubblicare le modifiche in Launch tramite ambienti di sviluppo, staging e produzione
