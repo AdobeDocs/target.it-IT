@@ -8,7 +8,7 @@ title: Note sulla versione di Target (pre-rilascio)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -38,6 +38,12 @@ Questa versione include le seguenti funzionalità, modifiche e miglioramenti:
 ### Miglioramenti, correzioni e modifiche
 
 * Le icone della barra degli strumenti vengono visualizzate correttamente dopo aver annullato il caricamento di una pagina nel Compositore esperienza visivo. Se non è possibile eseguire azioni specifiche finché non è stato completato il caricamento della pagina, le icone della barra degli strumenti associate sono disattivate. (TGT-33811)
+
+## Mobile App Visual Experience Composer (14 maggio 2019) {mobile-vec}
+
+| Funzionalità/Miglioramento | Descrizione |
+| --- | --- |
+| Mobile App Visual Experience Composer (VEC) | La VEC App mobile consente di creare attività e personalizzare il contenuto su app native per dispositivi mobili in modo autonomo senza continuità di sviluppo e cicli di rilascio delle app.<br>Per ulteriori informazioni, consulta:<ul><li>[Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)</li><li>[Android: configurare l&#39;app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)</li><li>[iOS: configurare l&#39;app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)</li><li>[Configurare il tracciamento dei clic nel Compositore esperienza visivo mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)</li><li>[Video: Mobile App Visual Experience Composer (Compositore esperienza visivo)](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video)</li></ul> |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
