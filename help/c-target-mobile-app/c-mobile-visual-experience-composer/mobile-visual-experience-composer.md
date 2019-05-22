@@ -7,7 +7,7 @@ title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -197,3 +197,6 @@ Tieni presente che ogni volta che un’offerta di Target viene precaricata, veng
    * La finestra di dialogo del dispositivo viene visualizzata quando si passa dal passaggio “Obiettivi e impostazioni” al passaggio “Creazione” (passaggio 1). Se l&#39;app è già aperta, devi chiudere e riavviare l&#39;app per connetterti alla VEC App mobile.
    Accertati di chiudere l&#39;applicazione dalla sezione delle applicazioni recenti e non premendo il pulsante [!UICONTROL Indietro].
 
+## Video formazione: Adobe Target Mobile App Visual Composer (3:33) {#video}
+
+>[!VIDEO](https://www.youtube.com/watch?v=VOahCFx0sV4)
