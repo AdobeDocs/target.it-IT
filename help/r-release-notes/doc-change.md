@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda07f19bddb870b20dabc484a1b97d55bcc5775
+source-git-commit: e59b5f8fea0c0e1e79477764f6f870a50ee0bba4
 
 ---
 
@@ -21,6 +21,7 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 22 maggio 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#video) | Aggiunta di video formativo. |
 | 21 maggio 2019 | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | <ul><li>Aggiornate le informazioni sull&#39;opzione «Sposta».</li><li>Aggiunta nota che è possibile eseguire numerose azioni prima che la pagina venga caricata nell&#39;aula virtuale o anche se la pagina non è in grado di caricarla completamente. </li></ul> |
 |  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Testo, immagini aggiornate e video di formazione aggiunti. |
 |  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Testo e immagini nascosti. |
