@@ -11,14 +11,14 @@ topic: Premium
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8c9da94d7589d54b205c1387d25515a962f98235
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Autorizzazioni per utenti Enterprise{#enterprise-user-permissions}
 
-Informazioni su come creare le proprietà e come utilizzare la funzionalità Proprietà e autorizzazioni, che consente agli amministratori di Target di creare aree di lavoro diverse (profili prodotto) in Target e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web in base a queste aree di lavoro.
+Le autorizzazioni degli utenti Enterprise rappresentano un mezzo per amministrare formalmente l&#39;accesso dell&#39;utente a livello aziendale a Target. Aggiungete utenti a Target, assegnate autorizzazioni in base ai loro ruoli e create aree di lavoro per i team basati su diversi reparti, posizioni globali, canale e altri raggruppamenti logici. Potete assegnare agli utenti i ruoli di Observer, Editor o Approver.
 
 ## Determinare se l’utente dispone dell’accesso alle autorizzazioni per gli utenti Enterprise
 
