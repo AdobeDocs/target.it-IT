@@ -7,7 +7,7 @@ title: Glossario
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -48,7 +48,7 @@ La libreria [!DNL at.js] è una nuova libreria di implementazione per [!DNL Adob
 
 **pubblico**
 
-Un gruppo di partecipanti a un&#39;attività simile, che visualizzeranno un&#39;attività con targeting.
+Un gruppo di partecipanti a un&#39;attività simile, che visualizzeranno un&#39;attività con targeting.  Gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o i visitatori provenienti dal MID West. La funzione Pubblico consente di eseguire il targeting di contenuti ed esperienze diversi per audience specifiche per ottimizzare il marketing digitale, mostrando i messaggi giusti alle persone giuste al momento giusto. Se un visitatore è identificato come parte di un&#39;audience target, Target determina quale esperienza visualizzare, in base ai criteri definiti durante la creazione dell&#39;attività.
 
 **Allocazione automatica**
 
@@ -154,6 +154,10 @@ La misura dell&#39;interesse di un visitatore nei confronti di un sito, misurato
 
 Il [!UICONTROL Compositore esperienza avanzato] è un’estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
 
+**Autorizzazioni per gli utenti aziendali**
+
+Un mezzo per amministrare l&#39;accesso dell&#39;utente a livello aziendale a Target. Aggiungete utenti a Target, assegnate autorizzazioni in base ai loro ruoli e create aree di lavoro per i team basati su diversi reparti, posizioni globali, canale e altri raggruppamenti logici. Potete assegnare agli utenti i ruoli di Observer, Editor o Approver.
+
 **attributi di entità**
 
 Parametri personalizzati per trasmettere informazioni su prodotti o contenuti a Consigli.
@@ -168,7 +172,7 @@ Per facilitare la gestione, gli host sono raccolti in ambienti. I gruppi di host
 
 **esperienza**
 
-Definisce il contenuto (o offerta) visualizzato in un elemento mbox. Talvolta denominata anche ricetta.
+Un&#39;offerta, un&#39;immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un&#39;intera pagina Web o un set di pagine che probabilmente formano un funnel acquisto o un&#39;altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale, di uno script di servizio clienti o anche di un gusto personalizzato da un sistema di bevande. Potete testare o personalizzare esperienze nelle [!DNL Target] attività.
 
 **targeting delle esperienze**
 
@@ -191,6 +195,10 @@ Restituisce contenuti a un file Flash.
 **diagramma di flusso**
 
 La rappresentazione visiva di un&#39;attività in Target Standard.
+
+**Compositore esperienza basato su moduli
+
+Un&#39;interfaccia non visiva e un&#39;interfaccia di creazione di offerte utili per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
 
 ## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -300,6 +308,10 @@ Un gruppo di utenti con un insieme specifico di privilegi.
 
 Utilizza le offerte remote per l’hosting di contenuti esterni a [!DNL Target] a cui [!DNL Target] può fare riferimento per consegnarli ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.
 
+**rapporti**
+
+I rapporti forniscono informazioni sull&#39;avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
+
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parametro di profilo di script**
@@ -324,7 +336,7 @@ Simile al parametro di profilo di script, ma predefinito per fornire utili funzi
 
 **metriche di successo**
 
-I parametri utilizzati per misurare il successo di un&#39;attività.
+I parametri utilizzati per misurare il successo di un&#39;attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un&#39;esperienza o un&#39;offerta specifica in un&#39;attività Target. Ad esempio, potete determinare se una nuova offerta aumenta le entrate per visitatore o aggiungere un elemento a un carrello. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l&#39;ordinazione o l&#39;acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
 
 ## T  {#section_1841144841AF41169AF1E83B90C18292}
 
@@ -350,7 +362,7 @@ Un visitatore è qualsiasi soggetto che accede al sito. Un visitatore viene valu
 
 **Compositore esperienza visivo**
 
-In Target Standard una rappresentazione di pagina che consente di identificare visivamente i componenti di una pagina compatibile con Target e di modificarne una o più parti direttamente, anziché dover utilizzare l&#39;applicazione Target.
+In Target Standard, un&#39;interfaccia utente WYSIWYG che consente di creare e sottoporre a test esperienze e offerte personalizzate nel contesto del sito. Potete creare esperienze e offerte per attività Target trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) oppure di una pagina Web per dispositivi mobili.
 
 ## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
