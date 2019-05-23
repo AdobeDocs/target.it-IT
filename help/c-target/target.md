@@ -7,7 +7,7 @@ solution: Target
 title: Tipi di pubblico
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
@@ -15,6 +15,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 # Tipi di pubblico{#audiences}
 
 Indirizza contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare il tuo marketing web presentando al momento giusto i messaggi più appropriati ai vari visitatori.
+
+Un pubblico è un gruppo di partecipanti all&#39;attività simili che visualizzeranno un&#39;attività con targeting. Gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o i visitatori provenienti dal MID West. La funzione Pubblico consente di eseguire il targeting di contenuti ed esperienze diversi per audience specifiche per ottimizzare il marketing digitale, mostrando i messaggi giusti alle persone giuste al momento giusto. Se un visitatore è identificato come parte di un&#39;audience target, Target determina quale esperienza visualizzare, in base ai criteri definiti durante la creazione dell&#39;attività.
 
 Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra le varie esperienze. Tuttavia puoi specificare  target basati su percentuali per ogni esperienza.
 
