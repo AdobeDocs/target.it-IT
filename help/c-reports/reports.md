@@ -9,14 +9,14 @@ title: Rapporti
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: e2638ad0438d637cce84b0387709d255b9f4a58d
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Rapporti{#reports} 
 
-I rapporti forniscono informazioni sulle prestazioni delle attività.
+I rapporti forniscono informazioni sull&#39;avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
 
 >[!NOTE]
 >
