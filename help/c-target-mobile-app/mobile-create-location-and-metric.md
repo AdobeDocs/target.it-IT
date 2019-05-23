@@ -7,7 +7,7 @@ title: iOS - Creare una posizione di destinazione e una metrica di successo
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
 
 ---
 

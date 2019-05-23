@@ -9,7 +9,7 @@ title: Metodi per immettere i dati in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
 
 ---
 
