@@ -8,16 +8,14 @@ title: Compositore esperienza basato su moduli
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: 385864d9daae19468c4557e51043d5b788924658
 
 ---
 
 
 # Compositore esperienza basato su moduli{#form-based-experience-composer}
 
-Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo.
-
-Questa funzione consente a Target Standard di consegnare attività di test A/B, targeting delle esperienze, personalizzazione automatizzata e consigli in e-mail, app per dispositivi mobili, kiosk e altre destinazioni che non consentono l’utilizzo del Compositore esperienza visivo.
+Il Composer esperienza basato su modulo è un&#39;interfaccia non visiva e un&#39;interfaccia di creazione delle offerte utile per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
 
 Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i test di verifica e progettazione. Se scegli più criteri o progettazioni, Target genera automaticamente le esperienze.
 
