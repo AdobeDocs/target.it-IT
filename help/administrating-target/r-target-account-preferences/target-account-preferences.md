@@ -9,7 +9,7 @@ title: Preferenze
 topic: Standard
 uuid: ed3904c8-533b-4b9c-a3a1-079c61b1bf2a
 translation-type: tm+mt
-source-git-commit: ecd707927629ff8bc3882a322f0744d93abced2c
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -69,7 +69,7 @@ Queste opzioni permettono a [!DNL Target] di comprendere la struttura del sito p
 |--- |--- |
 | URL Compositore esperienza visivo predefinito  | Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza visivo]. Si tratta della pagina predefinita, ad esempio la pagina principale, utilizzata ogni volta che configuri un’esperienza per ogni nuova attività. Se non imposti un URL predefinito, dovrai immetterne uno ogni volta che crei una nuova attività. |
 | Abilita Compositore esperienza avanzato | Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deseleziona questa opzione per ripristinare il Compositore esperienza originale. La distribuzione delle attività ai siti non è interessata da questa selezione.<br>Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).<br>**Nota**: puoi anche abilitare il Compositore esperienza avanzato a livello di attività. |
-| Carica contenuto misto | Abilitare i contenuti misti durante l&#39;apertura di un sito Web mediante Enhanced Experience Composer (Compositore esperienza avanzato). L&#39;abilitazione di questa opzione evita un sovraccarico aggiuntivo per il caricamento di risorse statiche tramite server proxy di Target. |
+| Carica contenuto misto | Abilitare il contenuto misto durante l&#39;apertura di un sito Web mediante Enhanced Experience Composer (EEC). L&#39;abilitazione di questa opzione evita il sovraccarico aggiuntivo del caricamento di risorse statiche tramite server proxy di Target.<br>Questa opzione è utile, ad esempio, se le intestazioni dell&#39;Informativa sulla sicurezza dei contenuti (CSP) consentono di caricare contenuto misto senza l&#39;utilizzo di server proxy con la versione EEC attivata.<br>Questa opzione è utile anche se il sito Web HTTP contiene un tempo di caricamento maggiore nella EEC, in cui javascript, immagini e così via richiedono più tempo per il caricamento tramite proxy. |
 | Genera istantanee esperienza | L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti. |
 
 ## Configurazione di riquadri di visualizzazione per dispositivi mobili {#section_42176D062BCE4A28ADBB784CC4BEF84D}
