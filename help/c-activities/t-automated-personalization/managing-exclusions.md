@@ -7,7 +7,7 @@ solution: Target,Analytics
 title: Gestire le esclusioni
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 7c51934b62044feebed0c54ddbbf49f9c8acdea5
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -21,6 +21,8 @@ Gestire i gruppi di esclusione e le offerte duplicate nelle attività di persona
 Crea dei gruppi di esclusione nelle attività di Personalizzazione automatizzata per escludere automaticamente esperienze con specifiche offerte.
 
 I gruppi di esclusione sono un ottimo modo per garantire che le offerte incompatibili non siano presentate nella stessa esperienza in percorsi diversi. Ad esempio, supponiamo di avere due offerte: una è per il 20% di sconto di tutte le merci e l&#39;altro è per il 15% di sconto. Non vorresti mai che queste due offerte fossero presentate ai visitatori nella stessa esperienza. Se si aggiungono queste due offerte a un gruppo di esclusione, è possibile assicurarsi che questo non sarà mai il caso.
+
+Potete anche limitare quali tipi di pubblico possono vedere offerte specifiche nelle attività AP. Per ulteriori informazioni, consultate [Offerte di Automated Automated Personalization (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
 **Per creare un gruppo di esclusione:**
 
