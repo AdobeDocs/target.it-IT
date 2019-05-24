@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Domande frequenti su at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 ---
 
@@ -86,15 +86,15 @@ Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momen
 
 [!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) supporta ora le implementazioni di [!DNL at.js] con l’integrazione di [!UICONTROL Adobe Target Cloud Services]. Per ulteriori informazioni, consulta [Pacchetti di funzionalità](https://docs.adobe.com/docs/en/aem/6-2/release-notes/feature-packs.html) e [Integrazione con Adobe Target](https://docs.adobe.com/docs/en/aem/6-2/administer/integration/marketing-cloud/target.html) nella documentazione di *Adobe Experience Manager 6.2*.
 
-## Come posso evitare la visualizzazione momentanea di altri contenuti al caricamento pagina, utilizzando at.js ? {#section_4D78AAAE73C24E578C974743A3C65919}
+## Come posso evitare la visualizzazione momentanea di altri contenuti al caricamento pagina, utilizzando at.js? {#section_4D78AAAE73C24E578C974743A3C65919}
 
 Target consente di impedire la visualizzazione momentanea di altri contenuti al caricamento della pagina utilizzando uno dei seguenti metodi. Per ulteriori informazioni, consulta  [Impedire la visualizzazione momentanea di altri contenuti con at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md#concept_AA168574397D4474B993EEAB90865EBA).
 
-## Qual è la dimensione del file di at.js ? {#section_6A25C9A14C66441785A7635FEF5C4475}
+## Qual è la dimensione del file di at.js? {#section_6A25C9A14C66441785A7635FEF5C4475}
 
 Il file di at.js che scarichi è approssimativamente 109 KB. Tuttavia, poiché la maggior parte dei server comprime automaticamente i file per renderli di dimensioni più piccole, at.js è circa 34 KB quando è compresso (utilizzando GZIP o un altro metodo) sul server e caricato dagli utenti che visitano il tuo sito. Le impostazioni di compressione sul server in cui è stato installato at.js determinano la dimensione effettiva.
 
-## Perché at.js è più grande di mbox.js ? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
+## Perché at.js è più grande di mbox.js? {#section_AA1C43897E46448FA3E26EEC10ED7E51}
 
 Le implementazioni di at.js utilizzano una sola libreria ( [!DNL at.js]), mentre quelle di mbox.js usano due librerie ( [!DNL mbox.js] e [!DNL target.js]). Quindi un confronto più equo è quello tra at.js e mbox.js* più* `target.js`. Confrontando le dimensioni compresse con GZIP delle due versioni, at.js versione 1.2 è di 34 KB e mbox.js versione 63 è di 26,2 KB. ``
 
@@ -124,7 +124,7 @@ Sì, se usi at. js 2. x puoi usare il VEC per la tua SPA. Per ulteriori informaz
 
 Sì. È inoltre possibile utilizzare mboxTrace per il debug o gli Strumenti per sviluppatori del browser per controllare le richieste di rete, filtrando “mbox” per isolare le chiamate mbox.
 
-## Posso usare caratteri speciali nei nomi delle mbox con at.js ? {#section_8E31D2E8A27642098934D7DACFB2A600}
+## Posso usare caratteri speciali nei nomi delle mbox con at.js? {#section_8E31D2E8A27642098934D7DACFB2A600}
 
 Sì, come con mbox.js.
 
