@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -21,6 +21,10 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 28 maggio 2019 | [Accedere a Target da Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Aggiunta nuova sezione: &quot; Modificate la lingua per la documentazione di Target. &quot; |
+|  | [Determinare un vincitore](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information abut p-values. |
+|  | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Sezione aggiunta di risoluzione dei problemi su come Target gestisce iframe a più livelli. |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte nuove domande frequenti: &quot; Qual è il periodo di tempo previsto per le operazioni di Recommendations? &quot; |
 | 24 maggio 2019 | [Note sulla versione di Target (pre-rilascio)](/help/r-release-notes/target-release-notes.md) | Nuove informazioni su at.js 2.1.0. |
 | 23 maggio 2019 | [Gestire le esclusioni](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Sono state aggiunte informazioni e collegamenti per limitare il tipo di visualizzazione delle offerte specifiche nelle attività AP mediante le regole di targeting. |
 |  | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Testo aggiornato nell&#39;introduzione. |
