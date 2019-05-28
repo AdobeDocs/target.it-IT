@@ -7,7 +7,7 @@ solution: Target
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: 396112a2178e1842e7f5cf6c875bfd3046a57229
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
 In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
+
+## Target supporta iframe a più livelli?
+
+Target non supporta iframe a più livelli. Se il sito Web carica un iframe con un iframe secondario, le librerie Target (in. js e mbox. js) interagiscono solo con l&#39;iframe principale. Le librerie di destinazione non interagiscono con l&#39;iframe secondario.
+
+Come soluzione alternativa, potete aggiungere una pagina nell&#39;esperienza con l&#39;URL dell&#39;iframe secondario.
 
 ## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_313001039F79446DB28C70D932AF5F58}
 
