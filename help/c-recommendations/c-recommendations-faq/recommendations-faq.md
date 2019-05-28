@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -18,6 +18,22 @@ source-git-commit: c9fb157cda163f4ec37f89e7c9ff93ebc659a37d
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli{#recommendations-faq}
 
 Elenco delle domande frequenti sulle attività relative ai consigli.
+
+## Qual è il periodo di tempo previsto per le operazioni di Recommendations?
+
+Le seguenti modifiche devono essere riportate entro circa 60 minuti:
+
+* Attributi degli elementi restituiti nel modello Progettazione.
+* Attributi degli elementi utilizzati nelle regole di esclusione globali che impediscono l&#39;inclusione dell&#39;elemento nelle raccomandazioni restituite.
+* Gli attributi degli elementi utilizzati nelle regole di inclusione all&#39;interno dei criteri che influiscono sulla inclusione o l&#39;esclusione dell&#39;elemento nelle raccomandazioni restituite.
+
+Le seguenti modifiche non vengono applicate finché l&#39;algoritmo successivo non viene eseguito (12-24 ore):
+
+* Attributi degli elementi utilizzati nelle regole di raccolta utilizzate per l&#39;attività.
+* Attributi degli elementi utilizzati in una promozione in base a un attributo o una raccolta associata all&#39;attività.
+* Categoria elemento in cui l&#39;elemento viene visualizzato per una &quot;Categoria corrente&quot; o &quot;Categoria preferita&quot; nei Primi venduti o nell&#39;algoritmo Più visualizzato.
+* Classificazione degli elementi consigliati quando l&#39;attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
+* Classificazione degli elementi consigliati in base agli attributi modificati quando la logica di raccomandazione è &quot;Elementi con attributi simili&quot;, quando vengono utilizzati i fattori di ponderazione &quot;Contenuti similarità&quot; o quando vengono utilizzati i fattori &quot;Ponderazione attributo&quot;.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
