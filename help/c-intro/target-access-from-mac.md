@@ -9,7 +9,7 @@ title: Accedere a Target da Adobe Experience Cloud
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: aa0ef8d4b085f72614dce291d268b06173e759bd
+source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 ---
 
@@ -52,9 +52,10 @@ Informazioni sull&#39;accesso [!DNL Adobe Target] dalla [!DNL Adobe Experience C
 
 1. Selezionate la prima lingua (principale), quindi selezionate una seconda lingua, se lo desiderate.
 
-   L&#39; [!DNL Target] interfaccia utente è disponibile nelle lingue seguenti.
+   L&#39; [!DNL Target] interfaccia utente è disponibile nelle seguenti lingue:
 
-   * Inglese
+   * English
+   * Spagnolo
    * Francese
    * Tedesco
    * Giapponese
@@ -67,6 +68,31 @@ Informazioni sull&#39;accesso [!DNL Adobe Target] dalla [!DNL Adobe Experience C
 1. Fai clic su **[!UICONTROL Salva]**.
 
 1. Disconnettetevi dall&#39; [!DNL Adobe Experience Cloud] o [!DNL Target], quindi effettuate di nuovo l&#39;accesso per rendere attive le modifiche.
+
+## Modifica della lingua per la documentazione di Target {#doc-lang}
+
+Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di Target viene convertita automaticamente e sarà sincronizzata con la versione inglese entro ore di modifiche apportate alla documentazione inglese.
+
+Per cambiare rapidamente la lingua nella versione inglese originale, fate clic sul collegamento nell&#39;intestazione della pagina.
+
+![Modifica alla lingua originale](/help/c-intro/assets/mt-original.png)
+
+Potete anche modificare rapidamente la lingua in qualsiasi lingua supportata facendo clic sull&#39;icona Commutatore lingua in alto a destra nell&#39;intestazione della pagina ( ![commutatore](/help/c-intro/assets/icon-language-switcher.png) lingua).
+
+![commutatore lingua](/help/c-intro/assets/language-switcher.png)
+
+[!DNL Target] La documentazione è disponibile nelle lingue seguenti:
+
+* English
+* Spagnolo
+* Francese
+* Tedesco
+* Giapponese
+* Italiano
+* Portoghese brasiliano
+* Cinese semplificato (disponibile a breve)
+* Cinese tradizionale
+* Coreano
 
 ## Video di formazione: Adobe Target in Experience Cloud (4:59)
 
