@@ -6,7 +6,7 @@ seo-title: Implementare Target con Adobe Launch
 title: Implementare Target con Adobe Launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: 19834da75f163d6357bc9b986a23f0bc1fea6d8e
+source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
 
 ---
 
@@ -31,7 +31,5 @@ La tabella seguente elenca le diverse fonti da cui puoi ottenere ulteriori infor
 
 I seguenti vantaggi si applicano solo se si utilizza Adobe Launch per implementare at.js. Per questo motivo, si consiglia di utilizzare Adobe Launch anziché DTM o un&#39;implementazione manuale di at.js.
 
-* **Consente la distribuzione asincrona di Target:** Per ulteriori informazioni, consultate &quot;Adobe Target Extension with an Asynchronous Deployment&quot; (Estensione asincrona con distribuzione asincrona) nella documentazione di [Adobe Target Extension](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension).
-* **Risolve le corse critiche tra Analytics e Target:** poiché la chiamata di Analytics potrebbe essere attivata prima della chiamata di Target, la chiamata di Target non è ancorata alla chiamata di Analytics e si potrebbero generare dei dati errati. A partire da Launch 0.6.0, l&#39;estensione Target Launch garantisce che il segnale di Analytics venga messo in attesa fino al completamento della chiamata di Target, sia che avvenga con successo oppure no. Questo dovrebbe risolvere le incongruenze dei dati che i clienti potrebbero aver riscontrato.
-* **Impedisce la gestione errata delle offerte di reindirizzamento:** quando si dispone sia di Target che Analytics sulla pagina e si è verificata un’offerta di reindirizzamento da parte di Target, si potrebbero riscontrare dei problemi se il Tracker Analytics genera una richiesta quando non dovrebbe perché l’utente viene reindirizzato a un URL diverso. Se si implementano Target e Analytics, non si verifica questo problema, poiché usando di Launch, Target determina l&#39;arresto della richiesta di segnale di Analytics.
-
+* **Solves Analytics and Target Race Condition:** Poiché la chiamata di Analytics potrebbe essere attivata prima della chiamata di Target, la chiamata di Target non è vincolata alla chiamata Analytics. Questo può portare a dati non corretti. A partire da 0.6.0, l&#39;estensione di Target Launch assicura che la chiamata beacon di Analytics attende che la chiamata di Target venga completata correttamente o meno. Questo dovrebbe risolvere le incongruenze dei dati che i clienti potrebbero aver riscontrato.
+* **Impedisce la gestione delle offerte di reindirizzamento errato:** Se nella pagina hai Target e Analytics ed è presente un&#39;offerta di reindirizzamento eseguita da Target, potresti rilevare una situazione in cui il tracker di Analytics attiva una richiesta quando non dovrebbe (perché l&#39;utente viene reindirizzato a un URL diverso). Se implementi Target e Analytics tramite Launch, non potrai affrontare questo problema. Utilizzando Launch, Target fa in modo che Analytics interrompa la richiesta del beacon Analytics.
