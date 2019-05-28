@@ -8,7 +8,7 @@ title: Note sulla versione di Target (pre-rilascio)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
+source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 4631137b4464bc04008fb1d290f6872ef4144217
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 24 maggio 2019**
+**Ultimo aggiornamento: 28 maggio 2019**
 
 >[!NOTE]
 >
 >Queste sulla versione contengono delle informazioni in anteprima. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti. Per visualizzare le informazioni sulla versione corrente, vedi [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali o possono essere diverse, a seconda della tempistica delle release.
 
-## at. js versione 2.1.0 (28 maggio 2019)
+## at. js versione 2.1.0 (3 giugno 2019)
 
 Siamo entusiasti di annunciare le seguenti funzionalità entusiasmanti in at. js 2.1.0:
 
