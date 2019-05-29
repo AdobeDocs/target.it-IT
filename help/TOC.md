@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -49,7 +49,6 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
    + [Panoramica sull’implementazione di Target](c-implementing-target/implementing-target.md)
    + Prima dell’implementazione {#before-implement}
       + [Prima dell’implementazione](c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
-      + [Comprendere le librerie JavaScript di Target](c-implementing-target/c-considerations-before-you-implement-target/target-implement.md)
       + [Preparare l’implementazione di Target](c-implementing-target/c-considerations-before-you-implement-target/prepare-to-implement-target.md)
       + Privacy {#privacy}
          + [Panoramica sulla privacy](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md)
@@ -269,7 +268,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
       + [Durata del profilo del visitatore](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Attributi del profilo](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinità tra categorie](c-target/c-visitor-profile/category-affinity.md)
-      + [Attributi del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
+      + [Attributi del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md).
       + [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossario di profili e variabili](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Domande frequenti su destinazioni e pubblico {#faq-audiences}
