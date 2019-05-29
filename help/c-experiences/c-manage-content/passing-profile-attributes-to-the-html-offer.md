@@ -8,7 +8,7 @@ title: Trasmettere i dati dinamici nelle offerte
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: f792c0b995e0f4445d3c3849a431d64b6bd60324
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -46,7 +46,7 @@ I seguenti valori possono essere “sostituiti tramite token”:
 | ID visitatore univoco | `${user.pcId}` |
 | ID di sessione univoco | `${user.sessionId}` |
 | Prima sessione del visitatore (vero o falso) | `${user.isFirstSession}` |
-| Comportamento passato | `{$user.endpoint.lastPurchasedEntity}`, `{$user.endpoint.lastViewedEntity}`, `{$user.endpoint.mostViewedEntity}`, `{$user.endpoint.categoryAffinity}` |
+| Comportamento passato | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
 Log information in the console for debugging purposes, such as `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
