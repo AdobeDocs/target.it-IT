@@ -7,7 +7,7 @@ solution: Target
 title: Come funziona il targeting
 uuid: 8b5a36c0-555d-42c5-8b24-c08d07440a53
 translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Adobe Target si integra con le tue pagine web tramite la libreria JavaScript at.js o mbox.js.
 
-In [!DNL Target Classic] sono utilizzate mbox intorno a ogni area nella pagina in cui visualizzare contenuto con targeting o raccogliere dati. Queste mbox non sono necessarie in [!DNL Target Standard]. Una [libreria JavaScript](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) a cui fare riferimento in ogni pagina è tutto ciò che serve per eseguire le attività di ottimizzazione.
+In [!DNL Target Classic] sono utilizzate mbox intorno a ogni area nella pagina in cui visualizzare contenuto con targeting o raccogliere dati. Queste mbox non sono necessarie in [!DNL Target Standard]. Una libreria JavaScript a cui fare riferimento in ogni pagina è tutto ciò che serve per eseguire le attività di ottimizzazione.
 
 Ogni volta che un visitatore richiede una pagina su cui è abilitato [!DNL Target], questo utilizza il processo seguente per distribuire le offerte:
 
