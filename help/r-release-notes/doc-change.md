@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
 
 ---
 
@@ -24,6 +24,7 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 | 29 maggio 2019 | [Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md) | Testo aggiornato per chiarire la differenza `user.categoryId` tra e `entity.categoryId`. |
 |  | [Migrare da mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Sezione riposta a questo argomento: Vantaggi di at. js. |
 |  | [Domande frequenti su at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Sezione riposta a questo argomento: &quot; Qual è l&#39;impatto di at. js e di mbox. js in fase di caricamento della pagina? &quot; |
+|  | [Trasmettere i dati dinamici nelle offerte](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Sintassi corretta nella riga Comportamento passato. |
 | 28 maggio 2019 | [Accedere a Target da Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | Aggiunta nuova sezione: &quot; Modificate la lingua per la documentazione di Target. &quot; |
 |  | [Determinare un vincitore](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Updated information abut p-values. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Sezione aggiunta di risoluzione dei problemi su come Target gestisce iframe a più livelli. |
