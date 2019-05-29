@@ -9,7 +9,7 @@ title: Concetti chiave di Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
 
 ---
 
@@ -50,7 +50,7 @@ Le posizioni sono elementi essenziali per le attività e le esperienze. Sarai tu
 
 In [!DNL Target Standard], una posizione può essere un qualsiasi elemento in una pagina, purché la pagina contenga una singola riga di codice che abilita [!DNL Target] nella sezione `<head>` di ogni pagina da monitorare. Questa riga di codice richiama le librerie JavaScript necessarie per raccogliere le informazioni e trasmettere esperienze mirate ai visitatori.
 
-Consulta [Informazioni sulle librerie JavaScript di Target](../c-implementing-target/c-considerations-before-you-implement-target/target-implement.md#concept_60B748DE4293488F917E8F1FA4C7E9EB) per ulteriori informazioni sulle differenze tra l’implementazione per posizione in [!DNL Target Standard] e implementazione mbox in [!DNL Target Classic].
+Consulta [Vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per ulteriori informazioni sulle differenze tra implementazione della posizione e [!DNL Target Standard] implementazione mbox in [!DNL Target Classic].
 
 Le posizioni vengono combinate con i tipi di pubblico per fornire un numero praticamente infinito di opzioni per indirizzare le informazioni ai clienti. Ad esempio, se un visitatore non è mai stato prima sul tuo sito, puoi presentargli un buono sconto speciale per i nuovi clienti. Allo stesso modo, la pagina potrebbe essere modificata con offerte ottimizzate per i clienti che ritornano.
 
