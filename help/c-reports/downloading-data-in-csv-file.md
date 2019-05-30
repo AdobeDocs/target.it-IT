@@ -9,7 +9,7 @@ title: Download di dati in un file CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: cb5455fef1d4df32dfe36032df9458b9db401380
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -84,4 +84,4 @@ Le informazioni seguenti si applicano all’opzione Scarica:
 * È possibile scaricare entrambi i rapporti per le attività Test A/B, Personalizzazione automatizzata, Targeting esperienze e Test multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
 * L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
-
+* I tipi di pubblico applicati nell&#39;interfaccia utente di reporting di Target non vengono trasferiti al rapporto sul download.
