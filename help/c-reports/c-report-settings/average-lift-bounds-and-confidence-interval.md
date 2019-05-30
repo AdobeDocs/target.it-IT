@@ -8,7 +8,7 @@ title: Incremento medio, limiti di incremento e intervallo di affidabilità
 topic: Premium
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: 721571e4257484af843d9ab5214cffc256c827db
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -38,7 +38,7 @@ Le informazioni sull’incremento nell’interfaccia utente di Target per la gen
 
 La figura seguente illustra i limiti di incremento e le informazioni sul livello di affidabilità:
 
-![](assets/lift-screenshot.png)
+![Rapporto su incremento medio e livello di confidenza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## Calcolo dei limiti di incremento  {#section_1D360781D972483693680BE0F07AEAD1}
 
