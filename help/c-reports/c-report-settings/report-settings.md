@@ -8,7 +8,7 @@ title: Impostazioni dei rapporti
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 5bfa33a302cf7d36f7160089e6e92fdfda3aa876
+source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
 
 ---
 
@@ -19,7 +19,7 @@ Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le imp
 
 Per visualizzare un rapporto, fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
-![](assets/report_ui.png)
+![Interfaccia utente](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Predefinito target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 1. Configura il rapporto dell&#39;attività come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
 1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]**.
 
-   ![](assets/report_preset.png)
+   ![Predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    Viene visualizzata la finestra di dialogo Nuovo predefinito:
 
-   ![](assets/report_preset_dialog.png)
+   ![Nuovo predefinito, finestra di dialogo](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Controlla le informazioni nelle sezioni Filtri e Impostazioni per verificare che il rapporto sia configurato come desiderato, quindi specifica il **[!UICONTROL Nome predefinito]** (fino a 50 caratteri).
 1. (Facoltativo) Se desideri che questa sia la vista di default/preferita del rapporto, imposta il pulsante **[!UICONTROL Imposta come predefinito di default]** su Attivato.
@@ -46,7 +46,7 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 
 Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Predefinito target]**.
 
-![](assets/report_preset_drop-down.png)
+![Elenco a discesa Predefinito](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
 **Modificare un predefinito**
 
@@ -55,7 +55,7 @@ Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Pred
 
    Una volta fatto clic su [!UICONTROL Salva] dopo aver modificato la configurazione del report, compare un asterisco (*) dopo il nome della preimpostazione per indicare che è stata modificata, come illustrato di seguito:
 
-   ![](assets/report_preset_asterisk.png)
+   ![Predefinito rapporto con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
 1. Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuov predefinito.
 
@@ -63,14 +63,14 @@ Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Pred
 
    Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
 
-   ![](assets/report_preset_update.png)
+   ![Aggiornamento predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Eliminare un predefinito**
 
 1. Seleziona il predefinito da eliminare.
 1. Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Elimina]**.
 
-   ![](assets/report_preset_delete.png)
+   ![Eliminazione predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l&#39;eliminazione.
 
@@ -104,7 +104,7 @@ Per ulteriori informazioni, consulta [Tipi di pubblico](../../c-target/target.md
 
 Nella casella Intervallo date viene visualizzato l&#39;intervallo di date del rapporto corrente. Fai clic sull&#39;icona a discesa per visualizzare un calendario che consente di modificare l&#39;intervallo di date del rapporto.
 
-![](assets/date_range.png)
+![Calendario      ](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall&#39;inizio dell&#39;attività]** e **[!UICONTROL Fino al termine dell&#39;attività]**.
 
@@ -122,7 +122,7 @@ Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni d
 
 Nella figura seguente viene mostrata la finestra di dialogo Impostazioni per un’attività A/B:
 
-![](assets/ab_settings_dialog.png)
+![Impostazioni, finestra di dialogo](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
 A seconda del tipo di attività selezionata, le opzioni variano:
 
@@ -183,9 +183,9 @@ Fai clic sull’icona **[!UICONTROL Contributo posizione]** per far sì che il r
 
 Seleziona o deseleziona le esperienze sul lato sinistro del grafico per visualizzare o nascondere dal grafico le esperienze corrispondenti.
 
-Nell’illustrazione seguente, il rapporto contiene solo le esperienze B e C:
+Se la figura seguente, solo esperienze predefinite, Mid-East e Totale vengono visualizzate nel report. L&#39;esperienza Asia è nascosta nel grafico.
 
-![](assets/report_experiences.png)
+![Esperienze](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
 ## Media corrente  {#section_59066693158C4433B87D07402C2BC6CD}
 
@@ -198,7 +198,7 @@ Seleziona la vista grafico desiderata:
 * Giornaliero
 * Incremento giornaliero
 
-![](assets/report_running_average.png)
+![Rapporto Media in esecuzione](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -214,13 +214,13 @@ Per accedere all’opzione Metodologia di conteggio, durante la visualizzazione 
 
 La metodologia di conteggio sarà la stessa di quella selezionata nella finestra di dialogo [!UICONTROL Impostazioni], sopra descritta.
 
-![](assets/counting_methodology.png)
+![Metodologia di conteggio](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 Per impostazione predefinita, il grafico è tracciato in modalità [!UICONTROL Giornaliero].
 
 Per modificare la modalità fai clic sull’elenco a discesa [!UICONTROL Giornaliero], quindi seleziona [!UICONTROL Cumulativo].
 
-![](assets/counting_methodology_2.png)
+![Cumulative](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
