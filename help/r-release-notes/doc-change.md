@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 7329f10cf0f5727daece1bc6432b510569dff2e8
 
 ---
 
@@ -21,6 +21,8 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 30 maggio 2019 | [Accedere a Target da Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentazione è ora disponibile in lingua cinese semplificato. |
+|  | [Download di dati in un file CSV](/help/c-reports/downloading-data-in-csv-file.md) | Aggiunta nuova caratteristica nella sezione Dettagli ordine di esportazione a CSV: &quot; I tipi di pubblico applicati nell&#39;interfaccia utente di reporting di Target non vengono trasferiti al rapporto di download. &quot; |
 | 29 maggio 2019 | [Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md) | Testo aggiornato per chiarire la differenza `user.categoryId` tra e `entity.categoryId`. |
 |  | [Migrare da mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Sezione riposta a questo argomento: Vantaggi di at. js. |
 |  | [Domande frequenti su at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Sezione riposta a questo argomento: &quot; Qual è l&#39;impatto di at. js e di mbox. js in fase di caricamento della pagina? &quot; |
