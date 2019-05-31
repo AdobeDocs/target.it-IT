@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 051dc7a47c66d4675486f6301ec6d77d16a140d8
 
 ---
 
@@ -21,6 +21,7 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 31 maggio 2019 | [Pianificare e implementare Consigli](/help/c-recommendations/plan-implement.md) | Esempio di codice aggiornato. |
 | 30 maggio 2019 | [Accedere a Target da Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentazione è ora disponibile in lingua cinese semplificato. |
 |  | [Download di dati in un file CSV](/help/c-reports/downloading-data-in-csv-file.md) | Aggiunta nuova caratteristica nella sezione Dettagli ordine di esportazione a CSV: &quot; I tipi di pubblico applicati nell&#39;interfaccia utente di reporting di Target non vengono trasferiti al rapporto di download. &quot; |
 |  | [Impostazioni dei rapporti](/help/c-reports/c-report-settings/report-settings.md) | Screenshots aggiornate. |
