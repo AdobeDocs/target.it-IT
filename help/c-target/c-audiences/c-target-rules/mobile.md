@@ -8,7 +8,7 @@ title: Dispositivi mobili
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+source-git-commit: 95e7a8240db8bf7c09d5cf003748c6cb544a8c05
 
 ---
 
@@ -60,6 +60,12 @@ I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#
    * Larghezza schermo (px)
    >[!NOTE]
    >
+   >A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite dai modelli Marketing Marketing e Dispositivo che specificano Iphone Modelli viene influenzata. Non è più possibile eseguire il targeting degli utenti con iphone con iOS 12.2 installato su di essi. Tuttavia, se tali utenti non dispongono di iOS 12.2, il targeting del modello iphone continua a funzionare correttamente.
+   >
+   >L&#39;aggiornamento iOS 12.2 non influenza l&#39;identificazione dei seguenti modelli perché questi modelli non supportano l&#39;aggiornamento a iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4 th Gen), iPod Touch 4 e iPod Touch 5.
+
+   >[!NOTE]
+   >
    >Puoi eseguire il targeting per gestore di telefonia mobile utilizzando le [impostazioni Geo](../../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
@@ -72,4 +78,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
