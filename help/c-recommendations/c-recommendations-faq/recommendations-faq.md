@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: b1195ddaa639ac51a3966777f3769fa46428b4a8
 
 ---
 
@@ -19,21 +19,25 @@ source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
 
 Elenco delle domande frequenti sulle attività relative ai consigli.
 
-## Qual è il periodo di tempo previsto per le operazioni di Recommendations?
+## Per quanto tempo si desidera che gli aggiornamenti degli elementi nel catalogo vengano riflessi sul sito?
 
-Le seguenti modifiche devono essere riportate entro circa 60 minuti:
+Dopo aver importato un file di feed, o dopo aver ricevuto gli aggiornamenti di entità tramite API o mbox, le seguenti modifiche saranno riportate in meno di 60 minuti:
 
 * Attributi degli elementi restituiti nel modello Progettazione.
 * Attributi degli elementi utilizzati nelle regole di esclusione globali che impediscono l&#39;inclusione dell&#39;elemento nelle raccomandazioni restituite.
 * Gli attributi degli elementi utilizzati nelle regole di inclusione all&#39;interno dei criteri che influiscono sulla inclusione o l&#39;esclusione dell&#39;elemento nelle raccomandazioni restituite.
 
-Le seguenti modifiche non vengono applicate finché l&#39;algoritmo successivo non viene eseguito (12-24 ore):
+Le modifiche seguenti non vengono applicate fino a quando viene eseguito l&#39;algoritmo successivo (entro 12-24 ore):
 
 * Attributi degli elementi utilizzati nelle regole di raccolta utilizzate per l&#39;attività.
 * Attributi degli elementi utilizzati in una promozione in base a un attributo o una raccolta associata all&#39;attività.
 * Categoria elemento in cui l&#39;elemento viene visualizzato per una &quot;Categoria corrente&quot; o &quot;Categoria preferita&quot; nei Primi venduti o nell&#39;algoritmo Più visualizzato.
 * Classificazione degli elementi consigliati quando l&#39;attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
 * Classificazione degli elementi consigliati in base agli attributi modificati quando la logica di raccomandazione è &quot;Elementi con attributi simili&quot;, quando vengono utilizzati i fattori di ponderazione &quot;Contenuti similarità&quot; o quando vengono utilizzati i fattori &quot;Ponderazione attributo&quot;.
+
+>[!NOTE]
+>
+>Un file di feed viene considerato importato quando il relativo stato cambia da &quot;Importazione di elementi&quot; in &quot;Preparazione degli aggiornamenti indice di ricerca&quot;. Per gli aggiornamenti potrebbero essere necessari più di 60 minuti nell&#39;interfaccia utente di Ricerca catalogo, La ricerca catalogo è aggiornata quando lo stato di feed cambia in &quot;Aggiornamenti completati&quot;. Anche se la ricerca catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti nei fotogrammi indicati sopra. Il tempo più recente di aggiornamento dell&#39;indice di ricerca catalogo viene visualizzato nella pagina Ricerca catalogo.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
