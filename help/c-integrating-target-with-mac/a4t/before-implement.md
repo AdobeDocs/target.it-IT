@@ -8,7 +8,7 @@ title: Prima dell’implementazione
 topic: Premium
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 3b3b8d000f718fc87183e6e26b917ac683a61e72
+source-git-commit: f3d4963da631c668fb53a3939df53c80adff468b
 
 ---
 
@@ -76,3 +76,9 @@ Hit che contengono dati di Analytics e Target includono un ID di dati supplement
 * È implementata una versione di [!DNL mbox.js] che supporta questa integrazione.
 
 Durante la risoluzione dei problemi, assicurati di confermare che l&#39;ID supplementare sia presente negli hit di Analytics.
+
+## Registrazione Analytics lato client {#client-side}
+
+Per impostazione predefinita, quando at. js, the [!DNL Experience Cloud Visitor ID Service]e appmeasurement. js si trovano nella pagina e [!DNL Adobe Analytics] si verificano eventi stili [!DNL Target] corretti a scopo di reporting e analisi, nel backend, l&#39;ID supplementare corretto viene incluso dalla pagina, come indicato in precedenza. Non sarà necessario gestire ed eseguire altre operazioni per A 4 T in modo corretto.
+
+Tuttavia, esistono casi in cui potrebbe essere opportuno avere maggiore controllo su quando e come inviare dati analitici [!DNL Target] relativi [!DNL Analytics] a scopo di reporting. Potreste avere uno strumento di analisi interno utilizzabile a scopi interni, ma anche inviare i dati di analisi a [!DNL Analytics] tramite il prodotto analisi interno, in modo che altri membri della vostra organizzazione possano continuare a utilizzare [!DNL Analytics] come origine di reporting visiva. Vedere [Passaggio 7: Riferimento at. js o mbox. js su tutte le pagine](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#step7) del sito in *Analytics for Target Implementation* per ulteriori informazioni.
