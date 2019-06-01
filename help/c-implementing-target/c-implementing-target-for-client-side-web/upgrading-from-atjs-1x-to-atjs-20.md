@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Aggiornamento da. js 1. x a. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d720980808172fbd49976ecac9406fc2508c06a6
+source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
 
 ---
 
@@ -189,20 +189,20 @@ Questa funzione non è più supportata. Non utilizzarla.
 
 | Metodo | Supportate? | Nuovo? | Obsoleta?<br>(apparirà il contenuto predefinito) |
 | --- | --- | --- | --- |
-| `getOffer()` | Sì |
-| `getOffers()` | Sì |
-| `applyOffer()` | Sì |
-| `applyOffers()` | Sì |
-| `triggerView()` | Sì |
-| `trackEvent()` | Sì |
-| `mboxCreate()` | Sì |
-| `mboxDefine()`<br>`mboxUpdate()` | Sì |
-| `targetGlobalSettings()` | Sì |
-| `Data Providers` | Sì |
-| `targetPageParams()` | Sì |
-| `targetPageParamsAll()` | Sì |
-| `registerExtension()` | Sì |
-| `At.js Custom Events` | Sì |
+| `getOffer()` | Sì |  |  |
+| `getOffers()` |  | Sì |  |
+| `applyOffer()` | Sì |  |  |
+| `applyOffers()` |  | Sì |  |
+| `triggerView()` |  | Sì |  |
+| `trackEvent()` | Sì |  |  |
+| `mboxCreate()` |  |  | Sì |
+| `mboxDefine()`<br>`mboxUpdate()` |  |  | Sì |
+| `targetGlobalSettings()` | Sì |  |  |
+| `Data Providers` | Sì |  |  |
+| `targetPageParams()` | Sì |  |  |
+| `targetPageParamsAll()` | Sì |  |  |
+| `registerExtension()` |  |  | Sì |
+| `At.js Custom Events` | Sì |  |  |
 
 ## Limitazioni e callout
 
@@ -334,7 +334,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 >
 >Le attività Auto-Target sono supportate tramite at. js 2. x e la VEC quando tutte le modifiche vengono applicate all &#39; `Page Load Event`. Quando vengono aggiunte modifiche a particolari viste, sono supportate solo le attività A/B Test, Auto-Allocate e Experience Targeting (XT).
 
-### Integrazioni
+### Integrazioni {#integrations}
 
 | Type (Tipo) | Supportate? |
 | --- | --- |
@@ -346,7 +346,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 | Strumento di debug | Sì |
 | Auditor | Le regole non sono state ancora aggiornate per. js 2. x |
 | Dynamic Tag Manager (DTM) | Sì |
-| Opt-in | No |
+| Opt-in | No. Il supporto di consenso per [il GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) è supportato [in. js versione 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personalizzazione avanzata AEM fornita da Adobe Target | No |
 
 ### Funzioni
@@ -848,6 +848,6 @@ La versione viene inviata come parametro della stringa query tramite il parametr
 
 at. js 2. x ottimizza il supporto di Adobe Target per gli spas e si integra con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
 Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
