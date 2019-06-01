@@ -8,7 +8,7 @@ title: Note sulla versione di Target (pre-rilascio)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 9f1cab87057a7b8803f795c852a7ffe839dd8f1c
+source-git-commit: fe022b641580e33afdac446f71cec85fd232b275
 
 ---
 
@@ -51,7 +51,7 @@ Questa versione include le seguenti funzionalità, modifiche e miglioramenti:
 
 * Le icone della barra degli strumenti vengono visualizzate correttamente dopo aver annullato il caricamento di una pagina nel Compositore esperienza visivo. Se non è possibile eseguire azioni specifiche finché non è stato completato il caricamento della pagina, le icone della barra degli strumenti associate sono disattivate. (TGT-33811)
 
-## Mobile App Visual Experience Composer (14 maggio 2019) {mobile-vec}
+## Mobile App Visual Experience Composer (14 maggio 2019) {mobile-vec-may 14}
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
