@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
+source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: d563d1de4768ad896bd468f995ee22a10cfa9f46
 
 Per definire informazioni aggiuntive sugli elementi del catalogo, utilizza attributi di entità personalizzati a valore singolo e multiplo.
 
-## Limiti {limiti}
+## Limiti {#limits}
 
 Per definire informazioni aggiuntive sugli elementi del catalogo, puoi includere fino a 100 attributi di entità personalizzati. Ad esempio, puoi creare un attributo personalizzato denominato `entity.genre` per definire un libro o un film. In alternativa, per la vendita di biglietti si possono creare attributi per il luogo di un evento in modo da includere un artista secondario, come la squadra ospite di un evento sportivo o il gruppo spalla di un concerto.
 
