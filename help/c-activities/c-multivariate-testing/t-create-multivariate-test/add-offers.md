@@ -1,11 +1,11 @@
 ---
 description: Crea le offerte da includere nel test tramite il Compositore esperienza visivo.
 seo-description: Crea le offerte da includere nel test tramite il Compositore esperienza visivo.
-seo-title: Creare combinazioni
+seo-title: Creare combinazioni in Adobe Target
 title: Creare combinazioni
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 3fe3adda8b729b9a8696b66f00ceab77a39a462b
 
 ---
 
