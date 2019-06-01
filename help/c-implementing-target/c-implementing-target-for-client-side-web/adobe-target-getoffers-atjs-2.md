@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e5ac81441b7bf1c57b1bf62f49100e98673ac65c
+source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
 
 ---
 
@@ -31,38 +31,41 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 | Nome campo | Obbligatorio | Limitazioni | Descrizione |
 | --- | --- | --- | --- |
-| request &gt; id | No | Uno tra `tntId`, `thirdPartyId` e `marketingCloudVisitorId` è obbligatorio. |
-| Request &gt; id &gt; thirdPartyId | No | Dimensione massima = 128 |
-| Request &gt; prefetch | No |
+| request &gt; id | No |  | Uno tra `tntId`, `thirdPartyId` e `marketingCloudVisitorId` è obbligatorio. |
+| Request &gt; id &gt; thirdPartyId | No | Dimensione massima = 128 |  |  |
+| Request &gt; experiencecloud | No |  |  |
+| Request &gt; experiencecloud &gt; analytics | No |  | Integrazione di Adobe Analytics |
+| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | Sono supportati i seguenti valori:<br>**client_ side**: Se specificato, viene restituito un payload di analisi al chiamante che deve essere utilizzato per inviare ad Adobe Analytics tramite l&#39;API di inserimento dati.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l&#39;identificatore SDID per unire le chiamate a scopo di reporting. |
+| Request &gt; prefetch | No |  |  |
 | Request &gt; prefetch &gt; views | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile”<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Passa i parametri da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile” | Passa i parametri di profilo da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
-| Request &gt; prefetch &gt; views &gt; product | No |
+| Request &gt; prefetch &gt; views &gt; product | No |  |  |
 | Request &gt; prefetch &gt; views &gt; product -&gt; id | No | Non vuoto<br>Dimensione massima = 128 | Passa gli ID prodotto da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; product &gt; categoryId | No | Non vuoto<br>Dimensione massima = 128 | Passa gli ID categoria prodotto da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
-| Request &gt; prefetch &gt; views &gt; order | No |
+| Request &gt; prefetch &gt; views &gt; order | No |  |  |
 | Request &gt; prefetch &gt; views &gt; order &gt; id | No | Lunghezza massima = 250 | Passa gli ID ordine da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; order &gt; total | No | Totale `>=` 0 | Passa i totali dell’ordine da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | No | Nessun valore vuoto<br>Lunghezza max di ogni valore: 50<br>Concatenata e separata da virgole<br>Lunghezza totale ID prodotto `<=` 250 | Passa gli ID prodotti acquistati da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
-| Request &gt; execute | No |
-| Request &gt; execute &gt; pageLoad | No |
+| Request &gt; execute | No |  |  |
+| Request &gt; execute &gt; pageLoad | No |  |  |
 | Request &gt; execute &gt; pageLoad &gt; parameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile”.<br>Nomi non consentiti: “orderId&quot;, “orderTotal&quot;, “productPurchasedId&quot; | Recupera le offerte con i parametri specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile&quot;. | Recupera le offerte con i parametri del profilo specificati al caricamento della pagina. |
-| Request &gt; execute &gt; pageLoad &gt; product | No |
+| Request &gt; execute &gt; pageLoad &gt; product | No |  |  |
 | Request &gt; execute &gt; pageLoad &gt; product -&gt; id | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte con gli ID prodotto specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte con gli ID categoria prodotto specificati al caricamento della pagina. |
-| Request &gt; execute &gt; pageLoad &gt; order | No |
+| Request &gt; execute &gt; pageLoad &gt; order | No |  |  |
 | Request &gt; execute &gt; pageLoad &gt; order &gt; id | No | Lunghezza massima = 250 | Recupera le offerte con gli ID ordine specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; order &gt; total | No | `>=` 0 | Recupera le offerte con i totali dell’ordine specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; order &gt; purchasedProductIds | No | Nessun valore vuoto<br>Lunghezza max di ogni valore: 50<br>Concatenata e separata da virgole<br>Lunghezza totale ID prodotto `<=` 250 | Recupera le offerte con gli ID prodotti acquistati specificati al caricamento della pagina. |
-| Request &gt; execute &gt; mboxes | No | Dimensione massima = 50<br>Nessun elemento null |
+| Request &gt; execute &gt; mboxes | No | Dimensione massima = 50<br>Nessun elemento null |  |
 | Request &gt; execute &gt; mboxes&gt;mbox | Sì | Non vuoto<br>No suffisso ’-clicked’<br>Dimensione massima = 250<br>Caratteri consentiti: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nome della mbox. |
 | Request &gt; execute &gt; mboxes&gt;mbox&gt;index | Sì | No null<br>Univoco<br>`>=` 0 | Nota che l’indice non rappresenta l’ordine di elaborazione delle mbox. Come in una pagina web con diverse mbox regionali, non è possibile specificarne l’ordine di elaborazione. |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile&quot;.<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Recupera le offerte per una data mbox con i parametri specificati. |
 | Request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile&quot;. | Recupera le offerte per una data mbox con i parametri del profilo specificati. |
-| Request &gt; execute &gt; mboxes&gt;mbox &gt; product | No |
+| Request &gt; execute &gt; mboxes&gt;mbox &gt; product | No |  |  |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte per una data mbox con gli ID prodotto specificati. |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte per una data mbox con gli ID categoria prodotto specificati. |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; order | No |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; order | No |  |  |
 | Request &gt; execute &gt; mboxes&gt;mbox &gt; order &gt; id | No | Lunghezza massima = 250 | Recupera le offerte per una data mbox con gli ID dell’ordine specificati. |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; total | No | `>=` 0 | Recupera le offerte per una data mbox con i totali dell’ordine specificati. |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; order &gt; purchasedProductIds | No | Nessun valore vuoto<br>Lunghezza massima di ogni valore = 50<br>Concatenata e separata da virgole<br>Lunghezza totale ID prodotto `<=` 250 | Recupera le offerte per una data mbox con gli ID dei prodotti acquistati dell’ordine specificati. |
@@ -125,6 +128,60 @@ adobe.target.getOffers({
   }
 });
 ```
+
+## Invoca getoffers () per recuperare il payload di analisi dal lato client
+
+```
+adobe.target.getOffers({
+      request: {
+        experienceCloud: {
+          analytics: {
+            logging: "client_side"
+          }
+        },
+        prefetch: {
+          mboxes: [{
+            index: 0,
+            name: "a1-serverside-xt"
+          }]
+        }
+      }
+    })
+    .then(console.log)
+```
+
+**Risposta**:
+
+```
+{
+  "prefetch": {
+    "mboxes": [{
+      "index": 0,
+      "name": "a1-serverside-xt",
+      "options": [{
+        "content": "<img src=\"http://s7d2.scene7.com/is/image/TargetAdobeTargetMobile/L4242-xt-usa?tm=1490025518668&fit=constrain&hei=491&wid=980&fmt=png-alpha\"/>",
+        "type": "html",
+        "eventToken": "n/K05qdH0MxsiyH4gX05/2qipfsIHvVzTQxHolz2IpSCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+        "responseTokens": {
+          "profile.memberlevel": "0",
+          "geo.city": "bucharest",
+          "activity.id": "167169",
+          "experience.name": "USA Experience",
+          "geo.country": "romania"
+        }
+      }],
+      "analytics": {
+        "payload": {
+          "pe": "tnt",
+          "tnta": "167169:0:0|0|100,167169:0:0|2|100,167169:0:0|1|100"
+        }
+      }
+    }]
+  }
+}
+```
+
+Il payload può quindi essere inoltrato ad Adobe Analytics tramite l&#39;API di inserimento [dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getoffers () e applyoffers () {#multiple}
 
