@@ -8,7 +8,7 @@ title: Privacy e Regolamento generale sulla protezione dei dati (RGPD)
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 6c1b4f26f635eab661ec426f9241b26247e880c3
+source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
 
 ---
 
@@ -55,7 +55,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->La funzionalità di opt-in è supportata in at.js versione 1.7.0, ma al momento non nella versione 2.0.0.
+>La funzionalità di consenso è supportata in at. js versione 1.7.0 e at. js 2.1.0. La funzione di consenso non è supportata in. js versione 2.0.0 e 2.0.1.
 >
 >L&#39;utilizzo di Adobe Launch per gestire l&#39;opt-in è l&#39;approccio consigliato. Esiste un ulteriore controllo granulare in Adobe Launch per nascondere elementi selezionati della pagina prima dell&#39;attivazione di Target che è utile da sfruttare come parte della strategia di consenso.
 
