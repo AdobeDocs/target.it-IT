@@ -11,7 +11,7 @@ topic: Premium
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 badge: premium
 translation-type: tm+mt
-source-git-commit: 7b944c5452969ce66f1386eb93378d7bf612beb4
+source-git-commit: 3a36b900ac3d24e515be5028ddee3d8f250023c7
 
 ---
 
@@ -83,7 +83,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
 
-### Ottenere l&#39;ID Workspace {workspace-id}
+### Ottenere l&#39;ID Workspace {#workspace-id}
 
 Dovrai passare l&#39;ID dell&#39;area di lavoro per sfruttare le autorizzazioni Enterprise nelle [API Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md).
 
@@ -214,7 +214,7 @@ Questo video spiega come creare aree di lavoro.
 
 * Comprendere le aree di lavoro predefinite
 
->[!VIDEO](https://video.tv.adobe.com/v/19463/)
+>[!VIDEO](https://video.tv.adobe.com/v/19463/?captions=ita)
 
 ### Come creare proprietà in Adobe Target (3:05)
 
@@ -226,4 +226,4 @@ Questo video spiega come creare aree di lavoro.
    * App mobile
    * Posta elettronica, set top box o chiamate API
 
->[!VIDEO](https://video.tv.adobe.com/v/18990/)
+>[!VIDEO](https://video.tv.adobe.com/v/18990/?captions=ita)
