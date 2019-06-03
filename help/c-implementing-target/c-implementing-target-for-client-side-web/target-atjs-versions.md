@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Dettagli sulle versioni di at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4d6bbef9d29e2e9c7043bc90df299c7c73db8923
+source-git-commit: 1180cb016c7c615cc9348d11f00c8fee4c1ee7cc
 
 ---
 
@@ -21,7 +21,7 @@ Dettagli sulle modifiche in ogni versione della libreria javascript [!DNL Adobe 
 >
 >Il team di Target gestisce solo due versioni di [!DNL at.js], la versione corrente e quella immediatamente precedente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata.
 
-## at. js versione 2.1.0 (data da annunciare)
+## at. js versione 2.1.0 (3 giugno 2019)
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
