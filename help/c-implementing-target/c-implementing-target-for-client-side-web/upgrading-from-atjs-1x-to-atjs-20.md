@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Aggiornamento da. js 1. x a. js 2. x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 4315e6dbec175b22fb7b321719c2f3e2d6729009
+source-git-commit: 6d3d8468dc65fc350dcf7d669039fae79015455d
 
 ---
 
@@ -55,13 +55,15 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 ## Distribuisci in. js 2. x {#deploy-atjs-200}
 
-1. Scarica at. js 2. x utilizzando l&#39;interfaccia utente di Target.
-
-   ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/c-experiences/assets/imp-200.png)
+1. Distribuisci at. js 2. x tramite l&#39;estensione [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
    >[!NOTE]
    >
-   >L&#39;installazione su. js 2. x tramite l&#39;estensione [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) non è ancora supportata.
+   > È preferibile distribuire at. js utilizzando Adobe Launch.
+
+   Oppure
+
+   Scarica manualmente at. js 2. x utilizzando l&#39;interfaccia utente di Target e distribuiscilo utilizzando il [metodo desiderato](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Funzioni at.js disattivare
 
@@ -342,7 +344,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 | Tipi di pubblico | Sì |
 | Attributi del cliente | Sì |
 | Frammenti esperienza AEM | Sì |
-| Estensione Adobe Launch | Non al momento |
+| Estensione Adobe Launch | [Sì](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Strumento di debug | Sì |
 | Auditor | Le regole non sono state ancora aggiornate per. js 2. x |
 | Dynamic Tag Manager (DTM) | Sì |
