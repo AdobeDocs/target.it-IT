@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2fa545f3991992aee82c36dd9c2dc67163b63e9
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -21,6 +21,8 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 5 giugno 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Aggiunta della nuova [sezione Risoluzione dei problemi](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) . |
+|  | [Concetti chiave di Target](/help/c-intro/target-key-concepts.md) | Modifiche di testo minori. |
 | 3 giugno 2019 | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
 |  | [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Aggiunta nuova sezione: &quot; Registrazione Analytics lato client. &quot; |
