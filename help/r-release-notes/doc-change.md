@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: a0f7dadf9e5c610c19b10bdd6f40e2af57ae6725
 
 ---
 
@@ -22,6 +22,7 @@ In questa pagina sono elencate modifiche importanti apportate [!DNL Adobe Target
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 5 giugno 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Aggiunta della nuova [sezione Risoluzione dei problemi](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) . |
+|  | [Aggiornamento da. js 1. x a. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Aggiornate informazioni sulla distribuzione di at. js utilizzando Adobe Launch, che è il metodo di distribuzione preferito. |
 |  | [Concetti chiave di Target](/help/c-intro/target-key-concepts.md) | Modifiche di testo minori. |
 | 3 giugno 2019 | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
