@@ -8,7 +8,7 @@ title: Risolvere i problemi di Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b45a1a141e9e1d229ed3f92b8124d3edf3bc3042
+source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
 
 ---
 
@@ -123,6 +123,10 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 ## Problemi noti
 
 * [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md)
+
+## Compositore esperienza visivo per app mobile
+
+* [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 
 ## Generazione di rapporti 
 
