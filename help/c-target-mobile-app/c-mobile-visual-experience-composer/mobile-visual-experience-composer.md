@@ -7,7 +7,7 @@ title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 766b6827b01d47fc83b685995deb4c2ed98323c8
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -182,6 +182,32 @@ Per una flessibilità aggiuntiva, puoi anche richiamare l&#39; `TargetVEC.prefet
 
 Tieni presente che ogni volta che un’offerta di Target viene precaricata, vengono applicate le offerte per l’ultima visualizzazione Target attivata con `AdobeTargetMobile.targetView()`, se possibile.
 
+## Risoluzione dei problemi {#ts}
+
+**Ho ricevuto un errore che indica che il valore &quot;context. application. name&quot; contiene caratteri non consentiti. Quali caratteri sono consentiti nei nomi delle app mobili?**
+
+I caratteri consentiti nei nomi degli app mobili includono:
+
+| Caratteri consentiti | Descrizione |
+| --- | --- |
+| Lettere |  |
+| Numeri |  |
+| `-` | Trattino |
+| `.` | Punto |
+| `,` | Virgola |
+| `:` | Due punti |
+| `#` | Cancelletto |
+| `(` | Parentesi aperta |
+| `)` | Parentesi chiusura |
+| `&` | Ampersand |
+| `+` | Segno più |
+
+Utilizzando un carattere non consentito, ad esempio un apostrofo ( `'` ), viene visualizzato il seguente messaggio di errore:
+
+```
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+```
+
 ## Limitazioni noti {#limitations}
 
 * Il VEC App mobile può essere utilizzato al momento per creare [attività A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Targeting delle esperienze (XT)](/help/c-activities/t-experience-target/experience-target.md) per le app mobili. Il supporto per gli altri tipi di attività sarà disponibile in futuro.
@@ -199,4 +225,4 @@ Tieni presente che ogni volta che un’offerta di Target viene precaricata, veng
 
 ## Video formazione: Adobe Target Mobile App Visual Composer (3:33) {#video}
 
->[!VIDEO](https://video.tv.adobe.com/v/27528)
+>[!VIDEO](https://video.tv.adobe.com/v/27528?captions=ita)
