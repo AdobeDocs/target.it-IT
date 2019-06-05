@@ -9,7 +9,7 @@ title: Concetti chiave di Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 ---
 
@@ -31,8 +31,8 @@ Target include diversi tipi di attività. La tabella seguente fornisce una panor
 | Tipo di attività | Descrizione |
 |--- |--- |
 | [Test A/B](/help/c-activities/t-test-ab/test-ab.md) | Il test A/B confronta due o più versioni del contenuto del sito web per vedere quale versione migliora maggiormente le conversioni durante un dato periodo di test.<br>**Nota:** Ora potete includere [raccomandazioni nelle attività A/B Test](/help/c-recommendations/recommendations-as-an-offer.md). Per questa funzionalità è necessario disporre di [una licenza di Target Premium](/help/c-intro/intro.md#premium). |
-| [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.<br>**Nota:** Ora potete includere [raccomandazioni all&#39;interno delle attività Auto-Allocazione](/help/c-recommendations/recommendations-as-an-offer.md). Per questa funzionalità è necessario disporre di una funzionalità di tipo tthis per disporre di [una licenza di Target Premium](/help/c-intro/intro.md#premium). |
-| [Auto-targettarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.<br>**Nota:** Ora potete includere [raccomandazioni nelle attività Auto-Target](/help/c-recommendations/recommendations-as-an-offer.md). This functionality requires that you have a This functionality requires that you have a [Target Premium license](/help/c-intro/intro.md#premium). |
+| [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.<br>**Nota:** Ora potete includere [raccomandazioni all&#39;interno delle attività Auto-Allocazione](/help/c-recommendations/recommendations-as-an-offer.md). Per questa funzionalità è necessario disporre di [una licenza di Target Premium](/help/c-intro/intro.md#premium). |
+| [Auto-targettarget](/help/c-activities/auto-target-to-optimize.md)<br>![Premium](/help/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.<br>**Nota:** Ora potete includere [raccomandazioni nelle attività Auto-Target](/help/c-recommendations/recommendations-as-an-offer.md). Per questa funzionalità è necessario disporre di [una licenza di Target Premium](/help/c-intro/intro.md#premium). |
 | [Utilizzo dei dati di Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A 4 T) | Puoi configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per i rapporti. Questo tipo di attività richiede di collegare il tuo account [!DNL Adobe Experience Cloud] sia con [!DNL Analytics] sia con [!DNL Target]. |
 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività. |
 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.<br>**Nota:** Ora potete includere [raccomandazioni nelle attività Experience Targeting (Targeting esperienza](/help/c-recommendations/recommendations-as-an-offer.md)). Per questa funzionalità è necessario disporre di [una licenza di Target Premium](/help/c-intro/intro.md#premium). |
@@ -120,7 +120,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
 
 ### Utilizzo del pubblico in Adobe Target (6:21)
 
@@ -132,4 +132,4 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ita)
