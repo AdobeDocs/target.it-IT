@@ -6,8 +6,8 @@ seo-title: Creazione di un test multivariato
 solution: Target
 title: Creazione di un test multivariato
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,7 +61,7 @@ Il test multivariato richiede una prima pagina di rapporto. In altre parole, il 
    Puoi aggiungere i seguenti tipi di offerte:
 
    * HTML
-   * Immagine 
+   * Immagine
    * Testo
 
 1. [Visualizzare l&#39;anteprima delle esperienze](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md#task_21A700587E88453A9FC2210C0DE53A28).
