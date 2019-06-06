@@ -6,8 +6,8 @@ seo-title: URL attività
 solution: Target
 title: URL attività
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ Quando viene richiesto durante la creazione dell’attività, specifica l’URL 
 
 >[!NOTE]
 >
->[!DNL Target] non distingue tra protocolli URL ( [!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] sono entrambi validi.
+>[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] sono entrambi validi.
 
 Per impostazione predefinita, il Compositore esperienza visivo apre la pagina specificata nelle preferenze dell’account. È possibile specificare una pagina diversa durante la creazione dell’attività.
 
