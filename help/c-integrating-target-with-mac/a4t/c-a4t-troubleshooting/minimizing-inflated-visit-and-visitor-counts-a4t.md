@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Minimizzare i conteggi gonfiati per visite e visitatori in A4T
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: tm+mt
-source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ source-git-commit: 95bd08b08591fdedfe2c3e17ad6da480de9d49ae
 Informazioni che consentono di minimizzare gli effetti di conteggia gonfiati per visite e visitatori quando si utilizza Analytics come origine per la generazione di rapporti.
 
 >[!IMPORTANT]
->Il 14 novembre 2016, in Adobe Analytics sonos tate cambiate le modalità di elaborazione di alcuni dati per i clienti che utilizzano le funzioni di reporting di Analytics per Target (A4T). Queste modifiche consentono un migliore allineamento dei dati di Adobe Target con il modello dati di Adobe Analytics . Le suddette modifiche sono state apportate per tutti i clienti che utilizzano A4T. Queste modifiche rispondono specificamente a un problema notato dai clienti, relativo a un conteggio eccessivo dei visitatori quando le attività di Target sono in esecuzione.
+>Il 14 novembre 2016, in Adobe Analytics sonos tate cambiate le modalità di elaborazione di alcuni dati per i clienti che utilizzano le funzioni di reporting di Analytics per Target (A4T). Queste modifiche consentono un migliore allineamento dei dati di Adobe Target con il modello dati di Adobe Analytics. Le suddette modifiche sono state apportate per tutti i clienti che utilizzano A4T. Queste modifiche rispondono specificamente a un problema notato dai clienti, relativo a un conteggio eccessivo dei visitatori quando le attività di Target sono in esecuzione.
 >
 >Nota: questo cambiamento non è retroattivo. Se i rapporti cronologici mostrano conteggi gonfiati e desideri escluderli, puoi creare una suite di rapporti virtuale, come descritto di seguito.
 >
@@ -49,8 +49,8 @@ Le cause identificate dei dati parziali includono le seguenti:
 * **ID delle suite di rapporti non allineati (implementazione):** la suite di rapporti specificata durante la configurazione dell’attività non corrisponde alla suite di rapporti nella pagina in cui viene consegnato il test. Questo aspetto è simile ai dati parziali perché i dati non possono essere riconciliati nei server di [!DNL Analytics].
 * **Pagine lente:** poiché le chiamate di [!DNL Target] sono nella parte superiore della pagina e quelle di [!DNL Analytics] normalmente sono in fondo alla pagina, se la pagina viene caricata lentamente aumenta la probabilità che un visitatore lasci la pagina dopo che la chiamata di [!DNL Target] è stata generata, ma prima della chiamata di [!DNL Analytics]. Questo può essere particolarmente problematico sui siti web mobili, spesso con connessioni più lente.
 * **Errori di pagina:** se ci sono errori JavaScript o altri scenari in cui ciascuno dei punti di contatto non si attiva (servizio Experience Cloud ID, Target e Analytics), si otterranno dei dati parziali.
-* **Offerte reindirizzate nell[!DNL Target]&#39;attività:** Per le offerte di reindirizzamento nelle attività utilizzando A 4 T, l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versioni precedenti delle librerie:** nel corso degli anni Adobe ha apportato diversi miglioramenti alle nostre librerie JavaScript ( [!DNL appMeasurement.js], `at.js/mbox.js` e `visitorAPI.js`) per assicurarsi che i dati vengano inviati nel modo più efficiente possibile. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Offerte di reindirizzamento nelle attività di[!DNL Target]:** per le offerte di reindirizzamento nelle attività che utilizzano A4T, l’implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
+* **Versioni precedenti delle librerie:** nel corso degli anni Adobe ha apportato diversi miglioramenti alle nostre librerie JavaScript ([!DNL appMeasurement.js], `at.js/mbox.js` e `visitorAPI.js`) per assicurarsi che i dati vengano inviati nel modo più efficiente possibile. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](../../../c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Quali sono le best practice per ridurre i dati parziali? {#section_065C38501527451C8058278054A1818D}
 
@@ -73,11 +73,11 @@ Poiché questa modifica di elaborazione influisce sui dati solo dopo la data di 
 
 Le informazioni seguenti relative a questo cambiamento includono istruzioni su come definire il segmento e applicarlo a una suite di rapporti virtuale in modo che questo segmento venga sempre applicato alle visualizzazioni di [!DNL Analytics].
 
-Nella maggior parte delle situazioni, un risultato di [!DNL Target] è vincolato a un risultato di [!DNL Analytics] su ogni pagina web. Questo vincolo si verifica se c’è un SDID coerente nella chiamata di [!DNL Target] e in quella di [!DNL Analytics] e un [!DNL Experience Cloud ID] (MCID) nella chiamata di [!DNL Analytics] sulla stessa pagina. Normalmente [!DNL Target] ha anche il MCID, ma se la chiamata a [!DNL Target] si verifica prima che l&#39;ID del visitatore venga restituito, il risultato sarà ancora vincolato a causa dell&#39;SDID. Inoltre, l&#39;utente deve rimanere sulla pagina abbastanza lungo da poter attivare una [!DNL Analytics] chiamata dopo che è stata avviata una  [!DNL Target]chiamata. Questo è lo scenario ideale.
+Nella maggior parte delle situazioni, un risultato di [!DNL Target] è vincolato a un risultato di [!DNL Analytics] su ogni pagina web. Questo vincolo si verifica se c’è un SDID coerente nella chiamata di [!DNL Target] e in quella di [!DNL Analytics] e un [!DNL Experience Cloud ID] (MCID) nella chiamata di [!DNL Analytics] sulla stessa pagina. Normalmente [!DNL Target] ha anche il MCID, ma se la chiamata a [!DNL Target] si verifica prima che l&#39;ID del visitatore venga restituito, il risultato sarà ancora vincolato a causa dell&#39;SDID. Inoltre, l’utente deve rimanere sulla pagina abbastanza a lungo per generare una chiamata [!DNL Analytics] dopo che è stata attivata una chiamata di [!DNL Target]. Questo è lo scenario ideale.
 
 **Risultati con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo comporta risultati con dati parziali (risultati senza visualizzazioni pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], verranno conteggiati correttamente come visitatori ritornati. Questi risultati verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi risultati perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedranno visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
 
-Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) che escluda tali risultati. Per istruzioni dettagliate, vedi [Creazione di suite di rapporti virtuali](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) nella documentazione di [!DNL Analytics].
+Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/it_IT/reference/virtual-report-suites.html) che escluda tali risultati. Per istruzioni dettagliate, consulta [Creazione di suite di rapporti virtuali](https://marketing.adobe.com/resources/help/it_IT/reference/vrs-create.html) nella documentazione di prodotto di [!DNL Analytics].
 
 Nell&#39;illustrazione seguente viene mostrata la definizione di un segmento per la suite di rapporti virtuale:
 
@@ -96,9 +96,9 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 * E
 * Istanze di collegamento di uscita: non esiste
 
-**Hit isolati:** In meno situazioni, gli utenti non rimangono sulla pagina abbastanza lunga per una chiamata Analytics e Target non ha un MCID corretto. Questi risultati vengono definiti “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
+**Risultati orfani:** in poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto. Questi risultati vengono definiti “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
 
-Per ridurre al minimo i risultati orfani, è possibile creare una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) che escluda tali risultati, come spiegato in precedenza.
+Per ridurre al minimo questi risultati “orfani”, crea una [suite di rapporti virtuali](https://marketing.adobe.com/resources/help/it_IT/reference/vrs-create.html) che esclude tali risultati, come descritto in precedenza.
 
 ## Che cosa significa questo per i rapporti di [!DNL Target]? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
