@@ -7,8 +7,8 @@ solution: Target
 title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,8 +19,8 @@ Informazioni sull&#39;utilizzo di Adobe Client Care per implementare il supporto
 
 Esegui la procedura seguente per richiedere il supporto CNAME in Target:
 
-1. Apri una  [Segnalazione per l’Assistenza clienti](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per richiedere il supporto CNAME per le chiamate Adobe Target.
-1. Registrarsi al [programma Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) e seguire le istruzioni di implementazione fornite nella guida sui *cookie di prima parte*.
+1. Apri una [Segnalazione per l’Assistenza clienti](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per richiedere il supporto CNAME per le chiamate Adobe Target.
+1. Iscriviti al [programma Adobe Managed Certificate (AMC)](https://marketing.adobe.com/resources/help/en_US/whitepapers/first_party_cookies/adobe_managed_cert_pgm.html) e segui i passaggi di implementazione descritti nella guida *Cookie di prima parte*.
 
    Il programma AMC aiuta a semplificare l’implementazione dei cookie di prima parte. Dopo la registrazione a questo programma, Adobe acquisterà e rilascerà il certificato da installare su server sicuri.
 
