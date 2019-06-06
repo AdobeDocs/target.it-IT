@@ -7,15 +7,15 @@ solution: Target
 title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Allocazione automatica{#auto-allocate}
 
-L&#39;attribuzione automatica identifica un vincitore tra due o più esperienze e rende automaticamente più effettive il traffico verso il vincitore per aumentare le conversioni, mentre il test continua a essere eseguito e impara.
+L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
 >[!IMPORTANT]
 >
@@ -27,7 +27,7 @@ Quando [crei un’attività A/B tramite il flusso di lavoro guidato in tre passa
 
 I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. Dopo aver fatto tutto questo, c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
 
-## La soluzione: Allocazione automatica  {#section_98388996F0584E15BF3A99C57EEB7629}
+## La soluzione: Allocazione automatica {#section_98388996F0584E15BF3A99C57EEB7629}
 
 L’allocazione automatica riduce il costo e il sovraccarico associati al determinare un’esperienza vincente. L’allocazione automatica monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze che hanno prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. È possibile vedere i vantaggi del test nei risultati, anche se l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo all’apprendimento.
 
@@ -39,15 +39,15 @@ In tali test, la maggior parte dei prodotti, tra cui Target, utilizzano il calco
 
 L’allocazione automatica esegue tutti i confronti impliciti tra le esperienze e produce un vincitore “reale”. Non vi è alcuna nozione di esperienza di “controllo” nel test.
 
-L’allocazione automatica assegna nuovi visitatori alle esperienze fino a quando l’intervallo di affidabilità della migliore esperienza non si sovrappone a quello di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma l’allocazione automatica utilizza intervalli di affidabilità in base alla [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) che compensa le valutazioni ripetute. A questo punto, abbiamo un vincitore reale. Quando si interrompe automaticamente l&#39;allocazione, a condizione che non esista una dipendenza temporale sostanziale per i visitatori che arrivano alla pagina, esiste almeno una probabilità del 95% che restituisce un&#39;esperienza la cui risposta effettiva non è peggiore di 1% (relativo) rispetto alla risposta effettiva dell&#39;esperienza vincente.
+L’allocazione automatica assegna nuovi visitatori alle esperienze fino a quando l’intervallo di affidabilità della migliore esperienza non si sovrappone a quello di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma l’allocazione automatica utilizza intervalli di affidabilità in base alla [disuguaglianza di Bernstein](https://it.wikipedia.org/wiki/Disuguaglianza_di_Bernstein) che compensa le valutazioni ripetute. A questo punto, abbiamo un vincitore reale. Quando Allocazione automatica si arresta, purché non vi siano dipendenze temporali rilevanti per i visitatori che giungono alla pagina, vi è almeno un 95% di probabilità che Allocazione automatica restituisca un’esperienza la cui vera risposta non sia inferiore all’1% (relativo) rispetto alla vera risposta dell’esperienza vincente.
 
-## Quando utilizzare Allocazione automatica, A/B o Personalizzazione automatizzata  {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quando utilizzare Allocazione automatica, A/B o Personalizzazione automatizzata {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilizza l&#39;**Allocazione automatica** quando vuoi ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Fornendo con maggiore frequenza le esperienze che hanno prestazioni migliori, aumentano le prestazioni complessive di attività.
 * Utilizza un **[Test A/B](../../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B ti aiuta a classificare tutte le tue esperienze, mentre l&#39;Allocazione automatica del traffico trova i migliori risultati ma non garantisce la differenziazione fra quelli minori.
 * Usa la [Personalizzazione automatizzata](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano stime basate su attributi di profilo individuali. L’Allocazione automatica del traffico esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra i visitatori.
 
-## Vantaggi chiave  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Vantaggi chiave {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Mantiene la rigorosità di un test A/B
 * Trova un vincitore statisticamente significativo più velocemente rispetto a un test A/B manuale.
@@ -57,7 +57,7 @@ L’allocazione automatica assegna nuovi visitatori alle esperienze fino a quand
 
 I seguenti termini sono utili quando si parla di Allocazione automatica:
 
-**Slot machine:** un approccio all’ottimizzazione ti tipo [slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit) compensa l’apprendimento esplorativo e il suo sfruttamento.
+**Slot machine:** un approccio all’ottimizzazione di tipo [slot machine o multi-armed bandit](https://en.wikipedia.org/wiki/Multi-armed_bandit) compensa l’apprendimento esplorativo e il suo sfruttamento.
 
 ## Funzionamento dell’algoritmo {#section_ADB69A1C7352462D98849F2918D4FF7B}
 
@@ -169,15 +169,15 @@ La funzione Allocazione automatica, invece, è un test A/B che produce un vincit
 
 Attualmente, la logica favorisce i visitatori che si convertono rapidamente o che effettuano visite frequenti. Questo perché tali visitatori aumentano temporaneamente il tasso di conversione complessivo dell’esperienza a cui appartengono. L’algoritmo si regola frequentemente, quindi l’aumento del tasso di conversione viene amplificato in ogni istantanea. Se il sito riceve molti di visitatori di ritorno, le loro conversioni possono potenzialmente aumentare il tasso di conversione globale per l’esperienza a cui appartengono. C&#39;è una buona probabilità che i visitatori di ritorno siano distribuiti in modo casuale, nel qual caso l’effetto aggregato (aumento dell’incremento) è mitigato. Per attenuare questo effetto, è consigliabile modificare il metodo di conteggio della metrica di sucesso per conteggiare ogni partecipante una sola volta.
 
-**È possibile utilizzare l&#39;utilità di calcolo delle dimensioni del campione quando si utilizza Auto-Allocation (Allocazione automatica) per valutare il tempo necessario per identificare il vincitore?**
+**Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?**
 
 Puoi utilizzare il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente con la correzione Bonferroni applicata in modo appropriato per stimare la durata del test. Nei nostri esperimenti, abbiamo visto che l’attività Allocazione automatica finisce molto prima di questa dimensione campione.
 
-**È necessario rimuovere un&#39;esperienza insoddisfacente da un&#39;attività di allocazione automatica per velocizzare il processo di determinazione di un vincitore?**
+**È necessario rimuovere un’esperienza insoddisfacente da un’attività di allocazione automatica per velocizzare il processo di determinazione di un vincitore?**
 
-Non esiste alcun motivo per rimuovere un&#39;esperienza insoddisfacente. L&#39;allocazione automatica fornisce esperienze ad alto prestazioni più spesso e rende meno performanti le esperienze meno performanti. L&#39;utilizzo di un&#39;esperienza insoddisfacente nell&#39;attività non influisce in modo significativo sulla velocità per determinare una vincente.
+Non esiste alcun motivo per rimuovere un’esperienza insoddisfacente. L’allocazione automatica fornisce esperienze ad alte prestazioni più spesso e offre invece con minor frequenza quelle meno performanti. L’utilizzo di un’esperienza insoddisfacente nell’attività non influisce in modo significativo sulla velocità per determinarne una vincente.
 
-Il 20% dei visitatori viene assegnato in modo casuale in tutte le esperienze. La quantità di traffico utilizzata per un&#39;esperienza insoddisfacente è limitata (20% per il numero di esperienze).
+Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. La quantità di traffico utilizzata per un’esperienza insoddisfacente è ridotta (20% diviso per il numero di esperienze).
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
