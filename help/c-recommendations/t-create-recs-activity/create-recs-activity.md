@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
-translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,13 +27,13 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    >[!NOTE]
    >
-   >[!DNL Target] non distingue tra protocolli URL ( [!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] sono entrambi validi.
+   >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] sono entrambi validi.
 
    L’URL dell’attività è la pagina in cui verranno visualizzati i consigli.
 
    ![](assets/DB_NewRecAct.png)
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona tale opzione. Vedi [Compositore esperienza basato su moduli](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona tale opzione. Consulta [Compositore esperienza basato su moduli](https://marketing.adobe.com/resources/help/it_IT/target/target/t_form_experience_composer.html).
 
    Quando fai clic su [!UICONTROL Avanti], il Compositore esperienza visivo si apre e mostra la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
 
@@ -83,7 +83,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Fai clic su **[!UICONTROL Successivo]**.
 
-   Puoi aggiungere delle promozioni ai consigli. Per ulteriori informazioni sull’aggiunta di promozioni prima e dopo, consulta  [Aggiunta di promozioni](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   Puoi aggiungere delle promozioni ai consigli. Per ulteriori informazioni sull’aggiunta di promozioni prima e dopo, consulta [Aggiunta di promozioni](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La schermata del Compositore esperienza visivo mostra la progettazione dei consigli sulla tua pagina.
@@ -119,7 +119,7 @@ Una volta terminata la visualizzazione in anteprima dei consigli, fai clic su **
 1. Al termine, fai clic su **[!UICONTROL Successivo]**.
 1. Specifica le impostazioni dell’attività.
 
-   Digita, ad esempio, un nome (obbligatorio) e una finalità (facoltativa) per l’attività. Per informazioni sulle impostazioni, consulta  [Impostazioni delle attività Consigli](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
+   Digita, ad esempio, un nome (obbligatorio) e una finalità (facoltativa) per l’attività. Per informazioni sulle impostazioni, consulta [Impostazioni delle attività Consigli](../../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB).
 
    >[!NOTE]
    >
@@ -139,6 +139,6 @@ Una volta terminata la visualizzazione in anteprima dei consigli, fai clic su **
 * Visualizzare il codice delle progettazioni
 
 1. (Facoltativo) Apri la pagina dei [!UICONTROL Rapporti] per visualizzare le prestazioni dell’attività di [!DNL Recommendations].
-1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività.](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)
+1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività](https://marketing.adobe.com/resources/help/it_IT/target/target/c_activity_collisions.html).
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
