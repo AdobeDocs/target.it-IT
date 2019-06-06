@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Fai clic su **[!UICONTROL Crea criterio]**.
 
-   ![Crea nuovi criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Seleziona **[!UICONTROL Carica criteri personalizzati]**.
 
