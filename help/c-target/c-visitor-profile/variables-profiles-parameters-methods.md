@@ -7,8 +7,8 @@ solution: Target
 title: Glossario di profili e variabili
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
-translation-type: tm+mt
-source-git-commit: 5cbe35899a2f97358739690fbb0f1ec4c5c52f45
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,13 +22,13 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | Profilo | Note |
 |--- |--- |
 | user.activeActivities<br>user.activeCampaigns | Restituisce l&#39;ID della campagna per tutte le campagne/attività in cui si trova l&#39;utente, anche se non ha interagito con la campagna/attività nella sessione corrente. |
-| user.pcId |
-| User.sessionId |
-| user.categoryAffinity |
+| user.pcId |  |
+| User.sessionId |  |
+| user.categoryAffinity |  |
 | user.categoryAffinities | Restituisce un array delle affinità che un visitatore ha popolato |
-| user.isFirstSession |
-| user.isNewSession |
-| user.daysSinceLastVisit |
+| user.isFirstSession |  |
+| user.isNewSession |  |
+| user.daysSinceLastVisit |  |
 | User.browser | Agente utente |
 | User.header | Tutti i profili `user.header` sono incorporati dai dati di intestazione di richiesta mbox |
 | user.header(&#39;x-cluster-client-ip&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio con [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172. |
@@ -40,16 +40,16 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | user.header(&#39;accept&#39;) | Lingua del visitatore e codifica del carattere |
 | user.header(&#39;connection&#39;) | Connessione server. Ad esempio: keep-live |
 | user.header(&#39;referrer&#39;) | URL del sito web della pagina corrente del visitatore. Non funziona per Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |
-| user.get(&#39;param_name&#39;) |
+| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
+| user.get(&#39;param_name&#39;) |  |
 | user.parameter | Attributi permanenti del profilo creati dagli script di profilo. Fa anche riferimento a profili “di sistema” come geolocalizzazione, conteggio delle visite, ecc. |
-| profile.get(&#39;param_name&#39;) |
-| profile.param(&#39;param_name&#39;); |
+| profile.get(&#39;param_name&#39;) |  |
+| profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Parametri mbox che sono resi persistenti a causa del loro profilo.  Prefisso. |
 | profile.browserTime | Ora locale del browser del visitatore. Per l&#39;ora di sistema, creare un nuovo oggetto di data nello script del profilo |
-| profile.averageDaysBetweenVisits |
-| profile.sessionCount |
+| profile.averageDaysBetweenVisits |  |
+| profile.sessionCount |  |
 | parameter= | Termine generico per valori aggiuntivi passati con una mbox, di solito come coppie nome/valore. Non persistente a meno che non sia fatto con `profile.parameter` o `user.parameter`. |
 
 ## Variabili di URL {#section_8F25958273164EBAA6DC659302993FD3}
@@ -80,11 +80,11 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 | Variabile | Note |
 |--- |--- |
-| `mbox.name` |
-| mbox.param(&#39;param_name&#39;) |
+| `mbox.name` |  |
+| mbox.param(&#39;param_name&#39;) |  |
 | I parametri passano automaticamente con ogni richiesta:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
 | Parametri passati con mbox di ordine:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
-| mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e  [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
+| mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | In ogni mbox chiamata alla pagina viene assegnato un valore. |
 | mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all&#39;URL della pagina in cui lo cerca il mbox.js. |
 | mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
