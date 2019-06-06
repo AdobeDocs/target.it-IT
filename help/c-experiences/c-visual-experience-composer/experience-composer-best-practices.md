@@ -7,8 +7,8 @@ solution: Target
 title: Best practice e limitazioni del Compositore esperienza visivo
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
-translation-type: tm+mt
-source-git-commit: 87b046703c480583d322f899e59fb4a0526b5485
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -83,7 +83,7 @@ O
 
 Gli elementi a livello di blocco non devono essere utilizzati all&#39;interno di elementi in linea come tag di ancoraggio, span e così via. Questo potrebbe causare la perdita di altezza e larghezza degli elementi in linea. Lo strumento di sovrapposizione nel Compositore esperienza visivo potrebbe quindi non funzionare come previsto.
 
-**Quando aggiorni le offerte per mbox classiche, assicurati che la mbox venga creata come descritto in[Creare una mbox singola](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)nella guida di Target Classic.**
+**Quando aggiorni le offerte per mbox classiche, accertati che la mbox sia creata come descritto in[Creazione di una singola mbox](https://marketing.adobe.com/resources/help/it_IT/tnt/help/t_Creating_a_Single_Mbox.html)nella guida di Target Classic.**
 
 Se stai valutando di collocare un elemento o un gruppo di elementi in una mbox, inseriscili in un nuovo tag div con `class mboxDefault`:
 
@@ -109,7 +109,7 @@ Ogni modifica crea un nuovo elemento nel Compositore esperienza visivo. La secon
 
 In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, l&#39;editor di codice mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se elimini l&#39;elemento originale, il testo modificato non sarà in grado di trovare l&#39;elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
 
-Consulta [Selettori di elementi utilizzati nel Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337) .
+Consulta [Selettori di elementi utilizzati nel Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
 **Utilizza i tag`<b>`e`<i>`per la formattazione di elementi di testo con l’editor di testo RTF.**
 
