@@ -8,15 +8,15 @@ subtopic: Introduzione
 title: Metodi per immettere i dati in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
-translation-type: tm+mt
-source-git-commit: df0404540bbbcfd537c5869cb78603fc3372ec44
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Metodi per immettere i dati in Target{#methods-to-get-data-into-target}
 
-Informazioni sui diversi metodi utilizzabili per ottenere dati in Target, inclusi i parametri di pagina, gli attributi profilo della pagina, gli attributi profilo di script, i provider di dati, i provider di dati, l&#39;API di aggiornamento profilo in blocco e gli attributi del cliente.
+Informazioni sui diversi metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
 
 ## Parametri di pagina (detti anche “parametri mbox”){#section_5A297816173C4FE48DC4FE03860CB42B}
 
@@ -48,17 +48,17 @@ Esempi:
 
 I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla stessa chiamata server su cui entrano i dati.
 
-### Avvertenze 
+### Avvertenze
 
 * Richiede l&#39;aggiornamento del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
 * Se i dati devono essere utilizzati per la destinazione di una successiva chiamata di pagina/server, è necessario tradurli in uno script di profilo.
-* Le stringhe di query possono contenere solo caratteri che rispettano lo [standard Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
+* Le stringhe di query possono contenere solo caratteri in base allo standard [Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Oltre a quelli menzionati sul sito di IETF, Target consente i seguenti caratteri nelle stringhe di query:
 
    `&lt; &gt; # % ” { } | \\ ^ \[\] \``
 
-   Tutto il resto deve avere la codifica URL. Lo standard specifica il formato seguente ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), come illustrato di seguito:
+   Tutto il resto deve avere la codifica URL. Lo standard specifica il formato seguente ([https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt)), come illustrato di seguito:
 
    ![](assets/ietf1.png)
 
@@ -117,7 +117,7 @@ Esempi:
 
 I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla stessa chiamata server su cui entrano i dati.
 
-### Avvertenze 
+### Avvertenze
 
 Richiede aggiornamenti del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
 
@@ -169,7 +169,7 @@ Viene eseguito prima delle decisioni relative all&#39;appartenenza al pubblico e
 
 Può essere molto robusto. Ben 2000 istruzioni possono essere eseguite per ogni script.
 
-### Avvertenze 
+### Avvertenze
 
 Richiede conoscenza di JavaScript.
 
@@ -211,7 +211,7 @@ Supporta la raccolta di dati da più provider tramite async e le richieste di si
 
 L&#39;utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l&#39;impatto sulle prestazioni della pagina.
 
-### Avvertenze 
+### Avvertenze
 
 Se i fornitori di dati aggiunti a `window.targetGlobalSettings.dataProviders` sono asincroni, verranno eseguiti in parallelo. La richiesta API dei visitatori verrà eseguita in parallelo con le funzioni aggiunte a `window.targetGlobalSettings.dataProviders` per consentire un tempo minimo di attesa.
 
@@ -227,8 +227,8 @@ Documentazione: [Fornitori di dati](/help/c-implementing-target/c-implementing-t
 
 ### Video di formazione:
 
-* [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API di aggiornamento del profilo bulk {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
@@ -240,7 +240,7 @@ Questa opzione è molto simile agli attributi del cliente con alcune differenze:
 * I dati degli attributi dei clienti possono essere condivisi con Analytics. L&#39;aggiornamento del profilo bulk è utilizzabile solo in Target.
 * Gli attributi del cliente supportano la creazione di un profilo per una destinazione utente non ancora visibile. L&#39;API di aggiornamento del profilo bulk aggiorna solo i profili di Target esistenti.
 * Gli Attributi cliente richiedono l&#39;utilizzo di Experience Cloud ID (ECID). L&#39;API di aggiornamento del profilo bulk richiede l&#39;ID TNT o `mbox3rdPartyId`.
-* Non potete inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
+* Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
 ### Formato
 
@@ -256,7 +256,7 @@ Nessun limite al numero di attributi del profilo.
 
 Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l&#39;API e viceversa.
 
-### Avvertenze 
+### Avvertenze
 
 La dimensione del file batch deve essere inferiore a 50 MB. Inoltre, il numero totale di righe non deve superare 500000 righe per upload.
 
@@ -266,11 +266,11 @@ Le [chiamate all’aggiornamento collettivo V2](https://developers.adobetarget.c
 
 ### Esempi di codice
 
-Consulta [Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles).
+Consulta [Aggiornamento dei profili](https://developers.adobetarget.com/api/#updating-profiles).
 
 ### Link a informazioni rilevanti
 
-[Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles)
+[Aggiornamento dei profili](https://developers.adobetarget.com/api/#updating-profiles)
 
 ## Aggiornamento di singolo profilo API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
@@ -278,7 +278,7 @@ Quasi identico all&#39;API di aggiornamento del profilo bulk, ma un solo profilo
 
 ### Formato
 
-Il visitatore deve essere identificato tramite il valore mboxPC di Target o il valore mboxThirdPartyId. Experience Cloud ID (ECID) non è supportato. 
+Il visitatore deve essere identificato tramite il valore mboxPC di Target o il valore mboxThirdPartyId. Experience Cloud ID (ECID) non è supportato.
 
 ### Esempi di casi d&#39;uso
 
@@ -290,7 +290,7 @@ Nessun limite al numero di attributi del profilo.
 
 Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l&#39;API e viceversa.
 
-### Avvertenze 
+### Avvertenze
 
 Limite delle chiamate API di 1 milione per 24 ore
 
@@ -298,11 +298,11 @@ Aggiorna solo i profili. Impossibile creare un profilo per un potenziale utente 
 
 ### Esempi di codice
 
-GET e POST supportati.  `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+GET e POST supportati. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
 ### Link a informazioni rilevanti
 
-[Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles)
+[Aggiornamento dei profili](https://developers.adobetarget.com/api/#updating-profiles)
 
 ## Attributi del cliente {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
@@ -326,7 +326,7 @@ Gli stessi dati sono automaticamente disponibili in Target e Analytics.
 
 FTP può essere un metodo di implementazione più semplice rispetto all&#39;API.
 
-### Avvertenze 
+### Avvertenze
 
 I clienti di Target Standard possono sfruttare 5 attributi, i clienti Target Premium possono sfruttare 200 attributi
 
@@ -336,8 +336,8 @@ Richiede l&#39;implementazione di Experience Cloud ID (ECID).
 
 ### Esempi di codice
 
-I dettagli possono essere trovati in [Crea una sorgente attributo cliente e carica il file di dati](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+I dettagli sono disponibili in [Creare un’origine dell’attributo cliente e caricare il file di dati](https://marketing.adobe.com/resources/help/it_IT/mcloud/t_crs_usecase.html).
 
 ### Link a informazioni rilevanti
 
-[Crea una sorgente attributo cliente e carica il file di dati](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Crea una sorgente attributo cliente e carica il file di dati](https://marketing.adobe.com/resources/help/it_IT/mcloud/t_crs_usecase.html)
