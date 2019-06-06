@@ -7,8 +7,8 @@ solution: Target
 title: Priorità
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -28,7 +28,7 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
 
 1. Alla pagina vengono restituiti i contenuti per tutte le attività e le esperienze a cui corrisponde il visitatore.
-1. Se i contenuti di ogni attività fanno riferimento a diversi  [selettori CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), vengono visualizzati tutti i contenuti.
+1. Se i contenuti di ogni attività fanno riferimento a diversi [selettori CSS](../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337), vengono visualizzati tutti i contenuti.
 
    In caso di sovrapposizione o di selettore CSS duplicato, viene visualizzato il contenuto dell’attività con la priorità più alta. I risultati di tutte le attività eseguite sulla pagina vengono conteggiati e si riflettono nei rapporti.
 
@@ -41,7 +41,7 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
    * Se il targeting per il pubblico è stato impostato per una sola attività, viene visualizzata tale attività.
    * Se il targeting per il pubblico è stato impostato per tutte le attività o per nessuna, viene visualizzata l’attività che è stata approvata per prima.
 
-## Compositore esperienza basato su moduli di Target Standard/Premium e Compositore esperienza visivo di Target Standard/Premium  {#section_4620253E1CE942DD830724C7822B175F}
+## Compositore esperienza basato su moduli di Target Standard/Premium e Compositore esperienza visivo di Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -66,7 +66,7 @@ In presenza di due attività, una con targeting impostato sulla parola chiave di
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## Compositore esperienza basato su moduli di Target Standard/Premium con mbox non globali  {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositore esperienza basato su moduli di Target Standard/Premium con mbox non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
@@ -89,7 +89,7 @@ Se l’azienda utilizza mbox diverse da mbox globali nel compositore basato su m
 
 >[!NOTE]
 >
->I valori di priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità granulare da 0 a 999. Per ulteriori informazioni, consulta  [Impostazioni attività](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
+>I valori di priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999. Per ulteriori informazioni, consulta [Impostazioni attività](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
 **Due campagne di Target Classic utilizzano mbox non globali **
 
