@@ -6,8 +6,8 @@ seo-title: Per quanto tempo si deve eseguire un test A/B?
 solution: Target
 title: Per quanto tempo si deve eseguire un test A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni de
 
 Si potrebbe essere tentati di interrompere un&#39;attività se nei primi giorni dell’attività, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che l’attività raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
-Arrestare prematuramente un&#39;attività è una delle nove insidie significative in cui si può incappare durante l&#39;esecuzione di un test A/B. Per ulteriori informazioni, consulta  [Nove insidie frequenti per i test A/B e come evitarle](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Arrestare prematuramente un&#39;attività è una delle nove insidie significative in cui si può incappare durante l&#39;esecuzione di un test A/B. Per ulteriori informazioni, consulta [Nove insidie frequenti per i test A/B e come evitarle](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Target fornisce degli strumenti per garantire che l’attività abbia una dimensione campione abbastanza grande da raggiungere gli obiettivi di conversione:
 
@@ -36,9 +36,9 @@ Target fornisce degli strumenti per garantire che l’attività abbia una dimens
 
 * **Calcolatore dimensioni campione di Target:** se si sceglie di utilizzare un test A/B manuale invece dell’allocazione automatica, il calcolatore delle dimensioni del campione di Target consente di determinare le dimensioni del campione necessarie per un test di successo. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
-## Calcolatore delle dimensioni del campione di Adobe Target  {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Prima di configurare il test A/B, accedete all&#39;utilità di calcolo delle dimensioni [del campione di Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Prima di configurare il test A/B, accedi al [calcolatore delle dimensioni del campione di Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![](assets/sample_size_calculator.png)
 
@@ -150,7 +150,7 @@ In generale, l’utilizzo della metrica RPV richiede il 20-30% di tempo in più 
 
 Ogni volta che confronti due offerte, la possibilità di ottenere un falso positivo (osservando una differenza statisticamente significativa anche quando non c’è alcuna differenza nel tasso di conversione) è pari al livello di significatività. Ad esempio, in presenza di cinque offerte, A/B/C/D/E, dove A è l’offerta di controllo, vengono effettuati quattro confronti (tra il controllo e B, tra il controllo e C, tra il controllo e D e tra il controllo ed E), e la probabilità di un falso positivo è pari al 18,5% anche quando il livello di affidabilità è del 95%, in quanto Pr (almeno un falso positivo) = 1 - Pr (nessun falso positivo) = 1 - 0,95= 18,5%. Un falso positivo è definito in questo contesto come l’indicazione che il controllo è migliore dell’alternativa, o viceversa, quando in realtà non c’è differenza tra i due.
 
-## Conclusione  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusione {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Con l’utilizzo di un’attività di allocazione automatica, Target identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico di conseguenza per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere. L’allocazione automatica semplifica il raggiungimento degli obiettivi di conversione eliminando le supposizioni.
 
