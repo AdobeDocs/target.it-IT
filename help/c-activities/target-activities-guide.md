@@ -7,8 +7,8 @@ solution: Target
 title: Tipi di attività di Target
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
-translation-type: tm+mt
-source-git-commit: 5389431da497e18421f05ddf35755428b571ec6e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili 
 
 >[!NOTE]
 >
->Per la migliore esperienza e condividerla con altri, scaricate il PDF interattivo [per le attività Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
+>Per una migliore esperienza e per condividerlo con altri, scarica il [PDF interattivo della Guida delle attività di Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/activities_guide_82817.pdf).
 
 ## Che cosa fa? {#section_4ECAACC68723402EB3649033190E1BBC}
 
@@ -67,10 +67,10 @@ Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili 
 
 ## Vantaggi e considerazioni {#section_56C46ABEF7B945DDA0C1E6D714377123}
 
-| Tipo di attività | Vantaggi | Considerazioni  |
+| Tipo di attività | Vantaggi | Considerazioni |
 |--- |--- |--- |
 | Test A/B manuale | Il test A/B permette di avere una piena comprensione delle prestazioni di ogni esperienza, e non solo di sapere qual è l&#39;esperienza con le migliori prestazioni. | In un test A/B, se si osservano i risultati prima che la dimensione del campione venga raggiunta, si rischia di fare affidamento su risultati imprecisi (non è possibile “sbirciare” prima del termine).</br>Questo perché a differenza di un&#39;allocazione automatica, in un test A/B la distribuzione del traffico rimane fissa anche dopo che si riconosce che alcune esperienze stanno superando le altre. |
-| Allocazione automatica | L&#39;allocazione automatica riduce il costo di un tipico test A/B perché ha un tasso di conversione globale più elevato rispetto a un test manuale A/B. Il tasso di conversione è più alto perché l&#39;allocazione automatica spinge più traffico per l&#39;esperienza più performante, il che significa che si può realizzare il beneficio di tale esperienza vincente prima della fine del periodo di prova (si può sbirciare). | L&#39;allocazione automatica identifica il vincitore, ma non distingue tra i perdenti. Se occorre sapere le prestazioni di ciascuna esperienza, il test A/B è preferibile.</br>L’allocazione automatica funziona con una sola impostazione metrica avanzata: “Conteggio incremento e mantieni l&#39;utente in attività”. Ciò significa che se non si desidera contare le conversioni ripetute, è invece necessario eseguire un test A/B. L’allocazione automatica non può utilizzare rapporti in A4T. |
+| Allocazione automatica | L&#39;allocazione automatica riduce il costo di un tipico test A/B perché ha un tasso di conversione globale più elevato rispetto a un test manuale A/B. Il tasso di conversione è più alto perché l&#39;allocazione automatica spinge più traffico per l&#39;esperienza più performante, il che significa che si può realizzare il beneficio di tale esperienza vincente prima della fine del periodo di prova (si può sbirciare). | L&#39;allocazione automatica identifica il vincitore, ma non distingue tra i perdenti. Se occorre sapere le prestazioni di ciascuna esperienza, il test A/B è preferibile.</br>L’allocazione automatica funziona con una sola impostazione metrica avanzata: “Conteggio incremento e mantieni l&#39;utente in attività”.Ciò significa che se non si desidera contare le conversioni ripetute, è invece necessario eseguire un test A/B. L’allocazione automatica non può utilizzare rapporti in A4T. |
 | Targeting automatico | Con il targeting automatico, l&#39;apprendimento automatico viene applicato a qualsiasi tipo di esperienza, comprese le esperienze multi-pagina. Consente inoltre di acquisire il valore di personalizzazione automatica durante l&#39;utilizzo del flusso di lavoro familiare del test A/B. | Con il targeting automatico, se si desidera modificare il contenuto delle offerte spesso o frequentemente, l&#39;algoritmo avrà bisogno di tempo sufficiente dopo ogni cambiamento di sfruttare ciò che impara e consegnare effettivamente quel contenuto ai visitatori giusti.</br>Il targeting automatico non può utilizzare i rapporti in A4T. |
 | Personalizzazione automatizzata | Con la personalizzazione automatizzata è possibile raccogliere tutte le offerte in un unico luogo, e l&#39;algoritmo semplicemente capisce la loro migliore combinazione. Non è necessario specificare o creare singole esperienze. La personalizzazione automatizzata utilizza gli stessi algoritmi di apprendimento automatico del targeting automatico. | Quando si combinano più offerte, si verifica un&#39;esplosione combinatoria con conseguente necessità di una notevole quantità di traffico. L&#39;algoritmo di personalizzazione automatizzato rappresenta una grande quantità di fattori; quindi richiedono la maggior quantità di traffico.</br>La personalizzazione automatizzata non può utilizzare rapporti in A4T. |
 | Test multivariato (MVT) | Con il test multivariato, si possono testare più elementi contemporaneamente. | Un test multivariato richiede molto tempo e, a causa delle molteplici variabili in gioco, non produce necessariamente un&#39;esperienza vincente con fiducia.</br>Spesso è difficile raggiungere la quantità di traffico necessaria per completare il test. Poiché tutti gli esperimenti di test multivariati sono completamente fattoriali, troppi elementi che cambiano contemporaneamente possono accumularsi rapidamente fino ad un numero molto elevato di combinazioni possibili che devono essere testate.</br>Anche un sito con traffico abbastanza elevato potrebbe avere problemi a completare un test con più di 25 combinazioni in un lasso di tempo fattibile. |
