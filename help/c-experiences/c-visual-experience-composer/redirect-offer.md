@@ -7,15 +7,15 @@ subtopic: Test multivariato
 title: Reindirizzamento a un URL
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Reindirizzamento a un URL{#redirect-to-a-url}
 
-Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché visualizzare il contenuto nella stessa pagina.
+Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 
 Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l&#39;URL della pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
