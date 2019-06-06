@@ -7,8 +7,8 @@ solution: Target
 title: Stimare l’Incremento dei ricavi
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,13 +25,13 @@ La funzione per la stima dell’incremento è disattivata per impostazione prede
 
 >[!IMPORTANT]
 >
->L’incremento stimato è solo una stima. La sua precisione dipende da una serie di fattori, inclusi i dati previsionali basati sulla continuità delle tendenze correnti. Si tratta di stime basate sulle prestazioni passate e non devono essere utilizzati a scopo di orientamento finanziario. I risultati futuri possono variare.
+>L’incremento stimato è solo una stima. La sua precisione dipende da una serie di fattori, inclusi i dati previsionali basati sulla continuità delle tendenze correnti. Si tratta di stime basate sulle prestazioni passate e non devono essere utilizzate a scopo di orientamento finanziario. I risultati futuri possono variare.
 
 La funzione di stima calcola la quantità di incremento conseguito dall’esperienza vincente e il numero totale di visitatori per tutta la durata dell’attività, e fornisce l’incremento potenzialmente realizzabile se ogni visitatore visualizza l’esperienza vincente, in caso di tendenze uguali a quelle presenti durante il test.
 
 La stima dell’incremento dei ricavo è calcolata in base al ricavo per visitatore (Revenue per Visit, RPV) ottenuto dalla metrica dell’obiettivo primario.
 
-L&#39;incremento stimato viene calcolato utilizzando la formula seguente: (&lt; RPV esperienza vincente &gt; - &lt; RPV esperienza di controllo &lt;) * &lt; numero totale di visitatori nell&#39;attività &gt;
+La stima dell’incremento è calcolata utilizzando la seguente formula: (&lt;RPV esperienza vincente&gt; - &lt;RPV esperienza di controllo&lt;) * &lt;numero totale di visitatori nell’attività&gt;.
 
 Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K.
 
