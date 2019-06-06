@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
-translation-type: tm+mt
-source-git-commit: f8d7a0049a1e07660538feaf53d591f3660dab5c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ Seleziona un settore verticale in base agli obiettivi dell&#39;attività consigl
 | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
 | Media/Editoria | Coinvolgimento |
 
-## Chiave dei consigli  {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Chiave dei consigli {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La chiave dei consigli selezionata determina il tipo di criterio. Esistono diversi tipi di criteri che vengono rappresentati come schede di criteri quando imposti un’attività di [!DNL Recommendations].
 
@@ -48,7 +48,7 @@ La chiave dei consigli selezionata determina il tipo di criterio. Esistono diver
 | Articoli visualizzati di recente | Consiglia gli articoli che un visitatore ha visto più di recente, ad esempio gli articoli che ha guardato l&#39;ultima volta che ha visitato il tuo sito o gli articoli di tendenza in questo momento.<br>L’algoritmo di visualizzazione degli elementi visualizzati di recente restituisce i risultati specifici dell’attività di un visitatore in un [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono a ambienti diversi e un visitatore passa tra i due siti, l&#39;algoritmo restituisce solo gli elementi visualizzati di recente dal sito appropriato.<br>Questo tipo di criteri non è limitato dalle raccolte.<ul><li>Articoli visualizzati di recente</li></ul>**Nota:** non è possibile utilizzare il criterio Articoli visualizzati di recente per i consigli di backup.<br>Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.<ul><li>I criteri “visualizzati di recente” sono configurabili, come altri criteri nei consigli.</li><li>È possibile utilizzare [raccolte](/help/c-recommendations/c-products/collections.md), [esclusioni](/help/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.</li></ul>Eventuali casi di utilizzo includono:<ul><li>Una società multinazionale con più business potrebbe avere un visitatore che visualizza elementi in più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. In tal modo gli articoli visualizzati di recente non saranno visualizzati sugli altri siti della stessa società.</li></ul> |
 
 
-## Criteri/algoritmi  {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Criteri/algoritmi {#section_DC4E38A00B9744959F05F8E10A0087A1}
 
 [!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell&#39;attività. La Chiave consiglio determina le opzioni di logica disponibili.
 
@@ -71,7 +71,7 @@ Puoi anche utilizzare informazioni conosciute aggiuntive su un visitatore per mi
 
 Tutti i criteri di un giorno vengono eseguiti due volte al giorno. Tutti i criteri di una settimana e più vengono eseguiti una volta al giorno. I criteri di affinità per sito vengono eseguiti una volta al giorno. I criteri di backup vengono eseguiti due volte al giorno.
 
-## Informazioni sui Criteri di Visualizzazione  {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Informazioni sui Criteri di Visualizzazione {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il mouse su una scheda e fai clic sull&#39;icona Informazioni sulla scheda dei criteri, senza aprirli.
 
@@ -85,7 +85,7 @@ Fai clic sulla scheda **[!UICONTROL Uso dell&#39;Algoritmo]** per visualizzare u
 
 ![](assets/criteria_usage.png)
 
-## Determinare il momento in cui i risultati dei criteri sono pronti per la visualizzazione  {#section_03F328C07F234692B6D996DF745584B3}
+## Determinare il momento in cui i risultati dei criteri sono pronti per la visualizzazione {#section_03F328C07F234692B6D996DF745584B3}
 
 Dal diagramma attività, le schede Criteri ora indicano quando i risultati sono pronti per essere visualizzati. Sapere se i risultati sono pronti per essere visualizzati ti aiuta a determinare se l&#39;attività è pronta per l&#39;attivazione in diretta. Comprendere se i risultati sono pronti per essere visualizzati ti permette di sapere se ci sono problemi con i criteri.
 
