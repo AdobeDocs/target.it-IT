@@ -7,8 +7,8 @@ solution: Target
 title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,9 +17,9 @@ source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
 
 I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
 
-Per ulteriori informazioni, consulta [Trasmettere i parametri a una mbox globale](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+Per ulteriori informazioni, consulta [Trasmettere i parametri a una mbox globale](https://marketing.adobe.com/resources/help/it_IT/target/ov/c_pass_parameters_to_global_mbox.html).
 
-Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell&#39;elemento mbox è ora opzionale. Questa modifica ti consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato sul bordo.
+Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
 Per selezionare il parametro desiderato:
 
