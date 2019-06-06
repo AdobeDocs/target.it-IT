@@ -7,8 +7,8 @@ solution: Target
 title: Consentire contenuti misti nel browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -35,7 +35,7 @@ Se il sito web è in esecuzione su un dominio non protetto (HTTP), è necessario
 >
 >Consentire l’utilizzo di contenuti misti influenza solo il Compositore esperienza visivo e non il sito attivo.
 
-Per ulteriori informazioni, vedi la sezione sui [contenuto misti](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) nel sito web di *Mozilla Developer Network* (MDN).
+Per ulteriori informazioni, consulta [Contenuti misti](https://developer.mozilla.org/it-IT/docs/Web/Security/Mixed_content) nel sito Web *Mozilla Developer Network* (MDN).
 
 ## Consentire contenuti misti in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
@@ -50,7 +50,7 @@ target/t_mixed_content_firefox.xml
 1. In Firefox, digita `about:config` nella barra degli indirizzi.
 1. Conferma il messaggio di avvertenza visualizzato da Firefox.
 1. Nella barra di ricerca digita `block_active`.
-1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**` .
+1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
    Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “Falso”, l&#39;operazione è completata.  È consigliabile riavviare il computer dopo aver modificato questa impostazione.
 
@@ -83,4 +83,4 @@ target/t_mixed_content_chrome.xml
 
  -->
 
-Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
+Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=it) nella Guida di Google Chrome.
