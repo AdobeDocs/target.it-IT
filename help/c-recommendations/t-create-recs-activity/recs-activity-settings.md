@@ -4,14 +4,14 @@ keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di 
 seo-description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli.
 seo-title: Impostazioni delle attività di Consigli
 solution: Target
-subtopic: 'Consigli '
+subtopic: Consigli
 title: Impostazioni delle attività di Consigli
 title-outputclass: premium
 topic: Premium
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,7 +59,7 @@ Imposta la durata dell’attività.
 
 L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
-## Impostazioni reporting 
+## Impostazioni reporting
 
 * **Obiettivo:** assegna un nome all’obiettivo e seleziona la metrica di successo che determina se l’attività ha esito positivo.
 * **Altre metriche:** configura ulteriori metriche di successo da utilizzare nei rapporti.
