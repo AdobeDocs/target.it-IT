@@ -6,8 +6,8 @@ seo-title: Impostare le metriche
 solution: Target,standard
 title: Impostare le metriche
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
 
 Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
 
-Per informazioni dettagliate sulle metriche di successo, consulta  [Metriche di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
+Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
 1. Specifica l’obiettivo dell’attività.
 1. Seleziona una [metrica di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
