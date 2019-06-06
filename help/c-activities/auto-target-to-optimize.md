@@ -9,15 +9,15 @@ title-outputclass: premium
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 badge: premium
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # ![TARGET](/help/assets/premium.png) Targeting automatico{#auto-target}
 
-[!UICONTROL Auto-Target] utilizza un machine learning avanzato per scegliere tra più esperienze definite dall&#39;esperto di marketing che personalizzano il contenuto e stimolano le conversioni. Auto-Target distribuisce l&#39;esperienza più personalizzata a ogni visitatore in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
+La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automatico avanzato per scegliere tra più esperienze definite dall’addetto al marketing al fine di personalizzare il contenuto e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Durante la [creazione di un’attività A/B tramite il flusso di lavoro guidato 
 
 ## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
 
-L’opzione di [!UICONTROL Targeting automatico] all’interno del flusso di attività A/B ti consente di sfruttare l’apprendimento automatico per personalizzare in base a una serie di esperienze definite dall’esperto di marketing in un clic. [!UICONTROL La funzionalità di Targeting automatico è progettata per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o Allocazione automatica, determinando quale esperienza visualizzare per ogni visitatore.] A differenza di un’attività A/B in cui la finalità è quella di trovare un singolo vincitore, il [!UICONTROL Targeting automatico] determina automaticamente la migliore esperienza per uno specifico visitatore (in base al suo profilo e altre informazioni contestuali) per fornire un’esperienza altamente personalizzata.
+L’opzione di [!UICONTROL Targeting automatico] all’interno del flusso di attività A/B ti consente di sfruttare l’apprendimento automatico per personalizzare in base a una serie di esperienze definite dall’esperto di marketing in un clic. [!UICONTROL La funzionalità di Targeting automatico] è progettata per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o Allocazione automatica, determinando quale esperienza visualizzare per ogni visitatore. A differenza di un’attività A/B in cui la finalità è quella di trovare un singolo vincitore, il [!UICONTROL Targeting automatico] determina automaticamente la migliore esperienza per uno specifico visitatore (in base al suo profilo e altre informazioni contestuali) per fornire un’esperienza altamente personalizzata.
 
 Similmente alla Personalizzazione automatizzata, il [!UICONTROL Targeting automatico] utilizza un algoritmo di Foresta casuale, uno dei principali metodi di raccolta di dati scientifici, per determinare l’esperienza migliore da mostrare ad un visitatore. Il [!UICONTROL Targeting automatico] è adattabile ai cambiamenti nel comportamento del visitatore, perciò può essere eseguito perennemente per fornire un incremento. Questo a volte è indicato come modalità “sempre attiva”.
 
@@ -49,8 +49,8 @@ I seguenti termini sono utili quando si parla di [!UICONTROL Targeting automatic
 | Termine | Definizione |
 |---|---|
 | Slot machine | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
-| Foresta casuale | Foresta casuale è uno dei principali metodi di apprendimento automatico. In termini di scienza dei dati, è una classificazione d raccolta, o metodo di regressione, che funziona costruendo un gran numero di alberi decisionali sulla base di visitatori e attributi di visita. In Target, l’algoritmo Foresta casuale determina quale esperienza possa avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. Per ulteriori informazioni sulla foresta casuale in Target, consulta  [Algoritmo Foresta casuale](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
-| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il “costo” della ricerca dell’esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Foresta casuale | Foresta casuale è uno dei principali metodi di apprendimento automatico. In termini di scienza dei dati, è una classificazione d raccolta, o metodo di regressione, che funziona costruendo un gran numero di alberi decisionali sulla base di visitatori e attributi di visita. In Target, l’algoritmo Foresta casuale determina quale esperienza possa avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. Per ulteriori informazioni sulla foresta casuale in Target, consulta [Algoritmo Foresta casuale](../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA). |
+| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il “costo” della ricerca dell’esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta la voce di Wikipedia (in inglese) dedicata al [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Funzionamento di [!UICONTROL Targeting automatico] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -62,7 +62,7 @@ Di seguito sono disponibili collegamenti a ulteriori informazioni sui dati e gli
 | [Caricamento di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/algo-random-forest.md) | Esistono diversi modi per immettere i dati per i modelli di [!UICONTROL Targeting automatico] e personalizzazione automatizzata. |
 | [Raccolta di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/ap-data.md) | Gli algoritmi di personalizzazione di Target raccolgono automaticamente una varietà di dati. |
 
-## Determinazione dell&#39;allocazione del traffico  {#section_AB3656F71D2D4C67A55A24B38092958F}
+## Determinazione dell’allocazione del traffico {#section_AB3656F71D2D4C67A55A24B38092958F}
 
 A seconda dell&#39;obiettivo dell&#39;attività, puoi scegliere una diversa allocaizone del traffico tra il controllo e le esperienze personalizzate. Una buona pratica è di determinare questo obiettivo prima di attivare l&#39;attività.
 
@@ -104,7 +104,7 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 
 * La slot machine assicura che il modello “spenda” sempre una piccola frazione di traffico per continuare ad apprendere per tutta la durata dell&#39;attività di apprendimento e per prevenire lo sfruttamento eccessivo delle tendenze precedentemente apprese.
 * I modelli sottostanti vengono rigenerati ogni 24 ore utilizzando i dati di comportamento dei visitatori più recenti per garantire che Target sfrutti sempre le preferenze mutevoli dei visitatori.
-* Se l&#39;algoritmo non può determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente quella con i migliori risultati a livello generale, mentre continua a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
+* Se l&#39;algoritmo non può determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente quella con i migliori risultati a livello generale, mentre continua a cercare vincitori personalizzati. L’esperienza con le prestazioni migliori si può trovare con il [campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
 **L’algoritmo esegue l’ottimizzazione continua per una singola metrica dell’obiettivo.**
 
@@ -118,7 +118,7 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 
 **Target utilizza automaticamente tutti i tipi di pubblico di Experience Cloud condivisi, per generare i modelli di personalizzazione.**
 
-* Non è necessario eseguire alcuna operazione specifica per aggiungere i tipi di pubblico al modello. Per informazioni sull’utilizzo del pubblico di Experience Cloud con Target, consulta  [Experience Cloud Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* Non è necessario eseguire alcuna operazione specifica per aggiungere i tipi di pubblico al modello. Per informazioni sull’utilizzo dei tipi di pubblico di Experience Cloud con Target, consulta [Experience Cloud Audiences](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 **Gli addetti al marketing possono caricare dati offline, punteggi di propensione o altri dati personalizzati per creare modelli di personalizzazione.**
 
