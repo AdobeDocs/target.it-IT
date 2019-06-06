@@ -6,8 +6,8 @@ seo-title: Offerte
 solution: Target
 title: Offerte
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,7 +34,7 @@ La pagina [!UICONTROL Offerte] ha due schede lungo il lato destro, Offerte di co
 
 ![](assets/offer-picker-large.png)
 
-## Visualizzazione delle definizioni delle offerte  {#section_6B059DD121434E6292CAB393507D010E}
+## Visualizzazione delle definizioni delle offerte {#section_6B059DD121434E6292CAB393507D010E}
 
 È possibile visualizzare i dettagli della definizione di un’offerta in una scheda a comparsa nella libreria delle offerte, senza aprire l’offerta stessa.
 
@@ -46,7 +46,7 @@ Sono disponibili le seguenti informazioni:
 
 * Nome
 * Origine
-* Type (Tipo)
+* Tipo
 * ID offerta
 * Percorso offerta
 * Ultima modifica
@@ -63,7 +63,7 @@ Sono disponibili le seguenti informazioni:
 
 * Nome
 * Origine
-* Type (Tipo)
+* Tipo
 * ID offerta
 * Percorso offerta
 * Ultima modifica
@@ -79,18 +79,18 @@ Sono disponibili le seguenti informazioni:
 
 * Nome
 * Origine
-* Type (Tipo)
+* Tipo
 * ID offerta
 * Percorso offerta
 * Ultima modifica
 * Tipo di URL di reindirizzamento
 * URL assoluto o relativo
 
-## Video formazione: L&#39;archivio dei contenuti
+## Video di formazione: L’archivio dei contenuti
 
 Questo video include informazioni sulla gestione delle offerte.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
