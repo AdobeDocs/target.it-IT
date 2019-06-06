@@ -6,8 +6,8 @@ seo-title: Aggiungi esperienza
 solution: Target
 title: Aggiungi esperienza
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
-translation-type: tm+mt
-source-git-commit: b1dd50db873cb9a7cdca976366171ddf0c02d156
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -61,7 +61,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
 
    Fai clic su **[!UICONTROL Successivo]** dopo aver completato il passaggio.
 
-## Rinominare, modificare o eliminare un&#39;esperienza
+## Rinominare, modificare o eliminare un’esperienza
 
 Ricorda che puoi fare clic sull&#39;icona Altro (tre puntini di sospensione verticali) in un&#39;esperienza in un&#39;attività di un test A/B o targeting di esperienza (XT) e scegliere tra le seguenti opzioni, a seconda delle necessità:
 
@@ -84,7 +84,7 @@ Nota che quando denomini o rinomini un’esperienza, i seguenti caratteri non so
 | - | Meno |
 | @ | Chiocciola |
 
-## Duplicare un&#39;esperienza
+## Duplicare un’esperienza
 
 È possibile copiare un’esperienza in un Test A/B così da poter apportare modifiche minori senza dover ricreare l’esperienza da zero.
 
