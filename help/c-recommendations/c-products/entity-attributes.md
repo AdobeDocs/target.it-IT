@@ -1,6 +1,6 @@
 ---
 description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
-keywords: entity; attributi di entità; trasmettere informazioni a Recommendations; dati comportamentali; contatore dati; definire URL relativo; livello inventario visualizzato; definire prezzo; definire il margine di profitto; attributi personalizzati
+keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
 seo-description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
 seo-title: Attributi di entità
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 badge: premium
-translation-type: tm+mt
-source-git-commit: 2051033bd46c45752b62ec0414c2caa50dc4ee35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Solo valore singolo.
 
 Questo parametro richiesto identifica il prodotto. Questo ID alfanumerico deve essere lo stesso in tutti i prodotti [DNL Adobe Experience Cloud] utilizzati, tra cui [!DNL Analytics], affinché i vari prodotti riconoscano l’elemento e ne condividano i dati.
 
-`entity.id` i valori non devono contenere barre, marchi, punti interrogativi, simboli percentuali, virgole o altri caratteri punteggiatura che richiedono la codifica URL quando vengono passati in una chiamata REST API. Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
+I valori `entity.id` non devono contenere barre, simboli commerciali, punti interrogativi, simboli percentuali, virgole o altri caratteri di punteggiatura che richiedono la codifica URL quando vengono trasmessi in una chiamata API REST. Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
 
 Esempio: `'entity.id=67833'`
 
@@ -67,7 +67,7 @@ Ad esempio, nel codice seguente la categoria Womens viene divisa in varie sottoc
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Per la distribuzione mbox, viene utilizzato il nome di attributo più lungo per la chiave. Se c&#39;è un pareggio, viene utilizzato l&#39;ultimo attributo. Nell&#39;esempio precedente, il tasto della categoria è Womens:Outerwear:Jackets:Caban .
+Per la distribuzione mbox, viene utilizzato il nome di attributo più lungo per la chiave. Se c&#39;è un pareggio, viene utilizzato l&#39;ultimo attributo. Nell&#39;esempio precedente, il tasto della categoria è Womens:Outerwear:Jackets:Caban.
 
 ### `entity.brand`
 
@@ -148,7 +148,7 @@ Esempi:
 
 `'entity.secondary=Rockies'`
 
-Gli attributi di entità personalizzati supportano più valori. Consultate [Attributi di entità personalizzata](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) per i limiti di carattere e valore.
+Gli attributi di entità personalizzati supportano più valori. Consulta [Attributi di entità personalizzata](/help/c-recommendations/c-products/custom-entity-attributes.md#limits) per i limiti di carattere e valore.
 
 Esempio: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
