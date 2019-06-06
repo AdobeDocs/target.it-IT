@@ -2,15 +2,15 @@
 description: Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 keywords: consigli;criteri dei consigli;algoritmi dei consigli;attività di consigli;criteri;targeting consigli
 seo-description: Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-seo-title: 'Consigli '
+seo-title: Consigli
 solution: Target
-title: 'Consigli '
+title: Consigli
 title-outputclass: premium
 topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -59,8 +59,8 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar di base di Adobe Target: Introduzione a Recommendations {#intro-to-recs}
+## Webinar di base su Adobe Target: Introduzione a Recommendations {#intro-to-recs}
 
-Il webinar introduttivo di Recommendations include un&#39;approfondita conoscenza di come sfruttare il valore [!DNL Adobe Target Recommendations]di. Scopri in che modo questa [!DNL Target] attività visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell&#39; [!DNL Target] interfaccia utente per una panoramica dettagliata su come creare un [!DNL Recommendations] &#39;attività.
+Il webinar introduttivo su Recommendations include una descrizione approfondita di come sfruttare il valore di [!DNL Adobe Target Recommendations]. Scopri in che modo questa attività [!DNL Target] visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell’interfaccia utente [!DNL Target] per una panoramica dettagliata su come creare un’attività [!DNL Recommendations].
 
 [Introduzione a Recommendations](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
