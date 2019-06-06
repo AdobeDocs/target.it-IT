@@ -6,8 +6,8 @@ solution: Target
 title: Visualizzare un'anteprima delle esperienze per un test multivariato
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
