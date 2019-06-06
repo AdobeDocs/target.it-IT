@@ -5,10 +5,10 @@ seo-description: Esegui un test dinamico delle immagini in un’e-mail, e cambia
 seo-title: Test AdBox di un'immagine per e-mail
 solution: Target
 title: Test AdBox di un'immagine per e-mail
-topic: 'Consigli '
+topic: Consigli
 uuid: d0710adb-4649-4b57-9b70-4b49d43fa591
-translation-type: tm+mt
-source-git-commit: 384182cf3bd9110ebd5da124a2cc0f9a1b6cbf81
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ mboxSession={123456}&
 mboxPC={123456}” border=“0"/>
 ```
 
-Dove i valori indicati di seguito sono specifici per:
+I valori qui di seguito sono specifici per il tuo caso:
 
 | Valore | Descrizione |
 |--- |--- |
