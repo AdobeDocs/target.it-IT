@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introduzione
 title: Dettagli sulle versioni di mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
-translation-type: tm+mt
-source-git-commit: 1f3274df6ab14d60d99fea5d34a0449d285d8409
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ In questa pagina sono elencate le modifiche per ogni versione di mbox.js.
 >
 >È consigliabile che tutti gli utenti di mbox.js effettuino l’aggiornamento alla versione 57 o successiva. Alcuni utenti hanno avuto problemi di timeout per il mancato caricamento di `target.js`. La versione 57 ha risolto questo problema. Tuttavia, se utilizzi il servizio [!DNL Experience Cloud Visitor ID], è richiesta la versione 58 o successiva.
 
-Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore e dall’esistenza dell’ID del visitatore. Per informazioni, consulta  [Risposte alle chiamate di Target a seconda della versione della libreria](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore e dall’esistenza dell’ID del visitatore. Per informazioni, consulta [Risposte alle chiamate di Target a seconda della versione della libreria](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
@@ -31,18 +31,18 @@ Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dal
 
 **Versione di Target:** 17.7.1
 
-È ora disponibile la versione 63 di [!DNL mbox.js]. Per ulteriori informazioni, consulta [Download di mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
+È ora disponibile la versione 63 di [!DNL mbox.js]. Per ulteriori informazioni, consulta [Scaricare mbox.js](https://marketing.adobe.com/resources/help/it_IT/target/ov/t_target-download-config-mbox.html).
 
 I seguenti miglioramenti e correzioni sono inclusi nella versione 63 di [!DNL mbox.js]:
 
 * È stato risolto un problema nella generazione di SDID quando si utilizzano `mboxDefine()` e `mboxUpdate()`. Questo influisce solo sui clienti che dispongono di API visitatore nella pagina.
 
-## mbox.js versione 62  {#section_723A9119FE204183847D3B0929A99B41}
+## mbox.js versione 62 {#section_723A9119FE204183847D3B0929A99B41}
 
 * Sono stati risolti i problemi di visualizzazione momentanea nelle attività di reindirizzamento visualizzate nei browser Google Chrome.
 * È stata aggiunta l’impostazione `secureOnly` che indica se mbox.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False.
 
-## mbox.js versione 61  {#section_F3B59C5578B64883AE013B9342151193}
+## mbox.js versione 61 {#section_F3B59C5578B64883AE013B9342151193}
 
 **Versione di Target:** 16.7.2
 
@@ -59,7 +59,7 @@ La versione 61 di mbox.js contiene i seguenti miglioramenti:
    * Se non ci sono cookie di ID visitatore di Experience Cloud, tutte le richieste vengono eseguite in modo asincrono rispetto a [!DNL /ajax] durante il primo caricamento della pagina. Durante il secondo caricamento della pagina, Target utilizza il flusso normale perché i valori di ID visitatore sono già presenti.
    * Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## mbox.js versione 60  {#section_3BDAB885FA13444A8D35940A4BFF5825}
+## mbox.js versione 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Versione di Target:** 16.4.1
 
@@ -95,12 +95,12 @@ Anche nella versione 60, se il file [!DNL visitorAPI.js] è presente per il serv
 
 * Chiamate asincrone nella versione 60 (V60)
 
-   Quando utilizzi v60 con il servizio ID visitatore, tutte le chiamate mbox vengono eseguite in modo asincrono. Si tratta di un nuovo metodo di lavoro per mbox, quindi fai attenzione se vuoi eseguire l’aggiornamento a questa versione. Per comprendere alcuni dei rischi implicati, consulta la sezione sulle [considerazioni sull’asincronicità](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) della documentazione di [!DNL at.js] ( [!DNL at.js] utilizza anche chiamate asincrone).
+   Quando utilizzi v60 con il servizio ID visitatore, tutte le chiamate mbox vengono eseguite in modo asincrono. Si tratta di un nuovo metodo di lavoro per mbox, quindi fai attenzione se vuoi eseguire l’aggiornamento a questa versione. Per comprendere alcuni dei rischi implicati, consulta la sezione sulle [considerazioni sull’asincronicità](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) della documentazione di [!DNL at.js] ([!DNL at.js] utilizza anche chiamate asincrone).
 * Possibile visualizzazione momentanea per i nuovi visitatori
 
    Se utilizzi le versioni dalla 58 alla 60 con il servizio ID visitatore, le chiamate mbox attendono che sia impostato l’ID visitatore prima di attivarsi (o fino a un timeout). Questo accade durante il primo caricamento della pagina per un nuovo visitatore.
 
-## mbox.js versione 59  {#section_FF0E70C4C17E402D8374DE428C5D996E}
+## mbox.js versione 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
 **Versione di Target:** 16.2.1
 
@@ -113,7 +113,7 @@ La versione 59 di mbox.js contiene i seguenti miglioramenti:
 
    Invece di utilizzare `display:none` per nascondere la pagina come nella versione 58, viene usato `opacity:0`. Questo risolve i problemi del metodo precedente nel nascondere la pagina per i siti reattivi.
 
-## mbox.js versione 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js versione 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Versione di Target:** 15.7.1
 
@@ -138,7 +138,7 @@ window.targetGlobalSettings = {
 
 La versione 58 o successiva di mbox.js esegue il contenuto non-JavaScript per la mbox globale subito dopo il tag HTML `BODY`. Il contenuto JavaScript all’interno dei tag `<script>` per la mbox globale viene eseguito dopo che l’attivazione dell’evento `DOMContentLoaded`. Questo ordine di consegna dei contenuti assicura che il contenuto JavaScript per la mbox globale sia consegnato e renderizzato correttamente.
 
-## mbox.js versione 57  {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
+## mbox.js versione 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
 **Versione di Target:** 15.4.1
 
@@ -159,7 +159,7 @@ Le seguenti modifiche sono state apportate in questa versione:
 
       `<script src='external-url' async='true'></script>`
 
-      L’attributo `async` ha un supporto limitato in Internet Explorer (per informazioni: [https://developer.mozilla.org/it/docs/Web/HTML/Element/script#Compatibilità_con_i_browser](https://developer.mozilla.org/en/docs/Web/HTML/Element/script#Browser_compatibility)), pertanto è necessario escludere i visitatori che utilizzano versioni di IE precedenti da test che includono questi script di terze parti.
+      L’attributo `async` ha un supporto limitato in Internet Explorer (per informazioni: [https://developer.mozilla.org/it/docs/Web/HTML/Element/script#Browser_compatibility](https://developer.mozilla.org/it/docs/Web/HTML/Element/script#Browser_compatibility)), pertanto è necessario escludere i visitatori che utilizzano versioni di IE precedenti da test che includono questi script di terze parti.
 
 * Sono stati corretti dei problemi segnalati nella versione 56 a causa di cambiamenti nella sezione JavaScript extra di mbox.js. Tutto il codice nella sezione JavaScript extra è nuovamente disponibile nell’ambito globale.
 
@@ -178,7 +178,7 @@ La versione 57 di mbox.js include anche importanti risoluzioni di problemi:
 * È stato risolto un problema che provocava errori JavaScript aggiuntivi a causa della modifica dell’ambito.
 * Ripristina le impostazioni di fabbrica di mboxFactory.
 
-## mbox.js versione 56  {#section_C4F4A53584B741FF9FD907D81CB7E164}
+## mbox.js versione 56 {#section_C4F4A53584B741FF9FD907D81CB7E164}
 
 **Versione di Target:** 15.1.2
 
@@ -246,7 +246,7 @@ La funzione mboxParameter ora funziona in Target Standard e Premium.
 
 È stato risolto un problema che impediva il funzionamento del monitoraggio di Analytics in IE 9 e 11. Questa modifica riguarda solo gli utenti di Analytics.
 
-È ora possibile [trasmettere parametri](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) come array, come un oggetto JSON o come elenco separato da virgole (già supportato) a target-global-mbox utilizzando la funzione targetPageParams().
+Ora è possibile [passare parametri](https://marketing.adobe.com/resources/help/it_IT/target/ov/c_pass_parameters_to_global_mbox.html) come array, come oggetto JSON o come elenco delimitato da virgole (precedentemente supportato) in target-global-mbox utilizzando la funzione targetPageParams().
 
 Sono stati rinominati M2PcId e tutti gli elementi collegati a VisitorId.
 
