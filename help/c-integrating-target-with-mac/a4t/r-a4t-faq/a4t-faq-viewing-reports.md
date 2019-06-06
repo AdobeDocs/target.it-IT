@@ -7,8 +7,8 @@ solution: Target
 title: Visualizzare i rapporti - Domande frequenti su A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: tm+mt
-source-git-commit: 1f55bf1c407ce2c00d6e1a7b63a9901ea68f6a16
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,11 +25,11 @@ La metodologia di conteggio specifica quale valore deve essere utilizzato da Tar
 * visitatori
 * visite
 
-## È possibile impostare una metrica predefinita per i rapporti di Target?  {#section_50C20D286AA042CCA958184C9C0767DD}
+## È possibile impostare una metrica predefinita per i rapporti di Target? {#section_50C20D286AA042CCA958184C9C0767DD}
 
 Per il rapporto Attività, gli amministratori possono modificare la metrica predefinita in modo da visualizzare le stesse metriche ogni volta che eseguono il rapporto. In caso contrario, per impostazione predefinita il rapporto utilizza l’ultima metrica applicata all’ultimo rapporto.
 
-Per ulteriori informazioni, consulta [Selezionare la metrica predefinita di un rapporto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) nella guida *Aiuto per l’interfaccia di Reports and Analytics*.
+Per ulteriori informazioni, consulta [Selezionare metriche rapporto predefinite](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) nella *Guida dell’interfaccia di Reports and Analytics*.
 
 ## Quando si applica un segmento alla metrica (con una metrica calcolata) rispetto a un segmento al rapporto? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -37,7 +37,7 @@ L’applicazione dei ai rapporti è simile all’applicazione di segmenti nell�
 
 È possibile applicare segmenti alla metrica con una metrica calcolata. Questa operazione viene generalmente eseguita se desideri creare un nuovo tipo di evento di successo. Ad esempio, permette di vedere quanti visitatori di ritorno ha generato l’attività o quanti dei visitatori che hanno visto il test hanno poi visitato una determinata pagina. Al momento, per le metriche calcolate non è possibile generare incremento e affidabilità.
 
-## È necessario utilizzare visitatori, impression di attività o visite durante la visualizzazione dei rapporti?  {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## È necessario utilizzare visitatori, impression di attività o visite durante la visualizzazione dei rapporti? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
 
 Ci sono diverse opzioni, ognuna con i propri vantaggi:
 
@@ -58,7 +58,7 @@ Valuta quanto segue:
 
 Le “Conversioni attività” sono vuote se è stata selezionata una metrica di Analytics come metrica di conversione per l’attività.
 
-## Perché è indicato “non specificato” nei rapporti di Analytics? Che cosa significa?  {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Perché è indicato “non specificato” nei rapporti di Analytics? Che cosa significa? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
 
 ![](assets/unspecified.png)
 
@@ -110,19 +110,19 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Ai fini del rapporto generato da Target, poiché non si stanno confrontando due attività di Target per vedere quale ha più successo, non ha importanza se tutte le attività che l’utente ha visualizzato abbiano ricevuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
-Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) nell’Aiuto di Analytics.
+Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/it_IT/reference/conversion_var_admin.html) nella Guida di Analytics.
 
 ## Perché Analytics e Analytics for Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando si esegue un test A/B, che utilizza il test t di Student (la metrica di affidabilità) per scegliere un vincitore di un test, uno dei presupposti è che ci sia un orizzonte temporale fisso. Il test non è statisticamente valido a meno che tu non stia esaminando la dimensione del campione fisso.
 
-La metrica Visitatori univoci è diversa in Analytics e Target solo quando si considera un periodo di tempo più breve del test effettivo. Se non hai raggiunto la dimensione del campione, il test non è affidabile. Per ulteriori informazioni, consulta [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (Come non eseguire un test A/B) sul [sito web di Evan Miller](https://www.evanmiller.org/index.html).
+La metrica Visitatori univoci è diversa in Analytics e Target solo quando si considera un periodo di tempo più breve del test effettivo. Se non hai raggiunto la dimensione del campione, il test non è affidabile. Consulta l’articolo su [come non eseguire un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) sul [sito web di Evan Miller](https://www.evanmiller.org/index.html) per ulteriori informazioni.
 
 La metrica Visitatori univoci visualizza il numero di persone che sono state esposte al test e che hanno visitato il sito durante il periodo di tempo specificato. Queste persone sono ancora parte del test e dovrebbero essere conteggiate. Se si desidera visualizzare solo il numero di persone esposte durante una sola settimana, è possibile creare un segmento di visitatori per i quali è stata registrata un’impression di attività e applicare tale segmento al rapporto.
 
 Si può ridurre la durata della variabile di Target a una sola sessione; tuttavia questo può risultare problematico per i test in cui è poco probabile che l’evento di conversione si verifichi nel corso di una stessa sessione.
 
-## Perché lo stesso visitatore a volte viene conteggiato in più esperienze in Analytics?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Perché lo stesso visitatore a volte viene conteggiato in più esperienze in Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 Di seguito sono elencati i motivi per cui lo stesso visitatore potrebbe essere conteggiato in più esperienze in Analytics:
 
@@ -130,18 +130,18 @@ Di seguito sono elencati i motivi per cui lo stesso visitatore potrebbe essere c
 * Se il visitatore utilizza l’ID `mbox3rdPartyId`, quando il visitatore anonimo viene unito al suo profilo ID di terze parti, Target potrebbe porre il visitatore in un’esperienza diversa per farlo corrispondere all’ID di terze parti. Per ulteriori informazioni, consulta [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * Analytics potrebbe tracciare dispositivi diversi associandoli allo stesso visitatore in un modo diverso da come Target traccia tali dispositivi, in quanto l’impostazione dell’ID di terze parti in Target è diversa da quella di Analytics.
 
-## A 4 T supporta suite di rapporti virtuali?
+## A4T supporta le suite di rapporti virtuali?
 
-Le suite di rapporti virtuali *non* sono incluse nell&#39;elenco Suite di rapporti e le audience di suite di rapporti virtuali non sono supportate in un reporting A 4 T.
+Le suite di rapporti virtuali *non* sono incluse nell’elenco Suite di rapporti e i tipi di pubblico di suite di rapporti virtuali non sono supportati nelle funzioni di reporting di A4T.
 
-## Posso modificare la percentuale di allocazione del traffico in un&#39;attività che utilizza A 4 T dopo che l&#39;attività è stata attivata?
+## Posso cambiare la percentuale di allocazione del traffico in un’attività che utilizza A4T dopo che l’attività è stata attivata?
 
-La modifica della percentuale di allocazione del traffico in un&#39;attività dopo l&#39;attivazione può causare rapporti non coerenti in Analytics perché la modifica interessa solo i nuovi visitatori. I visitatori di ritorno non vengono influenzati.
+La modifica della percentuale di allocazione del traffico in un’attività dopo l’attivazione può causare rapporti non coerenti in Analytics, perché la modifica interessa solo i nuovi visitatori. I visitatori di ritorno non sono interessati da tale modifica.
 
-Come procedura ottimale, arrestate l&#39;attività esistente, quindi create una nuova attività invece di modificare la percentuale dopo l&#39;attivazione. La creazione di rapporti per la nuova attività inizia con nuovi visitatori e i dati dai visitatori di ritorno non causeranno un reporting incoerente.
+Come procedura ottimale, devi arrestare l’attività esistente, quindi creare una nuova attività invece di modificare la percentuale dopo l’attivazione. La creazione di rapporti per la nuova attività inizia con nuovi visitatori e i dati da visitatori di ritorno non causeranno un reporting incoerente.
 
-## Posso visualizzare i miei dati attività Target in Adobe Analysis Workspace?
+## Posso visualizzare i dati di attività Target in Adobe Analysis Workspace?
 
-Puoi utilizzare [!DNL Adobe Analysis Workspace] per approfondire e visualizzare i dati o individuare le informazioni nascoste sotto la superficie.
+Puoi utilizzare [!DNL Adobe Analysis Workspace] per approfondire e visualizzare i dati o individuare informazioni nascoste sotto la superficie.
 
-Per informazioni ed esempi dettagliati, aprite [Analytics &amp; Target: Esercitazione](https://spark.adobe.com/page/Lo3Spm4oBOvwF/)Best practice per analisi, fornita da Adobe Experience Ltd.
+Per informazioni ed esempi dettagliati, apri l’esercitazione sulle [best practice per le analisi con Analytics e Target](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornito da Adobe Experience League.
