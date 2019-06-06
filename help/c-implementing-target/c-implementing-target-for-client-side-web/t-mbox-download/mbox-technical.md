@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Funzionamento di mbox.js
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,6 @@ Per Target Standard, [!DNL mbox.js] esegue una chiamata a un altro file JavaScri
 [!DNL Target.js] controlla la libreria di manipolazione DOM utilizzata da Standard. Per visualizzare il contenuto di un sito web, [!DNL target.js] fa riferimento a [!DNL sizzle.js] (versione 1.10.8-pre). [!DNL Sizzle.js] abilita i selettori degli elementi HTML. A parte [!DNL sizzle.js], viene utilizzato solo JavaScript nativo. Non sono richieste jquery.
 
 Inoltre, il frammento seguente viene utilizzato per il polling del DOM:
-
 `https://github.com/dperini/ContentLoaded`
 
 ## Target.js e il Compositore esperienza visivo {#section_2B3FF6AC5B8D431C83D9EDCF53CB1472}
@@ -46,7 +45,7 @@ Quando si utilizza il [!UICONTROL Compositore esperienza visivo] per impostare l
 * Per la generazione delle miniature: [!DNL https://html2canvas.hertzen.com/]
 * Per query interdominio: [!DNL Admin.js], [!DNL CDQ.base.js], [!DNL CDQ.host.js], [!DNL admin.css], utilizzati per inviare messaggi tra iFrame. Questi script consentono ad Adobe l’invio di dati tra pagine.
 
-## Considerazioni per siti Angular e applicazioni a pagina singola  {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
+## Considerazioni per siti Angular e applicazioni a pagina singola {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Se si implementa Target in un sito Angular o in applicazioni a pagina singola, è necessario utilizzare la libreria at.js invece di mbox.js.
 
