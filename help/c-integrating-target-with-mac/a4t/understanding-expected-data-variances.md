@@ -7,29 +7,29 @@ solution: Target
 title: Varianze di dati previste quando non si utilizza A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# Variabilità dei dati previste tra Target e Analytics durante l’utilizzo e non utilizzo A4T{#expected-data-variances-when-not-using-a-t}
+# Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T{#expected-data-variances-when-not-using-a-t}
 
-Informazioni sulle varianti di dati previste tra [!DNL Target] e Adobe [!DNL Analytics] quando *si utilizza* e *non* utilizzano Analytics come Origine di reporting (A 4 T). A4T riduce in modo significativo la varianza dei dati.
+Informazioni sulle varianze di dati previste tra [!DNL Target] e Adobe [!DNL Analytics] quando vengono utilizzati *con* e *senza* Analytics come origine per la generazione di rapporti (A4T). A4T riduce in modo significativo la varianza dei dati.
 
-## Varianza dati prevista quando si utilizza A 4 T {#expected-using-a4t}
+## Varianza dei dati prevista quando si utilizza A4T {#expected-using-a4t}
 
 Con A4T, i rapporti delle attività di Analytics e di Target utilizzano esclusivamente i dati di Analytics, in modo che non ci sia varianza tra le soluzioni nei rapporti delle attività di Target. In alcuni casi, tuttavia, i clienti potrebbero confrontare i dati di Target con quelli di Analytics al di fuori dell’ambito dell’integrazione di A4T e, quindi, riscontrare i problemi di varianza descritti sotto.
 
-Di seguito sono riportati alcuni scenari in cui potrebbe verificarsi la varianza dei dati prevista:
+Di seguito sono riportati alcuni scenari in cui potresti riscontrare una varianza dei dati prevista:
 
-* A 4 T consente la possibilità che un hit Target (parte superiore della pagina) si verifichi, ma non si verifichi alcun hit Analytics (in fondo alla pagina). Un esempio di ciò è se l&#39;utente carica la pagina, ma chiude il browser prima che venga attivata la chiamata Analytics. In questi casi, A 4 T esclude l&#39;hit di Target dai nostri dati. Il motivo è che consentendo a Target (di nuovo, all&#39;inizio della pagina) di contare come hit Analytics in assenza di una chiamata Analytics effettiva, verrebbero creati incoerenze con i dati impostati in Analytics (inflazione visitatore, ecc.).
+* In A4T è possibile che si verifichi un hit di Target (nella parte superiore della pagina), ma che non si verifichi un hit di Analytics (nella parte inferiore della pagina). Un esempio potrebbe essere quando l’utente carica la pagina, ma chiude il browser prima che venga attivata la chiamata Analytics. In questi casi, A4T esclude l’hit di Target dai nostri dati. Il motivo è che consentendo agli hit di Target (nella parte superiore della pagina) di essere considerati come hit di Analytics in assenza di una chiamata Analytics effettiva, verrebbero creati incoerenze con i dati impostati in Analytics (visitatori in eccesso, ecc.).
 
-   Se in Target è configurato un test di reindirizzamento per dividere il traffico 50/50 (o 25/25/25/25, ecc.), il comportamento dell&#39;utente potrebbe non essere diviso in modo uniforme. Se visualizzi una suddivisione non uniforme, significa semplicemente che un gruppo di utenti non ha eseguito una chiamata Analytics sulla pagina di destinazione più degli altri gruppi. Questo mancato esecuzione della chiamata di Analytics per un gruppo causava l&#39;esclusione dell&#39;hit Target per tale utente, creando l&#39;uniformità.
+   Se è configurato un test di reindirizzamento in Target per dividere il traffico 50/50 (o 25/25/25/25, ecc.), il comportamento utente potrebbe non essere diviso in modo uniforme. Se visualizzi una suddivisione non uniforme, significa semplicemente che, per un gruppo di utenti, si è verificata una maggiore incidenza di mancata esecuzione della chiamata Analytics sulla pagina di destinazione, rispetto agli altri gruppi. La mancata esecuzione della chiamata di Analytics per un gruppo ha causato l’esclusione dell’hit di Target per tali utenti, creando così una discrepanza nei dati.
 
-   Questo è un problema che speriamo di poter affrontare in futuro mentre lavoriamo verso A 4 T su Adobe Experience Platform. I nostri team stanno lavorando attraverso il modo migliore per gestire questi eventi diversi in momenti diversi sulla pagina.
+   È un problema che speriamo di poter affrontare in futuro, con A4T su Adobe Experience Platform. I nostri team stanno lavorando sul modo migliore di gestire eventi diversi che si verificano in momenti diversi della pagina.
 
-* Supponete di creare un&#39;attività di allocazione automatica aperta a tutti i visitatori a una particolare pagina. Dato che le attività di allocazione automatica non supportano A4T, tutti i dati delle attività vengono raccolti per [!DNL Target]. Potresti aspettarti che i visitatori dell’attività corrispondano, nei rapporti di [!DNL Target], ai visitatori di quella pagina nei rapporti di [!DNL Analytics] considerando stesso intervallo di date. È uno scenario in cui la varianza descritta sotto è prevista.
+* Supponi di creare un’attività di allocazione automatica aperta a tutti i visitatori di una pagina particolare. Dato che le attività di allocazione automatica non supportano A4T, tutti i dati delle attività vengono raccolti per [!DNL Target]. Potresti aspettarti che i visitatori dell’attività corrispondano, nei rapporti di [!DNL Target], ai visitatori di quella pagina nei rapporti di [!DNL Analytics] considerando stesso intervallo di date. È uno scenario in cui la varianza descritta sotto è prevista.
 
    Per un elenco completo dei tipi di attività che supportano A4T, consulta [Tipi di attività supportate](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
@@ -45,7 +45,7 @@ I rapporti di [!DNL Target] descrivono le prestazioni in base alla mbox di conve
 
 Le varianze di dati previste possono essere causate da differenze tecniche e di business.
 
-### Esempi di varianze tecniche  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Esempi di varianze tecniche {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 I seguenti elementi possono causare varianze di dati in base a differenze tecniche:
 
@@ -55,7 +55,7 @@ I seguenti elementi possono causare varianze di dati in base a differenze tecnic
 * Considerazioni sul fuso orario
 * Differenze nel conteggio dei dispositivi
 
-### Esempi di varianze di business  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Esempi di varianze di business {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 I seguenti elementi possono causare varianze di dati in base a differenze di business:
 
