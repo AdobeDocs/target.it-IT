@@ -7,8 +7,8 @@ solution: Target
 title: Creazione di attività
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
-translation-type: tm+mt
-source-git-commit: b42572e0617c034cda2aed460bbd8e2b5d10cd04
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,7 +41,7 @@ La creazione di un&#39;attività di Target Standard che utilizza Analytics come 
    * Non è possibile visualizzare la suite di rapporti attesa.
    Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova.
 
-   Se le suite di rapporti non sono ancora presenti nell&#39;elenco, [contatta l’assistenza clienti](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   Se le suite di rapporti non sono ancora presenti nell’elenco, [contatta l’assistenza clienti](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 1. Specifica il server di tracciamento.
 
    Consulta [Utilizzo di un server di tracciamento di Analytics](../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
@@ -50,7 +50,7 @@ La creazione di un&#39;attività di Target Standard che utilizza Analytics come 
    >
    >Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-1. Definisci l&#39;esperienza. 
+1. Definisci l&#39;esperienza.
 1. Specifica l&#39;obiettivo dell&#39;attività.
 
    È necessario selezionare una metrica di successo da utilizzare come obiettivo per ogni test. L&#39;obiettivo è l&#39;attività di conversione che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. È possibile scegliere qualsiasi metrica di Analytics disponibile nel selettore delle metriche di Analytics.
