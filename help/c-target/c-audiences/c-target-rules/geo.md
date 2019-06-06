@@ -7,8 +7,8 @@ solution: Target,Analytics
 title: Geo
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -39,23 +39,23 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
    * Gestore di telefonia mobile
    Per risolvere i parametri di geotargeting per quel visitatore, viene trasmesso il relativo indirizzo IP con una richiesta mbox, una volta per ogni visita (sessione).
 
-   Per il gestore di telefonia mobile, in [!DNL Target] vengono utilizzati i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando i [codici nazionali (MCC, Mobile Country Code) e i codici di rete mobile (MCC, Mobile Network Code )](https://www.mcc-mnc.com).
+   Per il gestore di telefonia mobile, in [!DNL Target] vengono utilizzati i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando i [codici nazionali (MCC, Mobile Country Code) e i codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con DeviceAtlas e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39;API [di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con DeviceAtlas e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [l’API di geolocalizzazione](https://developer.mozilla.org/it-IT/docs/Web/API/Geolocation_API).
 
-Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
+Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/?lang=it) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
 | Paese | Stato | Città | Area geografica |
 |--- |--- |--- |--- |
 | Stati Uniti | 99,99% | 96% | 94% |
 | Canada | 99,99% | 96% | 94% |
-| Europa | 99,99% |
-| Regno Unito | 99,99% | 87% |
+| Europa | 99,99% |  |  |
+| Regno Unito | 99,99% |  | 87% |
 | Germania | 99,99% | 95% | 93% |
 | Scandinavia | 99% | Circa 90-93% | Circa 84-86% |
 | Spagna | 99,99% | Circa 90% | Circa 95-99% |
@@ -63,7 +63,7 @@ Nella seguente tabella viene mostrata la precisione delle informazioni geografic
 | Giappone | 99,99% | Circa 94-96% | Circa 90-93% |
 | Australia | 99,99% | 94% | 91% |
 
-## Utilizzo del geotargeting negli script di profilo  {#section_92C93138542C4A94997E3F4BE3F5DA28}
+## Utilizzo del geotargeting negli script di profilo {#section_92C93138542C4A94997E3F4BE3F5DA28}
 
 Puoi utilizzare le informazioni geografiche per gli script di profilo.
 
@@ -112,7 +112,7 @@ Ad esempio, utilizza:
 
 **Come funziona il geotargeting per i dispositivi mobili?**
 
-La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39;API [di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando [l’API di geolocalizzazione](https://developer.mozilla.org/it-IT/docs/Web/API/Geolocation_API).
 
 **Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?**
 
