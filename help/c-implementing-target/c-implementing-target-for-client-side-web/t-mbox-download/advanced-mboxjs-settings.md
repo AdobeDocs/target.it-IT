@@ -6,8 +6,8 @@ seo-title: Configurare mbox.js
 solution: Target
 title: Configurare mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -83,7 +83,7 @@ Include eventuale JavaScript aggiuntivo da eseguire in ogni pagina.
 
 Abilita il plug-in Analytics Target.
 
-Se abilitato, il plug-in Analytics genera il codice plug-in in mbox.js. Questo invia le informazioni tag di Analytics ai server di Target come richiesta mbox su ogni pagina con tag Analytics .
+Se abilitato, il plug-in Analytics genera il codice plug-in in mbox.js. Questo invia le informazioni tag di Analytics ai server di Target come richiesta mbox su ogni pagina con tag Analytics.
 
 Tieni presente che occorre comunque fare riferimento al plug-in Analytics nella pagina.
 
