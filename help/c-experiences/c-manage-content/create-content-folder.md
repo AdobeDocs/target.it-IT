@@ -7,8 +7,8 @@ solution: Target
 title: Creare una cartella di offerta
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
-translation-type: tm+mt
-source-git-commit: 35e22ec50ef1f128563ac255c202c14a0d674c03
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Crea una cartella per gli elementi nella libreria delle Offerte.
 
    | Campo | Descrizione |
    |--- |--- |
-   | Titolo (si applica solo alle offerte di immagini) | Assegna un nome descrittivo per la cartella. Ad esempio, è possibile specificare il tipo di contenuto che conterrà.<br>Il nome non può contenere i seguenti caratteri:<br>Segno percentuale `%`<br>Barra `/`<br>Barra rovesciata `\`<br>Due punti `:`<br>Asterisco `*`<br>Punto interrogativo `?`<br>Virgolette `"`<br>Parentesi quadra aperta `[`<br>Parentesi quadra chiusa `]`<br>Segno più: `+`<br>Barra verticale: `|`<br>Punto: `.`<br>Cancelletto: `#`<br>Parentesi graffa aperta: `{`<br>Parentesi graffa chiusa `}`<br>Circonflesso `^`<br>Punto e virgola `;`<br>Utilizza un trattino ( `- `) al posto di questi caratteri. |
+   | Titolo (si applica solo alle offerte di immagini) | Assegna un nome descrittivo per la cartella. Ad esempio, è possibile specificare il tipo di contenuto che conterrà.<br>Il nome non può contenere i seguenti caratteri:<br>Segno percentuale `%`<br>Barra `/`<br>Barra rovesciata `\`<br>Due punti `:`<br>Asterisco `*`<br>Punto interrogativo `?`<br>Virgolette `"`<br>Parentesi quadra aperta `[`<br>Parentesi quadra chiusa `]`<br>Segno più: `+`<br>Barra verticale: `|`<br>Punto: `.`<br>Cancelletto: `#`<br>Parentesi graffa aperta: `{`<br>Parentesi graffa chiusa `}`<br>Circonflesso `^`<br>Punto e virgola `;`<br>Utilizza un trattino (`- `) al posto di questi caratteri. |
    | Nome (si applica al codice e alle offerte di immagini) | Modifica il nome, se desiderato. |
    | Privato (si applica solo alle offerte di immagini) | Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto. |
    | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull&#39;icona di visualizzazione scheda o quella di visualizzazione elenco nell&#39;angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
@@ -38,15 +38,15 @@ Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibil
 
 Visualizza le informazioni sulla cartella.
 
-### Modifica  ![](assets/icon_edit.png)
+### Modifica ![](assets/icon_edit.png)
 
 Modifica la cartella.
 
-### Copia  ![](assets/icon_copy.png)
+### Copia ![](assets/icon_copy.png)
 
 Copia la cartella.
 
-### Sposta  ![](assets/icon_move_folder.png)
+### Sposta ![](assets/icon_move_folder.png)
 
 Fai clic sull&#39;icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull&#39;icona Rilascia.
 
@@ -66,12 +66,12 @@ Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possib
 
 Seleziona una o più cartelle in cui eseguire le azioni seguenti:
 
-* Scarica 
-* Copia 
-* Sposta 
+* Scarica
+* Copia
+* Sposta
 * Elimina
 
-### Scarica  ![](assets/icon_download.png)
+### Scarica ![](assets/icon_download.png)
 
 Scarica la cartella e il suo contenuto.
 
@@ -79,6 +79,6 @@ Scarica la cartella e il suo contenuto.
 
 Condividi la cartella e il suo contenuto con Adobe Creative Cloud.
 
-### Copia  ![](assets/icon_copy_content.png)
+### Copia ![](assets/icon_copy_content.png)
 
 Copia la cartella e il suo contenuto.
