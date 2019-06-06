@@ -8,8 +8,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 8e1943b6-274c-4347-8f4b-7ac108845926
 badge: premium
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -32,5 +32,5 @@ Le API di [!DNL Target] per la generazione di [!UICONTROL consigli] utilizzano i
 
 >[!NOTE]
 >
->Per l&#39;elenco completo e più aggiornato, vedi [Indirizzi IP utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>Per l’elenco completo e più aggiornato, consulta [Indirizzi IP utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/it/analytics/kb/adobe-ip-addresses.html).
 
