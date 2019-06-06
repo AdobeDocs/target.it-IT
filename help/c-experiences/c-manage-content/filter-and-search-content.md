@@ -7,8 +7,8 @@ solution: Target
 title: Ricercare contenuti e creare raccolte avanzate
 topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ Questa sezione contiene le seguenti informazioni:
 * [Ricerca di risorse per parole chiave ](../../c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
 * [Salvataggio di una raccolta avanzata ](../../c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
 
-## Ricerca di risorse per parole chiave  {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Ricerca di risorse per parole chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Fai clic su **[!UICONTROL Offerte]** &gt; **[!UICONTROL Offerte immagine]** per accedere alla [!UICONTROL libreria delle risorse].
 
@@ -38,7 +38,7 @@ Questa sezione contiene le seguenti informazioni:
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-## Salvataggio di una raccolta avanzata  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Salvataggio di una raccolta avanzata {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l&#39;esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
 
