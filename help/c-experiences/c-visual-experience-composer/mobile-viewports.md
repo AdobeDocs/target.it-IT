@@ -7,8 +7,8 @@ solution: Target
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
 topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -36,7 +36,7 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 | iPhone 7 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
 | iPhone 6 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
 | iPhone 6s | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
-| iPad  Pro | 1024 x 1366 (larghezza x altezza) | 2048 x 2732 (larghezza x altezza) |
+| iPad Pro | 1024 x 1366 (larghezza x altezza) | 2048 x 2732 (larghezza x altezza) |
 | iPad di terza e quarta generazione | 768 x 1024 (larghezza x altezza) | 1536 x 2048 (larghezza x altezza) |
 | iPad Air 1 e 2 | 768 x 1024 (larghezza x altezza) | 1536 x 2048 (larghezza x altezza) |
 | iPad Mini | 768 x 1024 (larghezza x altezza) | 768 x 1024 (larghezza x altezza) |
@@ -61,7 +61,7 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 | Samsung Galaxy Tab 10 | 800 x 1280 (larghezza x altezza) | 800 x 1280 (larghezza x altezza) |
 | Chromebook Pixel | 1280 x 850 (larghezza x altezza) | 2560 x 1700 (larghezza x altezza) |
 
-Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, consultate [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) o consultate il sito Web del produttore.
+Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, consulta [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) o il sito web del produttore.
 
 Se desideri inviare un&#39;attività a persone su un determinato dispositivo, scegli il pubblico appropriato per tale dispositivo nel diagramma delle attività. Utilizza il Compositore web per dispositivi mobili per modificare la pagina nell&#39;attività relativa a tale dispositivo. Se desideri eseguire un&#39;attività in tutta l&#39;esperienza digitale e assicurarti che si guardi bene su tutti i dispositivi, non applicare il targeting, e utilizza i riquadri per dispositivi mobili per visualizzare in anteprima l&#39;attività su ogni dimensione dello schermo.
 
