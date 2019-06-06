@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introduzione
 title: Creare una mbox di conferma d'ordine - mbox.js
 uuid: 001da2bd-2ccf-490b-ba84-ac9b9a2a5451
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli o
 
 >[!NOTE]
 >
->Se gli utenti effettuano acquisti sul tuo sito web, ti consigliamo di implementare una mbox di conferma d’ordine anche se per generare rapporti usi Analytics for Target (A4t).
+>Se gli utenti effettuano acquisti sul tuo sito web, ti consigliamo di implementare una mbox di conferma d’ordine anche se per generare rapporti usi Analytics for Target (A4T).
 
 >[!NOTE]
 >
