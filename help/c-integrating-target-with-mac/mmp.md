@@ -7,8 +7,8 @@ solution: Target
 title: Experience Cloud Audiences
 topic: Standard
 uuid: b3ec2cc8-f07b-4f09-85f2-bbf5495d0490
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,4 +17,4 @@ source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
 
 Experience Cloud Audiences permette alle soluzioni Adobe Experience Cloud di comunicare e condividere informazioni sui visitatori del sito web in modo che gli stessi dati possano essere utilizzati da ogni soluzione.
 
-Per informazioni dettagliate, consultare [Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html) nella documentazione del prodotto Experience Cloud.
+Per informazioni dettagliate, consulta [Tipi di pubblico](https://marketing.adobe.com/resources/help/it_IT/mcloud/audience_library.html) nella documentazione del prodotto Experience Cloud.
