@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 badge: premium
-translation-type: tm+mt
-source-git-commit: a6b0e69777b5a408b26f04992bb30cfa6d293de2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -48,4 +48,4 @@ I duplicati vengono rimossi dai blocchi di consigli.
 
 L’utilizzo dei consigli di backup viene di solito discusso con il team di implementazione durante la configurazione iniziale. Se desideri modificare l’impostazione relativa ai consigli di backup dopo l’implementazione, contatta il tuo Account Manager.
 
-Se l’opzione Abilita rendering design parziale (consulta  [Impostazioni contenuto](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) non è abilitata e il modello non viene visualizzato, verrà mostrato invece il consiglio di backup o il contenuto predefinito.
+Se l’opzione Abilita rendering design parziale (consulta [Impostazioni contenuto](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96)) non è abilitata e il modello non viene visualizzato, verrà mostrato invece il consiglio di backup o il contenuto predefinito.
