@@ -8,8 +8,8 @@ subtopic: Editor di codice
 title: Modifiche
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: tm+mt
-source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 2e2aebf74eb124243784aa5d1715cd451513dee4
 
 Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 
-La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e  [selezionando un&#39;azione](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
+La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e [selezionando un&#39;azione](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
 
 ## Panoramica sulle modifiche {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -96,7 +96,7 @@ Utilizza la pagina Modifiche per:
 
 1. Aggiungi ulteriori modifiche in base alle esigenze.
 
-## Casi di utilizzo del codice personalizzato  {#section_26CB3360097D400FB02E20AE5FDBA352}
+## Casi di utilizzo del codice personalizzato {#section_26CB3360097D400FB02E20AE5FDBA352}
 
 Il pannello **[!UICONTROL Codice personalizzato]** contiene il codice eseguito all&#39;inizio del caricamento della pagina.
 
@@ -189,7 +189,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]per:**
 
 * Aggiungi i modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di marketer. Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo). I casi di utilizzo includono lightbox, giostre, countdown e altro ancora.
 
-   Per ulteriori informazioni, consulta  [Modelli di esperienza](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Per ulteriori informazioni, consulta [Modelli di esperienza](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Tecniche consigliate per il codice personalizzato {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -223,7 +223,7 @@ Ogni modifica crea un nuovo elemento nel pannello Modifiche. La seconda azione m
 
 Se utilizzi la funzione codice personalizzato per due attività con targeting allo stesso URL, JavaScript viene integrato nella pagina da entrambe le attività. Target determina automaticamente l&#39;ordine del contenuto recapitato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 
-## Risoluzione dei problemi  Codice personalizzato  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Risoluzione dei problemi relativi al Codice personalizzato {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **Ho ricevuto un avviso rispetto al fatto che un&#39;azione non può essere applicata a causa di modifiche strutturali a una pagina. Cosa significa?**
 
