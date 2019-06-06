@@ -1,14 +1,14 @@
 ---
-description: 'Informazioni sulla funzione targetglobalsettings () per at. js. '
+description: 'Informazioni sulla funzione targetGlobalSettings() per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione targetglobalsettings () per la libreria javascript di Adobe Target nella libreria javascript. js
-seo-title: Informazioni sulla funzione targetglobalsettings () per la libreria javascript di Adobe Target nella libreria javascript. js
+seo-description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
+seo-title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: targetGlobalSettings()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 È possibile modificare le seguenti impostazioni:
 
-| Impostazioni  | Type (Tipo) | Valore predefinito | Descrizione |
+| Impostazioni | Tipo | Valore predefinito | Descrizione |
 |--- |--- |--- |--- |
 | clientCode | Stringa | Valore impostato tramite l&#39;interfaccia utente | Rappresenta il codice cliente |
 | serverDomain | Stringa | Valore impostato tramite l&#39;interfaccia utente | Rappresenta il server Edge di Target |
@@ -38,7 +38,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 | bodyHiddenStyle | Stringa | corpo {opacità: 0} | Utilizzato solo quando `globalMboxAutocreate === true` per minimizzare il rischio di visualizzazione momentanea di altro contenuto.<br>Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
 | bodyHidingEnabled | Booleano | true | Utilizzato per controllare la visualizzazione momentanea di altri contenuti quando `target-global-mbox` viene utilizzato per fornire le offerte create nel Compositore esperienza visivo (offerte visive) |
 | imsOrgId | Stringa | ID ORG IMS | Rappresenta l&#39;ID ORG di IMS |
-| secureOnly | Booleano | false | Indica se at.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina.  |
+| secureOnly | Booleano | false | Indica se at.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. |
 | overrideMboxEdgeServer | Booleano | true (true a partire da at.js versione 1.6.2) | Indica se è necessario utilizzare il dominio `<clientCode>.tt.omtrdc.net` o `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Se questo valore è true, il dominio `mboxedge<clusterNumber>.tt.omtrdc.net` verrà salvato in un cookie |
 | overrideMboxEdgeServerTimeout | Numero | 1860000 = &gt; 31 minuti | Indica la validità del cookie contenente il valore `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica se Target deve richiamare la funzione dell’API Visitor `isOptedOut()`. Ciò fa parte dell&#39;abilitazione di Device Graph. |
@@ -71,19 +71,19 @@ I video che seguono contengono ulteriori informazioni:
 
 | Video | Descrizione |
 |--- |--- |
-| [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Fornitori di dati è una funzionalità che ti permette di trasmettere facilmente dati da terze parti a Target. Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore. |
-| [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Dettagli di implementazione ed esempi di come utilizzare la funzione Fornitori di dati in Adobe Target per recuperare dati da fornitori di dati terzi e trasmetterli alla richiesta Target.  |
+| [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-feature-video-use.html) | Fornitori di dati è una funzionalità che ti permette di trasmettere facilmente dati da terze parti a Target. Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore. |
+| [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Dettagli di implementazione ed esempi di come utilizzare la funzione Fornitori di dati in Adobe Target per recuperare dati da fornitori di dati terzi e trasmetterli alla richiesta Target. |
 
 L’impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
 
 Ogni provider di dati dispone della struttura seguente:
 
-| Chiave | Type (Tipo) | Descrizione |
+| Chiave | Tipo | Descrizione |
 |--- |--- |--- |
 | name | Stringa | Nome del provider. |
 | version | Stringa | Versione del fornitore. Questa chiave verrà utilizzata per l&#39;evoluzione del fornitore. |
 | timeout | Numero | Rappresenta il timeout del fornitore se si tratta di una richiesta di rete.  Questa chiave è facoltativa. |
-| provider | Funzione | La funzione che contiene la logica di recupero dei dati del fornitore.<br>La funzione dispone di un solo parametro obbligatorio: `callback`. Il parametro di chiamata di ritorno è una funzione che deve essere richiamata solo quando i dati sono stati recuperati correttamente o si visualizza un errore.<br>La chiamata di ritorno prevede due parametri:<ul><li>error: indica se si è verificato un errore. Se tutto è OK, questo parametro deve essere impostato su null.</li><li>parametri: oggetto JSON, che rappresenta i parametri che verranno inviati a una richiesta Target.</li></ul> |
+| provider | Funzione | La funzione che contiene la logica di recupero dei dati del fornitore.<br>La funzione dispone di un solo parametro obbligatorio: `callback`. Il parametro di callback è una funzione che deve essere richiamata solo quando i dati sono stati recuperati correttamente o si visualizza un errore.<br>Il callback prevede due parametri:<ul><li>error: indica se si è verificato un errore. Se tutto è OK, questo parametro deve essere impostato su null.</li><li>parametri: oggetto JSON, che rappresenta i parametri che verranno inviati a una richiesta Target.</li></ul> |
 
 Nell&#39;esempio seguente viene illustrato il punto in cui il fornitore di dati utilizza l&#39;esecuzione di sincronizzazione:
 
