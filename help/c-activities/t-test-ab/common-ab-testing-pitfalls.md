@@ -6,8 +6,8 @@ seo-title: Nove insidie frequenti per i test A/B e come evitarle
 solution: Target
 title: Nove insidie frequenti per i test A/B e come evitarle
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -148,7 +148,7 @@ Considera l&#39;offerta di sci di seguito. Genera un CTR molto più elevato risp
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 
-## Conclusione: successo con test A/B riconoscendo ed evitando le insidie  {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusione: successo con test A/B riconoscendo ed evitando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
 
 Dopo aver appreso le comuni insidie dei test A/B, ci auguriamo che tu possa identificare quando e dove potresti esserne caduto vittima. Speriamo anche di averti fornito una migliore comprensione di alcuni dei concetti di statistiche e probabilità coinvolti nei test A/B che spesso si percepiscono come di dominio di persone laureate in matematica.
 
