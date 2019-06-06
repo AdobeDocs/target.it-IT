@@ -4,16 +4,16 @@ keywords: note sulla versione
 seo-description: Queste note sulla versione contengono informazioni su funzioni, miglioramenti, correzioni di problemi e problemi noti per le versioni più recenti o in arrivo di Adobe Target
 seo-title: Note di rilascio di Adobe Target (prerelease)
 solution: Target
-title: Note sulla versione di Target (pre-rilascio)
+title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e50ae8c95774716ea484f02b276b2d66cb228364
+source-git-commit: 3a498a99e333acc92651eb94592af87cfc34c6e1
 
 ---
 
 
-# Note sulla versione di Target (pre-rilascio){#target-release-notes-prerelease}
+# Note sulla versione di Target (prerelease){#target-release-notes-prerelease}
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
@@ -21,7 +21,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 
 >[!NOTE]
 >
->Queste sulla versione contengono delle informazioni in anteprima. Le date di rilascio, le funzioni e altre informazioni sono soggette a modifiche senza preavviso. Per visualizzare le informazioni sulla versione corrente, vedi [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali o possono essere diverse, a seconda della tempistica delle release.
+>Queste note sulla versione contengono delle informazioni in anteprima. Le date di rilascio, le funzioni e altre informazioni sono soggette a modifiche senza preavviso. Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali o possono essere diverse, a seconda della tempistica delle release.
 >
 >I numeri del problema tra parentesi [!DNL Adobe] sono a scopo interno.
 
@@ -55,7 +55,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 * **Più versioni app**: Ora puoi creare attività per più versioni della tua app mobile. In questo modo potrete risparmiare tempo e fatica quando le versioni sono simili e non dovete modificare in modo significativo l&#39;interfaccia utente dell&#39;app. (TGT-34231)
 
-### ![Badge Premium](/help/assets/premium.png) Automated Personalization (Personalizzazione automatizzata) (AP) e Auto-Target
+### Badge Automated Personalization (Personalizzazione automatizzata) &amp; Auto-Target ![Premium](/help/assets/premium.png)
 
 * **Esperienza specifica come controllo**: Potete selezionare un&#39;esperienza da utilizzare come controllo durante la creazione di un&#39;attività AP o Auto-Target. Questa funzione consente di indirizzare l&#39;intero traffico di controllo a un&#39;esperienza specifica, in base alla percentuale di allocazione del traffico configurata nell&#39;attività. Potete quindi valutare i rapporti sulle prestazioni del traffico personalizzato contro il controllo del traffico verso quella singola esperienza. L&#39;opzione di controllo corrente (in modo casuale) continuerà a essere disponibile. (TGT-32801 e TGT-26572)
 
@@ -65,6 +65,6 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Per ricevere notifiche anticipate sui miglioramenti dei prodotti in arrivo a Target e altre soluzioni Adobe Experience Cloud, iscriviti ad Adobe Priority Product Update:
+Per ricevere notifiche prioritarie sui prossimi miglioramenti per Target e altre soluzioni Adobe Experience Cloud, iscriviti ad Adobe Priority Product Update:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
