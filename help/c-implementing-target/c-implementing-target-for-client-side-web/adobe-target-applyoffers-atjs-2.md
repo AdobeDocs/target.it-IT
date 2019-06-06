@@ -1,27 +1,27 @@
 ---
-description: 'Informazioni sulla funzione adobe. target. applyoffer (options) per at. js. '
+description: 'Informazioni sulla funzione adobe.target.applyOffers(options) per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione adobe. target. applyoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
-seo-title: Informazioni sulla funzione adobe. target. applyoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
+seo-description: Informazioni sulla funzione adobe.target.applyOffers(options) per la libreria at.js JavaScript di Adobe Target.
+seo-title: Informazioni sulla funzione adobe.target.applyOffers(options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: adobe.target.applyOffers(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe. target. applybid (options) - at. js 2. x
+# adobe.target.applyOffers(options) - at.js 2.x
 
 Questa funzione ti consente di applicare più di un’offerta recuperata da `adobe.target.getOffers()`.
 
 >[!NOTE]
 >
->Questa funzione è stata introdotta con at. js 2. x. Questa funzione non è disponibile per at. js versione 1.*x*.
+>Questa funzione è stata introdotta con at.js 2.x e non è disponibile per at.js versione 1.*x*.
 
-| Chiave | Type (Tipo) | Obbligatorio | Descrizione |
+| Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
 | selector | Stringa | No | Elemento HTML o selettore CSS utilizzato per identificare l’elemento HTML in cui [!DNL Target] deve inserire il contenuto dell’offerta. Se non si fornisce un selettore, [!DNL Target] suppone che l’elemento HTML da usare sia HTML HEAD. |
 | Risposta | Oggetto | Sì | Oggetto di risposta da `getOffers()`.<br>Vedi la tabella Richieste di seguito. |
@@ -30,8 +30,8 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 
 | Nome campo | Descrizione |
 | --- | --- |
-| response &gt; prefetch &gt; views &gt; options &gt; content | Nota che il contenuto di “option&quot; non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
-| response &gt; prefetch &gt; views &gt; options &gt; type | Tipo di opzione. Riflette il tipo del campo “content&quot;. Il tipo supportato è “actions&quot;. |
+| response &gt; prefetch &gt; views &gt; options &gt; content | Nota che il contenuto di “option” non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
+| response &gt; prefetch &gt; views &gt; options &gt; type | Tipo di opzione. Riflette il tipo del campo “content”. Il tipo supportato è “actions”. |
 | response &gt; prefetch &gt; views &gt; state | Un token opaco da inoltrare con la notifica sul display per la visualizzazione |
 | response &gt; prefetch  &gt; views &gt; options &gt; responseTokens | Contiene la mappa dei valori `responseTokens` raccolti quando l’opzione corrente era in fase di elaborazione. |
 | response &gt; prefetch  &gt; views &gt; analytics &gt; payload | Payload di Analytics per l’integrazione sul lato client da inviare ad Analytics dopo l’applicazione della visualizzazione. |
@@ -51,8 +51,8 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 | response &gt; notifications | Indica le notifiche registrate o non riuscite. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; trace | L’oggetto contenente tutti i dati di trace per la singola richiesta mbox. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; responseTokens | Contiene la mappa di `responseTokens` per un’esecuzione specifica della richiesta mbox. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; content | Nota che il contenuto di “option&quot; non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | Tipo di opzione. Riflette il tipo del campo “content&quot;. I tipi supportati sono: html, redirect, JSON e dinamico. |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; content | Nota che il contenuto di “option” non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | Tipo di opzione. Riflette il tipo del campo “content”. I tipi supportati sono: html, redirect, JSON e dinamico. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | Opzione Risposta. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | Token dell’evento di clic. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
@@ -61,12 +61,12 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | Indica che la risposta è per la mbox con questo indice della richiesta. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; analytics &gt; payload | Payload di Analytics per l’integrazione sul lato client da inviare ad Analytics dopo l’applicazione della mbox. (Vedi la sezione Campagne abilitate per A4T.) |
 | response &gt; execute &gt; mboxes | Elenco delle mbox eseguite. |
-| response &gt; execute &gt; pageLoad &gt; options &gt; content | Nota che il contenuto di “option&quot; non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
-| response &gt; execute &gt; pageLoad &gt; options &gt; type | Tipo di opzione. Riflette il tipo del campo “content&quot;. I tipi supportati sono: html, redirect, JSON, dinamico e “action&quot;. |
+| response &gt; execute &gt; pageLoad &gt; options &gt; content | Nota che il contenuto di “option” non è definito e dipende direttamente dalla struttura tipo/modello dell’opzione. |
+| response &gt; execute &gt; pageLoad &gt; options &gt; type | Tipo di opzione. Riflette il tipo del campo “content”. I tipi supportati sono: html, redirect, JSON, dinamico e “action”. |
 | response &gt; execute &gt; pageLoad &gt; options | Opzioni non raggruppate per visualizzazioni (target-global-mbox + opzioni di attività con viste non raggruppate per viste). |
 | response &gt; execute &gt; pageLoad &gt; metrics | Metriche di clic che non erano impostate per appartenere a una visualizzazione specifica. |
 | response &gt; execute &gt; pageLoad &gt; trace | L’oggetto contenente tutti i dati trace per la richiesta pageload. |
-| response &gt; execute &gt; pageLoad &gt; analytics &gt; payload | Payload di Analytics per l’integrazione sul lato client da inviare ad Analytics dopo l’applicazione del contenuto “pageLoad&quot;. (Vedi la sezione Campagne abilitate per A4T.) |
+| response &gt; execute &gt; pageLoad &gt; analytics &gt; payload | Payload di Analytics per l’integrazione sul lato client da inviare ad Analytics dopo l’applicazione del contenuto “pageLoad”. (Vedi la sezione Campagne abilitate per A4T.) |
 
 ## Esempio di chiamata applyOffers()
 
