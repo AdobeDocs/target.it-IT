@@ -6,8 +6,8 @@ title: Risolvere i problemi relativi alla personalizzazione automatica
 title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 badge: premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ Sono disponibili diverse modifiche dell&#39;impostazione dell&#39;attività che 
 * Puoi eliminare alcune offerte i esperienze dalla tua attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
 * Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiori sono il traffico e le conversioni nelle posizioni dell’attività, più rapidamente verranno generati i modelli.
 
-## La mia attività di Personalizzazione automatizzata non ha generato alcun incremento.  {#section_8900BC8968474438B8092F7A94C0C6CF}
+## La mia attività di Personalizzazione automatizzata non ha generato alcun incremento. {#section_8900BC8968474438B8092F7A94C0C6CF}
 
 Ci sono diversi fattori necessari affinché un’attività di Personalizzazione automatizzata generi incremento:
 
@@ -38,7 +38,7 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 **Soluzione:** la migliore linea di azione è di assicurarsi in primo luogo che i contenuti e le posizioni, che compongono le esperienze di attività, facciano davvero una differenza per i tassi di risposta generali tramite un semplice test A/B e non personalizzato. Calcola le dimensioni del campione in tempo per assicurarti che sia possibile visualizzare un incremento ragionevole ed esegui il test A/B per una durata fissa senza interruzioni né modifiche. Se i risultati di un test A/B mostrano un incremento statisticamente significativo su una o più esperienze, è probabile che un’attività personalizzata funzioni. Naturalmente, la personalizzazione può funzionare anche se non ci sono differenze nei tassi di risposta complessiva delle esperienze. Il problema, solitamente, deriva dalle offerte/posizioni che non hanno un impatto sull’obiettivo di ottimizzazione tale da poter essere rilevato con rilevanza statistica.
 
-## L&#39;URL della mia attività Personalizzazione automatizzata sta mostrando il contenuto di offerte su pagine errate.  {#section_82A224406DBF4107B05204BEFBBE458C}
+## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
 
 In Personalizzazione automatizzata, le regole per i test di URL e modelli vengono aggiunte al vincolo di ingresso mbox (ad esempio, target-global-mbox), dove vengono valutate una sola volta. Una volta che un utente si qualifica per una campagna, le regole di targeting di livello mbox non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
@@ -46,7 +46,7 @@ In Personalizzazione automatizzata, le regole per i test di URL e modelli vengon
 
 Questo problema verrà risolto in una delle prossime versioni.
 
-## Qualsiasi metrica dipendente dalla metrica di conversione non consegue mai la conversione.  {#section_076D1F44298C4E4A849AC52F5A33214D}
+## Le metriche dipendenti dalla metrica di conversione non conseguono mai la conversione. {#section_076D1F44298C4E4A849AC52F5A33214D}
 
 Si tratta di un comportamento previsto.
 
@@ -54,7 +54,7 @@ In un&#39;attività di Personalizzazione automatizzata, una volta convertita una
 
 Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore consegue la conversione per C1 e poi per A1, la conversione A1 non risulta perché, non appena ottenuta la conversione per C1, il visitatore viene rilasciato.
 
-## I miei URL di esperienza non funzionano come previsto.  {#section_7B08DA1F30AA483E9406336DAF361BA4}
+## I miei URL di esperienza non funzionano come previsto. {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
 * Se non puoi visualizzare l&#39;anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte o a copiare il collegamento e aprirlo in un nuovo browser o una nuova sessione.
 * Rigenera i collegamenti degli URL di esperienza se hai modificato qualsiasi contenuto e condividi i nuovi collegamenti con i tuoi compagni di team.
