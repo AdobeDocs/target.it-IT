@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Privacy
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
-translation-type: tm+mt
-source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 19a73ca8d1f165a5279b2b76f5f22057a070f0a9
 
 In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l’utilizzo in conformità con le leggi sulla riservatezza dei dati.
 
-## Raccolta di indirizzi IP  {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
+## Raccolta di indirizzi IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
 L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
 
@@ -32,7 +32,7 @@ Quando questa funzione è abilitata, l’indirizzo IP è reso sufficientemente a
 
 Per abilitare la funzione di oscuramento dell’IP, contatta l’Assistenza clienti di Adobe.
 
-## Geosegmentazione  {#section_BB69F96559BD44BDA4177537C4A5345A}
+## Geosegmentazione {#section_BB69F96559BD44BDA4177537C4A5345A}
 
 Se attivi l’oscuramento dell’ultimo ottetto dell’indirizzo IP, i restanti valori dell’indirizzo IP possono essere analizzati utilizzando i rapporti in Adobe Target. Se l’ultimo ottetto dell’indirizzo IP non viene oscurato, l’indirizzo IP completo può essere analizzato in Adobe Target. Puoi utilizzare la funzione di geosegmentazione per mappare la posizione dei visitatori per area geografica. I dati di geosegmentazione sono granulari solo a livello di città o di codice postale, e non a livello individuale.
 
