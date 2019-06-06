@@ -8,8 +8,8 @@ title: Rapporto Segmenti automatizzati
 title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 badge: premium
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -114,7 +114,7 @@ Un “segmento automatizzato” è una sorta di destinatario, ma è definito dai
 
 Un segmento automatizzato è composto da valori specifici (o intervalli di valore) di attributi specifici. Consulta il passaggio 5 sopra per esempi di segmenti automatizzati. Tieni presente che i segmenti automatizzati possono sovrapporsi.
 
-Per ulteriori informazioni sull&#39;algoritmo di personalizzazione della foresta casuale, ovvero la base dei modelli di personalizzazione di Target, consulta  [Algoritmo Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Per ulteriori informazioni sull’algoritmo di personalizzazione della foresta casuale, ovvero la base dei modelli di personalizzazione di Target, consulta [Algoritmo Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
 **Da cosa è determinato l&#39;ordine dei segmenti automatizzati? **
 
@@ -142,7 +142,7 @@ Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti autom
 
 **Come viene creato[!UICONTROL Registri di personalizzazione]?**
 
-[!UICONTROL Registri di personalizzazione viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations).] Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [arXiv.org](https://arxiv.org/abs/1706.07160)arXiv.org.
+[!UICONTROL Registri di personalizzazione] viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **Perché i dati sul traffico totale dei visitatori nel rapporto[!UICONTROL Segmenti automatizzati]non corrispondono al rapporto di riepilogo/prestazioni di Personalizzazione automatizzata (AP) o Targeting automatico (AT)?**
 
@@ -166,6 +166,6 @@ Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per 
 * Scopri gli attributi utilizzati nei modelli di personalizzazione e la loro importanza.
 * Individua le opportunità per ulteriori punti di dati da trasmettere a Target per informare ulteriormente la tua personalizzazione.
 
-**Esiste una logica per l&#39;ordine in cui gli attributi vengono visualizzati in una scheda segmenti?**
+**Esiste una logica per l’ordine di visualizzazione degli attributi in una scheda segmenti?**
 
-No, l&#39;ordine delle schede è basato solo su una classificazione precedentemente descritta. L&#39;ordine degli attributi all&#39;interno di una scheda non è basato su alcuna logica.
+No, l’ordine delle schede è basato solo su una classificazione, come precedentemente descritto. L’ordine degli attributi all’interno di una scheda non è basato su alcuna logica.
