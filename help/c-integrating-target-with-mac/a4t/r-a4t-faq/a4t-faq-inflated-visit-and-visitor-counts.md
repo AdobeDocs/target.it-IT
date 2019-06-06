@@ -7,8 +7,8 @@ solution: Target
 title: Conteggi gonfiati per visite e visitatori - Domande frequenti su A4T
 topic: Standard
 uuid: 5d1b77bb-9053-4533-bd01-d6f53f0751e9
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Un hit con dati parziali si verifica quando un tag di [!DNL Target] si attiva ne
 
 Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Vedo un’impennata nelle visite. Come posso sapere se è causata da hit con dati parziali?  {#section_28506672C6224ED18AC74F6A02F6F811}
+## Vedo un’impennata nelle visite. Come posso sapere se è causata da hit con dati parziali? {#section_28506672C6224ED18AC74F6A02F6F811}
 
 Contatta l’[Assistenza clienti Adobe](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per recuperare un rapporto sui dati parziali. Queste informazioni non sono disponibili direttamente nell’interfaccia utente di [!DNL Analytics].
 
@@ -37,9 +37,9 @@ Contatta l’[Assistenza clienti Adobe](../../../cmp-resources-and-contact-infor
 
 Gli hit con dati parziali sono spesso dovuti a un’implementazione errata, ad esempio ID di suite di rapporti non allineati correttamente. Esistono anche ragioni valide, ad esempio pagine lente, errori di pagina, offerte di reindirizzamento in un’attività o versioni obsolete della libreria.
 
-Per ulteriori informazioni, consulta “Cosa contribuisce ai dati parziali” in  [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Per ulteriori informazioni, consulta “Cosa contribuisce ai dati parziali” in [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Ho degli hit con dati parziali. Cosa posso fare per ripulire i miei dati?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Ho degli hit con dati parziali. Cosa posso fare per ripulire i miei dati? {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 È possibile creare una suite di rapporti virtuale per escludere dai rapporti i dati parziali della cronologia.
 
