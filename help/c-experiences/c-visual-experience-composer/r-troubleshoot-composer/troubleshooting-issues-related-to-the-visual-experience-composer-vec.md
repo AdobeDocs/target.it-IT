@@ -6,8 +6,8 @@ seo-title: Risoluzione dei problemi relativi al Compositore esperienza visivo
 solution: Target
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
-translation-type: tm+mt
-source-git-commit: 7eca994be1c68ccbcccd292ce14ddcf1808d24e3
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a
 
 Target aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) durante l&#39;apertura del sito web nel Compositore esperienza visivo.
 
-Se il sito (specialmente le applicazioni per pagina singola) taglia i nostri parametri o li rimuove mentre navighi da una pagina all&#39;altra (senza un ricaricamento della pagina) la funzionalità di Target sono compromesse e le librerie di Target non vengono caricate.
+Se il sito (specialmente le applicazioni per pagina singola) taglia i nostri parametri o li rimuove mentre navighi da una pagina all&#39;altra (senza un ricaricamento della pagina) la funzionalità di Target sono compromesse e le librerie di Target non vengono caricate. 
 Per evitare questo problema, assicurati di non tagliare o rimuovere questi due parametri.
 
 ## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
@@ -29,7 +29,7 @@ Diversi problemi possono influenzare le prestazioni della pagina nei compositori
 
 * Sulla pagina non è oresente una mbox.
 * Il sito utilizza il blocco proxy, che non consente l&#39;apertura della pagina in nessuno dei Compositori esperienza.
-* Il sito non si lascia aprire in un iframe.
+* Il sito non si lascia aprire in un iFrame.
 
 Se si verificano problemi con il Compositore esperienza avanzato, prova a disattivarlo e utilizza invece il Compositore esperienza visivo.
 
@@ -37,7 +37,7 @@ Per disabilitare il Compositore esperienza avanzato, passa a **[!UICONTROL Confi
 
 Alcuni utenti visualizzano il seguente messaggio di errore nella console:
 
-![Messaggio di errore console](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
+![Messaggio di errore della console](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/console_error_message.jpg)
 
 Se né il Compositore esperienza visivo né il Compositore esperienza avanzato funzionano, utilizza un’estensione del browser come Requestly (Chrome o Firefox) o Modify Response Headers (Firefox) che possono sovrascrivere le opzioni di intestazione X-frame per il tuo sito e consentire loro di essere caricate in iFrames, abilitando il Compositore esperienza visivo. Se non riesci a utilizzare le estensioni del browser, utilizza il Compositore basato su moduli.
 
@@ -108,7 +108,7 @@ Per l&#39;estensione Modify Response Header (Firefox), poiché non è possibile 
 
 Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibile caricare le pagine nel Compositore esperienza visivo, anche se il Compositore esperienza avanzato è disattivato.
 
-## La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo)  {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
 
 * Il browser non è supportato.
 * Il browser sta bloccando una pagina non sicura su un sito sicuro.
