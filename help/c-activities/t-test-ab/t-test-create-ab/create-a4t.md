@@ -6,8 +6,8 @@ seo-title: Utilizzo dei dati di Analytics
 solution: Target
 title: Utilizzo dei dati di Analytics
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
-translation-type: tm+mt
-source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 3460c3c04ab2260904a239961f07b0a39ea645c9
 
 È possibile configurare un’attività in Target Standard per utilizzare Adobe Analytics come origine per la generazione di rapporti (A4T).
 
-Per informazioni dettagliate sull&#39;impostazione di Analytics come origine dati per Target, consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html).
+Per informazioni dettagliate sulla configurazione di Analytics come origine dati per Target, consulta [Adobe Analytics come origine per i rapporti per Adobe Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/a4t.html).
 
 Prima di impostare un’attività che utilizza Analytics come origine per la generazione di rapporti, stabilisci l’obiettivo dell’attività, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l’aumento dei clic sul carrello acquisti. Scegli una metrica finale di successo per la campagna. Anche se in Analytics puoi selezionare metriche aggiuntive in qualsiasi momento, è comunque necessario indicare una metrica specifica che si prevede verrà interessata dal test.
 
