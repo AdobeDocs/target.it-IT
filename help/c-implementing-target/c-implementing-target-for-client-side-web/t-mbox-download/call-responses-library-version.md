@@ -4,8 +4,8 @@ seo-description: Il modo in cui Target effettua e risponde alle chiamate dalla p
 seo-title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
-translation-type: tm+mt
-source-git-commit: a2cdf35f37f2debdb4b6be13e2965989ee9a3f00
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,7 +53,7 @@ Se utilizzi solo mboxCreate, ad esempio nelle pagine create con [!DNL Target Cla
 | Creazione automatica mbox globale | Creazione automatica mbox globale, sincrono | Creazione automatica mbox globale, sincrono | Creazione automatica mbox globale, sincrono | Creazione automatica mbox globale, sincrono |
 | mboxCreate | Standard | Standard | Standard | Standard |
 
-## Implementazione del servizio ID visitatore presente, ma nessun ID visitatore impostato  {#section_29888A119C7A4753AD287FC845AA63F4}
+## Implementazione del servizio ID visitatore presente, ma nessun ID visitatore impostato {#section_29888A119C7A4753AD287FC845AA63F4}
 
 Se non è stato impostato alcun ID visitatore, non è disponibile un cookie visitatore [!DNL Experience Cloud] per l’utente. La pagina chiama il servizio ID visitatore per ottenere l’ID del visitatore. attende la risposta dal servizio ID che effettua la chiamata a [!DNL Target]Target.
 
@@ -68,7 +68,7 @@ Se in questo scenario utilizzi la versione 57 di [!DNL mbox.js], tutto funziona 
 | Creazione automatica mbox globale | Creazione automatica mbox globale, sincrono | Creazione automatica mbox globale, asincrono | Creazione automatica mbox globale, asincrono | Creazione automatica mbox globale, asincrono |
 | mboxCreate | Standard | AJAX | AJAX | AJAX |
 
-## Implementazione del servizio ID visitatore e presenza dell’ID visitatore  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Implementazione del servizio ID visitatore e presenza dell’ID visitatore {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Se è presente il cookie ID visitatore, non è necessario che [!DNL Target] effettui una chiamata al servizio ID visitatore. In questo caso, non occorre attendere la risposta dal servizio ID visitatore prima di visualizzare il contenuto. Per le versioni da 57 a 59, viene utilizzato il tipo **Creazione automatica mbox globale, sincrono** e la pagina attende quindi la restituzione della chiamata a [!DNL Target] prima di continuare il caricamento. In questo modo si evita la visualizzazione momentanea del contenuto predefinito. Per v60 viene utilizzato il tipo **mbox globale, asincrono** in modo che [!DNL Target] attenda la risposta del servizio di rinuncia di [!DNL Experience Cloud]. Il servizio di rinuncia fa parte del rilascio Data Co-op dell’autunno 2016. Poiché tutte le chiamate vengono restituite utilizzando AJAX, non utilizzare `document.write()` con la versione 60 di [!DNL mbox.js].
 
