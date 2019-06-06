@@ -7,8 +7,8 @@ solution: Target
 title: Provisioning iniziale - Domande frequenti su A4T
 topic: Standard
 uuid: cc80f879-ad2a-46d6-adc2-df616e8ab0b5
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,13 +17,13 @@ source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
 
 Questo argomento contiene le risposte alle domande più frequenti sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 
-## Come posso impostare un&#39;attività A 4 T con più pagine?
+## Come posso impostare un’attività A4T con più pagine?
 
-Per implementare un esempio di utilizzo A 4 T di base:
+Per implementare un caso di utilizzo A4T di base con più pagine:
 
-* Implementare le librerie javascript per Target (at. js o mbox. js) e Analytics sull&#39;URL/pagina di destinazione dell&#39;attività. L&#39;implementazione di entrambe le soluzioni unisce i dati di Target ai dati di Analytics per ogni visitatore. Questi dati rimangono in Analytics fino alla scadenza con la scadenza predefinita impostata su 90 giorni.
+* Implementa le librerie JavaScript sia per Target (at.js o mbox.js) che per Analytics sull’URL/pagina di destinazione dell’attività. L’implementazione di entrambe le soluzioni unisce i dati di Target con quelli di Analytics per ogni visitatore. Questi dati rimangono in Analytics finché non raggiungeranno la scadenza predefinita impostata su 90 giorni.
 
-* Per le pagine rimanenti sul sito, dove sono state tracciate solo le metriche di Analytics, implementa Analytics su tali pagine. Non è necessario implementare Target su queste pagine. Le metriche di Analytics acquisite da queste pagine vengono automaticamente legate all&#39;attività di Target per cui l&#39;utente è inizialmente qualificato, in base alle informazioni di Target collegate al visitatore dal punto di vista precedente.
+* Sulle pagine rimanenti del sito, dove saranno tracciate solo le metriche Analytics, implementa Analytics. Non è necessario implementare Target sulle pagine in questione. Le metriche Analytics acquisite in queste pagine vengono automaticamente legate all’attività Target per la quale l’utente si è inizialmente qualificato, in base alle informazioni di Target collegate al visitatore del passaggio precedente.
 
 ## Come posso sapere se A4T è abilitato sul mio account Target? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
@@ -33,7 +33,7 @@ Se sei membro di uno o più gruppi Experience Cloud con accesso ad Analytics e T
 
 Se si verificano problemi di provisioning, verifica se il provisioning di A4T è stato eseguito correttamente.
 
-## Perché le suite di rapporti non vengono caricate?  {#section_6CC8B2B3568A46C499895EB9811FDC2E}
+## Perché le suite di rapporti non vengono caricate? {#section_6CC8B2B3568A46C499895EB9811FDC2E}
 
 Controlla quanto segue se si verifica uno di questi problemi:
 
@@ -41,14 +41,14 @@ Controlla quanto segue se si verifica uno di questi problemi:
 * Se utilizzi account di accesso in Analytics per diverse società all’interno della stessa società Experience Cloud, assicurati che l’ultima società Analytics a cui ti sei connesso corrisponda a quella collegata all’account Target per l’integrazione.
 * Se sei stato connesso a Experience Cloud per diverse ore, la sessione di Analytics potrebbe essere scaduta. Disconnettiti, accedi di nuovo e riprova.
 
-## Perché non vedo le opzioni di Analytics in Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Perché non vedo le opzioni di Analytics in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
-## Perché non vedo i rapporti A4T in Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Perché non vedo i rapporti A4T in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
-## Perché i rapporti in Target sono vuoti?  {#section_3837104757464CB488C5A83014A669A1}
+## Perché i rapporti in Target sono vuoti? {#section_3837104757464CB488C5A83014A669A1}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
