@@ -7,15 +7,15 @@ solution: Target
 title: Domande frequenti sulla mbox globale
 topic: Standard
 uuid: f8eb0331-bc2b-4be9-9b35-c764ac091ef4
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Domande frequenti sulla mbox globale{#global-mbox-frequently-asked-questions}
 
-Elenco delle domande frequenti (FAQ) sulle mbox globali.
+Elenco delle domande frequenti sulle mbox globali.
 
 ## Posso avere più di una mbox globale se il mio account di Target è impostato su più domini? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
@@ -23,7 +23,7 @@ L&#39;account supporta un&#39;unica mbox globale.
 
 Puoi definire un limite per l&#39;esecuzione delle attività aggiungendo a queste delle regole URL. Per ulteriori informazioni, consulta [Includere la stessa esperienza in pagine simili](../../../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Potete anche trasmettere un parametro sulla pagina utilizzando [targetpageparams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) , quindi selezionare tali parametri nella sezione «Configura URL» in Visual Experience Composer (Compositore esperienza [!UICONTROL visivo) in Visual Experience Composer] (Compositore esperienza visivo) o aggiungendo i parametri come &quot;perfezioni&quot; in Experience Composer (Compositore esperienza basato su modulo).
+Puoi anche trasmettere un parametro sulla pagina utilizzando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e quindi selezionare tali parametri nella sezione &quot;Configura URL&quot; nel [!UICONTROL Compositore esperienza visivo] o aggiungendo i parametri come “perfezionamenti” nel Compositore esperienza basato su modulo.
 
 ## Come faccio a trasferire i dati dei ricavi a una mbox globale di Target? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
