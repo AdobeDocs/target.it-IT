@@ -8,8 +8,8 @@ title: Rapporto Attributi importanti
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: tm+mt
-source-git-commit: 903ed43be8a3632ae35c95f45d9f3c708e6d06b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -72,17 +72,17 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 | Elemento | Dettagli |
 |--- |--- |
-| Grafico a barre | Il grafico a barre multicolore nella parte superiore dello schermo consente di visualizzare questi punteggi e mappe di importanza relativa con il colore del punto accanto a ciascun attributo nella tabella. Puoi anche posizionare il cursore su un colore specifico nel grafico a barre per visualizzare l&#39;attributo che rappresenta.  I punteggi di importanza dei 100 attributi principali totalizzano il 100%. Per ulteriori informazioni sull&#39;aggiunta di altri attributi utilizzabili dai modelli di personalizzazione di Target, consulta  [Caricamento di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Grafico a barre | Il grafico a barre multicolore nella parte superiore dello schermo consente di visualizzare questi punteggi e mappe di importanza relativa con il colore del punto accanto a ciascun attributo nella tabella. Puoi anche posizionare il cursore su un colore specifico nel grafico a barre per visualizzare l&#39;attributo che rappresenta.  I punteggi di importanza dei 100 attributi principali totalizzano il 100%. Per ulteriori informazioni sull’aggiunta di altri attributi utilizzabili dai modelli di personalizzazione di Target, consulta [Caricamento di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Grafico di Classifica Attributi del Modello | Il grafico di Classifica Attributi del Modello include i 10 attributi principali, ovvero i più importanti nel criterio con cui il modello di personalizzazione di Target ha fatto visualizzare un determinato contenuto a ciascun visitatore. Il punteggio di importanza mostra, relativamente ai 100 attributi principali, quanto è stato importante un determinato attributo per i modelli di personalizzazione di Target in questa attività. |
 
 ## Domande frequenti sugli attributi importanti {#section_740910A52FA646B4AC9452F98C2F5719}
 
 **I rapporti Registri di personalizzazione non sono ancora disponibili per la mia attività. Perché?**
 
-I rapporti [!UICONTROL Approfondimenti personalizzati] potrebbero non essere ancora disponibili per l&#39;attività:
+Ci sono vari motivi per cui i rapporti [!UICONTROL Approfondimenti personalizzazione] potrebbero non essere ancora disponibili per la tua attività:
 
 * non sono trascorsi 15 giorni dall&#39;attivazione dell&#39;attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
-* L&#39;attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, presupponendo che sia [sufficiente un traffico personalizzato](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB) nell&#39;attività per creare i modelli di personalizzazione, saranno disponibili i report Segmenti automatizzati e gli attributi importanti.
+* L&#39;attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un [traffico personalizzato sufficiente](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB), saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
 * L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
 **Cos&#39;è un attributo?**
@@ -101,7 +101,7 @@ Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti autom
 
 **Come viene creato[!UICONTROL Registri di personalizzazione]?**
 
-[!UICONTROL Registri di personalizzazione viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations).] Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [arXiv.org](https://arxiv.org/abs/1706.07160)arXiv.org.
+[!UICONTROL Registri di personalizzazione] viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **[!UICONTROL Registri di personalizzazione]è disponibile per obiettivi di modeling/obiettivi primari basati sui profitti?**
 
