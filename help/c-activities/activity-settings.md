@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Impostazioni delle attività
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ Utilizza le Impostazioni attività per gestire la finalità, la priorità e la d
    Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascina per ridimensionare il campo [!UICONTROL Finalità].
 1. Imposta la durata dell&#39;attività.
 
-   L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità granulare da 0 a 999.
+   L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
