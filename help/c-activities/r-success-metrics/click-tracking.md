@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Tracciamento dei clic
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: tm+mt
-source-git-commit: 4af5c367d292524d508eae6e535dd0925b2f9013
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,15 +41,15 @@ Quando un partecipante all&#39;attività fa clic su un elemento selezionato, tal
 
 Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
-* La funzione path path (Percorso DOM) è disponibile quando si imposta il tracciamento dei clic. Quando si fa clic su un elemento della pagina, viene visualizzato il menu delle opzioni VEC. Inoltre, il percorso DOM corrispondente viene visualizzato nella parte inferiore della pagina. Potete utilizzare il percorso DOM per vedere rapidamente le informazioni sull&#39;elemento selezionato (tipo, ID e classe) e spostarsi verso l&#39;alto o il basso sul percorso DOM per selezionare l&#39;elemento desiderato.
+* La funzione percorso DOM è disponibile quando si imposta il tracciamento dei clic. Facendo clic su un elemento della pagina, viene visualizzato il menu delle opzioni del Compositore esperienza visivo. Inoltre, il percorso DOM corrispondente viene visualizzato nella parte inferiore della pagina. Puoi utilizzare il percorso DOM per vedere rapidamente le informazioni sull’elemento selezionato (tipo, ID e classe) e spostarti verso l’alto o il basso nel percorso DOM per selezionare l’elemento desiderato.
 
-   ![Illustrazione percorso DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
+   ![Illustrazione del percorso DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Esattamente come durante la creazione di esperienze nel passaggio 1 nel flusso di lavoro di creazione attività, il selettore percorso DOM nella parte inferiore della pagina consente di scegliere un elemento. Quando si seleziona un elemento dal percorso DOM, l&#39;elemento corrispondente nell&#39;aula virtuale viene visualizzato come &quot;Selezionato&quot;. Per deselezionare un elemento selezionato, potete di nuovo fare clic sull&#39;elemento nel selettore del percorso DOM o fare clic sulla casella «Selezionato» all&#39;interno della VEC.
+   Come per la creazione di esperienze, al passaggio 1 nel flusso di lavoro di creazione attività, puoi scegliere un elemento con il selettore del percorso DOM nella parte inferiore della pagina. Quando selezioni un elemento dal percorso DOM, nel Compositore esperienza visivo l’elemento corrispondente è visualizzato come Selezionato. Per deselezionare un elemento selezionato, puoi fare clic di nuovo su di esso nel selettore del percorso DOM o sulla casella Selezionato nel Compositore esperienza visivo.
 
-   Per ulteriori informazioni, consultate [Navigare tra gli elementi mediante il percorso DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Visual Experience Composer Options*(Opzioni di Visual Experience Composer (Compositore esperienza visivo).
+   Per ulteriori informazioni, consulta [Navigare tra gli elementi utilizzando il percorso DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opzioni del Compositore esperienza visivo*.
 
-* È possibile passare a una pagina diversa per monitorare i clic su una pagina in cui non è possibile modificare il contenuto. Questa pagina diversa deve essere inclusa nell&#39;attività utilizzando  [la funzione multipagina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] o [!DNL mbox.js] deve essere implementato su di essa.
+* È possibile passare a una pagina diversa per monitorare i clic su una pagina in cui non è possibile modificare il contenuto. Questa pagina diversa deve essere inclusa nell’attività utilizzando [la funzione multipagina](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] o [!DNL mbox.js] deve essere implementato su di essa.
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Gli eventi clic vengono inviati a [!DNL Target] nella stessa pagina del clic.
@@ -80,7 +80,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
       * Tag `FORM`: il comportamento predefinito consiste nell’inviare il modulo.
    Questo comportamento predefinito potrebbe interferire con il tracciamento dei clic di Analytics. Se si utilizza Analytics, per il tracciamento dei clic è necessario fare affidamento su Analytics anziché su Target.
 
-* Il monitoraggio dei clic non viene registrato nelle pagine in cui la pagina e l&#39;URL attività appartengono a proprietà diverse. Le autorizzazioni dell&#39;utente Enterprise sono una funzione Target Premium. Per ulteriori informazioni, consultate [Autorizzazioni utente Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* Il tracciamento dei clic non viene registrato nelle pagine in cui la pagina e l’URL attività appartengono a proprietà diverse. Le autorizzazioni per utenti Enterprise sono una funzione di Target Premium. Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 ## Video di formazione {#section_36607204DAE146E3B8E2C609D244EDB1}
 
