@@ -1,14 +1,14 @@
 ---
 description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
-keywords: 'Consigli '
+keywords: Consigli
 seo-description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
 seo-title: Scenari di modifica delle pagine
 solution: Target
 title: Scenari di modifica delle pagine
 topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -289,7 +289,7 @@ Dopo
 </div>
 ```
 
-## Scenario: rinominare la classe dell’elemento selezionato  {#section_79D244C588BA452DB8E433D82B7F63EA}
+## Scenario: rinominare la classe dell’elemento selezionato {#section_79D244C588BA452DB8E433D82B7F63EA}
 
 In questo scenario, viene modificata la classe della voce di elenco selezionata.
 
