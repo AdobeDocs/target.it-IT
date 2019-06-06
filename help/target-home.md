@@ -6,7 +6,7 @@ title: Documentazione del prodotto di Adobe Target
 topic: Premium
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
+source-git-commit: e7ec5af38c1ea55a9cb86f0c706a024bd0f96e6e
 
 ---
 
@@ -15,17 +15,17 @@ source-git-commit: 935e2d15854dd8f4b09b6df907764b2d86e474ad
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 5 giugno 2019 ([vedere Cosa è cambiato](r-release-notes/doc-change.md))**
+**Ultimo aggiornamento: 6 giugno 2019 ([vedere Cosa è cambiato](r-release-notes/doc-change.md))**
 
-Le sezioni seguenti indicano i collegamenti utili in questa guida, ordinati da un pubblico previsto in base a funzioni di lavoro tipiche:
+Nelle sezioni seguenti sono disponibili collegamenti utili all’interno della presente guida, organizzati secondo i destinatari in base alle tipiche mansioni di lavoro:
 
 ## Tutti gli utenti [!DNL Target] {#section_65FA20BA5BC6461E9E21A1B2FAB6393C}
 
 Esperti di marketing, sviluppatori, amministratori, analisti e addetti al controllo qualità.
 
-- [Note sulla versione di Target](r-release-notes/release-notes.md): Contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti a questa documentazione e un archivio delle note sulla versione passate.
+- [Note sulla versione di Target](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a Target](c-intro/intro.md): spiega i concetti principali della soluzione [!DNL Target].
-- Integra Target con Adobe Experience Cloud: Spiega come integrare [!DNL Target] con altre [!DNL Experience Cloud] soluzioni, tra cui [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A 4 T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md)e [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
+- Integrare Target con Adobe Experience Cloud: Spiega come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [Risoluzione dei problemi di Target](r-troubleshooting-target/troubleshooting-target.md): fornisce collegamenti alle informazioni sulla risoluzione dei problemi contenute in questa guida, tra cui informazioni sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Target].
 - [Target per le app per dispositivi mobili](c-target-mobile-app/target-mobile-app.md): illustra come utilizzare [!DNL Target] per l’ottimizzazione e la personalizzazione delle app per dispositivi mobili.
 - [Risorse e informazioni di contatto](cmp-resources-and-contact-information.md): fornisce informazioni su risorse aggiuntive relative alle funzioni di [!DNL Target] e a come contattare [!DNL Adobe] in caso di bisogno di assistenza.
