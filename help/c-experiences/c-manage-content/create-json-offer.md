@@ -7,8 +7,8 @@ solution: Target
 title: Creare offerte JSON
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -24,9 +24,9 @@ Quando lavori con le offerte JSON, considera quanto segue:
 * Le offerte JSON sono attualmente disponibili solo per le attività AB e XT.
 * Le offerte JSON possono essere utilizzate solo nelle attività basate su moduli.
 * L’offerta JSON può essere recuperata direttamente quando utilizzi API lato server, SDK per dispositivi mobili o SDK per NodeJS.
-* Nel browser, le offerte JSON possono essere recuperate SOLO tramite at.js 1.2.3 (o versione successiva) e utilizzando  [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando le azioni tramite l’azione `setJson`.
+* Nel browser, le offerte JSON possono essere recuperate SOLO tramite at.js 1.2.3 (o versione successiva) e utilizzando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando le azioni tramite l’azione `setJson`.
 * Le offerte JSON vengono consegnate come oggetti JSON nativi anziché come stringhe. I consumatori di questi oggetti non devono più gestire gli oggetti come stringhe e convertirli in oggetti JSON.
-* Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere l’offerta in modo esplicito utilizzando  [Getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
+* Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere l’offerta in modo esplicito utilizzando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
 * Le offerte JSON non sono supportate se utilizzi mbox.js.
 
 ## Creazione di un’offerta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
@@ -58,7 +58,7 @@ adobe.target.getOffer({
 });
 ```
 
-Le azioni passate alla chiamata di ritorno di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
+Le azioni passate al callback di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
 
 ```
 { 
@@ -129,7 +129,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Filtraggio delle offerte per tipo di offerta JSON  {#section_52533555BCE6420C8A95EB4EB8907BDE}
+## Filtraggio delle offerte per tipo di offerta JSON {#section_52533555BCE6420C8A95EB4EB8907BDE}
 
 È possibile filtrare la libreria delle offerte in base al tipo di offerta JSON facendo clic sull’elenco a discesa **[!UICONTROL Tipo]** e selezionando la casella di controllo **[!UICONTROL JSON]**.
 
