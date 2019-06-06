@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -53,31 +53,31 @@ Considerazioni importanti per l’utilizzo di A4T:
 * L’utilizzo di Analytics come origine per la generazione di rapporti consente una sola metrica basata su mbox.
 * Una chiamata da server a server da Target ad Analytics invia informazioni ad Analytics sulle attività e sulle esperienze. Questa integrazione non comporta chiamate server aggiuntive per Target o Analytics.
 
-## Tipi di attività supportate  {#section_F487896214BF4803AF78C552EF1669AA}
+## Tipi di attività supportate {#section_F487896214BF4803AF78C552EF1669AA}
 
 La tabella seguente illustra i tipi di attività che supportano Analytics come origine per la generazione di rapporti (A4T):
 
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
-| Attività A/B con suddivisione manuale del traffico | Sì |
-| Attività A/B con Allocazione automatica | No |
-| Attività A/B con Targeting automatico | No |
-| Targeting esperienza (XT) | Sì |
+| Attività A/B con suddivisione manuale del traffico | Sì |  |
+| Attività A/B con Allocazione automatica | No |  |
+| Attività A/B con Targeting automatico | No |  |
+| Targeting esperienza (XT) | Sì |  |
 | Test multivariato (MVT) | Sì | Richiede metriche obiettivo basate su mbox per ottenere il rapporto sul contributo degli elementi.  Il rapporto sul contributo degli elementi non supporta attualmente le metriche di Analytics. |
-| Attività di Personalizzazione automatizzata (AP) | No |
-| Consigli  attività | Sì |
-| App mobile | Sì | Supportato con l’SDK di Mobile Services, versione 4.13.1 o successiva.  Per ulteriori informazioni, consulta la [documentazione di Mobile Services](https://marketing.adobe.com/resources/help/en_US/mobile/). |
-| E-mail | No |
-| API di consegna lato server | Sì | Per ulteriori informazioni, consulta  [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| SDK di NodeJS | Sì | Per ulteriori informazioni, consulta  [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| Integrazione del servizio Cloud di AEM 6.1 (o precedente) | No |
-| Integrazione del servizio Cloud di AEM 6.2 (o successiva) | Sì | Per ulteriori informazioni, consulta [Integrazione con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) nella documentazione di Adobe Experience Manager 6.2. |
+| Attività di Personalizzazione automatizzata (AP) | No |  |
+| Attività di Consigli | Sì |  |
+| App mobile | Sì | Supportato con l’SDK di Mobile Services, versione 4.13.1 o successiva.  Per ulteriori informazioni, consulta la [documentazione su Mobile Services](https://marketing.adobe.com/resources/help/it_IT/mobile/). |
+| E-mail | No |  |
+| API di consegna lato server | Sì | Per ulteriori informazioni, consulta [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| SDK di NodeJS | Sì | Per ulteriori informazioni, consulta [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
+| Integrazione del servizio Cloud di AEM 6.1 (o precedente) | No |  |
+| Integrazione del servizio Cloud di AEM 6.2 (o successiva) | Sì | Per ulteriori informazioni, consulta [Integrazione con Adobe Target](https://helpx.adobe.com/it/experience-manager/6-2/sites/administering/using/target.html) nella documentazione di Adobe Experience Manager 6.2. |
 | Qualsiasi attività con un’offerta di reindirizzamento | Sì | Ci sono requisiti minimi più severi per le offerte di reindirizzamento con A4T. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sì |
+| Node.JS | Sì |  |
 
 Poiché tutti i tipi di attività non supportano ancora A4T, è consigliabile mantenere o implementare importanti mbox di conversione, ad esempio la mbox “orderConfirmPage”.
 
-## Esempi di rapporti A4T  {#section_F0A43A1CB2F04E8282B909E4D7034361}
+## Esempi di rapporti A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
 Per visualizzare i rapporti A4T in [!DNL Target]**, fai clic su[!UICONTROL Attività]**, fai clic sull’attività desiderata dall’elenco che utilizza [!DNL Analytics] come origine per la generazione di rapporti, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
@@ -103,7 +103,7 @@ Per visualizzare il rapporto in [!DNL Analytics] anziché in [!DNL Target], fai 
 
 ## Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Apri l&#39;esercitazione [Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
+Apri l’esercitazione [Analytics &amp; Target: best practice per l’analisi ](https://spark.adobe.com/page/Lo3Spm4oBOvwF/) offerta da Adobe Experience League.
 
 ## Video di formazione:
 
