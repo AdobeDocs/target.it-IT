@@ -7,8 +7,8 @@ solution: Target
 title: Risolvere i problemi relativi alle attività
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
-translation-type: tm+mt
-source-git-commit: fef00b45291c5e73cb476c3da28b4d7242300f10
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -85,7 +85,7 @@ Una volta aggiunto come utente in Target, devi disporre del ruolo Approvatore pe
 
 * Ricrea l’attività.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi  [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La struttura della pagina viene modificata durante il caricamento (in fase di esecuzione).
 
@@ -98,7 +98,7 @@ Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla ca
 * Aggiorna il codice della pagina in modo da identificare in modo univoco ogni elemento che sarà oggetto di test (utilizzando un id).
 * Interrompi la modifica dinamica della classe o degli elementi di pari livello come descritto sopra.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi  [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js estrae tutto il codice successivo dalla sezione head e nella sezione body.
 
