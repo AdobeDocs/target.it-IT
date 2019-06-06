@@ -6,8 +6,8 @@ seo-title: Applicare un pubblico di reportistica a una metrica di successo
 solution: Target
 title: Applicare un pubblico di reportistica a una metrica di successo
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
