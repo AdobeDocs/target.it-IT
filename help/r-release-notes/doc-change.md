@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 745eb38b18ce7b29d87abb588ecdbb3fffc8cfc1
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -22,8 +22,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 7 giugno 2019 | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Aggiunta nuova sezione: &quot; Scenario: Create una progettazione predefinita di Recommendations da 4 x 2 con logica di controllo null. &quot; |
+|  | [Video di formazione su Adobe Target Standard e Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Collegamento aggiornato al nuovo sito Esercitazioni di Adobe Target. |
 |  | [iOS: configurare l&#39;app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Testo e snippet di codice aggiornati. |
 |  | [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) | Modifiche di testo secondarie. |
+|  | [Test AdBox di un&#39;immagine per e-mail](/help/c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md) | Modifiche di testo secondarie. |
 | 6 giugno 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Aggiornamento della descrizione del `options > page` parametro. |
 |  | [Primi passaggi per l&#39;amministratore](/help/administrating-target/start-target.md) | Aggiornamento dell&#39;intero articolo. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiunte note preliminari sulla versione per il rilascio di Target 19.6.1. |
