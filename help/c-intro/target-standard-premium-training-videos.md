@@ -7,8 +7,8 @@ solution: Target
 title: Video di formazione su Adobe Target Standard e Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
 
 ---
 
@@ -37,8 +37,8 @@ Nella pagina [Adobe Target Experience League](https://guided.adobe.com/#recommen
 
 ![Video di Experience League](/help/c-intro/assets/experience-league.png)
 
-## Esercitazioni di Adobe Target
+## Esercitazioni di Adobe Target {#tutorials}
 
-Le presentazioni video su concetti e strumenti di [!DNL Target] sono disponibili nella [pagina delle esercitazioni](https://helpx.adobe.com/it/target/tutorials.html) di Adobe Target.
+Le presentazioni video su [!DNL Target] concetti e strumenti sono disponibili nella pagina [Esercitazioni](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) di Adobe Target.
 
-![Esercitazioni di Adobe Target](/help/c-intro/assets/adobe-target-tutorials.png)
+![Esercitazioni di Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
