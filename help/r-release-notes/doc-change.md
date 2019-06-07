@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
+source-git-commit: a8bb6facffe6ca6779661105aedcd44957187a79
 
 ---
 
@@ -21,6 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 7 giugno 2019 | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Aggiunta nuova sezione: &quot; Scenario: Create una progettazione predefinita di Recommendations da 4 x 2 con logica di controllo null. &quot; |
 | 6 giugno 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Aggiornamento della descrizione del `options > page` parametro. |
 |  | [Primi passaggi per l&#39;amministratore](/help/administrating-target/start-target.md) | Aggiornamento dell&#39;intero articolo. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiunte note preliminari sulla versione per il rilascio di Target 19.6.1. |
