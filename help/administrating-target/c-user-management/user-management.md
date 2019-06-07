@@ -9,7 +9,7 @@ title: Gestione utente
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+source-git-commit: 2e638171de7028c6222ea2b40556ead720d571e3
 
 ---
 
@@ -22,6 +22,6 @@ La funzionalità Proprietà e Autorizzazioni è disponibile come parte della so
 
 Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul collegamento [!UICONTROL Configurazione] in alto nell’interfaccia utente di Target.
 
-* **Clienti Target Standard:** se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Configurazione] &gt; [!UICONTROL Utenti]), significa che si dispone di una licenza Target Standard. I clienti Target Standard possono seguire le istruzioni riportate in questo argomento per aggiungere utenti e assegnare autorizzazioni in Adobe Admin Console.
+* **Clienti Target Standard:** se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Configurazione] &gt; [!UICONTROL Utenti]), significa che si dispone di una licenza Target Standard. I clienti di Target Standard devono seguire le istruzioni contenute [in Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in Adobe Admin Console.
 * **Clienti Target Premium:** se è presente la scheda [!UICONTROL Proprietà] ([!UICONTROL Configurazione] &gt; [!UICONTROL Proprietà]), significa che si dispone di una licenza Target Premium. I clienti Target Premium devono seguire le istruzioni contenute in [Autorizzazioni utente Enterprise](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) e [Configurare le autorizzazioni Enterprise](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) per aggiungere utenti e assegnare le autorizzazioni in Adobe Admin Console.
 
