@@ -7,8 +7,8 @@ solution: Target
 title: Selezionare il pubblico
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 81731916926250195b0f70124c8dad0912074e77
 
 ---
 
@@ -39,7 +39,7 @@ Fai clic sulla freccia rivolta verso il basso per rimuovere il pubblico esistent
 
 Puoi specificare la percentuale di visitatori idonei da includere nell’attività. Ad esempio, puoi scegliere di includere il 50% di tutti i visitatori.
 
-![](assets/audperc.png)
+![Percentuale di pubblico](/help/c-activities/t-test-ab/t-test-create-ab/assets/audperc-new.png)
 
 Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico](../../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -57,7 +57,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 * Indirizzare unʼattività a un pubblico
 * Utilizzare i tipi di pubblico per la reportistica passiva in un’attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17398)
+>[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ita)
 
 ### Flusso di lavoro di un&#39;attività - Targeting (2:14)
 
@@ -68,6 +68,6 @@ Questo video contiene informazioni su come impostare i tipi di pubblico.
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/17385)
+>[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ita)
 
 Per informazioni dettagliate, consulta [Tipi di pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
