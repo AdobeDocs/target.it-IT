@@ -9,18 +9,18 @@ title: Rapporti
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
 
-# Rapporti{#reports} 
+# Rapporti{#reports}
 
 I rapporti forniscono informazioni sull&#39;avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
 
 >[!NOTE]
 >
->Puoi fare in modo che i rapporti non conteggino i visitatori da indirizzi IP specificati. Contatta il Client Care per impostare i filtri IP. Questo filtro non si applica quando utilizzi  [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) come fonte dei rapporti.
+>Puoi fare in modo che i rapporti non conteggino i visitatori da indirizzi IP specificati. Contatta il Client Care per impostare i filtri IP. Questo filtro non si applica quando utilizzi [Analytics for Target](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) (A4T) come fonte dei rapporti.
 
 ## Informazioni di reporting per tipi di attività specifici {#section_DFE037B9E1C345D3B3BDFCB3AC0359CA}
 
@@ -42,21 +42,20 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 
    Ad esempio, puoi selezionare [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] dall’elenco a discesa [!UICONTROL Tipo] e [!UICONTROL Live] dall’elenco a discesa [!UICONTROL Stato] per visualizzare solo i test A/B e le attività di targeting di esperienza che si trovano in uno stato attivo.
 
-   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati:
+   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati: Test A/B e targeting delle esperienze. I tre tipi di test A/B (Manuale, [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) sono selezionati per impostazione predefinita. È possibile deselezionare uno o più tipi in base alle esigenze.
 
-   ![](assets/report_filters.png)
+   ![Filtrare i rapporti per tipo](/help/c-reports/assets/report_filters-new.png)
 
 1. Fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
    Ogni rapporto include una legenda che ne facilita la comprensione.
 
-   ![](assets/report_menu_bar.png)
+   ![Legenda report](/help/c-reports/assets/report_menu_bar-new.png)
 
    Nella legenda vengono visualizzate le seguenti informazioni:
 
    * Lo stato dell’attività, compreso l’intervallo di date in cui l’attività è stata eseguita.
-   * Una proiezione relativa all’esperienza vincente.
-   * L’origine dell’attività, ad esempio [!DNL Adobe Target] o [!DNL Adobe Target Classic].
+   * L&#39;esperienza vincente prevista (se disponibile).
    >[!NOTE]
    >
    >I risultati dell’esperienza compaiono dopo che questa è stata vista almeno da un partecipante.
