@@ -6,8 +6,8 @@ seo-title: Obiettivi e impostazioni
 title: Obiettivi e impostazioni
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -16,9 +16,9 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 
-Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come origine di dati.
+Le impostazioni disponibili dipendono dal fatto che utilizzi Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md) come origine dati.
 
-![](assets/ab_settings.png)
+![Impostazioni attività, finestra di dialogo](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
 
 ## Impostazioni delle attività {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -32,7 +32,7 @@ Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come
 
 | Impostazioni | Descrizione |
 |--- |--- |
-| Origine per i rapporti | Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Per informazioni sulle differenze tra le soluzioni di reporting e i relativi vantaggi, consulta [Adobe Analytics come origine per i rapporti per Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/a4t.html).  Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target.<br>Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.<br>Se un’origine per la generazione di rapporti è specificata nelle impostazioni del tuo account, viene utilizzata l’origine specificata e questa impostazione non è visibile.<br>Nota: al fine di mantenere coerenza dei rapporti, non è possibile cambiare l’origine per i rapporti una volta che l’attività è diventata attiva. |
+| Origine per i rapporti | Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.  Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target.<br>Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.<br>Se un’origine per la generazione di rapporti è specificata nelle impostazioni del tuo account, viene utilizzata l’origine specificata e questa impostazione non è visibile.<br>Nota: al fine di mantenere coerenza dei rapporti, non è possibile cambiare l’origine per i rapporti una volta che l’attività è diventata attiva. |
 | Obiettivo | Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di conversione, quindi imposta i parametri che determinano il raggiungimento del successo.  Per ulteriori informazioni sull’impostazione delle metriche, consulta [Impostare le metriche](../../../c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md).<br>Nota: se la soluzione di reporting è impostata su Analytics, l’unica metrica di obiettivo disponibile è Conversione. Le metriche di Analytics non possono essere selezionate come obiettivo.   Quando si seleziona la metrica di successo, viene visualizzato un selettore. Utilizza questo selettore per scegliere le specifiche per la metrica di successo.<br>Se attivato, il campo del Valore stimato di una conversione (non disponibile per la metrica Punteggio di pagina) fornisce un valore per l’obiettivo, ma non per altre metriche. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche collegate ai ricavi (Ricavo per visitatore, Valore ordine medio, Vendite totali e Ordini), la stima utilizza Ricavo per visitatore. I dati sono di tipo valuta.<br>Dopo aver raggiunto l’obiettivo dell’attività, un visitatore continua a vedere il contenuto dell’attività, a meno che il visitatore non sia idoneo per un’attività di priorità maggiore. Se il visitatore raggiunge nuovamente l’obiettivo, viene conteggiato come un’altra conversione. Nota: questo è diverso dal comportamento predefinito in Target Classic, in cui i visitatori sono conteggiati come nuovi se vedono il test di nuovo. |
 | Altre metriche | Consente di creare metriche di successo aggiuntive.  Questa impostazione non è disponibile se la soluzione di reporting è impostata su Analytics. In questo caso, si applicano le metriche definite per la suite di rapporti di Analytics. |
 | Tipi di pubblico per i rapporti | Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i visitatori idonei. È possibile aggiungere tipi di pubblico per i rapporti per visualizzare solo le informazioni su tipi di pubblico specifici.  Questa impostazione non è disponibile se si sceglie Analytics come soluzione di reporting. Vengono applicati i tipi di pubblico definiti per la suite di rapporti di Analytics. |
@@ -41,16 +41,19 @@ Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come
 
 Le impostazioni avanzate sono disponibili per le metriche dell’obiettivo di test A/B.
 
-![](assets/Menu_AdvancedSettings.png)
+![Impostazioni avanzate, menu](/help/c-activities/t-test-ab/t-test-create-ab/assets/menu-advanced-settings-new.png)
 
 >[!NOTE]
 >
 >Se utilizzi Adobe Analytics come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server Analytics. L’opzione Impostazioni avanzate non sarà disponibile.
 
+![Impostazioni avanzate](/help/c-activities/t-test-ab/t-test-create-ab/assets/advanced-settings.png)
+
 | Impostazione | Descrizione |
 |--- |--- |
 | Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica? | Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio potresti rendere valida una conversione di test solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.  È possibile fornire una dipendenza da più metriche e decidere se, per incrementare il conteggio, la metrica deve essere raggiunta o non raggiunta.  È necessario definire entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro.  L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.  Per aggiungere una dipendenza:<ul><li>Dopo aver aggiunto le metriche aggiuntive, fai clic su Impostazioni avanzate.</li><li>Fai clic sull’opzione Aggiungi dipendenza:</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto.</li><li>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.</li></ul> |
 | Cosa accade dopo che un utente incontra questa metrica per obiettivo? | Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzioni:<ul><li>Seleziona Incrementa il conteggio e mantieni utente attivo per specificare la modalità di incremento del conteggio.</li><li>Seleziona Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso per specificare l’esperienza che l’utente vedrà se accede di nuovo all’attività.</li><li>Seleziona Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso per specificare cosa vedrà l’utente al posto del contenuto dell’attività.</li></ul> |
+| Come si incrementerà il conteggio? | Sono disponibili tre opzioni per l&#39;incremento del conteggio:<ul><li>Una volta per partecipante</li><li>Su ogni impression (escludi aggiornamento pagina)</li><li>Su ogni impression</li></ul> |
 
 Consulta [Metriche di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) per ulteriori informazioni sulle impostazioni avanzate.
 
@@ -83,4 +86,4 @@ Questo video mostra le impostazioni di attività nel flusso di lavoro guidato in
 * Creare un’attività A/B in Adobe Target
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/17391)
+>[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ita)
