@@ -7,8 +7,8 @@ solution: Target
 title: Attività
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
 
 ---
 
@@ -70,7 +70,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni):
 | Attiva | Avvia un&#39;attività inattiva o pronta. |
 | Archivia | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco Attività. Per includere nell’elenco anche le attività archiviate, devi cambiare il filtro per l&#39;elenco delle attività. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<br>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | Copia | Copia un&#39;attività. Qualsiasi attività può essere copiata. Quando si copia un&#39;attività viene creata una nuova attività con lo stesso nome e la dicitura “Copia”. Ad esempio, la copia di un test denominato “Offerte browser” sarà denominata “Copia Offerte browser”.<br>Le offerte visive vengono copiate con l&#39;attività. È possibile modificare in modo sicuro le offerte nella copia senza influire sull&#39;attività originale. L&#39;unica eccezione sono le offerte e le immagini salvate nella cartella Contenuto/Risorse. |
-| Elimina | Elimina una bozza o un&#39;attività pronta. Le attività eliminate non possono essere recuperate. |
+| Elimina | Eliminare una bozza o un&#39;attività.<BR>**NOTA**: Le attività eliminate non possono essere recuperate. A meno che non siate completamente sicuri che questa attività non sia più necessaria, utilizzate l&#39;azione [!UICONTROL Archivio] . Potete quindi riattivare l&#39;attività, se necessario. |
 
 Ricorda i seguenti dettagli sull&#39;elenco delle attività:
 
@@ -179,7 +179,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
 
 ### Gestione delle attività (5:55)
 
@@ -189,4 +189,4 @@ Questo video spiega come utilizzare l&#39;elenco Attività per gestire le attivi
 * Trovare le attività nell’elenco Attività
 * Modificare, disattivare, copiare ed eliminare le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/18550)
+>[!VIDEO](https://video.tv.adobe.com/v/18550?captions=ita)
