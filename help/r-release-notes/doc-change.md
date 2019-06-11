@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
 
 ---
 
@@ -23,9 +23,14 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 11 giugno 2019 | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | La nota relativa alla dichiarazione che è l&#39;unnessario per specificare un server di tracciamento se si utilizza A 4 T. |
 |  | [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Aggiornati testo e immagini. |
+|  | Test A/B: [URL attività](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Aggiornati testo e immagini. |
+|  | Test A/B: [Seleziona pubblico](/help/c-activities/t-test-ab/t-test-create-ab/ab-audience.md) | Aggiornati testo e immagini. |
+|  | Test A/B: [Obiettivi e impostazioni](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) | Aggiornati testo e immagini. |
+|  | Test A/B: [Impostare le metriche](/help/c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md) | Aggiornati testo e immagini. |
+|  | [Più versioni di esperienza in un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md) | Aggiornati testo e immagini. |
 |  | [Attività](/help/c-activities/activities.md) | Enfasi che non è possibile ripristinare un&#39;attività eliminata. Come procedura ottimale, puoi archiviare un&#39;attività per eliminarla, se necessario. |
 |  | [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Limitazione rimossa che indica che il debugger Experience Cloud non è completamente supportato in at. js 2. x. |
-|  | [Rapporti](/help/c-reports/reports.md) | Aggiornamenti di testo secondari e nuove immagini. |
+|  | [Rapporti](/help/c-reports/reports.md) | Aggiornati testo e immagini. |
 | 7 giugno 2019 | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Aggiunta nuova sezione: &quot; Scenario: Create una progettazione predefinita di Recommendations da 4 x 2 con logica di controllo null. &quot; |
 |  | [Video di formazione su Adobe Target Standard e Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Collegamento aggiornato al nuovo sito Esercitazioni di Adobe Target. |
 |  | [iOS: configurare l&#39;app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Testo e snippet di codice aggiornati. |
