@@ -6,8 +6,8 @@ seo-title: Per quanto tempo si deve eseguire un test A/B?
 solution: Target
 title: Per quanto tempo si deve eseguire un test A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
 
 ---
 
@@ -38,9 +38,9 @@ Target fornisce degli strumenti per garantire che l’attività abbia una dimens
 
 ## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-Prima di configurare il test A/B, accedi al [calcolatore delle dimensioni del campione di Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Prima di configurare il test A/B, accedete all&#39;utilità di calcolo delle dimensioni [del campione di Adobe Target](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
-![](assets/sample_size_calculator.png)
+![Calcolatore delle dimensioni del campione di Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 È importante determinare un campione di dimensioni (numero di visitatori) adeguate prima di eseguire un test A/B, al fine di stabilire per quanto tempo il test dovrà essere eseguito prima di valutarne i risultati. Il semplice monitoraggio del test fino a raggiungere la rilevanza statistica risulta in una notevole sottostima dell’intervallo di affidabilità e rende il test inaffidabile. Questo accade perché, quando viene rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test continuerà. Questa procedura favorisce fortemente un esito positivo, aumentando il livello dei falsi positivi e quindi distorcendo il livello di significatività effettiva del test.
 
