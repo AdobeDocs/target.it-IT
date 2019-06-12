@@ -9,20 +9,20 @@ title: Come funziona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bcf09c30147383ab14cdc253285970e0f03be4b7
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
 
 # Come funziona Adobe Target{#how-adobe-target-works}
 
-Informazioni su come funziona Adobe Target, comprese informazioni sulle librerie javascript di Target (at. js e mbox. js) e sui vari tipi di attività inclusi in Target.
+Informazioni su come funziona Adobe Target, comprese informazioni sulle librerie JavaScript di Target (at.js e mbox.js) e sui vari tipi di attività inclusi in Target.
 
-## Librerie javascript di destinazione {#libraries}
+## Librerie JavaScript di Target {#libraries}
 
 Adobe Target si integra con i siti Web mediante una delle due librerie JavaScript. at.js o mbox.js
 
-* **at.js:** la [libreria at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) è la nuova libreria di implementazione per Target. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js è la libreria di implementazione consigliata e viene aggiornata frequentemente con nuove funzionalità. Si consiglia a tutti i clienti di implementare o eseguire la migrazione alla  [versione più recente di at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+* **at.js:** la [libreria at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) è la nuova libreria di implementazione per Target. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js è la libreria di implementazione consigliata e viene aggiornata frequentemente con nuove funzionalità. Si consiglia a tutti i clienti di implementare o eseguire la migrazione alla [versione più recente di at.js](../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** la libreria mbox.js è la libreria di implementazione legacy per Target. La libreria mbox.js è ancora supportata, ma non ci saranno aggiornamenti di funzionalità.
 
 >[!IMPORTANT]
@@ -64,7 +64,7 @@ La funzione Targeting automatico utilizza l’apprendimento automatico avanzato 
 
 ### Personalizzazione automatizzata
 
-Per ulteriori informazioni, consulta [ Personalizzazione automatizzata](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
+Per ulteriori informazioni, consulta [Personalizzazione automatizzata](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
 La Personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti di offerta ad ogni visitatore in base al suo profilo cliente, al fine di personalizzare il contenuto e favorire l’incremento.
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni, consulta [Test multivariato](../c-activities/c-multi
 
 Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività.
 
-### Consigli 
+### Consigli
 
 Consulta [Consigli](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) per ulteriori informazioni.
 
@@ -105,6 +105,10 @@ Adobe dispone attualmente di centri dati in diversi continenti, incluse più sed
 Anziché rispondere a tutte le richieste di targeting da un&#39;unica posizione, le richieste dall&#39;ambiente Edge più vicino al punto di richiesta riducono l&#39;impatto derivante dal tempo di trasferimento in rete/Internet.
 
 La rete funge anche da meccanismo di failover. Se un nodo Edge non funziona, la richiesta viene reindirizzata al nodo successivo più vicino, per garantire che all&#39;utente non venga distribuito il contenuto predefinito (tipica risposta di backup qualora non sia possibile completare una richiesta).
+
+>[!IMPORTANT]
+>
+>[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. A causa del Firewall Great Firewall e della mancanza di nodi Edge nel paese, le esperienze dei siti con [!DNL Target] distribuzione risulteranno rallentate e verranno caricate le relative pagine. Inoltre, l&#39;interfaccia [!DNL Target] utente potrebbe anche avere la latenza.
 
 ## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
