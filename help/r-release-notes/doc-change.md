@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
 
 ---
 
@@ -21,6 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 12 giugno 2019 | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Aggiornati testo e immagini. |
+|  | [Come funziona Adobe Target](/help/c-intro/how-target-works.md) | Aggiunta nota importante sull&#39;utilizzo di Target in Cina. |
 | 11 giugno 2019 | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | La nota relativa alla dichiarazione che è l&#39;unnessario per specificare un server di tracciamento se si utilizza A 4 T. |
 |  | [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) | Aggiornati testo e immagini. |
 |  | Test A/B: [URL attività](/help/c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md) | Aggiornati testo e immagini. |
