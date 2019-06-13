@@ -7,8 +7,8 @@ solution: Target
 title: Panoramica della progettazione
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
-translation-type: tm+mt
-source-git-commit: 3901aa72118adbc0862915da7c8b211090a4e7e7
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -27,7 +27,7 @@ Target può anche inviare i consigli come oggetti JSON che possono essere utiliz
 
 Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte JSON quando si configura un&#39;attività tramite l&#39;editor basato su modelli.
 
-1. Crea una progettazione dall&#39;interno della Libreria di progettazione o all&#39;interno del flusso di lavoro basato su modelli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro Compositore esperienza visivo, non puoi creare elementi diversi da una struttura HTML, che viene racchiusa in un `<div>` a scopo di monitoraggio dei clic.
+1. Crea una progettazione dall&#39;interno della Libreria di progettazione o all&#39;interno del flusso di lavoro basato su modelli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro del Compositore esperienza visivo, puoi creare solo una struttura HTML, che viene racchiusa in un elemento `<div>` a scopo di tracciamento dei clic.
 1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
 
    ![](assets/html_design_toggle.png)
@@ -90,8 +90,8 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
 
 | Parametro | Valore |
 |--- |--- |
-| `[YOUR_CLIENT_CODE]` | Codice client Target (disponibile in ../target/products.html # recssettings &gt; Token API di Recommendations &gt; Codice client. |
-| `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione “Posizioni” dei consigli basati su moduli, in questo caso YOUR_CLIENT_CODE. |
+| `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings &gt; Token API per i consigli &gt; Codice client. |
+| `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione “locations” dei consigli basati su moduli, in questo caso YOUR_CLIENT_CODE. |
 | `[ENTITY_ID`] | L&#39;`entity.id` di un elemento nel catalogo. |
 | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
 
