@@ -7,8 +7,8 @@ solution: Target
 title: Frammenti esperienza AEM
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -52,15 +52,15 @@ Per utilizzare i frammenti di esperienza AEM in Target, è necessario attenersi 
 
 Per ulteriori informazioni, consulta:
 
-* **AEM 6.3:** [Effettuare l’opt-in con Adobe Analytics e Adobe Target](https://helpx.adobe.com/it/experience-manager/6-3/sites/administering/using/opt-in.html) nella documentazione di _Adobe Experience Manager 6.3_.
-* **AEM 6.4:** [Effettuare l’opt-in con Adobe Analytics e Adobe Target](https://helpx.adobe.com/it/experience-manager/6-4/sites/administering/using/opt-in.html) nella documentazione di _Adobe Experience Manager 6.4_.
+* **AEM 6.3:**[scelta di Adobe Analytics e Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) nella documentazione di _Adobe Experience Manager 6.3_.
+* **AEM 6.4:**[scelta di Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) nella documentazione di _Adobe Experience Manager 6.4_.
 
 ### Passaggio 2: creare il frammento di esperienza
 
 I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consulta:
 
-* **AEM 6.3:** [Frammenti esperienza](https://helpx.adobe.com/it/experience-manager/6-3/sites/authoring/using/experience-fragments.html) nella documentazione di *Adobe Experience Manager 6.3*.
-* **AEM 6.4:** [Frammenti esperienza](https://helpx.adobe.com/it/experience-manager/6-4/sites/authoring/using/experience-fragments.html) nella documentazione di *Adobe Experience Manager 6.4*.
+* **AEM 6.3:**[Frammenti di esperienza](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) nella documentazione di *Adobe Experience Manager 6.3*.
+* **** AEM 6.4: [Frammenti di esperienza](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) nella documentazione di *Adobe Experience Manager 6.4*.
 
 ### Passaggio 3: configurare AEM per condividere il frammento di esperienza con Target
 
@@ -90,7 +90,7 @@ I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consul
 
 2. Nella finestra di dialogo che appare, seleziona [!UICONTROL Pubblica] per pubblicare su [!DNL Target] tutte le risorse all’interno del frammento di esperienza.
 
-## Utilizzo di frammenti di esperienza nelle attività di Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Uso dei frammenti esperienza nelle attività Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Dopo aver eseguito le attività precedenti, il frammento di esperienza viene visualizzato nella pagina [!UICONTROL Offerte] di Target.
 
@@ -150,4 +150,4 @@ Passa il puntatore del mouse su un frammento esperienza nell’elenco, quindi fa
 
 ## Video di formazione: Utilizzo dei frammenti esperienza AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
-Il video seguente illustra come configurare e utilizzare i frammenti esperienza: [Utilizzo dei frammenti esperienza AEM con Adobe Target](https://helpx.adobe.com/it/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
+Il seguente video illustra come impostare e utilizzare i frammenti di esperienza: [Uso dei frammenti di esperienza AEM con Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
