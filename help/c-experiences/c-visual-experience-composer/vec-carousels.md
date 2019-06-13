@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Creazione di caroselli di immagini adatti al Compositore esperienza visivo
 topic: Standard
 uuid: 19538f6e-445c-49ca-9f0d-b49fc330b721
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
