@@ -1,18 +1,18 @@
 ---
-description: Questa sezione descrive come inviare informazioni sull’attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAhoc.
-seo-description: Questa sezione descrive come inviare informazioni sull’attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAhoc.
+description: Questa sezione descrive come inviare informazioni sulle attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAdHoc.
+seo-description: Questa sezione descrive come inviare informazioni sulle attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAdHoc.
 seo-title: Inviare informazioni sull’attività ad Adobe Analytics
 title: Inviare informazioni sull’attività ad Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: tm+mt
-source-git-commit: 3ed060bf19f06b2f217bd68532884af8d30cc367
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Inviare informazioni sull’attività ad Adobe Analytics{#send-activity-information-to-adobe-analytics}
 
-Questa sezione descrive come inviare informazioni sulle attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAhoc.
+Questa sezione descrive come inviare informazioni sulle attività delle app mobili di Target ad Adobe Analytics per la segmentazione postAdHoc.
 
 **Prerequisiti**
 
@@ -55,12 +55,12 @@ Questa sezione descrive come inviare informazioni sulle attività delle app mobi
 
    Analizza la risposta restituita da Target nella chiamata di ritorno. Utilizza NSJSONSerialization per analizzare questa risposta e memorizzarla in una dipendenza o un array.
 
-   Per ulteriori [informazioni, consulta la documentazione](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) nsjsonserialization.
+   Consulta la [documentazione relativa a NSJSONSerialization](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) per ulteriori informazioni.
 1. Inviare i dati ad Analytics.
 
    Aggiungi le informazioni sull’attività analizzate (come `tntVal` nella risposta precedente) all’oggetto dati contestuali in una chiamata di Analytics. Questa chiamata di Analytics contenente i dati contestuali può essere attivata immediatamente oppure può attendere finché non viene avviata la chiamata di Analytics successiva.
 
-   Ad esempio, questa chiamata può essere attivata nella chiamata di ritorno della chiamata `targetLoadRequest`:
+   Ad esempio, questa chiamata può essere attivata nel callback della chiamata `targetLoadRequest`:
 
    ```
    [ADBMobile trackAction:@"Welcome Screen"  
