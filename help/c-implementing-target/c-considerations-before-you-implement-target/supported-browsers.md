@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Browser supportati
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -20,16 +20,16 @@ L’applicazione [!DNL Adobe Target] e la consegna dei contenuti sono stati test
 
 Per ulteriori, importanti informazioni su TLS, vedi [Modifiche alla crittografia di TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Interfaccia di Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target] Interfaccia Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 L’interfaccia di [!DNL [!DNL Target]] Standard/Premium supporta i seguenti browser e dispositivi:
 
 | Tipo di dispositivo | Versione del browser |
 |--- |--- |
-| Windows | <ul><li>Microsoft Internet Explorer 11.<br>**Nota**: [!DNL Target] e Adobe Experience Cloud abbandoneranno il supporto per Microsoft Internet Explorer 11 a partire da marzo 2019. Questa modifica influisce solo sull&#39;authoring di [!DNL Target] senza influire sulla distribuzione delle esperienze. Passa a Microsoft Edge o a un altro browser supportato.</li><li>Microsoft Edge</li><li>Google Chrome (ultima, ultima meno 1)</li><li>Mozilla Firefox (ultima, ultima meno 1)</li></ul> |
+| Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (ultima, ultima meno 1)</li><li>Mozilla Firefox (ultima, ultima meno 1)</li></ul> |
 | Mac | <ul><li>Firefox (ultima, ultima meno 1)</li><li>Chrome (ultima, ultima meno 1)</li></ul> |
 
-## Consegna dei contenuti {#section_1045A946056441268D40025529918D3D}
+## Distribuzione dei contenuti {#section_1045A946056441268D40025529918D3D}
 
 La consegna dei contenuti è stata testata attraverso i seguenti browser e dispositivi:
 
@@ -41,7 +41,7 @@ La consegna dei contenuti è stata testata attraverso i seguenti browser e dispo
 
 Per le implementazioni di [!DNL at.js], [!DNL Target] mostra il contenuto predefinito nelle versioni precedenti di Internet Explorer e possibilmente nelle versioni precedenti dei browser sopra elencati. Per le implementazioni di [!DNL mbox.js], [!DNL Target] tenta di eseguire il rendering del contenuto ma l’operazione potrebbe non avere esito positivo.
 
-[!DNL Target] visualizza il contenuto predefinito nei browser non elencati sopra e nei browser che sfruttano la tecnica [Quirks Mode](https://it.wikipedia.org/wiki/Quirks_Mode) at.js richiede un doctype che esegua il rendering in modalità standard, ad esempio: `<!DOCTYPE html>`.
+[!DNL Target] mostra il contenuto predefinito nei browser non elencati sopra e nei browser che utilizzano modalità [non standard](https://en.wikipedia.org/wiki/Quirks_mode). at.js richiede un doctype che esegua il rendering in modalità standard, ad esempio: `<!DOCTYPE html>`.
 
 >[!NOTE]
 >
