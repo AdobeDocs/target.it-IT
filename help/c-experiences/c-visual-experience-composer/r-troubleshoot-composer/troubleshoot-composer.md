@@ -6,8 +6,8 @@ seo-title: Risoluzione dei problemi relativi al Compositore esperienza visivo e 
 solution: Target
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
-translation-type: tm+mt
-source-git-commit: fda7c96a67d310e9b94e50e167cfaaaa937ada35
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,6 +20,6 @@ Il Compositore esperienza visivo è una delle funzionalità principali di Adobe 
 
 Il Compositore esperienza avanzato è un’estensione del Compositore esperienza visivo che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di Target. Se hai difficoltà ad aprire la pagina nel Compositore esperienza visivo, prova con il Compositore esperienza avanzato.
 
-Per informazioni sul Compositore esperienza visivo e sul Compositore esperienza avanzato, vedi  [Esperienze](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+Per informazioni sul Compositore esperienza visivo e sul Compositore esperienza avanzato, vedi [Esperienze](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Nota che alcuni problemi riguardano sia il Compositore esperienza visivo sia il Compositore esperienza avanzato, mentre alcuni riguardano solo uno dei due compositori. Consulta la pagina appropriata per trovare ulteriori informazioni.
