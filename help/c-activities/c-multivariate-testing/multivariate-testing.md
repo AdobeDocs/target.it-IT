@@ -7,8 +7,8 @@ solution: Target
 title: Test multivariato
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività.
 
-## Panoramica dei test multivariati  {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Panoramica dei test multivariati {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Un test multivariato aiuta a scoprire l’influenza relativa che specifici elementi hanno sulla conversione, rispetto ad altri elementi della pagina. Può anche essere utile per perfezionare una combinazione di elementi che so è dimostrata efficace.
 
@@ -47,7 +47,7 @@ In questo settore esistono più termini utilizzati in modi diversi. Questa sezio
 
 **Posizione:** area di contenuto specifica in una pagina, spesso contenuta in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
-## Quando utilizzare test multivariati o A/B  {#section_3D2B966B6671406C861A1843EA41D28C}
+## Quando utilizzare test multivariati o A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Alcuni esempi di situazioni in cui può essere utile utilizzarli insieme:
 
@@ -70,7 +70,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
    Ad esempio, non testare il layout e il contenuto nello stesso test.
 * Pianifica un tempo aggiuntivo per l’attività di QA, a causa dell’aumento del numero di esperienze.
 
-   Target offre test multivariati fattoriali completi come opzione di attività incorporata. In statistica, nel Design of Experiments (DOE, progettazione di esperimenti) si utilizzano diversi approcci, o progetti, per determinare quali fattori influenzano i risultati. Un approccio di questo tipo è il metodo Taguchi per il test fattoriale parziale. Taguchi permette agli addetti al marketing di fare una serie di presupposti che riducono il numero di permutazioni di esperienze da testare, e quindi diminuisce i requisiti di traffico per un test multivariato. Puoi sfruttare questo approccio di funzionalità e test in Target Standard/Premium utilizzando [questo foglio di calcolo offline](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+   Target offre test multivariati fattoriali completi come opzione di attività incorporata. In statistica, nel Design of Experiments (DOE, progettazione di esperimenti) si utilizzano diversi approcci, o progetti, per determinare quali fattori influenzano i risultati. Un approccio di questo tipo è il metodo Taguchi per il test fattoriale parziale. Taguchi permette agli addetti al marketing di fare una serie di presupposti che riducono il numero di permutazioni di esperienze da testare, e quindi diminuisce i requisiti di traffico per un test multivariato. È possibile sfruttare questa funzionalità e l’approccio ai test in Target Standard/Premium utilizzando [questo foglio di calcolo offline](https://marketing.adobe.com/resources/help/en_US/target/mvt/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
    Se il tuo team utilizza altri approcci DOE, puoi utilizzare questo foglio di calcolo come implementazione di riferimento per progetti di esperimento personalizzati.
 
@@ -82,7 +82,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
    * Crea le esperienze nel flusso di lavoro A/B con il Compositore esperienza basato su moduli o il Compositore esperienza visivo. Se utilizzi quest’ultimo, puoi usare codice personalizzato, modificare l’HTML, lavorare in modalità WYSIWYG o qualsiasi combinazione di queste modalità.
    * Al termine dell’attività (in base al calcolatore delle dimensioni del campione), Immetti i risultati nel foglio di calcolo per ottenere gli altri dettagli.
 
-Per ulteriori considerazioni e best practice, vedi  [Best practice relative ai test multivariati](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Per ulteriori considerazioni e best practice, vedi [Best practice relative ai test multivariati](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Video di formazione:
 
