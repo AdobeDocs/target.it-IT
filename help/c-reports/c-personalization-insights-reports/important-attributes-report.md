@@ -8,8 +8,8 @@ title: Rapporto Attributi importanti
 title-outputclass: premium
 uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 6e715abb833fcc233864d29abebacc4d5e3c5ef5
 
 ---
 
@@ -110,6 +110,18 @@ Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per 
 **Qual è il punteggio di importanza dell&#39;attributo nel rapporto relativo agli Attributi importanti?**
 
 Il punteggio di importanza nella sezione “Classifica di Importanza degli Attributi” del rapporto fornisce input sulle variabili, utilizzate dall&#39;algoritmo per apprendere, che sono state più importanti nel determinare la suddivisione di tutti i visitatori nei segmenti che identificava. Ha assegnato un punteggio percentuale ai 100 attributi principali utilizzati dal modello.
+
+**Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?**
+
+Esistono diversi motivi potenziali per vedere più visite a un&#39;offerta/esperienza di conversione inferiore all&#39;interno di un segmento automatizzato, inclusi:
+
+* Un basso numero di visite ad alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
+* Attività più basse in cui determinate offerte o esperienze non sono dotati di modelli.
+* Attività più basse in cui i modelli venivano creati prima per alcune offerte/esperienze rispetto ad altri. Ad esempio, supponiamo che un modello aggiuntivo sia stato creato il giorno 22 e che i dati vengano visti dai giorni 10-24.
+* Regole di targeting su un&#39;offerta specifica che limita i visitatori in grado di vedere quali offerte o esperienze sono disponibili.
+* Non ci sono intervalli di confidenza nella generazione dei rapporti. Tuttavia, se i tassi di conversione sono sufficientemente vicini, il modello potrebbe distribuire il traffico in modo che sia più elevato nell&#39;importo in punti, ma non i numeri statisticamente diversi.
+
+È utile sapere come funziona il modello per distribuire il traffico. Ogni individuo viene distribuito in base al suo profilo totale. Tuttavia, i report Approfondimenti generalizzano questo comportamento per renderlo più interpretografabile da un uomo. Di conseguenza, i segmenti non si escludono a vicenda. Questo può portare a singoli segmenti che mostrano questo tipo di comportamento, perché la stessa persona può essere visualizzata in più segmenti.
 
 **Come posso sfruttare le informazioni in Registri di personalizzazione?**
 
