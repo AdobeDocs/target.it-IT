@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Punteggio di acquisizione
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -48,13 +48,13 @@ Esistono due metodi per assegnare un punteggio a una pagina:
 
    Utilizzando questo metodo, il valore specificato viene aggiunto al punteggio per ogni mbox nella pagina. Ad esempio, se passi il parametro `?mboxPageValue=10` e ci sono tre mbox sulla pagina, il punteggio per la pagina è di 30.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class=“- topic/note ”}
 >
 >Le mbox situate sopra la prima mbox visualizzata della campagna non saranno incluse nel punteggio.
 
 La procedura consigliata consiste nell&#39;assegnare valori nel codice mbox. Questo permette di essere precisi nei valori che misuri, a seconda del contenuto di ogni mbox.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class=“- topic/note ”}
 >
 >Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell&#39;account per l&#39;assistenza.
 
