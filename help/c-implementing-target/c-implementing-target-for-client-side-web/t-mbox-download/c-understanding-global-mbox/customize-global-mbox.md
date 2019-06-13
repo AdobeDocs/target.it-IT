@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Personalizzare una mbox globale
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
