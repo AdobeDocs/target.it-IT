@@ -7,8 +7,8 @@ solution: Target
 title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
-translation-type: tm+mt
-source-git-commit: d16f43524b18135b9173714a87a6d9f62173b900
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -55,14 +55,14 @@ Per riconoscere un host, devono essere soddisfatte le seguenti condizioni:
 
 Dopo aver visualizzato la pagina, l’host è presente nell’elenco degli [!UICONTROL host]; è quindi possibile gestirlo in un ambiente, nonché visualizzare in anteprima e avviare attività e test.
 
->[!NOTE] {class=&quot;- topic/note &quot;}
+>[!NOTE] {class=“- topic/note ”}
 >
 >Questo include tutti i server di sviluppo personali.
 
 Dopo aver aggiunto un host all’elenco degli [!UICONTROL host], assicurati che l’host sia riconosciuto.
 
 1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Host]**.
-1. Se l’host non è elencato, aggiorna il browser.
+1. Se l’host non è elencato, aggiorna il browser. 
 Per impostazione predefinita, un host appena riconosciuto viene inserito nell’ambiente Produzione. Questo è l’ambiente più sicuro perché non consente di visualizzare le attività inattive da questi host.
 1. (Condizionale) Sposta l’host nell’ambiente Sviluppo o Staging.
 
@@ -87,11 +87,11 @@ Per ordinare l’elenco [!UICONTROL Host], fai clic su qualsiasi intestazione di
 
 Per cercare nell’elenco [!UICONTROL Host], digita un termine nella casella di ricerca.
 
-## Selezionare più host  {#section_EF3B458475184B7EA997C3559714397C}
+## Selezionare più host {#section_EF3B458475184B7EA997C3559714397C}
 
 Per selezionare più host, seleziona le caselle di controllo accanto alla colonna [!UICONTROL Nome] per gli host desiderati. È quindi possibile spostare o eliminare tutti gli host selezionati.
 
-## Creare un ambiente  {#section_32097D0993724DF3A202D164D3F18674}
+## Creare un ambiente {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Dall’elenco [!UICONTROL Host], fai clic sulla scheda **[!UICONTROL Ambienti]**.
 1. Fai clic su **[!UICONTROL Crea ambiente]**.
@@ -152,7 +152,7 @@ Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione vie
 1. Fai clic sull’icona **[!UICONTROL Sposta]**.
 1. Seleziona l’ambiente desiderato dal menu a discesa, quindi fai clic sul segno di spunta.
 
-## Eliminare un host  {#section_F56355BA4BC54B078A1A8179BC954632}
+## Eliminare un host {#section_F56355BA4BC54B078A1A8179BC954632}
 
 Quando un host non è più necessario, è possibile eliminarlo.
 
@@ -206,7 +206,7 @@ Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Cons
 >[!NOTE]
 >Le attività Consigli sono disponibili come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di Target Premium.
 
-Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. Le raccomandazioni distribuite dipendono dal gruppo di host specificato nella richiesta.
+Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
 
 Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell&#39;ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
 
