@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -21,7 +21,7 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
 1. Nell’elenco Attività di Target Standard, fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Personalizzazione automatizzata]**.
 
-   ![](assets/ap_create.png)
+   ![Crea attività: Automated Personalization (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
 1. Specificare il canale desiderato: web.
 
@@ -29,9 +29,8 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
 1. Per utilizzare il Compositore esperienza visivo (VEC), fai clic su **[!UICONTROL Visivo (impostazione predefinita)]**.
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona **[!UICONTROL Modulo]**.
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona **[!UICONTROL Modulo]**. Per ulteriori informazioni su entrambi i compositori, consulta [Esperienze](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
-   Per ulteriori informazioni su entrambi i compositori, consulta [Esperienze](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 1. Verifica o inserisci l’URL di attività, quindi fai clic su **[!UICONTROL Avanti]**.
 
    >[!NOTE]
@@ -40,12 +39,12 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
    La pagina con l’URL specificato viene visualizzata nel Compositore esperienza visivo.
 
-   ![](assets/ap_url.png)
+   ![Crea attività di personalizzazione automatizzata, finestra di dialogo](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 1. Per assegnare un nome all’attività, fai clic sul campo Nome e digita il nome dell&#39;attività.
 
-   ![](assets/ab_newname.png)
+   ![Campo Nome](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
    I seguenti caratteri non sono consentiti nel nome di un’attività:
 
@@ -60,56 +59,69 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
    | - | Meno |
    | @ | Chiocciola |
 
-1. Modifica gli elementi della pagina come descritto in [Esperienze](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), quindi fai clic su **[!UICONTROL Avanti]**.
+1. Modificate gli elementi della pagina come spiegato in [Visual Experience Composer (Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)).
 
    È possibile selezionare più immagini contemporaneamente dal gestore delle risorse. In questo modo è possibile visualizzare rapidamente la pagina con ciascuna delle immagini configurate per l&#39;attività. Inoltre è possibile modificare facilmente gli elementi di testo nelle offerte. Quando si modifica un elemento, su tale elemento vengono visualizzate delle barre per indicare che è stato modificato.
 
 1. Fai clic su **[!UICONTROL Gestisci contenuto]** per configurare le combinazioni disponibili.
 
+   ![Opzione Gestisci contenuto](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+
    Una finestra di dialogo appare con tre opzioni nella parte superiore dello schermo: esperienze, offerte e gruppi di esclusione.
 
-   ![](assets/ap_content.png)
+   ![Gestisci contenuto, finestra di dialogo](/help/c-activities/t-automated-personalization/assets/ap_content-new.png)
 
    >[!NOTE]
    >
    >Anche se è possibile creare fino a 30.000 esperienze in un’attività Personalizzazione automatizzata, l’attività fornisce migliori prestazioni quando si utilizzano meno di 5.000 esperienze.
 
-   L&#39;elenco [!UICONTROL Esperienze] mostra ogni parte del contenuto selezionata per l&#39;attività e la posizione a cui è assegnata. È possibile escludere esperienze specifiche passando con il puntatore del mouse sopra l&#39;esperienza desiderata e facendo quindi clic sull&#39;icona Escludi oppure escludere/includere esperienze in blocco selezionando la casella di spunta per le esperienze rilevanti e facendo quindi clic sull&#39;icona Escludi nell&#39;angolo in alto a destra della finestra di dialogo.
+   L&#39;elenco [!UICONTROL Esperienze] mostra ogni parte del contenuto selezionata per l&#39;attività e la posizione a cui è assegnata.
 
-   ![](assets/ap_content_batch_exclude.png)
+   È possibile escludere esperienze specifiche passando sopra l&#39;esperienza desiderata e cliccando sull&#39;icona Escludi.
 
-   È possibile filtrare la visualizzazione dell&#39;elenco per vedere solo le attività escluse o incluse, facendo clic sull&#39;elenco a discesa **Stato**.
-1. Fai clic su **[!UICONTROL Offerte]** per selezionare parti di contenuto e assegnarle a [gruppi di rapporti](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   ![Escludi icona hover](/help/c-activities/t-automated-personalization/assets/icon-exclude.png)
 
-   Utilizza l&#39;elenco [!UICONTROL Posizione] per filtrare le offerte in base alla posizione. Utilizza l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le offerte in base ai gruppi di rapporti. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le [!UICONTROL Offerte non assegnate] così da poter assegnare un gruppo di rapporti a un&#39;offerta attualmente non assegnata ad alcun gruppo di rapporti.
+   Potete escludere/includere in batch le esperienze selezionando la casella di controllo per le esperienze pertinenti, quindi facendo clic sull&#39;icona Escludi nell&#39;angolo in alto a destra della finestra di dialogo.
 
-   È possibile aggiungere esperienze specifiche a un gruppo di rapporti passando con il puntatore del mouse sull&#39;offerta desiderata e facendo quindi clic sull&#39;icona della cartella oppure includere esperienze in blocco selezionando la casella di controllo relativa alle esperienze rilevanti e facendo quindi clic sull&#39;icona della cartella Gruppo di rapporti nell&#39;angolo in alto a destra della finestra di dialogo.
+   ![Opzioni di esclusione batch](/help/c-activities/t-automated-personalization/assets/batch-exclude.png)
 
-   ![](assets/report_group.png)
+   You can filter this list view to see only excluded or only included activities by clicking the **Status** drop-down list.
 
-   È importante comprendere che i gruppi di rapporti incidono sul modo in cui Target genera i propri modelli. Di conseguenza, è consigliabile utilizzare i gruppi di rapporti solo se si prevede di sostituire o aggiungere nuove offerte mentre l&#39;attività è in corso. Se una nuova offerta viene introdotta in un&#39;attività in corso, inserire la nuova offerta in un gruppo con offerte analoghe esistenti permette alla macchina di utilizzare i dati già raccolti per le altre offerte del suo gruppo così da conoscere la nuova offerta. È sconsigliabile mettere tutte le offerte in un unico gruppo di reporting.
-
-   Per informazioni su come indirizzare un’offerta a tipi di pubblico specifici, consulta [Offerte Personalizzazione automatizzata di Target](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
 1. (Facoltativo) Fai clic su **[!UICONTROL Offerte]** per selezionare parti di contenuto e assegnarle a gruppi di reporting o per consentire solamente a determinati visitatori di visualizzare alcune offerte con targeting.
 
    Per ulteriori informazioni, consulta [Gruppi di reporting delle offerte in Personalizzazione automatizzata](../../c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
 
-   Per informazioni su come realizzare offerte mirate a tipi di pubblico specifici, consulta [Offerte mirate di Personalizzazione automatizzata](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+   Utilizza l&#39;elenco [!UICONTROL Posizione] per filtrare le offerte in base alla posizione. Utilizza l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le offerte in base ai gruppi di rapporti. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le [!UICONTROL Offerte non assegnate] così da poter assegnare un gruppo di rapporti a un&#39;offerta attualmente non assegnata ad alcun gruppo di rapporti.
+
+   Potete aggiungere esperienze specifiche a un gruppo di reporting posizionando il mouse sull&#39;offerta desiderata e facendo clic sull&#39;icona della cartella.
+
+   ![Icona cartella hover](/help/c-activities/t-automated-personalization/assets/icon-folder.png)
+
+   Per includere in batch le esperienze in un gruppo di rapporti, selezionate la casella di controllo per le esperienze pertinenti, quindi fate clic sul pulsante Icona del gruppo di rapporti nell&#39;angolo in alto a destra della finestra di dialogo.
+
+   ![Opzioni Gruppo rapporti](/help/c-activities/t-automated-personalization/assets/report-group-options.png)
+
+   È importante comprendere che i gruppi di rapporti incidono sul modo in cui Target genera i propri modelli. Di conseguenza, è consigliabile utilizzare i gruppi di rapporti solo se si prevede di sostituire o aggiungere nuove offerte mentre l&#39;attività è in corso. Se una nuova offerta viene introdotta in un&#39;attività in corso, inserire la nuova offerta in un gruppo con offerte analoghe esistenti permette alla macchina di utilizzare i dati già raccolti per le altre offerte del suo gruppo così da conoscere la nuova offerta. È sconsigliabile mettere tutte le offerte in un unico gruppo di reporting.
+
+   Per informazioni su come indirizzare un’offerta a tipi di pubblico specifici, consulta [Offerte Personalizzazione automatizzata di Target](../../c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
 1. (Facoltativo) Fai clic su **[!UICONTROL Gruppi di esclusione]** per scegliere le combinazioni di elementi che desideri escludere dall’attività.
 
-   ![Risultato passaggio](assets/exclusion_groups.png)
+   ![Scheda Gruppi di esclusione della finestra di dialogo Gestisci contenuto](/help/c-activities/t-automated-personalization/assets/exclusion_groups-new.png)
 
    Anche se è possibile creare fino a 30.000 esperienze in un test di Personalizzazione automatizzata, l&#39;algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze.
 
    Se nell&#39;attività non sono presenti gruppi di esclusione, fai clic su **Crea gruppo di esclusione**. È possibile filtrare l&#39;attività per creare un elenco che mostra solo le combinazioni che desideri escludere. Denomina il gruppo di esclusione e fai clic su **Salva**.
 
    Per modificare un gruppo di esclusione esistente, posiziona il puntatore del mouse sul gruppo che desideri modificare, quindi fai clic sull&#39;icona a forma di matita.
-1. Una volta completata l’impostazione del contenuto dell’attività, fai clic su **[!UICONTROL Fine]**.
+
+1. Fate clic **[!UICONTROL su Fine]** al termine della configurazione del contenuto dell&#39;attività.
+
 1. Se hai già utilizzato altri tipi di attività di Target, la fase di **Targeting** ti risulterà familiare. Qui puoi selezionare un pubblico e specificare la percentuale di visitatori che vedranno l&#39;esperienza di controllo facendo clic sull&#39;elenco a discesa **[!UICONTROL Personalizza allocazione]**, quindi fai clic su **Successivo**.
 
    L’elenco a discesa [!UICONTROL Personalizza allocazione] consente di scegliere tra le seguenti opzioni:
 
-   ![](assets/split-ap.png)
+   ![Elenco a discesa Obiettivo allocazione traffico](/help/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
    * **Valuta algoritmo di personalizzazione (50/50):** se l&#39;obiettivo è quello di testare l&#39;algoritmo, assegna il 50% dei visitatori all&#39;algoritmo di controllo e l&#39;altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento.
    * **Massimizza traffico personalizzazione (90/10):** se il tuo obiettivo è invece quello di creare un’attività “sempre attiva”, inserisci dal 10% al 30% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, considera che la personalizzazione di una proporzione maggiore del traffico va a scapito della precisione nell’incremento rilevato.
@@ -122,7 +134,7 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
    >
    >Nelle attività di personalizzazione automatizzata, i criteri di ingresso (destinazione URL, regole modello e destinazione pubblico) vengono valutati per ogni richiesta. Nelle versioni precedenti, i criteri di ingresso venivano valutati una volta a sessione.
 
-1. Fai clic su **[!UICONTROL Continua]** per visualizzare la pagina **[!UICONTROL Obiettivi e impostazioni]**.
+1. Fate clic **[!UICONTROL su Avanti]** per visualizzare la pagina **[!UICONTROL Goals and Settings]** (Obiettivi e impostazioni).
 1. Configura l’attività con le impostazioni seguenti, quindi fai clic su **[!UICONTROL Salva e chiudi]**.
 
    | Impostazione | Descrizione |
