@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Utilizzare una mbox globale da unʼimplementazione legacy
 topic: Standard
 uuid: 31b03dab-99da-4040-bab6-4f5cb452ffdc
-translation-type: tm+mt
-source-git-commit: 78c756d3606c4080675f76f49c926f9882593ca2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -41,6 +41,6 @@ Per utilizzare la mbox globale esistente sia per [!DNL Target Standard] che per 
 1. Fai clic su **[!UICONTROL Invia]**.
 
    Tutte le attività esistenti vengono aggiornate in modo da utilizzare la mbox globale specificata, comprese quelle create e implementate in precedenza.
-   **Risoluzione dei problemi di implementazione della mbox globale**  *Perché la mbox globale non viene caricata o perché c&#39;è latenza nel caricamento della mbox globale quando la pagina viene caricata?*
+   **Risoluzione dei problemi di implementazione della mbox globale** *Perché la mbox globale non viene caricata o perché c&#39;è latenza nel caricamento della mbox globale quando la pagina viene caricata?*
 
-Assicurati che il riferimento mbox.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, vedi  [Implementazione di mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
+Assicurati che il riferimento mbox.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, vedi [Implementazione di mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
