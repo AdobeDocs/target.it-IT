@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Reporting di Analytics for Target (A4T)
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
-translation-type: tm+mt
-source-git-commit: f2d5c7eafbdb21ff26d88b692266d0e43dae6744
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
