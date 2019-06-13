@@ -7,8 +7,8 @@ solution: Target
 title: Limitazioni di at.js
 topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
-translation-type: tm+mt
-source-git-commit: e776db611baf2a844de1045a9e3268c28dd9b522
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,11 +23,11 @@ Esistono alcune differenze tra at.js e mbox.js. In questa sezione vengono elenca
 
    Poiché il DOM non è cancellato per gli eventi di caricamento pagina nelle applicazioni a pagina singola come succede nei siti web tradizionali, le manipolazioni Inserisci elemento e Ridisponi potrebbero essere applicate più volte a seconda del modo in cui il visitatore naviga nell’applicazione.
 
-## Integrazioni e plug-in  {#section_D92E31170176406AAC7B5005F03D3425}
+## Integrazioni e plug-in {#section_D92E31170176406AAC7B5005F03D3425}
 
 Alcune funzioni di [!DNL mbox.js] non sono disponibili in [!DNL at.js]. Gli [oggetti e i metodi interni di mbox.js](../../../../c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (come `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e altri) non sono più supportati da [!DNL at.js] (ad esempio: `mboxFactoryDefault`). È una scelta progettuale, pensata per scoraggiare gli utenti da eseguire “hacking” su [!DNL at.js] per sviluppare funzionalità non supportate che a lungo termine possono paralizzare un&#39;implementazione e renderne impossibile l&#39;aggiornamento. Gli unici metodi esposti sono descritti nelle pagine API di questa documentazione. Per questo motivo:
 
-* Le [integrazioni precedenti basate su pagina](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) con altre soluzioni Adobe potrebbero non funzionare e devono essere aggiornate a nuove integrazioni lato server.
+* Le [integrazioni](../../../../c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) legacy basate su pagina con altre soluzioni Adobe potrebbero non funzionare e devono essere aggiornate alle più recenti integrazioni lato server.
 * [I plug-in personalizzati sviluppati per mbox.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) potrebbero non funzionare se non aggiornati per [!DNL at.js].
 
    Assicurati di includere eventuali [plug-in](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) come parte del test.
