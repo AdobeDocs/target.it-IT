@@ -7,8 +7,8 @@ solution: Target
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: tm+mt
-source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -17,8 +17,8 @@ source-git-commit: 5405e95cf516f973b69834ac114a1e351cd3040a
 
 Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 
-* Impostazioni attività 
-* Impostazioni reporting 
+* Impostazioni attività
+* Impostazioni reporting
 * Altri metadati
 
 Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come origine di dati.
@@ -35,7 +35,7 @@ Specifica una finalità facoltativa. La finalità può essere costituita da qual
 
 ### Priorità
 
-L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità granulare da 0 a 999.
+L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
@@ -58,13 +58,13 @@ Per le attività create con le versioni precedenti di Target Standard/Premium, l
 
 L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
-## Impostazioni reporting  {#section_13119392051044FBA6387D9B3B1C43CF}
+## Impostazioni reporting {#section_13119392051044FBA6387D9B3B1C43CF}
 
 Sono disponibili le seguenti opzioni:
 
 ### Soluzione di reporting
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
+Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Per informazioni sulle differenze tra le soluzioni di reporting e i relativi vantaggi, consulta [Adobe Analytics come origine per i rapporti per Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/a4t.html).
 
 Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
 
@@ -122,12 +122,12 @@ L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo 
 
 Per aggiungere una dipendenza:
 
-1. Dopo aver aggiunto le metriche aggiuntive, fai clic su Impostazioni avanzate .
+1. Dopo aver aggiunto le metriche aggiuntive, fai clic su Impostazioni avanzate.
 2. Fai clic sull’opzione Aggiungi dipendenza:
 
    ![](assets/add_dependency.png)
 
-3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto .
+3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto.
 
    ![](assets/add_dependency_reached.png)
 
