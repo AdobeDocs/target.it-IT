@@ -7,8 +7,8 @@ solution: Target
 title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyID
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
-translation-type: tm+mt
-source-git-commit: 17f0612559bae335d261ebc7654bc5d7fe3c0d12
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -34,4 +34,4 @@ Quando il visitatore si disconnette, il profilo unito viene mantenuto.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] gli obiettivi non vengono tracciati nei casi in cui l&#39; [!DNL Adobe Experience Cloud] ID (MID) cambia (ad esempio, il visitatore cambia dispositivo), anche se [!DNL Target] il profilo potrebbe essere unito in base a mbox 3 rdpartyid e con informazioni sull&#39;attività. Per i visitatori identificati con lo stesso MID (quelli che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A 4 T) funziona come previsto.
+>Gli obiettivi [!DNL Adobe Analytics] non vengono tracciati nei casi in cui l’ID [!DNL Adobe Experience Cloud] (MID) cambia (ad esempio, il visitatore cambia dispositivo), anche se il profilo [!DNL Target] potrebbe essere unito in base al valore mbox3rdPartyID e contiene ancora informazioni sull’attività. Per i visitatori identificati con lo stesso MID (che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) funziona come previsto.
