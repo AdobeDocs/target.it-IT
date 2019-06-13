@@ -8,8 +8,8 @@ title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
 
 ---
 
@@ -26,6 +26,8 @@ Ricorda che Target fornisce le esperienze in modo casuale, fino a quando non ven
 
 1. Nel Compositore esperienza, fai clic su **[!UICONTROL Traffico]**.
 
+   ![Icona Traffico](/help/c-activities/t-automated-personalization/assets/icon-traffic.png)
+
    Viene visualizzato il Calcolatore del traffico. Fai di nuovo clic su **[!UICONTROL Traffico]** per nascondere il Calcolatore del traffico.
 
    ![](assets/ap_est.png)
@@ -35,7 +37,7 @@ Ricorda che Target fornisce le esperienze in modo casuale, fino a quando non ven
    * Numero di combinazioni di contenuto: calcolato automaticamente in base al numero di esperienze create come parte dell&#39;attività, dopo eventuali esclusioni.
    * Tasso di conversione tipico: il tasso di conversione è espresso in percentuale, in base alla stima o ai dati passati derivati dal sistema di analisi.
    * Visite al giorno stimate: è il numero di visite al giorno effettuate dai visitatori che possono visualizzare l’attività, in base ai criteri di targeting. Può essere basato sui dati di analisi. Questo numero dovrebbe indicare le visite, non i visitatori univoci.
-   * Durata del test: Il numero di giorni desiderati per l’esecuzione dell’attività.
+   * Durata del test: il numero di giorni desiderati per l’esecuzione dell’attività.
    Nel Calcolatore del traffico questi dati statistici vengono utilizzati per determinare quali aggiustamenti sono necessari per eseguire un test di successo.
 
    Nella parte superiore del Calcolatore del traffico, vengono calcolati i valori inseriti e visualizzati i risultati.
