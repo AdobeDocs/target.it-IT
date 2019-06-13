@@ -1,14 +1,14 @@
 ---
-description: 'Informazioni sulla funzione targetpageparams () per at. js. '
+description: 'Informazioni sulla funzione targetPageParams() per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione targetpageparams () per la libreria javascript di Adobe Target nella libreria javascript. js.
-seo-title: Informazioni sulla funzione targetpageparams () per la libreria javascript di Adobe Target nella libreria javascript. js.
+seo-description: Informazioni sulla funzione targetPageParams() per la libreria JavaScript at.js di Adobe Target.
+seo-title: Informazioni sulla funzione targetPageParams() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: targetPageParams()
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 1e2b435244294ccac5d852369f84003a54c18dc0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
