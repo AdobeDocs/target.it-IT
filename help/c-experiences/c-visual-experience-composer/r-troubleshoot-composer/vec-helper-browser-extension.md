@@ -6,8 +6,8 @@ seo-title: Estensione Adobe Target VEC Helper
 solution: Target
 title: Estensione Adobe Target VEC Helper
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 46f86cbcfb25efba2c71356fb2defc429535e706
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -31,21 +31,21 @@ Vantaggi dell’utilizzo dell’estensione VEC Helper:
 * Se una pagina web non contiene ancora la libreria JavaScript di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
 * I riquadri di visualizzazione per dispositivi mobili sono supportate anche senza il [!UICONTROL Compositore esperienza avanzato] (EEC).
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
-* I·partner·che·gestiscono·siti·web·e·account·[!DNL Target]·di·più·clienti·ora·hanno·a·disposizione·un·meccanismo·semplice·per·supportare·il·caricamento·del·Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
+* I partner che gestiscono siti web e account [!DNL Target] di più clienti ora hanno a disposizione un meccanismo semplice per supportare il caricamento del Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
 
 ## Ottenere e installare l’estensione VEC Helper per browser
 
-1. Passate all&#39;estensione del browser Helper di [Adobe Target in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Vai alla pagina dell’[estensione Adobe Target VEC Helper per browser in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Fai clic su [!UICONTROL Aggiungi a Chrome &gt; Aggiungi estensione].
-1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser ( ![icona di VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png) ) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/c-activities/c-activity-qa/activity-qa.md).
+1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser (![icona di VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/c-activities/c-activity-qa/activity-qa.md).
 
-L&#39;illustrazione seguente mostra l&#39;helper VEC con l&#39;impostazione di [!UICONTROL Ininsert Target Libraries] abilitata:
+La seguente illustrazione mostra VEC Helper con l’impostazione [!UICONTROL Inserisci librerie Target] abilitata:
 
-![Helper VEC 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
+![VEC Helper 1](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension-1.png)
 
-L&#39;illustrazione seguente mostra l&#39;Assistente VEC che chiede se desiderate che [!DNL Target] le librerie siano inserite nella pagina per abilitare l&#39;authoring:
+La seguente illustrazione mostra VEC Helper che chiede se desideri inserire le librerie [!DNL Target] nella pagina per abilitare l’authoring:
 
-![Helper VEC 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
+![VEC Helper 2](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-helper.png)
 
 ## Note
 
