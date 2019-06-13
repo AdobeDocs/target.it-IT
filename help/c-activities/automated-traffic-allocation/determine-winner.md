@@ -8,7 +8,7 @@ title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9261f626f43ccd17c9b8c86a361642ae9833e3e2
+source-git-commit: 16bbe7b628c6f72f63465d4dfd4ca0e9c63b57e7
 
 ---
 
@@ -23,7 +23,7 @@ Molti addetti al marketing commettono l’errore di dichiarare un’esperienza v
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
 
-![](assets/auto_traffic_no_winner.png)
+![Nessun badge vincitore](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
