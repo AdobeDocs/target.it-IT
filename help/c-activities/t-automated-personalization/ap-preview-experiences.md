@@ -1,6 +1,6 @@
 ---
 description: Dato che in un test di personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
-keywords: 'Consigli '
+keywords: Consigli
 seo-description: Dato che in un test di personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
 seo-title: Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
 solution: Target
@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
 badge: premium
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
