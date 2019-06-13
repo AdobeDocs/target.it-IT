@@ -6,8 +6,8 @@ solution: Target
 title: Stimare il traffico necessario per il successo del test
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
-translation-type: tm+mt
-source-git-commit: ca1b7a3d0f5d093cbafd3d3bac30cc542b3099d6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -38,12 +38,12 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
 
    ![](assets/estimatorempty.png)
 
-1. Specifica il tasso di conversione tipico, i visitatori stimati al giorno e la durata del test.
+1. Indica il tasso di conversione tipico, i visitatori stimati al giorno e la durata del test.
 
-   * [!UICONTROL Numero di combinazioni contenuto]: Calcolato automaticamente in base al numero di esperienze create come parte dell&#39;attività dopo qualsiasi esclusioni.
-   * [!UICONTROL Tasso di conversione tipico]: Il tasso di conversione viene espresso come percentuale, in base alla stima o ai dati passati dal sistema di analisi
-   * [!UICONTROL Visitatori stimati al giorno]: Questo è il numero di visitatori che visualizzeranno la pagina in base ai criteri di targeting. Può essere basato sui dati di analisi.
-   * [!UICONTROL Durata test]: Il numero di giorni in cui desiderate eseguire l&#39;attività.
+   * [!UICONTROL Numero di combinazioni di contenuto]: calcolato automaticamente in base al numero di esperienze create come parte dell’attività, dopo eventuali esclusioni.
+   * [!UICONTROL Tasso di conversione tipico]: il tasso di conversione è espresso in percentuale, in base alla stima o ai dati passati derivati dal sistema di analisi.
+   * [!UICONTROL Visitatori stimati al giorno]: è il numero di visitatori che probabilmente visualizzeranno la pagina in base ai criteri di targeting. Può essere basato sui dati di analisi.
+   * [!UICONTROL Durata del test]: il numero di giorni desiderati per l’esecuzione dell’attività.
    Nel Calcolatore del traffico questi dati statistici vengono utilizzati per determinare quali aggiustamenti sono necessari per eseguire un test di successo.
 
    Nella parte superiore del Calcolatore del traffico, vengono calcolati i valori inseriti e visualizzati i risultati.
