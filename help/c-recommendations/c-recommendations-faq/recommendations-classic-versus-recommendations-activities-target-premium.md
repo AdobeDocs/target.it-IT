@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,11 +33,11 @@ L’attività di [!DNL Recommendations] in [!DNL Target] migliora [!DNL Recommen
 
 ## Consigli come offerta
 
-Puoi includere raccomandazioni all&#39;interno di [!UICONTROL test A/B] (incluse [!UICONTROL Auto-allocazione automatica] e [!UICONTROL Auto-Target]) e [!UICONTROL attività di targeting] delle esperienze (XT).
+Puoi includere i consigli nelle attività di [!UICONTROL test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e [!UICONTROL targeting delle esperienze] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
-* Contenuto relativo e non relativo a consigli di test e targeting all&#39;interno della stessa attività.
+* Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
 * Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
@@ -61,10 +61,10 @@ Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Cri
 Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché compilare moduli complicati, puoi seguire un flusso di lavoro visivo che consente di:
 
 1. Selezionare i criteri.
-1. Selezionare un  [progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selezionare una [progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualizzare in anteprima i consigli risultanti.
 
-## Anteprima visiva  {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
+## Anteprima visiva {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
 È possibile visualizzare in anteprima i consigli dopo averli impostati e apportare le modifiche necessarie senza doverli prima creare nella pagina. Le anteprime sono disponibili all&#39;interno di [!DNL Target].
 
