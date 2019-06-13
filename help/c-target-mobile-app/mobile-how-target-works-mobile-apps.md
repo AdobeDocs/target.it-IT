@@ -4,8 +4,8 @@ seo-description: L’SDK di Adobe Mobile contatta il server di Target per ottene
 seo-title: Funzionamento di Target nelle applicazioni per dispositivi mobili
 title: Funzionamento di Target nelle applicazioni per dispositivi mobili
 uuid: 8b302292-2cc0-46b9-b29c-088006721c7f
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -14,9 +14,9 @@ source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
 
 L’SDK di Adobe Mobile contatta il server di Target per ottenere il contenuto ed altri punti di dati per mostrare l’esperienza più appropriata all’utente.
 
-## Posizioni di destinazione e metriche di successo  {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
+## Posizioni di destinazione e metriche di successo {#section_A08AAB0ABA9C4568A5AFD4D27EF1CE74}
 
-Una *posizione di destinazione* viene indicata anche come  mbox. È possibile abilitare una posizione identificata nell’app a scopo di testing o personalizzazione (ad esempio, per presentare il messaggio di benvenuto nella schermata iniziale). Queste posizioni vengono identificate durante il processo di creazione del test.
+Una *posizione di destinazione* viene indicata anche come mbox. È possibile abilitare una posizione identificata nell’app a scopo di testing o personalizzazione (ad esempio, per presentare il messaggio di benvenuto nella schermata iniziale). Queste posizioni vengono identificate durante il processo di creazione del test.
 
 Una *[metrica di successo](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)* è un’azione eseguita dall’utente che identifica l’esito di una specifica attività (ad esempio la registrazione, un acquisto, la prenotazione di un biglietto e così via).
 
