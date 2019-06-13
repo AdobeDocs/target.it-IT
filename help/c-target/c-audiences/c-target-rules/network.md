@@ -6,8 +6,8 @@ seo-title: Rete
 solution: Target
 title: Rete
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -50,7 +50,7 @@ Puoi creare un pubblico in base ai dettagli della rete.
 
       Se desideri vedere altri ISP a cui si fa riferimento in questa tabella, contatta il servizio clienti con il tuo suggerimento.
 
-      Puoi verificare l&#39;ISP e i valori dei nomi di dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `themboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
+      Puoi verificare l&#39;ISP e i valori dei nomi di dominio. [https://www.whoismyisp.org](https://www.whoismyisp.org) è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `themboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
 
    * **Nome di dominio: **è il nome di dominio per l’indirizzo IP del visitatore. Non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. Di solito è molto simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
    * **Velocità di connessione:** questa è la velocità di connessione del visitatore a Internet. Le opzioni includono: banda larga, cavo, dialup, mobile, oc3, oc12, satellite, t1, t2, wireless, e xdsl.
