@@ -1,14 +1,14 @@
 ---
-description: 'Informazioni sulla funzione adobe. target. applyoffer (options) per at. js. '
+description: 'Informazioni sulla funzione adobe.target.applyOffer(options) per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione adobe. target. applyoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
-seo-title: Informazioni sulla funzione adobe. target. applyoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
+seo-description: Informazioni sulla funzione adobe.target.applyOffer(options) per la libreria at.js JavaScript di Adobe Target.
+seo-title: Informazioni sulla funzione adobe.target.applyOffer(options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: adobe.target.applyOffer(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,9 +23,9 @@ Questa funzione applica il contenuto di risposta.
 
 Il parametro delle opzioni è obbligatorio e ha la seguente struttura:
 
-| Chiave | Type (Tipo) | Obbligatorio | Descrizione |
+| Chiave | Tipo | Obbligatorio | Descrizione |
 |--- |--- |--- |--- |
-| mbox | Stringa | Sì | Nome mbox con<br>at. js 1.3.0 (e versione successiva) in cui viene richiesto di applicare il tasto mbox. Questa chiave era già richiesta in passato, ma Target ora ne impone l’utilizzo per garantire la corretta convalida di Target e il corretto utilizzo di questa funzione da parte dei clienti. |
+| mbox | Stringa | Sì | Nome mbox<br>Con at.js 1.3.0 (e versioni successive), Target impone l’utilizzo della chiave mbox. Questa chiave era già richiesta in passato, ma Target ora ne impone l’utilizzo per garantire la corretta convalida di Target e il corretto utilizzo di questa funzione da parte dei clienti. |
 | selector | Elemento Stringa o DOM | No | Elemento HTML o selettore CSS utilizzato per identificare l&#39;elemento HTML in cui Target deve inserire il contenuto dell&#39;offerta. Se il selettore non viene fornito, target presuppone che l&#39;elemento HTML che dovremmo usare sia HTML HEAD. |
 | offerta | Array | Sì | Azioni di array che devono essere applicate all&#39;elemento. |
 
