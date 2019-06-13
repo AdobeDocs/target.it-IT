@@ -7,13 +7,13 @@ solution: Target
 title: Includere la stessa esperienza in pagine simili
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: tm+mt
-source-git-commit: df79860eacc680351c6b3bdf0570b76543492570
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# Includere la stessa esperienza su pagine simili{#include-the-same-experience-on-similar-pages}
+# Includere la stessa esperienza in pagine simili{#include-the-same-experience-on-similar-pages}
 
 Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
 
@@ -35,8 +35,8 @@ Il video demo seguente include informazioni sull&#39;utilizzo di un modello:
 Si possono specificare le pagine che contengono gli elementi di modifica, o applicare la modifica in tutto il sito.
 
 1. Crea un’attività come descritto in [Attività](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
-1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, in Visual Experience Composer (Compositore esperienza visivo) fate clic sull&#39;icona a forma di ingranaggio, quindi selezionate **[!UICONTROL Page Delivery]**(Consegna pagina).
-1. Fate clic su **[!UICONTROL Aggiungi regola modello]**, quindi specificate i criteri per le pagine a cui desiderate aggiungere l&#39;esperienza.
+1. Per specificare le pagine in cui verrà visualizzata l’esperienza, nel Compositore esperienza visivo, fai clic sull’icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagina]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola modello]**, quindi specifica i criteri per le pagine a cui aggiungere l’esperienza.
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
@@ -53,14 +53,14 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 
    * Contiene
    * Non contiene
-   * Is (con distinzione tra maiuscole e minuscole)
+   * è (distinzione maiuscole/minuscole)
    * Non è
    * Inizia con
    * Termina con
 
 1. Digita le stringhe che definiscono dove viene aggiunta l&#39;esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
 
-   Ad esempio, se selezionate **[!UICONTROL Dominio]** e **[!UICONTROL Is (distinzione tra maiuscole e minuscole)]**, digitate il dominio in cui desiderate aggiungere l&#39;esperienza a tutte le pagine.
+   Ad esempio, se selezioni **[!UICONTROL Dominio]** e **[!UICONTROL è (distinzione maiuscole/minuscole)]**, digita il dominio in cui desideri aggiungere l’esperienza in tutte le pagine.
 
    È possibile includere più elementi.
 
@@ -68,7 +68,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
    >
    >Per gli elementi multipli viene utilizzato l’operatore `OR` (O), il che significa che ogni singolo elemento nell’elenco può soddisfare la condizione.
 
-1. Se desiderato, inserite criteri aggiuntivi facendo clic **[!UICONTROL su Aggiungi regola]** modello e ripetendo la procedura nel passaggio precedente.
+1. Se lo desideri, inserisci criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura di cui al passaggio precedente.
 
    I criteri multipli sono collegati mediante AND (E). Adobe Target aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
