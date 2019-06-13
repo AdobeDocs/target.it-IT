@@ -7,8 +7,8 @@ solution: Target
 title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: tm+mt
-source-git-commit: e1d5f642505ce62900fc55784b178ba0fb320184
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,25 +25,25 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Annullamento del caricamento di una pagina all&#39;interno della VEC {#cancel}
+### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo{#cancel}
 
-* Il seguente problema noto esiste al momento per annullare il caricamento di un&#39;attività [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) all&#39;interno del VEC che contiene un URL di reindirizzamento.
+* Al momento si verifica il seguente problema noto quando si annulla il caricamento di un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienze] (XT) nel Compositore esperienze visivo in presenza di un URL di reindirizzamento.
 
-   Nel passaggio uno dei flussi di lavoro guidato in tre parti all&#39;interno della VEC, quando si annulla il caricamento della pagina viene visualizzato il [!UICONTROL pannello Modifiche] nell&#39;aula virtuale e il reindirizzamento al modello URL viene applicato all&#39;esperienza (ad esempio, &quot;Esperienza B). Quando eseguite un passaggio a due o tre e quindi tornate al punto uno, si verifica la situazione seguente.
+   Nel passaggio 1 del flusso di lavoro guidato in tre parti nel Compositore esperienze visivo, durante l’annullamento del caricamento della pagina, viene visualizzato il pannello [!UICONTROL Modifiche] nel Compositore esperienze visivo e viene applicato il modello di reindirizzamento all’URL (ad esempio, “Esperienza B”). Quando ritorni al passaggio 1 dal passaggio 2 o 3, si verifica la seguente situazione.
 
-   In &quot;Esperienza B&quot;, per impostazione predefinita, il rendering del modello di caricamento sito Web annullato e [!UICONTROL il] pannello Modifiche sono accessibili, operazione non consigliata perché l&#39;esperienza ha un modello di reindirizzamento a un modello URL. Dovrebbe essere visualizzato il modello reindirizzamento al modello URL.
+   In “Esperienza B”, per impostazione predefinita, viene eseguito il rendering del modello di caricamento del sito web annullato e il pannello [!UICONTROL Modifiche] è accessibile. Questo non dovrebbe accadere, perché questa esperienza ha un reindirizzamento al modello di URL applicato. Dovrebbe essere visualizzato il modello di reindirizzamento all’URL.
 
-   Per visualizzare lo stato corretto dell&#39;esperienza nell&#39;aula virtuale:
+   Per visualizzare lo stato corretto dell’esperienza nel Compositore esperienza visivo:
 
-   Se passate a un&#39;altra esperienza e quindi tornate a &quot;Esperienza B&quot; [!DNL Target] , viene visualizzato il modello di reindirizzamento al modello URL applicato a questa esperienza e il [!UICONTROL pannello Modifiche] non è accessibile. (TGT-32138)
+   Se passi a un’altra esperienza e quindi torni a “Esperienza B”, [!DNL Target] visualizza il modello di reindirizzamento al modello URL applicato a questa esperienza e il pannello [!UICONTROL Modifiche] non è accessibile. (TGT-32138)
 
-* Per i siti Web delle applicazioni singole (SPA), l&#39;annullamento del caricamento non consente di modificare le azioni nel pannello [!UICONTROL Modifiche] .
+* Per i siti web delle applicazioni a pagina singola, l’annullamento del caricamento non consente di modificare le azioni nel pannello [!UICONTROL Modifiche].
 
 ### Supporto delle autorizzazioni Enterprise nelle API di Target {#api}
 
-Le offerte di codice create dall&#39;interfaccia utente di Target nella libreria Offerte possono essere visualizzate nell&#39;area di lavoro predefinita se l&#39;elenco delle offerte viene rimosso utilizzando GET API. Il problema verrà risolto nella prima settimana di marzo 2019. Dopo la correzione, le offerte del codice verranno visualizzate nell&#39;area di lavoro appropriata quando vengono richiamate dalle API. Questo problema *non* influisce sulle offerte create dalle API. Ad esempio, le offerte di codice create dalle API vengono visualizzate nell&#39;area di lavoro in cui sono state create, recuperate utilizzando GET API o dall&#39;interfaccia utente di Target.
+Le offerte di codice create dall’interfaccia utente di Target nella libreria Offerte possono essere visualizzate nell’area di lavoro predefinita se l’elenco delle offerte viene rimosso utilizzando API GET. Il problema verrà risolto nella prima settimana di marzo 2019. Dopo la correzione, le offerte di codice verranno visualizzate nell’area di lavoro appropriata quando vengono richiamate dalle API. Questo problema *non* influisce sulle offerte create dalle API. Ad esempio, le offerte di codice create dalle API vengono visualizzate nell’area di lavoro in cui sono state create o recuperate utilizzando API GET o dall’interfaccia utente di Target.
 
-### Consigli 
+### Consigli
 
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
@@ -56,7 +56,7 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
 * Nei prodotti consigliati potrebbero essere non essere visualizzati valori fino a due cifre decimali. Ad esempio, se si tenta di visualizzare il valore nella progettazione come 35,00 la funzionalità Consigli visualizza 35 (nessuna cifra decimale anziché due cifre decimali). (RECS-5972)
 
-   **Soluzione**: passa il valore dell’entità in due parametri entity.attributes . Il primo, `entity.value`, è un parametro riservato che richiede un valore doppio. Il secondo, può essere un parametro entity.attribute personalizzato che memorizzerà il valore dell’entità come stringa per consentirne il rendering corretto.
+   **Soluzione**: passa il valore dell’entità in due parametri entity.attributes. Il primo, `entity.value`, è un parametro riservato che richiede un valore doppio. Il secondo, può essere un parametro entity.attribute personalizzato che memorizzerà il valore dell’entità come stringa per consentirne il rendering corretto.
 
    Ad esempio:
 
@@ -66,11 +66,11 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
 In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è coerente quando si controllano le metriche. Questo si verifica se un utente passa dalla visualizzazione Riepilogo alla visualizzazione Grafico, quindi torna alla visualizzazione Riepilogo, modifica una metrica e passa alla visualizzazione Grafico. Quando si verifica questo problema, la visualizzazione Riepilogo mostra sempre il vincitore corretto. Se l’utente non passa mai dalla vista Grafico alla vista Riepilogo, la vista Grafico mostra il vincitore corretto.
 
-### at.js 
+### at.js
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryId è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) consente di visualizzare l’elenco completo degli algoritmi.
+* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito ha filtrato gli algoritmi, ma la [casella di controllo Compatibile](https://marketing.adobe.com/resources/help/it_IT/target/recs/t_algo_select_recs.html) consente di visualizzarne l’elenco completo.
 
    Quando si utilizza at.js, la casella di controllo Compatibile è nascosta e non è pertanto possibile visualizzare gli algoritmi non compatibili.
 
@@ -93,7 +93,7 @@ La libreria mbox.js non supporta linguaggi di template lato client, come Handleb
 
 Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
 
-* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Sono previsti aggiornamenti nel secondo trimestre del 2018 per l’implementazione di at.js in modo da evitare tale condizione di concorrenza. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905) .
+* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Sono previsti aggiornamenti nel secondo trimestre del 2018 per l’implementazione di at.js in modo da evitare tale condizione di concorrenza. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
 ### Implementazione: Creazione automatica mbox globale
@@ -112,7 +112,7 @@ Quando una metrica di successo è impostata per essere incrementata a ogni impre
 
 ### Analytics for Target (A4T)
 
-Le impressioni e le conversioni delle attività di Target vengono attualmente conteggiate in modo errato in Analysis Workspace .
+Le impressioni e le conversioni delle attività di Target vengono attualmente conteggiate in modo errato in Analysis Workspace.
 
 Come soluzione alternativa, basati sui dati A4T in Reports &amp; Analytics fino a quando questo problema non viene risolto.
 
@@ -137,7 +137,7 @@ La versione v1 delle API Offer su Adobe I/O considera tutte le offerte create tr
 
 Questo problema è stato risolto.
 
-### at.js 
+### at.js
 
 Dopo l’aggiornamento alla versione 1.0 di at.js, le mbox non funzionano nei browser Microsoft Explorer 11 a causa dell’interazione tra at.js e Visitor API 2.2.0. Questo problema riguarda le versioni 0.9.6 e successive di at.js. (TNT-27600)
 
@@ -149,7 +149,7 @@ La ricerca di una stringa contenente caratteri speciali (ad esempio uno spazio o
 
 Corretto a novembre 2018.
 
-### at.js 
+### at.js
 
 Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell&#39;attività.
 
@@ -175,7 +175,7 @@ Ciò è stato corretto nella versione 18.9.1.
 
 ### Attività Consigli che utilizza una regola di promozione attributi
 
-Quando si modifica o si copia un&#39;attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l&#39;errore “Campo mancante” quando si fa clic su Salva .
+Quando si modifica o si copia un&#39;attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l&#39;errore “Campo mancante” quando si fa clic su Salva.
 
 Ciò è stato corretto nella versione 17.8.1.
 
@@ -197,7 +197,7 @@ Quando viene modificato il nome di un pubblico per la creazione di rapporti util
 
 Questo problema è stato risolto con la versione 18.5.1 (22 maggio 2018).
 
-### at.js 
+### at.js
 
 L’algoritmo per l’estrazione del dominio di primo livello che deve essere utilizzato quando si salvano i cookie è stato modificato nella versione 0.9.6. di at.js. A causa di questa modifica, i cookie non possono essere salvati in indirizzi IP. La maggior parte degli indirizzi IP si utilizza a scopo di test, ma in alternativa puoi utilizzare le voci DNS, regolare il file host in una casella locale oppure utilizzare la funzione targetGlobalSettings() di at.js per inserire uno snippet di codice per il supporto degli indirizzi IP.
 
@@ -214,7 +214,7 @@ Come risultato della migrazione, esistono due potenziali problemi:
 
 Questo problema è stato risolto il 30 agosto 2017
 
-### Creazione di attività 
+### Creazione di attività
 
 Un problema relativo alla versione 17.6.2 potrebbe aver interessato le attività create e/o aggiornate tra il 22 giugno 2017 e il 29 giugno 2017. Il problema ha riguardato le seguenti attività:
 
@@ -238,13 +238,13 @@ Il primo problema è stato risolto nella versione 17.3.1 di Target (marzo 2017).
 
 Il secondo problema è stato risolto nella versione 17.6.1 di Target (giugno 2017).
 
-### at.js 
+### at.js
 
 A partire dalla versione 17.4.1 di Target (27 aprile 2017), se si utilizza l’azione Inserisci immagine nel Compositore esperienza visivo, il contenuto dell’offerta non viene consegnato quando si utilizza la libreria at.js.
 
 Il problema è stato risolto nella versione 0.9.7 di at.js rilasciata il 22 maggio 2017.
 
-### Consigli 
+### Consigli
 
 L’elaborazione dei feed Consigli richiede più tempo del previsto. (COR-2836)
 
@@ -264,7 +264,7 @@ Un problema ha interessato la consegna e l’anteprima di offerte in attività A
 
 Risolto nell’aggiornamento rapido 17.4.3 di Target.
 
-### at.js 
+### at.js
 
 Le seguenti azioni hanno causato la mancata consegna dell’offerta collegata all’utilizzo delle funzioni Sposta e Ridisponi del Compositore esperienza visivo e di at.js.
 
@@ -278,7 +278,7 @@ La possibilità di visualizzare più metriche in un rapporto è stata inclusa ne
 
 ### Offerte
 
-Le immagini eliminate dalla libreria Offerte immagine (Offerte \&gt; Offerte immagine) rimangono visibili nell’interfaccia utente. In una versione futura, le immagini eliminate non verranno più visualizzate. Nel frattempo, le immagini eliminate vengono visualizzate nell’interfaccia utente, ma presentano lo stato Eliminato . (TGT-23793)
+Le immagini eliminate dalla libreria Offerte immagine (Offerte \&gt; Offerte immagine) rimangono visibili nell’interfaccia utente. In una versione futura, le immagini eliminate non verranno più visualizzate. Nel frattempo, le immagini eliminate vengono visualizzate nell’interfaccia utente, ma presentano lo stato Eliminato. (TGT-23793)
 
 Risolto nella versione 17.4.1 di Target (27 aprile 2017).
 
@@ -288,7 +288,7 @@ Per il criterio Visualizzato di recente, le regole dinamiche basate su entità n
 
 Questo problema è stato risolto con il rilascio della funzionalità Consigli (22 marzo 2018). Dopo il rilascio della funzionalità Consigli, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
 
-### at.js 
+### at.js
 
 Quando gli utenti tentano di scaricare at.js dalla pagina dei dettagli Implementazioni dopo l’aggiornamento delle impostazioni di at.js, mbox.js viene scaricato al suo posto. (TGT-23069)
 
