@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Cookie mbox.js
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
-translation-type: tm+mt
-source-git-commit: 75f097e0f38cb2dc19922383260958606e8c53b2
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -22,7 +22,7 @@ Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte
 >
 >Questo argomento contiene informazioni su `mboxSession` e `mboxPC`. Le nostre best practice di implementazione consigliano di non collegare o archiviare informazioni sensibili con i dati dei cookie: `mboxSession` o `mboxPC`.
 
-Consulta anche [Eliminare il cookie di Target](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html).
+Consulta anche [Eliminare il cookie di Target](https://marketing.adobe.com/resources/help/it_IT/target/target/t_cookie_deleting.html).
 
 ## Quando utilizzare un cookie di prima parte o di terze parti {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -32,7 +32,7 @@ I casi d’uso principali per i cookie sono tre:
 
 1. Un dominio.
 
-   Tutta l’attività di test si svolge all’interno di un dominio di primo livello ( [!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], ecc.).
+   Tutta l’attività di test si svolge all’interno di un dominio di primo livello ([!DNL `www.domain.com`], [!DNL store.domain.com], [!DNL anysub.domain.com], ecc.).
 
    Approccio: utilizzare solo cookie di prima parte. Questa è l’impostazione predefinita.
 
@@ -71,7 +71,7 @@ Il cookie di prima parte viene memorizzato in [!DNL clientdomain.com], dove `cli
 
 Il cookie di terze parti viene memorizzato in [!DNL clientcode.tt.omtrdc.net] e il cookie di prima parte in [!DNL clientdomain.com], dove `clientdomain` rappresenta il tuo dominio.
 
-[!DNL Mbox.js] genera un `mboxSession ID`. La prima richiesta di posizione restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC` e viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo ( `mboxXDomainCheck=true`).
+[!DNL Mbox.js] genera un `mboxSession ID`. La prima richiesta di posizione restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC` e viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo (`mboxXDomainCheck=true`).
 
 Se il browser accetta cookie di terze parti, la richiesta di reindirizzamento li include e viene restituita l’offerta.
 
@@ -85,7 +85,7 @@ Se il browser rifiuta i cookie di terze parti, la richiesta di reindirizzamento 
 
 Il cookie di terze parti viene memorizzato in [!DNL clientcode.tt.omtrdc.net] e il cookie di prima parte in [!DNL clientdomain.com], dove `clientdomain` rappresenta il tuo dominio.
 
-[!DNL Mbox.js] genera un `mboxSession ID`. La prima richiesta di posizione restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC` e viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo ( `mboxXDomainCheck=true`).
+[!DNL Mbox.js] genera un `mboxSession ID`. La prima richiesta di posizione restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC` e viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo (`mboxXDomainCheck=true`).
 
 Se il browser accetta cookie di terze parti, la richiesta di reindirizzamento li include e viene restituita l’offerta.
 
@@ -141,4 +141,4 @@ Da Apple:
 | Funzionalità interessate | Dettagli |
 |--- |--- |
 | Supporto per rinuncia | Le modifiche di tracciamento WebKit di Apple interrompono il supporto dell’opzione di rinuncia.<br>La funzione di rinuncia di Target utilizza un cookie nel dominio `clientcode.tt.omtrdc.net`. Per ulteriori dettagli, consulta [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Target supporta due tipi di rinuncia:<ul><li>Uno per il cliente (il cliente gestisce il collegamento di rinuncia).</li><li>Uno tramite Adobe, per escludere l’utente da tutte le funzionalità di Target per tutti i clienti.</li></ul>Entrambi i metodi utilizzano il cookie di terze parti. |
-| Attività di Target | I clienti possono scegliere la  [durata del profilo](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) per i rispettivi account di Target, fino a 90 giorni. Il problema è che, se la durata del profilo dell’account è più lunga di 30 giorni e il cookie di prima parte viene eliminato perché il dominio del cliente è stato contrassegnato come dominio di tracciamento degli utenti tra siti diversi, i visitatori Safari saranno interessati dalle seguenti aree in Target:<br>**Rapporti di Target**: se un utente Safari entra in un’attività, ritorna dopo 30 giorni ed effettua la conversione, l’utente conta come due visitatori e una conversione.<br>Questo comportamento è lo stesso per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).<br>**Profilo e appartenenza all’attività**:<ul><li>I dati del profilo vengono cancellati quando scade il cookie di prima parte.</li><li>L’appartenenza all’attività viene cancellata quando scade il cookie di prima parte.</li><li> Target non funziona in Safari per gli account che utilizzano un’implementazione di cookie di terze parti oppure di cookie di prima parte e di terze parti. Questo comportamento non è una novità. Safari non consente i cookie di terze parti già da qualche tempo.</li></ul><br>**Suggerimenti**: se si teme che il dominio del cliente possa essere identificato come dominio che tiene traccia dei visitatori attraverso sessioni diverse, è più sicuro impostare la durata del profilo in Target su un massimo di 30 giorni. In tal modo gli utenti verranno tracciati allo stesso modo in Safari e negli altri motori browser. |
+| Attività di Target | I clienti possono scegliere la [durata del profilo](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) per i rispettivi account di Target, fino a 90 giorni. Il problema è che, se la durata del profilo dell’account è più lunga di 30 giorni e il cookie di prima parte viene eliminato perché il dominio del cliente è stato contrassegnato come dominio di tracciamento degli utenti tra siti diversi, i visitatori Safari saranno interessati dalle seguenti aree in Target:<br>**Rapporti di Target**: se un utente Safari entra in un’attività, ritorna dopo 30 giorni ed effettua la conversione, l’utente conta come due visitatori e una conversione.<br>Questo comportamento è lo stesso per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).<br>**Profilo e appartenenza all’attività**:<ul><li>I dati del profilo vengono cancellati quando scade il cookie di prima parte.</li><li>L’appartenenza all’attività viene cancellata quando scade il cookie di prima parte.</li><li> Target non funziona in Safari per gli account che utilizzano un’implementazione di cookie di terze parti oppure di cookie di prima parte e di terze parti. Questo comportamento non è una novità. Safari non consente i cookie di terze parti già da qualche tempo.</li></ul><br>**Suggerimenti**: se si teme che il dominio del cliente possa essere identificato come dominio che tiene traccia dei visitatori attraverso sessioni diverse, è più sicuro impostare la durata del profilo in Target su un massimo di 30 giorni. In tal modo gli utenti verranno tracciati allo stesso modo in Safari e negli altri motori browser. |
