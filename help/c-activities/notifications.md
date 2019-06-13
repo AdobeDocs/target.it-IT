@@ -7,8 +7,8 @@ solution: Target
 title: Notifiche di attività
 topic: Standard
 uuid: eb9b8657-1c8e-4eba-8f6d-612944f917f3
-translation-type: tm+mt
-source-git-commit: 761771a48c0ae957d455974b1f04fa3a8350a8a0
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Target può scambiare notifiche con altre soluzioni Adobe Experience Cloud utili
 
 Le notifiche da [!DNL Target] possono essere viste in tutte le soluzioni da parte degli utenti che hanno un contesto di prodotto [!DNL Experience Cloud] in [!DNL Target Standard/Premium].
 
-Per informazioni sulla configurazione delle notifiche, consultate [Notifiche](https://marketing.adobe.com/resources/help/en_US/mcloud/notifications.html) nella [!DNL Adobe Experience Cloud] documentazione.
+Per informazioni sulla configurazione delle notifiche, consulta [Notifiche](https://marketing.adobe.com/resources/help/it_IT/mcloud/notifications.html) nella documentazione di [!DNL Adobe Experience Cloud].
 
 Accedi alle notifiche da qualsiasi punto di [!DNL Target], eccetto nel flusso di lavoro della creazione di un&#39;attività. Fai clic sull&#39;icona della campana nell&#39;intestazione della pagina per visualizzare o nascondere il widget notifiche.
 
