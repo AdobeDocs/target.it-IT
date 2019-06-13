@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1ac2baf9d3fe7a84d7e65a0aec99c4bfdef613a4
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,7 +23,7 @@ I feed consentono di importare le entità nei Consigli. Le entità possono esser
 
 I feed consentono di importare le entità nei Consigli. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
 
-I feed consentono di trasmettere le  [Entità](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) o di implementare i dati mbox con informazioni non disponibili nella pagina o per le quali l’invio diretto dalla pagina non è sicuro, ad esempio margine, costo del venduto e così via.
+I feed consentono di trasmettere le [Entità](../../c-recommendations/c-products/products.md#concept_FD935A24D98745FFB2447933FCEB8062) o di implementare i dati mbox con informazioni non disponibili nella pagina o per le quali l’invio diretto dalla pagina non è sicuro, ad esempio margine, costo del venduto e così via.
 
 Dal file di classificazioni di prodotto di Adobe Target o da quello di Google Product Search puoi selezionare le colonne che desideri inviare al server della funzionalità [!DNL Recommendations]. Questi dati su ciascun elemento possono quindi essere utilizzati nella visualizzazione modello e per il controllo dei consigli.
 
@@ -97,7 +97,7 @@ Se disponi di un feed di prodotto Google, puoi utilizzarlo come file di importaz
 >
 >Non è necessario utilizzare i dati di Google. [!DNL Recommendations] utilizza semplicemente lo stesso formato di Google. Puoi utilizzare questo metodo per caricare qualsiasi dato a tua disposizione e utilizzare le funzioni di pianificazione disponibili. Tuttavia, quando imposti il file dovrai mantenere i nomi degli attributi predefiniti di Google.
 
-La maggior parte dei venditori caricano i prodotti in Google per far sì che questi vengano visualizzati quando un visitatore utilizza Google Product Search. [!DNL Recommendations] segue esattamente le specifiche di Google per i feed di entità. I feed di entità possono essere inviati [!DNL Recommendations] tramite [!DNL .xml][!DNL .txt], o [!DNL .tsv], e possono utilizzare gli [attributi definiti da Google](https://support.google.com/merchants/answer/188494?hl=en&topic=2473824&ctx=topic#US). È possibile cercare i risultati nelle [pagine di Google Shopping](https://www.google.com/prdhp).
+La maggior parte dei venditori caricano i prodotti in Google per far sì che questi vengano visualizzati quando un visitatore utilizza Google Product Search. [!DNL Recommendations] segue esattamente le specifiche di Google per i feed di entità. I feed di entità possono essere inviati a [!DNL Recommendations] tramite [!DNL .xml], [!DNL .txt] o [!DNL .tsv] e possono utilizzare gli [attributi definiti da Google](https://support.google.com/merchants/answer/188494?hl=it&amp;topic=2473824&amp;ctx=topic#US). È possibile cercare i risultati nelle [pagine di Google Shopping](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
@@ -186,9 +186,9 @@ na3454    RipCurl Watch with Titanium Dial    Cutting edge titanium with round c
 na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round case    https://example.com/shop/en-us/na3455_RipCurl    275    new    in stock    https://example.com/s7/na3452_Viewer    US:CA:9.25:y    1.5 oz    US:::0.00 USD    Watches & Sport    Shop by Category > Watches    dz1    Black    44mm    male    adult    Solid    RipCurl    075340 01060 7    DZ1446
 ```
 
-## Classificazioni di prodotto Analytics  {#section_79E430D2C75443BEBC9AA0916A337E0A}
+## Classificazioni di prodotto Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedi [Classificazioni](https://marketing.adobe.com/resources/help/en_US/reference/classifications.html) nella *guida e riferimento di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
+La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, consulta [Classificazioni](https://marketing.adobe.com/resources/help/it_IT/reference/classifications.html) nella guida *Aiuto e riferimenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
 
 >[!IMPORTANT]
 >
@@ -198,7 +198,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 >* Target supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello di entity.id di Consigli. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
-## Creazione di un feed  {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Creazione di un feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
@@ -250,13 +250,13 @@ recs/t_feeds_create.xml
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Dopo aver creato o modificato un feed, questo viene eseguito immediatamente e aggiornato in seguito in base ai parametri impostati. È necessario del tempo affinché tutte le informazioni siano disponibili. Innanzitutto, prima di essere pubblicato e reso disponibile, il feed deve essere sincronizzato, elaborato e indicizzato. Lo stato corrente viene visualizzato in  [Stato feed](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) nell’elenco dei feed. È possibile chiudere [!DNL Target] prima del completamento del processo; questo continuerà ad essere in esecuzione.
+Dopo aver creato o modificato un feed, questo viene eseguito immediatamente e aggiornato in seguito in base ai parametri impostati. È necessario del tempo affinché tutte le informazioni siano disponibili. Innanzitutto, prima di essere pubblicato e reso disponibile, il feed deve essere sincronizzato, elaborato e indicizzato. Lo stato corrente viene visualizzato in [Stato feed](../../c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) nell’elenco dei feed. È possibile chiudere [!DNL Target] prima del completamento del processo; questo continuerà ad essere in esecuzione.
 
 Durante l’indicizzazione, prodotti e intestazioni dei feed vengono visualizzati prima dell’effettiva indicizzazione dei singoli valori. Questo ti consente di cercare e visualizzare i prodotti per poter creare raccolte, esclusioni, progettazioni e attività prima del completamento dell’indicizzazione.
 
 Lo stato “Completato” indica che il file è stato trovato e analizzato correttamente. Le informazioni non sono disponibili per l’utilizzo all’interno di [!DNL Recommendations] finché il file non viene indicizzato, operazione che può richiedere un po’ di tempo, a seconda della dimensione del file. Se il processo non riesce, il file non è stato trovato (ad esempio, hai utilizzato un URL o informazioni FTP errati), o si è verificato un errore di analisi.
 
-## Stati e indicatori dei feed  {#concept_E475986720D1400999868B3DFD14A7A0}
+## Stati e indicatori dei feed {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informazioni sui possibili stati dei feed e sui relativi indicatori.
 
@@ -267,23 +267,23 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Stato | Descrizione |
 |--- |--- |
 | Sincronizzazione | I dettagli della configurazione dei feed vengono salvati in Target. |
-| Sincronizzazione non riuscita | Impossibile salvare i dettagli di configurazione feed in Target. Riprovate. |
+| Sincronizzazione non riuscita | Impossibile salvare i dettagli di configurazione dei feed su Target. Riprova. |
 | Nessuna esecuzione di feed | Hai creato un feed, ma non è stato pianificato (la frequenza è impostata su Mai). |
 | Pianificato per *data e ora* | Il feed non è stato eseguito, ma è pianificato per essere eseguito alla data e all’ora specificate. |
-| Attesa del download | Target si sta preparando a scaricare il file Feed. |
-| Download del file feed | Target sta scaricando il file Feed. |
-| Importazione di elementi | Target sta importando elementi dal file di feed. Nota: Una volta completato il passaggio e viene visualizzato &quot;Preparazione degli aggiornamenti dell&#39;indice di ricerca&quot;, le modifiche agli attributi degli elementi sono state importate nel nostro sistema centrale e saranno riportate nel contenuto delle raccomandazioni distribuite restituito dai nodi edge periferici entro 60 minuti. |
-| Preparazione degli aggiornamenti dell&#39;indice di ricerca | Target sta preparando l&#39;aggiornamento dell&#39;indice di ricerca catalogo. Nota: Se questo stato è elencato, sono state apportate modifiche agli attributi degli elementi e presto si rifletterà nelle raccomandazioni distribuite, anche se non sono ancora riflesse in Catalogo catalogo. |
-| Aggiornamento indice ricerca | Target sta aggiornando l&#39;indice di ricerca catalogo. Nota: Se questo stato è elencato, sono state apportate modifiche agli attributi degli elementi e presto si rifletterà nelle raccomandazioni distribuite, anche se questi potrebbero non essere ancora riflessi nella ricerca catalogo. |
+| Attesa del download | Target si sta preparando per il download del file di feed. |
+| Download del file di feed | Target sta eseguendo il download del file di feed. |
+| Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. Nota: quando il passaggio è stato completato e viene visualizzato “Preparazione aggiornamenti indice di ricerca”, significa che le modifiche agli attributi degli elementi sono state importate nel sistema centrale e saranno applicate al contenuto dei consigli consegnati restituito dai nodi geografici Edge entro 60 minuti. |
+| Preparazione aggiornamenti indice di ricerca | Target sta preparando l’aggiornamento dell’indice di ricerca del catalogo. Nota: se questo stato è elencato, significa che sono state apportate modifiche agli attributi degli elementi e presto verranno applicate ai consigli consegnati, anche se non sono ancora applicate in Ricerca catalogo. |
+| Aggiornamento dell’indice di ricerca | Target sta eseguendo l’aggiornamento dell’Indice di ricerca del catalogo. Nota: se questo stato è elencato, significa che sono state apportate modifiche agli attributi degli elementi e presto verranno applicate ai consigli consegnati, anche se è possibile che non siano ancora applicate in Ricerca catalogo. |
 | Aggiornamenti completati | Target ha completato tutti gli aggiornamenti associati al file di feed. |
-| Indice non riuscito | Operazione di indice non riuscita. Riprovate. |
+| Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
 Per aggiornare un feed (ad esempio, per apportare modifiche alla configurazione del feed o al file di feed), aprilo, apporta le modifiche desiderate e fai clic su **[!UICONTROL Salva]**.
 
 >[!IMPORTANT]
 >
->Le entità caricate scadono dopo 61 giorni. Ciò significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un&#39;interruzione delle attività di Recommendations. Se un elemento non è incluso in un file di feed (o in un altro metodo di aggiornamento entità) almeno una volta ogni 60 giorni, Adobe Target deduce l&#39;elemento non è più rilevante e lo rimuove dal catalogo.
+>Le entità caricate scadono dopo 61 giorni. Significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un’interruzione delle attività di Consigli. Se un elemento non è incluso in un file di feed (o in un altro metodo di aggiornamento entità) almeno una volta ogni 60 giorni, Adobe Target deduce l’elemento non è più rilevante e lo rimuove dal catalogo.
 
 ### Indicatori di stato dei feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
