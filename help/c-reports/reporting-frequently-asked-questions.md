@@ -7,8 +7,8 @@ solution: Target
 title: Domande frequenti sulla generazione di rapporti
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
