@@ -1,14 +1,14 @@
 ---
-description: Funzione Consigli di Adobe come offerta nelle attività di test A/B e Targeting delle esperienze.
+description: Funzione Adobe Recommendations come offerta nelle attività di test A/B e Targeting delle esperienze.
 keywords: Recommendations;consigli;offerta
-seo-description: Funzione Consigli di Adobe come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
-seo-title: Funzione Consigli di Adobe come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
+seo-description: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
+seo-title: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
 solution: Target
 title: Consigli come offerta
 title-outputclass: premium
 topic: Premium
-translation-type: tm+mt
-source-git-commit: 9825c8faa6fcd4d74b57ac0d994da35e25d785ea
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -19,7 +19,7 @@ Ora puoi includere consigli all&#39;interno di [!UICONTROL test A/B] (tra cui [!
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
-* Contenuto relativo e non relativo a consigli di test e targeting all&#39;interno della stessa attività.
+* Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
 * Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
