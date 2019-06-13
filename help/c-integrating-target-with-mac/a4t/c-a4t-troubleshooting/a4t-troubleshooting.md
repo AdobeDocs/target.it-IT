@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
-translation-type: tm+mt
-source-git-commit: 0b4858e203c67bca85c9646e74df1111b6b5c934
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -40,7 +40,7 @@ A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamen
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
-## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T.  {#section_4BE374E573D44FB7918611699B74F58E}
+## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
 Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
@@ -48,7 +48,7 @@ Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite
 
 I dettagli dell’incremento e dell’affidabilità di Target non sono disponibili in Analytics. Sono, tuttavia, disponibili nei rapporti di Target.
 
-## Le attività non vengono visualizzate nei rapporti di Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
@@ -56,7 +56,7 @@ Le attività A4T richiedono che sia stato specificato un server di tracciamento 
 >
 >Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## I miei segmenti di Analytics non compaiono in Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
@@ -64,19 +64,19 @@ Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a crear
 * È necessario essere membri di uno o più gruppi Experience Cloud che hanno accesso ad Analytics e a Target.
 * Verifica che Analytics e Target siano visualizzati nella sezione App marketing del menu di navigazione di sinistra.
 
-## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Questo è un problema noto.
 
 Anche se queste metriche sono negative, nei rapporti di Target l’incremento è mostrato come se fossero positive. Ad esempio, anche se si desidera una percentuale di mancato recapito più bassa, la percentuale più elevata viene visualizzata come vincitore con l’incremento più alto. Considera queste metriche e ad altre simili, e se preferisci aumentare o diminuire i numeri, quando prendi decisioni in base ai rapporti.
 
-## La suite di rapporti di cui ho bisogno non viene visualizzata.  {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## La suite di rapporti di cui ho bisogno non viene visualizzata. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
 L’elenco delle suite di rapporti visualizzate in Target Standard/Premium corrisponde alle suite di rapporti configurate per Analytics come origine per la generazione di rapporti per Target. Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi. Se non trovi la suite di rapporti che stai cercando, contatta l’Assistenza clienti per abilitarla.
 
-## Non trovo nei rapporti la quantità di dati che mi aspettavo.  {#section_75002584FA63456D8D9086172925DD8D}
+## Non trovo nei rapporti la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
 
-Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. Nella chiamata di [!DNL Target], l’ID supplementare è contenuto nel parametro `mboxMCSDID`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`. 
+Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. Nella chiamata di [!DNL Target], l’ID supplementare è contenuto nel parametro `mboxMCSDID`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 
 Se nella chiamata di [!DNL Target] non è presente alcun ID di dati supplementare, verifica che il file [!DNL VisitorAPI.js] sia stato caricato prima di [!DNL at.js] o [!DNL mbox.js]. Se nella chiamata di [!DNL Analytics] non è presente alcun ID di dati supplementare, verifica che la chiamata di [!DNL Target] venga attivata prima della chiamata di [!DNL Analytics].
 
