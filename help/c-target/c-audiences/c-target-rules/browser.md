@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Browser
 topic: Premium
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Puoi indirizzare l’attività agli utenti che visitano la pagina utilizzando un
 * Firefox
 * Opera
 * Safari
-* iPad 
+* iPad
 * Internet Explorer
 * iPhone|
 
@@ -66,7 +66,7 @@ L’esempio seguente illustra un pubblico che include gli utenti delle versioni 
 
 Per un’attività, puoi includere o escludere i partecipanti in base al tipo, alla lingua o alla versione del browser utilizzato.
 
-### Tipo  {#section_6ADC758F23F145B3A310151546D83D56}
+### Tipo {#section_6ADC758F23F145B3A310151546D83D56}
 
 Includi o escludi gli utenti che usano un determinato browser.
 
@@ -79,7 +79,7 @@ Seleziona uno o più browser.
 
 Le opzioni multiple sono collegate con l’operatore O.
 
-### Lingua  {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Lingua {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Includi o escludi i browser impostati per una specifica lingua.
 
@@ -108,7 +108,7 @@ Seleziona una o più lingue.
 
 Le opzioni multiple sono collegate con l’operatore O.
 
-### Versione  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versione {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Includi o escludi una determinata versione del browser.
 
