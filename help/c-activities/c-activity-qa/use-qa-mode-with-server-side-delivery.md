@@ -7,8 +7,8 @@ solution: Target
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
-translation-type: tm+mt
-source-git-commit: 32eb575df3129e7452a1c794cb7ac03e641e829c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -58,7 +58,7 @@ Nell&#39;esempio di codice seguente viene illustrato il Controllo qualità delle
 
 Nella tabella seguente vengono illustrati i dettagli di una richiesta lato server:
 
-| Parametro | Type (Tipo) | Valore predefinito | Descrizione |
+| Parametro | Tipo | Valore predefinito | Descrizione |
 |--- |--- |--- |--- |
 | token | Token crittografato | Nessuno.<br>Non può essere vuoto. | Un&#39;entità cifrata che contiene l&#39;elenco degli ID delle attività che possono essere eseguite in Controllo qualità delle attività.<br>Regole di convalida: deve trattarsi di un token crittografato appartenente al client specificato nella richiesta mbox. Tutte le attività specificate nel token devono appartenere al client. |
 | bypassEntryAudience | Booleano | False | Specifica se gli obiettivi dei passaggi di ingresso per le attività di controllo qualità devono essere valutati o se devono essere considerati come corrispondenti. |
@@ -66,4 +66,4 @@ Nella tabella seguente vengono illustrati i dettagli di una richiesta lato serve
 | evaluateAsTrueAudienceIds | Elenco di ID | Elenco vuoto. | Elenco degli ID di pubblico che devono essere sempre valutati come true nell&#39;ambito della richiesta mbox. |
 | evaluateAsFalseAudienceIds | Elenco di ID | Elenco vuoto. | Elenco degli ID di pubblico che devono essere sempre valutati come false nell&#39;ambito della richiesta mbox. |
 | activityIndex | Intero | Null.<br>Non può essere vuoto. | Indice di attività nel token crittografato. Se activityIndex è al di fuori dei limiti dell&#39;attività nel token o se null, verrà ignorato. L’indice inizia con 1.<br>Regole di convalida: deve esserci almeno un indice di attività e deve fare riferimento a un&#39;attività specificata nel token. |
-| experienceIndex | Intero | Null. | Quando specificato, seleziona un&#39;esperienza a seconda dell’indice nella definizione dell&#39;attività. Se non specificato o al di fuori dei limiti, rientrerà nella strategia di selezione dell&#39;esperienza dell&#39;attività. L’indice inizia con 1  Regole di convalida: può essere null o deve fare riferimento a un&#39;esperienza nell&#39;attività. |
+| experienceIndex | Intero | Null. | Quando specificato, seleziona un&#39;esperienza a seconda dell’indice nella definizione dell&#39;attività. Se non specificato o al di fuori dei limiti, rientrerà nella strategia di selezione dell&#39;esperienza dell&#39;attività. L’indice inizia con 1 Regole di convalida: può essere null o deve fare riferimento a un&#39;esperienza nell&#39;attività. |
