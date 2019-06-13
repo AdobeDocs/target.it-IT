@@ -7,8 +7,8 @@ solution: Target
 title: Creare offerte di reindirizzamento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
-translation-type: tm+mt
-source-git-commit: f59e96cd5afcae9d27d730aecead9eb360f04026
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -21,7 +21,7 @@ Supponi di dover sottoporre a test due pagine completamente diverse, anziché se
 
 >[!NOTE] {class=“- topic/note ”}
 >
->Non è possibile utilizzare le offerte di reindirizzamento in elementi mbox ajax ( `mboxUpdate`).
+>Non è possibile utilizzare le offerte di reindirizzamento in elementi mbox ajax (`mboxUpdate`).
 
 >[!NOTE]
 >
@@ -60,11 +60,11 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 >
 >Chiedi al tuo consulente di implementazione prima di lanciare questi test.
 
-## Video formazione: L&#39;archivio dei contenuti (4:56)
+## Video di formazione: L’archivio dei contenuti (4:56)
 
 Questo video include informazioni sulla gestione del contenuto.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
