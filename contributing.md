@@ -1,6 +1,6 @@
 ---
 source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Contributi
@@ -24,15 +24,15 @@ relativi (quando opportuno).
 ## Contratto di licenza del collaboratore
 
 Tutti i contributi di terze parti a questo progetto devono essere accompagnati da un contratto di licenza del collaboratore firmato. Questo autorizza Adobe a distribuire i tuoi contributi
-come parte del progetto. [Firmate il nostro CLA](http://opensource.adobe.com/cla.html). Dovrai
+come parte del progetto. [Firma il nostro contratto di licenza](http://opensource.adobe.com/cla.html). Dovrai
 inviare un contratto di licenza Adobe solo una volta, quindi se ne hai già inviato uno in precedenza,
 puoi procedere!
 
 ## Revisioni di codice
 
 Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione
-dei committer del progetto. Leggi [la documentazione
-della richiesta di pull github](https://help.github.com/articles/about-pull-requests/)per ulteriori informazioni sull&#39;invio di richieste pull.
+dei committer del progetto. Leggi [Documentazione relativa alle richieste di pull di GitHub](https://help.github.com/articles/about-pull-requests/)
+per ulteriori informazioni sull’invio di richieste di pull.
 
 <!--
 Lastly, please follow the [pull request template](PULL_REQUEST_TEMPLATE.md) when
@@ -50,4 +50,4 @@ rivolgiti ai committer esistenti per parlarne con loro.
 
 ## Problemi di sicurezza
 
-I problemi relativi alla sicurezza non dovrebbero essere riportati in questo Issue tracker. Al contrario [, potete segnalare un problema ai nostri esperti di protezione](https://helpx.adobe.com/security/alertus.html)
+I problemi relativi alla sicurezza non dovrebbero essere riportati in questo Issue tracker. In questi casi, [segnala un problema ai nostri esperti di sicurezza](https://helpx.adobe.com/it/security/alertus.html)
