@@ -7,8 +7,8 @@ solution: Target
 title: Offerte di reindirizzamento - Domande frequenti su A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
-translation-type: tm+mt
-source-git-commit: 8423f5e8468c131ba9b0a77025968e11012f57f6
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -33,11 +33,11 @@ L’implementazione deve soddisfare i seguenti requisiti minimi:
 
 Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindirizzamento sia nella pagina a cui il visitatore viene reindirizzato.
 
-## Perché a volte sono presenti discrepanze di dati tra A 4 T e Analytics?
+## Perché a volte sono presenti discrepanze di dati tra A4T e Analytics?
 
-Sono previste alcune discrepanze di dati. Per ulteriori informazioni, consultate [Varianza di dati prevista tra Target e Analytics quando utilizzate e non utilizzate A 4 T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+È possibile riscontrare alcune discrepanze di dati. Per ulteriori informazioni, consulta [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
 
-## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento?  {#section_B8F6CC2190B84CF08D945E797C5AF07B}
+## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
 È possibile che si verifichi una condizione particolare che potrebbe causare l’attivazione della chiamata di Analytics prima che il reindirizzamento venga eseguito nella prima pagina. Questo può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
 
@@ -70,7 +70,7 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
-## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Sarà necessario lavorare con il team IT per spostare questi parametri (`adobe_mc_sdid` e `adobe_mc_ref`) nella whitelist di parametri affidabili.
 
@@ -90,9 +90,9 @@ Si consiglia di parlare con il proprio team IT per assicurarsi che `adobe_mc_ref
 
 ## Perché l’URL di riferimento deve essere passato alla nuova pagina? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Supponiamo che un visitatore faccia clic in [!DNL `www.google.com`] su un collegamento che porta alla tua pagina principale ( [!DNL `www.mysite.com/index.html]`) sulla quale è stata pubblicata un’attività di reindirizzamento, e viene quindi reindirizzato a una nuova pagina ( [!DNL `www.mysite.com/index2.html`]).
+Supponiamo che un visitatore faccia clic in [!DNL `www.google.com`] su un collegamento che porta alla tua pagina principale ([!DNL `www.mysite.com/index.html]`) sulla quale è stata pubblicata un’attività di reindirizzamento, e viene quindi reindirizzato a una nuova pagina ([!DNL `www.mysite.com/index2.html`]).
 
-In precedenza, la richiesta di [!DNL Analytics] della nuova pagina avrebbe segnalato l’URL di riferimento [!DNL `www.mysite.com/index.html`] anziché [!DNL `www.google.com`]. Questo causava una segnalazione inesatta in [!DNL Analytics] associata agli URL di riferimento (ad esempio nei rapporti Canale marketing, ). Nei rapporti andava perso il fatto che il visitatore era giunto al sito da [!DNL `www.google.com`].
+In precedenza, la richiesta di [!DNL Analytics] della nuova pagina avrebbe segnalato l’URL di riferimento [!DNL `www.mysite.com/index.html`] anziché [!DNL `www.google.com`]. Questo causava una segnalazione inesatta in [!DNL Analytics] associata agli URL di riferimento (ad esempio nei rapporti Canale marketing,). Nei rapporti andava perso il fatto che il visitatore era giunto al sito da [!DNL `www.google.com`].
 
 Con [!DNL at.js] versione 0.9.6 (o successiva) e [!DNL AppMeasurement.js] 2.1 (o versioni successive), la richiesta di [!DNL Analytics] sulla nuova pagina segnalerà [!DNL `www.google.com`] come URL di riferimento.
 
