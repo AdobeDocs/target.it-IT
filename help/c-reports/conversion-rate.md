@@ -7,8 +7,8 @@ solution: Target
 title: Tasso di conversione
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: tm+mt
-source-git-commit: 7a9651762a9ec74096546d17aa15e77ca35b1b0a
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -47,15 +47,15 @@ Incremento = (TC esperienza - TC controllo) / TS controllo
 
 Se il controllo è uguale a 0, non vi è alcuna percentuale di incremento.
 
-## Affidabilità (rilevanza statistica)  {#section_35DB6724813D40C7B0808DE18FE595C1}
+## Affidabilità (rilevanza statistica) {#section_35DB6724813D40C7B0808DE18FE595C1}
 
 Questo numero rappresenta la probabilità che i risultati vengano duplicati se il test venisse eseguito nuovamente. L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
-Vedete [Livello di confidenza e Intervallo di confidenza](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Consulta [Livello di affidabilità e intervallo di affidabilità](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-I dati Valore medio dell’ordine, Ricavo per visita e Vendite vengono visualizzati per ogni esperienza se una mbox [Ordine effettuato](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) è stata inserita e selezionata come mbox di conversione.
+I dati dei ricavi per visita, del valore medio dell’ordine e delle vendite vengono visualizzati per ogni esperienza se inserisci una mbox [Inserisci ordine](https://marketing.adobe.com/resources/help/it_IT/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) e la selezioni come mbox di conversione.
 
 ## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -103,11 +103,11 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 * **Dimensione del campione:** al crescere del campione l’intervallo si ridurrà. Questo rapporto è quello preferenziale, perché indica che i rapporti si avvicinano al valore effettivo della metrica di successo.
 * **Deviazione standard più piccola:** più risultati simili, come AOV simili o numeri simili o visitatori con conversioni ogni giorno, riducono la deviazione standard.
 
-## Calcolo dell’affidabilità e modalità di esecuzione offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcolo dell’affidabilità e modalità di esecuzione offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Il [rapporto CSV scaricato](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-Per ottenere queste metriche calcolate, scarica il file Excel [Target’s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) (Calcolatore di affidabilità completo di Target) per inserirvi il valore dell’attività oppure controlla i [calcoli statistici utilizzati da Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Per calcolare queste metriche calcolate, scarica il file Excel del [calcolatore di affidabilità completo](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) per immettere il valore dell’attività, oppure controlla i [calcoli statistici utilizzati da Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -127,14 +127,14 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 1. Fai clic su **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Compila i campi nella scheda di **[!UICONTROL Richiesta Data Warehouse]**.
 
-   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Per ulteriori informazioni su ciascun campo, vedi “Descrizioni Data Warehouse” in [Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/data_warehouse.html).
 
    | Campo | Istruzioni |
    |--- |--- |
    | Request Name (Nome richiesta) | Specifica un nome per la richiesta. |
    | Reporting Date (Data rapporto) | Specifica un periodo di tempo e una granularità.<br>Per la prima richiesta si consiglia di scegliere non più di un’ora o un giorno di dati.  L’elaborazione dei file di Data Warehouse richiede più tempo per periodo di tempo più lunghi, pertanto è sempre consigliabile richiedere prima dati per un periodo di tempo breve, per assicurarsi che il file restituisca il risultato atteso. Quindi, passa a Request Manager (Gestione richieste), duplica la richiesta e richiedi più dati la seconda volta. Inoltre, se seleziona una granularità diversa da Nessuno, la dimensione del file aumenterà drasticamente.<br>![Data Warehouse](/help/c-reports/assets/datawarehouse.png) |
    | Available Segments (Segmenti disponibili) | Applica un segmento, se necessario. |
-   | Breakdowns (Suddivisioni) | Seleziona le dimensioni desiderate:   le dimensioni standard sono pronte all’uso, mentre quelle personalizzate includono eVar e prop. Si consiglia di utilizzare l’ID visitatore se sono necessarie informazioni a livello dell’ID visitatore, anziché “ID visitatore di Experience Cloud”.<ul><li>ID visitatore è l’ID finale utilizzato da Analytics. Si tratterà di AID (se il cliente è un’azienda) o MID (se il cliente è nuovo o se ha cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC).</li><li>L’ID visitatore di Experience Cloud sarà impostato solo per i clienti che sono nuovi o che hanno cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC.</li></ul> |
+   | Breakdowns (Suddivisioni) | Seleziona le dimensioni desiderate: le dimensioni standard sono pronte all’uso, mentre quelle personalizzate includono eVar e prop. Si consiglia di utilizzare l’ID visitatore se sono necessarie informazioni a livello dell’ID visitatore, anziché “ID visitatore di Experience Cloud”.<ul><li>ID visitatore è l’ID finale utilizzato da Analytics. Si tratterà di AID (se il cliente è un’azienda) o MID (se il cliente è nuovo o se ha cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC).</li><li>L’ID visitatore di Experience Cloud sarà impostato solo per i clienti che sono nuovi o che hanno cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC.</li></ul> |
    | Metrics (Metriche) | Seleziona la metrica desiderata. La metrica standard è OOTB, mentre quella personalizzata include eventi personalizzati. |
    | Report Preview (Anteprima rapporto) | Rivedi le impostazioni prima di pianificare il rapporto.<br>![Data Warehouse 2](/help/c-reports/assets/datawarehouse2.png) |
    | Schedule Delivery (Pianifica consegna) | Immetti l’indirizzo email a cui deve essere consegnato il file, assegna un nome al file, quindi seleziona [!UICONTROL Send Immediately] (Invia subito).<br>Nota: il file può essere consegnato via FTP da [!UICONTROL Opzioni di consegna avanzate]<br>![Pianifica consegna](/help/c-reports/assets/datawarehouse3.png). |
@@ -147,8 +147,8 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Create a Data Warehouse Request (Creare una richiesta di archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Creare una richiesta di Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/t_dw_create_request.html)
+* [Best practice di Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/data_warehouse_bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -165,7 +165,7 @@ La metodologia di conteggio è supportata per i seguenti tipi di attività:
 
    Per il rapporto sul contributo degli elementi MVT, Target non supporta l’attività Impression per i tipi di metrica Ricavi.
 
-* Consigli 
+* Consigli
 
 Per le attività Personalizzazione automatica (AP) al momento è supportata solo la metodologia di conteggio predefinita (Visite).
 
