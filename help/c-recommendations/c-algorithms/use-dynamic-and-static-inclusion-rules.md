@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 badge: premium
-translation-type: tm+mt
-source-git-commit: 049b473bac0b90399c0106fffefb1e905c62da4e
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,7 +29,7 @@ Durante la [creazione di criteri](../../c-recommendations/c-algorithms/create-ne
 
 Le opzioni disponibili dipendono dal settore verticale selezionato e della chiave consiglio.
 
-## Aggiunta di regole di filtro alle promozioni  {#section_D59AFB62E2EE423086281CF5D18B1076}
+## Aggiunta di regole di filtro alle promozioni {#section_D59AFB62E2EE423086281CF5D18B1076}
 
 Durante la [creazione di una promozione](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleziona **[!UICONTROL Promuovi per attributo]**, quindi fai clic su **[!UICONTROL Aggiungi regola filtro]**.
 
@@ -39,10 +39,10 @@ Durante la [creazione di una promozione](../../c-recommendations/t-create-recs-a
 
 Nella tabella seguente sono elencati i tipi di opzioni di filtro per criteri e promozioni:
 
-| Type (Tipo) | Opzione | Operatori disponibili |
+| Tipo | Opzione | Operatori disponibili |
 |--- |--- |--- |
 | **Filtraggio dinamico** | **Corrispondenza attributo di entità:** consente di filtrare in modo dinamico confrontando un pool di potenziali articoli consigliati con un articolo specifico con cui gli utenti hanno interagito.<br>Ad esempio, per consigliare solo gli articoli con lo stesso marchio dell’articolo corrente. | uguale a<br>non uguale a<br>compreso tra<br>contiene<br>non contiene<br>inizia con<br>termina con<br>valore presente<br>valore non presente<br>maggiore o uguale a<br>minore o uguale a |
-|  | **Corrispondenza attributo profilo:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore presente nel profilo dell’utente.<br>Ad esempio, per consigliare solo gli articoli del marchio preferito del visitatore. | uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
+|  | **Corrispondenza attributo profilo:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore presente nel profilo dell’utente.<br>Ad esempio, per consigliare solo gli articoli del marchio preferito del visitatore. | uguale a<br> non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
 |  | **Corrispondenza parametro:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).<br>Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina “settore”.<br>**Importante:** se l’attività è stata creata prima del 31 ottobre 2016, la sua consegna avrà esito negativo se si utilizza il filtro “Corrispondenza parametro”. Per risolvere questo problema:<ul><li>Crea una nuova attività e aggiungi i relativi criteri.</li><li>Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.</li><li>Rimuovi il filtro “Corrispondenza parametro” dai criteri.</li></ul> | è uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
 | **Filtra per valore** | **Filtro statico:** consente di immettere manualmente uno o più valori statici da utilizzare come filtro.<br>Ad esempio, per consigliare solo i contenuti con una classificazione MPAA di “G” o “PG”. | uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>valore presente<br>valore non presente<br>maggiore o uguale a<br>minore o uguale a |
 
@@ -76,7 +76,7 @@ I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle p
 * episodi successivi nella stessa stagione
 * libri precedenti in una collana
 
-## Gestione dei valori vuoti durante l&#39;applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza dei parametri  {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestione dei valori vuoti durante l’applicazione di filtri per corrispondenza attributo entità, attributo profilo e parametri {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
 È possibile scegliere diverse opzioni per gestire i valori vuoti durante l&#39;applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza parametro per i criteri e le promozioni di uscita.
 
@@ -94,7 +94,7 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 Come esempio di gestione dei valori vuoti, considera lo [Scenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) qui sotto:
 
-## Scenari di filtri dinamici  {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Scenari di filtri dinamici {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 **Scenario 1:** invece di associare un articolo di un catalogo ad altri articoli di un catalogo utilizzando un filtro statico, è possibile utilizzare un filtro dinamico per associare un articolo di un catalogo a un attributo del profilo del visitatore.
 
@@ -106,9 +106,9 @@ Ora puoi utilizzare le regole di inclusione per associare il luogo e il titolo d
 
 ![](assets/job_seeker.png)
 
-L&#39;offerta di lavoro a sinistra richiede che il visitatore sia a San Francisco, New York o Los Angeles (`entity.jobCity`) e che abbia come titolo di studio una laurea in informatica o un master in business administration ( `entity.requiredDegree`).
+L&#39;offerta di lavoro a sinistra richiede che il visitatore sia a San Francisco, New York o Los Angeles (`entity.jobCity`) e che abbia come titolo di studio una laurea in informatica o un master in business administration (`entity.requiredDegree`).
 
-La persona che cerca lavoro, a destra, è a Los Angeles (`profile.usersCity`) e ha un master in business administration ( `profile.degree`).
+La persona che cerca lavoro, a destra, è a Los Angeles (`profile.usersCity`) e ha un master in business administration (`profile.degree`).
 
 Con un filtro dinamico per Corrispondenza attributo profilo, puoi creare il filtro riportato nella parte inferiore dell’illustrazione precedente che consiglierà al visitatore solo gli annunci di lavoro idonei in base al luogo in cui si trova e al suo titolo di studio.
 
@@ -269,4 +269,4 @@ Nella tabella seguente vengono mostrate regole efficaci e regole che potrebbero 
 | value - è tra - 90% e 110% dell’articolo corrente - salesValue | salesValue - è tra - 90% e 110% dell’articolo corrente - value |
 | value - è tra - 90% e 110% dell’articolo corrente - value | clearancePrice - è tra - 90% e 110% dell’articolo corrente - margin |
 | margin - è tra - 90% e 110% dell’articolo corrente - margin | storeInventory - è uguale a - dell’articolo corrente - inventory |
-| inventory - è uguale a - dell’articolo corrente - inventory |
+| inventory - è uguale a - dell’articolo corrente - inventory |  |
