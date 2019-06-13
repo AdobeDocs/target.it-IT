@@ -7,8 +7,8 @@ solution: Target
 title: Escludere i valori estremi
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
-translation-type: tm+mt
-source-git-commit: 74a6f402bc0c9dae6f89cbdb632d7dbc53743593
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
