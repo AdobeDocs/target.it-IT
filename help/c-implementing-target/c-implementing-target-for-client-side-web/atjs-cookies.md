@@ -1,23 +1,23 @@
 ---
-description: Dettagli su come si trovano at. js 2. x e at. js 1. x
+description: Dettagli sulla gestione dei cookie da parte di at.js 2.x e at.js 1.x
 keywords: at.js;2.0;1.x;cookie
-seo-description: Dettagli su come Adobe Target at. js 2. x e at. js 1. x gestiscono i cookie
+seo-description: Dettagli sulla gestione dei cookie da parte di Adobe Target at.js 2.x e at.js 1.x
 seo-title: Cookie di at.js in Adobe Target
 solution: Target
 subtopic: Introduzione
 title: Cookie di at.js
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 3b2b8706ed23dd00fb7d0994e830ab8d4f492384
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Cookie di at.js {#at-js-cookies}
 
-Informazioni su. js 2. x e at. js 1.*x*: comportamento dei cookie.
+Informazioni su at.js 2.x e at.js 1.*x*: comportamento dei cookie.
 
-## Comportamento dei cookie. js 2. x
+## Comportamento dei cookie at.js 2.x
 
 Per at.js versione 2.0.0, *è disponibile il supporto solo per cookie di prime parti*. Proprio come in at.js 1.*x*, il cookie di prime parti, “mbox” è memorizzato in `clientdomain.com`, dove `clientdomain` è il tuo dominio.
 
@@ -31,9 +31,9 @@ Il monitoraggio tra più domini consente di visualizzare sessioni su due siti co
 
 In at.js 1.*x*, il cookie di terze parti era memorizzato nel dominio `[CLIENTCODE].tt.omtrdc.net`, mentre il cookie di prima parte era memorizzato in `clientdomain.com`. La prima richiesta restituiva intestazioni di risposta HTTP che tentavano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC`, mentre viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo (`mboxXDomainCheck=true`). Se il browser accettava cookie di terze parti, la richiesta di reindirizzamento li includeva e veniva restituita l’offerta. Questo flusso di lavoro era possibile perché at.js 1.*x* utilizzava il metodo HTTP GET.
 
-Tuttavia, in at. js 2. x, HTTP GET non è più utilizzato e utilizza HTTP POST. Il nuovo metodo serve a inviare payload JSON ai server perimetrali [!DNL Target] piuttosto che parametri chiave-valore. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti si interrompe. Questo perché le richieste HTTP GET sono transazioni idempotenti, mentre HTTP POST non lo è e non deve ripetersi in modo arbitrario.
+Tuttavia, con at.js 2.x non si utilizza più HTTP GET, ma HTTP POST. Il nuovo metodo serve a inviare payload JSON ai server perimetrali [!DNL Target] piuttosto che parametri chiave-valore. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti si interrompe. Questo perché le richieste HTTP GET sono transazioni idempotenti, mentre HTTP POST non lo è e non deve ripetersi in modo arbitrario.
 
-Pertanto, nessuno dei cookie di terze parti né il monitoraggio tra più domini sono supportati in at. js 2.0.0.
+Pertanto, né i cookie di terze parti, né il tracciamento tra domini diversi sono supportati in at.js 2.0.0.
 
 ## at.js 1.*x*: comportamento dei cookie {#at-js-1x-cookie-behavior}
 
@@ -154,4 +154,4 @@ Da Apple:
 | Funzionalità interessate | Dettagli |
 |--- |--- |
 | Supporto per rinuncia | Le modifiche di tracciamento WebKit di Apple interrompono il supporto dell’opzione di rinuncia.<br>La funzione di rinuncia di Target utilizza un cookie nel dominio `clientcode.tt.omtrdc.net`. Per ulteriori dettagli, consulta [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).<br>Target supporta due tipi di rinuncia:<ul><li>Uno per il cliente (il cliente gestisce il collegamento di rinuncia).</li><li>Uno tramite Adobe, per escludere l’utente da tutte le funzionalità di Target per tutti i clienti.</li></ul>Entrambi i metodi utilizzano il cookie di terze parti. |
-| Attività di Target | I clienti possono scegliere la  [durata del profilo](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) per i rispettivi account di Target, fino a 90 giorni. Il problema è che, se la durata del profilo dell’account è più lunga di 30 giorni e il cookie di prima parte viene eliminato perché il dominio del cliente è stato contrassegnato come dominio di tracciamento degli utenti tra siti diversi, i visitatori Safari saranno interessati dalle seguenti aree in Target:<br>**Rapporti di Target**: se un utente Safari entra in un’attività, ritorna dopo 30 giorni ed effettua la conversione, l’utente conta come due visitatori e una conversione.<br>Questo comportamento è lo stesso per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).<br>**Profilo e appartenenza all’attività**:<ul><li>I dati del profilo vengono cancellati quando scade il cookie di prima parte.</li><li>L’appartenenza all’attività viene cancellata quando scade il cookie di prima parte.</li><li> Target non funziona in Safari per gli account che utilizzano un’implementazione di cookie di terze parti oppure di cookie di prima parte e di terze parti. Questo comportamento non è una novità. Safari non consente i cookie di terze parti già da qualche tempo.</li></ul><br>**Suggerimenti**: se si teme che il dominio del cliente possa essere identificato come dominio che tiene traccia dei visitatori attraverso sessioni diverse, è più sicuro impostare la durata del profilo in Target su un massimo di 30 giorni. In tal modo gli utenti verranno tracciati allo stesso modo in Safari e negli altri motori browser. |
+| Attività di Target | I clienti possono scegliere la [durata del profilo](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) per i rispettivi account di Target, fino a 90 giorni. Il problema è che, se la durata del profilo dell’account è più lunga di 30 giorni e il cookie di prima parte viene eliminato perché il dominio del cliente è stato contrassegnato come dominio di tracciamento degli utenti tra siti diversi, i visitatori Safari saranno interessati dalle seguenti aree in Target:<br>**Rapporti di Target**: se un utente Safari entra in un’attività, ritorna dopo 30 giorni ed effettua la conversione, l’utente conta come due visitatori e una conversione.<br>Questo comportamento è lo stesso per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).<br>**Profilo e appartenenza all’attività**:<ul><li>I dati del profilo vengono cancellati quando scade il cookie di prima parte.</li><li>L’appartenenza all’attività viene cancellata quando scade il cookie di prima parte.</li><li> Target non funziona in Safari per gli account che utilizzano un’implementazione di cookie di terze parti oppure di cookie di prima parte e di terze parti. Questo comportamento non è una novità. Safari non consente i cookie di terze parti già da qualche tempo.</li></ul><br>**Suggerimenti**: se si teme che il dominio del cliente possa essere identificato come dominio che tiene traccia dei visitatori attraverso sessioni diverse, è più sicuro impostare la durata del profilo in Target su un massimo di 30 giorni. In tal modo gli utenti verranno tracciati allo stesso modo in Safari e negli altri motori browser. |
