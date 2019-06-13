@@ -7,8 +7,8 @@ solution: Target
 title: Preacquisire il contenuto dell’offerta
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
-translation-type: tm+mt
-source-git-commit: 5d8d4bb43a6181dfff2be49072d1cc7fbbcbba68
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -23,5 +23,5 @@ Il contenuto di preacquisizione non rimane tra un avvio dell&#39;app e quello su
 
 Per ulteriori informazioni, inclusi i metodi di preacquisizione, le classi pubbliche e gli esempi di codice, vedi:
 
-* **iOS:**[Preacquisizione del contenuto delle offerte in iOS](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_mob_target-prefetch_ios.html) nella guida * iOS SDK 4. x per Soluzioni Experience Cloud *.
-* **Android:** [Preacquisizione del contenuto dell&#39;offerta in Android](https://marketing.adobe.com/resources/help/en_US/mobile/android/c_mob_target-prefetch_android.html) nella guida *Android SDK 4.x per Experience Cloud Solutions*.
+* **iOS:** [Preacquisire il contenuto dell’offerta in iOS](https://marketing.adobe.com/resources/help/it_IT/mobile/ios/c_mob_target-prefetch_ios.html) nella guida*SDK 4.x per iOS per le soluzioni Experience Cloud*.
+* **Android:** [Preacquisire il contenuto dell’offerta in Android](https://marketing.adobe.com/resources/help/it_IT/mobile/android/c_mob_target-prefetch_android.html) nella guida *SDK 4.x per Android per le soluzioni Experience Cloud*.
