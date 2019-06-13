@@ -7,8 +7,8 @@ solution: Target
 title: Gestione at.js della visualizzazione momentanea di altri contenuti
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
-translation-type: tm+mt
-source-git-commit: 126f62d8966beb8157f54f87cf68b092fe976c51
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -29,9 +29,9 @@ L&#39;opzione opacità impostata su 0 mantiene il contenuto della pagina nascost
 
 Se l&#39;opacità 0 non funziona nell&#39;implementazione, puoi anche gestire la visualizzazione momentanea di altri contenuti personalizzando `bodyHiddenStyle` e impostarlo su `body {visibility:hidden !important}`. Puoi utilizzare entrambi i valori body `{opacity:0 !important`} o `body {visibility:hidden !important}`, a seconda di quale sia il migliore per il tuo caso.
 
-La figura seguente mostra le chiamate per Nascondi corpo e Mostra corpo, sia in at.js 1.*x* e at. js 2. x.
+La figura seguente mostra le chiamate per Nascondi corpo e Mostra corpo, sia in at.js 1.*x* che in at.js 2.x.
 
-**at. js 2. x**
+**at.js 2.x**
 
 ![Flusso di Target: richiesta di caricamento della pagina di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
@@ -103,9 +103,9 @@ Anziché il valore predefinito:
 body {opacity: 0 !important}
 ```
 
-## Gestione dello sfarfallio in. js 2. x per triggerview ()
+## Gestione della visualizzazione momentanea di altri contenuti in at.js 2.x per triggerView()
 
-Quando si utilizza `triggerView()` per visualizzare contenuti mirati nell’applicazione a pagina singola, la gestione della visualizzazione momentanea di altri contenuti è preconfigurata. Questo significa che non è necessario aggiungere la logica preliminare manualmente. Al contrario, at. js 2. x prenasconde il percorso in cui la visualizzazione deve essere mostrata prima di applicare il contenuto di destinazione.
+Quando si utilizza `triggerView()` per visualizzare contenuti mirati nell’applicazione a pagina singola, la gestione della visualizzazione momentanea di altri contenuti è preconfigurata. Questo significa che non è necessario aggiungere la logica preliminare manualmente. Al contrario, at.js 2.x nasconde preventivamente la posizione in cui la visualizzazione deve essere mostrata prima di applicare il contenuto mirato.
 
 ## Gestione della visualizzazione momentanea di altri contenuti con getOffer() e applyOffer()
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Utilizzo di una mbox regionale con mboxcreate () in At. js 1. x (non supportato in at. js 2. x)
+## Utilizzo di una mbox regionale con mboxCreate() in at.js 1.x (non supportato in at.js 2.x)
 
 Se utilizzi un’implementazione di mbox regionale, utilizza `mboxCreate()` con il provisioning della pagina configurato in modo simile al seguente codice di esempio:
 
