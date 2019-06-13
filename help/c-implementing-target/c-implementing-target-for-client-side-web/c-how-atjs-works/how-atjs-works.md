@@ -7,40 +7,40 @@ solution: Target
 title: Funzionamento di at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
-translation-type: tm+mt
-source-git-commit: 52238e6be9a4c3559767f9819570fe7c85af82e9
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
 # Funzionamento di at.js{#how-at-js-works}
 
-Per implementare [!DNL Adobe Target] lato client, è necessario utilizzare la libreria at. js.
+Devi utilizzare la libreria at.js per implementare [!DNL Adobe Target] sul lato client.
 
-In un&#39;implementazione lato client di [!DNL Adobe Target], [!DNL Target] distribuisce le esperienze associate a un&#39;attività direttamente al browser client. Il browser determina quale esperienza visualizzare e visualizzarla. Con un&#39;implementazione sul lato client, potete utilizzare un editor WYSIWYG, [Visual Experience Composer (Compositore](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) esperienza visivo) o un&#39;interfaccia non visiva, il [Composer](/help/c-experiences/form-experience-composer.md)esperienza basato su modulo, per creare esperienze di test e personalizzazione.
+In un’implementazione lato client di [!DNL Adobe Target], [!DNL Target] consegna le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) o un’interfaccia non visiva (il [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md)) per creare esperienze di test e personalizzazione.
 
-## Che cos&#39;è at. js?
+## Che cos’è at.js?
 
-la [libreria at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) è la nuova libreria di implementazione per Target. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js è la libreria di implementazione consigliata e viene aggiornata frequentemente con nuove funzionalità. Si consiglia a tutti i clienti di implementare o eseguire la migrazione alla  [versione più recente di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+la [libreria at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17) è la nuova libreria di implementazione per Target. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js è la libreria di implementazione consigliata e viene aggiornata frequentemente con nuove funzionalità. Si consiglia a tutti i clienti di implementare o eseguire la migrazione alla [versione più recente di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 
-Per ulteriori informazioni, consultate [Librerie javascript di Target](/help/c-intro/how-target-works.md#libraries).
+Per ulteriori informazioni, consulta [Librerie JavaScript di Target](/help/c-intro/how-target-works.md#libraries).
 
 Nell’implementazione di [!DNL Target] illustrata di seguito sono implementate le seguenti soluzioni di [!DNL Adobe Experience Cloud]: Analytics, Target e Audience Manager. Inoltre, sono implementati i seguenti servizi principali di Experience Cloud: Adobe Launch, Audiences e Servizio ID visitatore.
 
-## Qual è la differenza tra at.js 1.*x* e at. js 2. x di flusso di lavoro?
+## Qual è la differenza tra i flussi di lavoro di at.js 1.*x* e di at.js 2.x?
 
-Per [ulteriori informazioni sulle differenze](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) introdotte nel 2. O da 1, consultate Aggiornamento da. js 1. x a. js 2. x.*x*.
+Consulta [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) per informazioni sulle differenze tra 2.0 e 1.*x*.
 
 Da un punto di vista avanzato, esistono alcune differenze tra le due versioni:
 
-* at. js 2. x non ha un concetto di richiesta mbox globale, ma piuttosto una richiesta di caricamento di pagina. Una richiesta di caricamento della pagina si può intendere come una richiesta per recuperare il contenuto da applicare al caricamento iniziale della pagina del sito web.
-* at. js 2. x gestisce i concetti di visualizzazioni che vengono utilizzati per le applicazioni singole (SPAS). In at.js 1.*x* questo concetto non è disponibile.
+* at.js 2.x non ha un concetto di richiesta mbox globale, ma una richiesta al caricamento della pagina. Una richiesta di caricamento della pagina si può intendere come una richiesta per recuperare il contenuto da applicare al caricamento iniziale della pagina del sito web.
+* at.js 2.x gestisce il concetto di Viste utilizzate per le applicazione a pagina singola. In at.js 1.*x* questo concetto non è disponibile.
 
 ## Diagrammi at.js 2.x
 
-I seguenti diagrammi ti aiutano a capire il flusso di lavoro di at. js 2. x con Visualizzazioni e il modo in cui questo migliora l&#39;integrazione con SPA. Per una migliore introduzione dei concetti utilizzati in at. js 2. x, consultate [Implementazione delle applicazioni per pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.x, consulta [Implementazione di un’applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target flow with at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Flusso di Target con at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Passaggio | Dettagli |
 | --- | --- |
@@ -55,7 +55,7 @@ I seguenti diagrammi ti aiutano a capire il flusso di lavoro di at. js 2. x con 
 
 Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola, le visualizzazioni e le azioni vengono recuperate dalla cache e mostrate all’utente senza una chiamata al server. `triggerView()` invia anche una richiesta di notifica al backend [!DNL Target] per incrementare e registrare i conteggi delle impression. Per ulteriori informazioni su at.js per applicazioni a pagina singola con viste, consulta [Implementazione di un’applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Target flow at. js 2. x triggerview](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Flusso di Target triggerView at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Passaggio | Dettagli |
 | --- | --- |
@@ -77,10 +77,10 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>I dati di [!DNL Analytics] possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
 
-## Video formazione: diagramma architettonico. js 2. x
+## Video di formazione: diagramma architetturale di at.js 2.x
 
-at. js 2. x ottimizza il supporto di Adobe Target per gli spas e si integra con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
+at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Funzionamento di at.js 2.x](https://helpx.adobe.com/it/target/kt/using/atjs20-diagram-technical-video-understand.html).
