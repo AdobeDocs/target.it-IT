@@ -1,25 +1,25 @@
 ---
 description: Documentazione di Adobe Recommendations Classic.
-keywords: recommendations Classic
+keywords: Recommendations Classic
 seo-description: Documentazione di Adobe Recommendations Classic.
 seo-title: Documentazione di Adobe Recommendations Classic.
 solution: Target
-title: Documentazione Classic Classic.
+title: Documentazione di Recommendations Classic.
 title-outputclass: premium
 topic: Premium
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1f03b9619bbe88a9b3f80a76e6ac561707160619
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# ![Documentazione di PREMIUM](/help/assets/premium.png) Classic Classic
+# ![PREMIUM](/help/assets/premium.png) Documentazione di Recommendations Classic
 
-Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web. 
+Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web.
 
 Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli che altrimenti potrebbero ignorare, incrementando le vendite generate sul sito.
 
-Per informazioni su come scegliere tra attività [!DNL Recommendations Classic] e attività di Recommendations in [!DNL Target Premium], vedete [Recommendations Classic versus Recommendations activities in Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Per informazioni su come scegliere tra attività [!DNL Recommendations Classic] e attività di Recommendations in [!DNL Target Premium], consulta [Confronto tra Recommendations Classic e le attività Consigli di Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-Scaricate la documentazione di [Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) in formato PDF.
+Scarica la documentazione di [Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf) in formato PDF.
