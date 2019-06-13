@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
-translation-type: tm+mt
-source-git-commit: 1616c4592035f45bfc1b434eb4d993ac33479345
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -51,7 +51,7 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
 
 1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
 
-   ![Crea nuovi criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Seleziona **[!UICONTROL Crea sequenza criteri]**.
 
