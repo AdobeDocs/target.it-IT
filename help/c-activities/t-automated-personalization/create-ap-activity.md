@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
 
 ---
 
@@ -30,6 +30,10 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 1. Per utilizzare il Compositore esperienza visivo (VEC), fai clic su **[!UICONTROL Visivo (impostazione predefinita)]**.
 
    Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona **[!UICONTROL Modulo]**. Per ulteriori informazioni su entrambi i compositori, consulta [Esperienze](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+
+   >[!NOTE]
+   >
+   >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. Per ulteriori informazioni sui vari moduli di composizione, vedi [Esperienze e offerte](/help/c-experiences/experiences.md).
 
 1. Verifica o inserisci l’URL di attività, quindi fai clic su **[!UICONTROL Avanti]**.
 
