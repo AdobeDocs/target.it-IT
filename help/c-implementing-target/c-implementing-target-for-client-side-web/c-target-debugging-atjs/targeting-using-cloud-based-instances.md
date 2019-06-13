@@ -6,8 +6,8 @@ seo-title: Utilizzare istanze basate su cloud con Target
 solution: Target
 title: Utilizzare istanze basate su cloud con Target
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
-translation-type: tm+mt
-source-git-commit: ffa6585834b271838629d65ceb00d1770b37e80c
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -20,7 +20,7 @@ I clienti di Target utilizzano talvolta istanze basate su cloud con [!DNL Target
 
 `azurewebsites.net`, `cloudapp.net`, `amazonaws.com`, `cloudfront.net`, `herokuapp.com` o `firebaseapp.com`
 
-Questi domini, e molti altri, fanno parte dell’[elenco dei suffissi pubblici](https://publicsuffix.org/list/public_suffix_list.dat).
+Questi domini e molti altri sono parte dell&#39;elenco dei suffissi pubblici [Public Suffix List](https://publicsuffix.org/list/public_suffix_list.dat).
 
 **Problema:** se si utilizzano questi domini, i browser moderni non salvano i cookie.
 
