@@ -1,30 +1,30 @@
 ---
-description: 'Informazioni sulla funzione adobe. target. getoffer (options) per at. js. '
+description: 'Informazioni sulla funzione adobe.target.getOffer(options) per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione adobe. target. getoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
-seo-title: Informazioni sulla funzione adobe. target. getoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
+seo-description: Informazioni sulla funzione adobe.target.getOffer(options) per la libreria at.js JavaScript di Adobe Target.
+seo-title: Informazioni sulla funzione adobe.target.getOffer(options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
 subtopic: Introduzione
-title: adobe.target.getoffer(options)
+title: adobe.target.getOffer(options)
 topic: Standard
-translation-type: tm+mt
-source-git-commit: 15da223709bfceecb094b6c9f9e78ba5ce0d8256
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
 
-# adobe.target.getoffer(options)
+# adobe.target.getOffer(options)
 
 Questa funzione genera una richiesta per ottenere un’offerta di Target.
 
 Puoi utilizzarlo con `adobe.target.applyOffer()` per elaborare la risposta o usare la tua gestione di successo. Il parametro delle opzioni è obbligatorio e ha la seguente struttura:
 
-| Chiave | Type (Tipo) | Obbligatorio | Descrizione |
+| Chiave | Tipo | Obbligatorio | Descrizione |
 |--- |--- |--- |--- |
 | mbox | Stringa | Sì | Nome Mbox |
 | params | Oggetto | No | Parametri mbox. Un oggetto di coppie chiave-valore che presenta la struttura seguente:<br>`{ "param1": "value1", "param2": "value2"}` |
-| success | Funzione | Sì | Chiamata di ritorno da eseguire quando abbiamo ricevuto una risposta dal server. La funzione di chiamata di ritorno di successo riceverà un singolo parametro che rappresenta un array di oggetti di offerta. Esempio di chiamata di ritorno di successo:<br>`function handleSuccess(response){......}`<br>per informazioni dettagliate, consulta le risposte sottostanti. |
-| error | Funzione | Sì | Chiamata di ritorno da eseguire quando visualizziamo un errore. Ci sono alcuni casi che sono considerati di errore:<ul><li>Codice di stato HTTP diverso da 200 OK</li><li>La risposta non può essere analizzata. Ad esempio abbiamo generato in modo non corretto JSON o HTML invece di JSON.</li><li>La risposta contiene la chiave “Errore”. Ad esempio, è stata lanciata un&#39;eccezione sull&#39;Edge di una richiesta che non è stato possibile elaborare correttamente. Si può ricevere un errore se una mbox è bloccata e non è possibile recuperare alcun contenuto per essa, ecc. La funzione di chiamata di ritorno degli errori riceverà due parametri: stato ed errore. Ecco un esempio di chiamata di ritorno di errore:  `function handleError(status, error){......}`</li></ul>Vedi le risposte di errore qui sotto per i dettagli. |
+| success | Funzione | Sì | Callback da eseguire quando abbiamo ricevuto una risposta dal server. La funzione di callback di successo riceverà un singolo parametro che rappresenta un array di oggetti di offerta. Esempio di callback di successo:<br>`function handleSuccess(response){......}`<br>per informazioni dettagliate, consulta le risposte sottostanti. |
+| error | Funzione | Sì | Callback da eseguire quando visualizziamo un errore. Ci sono alcuni casi che sono considerati di errore:<ul><li>Codice di stato HTTP diverso da 200 OK</li><li>La risposta non può essere analizzata. Ad esempio abbiamo generato in modo non corretto JSON o HTML invece di JSON.</li><li>La risposta contiene la chiave “Errore”. Ad esempio, è stata lanciata un&#39;eccezione sull&#39;Edge di una richiesta che non è stato possibile elaborare correttamente. Si può ricevere un errore se una mbox è bloccata e non è possibile recuperare alcun contenuto per essa, ecc. La funzione di callback di errore riceverà due parametri: stato ed errore. Ecco un esempio di callback di errore: `function handleError(status, error){......}`</li></ul>Vedi le risposte di errore qui sotto per i dettagli. |
 | timeout | Numero | No | Timeout in millisecondi. Se non viene specificato, verrà utilizzato il timeout predefinito in at.js.<br>Il timeout predefinito può essere impostato [!DNL Target] dall&#39;interfaccia utente di in [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni Mbox.js &gt; Timeout]. |
 
 ## Esempi {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
@@ -90,18 +90,18 @@ adobe.target.getOffer({
 });
 ```
 
-## Risposte  {#section_CF9FD236EF794620BCBF84EB80160183}
+## Risposte {#section_CF9FD236EF794620BCBF84EB80160183}
 
-Il parametro di risposta passato alla chiamata di ritorno di successo sarà un array di azioni. Un&#39;azione è un oggetto che in genere presenta il formato seguente:
+Il parametro di risposta trasmesso al callback di successo sarà un array di azioni. Un&#39;azione è un oggetto che in genere presenta il formato seguente:
 
-| Nome | Type (Tipo) | Descrizione |
+| Nome | Tipo | Descrizione |
 |--- |--- |--- |
 | action | Stringa | Tipo di azione da applicare all&#39;elemento identificato. |
 | selector | Stringa | Rappresenta un selettore Sizzle. |
 | cssSelector | Stringa | Selettore nativo DOM, utilizzato per l&#39;elemento che consente lo stato di pre-nascosto. |
 | content | Stringa | Il contenuto da applicare all&#39;elemento identificato. |
 
-## Esempio 
+## Esempio
 
 ```
 { 
@@ -124,9 +124,9 @@ Il parametro di risposta passato alla chiamata di ritorno di successo sarà un a
 
 ## Risposte di errore {#section_1ACCE79AF2CB4FA2AD1371EA06AF129F}
 
-I parametri “status” ed “error” passati alla chiamata di ritorno di errore avranno il seguente formato:
+I parametri “status” ed “error” trasmessi al callback di errore avranno il seguente formato:
 
-| Nome | Type (Tipo) | Descrizione |
+| Nome | Tipo | Descrizione |
 |--- |--- |--- |
 | status | Stringa | Rappresenta lo stato di errore. Questo parametro può avere i seguenti valori:<ul><li>timeout: Indica che la richiesta è scaduta.</li><li>parseerror: indica che la risposta non può essere analizzata, ad esempio se si riceve HTML o testo normale anziché JSON.</li><li>error: indica un errore generale, ad esempio se si riceve uno stato HTTP diverso da 200 OK</li></ul> |
 | error | Stringa | Contiene dati aggiuntivi come messaggi di eccezione o qualsiasi altra informazione utile per la risoluzione dei problemi. |
