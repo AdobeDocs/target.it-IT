@@ -7,8 +7,8 @@ subtopic: Test multivariato
 title: Creare un’attività Targeting esperienze
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
-translation-type: tm+mt
-source-git-commit: 2baa75b6020b2f9229db68667c2e19a698954231
+translation-type: ht
+source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 ---
 
@@ -25,7 +25,7 @@ Utilizza il Compositore esperienza visivo per creare un’attività Targeting es
    >
    >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell&#39;elenco.
 
-   Per informazioni sui tipi di attività, vedi  [Attività](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+   Per informazioni sui tipi di attività, vedi [Attività](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 1. Inserisci l’[URL di attività](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fai clic su **[!UICONTROL Avanti]**.
 
    ![](assets/form_url.png)
@@ -34,7 +34,7 @@ Utilizza il Compositore esperienza visivo per creare un’attività Targeting es
 
    Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona tale opzione. Vedi [Compositore esperienza basato su moduli](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona tale opzione. Consulta [Compositore esperienza basato su moduli](https://marketing.adobe.com/resources/help/it_IT/target/target/t_form_experience_composer.html).
 
    Verrà aperto il Compositore esperienza visivo, con la pagina specificata nell&#39;URL.
 1. Digita un nome per l&#39;attività nello spazio fornito.
@@ -83,13 +83,13 @@ Utilizza il Compositore esperienza visivo per creare un’attività Targeting es
 
    ![](assets/xt_change_audience.png)
 
-   Viene visualizzata la libreria dei tipi di pubblico. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, oppure  [creare un nuovo pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Per mostrare la stessa esperienza a tutti i partecipanti, scegli Tutti i visitatori.
+   Viene visualizzata la libreria dei tipi di pubblico. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, oppure [creare un nuovo pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Per mostrare la stessa esperienza a tutti i partecipanti, scegli Tutti i visitatori.
 
    >[!NOTE]
    >
    >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri relativi. In Parametri personalizzati, seleziona la mbox e specifica i parametri desiderati.
+   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In Parametri personalizzati, seleziona la mbox e specifica i parametri desiderati.
 
    >[!NOTE]
    >
