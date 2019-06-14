@@ -8,7 +8,7 @@ title: Creare un’attività Targeting esperienze
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -64,61 +64,14 @@ Utilizzate [!UICONTROL Visual Experience Composer] (Compositore esperienza visiv
    | `-` | Meno |
    | `@` | Chiocciola |
 
-1. [Crea nuove esperienze](../../../c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00) modificando gli elementi nella pagina.
+1. Crea nuove esperienze modificando gli elementi nella pagina.
 
-
+   Per istruzioni dettagliate, consultate [Aggiunta di un&#39;esperienza](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
    Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. È possibile disattivare JavaScript per poter modificare tali elementi utilizzando il Compositore esperienza visivo.
 
-   >[!NOTE]
-   >
-   >Se modifichi l’URL dopo aver apportato modifiche a una pagina per una o più esperienze, l’esperienza viene reimpostata utilizzando la nuova pagina e le modifiche apportate andranno perse.
-
-   Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza.
+   Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando la VEC. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l&#39;esperienza, consultate Opzioni [di Visual Experience Composer (Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)).
 
    Se hai creato una mbox sulla pagina utilizzando Target Classic (in precedenza Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
 
-   >[!NOTE]
-   >
-   >Se distribuisci un’immagine da un’origine diversa dalla pagina principale (ad esempio un’immagine in hosting su akamai.net e distribuita a dell.com), l’immagine non viene visualizzata nella miniatura della pagina mostrata nel diagramma di flusso.
-
-1. Fai clic su **[!UICONTROL Successivo]**.
-
-   Viene visualizzato il diagramma di flusso.
-
-   ![](assets/xt_diagram.png)
-
-   Il diagramma di flusso ti guida attraverso le fasi di selezione del pubblico per l’attività e creazione di esperienze.
-1. Porta il cursore sul pubblico, fai clic sull’icona **[!UICONTROL Modifica]** (tre puntini di sospensione verticali) visualizzata, fai clic su **[!UICONTROL Sostituisci pubblico]**, quindi seleziona il pubblico per la prima esperienza nell’attività.
-
-   ![](assets/xt_change_audience.png)
-
-   Viene visualizzata la libreria dei tipi di pubblico. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, oppure [creare un nuovo pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271). Per mostrare la stessa esperienza a tutti i partecipanti, scegli Tutti i visitatori.
-
-   >[!NOTE]
-   >
-   >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
-
-   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In Parametri personalizzati, seleziona la mbox e specifica i parametri desiderati.
-
-   >[!NOTE]
-   >
-   >Quando apri l’elenco dei tipi di pubblico e questi sono stati importati da almeno 10 minuti, vengono importati automaticamente in background.
-
-   Puoi fare clic sull&#39;icona di [!UICONTROL Modifica] (tre puntini di sospensione verticali) visualizzata, quindi fare clic su [!UICONTROL Rimuovi pubblico] per rimuovere un pubblico esistente.
-1. Fai clic su **[!UICONTROL Aggiungi targeting esperienza]**.
-
-   >[!NOTE]
-   >
-   >Se stai eseguendo il targeting di un&#39;esperienza per un pubblico, è necessario selezionare il pubblico prima di poter aggiungere un’esperienza. Viene visualizzato un messaggio per ricordarti di scegliere il pubblico.
-
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi]** e configura ulteriori esperienze con targeting.
-
-   ![](assets/xt_add_xt.png)
-
-   Fai clic su **[!UICONTROL Successivo]** dopo aver completato il passaggio.
-1. Specifica [obiettivi e impostazioni](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per l’attività.
-
-   ![](assets/xt_settings.png)
-
-1. Fai clic su **[!UICONTROL Salva e chiudi]**.
+1. Specifica [obiettivi e impostazioni](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per l&#39;attività.
