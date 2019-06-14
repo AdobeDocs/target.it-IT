@@ -1,6 +1,6 @@
 ---
 description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienze su una pagina abilitata per Target e modificarne alcune parti della pagina in Target.
-seo-description: Utilizzate Visual Experience Composer (Compositore esperienza visivo) per creare un'attività di targeting delle esperienze su una pagina compatibile con Target e per modificarne una o più parti all'interno di Adobe Target.
+seo-description: Utilizzate Visual Experience Composer (Compositore esperienza visivo) per creare un'attività Experience Targeting (XT) su una pagina compatibile con Target e per modificare una parte della pagina all'interno di Adobe Target.
 seo-title: Creare un’attività Targeting esperienze
 solution: Target
 subtopic: Test multivariato
@@ -8,7 +8,7 @@ title: Creare un’attività Targeting esperienze
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
 
 ---
 
@@ -17,15 +17,23 @@ source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 Utilizzate [!UICONTROL Visual Experience Composer] (Compositore esperienza visivo) per creare un [!UICONTROL &#39;attività Experience Targeting] (XT) su una pagina compatibile con Target e per modificarne una o [!DNL Adobe Target]più parti.
 
+La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
+
+Il targeting delle esperienze, incluso [il geotargeting](/help/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che indirizzano un&#39;esperienza o un contenuto specifico a un particolare pubblico. È possibile definire diverse regole in un&#39;attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
+
+Per ulteriori informazioni sul targeting delle esperienze, su uno scenario di utilizzo e sui video di formazione, consulta [Targeting delle esperienze](/help/c-activities/t-experience-target/experience-target.md).
+
+**Per creare un&#39;attività XT:**
+
 1. Dall’elenco [!UICONTROL Attività], fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Targeting delle esperienze]**.
 
    ![Creare attività &gt; Targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
-   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell&#39;elenco. Ad esempio, Automated Personalization (Personalizzazione automatizzata) è una [funzione Target Premium](/help/c-intro/intro.md#premium).
-
-   Per informazioni sui tipi di attività, consultate [Attività](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03) e [tipi di attività Target](/help/c-activities/target-activities-guide.md).
+   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell&#39;elenco. Ad esempio [!UICONTROL , Automated Personalization] (Personalizzazione automatizzata) è una [funzione Target Premium](/help/c-intro/intro.md#premium).
+   >
+   >Per ulteriori informazioni sui vari tipi di attività disponibili [!DNL Target] e sulle relative differenze, vedi [Attività](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Vedi [Tipi di attività Target](/help/c-activities/target-activities-guide.md) per aiutarti a stabilire quale tipo di attività più suite deve soddisfare le tue esigenze.
 
 1. Selezionate **[!UICONTROL Visual (Elemento visivo) (Predefinito)]**, se necessario.
 
@@ -36,14 +44,14 @@ Utilizzate [!UICONTROL Visual Experience Composer] (Compositore esperienza visiv
    >[!NOTE]
    >
    >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. Per ulteriori informazioni sui vari moduli di composizione, vedi [Esperienze e offerte](/help/c-experiences/experiences.md).
-
-   Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+   >
+   >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 
 1. Specificate l&#39;URL [attività](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fate clic su **[!UICONTROL Avanti]**.
 
-   Se l&#39;account è configurato con un URL predefinito, tale URL verrà visualizzato come impostazione predefinita. È possibile passare dall’URL predefinito a un altro.
+   Se l&#39;account è [configurato con un URL predefinito](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), per impostazione predefinita viene visualizzato l&#39;URL. Se necessario, potete passare da un URL predefinito a un altro.
 
-   Verrà aperto il Compositore esperienza visivo, con la pagina specificata nell&#39;URL.
+   Viene aperto il VEC, che mostra la pagina specificata nell&#39;URL.
 
    ![Attività Targeting delle esperienze all&#39;interno della VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
@@ -64,14 +72,8 @@ Utilizzate [!UICONTROL Visual Experience Composer] (Compositore esperienza visiv
    | `-` | Meno |
    | `@` | Chiocciola |
 
-1. Crea nuove esperienze modificando gli elementi nella pagina.
+1. Crea nuove esperienze mirate per le audience delle differenze.
 
    Per istruzioni dettagliate, consultate [Aggiunta di un&#39;esperienza](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
-
-   Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. È possibile disattivare JavaScript per poter modificare tali elementi utilizzando il Compositore esperienza visivo.
-
-   Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando la VEC. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l&#39;esperienza, consultate Opzioni [di Visual Experience Composer (Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md)).
-
-   Se hai creato una mbox sulla pagina utilizzando Target Classic (in precedenza Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
 
 1. Specifica [obiettivi e impostazioni](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per l&#39;attività.
