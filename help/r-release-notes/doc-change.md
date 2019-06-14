@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -21,8 +21,13 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 14 giugno 2019 | [Crea esperienza](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Aggiornati testo e immagini. |
+| 14 giugno 2019 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | È stato aggiunto il caso d&#39;uso. |
 |  | [Creare un’attività Targeting esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Aggiornati testo e immagini. |
+|  | XT: [URL attività](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Testo aggiornato. |
+|  | XT: [Crea esperienza](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Aggiornati testo e immagini. |
+|  | [Passaggio alle esperienze nel targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md) | Aggiornati testo e immagini. |
+|  | XT: [Obiettivi e impostazioni](/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md) | Aggiornati testo e immagini. |
+|  | XT: [Impostare le metriche](/help/c-activities/t-experience-target/t-xt-create/xt-set-metrics.md) | Aggiornati testo e immagine. |
 | 13 giugno 2019 | [Rapporto Attributi importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Sono state aggiunte nuove domande frequenti: «Perché alcune offerte/esperienze con tassi di conversione più bassi ricevono un traffico più grande rispetto ad altre offerte/esperienze per un determinato segmento automatizzato?» |
 |  | [Creare un&#39;attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Aggiornati testo e immagini. |
 |  | [Stimare il traffico necessario per il successo](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Nuova immagine aggiunta. |
