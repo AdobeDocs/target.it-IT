@@ -7,8 +7,8 @@ solution: Target
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
 
 ---
 
@@ -23,7 +23,7 @@ Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugl
 
 Le impostazioni disponibili dipendono dall’utilizzo di [!DNL Target] o [!DNL Analytics] come origine di dati.
 
-![](assets/ab_settings.png)
+![Impostazioni attività, pagina](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Impostazioni delle attività {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Soluzione di reporting
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Per informazioni sulle differenze tra le soluzioni di reporting e i relativi vantaggi, consulta [Adobe Analytics come origine per i rapporti per Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/a4t.html).
+Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
 
 Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
 
@@ -76,7 +76,7 @@ Se una soluzione di reporting è specificata nelle impostazioni del tuo account,
 >
 >Al fine di mantenere coerenza dei rapporti, non è possibile cambiare l’origine per i rapporti una volta che l’attività è diventata attiva.
 
-### Obiettivo
+### Metrica obiettivo
 
 Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di conversione, quindi imposta i parametri che determinano il raggiungimento del successo.
 
@@ -104,11 +104,15 @@ Per impostazione predefinita, nei rapporti sono mostrati i risultati per tutti i
 
 Questa impostazione non è disponibile se si sceglie Analytics come soluzione di reporting. Vengono applicati i tipi di pubblico definiti per la suite di rapporti di Analytics.
 
+## Altri metadati
+
+Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Il riquadro Note può essere ridimensionato.
+
 ## Impostazioni avanzate {#section_E2FE441AFB324E498793ABB025ED9974}
 
 Le impostazioni avanzate sono disponibili per le metriche dell’obiettivo di Targeting esperienza.
 
-![](assets/Menu_AdvancedSettings.png)
+![Impostazioni avanzate](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
 >[!NOTE]
 >
@@ -118,7 +122,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica?
 
-Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio potresti rendere valida una conversione di test solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.
+Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di prova potrebbe essere valida solo se il visitatore fa clic sull&#39;offerta o raggiunge una pagina prima della conversione.
 
 È possibile fornire una dipendenza da più metriche e decidere se, per incrementare il conteggio, la metrica deve essere raggiunta o non raggiunta.
 
@@ -128,15 +132,14 @@ L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo 
 
 Per aggiungere una dipendenza:
 
-1. Dopo aver aggiunto le metriche aggiuntive, fai clic su Impostazioni avanzate.
-2. Fai clic sull’opzione Aggiungi dipendenza:
+1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
+2. Fai clic **[!UICONTROL su Aggiungi dipendenza]**:
 
-   ![](assets/add_dependency.png)
+   ![Aggiungi collegamento di dipendenza](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto.
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Finestra di dialogo Aggiungi dipendenza metriche](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.
 
@@ -150,14 +153,6 @@ Dopo che un visitatore raggiunge la metrica obiettivo, sono disponibili tre opzi
 
 Consulta [Metriche di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) per ulteriori informazioni sulle impostazioni avanzate.
 
-## Altri metadati {#section_2E8917BEFB954480A4206B9E9E917F80}
-
-Sono disponibili le seguenti impostazioni:
-
-### Note
-
-Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Il riquadro Note può essere ridimensionato.
-
 ## Video di formazione: Impostazioni attività (03:02)
 
 Questo video include informazioni sulle impostazioni delle attività.
@@ -168,4 +163,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
