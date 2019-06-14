@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 163cd53223f9d45f6a33ce7ad0cc9ab35005b293
+source-git-commit: 5eb79fcd0407e0da841048bcd0a1b64393490fcf
 
 ---
 
@@ -21,10 +21,14 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 13 giugno 2019 | [Creare un&#39;attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Aggiornati testo e immagini. |
+| 14 giugno 2019 | [Crea esperienza](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md) | Aggiornati testo e immagini. |
+|  | [Creare un’attività Targeting esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Aggiornati testo e immagini. |
+| 13 giugno 2019 | [Rapporto Attributi importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Sono state aggiunte nuove domande frequenti: «Perché alcune offerte/esperienze con tassi di conversione più bassi ricevono un traffico più grande rispetto ad altre offerte/esperienze per un determinato segmento automatizzato?» |
+|  | [Creare un&#39;attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Aggiornati testo e immagini. |
 |  | [Stimare il traffico necessario per il successo](/help/c-activities/t-automated-personalization/ap-traffic-estimator.md) | Nuova immagine aggiunta. |
 |  | [Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo](/help/c-activities/t-automated-personalization/ap-preview-experiences.md) | Aggiornati testo e immagini. |
 |  | [Targeting delle offerte di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/ap-target-offers.md) | Aggiornati testo e immagini. |
+|  | [Gestire le esclusioni](/help/c-activities/t-automated-personalization/managing-exclusions.md) | Aggiornati testo e immagini. |
 | 12 giugno 2019 | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Aggiornati testo e immagini. |
 |  | [Come funziona Adobe Target](/help/c-intro/how-target-works.md) | Aggiunta nota importante sull&#39;utilizzo di Target in Cina. |
 |  | [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Rimosso Microsoft Internet Explorer 11 (IE 11) dalla sezione «Target Standard/Premium». Target non supporta più o mantiene la compatibilità per IE 11. Questa modifica interessa solo l&#39;interfaccia utente di Target. La distribuzione dei contenuti non viene modificata. Questa modifica segue annunci simili effettuati da Adobe Analytics, Adobe Experience Platform e Adobe Audience Manager. Consigliamo agli utenti di passare a un browser supportato. |
