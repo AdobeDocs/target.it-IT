@@ -6,8 +6,8 @@ seo-title: Targeting esperienza
 solution: Target
 title: Targeting esperienza
 uuid: b3af3b62-4a08-4dfd-b529-5012871cc972
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: b2ffdf230998f6273874b84ad05d60fb737c5411
 
 ---
 
@@ -16,11 +16,17 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
-Il Targeting dell’esperienza, tra cui il [geotargeting](../../c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670), è utile per definire regole che rivolgono un’esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un&#39;attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
+Il targeting delle esperienze, incluso [il geotargeting](/help/c-target/c-audiences/c-target-rules/geo.md), è utile per definire regole che indirizzano un&#39;esperienza o un contenuto specifico a un particolare pubblico. È possibile definire diverse regole in un&#39;attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
 
 Quando i visitatori visualizzano il tuo sito, la funzione Targeting esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell&#39;attività e viene visualizzata l&#39;esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
 
 Il targeting esperienza è un primo passo nel mondo della personalizzazione e spesso inizia con test A/B. Un addetto al marketing esegue un test A/B e attraverso l&#39;uso di tipi di pubblico di reporting rileva che diverse esperienze trovano accoglienza tra diversi destinatari. Il targeting esperienza consente all’addetto al marketing di sfruttare facilmente tale individuazione e passare a un&#39;impostazione a lungo termine del contenuto per tali segmenti di utenti diversi.
+
+## Scenario: Targeting delle esperienze
+
+Supponiamo che il tuo sito Web funzioni per dispositivi esterni. I rapporti per test A/B indicano che hai tre esperienze che suscitano un pubblico diverso. Per sfruttare questa scoperta, si desidera visualizzare un&#39;immagine hero diversa sulla pagina principale, a seconda della posizione o degli hobby dei visitatori. In questo scenario, vuoi visualizzare un&#39;immagine di nascosto ai visitatori di New Jersey e un&#39;immagine di surf ai visitatori delle Hawaii. Hai anche un pubblico che ama biccicare. Vuoi visualizzare una terza immagine hero che si rivolge ai tuoi destinatari.
+
+Un&#39;attività XT consente di eseguire il targeting di questi tre tipi di pubblico con un&#39;immagine hero diversa che invita a ogni pubblico. Il video seguente *, Da A/B Testing to Experience Targeting (Test* A/B per l&#39;esperienza delle esperienze) mostra come creare esperienze mirate per entrambi gli stati e una terza esperienza per gli appassionati di biking. Il video mostra anche come ordinare le tre esperienze per raggiungere gli obiettivi. Guarda il video, quindi continua con [Crea un&#39;attività di targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md).
 
 ## Video di formazione:
 
@@ -34,7 +40,7 @@ Questo video descrive come effettuare un test A/B al livello successivo con il t
 * Scopri come distribuire contenuti specifici per il sito a un pubblico che si trova in aree geografiche diverse
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=ita)
 
 ### Tipi di attività (9:03)
 
@@ -44,4 +50,4 @@ Questo video spiega i tipi di attività disponibili in Target Standard/Premium. 
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
