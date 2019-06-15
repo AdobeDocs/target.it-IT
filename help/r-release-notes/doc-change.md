@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ca9639ccca286dac182728f7bbd43fac78217209
+source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
 
 ---
 
@@ -21,6 +21,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 15 giugno 2019 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Modifiche di testo secondarie. |
+|  | [Best practice relative ai test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md) | Modifiche di testo secondarie. |
+|  | [Pianificare un test multivariato](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Modifiche di testo secondarie. |
 | 14 giugno 2019 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | È stato aggiunto il caso d&#39;uso. |
 |  | [Creare un’attività Targeting esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md) | Aggiornati testo e immagini. |
 |  | XT: [URL attività](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md) | Testo aggiornato. |
