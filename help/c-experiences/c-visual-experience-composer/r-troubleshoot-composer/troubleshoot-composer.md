@@ -6,8 +6,8 @@ seo-title: Risoluzione dei problemi relativi al Compositore esperienza visivo e 
 solution: Target
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 uuid: de9f9392-8a15-4422-81b3-263ace1cb330
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -23,3 +23,7 @@ Il Compositore esperienza avanzato è un’estensione del Compositore esperienza
 Per informazioni sul Compositore esperienza visivo e sul Compositore esperienza avanzato, vedi [Esperienze](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
 Nota che alcuni problemi riguardano sia il Compositore esperienza visivo sia il Compositore esperienza avanzato, mentre alcuni riguardano solo uno dei due compositori. Consulta la pagina appropriata per trovare ulteriori informazioni.
+
+* [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
+* [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
+* [Risoluzione dei problemi relativi al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
