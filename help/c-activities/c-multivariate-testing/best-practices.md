@@ -8,14 +8,14 @@ title: Best practice relative ai test multivariati
 topic: Standard
 uuid: 4468a2eb-3fc1-4bc5-85ac-90cc02db4fbb
 translation-type: tm+mt
-source-git-commit: 25ec122f7ab577f89e2330155599077e684605aa
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
 
 # Best practice relative ai test multivariati{#multivariate-test-best-practices}
 
-Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di attività Test multivariato (MVT) in [!DNL Adobe Target].
+Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di attività MVT (Multivariate Test) in [!DNL Adobe Target].
 
 ## Pianificare {#section_4D4A1F6226F042379BF48DB753608579}
 
