@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: f81d3ab49dc2cd01b4025f542d3174abf0a3c0d6
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -29,11 +29,17 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
 1. Per utilizzare il Compositore esperienza visivo (VEC), fai clic su **[!UICONTROL Visivo (impostazione predefinita)]**.
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona **[!UICONTROL Modulo]**. Per ulteriori informazioni su entrambi i compositori, consulta [Esperienze](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. Per [ulteriori informazioni, consultate Composer](/help/c-experiences/form-experience-composer.md) esperienza basato su modulo.
 
    >[!NOTE]
    >
    >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. Per ulteriori informazioni sui vari moduli di composizione, vedi [Esperienze e offerte](/help/c-experiences/experiences.md).
+   >
+   >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >L&#39;opzione [!UICONTROL Scegli processo di lavoro] nell&#39;illustrazione precedente è una [funzione Target Premium](/help/c-intro/intro.md) . Se l&#39;opzione non è visualizzata, l&#39;organizzazione dispone di una licenza di Target Standard.]
+
+1. (Condizionale) Se siete clienti Target Premium, [scegliete un&#39;area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifica o inserisci l’URL di attività, quindi fai clic su **[!UICONTROL Avanti]**.
 
@@ -45,7 +51,6 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
    ![Crea attività di personalizzazione automatizzata, finestra di dialogo](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
 1. Per assegnare un nome all’attività, fai clic sul campo Nome e digita il nome dell&#39;attività.
 
    ![Campo Nome](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
