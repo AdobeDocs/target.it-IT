@@ -8,7 +8,7 @@ title: Creare un’attività Targeting esperienze
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: dcddbf8c1a4f406fdbfb00b9deaa75113aa7b624
+source-git-commit: c6085fae6428cb837eed6eadd778140687348817
 
 ---
 
@@ -39,13 +39,17 @@ Per ulteriori informazioni sul targeting delle esperienze, su uno scenario di ut
 
    ![Finestra di dialogo Crea attività targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona tale opzione. Vedi [Compositore esperienza basato su moduli](https://marketing.adobe.com/resources/help/en_US/target/target/t_form_experience_composer.html).
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. Per [ulteriori informazioni, consultate Composer](/help/c-experiences/form-experience-composer.md) esperienza basato su modulo.
 
    >[!NOTE]
    >
    >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. Per ulteriori informazioni sui vari moduli di composizione, vedi [Esperienze e offerte](/help/c-experiences/experiences.md).
    >
-   >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4).
+   >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
+   >
+   >L&#39;opzione [!UICONTROL Scegli processo di lavoro] nell&#39;illustrazione precedente è una [funzione Target Premium](/help/c-intro/intro.md) . Se l&#39;opzione non è visualizzata, l&#39;organizzazione dispone di una licenza di Target Standard.]
+
+1. (Condizionale) Se siete clienti Target Premium, [scegliete un&#39;area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Specificate l&#39;URL [attività](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fate clic su **[!UICONTROL Avanti]**.
 
