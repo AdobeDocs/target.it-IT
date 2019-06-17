@@ -9,7 +9,7 @@ title: Risolvere i problemi relativi alla distribuzione dei contenuti
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 5417d8bcacbb734e0b852d70f482a927f382c89e
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -34,9 +34,11 @@ Per recuperare il token di autorizzazione:
 1. Seleziona **[!UICONTROL mbox.js]** o **[!UICONTROL at.js]**.
 1. Fai clic su **[!UICONTROL Genera token di autenticazione]**.
 
-   ![](assets/gen-auth-token.png)
+   ![Genera token di autorizzazione](/help/c-activities/c-troubleshooting-activities/assets/generate-auth-token.png)
 
 1. Aggiungi il token generato come parametro nell’URL per abilitare uno degli strumenti di debug avanzati.
+
+   ![Token di autorizzazione](/help/c-activities/c-troubleshooting-activities/assets/gen-auth-token.png)
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
@@ -73,7 +75,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 * Esclusioni e inclusioni applicate
 * Regole di raccolta
 
-Non devi includere  `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungi `=disable` e premi **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
+Non devi includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungi `=disable` e premi **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
 
 mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la tua solita struttura dei consigli.
 
@@ -94,7 +96,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 | `mboxDebug=x-time` | Mostra il tempo di risposta per ogni richiesta mbox |
 | `mboxOverride.browserIp=<Insert IP address>` | Testa geotargeting<br>Testa il geotargeting con questo parametro URL. Digita un indirizzo IP come valore per questo attributo e il geotargeting di Test&amp;Target valuterà tale indirizzo IP rispetto a qualsiasi geotargeting o segmentazione impostata in una campagna. |
 
-## Adobe Experience Cloud Debugger  {#section_A2798ED3A431409690A4BE08A1BFCF17}
+## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
 Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 
@@ -106,7 +108,7 @@ Per ulteriori informazioni, consulta la documentazione di [*Adobe Experience Clo
 
 Se target.js non viene caricato durante la distribuzione, mbox.js invia al visitatore il cookie “em-disabled”. Questo cookie impedisce alle offerte create tramite il Compositore esperienza visivo di essere visualizzate sul sito. I visitatori con questo cookie non vedono il contenuto del test né vengono conteggiati in tali rapporti di attività. Tutti gli altri contenuti dell’offerta (da campagne in Target Classic per esempio) continuano ad essere caricati. Il cookie ha una durata di 30 minuti dal momento del caricamento non riuscito.
 
-## Gli articoli più venduti non compaiono in Consigli  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Gli articoli più venduti non compaiono in Consigli {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 La mbox *`SIteCatalyst: purchase`* non può essere utilizzata per i dati del traffico algoritmo di acquisto. Utilizza invece la mbox *`orderConfirmPage`*.
 
@@ -124,7 +126,7 @@ Effettua l’aggiornamento a [!DNL mbox.js] versione 58 o successiva.
 
 La versione 58 o successiva di mbox.js esegue il contenuto non-JavaScript per la mbox globale subito dopo il tag HTML `BODY`. Il contenuto JavaScript all’interno dei tag `<script>` per la mbox globale viene eseguito dopo che l’attivazione dell’evento `DOMContentLoaded`. Questo ordine di consegna dei contenuti assicura che il contenuto JavaScript per la mbox globale sia consegnato e renderizzato correttamente.
 
-## Cookie di Target non impostato  {#section_77AFEB541C0B495EB67E29A4475DF960}
+## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
 Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
@@ -134,9 +136,9 @@ Il contenuto di Target potrebbe essere visualizzato momentaneamente o non essere
 
 Per ovviare a questo problema, puoi disabilitare la personalizzazione AEM nelle pagine in cui Target è in esecuzione.
 
-## Reindirizzamento e offerte remote non riescono a distribuire il servizio a causa di un URL non valido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Errore nella consegna di offerte di reindirizzamento e offerte remote a causa di un URL non valido. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
-Se il reindirizzamento o l&#39;offerta remota utilizzano un URL non valido, potrebbe non essere possibile distribuire il servizio.
+Se l’offerta di reindirizzamento o l’offerta remota utilizza un URL non valido, la sua consegna potrebbe non riuscire.
 
 Per le offerte di reindirizzamento, la risposta della mbox può contenere `/* invalid redirect offer URL */`
 
@@ -148,7 +150,7 @@ Puoi controllare la risposta mbox nel browser o utilizzare mboxTrace. Per ulteri
 
 ## le mbox non si attivano sul sito.
 
-at. js non attivano mbox Target se state utilizzando un doctype non valido. at. js richiede il doctype HTML 5.
+at. js non attivano mbox Target se state utilizzando un doctype non valido. at.js richiede il doctype HTML5.
 
 ## Video di formazione
 
@@ -156,12 +158,12 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Aggiungi estensione
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=ita)
 
 ### Debug Target di base
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=ita)
 
 ### Mbox Trace
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=ita)
