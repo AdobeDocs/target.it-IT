@@ -6,8 +6,8 @@ seo-title: Impostare le metriche
 solution: Target,standard
 title: Impostare le metriche
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,7 +21,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
 1. Specifica l’obiettivo dell’attività.
 1. Seleziona una [metrica di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![](assets/mvt_metrics.png)
+   ![Elenco delle metriche](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_metrics-list.png)
 
    Nella pagina [!UICONTROL Seleziona metriche] sono incluse le metriche di successo che si possono scegliere per l’attività. Le metriche di successo sono suddivise nelle seguenti categorie:
 
@@ -60,4 +60,4 @@ Questo video contiene informazioni su come utilizzare le metriche di successo.
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ita)
