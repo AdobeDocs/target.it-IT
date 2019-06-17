@@ -7,8 +7,8 @@ solution: Target
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -64,7 +64,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Soluzione di reporting
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Per informazioni sulle differenze tra le soluzioni di reporting e i relativi vantaggi, consulta [Adobe Analytics come origine per i rapporti per Target](https://marketing.adobe.com/resources/help/it_IT/target/a4t/a4t.html).
+Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
 
 Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
 
@@ -104,7 +104,7 @@ Tipi di pubblico per i rapporti
 
 Le impostazioni avanzate sono disponibili per le metriche obiettivo di test multivariato.
 
-![](assets/Menu_AdvancedSettings.png)
+![Impostazioni avanzate, menu](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -122,15 +122,14 @@ L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo 
 
 Per aggiungere una dipendenza:
 
-1. Dopo aver aggiunto le metriche aggiuntive, fai clic su Impostazioni avanzate.
+1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
 2. Fai clic sull’opzione Aggiungi dipendenza:
 
-   ![](assets/add_dependency.png)
+   ![Aggiungi dipendenza](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto.
+3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra Raggiunto e Non raggiunto .
 
-   ![](assets/add_dependency_reached.png)
-
+   ![Dipendenza raggiunta](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
 È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.
 
@@ -166,7 +165,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
 
 ### Creazione di test multivariati (9:25)
 
@@ -175,4 +174,4 @@ In questo video viene illustrato come creare un test multivariato utilizzando il
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/17395)
+>[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ita)
