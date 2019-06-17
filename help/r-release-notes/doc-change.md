@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -21,7 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 16 giugno 2019 | Creazione di un test multivariato | Aggiornati testo e immagini. |
+| 16 giugno 2019 | [Creazione di un test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Aggiornati testo e immagini. |
 | 15 giugno 2019 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Modifiche di testo secondarie. |
 |  | [Best practice relative ai test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md) | Modifiche di testo secondarie. |
 |  | [Pianificare un test multivariato](/help/c-activities/c-multivariate-testing/plan-mvt.md) | Modifiche di testo secondarie. |
