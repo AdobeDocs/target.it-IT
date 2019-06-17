@@ -7,8 +7,8 @@ solution: Target
 title: Modificare un’attività o salvarla come bozza
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 3c7b2c16a49ac108e0b5702303b311f1469ae55a
 
 ---
 
@@ -19,29 +19,29 @@ Informazioni sulle diverse modalità di modifica di un’attività esistente e s
 
 In Target è possibile modificare le attività esistenti tramite le funzioni disponibili in diverse aree dell’interfaccia utente. La procedura varia a seconda del metodo scelto.
 
-## Modificare un’attività tramite il pulsante che si attiva al passaggio del mouse nella pagina Attività {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Modificare un&#39;attività utilizzando il pulsante passaggio a hover nella pagina Attività {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Dalla pagina **[!UICONTROL Attività]**, passa il puntatore del mouse sull’attività da modificare, quindi fai clic sull’icona **[!UICONTROL Modifica]**.
 
-   ![](assets/hover_edit.png)
+   ![Icona Modifica](/help/c-activities/assets/hover_edit.png)
 
-   Target apre l’attività e viene visualizzata la pagina Esperienze (il primo di tre passaggi nel flusso di lavoro guidato). Viene visualizzato un pulsante di menu combinato in alto a destra della pagina, come illustrato di seguito:
+   Target apre l&#39;attività in Visual Experience Composer (Compositore esperienza visivo) (VEC) e viene visualizzata la pagina [!UICONTROL Esperienze] (il primo passaggio nel flusso di lavoro guidato in tre fasi).
 
-   ![](assets/edit_split_button.png)
+1. Modificate l&#39;attività, come desiderato mediante le opzioni [VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Modifica l’attività tramite il pulsante di menu combinato:
+1. Fate clic sul pulsante Dividi per avanzare al passaggio successivo o per salvare l&#39;attività.
 
-   ![](assets/edit_split_button_2.png)
+   ![Pulsante Dividi](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase Targeting.
+   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase Targeting.[!UICONTROL ]
    * **Salva e chiudi:** apporta le modifiche desiderate nel passaggio corrente, fai clic sull’elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva e chiudi]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Panoramica] dell’attività.
    * **Salva:** apporta le modifiche desiderate in un passaggio, fai clic sul menu a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva]** per salvare le modifiche e rimanere in quel passaggio, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
-## Modificare un’attività facendo clic sul suo nome nella pagina Attività per aprirla {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Modificare un&#39;attività aprendo l&#39;attività facendo clic sul suo nome nella pagina Attività {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Per evitare di dover scorrere l’intero flusso di lavoro, fai clic sull’attività desiderata nella pagina Attività per aprirla, quindi seleziona un’opzione dall’elenco a discesa **[!UICONTROL Modifica attività]**.
 
-   ![](assets/edit_activity.png)
+   ![Menu a discesa Modifica attività](/help/c-activities/assets/edit_activity.png)
 
 1. Seleziona l’opzione desiderata:
 
@@ -60,7 +60,7 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
 
 
 
-## Salvare un’attività come bozza {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Salvare un&#39;attività nella bozza {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Le opzioni Salva bozza vengono visualizzate nel pulsante di menu combinato quando crei una nuova attività che non è ancora stata salvata o modifichi un’attività già salvata come bozza.
 
@@ -69,7 +69,7 @@ Puoi salvare un’attività in modalità bozza se è stata avviata l’impostazi
 1. Crea una nuova attività o modifica un’attività esistente già in forma di bozza.
 1. Seleziona l’opzione desiderata dal pulsante di menu combinato:
 
-   ![](assets/save_draft.png)
+   ![Salva bozza](/help/c-activities/assets/save_draft.png)
 
    * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato.
    * **Salva bozza e chiudi:** apporta le modifiche desiderate nel passaggio corrente, fai clic sull’elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva bozza e chiudi]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Panoramica] dell’attività.
