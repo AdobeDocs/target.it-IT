@@ -7,7 +7,7 @@ solution: Target
 title: Aggiungi esperienza
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 9137bbae24c6deef70a5b82fbe7bbd0a2dee9745
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -39,7 +39,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
    >
    >Se distribuisci un’immagine da un’origine diversa dalla pagina principale (ad esempio un’immagine in hosting su akamai.net e distribuita a dell.com), l’immagine non viene visualizzata nella miniatura della pagina mostrata nel diagramma di flusso.
 
-1. Fate clic **[!Ssu ave]** quando avete terminato la progettazione dell&#39;esperienza.
+1. Fate clic **[!UICONTROL su Salva]** quando avete terminato la progettazione dell&#39;esperienza.
 
 ## Rinomina esperienza
 
