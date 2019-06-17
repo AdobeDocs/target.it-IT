@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: f689812658d45342f958629d02b74c252c7f0369
+source-git-commit: 2a400b05f3e5637465fe65a10285544793d67b47
 
 ---
 
@@ -21,6 +21,15 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 17 giugno 2019 | [URL attività](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md) | Aggiornati testo e immagini. |
+|  | [Creare combinazioni](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md) | Aggiornati testo e immagini. |
+|  | [Visualizzare un&#39;anteprima delle esperienze per un test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md) | Aggiornati testo e immagini. |
+|  | [Obiettivi e impostazioni](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md) | Aggiornati testo e immagini. |
+|  | [Impostare le metriche](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/mvt-set-metrics.md) | Aggiornati testo e immagine. |
+|  | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | Aggiornati testo e immagini. |
+|  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md) | Aggiornati testo e immagini. |
+|  | [Registro delle modifiche apportate alle attività](/help/c-activities/change-log.md) | Aggiornati testo e immagine. |
+|  | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aggiornati testo e immagini. |
 | 16 giugno 2019 | [Creazione di un test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md) | Aggiornati testo e immagini. |
 | 15 giugno 2019 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Modifiche di testo secondarie. |
 |  | [Best practice relative ai test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md) | Modifiche di testo secondarie. |
