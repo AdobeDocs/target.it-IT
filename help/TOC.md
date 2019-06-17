@@ -2,9 +2,9 @@
 product: target
 audience: utente finale
 user-guide-title: Guida di Adobe Target
-user-guide-url: /content/help/en/target/using/target-home.html
+user-guide-url: /content/help/it/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
+source-git-commit: 990c4fee49fcca4ad52362059259968ef7799183
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
 + [Documentazione del prodotto di Adobe Target](target-home.md)
 + Note sulla versione di Target {#release-notes}
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
-   + [Note sulla versione di Target (pre-rilascio)](r-release-notes/target-release-notes.md)
+   + [Note sulla versione di Target (prerelease)](r-release-notes/target-release-notes.md)
    + [Problemi noti e problemi risolti](r-release-notes/known-issues-resolved-issues.md)
    + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
    + [Modifiche alla documentazione](r-release-notes/doc-change.md)
@@ -39,8 +39,8 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + Utenti {#users}
          + [Panoramica sugli utenti](administrating-target/c-user-management/c-user-management/user-management.md)
          + [Risolvere i problemi relativi alla gestione degli utenti](administrating-target/c-user-management/c-user-management/troubleshooting-user-management.md)
-      + Autorizzazioni per gli utenti aziendali {#enterprise}
-         + [Autorizzazioni per gli utenti aziendali](administrating-target/c-user-management/property-channel/property-channel.md)
+      + Autorizzazioni per gli utenti Enterprise {#enterprise}
+         + [Autorizzazioni per gli utenti Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configurare le autorizzazioni Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
    + [Impostazioni di Scene7](administrating-target/scene7-settings.md)
    + [Host](administrating-target/hosts.md)
@@ -62,7 +62,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Modifiche alla crittografia di TLS (Transport Layer Security)](c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)
       + [CNAME e Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web lato client: implementare Target {#client-side}
-      + [Panoramica: implementazione di Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
+      + [Panoramica: implementazione di Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
       + Funzionamento di at.js {#at-js}
          + [Panoramica sul funzionamento di at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
          + [Gestione at.js della visualizzazione momentanea di altri contenuti](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -75,13 +75,13 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Implementazione di un&#39;applicazione a pagina singola](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + Funzioni di at.js {#functions-overview}
          + [Panoramica sulle funzioni di at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
-         + [adobe. target. getoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
-         + [adobe. target. getoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
-         + [adobe. target. applyoffer ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
-         + [adobe. target. applyoffers () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
-         + [adobe. target. triggerview () - at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
-         + [adobe. target. trackevent ()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
-         + [Mboxcreate () - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
+         + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
+         + [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md)
+         + [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)
+         + [adobe.target.applyOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md)
+         + [adobe.target.triggerView() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md)
+         + [adobe.target.trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md)
+         + [mboxCreate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md)
          + [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)
          + [mboxDefine() e mboxUpdate() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxdefine-mboxupdate-atjs-1x.md)
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
@@ -95,7 +95,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [FAQ su at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
          + [Domande frequenti sulla mbox globale](c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
       + [Dettagli sulle versioni di at.js](c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-      + [Aggiornamento da. js 1. x a. js 2. x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
+      + [Aggiornamento da at.js 1.x a at.js 2.x](c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md)
       + [Cookie di at.js](c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md)
       + Implementazione di mbox.js {#mbox-implement}
          + [Panoramica sull’implementazione di mbox.js](c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)
@@ -133,6 +133,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Android: configurare l&#39;app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS: configurare l&#39;app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurare il tracciamento dei clic nel Compositore esperienza visivo mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
+         + [GHOST](/help/c-target-mobile-app/c-mobile-visual-experience-composer/use-adobe-launch-to-set-up-the-mobile-app-vec.md)
    + Lato server: implementare Target {#server-side}
       + [Lato server: panoramica sull’implementazione di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transizione dalle API legacy di Target ad Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
@@ -163,7 +164,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Conteggi gonfiati per visite e visitatori - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-inflated-visit-and-visitor-counts.md)
          + [Classificazioni - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md)
          + [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
-      + [Variabilità dei dati previste tra Target e Analytics durante l’utilizzo e non utilizzo A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
+      + [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
@@ -293,7 +294,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
          + [Panoramica sulla risoluzione dei problemi relativi al Compositore esperienza visivo](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
          + [Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Risoluzione dei problemi relativi al Compositore esperienza visivo ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-         + [Risoluzione dei problemi relativi a Enhanced Experience Composer (Compositore esperienza avanzato)](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
+         + [Risoluzione dei problemi relativi al Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Consentire contenuti misti nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Scenari di modifica delle pagine](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Estensione Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
@@ -312,7 +313,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Ricercare contenuti e creare raccolte avanzate](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Frammenti di esperienza AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
-+ Rapporti{#reports} 
++ Rapporti{#reports}
    + [Panoramica sui rapporti](c-reports/reports.md)
    + Impostazioni dei rapporti {#settings}
       + [Panoramica sulle impostazioni dei rapporti](c-reports/c-report-settings/report-settings.md)
@@ -366,7 +367,7 @@ source-git-commit: 9c139e43a49082888ab560d7da8ef423842311d3
       + [Integrare i Consigli con l’e-mail](c-recommendations/c-recommendations-faq/integrating-recs-email.md)
       + [Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations)](c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md)
       + [Confronto tra Recommendations Classic e le attività Consigli di Target Premium](c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md)
-   + [Documentazione Classic Classic](/help/c-recommendations/recommendations-classic-documentaton.md)
+   + [Documentazione di Recommendations Classic](/help/c-recommendations/recommendations-classic-documentaton.md)
 + Risolvere i problemi di Target {#troubleshoot}
    + [Risolvere i problemi di Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limiti](r-troubleshooting-target/target-limits.md)
