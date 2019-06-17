@@ -10,7 +10,7 @@ topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
 badge: premium
 translation-type: tm+mt
-source-git-commit: c6085fae6428cb837eed6eadd778140687348817
+source-git-commit: f689812658d45342f958629d02b74c252c7f0369
 
 ---
 
@@ -23,11 +23,9 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
 
    ![Crea attività: Automated Personalization (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Specificare il canale desiderato: web.
-
-   È possibile anche scegliere app per dispositivi mobili, e-mail, o altro/API.
-
 1. Per utilizzare il Compositore esperienza visivo (VEC), fai clic su **[!UICONTROL Visivo (impostazione predefinita)]**.
+
+   ![Crea attività di personalizzazione automatizzata, finestra di dialogo](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
    Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. Per [ulteriori informazioni, consultate Composer](/help/c-experiences/form-experience-composer.md) esperienza basato su modulo.
 
@@ -48,8 +46,6 @@ Il flusso di lavoro per le attività di Personalizzazione automatizzata è diver
    >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://wwww.adobe.com`] sono entrambi validi.
 
    La pagina con l’URL specificato viene visualizzata nel Compositore esperienza visivo.
-
-   ![Crea attività di personalizzazione automatizzata, finestra di dialogo](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
 1. Per assegnare un nome all’attività, fai clic sul campo Nome e digita il nome dell&#39;attività.
 
