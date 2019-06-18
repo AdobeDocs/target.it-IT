@@ -1,13 +1,13 @@
 ---
 description: Puoi creare un pubblico in base ai dettagli della rete.
 keywords: Targeting;rete;rete di target;isp;nome di dominio;velocità di connessione;isp target;nome di dominio target;velocità di connessione target
-seo-description: Puoi creare un pubblico in base ai dettagli della rete.
-seo-title: Rete
+seo-description: Potete creare audience in Adobe Target in base ai dettagli di rete.
+seo-title: Create audience in Adobe Target in base ai dettagli di rete.
 solution: Target
 title: Rete
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -19,12 +19,9 @@ Puoi creare un pubblico in base ai dettagli della rete.
 1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
 1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Rete]**.
-
-   ![](assets/target_network.png)
-
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
-   * **ISP: **un ISP è un’organizzazione che fornisce accesso a Internet ai suoi abbonati, di solito a una tariffa mensile o annuale. Molti ISP forniscono servizi aggiuntivi, come web hosting o e-mail. Il campo ISP è un ISP commerciale o un&#39;altra entità come un business o un istituto scolastico.
+   * **ISP:** un ISP è un&#39;organizzazione che fornisce accesso a Internet ai suoi abbonati, di solito ad una tariffa mensile o annuale. Molti ISP forniscono servizi aggiuntivi, come web hosting o e-mail. Il campo ISP è un ISP commerciale o un&#39;altra entità come un business o un istituto scolastico.
 
       Di seguito sono riportati alcuni esempi di ISP popolari negli Stati Uniti:
 
@@ -48,17 +45,19 @@ Puoi creare un pubblico in base ai dettagli della rete.
       >
       >Quando esegui il targeting basato su ISP, utilizza il nome ISP, non il nome comunemente diffuso. Assicurati di creare la regola senza distinzione tra maiuscole e minuscole o di utilizzare sempre le minuscole.
 
-      Se desideri vedere altri ISP a cui si fa riferimento in questa tabella, contatta il servizio clienti con il tuo suggerimento.
+      Puoi verificare l&#39;ISP e i valori dei nomi di dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `themboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
 
-      Puoi verificare l&#39;ISP e i valori dei nomi di dominio. [https://www.whoismyisp.org](https://www.whoismyisp.org) è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `themboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
-
-   * **Nome di dominio: **è il nome di dominio per l’indirizzo IP del visitatore. Non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. Di solito è molto simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
+   * **Nome di dominio:** è il nome di dominio per l&#39;indirizzo IP del visitatore. Non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. Di solito è molto simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
    * **Velocità di connessione:** questa è la velocità di connessione del visitatore a Internet. Le opzioni includono: banda larga, cavo, dialup, mobile, oc3, oc12, satellite, t1, t2, wireless, e xdsl.
 
       Questo campo si basa sul tipo di connessione e non sulla velocità effettiva. [!DNL Target] non può determinare la velocità di connessione esatta. Il tipo di connessione a banda larga viene utilizzato quando non è presente alcuna indicazione di altri tipi di connessione e quindi non è possibile scegliere un tipo specifico.
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
+
+L&#39;illustrazione seguente mostra un pubblico che esegue il targeting dei visitatori con AT &amp; T con una velocità di connessione Mobile [!UICONTROL ].
+
+![Destinazione di rete](assets/target_network.png)
 
 ## Video di formazione: Creazione di tipi di pubblico
 
@@ -67,4 +66,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
