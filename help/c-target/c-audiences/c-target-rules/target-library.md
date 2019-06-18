@@ -6,8 +6,8 @@ seo-title: Libreria di Target
 solution: Target
 title: Libreria di Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -26,13 +26,13 @@ I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di p
 1. Dai un nome al pubblico.
 1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Libreria di Target]**.
 
-   ![](assets/target_library.png)
+   ![Libreria di Target](assets/target_library.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi seleziona una regola di targeting predefinita.
 
    Alcune regole di targeting predefinite sono Sistema operativo Windows, Dispositivo tablet, Browser Safari, Visitatori di ritorno e Provenienti da Google.
 
-   Il pubblico predefinito “Dispositivo tablet” è già idoneo quando l’agente utente contiene una delle seguenti stringhe (alcune delle quali sono numeri di modello di dispositivi). Non devi creare regole personalizzate di targeting per questi dispositivi.
+   Il pubblico predefinito «Tablet Device» si qualifica già quando l&#39;agente utente contiene una delle stringhe seguenti (alcune dei quali sono numeri di modello). Non devi creare regole personalizzate di targeting per questi dispositivi.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 e Tablet PC.
 
@@ -46,4 +46,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
