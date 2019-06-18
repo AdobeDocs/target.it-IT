@@ -7,8 +7,8 @@ solution: Target
 title: Creare tipi di pubblico in Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -27,13 +27,13 @@ Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del p
 
 È possibile combinare entrambi gli operatori booleani per creare regole complesse. Tuttavia, gli operatori allo stesso livello di regola devono corrispondere. L&#39;interfaccia utente applica automaticamente l&#39;operatore corretto.
 
-Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome o Firefox su un computer Windows:
+Ad esempio, la seguente regola esegue il targeting dei visitatori che usano Chrome *o* Firefox su un computer Windows:
 
-![](assets/audience_create.png)
+![Creare audience](assets/audience_create.png)
 
 >[!NOTE]
 >
->Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente il browser x e il browser y.
+>Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile visitare contemporaneamente una pagina utilizzando Chrome *e* Firefox.
 
 ## Creare un nuovo pubblico
 
@@ -66,4 +66,4 @@ Questo video include informazioni su come creare i tipi di pubblico.
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
