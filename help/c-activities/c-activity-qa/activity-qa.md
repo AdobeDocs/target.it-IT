@@ -7,8 +7,8 @@ solution: Target
 title: Controllo di qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -31,11 +31,11 @@ Il controllo di qualità delle attività permette di testare completamente le at
 
 1. Dalla pagina [!UICONTROL Panoramica] di un’attività (tutti i tipi eccetto Personalizzazione automatica), fai clic sul collegamento **[!UICONTROL Controllo di qualità attività]**.
 
-   ![](assets/qa_link.png)
+   ![Collegamento attività QA](assets/qa_link.png)
 
 1. Configura le seguenti impostazioni:
 
-   ![](assets/qa_link_config.png)
+   ![Opzioni di configurazione Collegamenti QA](assets/qa_link_config.png)
 
    * **Fai corrispondere le regole di pubblico per vedere le esperienze:** in alcuni casi puoi voler verificare che la corrispondenza del pubblico funzioni. In altri, potresti voler controllare solo come si presenta un’attività. Se questa impostazione viene attivata, i soggetti del test devono soddisfare i requisiti di targeting per risultare idonei a visualizzare le esperienze. Per le attività di targeting di esperienza (XT), viene fornito un singolo URL di attività. Se il visitatore soddisfa le regole di targeting, l’esperienza verrà visualizzata.
 
