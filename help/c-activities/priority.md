@@ -7,8 +7,8 @@ solution: Target
 title: Priorità
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -91,7 +91,7 @@ Se l’azienda utilizza mbox diverse da mbox globali nel compositore basato su m
 >
 >I valori di priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999. Per ulteriori informazioni, consulta [Impostazioni attività](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Due campagne di Target Classic utilizzano mbox non globali **
+**Due campagne di Target Classic utilizzano mbox non globali**
 
 * Campagna 1: homePageHero, offer1, priorità alta
 * Campagna 2: homePageHero, offer2, priorità bassa
@@ -139,4 +139,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381)
+>[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
