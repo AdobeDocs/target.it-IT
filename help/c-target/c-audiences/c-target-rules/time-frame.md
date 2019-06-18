@@ -6,8 +6,8 @@ seo-title: Intervallo temporale
 solution: Target
 title: Intervallo temporale
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -36,11 +36,11 @@ Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](../../.
 
 1. (Condizionale) Fai clic su **[!UICONTROL Ripartizione settimanale e giornaliera]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
 
-   ![](assets/week_and_day_parting.png)
+   ![Settimana e Analisi giorno](assets/week_and_day_parting.png)
 
    Puoi utilizzare le opzioni Ripartizione settimanale e giornaliera, ad esempio, per mostrare ai visitatori lʼopzione “Avvia chat” solo durante i giorni e gli orari in cui è attivo il call center.
 
-   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Se necessario, fai clic su [!UICONTROL Aggiungi altro] per specificare altri pattern.
+   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Se necessario, fai clic su **[!UICONTROL Aggiungi altro]per specificare altri pattern.**
 
    >[!NOTE]
    >
@@ -59,4 +59,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
