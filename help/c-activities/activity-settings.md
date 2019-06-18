@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Impostazioni delle attività
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 924964e32cf86d1b58553be61b209d2c1bef9a97
 
 ---
 
@@ -57,7 +57,7 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Test multivariato](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Consigli](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività**
+## Video di formazione: Impostazioni attività
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -67,4 +67,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
