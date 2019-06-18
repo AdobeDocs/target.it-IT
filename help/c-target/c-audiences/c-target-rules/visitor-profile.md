@@ -1,21 +1,21 @@
 ---
-description: Puoi indirizzare l’attività ai visitatori che soddisfano parametri di profilo specifici.
+description: Creare audience per eseguire il targeting dei visitatori che soddisfano parametri di profilo specifici.
 keywords: profilo visitatore;targeting profilo visitatore
-seo-description: Puoi indirizzare l’attività ai visitatori che soddisfano parametri di profilo specifici.
+seo-description: Create audience in Adobe Target per eseguire il targeting dei visitatori che soddisfano parametri di profilo specifici.
 seo-title: Profilo visitatore
 solution: Target
-title: Profilo visitatore
+title: Creare audience per eseguire il targeting dei profili dei visitatori utilizzando Adobe Target
 topic: Premium
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
 
 # Profilo visitatore{#visitor-profile}
 
-Puoi indirizzare l’attività ai visitatori che soddisfano parametri di profilo specifici.
+Creare audience per eseguire il targeting dei visitatori che soddisfano parametri di profilo specifici.
 
 1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
@@ -50,4 +50,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
