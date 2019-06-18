@@ -7,8 +7,8 @@ solution: Target
 title: Pagine del sito
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 ---
 
@@ -25,7 +25,7 @@ Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specif
 1. Dai un nome al pubblico.
 1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Pagine del sito]**.
 
-   ![](assets/target_site_pages.png)
+   ![Pubblico delle pagine del sito](assets/target_site_pages.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
@@ -64,4 +64,4 @@ Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392)
+>[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
