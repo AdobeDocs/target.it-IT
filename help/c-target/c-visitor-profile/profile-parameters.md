@@ -1,35 +1,33 @@
 ---
-description: Gli attributi del profilo sono parametri specifici del visitatore. Il profilo del visitatore memorizza questi attributi fornendo così informazioni su di lui che puoi usare nelle tue campagne.
+description: Gli attributi del profilo sono parametri specifici del visitatore. Questi attributi vengono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività di Adobe Target.
 keywords: script di profilo;attributi degli script di profilo;procedure consigliate per gli script di profilo;debug;debugging
-seo-description: Gli attributi del profilo sono parametri specifici del visitatore. Il profilo del visitatore memorizza questi attributi fornendo così informazioni su di lui che puoi usare nelle tue campagne.
-seo-title: Attributi del profilo
+seo-description: Gli attributi del profilo sono parametri specifici del visitatore. Questi attributi vengono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività di Adobe Target.
+seo-title: Attributi di profilo in Adobe Target
 solution: Target
 title: Attributi del profilo
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
 
 # Attributi del profilo{#profile-attributes}
 
-Gli attributi del profilo sono parametri specifici del visitatore. Il profilo del visitatore memorizza questi attributi fornendo così informazioni su di lui che puoi usare nelle tue campagne.
+Gli attributi di profilo sono parametri specifici di un visitatore. Questi attributi sono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività.
 
-## Attributi del profilo {#concept_01A30B4762D64CD5946B3AA38DC8A201}
-
-Gli attributi del profilo sono parametri specifici del visitatore. Il profilo del visitatore memorizza questi attributi fornendo così informazioni su di lui che puoi usare nelle tue campagne.
-
-Quando il visitatore naviga o ritorna per un&#39;altra sessione, puoi indirizzare il contenuto o registrare le informazioni per il filtro dei segmenti tramite gli attributi del profilo salvati.
+Quando un visitatore sfoglia il tuo sito Web o quando il visitatore ritorna per un&#39;altra sessione, gli attributi del profilo salvati possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtro dei segmenti.
 
 Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Script di profilo]**.
+
+![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
 Sono disponibili i seguenti tipi di attributi di profilo:
 
 | Tipo di parametro | Descrizione |
 |--- |--- |
-| Mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>Nota: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi [Aggiornamento profilo nella documentazione delle API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi [Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definito direttamente con uno snippet di codice JavaScript. Possono memorizzare i totali correnti come il denaro totale speso dal consumatore ed è eseguito dietro ogni richiesta mbox. Consulta Attributi degli script di profilo qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -56,7 +54,7 @@ Per copiare uno script di profilo esistente, passa il mouse sullo script desider
 
 Ora puoi modificare il pubblico per crearne uno simile.
 
-![](assets/profile-script.png)
+![Crea script profilo, finestra di dialogo](assets/profile-script.png)
 
 Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di posizione. Quando viene ricevuta una richiesta di posizione, Target determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, tiene traccia del successo dell’attività ed esegue eventuali script di profilo rilevanti. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito.
 
@@ -72,7 +70,7 @@ if (mbox.name == 'Track_Interest') {
 
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
-* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori che verranno ricevuti durante la campagna o il test.
+* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Corrispondenza del caso dei parametri e dei valori che riceverete durante l&#39;attività o il test.
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
@@ -128,7 +126,7 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
 * Non superare 2.000 istruzioni JavaScript. Target ha un limite di 2.000 istruzioni JavaScript per ogni script, ma è difficile calcolarle con la semplice lettura manuale del codice JavaScript. Ad esempio, Rhino tratta tutte le chiamate di funzione e le chiamate “nuove” come 100 istruzioni. Inoltre, la dimensione dei dati immessi, ad esempio i valori URL, può influire sul conteggio delle istruzioni.
 * Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Contare il numero di istruzioni non è ovvio, ma è importante notare che gli script superiori ai 2 KB vengono disattivati automaticamente. Non esiste un limite al numero di script eseguibili, ma ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
 * In caso di esito negativo, inserisci lo script in un try/catch.
-* Per ulteriori informazioni, consulta la documentazione sul motore JS Rhino: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Per ulteriori informazioni, consulta la documentazione del motore JS Rhino: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Script di profilo per testare attività reciprocamente esclusive {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
@@ -344,4 +342,4 @@ Questo video include informazioni sull&#39;utilizzo e sulla creazione degli scri
 * Utilizzare il menu Token disponibile per accedere alle opzioni disponibili
 * Abilitare e disabilitare gli script di profilo
 
->[!VIDEO](https://video.tv.adobe.com/v/17394)
+>[!VIDEO](https://video.tv.adobe.com/v/17394?captions=ita)
