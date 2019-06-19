@@ -1,21 +1,21 @@
 ---
-description: La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere mirata e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+description: La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 keywords: affinità;affinità tra categorie
-seo-description: La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere mirata e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
-seo-title: Affinità tra categorie
+seo-description: La funzionalità di affinità categoria in Adobe Target acquisisce automaticamente le categorie visitate da un utente, quindi calcola l'affinità dell'utente per la categoria in modo che possa essere utilizzata come destinazione e segmentata. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+seo-title: Utilizzo dell'affinità di categoria in Adobe Target
 solution: Target
 title: Affinità tra categorie
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
 
 # Affinità tra categorie{#category-affinity}
 
-La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere mirata e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 
 ## Passaggio di informazioni sull’affinità tra categorie in Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
@@ -52,9 +52,9 @@ L’algoritmo di affinità tra categorie funziona come segue:
 * Se fai clic su una sesta categoria, la categoria con il punteggio inferiore tra le prime cinque categorie viene eliminata dal calcolo
 * Alla fine della sessione, tutti i valori vengono divisi per 2
 
-### Esempio: algoritmo di affinità categoria
+### Esempio: algoritmo di affinità tra categorie
 
-Ad esempio, visualizzando la `mens-clothing` categoria, then `accessories`, then `jewelry``accessories` then in a session results in affinities of:
+Ad esempio, visualizzando la categoria `mens-clothing`, quindi `accessories`, quindi `jewelry`, quindi `accessories` di nuovo nei risultati di sessione in affinità di:
 
 * `accessories`: 9 (+5 – 1 + 5)
 
@@ -62,39 +62,39 @@ Ad esempio, visualizzando la `mens-clothing` categoria, then `accessories`, then
 
 * `jewelry`: 5 (+5)
 
-Quando la sessione termina e l&#39;utente torna in secondo piano al sito, i punteggi vengono dimezzati:
+Quando la sessione termina e l’utente ritorna al sito in un secondo tempo, i punteggi vengono dimezzati:
 
-* `accessories`: 4.5 (9/2)
+* `accessories`: 4,5 (9/2)
 
 * `mens-clothing`: 4 (8/2)
 
-* `jewelry`: 2.5 (5/2)
+* `jewelry`: 2,5 (5/2)
 
-Supponendo che l&#39;utente visualizzi quindi, nell&#39;ordine `jewelry``accessories`, `beauty``shoes`e `womens-clothing`:
+Supponendo che l’utente visualizzi quindi, nell’ordine `jewelry`, `accessories`, `beauty`, `shoes` e `womens-clothing`:
 
-* `accessories`: 6.5 (4.5 + 5 – 1 – 1 - 1)
+* `accessories`: 6,5 (4,5 + 5 – 1 – 1 – 1)
 
 * `womens-clothing`: 5 (+5)
 
-* `jewelry`: 4.5 (2.5 + 5 – 1 – 1 - 1)
+* `jewelry`: 4,5 (2,5 + 5 – 1 – 1 – 1)
 
 * `shoes`: 4 (+5 – 1)
 
-* `beauty`: 3 (+5 – 1 - 1)
+* `beauty`: 3 (+5 – 1 – 1)
 
-* `mens-clothing` viene rilasciato dopo il clic finale della `womens-clothing` categoria con punteggio inferiore con un punteggio pari a 1 (da 4 a 1 - 1 - 1 -)
+* `mens-clothing` viene rilasciato dopo il clic finale sulla categoria `womens-clothing` con punteggio inferiore, con un punteggio pari a 1 (4 – 1 – 1 – 1)
 
-Quando la sessione termina e l&#39;utente torna in secondo piano al sito, i punteggi vengono dimezzati:
+Quando la sessione termina e l’utente ritorna al sito in un secondo tempo, i punteggi vengono dimezzati:
 
-* `accessories`: 3.3 (6.5/2)
+* `accessories`: 3,3 (6,5/2)
 
-* `womens-clothing`: 2.5 (5/2)
+* `womens-clothing`: 2,5 (5/2)
 
-* `jewelry`: 2.3 (4.5/2)
+* `jewelry`: 2,3 (4,5/2)
 
 * `shoes`: 2 (4/2)
 
-* `beauty`: 1.5 (3/2)
+* `beauty`: 1,5 (3/2)
 
 ## Utilizzare Affinità tra categorie per il targeting {#concept_5750C9E6C97A40F8B062A5C16F2B5FFC}
 
@@ -117,9 +117,13 @@ Questa sezione contiene le seguenti informazioni:
 1. Fai clic su **[!UICONTROL + Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**.
 1. Nellʼelenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona **[!UICONTROL Affinità tra categorie]**.
 
-   ![](assets/affinity.png)
+   ![Profilo visitatore &gt; Affinità categoria](assets/affinity.png)
 
 1. Seleziona la categoria desiderata:
+
+   ![Affinità categoria &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+
+   Le categorie includono:
 
    * Categoria preferita
    * Prima categoria
