@@ -8,7 +8,7 @@ title: Combinare più tipi di pubblico
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
@@ -25,11 +25,11 @@ Secondo un altro esempio, è possibile indirizzare tutti i clienti fidelizzati i
 
 È possibile creare e utilizzare il pubblico combinato in varie posizioni in tutta l&#39;interfaccia utente di [!DNL Target]. 
 
-## Creare un pubblico combinato durante la creazione di un&#39;attività {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Creazione di un pubblico combinato durante la creazione di un&#39;attività {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] dell&#39;attività durante il flusso di lavoro guidato in tre passaggi.
 
-1. Durante la creazione di un&#39; [attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona **[!UICONTROL Modifica pubblico]**, quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Durante la creazione di un&#39; [nella](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03)pagina **[!UICONTROL Target]** , fate clic sulle tre ellissi verticali, quindi fate clic **[!UICONTROL su Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
@@ -47,11 +47,11 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
    1. È possibile utilizzare la funzionalità di trascinamento della selezione per aggiungere il pubblico all&#39;interno di una sezione esistente come modulo di livello 2. Per aggiungere un modulo di livello 1, seleziona la casella di controllo accanto al pubblico desiderato, quindi fai clic su **[!UICONTROL Aggiungi a regole]**.
 
-      Ad esempio, supponi che nell&#39;esempio precedente, ora desideri includere gli utenti di Firefox nel pubblico combinato. Cerca e trascina il pubblico “Browser: Firefox” nella casella “Browser: Safari” sul lato destro, come nell&#39;esempio seguente:
+      Ad esempio, nel precedente esempio, desiderate includere gli utenti Safari nel pubblico combinato. Cercate e trascinate il pubblico «Browser Safari» nella casella «Browser Firefox» a destra, come nell&#39;esempio seguente:
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Nota che l&#39;operatore tra i due destinatari del tipo di browser è “AND” (E). Seleziona l&#39;elenco a discesa e cambialo in “OR” (O) per creare un nuovo pubblico combinato per i nuovi visitatori che utilizzano Safari o Firefox. Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente il browser x e il browser y.
+      Nota che l&#39;operatore tra i due destinatari del tipo di browser è “AND” (E). Selezionate l&#39;elenco a discesa E modificatelo in &quot;OR&quot; per creare un nuovo pubblico combinato per i nuovi visitatori utilizzando Firefox o Safari. Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile visitare una pagina utilizzando contemporaneamente Firefox e Safari.
 
       >[!NOTE]
       >
@@ -65,7 +65,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
       ![](assets/combine_multiple_audiences3b.png)
 
-      Ad esempio, per escludere i visitatori di San Francisco da nuovi visitatori, è possibile trascinare il pubblico di San Francisco nella casella, come illustrato di seguito:
+      Ad esempio, per escludere i visitatori degli Stati Uniti dai nuovi visitatori, puoi trascinare il mercato: Audience statunitense nella casella, come mostrato di seguito:
 
       ![](assets/combine_multiple_audiences3b2.png)
 
@@ -77,7 +77,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
 1. Fornisci un nome descrittivo per il pubblico combinato, quindi fai clic su **[!UICONTROL Salva]**.
 
-## Creare un pubblico combinato per l&#39;utilizzo in targeting metrico {#section_A42E795AFCBD4575809C5942039910F0}
+## Creare un pubblico combinato da usare nel targeting delle metriche {#section_A42E795AFCBD4575809C5942039910F0}
 
 Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e impostazioni] dell&#39;attività da utilizzare nel targeting metrico. Ad esempio, per creare un targeting basato sulla conversione utilizzando un pubblico combinato:
 
@@ -103,7 +103,7 @@ Puoi creare un pubblico combinato specifico nella pagina dell&#39;attività [!UI
 
 1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
 
-## Creare un pubblico combinato durante la modifica di un’attività {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Creazione di un pubblico combinato durante la modifica di un&#39;attività {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attività esistente.
 
@@ -113,7 +113,12 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    Fai clic sull&#39;attività desiderata per aprirla, quindi fai clic su **[!UICONTROL Modifica attività]**.
 
-1. Fai clic sull’icona a forma di ruota dentata &gt; **[!UICONTROL Tipi di pubblico]** &gt; **[!UICONTROL Più tipi di pubblico]**.
-1. Fai clic sull&#39;icona altre opzioni (tre puntini di sospensione verticali) accanto al pubblico corrente dell&#39;attività, quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
-1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
+1. Fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Audience]** &gt; **[!UICONTROL Audience multiple]**.
 
+   ![Configura &gt; Audience &gt; Audience multiple](/help/c-target/assets/combine_multiple_audiences7.png)
+
+1. Fai clic sull&#39;icona altre opzioni (tre puntini di sospensione verticali) accanto al pubblico corrente dell&#39;attività, quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
+
+   ![Cambia pubblico](/help/c-target/assets/combine_multiple_audiences8.png)
+
+1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
