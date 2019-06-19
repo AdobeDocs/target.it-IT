@@ -2,13 +2,13 @@
 description: Elenco di modifiche importanti apportate alla documentazione di Target.
 keywords: registro modifiche documentazione target;aggiornamenti documentazione
 seo-description: Elenco di modifiche importanti apportate alla documentazione di Target.
-seo-title: Modifiche alla documentazione
+seo-title: Modifiche alla documentazione nella documentazione di prodotto di Adobe Target
 solution: Target
 title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 
 ---
 
