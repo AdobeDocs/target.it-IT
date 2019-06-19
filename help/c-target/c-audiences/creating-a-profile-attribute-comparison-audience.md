@@ -1,21 +1,21 @@
 ---
-description: Definisci un pubblico per confrontare due attributi di profilo per la tua libreria di tipi di pubblico o in un pubblico per sola attività. L'uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
+description: Definite un pubblico per confrontare due attributi di profilo per la libreria Audience Target o in un pubblico di solo attività. L'uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 keywords: pubblico;propensione;attributo di profilo;confrontare;confronto;creare pubblico;creazione di pubblico
-seo-description: Definisci un pubblico per confrontare due attributi di profilo per la tua libreria di tipi di pubblico o in un pubblico per sola attività. L'uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
-seo-title: Creare un pubblico per il confronto degli attributi di profilo
+seo-description: Definite un pubblico per confrontare due attributi di profilo per la libreria Audience Target o in un pubblico di solo attività. L'uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
+seo-title: Creare un pubblico per il confronto degli attributi di profilo in Adobe Target
 solution: Target
 title: Creare un pubblico per il confronto degli attributi di profilo
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
 
 # Creare un pubblico per il confronto degli attributi di profilo{#create-a-profile-attribute-comparison-audience}
 
-Definisci un pubblico per confrontare due attributi di profilo per la tua libreria di tipi di pubblico o in un pubblico per sola attività. L&#39;uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
+Define an audience to compare two profile attributes for your [Audience library](/help/c-target/c-audiences/audiences.md) or in an [activity-only audience](/help/c-target/creating-activity-only-audience.md). L&#39;uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 
 >[!NOTE]
 >
@@ -34,22 +34,22 @@ Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da p
 
 Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
-## Crea un criterio di confronto per gli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
+## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
 1. Fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]** &gt; **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**.
 1. Nell&#39;elenco a discesa **[!UICONTROL Profilo visitatore], seleziona un attributo:**
 
-   ![](assets/propensity_score_1.png)
+   ![Propensity Score 1 (Punteggio tendenza)](assets/propensity_score_1.png)
 
 1. Scegli il tuo valutatore:
 
-   ![](assets/propensity_score_2.png)
+   ![Propensity Score 2 (Punteggio tendenza)](assets/propensity_score_2.png)
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Scegli il tipo di confronto]**, scegli **[!UICONTROL Attributo]**.
 
    Il tipo di confronto “valore statico” consente di confrontare l&#39;attributo del profilo del visitatore in base a valori specifici.
 
-   ![](assets/propensity_score_3.png)
+   ![Propensity Score 3 (Punteggio tendenza)](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
@@ -57,12 +57,10 @@ Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](../
 
 1. Scegli l&#39;attributo da confrontare con l&#39;attributo iniziale.
 
-   Ad esempio, se il punteggio dell&#39;attributo “Cucina” per un visitatore specifico è maggiore del punteggio di “Decorazione”, tale visitatore verrebbe incluso in questo pubblico.
-
    ![](assets/propensity_score_4.png)
 
 ## Video di formazione {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Per ulteriori informazioni e uno scenario in cui potresti utilizzare questa funzione, guarda il seguente video:
 
->[!VIDEO](https://video.tv.adobe.com/v/23218/)
+>[!VIDEO](https://video.tv.adobe.com/v/23218/?captions=ita)
