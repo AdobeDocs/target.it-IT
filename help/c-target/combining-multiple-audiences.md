@@ -2,13 +2,13 @@
 description: Combina al volo più tipi di pubblico (tra cui i tipi di pubblico di Adobe Experience Cloud e di Target) per creare un pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
 keywords: pubblico;regole del pubblico;combinare il pubblico;esclusione;aggiungere esclusione;escludere;combinazione di tipi di pubblico;pubblico adhoc;pubblico ad hoc
 seo-description: Combina al volo più tipi di pubblico (tra cui i tipi di pubblico di Adobe Experience Cloud e di Target) per creare un pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
-seo-title: Combinare più tipi di pubblico
+seo-title: Combinare più audience in Adobe Target
 solution: Target
 title: Combinare più tipi di pubblico
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
 
 ---
 
@@ -23,13 +23,13 @@ Secondo un altro esempio, è possibile indirizzare tutti i clienti fidelizzati i
 
 È possibile combinare fino a dieci gruppi di pubblico utilizzando gli operatori AND/OR (E/O).
 
-È possibile creare e utilizzare il pubblico combinato in varie posizioni in tutta l&#39;interfaccia utente di [!DNL Target]. Questa sezione contiene le seguenti informazioni:
+È possibile creare e utilizzare il pubblico combinato in varie posizioni in tutta l&#39;interfaccia utente di [!DNL Target]. 
 
 ## Creare un pubblico combinato durante la creazione di un&#39;attività {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] dell&#39;attività durante il flusso di lavoro guidato in tre passaggi.
 
-1. Durante la creazione di un’ [attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona **[!UICONTROL Modifica pubblico]**, quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Durante la creazione di un&#39; [attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona **[!UICONTROL Modifica pubblico]**, quindi su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
