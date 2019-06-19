@@ -8,7 +8,7 @@ title: Attributi del profilo
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
 
 ---
 
@@ -81,11 +81,11 @@ Ad esempio, se si passa il cursore su uno script di profilo nell&#39;Elenco scri
 
 La scheda [!UICONTROL Informazioni script] contiene le seguenti informazioni: Nome, Stato, Tipo token, ID script, Sostituisci registro e Descrizione.
 
-![](assets/profile_script_info_card.png)
+![Scheda Informazioni script profilo](assets/profile_script_info_card.png)
 
 La scheda [!UICONTROL Utilizzo script] elenca le attività (e aree di lavoro) relative allo script di profilo selezionato.
 
-![](assets/profile_script_info_card_usage_tab.png)
+![Scheda Informazioni script profilo &gt; scheda Uso script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
