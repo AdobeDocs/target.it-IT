@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/it/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -269,7 +269,7 @@ source-git-commit: d5edbc350f74c242fe37e822f53d4dbf2b01375d
       + [Durata del profilo del visitatore](c-target/c-visitor-profile/visitor-profile-lifetime.md)
       + [Attributi del profilo](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinità tra categorie](c-target/c-visitor-profile/category-affinity.md)
-      + [Attributi del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
+      + [Attributi del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md).
       + [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossario di profili e variabili](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Domande frequenti su destinazioni e pubblico {#faq-audiences}
