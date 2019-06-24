@@ -7,8 +7,8 @@ solution: Target
 title: Opzioni del Compositore esperienza visivo
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -54,7 +54,7 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 **Nota**: questa opzione non è disponibile se è impostata un’immagine di sfondo.
 
-#### Stili
+#### Stili {#styles}
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
@@ -73,6 +73,20 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 >[!NOTE]
 >
 >Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi usare il menu Stili, come spiegato qui.
+
+* **Informazioni di base**
+
+   Cambiate il colore di sfondo e l&#39;immagine.
+
+   * Colore (specifica il codice del colore o utilizza il selettore del colore)
+   * Immagine (seleziona un&#39;immagine dal selettore immagini)
+   * Origine immagine (specificate un URL esterno)
+   * Allegato
+      * Fate clic sull&#39;elenco a discesa superiore per selezionare scorrimento, fisso o locale
+      * Fate clic sull&#39;elenco a discesa inferiore per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round
+   * Clip
+      * Fate clic sull&#39;elenco a discesa superiore per selezionare il bordo, la casella di spaziatura, la casella di contenuto o il testo.
+      * Fate clic sull&#39;elenco a discesa inferiore per selezionare audio o audio automatico
 
 * **Composizione tipografica**
 
@@ -100,7 +114,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * Valore (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
    Il margine supporta valori positivi e negativi.
 
-   Target supporta anche altre unità di misura, come rem, pc, em ecc. Per ulteriori informazioni su queste unità, consulta l’articolo su [consigli e trucchi per i fogli di stile web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target supporta anche altre unità di misura, come rem, pc, em ecc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Spaziatura**
 
@@ -110,7 +124,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La spaziatura supporta valori di larghezza a partire da 0.
 
-   Target supporta [anche altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em ecc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Bordo**
 
@@ -123,11 +137,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * Spessore del bordo (trascina il cursore per selezionare lo spessore del bordo o specifica lo spessore in pixel)
    Il bordo supporta valori di spessore a partire da 0.
 
-   Target supporta [anche altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em ecc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Posizione**
 
-   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare la posizione superiore, inferiore, sinistra, destra e l’[indice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) dell’elemento.
+   Sposta l’elemento selezionato dalla posizione corrente. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -142,7 +156,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * Valore (trascina il cursore per posizionare l’elemento o specifica il numero di pixel a cui spostare l’elemento)
    La posizione supporta valori positivi e negativi.
 
-   Target supporta [anche altre unità di misura](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em ecc.
+   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Dimensioni**
 
