@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
 # Modifiche alla documentazione{#documentation-changes}
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 19.6.1 (26 giugno 2019) {#tgt-19-6-1}
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 26 giugno 2019 | [Opzioni esperienza visiva](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
+|  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nuova sezione: &quot; Impostazioni di consegna pagina per SPA VEC. &quot; |
+|  | [Criteri cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nuovo argomento. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 maggio 2019) {#tgt-19-5-1}
 
@@ -31,10 +41,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 7 giugno 2019 | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md#default) | Aggiunta nuova sezione: &quot; Scenario: Create una progettazione predefinita di Recommendations da 4 x 2 con logica di controllo null. &quot; |
 |  | [Video di formazione su Adobe Target Standard e Premium](/help/c-intro/target-standard-premium-training-videos.md#tutorials) | Collegamento aggiornato al nuovo sito Esercitazioni di Adobe Target. |
 |  | [iOS: configurare l&#39;app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md) | Testo e snippet di codice aggiornati. |
-| 6 giugno 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Aggiornamento della descrizione del `options > page` parametro. |
+| 6 giugno 2019 | [adobe.target.triggerView (viewName, options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) | Updated the description for the `options > page` parameter. |
 |  | [Primi passaggi per l&#39;amministratore](/help/administrating-target/start-target.md) | Aggiornamento dell&#39;intero articolo. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiunte note preliminari sulla versione per il rilascio di Target 19.6.1. |
-| 5 giugno 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Aggiunta della nuova [sezione Risoluzione dei problemi](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) . |
+| 5 giugno 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
 |  | [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Aggiornate informazioni sulla distribuzione di at. js utilizzando Adobe Launch, che è il metodo di distribuzione preferito. |
 |  | [Concetti chiave di Target](/help/c-intro/target-key-concepts.md) | Modifiche di testo minori. |
 | 3 giugno 2019 | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
@@ -51,7 +61,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 30 maggio 2019 | [Accedere a Target da Adobe Experience Cloud](/help/c-intro/target-access-from-mac.md#doc-lang) | La documentazione è ora disponibile in lingua cinese semplificato. |
 |  | [Download di dati in un file CSV](/help/c-reports/downloading-data-in-csv-file.md) | Aggiunta nuova caratteristica nella sezione Dettagli ordine di esportazione a CSV: &quot; I tipi di pubblico applicati nell&#39;interfaccia utente di reporting di Target non vengono trasferiti al rapporto di download. &quot; |
 |  | [Impostazioni dei rapporti](/help/c-reports/c-report-settings/report-settings.md) | Screenshots aggiornate. |
-| 29 maggio 2019 | [Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md) | Testo aggiornato per chiarire la differenza `user.categoryId` tra e `entity.categoryId`. |
+| 29 maggio 2019 | [Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md) | Updated text to clarify the difference between `user.categoryId` and `entity.categoryId`. |
 |  | [Migrare da mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md) | Sezione riposta a questo argomento: Vantaggi di at. js. |
 |  | [Domande frequenti su at.js ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Sezione riposta a questo argomento: &quot; Qual è l&#39;impatto di at. js e di mbox. js in fase di caricamento della pagina? &quot; |
 |  | [Trasmettere i dati dinamici nelle offerte](/help/c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md) | Sintassi corretta nella riga Comportamento passato. |
