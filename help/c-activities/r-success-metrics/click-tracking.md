@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Tracciamento dei clic
 topic: Standard
 uuid: 4a8fbb23-93d8-49f3-aca3-dbbdd6da0178
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
 
 ---
 
@@ -22,7 +22,7 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 >
 >Il tracciamento dei clic non è supportato nella mbox globale di destinazione quando viene utilizzata come posizione in un’attività basata su modulo.
 
-## Impostazione del tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
+## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Quando imposterai gli obiettivi dell&#39;attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
 1. Per eseguire tale azione, seleziona **[!UICONTROL Scegli un elemento]**, quindi fai clic su **[!UICONTROL Seleziona elementi]**.
@@ -36,6 +36,32 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 1. Fai clic sul segno di spunta nella parte superiore dello schermo per salvare le selezioni.
 
 Quando un partecipante all&#39;attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
+
+## Selected Elements panel {#selected-elements}
+
+For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+
+![Pannello Elementi selezionati](/help/c-activities/r-success-metrics/assets/selected-elements.png)
+
+There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
+
+| Azione | Descrizione |
+| --- | --- |
+| Informazioni | Visualizza il tipo di elemento e il percorso DOM completo del selettore. |
+| Modifica | Consente di modificare il selettore CSS. |
+| Elimina | Elimina l&#39;elemento. |
+
+### Aggiungi elemento
+
+Se conoscete già il percorso DOM del selettore, potete aggiungerlo manualmente facendo clic sull&#39;icona più (+) nella parte superiore del pannello.
+
+![Icona Aggiungi elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
+
+### A comparsa Elementi selezionati
+
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. L&#39;elenco contiene il percorso DOM completo per l&#39;elemento che consente di convalidare l&#39;utilizzo dell&#39;elemento selezionato per il monitoraggio dei clic.
+
+![Collegamento a Elements selezionato](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Considerazioni {#considerations}
 
@@ -58,7 +84,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    | Carattere | Descrizione |
    |---|---|
-   | # | Cancelletto o hash |
+   | # | Cancelletto o Hash |
    | : | Due punti |
    | . | Punto |
    | $ | Simbolo del dollaro |
@@ -90,4 +116,4 @@ Questo video include informazioni sulla creazione di metriche di successo per il
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380)
+>[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ita)
