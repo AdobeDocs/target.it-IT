@@ -8,7 +8,7 @@ title: Opzioni del Compositore esperienza visivo
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: e96730720a07a599b2c77fbf93d3660e8198eea1
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -54,7 +54,7 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 **Nota**: questa opzione non è disponibile se è impostata un’immagine di sfondo.
 
-#### Stili {#styles}
+#### Stili
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
@@ -73,20 +73,6 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 >[!NOTE]
 >
 >Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi usare il menu Stili, come spiegato qui.
-
-* **Informazioni di base**
-
-   Cambiate il colore di sfondo e l&#39;immagine.
-
-   * Colore (specifica il codice del colore o utilizza il selettore del colore)
-   * Immagine (seleziona un&#39;immagine dal selettore immagini)
-   * Origine immagine (specificate un URL esterno)
-   * Allegato
-      * Fate clic sull&#39;elenco a discesa superiore per selezionare scorrimento, fisso o locale
-      * Fate clic sull&#39;elenco a discesa inferiore per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round
-   * Clip
-      * Fate clic sull&#39;elenco a discesa superiore per selezionare il bordo, la casella di spaziatura, la casella di contenuto o il testo.
-      * Fate clic sull&#39;elenco a discesa inferiore per selezionare audio o audio automatico
 
 * **Composizione tipografica**
 
