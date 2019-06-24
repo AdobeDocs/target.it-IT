@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
+source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 
 ---
 
@@ -16,16 +16,6 @@ source-git-commit: bc44fd95263e7f2ad22e556a07468c9d7ed3ba8c
 # Modifiche alla documentazione{#documentation-changes}
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
-
-## Adobe Target Standard/Premium 19.6.1 (26 giugno 2019) {#tgt-19-6-1}
-
-| Data | Argomento | Modifiche |
-| --- | --- | --- |
-| 26 giugno 2019 | [Opzioni esperienza visiva](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
-|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
-|  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
-|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nuova sezione: &quot; Impostazioni di consegna pagina per SPA VEC. &quot; |
-|  | [Criteri cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nuovo argomento. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 maggio 2019) {#tgt-19-5-1}
 
