@@ -6,8 +6,8 @@ seo-title: Estensione Adobe Target VEC Helper
 solution: Target
 title: Estensione Adobe Target VEC Helper
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -35,7 +35,7 @@ Vantaggi dell’utilizzo dell’estensione VEC Helper:
 
 ## Ottenere e installare l’estensione VEC Helper per browser
 
-1. Vai alla pagina dell’[estensione Adobe Target VEC Helper per browser in Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
+1. Navigate to the [Adobe Target VEC Helper browser extension in the Chrome Web Store](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak).
 1. Fai clic su [!UICONTROL Aggiungi a Chrome &gt; Aggiungi estensione].
 1. Per utilizzare l’estensione, fai clic sull’icona dell’estensione VEC Helper per browser (![icona di VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/vec-help-extension.png)) nella barra degli strumenti del browser Chrome quando sei nel Compositore esperienza visivo o in [Modalità Controllo qualità](/help/c-activities/c-activity-qa/activity-qa.md).
 
