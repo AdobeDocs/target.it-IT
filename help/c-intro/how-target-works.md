@@ -9,7 +9,7 @@ title: Come funziona Adobe Target
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: bb6a1ef5a97bf2a51100df1cb318d2c742d5bd2c
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -108,7 +108,7 @@ La rete funge anche da meccanismo di failover. Se un nodo Edge non funziona, la 
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. A causa del Firewall Great Firewall e della mancanza di nodi Edge nel paese, le esperienze dei siti con [!DNL Target] distribuzione risulteranno rallentate e verranno caricate le relative pagine. Inoltre, l&#39;interfaccia [!DNL Target] utente potrebbe anche avere la latenza.
+>[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, the [!DNL Target] user interface might also experience latency.
 
 ## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
