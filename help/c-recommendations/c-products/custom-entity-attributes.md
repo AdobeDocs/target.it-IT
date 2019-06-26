@@ -10,7 +10,7 @@ topic: Premium
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 badge: premium
 translation-type: tm+mt
-source-git-commit: c288c6b7bc142cf203115ac5b80ffb3a3d74aa53
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,9 +23,9 @@ Per definire informazioni aggiuntive sugli elementi del catalogo, utilizza attri
 
 Per definire informazioni aggiuntive sugli elementi del catalogo, puoi includere fino a 100 attributi di entità personalizzati. Ad esempio, puoi creare un attributo personalizzato denominato `entity.genre` per definire un libro o un film. In alternativa, per la vendita di biglietti si possono creare attributi per il luogo di un evento in modo da includere un artista secondario, come la squadra ospite di un evento sportivo o il gruppo spalla di un concerto.
 
-La lunghezza massima degli attributi personalizzati delle entità con valore singolo è di 15,000 caratteri (per linguaggi UTF -8 con codifica singola, ad esempio inglese e altri alfabeti latini di script) oppure 10,000 caratteri (per linguaggi UTF -8 con codifica UTF quali cinese, giapponese e coreano).
+La lunghezza massima degli attributi personalizzati delle entità con valore singolo è di 15.000 caratteri (per lingue con codifica UTF-8 a uno e due byte, come inglese e altre lingue basate su alfabeto latino) oppure 10.000 caratteri (per lingue con codifica UTF-8 a tre byte come cinese, giapponese e coreano).
 
-Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni per la lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
+Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
 ## Valori degli attributi di entità personalizzati {#section_313331A9F8194A89B5EDD89363018651}
 
@@ -62,14 +62,14 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 **Limitazioni**:
 
-* Non è possibile utilizzare nomi di attributi di entità predefiniti per attributi di entità personalizzati. (Vedete [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Non è possibile utilizzare nomi di attributi di entità predefiniti per attributi di entità personalizzati. (Consulta [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * L’attributo `entity.environment` è riservato dal sistema e non può essere utilizzato per gli attributi di entità personalizzati. I tentativi di passare `entity.environment` tramite `targetPageParams`, feed o API verranno ignorati.
-* Gli array devono contenere un unico tipo di valore. Gli array con valori misti ( `["AB",1,true]`) non sono supportati.
-* Un attributo con più valori che include un array JSON nidificato ( `[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
+* Gli array devono contenere un unico tipo di valore. Gli array con valori misti (`["AB",1,true]`) non sono supportati.
+* Un attributo con più valori che include un array JSON nidificato (`[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
 
 ## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ( [] ) vengono considerati privi di valori.
+Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
 Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempio, `"[""test"", ""value""]"` è un array JSON valido che può essere utilizzato in CSV.
 
@@ -115,24 +115,24 @@ Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
 **Utilizzo delle API**
 
-Per [informazioni sull&#39;utilizzo
-delle API di entità Consegna e Salva entità, consultate la documentazione](http://developers.adobetarget.com/api/recommendations) API di Adobe Recommendations.
+See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
+using the Delivery and Save entities APIs.
 
 ## Utilizzo di operatori per attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando applichi gli operatori agli attributi personalizzati con più valori nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, il risultato sarà *vero* se almeno un valore nell’elenco deve essere soddisfatto (booleano *or*).
 
-Nell’esempio seguente, la regola è  `message contains abc`.
+Nell’esempio seguente, la regola è `message contains abc`.
 
 Caso 1: `entity.genre = ["ab", "bc", "de"]`. Il risultato è falso perché nessun valore contiene `abc`.
 
 Caso 2: `entity.genre = ["abcde","de","ef"]`. Il risultato è vero perché un valore contiene `abc`.
 
-Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è  `notEquals`, il risultato sarà *falso* se viene rilevata una corrispondenza con uno dei valori.
+Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *falso* se viene rilevata una corrispondenza con uno dei valori.
 
 La tabella seguente riepiloga il comportamento dell’operatore nelle regole di inclusione dell’algoritmo, di catalogo e di esclusione.
 
-| Operatore | Comportamento | Esempio  |
+| Operatore | Comportamento | Esempio |
 |--- |--- |--- |
 | È uguale a | Se un qualunque valore di attributo è uguale al valore specificato, restituisce vero. | `genre equals abc`<br>Caso 1: `entity.genre = ["ab", "bc", "de"]`. Il risultato è falso perché nessun valore è uguale a `abc`.<br>Caso 2: `entity.genre = ["abc", "de", "ef"]`. Il risultato è vero perché un valore è uguale a `abc`.<br>Caso 3: `entity.genre = ["abcde", "de", "ef"]`. Il risultato è falso perché `abc` non è uguale a nessun elemento dell’elenco. |
 | È diverso da | Se nessun valore di attributo è uguale al valore inserito, restituisce vero. | `genre not equals abc`<br>Caso 1: `entity.genre = ["ab", "bc", "de"]`. Il risultato è vero perché nessun valore è uguale a `abc`.<br>Caso 2: `entity.genre = ["abc", "de", "ef"]`. Il risultato è falso perché un valore è uguale a `abc`.<br>Caso 3: `entity.genre = ["abcde", "de", "ef"]`. Il risultato è vero perché `abc` non è uguale a nessun elemento dell’elenco. |
@@ -150,11 +150,11 @@ La tabella seguente riepiloga il comportamento dell’operatore nelle regole di 
 >
 >*Doppio* è un tipo di dati Java. Per gli operatori che richiedono valori numerici, la conversione in doppio elimina i valori non numerici dalla considerazione nei risultati.
 
-## Attributi con più valori nei progetti  {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attributi con più valori nei progetti {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Gli attributi con più valori verranno visualizzati come un elenco separato da virgole quando vi si fa riferimento in un progetto.
 
-Esempio: 
+Esempio:
 
 Quando `entity.genre=["genre1","genre2"]` ha un riferimento in un progetto come `$entity<N>.genre`, il risultato è `genre1, genre2`.
 
