@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -38,7 +38,7 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
    Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un&#39;immagine da visualizzare sulla scheda di progettazione.
 1. Modifica il **[!UICONTROL codice]** di progettazione.
 
-   Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [https://velocity.apache.org](https://velocity.apache.org).
+   Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
 
    Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni HTML sono racchiuse da un tag <div> per consentire il tracciamento dei clic in un ambiente web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic.
 
