@@ -8,7 +8,7 @@ title: Compositore esperienza basato su moduli
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,7 +39,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    ![](assets/location_refinements_2.png)
 
-   Nel Compositore esperienza basato su moduli, i Perfezionamenti sono stati sostituiti da funzionalità di pubblico complete. I perfezionamenti per le attività esistenti sono stati trasferiti ai tipi di  [pubblico per sola attività](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Nel Compositore esperienza basato su moduli, i Perfezionamenti sono stati sostituiti da funzionalità di pubblico complete. I perfezionamenti per le attività esistenti sono stati trasferiti ai tipi di [pubblico per sola attività](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Seleziona il tipo di contenuto da visualizzare in tale posizione.
 
    ![](assets/form_content.png)
@@ -79,7 +79,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
    1. Fai clic su [!UICONTROL Salva].
    Per un&#39;attività Consigli, l&#39;elenco a discesa del contenuto fornisce l&#39;opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
 
-   Durante la selezione dei criteri di Consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
+   Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
    ![](assets/change_criteria.png)
 
@@ -102,4 +102,4 @@ Questo video fornisce una demo del Compositore esperienza basato su moduli.
 * Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
 * Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/17390)
+>[!VIDEO](https://video.tv.adobe.com/v/17390?captions=ita)
