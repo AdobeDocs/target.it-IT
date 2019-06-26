@@ -1,27 +1,27 @@
 ---
-description: 'Informazioni sulla funzione adobe. target. getoffer (options) per at. js. '
+description: 'Informazioni sulla funzione adobe.target.getOffers(options) per at.js. '
 keywords: adobe.target.notification;element;selector;notification;extension
-seo-description: Informazioni sulla funzione adobe. target. getoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
-seo-title: Informazioni sulla funzione adobe. target. getoffer (options) per la libreria javascript di Adobe Target nella libreria javascript. js.
+seo-description: Informazioni sulla funzione adobe.target.getOffers(options) per la libreria JavaScript at.js di Adobe Target.
+seo-title: Informazioni sulla funzione adobe.target.getOffers(options) per la libreria JavaScript at.js di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: cc7dc21321816e7f71b67e31abc0855184a285c6
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
-# adobe. target. getoffer (options) - at. js 2. x
+# adobe.target.getOffers(options) - at.js 2.x
 
 Questa funzione ti consente di recuperare più offerte passando più mbox. Inoltre, è possibile recuperare più offerte per tutte le visualizzazioni nelle attività attive.
 
 >[!NOTE]
 >
->Questa funzione è stata introdotta con at. js 2. x. Questa funzione non è disponibile per at. js versione 1.*x*.
+>Questa funzione è stata introdotta con at.js 2.x e non è disponibile per at.js versione 1.*x*.
 
-| Chiave | Type (Tipo) | Obbligatorio | Descrizione |
+| Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
 | consumerId | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave si utilizza per generare l’ID dati supplementare utilizzato per l’integrazione A4T. |
 | richiesta | Oggetto | Sì | Vedi la tabella Richieste di seguito. |
@@ -35,7 +35,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Request &gt; id &gt; thirdPartyId | No | Dimensione massima = 128 |  |  |
 | Request &gt; experiencecloud | No |  |  |
 | Request &gt; experiencecloud &gt; analytics | No |  | Integrazione di Adobe Analytics |
-| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | Sono supportati i seguenti valori:<br>**client_ side**: Se specificato, viene restituito un payload di analisi al chiamante che deve essere utilizzato per inviare ad Adobe Analytics tramite l&#39;API di inserimento dati.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l&#39;identificatore SDID per unire le chiamate a scopo di reporting. |
+| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l&#39;identificatore SDID per unire le chiamate a scopo di reporting. |
 | Request &gt; prefetch | No |  |  |
 | Request &gt; prefetch &gt; views | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile”<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Passa i parametri da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile” | Passa i parametri di profilo da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
@@ -48,8 +48,8 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Request &gt; prefetch &gt; views &gt; order &gt; purchasedProductIds | No | Nessun valore vuoto<br>Lunghezza max di ogni valore: 50<br>Concatenata e separata da virgole<br>Lunghezza totale ID prodotto `<=` 250 | Passa gli ID prodotti acquistati da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; execute | No |  |  |
 | Request &gt; execute &gt; pageLoad | No |  |  |
-| Request &gt; execute &gt; pageLoad &gt; parameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile”.<br>Nomi non consentiti: “orderId&quot;, “orderTotal&quot;, “productPurchasedId&quot; | Recupera le offerte con i parametri specificati al caricamento della pagina. |
-| Request &gt; execute &gt; pageLoad &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile&quot;. | Recupera le offerte con i parametri del profilo specificati al caricamento della pagina. |
+| Request &gt; execute &gt; pageLoad &gt; parameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile”.<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Recupera le offerte con i parametri specificati al caricamento della pagina. |
+| Request &gt; execute &gt; pageLoad &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile”. | Recupera le offerte con i parametri del profilo specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; product | No |  |  |
 | Request &gt; execute &gt; pageLoad &gt; product -&gt; id | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte con gli ID prodotto specificati al caricamento della pagina. |
 | Request &gt; execute &gt; pageLoad &gt; product &gt; categoryId | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte con gli ID categoria prodotto specificati al caricamento della pagina. |
@@ -60,8 +60,8 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Request &gt; execute &gt; mboxes | No | Dimensione massima = 50<br>Nessun elemento null |  |
 | Request &gt; execute &gt; mboxes&gt;mbox | Sì | Non vuoto<br>No suffisso ’-clicked’<br>Dimensione massima = 250<br>Caratteri consentiti: `'-, ._\/=:;&!@#$%^&*()_+|?~[]{}'` | Nome della mbox. |
 | Request &gt; execute &gt; mboxes&gt;mbox&gt;index | Sì | No null<br>Univoco<br>`>=` 0 | Nota che l’indice non rappresenta l’ordine di elaborazione delle mbox. Come in una pagina web con diverse mbox regionali, non è possibile specificarne l’ordine di elaborazione. |
-| Request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile&quot;.<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Recupera le offerte per una data mbox con i parametri specificati. |
-| Request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile&quot;. | Recupera le offerte per una data mbox con i parametri del profilo specificati. |
+| Request &gt; execute &gt; mboxes &gt; mbox &gt; parameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome non deve iniziare con “profile”.<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Recupera le offerte per una data mbox con i parametri specificati. |
+| Request &gt; execute &gt; mboxes&gt;mbox&gt;profileParameters | No | Numero massimo = 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=`256<br>Il nome non deve iniziare con “profile”. | Recupera le offerte per una data mbox con i parametri del profilo specificati. |
 | Request &gt; execute &gt; mboxes&gt;mbox &gt; product | No |  |  |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; id | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte per una data mbox con gli ID prodotto specificati. |
 | Request &gt; execute &gt; mboxes &gt; mbox &gt; product &gt; categoryId | No | Non vuoto<br>Dimensione massima = 128 | Recupera le offerte per una data mbox con gli ID categoria prodotto specificati. |
@@ -181,13 +181,13 @@ adobe.target.getOffers({
 }
 ```
 
-Il payload può quindi essere inoltrato ad Adobe Analytics tramite l&#39;API di inserimento [dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-## Recupera ed esegui il rendering di dati da più mbox tramite getoffers () e applyoffers () {#multiple}
+## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
-at. js 2. x consente di recuperare più mbox tramite l&#39; `getOffers()` API. Potete anche recuperare dati per più mbox e quindi utilizzare `applyOffers()` per eseguire il rendering dei dati in posizioni diverse identificati da un selettore CSS.
+at.js 2.x consente di recuperare più mbox tramite l’API `getOffers()`. Puoi anche recuperare dati per più mbox e quindi utilizzare `applyOffers()` per eseguire il rendering dei dati in posti diversi identificati da un selettore CSS.
 
-L&#39;esempio seguente mostra una semplice pagina HTML con implementazione. js 2. x implementata:
+L’esempio seguente mostra una semplice pagina HTML con at.js 2.x implementata:
 
 ```
 <!DOCTYPE html>
@@ -207,9 +207,9 @@ L&#39;esempio seguente mostra una semplice pagina HTML con implementazione. js 2
 </html>
 ```
 
-Si supponga di disporre di tre contenitori che si desidera modificare tramite il contenuto ricevuto [!DNL Target]. Potete creare una singola richiesta per tre mbox in cui ogni mbox ha contenuto da rappresentare nel rispettivo contenitore.
+Supponi di disporre di tre contenitori che desideri modificare tramite il contenuto ricevuto da [!DNL Target]. Puoi creare una singola richiesta per tre mbox in cui ogni mbox ha del contenuto da riprodurre nel rispettivo contenitore.
 
-La richiesta e il codice di rendering possono avere l&#39;aspetto seguente:
+La richiesta e il codice di rendering possono avere il seguente aspetto:
 
 ```
 adobe.target.getOffers({
@@ -252,12 +252,12 @@ adobe.target.getOffers({
 });
 ```
 
-Nella `request > prefetch > mboxes` sezione sono disponibili tre mbox diverse. Se la richiesta è stata completata correttamente, riceverete la risposta per ogni mbox da `response > prefetch > mboxes`. Una volta fornite le risposte e le posizioni da utilizzare per il rendering, potete richiamare `applyOffers()` il rendering del contenuto recuperato [!DNL Target]. In questo esempio abbiamo la seguente mappatura:
+Nella sezione `request > prefetch > mboxes` sono disponibili tre mbox diverse. Riceverai la risposta per ogni mbox da `response > prefetch > mboxes` se la richiesta è stata completata con successo. Una volta che possiedi le risposte e le posizioni da utilizzare per il rendering, puoi richiamare `applyOffers()` per riprodurre il contenuto recuperato da [!DNL Target]. In questo esempio abbiamo la seguente mappatura:
 
-* mbox 1 &gt; Selettore CSS # container 1
-* mbox 2 &gt; Selettore CSS # container 2
-* mbox 3 &gt; Selettore CSS # container 3
+* mbox1 &gt; Selettore CSS #container1
+* mbox2 &gt; Selettore CSS #container2
+* mbox3 &gt; Selettore CSS #container3
 
-Questo esempio utilizza la variabile count per creare i selettori CSS. In uno scenario reale potete utilizzare una mappatura diversa tra il selettore CSS e la mbox.
+Questo esempio utilizza la variabile count per creare i selettori CSS. In uno scenario reale puoi utilizzare una mappatura diversa tra il selettore CSS e la mbox.
 
-Questo esempio può essere utilizzato `prefetch > mboxes`anche `execute > mboxes`da questo esempio. Verifica che se utilizzi la preacquisizione in `getOffers()`, devi anche usare la preacquisizione nella `applyOffers()` chiamata.
+Questo esempio utilizza `prefetch > mboxes`, ma puoi anche utilizzare `execute > mboxes`. Se utilizzi la preacquisizione in `getOffers()`, devi anche usare la preacquisizione nella chiamata di `applyOffers()`.
