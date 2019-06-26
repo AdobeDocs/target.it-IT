@@ -7,8 +7,8 @@ solution: Target
 title: Tasso di conversione
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Consulta [Livello di affidabilità e intervallo di affidabilità](../c-reports/c
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-I dati dei ricavi per visita, del valore medio dell’ordine e delle vendite vengono visualizzati per ogni esperienza se inserisci una mbox [Inserisci ordine](https://marketing.adobe.com/resources/help/it_IT/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) e la selezioni come mbox di conversione.
+I dati Valore medio dell’ordine, Ricavo per visita e Vendite vengono visualizzati per ogni esperienza se una mbox [Ordine effettuato](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) è stata inserita e selezionata come mbox di conversione.
 
 ## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -107,7 +107,7 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 
 Il [rapporto CSV scaricato](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-Per calcolare queste metriche calcolate, scarica il file Excel del [calcolatore di affidabilità completo](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) per immettere il valore dell’attività, oppure controlla i [calcoli statistici utilizzati da Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+Per ottenere queste metriche calcolate, scarica il file Excel [Target’s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) (Calcolatore di affidabilità completo di Target) per inserirvi il valore dell’attività oppure controlla i [calcoli statistici utilizzati da Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 1. Fai clic su **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Compila i campi nella scheda di **[!UICONTROL Richiesta Data Warehouse]**.
 
-   Per ulteriori informazioni su ciascun campo, vedi “Descrizioni Data Warehouse” in [Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/data_warehouse.html).
+   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
 
    | Campo | Istruzioni |
    |--- |--- |
@@ -147,8 +147,8 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Creare una richiesta di Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/t_dw_create_request.html)
-* [Best practice di Data Warehouse](https://marketing.adobe.com/resources/help/it_IT/reference/data_warehouse_bp.html)
+* [Create a Data Warehouse Request (Creare una richiesta di archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
+* [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
