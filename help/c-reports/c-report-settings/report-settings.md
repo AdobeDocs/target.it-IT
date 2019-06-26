@@ -8,7 +8,7 @@ title: Impostazioni dei rapporti
 topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 3325da8e4c0d67ba9b882554f225e00e97c735cc
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -92,7 +92,7 @@ Fai clic sull’elenco a discesa **[!UICONTROL Metrica rapporto]** per seleziona
 
 Per impostazione predefinita, la metrica principale è determinata nella configurazione delle metriche di successo quando crei l’attività. Se modifichi la configurazione e salvi di nuovo l’attività, la metrica principale per la generazione dei rapporti si aggiorna.
 
-Per ulteriori informazioni sulla selezione di più metriche da visualizzare nei rapporti, consulta  [Visualizzare più metriche in un rapporto](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Per ulteriori informazioni sulla selezione di più metriche da visualizzare nei rapporti, consulta [Visualizzare più metriche in un rapporto](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Destinatari {#section_70926EB4618945D9AFF2B0564FF3717B}
 
@@ -150,11 +150,11 @@ Fai clic sull’icona Scarica per scaricare i dati del rapporto in formato [!DNL
 
 Fai clic sull’icona Aggiorna per aggiornare la tabella e il grafico di un rapporto senza aggiornare l&#39;intera pagina, la configurazione o l&#39;intervallo di date.
 
-## Altre opzioni  {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## Altre opzioni {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Fai clic sull’icona Altre opzioni (tre puntini di sospensione verticali) per accedere alle opzioni [!UICONTROL Modifica attività] e [!UICONTROL Visualizza URL esperienza].
 
-## Vista tabella  {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Vista tabella {#section_4E7E75955A964847ADFF2C2314EC0F21}
 
 Fai clic sull’icona **[!UICONTROL Vista tabella]** per visualizzare il rapporto sotto forma di tabella.
 
@@ -173,7 +173,7 @@ Valuta quanto segue:
 * Disponibile solo quando i rapporti vengono visualizzati nella vista Tabella.
 * Questa funzionalità non è disponibile per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).
 
-## Contributo posizione  {#section_5832F126AC114AE1ABFFF4D9B904393B}
+## Contributo posizione {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
 Fai clic sull’icona **[!UICONTROL Contributo posizione]** per far sì che il rapporto mostri il contributo in base alla posizione.
 
@@ -187,13 +187,13 @@ Se la figura seguente, solo esperienze predefinite, Mid-East e Totale vengono vi
 
 ![Esperienze](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
-## Media corrente  {#section_59066693158C4433B87D07402C2BC6CD}
+## Media corrente {#section_59066693158C4433B87D07402C2BC6CD}
 
 (Disponibile solo quando i rapporti vengono visualizzati nella vista Grafico)
 
 Seleziona la vista grafico desiderata:
 
-* Media corrente 
+* Media corrente
 * Media corrente - Incremento
 * Giornaliero
 * Incremento giornaliero
