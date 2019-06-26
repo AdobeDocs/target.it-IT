@@ -7,7 +7,7 @@ solution: Target
 title: Categorie di pubblico
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ Dopo aver creato una regola, fai clic su **[!UICONTROL Salva]**. Un riepilogo de
 
 Puoi perfezionare ulteriormente una regola aggiungendo più condizioni o creando regole aggiuntive in altre categorie. Ad esempio, per eseguire il targeting dei soli utenti Firefox di San Francisco che accedono al tuo sito da Google, imposta la categoria [!UICONTROL Geo] per gli utenti di San Francisco; imposta la categoria [!UICONTROL Comportamento visitatori] su Firefox; e imposta categoria [!UICONTROL Origini del traffico] su Google. Tutte le regole create tra le categorie vengono combinate con “E”. Per creare regole di targeting complesse che includono operazioni “O” tra più categorie, crea un target con espressione.
 
-Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Quando aggiungete un&#39;audience, fate clic **[!UICONTROL su Visitor Profile (Profilo visitatore]**), quindi scegliete il parametro che utilizzate per eseguire il targeting dell&#39;attività. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox. Sono disponibili altri parametri mbox personalizzati nellʼelenco a discesa [!UICONTROL Parametri personalizzati].
+Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. When adding an audience, click **[!UICONTROL Visitor Profile]**, then choose the parameter you use want to use to target your activity. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox. Sono disponibili altri parametri mbox personalizzati nellʼelenco a discesa [!UICONTROL Parametri personalizzati].
 
 Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubblico]. Puoi cercare qualsiasi parte del nome di un pubblico, oppure racchiudere tra virgolette una stringa specifica.
 
