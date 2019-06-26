@@ -5,8 +5,8 @@ seo-description: Se utilizzi una versione precedente di at.js o mbox.js, è nece
 seo-title: Utilizzare un server di tracciamento di Analytics
 title: Utilizzare un server di tracciamento di Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà
 
 1. Dalla pagina in cui si sta creando l&#39;attività, apri il debugger di Adobe Experience Cloud.
 
-   Se non hai installato il debugger, segui le [istruzioni di installazione di Adobe Debugger](https://marketing.adobe.com/resources/help/it_IT/sc/implement/debugger_install.html).
+   Se il debugger non è stato installato, attenersi alle [istruzioni di installazione del debugger di Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
