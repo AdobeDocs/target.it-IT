@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
 
 ---
 
@@ -326,6 +326,16 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 Utilizza la cronologia del visitatore (nell&#39;arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
 
 Il criterio Articoli visualizzati di recente ora restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
+
+**Dove utilizzare nel sito**
+
+Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
+
+### Previously Purchased Items {#previously-purchased}
+
+Uses the visitor&#39;s history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+
+The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Se due siti appartengono a ambienti diversi e un visitatore passa da un sito all&#39;altro, ogni sito mostra solo gli elementi acquistati di recente dal sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa da un sito all&#39;altro, il visitatore vedrà gli stessi elementi acquistati di recente per entrambi i siti.
 
 **Dove utilizzare nel sito**
 
