@@ -7,7 +7,7 @@ solution: Target
 title: Origini del traffico
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -16,7 +16,7 @@ source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
 
 Creare audience per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 
-Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato, al motore di ricerca o alla pagina di destinazione di riferimento. La pagina di destinazione di provenienza è la pagina su cui ha fatto clic il visitatore per raggiungere il sito corrente. Ad esempio, se il visitatore ha fatto clic su un annuncio su Google e lo porta alla home page, `adobe.com` viene visualizzata la pagina di destinazione `google.com`di provenienza.
+Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato, al motore di ricerca o alla pagina di destinazione di riferimento. La pagina di destinazione di provenienza è la pagina su cui ha fatto clic il visitatore per raggiungere il sito corrente. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
 
 Puoi combinare più origini di traffico per creare una regola di targeting complessa.
 
