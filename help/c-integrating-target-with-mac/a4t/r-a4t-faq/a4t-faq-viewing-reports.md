@@ -7,8 +7,8 @@ solution: Target
 title: Visualizzare i rapporti - Domande frequenti su A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -29,7 +29,7 @@ La metodologia di conteggio specifica quale valore deve essere utilizzato da Tar
 
 Per il rapporto Attività, gli amministratori possono modificare la metrica predefinita in modo da visualizzare le stesse metriche ogni volta che eseguono il rapporto. In caso contrario, per impostazione predefinita il rapporto utilizza l’ultima metrica applicata all’ultimo rapporto.
 
-Per ulteriori informazioni, consulta [Selezionare metriche rapporto predefinite](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) nella *Guida dell’interfaccia di Reports and Analytics*.
+Per ulteriori informazioni, consulta [Selezionare la metrica predefinita di un rapporto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) nella guida *Aiuto per l’interfaccia di Reports and Analytics*.
 
 ## Quando si applica un segmento alla metrica (con una metrica calcolata) rispetto a un segmento al rapporto? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -110,13 +110,13 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Ai fini del rapporto generato da Target, poiché non si stanno confrontando due attività di Target per vedere quale ha più successo, non ha importanza se tutte le attività che l’utente ha visualizzato abbiano ricevuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
-Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/it_IT/reference/conversion_var_admin.html) nella Guida di Analytics.
+Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) nell’Aiuto di Analytics.
 
 ## Perché Analytics e Analytics for Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando si esegue un test A/B, che utilizza il test t di Student (la metrica di affidabilità) per scegliere un vincitore di un test, uno dei presupposti è che ci sia un orizzonte temporale fisso. Il test non è statisticamente valido a meno che tu non stia esaminando la dimensione del campione fisso.
 
-La metrica Visitatori univoci è diversa in Analytics e Target solo quando si considera un periodo di tempo più breve del test effettivo. Se non hai raggiunto la dimensione del campione, il test non è affidabile. Consulta l’articolo su [come non eseguire un test A/B](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) sul [sito web di Evan Miller](https://www.evanmiller.org/index.html) per ulteriori informazioni.
+La metrica Visitatori univoci è diversa in Analytics e Target solo quando si considera un periodo di tempo più breve del test effettivo. Se non hai raggiunto la dimensione del campione, il test non è affidabile. Per ulteriori informazioni, consulta [How Not to Run an A/B Test](https://www.evanmiller.org/how-not-to-run-an-ab-test.html) (Come non eseguire un test A/B) sul [sito web di Evan Miller](https://www.evanmiller.org/index.html).
 
 La metrica Visitatori univoci visualizza il numero di persone che sono state esposte al test e che hanno visitato il sito durante il periodo di tempo specificato. Queste persone sono ancora parte del test e dovrebbero essere conteggiate. Se si desidera visualizzare solo il numero di persone esposte durante una sola settimana, è possibile creare un segmento di visitatori per i quali è stata registrata un’impression di attività e applicare tale segmento al rapporto.
 
@@ -144,4 +144,4 @@ Come procedura ottimale, devi arrestare l’attività esistente, quindi creare u
 
 Puoi utilizzare [!DNL Adobe Analysis Workspace] per approfondire e visualizzare i dati o individuare informazioni nascoste sotto la superficie.
 
-Per informazioni ed esempi dettagliati, apri l’esercitazione sulle [best practice per le analisi con Analytics e Target](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornito da Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
