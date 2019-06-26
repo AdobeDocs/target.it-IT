@@ -4,8 +4,8 @@ seo-description: Il modo in cui Target effettua e risponde alle chiamate dalla p
 seo-title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
