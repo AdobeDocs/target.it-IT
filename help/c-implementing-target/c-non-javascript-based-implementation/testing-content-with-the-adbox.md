@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Creare un AdBox per un’immagine
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -41,7 +41,7 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` è il contenuto predefinito della mbox. Questa deve essere un&#39;immagine.
 
-      Deve essere codificata in URL e deve essere un riferimento assoluto. Per codificare rapidamente i tuoi URL, consulta la [documentazione di riferimento per la codifica HTML degli URL](https://www.w3schools.com/tags/ref_urlencode.asp).
+      Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
 
 
 1. Crea [offerte di reindirizzamento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) per ogni immagine alternativa.
