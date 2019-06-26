@@ -4,8 +4,8 @@ seo-description: Questa sezione descrive come inviare informazioni sulle attivit
 seo-title: Inviare informazioni sull’attività ad Adobe Analytics
 title: Inviare informazioni sull’attività ad Adobe Analytics
 uuid: 2ca1ebfe-5008-4a73-a032-1ad81f062925
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Questa sezione descrive come inviare informazioni sulle attività delle app mobi
 
    Analizza la risposta restituita da Target nella chiamata di ritorno. Utilizza NSJSONSerialization per analizzare questa risposta e memorizzarla in una dipendenza o un array.
 
-   Consulta la [documentazione relativa a NSJSONSerialization](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) per ulteriori informazioni.
+   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
 1. Inviare i dati ad Analytics.
 
    Aggiungi le informazioni sull’attività analizzate (come `tntVal` nella risposta precedente) all’oggetto dati contestuali in una chiamata di Analytics. Questa chiamata di Analytics contenente i dati contestuali può essere attivata immediatamente oppure può attendere finché non viene avviata la chiamata di Analytics successiva.
