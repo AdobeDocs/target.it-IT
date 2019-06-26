@@ -9,8 +9,8 @@ title-outputclass: premium
 topic: Consigli
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -60,7 +60,7 @@ Dove `clientcode` è il codice del client Target.
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe rallentare o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Consulta la [documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery) per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
 
 ## Opzione 2: utilizzare un modello di e-mail Rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
