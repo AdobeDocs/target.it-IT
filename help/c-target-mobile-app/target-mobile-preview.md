@@ -7,8 +7,8 @@ solution: Target
 title: Anteprima mobile di Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,8 +31,8 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per istruzioni su come scaricare l&#39;SDK appropriato, vedi:
 
-   * **iOS:** [Prima di iniziare](https://marketing.adobe.com/resources/help/it_IT/mobile/ios/requirements.html) nella guida *SDK 4.x per iOS per le soluzioni Experience Cloud*.
-   * **Android:** [Prima di iniziare](https://marketing.adobe.com/resources/help/it_IT/mobile/android/requirements.html) nella guida *SDK 4.x per Android per le soluzioni Experience Cloud*.
+   * **iOS:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) nella guida *iOS SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions)*.
+   * **Android:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* nella guida Android SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions).*
 
 1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l&#39;app. È necessario specificare uno schema URL univoco per l&#39;anteprima.
 
