@@ -7,8 +7,8 @@ solution: Target
 title: Domande frequenti su destinazioni e pubblico
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -47,7 +47,7 @@ Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitato
 
 ## Perché tutti i parametri del profilo non vengono visualizzati nellʼinterfaccia utente di Target? {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
-[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, consulta [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione relativa all’API di Adobe Target.
+[!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
 
 ## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
 
