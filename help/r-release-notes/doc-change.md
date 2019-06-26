@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -33,6 +33,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Creare un&#39;attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Aggiunto un passaggio con informazioni per selezionare un&#39;esperienza specifica come predefinita. |
 |  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state aggiunte informazioni su come gestire più versioni app mobili. |
 |  | [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Aggiunte informazioni sulla chiave di raccomandazione Elementi acquistati in precedenza. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Sono state aggiunte informazioni sui report che non riescono a eseguire il rendering per attività Auto-Target in determinate situazioni. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 maggio 2019) {#tgt-19-5-1}
