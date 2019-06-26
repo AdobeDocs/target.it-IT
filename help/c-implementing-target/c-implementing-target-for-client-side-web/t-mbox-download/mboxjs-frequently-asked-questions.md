@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Domande frequenti su mbox.js
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,13 +19,13 @@ Risposte alle domande più frequenti su mbox.js.
 
 ## Qual è l’impatto di mbox.js sui tempi di caricamento pagina? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-Per ulteriori informazioni, vedi [Vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Perché compaiono messaggi di avviso “blocco del parser” in Google Chrome quando si utilizzano mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
 
 Questo messaggio della console viene visualizzato quando si utilizza Chrome in molti scenari in cui la funzione `document.write` viene utilizzata all’interno del file mbox.js. Questo è un messaggio di avviso e non dovrebbe influenzare il processo di configurazione dell’attività.
 
-Il modo migliore per prevenire questa situazione consiste nella  [migrazione dell’implementazione di Target alla libreria JavaScript at. js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), che non utilizza la funzione `document.write`. L’utilizzo di at.js fornisce molti vantaggi rispetto a mbox.js. Per ulteriori informazioni, consulta [Domande frequenti su at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+Il modo migliore per prevenire questa situazione consiste nella [migrazione dell’implementazione di Target alla libreria JavaScript at. js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), che non utilizza la funzione `document.write`. L’utilizzo di at.js fornisce molti vantaggi rispetto a mbox.js. Per ulteriori informazioni, consulta [Domande frequenti su at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Perché le mie mbox non vengono lanciate sulle mie pagine web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
