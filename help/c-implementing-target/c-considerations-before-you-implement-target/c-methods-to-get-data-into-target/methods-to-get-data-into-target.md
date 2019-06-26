@@ -9,7 +9,7 @@ title: Metodi per immettere i dati in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
 
 ---
 
@@ -54,7 +54,7 @@ I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla
 * Se i dati devono essere utilizzati per la destinazione di una successiva chiamata di pagina/server, è necessario tradurli in uno script di profilo.
 * Le stringhe di query possono contenere solo caratteri che rispettano lo [standard Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Oltre a quelli menzionati sul sito di IETF, Target consente i seguenti caratteri nelle stringhe di query:
+   Oltre a quelli citati nel sito IETF, Target consente i seguenti caratteri nelle stringhe di query:
 
    `&lt; &gt; # % ” { } | \\ ^ \[\] \``
 
