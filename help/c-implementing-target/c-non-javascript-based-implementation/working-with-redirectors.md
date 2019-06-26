@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Lavorare con i redirector
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -56,7 +56,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
 
-      Deve essere codificata in URL e deve essere un riferimento assoluto. Per codificare rapidamente i tuoi URL, consulta la[documentazione di riferimento per la codifica HTML degli URL](https://www.w3schools.com/tags/ref_urlencode.asp).
+      Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
@@ -97,7 +97,7 @@ Puoi utilizzare un redirector per trasmettere i costi per clic.
 
 >[!NOTE]
 >
->Si consiglia di determinare il valore dei costi utilizzando la metrica di coinvolgimento **Punteggio per visita**, come descritto in [Coinvolgimento](https://marketing.adobe.com/resources/help/it_IT/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Aggiungi `&mboxPageValue=-value` all’URL. Nota il valore negativo.
 
@@ -114,7 +114,7 @@ Per utilizzare un redirector per trasmettere i ricavi per clic.
 
 >[!NOTE]
 >
->Si consiglia di determinare il valore dei ricavi utilizzando la metrica di coinvolgimento **Punteggio per visita**, come descritto in [Coinvolgimento](https://marketing.adobe.com/resources/help/it_IT/tnt/help/c_Capturing_Engagement.html).
+>Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
 
 Aggiungi `&mboxPageValue=value` all’URL.
 
