@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Generazione di rapporti per A4T
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Utilizzando Analytics come origine per la generazione di rapporti per Target (A4
 
 Puoi visualizzare i rapporti per le attività in Analytics e in Target Standard/Premium.
 
-Per le best practice sulla creazione di rapporti con Analytics for Target, [visita questa pagina di Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Per le best practice per la generazione di rapporti con Analytics for Target, [visita questa pagina di Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Panoramica {#section_035A62D65608423285D8A5A54731E2C5}
 
@@ -45,7 +45,7 @@ In Analytics, utilizza il rapporto delle attività di Target per visualizzarne i
 
 >[!NOTE]
 >
->I dettagli dell’incremento e dell’affidabilità di Target sono disponibili anche in Analytics. Per ulteriori informazioni, consulta [Tipo di rapporto per l’incremento e l’affidabilità di Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) nella documentazione del prodotto di Adobe Analytics.
+>I dettagli dell’incremento e dell’affidabilità di Target sono disponibili anche in Analytics. Per ulteriori informazioni, vedi [Tipi di rapporto di incremento e affidabilità di Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) nella documentazione del prodotto Adobe Analytics.
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Fai clic per visualizzare il rapporto completo di Analytics direttamente dalla p
 
 Puoi utilizzare [!DNL Adobe Analysis Workspace] per approfondire e visualizzare i dati o individuare informazioni nascoste sotto la superficie.
 
-Per informazioni ed esempi dettagliati, apri l’esercitazione sulle [best practice per le analisi con Analytics e Target](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornito da Adobe Experience League.
+For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
 ## Creazione di attività {#section_311586E3FF5541E7A91D1A3CE5F9ACE3}
 
