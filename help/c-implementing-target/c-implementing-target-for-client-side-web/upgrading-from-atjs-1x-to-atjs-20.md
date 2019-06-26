@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Aggiornamento da at.js 1.x a at.js 2.x
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: e69d746b9705670042b3c6718b3357c9d1aaf650
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 ## Implementare at.js 2.x {#deploy-atjs-200}
 
-1. Distribuisci at. js 2. x tramite l&#39;estensione [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
+1. Deploy at.js 2.x via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension.
 
    >[!NOTE]
    >
@@ -63,7 +63,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
    Oppure
 
-   Scarica manualmente at. js 2. x utilizzando l&#39;interfaccia utente di Target e distribuiscilo utilizzando il [metodo desiderato](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Manually download at.js 2.x using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Funzioni at.js disattivate
 
@@ -342,7 +342,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 | Strumento di debug | Sì |
 | Auditor | Le regole per at.js 2.x non sono ancora state aggiornate |
 | Dynamic Tag Manager (DTM) | Sì |
-| Opt-in | No. Il supporto di consenso per [il GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) è supportato [in. js versione 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| Opt-in | No. Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personalizzazione avanzata AEM fornita da Adobe Target | No |
 
 ### Funzioni
@@ -846,4 +846,4 @@ at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina sing
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
