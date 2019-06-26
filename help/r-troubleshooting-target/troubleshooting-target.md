@@ -8,7 +8,7 @@ title: Risolvere i problemi di Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: b601e6cfa4061387352378271aa2c2e966584e40
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -43,7 +43,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione dei problemi di test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Stimare il traffico necessario per il successo del test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Consigli 
+### Consigli
 
 * [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md)
@@ -78,7 +78,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ## Autorizzazioni Enterprise
 
-* [Autorizzazioni per gli utenti aziendali](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 
 ## Esperienze
 
@@ -107,7 +107,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 * [Domande frequenti sulle mbox globali](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)
 
-### at.js 
+### at.js
 
 * [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md)
 * [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
@@ -128,7 +128,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 * [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 
-## Generazione di rapporti 
+## Generazione di rapporti
 
 * [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md)
