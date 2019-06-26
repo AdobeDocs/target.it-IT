@@ -8,7 +8,7 @@ title: Geo targeting in Adobe Target
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -49,7 +49,7 @@ L&#39;illustrazione seguente mostra un pubblico che esegue l&#39;accesso all&#39
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere modificata dalla posizione, dalla relazione dati del fornitore con [deviceatlas](https://deviceatlas.com/device-data/user-agent-tester)e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39;API [di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
@@ -115,7 +115,7 @@ Ad esempio, utilizza:
 
 **Come funziona il geotargeting per i dispositivi mobili?**
 
-La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39;API [di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?**
 
