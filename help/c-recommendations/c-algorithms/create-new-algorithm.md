@@ -1,5 +1,5 @@
 ---
-description: I criteri controllano il contenuto delle attività Consigli. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
+description: I criteri controllano il contenuto delle attività di Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 seo-description: I criteri controllano il contenuto delle attività di Adobe Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 seo-title: Creare criteri
 solution: Target
@@ -9,14 +9,14 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 58e3edd6b6a31a6b1e3a5b894755b99cbc853f32
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Creare criteri{#create-criteria}
 
-I criteri controllano il contenuto delle attività Consigli. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
+I criteri controllano il contenuto delle attività di Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 
 ## Creare criteri {#task_8A9CB465F28D44899F69F38AD27352FE}
 
@@ -30,11 +30,11 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
 
-   ![Pulsante Crea criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+   ![Pulsante Crea criterio](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
 
 1. Seleziona **[!UICONTROL Crea criterio]**.
 
-   ![Crea nuovi criteri](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+   ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
 1. Inserisci un **[!UICONTROL Nome criterio]**.
 
@@ -63,7 +63,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Seleziona una **[!UICONTROL Chiave consiglio]**.
 
-   Per ulteriori informazioni sui criteri di base su una chiave, consultate [Basare la raccomandazione su una chiave di raccomandazione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Per ulteriori informazioni sui criteri basati su una chiave, consulta [Basare il consiglio su una Chiave consiglio](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 
 1. Seleziona la **[!UICONTROL Logica consigli]**.
 
@@ -95,20 +95,20 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
    Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
 
-   Seleziona i tasti appropriati:
+   Seleziona i pulsanti appropriati:
 
    * [!UICONTROL Abilita il rendering parziale della progettazione]
    * [!UICONTROL Mostra consigli di backup]
    * [!UICONTROL Consiglia gli articoli acquistati in precedenza]
    Questa impostazione è basata su `productPurchasedId`. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi articoli che la gente è solita acquistare di nuovo, come shampoo o altri oggetti personali, dovresti disabilitare questa opzione.
 
-1. Impostate le regole **[!UICONTROL di inclusione]**.
+1. Imposta le **[!UICONTROL regole di inclusione]**.
 
    Le regole di inclusione determinano quali articoli verranno inclusi nei consigli. Le opzioni disponibili dipendono dal tuo settore verticale.
 
-   Per ulteriori dettagli consulta  [Regole di inclusione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
+   Per ulteriori dettagli consulta [Regole di inclusione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configura **[!UICONTROL ponderazione attributo]**.
+1. Configura la **[!UICONTROL ponderazione degli attributi]**.
 
    È possibile aggiungere più regole per “spostare” l&#39;algoritmo in base alla descrizione o ai metadati importanti relativi al catalogo del contenuto. Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli.
 
@@ -120,11 +120,11 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 ### Tempo di elaborazione previsto dei criteri
 
-* **mbox**: Se i criteri utilizzano mbox come Origine dati comportamentale, una volta creati, i criteri vengono eseguiti immediatamente. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l&#39;algoritmo può richiedere fino a 12 ore per l&#39;esecuzione. L&#39;apporto di modifiche alla configurazione dei criteri comporta la riesecuzione dei criteri.
+* **mbox**: se il criterio utilizza mbox come origine dei dati comportamentali, una volta creato, il criterio verrà eseguito immediatamente. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l&#39;algoritmo può richiedere fino a 12 ore per l&#39;esecuzione. L&#39;apporto di modifiche alla configurazione dei criteri comporta la riesecuzione dei criteri.
 
-* **Analytics**: Se i criteri utilizzati [!DNL Adobe Analytics] come Origine dati comportamentale, una volta creati, l&#39;ora per la disponibilità dei criteri dipende dal fatto che la finestra di rapporti e la finestra di lookback selezionati siano state utilizzate per qualsiasi altro criterio. Se la suite di rapporti è stata utilizzata in precedenza con un intervallo di lookback esteso almeno quanto quello selezionato, i dati comportamentali sono già disponibili in Target e i consigli eseguono immediatamente i criteri. L&#39;algoritmo può richiedere fino a 12 ore per l&#39;esecuzione a seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo. Se la suite di rapporti non è stata utilizzata in precedenza o viene utilizzata con un intervallo di lookback più esteso, i consigli devono richiedere e ricevere dati da Adobe Analytics, quindi eseguire successivamente l&#39;algoritmo. Il processo di sincronizzazione con Analytics richiede di solito almeno 2 giorni e potrebbe richiedere fino a 7 giorni per il completamento in base al carico del sistema di Analytics.
+* **Analytics**: se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, una volta creato, il tempo per la disponibilità del criterio dipende dal fatto se la suite di rapporti e l’intervallo di lookback selezionati siano stati utilizzati o meno per altri criteri. Se la suite di rapporti è stata utilizzata in precedenza con un intervallo di lookback esteso almeno quanto quello selezionato, i dati comportamentali sono già disponibili in Target e i consigli eseguono immediatamente i criteri. L&#39;algoritmo può richiedere fino a 12 ore per l&#39;esecuzione a seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo. Se la suite di rapporti non è stata utilizzata in precedenza o viene utilizzata con un intervallo di lookback più esteso, i consigli devono richiedere e ricevere dati da Adobe Analytics, quindi eseguire successivamente l&#39;algoritmo. Il processo di sincronizzazione con Analytics richiede di solito almeno 2 giorni e potrebbe richiedere fino a 7 giorni per il completamento in base al carico del sistema di Analytics.
 
-## Basare la raccomandazione su una chiave di raccomandazione {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
+## Basare il consiglio su una chiave consiglio {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
 I consigli basati su chiavi utilizzano il contesto comportamentale dei visitatori per mostrare i risultati rilevanti.
 
@@ -202,28 +202,28 @@ Se la chiave è un attributo di profilo personalizzato e il tipo di algoritmo è
 
 Può essere utilizzato su qualsiasi pagina.
 
-**Utilizzare una chiave di raccomandazione personalizzata**
+**Utilizzare una chiave di consiglio personalizzata**
 
-Potete basare le raccomandazioni sul valore di un attributo di profilo personalizzato. Ad esempio, supponiamo di voler visualizzare filmati raccomandati in base al filmato aggiunto più di recente alla coda.
+Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad esempio, supponi di voler visualizzare filmati consigliati in base all’ultimo filmato che un visitatore ha aggiunto alla sua coda.
 
-1. Selezionate l&#39;attributo di profilo personalizzato dall&#39; **[!UICONTROL elenco a discesa Chiave]** raccomandazione (ad esempio, «Last Show Added to Watchlist»).
-1. Selezionate quindi la **[!UICONTROL logica raccomandazione]** (ad esempio &quot;People Who Viewed This, Viewed That&quot;).
+1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa **[!UICONTROL Chiave consigliata]** (ad esempio, “Ultimo filmato aggiunto alla watchlist”).
+1. Seleziona quindi la **[!UICONTROL Logica consigliata]** (ad esempio “Persone che hanno visualizzato questo, hanno visualizzato anche quello”).
 
-   ![Crea nuovo criterio, finestra di dialogo](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
+   ![Finestra di dialogo per creare un nuovo criterio](/help/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Se l&#39;attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, è necessario spiegare [!DNL Recommendations] come si desidera che la corrispondenza a un&#39;entità avvenga. Ad esempio, supponiamo di voler visualizzare gli elementi principali venduti dal marchio preferito di un visitatore.
+Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti della marca preferita di un visitatore.
 
-1. Seleziona l&#39;attributo di profilo personalizzato dall&#39; **[!UICONTROL elenco a discesa Chiave]** raccomandazione (ad esempio, «Marchio preferito»).
+1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa **[!UICONTROL Chiave consiglio]** (ad esempio, “Marchio preferito”).
 
-1. Quindi selezionate la **[!UICONTROL logica raccomandazione]** che desiderate utilizzare con questa chiave (ad esempio, &quot;Top Sellers&quot;).
+1. Quindi seleziona la **[!UICONTROL Logica consigli]** che desideri utilizzare con questa chiave (ad esempio, “Più venduti”).
 
-   Viene visualizzata l&#39;opzione [!UICONTROL Group by Unique Value of] (Valore gruppo per valore univoco).
+   Viene visualizzata l’opzione [!UICONTROL Raggruppa per valore univoco di].
 
-1. Selezionate l&#39;attributo entità che corrisponde alla chiave scelta. In questo caso «Brand Brand» corrisponde `entity.brand`a.
+1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In questo caso “Marchio preferito” corrisponde a `entity.brand`.
 
-   [!DNL Recommendations] ora genera un elenco «Top Sellers» (Più venduti) per ogni marchio e mostra al visitatore l&#39;elenco «Top Sellers» appropriato in base al valore memorizzato nell&#39;attributo profilo preferiti del visitatore.
+   [!DNL Recommendations] ora genera un elenco “Più venduti” per ogni marchio e mostra al visitatore l’elenco “Più venduti” appropriato in base al valore memorizzato nell’attributo di profilo Marchio preferito del visitatore.
 
-   ![Crea nuova finestra di dialogo dei criteri 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
+   ![Finestra di dialogo per creare un nuovo criterio 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
 ### Ultimo articolo acquistato
 
@@ -287,7 +287,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 ### Categoria preferita
 
-Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti. 
+Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
 
 Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
 
@@ -367,7 +367,7 @@ Per creare una semplice regola di inclusione, come accennato in precedenza, per 
    >
    >Questa opzione limita gli elementi visualizzati nel consiglio. Non interessa le pagine in cui viene visualizzato il consiglio. Per limitare le posizioni di visualizzazione per il consiglio, seleziona le pagine in Compositore esperienza.
 
-## Ponderazione degli attributi  {#task_2AEDA0DB15B74770B76F6982B24C2E42}
+## Ponderazione degli attributi {#task_2AEDA0DB15B74770B76F6982B24C2E42}
 
 Utilizza la ponderazione degli attributi per “spostare” l&#39;algoritmo in modo che alcuni elementi abbiano più probabilità di essere visualizzati. L’addetto al marketing può influenzare l’algoritmo in base a descrizioni importanti o metadati relativi al catalogo dei contenuti.
 
@@ -398,7 +398,7 @@ Le impostazioni [!UICONTROL Contenuto] determinano in che modo i consigli vengon
 
 Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
 
-Seleziona i tasti appropriati:
+Seleziona i pulsanti appropriati:
 
 * [!UICONTROL Abilita il rendering parziale della progettazione]
 * [!UICONTROL Mostra consigli di backup]
