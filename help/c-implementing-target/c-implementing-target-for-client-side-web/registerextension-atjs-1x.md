@@ -7,8 +7,8 @@ solution: Target
 subtopic: Introduzione
 title: registerExtension()
 topic: Standard
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -19,7 +19,7 @@ Fornisce un metodo standard per registrare un’estensione specifica.
 
 >[!NOTE]
 >
->Questa funzione è disponibile per at.js versione 1.Solo *x*. Questa funzione è stata rimossa con il rilascio di at.js 2.x e restituisce il contenuto predefinito se utilizzata con at.js 2.x.
+>Questa funzione è disponibile per at.js versione 1.*x*. Questa funzione è stata rimossa con il rilascio di at.js 2.x e restituisce il contenuto predefinito se utilizzata con at.js 2.x.
 
 Il parametro delle opzioni è obbligatorio e ha la seguente struttura:
 
