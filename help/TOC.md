@@ -198,7 +198,7 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
       + [Visualizzare un&#39;anteprima delle esperienze per un test di Automated Personalization (Personalizzazione automatizzata)](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Targeting delle offerte di Personalizzazione automatizzata](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestire le esclusioni](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Selezione del controllo per l&#39;attività Automated Personalization (Personalizzazione automatizzata) o Auto-Target (Destinazione automatica)](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Utilizzo di un&#39;esperienza specifica come controllo](c-activities/t-automated-personalization/experience-as-control.md)
       + [Domande frequenti sulla Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Risolvere i problemi relativi alla personalizzazione automatica](c-activities/t-automated-personalization/ap-trouble.md)
