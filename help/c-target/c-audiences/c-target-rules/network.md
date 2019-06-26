@@ -7,7 +7,7 @@ solution: Target
 title: Rete
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -55,7 +55,7 @@ Puoi creare un pubblico in base ai dettagli della rete.
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-L&#39;illustrazione seguente mostra un pubblico che esegue il targeting dei visitatori con AT &amp; T con una velocità di connessione Mobile [!UICONTROL ].
+The following illustration shows an audience that targets visitors using AT&amp;T with a connection speed of [!UICONTROL Mobile].
 
 ![Destinazione di rete](assets/target_network.png)
 
