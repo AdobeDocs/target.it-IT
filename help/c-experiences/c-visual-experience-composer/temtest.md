@@ -7,8 +7,8 @@ solution: Target
 title: Includere la stessa esperienza in pagine simili
 topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -85,4 +85,4 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/17401)
+>[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ita)
