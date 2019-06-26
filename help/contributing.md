@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+translation-type: tm+mt
 
 ---
 # Contributi
@@ -19,4 +19,4 @@ Tutti i contributi di terze parti a questo progetto devono essere accompagnati d
 
 ## Revisioni di codice
 
-Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione dei committer del progetto. Leggi [Documentazione relativa alle richieste di pull di GitHub](https://help.github.com/articles/about-pull-requests/) per ulteriori informazioni sull’invio di richieste di pull.
+Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione dei committer del progetto. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
