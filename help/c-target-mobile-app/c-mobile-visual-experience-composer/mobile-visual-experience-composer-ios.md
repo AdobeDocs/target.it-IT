@@ -8,7 +8,7 @@ title: 'iOS: configurare l''app mobile'
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 0447ec6a589534ec9ad2da8d809b66900e9b4617
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -233,7 +233,7 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
 + (void) prefetchOffersBackground;
 ```
 
-## Esercitazioni: Implementazione delle applicazioni Experience Cloud per dispositivi mobili iOS-C e Swift {#tutorial}
+## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
 
 * [Implementazione di Experience Cloud nelle applicazioni Objective-C di iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
 * [Implementazione di Experience Cloud nelle applicazioni Ios Swift per dispositivi mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
