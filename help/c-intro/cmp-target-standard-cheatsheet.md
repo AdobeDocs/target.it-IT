@@ -8,7 +8,7 @@ title: Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: ac86b0131b0c65f3367c47b3a1315c37d9b9aa93
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,13 +37,13 @@ Visita il [forum Target Community](../cmp-resources-and-contact-information.md#c
 
 Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
 
-## Librerie JavaScript di Target (at.js e mbox.js)  {#section_C2AC78DFDAD84981A8C84DF20893E340}
+## Librerie JavaScript di Target (at.js e mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
 **Quale file JavaScript di implementazione devo utilizzare, at.js o mbox.js?**
 
 at.js è la nostra libreria JavaScript più recente e più grande. mbox.js è la nostra versione precedente. Consulta [Vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per comprendere le differenze tra le due librerie. Tutti i nuovi clienti devono utilizzare at.js.
 
-Tutti i clienti mbox.js già esistenti devono migrare a at.js. Ulteriori informazioni sui passaggi  [per la migrazione da mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) prima di effettuare la transizione.
+Tutti i clienti mbox.js già esistenti devono migrare a at.js. Ulteriori informazioni sui passaggi [per la migrazione da mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) prima di effettuare la transizione.
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -190,7 +190,7 @@ Consulta [Regole modello](../c-experiences/c-visual-experience-composer/temtest.
 
 Questo è dovuto al fatto che il sito ha contenuto misto, è un sito che recupera sia le risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
-In questo caso, seguire le istruzioni  [Consentire contenuti misti nel browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
+In questo caso, segui le istruzioni [Consentire contenuti misti nel browser](../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
 **Posso provare il Compositore esperienza visivo sul mio sito anche se la libreria at.js di Target non è ancora stata distribuita?**
 
@@ -202,7 +202,7 @@ Prova le informazioni sulla [risoluzione dei problemi](../c-experiences/c-visual
 
 È anche disponibile un [approccio basato su modulo](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i  [proxy server di Adobe nella whitelist degli indirizzi consentiti](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [proxy server di Adobe nella whitelist degli indirizzi consentiti](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
@@ -330,11 +330,11 @@ Utilizza le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell&#
 
 Posso cambiare l&#39;esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?
 
-Per apportare queste modifiche utilizza le  [Impostazioni nella pagina Rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
+Per apportare queste modifiche utilizza le [Impostazioni nella pagina Rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
 
 Come devo interpretare i rapporti?
 
-Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come  [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
+Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
 
 ## Token di risposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
