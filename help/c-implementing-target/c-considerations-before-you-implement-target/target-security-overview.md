@@ -6,8 +6,8 @@ seo-title: Panoramica sulla sicurezza di Target
 solution: Target
 title: Panoramica sulla sicurezza di Target
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,4 +20,4 @@ In Adobe, prendiamo la sicurezza della tua esperienza digitale molto seriamente.
 
 Inoltre, il nostro lavoro di collaborazione con i partner, i principali ricercatori, gli istituti di ricerca sulla sicurezza e altre organizzazioni del settore ci aiuta a tenerci aggiornati sulle minacce e le vulnerabilità più recenti e a integrare regolarmente tecniche di sicurezza avanzata nei prodotti e nei servizi offerti.
 
-Per ulteriori informazioni, consulta il white paper [Panoramica della sicurezza di Adobe Target](https://www.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://wwwimages.adobe.com/content/dam/Adobe/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
