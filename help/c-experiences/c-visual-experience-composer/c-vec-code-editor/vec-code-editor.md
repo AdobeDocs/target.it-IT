@@ -8,8 +8,8 @@ subtopic: Editor di codice
 title: Modifiche
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -22,7 +22,7 @@ La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Com
 
 ## Panoramica sulle modifiche {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-Nella pagina [!UICONTROL Modifiche] vengono visualizzate tutte le modifiche apportate alla pagina nel Compositore esperienza visivo. Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato nell&#39;elenco delle [!UICONTROL modifiche].
+Nella pagina [!UICONTROL Modifiche] vengono visualizzate tutte le modifiche apportate alla pagina nel Compositore esperienza visivo. Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche.]
 
 ![](assets/codeeditor_page_mods.png)
 
