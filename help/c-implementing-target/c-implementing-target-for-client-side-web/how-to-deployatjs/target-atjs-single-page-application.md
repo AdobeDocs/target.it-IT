@@ -7,8 +7,8 @@ solution: Target
 title: Implementazione di un’applicazione a pagina singola
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -33,13 +33,13 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento:[Home page](https://target.enablementadobe.com/react/demo/#/)**
+**Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento:[Sito del prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -87,7 +87,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento:[Home page](https://target.enablementadobe.com/react/demo/#/)**
+   **Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Collegamento:[Sito dei prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento:[Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
 
 Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta “Prezzo” in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -279,18 +279,18 @@ I video che seguono contengono ulteriori informazioni:
 
 ### Come funziona at.js 2.x
 
->[!VIDEO](https://video.tv.adobe.com/v/26250)
+>[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-Per ulteriori informazioni, consulta [Funzionamento di at.js 2.x](https://helpx.adobe.com/it/target/kt/using/atjs20-diagram-technical-video-understand.html).
+See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
 
 ### Implementare at.js 2.x in un’applicazione a pagina singola
 
->[!VIDEO](https://video.tv.adobe.com/v/26248)
+>[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ita)
 
-Per ulteriori informazioni, consulta [Implementare at.js 2.x di Adobe Target in un’applicazione a pagina singola](https://helpx.adobe.com/it/target/kt/using/atjs2-single-page-application-technical-video-implement.html).
+See [Implement Adobe Target&#39;s at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249)
+>[!VIDEO](https://video.tv.adobe.com/v/26249?captions=ita)
 
-Per ulteriori informazioni, consulta [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target](https://helpx.adobe.com/it/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
+See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
