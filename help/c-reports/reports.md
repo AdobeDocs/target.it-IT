@@ -9,7 +9,7 @@ title: Rapporti
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 634ea3ccbd875aff27391e79812028f236f53608
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -42,7 +42,7 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 
    Ad esempio, puoi selezionare [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] dall’elenco a discesa [!UICONTROL Tipo] e [!UICONTROL Live] dall’elenco a discesa [!UICONTROL Stato] per visualizzare solo i test A/B e le attività di targeting di esperienza che si trovano in uno stato attivo.
 
-   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati: Test A/B e targeting delle esperienze. I tre tipi di test A/B (Manuale, [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)e [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) sono selezionati per impostazione predefinita. È possibile deselezionare uno o più tipi in base alle esigenze.
+   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati: Test A/B e targeting delle esperienze. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. È possibile deselezionare uno o più tipi in base alle esigenze.
 
    ![Filtrare i rapporti per tipo](/help/c-reports/assets/report_filters-new.png)
 
