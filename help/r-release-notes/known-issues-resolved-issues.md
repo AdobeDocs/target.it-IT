@@ -7,8 +7,8 @@ solution: Target
 title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -70,7 +70,7 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito ha filtrato gli algoritmi, ma la [casella di controllo Compatibile](https://marketing.adobe.com/resources/help/it_IT/target/recs/t_algo_select_recs.html) consente di visualizzarne l’elenco completo.
+* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) consente di visualizzare l’elenco completo degli algoritmi.
 
    Quando si utilizza at.js, la casella di controllo Compatibile è nascosta e non è pertanto possibile visualizzare gli algoritmi non compatibili.
 
