@@ -6,8 +6,8 @@ seo-title: Offerte
 solution: Target
 title: Offerte
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -90,8 +90,8 @@ Sono disponibili le seguenti informazioni:
 
 Questo video include informazioni sulla gestione delle offerte.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/it_IT/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ita)
