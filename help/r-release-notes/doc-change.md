@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
+source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: a30f868c49bca7a0c017d272b435a6a351c6e9a6
 # Modifiche alla documentazione{#documentation-changes}
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 19.6.1 (26 giugno 2019) {#tgt-19-6-1}
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 26 giugno 2019 | [Opzioni esperienza visiva](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
+|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
+|  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
+|  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings) | Nuova sezione: &quot; Impostazioni di consegna pagina per SPA VEC. &quot; |
+|  | [Selezione del controllo per Automated Personalization (Personalizzazione automatizzata) o Auto-Target Attività](/help/c-activities/t-automated-personalization/experience-as-control.md) | Nuovo argomento. |
+|  | [Criteri cookie Google Chrome samesite](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Nuovo argomento. |
+|  | [Raccolta di dati per gli algoritmi di personalizzazione Target](/help/c-activities/t-automated-personalization/ap-data.md) | Sono state aggiunte nuove tabelle per spiegare singoli assenti e fornire esempi. |
+|  | [Domande frequenti su Automated Personalizaton (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Sono state aggiunte nuove domande frequenti: &quot; Posso specificare un&#39;esperienza specifica da utilizzare come controllo? &quot;<br>Modificate le seguenti domande frequenti: &quot; Quali sono le best practice per configurare un&#39;attività di Automated Personalization? &quot; |
+|  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Sono state aggiunte informazioni e domande frequenti su come specificare un&#39;esperienza specifica da utilizzare come controllo.<br>Aggiornamento della sezione &quot;Determinazione della allocazione traffico&quot;. |
+|  | [Creare un&#39;attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | Aggiunto un passaggio con informazioni per selezionare un&#39;esperienza specifica come predefinita. |
+|  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state aggiunte informazioni su come gestire più versioni app mobili. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 19.5.1 (21 maggio 2019) {#tgt-19-5-1}
 
@@ -37,7 +54,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 5 giugno 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Added new [Troubleshooting](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) section. |
 |  | [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Aggiornate informazioni sulla distribuzione di at. js utilizzando Adobe Launch, che è il metodo di distribuzione preferito. |
 |  | [Concetti chiave di Target](/help/c-intro/target-key-concepts.md) | Modifiche di testo minori. |
-| 3 giugno 2019 | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
+| 3 giugno 2019 | [Release notes (current)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla prossima release di at. js 2.1.0. |
 |  | [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Aggiunta nuova sezione: &quot; Registrazione Analytics lato client. &quot; |
 |  | [Implementazione di Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Passaggio 7 rivisto. |
