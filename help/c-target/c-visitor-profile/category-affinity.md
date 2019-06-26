@@ -8,7 +8,7 @@ title: Affinità tra categorie
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: aec07af081ddc3f7e7f0dedf83c4bb3051ac9711
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ In base alla frequenza e recency delle visite alle categorie di prodotti, viene 
 
 >[!IMPORTANT]
 >
->L&#39; `user.categoryId` attributo utilizzato per l&#39;algoritmo affinità categoria di Adobe Target è distinto dall&#39; `entity.categoryId` attributo utilizzato per le raccomandazioni di prodotto e di contenuto di Adobe Target Recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare le raccomandazioni sulla categoria della pagina corrente o dell&#39;elemento corrente. Passate entrambi i valori ad Adobe Target se desiderate utilizzare entrambe le funzionalità.
+>The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare le raccomandazioni sulla categoria della pagina corrente o dell&#39;elemento corrente. Passate entrambi i valori ad Adobe Target se desiderate utilizzare entrambe le funzionalità.
 
 ## Business case per affinità tra categorie {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
