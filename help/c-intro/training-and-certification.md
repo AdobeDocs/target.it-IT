@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Formazione e certificazione
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
 
 Adobe Training Services fornisce corsi e certificazioni.
 
-Per un elenco dei corsi disponibili, sia online che con istruttore, visita il sito web [Adobe Customer Training](https://training.adobe.com/training/courses.html#solution=adobeTarget).
+Per un elenco dei corsi disponibili, con istruttore e online, visita il [sito web di Adobe Customer Training](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
 Per ulteriori informazioni, contatta il centro Adobe Training Services per la tua area geografica.
 
