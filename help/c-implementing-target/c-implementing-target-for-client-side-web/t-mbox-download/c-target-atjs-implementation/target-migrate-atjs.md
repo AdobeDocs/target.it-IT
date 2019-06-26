@@ -7,8 +7,8 @@ solution: Target
 title: Come migrare a at.js da mbox.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -82,7 +82,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    >[!NOTE]
    >
-   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità. [Dynamic Tag Management](https://dtm.adobe.com) di Adobe è gratuita per i clienti [!DNL Target] ed è il metodo consigliato per distribuire [!DNL Target]. Per ulteriori informazioni, consulta le [best practice per l’implementazione di Adobe Target con Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
+   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità. [Dynamic Tag Management](https://dtm.adobe.com) di Adobe è gratuita per i clienti [!DNL Target] ed è il metodo consigliato per distribuire [!DNL Target]. Per ulteriori informazioni, vedi [Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management](https://marketing.adobe.com/resources/help/en_US/dtm/target/).
 
 1. Verifica che tutte le attività e le integrazioni correnti funzionino come previsto.
 
