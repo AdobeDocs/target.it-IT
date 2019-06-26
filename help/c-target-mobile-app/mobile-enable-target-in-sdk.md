@@ -6,8 +6,8 @@ seo-title: Attivare Target nell’SDK
 title: Attivare Target nell’SDK
 topic: Target
 uuid: 673dd5c7-9c09-4a6e-bc41-c6ad27cf269c
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -20,7 +20,7 @@ Aggiungi l’SDK di Adobe Mobile Services all’app.
 
 1. Aggiungi l’SDK di Adobe Mobile Services all’app.
 
-   Le istruzioni sono disponibili in [Implementazione di base e ciclo di vita](https://marketing.adobe.com/resources/help/it_IT/mobile/ios/dev_qs.html).
+   È possibile trovare le istruzioni alla voce [Implementazione principale e Ciclo di durata](https://marketing.adobe.com/resources/help/en_US/mobile/ios/dev_qs.html).
 1. Aggiungere il codice client, timeout e abilitare SSL.
 
    In Experience Cloud, apri Mobile Services, quindi vai su **[!UICONTROL Gestisci impostazioni app]** &gt; **[!UICONTROL Opzioni Target SDK]**.
