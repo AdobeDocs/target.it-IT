@@ -1,32 +1,32 @@
 ---
-description: Potete visualizzare i valori di profilo e le informazioni sull'attività direttamente in un'offerta HTML o JSON.
-keywords: dati dinamici; risorse; dati; offerte; offerte personalizzate; offerte personali; sostituzione token
-seo-description: Potete visualizzare i valori di profilo e le informazioni sull'attività direttamente in un'offerta HTML o JSON.
+description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
+keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
+seo-description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
 seo-title: Trasmettere i dati dinamici nelle offerte
 solution: Target
 title: Trasmettere i dati dinamici nelle offerte
 topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: bdbdc98949b4b678b04d1dd2b772e8ffd5975e4b
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
 
 # Trasmettere i dati dinamici nelle offerte{#pass-dynamic-data-into-offers}
 
-Potete visualizzare in modo dinamico le informazioni dei visitatori memorizzate nel profilo di Target. Analogamente, anche le informazioni relative all&#39;attività (come il nome dell&#39;attività o il nome dell&#39;esperienza) possono essere utilizzate anche per creare una singola offerta in grado di restituire dinamicamente contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
+Puoi visualizzare in modo dinamico le informazioni dei visitatori memorizzate nel profilo Target. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
 
-**Casi di business**
+**Casi aziendali**
 
-* Promuovere un&#39;offerta scontata per «ridisporre» o «ricostituire» l&#39;ultimo prodotto acquistato. Invece di creare un&#39;offerta separata per ogni elemento del catalogo, potete creare un&#39;offerta con testo dinamico che legge l &#39;«ultimo prodotto acquistato» dal profilo e visualizza un collegamento nell&#39;offerta.
+* Promuovere un’offerta scontata per un acquisto relativo all’ultimo prodotto acquistato. Invece di creare un’offerta separata per ogni elemento del catalogo, puoi creare un’offerta con testo dinamico che visualizza “l’ultimo prodotto acquistato” dal profilo insieme a un collegamento nell’offerta.
 * Un visitatore arriva sulla pagina di destinazione con `keyword=world` `cup`. Mostra il termine *World cup* nell&#39;offerta.
-* Personalizzate un&#39;etichetta di Recommendations con informazioni come (1) l&#39;ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000 s), (2) la preferenza colore del visitatore (nero) e (3) la categoria non stampabile preferita dal visitatore (hoodies). Esempio: &quot; Accedete a «Nike Air Max 1000 s» con questi cool&#39;black &#39;&#39;hoodies &#39;!»
+* Personalizza un’etichetta di consigli con informazioni come (1) l’ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000), (2) la preferenza colore del visitatore (nero) e (3) la categoria non relativa alla scarpa preferita dal visitatore (felpe). Esempio: “Abbina a “Nike Air Max 1000” queste fantastiche “felpe” “nere””.
 
 
 **Vantaggi tecnici**
 
-Dato che preferenze, comportamenti, stato e così via specifici per l&#39;utente possono essere memorizzati nel profilo dell&#39;utente, è possibile ripetere questo messaggio nelle visite successive. Le offerte dinamiche consentono una maggiore scala consentendo di configurare una singola offerta all&#39;interno di un&#39;attività che visualizza messaggi personalizzati per tutti i visitatori. Quando l&#39;intento del visitatore cambia, il contenuto del sito Web riflette automaticamente tali modifiche.
+Poiché le preferenze, i comportamenti, gli stati specifici dell’utente possono essere memorizzati nel profilo utente, puoi ripetere questo messaggio nelle visite successive. Le offerte dinamiche consentono una maggiore estensione: ti permettono infatti di configurare una singola offerta all’interno di un’attività che visualizza messaggi personalizzati per tutti i visitatori. Il contenuto del sito Web si aggiorna automaticamente per riflettere i cambiamenti nell’intento del visitatore.
 
 **Esempio**
 
@@ -48,17 +48,17 @@ I seguenti valori possono essere “sostituiti tramite token”:
 | Prima sessione del visitatore (vero o falso) | `${user.isFirstSession}` |
 | Comportamento passato | `${user.endpoint.lastPurchasedEntity}`, `${user.endpoint.lastViewedEntity}`, `${user.endpoint.mostViewedEntity}`, `${user.endpoint.categoryAffinity}` |
 
-Log information in the console for debugging purposes, such as `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
+Registra le informazioni nella console per scopi di debug, come `${campaign.name}`, `${campaign.id}`, `${campaign.recipe.name}`, `${campaign.recipe.id}`, `${offer.name}`, `${offer.id}`, `${campaign.name}`
 
-Per le progettazioni di Recommendations, consultate Altri esempi in [Panoramica progettazione](/help/c-recommendations/c-design-overview/design-overview.md).
+Consulta ulteriori esempi in [Panoramica della progettazione](/help/c-recommendations/c-design-overview/design-overview.md) per progetti Consigli.
 
 **Implementazione**
 
-Per i parametri di profilo passati in una mbox, utilizzate la sintassi: `${profile.parameter}` Per i parametri di profilo creati in uno script di profilo, utilizzate la sintassi:
+Per i parametri di profilo trasmessi in una mbox, utilizza la sintassi: `${profile.parameter}`; per i parametri di profilo creati in uno script di profilo, utilizza la sintassi:
 
 `${user.parameter}`
 
-Quando utilizzate gli attributi dinamici in una progettazione di Recommendations, dovete inserire una barra rovesciata (&#39;\&#39;) prima del simbolo del dollaro (&#39;$&#39;) per rendere il valore dinamico corretto: `\${user.endpoint.lastViewedEntity}`
+Durante l’utilizzo degli attributi dinamici nei progetti Consigli, devi inserire una barra inversa (\) prima del simbolo del dollaro ($) affinché il valore dinamico possa essere visualizzato correttamente: `\${user.endpoint.lastViewedEntity}`
 
 Queste variabili sono sostituite con il valore sul lato server, quindi nessuna virgoletta o altro JavaScript è necessario per la visualizzazione corretta.
 
