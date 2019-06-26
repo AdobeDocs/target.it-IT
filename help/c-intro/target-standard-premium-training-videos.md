@@ -8,7 +8,7 @@ title: Video di formazione su Adobe Target Standard e Premium
 topic: Advanced
 uuid: 8c6bfedb-3972-4fd3-98c4-c3781a556e62
 translation-type: tm+mt
-source-git-commit: 5c6dcc8bc69b36cc70de5d790c9b491cd6ee5365
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -39,6 +39,6 @@ Nella pagina [Adobe Target Experience League](https://guided.adobe.com/#recommen
 
 ## Esercitazioni di Adobe Target {#tutorials}
 
-Le presentazioni video su [!DNL Target] concetti e strumenti sono disponibili nella pagina [Esercitazioni](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) di Adobe Target.
+Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://docs.adobe.com/content/help/en/target-learn/tutorials/overview.html) page.
 
 ![Esercitazioni di Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
