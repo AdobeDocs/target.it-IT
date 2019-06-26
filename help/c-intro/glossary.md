@@ -7,7 +7,7 @@ title: Glossario
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 385864d9daae19468c4557e51043d5b788924658
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -26,7 +26,7 @@ Il test A/B confronta due o più versioni del contenuto del sito web per vedere 
 
 Dashboard che consente di visualizzare una panoramica rapida delle attività.
 
-**attività**
+**di Consigli**
 
 Consentono di sottoporre a test le progettazioni di pagine e indirizzare i contenuti a tipi di pubblico specifici.
 
@@ -68,7 +68,7 @@ La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l&
 
 Consentono di sottoporre a test e di monitorare le visite ad annunci e altri contenuti offsite. Puoi inoltre utilizzare gli annunci comportamentali per identificare lo stesso utente sul sito e all&#39;esterno di esso e per fornirgli un&#39;esperienza Web coerente.
 
-## C  {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
+## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
 **campagna**
 
@@ -144,7 +144,7 @@ Consente alle applicazioni Rich Internet (RIA) di manipolare l&#39;HTML dopo che
 
 Utilizza la tecnologia a pagina dinamica per trasmettere valori all&#39;offerta.
 
-## E  {#section_55C3D8AF3D31494784C70090D8343244}
+## E {#section_55C3D8AF3D31494784C70090D8343244}
 
 **coinvolgimento**
 
@@ -154,7 +154,7 @@ La misura dell&#39;interesse di un visitatore nei confronti di un sito, misurato
 
 Il [!UICONTROL Compositore esperienza avanzato] è un’estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
 
-**Autorizzazioni per gli utenti aziendali**
+**Autorizzazioni per gli utenti Enterprise**
 
 Un mezzo per amministrare l&#39;accesso dell&#39;utente a livello aziendale a Target. Aggiungete utenti a Target, assegnate autorizzazioni in base ai loro ruoli e create aree di lavoro per i team basati su diversi reparti, posizioni globali, canale e altri raggruppamenti logici. Potete assegnare agli utenti i ruoli di Observer, Editor o Approver.
 
@@ -172,13 +172,13 @@ Per facilitare la gestione, gli host sono raccolti in ambienti. I gruppi di host
 
 **esperienza**
 
-Un&#39;offerta, un&#39;immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un&#39;intera pagina Web o un set di pagine che probabilmente formano un funnel acquisto o un&#39;altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale, di uno script di servizio clienti o anche di un gusto personalizzato da un sistema di bevande. Potete testare o personalizzare esperienze nelle [!DNL Target] attività.
+Un&#39;offerta, un&#39;immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un&#39;intera pagina Web o un set di pagine che probabilmente formano un funnel acquisto o un&#39;altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale, di uno script di servizio clienti o anche di un gusto personalizzato da un sistema di bevande. You test or personalize experiences in [!DNL Target] activities.
 
 **targeting delle esperienze**
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
-## F  {#section_45450032955C4DD2B607B85A23C4E21A}
+## F {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **feed**
 
@@ -200,7 +200,7 @@ La rappresentazione visiva di un&#39;attività in Target Standard.
 
 Un&#39;interfaccia non visiva e un&#39;interfaccia di creazione di offerte utili per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
 
-## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parametro di geolocalizzazione**
 
@@ -210,7 +210,7 @@ Consente di eseguire il targeting di campagne ed esperienze in base alla posizio
 
 La conversione o il risultato che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico.
 
-## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **host**
 
@@ -226,7 +226,7 @@ Vedi *Ambiente*. I gruppi di host sono chiamati “ambienti” in [!DNL Target S
 
 Parametro specifico del visitatore trasmesso al cookie del visitatore dall&#39;elemento mbox. Il visitatore di ritorno è un esempio di parametro di profilo in-mbox.
 
-## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **campagna di pagina di destinazione**
 
@@ -236,7 +236,7 @@ Consente di utilizzare il targeting per visualizzare contenuti diversi nella pag
 
 Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
-## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -276,7 +276,7 @@ Consente ai visitatori di rinunciare a tutte le operazioni di conteggio e di dis
 
 Garantisce che le esperienze più efficaci siano visualizzate più spesso distribuendo automaticamente il traffico ai segmenti con le prestazioni più elevate.
 
-## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **conteggio di pagina**
 
@@ -286,7 +286,7 @@ Una metrica di coinvolgimento che calcola il numero di pagine visualizzate in un
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-## R  {#section_86725D549B6F46A6ADEE424F33595705}
+## R {#section_86725D549B6F46A6ADEE424F33595705}
 
 **ricetta**
 
@@ -338,7 +338,7 @@ Simile al parametro di profilo di script, ma predefinito per fornire utili funzi
 
 I parametri utilizzati per misurare il successo di un&#39;attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un&#39;esperienza o un&#39;offerta specifica in un&#39;attività Target. Ad esempio, potete determinare se una nuova offerta aumenta le entrate per visitatore o aggiungere un elemento a un carrello. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l&#39;ordinazione o l&#39;acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
 
-## T  {#section_1841144841AF41169AF1E83B90C18292}
+## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -348,13 +348,13 @@ Una campagna che mette a confronto due o più esperienze con le metriche di succ
 
 Un tipo di coinvolgimento che rappresenta la durata della visita (in secondi) dal momento in cui il visitatore vede il primo elemento mbox di visualizzazione della campagna al caricamento della pagina finale nella sessione con un elemento mbox.
 
-## U  {#section_6407B81326FF43049D92265746E6C402}
+## U {#section_6407B81326FF43049D92265746E6C402}
 
 **parametri URL**
 
 Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse automaticamente a un elemento mbox ogni volta che la pagina con l&#39;elemento mbox viene visualizzata da un visitatore. Queste variabili URL sono quindi disponibili per l&#39;utilizzo a scopo di targeting di visualizzazione o per i filtri per segmenti nei rapporti.
 
-## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visitatore**
 
@@ -364,7 +364,7 @@ Un visitatore è qualsiasi soggetto che accede al sito. Un visitatore viene valu
 
 In Target Standard, un&#39;interfaccia utente WYSIWYG che consente di creare e sottoporre a test esperienze e offerte personalizzate nel contesto del sito. Potete creare esperienze e offerte per attività Target trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) oppure di una pagina Web per dispositivi mobili.
 
-## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **esperienza vincente**
 
