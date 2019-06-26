@@ -8,7 +8,7 @@ title: Combinare più tipi di pubblico
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: c853ac9a9447a10b753e53fd707f6f72db2889b0
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -25,7 +25,7 @@ Secondo un altro esempio, è possibile indirizzare tutti i clienti fidelizzati i
 
 È possibile creare e utilizzare il pubblico combinato in varie posizioni in tutta l&#39;interfaccia utente di [!DNL Target]. 
 
-## Creazione di un pubblico combinato durante la creazione di un&#39;attività {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
+## Create a combined audience while creating an activity {#section_2F1CE9434CC04174B4BA2BFC89B85D77}
 
 Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] dell&#39;attività durante il flusso di lavoro guidato in tre passaggi.
 
@@ -77,7 +77,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
 1. Fornisci un nome descrittivo per il pubblico combinato, quindi fai clic su **[!UICONTROL Salva]**.
 
-## Creare un pubblico combinato da usare nel targeting delle metriche {#section_A42E795AFCBD4575809C5942039910F0}
+## Create a combined audience for use in metric targeting {#section_A42E795AFCBD4575809C5942039910F0}
 
 Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e impostazioni] dell&#39;attività da utilizzare nel targeting metrico. Ad esempio, per creare un targeting basato sulla conversione utilizzando un pubblico combinato:
 
@@ -103,7 +103,7 @@ Puoi creare un pubblico combinato specifico nella pagina dell&#39;attività [!UI
 
 1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
 
-## Creazione di un pubblico combinato durante la modifica di un&#39;attività {#section_364A12CE96E04B61B7C18113AA586C2C}
+## Create a combined audience while editing an activity {#section_364A12CE96E04B61B7C18113AA586C2C}
 
 Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attività esistente.
 
@@ -113,7 +113,7 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    Fai clic sull&#39;attività desiderata per aprirla, quindi fai clic su **[!UICONTROL Modifica attività]**.
 
-1. Fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Audience]** &gt; **[!UICONTROL Audience multiple]**.
+1. Click the **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
 
    ![Configura &gt; Audience &gt; Audience multiple](/help/c-target/assets/combine_multiple_audiences7.png)
 
