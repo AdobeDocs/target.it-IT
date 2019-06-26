@@ -8,7 +8,7 @@ title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 810ddd1e3fe257d5b1d69fc23d5cf2585b39288a
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -23,7 +23,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 
 1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fate clic **[!UICONTROL su Aggiungi regola]** &gt; **[!UICONTROL Personalizzato]**.
+1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
 
    Per selezionare il parametro desiderato:
 
