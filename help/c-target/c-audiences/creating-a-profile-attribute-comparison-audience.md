@@ -8,7 +8,7 @@ title: Creare un pubblico per il confronto degli attributi di profilo
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: ebb13f6040f8908f46c74c6c82a60da0845b2aec
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
