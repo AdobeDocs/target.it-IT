@@ -8,8 +8,8 @@ subtopic: Introduzione
 title: Impostazioni API del profilo
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -37,7 +37,7 @@ Per una maggiore sicurezza, puoi scegliere che l’intestazione della richiesta 
 
    >[!NOTE]
    >
-   >Puoi anche generare un token di autenticazione profilo tramite API. Per ulteriori informazioni, consulta [Profili](https://developers.adobetarget.com/api/#profiles) sul sito web [Adobe Target Developers](https://developers.adobetarget.com/).
+   >Puoi anche generare un token di autenticazione profilo tramite API. Per ulteriori informazioni, vedi [Profili](https://developers.adobetarget.com/api/#profiles) sul [sito web per sviluppatori di Adobe Target](https://developers.adobetarget.com/).
 
 1. Copia il token e includilo nell’intestazione della richiesta nel formato: &quot;Authorization&quot; : &quot;Bearer&quot;.
 
