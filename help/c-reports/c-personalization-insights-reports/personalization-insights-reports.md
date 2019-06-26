@@ -8,8 +8,8 @@ title: Rapporti Approfondimenti personalizzazione
 title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -58,6 +58,6 @@ Target offre diverse opzioni per la trasmissione di dati a Target al fine di aum
 
 ## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/25601/)
+>[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=ita)
 
-Per ulteriori informazioni, consulta [Utilizzo dei rapporti Approfondimenti personalizzazione in Adobe Target](https://helpx.adobe.com/it/target/kt/using/personalization-insights-report-feature-video-use.html).
+For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
