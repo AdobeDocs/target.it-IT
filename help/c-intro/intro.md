@@ -8,7 +8,7 @@ title: Introduzione a Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: c5d8c32668eab6d317bda54eccfe47088a4eb999
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -31,7 +31,7 @@ Nella soluzione [!DNL Adobe Target] sono inclusi diversi componenti:
 | Target Premium | Aggiunge funzionalità Premium all&#39;interfaccia di Target Standard. |
 | Recommendations Classic | Visualizza automaticamente prodotti o contenuti di potenziale interesse per il cliente in base alla precedente attività dell&#39;utente sul sito web. |
 
-## Target Standard  {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
+## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
 [!DNL Target Standard] è un front-end per [!DNL Adobe Target] che consente di creare e gestire visivamente test A/B e attività di targeting basate su regole e di connettersi ad Adobe Experience Cloud. Con [!DNL Target Standard] è possibile inserire codici personalizzati sia all&#39;interno sia all&#39;esterno del flusso di lavoro del [!UICONTROL Compositore di esperienza visiva]. Mediante [!DNL Target Standard] viene fornita una strategia di implementazione semplificata con le tue risorse digitali: basta una riga di codice in ogni pagina per gestire tutte le comunicazioni necessarie tra il sito e [!DNL Adobe Target].
 
@@ -55,7 +55,7 @@ Con la funzionalità Personalizzazione automatizzata vi è un apprendimento auto
 
 La funzione [Targeting automatico per esperienze personalizzate](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.
 
-### Consigli 
+### Consigli
 
 Mediante le attività [Consigli](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) vengono visualizzati automaticamente prodotti o contenuti che potrebbero interessare ai clienti sulla base delle loro precedenti attività. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
@@ -75,16 +75,16 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 ### Consigli come offerta
 
-[Recommendations come offerta](/help/c-recommendations/recommendations-as-an-offer.md) consente di includere raccomandazioni all&#39;interno di [!UICONTROL test A/B] (incluse [!UICONTROL Auto-allocate] e [!UICONTROL Auto-Target]) e attività di targeting [!UICONTROL delle esperienze] (XT).
+La funzione [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) consente di includere i consigli all’interno di attività [!UICONTROL test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e di [!UICONTROL targeting delle esperienze] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
-* Contenuto relativo e non relativo a consigli di test e targeting all&#39;interno della stessa attività.
+* Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
 * Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
 
-### Autorizzazioni per gli utenti aziendali
+### Autorizzazioni per gli utenti Enterprise
 
 Con la funzionalità [Autorizzazioni utente Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) è possibile creare progetti diversi (denominati “profili prodotto” in Adobe Admin Console per Enterprise) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in Adobe Analytics. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici che si applicano a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l’accesso alla visualizzazione, alla modifica e all’approvazione dei propri utenti in base all’area geografica, all’ambiente (sviluppo, staging, produzione), al canale o ad altri criteri personalizzati.
 
@@ -94,7 +94,7 @@ Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti
 
 Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience Ltd: Il kit di benvenuto di Adobe Target {#kit}
+## Experience League: The Adobe Target Welcome Kit {#kit}
 
 Create il vostro programma di ottimizzazione e personalizzazione su Adobe Target con questo kit di benvenuto! Include informazioni chiave, strumenti e risorse per preparare e avviare la tua prima attività Adobe Target, con soluzioni rapide a breve e strategie di ottimizzazione a lungo termine.
 
@@ -108,4 +108,4 @@ Il video di seguito spiega i tipi di attività disponibili in [!DNL Target Stand
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386)
+>[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
