@@ -8,8 +8,8 @@ subtopic: Test multivariato
 title: Minimizzare i conteggi gonfiati per visite e visitatori in A4T
 topic: Standard
 uuid: 1d5f242a-634f-47f7-ad23-b62019359734
-translation-type: ht
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
+translation-type: tm+mt
+source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ---
 
@@ -77,7 +77,7 @@ Nella maggior parte delle situazioni, un risultato di [!DNL Target] è vincolato
 
 **Risultati con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo comporta risultati con dati parziali (risultati senza visualizzazioni pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], verranno conteggiati correttamente come visitatori ritornati. Questi risultati verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi risultati perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedranno visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
 
-Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/it_IT/reference/virtual-report-suites.html) che escluda tali risultati. Per istruzioni dettagliate, consulta [Creazione di suite di rapporti virtuali](https://marketing.adobe.com/resources/help/it_IT/reference/vrs-create.html) nella documentazione di prodotto di [!DNL Analytics].
+Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/en_US/reference/virtual-report-suites.html) che escluda tali risultati. Per istruzioni dettagliate, vedi [Creazione di suite di rapporti virtuali](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) nella documentazione di [!DNL Analytics].
 
 Nell&#39;illustrazione seguente viene mostrata la definizione di un segmento per la suite di rapporti virtuale:
 
@@ -98,7 +98,7 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 
 **Risultati orfani:** in poche situazioni, gli utenti non rimangono sulla pagina abbastanza a lungo per una chiamata Analytics e Target non riceve un MCID corretto. Questi risultati vengono definiti “orfani”. Rappresentano i clienti che ritornano raramente e gonfiano il conteggio delle visite e dei visitatori.
 
-Per ridurre al minimo questi risultati “orfani”, crea una [suite di rapporti virtuali](https://marketing.adobe.com/resources/help/it_IT/reference/vrs-create.html) che esclude tali risultati, come descritto in precedenza.
+Per ridurre al minimo i risultati orfani, è possibile creare una [suite di rapporti virtuale](https://marketing.adobe.com/resources/help/en_US/reference/vrs-create.html) che escluda tali risultati, come spiegato in precedenza.
 
 ## Che cosa significa questo per i rapporti di [!DNL Target]? {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
