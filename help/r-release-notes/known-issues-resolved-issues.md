@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
 
 ---
 
@@ -24,6 +24,10 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Il rapporto grafico per un&#39;attività di Target automatico non viene eseguito correttamente quando si utilizza un&#39;esperienza personalizzata come controllo
+
+Il rapporto grafico per un&#39;attività di Target automatico non viene eseguito correttamente per le modalità &quot;differenziale&quot; (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione potrebbe verificarsi durante la fase iniziale di un&#39;attività se l&#39;esperienza di controllo è impostata su personalizzata. Per le altre modalità (Controlli media e Targeting giornaliero, Controllo giornaliero e Destinazione e Visite) funziona correttamente. Non appena sono presenti alcuni dati (visite non-zero), il rapporto viene riprodotto come previsto.
 
 ### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo{#cancel}
 
