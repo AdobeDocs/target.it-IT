@@ -2,13 +2,13 @@
 description: Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
 keywords: problemi noti;problemi risolti;note sulla versione
 seo-description: Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
-seo-title: Problemi noti e problemi risolti
+seo-title: Problemi noti e problemi risolti in Adobe Target
 solution: Target
 title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -24,6 +24,14 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Offerte di reindirizzamento {#redirect}
+
+Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
+
+* In alcune condizioni, un numero limitato di clienti ha segnalato più livelli di varianza nella distribuzione del traffico quando si utilizza un&#39;offerta di reindirizzamento nelle attività configurate con Analytics per Target (A 4 T). Gli ingegneri Adobe stanno attualmente lavorando su questo problema.
+* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Gli aggiornamenti sono pianificati all&#39;implementazione at. js per garantire che questa condizione race sia evitata. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
 ### Il rapporto grafico per un&#39;attività di Target automatico non viene eseguito correttamente quando si utilizza un&#39;esperienza personalizzata come controllo
 
@@ -92,13 +100,6 @@ Di seguito sono riportati problemi noti relativi a at.js:
 La libreria mbox.js non supporta linguaggi di template lato client, come Handlebar e Mustache. La libreria at.js *supporta* tali linguaggi.
 
 **Nota**: la libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
-### Offerte di reindirizzamento
-
-Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
-
-* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Sono previsti aggiornamenti nel secondo trimestre del 2018 per l’implementazione di at.js in modo da evitare tale condizione di concorrenza. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
 ### Implementazione: Creazione automatica mbox globale
 
