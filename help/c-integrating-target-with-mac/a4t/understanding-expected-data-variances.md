@@ -8,7 +8,7 @@ title: Varianze di dati previste quando non si utilizza A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
 
 ---
 
@@ -28,6 +28,10 @@ Di seguito sono riportati alcuni scenari in cui potresti riscontrare una varianz
    Se è configurato un test di reindirizzamento in Target per dividere il traffico 50/50 (o 25/25/25/25, ecc.), il comportamento utente potrebbe non essere diviso in modo uniforme. Se visualizzi una suddivisione non uniforme, significa semplicemente che, per un gruppo di utenti, si è verificata una maggiore incidenza di mancata esecuzione della chiamata Analytics sulla pagina di destinazione, rispetto agli altri gruppi. La mancata esecuzione della chiamata di Analytics per un gruppo ha causato l’esclusione dell’hit di Target per tali utenti, creando così una discrepanza nei dati.
 
    È un problema che speriamo di poter affrontare in futuro, con A4T su Adobe Experience Platform. I nostri team stanno lavorando sul modo migliore di gestire eventi diversi che si verificano in momenti diversi della pagina.
+
+   >[!NOTE]
+   >
+   >Un problema noto causa l&#39;uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Supponi di creare un’attività di allocazione automatica aperta a tutti i visitatori di una pagina particolare. Dato che le attività di allocazione automatica non supportano A4T, tutti i dati delle attività vengono raccolti per [!DNL Target]. Potresti aspettarti che i visitatori dell’attività corrispondano, nei rapporti di [!DNL Target], ai visitatori di quella pagina nei rapporti di [!DNL Analytics] considerando stesso intervallo di date. È uno scenario in cui la varianza descritta sotto è prevista.
 
