@@ -1,5 +1,5 @@
 ---
-description: Queste note sulla versione contengono informazioni su funzioni, miglioramenti, correzioni di problemi e problemi noti per le versioni più recenti o in arrivo di Target.
+description: Queste note sulla versione contengono informazioni su funzioni, miglioramenti, correzioni di problemi e problemi noti per le versioni più recenti o in arrivo di Adobe Target.
 keywords: note sulla versione
 seo-description: Queste note sulla versione contengono informazioni su funzioni, miglioramenti, correzioni di problemi e problemi noti per le versioni più recenti o in arrivo di Adobe Target
 seo-title: Note di rilascio di Adobe Target (prerelease)
@@ -8,7 +8,7 @@ title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: de5d1a5852c7c6b59521e8d89493d48959a5b377
+source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
 
 ---
 
