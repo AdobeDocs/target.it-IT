@@ -9,7 +9,7 @@ title: Concetti chiave di Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -98,11 +98,11 @@ Ad esempio, puoi eseguire il targeting di un’attività per un pubblico compost
 
 In alternativa, puoi eseguire il targeting di un’attività per i visitatori provenienti da una determinata area geografica o per chi accede alla pagina da un determinato motore di ricerca.
 
-I tipi di pubblico possono essere salvati e utilizzati successivamente in molteplici attività, oppure possono essere creati per una campagna specifica.
+Le audience possono essere salvate per il riutilizzo in più attività, oppure possono essere create per un&#39;attività specifica.
 
 | Tipo di pubblico | Descrizione |
 |--- |--- |
-| Pubblico riutilizzabile | Il pubblico riutilizzabile può essere selezionato per qualsiasi test. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
+| Pubblico riutilizzabile | Le audience riutilizzabili possono essere selezionate per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
 | Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Per alcuni esempi, consulta [Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
 
