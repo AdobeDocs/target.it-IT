@@ -7,7 +7,7 @@ title: Eliminare il cookie di Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 ---
 
@@ -24,10 +24,10 @@ Se non è presente alcun cookie, vieni considerato come un nuovo visitatore e po
 1. Apri la scheda Generale, quindi nella sezione [!UICONTROL Cronologia esplorazioni], fai clic su **[!UICONTROL Impostazioni]** &gt; **[!UICONTROL Visualizza file]**.
 1. Seleziona il cookie mbox.
 1. Nel menu File, seleziona **[!UICONTROL Elimina]**, oppure seleziona il file e premi **[!UICONTROL Elimina]**.
-   **Per eliminare il cookie da Firefox:**
+
+**Per eliminare il cookie da Firefox:**
 
 1. Seleziona **Strumenti** &gt; **Opzioni** &gt; **Privacy**.
-
 1. Fai clic su **Visualizza cookie**.
 1. Ordina i cookie per nome per individuare i cookie di Target.
 1. Seleziona i cookie per i siti che stai visualizzando in anteprima, quindi fai clic su **Rimuovi cookie**.
