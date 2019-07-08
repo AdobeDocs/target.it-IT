@@ -1,13 +1,13 @@
 ---
-description: Definizioni dei termini.
+description: Definizioni dei termini utilizzati in Adobe Target.
 seo-description: Definizioni dei termini.
-seo-title: Glossario
+seo-title: Glossario di Adobe Target
 solution: Target
 title: Glossario
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -228,7 +228,7 @@ Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo 
 
 **mbox**
 
-&quot; Marketing box &quot;, la posizione nella pagina Web in cui viene visualizzato il contenuto e il comportamento dei visitatori registrati. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
+“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
 
 **mbox.js**
 
@@ -309,10 +309,6 @@ Un filtro di rapporto utilizzato per visualizzare i rapporti relativi a un segme
 **applicazione a pagina singola**
 
 Un&#39;applicazione a pagina singola (SPA) è un&#39;applicazione Web o un sito Web che si adatta a una singola pagina Web per offrire un&#39;esperienza utente più fluida, simile a un&#39;applicazione desktop.
-
-**parametro di profilo smart targeter**
-
-Simile al parametro di profilo di script, ma predefinito per fornire utili funzionalità di targeting.
 
 **metriche di successo**
 
