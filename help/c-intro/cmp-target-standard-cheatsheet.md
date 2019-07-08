@@ -8,7 +8,7 @@ title: Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
 
 ---
 
@@ -81,7 +81,7 @@ Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 
 **Posso applicare offerte in luoghi diversi (ad esempio, funnel di checkout)?**
 
-Prova la [funzione di attività multipagina](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) che consente di creare più pagine all’interno di esperienze.
+Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
 **Come posso essere sicuro che, una volta raggiunto un obiettivo (primario o secondario), un utente non entri più nell&#39;attività e veda invece un&#39;attività diversa?**
 
@@ -89,9 +89,9 @@ Questo è possibile utilizzando l&#39;opzione [Impostazioni avanzate](../c-activ
 
 Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso” insieme a “Predefinito/Altri contenuti attività” per raggiungere la finalità. Consulta anche le altre opzioni.
 
-**Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi?
+**Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi?**
 
-Per esempio, voglio considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
+**Per esempio, voglio considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
 
 Target può raggiungere questo obiettivo in modo preciso grazie alla funzione di Dipendenza delle metriche. È sufficiente [aggiungere dipendenze su altre metriche di successo](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.
 
@@ -107,7 +107,7 @@ Questo è reso possibile dall&#39;impostazione dell&#39;obiettivo primario nel p
 
 Utilizza la [funzionalità di programmazione nel passaggio obiettivi e impostazioni](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flusso di lavoro di attività in tre parti specificando le date di inizio e di fine.
 
-Ricordati di attivare la campagna. Solo le campagne live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l&#39;attività passa allo stato terminata.
+Ricordate di attivare l&#39;attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l&#39;attività passa allo stato terminata.
 
 **È possibile apportare una modifica solo al passaggio di destinazione e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per l&#39;editing?**
 
@@ -131,24 +131,12 @@ Sfrutta l’efficacia delle [attività basate su moduli](../c-experiences/form-e
 
 Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di Target (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
-Sono disponibili alcune opzioni:
-
-* [Librerie JavaScript di Target (at.js e mbox.js) ](../c-intro/cmp-target-standard-cheatsheet.md#section_C2AC78DFDAD84981A8C84DF20893E340)
-* Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzata, abilita la funzione Priorità precise (Configurazione &gt; Preferenze).
-
-## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
-
-**Ho creato due attività. Quale attività vedrà un visitatore?**
-
-**Posso impostare l&#39;ordine prioritario di alcune attività?**
-
-Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di Target (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
 Sono disponibili due opzioni:
 
 * Predefinita, con tre livelli (Bassa/Media/Alta)
 * Personalizzata, da 0 a 999. Per Personalizzata, abilita la funzione Priorità precise (Configurazione &gt; Preferenze).
+
+## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
 **È possibile creare un segmento di un pubblico in un&#39;attività specifica dell&#39;attività? Non credo che un tale pubblico debba essere creato nella libreria Pubblico, perché non verrà riutilizzato.**
 
@@ -246,21 +234,6 @@ Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si
 
 Utilizza l’[approccio basato su moduli](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) per creare attività.
 
-**Posso iniziare un’attività con un minor numero di visitatori?**
-
-Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio 2 del flusso di lavoro guidato in tre parti (pagina di targeting)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) per decidere in che modo procedere all&#39;impostazione dell’attività.
-
-**Ho creato due attività. Quale attività vedrà un visitatore?**
-
-**Posso impostare l&#39;ordine prioritario di alcune attività?**
-
-Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di Target (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
-
-Sono disponibili due opzioni:
-
-* Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzata, abilita la funzione Priorità precise (Configurazione &gt; Preferenze).
-
 **È possibile garantire che la stessa esperienza venga fornita in modo coerente su tutti i dispositivi di un utente?**
 
 Consulta il nostro servizio [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
@@ -283,7 +256,7 @@ Utilizza il nostro [debugger](../c-activities/c-troubleshooting-activities/conte
 
 **Perché la consegna dei contenuti non avviene nel mio processo QA?**
 
-È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta “Selettori CSS” in [Selettori CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
@@ -295,7 +268,7 @@ Sfrutta l’efficacia delle [attività basate su moduli](../c-experiences/form-e
 
 ## Rapporti (incluso Analytics for Target — A4T) {#section_8AECC69BEEB7422E894E7EC44A50BA0A}
 
-Ho anche Adobe Analytics e lo voglio sfruttare con Target. Quali funzionalità chiave ottengo integrando le due soluzioni?
+**Ho anche Adobe Analytics e lo voglio sfruttare con Target. Quali funzionalità chiave ottengo integrando le due soluzioni?**
 
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
@@ -306,33 +279,29 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 * [Tipi di pubblico](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
 
 
-Posso suddividere il reporting per più segmenti di utenti?
+**Posso suddividere il reporting per più segmenti di utenti?**
 
 Qui entra in gioco la funzionalità di [Tipi di pubblico per i rapporti](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponibile nella pagina Obiettivi e impostazioni nel passaggio 3 del flusso di lavoro guidato in tre parti.
 
-Hai la possibilità di aggiungere 50 segmenti e anche il punto di applicazione (accesso alla campagna o una metrica specifica) per poter suddividere la reportista in base alle tue esigenze.
+Hai l&#39;opzione di aggiungere 50 segmenti e anche il punto dell&#39;applicazione (Activity Entry (Ingresso attività) o una metrica specifica) per avere un modo efficace di sezione e stile.
 
 Tieni presente che Target raccoglie i dati per questo scopo dal momento in cui si aggiungono questi tipi di pubblico; quindi, dovrai aggiungere i segmenti prima di eseguire il test.
 
-Non posso definire i tipi di pubblico prima di eseguire l&#39;attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.
+**Non posso definire i tipi di pubblico prima di eseguire l&#39;attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.**
 
-Cosa posso fare per semplificare questo processo?
+**Cosa posso fare per semplificare questo processo?**
 
-È qui che [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) risulta utile. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
+This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
 
-Posso ripulire i rapporti e iniziare a registrare i dati successivi alla pulizia? Ad esempio, i risultati iniziali registrati erano dovuti ai miei hit di prova sull&#39;attività.
+**È possibile eseguire calcoli di reporting offline?**
 
-Utilizza la funzionalità    [Ripristina dati dei rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA).
+Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-È possibile eseguire calcoli di reporting offline?
-
-Utilizza le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell&#39;ordine in formato](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) CSV nella pagina Rapporti per scaricare i dati di reporting desiderati.
-
-Posso cambiare l&#39;esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?
+**Posso cambiare l&#39;esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
 
 Per apportare queste modifiche utilizza le [Impostazioni nella pagina Rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
 
-Come devo interpretare i rapporti?
+**Come devo interpretare i rapporti?**
 
 Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
 
