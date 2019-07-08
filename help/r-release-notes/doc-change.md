@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
 
 ---
 
@@ -21,7 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-|  | [Problemi noti e resolved issuesexpected](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[data varianza tra Target e Analytics quando si utilizzano e non utilizzano A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[offerte-A 4 T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sono state aggiunte informazioni su un problema noto che causava un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. |
+| 8 luglio 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sono state aggiunte informazioni che spiegano perché utilizzare CNAME. |
+| 28 giugno 2019 | [Problemi noti e resolved issuesexpected](/help/r-release-notes/known-issues-resolved-issues.md#redirect)<br>[data varianza tra Target e Analytics quando si utilizzano e non utilizzano A 4 tredirect](/help/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)<br>[offerte-A 4 T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Sono state aggiunte informazioni su un problema noto che causava un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. |
 | 26 giugno 2019 | [Opzioni esperienza visiva](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles) | Added information about the [!UICONTROL Background] option under *Styles*. |
 |  | [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md) | Added information about the [!UICONTROL Clone] action. |
 |  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Added information about the [!UICONTROL Selected Elements] panel. |
