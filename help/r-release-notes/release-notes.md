@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51bf163881a651ce6ab92dcc6753a91f6d6cc4f8
+source-git-commit: ce1758df44740213a2d9011ee43f84cb52f6a29d
 
 ---
 
@@ -28,7 +28,9 @@ Tieni presenti i seguenti importanti annunci:
 
 Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
-| Funzione / Miglioramento | Descrizione |
+(I codici tra parentesi sono per uso interno di Adobe.)
+
+| Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
 | Compositore esperienza visivo | **Nuove opzioni del menu VEC**: Quando fate clic su un elemento di pagina nella VEC, un menu mostra le opzioni disponibili per tale tipo di elemento.<ul><li>You can now use the [!UICONTROL Styles &gt; Background] option to change the background image and color for the selected element. (TGT-15001)</li></ul>See *Styles* in [Visual Experience Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#styles).<br>**Miglioramenti del monitoraggio dei clic**: È stata migliorata la procedura per configurare il monitoraggio dei clic all&#39;interno della VEC e della VEC (Single Page Application).<ul><li>Quando selezionate gli elementi da usare nel tracciamento dei clic, i nomi di tutti gli elementi disponibili vengono visualizzati nel pannello Modifiche a destra, rendendo più facile e veloce selezionare gli elementi desiderati.</li><li>The [!UICONTROL Goals &amp; Settings] page of the three-part guided activity workflow displays a number representing the number of elements selected for click tracking. Potete passare il cursore sopra questo numero per visualizzare i nomi di tutti gli elementi selezionati. (TGT-33878)</li></ul>See [Click tracking](/help/c-activities/r-success-metrics/click-tracking.md). |
 | Compositore esperienza visivo per app a pagina singola (SPA VEC) | **Flusso di lavoro guidato**: Un nuovo flusso di lavoro guidato consente di comprendere in che modo le impostazioni della regola di consegna pagina devono essere configurate per eseguire ed eseguire un&#39;attività per l&#39;app singola pagina. (TGT-33718)<br> See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Modifiche clone**: Ora potete definire una modifica utilizzando la VEC di SPA e quindi clonarla per utilizzarla in altre viste nell&#39;app pagina singola. (TGT-33882)<br>See [Single Page App (SPA) Visual Experience Composer](/help/c-experiences/spa-visual-experience-composer.md). |
