@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 
 ---
 
@@ -54,7 +54,7 @@ Un’alternativa comune per l’implementazione di [!DNL Recommendations] utiliz
 
 Questo metodo potrebbe essere più adatto per un venditore con un catalogo di prodotti relativamente fisso, ma che desidera mettere in evidenza articoli stagionali specifici o in saldo. La maggior parte dei clienti potrebbe fornire le proprie informazioni principalmente attraverso il feed, con solo modifiche occasionali sulla pagina.
 
-Utilizza un feed per fornire informazioni che rimarranno statiche. Che tu scelga un file CSV o un feed Google, utilizza i seguenti parametri:
+Utilizzate un feed per fornire informazioni che non vengono modificate frequentemente. Che tu scelga un file CSV o un feed Google, utilizza i seguenti parametri:
 
 * Parametri richiesti
 
@@ -62,12 +62,15 @@ Utilizza un feed per fornire informazioni che rimarranno statiche. Che tu scelga
 
 * Parametri utili
 
-   * `entity.cust1`
-   * `entity.cust2`
-   * `entity.cust3`
-   * Tutti gli altri attributi
+   * `entity.name`
+   * `entity.categoryId`
+   * `entity.brand`
+   * `entity.pageUrl`
+   * `entity.thumbnailUrl`
+   * `entity.message`
+   * Tutti gli attributi personalizzati
 
-Una volta che il feed è configurato e trasmesso a [!DNL Recommendations], trasmettete i parametri alla pagina per gli elementi che si modificano di frequente.
+Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
 
 * Parametri richiesti
 
@@ -156,8 +159,7 @@ In una pagina categoria, sarà probabilmente utile limitare i consigli ai prodot
 function targetPageParams() { 
    return { 
       "entity": { 
-         "categoryId": " 
-<i>My Category</i>" 
+         "categoryId": "My Category" 
       } 
    } 
 }
@@ -171,10 +173,8 @@ In una pagina di prodotto, potrebbe essere utile raccomandare elementi specifici
 function targetPageParams() { 
    return { 
       "entity": { 
-         "id": " 
-<i>32323</i>", 
-         "categoryId": " 
-<i>My Category</i>", 
+         "id": "32323", 
+         "categoryId": "My Category", 
          "value": 105.56, 
          "inventory": 329 
       } 
