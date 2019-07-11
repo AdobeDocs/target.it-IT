@@ -8,7 +8,7 @@ title: Test multivariato
 topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 ---
 
@@ -79,7 +79,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
    * Scegli gli elementi che desideri modificare e il numero di versioni di ogni elemento (3x2, 4x3 e così via).
    * Manteni coerente la numerazione. Ad esempio, se il pulsante è l’Elemento 1 e le opzioni sono Blu, Verde e Giallo, il pulsante blu sarà 1-1, il pulsante verde 1-2 e il pulsante giallo 1-3.
    * Il foglio di calcolo offline fornisce il numero adatto di esperienze necessarie (quattro per un 3x2, nove per un 4x3, e così via).
-   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC) or Form-based Experience Composer](/help/c-experiences/experiences.md). Se utilizzi quest’ultimo, puoi usare codice personalizzato, modificare l’HTML, lavorare in modalità WYSIWYG o qualsiasi combinazione di queste modalità.
+   * Build the experiences in the A/B workflow with the [Visual Experience Composer (VEC)](/help/c-experiences/experiences.md). Potete usare codice personalizzato, modificare HTML, WYSIWYG o qualsiasi combinazione.
    * Al termine dell’attività (in base al calcolatore delle dimensioni del campione), Immetti i risultati nel foglio di calcolo per ottenere gli altri dettagli.
 
 Per ulteriori considerazioni e best practice, vedi [Best practice relative ai test multivariati](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
