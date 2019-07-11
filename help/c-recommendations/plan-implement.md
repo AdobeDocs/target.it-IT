@@ -10,7 +10,7 @@ topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 414783c4072a574d278166bedc8243047135265b
 
 ---
 
@@ -31,7 +31,7 @@ Che cosa è necessario sapere prima di creare un’attività di [!DNL Recommenda
 | ![Passaggio 2](/help/c-recommendations/assets/step2_red.png) | Chiavi | La chiave determina il tipo di prodotto o contenuto visualizzato nei consigli. Ad esempio, la chiave può essere una categoria di prodotti. Consulta [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Passaggio 3](/help/c-recommendations/assets/step3_red.png) | Attributi | Gli attributi forniscono informazioni più specifiche sui prodotti da mostrare. Ad esempio, potrebbe essere utile mostrare i prodotti entro una determinata fascia di prezzo, o prodotti con un certo livello di scorte. Gli attributi possono essere indicati nella mbox o attraverso un [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulta [Regole di inclusione](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) e [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Passaggio 4](/help/c-recommendations/assets/step4_red.png) | Esclusioni | Le esclusioni determinano quali elementi specifici non includere nei consigli.<br>Consulta [Esclusioni](/help/c-recommendations/c-products/exclusions.md). |
-| ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Offerte di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull&#39;ordine una volta completato l&#39;acquisto. |
+| ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Dettagli di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull&#39;ordine una volta completato l&#39;acquisto. |
 
 ## Implementazione di base {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -44,7 +44,7 @@ Esistono due metodi per fornire informazioni sui prodotti e i servizi a [!DNL Re
 | Metodo | Descrizione |
 |--- |--- |
 | Trasmettere i parametri direttamente alla pagina | Questo metodo funziona bene per gli elementi che cambiano di frequente. Tuttavia, poiché richiede di applicare delle modifiche direttamente nella pagina, in molte aziende è necessario coinvolgere il reparto informatico e gli addetti all’implementazione delle pagine. |
-| Trasmettere i parametri attraverso un feed di Google o CSV | Questo metodo funziona bene per le raccolte che non vengono modificate spesso. Solitamente non è necessario modificare l’implementazione mbox o altro codice di pagina per fornire le informazioni di prodotto attraverso un feed. Tuttavia, l’elenco dei prodotti rimane statico ed è più difficile apportare modifiche rapide. Per ulteriori informazioni, consulta [Feed](/help/c-recommendations/c-products/feeds.md). |
+| Trasmettere i parametri attraverso un feed di Google o CSV | Questo metodo funziona bene per le raccolte che non vengono modificate spesso. Solitamente non è necessario modificare l’implementazione o altro codice di pagina per fornire le informazioni di prodotto attraverso un feed. Tuttavia, l’elenco dei prodotti rimane statico ed è più difficile apportare modifiche rapide. Per ulteriori informazioni, consulta [Feed](/help/c-recommendations/c-products/feeds.md). |
 
 Questi metodi possono essere utilizzati separatamente o insieme, come negli esempi seguenti.
 
