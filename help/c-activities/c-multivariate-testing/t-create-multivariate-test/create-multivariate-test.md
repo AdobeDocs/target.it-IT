@@ -1,13 +1,13 @@
 ---
-description: Il Compositore esperienza visivo in Target è utile per creare i test direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
+description: In Visual Experience Composer (Compositore esperienza visivo) in Target è facile creare un test multivariato (MVT) su una pagina compatibile con Target e modificarne una o più parti all'interno di Target.
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
-seo-description: Il Compositore esperienza visivo in Target è utile per creare i test direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
+seo-description: In Visual Experience Composer (Compositore esperienza visivo) in Adobe Target è facile creare un test multivariato (MVT) su una pagina compatibile con Target e modificarne una o più parti all'interno di Target.
 seo-title: Creazione di un test multivariato
 solution: Target
 title: Creazione di un test multivariato
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 ---
 
@@ -32,13 +32,9 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
 
 1. Select **[!UICONTROL Visual (Default)]**, if necessary.
 
-   ![Finestra di dialogo Crea attività targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/form_url-new.png)
-
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   ![Crea attività test multivariato, finestra di dialogo](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-mvt-dialog.png)
 
    >[!NOTE]
-   >
-   >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
