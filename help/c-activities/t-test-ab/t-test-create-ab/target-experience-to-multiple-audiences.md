@@ -8,12 +8,12 @@ title: Più versioni di esperienza in un test A/B
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 
 ---
 
 
-# Più versioni di esperienza in un test A/B{#multiple-experience-versions-in-an-a-b-test}
+# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
 
 È possibile indirizzare diverse versioni di una stessa esperienza a tipi di pubblico diversi nelle attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 
