@@ -1,44 +1,44 @@
 ---
-description: Target Standard può essere integrato con Adobe Scene7 per fornire Gestione delle risorse digitali (DAM) nella libreria dei contenuti.
-seo-description: Target Standard può essere integrato con Adobe Scene7 per fornire Gestione delle risorse digitali (DAM) nella libreria dei contenuti.
-seo-title: Impostazioni di Scene7
+description: Target Standard può essere integrato con Adobe Dynamic Media Classic (già Scene 7) per fornire Digital Asset Management (DAM) nella libreria Contenuto.
+seo-description: Target Standard può essere integrato con Adobe Dynamic Media Classic (già Scene 7) per fornire Digital Asset Management (DAM) nella libreria Contenuto.
+seo-title: Integrazione Dynamic Media Classic
 solution: Target
 subtopic: Introduzione
-title: Impostazioni di Scene7
+title: Integrazione Dynamic Media Classic
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c6a59843c80017e6f072f65ffad822fe198ebb55
 
 ---
 
 
-# Impostazioni di Scene7{#scene-settings}
+# Dynamic Media Classic integration{#scene-settings}
 
-Target Standard può essere integrato con Adobe Scene7 per fornire Gestione delle risorse digitali (DAM) nella libreria dei contenuti.
+Target Standard può essere integrato con Adobe Dynamic Media Classic (già Scene 7) per fornire Digital Asset Management (DAM) nella libreria Contenuto.
 
 >[!NOTE]
 >
->L’integrazione di Target con Scene7 consente la trasmissione delle risorse (come parte delle attività) caricate nella cartella risorse di Adobe Experience Cloud. Tale integrazione non consente l&#39;accesso a tutte le risorse caricate in Scene7 per la trasmissione alle attività di Target.
+>L&#39;integrazione di Target con Dynamic Media Classic consente di distribuire le risorse (come parte delle attività) caricate nella cartella Risorse di Adobe Experience Cloud. Questa integrazione non consente l&#39;accesso a tutte le risorse caricate in Dynamic Media Classic per la distribuzione in attività Target.
 
-Se disponi di un account Scene7, puoi fornire le credenziali Scene7. Se non hai un account Scene7, contatta il tuo rappresentante Adobe il quale può configurare questa funzionalità con un account gratuito Scene7 dedicato al tuo account di Target. Questo account può essere utilizzato per scopi limitati solo in Target. Questo servizio viene reso disponibile ai clienti per i flussi di lavoro che necessitano di funzionalità di scambio immagini.
+Se disponete già di un account Dynamic Media, potete fornire le credenziali esistenti. Se non disponete di un account, potete richiedere un account Dynamic Media Classic limitato, senza alcun costo aggiuntivo dal rappresentante Adobe. Questo account può essere utilizzato per scopi limitati solo in Target. Questo servizio viene reso disponibile ai clienti per i flussi di lavoro che necessitano di funzionalità di scambio immagini.
 
 Se questa impostazione non è configurata, l&#39;opzione di offerta Scambio immagine all&#39;interno del flusso di lavoro di creazione attività non è disponibile. Una volta configurata, l’opzione di offerte di scambio/cambiamento immagine è disponibile sia nel [Compositore esperienza visivo che nel Compositore esperienza basato su moduli](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Puoi quindi sfruttare le offerte di immagine con le immagini che sono state caricate da Adobe Experience Cloud e usarle in attività di Target.
 
 Se desideri fare riferimento a un URL di immagine pubblica direttamente in un&#39;offerta o codice personalizzato durante la creazione di attività, devi distribuire l&#39;immagine ai server web e utilizzare il tuo URL nel codice. Non è possibile ottenere l&#39;URL pubblicato di un&#39;immagine caricata su Experience Cloud per utilizzarlo direttamente o all&#39;esterno dei flussi di lavoro di targeting utilizzando Adobe Target. Questa funzionalità non è consentita, secondo il contratto.
 
-Ti raccomandiamo di notare che l&#39;URL di archiviazione e gli URL di pubblicazione finali di Scene7 delle immagini sono diversi e non devi creare offerte utilizzando il collegamento di archiviazione delle immagini, poiché in tali casi la consegna non funzionerà. Devi usare la capacità offerte di immagini come spiegato nella nostra documentazione di aiuto.
+L&#39;URL di archiviazione e gli URL di pubblicazione finali delle immagini da Contenuti multimediali dinamici sono diversi e NON devono creare offerte con il collegamento di archiviazione delle immagini come distribuzione in tali casi. Devi usare la capacità offerte di immagini come spiegato nella nostra documentazione di aiuto.
 
-Per eseguire l&#39;integrazione con Scene7, devi precisare alcune informazioni specifiche di Scene7.
+Per poter essere integrato con Dynamic Media Classic (Scene 7), dovete specificare alcune delle seguenti informazioni.
 
 1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Impostazioni di Scene7]**.
-1. Specifica le informazioni seguenti sull&#39;account Scene7:
+1. Specificate le seguenti informazioni sull&#39;account Dynamic Media Classic:
 
-   **Regione Scene7:** la regione per il tuo account Scene7 (Nord America, Europa o Asia).
+   **Regione:** Regione dell&#39;account Dynamic Media: Nord America, Europa o Asia.
 
-   **Cartella ad hoc Scene7:** la posizione del contenuto che si trova al di fuori della cartella di Target e viene caricato manualmente in Scene7.
+   **Cartella Adhoc:** Posizione per il contenuto che risiede all&#39;esterno della cartella di destinazione e che viene caricata manualmente su Dynamic Media.
 
-   **Indirizzo e-mail Scene7:** l&#39;indirizzo e-mail utilizzato per accedere a Scene7.
+   **Indirizzo e-mail:** Indirizzo e-mail usato per accedere a Dynamic Media Classic (Scene 7).
 
-   **Password Scene7:** la password utilizzata per accedere a Scene7.
+   **Password:** Password utilizzata per accedere a Dynamic Media Classic (Scene 7).
 1. Fai clic su **[!UICONTROL Invia]**.
