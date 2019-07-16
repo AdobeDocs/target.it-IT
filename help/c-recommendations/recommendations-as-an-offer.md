@@ -8,7 +8,7 @@ title: Consigli come offerta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 ---
 
@@ -34,7 +34,7 @@ Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting 
    >
    >Per i test A/B, ricorda che puoi scegliere l’opzione [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per inviare automaticamente il traffico ai consigli con prestazioni migliori, oppure l’opzione [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) per assegnare esperienze di consigli su misura ai visitatori in base ai loro profili.
 
-1. Durante la creazione di un’[esperienza](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), fai clic sull’elemento a cui desideri aggiungere un Consiglio come offerta, seleziona l’azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con], quindi seleziona [!UICONTROL Consiglio].
+1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
 
    Nell’illustrazione seguente viene mostrata l’opzione [!UICONTROL Inserisci dopo &gt; Consiglio].
 
@@ -42,11 +42,14 @@ Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting 
 
 1. Seleziona tra le seguenti opzioni per visualizzare i criteri delle consigli più comuni per tipo di pagina:
 
-   * Pagina dell’articolo
    * Pagina del carrello
    * Pagina categoria
    * Home page
    * Pagina di destinazione
+   * Pagina di prodotto
+   * Pagina risultati ricerca
+   * Pagina di ringraziamento
+   * Altre
 
 1. Seleziona i [criteri](/help/c-recommendations/c-algorithms/algorithms.md) desiderati, quindi fai clic su [!UICONTROL Avanti].
 1. Seleziona la [progettazione](/help/c-recommendations/c-design-overview/design-overview.md), quindi fai clic su [!UICONTROL Avanti].
