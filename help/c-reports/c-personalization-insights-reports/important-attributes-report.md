@@ -21,7 +21,7 @@ Informazioni sul rapporto Attributi importanti, uno dei due rapporti specializza
 >[!NOTE]
 >Le attività di AP e AT sono disponibili come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di Target Premium.
 >
->I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.|
+>I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. Anche le attività in cui l'obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l'attività era già attiva non sono supportate.|
 
 Nelle varie attività, i vari attributi possono essere più o meno importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
 
@@ -33,7 +33,7 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   Viene visualizzato il rapporto di [!UICONTROL Riepilogo], che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
+   Viene visualizzato il rapporto di [!UICONTROL Riepilogo], che fornisce informazioni sulle prestazioni delle attività, rappresentate dall'icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un'ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
 
    ![](assets/personalization_insights.png)
 
@@ -41,17 +41,17 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
    >
    >Il rapporto [!UICONTROL Attributi importanti] non sarà disponibile per almeno 15 giorni dopo l’attivazione dell’attività. Durante questo periodo iniziale, non potrai accedere a questo rapporto o fare clic sull’icona di [!UICONTROL Attributi importanti]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, sarà disponibile il rapporto [!UICONTROL Attributi importanti].
 
-1. A 15 giorni dall&#39;attivazione dell&#39;attività, puoi fare clic sull&#39;icona **[!UICONTROL Attributi importanti]**.
+1. A 15 giorni dall'attivazione dell'attività, puoi fare clic sull'icona **[!UICONTROL Attributi importanti]**.
 
    ![](assets/model_attribute_ranking.png)
 
-1. Seleziona l&#39;intervallo di date desiderato.
+1. Seleziona l'intervallo di date desiderato.
 
-   A differenza del rapporto di [!UICONTROL Riepilogo] (rapporto sulle prestazioni), [!UICONTROL Registri di personalizzazione], incluso [!UICONTROL Attributi importanti], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
+   A differenza del rapporto di [!UICONTROL Riepilogo] (rapporto sulle prestazioni), [!UICONTROL Registri di personalizzazione], incluso [!UICONTROL Attributi importanti], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all'interno dell'attività. Le due decisioni che puoi prendere per l'intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
    ![](assets/personalization_insights_calendar_1.png)
 
-   Puoi accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Scegli la durata].
+   Puoi accedere agli intervalli di date fissi disponibili dall'elenco a discesa [!UICONTROL Scegli la durata].
 
    ![](assets/personalization_insights_calendar_2.png)
 
@@ -60,11 +60,11 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
    ![](assets/model_attribute_ranking_report.png)
 
 
-1. (Facoltativo) [Scarica il rapporto in formato CSV](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri programmi.
+1. (Facoltativo) [Scarica il rapporto in formato CSV](../../c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l'analisi in Excel e altri programmi.
 
    >[!NOTE]
    >
-   >Il rapporto dell’interfaccia utente di Registri di personalizzazione contiene informazioni selezionate. Il CSV scaricabile per il rapporto Attributi importanti contiene ulteriori dettagli. Il download del rapporto Attributi importanti include l&#39;elenco completo dei 100 attributi principali, mentre il rapporto dell&#39;interfaccia utente include soltanto i primi 10. Se non trovi un attributo specifico nel rapporto, ciò non significa che questo non sta influenzando l&#39;attività, ma semplicemente che non è rientrato nella lista dei primi 100.
+   >Il rapporto dell’interfaccia utente di Registri di personalizzazione contiene informazioni selezionate. Il CSV scaricabile per il rapporto Attributi importanti contiene ulteriori dettagli. Il download del rapporto Attributi importanti include l'elenco completo dei 100 attributi principali, mentre il rapporto dell'interfaccia utente include soltanto i primi 10. Se non trovi un attributo specifico nel rapporto, ciò non significa che questo non sta influenzando l'attività, ma semplicemente che non è rientrato nella lista dei primi 100.
 
 ## Interpretare il rapporto Attributi importanti
 
@@ -72,7 +72,7 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 | Elemento | Dettagli |
 |--- |--- |
-| Grafico a barre | Il grafico a barre multicolore nella parte superiore dello schermo consente di visualizzare questi punteggi e mappe di importanza relativa con il colore del punto accanto a ciascun attributo nella tabella. Puoi anche posizionare il cursore su un colore specifico nel grafico a barre per visualizzare l&#39;attributo che rappresenta.  I punteggi di importanza dei 100 attributi principali totalizzano il 100%. Per ulteriori informazioni sull’aggiunta di altri attributi utilizzabili dai modelli di personalizzazione di Target, consulta [Caricamento di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
+| Grafico a barre | Il grafico a barre multicolore nella parte superiore dello schermo consente di visualizzare questi punteggi e mappe di importanza relativa con il colore del punto accanto a ciascun attributo nella tabella. Puoi anche posizionare il cursore su un colore specifico nel grafico a barre per visualizzare l'attributo che rappresenta.  I punteggi di importanza dei 100 attributi principali totalizzano il 100%. Per ulteriori informazioni sull’aggiunta di altri attributi utilizzabili dai modelli di personalizzazione di Target, consulta [Caricamento di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md). |
 | Grafico di Classifica Attributi del Modello | Il grafico di Classifica Attributi del Modello include i 10 attributi principali, ovvero i più importanti nel criterio con cui il modello di personalizzazione di Target ha fatto visualizzare un determinato contenuto a ciascun visitatore. Il punteggio di importanza mostra, relativamente ai 100 attributi principali, quanto è stato importante un determinato attributo per i modelli di personalizzazione di Target in questa attività. |
 
 ## Domande frequenti sugli attributi importanti {#section_740910A52FA646B4AC9452F98C2F5719}
@@ -81,23 +81,23 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 Ci sono vari motivi per cui i rapporti [!UICONTROL Approfondimenti personalizzazione] potrebbero non essere ancora disponibili per la tua attività:
 
-* non sono trascorsi 15 giorni dall&#39;attivazione dell&#39;attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
-* L&#39;attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un [traffico personalizzato sufficiente](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB), saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
-* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
+* non sono trascorsi 15 giorni dall'attivazione dell'attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l'attivazione dell'attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
+* L'attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un [traffico personalizzato sufficiente](/help/c-activities/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB), saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
+* L'attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
-**Cos&#39;è un attributo?**
+**Cos'è un attributo?**
 
-Un attributo è un&#39;informazione su un visitatore o sulla sua visita specifica che gli algoritmi di personalizzazione utilizzano per imparare a personalizzare il traffico. Gli attributi possono essere, ad esempio, il tipo di browser, la posizione, l&#39;orario della visita e così via.
+Un attributo è un'informazione su un visitatore o sulla sua visita specifica che gli algoritmi di personalizzazione utilizzano per imparare a personalizzare il traffico. Gli attributi possono essere, ad esempio, il tipo di browser, la posizione, l'orario della visita e così via.
 
 Per ulteriori informazioni sugli attributi utilizzati da [!DNL Target] nei modelli di personalizzazione, consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058). Per ulteriori informazioni su come caricare in Target nuovi attributi da utilizzare nei modelli di personalizzazione di Target, vedi [Metodi per immettere i dati in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 **Le informazioni nei rapporti di[!UICONTROL Segmenti automatizzati]e[!UICONTROL Attributi importanti]sono le stesse del file CSV scaricabile?**
 
-No, il rapporto dell&#39;interfaccia utente contiene specifiche informazioni. Il file CSV scaricabile contiene ulteriori dettagli. Il download del rapporto di Registri di segmento automatizzato comprende altri Segmenti automatizzati oltre ai segmenti principali inclusi nell&#39;interfaccia utente, così come le prestazioni di quei segmenti rispetto alle offerte o esperienze. Il rapporto di Attributi importanti include i principali 100 attributi dei visitatori e l&#39;importanza relativa, mentre l&#39;interfaccia utente include solo i 10 attributi principali.
+No, il rapporto dell'interfaccia utente contiene specifiche informazioni. Il file CSV scaricabile contiene ulteriori dettagli. Il download del rapporto di Registri di segmento automatizzato comprende altri Segmenti automatizzati oltre ai segmenti principali inclusi nell'interfaccia utente, così come le prestazioni di quei segmenti rispetto alle offerte o esperienze. Il rapporto di Attributi importanti include i principali 100 attributi dei visitatori e l'importanza relativa, mentre l'interfaccia utente include solo i 10 attributi principali.
 
 **Posso visualizzare Registri di personalizzazione per un intervallo di date personalizzato?**
 
-Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti automatizzati] sia per [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
+Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti automatizzati] sia per [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all'interno dell'attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
 
 **Come viene creato[!UICONTROL Registri di personalizzazione]?**
 
@@ -107,19 +107,19 @@ Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti autom
 
 Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
-**Qual è il punteggio di importanza dell&#39;attributo nel rapporto relativo agli Attributi importanti?**
+**Qual è il punteggio di importanza dell'attributo nel rapporto relativo agli Attributi importanti?**
 
-Il punteggio di importanza nella sezione “Classifica di Importanza degli Attributi” del rapporto fornisce input sulle variabili, utilizzate dall&#39;algoritmo per apprendere, che sono state più importanti nel determinare la suddivisione di tutti i visitatori nei segmenti che identificava. Ha assegnato un punteggio percentuale ai 100 attributi principali utilizzati dal modello.
+Il punteggio di importanza nella sezione “Classifica di Importanza degli Attributi” del rapporto fornisce input sulle variabili, utilizzate dall'algoritmo per apprendere, che sono state più importanti nel determinare la suddivisione di tutti i visitatori nei segmenti che identificava. Ha assegnato un punteggio percentuale ai 100 attributi principali utilizzati dal modello.
 
 **Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?**
 
-Esistono diversi motivi potenziali per vedere più visite a un&#39;offerta/esperienza di conversione inferiore all&#39;interno di un segmento automatizzato, inclusi:
+Esistono diversi motivi potenziali per vedere più visite a un'offerta/esperienza di conversione inferiore all'interno di un segmento automatizzato, inclusi:
 
 * Un basso numero di visite ad alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
 * Attività più basse in cui determinate offerte o esperienze non sono dotati di modelli.
 * Attività più basse in cui i modelli venivano creati prima per alcune offerte/esperienze rispetto ad altri. Ad esempio, supponiamo che un modello aggiuntivo sia stato creato il giorno 22 e che i dati vengano visti dai giorni 10-24.
-* Regole di targeting su un&#39;offerta specifica che limita i visitatori in grado di vedere quali offerte o esperienze sono disponibili.
-* Non ci sono intervalli di confidenza nella generazione dei rapporti. Tuttavia, se i tassi di conversione sono sufficientemente vicini, il modello potrebbe distribuire il traffico in modo che sia più elevato nell&#39;importo in punti, ma non i numeri statisticamente diversi.
+* Regole di targeting su un'offerta specifica che limita i visitatori in grado di vedere quali offerte o esperienze sono disponibili.
+* Non ci sono intervalli di confidenza nella generazione dei rapporti. Tuttavia, se i tassi di conversione sono sufficientemente vicini, il modello potrebbe distribuire il traffico in modo che sia più elevato nell'importo in punti, ma non i numeri statisticamente diversi.
 
 È utile sapere come funziona il modello per distribuire il traffico. Ogni individuo viene distribuito in base al suo profilo totale. Tuttavia, i report Approfondimenti generalizzano questo comportamento per renderlo più interpretografabile da un uomo. Di conseguenza, i segmenti non si escludono a vicenda. Questo può portare a singoli segmenti che mostrano questo tipo di comportamento, perché la stessa persona può essere visualizzata in più segmenti.
 
@@ -129,6 +129,6 @@ Esistono diversi motivi potenziali per vedere più visite a un&#39;offerta/esper
 * Verifica le tue ipotesi sui tipi di visitatori che risponderanno a determinate esperienze.
 * Scopri i contenuti che hanno funzionato per determinati tipi di visitatori: le offerte che hanno avuto maggiore riscontro.
 * Individua il contenuto con le prestazioni più basse.
-* Scopri gli attributi cruciali per l&#39;apprendimento del modello.
+* Scopri gli attributi cruciali per l'apprendimento del modello.
 * Scopri gli attributi utilizzati nei modelli di personalizzazione e la loro importanza.
 * Individua le opportunità per ulteriori punti di dati da trasmettere a Target per informare ulteriormente la tua personalizzazione.
