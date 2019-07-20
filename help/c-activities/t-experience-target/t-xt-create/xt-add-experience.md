@@ -15,15 +15,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Create experience{#create-experience}
 
-In Visual Experience Composer (Compositore esperienza visivo) è disponibile un&#39;interfaccia visiva per modificare le esperienze sulla pagina in un&#39;attività Experience Targeting (XT).
+In Visual Experience Composer (Compositore esperienza visivo) è disponibile un'interfaccia visiva per modificare le esperienze sulla pagina in un'attività Experience Targeting (XT).
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 
-   [Durante la creazione di un&#39;attività XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), il passaggio uno del flusso di lavoro guidato in tre parti (Esperienze) mostra l&#39; [!UICONTROL Esperienza A predefinita] con un [!UICONTROL pubblico di tutti i visitatori] .
+   [Durante la creazione di un'attività XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), il passaggio uno del flusso di lavoro guidato in tre parti (Esperienze) mostra l' [!UICONTROL Esperienza A predefinita] con un [!UICONTROL pubblico di tutti i visitatori] .
 
    ![Pubblico di tutti i visitatori](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
-   Any changes you make now apply to Experience A. In a step below, you&#39;ll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
+   Any changes you make now apply to Experience A. In a step below, you'll click **[!UICONTROL Add Experience Targeting]** to create additional experiences.
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando la VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -37,7 +37,7 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un&
 
    ![Collegamento Aggiungi targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
-   The [!UICONTROL Choose Audience] dialog box displays. Per eseguire il targeting di un&#39;esperienza per un&#39;audience, dovete selezionare l&#39;audience prima di poter aggiungere un&#39;esperienza.
+   The [!UICONTROL Choose Audience] dialog box displays. Per eseguire il targeting di un'esperienza per un'audience, dovete selezionare l'audience prima di poter aggiungere un'esperienza.
 
    La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, oppure [creare un nuovo pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
@@ -55,7 +55,7 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un&
 
    ![Esperienza B](/help/c-activities/t-experience-target/t-xt-create/assets/experience-b.png)
 
-   Noterai che l&#39;Esperienza B ora viene visualizzata nell&#39;illustrazione precedente e questa esperienza è destinata al pubblico dei visitatori degli Stati Uniti.
+   Noterai che l'Esperienza B ora viene visualizzata nell'illustrazione precedente e questa esperienza è destinata al pubblico dei visitatori degli Stati Uniti.
 
 1. Selezionate gli elementi che desiderate modificare per questa esperienza e apportate le modifiche desiderate, come descritto al punto 1 precedente.
 
@@ -63,27 +63,27 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un&
 
 1. Click **[!UICONTROL Next]** when you are finished designing your experiences.
 
-   Il diagramma dell&#39;attività mostra quanto segue:
+   Il diagramma dell'attività mostra quanto segue:
 
    ![Diagramma di targeting XT](/help/c-activities/t-experience-target/t-xt-create/assets/xt_diagram-new.png)
 
    >[!NOTE]
    >
-   >Se distribuite un&#39;immagine da un&#39;origine diversa dalla pagina principale (ad esempio un&#39;immagine in hosting su akamai. net e distribuita in adobe.com), l&#39;immagine non viene visualizzata nella miniatura della pagina visualizzata nel diagramma di flusso.
+   >Se distribuite un'immagine da un'origine diversa dalla pagina principale (ad esempio un'immagine in hosting su akamai. net e distribuita in adobe.com), l'immagine non viene visualizzata nella miniatura della pagina visualizzata nel diagramma di flusso.
 
-1. (Condizionale) Trascina e rilascia le coppie di pubblico/esperienza durante la creazione o la modifica delle attività XT per disporre le coppie nell&#39;ordine desiderato.
+1. (Condizionale) Trascina e rilascia le coppie di pubblico/esperienza durante la creazione o la modifica delle attività XT per disporre le coppie nell'ordine desiderato.
 
-   I visitatori vengono valutati per esperienze in ordine, dall&#39;alto verso il basso.
+   I visitatori vengono valutati per esperienze in ordine, dall'alto verso il basso.
 
    ![Sposta esperienze](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   Il targeting delle esperienze presuppone che l&#39;ordine sia importante. Se un visitatore rientra nella prima coppia Pubblico/Esperienza, viene consegnata la prima esperienza.
+   Il targeting delle esperienze presuppone che l'ordine sia importante. Se un visitatore rientra nella prima coppia Pubblico/Esperienza, viene consegnata la prima esperienza.
 
-   Supponi, ad esempio, di non sapere che l’ordine è importante durante la creazione di un’attività di targeting esperienze. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell&#39;ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, sia che si trovino a San Francisco o altrove in California. È possibile riordinare le coppie Pubblico/Esperienza da più restrittive a meno restrittive (San Francisco &gt; California &gt; Stati Uniti) senza ricreare l&#39;intera attività.
+   Supponi, ad esempio, di non sapere che l’ordine è importante durante la creazione di un’attività di targeting esperienze. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l'esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell'ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l'esperienza A, sia che si trovino a San Francisco o altrove in California. È possibile riordinare le coppie Pubblico/Esperienza da più restrittive a meno restrittive (San Francisco &gt; California &gt; Stati Uniti) senza ricreare l'intera attività.
 
-   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Un’esperienza rivolta a &quot;Tutti i visitatori&quot; può essere utilizzata come ultima esperienza nell’attività di targeting delle esperienze per includere i visitatori che non sono rientrati in nessun’altra esperienza.
+   If you have an [!UICONTROL All Visitors] audience, ensure that it is not the first audience in the diagram. Un’esperienza rivolta a "Tutti i visitatori" può essere utilizzata come ultima esperienza nell’attività di targeting delle esperienze per includere i visitatori che non sono rientrati in nessun’altra esperienza.
 
-## Rinominare o modificare un&#39;esperienza
+## Rinominare o modificare un'esperienza
 
 You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experience in an XT activity and choose from the following options, as necessary:
 
@@ -92,7 +92,7 @@ You can click the [!UICONTROL Edit] icon (three vertical ellipses) on an experie
 
 ![Opzioni Rinomina e Modifica](/help/c-activities/t-experience-target/t-xt-create/assets/experience_edit-new.png)
 
-## Eliminare un&#39;esperienza
+## Eliminare un'esperienza
 
 On the **[!UICONTROL Experiences]** page (the first step in the three-step guided workflow), click the three vertical ellipses &gt; **[!UICONTROL Delete]**.
 
@@ -122,7 +122,7 @@ Questo video descrive come effettuare un test A/B al livello successivo con il t
 
 ### Tipi di attività (9:03)
 
-Questo video spiega i tipi di attività disponibili in Target Standard/Premium. L&#39;esperienza di targeting è trattata a partire dal minuto 5:15.
+Questo video spiega i tipi di attività disponibili in Target Standard/Premium. L'esperienza di targeting è trattata a partire dal minuto 5:15.
 
 * Descrizione dei tipi di attività inclusi in [!DNL Adobe Target]
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
