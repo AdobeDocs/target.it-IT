@@ -19,4 +19,4 @@ Tutti i contributi di terze parti a questo progetto devono essere accompagnati d
 
 ## Revisioni di codice
 
-Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione dei committer del progetto. Read [GitHub&#39;s pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
+Tutte le richieste devono essere sotto forma di richieste di pull e sottoposte alla revisione dei committer del progetto. Read [GitHub's pull request documentation](https://help.github.com/articles/about-pull-requests/) for more information on sending pull requests.
