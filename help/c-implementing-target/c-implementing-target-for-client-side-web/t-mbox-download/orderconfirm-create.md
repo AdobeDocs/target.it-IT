@@ -32,7 +32,7 @@ Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli o
    >
    >Utilizza le virgole per separare i diversi ID prodotto.
 
-   **Suggerimento:** è possibile, inoltre, passare le informazioni di ordine in qualsiasi mbox (non deve per forza chiamarsi `orderConfirmPage`). Inoltre, puoi passare le informazioni di ordine in più mbox all&#39;interno della stessa campagna.
+   **Suggerimento:** è possibile, inoltre, passare le informazioni di ordine in qualsiasi mbox (non deve per forza chiamarsi `orderConfirmPage`). Inoltre, puoi passare le informazioni di ordine in più mbox all'interno della stessa campagna.
 
    ```
    <div class="mboxDefault"> 
@@ -46,10 +46,10 @@ Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli o
    </script> 
    ```
 
-La mbox di conferma d&#39;ordine utilizza i seguenti parametri:
+La mbox di conferma d'ordine utilizza i seguenti parametri:
 
 | Parametro | Descrizione |
 |--- |--- |
 | `orderId` | Valore univoco per identificare un ordine per il conteggio di conversione.<br>L’`orderId` deve essere univoco. Gli ordini duplicati vengono ignorati nei rapporti. |
-| `orderTotal` | Valore monetario dell&#39;acquisto.<br>Non trasmettere il simbolo di valuta. Utilizza un punto decimale (non la virgola) per indicare i valori decimali. |
-| `productPurchasedId` (Facoltativo) | Elenco degli ID dei prodotti acquistati nell&#39;ordine, separati da virgole.<br>Questi ID prodotto vengono visualizzati nel rapporto di revisione per supportare attività aggiuntive di analisi dei rapporti. |
+| `orderTotal` | Valore monetario dell'acquisto.<br>Non trasmettere il simbolo di valuta. Utilizza un punto decimale (non la virgola) per indicare i valori decimali. |
+| `productPurchasedId` (Facoltativo) | Elenco degli ID dei prodotti acquistati nell'ordine, separati da virgole.<br>Questi ID prodotto vengono visualizzati nel rapporto di revisione per supportare attività aggiuntive di analisi dei rapporti. |
