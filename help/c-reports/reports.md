@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Rapporti{#reports}
 
-I rapporti forniscono informazioni sull&#39;avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
+I rapporti forniscono informazioni sull'avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
 
 >[!NOTE]
 >
@@ -55,13 +55,13 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
    Nella legenda vengono visualizzate le seguenti informazioni:
 
    * Lo stato dell’attività, compreso l’intervallo di date in cui l’attività è stata eseguita.
-   * L&#39;esperienza vincente prevista (se disponibile).
+   * L'esperienza vincente prevista (se disponibile).
    >[!NOTE]
    >
    >I risultati dell’esperienza compaiono dopo che questa è stata vista almeno da un partecipante.
 
 1. (Facoltativo) [Configura il rapporto](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) come desideri.
-1. (Facoltativo) [Scarica il rapporto in formato CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) per l&#39;analisi in Excel e altri programmi.
+1. (Facoltativo) [Scarica il rapporto in formato CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) per l'analisi in Excel e altri programmi.
 
    Sono disponibili le seguenti opzioni:
 
