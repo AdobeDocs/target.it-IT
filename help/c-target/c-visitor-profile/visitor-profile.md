@@ -25,6 +25,6 @@ Per impostazione predefinita, le informazioni di profilo di Target vengono memor
 - [Durata del profilo del visitatore](visitor-profile-lifetime.md)
 - [Attributi del profilo](profile-parameters.md)
 - [Affinità tra categorie](category-affinity.md)
-- [Attributi del cliente](working-with-customer-attributes.md).
+- [Attributi del cliente](working-with-customer-attributes.md)
 - [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](3rd-party-id.md)
 - [Glossario di profili e variabili](variables-profiles-parameters-methods.md)
