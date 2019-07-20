@@ -30,7 +30,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
    + [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Amministrare Target {#administer}
    + [Panoramica sull’amministrazione di Target](administrating-target/administrating-target.md)
-   + [Primi passaggi per l&#39;amministratore](administrating-target/start-target.md)
+   + [Primi passaggi per l'amministratore](administrating-target/start-target.md)
    + Impostare le preferenze {#preferences}
       + [Preferenze](administrating-target/r-target-account-preferences/target-account-preferences.md)
       + [Stimare l’Incremento dei ricavi](administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
@@ -73,7 +73,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
          + [Implementare Target con Adobe Launch](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
          + [Implementare Target senza un sistema per la gestione dei tag](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
          + [Implementare Target utilizzando Dynamic Tag Management (DTM)](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)
-         + [Implementazione di un&#39;applicazione a pagina singola](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
+         + [Implementazione di un'applicazione a pagina singola](c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md)
       + Funzioni di at.js {#functions-overview}
          + [Panoramica sulle funzioni di at.js](c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md)
          + [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md)
@@ -131,8 +131,8 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
       + [Preacquisire il contenuto dell’offerta](c-target-mobile-app/prefetch-offer-content.md)
       + Compositore esperienza visivo per app mobile {#composer}
          + [Compositore esperienza visivo per app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md)
-         + [Android: configurare l&#39;app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
-         + [iOS: configurare l&#39;app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
+         + [Android: configurare l'app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
+         + [iOS: configurare l'app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurare il tracciamento dei clic nel Compositore esperienza visivo mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
    + Lato server: implementare Target {#server-side}
       + [Lato server: panoramica sull’implementazione di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
@@ -140,7 +140,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
    + E-mail: implementare Target {#implement-email}
       + [E-mail: panoramica sull’implementazione di Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
       + [Creare un AdBox per un’immagine](c-implementing-target/c-non-javascript-based-implementation/testing-content-with-the-adbox.md)
-      + [Test AdBox di un&#39;immagine per e-mail](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
+      + [Test AdBox di un'immagine per e-mail](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Lavorare con i redirector](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integrare Adobe Target con Experience Cloud {#integrate}
    + Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T) {#a4t}
@@ -191,21 +191,21 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
    + Personalizzazione automatizzata {#automated-personalization}
       + [Panoramica su Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Foresta casuale](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [Creare un&#39;attività di personalizzazione automatizzata](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Creare un'attività di personalizzazione automatizzata](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Caricare dati per gli algoritmi di personalizzazione Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Raccolta di dati per gli algoritmi di personalizzazione di Target](c-activities/t-automated-personalization/ap-data.md)
       + [Stima del traffico necessario per il successo](c-activities/t-automated-personalization/ap-traffic-estimator.md)
-      + [Visualizzare un&#39;anteprima delle esperienze per un test di Automated Personalization (Personalizzazione automatizzata)](c-activities/t-automated-personalization/ap-preview-experiences.md)
+      + [Visualizzare un'anteprima delle esperienze per un test di Automated Personalization (Personalizzazione automatizzata)](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Targeting delle offerte di Personalizzazione automatizzata](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestire le esclusioni](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Selezione del controllo per l&#39;attività Automated Personalization (Personalizzazione automatizzata) o Auto-Target (Destinazione automatica)](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Selezione del controllo per l'attività Automated Personalization (Personalizzazione automatizzata) o Auto-Target (Destinazione automatica)](c-activities/t-automated-personalization/experience-as-control.md)
       + [Domande frequenti sulla Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target](c-activities/t-automated-personalization/experience-preview.md)
       + [Risolvere i problemi relativi alla personalizzazione automatica](c-activities/t-automated-personalization/ap-trouble.md)
    + Targeting esperienza {#experience-targeting}
       + [Panoramica su Targeting esperienza](c-activities/t-experience-target/experience-target.md)
       + Creare un’attività Targeting esperienze {#create-targeting}
-         + [Crea un&#39;attività](c-activities/t-experience-target/t-xt-create/xt-create.md)
+         + [Crea un'attività](c-activities/t-experience-target/t-xt-create/xt-create.md)
          + [URL attività](c-activities/t-experience-target/t-xt-create/xt-activity-url.md)
          + [Crea un’esperienza](c-activities/t-experience-target/t-xt-create/xt-add-experience.md)
          + [Passare ad altre esperienze nel targeting delle esperienze](c-activities/t-experience-target/t-xt-create/xt-switching-experiences.md)
@@ -219,7 +219,7 @@ source-git-commit: 554bbdaa1aa8f4697a6f01e34068680e0867e6fa
          + [Creare test](c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md)
          + [URL attività](c-activities/c-multivariate-testing/t-create-multivariate-test/url.md)
          + [Creare combinazioni](c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md)
-         + [Visualizzare un&#39;anteprima delle esperienze per un test multivariato](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
+         + [Visualizzare un'anteprima delle esperienze per un test multivariato](c-activities/c-multivariate-testing/t-create-multivariate-test/preview-experiences.md)
          + [Stimare il traffico necessario per il successo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
          + [Riepilogo del test](c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md)
          + [Obiettivi e impostazioni](c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md)
