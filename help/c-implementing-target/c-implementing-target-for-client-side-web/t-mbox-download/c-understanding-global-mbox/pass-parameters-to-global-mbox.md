@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 La funzione targetPageParams di JavaScript viene utilizzata per trasmettere parametri alla mbox globale. È utile in tutte le situazioni in cui occorre passare a Target informazioni di targeting o di contesto aggiuntive.
 
-Ad esempio, in un&#39;attività di Consigli, rappresenta il prodotto o la categoria corrente che stai osservando con i parametri.
+Ad esempio, in un'attività di Consigli, rappresenta il prodotto o la categoria corrente che stai osservando con i parametri.
 
 Il codice per chiamare la funzione JavaScript deve essere sulla pagina prima della mbox globale, sia che la mbox globale si attici come una parte di mbox.js o sia inclusa manualmente nel codice della pagina.
 
@@ -49,7 +49,7 @@ p1=v1&p2=v2&p3=hello%20world
 
    In questo esempio, p3 ha il valore `hello world`, il cui URL è codificato.
 
-Quello che segue è un esempio dell&#39;aspetto potenziale del codice per la pagina:
+Quello che segue è un esempio dell'aspetto potenziale del codice per la pagina:
 
 ```
 <html> 
@@ -68,7 +68,7 @@ Quello che segue è un esempio dell&#39;aspetto potenziale del codice per la pag
 </html>
 ```
 
-In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
+In questo esempio vengono inviati i seguenti dati all'edge della mbox:
 
 * p1=v1
 * p2=v2
@@ -84,7 +84,7 @@ In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
 
 I valori non devono avere la codifica URL. Ad esempio, se un valore contiene uno spazio, non è necessario codificare lo spazio.
 
-In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
+In questo esempio vengono inviati i seguenti dati all'edge della mbox:
 
 * a=1
 * b=2
@@ -111,7 +111,7 @@ JSON è una potente modalità di trasferimento dei parametri. Target utilizza le
 
 I valori non devono avere la codifica URL. Ad esempio, “San Francisco” non richiede la codifica dello spazio. Lo spazio è sufficiente.
 
-In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
+In questo esempio vengono inviati i seguenti dati all'edge della mbox:
 
 * a=1
 * b=2
