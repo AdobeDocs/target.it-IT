@@ -24,7 +24,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Icona dell’applicazione](/help/c-intro/assets/appmenu-new.png)
 
-1. Fai clic sull&#39;icona di [!DNL Target] nel menu delle app.
+1. Fai clic sull'icona di [!DNL Target] nel menu delle app.
 
    ![Icona di Target](/help/c-intro/assets/appmenu-target-new.png)
 
@@ -32,7 +32,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Avvio di Target](/help/c-intro/assets/target-launch-new.png)
 
-1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
+1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l'avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
 
    ![Pagina di destinazione](/help/c-intro/assets/pagepref-new.png)
 
@@ -73,7 +73,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di Target viene convertita automaticamente e sarà sincronizzata con la versione inglese entro ore di modifiche apportate alla documentazione inglese.
 
-Per cambiare rapidamente la lingua nella versione inglese originale, fate clic sul collegamento nell&#39;intestazione della pagina.
+Per cambiare rapidamente la lingua nella versione inglese originale, fate clic sul collegamento nell'intestazione della pagina.
 
 ![Modifica alla lingua originale](/help/c-intro/assets/mt-original.png)
 
