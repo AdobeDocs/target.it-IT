@@ -21,7 +21,7 @@ Un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Targ
 
 **Come posso vedere come altri clienti hanno sfruttato Adobe Target per ottenere risultati migliori?**
 
-Qui ci sono solo alcune [storie di successo dei nostri clienti](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Scopri come altri clienti hanno sfruttato Target per migliorare l&#39;ottimizzazione e la personalizzazione per raggiungere gli obiettivi aziendali.
+Qui ci sono solo alcune [storie di successo dei nostri clienti](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Scopri come altri clienti hanno sfruttato Target per migliorare l'ottimizzazione e la personalizzazione per raggiungere gli obiettivi aziendali.
 
 Si noti che alcuni di questi casi di studio sfruttano le funzionalità di Adobe Target Premium.
 
@@ -35,7 +35,7 @@ Visita il [forum Target Community](../cmp-resources-and-contact-information.md#c
 
 **Quali browser supporta Target?**
 
-Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Si noti che sono disponibili due funzioni: il supporto dell'interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
 
 ## Librerie JavaScript di Target (at.js e mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
 
@@ -47,21 +47,21 @@ Tutti i clienti mbox.js già esistenti devono migrare a at.js. Ulteriori informa
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
-**È possibile eseguire un&#39;attività statisticamente impegnativa per trovare un&#39;esperienza vincente e perdente mentre si utilizza un&#39;esperienza di controllo?**
+**È possibile eseguire un'attività statisticamente impegnativa per trovare un'esperienza vincente e perdente mentre si utilizza un'esperienza di controllo?**
 
 Utilizza [Test A/B](../c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977) (opzione di targeting manuale) insieme al [calcolatore delle dimensioni del campione](../c-activities/t-test-ab/sample-size-determination.md#section_286EB6E671184239BB1552F0387DAEB5) per ottenere risultati migliori.
 
-**Come faccio a sapere quando interrompere un&#39;attività?**
+**Come faccio a sapere quando interrompere un'attività?**
 
 Arrestare le attività prematuramente può portare a conclusioni sbagliate. Presta attenzione alle [problematiche comuni e garantire pratiche per evitarle](../c-activities/t-test-ab/common-ab-testing-pitfalls.md#section_DF01A97275E44CA5859D825E0DE2F49F). Vedi anche: [Per quanto tempo si deve eseguire un test A/B](/help/c-activities/t-test-ab/sample-size-determination.md)?
 
-**Come posso eseguire un&#39;attività se la finestra temporale è piccola?**
+**Come posso eseguire un'attività se la finestra temporale è piccola?**
 
 **Posso ottimizzare il mio obiettivo durante il test?**
 
 Utilizza i nostri [rapporti per determinare l’esperienza vincente](../c-activities/automated-traffic-allocation/determine-winner.md#concept_5741A89ED7224E1285A3BC34B2CCD0F9).
 
-**È possibile eseguire un&#39;attività con un livello di personalizzazione come parte integrante dell&#39;attività?**
+**È possibile eseguire un'attività con un livello di personalizzazione come parte integrante dell'attività?**
 
 Consulta [Test A/B con l’opzione di targeting automatico](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
@@ -77,59 +77,59 @@ Consulta [Attività fattoriali complete multivariate (MVT)](../c-activities/c-mu
 
 Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 
-**È possibile eseguire un&#39;attività che si estende su più pagine in cui la struttura della pagina è diversa?**
+**È possibile eseguire un'attività che si estende su più pagine in cui la struttura della pagina è diversa?**
 
 **Posso applicare offerte in luoghi diversi (ad esempio, funnel di checkout)?**
 
 Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
 
-**Come posso essere sicuro che, una volta raggiunto un obiettivo (primario o secondario), un utente non entri più nell&#39;attività e veda invece un&#39;attività diversa?**
+**Come posso essere sicuro che, una volta raggiunto un obiettivo (primario o secondario), un utente non entri più nell'attività e veda invece un'attività diversa?**
 
-Questo è possibile utilizzando l&#39;opzione [Impostazioni avanzate](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponibile per ogni obiettivo. Sono disponibili opzioni per decidere cosa accade dopo che l&#39;utente ha raggiunto l&#39;obiettivo e come si desidera che il conteggio venga incrementato.
+Questo è possibile utilizzando l'opzione [Impostazioni avanzate](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_E2FE441AFB324E498793ABB025ED9974) disponibile per ogni obiettivo. Sono disponibili opzioni per decidere cosa accade dopo che l'utente ha raggiunto l'obiettivo e come si desidera che il conteggio venga incrementato.
 
-Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilascia l&#39;utente e impedisci nuovo accesso” insieme a “Predefinito/Altri contenuti attività” per raggiungere la finalità. Consulta anche le altre opzioni.
+Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilascia l'utente e impedisci nuovo accesso” insieme a “Predefinito/Altri contenuti attività” per raggiungere la finalità. Consulta anche le altre opzioni.
 
 **Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi?**
 
-**Per esempio, voglio considerare l&#39;obiettivo B quando l&#39;utente ha raggiunto l&#39;obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
+**Per esempio, voglio considerare l'obiettivo B quando l'utente ha raggiunto l'obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
 
 Target può raggiungere questo obiettivo in modo preciso grazie alla funzione di Dipendenza delle metriche. È sufficiente [aggiungere dipendenze su altre metriche di successo](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.
 
-**Come posso essere chiaro su come impostare un&#39;attività per raggiungere le mie finalità?**
+**Come posso essere chiaro su come impostare un'attività per raggiungere le mie finalità?**
 
 Qui è dove entrano in gioco gli [obiettivi](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC).
 
-Per iniziare è importante sapere cosa si desidera ottimizzare. I ricavi, la conversione o il coinvolgimento? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l&#39;azione intrapresa dall&#39;utente sul tuo sito per il raggiungimento dell&#39;obiettivo.
+Per iniziare è importante sapere cosa si desidera ottimizzare. I ricavi, la conversione o il coinvolgimento? Ognuna di queste opzioni è disponibile nella sezione obiettivi. Per ogni obiettivo, è possibile definire l'azione intrapresa dall'utente sul tuo sito per il raggiungimento dell'obiettivo.
 
-Questo è reso possibile dall&#39;impostazione dell&#39;obiettivo primario nel passaggio 3 del flusso di lavoro guidato in tre parti. È possibile aggiungere ulteriori obiettivi, per un reporting migliore
+Questo è reso possibile dall'impostazione dell'obiettivo primario nel passaggio 3 del flusso di lavoro guidato in tre parti. È possibile aggiungere ulteriori obiettivi, per un reporting migliore
 
-**È possibile programmare l&#39;inizio e la fine di un&#39;attività a un orario fisso?**
+**È possibile programmare l'inizio e la fine di un'attività a un orario fisso?**
 
 Utilizza la [funzionalità di programmazione nel passaggio obiettivi e impostazioni](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flusso di lavoro di attività in tre parti specificando le date di inizio e di fine.
 
-Ricordate di attivare l&#39;attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l&#39;attività passa allo stato terminata.
+Ricordate di attivare l'attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l'attività passa allo stato terminata.
 
-**È possibile apportare una modifica solo al passaggio di destinazione e non passare attraverso l&#39;intero flusso di lavoro guidato in tre passaggi per l&#39;editing?**
+**È possibile apportare una modifica solo al passaggio di destinazione e non passare attraverso l'intero flusso di lavoro guidato in tre passaggi per l'editing?**
 
 Puoi farlo semplicemente [inserendo direttamente il passo desiderato dalla pagina panoramica Attività](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0) e uscendo da quel passaggio utilizzando l’opzione Salva e chiudi.
 
-**Posso rimanere in un particolare passaggio, continuare a modificare l&#39;attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un&#39;altra scheda?**
+**Posso rimanere in un particolare passaggio, continuare a modificare l'attività (offerta di testo o codice personalizzato, per esempio), e quindi eseguire il QA in un'altra scheda?**
 
-Anche questo è possibile. Utilizza semplicemente [l&#39;opzione Salva disponibile per apportare modifiche incrementali senza uscire dal passaggio](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
+Anche questo è possibile. Utilizza semplicemente [l'opzione Salva disponibile per apportare modifiche incrementali senza uscire dal passaggio](../c-activities/edit-activity.md#concept_BB064C0D4A194BD1A1AE7CCA1E6BB8F0).
 
-**Come posso visualizzare in anteprima ed effettuare il QA di un&#39;attività appena creata?**
+**Come posso visualizzare in anteprima ed effettuare il QA di un'attività appena creata?**
 
-Utilizza la nostra [potente funzione di modalità di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) per eseguire le attività di QA. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l&#39;attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
+Utilizza la nostra [potente funzione di modalità di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) per eseguire le attività di QA. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l'attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
 
-**Come posso utilizzare il potere decisionale di Target per ricevere un&#39;esperienza/offerta che può essere utilizzata nelle applicazioni di singole pagine (SPA) o nelle integrazioni lato server?**
+**Come posso utilizzare il potere decisionale di Target per ricevere un'esperienza/offerta che può essere utilizzata nelle applicazioni di singole pagine (SPA) o nelle integrazioni lato server?**
 
 Sfrutta l’efficacia delle [attività basate su moduli](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l’obiettivo.
 
 **Ho creato due attività. Come faccio a sapere quale attività vedrà un visitatore?**
 
-**Posso impostare l&#39;ordine prioritario di alcune attività?**
+**Posso impostare l'ordine prioritario di alcune attività?**
 
-Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di Target (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
+Utilizza l'impostazione di priorità disponibile nel passaggio 3 del flusso di lavoro guidato in tre parti di Target (pagina Obiettivi e impostazioni) per [definire la priorità delle attività](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC).
 
 Sono disponibili due opzioni:
 
@@ -138,7 +138,7 @@ Sono disponibili due opzioni:
 
 ## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
-**È possibile creare un segmento di un pubblico in un&#39;attività specifica dell&#39;attività? Non credo che un tale pubblico debba essere creato nella libreria Pubblico, perché non verrà riutilizzato.**
+**È possibile creare un segmento di un pubblico in un'attività specifica dell'attività? Non credo che un tale pubblico debba essere creato nella libreria Pubblico, perché non verrà riutilizzato.**
 
 Inizia utilizzando la [funzionalità “pubblico per sola attività”](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483) per definire i tipi di pubblico per una specifica attività.
 
@@ -156,13 +156,13 @@ Il modo migliore è utilizzare mbox e [tipi di pubblico personalizzati](../c-tar
 
 Prova la [funzione Script di profilo](../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2). È un modo potente per personalizzare le esperienze, anche se richiede di scrivere un codice.
 
-**Posso iniziare un&#39;attività con un minor numero di visitatori?**
+**Posso iniziare un'attività con un minor numero di visitatori?**
 
 Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio 2 del flusso di lavoro guidato in tre parti (pagina di targeting)](../c-activities/t-test-ab/t-test-create-ab/ab-audience.md#concept_A268236C1224451DB7844BF67F41A087) per decidere in che modo procedere all’impostazione dell’attività.
 
 **Ho anche Adobe Analytics e lo voglio sfruttare con Target. Quali funzionalità chiave ottengo integrando le due soluzioni?**
 
-Dai un&#39;occhiata alle seguenti funzioni del prodotto:
+Dai un'occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributi del cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
@@ -170,7 +170,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 ## Esperienze {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
-**È possibile eseguire un&#39;attività su più pagine in cui la struttura della pagina è comune?**
+**È possibile eseguire un'attività su più pagine in cui la struttura della pagina è comune?**
 
 Consulta [Regole modello](../c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781) per includere molte pagine strutturate simili per l’attività, durante la creazione di esperienza sul singolo URL fornito.
 
@@ -192,17 +192,17 @@ Prova le informazioni sulla [risoluzione dei problemi](../c-experiences/c-visual
 
 Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [proxy server di Adobe nella whitelist degli indirizzi consentiti](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
-**Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
+**Ho un sito reattivo. Durante la creazione di un'attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
 Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](../c-experiences/c-visual-experience-composer/mobile-viewports.md#concept_8E45527C4ABC41D59AA3553BEDC76FA5). Si noti che funziona solo quando il Compositore esperienza avanzato è abilitato.
 
 **Ho più domini. Uno dei domini ha bisogno del Compositore esperienza avanzato, mentre altri hanno bisogno che questo sia disabilitato. Come posso fare?**
 
-È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per bypassare l’impostazione predefinita (Configurazione &gt; Preferenze).
+È sempre possibile utilizzare l'opzione [Compositore esperienza avanzato a livello di attività](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per bypassare l’impostazione predefinita (Configurazione &gt; Preferenze).
 
-**Perché non vedo un&#39;opzione per scambiare le immagini?**
+**Perché non vedo un'opzione per scambiare le immagini?**
 
-Rivolgiti ad Adobe per [assicurarti di avere l’account configurato per Scene7](../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una volta impostato, sarai in grado di scambiare un&#39;immagine con un&#39;altra immagine in tutta facilità.
+Rivolgiti ad Adobe per [assicurarti di avere l’account configurato per Scene7](../administrating-target/scene7-settings.md#task_37AD0768EFBA4E588955FE3D5DD670A5). Una volta impostato, sarai in grado di scambiare un'immagine con un'altra immagine in tutta facilità.
 
 **Voglio testare due esperienze diverse, per esempio sconto forfettario e sconto percentuale, ma voglio indirizzare le esperienze correttamente (mostrare diverso testo locale o valuta diversa per le persone provenienti da paesi diversi). Come posso fare?**
 
@@ -214,7 +214,7 @@ Le modifiche sono sempre visibili nell’[Editor di codice](../c-experiences/c-v
 
 Il selettore CSS è un selettore sizzle. È possibile utilizzare questa sezione per apportare piccole modifiche o eliminare rapidamente alcune offerte.
 
-**Voglio consegnare JavaScript come parte dell&#39;esperimento/attività per apportare modifiche rapide ad alcuni elementi dinamici o semplicemente per inviare una chiamata a una soluzione di terze parti. Come posso fare?**
+**Voglio consegnare JavaScript come parte dell'esperimento/attività per apportare modifiche rapide ad alcuni elementi dinamici o semplicemente per inviare una chiamata a una soluzione di terze parti. Come posso fare?**
 
 Un metodo consiste nell’usare l’[Editor di codice personalizzato](../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5). Devi semplicemente inserire il tuo JavaScript nella sezione e questo verrà consegnato. Hai la possibilità di consegnarlo nella sezione head nella parte superiore della sezione body, a seconda delle tue esigenze.
 
@@ -224,9 +224,9 @@ Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare
 
 ![](assets/vec2.png)
 
-**Come posso passare all&#39;esperienza scelta dal passaggio 2 del flusso di lavoro guidato in tre parti di Target (pagina targeting)?**
+**Come posso passare all'esperienza scelta dal passaggio 2 del flusso di lavoro guidato in tre parti di Target (pagina targeting)?**
 
-Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
+Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l'esperienza scelta.
 
 ![](assets/thumbnail_experiences.png)
 
@@ -240,7 +240,7 @@ Consulta il nostro servizio [Device Co-op](https://marketing.adobe.com/resources
 
 Se fai parte della Cooperativa, un semplice flag nella pagina Obiettivi e impostazioni abilita la funzione. Inoltre, il reporting cambia per riflettere Persone anziché Visitatori. Contatta Adobe per maggiori informazioni su questa funzione in quanto non è disponibile in tutte le regioni.
 
-**Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
+**Perché non vedo l'offerta/esperienza desiderata e vedo invece altre attività?**
 
 Utilizza il nostro [debugger](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
@@ -258,11 +258,11 @@ Utilizza il nostro [debugger](../c-activities/c-troubleshooting-activities/conte
 
 È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
-**Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
+**Perché non vedo l'offerta/esperienza desiderata e vedo invece altre attività?**
 
 Utilizza il nostro [debugger](../c-activities/c-troubleshooting-activities/content-trouble.md#concept_D2548B486C984B1E97ED7A72075B8EEA) e verifica la presenza di [conflitti tra attività](../c-experiences/c-visual-experience-composer/activity-collisions.md#concept_0BC6B929592744DFA7DA01FF4F91052E).
 
-**Posso utilizzare il potere decisionale di Target per ricevere un&#39;esperienza/offerta che può essere utilizzata in applicazioni a pagina singola (SPA) o nelle integrazioni lato server?**
+**Posso utilizzare il potere decisionale di Target per ricevere un'esperienza/offerta che può essere utilizzata in applicazioni a pagina singola (SPA) o nelle integrazioni lato server?**
 
 Sfrutta l’efficacia delle [attività basate su moduli](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) con [offerte JSON](../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D) per raggiungere l’obiettivo.
 
@@ -270,7 +270,7 @@ Sfrutta l’efficacia delle [attività basate su moduli](../c-experiences/form-e
 
 **Ho anche Adobe Analytics e lo voglio sfruttare con Target. Quali funzionalità chiave ottengo integrando le due soluzioni?**
 
-Dai un&#39;occhiata alle seguenti funzioni del prodotto:
+Dai un'occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
@@ -283,11 +283,11 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 Qui entra in gioco la funzionalità di [Tipi di pubblico per i rapporti](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponibile nella pagina Obiettivi e impostazioni nel passaggio 3 del flusso di lavoro guidato in tre parti.
 
-Hai l&#39;opzione di aggiungere 50 segmenti e anche il punto dell&#39;applicazione (Activity Entry (Ingresso attività) o una metrica specifica) per avere un modo efficace di sezione e stile.
+Hai l'opzione di aggiungere 50 segmenti e anche il punto dell'applicazione (Activity Entry (Ingresso attività) o una metrica specifica) per avere un modo efficace di sezione e stile.
 
 Tieni presente che Target raccoglie i dati per questo scopo dal momento in cui si aggiungono questi tipi di pubblico; quindi, dovrai aggiungere i segmenti prima di eseguire il test.
 
-**Non posso definire i tipi di pubblico prima di eseguire l&#39;attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.**
+**Non posso definire i tipi di pubblico prima di eseguire l'attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.**
 
 **Cosa posso fare per semplificare questo processo?**
 
@@ -297,17 +297,17 @@ This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/
 
 Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
 
-**Posso cambiare l&#39;esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
+**Posso cambiare l'esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
 
 Per apportare queste modifiche utilizza le [Impostazioni nella pagina Rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
 
 **Come devo interpretare i rapporti?**
 
-Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un&#39;analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
+Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristiche come [barre di intervallo di affidabilità, limiti di incremento, significatività/affidabilità e selezioni di più metriche, visualizzazioni a tabella e grafico, medie correnti e altro ancora](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) per consentire un'analisi dei rapporti potente, ma facile. Ovviamente, se utilizzi [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) puoi cercare attività per ulteriori analisi sui tipi di pubblico.
 
 ## Token di risposta {#section_C2A7118B4B62482A9D630C2212112A3D}
 
-**È possibile eseguire un&#39;integrazione con un sistema di terze parti, ad esempio Google Analytics o ClickTale, per passare le informazioni sull&#39;attività consegnate a un utente finale, per l&#39;analisi?**
+**È possibile eseguire un'integrazione con un sistema di terze parti, ad esempio Google Analytics o ClickTale, per passare le informazioni sull'attività consegnate a un utente finale, per l'analisi?**
 
 Abbiamo una soluzione anche per questo grazie alla [funzionalità Token di risposta](../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
