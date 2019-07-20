@@ -61,7 +61,7 @@ Il rapporto Dettagli ordine (noto come Rapporto di audit in [!DNL Target Classic
 
    Nel rapporto [!UICONTROL Dettagli ordine] per le attività [!UICONTROL Test A/B], [!UICONTROL Targeting esperienza] (XT) e [!UICONTROL Test multivariato] (MVT), la colonna [!UICONTROL Esperienza] contiene il valore `localId` dell’esperienza. Si tratta del valore restituito da `$campaign.recipe.id` nei token dell’offerta.
 
-   Non esiste una colonna [!UICONTROL Esperienze] per le attività [!UICONTROL Personalizzazione automatica] (AP). La colonna [!UICONTROL Nome algoritmo] attuale è stata sostituita da “Controllo” rispetto a &quot;Target&quot;, come in altre aree di [!DNL Target].
+   Non esiste una colonna [!UICONTROL Esperienze] per le attività [!UICONTROL Personalizzazione automatica] (AP). La colonna [!UICONTROL Nome algoritmo] attuale è stata sostituita da “Controllo” rispetto a "Target", come in altre aree di [!DNL Target].
 
    Non vi è stato alcun impatto sulle attività [!UICONTROL Consigli].
 
@@ -84,4 +84,4 @@ Le informazioni seguenti si applicano all’opzione Scarica:
 * È possibile scaricare entrambi i rapporti per le attività Test A/B, Personalizzazione automatizzata, Targeting esperienze e Test multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
 * L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
-* I tipi di pubblico applicati nell&#39;interfaccia utente di reporting di Target non vengono trasferiti al rapporto sul download.
+* I tipi di pubblico applicati nell'interfaccia utente di reporting di Target non vengono trasferiti al rapporto sul download.
