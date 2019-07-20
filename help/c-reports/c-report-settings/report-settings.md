@@ -25,12 +25,12 @@ Per visualizzare un rapporto, fai clic su **[!UICONTROL Attività]**, scegli l�
 
 Puoi salvare fino a dieci diversi predefiniti del rapporto di una singola attività dopo averlo configurato come desiderato (metriche, destinatari, impostazioni avanzate e così via). Tutti gli utenti di Target possono visualizzare, modificare ed eliminare i vari predefiniti, a prescindere da chi li ha creati.
 
-Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che compare quando vedi che il rapporto dell&#39;attività sta avanzando.
+Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che compare quando vedi che il rapporto dell'attività sta avanzando.
 
 **Creare un predefinito o un predefinito di deault**
 
-1. Configura il rapporto dell&#39;attività come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
-1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]**.
+1. Configura il rapporto dell'attività come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
+1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]**.
 
    ![Predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -44,7 +44,7 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 
 **Selezionare un predefinito diverso**
 
-Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Predefinito target]**.
+Seleziona il predefinito desiderato dall'elenco a discesa **[!UICONTROL Predefinito target]**.
 
 ![Elenco a discesa Predefinito](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
@@ -57,34 +57,34 @@ Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Pred
 
    ![Predefinito rapporto con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuov predefinito.
+1. Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuov predefinito.
 
    Oppure
 
-   Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
+   Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
 
    ![Aggiornamento predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Eliminare un predefinito**
 
 1. Seleziona il predefinito da eliminare.
-1. Fai clic sull&#39;icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Elimina]**.
+1. Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Elimina]**.
 
    ![Eliminazione predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l&#39;eliminazione.
+1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l'eliminazione.
 
 **Gestione degli errori nei predefiniti**
 
-Gli avvisi e i messaggi all&#39;interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L&#39;avviso o il messaggio indica di scegliere dei destinatari, una metrica, un gruppo di host o un&#39;esperienza differenti per rendere valido il predefinito.
+Gli avvisi e i messaggi all'interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L'avviso o il messaggio indica di scegliere dei destinatari, una metrica, un gruppo di host o un'esperienza differenti per rendere valido il predefinito.
 
-Nell&#39;elenco seguente sono descritte alcune delle situazioni che potrebbero provocare la mancata validità di un predefinito:
+Nell'elenco seguente sono descritte alcune delle situazioni che potrebbero provocare la mancata validità di un predefinito:
 
-* Un gruppo di destinatari di reporting è stato rimosso dall&#39;attività ma è riportato nella definizione del predefinito.
-* Una metrica (o più) è stata eliminata ma è riportata nella definizione del predefinito. Ad esempio, potresti eliminare una o più metriche dall&#39;attività e aggiungerne di nuove.
+* Un gruppo di destinatari di reporting è stato rimosso dall'attività ma è riportato nella definizione del predefinito.
+* Una metrica (o più) è stata eliminata ma è riportata nella definizione del predefinito. Ad esempio, potresti eliminare una o più metriche dall'attività e aggiungerne di nuove.
 * Un gruppo di host (o più) non esiste ma è riportato nella definizione del predefinito.
-* Un&#39;esperienza (o più) è stata eliminata dopo la creazione del predefinito, ma è riportata nella definizione del predefinito.
-* Un predefinito non è valido perché le entità riportate esistono ancora ma sono state aggiornate in modo tale da modificare semanticamente la definizione del predefinito. Ad esempio, immagina di creare inizialmente un predefinito denominato “Ricavi da Chrome”. In seguito aggiorni l&#39;attività per misurare la metrica di Conversione anziché Ricavi. Questo aggiornamento alla definizione dell&#39;attività invalida semanticamente la definizione del predefinito.
+* Un'esperienza (o più) è stata eliminata dopo la creazione del predefinito, ma è riportata nella definizione del predefinito.
+* Un predefinito non è valido perché le entità riportate esistono ancora ma sono state aggiornate in modo tale da modificare semanticamente la definizione del predefinito. Ad esempio, immagina di creare inizialmente un predefinito denominato “Ricavi da Chrome”. In seguito aggiorni l'attività per misurare la metrica di Conversione anziché Ricavi. Questo aggiornamento alla definizione dell'attività invalida semanticamente la definizione del predefinito.
 
 ## Metrica rapporto {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -102,11 +102,11 @@ Per ulteriori informazioni, consulta [Tipi di pubblico](../../c-target/target.md
 
 ## Intervallo date {#section_A410A768403C4E01891F95CB357E63ED}
 
-Nella casella Intervallo date viene visualizzato l&#39;intervallo di date del rapporto corrente. Fai clic sull&#39;icona a discesa per visualizzare un calendario che consente di modificare l&#39;intervallo di date del rapporto.
+Nella casella Intervallo date viene visualizzato l'intervallo di date del rapporto corrente. Fai clic sull'icona a discesa per visualizzare un calendario che consente di modificare l'intervallo di date del rapporto.
 
 ![Calendario      ](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall&#39;inizio dell&#39;attività]** e **[!UICONTROL Fino al termine dell&#39;attività]**.
+Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall'inizio dell'attività]** e **[!UICONTROL Fino al termine dell'attività]**.
 
 Fai clic su **[!UICONTROL Date personalizzate]** per selezionare intervalli di date predefiniti: Ultimi 7 giorni, Ultimi 15 giorni o Ultimi 30 giorni. Questi intervalli di date predefiniti sono incrementali. Se la data di inizio è precedente al numero di giorni scelto, il calendario mostrerà l’intervallo da questa data; tuttavia, questo inizierà a scorrere una volta che la data di inizio diventerà successiva al numero di giorni scelto durante l’avanzamento dell’attività..
 
@@ -148,7 +148,7 @@ Fai clic sull’icona Scarica per scaricare i dati del rapporto in formato [!DNL
 
 ## Aggiorna {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Fai clic sull’icona Aggiorna per aggiornare la tabella e il grafico di un rapporto senza aggiornare l&#39;intera pagina, la configurazione o l&#39;intervallo di date.
+Fai clic sull’icona Aggiorna per aggiornare la tabella e il grafico di un rapporto senza aggiornare l'intera pagina, la configurazione o l'intervallo di date.
 
 ## Altre opzioni {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
@@ -183,7 +183,7 @@ Fai clic sull’icona **[!UICONTROL Contributo posizione]** per far sì che il r
 
 Seleziona o deseleziona le esperienze sul lato sinistro del grafico per visualizzare o nascondere dal grafico le esperienze corrispondenti.
 
-Se la figura seguente, solo esperienze predefinite, Mid-East e Totale vengono visualizzate nel report. L&#39;esperienza Asia è nascosta nel grafico.
+Se la figura seguente, solo esperienze predefinite, Mid-East e Totale vengono visualizzate nel report. L'esperienza Asia è nascosta nel grafico.
 
 ![Esperienze](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
