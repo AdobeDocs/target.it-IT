@@ -90,7 +90,7 @@ ov2/c_target-configure-atjs.xml
 
 ## Scaricare at.js utilizzando l’interfaccia di Target {#section_1F5EE401C2314338910FC57F9592894E}
 
-Per scaricare [!DNL at.js] dall&#39;interfaccia di [!DNL Target]:
+Per scaricare [!DNL at.js] dall'interfaccia di [!DNL Target]:
 
 1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Implementazione]**.
 1. Seleziona **[!UICONTROL at.js]**.
@@ -98,7 +98,7 @@ Per scaricare [!DNL at.js] dall&#39;interfaccia di [!DNL Target]:
 
 ## Scaricare at.js utilizzando l’API di download di Target {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
-Per scaricare [!DNL at.js] utilizzando l&#39;API.
+Per scaricare [!DNL at.js] utilizzando l'API.
 
 1. Ottieni il tuo codice cliente.
 
@@ -106,7 +106,7 @@ Per scaricare [!DNL at.js] utilizzando l&#39;API.
 
 1. Ottieni il tuo numero di amministratore.
 
-   Carica l&#39;URL:
+   Carica l'URL:
 
    ```
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
@@ -114,7 +114,7 @@ Per scaricare [!DNL at.js] utilizzando l&#39;API.
 
    Sostituisci il ` < *`codice cliente`*>` con il codice cliente ottenuto nel passaggio 1.
 
-   Il risultato del caricamento dell&#39;URL deve essere simile al seguente:
+   Il risultato del caricamento dell'URL deve essere simile al seguente:
 
    ```
    { 
@@ -232,7 +232,7 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
    >
    >Utilizza le virgole per separare i diversi ID prodotto.
 
-   **Suggerimento:** è possibile, inoltre, passare le informazioni di ordine in qualsiasi mbox (non deve per forza chiamarsi `orderConfirmPage`). Inoltre, puoi passare le informazioni di ordine in più mbox all&#39;interno della stessa campagna.
+   **Suggerimento:** è possibile, inoltre, passare le informazioni di ordine in qualsiasi mbox (non deve per forza chiamarsi `orderConfirmPage`). Inoltre, puoi passare le informazioni di ordine in più mbox all'interno della stessa campagna.
 
    ```
    <script type="text/javascript"> 
@@ -247,10 +247,10 @@ ov/t_create_orderconfirm-page-mbox-atjs.xml
    </script> 
    ```
 
-La mbox di conferma d&#39;ordine utilizza i seguenti parametri:
+La mbox di conferma d'ordine utilizza i seguenti parametri:
 
 | Parametro | Descrizione |
 |--- |--- |
 | orderId | Valore univoco per identificare un ordine per il conteggio di conversione.<br>L’`orderId` deve essere univoco. Gli ordini duplicati vengono ignorati nei rapporti. |
-| orderTotal | Valore monetario dell&#39;acquisto.<br>Non trasmettere il simbolo di valuta. Utilizza un punto decimale (non la virgola) per indicare i valori decimali. |
-| productPurchasedId  (facoltativo) | Elenco degli ID dei prodotti acquistati nell&#39;ordine, separati da virgole.<br>Questi ID prodotto vengono visualizzati nel rapporto di revisione per supportare attività aggiuntive di analisi dei rapporti. |
+| orderTotal | Valore monetario dell'acquisto.<br>Non trasmettere il simbolo di valuta. Utilizza un punto decimale (non la virgola) per indicare i valori decimali. |
+| productPurchasedId  (facoltativo) | Elenco degli ID dei prodotti acquistati nell'ordine, separati da virgole.<br>Questi ID prodotto vengono visualizzati nel rapporto di revisione per supportare attività aggiuntive di analisi dei rapporti. |
