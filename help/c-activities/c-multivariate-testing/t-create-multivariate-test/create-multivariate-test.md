@@ -16,9 +16,9 @@ source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
 
 The [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] makes it easy to create your test right on a Target-enabled page and to modify portions of the page within [!DNL Target].
 
-L&#39;editor rapido di Target consente di scegliere qualsiasi posizione e di aggiungere offerte multiple.
+L'editor rapido di Target consente di scegliere qualsiasi posizione e di aggiungere offerte multiple.
 
-The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre parole, il test viene eseguito su un URL specifico, con l&#39;esperienza progettata per tale pagina.
+The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre parole, il test viene eseguito su un URL specifico, con l'esperienza progettata per tale pagina.
 
 1. Fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Test multivariato]**.
 
@@ -26,7 +26,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
 
    >[!NOTE]
    >
-   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell&#39;elenco. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell'elenco. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
    >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
@@ -38,11 +38,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l&#39;opzione non è visualizzata, l&#39;organizzazione dispone di una licenza di Target Standard.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l'opzione non è visualizzata, l'organizzazione dispone di una licenza di Target Standard.]
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Specificate l&#39;URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) della pagina da sottoporre a test, quindi fate clic su **[!UICONTROL Avanti]**.
+1. [Specificate l'URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) della pagina da sottoporre a test, quindi fate clic su **[!UICONTROL Avanti]**.
 
    >[!NOTE]
    >
@@ -52,7 +52,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
 
    Viene visualizzato il Compositore esperienza visivo.
 
-1. Digita un nome per l&#39;attività.
+1. Digita un nome per l'attività.
 
    ![Campo Nome attività](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
@@ -91,11 +91,11 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
 
    ![Indicatore traffico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
-   L&#39;illustrazione seguente indica che l&#39;attività ha traffico insufficiente.
+   L'illustrazione seguente indica che l'attività ha traffico insufficiente.
 
    ![](assets/estimator.png)
 
-   L&#39;illustrazione seguente indica che l&#39;attività ha traffico insufficiente.
+   L'illustrazione seguente indica che l'attività ha traffico insufficiente.
 
    ![](assets/estimator2.png)
 
@@ -103,7 +103,7 @@ The [!UICONTROL Multivariate Test] (MVT) takes a page-first report. In altre par
 
 1. Scegli il pubblico e la percentuale di visitatori validi che dovranno accedere all’attività.
 
-   ![Pagina Targeting nell&#39;attività MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
+   ![Pagina Targeting nell'attività MVT](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt_audperc.png)
 
    Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”.
 
