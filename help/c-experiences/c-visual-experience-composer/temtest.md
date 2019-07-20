@@ -30,7 +30,7 @@ Ad esempio, si può utilizzare per eseguire una delle operazioni seguenti:
 * Aggiungere un banner a tutte le pagine di prodotto
 * Modificare il layout di un modello di elemento
 
-Il video demo seguente include informazioni sull&#39;utilizzo di un modello:
+Il video demo seguente include informazioni sull'utilizzo di un modello:
 
 Si possono specificare le pagine che contengono gli elementi di modifica, o applicare la modifica in tutto il sito.
 
@@ -38,7 +38,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 1. Per specificare le pagine in cui verrà visualizzata l’esperienza, nel Compositore esperienza visivo, fai clic sull’icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagina]**.
 1. Fai clic su **[!UICONTROL Aggiungi regola modello]**, quindi specifica i criteri per le pagine a cui aggiungere l’esperienza.
 
-1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
+1. Specifica l'intervallo di pagine. L'intervallo di pagine può essere uno tra i seguenti:
 
    * URL
    * Dominio
@@ -49,7 +49,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 
 1. Scegli un operatore.
 
-   L&#39;operatore specifica la correlazione tra gli elementi dopo l&#39;operatore e l&#39;intervallo di pagine. Gli operatori disponibili sono i seguenti:
+   L'operatore specifica la correlazione tra gli elementi dopo l'operatore e l'intervallo di pagine. Gli operatori disponibili sono i seguenti:
 
    * Contiene
    * Non contiene
@@ -58,7 +58,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
    * Inizia con
    * Termina con
 
-1. Digita le stringhe che definiscono dove viene aggiunta l&#39;esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
+1. Digita le stringhe che definiscono dove viene aggiunta l'esperienza, ad esempio il dominio o le stringhe contenute nel nome della pagina.
 
    Ad esempio, se selezioni **[!UICONTROL Dominio]** e **[!UICONTROL è (distinzione maiuscole/minuscole)]**, digita il dominio in cui desideri aggiungere l’esperienza in tutte le pagine.
 
@@ -70,7 +70,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 
 1. Se lo desideri, inserisci criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura di cui al passaggio precedente.
 
-   I criteri multipli sono collegati mediante AND (E). Adobe Target aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
+   I criteri multipli sono collegati mediante AND (E). Adobe Target aggiunge l'esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
 >[!IMPORTANT]
 >
