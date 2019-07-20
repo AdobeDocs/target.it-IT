@@ -35,7 +35,7 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
 1. Aggiungi un **[!UICONTROL nome contenuto]**.
 
-   Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un&#39;immagine da visualizzare sulla scheda di progettazione.
+   Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un'immagine da visualizzare sulla scheda di progettazione.
 1. Modifica il **[!UICONTROL codice]** di progettazione.
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
