@@ -37,7 +37,7 @@ Per le metriche calcolate non è possibile generare incremento e affidabilità. 
 
 A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono presi in considerazione.
 
-Qualsiasi segmento Analytics può essere applicato al rapporto. In questo modo è possibile ottenere “l&#39;ordine estremo” e altre opzioni di segmento. Una metrica potrebbe anche essere creata in modo da limitare aspetti quali quante volte un visitatore dà luogo a una conversione.
+Qualsiasi segmento Analytics può essere applicato al rapporto. In questo modo è possibile ottenere “l'ordine estremo” e altre opzioni di segmento. Una metrica potrebbe anche essere creata in modo da limitare aspetti quali quante volte un visitatore dà luogo a una conversione.
 
 ## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
