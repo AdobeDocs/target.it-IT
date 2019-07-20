@@ -24,6 +24,6 @@ I Consigli visualizzano gli elementi delle raccolte in base ai criteri impostati
 Usa le entità per:
 
 * Configurare le raccolte
-* Utilizzare i feed per ottenere informazioni sull&#39;entità o sul contenuto nei consigli
+* Utilizzare i feed per ottenere informazioni sull'entità o sul contenuto nei consigli
 * Impostare esclusioni per evitare che determinati elementi siano visualizzati nei consigli
 
