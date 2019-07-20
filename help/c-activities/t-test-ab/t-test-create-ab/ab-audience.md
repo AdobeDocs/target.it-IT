@@ -25,7 +25,7 @@ Fai clic sull’icona Modifica (tre puntini di sospensione verticali) nella case
 
 ![Opzione Sostituisci pubblico](/help/c-activities/t-test-ab/t-test-create-ab/assets/replace-audience.png)
 
-Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Per un test A/B senza targeting per uno specifico pubblico, scegli l&#39;impostazione predefinita, Tutti i visitatori.
+Per impostazione predefinita, il pubblico è composto da tutti i visitatori. Tuttavia, è possibile modificarlo. I tipi di pubblico vengono selezionati dalla libreria del pubblico oppure è possibile creare un pubblico per una sola attività. La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. You can select an audience from the library, [create a new audience](../../../c-target/c-audiences/create-audience.md#task_1D507519D3AD4390B507F188BD294DC1), or [create an activity-only audience](../../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483). Per un test A/B senza targeting per uno specifico pubblico, scegli l'impostazione predefinita, Tutti i visitatori.
 
 È anche possibile modificare o copiare un pubblico passando il cursore sopra il pubblico desiderato nella finestra di dialogo [!UICONTROL Scegli il pubblico], come illustrato di seguito. È utile copiare un pubblico per crearne uno simile a un pubblico esistente. Puoi effettuare una copia del pubblico, apportarvi le modifiche desiderate, e quindi salvarlo come un nuovo pubblico. Questa funzionalità esiste anche in altri tipi di attività.
 
@@ -61,7 +61,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398?captions=ita)
 
-### Flusso di lavoro di un&#39;attività - Targeting (2:14)
+### Flusso di lavoro di un'attività - Targeting (2:14)
 
 Questo video contiene informazioni su come impostare i tipi di pubblico.
 
