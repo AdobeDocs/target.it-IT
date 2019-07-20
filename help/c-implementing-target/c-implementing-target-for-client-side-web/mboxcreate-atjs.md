@@ -36,9 +36,9 @@ Questa funzione è incorporata in [!DNL at.js] per lo più per facilitare la tra
 
 ## Note
 
-`mboxCreate()` usa ora l&#39;endpoint “json” invece di quello “standard” e si attiva in modo asincrono. Per questo motivo:
+`mboxCreate()` usa ora l'endpoint “json” invece di quello “standard” e si attiva in modo asincrono. Per questo motivo:
 
-* [Il debug](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) è un po&#39; diverso.
+* [Il debug](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) è un po' diverso.
 * Evita di usare codice di offerte che richiede chiamate sincrone e bloccanti.
 
    Ad esempio, offerte che impostano variabili JavaScript che vengono utilizzate dal codice del sito o altre mbox che compaiono più avanti nella pagina.
