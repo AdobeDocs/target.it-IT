@@ -15,7 +15,7 @@ source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
 
 # Test multivariato{#multivariate-test}
 
-[!UICONTROL Il test multivariato (MVT)] confronta [!DNL Adobe Target] combinazioni di offerte negli elementi di una pagina per determinare quale combinazione esegue il migliore per un pubblico specifico, e identifica quale elemento influisce maggiormente sul successo dell&#39;attività.
+[!UICONTROL Il test multivariato (MVT)] confronta [!DNL Adobe Target] combinazioni di offerte negli elementi di una pagina per determinare quale combinazione esegue il migliore per un pubblico specifico, e identifica quale elemento influisce maggiormente sul successo dell'attività.
 
 ## Panoramica dei test multivariati {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
@@ -29,7 +29,7 @@ Mediante i test multivariati è inoltre possibile individuare effetti compositi 
 
 In Target ogni combinazione corrisponde a un’esperienza. Il test multivariato confronta ogni esperienza in modo da fornire informazioni sulla loro efficacia. Al contempo, vengono raccolti e analizzati dati per comprendere in che modo le singole posizioni e le offerte influenzano la metrica di successo.
 
-![](assets/multivariate.png){width=&quot;672px&quot;}
+![](assets/multivariate.png){width="672px"}
 
 A causa del numero di combinazioni che possono essere generate, un test multivariato richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e includere nel test un numero ottimale di combinazioni per una durata di tempo appropriata per ottenere i risultati richiesti. Mediante il [Calcolatore di traffico](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) di Target puoi progettare facilmente un test adeguato al traffico. Prima di utilizzare il Calcolatore di traffico, devi disporre di statistiche valide che mostrino il numero di impression e di conversioni ricevute normalmente dal sito. Considera i livelli di traffico giornalieri. Più esperienze sono incluse in un’attività, più traffico deve includere l’attività o più a lungo l’attività deve essere eseguita. Se il traffico non è molto elevato, sottoponi a test un numero limitato di combinazioni; in caso contrario, il tempo richiesto per produrre risultati significativi potrebbe essere eccessivo per risultare utile.
 
@@ -53,7 +53,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
 
 * Utilizza un test A/B per ottimizzare il layout di pagina, seguito da un test MVT per determinare il contenuto ottimale in ciascun elemento della pagina.
 
-   Un test A/B può fornire un feedback importante sul layout, mentre i test MVT sono ideali per il test del contenuto all’interno degli elementi nella progettazione di pagina. L&#39;esecuzione di un test A/B sul layout prima di sottoporre a test più opzioni di contenuto può facilitare determinate il layout migliore e il contenuto più incisivo.
+   Un test A/B può fornire un feedback importante sul layout, mentre i test MVT sono ideali per il test del contenuto all’interno degli elementi nella progettazione di pagina. L'esecuzione di un test A/B sul layout prima di sottoporre a test più opzioni di contenuto può facilitare determinate il layout migliore e il contenuto più incisivo.
 
 * Utilizza un test MVT per determinare quale elemento è il più importante, facendolo seguire da un test A/B maggiormente concentrato su tale elemento.
 
