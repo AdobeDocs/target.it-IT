@@ -25,13 +25,13 @@ Esistono due tipi di parametri che è possibile inviare con una chiamata di Targ
    I parametri mbox non sono costanti nelle sessioni.
 * Parametri del profilo
 
-   I parametri di profilo sono memorizzati nell&#39;archivio profili visitatori e sono costanti nelle sessioni. I parametri mbox non perdurano. Mentre alcuni tasti sono riservati, i parametri profilo e mbox possono essere coppie chiave-valore personalizzate.
+   I parametri di profilo sono memorizzati nell'archivio profili visitatori e sono costanti nelle sessioni. I parametri mbox non perdurano. Mentre alcuni tasti sono riservati, i parametri profilo e mbox possono essere coppie chiave-valore personalizzate.
 
 Sebbene esistano alcune chiavi riservate, entrambi i parametri profilo e mbox possono contenere coppie chiave-valore personalizzate.
 
 1. Crea dizionario.
 
-   Innanzitutto, crea un dizionario con i valori inviati da passare a Target. Per motivi di convenienza, aggiungilo all&#39;interno del metodo `welcomeMessageCampaign` in modo da non doverti preoccupare dell&#39;obbiettivo.
+   Innanzitutto, crea un dizionario con i valori inviati da passare a Target. Per motivi di convenienza, aggiungilo all'interno del metodo `welcomeMessageCampaign` in modo da non doverti preoccupare dell'obbiettivo.
 
    Di seguito è riportato un dizionario di esempio. Puoi copiarlo e incollarlo all’interno di `(void)welcomeMessageCampaign`. I valori per le chiavi come `userLevel` e `userMiles` sono inseriti direttamente in questo esempio. In generale, si passano le variabili corrispondenti.
 
@@ -47,7 +47,7 @@ Sebbene esistano alcune chiavi riservate, entrambi i parametri profilo e mbox po
                                  nil];
    ```
 
-   * Le chiavi con il profilo prefisso (ad esempio, `profile.persona`) sono memorizzate nel profilo dell&#39;utente.
+   * Le chiavi con il profilo prefisso (ad esempio, `profile.persona`) sono memorizzate nel profilo dell'utente.
 
       Questi attributi di profilo possono essere utilizzati in diverse attività e canali.
 
@@ -55,7 +55,7 @@ Sebbene esistano alcune chiavi riservate, entrambi i parametri profilo e mbox po
 
       Questi parametri sono disponibili solo durante la sessione.
 
-   * Le chiavi con l&#39;entità prefisso (ad esempio,`entity.category.id`) vengono utilizzate per i consigli di prodotti.
+   * Le chiavi con l'entità prefisso (ad esempio,`entity.category.id`) vengono utilizzate per i consigli di prodotti.
 
 1. Verifica i dati.
    1. In applicazione `didFinishLaunchingWithOptions`, rimuovi il commento o aggiungi `[ADBMobile setDebugLogging:YES];`.
