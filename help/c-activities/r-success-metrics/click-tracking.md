@@ -24,7 +24,7 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 
 ## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
 
-1. Quando imposterai gli obiettivi dell&#39;attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
+1. Quando imposterai gli obiettivi dell'attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
 1. Per eseguire tale azione, seleziona **[!UICONTROL Scegli un elemento]**, quindi fai clic su **[!UICONTROL Seleziona elementi]**.
 
    La pagina viene visualizzata nel [!UICONTROL Compositore esperienza visivo].
@@ -35,7 +35,7 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 
 1. Fai clic sul segno di spunta nella parte superiore dello schermo per salvare le selezioni.
 
-Quando un partecipante all&#39;attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
+Quando un partecipante all'attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
 ## Selected Elements panel {#selected-elements}
 
@@ -49,17 +49,17 @@ There are a several actions that can be applied when you hover over an element i
 | --- | --- |
 | Informazioni | Visualizza il tipo di elemento e il percorso DOM completo del selettore. |
 | Modifica | Consente di modificare il selettore CSS. |
-| Elimina | Elimina l&#39;elemento. |
+| Elimina | Elimina l'elemento. |
 
 ### Aggiungi elemento
 
-Se conoscete già il percorso DOM del selettore, potete aggiungerlo manualmente facendo clic sull&#39;icona più (+) nella parte superiore del pannello.
+Se conoscete già il percorso DOM del selettore, potete aggiungerlo manualmente facendo clic sull'icona più (+) nella parte superiore del pannello.
 
 ![Icona Aggiungi elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
 ### A comparsa Elementi selezionati
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity&#39;s [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. L&#39;elenco contiene il percorso DOM completo per l&#39;elemento che consente di convalidare l&#39;utilizzo dell&#39;elemento selezionato per il monitoraggio dei clic.
+After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. L'elenco contiene il percorso DOM completo per l'elemento che consente di convalidare l'utilizzo dell'elemento selezionato per il monitoraggio dei clic.
 
 ![Collegamento a Elements selezionato](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
@@ -79,7 +79,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Gli eventi clic vengono inviati a [!DNL Target] nella stessa pagina del clic.
-* Se la metrica di tracciamento dei clic è la metrica di obiettivo di un&#39;attività A4T, il visitatore deve fare clic su tale elemento entro 60 secondi dal caricamento della pagina in modo da tenere traccia della metrica.
+* Se la metrica di tracciamento dei clic è la metrica di obiettivo di un'attività A4T, il visitatore deve fare clic su tale elemento entro 60 secondi dal caricamento della pagina in modo da tenere traccia della metrica.
 * Il tracciamento dei clic non funziona su elementi che includono caratteri di escape nei rispettivi selettori, inclusi i seguenti:
 
    | Carattere | Descrizione |
@@ -100,9 +100,9 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    1. Attivare la richiesta di Target.
 
-   1. In base al successo della richiesta di Target o all&#39;errore di callback, eseguire il comportamento predefinito:
+   1. In base al successo della richiesta di Target o all'errore di callback, eseguire il comportamento predefinito:
 
-      * Tag (collegamento)`A`: il comportamento predefinito consiste nel passare all&#39;URL definito dall&#39;attributo href.
+      * Tag (collegamento)`A`: il comportamento predefinito consiste nel passare all'URL definito dall'attributo href.
       * Tag `FORM`: il comportamento predefinito consiste nell’inviare il modulo.
    Questo comportamento predefinito potrebbe interferire con il tracciamento dei clic di Analytics. Se si utilizza Analytics, per il tracciamento dei clic è necessario fare affidamento su Analytics anziché su Target.
 
