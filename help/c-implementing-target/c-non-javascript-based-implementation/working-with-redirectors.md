@@ -36,8 +36,8 @@ Per decidere la giusta configurazione, consulta [Implementazioni non basate su J
 
 Prima di poter utilizzare un redirector, è necessario crearlo.
 
-1. Determina le varianti di destinazione dell&#39;annuncio, inclusa la destinazione predefinita.
-1. Crea l&#39;URL di redirector.
+1. Determina le varianti di destinazione dell'annuncio, inclusa la destinazione predefinita.
+1. Crea l'URL di redirector.
 
    ```
    https://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox
@@ -52,7 +52,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
       * **mbox.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni mbox.js].
    * `redirectorlink_456` è il nome dell’elemento mbox redirector che appare nel tuo account, da utilizzare nelle campagne e nei test.
 
-      I redirector operano in modo diverso rispetto agli altri elementi mbox, ma appaiono nel tuo account come qualsiasi altro mbox. Dai un nome al redirector in modo da poterlo distinguere facilmente dagli elementi mbox standard nel tuo account.  È buona norma iniziare il nome mbox con &quot;redirectorlink&quot;.
+      I redirector operano in modo diverso rispetto agli altri elementi mbox, ma appaiono nel tuo account come qualsiasi altro mbox. Dai un nome al redirector in modo da poterlo distinguere facilmente dagli elementi mbox standard nel tuo account.  È buona norma iniziare il nome mbox con "redirectorlink".
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
 
@@ -61,8 +61,8 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
 
 1. Convalida il Redirector.
-   1. Inserisci l&#39;URL del redirector in un browser e aggiornalo.
-   1. Accedi all&#39;account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell&#39;elenco come una mbox.
+   1. Inserisci l'URL del redirector in un browser e aggiornalo.
+   1. Accedi all'account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell'elenco come una mbox.
 1. Se esegui il test di destinazioni diverse per un annuncio, crea [offerte di reindirizzamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) per ogni versione.
 1. Creare la campagna.
 
@@ -85,7 +85,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
    >* `mboxDebug` non funziona con i redirector.
 
 
-1. Invia l&#39;URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell&#39;annuncio.
+1. Invia l'URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell'annuncio.
 
 ## Utilizzare un Redirector per trasmettere i costi per clic e i ricavi per clic {#concept_3078EF48E9C44B34992D62AAB9628853}
 
