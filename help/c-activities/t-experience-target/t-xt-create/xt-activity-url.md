@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # URL attività{#activity-url}
 
-L&#39;URL attività determina la pagina utilizzata nell&#39;attività Experience Targeting (XT), che viene aperta in Visual Experience Composer (Compositore esperienza visivo) o in Experience Experience Composer (Compositore esperienza basato su modulo) quando l&#39;attività è stata progettata.
+L'URL attività determina la pagina utilizzata nell'attività Experience Targeting (XT), che viene aperta in Visual Experience Composer (Compositore esperienza visivo) o in Experience Experience Composer (Compositore esperienza basato su modulo) quando l'attività è stata progettata.
 
 1. When prompted while [creating an XT activity](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), specify the activity URL. Digita l’URL completo (comprensivo di `https://`), quindi fai clic su **[!UICONTROL Crea attività]**.
 
