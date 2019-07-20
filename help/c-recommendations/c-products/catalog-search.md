@@ -27,7 +27,7 @@ Puoi limitare la ricerca selezionando un’opzione di ricerca dal menu delle opz
 
 Nei risultati della ricerca, fai clic sul filtro **[UICONTROL Ambiente]** per specificare l’ambiente del gruppo di host di produzione di cui stai visualizzando il catalogo. Puoi inoltre scorrere tra gli elementi nei risultati di ricerca per visualizzare le miniature e altre informazioni sui prodotti.
 
-Il numero visualizzato accanto a &quot;Prodotti&quot; è il numero di prodotti corrispondenti al termine di ricerca, sul totale disponibile nell’ambiente specificato.
+Il numero visualizzato accanto a "Prodotti" è il numero di prodotti corrispondenti al termine di ricerca, sul totale disponibile nell’ambiente specificato.
 
 Fai clic sull’icona di aggiornamento per reindicizzare il catalogo. Attenzione: l’indicizzazione può richiedere un certo tempo, a seconda delle dimensioni del feed.
 
