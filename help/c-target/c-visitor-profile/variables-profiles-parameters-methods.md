@@ -21,7 +21,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 | Profilo | Note |
 |--- |--- |
-| user.activeActivities<br>user.activeCampaigns | Restituisce l&#39;ID della campagna per tutte le campagne/attività in cui si trova l&#39;utente, anche se non ha interagito con la campagna/attività nella sessione corrente. |
+| user.activeActivities<br>user.activeCampaigns | Restituisce l'ID della campagna per tutte le campagne/attività in cui si trova l'utente, anche se non ha interagito con la campagna/attività nella sessione corrente. |
 | user.pcId |  |
 | User.sessionId |  |
 | user.categoryAffinity |  |
@@ -31,23 +31,23 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | user.daysSinceLastVisit |  |
 | User.browser | Agente utente |
 | User.header | Tutti i profili `user.header` sono incorporati dai dati di intestazione di richiesta mbox |
-| user.header(&#39;x-cluster-client-ip&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio con [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172. |
-| user.header(&#39;host&#39;) | Hostname del sito web |
-| user.header(&#39;cookie&#39;) | Dati cookie del visitatore |
-| user.header(&#39;user-agent&#39;) | Agente utente del browser del visitatore |
-| user.header(&#39;accept-language&#39;) | Lingua del visitatore |
-| user.header(&#39;accept-encoding&#39;) | Codifica del carattere del visitatore |
-| user.header(&#39;accept&#39;) | Lingua del visitatore e codifica del carattere |
-| user.header(&#39;connection&#39;) | Connessione server. Ad esempio: keep-live |
-| user.header(&#39;referrer&#39;) | URL del sito web della pagina corrente del visitatore. Non funziona per Internet Explorer. |
-| user.getLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
-| user.get(&#39;param_name&#39;) |  |
+| user.header('x-cluster-client-ip') | L'indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio con [whatismyip.com](https://www.whatismyip.com/). L'indirizzo IP non è l'indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172. |
+| user.header('host') | Hostname del sito web |
+| user.header('cookie') | Dati cookie del visitatore |
+| user.header('user-agent') | Agente utente del browser del visitatore |
+| user.header('accept-language') | Lingua del visitatore |
+| user.header('accept-encoding') | Codifica del carattere del visitatore |
+| user.header('accept') | Lingua del visitatore e codifica del carattere |
+| user.header('connection') | Connessione server. Ad esempio: keep-live |
+| user.header('referrer') | URL del sito web della pagina corrente del visitatore. Non funziona per Internet Explorer. |
+| user.getLocal('param_name','value'); |  |
+| user.setLocal('param_name','value'); |  |
+| user.get('param_name') |  |
 | user.parameter | Attributi permanenti del profilo creati dagli script di profilo. Fa anche riferimento a profili “di sistema” come geolocalizzazione, conteggio delle visite, ecc. |
-| profile.get(&#39;param_name&#39;) |  |
-| profile.param(&#39;param_name&#39;); |  |
-| profile.parameter(&#39;parameter_name&#39;); | Parametri mbox che sono resi persistenti a causa del loro profilo.  Prefisso. |
-| profile.browserTime | Ora locale del browser del visitatore. Per l&#39;ora di sistema, creare un nuovo oggetto di data nello script del profilo |
+| profile.get('param_name') |  |
+| profile.param('param_name'); |  |
+| profile.parameter('parameter_name'); | Parametri mbox che sono resi persistenti a causa del loro profilo.  Prefisso. |
+| profile.browserTime | Ora locale del browser del visitatore. Per l'ora di sistema, creare un nuovo oggetto di data nello script del profilo |
 | profile.averageDaysBetweenVisits |  |
 | profile.sessionCount |  |
 | parameter= | Termine generico per valori aggiuntivi passati con una mbox, di solito come coppie nome/valore. Non persistente a meno che non sia fatto con `profile.parameter` o `user.parameter`. |
@@ -81,13 +81,13 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | Variabile | Note |
 |--- |--- |
 | `mbox.name` |  |
-| mbox.param(&#39;param_name&#39;) |  |
-| I parametri passano automaticamente con ogni richiesta:<ul><li>mbox.param(&#39;browserHeight&#39;)</li><li>mbox.param(&#39;browserTimeOffset&#39;)</li><li>mbox.param(&#39;browserWidth&#39;)</li><li>mbox.param(&#39;colorDepth&#39;)</li><li>mbox.param(&#39;mboxXDomain&#39;)</li><li>mbox.param(&#39;mboxTime&#39;)</li><li>mbox.param(&#39;screenHeight&#39;)</li><li>mbox.param(&#39;screenWidth&#39;)</li></ul> |
-| Parametri passati con mbox di ordine:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
+| mbox.param('param_name') |  |
+| I parametri passano automaticamente con ogni richiesta:<ul><li>mbox.param('browserHeight')</li><li>mbox.param('browserTimeOffset')</li><li>mbox.param('browserWidth')</li><li>mbox.param('colorDepth')</li><li>mbox.param('mboxXDomain')</li><li>mbox.param('mboxTime')</li><li>mbox.param('screenHeight')</li><li>mbox.param('screenWidth')</li></ul> |
+| Parametri passati con mbox di ordine:<ul><li>mbox.param('orderId')</li><li>mbox.param('orderTotal')</li><li>mbox.param('productPurchasedId')</li></ul> |
 | mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | In ogni mbox chiamata alla pagina viene assegnato un valore. |
-| mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all&#39;URL della pagina in cui lo cerca il mbox.js. |
-| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
+| mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all'URL della pagina in cui lo cerca il mbox.js. |
+| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un'altra posizione.<br>**Nota:** l'utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell'attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
 
 ## Attributi del cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
