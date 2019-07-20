@@ -29,11 +29,11 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
 
 1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Fate clic sul pulsante Dividi per avanzare al passaggio successivo o per salvare l&#39;attività.
+1. Fate clic sul pulsante Dividi per avanzare al passaggio successivo o per salvare l'attività.
 
    ![Pulsante Dividi](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase Targeting.[!UICONTROL ]
+   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase Targeting.
    * **Salva e chiudi:** apporta le modifiche desiderate nel passaggio corrente, fai clic sull’elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva e chiudi]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Panoramica] dell’attività.
    * **Salva:** apporta le modifiche desiderate in un passaggio, fai clic sul menu a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva]** per salvare le modifiche e rimanere in quel passaggio, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
