@@ -29,6 +29,6 @@ Ogni volta che un visitatore richiede una pagina su cui è abilitato [!DNL Targe
 1. In [!DNL Target] viene fatto riferimento al profilo associato al visitatore.
 1. In [!DNL Target] vengono eseguiti gli eventuali script di profilo associati al profilo.
 1. [!DNL Target] calcola la risposta.
-1. Il contenuto viene visualizzato in base alle regole dell&#39;attività o della campagna.
+1. Il contenuto viene visualizzato in base alle regole dell'attività o della campagna.
 
-L&#39;offerta che viene visualizzata in un test A/B di base viene scelta in modo casuale. Come risultato di questa suddivisione casuale del traffico, è possibile che sia richiesta una quantità notevole di traffico iniziale prima che le percentuali si livellino. Ad esempio, se disponi di un&#39;attività con due esperienze, l&#39;esperienza iniziale viene scelta in modo casuale. Se il traffico è limitato, è possibile che la percentuale di visitatori tenda in modo più netto verso una delle due esperienze. Con l’aumento del traffico, le percentuali tendono a equilibrarsi.
+L'offerta che viene visualizzata in un test A/B di base viene scelta in modo casuale. Come risultato di questa suddivisione casuale del traffico, è possibile che sia richiesta una quantità notevole di traffico iniziale prima che le percentuali si livellino. Ad esempio, se disponi di un'attività con due esperienze, l'esperienza iniziale viene scelta in modo casuale. Se il traffico è limitato, è possibile che la percentuale di visitatori tenda in modo più netto verso una delle due esperienze. Con l’aumento del traffico, le percentuali tendono a equilibrarsi.
