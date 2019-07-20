@@ -55,7 +55,7 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 | response &gt; execute &gt; mboxes &gt; mbox &gt; option &gt; type | Tipo di opzione. Riflette il tipo del campo “content”. I tipi supportati sono: html, redirect, JSON e dinamico. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; options | Opzione Risposta. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; eventToken | Token dell’evento di clic. |
-| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | &quot;click&quot; |
+| response &gt; execute &gt; mboxes &gt; mbox &gt; metrics &gt; type | "click" |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; metrics | Contiene l’elenco `clickThrough` delle metriche. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt; mbox | Nome della mbox. |
 | response &gt; execute &gt; mboxes &gt; mbox &gt;index | Indica che la risposta è per la mbox con questo indice della richiesta. |
