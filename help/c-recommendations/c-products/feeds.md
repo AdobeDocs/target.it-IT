@@ -67,7 +67,7 @@ La sintassi corretta è:
 
 >[!NOTE]
 >
->Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascrivere un valore, è necessario indicarne uno sostitutivo. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare &quot;NULL&quot; o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
+>Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascrivere un valore, è necessario indicarne uno sostitutivo. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare "NULL" o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
 
 Il prodotto è disponibile nell’interfaccia di amministrazione circa due ore dopo il corretto caricamento della relativa entità.
 
@@ -216,11 +216,11 @@ recs/t_feeds_create.xml
 1. Seleziona il **[!UICONTROL tipo di origine]**.
 
    Per informazioni sui tipi di feed dei prodotti Google e di feed CSV, vedi [Panoramica dei feed](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890).
-1. Specifica una suite di rapporti, l&#39;URL o il percorso FTP da cui è possibile accedere al feed.
+1. Specifica una suite di rapporti, l'URL o il percorso FTP da cui è possibile accedere al feed.
 
    Se selezioni la voce FTP, indica le informazioni relative al server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare l’FTP con SSL (FTPS).
 
-   Se selezioni la voce URL, specifica l&#39;URL.
+   Se selezioni la voce URL, specifica l'URL.
 1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Pianificazione].
 
    ![Risultato passaggio](assets/CreateFeedSchedule.png)
