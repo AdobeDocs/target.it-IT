@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo{#preview-experiences-for-automated-personalization-in-the-visual-experience-composer}
 
-Dato che un&#39;attività Automated Personalization (Personalizzazione automatizzata) confronta più offerte in una pagina, è utile visualizzare in anteprima la pagina con ogni esperienza.
+Dato che un'attività Automated Personalization (Personalizzazione automatizzata) confronta più offerte in una pagina, è utile visualizzare in anteprima la pagina con ogni esperienza.
 
 1. From the Visual Experience Composer, click **[!UICONTROL Preview]**.
 
