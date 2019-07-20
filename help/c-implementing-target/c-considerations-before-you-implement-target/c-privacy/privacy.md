@@ -20,7 +20,7 @@ In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l�
 
 ## Raccolta di indirizzi IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
+L'indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l'indirizzo IP non rappresenta necessariamente l'indirizzo IP del relativo computer. Potrebbe essere ad esempio l'indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell'utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
 
 ## Oscuramento dell’ultimo ottetto dell’indirizzo IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
@@ -28,7 +28,7 @@ Adobe ha sviluppato una nuova impostazione “privacy by design”, che può ess
 
 Quando questa funzione è abilitata, l’indirizzo IP è reso sufficientemente anonimo da non essere più identificabile come dato personale. Di conseguenza, è possibile utilizzare Adobe Target in conformità alle leggi sulla riservatezza dei dati nei paesi che non consentono la raccolta di informazioni personali. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’oscuramento dell’indirizzo IP. L’ottenimento di informazioni a livello di area e nazionale dovrebbe essere influenzato solo leggermente.
 
-È disponibile anche un&#39;impostazione per offuscare l&#39;intero indirizzo IP.
+È disponibile anche un'impostazione per offuscare l'intero indirizzo IP.
 
 Per abilitare la funzione di oscuramento dell’IP, contatta l’Assistenza clienti di Adobe.
 
