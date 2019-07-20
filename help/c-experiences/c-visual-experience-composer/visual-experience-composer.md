@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informazioni sull’utilizzo del Compositore esperienza visivo (VEC).
 
-La VEC è l&#39;interfaccia utente WYSIWYG che consente di creare e sottoporre a test esperienze e offerte personalizzate nel contesto del sito. Potete creare esperienze e offerte per attività Target trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) oppure di una pagina Web per dispositivi mobili.
+La VEC è l'interfaccia utente WYSIWYG che consente di creare e sottoporre a test esperienze e offerte personalizzate nel contesto del sito. Potete creare esperienze e offerte per attività Target trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta) oppure di una pagina Web per dispositivi mobili.
 
-Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. La VEC consente ai professionisti del marketing e ai designer di creare e modificare il contenuto mediante un&#39;interfaccia visiva. che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
+Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. La VEC consente ai professionisti del marketing e ai designer di creare e modificare il contenuto mediante un'interfaccia visiva. che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
 Nella scheda **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Preferenze]** di Target, puoi immettere l’URL predefinito del Compositore esperienza visivo.
 
