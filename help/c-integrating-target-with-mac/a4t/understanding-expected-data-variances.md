@@ -31,7 +31,7 @@ Di seguito sono riportati alcuni scenari in cui potresti riscontrare una varianz
 
    >[!NOTE]
    >
-   >Un problema noto causa l&#39;uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+   >Un problema noto causa l'uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 * Supponi di creare un’attività di allocazione automatica aperta a tutti i visitatori di una pagina particolare. Dato che le attività di allocazione automatica non supportano A4T, tutti i dati delle attività vengono raccolti per [!DNL Target]. Potresti aspettarti che i visitatori dell’attività corrispondano, nei rapporti di [!DNL Target], ai visitatori di quella pagina nei rapporti di [!DNL Analytics] considerando stesso intervallo di date. È uno scenario in cui la varianza descritta sotto è prevista.
 
