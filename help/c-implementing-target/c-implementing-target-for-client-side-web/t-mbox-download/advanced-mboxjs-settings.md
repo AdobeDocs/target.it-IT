@@ -50,7 +50,7 @@ Restituisce parametri aggiuntivi da passare a ogni chiamata mbox.
 
 Ad esempio:
 
-return &quot;test=123&quot;;
+return "test=123";
 
 ## Corpo funzione mboxSupported()
 
@@ -58,7 +58,7 @@ Restituisce “false” per escludere utenti specifici.
 
 Ad esempio:
 
-return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
+return !navigator.userAgent.indexOf('Safari') != -1;
 
 È possibile includere o escludere i seguenti browser:
 
@@ -73,7 +73,7 @@ Restituisce una stringa che descrive il dominio per impostare i cookie di prima 
 
 Ad esempio:
 
-return &quot;YOUR-DOMAIN&quot;;
+return "YOUR-DOMAIN";
 
 ## JavaScript aggiuntivo
 
