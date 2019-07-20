@@ -22,7 +22,7 @@ MVT richiede traffico sufficiente per generare risultati utili. Prima di configu
 
 Esamina il codice HTML per le pagine da sottoporre a test. Assicurati che gli elementi HTML del sito non presentino ID DOM duplicati. Gli ID duplicati possono far sì che lo stesso contenuto venga distribuito a più posizioni.
 
-Pianifica il test degli elementi sulla pagina che produrranno probabilmente risultati significativi. Ad esempio, un banner o un&#39;immagine hero porterà probabilmente più conversioni rispetto a una modifica nel piè di pagina. L&#39;inclusione di elementi meno significativi nel test aumenta la quantità di traffico e il tempo necessario per eseguire il test sugli elementi più importanti della pagina.
+Pianifica il test degli elementi sulla pagina che produrranno probabilmente risultati significativi. Ad esempio, un banner o un'immagine hero porterà probabilmente più conversioni rispetto a una modifica nel piè di pagina. L'inclusione di elementi meno significativi nel test aumenta la quantità di traffico e il tempo necessario per eseguire il test sugli elementi più importanti della pagina.
 
 Infine, prima di creare il test, devi creare il contenuto da verificare. Assicurati di comprendere le differenze nel contenuto previsto per ogni offerta, e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test.
 
