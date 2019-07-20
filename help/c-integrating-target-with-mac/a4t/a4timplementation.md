@@ -27,7 +27,7 @@ Dopo aver implementato Analytics come origine di reporting per Target, è necess
 
 ## Passaggio 2: Configurare le autorizzazioni utente
 
-I requisiti dell&#39;account utente devono essere soddisfatti prima di procedere alla creazione di un&#39;attività basata su Adobe Analytics in Adobe Target. Consulta [Requisiti delle autorizzazioni utente](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+I requisiti dell'account utente devono essere soddisfatti prima di procedere alla creazione di un'attività basata su Adobe Analytics in Adobe Target. Consulta [Requisiti delle autorizzazioni utente](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Passaggio 3: Implementare il servizio ID visitatore di Experience Cloud
 
@@ -73,9 +73,9 @@ Per mbox.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-È essenziale che visitorapi. js venga caricato prima di. js o mbox. js. Se state aggiornando un file esistente at. js o mbox. js, accertatevi di verificare l&#39;ordine di caricamento.
+È essenziale che visitorapi. js venga caricato prima di. js o mbox. js. Se state aggiornando un file esistente at. js o mbox. js, accertatevi di verificare l'ordine di caricamento.
 
-Il modo in cui le impostazioni out-of-the-box sono configurate per l&#39;integrazione di Target e Analytics da una prospettiva di implementazione consiste nell&#39;utilizzare il codice SDID passato dalla pagina per unire automaticamente al backend la richiesta di Target e Analytics.
+Il modo in cui le impostazioni out-of-the-box sono configurate per l'integrazione di Target e Analytics da una prospettiva di implementazione consiste nell'utilizzare il codice SDID passato dalla pagina per unire automaticamente al backend la richiesta di Target e Analytics.
 
 However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Nota: qualsiasi versione inferiore a 2.1 non supporta questo approccio.
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: &quot;client_side&quot;** sent within the Target requests and an analytics payload will be returned for every request. Quando questa impostazione è configurata, il formato del payload restituito sarà simile a quello di seguito:
+This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. Quando questa impostazione è configurata, il formato del payload restituito sarà simile a quello di seguito:
 
 ```
 "analytics": {
@@ -100,7 +100,7 @@ This set up has a global effect, which means that every call made by at.js will 
 
 The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: &quot;client_side&quot;**. Il payload di analisi verrà restituito solo per questa chiamata e il back-backend di Target non inoltrerà il payload ad Analytics. Seguendo questo approccio, ogni richiesta di Target non restituirà il payload per impostazione predefinita, ma solo quando desiderato e specificato.
+If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. Il payload di analisi verrà restituito solo per questa chiamata e il back-backend di Target non inoltrerà il payload ad Analytics. Seguendo questo approccio, ogni richiesta di Target non restituirà il payload per impostazione predefinita, ma solo quando desiderato e specificato.
 
 Ad esempio:
 
