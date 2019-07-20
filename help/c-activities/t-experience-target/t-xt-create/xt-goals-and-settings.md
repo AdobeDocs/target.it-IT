@@ -122,7 +122,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica?
 
-Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di prova potrebbe essere valida solo se il visitatore fa clic sull&#39;offerta o raggiunge una pagina prima della conversione.
+Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di prova potrebbe essere valida solo se il visitatore fa clic sull'offerta o raggiunge una pagina prima della conversione.
 
 È possibile fornire una dipendenza da più metriche e decidere se, per incrementare il conteggio, la metrica deve essere raggiunta o non raggiunta.
 
