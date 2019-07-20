@@ -29,25 +29,25 @@ Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
 
 Solo gli utenti amministratori di sistema possono aggiungere utenti e gestire le loro autorizzazioni. Il ruolo amministratore di sistema viene assegnato a livello di [!DNL Experience Cloud]. I ruoli [!DNL Experience Cloud] sono distinti dai ruoli gestiti in ogni soluzione.
 
-Quando inizi a usare [!DNL Adobe Target], troverai gli ID (che terminano con Adobe.com) pre-popolati nel tuo account [!DNL Adobe Experience Cloud]. Questi ID sono per i membri dei team Adobe in modo che possano aiutarti con il tuo nuovo account e con l&#39;uso di [!DNL Adobe Target], se hai bisogno di aiuto. Per ottenere assistenza, contatta i team Adobe di riferimento con le modalità usuali.
+Quando inizi a usare [!DNL Adobe Target], troverai gli ID (che terminano con Adobe.com) pre-popolati nel tuo account [!DNL Adobe Experience Cloud]. Questi ID sono per i membri dei team Adobe in modo che possano aiutarti con il tuo nuovo account e con l'uso di [!DNL Adobe Target], se hai bisogno di aiuto. Per ottenere assistenza, contatta i team Adobe di riferimento con le modalità usuali.
 
 Il nuovo utente viene visualizzato nella pagina [!UICONTROL Utenti] solo dopo che avrà effettuato l’accesso con il proprio account Adobe Experience Cloud e quindi a [!DNL Target Standard/Premium] facendo clic sulla scheda [!DNL Target].
 
 Per impostazione predefinita, a tutti gli utenti di [!DNL Target] viene assegnato inizialmente il ruolo di Osservatore.
 
-Gli utenti amministratori di sistema sono identificati nell&#39;elenco Utenti. Se hai bisogno di un diverlo livello di accesso, contatta uno degli utenti amministratori di sistema.
+Gli utenti amministratori di sistema sono identificati nell'elenco Utenti. Se hai bisogno di un diverlo livello di accesso, contatta uno degli utenti amministratori di sistema.
 
 ## Accedere ad Adobe Admin Console {#access}
 
 Per le attività da eseguire in Adobe Admin Console, accedi alla console seguendo questi passaggi:
 
-1. Vai su [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) e, se non hai già effettuato l&#39;accesso, accedi con il tuo Adobe ID.
+1. Vai su [https://adminconsole.adobe.com/enterprise/](https://adminconsole.adobe.com/enterprise/) e, se non hai già effettuato l'accesso, accedi con il tuo Adobe ID.
 
    Oppure
 
    If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
 
-1. (Condizionale) Se disponi dell&#39;accesso ad [!DNL Admin Console for Enterprise] per più di un’organizzazione, fai clic sull’avatar utente nell’angolo a destra o sulla barra di navigazione superiore, quindi seleziona l’organizzazione desiderata.
+1. (Condizionale) Se disponi dell'accesso ad [!DNL Admin Console for Enterprise] per più di un’organizzazione, fai clic sull’avatar utente nell’angolo a destra o sulla barra di navigazione superiore, quindi seleziona l’organizzazione desiderata.
 
 ## Aggiungi utenti {#add-users}
 
@@ -85,7 +85,7 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
    | Ruolo | Descrizione |
    |--- |--- |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l'avvio di un'attività. |
    | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
 
 Per ulteriori informazioni, vedi [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) nella *guida utente della versione Enterprise*.
@@ -94,8 +94,8 @@ Per ulteriori informazioni, vedi [Gestione delle autorizzazioni del prodotto in 
 
 Finalità di apprendimento:
 
-* Accesso ad Adobe Admin Console dall&#39;interfaccia di Adobe Target (tre modi)
-* Configurare un&#39;area di lavoro in Adobe Admin Console
+* Accesso ad Adobe Admin Console dall'interfaccia di Adobe Target (tre modi)
+* Configurare un'area di lavoro in Adobe Admin Console
    * Aggiungere utenti alle aree di lavoro
    * Aggiungere proprietà alle aree di lavoro
 * Comprendere le aree di lavoro predefinite
