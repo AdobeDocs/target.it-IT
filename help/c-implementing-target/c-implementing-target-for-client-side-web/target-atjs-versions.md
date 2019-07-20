@@ -33,7 +33,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
    For more information, see [Client-side Analytics logging](/help/c-integrating-target-with-mac/a4t/before-implement.md#client-side) in *Before you implement*.
 
-* **Invia notifiche**: Consentite agli sviluppatori di inviare notifiche quando un&#39;esperienza viene sottoposta a rendering dal codice anziché utilizzare `applyOffer()` o `applyOffers()`.
+* **Invia notifiche**: Consentite agli sviluppatori di inviare notifiche quando un'esperienza viene sottoposta a rendering dal codice anziché utilizzare `applyOffer()` o `applyOffers()`.
 
    For more information, see [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
@@ -61,7 +61,7 @@ Questa è una versione di manutenzione e include la seguente correzione:
 
 ## at.js versione 2.0.0 {#at-js-200}
 
-at.js 2.x offre set di funzioni avanzate che consentono di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa nuova versione si concentra sull&#39;aggiornamento di at.js per garantire interazioni in sintonia con le applicazioni a pagina singola.
+at.js 2.x offre set di funzioni avanzate che consentono di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa nuova versione si concentra sull'aggiornamento di at.js per garantire interazioni in sintonia con le applicazioni a pagina singola.
 
 Di seguito sono riportati alcuni vantaggi dell’utilizzo di at.js 2.x che non sono disponibili nelle versioni precedenti:
 
@@ -122,22 +122,22 @@ Questa è una versione di manutenzione e risolve il seguente problema:
 
 >[!IMPORTANT]
 >
->Inoltre, la versione 1.6.2 di at.js contiene tutti i miglioramenti e le correzioni inclusi nelle versioni 1.6.1 e 1.6.0 di at.js. Queste versioni non sono più disponibili per il download. Si consiglia di eseguire l&#39;aggiornamento alla versione 1.6.2 se si utilizza la versione 1.6.1 o 1.6.0
+>Inoltre, la versione 1.6.2 di at.js contiene tutti i miglioramenti e le correzioni inclusi nelle versioni 1.6.1 e 1.6.0 di at.js. Queste versioni non sono più disponibili per il download. Si consiglia di eseguire l'aggiornamento alla versione 1.6.2 se si utilizza la versione 1.6.1 o 1.6.0
 
 Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.1 di at.js:
 
 * Risolto un problema in at.js 1.6.0 che causava la duplicazione delle esperienze dei consigli in Microsoft Internet Explorer 11. (TNT-30593)
-* at.js ora assicura che la logica di sovrascrittura Edge verifichi l&#39;esistenza di un cookie del cluster Edge per evitare un numero di bordi diverso se un utente salta i bordi durante una sessione. (TNT-30563)
-* Risolto un problema che impediva ad at.js di eseguire azioni successive se il contenuto HTML conteneva codice JS non valido. at.js ora registra l&#39;errore ed effettua il rendering delle azioni rimanenti senza problemi. (TNT-30546)
-* Modifiche apportate affinché vi sia un&#39;eccezione quando una pagina di reindirizzamento si riqualifica per un&#39;attività di reindirizzamento. (TNT-30532)
+* at.js ora assicura che la logica di sovrascrittura Edge verifichi l'esistenza di un cookie del cluster Edge per evitare un numero di bordi diverso se un utente salta i bordi durante una sessione. (TNT-30563)
+* Risolto un problema che impediva ad at.js di eseguire azioni successive se il contenuto HTML conteneva codice JS non valido. at.js ora registra l'errore ed effettua il rendering delle azioni rimanenti senza problemi. (TNT-30546)
+* Modifiche apportate affinché vi sia un'eccezione quando una pagina di reindirizzamento si riqualifica per un'attività di reindirizzamento. (TNT-30532)
 * Risolto un problema che impediva la propagazione del timeout della richiesta corretta dalla richiesta API getOffer(). (TNT-30498)
-* Risolto un problema che impediva ad at.js 1.6.0 di salvare i cookie durante l&#39;utilizzo del protocollo file. (TNT-30454)
+* Risolto un problema che impediva ad at.js 1.6.0 di salvare i cookie durante l'utilizzo del protocollo file. (TNT-30454)
 * Risolto un problema che faceva sembrare che non tutte le esperienze venissero consegnate con reindirizzamenti quando si utilizzava Analytics for Target (A4T). (TNT-30444)
 * Risolto un problema per il quale la pagina era nascosta dopo il successo della chiamata Target. (TNT-30358)
 
 Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0 di at.js:
 
-* Le offerte di reindirizzamento sono ora supportate automaticamente nell&#39;integrazione Analytics for Target (A4T). La soluzione lato client è stata rimossa. (TNT-30247)
+* Le offerte di reindirizzamento sono ora supportate automaticamente nell'integrazione Analytics for Target (A4T). La soluzione lato client è stata rimossa. (TNT-30247)
 * Il routing Edge lato client è ora abilitato per impostazione predefinita. (TNT-30261)
 * Risolto un problema con il rendering delle azioni del Compositore esperienza visivo in presenza di dipendenze tra le azioni. (TNT-30248)
 
@@ -145,8 +145,8 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 
 È ora disponibile la versione 1.5.0 di at.js.
 
-* I dettagli dell’evento `at-request-succeeded` contengono il flag di reindirizzamento. Questo flag può essere utilizzato per determinare se la pagina verrà reindirizzata a un URL diverso. Se desideri conoscere l&#39;URL, abbonati a `at-content-rendering-redirect`. (TNT-29834)
-* È stato risolto un problema che ha causato il mancato funzionamento di `window.targetGlobalSettings.enabled` con un&#39;eccezione di esecuzione se è stato impostato su falso. (TNT-29829)
+* I dettagli dell’evento `at-request-succeeded` contengono il flag di reindirizzamento. Questo flag può essere utilizzato per determinare se la pagina verrà reindirizzata a un URL diverso. Se desideri conoscere l'URL, abbonati a `at-content-rendering-redirect`. (TNT-29834)
+* È stato risolto un problema che ha causato il mancato funzionamento di `window.targetGlobalSettings.enabled` con un'eccezione di esecuzione se è stato impostato su falso. (TNT-29829)
 * È stato risolto un problema che ha causato un errore durante il caricamento nel Compositore esperienza visivo se si utilizza il codice personalizzato per una richiesta mbox globale di abilitazione e si nasconde il corpo. (TNT-29795)
 * È stato aggiunto il supporto per `screenOrientation`, `devicePixelRatio` e `webGLRenderer`. Questi nuovi parametri di richiesta di Target vengono utilizzati per iPhone X e altri sistemi di rilevamento dispositivi moderni. Per ulteriori informazioni, consulta [Mobile](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-29781)
 * È stato risolto un problema per cui il suggerimento di posizione di Adobe Audience Manager (AAM) non veniva sempre inviato. (TNT-29695)
@@ -204,7 +204,7 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 
 È ora disponibile la versione 1.2.1 di [!DNL at.js].
 
-* È stato risolto un problema che impediva a Target di aprire il collegamento in una nuova scheda durante il tracciamento dei clic su un collegamento con target=&quot;_blank&quot;.
+* È stato risolto un problema che impediva a Target di aprire il collegamento in una nuova scheda durante il tracciamento dei clic su un collegamento con target="_blank".
 
 ## at.js versione 1.2.0 {#section_1C3A18C595C34B25A14A440D213F3B9C}
 
@@ -283,7 +283,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
    Per un elenco dei caratteri speciali consentiti, consulta [Configurazioni at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
 * È stata aggiunta l’impostazione `secureOnly` che indica se at.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False e può essere bypassata tramite `targetGlobalSettings`.
-* L&#39;opzione [!UICONTROL Supporto di browser legacy] è disponibile nelle versioni 0.9.3 e precedenti di at.js. Questa opzione è stata rimossa nella versione 0.9.4 di at.js.
+* L'opzione [!UICONTROL Supporto di browser legacy] è disponibile nelle versioni 0.9.3 e precedenti di at.js. Questa opzione è stata rimossa nella versione 0.9.4 di at.js.
 
 ## at.js versione 0.9.3 {#section_DF13BC1D7C994AE7A36B81937A699DF4}
 
@@ -327,7 +327,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 
 * Nuova API di notifica at.js.
 
-   L&#39;obiettivo di questo sistema di notifica è quello di fornire ulteriori informazioni su ciò che [!DNL at.js] sta facendo sulla pagina e quando si verificano dei problemi. Un problema comune riscontrato con Compositore esperienza visivo si verifica quando una nuova versione IT modifica la pagina, un selettore del compositore non funziona più correttamente e il test smette di consegnare correttamente il contenuto. Un obiettivo di questo sistema di notifica è quello di rendere noto alla pagina questo problema di consegna, così gli sviluppatori possono accedere a tali informazioni, passarle a un sistema come [!DNL Adobe Analytics] e avvisare i responsabili business che il loro test non ha funzionato.
+   L'obiettivo di questo sistema di notifica è quello di fornire ulteriori informazioni su ciò che [!DNL at.js] sta facendo sulla pagina e quando si verificano dei problemi. Un problema comune riscontrato con Compositore esperienza visivo si verifica quando una nuova versione IT modifica la pagina, un selettore del compositore non funziona più correttamente e il test smette di consegnare correttamente il contenuto. Un obiettivo di questo sistema di notifica è quello di rendere noto alla pagina questo problema di consegna, così gli sviluppatori possono accedere a tali informazioni, passarle a un sistema come [!DNL Adobe Analytics] e avvisare i responsabili business che il loro test non ha funzionato.
 
 * Nuovo metodo API `targetGlobalSettings()`.
 
