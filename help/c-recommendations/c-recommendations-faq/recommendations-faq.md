@@ -24,24 +24,24 @@ Elenco delle domande frequenti sulle attività relative ai consigli.
 Dopo aver importato un file di feed, o dopo aver ricevuto gli aggiornamenti di entità tramite API o mbox, le seguenti modifiche saranno riportate in meno di 60 minuti:
 
 * Attributi degli elementi restituiti nel modello Progettazione.
-* Attributi degli elementi utilizzati nelle regole di esclusione globali che impediscono l&#39;inclusione dell&#39;elemento nelle raccomandazioni restituite.
-* Gli attributi degli elementi utilizzati nelle regole di inclusione all&#39;interno dei criteri che influiscono sulla inclusione o l&#39;esclusione dell&#39;elemento nelle raccomandazioni restituite.
+* Attributi degli elementi utilizzati nelle regole di esclusione globali che impediscono l'inclusione dell'elemento nelle raccomandazioni restituite.
+* Gli attributi degli elementi utilizzati nelle regole di inclusione all'interno dei criteri che influiscono sulla inclusione o l'esclusione dell'elemento nelle raccomandazioni restituite.
 
-Le modifiche seguenti non vengono applicate fino a quando viene eseguito l&#39;algoritmo successivo (entro 12-24 ore):
+Le modifiche seguenti non vengono applicate fino a quando viene eseguito l'algoritmo successivo (entro 12-24 ore):
 
-* Attributi degli elementi utilizzati nelle regole di raccolta utilizzate per l&#39;attività.
-* Attributi degli elementi utilizzati in una promozione in base a un attributo o una raccolta associata all&#39;attività.
-* Categoria elemento in cui l&#39;elemento viene visualizzato per una &quot;Categoria corrente&quot; o &quot;Categoria preferita&quot; nei Primi venduti o nell&#39;algoritmo Più visualizzato.
-* Classificazione degli elementi consigliati quando l&#39;attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
-* Classificazione degli elementi consigliati in base agli attributi modificati quando la logica di raccomandazione è &quot;Elementi con attributi simili&quot;, quando vengono utilizzati i fattori di ponderazione &quot;Contenuti similarità&quot; o quando vengono utilizzati i fattori &quot;Ponderazione attributo&quot;.
+* Attributi degli elementi utilizzati nelle regole di raccolta utilizzate per l'attività.
+* Attributi degli elementi utilizzati in una promozione in base a un attributo o una raccolta associata all'attività.
+* Categoria elemento in cui l'elemento viene visualizzato per una "Categoria corrente" o "Categoria preferita" nei Primi venduti o nell'algoritmo Più visualizzato.
+* Classificazione degli elementi consigliati quando l'attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
+* Classificazione degli elementi consigliati in base agli attributi modificati quando la logica di raccomandazione è "Elementi con attributi simili", quando vengono utilizzati i fattori di ponderazione "Contenuti similarità" o quando vengono utilizzati i fattori "Ponderazione attributo".
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il relativo stato cambia da &quot;Importazione di elementi&quot; in &quot;Preparazione degli aggiornamenti indice di ricerca&quot;. Per gli aggiornamenti potrebbero essere necessari più di 60 minuti nell&#39;interfaccia utente di Ricerca catalogo, La ricerca catalogo è aggiornata quando lo stato di feed cambia in &quot;Aggiornamenti completati&quot;. Anche se la ricerca catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti nei fotogrammi indicati sopra. Il tempo più recente di aggiornamento dell&#39;indice di ricerca catalogo viene visualizzato nella pagina Ricerca catalogo.
+>Un file di feed viene considerato importato quando il relativo stato cambia da "Importazione di elementi" in "Preparazione degli aggiornamenti indice di ricerca". Per gli aggiornamenti potrebbero essere necessari più di 60 minuti nell'interfaccia utente di Ricerca catalogo, La ricerca catalogo è aggiornata quando lo stato di feed cambia in "Aggiornamenti completati". Anche se la ricerca catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti nei fotogrammi indicati sopra. Il tempo più recente di aggiornamento dell'indice di ricerca catalogo viene visualizzato nella pagina Ricerca catalogo.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
-Utilizza i valori di escape in JavaScript. Le virgolette (&quot;) possono interrompere l’array. Lo snippet di codice seguente è un esempio di valori di escape:
+Utilizza i valori di escape in JavaScript. Le virgolette (") possono interrompere l’array. Lo snippet di codice seguente è un esempio di valori di escape:
 
 ```
 #set($String='') 
@@ -121,7 +121,7 @@ Target a volte non può mostrare consigli a causa del basso numero di consigli d
 
 Il numero di valori generati per criterio è pari a 5 volte il numero di entità specificato nel modello. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 5x, quindi è possibile finire con meno di 5x valori al momento della consegna. Per limitare questa situazione, aumenta il numero di entità nel modello nascondendo altre entità.
 
-Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 50 (5x10).
+Il seguente JavaScript può essere utilizzato all'inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 50 (5x10).
 
 ```
 #foreach($entity in $entities) 
@@ -144,7 +144,7 @@ Durante la creazione di un criterio di Consigli, promozioni o una regola di test
 
 Per selezionare il parametro desiderato:
 
-* Mentre crei un nuovo criterio, una promozione o una regola di test di modelli, seleziona il nome di un parametro dall&#39;elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
+* Mentre crei un nuovo criterio, una promozione o una regola di test di modelli, seleziona il nome di un parametro dall'elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
 * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
 
 Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il criterio, la promozione o la regola di test di modelli funzioneranno sulla base del parametro su tutte le mboxes che trasmettono tale parametro.
@@ -153,7 +153,7 @@ Se modifichi una regola di test di criteri, una promozione o un criterio, i crit
 
 ## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l&#39;attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
+Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l'attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -169,6 +169,6 @@ Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excl
 >
 >Se escludi troppe entità, i consigli si comportano come se non ci fossero abbastanza entità per riempire il modello di consigli.
 
-Aggiungi in coda agli `entityIds` esclusi il token `&excludes=${mbox.excludedIds}` per l’URL di contenuto dell’offerta. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
+Aggiungi in coda agli `entityIds` esclusi il token `&excludes=${mbox.excludedIds}` per l’URL di contenuto dell’offerta. Quando l'URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
