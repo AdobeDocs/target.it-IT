@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In Target Standard, le metriche di successo sono preconfigurate e possono essere utilizzate per la generazione di rapporti e per il tracciamento.
 
-Le metriche di successo sono parametri utilizzati per misurare il successo di un&#39;attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un&#39;esperienza o un&#39;offerta specifica in un&#39;attività Target. Ad esempio, potete determinare se una nuova offerta aumenta le entrate per visitatore o aggiungere un elemento a un carrello. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l&#39;ordinazione o l&#39;acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
+Le metriche di successo sono parametri utilizzati per misurare il successo di un'attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un'esperienza o un'offerta specifica in un'attività Target. Ad esempio, potete determinare se una nuova offerta aumenta le entrate per visitatore o aggiungere un elemento a un carrello. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l'ordinazione o l'acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
 
 In linea con il suo obiettivo di semplificare la creazione di test, [!DNL Target Standard] si occupa di alcune delle configurazioni che dovevano essere eseguite manualmente in [!DNL Target Classic]. Ad esempio, le metriche di successo sono preconfigurate con le opzioni ottimali.
 
@@ -31,10 +31,10 @@ Sono disponibili le seguenti metriche di successo:
 | Conversione | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita (clic su un pulsante, visualizzazione di una pagina, completamento di un sondaggio o acquisto). Una conversione può essere conteggiata una volta per ogni visitatore o ogni volta che un visitatore completa una conversione. |
 | Ricavi | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere tra le seguenti metriche collegate ai ricavi:<ul><li>Ricavo per visitatore (RPV)</li><li>Valore medio dell’ordine (AOV)</li><li>Vendite totali</li></ul> |
 | Visualizzazioni pagina | Basato su coinvolgimento | Ogni visita univoca viene conteggiata come conversione. |
-| Tempo sul sito | Basato su coinvolgimento | Il tempo trascorso (in secondi) dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell&#39;attività fino al caricamento della pagina finale con una mbox nella sessione. |
-| Punteggio personalizzato | Basato su coinvolgimento | Punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell&#39;attività. |
+| Tempo sul sito | Basato su coinvolgimento | Il tempo trascorso (in secondi) dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell'attività fino al caricamento della pagina finale con una mbox nella sessione. |
+| Punteggio personalizzato | Basato su coinvolgimento | Punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell'attività. |
 
-Per le metriche basate su coinvolgimento (a differenza delle metriche basate su conversione e su ricavo), i visitatori devono riqualificarsi per l&#39;attività in ciascuna posizione per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Di conseguenza, i risultati non vengono visualizzati immediatamente durante la verifica, tuttavia tutti i risultati della sessione sono disponibili entro pochi minuti dalla stessa.
+Per le metriche basate su coinvolgimento (a differenza delle metriche basate su conversione e su ricavo), i visitatori devono riqualificarsi per l'attività in ciascuna posizione per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Di conseguenza, i risultati non vengono visualizzati immediatamente durante la verifica, tuttavia tutti i risultati della sessione sono disponibili entro pochi minuti dalla stessa.
 
 Inoltre puoi creare metriche di successo personalizzate.
 
@@ -81,7 +81,7 @@ Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utent
 
 ## Video di formazione: Metriche di attività
 
-In questo video viene illustrato come utilizzare le metriche dell&#39;attività.
+In questo video viene illustrato come utilizzare le metriche dell'attività.
 
 * Le metriche per “Obiettivo”
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
