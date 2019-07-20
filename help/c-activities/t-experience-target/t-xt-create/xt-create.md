@@ -19,11 +19,11 @@ Use the [!UICONTROL Visual Experience Composer] (VEC) to create an [!UICONTROL E
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
-Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. È possibile definire diverse regole in un&#39;attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
+Experience Targeting, including [geo-targeting](/help/c-target/c-audiences/c-target-rules/geo.md), is valuable for defining rules that target a specific experience or content to a particular audience. È possibile definire diverse regole in un'attività per fornire diverse varianti di contenuto a tipi di pubblico diversi.
 
 For more information about Experience Targeting, a use-case scenario, and training videos, see [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md).
 
-**Per creare un&#39;attività XT:**
+**Per creare un'attività XT:**
 
 1. Dall’elenco [!UICONTROL Attività], fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Targeting delle esperienze]**.
 
@@ -31,7 +31,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
    >[!NOTE]
    >
-   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell&#39;elenco. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
+   >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell'elenco. For example, [!UICONTROL Automated Personalization] is a [Target Premium feature](/help/c-intro/intro.md#premium).
    >
    >For more information about the various activity types available in [!DNL Target] and their differences, see [Activities](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). See [Target Activity types](/help/c-activities/target-activities-guide.md) to help you decide which activity type best suites your needs.
 
@@ -47,7 +47,7 @@ For more information about Experience Targeting, a use-case scenario, and traini
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l&#39;opzione non è visualizzata, l&#39;organizzazione dispone di una licenza di Target Standard.]
+   >The [!UICONTROL Choose Workplace] option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l'opzione non è visualizzata, l'organizzazione dispone di una licenza di Target Standard.]
 
 1. (Conditional) If you are a Target Premium customer, [choose a workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -55,11 +55,11 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
    If your account is [configured with a default URL](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), that URL appears by default. Se necessario, potete passare da un URL predefinito a un altro.
 
-   Viene aperto il VEC, che mostra la pagina specificata nell&#39;URL.
+   Viene aperto il VEC, che mostra la pagina specificata nell'URL.
 
-   ![Attività Targeting delle esperienze all&#39;interno della VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
+   ![Attività Targeting delle esperienze all'interno della VEC](/help/c-activities/t-experience-target/t-xt-create/assets/xt-in-vec.png)
 
-1. Digita un nome per l&#39;attività nello spazio fornito.
+1. Digita un nome per l'attività nello spazio fornito.
 
    ![Campo Nome](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
@@ -80,4 +80,4 @@ For more information about Experience Targeting, a use-case scenario, and traini
 
    For step-by-step instructions, see [Add experience](/help/c-activities/t-experience-target/t-xt-create/xt-add-experience.md).
 
-1. Specifica [obiettivi e impostazioni](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per l&#39;attività.
+1. Specifica [obiettivi e impostazioni](../../../c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per l'attività.
