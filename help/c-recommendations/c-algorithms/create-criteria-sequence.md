@@ -29,8 +29,8 @@ Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mir
 
 Ad esempio, una sequenza di criteri di pagina prodotto potrebbe seguire questo ordine:
 
-1. In base all&#39;articolo corrente, della stessa marca
-1. In base all&#39;articolo corrente, di tutte le marche
+1. In base all'articolo corrente, della stessa marca
+1. In base all'articolo corrente, di tutte le marche
 1. In base a somiglianza del contenuto
 1. In base agli articoli più venduti
 1. In base agli articoli più visualizzati di tutto il sito
@@ -77,7 +77,7 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
 1. Imposta le regole di **[!UICONTROL Contenuto]**.
 
    Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering parziale della progettazione vengono ignorate per i singoli criteri che costituiscono la sequenza. Per utilizzare i consigli di backup e il rendering parziale della progettazione, è necessario abilitarli per la sequenza. Seleziona i pulsanti appropriati. Se si sceglie di consentire i consigli di backup, è altresì possibile scegliere se applicare le regole di inclusione ai backup.
-1. Imposta l&#39;ordine di sequenza.
+1. Imposta l'ordine di sequenza.
 
 1. Fai clic su **[!UICONTROL Aggiungi criteri]**.
 1. Nella schermata Aggiungi criteri, seleziona un criterio.
@@ -86,7 +86,7 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
    È possibile aggiungere fino a cinque criteri a una sequenza.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   La sequenza di criteri verrà visualizzata nell&#39;elenco criteri.
+   La sequenza di criteri verrà visualizzata nell'elenco criteri.
 
    ![](assets/CriteriaSequenceCard.png)
 
