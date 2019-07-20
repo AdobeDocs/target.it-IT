@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Panoramica sulla sicurezza di Target{#target-security-overview}
 
-Informazioni sull&#39;approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell&#39;esperienza in Adobe Target.
+Informazioni sull'approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell'esperienza in Adobe Target.
 
 In Adobe, prendiamo la sicurezza della tua esperienza digitale molto seriamente. Le pratiche di sicurezza sono profondamente radicate nel nostro sviluppo software interno, nei processi e negli strumenti operativi e sono rigorosamente seguite dai nostri team interfunzionali per prevenire, rilevare e rispondere agli incidenti in modo opportuno.
 
