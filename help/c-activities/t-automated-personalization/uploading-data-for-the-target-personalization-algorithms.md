@@ -22,10 +22,10 @@ Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi 
 
 ## Best practice {#section_DE96C7B7D114491DBB67FB5B7DA3D37B}
 
-Nell&#39;elenco seguente sono riportate le procedure ottimali per caricare dati per gli algoritmi di personalizzazione di Target:
+Nell'elenco seguente sono riportate le procedure ottimali per caricare dati per gli algoritmi di personalizzazione di Target:
 
 * Maggiore è la quantità di dati di alta qualità disponibili per gli algoritmi di personalizzazione di Target, migliore è la qualità dei modelli risultanti nelle attività personalizzazione automatizzata e di Auto Target.
-* Limita l&#39;uso di più script di profilo o attributi che hanno lo stesso scopo.
+* Limita l'uso di più script di profilo o attributi che hanno lo stesso scopo.
 * Non trasmettere un ID univoco, ad esempio un ID di sessione, se non necessario.
 * Esamina i dati che Target raccoglie automaticamente ( [Raccolta di dati per gli algoritmi di personalizzazione di Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058)) così da non inviare informazioni duplicate. Ad esempio, Target utilizza indirizzi IP per determinare i codici postali dei visitatori. Non è necessario trasmettere queste informazioni come variabili separate.
 * Non trasmettere più valori nello stesso attributo/variabile. Se più variabili sono concatenate, gli algoritmi di personalizzazione di Target considerano ogni stringa come valore univoco, riducendo il valore delle informazioni per la personalizzazione.
