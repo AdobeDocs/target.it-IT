@@ -29,7 +29,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 ## Esempio: True
 
-`triggerView()` per inviare una notifica al backend Target per incrementare le impression dell&#39;attività e altre metriche.
+`triggerView()` per inviare una notifica al backend Target per incrementare le impression dell'attività e altre metriche.
 
 ```
 adobe.target.triggerView("homeView")
