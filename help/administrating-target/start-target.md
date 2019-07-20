@@ -14,19 +14,19 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Primi passaggi per l&#39;amministratore{#administrator-first-steps}
+# Primi passaggi per l'amministratore{#administrator-first-steps}
 
 Questa sezione descrive i primi passi che gli amministratori di [!DNL Target] devono compiere dopo aver ricevuto l’invito ad [!DNL Adobe Experience Cloud].
 
 ## Get invited to Target {#task_3E0817630774431983FAA3D2CB2E75BD}
 
-A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. L&#39;amministratore di sistema deve quindi aggiungere a uno o più gruppi specifici per il ruolo. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
+A System Administrator in the [!DNL Adobe Admin Console] must add you as a user in [!DNL Target] by inviting you to join. L'amministratore di sistema deve quindi aggiungere a uno o più gruppi specifici per il ruolo. Both of these tasks are performed in the [Adobe Admin Console](https://adminconsole.adobe.com).
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) in the *Experience Cloud and Core Services help*.
 
-Dopo l&#39;esecuzione dell&#39;amministratore di sistema riceverete un messaggio e-mail di invito.
+Dopo l'esecuzione dell'amministratore di sistema riceverete un messaggio e-mail di invito.
 
-## Accettare l&#39;invito {#task_24FE66659E634B24AB61DB8497772E17}
+## Accettare l'invito {#task_24FE66659E634B24AB61DB8497772E17}
 
 After receiving the invitation to join the [!DNL Adobe Experience Cloud], accept the invitation, log in, and accept the End User License Agreement (EULA).
 
