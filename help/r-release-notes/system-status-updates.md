@@ -31,7 +31,7 @@ Per visualizzare lo stato delle soluzioni [!DNL Experience Cloud], tra cui [!DNL
 
 La parte superiore della pagina contiene informazioni sugli eventi di manutenzione in corso e include un collegamento per la sottoscrizione agli aggiornamenti per le singole soluzioni.
 
-Nell’illustrazione precedente, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] erano sottoposti ad aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l&#39;utilizzo di [!DNL Target].
+Nell’illustrazione precedente, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] erano sottoposti ad aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l'utilizzo di [!DNL Target].
 
 Una notifica interna al prodotto compare sempre durante il rilascio mensile di [!DNL Target], ma talvolta si verificano aggiornamenti minori e vengono elencati in questa pagina.
 
