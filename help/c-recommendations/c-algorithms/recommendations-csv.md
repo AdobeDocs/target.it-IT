@@ -74,7 +74,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita “cumulativi”. Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti che non hanno chiavi specificate nel caricamento CSV saranno ancora disponibili per la distribuzione.
 
-Contatta l&#39;assistenza clienti per consentire l&#39;eliminazione dei risultati esistenti non inclusi nel successivo caricamento CSV. Se questa impostazione è attivata, solo i tasti presenti nel file di feed CSV personalizzato saranno disponibili per la distribuzione. Questa impostazione si applica a tutti i criteri personalizzati.
+Contatta l'assistenza clienti per consentire l'eliminazione dei risultati esistenti non inclusi nel successivo caricamento CSV. Se questa impostazione è attivata, solo i tasti presenti nel file di feed CSV personalizzato saranno disponibili per la distribuzione. Questa impostazione si applica a tutti i criteri personalizzati.
 
 I criteri personalizzati vengono aggiornati ogni 24 ore.
 
@@ -87,7 +87,7 @@ Di seguito sono riportati i possibili messaggi di errore che si potrebbero ricev
 | Messaggio di errore | Dettagli |
 |--- |--- |
 | Errore sconosciuto | Indica un errore tecnico interno. |
-| Errore di analisi | Probabilmente si è verificato un problema con il formato di file feed. Correggere il formato di file e salvare nuovamente l&#39;algoritmo, che riavvierà il processo di download dei file. |
+| Errore di analisi | Probabilmente si è verificato un problema con il formato di file feed. Correggere il formato di file e salvare nuovamente l'algoritmo, che riavvierà il processo di download dei file. |
 | Server non trovato | Fornisci un IP o un nome host visibile su Internet. |
 | Errore di credenziali | Fornisci un nome utente e una password validi per un account attivo sul server. |
 | Directory non trovata | Fornisci una directory esistente sul server. |
