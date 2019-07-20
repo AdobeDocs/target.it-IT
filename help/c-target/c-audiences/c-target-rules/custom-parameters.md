@@ -27,7 +27,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 
    Per selezionare il parametro desiderato:
 
-   * Mentre crei un nuovo pubblico, seleziona il nome di un parametro dall&#39;elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
+   * Mentre crei un nuovo pubblico, seleziona il nome di un parametro dall'elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
    * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
    Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il pubblico funzionerà sulla base del parametro su tutte le mbox che trasmettono tale parametro.
 
@@ -52,7 +52,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
