@@ -24,9 +24,9 @@ For more information about using the VEC to create and edit offers, see [Visual 
 
 ## Offerte immagine {#section_A48333211DB149ED926AE467D0032914}
 
-Sottoponi a test offerte immagine multiple all&#39;interno di una posizione per determinare quale immagine sia più efficace.
+Sottoponi a test offerte immagine multiple all'interno di una posizione per determinare quale immagine sia più efficace.
 
-1. Fa clic su un&#39;immagine nella pagina e quindi seleziona **[!UICONTROL Cambia immagine]**.
+1. Fa clic su un'immagine nella pagina e quindi seleziona **[!UICONTROL Cambia immagine]**.
 
    ![Opzione Modifica immagine](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
@@ -34,7 +34,7 @@ Sottoponi a test offerte immagine multiple all&#39;interno di una posizione per 
 
    ![Selezionate la finestra di dialogo Contenuto per aggiungere immagini](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
-Ogni immagine diventa un&#39;esperienza separata nella posizione in questione.
+Ogni immagine diventa un'esperienza separata nella posizione in questione.
 
 ## Offerte HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
 
