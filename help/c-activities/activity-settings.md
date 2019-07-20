@@ -18,10 +18,10 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilizza le Impostazioni attività per gestire la finalità, la priorità e la durata delle attività.
 
-1. Immetti delle note sulla finalità dell&#39;attività.
+1. Immetti delle note sulla finalità dell'attività.
 
    Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascina per ridimensionare il campo [!UICONTROL Finalità].
-1. Imposta la durata dell&#39;attività.
+1. Imposta la durata dell'attività.
 
    L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
 
@@ -43,7 +43,7 @@ Utilizza le Impostazioni attività per gestire la finalità, la priorità e la d
 
 1. Imposta la durata dell’attività.
 
-   È possibile attivare e disattivare manualmente l&#39;attività oppure specificare la data e l&#39;ora della sua consegna. Il controllo del tempo usa un orologio di 24 ore, dove 00:00 indica la mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+   È possibile attivare e disattivare manualmente l'attività oppure specificare la data e l'ora della sua consegna. Il controllo del tempo usa un orologio di 24 ore, dove 00:00 indica la mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
    >[!NOTE]
    >
