@@ -31,7 +31,7 @@ La logica, la sintassi e altro di Velocity possono essere utilizzati integralmen
 $entityN.variable
 ```
 
-I nomi delle variabili devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$*, seguito da un identificatore VTL (Velocity Template Language). L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
+I nomi delle variabili devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$*, seguito da un identificatore VTL (Velocity Template Language). L'identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
 
 I nomi delle variabili di Velocity sono limitati ai seguenti tipi di caratteri:
 
@@ -159,7 +159,7 @@ Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili n
 
 ## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
-Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l&#39;articolo corrente, come riferimento.
+Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l'articolo corrente, come riferimento.
 
 A tale scopo, crea una colonna nella progettazione che utilizzi l’attributo `$key` cui si basa il consiglio, anziché l’attributo `$entity`. Ad esempio, il codice per la colonna chiave potrebbe essere simile a:
 
@@ -174,11 +174,11 @@ A tale scopo, crea una colonna nella progettazione che utilizzi l’attributo `$
 </div>
 ```
 
-Il risultato è una progettazione come la seguente, dove una colonna mostra l&#39;elemento chiave.
+Il risultato è una progettazione come la seguente, dove una colonna mostra l'elemento chiave.
 
 ![](assets/rec_key.png)
 
-Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
+Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l'attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l'elemento chiave previsto.
 
 ## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
 
@@ -208,7 +208,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
 
 ## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren&#39;t enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn&#39;t make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
 
 Lo snippet HTML seguente sostituisce la porzione HTML esistente nella progettazione predefinita da 4 x 2 (il CSS non è incluso qui, a scopo di brevità):
 
