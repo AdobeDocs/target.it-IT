@@ -55,7 +55,7 @@ Le attività di personalizzazione automatizzata vengono valutate una volta per s
 
 ## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nell’interfaccia utente di Target? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell&#39;interfaccia utente di Target.
+A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell'interfaccia utente di Target.
 
 ## Le stringhe che rappresentano numeri (compresi i numeri a virgola mobile) sono considerate numeri.{#strings-that-represent-numbers}
 
