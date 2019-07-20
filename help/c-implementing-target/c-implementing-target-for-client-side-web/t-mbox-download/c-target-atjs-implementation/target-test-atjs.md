@@ -20,17 +20,17 @@ Se utilizzi DTM, puoi facilmente salvare at.js nella configurazione di Adobe Tar
 
 Dopo aver salvato la libreria, utilizza lo strumento switch di DTM per testarlo sul codice di produzione. Questo permetterà ai tuoi consulenti Adobe di supportarti più facilmente.
 
-Per ulteriori informazioni, vedi l&#39;[Opzione 3: Implementare la destinazione manualmente con la libreria JavaScript di Target ospitata da DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) nelle _Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management_.
+Per ulteriori informazioni, vedi l'[Opzione 3: Implementare la destinazione manualmente con la libreria JavaScript di Target ospitata da DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) nelle _Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management_.
 
-## Utilizzare l&#39;estensione di Chrome Requestly per eseguire il mapping a un altro file
+## Utilizzare l'estensione di Chrome Requestly per eseguire il mapping a un altro file
 
 >[!NOTE]
 >
 >Oltre alle seguenti informazioni, puoi utilizzare l’estensione del browser [Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per Google Chrome.
 
-[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) è un&#39;estensione gratuita di Chrome che consente di reindirizzare le richieste a un URL alternativo.
+[Requestly](https://chrome.google.com/webstore/detail/requestly/mdnleldcmiljblolnjhpnblkcekpdkpa?hl=en) è un'estensione gratuita di Chrome che consente di reindirizzare le richieste a un URL alternativo.
 
-Si distribuisce at.js a un URL, quindi si utilizza Requestly per eseguire il mapping dell&#39;URL del file mbox.js corrente al nuovo URL at.js. A quel punto, ogni volta che il sito web prova a caricare mbox.js, carica invece at.js. Questo approccio rende anche più facile fornire supporto da parte di Adobe.
+Si distribuisce at.js a un URL, quindi si utilizza Requestly per eseguire il mapping dell'URL del file mbox.js corrente al nuovo URL at.js. A quel punto, ogni volta che il sito web prova a caricare mbox.js, carica invece at.js. Questo approccio rende anche più facile fornire supporto da parte di Adobe.
 
 ## Distribuzione in un ambiente di sviluppo, gestione temporanea o QA
 
@@ -40,7 +40,7 @@ Per un migliore supporto da parte di Adobe, distribuire il file in un ambiente a
 
 ## Utilizzare Charles o Fiddler per eseguire il mapping a un file locale
 
-[Charles Web Debugging Proxy](https://www.charlesproxy.com/) è un&#39;applicazione disponibile per Mac e Windows la cui funzione Mappa in locale può essere utilizzata per mappare il caricamento del file di produzione mbox.js in una copia locale di at.js. Una versione di prova gratuita è disponibile per il download per Mac e Windows.
+[Charles Web Debugging Proxy](https://www.charlesproxy.com/) è un'applicazione disponibile per Mac e Windows la cui funzione Mappa in locale può essere utilizzata per mappare il caricamento del file di produzione mbox.js in una copia locale di at.js. Una versione di prova gratuita è disponibile per il download per Mac e Windows.
 
 [Fiddler](https://www.telerik.com/fiddler) è uno strumento simile disponibile come download gratuito per Windows.
 
