@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Informazioni su come utilizzare il bookmarklet di controllo qualità di Target per forzare l’uscita dalla modalità di controllo qualità.
 
-Siccome il [Controllo di qualità attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) è persistente, dopo aver navigato su un sito web in modalità di controllo qualità sarà possibile visualizzare il sito come un normale visitatore solo dopo che sessione di Target sarà scaduta o dopo che l’uscita forzata dalla modalità di controllo qualità. Utilizza il bookmarklet Controllo di qualità di Target per forzare l&#39;uscita dalla modalità Controllo di qualità.
+Siccome il [Controllo di qualità attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) è persistente, dopo aver navigato su un sito web in modalità di controllo qualità sarà possibile visualizzare il sito come un normale visitatore solo dopo che sessione di Target sarà scaduta o dopo che l’uscita forzata dalla modalità di controllo qualità. Utilizza il bookmarklet Controllo di qualità di Target per forzare l'uscita dalla modalità Controllo di qualità.
 
 Per utilizzare il bookmarklet di controllo di qualità di Target, crea un bookmarklet contenente il seguente codice JavaScript e aggiungilo alla barra dei segnalibri del browser:
 
