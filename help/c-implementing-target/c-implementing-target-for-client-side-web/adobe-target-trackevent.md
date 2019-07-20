@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # adobe.target.trackEvent(options)
 
-Questa funzione genera una richiesta per segnalare le azioni dell&#39;utente, ad esempio clic e conversioni. Non recapita le attività nella risposta.
+Questa funzione genera una richiesta per segnalare le azioni dell'utente, ad esempio clic e conversioni. Non recapita le attività nella risposta.
 
 Queste chiamate mbox registrazione eventi possono essere utilizzate per definire le metriche nelle attività. For more information, see [Success Metrics](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) and [Track Conversions](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
