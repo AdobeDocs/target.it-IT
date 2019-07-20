@@ -25,11 +25,11 @@ Aggiungi l’SDK di Adobe Mobile Services all’app.
 
    In Experience Cloud, apri Mobile Services, quindi vai su **[!UICONTROL Gestisci impostazioni app]** &gt; **[!UICONTROL Opzioni Target SDK]**.
 
-   Aggiungi il tuo codice client di Target e timeout. Il codice client è univoco per il tuo account o azienda. Il timeout è il lasso di tempo, per numero di secondi, in cui Target attenderà una risposta prima di mostrare il contenuto predefinito. Assicurati che l&#39;opzione **[!UICONTROL Usa HTTPS]** sia selezionata nella pagina Gestisci impostazioni app di Adobe Mobile Services. Se HTTPS non è abilitato, tutte le chiamate in iOS9 + verranno bloccate a meno che non si indichi il server di Target come fidato.
+   Aggiungi il tuo codice client di Target e timeout. Il codice client è univoco per il tuo account o azienda. Il timeout è il lasso di tempo, per numero di secondi, in cui Target attenderà una risposta prima di mostrare il contenuto predefinito. Assicurati che l'opzione **[!UICONTROL Usa HTTPS]** sia selezionata nella pagina Gestisci impostazioni app di Adobe Mobile Services. Se HTTPS non è abilitato, tutte le chiamate in iOS9 + verranno bloccate a meno che non si indichi il server di Target come fidato.
 
    ![](assets/mobile-clientcode.png)
 
-1. Dopo aver creato/individuato l&#39;app, trova le impostazioni dell&#39;app e scarica l&#39;SDK desiderato.
+1. Dopo aver creato/individuato l'app, trova le impostazioni dell'app e scarica l'SDK desiderato.
 
    ![](assets/download-sdk.png)
 
