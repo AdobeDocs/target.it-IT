@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilizzate i tipi di pubblico per eseguire il targeting degli utenti in base alla loro posizione geografica, incluso il paese, lo stato/provincia, la città, il codice postale, il DMA o il gestore di dispositivi mobili.
 
-I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al paese, allo stato/provincia, alla città, al codice postale, alla latitudine, alla longitudine o al gestore di dispositivi mobili. Questi dati vengono inviati con ogni richiesta di Target e si basano sull&#39;indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
+I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al paese, allo stato/provincia, alla città, al codice postale, alla latitudine, alla longitudine o al gestore di dispositivi mobili. Questi dati vengono inviati con ogni richiesta di Target e si basano sull'indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
 
 ## Creare un pubblico con il geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -43,13 +43,13 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-L&#39;illustrazione seguente mostra un pubblico che esegue l&#39;accesso all&#39;attività da una latitudine maggiore di 44 gradi e una longitudine minore di 22 gradi.
+L'illustrazione seguente mostra un pubblico che esegue l'accesso all'attività da una latitudine maggiore di 44 gradi e una longitudine minore di 22 gradi.
 
 ![](assets/target_geo.png)
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider&#39;s data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l'indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
@@ -82,7 +82,7 @@ Ad esempio, utilizza:
 * `profile.geolocation.connectionSpeed`
 * `profile.geolocation.mobileCarrier`
 
-Pertanto, è possibile scrivere un&#39;espressione di targeting denominata “Proveniente da America del Nord” con il codice seguente:
+Pertanto, è possibile scrivere un'espressione di targeting denominata “Proveniente da America del Nord” con il codice seguente:
 
 `return profile.geolocation.country == 'united states' || profile.geolocation.country == 'canada' || profile.geolocation.country == 'mexico';`
 
@@ -115,11 +115,11 @@ Ad esempio, utilizza:
 
 **Come funziona il geotargeting per i dispositivi mobili?**
 
-La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l'indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?**
 
-A causa del modo in cui il traffico viene mascherato da AOL, possiamo eseguire il targeting dei relativi utenti solo a livello di paese. Ad esempio, una campagna destinata alla Francia verrà indirizzata correttamente agli utenti di AOL in Francia. Contrariamente, una campagna destinata a Parigi non verrà indirizzata correttamente agli utenti di AOL a Parigi. Se l&#39;intento è quello di eseguire il targeting specifico degli utenti di AOL, puoi impostare il campo regione su “AOL”. Invero, puoi eseguire il targeting degli utenti di AOL degli Stati Uniti specificando due condizioni di targeting: corrispondenza esatta di paese con “Stati Uniti” e corrispondenza esatta di regione con “AOL”.
+A causa del modo in cui il traffico viene mascherato da AOL, possiamo eseguire il targeting dei relativi utenti solo a livello di paese. Ad esempio, una campagna destinata alla Francia verrà indirizzata correttamente agli utenti di AOL in Francia. Contrariamente, una campagna destinata a Parigi non verrà indirizzata correttamente agli utenti di AOL a Parigi. Se l'intento è quello di eseguire il targeting specifico degli utenti di AOL, puoi impostare il campo regione su “AOL”. Invero, puoi eseguire il targeting degli utenti di AOL degli Stati Uniti specificando due condizioni di targeting: corrispondenza esatta di paese con “Stati Uniti” e corrispondenza esatta di regione con “AOL”.
 
 **Qual è il livello di dettaglio sulla posizione fornito dal geotargeting?**
 
@@ -130,7 +130,7 @@ A causa del modo in cui il traffico viene mascherato da AOL, possiamo eseguire i
 * DMA/ITV (Regno Unito): Stati Uniti, Regno Unito
 * Gestore di telefonia mobile: globale
 
-**Come posso provare le mie attività come se fossero un utente proveniente da un&#39;altra posizione?**
+**Come posso provare le mie attività come se fossero un utente proveniente da un'altra posizione?**
 
 È possibile sovrascrivere l’indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Quindi, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Aukland in Nuova Zelanda, utilizza lo stile di URL proposto di seguito supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
 
@@ -144,7 +144,7 @@ Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” s
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
