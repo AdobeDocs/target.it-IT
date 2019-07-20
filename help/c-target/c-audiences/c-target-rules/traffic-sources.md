@@ -44,7 +44,7 @@ Puoi rivolgerti agli utenti che arrivano al tuo sito da un motore di ricerca spe
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
