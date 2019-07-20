@@ -23,7 +23,7 @@ Con la versione più recente si inaugura il Compositore esperienza visivo per le
 
 ## Visualizzazioni e applicazioni a pagina singola di Adobe Target
 
-Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all&#39;interno di un sito.
+Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all'interno di un sito.
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
@@ -37,11 +37,11 @@ Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
-Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione &quot;products&quot; come nel nome del percorso `https://target.enablementadobe.com/react/demo/#/products`.
+Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione "products" come nel nome del percorso `https://target.enablementadobe.com/react/demo/#/products`.
 
 ![sito del prodotto 2](/help/c-experiences/assets/product-site-2.png)
 
-All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;intero sito o anche un gruppo di elementi visivi sul sito. Come si vede qui sopra, è possibile raggruppare i quattro prodotti visibili sul sito e considerarli come una visualizzazione. Se vogliamo, possiamo denominare questa visualizzazione “Prodotti”.
+All'inizio di questa sezione, abbiamo definito visualizzazioni come l'intero sito o anche un gruppo di elementi visivi sul sito. Come si vede qui sopra, è possibile raggruppare i quattro prodotti visibili sul sito e considerarli come una visualizzazione. Se vogliamo, possiamo denominare questa visualizzazione “Prodotti”.
 
 ![sito del prodotto 3](/help/c-experiences/assets/product-site-3.png)
 
@@ -77,7 +77,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    | Parametro | Tipo | Obbligatorio | Convalida | Descrizione |
    | --- | --- | --- | --- | --- |
-   | viewName | Stringa | Sì | 1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
+   | viewName | Stringa | Sì | 1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con "`/`". Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, "home" e "`/home`" sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l'opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
    | options | Oggetto | No |  |  |
    | options &gt; page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
@@ -188,7 +188,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    >[!NOTE]
    >
-   >Il Compositore esperienza visivo per le applicazioni a pagina singola è lo stesso Compositore esperienza visivo utilizzato nelle normali pagine web, ma con alcune funzionalità aggiuntive disponibili quando si apre un&#39;app a pagina singola con `triggerView()` implementato.
+   >Il Compositore esperienza visivo per le applicazioni a pagina singola è lo stesso Compositore esperienza visivo utilizzato nelle normali pagine web, ma con alcune funzionalità aggiuntive disponibili quando si apre un'app a pagina singola con `triggerView()` implementato.
 
 I due principali miglioramenti al pannello [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) e alle azioni per il Compositore esperienza visivo consentono a quest’ultimo di funzionare correttamente con le applicazioni a pagina singola.
 
@@ -208,13 +208,13 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Duplica | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Nota**: Dopo aver eseguito un&#39;operazione di duplicazione, è necessario accedere alla Vista in Aula virtuale tramite [!UICONTROL Sfoglia] per verificare se l&#39;azione duplicata è stata un&#39;operazione valida. Se l&#39;azione non può essere applicata alla Vista, viene visualizzato un errore. |
-| Sposta | Sposta l&#39;azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già presente nel pannello delle modifiche.<br>[!UICONTROL Evento] di caricamento della pagina: tutte le azioni corrispondenti all&#39;evento di caricamento della pagina vengono applicate al caricamento iniziale della pagina dell&#39;applicazione Web.<br>**Nota** : per vedere se lo spostamento è un&#39;operazione valida, è necessario passare alla vista nell&#39;aula virtuale tramite Sfoglia. Se l&#39;azione non può essere applicata alla Vista, viene visualizzato un errore |
+| Duplica | Clone the action to one or more Views that exist on the [!UICONTROL Modifications] panel or to one or more Views that you have browsed and navigated to in the VEC. The action doesn’t have to necessarily exist in the [!UICONTROL Modifications] panel.<br>**Nota**: Dopo aver eseguito un'operazione di duplicazione, è necessario accedere alla Vista in Aula virtuale tramite [!UICONTROL Sfoglia] per verificare se l'azione duplicata è stata un'operazione valida. Se l'azione non può essere applicata alla Vista, viene visualizzato un errore. |
+| Sposta | Sposta l'azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già presente nel pannello delle modifiche.<br>[!UICONTROL Evento] di caricamento della pagina: tutte le azioni corrispondenti all'evento di caricamento della pagina vengono applicate al caricamento iniziale della pagina dell'applicazione Web.<br>**Nota** : per vedere se lo spostamento è un'operazione valida, è necessario passare alla vista nell'aula virtuale tramite Sfoglia. Se l'azione non può essere applicata alla Vista, viene visualizzato un errore |
 | Elimina | Elimina l’azione. |
 
 >[!NOTE]
 >
->È possibile eseguire numerose azioni prima che la pagina venga caricata nell&#39;aula virtuale o anche se la pagina non è in grado di caricarla completamente. Nell’interfaccia utente di , le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate.
+>È possibile eseguire numerose azioni prima che la pagina venga caricata nell'aula virtuale o anche se la pagina non è in grado di caricarla completamente. Nell’interfaccia utente di , le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate.
 
 **Esempio 1**
 
@@ -373,19 +373,19 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 
 ## Page Delivery settings for the SPA VEC {#page-delivery-settings}
 
-[!UICONTROL Le impostazioni di consegna] pagina consentono di configurare le regole per determinare quando un&#39;attività di Target deve essere qualificata ed eseguita per un&#39;audience.
+[!UICONTROL Le impostazioni di consegna] pagina consentono di configurare le regole per determinare quando un'attività di Target deve essere qualificata ed eseguita per un'audience.
 
-To access the [!UICONTROL Page Delivery] options from within the VEC&#39;s three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
+To access the [!UICONTROL Page Delivery] options from within the VEC's three-part guided activity-creation workflow, from the **[!UICONTROL Experiences]** step, click **[!UICONTROL Configure]** (the gear icon) &gt; **[!UICONTROL Page Delivery]**.
 
 ![Finestra di dialogo Opzioni consegna pagina](/help/c-experiences/assets/page-delivery.png)
 
-For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Questo funziona perfettamente per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della pagina, per il quale at. js recupera le attività idonee all&#39;URL a cui l&#39;utente passa.
+For example, as defined by the [!UICONTROL Page Delivery] settings shown above, a Target activity qualifies and executes when a visitor lands directly on `https://www.adobe.com` *or* when a visitor lands on any URL that contains `https://www.adobe.com/products`. Questo funziona perfettamente per qualsiasi applicazione multipagina in cui ogni interazione con la pagina richiama un ricaricamento della pagina, per il quale at. js recupera le attività idonee all'URL a cui l'utente passa.
 
 However, because SPAs work differently, the [!UICONTROL Page Delivery] settings must be configured in a way that allows all actions to be applied to the Views as defined in the SPA VEC activity.
 
-### Esempio d&#39;uso
+### Esempio d'uso
 
-Considerate questo esempio d&#39;uso:
+Considerate questo esempio d'uso:
 
 ![Pannello delle modifiche di SPA VEC](/help/c-experiences/assets/page-delivery-example.png)
 
@@ -398,34 +398,34 @@ With the example above in mind, what would happen when we configure [!UICONTROL 
 
 ![Consegna pagina, finestra di dialogo](/help/c-experiences/assets/spa-page-delivery.png)
 
-Nell&#39;illustrazione seguente viene mostrata la richiesta di Target - Page Load (Caricamento pagina) in at. js 2.*x*:
+Nell'illustrazione seguente viene mostrata la richiesta di Target - Page Load (Caricamento pagina) in at. js 2.*x*:
 
 ![Target Flow - at. js 2.0 Page Load Request](/help/c-experiences/assets/page-load-request.png)
 
 **Percorso utente # 1**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* at.js 2.*x* esegue una query sul Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
-* Nel passaggio 6, Target Edge restituisce le azioni per la visualizzazione Home e Products in modo che siano memorizzate nella cache all&#39;interno del browser.
+* at.js 2.*x* esegue una query sul Edge per verificare se è necessario eseguire un'attività per l'URL: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Nel passaggio 6, Target Edge restituisce le azioni per la visualizzazione Home e Products in modo che siano memorizzate nella cache all'interno del browser.
 
-**Risultato**: L&#39;utente visualizza il colore di sfondo verde nella vista Home. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
+**Risultato**: L'utente visualizza il colore di sfondo verde nella vista Home. When the user then navigates to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products), the blue background color of the button is seen because the action is cached in the browser under the Products view.
 
 Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
 
 **Percorso utente # 2**
 
 * A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
-* at.js 2.*x* esegue una query sul Edge per verificare se è necessario eseguire un&#39;attività per l&#39;URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* at.js 2.*x* esegue una query sul Edge per verificare se è necessario eseguire un'attività per l'URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Poiché non sono disponibili attività qualificate, non ci sono azioni e visualizzazioni da memorizzare nella cache per at. js 2.*x* da cui attivare.
 
-**Risultato**: Anche se avete definito `triggerView()` per la Visualizzazione prodotti e avete inoltrato un&#39;azione alla Visualizzazione prodotti tramite SPA VEC, l&#39;azione prevista non verrà visualizzata perché non avete creato una regola che include [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) nelle impostazioni di consegna pagina.
+**Risultato**: Anche se avete definito `triggerView()` per la Visualizzazione prodotti e avete inoltrato un'azione alla Visualizzazione prodotti tramite SPA VEC, l'azione prevista non verrà visualizzata perché non avete creato una regola che include [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) nelle impostazioni di consegna pagina.
 
 ### Best practice
 
-Puoi notare che la gestione del percorso dell&#39;utente può essere molto complicata, in quanto gli utenti possono realizzare un&#39;analisi su qualsiasi URL della tua SPA e passare a qualsiasi altra pagina. Pertanto, è consigliabile specificare una regola Consegna pagina che includa l&#39;URL di base, in modo che includa l&#39;intera SPA. In questo modo, non è necessario pensare a tutti i percorsi e percorsi che un utente potrebbe intraprendere per passare a una pagina in cui visualizzare un&#39;attività A/B Test o Experience Targeting (XT).
+Puoi notare che la gestione del percorso dell'utente può essere molto complicata, in quanto gli utenti possono realizzare un'analisi su qualsiasi URL della tua SPA e passare a qualsiasi altra pagina. Pertanto, è consigliabile specificare una regola Consegna pagina che includa l'URL di base, in modo che includa l'intera SPA. In questo modo, non è necessario pensare a tutti i percorsi e percorsi che un utente potrebbe intraprendere per passare a una pagina in cui visualizzare un'attività A/B Test o Experience Targeting (XT).
 
-Ad esempio, per risolvere il problema di cui sopra, possiamo specificare l&#39;URL di base nelle impostazioni della distribuzione pagina:
+Ad esempio, per risolvere il problema di cui sopra, possiamo specificare l'URL di base nelle impostazioni della distribuzione pagina:
 
 ![Consegna pagina, finestra di dialogo](/help/c-experiences/assets/conclusion.png)
 
