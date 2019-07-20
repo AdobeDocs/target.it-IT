@@ -35,7 +35,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l&#39;opzione non è visualizzata, l&#39;organizzazione dispone di una licenza di Target Standard.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l'opzione non è visualizzata, l'organizzazione dispone di una licenza di Target Standard.]
 
 1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -122,7 +122,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    ![Diagramma di flusso di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   Il diagramma di flusso vi guida attraverso le fasi di selezione dell&#39;audience per l&#39;attività, di configurazione delle esperienze e di specificazione delle metriche di successo.
+   Il diagramma di flusso vi guida attraverso le fasi di selezione dell'audience per l'attività, di configurazione delle esperienze e di specificazione delle metriche di successo.
 
    Nel diagramma di flusso puoi eseguire le operazioni seguenti:
 
