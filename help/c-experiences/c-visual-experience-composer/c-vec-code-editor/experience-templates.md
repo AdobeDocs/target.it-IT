@@ -24,7 +24,7 @@ I seguenti modelli sono attualmente disponibili su Adobe Experience Cloud GitHub
 
 ## Carosello banner con miniature {#section_BEEE51D47CC44A478264BBF3FEC70DAE}
 
-Il [modello di esperienza Carosello banner con miniature](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) è un carosello rotante, di solito utilizzato nelle home page e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato. Questo carosello non ruoterà automaticamente tra le immagini ed è possibile interagire direttamente con esso facendo clic sulle immagini più piccole sotto l&#39;immagine primaria.
+Il [modello di esperienza Carosello banner con miniature](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/banner-carousel-thumbnails) è un carosello rotante, di solito utilizzato nelle home page e nelle pagine di destinazione o in altre pagine di accesso dal volume elevato. Questo carosello non ruoterà automaticamente tra le immagini ed è possibile interagire direttamente con esso facendo clic sulle immagini più piccole sotto l'immagine primaria.
 
 ![](assets/exp-template-banner-carousel-thumbnails.png)
 
@@ -42,7 +42,7 @@ Il [modello di esperienza Conto alla rovescia banner](https://github.com/Adobe-M
 
 ## Generatore di pulsanti {#section_DBDD1C9A9F294FB6BABBC04B4454E59B}
 
-Il [modello di esperienza Generatore di pulsanti](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) è un piccolo pulsante con una chiamata all&#39;azione sotto forma di testo. Il pulsante è configurabile e può essere posizionato in qualsiasi punto della pagina per aggiungere una nuova chiamata all&#39;azione o sostituire un pulsante esistente con un&#39;alternativa più configurabile.
+Il [modello di esperienza Generatore di pulsanti](https://github.com/Adobe-Marketing-Cloud/target-experience-templates/tree/master/button) è un piccolo pulsante con una chiamata all'azione sotto forma di testo. Il pulsante è configurabile e può essere posizionato in qualsiasi punto della pagina per aggiungere una nuova chiamata all'azione o sostituire un pulsante esistente con un'alternativa più configurabile.
 
 ![](assets/exp-template-button-builder.png)
 
