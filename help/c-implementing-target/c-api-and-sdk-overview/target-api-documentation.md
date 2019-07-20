@@ -35,7 +35,7 @@ Le API legacy verranno ritirate insieme a Target Classic:
 | Data | Dettagli |
 |--- |--- |
 | 17 ottobre 2017 | Tutti i metodi delle API che eseguono un’operazione di scrittura (`saveCampaign`, `copyCampaign`, `saveHTMLOfferContent` e `setCampaignState`) sono stati ritirati.<br>È la stessa data in cui tutti gli account utente di Target Classic sono stati impostati sullo stato di sola lettura. |
-| 14 novembre 2017 | Le API rimanenti sono state disattivate. È la data in cui l&#39;interfaccia utente di Target Classic è stata ritirata. |
+| 14 novembre 2017 | Le API rimanenti sono state disattivate. È la data in cui l'interfaccia utente di Target Classic è stata ritirata. |
 
 Le API di Recommendations Classic non saranno influenzate da questa linea temporale.
 
@@ -48,11 +48,11 @@ I nuovi metodi delle API sono collegati alla sezione corrispondente nel sito del
 | Raggruppamento | Metodo API legacy | Nuovo metodo API | Note |
 |--- |--- |--- |--- |
 | Campagna/attività | Crea campagna | [Crea attività AB](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Crea attività XT](http://developers.adobetarget.com/api/#create-xt-activity) | Le nuove API forniscono metodi di creazione separati per AB e XT |
-|  | Aggiorna campagna | [Aggiorna l&#39;attività AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Aggiorna l&#39;attività XT](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+|  | Aggiorna campagna | [Aggiorna l'attività AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Aggiorna l'attività XT](http://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Copia campagna | N/D | Utilizza le API Crea attività |
 |  | Elenco campagne | [Elenco attività](http://developers.adobetarget.com/api/#list-activities) |  |
 |  | Stato campagna | [Aggiorna stato attività](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | Visualizza campagna | [Ottieni l&#39;attività AB da ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Ottieni l&#39;attività XT per ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | Visualizza campagna | [Ottieni l'attività AB da ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Ottieni l'attività XT per ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | ID campagna di terze parti | N/D | Se si utilizza un thirdpartyID, puoi utilizzare i metodi di attività rilevanti |
 | Offerte | Crea offerta | [Crea offerta](http://developers.adobetarget.com/api/#create-offer) |  |
 |  | Ottieni offerta | [Ottieni offerta per ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
@@ -65,7 +65,7 @@ I nuovi metodi delle API sono collegati alla sezione corrispondente nel sito del
 
 ## Eccezioni {#section_09CF9A0E289149279783B4801D1B6D4C}
 
-Se hai bisogno di un&#39;eccezione, contatta il tuo Customer Success Manager.
+Se hai bisogno di un'eccezione, contatta il tuo Customer Success Manager.
 
 ## Aiuto {#section_591F850E2B7A4342B1C233693425415C}
 
