@@ -25,10 +25,10 @@ Target può anche inviare i consigli come oggetti JSON che possono essere utiliz
 
 ## Esempio JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte JSON quando si configura un&#39;attività tramite l&#39;editor basato su modelli.
+Nell'esempio seguente viene illustrato come è possibile restituire risposte JSON quando si configura un'attività tramite l'editor basato su modelli.
 
-1. Crea una progettazione dall&#39;interno della Libreria di progettazione o all&#39;interno del flusso di lavoro basato su modelli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro del Compositore esperienza visivo, puoi creare solo una struttura HTML, che viene racchiusa in un elemento `<div>` a scopo di tracciamento dei clic.
-1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
+1. Crea una progettazione dall'interno della Libreria di progettazione o all'interno del flusso di lavoro basato su modelli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro del Compositore esperienza visivo, puoi creare solo una struttura HTML, che viene racchiusa in un elemento `<div>` a scopo di tracciamento dei clic.
+1. Assicurati che l'opzione “Progettazione HTML” sia disattivata:
 
    ![](assets/html_design_toggle.png)
 
@@ -61,7 +61,7 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
        }  
    ```
 
-1. Imposta un&#39;attività di Consigli basata su moduli che utilizzi questa progettazione.
+1. Imposta un'attività di Consigli basata su moduli che utilizzi questa progettazione.
 
    1. Passa alla pagina Attività.
    1. Fai clic su **[!UICONTROL Crea attività]**.
@@ -76,9 +76,9 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
    1. Completa il processo di impostazione.
    1. Fai clic sulla freccia destra accanto a **[!UICONTROL Inattivo]**, poi seleziona **[!UICONTROL Attiva]**.
 
-1. Dopo aver impostato e attivato l&#39;attività, è possibile impostare una richiesta di esempio per ottenere la risposta JSON pulita.
+1. Dopo aver impostato e attivato l'attività, è possibile impostare una richiesta di esempio per ottenere la risposta JSON pulita.
 
-   Dal momento in cui salvi l&#39;attività, Target dovrà generare un modello per supportare la configurazione dei criteri selezionati. A seconda di una serie di fattori, questo potrebbe richiedere del tempo. Una volta generato il modello vengono visualizzati i risultati.
+   Dal momento in cui salvi l'attività, Target dovrà generare un modello per supportare la configurazione dei criteri selezionati. A seconda di una serie di fattori, questo potrebbe richiedere del tempo. Una volta generato il modello vengono visualizzati i risultati.
 
    Ad esempio:
 
@@ -92,10 +92,10 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings &gt; Token API per i consigli &gt; Codice client. |
 | `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione “locations” dei consigli basati su moduli, in questo caso YOUR_CLIENT_CODE. |
-| `[ENTITY_ID`] | L&#39;`entity.id` di un elemento nel catalogo. |
-| `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
+| `[ENTITY_ID`] | L'`entity.id` di un elemento nel catalogo. |
+| `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell'azienda) durante l'impostazione dell'attività. |
 
-Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
+Dopo che l'algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
 
 ![](assets/json_recommendation.png){width=“575px”}
 
@@ -107,7 +107,7 @@ Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la rispos
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). In questo esempio di progettazione vengono inoltre restituiti i dettagli dell&#39;attività, del Profilo di Target (come applicabile) e altri attributi `entity.attributes` associati agli elementi restituiti.
+In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). In questo esempio di progettazione vengono inoltre restituiti i dettagli dell'attività, del Profilo di Target (come applicabile) e altri attributi `entity.attributes` associati agli elementi restituiti.
 
 ```
     {   
