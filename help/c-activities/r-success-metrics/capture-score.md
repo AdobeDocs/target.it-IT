@@ -18,15 +18,15 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
 
-Nell&#39;esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l&#39;immagine di un gatto e l&#39;altra con l&#39;immagine di un cane.
+Nell'esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l'immagine di un gatto e l'altra con l'immagine di un cane.
 
 ![](assets/example_score.png)
 
-In questo esempio, il primo visitatore sperimenta l&#39;esperienza del gatto. Supponiamo che una mbox globale passi in un punteggio di pagina in base al valore della pagina. Se l’esperto di marketing ha raccolto il coinvolgimento del conteggio delle pagine su una metrica di successo associata a `**any mbox**`, il punteggio di visita si accumula per qualsiasi mbox di richiesta visto dopo la mbox di visualizzazione intorno all’immagine del gatto.
+In questo esempio, il primo visitatore sperimenta l'esperienza del gatto. Supponiamo che una mbox globale passi in un punteggio di pagina in base al valore della pagina. Se l’esperto di marketing ha raccolto il coinvolgimento del conteggio delle pagine su una metrica di successo associata a `**any mbox**`, il punteggio di visita si accumula per qualsiasi mbox di richiesta visto dopo la mbox di visualizzazione intorno all’immagine del gatto.
 
-La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo potrebbe essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l&#39;esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
+La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo potrebbe essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l'esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
 
-Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. Nota che, in questo esempio, entrambe le mbox nella pagina dell&#39;articolo passano un punteggio, possibilmente rappresentando un CPM noto.
+Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. Nota che, in questo esempio, entrambe le mbox nella pagina dell'articolo passano un punteggio, possibilmente rappresentando un CPM noto.
 
 ![](assets/example_score2.png)
 
@@ -52,11 +52,11 @@ Esistono due metodi per assegnare un punteggio a una pagina:
 >
 >Le mbox situate sopra la prima mbox visualizzata della campagna non saranno incluse nel punteggio.
 
-La procedura consigliata consiste nell&#39;assegnare valori nel codice mbox. Questo permette di essere precisi nei valori che misuri, a seconda del contenuto di ogni mbox.
+La procedura consigliata consiste nell'assegnare valori nel codice mbox. Questo permette di essere precisi nei valori che misuri, a seconda del contenuto di ogni mbox.
 
 >[!NOTE] {class=“- topic/note ”}
 >
->Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell&#39;account per l&#39;assistenza.
+>Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell'account per l'assistenza.
 
 È possibile combinare i due metodi, ma questo potrebbe causare un punteggio più alto del previsto. Ad esempio, se assegni un valore di 10 a ciascuna delle tre mbox e nessun punteggio a una quarta mbox, passando infine il parametro URL `?mboxPageValue=5`, il tuo punteggio di pagina sarà 50, di cui 30 per le tre mbox con i valori assegnati e 5 per ciascuna delle quattro mbox sulla pagina.
 
