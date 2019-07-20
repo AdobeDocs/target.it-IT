@@ -25,7 +25,7 @@ Aggiungi articoli in promozione e controllane il posizionamento nelle progettazi
 
 Quando si crea un’attività di [!DNL Recommendations], è possibile includere gli elementi promossi nel progetto di [!DNL Recommendations]. Le promozioni utilizzano gli slot disponibili in una progettazione e hanno la precedenza sui risultati dei criteri e sui consigli di backup. Ad esempio, se il progetto dispone di sei slot e ne utilizzi due per le promozioni, sono disponibili quattro slot per gli articoli consigliati in base ai criteri.
 
-Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri per l&#39;attività, pertanto un dato elemento non verrà visualizzato due volte in una singola vassoio delle raccomandazioni.
+Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri per l'attività, pertanto un dato elemento non verrà visualizzato due volte in una singola vassoio delle raccomandazioni.
 
 È possibile promuovere elementi specifici, promuovere dinamicamente gli elementi, promuovere gli elementi in base agli attributi o promuoverne gli insiemi.
 
@@ -37,7 +37,7 @@ Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri
 
 1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the &quot;On&quot; position.
+   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
 
    ![Opzioni di promozione Aggiungi](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
@@ -54,7 +54,7 @@ Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri
 
    * Seleziona **[!UICONTROL Elenco di voci]** e immetti i valori `entity.id`, separati da virgole, degli elementi specifici che desideri promuovere.
 
-      Se l&#39;elenco include più elementi rispetto al numero di slot impostati per le promozioni, è possibile selezionare la casella **[!UICONTROL Ordine casuale degli articoli]per variare gli elementi promossi visualizzati nella progettazione.** Quando si sceglie questa opzione, Target seleziona in modo casuale il numero di elementi abilitati per le promozioni nel modello dall&#39;intero set di promozioni per ogni visita.
+      Se l'elenco include più elementi rispetto al numero di slot impostati per le promozioni, è possibile selezionare la casella **[!UICONTROL Ordine casuale degli articoli]per variare gli elementi promossi visualizzati nella progettazione.** Quando si sceglie questa opzione, Target seleziona in modo casuale il numero di elementi abilitati per le promozioni nel modello dall'intero set di promozioni per ogni visita.
 
    * Seleziona **[!UICONTROL Promuovi per attributo]** e aggiungi regole per definire gli attributi degli elementi che desideri promuovere.
 
@@ -64,4 +64,4 @@ Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Le promozioni sono applicate a tutte le esperienze nell&#39;attività.
+Le promozioni sono applicate a tutte le esperienze nell'attività.
