@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
 
-* Quando si modifica un&#39;attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
+* Quando si modifica un'attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
 * In caso di modifiche a un test già in esecuzione, puoi reimpostare il test e i relativi dati.
 
    Target consente di modificare un’attività live. È importante considerare che la modifica di un’attività in corso potrebbe ripristinare il test, quindi i rapporti potrebbero non riconoscere alcune delle modifiche.
