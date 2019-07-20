@@ -20,15 +20,15 @@ La migrazione da mbox.js a at.js in [!DNL Adobe Target] è un processo semplice.
 Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!DNL mbox.js] a [!DNL at.js]:
 
 1. Determina i requisiti aziendali di [supporto del browser](../../../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
-1. Controlla l&#39;attuale implementazione [!DNL mbox.js] del tuo sito web per le funzionalità che non sono supportate da [!DNL at.js].
+1. Controlla l'attuale implementazione [!DNL mbox.js] del tuo sito web per le funzionalità che non sono supportate da [!DNL at.js].
 
-   Quando controlli l&#39;implementazione, cerca i seguenti elementi:
+   Quando controlli l'implementazione, cerca i seguenti elementi:
 
    **Quali tipi di mbox utilizzi attualmente?**
 
    | Tipo | Dettagli |
    |--- |--- |
-   | Mbox globale creata automaticamente | La mbox globale creata automaticamente viene creata quando l&#39;unica linea di codice di Target sul tuo sito è il file mbox.js. Tale file genera automaticamente una chiamata mbox. |
+   | Mbox globale creata automaticamente | La mbox globale creata automaticamente viene creata quando l'unica linea di codice di Target sul tuo sito è il file mbox.js. Tale file genera automaticamente una chiamata mbox. |
    | mboxCreate globale vuota | Si consiglia di passare alla mbox globale creata automaticamente. |
    | mboxCreate con wrapping | La migrazione dovrebbe essere semplice, purché `mboxCreate()` sia preceduto da `<div class="mboxDefault"></div>`. |
    | mboxUpdate | La migrazione dovrebbe essere semplice quando `mboxUpdate()` viene utilizzato in combinazione con `mboxDefine()` o `mboxCreate()`. `mboxUpdate()` non aggiorna la mbox globale creata automaticamente o una mbox originariamente creata da `getOffer()`. In queste circostanze, utilizza una combinazione di `getOffer()` e `applyOffer()` per sostituire `mboxUpdate()` durante la migrazione a at.js. |
@@ -51,7 +51,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    Non puoi utilizzare sia [!DNL at.js] che [!DNL mbox.js] sulla stessa pagina web. Tuttavia, puoi utilizzare le due librerie JavaScript su due pagine diverse dello stesso sito web.
 
-   Il cookie mbox è il modo principale di Adobe di collegare il visitatore da una pagina all&#39;altra. Per realizzare il controllo qualità, devi confermare che il cookie sia conservato e letto correttamente mentre il visitatore si muove avanti e indietro fra le pagine con [!DNL at.js] e quelle con [!DNL mbox.js]. Assicurati che gli stessi valori `mboxPC` e `mboxSession` siano trasmessi nelle chiamate mbox, indipendentemente dalla sezione del sito ([!DNL at.js] o [!DNL mbox.js]) a cui il visitatore sia approdato prima e che originariamente imposta il cookie. Se utilizzi i cookie di terze parti nell&#39;implementazione, assicurati che tali valori rimangano invariati quando esplori il sito.
+   Il cookie mbox è il modo principale di Adobe di collegare il visitatore da una pagina all'altra. Per realizzare il controllo qualità, devi confermare che il cookie sia conservato e letto correttamente mentre il visitatore si muove avanti e indietro fra le pagine con [!DNL at.js] e quelle con [!DNL mbox.js]. Assicurati che gli stessi valori `mboxPC` e `mboxSession` siano trasmessi nelle chiamate mbox, indipendentemente dalla sezione del sito ([!DNL at.js] o [!DNL mbox.js]) a cui il visitatore sia approdato prima e che originariamente imposta il cookie. Se utilizzi i cookie di terze parti nell'implementazione, assicurati che tali valori rimangano invariati quando esplori il sito.
 
    **Utilizzi integrazioni di[!DNL Target]con altre soluzioni Adobe?**
 
@@ -94,7 +94,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
 **Possibili problemi durante la migrazione a at.js** Alcuni clienti hanno segnalato i seguenti problemi dopo l’esecuzione della migrazione a at.js:
 
-* Per alcune attività del Compositore esperienza visivo che sono state create in una pagina con [!DNL mbox.js] potrebbe essere necessario eseguire l&#39;aggiornamento prima di lavorare con [!DNL at.js].
+* Per alcune attività del Compositore esperienza visivo che sono state create in una pagina con [!DNL mbox.js] potrebbe essere necessario eseguire l'aggiornamento prima di lavorare con [!DNL at.js].
 
    Questo problema si verifica più di frequente su siti web che non utilizzano molti attributi ID o attributi classe in elementi HTML. Puoi controllare se si verifica questo problema e capire se l’esperienza viene consegnata come previsto caricando la pagina con `?mboxDebug=true` e rivedendo le istruzioni della console.
 
@@ -108,7 +108,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    Puoi risolvere questo problema ricreando l’attività nel Compositore esperienza visivo sull’URL utilizzando [!DNL at.js] o aggiornando manualmente il selettore con l’opzione **[!UICONTROL &lt;/&gt; Codice]** &gt; **[!UICONTROL Modifiche]** nel Compositore esperienza visivo.
 
-   Per ovviare a questo problema, devi sottrarre 1 dal numero nth-of-type nel primo elemento DIV dopo BODY. Nell&#39;esempio precedente il codice modificato sarebbe:
+   Per ovviare a questo problema, devi sottrarre 1 dal numero nth-of-type nel primo elemento DIV dopo BODY. Nell'esempio precedente il codice modificato sarebbe:
 
    ```
    HTML > BODY > DIV:nth-of-type(1)
@@ -116,4 +116,4 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    Per ulteriori informazioni su come utilizzare l’editor di codice per eseguire questa procedura, vedi [Editor di codice](../../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md#concept_B3A6E9EE3A60406DB640E205EA1745B5).
 
-* Poiché tutte le mbox sono ora asincrone, non bloccano il rendering della pagina né tornano nell&#39;ordine in cui sono state attivate. Per ulteriori informazioni, vedi “Considerazioni asincrone” in [Limitazioni di at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
+* Poiché tutte le mbox sono ora asincrone, non bloccano il rendering della pagina né tornano nell'ordine in cui sono state attivate. Per ulteriori informazioni, vedi “Considerazioni asincrone” in [Limitazioni di at.js](../../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#concept_FA99E4D6EC274552BF45E01AFB76CCAE).
