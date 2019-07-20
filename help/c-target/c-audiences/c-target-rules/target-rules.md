@@ -26,11 +26,11 @@ Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e para
 
 Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubblico]. Puoi cercare qualsiasi parte del nome di un pubblico, oppure racchiudere tra virgolette una stringa specifica.
 
-Puoi ordinare lʼelenco Tipi di pubblico in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull&#39;intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
+Puoi ordinare lʼelenco Tipi di pubblico in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull'intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
