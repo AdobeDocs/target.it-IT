@@ -23,12 +23,12 @@ Mediante il Calcolatore del traffico viene prevista la dimensione del campione n
    Questo indica che la possibilità che venga segnalato un falso positivo in assenza di un incremento reale è del 5% (100% - livello di affidabilità).
 * 80% di potenza statistica
 
-   Questo significa che il test ha una probabilità dell&#39;80% di rilevare un incremento reale pari al 25% o più.
+   Questo significa che il test ha una probabilità dell'80% di rilevare un incremento reale pari al 25% o più.
 * Incremento rilevabile con affidabilità minima del 25%
 
-   In Target viene calcolato il traffico necessario per ottenere probabilità dell&#39;80% di rilevare un incremento reale pari al 25% o più.
+   In Target viene calcolato il traffico necessario per ottenere probabilità dell'80% di rilevare un incremento reale pari al 25% o più.
 
-Il test utilizza la correzione di Bonferroni in caso di confronti multipli. Questo metodo è noto per essere di tipo conservativo, il che risulta controbilanciato dall&#39;imposizione di un incremento rilevabile con affidabilità minima relativamente ampio.
+Il test utilizza la correzione di Bonferroni in caso di confronti multipli. Questo metodo è noto per essere di tipo conservativo, il che risulta controbilanciato dall'imposizione di un incremento rilevabile con affidabilità minima relativamente ampio.
 
 Il Calcolatore del traffico fornisce un feedback che consente di sapere se disponi di traffico sufficiente affinché il test progettato abbia successo.
 
@@ -50,7 +50,7 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
 
    ![](assets/estimatorinsufficient.png)
 
-   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test un numero elevato di esperienze e il tasso di conversione e le impression sono troppo ridotti, il Calcolatore del traffico mostra quanto dovrà durare l&#39;esecuzione del test perché questo abbia successo. Oppure, se il traffico è limitato, nel Calcolatore del traffico potrebbe venire suggerito un numero inferiore di esperienze, in modo che sia possibile eseguire il test per il numero desiderato di giorni.
+   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test un numero elevato di esperienze e il tasso di conversione e le impression sono troppo ridotti, il Calcolatore del traffico mostra quanto dovrà durare l'esecuzione del test perché questo abbia successo. Oppure, se il traffico è limitato, nel Calcolatore del traffico potrebbe venire suggerito un numero inferiore di esperienze, in modo che sia possibile eseguire il test per il numero desiderato di giorni.
 
    Se il traffico non è sufficiente, puoi eseguire una o entrambe le operazioni seguenti:
 
