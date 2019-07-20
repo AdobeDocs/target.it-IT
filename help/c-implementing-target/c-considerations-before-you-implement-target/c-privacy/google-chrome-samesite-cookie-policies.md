@@ -20,9 +20,9 @@ Google ha recentemente annunciato che a partire da Chrome 76 (slata a partire da
 
 ## Panoramica samesite
 
-Per fornire protezione quando i cookie possono essere inviati tra siti in modo che gli utenti siano protetti, Google aggiunge il supporto per uno standard IETF chiamato &quot;samesite&quot; in Google Chrome 76 (e versioni successive). SameSite requires web developers to manage cookies with the SameSite attribute component in the `Set-Cookie` header.
+Per fornire protezione quando i cookie possono essere inviati tra siti in modo che gli utenti siano protetti, Google aggiunge il supporto per uno standard IETF chiamato "samesite" in Google Chrome 76 (e versioni successive). SameSite requires web developers to manage cookies with the SameSite attribute component in the `Set-Cookie` header.
 
-Esistono tre valori diversi che possono essere passati nell&#39;attributo samesite: Rigida, Lax o Nessuno.
+Esistono tre valori diversi che possono essere passati nell'attributo samesite: Rigida, Lax o Nessuno.
 
 | Valore | Descrizione |
 | --- | --- |
@@ -30,11 +30,11 @@ Esistono tre valori diversi che possono essere passati nell&#39;attributo samesi
 | Lax | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, such as `HTTP GET`. Therefore, this option should be used if the cookie can be used by third-parties, but with an added security benefit that protects users from being victimized by [CSRF](https://en.wikipedia.org/wiki/Cross-site_request_forgery) (Cross-Site Request Forgery) attacks. |
 | Nessuno | I cookie con questa impostazione funzionano allo stesso modo dei cookie che funzionano oggi stesso. |
 
-Tenendo a mente quanto sopra, Chrome 76 (e versioni successive) introduce due impostazioni: &quot; Samesite per cookie predefiniti &quot;e&quot; Cookie senza samesite devono essere protetti &quot;. Gli utenti possono abilitare entrambe le impostazioni o entrambe.
+Tenendo a mente quanto sopra, Chrome 76 (e versioni successive) introduce due impostazioni: " Samesite per cookie predefiniti "e" Cookie senza samesite devono essere protetti ". Gli utenti possono abilitare entrambe le impostazioni o entrambe.
 
 | Impostazione | Descrizione |
 | --- | --- |
-| Samesite per cookie predefiniti | When set, all cookies that don&#39;t specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
+| Samesite per cookie predefiniti | When set, all cookies that don't specify the SameSite attribute are automatically forced with `SameSite = Lax`. |
 | I cookie senza samesite devono essere protetti | When set, cookies without the SameSite attribute or with `SameSite = None`, must be Secure. Protetto in questo contesto significa che tutte le richieste del browser devono seguire il protocollo HTTPS. I cookie che non aderiscono a questo requisito vengono rifiutati. |
 
 ![Samesite, pagina delle impostazioni](/help/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
@@ -43,9 +43,9 @@ Tenendo a mente quanto sopra, Chrome 76 (e versioni successive) introduce due im
 
 Con Target desideriamo assicurarti di avere successo, supportando sempre le best practice ottimali del settore per la sicurezza. Siamo lieti di annunciare che Target supporta le nuove impostazioni di sicurezza introdotte in Google Chrome 76.
 
-Quando i visitatori hanno attivato l&#39;impostazione &quot;samesite by default cookies&quot; (Impostazione dei cookie predefiniti), Target continua a distribuire la personalizzazione senza alcun impatto e senza alcun intervento da parte dell&#39;utente. Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
+Quando i visitatori hanno attivato l'impostazione "samesite by default cookies" (Impostazione dei cookie predefiniti), Target continua a distribuire la personalizzazione senza alcun impatto e senza alcun intervento da parte dell'utente. Target uses first-party cookies and will continue to function properly as the flag `SameSite = Lax` is applied by Google Chrome.
 
-Quando i visitatori abilitano i &quot;Cookie senza samesite&quot;, e non effettui l&#39;accesso per la funzionalità di tracciamento interdominio di Target, i cookie di prime parti di Target continuano a funzionare. However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. È quindi necessario garantire che i siti utilizzino il protocollo HTTPS. Target&#39;s client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
+Quando i visitatori abilitano i "Cookie senza samesite", e non effettui l'accesso per la funzionalità di tracciamento interdominio di Target, i cookie di prime parti di Target continuano a funzionare. However, when you opt-in to using cross-domain tracking to leverage Target across multiple domains, Google Chrome 76 (and later) requires `SameSite = None` and `Secure` flags to be used for third-party cookies. È quindi necessario garantire che i siti utilizzino il protocollo HTTPS. Target's client-side libraries automatically use the HTTPS protocol and, in addition to that, attach the `SameSite = None` and `Secure` flags to Target’s third-party cookie to ensure all activities continue to deliver.
 
 ## Cosa dovete fare?
 
@@ -54,8 +54,8 @@ Leggi la tabella seguente per capire cosa devi fare affinché Target continui a 
 La tabella contiene le colonne seguenti:
 
 * **Libreria lato client di Target**: Che utilizzi mbox. js, at. js 1.*x*, o at. js 2.*x* sui siti e sulle impostazioni di Google Chrome
-* **Samesite by default cookies = Enabled**: Se i visitatori hanno &quot;samesite by default cookie enabled&quot; su Chrome 76 +, how does it impact you and there there anything to do to fare in modo che Target continui a funzionare
-* **I cookie senza samesite devono essere protetti = Enabled**: Se i visitatori hanno &quot;Cookie senza samesite&quot; devono essere protetti su Chrome 76 +, come influisce su di esso ed è presente tutto ciò che devi fare per fare in modo che Target continui a funzionare
+* **Samesite by default cookies = Enabled**: Se i visitatori hanno "samesite by default cookie enabled" su Chrome 76 +, how does it impact you and there there anything to do to fare in modo che Target continui a funzionare
+* **I cookie senza samesite devono essere protetti = Enabled**: Se i visitatori hanno "Cookie senza samesite" devono essere protetti su Chrome 76 +, come influisce su di esso ed è presente tutto ciò che devi fare per fare in modo che Target continui a funzionare
 * **Tracciamento interdominio di Adobe Target = abilitato**: Se i visitatori hanno lo stesso sito per cookie predefiniti abilitato e «Cookie senza samesite devono essere protetti» su Chrome 76 +, e stai utilizzando Target per il monitoraggio tra più domini, come ti interessa ed è presente tutto ciò che serve per fare in modo che Target continui a funzionare
 
 | Eseguire il targeting della libreria lato client | Samesite per cookie predefiniti = attivato | I cookie senza samesite devono essere protetti = Enabled | Tracciamento interdominio di Adobe Target = abilitato |
