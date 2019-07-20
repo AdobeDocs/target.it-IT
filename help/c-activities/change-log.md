@@ -20,6 +20,6 @@ Il registro delle modifiche tiene traccia delle modifiche apportate alle attivit
 
    ![Registro delle modifiche apportate alle attività](/help/c-activities/assets/change_log.png)
 
-   La data e l&#39;utente vengono elencati ogni volta che un&#39;attività viene creata, aggiornata, attivata o disattivata. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell&#39;attività. La colonna stato indica se l&#39;azione è completata, in sospeso o non riuscita.
+   La data e l'utente vengono elencati ogni volta che un'attività viene creata, aggiornata, attivata o disattivata. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell'attività. La colonna stato indica se l'azione è completata, in sospeso o non riuscita.
 
    Aggiorna la pagina per visualizzare le modifiche dello stato.
