@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Gli attributi di profilo sono parametri specifici di un visitatore. Questi attributi sono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività.
 
-Quando un visitatore sfoglia il tuo sito Web o quando il visitatore ritorna per un&#39;altra sessione, gli attributi del profilo salvati possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtro dei segmenti.
+Quando un visitatore sfoglia il tuo sito Web o quando il visitatore ritorna per un'altra sessione, gli attributi del profilo salvati possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtro dei segmenti.
 
 Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Script di profilo]**.
 
@@ -70,14 +70,14 @@ if (mbox.name == 'Track_Interest') {
 
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
-* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Corrispondenza del caso dei parametri e dei valori che riceverete durante l&#39;attività o il test.
+* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Corrispondenza del caso dei parametri e dei valori che riceverete durante l'attività o il test.
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l&#39;elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
+Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l'elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
 
-Ad esempio, se si passa il cursore su uno script di profilo nell&#39;Elenco script di profilo (Destinatari &gt; Script di profilo) e poi si fa clic sull&#39;icona Informazioni, si accede alla seguente scheda di informazioni sullo script di profilo.
+Ad esempio, se si passa il cursore su uno script di profilo nell'Elenco script di profilo (Destinatari &gt; Script di profilo) e poi si fa clic sull'icona Informazioni, si accede alla seguente scheda di informazioni sullo script di profilo.
 
 La scheda [!UICONTROL Informazioni script] contiene le seguenti informazioni: Nome, Stato, Tipo token, ID script, Sostituisci registro e Descrizione.
 
@@ -90,8 +90,8 @@ La scheda [!UICONTROL Utilizzo script] elenca le attività (e aree di lavoro) re
 >[!Note]
 >
 >La scheda Utilizzo script non visualizza le attività che fanno riferimento allo script di profilo selezionato nelle situazioni seguenti:
-> * L&#39;attività è nello stato Bozza.
-> * Il contenuto o l&#39;offerta utilizzato/a nell&#39;attività impiega variabili di script (o un&#39;offerta in linea all&#39;interno dell&#39;attività o un&#39;offerta nel catalogo Offerte).
+> * L'attività è nello stato Bozza.
+> * Il contenuto o l'offerta utilizzato/a nell'attività impiega variabili di script (o un'offerta in linea all'interno dell'attività o un'offerta nel catalogo Offerte).
 
 
 
@@ -236,9 +236,9 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
    Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** &gt; **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Implementazione]** &gt; **[!UICONTROL Genera token di autorizzazione]**.
 
-   Poi aggiungi questi due parametri all&#39;URL della tua pagina dopo il &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
+   Poi aggiungi questi due parametri all'URL della tua pagina dopo il "?": `mboxTrace=window&authorization=YOURTOKEN`.
 
-   In questo modo si ha qualche informazione in più rispetto al token di risposta, perché si ottiene un&#39;istantanea del profilo precedente all&#39;esecuzione e una successiva. Vengono inoltre visualizzati tutti i profili disponibili.
+   In questo modo si ha qualche informazione in più rispetto al token di risposta, perché si ottiene un'istantanea del profilo precedente all'esecuzione e una successiva. Vengono inoltre visualizzati tutti i profili disponibili.
 
    ![](assets/debug_profile_script_2.png)
 
@@ -334,7 +334,7 @@ Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operat
 
 ## Video di formazione: Script di profilo
 
-Questo video include informazioni sull&#39;utilizzo e sulla creazione degli script di profilo.
+Questo video include informazioni sull'utilizzo e sulla creazione degli script di profilo.
 
 * Cos’è uno script di profilo
 * Differenza tra script di profilo e parametro di profilo
