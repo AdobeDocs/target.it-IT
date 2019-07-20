@@ -187,9 +187,9 @@ Se si verificano problemi con gli host, prova i seguenti suggerimenti di risoluz
 
 * Aggiorna la pagina [!UICONTROL Host] nel browser.
 * Verifica che il codice della mbox sia corretto, incluso il riferimento a [!DNL mbox.js].
-* Prova a passare a una delle mbox sull&#39;host. È possibile che sia ancora stato eseguito il rendering in un browser per nessuna mbox dell’host.
+* Prova a passare a una delle mbox sull'host. È possibile che sia ancora stato eseguito il rendering in un browser per nessuna mbox dell’host.
 
-**Domini casuali o sconosciuti vengono visualizzati nell&#39;elenco[!UICONTROL Host].**
+**Domini casuali o sconosciuti vengono visualizzati nell'elenco[!UICONTROL Host].**
 
 Un dominio viene visualizzato in questo elenco se viene effettuata una chiamata a [!DNL Target] dal dominio. Spesso, è possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali. Se il dominio elencato non è tra quelli utilizzati dal team, è possibile fare clic su [!UICONTROL Elimina] per rimuoverlo.
 
@@ -206,9 +206,9 @@ Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Cons
 >[!NOTE]
 >Le attività Consigli sono disponibili come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di Target Premium.
 
-Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
+Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell'anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell'aggiornamento dell'elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
 
-Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell&#39;ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
+Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell'ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
 
 >[!NOTE]
 >Dopo aver modificato l’ambiente selezionato, fai clic su Cerca per aggiornare i risultati restituiti.
