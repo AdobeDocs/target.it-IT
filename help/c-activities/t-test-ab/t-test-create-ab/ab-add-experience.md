@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Aggiungi esperienza{#add-experience}
 
-Visual Experience Composer (Compositore esperienza visivo) fornisce un&#39;interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
+Visual Experience Composer (Compositore esperienza visivo) fornisce un'interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
 
 Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
@@ -24,7 +24,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
 
    >[!NOTE]
    >
-   >Se stai eseguendo il targeting di un&#39;esperienza per un pubblico, è necessario selezionare il pubblico prima di poter aggiungere un’esperienza. Viene visualizzato un messaggio per ricordarti di scegliere il pubblico.
+   >Se stai eseguendo il targeting di un'esperienza per un pubblico, è necessario selezionare il pubblico prima di poter aggiungere un’esperienza. Viene visualizzato un messaggio per ricordarti di scegliere il pubblico.
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 
@@ -32,7 +32,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
 
    Se hai creato una mbox sulla pagina utilizzando Target Classic (in precedenza Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
 
-   Per un elenco delle azioni che possono essere eseguite su un elemento nella pagina visualizzata per modificare l&#39;esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+   Per un elenco delle azioni che possono essere eseguite su un elemento nella pagina visualizzata per modificare l'esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 
    >[!NOTE]
@@ -66,7 +66,7 @@ Click the More (three vertical ellipses) icon on an experience in an A/B Test or
 
 For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**NOTA**: Quando assegnate un nome o rinominate un&#39;esperienza, i seguenti caratteri non sono consentiti:
+**NOTA**: Quando assegnate un nome o rinominate un'esperienza, i seguenti caratteri non sono consentiti:
 
 | Carattere | Descrizione |
 |--- |--- |
@@ -87,7 +87,7 @@ Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavor
 
 ![Opzione Duplica esperienza](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
-## Eliminare un&#39;esperienza
+## Eliminare un'esperienza
 
 Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui tre puntini di sospensione verticali &gt; **[!UICONTROL Duplica]**.
 
@@ -95,7 +95,7 @@ Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavor
 
 ## Video di formazione: Utilizzo del Compositore esperienza visivo
 
-Il video qui sotto fornisce informazioni sull&#39;utilizzo delle opzioni del Compositore esperienza visivo. (7:17)
+Il video qui sotto fornisce informazioni sull'utilizzo delle opzioni del Compositore esperienza visivo. (7:17)
 
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
