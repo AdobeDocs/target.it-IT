@@ -26,7 +26,7 @@ Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti spec
 
    Se hai numerose attività, puoi filtrare l’elenco selezionando [!UICONTROL Personalizzazione automatizzata] dall’elenco a discesa [!UICONTROL Tipo].
 
-1. (Facoltativo) Fai clic sull&#39;icona [!UICONTROL Scarica] per scaricare il riepilogo (ad esempio, il confronto tra il Controllo e il Traffico mirato) con suddivisione in base a tutte le metriche di successo disponibili.
+1. (Facoltativo) Fai clic sull'icona [!UICONTROL Scarica] per scaricare il riepilogo (ad esempio, il confronto tra il Controllo e il Traffico mirato) con suddivisione in base a tutte le metriche di successo disponibili.
 
 >[!NOTE]
 >
@@ -36,7 +36,7 @@ La funzione [!UICONTROL Personalizzazione automatizzata] fornisce i seguenti rap
 
 ## Rapporto a livello di attività {#section_6F72FC5C790B4492B3DCECBFFA971337}
 
-Il rapporto a [!UICONTROL livello di attività] consente di confrontare le prestazioni di aggregazione dell&#39;utilizzo di un algoritmo di [!UICONTROL Personalizzazione automatizzata] per il contenuto fornito in modo casuale (controllo).
+Il rapporto a [!UICONTROL livello di attività] consente di confrontare le prestazioni di aggregazione dell'utilizzo di un algoritmo di [!UICONTROL Personalizzazione automatizzata] per il contenuto fornito in modo casuale (controllo).
 
 ![](assets/box_plot_ap.jpg)
 
@@ -44,9 +44,9 @@ Si applicano comunque le regole standard di interpretazione dei risultati per il
 
 ## Rapporto a livello di offerta {#section_CAA6409879E349C6906E2BE8156D87A1}
 
-Il rapporto a [!UICONTROL livello di offerta] per l’esperienza Foresta casuale confronta le prestazioni di ogni offerta applicata dall’algoritmo alla stessa offerta fornita casualmente (controllo). Pertanto, non devi confrontare le offerte tra loro in questa visualizzazione. Nell&#39;esempio che segue, si può affermare che l&#39;offerta D mostra un incremento del 12,43% quando viene fornita in base alla logica dell’algoritmo (Foresta casuale) invece che casualmente (controllo).
+Il rapporto a [!UICONTROL livello di offerta] per l’esperienza Foresta casuale confronta le prestazioni di ogni offerta applicata dall’algoritmo alla stessa offerta fornita casualmente (controllo). Pertanto, non devi confrontare le offerte tra loro in questa visualizzazione. Nell'esempio che segue, si può affermare che l'offerta D mostra un incremento del 12,43% quando viene fornita in base alla logica dell’algoritmo (Foresta casuale) invece che casualmente (controllo).
 
-Fai clic sull’algoritmo dell&#39;esperienza (Foresta casuale o Controllo) per visualizzare il rapporto a livello di offerta.
+Fai clic sull’algoritmo dell'esperienza (Foresta casuale o Controllo) per visualizzare il rapporto a livello di offerta.
 
 ![](assets/ap_OfferLevelRpt.png)
 
