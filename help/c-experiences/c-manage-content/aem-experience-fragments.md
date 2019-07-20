@@ -27,9 +27,9 @@ Informazioni sull’utilizzo dei frammenti di esperienza creati in Adobe Experie
 
 ## Panoramica {#section_95A91830530F493B81C5C9CDB9B783EA}
 
-I frammenti di esperienza creati in AEM possono essere utilizzati nelle attività di Target per combinare la facilità d&#39;uso e la potenza di AEM con le potenti capacità di intelligenza automatizzata (AI) ed apprendimento automatico (ML) di Target per testare e personalizzare le esperienze su grande scala.
+I frammenti di esperienza creati in AEM possono essere utilizzati nelle attività di Target per combinare la facilità d'uso e la potenza di AEM con le potenti capacità di intelligenza automatizzata (AI) ed apprendimento automatico (ML) di Target per testare e personalizzare le esperienze su grande scala.
 
-AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un&#39;unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo: AEM regola automaticamente ogni esperienza utilizzando il contenuto.
+AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un'unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo: AEM regola automaticamente ogni esperienza utilizzando il contenuto.
 
 Target consente di fornire esperienze personalizzate in scala su una combinazione di approcci di apprendimento automatico basati sulle regole e guidati da intelligenze automatizzate che incorporano variabili comportamentali, contestuali e offline.  Con Target puoi facilmente impostare ed eseguire attività di test A/B e multivariati (MVT) per determinare le offerte, i contenuti e le esperienze migliori.
 
@@ -37,12 +37,12 @@ La funzione Frammenti esperienza rappresenta un enorme passo avanti per la colla
 
 ## Requisiti {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-Devi essere provvisto della funzionalità frammenti di esperienza all&#39;interno di Target. Inoltre, devi utilizzare AEM 6.3 con il service pack appropriato o AEM 6.4 (o versione successiva). Il rappresentante del tuo account può aiutarti a rispettare i requisiti per utilizzare questa funzione:
+Devi essere provvisto della funzionalità frammenti di esperienza all'interno di Target. Inoltre, devi utilizzare AEM 6.3 con il service pack appropriato o AEM 6.4 (o versione successiva). Il rappresentante del tuo account può aiutarti a rispettare i requisiti per utilizzare questa funzione:
 
 * Adobe Experience Manager 6.4 (o successive).
 * Adobe Experience Manager 6.3 SP2 (o successive).
 * Account Adobe Target Standard o Adobe Target Premium.
-* Contatta il Servizio clienti Adobe Target per abilitare l&#39;integrazione e per ottenere i dettagli di autenticazione.
+* Contatta il Servizio clienti Adobe Target per abilitare l'integrazione e per ottenere i dettagli di autenticazione.
 
 ## Creazione e configurazione di frammenti di esperienza in AEM {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
 
@@ -65,7 +65,7 @@ I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consul
 ### Passaggio 3: configurare AEM per condividere il frammento di esperienza con Target
 
 1. Dall’interno di AEM, seleziona il frammento di esperienza desiderato o la cartella che lo contiene, quindi fai clic su [!UICONTROL Proprietà].
-2. Fa clic sulla scheda [!UICONTROL Servizi cloud], poi, dall&#39;elenco a discesa [!UICONTROL Configurazione del servizio cloud], seleziona [!UICONTROL Adobe Target].
+2. Fa clic sulla scheda [!UICONTROL Servizi cloud], poi, dall'elenco a discesa [!UICONTROL Configurazione del servizio cloud], seleziona [!UICONTROL Adobe Target].
 
    >[!NOTE]
    >
@@ -77,14 +77,14 @@ I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consul
 
 **AEM 6.3:**
 
-1. dall&#39;interno di AEM, seleziona il frammento di esperienza desiderato, fai clic sulla scheda [!UICONTROL Pubblica], quindi fai clic sul pulsante [!UICONTROL Pubblica].
-2. Dall&#39;interno di AEM, seleziona il frammento di esperienza desiderato, fai clic su [!UICONTROL Esporta in Adobe Target], quindi fai clic su [!UICONTROL OK].
+1. dall'interno di AEM, seleziona il frammento di esperienza desiderato, fai clic sulla scheda [!UICONTROL Pubblica], quindi fai clic sul pulsante [!UICONTROL Pubblica].
+2. Dall'interno di AEM, seleziona il frammento di esperienza desiderato, fai clic su [!UICONTROL Esporta in Adobe Target], quindi fai clic su [!UICONTROL OK].
 
    ![](assets/experience_fragment_export_to_target.png)
 
 **AEM 6.4:**
 
-1. dall&#39;interno di AEM, seleziona il frammento di esperienza desiderato e fai clic su [!UICONTROL Esporta in Adobe Target].
+1. dall'interno di AEM, seleziona il frammento di esperienza desiderato e fai clic su [!UICONTROL Esporta in Adobe Target].
 
    ![](assets/experience_fragment_export_to_target.png)
 
