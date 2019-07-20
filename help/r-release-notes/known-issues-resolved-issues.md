@@ -29,13 +29,13 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
 
-* In alcune condizioni, un numero limitato di clienti ha segnalato più livelli di varianza nella distribuzione del traffico quando si utilizza un&#39;offerta di reindirizzamento nelle attività configurate con Analytics per Target (A 4 T). Gli ingegneri Adobe stanno attualmente lavorando su questo problema.
-* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Gli aggiornamenti sono pianificati all&#39;implementazione at. js per garantire che questa condizione race sia evitata. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* In alcune condizioni, un numero limitato di clienti ha segnalato più livelli di varianza nella distribuzione del traffico quando si utilizza un'offerta di reindirizzamento nelle attività configurate con Analytics per Target (A 4 T). Gli ingegneri Adobe stanno attualmente lavorando su questo problema.
+* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Gli aggiornamenti sono pianificati all'implementazione at. js per garantire che questa condizione race sia evitata. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
-### Il rapporto grafico per un&#39;attività di Target automatico non viene eseguito correttamente quando si utilizza un&#39;esperienza personalizzata come controllo
+### Il rapporto grafico per un'attività di Target automatico non viene eseguito correttamente quando si utilizza un'esperienza personalizzata come controllo
 
-Il rapporto grafico per un&#39;attività di Target automatico non viene eseguito correttamente per le modalità &quot;differenziale&quot; (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione potrebbe verificarsi durante la fase iniziale di un&#39;attività se l&#39;esperienza di controllo è impostata su personalizzata. Per le altre modalità (Controlli media e Targeting giornaliero, Controllo giornaliero e Destinazione e Visite) funziona correttamente. Non appena sono presenti alcuni dati (visite non-zero), il rapporto viene riprodotto come previsto.
+Il rapporto grafico per un'attività di Target automatico non viene eseguito correttamente per le modalità "differenziale" (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione potrebbe verificarsi durante la fase iniziale di un'attività se l'esperienza di controllo è impostata su personalizzata. Per le altre modalità (Controlli media e Targeting giornaliero, Controllo giornaliero e Destinazione e Visite) funziona correttamente. Non appena sono presenti alcuni dati (visite non-zero), il rapporto viene riprodotto come previsto.
 
 ### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo{#cancel}
 
@@ -60,7 +60,7 @@ Le offerte di codice create dall’interfaccia utente di Target nella libreria O
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
 * L’indice del feed di Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
-* L’errore &quot;error.restapi.algorithmProfileAttributeInvalid&quot; relativo alla funzionalità Consigli si verifica quando specifici attributi di profilo vengono utilizzati come chiave di criterio.
+* L’errore "error.restapi.algorithmProfileAttributeInvalid" relativo alla funzionalità Consigli si verifica quando specifici attributi di profilo vengono utilizzati come chiave di criterio.
 * Quando l’opzione Promozione dopo viene utilizzata in un’attività Consigli, i filtri di inclusione dei criteri non vengono applicati ai consigli di backup.
 * L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
 
@@ -156,35 +156,35 @@ Corretto a novembre 2018.
 
 ### at.js
 
-Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell&#39;attività.
+Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell'attività.
 
 Risolto con il rilascio della versione 1.6.2 di at.js.
 
 ### Attività, aree di lavoro ed eliminare API attività
 
-Le attività nell&#39;area di lavoro predefinita eliminate tramite API continuano a essere visualizzate nell&#39;interfaccia utente di Target. Come soluzione alternativa, elimina tutte le attività nell&#39;area di lavoro predefinita utilizzando l&#39;interfaccia utente di Target. (TGT-31315)
+Le attività nell'area di lavoro predefinita eliminate tramite API continuano a essere visualizzate nell'interfaccia utente di Target. Come soluzione alternativa, elimina tutte le attività nell'area di lavoro predefinita utilizzando l'interfaccia utente di Target. (TGT-31315)
 
 Risolto il 25 ottobre 2018.
 
 ### Rapporti a livello di offerta di Personalizzazione automatizzata (AP)
 
-Quando si fa clic sull&#39;esperienza con targeting nel rapporto di un&#39;attività di Personalizzazione automatizzata (AP) per visualizzare i rapporti a livello di offerta, al momento vengono visualizzati risultati vuoti, un messaggio di errore o un&#39;icona in rotazione. (TNT-30695)
+Quando si fa clic sull'esperienza con targeting nel rapporto di un'attività di Personalizzazione automatizzata (AP) per visualizzare i rapporti a livello di offerta, al momento vengono visualizzati risultati vuoti, un messaggio di errore o un'icona in rotazione. (TNT-30695)
 
 Risolto il 27 settembre 2018.
 
 ### Editor di codice
 
-Se si ricarica il Compositore esperienza visivo al passaggio 1 del flusso di lavoro guidato in tre passaggi mentre si lavora con l&#39;editor di codice in Firefox e Internet Explorer, il rendering della scheda Modifiche non viene eseguito correttamente; tuttavia, la funzionalità del Compositore esperienza visivo non viene influenzata. (TGT-28730)
+Se si ricarica il Compositore esperienza visivo al passaggio 1 del flusso di lavoro guidato in tre passaggi mentre si lavora con l'editor di codice in Firefox e Internet Explorer, il rendering della scheda Modifiche non viene eseguito correttamente; tuttavia, la funzionalità del Compositore esperienza visivo non viene influenzata. (TGT-28730)
 
 Ciò è stato corretto nella versione 18.9.1.
 
 ### Attività Consigli che utilizza una regola di promozione attributi
 
-Quando si modifica o si copia un&#39;attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l&#39;errore “Campo mancante” quando si fa clic su Salva.
+Quando si modifica o si copia un'attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l'errore “Campo mancante” quando si fa clic su Salva.
 
 Ciò è stato corretto nella versione 17.8.1.
 
-### Stato dell&#39;indice dei feed dei consigli
+### Stato dell'indice dei feed dei consigli
 
 L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
 
@@ -198,7 +198,7 @@ Ciò è stato corretto nella versione 18.4.1 in modo che venga visualizzato “D
 
 ### Attività Auto-Target e tipi di pubblico per rapporti
 
-Quando viene modificato il nome di un pubblico per la creazione di rapporti utilizzato in un&#39;attività Auto-Target, gli aggiornamenti successivi da Target per quell&#39;attività potrebbero non essere inclusi e comparirà un messaggio di errore.
+Quando viene modificato il nome di un pubblico per la creazione di rapporti utilizzato in un'attività Auto-Target, gli aggiornamenti successivi da Target per quell'attività potrebbero non essere inclusi e comparirà un messaggio di errore.
 
 Questo problema è stato risolto con la versione 18.5.1 (22 maggio 2018).
 
@@ -236,7 +236,7 @@ Questo problema è stato risolto il 29 giugno 2017
 
 In relazione all’utilizzo del Compositore esperienza basato su moduli, sono stati segnalati i seguenti problemi:
 
-* Se utilizzi il Compositore esperienza basato su moduli con una mbox diversa da quella globale creata automaticamente (target-global-mbox) e selezioni una metrica di coinvolgimento come metrica di successo, potrai visualizzare gli incrementi di metrica solo sulle pagine che hanno la mbox utilizzata nell&#39;attività. Ad esempio, se la mbox è homepage\_mbox, la metrica Pagine per visita corrisponde al numero di hit su homepage\_mbox durante quella visita. (TGT-22789)
+* Se utilizzi il Compositore esperienza basato su moduli con una mbox diversa da quella globale creata automaticamente (target-global-mbox) e selezioni una metrica di coinvolgimento come metrica di successo, potrai visualizzare gli incrementi di metrica solo sulle pagine che hanno la mbox utilizzata nell'attività. Ad esempio, se la mbox è homepage\_mbox, la metrica Pagine per visita corrisponde al numero di hit su homepage\_mbox durante quella visita. (TGT-22789)
 * Se si elimina un’esperienza in un’attività Targeting esperienza (XT), viene generata un’eccezione JavaScript quando si utilizza il Compositore esperienza basato su moduli al passaggio 1 del processo. (TGT-24366)
 
 Il primo problema è stato risolto nella versione 17.3.1 di Target (marzo 2017).
