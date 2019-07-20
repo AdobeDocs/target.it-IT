@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Compositore esperienza basato su moduli{#form-based-experience-composer}
 
-Il Composer esperienza basato su modulo è un&#39;interfaccia non visiva e un&#39;interfaccia di creazione delle offerte utile per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
+Il Composer esperienza basato su modulo è un'interfaccia non visiva e un'interfaccia di creazione delle offerte utile per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l'utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
 
 Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i test di verifica e progettazione. Se scegli più criteri o progettazioni, Target genera automaticamente le esperienze.
 
@@ -34,7 +34,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    Quando fai clic nella casella Seleziona posizione, viene visualizzato un elenco di posizioni disponibili. Seleziona una di queste posizioni. Per scegliere la posizione globale fornita tramite target.js, seleziona “target-global-mbox”.
 
-   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l&#39;ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell’elenco.
+   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l'ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell’elenco.
 1. Fai clic su **[!UICONTROL Aggiungi perfezionamenti pubblico]**, quindi scegli uno o più tipi di [pubblico](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) per questa attività.
 
    ![](assets/location_refinements_2.png)
@@ -50,11 +50,11 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    **Modifica Offerte immagine:** scegli un’immagine salvata nella libreria di contenuti di Target.
 
-   È inoltre possibile aggiungere un collegamento a un&#39;immagine (click-through, destinazione e così via.)
+   È inoltre possibile aggiungere un collegamento a un'immagine (click-through, destinazione e così via.)
 
    1. Fai clic su [!UICONTROL Cambia offerta immagine].
-   1. Seleziona l&#39;immagine desiderata, quindi fai clic su [!UICONTROL Modifica collegamenti].
-   1. Specifica l&#39;URL o la pagina desiderata nel sito, quindi fai clic su [!UICONTROL Aggiorna].
+   1. Seleziona l'immagine desiderata, quindi fai clic su [!UICONTROL Modifica collegamenti].
+   1. Specifica l'URL o la pagina desiderata nel sito, quindi fai clic su [!UICONTROL Aggiorna].
    **Modifica offerta JSON:** scegli un’offerta JSON.
 
    **Modifica frammento esperienza:** scegli un frammento esperienza.
@@ -77,7 +77,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
    1. Digita un nome per l’offerta.
    1. Digita o incolla il codice JSON nella casella Codice.
    1. Fai clic su [!UICONTROL Salva].
-   Per un&#39;attività Consigli, l&#39;elenco a discesa del contenuto fornisce l&#39;opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Per un'attività Consigli, l'elenco a discesa del contenuto fornisce l'opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
