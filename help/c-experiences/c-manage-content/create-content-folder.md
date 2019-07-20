@@ -26,13 +26,13 @@ Crea una cartella per gli elementi nella libreria delle Offerte.
    | Titolo (si applica solo alle offerte di immagini) | Assegna un nome descrittivo per la cartella. Ad esempio, è possibile specificare il tipo di contenuto che conterrà.<br>Il nome non può contenere i seguenti caratteri:<br>Segno percentuale `%`<br>Barra `/`<br>Barra rovesciata `\`<br>Due punti `:`<br>Asterisco `*`<br>Punto interrogativo `?`<br>Virgolette `"`<br>Parentesi quadra aperta `[`<br>Parentesi quadra chiusa `]`<br>Segno più: `+`<br>Barra verticale: `|`<br>Punto: `.`<br>Cancelletto: `#`<br>Parentesi graffa aperta: `{`<br>Parentesi graffa chiusa `}`<br>Circonflesso `^`<br>Punto e virgola `;`<br>Utilizza un trattino (`- `) al posto di questi caratteri. |
    | Nome (si applica al codice e alle offerte di immagini) | Modifica il nome, se desiderato. |
    | Privato (si applica solo alle offerte di immagini) | Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto. |
-   | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull&#39;icona di visualizzazione scheda o quella di visualizzazione elenco nell&#39;angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
+   | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull'icona di visualizzazione scheda o quella di visualizzazione elenco nell'angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
 ## Opzioni Offerte codice
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
+Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l'icona appropriata.
 
 ### Informazioni ![](assets/icon_info.png)
 
@@ -48,9 +48,9 @@ Copia la cartella.
 
 ### Sposta ![](assets/icon_move_folder.png)
 
-Fai clic sull&#39;icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull&#39;icona Rilascia.
+Fai clic sull'icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull'icona Rilascia.
 
-Ad esempio, è possibile spostare una o più cartelle in un&#39;altra per creare sottocartelle.
+Ad esempio, è possibile spostare una o più cartelle in un'altra per creare sottocartelle.
 
 Fai clic su Cancella selezione per deselezionare le cartelle selezionate.
 
@@ -60,7 +60,7 @@ Elimina la cartella.
 
 ## Opzioni Offerte immagine
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata:
+Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l'icona appropriata:
 
 ### Seleziona ![](assets/icon_check.png)
 
