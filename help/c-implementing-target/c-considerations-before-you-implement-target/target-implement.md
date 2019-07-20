@@ -31,38 +31,38 @@ Nella tabella seguente vengono illustrate le differenze tra le due librerie:
 
 ## Impatto di at.js e mbox.js sul tempo di caricamento della pagina {#section_16630CD0FF0A498EB596A51381366A5A}
 
-Molti clienti e consulenti vogliono conoscere l&#39;impatto di [!DNL at.js] e di [!DNL mbox.js] sul tempo di caricamento delle pagine, soprattutto nel contesto di nuovi utenti rispetto a utenti di ritorno. Purtroppo, è difficile misurare e offrire numeri concreti per quanto riguarda l&#39;influenza di [!DNL at.js] o [!DNL mbox.js] sul tempo di caricamento della pagina, a causa delle implementazioni del singolo cliente.
+Molti clienti e consulenti vogliono conoscere l'impatto di [!DNL at.js] e di [!DNL mbox.js] sul tempo di caricamento delle pagine, soprattutto nel contesto di nuovi utenti rispetto a utenti di ritorno. Purtroppo, è difficile misurare e offrire numeri concreti per quanto riguarda l'influenza di [!DNL at.js] o [!DNL mbox.js] sul tempo di caricamento della pagina, a causa delle implementazioni del singolo cliente.
 
-Tuttavia, se sulla pagina è presente l&#39;API dei visitatori, possiamo capire meglio in che modo [!DNL at.js] e [!DNL mbox.js] influenzano il tempo di caricamento delle pagine.
+Tuttavia, se sulla pagina è presente l'API dei visitatori, possiamo capire meglio in che modo [!DNL at.js] e [!DNL mbox.js] influenzano il tempo di caricamento delle pagine.
 
 >[!NOTE]
 >
->L’API dei visitatori e [!DNL at.js] o [!DNL mbox.js] hanno un impatto sul tempo di caricamento della pagina solo quando si utilizza la mbox globale (a causa della tecnica di celamento del corpo). Le mbox regionali non sono influenzate dall&#39;integrazione delle API dei visitatori.
+>L’API dei visitatori e [!DNL at.js] o [!DNL mbox.js] hanno un impatto sul tempo di caricamento della pagina solo quando si utilizza la mbox globale (a causa della tecnica di celamento del corpo). Le mbox regionali non sono influenzate dall'integrazione delle API dei visitatori.
 
 Le sezioni seguenti illustrano la sequenza di azioni per i visitatori nuovi e per i visitatori di ritorno:
 
 ### Visitatori nuovi
 
-1. L&#39;API dei visitatori viene caricata, analizzata ed eseguita.
+1. L'API dei visitatori viene caricata, analizzata ed eseguita.
 1. at.js / mbox.js è caricato, analizzato ed eseguito.
 1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
 
-   * Crea un&#39;istanza dell&#39;oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
-   * Poiché si tratta di un nuovo visitatore, l&#39;API dei visitatori genera una richiesta cross-domain a demdex.net.
-   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Crea un'istanza dell'oggetto Visitatore.
+   * La libreria di Target cerca di recuperare i dati dell'ID visitatore di Experience Cloud.
+   * Poiché si tratta di un nuovo visitatore, l'API dei visitatori genera una richiesta cross-domain a demdex.net.
+   * Dopo il recupero dei dati dell'ID visitatore di Experience Cloud, viene generata una richiesta a Target.
 
 ### Visitatori di ritorno
 
-1. L&#39;API dei visitatori viene caricata, analizzata ed eseguita.
+1. L'API dei visitatori viene caricata, analizzata ed eseguita.
 1. at.js / mbox.js è caricato, analizzato ed eseguito.
 1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
 
-   * Crea un&#39;istanza dell&#39;oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
-   * L&#39;API dei visitatori recupera i dati dai cookie.
-   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Crea un'istanza dell'oggetto Visitatore.
+   * La libreria di Target cerca di recuperare i dati dell'ID visitatore di Experience Cloud.
+   * L'API dei visitatori recupera i dati dai cookie.
+   * Dopo il recupero dei dati dell'ID visitatore di Experience Cloud, viene generata una richiesta a Target.
 
 >[!NOTE]
 >
->Per i nuovi visitatori, quando è presente l&#39;API dei visitatori, Target deve connettersi più volte per assicurare che la richiesta includa i dati dell&#39;ID visitatore di Experience Cloud. Per i visitatori di ritorno, Target si connette solo per recuperare il contenuto personalizzato.
+>Per i nuovi visitatori, quando è presente l'API dei visitatori, Target deve connettersi più volte per assicurare che la richiesta includa i dati dell'ID visitatore di Experience Cloud. Per i visitatori di ritorno, Target si connette solo per recuperare il contenuto personalizzato.
