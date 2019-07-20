@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Funzioni di mbox.js{#mbox-js-functions}
 
-Elenco di funzioni mbox.js da utilizzare per l&#39;implementazione con mbox.js.
+Elenco di funzioni mbox.js da utilizzare per l'implementazione con mbox.js.
 
 >[!NOTE]
 >
@@ -24,7 +24,7 @@ Elenco di funzioni mbox.js da utilizzare per l&#39;implementazione con mbox.js.
 |--- |--- |
 | `mbox.getName()` |  |
 | `mbox.getURL()` |  |
-| `mbox.getDiv()` | Restituisce il div associato alla mbox (con il contenuto predefinito o un&#39;offerta) |
+| `mbox.getDiv()` | Restituisce il div associato alla mbox (con il contenuto predefinito o un'offerta) |
 | `mbox.getParameters()` | Matrice di parametri con due campi, nome e valore |
 | `mbox.setOnError()` | Esempio:<br>`mbox.setOnError(function() { alert(this.getName() +" had error"});` |
 | `mbox.setMessage(message)` | È possibile visualizzare il messaggio nella finestra di debug. |
@@ -32,7 +32,7 @@ Elenco di funzioni mbox.js da utilizzare per l&#39;implementazione con mbox.js.
 | `mboxCurrent.cancelTimeout()` |  |
 | `mboxCurrent.finalize()` |  |
 | `mboxCurrent.getDefaultDiv()` |  |
-| `mboxCurrent.getDiv()` | Restituisce il div associato alla mbox (con il contenuto predefinito o un&#39;offerta) |
+| `mboxCurrent.getDiv()` | Restituisce il div associato alla mbox (con il contenuto predefinito o un'offerta) |
 | `mboxCurrent.getEventTimes()` |  |
 | `mboxCurrent.getFetcher()` |  |
 | `mboxCurrent.getId()` |  |
@@ -55,14 +55,14 @@ Elenco di funzioni mbox.js da utilizzare per l&#39;implementazione con mbox.js.
 | `mboxCurrent.setOnLoad()` | Esempio:<br>`mboxCurrent.setOnLoad(function(){alert(this.getName()+" loaded")});` |
 | `mboxCurrent.show()` |  |
 | `mboxCurrent.showContent()` |  |
-| `mboxFactoryDefault.addOnLoad(action)` | L&#39;azione viene chiamata quando la pagina viene caricata. |
+| `mboxFactoryDefault.addOnLoad(action)` | L'azione viene chiamata quando la pagina viene caricata. |
 | `mboxFactoryDefault.getMboxes().each()` | Esempio:<br>`mboxFactoryDefault.getMboxes().each(function() { alert(mbox.getName()) };` |
 | `mboxFactoryDefault.getMboxes().length()` |  |
 | `mboxFactoryDefault.getPageId()` |  |
 | `mboxFactoryDefault.getPCId().getId()` |  |
 | `mboxFactoryDefault.getSessionId().getId()` |  |
-| `mboxFactories.get('default').getSessionId()​.forceId("1276011116668");` |  |
-| `mboxFactories.get('default').getPCId()​.forceId("1276011116668");` |  |
+| `mboxFactories.get('default').getSessionId()&#x200B;.forceId("1276011116668");` |  |
+| `mboxFactories.get('default').getPCId()&#x200B;.forceId("1276011116668");` |  |
 | `mboxFactoryDefault.create()` |  |
 | `mboxFactoryDefault.disable()` |  |
 | `mboxFactoryDefault.enable()` |  |
@@ -80,5 +80,5 @@ Elenco di funzioni mbox.js da utilizzare per l&#39;implementazione con mbox.js.
 | `mboxFactoryDefault.isSupported()` |  |
 | `mboxFactoryDefault.limitTraffic()` |  |
 | `mboxFactoryDefault.update()` |  |
-| `mboxFactoryDefault.getCookieManager()​.getCookie("name")//!= null) {` |  |
-| `mboxFactoryDefault.getCookieManager()​.setCookie(_name,_value, _duration);` |  |
+| `mboxFactoryDefault.getCookieManager()&#x200B;.getCookie("name")//!= null) {` |  |
+| `mboxFactoryDefault.getCookieManager()&#x200B;.setCookie(_name,_value, _duration);` |  |
