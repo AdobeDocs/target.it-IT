@@ -40,7 +40,7 @@ Tutte le metriche di Analytics, incluse quelle calcolate, sono disponibili in Ta
 
 Ogni metrica è inclusa, comprese quelle personalizzate o calcolate che sono integrate in Analytics.
 
-Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
+Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un'ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
 Considerazioni importanti per l’utilizzo di A4T:
 
@@ -101,9 +101,9 @@ La figura seguente illustra la [!UICONTROL Vista tabella] di un rapporto A4T:
 
 Per visualizzare il rapporto in [!DNL Analytics] anziché in [!DNL Target], fai clic su **[!UICONTROL Visualizza in Analytics]** nella parte superiore del rapporto.
 
-## Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi {#section_3438E6E77A464424B717A4FD333B84B2}
+## Analytics &amp; Target: esercitazione sulle best practice per l'analisi {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Apri l&#39;esercitazione [Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
+Apri l'esercitazione [Analytics &amp; Target: esercitazione sulle best practice per l'analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
 
 ## Video di formazione:
 
@@ -111,7 +111,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Reporting di Analytics for Target (A4T) (4:32)
 
-Questo video spiega come usare Adobe Analytics come origine per la generazione di rapporti in Adobe Target per l&#39;analisi del tuo programma di ottimizzazione.
+Questo video spiega come usare Adobe Analytics come origine per la generazione di rapporti in Adobe Target per l'analisi del tuo programma di ottimizzazione.
 
 * Cosa è A4T e perché utilizzarlo
 * Come funziona A4T
@@ -123,8 +123,8 @@ Questo video spiega come usare Adobe Analytics come origine per la generazione d
 
 Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
-* Configurare e convalidare il funzionamento dell&#39;integrazione
-* Funzionamento dell&#39;integrazione
+* Configurare e convalidare il funzionamento dell'integrazione
+* Funzionamento dell'integrazione
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
