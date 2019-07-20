@@ -26,13 +26,13 @@ Questa sezione contiene le seguenti informazioni:
 
 1. Fai clic su **[!UICONTROL Offerte]** &gt; **[!UICONTROL Offerte immagine]** per accedere alla [!UICONTROL libreria delle risorse].
 
-   Per visualizzare le risorse in un formato scheda, fai clic sull&#39;icona [!UICONTROL Vista scheda] nell&#39;angolo superiore destro.
+   Per visualizzare le risorse in un formato scheda, fai clic sull'icona [!UICONTROL Vista scheda] nell'angolo superiore destro.
 
    Oppure
 
-   Per visualizzare le risorse in un formato elenco, fai clic sull&#39;icona [!UICONTROL Vista elenco] nell&#39;angolo superiore destro.
+   Per visualizzare le risorse in un formato elenco, fai clic sull'icona [!UICONTROL Vista elenco] nell'angolo superiore destro.
 
-1. Per visualizzare la casella di ricerca, fai clic sull&#39;icona **[!UICONTROL Solo contenuto]** nell&#39;angolo superiore sinistro.
+1. Per visualizzare la casella di ricerca, fai clic sull'icona **[!UICONTROL Solo contenuto]** nell'angolo superiore sinistro.
 
    ![](assets/search_assets.png)
 
@@ -40,18 +40,18 @@ Questa sezione contiene le seguenti informazioni:
 
 ## Salvataggio di una raccolta avanzata {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
-Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l&#39;esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
+Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l'esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
 
 1. Fai clic su **[!UICONTROL Offerte]** &gt; **[!UICONTROL Offerte immagine]** per accedere alla [!UICONTROL libreria delle risorse].
 
    ![](assets/content.png)
 
-1. Per visualizzare il pannello **[!UICONTROL Filtri e opzioni]** nella barra sinistra, fai clic sull&#39;icona [!UICONTROL Solo contenuto] nell&#39;angolo superiore sinistro.
-1. Per visualizzare la finestra di dialogo **[!UICONTROL Seleziona percorso]**, fai clic sull&#39;icona [!UICONTROL Sfoglia].
+1. Per visualizzare il pannello **[!UICONTROL Filtri e opzioni]** nella barra sinistra, fai clic sull'icona [!UICONTROL Solo contenuto] nell'angolo superiore sinistro.
+1. Per visualizzare la finestra di dialogo **[!UICONTROL Seleziona percorso]**, fai clic sull'icona [!UICONTROL Sfoglia].
 
    ![](assets/browse_folders.png)
 
-1. Individua e seleziona la cartella su cui desideri basare la raccolta avanzata, quindi fai clic sull&#39;icona **[!UICONTROL Conferma]**.
+1. Individua e seleziona la cartella su cui desideri basare la raccolta avanzata, quindi fai clic sull'icona **[!UICONTROL Conferma]**.
 
    ![](assets/browse_folders2.png)
 
@@ -60,10 +60,10 @@ Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare temp
 
    ![](assets/save_smart_collection_options.png)
 
-1. Specifica un nome per la raccolta avanzata. Seleziona la casella di controllo **[!UICONTROL Pubblico]** se desideri garantire l&#39;accesso a questa raccolta avanzata a tutti gli utenti nel tuo account di [!DNL Target], quindi fai clic su **[!UICONTROL Salva]**.
+1. Specifica un nome per la raccolta avanzata. Seleziona la casella di controllo **[!UICONTROL Pubblico]** se desideri garantire l'accesso a questa raccolta avanzata a tutti gli utenti nel tuo account di [!DNL Target], quindi fai clic su **[!UICONTROL Salva]**.
 
-   La raccolta avanzata viene aggiunta all&#39;elenco delle ricerche salvate per un utilizzo futuro:
+   La raccolta avanzata viene aggiunta all'elenco delle ricerche salvate per un utilizzo futuro:
 
    ![](assets/saved_smart_collection.png)
 
-Puoi modificare una raccolta avanzata salvata selezionandola dall&#39;elenco a discesa [!UICONTROL Ricerche salvate], aprendola e facendo clic su [!UICONTROL Modifica raccolta avanzata].
+Puoi modificare una raccolta avanzata salvata selezionandola dall'elenco a discesa [!UICONTROL Ricerche salvate], aprendola e facendo clic su [!UICONTROL Modifica raccolta avanzata].
