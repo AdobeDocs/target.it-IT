@@ -33,7 +33,7 @@ Sono disponibili le seguenti opzioni:
 
 #### Testo/HTML {#edit-text-html}
 
-Modifica il codice HTML per l&#39;elemento, ad esempio il testo per un&#39;area di testo, un pulsante o collegamento.
+Modifica il codice HTML per l'elemento, ad esempio il testo per un'area di testo, un pulsante o collegamento.
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
@@ -76,17 +76,17 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
 * **Informazioni di base**
 
-   Cambiate il colore di sfondo e l&#39;immagine.
+   Cambiate il colore di sfondo e l'immagine.
 
    * Colore (specifica il codice del colore o utilizza il selettore del colore)
-   * Immagine (seleziona un&#39;immagine dal selettore immagini)
+   * Immagine (seleziona un'immagine dal selettore immagini)
    * Origine immagine (specificate un URL esterno)
    * Allegato
-      * Fate clic sull&#39;elenco a discesa superiore per selezionare scorrimento, fisso o locale
-      * Fate clic sull&#39;elenco a discesa inferiore per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round
+      * Fate clic sull'elenco a discesa superiore per selezionare scorrimento, fisso o locale
+      * Fate clic sull'elenco a discesa inferiore per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round
    * Clip
-      * Fate clic sull&#39;elenco a discesa superiore per selezionare il bordo, la casella di spaziatura, la casella di contenuto o il testo.
-      * Fate clic sull&#39;elenco a discesa inferiore per selezionare audio o audio automatico
+      * Fate clic sull'elenco a discesa superiore per selezionare il bordo, la casella di spaziatura, la casella di contenuto o il testo.
+      * Fate clic sull'elenco a discesa inferiore per selezionare audio o audio automatico
 
 * **Composizione tipografica**
 
@@ -141,7 +141,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
 * **Posizione**
 
-   Sposta l’elemento selezionato dalla posizione corrente. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Sposta l’elemento selezionato dalla posizione corrente. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -287,7 +287,7 @@ Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
 **Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
-Le dimensioni di un&#39;offerta HTML non possono superare i 256 KB.
+Le dimensioni di un'offerta HTML non possono superare i 256 KB.
 
 #### Consiglio
 
@@ -325,7 +325,7 @@ Consnete di nascondere l’elemento. Lo spazio vuoto viene conservato, ma il con
 
 #### Rimuovi
 
-Rimuovi l’elemento. Lo spazio vuoto dietro l&#39;immagine viene rimosso e lo spazio in cui l&#39;elemento si trovava viene compresso.
+Rimuovi l’elemento. Lo spazio vuoto dietro l'immagine viene rimosso e lo spazio in cui l'elemento si trovava viene compresso.
 
 **Nota:** gli elementi di una mbox classica (una mbox creata in una campagna di Target Classic) non possono essere rimossi con questa opzione.
 
