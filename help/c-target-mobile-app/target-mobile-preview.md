@@ -19,24 +19,24 @@ Il collegamento di anteprima su dispositivi mobili ti permette di verificare il 
 
 >[!NOTE]
 >
->Questa funzione sarà attivata nell’interfaccia utente per tutti i clienti dopo il 12 ottobre 2017. La funzionalità di anteprima mobile richiede che si scarichi e si installi la versione appropriata 4.14 (o successiva) dell&#39;SDK Adobe Mobile.
+>Questa funzione sarà attivata nell’interfaccia utente per tutti i clienti dopo il 12 ottobre 2017. La funzionalità di anteprima mobile richiede che si scarichi e si installi la versione appropriata 4.14 (o successiva) dell'SDK Adobe Mobile.
 
 ## Panoramica {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
-La funzionalità di anteprima mobile consente di testare completamente le attività dell&#39;app mobile prima di avviarle in diretta.
+La funzionalità di anteprima mobile consente di testare completamente le attività dell'app mobile prima di avviarle in diretta.
 
 ## Prerequisiti {#section_A763C564C9E84B0EB448237B5B1E4068}
 
-1. **Utilizzare una versione supportata dell&#39;SDK:** la funzionalità di anteprima mobile richiede che si scarichi e si installi la versione 4.14 (o successiva) appropriata dell&#39;SDK Adobe Mobile nelle applicazioni corrispondenti.
+1. **Utilizzare una versione supportata dell'SDK:** la funzionalità di anteprima mobile richiede che si scarichi e si installi la versione 4.14 (o successiva) appropriata dell'SDK Adobe Mobile nelle applicazioni corrispondenti.
 
-   Per istruzioni su come scaricare l&#39;SDK appropriato, vedi:
+   Per istruzioni su come scaricare l'SDK appropriato, vedi:
 
    * **iOS:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) nella guida *iOS SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions)*.
-   * **Android:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)* nella guida Android SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions).*
+   * **Android:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*nella guida Android SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions).*
 
-1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l&#39;app. È necessario specificare uno schema URL univoco per l&#39;anteprima.
+1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l'app. È necessario specificare uno schema URL univoco per l'anteprima.
 
-   L&#39;illustrazione seguente è un esempio su iOS:
+   L'illustrazione seguente è un esempio su iOS:
 
    ![](assets/mobile-preview-url-scheme-ios.png)
 
@@ -77,7 +77,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
      }
    ```
 
-   Per il corretto funzionamento dell&#39;anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice nel file [!DNL AndroidManifest.xml]:
+   Per il corretto funzionamento dell'anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice nel file [!DNL AndroidManifest.xml]:
 
    ```
    <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
@@ -85,7 +85,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
 ## Generazione di un link di anteprima {#section_D9D58173FFF34E9BB75EBF357273F128}
 
-1. Nell&#39;interfaccia utente di Target, fai clic sull&#39;icona **[!UICONTROL Altre opzioni]** (tre puntini di sospensione verticali), quindi seleziona **[!UICONTROL Crea anteprima mobile]**.
+1. Nell'interfaccia utente di Target, fai clic sull'icona **[!UICONTROL Altre opzioni]** (tre puntini di sospensione verticali), quindi seleziona **[!UICONTROL Crea anteprima mobile]**.
 
    ![](assets/mobile-preview-create.png)
 
@@ -97,9 +97,9 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    ![](assets/mobile-preview-select-activities.png)
 
-1. Specifica lo schema URL dell&#39;app.
+1. Specifica lo schema URL dell'app.
 
-   Deve essere lo stesso presente nell&#39;app iOS o Android. Ripeti questo processo separatamente per iOS e Android, se necessario.
+   Deve essere lo stesso presente nell'app iOS o Android. Ripeti questo processo separatamente per iOS e Android, se necessario.
 
    ![](assets/mobile-preview-enter-url-scheme.png)
 
@@ -109,15 +109,15 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
 ## Anteprima sul dispositivo {#section_521F0D46F3DE4A2A98283A1B73FF69F6}
 
-Apri il link in un browser mobile su un dispositivo in cui hai installato l&#39;app. Questa applicazione può essere l&#39;applicazione di produzione che hai scaricato dall&#39;Apple App Store o dal Google Play Store. Non deve essere una build speciale. Se si dispone di un collegamento di anteprima attivo, sarà possibile visualizzare le esperienze sul dispositivo.
+Apri il link in un browser mobile su un dispositivo in cui hai installato l'app. Questa applicazione può essere l'applicazione di produzione che hai scaricato dall'Apple App Store o dal Google Play Store. Non deve essere una build speciale. Se si dispone di un collegamento di anteprima attivo, sarà possibile visualizzare le esperienze sul dispositivo.
 
 1. Apri il link nel tuo browser mobile.
 
-   Condividi il link copiato nel passaggio precedente dall&#39;interfaccia utente di Target al dispositivo mobile in modo conveniente, ad esempio utilizzando SMS, e-mail o Slack.
+   Condividi il link copiato nel passaggio precedente dall'interfaccia utente di Target al dispositivo mobile in modo conveniente, ad esempio utilizzando SMS, e-mail o Slack.
 
    |![collegamento diretto anteprima 1](/help/c-target-mobile-app/assets/mobile-preview-open-deeplink.png)|![collegamento diretto anteprima 2](/help/c-target-mobile-app/assets/mobile-preview-open-app.png)|
 
-   L&#39;app apre e avvia la Modalità anteprima mobile di Target.
+   L'app apre e avvia la Modalità anteprima mobile di Target.
 
 1. Seleziona la combinazione di esperienze da visualizzare, quindi fai clic su **[!UICONTROL Avvia esperienze]**.
 
@@ -127,4 +127,4 @@ Apri il link in un browser mobile su un dispositivo in cui hai installato l&#39;
 ## Limitazioni {#section_4E9BDED0F718485292527EFB508305BD}
 
 * La visualizzazione deve caricare nuovamente per il nuovo contenuto da visualizzare dopo aver fatto clic sul pulsante [!UICONTROL Avvia esperienze]. Il modo più semplice è quello di passare a una schermata diversa e poi tornare alla schermata in cui si prevede che il cambiamento avvenga.
-* L&#39;anteprima mobile non è supportata per le versioni Android prima di API-19 (KitKat).
+* L'anteprima mobile non è supportata per le versioni Android prima di API-19 (KitKat).
