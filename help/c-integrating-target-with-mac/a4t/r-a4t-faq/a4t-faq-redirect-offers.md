@@ -23,7 +23,7 @@ Sì, purché l’implementazione utilizzi [!DNL at.js]. Tuttavia, l’implementa
 
 >[!NOTE]
 >
->Un problema noto causa l&#39;uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>Un problema noto causa l'uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quali sono i requisiti minimi necessari per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
