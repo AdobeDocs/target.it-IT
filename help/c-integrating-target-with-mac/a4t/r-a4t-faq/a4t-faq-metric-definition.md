@@ -31,4 +31,4 @@ Le metriche calcolate consentono di creare metriche personalizzate derivate da s
 
 ## A4T attribuisce conversioni a più campagne? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sì. Questa operazione viene eseguita utilizzando l’impostazione &quot;Allocazione completa&quot;.
+Sì. Questa operazione viene eseguita utilizzando l’impostazione "Allocazione completa".
