@@ -41,16 +41,16 @@ L’applicazione dei ai rapporti è simile all’applicazione di segmenti nell�
 
 Ci sono diverse opzioni, ognuna con i propri vantaggi:
 
-* I ***visitatori univoci*** incrementano una volta quando un utente si qualifica per la prima volta per un&#39;attività.
-* Le ***visite*** incrementano per ogni sessione una volta che un utente (Visitatore unico) entra in un&#39;attività, anche se l&#39;attività non viene visualizzata nelle visite successive.
-* Le ***impressioni dell’attività*** aumentano ogni volta che il contenuto dell&#39;attività viene servito. (Misurate da Target)
+* I ***visitatori univoci*** incrementano una volta quando un utente si qualifica per la prima volta per un'attività.
+* Le ***visite*** incrementano per ogni sessione una volta che un utente (Visitatore unico) entra in un'attività, anche se l'attività non viene visualizzata nelle visite successive.
+* Le ***impressioni dell’attività*** aumentano ogni volta che il contenuto dell'attività viene servito. (Misurate da Target)
 * Le ***istanze*** incrementano una volta per pagina quando viene servito il contenuto dell’attività. (Misurate da Analytics)
 
-Quando un visitatore visualizza una pagina che contiene un&#39;attività, viene impostata una variabile per quel visitatore che contiene il nome di tale attività. Consulta gli scenari dettagliati di seguito per il confronto di ciascuna metodologia di conteggio.
+Quando un visitatore visualizza una pagina che contiene un'attività, viene impostata una variabile per quel visitatore che contiene il nome di tale attività. Consulta gli scenari dettagliati di seguito per il confronto di ciascuna metodologia di conteggio.
 
 Valuta quanto segue:
 
-* Tutte le metriche sopra indicate si attivano quando un utente si qualifica per un&#39;attività e il contenuto viene restituito da [!DNL Target]. Ciò non significa necessariamente che l&#39;utente abbia visto l&#39;offerta. Se l&#39;esperienza di un’attività si trova nella parte inferiore della pagina e l&#39;utente non scorre la pagina verso il basso, allora l&#39;offerta è stata servita da [!DNL Target] ma non è stata vista dall&#39;utente.
+* Tutte le metriche sopra indicate si attivano quando un utente si qualifica per un'attività e il contenuto viene restituito da [!DNL Target]. Ciò non significa necessariamente che l'utente abbia visto l'offerta. Se l'esperienza di un’attività si trova nella parte inferiore della pagina e l'utente non scorre la pagina verso il basso, allora l'offerta è stata servita da [!DNL Target] ma non è stata vista dall'utente.
 * Le [!UICONTROL impressioni dell’attività] (misurate da [!DNL Target]) e le [!UICONTROL istanze] (misurate da [!DNL Analytics]) sono uguali, a meno che non vi siano più chiamate mbox sulla stessa pagina nella stessa attività. In tal caso si contano più [!UICONTROL impressioni dell’attività], ma solo una singola [!UICONTROL istanza].
 * Attualmente le metriche [!UICONTROL Impressioni dell’attività] e [!UICONTROL Conversione dell’attività] vengono gonfiate in [!DNL Analysis Workspace] e non devono essere utilizzate fino a quando il problema non viene risolto.
 
@@ -64,7 +64,7 @@ Le “Conversioni attività” sono vuote se è stata selezionata una metrica di
 
 In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. La visualizzazione dei dati relativi all’attività nei rapporti può richiedere fino a 36 ore. Anche se le attività non compaiono in questo rapporto fino a quel momento, tutti i dati dei visitatori legati a tali attività vengono acquisiti e compariranno quando la classificazione sarà completata.
 
-Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
+Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un'ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
 ## Perché le metriche di Target vengono inviate ad Analytics anche dopo la disattivazione dell’attività? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
@@ -108,7 +108,7 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 | ABC | 1 | 10 | 2 | 1 | 1 |
 | Totale | 2 | 20 | 3 | 1 | 1 |
 
-Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Ai fini del rapporto generato da Target, poiché non si stanno confrontando due attività di Target per vedere quale ha più successo, non ha importanza se tutte le attività che l’utente ha visualizzato abbiano ricevuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
+Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono "credito" per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Ai fini del rapporto generato da Target, poiché non si stanno confrontando due attività di Target per vedere quale ha più successo, non ha importanza se tutte le attività che l’utente ha visualizzato abbiano ricevuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
 Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) nell’Aiuto di Analytics.
 
