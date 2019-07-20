@@ -55,12 +55,12 @@ La priorità è utilizzata se più attività vengono assegnate alla stessa posiz
 
 Imposta la durata dell’attività.
 
-L&#39;attività può iniziare quando viene attivata, oppure potete impostare una data e un&#39;ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+L'attività può iniziare quando viene attivata, oppure potete impostare una data e un'ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
 ## Impostazioni reporting
 
-* **Origine di reporting:** Selezionate l&#39;origine di reporting: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificate l&#39;origine di reporting dopo che l&#39;attività è live. La modifica dell&#39;origine di reporting dopo un&#39;attività attiva causa un reporting incoerente.
-* **Metrica obiettivo:** Selezionate la metrica di successo che determina se l&#39;attività ha esito positivo.
+* **Origine di reporting:** Selezionate l'origine di reporting: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificate l'origine di reporting dopo che l'attività è live. La modifica dell'origine di reporting dopo un'attività attiva causa un reporting incoerente.
+* **Metrica obiettivo:** Selezionate la metrica di successo che determina se l'attività ha esito positivo.
 * **Altre metriche:** configura ulteriori metriche di successo da utilizzare nei rapporti.
 * **Tipi di pubblico per i rapporti:** definisci i tipi di pubblico che possono essere utilizzati per filtrare i rapporti.
 
