@@ -31,7 +31,7 @@ In base alla frequenza e recency delle visite alle categorie di prodotti, viene 
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target&#39;s category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations&#39; product and content recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare le raccomandazioni sulla categoria della pagina corrente o dell&#39;elemento corrente. Passate entrambi i valori ad Adobe Target se desiderate utilizzare entrambe le funzionalità.
+>The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare le raccomandazioni sulla categoria della pagina corrente o dell'elemento corrente. Passate entrambi i valori ad Adobe Target se desiderate utilizzare entrambe le funzionalità.
 
 ## Business case per affinità tra categorie {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
