@@ -39,7 +39,7 @@ Per una maggiore sicurezza, puoi scegliere che l’intestazione della richiesta 
    >
    >Puoi anche generare un token di autenticazione profilo tramite API. Per ulteriori informazioni, vedi [Profili](https://developers.adobetarget.com/api/#profiles) sul [sito web per sviluppatori di Adobe Target](https://developers.adobetarget.com/).
 
-1. Copia il token e includilo nell’intestazione della richiesta nel formato: &quot;Authorization&quot; : &quot;Bearer&quot;.
+1. Copia il token e includilo nell’intestazione della richiesta nel formato: "Authorization" : "Bearer".
 
 Fai clic su [!UICONTROL Rigenera token di autorizzazione profilo] per rigenerare il token quando necessario.
 
