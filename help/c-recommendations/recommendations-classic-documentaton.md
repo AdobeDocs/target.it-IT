@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Documentazione di Recommendations Classic
 
-Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web.
+Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell'utente sul sito web.
 
 Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli che altrimenti potrebbero ignorare, incrementando le vendite generate sul sito.
 
