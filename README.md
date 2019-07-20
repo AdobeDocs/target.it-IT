@@ -1,6 +1,6 @@
 ---
-source-git-commit: 9b8f39240cbbd7a494d74dc0016ed666a58fd870
-translation-type: ht
+source-git-commit: bae4cd6ae1efaf4e9b057750dda11267e0e9a181
+translation-type: tm+mt
 
 ---
 # Articolo di Contribute
@@ -15,13 +15,13 @@ Questo progetto ha adottato il [Codice di condotta Adobe Open Source](code-of-co
 
 ## Informazioni sui contributi ai contenuti Adobe
 
-Consulta la [Guida per il collaboratore Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con cui desideri contribuire:
 
 ### Modifiche minori
 
-Se stai contribuendo con modifiche per bontà d’animo, visita l’articolo e fai clic sul collegamento **Modifica** all’interno che porta al codice sorgente di GitHub dell’articolo. Quindi, usa l’interfaccia utente GitHub per apportare le modifiche. Per ulteriori informazioni, consulta la [Guida per il collaboratore Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Se stai contribuendo con modifiche per bontà d’animo, visita l’articolo e fai clic sul collegamento **Modifica** all’interno che porta al codice sorgente di GitHub dell’articolo. Quindi, usa l’interfaccia utente GitHub per apportare le modifiche. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
 
 Le correzioni o i chiarimenti di minore entità inviati per la documentazione e gli esempi di codice in questo repository sono coperti dalle condizioni d’uso Adobe.
 
@@ -43,14 +43,14 @@ Se sei un autore dei contenuti, un program manager o sviluppatore del team del p
 
 I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per applicare modifiche di base o eseguire il fork del repository per lasciare contributi importanti.
 
-Per informazioni dettagliate, consulta [Guida per il collaboratore Adobe Docs](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
 
 ## Come utilizzare il linguaggio Markdown per formattare l’argomento
 
 Tutti gli articoli di questo archivio sono scritti nel linguaggio Flavored Markdown di GitHub. Se non conosci il linguaggio Markdown, consulta:
 
-* [Concetti base di Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Appunti di Markdown stampabili](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Nozioni di base sulla marcatura](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Foglio di calcolo con tag stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etichette
 
