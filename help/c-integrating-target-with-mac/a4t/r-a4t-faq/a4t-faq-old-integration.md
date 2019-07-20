@@ -19,8 +19,8 @@ Questa sezione contiene le risposte alle domande che vengono spesso poste in mer
 
 ## Perché viene visualizzato un rapporto Attività e un rapporto Ricetta campagna in Analytics? {#section_ECF18A7E759A4E7F93553DB187A677E9}
 
-L&#39;integrazione tra SiteCatalyst e Test&amp;Target (integrazione precedente) e Analytics for Target (A4T) sono diverse.
+L'integrazione tra SiteCatalyst e Test&amp;Target (integrazione precedente) e Analytics for Target (A4T) sono diverse.
 
 Il rapporto Attività è per la nuova integrazione A4T.
 
-Il rapporto Ricetta campagna è invece per l’integrazione legacy tra SiteCatalyst e Test&amp;Target. Se desideri disattivare questo rapporto, contatta l’Assistenza clienti. L&#39;Assistenza clienti può disattivare immediatamente il rapporto. Il rapporto verrà nascosto, ma i dati sottostanti saranno ancora disponibili se è necessario riattivarli.
+Il rapporto Ricetta campagna è invece per l’integrazione legacy tra SiteCatalyst e Test&amp;Target. Se desideri disattivare questo rapporto, contatta l’Assistenza clienti. L'Assistenza clienti può disattivare immediatamente il rapporto. Il rapporto verrà nascosto, ma i dati sottostanti saranno ancora disponibili se è necessario riattivarli.
