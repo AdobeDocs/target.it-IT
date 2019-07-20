@@ -51,7 +51,7 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
 
 1. Apri il sito interessato in Firefox.
-1. Fai clic sull&#39;icona **[!UICONTROL Mostra informazioni del sito]** nella barra degli indirizzi del browser.
+1. Fai clic sull'icona **[!UICONTROL Mostra informazioni del sito]** nella barra degli indirizzi del browser.
 
    ![](assets/firefox_more_info.png)
 
