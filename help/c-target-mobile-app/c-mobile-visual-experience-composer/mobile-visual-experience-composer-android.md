@@ -13,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# Android: configurare l&#39;app mobile{#android-set-up-the-mobile-app}
+# Android: configurare l'app mobile{#android-set-up-the-mobile-app}
 
 Il Compositore esperienza visivo (VEC) per app mobile di Adobe Target consente agli sviluppatori di effettuare una configurazione unica sulle app mobili Android e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo su app mobile.
 
@@ -21,7 +21,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
 ## Includere l’SDK mobile e la libreria di Target {#sdk-library}
 
-1. Per informazioni sull&#39;inizializzazione di SDK V5, consulta [Inizializzare l&#39;SDK e configurare il tracciamento](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk).
+1. Per informazioni sull'inizializzazione di SDK V5, consulta [Inizializzare l'SDK e configurare il tracciamento](https://aep-sdks.gitbook.io/docs/getting-started/initialize-the-sdk).
 1. Aggiungi la seguente riga alla sezione dipendenze:
 
    ```
@@ -279,7 +279,7 @@ TargetVEC.targetView("SURPRISE_VIEW",
 
 ## Chiamare esplicitamente l’API di preacquisizione {#section_2D02B74558474D3BA9F25E4D25E7C7E3}
 
-Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l&#39;API di preacquisizione per aggiornare le offerte archiviate nella cache. Vengono esposte le seguenti API, descritte come:
+Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l'API di preacquisizione per aggiornare le offerte archiviate nella cache. Vengono esposte le seguenti API, descritte come:
 
 * **prefetchOffers**
 
@@ -312,7 +312,7 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
 Dopo aver completato questa esercitazione potrete:
 
 * Creare una proprietà di avvio mobile
-* Installazione di una proprietà Launch in un&#39;app Android
+* Installazione di una proprietà Launch in un'app Android
 * Implementa le seguenti soluzioni Adobe Experience Cloud:
    * Servizio Experience Cloud ID
    * Adobe Target
