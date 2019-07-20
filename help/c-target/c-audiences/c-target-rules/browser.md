@@ -77,7 +77,7 @@ Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operato
 
 Eseguire il targeting o escludere alcuni browser impostati per utilizzare lingue specifiche.
 
-Ad esempio, se un&#39;offerta è disponibile solo in inglese, potete eseguire il targeting dei browser con la lingua impostata su Inglese. Oppure, se la pagina non è abilitata per caratteri a doppio byte, puoi escludere i browser impostati per lingue orientali.
+Ad esempio, se un'offerta è disponibile solo in inglese, potete eseguire il targeting dei browser con la lingua impostata su Inglese. Oppure, se la pagina non è abilitata per caratteri a doppio byte, puoi escludere i browser impostati per lingue orientali.
 
 L’inclusione o l’esclusione in base alla lingua del browser può permetterti di definire meglio i visitatori a cui ti rivolgi rispetto a parametri basati sulla località geografica nei casi in cui la lingua riveste un ruolo più importante della posizione geografica. Ad esempio, se offri un articolo scritto in inglese, puoi destinarlo ai paesi di lingua inglese oppure a chi utilizza browser impostati in lingua inglese. Con il targeting in base al browser, l’articolo sarà disponibile per gli anglofoni che si collegano da paesi in cui l’inglese non è la lingua principale.
 
@@ -123,7 +123,7 @@ Le opzioni multiple sono collegate con l’operatore O.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
