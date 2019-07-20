@@ -13,7 +13,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 ---
 
 
-# iOS: configurare l&#39;app mobile{#ios-set-up-the-mobile-app}
+# iOS: configurare l'app mobile{#ios-set-up-the-mobile-app}
 
 Il Compositore esperienza visivo (VEC) per app mobile di Adobe Target consente agli sviluppatori di effettuare una configurazione unica sulle app mobili Android e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo su app mobile.
 
@@ -23,7 +23,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
 1. Aggiungi la libreria al progetto tramite Cocoapods [!DNL Podfile] aggiungendo il pod “`ACPTargetVEC`”.
 
-1. Apri il progetto dell&#39;applicazione Objective-C in XCode.
+1. Apri il progetto dell'applicazione Objective-C in XCode.
 
 1. Vai alle impostazioni della build del progetto e imposta l’opzione “Incorpora sempre le librerie Swift standard” su Sì, se non è già impostata.
 
@@ -33,17 +33,17 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
 1. Aggiungi il gestore deeplink:
 
-   1. Nelle impostazioni del progetto dell&#39;applicazione, fai clic su **[!UICONTROL Informazioni]**.
+   1. Nelle impostazioni del progetto dell'applicazione, fai clic su **[!UICONTROL Informazioni]**.
    1. In **[!UICONTROL Tipi di URL]**, fai clic sul triangolo per aprirlo, quindi sul segno più per aggiungere un nuovo campo.
    1. Aggiungi le seguenti informazioni:
 
       * Identificatore: `com.adobe.sdktest`
       * Schemi URL: `vectester`
       * Ruolo: Editor
-   1. Fai clic lontano dalle impostazioni del progetto dell&#39;applicazione &gt; **[!UICONTROL Generale]**.
-   1. Fai clic sulle impostazioni del progetto dell&#39;applicazione &gt; **[!UICONTROL Informazioni]** per salvare le impostazioni.
+   1. Fai clic lontano dalle impostazioni del progetto dell'applicazione &gt; **[!UICONTROL Generale]**.
+   1. Fai clic sulle impostazioni del progetto dell'applicazione &gt; **[!UICONTROL Informazioni]** per salvare le impostazioni.
 
-      Con il tipo di URL dell&#39;esempio, lo schema URL dell&#39;applicazione sarà:
+      Con il tipo di URL dell'esempio, lo schema URL dell'applicazione sarà:
 
       ```
       vectester://com.adobe.sdktest
@@ -60,7 +60,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
    `import ACPTargetVEC`
 
-1. Nel file [!DNL AppDelegate], aggiungi la seguente riga a `AppDelegate::application:didFinishLaunchingWithOptions:`. Se la funzione di delegato non è definita, creala e aggiungi la seguente riga per l&#39;applicazione Objective-C o Swift, rispettivamente:
+1. Nel file [!DNL AppDelegate], aggiungi la seguente riga a `AppDelegate::application:didFinishLaunchingWithOptions:`. Se la funzione di delegato non è definita, creala e aggiungi la seguente riga per l'applicazione Objective-C o Swift, rispettivamente:
 
    ```
    // CONFIGURATION LINE FOR OBJECTIVE C ONLY
@@ -112,7 +112,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
 ## Configurare le visualizzazioni di Target nell’app mobile {#views}
 
-L’SDK Adobe Mobile espone un nuovo metodo per gli sviluppatori da attivare ogni volta che viene effettuato il rendering di una nuova visualizzazione. Leggi le linee guida generali su come inserire correttamente le chiamate API per viste Target per un’app iOS. In iOS, tutte le visualizzazioni di Target sono definite in base al `UIViewController` in cui compaiono. Pertanto, a differenza di Android, l&#39;inserimento di `TargetViews` è limitato alle seguenti chiamate.
+L’SDK Adobe Mobile espone un nuovo metodo per gli sviluppatori da attivare ogni volta che viene effettuato il rendering di una nuova visualizzazione. Leggi le linee guida generali su come inserire correttamente le chiamate API per viste Target per un’app iOS. In iOS, tutte le visualizzazioni di Target sono definite in base al `UIViewController` in cui compaiono. Pertanto, a differenza di Android, l'inserimento di `TargetViews` è limitato alle seguenti chiamate.
 
 Il componente Adobe Mobile VEC Extension genera automaticamente dei nomi per dei `UIViewControllers` per interagire all’interno del framework del Compositore esperienza visivo per app mobile, in base al nome della classe del `UIViewController` sottoclassificato. Se desideri ignorare questi nomi, puoi chiamare il metodo seguente in `viewWillAppear` di `ViewController`.
 
@@ -211,7 +211,7 @@ ACPTargetVEC.setTargetView("VIEW_NAME", with: TARGET_PARAMS)
 
 ## Chiamare esplicitamente l’API di preacquisizione {#section_373DB4527FC649C58FBA3DF0C18C9836}
 
-Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l&#39;API di preacquisizione per aggiornare le offerte archiviate nella cache. Vengono esposte le seguenti API, descritte come:
+Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l'API di preacquisizione per aggiornare le offerte archiviate nella cache. Vengono esposte le seguenti API, descritte come:
 
 **Preacquisire offerte:**
 
@@ -241,7 +241,7 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
 Al termine di queste esercitazioni, potrete:
 
 * Creare una proprietà di avvio mobile
-* Installare una proprietà Launch in un&#39;app Objective-C o Swift
+* Installare una proprietà Launch in un'app Objective-C o Swift
 * Implementa le seguenti soluzioni Adobe Experience Cloud:
    * Servizio Experience Cloud ID
    * Adobe Target
