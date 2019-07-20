@@ -48,7 +48,7 @@ Puoi specificare target basati su percentuali per ogni esperienza. In questo cas
 1. Un cliente richiede una pagina dal server e la visualizza nel browser.
 2. Nel browser del cliente viene impostato un cookie di prime parti che ne memorizza il comportamento.
 3. La pagina effettua una chiamata al sistema di targeting.
-4. Il contenuto viene visualizzato in base alle regole dell&#39;attività.
+4. Il contenuto viene visualizzato in base alle regole dell'attività.
 
 ### Allocazione automatica
 
@@ -60,7 +60,7 @@ L’allocazione automatica identifica un vincitore tra due o più esperienze e, 
 
 Per ulteriori informazioni, consulta [Targeting automatico](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
 
-Auto-Target utilizza un machine learning avanzato per selezionare esperienze definite dall&#39;esperto di marketing più alte e distribuisce l&#39;esperienza più personalizzata a ogni visitatore in base al suo profilo singolo e al comportamento dei visitatori precedenti con profili simili, per personalizzare i contenuti e stimolare le conversioni.
+Auto-Target utilizza un machine learning avanzato per selezionare esperienze definite dall'esperto di marketing più alte e distribuisce l'esperienza più personalizzata a ogni visitatore in base al suo profilo singolo e al comportamento dei visitatori precedenti con profili simili, per personalizzare i contenuti e stimolare le conversioni.
 
 ### Personalizzazione automatizzata
 
@@ -74,7 +74,7 @@ La Personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l�
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
-Il Targeting dell’esperienza, tra cui il geotargeting, è utile per definire regole che rivolgono un’esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un&#39;attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, la funzione Targeting esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell&#39;attività e viene visualizzata l&#39;esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
+Il Targeting dell’esperienza, tra cui il geotargeting, è utile per definire regole che rivolgono un’esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un'attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, la funzione Targeting esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell'attività e viene visualizzata l'esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all'interno di una singola attività.
 
 ### Test multivariato (MVT)
 
@@ -92,9 +92,9 @@ Le attività di generazione dei consigli visualizzano automaticamente prodotti o
 
 “Edge” è un’architettura di servizio geograficamente distribuita che garantisce agli utenti finali che richiedono contenuti in tempi di risposta ottimali, indipendentemente dall’area geografica in cui si trovano.
 
-Per migliorare i tempi di risposta, gli ambienti Edge ospitano solo logica di attività e profilo memorizzato nella cache e informazioni sulle offerte. I database di attività e contenuti, i dati di [!DNL Analytics], le API e le interfacce utente per gli addetti al marketing si trovano negli ambienti di dati centrali di Adobe. Gli aggiornamenti vengono quindi inviati ai nodi di Edge. Gli ambienti centrali e i nodi Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati dell&#39;attività memorizzati nella cache. La modellazione 1:1 è memorizzata anche su ciascun bordo, per cui anche le richieste più complesse possono essere elaborate su Edge.
+Per migliorare i tempi di risposta, gli ambienti Edge ospitano solo logica di attività e profilo memorizzato nella cache e informazioni sulle offerte. I database di attività e contenuti, i dati di [!DNL Analytics], le API e le interfacce utente per gli addetti al marketing si trovano negli ambienti di dati centrali di Adobe. Gli aggiornamenti vengono quindi inviati ai nodi di Edge. Gli ambienti centrali e i nodi Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati dell'attività memorizzati nella cache. La modellazione 1:1 è memorizzata anche su ciascun bordo, per cui anche le richieste più complesse possono essere elaborate su Edge.
 
-Ogni nodo di Edge include tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste degli utenti vengono indirizzate al nodo di Edge più vicino.
+Ogni nodo di Edge include tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell'utente e tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste degli utenti vengono indirizzate al nodo di Edge più vicino.
 
 ![](assets/edge_network.png)
 
@@ -102,19 +102,19 @@ Le posizioni core del sito Edge contengono sia un centro di raccolta dati sia un
 
 Adobe dispone attualmente di centri dati in diversi continenti, incluse più sedi regionali in Nord America, Europa e Asia.
 
-Anziché rispondere a tutte le richieste di targeting da una singola posizione, le richieste vengono elaborate dall&#39;ambiente Edge più vicino al visitatore, riducendo in questo modo l&#39;impatto derivante dal tempo di trasferimento di rete/Internet.
+Anziché rispondere a tutte le richieste di targeting da una singola posizione, le richieste vengono elaborate dall'ambiente Edge più vicino al visitatore, riducendo in questo modo l'impatto derivante dal tempo di trasferimento di rete/Internet.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
+>[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni dell'utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. Because of the Great Firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers may experience latency when using the [!DNL Target] Authoring UI.
 
 ## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
-Adobe garantisce un alto grado di affidabilità per la disponibilità e le prestazioni dell’infrastruttura di targeting. Tuttavia, un&#39;interruzione delle comunicazioni tra il browser di un utente finale e il server di Adobe può causare un’interruzione nella distribuzione dei contenuti.
+Adobe garantisce un alto grado di affidabilità per la disponibilità e le prestazioni dell’infrastruttura di targeting. Tuttavia, un'interruzione delle comunicazioni tra il browser di un utente finale e il server di Adobe può causare un’interruzione nella distribuzione dei contenuti.
 
 To safeguard against service interruptions and connectivity issues, all locations are set up to include default content (defined by the client), which is displayed if the user’s browser cannot connect to [!DNL Target].
 
-Non viene apportata alcuna modifica alla pagina se il browser dell&#39;utente non è in grado di connettersi entro un periodo di timeout definito (per impostazione predefinita: 15 secondi). Se questa soglia di timeout viene raggiunta, viene visualizzato il contenuto di posizione predefinito.
+Non viene apportata alcuna modifica alla pagina se il browser dell'utente non è in grado di connettersi entro un periodo di timeout definito (per impostazione predefinita: 15 secondi). Se questa soglia di timeout viene raggiunta, viene visualizzato il contenuto di posizione predefinito.
 
 Adobe tutela l’esperienza utente attraverso l’ottimizzazione e la salvaguardia delle prestazioni.
 
@@ -140,25 +140,25 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    La piattaforma Target è configurata per trattare i bot dei motori di ricerca allo stesso modo di qualsiasi utente. Ciò significa che i bot potrebbero essere inclusi nei test che esegui, se selezionati in modo casuale, e quindi “vedere” le varianti dei test.
 
-* **Usare rel = &quot;canonical&quot;**: a volte è necessario impostare un test A/B utilizzando URL diversi per le varianti. In questi casi, tutte le varianti devono contenere un tag `rel="canonical"` che fa riferimento all’URL originale (di controllo). Ad esempio, supponiamo che Adobe voglia eseguire un test per la propria home page utilizzando URL diversi per ogni variante: il seguente tag canonical per la home page andrebbe nel tag `<head>` di ciascuna variante:
+* **Usare rel = "canonical"**: a volte è necessario impostare un test A/B utilizzando URL diversi per le varianti. In questi casi, tutte le varianti devono contenere un tag `rel="canonical"` che fa riferimento all’URL originale (di controllo). Ad esempio, supponiamo che Adobe voglia eseguire un test per la propria home page utilizzando URL diversi per ogni variante: il seguente tag canonical per la home page andrebbe nel tag `<head>` di ciascuna variante:
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
 * **Usare reindirizzamenti 302 (temporanei)**: se vengono utilizzati URL diversi per le pagine delle varianti di un test, Google consiglia di indirizzare il traffico alle varianti del test mediante un reindirizzamento 302. Questo indica ai motori di ricerca che il reindirizzamento è temporaneo e sarà attivo solo finché il test è in esecuzione.
 
-   Un reindirizzamento 302 è un reindirizzamento lato server e Target, così come la maggior parte dei provider di ottimizzazione, utilizza funzionalità lato client. Pertanto, questa è un’area in cui Target non è pienamente conforme ai consigli di Google. Tuttavia, questo interessa solo una piccola frazione di test. L&#39;approccio standard per l&#39;esecuzione di test attraverso Target richiede la modifica dei contenuti all&#39;interno di un singolo URL, quindi non sono necessari reindirizzamenti. Esistono casi in cui i client devono utilizzare più URL per rappresentare le varianti di test. In queste istanze, Target utilizza il comando `window.location` di JavaScript per indirizzare gli utenti alle varianti di test, che non indica in modo esplicito se il reindirizzamento è di tipo 301 o 302.
+   Un reindirizzamento 302 è un reindirizzamento lato server e Target, così come la maggior parte dei provider di ottimizzazione, utilizza funzionalità lato client. Pertanto, questa è un’area in cui Target non è pienamente conforme ai consigli di Google. Tuttavia, questo interessa solo una piccola frazione di test. L'approccio standard per l'esecuzione di test attraverso Target richiede la modifica dei contenuti all'interno di un singolo URL, quindi non sono necessari reindirizzamenti. Esistono casi in cui i client devono utilizzare più URL per rappresentare le varianti di test. In queste istanze, Target utilizza il comando `window.location` di JavaScript per indirizzare gli utenti alle varianti di test, che non indica in modo esplicito se il reindirizzamento è di tipo 301 o 302.
 
-   Continuiamo a cercare soluzioni valide per un allineamento completo alle linee guida per i motori di ricerca; tuttavia per i clienti che devono utilizzare URL separati per i test, siamo fiduciosi che l&#39;implementazione corretta dei tag “canonical” di cui sopra attenui il rischio associato a questo approccio.
+   Continuiamo a cercare soluzioni valide per un allineamento completo alle linee guida per i motori di ricerca; tuttavia per i clienti che devono utilizzare URL separati per i test, siamo fiduciosi che l'implementazione corretta dei tag “canonical” di cui sopra attenui il rischio associato a questo approccio.
 
-* **Eseguire esperimenti solo per la durata strettamente necessaria**: riteniamo che per “durata strettamente necessaria” si intenda il tempo necessario a raggiungere la rilevanza statistica. Target [fornisce best practice](https://docs.adobe.com/content/target-microsite/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l&#39;implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Eseguire esperimenti solo per la durata strettamente necessaria**: riteniamo che per “durata strettamente necessaria” si intenda il tempo necessario a raggiungere la rilevanza statistica. Target [fornisce best practice](https://docs.adobe.com/content/target-microsite/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l'implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma Target per “pubblicare” i test vincenti non è una soluzione permanente consigliata, ma fintanto che il test vincente venga pubblicato per il 100% degli utenti e per il 100% delle volte, questo approccio può essere utilizzato fino al completamento del processo di hardcoding del test vincente.
 
    È importante considerare anche le modifiche apportate dal test. Il semplice aggiornamento del colore dei pulsanti o di altri elementi non testuali minori presenti nella pagina non avrà alcuna influenza sulla classificazione organica. Tuttavia, le modifiche al testo devono essere hardcoded.
 
-   È inoltre importante considerare l&#39;accessibilità della pagina che stai testando. Se la pagina non è accessibile ai motori di ricerca e non è comunque mai stata progettata per essere classificata in una ricerca organica, come una pagina di destinazione dedicata per una campagna e-mail, le considerazioni di cui sopra non sono applicabili.
+   È inoltre importante considerare l'accessibilità della pagina che stai testando. Se la pagina non è accessibile ai motori di ricerca e non è comunque mai stata progettata per essere classificata in una ricerca organica, come una pagina di destinazione dedicata per una campagna e-mail, le considerazioni di cui sopra non sono applicabili.
 
-Google afferma che seguire queste linee guida deve avere un impatto minimo o nessun impatto sul sito nei risultati della ricerca. &quot;
+Google afferma che seguire queste linee guida deve avere un impatto minimo o nessun impatto sul sito nei risultati della ricerca. "
 
 Oltre a queste linee guida, Google fornisce anche una guida in più nella documentazione del suo strumento Esperimenti sui contenuti:
 
@@ -166,4 +166,4 @@ Oltre a queste linee guida, Google fornisce anche una guida in più nella docume
 
 Google dichiara, a titolo di esempio, che “se la pagina originale di un sito presenta parole chiave non correlate alle combinazioni mostrate agli utenti, possiamo rimuovere il sito dal nostro indice”.
 
-Riteniamo che sarebbe difficile cambiare involontariamente il significato del contenuto originale all&#39;interno di varianti di test, ma si consiglia di essere consapevoli dei temi delle parole chiave di una pagina e di mantenerli. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare la classificazione dell’URL nella ricerca organica. Consigliamo di coinvolgere il tuo partner SEO come parte del protocollo di test.
+Riteniamo che sarebbe difficile cambiare involontariamente il significato del contenuto originale all'interno di varianti di test, ma si consiglia di essere consapevoli dei temi delle parole chiave di una pagina e di mantenerli. Le modifiche al contenuto di una pagina, in particolare l’aggiunta o l’eliminazione di parole chiave rilevanti, possono influenzare la classificazione dell’URL nella ricerca organica. Consigliamo di coinvolgere il tuo partner SEO come parte del protocollo di test.
