@@ -8,7 +8,7 @@ title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
+source-git-commit: 45d0a73faafd216b5a4686501c548f5771943050
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: ae8c88d1fa05ff7e110495e47ebf275d5117868c
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 12 luglio 2019**
+**Ultimo aggiornamento: 19 luglio 2019**
 
 >[!NOTE]
 >
@@ -25,7 +25,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 >
 >The issue numbers in parentheses are for internal [!DNL Adobe] use.
 
-## Target Standard/Premium 19.7.1 (23 luglio 2019) {#tgt-19-7-1}
+## Target Standard/Premium 19.7.1 (24 luglio 2019) {#tgt-19-7-1}
 
 Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
