@@ -61,17 +61,17 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 | Samsung Galaxy Tab 10 | 800 x 1280 (larghezza x altezza) | 800 x 1280 (larghezza x altezza) |
 | Chromebook Pixel | 1280 x 850 (larghezza x altezza) | 2560 x 1700 (larghezza x altezza) |
 
-Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker&#39;s website.
+Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. For example, see [https://mediag.com/news/popular-screen-resolutions-designing-for-all/](https://mediag.com/news/popular-screen-resolutions-designing-for-all/) or consult the device maker's website.
 
-Se desideri inviare un&#39;attività a persone su un determinato dispositivo, scegli il pubblico appropriato per tale dispositivo nel diagramma delle attività. Utilizza il Compositore web per dispositivi mobili per modificare la pagina nell&#39;attività relativa a tale dispositivo. Se desideri eseguire un&#39;attività in tutta l&#39;esperienza digitale e assicurarti che si guardi bene su tutti i dispositivi, non applicare il targeting, e utilizza i riquadri per dispositivi mobili per visualizzare in anteprima l&#39;attività su ogni dimensione dello schermo.
+Se desideri inviare un'attività a persone su un determinato dispositivo, scegli il pubblico appropriato per tale dispositivo nel diagramma delle attività. Utilizza il Compositore web per dispositivi mobili per modificare la pagina nell'attività relativa a tale dispositivo. Se desideri eseguire un'attività in tutta l'esperienza digitale e assicurarti che si guardi bene su tutti i dispositivi, non applicare il targeting, e utilizza i riquadri per dispositivi mobili per visualizzare in anteprima l'attività su ogni dimensione dello schermo.
 
-Se disponi di un sito reattivo, in genere il sito è progettato per aprirsi in una visualizzazione diversa quando si accede da un dispositivo con una dimensione dello schermo specifica. Le dimensioni dello schermo che attivano le nuove visualizzazioni sono noti come *Punti di interruzione CSS*. Salva i punti di interruzione CSS in Target per poter visualizzare in anteprima le esperienze per ogni visualizzazione definita. Ognuna di queste esperienze viene visualizzata in un riquadro di visualizzazione mobile nell&#39;interfaccia di Target. Apri la visualizzazione per ogni dimensione dello schermo cliccando sul riquadro di visualizzazione corrispondente nella parte superiore del display.
+Se disponi di un sito reattivo, in genere il sito è progettato per aprirsi in una visualizzazione diversa quando si accede da un dispositivo con una dimensione dello schermo specifica. Le dimensioni dello schermo che attivano le nuove visualizzazioni sono noti come *Punti di interruzione CSS*. Salva i punti di interruzione CSS in Target per poter visualizzare in anteprima le esperienze per ogni visualizzazione definita. Ognuna di queste esperienze viene visualizzata in un riquadro di visualizzazione mobile nell'interfaccia di Target. Apri la visualizzazione per ogni dimensione dello schermo cliccando sul riquadro di visualizzazione corrispondente nella parte superiore del display.
 
-Se il sito non è reattivo, è comunque possibile utilizzare il Compositore web per dispositivi mobili per visualizzare un sito, se l&#39;attività è destinata a un dispositivo specifico.
+Se il sito non è reattivo, è comunque possibile utilizzare il Compositore web per dispositivi mobili per visualizzare un sito, se l'attività è destinata a un dispositivo specifico.
 
 >[!NOTE]
 >
->Mentre è possibile modificare un’esperienza dall’interno di riquadri di visualizzazione per dispositivi mobili, queste modifiche si applicano a tutti i riquadri e dispositivi, non solo a quello in cui si lavora. Analogamente, la modifica di un&#39;esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni dello schermo, non solo la visualizzazione sul desktop. Attualmente, non sono supportate le modifiche di pagina specifiche per un riquadro di visualizzazione.
+>Mentre è possibile modificare un’esperienza dall’interno di riquadri di visualizzazione per dispositivi mobili, queste modifiche si applicano a tutti i riquadri e dispositivi, non solo a quello in cui si lavora. Analogamente, la modifica di un'esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni dello schermo, non solo la visualizzazione sul desktop. Attualmente, non sono supportate le modifiche di pagina specifiche per un riquadro di visualizzazione.
 
 ## Configurazione di riquadri di visualizzazione per dispositivi mobili {#task_B4B161499DC0470584ED922A4D20FCAB}
 
@@ -80,16 +80,16 @@ Configura tutti i riquadri di visualizzazione per dispositivi mobili che desider
 1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Preferenze]**.
 1. Nella sezione Configurazione riquadri di visualizzazione per dispositivi mobili della pagina Preferenze account, fai clic su **[!UICONTROL Aggiungi nuovo]** per aggiungere un riquadro di visualizzazione.
 
-   Per modificare la configurazione di una finestra mobile esistente, seleziona quella finestra, quindi fai clic sull&#39;icona Modifica (matita).
+   Per modificare la configurazione di una finestra mobile esistente, seleziona quella finestra, quindi fai clic sull'icona Modifica (matita).
 
    ![](assets/viewpoert_add.png)
 
 1. Inserisci un nome per il riquadro di visualizzazione per dispositivi mobili.
 
    Assegna alla tua finestra mobile un nome descrittivo facile da riconoscere. Il nome può essere lungo fino a 36 caratteri.
-1. Inserisci le dimensioni dello schermo del dispositivo mobile, sia della larghezza che dell&#39;altezza.
+1. Inserisci le dimensioni dello schermo del dispositivo mobile, sia della larghezza che dell'altezza.
 
-   La larghezza può essere compresa tra 150 e 968 pixel. L&#39;altezza può essere compresa tra 150 e 1280 pixel.
+   La larghezza può essere compresa tra 150 e 968 pixel. L'altezza può essere compresa tra 150 e 1280 pixel.
 
    >[!NOTE]
 
@@ -118,10 +118,10 @@ Aggiungi i riquadri di visualizzazione per dispositivi mobili alle attività di 
    Le finestre mobili sono elencate dalla più piccola alla più grande secondo la larghezza.
 1. Modifica le finestre mobili come desiderati.
 
-   Le modifiche apportate all&#39;esperienza (ad esempio, se si modifica il testo in un&#39;intestazione) vengono applicate all&#39;esperienza su tutti i dispositivi.
+   Le modifiche apportate all'esperienza (ad esempio, se si modifica il testo in un'intestazione) vengono applicate all'esperienza su tutti i dispositivi.
 
    Sposta il mouse sul nome di una finestra per visualizzarne le dimensioni.
-1. Se lo desideri, passa dalla modalità verticale a quella orizzontale facendo clic sull&#39;icona orientamento.
+1. Se lo desideri, passa dalla modalità verticale a quella orizzontale facendo clic sull'icona orientamento.
 
    * Verticale: ![Verticale](/help/c-experiences/c-visual-experience-composer/assets/viewport_portrait.png)
    * Orizzontale: ![Orizzontale](/help/c-experiences/c-visual-experience-composer/assets/viewport_landscape.png)
@@ -158,7 +158,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Compositore esperienza visivo (2 di 2) (7:29)
 
-Il video demo seguente include informazioni sull&#39;utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
+Il video demo seguente include informazioni sull'utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
@@ -171,6 +171,6 @@ Il video demo seguente include informazioni sull&#39;utilizzo del Compositore es
 
 ### Preferenze dell’account in Adobe Target
 
-Questo video include informazioni sulla configurazione dei riquadri di visualizzazione per dispositivi mobili nelle preferenze dell&#39;account, a partire dal minuto 4:40.
+Questo video include informazioni sulla configurazione dei riquadri di visualizzazione per dispositivi mobili nelle preferenze dell'account, a partire dal minuto 4:40.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379?captions=ita)
