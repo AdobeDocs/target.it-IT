@@ -54,21 +54,21 @@ Nella tabella seguente sono elencati i tipi di opzioni di filtro per criteri e p
 
 I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle promozioni statici; producono risultati migliore e un maggiore coinvolgimento del visitatore. I seguenti esempi ti daranno idee su come utilizzare le promozioni dinamiche nelle tue attività di marketing:
 
-**È uguale a:** utilizzando l&#39;operatore “è uguale a” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri oggetti appartenenti a:
+**È uguale a:** utilizzando l'operatore “è uguale a” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri oggetti appartenenti a:
 
 * lo stesso marchio
 * la stessa categoria
 * la stessa categoria E lo stesso marchio
 * lo stesso store
 
-**È diverso da:** utilizzando l&#39;operatore “è diverso da” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:
+**È diverso da:** utilizzando l'operatore “è diverso da” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:
 
 * una serie TV diversa
 * un genere diverso
 * una serie di prodotti diversi
 * un ID di stile diverso
 
-**È tra:** utilizzando l&#39;operatore “è tra” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:
+**È tra:** utilizzando l'operatore “è tra” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:
 
 * più costosi
 * meno costosi
@@ -78,9 +78,9 @@ I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle p
 
 ## Gestione dei valori vuoti durante l’applicazione di filtri per corrispondenza attributo entità, attributo profilo e parametri {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-È possibile scegliere diverse opzioni per gestire i valori vuoti durante l&#39;applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza parametro per i criteri e le promozioni di uscita.
+È possibile scegliere diverse opzioni per gestire i valori vuoti durante l'applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza parametro per i criteri e le promozioni di uscita.
 
-In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L&#39;elenco a discesa “Se *x* è vuoto” consente di scegliere l&#39;azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
+In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L'elenco a discesa “Se *x* è vuoto” consente di scegliere l'azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
 
 ![](assets/empty_value.png)
 
@@ -88,8 +88,8 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| Ignora questa regola di filtro | Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l&#39;azione predefinita per Corrispondenza attributo profilo e Corrispondenza parametro.<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
-| Non mostrare alcun risultato per questo criterio | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l&#39;azione predefinita per Corrispondenza attributo entità.<br>Corrisponde al modo in cui Target gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| Ignora questa regola di filtro | Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l'azione predefinita per Corrispondenza attributo profilo e Corrispondenza parametro.<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| Non mostrare alcun risultato per questo criterio | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l'azione predefinita per Corrispondenza attributo entità.<br>Corrisponde al modo in cui Target gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
 | Usa un valore statico | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
 
 Come esempio di gestione dei valori vuoti, considera lo [Scenario 9](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_9873E2F22E094E479569D05AD5BB1D40) qui sotto:
@@ -102,11 +102,11 @@ Ad esempio, con l’opzione [!UICONTROL Corrispondenza attributo profilo] puoi c
 
 **Scenario 2:** prima che Target offrisse la possibilità di utilizzare le informazioni sugli attributi del profilo di un visitatore, per creare annunci di lavoro da presentare solo a chi era in cerca di lavoro da un luogo specifico e con un titolo di studio specifico, avresti dovuto impostare molte attività con tipi di pubblico diversi (una per ogni città e titolo di studio). Per annunci di lavoro in molte città, questo compito poteva diventare molto gravoso.
 
-Ora puoi utilizzare le regole di inclusione per associare il luogo e il titolo di studio dal profilo del visitatore che cerca lavoro a un&#39;offerta di lavoro, come mostrato nell’esempio seguente:
+Ora puoi utilizzare le regole di inclusione per associare il luogo e il titolo di studio dal profilo del visitatore che cerca lavoro a un'offerta di lavoro, come mostrato nell’esempio seguente:
 
 ![](assets/job_seeker.png)
 
-L&#39;offerta di lavoro a sinistra richiede che il visitatore sia a San Francisco, New York o Los Angeles (`entity.jobCity`) e che abbia come titolo di studio una laurea in informatica o un master in business administration (`entity.requiredDegree`).
+L'offerta di lavoro a sinistra richiede che il visitatore sia a San Francisco, New York o Los Angeles (`entity.jobCity`) e che abbia come titolo di studio una laurea in informatica o un master in business administration (`entity.requiredDegree`).
 
 La persona che cerca lavoro, a destra, è a Los Angeles (`profile.usersCity`) e ha un master in business administration (`profile.degree`).
 
@@ -128,15 +128,15 @@ I filtri dinamici che utilizzano la corrispondenza attributo profilo consentono 
 
 ![](assets/dynamic_before_and_after.png)
 
-Il diagramma nella parte superiore dell&#39;illustrazione qui sopra mostra come funzionano i filtri dinamici che utilizzano gli attributi del profilo. È possibile creare un pubblico che utilizza criteri (nell’esempio precedente, città e titolo di studio) tali da presentare un annuncio di lavoro pertinente per il visitatore. Questo filtro funziona per un numero quasi infinito di possibilità per quanto riguarda la posizione e il titolo di studio.
+Il diagramma nella parte superiore dell'illustrazione qui sopra mostra come funzionano i filtri dinamici che utilizzano gli attributi del profilo. È possibile creare un pubblico che utilizza criteri (nell’esempio precedente, città e titolo di studio) tali da presentare un annuncio di lavoro pertinente per il visitatore. Questo filtro funziona per un numero quasi infinito di possibilità per quanto riguarda la posizione e il titolo di studio.
 
-I diagrammi nella parte inferiore dell&#39;illustrazione rappresentano solo due dei diversi tipi di pubblico che si sarebbero dovuti impostare in assenza di un criterio o una promozione con filtri dinamici basati sugli attributi del profilo. Avresti dovuto impostare un pubblico diverso per ogni città e per ogni titolo di studio. Ben presto ti saresti ritrovato con una quantità di tipi di pubblico ingestibile, soprattutto se avessi avuto a che fare con una gran mole di annunci in varie città.
+I diagrammi nella parte inferiore dell'illustrazione rappresentano solo due dei diversi tipi di pubblico che si sarebbero dovuti impostare in assenza di un criterio o una promozione con filtri dinamici basati sugli attributi del profilo. Avresti dovuto impostare un pubblico diverso per ogni città e per ogni titolo di studio. Ben presto ti saresti ritrovato con una quantità di tipi di pubblico ingestibile, soprattutto se avessi avuto a che fare con una gran mole di annunci in varie città.
 
-Senza utilizzare gli attributi del profilo, il pubblico e le esperienze appariranno come la metà superiore dell&#39;illustrazione seguente, ma con coppie di pubblico/esperienze aggiuntive per ogni scenario immaginabile.
+Senza utilizzare gli attributi del profilo, il pubblico e le esperienze appariranno come la metà superiore dell'illustrazione seguente, ma con coppie di pubblico/esperienze aggiuntive per ogni scenario immaginabile.
 
 ![](assets/dynamic_audience_experience_pairs.png)
 
-I filtri dinamici basati su attributi di profilo che corrispondono agli attributi dell&#39;utente consentono di impostare un pubblico che dinamicamente, offre al volo l&#39;esperienza desiderata, come mostrato nella metà inferiore dell&#39;illustrazione precedente.
+I filtri dinamici basati su attributi di profilo che corrispondono agli attributi dell'utente consentono di impostare un pubblico che dinamicamente, offre al volo l'esperienza desiderata, come mostrato nella metà inferiore dell'illustrazione precedente.
 
 Con le informazioni richieste incorporate in ogni annuncio di lavoro e i dati necessari registrati nei profili utente, la creazione e la gestione dei tipi di pubblico e delle esperienze è notevolmente semplificata.
 
@@ -174,7 +174,7 @@ Nessuna corrispondenza, perché “Athletic” (singolare) non è uguale ad “A
 
 In alternativa, è possibile utilizzare “inizia con” invece di “è uguale a” per rendere effettiva questa corrispondenza.
 
-**Scenario 4:** nell&#39;illustrazione seguente viene mostrato come utilizzare gli operatori “è uguale a” ed “è tra” per promuovere oggetti più costosi provenienti dalla stessa categoria e dallo stesso marchio. Ad esempio, una società di abbigliamento sportivo può promuovere scarpe da corsa più costose, nel tentativo di attuare una strategia di up-selling per un visitatore in cerca di pantaloncini da corsa.
+**Scenario 4:** nell'illustrazione seguente viene mostrato come utilizzare gli operatori “è uguale a” ed “è tra” per promuovere oggetti più costosi provenienti dalla stessa categoria e dallo stesso marchio. Ad esempio, una società di abbigliamento sportivo può promuovere scarpe da corsa più costose, nel tentativo di attuare una strategia di up-selling per un visitatore in cerca di pantaloncini da corsa.
 
 ![](assets/dynamic3.png)
 
@@ -208,7 +208,7 @@ value - is between - 100% and 1000% of - current item's - value
 
 Osserva che in questo esempio vengono utilizzate due regole dinamiche e una regola statica.
 
-**Scenario 6:** nella terza illustrazione viene mostrato come utilizzare l&#39;operatore “è diverso da” per promuovere una serie che non sia uguale a quella che il visitatore sta guardando. Ad esempio, un sito web multimediale potrebbe promuovere una serie televisiva diversa dalla serie che il visitatore sta guardando.
+**Scenario 6:** nella terza illustrazione viene mostrato come utilizzare l'operatore “è diverso da” per promuovere una serie che non sia uguale a quella che il visitatore sta guardando. Ad esempio, un sito web multimediale potrebbe promuovere una serie televisiva diversa dalla serie che il visitatore sta guardando.
 
 ![](assets/dynamic5.png)
 
@@ -218,7 +218,7 @@ In questo esempio viene utilizzata la regola seguente:
 series - does not equal - current item's - series
 ```
 
-**Scenario 7:** nella quarta illustrazione viene mostrato come promuovere articoli compatibili con l&#39;ultimo articolo acquistato dal visitatore. Ad esempio, se un visitatore ha acquistato un nuovo televisore, è possibile promuovere dinamicamente un cavo HDMI.
+**Scenario 7:** nella quarta illustrazione viene mostrato come promuovere articoli compatibili con l'ultimo articolo acquistato dal visitatore. Ad esempio, se un visitatore ha acquistato un nuovo televisore, è possibile promuovere dinamicamente un cavo HDMI.
 
 ![](assets/dynamic1.png)
 
@@ -228,7 +228,7 @@ In questo esempio vengono utilizzate le regole seguenti:
 id - equals - last purchased item's - compatibleAccessoryids
 ```
 
-**Scenario 8:** nell&#39;illustrazione successiva viene illustrato come promuovere gli articoli in offerta con un prezzo tra il 90 e 110% dell&#39;articolo attualmente visualizzato dal visitatore. Ad esempio, se un visitatore sta osservando un televisore, si potrebbero promuovere dinamicamente televisori simili che sono in offerta e che rientrano nella stessa fascia di prezzo.
+**Scenario 8:** nell'illustrazione successiva viene illustrato come promuovere gli articoli in offerta con un prezzo tra il 90 e 110% dell'articolo attualmente visualizzato dal visitatore. Ad esempio, se un visitatore sta osservando un televisore, si potrebbero promuovere dinamicamente televisori simili che sono in offerta e che rientrano nella stessa fascia di prezzo.
 
 ![](assets/dynamic2.png)
 
@@ -238,19 +238,19 @@ In questo esempio vengono utilizzate le regole seguenti:
 salesPrice - is between - 90% and 110% of - current item's - price
 ```
 
-**Scenario 9:** consideriamo lo scenario seguente per un sito di notizie sportive su come gestire i valori vuoti, come spiegato in [Gestione dei valori vuoti durante l&#39;applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza dei parametri](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8), qui sopra:
+**Scenario 9:** consideriamo lo scenario seguente per un sito di notizie sportive su come gestire i valori vuoti, come spiegato in [Gestione dei valori vuoti durante l'applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza dei parametri](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#section_7D30E04116DB47BEA6FF840A3424A4C8), qui sopra:
 
-Il team responsabile dei contenuti di un sito di notizie sportive vuole presentare agli utenti contenuti specifici sulle loro squadre preferite. Se un utente ha specificato una squadra preferita, il team vuole che per tale utente vengano visualizzati i contenuti pertinenti per tale squadra. Se un utente non ha specificato alcuna squadra preferita, il team può utilizzare l&#39;elenco a discesa “Se *x* è vuoto” per eseguire una delle operazioni seguenti:
+Il team responsabile dei contenuti di un sito di notizie sportive vuole presentare agli utenti contenuti specifici sulle loro squadre preferite. Se un utente ha specificato una squadra preferita, il team vuole che per tale utente vengano visualizzati i contenuti pertinenti per tale squadra. Se un utente non ha specificato alcuna squadra preferita, il team può utilizzare l'elenco a discesa “Se *x* è vuoto” per eseguire una delle operazioni seguenti:
 
-* Utilizzare l&#39;opzione [!UICONTROL Ignora questa regola di filtro] per ignorare completamente il filtro della squadra, come illustrato di seguito:
+* Utilizzare l'opzione [!UICONTROL Ignora questa regola di filtro] per ignorare completamente il filtro della squadra, come illustrato di seguito:
 
    ![](assets/missing1.png)
 
-* Utilizzare l&#39;opzione [!UICONTROL Non mostrare alcun risultato per questo criterio] per non mostrare alcun contenuto come parte di questo criterio, come illustrato si seguito:
+* Utilizzare l'opzione [!UICONTROL Non mostrare alcun risultato per questo criterio] per non mostrare alcun contenuto come parte di questo criterio, come illustrato si seguito:
 
    ![](assets/missing7.png)
 
-* Utilizzare l&#39;opzione [!UICONTROL Usa valore statico] per visualizzare i contenuti per una squadra specifica (ad esempio, 49ers), come illustrato di seguito:
+* Utilizzare l'opzione [!UICONTROL Usa valore statico] per visualizzare i contenuti per una squadra specifica (ad esempio, 49ers), come illustrato di seguito:
 
    ![](assets/missing10.png)
 
