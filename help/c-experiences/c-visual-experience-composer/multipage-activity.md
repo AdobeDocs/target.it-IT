@@ -29,7 +29,7 @@ Puoi anche utilizzare un’attività multipagina per definire layout diversi per
 
 Per aggiungere delle pagine a un test:
 
-1. Fai clic sull&#39;icona **[!UICONTROL Configura]** a forma di ingranaggio.
+1. Fai clic sull'icona **[!UICONTROL Configura]** a forma di ingranaggio.
 1. Fai clic su **[!UICONTROL Aggiungi pagine supplementari]**.
 
    Sulla sinistra dello schermo appare una barra di navigazione.
@@ -40,11 +40,11 @@ Per aggiungere delle pagine a un test:
 
    Fai clic su **[!UICONTROL Aggiungi pagina]** per aggiungere una pagina.
 
-   Fai clic sull&#39;icona dei tre puntini di sospensione verticali per visualizzare un menu di azione:
+   Fai clic sull'icona dei tre puntini di sospensione verticali per visualizzare un menu di azione:
 
    ![](assets/multipage_menu.png)
 
-   Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall&#39;interno dell&#39;attività multipagina ed eliminare la pagina.
+   Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall'interno dell'attività multipagina ed eliminare la pagina.
 
-1. Il compositore di esperienza visivo permette di progettare il modo in cui l&#39;offerta appare in ogni pagina.
+1. Il compositore di esperienza visivo permette di progettare il modo in cui l'offerta appare in ogni pagina.
 
