@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Dettagli sulle versioni di at.js
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -20,6 +20,24 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >[!IMPORTANT]
 >
 >Il team di Target gestisce solo due versioni di [!DNL at.js], la versione corrente e quella immediatamente precedente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata.
+
+## at. js versione 2.1.1 (24 luglio 2019)
+
+Questo rilascio di at. js è una versione di manutenzione e include i seguenti miglioramenti e correzioni:
+
+(I codici tra parentesi sono per uso interno di Adobe.)
+
+* È stato risolto un problema che causava l'attivazione di più beacon quando si utilizzava la metrica Click Tracking (Tracciamento) nella pagina Goals &amp; Settings (Obiettivi e impostazioni) in Visual Experience Composer (Compositore esperienza visivo) (VEC). (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* È stato risolto un problema che causava un errore a causa dell'utilizzo di decodeuricomponent che causava problemi quando l'URL conteneva un parametro stringa di query non valido. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* È stato risolto un problema che impediva la visualizzazione delle offerte Recommendations sui siti Web per alcuni clienti. I clienti possono vedere il contenuto delle offerte nella chiamata API per la consegna, ma l'offerta non è stata applicata al sito Web. (TNT-32680)
+* È stato risolto un problema che causava il mancato funzionamento del tracciamento di clic tra più esperienze. (TNT-32644)
+* È stato risolto un problema che impediva all '. js di applicare la seconda metrica dopo il rendering della prima metrica. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* È stato risolto un problema che causava la visualizzazione e la selezione di risposte di notifica da bloccare nei browser basati su Chromium (incluso Google Chrome). (TNT-32290)
 
 ## at. js versione 2.1.0 (3 giugno 2019)
 
