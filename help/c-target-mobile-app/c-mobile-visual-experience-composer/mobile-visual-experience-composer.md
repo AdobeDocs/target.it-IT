@@ -7,7 +7,7 @@ title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
 
 ---
 
@@ -84,16 +84,6 @@ Quando viene rilevata una nuova versione dell'app, riceverete una notifica che l
 Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
 
 ![Gestisci versione, finestra di dialogo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
-
-## Risoluzione dei problemi {#troubleshooting}
-
-**Il Compositore esperienza visivo per app mobile notifica che l’app si è disconnessa.**
-
-La tua connessione internet potrebbe essere scaduta. Riavvia l’applicazione quando internet ritorna disponibile e viene stabilita una nuova connessione. Consigliamo di creare un’attività in Compositore esperienza visivo per app mobile con una connessione Wi-Fi attiva.
-
-**Il Compositore esperienza visivo per app mobile non è sincronizzato con la mia app mobile.**
-
-Fai clic sul pulsante [!UICONTROL Aggiorna] nel Compositore esperienza visivo per sincronizzare la visualizzazione.
 
 ## Visualizzazioni di Target e applicazioni mobile {#target-views}
 
@@ -194,9 +184,17 @@ Tieni presente che ogni volta che un’offerta di Target viene precaricata, veng
 
 ## Risoluzione dei problemi {#ts}
 
-**Ho ricevuto un errore che indica che il valore "context. application. name" contiene caratteri non consentiti. What characters are allowed in mobile app names?**
+**Il Compositore esperienza visivo per app mobile notifica che l’app si è disconnessa.**
 
-I caratteri consentiti nei nomi degli app mobili includono:
+La tua connessione internet potrebbe essere scaduta. Riavvia l’applicazione quando internet ritorna disponibile e viene stabilita una nuova connessione. Consigliamo di creare un’attività in Compositore esperienza visivo per app mobile con una connessione Wi-Fi attiva.
+
+**Il Compositore esperienza visivo per app mobile non è sincronizzato con la mia app mobile.**
+
+Fai clic sul pulsante [!UICONTROL Aggiorna] nel Compositore esperienza visivo per sincronizzare la visualizzazione.
+
+**Ho ricevuto un errore che indica che il valore "context. application. id" contiene caratteri non consentiti. What characters are allowed in mobile app IDs?**
+
+I caratteri consentiti negli ID app mobili includono:
 
 | Caratteri consentiti | Descrizione |
 | --- | --- |
@@ -215,7 +213,7 @@ I caratteri consentiti nei nomi degli app mobili includono:
 Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
 
 ```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.name] - Value contains prohibited chars;"}
+Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
 ```
 
 ## Limitazioni note {#limitations}
