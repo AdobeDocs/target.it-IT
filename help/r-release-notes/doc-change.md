@@ -1,14 +1,14 @@
 ---
 description: Elenco di modifiche importanti apportate alla documentazione di Target.
 keywords: registro modifiche documentazione target;aggiornamenti documentazione
-seo-description: Elenco di modifiche importanti apportate alla documentazione di Target.
-seo-title: Modifiche alla documentazione nella documentazione di prodotto di Adobe Target
+seo-description: In questa pagina sono elencate modifiche importanti apportate alla documentazione di Adobe Target.
+seo-title: Modifiche alla documentazione nella documentazione di Adobe Target
 solution: Target
 title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -16,6 +16,23 @@ source-git-commit: 86db1c3afd10ab8b6f64a6c3663699d007ce380c
 # Modifiche alla documentazione{#documentation-changes}
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
+
+## Adobe Target Standard/Premium 19.7.1 (23 luglio 2019) {#tgt-19-7-1}
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 24 luglio 2019 | [Aggiornamento da. js 1.*x* a. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Added new section: [Cross-domain tracking support in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Nuovo argomento. |
+|  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Aggiunta nuova sezione: " Visualizzazione dello stato dell'offerta Recommendations. " |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md) | Updated "Importing Items" row and added "Feed Imported Successfully at *time*" row under [Feed Statuses](/help/c-recommendations/c-products/feeds.md#status). |
+|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) | Testo aggiornato su come si aggiorna il catalogo. |
+|  | [Configurare il monitoraggio dei clic nell'app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Sono state aggiunte informazioni sul pannello Modifiche che mostra gli elementi configurati per il tracciamento dei clic. |
+|  | [Come funziona Adobe Target](/help/c-intro/how-target-works.md#bots) | Aggiunta nuova sezione: «Bot». |
+|  | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Sono state aggiunte procedure ottimali per evitare un'esecuzione regex lenta. |
+|  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | È stata aggiornata la sezione Risoluzione dei problemi per indicare che le limitazioni dei caratteri non si applicano più ai nomi delle app. Le limitazioni sono valide solo per gli ID. |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md#steps) | Sono state aggiunte le impostazioni del server FTP supportate ai passaggi. |
+|  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.1.1. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.7.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 19.6.1 (26 giugno 2019) {#tgt-19-6-1}
 
