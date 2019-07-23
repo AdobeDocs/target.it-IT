@@ -8,7 +8,7 @@ title: Consigli come offerta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -70,9 +70,9 @@ Esistono due modi per modificare la configurazione di un’offerta:
 
 ### Modificare un’offerta di consigli tramite il menu Modifica
 
-1. Fai clic sull’offerta da modificare, quindi fai clic su Modifica.
+1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Menu Modifica](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Offerta di modifica delle raccomandazioni](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Scegli una tra le opzioni seguenti:
 
@@ -85,8 +85,8 @@ Esistono due modi per modificare la configurazione di un’offerta:
 
 ### Modificare un’offerta di consigli tramite il pannello Modifiche
 
-1. Fai clic sull’icona [!UICONTROL Modifiche] *“&lt;/&gt;”* per visualizzare il riquadro [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
-1. Passa il cursore del mouse sull’azione desiderata, quindi fai clic sull’icona [!UICONTROL Modifica].
+1. Click the [!UICONTROL Modifications] icon  **(`</>`)** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
+1. Passa il cursore del mouse sull’azione desiderata, quindi fai clic sull’icona **[!UICONTROL Modifica].**
 
    ![Pannello delle modifiche](/help/c-recommendations/assets/recs-offer-modifications.png)
 
@@ -101,13 +101,23 @@ Esistono due modi per eliminare un’offerta di consigli:
 
 ### Eliminare un’offerta di consigli tramite il menu Modifica
 
-1. Fai clic sull’offerta da rimuovere, quindi fai clic su [!UICONTROL Layout &gt; Rimuovi].
+1. Fai clic sull’offerta da rimuovere, quindi fai clic su **[!UICONTROL Layout &gt; Rimuovi]**.
 
    ![Rimuovi](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Eliminare un’offerta di consigli tramite il pannello Modifiche
 
-1. Fai clic sull’icona [!UICONTROL Modifiche] *“&lt;/&gt;”* per visualizzare il riquadro [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Click the [!UICONTROL Modifications] icon **( &lt;/&gt; )** to display the [Modifications](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) pane.
 1. Passa il cursore del mouse sull’azione desiderata, quindi fai clic sull’icona [!UICONTROL Elimina].
 
    ![Icona Elimina](/help/c-recommendations/assets/recs-offer-delete.png)
+
+### Viewing the recommendations offer's status {#status}
+
+The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
+
+* Risultati pronti
+* Risultati non pronti
+* Feed non riuscito
+
+![Recommendations offre lo stato](/help/c-recommendations/assets/recs-offer-status.png)
