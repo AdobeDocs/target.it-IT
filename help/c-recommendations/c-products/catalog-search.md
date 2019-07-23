@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0876963-5905-4850-a615-953e435f26e9
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -29,9 +29,7 @@ Nei risultati della ricerca, fai clic sul filtro **[UICONTROL Ambiente]** per sp
 
 Il numero visualizzato accanto a "Prodotti" è il numero di prodotti corrispondenti al termine di ricerca, sul totale disponibile nell’ambiente specificato.
 
-Fai clic sull’icona di aggiornamento per reindicizzare il catalogo. Attenzione: l’indicizzazione può richiedere un certo tempo, a seconda delle dimensioni del feed.
-
-Il catalogo si aggiorna automaticamente ogni ora. Fai clic su **[!UICONTROL Aggiorna]** per reindicizzare il catalogo prima del prossimo aggiornamento automatico.
+Il catalogo viene aggiornato automaticamente quando gli aggiornamenti vengono ricevuti tramite file di feed, API o aggiornamenti mbox. In genere, gli aggiornamenti vengono completati entro un'ora. Se sono in corso aggiornamenti, viene visualizzato l'ora di inizio dell'aggiornamento più recente. Se non sono in corso aggiornamenti, viene visualizzato l'ora in cui viene visualizzato l'aggiornamento più recente e completato.
 
 Puoi creare raccolte o esclusioni utilizzando la Ricerca avanzata nella pagina Ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]). Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta o Esclusione].
 
