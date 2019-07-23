@@ -1,7 +1,7 @@
 ---
 description: I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
-keywords: consigli;attività di consigli;criteri
-seo-description: I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
+keywords: consigli;attività di consigli;criteri; algoritmo
+seo-description: I criteri in Adobe Target sono regole che determinano quali prodotti raccomandare in base a un set predeterminato di comportamenti dei visitatori.
 seo-title: Criteri
 solution: Target
 title: Criteri
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
 
 ---
 
@@ -71,15 +71,15 @@ Tutti i criteri di un giorno vengono eseguiti due volte al giorno. Tutti i crite
 
 Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il mouse su una scheda e fai clic sull'icona Informazioni sulla scheda dei criteri, senza aprirli.
 
-![](assets/criteria_hover.png)
+![Passaggio della scheda dei criteri](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
 Fai clic sulla scheda **[!UICONTROL Informazioni Algoritmo]** per visualizzare le informazioni generali sui criteri selezionati, tra cui Nome, Descrizione, Verticale, Tipo di pagina/e, Chiave/i, Logica Consiglio e ID algoritmo.
 
-![](assets/criteria_info.png)
+![Scheda Informazioni algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
 Fai clic sulla scheda **[!UICONTROL Uso dell'Algoritmo]** per visualizzare un elenco di attività che fanno riferimento ai criteri selezionati. La scheda elenca le attività attive e inattive. Fai clic sugli elenchi a discesa Attività o Inattività per visualizzare l'intero elenco di attività che fanno riferimento a tali criteri. Puoi fare clic sul link dell'attività per aprire quella da modificare.
 
-![](assets/criteria_usage.png)
+![Scheda Utilizzo criteri](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 ## Determinare il momento in cui i risultati dei criteri sono pronti per la visualizzazione {#section_03F328C07F234692B6D996DF745584B3}
 
@@ -91,7 +91,7 @@ Dal diagramma attività, le schede Criteri ora indicano quando i risultati sono 
 
 La figura seguente mostra il diagramma dell'attività nella pagina Panoramica di un'attività di Consigli. Nel secondo passaggio del processo di creazione di un'attività, puoi anche vedere il diagramma dell'attività coni risultati dello Status dei criteri.
 
-![](assets/criteria_status.png)
+![Stato dei criteri nella pagina Panoramica](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
 I risultati dello Status includono Risultati Pronti, Risultati Non Pronti e Feed non riuscito, come illustrato nel diagramma seguente:
 
