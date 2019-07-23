@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
 
 ---
 
@@ -198,7 +198,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 >* Target supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello di entity.id di Consigli. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
-## Creazione di un feed {#task_C6CD9EA905744C2CA0BB8259BB74C867}
+## Creazione di un feed {#steps}
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
@@ -220,7 +220,13 @@ recs/t_feeds_create.xml
 
    Se selezioni la voce FTP, indica le informazioni relative al server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare l’FTP con SSL (FTPS).
 
+   Impostazioni server FTP supportate:
+
+   * FTP e FTPS devono essere impostati per utilizzare l'FTP passivo.
+   * Per FTPS, configurare il server per accettare connessioni FTPS esplicite.
+   * SFTP non è supportato.
    Se selezioni la voce URL, specifica l'URL.
+
 1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Pianificazione].
 
    ![Risultato passaggio](assets/CreateFeedSchedule.png)
@@ -260,7 +266,7 @@ Lo stato “Completato” indica che il file è stato trovato e analizzato corre
 
 Informazioni sui possibili stati dei feed e sui relativi indicatori.
 
-### Stato dei feed {#section_5DDC2DECF70A42FDAFF2235E91371537}
+### Stato dei feed {#status}
 
 Di seguito sono riportati gli stati possibili per un feed:
 
@@ -272,10 +278,8 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Pianificato per *data e ora* | Il feed non è stato eseguito, ma è pianificato per essere eseguito alla data e all’ora specificate. |
 | Attesa del download | Target si sta preparando per il download del file di feed. |
 | Download del file di feed | Target sta eseguendo il download del file di feed. |
-| Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. Nota: quando il passaggio è stato completato e viene visualizzato “Preparazione aggiornamenti indice di ricerca”, significa che le modifiche agli attributi degli elementi sono state importate nel sistema centrale e saranno applicate al contenuto dei consigli consegnati restituito dai nodi geografici Edge entro 60 minuti. |
-| Preparazione aggiornamenti indice di ricerca | Target sta preparando l’aggiornamento dell’indice di ricerca del catalogo. Nota: se questo stato è elencato, significa che sono state apportate modifiche agli attributi degli elementi e presto verranno applicate ai consigli consegnati, anche se non sono ancora applicate in Ricerca catalogo. |
-| Aggiornamento dell’indice di ricerca | Target sta eseguendo l’aggiornamento dell’Indice di ricerca del catalogo. Nota: se questo stato è elencato, significa che sono state apportate modifiche agli attributi degli elementi e presto verranno applicate ai consigli consegnati, anche se è possibile che non siano ancora applicate in Ricerca catalogo. |
-| Aggiornamenti completati | Target ha completato tutti gli aggiornamenti associati al file di feed. |
+| Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. |
+| Feed Imported Successfully at *time* | Target ha importato il file di feed nel relativo sistema di distribuzione dei contenuti. Sono state apportate modifiche agli attributi degli elementi nel sistema di distribuzione dei contenuti e presto si rifletterà nelle raccomandazioni fornite. In caso contrario, riprovate a breve e aggiornate la pagina contenente le raccomandazioni.<br>*Nota 1:* Se le modifiche agli attributi di un elemento determinano l'esclusione di un elemento dalle raccomandazioni, l'esclusione viene riflessa immediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Nota 2:* Quando viene visualizzato questo stato, gli aggiornamenti potrebbero non essere ancora riflessi nell'interfaccia utente di ricerca catalogo. Nella ricerca catalogo viene visualizzato uno stato separato che indica l'ultima volta che è stato aggiornato il catalogo ricercabile. |
 | Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
