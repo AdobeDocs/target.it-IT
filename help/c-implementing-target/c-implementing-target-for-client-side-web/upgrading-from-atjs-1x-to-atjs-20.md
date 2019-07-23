@@ -1,33 +1,33 @@
 ---
-description: Aggiornamento da at.js 1.x a at.js 2.x
-keywords: versioni di at.js;rilascio at.js; app a pagina singola;spa
-seo-description: Informazioni dettagliate su come effettuare l’aggiornamento da Adobe Target at.js 1.x alla versione 2.0.0
-seo-title: 'Aggiornare da Adobe Target at.js versione 1.x alla versione 2.0.0 '
+description: Aggiornamento da. js 1. * x * a at. js 2. * x *
+keywords: at. js release; at. js versioni; app a pagina singola; spa; cross domain; cross-domain
+seo-description: Informazioni dettagliate sull'aggiornamento da Adobe Target a. js 1. * x * a. js versione 2.0.0
+seo-title: Aggiornamento da Adobe Target alla versione 1. js* x * to at. js versione 2.*x*
 solution: Target
 subtopic: Introduzione
-title: Aggiornamento da at.js 1.x a at.js 2.x
+title: Aggiornamento da. js 1. * x * a at. js 2. * x *
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 71419ee6053eeb86ab6595cfba2f05d8506e05b3
 
 ---
 
 
-# Aggiornamento da at.js 1.x a at.js 2.x {#upgrading-from-atjs-1x-to-atjs-200}
+# Upgrading from at.js 1.*x* to at.js 2.*x* {#upgrading-from-atjs-1x-to-atjs-200}
 
 La versione più recente di at.js in [!DNL Adobe Target] offre set di funzioni avanzate che consentono di eseguire personalizzazioni su tecnologie lato client di nuova generazione. Questa nuova versione si concentra sull'aggiornamento di at.js per garantire interazioni in sintonia con le applicazioni a pagina singola.
 
-Di seguito sono riportati alcuni vantaggi dell’utilizzo di at.js 2.x che non sono disponibili nelle versioni precedenti:
+Here are some benefits of using at.js 2.*x* that are not available in previous versions:
 
 * La capacità di memorizzare nella cache tutte le offerte al caricamento di pagina per ridurre più chiamate al server a una singola chiamata al server.
 * Migliora enormemente le esperienze degli utenti finali sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza l’implementazione di chiamate al server tradizionali.
 * Una semplice riga di codice e una configurazione per sviluppatori una tantum per consentire agli esperti di marketing di creare ed eseguire attività A/B e XT tramite il Compositore esperienza visivo sull’applicazione a pagina singola.
 
-## Diagrammi di sistema di at.js 2.x
+## at.js 2.*diagrammi* di sistema x
 
-I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.x, consulta [Implementazione di un’applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+The following diagrams help you understand the workflow of at.js 2.*x* with Views and how this enhances the SPA integration. To get a better introduction of the concepts used in at.js 2.*x*, see [Single Page Application implementation](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Flusso di Target con at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Target flow with at. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Chiamata | Dettagli |
 | --- | --- |
@@ -42,7 +42,7 @@ I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x t
 
 Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola, le visualizzazioni e le azioni vengono recuperate dalla cache e mostrate all’utente senza una chiamata al server. `triggerView()` invia anche una richiesta di notifica al backend [!DNL Target] per incrementare e registrare i conteggi delle impression.
 
-![Flusso di Target triggerView at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
+![Target flow at. js 2.*x* triggerview](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-triggerview.png)
 
 | Chiamata | Dettagli |
 | --- | --- |
@@ -53,9 +53,9 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
 
-## Implementare at.js 2.x {#deploy-atjs-200}
+## Distribuire at.js 2.*x* {#deploy-atjs-200}
 
-1. Deploy at.js 2.x via the [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) extension.
+1. Distribuire at.js 2.*x* tramite l'estensione [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
    >[!NOTE]
    >
@@ -63,20 +63,20 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
    Oppure
 
-   Manually download at.js 2.x using the Target UI and deploy it using the [method of your choice](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Scarica manualmente in. js 2.*x* utilizzando l'interfaccia utente di Target e distribuiscila utilizzando il [metodo desiderato](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
 
 ## Funzioni at.js disattivate
 
-In at.js 2.x sono state rimosse diverse funzioni.
+There are several functions that have been deprecated in at.js 2.*x*.
 
 >[!IMPORTANT]
 >
->Se queste funzioni obsolete sono ancora in uso sul tuo sito quando viene implementato at.js 2.x, verranno visualizzati degli avvisi nella console. L’approccio consigliato durante l’aggiornamento consiste nel testare la distribuzione di at.js 2.x in un ambiente di verifica, assicurarsi di controllare tutti gli avvisi registrati nella console e tradurre le funzioni obsolete in nuove funzioni introdotte in at.js 2.x.
+>If these deprecated functions are still used on your site when at.js 2.*x* is deployed, you will see console warnings. The recommended approach when upgrading is to test the deployment of at.js 2.*x* in a staging environment and make sure to go through each and every warning that has been logged in the console and translate the deprecated functions to new functions introduced in at.js 2.*x*.
 
 Di seguito puoi trovare le funzioni obsolete e i loro equivalenti. Per un elenco completo delle funzioni, consulta [Funzioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 
 >[!NOTE]
->at.js 2.x non nasconde più preventivamente in automatico gli elementi contrassegnati da `mboxDefault`. I clienti dovranno quindi nasconderli manualmente sul sito o tramite uno strumento di gestione dei tag.
+>at.js 2.*x* non precede più automaticamente gli elementi `mboxDefault` contrassegnati. I clienti dovranno quindi nasconderli manualmente sul sito o tramite uno strumento di gestione dei tag.
 
 ### mboxCreate(mbox,params)
 
@@ -95,7 +95,7 @@ Esegue una richiesta e applica l’offerta all’elemento DIV più vicino con il
 </script>
 ```
 
-**Equivalente in at.js 2.x**
+**at. js 2.*x*equivalente**
 
 Un’alternativa a `mboxCreate(mbox, params)` è `getOffer()` e `applyOffer()`.
 
@@ -144,7 +144,7 @@ Crea una mappatura interna tra un elemento e un nome mbox, ma non esegue la rich
 </script>
 ```
 
-**Equivalente in at.js 2.x**:
+**at. js 2.*x*equivalente**:
 
 Un’alternativa a `mboxDefine()` e `mboxUpdate` è `getOffer()` e `applyOffer()`, con l’opzione del selettore utilizzata in `applyOffer()`. Questo approccio consente di mappare l’offerta su un elemento utilizzando qualsiasi selettore CSS, non solo uno con un ID.
 
@@ -210,25 +210,25 @@ Questa funzione non è più supportata. Non utilizzarla.
 
 Tieni presente le limitazioni e i callout seguenti:
 
-**Tracciamento delle conversioni**
+### Tracciamento delle conversioni
 
 I clienti che usano `mboxCreate()` per il tracciamento delle conversione devono utilizzare `trackEvent()` o `getOffer()`.
 
-**Consegna delle offerte**
+### Consegna delle offerte
 
 I clienti che non sostituiscono `mboxCreate()` con `getOffer()` o `applyOffer()` rischiano di riuscire a consegnare offerte.
 
-**È possibile utilizzare at.js 2.x in alcune pagine e at.js 1.*x*o mbox.js in altre pagine?**
+### Can at. js 2.*x* be used in some pages while at. js 1.*x* o mbox.js in altre pagine?
 
 Sì, il profilo del visitatore è mantenuto su più pagine utilizzando diverse versioni e librerie. Il formato del cookie è lo stesso.
 
-**Nuovo utilizzo dell’API in at.js 2.x**
+### New API use in at.js 2.*x*
 
-at.js 2.x utilizza una nuova API, che chiamiamo API Delivery. Per eseguire il debug se at.js sta chiamando correttamente il server perimetrale [!DNL Target], filtra la scheda Rete degli strumenti per sviluppatori del tuo browser con “delivery”, “`tt.omtrdc.net`” o con il tuo codice client. Noterai inoltre che [!DNL Target] invia un payload JSON invece di coppie chiave-valore.
+at.js 2.*x utilizza una nuova API, che chiamiamo API Delivery.* Per eseguire il debug se at.js sta chiamando correttamente il server perimetrale [!DNL Target], filtra la scheda Rete degli strumenti per sviluppatori del tuo browser con “delivery”, “`tt.omtrdc.net`” o con il tuo codice client. Noterai inoltre che [!DNL Target] invia un payload JSON invece di coppie chiave-valore.
 
-**Non si utilizza più la Mbox globale di Target**
+### Non si utilizza più la Mbox globale di Target
 
-In at.js 2.x, non vedrai più “`target-global-mbox`” chiaramente nelle chiamate di rete. Abbiamo invece sostituito la sintassi “`target-global-mbox`” con “`execute > pageLoad`” nel payload JSON inviato ai server [!DNL Target], come mostrato di seguito:
+In at.js 2.** x, non vedrai più “`target-global-mbox`” chiaramente nelle chiamate di rete. Abbiamo invece sostituito la sintassi “`target-global-mbox`” con “`execute > pageLoad`” nel payload JSON inviato ai server [!DNL Target], come mostrato di seguito:
 
 ```
 {
@@ -247,7 +247,7 @@ In at.js 2.x, non vedrai più “`target-global-mbox`” chiaramente nelle chiam
 
 In sostanza, il concetto di mbox globale era stato introdotto per comunicare a [!DNL Target] se recuperare o meno offerte e contenuti al caricamento delle pagine. Nella nostra versione più recente, lo abbiamo reso più esplicito.
 
-**Il nome della mbox globale in at.js ha ancora importanza?**
+### Il nome della mbox globale in at.js ha ancora importanza?
 
 I clienti possono specificare un nome per la mbox globale tramite [!UICONTROL Target &gt; Configurazione &gt; Implementazione &gt; Modifica impostazioni at.js]. I server perimetrali [!DNL Target] utilizzano questa impostazione per tradurre execute &gt; pageload nel nome della mbox globale visualizzato nell’interfaccia utente [!DNL Target]. Questo consente ai clienti di continuare a utilizzare le API lato server, il compositore basato su moduli, gli script di profilo e creare tipi di pubblico utilizzando il nome della mbox globale. Inoltre, consigliamo vivamente di configurare lo stesso nome della mbox globale anche nella pagina [!UICONTROL Configurazione &gt; Preferenze], nel caso in cui si disponga di pagine che utilizzano ancora at.js 1.*x* o mbox.js, come mostrato nelle illustrazioni di seguito.
 
@@ -257,19 +257,19 @@ e
 
 ![Mbox globale personalizzata](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/custom-global-mbox.png)
 
-**È necessario attivare l’impostazione di creazione automatica di una mbox globale con at.js 2.x?**
+### Does the auto-create global mbox setting need to be turned on for at.js 2.*x*?
 
-Nella maggior parte dei casi, sì. Questa impostazione comunica a at.js 2.x di attivare una richiesta ai server perimetrali [!DNL Target] al momento del caricamento della pagina. Questa impostazione deve essere attiva perché la mbox globale si traduce in execution &gt; pageLoad, ma anche se desideri attivare una richiesta al caricamento della pagina.
+Nella maggior parte dei casi, sì. This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge servers upon page load. Questa impostazione deve essere attiva perché la mbox globale si traduce in execution &gt; pageLoad, ma anche se desideri attivare una richiesta al caricamento della pagina.
 
-**Le attività del Compositore esperienza visivo esistenti continueranno a funzionare, anche se il nome della mbox globale di Target non è specificato a partire da at.js 2.x?**
+### Will existing VEC activities continue to work, even though the target global mbox name is not specified from at.js 2.*x*?
 
 Sì, perché execute &gt; pageLoad è trattato sul backend [!DNL Target] come `target-global-mbox`.
 
-**Se le mie attività basate su moduli sono mirate per`target-global-mbox`, queste continueranno a funzionare?**
+### Se le mie attività basate su moduli sono mirate per `target-global-mbox`, queste continueranno a funzionare?
 
 Sì, perché execute &gt; pageLoad è trattato sui server perimetrali [!DNL Target] come `target-global-mbox`.
 
-**Impostazioni di at.js 2.x supportate e non supportate**
+### Supported and non-supported at.js 2.*x* Settings
 
 | Impostazione | Supportate? |
 | --- | --- |
@@ -277,23 +277,29 @@ Sì, perché execute &gt; pageLoad è trattato sui server perimetrali [!DNL Targ
 | Creazione automatica di una mbox globale | Sì |
 | Nome mbox globale | Sì |
 
-**Il supporto per il monitoraggio tra più domini *non*è disponibile**
+### Cross-domain tracking support in at.js 2.x {#cross-domain}
 
-Il monitoraggio tra più domini consente di visualizzare sessioni su due siti correlati, ma con domini diversi, come una sessione singola. Ad esempio, potresti creare un’attività [!DNL Target] che si espande su `siteA.com` e `siteB.com` con il visitatore che resta nella stessa esperienza quando passa da un dominio all’altro. Questa funzionalità è legata al comportamento di cookie di terze parti e di prima parte di Target.
+Il monitoraggio tra più domini consente di unire i visitatori nei diversi domini. Poiché per ciascun dominio deve essere creato un nuovo cookie, è difficile tenere traccia dei visitatori quando navigano da dominio a dominio. To accomplish cross-domain tracking, [!DNL Target] uses a third-party cookie to track visitors across domains. This allows you to create a Target activity that spans `siteA.com` and `siteB.com` and visitors remain in the same experience when they navigate across unique domains. Questa funzionalità è legata al comportamento di cookie di terze parti e di prima parte di Target.
 
-In [!DNL Target], il cookie di terze parti è memorizzato in `[CLIENTCODE].tt.omtrdc.net`, il cookie di prima parte in `clientdomain.com`. La prima richiesta restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC`, mentre viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo (`mboxXDomainCheck=true`). Se il browser accetta cookie di terze parti, la richiesta di reindirizzamento li include e viene restituita l’offerta. Questo flusso di lavoro è possibile perché utilizziamo il metodo HTTP GET.
+>[!NOTE]
+>
+>Il monitoraggio tra più domini non è supportato dalla casella in at. js 2.*x*. Il monitoraggio tra più domini è supportato in at. js 2.*x* tramite la libreria Experience Cloud ID (ECID) v 4.3.0 +.
 
-Tuttavia, con at.js 2.x non si utilizza più HTTP GET, ma HTTP POST. Il nuovo metodo serve a inviare payload JSON ai server perimetrali [!DNL Target]. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti si interrompe. Questo perché le richieste HTTP GET sono transazioni idempotenti, mentre HTTP POST non lo è e non deve ripetersi arbitrariamente. Pertanto, il supporto del monitoraggio tra più domini non è più disponibile in at.js 2.x.
+In Target, the third-party cookie is stored in `<CLIENTCODE>.tt.omtrdc.net`. The first-party cookie is stored in `clientdomain.com`. La prima richiesta restituisce intestazioni di risposta HTTP che tentano di impostare cookie di terze parti denominati `mboxSession` e `mboxPC`, mentre viene inviata nuovamente una richiesta di reindirizzamento con un parametro aggiuntivo (`mboxXDomainCheck=true`). Se il browser accetta i cookie di terze parti, la richiesta di reindirizzamento li include e l'esperienza viene restituita. Questo flusso di lavoro è possibile perché utilizziamo il metodo HTTP GET.
 
-**È disponibile il supporto della creazione automatica di una mbox globale**
+However, in at.js 2.*x*, HTTP GET is no longer used and instead we use HTTP POST. HTTP POST viene ora utilizzato tramite at. js 2.*x* per inviare payload JSON ai server Target Edge. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti si interrompe. Poiché le richieste HTTP GET sono transazioni idealizzate, HTTP POST non è ideatico e non deve essere ripetuta arbitrariamente. Di conseguenza, il monitoraggio tra più domini in at. js 2.*x* non è più supportato dalla casella. Solo at. js 1.*x* supporta il monitoraggio tra più domini.
 
-Questa impostazione comunica a at.js 2.x di attivare una richiesta ai server perimetrali [!DNL Target] al momento del caricamento della pagina. Poiché la mbox globale è convertita in execute &gt; pageLoad e interpretata dai server perimetrali [!DNL Target], i clienti devono attivarla se desiderano avviare una richiesta al caricamento della pagina.
+If you want to use cross-domain tracking, you must install the [ECID library v4.3.0+](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) in conjunction with at.js 2.*x*. La libreria ECID esiste per gestire ID persistenti che vengono utilizzati per identificare un visitatore anche tra domini diversi. Dopo l'installazione della libreria ECID v 4.3.0 + e at. js 2.*x*, sarai in grado di creare attività che si estendono su domini univoci e di monitorare gli utenti.
 
-**Supporto del nome mbox globale disponibile**
+### È disponibile il supporto della creazione automatica di una mbox globale
+
+This setting tells at.js 2.*x* to fire a request to the [!DNL Target] edge servers on page-load. Poiché la mbox globale è convertita in execute &gt; pageLoad e interpretata dai server perimetrali [!DNL Target], i clienti devono attivarla se desiderano avviare una richiesta al caricamento della pagina.
+
+### Supporto del nome mbox globale disponibile
 
 I clienti possono specificare un nome per la mbox globale tramite [!UICONTROL Target &gt; Configurazione &gt; Implementazione &gt; Modifica impostazioni at.js]. I server perimetrali [!DNL Target] utilizzano questa impostazione per tradurre execute &gt; pageLoad nel nome della mbox globale immesso. Questo consente ai clienti di continuare a utilizzare le API lato server, il compositore basato su moduli, gli script di profilo e creare tipi di pubblico mirati per la mbox globale.
 
-**I seguenti eventi personalizzati at.js sono applicabili a`triggerView()`o valgono solo per`applyOffer()`o`applyOffers()`?**
+### I seguenti eventi personalizzati at.js sono applicabili a `triggerView()` o valgono solo per `applyOffer()` o `applyOffers()`?
 
 * `adobe.target.event.CONTENT_RENDERING_FAILED`
 * `adobe.target.event.CONTENT_RENDERING_SUCCEEDED`
@@ -302,13 +308,13 @@ I clienti possono specificare un nome per la mbox globale tramite [!UICONTROL Ta
 
 Sì, gli eventi personalizzati at.js sono applicabili anche a `triggerView()`.
 
-**Quando richiamo`triggerView()`con`{“page” : “true”}`, dice che invierà una notifica al backend[!DNL Target]e aumenterà le impression. Questo provocherà anche l’esecuzione degli script di profilo?**
+### Quando richiamo `triggerView()` con `{“page” : “true”}`, dice che invierà una notifica al backend [!DNL Target] e aumenterà le impression. Questo provocherà anche l’esecuzione degli script di profilo?
 
 Quando si effettua una chiamata di preacquisizione al backend [!DNL Target], avviene l’esecuzione degli script di profilo. Successivamente, i dati del profilo interessati saranno crittografati e trasmessi nuovamente al lato client. Dopo la chiamata di `triggerView()` con `{"page": "true"}`, si invierà una notifica insieme ai dati di profilo codificati. Questo si verifica quando il backend [!DNL Target] deciderà di decodificare i dati di profilo e archiviarli nei database.
 
-**Per gestire la visualizzazione temporanea di altri contenuti è necessario aggiungere codice per nasconderli anticipatamente prima di richiamare`triggerView()`?**
+### Per gestire la visualizzazione temporanea di altri contenuti è necessario aggiungere codice per nasconderli anticipatamente prima di richiamare `triggerView()`?
 
-No, non è necessario aggiungere codice per nascondere contenuti anticipatamente prima di richiamare `triggerView()`. at.js 2.x gestisce la logica relativa ai contenuti nascosti anticipatamente e visualizzati temporaneamente prima di mostrare e applicare la visualizzazione.
+No, non è necessario aggiungere codice per nascondere contenuti anticipatamente prima di richiamare `triggerView()`. at.js 2.*x gestisce la logica relativa ai contenuti nascosti anticipatamente e visualizzati temporaneamente prima di mostrare e applicare la visualizzazione.*
 
 ## Compatibilità di at.js
 
@@ -328,7 +334,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 
 >[!NOTE]
 >
->Quando tutte le modifiche vengono applicate al `Page Load Event`, le attività di targeting automatico sono supportate tramite at.js 2.x e il Compositore esperienza visivo. Quando vengono aggiunte modifiche a particolari viste, sono supportate solo le attività A/B Test, Allocazione automatica e Targeting esperienze (XT).
+>Auto-Target activities are supported through at.js 2.*x* and the VEC when all modifications are applied to the `Page Load Event`. Quando vengono aggiunte modifiche a particolari viste, sono supportate solo le attività A/B Test, Allocazione automatica e Targeting esperienze (XT).
 
 ### Integrazioni {#integrations}
 
@@ -340,7 +346,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 | Frammenti esperienza AEM | Sì |
 | Estensione Adobe Launch | [Sì](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Strumento di debug | Sì |
-| Auditor | Le regole per at.js 2.x non sono ancora state aggiornate |
+| Auditor | Rules have not yet been updated for at.js 2.*x* |
 | Dynamic Tag Manager (DTM) | Sì |
 | Opt-in | No. Opt-in support for [GDPR](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) is supported in [at.js version 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personalizzazione avanzata AEM fornita da Adobe Target | No |
@@ -375,19 +381,19 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 
 at.js 2.*x*, esattamente come at.js 1.*x*, utilizza l’evento personalizzato `at-request-succeeded` per ottenere i token di risposta. Per esempi di codice con l’evento `at-request-succeeded` personalizzato, consulta [Token di risposta](/help/administrating-target/response-tokens.md).
 
-## Parametri di at.js 1.x in corrispondenza della mappatura payload di at.js 2.x {#payload-mapping}
+## at.js 1.*x* parameters to at. js 2.*mappatura* payload x {#payload-mapping}
 
-Questa sezione delinea le mappature tra at.js 1.*x* e at.js 2.x.
+Questa sezione delinea le mappature tra at.js 1.*x* e at. js 2.*x*.
 
 Prima di passare alla mappatura dei parametri, gli endpoint utilizzati da queste versioni della libreria sono cambiati:
 
 * at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* at.js 2.x - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* at.js 2.*x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
 Un’altra differenza significativa è che:
 
 * at.js 1.*x* - Il codice client è parte del percorso
-* at.js 2.x - Il codice client viene inviato come parametro della stringa query, ad esempio:
+* at.js 2.*x* - Il codice client viene inviato come parametro della stringa query, ad esempio:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
 Le seguenti sezioni riportano tutte nell’elenco il parametro di at.js 1.*x*, la sua descrizione e il corrispondente payload JSON 2.0.0 (se applicabile):
@@ -414,7 +420,7 @@ Utilizzato per le [autorizzazioni per gli utenti Enterprise](/help/administratin
 
 Altezza della finestra del browser del visitatore.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -432,7 +438,7 @@ Payload JSON di at.js 2.x:
 
 Larghezza della finestra del browser del visitatore.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -450,7 +456,7 @@ Payload JSON di at.js 2.x:
 
 Offset fuso orario.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -466,7 +472,7 @@ Payload JSON di at.js 2.x:
 
 Altezza della schermata del visitatore.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -484,7 +490,7 @@ Payload JSON di at.js 2.x:
 
 Larghezza della schermata del visitatore.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -502,7 +508,7 @@ Payload JSON di at.js 2.x:
 
 Profondità colore della schermata del visitatore.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -520,7 +526,7 @@ Payload JSON di at.js 2.x:
 
 Dominio della pagina in cui viene eseguita la libreria di Target.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -538,7 +544,7 @@ Payload JSON di at.js 2.x:
 
 Funzionalità del rendering GL WEB del browser. Questo viene usato dal nostro meccanismo di rilevamento del dispositivo per determinare se il dispositivo del visitatore è un computer desktop, un iPhone, un dispositivo Android, ecc.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -556,7 +562,7 @@ Payload JSON di at.js 2.x:
 
 URL della pagina.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -574,7 +580,7 @@ Payload JSON di at.js 2.x:
 
 Riferimento (provenienza) della pagina.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -592,7 +598,7 @@ Payload JSON di at.js 2.x:
 
 L’API della consegna non dispone più di un concetto mbox globale. Nel payload JSON devi usare `execute > pageLoad`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -612,7 +618,7 @@ Payload JSON di at.js 2.x:
 
 Per utilizzare il nome di una mbox, trasmettilo a `execute > mboxes`. Una mbox richiede un indice e un nome.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -646,7 +652,7 @@ Non più utilizzato.
 
 ID della richiesta utilizzato dai sistemi a valle per facilitare il debug.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -673,7 +679,7 @@ L’ID della sessione viene inviato come parametro della stringa di query (`sess
 
 L’ID TNT viene trasmesso in `id > tntId`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -690,7 +696,7 @@ Payload JSON di at.js 2.x:
 
 L’ID del visitatore di Experience Cloud viene trasmesso in `id > marketingCloudVisitorId`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -701,13 +707,13 @@ Payload JSON di at.js 2.x:
 }
 ```
 
-### vst.aaaa.id e vst.aaaa.authState
+### `vst.aaaa.id` e `vst.aaaa.authState`
 
 (parametro di at.js 1.*x*)
 
 Gli ID cliente devono essere trasmessi in `id > customerIds`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -728,7 +734,7 @@ Payload JSON di at.js 2.x:
 
 ID di terze parti del cliente utilizzato per collegare diversi ID di Target.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -745,7 +751,7 @@ Payload JSON di at.js 2.x:
 
 SDID, noto anche come ID di dati supplementari. Deve essere trasmesso in `experienceCloud > analytics > supplementalDataId`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -764,7 +770,7 @@ Payload JSON di at.js 2.x:
 
 Server di tracciamento di Analytics. Deve essere trasmesso in `experienceCloud > analytics > trackingServer`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -783,7 +789,7 @@ Payload JSON di at.js 2.x:
 
 Server di tracciamento sicuro di Analytics. Deve essere trasmesso in `experienceCloud > analytics > trackingServerSecure`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -802,7 +808,7 @@ Payload JSON di at.js 2.x:
 
 Hint di posizione di Audience Manager. Deve essere trasmesso in `experienceCloud > audienceManager > locationHint`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -821,7 +827,7 @@ Payload JSON di at.js 2.x:
 
 Blob Audience Manager. Deve essere trasmesso in `experienceCloud > audienceManager > blob`.
 
-Payload JSON di at.js 2.x:
+at.js 2.*payload* JSON x:
 
 ```
 {
@@ -840,10 +846,10 @@ Payload JSON di at.js 2.x:
 
 La versione viene inviata come parametro della stringa di query tramite il parametro della versione.
 
-## Video di formazione: diagramma architetturale di at.js 2.x
+## Training video: at.js 2.*x* architectural diagram
 
-at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
+at.js 2.*x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud.* Questo video spiega come sono stati uniti questi elementi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+See [Understanding how at.js 2.*x* funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
