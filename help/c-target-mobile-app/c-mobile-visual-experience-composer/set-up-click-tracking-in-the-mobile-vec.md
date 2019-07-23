@@ -8,7 +8,7 @@ title: Configurare il tracciamento dei clic nel Compositore esperienza visivo pe
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
 
 ---
 
@@ -50,3 +50,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Nel Compositore esperienza visivo per app mobile, sono consentiti solo gli elementi con un gestore di clic allegato.
 * Puoi passare a qualsiasi sezione dell'applicazione, ma assicurati che le [visualizzazioni](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) siano definite per la sezione in cui stai selezionando gli elementi per il tracciamento dei clic.
 * Durante la modifica di un'attività, se il dispositivo è già selezionato nel Passaggio 1, non è necessario selezionare nuovamente il dispositivo. Tuttavia, se arrivi direttamente alla pagina di tracciamento dei clic, verrà visualizzata la schermata di selezione del dispositivo per selezionare un dispositivo autorizzato.
+* Nella VEC App mobile viene visualizzato un pannello Modifiche che mostra gli elementi configurati per il tracciamento dei clic.
+
+   ![Pannello Modifiche che mostra il tracciamento del clic
+   ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
