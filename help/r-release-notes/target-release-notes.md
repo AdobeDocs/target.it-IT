@@ -8,7 +8,7 @@ title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 71419ee6053eeb86ab6595cfba2f05d8506e05b3
+source-git-commit: f49c0c94afe6bf8aadbfb76930b57bf7cd5602dc
 
 ---
 
@@ -35,6 +35,26 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | ![Premium badgerecommendations](/help/assets/premium.png)<br>in A/B Testing and Experience Targeting (XT) attività | Lo stato Offer Offer (algoritmo) di Recommendations viene visualizzato nella pagina Overview (Panoramica) per le attività A/B Test and XT che contengono Recommendations offerte. Gli stati includono: Risultati pronti, Risultati non pronti e Feed di feed. (TGT-33649)<br>See [Recommendations as an offer](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Supporto di monitoraggio tra più domini per at. js 2.0 + tramite la libreria Experience Cloud ID (ECID) | In precedenza, il monitoraggio tra domini non era supportato in at. js 2.*x*. Con questa release, i clienti che usano at. js 2.0 o versioni successive possono ora utilizzare il tracciamento tra domini attraverso la libreria ECID. Affinché il tracciamento interdominio funzioni, la libreria ECID deve essere installata sulla pagina insieme a. js 2.0 o versione successiva. [È](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) necessario utilizzare la libreria Experience Cloud ID 4.3.0 +.<br>Consultate [Supporto di monitoraggio tra domini in at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
 | Supporto di Target per ITP 2.1 e ITP 2.2 di Apple tramite la libreria Experience Cloud ID (ECID) 4.3 | Oggi, i clienti di Target possono attenuare ITP 2.1 e ITP 2.2 Apple sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa release, Target introduce un'integrazione senza soluzione di continuità con la libreria ECID 4.3, che sfrutta un cookie lato server per attenuare ITP 2.1 e ITP 2.2. Si consiglia fortemente ai clienti di Target di distribuire [la libreria ECID 4.3 + in](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-release-notes.html) combinazione con la libreria javascript di Target per attenuare eventuali rilasci ITP futuri. La libreria ECID continuerà a presentare miglioramenti che offrono una soluzione solida ai criteri di cookie in continua evoluzione introdotti dai browser.<br>Consultate [Apple Intelligent Tracking Prevention (ITP) 2. x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+
+## at. js versione 2.1.1 (24 luglio 2019)
+
+Questo rilascio di at. js è una versione di manutenzione e include i seguenti miglioramenti e correzioni:
+
+(I codici tra parentesi sono per uso interno di Adobe.)
+
+* È stato risolto un problema che causava l'attivazione di più beacon quando si utilizzava la metrica Click Tracking (Tracciamento) nella pagina Goals &amp; Settings (Obiettivi e impostazioni) in Visual Experience Composer (Compositore esperienza visivo) (VEC). (TNT-32812)
+* Fixed an issue that caused `triggerView()` to not render offers more than once. (TNT-32780)
+* Fixed an issue with `triggerView()` to ensure that the request contains Marketing Cloud ID (MCID) information. (TNT-32776)
+* Fixed an issue that prevented the `triggerView()` notification to fire even if there are no saved views. (TNT-32614)
+* È stato risolto un problema che causava un errore a causa dell'utilizzo di decodeuricomponent che causava problemi quando l'URL conteneva un parametro stringa di query non valido. (TNT-32710)
+* The beacon flag is now set to "true" in the context of delivery requests sent via the `Navigator.sendBeacon()` API. (TNT-32683)
+* È stato risolto un problema che impediva la visualizzazione delle offerte Recommendations sui siti Web per alcuni clienti. I clienti possono vedere il contenuto delle offerte nella chiamata API per la consegna, ma l'offerta non è stata applicata al sito Web. (TNT-32680)
+* È stato risolto un problema che causava il mancato funzionamento del tracciamento di clic tra più esperienze. (TNT-32644)
+* È stato risolto un problema che impediva all '. js di applicare la seconda metrica dopo il rendering della prima metrica. (TNT-32628)
+* Fixed an issue when passing `mboxThirdPartyId` using the `targetPageParams` function that caused the request payload to not be present in either the query parameters or in the request payload. (TNT-32613)
+* È stato risolto un problema che causava la visualizzazione e la selezione di risposte di notifica da bloccare nei browser basati su Chromium (incluso Google Chrome). (TNT-32290)
+
+For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 **Miglioramenti, correzioni e modifiche**
 
