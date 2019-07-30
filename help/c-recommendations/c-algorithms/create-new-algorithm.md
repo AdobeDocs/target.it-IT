@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 3d0849af03dcaf1fb400b21e4f975fb35d7be87d
+source-git-commit: 378cf9f38d2758541b8425c8786259739751cd74
 
 ---
 
@@ -330,6 +330,8 @@ Il criterio Articoli visualizzati di recente ora restituisce risultati specifici
 **Dove utilizzare nel sito**
 
 Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
+
+[!NOTE]Recently Viewed Items (Elementi visualizzati di recente) rispetta sia le impostazioni globali Exclusions che quelle selezionate per l'attività. Se un elemento è escluso da un'esclusione globale, o non è incluso nella raccolta selezionata, non verrà visualizzato; Di conseguenza, quando si utilizzano i criteri di visualizzazione di un oggetto visualizzato di recente, viene generalmente utilizzata l'impostazione «Tutte le raccolte».
 
 ### Previously Purchased Items {#previously-purchased}
 
