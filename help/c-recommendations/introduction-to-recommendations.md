@@ -9,7 +9,7 @@ title-outputclass: premium
 topic: Premium
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: 48cb808283c9b2858e1bd041feb3fe8228253d6a
 
 ---
 
@@ -129,7 +129,7 @@ A [!DNL Recommendations] activity is made up of the following components:
 
 ![Illustrazione che mostra cosa compongono un'attività di Recommendations: Audience, Criteri e progettazioni](/help/c-recommendations/assets/intro-12.png)
 
-Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Potete personalizzare ciascuno di questi elementi o aggiungerne altri. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione si concentra sulla definizione dei criteri, che definiscono gli elementi delle streghe.
+Out of the box, [!DNL Target] includes 14 built-in audiences, 42 built-in criteria, and 10 built-in design templates. Potete personalizzare ciascuno di questi elementi o aggiungerne altri. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione si concentra sulla definizione dei criteri, che definiscono quali elementi verranno raccomandati.
 
 In Target viene utilizzato il concetto della scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
 
@@ -166,7 +166,7 @@ Potete basare la raccomandazione su:
 * L'elemento acquistato o aggiunto al carrello nel carrello
 * Un attributo personalizzato relativo a un visitatore o a un elemento
 
-In base a queste chiavi, scegliete la logica di raccomandazione:
+In base a queste chiavi, scegliete la logica di raccomandazione desiderata:
 
 * Articoli con attributi simili
 * Elementi più visualizzati in una particolare categoria
