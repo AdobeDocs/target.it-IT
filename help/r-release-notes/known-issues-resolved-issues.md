@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -24,6 +24,10 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Preview links {#preview}
+
+I collegamenti di anteprima per le attività salvate potrebbero non venire caricati se nell'account sono presenti troppe attività salvate. Riprovare a usare i collegamenti di anteprima. Per evitare che ciò accada, archiviate le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
 
 ### Offerte di reindirizzamento {#redirect}
 
