@@ -8,18 +8,18 @@ title: Creare esperienze
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 6911a91aba8505e8f91a7ab9723c54bd8e7082b7
 
 ---
 
 
 # Create experience{#create-experience}
 
-In Visual Experience Composer (Compositore esperienza visivo) è disponibile un'interfaccia visiva per modificare le esperienze sulla pagina in un'attività Experience Targeting (XT).
+The [!UICONTROL Visual Experience Composer] (VEC) provides a visual interface for editing the experiences on your page in an [!UICONTROL Experience Targeting] (XT) activity.
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 
-   [Durante la creazione di un'attività XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), il passaggio uno del flusso di lavoro guidato in tre parti (Esperienze) mostra l' [!UICONTROL Esperienza A predefinita] con un [!UICONTROL pubblico di tutti i visitatori] .
+   [Durante la creazione di un'attività XT](/help/c-activities/t-experience-target/t-xt-create/xt-create.md), il passaggio uno del flusso di lavoro guidato in tre parti ([!UICONTROL Esperienze]) mostra l' [!UICONTROL Esperienza A predefinita] con un [!UICONTROL pubblico di tutti i visitatori] .
 
    ![Pubblico di tutti i visitatori](/help/c-activities/t-experience-target/t-xt-create/assets/all-visitors.png)
 
@@ -27,19 +27,19 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un'
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando la VEC. For a list of actions that can be performed on an element to change the experience, see [Visual Experience Composer Options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Se hai creato una mbox sulla pagina utilizzando Target Classic (in precedenza Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
+   If you created an mbox on the page using [!DNL Target Classic], that mbox appears as an element that shows the mbox name, and can be modified like any other element.
 
    >[!NOTE]
    >
-   >Per impostazione predefinita, il Compositore esperienza visivo non consente di modificare gli elementi contenenti JavaScript, ad esempio i banner rotanti. Per modificare gli elementi mediante la VEC, è possibile selezionare javascript.
+   >Per impostazione predefinita, la VEC non consente modifiche agli elementi che contengono javascript, ad esempio i banner a rotazione. È possibile selezionare per disabilitare javascript per modificare questi elementi utilizzando la VEC.
 
-1. To create additional experiences, click **[!Add Experience Targeting]**.
+1. To create additional experiences, click **[!UICONTROL Add Experience Targeting]**.
 
    ![Collegamento Aggiungi targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/add-experience-targeting.png)
 
    The [!UICONTROL Choose Audience] dialog box displays. Per eseguire il targeting di un'esperienza per un'audience, dovete selezionare l'audience prima di poter aggiungere un'esperienza.
 
-   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in Target. È possibile selezionare un pubblico dalla libreria, oppure [creare un nuovo pubblico](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. You can select an audience from the library or [create a new audience](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
@@ -69,7 +69,7 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un'
 
    >[!NOTE]
    >
-   >Se distribuite un'immagine da un'origine diversa dalla pagina principale (ad esempio un'immagine in hosting su akamai. net e distribuita in adobe.com), l'immagine non viene visualizzata nella miniatura della pagina visualizzata nel diagramma di flusso.
+   >If you deliver an image from a source other than your main page (such as an image hosted on `akamai.net` and delivered on `adobe.com`), that image does not display in the thumbnail of the page shown in the flow diagram.
 
 1. (Condizionale) Trascina e rilascia le coppie di pubblico/esperienza durante la creazione o la modifica delle attività XT per disporre le coppie nell'ordine desiderato.
 
@@ -77,7 +77,7 @@ In Visual Experience Composer (Compositore esperienza visivo) è disponibile un'
 
    ![Sposta esperienze](/help/c-activities/t-experience-target/t-xt-create/assets/move_experiences-new.png)
 
-   Il targeting delle esperienze presuppone che l'ordine sia importante. Se un visitatore rientra nella prima coppia Pubblico/Esperienza, viene consegnata la prima esperienza.
+   [!UICONTROL Il targeting delle esperienze presuppone che l'ordine sia importante. ] Se un visitatore rientra nella prima coppia Pubblico/Esperienza, viene consegnata la prima esperienza.
 
    Supponi, ad esempio, di non sapere che l’ordine è importante durante la creazione di un’attività di targeting esperienze. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l'esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell'ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l'esperienza A, sia che si trovino a San Francisco o altrove in California. È possibile riordinare le coppie Pubblico/Esperienza da più restrittive a meno restrittive (San Francisco &gt; California &gt; Stati Uniti) senza ricreare l'intera attività.
 
@@ -98,9 +98,9 @@ On the **[!UICONTROL Experiences]** page (the first step in the three-step guide
 
 ![Elimina esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/delete-experience.png)
 
-## Duplicare un’esperienza
+## Duplicazione di un'esperienza
 
-È possibile copiare un’esperienza in un’attività di Targeting esperienza (XT) così da poter apportare modifiche minori senza dover ricreare l’esperienza da zero.
+Potete copiare un'esperienza in un'attività XT in modo da apportarvi modifiche minori senza dover ricreare l'esperienza da zero.
 
 Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui tre puntini di sospensione verticali &gt; **[!UICONTROL Duplica]**.
 
