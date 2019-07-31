@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/it/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
+source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
 
 ---
 
@@ -337,6 +337,7 @@ source-git-commit: 2ae3bdaeb6220ede7a59d68d7a400fad64c18202
    + [Domande frequenti sulla generazione di rapporti](c-reports/reporting-frequently-asked-questions.md)
 + Consigli {#recommendations}
    + [Panoramica su Recommendations](c-recommendations/recommendations.md)
+   + [Introduzione a Recommendations](/help/c-recommendations/introduction-to-recommendations.md)
    + [Pianificare e implementare Recommendations](c-recommendations/plan-implement.md)
    + Entità {#entities}
       + [Panoramica sulle entità](c-recommendations/c-products/products.md)
