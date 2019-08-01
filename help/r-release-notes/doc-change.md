@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -21,6 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 1 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stato aggiunto un annuncio importante riguardo il supporto API per le autorizzazioni Enterprise. |
+|  | Consenti agli integrazioni I/O di accedere alle aree di lavoro e assegna ruoli | Nuovo argomento. |
 | 31 luglio 2019 | [Introduzione a Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Nuovo argomento. |
 |  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Aggiunta nota agli elementi visualizzati di recente. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#preview) | È stato aggiunto un problema noto con i collegamenti di anteprima QA attività. |
