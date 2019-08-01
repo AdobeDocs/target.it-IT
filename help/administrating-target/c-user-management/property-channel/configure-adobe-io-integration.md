@@ -7,7 +7,7 @@ solution: Target
 subtopic: Introduzione
 title: Consenti agli integrazioni I/O di accedere alle aree di lavoro e assegna ruoli
 translation-type: tm+mt
-source-git-commit: a6aae8602b8f3c3f879bd6e3e37591f330197cf8
+source-git-commit: e1174aacc5610878c8671e88fbd20d51fedffe6c
 
 ---
 
@@ -36,11 +36,11 @@ Questo aggiornamento supporta i casi d'uso seguenti:
 
 **Azione richiesta**: I clienti che stanno sfruttando API per operazioni CRUD su risorse (attività, tipi di pubblico, offerte e rapporti) in tutte le aree di lavoro devono concedere l'accesso esistente di integrazione I/O di Adobe a tutte le aree di lavoro con il ruolo desiderato in base al loro caso d'uso. You can do so by selecting each [!DNL Target] [!UICONTROL Product Profile] in the [!DNL Adobe Admin Console] and adding the integration(s) in the [!UICONTROL Integration] tab. Prior to the September release, all integrations operated using [!UICONTROL Approver] access, regardless of choice made from the [!UICONTROL Product Role] drop-down list. Ora potete scegliere il ruolo desiderato.
 
-This action should be performed before **September 4, 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Non esiste una reazione negativa per impostare in anticipo le integrazioni in base alle linee guida precedenti. Prima di effettuare questa modifica, meglio sarà. A seconda del numero di aree di lavoro nell'organizzazione, è necessario un tempo limitato. Questo processo richiede solo pochi clic per aggiungere un'integrazione esistente alle aree di lavoro con il ruolo desiderato.
+This action should be performed during the month of **August 2019** to not face any disruption on your end. If this action is not performed, after the [!DNL Target] September 2019 release, the access controls will activate and you will observe access to just the default workspace if that's how you are currently set up. Non esiste una reazione negativa alla configurazione di integrazioni in anticipo. Prima di effettuare questa modifica, meglio sarà. A seconda del numero di aree di lavoro nell'organizzazione, è necessario un tempo limitato. Questo processo richiede solo pochi clic per aggiungere un'integrazione esistente alle aree di lavoro con il ruolo desiderato.
 
 **Per concedere l'accesso delle integrazioni I/O alle aree di lavoro e assegnare ruoli:**
 
-1. Open the **[!DNL[Adobe Admin Console](https://adminconsole.adobe.com)]**.
+1. Open the **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Click the **[!UICONTROL Products]** tab, then select the name of the desired product.
 
