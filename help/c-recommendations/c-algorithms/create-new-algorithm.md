@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 04a4585e1d56f1754b65a248715fa5bdd4f8986f
+source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
 
 ---
 
@@ -118,11 +118,15 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
    Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un'altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
 
-### Tempo di elaborazione previsto dei criteri
+### Tempo di elaborazione previsto dei criteri {#time}
 
 * **mbox**: se il criterio utilizza mbox come origine dei dati comportamentali, una volta creato, il criterio verrà eseguito immediatamente. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l'algoritmo può richiedere fino a 12 ore per l'esecuzione. L'apporto di modifiche alla configurazione dei criteri comporta la riesecuzione dei criteri.
 
-* **Analytics**: se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, una volta creato, il tempo per la disponibilità del criterio dipende dal fatto se la suite di rapporti e l’intervallo di lookback selezionati siano stati utilizzati o meno per altri criteri. Se la suite di rapporti è stata utilizzata in precedenza con un intervallo di lookback esteso almeno quanto quello selezionato, i dati comportamentali sono già disponibili in Target e i consigli eseguono immediatamente i criteri. L'algoritmo può richiedere fino a 12 ore per l'esecuzione a seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo. Se la suite di rapporti non è stata utilizzata in precedenza o viene utilizzata con un intervallo di lookback più esteso, i consigli devono richiedere e ricevere dati da Adobe Analytics, quindi eseguire successivamente l'algoritmo. Il processo di sincronizzazione con Analytics richiede di solito almeno 2 giorni e potrebbe richiedere fino a 7 giorni per il completamento in base al carico del sistema di Analytics.
+* **Analytics**: se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, una volta creato, il tempo per la disponibilità del criterio dipende dal fatto se la suite di rapporti e l’intervallo di lookback selezionati siano stati utilizzati o meno per altri criteri.
+
+   * **Latenza iniziale**: La latenza iniziale è compresa tra due e sette giorni. Questa latenza iniziale si verifica solo una volta, quando i criteri sono configurati con una suite di rapporti che non è stata utilizzata in precedenza o viene utilizzata con una finestra di lookback più lunga.
+   * **Latenza continua**: Se la suite di rapporti è stata utilizzata in precedenza con una finestra di lookback almeno fino alla finestra di lookback selezionata, la latenza prevista per i criteri nuovi e esistenti è inferiore a 12 ore, a seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo.
+   Ad esempio, per la raccomandazione «Affinità visualizzata», quando un utente visualizza un prodotto, una chiamata di tracciamento di visualizzazione prodotto viene passata in Analytics vicino al tempo reale. I dati di Analytics vengono inviati a Target presto il giorno successivo e in Target l'algoritmo è inferiore a 12 ore.
 
 ## Basare il consiglio su una chiave consiglio {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -335,7 +339,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 >
 >Recently Viewed Items (Elementi visualizzati di recente) rispetta sia le impostazioni globali Exclusions che quelle selezionate per l'attività. Se un elemento è escluso da un'esclusione globale, o non è incluso nella raccolta selezionata, non verrà visualizzato; Di conseguenza, quando si utilizzano i criteri di visualizzazione di un oggetto visualizzato di recente, viene generalmente utilizzata l'impostazione «Tutte le raccolte».
 
-### Previously Purchased Items {#previously-purchased}
+### Elementi acquistati in precedenza {#previously-purchased}
 
 Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
 
