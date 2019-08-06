@@ -8,7 +8,7 @@ title: Visualizzare i rapporti - Domande frequenti su A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
 
 ---
 
@@ -37,7 +37,7 @@ L’applicazione dei ai rapporti è simile all’applicazione di segmenti nell�
 
 È possibile applicare segmenti alla metrica con una metrica calcolata. Questa operazione viene generalmente eseguita se desideri creare un nuovo tipo di evento di successo. Ad esempio, permette di vedere quanti visitatori di ritorno ha generato l’attività o quanti dei visitatori che hanno visto il test hanno poi visitato una determinata pagina. Al momento, per le metriche calcolate non è possibile generare incremento e affidabilità.
 
-## È necessario utilizzare visitatori, impression di attività o visite durante la visualizzazione dei rapporti? {#section_46D0CC450B414B4DA6853BFFEE87D7BE}
+## È necessario utilizzare visitatori, impression di attività o visite durante la visualizzazione dei rapporti? {#metrics}
 
 Ci sono diverse opzioni, ognuna con i propri vantaggi:
 
@@ -52,7 +52,7 @@ Valuta quanto segue:
 
 * Tutte le metriche sopra indicate si attivano quando un utente si qualifica per un'attività e il contenuto viene restituito da [!DNL Target]. Ciò non significa necessariamente che l'utente abbia visto l'offerta. Se l'esperienza di un’attività si trova nella parte inferiore della pagina e l'utente non scorre la pagina verso il basso, allora l'offerta è stata servita da [!DNL Target] ma non è stata vista dall'utente.
 * Le [!UICONTROL impressioni dell’attività] (misurate da [!DNL Target]) e le [!UICONTROL istanze] (misurate da [!DNL Analytics]) sono uguali, a meno che non vi siano più chiamate mbox sulla stessa pagina nella stessa attività. In tal caso si contano più [!UICONTROL impressioni dell’attività], ma solo una singola [!UICONTROL istanza].
-* Attualmente le metriche [!UICONTROL Impressioni dell’attività] e [!UICONTROL Conversione dell’attività] vengono gonfiate in [!DNL Analysis Workspace] e non devono essere utilizzate fino a quando il problema non viene risolto.
+* Quando utilizzate [!UICONTROL le metriche Impression] attività e [!UICONTROL Conversioni] attività in [!DNL Analysis Workspace], assicuratevi che entrambe le metriche abbiano [!UICONTROL gli stessi modelli di] attribuzione touch applicati. I modelli possono essere applicati facendo clic sull'ingranaggio delle impostazioni delle colonne, abilitando [!UICONTROL modelli di attribuzione non predefiniti], quindi selezionando [!UICONTROL lo stesso tocco. ] Ulteriori informazioni sull'attribuzione nella [panoramica IQ Attributi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) nella Guida Strumenti *di Analytics*.
 
 ## Che cosa significa “conversioni di attività” se l’addetto al marketing sceglie una metrica di Analytics durante l’impostazione dell’attività? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
