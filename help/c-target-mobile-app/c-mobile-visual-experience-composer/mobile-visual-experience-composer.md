@@ -7,7 +7,7 @@ title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a5c2ca2e79d78f6b8d1a053f91233210efe0f3cb
+source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
 
 ---
 
@@ -81,7 +81,7 @@ Quando viene rilevata una nuova versione dell'app, riceverete una notifica che l
 
 ![Nuova notifica app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-Multiple mobile app versions can be added and removed manually from the [!UICONTROL Manage Versions] dialog box.
+È possibile aggiungere e rimuovere manualmente più versioni app mobili dalla finestra [!UICONTROL di] dialogo Gestisci versioni.
 
 ![Gestisci versione, finestra di dialogo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
@@ -192,7 +192,7 @@ La tua connessione internet potrebbe essere scaduta. Riavvia l’applicazione qu
 
 Fai clic sul pulsante [!UICONTROL Aggiorna] nel Compositore esperienza visivo per sincronizzare la visualizzazione.
 
-**Ho ricevuto un errore che indica che il valore "context. application. id" contiene caratteri non consentiti. What characters are allowed in mobile app IDs?**
+**Ho ricevuto un errore che indica che il valore "context. application. id" contiene caratteri non consentiti. Quali caratteri sono consentiti negli ID app mobili?**
 
 I caratteri consentiti negli ID app mobili includono:
 
@@ -210,7 +210,7 @@ I caratteri consentiti negli ID app mobili includono:
 | `&` | Ampersand |
 | `+` | Segno più |
 
-Using a character that is not allowed, for example, an apostrophe ( `'` ) causes you to receive the following error message:
+Utilizzando un carattere non consentito, ad esempio un apostrofo ( `'` ), viene visualizzato il seguente messaggio di errore:
 
 ```
 Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
@@ -219,7 +219,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
 ## Limitazioni note {#limitations}
 
 * Il Compositore esperienza visivo per app mobile, al momento, può essere utilizzato per creare attività [Test A/B](/help/c-activities/t-test-ab/test-ab.md) e [Targeting esperienze (XT)](/help/c-activities/t-experience-target/experience-target.md) per le app per dispositivi mobili. Il supporto per gli altri tipi di attività sarà disponibile in futuro.
-* La funzione Anteprima non è ancora supportata. Sarà resa disponibile in una prossima versione.
 * Quando tenti di ricollegare l’app al Compositore esperienza visivo per app mobile, devi uscire completamente dall’app e riavviarla.
 
    Se l'applicazione mobile è già aperta durante uno degli scenari elencati di seguito, devi chiudere l'applicazione e quindi riaprirla. Tuttavia, *è necessario* chiudere l'applicazione dalla sezione delle applicazioni recenti e *senza* premere il pulsante Indietro. Se l'applicazione viene chiusa premendo il pulsante Indietro, potrebbero verificarsi problemi di connessione.
@@ -231,6 +230,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * La finestra di dialogo del dispositivo viene visualizzata quando si passa dal passaggio “Obiettivi e impostazioni” al passaggio “Creazione” (passaggio 1). Se l’applicazione è già aperta, è necessario chiuderla e riavviarla per riconnettersi al Compositore esperienza visivo per app mobile.
    Accertati di chiudere l'applicazione dalla sezione delle applicazioni recenti e non premendo il pulsante [!UICONTROL Indietro].
 
-## Training video: Adobe Target Mobile App Visual Experience Composer (3:33) {#video}
+## Video formazione: Adobe Target Mobile App Visual Composer (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=ita)
