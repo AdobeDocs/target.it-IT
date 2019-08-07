@@ -9,7 +9,7 @@ title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -24,7 +24,7 @@ Questo può accadere per diversi motivi:
 
 * La classificazione in [!DNL Target] non è stata completamente elaborata.
 
-   L’elaborazione della classificazione può richiedere fino a 24 ore dal primo salvataggio dell’attività.
+   In genere la classificazione dura tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 
 * La suite di rapporti non contiene dati, ma [!DNL Target] ha effettuato un tentativo di classificazione dei risultati. [!DNL Target] non può classificare i dati finché non si verifica il primo risultato.
 
