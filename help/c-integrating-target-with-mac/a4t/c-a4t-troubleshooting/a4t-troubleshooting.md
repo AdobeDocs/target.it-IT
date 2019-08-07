@@ -9,7 +9,7 @@ title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95bf4b2070cc2de235ac09ac164f0f9ec48dd6cd
 
 ---
 
@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 
-## Le attività non mostrano dati in Analytics, ma sono elencate come “non specificato”.{#section_EB97F0499B0E40E69A21C30DC539BF67}
+## Le attività non mostrano dati in Analytics, ma sono elencate come “non specificato”.{#unspecified}
 
 Questo può accadere per diversi motivi:
 
@@ -34,9 +34,9 @@ Questo può accadere per diversi motivi:
 
    [Contatta l’Assistenza clienti](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Ricorda che la classificazione dei rapporti può richiedere fino a 24 ore dopo il primo salvataggio.
-
 >[!NOTE]
+>
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tenere presente che in genere sono necessarie 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
