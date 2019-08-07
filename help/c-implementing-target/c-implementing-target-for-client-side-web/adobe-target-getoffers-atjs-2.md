@@ -1,14 +1,14 @@
 ---
-description: 'Informazioni sulla funzione adobe.target.getOffers(options) per at.js. '
-keywords: adobe.target.notification;element;selector;notification;extension
+description: 'Informazioni sulla funzione adobe.target.getOffers() per at.js. '
+keywords: adobe. target. getoffer; Getoffers; getoffer; get offers; at. js; funzioni; function
 seo-description: Informazioni sulla funzione adobe.target.getOffers(options) per la libreria JavaScript at.js di Adobe Target.
-seo-title: Informazioni sulla funzione adobe.target.getOffers(options) per la libreria JavaScript at.js di Adobe Target.
+seo-title: Informazioni sulla funzione adobe.target.getOffers() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
 subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -35,7 +35,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Request &gt; id &gt; thirdPartyId | No | Dimensione massima = 128 |  |  |
 | Request &gt; experiencecloud | No |  |  |
 | Request &gt; experiencecloud &gt; analytics | No |  | Integrazione di Adobe Analytics |
-| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | The following values are supported:<br>**client_side**: When specified, an analytics payload will be returned to the caller which should be used to send to Adobe Analytics via the Data Insertion API.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l'identificatore SDID per unire le chiamate a scopo di reporting. |
+| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | Sono supportati i seguenti valori:<br>**client_ side**: Se specificato, viene restituito un payload di analisi al chiamante che deve essere utilizzato per inviare ad Adobe Analytics tramite l'API di inserimento dati.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l'identificatore SDID per unire le chiamate a scopo di reporting. |
 | Request &gt; prefetch | No |  |  |
 | Request &gt; prefetch &gt; views | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile”<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Passa i parametri da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile” | Passa i parametri di profilo da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
@@ -181,7 +181,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato ad Adobe Analytics tramite l'API di inserimento [dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
