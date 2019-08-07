@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione targetGlobalSettings() per at.js. '
-keywords: adobe.target.notification;element;selector;notification;extension
+keywords: Targetglobalsettings; targetglobalsettings; Globalsettings; globalsettings; impostazioni globali; at. js; funzioni; ; Clientcode; clientcode; Serverdomain; serverdomain; Cookiedomain; cookiedomain; Crossdomain; crossdomain; timeout; Globalmboxautocreate; Visitorpercentimeout; Defaultcontenthiddenstyle; Defaultcontentvisiblestyle; Bodyhiddenstyle; Bodyhidingenabled; Imsorgid; Secureonly; Overridemboxedgeserver; Overridemboxedgeservertimeout; Optoutenabled; optout; rifiuto; Selectorspollingtimeout; Dataprovider
 seo-description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 seo-title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
 
 ---
 
