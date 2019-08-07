@@ -8,7 +8,7 @@ title: Visualizzare i rapporti - Domande frequenti su A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
 
 ---
 
@@ -58,11 +58,11 @@ Valuta quanto segue:
 
 Le “Conversioni attività” sono vuote se è stata selezionata una metrica di Analytics come metrica di conversione per l’attività.
 
-## Perché è indicato “non specificato” nei rapporti di Analytics? Che cosa significa? {#section_AF38D32DAFEF4DDD95E07424CF682CCA}
+## Perché è indicato “non specificato” nei rapporti di Analytics? Che cosa significa? {#unspecified}
 
 ![](assets/unspecified.png)
 
-In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. La visualizzazione dei dati relativi all’attività nei rapporti può richiedere fino a 36 ore. Anche se le attività non compaiono in questo rapporto fino a quel momento, tutti i dati dei visitatori legati a tali attività vengono acquisiti e compariranno quando la classificazione sarà completata.
+In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. In genere sono necessarie da 24 a 72 ore perché i dati dell'attività vengano visualizzati nei report. Anche se le attività non compaiono in questo rapporto fino a quel momento, tutti i dati dei visitatori legati a tali attività vengono acquisiti e compariranno quando la classificazione sarà completata.
 
 Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un'ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
