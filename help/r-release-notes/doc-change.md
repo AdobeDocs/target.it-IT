@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ad002a69dd3aa1d92f5b2d2b5d1fe5ef99dd9bb0
+source-git-commit: b26a62b10ae937ff654c44e10bbb5b38cae6f201
 
 ---
 
@@ -22,7 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 6 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte note sulla versione per la versione di Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.0. |
-|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#time) | Aggiornato il tempo di elaborazione previsto per Analytics. |
+|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Aggiornamento della sezione seguente: " Tempo di elaborazione previsto dei criteri. " |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | È stato aggiornato considerazioni sull'utilizzo [!UICONTROL delle metriche Impression] attività e [!UICONTROL Conversioni] attività in [!DNL Analysis Workspace]. |
 | 1 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stato aggiunto un annuncio importante riguardo il supporto API per le autorizzazioni Enterprise. |
 |  | [Consenti agli integrazioni I/O di accedere alle aree di lavoro e assegna ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nuovo argomento. |
