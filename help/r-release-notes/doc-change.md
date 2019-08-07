@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
@@ -24,6 +24,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 7 agosto 2019 | [Preacquisire il contenuto dell’offerta](/help/c-target-mobile-app/prefetch-offer-content.md) | Aggiunta nota che la funzionalità di preacquisizione negli SDK non è supportata per i tipi di attività Automatica di Target, Allocazione automatica e Automated Personalization (Personalizzazione automatizzata). |
 |  | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
+|  | [Normativa sulla privacy e sulla protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Argomento aggiornato per includere informazioni su California Consumer Privacy Act (CCPA). |
 | 6 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte note sulla versione per la versione di Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.0. |
 |  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Aggiornamento della sezione seguente: " Tempo di elaborazione previsto dei criteri. " |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | È stato aggiornato considerazioni sull'utilizzo [!UICONTROL delle metriche Impression] attività e [!UICONTROL Conversioni] attività in [!DNL Analysis Workspace]. |
