@@ -1,29 +1,29 @@
 ---
-description: Informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea e un elenco di domande frequenti su come questo regolamento influisce sull’organizzazione e su Adobe Target.
-keywords: gdpr;rgpd;ue;unione europea;privacy;FAQ;domande frequenti
-seo-description: Informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea e un elenco di domande frequenti su come questo regolamento influisce sull’organizzazione e su Adobe Target.
-seo-title: Privacy e Regolamento generale sulla protezione dei dati (RGPD)
+description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e Adobe Target.
+keywords: gdpr; eu; unione europea; privacy; faq; domande frequenti; California consumer privacy act; ccpa
+seo-description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e Adobe Target.
+seo-title: Regolamento generale sulla protezione dei dati (GDPR), la California Consumer Privacy Act (CCPA) e Adobe Target
 solution: Target
-title: Privacy e Regolamento generale sulla protezione dei dati (RGPD)
+title: Normativa sulla privacy e sulla protezione dei dati
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
 
 ---
 
 
-# Privacy e Regolamento generale sulla protezione dei dati (RGPD){#privacy-and-general-data-protection-regulation-gdpr}
+# Normativa sulla privacy e sulla protezione dei dati {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea e un elenco di domande frequenti su come questo regolamento influisce sull’organizzazione e su Adobe Target.
+Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e [!DNL Adobe Target]su.
 
 ## Panoramica della Privacy e del Regolamento generale sulla protezione dei dati (RGPD) {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
 Informazioni su come Adobe lavora con l’utente nel rispetto del Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea.
 
-## Panoramica sul RGPD {#section_8C99434A431B4494998B01B869E7EA5D}
+### Panoramica sul RGPD {#section_8C99434A431B4494998B01B869E7EA5D}
 
-Il 25 maggio 2018 entra in vigore il regolamento RGPD dell'Unione Europea. Per ulteriori informazioni sulle implicazioni per l'utente, consultare [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Il 25 maggio 2018, il GDPR dell'Unione Europea ha avuto effetto. Per ulteriori informazioni sulle implicazioni per l'utente, consultare [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 Quando Adobe fornisce software e servizi alle aziende, agisce come Incaricato del trattamento dei dati, per ognuno dei dati personali trattati e memorizzati nell'ambito della fornitura di tali servizi. In qualità di Incaricato del trattamento dei dati, Adobe tratta i dati personali in conformità alle autorizzazioni e alle istruzioni dell'azienda (ad esempio, come stabilito nell'accordo con Adobe).
 
@@ -34,12 +34,20 @@ Adobe Experience Cloud fornirà API pronte per il regolamento RGPD per i Titolar
 * Accedere alle informazioni relative all'interessato memorizzate in Target
 * Cancellare le informazioni relative all'interessato memorizzate in Target
 
-## Sito web sulle API di Adobe relative al Regolamento generale sulla protezione dei dati (RGPD) {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
+### Sito web sulle API di Adobe relative al Regolamento generale sulla protezione dei dati (RGPD) {#section_51B8FA3CBE234E9592BDA7083B5CE4CD}
 
 Per ulteriori informazioni, consulta:
 
 * [Sito web API di Adobe del regolamento generale sulla protezione dei dati](https://www.adobe.io/apis/cloudplatform/gdpr.html)
 * [Documentazione RGPD](https://www.adobe.io/apis/cloudplatform/gdpr/docs.html)
+
+## Panoramica del Federal Consumer Privacy Act (CCPA)
+
+The California Consumer Privacy Act (CCPA) is a effective January 1, 2020. Grazie alla progettazione, la legge consente al campo di modifica della California di apportare modifiche e definire i dettagli, il che significa che potete avere diverse domande. In caso di domande, non sei solo un'azienda che sta lavorando attraverso le incertezze della legge e cerca di comprendere e sviluppare un approccio per rispondere ai requisiti legali, operativi e tecnici.
+
+CCPA offre ai consumatori della California nuovi diritti relativi alle informazioni personali e impone responsabilità sulla protezione dei dati relativamente a determinate entità che operano in California. Ad alto livello, la legge offre a Californians diversi diritti chiave, compresi i diritti per: (1) informazioni sulla richiesta (accesso ai dati), (2) rifiuto della vendita di informazioni personali (un diritto molto definito per rifiutare la condivisione di informazioni con terze parti), (3) hanno informazioni personali eliminate e (4) essere informate che le informazioni personali sono state divulgate o vendute.
+
+Se l'anno scorso sei stato occupato per la legge sulla privacy dell'Europa (GDPR), alcuni di questi diritti potrebbero avere familiarità con e molti dei lavori che hai fatto potrebbero essere in grado di essere ripristinati.
 
 ## Consenso Adobe Target e Adobe Launch {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -55,7 +63,7 @@ window.targetGlobalSettings = {
 
 >[!NOTE]
 >
->La funzionalità di consenso è supportata in at. js versione 1.7.0 e at. js 2.1.0. La funzione di consenso non è supportata in. js versione 2.0.0 e 2.0.1.
+>La funzionalità di consenso è supportata in. js versione 1.7.0 e at. js 2.1.0 o versione successiva. La funzione di consenso non è supportata in. js versione 2.0.0 e 2.0.1.
 >
 >L'utilizzo di Adobe Launch per gestire l'opt-in è l'approccio consigliato. Esiste un ulteriore controllo granulare in Adobe Launch per nascondere elementi selezionati della pagina prima dell'attivazione di Target che è utile da sfruttare come parte della strategia di consenso.
 
@@ -93,19 +101,19 @@ Esistono tre scenari da considerare quando si utilizza l’opt-in:
    #pageContent { opacity:0;}
    ```
 
-## Domande frequenti sul Regolamento generale sulla protezione dei dati (RGPD){#concept_41F88DE95D2943178BEC382736B5C038}
+## Domande frequenti sulla privacy e sulla protezione dei dati {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Domande frequenti sul Regolamento generale sulla protezione dei dati (RGPD) specifiche di Adobe Target.
+Domande frequenti sul Regolamento generale sulla protezione dei dati (GDPR) e sulla California Consumer Privacy Act (CCPA) specifica di Adobe Target.
 
-### Qual è la politica di Adobe per il Regolamento generale sulla protezione dei dati (RGPD)? {#section_A6849628D6524C80A6E16946DC5D25A9}
+### Qual è il criterio di Adobe per questi regolamenti? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
 Adobe adempie o sta adempiendo ai propri obblighi in qualità di Incaricato del trattamento dei dati. Abbiamo una solida base di sicurezza certificata e controlli sulla privacy in base alla progettazione e continueremo a migliorare i prodotti in anticipo rispetto alla scadenza di maggio 2018. I clienti aziendali avranno la responsabilità di implementare questi miglioramenti e di aggiornare le politiche e le procedure necessarie.
 
-### La mia azienda, Titolare del trattamento dei dati, dovrà inviare una richiesta relativa al RGPD per ciascuna soluzione Adobe Experience Cloud utilizzata? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
+### Will my company, the Data Controller, need to submit a GDPR or CCPA request to each Adobe Experience Cloud solution that it uses? {#section_1DCFA9387D0C4506B14DCE04C49AC22A}
 
-No, Adobe sta implementando una modalità unica per consentire ai Titolari del trattamento dei dati di soddisfare i requisiti RGPD. Non è necessario che i Titolari del trattamento dei dati inviino la richiesta per ciascuna soluzione.
+No, Adobe fornisce un modo centrale per aiutare i controller dei dati a soddisfare i requisiti GDPR e CCPA. Non è necessario che i Titolari del trattamento dei dati inviino la richiesta per ciascuna soluzione.
 
-Tutte le richieste relative ai requisiti RGPD per le soluzioni Experience Cloud, incluso Target, saranno effettuate tramite un’API Adobe centralizzata, attualmente denominata API RGPD. L'API completa quindi la richiesta nella suite di soluzioni Experience Cloud del controller di dati.
+Tutte le richieste GDPR e CCPA nelle soluzioni Experience Cloud, inclusa Target, saranno eseguite tramite un'API centrale centrale, attualmente denominata API GDPR. L'API completa quindi la richiesta nella suite di soluzioni Experience Cloud del controller di dati.
 
 ### Quali informazioni possono essere eliminate dai nostri clienti in risposta a una richiesta dell’interessato/utente? {#section_4B51D00924EC4166B2442218B69214F0}
 
@@ -115,7 +123,7 @@ I dati aggregati o anonimi (ad esempio, i dati di segnalazione) che non identifi
 
 Anche i profili dei visitatori di Target che sono stati inattivi per 90 giorni vengono cancellati per impostazione predefinita, senza che sia necessaria alcuna azione.
 
-### Quali ID sono supportati per consentire ai clienti di completare una richiesta RGPD di accesso e cancellazione per Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
+### What IDs are supported to help customers complete a GDPR or CCPA access and deletion request for Target? {#section_F7D0EE4E6A28490FB20056A0D26118BC}
 
 Target supporta i seguenti tipi di ID per individuare un profilo cliente:
 
@@ -127,17 +135,17 @@ Target supporta i seguenti tipi di ID per individuare un profilo cliente:
 
 >[!NOTE]
 >
->Sebbene Adobe Target supporti sia cookie di prima parte sia di terze parti di diversi domini, i cookie Adobe Target di prima parte sono consigliati solo per il RGPD.
+>Sebbene Adobe Target supporti i cookie interdominio di prime e terze parti, i cookie di prime parti di Adobe Target sono consigliati solo per GDPR e CCPA.
 
 ### Come avviene la gestione del consenso da parte di Adobe Target? {#section_C86BF5EE4FAA47039659850E7594A6BA}
 
-Il regolamento RGPD non modifica quando è necessario ottenere il consenso, ma la modalità con cui ottenerlo. La strategia di consenso di ciascun cliente dipende dalle sue modalità di raccolta e utilizzo dei dati e dalla sua politica sulla privacy. La gestione del consenso non è supportata e non deve essere ottenuta tramite Target per RGPD.
+GDPR e CCPA non cambiano quando devi ottenere il consenso, ma come ottenerlo. La strategia di consenso di ciascun cliente dipende dalle sue modalità di raccolta e utilizzo dei dati e dalla sua politica sulla privacy. La gestione del consenso non è supportata da e non deve essere ottenuta tramite Target per GDPR e CCPA.
 
 Attualmente, Adobe non offre una soluzione per la gestione dei consensi, ma sul mercato sono in fase di sviluppo diversi strumenti per soddisfare alcuni dei nuovi requisiti. Per ulteriori informazioni sugli strumenti generali di tutela della privacy, inclusi i responsabili del consenso, consultare la [Relazione del 2017 sui fornitori di tecnologia della privacy](https://iapp.org/media/pdf/resource_center/Tech-Vendor-Directory-1.4.1-electronic.pdf) sul sito web dell'Associazione internazionale dei professionisti della privacy (International Association of Privacy Professionals, iaap).
 
 Adobe Target fornisce supporto per la funzionalità opt-in tramite Adobe Launch per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di Adobe Target. È inoltre presente un'opzione tramite Adobe Launch per pre-approvare il tag di Adobe Target. L'utilizzo di Adobe Launch per gestire l'opt-in è l'approccio consigliato. Esiste un ulteriore controllo granulare in Adobe Launch per nascondere alcuni elementi della pagina prima dell'attivazione di Adobe Target che potrebbe essere utile da sfruttare come parte della strategia di consenso.
 
-Per ulteriori informazioni su RGPD e Adobe Launch, consulta [La libreria JavaScript di Adobe sulla privacy e il RGPD.](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html) Inoltre, consulta la sezione precedente “Consenso Adobe Target e Adobe Launch”.
+For more information on GDPR, CCPA and Adobe Launch, see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Inoltre, consulta la sezione precedente “Consenso Adobe Target e Adobe Launch”.
 
 ### AdobePrivacy.js invia informazioni all'API RGPD? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -149,9 +157,9 @@ Per ulteriori informazioni su RGPD e Adobe Launch, consulta [La libreria JavaScr
 
 Ad esempio, Target elimina i cookie che memorizzano gli ID, ma Adobe Audience Manager (AAM) non elimina l'ID demdex memorizzato in un cookie di terze parti.
 
-### Quali informazioni devono essere incluse in una richiesta RGPD di Target? {#section_D29A4744AE6344E68AD7710B185FD6D0}
+### What information needs to be included in a Target GDPR or CCPA request? {#section_D29A4744AE6344E68AD7710B185FD6D0}
 
-Oltre ai requisiti del Servizio centrale di privacy, un messaggio RGPD valido per Target contiene:
+Oltre ai requisiti di Central Privacy Service, un messaggio GDPR o CCPA valido per Target contiene:
 
 ```
 { 
@@ -194,9 +202,9 @@ Oltre ai requisiti del Servizio centrale di privacy, un messaggio RGPD valido pe
 
 | Stato richiesta | Messaggio risposta Target | Scenario |
 |--- |--- |--- |
-| Processing (Completa elaborazione) | Processing (Completa elaborazione) | Target ha ricevuto la richiesta RGPD la sta elaborando. |
-| Completa | Non applicabile; contesto aziendale non applicabile | L'ID IMS nella richiesta RGPD non viene mappato su alcun client di Target.<br>Tieni presente che alcune società hanno più ID IMS. Devi inviare l'ID IMS in cui è stato fornito Target. |
-| Completa | Non applicabile; contesto utente non trovato | L'ID fornito nella richiesta RGPD per il visitatore o l'oggetto dati specifico non è presente nell'archivio dei profili di Target.<br>Nota che questo risultato si ottiene anche se si tenta di inviare un tipo di ID spazio dei nomi non supportato da Target (vedi sopra per gli ID supportati). |
+| Processing (Completa elaborazione) | Processing (Completa elaborazione) | Target ha ricevuto la richiesta GDPR o CCPA e sta elaborando. |
+| Completa | Non applicabile; contesto aziendale non applicabile | L'ID IMS nella richiesta GDPR o CCPA non viene mappato su alcun client di Target.<br>Tieni presente che alcune società hanno più ID IMS. Devi inviare l'ID IMS in cui è stato fornito Target. |
+| Completa | Non applicabile; contesto utente non trovato | L'ID fornito nella richiesta GDPR o CCPA per il visitatore o l'oggetto di dati specifico non è presente nell'archivio del profilo di Target.<br>Nota che questo risultato si ottiene anche se si tenta di inviare un tipo di ID spazio dei nomi non supportato da Target (vedi sopra per gli ID supportati). |
 | Errore | Messaggio di errore (i dettagli dipendono dal tipo di errore) | Errore durante il recupero o l'eliminazione del profilo dati richiesto.<br>Errore durante il caricamento su Azure della richiesta di accesso. |
 
 ### Quale risposta invia Target all'API RGPD per una richiesta di accesso? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
@@ -244,11 +252,11 @@ Un esempio di risposta API di accesso a Target potrebbe essere il seguente:
 
 | Campo | Descrizione |
 |--- |--- |
-| jobId | Indica l'ID del lavoro RGPD dall'API centrale RGPD. |
+| jobId | Indica l'ID processo GDPR o CCPA dall'API centrale GDPR. |
 | imsOrgID | Fornisce un identificatore univoco per la tua azienda. |
-| namespace | Denominato anche fonte di dati. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD per Target?” in questo argomento. |
-| type | Tipo di ID per il quale è stato richiesto l'accesso ai dati RGPD. Target accetta diversi tipi di ID, alcuni dei quali sono standard e altri specifici di Target. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD per Target?” in questo argomento. |
-| value | L'ID spazio dei nomi/sorgente dei dati. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD per Target?” per i valori accettati. |
+| namespace | Denominato anche fonte di dati. Consultate "Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e di eliminazione di CCPA per Target?" in questo argomento. |
+| type | Il tipo di ID per il quale hai richiesto l'accesso ai dati GDPR o CCPA. Target accetta diversi tipi di ID, alcuni dei quali sono standard e altri specifici di Target. Consultate "Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e di eliminazione di CCPA per Target?" in questo argomento. |
+| value | L'ID spazio dei nomi/sorgente dei dati. Consultate "Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e di eliminazione di CCPA per Target?" per i valori accettati. |
 | integration code | I codici di integrazione sono nomi semplici per le origini dati e consentono di tracciarle più facilmente rispetto agli ID delle origini dati. |
 
 Quando vengono forniti più valori per identificare i profili, ogni identificatore valido ha un file di profilo. I file di profilo sono inviati alle RGPD Azure Blob centrale attraverso l'API centrale RGPD, nel formato di risposta JSON del profilo obiettivo.
@@ -284,4 +292,4 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 ## Target supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Se scegli di utilizzarla come parte della strategia di implementazione RGPD, Target supporta l'omissione dell'IP. Per ulteriori informazioni, consulta [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Target supporta l'offuscamento IP in Target se scegliete di utilizzarlo come parte della strategia di implementazione GDPR o CCPA. Per ulteriori informazioni, consulta [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
