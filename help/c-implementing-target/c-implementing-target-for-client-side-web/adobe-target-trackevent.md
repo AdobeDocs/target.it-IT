@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione adobe.target.trackEvent(options) per at.js. '
-keywords: adobe.target.notification;element;selector;notification;extension
+keywords: adobe. target. trackevent; Trackevent; trackevent; evento di tracciamento; at. js; funzioni; ; Preventdefault; preventdefault; prevent default
 seo-description: Informazioni sulla funzione adobe.target.trackEvent(options) per la libreria at.js JavaScript di Adobe Target.
 seo-title: Informazioni sulla funzione adobe.target.trackEvent(options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: adobe.target.trackEvent(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Questa funzione genera una richiesta per segnalare le azioni dell'utente, ad esempio clic e conversioni. Non recapita le attività nella risposta.
 
-Queste chiamate mbox registrazione eventi possono essere utilizzate per definire le metriche nelle attività. For more information, see [Success Metrics](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) and [Track Conversions](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+Queste chiamate mbox registrazione eventi possono essere utilizzate per definire le metriche nelle attività. Per ulteriori informazioni, vedi [Metriche del successo](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) e [Tracciamento delle conversioni](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
 
 Di seguito sono riportati i dettagli API:
 
