@@ -1,21 +1,21 @@
 ---
-description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e Adobe Target.
+description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea, sulla California Consumer Privacy Act (CCPA) e su altri requisiti di privacy internazionali, e su come questi regolamenti influiscono sulla vostra organizzazione e Adobe Target.
 keywords: gdpr; eu; unione europea; privacy; faq; domande frequenti; California consumer privacy act; ccpa; privacy; protezione dei dati; opt-out; rifiuto; government; regulation
-seo-description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e Adobe Target.
-seo-title: Regolamento generale sulla protezione dei dati (GDPR), la California Consumer Privacy Act (CCPA) e Adobe Target
+seo-description: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea, sulla California Consumer Privacy Act (CCPA) e su altri requisiti di privacy internazionali, e su come questi regolamenti influiscono sulla vostra organizzazione e Adobe Target.
+seo-title: Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea, sulla California Consumer Privacy Act (CCPA) e su altri requisiti di privacy internazionali, e su come questi regolamenti influiscono sulla vostra organizzazione e Adobe Target.
 solution: Target
 title: Normativa sulla privacy e sulla protezione dei dati
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: ec69199fe85c9d8f2abb4826195ff894bd80af4a
 
 ---
 
 
 # Normativa sulla privacy e sulla protezione dei dati {#privacy-and-general-data-protection-regulation-gdpr}
 
-Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea e sulla California Consumer Privacy Act (CCPA) e sul modo in cui tali normative influiscono sulla vostra organizzazione e [!DNL Adobe Target]su.
+Informazioni sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea, sulla California Consumer Privacy Act (CCPA) e su altri requisiti di privacy internazionali, e su come questi regolamenti influiscono sulla vostra organizzazione e Adobe Target.
 
 ## Privacy and General Data Protection Regulation (GDPR) overview {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
@@ -37,9 +37,7 @@ Per ulteriori informazioni, consulta:
 
 ## Panoramica della California Consumer Privacy Act (CCPA)
 
-The California Consumer Privacy Act (CCPA) is a effective January 1, 2020. Grazie alla progettazione, la legge consente al campo di modifica della California di apportare modifiche e definire i dettagli, il che significa che potreste avere domande diverse. In caso di domande, non sei solo un'azienda che sta lavorando attraverso le incertezze della legge e cerca di comprendere e sviluppare un approccio per rispondere ai requisiti legali, operativi e tecnici.
-
-CCPA offre ai consumatori della California nuovi diritti relativi alle informazioni personali e impone responsabilità sulla protezione dei dati relativamente a determinate entità che operano in California. Ad alto livello, la legge offre a Californians diversi diritti chiave, compresi i diritti per:
+Il California Consumer Privacy Act (CCPA) offre ai consumatori della California nuovi diritti relativi alle informazioni personali e impone responsabilità sulla protezione dei dati relativamente a determinate entità che operano in California. Ad alto livello, la legge offre a Californians diversi diritti chiave, compresi i diritti per:
 
 * Informazioni su richiesta (accesso ai dati)
 * Rifiuto della vendita di informazioni personali (un diritto molto definito per rifiutare la condivisione di informazioni con terze parti)
@@ -102,7 +100,7 @@ Esistono tre scenari da considerare quando si utilizza l’opt-in:
 
 ## Domande frequenti sulla privacy e sulla protezione dei dati {#concept_41F88DE95D2943178BEC382736B5C038}
 
-Domande frequenti sul Regolamento generale sulla protezione dei dati (GDPR) e sulla California Consumer Privacy Act (CCPA) di [!DNL Target].
+Domande frequenti sul Regolamento generale sulla protezione dei dati (GDPR) dell'Unione Europea, sulla California Consumer Privacy Act (CCPA) e su altri requisiti relativi alla privacy internazionali specifici di Target.
 
 ### Qual è il criterio di Adobe per questi regolamenti? {#section_A6849628D6524C80A6E16946DC5D25A9}
 
