@@ -8,7 +8,7 @@ title: Normativa sulla privacy e sulla protezione dei dati
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: aa077c92e0b6aaec27429acd9292a5edcf6c60fa
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -289,6 +289,6 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 >
 >This is a shortened version of a [!DNL Target] profile JSON for the purpose of illustration. Many of the fields of the [!DNL Target] profile are not standard. Ciò che viene restituito dipende da quali informazioni si trovano in quel profilo specifico di visitatore.
 
-## Target supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
+### Target supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 [!DNL Target] supporta offuscamento IP se scegliete di utilizzarlo come parte della strategia di implementazione GDPR o CCPA. Per ulteriori informazioni, consulta [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
