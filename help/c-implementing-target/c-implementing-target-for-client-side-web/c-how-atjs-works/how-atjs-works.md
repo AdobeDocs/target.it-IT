@@ -8,7 +8,7 @@ title: Funzionamento di at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 2e2b7d8ccd8efa29c5734e22d53acedf6635e9e2
+source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
 
 ---
 
@@ -77,10 +77,27 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>I dati di [!DNL Analytics] possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
 
+## In che modo il. js esegue il rendering delle offerte con contenuto HTML {#render}
+
+Quando eseguite il rendering delle offerte con il contenuto HTML, at. js applica il seguente algoritmo:
+
+1. Le immagini vengono precaricate (se nel contenuto HTML sono presenti `<img>` tag).
+
+1. Il contenuto HTML è associato al nodo DOM.
+
+1. Gli script in linea vengono eseguiti (codice racchiuso tra `<script>` tag).
+
+1. Gli script remoti vengono caricati in modo asincrono ed eseguito (`<script>` tag con `src` attributi).
+
+Note importanti:
+
+* at. js non fornisce alcuna garanzia in merito all'esecuzione dell'esecuzione di script remoti, in quanto questi vengono caricati in modo asincrono.
+* Gli script in linea non devono avere dipendenze da script remoti, in quanto vengono caricati ed eseguito successivamente.
+
 ## Video di formazione: diagramma architetturale di at.js 2.x
 
 at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
