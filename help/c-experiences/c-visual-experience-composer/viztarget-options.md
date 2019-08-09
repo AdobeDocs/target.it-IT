@@ -8,7 +8,7 @@ title: Opzioni del Compositore esperienza visivo
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -340,6 +340,10 @@ Consente di aprire la destinazione del collegamento.
 ### Annulla/Ripristina
 
 Annulla le modifiche apportate alle attività durante una sessione di modifica. Puoi inoltre ripristinare le modifiche precedentemente annullate.
+
+## Considerazioni {#considerations}
+
+* Se un'offerta contiene contenuto HTML, consultate «How at. js rendering with HTML content» in [How at. js work](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
 
 ## Navigare tra gli elementi utilizzando il percorso DOM {#dom-path}
 
