@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
 
 ---
 
@@ -21,6 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 9 agosto 2019 | [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Aggiunta nuova sezione: " In che modo at. js esegue il rendering delle offerte con contenuto HTML. " |
+|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
 | 7 agosto 2019 | [Preacquisire il contenuto dell’offerta](/help/c-target-mobile-app/prefetch-offer-content.md) | Aggiunta nota che la funzionalità di preacquisizione negli SDK non è supportata per i tipi di attività Automatica di Target, Allocazione automatica e Automated Personalization (Personalizzazione automatizzata). |
 |  | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
