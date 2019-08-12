@@ -8,7 +8,7 @@ title: Modificare un’attività o salvarla come bozza
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
 
 ---
 
@@ -25,9 +25,9 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
 
    ![Icona Modifica](/help/c-activities/assets/hover_edit.png)
 
-   Target opens the activity in the Visual Experience Composer (VEC) and you see the [!UICONTROL Experiences] page (the first step in the three-step guided workflow).
+   Target apre l'attività in Visual Experience Composer (Compositore esperienza visivo) (VEC) e viene visualizzata la pagina [!UICONTROL Esperienze] (il primo passaggio nel flusso di lavoro guidato in tre fasi).
 
-1. Edit the activity, as desired using the [VEC options](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modificate l'attività, come desiderato mediante le opzioni [VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
 1. Fate clic sul pulsante Dividi per avanzare al passaggio successivo o per salvare l'attività.
 
@@ -59,6 +59,18 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
       * Fai clic su **[!UICONTROL Salva]** per salvare le modifiche, rimanere nel passaggio corrente e apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
 
+
+## Operazioni con le attività legacy create in Adobe Target Classic {#classic}
+
+L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incluso [!DNL Adobe Target Classic]. Le seguenti azioni sono disponibili quando si lavora con attività legacy create in [!DNL Target Classic]:
+
+* [!UICONTROL Attiva]
+* [!UICONTROL Disattiva]
+* [!UICONTROL Archivia]
+* [!UICONTROL Copia]
+* [!UICONTROL Elimina]
+
+Non potete modificare direttamente un [!DNL Target Classic] 'attività. Se desiderate modificare l'attività, create una copia dell'attività utilizzando [!DNL Target Standard/Premium] e quindi salvate la nuova attività appena creata.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
