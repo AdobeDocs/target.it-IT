@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 51f52bb40a0af4dac63236d46e6d6f0286cbb877
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -34,7 +34,7 @@ Questa azione deve essere eseguita nel corso del mese **di agosto 2019**. Dopo l
 
 Per istruzioni dettagliate e ulteriori informazioni, consultate [Concedere l'accesso alle integrazioni I/O Adobe alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
 
-## Ios Mobile VEC SDK iOS 2.1.0 e Android 1.1.0 (7 agosto 2019)
+## Ios Mobile VEC SDK iOS 2.1.0 e Android 1.1.1 (7 agosto 2019)
 
 Questa versione di Mobile VEC SDK include i seguenti miglioramenti e correzioni:
 
@@ -43,6 +43,7 @@ Questa versione di Mobile VEC SDK include i seguenti miglioramenti e correzioni:
 * Aggiunto supporto per Anteprima per attività visive su dispositivi mobili. (TGT-27875)
 * È stato risolto un problema che causava la violazione di Apple Standard a causa `UIImagePickerController` dell'utilizzo.
 * Dipendenza GSON rimossa da Android SDK. (TGT-31710)
+* Rimosse altre dipendenze gradle ridondanti (TGT -35479)
 * È stato risolto un problema che impediva la reimpostazione dell'offerta di consegna al momento dell'authoring. (TGT-35270)
 
 ## Target Standard/Premium 19.7.1 (24 luglio 2019) {#tgt-19-7-1}
