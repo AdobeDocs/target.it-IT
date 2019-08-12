@@ -8,7 +8,7 @@ title: 'Android: configurare l''app mobile'
 topic: Standard
 uuid: 39938ec2-b12e-44cf-9218-69195fba0ff7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2588a7c251e58193b969d57f91a7c3f640318fbf
 
 ---
 
@@ -25,18 +25,17 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 1. Aggiungi la seguente riga alla sezione dipendenze:
 
    ```
+   implementation 'com.adobe.marketing.mobile:target:1.+'
    implementation 'com.adobe.marketing.mobile:target-vec:1.+'
    ```
 
 1. Il Compositore esperienza visivo per app mobile richiede che i seguenti artefatti siano inclusi come una dipendenza in `build.gradle`.
 
    ```
-    implementation 'com.google.code.gson:gson:2.8.2'
     implementation 'android.arch.lifecycle:extensions:1.1.1'
-    implementation('io.github.sac:SocketclusterClientJava:1.7.5')
-    implementation 'com.android.support:support-annotations:28.0.0'
+    implementation 'io.github.sac:SocketclusterClientJava:1.7.5'
     implementation 'com.android.support:support-compat:28.0.0'
-    implementation 'com.android.support:design:28.0.0'
+    implementation 'com.android.support:support-fragment:28.0.0'
    ```
 
 1. Aggiungi un filtro intento nel file `AndroidManifest.XML`, scegliendo uno schema univoco per il collegamento diretto per la creazione del Compositore esperienza visivo per app mobile (ad esempio, `[sdkbetabus://com.adobe.sdkbetabus](sdkbetabus://com.adobe.sdkbetabus)`):
@@ -77,12 +76,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
                Identity.registerExtension();
                Lifecycle.registerExtension();
                Signal.registerExtension();
-               MobileCore.start(new AdobeCallback () {
-                  @Override
-                  public void call(Object o) {
-                     MobileCore.configureWithAppID("launch-EN4e833d644d1949e39e985ddad4f52bd4-development");
-                  }
-               });
+               MobileCore.start(null);
            } catch (InvalidInitException e) { 
              .. 
            }
@@ -305,7 +299,7 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
    public static void prefetchOffersBackground();
    ```
 
-## Tutorial: Implement the Experience Cloud in Mobile Android Applications {#tutorial}
+## Esercitazione: Implementazione di Experience Cloud nelle applicazioni Android mobile {#tutorial}
 
 * [Implementazione di Experience Cloud nelle applicazioni Android mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
