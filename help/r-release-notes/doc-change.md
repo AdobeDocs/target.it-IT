@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -21,9 +21,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 14 agosto 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Testo aggiornato e collegamento video di formazione aggiunto. |
 | 12 agosto 2019 | [Android: configurare l'app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Aggiornate informazioni su dipendenze e artefatti.<br>Esempio di codice aggiornato per il `AndroidManifest.XML` file. |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiornato l'elenco di miglioramenti e correzioni nella sezione «Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1». |
-|  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md#classic) | Aggiunta nuova sezione: " Lavorate con le attività precedenti create in Adobe Target Classic. " |
+|  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md#classic) | Aggiunta nuova sezione: " Lavorate con le attività precedenti create in Recommendations Classic. " |
 | 9 agosto 2019 | [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Aggiunta nuova sezione: " In che modo at. js esegue il rendering delle offerte con contenuto HTML. " |
 |  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
 | 7 agosto 2019 | [Preacquisire il contenuto dell’offerta](/help/c-target-mobile-app/prefetch-offer-content.md) | Aggiunta nota che la funzionalità di preacquisizione negli SDK non è supportata per i tipi di attività Automatica di Target, Allocazione automatica e Automated Personalization (Personalizzazione automatizzata). |
