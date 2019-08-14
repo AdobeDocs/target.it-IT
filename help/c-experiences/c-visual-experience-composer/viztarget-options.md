@@ -8,7 +8,7 @@ title: Opzioni del Compositore esperienza visivo
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: db45081ac256f6727fa08606cb1aa47a20aa233e
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -313,11 +313,11 @@ Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTRO
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
-#### Sposta
+#### Sposta {#move}
 
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: supporto per assicurare che gli elementi spostati non risultino nascosti dietro ad altri elementi.)
 
-In alcuni casi, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo.
+In alcuni casi, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all'esterno di un contenitore con la seguente proprietà CSS: `overflow: hidden`.
 
 #### Nascondi
 
