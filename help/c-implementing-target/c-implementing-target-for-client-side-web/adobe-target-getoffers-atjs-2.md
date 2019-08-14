@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -23,7 +23,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 | Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
-| consumerId | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave si utilizza per generare l’ID dati supplementare utilizzato per l’integrazione A4T. |
+| consumerId | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave si utilizza per generare l’ID dati supplementare utilizzato per l’integrazione A4T. Questa chiave è una stringa univoca per visitatore. |
 | richiesta | Oggetto | Sì | Vedi la tabella Richieste di seguito. |
 | timeout | Numero | No | timeout richiesta. Se non specificato, si utilizza il timeout predefinito di at.js. |
 
