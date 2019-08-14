@@ -8,7 +8,7 @@ title: Offerte di reindirizzamento - Domande frequenti su A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
 
 ---
 
@@ -43,15 +43,15 @@ Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindi
 
 ## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-È possibile che si verifichi una condizione particolare che potrebbe causare l’attivazione della chiamata di Analytics prima che il reindirizzamento venga eseguito nella prima pagina. Questo può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
+Quando si utilizza at. js versione 1.6.3 o successiva, questo non è un problema. Questa condizione race interessa solo i clienti che utilizzano versioni precedenti. Il team di Target conserva due versioni di at. js: la versione corrente e la seconda versione. Upgrade at.js as necessary to ensure that you are running a [supported version](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+Se utilizzi una versione precedente e non supportata di at. js, esiste la possibilità che venga eseguita una condizione race che potrebbe causare l'attivazione della chiamata Analytics prima che il reindirizzamento venga eseguito sulla prima pagina. Questo può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
 
 Per aumentare la velocità del reindirizzamento della pagina, è consigliabile creare un’attività di reindirizzamento con il compositore basato su moduli. Questo è dovuto al punto in cui viene eseguito il codice nella pagina. Inoltre, è consigliato creare un’offerta di reindirizzamento per ogni esperienza, anche per quella predefinita, dove il reindirizzamento riporta alla pagina originale. Ciò assicura che, se si verifica un conteggio errato, questo si verifica in tutte le esperienze, in modo che il rapporto e l’analisi siano comunque validi per il test.
 
->[!NOTE]
->
->Questa corsa critica interessa solo i clienti che utilizzano at.js versione 1.6.3 o precedenti. Attenzione: il team di Target gestisce solo due versioni di at.js, ovvero la versione corrente e quella immediatamente precedente. Aggiorna at.js per assicurarti di eseguire una [versione supportata](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Il motivo per cui potrebbe essere utile utilizzare offerte di reindirizzamento per tutte le esperienze nell'attività, inclusa l'esperienza predefinita (controllo), consiste nell'inserire le stesse condizioni su tutte le esperienze. Ad esempio, se l'esperienza predefinita non dispone di un'offerta di reindirizzamento ma le altre esperienze dispongono di offerte di reindirizzamento, la velocità dell'esperienza senza l'offerta di reindirizzamento ha un vantaggio intrinseca. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio personalizzazione. Dopo aver determinato il «vincitore», rimuovete il reindirizzamento per migliorare le prestazioni di caricamento delle pagine.
 
-Per ulteriori informazioni su questo problema, consulta la colonna “Offerte di reindirizzamento” nella tabella [Problemi noti](../../../r-release-notes/known-issues-resolved-issues.md#concept_625C3A16B7F24D4B82EFF130F0945541).
+For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Posso usare le offerte di reindirizzamento con A4T se utilizzo la libreria JavaScript mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
 
