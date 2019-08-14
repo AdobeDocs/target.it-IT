@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
 
 ---
 
@@ -22,6 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 14 agosto 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Testo aggiornato e collegamento video di formazione aggiunto. |
+|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Informazioni aggiornate nella sezione «Layout &gt; Sposta». |
 | 12 agosto 2019 | [Android: configurare l'app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Aggiornate informazioni su dipendenze e artefatti.<br>Esempio di codice aggiornato per il `AndroidManifest.XML` file. |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiornato l'elenco di miglioramenti e correzioni nella sezione «Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1». |
 |  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md#classic) | Aggiunta nuova sezione: " Lavorate con le attività precedenti create in Recommendations Classic. " |
