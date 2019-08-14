@@ -8,7 +8,7 @@ title: Modificare un’attività o salvarla come bozza
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: b2504613c0b86a83ae68c01ae6fe5f5d780d9193
+source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
 
 ---
 
@@ -60,9 +60,9 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
 
 
 
-## Operazioni con le attività legacy create in Adobe Target Classic {#classic}
+## Operazioni con le attività legacy create in Recommendations Classic {#classic}
 
-L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incluso [!DNL Adobe Target Classic]. Le seguenti azioni sono disponibili quando si lavora con attività legacy create in [!DNL Target Classic]:
+L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incluso [!DNL Recommendations Classic]. Le seguenti azioni sono disponibili quando si lavora con attività legacy create in [!DNL Recommendations Classic]:
 
 * [!UICONTROL Attiva]
 * [!UICONTROL Disattiva]
@@ -70,7 +70,7 @@ L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incl
 * [!UICONTROL Copia]
 * [!UICONTROL Elimina]
 
-Non potete modificare direttamente un [!DNL Target Classic] 'attività. Se desiderate modificare l'attività, create una copia dell'attività utilizzando [!DNL Target Standard/Premium] e quindi salvate la nuova attività appena creata.
+Non potete modificare direttamente un [!DNL Recommendations] 'attività. Se desiderate modificare l'attività, create una copia dell'attività utilizzando [!DNL Target Premium] e quindi salvate la nuova attività appena creata. Questa attività appena creata può essere modificata in base alle esigenze.
 
 ## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
