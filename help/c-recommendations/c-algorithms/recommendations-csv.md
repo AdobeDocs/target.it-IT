@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -92,3 +92,13 @@ Di seguito sono riportati i possibili messaggi di errore che si potrebbero ricev
 | Errore di credenziali | Fornisci un nome utente e una password validi per un account attivo sul server. |
 | Directory non trovata | Fornisci una directory esistente sul server. |
 | File non trovato | Fornisci il nome di un file sul server nella directory indicata. |
+
+## Video formazione: Creare criteri in Recommendations (12:33)
+
+Questo video contiene le informazioni seguenti:
+
+* Creare criteri
+* Creare sequenze di criteri
+* Caricare criteri personalizzati
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ita)
