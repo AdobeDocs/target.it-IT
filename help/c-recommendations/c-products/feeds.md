@@ -10,7 +10,7 @@ topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1ee2e319e313ad80b94d43776caf37f06971d141
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -279,7 +279,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Attesa del download | Target si sta preparando per il download del file di feed. |
 | Download del file di feed | Target sta eseguendo il download del file di feed. |
 | Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. |
-| Feed Imported Successfully at *time* | Target ha importato il file di feed nel relativo sistema di distribuzione dei contenuti. Sono state apportate modifiche agli attributi degli elementi nel sistema di distribuzione dei contenuti e presto si rifletterà nelle raccomandazioni fornite. In caso contrario, riprovate a breve e aggiornate la pagina contenente le raccomandazioni.<br>*Nota 1:* Se le modifiche agli attributi di un elemento determinano l'esclusione di un elemento dalle raccomandazioni, l'esclusione viene riflessa immediatamente. If an item is newly added, or changes to attributes result in an item being *no longer* excluded from recommendations, it will not be reflected until the next algorithm update, which will occur within 24 hours.<br>*Nota 2:* Quando viene visualizzato questo stato, gli aggiornamenti potrebbero non essere ancora riflessi nell'interfaccia utente di ricerca catalogo. Nella ricerca catalogo viene visualizzato uno stato separato che indica l'ultima volta che è stato aggiornato il catalogo ricercabile. |
+| Feed importato *con successo* | Target ha importato il file di feed nel relativo sistema di distribuzione dei contenuti. Sono state apportate modifiche agli attributi degli elementi nel sistema di distribuzione dei contenuti e presto si rifletterà nelle raccomandazioni fornite. In caso contrario, riprovate a breve e aggiornate la pagina contenente le raccomandazioni.<br>*Nota 1:* Se le modifiche agli attributi di un elemento determinano l'esclusione di un elemento dalle raccomandazioni, l'esclusione viene riflessa immediatamente. Se un elemento viene aggiunto di recente, o le modifiche agli attributi provocano la *mancata* esclusione di un elemento dalle raccomandazioni, essa non viene riflessa fino all'aggiornamento successivo dell'algoritmo, che si verifica entro 24 ore.<br>*Nota 2:* Quando viene visualizzato questo stato, gli aggiornamenti potrebbero non essere ancora riflessi nell'interfaccia utente di ricerca catalogo. Nella ricerca catalogo viene visualizzato uno stato separato che indica l'ultima volta che è stato aggiornato il catalogo ricercabile. |
 | Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
@@ -314,3 +314,25 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 * 3 febbraio: sono le 10.00 e il feed non viene eseguito da un mese, un giorno e un’ora.
 
 Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito circa un giorno e un’ora fa. Anche se questo rappresenta solo l’1,03% delle impostazioni di frequenza [(31 + (1/25))/30 = 1,03%], il ritardo massimo di un giorno è stato superato.
+
+## Video di formazione
+
+I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+
+### Informazioni sui feed in Recommendations (3:01)
+
+Questo video contiene le informazioni seguenti:
+
+* Comprendere lo scopo dei feed
+* Comprendere il valore dei feed
+
+>[!VIDEO](https://video.tv.adobe.com/v/27695?captions=ita)
+
+### Creare un feed (6:44)
+
+Questo video contiene le informazioni seguenti:
+
+* Configurare un feed
+* Sapere quale tipo di feed usare
+
+>[!VIDEO](https://video.tv.adobe.com/v/27696?captions=ita)
