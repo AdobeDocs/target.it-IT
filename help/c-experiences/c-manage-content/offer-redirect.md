@@ -1,14 +1,14 @@
 ---
 description: Con un’offerta di reindirizzamento, il browser viene reindirizzato a una nuova pagina.
 keywords: reindirizzare offerta;crea offerta di reindirizzamento;aggiungere offerta HTML;trasmettere tutti i parametri URL nel reindirizzamento;trasmettere mboxSessionId nel reindirizzamento (necessario solo quando si reindirizza a un dominio diverso)
-seo-description: Con un’offerta di reindirizzamento, il browser viene reindirizzato a una nuova pagina.
+seo-description: Informazioni sulle offerte di reindirizzamento in Adobe Target che consentono a un browser di reindirizzare a una nuova pagina.
 seo-title: Creare offerte di reindirizzamento
 solution: Target
 title: Creare offerte di reindirizzamento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
 
 ---
 
@@ -22,8 +22,6 @@ Supponi di dover sottoporre a test due pagine completamente diverse, anziché se
 >[!NOTE] {class=“- topic/note ”}
 >
 >Non è possibile utilizzare le offerte di reindirizzamento in elementi mbox ajax (`mboxUpdate`).
-
->[!NOTE]
 >
 >Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l'implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 
