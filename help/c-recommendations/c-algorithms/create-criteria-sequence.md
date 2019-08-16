@@ -10,7 +10,7 @@ topic: Premium
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -91,3 +91,13 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
    ![](assets/CriteriaSequenceCard.png)
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+
+## Video formazione: Creare criteri in Recommendations (12:33)
+
+Questo video contiene le informazioni seguenti:
+
+* Creare criteri
+* Creare sequenze di criteri
+* Caricare criteri personalizzati
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ita)
