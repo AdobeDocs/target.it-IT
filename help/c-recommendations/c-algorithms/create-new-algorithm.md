@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: b892660e52bdec1e64dcbe2c8dc18ace26ae2910
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -93,7 +93,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Imposta le regole di **[!UICONTROL contenuto]**.
 
-   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
+   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque articoli, ma in base ai criteri devono vi sono solo tre articoli da consigliare, puoi lasciare vuoto lo spazio rimanente oppure puoi riempirlo con i consigli di backup.
 
    Seleziona i pulsanti appropriati:
 
@@ -345,11 +345,11 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 >
 >Recently Viewed Items (Elementi visualizzati di recente) rispetta sia le impostazioni globali Exclusions che quelle selezionate per l'attività. Se un elemento è escluso da un'esclusione globale, o non è incluso nella raccolta selezionata, non verrà visualizzato; Di conseguenza, quando si utilizzano i criteri di visualizzazione di un oggetto visualizzato di recente, viene generalmente utilizzata l'impostazione «Tutte le raccolte».
 
-### Elementi acquistati in precedenza {#previously-purchased}
+### Articoli acquistati in precedenza {#previously-purchased}
 
-Uses the visitor's history (spanning sessions) to present the last *x* items the visitor has purchased, based on the number of slots in the design.
+Utilizza la cronologia del visitatore (nell’arco di più sessioni) per presentare gli ultimi *x* articoli acquistati, in base al numero di posizioni previste nella progettazione.
 
-The Recently Purchased Items criteria now returns results specific to a given [environment](/help/administrating-target/hosts.md). Se due siti appartengono a ambienti diversi e un visitatore passa da un sito all'altro, ogni sito mostra solo gli elementi acquistati di recente dal sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa da un sito all'altro, il visitatore vedrà gli stessi elementi acquistati di recente per entrambi i siti.
+Il criterio Articoli acquistati di recente ora restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa tra di essi, ogni sito mostra solo gli elementi acquistati di recente dal sito appropriato. Se due siti appartengono allo stesso ambiente e un visitatore passa da un sito all’altro, il visitatore vedrà gli articoli acquistati di recente in entrambi i siti.
 
 **Dove utilizzare nel sito**
 
@@ -420,7 +420,7 @@ Le impostazioni [!UICONTROL Contenuto] determinano in che modo i consigli vengon
 
 È possibile che i criteri della funzione [!UICONTROL Consigli] restituiscano un numero minore di consigli rispetto alla progettazione. Ad esempio, la progettazione può avere cinque “posizioni” disponibili, ma i criteri restituiscono solo tre elementi consigliati. Quando si verifica tale situazione, le impostazioni del [!UICONTROL contenuto] controllano la modalità in cui vengono presentati i consigli.
 
-Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
+Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque articoli, ma in base ai criteri devono vi sono solo tre articoli da consigliare, puoi lasciare vuoto lo spazio rimanente oppure puoi riempirlo con i consigli di backup.
 
 Seleziona i pulsanti appropriati:
 
@@ -457,3 +457,13 @@ Quando si selezionano **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attribu
 Poiché la somiglianza del contenuto utilizza parole chiave per confrontare elementi, alcuni attributi, ad esempio *messaggio* o *descrizione*, possono introdurre “rumore” nel confronto. È possibile creare regole per ignorare questi attributi.
 
 Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento*. Non è necessario creare una regola a meno che non si desideri modificare questa impostazione.
+
+## Video formazione: Creare criteri in Recommendations (12:33)
+
+Questo video contiene le informazioni seguenti:
+
+* Creare criteri
+* Creare sequenze di criteri
+* Caricare criteri personalizzati
+
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ita)
