@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -22,6 +22,14 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 16 agosto 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Aggiunta nuova sezione: " Considerazioni. " |
+|  | [Creare un’attività di consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | È stata aggiunto un video di formazione. |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md) | Video di formazione aggiunti. |
+|  | [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | È stata aggiunto un video di formazione. |
+|  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | È stata aggiunto un video di formazione. |
+|  | [Creare sequenze di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | È stata aggiunto un video di formazione. |
+|  | [Creare una progettazione](/help/c-recommendations/c-design-overview/create-design.md) | È stata aggiunto un video di formazione. |
+|  | [Raccolte](/help/c-recommendations/c-products/collections.md) | È stata aggiunto un video di formazione. |
+|  | [Esclusioni](/help/c-recommendations/c-products/exclusions.md) | È stata aggiunto un video di formazione. |
 | 14 agosto 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Testo aggiornato e collegamento video di formazione aggiunto. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informazioni su questa `consumerID` chiave. |
 |  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Informazioni aggiornate nella sezione «Layout &gt; Sposta». |
