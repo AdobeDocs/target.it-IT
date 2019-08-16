@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 1f3b3be385cad4e7e87f27b566fc1266eef649b8
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -21,23 +21,23 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Consigli]**.
 
-   ![Attività di creazione di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
+   ![Creare un’attività di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_CreateActivity.png)
 
-1. Select **[!UICONTROL Visual (Default)]**, if necessary.
+1. Se necessario, seleziona **[!UICONTROL Visivo (impostazione predefinita)]**.
 
    ![Finestra di dialogo Crea attività di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/DB_NewRecAct.png)
 
-   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. See [Form-Based Experience Composer](/help/c-experiences/form-experience-composer.md) for more information.
+   Se preferisci utilizzare il Compositore esperienza basato su moduli, seleziona [!UICONTROL Modulo]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Oltre a VEC e Experience Composer basato su modulo, Target offre il VEC applicazione singola e il VEC per le app mobili. For more information about the various composers, see [Experiences and Offers](/help/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al Compositore esperienza basato su moduli, Target offre anche il Compositore esperienza visivo per applicazione a pagina singola e quello per app mobili. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se l'opzione non è visualizzata, l'organizzazione dispone di una licenza di Target Standard.]
+   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
 
-1. (Conditional) If you are a [Target Premium customer](/help/c-intro/intro.md#premium), choose a [workspace](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Se sei un cliente [Target Premium](/help/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Specifica un URL attività, quindi fai clic su **[!UICONTROL Avanti]**.
 
@@ -49,9 +49,9 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    Quando fai clic su [!UICONTROL Avanti], il Compositore esperienza visivo si apre e mostra la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
 
-1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
+1. Fai clic su un elemento nella pagina; quindi, se i consigli sono disponibili nella posizione in cui si trova l’elemento, fai clic su **[!UICONTROL Sostituisci con consigli]**, **[!UICONTROL Inserisci consigli prima]** o **[!UICONTROL Inserisci consigli dopo]**.
 
-   ![Opzioni di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
+   ![Opzioni per la funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
    La sostituzione di un elemento con i consigli elimina il contenuto corrente e lo sostituisce con i consigli.
 
@@ -64,12 +64,12 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    * Home page
    * Pagina di destinazione
    * Pagina di prodotto
-   * Pagina risultati ricerca
+   * Pagina risultati di ricerca
    * Pagina di ringraziamento
-   * Altre
-   ![Selezionare le opzioni Tipo pagina](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
+   * Altro
+   ![Opzioni per Seleziona tipo di pagina](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
-1. Select one or more [criteria](/help/c-recommendations/c-algorithms/algorithms.md).
+1. Seleziona uno o più [criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
    I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, nella schermata [!UICONTROL Seleziona criteri] sono visualizzati i criteri compatibili con il settore verticale e il tipo di pagina selezionato. Puoi modificare queste opzioni per visualizzare altri criteri.
 
@@ -77,31 +77,31 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L’opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei Consigli (**[!UICONTROL Consigli]** &gt; **[!UICONTROL Impostazioni]** &gt; **[!UICONTROL Criteri non compatibili]**). Per ulteriori informazioni, consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84).
 
-   ![Seleziona criteri, finestra di dialogo](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
+   ![Finestra di dialogo Seleziona criteri](/help/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 
    Se selezioni più criteri, il traffico viene suddiviso in modo uniforme tra i criteri selezionati. Ad esempio, se hai selezionato due criteri e l’attività è progettata per mostrare il contenuto predefinito al 20% dei partecipanti all’attività, il 40% dei partecipanti vedrà i consigli controllati da ogni criterio. Non c’è modo di modificare le percentuali per ogni criterio.
 
-   * To search for an existing criteria (for example, if a large number of criteria cards are displayed), type in the search field until the desired criteria appears, then select the criteria and click **[!UICONTROL Next]**.
+   * Per cercare un criterio esistente (ad esempio, se sono visualizzate numerose schede di criteri), digita nel campo di ricerca fino a visualizzare i criteri desiderati, quindi selezionali e fai clic su **[!UICONTROL Successivo]**.
 
       Alcuni criteri sono forniti con [!DNL Recommendations]. Con il tuo team puoi inoltre creare criteri personalizzati.
 
-   * To create a new criteria, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria]**, then fill in the information for the new criteria. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-   * È inoltre possibile raggruppare i criteri in sequenze. To create a new criteria sequence, click **[!UICONTROL Create Criteria]** &gt; **[!UICONTROL Create Criteria Sequence]**. Consulta [Creazione di sequenze di criteri](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) per ulteriori informazioni.
+   * Per creare un nuovo criterio, fai clic su **[!UICONTROL Crea criterio]** &gt; **[!UICONTROL Crea criterio]**, quindi inserisci le informazioni per il nuovo criterio. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
+   * È inoltre possibile raggruppare i criteri in sequenze. Per creare una nuova sequenza di criteri, fai clic su **[!UICONTROL Crea criteri]** &gt; **[!UICONTROL Crea sequenza criteri]**. Consulta [Creazione di sequenze di criteri](../../c-recommendations/c-algorithms/create-criteria-sequence.md#task_8A9CB465F28D44899F69F38AD27352FE) per ulteriori informazioni.
 
 1. Fai clic su **[!UICONTROL Successivo]**.
-1. Select a [design](/help/c-recommendations/c-design-overview/design-overview.md).
+1. Seleziona un [design](/help/c-recommendations/c-design-overview/design-overview.md).
 
    Una progettazione è un modello che determina l’aspetto delle posizioni sulla pagina. [!DNL Target] include diverse progettazioni preconfigurate. Puoi anche creare progettazioni personalizzate. Per ulteriori informazioni, consulta [Creare una progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14) e [Personalizzazione di una progettazione](../../c-recommendations/c-design-overview/customizing-a-template.md#concept_94F1554C3F2E4CDB9A2C3D78F10EDA59).
 
-   ![Seleziona progettazione, finestra di dialogo](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
+   ![Finestra di dialogo Seleziona design](/help/c-recommendations/t-create-recs-activity/assets/Card_SelectDesign.png)
 
-   Ogni progettazione mostra una rappresentazione grafica di come apparirà; viene inoltre indicato da quante attività attive e inattive è attualmente utilizzata la progettazione.
+   Ogni design, o progettazione, mostra una rappresentazione grafica di come apparirà; viene inoltre indicato da quante attività attive e inattive è attualmente utilizzato.
 
-   * To select one or more existing designs, click the designs, then click **[!UICONTROL Next]**.
+   * Per selezionare uno o più design esistenti, fai clic su di essi e quindi su **[!UICONTROL Successivo]**.
 
-      Se avete selezionato più criteri, potete selezionare una sola progettazione.
+      Se hai selezionato più criteri, puoi selezionare un solo design.
 
-   * To create a custom design, click **[!UICONTROL Create Design]**, then fill in the name and code for the new design. Fai clic su **[!UICONTROL Avanti]**, quindi seleziona o carica un’immagine e fai clic su **[!UICONTROL Fine]** &gt; **[!UICONTROL Fine]**. Per informazioni sulla creazione di una nuova progettazione, consulta [Creare una progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+   * Per creare un design personalizzato, fai clic su **[!UICONTROL Crea design]**, quindi compila il nome e il codice per il nuovo design. Fai clic su **[!UICONTROL Avanti]**, quindi seleziona o carica un’immagine e fai clic su **[!UICONTROL Fine]** &gt; **[!UICONTROL Fine]**. Per informazioni sulla creazione di una nuova progettazione, consulta [Creare una progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 
 1. Fai clic su **[!UICONTROL Successivo]**.
 
@@ -118,11 +118,11 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Esamina i consigli nel Compositore esperienza visivo, quindi fai clic su **[!UICONTROL Successivo]**.
 
-1. Review your [!DNL Recommendations] activity in the flow diagram and make any necessary changes.
+1. Rivedi l’attività di [!DNL Recommendations] nel diagramma di flusso e apporta le eventuali modifiche necessarie.
 
    ![Diagramma di flusso di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/SCRN_Workflow.png)
 
-   Il diagramma di flusso vi guida attraverso le fasi di selezione dell'audience per l'attività, di configurazione delle esperienze e di specificazione delle metriche di successo.
+   Il diagramma di flusso ti guida attraverso le fasi di selezione dell’audience per l’attività, configurazione delle esperienze e specifica delle metriche di successo.
 
    Nel diagramma di flusso puoi eseguire le operazioni seguenti:
 
@@ -151,7 +151,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Se specifichi un nome di attività di [!DNL Recommendation] già esistente per un’altra attività in [!DNL Recommendations Classic], la nuova attività viene risincronizzata con un nuovo nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. Questo nuovo nome viene visualizzato in entrambi [!DNL Target Standard/Premium] e [!DNL Recommendations Classic].
 
-1. When finished, click **[!UICONTROL Save &amp; Close]**.
+1.  Al termine fate clic su **[!UICONTROL Salva e chiudi]**.
 
    Viene visualizzata una panoramica dell’attività.
 
@@ -170,3 +170,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività.](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
+
+## Video formazione: Creare un'attività di Recommendations (7:15)
+
+>[!VIDEO](https://video.tv.adobe.com/v/27688?captions=ita)
