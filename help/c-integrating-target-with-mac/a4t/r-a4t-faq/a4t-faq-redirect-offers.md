@@ -8,7 +8,7 @@ title: Offerte di reindirizzamento - Domande frequenti su A4T
 topic: Standard
 uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 ---
 
@@ -23,7 +23,7 @@ Sì, purché l’implementazione utilizzi [!DNL at.js]. Tuttavia, l’implementa
 
 >[!NOTE]
 >
->Un problema noto causa l'uscita da un numero limitato di clienti con reindirizzamenti A 4 T per visualizzare una percentuale più alta di percentuali di hit non unite. See [Known issues and resolved issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
+>A causa di un problema noto, un numero limitato di clienti con reindirizzamenti A4T ottengono una percentuale più alta di hit non uniti. Consulta [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quali sono i requisiti minimi necessari per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -49,7 +49,7 @@ Se utilizzi una versione precedente e non supportata di at. js, esiste la possib
 
 Per aumentare la velocità del reindirizzamento della pagina, è consigliabile creare un’attività di reindirizzamento con il compositore basato su moduli. Questo è dovuto al punto in cui viene eseguito il codice nella pagina. Inoltre, è consigliato creare un’offerta di reindirizzamento per ogni esperienza, anche per quella predefinita, dove il reindirizzamento riporta alla pagina originale. Ciò assicura che, se si verifica un conteggio errato, questo si verifica in tutte le esperienze, in modo che il rapporto e l’analisi siano comunque validi per il test.
 
-Il motivo per cui potrebbe essere utile utilizzare offerte di reindirizzamento per tutte le esperienze nell'attività, inclusa l'esperienza predefinita (controllo), consiste nell'inserire le stesse condizioni su tutte le esperienze. Ad esempio, se l'esperienza predefinita non dispone di un'offerta di reindirizzamento ma le altre esperienze dispongono di offerte di reindirizzamento, la velocità dell'esperienza senza l'offerta di reindirizzamento ha un vantaggio intrinseca. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio personalizzazione. Dopo aver determinato il «vincitore», rimuovete il reindirizzamento per migliorare le prestazioni di caricamento delle pagine.
+Un motivo per cui potrebbe essere utile utilizzare offerte di reindirizzamento per tutte le esperienze nell'attività, inclusa l'esperienza predefinita (controllo), consiste nell'inserire le stesse condizioni su tutte le esperienze. Ad esempio, se l'esperienza predefinita non dispone di un'offerta di reindirizzamento ma le altre esperienze dispongono di offerte di reindirizzamento, la velocità dell'esperienza senza l'offerta di reindirizzamento ha un vantaggio intrinseca. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio personalizzazione. Dopo aver determinato il «vincitore», rimuovete il reindirizzamento per migliorare le prestazioni di caricamento delle pagine.
 
 For more information about this issue, see the "Redirect offers" information in [Known Issues](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
