@@ -9,7 +9,7 @@ title: Adobe Analytics come origine per la generazione di rapporti per Adobe Tar
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
 
 ---
 
@@ -128,4 +128,4 @@ Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/22223/?captions=ita)
+[Analytics/Target Integration (A 4 T) Office Hours](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
