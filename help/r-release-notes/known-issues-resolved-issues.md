@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 72a1048a94e363cb5c367942d69231e4de9bd202
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -25,7 +25,7 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Activity QA preview links {#preview}
+### Collegamenti di anteprima QA attività {#preview}
 
 [I collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) QA attività per le attività salvate potrebbero non venire caricati se nel vostro account sono presenti troppe attività salvate. Riprovare a usare i collegamenti di anteprima. Per evitare che ciò accada, archiviate le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
 
@@ -33,13 +33,12 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
 
-* In alcune condizioni, un numero limitato di clienti ha segnalato più livelli di varianza nella distribuzione del traffico quando si utilizza un'offerta di reindirizzamento nelle attività configurate con Analytics per Target (A 4 T). Gli ingegneri Adobe stanno attualmente lavorando su questo problema.
-* Una condizione di concorrenza può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Gli aggiornamenti sono pianificati all'implementazione at. js per garantire che questa condizione race sia evitata. Per ulteriori informazioni sul problema e una soluzione alternativa, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* In alcune condizioni, un numero limitato di clienti ha segnalato maggiore varianza nella distribuzione del traffico quando si utilizza un’offerta di reindirizzamento in attività configurate con Analytics per Target (A4T). Gli ingegneri Adobe stanno indagando su questo problema.
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
-### Il rapporto grafico per un'attività di Target automatico non viene eseguito correttamente quando si utilizza un'esperienza personalizzata come controllo
+### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata.
 
-Il rapporto grafico per un'attività di Target automatico non viene eseguito correttamente per le modalità "differenziale" (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione potrebbe verificarsi durante la fase iniziale di un'attività se l'esperienza di controllo è impostata su personalizzata. Per le altre modalità (Controlli media e Targeting giornaliero, Controllo giornaliero e Destinazione e Visite) funziona correttamente. Non appena sono presenti alcuni dati (visite non-zero), il rapporto viene riprodotto come previsto.
+Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
 
 ### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo{#cancel}
 
@@ -63,20 +62,8 @@ Le offerte di codice create dall’interfaccia utente di Target nella libreria O
 
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
-* L’indice del feed di Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
 * L’errore "error.restapi.algorithmProfileAttributeInvalid" relativo alla funzionalità Consigli si verifica quando specifici attributi di profilo vengono utilizzati come chiave di criterio.
 * Quando l’opzione Promozione dopo viene utilizzata in un’attività Consigli, i filtri di inclusione dei criteri non vengono applicati ai consigli di backup.
-* L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
-
-   **Soluzione alternativa**: per determinare se un feed di Recommendations per un determinato gruppo host è stato indicizzato correttamente, accedi come amministratore all’interfaccia utente per la ricerca dei prodotti e osserva l’ora dell’ultima indicizzazione. Questa corrisponde all’ultima volta che è stato indicizzato il feed per un determinato gruppo host. (TGT-27116)
-
-* Nei prodotti consigliati potrebbero essere non essere visualizzati valori fino a due cifre decimali. Ad esempio, se si tenta di visualizzare il valore nella progettazione come 35,00 la funzionalità Consigli visualizza 35 (nessuna cifra decimale anziché due cifre decimali). (RECS-5972)
-
-   **Soluzione**: passa il valore dell’entità in due parametri entity.attributes. Il primo, `entity.value`, è un parametro riservato che richiede un valore doppio. Il secondo, può essere un parametro entity.attribute personalizzato che memorizzerà il valore dell’entità come stringa per consentirne il rendering corretto.
-
-   Ad esempio:
-
-   `"entity.value" : 35.00, "entity.displayValue" : "35.00",`
 
 ### Attività di test multivariato (MVT)
 
@@ -133,6 +120,26 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
 
+### Consigli
+
+* L’indice del feed di Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
+
+   Questo problema è stato risolto nella release di Target 19.4.2.
+
+* L’elaborazione dei feed Consigli richiede più tempo del previsto. (COR-2836)
+
+   Risolto nella versione 16.10.1 di Target.
+
+* L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
+
+   Ciò è stato corretto nella versione 17.10.1.
+
+### Offerte di reindirizzamento
+
+Una situazione di tipo “race condition” può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Sono previsti aggiornamenti per l’implementazione di at.js in modo da evitare tale situazione di tipo “race condition”. 
+
+Questo problema è stato risolto in at. js 1.6.3.
+
 ### Gruppi di esclusione
 
 * Quando viene applicata la deduplicazione automatica dopo la creazione di gruppi di esclusione, il conteggio nel diagramma dell’attività potrebbe non essere corretto nell’interfaccia utente.
@@ -187,12 +194,6 @@ Ciò è stato corretto nella versione 18.9.1.
 Quando si modifica o si copia un'attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l'errore “Campo mancante” quando si fa clic su Salva.
 
 Ciò è stato corretto nella versione 17.8.1.
-
-### Stato dell'indice dei feed dei consigli
-
-L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
-
-Ciò è stato corretto nella versione 17.10.1.
 
 ### Consigli di backup
 
@@ -252,12 +253,6 @@ Il secondo problema è stato risolto nella versione 17.6.1 di Target (giugno 201
 A partire dalla versione 17.4.1 di Target (27 aprile 2017), se si utilizza l’azione Inserisci immagine nel Compositore esperienza visivo, il contenuto dell’offerta non viene consegnato quando si utilizza la libreria at.js.
 
 Il problema è stato risolto nella versione 0.9.7 di at.js rilasciata il 22 maggio 2017.
-
-### Consigli
-
-L’elaborazione dei feed Consigli richiede più tempo del previsto. (COR-2836)
-
-Risolto nella versione 16.10.1 di Target.
 
 ### Reporting: attività A/B e di Targeting esperienza (XT)
 
