@@ -10,7 +10,7 @@ topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 ---
 
@@ -18,6 +18,20 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti sulle progettazioni {#design-faq}
 
 Elenco delle domande frequenti sulla progettazione dei consigli.
+
+## Il prezzo dell'elemento consigliato non visualizza entrambi i valori a destra del punto decimale. Come è possibile visualizzarli?
+
+Per impostazione predefinita, i valori numerici (ad esempio `entity.value`) restituiti nei modelli di progettazione non visualizzano alcuno zeri finale dopo il separatore decimale. Ad esempio, se un elemento è $ 35.00, `entity.value` è uguale a 35 e solo 35 viene visualizzato sulla pagina, non $ 35.00.
+
+Per risolvere il problema sono disponibili due opzioni.
+
+* È possibile utilizzare script Velocity o Javascript per applicare la formattazione al valore restituito.
+
+* Potete trasmettere il prezzo dell'elemento in due attributi Entity separati. La prima, `entity.value`può essere utilizzata per confronti numerici (come le regole di confronto dei prezzi). Il secondo deve essere un attributo personalizzato, ad esempio `entity.displayValue` che memorizza il valore dell'entità come stringa per consentire il rendering corretto.
+
+   Ad esempio,
+
+   `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
 ## Perché la categoria non viene visualizzata nella progettazione? Sto utilizzando $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
 
