@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
 
 ---
 
@@ -22,6 +22,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 22 agosto 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state rimosse informazioni sull'uso di caratteri non consentiti negli ID app mobili. Non sono più presenti restrizioni. |
+|  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
+|  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Aggiornamento della seguente frase: Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita "cumulative". Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti prive di chiavi specificate nel caricamento CSV continueranno a essere disponibili per la consegna e scadrà dopo 31 giorni dal momento in cui saranno caricate come parte del file CSV. |
 | 20 agosto 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiornato il rilascio di Target/Premium 19.8.1 (20 agosto 2019). Il contenuto di questa versione verrà introdotto nella release 19.9.1 (24 settembre 2019). |
 |  | [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md) | Sono state aggiunte le seguenti domande frequenti: " Il prezzo dell'elemento consigliato non visualizza entrambi i valori a destra del punto decimale. Come è possibile visualizzarli? " |
 | 16 agosto 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Aggiunta nuova sezione: " Considerazioni. " |
