@@ -7,7 +7,7 @@ title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: 36efa8f1b6f2719187f8a7b070c7dc74c167b6d8
+source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
 
 ---
 
@@ -75,15 +75,15 @@ Le azioni eseguite nel Compositore esperienza visivo sono visibili in tempo real
 
 ![](assets/mobile-vec-create-4.png)
 
-**Gestire più versioni app**
+**Gestire più versioni di app**
 
-Quando viene rilevata una nuova versione dell'app, riceverete una notifica che la versione dell'app è stata aggiunta all'elenco di versioni mirate.
+Quando viene rilevata una nuova versione dell’app, ricevi una notifica che indica che la versione dell’app è stata aggiunta all’elenco delle versioni di destinazione.
 
-![Nuova notifica app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
+![Notifica per nuova app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-notification-new.png)
 
-È possibile aggiungere e rimuovere manualmente più versioni app mobili dalla finestra [!UICONTROL di] dialogo Gestisci versioni.
+È possibile aggiungere e rimuovere manualmente più versioni di un’app mobile dalla finestra di dialogo [!UICONTROL Gestione versioni].
 
-![Gestisci versione, finestra di dialogo](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
+![Finestra di dialogo Gestione versioni](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/manage-versions-dialog.png)
 
 ## Visualizzazioni di Target e applicazioni mobile {#target-views}
 
@@ -192,30 +192,6 @@ La tua connessione internet potrebbe essere scaduta. Riavvia l’applicazione qu
 
 Fai clic sul pulsante [!UICONTROL Aggiorna] nel Compositore esperienza visivo per sincronizzare la visualizzazione.
 
-**Ho ricevuto un errore che indica che il valore "context. application. id" contiene caratteri non consentiti. Quali caratteri sono consentiti negli ID app mobili?**
-
-I caratteri consentiti negli ID app mobili includono:
-
-| Caratteri consentiti | Descrizione |
-| --- | --- |
-| Lettere |  |
-| Numeri |  |
-| `-` | Trattino |
-| `.` | Punto |
-| `,` | Virgola |
-| `:` | Due punti |
-| `#` | Cancelletto |
-| `(` | Parentesi aperta |
-| `)` | Parentesi chiusura |
-| `&` | Ampersand |
-| `+` | Segno più |
-
-Utilizzando un carattere non consentito, ad esempio un apostrofo ( `'` ), viene visualizzato il seguente messaggio di errore:
-
-```
-Target Response was received : {"status":400,"message":"Errors: field - [context.application.id] - Value contains prohibited chars;"}
-```
-
 ## Limitazioni note {#limitations}
 
 * Il Compositore esperienza visivo per app mobile, al momento, può essere utilizzato per creare attività [Test A/B](/help/c-activities/t-test-ab/test-ab.md) e [Targeting esperienze (XT)](/help/c-activities/t-experience-target/experience-target.md) per le app per dispositivi mobili. Il supporto per gli altri tipi di attività sarà disponibile in futuro.
@@ -230,6 +206,6 @@ Target Response was received : {"status":400,"message":"Errors: field - [context
    * La finestra di dialogo del dispositivo viene visualizzata quando si passa dal passaggio “Obiettivi e impostazioni” al passaggio “Creazione” (passaggio 1). Se l’applicazione è già aperta, è necessario chiuderla e riavviarla per riconnettersi al Compositore esperienza visivo per app mobile.
    Accertati di chiudere l'applicazione dalla sezione delle applicazioni recenti e non premendo il pulsante [!UICONTROL Indietro].
 
-## Video formazione: Adobe Target Mobile App Visual Composer (3:33) {#video}
+## Video di formazione: Compositore esperienza visivo per app mobili di Adobe Target (3:33) {#video}
 
 >[!VIDEO](https://video.tv.adobe.com/v/27528?captions=ita)
