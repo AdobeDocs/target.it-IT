@@ -8,7 +8,7 @@ title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
 
 ---
 
@@ -23,7 +23,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 
 1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Custom]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Personalizzato]**.
 
    Per selezionare il parametro desiderato:
 
@@ -36,11 +36,11 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 1. Scegli un valutatore:
 
    * Contiene (senza distinzione maiuscole/minuscole)
-   * Non contiene (senza distinzione tra maiuscole e minuscole)
+   * Non contiene (senza distinzione maiuscole/minuscole)
    * È uguale a
-   ![Audience di parametri personalizzati](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
+   ![Parametro per pubblico Personalizzato](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
-1. Inserire ciascun valore in una nuova riga.
+1. Inserisci ciascun valore in una nuova riga.
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -49,6 +49,10 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 >[!NOTE]
 >
 >Per i tipi di pubblico personalizzati creati prima della versione 18.5.1 di Target (22 maggio 2018), i nomi mbox non verranno visualizzati nella scheda a comparsa di definizione del pubblico. È necessario salvare nuovamente il pubblico personalizzato per far sì che il nome mbox venga mostrato nella scheda.
+
+## Considerazioni {#considerations}
+
+* L'audience e le attività vengono valutate per una mbox specifica. Se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il visitatore non si qualifica per tale attività.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
