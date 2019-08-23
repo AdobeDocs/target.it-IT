@@ -2,9 +2,9 @@
 product: target
 audience: utente finale
 user-guide-title: Guida di Adobe Target
-user-guide-url: /content/help/it/target/using/target-home.html
+user-guide-url: /content/help/it-IT/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
+source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 
 ---
 
@@ -90,7 +90,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md)
          + [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md)
          + [registerExtension() - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)
-         + [Sendnotifications () - at. js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
+         + [sendNotifications() - at.js 2.1](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)
          + [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md)
          + [Eseguire il debug di at.js utilizzando il debugger di Adobe Experience Cloud](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
          + [Utilizzare istanze basate su cloud con Target](c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md)
@@ -185,7 +185,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
          + [Obiettivi e impostazioni](c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md)
          + [Utilizzo dei dati di Analytics](c-activities/t-test-ab/t-test-create-ab/create-a4t.md)
          + [Impostare le metriche](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
-         + [Audience multiple in un test A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
+         + [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Allocazione automatica {#auto-allocate}
       + [Allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Determinare un vincitore](c-activities/automated-traffic-allocation/determine-winner.md)
@@ -274,7 +274,7 @@ source-git-commit: 222fb66f58ea5bcecabfaa2ab966ad9a686dc9ef
       + [Attributi del profilo](c-target/c-visitor-profile/profile-parameters.md)
       + [Affinità tra categorie](c-target/c-visitor-profile/category-affinity.md)
       + [Attributi del cliente](c-target/c-visitor-profile/working-with-customer-attributes.md)
-      + [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](c-target/c-visitor-profile/3rd-party-id.md)
+      + [Sincronizzazione profilo in tempo reale per mbox 3 rdpartyid](c-target/c-visitor-profile/3rd-party-id.md)
       + [Glossario di profili e variabili](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Domande frequenti su destinazioni e pubblico {#faq-audiences}
       + [Domande frequenti su destinazioni e pubblico](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
