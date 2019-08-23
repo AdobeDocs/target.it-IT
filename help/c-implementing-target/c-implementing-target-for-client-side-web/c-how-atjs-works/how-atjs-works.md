@@ -1,6 +1,6 @@
 ---
 description: Schema del sistema Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
-keywords: schema di sistema;visualizzazione momentanea;Target Standard;at. js;implementazione
+keywords: schema di sistema;visualizzazione momentanea;Target Standard;at. js;implementazione; libreria javascript; js
 seo-description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
 seo-title: Come funziona at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Funzionamento di at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 6962aec87994b36677d44db58ab83058315e3374
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -45,7 +45,7 @@ I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x t
 | Passaggio | Dettagli |
 | --- | --- |
 | 1 | La chiamata restituisce l'[!DNL Experience Cloud ID] se l’utente è autenticato; un’altra chiamata sincronizza l’ID cliente. |
-| 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>at. js possono anche essere caricati in modo asincrono con un snippet facoltativo implementato sulla pagina. |
+| 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>at.js si carica anche in modo asincrono con un eventuale snippet prenascosto implementato sulla pagina. |
 | 3 | Si effettua una richiesta di caricamento della pagina, con tutti i parametri configurati (MCID, SDID e ID cliente). |
 | 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede un pubblico idoneo dalla libreria Pubblico (ad esempio, pubblico condiviso da Adobe Analytics, Audience Manager, ecc.).<br>Gli attributi del cliente vengono inviati all’archivio profili in un processo batch. |
 | 5 | In base ai parametri di richiesta dell’URL e ai dati di profilo, [!DNL Target] determina le attività ed esperienze da restituire al visitatore per la pagina corrente e le visualizzazioni future. |
@@ -68,7 +68,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 ## Diagramma di at.js 1.x
 
-![](assets/target-flow.png)
+![Target flow - at. js 1. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Passaggio | Descrizione | Chiamata | Descrizione |
 |--- |--- |--- |--- |
@@ -96,7 +96,7 @@ Note importanti:
 
 ## Video di formazione: diagramma architetturale di at.js 2.x
 
-at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come sono stati uniti questi elementi.
+at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
