@@ -1,14 +1,14 @@
 ---
 description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-keywords: QA;anteprima;collegamenti di anteprima;mobile;anteprima mobile
+keywords: qa; preview; anteprima collegamento; mobile; anteprima dispositivi mobili
 seo-description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-seo-title: Anteprima mobile di Target
+seo-title: Utilizzo del collegamento di anteprima per dispositivi mobili in Adobe Target mobile
 solution: Target
 title: Anteprima mobile di Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -19,7 +19,7 @@ Il collegamento di anteprima su dispositivi mobili ti permette di verificare il 
 
 >[!NOTE]
 >
->Questa funzione sarà attivata nell’interfaccia utente per tutti i clienti dopo il 12 ottobre 2017. La funzionalità di anteprima mobile richiede che si scarichi e si installi la versione appropriata 4.14 (o successiva) dell'SDK Adobe Mobile.
+>La funzionalità di anteprima mobile richiede che si scarichi e si installi la versione appropriata 4.14 (o successiva) dell'SDK Adobe Mobile.
 
 ## Panoramica {#section_981D6FA4AEE64098809EA606E89E4A5E}
 
@@ -80,7 +80,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
    Per il corretto funzionamento dell'anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice nel file [!DNL AndroidManifest.xml]:
 
    ```
-   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
+   <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
 ## Generazione di un link di anteprima {#section_D9D58173FFF34E9BB75EBF357273F128}
