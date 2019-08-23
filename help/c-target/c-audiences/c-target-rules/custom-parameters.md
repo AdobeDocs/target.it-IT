@@ -2,13 +2,13 @@
 description: I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
 keywords: parametri personalizzati;parametri personalizzati di target;targetpageparams;parametri mbox di targeting
 seo-description: I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
-seo-title: Parametri personalizzati
+seo-title: Parametri personalizzati in Adobe Target
 solution: Target
 title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 ---
 
@@ -52,7 +52,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 
 ## Considerazioni {#considerations}
 
-* L'audience e le attività vengono valutate per una mbox specifica. Se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il visitatore non si qualifica per tale attività.
+* L'audience e le attività vengono valutate per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting dell'attività/audience non sarà qualificato per la mbox regionale.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
