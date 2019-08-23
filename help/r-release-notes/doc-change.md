@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 803c1f1ec57b22cd0e17761c488c0827e68fe524
+source-git-commit: 6908038449c9f172fcd509ca9c0616bee5a7674f
 
 ---
 
@@ -21,6 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 23 agosto 2019 | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | Snippet di codice aggiornato in `AndroidManifest.xml`. |
+|  | [at. js plug-ins](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) | È stata aggiornata la riga ttmeta. Questo plug-in non è più supportato. Utilizzate invece i token di risposta. |
 | 22 agosto 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state rimosse informazioni sull'uso di caratteri non consentiti negli ID app mobili. Non sono più presenti restrizioni. |
 |  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
 |  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Aggiornamento della seguente frase: Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita "cumulative". Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti prive di chiavi specificate nel caricamento CSV continueranno a essere disponibili per la consegna e scadrà dopo 31 giorni dal momento in cui saranno caricate come parte del file CSV. |
