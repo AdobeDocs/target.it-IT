@@ -1,14 +1,14 @@
 ---
 description: Informazioni per utilizzare at.js 2.x per implementare applicazioni a pagina singola.
-keywords: implementazione applicazioni pagina singola;implementare applicazione pagina singola;spa; at.js 2.x
+keywords: implementazione applicazioni pagina singola;implementare applicazione pagina singola;spa; at.js 2.x; at. js; applicazione a pagina singola; app singola, app
 seo-description: Informazioni per utilizzare Adobe Target at.js 2.x per implementare applicazioni a pagina singola.
-seo-title: Implementazione di un’applicazione a pagina singola
+seo-title: Implementazione delle applicazioni singole in Adobe Target
 solution: Target
 title: Implementazione di un’applicazione a pagina singola
 topic: Standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8aa1d0fcff8d46bbfa2d296206d36ea79fe6181c
 
 ---
 
@@ -281,13 +281,13 @@ I video che seguono contengono ulteriori informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-See [Understanding how at.js 2.x works](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) for more information.
+Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
 
 ### Implementare at.js 2.x in un’applicazione a pagina singola
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ita)
 
-See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
+Consulta [Implementazione di Adobe Target at. js 2. x in un'applicazione pagina singola (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) per ulteriori informazioni.
 
 ### Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
