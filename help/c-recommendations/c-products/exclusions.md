@@ -1,14 +1,14 @@
 ---
 description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione.
 keywords: esclusioni
-seo-description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione.
-seo-title: Esclusioni
+seo-description: Create un elenco di esclusione in Adobe Target per evitare che gli elementi siano raccomandati.
+seo-title: Esclusioni in Adobe Target
 solution: Target
 title: Esclusioni
 topic: Premium
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
 
 ---
 
@@ -21,11 +21,13 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 >
 >Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
+**Per creare un'esclusione:**
+
 1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Esclusioni]** per visualizzare l’elenco delle esclusioni esistenti.
 
-   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
-
    ![](assets/exclusions_list.png)
+
+   Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
 
 1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
@@ -41,7 +43,13 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]). Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] &gt; [!UICONTROL Esclusione].
+## Creazione di un'esclusione mediante la ricerca avanzata
+
+Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
+
+[Salva come](/help/c-recommendations/c-products/assets/save-as.png)
+
+Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] &gt; [!UICONTROL Esclusione]. Per ulteriori informazioni, consultate [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
