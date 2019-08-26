@@ -1,8 +1,8 @@
 ---
 description: Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
 keywords: raccolta;Targeting
-seo-description: Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
-seo-title: Raccolte
+seo-description: Una raccolta è un insieme di prodotti o elementi in Adobe Target idonei per una raccomandazione.
+seo-title: Raccolte in Adobe Target
 solution: Target
 title: Raccolte
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
 
 ---
 
@@ -19,15 +19,11 @@ source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
 
 Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
 
-## Raccolte {#concept_671BEFFB997D4F1282665BF3CAC00AC5}
-
-Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
-
 Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, puoi raggruppare qualsiasi elemento in una categoria adatta alla tua attività specifica, come prodotti in una determinata fascia di prezzo o colore o che possono essere di interesse in una particolare area geografica.
 
 Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un’area geografica ma non in un’altra, è possibile creare una raccolta che escluda gli elementi non disponibili nell’area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
 
-Anche i consigli di backup generati per ogni criterio all’interno del consiglio utilizzano questa raccolta, in modo da includere nel consiglio di backup solo gli elementi della raccolta. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
+The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
 
 Le raccolte vengono ricreate o aggiornate a ogni esecuzione di ciascun criterio.
 
@@ -47,9 +43,9 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Raccolte]** per visualizzare l’elenco delle raccolte esistenti.
 
-   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
+   ![Elenco raccolte](assets/collections_list.png)
 
-   ![](assets/collections_list.png)
+   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
 
 1. Fai clic su **[!UICONTROL Crea raccolta]**.
 
@@ -67,8 +63,15 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
    È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Le regole multiple sono collegate tra loro mediante l’operatore E. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
 
-1. Fai clic su **[!UICONTROL Salva]**. 
-Puoi anche creare raccolte utilizzando la Ricerca avanzata nella pagina Ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]). Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta].
+1. Fai clic su **[!UICONTROL Salva]**.
+
+## Creare una raccolta utilizzando la ricerca avanzata
+
+You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+
+![Salva come](/help/c-recommendations/c-products/assets/save-as.png)
+
+Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta].
 
 >[!IMPORTANT]
 >
