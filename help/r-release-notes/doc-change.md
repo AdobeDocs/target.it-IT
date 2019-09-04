@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ac7d721334c0e3460b1e32630fd023da0f9c791e
+source-git-commit: 7020705c25ad2a4f25844ea70985ad9e2199b41f
 
 ---
 
@@ -21,6 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 settembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | 23 agosto 2019 | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | Snippet di codice aggiornato in `AndroidManifest.xml`. |
 | 22 agosto 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state rimosse informazioni sull'uso di caratteri non consentiti negli ID app mobili. Non sono più presenti restrizioni. |
 |  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
