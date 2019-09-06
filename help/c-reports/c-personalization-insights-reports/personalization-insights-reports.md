@@ -9,7 +9,7 @@ title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
 
 ---
 
@@ -25,6 +25,8 @@ Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting 
 >I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. Anche le attività in cui l'obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l'attività era già attiva non sono supportate.
 >
 >I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](../../administrating-target/hosts.md).
+>
+>I report Approfondimenti personalizzazione sono generati solo per le attività che sono nello stato Attivo e che sono state attivate e ricevono il traffico per almeno 15 giorni.
 
 ## Panoramica sui rapporti di Registri di personalizzazione {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -32,7 +34,7 @@ L'obiettivo dei rapporti [!UICONTROL Registri di personalizzazione] è fornire m
 
 Poiché l’obiettivo dei rapporti Registri di personalizzazione è comprendere il criterio con cui i modelli di personalizzazione di Target assegnano a ciascun contenuto un visitatore, i rapporti Registri di personalizzazione riflettono solo un sotto-segmento di tutto il traffico gestito dall'attività di AP o AT. In particolare, i due rapporti riflettono tutto il traffico che ha utilizzato il modello di personalizzazione. In altre parole, i rapporti Registri di personalizzazione non considerano il traffico di controllo o il traffico gestito dal modello vincitore complessivo.
 
-Sono disponibili due rapporti:
+Sono disponibili due report Approfondimenti personalizzati:
 
 | Rapporto | Dettagli |
 |--- |--- |
@@ -60,4 +62,4 @@ Target offre diverse opzioni per la trasmissione di dati a Target al fine di aum
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=ita)
 
-For more information, see [Using the Personalization Insights Reports in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Per ulteriori informazioni, consulta [Utilizzo dei report personalizzazione di Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
