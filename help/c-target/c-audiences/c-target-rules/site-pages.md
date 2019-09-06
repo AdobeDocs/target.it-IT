@@ -8,7 +8,7 @@ title: Pagine del sito
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
 
 ---
 
@@ -25,7 +25,7 @@ Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specif
 1. Dai un nome al pubblico.
 1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Pagine del sito]**.
 
-   ![Pubblico delle pagine del sito](assets/target_site_pages.png)
+   ![Pubblico per pagine del sito](assets/target_site_pages.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
@@ -39,7 +39,7 @@ Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specif
 
    * **Mbox:** la mbox su cui esegui il targeting. Ad esempio, per conteggiare gli ordini con un totale di 100 $ o più, devi passare `orderTotal` come parametro mbox con il targeting qui specificato.
    * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, perché se ad esempio usi “dominio è uguale a facebook.com”, non verranno accettati né `m.facebook.com` né `www.facebook.com`. Se invece utilizzi “dominio contiene facebook.com” verrà accettata qualsiasi variante di facebook.com.
-   * **Query:** il contenuto dell’URL dopo il primo punto interrogativo (?). Ad esempio, la query è evidenziata in grassetto nel seguente URL di esempio:
+   * **Query:** il contenuto dell’URL dopo il primo punto interrogativo (?).
 
       `foo.html?e0a72cb2a2c7`
 
