@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: aee1785aede1894cac9632da7a0471ae429c8bc6
+source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
 
 ---
 
@@ -22,6 +22,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Aggiunta sezione "Considerazioni". |
+|  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l'intero topic. |
+|  | [Informativa sulla sicurezza dei contenuti (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuovo argomento. |
 | 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (settembre 10, 2019). |
 |  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuovo argomento. |
 | 4 settembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
