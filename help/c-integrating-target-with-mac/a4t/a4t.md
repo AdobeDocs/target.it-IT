@@ -9,7 +9,7 @@ title: Adobe Analytics come origine per la generazione di rapporti per Adobe Tar
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 7c94222aff59f92031f84436da5f8733d92be4b7
+source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
 
 ---
 
@@ -52,6 +52,8 @@ Considerazioni importanti per l’utilizzo di A4T:
 * Tutte le attività di Target esistenti continuano a raccogliere i dati di Target e non sono interessate dall’abilitazione di A4T.
 * L’utilizzo di Analytics come origine per la generazione di rapporti consente una sola metrica basata su mbox.
 * Una chiamata da server a server da Target ad Analytics invia informazioni ad Analytics sulle attività e sulle esperienze. Questa integrazione non comporta chiamate server aggiuntive per Target o Analytics.
+
+   In alcune situazioni, la chiamata di classificazione da Target ad Analytics potrebbe non riuscire e le attività non mostrano dati in Analytics. In tal caso, consultate [Risoluzione dei problemi relativi all'integrazione di Analytics e Target (A 4 T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Potete [inoltre contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
 
 ## Tipi di attività supportate {#section_F487896214BF4803AF78C552EF1669AA}
 
