@@ -1,15 +1,15 @@
 ---
 description: Come scaricare i dati in un formato .csv da importare rapidamente in Excel, Access o altri programmi di analisi dei dati.
 keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
-seo-description: Come scaricare i dati in un formato .csv da importare rapidamente in Excel, Access o altri programmi di analisi dei dati.
-seo-title: Download di dati in un file CSV
+seo-description: Scarica i dati in formato .csv per una rapida importazione in Excel, Access o altri programmi di analisi dati tramite Adobe Target.
+seo-title: Download di dati in un file CSV tramite Adobe Target
 solution: Target
 subtopic: Test multivariato
 title: Download di dati in un file CSV
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -20,12 +20,16 @@ Come scaricare i dati in un formato .csv da importare rapidamente in Excel, Acce
 
 Per scaricare i dati in un file CSV:
 
-1. Fai clic su [!DNL Activities], quindi sull’attività desiderata tra quelle elencate.
+1. Fai clic su **[!UICONTROL Attività]**, quindi sull’attività desiderata tra quelle elencate.
 
    Se hai numerose attività, puoi filtrare l’elenco selezionando le opzioni che ti interessano dagli elenchi a discesa [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metrica] e [!UICONTROL Origine attività].
 
 1. Fai clic sulla scheda **[!UICONTROL Rapporti]**.
-1. Fai clic sull’icona [!UICONTROL Scarica], quindi seleziona un tipo di rapporto da scaricare per l’analisi in Excel e altri strumenti.
+1. Fai clic sull’icona **[!UICONTROL Scarica], quindi seleziona un tipo di rapporto da scaricare per l’analisi in Excel e altri strumenti.**
+
+   * [!UICONTROL Esporta rapporti in CSV]
+   * [!UICONTROL Esportare i dettagli ordine in CSV]
+   ![Opzioni di download](/help/c-reports/assets/download-options.png)
 
 ## Esportare un rapporto in formato CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
@@ -38,7 +42,7 @@ I dati vengono salvati fino alla fine dell’attività.
 
 >[!NOTE]
 >
->Il rapporto CSV include solo dati grezzi; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B. Per ottenere queste metriche calcolate, scarica il file Excel [Target’s Complete Confidence Calculator](https://marketing.adobe.com/resources/help/en_US/target/target/complete_confidence_calculator.xlsx) (Calcolatore di affidabilità completo di Target) per inserirvi il valore dell’attività oppure controlla i [calcoli statistici utilizzati da Target](https://marketing.adobe.com/resources/help/en_US/target/target/statistical-calculations.pdf).
+>Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l'incremento o la confidenza utilizzate per i test A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Esportare i dettagli ordine in CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -81,7 +85,7 @@ Il rapporto Dettagli ordine (noto come Rapporto di audit in [!DNL Target Classic
 
 Le informazioni seguenti si applicano all’opzione Scarica:
 
-* È possibile scaricare entrambi i rapporti per le attività Test A/B, Personalizzazione automatizzata, Targeting esperienze e Test multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
+* Potete scaricare entrambi i rapporti per Test A/B, Personalizzazione automatizzata, Targeting delle esperienze e attività multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
 * L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
-* I tipi di pubblico applicati nell'interfaccia utente di reporting di Target non vengono trasferiti al rapporto sul download.
+* I tipi di pubblico applicati nell’interfaccia utente di Target per la generazione di rapporti non vengono trasferiti al rapporto scaricato.
