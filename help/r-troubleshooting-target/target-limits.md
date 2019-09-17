@@ -8,7 +8,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 8038b4758e9ce72ff8e43e7427c273aeed734288
+source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
 
 ---
 
@@ -19,17 +19,17 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, p
 
 >[!NOTE]
 >
->I limiti elencati di seguito devono essere considerati limiti "rigidi", se specificati.
+>I limiti elencati di seguito devono essere considerati come limiti “rigorosi”, a meno che non sia indicato “consigliato”.
 >
->Se si avvicinano o si superano i limiti indicati come «consigliato», le prestazioni possono risultare rallentate. Un rallentamento nei tempi di caricamento dell’interfaccia può essere anche dovuto ad attività molto complesse, ad esempio se un’attività contiene molti tipi di pubblico, obiettivi ed esperienze.
+>Quando si raggiungono i superano i limiti indicati come “consigliati”, si può verificare un deterioramento delle prestazioni. Un rallentamento nei tempi di caricamento dell’interfaccia può essere anche dovuto ad attività molto complesse, ad esempio se un’attività contiene molti tipi di pubblico, obiettivi ed esperienze.
 >
 >Le attività molto complesse dovrebbero essere esaminate con il coinvolgimento di Adobe Consulting e testate in un ambiente limitato prima di essere rilasciate in un ambiente di produzione.
 
 ## Attività
 
-**Limite consigliato**: 10,000 attività attive attive.
+**Limite consigliato**: 10.000 attività live attive.
 
-**Limite consigliato**: 10,000 attivazioni attive salvate (e non terminate).
+**Limite** consigliato: 10.000 attività salvate (e non finite) attive.
 
 ## Nomi di attività
 
@@ -43,7 +43,7 @@ I valori più lunghi di 256 caratteri vengono troncati.
 
 ## Tipi di pubblico
 
-**Limite**: 50 audience per mbox, metrica o esperienza.
+**Limite**: 50 tipi di pubblico per mbox, metrica o esperienza.
 
 ## Parametro categoryId
 
@@ -53,9 +53,9 @@ I valori più lunghi di 256 caratteri vengono troncati.
 
 **Limite**: 128 caratteri.
 
-## ID alias cliente ID
+## ID alias di attributo cliente
 
-**Limite** 50 caratteri.
+**Limite**: 50 caratteri.
 
 ## Attributi personalizzati entità
 
@@ -64,7 +64,7 @@ I valori più lunghi di 256 caratteri vengono troncati.
 * 15.000 caratteri (valore singolo, lingue a uno o due byte)
 * 500 valori, 100 caratteri per valore (multivalore)
 
-La lunghezza massima degli attributi personalizzati delle entità con valore singolo è di 15,000 caratteri (per i linguaggi con codifica UTF -8 e con codifica UTF -8, ad esempio inglese e altri alfabeti di script latini, oppure 10,000 caratteri (per linguaggi UTF con codifica a tre byte quali cinese, giapponese e coreano).
+La lunghezza massima degli attributi personalizzati delle entità con valore singolo è di 15.000 caratteri (per lingue con codifica UTF-8 a uno e due byte, come inglese e altre lingue basate su alfabeto latino) oppure 10.000 caratteri (per lingue con codifica UTF-8 a tre byte come cinese, giapponese e coreano).
 
 Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
@@ -84,9 +84,9 @@ Per le richieste GET, anche se il limite è di 5 KB, a causa del fatto che Micro
 
 ## Esperienze per attività
 
-**Limite**: 2,000 esperienze per targeting delle esperienze (XT), test A/B, Test multivariato (MVT) e attività Automatica di Target.
+**Limite**: 2.000 esperienze per attività Targeting esperienza, Test A/B, Test multivariato (MVT) e Targeting automatico.
 
-30,000 esperienze per attività Automated Personalization (Personalizzazione automatizzata).
+30.000 esperienze per attività Personalizzazione automatizzata.
 
 ## Valore dell’attributo del profilo In-mbox
 
@@ -149,7 +149,7 @@ Se utilizzi una mbox globale, il limite è per l’intero insieme di contenuti r
 
 ## Offerte
 
-**Limite consigliato**: 50,000 offerte totali.
+**Limite consigliato**: 50.000 offerte totali.
 
 ## Parametro orderId
 
@@ -169,25 +169,25 @@ Qualsiasi valore superiore viene troncato dal sistema.
 
 **Limite consigliato**: 300 script di profilo attivi.
 
-**Limite consigliato**: Numero massimo di loop 500,000 per script di profilo.
+**Limite consigliato**: massimo di 500.000 loop per script di profilo.
 
 ## Proprietà
 
-**Limite consigliato**: 5,000 proprietà.
+**Limite consigliato**: 5.000 proprietà.
 
-## Segnalazione di audience/segmenti
+## Tipi di pubblico/Segmenti di reporting
 
-**Limite**: 50 audience/segmenti di reporting per attività.
+**Limite**: 50 tipi di pubblico/segmenti di reporting per attività.
 
-## Pubblico riutilizzabile per account
+## Tipi di pubblico riutilizzabili per account
 
-**Limite consigliato**: 75 audience.
+**Limite consigliato**: 75 tipi di pubblico.
 
 Nell’interfaccia possono verificarsi timeout di JavaScript in presenza di troppi tipi di pubblico.
 
 ## Casella di immissione profilo di script nell’interfaccia utente di Target
 
-**Limite consigliato**: 2,000 caratteri.
+**Limite consigliato**: 2.000 caratteri.
 
 Dipende dalla dimensione della stringa codificata, che potrebbe essere molto più lunga della stringa non elaborata. Se la stringa è troppo grande, si verifica un errore prima di raggiungere Adobe Target.
 
@@ -209,16 +209,16 @@ Per un valore di ritorno Array, se la dimensione dei valori concatenati dell’a
 
 **Limite**: 200 per attività.
 
-## Condizioni Target
+## Condizioni di destinazione
 
-**Limite consigliato**: 1,000 valori.
+**Limite consigliato**: 1.000 valori.
 
 Si riferisce al numero di valori separati da riga nell’area di testo di destinazione. Ad esempio, se si inseriscono 1.000 codici postali in un campo di destinazione CAP.
 
 ## Regole di targeting
 
-**Limite consigliato**: 2,500 valori univoci per regola di targeting.
+**Limite consigliato**: 2.500 valori univoci per regola di targeting.
 
-**Limite consigliato**: 30,000 valori univoci per audience nelle regole di targeting.
+**Limite consigliato**: 30.000 valori univoci per pubblico in tutte le regole di targeting.
 
-**Limite consigliato**: 100,000 valori di regole di targeting univoci per attività.
+**Limite consigliato**: 100.000 valori di regole di targeting univoci per attività.
