@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
 
 ---
 
@@ -19,25 +19,25 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Elenco delle domande frequenti sulle attività relative ai consigli.
 
-## Per quanto tempo si desidera che gli aggiornamenti degli elementi nel catalogo vengano riflessi sul sito?
+## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
-Dopo aver importato un file di feed, o dopo aver ricevuto gli aggiornamenti di entità tramite API o mbox, le seguenti modifiche saranno riportate in meno di 60 minuti:
+Dopo aver importato un file di feed, o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche verranno riportate in meno di 60 minuti:
 
-* Attributi degli elementi restituiti nel modello Progettazione.
-* Attributi degli elementi utilizzati nelle regole di esclusione globali che impediscono l'inclusione dell'elemento nelle raccomandazioni restituite.
-* Gli attributi degli elementi utilizzati nelle regole di inclusione all'interno dei criteri che influiscono sulla inclusione o l'esclusione dell'elemento nelle raccomandazioni restituite.
+* Attributi degli articoli restituiti nel modello Progettazione.
+* Attributi degli articoli utilizzati nelle regole di esclusione globali che impediscono l’inclusione dell’articolo nei consigli restituiti.
+* Attributi degli articoli utilizzati nelle regole di inclusione dei criteri che incidono sull’inclusione o esclusione dell’articolo dai consigli restituiti.
 
-Le modifiche seguenti non vengono applicate fino a quando viene eseguito l'algoritmo successivo (entro 12-24 ore):
+Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritmo successivo (entro 12-24 ore):
 
-* Attributi degli elementi utilizzati nelle regole di raccolta utilizzate per l'attività.
-* Attributi degli elementi utilizzati in una promozione in base a un attributo o una raccolta associata all'attività.
-* Categoria elemento in cui l'elemento viene visualizzato per una "Categoria corrente" o "Categoria preferita" nei Primi venduti o nell'algoritmo Più visualizzato.
-* Classificazione degli elementi consigliati quando l'attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
-* Classificazione degli elementi consigliati in base agli attributi modificati quando la logica di raccomandazione è "Elementi con attributi simili", quando vengono utilizzati i fattori di ponderazione "Contenuti similarità" o quando vengono utilizzati i fattori "Ponderazione attributo".
+* Attributi degli articoli utilizzati nelle regole di raccolta utilizzate per l’attività.
+* Attributi degli articoli utilizzati in una promozione in base a una raccolta o un attributo associato all’attività.
+* Categoria di articoli in cui l’articolo viene visualizzato, per “Categoria corrente” o “Categoria preferita” nell’algoritmo “Articoli più venduti” o “Articoli più visualizzati”.
+* Classificazione degli articoli consigliati quando l’attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
+* Classificazione degli articoli consigliati in base agli attributi modificati quando la logica dei consigli è “Articoli con attributi simili”, quando vengono utilizzati i fattori di ponderazione “Somiglianza del contenuto” o quando vengono utilizzati i fattori “Ponderazione degli attributi”.
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il relativo stato cambia da "Importazione di elementi" in "Preparazione degli aggiornamenti indice di ricerca". Per gli aggiornamenti potrebbero essere necessari più di 60 minuti nell'interfaccia utente di Ricerca catalogo, La ricerca catalogo è aggiornata quando lo stato di feed cambia in "Aggiornamenti completati". Anche se la ricerca catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti nei fotogrammi indicati sopra. Il tempo più recente di aggiornamento dell'indice di ricerca catalogo viene visualizzato nella pagina Ricerca catalogo.
+>Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca catalogo non risulta ancora aggiornata, gli aggiornamenti vengono rispecchiati nel sito in base alle tempistiche riportate qui sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -165,10 +165,12 @@ Nella stringa di query, puoi trasmettere gli ID per le entità da escludere dai 
 
 Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta delle raccomandazioni.
 
+L'esclusione viene eseguita solo per la chiamata Target corrente; gli elementi non sono esclusi dalle chiamate Target successive, a meno che il `excludedIds` valore non venga nuovamente passato. Per escludere gli elementi nel carrello dalle raccomandazioni su ogni pagina, continuate a trasmettere il `excludedIds` valore su ogni pagina.
+
 >[!NOTE]
 >
 >Se escludi troppe entità, i consigli si comportano come se non ci fossero abbastanza entità per riempire il modello di consigli.
 
-Aggiungi in coda agli `entityIds` esclusi il token `&excludes=${mbox.excludedIds}` per l’URL di contenuto dell’offerta. Quando l'URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando l'URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
