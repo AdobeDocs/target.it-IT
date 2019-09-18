@@ -1,14 +1,14 @@
 ---
 description: Con un’offerta di reindirizzamento, il browser viene reindirizzato a una nuova pagina.
 keywords: reindirizzare offerta;crea offerta di reindirizzamento;aggiungere offerta HTML;trasmettere tutti i parametri URL nel reindirizzamento;trasmettere mboxSessionId nel reindirizzamento (necessario solo quando si reindirizza a un dominio diverso)
-seo-description: Informazioni sulle offerte di reindirizzamento in Adobe Target che consentono a un browser di reindirizzare a una nuova pagina.
+seo-description: Informazioni sulle offerte di reindirizzamento in Adobe Target che determinano il reindirizzamento di un browser a una nuova pagina.
 seo-title: Creare offerte di reindirizzamento
 solution: Target
 title: Creare offerte di reindirizzamento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 647776170531230a0d0f0aa3d97565fbb75bc963
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -62,7 +62,7 @@ Nell'offerta di reindirizzamento viene eseguito il codice JavaScript per reindir
 
 Questo video include informazioni sulla gestione del contenuto.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/creative_cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
