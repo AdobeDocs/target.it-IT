@@ -8,7 +8,7 @@ title: Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 0219f5d565e33d415ae98be07258be80e338a0b1
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -41,7 +41,7 @@ Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](../c-
 
 **Quale file JavaScript di implementazione devo utilizzare, at.js o mbox.js?**
 
-at.js è la nostra libreria JavaScript più recente e più grande. mbox.js è la nostra versione precedente. Consulta [Vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per comprendere le differenze tra le due librerie. Tutti i nuovi clienti devono utilizzare at.js.
+at.js è la nostra libreria JavaScript più recente e più grande. mbox.js è la nostra versione precedente. Consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per comprendere le differenze tra le due librerie. Tutti i nuovi clienti devono utilizzare at.js.
 
 Tutti i clienti mbox.js già esistenti devono migrare a at.js. Ulteriori informazioni sui passaggi [per la migrazione da mbox.js a at.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) prima di effettuare la transizione.
 
@@ -81,7 +81,7 @@ Tieni presente che il fabbisogno di traffico aumenta con le attività MVT.
 
 **Posso applicare offerte in luoghi diversi (ad esempio, funnel di checkout)?**
 
-Try out the [Multipage Activity feature](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) that lets you use multiple pages within experiences.
+Prova la [funzione di attività multipagina](../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) che consente di usare più pagine all’interno di esperienze.
 
 **Come posso essere sicuro che, una volta raggiunto un obiettivo (primario o secondario), un utente non entri più nell'attività e veda invece un'attività diversa?**
 
@@ -91,7 +91,7 @@ Quindi, in questo caso, è possibile scegliere “Incrementa il conteggio, rilas
 
 **Ho creato più obiettivi nella mia attività. Posso creare una catena di obiettivi come funnel per scopi di reporting e analisi?**
 
-**Per esempio, voglio considerare l'obiettivo B quando l'utente ha raggiunto l'obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
+**Per esempio, voglio considerare l’obiettivo B quando l’utente ha raggiunto l’obiettivo A in modo che io possa rintracciare i numeri per un funnel specifico.**
 
 Target può raggiungere questo obiettivo in modo preciso grazie alla funzione di Dipendenza delle metriche. È sufficiente [aggiungere dipendenze su altre metriche di successo](../c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B). Sono disponibili opzioni quali “Raggiunto” e “Non raggiunto”, insieme alla capacità di combinare metriche in più modi per creare qualsiasi combinazione desiderata.
 
@@ -107,7 +107,7 @@ Questo è reso possibile dall'impostazione dell'obiettivo primario nel passaggio
 
 Utilizza la [funzionalità di programmazione nel passaggio obiettivi e impostazioni](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_DCBDC354261F420EBD4B43EA34947BAC) del flusso di lavoro di attività in tre parti specificando le date di inizio e di fine.
 
-Ricordate di attivare l'attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l'attività passa allo stato terminata.
+Ricordati di attivare l’attività. Solo le attività live aderiscono alla pianificazione specificata. Una volta raggiunta la data di fine, l’attività passa allo stato terminato.
 
 **È possibile apportare una modifica solo al passaggio di destinazione e non passare attraverso l'intero flusso di lavoro guidato in tre passaggi per l'editing?**
 
@@ -236,7 +236,7 @@ Utilizza l’[approccio basato su moduli](../c-experiences/form-experience-compo
 
 **È possibile garantire che la stessa esperienza venga fornita in modo coerente su tutti i dispositivi di un utente?**
 
-Consulta il nostro servizio [Device Co-op](https://marketing.adobe.com/resources/help/en_US/mcdc/index.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
+Consulta il nostro servizio [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
 
 Se fai parte della Cooperativa, un semplice flag nella pagina Obiettivi e impostazioni abilita la funzione. Inoltre, il reporting cambia per riflettere Persone anziché Visitatori. Contatta Adobe per maggiori informazioni su questa funzione in quanto non è disponibile in tutte le regioni.
 
@@ -256,7 +256,7 @@ Utilizza il nostro [debugger](../c-activities/c-troubleshooting-activities/conte
 
 **Perché la consegna dei contenuti non avviene nel mio processo QA?**
 
-È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). See [CSS Selectors](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
+È possibile che il sito abbia ID dinamici, ID duplicati o classi dinamiche sugli elementi. Potrebbe essere necessario valutare le opzioni di preferenza del sito a livello di account (o a livello di attività se il problema è specifico a un dominio o a una pagina). Consulta [Selettori CSS](../administrating-target/r-target-account-preferences/target-account-preferences.md#section_8155EDBF449E4198863235F94D1EA872).
 
 **Perché non vedo l'offerta/esperienza desiderata e vedo invece altre attività?**
 
@@ -283,21 +283,21 @@ Dai un'occhiata alle seguenti funzioni del prodotto:
 
 Qui entra in gioco la funzionalità di [Tipi di pubblico per i rapporti](../c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#section_13119392051044FBA6387D9B3B1C43CF) disponibile nella pagina Obiettivi e impostazioni nel passaggio 3 del flusso di lavoro guidato in tre parti.
 
-Hai l'opzione di aggiungere 50 segmenti e anche il punto dell'applicazione (Activity Entry (Ingresso attività) o una metrica specifica) per avere un modo efficace di sezione e stile.
+Hai la possibilità di aggiungere 50 segmenti e anche il punto di applicazione (accesso all’attività o una metrica specifica) per poter suddividere la reportistica in base alle tue esigenze.
 
 Tieni presente che Target raccoglie i dati per questo scopo dal momento in cui si aggiungono questi tipi di pubblico; quindi, dovrai aggiungere i segmenti prima di eseguire il test.
 
-**Non posso definire i tipi di pubblico prima di eseguire l'attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.**
+**Non posso definire i tipi di pubblico prima di eseguire l’attività. Trovo restrittivo questo aspetto di reporting per i tipi di pubblico nelle attività di Target.**
 
 **Cosa posso fare per semplificare questo processo?**
 
-This is where [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) is handy. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
+[Analytics per Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) è molto comodo a tale scopo. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
 
 **È possibile eseguire calcoli di reporting offline?**
 
-Use the [Export Reports to CSV and Download Order Details to CSV options](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) on the Reports page to download the desired reporting data.
+Usa le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell’ordine in formato CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) nella pagina Rapporti per scaricare i dati di reporting desiderati.
 
-**Posso cambiare l'esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
+**Posso cambiare l’esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
 
 Per apportare queste modifiche utilizza le [Impostazioni nella pagina Rapporti](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA). Scopri di più su queste impostazioni per capire come variano i calcoli.
 
