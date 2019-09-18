@@ -1,14 +1,14 @@
 ---
 description: Elenco di modifiche importanti apportate alla documentazione di Target.
 keywords: registro modifiche documentazione target;aggiornamenti documentazione
-seo-description: In questa pagina sono elencate modifiche importanti apportate alla documentazione di Adobe Target.
-seo-title: Modifiche apportate alla documentazione nella documentazione di Adobe Target.
+seo-description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione di Adobe Target.
+seo-title: Modifiche alla documentazione nella documentazione di Adobe Target.
 solution: Target
 title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
 
 ---
 
@@ -21,22 +21,22 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1. |
-| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Aggiunta sezione "Considerazioni". |
-|  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l'intero topic. |
+| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1. |
+| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Aggiunta la sezione "Considerazioni". |
+|  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l’intero argomento. |
 |  | [Informativa sulla sicurezza dei contenuti (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuovo argomento. |
-| 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (settembre 10, 2019). |
-|  | [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuovo argomento. |
+| 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (10 settembre 2019). |
+|  | [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuovo argomento. |
 | 4 settembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | 23 agosto 2019 | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | Snippet di codice aggiornato in `AndroidManifest.xml`. |
-| 22 agosto 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state rimosse informazioni sull'uso di caratteri non consentiti negli ID app mobili. Non sono più presenti restrizioni. |
-|  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
-|  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Aggiornamento della seguente frase: Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita "cumulative". Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti prive di chiavi specificate nel caricamento CSV continueranno a essere disponibili per la consegna e scadrà dopo 31 giorni dal momento in cui saranno caricate come parte del file CSV. |
-| 20 agosto 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiornato il rilascio di Target/Premium 19.8.1 (20 agosto 2019). Il contenuto di questa versione verrà introdotto nella release 19.9.1 (24 settembre 2019). |
-|  | [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md) | Sono state aggiunte le seguenti domande frequenti: " Il prezzo dell'elemento consigliato non visualizza entrambi i valori a destra del punto decimale. Come è possibile visualizzarli? " |
-| 16 agosto 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Aggiunta nuova sezione: " Considerazioni. " |
+| 22 agosto 2019 | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state rimosse informazioni sull'uso di caratteri non consentiti negli ID app mobili. Non ci sono più restrizioni. |
+|  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunta nuova sezione: "Considerazioni". |
+|  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | È stata aggiornata la frase seguente: Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita "cumulative". Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti senza chiavi specificate nel caricamento CSV continueranno a essere disponibili per la consegna e scadranno dopo 31 giorni dall'ultimo caricamento nel file CSV. |
+| 20 agosto 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata posticipata la versione di Target/Premium 19.8.1 (20 agosto 2019). Il contenuto di questa versione verrà introdotto nella release 19.9.1 (24 settembre 2019). |
+|  | [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md) | Sono state aggiunte le seguenti domande frequenti: "Il prezzo dell'elemento consigliato non visualizza entrambi i valori a destra del separatore decimale. Come posso visualizzarle?" |
+| 16 agosto 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | Aggiunta nuova sezione: "Considerazioni". |
 |  | [Creare un’attività di consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) | È stata aggiunto un video di formazione. |
-|  | [Feed](/help/c-recommendations/c-products/feeds.md) | Video di formazione aggiunti. |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md) | Sono stati aggiunti video di formazione. |
 |  | [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | È stata aggiunto un video di formazione. |
 |  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | È stata aggiunto un video di formazione. |
 |  | [Creare sequenze di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | È stata aggiunto un video di formazione. |
@@ -44,36 +44,36 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Raccolte](/help/c-recommendations/c-products/collections.md) | È stata aggiunto un video di formazione. |
 |  | [Esclusioni](/help/c-recommendations/c-products/exclusions.md) | È stata aggiunto un video di formazione. |
 | 14 agosto 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Testo aggiornato e collegamento video di formazione aggiunto. |
-|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informazioni su questa `consumerID` chiave. |
-|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Informazioni aggiornate nella sezione «Layout &gt; Sposta». |
-| 12 agosto 2019 | [Android: configurare l’app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Aggiornate informazioni su dipendenze e artefatti.<br>Esempio di codice aggiornato per il `AndroidManifest.XML` file. |
-|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiornato l'elenco di miglioramenti e correzioni nella sezione «Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1». |
-|  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md#classic) | Aggiunta nuova sezione: " Lavorate con le attività precedenti create in Recommendations Classic. " |
-| 9 agosto 2019 | [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Aggiunta nuova sezione: " In che modo at. js esegue il rendering delle offerte con contenuto HTML. " |
-|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Aggiunta nuova sezione: " Considerazioni. " |
-| 7 agosto 2019 | [Preacquisire il contenuto dell’offerta](/help/c-target-mobile-app/prefetch-offer-content.md) | Aggiunta nota che la funzionalità di preacquisizione negli SDK non è supportata per i tipi di attività Automatica di Target, Allocazione automatica e Automated Personalization (Personalizzazione automatizzata). |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Informazioni chiare sulla `consumerID` chiave. |
+|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#move) | Informazioni aggiornate nella sezione "Layout &gt; Sposta". |
+| 12 agosto 2019 | [Android: configurare l’app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#sdk-library) | Informazioni aggiornate su dipendenze e artefatti.<br>Esempio di codice aggiornato per il `AndroidManifest.XML` file. |
+|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiornato l'elenco dei miglioramenti e delle correzioni nella sezione "Target Mobile VEC SDK iOS 2.1.0 &amp; Android 1.1.1". |
+|  | [Modificare un’attività o salvarla come bozza](/help/c-activities/edit-activity.md#classic) | Aggiunta nuova sezione: "Utilizzare le attività legacy create in Recommendations Classic." |
+| 9 agosto 2019 | [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) | Aggiunta nuova sezione: "Il modo in cui at.js esegue il rendering delle offerte con il contenuto HTML." |
+|  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#considerations) | Aggiunta nuova sezione: "Considerazioni". |
+| 7 agosto 2019 | [Preacquisire il contenuto dell’offerta](/help/c-target-mobile-app/prefetch-offer-content.md) | È stato aggiunto che la funzionalità di preacquisizione negli SDK non è supportata per i tipi di attività di Auto Target, Auto Allocate e Automated Personalization (Personalizzazione automatica). |
 |  | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#unspecified) | Nota aggiornata che indica il tempo necessario al completamento del processo di classificazione. |
-|  | [Normativa sulla privacy e sulla protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Argomento aggiornato per includere informazioni su California Consumer Privacy Act (CCPA). |
+|  | [Norme sulla privacy e sulla protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Argomento aggiornato per includere informazioni sul California Consumer Privacy Act (CCPA). |
 | 6 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte note sulla versione per la versione di Target Mobile VEC SDK iOS 2.1.0 e Android 1.1.0. |
-|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Aggiornamento della sezione seguente: " Tempo di elaborazione previsto dei criteri. " |
-|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | È stato aggiornato considerazioni sull'utilizzo [!UICONTROL delle metriche Impression] attività e [!UICONTROL Conversioni] attività in [!DNL Analysis Workspace]. |
-| 1 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stato aggiunto un annuncio importante riguardo il supporto API per le autorizzazioni Enterprise. |
-|  | [Consenti agli integrazioni I/O di accedere alle aree di lavoro e assegna ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nuovo argomento. |
+|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#process-time) | Aggiornamento della sezione seguente: "Tempo di elaborazione dei criteri previsto." |
+|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#metrics) | È stata aggiornata la considerazione sull'utilizzo delle metriche [!UICONTROL Activity Impression] e [!UICONTROL Activity Conversion] in [!DNL Analysis Workspace]. |
+| 1 agosto 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stato aggiunto un importante annuncio sul supporto API per le autorizzazioni Enterprise. |
+|  | [Concedere alle integrazioni di I/O Adobe l'accesso alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md) | Nuovo argomento. |
 | 31 luglio 2019 | [Introduzione a Recommendations](/help/c-recommendations/introduction-to-recommendations.md) | Nuovo argomento. |
-|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | Aggiunta nota agli elementi visualizzati di recente. |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#preview) | È stato aggiunto un problema noto con i collegamenti di anteprima QA attività. |
-| 29 luglio 2019 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte nuove domande frequenti: " Perché i miei [!UICONTROL report Targeting] delle esperienze (XT) contengono metriche per controllare le esperienze? " |
-| 24 luglio 2019 | [Aggiornamento da. js 1.*x* a. js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Aggiunta nuova sezione: [Supporto di monitoraggio tra più domini in at. js 2. x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
+|  | [Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#recently-viewed) | È stata aggiunta una nota agli elementi visualizzati di recente. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#preview) | È stato aggiunto un problema noto con i collegamenti di anteprima di QA dell'attività. |
+| 29 luglio 2019 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte nuove domande frequenti: "Perché i miei rapporti [!UICONTROL Experience Targeting] (XT) contengono metriche per le esperienze di controllo?" |
+| 24 luglio 2019 | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | Aggiunta nuova sezione: Supporto per il tracciamento [tra domini in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain) |
 |  | [Apple Intelligent Tracking Prevention (ITP) 2.*x*](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Nuovo argomento. |
-|  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Aggiunta nuova sezione: " Visualizzazione dello stato dell'offerta Recommendations. " |
-|  | [Feed](/help/c-recommendations/c-products/feeds.md) | È stata aggiornata la riga "Importazione elementi" e aggiunta la riga "Feed importato correttamente al *momento*" in [Feed feed](/help/c-recommendations/c-products/feeds.md#status). |
-|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) | Testo aggiornato su come si aggiorna il catalogo. |
-|  | [Configurare il monitoraggio dei clic nell'app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Sono state aggiunte informazioni sul pannello Modifiche che mostra gli elementi configurati per il tracciamento dei clic. |
-|  | [Come funziona Adobe Target](/help/c-intro/how-target-works.md#bots) | Aggiunta nuova sezione: «Bot». |
-|  | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Sono state aggiunte procedure ottimali per evitare un'esecuzione regex lenta. |
-|  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | È stata aggiornata la sezione Risoluzione dei problemi per indicare che le limitazioni dei caratteri non si applicano più ai nomi delle app. Le limitazioni sono valide solo per gli ID. |
-|  | [Feed](/help/c-recommendations/c-products/feeds.md#steps) | Sono state aggiunte le impostazioni del server FTP supportate ai passaggi. |
+|  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md#status) | Aggiunta nuova sezione: "Visualizzazione dello stato dell'offerta delle raccomandazioni." |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md) | È stata aggiornata la riga "Importazione elementi" e aggiunta la riga "Feed importato correttamente al *momento*" in Stati [](/help/c-recommendations/c-products/feeds.md#status)feed. |
+|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) | Testo aggiornato sull’aggiornamento del catalogo. |
+|  | [Configurare il monitoraggio dei clic nell'app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md) | Sono state aggiunte informazioni sul pannello Modifiche che mostrano gli elementi impostati per il monitoraggio dei clic. |
+|  | [Come funziona Adobe Target](/help/c-intro/how-target-works.md#bots) | Aggiunta nuova sezione: "Bots." |
+|  | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#best) | Sono state aggiunte procedure ottimali per evitare un'esecuzione regolare lenta. |
+|  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts) | È stata aggiornata la sezione Risoluzione dei problemi per verificare che le restrizioni di carattere non si applichino più ai nomi delle app. Le restrizioni si applicano solo agli ID. |
+|  | [Feed](/help/c-recommendations/c-products/feeds.md#steps) | Sono state aggiunte impostazioni server FTP supportate ai passaggi. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.1.1. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.7.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
@@ -96,7 +96,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Sono state aggiunte informazioni e una domanda su come specificare un’esperienza specifica da utilizzare come controllo.<br>È stata aggiornata la sezione “Determinazione dell’allocazione del traffico”. |
 |  | [Creare un’attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) | È stato aggiunto un passaggio con informazioni per selezionare un’esperienza specifica come predefinita. |
 |  | [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) | Sono state aggiunte informazioni su come gestire più versioni di un’app mobile. |
-|  | [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) | Sono state aggiunte informazioni sulla chiave di consigli Articoli acquistati in precedenza. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Sono state aggiunte informazioni sui rapporti che, in alcune situazioni, non vengono generati per le attività di Targeting automatico. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
