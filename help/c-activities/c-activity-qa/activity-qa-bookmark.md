@@ -1,25 +1,25 @@
 ---
-description: Informazioni su come utilizzare il bookmarklet di controllo qualità di Target per forzare l’uscita dalla modalità di controllo qualità.
+description: Informazioni utili per utilizzare il bookmarklet Adobe Target per imporre a Target di rilasciarvi dalla modalità di controllo qualità.
 keywords: qa;anteprima;bookmarklet;collegamenti di anteprima
-seo-description: Informazioni su come utilizzare il bookmarklet di controllo qualità di Target per forzare l’uscita dalla modalità di controllo qualità.
-seo-title: Bookmarklet di controllo qualità delle attività
+seo-description: Informazioni utili per utilizzare il bookmarklet Adobe Target per imporre a Target di rilasciarvi dalla modalità di controllo qualità.
+seo-title: bookmarklet Attività QA per Adobe Target
 solution: Target
 title: Bookmarklet di controllo qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
 
 # Bookmarklet di controllo qualità delle attività{#activity-qa-bookmarklet}
 
-Informazioni su come utilizzare il bookmarklet di controllo qualità di Target per forzare l’uscita dalla modalità di controllo qualità.
+Information to help you use the [!DNL Target] QA bookmarklet to force [!DNL Target] to release you from QA mode.
 
-Siccome il [Controllo di qualità attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) è persistente, dopo aver navigato su un sito web in modalità di controllo qualità sarà possibile visualizzare il sito come un normale visitatore solo dopo che sessione di Target sarà scaduta o dopo che l’uscita forzata dalla modalità di controllo qualità. Utilizza il bookmarklet Controllo di qualità di Target per forzare l'uscita dalla modalità Controllo di qualità.
+Because [QA mode](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) is sticky, after you browse a website in QA mode, your [!DNL Target] session must expire or you need to have [!DNL Target] release you from QA mode before you can view your site like a typical visitor. Use the QA [!DNL Target] bookmarklet to force yourself out of QA mode.
 
-Per utilizzare il bookmarklet di controllo di qualità di Target, crea un bookmarklet contenente il seguente codice JavaScript e aggiungilo alla barra dei segnalibri del browser:
+To use the [!DNL Target] QA bookmarklet, create a bookmarklet containing the following JavaScript code and add it to your browser's Bookmarks Toolbar:
 
 ```
 javascript:(
@@ -44,4 +44,8 @@ Il bookmarklet dovrebbe quindi apparire sulla barra degli strumenti, pronto per 
 >
 >La procedura per creare un bookmarklet varia in base al tipo e alla versione del browser. Consulta la guida del browser o cerca su internet indicazioni specifiche.
 
-Puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il parametro `at_preview_token` con un valore vuoto (ad esempio, `https://www.mysite.com/?at_preview_token=`).
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+Ad esempio:
+
+`https://www.mysite.com/?at_preview_token=`
