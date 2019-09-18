@@ -1,14 +1,14 @@
 ---
 description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-keywords: qa; preview; anteprima collegamento; mobile; anteprima dispositivi mobili
+keywords: qa;anteprima;collegamento di anteprima;mobile;mobile preview
 seo-description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-seo-title: Utilizzo del collegamento di anteprima per dispositivi mobili in Adobe Target mobile
+seo-title: Utilizzo del collegamento di anteprima mobile in Adobe Target mobile
 solution: Target
 title: Anteprima mobile di Target
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -31,8 +31,8 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per istruzioni su come scaricare l'SDK appropriato, vedi:
 
-   * **iOS:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/ios/requirements.html) nella guida *iOS SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions)*.
-   * **Android:**[Before you start (Prima di cominciare)](https://marketing.adobe.com/resources/help/en_US/mobile/android/requirements.html)*nella guida Android SDK 4.x for Experience Cloud Solutions (iOS SDK 4.x per Experience Cloud Solutions).*
+   * **** iOS: [Prima di iniziare](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) nella Guida *di* Mobile Services iOS.
+   * **** Android: [Prima di iniziare](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) nella Guida *Android di* Mobile Services.
 
 1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l'app. È necessario specificare uno schema URL univoco per l'anteprima.
 
