@@ -9,7 +9,7 @@ title: Generazione di rapporti per A4T
 topic: Standard
 uuid: bd3a7fa4-ba45-4ea3-81b6-fc2584831ce4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -45,7 +45,7 @@ In Analytics, utilizza il rapporto delle attività di Target per visualizzarne i
 
 >[!NOTE]
 >
->I dettagli dell’incremento e dell’affidabilità di Target sono disponibili anche in Analytics. Per ulteriori informazioni, vedi [Tipi di rapporto di incremento e affidabilità di Target](https://marketing.adobe.com/resources/help/en_US/reference/report_target_lift_confidence.html) nella documentazione del prodotto Adobe Analytics.
+>I dettagli dell’incremento e dell’affidabilità di Target sono disponibili anche in Analytics. Per ulteriori informazioni, vedi [Target Lift and Confidence](https://docs.adobe.com/content/help/en/analytics/components/variables/dimensions-reports/report-target-lift-confidence.html) (Incremento e confidenza *di Target) nella Guida* ai componenti diAnalytics.
 
 >[!IMPORTANT]
 >
