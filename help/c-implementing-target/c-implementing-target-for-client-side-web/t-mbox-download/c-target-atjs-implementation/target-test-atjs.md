@@ -5,7 +5,7 @@ seo-title: Distribuire at.js in un ambiente non di produzione
 title: Distribuire at.js in un ambiente non di produzione
 uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
@@ -20,7 +20,7 @@ Se utilizzi DTM, puoi facilmente salvare at.js nella configurazione di Adobe Tar
 
 Dopo aver salvato la libreria, utilizza lo strumento switch di DTM per testarlo sul codice di produzione. Questo permetterà ai tuoi consulenti Adobe di supportarti più facilmente.
 
-Per ulteriori informazioni, vedi l'[Opzione 3: Implementare la destinazione manualmente con la libreria JavaScript di Target ospitata da DTM](https://marketing.adobe.com/resources/help/en_US/dtm/target/t_implementing-target-manually-js-hosted-dtm.html) nelle _Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management_.
+Per ulteriori informazioni, vedi l'[Opzione 3: Implementare la destinazione manualmente con la libreria JavaScript di Target ospitata da DTM](https://docs.adobe.com/content/help/en/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) nelle *Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management*.
 
 ## Utilizzare l'estensione di Chrome Requestly per eseguire il mapping a un altro file
 
