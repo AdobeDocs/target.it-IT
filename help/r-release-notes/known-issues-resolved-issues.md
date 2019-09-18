@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -27,7 +27,7 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 ### Collegamenti di anteprima QA attività {#preview}
 
-[I collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) QA attività per le attività salvate potrebbero non venire caricati se nel vostro account sono presenti troppe attività salvate. Riprovare a usare i collegamenti di anteprima. Per evitare che ciò accada, archiviate le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
+[I collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) del QA dell'attività per le attività salvate potrebbero non essere caricati in presenza di troppe attività salvate nell'account. Il nuovo tentativo dei collegamenti di anteprima dovrebbe funzionare. Per evitare che ciò continui, archiviare le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
 
 ### Offerte di reindirizzamento {#redirect}
 
@@ -73,7 +73,7 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](https://marketing.adobe.com/resources/help/en_US/target/recs/t_algo_select_recs.html) consente di visualizzare l’elenco completo degli algoritmi.
+* Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
    Quando si utilizza at.js, la casella di controllo Compatibile è nascosta e non è pertanto possibile visualizzare gli algoritmi non compatibili.
 
@@ -138,7 +138,7 @@ Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella se
 
 Una situazione di tipo “race condition” può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Sono previsti aggiornamenti per l’implementazione di at.js in modo da evitare tale situazione di tipo “race condition”. 
 
-Questo problema è stato risolto in at. js 1.6.3.
+Questo problema è stato risolto in at.js 1.6.3.
 
 ### Gruppi di esclusione
 
