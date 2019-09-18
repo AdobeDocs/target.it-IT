@@ -7,7 +7,7 @@ title: Eseguire il debug di at.js utilizzando il debugger di Adobe Experience Cl
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -18,7 +18,7 @@ Informazioni sull'utilizzo dell'estensione debugger di Adobe Experience Cloud, c
 
 Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 
-Per ulteriori informazioni, consulta la [documentazione dell’estensione debugger di Adobe Experience Cloud](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/). Le informazioni specifiche di Target sono disponibili nella sezione [Strumenti](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/tools.html).
+Per ulteriori informazioni, consulta la [documentazione dell’estensione debugger di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html). Le informazioni specifiche di Target sono disponibili nella sezione [Strumenti](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
 
 ## Video di formazione
 
