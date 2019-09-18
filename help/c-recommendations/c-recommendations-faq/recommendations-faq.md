@@ -10,7 +10,7 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 9fbcbdff934b0c372e4de94f846f01953f7bc77f
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -99,7 +99,7 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 * L’indice è aggiornato? Vai su [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, “indicizzato 3 ore fa”). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
 * Il feed è stato eseguito correttamente? Qualcuno ha cambiato la directory FTP, la password ecc.?
-* In Target gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, dobbiamo anche fornire qualche rappresentazione nell’interfaccia utente per l’addetto al marketing. Non ritardiamo necessariamente gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](https://marketing.adobe.com/resources/help/en_US/target/target/c_content_trouble.html#) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
+* In Target gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, dobbiamo anche fornire qualche rappresentazione nell’interfaccia utente per l’addetto al marketing. Non ritardiamo necessariamente gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
 
 ## Qual è la differenza tra Ponderazione attributi generale e Ponderazione attributi relativa alle somiglianze di contenuti? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
