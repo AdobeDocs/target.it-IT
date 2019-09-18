@@ -9,7 +9,7 @@ title: Risolvere i problemi relativi alla distribuzione dei contenuti
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -102,7 +102,7 @@ Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
-Per ulteriori informazioni, consulta la documentazione di [*Adobe Experience Cloud*](https://marketing.adobe.com/resources/help/en_US/experience-cloud-debugger/).
+Per ulteriori informazioni, consulta [Debug at.js tramite Adobe Experience Cloud Debugger](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
 ## Se target.js non viene caricato durante la distribuzione {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
 
@@ -148,9 +148,9 @@ Per le offerte remote, la risposta della mbox può contenere `/* invalid remote 
 
 Puoi controllare la risposta mbox nel browser o utilizzare mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## le mbox non si attivano sul sito.
+## Le mbox non si attivano sul sito.
 
-at. js non attivano mbox Target se state utilizzando un doctype non valido. at.js richiede il doctype HTML5.
+at.js non attiva le mbox di Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
 
 ## Video di formazione
 
