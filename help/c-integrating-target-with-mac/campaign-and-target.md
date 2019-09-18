@@ -8,7 +8,7 @@ title: Integrare Target con Adobe Campaign
 topic: Standard
 uuid: 1a5b70e6-d501-4b52-bec8-4ae2c419d331
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -46,10 +46,10 @@ Prima di utilizzare Adobe Campaign per impostare le offerte e-mail mirate, impos
 
 * Due o più offerte Target di reindirizzamento
 
-   Consulta [Crea un’offerta di reindirizzamento](https://marketing.adobe.com/resources/help/en_US/target/target/t_offer_redirect.html).
-* Un’attività di Target con un’esperienza per ogni offerta e la [metrica di successo](https://marketing.adobe.com/resources/help/en_US/target/target/r_success_metrics.html) desiderata.
+   See [Create redirect offer](/help/c-experiences/c-manage-content/offer-redirect.md).
+* Un’attività di Target con un’esperienza per ogni offerta e la [metrica di successo](/help/c-activities/r-success-metrics/success-metrics.md) desiderata.
 
-   Consulta [Reindirizza all’URL](https://marketing.adobe.com/resources/help/en_US/target/target/t_redirect_offer.html).
+   Consulta [Reindirizza all’URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
 Avvia l’attività in Target prima di impostare la parte dell’integrazione in Campaign.
 
