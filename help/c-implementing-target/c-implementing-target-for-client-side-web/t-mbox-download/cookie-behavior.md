@@ -9,7 +9,7 @@ title: Cookie mbox.js
 topic: Standard
 uuid: e0089c2a-57e9-4014-9fbf-589faea97c09
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -22,7 +22,7 @@ Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte
 >
 >Questo argomento contiene informazioni su `mboxSession` e `mboxPC`. Le nostre best practice di implementazione consigliano di non collegare o archiviare informazioni sensibili con i dati dei cookie: `mboxSession` o `mboxPC`.
 
-Consulta anche [Eliminare il cookie di Target](https://marketing.adobe.com/resources/help/en_US/target/target/t_cookie_deleting.html).
+See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Quando utilizzare un cookie di prima parte o di terze parti {#section_F71B29420C004A7FA3B1921E619B326E}
 
