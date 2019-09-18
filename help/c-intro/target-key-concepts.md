@@ -9,7 +9,7 @@ title: Concetti chiave di Target
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -50,7 +50,7 @@ Le posizioni sono elementi essenziali per le attività e le esperienze. Sarai tu
 
 In [!DNL Target Standard], una posizione può essere un qualsiasi elemento in una pagina, purché la pagina contenga una singola riga di codice che abilita [!DNL Target] nella sezione `<head>` di ogni pagina da monitorare. Questa riga di codice richiama le librerie JavaScript necessarie per raccogliere le informazioni e trasmettere esperienze mirate ai visitatori.
 
-Consulta [Vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per ulteriori informazioni sulle differenze tra implementazione della posizione e [!DNL Target Standard] implementazione mbox in [!DNL Target Classic].
+Consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per ulteriori informazioni sulle differenze tra l’implementazione per posizione in [!DNL Target Standard] e l’implementazione mbox in [!DNL Target Classic].
 
 Le posizioni vengono combinate con i tipi di pubblico per fornire un numero praticamente infinito di opzioni per indirizzare le informazioni ai clienti. Ad esempio, se un visitatore non è mai stato prima sul tuo sito, puoi presentargli un buono sconto speciale per i nuovi clienti. Allo stesso modo, la pagina potrebbe essere modificata con offerte ottimizzate per i clienti che ritornano.
 
@@ -98,13 +98,13 @@ Ad esempio, puoi eseguire il targeting di un’attività per un pubblico compost
 
 In alternativa, puoi eseguire il targeting di un’attività per i visitatori provenienti da una determinata area geografica o per chi accede alla pagina da un determinato motore di ricerca.
 
-Le audience possono essere salvate per il riutilizzo in più attività, oppure possono essere create per un'attività specifica.
+I tipi di pubblico possono essere salvati e riutilizzati in più attività, oppure possono essere creati per un’attività specifica.
 
 | Tipo di pubblico | Descrizione |
 |--- |--- |
-| Pubblico riutilizzabile | Le audience riutilizzabili possono essere selezionate per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
+| Pubblico riutilizzabile | I tipi di pubblico riutilizzabili possono essere selezionati per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
-| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Per alcuni esempi, consulta [Experience Cloud Audiences](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html). |
+| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
 Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
