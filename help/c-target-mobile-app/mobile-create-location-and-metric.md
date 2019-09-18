@@ -7,7 +7,7 @@ title: iOS - Creare una posizione di destinazione e una metrica di successo
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 
-Questa sezione include il codice di esempio che può essere utilizzato come modello per l'app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [Android SDK 4.x per Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mobile/android/target_main.html) Solutions.
+Questa sezione include il codice di esempio che può essere utilizzato come modello per l'app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Android SDK 4.x per Experience Cloud Solutions.
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://marketing.adobe.com/resources/help/en_US/mobile/ios/c_target_methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 Per creare una posizione di destinazione nell'app e fare una richiesta, esistono due metodi principali:
 
