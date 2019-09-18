@@ -1,14 +1,14 @@
 ---
 description: Puoi escludere i valori estremi dai rapporti in modo che pochi ordini insoliti non influiscano sui risultati dell’attività. Un esempio di un ordine insolito potrebbe essere un allenatore che acquista le maglie per tutta la squadra, rispetto a singoli acquirenti che acquistano una sola maglia ciascuno.
 keywords: Target;rapporti;impostazioni rapporti;ordini estremi;valori estremi
-seo-description: Puoi escludere i valori estremi dai rapporti in modo che pochi ordini insoliti non influiscano sui risultati dell’attività. Un esempio di un ordine insolito potrebbe essere un allenatore che acquista le maglie per tutta la squadra, rispetto a singoli acquirenti che acquistano una sola maglia ciascuno.
-seo-title: Escludere i valori estremi
+seo-description: Potete escludere valori estremi dall'influenza dei rapporti in Adobe Target, in modo che alcuni ordini insoliti non influenzino i risultati dell'attività. Un esempio di un ordine insolito potrebbe essere un allenatore che acquista le maglie per tutta la squadra, rispetto a singoli acquirenti che acquistano una sola maglia ciascuno.
+seo-title: Escludere valori estremi nei report di Adobe Target
 solution: Target
 title: Escludere i valori estremi
 topic: Premium
 uuid: bb151b54-09ef-40b5-bc04-95c61b761f5a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1df7fbf78f9e20d8a907809b228ed591036c1a24
 
 ---
 
@@ -32,9 +32,13 @@ Quando un valore è contrassegnato come estremo, il valore dell'ordine viene sos
 **Per escludere i valori estremi dai rapporti:**
 
 1. Apri un’attività che include i tipi di metrica di ricavi o coinvolgimento, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
-1. Fai clic sull'icona a forma di ruota dentata per visualizzare le opzioni delle [!UICONTROL Impostazioni dei rapporti].
+1. Fate clic sull’icona dell’ingranaggio.
+
+   ![Impostazioni dei rapporti](/help/c-reports/c-report-settings/assets/report-settings-gear-icon.png)
+
+   Viene visualizzata la finestra di dialogo Impostazioni  rapporto.
 
    ![Risultato passaggio](assets/exclude_extreme_values.png)
 
 1. Attiva o disattiva l’opzione **[!UICONTROL Escludi valori estremi]** a tuo piacimento.
-1. Fai clic su **[!UICONTROL Salva impostazioni]**.
+1. Fai clic su **[!UICONTROL Salva]**.
