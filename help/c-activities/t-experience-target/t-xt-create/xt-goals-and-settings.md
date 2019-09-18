@@ -8,7 +8,7 @@ title: Obiettivi e impostazioni
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -23,7 +23,7 @@ Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugl
 
 Le impostazioni disponibili dipendono dall’utilizzo di [!DNL Target] o [!DNL Analytics] come origine di dati.
 
-![Impostazioni attività, pagina](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
+![Pagina Impostazioni attività](/help/c-activities/t-experience-target/t-xt-create/assets/ab_settings-new.png)
 
 ## Impostazioni delle attività {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
@@ -64,7 +64,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Soluzione di reporting
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
+Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
 
 Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
 
@@ -76,7 +76,7 @@ Se una soluzione di reporting è specificata nelle impostazioni del tuo account,
 >
 >Al fine di mantenere coerenza dei rapporti, non è possibile cambiare l’origine per i rapporti una volta che l’attività è diventata attiva.
 
-### Metrica obiettivo
+### Metrica per obiettivo
 
 Seleziona l’azione che deve essere eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di conversione, quindi imposta i parametri che determinano il raggiungimento del successo.
 
@@ -110,7 +110,7 @@ Inserisci informazioni sull’attività, utili per te o per gli altri membri del
 
 ## Impostazioni avanzate {#section_E2FE441AFB324E498793ABB025ED9974}
 
-Le impostazioni avanzate sono disponibili per le metriche dell’obiettivo di Targeting esperienza.
+Per le metriche dell’obiettivo di Targeting esperienza sono disponibili impostazioni avanzate.
 
 ![Impostazioni avanzate](/help/c-activities/t-experience-target/t-xt-create/assets/Menu_AdvancedSettings-new.png)
 
@@ -122,7 +122,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Quali sono le metriche di successo da raggiungere prima di incrementare questa metrica?
 
-Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio, una conversione di prova potrebbe essere valida solo se il visitatore fa clic sull'offerta o raggiunge una pagina prima della conversione.
+Utilizza questa opzione per contare solo chi raggiunge la metrica di successo se in precedenza aveva raggiunto una metrica di successo diversa. Ad esempio una conversione di test potrebbe risultare valida solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.
 
 È possibile fornire una dipendenza da più metriche e decidere se, per incrementare il conteggio, la metrica deve essere raggiunta o non raggiunta.
 
@@ -133,13 +133,13 @@ L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo 
 Per aggiungere una dipendenza:
 
 1. Dopo aver aggiunto le metriche aggiuntive, fai clic su **[!UICONTROL Impostazioni avanzate]**.
-2. Click **[!UICONTROL Add Dependency]**:
+2. Fai clic su **[!UICONTROL Aggiungi dipendenza]**:
 
-   ![Aggiungi collegamento di dipendenza](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
+   ![Collegamento Aggiungi dipendenza](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency-new.png)
 
 3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su Raggiunto per scegliere tra Raggiunto e Non raggiunto.
 
-   ![Finestra di dialogo Aggiungi dipendenza metriche](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
+   ![Finestra di dialogo Aggiungi dipendenza metrica](/help/c-activities/t-experience-target/t-xt-create/assets/add_dependency_reached-new.png)
 
 È possibile modificare o rimuovere le dipendenze dopo averle aggiunte.
 
