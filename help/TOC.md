@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/it-IT/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 5d5523ba5aa3875ac450cb356141bea5dffa3842
 
 ---
 
@@ -139,6 +139,7 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
          + [Configurare il tracciamento dei clic nel Compositore esperienza visivo mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
       + [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Lato server: implementare Target {#server-side}
+      + [Rilasci relativi all’implementazione lato server](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Lato server: panoramica sull’implementazione di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transizione dalle API legacy di Target ad Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-mail: implementare Target {#implement-email}
