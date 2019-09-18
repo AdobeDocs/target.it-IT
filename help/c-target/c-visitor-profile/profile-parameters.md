@@ -1,25 +1,25 @@
 ---
-description: Gli attributi del profilo sono parametri specifici del visitatore. Questi attributi vengono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività di Adobe Target.
+description: Gli attributi del profilo sono parametri specifici del visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività di Adobe Target.
 keywords: script di profilo;attributi degli script di profilo;procedure consigliate per gli script di profilo;debug;debugging
-seo-description: Gli attributi del profilo sono parametri specifici del visitatore. Questi attributi vengono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività di Adobe Target.
+seo-description: Gli attributi del profilo sono parametri specifici del visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività di Adobe Target.
 seo-title: Attributi di profilo in Adobe Target
 solution: Target
 title: Attributi del profilo
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: df35b1d912a2ea6c1e0e40285c05492fd2fb5cc7
+source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
 
 ---
 
 
 # Attributi del profilo{#profile-attributes}
 
-Gli attributi di profilo sono parametri specifici di un visitatore. Questi attributi sono memorizzati nel profilo del visitatore per fornire informazioni sul visitatore che può essere utilizzato nelle attività.
+Gli attributi del profilo sono parametri specifici di un visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività.
 
-Quando un visitatore sfoglia il tuo sito Web o quando il visitatore ritorna per un'altra sessione, gli attributi del profilo salvati possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtro dei segmenti.
+Quando un visitatore naviga nel tuo sito o ritorna per un’altra sessione, puoi usare gli attributi salvati nel suo profilo per presentargli specifici contenuti oppure per registrare informazioni a scopo di filtro dei segmenti.
 
-Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Script di profilo]**.
+Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Tipi di pubblico]** &gt; **[!UICONTROL Script di profilo]**.
 
 ![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -27,7 +27,7 @@ Sono disponibili i seguenti tipi di attributi di profilo:
 
 | Tipo di parametro | Descrizione |
 |--- |--- |
-| Mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi [Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| Mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota**: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi [Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definito direttamente con uno snippet di codice JavaScript. Possono memorizzare i totali correnti come il denaro totale speso dal consumatore ed è eseguito dietro ogni richiesta mbox. Consulta Attributi degli script di profilo qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -54,7 +54,7 @@ Per copiare uno script di profilo esistente, passa il mouse sullo script desider
 
 Ora puoi modificare il pubblico per crearne uno simile.
 
-![Crea script profilo, finestra di dialogo](assets/profile-script.png)
+![Finestra di dialogo Crea script di profilo](assets/profile-script.png)
 
 Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di posizione. Quando viene ricevuta una richiesta di posizione, Target determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, tiene traccia del successo dell’attività ed esegue eventuali script di profilo rilevanti. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito.
 
@@ -70,22 +70,22 @@ if (mbox.name == 'Track_Interest') {
 
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
-* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Corrispondenza del caso dei parametri e dei valori che riceverete durante l'attività o il test.
+* I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori che verranno ricevuti durante l’attività o il test.
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
-Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l'elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
+Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l’elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
 
 Ad esempio, se si passa il cursore su uno script di profilo nell'Elenco script di profilo (Destinatari &gt; Script di profilo) e poi si fa clic sull'icona Informazioni, si accede alla seguente scheda di informazioni sullo script di profilo.
 
 La scheda [!UICONTROL Informazioni script] contiene le seguenti informazioni: Nome, Stato, Tipo token, ID script, Sostituisci registro e Descrizione.
 
-![Scheda Informazioni script profilo](assets/profile_script_info_card.png)
+![Scheda di informazioni Script di profilo](assets/profile_script_info_card.png)
 
 La scheda [!UICONTROL Utilizzo script] elenca le attività (e aree di lavoro) relative allo script di profilo selezionato.
 
-![Scheda Informazioni script profilo &gt; scheda Uso script](assets/profile_script_info_card_usage_tab.png)
+![Scheda di informazioni Script di profilo &gt; Scheda Utilizzo script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
@@ -125,7 +125,7 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
 * Non superare 1.300 caratteri o 50 iterazioni di ciclo.
 * Non superare 2.000 istruzioni JavaScript. Target ha un limite di 2.000 istruzioni JavaScript per ogni script, ma è difficile calcolarle con la semplice lettura manuale del codice JavaScript. Ad esempio, Rhino tratta tutte le chiamate di funzione e le chiamate “nuove” come 100 istruzioni. Inoltre, la dimensione dei dati immessi, ad esempio i valori URL, può influire sul conteggio delle istruzioni.
 * Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Contare il numero di istruzioni non è ovvio, ma è importante notare che gli script superiori ai 2 KB vengono disattivati automaticamente. Non esiste un limite al numero di script eseguibili, ma ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
-* In a regex, having dot-star in the beginning (e.g.: `/.*match/`, `/a|.*b/`) is almost never needed. The regex search starts from all positions in a string (unless bound with `^`), so dot-star is already assumed. L'esecuzione dello script può essere sospesa se il regex è associato a dati di input sufficienti a contenere un massimo di cento caratteri.
+* In un regex, con punto-stella all'inizio (ad esempio: `/.*match/`, `/a|.*b/`) non è quasi mai necessario. La ricerca regex inizia da tutte le posizioni in una stringa (a meno che non sia associata a `^`), pertanto la stella del punto è già considerata. L'esecuzione dello script può essere interrotta se un tale regex viene associato a un numero sufficiente di dati di input (che possono essere fino a diverse centinaia di caratteri).
 * In caso di esito negativo, inserisci lo script in un try/catch.
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
@@ -149,7 +149,7 @@ Per suddividere i visitatori in gruppi che vedono rispettivamente attività dive
 ```
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number < = 49) { 
+    if (ran_number <= 49) { 
         return 'GroupA'; 
     } else { 
         return 'GroupB'; 
@@ -180,11 +180,11 @@ Ad esempio, per creare quattro gruppi, utilizza il seguente JavaScript:
 ```
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number < = 24) { 
+    if (ran_number <= 24) { 
         return 'GroupA'; 
-    } else if (ran_number < = 49) { 
+    } else if (ran_number <= 49) { 
         return 'GroupB'; 
-    } else if (ran_number < = 74) { 
+    } else if (ran_number <= 74) { 
         return 'GroupC'; 
     } else { 
         return 'GroupD'; 
@@ -207,9 +207,9 @@ Ad esempio, per suddividere i visitatori in tre gruppi uguali, utilizza il codic
 ```
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
-    if (ran_number < = 32.33) { 
+    if (ran_number <= 32.33) { 
         return 'GroupA'; 
-    } else if (ran_number < = 65.66) { 
+    } else if (ran_number <= 65.66) { 
         return 'GroupB'; 
     } else { 
         return 'GroupC'; 
