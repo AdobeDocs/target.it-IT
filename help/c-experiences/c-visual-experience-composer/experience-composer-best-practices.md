@@ -8,7 +8,7 @@ title: Best practice e limitazioni del Compositore esperienza visivo
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -82,17 +82,6 @@ O
 **Evita elementi a livello di blocco all'interno di un elemento in linea.**
 
 Gli elementi a livello di blocco non devono essere utilizzati all'interno di elementi in linea come tag di ancoraggio, span e così via. Questo potrebbe causare la perdita di altezza e larghezza degli elementi in linea. Lo strumento di sovrapposizione nel Compositore esperienza visivo potrebbe quindi non funzionare come previsto.
-
-**Quando aggiorni le offerte per mbox classiche, assicurati che la mbox venga creata come descritto in[Creare una mbox singola](https://marketing.adobe.com/resources/help/en_US/tnt/help/t_Creating_a_Single_Mbox.html)nella guida di Target Classic.**
-
-Se stai valutando di collocare un elemento o un gruppo di elementi in una mbox, inseriscili in un nuovo tag div con `class mboxDefault`:
-
-```
-<div class="mboxDefault">
-    //Content goes here 
-</div> 
-<script> mboxCreate('mboxName'); </script>`
-```
 
 **Non utilizzare il tag di base nel sito web per risolvere URL e collegamenti.**
 
