@@ -9,7 +9,7 @@ title: Metodi per immettere i dati in Target
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 65b088292a5a1d84f1981edd804060ff28b342e0
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -54,7 +54,7 @@ I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla
 * Se i dati devono essere utilizzati per la destinazione di una successiva chiamata di pagina/server, è necessario tradurli in uno script di profilo.
 * Le stringhe di query possono contenere solo caratteri che rispettano lo [standard Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
-   Oltre a quelli citati nel sito IETF, Target consente i seguenti caratteri nelle stringhe di query:
+   Oltre a quelli menzionati sul sito di IETF, Target consente l’utilizzo dei seguenti caratteri nelle stringhe di query:
 
    `&lt; &gt; # % ” { } | \\ ^ \[\] \``
 
@@ -207,7 +207,7 @@ Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il
 
 Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati terzi, come Demandbase, BlueKai e servizi personalizzati, e di passare i dati a Target come parametri mbox nella richiesta globale di mbox.
 
-Supporta la raccolta di dati da più provider tramite async e le richieste di sincronizzazione.
+Supporta la raccolta di dati da più provider tramite richieste sincrone e asincrone.
 
 L'utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l'impatto sulle prestazioni della pagina.
 
@@ -336,8 +336,8 @@ Richiede l'implementazione di Experience Cloud ID (ECID).
 
 ### Esempi di codice
 
-I dettagli possono essere trovati in [Crea una sorgente attributo cliente e carica il file di dati](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html) .
+Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Link a informazioni rilevanti
 
-[Crea una sorgente attributo cliente e carica il file di dati](https://marketing.adobe.com/resources/help/en_US/mcloud/t_crs_usecase.html)
+[Crea un'origine attributo del cliente e carica il file di dati](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
