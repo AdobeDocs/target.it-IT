@@ -10,7 +10,7 @@ topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -167,10 +167,10 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    * Visualizzare il codice delle progettazioni
 
 1. (Facoltativo) Apri la pagina dei [!UICONTROL Rapporti] per visualizzare le prestazioni dell’attività di [!DNL Recommendations].
-1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività.](https://marketing.adobe.com/resources/help/en_US/target/target/c_activity_collisions.html)
+1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività.](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video formazione: Creare un'attività di Recommendations (7:15)
+## Video di formazione: Creare un'attività di Recommendations (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=ita)
