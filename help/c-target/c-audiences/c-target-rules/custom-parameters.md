@@ -8,7 +8,7 @@ title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 2be27985953c06c6cde2090cf0bef896969f03a0
 
 I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
 
-Per ulteriori informazioni, consulta [Trasmettere i parametri a una mbox globale](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html).
+For more information, see [Pass parameters to a global mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).
 
 Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
@@ -52,7 +52,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 
 ## Considerazioni {#considerations}
 
-* L'audience e le attività vengono valutate per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting dell'attività/audience non sarà qualificato per la mbox regionale.
+* Audience e attività vengono valutate per una mbox specifica. Ad esempio, se la mbox globale passa un determinato parametro, ma la mbox regionale no, il targeting attività/pubblico per tale parametro non sarà qualificato per la mbox regionale.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
