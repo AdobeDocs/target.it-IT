@@ -1,14 +1,14 @@
 ---
 description: Il pubblico determina chi vede contenuti ed esperienze in un’attività mirata.
 keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;pubblico di destinazione;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
-seo-description: I tipi di pubblico in Adobe Target determinano chi visualizzerà contenuti ed esperienze in un'attività con targeting.
-seo-title: Creare audience in Adobe Target
+seo-description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
+seo-title: Utilizzo del pubblico in Adobe Target
 solution: Target
 title: Creazione di un pubblico
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 ---
 
@@ -17,37 +17,37 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Il pubblico determina chi vede contenuti ed esperienze in un’attività mirata.
 
-I tipi di pubblico sono utilizzati in tutte le situazioni in cui è disponibile il targeting. When targeting an activity, you can either select a reusable audience from the [!UICONTROL Audiences] list, [create an activity-specific audience](/help/c-target/creating-activity-only-audience.md) and target it, or [combine multiple audiences](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) to create an ad hoc audience.
+I tipi di pubblico sono utilizzati in tutte le situazioni in cui è disponibile il targeting. Quando esegui il targeting di un’attività, per indirizzarla a un determinato pubblico, puoi selezionare un pubblico riutilizzabile dall’elenco [!UICONTROL Tipi di pubblico], [creare un pubblico specifico per l’attività](/help/c-target/creating-activity-only-audience.md) e impostarlo come destinazione, oppure [combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) per creare un pubblico ad hoc.
 
-Inoltre, puoi utilizzare dati sul pubblico raccolti da [!DNL Analytics] per il targeting in tempo reale e la personalizzazione in [!DNL Adobe Target] e altre soluzioni [!DNL Experience Cloud]. Consulta [Audiences nella documentazione del prodotto Experience Cloud](https://marketing.adobe.com/resources/help/en_US/mcloud/audience_library.html).
+Inoltre, puoi utilizzare dati sul pubblico raccolti da [!DNL Analytics] per il targeting in tempo reale e la personalizzazione in [!DNL Adobe Target] e altre soluzioni [!DNL Experience Cloud]. Consulta [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) (Audience) nella Guida *utente dei servizi* di base.
 
 [!DNL Target] definisce due tipi di pubblico:
 
 * **Tipi di pubblico di targeting:** per fornire contenuti diversi a diversi tipi di visitatori.
 * **Tipi di pubblico per reportistica:** per determinare come diversi tipi di visitatori rispondono allo stesso contenuto e analizzare i risultati dei test.
 
-   In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. If you use [DNL Adobe Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), you must configure your reporting audiences within [!DNL Analytics].
+   In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se utilizzi [DNL Adobe Analytics come origine per la generazione di rapporti](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per la generazione di rapporti in [!DNL Analytics].
 
-## Utilizzo dell'elenco Audience
+## Utilizzo dell’elenco Tipi di pubblico
 
-Per accedere all'elenco [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore:
+Per accedere all’elenco [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore:
 
-![Elenco audience](assets/audiences_list.png)
+![Elenco Tipi di pubblico](assets/audiences_list.png)
 
-Nell'elenco [!UICONTROL Tipi di pubblico] sono inclusi tutti i gruppi di destinazione che puoi utilizzare nelle attività. Puoi usare l'elenco [!UICONTROL Tipi di pubblico] per creare, modificare, eliminare, copiare o combinare i tipi di pubblico. L’elenco mostra anche la fonte in cui è stato creato il pubblico ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e così via). I tipi di pubblico predefiniti, ad esempio “Nuovi visitatori” e “Visitatori di ritorno”, non possono essere rinominati.
+Nell'elenco [!UICONTROL Tipi di pubblico] sono inclusi tutti i gruppi di destinazione che puoi utilizzare nelle attività. Puoi usare l'elenco [!UICONTROL Tipi di pubblico] per creare, modificare, eliminare, copiare o combinare i tipi di pubblico. L’elenco mostra anche l’origina in cui è stato creato il pubblico ([!DNL Target], [!DNL Target Classic], [!DNL Adobe Audience Manager (AAM),] [!DNL Experience Cloud] e così via). I tipi di pubblico predefiniti, ad esempio “Nuovi visitatori” e “Visitatori di ritorno”, non possono essere rinominati.
 
 Quando si lavora con tipi di pubblico originariamente creati in AAM, Target avvisa se si fa riferimento a un pubblico in attività di Target che sono state successivamente eliminate in AAM.
 
 * Se un pubblico è stato eliminato in AAM, viene visualizzata un'icona di avviso sia nell'elenco [!UICONTROL Tipi di pubblico] sia nel selettore dei tipi di pubblico. Un suggerimento nell'interfaccia utente indica inoltre che il pubblico è stato eliminato in AAM.
 * Se si tenta di combinare più tipi di pubblico con un pubblico eliminato o se si tenta di salvare un'attività che fa riferimento a un pubblico eliminato, viene visualizzato un messaggio di avviso.
 
-Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. When adding an audience, click **[!UICONTROL Add Rule]** &gt; **[!UICONTROL Visitor Profile]**, then choose the parameter you want to use to target your activity. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox. Sono disponibili altri parametri mbox personalizzati nellʼelenco a discesa [!UICONTROL Parametri personalizzati].
+Puoi inoltre eseguire il targeting di parametri di profilo personalizzati e parametri `user.`. Quando aggiungi un pubblico, fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**, quindi scegli il parametro da utilizzare per definire a chi rivolgere lʼattività. Se il parametro desiderato non viene visualizzato, significa che non è stato attivato da una mbox. Sono disponibili altri parametri mbox personalizzati nellʼelenco a discesa [!UICONTROL Parametri personalizzati].
 
 Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubblico]. Puoi cercare qualsiasi parte del nome di un pubblico, oppure racchiudere tra virgolette una stringa specifica.
 
-Puoi ordinare lʼelenco [!UICONTROL Tipi di pubblico] in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull'intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
+Puoi ordinare lʼelenco [!UICONTROL Tipi di pubblico] in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
-## View audience definitions {#section_11B9C4A777E14D36BA1E925021945780}
+## Visualizzare le definizioni dei tipi di pubblico {#section_11B9C4A777E14D36BA1E925021945780}
 
 Puoi visualizzare i dettagli della definizione del pubblico in una scheda a comparsa in diverse aree nell'interfaccia utente di Target, senza aprire il pubblico. Questa funzionalità è applicabile ai tipi di pubblico creati in Target Standard/Premium e importati da Target Classic oppure creati tramite API.
 
@@ -55,7 +55,7 @@ Ad esempio, se passi il mouse su un pubblico nell'elenco Tipi di pubblico e fai 
 
 ![Attività &gt; Definizione pubblico](assets/audience_definition_list.png)
 
-Fai clic sull'icona Visualizza nella pagina Panoramica di un'attività per accedere alla scheda di definizione del pubblico seguente:
+Fai clic sull’icona Visualizza nella pagina Panoramica di un’attività per accedere alla scheda di definizione del pubblico seguente:
 
 ![Attività &gt; Definizione pubblico](assets/audience_definition_list.png)
 
@@ -67,7 +67,7 @@ Se un pubblico viene combinato con un altro e il pubblico combinato viene utiliz
 
 La scheda di definizione seguente è per un pubblico importato da Adobe Experience Cloud. In questo caso, il pubblico è stato importato da Adobe Audience Manager (AAM).
 
-![Scheda Utilizzo sulla scheda Definizione pubblico](assets/audience_definition_mc.png)
+![Scheda Utilizzo nella scheda Definizione pubblico](assets/audience_definition_mc.png)
 
 Per questi tipi di pubblico importati sono disponibili i seguenti dettagli:
 
