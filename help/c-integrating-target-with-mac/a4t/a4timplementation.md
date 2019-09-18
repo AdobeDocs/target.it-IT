@@ -8,7 +8,7 @@ title: Implementazione di Analytics for Target
 topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -33,15 +33,15 @@ I requisiti dell'account utente devono essere soddisfatti prima di procedere all
 
 Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni Experience Cloud. È necessario implementare o eseguire la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementazione del servizio Experience Cloud ID per Target](https://marketing.adobe.com/resources/help/en_US/mcvid/mcvid-setup-target.html) nella documentazione del servizio ID visitatore di Experience Cloud.
+Consulta [Implementazione del servizio Experience Cloud ID per Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) nella documentazione del servizio ID visitatore di Experience Cloud.
 
 ## Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
 È necessario implementare o eseguire la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per nuove implementazioni, consulta [Implementazione di Analytics JavaScript](https://marketing.adobe.com/resources/help/en_US/sc/implement/js_implementation.html).
+Per le nuove implementazioni, consultate Panoramica [dell'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all'implementazione di* Analytics.
 
-Per una migrazione, consulta [Migrazione ad AppMeasurement per JavaScript](https://marketing.adobe.com/resources/help/en_US/sc/implement/?f=appmeasure_mjs_migrate).
+Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all'implementazione di* Analytics.
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
@@ -57,7 +57,7 @@ In caso contrario, il file può essere incluso in hosting insieme al servizio ID
 
 ## Passaggio 7: Includere un riferimento a at.js o mbox.js in tutte le pagine del sito {#step7}
 
-Includete at. js o mbox. js sotto visitorapi. js aggiungendo la seguente riga di codice nel tag su ogni pagina:
+Includi at.js o mbox.js sotto VisitorAPI.js aggiungendo la seguente riga di codice al tag in ogni pagina:
 
 Per at.js:
 
@@ -73,11 +73,11 @@ Per mbox.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 ```
 
-È essenziale che visitorapi. js venga caricato prima di. js o mbox. js. Se state aggiornando un file esistente at. js o mbox. js, accertatevi di verificare l'ordine di caricamento.
+È essenziale che VisitorAPI.js sia caricato prima di at.js o mbox.js. Se stai aggiornando un file at.js o mbox.js esistente, assicurati di verificare l’ordine di caricamento.
 
-Il modo in cui le impostazioni out-of-the-box sono configurate per l'integrazione di Target e Analytics da una prospettiva di implementazione consiste nell'utilizzare il codice SDID passato dalla pagina per unire automaticamente al backend la richiesta di Target e Analytics.
+Dal punto di vista dell’implementazione, le impostazioni predefinite per l’integrazione di Target e Analytics sono configurate in modo che l’identificatore SDID passato dalla pagina unisca automaticamente nel backend le richieste di Target e Analytics.
 
-However, if you want more control on how and when to send analytics data related to Target to Analytics for reporting purposes, and you do not want to opt-in to the default settings of having Target and Analytics automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Nota: qualsiasi versione inferiore a 2.1 non supporta questo approccio.
+Tuttavia, se desideri un maggiore controllo su come e quando inviare i dati di analisi di Target ad Analytics a scopo di reporting, senza accettare le impostazioni predefinite per l’unione automatica dei dati di analisi di Target e Analytics tramite l’identificatore SDID, puoi impostare **analyticsLogging = client_side** tramite **window.targetGlobalSettings**. Nota: questo approccio non è supportato dalle versioni precedenti alla versione 2.1.
 
 Ad esempio:
 
@@ -87,7 +87,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-This set up has a global effect, which means that every call made by at.js will have **analyticsLogging: "client_side"** sent within the Target requests and an analytics payload will be returned for every request. Quando questa impostazione è configurata, il formato del payload restituito sarà simile a quello di seguito:
+Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata effettuata da at.js, **analyticsLogging: "client_side"** verrà inviato all’interno delle richieste Target e per ogni richiesta viene restituito un payload di Analytics. Con questa impostazione, il formato del payload restituito sarà simile a quello riportato di seguito:
 
 ```
 "analytics": {
@@ -98,9 +98,9 @@ This set up has a global effect, which means that every call made by at.js will 
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato ad Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
-If a global setting is not desired and a more on-demand approach is preferable, then you can use the at.js function [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) to achieve this by passing in **analyticsLogging: "client_side"**. Il payload di analisi verrà restituito solo per questa chiamata e il back-backend di Target non inoltrerà il payload ad Analytics. Seguendo questo approccio, ogni richiesta di Target non restituirà il payload per impostazione predefinita, ma solo quando desiderato e specificato.
+Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: "client_side"**. Il payload di Analytics verrà restituito solo per questa chiamata e il backend di Target non inoltrerà il payload ad Analytics. Con questo approccio, ogni richiesta di at.js di Target non restituirà il payload per impostazione predefinita, ma solo quando questo viene specificato.
 
 Ad esempio:
 
@@ -123,7 +123,7 @@ adobe.target.getOffers({
     .then(console.log)
 ```
 
-Questa chiamata richiama una risposta dalla quale potete estrarre il payload di analisi.
+Questa chiamata richiama una risposta dalla quale è possibile estrarre il payload di Analytics.
 
 La risposta si presenta come segue:
 
@@ -156,7 +156,7 @@ La risposta si presenta come segue:
 }
 ```
 
-The payload can then be forwarded to Analytics via the [Data Insertion API](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato ad Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 ## Passaggio 8: Convalidare l’implementazione {#step8}
 
