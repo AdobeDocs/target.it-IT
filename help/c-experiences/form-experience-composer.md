@@ -8,14 +8,14 @@ title: Compositore esperienza basato su moduli
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
 
 # Compositore esperienza basato su moduli{#form-based-experience-composer}
 
-Il Composer esperienza basato su modulo è un'interfaccia non visiva e un'interfaccia di creazione delle offerte utile per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l'utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
+Il compositore esperienza basato su moduli è un’interfaccia non visiva per la creazione di esperienze e offerte, utile per creare le esperienze da utilizzare nelle funzioni Test A/B, Targeting esperienza, Personalizzazione automatizzata e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
 
 Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i test di verifica e progettazione. Se scegli più criteri o progettazioni, Target genera automaticamente le esperienze.
 
@@ -77,7 +77,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
    1. Digita un nome per l’offerta.
    1. Digita o incolla il codice JSON nella casella Codice.
    1. Fai clic su [!UICONTROL Salva].
-   Per un'attività Consigli, l'elenco a discesa del contenuto fornisce l'opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](https://marketing.adobe.com/resources/help/en_US/target/recs/t_create_recs_activity.html).
+   Per un'attività Consigli, l'elenco a discesa del contenuto fornisce l'opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
