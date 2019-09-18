@@ -6,7 +6,7 @@ seo-title: Utilizzare un server di tracciamento di Analytics
 title: Utilizzare un server di tracciamento di Analytics
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -25,7 +25,7 @@ Il debugger deve essere visualizzato in una pagina in cui l'attività verrà rec
 
 1. Dalla pagina in cui si sta creando l'attività, apri il debugger di Adobe Experience Cloud.
 
-   Se il debugger non è stato installato, attenersi alle [istruzioni di installazione del debugger di Adobe](https://marketing.adobe.com/resources/help/en_US/sc/implement/debugger_install.html).
+   Se non hai installato il debugger, consulta [Installare Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
