@@ -8,7 +8,7 @@ title: Tasso di conversione
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -55,7 +55,7 @@ Consulta [Livello di affidabilità e intervallo di affidabilità](../c-reports/c
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-I dati Valore medio dell’ordine, Ricavo per visita e Vendite vengono visualizzati per ogni esperienza se una mbox [Ordine effettuato](https://marketing.adobe.com/resources/help/en_US/target/ov/t_orderconfirm_create.html) (`orderConfirmPage`) è stata inserita e selezionata come mbox di conversione.
+I dati Valore medio dell’ordine, Ricavo per visita e Vendite vengono visualizzati per ogni esperienza se una mbox [Ordine effettuato](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) è stata inserita e selezionata come mbox di conversione.
 
 ## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -127,7 +127,7 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 1. Fai clic su **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Data Warehouse]**.
 1. Compila i campi nella scheda di **[!UICONTROL Richiesta Data Warehouse]**.
 
-   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse.html).
+   Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
 
    | Campo | Istruzioni |
    |--- |--- |
@@ -147,8 +147,8 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Create a Data Warehouse Request (Creare una richiesta di archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/t_dw_create_request.html)
-* [Data Warehouse Best Practices (Procedure consigliate per l’archivio dati)](https://marketing.adobe.com/resources/help/en_US/reference/data_warehouse_bp.html)
+* [Creare una richiesta di data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best practice di Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
