@@ -8,7 +8,7 @@ title: Visualizzare i rapporti - Domande frequenti su A4T
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -29,7 +29,7 @@ La metodologia di conteggio specifica quale valore deve essere utilizzato da Tar
 
 Per il rapporto Attività, gli amministratori possono modificare la metrica predefinita in modo da visualizzare le stesse metriche ogni volta che eseguono il rapporto. In caso contrario, per impostazione predefinita il rapporto utilizza l’ultima metrica applicata all’ultimo rapporto.
 
-Per ulteriori informazioni, consulta [Selezionare la metrica predefinita di un rapporto](https://marketing.adobe.com/resources/help/en_US/sc/user/t_metrics_set_default.html) nella guida *Aiuto per l’interfaccia di Reports and Analytics*.
+For more information, see [Select default report metrics](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/metrics.html) in the *Analytics Analyze Guide*.
 
 ## Quando si applica un segmento alla metrica (con una metrica calcolata) rispetto a un segmento al rapporto? {#section_BC29DEE6D2734911A5CD6FBF1189EB89}
 
@@ -48,11 +48,11 @@ Ci sono diverse opzioni, ognuna con i propri vantaggi:
 
 Quando un visitatore visualizza una pagina che contiene un'attività, viene impostata una variabile per quel visitatore che contiene il nome di tale attività. Consulta gli scenari dettagliati di seguito per il confronto di ciascuna metodologia di conteggio.
 
-Valuta quanto segue:
+Considera i seguenti aspetti:
 
 * Tutte le metriche sopra indicate si attivano quando un utente si qualifica per un'attività e il contenuto viene restituito da [!DNL Target]. Ciò non significa necessariamente che l'utente abbia visto l'offerta. Se l'esperienza di un’attività si trova nella parte inferiore della pagina e l'utente non scorre la pagina verso il basso, allora l'offerta è stata servita da [!DNL Target] ma non è stata vista dall'utente.
 * Le [!UICONTROL impressioni dell’attività] (misurate da [!DNL Target]) e le [!UICONTROL istanze] (misurate da [!DNL Analytics]) sono uguali, a meno che non vi siano più chiamate mbox sulla stessa pagina nella stessa attività. In tal caso si contano più [!UICONTROL impressioni dell’attività], ma solo una singola [!UICONTROL istanza].
-* Quando utilizzate [!UICONTROL le metriche Impression] attività e [!UICONTROL Conversioni] attività in [!DNL Analysis Workspace], assicuratevi che entrambe le metriche abbiano [!UICONTROL gli stessi modelli di] attribuzione touch applicati. I modelli possono essere applicati facendo clic sull'ingranaggio delle impostazioni delle colonne, abilitando [!UICONTROL modelli di attribuzione non predefiniti], quindi selezionando [!UICONTROL lo stesso tocco. ] Ulteriori informazioni sull'attribuzione nella [panoramica IQ Attributi](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) nella Guida Strumenti *di Analytics*.
+* Quando utilizzate le metriche [!UICONTROL Impression] attività e Conversioni  attività in [!DNL Analysis Workspace], accertatevi che entrambe le metriche abbiano [!UICONTROL gli stessi modelli di attribuzione Touch] applicati. I modelli possono essere applicati facendo clic sull'ingranaggio delle impostazioni delle colonne, abilitando modelli [!UICONTROL di attribuzione]non predefiniti, quindi selezionando [!UICONTROL Stesso tocco]. Ulteriori informazioni sull'attribuzione in [Attributi IQ panoramica](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/attribution.html) nella Guida *agli strumenti di* Analytics.
 
 ## Che cosa significa “conversioni di attività” se l’addetto al marketing sceglie una metrica di Analytics durante l’impostazione dell’attività? {#section_F3EBACF85AF846E9B366A549AAB64356}
 
@@ -62,7 +62,7 @@ Le “Conversioni attività” sono vuote se è stata selezionata una metrica di
 
 ![](assets/unspecified.png)
 
-In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. In genere sono necessarie da 24 a 72 ore perché i dati dell'attività vengano visualizzati nei report. Anche se le attività non compaiono in questo rapporto fino a quel momento, tutti i dati dei visitatori legati a tali attività vengono acquisiti e compariranno quando la classificazione sarà completata.
+In altri rapporti, “non specificato” significa che i dati non soddisfano una regola di classificazione, ma in A4T non dovrebbe mai verificarsi. Se viene visualizzato “non specificato”, il servizio di classificazione non è ancora stato eseguito. In genere sono necessarie tra le 24 e le 72 ore perché i dati dell'attività vengano visualizzati nei report. Anche se le attività non compaiono in questo rapporto fino a quel momento, tutti i dati dei visitatori legati a tali attività vengono acquisiti e compariranno quando la classificazione sarà completata.
 
 Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un'ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
@@ -110,7 +110,7 @@ L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua u
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono "credito" per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Ai fini del rapporto generato da Target, poiché non si stanno confrontando due attività di Target per vedere quale ha più successo, non ha importanza se tutte le attività che l’utente ha visualizzato abbiano ricevuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
-Per ulteriori informazioni, consulta [Variabili di conversione (eVar)](https://marketing.adobe.com/resources/help/en_US/reference/conversion_var_admin.html) nell’Aiuto di Analytics.
+For more information, see [Conversion Variables (eVar](https://docs.adobe.com/content/help/en/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) in the *Analytics Admin Guide*.
 
 ## Perché Analytics e Analytics for Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
 
