@@ -8,7 +8,7 @@ title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -64,7 +64,7 @@ Sono disponibili le seguenti opzioni:
 
 ### Soluzione di reporting
 
-Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](https://marketing.adobe.com/resources/help/en_US/target/a4t/a4t.html) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
+Specifica se i dati vengono raccolti da Adobe Target o da Adobe Analytics. Consulta [Adobe Analytics come origine per la generazione di rapporti per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) per scoprire le differenze tra le soluzioni di reporting e i vantaggi di ciascuna.
 
 Quando si seleziona Analytics come origine per la generazione di rapporti per Target, si seleziona la suite di rapporti di Analytics che dovrà ricevere i dati relativi all’attività di Target. Scegli innanzitutto una delle società Analytics associate al tuo account, quindi, seleziona la suite di rapporti idonea all’attività. Puoi selezionare solo le suite di rapporti impostate per la connessione ad Adobe Target. Se non visualizzi la suite di rapporti desiderata, disconnettiti, accedi di nuovo ad Adobe Experience Cloud e riprova. Se la suite di rapporti continua a non essere elencata, contatta l’Assistenza clienti.
 
@@ -104,7 +104,7 @@ Tipi di pubblico per i rapporti
 
 Le impostazioni avanzate sono disponibili per le metriche obiettivo di test multivariato.
 
-![Impostazioni avanzate, menu](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
+![Menu Impostazioni avanzate](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/Menu_AdvancedSettings.png)
 
 >[!NOTE]
 >
@@ -127,7 +127,7 @@ Per aggiungere una dipendenza:
 
    ![Aggiungi dipendenza](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency.png)
 
-3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra Raggiunto e Non raggiunto .
+3. Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su **[!UICONTROL Raggiunto]** per scegliere tra Raggiunto e Non raggiunto.
 
    ![Dipendenza raggiunta](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/add_dependency_reached.png)
 
