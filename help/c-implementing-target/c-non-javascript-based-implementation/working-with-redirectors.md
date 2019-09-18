@@ -9,7 +9,7 @@ title: Lavorare con i redirector
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -97,7 +97,7 @@ Puoi utilizzare un redirector per trasmettere i costi per clic.
 
 >[!NOTE]
 >
->Best practice is to determine the cost value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>La best practice consiste nel determinare il valore del costo utilizzando la metrica di coinvolgimento **Valutazione per visita** .
 
 Aggiungi `&mboxPageValue=-value` all’URL. Nota il valore negativo.
 
@@ -114,7 +114,7 @@ Per utilizzare un redirector per trasmettere i ricavi per clic.
 
 >[!NOTE]
 >
->Best practice is to determine the revenue value using the **Score per visit** engagement metric, as described in [Engagement](https://marketing.adobe.com/resources/help/en_US/tnt/help/c_Capturing_Engagement.html).
+>La best practice consiste nel determinare il valore delle entrate utilizzando la metrica di coinvolgimento **Valutazione per visita** .
 
 Aggiungi `&mboxPageValue=value` all’URL.
 
