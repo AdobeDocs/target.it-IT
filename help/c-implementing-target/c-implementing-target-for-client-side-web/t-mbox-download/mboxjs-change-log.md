@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Dettagli sulle versioni di mbox.js
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
 
 ---
 
@@ -31,7 +31,7 @@ Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dal
 
 **Versione di Target:** 17.7.1
 
-È ora disponibile la versione 63 di [!DNL mbox.js]. Per ulteriori informazioni, consulta [Download di mbox.js](https://marketing.adobe.com/resources/help/en_US/target/ov/t_target-download-config-mbox.html).
+È ora disponibile la versione 63 di [!DNL mbox.js]. Per ulteriori informazioni, consulta [Download di mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md).
 
 I seguenti miglioramenti e correzioni sono inclusi nella versione 63 di [!DNL mbox.js]:
 
@@ -246,7 +246,7 @@ La funzione mboxParameter ora funziona in Target Standard e Premium.
 
 È stato risolto un problema che impediva il funzionamento del monitoraggio di Analytics in IE 9 e 11. Questa modifica riguarda solo gli utenti di Analytics.
 
-È ora possibile [trasmettere parametri](https://marketing.adobe.com/resources/help/en_US/target/ov/c_pass_parameters_to_global_mbox.html) come array, come un oggetto JSON o come elenco separato da virgole (già supportato) a target-global-mbox utilizzando la funzione targetPageParams().
+È ora possibile [trasmettere parametri](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) come array, come un oggetto JSON o come elenco separato da virgole (già supportato) a target-global-mbox utilizzando la funzione targetPageParams().
 
 Sono stati rinominati M2PcId e tutti gli elementi collegati a VisitorId.
 
