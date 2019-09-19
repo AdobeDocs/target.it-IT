@@ -1,17 +1,17 @@
 ---
-description: Informazioni sugli aggiornamenti relativi all'implementazione di Target lato server.
-keywords: at.js;api;sdk;release;updates
-seo-description: Informazioni sugli aggiornamenti relativi all'implementazione di Adobe Target lato server.
-seo-title: Aggiornamenti relativi all'implementazione di Adobe Target lato server
+description: Note sulla versione relative alle API e agli SDK lato server di Adobe Target
+keywords: at.js;api;sdk;release;updates;apis;sdks;server side;serverside;server-side
+seo-description: Note sulla versione relative alle API e agli SDK lato server di Adobe Target
+seo-title: Note sulla versione relative alle API e agli SDK lato server di Adobe Target
 solution: Target
-title: Rilasci relativi all’implementazione lato server
+title: Note sulla versione - API e SDK
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 
 ---
 
 
-# Rilasci relativi all’implementazione lato server
+# Note sulla versione - API e SDK
 
-Informazioni sugli aggiornamenti relativi all'implementazione di Target lato server, inclusi gli aggiornamenti API e SDK.
+Note sulla versione relative alle API e agli SDK lato server di Adobe Target.
