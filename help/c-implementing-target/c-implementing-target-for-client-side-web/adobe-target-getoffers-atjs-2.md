@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione adobe.target.getOffers() per at.js. '
-keywords: adobe. target. getoffer; Getoffers; getoffer; get offers; at. js; funzioni; function
+keywords: adobe.target.getOffers;getOffers;getoffer;get offer;at.js;function
 seo-description: Informazioni sulla funzione adobe.target.getOffers(options) per la libreria JavaScript at.js di Adobe Target.
 seo-title: Informazioni sulla funzione adobe.target.getOffers() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b75b6463aa278505ae4f75d43f56f9bfa6313ede
+source-git-commit: 3bb3a2bd2dc779158c16650f7f76d2bf50e3ffb4
 
 ---
 
@@ -33,9 +33,9 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | --- | --- | --- | --- |
 | request &gt; id | No |  | Uno tra `tntId`, `thirdPartyId` e `marketingCloudVisitorId` è obbligatorio. |
 | Request &gt; id &gt; thirdPartyId | No | Dimensione massima = 128 |  |  |
-| Request &gt; experiencecloud | No |  |  |
-| Request &gt; experiencecloud &gt; analytics | No |  | Integrazione di Adobe Analytics |
-| Request &gt; experiencecloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement. js</li></ul> | Sono supportati i seguenti valori:<br>**client_ side**: Se specificato, viene restituito un payload di analisi al chiamante che deve essere utilizzato per inviare ad Adobe Analytics tramite l'API di inserimento dati.<br>**server_ side**: Questo è il valore predefinito in cui il backend di Target e Analytics utilizzerà l'identificatore SDID per unire le chiamate a scopo di reporting. |
+| Request &gt; experienceCloud | No |  |  |
+| Request &gt; experienceCloud &gt; analytics | No |  | Integrazione di Adobe Analytics |
+| Request &gt; experienceCloud &gt; analytics &gt; logging | No | I seguenti elementi devono essere implementati sulla pagina:<ul><li>Servizio ID visitatori</li><li>Appmeasurement.js</li></ul> | Sono supportati i seguenti valori:<br>**client_side**: se specificato, viene restituito un payload di Analytics al chiamante che deve essere utilizzato l’invio ad Adobe Analytics tramite l’API di inserimento dati.<br>**server_side**: questo è il valore predefinito, con cui il backend di Target e Analytics utilizzerà l’identificatore SDID per unire le chiamate a scopo di reporting. |
 | Request &gt; prefetch | No |  |  |
 | Request &gt; prefetch &gt; views | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile”<br>Nomi non consentiti: “orderId”, “orderTotal”, “productPurchasedId” | Passa i parametri da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
 | Request &gt; prefetch &gt; views &gt; profileParameters | No | Numero massimo: 50<br>Nome non vuoto<br>Lunghezza nome `<=` 128<br>Lunghezza valore `<=` 5000<br>Il nome deve iniziare con “profile” | Passa i parametri di profilo da utilizzare per recuperare le visualizzazioni rilevanti nelle attività attive. |
@@ -74,8 +74,9 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 ```
 adobe.target.getOffers({
-    prefetch: {
-      views: []
+    request: {
+      prefetch: {
+        views: []
     }
   }
 });
@@ -129,7 +130,7 @@ adobe.target.getOffers({
 });
 ```
 
-## Invoca getoffers () per recuperare il payload di analisi dal lato client
+## Richiama getOffers() per recuperare il payload di Analytics dal lato client
 
 ```
 adobe.target.getOffers({
@@ -181,7 +182,7 @@ adobe.target.getOffers({
 }
 ```
 
-Il payload può quindi essere inoltrato ad Adobe Analytics tramite l'API di inserimento [dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato ad Adobe Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
