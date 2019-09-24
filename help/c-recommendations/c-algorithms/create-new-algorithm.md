@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 400146593bb664052d5109864c8c16d4af9b8bb7
+source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
 
 ---
 
@@ -120,19 +120,19 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 ## Tempo di elaborazione previsto dei criteri {#process-time}
 
-Dopo aver salvato un criterio, [!DNL Target] calcola le raccomandazioni. Questo calcolo richiede un certo tempo e il periodo di tempo varia in base alla logica di raccomandazione selezionata, all'intervallo di dati, al numero di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all'origine dati comportamentale selezionata. L'origine dati comportamentale ha il maggiore impatto sui tempi di elaborazione, come segue:
+After saving an Activity containing a Criteria, [!DNL Target] computes recommendations based on the selected Collection and Criteria. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
 
 ### mbox regionali
 
-Se le mbox sono selezionate come origine dati comportamentale, una volta create, i criteri vengono eseguiti immediatamente. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l'algoritmo può richiedere fino a 12 ore per l'esecuzione. Se si apportano modifiche alla configurazione dei criteri, l'algoritmo viene in genere rieseguito. A seconda delle modifiche apportate, le raccomandazioni calcolate in precedenza potrebbero essere disponibili fino al completamento di una nuova esecuzione, oppure, per modifiche di dimensioni maggiori, solo il contenuto di backup o predefinito sarà disponibile fino al completamento di una nuova esecuzione. Se un algoritmo non viene modificato, viene automaticamente rieseguito di [!DNL Target] ogni 12-48 ore, a seconda dell'intervallo di dati selezionato.
+If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l'algoritmo può richiedere fino a 12 ore per l'esecuzione. Se si apportano modifiche alla configurazione dei criteri, l'algoritmo viene in genere rieseguito. A seconda delle modifiche apportate, le raccomandazioni calcolate in precedenza potrebbero essere disponibili fino al completamento di una nuova esecuzione, oppure, per modifiche di dimensioni maggiori, solo il contenuto di backup o predefinito sarà disponibile fino al completamento di una nuova esecuzione. Se un algoritmo non viene modificato, viene automaticamente rieseguito di [!DNL Target] ogni 12-48 ore, a seconda dell'intervallo di dati selezionato.
 
 ### Adobe Analytics
 
 If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
 
 * **Configurazione** suite di rapporti una tantum: La prima volta che una suite di rapporti viene utilizzata con una determinata finestra di lookback dell'intervallo di dati, [!DNL Target Recommendations] possono trascorrere da due a sette giorni per scaricare completamente i dati comportamentali per la suite di rapporti selezionata da [!DNL Analytics]. Questo intervallo di tempo dipende dal carico del [!DNL Analytics] sistema.
-* **Criteri nuovi o modificati utilizzando una suite** di rapporti già disponibile: Quando si crea un nuovo criterio o si modifica un criterio esistente, se la suite di rapporti selezionata è già stata utilizzata con [!DNL Target Recommendations], con un intervallo di dati uguale o inferiore all'intervallo di dati selezionato, i dati sono immediatamente disponibili e non è richiesta alcuna impostazione una tantum. In questo caso, o se le impostazioni di un algoritmo vengono modificate senza modificare la suite di rapporti o l'intervallo di dati selezionati, l'algoritmo viene eseguito o rieseguito entro 12 ore.
-* **Esecuzione** dell'algoritmo in corso: Flussi di dati [!DNL Analytics] su base [!DNL Target Recommendations] giornaliera. Ad esempio, per la raccomandazione [!UICONTROL Affinità] visualizzata, quando un utente visualizza un prodotto, una chiamata di tracciamento della visualizzazione prodotto viene passata [!DNL Analytics] vicino al tempo reale. I [!DNL Analytics] dati vengono inviati all’ [!DNL Target] inizio del giorno successivo e [!DNL Target] l’algoritmo viene eseguito in meno di 12 ore.
+* **New or edited criteria using an already available report suite**: When creating a new criteria or editing an existing criteria, if the selected report suite has already been used with [!DNL Target Recommendations], with a data range equal to or lesser than the selected data range, then the data is immediately available and no one-time setup is required. In this case, or if an algorithm's settings are edited while not modifying the selected report suite or data range, the algorithm runs or re-runs within 12 hours.
+* **Esecuzione** dell'algoritmo in corso: Flussi di dati [!DNL Analytics] su base [!DNL Target Recommendations] giornaliera. For example, for the Viewed Affinity recommendation, when a user views a product, a product-view tracking call is passed into  close to real-time. [!DNL Analytics] The  data is pushed to  early the next day and  runs the algorithm in less than 12 hours.[!DNL Analytics][!DNL Target][!DNL Target]
 
 ## Basare il consiglio su una chiave consiglio {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,7 +343,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 >[!NOTE]
 >
->Elementi visualizzati di recente rispetta sia le impostazioni globali Exclusions che l'impostazione Collection selezionata per l'attività. Se un elemento è escluso da un'Esclusione globale o non è contenuto nella raccolta selezionata, non verrà visualizzato; pertanto, quando si utilizza un criterio Elementi visualizzati di recente, è consigliabile utilizzare l'impostazione "Tutte le raccolte".
+>Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
 
 ## Regole di inclusione {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -448,7 +448,7 @@ Poiché la somiglianza del contenuto utilizza parole chiave per confrontare elem
 
 Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento*. Non è necessario creare una regola a meno che non si desideri modificare questa impostazione.
 
-## Video di formazione: Creare criteri in Recommendations (12:33)
+## Training video: Create criteria in Recommendations (12:33)
 
 Questo video contiene le seguenti informazioni:
 
