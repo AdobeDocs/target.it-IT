@@ -8,7 +8,7 @@ title: Consigli come offerta
 title-outputclass: premium
 topic: Premium
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: d675c6875c8474ba490956ea395076eef5b9e58f
 
 ---
 
@@ -34,7 +34,7 @@ Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting 
    >
    >Per i test A/B, ricorda che puoi scegliere l’opzione [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per inviare automaticamente il traffico ai consigli con prestazioni migliori, oppure l’opzione [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) per assegnare esperienze di consigli su misura ai visitatori in base ai loro profili.
 
-1. While creating an [experience](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), click the element you want to add a recommendation to as an offer, select the **[!UICONTROL Insert Before]**, **[!UICONTROL Insert After]**, or **[!UICONTROL Replace With]** action, then select [!UICONTROL Recommendation].
+1. Durante la creazione di un’[esperienza](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), fai clic sull’elemento a cui desideri aggiungere un Consiglio come offerta, seleziona l’azione **[!UICONTROL Inserisci prima]**, **[!UICONTROL Inserisci dopo]** o **[!UICONTROL Sostituisci con]**, quindi seleziona [!UICONTROL Consiglio].
 
    Nell’illustrazione seguente viene mostrata l’opzione [!UICONTROL Inserisci dopo &gt; Consiglio].
 
@@ -47,9 +47,9 @@ Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting 
    * Home page
    * Pagina di destinazione
    * Pagina di prodotto
-   * Pagina risultati ricerca
+   * Pagina risultati di ricerca
    * Pagina di ringraziamento
-   * Altre
+   * Altro
 
 1. Seleziona i [criteri](/help/c-recommendations/c-algorithms/algorithms.md) desiderati, quindi fai clic su [!UICONTROL Avanti].
 1. Seleziona la [progettazione](/help/c-recommendations/c-design-overview/design-overview.md), quindi fai clic su [!UICONTROL Avanti].
@@ -72,7 +72,7 @@ Esistono due modi per modificare la configurazione di un’offerta:
 
 1. Click the offer you want to edit, then click **[!UICONTROL Edit]**.
 
-   ![Offerta di modifica delle raccomandazioni](/help/c-recommendations/assets/recs-offer-edit.png)
+   ![Modifica offerta di Recommendations](/help/c-recommendations/assets/recs-offer-edit.png)
 
 1. Scegli una tra le opzioni seguenti:
 
@@ -112,12 +112,16 @@ Esistono due modi per eliminare un’offerta di consigli:
 
    ![Icona Elimina](/help/c-recommendations/assets/recs-offer-delete.png)
 
-### Viewing the recommendations offer's status {#status}
+### Visualizzazione dello stato dell'offerta delle raccomandazioni {#status}
 
 The recommendations offer's (algorithm) status displays at the bottom of the [!UICONTROL Overview] page for A/B Test and XT activities that contain Recommendations offers:
 
 * Risultati pronti
 * Risultati non pronti
-* Feed non riuscito
+* Errore feed
 
-![Recommendations offre lo stato](/help/c-recommendations/assets/recs-offer-status.png)
+![Stato dell'offerta di Recommendations](/help/c-recommendations/assets/recs-offer-status.png)
+
+## Video di formazione: Raccomandazioni come offerta
+
+>[!VIDEO](https://video.tv.adobe.com/v/28878?captions=ita)
