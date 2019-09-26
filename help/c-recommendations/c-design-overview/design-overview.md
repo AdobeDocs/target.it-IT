@@ -8,7 +8,7 @@ title: Panoramica della progettazione
 topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
 
 ---
 
@@ -91,7 +91,7 @@ Nell'esempio seguente viene illustrato come è possibile restituire risposte JSO
 | Parametro | Valore |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings &gt; Token API per i consigli &gt; Codice client. |
-| `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione “locations” dei consigli basati su moduli, in questo caso YOUR_CLIENT_CODE. |
+| `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione "percorsi" di Recommendations basato su moduli, in questo caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | L'`entity.id` di un elemento nel catalogo. |
 | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell'azienda) durante l'impostazione dell'attività. |
 
