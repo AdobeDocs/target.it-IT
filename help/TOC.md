@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/it-IT/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 1da064dcf5bb3db3f5ec9499db41a94d6fab40cc
 
 ---
 
@@ -42,7 +42,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
       + Autorizzazioni per gli utenti Enterprise {#enterprise}
          + [Autorizzazioni per gli utenti Enterprise](administrating-target/c-user-management/property-channel/property-channel.md)
          + [Configurare le autorizzazioni Enterprise](administrating-target/c-user-management/property-channel/properties-overview.md)
-         + [Concedere alle integrazioni di I/O Adobe l'accesso alle aree di lavoro e assegnare ruoli](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
+         + [Grant Adobe I/O integrations access to workspaces and assign roles](administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md)
    + [Integrazione Dynamic Media Classic](administrating-target/scene7-settings.md)
    + [Host](administrating-target/hosts.md)
    + [Token di risposta](administrating-target/response-tokens.md)
@@ -137,11 +137,10 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
          + [Android: configurare l'app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md)
          + [iOS: configurare l'app mobile](c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-ios.md)
          + [Configurare il tracciamento dei clic nel Compositore esperienza visivo mobile](c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)
-      + [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+      + [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
    + Lato server: implementare Target {#server-side}
-      + [Note sulla versione - API e SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
+      + [Release notes - APIs and SDKs](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)
       + [Lato server: panoramica sull’implementazione di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
-      + [Flagging delle funzioni](/help/c-implementing-target/c-api-and-sdk-overview/feature-flagging.md)
       + [Transizione dalle API legacy di Target ad Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
    + E-mail: implementare Target {#implement-email}
       + [E-mail: panoramica sull’implementazione di Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
@@ -343,7 +342,7 @@ source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
    + [Domande frequenti sulla generazione di rapporti](c-reports/reporting-frequently-asked-questions.md)
 + Consigli {#recommendations}
    + [Panoramica su Recommendations](c-recommendations/recommendations.md)
-   + [Introduzione a Recommendations](c-recommendations/introduction-to-recommendations.md)
+   + [Introduction to Recommendations](c-recommendations/introduction-to-recommendations.md)
    + [Pianificare e implementare Recommendations](c-recommendations/plan-implement.md)
    + Entità {#entities}
       + [Panoramica sulle entità](c-recommendations/c-products/products.md)
