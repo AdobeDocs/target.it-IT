@@ -8,7 +8,7 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -171,7 +171,7 @@ Attualmente, la logica favorisce i visitatori che si convertono rapidamente o ch
 
 **Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?**
 
-Puoi utilizzare il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente con la correzione Bonferroni applicata in modo appropriato per stimare la durata del test. Nei nostri esperimenti, abbiamo visto che l’attività Allocazione automatica finisce molto prima di questa dimensione campione.
+Puoi utilizzare il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente con la correzione Bonferroni applicata in modo appropriato per stimare la durata del test. L'utilizzo del calcolatore per un'attività di allocazione automatica è facoltativo perché l'allocazione automatica dichiarerà un vincitore. La calcolatrice fornisce una stima approssimativa della dimensione del campione necessaria. Nei nostri esperimenti, abbiamo visto che l’attività Allocazione automatica finisce molto prima di questa dimensione campione.
 
 **È necessario rimuovere un’esperienza insoddisfacente da un’attività di allocazione automatica per velocizzare il processo di determinazione di un vincitore?**
 
