@@ -1,6 +1,6 @@
 ---
 description: Queste note sulla versione forniscono informazioni su funzionalità, miglioramenti, correzioni e problemi noti per ogni versione di Target Standard e Target Premium.
-keywords: Note sulla versione;prerelease
+keywords: Note sulla versione;nuove funzioni;aggiornamenti;aggiornamento;rilascio;miglioramenti;correzioni;correzioni di bug
 seo-description: Queste note sulla versione forniscono informazioni su funzioni, miglioramenti, correzioni e problemi noti per ciascuna versione di Adobe Target Standard e Target Premium.
 seo-title: Note sulla versione di Adobe Target (corrente)
 solution: Target
@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -21,7 +21,7 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| ![Autorizzazioni Enterprise badge](/help/assets/premium.png) Premium | Con la release di settembre 2019 di Target, le Autorizzazioni Enterprise forniscono ai clienti i seguenti controlli di accesso:<UL><li>Potete scegliere le aree di lavoro a cui applicare l'integrazione.</li><li>Puoi assegnare un ruolo all'integrazione I/O di Adobe: Responsabile approvazione, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consultate [Concedere alle integrazioni di I/O Adobe l'accesso alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Autorizzazioni Enterprise badge](/help/assets/premium.png) Premium | Con la release di settembre 2019 di Target, le Autorizzazioni Enterprise forniscono ai clienti i seguenti controlli di accesso:<UL><li>Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione.</li><li>Possibilità di applicare un ruolo all’integrazione Adobe I/O: Approvatore, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Modifiche alla documentazione, precedenti note sulla versione e note sulla versione di Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
