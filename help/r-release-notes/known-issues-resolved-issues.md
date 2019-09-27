@@ -1,14 +1,14 @@
 ---
 description: Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
-keywords: problemi noti;problemi risolti;note sulla versione
-seo-description: Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
+keywords: problemi noti;problemi risolti;note sulla versione;bug;problemi;correzioni
+seo-description: Informazioni sui problemi noti per questa release di Adobe Target. Include inoltre informazioni sui problemi risolti.
 seo-title: Problemi noti e problemi risolti in Adobe Target
 solution: Target
 title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -25,9 +25,9 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Collegamenti di anteprima QA attività {#preview}
+### Collegamenti di anteprima Controllo di qualità delle attività {#preview}
 
-[I collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) del QA dell'attività per le attività salvate potrebbero non essere caricati in presenza di troppe attività salvate nell'account. Il nuovo tentativo dei collegamenti di anteprima dovrebbe funzionare. Per evitare che ciò continui, archiviare le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
+I collegamenti di [anteprima Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Per evitare che questo problema si verifichi di nuovo, archivia le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
 
 ### Offerte di reindirizzamento {#redirect}
 
@@ -124,7 +124,7 @@ Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella se
 
 * L’indice del feed di Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
 
-   Questo problema è stato risolto nella release di Target 19.4.2.
+   Questo problema è stato risolto con la versione 19.4.2 di Target. 
 
 * L’elaborazione dei feed Consigli richiede più tempo del previsto. (COR-2836)
 
@@ -132,7 +132,7 @@ Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella se
 
 * L’interfaccia dei feed della funzionalità Consigli non mostra lo stato di indicizzazione corretto. I processi di backend funzionano correttamente, ma non è possibile recuperare e visualizzare nell’interfaccia utente lo stato corrente.
 
-   Ciò è stato corretto nella versione 17.10.1.
+   Questo problema è stato risolto nella versione 17.10.1.
 
 ### Offerte di reindirizzamento
 
@@ -187,13 +187,13 @@ Risolto il 27 settembre 2018.
 
 Se si ricarica il Compositore esperienza visivo al passaggio 1 del flusso di lavoro guidato in tre passaggi mentre si lavora con l'editor di codice in Firefox e Internet Explorer, il rendering della scheda Modifiche non viene eseguito correttamente; tuttavia, la funzionalità del Compositore esperienza visivo non viene influenzata. (TGT-28730)
 
-Ciò è stato corretto nella versione 18.9.1.
+Questo problema è stato risolto nella versione 18.9.1.
 
 ### Attività Consigli che utilizza una regola di promozione attributi
 
 Quando si modifica o si copia un'attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l'errore “Campo mancante” quando si fa clic su Salva.
 
-Ciò è stato corretto nella versione 17.8.1.
+Questo problema è stato risolto nella versione 17.8.1.
 
 ### Consigli di backup
 
