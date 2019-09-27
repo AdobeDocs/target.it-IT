@@ -7,7 +7,7 @@ solution: Target
 title: Per quanto tempo si deve eseguire un test A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 ---
 
@@ -34,7 +34,7 @@ Target fornisce degli strumenti per garantire che l’attività abbia una dimens
 
    Per ulteriori informazioni, consulta [Allocazione automatica](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calcolatore dimensioni campione di Target:** se si sceglie di utilizzare un test A/B manuale invece dell’allocazione automatica, il calcolatore delle dimensioni del campione di Target consente di determinare le dimensioni del campione necessarie per un test di successo. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
+* **Calcolatore dimensioni campione di Target:** se si sceglie di utilizzare un test A/B manuale invece dell’allocazione automatica, il calcolatore delle dimensioni del campione di Target consente di determinare le dimensioni del campione necessarie per un test di successo. A manual A/B test is a fixed horizon test, so the calculator is extremely helpful. Using the calculator for an Auto-Allocate activity is optional because Auto-Allocate will declare a winner for you. The calculator gives you a rough estimate of the sample size needed. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
 ## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
