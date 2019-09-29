@@ -1,8 +1,8 @@
 ---
-description: Utilizzate audience per destinare contenuti ed esperienze diversi a audience specifiche per ottimizzare il marketing Web, mostrando i messaggi giusti alle persone giuste al momento giusto.
+description: Utilizza i tipi di pubblico per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 keywords: Targeting;tipi di pubblico;target percentuale
-seo-description: Utilizzate i tipi di pubblico in Adobe Target per destinare contenuti ed esperienze diversi a audience specifiche per ottimizzare il marketing Web, mostrando i messaggi giusti alle persone giuste al momento giusto.
-seo-title: Audience in Adobe Target
+seo-description: Utilizza i tipi di pubblico in Adobe Target per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
+seo-title: Tipi di pubblico in Adobe Target
 solution: Target
 title: Tipi di pubblico
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Tipi di pubblico{#audiences}
 
-Utilizzate audience per destinare contenuti ed esperienze diversi a audience specifiche per ottimizzare il marketing Web, mostrando i messaggi giusti alle persone giuste al momento giusto.
+Utilizza i tipi di pubblico per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 
-Un pubblico è un gruppo di partecipanti all'attività simili che visualizzeranno un'attività con targeting. Un pubblico è un gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o i visitatori provenienti dal MID West. La funzione Pubblico consente di eseguire il targeting di contenuti ed esperienze diversi per audience specifiche per ottimizzare il marketing digitale, mostrando i messaggi giusti alle persone giuste al momento giusto. Se un visitatore è identificato come parte di un'audience target, Target determina quale esperienza visualizzare, in base ai criteri definiti durante la creazione dell'attività.
+Un pubblico è un gruppo di partecipanti a un’attività simili, che visualizzeranno un’attività con targeting. Un pubblico è un gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
 
 Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra le varie esperienze. Tuttavia puoi specificare target basati su percentuali per ogni esperienza.
 
