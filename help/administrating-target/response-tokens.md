@@ -284,6 +284,6 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
 
 ## Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
-Guarda il seguente video per imparare a usare token di risposta e eventi personalizzati at. js per condividere informazioni sul profilo da Target a sistemi di terze parti.
+Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ita)
