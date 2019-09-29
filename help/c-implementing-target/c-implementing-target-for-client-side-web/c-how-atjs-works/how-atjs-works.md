@@ -68,7 +68,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 ## Diagramma di at.js 1.x
 
-![Flusso di destinazione - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
+![Flusso di Target - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
 
 | Passaggio | Descrizione | Chiamata | Descrizione |
 |--- |--- |--- |--- |
@@ -77,22 +77,22 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>I dati di [!DNL Analytics] possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
 
-## Rendering delle offerte at.js con il contenuto HTML {#render}
+## Come avviene il rendering delle offerte con contenuti HTML in at.js {#render}
 
-Quando eseguite il rendering delle offerte con contenuto HTML, at.js applica il seguente algoritmo:
+Nel rendering delle offerte con contenuti HTML, at.js applica il seguente algoritmo:
 
-1. Le immagini vengono precaricate (se esistono `<img>` tag nel contenuto HTML).
+1. Le immagini vengono precaricate (se nel contenuto HTML sono presenti tag `<img>`).
 
-1. Il contenuto HTML è associato al nodo DOM.
+1. Il contenuto HTML viene associato al nodo DOM.
 
-1. Gli script in linea vengono eseguiti (codice racchiuso tra `<script>` tag).
+1. Vengono eseguiti gli script in linea (codice racchiuso tra tag `<script>`).
 
-1. Gli script remoti vengono caricati in modo asincrono ed eseguiti (`<script>` tag con `src` attributi).
+1. Gli script remoti (tag `<script>` con attributi `src`) vengono caricati in modo asincrono ed eseguiti.
 
 Note importanti:
 
-* at.js non fornisce alcuna garanzia sull'ordine di esecuzione dello script remoto, in quanto questi vengono caricati in modo asincrono.
-* Gli script in linea non devono avere dipendenze da script remoti, in quanto vengono caricati ed eseguiti successivamente.
+* at.js non garantisce in alcun modo l’ordine di esecuzione di script remoti, poiché questi vengono caricati in modo asincrono.
+* Gli script in linea non devono avere dipendenze da script remoti, poiché questi ultimi vengono caricati ed eseguiti successivamente.
 
 ## Video di formazione: diagramma architetturale di at.js 2.x
 
