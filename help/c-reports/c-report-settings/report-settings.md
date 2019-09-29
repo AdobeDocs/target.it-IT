@@ -19,7 +19,7 @@ Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le imp
 
 Per visualizzare un rapporto, fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
-![Interfaccia utente](/help/c-reports/c-report-settings/assets/report_ui-new.png)
+![Interfaccia utente per i rapporti](/help/c-reports/c-report-settings/assets/report_ui-new.png)
 
 ## Predefinito target {#section_51F67341465045BEB4F1A2FB638A8EB1}
 
@@ -32,11 +32,11 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 1. Configura il rapporto dell'attività come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
 1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]**.
 
-   ![Predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset-new.png)
+   ![Predefinito per rapporto](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
    Viene visualizzata la finestra di dialogo Nuovo predefinito:
 
-   ![Nuovo predefinito, finestra di dialogo](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
+   ![Finestra di dialogo Nuovo predefinito](/help/c-reports/c-report-settings/assets/report_preset_dialog-new.png)
 
 1. Controlla le informazioni nelle sezioni Filtri e Impostazioni per verificare che il rapporto sia configurato come desiderato, quindi specifica il **[!UICONTROL Nome predefinito]** (fino a 50 caratteri).
 1. (Facoltativo) Se desideri che questa sia la vista di default/preferita del rapporto, imposta il pulsante **[!UICONTROL Imposta come predefinito di default]** su Attivato.
@@ -55,22 +55,22 @@ Seleziona il predefinito desiderato dall'elenco a discesa **[!UICONTROL Predefin
 
    Una volta fatto clic su [!UICONTROL Salva] dopo aver modificato la configurazione del report, compare un asterisco (*) dopo il nome della preimpostazione per indicare che è stata modificata, come illustrato di seguito:
 
-   ![Predefinito rapporto con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
+   ![Predefinito per rapporto con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuov predefinito.
+1. Fai clic sull’icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuovo predefinito.
 
    Oppure
 
    Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
 
-   ![Aggiornamento predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
+   ![Aggiorna predefinito del rapporto](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
 **Eliminare un predefinito**
 
 1. Seleziona il predefinito da eliminare.
 1. Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Elimina]**.
 
-   ![Eliminazione predefinito rapporto](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
+   ![Elimina predefinito del rapporto](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
 1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l'eliminazione.
 
@@ -104,7 +104,7 @@ Per ulteriori informazioni, consulta [Tipi di pubblico](../../c-target/target.md
 
 Nella casella Intervallo date viene visualizzato l'intervallo di date del rapporto corrente. Fai clic sull'icona a discesa per visualizzare un calendario che consente di modificare l'intervallo di date del rapporto.
 
-![Calendario      ](/help/c-reports/c-report-settings/assets/date_range-new.png)
+![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
 Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall'inizio dell'attività]** e **[!UICONTROL Fino al termine dell'attività]**.
 
@@ -120,11 +120,11 @@ Per i rapporti sono previste le seguenti limitazioni di data:
 
 Fai clic sull’icona a forma di ruota dentata per configurare le impostazioni dei rapporti, quindi al termine fai clic su **[!UICONTROL Salva impostazioni]**.
 
-Nella figura seguente viene mostrata la finestra di dialogo Impostazioni per un’attività A/B:
+Nell’illustrazione seguente viene mostrata la finestra di dialogo Impostazioni per un’attività A/B:
 
-![Impostazioni, finestra di dialogo](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
+![Finestra di dialogo Impostazioni](/help/c-reports/c-report-settings/assets/ab_settings_dialog-new.png)
 
-A seconda del tipo di attività selezionata, le opzioni variano:
+A seconda del tipo di attività selezionato, le opzioni variano:
 
 * **Metodologia di conteggio:** seleziona la metodologia desiderata:
 
@@ -168,7 +168,7 @@ I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione
 
 Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e intervallo di confidenza](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
-Valuta quanto segue:
+Considera i seguenti aspetti:
 
 * Disponibile solo quando i rapporti vengono visualizzati nella vista Tabella.
 * Questa funzionalità non è disponibile per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).
@@ -183,7 +183,7 @@ Fai clic sull’icona **[!UICONTROL Contributo posizione]** per far sì che il r
 
 Seleziona o deseleziona le esperienze sul lato sinistro del grafico per visualizzare o nascondere dal grafico le esperienze corrispondenti.
 
-Se la figura seguente, solo esperienze predefinite, Mid-East e Totale vengono visualizzate nel report. L'esperienza Asia è nascosta nel grafico.
+Nell’illustrazione seguente, il rapporto contiene solo le esperienze Default, Mid-East e Total (Predefinito, Medio Oriente, Totale). L’esperienza Asia è nascosta nel grafico.
 
 ![Esperienze](/help/c-reports/c-report-settings/assets/report_experiences-new.png)
 
@@ -198,7 +198,7 @@ Seleziona la vista grafico desiderata:
 * Giornaliero
 * Incremento giornaliero
 
-![Rapporto Media in esecuzione](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
+![Rapporto Media corrente](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
@@ -220,11 +220,11 @@ Per impostazione predefinita, il grafico è tracciato in modalità [!UICONTROL G
 
 Per modificare la modalità fai clic sull’elenco a discesa [!UICONTROL Giornaliero], quindi seleziona [!UICONTROL Cumulativo].
 
-![Cumulative](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![Cumulativo](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 >[!NOTE]
 >
->il nome dell’elenco a discesa varia a seconda della modalità selezionata.
+>Il nome dell’elenco a discesa varia a seconda della modalità selezionata.
 
 Sono disponibili quattro modalità per le attività di targeting automatico: controllo giornaliero, targeting giornaliero, controllo cumulativo e targeting cumulativo.
 
