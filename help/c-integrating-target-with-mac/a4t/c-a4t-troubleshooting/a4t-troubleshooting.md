@@ -24,7 +24,7 @@ Questo può accadere per diversi motivi:
 
 * La classificazione in [!DNL Target] non è stata completamente elaborata.
 
-   In genere la classificazione dura tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
+   In genere la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 
 * La suite di rapporti non contiene dati, ma [!DNL Target] ha effettuato un tentativo di classificazione dei risultati. [!DNL Target] non può classificare i dati finché non si verifica il primo risultato.
 
@@ -36,7 +36,7 @@ Questo può accadere per diversi motivi:
 
 >[!NOTE]
 >
->A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tenere presente che in genere sono necessarie 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
