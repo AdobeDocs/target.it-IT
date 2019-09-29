@@ -55,7 +55,7 @@ Questa sezione descrive come inviare informazioni sulle attività delle app mobi
 
    Analizza la risposta restituita da Target nella chiamata di ritorno. Utilizza NSJSONSerialization per analizzare questa risposta e memorizzarla in una dipendenza o un array.
 
-   Refer to the [NSJSONSerialization documentation](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) for more information.
+   Per ulteriori informazioni, consulta la documentazione [](https://developer.apple.com/library/ios/documentation/Foundation/Reference/NSJSONSerialization_Class/#//apple_ref/occ/clm/NSJSONSerialization/JSONObjectWithData:options:error) NSJSONSerialization.
 1. Inviare i dati ad Analytics.
 
    Aggiungi le informazioni sull’attività analizzate (come `tntVal` nella risposta precedente) all’oggetto dati contestuali in una chiamata di Analytics. Questa chiamata di Analytics contenente i dati contestuali può essere attivata immediatamente oppure può attendere finché non viene avviata la chiamata di Analytics successiva.
