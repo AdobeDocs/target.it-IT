@@ -93,7 +93,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Imposta le regole di **[!UICONTROL contenuto]**.
 
-   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque articoli, ma in base ai criteri devono vi sono solo tre articoli da consigliare, puoi lasciare vuoto lo spazio rimanente oppure puoi riempirlo con i consigli di backup.
+   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
 
    Seleziona i pulsanti appropriati:
 
@@ -120,19 +120,19 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 ## Tempo di elaborazione previsto dei criteri {#process-time}
 
-After saving an Activity containing a Criteria, [!DNL Target] computes recommendations based on the selected Collection and Criteria. This computation takes some time to perform and the timeframe differs based on the selected recommendation logic, data range, number of items in your catalog, amount of behavioral data your customers have generated, and the selected behavioral data source. The behavioral data source has the largest impact on processing time, as follows:
+After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Il calcolo richiede un po’ di tempo, in base alla logica selezionata per la generazione dei consigli, all’intervallo di dati, alla quantità di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali. Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
 
-### mbox regionali
+### mbox
 
-If mboxes is selected as the behavioral data source, once created, the criteria immediately runs. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l'algoritmo può richiedere fino a 12 ore per l'esecuzione. Se si apportano modifiche alla configurazione dei criteri, l'algoritmo viene in genere rieseguito. A seconda delle modifiche apportate, le raccomandazioni calcolate in precedenza potrebbero essere disponibili fino al completamento di una nuova esecuzione, oppure, per modifiche di dimensioni maggiori, solo il contenuto di backup o predefinito sarà disponibile fino al completamento di una nuova esecuzione. Se un algoritmo non viene modificato, viene automaticamente rieseguito di [!DNL Target] ogni 12-48 ore, a seconda dell'intervallo di dati selezionato.
+Se come origini dei dati comportamentali sono selezionate delle mbox, i criteri creati vengono eseguiti subito. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l’esecuzione dell’algoritmo può richiedere fino a 12 ore. L’apporto di modifiche alla configurazione dei criteri comporta solitamente la riesecuzione dei criteri. A seconda delle modifiche apportate, i consigli calcolati in precedenza potrebbero restare disponibili fino alla completa esecuzione dei nuovi criteri. Tuttavia, in caso di modifiche di maggiore entità, fino a quando non sia stata completata la nuova esecuzione potrebbero venire visualizzati solo i contenuti di backup o predefiniti. Se un algoritmo non viene modificato, viene rieseguito automaticamente da [!DNL Target] ogni 12-48 ore, a seconda dell’intervallo di dati selezionato.
 
 ### Adobe Analytics
 
-If the criteria uses [!DNL Adobe Analytics] as the behavioral data source, once created, the time for criteria availability depends on whether the selected report suite and lookback window has been used for any other criteria.
+Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, l’eventuale utilizzo della suite di rapporti e dell’intervallo di lookback selezionati per altri criteri incide sul tempo che trascorre prima che il criterio creato diventi disponibile.
 
-* **Configurazione** suite di rapporti una tantum: La prima volta che una suite di rapporti viene utilizzata con una determinata finestra di lookback dell'intervallo di dati, [!DNL Target Recommendations] possono trascorrere da due a sette giorni per scaricare completamente i dati comportamentali per la suite di rapporti selezionata da [!DNL Analytics]. Questo intervallo di tempo dipende dal carico del [!DNL Analytics] sistema.
-* **New or edited criteria using an already available report suite**: When creating a new criteria or editing an existing criteria, if the selected report suite has already been used with [!DNL Target Recommendations], with a data range equal to or lesser than the selected data range, then the data is immediately available and no one-time setup is required. In this case, or if an algorithm's settings are edited while not modifying the selected report suite or data range, the algorithm runs or re-runs within 12 hours.
-* **Esecuzione** dell'algoritmo in corso: Flussi di dati [!DNL Analytics] su base [!DNL Target Recommendations] giornaliera. For example, for the Viewed Affinity recommendation, when a user views a product, a product-view tracking call is passed into  close to real-time. [!DNL Analytics] The  data is pushed to  early the next day and  runs the algorithm in less than 12 hours.[!DNL Analytics][!DNL Target][!DNL Target]
+* **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. Il tempo necessario dipende dal caricamento del sistema [!DNL Analytics].
+* **Criteri nuovi o modificati che utilizzano una suite di rapporti già disponibile**: se crei un nuovo criterio o ne modifichi uno esistente e la suite di rapporti selezionata è già utilizzata per [!DNL Target Recommendations] con un intervallo di dati uguale o inferiore a quello selezionato, i dati diventano subito disponibili e non è richiesta alcuna configurazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
+* **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per un consiglio di tipo [!UICONTROL Affinità per articoli visualizzati], quando un utente visualizza un prodotto, a [!DNL Analytics] viene trasmessa una chiamata di tracciamento per visualizzazione prodotto quasi in tempo reale. I dati [!DNL Analytics] vengono inviati a [!DNL Target] all’inizio del giorno successivo e [!DNL Target] esegue l’algoritmo in meno di 12 ore.
 
 ## Basare il consiglio su una chiave consiglio {#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B}
 
@@ -343,7 +343,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 >[!NOTE]
 >
->Recently Viewed Items respects both Exclusions global settings and the selected Collection setting for the Activity. If an item is excluded by a global Exclusion, or is not contained in the selected Collection, it will not be displayed; therefore, when using a Recently Viewed Items criteria, the "All Collections" setting should generally be used.
+>“Articoli visualizzati di recente” rispetta sia le impostazioni globali Esclusioni sia l’impostazione Raccolta selezionata per l’attività. Se un elemento è escluso da un’esclusione globale, o non è incluso nella raccolta selezionata, non verrà visualizzato; di conseguenza, quando si utilizza il criterio “Articoli visualizzati di recente”, viene solitamente utilizzata l’impostazione “Tutte le raccolte”.
 
 ## Regole di inclusione {#task_28DB20F968B1451481D8E51BAF947079}
 
@@ -410,7 +410,7 @@ Le impostazioni [!UICONTROL Contenuto] determinano in che modo i consigli vengon
 
 È possibile che i criteri della funzione [!UICONTROL Consigli] restituiscano un numero minore di consigli rispetto alla progettazione. Ad esempio, la progettazione può avere cinque “posizioni” disponibili, ma i criteri restituiscono solo tre elementi consigliati. Quando si verifica tale situazione, le impostazioni del [!UICONTROL contenuto] controllano la modalità in cui vengono presentati i consigli.
 
-Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque articoli, ma in base ai criteri devono vi sono solo tre articoli da consigliare, puoi lasciare vuoto lo spazio rimanente oppure puoi riempirlo con i consigli di backup.
+Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
 
 Seleziona i pulsanti appropriati:
 
@@ -448,7 +448,7 @@ Poiché la somiglianza del contenuto utilizza parole chiave per confrontare elem
 
 Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento*. Non è necessario creare una regola a meno che non si desideri modificare questa impostazione.
 
-## Training video: Create criteria in Recommendations (12:33)
+## Video di formazione: Creare i criteri in Recommendations (12:33)
 
 Questo video contiene le seguenti informazioni:
 
