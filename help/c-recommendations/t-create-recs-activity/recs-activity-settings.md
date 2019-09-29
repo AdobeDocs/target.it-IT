@@ -1,8 +1,8 @@
 ---
 description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli.
 keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di generazione rapporti;altri metadati
-seo-description: Diverse impostazioni possono essere utilizzate per descrivere e controllare un'attività di Recommendations in Adobe Target.
-seo-title: Impostazioni attività di Recommendations in Adobe Target
+seo-description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli in Adobe Target.
+seo-title: Impostazioni per le attività Consigli in Adobe Target
 solution: Target
 subtopic: Consigli
 title: Impostazioni delle attività di Consigli
@@ -20,7 +20,7 @@ source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
 
 Informazioni sulle impostazioni utilizzabili per descrivere e controllare un’attività [!UICONTROL Consigli].
 
-![Pagina Obiettivi e impostazioni di Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
+![Pagina Obiettivi e impostazioni della funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
 Nelle sezioni seguenti vengono descritte le impostazioni disponibili per un’attività [!UICONTROL Consigli].
 
@@ -55,14 +55,14 @@ La priorità è utilizzata se più attività vengono assegnate alla stessa posiz
 
 Imposta la durata dell’attività.
 
-L'attività può iniziare quando viene attivata, oppure potete impostare una data e un'ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+L’attività può iniziare dopo l’attivazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
 ## Impostazioni reporting
 
-* **Origine di reporting:** Selezionate l'origine di reporting: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificate l'origine di reporting dopo che l'attività è live. La modifica dell'origine di reporting dopo un'attività attiva causa un reporting incoerente.
-* **Metrica obiettivo:** Selezionate la metrica di successo che determina se l'attività ha esito positivo.
-* **Altre metriche:** configura ulteriori metriche di successo da utilizzare nei rapporti.
-* **Tipi di pubblico per i rapporti:** definisci i tipi di pubblico che possono essere utilizzati per filtrare i rapporti.
+* **Origine per i rapporti:** seleziona l’origine per la generazione di rapporti: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificare l’origine per i rapporti dopo che l’attività è divenuta live in quanto si potrebbero verificare incongruenze nei risultati dei rapporti.
+* **Metrica per obiettivo**: seleziona la metrica di successo che determina il successo dell’attività.
+* **Altre metriche:** Configura ulteriori metriche di successo da utilizzare nei rapporti.
+* **Tipi di pubblico per i rapporti:** Definisci i tipi di pubblico che possono essere utilizzati per filtrare i rapporti.
 
 ## Altri metadati
 
