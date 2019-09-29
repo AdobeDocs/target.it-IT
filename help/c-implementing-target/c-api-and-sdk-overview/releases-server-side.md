@@ -12,6 +12,6 @@ source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
 ---
 
 
-# Note sulla versione - API e SDK
+# Release notes - APIs and SDKs
 
-Note sulla versione relative alle API e agli SDK lato server di Adobe Target.
+Release notes related to Adobe Target's server-side APIs and SDKs.
