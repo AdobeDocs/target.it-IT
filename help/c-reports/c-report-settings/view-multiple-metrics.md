@@ -1,8 +1,8 @@
 ---
 description: Seleziona più metriche da visualizzare in un rapporto.
 keywords: Target;report;impostazioni report;più metriche;metriche
-seo-description: Seleziona più metriche da visualizzare in un report utilizzando Adobe Target.
-seo-title: Visualizzare più metriche in un report utilizzando Adobe Target
+seo-description: Select multiple metrics to view in a report using Adobe Target.
+seo-title: View multiple metrics in a report using Adobe Target
 solution: Target
 title: Visualizzare più metriche in un rapporto
 topic: Premium
