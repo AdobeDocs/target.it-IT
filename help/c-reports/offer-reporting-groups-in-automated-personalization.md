@@ -1,7 +1,7 @@
 ---
 description: Informazioni sull'uso dei gruppi di reporting nelle attività di Personalizzazione automatizzata (AP).
 keywords: personalizzazione automatizzata;offerta;rapporto;gruppo;gruppo di rapporti
-seo-description: Informazioni sull'utilizzo dei gruppi di reporting nelle attività di Automated Personalization (AP) in Adobe Target.
+seo-description: Information about using reporting groups in Automated Personalization (AP) activities in Adobe Target.
 seo-title: Offrire gruppi di reporting nelle attività di Automated Personalization (AP) in Adobe Target
 solution: Target
 title: Gruppi di reporting di offerte in Personalizzazione automatizzata
@@ -28,7 +28,7 @@ When you use reporting groups, [!DNL Target] creates only one personalization mo
 
 Se la configurazione dell'attività non dispone di dati sufficienti per creare un modello di personalizzazione per ciascuna offerta, i gruppi di reporting possono contribuire a ridurre i requisiti di dati per utilizzare la Personalizzazione automatizzata. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nella tua attività di AP.
 
-Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di reporting. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
 
 >[!NOTE]
 >
