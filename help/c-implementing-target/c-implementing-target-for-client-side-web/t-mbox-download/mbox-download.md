@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Per utilizzare Target Standard o Target Premium, aggiungi una riga di codice per chiamare mbox.js.
 
-Puoi utilizzare uno dei due riferimenti di libreria: [!DNL mbox.js] o [!DNL at.js]. [I vantaggi di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) spiegano le differenze tra le due librerie.
+Puoi utilizzare uno dei due riferimenti di libreria: [!DNL mbox.js] o [!DNL at.js]. La sezione [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) spiega le differenze tra le due librerie.
 
 >[!NOTE]
 >
