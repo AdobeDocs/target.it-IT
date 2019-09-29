@@ -22,17 +22,17 @@ Definizioni dei termini.
 
 Il test A/B confronta due o più versioni del contenuto del sito web per vedere quale versione migliora maggiormente le conversioni durante un dato periodo di test.
 
-**Elenco attività**
+**Attività, elenco**
 
 Dashboard che consente di visualizzare una panoramica rapida delle attività.
 
-**di Consigli**
+**attività**
 
 Consentono di sottoporre a test le progettazioni di pagine e indirizzare i contenuti a tipi di pubblico specifici.
 
-**registro delle modifiche dell'attività**
+**registro delle modifiche apportate alle attività**
 
-Un record di chi ha modificato le attività e quando sono state apportate le modifiche.
+Record con informazioni su chi ha modificato le attività e quando si sono verificate le modifiche.
 
 **conflitti tra attività**
 
@@ -52,7 +52,7 @@ La libreria [!DNL at.js] è una nuova libreria di implementazione per [!DNL Adob
 
 **pubblico**
 
-Un gruppo di partecipanti a un'attività simile, che visualizzeranno un'attività con targeting.  Gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o i visitatori provenienti dal MID West. La funzione Pubblico consente di eseguire il targeting di contenuti ed esperienze diversi per audience specifiche per ottimizzare il marketing digitale, mostrando i messaggi giusti alle persone giuste al momento giusto. Se un visitatore è identificato come parte di un'audience target, Target determina quale esperienza visualizzare, in base ai criteri definiti durante la creazione dell'attività.
+Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
 
 **Allocazione automatica**
 
@@ -76,11 +76,11 @@ Consentono di sottoporre a test e di monitorare le visite ad annunci e altri con
 
 **campagna**
 
-Come «activity»
+Vedi “attività”
 
 **punteggio di acquisizione**
 
-Una metrica di coinvolgimento che calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell'attività.
+Una metrica di coinvolgimento che calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell’attività.
 
 **catalogo**
 
@@ -88,7 +88,7 @@ L'intero insieme di prodotti o contenuti che possono essere raccomandati.
 
 **affinità tra categorie**
 
-Acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente per la categoria, affinché possa essere utilizzata per il targeting e la segmentazione. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+Acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente per la categoria, affinché possa essere utilizzata per il targeting e la segmentazione. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 
 **raccolta**
 
@@ -104,7 +104,7 @@ Il testo o l'immagine che include una variante di test all'interno di una posizi
 
 **mbox di conversione**
 
-Registra i risultati del test o dell'attività, ad esempio registrazioni, ordini o vendite. In genere, un elemento mbox di conversione non visualizza nulla ma resta semplicemente in ascolto. Posizioni comuni per l'elemento mbox di conversione sono una pagina di completamento della registrazione, un pagina di ringraziamento per un ordine o un click-through. Puoi utilizzare anche un elemento mbox globale per calcolare le metriche di conversione.
+Registra i risultati di test o attività, come registrazioni, ordini o vendite. In genere, un elemento mbox di conversione non visualizza nulla ma resta semplicemente in ascolto. Posizioni comuni per l'elemento mbox di conversione sono una pagina di completamento della registrazione, un pagina di ringraziamento per un ordine o un click-through. Puoi utilizzare anche un elemento mbox globale per calcolare le metriche di conversione.
 
 **criteri**
 
@@ -134,7 +134,7 @@ Può essere parte di qualsiasi tipo di test o attività. Non è necessaria alcun
 
 **mbox dinamica**
 
-Consente alle applicazioni Rich Internet (RIA) di manipolare l'HTML dopo che la pagina è stata caricata, utilizzando tecnologie come DHTML e AJAX.
+Consente alle applicazioni Rich Internet (RIA) di manipolare l’HTML dopo che la pagina è stata caricata, utilizzando tecnologie come DHTML e AJAX.
 
 **offerta dinamica**
 
@@ -144,15 +144,15 @@ Utilizza la tecnologia a pagina dinamica per trasmettere valori all'offerta.
 
 **coinvolgimento**
 
-Misura dell'interesse di un visitatore in un sito, misurata in base al tempo sul sito, clic, conversioni e altre metriche di coinvolgimento.
+La misura dell’interesse di un visitatore nei confronti di un sito, in termini di tempo sul sito, clic, conversioni e altre metriche di coinvolgimento.
 
 **compositore esperienza avanzato**
 
 Il [!UICONTROL Compositore esperienza avanzato] è un’estensione del [!UICONTROL Compositore esperienza visivo] che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di [!DNL Target]. Se hai problemi ad aprire la pagina nel [!UICONTROL Compositore esperienza visivo], prova il [!UICONTROL Compositore esperienza avanzato].
 
-**Autorizzazioni per gli utenti Enterprise**
+**autorizzazioni per gli utenti Enterprise**
 
-Un mezzo per amministrare l'accesso dell'utente a livello aziendale a Target. Aggiungete utenti a Target, assegnate autorizzazioni in base ai loro ruoli e create aree di lavoro per i team basati su diversi reparti, posizioni globali, canale e altri raggruppamenti logici. Potete assegnare agli utenti i ruoli di Observer, Editor o Approver.
+Un mezzo per l’amministrazione formale dell’accesso a Target a livello aziendale. Puoi aggiungere utenti a Target, assegnare le autorizzazioni in base ai loro ruoli e creare aree di lavoro per i team in base a reparto, posizione globale, canale e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di Osservatore, Editor o Approvatore.
 
 **attributi di entità**
 
@@ -168,7 +168,7 @@ Per facilitare la gestione, gli host sono raccolti in ambienti. I gruppi di host
 
 **esperienza**
 
-Un'offerta, un'immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un'intera pagina Web o un set di pagine che probabilmente formano un funnel acquisto o un'altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale, di uno script di servizio clienti o anche di un gusto personalizzato da un sistema di bevande. You test or personalize experiences in [!DNL Target] activities.
+Un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
 **targeting delle esperienze**
 
@@ -186,13 +186,13 @@ La rappresentazione visiva di un'attività in Target Standard.
 
 **Compositore esperienza basato su moduli**
 
-Un'interfaccia non visiva e un'interfaccia di creazione di offerte utili per creare esperienze da utilizzare in test A/B, Targeting delle esperienze, Automated Personalization (Personalizzazione automatizzata) e Recommendations (Raccomandazioni) quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l'utilizzo. Ad esempio, potete utilizzare il composer basato su moduli per creare esperienze e offerte per la consegna in-mail, chioschi e assistenti vocali.
+Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Personalizzazione automatizzata e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
 
 ## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parametro di geolocalizzazione**
 
-Consente di eseguire il targeting di attività ed esperienze in base alla geografia dei visitatori. Anche noto come parametro di geotargeting.
+Consente di eseguire il targeting di attività ed esperienze in base alla posizione geografica dei visitatori. Anche noto come parametro di geotargeting.
 
 **obiettivo**
 
@@ -218,7 +218,7 @@ Parametro specifico del visitatore trasmesso al cookie del visitatore dall'eleme
 
 **attività pagina di destinazione**
 
-L'attività di pagina di destinazione consente di utilizzare il targeting per visualizzare contenuti di pagina di destinazione diversi per visite diverse. In caso contrario, nella pagina di destinazione viene visualizzato lo stesso contenuto per ogni visita. Un'attività di pagina di destinazione confronta diverse versioni della pagina per vedere quale versione della pagina di destinazione produce risultati più efficaci. Sostituita dal *targeting delle esperienze* in Target Standard.
+Consente di utilizzare il targeting per visualizzare contenuti diversi nella pagina di destinazione per visite diverse. In caso contrario, nella pagina di destinazione viene visualizzato lo stesso contenuto per ogni visita. Consente di confrontare versioni diverse della pagina in modo da vedere quale produce i risultati più efficaci. Sostituita dal *targeting delle esperienze* in Target Standard.
 
 **posizione**
 
@@ -236,7 +236,7 @@ Prima di 16.3.1, [!DNL Target] richiedeva una chiamata a [!DNL mbox.js] per crea
 
 **parametro mbox**
 
-Trasmesso nella pagina, non nell'URL. I parametri vengono utilizzati per trasmettere dati dal database e per tenere traccia dei dati di vendita o per eseguire Adobe Recommendations. Anche noto come parametro di pagina.
+Trasmesso nella pagina, non nell'URL. I parametri vengono utilizzati per trasmettere i dati dal database e per monitorare i dati di vendita o per eseguire Adobe Recommendations. Anche noto come parametro di pagina.
 
 **test multivariato**
 
@@ -250,17 +250,17 @@ Un campo di attività in cui immettere una descrizione delle informazioni che de
 
 **offerta**
 
-Un'offerta è il contenuto visualizzato all'interno di una mbox durante attività e test. Un'esperienza determina quale offerta viene visualizzata quando vengono soddisfatte determinate condizioni.
+Un’offerta è costituita dal contenuto visualizzato all’interno di una mbox durante attività e test. Un'esperienza determina quale offerta viene visualizzata quando vengono soddisfatte determinate condizioni.
 
 **collegamento per la rinuncia**
 
-Consente ai visitatori di rinunciare a tutte le operazioni di tracciamento e distribuzione dei contenuti.
+Consente ai visitatori di rinunciare a tutte le operazioni di tracciamento e consegna dei contenuti.
 
 ## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **conteggio di pagina**
 
-Una metrica di coinvolgimento che calcola il numero di pagine visualizzate in un visitatore dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell'attività.
+Una metrica di coinvolgimento che calcola il numero di pagine visualizzate in una visita, dal momento in cui il visitatore vede per la prima volta il primo elemento mbox di visualizzazione dell’attività.
 
 **priorità**
 
@@ -278,7 +278,7 @@ Reindirizza un visitatore a una diversa pagina Web. Utilizza questo redirector i
 
 **parametro URL di riferimento**
 
-Trasmette valori all'elemento mbox della pagina di destinazione come parametri e valori dell'URL di riferimento. Utilizzateli per eseguire il targeting sull'origine del visitatore, ad esempio.
+Trasmette valori all’elemento mbox della pagina di destinazione come parametri e valori dell’URL di riferimento. Puoi utilizzarli, ad esempio, per eseguire il targeting sull’origine del visitatore.
 
 **ruolo**
 
@@ -290,17 +290,17 @@ Utilizza le offerte remote per l’hosting di contenuti esterni a [!DNL Target] 
 
 **rapporti**
 
-I rapporti forniscono informazioni sull'avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare l'esperienza o l'offerta vincitrice e fornire informazioni utili per determinare le azioni successive.
+Forniscono informazioni sull’avanzamento e i risultati delle attività, utili per prendere decisioni basate sui dati. I dati dei rapporti possono aiutarti a decidere quando terminare un test, a individuare l’esperienza o l’offerta vincente e a ottenere informazioni utili per determinare le azioni successive.
 
 ## S {#section_9482B06EBB09486784492F838289E54D}
 
 **parametro di profilo di script**
 
-Simile al parametro di profilo in-mbox, ma definito con javascript che viene eseguito sul back-backend di Target, anziché nel browser.
+Simile al parametro di profilo in-mbox, ma definito con JavaScript ed eseguito sul backend di Target, anziché nel browser.
 
 **segmento**
 
-Un insieme specificato di criteri utilizzati per il targeting di un'attività. Solo i visitatori che soddisfano i criteri visualizzano il contenuto di un'attività per quel segmento. Alcuni segmenti sono riutilizzabili in più attività e altri sono specifici di un'attività.
+Un insieme specifico di criteri utilizzati per il targeting di un’attività. Il contenuto di un’attività con targeting per un segmento verrà presentato solo ai visitatori che soddisfano i criteri di tale segmento. Alcuni segmenti possono essere riutilizzati in più attività, altri sono specifici per una determinata attività.
 
 **filtro per segmenti**
 
@@ -308,37 +308,37 @@ Un filtro di rapporto utilizzato per visualizzare i rapporti relativi a un segme
 
 **applicazione a pagina singola**
 
-Un'applicazione a pagina singola (SPA) è un'applicazione Web o un sito Web che si adatta a una singola pagina Web per offrire un'esperienza utente più fluida, simile a un'applicazione desktop.
+Un’applicazione a pagina singola (SPA) è un’applicazione web o un sito web composto di un’unica pagina web per fornire un’esperienza utente più fluida, simile a un’applicazione desktop.
 
 **metriche di successo**
 
-I parametri utilizzati per misurare il successo di un'attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un'esperienza o un'offerta specifica in un'attività Target. Ad esempio, potete determinare se una nuova offerta o aggiungere un elemento a un carrello aumenta le entrate per visitatore. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l'ordinazione o l'acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
+Parametri utilizzati per misurare il successo di un’attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività Target. Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello aumenta il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
 ## T {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
-Un'attività che confronta due o più esperienze con le metriche di successo specificate, in modo da poter scegliere l'esperienza che più probabilmente fornirà i risultati desiderati.
+Un’attività in cui due o più esperienze sono confrontate con specifiche metriche di successo, per consentirti di scegliere l’esperienza che avrà una maggiore probabilità di fornire i risultati desiderati.
 
 **tempo sul sito**
 
-Un tipo di coinvolgimento che rappresenta il tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima mbox di visualizzazione dell'attività al caricamento della pagina finale in una sessione con una mbox.
+Un tipo di coinvolgimento che rappresenta la durata della visita (in secondi) dal momento in cui il visitatore vede il primo elemento mbox di visualizzazione dell’attività al caricamento della pagina finale nella sessione con un elemento mbox.
 
 ## U {#section_6407B81326FF43049D92265746E6C402}
 
 **parametri URL**
 
-Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse automaticamente a un elemento mbox ogni volta che la pagina con l'elemento mbox viene visualizzata da un visitatore. Queste variabili URL sono quindi disponibili per l'utilizzo tramite targeting display o filtri segmenti nei report.
+Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse automaticamente a un elemento mbox ogni volta che la pagina con l’elemento mbox viene visualizzata da un visitatore. Queste variabili URL sono quindi disponibili per l’utilizzo a scopo di targeting di visualizzazione o per i filtri per segmenti nei rapporti.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visitatore**
 
-Un visitatore è qualsiasi soggetto che accede al sito. Un visitatore viene valutato rispetto ai criteri dell'attività per determinare se il visitatore è incluso in un'attività. Vedi *partecipante*.
+Un visitatore è qualsiasi soggetto che accede al sito. Un visitatore viene valutato sulla base dei criteri di attività, per determinare se includerlo o meno in un’attività. Vedi *partecipante*.
 
 **Compositore esperienza visivo**
 
-In Target Standard, un'interfaccia utente WYSIWYG che consente di creare e sottoporre a test esperienze e offerte personalizzate nel contesto del sito. Potete creare esperienze e offerte per attività Target trascinando, scambiando e modificando il layout e il contenuto di una pagina Web (o offerta).
+In Target Standard, è l’interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Per creare esperienze e offerte per le attività di Target puoi trascinare, scambiare e modificare il layout e il contenuto di una pagina web (o offerta).
 
 ## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
