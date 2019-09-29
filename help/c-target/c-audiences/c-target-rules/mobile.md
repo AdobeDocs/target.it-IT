@@ -1,8 +1,8 @@
 ---
-description: Crea audience per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, vendor, dimensioni dello schermo (in pixel) e altro ancora.
+description: Crea dei tipi di pubblico per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
 keywords: targeting;dispositivi mobili;target dispositivi mobili;deviceatlas;iphone;modelli di iphone;device atlas;displaywidth;larghezza display;altezza display;tipo di dispositivo;displayheight;telefono;tablet;modello di dispositivo
-seo-description: Create audience in Adobe Target per eseguire il targeting dei dispositivi mobili in base a parametri quali dispositivo mobile, tipo di dispositivo, vendor del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
-seo-title: Audience per dispositivi mobili in Adobe Target
+seo-description: Crea dei tipi di pubblico in Adobe Target per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
+seo-title: Pubblico da dispositivi mobili in Adobe Target
 solution: Target
 title: Dispositivi mobili
 topic: Standard
@@ -15,7 +15,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Dispositivi mobili{#mobile}
 
-Crea audience per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, vendor, dimensioni dello schermo (in pixel) e altro ancora.
+Crea dei tipi di pubblico per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
 
 Ad esempio, potrebbe essere utile mostrare contenuti diversi agli utenti che arrivano sulla pagina utilizzando un telefono o un computer. In questo caso, è possibile selezionare il tipo di pubblico per dispositivi mobili, quindi selezionare l’opzione **[!UICONTROL È un telefono cellulare]** e aggiungere eventuali dettagli specifici rilevanti, come tipo di telefono, dimensioni dello schermo (in pixel) e così via.
 
@@ -57,9 +57,9 @@ I clienti che utilizzano un'integrazione personalizzata (non con at.js o l'SDK m
    * Larghezza schermo (px)
    >[!NOTE]
    >
-   >A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite dai modelli Marketing Marketing e Dispositivo che specificano Iphone Modelli viene influenzata. Non è più possibile eseguire il targeting degli utenti con iphone con iOS 12.2 installato su di essi. Tuttavia, se tali utenti non dispongono di iOS 12.2, il targeting del modello iphone continua a funzionare correttamente.
+   >Le nuove modifiche introdotte in iOS 12.2 incidono sulla creazione di un pubblico con regole definite dai modelli Nome marketing del dispositivo e Modello dispositivo che specificano modelli di iPhone. Non è più possibile impostare come destinazione gli utenti che utilizzano iPhone con iOS 12.2. Tuttavia il targeting funziona correttamente per gli utenti di iPhone con una versione di iOS diversa da 12.2.
    >
-   >L'aggiornamento iOS 12.2 non influenza l'identificazione dei seguenti modelli perché questi modelli non supportano l'aggiornamento a iOS 12.2: Iphone, iphone 3 G, iphone 3 GS, iphone 4, iphone 4 s, iphone 5, iphone 5 c, ipad, ipad 2, ipad/Retina display, ipad Retina (4 th Gen), iPod Touch 4 e iPod Touch 5.
+   >L’aggiornamento iOS 12.2 non influenza l’identificazione dei seguenti modelli, poiché questi non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad con display Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
 
    >[!NOTE]
    >
@@ -68,9 +68,9 @@ I clienti che utilizzano un'integrazione personalizzata (non con at.js o l'SDK m
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-L'illustrazione seguente mostra un'audience che sta utilizzando i dispositivi generati da Google che sono un dispositivo mobile.
+L’illustrazione seguente mostra un pubblico che include i visitatori che utilizzano dispositivi mobili prodotti da Google.
 
-![Dispositivi mobili di destinazione](assets/target_mobile.png)
+![Targeting di dispositivi mobili](assets/target_mobile.png)
 
 ## Video di formazione: Creazione di tipi di pubblico
 
