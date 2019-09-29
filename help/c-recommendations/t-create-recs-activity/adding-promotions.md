@@ -1,8 +1,8 @@
 ---
 description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni dei consigli. Puoi aggiungere promozioni statiche e dinamiche.
 keywords: Promozioni;promozioni prima;promozioni dopo;tipo di promozioni
-seo-description: Aggiungete elementi promossi e controllatene il posizionamento nelle progettazioni di Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
-seo-title: Aggiungete promozioni nelle progettazioni di Adobe Target.
+seo-description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni di Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
+seo-title: Aggiungi promozioni alle progettazioni di Adobe Target Recommendations.
 solution: Target
 title: Aggiungere promozioni
 title-outputclass: premium
@@ -25,9 +25,9 @@ Aggiungi articoli in promozione e controllane il posizionamento nelle progettazi
 
 Quando si crea un’attività di [!DNL Recommendations], è possibile includere gli elementi promossi nel progetto di [!DNL Recommendations]. Le promozioni utilizzano gli slot disponibili in una progettazione e hanno la precedenza sui risultati dei criteri e sui consigli di backup. Ad esempio, se il progetto dispone di sei slot e ne utilizzi due per le promozioni, sono disponibili quattro slot per gli articoli consigliati in base ai criteri.
 
-Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri per l'attività, pertanto un dato elemento non verrà visualizzato due volte in una singola vassoio delle raccomandazioni.
+Le promozioni vengono deduplicate rispetto agli articoli consigliati dai criteri per l’attività, in modo che un dato articola non venga visualizzato due volte in una singola barra di consigli.
 
-È possibile promuovere elementi specifici, promuovere dinamicamente gli elementi, promuovere gli elementi in base agli attributi o promuoverne gli insiemi.
+È possibile promuovere articoli specifici, promuovere gli articoli dinamicamente, promuoverli in base agli attributi o promuovere delle raccolte.
 
 ![](assets/add_promotion_toggles.png)
 
@@ -35,26 +35,26 @@ Le promozioni vengono deduplicate rispetto agli elementi consigliati dai criteri
 >
 >Utilizzando le promozioni cambiano la struttura e l’output CSV. Queste modifiche potrebbero avere un impatto su tutti i processi esterni che coinvolgono CSV, ad esempio le e-mail.
 
-1. On the **[!UICONTROL Options]** page, click the **[!UICONTROL Front Promotion]** or **[!UICONTROL Back Promotion]** toggle.
+1. Nella pagina **[!UICONTROL Opzioni]**, scegli tra le opzioni **[!UICONTROL Promozione prima]** o **[!UICONTROL Promozione dopo]**.
 
-   The following illustration shows the [!UICONTROL Front Promotion] toggle in the "On" position.
+   L’illustrazione seguente mostra l’opzione [!UICONTROL Promozione prima] attivata.
 
-   ![Opzioni di promozione Aggiungi](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
+   ![Selezionare l’opzione Promozione prima](/help/c-recommendations/t-create-recs-activity/assets/add_promotion_front.png)
 
    È possibile inserire promozioni sia prima *sia* dopo i risultati dei criteri.
 1. Impostare il numero di slot di progettazione da utilizzare per gli elementi promossi.
 
    È possibile utilizzare fino a 20 slot, a seconda del progetto di [!DNL Recommendations]. Ogni slot utilizzato diventa non disponibile per i consigli restituiti in base ai criteri.
 
-1. Imposta una data di inizio e una data di fine per gli elementi promossi.
+1. Imposta una data di inizio e una data di fine per gli articoli promossi.
 
-   Se non impostate una data di inizio, la promozione inizia immediatamente. Se non impostate una data di fine, la promozione viene eseguita indefinitamente.
+   Se non si imposta una data di inizio, la promozione inizia immediatamente. Se non si imposta una data di fine la promozione viene eseguita indefinitamente.
 
 1. Seleziona un **[!UICONTROL Tipo di promozione]**.
 
-   * Seleziona **[!UICONTROL Elenco di voci]** e immetti i valori `entity.id`, separati da virgole, degli elementi specifici che desideri promuovere.
+   * Seleziona **[!UICONTROL Elenco di voci]** e immetti i valori `entity.id`, separati da virgole, degli articoli specifici che desideri promuovere.
 
-      Se l'elenco include più elementi rispetto al numero di slot impostati per le promozioni, è possibile selezionare la casella **[!UICONTROL Ordine casuale degli articoli]per variare gli elementi promossi visualizzati nella progettazione.** Quando si sceglie questa opzione, Target seleziona in modo casuale il numero di elementi abilitati per le promozioni nel modello dall'intero set di promozioni per ogni visita.
+      Se l’elenco include più elementi rispetto al numero di slot impostati per le promozioni, è possibile selezionare la casella **[!UICONTROL Ordine elementi casuale]** per variare gli elementi promossi visualizzati nella progettazione. Con questa opzione, Target seleziona casualmente il numero di articoli abilitati per le promozioni nel modello dall’intero set di promozione per ogni visita.
 
    * Seleziona **[!UICONTROL Promuovi per attributo]** e aggiungi regole per definire gli attributi degli elementi che desideri promuovere.
 
