@@ -21,7 +21,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
 1. Specifica l’obiettivo dell’attività.
 1. Seleziona una [metrica di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924)
 
-   ![Seleziona metrica di successo](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
+   ![Selezionare una metrica di successo](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_metrics-new.png)
 
    Nella pagina [!UICONTROL Seleziona metriche] sono incluse le metriche di successo che si possono scegliere per l’attività. Le metriche di successo sono suddivise nelle seguenti categorie:
 
