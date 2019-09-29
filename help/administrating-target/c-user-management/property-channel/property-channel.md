@@ -18,7 +18,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Autorizzazioni per utenti Enterprise{#enterprise-user-permissions}
 
-Le autorizzazioni degli utenti Enterprise rappresentano un mezzo per amministrare formalmente l'accesso dell'utente a livello aziendale a Target. Aggiungete utenti a Target, assegnate autorizzazioni in base ai loro ruoli e create aree di lavoro per i team basati su diversi reparti, posizioni globali, canale e altri raggruppamenti logici. Potete assegnare agli utenti i ruoli di Observer, Editor o Approver.
+Le autorizzazioni degli utenti Enterprise rappresentano un mezzo per amministrare formalmente l’accesso degli utenti a Target a livello aziendale. Puoi aggiungere utenti a Target, assegnare le autorizzazioni in base ai loro ruoli e creare aree di lavoro per i team in base a reparto, posizione globale, canale e altri raggruppamenti logici. Puoi assegnare agli utenti i ruoli di Osservatore, Editor o Approvatore.
 
 ## Determinare se l’utente dispone dell’accesso alle autorizzazioni per gli utenti Enterprise
 
@@ -65,7 +65,7 @@ Nota: le aree di lavoro sono note come profili di prodotto in Adobe Admin Consol
 
 Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro per le pagine web, le proprietà o i siti europei e un’altra per le pagine web, le proprietà o i siti americani. Se fai parte di un’azienda multi-brand, potresti avere un’area di lavoro diversa per ciascuno dei marchi.
 
-Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all'interno di ogni area di lavoro.
+Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all’interno di ogni area di lavoro.
 
 Gli utenti possono avere visualizzazioni diverse di Adobe Target nelle varie aree di lavoro, in modo analogo a come gli utenti di Analytics hanno visualizzazioni diverse di Analytics nelle varie suite di rapporti.
 
@@ -107,7 +107,7 @@ Quando si crea una nuova attività, questa viene creata nell'area di lavoro attu
 
 Le informazioni seguenti spiegano il modo in cui le autorizzazioni sono state applicate in precedenza in [!DNL Target] e come vengono applicate utilizzando la funzionalità [!UICONTROL Proprietà] e [!UICONTROL Autorizzazioni].
 
-Con la nuova funzionalità [!UICONTROL Autorizzazioni] è possibile creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici che si applicano a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l'accesso alla visualizzazione, alla modifica e all'approvazione dei propri utenti in base all'area, all'ambiente (sviluppo, pre-produzione, produzione), al canale o ad altri criteri personalizzati.
+Con la nuova funzionalità [!UICONTROL Autorizzazioni] è possibile creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l'accesso alla visualizzazione, alla modifica e all'approvazione dei propri utenti in base all'area, all'ambiente (sviluppo, pre-produzione, produzione), al canale o ad altri criteri personalizzati.
 
 ![](assets/permissions.png)
 
@@ -235,7 +235,7 @@ Quando si usano o si configurano proprietà e autorizzazioni in Target Premium, 
 
 * Le risorse seguenti *non* fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Offerte immagini
+   * Offerte immagine
    * Tutte le risorse di Recommendations, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione Recommendations.
    * Le risorse esistenti (ad esempio attività, offerte di codice e gruppi di destinatari) create all'interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma saranno parte dell’Area di lavoro predefinita: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
