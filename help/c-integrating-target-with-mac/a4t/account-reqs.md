@@ -46,7 +46,7 @@ Completa le seguenti attività in [!DNL Adobe Analytics]:
 
 Prima di creare o visualizzare rapporti per un’attività basata su Analytics, devi essere membro del gruppo con **[!UICONTROL Accesso a tutti i rapporti]** o di un gruppo che abbia accesso ad almeno un rapporto nella suite di rapporti che desideri utilizzare. Se non riesci a visualizzare i rapporti, assicurati di essere un membro di uno di questi gruppi.
 
-For more information, see [Product profiles and groups](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+Per ulteriori informazioni, consulta Profili [di prodotto e gruppi](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Configurare l’accesso al gruppo con accesso ai servizi Web
 
