@@ -19,13 +19,13 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 
 Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 
-## Posso specificare un'esperienza specifica da usare come controllo?
+## Posso specificare un’esperienza particolare da usare come controllo?
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
 
-Questa funzione consente di indirizzare l'intero traffico di controllo a un'esperienza specifica, in base alla percentuale di allocazione del traffico configurata nell'attività. Potete quindi valutare i rapporti sulle prestazioni del traffico personalizzato contro il controllo del traffico verso quella singola esperienza.
+Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo.
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Come posso confrontare la Personalizzazione automatizzata con un’esperienza predefinita? {#section_46C1A620A2384C2C8392D6716DD18495}
 
@@ -41,11 +41,11 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
 * Assicurati di utilizzare il [Calcolatore del traffico](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per farti un’idea di quanto tempo ci vorrà per la generazione dei modelli di personalizzazione nell’attività di Personalizzazione automatizzata.
 * In base ai tuoi obiettivi, decidi la ripartizione tra controllo e destinazione prima di iniziare l’attività.
 
-   Esistono tre scenari da considerare in base all'obiettivo dell'attività e al tipo di controllo selezionato:
+   Esistono tre scenari da considerare in base all’obiettivo dell’attività e al tipo di controllo selezionato:
 
-   * **Le Esperienze casuali come vostro controllo e l'obiettivo dell'attività consistono nel testare l'efficacia dell'algoritmo di personalizzazione**: Se l'obiettivo è quello di valutare l'algoritmo di personalizzazione, potrete avere un'immagine più precisa dell'incremento. È inoltre utile confrontare il tasso di conversione per esperienze/offerte se si esegue semplicemente un test A/B (un controllo a caso). In tal caso, si consiglia di utilizzare una allocazione del 50% per un controllo sulle esperienze fornite in modo casuale.
-   * **«Esperienze casuali» come vostro controllo e l'obiettivo dell'attività consiste nel massimizzare il traffico personalizzato**: Se siete a conoscenza dell'algoritmo e desiderate avere la quantità massima di traffico personalizzata, è consigliabile effettuare un'allocazione da 10% a 30%. Il compromesso è l'accuratezza che sarà possibile visualizzare nelle informazioni dell'incremento (in quanto gli intervalli di confidenza del traffico di controllo saranno più grandi, a causa del minor traffico verso i loro movimenti).
-   * **Esperienza specifica con un tipo di obiettivo**: Se desiderate confrontare un'esperienza specifica con gli esperti di marketing verso i modelli di personalizzazione, è consigliabile effettuare un'allocazione da 10% a 30% per il controllo. Quando selezionate un'unica esperienza come controllo, il traffico non viene distribuito su ogni offerta/esperienza nell'attività.
+   * **Controllo: esperienze casuali; obiettivo dell’attività: testare l’efficacia dell’algoritmo di personalizzazione**: se l’obiettivo è quello di valutare l’algoritmo di personalizzazione, è necessaria un’immagine più precisa dell’incremento. Inoltre, vorrai probabilmente un confronto con il tasso di conversione per esperienze/offerte rispetto a un semplice test A/B (controllo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
+   * **Controllo: esperienze casuali; obiettivo dell’attività: massimizzare il traffico personalizzato**: se l’algoritmo va bene e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. In questo caso tuttavia le informazioni sull’incremento saranno meno precise, dato che gli intervalli di affidabilità del traffico di controllo saranno maggiori a causa del minor traffico veicolato verso le esperienze di controllo.
+   * **Controllo: esperienza specifica; entrambi i tipi di obiettivo**: se desideri confrontare con i modelli di personalizzazione un’esperienza specifica definita dagli esperti di marketing, si consiglia di allocare al controllo dal 10% al 30% del traffico. Quando selezioni una sola esperienza come controllo, tale traffico non viene distribuito su ogni offerta/esperienza nell’attività.
 
 * Le regole di targeting devono essere utilizzate con la massima parsimonia possibile perché possono interferire con la capacità di ottimizzazione del modello.
 * I gruppi di reporting possono limitare il successo dell’attività di Personalizzazione automatizzata. Devono quindi essere utilizzati solo in condizioni specifiche.
@@ -102,8 +102,8 @@ Puoi iniziare a esaminare i risultati dell’attività di Personalizzazione auto
 Esamina l’impostazione dell’attività e verifica se ci sono modifiche che intendi apportare per migliorare la velocità con cui i modelli vengono generati.
 
 * La metrica del successo è molto in basso nel funnel di vendita dalle esperienze dell’attività? Con un tasso di conversione basso, la generazione dei modelli richiederà più traffico poiché è necessario un numero minimo di conversioni.
-* Se la metrica di successo è impostata su RPV, puoi modificare la conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli.
-* Puoi eliminare alcune esperienze dalla tua attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
+* Se la metrica di successo è impostata su RPV, è possibile modificare la conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli.
+* È possibile eliminare alcune esperienze dall’attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
 * Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiori sono il traffico e le conversioni nelle posizioni dell’attività, più rapidamente verranno generati i modelli.
 
 ## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
