@@ -1,7 +1,7 @@
 ---
 description: I feed consentono di importare le entità nei Consigli. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
-keywords: feed consigli;feed;SAINT;ftp;csv; classificazioni; classificazioni di analisi
-seo-description: Utilizzate i feed per importare le entità importate in Adobe Recommendations. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
+keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni di anaylitcs
+seo-description: I feed consentono di importare le entità in Adobe Recommendations. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
 seo-title: Feed
 solution: Target
 title: Feed
@@ -17,28 +17,28 @@ source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
 
 # ![PREMIUM](/help/assets/premium.png) Feed{#feeds}
 
-Use feeds to get entities imported into [!DNL Recommendations]. Le entità possono essere inviate utilizzando file CSV, il formato di feed Google Product Search e classificazioni di prodotto Adobe Analytics.
+I feed consentono di importare le entità in [!DNL Recommendations]. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e le classificazioni di prodotto Adobe Analytics.
 
 ## Panoramica dei feed {#concept_D1E9C7347C5D4583AA69B02E79607890}
 
 I feed consentono di trasmettere le [Entità](/help/c-recommendations/c-products/products.md) o di implementare i dati mbox con informazioni non disponibili nella pagina o per le quali l’invio diretto dalla pagina non è sicuro, ad esempio margine, costo del venduto e così via.
 
-You can select which columns from your [!DNL Target] product classifications file or Google Product Search file you want to send to the [!DNL Recommendations] server. Questi dati su ciascun elemento possono quindi essere utilizzati nella visualizzazione modello e per il controllo dei consigli.
+Dal file di classificazioni di prodotto di [!DNL Target] o da quello di Google Product Search puoi selezionare le colonne che desideri inviare al server di [!DNL Recommendations]. Questi dati su ciascun elemento possono quindi essere utilizzati nella visualizzazione modello e per il controllo dei consigli.
 
 Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
 
 Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]** &gt; **[!UICONTROL Feed]**, sono incluse informazioni su eventuali feed creati.
 
-![Feed, pagina](/help/c-recommendations/c-products/assets/feeds-page.png)
+![Pagina Feed](/help/c-recommendations/c-products/assets/feeds-page.png)
 
-La pagina Feeds (Feed) contiene le colonne seguenti:
+La pagina Feed contiene le colonne seguenti:
 
-* **Nome**: Nome del feed specificato durante la creazione. Per modificare il nome di un feed, dovrai modificare il feed stesso. Quando si salva con il nuovo nome, il feed viene aggiornato.
-* **Tipo**: I tipi includono [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Google Product Feed](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF)e Classificazioni [Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
-* **Stato**: Lo stato corrente [del feed](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0).
-* **Pianificazione**: Visualizza la pianificazione di aggiornamento per il feed: Giornaliero, Settimanale, Ogni 2 settimane o Mai.
-* **Elementi**: Visualizza il numero di elementi nel feed.
-* **Ultimo aggiornamento**: Visualizza la data e l'ora dell'ultimo aggiornamento del feed e il nome della persona che ha aggiornato il feed. If the [!UICONTROL Last Updated] feed says "undefined," the feed is coming in from [!DNL Recommendations Classic] and cannot be changed from within [!DNL Target Premium Recommendations].
+* **Nome**: nome del feed specificato durante la creazione. Per modificare il nome di un feed, dovrai modificare il feed stesso. Quando si salva con il nuovo nome, il feed viene aggiornato.
+* **Tipo**: i tipi includono [CSV](/help/c-recommendations/c-products/feeds.md#section_65CC1148C7DD448FB213FDF499D35FCA), [Feed di prodotto Google](/help/c-recommendations/c-products/feeds.md#section_8EFA98B5BC064140B3F74534AA93AFFF) e [Classificazioni Analytics](/help/c-recommendations/c-products/feeds.md#section_79E430D2C75443BEBC9AA0916A337E0A).
+* **Stato**: lo [stato](/help/c-recommendations/c-products/feeds.md#concept_E475986720D1400999868B3DFD14A7A0) corrente del feed.
+* **Pianificazione**: visualizza la pianificazione di aggiornamento del feed: Giornaliero, Settimanale, Ogni 2 settimane o Mai.
+* **Elementi**: visualizza il numero di elementi presenti nel feed.
+* **Ultimo aggiornamento**: visualizza la data e l’ora dell’ultimo aggiornamento del feed e il nome della persona che lo ha eseguito. Se per [!UICONTROL Ultimo aggiornamento] è riportata la dicitura “indefinito”, il feed proviene da [!DNL Recommendations Classic] e non può essere modificato in [!DNL Target Premium Recommendations].
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -52,11 +52,11 @@ L’utilizzo del formato .csv presenta i seguenti vantaggi rispetto al formato f
 
 Se sulla pagina non sono presenti mbox o se desideri completare le informazioni di visualizzazione con elementi non disponibili sul sito, utilizza il metodo di caricamento collettivo per inviare tali informazioni. Ad esempio, puoi inviare informazioni di inventario non pubblicate sul sito.
 
-Qualsiasi dato caricato utilizzando il file .csv, il feed di prodotto Google o il feed di classificazione di prodotto Analytics sovrascrive il valore dell’attributo dell’entità esistente nel nostro database. Se invii informazioni sul prezzo tramite richieste mbox e poi invii diversi valori prezzo nel file, questi valori sovrascrivono quelli impostati con la richiesta mbox. Fa eccezione l’attributo dell’entità `categoryId` dove i valori della categoria vengono aggiunti invece di essere sovrascritti fino al limite di 250 caratteri.
+I dati caricati dal file .csv, dal feed di prodotto Google o dal feed di classificazione di prodotto di Analytics sovrascrivono il valore dell’attributo dell’entità esistente nel nostro database. Se invii informazioni sul prezzo tramite richieste mbox e poi invii diversi valori prezzo nel file, questi valori sovrascrivono quelli impostati con la richiesta mbox. Fa eccezione l’attributo dell’entità `categoryId` dove i valori della categoria vengono aggiunti invece di essere sovrascritti fino al limite di 250 caratteri.
 
 >[!IMPORTANT]
 >
->Non racchiudere i valori tra virgolette doppie (") nel file. csv, a meno che non siano intenzionalmente intenzionali. Se racchiudi i valori tra virgolette doppie, dovrai racchiuderli in una seconda serie di virgolette. Le virgolette doppie non vengono evitate in modo da impedire il corretto caricamento del feed delle raccomandazioni.
+>Non racchiudere i valori tra virgolette doppie (") nel file .csv, a meno che queste non siano intenzionali. Se racchiudi i valori tra virgolette doppie, dovrai racchiuderli in una seconda serie di virgolette. In caso contrario, il feed dei consigli non verrà caricato correttamente.
 
 Ad esempio, la sintassi seguente non è corretta:
 
@@ -94,7 +94,7 @@ na3457,RipCurl Watch with Black Dial,Watches & Sport,Cutting edge matte black wi
 
 Il tipo di feed di Google Product Search utilizza il formato di Google. Questo è diverso dal formato di upload CSV di Adobe.
 
-Se hai un feed prodotto Google esistente, puoi usarlo come file di importazione.
+Se disponi di un feed di prodotto Google, puoi utilizzarlo come file di importazione.
 
 >[!NOTE]
 >
@@ -199,7 +199,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 >
 > In particolare, tieni conto dei seguenti aspetti:
 >* Gli aggiornamenti agli attributi di entità subiscono un ritardo aggiuntivo fino a 24 ore.
->* Target supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello di `entity.id` di Consigli. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
+>* Target supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello di `entity.id` della funzione Consigli. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
 ## Creazione di un feed {#steps}
@@ -208,30 +208,30 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. Nell’interfaccia di Target, fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Feed]** &gt; **[!UICONTROL Crea feed]**.
 
-   ![Crea feed, finestra di dialogo](assets/CreateFeed.png)
+   ![Finestra di dialogo Crea feed](assets/CreateFeed.png)
 
 1. Specifica un nome descrittivo per il feed.
 1. Seleziona il **[!UICONTROL tipo di origine]**.
 
    * CSV
-   * Feed prodotto Google
-   * Classificazioni di Analytics
-   Per informazioni sui tipi di feed dei feed di prodotto CSV e Google Product Feed, consultate [Feed Overview](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890)(Feed di feed). [Puoi anche scaricare una guida](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) CSV modello per aiutarti a formattare correttamente il feed.
+   * Feed di prodotto Google
+   * Classificazioni Analytics
+   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
-   * **FTP**: Se hai selezionato FTP, fornisci le informazioni sul server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare l’FTP con SSL (FTPS).
+   * **FTP**: se hai selezionato FTP, indica le informazioni relative al server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare il protocollo FTP con SSL (FTPS).
 
-      Impostazioni server FTP supportate:
+      Impostazioni del server FTP supportate:
 
-      * FTP e FTPS devono essere impostati per utilizzare l'FTP passivo.
-      * Per FTPS, configurare il server per accettare connessioni FTPS esplicite.
+      * FTP e FTPS devono essere impostati per FTP passivo.
+      * Per FTPS, configura il server per l’accettazione di connessioni FTPS esplicite.
       * SFTP non è supportato.
-      * Potete specificare manualmente una porta su cui avviare la connessione (ad es. `ftp://ftp.yoursite.com:2121`). Se non specificate una porta, viene usata la porta FTP o FTPS predefinita.
-   * **URL**: Se selezionate URL, specificate l'URL.
+      * Puoi specificare manualmente una porta su cui avviare la connessione (ad esempio, `ftp://ftp.yoursite.com:2121`). Se non specifichi una porta, viene usata la porta FTP o FTPS predefinita.
+   * **URL**: se selezioni la voce URL, specifica l’URL.
 
 
-1. (Condizionale) Se selezionate **[!UICONTROL Classificazioni Analytics]**, scegliete la suite di rapporti dall'elenco a discesa.
+1. (Condizionale) Se hai selezionato **[!UICONTROL Classificazioni Analytics]**, scegli la suite di rapporti dal relativo elenco a discesa.
 
 1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Pianificazione].
 
@@ -242,7 +242,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Giornaliero
    * Settimanale
    * Ogni 2 settimane
-   * Mai: Non pianificate un aggiornamento. Scegli questa opzione se non desideri eseguire il feed.
+   * Mai: non pianificare un aggiornamento. Scegli questa opzione se non desideri eseguire il feed.
 
 1. Specifica l’ora in cui desideri eseguire il feed.
 
@@ -254,7 +254,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. (Facoltativo) Se desideri che il feed appartenga a un ambiente (gruppo di host), seleziona il gruppo di host.
 
-   Per impostazione predefinita, il feed appartiene a tutti i gruppi di host. Ciò garantisce la disponibilità degli elementi contenuti in questo feed in qualsiasi ambiente. Per ulteriori informazioni, consulta [Host](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   Per impostazione predefinita, il feed appartiene a tutti i gruppi di host. Gli elementi contenuti in questo feed saranno quindi sempre disponibili, in qualsiasi ambiente. Per ulteriori informazioni, consulta [Host](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -281,7 +281,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Attesa del download | Target si sta preparando per il download del file di feed. |
 | Download del file di feed | Target sta eseguendo il download del file di feed. |
 | Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. |
-| Feed importato *con successo* | Target ha importato il file di feed nel relativo sistema di distribuzione dei contenuti. Sono state apportate modifiche agli attributi degli elementi nel sistema di distribuzione dei contenuti e presto si rifletterà nelle raccomandazioni fornite. In caso contrario, riprovate a breve e aggiornate la pagina contenente le raccomandazioni.<br>*Nota 1:* Se le modifiche agli attributi di un elemento determinano l'esclusione di un elemento dalle raccomandazioni, l'esclusione viene riflessa immediatamente. Se un elemento viene aggiunto di recente, o le modifiche agli attributi provocano la *mancata* esclusione di un elemento dalle raccomandazioni, essa non viene riflessa fino all'aggiornamento successivo dell'algoritmo, che si verifica entro 24 ore.<br>*Nota 2:* Quando viene visualizzato questo stato, gli aggiornamenti potrebbero non essere ancora riflessi nell'interfaccia utente di ricerca catalogo. Nella ricerca catalogo viene visualizzato uno stato separato che indica l'ultima volta che è stato aggiornato il catalogo ricercabile. |
+| Feed importato correttamente alle *ora* | Target ha importato il file di feed nel suo sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno visibili nei consigli distribuiti. Qualora non lo fossero, riprova più tardi e aggiorna la pagina contenente i consigli.<br>*Nota 1:* se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, tale esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento *non viene più* escluso dai consigli, questo verrà applicato al successivo aggiornamento dell’algoritmo, che si verifica entro 24 ore.<br>*Nota 2:* quando viene visualizzato questo stato, è possibile che gli aggiornamenti non risultino ancora visibili nell’interfaccia utente di Ricerca nel catalogo. In Ricerca nel catalogo viene visualizzato uno stato separato che indica quando è avvenuto l’ultimo aggiornamento del catalogo ricercabile. |
 | Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
@@ -323,7 +323,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Informazioni sui feed in Recommendations (3:01)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Comprendere lo scopo dei feed
 * Comprendere il valore dei feed
@@ -332,9 +332,9 @@ Questo video contiene le informazioni seguenti:
 
 ### Creare un feed (6:44)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
-* Configurare un feed
-* Sapere quale tipo di feed usare
+* Impostare un feed
+* Quale tipo di feed usare
 
 >[!VIDEO](https://video.tv.adobe.com/v/27696?captions=ita)
