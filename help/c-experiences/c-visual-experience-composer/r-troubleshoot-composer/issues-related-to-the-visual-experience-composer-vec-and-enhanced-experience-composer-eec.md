@@ -16,11 +16,11 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
 
-## Target supporta iframe a più livelli?
+## Target supporta gli iframe a più livelli?
 
-Target non supporta iframe a più livelli. Se il sito Web carica un iframe con un iframe secondario, le librerie Target (in. js e mbox. js) interagiscono solo con l'iframe principale. Le librerie di destinazione non interagiscono con l'iframe secondario.
+Target non supporta gli iframe a più livelli. Se il sito web carica un iframe contenente un iframe secondario, le librerie di Target (at.js e mbox.js) interagiscono solo con l’iframe principale. Le librerie di Target non interagiscono con l’iframe secondario.
 
-Come soluzione alternativa, potete aggiungere una pagina nell'esperienza con l'URL dell'iframe secondario.
+Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’URL dell’iframe secondario.
 
 ## Quando si tenta di modificare una pagina, compare solo un’icona che ruota anziché la pagina. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_313001039F79446DB28C70D932AF5F58}
 
