@@ -1,10 +1,10 @@
 ---
-description: mbox 3 rdpartyid è l'ID visitatore della tua società, ad esempio l'ID di iscrizione per il programma fedeltà della tua azienda.
-keywords: mbox; mbox 3 rdpartyid; sincronizzazione profilo; sincronizzazione profilo; PCID
+description: L’ID mbox3rdPartyId l’ID visitatore della tua azienda, ad esempio l’D di registrazione al programma fedeltà.
+keywords: mbox;mbox3rdPartyId;sincronizzazione profilo;sincronizzare profilo;PCID
 seo-description: 'Informazioni sul profilo in tempo reale '
-seo-title: Sincronizzazione profilo in tempo reale per mbox 3 rdpartyid in Adobe Target
+seo-title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyId in Adobe Target
 solution: Target
-title: Sincronizzazione profilo in tempo reale per mbox 3 rdpartyid
+title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyId
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
@@ -13,17 +13,17 @@ source-git-commit: f54dba622e449fb8dac44cb37ff711419f8eda4b
 ---
 
 
-# Real-time profile syncing for mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Sincronizzazione dei profili in tempo reale per mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
 
-mbox 3 rdpartyid è l'ID visitatore della tua società, ad esempio l'ID di iscrizione per il programma fedeltà della tua azienda.
+L’ID mbox3rdPartyId l’ID visitatore della tua azienda, ad esempio l’D di registrazione al programma fedeltà.
 
 Quando si accede al sito di una società, l’azienda generalmente crea un ID associato all’account del visitatore, alla carta fedeltà, al numero di iscrizione o ad altri identificatori validi per tale società.
 
-When a visitor accesses a page on which [!DNL Target] is enabled, that visitor is assigned a [!DNL Target] PCID. If the visitor then logs in, and the implementation passes the mbox3rdPartyId to [!DNL Target], [!DNL Target] connects that visitor's mbox3rdPartyId with the [!DNL Target] PCID.
+Quando un visitatore accede a una pagina sulla quale è abilitato [!DNL Target], a tale visitatore viene assegnato un PCID di [!DNL Target]. Se il visitatore effettua l’accesso e l’implementazione passa il codice mbox3rdPartyId a [!DNL Target], [!DNL Target] collegata l’ID mbox3rdPartyId del visitatore con il PCID di [!DNL Target].
 
-A intervalli regolari (da tre a cinque minuti), gli aggiornamenti vengono sincronizzati con il database. Quando il visitatore viene disconnesso, i dati uniti sostituiscono i dati precedenti associati alla mbox 3 rdpartyid, creando un record più completo delle azioni del visitatore. Se lo stesso attributo esiste in entrambi gli ID—ad esempio, il PCID dispone di categoria = hats e mbox 3 rdpartyid ha categoria = skis, oppure se il visitatore ha visto l'esperienza A prima di effettuare l'accesso, ma l'esperienza B è memorizzata nella mbox 3 rdpartyid—l'attributo memorizzato nella mbox 3 rdpartyid sovrascrive l'attributo dal PCID. Se il visitatore si trovava in un'attività o in un'esperienza prima di effettuare l'accesso, ma un'attività e un'esperienza diverse sono memorizzate nella mbox 3 rdpartyid, dopo l'accesso in quel visitatore viene inserita nell'attività e nell'esperienza mbox 3 rdpartyid.
+A intervalli regolari (da tre a cinque minuti), gli aggiornamenti vengono sincronizzati con il database. Quando il visitatore si disconnette, i dati uniti sostituiscono quelli precedenti associati all’ID mbox3rdPartyId, creando un record più completo delle azioni del visitatore. Se lo stesso attributo esiste in entrambi gli ID (per esempio, l’ID PCID ha category=hats e l’ID mbox3rdPartyId ha category=skis, oppure se il visitatore ha visualizzato l’esperienza A prima di effettuare l’accesso, ma l’esperienza B è memorizzata in mbox3rdPartyId) l’attributo memorizzato nell’ID mbox3rdPartyId sovrascrive quello proveniente da PCID. Se il visitatore si trovava in un’attività o esperienza prima di effettuare l’accesso, ma l’attività e l’esperienza memorizzate in mbox3rdPartyId risultano diverse, dopo l’accesso tale visitatore viene inserito nell’attività ed esperienza di mbox3rdPartyId.
 
-| PCID (non connesso) | mbox 3 rdpartyid (accesso effettuato) | Unito e salvato in mbox 3 rdpartyid |
+| PCID (non connesso) | mbox3rdPartyId (connesso) | Uniti e salvati in mbox3rdPartyId  |
 |---|---|---|
 | category=hats | category=skis | category=skis |
 |  | store=94103 | store=94103 |
@@ -34,10 +34,10 @@ Quando il visitatore si disconnette, il profilo unito viene mantenuto.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] gli obiettivi non vengono tracciati nei casi in cui l' [!DNL Adobe Experience Cloud] ID (MID) cambia (ad esempio, il visitatore cambia dispositivo), anche se [!DNL Target] il profilo potrebbe essere unito in base a mbox 3 rdpartyid e con informazioni sull'attività. Per i visitatori identificati con lo stesso MID (che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) funziona come previsto.
+>Gli obiettivi di [!DNL Adobe Analytics] non vengono tracciati nei casi in cui l’ID di [!DNL Adobe Experience Cloud] (MID) cambia (ad esempio, il visitatore cambia dispositivo), anche se il profilo [!DNL Target] potrebbe essere unito in base al valore mbox3rdPartyId e contiene ancora informazioni sull’attività. Per i visitatori identificati con lo stesso MID (che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) funziona come previsto.
 
 ## Considerazioni {#considerations}
 
-Se la pagina contiene diverse mbox e solo alcune di esse utilizzate 3 rdpartyid, Target non ha un profilo/contesto visitatore separato per ogni richiesta visitatore. Il contesto 3 rdpartyid ha priorità rispetto al contesto PCID. È sufficiente per passare 3 rdpartyid perché il suo contesto abbia priorità rispetto al PCID.
+Se la pagina contiene più mbox e solo alcune di esse utilizzano 3rdPartyID, Target non ha un profilo/contesto visitatore separato per ogni richiesta visitatore. Il contesto 3rdPartyID ha priorità rispetto al contesto PCID. È sufficiente che una mbox passi un 3rdPartyID affinché il suo contesto abbia priorità rispetto al PCID.
 
-Ad esempio, se un visitatore accede a una pagina prima di accedere e visualizzare un'esperienza. La mbox globale non utilizza 3 rdpartyid. Dopo l'accesso, il visitatore visualizza una delle tre esperienze con mbox secondarie, alcune delle quali usano 3 rdpartyid. Il visitatore visita diverse pagine sul sito, quindi utilizza il pulsante Indietro per tornare alla pagina principale a cui accede prima di accedere e visualizzare un'esperienza diversa. In questo scenario, la mbox globale non passa 3 rdpartyid, ma una o più mbox secondarie hanno fatto. 3 Rdpartyid ha avuto priorità rispetto al PCID.
+Ad esempio, se un visitatore accede a una pagina prima di accedere e visualizza un’esperienza, la mbox globale non utilizza 3rdPartyID. Dopo che avrà eseguito l’accesso, il visitatore visualizza una di tre esperienze con mbox secondarie, alcune delle quali usano 3rdPartyID. Il visitatore visita diverse pagine sul sito, quindi utilizza il pulsante Indietro per tornare alla pagina principale che aveva visitato prima di eseguire l’accesso, e visualizza un’esperienza diversa. In questo scenario, la mbox globale non passa 3rdPartyID, che era invece stato passato da una o più delle mbox secondarie. 3rdPartyID ha quindi precedenza rispetto a PCID.
