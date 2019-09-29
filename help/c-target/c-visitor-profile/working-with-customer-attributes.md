@@ -126,7 +126,7 @@ Se utilizzi il servizio Experience Cloud ID, devi impostare un ID cliente e uno 
 
 Per ulteriori informazioni sull'utilizzo degli attributi del cliente in [!DNL Target], consulta le risorse seguenti:
 
-* [Creare un'origine attributo del cliente e caricare il file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) di dati nella Guida utente di *Core Services*
+* Create a customer attribute source and upload the data file in the Core Services User Guide[](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)**
 * [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) (Attributi del cliente: più si conoscono, meglio ci si connette) nel *Digital Marketing Blog*
 
 ## Problemi incontrati frequentemente dai clienti {#section_BE0F70E563F64294B17087DE2BC1E74C}
