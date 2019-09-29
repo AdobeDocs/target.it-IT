@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Adobe Target si integra con le tue pagine web tramite la libreria JavaScript at.js o mbox.js.
 
-In [!DNL Target Classic] sono utilizzate mbox intorno a ogni area nella pagina in cui visualizzare contenuto con targeting o raccogliere dati. Queste mbox non sono necessarie in [!DNL Target Standard]. Una libreria JavaScript a cui fare riferimento in ogni pagina è tutto ciò che serve per eseguire le attività di ottimizzazione.
+In [!DNL Target Classic] sono utilizzate mbox intorno a ogni area nella pagina in cui visualizzare contenuto con targeting o raccogliere dati. Queste mbox non sono necessarie in [!DNL Target Standard]. Per eseguire le attività di ottimizzazione serve solo una libreria JavaScript a cui fare riferimento in ogni pagina.
 
 Ogni volta che un visitatore richiede una pagina su cui è abilitato [!DNL Target], questo utilizza il processo seguente per distribuire le offerte:
 
