@@ -1,7 +1,7 @@
 ---
-description: Utilizzate i tipi di pubblico per eseguire il targeting degli utenti in base alla loro posizione geografica, incluso il paese, lo stato/provincia, la città, il codice postale, il DMA o il gestore di dispositivi mobili.
+description: Utilizza i tipi di pubblico per indirizzare l’attività a specifici utenti in base alla loro posizione geografica, compreso paese, stato/provincia, città, CAP, DMA o gestore mobile.
 keywords: targeting;a4t;geo;geotargeting;precisione geotargeting;paese;stato;città;codice postale;DMA;gestore telefonia mobile;codici città;codici area geografica;codici paese;codici metropolitana;script profilo;script profilo geotargeting;geotargeting mobile
-seo-description: Utilizzate i tipi di pubblico di Adobe Target per eseguire il targeting degli utenti in base alla loro posizione geografica, incluso il paese, lo stato/provincia, la città, il codice postale, il DMA o il gestore di dispositivi mobili.
+seo-description: Utilizza i tipi di pubblico di Adobe Target per indirizzare l’attività a specifici utenti in base alla loro posizione geografica, compreso paese, stato/provincia, città, CAP, DMA o gestore mobile.
 seo-title: Geo
 solution: Target,Analytics
 title: Geo targeting in Adobe Target
@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Geo{#geo}
 
-Utilizzate i tipi di pubblico per eseguire il targeting degli utenti in base alla loro posizione geografica, incluso il paese, lo stato/provincia, la città, il codice postale, il DMA o il gestore di dispositivi mobili.
+Utilizza i tipi di pubblico per indirizzare l’attività a specifici utenti in base alla loro posizione geografica, compreso paese, stato/provincia, città, CAP, DMA o gestore mobile.
 
-I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al paese, allo stato/provincia, alla città, al codice postale, alla latitudine, alla longitudine o al gestore di dispositivi mobili. Questi dati vengono inviati con ogni richiesta di Target e si basano sull'indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
+I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al relativo paese, Stato/provincia, città, codice postale, latitudine, longitudine, DMA o gestore di telefonia mobile. Questi dati vengono inviati con ogni richiesta di Target e si basano sull’indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
 
 ## Creare un pubblico con il geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -39,17 +39,17 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
 
    Per il gestore di telefonia mobile, in [!DNL Target] vengono utilizzati i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando i [codici nazionali (MCC, Mobile Country Code) e i codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
 
-1. Specificare un operatore e il valore appropriato.
+1. Specifica un operatore e il valore appropriato.
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-L'illustrazione seguente mostra un pubblico che esegue l'accesso all'attività da una latitudine maggiore di 44 gradi e una longitudine minore di 22 gradi.
+L’illustrazione seguente mostra un pubblico che include gli utenti che accedono all’attività da una latitudine maggiore di 44° e una longitudine minore di 22°.
 
 ![](assets/target_geo.png)
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. When the visitor is using a cellular data connection, the accuracy of the geo-lookup can be affected by location, the provider's data relationship with [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), and other factors. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l'indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l'indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
@@ -130,7 +130,7 @@ A causa del modo in cui il traffico viene mascherato da AOL, possiamo eseguire i
 * DMA/ITV (Regno Unito): Stati Uniti, Regno Unito
 * Gestore di telefonia mobile: globale
 
-**Come posso provare le mie attività come se fossero un utente proveniente da un'altra posizione?**
+**Come posso testare le mie attività simulando di essere un utente proveniente da una posizione diversa?**
 
 È possibile sovrascrivere l’indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il parametro `mboxOverride.browserIp url`. Quindi, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Aukland in Nuova Zelanda, utilizza lo stile di URL proposto di seguito supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
 
