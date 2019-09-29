@@ -15,9 +15,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # ![PREMIUM](/help/assets/premium.png) Targeting delle offerte di Personalizzazione automatizzata{#target-automated-personalization-offers}
 
-In un'attività di Automated Personalization (Personalizzazione automatizzata), potete eseguire il targeting delle offerte per audience specifiche.
+In un’attività di Personalizzazione automatizzata è possibile indirizzare le offerte a tipi di pubblico specifici.
 
-Questa funzionalità riduce il numero di offerte che un visitatore specifico è qualificato per vedere. Ad esempio, considerate un'attività AP con tre offerte. Offerta 1 ha una regola di targeting che limita l'esposizione all'Audience A. Due visitatori hanno visto questa attività AP.
+Questa funzionalità riduce il numero di offerte per le quali un dato visitatore risulta idoneo (qualificato). Ad esempio, considera un’attività di Personalizzazione automatizzata con tre offerte. L’offerta 1 ha una regola di targeting che ne limita l’esposizione al solo Pubblico A. Due visitatori hanno visto questa attività.
 
 |  | Visitatore 1 | Visitatore 2 |
 |--- |--- |--- |
@@ -28,26 +28,26 @@ Questa funzionalità riduce il numero di offerte che un visitatore specifico è 
 
 In questo scenario, il visitatore 1 vede l'offerta 1 (perché ha diritto all'ambito del pubblico A), che è il punteggio più elevato del visitatore. Tuttavia, il visitatore 2 vede l'offerta 2 anche se il suo punteggio più elevato è per l'offerta 1, perché il visitatore 2 non fa parte del pubblico A. Questo esempio dimostra perché le regole di targeting dovrebbero essere utilizzate con moderazione per soddisfare le esigenze aziendali. L'aggiunta di queste regole può ridurre l'efficacia dei modelli di personalizzazione di Target.
 
-## Configurare le regole di targeting
+## Impostare le regole di targeting
 
-1. Create an [Automated Personalization activity](/help/c-activities/t-automated-personalization/create-ap-activity.md) containing the offers you want to target.
-1. After setting up the offers for the activity in the Visual Experience Composer, click **[!UICONTROL Manage Content]**.
+1. Creare un’[attività di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md) contenente le offerte sulle quali desideri eseguire il targeting.
+1. Dopo aver impostato le offerte per l’attività nel Compositore esperienza visivo, fai clic su **[!UICONTROL Gestione contenuto]**.
 
-   ![Gestire il contenuto](/help/c-activities/t-automated-personalization/assets/manage-content.png)
+   ![Gestione contenuto](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
    Viene visualizzata la finestra di dialogo Gestione contenuto.
 
-1. Fate clic sulla scheda Offerte.
+1. Fai clic sulla scheda Offerte.
 
-   ![Offerte, pagina](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
+   ![Pagina Offerte](/help/c-activities/t-automated-personalization/assets/manage-content-offers.png)
 
-1. Selezionate le offerte desiderate e scegliete le audience da qualificare per visualizzare l'offerta.
+1. Seleziona le offerte desiderate e scegli i tipi di pubblico che dovranno visualizzare l’offerta.
 
-   To set up targeting for a single offer, hover over the desired offer, then click the **[!UICONTORL Targeting]** icon.
+   Per impostare il targeting per una singola offerta, passa il cursore sull’offerta desiderata e fai clic sull’icona **[!UICONTORL Targeting]**.
 
-   To set up targeting for multiple offers, select the checkboxes for the desired offers, then click the **[!UICONTROL Targeting] icon that displays at the top right of the list.
+   Per impostare il targeting per più offerte, seleziona la casella di controllo di ciascuna offerta e fai clic sull’icona **[!UICONTROL Targeting] che viene visualizzata in alto a destra dell’elenco.
 
-1. In the [!UICONTROL Choose Audience] dialog box, select the desired audience(s) for the offer(s), then click **[!UICONTROL Done]** to return to the [!UICONTROL Manage Content] dialog box.
+1. Nella finestra di dialogo [!UICONTROL Scegli il pubblico], seleziona il pubblico desiderato per le offerte, quindi fai clic su **[!UICONTROL Fine]** per tornare alla finestra di dialogo [!UICONTROL Gestione contenuto].
 
    >[!NOTE]
    >
