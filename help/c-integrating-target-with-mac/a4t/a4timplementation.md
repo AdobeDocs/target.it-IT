@@ -41,7 +41,7 @@ Consulta [Implementazione del servizio Experience Cloud ID per Target](https://d
 
 Per le nuove implementazioni, consultate Panoramica [dell'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all'implementazione di* Analytics.
 
-Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all'implementazione di* Analytics.
+For a migration, see Migrating to AppMeasurement for JavaScript in the Analytics Implementation Guide.[](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)**
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
