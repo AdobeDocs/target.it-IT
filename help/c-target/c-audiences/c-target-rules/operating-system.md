@@ -29,7 +29,7 @@ Puoi indirizzare l’attività ai visitatori che utilizzano un determinato siste
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Le illustrazioni seguenti mostrano un pubblico che esegue il targeting dei visitatori utilizzando un sistema operativo Macintosh.
+Le illustrazioni seguenti mostrano un pubblico che include i visitatori che utilizzano un sistema MacOS.
 
 ![](assets/target_os.png)
 
