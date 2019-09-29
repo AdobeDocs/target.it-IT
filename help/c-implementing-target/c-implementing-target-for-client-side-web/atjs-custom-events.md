@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sugli eventi personalizzati per at.js. '
-keywords: eventi personalizzati;at.js;richiesta non riuscita;richiesta riuscita;rendering del contenuto non riuscito;rendering del contenuto completato;avvio della libreria;avvio della richiesta;inizio del rendering del contenuto;rendering del contenuto non disponibile;reindirizzamento del rendering del contenuto
+keywords: eventi personalizzati;at.js;richiesta non riuscita;richiesta riuscita;rendering contenuti non riuscito;rendering contenuti riuscito;libreria caricata;richiedi riavvio;inizio rendering contenuti;rendering contenuti senza offerte;reindirizzamento rendering contenuti
 seo-description: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
 seo-title: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
 solution: Target
@@ -49,6 +49,6 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 
 ## Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
-Guarda il video seguente per imparare ad utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo dal sistema Target a sistemi di terze parti.
+Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ita)
