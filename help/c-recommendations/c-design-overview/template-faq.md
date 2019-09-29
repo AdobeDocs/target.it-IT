@@ -19,15 +19,15 @@ source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
 
 Elenco delle domande frequenti sulla progettazione dei consigli.
 
-## Il prezzo dell'elemento consigliato non visualizza entrambi i valori a destra del punto decimale. Come è possibile visualizzarli?
+## Nel prezzo consigliato dell’articolo non vengono visualizzati i due valori a destra del punto decimale. Come è possibile visualizzarli?
 
-Per impostazione predefinita, i valori numerici (ad esempio `entity.value`) restituiti nei modelli di progettazione non visualizzano alcuno zeri finale dopo il separatore decimale. Ad esempio, se un elemento è $ 35.00, `entity.value` è uguale a 35 e solo 35 viene visualizzato sulla pagina, non $ 35.00.
+Per impostazione predefinita, i valori numerici (ad esempio `entity.value`) restituiti nei modelli di progettazione non presentano eventuali zeri finali dopo il separatore dei decimali. Ad esempio, se un articolo costa $35,00, `entity.value` è pari a 35 e sulla pagina viene visualizzato solo $35, e non $35,00.
 
 Per risolvere il problema sono disponibili due opzioni.
 
-* È possibile utilizzare script Velocity o Javascript per applicare la formattazione al valore restituito.
+* Puoi utilizzare uno script Velocity o JavaScript per applicare la formattazione al valore restituito.
 
-* Potete trasmettere il prezzo dell'elemento in due attributi Entity separati. La prima, `entity.value`può essere utilizzata per confronti numerici (come le regole di confronto dei prezzi). Il secondo deve essere un attributo personalizzato, ad esempio `entity.displayValue` che memorizza il valore dell'entità come stringa per consentire il rendering corretto.
+* Potete trasmettere il prezzo dell’articolo come due attributi di entità distinti. Il primo, `entity.value`, può essere utilizzato per confronti numerici (ad esempio per regole di confronto dei prezzi). Il secondo, può essere un attributo personalizzato, ad esempio `entity.displayValue`, in cui il valore dell’entità viene memorizzato come stringa per consentirne il rendering corretto.
 
    Ad esempio,
 
