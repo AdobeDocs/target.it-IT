@@ -1,8 +1,8 @@
 ---
-description: Creare audience per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
+description: Crea tipi di pubblico per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
-seo-description: Create audience in Adobe Target per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
-seo-title: Origine di traffico Target in Adobe Target
+seo-description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
+seo-title: Rivolgersi a specifiche origini di traffico in Adobe Target
 solution: Target
 title: Origini del traffico
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
@@ -14,9 +14,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Origini del traffico{#traffic-sources}
 
-Creare audience per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
+Crea tipi di pubblico per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 
-Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato, al motore di ricerca o alla pagina di destinazione di riferimento. La pagina di destinazione di provenienza è la pagina su cui ha fatto clic il visitatore per raggiungere il sito corrente. (For example, if the visitor clicked an ad on Google and it leads him or her to the `adobe.com` home page, the referring landing page is `google.com`.)
+Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato, al motore di ricerca o alla pagina di destinazione di riferimento. La pagina di destinazione di riferimento è quella in cui il visitatore ha fatto clic per raggiungere il sito corrente durante la sessione in corso. Ad esempio, se fai clic su un annuncio su Google che ti porta alla pagina Home di `adobe.com`, la pagina di destinazione di riferimento è `google.com`.
 
 Puoi combinare più origini di traffico per creare una regola di targeting complessa.
 
