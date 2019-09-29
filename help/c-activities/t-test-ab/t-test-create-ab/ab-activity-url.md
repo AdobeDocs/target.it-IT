@@ -23,13 +23,13 @@ Quando viene richiesto durante la creazione dell’attività, specifica l’URL 
 >
 >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `http://www.adobe.com`] e [!DNL `https://www.adobe.com`] sono entrambi validi.
 
-## Specificate un URL diverso
+## Specificare un URL diverso
 
-By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Target Account Preferences](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
+Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] apre la pagina specificata nelle [Preferenze account Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
 
 Per visualizzare una pagina diversa dopo l’apertura del [!UICONTROL Compositore esperienza visivo], fai clic sull’icona a forma di ingranaggio **[!UICONTROL Configura]**, quindi seleziona **[!UICONTROL Consegna pagine]**. Immetti l’URL nel campo URL attività.
 
-![Consegna pagina, finestra di dialogo](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
+![Finestra di dialogo Consegna pagine](/help/c-activities/t-test-ab/t-test-create-ab/assets/url-config-new.png)
 
 Fai clic su **[!UICONTROL Aggiungi regola modello]** per aggiungere più pagine o sezioni all’attività.
 
