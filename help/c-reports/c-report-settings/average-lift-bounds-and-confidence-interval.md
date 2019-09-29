@@ -38,7 +38,7 @@ Le informazioni sull’incremento nell’interfaccia utente di Target per la gen
 
 La figura seguente illustra i limiti di incremento e le informazioni sul livello di affidabilità:
 
-![Rapporto su incremento medio e livello di confidenza](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
+![Rapporto di incremento medio e livello di affidabilità](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
 ## Calcolo dei limiti di incremento {#section_1D360781D972483693680BE0F07AEAD1}
 
