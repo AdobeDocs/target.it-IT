@@ -1,7 +1,7 @@
 ---
 description: Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
 keywords: raccolta;Targeting
-seo-description: Una raccolta è un insieme di prodotti o elementi in Adobe Target idonei per una raccomandazione.
+seo-description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
 seo-title: Raccolte in Adobe Target
 solution: Target
 title: Raccolte
@@ -23,7 +23,7 @@ Solitamente, una raccolta è un insieme di elementi simili o correlati, come una
 
 Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un’area geografica ma non in un’altra, è possibile creare una raccolta che escluda gli elementi non disponibili nell’area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
 
-The [backup recommendations](/help/c-recommendations/c-algorithms/backup-recs.md) generated for each criteria within the recommendation also uses this collection, so only items in the collection are included in the backup recommendation. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
+Anche i [consigli di backup](/help/c-recommendations/c-algorithms/backup-recs.md) generati per ogni criterio all’interno del consiglio utilizzano questa raccolta, in modo da includere nel consiglio di backup solo gli elementi della raccolta. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
 
 Le raccolte vengono ricreate o aggiornate a ogni esecuzione di ciascun criterio.
 
@@ -43,7 +43,7 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Raccolte]** per visualizzare l’elenco delle raccolte esistenti.
 
-   ![Elenco raccolte](assets/collections_list.png)
+   ![Elenco Raccolte](assets/collections_list.png)
 
    Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
 
@@ -65,11 +65,11 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Creare una raccolta utilizzando la ricerca avanzata
+## Creare una raccolta utilizzando Ricerca avanzata
 
-You can also create collections using Advanced Search on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md) page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
 
-![Salva come](/help/c-recommendations/c-products/assets/save-as.png)
+![Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
 Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta].
 
@@ -77,11 +77,11 @@ Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puo
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei raccolte in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un catalogo con l’intento di restituire i prodotti contenenti “vacanza”, verranno restituiti solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video formazione: Creazione di raccolte ed esclusioni in Recommendations (7:05)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Creare una raccolta
-* Creazione di un'esclusione
+* Creare un’esclusione
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ita)
