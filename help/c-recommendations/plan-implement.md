@@ -2,9 +2,9 @@
 description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
 keywords: Consigli;impostazioni;preferenze;settore verticale;filtrare criteri incompatibili;gruppo host predefinito;URL base miniature;token API consigli
 seo-description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
-seo-title: Pianificare e implementare Consigli
+seo-title: Pianificare e implementare la funzione Consigli
 solution: Target
-title: Pianificare e implementare Consigli
+title: Pianificare e implementare la funzione Consigli
 title-outputclass: premium
 topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
@@ -15,11 +15,11 @@ source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Pianificare e implementare Consigli {#plan-and-implement-recommendations}
+# ![PREMIUM](/help/assets/premium.png) Pianificare e implementare la funzione Consigli {#plan-and-implement-recommendations}
 
 Che cosa è necessario sapere prima di creare un’attività di Consigli.
 
-## Pianificare e implementare Consigli {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
+## Pianificare e implementare la funzione Consigli {#concept_02AA644A4C7D4D5CB1D9CADA208CF8D1}
 
 Che cosa è necessario sapere prima di creare un’attività di [!DNL Recommendations].
 
@@ -31,7 +31,7 @@ Che cosa è necessario sapere prima di creare un’attività di [!DNL Recommenda
 | ![Passaggio 2](/help/c-recommendations/assets/step2_red.png) | Chiavi | La chiave determina il tipo di prodotto o contenuto visualizzato nei consigli. Ad esempio, la chiave può essere una categoria di prodotti. Consulta [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
 | ![Passaggio 3](/help/c-recommendations/assets/step3_red.png) | Attributi | Gli attributi forniscono informazioni più specifiche sui prodotti da mostrare. Ad esempio, potrebbe essere utile mostrare i prodotti entro una determinata fascia di prezzo, o prodotti con un certo livello di scorte. Gli attributi possono essere indicati nella mbox o attraverso un [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulta [Regole di inclusione](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) e [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md). |
 | ![Passaggio 4](/help/c-recommendations/assets/step4_red.png) | Esclusioni | Le esclusioni determinano quali elementi specifici non includere nei consigli.<br>Consulta [Esclusioni](/help/c-recommendations/c-products/exclusions.md). |
-| ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Dettagli di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull'ordine una volta completato l'acquisto. |
+| ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Dettagli di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull’ordine una volta completato l’acquisto. |
 
 ## Implementazione di base {#concept_D1154A3FB0FB4467A29AD2BDD21C82D5}
 
@@ -54,7 +54,7 @@ Un’alternativa comune per l’implementazione di [!DNL Recommendations] utiliz
 
 Questo metodo potrebbe essere più adatto per un venditore con un catalogo di prodotti relativamente fisso, ma che desidera mettere in evidenza articoli stagionali specifici o in saldo. La maggior parte dei clienti potrebbe fornire le proprie informazioni principalmente attraverso il feed, con solo modifiche occasionali sulla pagina.
 
-Utilizzate un feed per fornire informazioni che non vengono modificate frequentemente. Che tu scelga un file CSV o un feed Google, utilizza i seguenti parametri:
+Utilizza un feed per fornire informazioni che non sono soggette a modifiche frequenti. Che tu scelga un file CSV o un feed Google, utilizza i seguenti parametri:
 
 * Parametri richiesti
 
@@ -70,7 +70,7 @@ Utilizzate un feed per fornire informazioni che non vengono modificate frequente
    * `entity.message`
    * Tutti gli attributi personalizzati
 
-Once the feed is set up and passed to [!DNL Recommendations], pass parameters on the page for attributes that change frequently, i.e. more often than daily.
+Una volta che il feed è configurato e trasmesso a [!DNL Recommendations], trasmetti i parametri alla pagina per gli attributi che vengono modificati spesso, ossia più di una volta al giorno.
 
 * Parametri richiesti
 
@@ -149,7 +149,7 @@ Per ulteriori informazioni sull’implementazione di [!DNL at.js], consulta [Com
 
 Per ulteriori informazioni sull’implementazione di [!DNL mbox.js], consulta [Implementazione di mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
 
-For more information about the differences between the two Target Javascript libraries, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+Per ulteriori informazioni sulle differenze tra le due librerie JavaScript di Target, consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Pagina categoria {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
