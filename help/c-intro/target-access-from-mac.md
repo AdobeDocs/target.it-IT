@@ -52,9 +52,9 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Seleziona la prima lingua (principale), quindi un’eventuale seconda lingua.
 
-   The [!DNL Target] UI is available in the following languages:
+   L’interfaccia utente di [!DNL Target] è ora disponibile nelle seguenti lingue:
 
-   * English
+   * Inglese
    * Spagnolo
    * Francese
    * Tedesco
@@ -69,21 +69,21 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Esci da [!DNL Adobe Experience Cloud] o [!DNL Target], quindi effettua di nuovo l’accesso per rendere attive le modifiche.
 
-## Change the language for the Target product documentation {#doc-lang}
+## Modificare la lingua per la documentazione di Target {#doc-lang}
 
-Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di Target viene convertita automaticamente e sarà sincronizzata con la versione inglese entro ore di modifiche apportate alla documentazione inglese.
+Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di Target viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 
-Per cambiare rapidamente la lingua nella versione inglese originale, fate clic sul collegamento nell'intestazione della pagina.
+Per passare rapidamente alla versione originale inglese, fai clic sul collegamento disponibile nell’intestazione della pagina.
 
-![Modifica alla lingua originale](/help/c-intro/assets/mt-original.png)
+![Passare alla lingua originale](/help/c-intro/assets/mt-original.png)
 
-You can also quickly change the language to any supported language by clicking the Language Switcher icon in the top right of the page header ( ![language switcher](/help/c-intro/assets/icon-language-switcher.png) ).
+Puoi anche cambiare rapidamente la lingua passando a una delle lingue supportate facendo clic sull’ icona Cambia lingua in alto a destra nell’intestazione della pagina ( ![cambia lingua](/help/c-intro/assets/icon-language-switcher.png) ).
 
-![commutatore lingua](/help/c-intro/assets/language-switcher.png)
+![cambia lingua](/help/c-intro/assets/language-switcher.png)
 
-[!DNL Target] La documentazione è disponibile nelle lingue seguenti:
+La documentazione di [!DNL Target] è ora disponibile nelle seguenti lingue:
 
-* English
+* Inglese
 * Spagnolo
 * Francese
 * Tedesco
