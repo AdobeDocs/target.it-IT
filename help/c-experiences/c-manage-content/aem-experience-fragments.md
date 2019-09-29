@@ -1,7 +1,7 @@
 ---
 description: Informazioni sull’utilizzo dei frammenti di esperienza creati in Adobe Experience Manager (AEM) nelle attività di Target per aiutare l’ottimizzazione o la personalizzazione.
-keywords: esperienza; json; aem; adobe experience manager; esportare in adobe target; frammenti esperienza; frammenti; XF
-seo-description: Informazioni sull'utilizzo di frammenti esperienza creati in Adobe Experience Manager (AEM) nelle attività di Adobe Target per facilitare l'ottimizzazione o la personalizzazione.
+keywords: esperienza;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
+seo-description: Informazioni sull’utilizzo di frammenti esperienza creati in Adobe Experience Manager (AEM) nelle attività di Adobe Target per facilitare l’ottimizzazione o la personalizzazione.
 seo-title: Frammenti esperienza Adobe Experience Manager (AEM) in Adobe Target
 solution: Target
 title: Frammenti esperienza AEM
@@ -48,17 +48,17 @@ In order to use AEM experience fragments in [!DNL Target], you must perform the 
 
 Per ulteriori informazioni, consulta:
 
-* **AEM 6.3**: [Scelta di Adobe Analytics e Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) nella documentazione _di Adobe Experience Manager 6.3_ .
-* **AEM 6.4**: [Scelta di Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) nella documentazione _di Adobe Experience Manager 6.4_ .
-* **AEM 6.5**: [Scelta di Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) nella documentazione *di Adobe Experience Manager 6.5* .
+* **AEM 6.3**: [Scegliere Adobe Analytics e Adobe Target](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) nella documentazione di _Adobe Experience Manager 6.3_ .
+* **AEM 6.4**: [Scegliere Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) nella documentazione di _Adobe Experience Manager 6.4_ .
+* **AEM 6.5**: [Scegliere Adobe Analytics e Adobe Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) nella documentazione di *Adobe Experience Manager 6.5* .
 
 ### Passaggio 2: creare il frammento di esperienza
 
 I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consulta:
 
-* **AEM 6.3**: [Frammenti esperienza](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) nella documentazione *di Adobe Experience Manager 6.3* .
-* **AEM 6.4**: [Frammenti esperienza](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) nella documentazione *di Adobe Experience Manager 6.4* .
-* **AEM 6.5**: [Frammenti esperienza](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) nella documentazione *di Adobe Experience Manager 6.5* .
+* **AEM 6.3**: Frammenti [](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html) esperienza nella documentazione di *Adobe Experience Manager 6.3* .
+* **AEM 6.4**: Frammenti [](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html) esperienza nella documentazione di *Adobe Experience Manager 6.4* .
+* **AEM 6.5**: Frammenti [](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html) esperienza nella documentazione di *Adobe Experience Manager 6.5* .
 
 ### Passaggio 3: configurare AEM per condividere il frammento di esperienza con Target
 
@@ -73,11 +73,11 @@ I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consul
 
 ### Passaggio 4: pubblicare il frammento esperienza ed esportarlo in Target
 
-A seconda della versione di AEM, consulta i seguenti collegamenti per istruzioni dettagliate:
+A seconda della versione di AEM in uso, consultate i seguenti collegamenti per istruzioni dettagliate:
 
-* **AEM 6.3**: [Esportazione di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) nella documentazione *di Adobe Experience Manager 6.3* .
-* **AEM 6.4**: [Esportazione di un frammento esperienza in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) nella documentazione *di Adobe Experience Manager 6.4* .
-* **AEM 6.5**: [Esportazione di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) nella documentazione *di Adobe Experience Manager 6.5* .
+* **AEM 6.3**: Esportazione [di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html) nella documentazione di *Adobe Experience Manager 6.3* .
+* **AEM 6.4**: Esportazione [di un frammento esperienza in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html) nella documentazione di *Adobe Experience Manager 6.4* .
+* **AEM 6.5**: Esportazione [di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html) nella documentazione di *Adobe Experience Manager 6.5* .
 
 ## Utilizzo di frammenti di esperienza nelle attività di Target {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
@@ -101,11 +101,11 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 **Per utilizzare frammenti di esperienza utilizzando il Compositore esperienza visivo:**
 
-1. In [!DNL Target], durante la creazione o la modifica di un'esperienza in [Visual Experience Composer (Compositore esperienza visivo)](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), fai clic sul percorso nella pagina in cui desideri inserire il contenuto AEM, quindi seleziona l'opzione desiderata per visualizzare l'elenco [!UICONTROL di frammento] Esperienza.
+1. In [!DNL Target]quando create o modificate un'esperienza in [Visual Experience Composer (Compositore esperienza visivo](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)), fate clic sul percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate l'opzione desiderata per visualizzare l'elenco [!UICONTROL Choose an Experience Fragment (Scegli un frammento] esperienza).
 
    * [!UICONTROL Inserisci prima]
    * [!UICONTROL Inserisci dopo]
-   * [!UICONTROL Swap with Experience Fragment (Scambio con frammento esperienza)]
+   * [!UICONTROL Sostituire con un frammento esperienza]
    L’elenco [!UICONTROL Frammenti esperienza] presenta tutti i contenuti creati in AEM che ora sono disponibili in modo nativo in [!DNL Target].
 
    >[!NOTE]
@@ -129,7 +129,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 **Per utilizzare frammenti di esperienza tramite il Compositore esperienza basato su moduli:**
 
-1. In [!DNL Target], quando crei o modifica un'esperienza in Experience Composer (Compositore esperienza [basato su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), seleziona la posizione nella pagina in cui desideri inserire il contenuto AEM, quindi seleziona **[!UICONTROL Change Experience Framment]** (Modifica frammento esperienza) per visualizzare l'elenco [!UICONTROL di frammento] esperienza.
+1. In [!DNTarget], durante la creazione o la modifica di un'esperienza in Experience Composer (Compositore esperienza basato su [moduli](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l'elenco [!UICONTROL Scegli un frammento] esperienza.
 
    ![](assets/experience_fragment_list.png)
 
@@ -142,7 +142,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 * [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Nota che il frammento di esperienza nella versione “master” rimane in AEM. Non è possibile modificare il frammento di esperienza in [!DNL Target].
-* Puoi importare le offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) al momento non sono completamente supportate nell' [!DNL Target] interfaccia utente.
+* Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell' [!DNL Target] interfaccia utente.
 
 ## Video di formazione: Utilizzo dei frammenti esperienza AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
