@@ -48,11 +48,11 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video formazione: Creare progettazioni personalizzate in Recommendations (3:20)
+## Video di formazione: Creare progettazioni personalizzate in Recommendations (3:20)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Creare una progettazione personalizzata
-* Comprendere come fare riferimento alle variabili di visualizzazione nelle progettazioni
+* Comprendere come inserire nelle progettazioni un riferimento a variabili di visualizzazione
 
 >[!VIDEO](https://video.tv.adobe.com/v/27687?captions=ita)
