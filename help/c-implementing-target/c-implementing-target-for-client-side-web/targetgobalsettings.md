@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione targetGlobalSettings() per at.js. '
-keywords: Targetglobalsettings; targetglobalsettings; Globalsettings; globalsettings; impostazioni globali; at. js; funzioni; ; Clientcode; clientcode; Serverdomain; serverdomain; Cookiedomain; cookiedomain; Crossdomain; crossdomain; timeout; Globalmboxautocreate; Visitorpercentimeout; Defaultcontenthiddenstyle; Defaultcontentvisiblestyle; Bodyhiddenstyle; Bodyhidingenabled; Imsorgid; Secureonly; Overridemboxedgeserver; Overridemboxedgeservertimeout; Optoutenabled; optout; rifiuto; Selectorspollingtimeout; Dataprovider
+keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;funzioni;funzione;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;domini diversi;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
 seo-description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 seo-title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
@@ -61,7 +61,7 @@ window.targetGlobalSettings = {
 
 ## Fornitori di dati {#data-providers}
 
-Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati terzi, come Demandbase, BlueKai e servizi personalizzati, e di passare i dati a Target come parametri mbox nella richiesta globale di mbox. Supporta la raccolta di dati da più provider tramite async e le richieste di sincronizzazione. L'utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l'impatto sulle prestazioni della pagina.
+Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati terzi, come Demandbase, BlueKai e servizi personalizzati, e di passare i dati a Target come parametri mbox nella richiesta globale di mbox. Supporta la raccolta di dati da più provider tramite richieste sincrone e asincrone. L'utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l'impatto sulle prestazioni della pagina.
 
 >[!NOTE]
 >
