@@ -72,7 +72,7 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 | Elemento | Dettagli |
 |--- |--- |
-| Pannello laterale sinistro | Nel pannello laterale sinistro sono elencati i 20 “segmenti automatizzati” più grandi identificati dai modelli di personalizzazione di Target per questa attività. Un “segmento automatizzato” è una sorta di destinatario, ma è definito dai modelli di personalizzazione di Target anziché dal venditore. Ciascun segmento automatizzato è composto da valori specifici (o intervalli di valore) di attributi specifici.<br>Tieni presente che i segmenti automatizzati possono sovrapporsi. I segmenti automatizzati possono essere definiti da uno, due, tre o quattro attributi. Per ulteriori informazioni, consulta gli esempi seguenti.<br>Per ulteriori informazioni sui modelli di personalizzazione di Target, consulta [Algoritmo Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md). Per ulteriori informazioni sugli attributi utilizzati dai modelli di personalizzazione di Target per creare i segmenti automatizzati, consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/ap-data.md). |
+| Pannello laterale sinistro | Nel pannello laterale sinistro sono elencati i 20 “segmenti automatizzati” più grandi identificati dai modelli di personalizzazione di Target per questa attività. Un “segmento automatizzato” è una sorta di pubblico, che però è definito dai modelli di personalizzazione di Target anziché dall’addetto al marketing. Ciascun segmento automatizzato è composto da valori specifici (o intervalli di valore) di attributi specifici.<br>Tieni presente che i segmenti automatizzati possono sovrapporsi. I segmenti automatizzati possono essere definiti da uno, due, tre o quattro attributi. Per ulteriori informazioni, consulta gli esempi seguenti.<br>Per ulteriori informazioni sui modelli di personalizzazione di Target, consulta [Algoritmo Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md). Per ulteriori informazioni sugli attributi utilizzati dai modelli di personalizzazione di Target per creare i segmenti automatizzati, consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/ap-data.md). |
 | Grafico centrale | I grafici centrali mostrano le prestazioni del contenuto dell'attività per il segmento automatico evidenziato. Quando fai clic sui vari segmenti nel pannello a sinistra, si aggiornano i grafici centrali. |
 | Grafici a torta | I grafici a torta nella parte superiore del pannello centrale mostrano le dimensioni del segmento automatizzato e il numero totale di visite personalizzate nell'attività (ad esempio, il traffico verso l'attività gestito dal modello di personalizzazione. Non include il traffico di controllo o il traffico gestito dal modello vincitore complessivo). Tieni presente che le dimensioni del segmento sono basate esclusivamente sulle visite personalizzate.<br>![Grafico a torta](/help/c-reports/c-personalization-insights-reports/assets/pie.png) |
 | Istogramma a doppio asse | L'istogramma a doppio asse include le informazioni sulle visite e sulle conversioni dell'offerta o esperienza per quel segmento automatizzato specifico. |
@@ -110,7 +110,7 @@ Per ulteriori informazioni sugli attributi utilizzati da [!DNL Target] nei model
 
 **Cos'è un segmento automatizzato?**
 
-Un “segmento automatizzato” è una sorta di destinatario, ma è definito dai modelli di personalizzazione di Target anziché dal venditore.
+Un “segmento automatizzato” è una sorta di pubblico, che però è definito dai modelli di personalizzazione di Target anziché dall’addetto al marketing.
 
 Un segmento automatizzato è composto da valori specifici (o intervalli di valore) di attributi specifici. Consulta il passaggio 5 sopra per esempi di segmenti automatizzati. Tieni presente che i segmenti automatizzati possono sovrapporsi.
 
@@ -128,7 +128,7 @@ Le attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT)
 
 Vi sono vari motivi per cui potresti vedere più visite a un'offerta o esperienza a basso tasso di conversione in un segmento automatizzato, tra cui:
 
-* Un basso numero di visite ad alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
+* Un basso numero di visualizzazioni per alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
 * Le attività a volume ridotto in cui alcune offerte/esperienze non dispongono di modelli o in cui i modelli sono stati creati prima per certe offerte/esperienze rispetto ad altre.
 * Le regole di Targeting su un'offerta specifica che selezionano i visitatori che possono visualizzare una determinata offerta/esperienza.
 
