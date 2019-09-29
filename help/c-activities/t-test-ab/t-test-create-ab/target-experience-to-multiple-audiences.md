@@ -13,7 +13,7 @@ source-git-commit: 26cadefaee1fac3fffb96ad7e3dc62dc55aefcb0
 ---
 
 
-# Multiple experience audiences in an A/B Test{#multiple-experience-versions-in-an-a-b-test}
+# Esperienza con più tipi di pubblico un testo A/B{#multiple-experience-versions-in-an-a-b-test}
 
 È possibile indirizzare diverse versioni di una stessa esperienza a tipi di pubblico diversi nelle attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 
@@ -33,11 +33,11 @@ In questo caso, sono necessarie le versioni dell'esperienza specifiche per area 
 
 1. [Crea un'attività A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) come si farebbe normalmente.
 
-   Al momento di configurare l'esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
+   Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
-1. Select the experience, then click **[!UICONTROL Configure]** &gt; **[!UICONTROL Audiences]** &gt; **[!UICONTROL Multiple Audiences]**.
+1. Seleziona l’esperienza, quindi fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Tipi di pubblico]** &gt; **[!UICONTROL Più tipi di pubblico]**.
 
-   ![Audience multiple, opzione](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
+   ![Opzione Più tipi di pubblico](/help/c-activities/t-test-ab/t-test-create-ab/assets/multiple-audiences-new.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
