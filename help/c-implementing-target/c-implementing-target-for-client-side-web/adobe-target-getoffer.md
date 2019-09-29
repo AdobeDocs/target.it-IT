@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione adobe.target.getOffer() per at.js. '
-keywords: adobe. target. getoffer; Getoffer; getoffer; get offer; at. js; funzioni; function
+keywords: adobe.target.getOffer;getOffer;getoffer;ottieni offerta;at.js;funzioni;funzione
 seo-description: Informazioni sulla funzione adobe.target.getOffer(options) per la libreria at.js JavaScript di Adobe Target.
 seo-title: Informazioni sulla funzione adobe.target.getOffer(options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
