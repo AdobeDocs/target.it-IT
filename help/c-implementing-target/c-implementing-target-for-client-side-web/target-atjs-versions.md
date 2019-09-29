@@ -23,21 +23,21 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 
 ## at.js versione 2.1.1 (24 luglio 2019)
 
-Questa versione di at.js è una versione di manutenzione e include i seguenti miglioramenti e correzioni:
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
 (I codici tra parentesi sono per uso interno di Adobe.)
 
-* È stato risolto un problema che causava l'attivazione di più beacon quando si utilizzava la metrica Monitoraggio clic nella pagina Goals &amp; Settings (Obiettivi e impostazioni) in Visual Experience Composer (VEC) (Compositore esperienza visivo). (TNT-32812)
-* È stato risolto un problema che impediva `triggerView()` il rendering delle offerte più di una volta. (TNT-32780)
-* È stato risolto un problema con `triggerView()` cui verificare che la richiesta contenga informazioni Marketing Cloud ID (MCID). (TNT-32776)
-* È stato risolto un problema che impediva l'attivazione della `triggerView()` notifica anche in assenza di viste salvate. (TNT-32614)
-* È stato risolto un problema che causava un errore a causa dell'utilizzo di decodeURIcomponent che causava problemi quando l'URL conteneva un parametro di stringa query non valido. (TNT-32710)
-* Il flag beacon ora è impostato su "true" nel contesto delle richieste di consegna inviate tramite l' `Navigator.sendBeacon()` API. (TNT-32683)
-* È stato risolto un problema che impediva la visualizzazione delle offerte di Recommendations sui siti Web per alcuni clienti. I clienti potevano vedere il contenuto dell'offerta nella chiamata API di consegna, ma l'offerta non era applicata sul sito Web. (TNT-32680)
-* È stato risolto un problema che impediva il funzionamento del monitoraggio dei clic tra più esperienze come previsto. (TNT-32644)
-* È stato risolto un problema che impediva a at.js di applicare la seconda metrica dopo il mancato rendering della prima metrica. (TNT-32628)
-* È stato risolto un problema durante il passaggio `mboxThirdPartyId` utilizzando la `targetPageParams` funzione che impediva la presenza del payload della richiesta nei parametri della query o nel payload della richiesta. (TNT-32613)
-* È stato risolto un problema che causava il blocco delle risposte di visualizzazione e di notifica clic nei browser basati su Chromio (incluso Google Chrome). (TNT-32290)
+* È stato risolto un problema a causa del quale venivano attivati più beacon quando si utilizzava la metrica Tracciamento dei clic nella pagina Obiettivi e impostazioni nel Compositore esperienza visivo. (TNT-32812)
+* È stato corretto un problema a causa del quale `triggerView()` non poteva eseguire il rendering delle offerte più di una volta. (TNT-32780)
+* È stato corretto un problema relativo a `triggerView()` per fare sì che la richiesta contenga informazioni Experience Cloud ID (ECID). (TNT-32776)
+* È stato risolto un problema a causa del quale la notifica `triggerView()` non veniva attivata nonostante l’assenza di visualizzazioni salvate. (TNT-32614)
+* È stato risolto un problema che provocava un errore a causa dell’utilizzo di decodeURIcomponent e si verificavano problemi se l’URL conteneva un parametro di stringa query non valido. (TNT-32710)
+* Il flag beacon ora è impostato su “true” nel contesto di richieste di consegna inviate tramite l’API `Navigator.sendBeacon()`. (TNT-32683)
+* È stato risolto un problema che, per alcuni clienti, impediva la visualizzazione delle offerte Consigli sui siti web. I clienti potevano vedere i contenuti delle offerte nella chiamata API per la consegna, ma l’offerta non veniva applicata al sito web. (TNT-32680)
+* È stato risolto un problema di funzionamento imprevisto del tracciamento dei clic tra più esperienze. (TNT-32644)
+* È stato risolto un problema che impediva ad at.js di applicare la seconda metrica dopo un errore nel rendering della prima metrica. (TNT-32628)
+* È stato risolto un problema nel passare `mboxThirdPartyId` utilizzando la funzione `targetPageParams`, a causa del quale il payload della richiesta non veniva incluso nei parametri della query o nel payload della richiesta. (TNT-32613)
+* È stato risolto un problema a causa del quale, nei browser basati su Chromium (incluso Google Chrome), venivano bloccate le risposte alle notifiche di visualizzazione o clic. (TNT-32290)
 
 ## at.js versione 2.1.0 (3 giugno 2019)
 
