@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Rapporti{#reports}
 
-I rapporti forniscono informazioni sull'avanzamento e i risultati delle attività che consentono di prendere decisioni in base ai tuoi dati. I dati sui report possono aiutarti a decidere quando terminare un test, mostrare quale esperienza di offerta è vincente e fornire informazioni o esperienze per determinare le azioni successive.
+I rapporti forniscono informazioni sull’avanzamento e i risultati delle attività, utili per prendere decisioni basate sui dati. I dati dei rapporti possono aiutarti a decidere quando terminare un test, a individuare l’esperienza o l’offerta vincente e a ottenere informazioni o risultati utili per determinare le azioni successive.
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 
    Ad esempio, puoi selezionare [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] dall’elenco a discesa [!UICONTROL Tipo] e [!UICONTROL Live] dall’elenco a discesa [!UICONTROL Stato] per visualizzare solo i test A/B e le attività di targeting di esperienza che si trovano in uno stato attivo.
 
-   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati: Test A/B e targeting delle esperienze. Note that the three types of A/B Tests (Manual, [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), and [Auto-Target](/help/c-activities/auto-target-to-optimize.md)) are selected by default. È possibile deselezionare uno o più tipi in base alle esigenze.
+   Nella figura seguente viene mostrato l’elenco a discesa [!UICONTROL Tipo] con due tipi selezionati: Test A/B e targeting delle esperienze. I tre tipi di test A/B (Manuale, [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) e [Targeting automatico](/help/c-activities/auto-target-to-optimize.md)) sono selezionati per impostazione predefinita. È possibile deselezionare uno o più tipi, in base alle esigenze.
 
    ![Filtrare i rapporti per tipo](/help/c-reports/assets/report_filters-new.png)
 
@@ -50,12 +50,12 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 
    Ogni rapporto include una legenda che ne facilita la comprensione.
 
-   ![Legenda report](/help/c-reports/assets/report_menu_bar-new.png)
+   ![Legenda del rapporto](/help/c-reports/assets/report_menu_bar-new.png)
 
    Nella legenda vengono visualizzate le seguenti informazioni:
 
    * Lo stato dell’attività, compreso l’intervallo di date in cui l’attività è stata eseguita.
-   * L'esperienza vincente prevista (se disponibile).
+   * L’esperienza vincente prevista (se disponibile).
    >[!NOTE]
    >
    >I risultati dell’esperienza compaiono dopo che questa è stata vista almeno da un partecipante.
