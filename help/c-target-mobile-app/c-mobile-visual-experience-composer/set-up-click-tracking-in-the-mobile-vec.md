@@ -39,7 +39,7 @@ Il Compositore esperienza visivo mobile supporta l’impostazione degli obiettiv
 
 ![](assets/mobile-vec-clicktrack4.png)
 
-Quando un partecipante all'attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
+Quando un partecipante all’attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
 ## Considerazioni {#considerations}
 
@@ -50,7 +50,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Nel Compositore esperienza visivo per app mobile, sono consentiti solo gli elementi con un gestore di clic allegato.
 * Puoi passare a qualsiasi sezione dell'applicazione, ma assicurati che le [visualizzazioni](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#target-views) siano definite per la sezione in cui stai selezionando gli elementi per il tracciamento dei clic.
 * Durante la modifica di un'attività, se il dispositivo è già selezionato nel Passaggio 1, non è necessario selezionare nuovamente il dispositivo. Tuttavia, se arrivi direttamente alla pagina di tracciamento dei clic, verrà visualizzata la schermata di selezione del dispositivo per selezionare un dispositivo autorizzato.
-* Nella VEC App mobile viene visualizzato un pannello Modifiche che mostra gli elementi configurati per il tracciamento dei clic.
+* Il pannello Modifiche del Compositore esperienza visivo per app mobile presenta gli elementi impostati per il tracciamento dei clic.
 
    ![Pannello Modifiche che mostra il tracciamento del clic
    ](/help/c-target-mobile-app/c-mobile-visual-experience-composer/assets/click-track-modifications-panel.png)
