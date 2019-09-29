@@ -29,7 +29,7 @@ Nella figura seguente vengono illustrate le prestazioni di caricamento delle pag
 
 Come illustrato in precedenza, utilizzando mbox.js il contenuto della pagina inizia a caricarsi solo una volta completata la richiesta di [!DNL Target]. Utilizzando at.js, il contenuto della pagina comincia a caricarsi quando viene avviata la richiesta di [!DNL Target], senza attenderne il completamento.
 
-## What is the impact of at.js and mbox.js on page-load time? {#page-load}
+## Qual è l’impatto di at.js e mbox.js sui tempi di caricamento delle pagine? {#page-load}
 
 Molti clienti e consulenti vogliono conoscere l'impatto di [!DNL at.js] e di [!DNL mbox.js] sul tempo di caricamento delle pagine, soprattutto nel contesto di nuovi utenti rispetto a utenti di ritorno. Purtroppo, è difficile misurare e offrire numeri concreti per quanto riguarda l'influenza di [!DNL at.js] o [!DNL mbox.js] sul tempo di caricamento della pagina, a causa delle implementazioni del singolo cliente.
 
