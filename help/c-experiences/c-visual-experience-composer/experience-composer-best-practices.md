@@ -121,10 +121,10 @@ Quando un'azione (modifica HTML) viene eseguita sui componenti della pagina (com
 
 Tuttavia, quando il contenuto della pagina viene distribuito ai visitatori, l'azione viene applicata prima di creare un'istanza del componente. Per questo motivo, la funzionalità di questo componente rischia di interrompersi al momento della distribuzione. La funzionalità dipende dalla natura dello script utilizzato nella relativa pagina per definire il componente.
 
-Se esegui il test della distribuzione ottenendo la prima volta un esito positivo, non è garantito che questa continuerà a funzionare. Può verificarsi una condizione di corsa critica.
+Se esegui il test della distribuzione ottenendo la prima volta un esito positivo, non è garantito che questa continuerà a funzionare. Può verificarsi una situazione di tipo “race condition”.
 
-* Nel caso si verifichi una condizione di corsa critica, la distribuzione funzionerà a intermittenza.
-* In assenza di una condizione di corsa critica, la distribuzione funzionerà sempre.
+* Nel caso si verifichi una situazione di tipo “race condition”, la distribuzione funzionerà a intermittenza.
+* In assenza di una situazione di tipo “race condition”, la distribuzione funzionerà sempre.
 
 Sottoponi la tua pagina a test più volte per assicurarti che la distribuzione funzioni come previsto.
 
