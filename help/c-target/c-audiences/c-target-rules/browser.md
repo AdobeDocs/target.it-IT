@@ -1,8 +1,8 @@
 ---
-description: Potete creare audience in Adobe Target per eseguire il targeting degli utenti che utilizzano un browser specifico o opzioni specifiche del browser quando visitano la pagina.
+description: Puoi creare diversi tipi di pubblico in Adobe Target per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o particolari opzioni del browser.
 keywords: opzioni browser;tipo;tipo di browser;lingua del browser;lingua;versione;versione del browser
-seo-description: Potete creare audience in Adobe Target per eseguire il targeting degli utenti che utilizzano un browser specifico o opzioni specifiche del browser quando visitano la pagina.
-seo-title: Opzioni del browser nelle audience di Adobe Target
+seo-description: Puoi creare diversi tipi di pubblico in Adobe Target per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o particolari opzioni del browser.
+seo-title: Opzioni del browser nei tipi di pubblico di Adobe Target
 solution: Target
 subtopic: Test multivariato
 title: Browser
@@ -43,7 +43,7 @@ Esistono due modi per indirizzare i browser:
 1. Dai un nome al pubblico.
 1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Browser]**.
 
-   ![Regole &gt; Nuovo](assets/target_browser.png)
+   ![Regole &gt; Browser](assets/target_browser.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
@@ -56,7 +56,7 @@ Esistono due modi per indirizzare i browser:
 
 L’esempio seguente illustra un pubblico che include gli utenti delle versioni 10 o 11 di Internet Explorer:
 
-![Target IE 10 e 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
+![Includere IE 10 e 11](/help/c-target/c-audiences/c-target-rules/assets/target_ie-10-11.png)
 
 ## Opzioni browser {#concept_221D8EEF53CC45AEACEB17CF336A3658}
 
@@ -75,9 +75,9 @@ Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operato
 
 ### Lingua {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
-Eseguire il targeting o escludere alcuni browser impostati per utilizzare lingue specifiche.
+Includi o escludi alcuni browser impostati per una specifica lingua.
 
-Ad esempio, se un'offerta è disponibile solo in inglese, potete eseguire il targeting dei browser con la lingua impostata su Inglese. Oppure, se la pagina non è abilitata per caratteri a doppio byte, puoi escludere i browser impostati per lingue orientali.
+Ad esempio, se un’offerta è disponibile solo in inglese, puoi indirizzarla ai soli browser impostati per la lingua inglese. Oppure, se la pagina non è abilitata per caratteri a doppio byte, puoi escludere i browser impostati per lingue orientali.
 
 L’inclusione o l’esclusione in base alla lingua del browser può permetterti di definire meglio i visitatori a cui ti rivolgi rispetto a parametri basati sulla località geografica nei casi in cui la lingua riveste un ruolo più importante della posizione geografica. Ad esempio, se offri un articolo scritto in inglese, puoi destinarlo ai paesi di lingua inglese oppure a chi utilizza browser impostati in lingua inglese. Con il targeting in base al browser, l’articolo sarà disponibile per gli anglofoni che si collegano da paesi in cui l’inglese non è la lingua principale.
 
