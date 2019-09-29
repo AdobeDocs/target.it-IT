@@ -1,8 +1,8 @@
 ---
 description: Informazioni per utilizzare at.js 2.x per implementare applicazioni a pagina singola.
-keywords: implementazione applicazioni pagina singola;implementare applicazione pagina singola;spa; at.js 2.x; at. js; applicazione a pagina singola; app singola, app
+keywords: implementazione applicazioni pagina singola;implementare applicazione pagina singola;spa; at.js 2.x;at.js;applicazione a pagina singola;app a pagina singola
 seo-description: Informazioni per utilizzare Adobe Target at.js 2.x per implementare applicazioni a pagina singola.
-seo-title: Implementazione delle applicazioni singole in Adobe Target
+seo-title: Implementazione di applicazioni a pagina singola in Adobe Target
 solution: Target
 title: Implementazione di un’applicazione a pagina singola
 topic: Standard
@@ -33,13 +33,13 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/)**
+**Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/products)**
+**Link: Product Site[](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -53,7 +53,7 @@ All'inizio di questa sezione, abbiamo definito visualizzazioni come l'intero sit
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “PRODUCTS-PAGE-2”.
 
-**Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![pagina di checkout](/help/c-experiences/assets/checkout.png)
 
@@ -87,7 +87,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento:[Site Site](https://target.enablementadobe.com/react/demo/#/)**
+   **Link: Home Site[](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -118,7 +118,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Collegamento:[Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+**Link:[Products Site](https://target.enablementadobe.com/react/demo/#/products)**
 
 Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta “Prezzo” in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -147,7 +147,7 @@ Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esp
  }
 ```
 
-**Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Link: Checkout[](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -281,13 +281,13 @@ I video che seguono contengono ulteriori informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250?captions=ita)
 
-Consultate [in che modo at. js 2. x funziona](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
+See Understanding how at.js 2.x works for more information.[](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html)
 
 ### Implementare at.js 2.x in un’applicazione a pagina singola
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248?captions=ita)
 
-Consulta [Implementazione di Adobe Target at. js 2. x in un'applicazione pagina singola (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) per ulteriori informazioni.
+See [Implement Adobe Target's at.js 2.x in a Single Page Application (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) for more information.
 
 ### Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
