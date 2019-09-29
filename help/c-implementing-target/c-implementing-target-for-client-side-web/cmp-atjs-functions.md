@@ -1,6 +1,6 @@
 ---
-description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target.
-keywords: at. js; funzioni; libreria javascript
+description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript at.js di Adobe Target.
+keywords: at.js;funzioni;libreria javascript
 seo-description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target.
 seo-title: Funzioni di at.js in Adobe Target
 solution: Target
@@ -16,7 +16,7 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 
 # Funzioni di at.js{#at-js-functions}
 
-Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target. Per ulteriori informazioni ed esempi, fai clic sui collegamenti nella colonna Funzione.
+Elenco di funzioni che possono essere utilizzate con la libreria JavaScript at.js di Adobe Target. Per ulteriori informazioni ed esempi, fai clic sui collegamenti nella colonna Funzione.
 
 | Funzione | Dettagli |
 | --- | --- | 
@@ -32,6 +32,6 @@ Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di a
 | [targetPageParams(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) | Questo metodo consente di allegare i parametri alla mbox globale dall’esterno del codice di richiesta. |
 | [targetPageParamsAll(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) | Questo metodo consente di allegare i parametri a tutte le mbox dall’esterno del codice di richiesta. |
 | [registerExtension(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/registerextension-atjs-1x.md)<br>(at.js 1.x) | Fornisce un metodo standard per registrare un’estensione specifica.<br>**Nota:** questa funzione è disponibile per at.js versione 1.*x*. Questa funzione è stata rimossa con il rilascio di at.js 2.x e restituisce il contenuto predefinito se utilizzata con at.js 2.x. |
-| [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | eventi personalizzati at. js consentono di sapere quando una richiesta o un'offerta mbox non riesce o riesce. |
-| [adobe. target. sendnotifications (options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at. js 2.1.0) | Questa funzione invia una notifica al Edge Target quando viene eseguito il rendering di un'esperienza senza utilizzare `adobe.target.applyOffer()` o `adobe.target.applyOffers()`.<br>**Nota**: Questa funzione è stata introdotta in at. js 2.1.0 e sarà disponibile per qualsiasi versione precedente alle 2.1.0. |
+| [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Eventi personalizzati at.js consentono di sapere quando una richiesta o un’offerta mbox ha esito negativo o positivo. |
+| [adobe.target.sendNotifications(options)](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md)<br>(at.js 2.1.0) | Questa funzione invia una notifica al server Edge di Target quando viene eseguito il rendering di un’esperienza senza utilizzare `adobe.target.applyOffer()` o `adobe.target.applyOffers()`.<br>**Nota**: questa funzione è stata introdotta in at.js 2.1.0 e sarà disponibile per tutte le versioni successive alla versione 2.1.0. |
 
