@@ -74,19 +74,19 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 >
 >Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi usare il menu Stili, come spiegato qui.
 
-* **Informazioni di base**
+* **Sfondo**
 
-   Cambiate il colore di sfondo e l'immagine.
+   Cambia il colore e l’immagine di sfondo.
 
    * Colore (specifica il codice del colore o utilizza il selettore del colore)
-   * Immagine (seleziona un'immagine dal selettore immagini)
-   * Origine immagine (specificate un URL esterno)
+   * Immagine (seleziona un’immagine dal selettore immagini)
+   * Origine immagine (specifica un URL esterno)
    * Allegato
-      * Fate clic sull'elenco a discesa superiore per selezionare scorrimento, fisso o locale
-      * Fate clic sull'elenco a discesa inferiore per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round
+      * Fai clic sull’elenco a discesa in alto per selezionare scroll, fixed o local (Scorrimento, Fisso o Locale).
+      * Fai clic sull’elenco a discesa in alto per selezionare repeat, repeat-x, repeat-y, no-repeat, space o round (Ripeti, Ripeti x, Ripeti y, Non ripetere, Spazio, Arrotonda).
    * Clip
-      * Fate clic sull'elenco a discesa superiore per selezionare il bordo, la casella di spaziatura, la casella di contenuto o il testo.
-      * Fate clic sull'elenco a discesa inferiore per selezionare audio o audio automatico
+      * Fai clic sull’elenco a discesa in alto per selezionare border-box, padding-box, content-box o text (Casella bordo, Casella margine, Casella contenuto, Testo).
+      * Fai clic sull’elenco a discesa in alto per selezionare auto audio o audio (Audio automatico, Audio).
 
 * **Composizione tipografica**
 
@@ -317,7 +317,7 @@ Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTRO
 
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: supporto per assicurare che gli elementi spostati non risultino nascosti dietro ad altri elementi.)
 
-In alcuni casi, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all'esterno di un contenitore con la seguente proprietà CSS: `overflow: hidden`.
+In alcuni casi, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
 
 #### Nascondi
 
@@ -343,7 +343,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un'offerta contiene contenuto HTML, consultate «How at. js rendering with HTML content» in [How at. js work](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render) for more information.
+* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render).
 
 ## Navigare tra gli elementi utilizzando il percorso DOM {#dom-path}
 
