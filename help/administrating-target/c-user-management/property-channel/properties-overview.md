@@ -41,7 +41,7 @@ Per le attività eseguite in Adobe Admin Console per Enterprise, accedi alla con
 
    Oppure
 
-   If you are already logged in to the Experience Cloud, go to [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), then click the [!UICONTROL App] icon in the top navigation bar &gt; click **[!UICONTROL Admin]** on the right side.
+   Se hai già effettuato l’accesso a Experience Cloud, passa a [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), quindi fai clic sull’icona [!UICONTROL App] nella barra di navigazione superiore e fai clic su **[!UICONTROL Amministrazione]** a destra.
 
 1. (Condizionale) Se disponi dell'accesso ad [!DNL Admin Console for Enterprise] per più di un’organizzazione, fai clic sull’avatar utente nell’angolo a destra o sulla barra di navigazione superiore, quindi seleziona l’organizzazione desiderata.
 
@@ -49,18 +49,18 @@ Per le attività eseguite in Adobe Admin Console per Enterprise, accedi alla con
 
 Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Proprietà], tutte le attività di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
-1. [In Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina &gt; **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o per modificare gli utenti esistenti.
+1. [In Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina &gt; **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) nella *guida utente della versione Enterprise*.
 
 ## Passaggio 2: Creare un'area di lavoro (profilo prodotto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 Un’area di lavoro (profilo prodotto) consente a un’azienda di assegnare un gruppo specifico di utenti a un insieme specifico di proprietà. Un’area di lavoro è simile per vari aspetti a una suite di rapporti di [!DNL Analytics].
 
-Le organizzazioni possono iniziare a sfruttare le funzionalità delle autorizzazioni Enteprise creando nuove aree di lavoro all'interno di Admin Console, assegnando proprietà di Target a queste aree di lavoro e spostando gli utenti dalla configurazione “Area di lavoro predefinita” a queste nuove aree di lavoro con accesso limitato.
+Le organizzazioni possono iniziare a sfruttare le funzionalità delle autorizzazioni Enteprise creando nuove aree di lavoro all’interno di Admin Console, assegnando proprietà di Target a queste aree di lavoro e spostando gli utenti dalla configurazione “Area di lavoro predefinita” a queste nuove aree di lavoro con accesso limitato.
 
-I clienti possono utilizzare queste aree di lavoro per separare l'accesso a diversi team per regione, per unità aziendale, per sezione del sito o per qualsiasi altro metodo scelto.
+I clienti possono utilizzare queste aree di lavoro per separare l’accesso ai diversi team per regione, business unit, sezione del sito vista o qualsiasi altro metodo scelto.
 
-Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all'interno di ogni area di lavoro.
+Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli diversi all’interno di ogni area di lavoro.
 
 1. In Admin Console, fai clic su **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
@@ -83,7 +83,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
 
-### Obtain your Workspace ID {#workspace-id}
+### Ottenere l’ID Workspace {#workspace-id}
 
 Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) devi passare l’ID workspace.
 
@@ -114,7 +114,7 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
    Compila i campi:
 
-   * **Canale:** Seleziona il canale desiderato per la proprietà: Web, app mobile, e-mail o altro/API (ad esempio, una console di tipo set-top o playstation).
+   * **Canale:** seleziona il canale desiderato per la proprietà: Web, App mobile, E-mail o Altro/API (per esempio un set-top box o una console PlayStation).
    * **Nome (obbligatorio):** specifica un nome descrittivo per la proprietà.
    * **Descrizione:** specifica una descrizione facoltativa per la proprietà.
 
@@ -149,11 +149,11 @@ Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è
 
    Esistono diversi modi per aggiornare l'implementazione di [!DNL Target]. Ad esempio, è possibile utilizzare i seguenti metodi per le pagine Web:
 
-   * **Tramite un parametro globale in[!DNL Adobe Launch]:**
+   * **Tramite un “parametro globale” in[!DNL Adobe Launch]:**
 
       For more information, see [Add Global Mbox Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
 
-   * **Tramite un parametro globale in[!DNL Dynamic Tag Management]:**
+   * **Tramite un “parametro globale” in[!DNL Dynamic Tag Management]:**
 
       ![](assets/property_token_2.png)
 
@@ -179,12 +179,12 @@ Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è
 
    >[!NOTE]
    >
-   >The Properties and Permissions functionality applies to [Target Standard/Premium](/help/c-intro/intro.md#premium) only. Non è possibile utilizzare questa funzionalità con [!DNL Target Classic].
+   >La funzionalità proprietà e autorizzazioni si applica solo a [Target Standard/Premium](/help/c-intro/intro.md#premium). Non è possibile utilizzare questa funzionalità con [!DNL Target Classic].
 
 1. Fai clic sul nome del profilo desiderato.
 1. Fai clic su **[!UICONTROL Utenti]**.
 
-   The [!UICONTROL Users] tab displays all of the users in that workspace.
+   Nella scheda [!UICONTROL Utenti] vengono visualizzati tutti gli utenti di quell’area di lavoro.
 
    ![Configurare gli utenti](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
 
