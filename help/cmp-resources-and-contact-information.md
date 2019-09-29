@@ -33,10 +33,10 @@ Visita il [Forum della Community di Target](https://forums.adobe.com/community/e
 
 Le informazioni sulla registrazione e i collegamenti alle sessioni precedenti delle serie di webinar sui fondamenti di Target, una serie Customer Success offerta dalla community.
 
-[Fai clic qui per guardare le sessioni più passate o per saperne di più sulle sessioni in programma e sulle informazioni sulla registrazione](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html).
+[Fate clic qui per guardare le sessioni passate o per ulteriori informazioni sulle sessioni imminenti e sulle informazioni](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html)di registrazione.
 
 
-## Orario del servizio Assistenza clienti di Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
+## Sessioni “Office Hours” del Servizio clienti di Adobe {#concept_58EA30379D3B48C4848BA2A8C464A5B7}
 
 “Office hours” è un'iniziativa nata dal team del Servizio clienti di Adobe. Queste sessioni sono progettate per informare e aiutare i partecipanti a risolvere problemi e fornire suggerimenti e trucchi utili per le soluzioni Adobe Experience Cloud, tra cui Target.
 
@@ -46,9 +46,9 @@ Le attuali sessioni registrate di Target includono:
 
 | Argomento/Esecuzione/Data registrazione | Cosa imparerai |
 |--- |--- |
-| [Visual Experience Composer (Compositore esperienza visivo)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni su questo manuale, vedi [Esperienze](/help/c-experiences/experiences.md). |
-| [Adobe Target: Analytics/Target Integration (A 4 T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell'integrazione </li><li>Funzionamento dell'integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni su questo manuale, vedi [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at. js: Vantaggi e best practice di implementazione](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>aprile 2018 | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto mbox.js</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul>Per ulteriori informazioni su questo manuale, vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni su questo manuale, vedi [Esperienze](/help/c-experiences/experiences.md). |
+| [Adobe Target: Integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell'integrazione </li><li>Funzionamento dell'integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni su questo manuale, vedi [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
+| [at.js: Advantages and Implementation Best Practices26:43April 2018](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br><br> | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto mbox.js</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul>Per ulteriori informazioni su questo manuale, vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
@@ -58,14 +58,14 @@ In aggiunta alle sessioni di Target, esistono altre sessioni per altre soluzioni
 
 ## Newsletter Target Insider {#concept_7600A06142034A3FA325EF7FA898DDE8}
 
-Adobe Target Insider è una newsletter mensile per i membri della community di Adobe Target. Scopri aggiornamenti del prodotto e progetti futuri, suggerimenti e trucchi per la personalizzazione e l'ottimizzazione, storie di successo dai nostri clienti, i prossimi eventi, white paper ricchi di informazioni, articoli di blog e altro ancora.
+Adobe Target Insider è una newsletter mensile per i membri della community di Adobe Target. Scopri aggiornamenti del prodotto e progetti futuri, suggerimenti e trucchi per la personalizzazione e l’ottimizzazione, storie di successo dai nostri clienti, i prossimi eventi, white paper ricchi di informazioni, articoli di blog e altro ancora.
 
 
 Leggi la [lettera di notifica](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) per scoprire come restare ottimizzato con la newsletter Adobe Target Insider.
 
 >[!IMPORTANT]
 >
->[Registrati per ricevere automaticamente la newsletter Adobe Target Insider nella vostra inbox](https://www.adobe.com/subscription/adobe_target_newsletter.html).
+>[Registrati per ricevere automaticamente la newsletter Adobe Target Insider nella inbox](https://www.adobe.com/subscription/adobe_target_newsletter.html).
 
 Se ti sono sfuggite le newsletter precedenti, fai clic sui seguenti collegamenti per assicurarti di non perdere niente:
 
