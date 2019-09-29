@@ -1,7 +1,7 @@
 ---
 description: Il Compositore esperienza visivo offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-seo-description: In Visual Experience Composer (Compositore esperienza visivo) in Adobe Target è disponibile un'interfaccia visiva per modificare le esperienze sulla pagina.
+seo-description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
 seo-title: Aggiungi esperienza
 solution: Target
 title: Aggiungi esperienza
@@ -14,7 +14,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Aggiungi esperienza{#add-experience}
 
-Visual Experience Composer (Compositore esperienza visivo) fornisce un'interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
+Il Compositore esperienza visivo offre un’interfaccia visiva per l’aggiunta e la modifica delle esperienze sulla pagina.
 
 Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
@@ -30,7 +30,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza.
 
-   Se hai creato una mbox sulla pagina utilizzando Target Classic (in precedenza Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
+   Se hai creato una mbox sulla pagina utilizzando Target Classic (già Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
 
    Per un elenco delle azioni che possono essere eseguite su un elemento nella pagina visualizzata per modificare l'esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -39,11 +39,11 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
    >
    >Se distribuisci un’immagine da un’origine diversa dalla pagina principale (ad esempio un’immagine in hosting su akamai.net e distribuita a dell.com), l’immagine non viene visualizzata nella miniatura della pagina mostrata nel diagramma di flusso.
 
-1. Click **[!UICONTROL Save]** when you are finished designing the experience.
+1. Al termine, fai clic su **[!UICONTROL Salva]**.
 
-## Rinomina esperienza
+## Rinominare un’esperienza
 
-Click the [!UICONTROL Rename Experience] icon on an experience in an A/B Test or Experience Targeting (XT) activity to give the experience a new name.
+Per modificare il nome di un’esperienza, fai clic sulla sua icona [!UICONTROL Rinomina esperienza] in un’attività Test A/B o Targeting esperienza.
 
 ![Rinomina esperienza](/help/c-activities/t-test-ab/t-test-create-ab/assets/rename-experience.png)
 
@@ -60,13 +60,13 @@ Nota che quando denomini o rinomini un’esperienza, i seguenti caratteri non so
 | - | Meno |
 | @ | Chiocciola |
 
-## Reindirizza a URL
+## Reindirizzare verso un URL
 
-Click the More (three vertical ellipses) icon on an experience in an A/B Test or Experience Targeting (XT) activity, then click [!UICONTROL Redirect to URL].
+Fai clic sull’icona Altro (tre puntini di sospensione verticali) per un’esperienza in un’attività Test A/B o Targeting esperienza e fai clic su [!UICONTROL Reindirizza all’URL].
 
-For more information, see [Redirect to URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
+Per ulteriori informazioni, consulta [Reindirizzare verso un URL](/help/c-experiences/c-visual-experience-composer/redirect-offer.md).
 
-**NOTA**: Quando assegnate un nome o rinominate un'esperienza, i seguenti caratteri non sono consentiti:
+**NOTA**: quando denomini o rinomini un’esperienza, i seguenti caratteri non sono consentiti:
 
 | Carattere | Descrizione |
 |--- |--- |
@@ -87,7 +87,7 @@ Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavor
 
 ![Opzione Duplica esperienza](/help/c-activities/t-test-ab/t-test-create-ab/assets/duplicate-experience.png)
 
-## Eliminare un'esperienza
+## Eliminare un’esperienza
 
 Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui tre puntini di sospensione verticali &gt; **[!UICONTROL Duplica]**.
 
