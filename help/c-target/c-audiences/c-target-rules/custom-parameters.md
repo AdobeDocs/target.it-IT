@@ -52,7 +52,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 
 ## Considerazioni {#considerations}
 
-* Audience e attività vengono valutate per una mbox specifica. Ad esempio, se la mbox globale passa un determinato parametro, ma la mbox regionale no, il targeting attività/pubblico per tale parametro non sarà qualificato per la mbox regionale.
+* I tipi di pubblico e le attività vengono valutati per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting per attività/pubblico non verrà qualificato per la mbox regionale.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
