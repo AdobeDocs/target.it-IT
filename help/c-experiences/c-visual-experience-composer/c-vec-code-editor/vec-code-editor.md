@@ -22,7 +22,7 @@ La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Com
 
 ## Panoramica sulle modifiche {#section_EE27E7572AA74397BBDED563B2B3D509}
 
-Nella pagina [!UICONTROL Modifiche] vengono visualizzate tutte le modifiche apportate alla pagina nel Compositore esperienza visivo. Ogni modifica apportata viene visualizzata come un'azione o un elemento separato [!UICONTROL nell'elenco delle modifiche.]
+Nella pagina [!UICONTROL Modifiche] vengono visualizzate tutte le modifiche apportate alla pagina nel Compositore esperienza visivo. Ogni modifica apportata viene visualizzata come un’azione o un elemento separato [!UICONTROL nell’elenco delle modifiche].
 
 ![](assets/codeeditor_page_mods.png)
 
@@ -187,7 +187,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]per:**
    </script> 
    ```
 
-* Aggiungi i modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di marketer. Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo). I casi di utilizzo includono lightbox, giostre, countdown e altro ancora.
+* Aggiungi i modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo). I casi di utilizzo includono lightbox, giostre, countdown e altro ancora.
 
    Per ulteriori informazioni, consulta [Modelli di esperienza](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
