@@ -1,7 +1,7 @@
 ---
-description: Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di marketer.
+description: Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing.
 keywords: modello di esperienza;codice personalizzato;banner;lightbox;carosello;conto alla rovescia;barra multifunzione;pulsanti
-seo-description: Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di marketer.
+seo-description: 'Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. '
 seo-title: Modelli di esperienza
 solution: Target
 subtopic: Editor di codice
@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Modelli di esperienza{#experience-templates}
 
-Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per eseguire casi comuni di utilizzo di marketer.
+Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. 
 
 Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo).
 
