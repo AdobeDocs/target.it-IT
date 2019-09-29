@@ -127,7 +127,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 ## App mobili
 
 * [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
-* [Target for mobile apps FAQ](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Generazione di rapporti
 
