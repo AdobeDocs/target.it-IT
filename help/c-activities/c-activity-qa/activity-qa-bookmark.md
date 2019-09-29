@@ -2,7 +2,7 @@
 description: Informazioni utili per utilizzare il bookmarklet Adobe Target per imporre a Target di rilasciarvi dalla modalità di controllo qualità.
 keywords: qa;anteprima;bookmarklet;collegamenti di anteprima
 seo-description: Informazioni utili per utilizzare il bookmarklet Adobe Target per imporre a Target di rilasciarvi dalla modalità di controllo qualità.
-seo-title: bookmarklet Attività QA per Adobe Target
+seo-title: Activity QA bookmarklet for Adobe Target
 solution: Target
 title: Bookmarklet di controllo qualità delle attività
 topic: Advanced,Standard,Classic
