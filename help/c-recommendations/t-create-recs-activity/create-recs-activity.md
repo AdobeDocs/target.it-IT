@@ -171,6 +171,6 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video di formazione: Creare un'attività di Recommendations (7:15)
+## Video di formazione: Creare un’attività Consigli (7:15)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688?captions=ita)
