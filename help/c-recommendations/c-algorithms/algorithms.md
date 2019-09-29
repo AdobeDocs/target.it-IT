@@ -1,7 +1,7 @@
 ---
 description: I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
-keywords: consigli;attività di consigli;criteri; algoritmo
-seo-description: I criteri in Adobe Target sono regole che determinano quali prodotti raccomandare in base a un set predeterminato di comportamenti dei visitatori.
+keywords: consigli;attività di consigli;criteri;algoritmo
+seo-description: In Adobe Target, i criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
 seo-title: Criteri
 solution: Target
 title: Criteri
@@ -71,9 +71,9 @@ Tutti i criteri di un giorno vengono eseguiti due volte al giorno. Tutti i crite
 
 Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il mouse su una scheda e fai clic sull'icona Informazioni sulla scheda dei criteri, senza aprirli.
 
-![Passaggio della scheda dei criteri](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
+![Passaggio del cursore sulla scheda Criteri](/help/c-recommendations/c-algorithms/assets/criteria_hover.png)
 
-Fai clic sulla scheda **[!UICONTROL Informazioni Algoritmo]** per visualizzare le informazioni generali sui criteri selezionati, tra cui Nome, Descrizione, Verticale, Tipo di pagina/e, Chiave/i, Logica Consiglio e ID algoritmo.
+Fai clic sulla scheda **[!UICONTROL Informazioni algoritmo]** per visualizzare le informazioni generali sui criteri selezionati, tra cui Nome, Descrizione, Verticale, Tipo di pagina/e, Chiave/i, Logica Consiglio e ID algoritmo.
 
 ![Scheda Informazioni algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
@@ -93,7 +93,7 @@ La figura seguente mostra il diagramma dell'attività nella pagina Panoramica di
 
 ![Stato dei criteri nella pagina Panoramica](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
 
-I risultati dello Status includono Risultati Pronti, Risultati Non Pronti e Feed non riuscito, come illustrato nel diagramma seguente:
+I risultati dello stato includono Risultati pronti, Risultati non Pronti e Feed non riuscito, come illustrato nel diagramma seguente:
 
 ![](assets/criteria_status_multi.png)
 
