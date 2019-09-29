@@ -15,17 +15,17 @@ source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
 ---
 
 
-# ![TARGET](/help/assets/premium.png) Targeting automatico{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Targeting automatico{#auto-target}
 
 La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automatico avanzato per scegliere tra più esperienze definite dall’addetto al marketing al fine di personalizzare il contenuto e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 
 >[!NOTE]
 >
->La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. For more information about the advanced features this license provides, see [Target Premium](/help/c-intro/intro.md).
+>La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
 
-Durante la [creazione di un’attività A/B tramite il flusso di lavoro guidato in tre passaggi](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), è possibile scegliere di allocare il traffico utilizzando l’opzione [!UICONTROL Targeting automatico per Esperienze personalizzate]:
+Durante la [creazione di un’attività A/B tramite il flusso di lavoro guidato in tre passaggi](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), è possibile scegliere di allocare il traffico utilizzando l’opzione [!UICONTROL Targeting automatico per esperienze personalizzate]:
 
-![Destinazione automatica per l'opzione personalizzata](/help/c-activities/assets/auto-target-ui-new.png)
+![Opzione Targeting automatico per esperienze personalizzate](/help/c-activities/assets/auto-target-ui-new.png)
 
 ## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -72,19 +72,19 @@ L’elenco a discesa [!UICONTROL Personalizza allocazione] consente di scegliere
 * Massimizza traffico di personalizzazione
 * Personalizza allocazione
 
-![Elenco a discesa Obiettivo allocazione](/help/c-activities/assets/split-new.png)
+![Elenco a discesa Obiettivo di allocazione](/help/c-activities/assets/split-new.png)
 
 | Obiettivo dell’attività | Allocazione del traffico consigliata | Compromessi |
 |--- |--- |--- |
-| **Valuta algoritmo di personalizzazione (50/50)**: Se l'obiettivo è quello di testare l'algoritmo, utilizzate una suddivisione di 50/50 percento di visitatori tra il controllo e l'algoritmo di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. Consigliato per l'utilizzo con «esperienze casuali» come controllo. | 50% al controllo / 50% all’esperienza personalizzata. | <ul><li>Massimizza la precisione dell'incremento tra controllo e personalizzazione</li><li>Un numero relativamente inferiore di visitatori avrà un'esperienza personalizzata</li></ul> |
-| **Massimizza traffico personalizzazione (90/10)**: Se l'obiettivo è quello di creare un'attività «sempre attivata», mettete il 10% dei visitatori nel controllo per assicurarvi che i dati necessari agli algoritmi continuino a essere apprendimento nel tempo. In questo caso, considera che la personalizzazione di una proporzione maggiore del traffico va a scapito della precisione nell’incremento rilevato. Indipendentemente dall'obiettivo, si tratta della suddivisione del traffico consigliata quando si utilizza un'esperienza specifica come controllo. | Una buona pratica è quella di allocare 10%-30% al controllo / 70%-90% all’esperienza personalizzata | <ul><li>Massimizza il numero di visitatori che ricevono un'esperienza personalizzata</li><li>Massimizza l'incremento</li><li>Meno precisione nel determinare l'incremento per l'attività</li></ul> |
+| **Valuta algoritmo di personalizzazione (50/50)**: se l’obiettivo è quello di testare l’algoritmo, assegna il 50% dei visitatori all’algoritmo di controllo e l’altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. È consigliata quando il controllo è impostato su “Esperienze casuali”. | 50% al controllo / 50% all’esperienza personalizzata. | <ul><li>Massimizza la precisione dell'incremento tra controllo e personalizzazione</li><li>Un numero relativamente inferiore di visitatori avrà un'esperienza personalizzata</li></ul> |
+| **Massimizza traffico personalizzazione (90/10)**: se il tuo obiettivo è invece quello di creare un’attività “sempre attiva”, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, considera che la personalizzazione di una proporzione maggiore del traffico va a scapito della precisione nell’incremento rilevato. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica. | Una buona pratica è quella di allocare 10%-30% al controllo / 70%-90% all’esperienza personalizzata | <ul><li>Massimizza il numero di visitatori che ricevono un'esperienza personalizzata</li><li>Massimizza l'incremento</li><li>Meno precisione nel determinare l'incremento per l'attività</li></ul> |
 | **Personalizza allocazione** | Suddividi manualmente la percentuale come desiderato. | <ul><li>Potresti non ottenere i risultati desiderati. Se non sei sicuro, segui i suggerimenti per una delle opzioni precedenti</li></ul> |
 
 Per regolare la percentuale di controllo, fai clic sulle icone nella colonna Allocazione. Non è possibile ridurre il gruppo di controllo sotto il 10%.
 
-![Modifica allocazione traffico automatico](/help/c-activities/assets/auto-target-control.png)
+![Cambiare l’allocazione del traffico per Targeting automatico](/help/c-activities/assets/auto-target-control.png)
 
-[Potete selezionare un'esperienza specifica da usare come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md) oppure utilizzare l'opzione Casuale esperienza.
+Puoi [selezionare un’esperienza specifica da usare come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md) oppure utilizzare l’opzione Esperienza casuale.
 
 ## Quando scegliere il [!UICONTROL Targeting automatico] rispetto alla Personalizzazione automatizzata? {#section_BBC4871C87944DD7A8B925811A30C633}
 
@@ -139,7 +139,7 @@ Per il [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole
 
 **Il[!UICONTROL Targeting automatico]ha una funzionalità di installazione completa.**
 
-* Poiché è incorporato nel flusso di lavoro di attività A/B, il [!UICONTROL Targeting automatico] beneficia di un Compositore esperienza visivo molto maturo e completo. Puoi anche sfruttare i [collegamenti di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con il [!UICONTROL Targeting automatico].
+* Poiché è incorporato nel flusso di lavoro di attività A/B, il [!UICONTROL Targeting automatico] beneficia di un Compositore esperienza visivo molto maturo e completo.  Puoi anche sfruttare i [collegamenti di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con il [!UICONTROL Targeting automatico].
 
 **Il[!UICONTROL Targeting automatico]fornisce un ampio framework di test online.**
 
@@ -209,13 +209,13 @@ No, per iniziare la personalizzazione occorrono almeno due modelli generati nell
 
 Puoi iniziare a esaminare i risultati dei test di [!UICONTROL Targeting automatico] quando disponi di almeno due esperienze con modelli generati (segno di spunta verde) nell’attività che presenta modelli generati.
 
-**Posso specificare un'esperienza specifica da usare come controllo?**
+**Posso specificare un’esperienza specifica da usare come controllo?**
 
-You can select an experience to be used as control while creating an [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) or [Auto-Target](/help/c-activities/auto-target-to-optimize.md) (AT) activity.
+Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
 
-Questa funzione consente di indirizzare l'intero traffico di controllo a un'esperienza specifica, in base alla percentuale di allocazione del traffico configurata nell'attività. Potete quindi valutare i rapporti sulle prestazioni del traffico personalizzato contro il controllo del traffico verso quella singola esperienza.
+Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo.
 
-For more information, see [Use a specific experience as control](/help/c-activities/t-automated-personalization/experience-as-control.md).
+Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -227,9 +227,9 @@ Sono disponibili diverse modifiche dell’impostazione dell’attività che poss
 
 **Soluzione:** esamina l’impostazione dell’attività e verifica se ci sono modifiche che intendi apportare per migliorare la velocità con cui i modelli vengono generati.
 
-* Se la metrica di successo è impostata su RPV, puoi modificare la conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli. Non perderai i dati di attività se modifichi la metrica di successo da RPV a conversione.
+* Se la metrica di successo è impostata su RPV, è possibile modificare la conversione? Le attività di conversione tendono a richiedere meno traffico per la generazione dei modelli. Non perderai i dati di attività se modifichi la metrica di successo da RPV a conversione.
 * La metrica del successo è molto in basso nel funnel di vendita dalle esperienze dell’attività? Con un tasso di conversione basso, la generazione dei modelli richiederà più traffico poiché è necessario un numero minimo di conversioni.
-* Puoi eliminare alcune esperienze dalla tua attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
+* È possibile eliminare alcune esperienze dall’attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
 * Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiori sono il traffico e le conversioni nelle posizioni dell’attività, più rapidamente verranno generati i modelli.
 
 **La mia attività di[!UICONTROL Targeting automatico]non genera alcun incremento.**
