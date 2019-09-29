@@ -22,7 +22,7 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 >
 >Il tracciamento dei clic non è supportato nella mbox globale di destinazione quando viene utilizzata come posizione in un’attività basata su modulo.
 
-## Setting Up click tracking {#section_5540C5A533114E57BAE022A600B02E72}
+## Impostazione del tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Quando imposterai gli obiettivi dell'attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
 1. Per eseguire tale azione, seleziona **[!UICONTROL Scegli un elemento]**, quindi fai clic su **[!UICONTROL Seleziona elementi]**.
@@ -35,33 +35,33 @@ Target ti consente di tenere traccia dei clic su qualsiasi elemento come metrica
 
 1. Fai clic sul segno di spunta nella parte superiore dello schermo per salvare le selezioni.
 
-Quando un partecipante all'attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
+Quando un partecipante all’attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
-## Selected Elements panel {#selected-elements}
+## Pannello Elementi selezionati {#selected-elements}
 
-For A/B Test, Experience Targeting (XT), Automated Personalization (AP), and Multivariate Test (MVT) activities, a [!UICONTROL Selected Elements] panel lists all of the selected elements for click tracking on the right side.
+Per le attività Test A/B, Targeting esperienza, Personalizzazione automatizzata e Test multivariato, nel pannello [!UICONTROL Elementi selezionati] a destra vengono elencati tutti gli elementi selezionati per il tracciamento dei clic.
 
 ![Pannello Elementi selezionati](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-There are a several actions that can be applied when you hover over an element in the [!UICONTROL Selected Elements] panel. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
+Puoi applicare diverse azioni quando passi il cursore su un elemento nel pannello [!UICONTROL Elementi selezionati]. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
 
 | Azione | Descrizione |
 | --- | --- |
 | Informazioni | Visualizza il tipo di elemento e il percorso DOM completo del selettore. |
 | Modifica | Consente di modificare il selettore CSS. |
-| Elimina | Elimina l'elemento. |
+| Elimina | Elimina l’elemento. |
 
 ### Aggiungi elemento
 
-Se conoscete già il percorso DOM del selettore, potete aggiungerlo manualmente facendo clic sull'icona più (+) nella parte superiore del pannello.
+Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente facendo clic sull’icona più (+) nella parte superiore del pannello.
 
 ![Icona Aggiungi elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### A comparsa Elementi selezionati
+### Menu a comparsa in Elementi selezionati
 
-After selecting multiple elements for click tracking, you can click the [!UICONTROL Elements Selected] link on the activity's [!UICONTROL Goals &amp; Settings] step to see the full list of elements selected for click tracking. L'elenco contiene il percorso DOM completo per l'elemento che consente di convalidare l'utilizzo dell'elemento selezionato per il monitoraggio dei clic.
+Dopo aver selezionato più elementi per il tracciamento dei clic, puoi fare clic sul collegamento [!UICONTROL Elementi selezionati] durante il passaggio [!UICONTROL Obiettivi e impostazioni] dell’attività per visualizzare l’elenco completo degli elementi selezionati per il tracciamento dei clic. L’elenco contiene il percorso DOM completo dell’elemento, che ti permette di convalidare facilmente l’utilizzo dell’elemento selezionato per il tracciamento dei clic.
 
-![Collegamento a Elements selezionato](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
+![Collegamento Elementi selezionati](/help/c-activities/r-success-metrics/assets/elements-selected-link.png)
 
 ## Considerazioni {#considerations}
 
@@ -84,7 +84,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    | Carattere | Descrizione |
    |---|---|
-   | # | Cancelletto o Hash |
+   | # | Cancelletto oppure Hash |
    | : | Due punti |
    | . | Punto |
    | $ | Simbolo del dollaro |
