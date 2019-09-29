@@ -36,11 +36,11 @@ Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](../../.
 
 1. (Condizionale) Fai clic su **[!UICONTROL Ripartizione settimanale e giornaliera]** per impostare pattern ricorrenti, inclusi giorni della settimana e ore.
 
-   ![Settimana e Analisi giorno](assets/week_and_day_parting.png)
+   ![Ripartizione settimanale e giornaliera](assets/week_and_day_parting.png)
 
    Puoi utilizzare le opzioni Ripartizione settimanale e giornaliera, ad esempio, per mostrare ai visitatori lʼopzione “Avvia chat” solo durante i giorni e gli orari in cui è attivo il call center.
 
-   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Se necessario, fai clic su **[!UICONTROL Aggiungi altro]per specificare altri pattern.**
+   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Se necessario, fai clic su **[!UICONTROL Aggiungi altro]** per specificare altri pattern.
 
    >[!NOTE]
    >
