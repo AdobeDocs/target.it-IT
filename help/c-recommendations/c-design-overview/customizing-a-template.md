@@ -19,7 +19,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
 
-## Velocity overview {#section_C431ACA940BC4210954C7AEFF6D03EA5}
+## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
 Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -37,7 +37,7 @@ I nomi delle variabili di Velocity sono limitati ai seguenti tipi di caratteri:
 
 * Alfabetico (a-z, A-Z)
 * Numerico (0-9)
-* Trattino (-)
+* Trattino ( - )
 * Sottolineatura (_)
 
 Le seguenti variabili sono disponibili come array di Velocity. In quanto tali, possono essere iterati o referenziati tramite index.
@@ -157,7 +157,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato in modo dinamico nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi inoltre utilizzare queste variabili per visualizzare il `dayCount` (numero di giorni di dati utilizzati nel criterio, come “articoli più venduti negli ultimi 2 giorni” ecc.
 
-## Scenario: Display key item with recommended products {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Scenario: visualizzare un articolo chiave con i prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l'articolo corrente, come riferimento.
 
@@ -180,7 +180,7 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l'el
 
 Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l'attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l'elemento chiave previsto.
 
-## Scenario: Replace the decimal point with the comma delimiter in a sales price {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Scenario: sostituisci il punto decimale con il delimitatore virgola in un prezzo di vendita {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 Puoi modificare la progettazione per sostituire il punto, utilizzato come separatore decimale negli Stati Uniti, con la virgola, che invece è utilizzata in Europa e in altri paesi.
 
@@ -206,15 +206,15 @@ Il codice seguente è un esempio completo di prezzo di vendita:
                                     </span>
 ```
 
-## Scenario: Create a 4x2 default Recommendations design with null-checking logic {#default}
+## Scenario: creare una progettazione predefinita di Recommendations 4x2 con logica di null-checking {#default}
 
-Using a Velocity script to control for dynamic sizing of the entity display, the following template accommodates a 1-to-many result to avoid creating empty HTML elements when there aren't enough matching entities returned from [!DNL Recommendations]. This script is best for scenarios when back-up recommendations wouldn't make sense and [!UICONTROL Partial Template Rendering] is enabled.
+Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitata l’opzione [!UICONTROL Rendering di modelli parziale].
 
-Lo snippet HTML seguente sostituisce la porzione HTML esistente nella progettazione predefinita da 4 x 2 (il CSS non è incluso qui, a scopo di brevità):
+Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazione predefinita da 4x2 (qui non è stato incluso il CSS per motivi di brevità):
 
-* If a fifth entity exists, the script inserts a closing div and opens a new row with `<div class="at-table-row">`.
-* With 4x2, the maximum results shown will be eight, but this could be customized for smaller or larger lists by modifying `$count <=8`.
-* Tenete presente che la logica non bilancia le entità su più righe. Ad esempio, se sono presenti cinque o sei entità, queste non diventeranno in modo dinamico tre in alto e due in basso (o tre in alto e tre in basso). La riga principale visualizzerà quattro elementi prima di iniziare una seconda riga.
+* Se esiste una quinta entità, lo script inserisce un div di chiusura e apre una nuova riga con `<div class="at-table-row">`.
+* Per il formato 4x2, il numero massimo di risultati visualizzati sarà otto, ma questo può essere ridotto o aumentato modificando `$count <=8`.
+* Tieni presente che la logica non bilancia le entità su più righe. Ad esempio, se devono essere visualizzate cinque o sei entità, queste non verranno disposte in modo dinamico tre in alto e due in basso (o tre in alto e tre in basso). Nella riga superiore verranno inseriti comunque quattro articoli prima di creare una seconda riga.
 
 ```
 <div class="at-table">
