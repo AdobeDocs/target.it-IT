@@ -16,7 +16,7 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 In Target Standard, le metriche di successo sono preconfigurate e possono essere utilizzate per la generazione di rapporti e per il tracciamento.
 
-Le metriche di successo sono parametri utilizzati per misurare il successo di un'attività. Le metriche di successo includono le misure aziendali chiave che consentono di determinare il successo di un'esperienza o un'offerta specifica in un'attività Target. Ad esempio, potete determinare se una nuova offerta aumenta le entrate per visitatore o aggiungere un elemento a un carrello. Le metriche di successo possono essere utili per scoprire i problemi con la registrazione, l'ordinazione o l'acquisto di funnel, ma anche semplicemente con il coinvolgimento dei visitatori o del cliente.
+Le metriche di successo sono parametri utilizzati per misurare il successo di un’attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività Target. Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
 In linea con il suo obiettivo di semplificare la creazione di test, [!DNL Target Standard] si occupa di alcune delle configurazioni che dovevano essere eseguite manualmente in [!DNL Target Classic]. Ad esempio, le metriche di successo sono preconfigurate con le opzioni ottimali.
 
@@ -75,9 +75,9 @@ Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utent
 
 | Quando un utente raggiunge la metrica obiettivo | Opzioni |
 |--- |--- |
-| Incrementa il conteggio e mantieni l’utente nell’attività | Specifica come viene incrementato il conteggio:<ul><li>Una volta per partecipante (impostazione predefinita)</li><li>Per ogni impression, escluso l’aggiornamento della pagina</li><li>Su ogni impression</li></ul> |
-| Incrementa il conteggio, rilascia l’utente e consenti di accedere di nuovo all’attività | Seleziona l’esperienza che il visitatore vede se accede di nuovo all’attività:<ul><li>Stessa esperienza (impostazione predefinita)</li><li>Esperienza casuale</li><li>Esperienza non visualizzata</li></ul> |
-| Incrementa il conteggio, rilascia l’utente e non consentire un nuovo accesso all’attività | Determina ciò che l’utente vede al posto del contenuto dell’attività:<ul><li>Stessa esperienza, senza tracciamento (impostazione predefinita)</li><li>Contenuto predefinito o contenuto di altra attività</li></ul> |
+| Incrementa il conteggio e mantieni l’utente nell’attività | Specifica come viene incrementato il conteggio:<ul><li>Una volta per partecipante (impostazione predefinita)</li><li>A ogni impression, escluso l’aggiornamento della pagina</li><li>A ogni impression</li></ul> |
+| Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso | Seleziona l’esperienza che il visitatore vede se accede di nuovo all’attività:<ul><li>Stessa esperienza (impostazione predefinita)</li><li>Esperienza casuale</li><li>Esperienza non visualizzata</li></ul> |
+| Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso | Determina ciò che l’utente vede al posto del contenuto dell’attività:<ul><li>Stessa esperienza, senza tracciamento (impostazione predefinita)</li><li>Contenuto predefinito o contenuto di altra attività</li></ul> |
 
 ## Video di formazione: Metriche di attività
 
