@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione adobe.target.triggerView (viewName, options) per at.js. '
-keywords: adobe. target. triggerview; Triggerview; attivazione,trigger view; at. js; funzioni; ; Viewname; viewname; view name
+keywords: adobe.target.triggerView;triggerView;triggerview;attiva visualizzazione;at.js;funzioni;funzione;viewName;viewname;nome visualizzazione
 seo-description: Informazioni sulla funzione adobe.target.triggerView (viewName, options) per la libreria at.js JavaScript di Adobe Target.
 seo-title: Informazioni sulla funzione adobe.target.triggerView (viewName, options) per la libreria at.js JavaScript di Adobe Target.
 solution: Target
@@ -25,11 +25,11 @@ source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
 | --- | --- | --- | --- |
 | viewName | Stringa | Sì | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
 | options | Oggetto | No |  |
-| options &gt; page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Se non viene associata alcuna esperienza di attività o metrica di attività alla visualizzazione, non viene inviata alcuna notifica.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+| options &gt; page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Se alla visualizzazione non è associata alcuna esperienza o metrica di attività, non viene inviata alcuna notifica.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
 ## Esempio: True
 
-`triggerView()` per inviare una notifica al backend Target per incrementare le impression dell'attività e altre metriche.
+Chiamata `triggerView()` per inviare una notifica al backend Target per incrementare le impression dell’attività e altre metriche.
 
 ```
 adobe.target.triggerView("homeView")
@@ -37,7 +37,7 @@ adobe.target.triggerView("homeView")
 
 ## Esempio: False
 
-`triggerView()` per evitare che vengano inviate notifiche al back-backend Target per il conteggio delle impression.
+Chiamata `triggerView()` per non inviare notifiche al backend Target per il conteggio delle impression.
 
 ```
 adobe.target.triggerView("homeView", {page: false})
