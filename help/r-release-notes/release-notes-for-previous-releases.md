@@ -23,17 +23,17 @@ Note sulla versione per le versioni precedenti di Target, incluse le note di ril
 
 ## Note sulla versione - 2019 {#releases-2019}
 
-### SDK Target Mobile VEC iOS 2.1.0 e Android 1.1.1 (7 agosto 2019)
+### SDK iOS 2.1.0 e Android 1.1.1 per il Compositore esperienza visivo di Target Mobile (7 agosto 2019)
 
-Questa versione di Mobile VEC SDK include i seguenti miglioramenti e correzioni:
+Questa versione dell’SDK per il Compositore esperienza visivo per dispositivi mobili include i miglioramenti e le correzioni seguenti:
 
 (I codici tra parentesi sono per uso interno di Adobe.)
 
-* È stato aggiunto il supporto per l’anteprima delle attività visive sui dispositivi mobili. (TGT-27875)
-* È stato risolto un problema che causava una violazione di Apple Standard a causa dell' `UIImagePickerController` utilizzo.
-* È stata rimossa la dipendenza GSON dall’SDK Android. (TGT-31710)
-* Sono state rimosse altre dipendenze ridondanti del livello (TGT-35479)
-* È stato risolto un problema che impediva il ripristino dell'offerta di consegna al momento dell'authoring. (TGT-35270)
+* È stato aggiunto il supporto per Attività visive su dispositivi mobili. (TGT-27875)
+* È stato risolto un problema che causava la violazione di Apple Standard a causa dell’utilizzo di `UIImagePickerController`.
+* È stata rimossa la dipendenza GSON dall’SDK per Android. (TGT-31710)
+* Sono state rimosse altre dipendenze Gradle ridondanti (TGT-35479)
+* È stato risolto un problema che impediva il ripristino dell’offerta di consegna in fase di creazione. (TGT-35270)
 
 ### Target Standard/Premium 19.7.1 (24 luglio 2019) {#tgt-19-7-1}
 
@@ -43,36 +43,36 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Compositore esperienza visivo per app mobile | Il nuovo pannello Modifiche del Compositore esperienza visivo per app mobile presenta gli elementi impostati per il tracciamento dei clic. (TGT-31741)<br> Consultate [Configurare il tracciamento dei clic nell'app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md)mobile. |
+| Compositore esperienza visivo per app mobile | Il nuovo pannello Modifiche del Compositore esperienza visivo per app mobile presenta gli elementi impostati per il tracciamento dei clic. (TGT-31741)<br> Consulta [Configurare il tracciamento dei clic nel Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/set-up-click-tracking-in-the-mobile-vec.md). |
 | ![Badge Premium](/help/assets/premium.png)<br>Consigli in attività di Test A/B e Targeting delle esperienze | Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella pagina Panoramica per le attività Test A/B e Targeting delle esperienze che contengono offerte di tipo Consigli. Gli stati includono: Risultati pronti, Risultati non pronti ed Errore di feed. (TGT-33649)<br>Consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md#status). |
-| Supporto per il tracciamento tra domini diversi per at.js 2.0+ tramite la libreria Experience Cloud ID (ECID) | In precedenza, il tracciamento tra domini diversi non era supportato in at.js 2.*x*. Con questa versione, i clienti che usano at.js 2.0 o versioni successive possono utilizzare il tracciamento tra domini diversi tramite la libreria ECID. Per il corretto funzionamento del tracciamento tra domini diversi, la libreria ECID deve essere installata sulla pagina insieme at.js 2.0 o versione successiva. [È necessario utilizzare la libreria Experience Cloud ID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulta Supporto per il tracciamento [tra domini in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | I clienti di Target ora possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa release, Target introduce un'integrazione perfetta con la libreria ECID 4.3, che utilizza un cookie lato server per attenuare l'impatto di ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di distribuire la libreria [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) insieme alla libreria JavaScript di Target per attenuare eventuali release ITP future. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consultate [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Supporto per il tracciamento tra domini diversi per at.js 2.0+ tramite la libreria Experience Cloud ID (ECID) | In precedenza, il tracciamento tra domini diversi non era supportato in at.js 2.*x*. Con questa versione, i clienti che usano at.js 2.0 o versioni successive possono utilizzare il tracciamento tra domini diversi tramite la libreria ECID. Per il corretto funzionamento del tracciamento tra domini diversi, la libreria ECID deve essere installata sulla pagina insieme at.js 2.0 o versione successiva. [È necessario utilizzare la libreria Experience Cloud ID 4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) .<br>Consulta [Supporto del tracciamento tra più domini in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
+| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | I clienti di Target ora possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa release, Target introduce un'integrazione perfetta con la libreria ECID 4.3, che utilizza un cookie lato server per attenuare l'impatto di ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di distribuire la libreria [ECID 4.3+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) insieme alla libreria JavaScript di Target per attenuare eventuali release ITP future. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Miglioramenti, correzioni e modifiche**
 
-* È stato risolto un problema che impediva l'eliminazione dei valori di esclusione nelle attività di Recommendations durante l'aggiunta di valori duplicati. (TGT-34996)
-* Ora potete rimuovere una progettazione in un'attività di Recommendations dalla pagina Targeting (Passaggio 2 del flusso di lavoro guidato in tre parti). Per rimuovere una progettazione, è necessario che sia selezionata più di una. (TGT-35118)
-* È stato risolto un problema che impediva il caricamento corretto o modificabile delle schede dei criteri personalizzati per alcuni clienti nell'interfaccia di Target. (TGT-35170)
+* È stato risolto un problema che impediva la cancellazione dei valori di esclusione nelle attività Consigli durante l’aggiunta di valori duplicati. (TGT-34996)
+* Ora puoi rimuovere una progettazione in un’attività Consigli dalla pagina Targeting (passaggio 2 del flusso di lavoro guidato in tre parti). Per poter rimuovere una progettazione, devono essere selezionate più di una progettazione. (TGT-35118)
+* È stato risolto un problema a causa del quale, per alcuni clienti, le schede dei criteri personalizzate non venivano caricate correttamente nell’interfaccia utente di Target o non potevano essere modificate. (TGT-35170)
 
 ### at.js versione 2.1.1 (24 luglio 2019)
 
-Questa versione di at.js è una versione di manutenzione e include i seguenti miglioramenti e correzioni:
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
 (I codici tra parentesi sono per uso interno di Adobe.)
 
-* È stato risolto un problema che causava l'attivazione di più beacon quando si utilizzava la metrica Monitoraggio clic nella pagina Goals &amp; Settings (Obiettivi e impostazioni) in Visual Experience Composer (VEC) (Compositore esperienza visivo). (TNT-32812)
-* È stato risolto un problema che impediva `triggerView()` il rendering delle offerte più di una volta. (TNT-32780)
-* È stato risolto un problema con `triggerView()` cui verificare che la richiesta contenga informazioni Marketing Cloud ID (MCID). (TNT-32776)
-* È stato risolto un problema che impediva l'attivazione della `triggerView()` notifica anche in assenza di viste salvate. (TNT-32614)
-* È stato risolto un problema che causava un errore a causa dell'utilizzo di decodeURIcomponent che causava problemi quando l'URL conteneva un parametro di stringa query non valido. (TNT-32710)
-* Il flag beacon ora è impostato su "true" nel contesto delle richieste di consegna inviate tramite l' `Navigator.sendBeacon()` API. (TNT-32683)
-* È stato risolto un problema che impediva la visualizzazione delle offerte di Recommendations sui siti Web per alcuni clienti. I clienti potevano vedere il contenuto dell'offerta nella chiamata API di consegna, ma l'offerta non era applicata sul sito Web. (TNT-32680)
-* È stato risolto un problema che impediva il funzionamento del monitoraggio dei clic tra più esperienze come previsto. (TNT-32644)
-* È stato risolto un problema che impediva a at.js di applicare la seconda metrica dopo il mancato rendering della prima metrica. (TNT-32628)
-* È stato risolto un problema durante il passaggio `mboxThirdPartyId` utilizzando la `targetPageParams` funzione che impediva la presenza del payload della richiesta nei parametri della query o nel payload della richiesta. (TNT-32613)
-* È stato risolto un problema che causava il blocco delle risposte di visualizzazione e di notifica clic nei browser basati su Chromio (incluso Google Chrome). (TNT-32290)
+* È stato risolto un problema a causa del quale venivano attivati più beacon quando si utilizzava la metrica Tracciamento dei clic nella pagina Obiettivi e impostazioni nel Compositore esperienza visivo. (TNT-32812)
+* È stato corretto un problema a causa del quale `triggerView()` non poteva eseguire il rendering delle offerte più di una volta. (TNT-32780)
+* È stato corretto un problema relativo a `triggerView()` per fare sì che la richiesta contenga informazioni Experience Cloud ID (ECID). (TNT-32776)
+* È stato risolto un problema a causa del quale la notifica `triggerView()` non veniva attivata nonostante l’assenza di visualizzazioni salvate. (TNT-32614)
+* È stato risolto un problema che provocava un errore a causa dell’utilizzo di decodeURIcomponent e si verificavano problemi se l’URL conteneva un parametro di stringa query non valido. (TNT-32710)
+* Il flag beacon ora è impostato su “true” nel contesto di richieste di consegna inviate tramite l’API `Navigator.sendBeacon()`. (TNT-32683)
+* È stato risolto un problema che, per alcuni clienti, impediva la visualizzazione delle offerte Consigli sui siti web. I clienti potevano vedere i contenuti delle offerte nella chiamata API per la consegna, ma l’offerta non veniva applicata al sito web. (TNT-32680)
+* È stato risolto un problema di funzionamento imprevisto del tracciamento dei clic tra più esperienze. (TNT-32644)
+* È stato risolto un problema che impediva ad at.js di applicare la seconda metrica dopo un errore nel rendering della prima metrica. (TNT-32628)
+* È stato risolto un problema nel passare `mboxThirdPartyId` utilizzando la funzione `targetPageParams`, a causa del quale il payload della richiesta non veniva incluso nei parametri della query o nel payload della richiesta. (TNT-32613)
+* È stato risolto un problema a causa del quale, nei browser basati su Chromium (incluso Google Chrome), venivano bloccate le risposte alle notifiche di visualizzazione o clic. (TNT-32290)
 
-For information about this and previous versions of at.js, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Per informazioni su questa versione e sulle versioni precedenti di at.js, consulta [Dettagli della versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Target Standard/Premium 19.6.1 (26 giugno 2019) {#tgt-19-6-1-historical}
 
@@ -86,7 +86,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | Compositore esperienza visivo per app a pagina singola (SPA VEC) | **Flusso di lavoro guidato**: un nuovo flusso di lavoro guidato consente di comprendere in che modo configurare le impostazioni delle regole di consegna pagina per eseguire correttamente un’attività per l’app a pagina singola. (TGT-33718)<br> Consulta [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md#page-delivery-settings).<br>**Modifiche apportate alla funzione Clona**: ora puoi definire una modifica utilizzando il Compositore esperienza visivo per app a pagina singola e quindi clonarla per utilizzarla in altre viste nell’app a pagina singola. (TGT-33882)<br>Consulta [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md). |
 | Compositore esperienza visivo mobile | **Più versioni di un’app**: ora puoi creare le attività per più versioni di un’app mobile. Questo ti consente di lavorare in modo più semplice e rapido quando le versioni sono simili e non devi modificare significativamente l’interfaccia utente dell’app. (TGT-34231)<br>Consulta “Gestire più versioni di app” in [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#using-the-mobile-vec). |
 | ![Badge Premium](/help/assets/premium.png) Personalizzazione automatizzata e Targeting automatico | **Specificare come controllo un’esperienza specifica**: è possibile selezionare un’esperienza da utilizzare come controllo durante la creazione di un’attività Personalizzazione automatizzata e Targeting automatico. Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo. L’opzione di controllo corrente (esperienza distribuita in modo casuale) continuerà a essere disponibile. (TGT-32801, TGT-26572 e TGT-26571)<br>Consulta [Selezionare il controllo per un’attività di Personalizzazione automatizzata o Targeting automatico](/help/c-activities/t-automated-personalization/experience-as-control.md). Tieni presente che per questa funzione è presente un [problema noto corrente](/help/r-release-notes/known-issues-resolved-issues.md).<br>**Rapporti Approfondimenti personalizzazione**: la denominazione intuitiva degli attributi quando un visitatore visualizza contenuti specifici in una posizione specifica fornisce informazioni più significative. (TGT-33421 e TGT-34957)<br>Consulta [Raccolta di dati per gli algoritmi di personalizzazione Target](/help/c-activities/t-automated-personalization/ap-data.md). |
-| ![Badge Premium](/help/assets/premium.png) Recommendations | È possibile utilizzare l’opzione Consiglia articoli acquistati in precedenza durante la creazione della logica Articoli visualizzati di recente. (TGT-34030)<br>For more information, see [Recently Viewed Items](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in "Create criteria." |
+| ![Badge Premium](/help/assets/premium.png) Recommendations | È possibile utilizzare l’opzione Consiglia articoli acquistati in precedenza durante la creazione della logica Articoli visualizzati di recente. (TGT-34030)<br>Per ulteriori informazioni, consulta [Articoli visualizzati di recente](/help/c-recommendations/c-algorithms/create-new-algorithm.md#previously-purchased) in “Creare criteri”. |
 | Criteri per cookie SameSite di Google Chrome | Google ha recentemente annunciato che, a partire da Chrome 76, il cui rilascio è previsto per il 30 luglio 2019, gli sviluppatori devono specificare esplicitamente quali cookie possono funzionare tra siti web diversi e quali cookie possono tracciare gli utenti.<br>Nel settore si fanno grandi progressi nella creazione di un web più sicuro per i consumatori, e Target conferma il suo impegno costante nel distribuire esperienze personalizzate rispettando e superando le aspettative dei visitatori sulla privacy.<br>Consulta [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md). |
 
 ### at.js versione 2.1.0 (3 giugno 2019) {#atjs-210}
@@ -252,7 +252,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>at.js 1.6.3 </p> </td> 
+   <td colname="col1"> <p>Payload JSON di at.js 1.6.3 </p> </td> 
    <td colname="col2"> <p>È ora disponibile la versione 1.6.3 di at.js. </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>I selettori sono ora in sequenza CSS se contengono ID o classi CSS che iniziano con una cifra, due trattini o un trattino seguito da una cifra (ad esempio #-123). (TNT-31061) </p> </li> 
@@ -339,7 +339,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e 
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p>at.js 1.6.2 </p> </td> 
+   <td colname="col1"> <p>Payload JSON di at.js 1.6.2 </p> </td> 
    <td colname="col2"> <p>Questa è una versione di manutenzione e risolve il seguente problema: </p> <p> 
      <ul id="ul_2C7CB74B1AAF4B52B6EB382977F7DC28"> 
       <li id="li_07CF8EDB25E24A7AB9B7A0F3402BAEB1"> <p>Risolto un problema che portava a un ciclo “async” infinito in alcuni siti clienti. </p> </li> 
@@ -365,7 +365,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 <table id="table_7ABC8E7477194D4C8C9E82ECE60E3498"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funzione / Miglioramento </th> 
+   <th colname="col1" class="entry"> Funzionalità/Miglioramento </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -403,7 +403,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 <table id="table_4785030753B24AA1A973E1DF790B83DD"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funzione / Miglioramento </th> 
+   <th colname="col1" class="entry"> Funzionalità/Miglioramento </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -453,7 +453,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 <table id="table_7E3513EABA4948DC92EADCCE0234A9FF"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funzione / Miglioramento </th> 
+   <th colname="col1" class="entry"> Funzionalità/Miglioramento </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -540,7 +540,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 <table id="table_5A60FFE5E86148F4BDC6A7031D03D6BA"> 
  <thead> 
   <tr> 
-   <th colname="col1" class="entry"> Funzione / Miglioramento </th> 
+   <th colname="col1" class="entry"> Funzionalità/Miglioramento </th> 
    <th colname="col2" class="entry"> Descrizione </th> 
   </tr> 
  </thead>
@@ -614,7 +614,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col1"> <p>Script di profilo </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_F382C8E7708846A08676E1534BC92878"> 
-      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l'elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili. (TGT-28253) </p> <p>Per ulteriori informazioni, consulta la sezione Visualizzazione delle schede di informazioni sugli script di profilo in <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Attributi degli script di profilo </a>. </p> </li> 
+      <li id="li_70E89504525C4119B588C230DCE772E8"> <p>Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l’elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili. (TGT-28253) </p> <p>Per ulteriori informazioni, consulta la sezione Visualizzazione delle schede di informazioni sugli script di profilo in <a href="../c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2" format="dita" scope="local"> Attributi degli script di profilo </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -867,7 +867,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col2"> <p> 
      <ul id="ul_42D7C86043C94A7BBA5ED405B2902E3A"> 
       <li id="li_50F2A7D05AB244E18D263A476BD906B3"> <p>Ora puoi creare un pubblico con Intervallo di tempo senza date di inizio o di fine. In questo modo puoi utilizzare lo stesso pubblico in più attività (senza creare una copia del pubblico) controllando le date di inizio e di fine a livello di attività. Consulta <a href="../c-target/c-audiences/c-target-rules/time-frame.md#concept_0FE1E8DACD104F8B870B0BADE3197F0A" format="dita" scope="local">Intervallo di tempo</a>. (TGT-25975) </p> </li> 
-      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>La funzionalità Copia e modifica è disponibile per il pubblico solo attività: fai clic su Seleziona pubblico &gt; Solo attività, e passa il mouse su un pubblico. In precedenza, questa funzionalità esisteva solo per il pubblico di Librerie. Consulta <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">Creazione di un pubblico per sola attività</a>. (TGT-27410) </p> </li> 
+      <li id="li_6F08D63BC4F040859D51C47C3521C5E1"> <p>La funzionalità Copia e modifica è disponibile per il pubblico solo attività: fai clic su Seleziona pubblico &gt; Solo attività, e passa il mouse su un pubblico. In precedenza, questa funzionalità esisteva solo per il pubblico di Librerie. Consulta <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Creazione di un pubblico per sola attività</a>. (TGT-27410) </p> </li> 
       <li id="li_A8CF45E6DC37401AA273F7D6CF617524"> <p>Il pubblico solo attività può avere lo stesso nome in attività diverse. In precedenza, i nomi duplicati avrebbero comportato l’aggiunta di un timestamp: un pubblico duplicato denominato “Targeting per giorni feriali” verrebbe salvato come “Targeting per giorni feriali-1456732099201”. </p> <p>I tipi di pubblico della Libreria continua a richiedere nomi univoci. (TGT-17967) </p> </li> 
      </ul> </p> </td> 
   </tr> 
@@ -897,7 +897,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Newsletter di Adobe Target Insider </p> </td> 
-   <td colname="col2"> <p>Adobe Target Insider è una newsletter mensile per i membri della community di Adobe Target. Scopri aggiornamenti del prodotto e progetti futuri, suggerimenti e trucchi per la personalizzazione e l'ottimizzazione, storie di successo dai nostri clienti, i prossimi eventi, white paper ricchi di informazioni, articoli di blog e altro ancora. Per saperne di più, leggi la <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">lettera di annuncio</a>. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Iscriviti alla newsletter</a>: ti aiuterà a fornire ai clienti le esperienze eccezionali che sono alla base del successo aziendale. </p> </td> 
+   <td colname="col2"> <p>Adobe Target Insider è una newsletter mensile per i membri della community di Adobe Target. Scopri aggiornamenti del prodotto e progetti futuri, suggerimenti e trucchi per la personalizzazione e l’ottimizzazione, storie di successo dai nostri clienti, i prossimi eventi, white paper ricchi di informazioni, articoli di blog e altro ancora. Per saperne di più, leggi la <a href="https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/" format="https" scope="external">lettera di annuncio</a>. </p> <p> <a href="https://www.adobe.com/subscription/adobe_target_newsletter.html" format="html" scope="external"> Iscriviti alla newsletter</a>: ti aiuterà a fornire ai clienti le esperienze eccezionali che sono alla base del successo aziendale. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -990,7 +990,7 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
    <td colname="col1"> <p>Tipi di pubblico </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6E91AEC68A6E45D8B2907C77E752FEC6"> 
-      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Durante la creazione di un'attività, è possibile creare un pubblico solo attività all'interno del flusso di lavoro guidato in tre passaggi. Questo tipo di pubblico può essere utilizzato in altre posizioni all'interno della stessa attività, ma non viene memorizzato nella Libreria di pubblico per essere usato in altre attività. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local">Creazione di un pubblico per sola attività</a>. </p> </li> 
+      <li id="li_A5778B528358433DB31D700D8F9BCB79"> <p>Durante la creazione di un'attività, è possibile creare un pubblico solo attività all'interno del flusso di lavoro guidato in tre passaggi. Questo tipo di pubblico può essere utilizzato in altre posizioni all'interno della stessa attività, ma non viene memorizzato nella Libreria di pubblico per essere usato in altre attività. (TGT-25474) </p> <p> <img src="assets/adhoc_audience.png" id="image_32C7C8B72F51425595A2E266AEFA17E9" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483" format="dita" scope="local"> Creazione di un pubblico per sola attività</a>. </p> </li> 
       <li id="li_691812682A5B42C0941324F2BC7D5740"> <p>Per tutte le attività, puoi scegliere una metrica di successo che qualifica l’utente per un determinato tipo di pubblico. In passato, Target identificava gli utenti come idonei per un determinato tipo di pubblico al momento dell’accesso a un’attività. Ora invece puoi scegliere quando valutare il pubblico scegliendo una metrica di successo. (TGT-15805) </p> <p> <img src="assets/success_metric.png" id="image_0CEC6015A2C4429790A063FE54CC1A35" /> </p> </li> 
      </ul> </p> <p>Per ulteriori informazioni, consulta <a href="../c-target/apply-reporting-audience-success-metric.md#concept_5F11149ACCA84FE79C7B9F766B6B0595" format="dita" scope="local"> Applicare un pubblico di reportistica a una metrica di successo </a>. </p> </td> 
   </tr> 
@@ -1724,7 +1724,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> Consigli: inserimento di promozioni esterne </td> 
-   <td colname="col2"> <p>Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni dei consigli. </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local">Aggiunta di promozioni </a>. </p> </td> 
+   <td colname="col2"> <p>Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni dei consigli. </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14" format="dita" scope="local"> Aggiunta di promozioni </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>First Look</b> </p> Targeting automatico nelle attività A/B </td> 
@@ -1902,7 +1902,7 @@ La versione 16.8.1 di Adobe Target Standard/Premium (23 agosto 2016) prevede le 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Affinità tra categorie </p> </td> 
-   <td colname="col2"> <p>La funzione di affinità tra categorie acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente con la categoria in modo che possa essere indirizzata e segmentata. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic </span>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Affinità tra categorie </a>. </p> </td> 
+   <td colname="col2"> <p>La funzione di affinità tra categorie acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente con la categoria in modo che possa essere indirizzata e segmentata. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic </span>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local"> Affinità tra categorie </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attivare/disattivare il Compositore esperienza avanzato a livello di attività </p> </td> 
@@ -3039,7 +3039,7 @@ Questa versione include i seguenti miglioramenti:
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
-| Funzione/Miglioramento | Descrizione |
+| Funzionalità/Miglioramento | Descrizione |
 |---|---|
 | Consentire l'inserimento e la modifica di JavaScript | Aggiunta della possibilità di modificare e inserire JavaScript personalizzati nell'editor esperienze quando si seleziona **[!UICONTROL Modifica HTML]** nel menu azioni. |
 | Importazione automatica dei tipi di pubblico | Quando un utente apre l'elenco dei tipi di pubblico e i tipi di pubblico hanno una durata superiore a 10 minuti, questi vengono automaticamente importati in background. |
@@ -3056,7 +3056,7 @@ Questa versione include le seguenti correzioni:
 
 Questa versione include le seguenti nuove funzionalità e miglioramenti:
 
-| Funzione/Miglioramento | Descrizione |
+| Funzionalità/Miglioramento | Descrizione |
 |---|---|
 | Migliore sincronizzazione delle offerte HTML in [!DNL Target Classic] grazie all’aumento del limite di caratteri | Limite di caratteri di un'offerta HTML creata in Contenuto aumentato per allinearlo al limite di 256 KB delle offerte HTML, sincronizzato in [!DNL Target Classic]. |
 | Migliorata l'esperienza utente quando si genera un errore nell'editor Esperienze. | L'editor Esperienze mostra un messaggio quando le modifiche della struttura DOM nella pagina impediscono il funzionamento dei selettori. |
