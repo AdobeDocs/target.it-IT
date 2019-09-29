@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione adobe.target.applyOffer() per at.js. '
-keywords: adobe. target. applyoffer; Applyoffer; applyoffer; apply offer; at. js; funzioni; function
+keywords: adobe.target.applyOffer;applyOffer;applyoffer;applica offerta;at.js;funzioni;funzione
 seo-description: Informazioni sulla funzione adobe.target.applyOffer(options) per la libreria at.js JavaScript di Adobe Target.
 seo-title: Informazioni sulla funzione adobe.target.applyOffer() per la libreria at.js JavaScript di Adobe Target.
 solution: Target
