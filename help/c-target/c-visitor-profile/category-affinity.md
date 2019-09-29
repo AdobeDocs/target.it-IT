@@ -1,8 +1,8 @@
 ---
-description: La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+description: La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 keywords: affinità;affinità tra categorie
-seo-description: La funzionalità di affinità categoria in Adobe Target acquisisce automaticamente le categorie visitate da un utente, quindi calcola l'affinità dell'utente per la categoria in modo che possa essere utilizzata come destinazione e segmentata. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
-seo-title: Utilizzo dell'affinità di categoria in Adobe Target
+seo-description: La funzionalità di affinità tra categorie in Adobe Target acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+seo-title: Utilizzare l’affinità tra categorie in Adobe Target
 solution: Target
 title: Affinità tra categorie
 topic: Standard
@@ -15,13 +15,13 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 # Affinità tra categorie{#category-affinity}
 
-La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo aiuta ad assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 
 ## Passaggio di informazioni sull’affinità tra categorie in Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Ogni volta che un utente visita il tuo sito, i parametri di profilo specifici per tale visitatore vengono registrati nel database di [!DNL Target]. Questi dati sono associati al cookie dell’utente. Un parametro particolarmente utile è `user.categoryId`, un parametro mbox assegnato a una pagina di prodotto. Quando il visitatore continua a navigare, o torna per un’altra sessione, è possibile registrare le categorie di prodotti che l’utente visualizza. È inoltre possibile registrare le informazioni di categoria trasmettendole con il parametro mbox `user.categoryId` in qualsiasi mbox (compresa una mbox nidificata), come il parametro URL `user.categoryId` oppure come parametri di pagina Target con una mbox globale. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 
-Separate le categorie con una virgola per includere un elemento in più categorie. Ad esempio:
+Per includere un elemento in più categorie, separa le categorie con una virgola. Ad esempio:
 
 * `user.categoryId=clothing,shoes,nike,running,nike clothing,nike shoes,nike running shoes`
 
@@ -31,7 +31,7 @@ In base alla frequenza e recency delle visite alle categorie di prodotti, viene 
 
 >[!IMPORTANT]
 >
->The `user.categoryId` attribute used for Adobe Target's category affinity algorithm is distinct from the `entity.categoryId` attribute used for Adobe Target Recommendations' product and content recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare le raccomandazioni sulla categoria della pagina corrente o dell'elemento corrente. Passate entrambi i valori ad Adobe Target se desiderate utilizzare entrambe le funzionalità.
+>L’attributo `user.categoryId` utilizzato per l’algoritmo di affinità tra categorie di Adobe Target è diverso dall’attributo `entity.categoryId` utilizzato per i prodotti e contenuti consigliati di Adobe Target Recommendations. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare i consigli sulla categoria della pagina corrente o dell’elemento corrente. Per utilizzare entrambe le funzionalità, passa entrambi i valori ad Adobe Target.
 
 ## Business case per affinità tra categorie {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
@@ -117,11 +117,11 @@ Questa sezione contiene le seguenti informazioni:
 1. Fai clic su **[!UICONTROL + Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**.
 1. Nellʼelenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona **[!UICONTROL Affinità tra categorie]**.
 
-   ![Profilo visitatore &gt; Affinità categoria](assets/affinity.png)
+   ![Profilo visitatore &gt; Affinità tra categorie](assets/affinity.png)
 
 1. Seleziona la categoria desiderata:
 
-   ![Affinità categoria &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Affinità tra categorie &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    Le categorie includono:
 
