@@ -1,7 +1,7 @@
 ---
 description: La ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 keywords: catalogo;ricerca
-seo-description: La ricerca del catalogo in Adobe Target consente di individuare i prodotti o i contenuti del catalogo.
+seo-description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 seo-title: Ricerca nel catalogo in Adobe Target
 solution: Target
 title: Ricerca nel catalogo
@@ -19,7 +19,7 @@ source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
 
 La ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 
-Per accedere alla ricerca del catalogo, fate clic su **[!UICONTROL Recommendations (Raccomandazioni)]** &gt; **[!UICONTROL Catalog Search]**(Ricerca catalogo).
+Per accedere alla ricerca del catalogo, fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Ricerca nel catalogo]**.
 
 Puoi limitare la ricerca selezionando un’opzione di ricerca dal menu delle opzioni visualizzato facendo clic sulla freccia rivolta verso il basso nel campo di ricerca.
 
@@ -27,26 +27,26 @@ Puoi limitare la ricerca selezionando un’opzione di ricerca dal menu delle opz
 
 Le opzioni di ricerca includono:
 
-* ALL
+* TUTTO
 * Nome
-* Brand (Marchio)
+* Marchio
 * Categoria
 * ID
 * Messaggio
 
-**[!UICONTROL TUTTE]** le ricerche in tutti gli altri criteri di ricerca, utilizzando l’operatore logico OR.
+**[!UICONTROL TUTTO]** esegue la ricerca in tutti gli altri criteri di ricerca, utilizzando l’operatore logico OR.
 
-Nei risultati della ricerca, fai clic sul filtro **[!UICONTROL Ambiente]** per specificare l’ambiente del gruppo di host di produzione di cui stai visualizzando il catalogo. [](/help/administrating-target/hosts.md) Puoi inoltre scorrere tra gli elementi nei risultati di ricerca per visualizzare le miniature e altre informazioni sui prodotti.
+Nei risultati della ricerca, fai clic sul filtro **[!UICONTROL Ambiente]** per specificare l’[ambiente del gruppo di host](/help/administrating-target/hosts.md) di produzione di cui stai visualizzando il catalogo. Puoi inoltre scorrere tra gli elementi nei risultati di ricerca per visualizzare le miniature e altre informazioni sui prodotti.
 
 Il numero visualizzato accanto a "Prodotti" è il numero di prodotti corrispondenti al termine di ricerca, sul totale disponibile nell’ambiente specificato.
 
-Il catalogo viene aggiornato automaticamente quando gli aggiornamenti vengono ricevuti tramite file di feed, API o aggiornamenti mbox. In genere, gli aggiornamenti vengono completati entro un'ora. Se sono in corso aggiornamenti, viene visualizzato l'ora di inizio dell'aggiornamento più recente. Se non sono in corso aggiornamenti, viene visualizzato l'ora in cui viene visualizzato l'aggiornamento più recente e completato.
+Il catalogo viene aggiornato automaticamente quando si ricevono aggiornamenti tramite file di feed, API o aggiornamenti di mbox. In genere, gli aggiornamenti vengono completati entro un’ora. Se sono in corso degli aggiornamenti, viene visualizzata l’ora di inizio dell’aggiornamento più recente. Se non vi sono aggiornamenti in corso, viene visualizzata l’ora di inizio e di fine dell’aggiornamento più recente.
 
-## Creare una raccolta o un'esclusione in base alla ricerca avanzata
+## Creare una raccolta o un’esclusione in base alla ricerca avanzata
 
-You can create [collections](/help/c-recommendations/c-products/collections.md) or [exclusions](/help/c-recommendations/c-products/exclusions.md) using Advanced Search on the Catalog Search page ([!UICONTROL Recommendations] &gt; [!UICONTROL Catalog Search] &gt; [!UICONTROL Advanced Search]).
+Puoi creare [raccolte](/help/c-recommendations/c-products/collections.md) o [esclusioni](/help/c-recommendations/c-products/exclusions.md) utilizzando la Ricerca avanzata nella pagina Ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
 
-![Salva come](/help/c-recommendations/c-products/assets/save-as.png)
+![Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
 Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta o Esclusione].
 
