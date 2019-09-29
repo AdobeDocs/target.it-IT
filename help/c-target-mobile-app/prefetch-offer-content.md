@@ -1,6 +1,6 @@
 ---
 description: La funzione di preacquisizione di Adobe Target utilizza gli SDK per dispositivi mobili iOS e Android per recuperare il contenuto delle offerte il minor numero di volte possibile, memorizzando nella cache le risposte dal server.
-keywords: offerta;preacquisizione;iOS;Android;sdk;mobile;sdk mobile;mobile
+keywords: offerta;preacquisizione;iOS;Android;sdk;mobile;mobile sdk
 seo-description: La funzione di preacquisizione di Adobe Target utilizza gli SDK per dispositivi mobili iOS e Android per recuperare il contenuto delle offerte il minor numero di volte possibile, memorizzando nella cache le risposte dal server.
 seo-title: Preacquisire il contenuto dell’offerta
 solution: Target
@@ -17,12 +17,12 @@ source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
 
 La funzione di preacquisizione di [!DNL Target] utilizza gli SDK per dispositivi mobili iOS e Android per recuperare il contenuto delle offerte il minor numero di volte possibile, memorizzando nella cache le risposte dal server.
 
-Questo processo consente di ridurre il tempo di caricamento, evita l’esecuzione di più chiamate di rete e permette di notificare ad [!DNL Target] quale elemento mbox è stato visitato dall’utente dell’app mobile. Tutto il contenuto viene recuperato e memorizzato nella cache durante la chiamata di preacquisizione, e questo viene recuperato dalla cache per tutte le chiamate future che contengono contenuto memorizzato nella cache per il nome mbox specificato.
+Questo processo consente di ridurre il tempo di caricamento, evita l’esecuzione di più chiamate di rete e permette di notificare ad [!DNL Target] quale elemento mbox è stato visitato dall’utente dell’app mobile. Tutto il contenuto viene recuperato e memorizzato in cache durante la chiamata di preacquisizione, e da qual momento viene richiamato dalla cache per tutte le chiamate future che includono quel contenuto per il nome di mbox specificato.
 
-Considerate quanto segue quando utilizzate il metodo di preacquisizione con gli SDK iOS e Android Mobile:
+Quando si usa il metodo di preacquisizione con gli SDK mobile per iOS e Android, considera quanto segue:
 
-* Il contenuto di preacquisizione non rimane tra un avvio dell'app e quello successivo. Viene memorizzato nella cache per tutto il tempo in cui l’app rimane attiva oppure fino alla chiamata del metodo `clearPrefetchCache()`.
-* La funzionalità di recupero preventivo negli SDK iOS e Android Mobile non è supportata per i tipi di attività Auto Target, Auto Allocate e Automated Personalization (Personalizzazione automatica).
+* Il contenuto di preacquisizione non rimane tra un avvio dell’app e quello successivo. Viene memorizzato nella cache per tutto il tempo in cui l’app rimane attiva oppure fino alla chiamata del metodo `clearPrefetchCache()`.
+* La funzionalità di preacquisizione negli SDK mobile per iOS e Android non è supportata per i tipi di attività Targeting automatico, Allocazione automatica e Personalizzazione automatizzata.
 
 Per ulteriori informazioni, inclusi i metodi di preacquisizione, le classi pubbliche e gli esempi di codice, vedi:
 
