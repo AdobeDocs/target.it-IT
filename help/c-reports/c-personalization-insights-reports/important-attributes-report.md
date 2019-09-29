@@ -113,15 +113,15 @@ Il punteggio di importanza nella sezione “Classifica di Importanza degli Attri
 
 **Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?**
 
-Esistono diversi motivi potenziali per vedere più visite a un'offerta/esperienza di conversione inferiore all'interno di un segmento automatizzato, inclusi:
+Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esperienza a basso tasso di conversione in un segmento automatizzato, tra cui:
 
-* Un basso numero di visite ad alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
-* Attività più basse in cui determinate offerte o esperienze non sono dotati di modelli.
-* Attività più basse in cui i modelli venivano creati prima per alcune offerte/esperienze rispetto ad altri. Ad esempio, supponiamo che un modello aggiuntivo sia stato creato il giorno 22 e che i dati vengano visti dai giorni 10-24.
-* Regole di targeting su un'offerta specifica che limita i visitatori in grado di vedere quali offerte o esperienze sono disponibili.
-* Non ci sono intervalli di confidenza nella generazione dei rapporti. Tuttavia, se i tassi di conversione sono sufficientemente vicini, il modello potrebbe distribuire il traffico in modo che sia più elevato nell'importo in punti, ma non i numeri statisticamente diversi.
+* Un basso numero di visualizzazioni per alcune o tutte le offerte/esperienze per un determinato segmento automatizzato.
+* Attività dal volume ridotto con alcune offerte o esperienze prive di modelli.
+* Attività dal volume ridotto in cui i modelli sono stati creati prima per alcune offerte o esperienze rispetto ad altre. Questo si verifica, ad esempio, se un modello aggiuntivo è stato creato il giorno 22 e si esaminano i dati relativi ai giorni 10-24.
+* Regole di targeting di una particolare offerta in base alle quali alcuni visitatori non possono visualizzare una determinata offerta o esperienza.
+* Assenza di intervalli di affidabilità nella generazione dei rapporti Approfondimenti. Tuttavia, se i tassi di conversione non si discostano troppo, è possibile che il modello distribuisca il traffico in modo che sia più elevato nella quantità di punti, ma che i numeri non siano “statisticamente diversi”.
 
-È utile sapere come funziona il modello per distribuire il traffico. Ogni individuo viene distribuito in base al suo profilo totale. Tuttavia, i report Approfondimenti generalizzano questo comportamento per renderlo più interpretografabile da un uomo. Di conseguenza, i segmenti non si escludono a vicenda. Questo può portare a singoli segmenti che mostrano questo tipo di comportamento, perché la stessa persona può essere visualizzata in più segmenti.
+È utile sapere come funziona il modello in base al quale viene distribuito il traffico. Ogni persona riceve i contenuti in base al suo profilo totale. Tuttavia, i rapporti Approfondimenti generalizzano questo comportamento per facilitarne l’interpretazione. Di conseguenza, i segmenti non si escludono a vicenda. Di conseguenza questo tipo di comportamento può interessare singoli segmenti perché una stessa persona può essere inclusa in più segmenti.
 
 **Come posso sfruttare le informazioni in Registri di personalizzazione?**
 
