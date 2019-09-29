@@ -72,7 +72,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    >
    >Le entità di criteri personalizzati (righe) possono contenere fino a 1.000 elementi consigliati (colonne).
 
-Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita “cumulativi”. Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti prive di chiavi specificate nel caricamento CSV continueranno a essere disponibili per la consegna e scadrà dopo 31 giorni dal momento in cui saranno caricate come parte del file CSV.
+Gli aggiornamenti dei criteri personalizzati sono per impostazione predefinita “cumulativi”. Le nuove coppie chiave-valore specificate nel file di caricamento CSV sovrascrivono le coppie chiave-valore esistenti. Le coppie chiave-valore esistenti prive di chiavi specificate nel file CSV caricato continueranno a essere disponibili per la consegna e scadranno dopo 31 giorni, a partire dal momento in cui sono state caricate con il file CSV.
 
 Contatta l'assistenza clienti per consentire l'eliminazione dei risultati esistenti non inclusi nel successivo caricamento CSV. Se questa impostazione è attivata, solo i tasti presenti nel file di feed CSV personalizzato saranno disponibili per la distribuzione. Questa impostazione si applica a tutti i criteri personalizzati.
 
@@ -93,9 +93,9 @@ Di seguito sono riportati i possibili messaggi di errore che si potrebbero ricev
 | Directory non trovata | Fornisci una directory esistente sul server. |
 | File non trovato | Fornisci il nome di un file sul server nella directory indicata. |
 
-## Video formazione: Creare criteri in Recommendations (12:33)
+## Video di formazione: Creare i criteri in Recommendations (12:33)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Creare criteri
 * Creare sequenze di criteri
