@@ -26,7 +26,7 @@ Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting 
 >
 >I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](../../administrating-target/hosts.md).
 >
->I report Approfondimenti personalizzazione sono generati solo per le attività che sono nello stato Attivo e che sono state attivate e ricevono il traffico per almeno 15 giorni.
+>I rapporti Personalization Insights sono generati solo per le attività che si trovano nello stato Live e sono state attivate e ricevono traffico per almeno 15 giorni.
 
 ## Panoramica sui rapporti di Registri di personalizzazione {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
@@ -34,7 +34,7 @@ L'obiettivo dei rapporti [!UICONTROL Registri di personalizzazione] è fornire m
 
 Poiché l’obiettivo dei rapporti Registri di personalizzazione è comprendere il criterio con cui i modelli di personalizzazione di Target assegnano a ciascun contenuto un visitatore, i rapporti Registri di personalizzazione riflettono solo un sotto-segmento di tutto il traffico gestito dall'attività di AP o AT. In particolare, i due rapporti riflettono tutto il traffico che ha utilizzato il modello di personalizzazione. In altre parole, i rapporti Registri di personalizzazione non considerano il traffico di controllo o il traffico gestito dal modello vincitore complessivo.
 
-Sono disponibili due report Approfondimenti personalizzati:
+Sono disponibili due rapporti Personalization Insights:
 
 | Rapporto | Dettagli |
 |--- |--- |
@@ -62,4 +62,4 @@ Target offre diverse opzioni per la trasmissione di dati a Target al fine di aum
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/?captions=ita)
 
-Per ulteriori informazioni, consulta [Utilizzo dei report personalizzazione di Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Per ulteriori informazioni, consulta [Utilizzo dei rapporti Personalization Insights in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
