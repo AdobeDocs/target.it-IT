@@ -1,7 +1,7 @@
 ---
 description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione.
 keywords: esclusioni
-seo-description: Create un elenco di esclusione in Adobe Target per evitare che gli elementi siano raccomandati.
+seo-description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione in Adobe Target.
 seo-title: Esclusioni in Adobe Target
 solution: Target
 title: Esclusioni
@@ -21,7 +21,7 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 >
 >Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**Per creare un'esclusione:**
+**Per creare un’esclusione:**
 
 1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Esclusioni]** per visualizzare l’elenco delle esclusioni esistenti.
 
@@ -43,23 +43,23 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Creazione di un'esclusione mediante la ricerca avanzata
+## Creare un’esclusione utilizzando Ricerca avanzata
 
 Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
 
-[Salva come](/help/c-recommendations/c-products/assets/save-as.png)
+[Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
-Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] &gt; [!UICONTROL Esclusione]. Per ulteriori informazioni, consultate [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
+Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] &gt; [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video formazione: Creazione di raccolte ed esclusioni in Recommendations (7:05)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Creare una raccolta
-* Creazione di un'esclusione
+* Creare un’esclusione
 
 >[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ita)
