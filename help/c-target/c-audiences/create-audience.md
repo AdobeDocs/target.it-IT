@@ -27,13 +27,13 @@ Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del p
 
 È possibile combinare entrambi gli operatori booleani per creare regole complesse. Tuttavia, gli operatori allo stesso livello di regola devono corrispondere. L'interfaccia utente applica automaticamente l'operatore corretto.
 
-For example, the following rule targets visitors who use either Chrome *or* Firefox on a Windows computer:
+Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome *oppure* Firefox su un computer Windows:
 
-![Creare audience](assets/audience_create.png)
+![Creare un pubblico](assets/audience_create.png)
 
 >[!NOTE]
 >
->Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. For example, it is not possible for someone to visit a page using Chrome *and* Firefox simultaneously.
+>Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente i browser Chrome *e* Firefox.
 
 ## Creare un nuovo pubblico
 
