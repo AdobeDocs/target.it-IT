@@ -18,9 +18,9 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 
 L’applicazione [!DNL Adobe Target] e la consegna dei contenuti sono stati testati su una vasta gamma di browser e dispositivi.
 
-Per ulteriori, importanti informazioni su TLS, vedi [Modifiche alla crittografia di TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+Per ulteriori importanti informazioni su TLS, vedi [Modifiche alla crittografia di TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
-## [!DNL Target] Interfaccia Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
+## [!DNL Target]Interfaccia di Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
 L’interfaccia di [!DNL [!DNL Target]] Standard/Premium supporta i seguenti browser e dispositivi:
 
@@ -29,7 +29,7 @@ L’interfaccia di [!DNL [!DNL Target]] Standard/Premium supporta i seguenti bro
 | Windows | <ul><li>Microsoft Edge</li><li>Google Chrome (ultima, ultima meno 1)</li><li>Mozilla Firefox (ultima, ultima meno 1)</li></ul> |
 | Mac | <ul><li>Firefox (ultima, ultima meno 1)</li><li>Chrome (ultima, ultima meno 1)</li></ul> |
 
-## Content delivery {#section_1045A946056441268D40025529918D3D}
+## Consegna dei contenuti {#section_1045A946056441268D40025529918D3D}
 
 La consegna dei contenuti è stata testata attraverso i seguenti browser e dispositivi:
 
