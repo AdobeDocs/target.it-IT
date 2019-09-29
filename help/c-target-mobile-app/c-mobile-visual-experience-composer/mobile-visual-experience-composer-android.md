@@ -1,8 +1,8 @@
 ---
 description: La nuova libreria SDK di Target consente agli sviluppatori di eseguire la configurazione delle app mobili Android una volta sola e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo mobile.
 keywords: VEC mobile;compositore esperienza visivo mobile;opzioni compositore;configurazione;android
-seo-description: La nuova libreria SDK di Adobe Target consente agli sviluppatori di effettuare una configurazione una tantum sulle app mobili Android e consente agli esperti di marketing di utilizzare le funzionalità di Mobile Visual Experience Composer (VEC).
-seo-title: Android - Impostazione dell'app mobile per Adobe Target
+seo-description: La nuova libreria SDK di Adobe Target consente agli sviluppatori di eseguire la configurazione delle app mobili Android una volta sola e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo mobile.
+seo-title: 'Android: configurare l’app mobile per Adobe Target'
 solution: Target
 title: 'Android: configurare l''app mobile'
 topic: Standard
@@ -299,18 +299,18 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
    public static void prefetchOffersBackground();
    ```
 
-## Esercitazione: Implementazione di Experience Cloud nelle applicazioni Android mobile {#tutorial}
+## Esercitazione: Implementare Experience Cloud nelle applicazioni Android per dispositivi mobili{#tutorial}
 
-* [Implementazione di Experience Cloud nelle applicazioni Android mobile](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
+* [Implementare Experience Cloud nelle applicazioni Android per dispositivi mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-android-apps-with-launch/index.html)
 
-Dopo aver completato questa esercitazione potrete:
+Dopo aver completato questa esercitazione, sarai in grado di:
 
-* Creare una proprietà di avvio mobile
-* Installazione di una proprietà Launch in un'app Android
-* Implementa le seguenti soluzioni Adobe Experience Cloud:
+* Creare una proprietà Launch mobile
+* Installare una proprietà Launch in un’app Android
+* Implementare le seguenti soluzioni Adobe Experience Cloud:
    * Servizio Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Pubblicare le modifiche in Launch tramite ambienti di sviluppo, staging e produzione
+* Pubblicare modifiche in Launch tramite gli ambienti di sviluppo, staging e produzione
