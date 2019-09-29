@@ -19,29 +19,29 @@ Informazioni sulle diverse modalità di modifica di un’attività esistente e s
 
 In Target è possibile modificare le attività esistenti tramite le funzioni disponibili in diverse aree dell’interfaccia utente. La procedura varia a seconda del metodo scelto.
 
-## Edit an activity by using the hover button on the Activities page {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
+## Modificare un’attività tramite il pulsante che si attiva al passaggio del mouse nella pagina Attività {#section_29EE2ECA6B88473A8F9AC5600FFBB174}
 
 1. Dalla pagina **[!UICONTROL Attività]**, passa il puntatore del mouse sull’attività da modificare, quindi fai clic sull’icona **[!UICONTROL Modifica]**.
 
    ![Icona Modifica](/help/c-activities/assets/hover_edit.png)
 
-   Target apre l'attività in Visual Experience Composer (Compositore esperienza visivo) (VEC) e viene visualizzata la pagina [!UICONTROL Esperienze] (il primo passaggio nel flusso di lavoro guidato in tre fasi).
+   Target apre l’attività nel Compositore esperienza visivo e viene visualizzata la pagina [!UICONTROL Esperienze] (il primo di tre passaggi nel flusso di lavoro guidato).
 
-1. Modificate l'attività, come desiderato mediante le opzioni [VEC](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
+1. Modifica l’attività mediante le opzioni del [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-1. Fate clic sul pulsante Dividi per avanzare al passaggio successivo o per salvare l'attività.
+1. Fai clic sul pulsante di menu combinato per avanzare al passaggio successivo o per salvare l’attività.
 
-   ![Pulsante Dividi](/help/c-activities/assets/edit_split_button_2.png)
+   ![Pulsante di menu combinato](/help/c-activities/assets/edit_split_button_2.png)
 
-   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase Targeting.
+   * **Successivo:** per modificare un’altra pagina nel flusso di lavoro in tre passaggi, fai clic su **[!UICONTROL Successivo]** per andare al passaggio desiderato. Ad esempio, nell’illustrazione precedente, facendo clic su [!UICONTROL Successivo] viene visualizzata la fase [!UICONTROL Targeting].
    * **Salva e chiudi:** apporta le modifiche desiderate nel passaggio corrente, fai clic sull’elenco a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva e chiudi]** per salvare le modifiche e visualizzare la pagina [!UICONTROL Panoramica] dell’attività.
    * **Salva:** apporta le modifiche desiderate in un passaggio, fai clic sul menu a discesa del pulsante di menu combinato, quindi seleziona **[!UICONTROL Salva]** per salvare le modifiche e rimanere in quel passaggio, per apportare ulteriori modifiche. Attendi il completamento del salvataggio prima di apportare ulteriori modifiche. Al termine del salvataggio, nel Compositore esperienza visivo vengono caricate le modifiche aggiornate.
 
-## Edit an activity by opening the activity by clicking its name on the Activities page {#section_176180DAD17E40CEA441903F39E0AA1C}
+## Modificare un’attività facendo clic sul suo nome nella pagina Attività per aprirla {#section_176180DAD17E40CEA441903F39E0AA1C}
 
 1. Per evitare di dover scorrere l’intero flusso di lavoro, fai clic sull’attività desiderata nella pagina Attività per aprirla, quindi seleziona un’opzione dall’elenco a discesa **[!UICONTROL Modifica attività]**.
 
-   ![Menu a discesa Modifica attività](/help/c-activities/assets/edit_activity.png)
+   ![Elenco a discesa Modifica attività](/help/c-activities/assets/edit_activity.png)
 
 1. Seleziona l’opzione desiderata:
 
@@ -60,9 +60,9 @@ In Target è possibile modificare le attività esistenti tramite le funzioni dis
 
 
 
-## Operazioni con le attività legacy create in Recommendations Classic {#classic}
+## Utilizzare le attività legacy create in Recommendations Classic {#classic}
 
-L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incluso [!DNL Recommendations Classic]. Le seguenti azioni sono disponibili quando si lavora con attività legacy create in [!DNL Recommendations Classic]:
+L’elenco [!UICONTROL Attività] presenta le attività create da varie origini, incluso [!DNL Recommendations Classic]. Quando si lavora con attività legacy create in [!DNL Recommendations Classic], sono disponibili le seguenti azioni:
 
 * [!UICONTROL Attiva]
 * [!UICONTROL Disattiva]
@@ -70,9 +70,9 @@ L'elenco [!UICONTROL Attività] visualizza attività create in varie fonti, incl
 * [!UICONTROL Copia]
 * [!UICONTROL Elimina]
 
-Non potete modificare direttamente un [!DNL Recommendations] 'attività. Se desiderate modificare l'attività, create una copia dell'attività utilizzando [!DNL Target Premium] e quindi salvate la nuova attività appena creata. Questa attività appena creata può essere modificata in base alle esigenze.
+Non è possibile modificare direttamente un’attività [!DNL Recommendations]. Per modificarla, crea una copia dell’attività in [!DNL Target Premium] e salva la nuova attività appena creata. Potrai quindi modificare questa nuova attività in base alle tue esigenze.
 
-## Save an activity in draft form {#section_968CD7A63027432EBD8FAE3A0F7404C3}
+## Salvare un’attività come bozza da {#section_968CD7A63027432EBD8FAE3A0F7404C3}
 
 Le opzioni Salva bozza vengono visualizzate nel pulsante di menu combinato quando crei una nuova attività che non è ancora stata salvata o modifichi un’attività già salvata come bozza.
 
