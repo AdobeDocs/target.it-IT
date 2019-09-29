@@ -1,7 +1,7 @@
 ---
-description: Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (ad esempio articoli, presentazioni, immagini, filmati e programmi TV), annunci di lavoro, ristoranti e così via.
+description: Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 keywords: prodotto;collezioni
-seo-description: Le entità fanno riferimento agli elementi che si consiglia di utilizzare in Adobe Target. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (ad esempio articoli, presentazioni, immagini, filmati e programmi TV), annunci di lavoro, ristoranti e così via.
+seo-description: Le entità si riferiscono agli elementi che desideri consigliare utilizzando Adobe Target. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 seo-title: Entità in Adobe Target
 solution: Target
 title: Entità
@@ -17,7 +17,7 @@ source-git-commit: 5a10156bfe235d894c7ee3518cbf685deed324ca
 
 # ![PREMIUM](/help/assets/premium.png) Entità{#entities}
 
-Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (ad esempio articoli, presentazioni, immagini, filmati e programmi TV), annunci di lavoro, ristoranti e così via.
+Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 
 I Consigli visualizzano gli elementi delle raccolte in base ai criteri impostati.
 
