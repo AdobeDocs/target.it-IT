@@ -1,5 +1,5 @@
 ---
-keywords: Target;home;argomenti più comuni;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
 seo-title: Documentazione del prodotto di Adobe Target
 solution: Target
 title: Documentazione del prodotto di Adobe Target
