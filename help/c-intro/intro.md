@@ -17,7 +17,7 @@ source-git-commit: 56bfceba22df830933aa005bf7faf24d4d6c09ba
 
 Adobe Target è la soluzione Adobe Experience Cloud che ti offre tutto il necessario per adattare e personalizzare l’esperienza dei tuoi clienti in modo da massimizzare i ricavi per siti web e mobili, applicazioni, social media e altri canali digitali.
 
-I video seguenti forniscono informazioni di base su come Target, insieme ad altre soluzioni Adobe Experience Cloud, può aiutare la tua organizzazione a raggiungere i propri obiettivi:
+I video di seguito forniscono le nozioni di base per comprendere come Target, insieme ad altre soluzioni Adobe Experience Cloud, può aiutare la tua organizzazione a raggiungere i suoi obiettivi:
 
 >[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
 
@@ -86,19 +86,19 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 
 ### Autorizzazioni per gli utenti Enterprise
 
-Con la funzionalità [Autorizzazioni utente Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) è possibile creare progetti diversi (denominati “profili prodotto” in Adobe Admin Console per Enterprise) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in Adobe Analytics. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici che si applicano a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l’accesso alla visualizzazione, alla modifica e all’approvazione dei propri utenti in base all’area geografica, all’ambiente (sviluppo, staging, produzione), al canale o ad altri criteri personalizzati.
+Con la funzionalità [Autorizzazioni utente Enterprise](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) è possibile creare progetti diversi (denominati “profili prodotto” in Adobe Admin Console per Enterprise) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in Adobe Analytics. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l’accesso alla visualizzazione, alla modifica e all’approvazione dei propri utenti in base all’area geografica, all’ambiente (sviluppo, staging, produzione), al canale o ad altri criteri personalizzati.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
-Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell'utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli che altrimenti potrebbero ignorare, incrementando le vendite generate sul sito.
+Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell'utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 
 Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
-## Experience League: The Adobe Target Welcome Kit {#kit}
+## Experience League: kit di benvenuto per Adobe Target {#kit}
 
-Create il vostro programma di ottimizzazione e personalizzazione su Adobe Target con questo kit di benvenuto! Include informazioni chiave, strumenti e risorse per preparare e avviare la tua prima attività Adobe Target, con soluzioni rapide a breve e strategie di ottimizzazione a lungo termine.
+Crea il tuo programma di ottimizzazione e personalizzazione con Adobe Target e questo kit di benvenuto! Include informazioni chiave, strumenti e risorse utili per preparare e avviare la tua prima attività Adobe Target, con risultati in tempi brevi e per attuare strategie di ottimizzazione a lungo termine.
 
-[Il kit di benvenuto di Adobe Target](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
 ## Video di formazione: Tipi di attività (09:03)
 
