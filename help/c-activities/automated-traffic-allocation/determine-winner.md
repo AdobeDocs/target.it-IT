@@ -23,7 +23,7 @@ Molti addetti al marketing commettono l’errore di dichiarare un’esperienza v
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell'attività che indica “Ancora nessun vincitore” finché l'attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
 
-![Nessun badge vincitore](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
+![Indicatore Nessun vincitore](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
 Quando viene dichiarata l'esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
@@ -41,7 +41,7 @@ Non utilizziamo l’affidabilità basata sul valore p per l'Allocazione automati
 
 La colonna Affidabilità in un'attività di Allocazione automatica (illustrata di seguito) visualizza la probabilità che un'esperienza sia il vincitore entro l'1% di margine di errore (cioè l'algoritmo utilizza un effetto minimo rilevabile dell'1% tra il tasso di conversione migliore e il secondo migliore). L'algoritmo utilizza la [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) per calcolare questa probabilità.
 
-I test A/B normali calcolano l’affidabilità in base ai valori p. L'Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un'esperienza potrebbe essere diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
+I test A/B normali calcolano l’affidabilità in base ai valori p. L'Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un’esperienza è diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
 
 Nell'illustrazione seguente viene mostrata un'attività che non ha ancora un vincitore:
 
@@ -59,7 +59,7 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
 * I test A/B manuali e l'allocazione automatica utilizzano statistiche diverse per visualizzare i valori di affidabilità.
 
-   I test A/B manuali utilizzano valori p basati sul [test t di Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valore P è la probabilità di trovare la differenza osservata (o più estrema) tra un'esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori P possono essere utilizzati solo per determinare se i dati osservati sono coerenti con un'esperienza specifica e il controllo è lo stesso. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
+   I test A/B manuali utilizzano valori p basati sul [test t di Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valore p rappresenta la probabilità di trovare la differenza osservata (o una differenza maggiore) tra un’esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori p possono essere utilizzati solo per determinare se i dati osservati sono coerenti quando un’esperienza specifica e il controllo sono uguali. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
 
    L'allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell'attività. Questo significa che solo un'esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
