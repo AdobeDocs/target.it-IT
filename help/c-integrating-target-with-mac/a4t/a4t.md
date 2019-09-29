@@ -53,7 +53,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 * L’utilizzo di Analytics come origine per la generazione di rapporti consente una sola metrica basata su mbox.
 * Una chiamata da server a server da Target ad Analytics invia informazioni ad Analytics sulle attività e sulle esperienze. Questa integrazione non comporta chiamate server aggiuntive per Target o Analytics.
 
-   In alcune situazioni, la chiamata di classificazione da Target ad Analytics potrebbe non riuscire e le attività non mostrano i dati in Analytics. In tal caso, consultate [Risoluzione dei problemi relativi all'integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
+   In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. If this happens, see Troubleshoot the Analytics and Target integration (A4T). [](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) You can also contact Client Care for further assistance.[](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
 
 ## Tipi di attività supportate {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -130,4 +130,4 @@ Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
-[Ore di ufficio integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Analytics/Target Integration (A4T) Office Hours](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
