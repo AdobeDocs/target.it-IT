@@ -32,7 +32,7 @@ I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di p
 
    Alcune regole di targeting predefinite sono Sistema operativo Windows, Dispositivo tablet, Browser Safari, Visitatori di ritorno e Provenienti da Google.
 
-   Il pubblico predefinito «Tablet Device» si qualifica già quando l'agente utente contiene una delle stringhe seguenti (alcune dei quali sono numeri di modello). Non devi creare regole personalizzate di targeting per questi dispositivi.
+   Il pubblico predefinito “Dispositivo tablet” è già idoneo quando l’agente utente contiene una delle seguenti stringhe (alcune delle quali sono numeri di modello di dispositivi). Non devi creare regole personalizzate di targeting per questi dispositivi.
 
    Kindle, Silk, iPad, Sony Tablet, TF101, GT-P1000, GT-P1000R, GT-P1000M, SGH-T849, SHW-M180S, GT-I9000T, BNTV250 e Tablet PC.
 
