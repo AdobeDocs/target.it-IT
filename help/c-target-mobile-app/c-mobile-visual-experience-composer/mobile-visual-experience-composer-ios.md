@@ -60,7 +60,7 @@ Per ulteriori informazioni sull’abilitazione dell’estensione Adobe Target VE
 
    `import ACPTargetVEC`
 
-1. Nel file [!DNL AppDelegate], aggiungi la seguente riga a `AppDelegate::application:didFinishLaunchingWithOptions:`. Se la funzione di delegato non è definita, creala e aggiungi la seguente riga per l'applicazione Objective-C o Swift, rispettivamente:
+1. Nel file [!DNL AppDelegate], aggiungi la seguente riga a `AppDelegate::application:didFinishLaunchingWithOptions:`. Se la funzione di delegato non è definita, creala e aggiungi la seguente riga per l’applicazione Objective-C o Swift, rispettivamente:
 
    ```
    // CONFIGURATION LINE FOR OBJECTIVE C ONLY
@@ -233,19 +233,19 @@ Potrebbero esserci alcuni scenari in cui si potrebbe voler chiamare nuovamente l
 + (void) prefetchOffersBackground;
 ```
 
-## Tutorials: Implement the Experience Cloud in Mobile iOS Objective-C and Swift applications {#tutorial}
+## Esercitazioni: Implementare Experience Cloud in applicazioni Objective-C e Swift per dispositivi mobili iOS{#tutorial}
 
-* [Implementazione di Experience Cloud nelle applicazioni Objective-C di iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
-* [Implementazione di Experience Cloud nelle applicazioni Ios Swift per dispositivi mobili](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
+* [Implementare Experience Cloud in applicazioni Objective-C per dispositivi mobili iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-objective-c-apps-with-launch/index.html)
+* [Implementare Experience Cloud in applicazioni Swift per dispositivi mobili iOS](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-mobile-ios-swift-apps-with-launch/index.html)
 
-Al termine di queste esercitazioni, potrete:
+Dopo aver completato queste esercitazioni, sarai in grado di:
 
-* Creare una proprietà di avvio mobile
-* Installare una proprietà Launch in un'app Objective-C o Swift
-* Implementa le seguenti soluzioni Adobe Experience Cloud:
+* Creare una proprietà Launch mobile
+* Installare una proprietà Launch in un’app Objective-C o Swift
+* Implementare le seguenti soluzioni Adobe Experience Cloud:
    * Servizio Experience Cloud ID
    * Adobe Target
    * Adobe Analytics
    * Adobe Audience Manager
 
-* Pubblicare le modifiche in Launch tramite ambienti di sviluppo, staging e produzione
+* Pubblicare modifiche in Launch tramite gli ambienti di sviluppo, staging e produzione
