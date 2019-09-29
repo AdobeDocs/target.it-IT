@@ -92,9 +92,9 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Video formazione: Creare criteri in Recommendations (12:33)
+## Video di formazione: Creare i criteri in Recommendations (12:33)
 
-Questo video contiene le informazioni seguenti:
+Questo video contiene le seguenti informazioni:
 
 * Creare criteri
 * Creare sequenze di criteri
