@@ -19,7 +19,7 @@ Risposte alle domande più frequenti su mbox.js.
 
 ## Qual è l’impatto di mbox.js sui tempi di caricamento pagina? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
-For more information, see [Benefits of at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
+Per ulteriori informazioni, consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
 
 ## Perché compaiono messaggi di avviso “blocco del parser” in Google Chrome quando si utilizzano mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
 
