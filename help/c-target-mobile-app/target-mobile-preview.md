@@ -1,8 +1,8 @@
 ---
 description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-keywords: qa;anteprima;collegamento di anteprima;mobile;mobile preview
+keywords: qa;anteprima;collegamenti di anteprima;mobile;anteprima mobile
 seo-description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-seo-title: Utilizzo del collegamento di anteprima mobile in Adobe Target mobile
+seo-title: Utilizzo del collegamento di anteprima per dispositivi mobili in Adobe Target
 solution: Target
 title: Anteprima mobile di Target
 topic: Advanced,Standard,Classic
