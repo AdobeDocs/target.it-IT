@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -17,16 +17,22 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
+## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.9.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
+
 ## Adobe Target Standard/Premium 19.7.1 (23 luglio 2019) {#tgt-19-7-1}
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 27 settembre 2019 | [Per quanto tempo si deve eseguire un test A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Testo aggiornato sul calcolatore delle dimensioni del campione di Target. |
-|  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Testo aggiornato sul calcolatore delle dimensioni del campione di Target. |
+| 27 settembre 2019 | [Per quanto tempo si deve eseguire un test A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
+|  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Updated text about the Target Sample Size Calculator. |
 | 24 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data della release di Target/Standard 19.2.1 al 30 settembre 2019. |
 |  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) | È stato aggiunto un video di formazione. |
 | 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1. |
-| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Aggiunta la sezione "Considerazioni". |
+| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
 |  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l’intero argomento. |
 |  | [Informativa sulla sicurezza dei contenuti (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuovo argomento. |
 | 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (10 settembre 2019). |
