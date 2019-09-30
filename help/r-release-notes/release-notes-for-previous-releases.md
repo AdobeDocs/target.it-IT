@@ -8,7 +8,7 @@ title: Note sulla versione per le versioni precedenti
 topic: Consigli
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 ---
 
@@ -22,6 +22,13 @@ Note sulla versione per le versioni precedenti di Target, incluse le note di ril
 >Consulta [Note sulla versione di Target (corrente)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2019 {#releases-2019}
+
+### Target Standard/Premium 19.9.1 (10 settembre 2019)
+
+| Funzionalità/Miglioramento | Descrizione |
+| --- | --- |
+| ![Autorizzazioni Enterprise badge](/help/assets/premium.png) Premium | Con la release di settembre 2019 di Target, le Autorizzazioni Enterprise forniscono ai clienti i seguenti controlli di accesso:<UL><li>Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione.</li><li>Possibilità di applicare un ruolo all’integrazione Adobe I/O: Approvatore, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+
 
 ### SDK iOS 2.1.0 e Android 1.1.1 per il Compositore esperienza visivo di Target Mobile (7 agosto 2019)
 
