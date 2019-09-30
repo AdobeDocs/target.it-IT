@@ -1,6 +1,6 @@
 ---
 description: Queste note sulla versione forniscono informazioni su funzionalità, miglioramenti, correzioni e problemi noti per ogni versione di Target Standard e Target Premium.
-keywords: Note sulla versione;nuove funzioni;aggiornamenti;aggiornamento;rilascio;miglioramenti;correzioni;correzioni di bug
+keywords: Note sulla versione;nuove funzioni;rilasci;aggiornamenti;aggiornamento;rilascio;miglioramenti;correzioni;correzioni di bug
 seo-description: Queste note sulla versione forniscono informazioni su funzioni, miglioramenti, correzioni e problemi noti per ciascuna versione di Adobe Target Standard e Target Premium.
 seo-title: Note sulla versione di Adobe Target (corrente)
 solution: Target
@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
 
 ---
 
@@ -16,6 +16,12 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 # Note sulla versione di Target (corrente){#target-release-notes-current}
 
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di Target Standard e Target Premium.
+
+## Target Standard/Premium 19.9.2 (30 settembre 2019)
+
+Questa versione di manutenzione include i seguenti miglioramenti:
+
+* Diverse correzioni di sicurezza, compreso l’aggiornamento di sicurezza dell’editor Rich Text (RTE) nel Compositore esperienza visivo. (TGT-35383)
 
 ## Target Standard/Premium 19.9.1 (10 settembre 2019)
 
@@ -31,7 +37,7 @@ Per informazioni aggiuntive, oltre alle note di ciascuna versione, consulta le s
 |--- |--- |
 | Modifiche alla documentazione | Informazioni dettagliate sugli aggiornamenti apportati a questa guida che potrebbero non essere incluse nelle note sulla versione.<br>Per ulteriori informazioni, consulta [Modifiche alla documentazione](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Note sulla versione per le versioni precedenti | Informazioni su nuove funzionalità e miglioramenti introdotti nelle versioni precedenti di Target Standard e Target Premium.<br>Per ulteriori informazioni, consulta [Note sulla versione per le versioni precedenti](../r-release-notes/release-notes-for-previous-releases.md). |
-| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>For more information, see [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). |
+| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>Per ulteriori informazioni, consulta [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)sulla versione di Experience Cloud. |
 
 ## Informazioni in anteprima {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
