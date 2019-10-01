@@ -2,52 +2,57 @@
 description: Informazioni sull’utilizzo dei dati relativi a clienti Enterprise da un database Customer Relationship Management (CRM) per il targeting del contenuto in Adobe Target utilizzando gli attributi del cliente nel servizio principale Adobe Profiles & Audiences.
 keywords: servizio recording clienti;crs;crm;mbox3rdpartyid;attributi cliente;targeting
 seo-description: Informazioni sull’utilizzo dei dati relativi a clienti Enterprise da un database Customer Relationship Management (CRM) per il targeting del contenuto in Adobe Target utilizzando gli attributi del cliente nel servizio principale Adobe Profiles & Audiences.
-seo-title: Attributi del cliente
+seo-title: Attributi del cliente in Adobe Target
 solution: Target
 subtopic: Introduzione
 title: Attributi del cliente
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
 
-# Attributi del cliente{#customer-attributes}
+# Attributi del cliente {#customer-attributes}
 
-Informazioni sull’utilizzo dei dati relativi a clienti Enterprise da un database Customer Relationship Management (CRM) per il targeting del contenuto in Adobe Target utilizzando gli attributi del cliente nel servizio principale Adobe Profiles &amp; Audiences.
+Information about using enterprise customer data from a customer relationship management (CRM) databases for content targeting in [!DNL Adobe Target] by using customer attributes in the [!DNL Adobe Enterprise Cloud] core service.
 
-I dati dei clienti aziendali raccolti attraverso più fonti e memorizzati all'interno di un database CRM possono essere utilizzati in [!DNL Target] per fornire in modo strategico il contenuto più pertinente ai clienti, specificatamente concentrandosi sui clienti fidelizzati. Il servizio di base [!DNL People] (già Profili e pubblico) unisce le funzioni di raccolta e analisi dei dati a quelle di test e ottimizzazione, rendendo immediatamente fruibili i dati e le informazioni.
+I dati dei clienti aziendali raccolti attraverso più fonti e memorizzati all'interno di un database CRM possono essere utilizzati in [!DNL Target] per fornire in modo strategico il contenuto più pertinente ai clienti, specificatamente concentrandosi sui clienti fidelizzati. Il servizio di base [!DNL Audiences] (già Profili e pubblico) unisce le funzioni di raccolta e analisi dei dati a quelle di test e ottimizzazione, rendendo immediatamente fruibili i dati e le informazioni.
 
-## Panoramica degli attributi del cliente {#section_B4099971FA4B48598294C56EAE86B45A}
+## Customer attributes overview {#section_B4099971FA4B48598294C56EAE86B45A}
 
-Il servizio Persone fa parte di [!DNL Adobe Experience Cloud] e fornisce alle aziende uno strumento per spingere i dati dei propri clienti sulla piattaforma [!DNL Experience Cloud]. I dati inseriti nell'[!DNL Experience Cloud] sono disponibili per tutti i flussi di lavoro di [!DNL Experience Cloud]. [!DNL Adobe Target] utilizza questi dati per il targeting dei clienti fidelizzati in base agli attributi. [!DNL Adobe Analytics] utilizza questi attributi che possono essere utili per l'analisi e la segmentazione.
+The Audiences core service is part of the [!DNL Adobe Experience Cloud] and provides enterprises a tool to push their customer data to the [!DNL Experience Cloud] platform. I dati inseriti nell'[!DNL Experience Cloud] sono disponibili per tutti i flussi di lavoro di [!DNL Experience Cloud]. [!DNL Target] utilizza questi dati per il targeting del cliente di ritorno in base agli attributi. [!DNL Adobe Analytics] utilizza questi attributi che possono essere utili per l'analisi e la segmentazione.
 
 ![](assets/crs.png)
 
-Considera le seguenti informazioni mentre lavori con gli attributi del cliente e Target:
+Considera le seguenti informazioni mentre lavori con gli attributi del cliente e [!DNL Target]:
 
-* Ci sono alcuni requisiti prerequisiti che è necessario soddisfare prima di poter utilizzare la funzionalità [!UICONTROL Attributi del cliente] nel servizio di base [!DNL People]. For more information, see "Prerequisites for Uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Core Services User Guide*. Si noti che è necessario [!DNL at.js] (qualsiasi versione) o [!DNL mbox.js] versione 58 o successiva è necessario.
-* Adobe non garantisce che il 100% dei dati dell'attributo del cliente (profilo visitatore) provenienti dai database CRM sia integrato nell'Experience Cloud e sia quindi disponibile per l'utilizzo per il targeting in Target. Nel nostro attuale layout, c'è la possibilità che una piccola percentuale di dati non sia integrata.
-* La validità dei dati degli attributi del cliente importati da Experience Cloud in Target dipende dalla validità del profilo del visitatore, che è di 14 giorni per impostazione predefinita. Per ulteriori informazioni, consulta [Durata del profilo del visitatore](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
-* Se i parametri `vst.*` sono l’unica cosa che identifica l’utente, il profilo “autenticato” esistente non verrà recuperato fintanto che `authState` è nello stato NON AUTENTICATO (0). Il profilo entra in gioco solo se `authState` viene modificato in NON AUTENTICATO (1).
+* There are some prerequisite requirements that you must meet before you can use the [!UICONTROL Customer attributes] feature in the [!DNL Audiences] core service. For more information, see "Prerequisites for uploading Customer Attributes" in [Customer attributes](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/attributes.html) in the *Experience Cloud Product documentation*.
 
-   Ad esempio, se il parametro `vst.myDataSource.id` viene utilizzato per identificare l'utente (dove `myDataSource` è l'alias dell'origine dati) e non esiste alcun ID MCID o di terze parti, l'utilizzo del parametro `vst.myDataSource.authState=0` non permetterà di recuperare il profilo che potrebbe essere stato creato tramite un'importazione di Attributi dei clienti. Se il comportamento desiderato è quello di recuperare il profilo autenticato, il `vst.myDataSource.authState` deve avere il valore 1 (AUTENTICATO).
+   >[!NOTE]
+   >
+   >[!DNL at.js] (qualsiasi versione) o [!DNL mbox.js] versione 58 o successiva.
+
+* Adobe does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Nel nostro attuale layout, c'è la possibilità che una piccola percentuale di dati non sia integrata.
+* The lifetime of customer attributes data imported from the [!DNL Experience Cloud] to [!DNL Target] depends on the lifetime of the visitor profile, which is 14 days by default. Per ulteriori informazioni, consulta Durata del profilo [visitatore](../../c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
+* If the `vst.*` parameters are the only thing identifying the visitor, the existing "authenticated" profile will not be fetched as long as `authState` is UNAUTHENTICATED (0). Il profilo entra in gioco solo se `authState` viene modificato in NON AUTENTICATO (1).
+
+   For example, if the `vst.myDataSource.id` parameter is used to identify the visitor (where `myDataSource` is the data source alias) and there is no MCID or third-party ID, using the parameter `vst.myDataSource.authState=0` won't fetch the profile that might have been created through a Customer Attributes import. Se il comportamento desiderato è quello di recuperare il profilo autenticato, il `vst.myDataSource.authState` deve avere il valore 1 (AUTENTICATO).
 
 * Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
-## Flusso di lavoro dell'attributo cliente per Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
+## Customer attribute workflow for Target {#section_00DAE94DA9BA41398B6FD170BC7D38A3}
 
 Completa i passaggi seguenti per utilizzare i dati CRM in [!DNL Target], come illustrato di seguito:
 
 ![](assets/crm_workflow.png)
 
-Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Core Services User Guide*.
+Detailed instructions for completing each of the following tasks can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) in the *Experience Cloud Product Documentation*.
 
 1. Creazione di un file di dati.
 
-   Esporta i dati dei clienti dal tuo CRM in formato CSV per creare un file [!DNL .csv]. In alternativa, puoi creare un file zip o gzip per il caricamento. Assicurati che la prima riga di CSV sia l'intestazione e tutte le righe (dati cliente) abbiano lo stesso numero di voci.
+   Esporta i dati dei clienti dal tuo CRM in formato CSV per creare un file .csv. In alternativa, puoi creare un file zip o gzip per il caricamento. Assicurati che la prima riga del file CSV sia l’intestazione e che tutte le righe (dati cliente) abbiano lo stesso numero di voci.
 
    ![](assets/CRS_sample.png)
 
@@ -55,24 +60,24 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. Creazione di una sorgente attributo e caricamento del file di dati.
 
-   Specifica un nome e una descrizione dell'origine dati e l'ID dell'alias. L'ID alias è un ID univoco da utilizzare nel codice dell'attributo del cliente in VisitorAPI.js.
+   Specifica un nome e una descrizione dell'origine dati e l'ID dell'alias. L'ID alias è un ID univoco da utilizzare nel codice dell'attributo del cliente in `VisitorAPI.js`.
 
    >[!IMPORTANT]
    >
    >Il nome dell’origine dati e il nome dell’attributo non possono contenere un punto.
 
-   I file di dati fino a 100 MB possono essere caricati utilizzando il metodo HTTP. File di dimensioni superiori a 100 MB, fino a 4 GB possono essere caricati tramite FTP.
+   I file di dati fino a 100 MB possono essere caricati utilizzando il metodo HTTP. I file di dimensioni superiori a 100 MB, fino a 4 GB, possono essere caricati tramite FTP.
 
-   * **HTTPS:** trascina il file di dati [!DNL .csv] o fai clic su [!UICONTROL Sfoglia] per caricare dal file system.
-   * **FTP:** fai clic sul collegamento FTP per [caricare file tramite FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Il primo passo è quello di fornire una password per il server FTP fornito da Adobe. Immetti la password, quindi fai clic su [!UICONTROL Fine].
+   * **** HTTPS: Puoi trascinare il file di dati .csv o fare clic su **[!UICONTROL Sfoglia]** per caricarlo dal file system.
+   * **** FTP: Fate clic sul collegamento FTP per [caricare il file tramite FTP](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Il primo passo è quello di fornire una password per il server FTP fornito da Adobe. Specify the password, then click **[!UICONTROL Done]**.
 
-      Ora puoi trasferire il file CSV/ZIP/GZIP al server FTP. Una volta che questo trasferimento di file è riuscito, crea un nuovo file con lo stesso nome ed estensione [!DNL .fin]. Trasferisci questo file vuoto al server. Questo indica la fine del trasferimento e l'Experience Cloud inizia a elaborare file di dati.
+      Ora puoi trasferire il file CSV/ZIP/GZIP al server FTP. Dopo il trasferimento del file, create un nuovo file con lo stesso nome ed estensione .fin. Trasferisci questo file vuoto al server. This indicates a End Of Transfer and the [!DNL Experience Cloud] starts to process the data file.
 
 1. Convalida dello schema.
 
    Il procedimento di convalida consente di mappare i nomi e le descrizioni visualizzati agli attributi caricati (stringhe, interi, numeri e così via). Mappa ogni attributo al tipo di dati corretto, al nome visualizzato e alla descrizione.
 
-   Fai clic su [!UICONTROL Salva] dopo aver completato la convalida dello schema. Il tempo di upload dei file varia a seconda delle dimensioni.
+   Click **[!UICONTROL Save]** after the schema validation is complete. Il tempo di upload dei file varia a seconda delle dimensioni.
 
    ![](assets/SchemaValidate.png)
 
@@ -80,7 +85,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 1. Configurazione delle sottoscrizioni e attivazione dell'origine attributo.
 
-   Fai clic su **[!UICONTROL Aggiungi sottoscrizione]**, quindi seleziona la soluzione per sottoscrivere questi attributi. [Configura sottoscrizioni](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) imposta il flusso di dati tra Experience Cloud e le soluzioni. Attivando l'origine attributo consenti la trasmissione dei dati alle soluzioni sottoscritte. I record cliente che hai caricato vengono fatti corrispondere ai segnali ID in ingresso provenienti dal sito Web o dall'applicazione.
+   Fai clic su **[!UICONTROL Aggiungi sottoscrizione]**, quindi seleziona la soluzione per sottoscrivere questi attributi. [Configura sottoscrizioni](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/subscription.html) imposta il flusso di dati tra le soluzioni [!DNL Experience Cloud] e. Attivando l'origine attributo consenti la trasmissione dei dati alle soluzioni sottoscritte. I record cliente che hai caricato vengono fatti corrispondere ai segnali ID in ingresso provenienti dal sito Web o dall'applicazione.
 
    ![](assets/solution.png)
 
@@ -98,7 +103,7 @@ Detailed instructions for completing each of the following tasks can be found in
 
 ### Creazione di targeting di pubblico
 
-In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione Profilo visitatore al momento della creazione di un tipo di pubblico. Tutti gli attributi del cliente hanno il prefisso &lt; data_source_name &gt; nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
+In [!DNL Target] puoi selezionare un attributo del cliente dalla sezione Profilo visitatore al momento della creazione di un tipo di pubblico.  Tutti gli attributi del cliente hanno il prefisso &lt; data_source_name &gt; nell’elenco. Per creare di tipi di pubblico combina questi attributi con altri attributi di dati.
 
 ![Pubblico di Target](/help/c-target/c-visitor-profile/assets/TargetAudience.png)
 
@@ -110,7 +115,7 @@ Questo script di profilo può essere utilizzato direttamente nelle offerte per l
 
 ### Utilizzo di mbox3rdPartyID nel sito Web per una corretta implementazione e utilizzo
 
-Passa mbox3rdPartyId come parametro per l’mbox globale all’interno del metodo `targetPageParams()`. Il valore di mbox3rdPartyId deve essere impostato sull'ID cliente presente nel file di dati CSV.
+Pass `mbox3rdPartyId` as a parameter to the global mbox inside the `targetPageParams()` method. The value of `mbox3rdPartyId` should be set to the customer ID that was present in the CSV data file.
 
 ```
 <script type="text/javascript">
@@ -126,10 +131,10 @@ Se utilizzi il servizio Experience Cloud ID, devi impostare un ID cliente e uno 
 
 Per ulteriori informazioni sull'utilizzo degli attributi del cliente in [!DNL Target], consulta le risorse seguenti:
 
-* Create a customer attribute source and upload the data file in the Core Services User Guide[](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html)**
+* [Creare un'origine attributo del cliente e caricare il file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html) di dati nella documentazione del prodotto *Experience Cloud*
 * [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) (Attributi del cliente: più si conoscono, meglio ci si connette) nel *Digital Marketing Blog*
 
-## Problemi incontrati frequentemente dai clienti {#section_BE0F70E563F64294B17087DE2BC1E74C}
+## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
 È possibile che si verifichino i seguenti problemi quando si utilizzano gli attributi del cliente e [!DNL Target]:
 
@@ -138,9 +143,9 @@ Per ulteriori informazioni sull'utilizzo degli attributi del cliente in [!DNL Ta
 | Gli attributi del cliente vengono rimossi perché il profilo è troppo grande | Non è presente alcun limite di carattere in un determinato campo nel profilo dell'utente, ma se il profilo diventa più grande di 64 K, viene troncato rimuovendo gli attributi meno recenti finché il profilo non è di nuovo inferiore a 64 K. |
 | Attributi non elencati nella libreria del pubblico in [!DNL Target], anche dopo molti giorni | Questo è di solito un problema di connessione della pipeline. Come risoluzione, chiedi al team degli Attributi dei clienti di ripubblicare il feed. |
 | La consegna non funziona in base all'attributo | Il profilo non è stato ancora aggiornato alla versione più recente. Come risoluzione, chiedi al team degli Attributi dei clienti di ripubblicare il feed. |
-| Problemi di implementazione | Tieni conto dei seguenti problemi di implementazione:<ul><li>L'ID del visitatore non è stato passato correttamente. L'ID è stato passato in mboxMCGVID anziché in `setCustomerId`.</li><li>L'ID del visitatore è stato passato correttamente, ma lo stato di autenticazione non è stato impostato su AUTENTICATO.</li><li>`mbox3rdPartyId` non è stato passato correttamente.</li> |
-| `mboxUpdate` non eseguito correttamente | mboxUpdate non è stato eseguito correttamente con `mbox3rdPartyId`. |
-| Gli attributi del cliente non vengono importati in Target. | Se non riesci a trovare i dati Attributi del cliente in Target, accertati di aver effettuato l’importazione entro gli ultimi x giorni, dove x è il valore di [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) di Target (14 giorni per impostazione predefinita). |
+| Problemi di implementazione | Tieni conto dei seguenti problemi di implementazione:<ul><li>L'ID del visitatore non è stato passato correttamente. The ID was passed in `mboxMCGVID` instead of `setCustomerId`.</li><li>L'ID del visitatore è stato passato correttamente, ma lo stato di autenticazione non è stato impostato su AUTENTICATO.</li><li>`mbox3rdPartyId` non è stato passato correttamente.</li> |
+| `mboxUpdate` non eseguito correttamente | `mboxUpdate` non è stato eseguito correttamente con `mbox3rdPartyId`. |
+| Gli attributi del cliente non vengono importati in Target | If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default). |
 
 I problemi nelle righe 1 e 2 causano circa il 60% dei problemi in questo ambito. I problemi nella riga 3 causano circa il 30% dei problemi. Il problema nella riga 4 causa circa il 5% dei problemi. Il restante 5% è dovuto a questioni varie.
 
