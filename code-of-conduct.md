@@ -1,6 +1,6 @@
 ---
 source-git-commit: 3be43b99f5a4b72e6836767e2cffc70d58143c24
-translation-type: tm+mt
+translation-type: ht
 
 ---
 # Codice di condotta Adobe
@@ -69,4 +69,4 @@ membri della direzione del progetto.
 ## Attribuzione
 
 Questo Codice di condotta è stato adattato dal documento [Contributor Covenant](https://contributor-covenant.org), versione 1.4,
-disponibile all’indirizzo [https://www.contributor-covenant.org/it/version/1/4/code-of-conduct](https://contributor-covenant.org/version/1/4/)
+disponibile all’indirizzo [https://www.contributor-covenant.org/it/version/1/4/code-of-conduct](https://www.contributor-covenant.org/it/version/1/4/code-of-conduct)
