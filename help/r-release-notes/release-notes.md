@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dbf7c1f306c9d6f70d8fb8fdb851091fb6db2879
+source-git-commit: dd6bbdc6ab571b769d8426e7554e8a1d52813c3a
 
 ---
 
@@ -22,12 +22,13 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 Questa versione di manutenzione include i seguenti miglioramenti:
 
 * Diverse correzioni di sicurezza, compreso l’aggiornamento di sicurezza dell’editor Rich Text (RTE) nel Compositore esperienza visivo. (TGT-35383)
+* Recommendations Offers can now be added to elements other than DIV (e.g. P, UL, H1), in addition to DIV, in A/B Test and Experience Targeting activities. (TGT-34333)
 
 ## Target Standard/Premium 19.9.1 (10 settembre 2019)
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| ![Autorizzazioni Enterprise badge](/help/assets/premium.png) Premium | Con la release di settembre 2019 di Target, le Autorizzazioni Enterprise forniscono ai clienti i seguenti controlli di accesso:<UL><li>Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione.</li><li>Possibilità di applicare un ruolo all’integrazione Adobe I/O: Approvatore, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| ![Premium badge](/help/assets/premium.png) Enterprise Permissions | With the Target September 2019 release, Enterprise Permissions provides customers with the following access controls:<UL><li>Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione.</li><li>Possibilità di applicare un ruolo all’integrazione Adobe I/O: Approvatore, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
 
 ## Modifiche alla documentazione, precedenti note sulla versione e note sulla versione di Experience Cloud {#section_1BC5F5208DA548E9B4344A0836E4B943}
 
@@ -37,7 +38,7 @@ Per informazioni aggiuntive, oltre alle note di ciascuna versione, consulta le s
 |--- |--- |
 | Modifiche alla documentazione | Informazioni dettagliate sugli aggiornamenti apportati a questa guida che potrebbero non essere incluse nelle note sulla versione.<br>Per ulteriori informazioni, consulta [Modifiche alla documentazione](../r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Note sulla versione per le versioni precedenti | Informazioni su nuove funzionalità e miglioramenti introdotti nelle versioni precedenti di Target Standard e Target Premium.<br>Per ulteriori informazioni, consulta [Note sulla versione per le versioni precedenti](../r-release-notes/release-notes-for-previous-releases.md). |
-| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>Per ulteriori informazioni, consulta [Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)sulla versione di Experience Cloud. |
+| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>For more information, see [Experience Cloud Release Notes](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html). |
 
 ## Informazioni in anteprima {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
