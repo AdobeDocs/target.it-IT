@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -17,11 +17,13 @@ source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe Target/Standard/Premium 19.9.1 (September 30, 2019)
+## Adobe Target/Standard/Premium 19.9.1 (30 settembre 2019)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.9.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
+| 1 ottobre 2019 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Testo aggiornato nella sezione "Attributi del cliente". |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | Updated code sample in the "Call getOffers() for all views" section. |
+| September 30, 2019 | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.9.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 19.7.1 (23 luglio 2019) {#tgt-19-7-1}
 
@@ -29,13 +31,13 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 27 settembre 2019 | [Per quanto tempo si deve eseguire un test A/B?](/help/c-activities/t-test-ab/sample-size-determination.md) | Updated text about the Target Sample Size Calculator. |
 |  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Updated text about the Target Sample Size Calculator. |
-| 24 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data della release di Target/Standard 19.2.1 al 30 settembre 2019. |
+| September 24, 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Changed date of the Target/Standard 19.2.1 release to September 30, 2019. |
 |  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) | È stato aggiunto un video di formazione. |
-| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1. |
+| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
 | 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
-|  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l’intero argomento. |
+|  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Updated text for entire topic. |
 |  | [Informativa sulla sicurezza dei contenuti (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuovo argomento. |
-| 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (10 settembre 2019). |
+| 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Added information about the Target Standard/Premium 19.9.1 (September 10, 2019) release. |
 |  | [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Nuovo argomento. |
 | 4 settembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | 23 agosto 2019 | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | Snippet di codice aggiornato in `AndroidManifest.xml`. |
