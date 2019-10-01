@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: ba891192c7b198d7e8993954992daacb016bdf21
 
 ---
 
@@ -62,8 +62,9 @@ Le offerte di codice create dall’interfaccia utente di Target nella libreria O
 
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
-* L’errore "error.restapi.algorithmProfileAttributeInvalid" relativo alla funzionalità Consigli si verifica quando specifici attributi di profilo vengono utilizzati come chiave di criterio.
-* Quando l’opzione Promozione dopo viene utilizzata in un’attività Consigli, i filtri di inclusione dei criteri non vengono applicati ai consigli di backup.
+* Le entità sono scadute correttamente dopo 60 giorni dalla ricezione di aggiornamenti tramite feed o API; tuttavia, le entità scadute non vengono rimosse dall'indice di ricerca del catalogo dopo la scadenza. (IRI-857)
+* Le sovrapposizioni "Informazioni sull'utilizzo" per i criteri e le progettazioni non riflettono il loro utilizzo nelle attività A/B e Targeting delle esperienze (TGT-34331)
+* Recommendations Le offerte nelle attività A/B e Targeting delle esperienze non mostrano un'anteprima visiva della barra delle raccomandazioni (TGT-33426)
 
 ### Attività di test multivariato (MVT)
 
