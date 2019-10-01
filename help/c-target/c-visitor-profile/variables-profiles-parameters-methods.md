@@ -8,7 +8,7 @@ title: Glossario di profili e variabili
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
 
 ---
 
@@ -93,4 +93,4 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 Gli attributi del cliente possono essere indicati in script di profilo, formattati come `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `$crs.datasourceName.attributeName`.
+Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Note that spaces in the `datasourceName` should be stripped from any API call.
