@@ -2,13 +2,13 @@
 description: Note sulla versione che forniscono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o imminenti di Adobe Target.
 keywords: note sulla versione;rilasci;aggiornamenti;release futura;miglioramenti;nuove funzioni;correzioni
 seo-description: Note sulla versione che forniscono informazioni su funzioni, miglioramenti e correzioni per le versioni DNL Adobe Target più recenti o imminenti.
-seo-title: Note sulla versione di Adobe Target (prerelease)
+seo-title: Note sulla versione prerelease di Adobe Target
 solution: Target
 title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 285a09503ba6abaf2bfe19fc2b214c32ebd2de3a
 
 ---
 
@@ -17,7 +17,7 @@ source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 24 settembre 2019**
+**Ultimo aggiornamento: 2 ottobre 2019**
 
 >[!NOTE]
 >
@@ -25,34 +25,20 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 >
 >I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Annunci
-
-**31 luglio 2019**
-
-Le [!UICONTROL Autorizzazioni Enterprise] consentono ai clienti [!DNL Target] di utilizzare una singola organizzazione, ma di suddividerla in più aree di lavoro per i diversi team o flussi di lavoro. La funzione [!UICONTROL Autorizzazioni Enterprise] permette di estendere a più team i programmi di ottimizzazione, in modo facile ed efficace. Anche se questa funzione era disponibile nell’interfaccia utente di [!DNL Target], è supportata dalle API amministratore solo a partire dalla versione di febbraio 2019 di [!DNL Target]. Adobe ha aggiornato le API amministratore per consentire l’uso dell’account di integrazione per accedere a tutte le aree di lavoro create nell’organizzazione. Precedentemente, le API amministratore erano limitate all’area di lavoro predefinita. Con l’aggiornamento di febbraio 2019 è possibile accedere a tutte le aree di lavoro con accesso di tipo [!UICONTROL Approvatore].
-
-Con la versione di [!DNL Target] di settembre 2019, le [!UICONTROL Autorizzazioni Enterprise] forniranno ai clienti i seguenti controlli di accesso:
-
-* Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione
-* Possibilità di applicare un ruolo all’integrazione Adobe I/O: [!UICONTROL Approvatore], [!UICONTROL Editor] o [!UICONTROL Osservatore].
-
-**Azione richiesta**: i clienti che sfruttano già le API per operazioni CRUD su risorse (attività, tipi di pubblico, offerte e rapporti) in tutte le aree di lavoro devono concedere all’integrazione Adobe I/O esistente l’accesso a tutte le aree di lavoro con il ruolo desiderato in base allo specifico caso d’uso. Prima della versione di settembre, tutte le integrazioni funzionavano con accesso di tipo [!UICONTROL Approvatore], a prescindere dal ruolo selezionato dall’elenco a discesa [!UICONTROL Ruolo prodotto]. A partire da questa versione, è possibile selezionare il ruolo desiderato.
-
-Questa azione deve essere eseguita nel corso del mese di **agosto 2019**. Dopo il rilascio della versione di settembre 2019 di [!DNL Target] verranno attivati i controlli di accesso e potresti essere in grado di accedere solo all’area di lavoro predefinita, qualora questa sia l’impostazione corrente. L’impostazione anticipata dei ruoli dell’integrazione non comporta alcun impatto negativo.
-
-Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md).
-
-## Target Standard/Premium 19.9.2 (30 settembre 2019)
-
-Questa versione di manutenzione include i seguenti miglioramenti:
-
-* Diverse correzioni di sicurezza, compreso l’aggiornamento di sicurezza dell’editor Rich Text (RTE) nel Compositore esperienza visivo. (TGT-35383)
-
-## Target Standard/Premium 19.9.1 (10 settembre 2019)
+## Piattaforma di destinazione (date da determinare)
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| ![Autorizzazioni Enterprise badge](/help/assets/premium.png) Premium | Con la release di settembre 2019 di Target, le Autorizzazioni Enterprise forniscono ai clienti i seguenti controlli di accesso:<UL><li>Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione.</li><li>Possibilità di applicare un ruolo all’integrazione Adobe I/O: Approvatore, Editor o Osservatore.</li></ul>Per istruzioni dettagliate e ulteriori informazioni, consulta [Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli](/help/administrating-target/c-user-management/property-channel/configure-adobe-io-integration.md). |
+| Node.js SDK versione 1.0 | L’SDK Node.js di Target consente di distribuire Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Experience Cloud, come Adobe Experience Cloud Identity Service, Adobe Analytics e Adobe Audience Manager.<br>L’SDK Node.js introduce procedure ottimali e rimuove le complessità durante l’integrazione con Adobe Target tramite la nostra API di distribuzione, in modo che i team tecnici possano concentrarsi sulla logica aziendale. Di seguito sono riportate alcune importanti funzioni introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite caching.</li><li>Supporto per l'ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine Web che sul lato server. We are introducing a setting called `serverState` that will be populated by experiences retrieved via the server-side so that at.js 2.2 will no longer make an additional server call to retrieve the experiences. This approach optimizes page load performance.</li><li> Support for retrieving VEC-created activities via the Node.js SDK, which is made possible by the new Delivery API.</li><li>Open sourced so your developers can contribute to the Node.js SDK.</li></ul> |
+| Delivery API | An entirely new delivery API endpoint (/v1/delivery) will be available in production. Notable features are:<ul><li>One endpoint to retrieve experiences for one or more mboxes.</li><li>Retrieve VEC-created activities via the API.</li><li>Support for an entirely new object called Views that is used for Single Page Applications (SPAs) and Mobile applications.</li></ul> |
+| at.js version 2.2andat.js version 1.8<br><br> | These versions of at.js provide:<ul><li>Improved performance when using both Experience Cloud ID Service (ECID) v4.4 and at.js 2.2 or at.js 1.8 on your web pages.</li><li>In precedenza, l'ECID effettuava due chiamate di blocco prima che at.js potesse recuperare le esperienze. È stato ridotto a una singola chiamata, il che migliora notevolmente le prestazioni.</li></ul> Per trarre vantaggio da questi miglioramenti in termini di prestazioni, effettua l’aggiornamento a at.js 2.2 o at.js 1.8 insieme alla libreria ECID v4.4. |
+
+
+## Target Standard/Premium 19.10.1 (22 ottobre 2019)
+
+| Funzionalità/Miglioramento | Descrizione |
+| --- | --- |
+| ![Premium badge](/help/assets/premium.png) - Raccomandazioni basate sull'utente | Recommends items based off of each visitor's browsing, viewing, and purchasing history. Tali elementi sono generalmente denominati "Consigliati per l'utente."<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L'elenco delle raccomandazioni è ponderato per l'attività più recente del visitatore, viene aggiornato in sessione e diventa più personalizzato man mano che il visitatore naviga nel sito. |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
