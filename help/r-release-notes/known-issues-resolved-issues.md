@@ -1,14 +1,14 @@
 ---
 description: Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
 keywords: problemi noti;problemi risolti;note sulla versione;bug;problemi;correzioni
-seo-description: Informazioni sui problemi noti per questa release di Adobe Target. Include inoltre informazioni sui problemi risolti.
+seo-description: Information about known issues for this release of Adobe Target. Include inoltre informazioni sui problemi risolti.
 seo-title: Problemi noti e problemi risolti in Adobe Target
 solution: Target
 title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
+source-git-commit: 89f3cc4a6fe5ea34398cf56824fa699e19cc56fc
 
 ---
 
@@ -64,9 +64,9 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
 * Le entità sono scadute correttamente dopo 60 giorni dalla ricezione di aggiornamenti tramite feed o API; tuttavia, le entità scadute non vengono rimosse dall'indice di ricerca del catalogo dopo la scadenza. (IRI-857)
 * Le sovrapposizioni "Informazioni sull'utilizzo" per i criteri e le progettazioni non riflettono il loro utilizzo nelle attività A/B e Targeting delle esperienze (TGT-34331)
-* Recommendations Le offerte nelle attività A/B e Targeting delle esperienze non mostrano un'anteprima visiva della barra delle raccomandazioni (TGT-33426)
-* Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l'API non sono visibili nell'interfaccia utente di Target e possono essere modificati solo tramite l'API. (TGT-35777)
-* Le attività di Recommendations create tramite API possono essere visualizzate nell'interfaccia utente, ma possono essere modificate solo tramite API
+* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Collections, exclusions, criteria, and designs created via API are not visible in the Target user interface and can only be edited via API. (TGT-35777)
+* Recommendations activities created via API can be viewed in the user interface, but can only be edited via API.
 
 ### Attività di test multivariato (MVT)
 
@@ -76,9 +76,9 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Se create un'esperienza senza modifiche con at.js 2.*x* (ad esempio, un'esperienza predefinita), l'esperienza potrebbe non essere conteggiata nei report, Analytics for Target (A4T), Analytics o Google Analytics. Inoltre, il plug-in [ttMeta potrebbe non funzionare correttamente](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) .
+* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
 
-   Come soluzione alternativa, utilizzate uno spazio vuoto nel contenuto dell'esperienza. (TNT-33366)
+   As a workaround, use a whitespace in the experience content. (TNT-33366)
 
 * Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
