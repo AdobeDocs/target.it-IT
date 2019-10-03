@@ -8,7 +8,7 @@ title: Note sulla versione per le versioni precedenti
 topic: Consigli
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 3bf1796493d5a381891d2a49a6cd80a5dda07edc
+source-git-commit: 2118ab105a8f9e5195ce5839a68299454e633cdc
 
 ---
 
@@ -2193,10 +2193,6 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
  </thead>
  <tbody> 
-  <tr> 
-   <td colname="col1"> Notifiche di Experience Cloud </td> 
-   <td colname="col2"> <p>Le notifiche da Target sono visibili in tutte le soluzioni di Adobe Experience Cloud. Le notifiche vengono inviate automaticamente quando un'attività viene attivata o disattivata. Queste notifiche sono disponibili per tutti gli utenti con accesso a Target Standard/Premium. </p> <p>Le notifiche sono visibili anche in Target Standard/Premium. </p> <p>Consulta <a href="../c-activities/notifications.md#concept_557351F8BB7D40F39A65951A77B79D62" format="dita" scope="local"> Notifiche </a> </p> </td> 
-  </tr> 
   <tr> 
    <td colname="col1"> Miglioramenti dell'interfaccia utente </td> 
    <td colname="col2"> <p>L'interfaccia utente è cambiata notevolmente in questa versione. Alcuni dei cambiamenti più evidenti: </p> <p> 
