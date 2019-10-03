@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 1d29da9303be3dfd017fc738c5b4ecc68f837077
 
 ---
 
@@ -62,9 +62,11 @@ Le offerte di codice create dall’interfaccia utente di Target nella libreria O
 
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
-* Entities are correctly expired after 60 days of receiving no updates via feed or API; however, the expired entities are not removed from the Catalog Search index after expiration. (IRI-857)
-* The "Usage Info" overlays for Criteria and Designs do not reflect their usage in A/B and Experience Targeting activities (TGT-34331)
-* Recommendations Offers in A/B and Experience Targeting activities do not show a visual preview of the Recommendations tray (TGT-33426)
+* Le entità sono scadute correttamente dopo 60 giorni dalla ricezione di aggiornamenti tramite feed o API; tuttavia, le entità scadute non vengono rimosse dall'indice di ricerca del catalogo dopo la scadenza. (IRI-857)
+* Le sovrapposizioni "Informazioni sull'utilizzo" per i criteri e le progettazioni non riflettono il loro utilizzo nelle attività A/B e Targeting delle esperienze (TGT-34331)
+* Recommendations Le offerte nelle attività A/B e Targeting delle esperienze non mostrano un'anteprima visiva della barra delle raccomandazioni (TGT-33426)
+* Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l'API non sono visibili nell'interfaccia utente di Target e possono essere modificati solo tramite l'API. (TGT-35777)
+* Le attività di Recommendations create tramite API possono essere visualizzate nell'interfaccia utente, ma possono essere modificate solo tramite API
 
 ### Attività di test multivariato (MVT)
 
@@ -74,9 +76,9 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* If you create an experience with no modifications using at.js 2.*x (for example, a default experience), the experience might not be counted in reports, Analytics for Target (A4T), Analytics, or Google Analytics.* In addition, the ttMeta plug-in might not work correctly.[](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md)
+* Se create un'esperienza senza modifiche con at.js 2.*x* (ad esempio, un'esperienza predefinita), l'esperienza potrebbe non essere conteggiata nei report, Analytics for Target (A4T), Analytics o Google Analytics. Inoltre, il plug-in [ttMeta potrebbe non funzionare correttamente](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) .
 
-   As a workaround, use a whitespace in the experience content. (TNT-33366)
+   Come soluzione alternativa, utilizzate uno spazio vuoto nel contenuto dell'esperienza. (TNT-33366)
 
 * Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
