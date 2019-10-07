@@ -1,6 +1,6 @@
 ---
 description: Informazioni su come la libreria JavaScript at.js di Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
-keywords: visualizzazione momentanea di altri contenuti;Target Standard;at.js;implementazione
+keywords: sfarfallio;at.js;implementazione
 seo-description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
 seo-title: Gestione della visualizzazione momentanea di altri contenuti di Adobe Target at.js
 solution: Target
@@ -8,7 +8,7 @@ title: Gestione at.js della visualizzazione momentanea di altri contenuti
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -103,11 +103,11 @@ Anziché il valore predefinito:
 body {opacity: 0 !important}
 ```
 
-## Gestione della visualizzazione momentanea di altri contenuti in at.js 2.x per triggerView()
+## Gestisci sfarfallio in at.js 2.x per triggerView()
 
 Quando si utilizza `triggerView()` per visualizzare contenuti mirati nell’applicazione a pagina singola, la gestione della visualizzazione momentanea di altri contenuti è preconfigurata. Questo significa che non è necessario aggiungere la logica preliminare manualmente. Al contrario, at.js 2.x nasconde preventivamente la posizione in cui la visualizzazione deve essere mostrata prima di applicare il contenuto mirato.
 
-## Gestione della visualizzazione momentanea di altri contenuti con getOffer() e applyOffer()
+## Gestire lo sfarfallio con getOffer() e applyOffer()
 
 Poiché sia `getOffer()` che `applyOffer()` sono API di basso livello, non è incorporato alcun controllo sulla visualizzazione momentanea di altri contenuti. Puoi passare un selettore o un elemento HTML come opzione ad `applyOffer()`; in questo caso `applyOffer()` aggiunge il contenuto dell’attività a questo particolare elemento; tuttavia, è necessario assicurarsi che l’elemento sia correttamente nascosto prima di richiamare `getOffer()` e `applyOffer()`.
 
@@ -130,7 +130,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Utilizzo di una mbox regionale con mboxCreate() in at.js 1.x (non supportato in at.js 2.x)
+## Utilizzo di una mbox regionale con mboxCreate() in at.js 1.x (non supportata in at.js 2.x)
 
 Se utilizzi un’implementazione di mbox regionale, utilizza `mboxCreate()` con il provisioning della pagina configurato in modo simile al seguente codice di esempio:
 
