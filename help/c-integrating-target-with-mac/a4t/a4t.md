@@ -4,12 +4,12 @@ keywords: a4t;Analytics;analytics for target;Analytics come origine per la gener
 seo-description: Adobe Analytics for Target (A4T) è un’integrazione tra soluzioni che consente di creare attività basate su metriche di conversione e segmenti di pubblico di Analytics. Questa integrazione consente di utilizzare i rapporti di Analytics per esaminare i risultati. Se utilizzi Analytics come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano sulla raccolta di dati di Analytics.
 seo-title: Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
 solution: Target
-subtopic: Test multivariato
+subtopic: Integrazione
 title: Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
@@ -53,7 +53,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 * L’utilizzo di Analytics come origine per la generazione di rapporti consente una sola metrica basata su mbox.
 * Una chiamata da server a server da Target ad Analytics invia informazioni ad Analytics sulle attività e sulle esperienze. Questa integrazione non comporta chiamate server aggiuntive per Target o Analytics.
 
-   In some situations, the classification call from Target to Analytics might fail and activities do not show data in Analytics. If this happens, see Troubleshoot the Analytics and Target integration (A4T). [](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) You can also contact Client Care for further assistance.[](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB)
+   In alcune situazioni, la chiamata di classificazione da Target ad Analytics potrebbe non riuscire e le attività non mostrano i dati in Analytics. In tal caso, consultate [Risoluzione dei problemi relativi all'integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
 
 ## Tipi di attività supportate {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -81,7 +81,7 @@ Poiché tutti i tipi di attività non supportano ancora A4T, è consigliabile ma
 
 ## Esempi di rapporti A4T {#section_F0A43A1CB2F04E8282B909E4D7034361}
 
-Per visualizzare i rapporti A4T in [!DNL Target]**, fai clic su[!UICONTROL Attività]**, fai clic sull’attività desiderata dall’elenco che utilizza [!DNL Analytics] come origine per la generazione di rapporti, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
+Per visualizzare i rapporti A4T in [!DNL Target], fai clic su **[!UICONTROL Attività]**, fai clic sull’attività desiderata dall’elenco che utilizza [!DNL Analytics] come origine per la generazione di rapporti, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
 >[!NOTE]
 >
@@ -130,4 +130,4 @@ Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
-[Analytics/Target Integration (A4T) Office Hours](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Ore di ufficio integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
