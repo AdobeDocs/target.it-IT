@@ -1,23 +1,23 @@
 ---
-description: Schema del sistema Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
-keywords: schema di sistema;visualizzazione momentanea;Target Standard;at. js;implementazione;libreria javascript;js
+description: Esegue il targeting dei diagrammi di sistema che mostrano il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente tramite at.js.
+keywords: diagramma di sistema;flicker;at.js;implementation;javascript library;js
 seo-description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
-seo-title: Come funziona at.js
+seo-title: Funzionamento della libreria JavaScript di Adobe Target at.js
 solution: Target
 title: Funzionamento di at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
 
 # Funzionamento di at.js{#how-at-js-works}
 
-Devi utilizzare la libreria at.js per implementare [!DNL Adobe Target] sul lato client.
+To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
 
-In un’implementazione lato client di [!DNL Adobe Target], [!DNL Target] consegna le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) o un’interfaccia non visiva (il [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md)) per creare esperienze di test e personalizzazione.
+In un’implementazione lato client di [!DNL Adobe Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) o un’interfaccia non visiva (il [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md)) per creare esperienze di test e personalizzazione.
 
 ## Che cos’è at.js?
 
