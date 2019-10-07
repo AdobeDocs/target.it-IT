@@ -1,8 +1,8 @@
 ---
 description: Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-keywords: consigli;criteri dei consigli;algoritmi dei consigli;attività di consigli;criteri;targeting consigli
-seo-description: Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-seo-title: Consigli
+keywords: Consigli;criteri di raccomandazione;algoritmi di raccomandazione;attività di raccomandazione;criteri;targeting delle raccomandazioni;recs
+seo-description: Le attività di Recommendations in Adobe Target visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base all'attività utente precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
+seo-title: Adobe Target Recommendations
 solution: Target
 title: Consigli
 title-outputclass: premium
@@ -10,7 +10,7 @@ topic: Premium
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 badge: premium
 translation-type: tm+mt
-source-git-commit: 414783c4072a574d278166bedc8243047135265b
+source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
 
 ---
 
