@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9ad116dc4834cf90ba6d6d98da7e270544fd0113
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -21,7 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 3 ottobre 2019 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Added the following: <ul><li>Known issue and workaround when creating an experience with no modifications using the at.js 2.*x* library.</li><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l'API non sono visibili nell'interfaccia utente di Target e possono essere modificati solo tramite l'API.</li><li>Le attività di Recommendations create tramite API possono essere visualizzate nell'interfaccia utente, ma possono essere modificate solo tramite API.</li></ul> |
+| 8 ottobre 2019 | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Nuovo argomento con i collegamenti al primo batch di newsletter, con altri argomenti in arrivo. |
+| 3 ottobre 2019 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto quanto segue: <ul><li>Problema noto e soluzione alternativa durante la creazione di un'esperienza senza modifiche con at.js 2.*x* library.</li><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l'API non sono visibili nell'interfaccia utente di Target e possono essere modificati solo tramite l'API.</li><li>Le attività di Recommendations create tramite API possono essere visualizzate nell'interfaccia utente, ma possono essere modificate solo tramite API.</li></ul> |
 |  | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Aggiunta nota alla sezione "mboxDebug". |
 | 2 ottobre 2029 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulle prossime release. |
 | 1 ottobre 2019 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Testo aggiornato nella sezione "Attributi del cliente". |
@@ -36,8 +37,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Testo aggiornato sul calcolatore delle dimensioni del campione di Target. |
 | 24 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data della release di Target/Standard 19.2.1 al 30 settembre 2019. |
 |  | [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) | È stato aggiunto un video di formazione. |
-| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Added information about the Target Standard/Premium 19.9.1 release. |
-| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Added "Considerations" section. |
+| 10 settembre 2019 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1. |
+| 9 settembre 2019 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md#considerations) | Aggiunta la sezione "Considerazioni". |
 |  | [Criteri per cookie SameSite di Google Chrome](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md) | Testo aggiornato per l’intero argomento. |
 |  | [Informativa sulla sicurezza dei contenuti (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | Nuovo argomento. |
 | 6 settembre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 19.9.1 (10 settembre 2019). |
