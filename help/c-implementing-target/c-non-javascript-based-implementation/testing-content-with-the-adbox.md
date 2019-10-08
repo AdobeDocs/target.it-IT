@@ -1,22 +1,22 @@
 ---
 description: Utilizza un AdBox per consegnare le immagini in un'implementazione off-site.
 keywords: Implementazione;mbox.js non JavaScript;mbox;AdBox
-seo-description: Utilizza un AdBox per consegnare le immagini in un'implementazione off-site.
-seo-title: Creare un AdBox per un’immagine
+seo-description: Utilizza un AdBox per distribuire immagini in un'implementazione off-site, utilizzando Adobe Target.
+seo-title: Creare un Adbox per un'immagine utilizzando Adobe Target
 solution: Target
 subtopic: Introduzione
-title: Creare un AdBox per un’immagine
+title: Creare un AdBox per un’immagine utilizzo di Adobe Target
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
 
 # Creare un AdBox per un’immagine{#create-an-adbox-for-an-image}
 
-Utilizza un AdBox per consegnare le immagini in un'implementazione off-site.
+Utilizzate un AdBox per distribuire immagini in un'implementazione off-site tramite Adobe Target.
 
 Un AdBox è come una mbox, ma è controllato da un URL piuttosto che da JavaScript. Gli AdBox sono creati con un URL AdBox speciale che carica una mbox di tipo annuncio (o AdBox) nel tuo account Adobe. Utilizza questo AdBox al posto della mbox nelle tue attività. Utilizza l'URL AdBox anziché un riferimento diretto all'immagine in email o altre implementazioni non JavaScript.
 
@@ -26,7 +26,7 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
 
    ```
    https://myClientCode.tt.omtrdc.net/m2/myClientCode/ubox/
-   image?mbox=emailHeroImage123_320x200
+   image?mbox=emailHeroImage123_320x200&
    mboxDefault=http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif
    ```
 
@@ -55,4 +55,6 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
    Consulta [Implementazioni non basate su JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) per l’installazione che permette di raggiungere gli obbiettivi.
 1. Domande e risposte complete sull'attività.
 
-   Come best practice, crea una pagina fittizia e verifica che tutte le esperienze, il contenuto predefinito e i rapporti agiscano come previsto su tutti i tipi di browser, per tutti gli ambienti. 1. Avvia l’attività.
+   Come best practice, crea una pagina fittizia e verifica che tutte le esperienze, il contenuto predefinito e i rapporti agiscano come previsto su tutti i tipi di browser, per tutti gli ambienti.
+
+1. Avvia l’attività.
