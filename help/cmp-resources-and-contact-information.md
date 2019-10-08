@@ -8,7 +8,7 @@ title: Risorse e informazioni di contatto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 13ad42da73dd3fcbf4e07be1de646e0eac8c991e
+source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
 
 ---
 
@@ -48,59 +48,13 @@ Le attuali sessioni registrate di Target includono:
 |--- |--- |
 | [Visual Experience Composer (VEC)](https://helpx.adobe.com/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni su questo manuale, vedi [Esperienze](/help/c-experiences/experiences.md). |
 | [Adobe Target: Integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell'integrazione </li><li>Funzionamento dell'integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni su questo manuale, vedi [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js: Advantages and Implementation Best Practices26:43April 2018](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br><br> | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto mbox.js</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul>Per ulteriori informazioni su questo manuale, vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| [at.js: Vantaggi e best practice](https://helpx.adobe.com/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>di implementazione 26:43<br>aprile 2018 | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto mbox.js</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul>Per ulteriori informazioni su questo manuale, vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 >[!NOTE]
 >
 >La data di pubblicazione consente di sapere quando è stata registrata la sessione. Alcune funzioni potrebbero aver subito modifiche e ne potrebbero essere state aggiunte altre dopo la data di pubblicazione.
 
 In aggiunta alle sessioni di Target, esistono altre sessioni per altre soluzioni Adobe, tra cui Analytics, Campaign, Adobe Experience Manager (AEM), Primetime, Adobe Core Services, Audience Manager e altro ancora.
-
-## Newsletter Target Insider {#concept_7600A06142034A3FA325EF7FA898DDE8}
-
-Adobe Target Insider è una newsletter mensile per i membri della community di Adobe Target. Scopri aggiornamenti del prodotto e progetti futuri, suggerimenti e trucchi per la personalizzazione e l’ottimizzazione, storie di successo dai nostri clienti, i prossimi eventi, white paper ricchi di informazioni, articoli di blog e altro ancora.
-
-
-Leggi la [lettera di notifica](https://theblog.adobe.com/stay-optimized-adobe-target-insider-newsletter/) per scoprire come restare ottimizzato con la newsletter Adobe Target Insider.
-
->[!IMPORTANT]
->
->[Registrati per ricevere automaticamente la newsletter Adobe Target Insider nella inbox](https://www.adobe.com/subscription/adobe_target_newsletter.html).
-
-Se ti sono sfuggite le newsletter precedenti, fai clic sui seguenti collegamenti per assicurarti di non perdere niente:
-
->[!NOTE]
->
->I collegamenti alle newsletter al momento non sono disponibili.
-
-| Problema | Dettagli |
-|--- |--- |
-|  |  |
-| Novembre 2018 (volume 1, numero 11) | In questo numero, scopri il nostro ultimo webinar sulle piattaforme di ottimizzazione delle esperienze con James McCormick, responsabile analista di Forrester. Scopri come sviluppare app mobili a continua disposizione dei clienti. Ricevi consigli da Matt Ravlich di WestJet sulla comunicazione dei tuoi successi ottimizzati. Scopri in che modo due potenti funzioni di intelligenza artificiale guidate da Adobe Sensei abilitano la personalizzazione in scala. E non dimenticare di segnarti la data dell’Adobe Summit. |
-| Ottobre 2018 (volume 1, numero 10) | Ultimamente, abbiamo aggiunto numerose fantastiche funzioni e miglioramenti per Adobe Target, compresi alcuni descritti in un recente articolo di TechCrunch. Scopri ulteriori dettagli sulle nuove funzioni sull’articolo del blog correlato e la sezione Novità di Adobe Target. Inoltre, scopri come David Parker e il suo team hanno aiutato una grande azienda di telefonia a ottimizzare l’intero percorso del cliente sul sito web aziendale. |
-| Settembre 2018 (volume 1, numero 9) | In questa edizione di Adobe Target Insider, Leen Habbal, la nostra tirocinante, racconta l’esperienza del suo tirocinio estivo nel team di marketing prodotto di Adobe Target. Inoltre, presentiamo Adobe Cloud Platform Auditor, uno strumento per aiutarti a verificare di aver implementato correttamente le tecnologie Adobe. Spieghiamo come l’intelligenza artificiale può portare l’esperienza del cliente a un livello superiore e come ottenere la certificazione di Adobe Target. Inoltre, Rob McLaughlin di Sky, azienda di media e telecomunicazione con sede nel Regno Unito, ci spiega come distribuire ai clienti personalizzazioni in larga scala e molto altro. |
-| Agosto 2018 (volume 1, numero 8) | In questa newsletter Adobe Target Insider, scopri Adobe Experience League per Adobe Target, una risorsa preziosa per lo sviluppo delle competenze in materia di ottimizzazione e personalizzazione. Successivamente, scopri come Jake Mitchell di CarMax si è affidato a Adobe Target per ottimizzare l’esperienza utente. Infine, immergiti nella scienza dei dati con i nuovi rapporti Approfondimenti personalizzazione in Adobe Target Premium. |
-| Luglio 2018 (volume 1, numero 7) | In questa edizione di Adobe Target Insider, presentiamo Adobe Target Basics, una nuova serie di webinar gestita dalla community di Target che accompagna nell’interfaccia utente della soluzione (UI) per procedure consigliate, suggerimenti e trucchi. Condividiamo anche le considerazioni di Nicolas Mériel sul viaggio di Swisscom verso l’utilizzo dell’intelligenza artificiale per la personalizzazione, i punti salienti del nostro recente sondaggio relativo all’intelligenza artificiale nella personalizzazione e molto altro ancora. |
-| Giugno 2018 (volume 1, numero 6)] | Siamo onorati di essere stati nominati l'unico leader nel report The Forrester Wave™: Experience Optimization Platforms, Q2 2018 e ringraziamo voi, i nostri clienti, per il supporto e il prezioso feedback, che hanno aiutato la nostra soluzione a ottenere tale onorificenza. Leggi il nostro articolo di blog sul report, scopri cinque suggerimenti per trasformare il tuo programma di ottimizzazione con una presentazione, visualizza un riepilogo della recente tappa ad Atlanta del nostro tour Adobe Insider, e molto altro ancora. |
-| Maggio 2018 (volume 1, numero 5) | In questa edizione scopri come Adobe Experience Cloud si prepara ad affrontare il Regolamento generale sulla protezione dei dati (RGPD) dell'UE, che entrerà in vigore il 25 maggio. Approfitta del riepilogo delle sessioni più votate del summit di Adobe nella traccia Personalizzazione. E se ti occupi di B2B, continua a leggere per scoprire insight da un colosso del B2B: Grainger. |
-| Aprile 2018 (volume 1, numero 4) | In questa edizione ti faremo rivivere una parte del summit di Adobe a Las Vegas, introducendo al contempo una nuova opportunità per mantenere quei preziosi contatti di persona con il nostro team e i tuoi colleghi-l'Adobe Insider Tour. Continua a leggere per scoprire i nostri cinque finalisti del concorso Adobe Experience Business Excellence che hanno condiviso le loro storie di successo della personalizzazione con Adobe Target. In questa edizione ti faremo rivivere una parte del summit di Adobe a Las Vegas, introducendo al contempo una nuova opportunità per mantenere quei preziosi contatti di persona con il nostro team e i tuoi colleghi-l'Adobe Insider Tour. Continua a leggere per scoprire i nostri cinque finalisti del concorso Adobe Experience Business Excellence che hanno condiviso le loro storie di successo della personalizzazione con Adobe Target. |
-| Marzo 2018 (volume 1, numero 3) | Quest'anno ci siamo impegnati a sviluppare nuove funzionalità innovative in Adobe Target che abbiamo appena annunciato al summit di Adobe. Qui troverai maggiori informazioni, insieme ad alcuni articoli tecnici di approfondimento che consentono di trarre di più da Adobe Target. |
-| Febbraio 2018 (volume 1, numero 2) | In questa edizione offriamo un compendio delle sessioni di personalizzazione svoltesi al summit di Adobe. Dai un'occhiata, scegli le sessioni che fanno per te, e ci vediamo al prossimo grande evento. Inoltre, scopri e fai partire il sondaggio sullo Stato dell'IA nella Personalizzazione 2018 nell'articolo seguente. Per ringraziarti, una volta che l'avrai completato ti spetterà un caffè da Starbucks! |
-| Gennaio 2018 (volume 1, numero 1) | Benvenuto alla prima edizione di Adobe Target Insider, la nostra newsletter mensile piena di notizie e risorse per gli utenti di Adobe Target. In questo numero dirò la mia su cosa riserva il 2018 per la personalizzazione. Buona lettura. |
-
-<!--
-/help/assets/newsletter-2018-november.pdf
-/help/assets/newsletter-2018-october.pdf
-/help/assets/newsletter-2018-september.pdf
-/help/assets/newsletter-2018-august.pdf
-/help/assets/newsletter-2018-july.pdf
-/help/assets/newsletter-2018-june.pdf
-/help/assets/newsletter-2018-may.pdf
-/help/assets/newsletter-2018-april.pdf
-/help/assets/newsletter-2018-march.pdf
-/help/assets/newsletter-2018-february.pdf
-/help/assets/newsletter-2018-january.pdf
--->
 
 ## Contattare l’Assistenza clienti di Adobe {#reference_ACA3391A00EF467B87930A450050077C}
 
