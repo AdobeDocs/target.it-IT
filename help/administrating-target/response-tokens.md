@@ -1,7 +1,7 @@
 ---
 description: I token di risposta consentono di generare automaticamente informazioni specifiche di Target (dettagli della campagna, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o per l’integrazione con sistemi di terze parti (ad esempio, Clicktale)
-keywords: token di risposta;token;plugin;plug-in;at.js
-seo-description: I token di risposta consentono di generare automaticamente informazioni specifiche di Target (dettagli della campagna, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o per l’integrazione con sistemi di terze parti (ad esempio, Clicktale)
+keywords: token di risposta;token;plugin;plug-in;at.js;response
+seo-description: I token di risposta consentono di inviare automaticamente in uscita informazioni specifiche di Target (dettagli dell'attività, informazioni del profilo utente, informazioni geografiche e così via) da utilizzare per il debug o l'integrazione con sistemi di terze parti (ad esempio, Clicktale)
 seo-title: Token di risposta in Adobe Target
 solution: Target
 subtopic: Introduzione
@@ -9,7 +9,7 @@ title: Token di risposta
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: c3afa420f33f98d7c4bb332acdef7a248fe4670a
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -24,7 +24,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
 >[!NOTE]
 >
->I token di risposta sono disponibili con [!DNL at.js] 1.1 e versioni successive. I token di risposta non sono supportati con mbox.js.
+>I token di risposta sono disponibili con at.js 1.1 o versione successiva. I token di risposta non sono supportati con mbox.js.
 
 | Libreria di Target in uso | Azioni consigliate |
 |--- |--- |
