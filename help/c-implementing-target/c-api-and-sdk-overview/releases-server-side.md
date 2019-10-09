@@ -7,14 +7,14 @@ solution: Target
 title: Note sulla versione - API lato server di Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 434b103cee15e2e3efdb53febe15c689b5ccd48e
 
 ---
 
 
 # Note sulla versione - API lato server di Target
 
-Note sulla versione relative alle API lato [!DNL Adobe Target] server.
+Note sulla versione relative alle API lato server di [Adobe Target](https://developers.adobetarget.com/api/delivery-api/).
 
 ## V1/consegna (9 ottobre 2019)
 
