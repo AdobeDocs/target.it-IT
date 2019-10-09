@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
 
 ---
 
@@ -21,6 +21,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 9 ottobre 2019 | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Argomento aggiornato. |
+|  | [Note sulla versione - API lato server di Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nuovo argomento. |
+|  | [Note sulla versione - SDK Node.js di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nuovo argomento. |
+|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle release V1/Delivery API e Node.js SDK. |
 | 8 ottobre 2019 | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Nuovo argomento con i collegamenti al primo batch di newsletter, con altri argomenti in arrivo. |
 | 3 ottobre 2019 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto quanto segue: <ul><li>Problema noto e soluzione alternativa durante la creazione di un'esperienza senza modifiche con at.js 2.*x* library.</li><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l'API non sono visibili nell'interfaccia utente di Target e possono essere modificati solo tramite l'API.</li><li>Le attività di Recommendations create tramite API possono essere visualizzate nell'interfaccia utente, ma possono essere modificate solo tramite API.</li></ul> |
 |  | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#mboxdebug) | Aggiunta nota alla sezione "mboxDebug". |
