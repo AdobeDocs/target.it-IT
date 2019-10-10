@@ -8,7 +8,7 @@ title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -63,6 +63,6 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
    L'allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell'attività. Questo significa che solo un'esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L'allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l'esperienza vincente avrà raccolto il 60% di affidabilità. L'allocazione automatica è approssimativamente due volte più veloce di un normale test A/B. Puoi determinare quanto tempo richiede un normale test A/B con il [calcolatore della dimensione del campione](https://docs.adobe.com/content/target-microsite/testcalculator.html): inserisci il tasso di conversione del controllo in “Tasso di conversione di base”, “5%” per “Incremento” e 95% per “Affidabilità”. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un'idea di quando potrai iniziare a vedere valori di affidabilità.
+* L'allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l'esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di confidenza vengono generalmente visualizzati in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un'idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
 
