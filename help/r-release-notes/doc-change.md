@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -24,6 +24,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 10 ottobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Aggiunta nuova sezione: "serverState." |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
+|  | [Risolvere i problemi relativi alle attività](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Aggiunta nuova sezione: "Ho creato un'attività utilizzando l'interfaccia utente di Target e non posso aggiornarla tramite API." |
 | 9 ottobre 2019 | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Argomento aggiornato. |
 |  | [Note sulla versione - API lato server di Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nuovo argomento. |
 |  | [Note sulla versione - SDK Node.js di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nuovo argomento. |
