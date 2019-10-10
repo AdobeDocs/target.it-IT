@@ -8,7 +8,7 @@ title: Risolvere i problemi relativi alle attività
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
 
 ---
 
@@ -22,6 +22,10 @@ Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero
 >Oltre alle seguenti informazioni sulla risoluzione di problemi, consulta [Risoluzione dei problemi di Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per collegamenti ad ulteriori argomenti, domande frequenti e altre informazioni utili sulle attività di risoluzione dei problemi e altre funzionalità in [!DNL Adobe Target].
 
 Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le soluzioni suggerite.
+
+## Ho creato un'attività utilizzando l'interfaccia utente di Target e non posso aggiornarla tramite API.
+
+Le attività create utilizzando l'interfaccia utente di Target possono essere aggiornate *solo* tramite l'interfaccia utente di Target. Le attività create tramite API possono essere aggiornate *solo* tramite API. Provate ad aggiornare l'attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l'attività.
 
 ## Viene visualizzato il contenuto predefinito.
 
