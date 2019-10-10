@@ -1,6 +1,6 @@
 ---
 description: 'Informazioni sulla funzione targetGlobalSettings() per at.js. '
-keywords: targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;funzioni;funzione;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;domini diversi;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;global settings;global settings;at.js;function;clientCode;clientcode;serverDomain;serverDomain;cookieDomain;cookieDomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentContent ibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optoutEnabled;opt out;SeltorsPollingTimeout;dataProviders
 seo-description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 seo-title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 solution: Target
@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bc5acc09c1bc8e412929ad9a0ede8a80b6405d5d
+source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
 
 ---
 
@@ -25,6 +25,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 | Impostazioni | Tipo | Valore predefinito | Descrizione |
 |--- |--- |--- |--- |
+| serverState | Vedere "serverState" di seguito. | Vedere "serverState" di seguito. | Vedere "serverState" di seguito. |
 | clientCode | Stringa | Valore impostato tramite l'interfaccia utente | Rappresenta il codice cliente |
 | serverDomain | Stringa | Valore impostato tramite l'interfaccia utente | Rappresenta il server Edge di Target |
 | cookieDomain | Stringa | Se possibile impostato su dominio di primo livello | Rappresenta il dominio utilizzato quando si salvano i cookie |
@@ -175,3 +176,145 @@ Quando si lavora con l'impostazione `dataProviders`, tieni presente quanto segue
 
 * Se i fornitori di dati aggiunti a `window.targetGlobalSettings.dataProviders` sono asincroni, verranno eseguiti in parallelo. La richiesta API dei visitatori verrà eseguita in parallelo con le funzioni aggiunte a `window.targetGlobalSettings.dataProviders` per consentire un tempo minimo di attesa.
 * at.js non tenterà di memorizzare i dati nella cache. Se il fornitore di dati recupera i dati una sola volta, deve assicurarsi che i dati siano memorizzati nella cache e, quando viene invocata la funzione di fornitore di dati, deve servire i dati della cache per la seconda invocazione.
+
+## serverState {#server-state}
+
+`serverState` è un'impostazione disponibile in at.js v2.2+ che può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un'integrazione ibrida di Target. L'integrazione ibrida significa che stai utilizzando sia at.js v2.2+ sul lato client che l'API di consegna o un SDK Target sul lato server per distribuire esperienze. `serverState` consente a at.js v2.2+ di applicare esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina che viene servita.
+
+### Prerequisiti
+
+Devi avere un'integrazione ibrida di [!DNL Target].
+
+* **Lato** server:  Devi usare la nuova API [di](https://developers.adobetarget.com/api/delivery-api/) consegna o gli SDK [](https://developers.adobetarget.com/api/delivery-api/#section/SDKs)Target.
+* **Lato** client: È necessario utilizzare [at.js versione 2.2 o successiva](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+
+### Esempi di codice
+
+Per capire meglio come funziona, vedi gli esempi di codice riportati di seguito che hai sul tuo server. Il codice presuppone che tu stia utilizzando l’SDK [](https://github.com/adobe/target-nodejs-sdk)Target Node.js.
+
+```
+// First, we fetch the offers via Target Node.js SDK API, as usual
+const targetResponse = await targetClient.getOffers(options);
+// A successfull response will contain Target Delivery API request and response objects, which we need to set as serverState
+const serverState = {
+  request: targetResponse.request,
+  response: targetResponse.response
+};
+// Finally, we should set window.targetGlobalSettings.serverState in the returned page, by replacing it in a page template, for example
+const PAGE_TEMPLATE = `
+<!doctype html>
+<html>
+<head>
+  ...
+  <script>
+    window.targetGlobalSettings = {
+      overrideMboxEdgeServer: true,
+      serverState: ${JSON.stringify(serverState, null, " ")}
+    };
+  </script>
+  <script src="at.js"></script>
+</head>
+...
+</html>
+`;
+// Return PAGE_TEMPLATE to the client ...
+```
+
+Un JSON dell'oggetto di esempio `serverState` per la preacquisizione della visualizzazione è il seguente:
+
+```
+{
+ "request": {
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "context": {
+   "channel": "web",
+   "timeOffsetInMinutes": 0
+  },
+  "experienceCloud": {
+   "analytics": {
+    "logging": "server_side",
+    "supplementalDataId": "7D3AA246CC99FD7F-1B3DD2E75595498E"
+   }
+  },
+  "prefetch": {
+   "views": [
+    {
+     "address": {
+      "url": "my.testsite.com/"
+     }
+    }
+   ]
+  }
+ },
+ "response": {
+  "status": 200,
+  "requestId": "076ace1cd3624048bae1ced1f9e0c536",
+  "id": {
+   "tntId": "08210e2d751a44779b8313e2d2692b96.21_27"
+  },
+  "client": "testclient",
+  "edgeHost": "mboxedge21.tt.omtrdc.net",
+  "prefetch": {
+   "views": [
+    {
+     "name": "home",
+     "key": "home",
+     "options": [
+      {
+       "type": "actions",
+       "content": [
+        {
+         "type": "setHtml",
+         "selector": "#app > DIV.app-container:eq(0) > DIV.page-container:eq(0) > DIV:nth-of-type(2) > SECTION.section:eq(0) > DIV.container:eq(1) > DIV.heading:eq(0) > H1.title:eq(0)",
+         "cssSelector": "#app > DIV:nth-of-type(1) > DIV:nth-of-type(1) > DIV:nth-of-type(2) > SECTION:nth-of-type(1) > DIV:nth-of-type(2) > DIV:nth-of-type(1) > H1:nth-of-type(1)",
+         "content": "<span style=\"color:#FF0000;\">Latest</span> Products for 2020"
+        }
+       ],
+       "eventToken": "t0FRvoWosOqHmYL5G18QCZNWHtnQtQrJfmRrQugEa2qCnQ9Y9OaLL2gsdrWQTvE54PwSz67rmXWmSnkXpSSS2Q==",
+       "responseTokens": {
+        "profile.memberlevel": "0",
+        "geo.city": "dublin",
+        "activity.id": "302740",
+        "experience.name": "Experience B",
+        "geo.country": "ireland"
+       }
+      }
+     ],
+     "state": "J+W1Fq18hxliDDJonTPfV0S+mzxapAO3d14M43EsM9f12A6QaqL+E3XKkRFlmq9U"
+    }
+   ]
+  }
+ }
+}
+```
+
+Dopo che la pagina è stata caricata nel browser, at.js applica tutte le [!DNL Target] offerte da `serverState` subito, senza attivare chiamate di rete contro il [!DNL Target] bordo. Inoltre, at.js prenasconde solo gli elementi DOM per i quali [!DNL Target] sono disponibili offerte nel contenuto recuperato lato server, con un impatto positivo sulle prestazioni di caricamento delle pagine e sull'esperienza dell'utente finale.
+
+### Note importanti
+
+Considerate quanto segue quando utilizzate `serverState`:
+
+* Al momento, at.js v2.2 supporta solo la distribuzione di esperienze tramite serverState per:
+
+   * Attività create VEC che vengono eseguite al caricamento della pagina.
+   * Viste prerecuperate.
+
+      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell'API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuto aggiuntive a Target.
+
+   * **Nota**:  Attualmente, le mbox recuperate sul lato server non sono supportate in `serverState`.
+
+* Quando applicate `serverState `le offerte, at.js prende in considerazione `pageLoadEnabled` e `viewsEnabled` le impostazioni, ad esempio le offerte di caricamento pagina non verranno applicate se l' `pageLoadEnabled` impostazione è false.
+
+   Per attivare queste impostazioni, attivate l’interruttore in Configurazione **[UICONTROL &gt; Implementazione &gt; Modifica impostazioni &gt; Caricamento pagina abilitato]**.
+
+   ![Impostazioni abilitate per il caricamento della pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+### Risorse aggiuntive
+
+Per ulteriori informazioni sul `serverState` funzionamento, consulta le risorse seguenti:
+
+* [Codice](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate)di esempio.
+* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
