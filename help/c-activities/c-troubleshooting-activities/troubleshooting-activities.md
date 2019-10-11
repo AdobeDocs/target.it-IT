@@ -8,7 +8,7 @@ title: Risolvere i problemi relativi alle attività
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
 
 ---
 
@@ -25,7 +25,9 @@ Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le so
 
 ## Ho creato un'attività utilizzando l'interfaccia utente di Target e non posso aggiornarla tramite API.
 
-Le attività create utilizzando l'interfaccia utente di Target possono essere aggiornate *solo* tramite l'interfaccia utente di Target. Le attività create tramite API possono essere aggiornate *solo* tramite API. Provate ad aggiornare l'attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l'attività.
+Le attività create utilizzando l'interfaccia utente di Target devono essere aggiornate tramite l'interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se originariamente create un'attività utilizzando l'API, ad esempio, ma successivamente modificate l'attività tramite l'interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un'altra chiamata API.
+
+Come procedura ottimale, provate ad aggiornare l'attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato originariamente per creare l'attività.
 
 ## Viene visualizzato il contenuto predefinito.
 
