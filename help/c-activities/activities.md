@@ -1,21 +1,21 @@
 ---
-description: Le attività consentono di sottoporre a test le progettazioni di pagine e indirizzare i contenuti a tipi di pubblico specifici.
-keywords: elenco attività;attività;tipi di attività;modificare le attività;azioni per le attività;attributo attività;filtro elenco attività;limitazioni attività
-seo-description: Le attività su Adobe Target consentono di sottoporre a test le progettazioni di pagine e il contenuto di destinazione a un pubblico specifico.
-seo-title: Attività in Adobe Target
+description: Le attività in Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni di pagina.
+keywords: elenco delle attività;attività;attività;tipi di attività;attività di modifica;attività;attività;attività attributo;attività list filter;activity limits;personalizzazione;personalizzazione
+seo-description: Le attività in Adobe Target ti consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test i progetti delle pagine
+seo-title: Le attività in Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni di pagina.
 solution: Target
 title: Attività
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 2b8dbccdc890626a0b7cb56d4cf03af1e7d8cf22
 
 ---
 
 
 # Attività{#activities}
 
-Le attività consentono di sottoporre a test le progettazioni di pagine e indirizzare i contenuti a tipi di pubblico specifici. Un’attività determina le esperienze potenziali di un visitatore del sito.
+Le attività in Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni di pagina.
 
 Ad esempio, puoi progettare un’attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un’altra con abbigliamento estivo generico. L'attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L'attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni, ad esempio tra date specifiche, o per iniziare quando l'attività viene approvata e per terminare quando viene disattivata.
 
