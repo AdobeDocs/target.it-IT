@@ -8,12 +8,12 @@ title: Controllo di qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 308e3777f96a31f9f553de1879b37bce46bcc89b
 
 ---
 
 
-# Controllo di qualità delle attività{#activity-qa}
+# Controllo di qualità delle attività {#activity-qa}
 
 Gli URL di controllo qualità consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
 
@@ -26,6 +26,10 @@ Il controllo di qualità delle attività permette di testare completamente le at
 * Il rapporto di controllo qualità viene acquisito per permettere agli addetti al marketing di confermare che le metriche aumentano come previsto, e i relativi dati sono tenuti separati dai rapporti di produzione (per la generazione di rapporti non A4T).
 * Possibilità di visualizzare in anteprima un’esperienza in isolamento o in combinazione con altre attività live che soddisfino i criteri di consegna (pagina/mbox/pubblico).
 * Capacità di eseguire il controllo qualità sull’intero percorso dell’utente. Puoi accedere al tuo sito una volta con il collegamento di controllo qualità e quindi navigare nell’intero sito in modalità di controllo qualità dell’attività. Resterai in tale modalità fino alla fine della sessione o fino a quando utilizzi il [Bookmarklet di controllo qualità di Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per uscire dalla modalità di controllo qualità dell’attività. Questa funzionalità è particolarmente utile per le attività che si estendono su più pagine web.
+
+>[!NOTE]
+>
+>Ciò è vero per le implementazioni at.js con la versione 2.*x* o versione successiva. Per at.js 1.*implementazioni x* e mbox.js, ciò è vero solo se il browser del visitatore non blocca i cookie di terze parti.
 
 ## Accesso e condivisione di un URL di controllo qualità {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
@@ -53,7 +57,9 @@ Il controllo di qualità delle attività permette di testare completamente le at
 
    I collegamenti dell’attività non scadono mai e non è necessario inviarli nuovamente se qualcuno apporta modifiche a un’attività o a un’esperienza. Tuttavia, se invece di modificare l’attività applichi un pubblico diverso dalla libreria dei tipi di pubblico, viene generato un nuovo collegamento che sarà necessario condividere.
 
-   Ogni URL di collegamento dell’attività (per Exp A, Exp B ecc.) consente di avviare il percorso dell’utente dall’esperienza corrispondente. Puoi fare clic sull’URL generato per un’esperienza e quindi procedere con la normale navigazione sul sito per visualizzare le esperienze su più pagine (se esistono più pagine). Per ogni esperienza viene generato un solo URL, anche se l’esperienza si estende su più pagine (test di modelli o test multipagina). Puoi navigare sul sito per vedere le altre pagine perché il controllo qualità dell’attività è persistente.
+   Ogni URL di collegamento dell’attività (per Exp A, Exp B ecc.) consente di avviare il percorso dell’utente dall’esperienza corrispondente. Puoi fare clic sull’URL generato per un’esperienza e quindi procedere con la normale navigazione sul sito per visualizzare le esperienze su più pagine (se esistono più pagine). Per ogni esperienza viene generato un solo URL, anche se l’esperienza si estende su più pagine (test di modelli o test multipagina).
+
+   Puoi navigare sul sito per vedere le altre pagine perché il controllo qualità dell’attività è persistente. Questo è vero per le implementazioni at.js con la versione 2.*x* o versione successiva. Per at.js 1.*implementazioni x* e mbox.js, ciò è vero solo se il browser del visitatore non blocca i cookie di terze parti.
 
 1. Per visualizzare i rapporti generati dagli URL di collegamento di un’attività, fai clic sulla pagina **[!UICONTROL Rapporti]** dell’attività, poi sull’icona **[!UICONTROL Impostazioni]** (![](assets/icon_gear.png)), quindi seleziona **[!UICONTROL Modalità Controllo di qualità]** dall’elenco a discesa **[!UICONTROL Ambiente]**.
 
@@ -69,7 +75,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
    Puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il parametro `at_preview_token` con un valore vuoto (ad esempio, `https://www.mysite.com/?at_preview_token=`).
 
 * Se hai specificato un URL durante la creazione dei [perfezionamenti dell’attività nel Compositore basato su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o nelle [opzioni di consegna della pagina nel Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL del controllo qualità non funzionerà perché il controllo qualità dell’attività aggiunge parametri all’URL. Per risolvere questo problema, fai clic su URL di controllo qualità per passare al sito, rimuovi dall’URL i parametri aggiunti, quindi carica il nuovo l’URL.
-* I cookie di terze parti devono essere abilitati nei browser Safari per il QA di attività per funzionare correttamente.
+* Se hai at.js 1.*x* o mbox.js, la modalità di QA dell'attività non è fissa se il browser blocca i cookie 3rd party. In questi casi, dovete aggiungere i parametri di anteprima a ciascun URL a cui vi spostate.
 * Se un’attività utilizza più tipi di pubblico per le esperienze (ad esempio, se nella stessa attività sono inclusi un sito britannico e uno statunitense), i collegamenti di controllo qualità non vengono generati per le quattro combinazioni (Esperienza A/sito US, Esperienza A/sito UK, Esperienza B/sito US, Esperienza B/sito UK). Vengono creati solo due collegamenti di controllo qualità (Esperienza A ed Esperienza B) e la pagina verrà visualizzata dagli utenti che risultano idonei per il pubblico appropriato. Un visitatore britannico per il controllo qualità non può vedere il sito US.
 * Tutti i parametri e i valori `at_preview` sono già codificati nell’URL. Nella maggior parte dei casi tutto funziona come previsto; tuttavia, alcuni clienti potrebbero usare bilanciatori di carico o server web che tentano di codificare nuovamente i parametri della stringa di query.
 
