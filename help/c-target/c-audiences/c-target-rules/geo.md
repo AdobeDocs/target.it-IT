@@ -8,7 +8,7 @@ title: Geo targeting in Adobe Target
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: effac04c3c7c14ac911b7042cbc277d13a20a80c
 
 ---
 
@@ -39,7 +39,7 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
 
    Per il gestore di telefonia mobile, in [!DNL Target] vengono utilizzati i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando i [codici nazionali (MCC, Mobile Country Code) e i codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
 
-1. Specifica un operatore e il valore appropriato.
+1. Specificare un operatore e il valore appropriato.
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
