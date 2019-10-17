@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Cookie di at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b16b8db5eb5fd0fac18e2f120a0a459b31b1749f
 
 ---
 
@@ -112,7 +112,7 @@ Il cookie dispone di diverse impostazioni predefinite. Puoi modificare queste im
 | Nome cookie | mbox. |
 | Dominio cookie | Il primo e il secondo livello dei domini da cui viene distribuito il contenuto. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. |
 | Dominio server | `clientcode.tt.omtrdc.net`, utilizzando il codice cliente per il tuo account. |
-| Durata cookie | Il cookie rimane sul browser del visitatore per due settimane dal suo ultimo accesso. Non puoi modificare la durata del cookie. |
+| Durata cookie | Il cookie rimane sul browser del visitatore due anni dopo il suo ultimo accesso. Non puoi modificare la durata del cookie. |
 | Policy P3P | Il cookie viene pubblicato con una policy P3P, come richiesto dall’impostazione predefinita nella maggior parte dei browser. Una policy P3P indica a un browser chi sta erogando il cookie e come verranno utilizzate le informazioni. |
 
 Nel cookie sono conservati una serie di valori per la gestione dell’esperienza dei visitatori in relazione alle campagne:
