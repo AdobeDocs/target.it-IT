@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 5637d4c0b7f6fe7694bfe44e3653ee8740a9b376
 
 ---
 
@@ -21,6 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 17 ottobre 2019 | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Argomento aggiornato per spiegare in che modo la QA attività funziona con i cookie di terze parti. |
+|  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione per includere informazioni sulle modifiche alla Shell unificata. |
 | 10 ottobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Aggiunta nuova sezione: "serverState." |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
