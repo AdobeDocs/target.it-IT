@@ -8,7 +8,7 @@ title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 05ea5145619e0ac629bd93cf11f9d1fae3f376c9
+source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
 
 ---
 
@@ -33,29 +33,25 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 
 ### Miglioramenti, correzioni e modifiche
 
-* Modifiche alla [!DNL Experience Cloud] shell.
+* Quando effettuate l’accesso al [!DNL Adobe Experience Cloud]pannello, viene visualizzata la nuova navigazione dell’intestazione. La navigazione precedente è molto simile a quella con la barra nera nella parte superiore, ma offre i seguenti miglioramenti:
 
-   Adobe sta aggiornando la shell esistente (la barra nera nella parte superiore delle [!DNL Experience Cloud] soluzioni) per unificare e migliorare la tua esperienza in tutte le [!DNL Adobe Experience Cloud] soluzioni.
+   * Passaggio più semplice tra organizzazioni [!DNL Identity Management System] (IMS) o a una soluzione diversa.
+   * Aiuto utente migliorato: I risultati della ricerca includono i risultati della documentazione del [!DNL Target] prodotto, forum della community e altri contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo vantaggio [!DNL Target]. È stato inoltre aggiunto un meccanismo di feedback nel menu [!UICONTROL Aiuto] , che semplifica la segnalazione dei problemi o la condivisione delle idee.
 
-   Non sono state apportate modifiche ai flussi di lavoro correnti e questi cambiamenti apparentemente semplici sono stati progettati per semplificare la tua vita in modi piccoli ma importanti.
-
-   Quando effettuate l’accesso al [!DNL Adobe Experience Cloud], verrete portati nella nuova shell. Ha un aspetto molto simile alla shell precedente con la barra nera nella parte superiore, ma offre i seguenti miglioramenti:
-
-   * Passaggio più semplice tra organizzazioni del sistema di gestione delle identità (IMS) o a una soluzione Experience Cloud [!E] diversa.
-   * Aiuto utente migliorato: I risultati della ricerca includono i risultati della documentazione del [!DNL Target] prodotto, forum della community e altri contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo vantaggio [!DNL Target]. È stato inoltre aggiunto un meccanismo di feedback nel menu Aiuto, che semplifica la segnalazione dei problemi o la condivisione delle idee.
-   * Funzionalità Net Promoter Score (NPS) migliorata. Talvolta, alcuni clienti hanno visto [!DNL Target] i sondaggi con una frequenza più elevata di quella prevista. Inoltre, la modalità di indagine utilizzata per disturbare il flusso di lavoro. Abbiamo aggiornato completamente questa funzionalità in modo che diventi un piccolo sondaggio che non è più intrusivo. Inoltre, con il nuovo design, siamo in grado di garantire un migliore controllo della frequenza del sondaggio.
-   * Flusso di accesso migliorato. In precedenza, tutti [!DNL Target] i clienti accedevano alla pagina di destinazione di Target dopo aver fatto clic sull' [!DNL Target] icona sulla shell. Questa pagina ha quindi consentito ai clienti di procedere con [!DNL Target Standard/Premium], [!DNl Recommendations Classic]o [!DNL Search&Promote], come mostrato di seguito:
+   * Miglioramento della funzionalità NPS (Net Promoter Score) per il feedback, in modo che il modale del sondaggio non disturbi il flusso di lavoro.
+   * Flusso di accesso migliorato. Precedentemente, tutti [!DNL Target] i clienti accedevano alla pagina di destinazione di Target dopo aver fatto clic sull’ [!DNL Target] icona nell’intestazione. Questa pagina ha quindi consentito ai clienti di continuare con [!DNL Target Standard/Premium], [!DNL Search&Promote]o [!DNl Recommendations Classic], come mostrato di seguito:
 
       ![Pagina di destinazione](/help/r-release-notes/assets/landing.png)
 
-      Abbiamo eliminato questa pagina di destinazione per tutti i nostri clienti. Ora puoi sempre accedere direttamente alla pagina Elenco  attività facendo clic sull’ [!DNL Target] icona .
+      Abbiamo eliminato questa pagina di destinazione per tutti i nostri clienti. Ora è sempre possibile accedere direttamente alla pagina Elenco  attività facendo clic sull’ [!DNL Target] icona nella nuova barra di navigazione dell’intestazione.
 
       Se utilizzate [!DNL Recommendations Classic], potete passare direttamente alla soluzione oppure dal collegamento breve creato nella scheda [!UICONTROL Recommendations] , come illustrato di seguito:
 
       ![Collegamento profondo Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
       Se usi [!DNL Search&Promote], devi andare direttamente al collegamento. Il percorso per raggiungere [!DNL Search&Promote] dall'interno di [!DNL Adobe Target] è stato rimosso completamente.
-   * Al momento le notifiche non [!DNL Target] sono più visibili nel menu a discesa [!UICONTROL Notifiche] della shell.
+
+   * Le notifiche per non [!DNL Target] sono attualmente disponibili nel menu a discesa [!UICONTROL Notifiche] dell'intestazione.
    >[!NOTE]
    >
    >Queste funzioni non verranno implementate simultaneamente, né verranno distribuite insieme a tutti i clienti. Nel corso dei prossimi giorni verranno introdotte queste funzionalità a partire dalla release [!DNL Target Standard/Premium] 19.10.1 (22 ottobre 2019).
