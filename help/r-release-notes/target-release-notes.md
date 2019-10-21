@@ -8,7 +8,7 @@ title: Note sulla versione di Target (prerelease)
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: d2a36e78f4487fd180812c9e9c82e08f0f385b4e
+source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
 
 ---
 
@@ -29,7 +29,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| ![Premium badge](/help/assets/premium.png) - Raccomandazioni basate sull'utente | Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati "Consigliati per l'utente."<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L'elenco delle raccomandazioni è ponderato per l'attività più recente del visitatore, viene aggiornato in sessione e diventa più personalizzato man mano che il visitatore naviga nel sito. |
+| ![Premium badge](/help/assets/premium.png) - Raccomandazioni<br>basate sull'utente (24 ottobre 2019) | Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati "Consigliati per l'utente."<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L'elenco delle raccomandazioni è ponderato per l'attività più recente del visitatore, viene aggiornato in sessione e diventa più personalizzato man mano che il visitatore naviga nel sito.<br>Per ulteriori informazioni, vedere "Raccomandazioni basate sull'utente" in [Criteri/algoritmi](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms). |
 
 ### Miglioramenti, correzioni e modifiche
 
@@ -56,7 +56,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
    >
    >Queste funzioni non verranno implementate simultaneamente, né verranno distribuite insieme a tutti i clienti. Nel corso dei prossimi giorni verranno introdotte queste funzionalità a partire dalla release [!DNL Target Standard/Premium] 19.10.1 (22 ottobre 2019).
    >
-   >Come parte del rollout della nuova shell, noterete anche alcune modifiche URL. Tutti i precedenti collegamenti con segnalibro continuano a funzionare, ma vi invitiamo a contrassegnare nuovi collegamenti per un'apertura più rapida.
+   >Durante il rollout della nuova barra di navigazione, noterete anche alcune modifiche agli URL. Tutti i precedenti collegamenti con segnalibro continuano a funzionare, ma vi invitiamo a contrassegnare nuovi collegamenti per un'apertura più rapida.
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
