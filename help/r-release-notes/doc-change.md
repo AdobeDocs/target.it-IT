@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 9e7d1b0b9beae7817e958735e306c24318109b9f
 
 ---
 
@@ -21,7 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 ottobre 2019 |  |  |
+| 22 ottobre 2019 | [Criteri/algoritmi](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | È stata aggiunta una riga per le raccomandazioni basate sull'utente. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.10.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30 settembre 2019)
