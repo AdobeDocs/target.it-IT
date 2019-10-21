@@ -8,7 +8,7 @@ title: Note sulla versione di Target (corrente)
 topic: Consigli
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 956a6b88fac9a13b98ede655e930aa016fe82533
+source-git-commit: 0d7d4666b5fc0d27ccdde812ef8f1182400dd3e8
 
 ---
 
@@ -33,7 +33,7 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
    * Aiuto utente migliorato: I risultati della ricerca includono i risultati della documentazione del [!DNL Target] prodotto, forum della community e altri contenuti video, che consentono di accedere più facilmente a più contenuti per trarre il massimo vantaggio [!DNL Target]. È stato inoltre aggiunto un meccanismo di feedback nel menu [!UICONTROL Aiuto] , che semplifica la segnalazione dei problemi o la condivisione delle idee.
 
    * Miglioramento della funzionalità NPS (Net Promoter Score) per il feedback, in modo che il modale del sondaggio non disturbi il flusso di lavoro.
-   * Flusso di accesso migliorato. Precedentemente, tutti [!DNL Target] i clienti accedevano alla pagina di destinazione di Target dopo aver fatto clic sull’ [!DNL Target] icona nell’intestazione. Questa pagina ha quindi consentito ai clienti di continuare con [!DNL Target Standard/Premium], [!DNL Search&Promote]o [!DNl Recommendations Classic], come mostrato di seguito:
+   * Flusso di accesso migliorato. Precedentemente, tutti [!DNL Target] i clienti accedevano alla pagina di destinazione di Target dopo aver fatto clic sull’ [!DNL Target] icona nell’intestazione. Questa pagina ha quindi permesso ai clienti di procedere con [!DNL Target Standard/Premium], [!DNL Search&Promote], o [!DNL Recommendations Classic], come mostrato di seguito:
 
       ![Pagina di destinazione](/help/r-release-notes/assets/landing.png)
 
@@ -43,7 +43,7 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
       ![Collegamento profondo Recs Classic](/help/r-release-notes/assets/recs-classic.png)
 
-      Se usi [!DNL Search&Promote], devi andare direttamente al collegamento. Il percorso per raggiungere [!DNL Search&Promote] dall'interno di [!DNL Adobe Target] è stato rimosso completamente.
+      Se utilizzate [!DNL Search&Promote], dovete accedere direttamente all’URL [](https://center.atomz.com/center/?ims=1) Search&amp;Promote (https://center.atomz.com/center/?ims=1). Il percorso per raggiungere [!DNL Search&Promote] dall'interno di [!DNL Adobe Target] è stato rimosso completamente.
 
    * Le notifiche per non [!DNL Target] sono attualmente disponibili nel menu a discesa [!UICONTROL Notifiche] dell'intestazione.
    >[!NOTE]
