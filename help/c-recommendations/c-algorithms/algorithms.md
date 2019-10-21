@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: c0e4b2243160013224138603bb53d8569d486e31
+source-git-commit: 0fa977d249a83232deb1448db2131038f6f2173f
 
 ---
 
@@ -44,7 +44,7 @@ La chiave dei consigli selezionata determina il tipo di criterio. Esistono diver
 | Articoli visualizzati di recente | Consiglia gli articoli che un visitatore ha visto più di recente, ad esempio gli articoli che ha guardato l'ultima volta che ha visitato il tuo sito o gli articoli di tendenza in questo momento.<br>L’algoritmo di visualizzazione degli elementi visualizzati di recente restituisce i risultati specifici dell’attività di un visitatore in un [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono a ambienti diversi e un visitatore passa tra i due siti, l'algoritmo restituisce solo gli elementi visualizzati di recente dal sito appropriato.<br>Questo tipo di criteri non è limitato dalle raccolte.<ul><li>Articoli visualizzati di recente</li></ul>**Nota:** non è possibile utilizzare il criterio Articoli visualizzati di recente per i consigli di backup.<br>Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.<ul><li>I criteri “visualizzati di recente” sono configurabili, come altri criteri nei consigli.</li><li>È possibile utilizzare [raccolte](/help/c-recommendations/c-products/collections.md), [esclusioni](/help/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.</li></ul>Eventuali casi di utilizzo includono:<ul><li>Una società multinazionale con più business potrebbe avere un visitatore che visualizza elementi in più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. In tal modo gli articoli visualizzati di recente non saranno visualizzati sugli altri siti della stessa società.</li></ul> |
 
 
-## Criteri/algoritmi {#section_DC4E38A00B9744959F05F8E10A0087A1}
+## Criteri/algoritmi {#criteria-algorithms}
 
 [!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell'attività. La Chiave consiglio determina le opzioni di logica disponibili.
 
@@ -58,6 +58,7 @@ La chiave dei consigli selezionata determina il tipo di criterio. Esistono diver
 | Articoli più venduti | Articoli inclusi nella maggioranza degli ordini completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine. |
 | Articoli più visualizzati | Articoli o elementi multimediali visualizzati più spesso. |
 | Articoli/Media visualizzati di recente | Articoli che sono stati visualizzati di recente dal visitatore. Quando si utilizza questo criterio, è necessario aggiornare la progettazione di Target in modo da gestire i casi di visualizzazione di raccomandazioni vuote laddove gli elementi visualizzati in precedenza non siano sufficienti. |
+| Raccomandazioni basate sull'utente | Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati "Consigliati per l'utente."<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L'elenco delle raccomandazioni è ponderato per l'attività più recente del visitatore e viene aggiornato in sessione e diventa più personalizzato man mano che l'utente naviga sul sito.<br>Sia le viste che gli acquisti vengono utilizzati per determinare gli elementi raccomandati. La chiave di raccomandazione specificata (ad es. Elemento corrente) viene utilizzata per applicare eventuali filtri di regole di inclusione selezionati. Sarà possibile, ad esempio:<ul><li>Escludere gli elementi che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via)</li><li>Limita gli elementi inclusi a una singola categoria o alla categoria corrente</li></ul> |
 
 >[!NOTE] {class=“- topic/note ”}
 >
