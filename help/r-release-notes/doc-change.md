@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 58d00c968a3e67c253aec833b554a3ec2116765f
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -22,6 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 22 ottobre 2019 | [Criteri/algoritmi](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | È stata aggiunta una riga per le raccomandazioni basate sull'utente. |
+|  | [Domande frequenti su Target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: "Quando si creano stringhe URL complesse, viene [!DNL Target] valutato l’intero URL?" |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.10.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target/Standard/Premium 19.9.1 (30 settembre 2019)
