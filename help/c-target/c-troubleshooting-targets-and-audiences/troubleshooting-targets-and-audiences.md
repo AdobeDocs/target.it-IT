@@ -8,7 +8,7 @@ title: Domande frequenti su destinazioni e pubblico
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: ce2ae6d413ba78ad614a6f2108c0f052c5513ffc
 
 ---
 
@@ -16,6 +16,16 @@ source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
 # Domande frequenti su destinazioni e pubblico{#targets-and-audiences-faq}
 
 Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
+
+## Durante la creazione di stringhe URL complesse, valuta [!DNL Target] l’intero URL?
+
+Se in una stringa URL utilizzate lo stesso nome di parametro più volte, HTTP considera il primo nome di parametro e ignora i parametri successivi con lo stesso nome.
+
+Ad esempio, nella seguente stringa URL:
+
+`https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
+
+la prima istanza del `Category` parametro viene valutata e il secondo `Category` parametro viene ignorato.
 
 ## Quando creo un pubblico, perché i tipi di pubblico predefiniti nella libreria di Target si trovano in altre categorie? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
