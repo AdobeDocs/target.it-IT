@@ -1,5 +1,5 @@
 ---
-description: Il pubblico determina chi vede contenuti ed esperienze in un’attività mirata.
+description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;pubblico di destinazione;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
 seo-description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 seo-title: Utilizzo del pubblico in Adobe Target
@@ -8,14 +8,14 @@ title: Creazione di un pubblico
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
 
 ---
 
 
 # Creazione di un pubblico{#create-audiences}
 
-Il pubblico determina chi vede contenuti ed esperienze in un’attività mirata.
+I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 
 I tipi di pubblico sono utilizzati in tutte le situazioni in cui è disponibile il targeting. Quando esegui il targeting di un’attività, per indirizzarla a un determinato pubblico, puoi selezionare un pubblico riutilizzabile dall’elenco [!UICONTROL Tipi di pubblico], [creare un pubblico specifico per l’attività](/help/c-target/creating-activity-only-audience.md) e impostarlo come destinazione, oppure [combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) per creare un pubblico ad hoc.
 
