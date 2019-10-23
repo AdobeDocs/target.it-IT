@@ -10,7 +10,7 @@ topic: Premium
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 badge: premium
 translation-type: tm+mt
-source-git-commit: 95adb145c9ac5a7135d489cf68c1a7c50cdfe33b
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -44,7 +44,9 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    La descrizione dovrebbe aiutare a identificare i criteri e potrebbe includere informazioni sul loro scopo.
 1. Seleziona un **[!UICONTROL Settore verticale]**.
 
-   Altre opzioni di criteri potrebbero variare a seconda della verticale di settore selezionata. 1. Seleziona un **[!UICONTROL Tipo di pagina]**.
+   Altre opzioni di criteri potrebbero variare a seconda della verticale di settore selezionata.
+
+1. Seleziona un **[!UICONTROL tipo di pagina]**.
 
    Puoi selezionare più tipi di pagina.
 
