@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 43051f3ab2687a07fbeedc0551aa4337509e4f2a
+source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
 
 ---
 
@@ -63,7 +63,7 @@ If your custom profile attribute does not directly match to a single entity ID, 
 
 Ad esempio, se desiderate visualizzare gli elementi più venduti dal marchio preferito di un utente,
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand].
+1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
 
 1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
 
@@ -71,7 +71,7 @@ Ad esempio, se desiderate visualizzare gli elementi più venduti dal marchio pre
 
 1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
 
-   !DNL Recommendations] now produces a “Top Sellers” list for each brand and shows the user the appropriate “Top Sellers” list based on the value stored in the [!UICONTROL Favorite Brand] profile attribute.
+   [!DNL Recommendations] genera ora un elenco "Top Sellers" (Venditori principali) per ogni marchio e mostra all'utente l'elenco "Top Sellers" appropriato in base al valore memorizzato nell'attributo del profilo del marchio [!UICONTROL Preferiti] .
 
    ![Attributo Top Sellers](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
