@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c50623d8068cda63667be8f2fff25c7694f41279
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -21,6 +21,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 24 ottobre 2019 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | Testo aggiornato nelle seguenti domande frequenti: "Perché a volte Target non è in grado di mostrare le raccomandazioni?" |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Aggiunta una nota a un problema noto che interessa le versioni precedenti di at.js (precedenti alla versione 2.2.0). |
+|  | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | Aggiunta nota sul comportamento predefinito per le metriche di successo per le attività che utilizzano A4T. |
 | 22 ottobre 2019 | [Criteri/algoritmi](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | È stata aggiunta una riga per le raccomandazioni basate sull'utente. |
 |  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | Aggiunta nuova sezione: "Utilizzo di una chiave di raccomandazione personalizzata." |
 |  | [Domande frequenti su Target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: "Quando si creano stringhe URL complesse, viene [!DNL Target] valutato l’intero URL?" |
