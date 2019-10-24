@@ -9,7 +9,7 @@ title: Implementare Target senza un sistema per la gestione dei tag
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
@@ -112,7 +112,7 @@ Per scaricare [!DNL at.js] utilizzando l'API.
    https://admin.testandtarget.omniture.com/rest/v1/endpoint/<varname>client code</varname>
    ```
 
-   Sostituisci il ` < *`codice cliente`*>` con il codice cliente ottenuto nel passaggio 1.
+   Replace `client code` with the client code from Step 1.
 
    Il risultato del caricamento dell'URL deve essere simile al seguente:
 
@@ -132,9 +132,9 @@ Per scaricare [!DNL at.js] utilizzando l'API.
    https://admin<varname>admin number</varname>>.testandtarget.omniture.com/admin/rest/v1/libraries/atjs/download?client=<varname>client code </varname>version=<version number>
    ```
 
-   * Sostituisci il ` < *`numero di amministratore`*>` con il tuo numero di amministratore.
-   * Sostituisci il ` < *`codice cliente`*>` con il codice cliente ottenuto nel passaggio 1.
-   * Sostituisci il ` < *`numero di versione`*>` con il [ numero di versione [!DNL at. js] ](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) desiderato (ad esempio, 1.6.2).
+   * Replace `admin number` with your admin number.
+   * Replace `client code` with the client code from Step 1.
+   * Replace `version number` with the desired at.js version number (for example, 2.2).
    >[!IMPORTANT]
    >
    >Il team di Target gestisce solo due versioni di [!DNL at.js], la versione corrente e quella immediatamente precedente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
