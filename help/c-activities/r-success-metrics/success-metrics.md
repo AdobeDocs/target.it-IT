@@ -1,28 +1,32 @@
 ---
-description: In Target Standard, le metriche di successo sono preconfigurate e possono essere utilizzate per la generazione di rapporti e per il tracciamento.
-keywords: Targeting;successo;metrica di conversione;metrica di punteggio pagina;metrica di visualizzazioni pagina;metriche di ricavi;metrica tempo sul sito;valore stimato;impostazioni avanzate
-seo-description: In Target Standard, le metriche di successo sono preconfigurate e possono essere utilizzate per la generazione di rapporti e per il tracciamento.
-seo-title: Metriche di successo
+description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
+keywords: Targeting;success;conversion Metric;page score Metric;page Views Metric;Revenue Metric;time on site Metric;Estimated value;advanced settings;success metriche
+seo-description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
+seo-title: Metriche di successo in Adobe Target
 solution: Target
 title: Metriche di successo
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # Metriche di successo{#success-metrics}
 
-In Target Standard, le metriche di successo sono preconfigurate e possono essere utilizzate per la generazione di rapporti e per il tracciamento.
+In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
 
 Le metriche di successo sono parametri utilizzati per misurare il successo di un’attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività Target. Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
 In linea con il suo obiettivo di semplificare la creazione di test, [!DNL Target Standard] si occupa di alcune delle configurazioni che dovevano essere eseguite manualmente in [!DNL Target Classic]. Ad esempio, le metriche di successo sono preconfigurate con le opzioni ottimali.
 
-Per impostazione predefinita, in [!DNL Target Standard] gli eventi di conversione sono impostati per essere conteggiati una volta e per mantenere il partecipante nell’attività. Le conversioni vengono conteggiate una sola volta, le conversioni ripetute non sono conteggiate e il visitatore vede sempre il contenuto del test.
+By default, conversion events are set to "Count once and keep the entrant in the activity" in [!DNL Target Standard]. Le conversioni vengono conteggiate una sola volta, le conversioni ripetute non sono conteggiate e il visitatore vede sempre il contenuto del test.
 
 Nelle metriche dei ricavi impostate su “Incrementa il conteggio e mantieni utente attivo” vengono riportati i dettagli solo per il primo ordine effettuato dallo stesso visitatore. Tutti gli ordini successivi aumentano il conteggio delle conversioni, ma non il valore di Ricavo per visita, Valore medio dell’ordine e Vendite, e non verranno inclusi nel rapporto Dettagli ordine.
+
+>[!NOTE]
+>
+>Il comportamento predefinito per le attività che utilizzano [Analytics come origine](/help/c-integrating-target-with-mac/a4t/a4t.md) di reporting (A4T) è "Increment count and keep the user in activity" (Conteggio incrementi e mantenimento dell'utente nell'attività) con "Once per entrant" (Una volta per partecipante).
 
 Sono disponibili le seguenti metriche di successo:
 
