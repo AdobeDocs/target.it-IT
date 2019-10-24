@@ -1,8 +1,8 @@
 ---
 description: Elenco delle domande frequenti sulle attività relative ai consigli.
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-seo-description: Elenco delle domande frequenti sulle attività relative ai consigli.
-seo-title: Domande frequenti sui consigli
+seo-description: Elenco delle domande frequenti sulle attività di Adobe Target Recommendations.
+seo-title: Domande frequenti su Adobe Target Recommendations
 solution: Target
 title: Domande frequenti sui consigli
 title-outputclass: premium
@@ -10,14 +10,14 @@ topic: Premium
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli{#recommendations-faq}
 
-Elenco delle domande frequenti sulle attività relative ai consigli.
+Elenco delle domande frequenti sulle attività di Adobe Target Recommendations.
 
 ## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
@@ -119,9 +119,9 @@ Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave 
 
 Target a volte non può mostrare consigli a causa del basso numero di consigli disponibili.
 
-Il numero di valori generati per criterio è pari a 5 volte il numero di entità specificato nel modello. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 5x, quindi è possibile finire con meno di 5x valori al momento della consegna. Per limitare questa situazione, aumenta il numero di entità nel modello nascondendo altre entità.
+Il numero di valori generati per criterio è pari a 3 volte il numero di entità specificato nel modello. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 3x, quindi è possibile finire con meno di 3x valori al momento della consegna. Per limitare questa situazione, aumenta il numero di entità nel modello nascondendo altre entità.
 
-Il seguente JavaScript può essere utilizzato all'inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 50 (5x10).
+Il seguente JavaScript può essere utilizzato all'inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 30 (3x10).
 
 ```
 #foreach($entity in $entities) 
