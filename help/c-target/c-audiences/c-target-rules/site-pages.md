@@ -1,21 +1,21 @@
 ---
 description: Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specifica o con un parametro mbox specifico.
 keywords: pagine del sito;pagine del sito target;targeting;pagina corrente;pagina corrente target;pagina precedente;pagina precedente target;pagina di destinazione;pagina di destinazione target;mbox;mbox target
-seo-description: Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specifica o con un parametro mbox specifico.
-seo-title: Pagine del sito
+seo-description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica o che dispongono di un parametro mbox specifico utilizzando Adobe Target.
+seo-title: Pagine del sito in Adobe Target
 solution: Target
 title: Pagine del sito
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
 
 # Pagine del sito{#site-pages}
 
-Puoi indirizzare l’attività ai visitatori che si trovano su una pagina specifica o con un parametro mbox specifico.
+Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica o che dispongono di un parametro mbox specifico.
 
 >[!NOTE]
 >
@@ -56,6 +56,19 @@ Utilizza:
 Come illustrato di seguito:
 
 ![](assets/site_pages.png)
+
+## Risoluzione dei problemi {#ts}
+
+* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il parametro `mboxReferrer` mbox impostato correttamente. La libreria JavaScript at.js viene recuperata `mboxReferrer` dalla pagina utilizzando `document.referrer`.
+
+   Se questi parametri non sono impostati correttamente, un visitatore potrebbe lasciare un'attività dopo aver navigato verso una pagina successiva. Ad esempio, se `document.referrer` viene utilizzato sulla pagina di destinazione ma non nelle pagine successive, non [!DNL Target] è possibile garantire che il visitatore resti nell'attività.
+
+   Se si verifica questa situazione, effettuare una delle seguenti operazioni:
+
+   * Verificate che il sito Web venga caricato `document.referrer` correttamente.
+   * Trasmettete i parametri [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox da [!DNL Target] utilizzare per il targeting.
+   * Utilizzate un'attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un'attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
+   * Utilizzate invece un profilo [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitatore.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
