@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: adobe.target.getOffers(options)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 104de769c2f545a8ce2f3346497810dc3a8933dd
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -28,6 +28,10 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | timeout | Numero | No | timeout richiesta. Se non specificato, si utilizza il timeout predefinito di at.js. |
 
 ## Richiesta
+
+>[!NOTE]
+>
+>Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consulta la documentazione [API di](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) consegna.
 
 | Nome campo | Obbligatorio | Limitazioni | Descrizione |
 | --- | --- | --- | --- |
@@ -182,7 +186,7 @@ adobe.target.getOffers({
 }
 ```
 
-The payload can then be forwarded to Adobe Analytics via the Data Insertion API.[](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)
+Il payload può quindi essere inoltrato ad Adobe Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
