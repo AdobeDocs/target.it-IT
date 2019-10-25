@@ -8,7 +8,7 @@ title: Parametri personalizzati
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -53,6 +53,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 ## Considerazioni {#considerations}
 
 * I tipi di pubblico e le attività vengono valutati per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting per attività/pubblico non verrà qualificato per la mbox regionale.
+* Il targeting non viene valutato sui parametri mbox interni, come mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId e mboxVersion.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
