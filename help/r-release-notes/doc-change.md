@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
 
 ---
 
@@ -21,6 +21,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 ottobre 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiunta una nota che spiega come distinguere tra utenti autenticati e utenti non autenticati. |
+|  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in "Considerazioni" per spiegare che il targeting non viene valutato sui parametri mbox interni. |
+|  | [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Argomento aggiornato completamente e rimosso gli esempi obsoleti. |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
+|  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
+|  | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Aggiunta la sezione "Risoluzione dei problemi". |
 | 24 ottobre 2019 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | Testo aggiornato nelle seguenti domande frequenti: "Perché a volte Target non è in grado di mostrare le raccomandazioni?" |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Aggiunta una nota a un problema noto che interessa le versioni precedenti di at.js (precedenti alla versione 2.2.0). |
 |  | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | Aggiunta nota sul comportamento predefinito per le metriche di successo per le attività che utilizzano A4T. |
