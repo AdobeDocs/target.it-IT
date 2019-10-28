@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -21,7 +21,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 25 ottobre 2019 | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiunta una nota che spiega come distinguere tra utenti autenticati e utenti non autenticati. |
 |  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in "Considerazioni" per spiegare che il targeting non viene valutato sui parametri mbox interni. |
 |  | [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Argomento aggiornato completamente e rimosso gli esempi obsoleti. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
