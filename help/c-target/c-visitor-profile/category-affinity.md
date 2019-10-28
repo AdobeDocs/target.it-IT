@@ -8,7 +8,7 @@ title: Affinità tra categorie
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -131,6 +131,7 @@ Questa sezione contiene le seguenti informazioni:
    * Terza categoria
    * Quarta categoria
    * Quinta categoria
+   Le opzioni "Categoria preferita" e "Prima categoria" sono equivalenti.
 
 1. Scegli il valutatore:
 
