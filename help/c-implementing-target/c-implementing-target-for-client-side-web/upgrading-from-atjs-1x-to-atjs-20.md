@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Aggiornamento da at.js 1.*x* a at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
 
 ---
 
@@ -23,7 +23,7 @@ Di seguito sono riportati alcuni vantaggi dell’utilizzo di at.js 2.*x* che non
 * Migliora enormemente le esperienze degli utenti finali sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza l’implementazione di chiamate al server tradizionali.
 * Una semplice riga di codice e una configurazione per sviluppatori una tantum per consentire agli esperti di marketing di creare ed eseguire attività A/B e XT tramite il Compositore esperienza visivo sull’applicazione a pagina singola.
 
-## Payload JSON di at.js 2.*x* system diagrams
+## Payload JSON di at.js 2.*x* diagrammi di sistema
 
 I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.*x* tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.*x*, consulta [Implementazione di un’applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
@@ -187,7 +187,7 @@ Fornisce un metodo standard per registrare un’estensione specifica.
 
 Questa funzione non è più supportata. Non utilizzarla.
 
-## Riepilogo delle funzioni obsolete, nuove e supportate in at.js 2.0
+## Riepilogo delle funzioni obsolete, nuove e supportate in at.js 2.*x*
 
 | Metodo | Supportate? | Nuovo? | Obsoleta?<br>(apparirà il contenuto predefinito) |
 | --- | --- | --- | --- |
@@ -318,7 +318,7 @@ No, non è necessario aggiungere codice per nascondere contenuti preventivamente
 
 ## Compatibilità di at.js
 
-Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della versione 2.0.0 con tipi di attività, integrazioni, funzionalità e funzioni di at.js diverse.
+Le tabelle seguenti contengono una spiegazione di at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
 
 ### Tipi di attività {#types}
 
@@ -381,7 +381,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. Compatibilità della ve
 
 at.js 2.*x*, esattamente come at.js 1.*x*, utilizza l’evento personalizzato `at-request-succeeded` per ottenere i token di risposta. Per esempi di codice con l’evento `at-request-succeeded` personalizzato, consulta [Token di risposta](/help/administrating-target/response-tokens.md).
 
-## Mappatura payload dei parametri at.js 1.*x* parameters to at.js 2.*x* {#payload-mapping}
+## Mappatura payload dei parametri at.js 1.*x* parametri a at.js 2.*x* {#payload-mapping}
 
 Questa sezione delinea le mappature tra at.js 1.*x* e at.js 2.*x*.
 
@@ -396,7 +396,7 @@ Un’altra differenza significativa è che:
 * Payload JSON di at.js 2.*x* - Il codice client viene inviato come parametro di stringa di query, ad esempio:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
-Le seguenti sezioni riportano tutte nell’elenco il parametro di at.js 1.*x*, la sua descrizione e il corrispondente payload JSON 2.0.0 (se applicabile):
+Le seguenti sezioni riportano tutte nell’elenco il parametro di at.js 1.*x* , la relativa descrizione e il corrispondente 2.*payload x* JSON (se applicabile):
 
 ### at_property
 
@@ -526,7 +526,7 @@ Payload JSON di at.js 2.*payload x* JSON:
 
 Dominio della pagina in cui viene eseguita la libreria di Target.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
@@ -562,7 +562,7 @@ Payload JSON di at.js 2.*payload x* JSON:
 
 URL della pagina.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
@@ -580,7 +580,7 @@ Payload JSON di at.js 2.*x* JSON payload:
 
 Riferimento (provenienza) della pagina.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
@@ -751,7 +751,7 @@ Payload JSON di at.js 2.*payload x* JSON:
 
 SDID, noto anche come ID di dati supplementari. Deve essere trasmesso in `experienceCloud > analytics > supplementalDataId`.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
@@ -808,7 +808,7 @@ Payload JSON di at.js 2.*payload x* JSON:
 
 Hint di posizione di Audience Manager. Deve essere trasmesso in `experienceCloud > audienceManager > locationHint`.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
@@ -827,7 +827,7 @@ Payload JSON di at.js 2.*x* JSON payload:
 
 Blob Audience Manager. Deve essere trasmesso in `experienceCloud > audienceManager > blob`.
 
-Payload JSON di at.js 2.*x* JSON payload:
+Payload JSON di at.js 2.*payload x* JSON:
 
 ```
 {
