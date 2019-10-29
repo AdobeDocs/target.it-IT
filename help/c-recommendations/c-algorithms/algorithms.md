@@ -10,7 +10,7 @@ topic: Premium
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 badge: premium
 translation-type: tm+mt
-source-git-commit: 16d281c7a576f1ba5a32cee469ba5ae1b9d4720d
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -112,20 +112,4 @@ Fai clic sulla scheda **[!UICONTROL Informazioni algoritmo]** per visualizzare l
 Fai clic sulla scheda **[!UICONTROL Uso dell'Algoritmo]** per visualizzare un elenco di attività che fanno riferimento ai criteri selezionati. La scheda elenca le attività attive e inattive. Fai clic sugli elenchi a discesa Attività o Inattività per visualizzare l'intero elenco di attività che fanno riferimento a tali criteri. Puoi fare clic sul link dell'attività per aprire quella da modificare.
 
 ![Scheda Utilizzo criteri](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
-
-## Determining When criteria results are ready to display {#section_03F328C07F234692B6D996DF745584B3}
-
-Dal diagramma attività, le schede Criteri ora indicano quando i risultati sono pronti per essere visualizzati. Sapere se i risultati sono pronti per essere visualizzati ti aiuta a determinare se l'attività è pronta per l'attivazione in diretta. Comprendere se i risultati sono pronti per essere visualizzati ti permette di sapere se ci sono problemi con i criteri.
-
->[!NOTE]
->
->Per una discussione sui tempi di caricamento, vedi “Tempo di elaborazione dei criteri previsto” in [Creazione di criteri](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE).
-
-La figura seguente mostra il diagramma dell'attività nella pagina Panoramica di un'attività di Consigli. Nel secondo passaggio del processo di creazione di un'attività, puoi anche vedere il diagramma dell'attività coni risultati dello Status dei criteri.
-
-![Stato dei criteri nella pagina Panoramica](/help/c-recommendations/c-algorithms/assets/criteria_status.png)
-
-I risultati dello stato includono Risultati pronti, Risultati non Pronti e Feed non riuscito, come illustrato nel diagramma seguente:
-
-![](assets/criteria_status_multi.png)
 
