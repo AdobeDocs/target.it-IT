@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -117,14 +117,6 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
 
    Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un'altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
-
-## Tempo di elaborazione previsto dei criteri {#process-time}
-
-Dopo aver salvato un'attività contenente un criterio, [!DNL Target] calcola le raccomandazioni in base alla raccolta e ai criteri selezionati. Il calcolo richiede un po’ di tempo, in base alla logica selezionata per la generazione dei consigli, all’intervallo di dati, alla quantità di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali. Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
-
-### mbox
-
-Se come origini dei dati comportamentali sono selezionate delle mbox, i criteri creati vengono eseguiti subito. A seconda della quantità di dati comportamentali utilizzati e delle dimensioni del catalogo, l’esecuzione dell’algoritmo può richiedere fino a 12 ore. L’apporto di modifiche alla configurazione dei criteri comporta solitamente la riesecuzione dei criteri. A seconda delle modifiche apportate, i consigli calcolati in precedenza potrebbero restare disponibili fino alla completa esecuzione dei nuovi criteri. Tuttavia, in caso di modifiche di maggiore entità, fino a quando non sia stata completata la nuova esecuzione potrebbero venire visualizzati solo i contenuti di backup o predefiniti. Se un algoritmo non viene modificato, viene rieseguito automaticamente da [!DNL Target] ogni 12-48 ore, a seconda dell’intervallo di dati selezionato.
 
 ### Adobe Analytics
 
