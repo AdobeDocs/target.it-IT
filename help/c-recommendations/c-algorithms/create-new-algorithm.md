@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -442,15 +442,15 @@ Utilizzare la somiglianza di contenuto per generare consigli è particolarmente 
 
 Quando si selezionano **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]**, è possibile creare regole per aumentare o diminuire l’importanza degli attributi di elementi specifici nella determinazione dei consigli. Per gli articoli quali i libri, si potrebbe voler aumentare l'importanza di attributi come *genere*, *autore*, *serie*, e così via, per consigliare libri simili.
 
->[!NOTE]
->
->L'algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell'esecuzione dell'algoritmo.
-
 ![](assets/ContentSimilarity.png)
 
 Poiché la somiglianza del contenuto utilizza parole chiave per confrontare elementi, alcuni attributi, ad esempio *messaggio* o *descrizione*, possono introdurre “rumore” nel confronto. È possibile creare regole per ignorare questi attributi.
 
 Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento*. Non è necessario creare una regola a meno che non si desideri modificare questa impostazione.
+
+>[!NOTE]
+>
+>L'algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell'esecuzione dell'algoritmo.
 
 ## Video di formazione: Creare i criteri in Recommendations (12:33)
 
