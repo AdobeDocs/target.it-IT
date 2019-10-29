@@ -4,7 +4,7 @@ audience: utente finale
 user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/it-IT/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
+source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
 
 ---
 
@@ -370,6 +370,7 @@ source-git-commit: 640f27b6bdb7f5158ff8d9968094ab069a1415d0
       + [Selezionare criteri](c-recommendations/t-create-recs-activity/algo-select-recs.md)
       + [Aggiungere promozioni](c-recommendations/t-create-recs-activity/adding-promotions.md)
       + [Impostazioni delle attività di Consigli](c-recommendations/t-create-recs-activity/recs-activity-settings.md)
+      + [Visualizzare l'anteprima e avviare l'attività di Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md)
    + [Consigli come offerta](c-recommendations/recommendations-as-an-offer.md)
    + Domande frequenti {#recommendations-faq}
       + [Domande frequenti sui consigli](c-recommendations/c-recommendations-faq/recommendations-faq.md)
