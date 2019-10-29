@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
+source-git-commit: 4ba4df327f130d95e7f760298a49f1b43d2de513
 
 ---
 
@@ -22,7 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 29 ottobre 2019 | [Similarità dei contenuti](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Aggiunta nota. |
-|  | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in "Considerazioni" per spiegare che il targeting non viene valutato sui parametri mbox interni. |
+| 25 ottobre 2019 | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in "Considerazioni" per spiegare che il targeting non viene valutato sui parametri mbox interni. |
 |  | [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Argomento aggiornato completamente e rimosso gli esempi obsoleti. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
