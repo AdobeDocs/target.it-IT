@@ -9,7 +9,7 @@ topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 badge: premium
 translation-type: tm+mt
-source-git-commit: 6bd1bd6aafe9ee57b33a8879c13fa6d84cbdfe46
+source-git-commit: 930755550b8a410afca53b15e5f4049a7e5919e7
 
 ---
 
@@ -120,7 +120,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 ## Tempo di elaborazione previsto dei criteri {#process-time}
 
-After saving an Activity containing a Criteria,  computes recommendations based on the selected Collection and Criteria. [!DNL Target] Il calcolo richiede un po’ di tempo, in base alla logica selezionata per la generazione dei consigli, all’intervallo di dati, alla quantità di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali. Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
+Dopo aver salvato un'attività contenente un criterio, [!DNL Target] calcola le raccomandazioni in base alla raccolta e ai criteri selezionati. Il calcolo richiede un po’ di tempo, in base alla logica selezionata per la generazione dei consigli, all’intervallo di dati, alla quantità di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali. Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
 
 ### mbox
 
@@ -441,6 +441,10 @@ Le regole di somiglianza del contenuto confrontano le parole chiave dell'attribu
 Utilizzare la somiglianza di contenuto per generare consigli è particolarmente efficace per i nuovi elementi, i quali non possono essere mostrati nei consigli utilizzando il criterio *Le persone che hanno visto questo, hanno visto anche* e altre logiche basate sul comportamento precedente. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
 
 Quando si selezionano **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]**, è possibile creare regole per aumentare o diminuire l’importanza degli attributi di elementi specifici nella determinazione dei consigli. Per gli articoli quali i libri, si potrebbe voler aumentare l'importanza di attributi come *genere*, *autore*, *serie*, e così via, per consigliare libri simili.
+
+>[!NOTE]
+>
+>L'algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell'esecuzione dell'algoritmo.
 
 ![](assets/ContentSimilarity.png)
 
