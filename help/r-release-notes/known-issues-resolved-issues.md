@@ -8,7 +8,7 @@ title: Problemi noti e problemi risolti
 topic: Premium
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -24,6 +24,10 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Distribuzione delle pagine {#page-delivery}
+
+Se aggiungete una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella distribuzione [delle](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)pagine, spazi aggiuntivi hanno il prefisso alle regole. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di audience e sulla distribuzione delle offerte. (TGT-35916)
 
 ### Collegamenti di anteprima Controllo di qualità delle attività {#preview}
 
