@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Aggiornamento da at.js 1.*x* a at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 404e57e1b945b6bd7fdd6a3e9621b384dca9faef
+source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
 
 ---
 
@@ -316,6 +316,19 @@ Quando si effettua una chiamata di preacquisizione al backend [!DNL Target], avv
 
 No, non è necessario aggiungere codice per nascondere contenuti preventivamente prima di richiamare `triggerView()`. Payload JSON di at.js 2.*x gestisce la logica relativa ai contenuti nascosti anticipatamente e visualizzati temporaneamente prima di mostrare e applicare la visualizzazione.*
 
+### Che a.js 1.*I parametri x* per la creazione di audience non sono supportati in at.js 2.*x*? {#audience-parameters}
+
+I seguenti parametri at.js 1.x *NON* sono attualmente supportati per la creazione di audience quando si utilizza at.js 2.*x*:
+
+* browserHeight
+* browserWidth
+* browserTimeOffset
+* screenHeight
+* screenWidth
+* screenOrientation
+* colorDepth
+* devicePixelRatio
+
 ## Compatibilità di at.js
 
 Le tabelle seguenti contengono una spiegazione di at.js. 2.*x* compatibility with different activity types, integrations, features, and at.js functions.
@@ -411,112 +424,6 @@ Utilizzato per le [autorizzazioni per gli utenti Enterprise](/help/administratin
     "token": "1213213123122313121"
   }
   ....
-}
-```
-
-### browserHeight
-
-(parametro di at.js 1.*x*)
-
-Altezza della finestra del browser del visitatore.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "window": {
-       "height": 200
-    }
-  }
-}
-```
-
-### browserWidth
-
-(parametro di at.js 1.*x*)
-
-Larghezza della finestra del browser del visitatore.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "window": {
-       "width": 200
-    }
-  }
-}
-```
-
-### browserTimeOffset
-
-(parametro di at.js 1.*x*)
-
-Offset fuso orario.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "timeOffsetInMinutes": -480
-  }
-}
-```
-
-### screenHeight
-
-(parametro di at.js 1.*x*)
-
-Altezza della schermata del visitatore.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "height": 200
-    }
-  }
-}
-```
-
-### screenWidth
-
-(parametro di at.js 1.*x*)
-
-Larghezza della schermata del visitatore.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "width": 200
-    }
-  }
-}
-```
-
-### colorDepth
-
-(parametro di at.js 1.*x*)
-
-Profondità colore della schermata del visitatore.
-
-Payload JSON di at.js 2.*payload x* JSON:
-
-```
-{
-  "context": {
-    "screen": {
-       "colorDepth": 24
-    }
-  }
 }
 ```
 
