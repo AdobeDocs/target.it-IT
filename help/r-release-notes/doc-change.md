@@ -8,7 +8,7 @@ title: Modifiche alla documentazione
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 3db79b2cc15ea4c0668299a53a60ee45fd9871d3
+source-git-commit: dd22b54f94c52ac680ee7e58fb691307eadb97e8
 
 ---
 
@@ -21,7 +21,11 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 30 ottobre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Premium 19.10.2 (31 ottobre 2019). |
+| 31 ottobre 2019 | [Utilizzo di attributi con più valori](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuovo argomento. |
+|  | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Aggiunta nuova sezione: "Che a.js 1.*I parametri x* per la creazione di audience non sono supportati in at.js 2.*x*?" |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un nuovo problema noto relativo agli spazi aggiuntivi da aggiungere alle regole dei modelli. |
+|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Premium 19.10.2. |
+| 30 ottobre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Premium 19.10.2 (31 ottobre 2019). |
 | 29 ottobre 2019 | [Similarità dei contenuti](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Aggiunta nota. |
 |  | [Visualizzare l'anteprima e avviare l'attività di Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Nuovo argomento. |
 | 25 ottobre 2019 | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in "Considerazioni" per spiegare che il targeting non viene valutato sui parametri mbox interni. |
