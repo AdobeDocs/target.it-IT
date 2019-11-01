@@ -8,7 +8,7 @@ title: Implementazione lato server di Target
 topic: Consigli
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: afec96b2bec18048ab7132232711d2c14769c46c
+source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
 
 ---
 
@@ -52,6 +52,8 @@ Node.js SDK è un sofisticato kit di sviluppo software che elimina la complessit
 * **** Possibilità di recuperare le attività create VEC: Recuperate le attività create VEC sul lato server. La risposta che contiene attività VEC dispone di selettori che possono essere utilizzati per prenascondere solo parti della pagina che devono essere personalizzate. Questo consente di ottimizzare la metrica [](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)First Contentful Paint della pagina, che è un indicatore KPI importante per la tua attività per ottenere un punteggio elevato nel sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
 
 ## Target Java SDK
+
+Collegamento: Java SDK [Target](https://github.com/adobe/target-java-sdk)
 
 Java SDK è un sofisticato kit di sviluppo software che elimina la complessità della gestione di cookie, sessioni e integrazioni con [!DNL Adobe Experience Cloud] soluzioni, come [!DNL Adobe Analytics], il [!DNL Experience Cloud Visitor ID Service]e [!DNL Adobe Audience Manager]. Dietro le quinte, l'SDK Java utilizza l' `/rest/v1/delivery` API. Di seguito sono riportate alcune funzionalità importanti supportate nell’SDK Java:
 
