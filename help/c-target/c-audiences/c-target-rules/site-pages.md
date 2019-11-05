@@ -8,7 +8,7 @@ title: Pagine del sito
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: d47772b35e371af4b6484ff59209de1c8482b712
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -59,13 +59,10 @@ Come illustrato di seguito:
 
 ## Risoluzione dei problemi {#ts}
 
-* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il parametro `mboxReferrer` mbox impostato correttamente. La libreria JavaScript at.js viene recuperata `mboxReferrer` dalla pagina utilizzando `document.referrer`.
+* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il `mboxReferrer` parametro impostato (per l'API di consegna il `context.address.referringUrl` parametro) che la libreria JavaScript at.js prende dalla pagina utilizzando l' `document.referrer` attributo. Questo `HTMLDocument` attributo restituisce l’URI della pagina da cui l’utente ha navigato. Il valore di questo attributo è una stringa vuota quando l'utente si sposta direttamente sulla pagina (non attraverso un collegamento, ma, ad esempio, tramite un segnalibro).
 
-   Se questi parametri non sono impostati correttamente, un visitatore potrebbe lasciare un'attività dopo aver navigato verso una pagina successiva. Ad esempio, se `document.referrer` viene utilizzato sulla pagina di destinazione ma non nelle pagine successive, non [!DNL Target] è possibile garantire che il visitatore resti nell'attività.
+   Se questo comportamento non soddisfa i requisiti dell'utente, effettuare una delle seguenti operazioni:
 
-   Se si verifica questa situazione, effettuare una delle seguenti operazioni:
-
-   * Verificate che il sito Web venga caricato `document.referrer` correttamente.
    * Trasmettete i parametri [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox da [!DNL Target] utilizzare per il targeting.
    * Utilizzate un'attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un'attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
    * Utilizzate invece un profilo [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitatore.
