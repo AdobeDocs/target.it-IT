@@ -8,7 +8,7 @@ subtopic: Introduzione
 title: Domande frequenti su at.js
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 1de78a18b9a6540a2600d072e825f472bea441f4
+source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
 
 ---
 
@@ -205,7 +205,7 @@ Questi messaggi non sono legati alla funzionalità [!DNL at.js]. La libreria [!D
 Di seguito sono riportate le possibili cause principali per questo messaggio di avviso:
 
 * La pagina viene creata in modo dinamico e at.js non riesce a trovare l’elemento.
-* L'utente si trova su una rete lenta e at.js non riesce a trovare il selettore nel DOM.
+* La pagina viene creata lentamente (a causa di una rete lenta) e at.js non riesce a trovare il selettore nel DOM.
 * La struttura di pagina su cui è in esecuzione l’attività è stata modificata. Se riapri l’attività nel Compositore esperienza visivo dovrebbe comparire un messaggio di avviso. È necessario aggiornare l’attività in modo che tutti gli elementi necessari possano essere trovati.
 * La pagina sottostante fa parte di un’applicazione a pagina singola (Single Page Application, SPA) oppure la pagina contiene elementi che appaiono più in basso e il “meccanismo di polling selettivo” di [!DNL at.js] non riesce a trovarli. Può essere utile aumentare il valore di `selectorsPollingTimeout`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Qualsiasi metrica di rilevamento dei clic tenta di aggiungersi a ogni pagina, indipendentemente dall’URL su cui è stata impostata la metrica. Anche se innocua, questa situazione fa apparire molti di questi messaggi. Le versioni recenti di [!DNL at.js] tentano di eliminare questi messaggi, ma molti clienti hanno ancora versioni precedenti di [!DNL at.js] o [!DNL mbox.js].
