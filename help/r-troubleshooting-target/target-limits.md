@@ -8,7 +8,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: ce1202589faa4328ee74d15c7690552cfd9fde86
 
 ---
 
@@ -37,9 +37,7 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, p
 
 ## Nomi di pubblico
 
-**Limite**: 256 caratteri.
-
-I valori più lunghi di 256 caratteri vengono troncati.
+**Limite**: 255 caratteri.
 
 ## Tipi di pubblico
 
@@ -47,7 +45,7 @@ I valori più lunghi di 256 caratteri vengono troncati.
 
 ## Parametro categoryId
 
-**Limite**: 250 caratteri.
+**Limite**: 128 caratteri.
 
 ## Nomi di attributi cliente
 
@@ -80,7 +78,7 @@ Per le richieste GET, anche se il limite è di 5 KB, a causa del fatto che Micro
 
 ## Nomi di esperienza
 
-**Limite**: 20 caratteri.
+**Limite**: 50 caratteri.
 
 ## Esperienze per attività
 
@@ -217,8 +215,9 @@ Si riferisce al numero di valori separati da riga nell’area di testo di destin
 
 ## Regole di targeting
 
-**Limite consigliato**: 2.500 valori univoci per regola di targeting.
+**Limite** consigliato: 2.500 caratteri per valore della regola di targeting.
 
 **Limite consigliato**: 30.000 valori univoci per pubblico in tutte le regole di targeting.
 
 **Limite consigliato**: 100.000 valori di regole di targeting univoci per attività.
+
