@@ -1,14 +1,10 @@
 ---
-description: I riquadri di visualizzazione per dispositivi mobili consentono di visualizzare in anteprima come le attività si presentano su schermi di varie dimensioni.
 keywords: responsive;riquadri di visualizzazione per dispositivi mobili;riquadro di visualizzazione;dispositivi;esempio di dispositivo mobile;iPhone
-seo-description: I riquadri di visualizzazione per dispositivi mobili consentono di visualizzare in anteprima come le attività si presentano su schermi di varie dimensioni.
-seo-title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
-solution: Target
+description: I riquadri di visualizzazione per dispositivi mobili consentono di visualizzare in anteprima come le attività si presentano su schermi di varie dimensioni.
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
-topic: Premium
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
