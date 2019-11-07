@@ -1,14 +1,11 @@
 ---
-description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
 keywords: assegnazione automatica del traffico;targeting;vincitore;garanzia statistica;affidabilità;determinazione del vincitore
-seo-description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
-seo-title: Determinare un vincitore
-solution: Target
+description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
 title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e313aeade9c9b4f775c79193b7bfa364dd0fde87
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
