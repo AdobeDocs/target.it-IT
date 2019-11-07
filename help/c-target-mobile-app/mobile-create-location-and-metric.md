@@ -1,13 +1,11 @@
 ---
-description: Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 keywords: app mobile;posizione app mobile;target app mobile;posizioni target mobile;metriche di successo app mobile
-seo-description: Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
-seo-title: iOS - Creare una posizione di destinazione e una metrica di successo
+description: Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 title: iOS - Creare una posizione di destinazione e una metrica di successo
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
