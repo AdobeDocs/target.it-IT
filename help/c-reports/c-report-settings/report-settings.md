@@ -1,14 +1,10 @@
 ---
-description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
 keywords: Target;report;impostazioni dei report;preimpostazione;predefinito;preimpostazione target;predefinito target;metrica;destinatari;intervallo di date;impostazioni;download;visualizzazione tabella;visualizzazione grafico;incremento medio;incremento;contributo posizione;media corrente;metodologia di conteggio
-seo-description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
-seo-title: Impostazioni dei rapporti
-solution: Target
+description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
 title: Impostazioni dei rapporti
-topic: Premium
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
