@@ -1,13 +1,10 @@
 ---
-description: Nella scheda Conflitti della pagina Panoramica attività è incluso un elenco dei conflitti tra attività all’interno del sito.
 keywords: Targeting
-seo-description: Nella scheda Conflitti della pagina Panoramica attività è incluso un elenco dei conflitti tra attività all’interno del sito.
-seo-title: Conflitti tra attività
-solution: Target
+description: Nella scheda Conflitti della pagina Panoramica attività è incluso un elenco dei conflitti tra attività all’interno del sito.
 title: Conflitti tra attività
 uuid: 0e53ef60-2f71-4b34-9383-1de5cf5d3ab5
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
