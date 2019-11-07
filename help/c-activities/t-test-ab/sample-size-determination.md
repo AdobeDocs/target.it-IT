@@ -1,13 +1,10 @@
 ---
-description: Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 keywords: AB;A/B;AB...n;dimensioni del campione;calcolatore delle dimensioni del campione;allocazione automatica;allocazione automatica
-seo-description: Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
-seo-title: Per quanto tempo si deve eseguire un test A/B?
-solution: Target
+description: Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 title: Per quanto tempo si deve eseguire un test A/B?
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 1d91c46c78c0bcb58607def4cacaff0b761162fa
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
