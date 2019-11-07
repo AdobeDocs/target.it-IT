@@ -1,14 +1,11 @@
 ---
-description: 'Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.'
 keywords: offerta remota;matrice di selezione offerta remota;contenuto salvato nella cache;contenuto dinamico
-seo-description: 'Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.'
-seo-title: Creare offerte remote
-solution: Target
+description: 'Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.'
 title: Creare offerte remote
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
