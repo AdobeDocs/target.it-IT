@@ -1,16 +1,10 @@
 ---
-description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
-seo-description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
-seo-title: Attributi di entità
-solution: Target
+description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
 title: Attributi di entità
-title-outputclass: premium
-topic: Premium
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
-badge: premium
 translation-type: tm+mt
-source-git-commit: dddaaedc59702b1b2a7fc1672a2771d958f4062a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
