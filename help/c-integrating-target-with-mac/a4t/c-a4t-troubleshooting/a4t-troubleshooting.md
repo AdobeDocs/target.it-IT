@@ -1,15 +1,12 @@
 ---
-description: In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 keywords: server di tracciamento di analytics;A4T;segmenti di analytics;suite di rapporti;dati non corretti;orfani;sdid;VisitorAPI.js;mboxMCSDID;phantom;non specificato
-seo-description: In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
-seo-title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
-solution: Target
-subtopic: Test multivariato
+description: In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
+subtopic: Test multivariato
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: 34dab1cccf5e21fe66628cd473b04817955150dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
