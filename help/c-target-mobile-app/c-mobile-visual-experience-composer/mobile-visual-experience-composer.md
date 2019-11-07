@@ -1,13 +1,10 @@
 ---
 description: Il Compositore esperienza visivo (VEC) per app mobile native ti permette di creare attività e personalizzare contenuti in app mobile native in modo fai da te senza dover dipendere dalle continue modifiche degli sviluppatori e dai cicli di rilascio delle app.
-seo-description: Il Compositore esperienza visivo (VEC) per app mobile native ti permette di creare attività e personalizzare contenuti in app mobile native in modo fai da te senza dover dipendere dalle continue modifiche degli sviluppatori e dai cicli di rilascio delle app.
-seo-title: Compositore esperienza visivo per app mobile
-solution: Target
 title: Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 83702f9c-40ff-441b-b773-46b01155a6f2
 translation-type: tm+mt
-source-git-commit: a67d11f8f8941d5c73df0ad937a216dcebb8d001
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
