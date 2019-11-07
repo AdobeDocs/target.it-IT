@@ -1,15 +1,12 @@
 ---
-description: Utilizzando Analytics come origine per la generazione di rapporti per Target (A4T), puoi accedere ai rapporti di Analytics per le attività di Target.
 keywords: analytics for target;a4t;analytics come fonte dei rapporti
-seo-description: Utilizzando Analytics come origine per la generazione di rapporti per Target (A4T), puoi accedere ai rapporti di Analytics per le attività di Target.
-seo-title: Reporting di Analytics for Target (A4T)
-solution: Target
-subtopic: Test multivariato
+description: Utilizzando Analytics come origine per la generazione di rapporti per Target (A4T), puoi accedere ai rapporti di Analytics per le attività di Target.
 title: Reporting di Analytics for Target (A4T)
+subtopic: Test multivariato
 topic: Standard
 uuid: 4132492b-92d7-4b21-b7ca-324e7b898251
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
