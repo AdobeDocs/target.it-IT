@@ -1,14 +1,11 @@
 ---
-description: Elenco delle domande frequenti sulla generazione di rapporti in Target.
 keywords: risoluzione dei problemi;discrepanze metriche;FAQ;domande frequenti;rapporti
-seo-description: Elenco delle domande frequenti sulla generazione di rapporti in Adobe Target.
-seo-title: Domande frequenti sulla generazione di rapporti in Adobe Target
-solution: Target
-title: Domande frequenti sulla generazione di rapporti
+description: Elenco delle domande frequenti sulla generazione di rapporti in Adobe Target.
+title: Domande frequenti sulla generazione di rapporti in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: a6f2eceaddf67653b36a1687ba071f7226169516
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
