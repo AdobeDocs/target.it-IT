@@ -1,15 +1,12 @@
 ---
-description: È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
 keywords: Implementazione;mbox.js non JavaScript;redirector;costi per clic; ricavi per clic
-seo-description: È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
-seo-title: Lavorare con i redirector
-solution: Target
-subtopic: Introduzione
+description: È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
 title: Lavorare con i redirector
+subtopic: Introduzione
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
