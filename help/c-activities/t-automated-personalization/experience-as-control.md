@@ -1,13 +1,11 @@
 ---
-description: Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività di Personalizzazione automatizzata o Targeting automatico.
 keywords: esperienza;controllo;personalizzazione automatizzata;target automatico
-seo-description: Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività di Personalizzazione automatizzata o Targeting automatico in Adobe Target.
-seo-title: Utilizzare un’esperienza specifica come controllo in Adobe Target
+description: Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività di Personalizzazione automatizzata o Targeting automatico in Adobe Target.
+title: Utilizzare un’esperienza specifica come controllo in Adobe Target
 solution: Target,Analytics
-title: Utilizzare un’esperienza specifica come controllo
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
