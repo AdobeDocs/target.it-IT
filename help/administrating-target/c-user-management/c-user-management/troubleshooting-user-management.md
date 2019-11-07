@@ -1,14 +1,11 @@
 ---
-description: Risoluzione dei problemi di gestione degli utenti in Adobe Target.
 keywords: risolvere problemi in target;risoluzione problemi target;utenti;gestione utenti
-seo-description: Risoluzione dei problemi di gestione degli utenti in Adobe Target.
-seo-title: Risolvere i problemi relativi alla gestione degli utenti
-solution: Target
+description: Risoluzione dei problemi di gestione degli utenti in Adobe Target.
 title: Risolvere i problemi relativi alla gestione degli utenti
 topic: Advanced,Standard,Classic
 uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
