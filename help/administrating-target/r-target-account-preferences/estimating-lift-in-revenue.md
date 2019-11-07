@@ -1,14 +1,11 @@
 ---
-description: Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
 keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore stimato
-seo-description: Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
-seo-title: Stimare l’Incremento dei ricavi
-solution: Target
+description: Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
 title: Stimare l’Incremento dei ricavi
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
