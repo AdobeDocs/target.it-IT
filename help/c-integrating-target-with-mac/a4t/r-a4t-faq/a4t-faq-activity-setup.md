@@ -1,14 +1,11 @@
 ---
-description: Questo argomento contiene le risposte alle domande più frequenti sulla configurazione delle attività e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 keywords: FAQ;domande frequenti;analytics for target;a4t;configurazione delle attività
-seo-description: Questo argomento contiene le risposte alle domande più frequenti sulla configurazione delle attività e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
-seo-title: Impostazioni delle attività - Domande frequenti su A4T
-solution: Target
+description: Questo argomento contiene le risposte alle domande più frequenti sulla configurazione delle attività e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Impostazioni delle attività - Domande frequenti su A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
