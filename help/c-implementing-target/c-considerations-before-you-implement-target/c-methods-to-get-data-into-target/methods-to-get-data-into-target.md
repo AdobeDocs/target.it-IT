@@ -1,15 +1,12 @@
 ---
-description: Informazioni sui vari metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
 keywords: implementa;implementazione;impostazione;installazione;parametro di pagina;tomcat;codifica url;attributo profilo di pagina;parametro mbox;attributi profilo di pagina;attributo profilo script;aggiornamento API bulk profilo;aggiornamento API file singolo;attributi cliente;fornitori di dati;fornitori dati;fornitori di dati
-seo-description: Informazioni sui vari metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
-seo-title: Metodi per immettere i dati in Target
-solution: Target
-subtopic: Introduzione
+description: Informazioni sui vari metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
 title: Metodi per immettere i dati in Target
+subtopic: Introduzione
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
