@@ -1,14 +1,10 @@
 ---
-description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
 keywords: A4T;Adobe Analytics;attività basata su Analytics;suite di rapporti di Analytics;suite di rapporti;integrazione di Target Analytics;configurazione di suite di rapporti
-seo-description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
-seo-title: Implementazione di Analytics for Target
-solution: Target
+description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Implementazione di Analytics for Target
-topic: Premium
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -41,7 +37,7 @@ Consulta [Implementazione del servizio Experience Cloud ID per Target](https://d
 
 Per le nuove implementazioni, consultate Panoramica [dell'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all'implementazione di* Analytics.
 
-For a migration, see Migrating to AppMeasurement for JavaScript in the Analytics Implementation Guide.[](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html)**
+Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all'implementazione di* Analytics.
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
