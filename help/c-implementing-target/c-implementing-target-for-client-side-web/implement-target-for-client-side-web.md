@@ -1,13 +1,10 @@
 ---
-description: Informazioni sull’implementazione di Target per web lato client.
-seo-description: Informazioni sull’implementazione di Adobe Target per web lato client.
-seo-title: Implementare Adobe Target per web lato client
-solution: Target
-title: Panoramica - Implementare Target per web lato client
+description: Informazioni sull’implementazione di Adobe Target per web lato client.
+title: Implementare Adobe Target per web lato client
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
