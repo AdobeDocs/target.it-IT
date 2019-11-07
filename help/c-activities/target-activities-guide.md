@@ -1,14 +1,11 @@
 ---
-description: Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili in Adobe Target (ad eccezione della funzionalità Consigli).
 keywords: Guida alle attività;attività;attività;tipi di attività;azioni di attività
-seo-description: Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili in Adobe Target (ad eccezione della funzionalità Consigli).
-seo-title: Tipi di attività di Target
-solution: Target
+description: Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili in Adobe Target (ad eccezione della funzionalità Consigli).
 title: Tipi di attività di Target
 topic: Standard
 uuid: ce2accb4-8330-4431-8d47-8863c54274b5
 translation-type: tm+mt
-source-git-commit: 532417dab835bf71d70cef5b2872dfd10d56066d
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
