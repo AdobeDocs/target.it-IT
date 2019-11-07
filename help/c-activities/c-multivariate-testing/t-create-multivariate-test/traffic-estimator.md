@@ -1,13 +1,10 @@
 ---
 description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.
-seo-description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.
-seo-title: Stimare il traffico necessario per il successo del test
-solution: Target
 title: Stimare il traffico necessario per il successo del test
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
