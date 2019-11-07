@@ -1,15 +1,12 @@
 ---
-description: Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
 keywords: Editor di esperienza web mobile
-seo-description: Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
-seo-title: Risolvere i problemi relativi ai test multivariati
-solution: Target
-subtopic: Riquadri di visualizzazione per dispositivi mobili
+description: Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
 title: Risolvere i problemi relativi ai test multivariati
+subtopic: Riquadri di visualizzazione per dispositivi mobili
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
