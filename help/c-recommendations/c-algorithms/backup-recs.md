@@ -1,16 +1,10 @@
 ---
-description: Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 keywords: consigli;backup;back up
-seo-description: Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
-seo-title: Utilizzare un consiglio di backup
-solution: Target
+description: Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 title: Utilizzare un consiglio di backup
-title-outputclass: premium
-topic: Premium
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
