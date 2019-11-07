@@ -1,14 +1,11 @@
 ---
-description: Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
 keywords: risolvi problemi di Target;risoluzione problemi di Target;contenuto predefinito;test non live;attività non live;targeting non funzionante;visualizzazione esperienza precedente;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina cambiata;messaggio di errore;errore elimina script profilo;AJAX non funziona
-seo-description: Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
-seo-title: Risolvere i problemi relativi alle attività
-solution: Target
+description: Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
 title: Risolvere i problemi relativi alle attività
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: e2592d9b117ac163876257fe6003f1cfb9cfe093
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
