@@ -1,16 +1,10 @@
 ---
-description: La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per eseguire una selezione tra più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi
-seo-description: La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per eseguire una selezione tra più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.
-seo-title: Targeting automatico
-solution: Target
 title: Targeting automatico
-title-outputclass: premium
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
