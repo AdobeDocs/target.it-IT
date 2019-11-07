@@ -1,13 +1,10 @@
 ---
-description: Scegli una metrica di successo che qualifichi l’utente per il pubblico di reportistica.
 keywords: Targeting;pubblico;creazione di rapporti;metrica di successo
-seo-description: Scegli una metrica di successo in Adobe Target che qualifichi l’utente per il pubblico di reportistica.
-seo-title: Applicare un pubblico di reportistica a una metrica di successo in Adobe Target
-solution: Target
-title: Applicare un pubblico di reportistica a una metrica di successo
+description: Scegli una metrica di successo in Adobe Target che qualifichi l’utente per il pubblico di reportistica.
+title: Applicare un pubblico di reportistica a una metrica di successo in Adobe Target
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
