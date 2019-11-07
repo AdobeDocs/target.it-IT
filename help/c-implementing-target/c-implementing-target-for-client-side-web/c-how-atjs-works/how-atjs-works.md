@@ -1,14 +1,11 @@
 ---
-description: Esegue il targeting dei diagrammi di sistema che mostrano il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente tramite at.js.
 keywords: diagramma di sistema;flicker;at.js;implementation;javascript library;js;atjs
-seo-description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
-seo-title: Funzionamento della libreria JavaScript di Adobe Target at.js
-solution: Target
-title: Funzionamento di at.js
+description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
+title: Funzionamento della libreria JavaScript di Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 9fa095b910b85f244b626c34cacdf9f4a13a6929
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
