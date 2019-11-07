@@ -1,14 +1,11 @@
 ---
-description: Il Compositore esperienza visivo mobile supporta l’impostazione degli obiettivi di tracciamento dei clic per le attività Target.
 keywords: VEC app mobile;compositore esperienza visivo mobile;opzioni compositore esperienza mobile;opzioni esperienza mobile;visualizzazione di target;clic, tracciamento dei clic;tracciare
-seo-description: Il Compositore esperienza visivo mobile supporta l’impostazione degli obiettivi di tracciamento dei clic per le attività di Adobe Target.
-seo-title: Configurare il tracciamento dei clic nel Compositore esperienza visivo per app mobile
-solution: Target
+description: Il Compositore esperienza visivo mobile supporta l’impostazione degli obiettivi di tracciamento dei clic per le attività di Adobe Target.
 title: Configurare il tracciamento dei clic nel Compositore esperienza visivo per app mobile
 topic: Standard
 uuid: 7e4ce7c0-0027-417c-8dae-45b6f5045e65
 translation-type: tm+mt
-source-git-commit: 2966ba0a89e6bfe1a7e6048e741100a95c09b8ff
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
