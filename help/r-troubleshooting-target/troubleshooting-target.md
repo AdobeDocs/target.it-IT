@@ -1,14 +1,11 @@
 ---
-description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
 keywords: risolvere problemi di Target;risoluzione problemi di Target
-seo-description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
-seo-title: Risoluzione dei problemi relativi ad Adobe Target
-solution: Target
-title: Risolvere i problemi di Target
+description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
+title: Risoluzione dei problemi relativi ad Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 1e2eb01872c23e65c7f03d0589f86928edb664f7
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
