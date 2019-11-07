@@ -1,16 +1,10 @@
 ---
-description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-seo-description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
-seo-title: Creare un’attività Consigli
-solution: Target
+description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creare un’attività Consigli
-title-outputclass: premium
-topic: Premium
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -35,7 +29,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
+   >L’opzione [!UICONTROL [Scegli area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md) nell’illustrazione precedente è una funzione di [Target Premium](/help/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
 
 1. (Condizionale) Se sei un cliente [Target Premium](/help/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -151,7 +145,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    >
    >Se specifichi un nome di attività di [!DNL Recommendation] già esistente per un’altra attività in [!DNL Recommendations Classic], la nuova attività viene risincronizzata con un nuovo nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. Questo nuovo nome viene visualizzato in entrambi [!DNL Target Standard/Premium] e [!DNL Recommendations Classic].
 
-1.  Al termine fate clic su **[!UICONTROL Salva e chiudi]**.
+1. Al termine fate clic su **[!UICONTROL Salva e chiudi]**.
 
    Viene visualizzata una panoramica dell’attività.
 
