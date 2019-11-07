@@ -1,15 +1,10 @@
 ---
-description: Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti specializzati.
 keywords: Targeting;rapporti AP;rapporti di personalizzazione automatizzata;rapporto livello attività;rapporto livello offerta;rapporto dettagli offerta
-seo-description: Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti specializzati.
-seo-title: Rapporto di riepilogo per Personalizzazione automatizzata
-solution: Target
+description: Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti specializzati.
 title: Rapporto di riepilogo per Personalizzazione automatizzata
-title-outputclass: premium
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
