@@ -1,14 +1,11 @@
 ---
-description: Nel rapporto Contributo posizione sono incluse le prestazioni di ogni elemento e di ogni offerta.
 keywords: MVT;test multivariato;rapporto contributo posizione
-seo-description: Nel rapporto Contributo posizione sono incluse le prestazioni di ogni elemento e di ogni offerta.
-seo-title: Rapporto Contributo Posizione (MVT)
-solution: Target
+description: Nel rapporto Contributo posizione sono incluse le prestazioni di ogni elemento e di ogni offerta.
 title: Rapporto Contributo Posizione (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
