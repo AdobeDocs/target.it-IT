@@ -1,14 +1,10 @@
 ---
-description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
 keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
-seo-description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
-seo-title: Trasmettere i dati dinamici nelle offerte
-solution: Target
+description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
 title: Trasmettere i dati dinamici nelle offerte
-topic: Premium
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
