@@ -1,15 +1,9 @@
 ---
-description: Introduzione alle attività di generazione dei consigli di Target, per visualizzare automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-keywords: Consigli;introduzione;introduzione;webinar;demo
-seo-description: Introduzione alle attività Consigli di Adobe Target per visualizzare automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-seo-title: Introduzione alle attività Consigli in Adobe Target
-solution: Target
-title: Introduzione alla funzione Consigli
-title-outputclass: premium
-topic: Premium
-badge: premium
+keywords: Recommendations;intro;introduzione;webinar;demo
+description: Introduzione alle attività Consigli di Adobe Target per visualizzare automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
+title: Introduzione alle attività Consigli in Adobe Target
 translation-type: tm+mt
-source-git-commit: 516433edd366fad5950c99d748aa7f6f718dd5fd
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
