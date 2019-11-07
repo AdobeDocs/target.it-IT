@@ -1,13 +1,10 @@
 ---
-description: Crea tipi di pubblico per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
-seo-description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
-seo-title: Rivolgersi a specifiche origini di traffico in Adobe Target
-solution: Target
-title: Origini del traffico
+description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
+title: Rivolgersi a specifiche origini di traffico in Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
