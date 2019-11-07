@@ -1,14 +1,11 @@
 ---
-description: Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
 keywords: multipagina;test di viaggio;attività multipagina
-seo-description: Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
-seo-title: Attività multipagina
-solution: Target
+description: Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
 title: Attività multipagina
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
