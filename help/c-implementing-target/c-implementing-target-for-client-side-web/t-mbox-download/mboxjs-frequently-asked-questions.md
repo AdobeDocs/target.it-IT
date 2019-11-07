@@ -1,14 +1,11 @@
 ---
-description: Risposte alle domande più frequenti su mbox.js.
 keywords: faq mbox.js;domande frequenti mbox.js;document.write;tt.omtrdc.net;blocco del parser
-seo-description: Risposte alle domande più frequenti su mbox.js.
-seo-title: Domande frequenti su mbox.js
-solution: Target
-subtopic: Introduzione
+description: Risposte alle domande più frequenti su mbox.js.
 title: Domande frequenti su mbox.js
+subtopic: Introduzione
 uuid: af3105ab-87d9-4dbf-a380-b72788928958
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
