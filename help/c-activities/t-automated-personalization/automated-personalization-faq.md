@@ -1,16 +1,10 @@
 ---
-description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 keywords: risoluzione dei problemi;domande frequenti;FAQ;FAQs;personalizzazione automatizzata
-seo-description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
-seo-title: Domande frequenti sulla Personalizzazione automatizzata
-solution: Target
+description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 title: Domande frequenti sulla Personalizzazione automatizzata
-title-outputclass: premium
-topic: Premium
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
