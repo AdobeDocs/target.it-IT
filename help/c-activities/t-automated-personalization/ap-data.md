@@ -1,16 +1,10 @@
 ---
-description: Adobe Target raccoglie e utilizza automaticamente una varietà di dati per creare gli algoritmi di personalizzazione nelle attività di Personalizzazione automatizzata e Targeting automatico. Quando un visitatore accede a un’attività di Personalizzazione automatizzata e Targeting automatico, viene trasmessa un’istantanea di informazioni a un set di “record di apprendimento” (i dati del visitatore su cui si baseranno gli algoritmi di personalizzazione).
 keywords: dati ambiente;dati sessione;dati geografici;dati geo;dati dispositivo;dati mobili;attributi;attributi profilo
-seo-description: Adobe Target raccoglie e utilizza automaticamente una varietà di dati per creare gli algoritmi di personalizzazione nelle attività di Personalizzazione automatizzata e Targeting automatico. Quando un visitatore accede a un’attività di Personalizzazione automatizzata e Targeting automatico, viene trasmessa un’istantanea di informazioni a un set di “record di apprendimento” (i dati del visitatore su cui si baseranno gli algoritmi di personalizzazione).
-seo-title: Raccolta di dati per gli algoritmi di personalizzazione di Adobe Target
-solution: Target
-title: Raccolta di dati per gli algoritmi di personalizzazione di Target
-title-outputclass: premium
-topic: Premium
+description: Adobe Target raccoglie e utilizza automaticamente una varietà di dati per creare gli algoritmi di personalizzazione nelle attività di Personalizzazione automatizzata e Targeting automatico. Quando un visitatore accede a un’attività di Personalizzazione automatizzata e Targeting automatico, viene trasmessa un’istantanea di informazioni a un set di “record di apprendimento” (i dati del visitatore su cui si baseranno gli algoritmi di personalizzazione).
+title: Raccolta di dati per gli algoritmi di personalizzazione di Adobe Target
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
-badge: premium
 translation-type: tm+mt
-source-git-commit: 156587a0375fe2dbf8c461e310b2eae04b491b57
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
