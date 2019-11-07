@@ -1,15 +1,10 @@
 ---
-description: Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
-seo-description: Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
-seo-title: Rapporto Segmenti automatizzati
-solution: Target
+description: Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
 title: Rapporto Segmenti automatizzati
-title-outputclass: premium
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
