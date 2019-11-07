@@ -1,14 +1,11 @@
 ---
-description: Gli URL di controllo qualità con distribuzione lato server consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
 keywords: qa;lato server;anteprima;collegamenti di anteprima
-seo-description: Gli URL di controllo qualità con distribuzione lato server consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
-seo-title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
-solution: Target
+description: Gli URL di controllo qualità con distribuzione lato server consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 topic: Advanced,Standard,Classic
 uuid: c1875243-e37f-4205-9e6b-6e96cadf4a7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
