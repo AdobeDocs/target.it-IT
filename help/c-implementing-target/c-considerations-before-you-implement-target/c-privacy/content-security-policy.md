@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle direttive Content Security Policy (CSP) da aggiungere quando si utilizza Adobe Target at.js 2.1 o versione successiva.
 keywords: criteri di protezione del contenuto;csp;at.js;whitelist;flicker;pre-hide;pre-hide;prehide
-seo-description: Informazioni sulle direttive Content Security Policy (CSP) da aggiungere quando si utilizza Adobe Target at.js 2.1 o versione successiva.
-seo-title: Informativa sulla sicurezza dei contenuti (CSP)
-solution: Target
+description: Informazioni sulle direttive Content Security Policy (CSP) da aggiungere quando si utilizza Adobe Target at.js 2.1 o versione successiva.
+title: Informativa sulla sicurezza dei contenuti (CSP)
 subtopic: Introduzione
-title: Direttive sulla sicurezza dei contenuti
 topic: Standard
 translation-type: tm+mt
-source-git-commit: df40d69676cea586451e3b64b56ef602da91173f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
