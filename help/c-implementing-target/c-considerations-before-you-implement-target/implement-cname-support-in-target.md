@@ -1,14 +1,11 @@
 ---
+keywords: client care;cname;certificate program;canonico name;cookies;certificate;amc;adobe manage certificate
 description: Informazioni sull’utilizzo di Adobe Client Care per implementare il supporto CNAME (Canonical Name) in Adobe Target.
-keywords: client care;cname;programma di certificato;canonical name;cookie;certificato;amc;adobe managed certificate
-seo-description: Informazioni sull’utilizzo di Adobe Client Care per implementare il supporto CNAME (Canonical Name) in Adobe Target.
-seo-title: CNAME e Adobe Target
-solution: Target
 title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b7a80326b0b89f6fe3bac70ccc6941be09d14ac1
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -23,7 +20,7 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
 
 1. Creare record CNAME (vedere le istruzioni riportate di seguito).
 
-   Upon receiving the ticket, a FPSSL specialist should provide you with a pair of CNAME records. These records must be configured on your company's DNS server before Adobe can purchase the certificate on your behalf.
+   Dopo aver ricevuto il biglietto, uno specialista FPSSL dovrebbe fornirvi un paio di record CNAME. Questi record devono essere configurati sul server DNS della società prima che Adobe possa acquistare il certificato per conto dell'utente.
 
    I CNAME saranno simili al seguente esempio:
 
