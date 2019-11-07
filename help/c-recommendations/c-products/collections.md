@@ -1,16 +1,10 @@
 ---
-description: Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
 keywords: raccolta;Targeting
-seo-description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
-seo-title: Raccolte in Adobe Target
-solution: Target
-title: Raccolte
-title-outputclass: premium
-topic: Premium
+description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
+title: Raccolte in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
-badge: premium
 translation-type: tm+mt
-source-git-commit: fcbeca28354a4c1203933b0e8e26927009da2626
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
