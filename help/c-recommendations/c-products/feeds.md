@@ -1,16 +1,10 @@
 ---
-description: I feed consentono di importare le entità nei Consigli. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
-keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni di anaylitcs
-seo-description: I feed consentono di importare le entità in Adobe Recommendations. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
-seo-title: Feed
-solution: Target
+keywords: feed di raccomandazioni;feed;SAINT;ftp;csv;classificazioni;classificazioni di analisi
+description: I feed consentono di importare le entità in Adobe Recommendations. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
 title: Feed
-title-outputclass: premium
-topic: Premium
 uuid: b228a0de-e201-4567-ad09-1190196babda
-badge: premium
 translation-type: tm+mt
-source-git-commit: b6ca506e5670dbd5c12399c118be5dacd3326494
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
