@@ -1,11 +1,9 @@
 ---
 description: Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore di Experience Cloud e dall’esistenza dell’ID del visitatore.
-seo-description: Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore di Experience Cloud e dall’esistenza dell’ID del visitatore.
-seo-title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 title: Metodi Target per chiamate pagina per le diverse versioni della libreria mbox.js
 uuid: 66f7753e-d9c1-4efa-8b10-fd637c8f53f6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
