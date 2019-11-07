@@ -1,13 +1,10 @@
 ---
-description: In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
 keywords: Targeting;compositore esperienza visivo;whitelist;white list;vec;risoluzione dei problemi compositore esperienza visiva;risoluzione dei problemi;tls;tls 1.2
-seo-description: In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
-seo-title: Risoluzione dei problemi relativi al Compositore esperienza visivo
-solution: Target
+description: In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
