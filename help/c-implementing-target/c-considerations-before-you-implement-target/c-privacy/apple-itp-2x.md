@@ -1,14 +1,11 @@
 ---
-description: Informazioni sul supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3.
 keywords: apple;ITP;intelligent tracking prevention
-seo-description: Informazioni sul Supporto di Adobe Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3.
-seo-title: Adobe Target e il supporto per Apple ITP
-solution: Target
+description: Informazioni sul Supporto di Adobe Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3.
+title: Adobe Target e il supporto per Apple ITP
 subtopic: Introduzione
-title: Apple ITP 2.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
