@@ -1,15 +1,9 @@
 ---
-description: Informazioni sull'utilizzo di un campo multivalore in Adobe Target Recommendations mediante speciali operatori multivalore.
 keywords: multi-valore;attributi;raccomandazioni;multi valore;multivalore
-seo-description: Informazioni sull'utilizzo di un campo multivalore in Adobe Target Recommendations mediante speciali operatori multivalore.
-seo-title: Utilizzo degli attributi con più valori in Adobe Target Recommendations
-solution: Target
-title: Utilizzo di attributi con più valori
-title-outputclass: premium
-topic: Premium
-badge: premium
+description: Informazioni sull'utilizzo di un campo multivalore in Adobe Target Recommendations mediante speciali operatori multivalore.
+title: Utilizzo degli attributi con più valori in Adobe Target Recommendations
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
