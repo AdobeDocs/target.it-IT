@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 keywords: contatti;note legali;supporto tecnico;assistenza tecnica;supporto;servizio;funzionalità;fatturazione;feedback
-seo-description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
-seo-title: Risorse e informazioni di contatto
-solution: Target
+description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 title: Risorse e informazioni di contatto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
