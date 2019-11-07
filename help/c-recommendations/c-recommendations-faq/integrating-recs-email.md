@@ -1,16 +1,11 @@
 ---
-description: Informazioni su come integrare le e-mail con i Consigli.
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
-seo-description: Informazioni su come integrare le e-mail con i Consigli.
-seo-title: Integrare i Consigli con l’e-mail
-solution: Target
+description: Informazioni su come integrare le e-mail con i Consigli.
 title: Integrare i Consigli con l’e-mail
-title-outputclass: premium
 topic: Consigli
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
