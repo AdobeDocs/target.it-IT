@@ -1,14 +1,11 @@
 ---
 description: Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
-seo-description: Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
-seo-title: Reindirizzamento a un URL
-solution: Target
-subtopic: Test multivariato
 title: Reindirizzamento a un URL
+subtopic: Test multivariato
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
