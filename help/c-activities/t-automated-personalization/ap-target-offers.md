@@ -1,14 +1,10 @@
 ---
 description: In un’attività di Personalizzazione automatizzata è possibile indirizzare le offerte a tipi di pubblico specifici.
-seo-description: In un’attività di Personalizzazione automatizzata è possibile indirizzare le offerte a tipi di pubblico specifici.
-seo-title: Targeting delle offerte di Personalizzazione automatizzata
-solution: Target,Analytics
 title: Targeting delle offerte di Personalizzazione automatizzata
-title-outputclass: premium
+solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
