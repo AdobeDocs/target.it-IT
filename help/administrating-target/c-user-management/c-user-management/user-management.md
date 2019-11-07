@@ -1,15 +1,12 @@
 ---
-description: Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
 keywords: aggiungere utente;gestire utente;autorizzazioni utente
-seo-description: Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
-seo-title: Utenti
-solution: Target
-subtopic: Introduzione
+description: Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
 title: Utenti
+subtopic: Introduzione
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
