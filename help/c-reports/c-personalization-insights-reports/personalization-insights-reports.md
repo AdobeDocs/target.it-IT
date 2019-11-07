@@ -1,15 +1,10 @@
 ---
-description: 'Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) sono disponibili due rapporti specializzati: Segmenti automatizzati e Attributi importanti.'
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata:targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti;attributi importanti
-seo-description: 'Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) sono disponibili due rapporti specializzati: Segmenti automatizzati e Attributi importanti.'
-seo-title: Rapporti Approfondimenti personalizzazione
-solution: Target
+description: 'Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) sono disponibili due rapporti specializzati: Segmenti automatizzati e Attributi importanti.'
 title: Rapporti Approfondimenti personalizzazione
-title-outputclass: premium
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0d0ae6bcd401777169e74b93a4fb18f1a9b24dc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
