@@ -1,15 +1,12 @@
 ---
-description: I rapporti forniscono informazioni sulle prestazioni delle attività.
 keywords: rapporti;bloccare indirizzo ip;bloccare visitatore da indirizzo ip;scaricare rapporti;csv
-seo-description: I rapporti forniscono informazioni sulle prestazioni delle attività
-seo-title: Rapporti
-solution: Target
-subtopic: Test multivariato
+description: I rapporti forniscono informazioni sulle prestazioni delle attività
 title: Rapporti
+subtopic: Test multivariato
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
