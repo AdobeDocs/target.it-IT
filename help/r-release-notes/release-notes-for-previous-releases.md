@@ -1,14 +1,11 @@
 ---
-description: Note sulla versione per le versioni precedenti di Target, incluse le note di rilascio per Target Standard/Premium, la piattaforma Target e le librerie Target JavaScript (at.js e mbox.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 keywords: Note sulla versione
-seo-description: Note sulla versione per le versioni precedenti di Target, incluse le note di rilascio per Target Standard/Premium, la piattaforma Target e le librerie Target JavaScript (at.js e mbox.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
-seo-title: Note sulla versione per le versioni precedenti
-solution: Target
+description: Note sulla versione per le versioni precedenti di Target, incluse le note di rilascio per Target Standard/Premium, la piattaforma Target e le librerie Target JavaScript (at.js e mbox.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 title: Note sulla versione per le versioni precedenti
 topic: Consigli
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 0f080cd8c1766a71654f47a84c6c69b211dce43f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
