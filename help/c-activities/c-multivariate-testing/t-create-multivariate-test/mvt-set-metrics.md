@@ -1,13 +1,11 @@
 ---
-description: Utilizza le metriche in un test multivariato per determinare quando una visita ha esito positivo.
 keywords: multivariato;MVT;metriche;impostare metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;ricavi;impegno
-seo-description: Utilizza le metriche in un test multivariato per determinare quando una visita ha esito positivo.
-seo-title: Impostare le metriche
-solution: Target,standard
+description: Utilizza le metriche in un test multivariato per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
+solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
