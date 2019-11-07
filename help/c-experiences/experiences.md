@@ -1,14 +1,11 @@
 ---
-description: Un’esperienza determina il contenuto visualizzato quando il visitatore soddisfa i criteri di pubblico per un’attività.
 keywords: esperienza;compositore esperienza visivo;compositore esperienza avanzato;compositore esperienza basato su moduli;compositore moduli;compositore visivo;compositore esperienza;contenuti misti;iframe;iframe busting;iframe bust;x-frame-options;origini incrociate;problemi di origini incrociate;flusso di lavoro di autenticazione;blacklist di ip;ip consentiti
-seo-description: Un’esperienza determina il contenuto visualizzato quando il visitatore soddisfa i criteri di pubblico per un’attività.
-seo-title: Esperienze e offerte
-solution: Target
+description: Un’esperienza determina il contenuto visualizzato quando il visitatore soddisfa i criteri di pubblico per un’attività.
 title: Esperienze e offerte
 topic: Standard
 uuid: cff5ac56-2f63-48e9-ba06-eb66de9e769f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
