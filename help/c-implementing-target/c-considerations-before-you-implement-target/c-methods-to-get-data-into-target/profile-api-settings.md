@@ -1,15 +1,12 @@
 ---
-description: Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
 keywords: implementazione;api;profilo;impostazioni API profilo
-seo-description: Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
-seo-title: Impostazioni API del profilo
-solution: Target
-subtopic: Introduzione
+description: Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
 title: Impostazioni API del profilo
+subtopic: Introduzione
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
