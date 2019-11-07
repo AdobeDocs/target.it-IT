@@ -1,15 +1,12 @@
 ---
-description: Informazioni su come interpretare il rapporto di riepilogo del Targeting automatico.
 keywords: report;targeting automatico;AT
-seo-description: Informazioni su come interpretare il rapporto di riepilogo del Targeting automatico.
-seo-title: Rapporto di riepilogo del Targeting automatico
-solution: Target
-subtopic: Test multivariato
+description: Informazioni su come interpretare il rapporto di riepilogo del Targeting automatico.
 title: Rapporto di riepilogo del Targeting automatico
+subtopic: Test multivariato
 topic: Standard
 uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
