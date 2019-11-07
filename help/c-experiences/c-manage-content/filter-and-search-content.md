@@ -1,14 +1,10 @@
 ---
-description: Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
 keywords: libreria contenuti;risorse;ricerca;raccolte avanzate;cartella di ricerca;filtro
-seo-description: Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
-seo-title: Ricercare contenuti e creare raccolte avanzate
-solution: Target
+description: Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
 title: Ricercare contenuti e creare raccolte avanzate
-topic: Premium
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
