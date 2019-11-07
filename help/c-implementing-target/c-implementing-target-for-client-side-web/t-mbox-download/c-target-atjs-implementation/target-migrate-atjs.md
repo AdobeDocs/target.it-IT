@@ -1,14 +1,11 @@
 ---
-description: La migrazione da mbox.js a at.js è un processo semplice.
 keywords: Target;at.js;migrare a at.js;prontezza;verificare at.js;integrare at.js
-seo-description: La migrazione da mbox.js a at.js è un processo semplice.
-seo-title: Come migrare a at.js da mbox.js
-solution: Target
+description: La migrazione da mbox.js a at.js è un processo semplice.
 title: Come migrare a at.js da mbox.js
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 2aa63623b4d2ca38ec96c51402ee483a918dd3ae
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
