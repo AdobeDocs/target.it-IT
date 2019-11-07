@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
 
 ---
 
@@ -18,6 +18,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 7 novembre 2019 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | È stato aggiunto un esempio di codice per il parametro adobeQA. |
 | 5 novembre 2019 | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Testo aggiornato nella sezione "Risoluzione dei problemi". |
 | 4 novembre 2019 | [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Testo aggiornato con le seguenti domande frequenti: "Perché viene visualizzato un messaggio di avviso, ad esempio "azioni con selettori mancanti"?" |
 | 31 ottobre 2019 | [Utilizzo di attributi con più valori](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuovo argomento. |
