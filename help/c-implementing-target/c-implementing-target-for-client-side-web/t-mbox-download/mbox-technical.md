@@ -1,15 +1,12 @@
 ---
-description: Informazioni utili per il personale tecnico, per comprendere l’implementazione di mbox.js e come potrebbe influenzare il sito.
 keywords: implementazione;mbox.js;libreria di manipolazione dom;target.js;compositore di esperienza visivo;iframe;siti angular;applicazioni a pagina singola;app a singola pagina;SPA
-seo-description: Informazioni utili per il personale tecnico, per comprendere l’implementazione di mbox.js e come potrebbe influenzare il sito.
-seo-title: Funzionamento di mbox.js
-solution: Target
-subtopic: Introduzione
+description: Informazioni utili per il personale tecnico, per comprendere l’implementazione di mbox.js e come potrebbe influenzare il sito.
 title: Funzionamento di mbox.js
+subtopic: Introduzione
 topic: Standard
 uuid: 5529d620-4a33-479c-871f-18dcd59abb07
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
