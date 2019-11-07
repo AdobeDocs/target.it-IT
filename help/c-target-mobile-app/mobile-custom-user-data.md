@@ -1,13 +1,11 @@
 ---
-description: Puoi inviare a Target informazioni aggiuntive sulla posizione o sull’utente, sotto forma di coppie nome-valore.
 keywords: app mobile;inviare dati app mobile;app mobile target;dati personalizzati utente mobile;app mobile;dati personalizzati app mobile
-seo-description: Puoi inviare a Target informazioni aggiuntive sulla posizione o sull’utente, sotto forma di coppie nome-valore.
-seo-title: iOS - Inviare dati utente personalizzati
+description: Puoi inviare a Target informazioni aggiuntive sulla posizione o sull’utente, sotto forma di coppie nome-valore.
 title: iOS - Inviare dati utente personalizzati
 topic: Target
 uuid: 00baa1e2-4d1c-4835-ac55-47c9ac8985ac
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
