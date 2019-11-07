@@ -1,13 +1,11 @@
 ---
-description: Utilizza le metriche in un’attività Esperienza targeting (XT) per determinare quando una visita ha esito positivo.
 keywords: Targeting esperienza;XT;metriche;impostazione metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;entrate;ricavi;coinvolgimento
-seo-description: Utilizza le metriche in un’attività Targeting esperienza per determinare quando una visita ha esito positivo.
-seo-title: Impostare le metriche
-solution: Target,standard
+description: Utilizza le metriche in un’attività Targeting esperienza per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
+solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
