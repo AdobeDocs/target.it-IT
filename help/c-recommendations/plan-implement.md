@@ -1,16 +1,10 @@
 ---
-description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
 keywords: Consigli;impostazioni;preferenze;settore verticale;filtrare criteri incompatibili;gruppo host predefinito;URL base miniature;token API consigli
-seo-description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
-seo-title: Pianificare e implementare la funzione Consigli
-solution: Target
+description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
 title: Pianificare e implementare la funzione Consigli
-title-outputclass: premium
-topic: Premium
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
-badge: premium
 translation-type: tm+mt
-source-git-commit: ee52f4af52d6c587dca217317bbac005741e444f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
