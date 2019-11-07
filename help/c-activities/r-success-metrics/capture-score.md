@@ -1,15 +1,12 @@
 ---
-description: La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
 keywords: punteggio di acquisizione;punteggio
-seo-description: La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
-seo-title: Punteggio di acquisizione
-solution: Target
-subtopic: Introduzione
+description: La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
 title: Punteggio di acquisizione
+subtopic: Introduzione
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
