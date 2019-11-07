@@ -1,14 +1,10 @@
 ---
-description: Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
 keywords: profilo visitatore;targeting profilo visitatore
-seo-description: Crea tipi di pubblico in Adobe Target per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
-seo-title: Profilo visitatore
-solution: Target
-title: Creare tipi di pubblico per rivolgersi a profili di visitatori con Adobe Target
-topic: Premium
+description: Crea tipi di pubblico in Adobe Target per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
+title: Profilo visitatore
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
