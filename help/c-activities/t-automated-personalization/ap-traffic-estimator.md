@@ -1,15 +1,10 @@
 ---
 description: Il Calcolatore del traffico fornisce un feedback che consente di sapere se disponi di traffico sufficiente affinché l’attività abbia successo.
-seo-description: Il Calcolatore del traffico fornisce un feedback che consente di sapere se disponi di traffico sufficiente affinché l’attività abbia successo.
-seo-title: Stimare il traffico necessario per il successo
-solution: Target
 title: Stimare il traffico necessario per il successo
-title-outputclass: premium
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
