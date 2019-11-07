@@ -1,18 +1,16 @@
 ---
-description: Frequently Asked Questions about Adobe Target for mobile apps.
-keywords: mobile app;frequently asked questions;faq;target mobile app
-seo-description: Frequently Asked Questions about Adobe Target for mobile apps.
-seo-title: Domande frequenti su Adobe Target per app mobili
+keywords: app mobile;domande frequenti;domande frequenti;domande frequenti;app mobile di destinazione
+description: Domande frequenti su Adobe Target per app mobili.
 title: Domande frequenti su Adobe Target per app mobili
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 43a00c7ade1f2e10a023ffdcb2e75cf2483e6907
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
 
-# Target for mobile apps FAQ
+# Domande frequenti su Target per app mobili
 
 Elenco di domande frequenti su [!DNL Target] per app mobili.
 
@@ -42,23 +40,23 @@ See the [Adobe Places documentation](https://placesdocs.com/places-services-by-a
 
 ## Quali classi native sono supportate dalle visualizzazioni mobili? Supportano qualsiasi classe derivata da NSObject (o qualsiasi oggetto Android) o solo NSViewController e Activities?
 
-For more information, visit the Android documentation for the manual way of declaring views.[](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views)
+Per ulteriori informazioni, consulta la documentazione Android per il modo [manuale di dichiarare le viste](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views).
 
 ## È necessario at.js per il funzionamento degli SDK di Adobe Experience Platform Mobile?
 
-No, you don’t need at.js to use the mobile SDKs. at.js è la libreria [!DNL Target] JavaScript per i siti Web. Gli SDK di Adobe Experience Platform Mobile sono per le app mobili.
+No, non è necessario at.js per utilizzare gli SDK per dispositivi mobili. at.js è la libreria [!DNL Target] JavaScript per i siti Web. Gli SDK di Adobe Experience Platform Mobile sono per le app mobili.
 
 ## Target Mobile è una funzionalità solo dello SKU prodotto Adobe Target Premium?
 
 Per i clienti di Adobe Target Standard, potete utilizzare i nostri SDK Mobile solo per attività Test e Targeting delle esperienze A/B (XT). Se desiderate utilizzare le funzionalità di Recommendations o basate sull'intelligenza artificiale nell'app mobile, avete bisogno di una licenza [Adobe Target Premium](/help/c-intro/intro.md#premium) .
 
-## Can I leverage audiences from Adobe Audience Manager (AAM) in the VEC for Mobile Apps?
+## Posso sfruttare i tipi di pubblico di Adobe Audience Manager (AAM) in VEC per le app mobili?
 
-Yes, Adobe Experience Platform Mobile SDKs are built for Audience Manager, Analytics, Campaign, and Target. [](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html)[](https://docs.adobe.com/content/help/en/analytics/landing/home.html)[](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html) Your audiences in Audience Manager are shared with .[!DNL Target]
+Sì, gli SDK di Adobe Experience Platform Mobile sono creati per [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)e Target. Le audience in Audience Manager sono condivise con [!DNL Target].
 
-## Is there a mobile app integration between Adobe Experience Manager (AEM) and Target mobile activities?
+## Esiste un'integrazione di app mobile tra le attività mobile Adobe Experience Manager (AEM) e Target?
 
-E' nella nostra tabella di marcia, ma non c'è ancora una data. Currently, you can share JSON Experience Fragments from AEM to Target and there might be potential to then use them in a mobile app activity.[](/help/c-experiences/c-manage-content/aem-experience-fragments.md)
+E' nella nostra tabella di marcia, ma non c'è ancora una data. Attualmente, puoi condividere frammenti [](/help/c-experiences/c-manage-content/aem-experience-fragments.md) esperienza JSON da AEM a Target e potrebbe essere possibile utilizzarli in un'attività app mobile.
 
 ## È possibile aggiungere altre immagini utilizzando il VEC o solo modificare le immagini esistenti?
 
