@@ -1,15 +1,12 @@
 ---
-description: 'Adobe Target si integra con i siti web mediante una delle due librerie JavaScript: at.js o mbox.js.'
 keywords: Panoramica e riferimento;SEO;ottimizzazione per motori di ricerca
-seo-description: 'Adobe Target si integra con i siti web mediante una delle due librerie JavaScript: at.js o mbox.js.'
-seo-title: Come funziona Adobe Target
-solution: Target
-subtopic: Introduzione
+description: 'Adobe Target si integra con i siti web mediante una delle due librerie JavaScript: at.js o mbox.js.'
 title: Come funziona Adobe Target
+subtopic: Introduzione
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 5ca58dd62ba8c35eb96a50919fd02994c4dbff16
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
