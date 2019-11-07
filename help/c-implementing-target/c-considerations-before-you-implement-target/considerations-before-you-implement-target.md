@@ -1,15 +1,12 @@
 ---
-description: Considerazioni da affrontare prima di implementare Adobe Target.
 keywords: implementare;implementazione
-seo-description: Considerazioni da affrontare prima di implementare Adobe Target.
-seo-title: Prima dell’implementazione
-solution: Target
-subtopic: Introduzione
+description: Considerazioni da affrontare prima di implementare Adobe Target.
 title: Prima dell’implementazione
+subtopic: Introduzione
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
