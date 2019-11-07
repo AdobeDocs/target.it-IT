@@ -1,13 +1,10 @@
 ---
-description: Informazioni sull'approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell'esperienza in Adobe Target.
 keywords: sicurezza;procedure di sicurezza
-seo-description: Informazioni sull'approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell'esperienza in Adobe Target.
-seo-title: Panoramica sulla sicurezza di Target
-solution: Target
+description: Informazioni sull'approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell'esperienza in Adobe Target.
 title: Panoramica sulla sicurezza di Target
 uuid: 24296109-dcf3-4e86-96f6-8d0b7101a903
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
