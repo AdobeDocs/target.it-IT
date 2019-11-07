@@ -1,14 +1,11 @@
 ---
-description: Definisci un pubblico per confrontare due attributi di profilo per la tua Libreria tipi di pubblico di Target o in un pubblico per sola attività. L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 keywords: pubblico;propensione;attributo di profilo;confrontare;confronto;creare pubblico;creazione di pubblico
-seo-description: Definisci un pubblico per confrontare due attributi di profilo per la tua Libreria tipi di pubblico di Target o in un pubblico per sola attività. L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
-seo-title: Creare un pubblico per il confronto degli attributi di profilo in Adobe Target
-solution: Target
-title: Creare un pubblico per il confronto degli attributi di profilo
+description: Definisci un pubblico per confrontare due attributi di profilo per la tua Libreria tipi di pubblico di Target o in un pubblico per sola attività. L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
+title: Creare un pubblico per il confronto degli attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
