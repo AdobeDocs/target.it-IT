@@ -1,16 +1,10 @@
 ---
-description: Dato che in un test di Personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
 keywords: Consigli
-seo-description: Dato che in un test di Personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
-seo-title: Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo di Adobe Target
-solution: Target
-title: Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
-title-outputclass: premium
-topic: Premium
+description: Dato che in un test di Personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
+title: Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo di Adobe Target
 uuid: ca98bfce-f571-4ac2-a94b-1127ecd7e3e6
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
