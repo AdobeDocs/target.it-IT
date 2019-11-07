@@ -1,14 +1,11 @@
 ---
-description: Aggiornamento da at.js 1.*x* a at.js 2.*x*
 keywords: versioni at.js;release at.js;app a pagina singola;spa;domini diversi;tra domini diversi
-seo-description: Informazioni dettagliate su come effettuare l’aggiornamento da Adobe Target at.js 1.*x* alla versione 2.0.0
-seo-title: Aggiornamento da Adobe Target at.js versione 1.*x* alla versione 2.*x*
-solution: Target
+description: Informazioni dettagliate su come effettuare l’aggiornamento da Adobe Target at.js 1.*x* alla versione 2.0.0
+title: Aggiornamento da Adobe Target at.js versione 1.*x* alla versione 2.*x*
 subtopic: Introduzione
-title: Aggiornamento da at.js 1.*x* a at.js 2.*x*
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: dafe9d58efac853190a83cbde1d93d1a3e52cc0b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
