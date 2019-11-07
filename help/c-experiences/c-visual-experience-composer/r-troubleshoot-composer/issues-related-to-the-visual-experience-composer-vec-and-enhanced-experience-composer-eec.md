@@ -1,13 +1,10 @@
 ---
-description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
 keywords: Targeting;compositore esperienza visivo;whitelist;white list;compositore esperienza visivo avanzato;VEC;risoluzione dei problemi del compositore esperienza visivo;risoluzione dei problemi;compositore esperienza avanzato;TLS;TLS 1.2
-seo-description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
-seo-title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
-solution: Target
+description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
