@@ -1,14 +1,11 @@
 ---
-description: Puoi indirizzare l’attività ai visitatori che utilizzano un determinato sistema operativo.
 keywords: targeting;target;sistema operativo target;sistema operativo;os target;os;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
-seo-description: Puoi indirizzare l’attività ai visitatori che utilizzano un determinato sistema operativo.
-seo-title: Sistema operativo
-solution: Target
+description: Puoi indirizzare l’attività ai visitatori che utilizzano un determinato sistema operativo.
 title: Sistema operativo
 topic: Classic
 uuid: 79cebc00-80c7-4e32-8b26-ece7007751a4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
