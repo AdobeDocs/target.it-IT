@@ -1,14 +1,11 @@
 ---
-description: L’ID mbox3rdPartyId l’ID visitatore della tua azienda, ad esempio l’D di registrazione al programma fedeltà.
 keywords: mbox;mbox3rdPartyId;sincronizzazione profilo;sincronizzare profilo;PCID
-seo-description: 'Informazioni sul profilo in tempo reale '
-seo-title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyId in Adobe Target
-solution: Target
-title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyId
+description: 'Informazioni sul profilo in tempo reale '
+title: Sincronizzazione dei profili in tempo reale per mbox3rdPartyId in Adobe Target
 topic: Standard
 uuid: a88353d1-36e8-48b2-9b5e-71ed437c5b99
 translation-type: tm+mt
-source-git-commit: 34809d458b4e43e5ed9715803541a81754ee7e0f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
