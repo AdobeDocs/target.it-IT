@@ -1,13 +1,10 @@
 ---
-description: Il Compositore esperienza visivo offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
 keywords: Targeting;esperienza;aggiungere un’esperienza;aggiunta esperienza
-seo-description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
-seo-title: Aggiungi esperienza
-solution: Target
+description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
 title: Aggiungi esperienza
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
