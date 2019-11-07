@@ -1,16 +1,11 @@
 ---
-description: Gli URL di esperienza possono essere generati per le attività di Personalizzazione automatizzata di Target per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata, per scopi di anteprima e controllo qualità. Gli URL di esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
-seo-description: Gli URL di esperienza possono essere generati per le attività di Personalizzazione automatizzata di Target per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata, per scopi di anteprima e controllo qualità. Gli URL di esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
-seo-title: Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target
-solution: Target
+description: Gli URL di esperienza possono essere generati per le attività di Personalizzazione automatizzata di Target per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata, per scopi di anteprima e controllo qualità. Gli URL di esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
 title: Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target
-title-outputclass: premium
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
