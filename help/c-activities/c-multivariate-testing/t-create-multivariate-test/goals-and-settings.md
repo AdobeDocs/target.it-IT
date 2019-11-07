@@ -1,14 +1,11 @@
 ---
-description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 keywords: impostazioni di attività;obiettivi e impostazioni MVT;obiettivi e impostazioni multivariati;impostazioni di reporting;metriche di obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;tipi di pubblico per il reporting;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succederà dopo che un utente incontra questa metrica di obiettivo;note
-seo-description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
-seo-title: Obiettivi e impostazioni
-solution: Target
+description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
