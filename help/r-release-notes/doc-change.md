@@ -1,14 +1,11 @@
 ---
-description: Elenco di modifiche importanti apportate alla documentazione di Target.
-keywords: registro modifiche documentazione target;aggiornamenti documentazione;nuovi argomenti;modifiche
-seo-description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione di Adobe Target, ordinate per versioni.
-seo-title: Modifiche apportate alla documentazione di Adobe Target.
-solution: Target
-title: Modifiche alla documentazione
+keywords: registro delle modifiche alla documentazione di destinazione;aggiornamenti alla documentazione;nuovi argomenti;modifiche
+description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione di Adobe Target, ordinate per versioni.
+title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a1732632ad85a0f3742177663ee7d9a617098ff5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
