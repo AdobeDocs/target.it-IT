@@ -1,13 +1,10 @@
 ---
-description: Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
 keywords: Targeting;categorie di targeting;condizioni di targeting;Audience Manager;parametri di profilo personalizzati;profilo visitatore;parametri utente personalizzati;regole di targeting
-seo-description: Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
-seo-title: Categorie di pubblico
-solution: Target
+description: Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
 title: Categorie di pubblico
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
