@@ -314,4 +314,4 @@ Considerate quanto segue quando utilizzate `serverState`:
 Per ulteriori informazioni sul `serverState` funzionamento, consulta le risorse seguenti:
 
 * [Codice](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate)di esempio.
-* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)
+* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
