@@ -1,13 +1,10 @@
 ---
-description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
 keywords: Targeting;success;conversion Metric;page score Metric;page Views Metric;Revenue Metric;time on site Metric;Estimated value;advanced settings;success metriche
-seo-description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
-seo-title: Metriche di successo in Adobe Target
-solution: Target
-title: Metriche di successo
+description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
+title: Metriche di successo in Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
