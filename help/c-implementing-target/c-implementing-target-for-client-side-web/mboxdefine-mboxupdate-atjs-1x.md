@@ -1,14 +1,11 @@
 ---
-description: 'Informazioni sulle funzioni mboxDefine() e mboxUpdate() per at.js. '
 keywords: mboxDefine;mboxdefine;definizione mbox;mboxUpdate;mboxupdate;aggiornamento mbox;at.js;funzioni;funzione
-seo-description: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
-seo-title: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
-solution: Target
+description: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
+title: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
 subtopic: Introduzione
-title: mboxDefine() e mboxUpdate() - at.js 1.x
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
