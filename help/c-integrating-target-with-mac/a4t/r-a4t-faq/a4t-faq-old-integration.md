@@ -1,14 +1,11 @@
 ---
-description: Questa sezione contiene le risposte alle domande che vengono spesso poste in merito all’integrazione legacy tra SiteCatalyst e Test&Target e l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
 keywords: FAQ;domande frequenti;analytics for target;a4T;SiteCatalyst;campagna>ricetta;Test&Target;integrazione
-seo-description: Questa sezione contiene le risposte alle domande che vengono spesso poste in merito all’integrazione legacy tra SiteCatalyst e Test&Target e l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
-seo-title: Integrazione legacy tra SiteCatalyst e Test&Target - Domande frequenti su A4T
-solution: Target
+description: Questa sezione contiene le risposte alle domande che vengono spesso poste in merito all’integrazione legacy tra SiteCatalyst e Test&Target e l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
 title: Integrazione legacy tra SiteCatalyst e Test&Target - Domande frequenti su A4T
 topic: Standard
 uuid: ba7180ba-3919-4427-9bb9-44348b5cda61
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
