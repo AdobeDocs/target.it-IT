@@ -1,16 +1,10 @@
 ---
-description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni dei consigli. Puoi aggiungere promozioni statiche e dinamiche.
 keywords: Promozioni;promozioni prima;promozioni dopo;tipo di promozioni
-seo-description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni di Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
-seo-title: Aggiungi promozioni alle progettazioni di Adobe Target Recommendations.
-solution: Target
-title: Aggiungere promozioni
-title-outputclass: premium
-topic: Premium
+description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni di Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
+title: Aggiungi promozioni alle progettazioni di Adobe Target Recommendations.
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
