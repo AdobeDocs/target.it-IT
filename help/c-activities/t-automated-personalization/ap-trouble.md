@@ -1,13 +1,9 @@
 ---
 description: A volte le attività non vanno come previsto. Questo articolo elenca alcuni potenziali problemi che si possono presentare durante l’utilizzo della Personalizzazione automatizzata, con possibili soluzioni.
-seo-description: A volte le attività non vanno come previsto. Questo articolo elenca alcuni potenziali problemi che si possono presentare durante l’utilizzo della Personalizzazione automatizzata, con possibili soluzioni.
-seo-title: Risolvere i problemi relativi alla personalizzazione automatica
 title: Risolvere i problemi relativi alla personalizzazione automatica
-title-outputclass: premium
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
