@@ -1,14 +1,11 @@
 ---
-description: Informazioni su come la libreria JavaScript at.js di Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
 keywords: sfarfallio;at.js;implementazione
-seo-description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
-seo-title: Gestione della visualizzazione momentanea di altri contenuti di Adobe Target at.js
-solution: Target
-title: Gestione at.js della visualizzazione momentanea di altri contenuti
+description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
+title: Gestione della visualizzazione momentanea di altri contenuti di Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: c94b1a1e735810ef4119781c3e051b632d140614
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
