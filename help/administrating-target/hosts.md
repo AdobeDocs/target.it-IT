@@ -1,14 +1,11 @@
 ---
-description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 keywords: host;gruppo host;ambiente;risoluzione dei problemi;best practice
-seo-description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
-seo-title: Host
-solution: Target
+description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
