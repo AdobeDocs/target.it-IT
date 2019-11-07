@@ -1,13 +1,10 @@
 ---
-description: L’URL attività determina la pagina utilizzata nell’attività Targeting esperienza e che viene aperta nel Compositore esperienza visivo o Compositore esperienza basato su moduli quando l’attività viene progettata.
 keywords: Targeting
-seo-description: L’URL attività determina la pagina utilizzata nell’attività Targeting esperienza e che viene aperta nel Compositore esperienza visivo o Compositore esperienza basato su moduli di Adobe Target quando l’attività viene progettata.
-seo-title: URL attività
-solution: Target
+description: L’URL attività determina la pagina utilizzata nell’attività Targeting esperienza e che viene aperta nel Compositore esperienza visivo o Compositore esperienza basato su moduli di Adobe Target quando l’attività viene progettata.
 title: URL attività
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
