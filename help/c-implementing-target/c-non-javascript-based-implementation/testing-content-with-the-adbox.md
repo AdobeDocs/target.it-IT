@@ -1,15 +1,12 @@
 ---
-description: Utilizza un AdBox per consegnare le immagini in un'implementazione off-site.
 keywords: Implementazione;mbox.js non JavaScript;mbox;AdBox
-seo-description: Utilizza un AdBox per distribuire immagini in un'implementazione off-site, utilizzando Adobe Target.
-seo-title: Creare un Adbox per un'immagine utilizzando Adobe Target
-solution: Target
+description: Utilizza un AdBox per distribuire immagini in un'implementazione off-site, utilizzando Adobe Target.
+title: Creare un Adbox per un'immagine utilizzando Adobe Target
 subtopic: Introduzione
-title: Creare un AdBox per un’immagine utilizzo di Adobe Target
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 1c78ca901ba240ce5f9dad6b3982cfe95ef41950
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
