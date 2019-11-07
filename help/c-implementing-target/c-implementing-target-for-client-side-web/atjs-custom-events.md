@@ -1,14 +1,11 @@
 ---
-description: 'Informazioni sugli eventi personalizzati per at.js. '
 keywords: eventi personalizzati;at.js;richiesta non riuscita;richiesta riuscita;rendering contenuti non riuscito;rendering contenuti riuscito;libreria caricata;richiedi riavvio;inizio rendering contenuti;rendering contenuti senza offerte;reindirizzamento rendering contenuti
-seo-description: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
-seo-title: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
-solution: Target
+description: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
+title: Informazioni sugli eventi personalizzati per libreria JavaScript at.js di Adobe Target.
 subtopic: Introduzione
-title: Eventi personalizzati at.js
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 1afdc24b19fb0edeabb2a1fe37d6b97404bcaa15
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
