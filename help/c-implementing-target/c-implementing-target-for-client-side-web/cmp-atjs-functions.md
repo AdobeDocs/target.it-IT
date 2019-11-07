@@ -1,15 +1,12 @@
 ---
-description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript at.js di Adobe Target.
 keywords: at.js;funzioni;libreria javascript
-seo-description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target.
-seo-title: Funzioni di at.js in Adobe Target
-solution: Target
+description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target.
+title: Funzioni di at.js in Adobe Target
 subtopic: Introduzione
-title: Funzioni di at.js
 topic: Standard
 uuid: ec5f27a7-b22a-48c9-968c-9eb02830a2a6
 translation-type: tm+mt
-source-git-commit: ef2c4ac78fef5889d5a6e9e053dfd36b77919dd4
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
