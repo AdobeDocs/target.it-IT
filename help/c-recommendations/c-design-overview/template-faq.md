@@ -1,16 +1,10 @@
 ---
-description: Elenco delle domande frequenti sulla progettazione dei consigli.
 keywords: consigli;domande frequenti;FAQ
-seo-description: Elenco delle domande frequenti sulla progettazione dei consigli.
-seo-title: Domande frequenti sulle progettazioni
-solution: Target
+description: Elenco delle domande frequenti sulla progettazione dei consigli.
 title: Domande frequenti sulle progettazioni
-title-outputclass: premium
-topic: Premium
 uuid: ac222ade-ddd9-4b32-a16f-4d83b8766384
-badge: premium
 translation-type: tm+mt
-source-git-commit: 279b6bef59e0b486a9aad7f3b6117edbbe377688
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
