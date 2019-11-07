@@ -1,14 +1,10 @@
 ---
-description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
 keywords: Consigli
-seo-description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
-seo-title: Scenari di modifica delle pagine
-solution: Target
+description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
 title: Scenari di modifica delle pagine
-topic: Premium
 uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
