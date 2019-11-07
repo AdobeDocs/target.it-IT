@@ -1,16 +1,10 @@
 ---
-description: Seleziona i criteri da utilizzare nell’attività di Consigli.
 keywords: consigli;attività di consigli;criteri
-seo-description: Seleziona i criteri da utilizzare nell’attività di Adobe Target Recommendations.
-seo-title: Selezionare criteri
-solution: Target
+description: Seleziona i criteri da utilizzare nell’attività di Adobe Target Recommendations.
 title: Selezionare criteri
-title-outputclass: premium
-topic: Premium
 uuid: 1a1e13e0-7fbd-4f86-80da-cd4e96748d30
-badge: premium
 translation-type: tm+mt
-source-git-commit: e8e6dcadf307209abcc712798b714af0a5be2e7e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
