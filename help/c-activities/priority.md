@@ -1,14 +1,11 @@
 ---
-description: Target determina in modo diverso l’attività (o le attività) da consegnare a una pagina, a seconda dell’interfaccia di Target e della funzione di creazione attività (Compositore esperienza visivo o Compositore basato su moduli) che stai utilizzando.
 keywords: impostazioni;priorità
-seo-description: Adobe Target determines which activity (or activities) to deliver to a page differently depending on which Target interface and which activity creation function (Visual Experience Composer or Form Based composer) you're using.
-seo-title: Priorità in Adobe Target
-solution: Target
-title: Priorità
+description: Adobe Target determina l'attività (o le attività) da distribuire a una pagina in modo diverso a seconda dell'interfaccia di Target e della funzione di creazione dell'attività (Visual Experience Composer (Compositore esperienza visivo) o di un compositore basato su moduli) che utilizzate.
+title: Priorità in Adobe Target
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
