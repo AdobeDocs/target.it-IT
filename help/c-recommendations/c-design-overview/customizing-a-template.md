@@ -1,16 +1,10 @@
 ---
-description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
-seo-description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
-seo-title: Personalizzare una progettazione con Velocity
-solution: Target
+description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
 title: Personalizzare una progettazione con Velocity
-title-outputclass: premium
-topic: Premium
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
-badge: premium
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
