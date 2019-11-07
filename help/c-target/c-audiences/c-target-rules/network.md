@@ -1,13 +1,10 @@
 ---
-description: Puoi creare un pubblico in base ai dettagli della rete.
 keywords: Targeting;rete;rete di target;isp;nome di dominio;velocità di connessione;isp target;nome di dominio target;velocità di connessione target
-seo-description: Puoi creare tipi di pubblico in Adobe Target in base a dettagli della rete.
-seo-title: Crea tipi di pubblico in Adobe Target in base a dettagli della rete.
-solution: Target
-title: Rete
+description: Puoi creare tipi di pubblico in Adobe Target in base a dettagli della rete.
+title: Crea tipi di pubblico in Adobe Target in base a dettagli della rete.
 uuid: 06b9c92a-e9bd-4444-abbc-7b6dffcefea7
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
