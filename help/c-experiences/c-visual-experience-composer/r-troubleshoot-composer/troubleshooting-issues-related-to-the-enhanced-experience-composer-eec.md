@@ -1,13 +1,10 @@
 ---
-description: In determinate condizioni in Compositore esperienza avanzato si verificano a volte problemi di visualizzazione.
 keywords: Targeting;eec;compositore esperienza visiva;risoluzione dei problemi compositore esperienza avanzato;risoluzione dei problemi
-seo-description: In determinate condizioni in Compositore esperienza avanzato si verificano a volte problemi di visualizzazione.
-seo-title: Risoluzione dei problemi relativi al Compositore esperienza avanzato
-solution: Target
+description: In determinate condizioni in Compositore esperienza avanzato si verificano a volte problemi di visualizzazione.
 title: Risoluzione dei problemi relativi al Compositore esperienza avanzato
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
