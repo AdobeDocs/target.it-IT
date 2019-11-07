@@ -1,14 +1,11 @@
 ---
-description: 'Informazioni sulla funzione targetGlobalSettings() per at.js. '
 keywords: serverstate;targetGlobalSettings;targetGlobalSettings;globalSettings;global settings;global settings;at.js;function;clientCode;clientcode;serverDomain;serverDomain;cookieDomain;cookieDomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentContent ibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optoutEnabled;opt out;SeltorsPollingTimeout;dataProviders
-seo-description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
-seo-title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
-solution: Target
+description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
+title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 subtopic: Introduzione
-title: targetGlobalSettings()
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 2be2104d2dbae3f693e4fc01b197731167e7bdb5
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -317,4 +314,4 @@ Considerate quanto segue quando utilizzate `serverState`:
 Per ulteriori informazioni sul `serverState` funzionamento, consulta le risorse seguenti:
 
 * [Codice](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate)di esempio.
-* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo)
