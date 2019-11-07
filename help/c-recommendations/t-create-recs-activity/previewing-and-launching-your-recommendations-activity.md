@@ -1,16 +1,10 @@
 ---
-description: 'Dopo aver creato l''attività di Recommendations, A/B Test o Experience Targeting (XT) contenente le offerte di Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
 keywords: Recommendations;offer;preview;launch
-seo-description: 'Dopo aver creato l''attività di Recommendations, A/B Test o Experience Targeting (XT) contenente le offerte di Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
-seo-title: 'Dopo aver creato l''attività di Recommendations, A/B Test o Experience Targeting (XT) contenente le offerte di Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
-solution: Target
+description: 'Dopo aver creato l''attività di Recommendations, A/B Test o Experience Targeting (XT) contenente le offerte di Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
+title: 'Dopo aver creato l''attività di Recommendations, A/B Test o Experience Targeting (XT) contenente le offerte di Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
 subtopic: Consigli
-title: Anteprima e avvio dell'attività di Recommendations
-title-outputclass: premium
-topic: Premium
-badge: premium
 translation-type: tm+mt
-source-git-commit: c0603b5d18c3986e24313044baf3be0a67880bbf
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
