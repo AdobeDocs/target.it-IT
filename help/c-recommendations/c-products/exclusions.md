@@ -1,14 +1,10 @@
 ---
-description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione.
 keywords: esclusioni
-seo-description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione in Adobe Target.
-seo-title: Esclusioni in Adobe Target
-solution: Target
-title: Esclusioni
-topic: Premium
+description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione in Adobe Target.
+title: Esclusioni in Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 12953606c44d4545e5f9a65e6473fc172bb9ca73
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
