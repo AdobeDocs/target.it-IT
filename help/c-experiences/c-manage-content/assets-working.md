@@ -1,14 +1,10 @@
 ---
-description: È possibile eseguire varie attività sulle risorse della libreria.
 keywords: libreria di contenuti;risorsa;annota;copia;elimina risorsa;scarica risorsa;modifica contenuto;condividi scheda;visualizza proprietà contenuto
-seo-description: È possibile eseguire varie attività sulle risorse della libreria.
-seo-title: Utilizzare i contenuti della libreria
-solution: Target
+description: È possibile eseguire varie attività sulle risorse della libreria.
 title: Utilizzare i contenuti della libreria
-topic: Premium
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
