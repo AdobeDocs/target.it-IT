@@ -1,14 +1,11 @@
 ---
-description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 keywords: impostazioni attività;obiettivi e impostazioni di targeting esperienza;obiettivi e impostazioni XT;targeting esperienza;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;pubblico per il reporting;quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;cosa succede dopo che un utente trova questa metrica di obiettivo;note
-seo-description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
-seo-title: Obiettivi e impostazioni
-solution: Target
+description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
