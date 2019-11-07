@@ -1,15 +1,12 @@
 ---
-description: Se nella pagina non viene visualizzato il contenuto previsto, puoi adottare alcune misure per eseguire il debug della distribuzione dei contenuti.
 keywords: debug mbox;risoluzione dei problemi di mbox;problemi di mbox;visualizzazione momentanea;mboxDebug;mboxTrace;token;debugger;priorità;priorità di attività;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst acquisto di mbox;articolo più venduto
-seo-description: If your page does not display the expected content, there are a few steps you can take to debug content delivery in Adobe Target.
-seo-title: Risoluzione dei problemi di distribuzione dei contenuti in Adobe Target
-solution: Target
+description: Se nella pagina non viene visualizzato il contenuto previsto, potete effettuare alcune operazioni per eseguire il debug della distribuzione dei contenuti in Adobe Target.
+title: Risoluzione dei problemi di distribuzione dei contenuti in Adobe Target
 subtopic: Test multivariato
-title: Risolvere i problemi relativi alla distribuzione dei contenuti
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 4d0800bd205d6f14ddbc67f9e32510676ffa0d5b
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
