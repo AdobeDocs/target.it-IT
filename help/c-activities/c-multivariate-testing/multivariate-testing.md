@@ -1,14 +1,10 @@
 ---
-description: Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività.
 keywords: test multivariato;mvt;fattoriale completo;mvt o a/b;multivariato a/b;calcolatore di traffico;quando usare mvt;considerazioni mvt;multivariato
-seo-description: Il test multivariato (MVT) in Adobe Target confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività.
-seo-title: Test multivariato
-solution: Target
+description: Il test multivariato (MVT) in Adobe Target confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività.
 title: Test multivariato
-topic: Premium
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: f2b24b61c2d3bd70c4db6d448d3831aeeeaa251e
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
