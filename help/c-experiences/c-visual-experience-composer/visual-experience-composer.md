@@ -1,11 +1,9 @@
 ---
-description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC).
-seo-description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC) in Adobe Target.
-seo-title: Compositore esperienza visivo (VEC) di Adobe Target
-title: Compositore esperienza visivo
+description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC) in Adobe Target.
+title: Compositore esperienza visivo (VEC) di Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
