@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle varianze di dati previste tra Target e Adobe Analytics quando non si utilizza Analytics come origine per la generazione di rapporti (A4T). Questo elimina completamente la varianza di dati.
 keywords: varianze di dati;analytics;differenze;varianza;a4t;analytics for target;analytics come origine per la generazione di rapporti;discrepanze;discrepanza
-seo-description: Informazioni sulle varianze di dati previste tra Target e Adobe Analytics quando non si utilizza Analytics come origine per la generazione di rapporti (A4T). Questo elimina completamente la varianza di dati.
-seo-title: Varianze di dati previste quando non si utilizza A4T
-solution: Target
+description: Informazioni sulle varianze di dati previste tra Target e Adobe Analytics quando non si utilizza Analytics come origine per la generazione di rapporti (A4T). Questo elimina completamente la varianza di dati.
 title: Varianze di dati previste quando non si utilizza A4T
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e42a7b6c1e510c5c69a221b15f95a49222ce3fd6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
