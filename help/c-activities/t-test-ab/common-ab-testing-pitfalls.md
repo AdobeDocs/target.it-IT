@@ -1,13 +1,10 @@
 ---
-description: Il test A/B costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea nove delle insidie più significative che possono presentarsi alle aziende durante l'esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 keywords: AB;A/B;AB...n;errori;insidie;errore;insidia
-seo-description: Il test A/B costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea nove delle insidie più significative che possono presentarsi alle aziende durante l'esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
-seo-title: Nove insidie frequenti per i test A/B e come evitarle
-solution: Target
+description: Il test A/B costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea nove delle insidie più significative che possono presentarsi alle aziende durante l'esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 title: Nove insidie frequenti per i test A/B e come evitarle
 uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
