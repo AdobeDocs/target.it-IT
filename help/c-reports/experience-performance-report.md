@@ -1,14 +1,10 @@
 ---
-description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-seo-description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
-seo-title: Rapporto Prestazioni Esperienza (MVT)
-solution: Target
+description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 title: Rapporto Prestazioni Esperienza (MVT)
-topic: Premium
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
