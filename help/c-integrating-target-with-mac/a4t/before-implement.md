@@ -1,14 +1,10 @@
 ---
-description: Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita Analytics come origine della generazione di rapporti per Target (A4T).
 keywords: Consigli
-seo-description: Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita Analytics come origine della generazione di rapporti per Target (A4T).
-seo-title: Prima dell’implementazione di Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
-solution: Target
-title: Prima dell’implementazione
-topic: Premium
+description: Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita Analytics come origine della generazione di rapporti per Target (A4T).
+title: Prima dell’implementazione di Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
 uuid: fe603a4b-bd61-49f4-b1b7-a0329aa905f5
 translation-type: tm+mt
-source-git-commit: 8dc94ca1ed48366e6b3ac7a75b03c214f1db71d9
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
