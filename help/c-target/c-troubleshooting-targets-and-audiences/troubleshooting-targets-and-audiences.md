@@ -1,14 +1,11 @@
 ---
-description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
-seo-description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
-seo-title: Domande frequenti su destinazioni e pubblico
-solution: Target
+description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 title: Domande frequenti su destinazioni e pubblico
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 8c5a2bf860557fa65fbe06edb3fd3f29085e5192
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
