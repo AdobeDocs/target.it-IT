@@ -1,15 +1,12 @@
 ---
-description: Per impostazione predefinita, i profili dei visitatori vengono memorizzati per 14 giorni. La durata del profilo può essere estesa.
 keywords: Panoramica e riferimento
-seo-description: Per impostazione predefinita, i profili dei visitatori vengono memorizzati per 14 giorni. La durata del profilo può essere estesa.
-seo-title: Durata del profilo del visitatore
-solution: Target
-subtopic: Introduzione
+description: Per impostazione predefinita, i profili dei visitatori vengono memorizzati per 14 giorni. La durata del profilo può essere estesa.
 title: Durata del profilo del visitatore
+subtopic: Introduzione
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
