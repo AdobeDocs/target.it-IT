@@ -1,15 +1,9 @@
 ---
-description: I criteri controllano il contenuto delle attività di Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
-seo-description: I criteri controllano il contenuto delle attività di Adobe Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
-seo-title: Creare criteri
-solution: Target
+description: I criteri controllano il contenuto delle attività di Adobe Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 title: Creare criteri
-title-outputclass: premium
-topic: Premium
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
-badge: premium
 translation-type: tm+mt
-source-git-commit: c503992671e3582acd65c1d1d0b9836074ddf898
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
