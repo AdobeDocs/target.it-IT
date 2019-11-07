@@ -1,13 +1,10 @@
 ---
-description: Il Compositore esperienza visivo in Target è utile per creare i test multivariati (MVT) direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
-seo-description: Il Compositore esperienza visivo in Adobe Target è utile per creare i test multivariati (MVT) direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
-seo-title: Creazione di un test multivariato
-solution: Target
+description: Il Compositore esperienza visivo in Adobe Target è utile per creare i test multivariati (MVT) direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creazione di un test multivariato
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 5dd87afce38e7ff9c763aa65031ec837689d4ae8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
