@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle diverse modalità di modifica di un’attività esistente e su come salvarla come bozza.
 keywords: attività;tipi di attività;modificare attività;modifica; bozza
-seo-description: Informazioni sulle diverse modalità di modifica di un’attività esistente e su come salvarla come bozza.
-seo-title: Modificare un’attività o salvarla come bozza
-solution: Target
+description: Informazioni sulle diverse modalità di modifica di un’attività esistente e su come salvarla come bozza.
 title: Modificare un’attività o salvarla come bozza
 topic: Standard
 uuid: bfc7a045-ebdb-40b3-badc-668fbbe2fcf3
 translation-type: tm+mt
-source-git-commit: 72260f1bf82dfeab2582add69111439498ad5eb8
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
