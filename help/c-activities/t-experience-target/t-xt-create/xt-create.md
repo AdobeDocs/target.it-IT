@@ -1,14 +1,11 @@
 ---
-description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienza su una pagina abilitata per Target e modificare alcune parti della pagina in Target.
-seo-description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienza su una pagina abilitata per Target e modificare alcune parti della pagina in Adobe Target.
-seo-title: Creare un’attività Targeting esperienze
-solution: Target
-subtopic: Test multivariato
+description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienza su una pagina abilitata per Target e modificare alcune parti della pagina in Adobe Target.
 title: Creare un’attività Targeting esperienze
+subtopic: Test multivariato
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
