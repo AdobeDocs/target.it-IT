@@ -1,16 +1,10 @@
 ---
-description: La ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 keywords: catalogo;ricerca
-seo-description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
-seo-title: Ricerca nel catalogo in Adobe Target
-solution: Target
-title: Ricerca nel catalogo
-title-outputclass: premium
-topic: Premium
+description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
+title: Ricerca nel catalogo in Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
-badge: premium
 translation-type: tm+mt
-source-git-commit: afb87e3e23b44133982e55fdc7650250e6bf8b3a
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
