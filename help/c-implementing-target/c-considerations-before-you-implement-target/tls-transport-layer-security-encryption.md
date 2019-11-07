@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle modifiche relative al modo in cui Adobe e Target utilizzano TLS (Transport Layer Security) per mantenere standard di sicurezza elevati e promuovere la sicurezza dei dati dei clienti.
 keywords: tls;tls 1.0;transport layer security;crittografia
-seo-description: Informazioni sulle modifiche relative al modo in cui Adobe e Target utilizzano TLS (Transport Layer Security) per mantenere standard di sicurezza elevati e promuovere la sicurezza dei dati dei clienti.
-seo-title: Modifiche alla crittografia di TLS (Transport Layer Security)
-solution: Target
+description: Informazioni sulle modifiche relative al modo in cui Adobe e Target utilizzano TLS (Transport Layer Security) per mantenere standard di sicurezza elevati e promuovere la sicurezza dei dati dei clienti.
 title: Modifiche alla crittografia di TLS (Transport Layer Security)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
