@@ -1,14 +1,11 @@
 ---
-description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
 keywords: contenuto misto;sicuro;non sicuro;chrome;risoluzione dei problemi;compositore esperienza visivo;non protetto
-seo-description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
-seo-title: Consentire contenuti misti nel browser
-solution: Target
+description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
 title: Consentire contenuti misti nel browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
