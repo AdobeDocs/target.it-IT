@@ -1,14 +1,11 @@
 ---
-description: Quando fai clic su un elemento della pagina nel Compositore esperienza visivo, un menu mostra le opzioni disponibili per tale tipo di elemento.
 keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica HTML;modifica testo/HTML;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;link;collegamento al compositore esperienza visivo;modifica classe CSS;classe CSS;sostituire l’offerta;sostituisci l’offerta;scambiare immagine;scambia immagine;rimuovere elemento;rimuovi elemento;nascondere una voce;nascondi voce;riorganizzare;spostare elemento;sposta elemento;ridimensionare elemento;ridimensiona elemento;elemento;espandere la selezione;passa a questo collegamento;passare a un link;passa a un link;navigare;annullare;ripeti;annulla/ripristina
-seo-description: Quando fai clic su un elemento di pagina nel Compositore esperienza visivo di Adobe Target, un menu mostra le opzioni disponibili per tale tipo di elemento.
-seo-title: Opzioni del Compositore esperienza visivo di Adobe Target
-solution: Target
-title: Opzioni del Compositore esperienza visivo
+description: Quando fai clic su un elemento di pagina nel Compositore esperienza visivo di Adobe Target, un menu mostra le opzioni disponibili per tale tipo di elemento.
+title: Opzioni del Compositore esperienza visivo di Adobe Target
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: d21838bdf17327b394f6e3106ea5ce4bc72605e6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
