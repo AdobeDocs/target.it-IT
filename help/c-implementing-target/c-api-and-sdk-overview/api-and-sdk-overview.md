@@ -1,14 +1,11 @@
 ---
-description: Informazioni sulle API di consegna lato server di Adobe Target, sulle API Node.js SDK e sulle API di Target Recommendations.
 keywords: lato server;lato server;api;sdk;node.js;nodejs;nodo js;Recommendations api;api:apis
-seo-description: Informazioni sulle API di consegna lato server di Adobe Target, sulle API Node.js SDK e sulle API di Target Recommendations.
-seo-title: Informazioni sulle API di consegna lato server di Adobe Target, sulle API Node.js SDK e sulle API di Target Recommendations.
-solution: Target
-title: Implementazione lato server di Target
+description: Informazioni sulle API di consegna lato server di Adobe Target, sulle API Node.js SDK e sulle API di Target Recommendations.
+title: Informazioni sulle API di consegna lato server di Adobe Target, sulle API Node.js SDK e sulle API di Target Recommendations.
 topic: Consigli
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: aa08021bdafbc857bd82c97462cacc0152fc4040
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
