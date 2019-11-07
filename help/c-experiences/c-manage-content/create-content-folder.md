@@ -1,14 +1,11 @@
 ---
-description: Crea una cartella per gli elementi nella libreria delle Offerte.
 keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
-seo-description: Crea una cartella per gli elementi nella libreria delle Offerte.
-seo-title: Creare una cartella di offerta
-solution: Target
+description: Crea una cartella per gli elementi nella libreria delle Offerte.
 title: Creare una cartella di offerta
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
