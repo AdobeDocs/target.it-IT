@@ -1,14 +1,11 @@
 ---
-description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
 keywords: Panoramica e riferimento
-seo-description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
-seo-title: URL attività
-solution: Target
+description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
 title: URL attività
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
