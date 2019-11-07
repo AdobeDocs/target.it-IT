@@ -1,16 +1,10 @@
 ---
-description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 keywords: Progettazione consigli;creare progettazione;copia progettazione
-seo-description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
-seo-title: Creare una progettazione
-solution: Target
+description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 title: Creare una progettazione
-title-outputclass: premium
-topic: Premium
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
-badge: premium
 translation-type: tm+mt
-source-git-commit: 0466b6d5cf6804ec3a26716a9ade35fe5678bcb6
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
