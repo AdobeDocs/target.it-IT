@@ -1,14 +1,10 @@
 ---
-description: Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
 keywords: test modello;modello;stessa esperienza su pagine simili;test template
-seo-description: Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
-seo-title: Includere la stessa esperienza in pagine simili
-solution: Target
+description: Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
 title: Includere la stessa esperienza in pagine simili
-topic: Premium
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
