@@ -1,14 +1,11 @@
 ---
-description: Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-seo-description: Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
-seo-title: Selezionare il pubblico
-solution: Target
+description: Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
 title: Selezionare il pubblico
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
