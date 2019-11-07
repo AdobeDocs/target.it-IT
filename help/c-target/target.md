@@ -1,13 +1,10 @@
 ---
-description: Utilizza i tipi di pubblico per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 keywords: Targeting;tipi di pubblico;target percentuale
-seo-description: Utilizza i tipi di pubblico in Adobe Target per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
-seo-title: Tipi di pubblico in Adobe Target
-solution: Target
-title: Tipi di pubblico
+description: Utilizza i tipi di pubblico in Adobe Target per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
+title: Tipi di pubblico in Adobe Target
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
