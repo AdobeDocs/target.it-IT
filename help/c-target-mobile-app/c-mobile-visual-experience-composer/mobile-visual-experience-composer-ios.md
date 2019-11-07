@@ -1,14 +1,11 @@
 ---
-description: Il Compositore esperienza visivo (VEC) mobile di Adobe Target consente agli sviluppatori di effettuare una configurazione unica sulle app mobili iOS e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo su app mobile.
 keywords: VEC app mobile;compositore esperienza visivo mobile;opzioni compositore esperienza mobile;configurazione;ios;apple
-seo-description: Il Compositore esperienza visivo (VEC) mobile di Adobe Target consente agli sviluppatori di effettuare una configurazione unica sulle app mobili iOS e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo su app mobile.
-seo-title: 'iOS: configurare l''app mobile'
-solution: Target
+description: Il Compositore esperienza visivo (VEC) mobile di Adobe Target consente agli sviluppatori di effettuare una configurazione unica sulle app mobili iOS e permette agli addetti al marketing di utilizzare le funzionalità del Compositore esperienza visivo su app mobile.
 title: 'iOS: configurare l''app mobile'
 topic: Standard
 uuid: 6db4f06a-d8f4-4192-af6f-917594e721e6
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
