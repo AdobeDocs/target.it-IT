@@ -1,11 +1,8 @@
 ---
-description: Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
-solution: Target
 title: Debugging di Target con Experience Cloud Debugger
-seo-title: Debugging di Target con Experience Cloud Debugger
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ce8a890d0d662c0eec4d7fe254da371694811822
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
