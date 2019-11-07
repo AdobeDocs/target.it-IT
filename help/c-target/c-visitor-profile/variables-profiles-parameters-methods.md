@@ -1,14 +1,11 @@
 ---
-description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
 keywords: variabili;profili;parametri;profili incorporati;metodi;variabili URL;profili geo;profili di terze parti;variabili mbox;variabili di campagna;attributi dei clienti
-seo-description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
-seo-title: Glossario di profili e variabili
-solution: Target
+description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
 title: Glossario di profili e variabili
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 8ec84183de4c5a7c2a7a1f30e0196cd021ce937f
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -93,4 +90,4 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 Gli attributi del cliente possono essere indicati in script di profilo, formattati come `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Note that spaces in the `datasourceName` should be stripped from any API call.
+Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tenete presente che gli spazi nel pannello `datasourceName` devono essere rimossi da qualsiasi chiamata API.
