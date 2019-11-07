@@ -1,14 +1,10 @@
 ---
-description: Esistono alcune differenze tra at.js e mbox.js. In questa sezione vengono elencate alcune delle differenze e limitazioni, per aiutarti a utilizzare at.js con successo.
 keywords: limitazioni del compositore esperienza visivo;supporto del browser;integrazioni;plug-in;considerazioni asincrone
-seo-description: Esistono alcune differenze tra at.js e mbox.js. In questa sezione vengono elencate alcune delle differenze e limitazioni, per aiutarti a utilizzare at.js con successo.
-seo-title: Limitazioni di at.js
-solution: Target
+description: Esistono alcune differenze tra at.js e mbox.js. In questa sezione vengono elencate alcune delle differenze e limitazioni, per aiutarti a utilizzare at.js con successo.
 title: Limitazioni di at.js
-topic: Premium
 uuid: 6c2dfd85-4c4d-4204-a9e9-e358f0b70ded
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
