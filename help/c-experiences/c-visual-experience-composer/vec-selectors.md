@@ -1,14 +1,11 @@
 ---
-description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 keywords: Targeting delle esperienze;test pagina di destinazione
-seo-description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
-seo-title: Selettori di elementi utilizzati nel Compositore esperienza visivo
-solution: Target
+description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 title: Selettori di elementi utilizzati nel Compositore esperienza visivo
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
