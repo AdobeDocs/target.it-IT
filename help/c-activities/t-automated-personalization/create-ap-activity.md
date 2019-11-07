@@ -1,16 +1,11 @@
 ---
-description: Il flusso di lavoro per le attività di Personalizzazione automatizzata è diverso da quello per gli altri tipi di attività.
 keywords: personalizzazione automatizzata;pubblico;insieme;foresta casuale;varianza residua;varianza degli errori;valore della durata
-seo-description: Il flusso di lavoro per le attività di Personalizzazione automatizzata è diverso da quello per gli altri tipi di attività.
-seo-title: Creare un'attività di personalizzazione automatizzata
-solution: Target
+description: Il flusso di lavoro per le attività di Personalizzazione automatizzata è diverso da quello per gli altri tipi di attività.
 title: Creare un'attività di personalizzazione automatizzata
-title-outputclass: premium
 topic: Advanced
 uuid: 7d301dc3-6076-4e05-8abc-4978075a881e
-badge: premium
 translation-type: tm+mt
-source-git-commit: add895d353e7483dfcbe82f1bca55b277bc65f20
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
