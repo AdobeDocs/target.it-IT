@@ -1,14 +1,11 @@
 ---
-description: Utilizza il Compositore esperienza visivo in Target per creare il test direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 keywords: Crea A/B;test A/B;attività A/B;nuova attività A/B
-seo-description: Utilizza il Compositore esperienza visivo in Target per creare il test direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
-seo-title: Creare un test A/B
-solution: Target
+description: Utilizza il Compositore esperienza visivo in Target per creare il test direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creare un test A/B
 topic: Advanced,Standard,Classic
 uuid: 2a255cf9-91c7-4710-bfd7-a4d8797ef24c
 translation-type: tm+mt
-source-git-commit: 248308d49ac21685f8e1e9addbca7bfee9b1e2bc
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
@@ -39,7 +36,7 @@ Utilizza il Compositore esperienza visivo in Target per creare il test direttame
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >The [!UICONTROL [Choose Workplace](/help/administrating-target/c-user-management/property-channel/property-channel.md) option in the preceding illustration is a [Target Premium](/help/c-intro/intro.md) feature. Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
+   >L’opzione [!UICONTROL [Scegli area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md) nell’illustrazione precedente è una funzione di [Target Premium](/help/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
 
 1. (Condizionale) Se sei un cliente [Target Premium](/help/c-intro/intro.md#premium), scegli un’[area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
