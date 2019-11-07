@@ -1,14 +1,11 @@
 ---
-description: Dettagli sulle modifiche apportate in ogni versione di at.js.
 keywords: versioni at.js;versione at.js
-seo-description: Dettagli sulle modifiche apportate in ogni versione di at.js.
-seo-title: Dettagli sulle versioni di at.js
-solution: Target
-subtopic: Introduzione
+description: Dettagli sulle modifiche apportate in ogni versione di at.js.
 title: Dettagli sulle versioni di at.js
+subtopic: Introduzione
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a9779c434899e21af3167f2471cf57c76709a242
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
