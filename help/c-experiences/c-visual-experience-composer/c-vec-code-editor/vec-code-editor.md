@@ -1,15 +1,12 @@
 ---
-description: Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 keywords: selettore css;codice personalizzato;editor di codice;Mobile Web Experience Editor
-seo-description: Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
-seo-title: Modifiche
-solution: Target
-subtopic: Editor di codice
+description: Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 title: Modifiche
+subtopic: Editor di codice
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
