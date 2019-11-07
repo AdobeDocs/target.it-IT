@@ -1,14 +1,10 @@
 ---
-description: Informazioni generali sulle progettazioni che definiscono come verranno visualizzati i consigli su una pagina.
 keywords: progettazione di consigli;modello;creare progettazione;consegna;output
-seo-description: Informazioni generali sulle progettazioni che definiscono come verranno visualizzati i consigli su una pagina.
-seo-title: Panoramica della progettazione
-solution: Target
+description: Informazioni generali sulle progettazioni che definiscono come verranno visualizzati i consigli su una pagina.
 title: Panoramica della progettazione
-topic: Premium
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a61e25c8526a414153ac399a3fab08951fa47692
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
