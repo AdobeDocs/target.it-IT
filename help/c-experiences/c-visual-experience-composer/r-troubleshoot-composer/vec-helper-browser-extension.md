@@ -1,13 +1,10 @@
 ---
-description: Informazioni sull’uso dell’estensione Adobe Target VEC Helper per il browser per caricare i siti web in modo affidabile all’interno del Compositore esperienza visivo per creare ed effettuare il controllo qualità sulle esperienze.
 keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
-seo-description: Informazioni sull’uso dell’estensione Adobe Target VEC Helper per il browser per caricare i siti web in modo affidabile all’interno del Compositore esperienza visivo per creare ed effettuare il controllo qualità sulle esperienze.
-seo-title: Estensione Adobe Target VEC Helper
-solution: Target
+description: Informazioni sull’uso dell’estensione Adobe Target VEC Helper per il browser per caricare i siti web in modo affidabile all’interno del Compositore esperienza visivo per creare ed effettuare il controllo qualità sulle esperienze.
 title: Estensione Adobe Target VEC Helper
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 ---
 
