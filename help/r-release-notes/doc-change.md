@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d83587c5797f4cd2d9a407a88aa24d2f6c4b333
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -18,6 +18,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 novembre 2019 | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Sono stati aggiunti collegamenti ad altri problemi passati. |
+|  | [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Sezione CCPA aggiornata con una nuova nota.<br>Sono state aggiunte nuove domande frequenti per informare i clienti che Target non è in grado di consentire ai clienti di condividere o vendere dati direttamente da Target a terze parti, pertanto non è previsto il rifiuto di vendita per Target. |
 | 7 novembre 2019 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | È stato aggiunto un esempio di codice per il parametro adobeQA. |
 | 5 novembre 2019 | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Testo aggiornato nella sezione "Risoluzione dei problemi". |
 | 4 novembre 2019 | [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Testo aggiornato con le seguenti domande frequenti: "Perché viene visualizzato un messaggio di avviso, ad esempio "azioni con selettori mancanti"?" |
