@@ -1,18 +1,18 @@
 ---
-keywords: qa;anteprima;collegamenti di anteprima
-description: Gli URL di controllo qualità consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
+keywords: qa;anteprima;collegamenti di anteprima;adobe target;target
+description: Utilizzate gli URL di QA di Adobe Target per eseguire attività di qualità end-to-end con collegamenti di anteprima che non cambiano mai, targeting facoltativo del pubblico e reporting di qualità che restano segmentati dai dati dell'attività live.
 title: Controllo di qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: f7324f23f5338197dc518a73b1519e3140fe36d5
 
 ---
 
 
 # Controllo di qualità delle attività {#activity-qa}
 
-Gli URL di controllo qualità consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
+Utilizzate gli URL di QA in Adobe Target per eseguire attività QA end-to-end in modo semplice con collegamenti di anteprima che non cambiano mai, targeting facoltativo del pubblico e reporting di QA che restano segmentati dai dati dell'attività live.
 
 ## Panoramica {#section_11B761A522A14E61978275772210A4C2}
 
