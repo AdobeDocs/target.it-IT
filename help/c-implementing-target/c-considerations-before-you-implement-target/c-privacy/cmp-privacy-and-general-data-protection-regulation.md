@@ -5,7 +5,7 @@ title: Informazioni sul regolamento generale sulla protezione dei dati (RGPD) de
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
 
 ---
 
@@ -44,6 +44,10 @@ Ad alto livello, la legge tutela i californiani con diversi diritti chiave, comp
 * Ricevere informazioni sui dati personali che vengono divulgati o venduti
 
 Se ti sei già preparato alla legge europea sulla privacy (RGPD), alcuni di questi diritti ti potrebbero essere familiari e molto del lavoro già svolto potrebbe essere adattato per questi nuovi requisiti.
+
+>[!NOTE]
+>
+>L’accesso e l’eliminazione dei dati applicati all’APP seguono lo stesso processo applicato al GDPR.
 
 ## Adobe Target e la funzionalità opt-in di [!DNL Experience Platform Launch] {#section_6F7B53F5E40C4425934627B653E831B0}
 
@@ -289,3 +293,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 ### Target supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
 Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+
+### Devo fare qualcosa per evitare che i miei dati vengano condivisi o venduti a terzi?
+
+Target non è in grado di consentire ai clienti di condividere o vendere dati direttamente da Target a terzi, pertanto non esiste alcuna rinuncia alla vendita per Target.
