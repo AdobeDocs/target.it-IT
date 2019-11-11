@@ -4,7 +4,7 @@ description: Note sulla versione relative all'SDK Java di Adobe Target.
 title: Note sulla versione relative all'SDK Java di Adobe Target.
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,14 @@ L’SDK [!DNL Target] Java consente di implementare il lato [!DNL Target] server
 Java SDK introduce procedure ottimali e rimuove le complessità durante l'integrazione con [!DNL Target] tramite l'API di distribuzione, in modo che i team di progettazione possano concentrarsi sulla logica aziendale.
 
 Per ulteriori informazioni su Target Java SDK, consulta Adobe Tech Blog - Ottimizzazione lato [server con la nuova SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java di Target.
+
+## Versione 1.0.1 (11 novembre 2019)
+
+La sezione seguente fornisce ulteriori informazioni sulla versione 1.0.1 dell'SDK Java di Target:
+
+### Fisso
+
+* Invia un ID dati supplementare in una richiesta Target anche quando non è presente alcun cookie API del visitatore.
 
 ## Versione 1.0.0 (31 ottobre 2019)
 
