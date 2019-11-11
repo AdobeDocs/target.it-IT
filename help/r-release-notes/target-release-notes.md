@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -21,6 +21,14 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 >Queste note sulla versione contengono delle informazioni sulla versione prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso. Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali o possono essere diverse, a seconda della tempistica delle release.
 >
 >I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Target Java SDK versione 1.0.1 (11 novembre 2019)
+
+Il seguente problema è stato risolto nella versione 1.0.1:
+
+* Invia un ID dati supplementare in una richiesta Target anche quando non è presente alcun cookie API del visitatore.
+
+Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
 
 ## Piattaforma Target (31 ottobre 2019)
 
