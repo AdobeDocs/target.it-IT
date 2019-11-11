@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports & Analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c16e1f668f864715ad33e9c1602286ddf695b6c7
 
 ---
 
@@ -139,6 +139,10 @@ Prima di eseguire questa operazione è necessario eliminare i cookie.
 **Come vengono mappati territori come Porto Rico e Hong Kong nella struttura di geotargeting?**
 
 Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” separati.
+
+**Acquisisce (e archivia)[!DNL Target]informazioni come i codici ZIP quando l'attività è mirata con funzionalità di targeting geografico?**
+
+No, [!DNL Target] utilizza dati geografici solo per la durata della sessione, quindi i dati vengono scartati.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
