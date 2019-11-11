@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 
 ---
 
@@ -18,6 +18,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 11 novembre 2019 | [Note sulla versione - Java SDK di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Sono state aggiunte informazioni sulla versione 1.0.1. |
 | 8 novembre 2019 | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Sono stati aggiunti collegamenti ad altri problemi passati. |
 |  | [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) | Sezione CCPA aggiornata con una nuova nota.<br>Sono state aggiunte nuove domande frequenti per informare i clienti che Target non è in grado di consentire ai clienti di condividere o vendere dati direttamente da Target a terze parti, pertanto non è previsto il rifiuto di vendita per Target. |
 | 7 novembre 2019 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#examples) | È stato aggiunto un esempio di codice per il parametro adobeQA. |
