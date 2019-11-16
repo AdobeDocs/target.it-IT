@@ -1,10 +1,10 @@
 ---
 product: target
-audience: utente finale
-user-guide-title: Guida di Adobe Target
-user-guide-url: /content/help/it-IT/target/using/target-home.html
+audience: end-user
+user-guide-title: Adobe Target Help
+user-guide-url: /content/help/en/target/using/target-home.html
 translation-type: tm+mt
-source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
+source-git-commit: 67f65434e4444913c708d273e59ae046b551e33e
 
 ---
 
@@ -183,7 +183,7 @@ source-git-commit: 540367e4c49c712df98dc132bccf4f29b4d6f095
    + Test A/B {#abtest}
       + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
       + [Per quanto tempo si deve eseguire un test A/B?](c-activities/t-test-ab/sample-size-determination.md)
-      + [Nove insidie frequenti per i test A/B e come evitarle](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [Dieci comuni insidie di test A/B e come evitarle](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Creare un test A/B {#create}
          + [Creare test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL attività](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
