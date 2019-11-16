@@ -1,12 +1,12 @@
 ---
-keywords: aggiungere utente;gestire utente;autorizzazioni utente
+keywords: add user;manage user;user permissions
 description: Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
 title: Utenti
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
 
 ---
 
@@ -24,7 +24,7 @@ Puoi aggiungere utenti e gestirne le autorizzazioni in Adobe Admin Console.
 >
 >**Clienti[!DNL Target]Premium**: se è presente la scheda [!UICONTROL Proprietà] ([!UICONTROL Configurazione &gt; Proprietà]), significa che si dispone di una licenza [!DNL Target] Premium. I clienti [!DNL Target] Premium devono seguire le istruzioni contenute in [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) e [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) per aggiungere utenti e assegnare le autorizzazioni in [!DNL Adobe Admin Console].
 
-Solo gli utenti amministratori di sistema possono aggiungere utenti e gestire le loro autorizzazioni. Il ruolo amministratore di sistema viene assegnato a livello di [!DNL Experience Cloud]. I ruoli [!DNL Experience Cloud] sono distinti dai ruoli gestiti in ogni soluzione.
+Per gestire utenti e autorizzazioni, consulta [Gestione di prodotti e profili](https://helpx.adobe.com/enterprise/using/manage-products-and-profiles.html) nella Guida utente di Enterprise &amp; Teams.
 
 Quando inizi a usare [!DNL Adobe Target], troverai gli ID (che terminano con Adobe.com) pre-popolati nel tuo account [!DNL Adobe Experience Cloud]. Questi ID sono per i membri dei team Adobe in modo che possano aiutarti con il tuo nuovo account e con l'uso di [!DNL Adobe Target], se hai bisogno di aiuto. Per ottenere assistenza, contatta i team Adobe di riferimento con le modalità usuali.
 
@@ -32,7 +32,7 @@ Il nuovo utente viene visualizzato nella pagina [!UICONTROL Utenti] solo dopo ch
 
 Per impostazione predefinita, a tutti gli utenti di [!DNL Target] viene assegnato inizialmente il ruolo di Osservatore.
 
-Gli utenti amministratori di sistema sono identificati nell'elenco Utenti. Se hai bisogno di un diverlo livello di accesso, contatta uno degli utenti amministratori di sistema.
+Gli utenti amministratore sono identificati nell'elenco Utenti. Contattate uno degli utenti amministratori di sistema se avete bisogno di modificare il livello di accesso.
 
 ## Accedere ad Adobe Admin Console {#access}
 
