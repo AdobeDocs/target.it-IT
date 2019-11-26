@@ -1,11 +1,11 @@
 ---
-keywords: sfarfallio;at.js;implementazione
+keywords: flicker;at.js;implementation
 description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
 title: Gestione della visualizzazione momentanea di altri contenuti di Adobe Target at.js
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 12761951688cae6fd8908ceded7b252b58d51165
 
 ---
 
@@ -42,7 +42,11 @@ Per ulteriori informazioni sull’override di `bodyHiddenStyle`, consulta [targe
 
 Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il rendering del browser; tuttavia, questa tecnica può portare alla visualizzazione momentanea di altri contenuti della pagina web.
 
-È possibile evitare questo fenomeno utilizzando uno snippet per nascondere le pagine che sarà visibile dopo che avrà personalizzato gli elementi HTML rilevanti [!DNL Target]. Per aggiungere questo snippet si consiglia di utilizzare un gestore di tag come Adobe DTM o il nuovo Adobe Launch. Lo snippet deve essere aggiunto prima del caricamento di at.js.
+È possibile evitare questo fenomeno utilizzando uno snippet per nascondere le pagine che sarà visibile dopo che avrà personalizzato gli elementi HTML rilevanti [!DNL Target].
+
+at.js può essere caricato in modo asincrono, direttamente incorporato nella pagina o tramite un gestore di tag (Adobe Launch, Dynamic Tag Manager (DTM), ecc.).
+
+Se at.js è incorporato nella pagina, lo snippet deve essere aggiunto prima di caricare at.js. Se caricate at.js tramite un gestore di tag, caricato anche in modo asincrono, dovete aggiungere lo snippet prima di caricare il gestore di tag. Se il gestore di tag viene caricato in modo sincrono, lo script potrebbe essere incluso nel gestore di tag prima di at.js.
 
 Lo snippet di codice per nascondere le pagine è il seguente:
 
