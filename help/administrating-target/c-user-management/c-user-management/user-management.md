@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 9b311dd3-b8fa-483d-aedd-96761cfcd67e
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -70,20 +70,23 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
 
    ![Scheda Prodotti](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
 
-1. Fai clic sul nome della configurazione desiderata.
-1. Fai clic su **[!UICONTROL Utenti]**.
+1. Fate clic sull’area di lavoro desiderata (ad esempio, Area di lavoro predefinita).
+
+   ![Area di lavoro predefinita](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace.png)
 
    Nella scheda [!UICONTROL Utenti] vengono visualizzati tutti gli utenti di quell’area di lavoro.
 
    ![configurazione degli utenti](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new.png)
 
-1. Seleziona il ruolo di autorizzazioni desiderato (Osservatore, Editor o Approvatore) dall’elenco a discesa per ogni utente nella colonna [!UICONTROL Ruolo prodotto].
+1. Seleziona il ruolo di autorizzazioni desiderato (Approvatore, Editor o Osservatore) dall’elenco a discesa per ogni utente nella colonna [!UICONTROL Ruolo prodotto].
+
+   ![Elenco a discesa Ruolo prodotto](/help/administrating-target/c-user-management/c-user-management/assets/product-role.png)
 
    | Ruolo | Descrizione |
    |--- |--- |
-   | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l'avvio di un'attività. |
    | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
+   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l'avvio di un'attività. |
+   | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
 
 Per ulteriori informazioni, vedi [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) nella *guida utente della versione Enterprise*.
 
