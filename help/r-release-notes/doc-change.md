@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 34a5879fb3db894750cab21ffd9503902180a110
+source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
 
 ---
 
@@ -18,6 +18,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 26 novembre 2019 | [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Testo aggiornato in "Gestione dello sfarfallio quando si carica at.js in modo asincrono." |
+|  | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Aggiunto il collegamento alla newsletter di novembre 2019. |
+|  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Testo e immagini aggiornati in "Specificare ruoli e autorizzazioni". |
 | 15 novembre 2019 | [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) | Aggiunto "Pitfall 7: Modifica dell'allocazione del traffico durante il periodo di test." |
 | 11 novembre 2019 | [Note sulla versione - Java SDK di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Sono state aggiunte informazioni sulla versione 1.0.1. |
 |  | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Intero argomento aggiornato. |
