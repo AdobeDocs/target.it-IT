@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 799085cec9f1a8604f1ac0e9027f7af8b6f5e991
+source-git-commit: 4e0f5e9c7f733e415274c42a3346594f55266670
 
 ---
 
@@ -18,6 +18,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 2 dicembre 2019 | [Usa servizio di localizzazione](/help/c-target-mobile-app/use-location-service.md) | Nuovo argomento. |
 | 26 novembre 2019 | [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Testo aggiornato in "Gestione dello sfarfallio quando si carica at.js in modo asincrono." |
 |  | [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md) | Aggiunto il collegamento alla newsletter di novembre 2019. |
 |  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Testo e immagini aggiornati in "Specificare ruoli e autorizzazioni". |
