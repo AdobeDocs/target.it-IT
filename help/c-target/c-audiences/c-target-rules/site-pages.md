@@ -1,22 +1,18 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;mbox;target mbox
-description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica o che dispongono di un parametro mbox specifico utilizzando Adobe Target.
+keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
 title: Pagine del sito in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 3742c2a19aab55d65ee3f32c9202321ece860439
+source-git-commit: d386184891e073ca0c3ba7a0581842e32377e315
 
 ---
 
 
 # Pagine del sito{#site-pages}
 
-Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica o che dispongono di un parametro mbox specifico.
-
->[!NOTE]
->
->Audience site page types and comparison operators now match types and comparison operators as they were in [!DNL Target Classic]. Puoi creare un pubblico per la pagina del sito utilizzando un “parametro di query definito dall’utente” o una “intestazione definita dall’utente”.
+Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
 
 1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
@@ -32,7 +28,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
    Le seguenti opzioni sono disponibili nell’elenco a discesa iniziale quando scegliete [!UICONTROL Seleziona].
 
-   * **Pagina corrente:** la pagina sulla quale l’utente si trova attualmente, cioè la pagina che contiene una mbox nell’attività. In caso di targeting a livello di attività, potrebbe essere una pagina con una mbox utilizzata per definire le condizioni di ingresso, o una pagina che visualizza il contenuto. Se esegui il targeting per esperienza, la pagina corrente è quella che include la mbox di visualizzazione. Per la metrica di successo o il targeting delle conversioni, è la pagina in cui sono utilizzate le mbox.
+   * **** Pagina corrente: La pagina sulla quale si trova l’utente.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -68,7 +64,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       >
       >L’oggetto `landing.url` viene reimpostato in caso di modifica del sottodominio o di sostituzione diretta dell’URL.
 
-   * **** Intestazione HTTP: Questa opzione valuta le informazioni nell’intestazione HTTP della prima pagina visualizzata dal visitatore quando accede al sito. Ad esempio, se l'intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori di destinazione.
+   * **** Intestazione HTTP: Questa opzione valuta le informazioni nell'intestazione HTTP della richiesta Target. Ad esempio, se l'intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -79,7 +75,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       * Autorizzazione
       * Cache-Control
       * Connessione
-      * Contenuto
+      * Content-Length
       * Content-MDS
       * Content-Type
       * Data
