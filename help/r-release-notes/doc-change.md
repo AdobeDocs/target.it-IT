@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 758ebad09d0e2ff267ee219519e63d6528b83491
+source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
 
 ---
 
@@ -18,6 +18,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 10 dicembre 2019 | [Limiti di Target](/help/r-troubleshooting-target/target-limits.md) | Aggiornamento della sezione dei parametri mbox. |
+|  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md) | Aggiunta nota sul supporto per la funzione Utilizzo criteri. |
 | 5 dicembre 2019 | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Argomento aggiornato. |
 | 2 dicembre 2019 | [Usa servizio di localizzazione](/help/c-target-mobile-app/use-location-service.md) | Nuovo argomento. |
 | 26 novembre 2019 | [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md) | Testo aggiornato in "Gestione dello sfarfallio quando si carica at.js in modo asincrono." |
