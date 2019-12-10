@@ -1,11 +1,11 @@
 ---
-keywords: variabili;profili;parametri;profili incorporati;metodi;variabili URL;profili geo;profili di terze parti;variabili mbox;variabili di campagna;attributi dei clienti
+keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
 title: Glossario di profili e variabili
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
 
 ---
 
@@ -41,7 +41,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | user.setLocal('param_name','value'); |  |
 | user.get('param_name') |  |
 | user.parameter | Attributi permanenti del profilo creati dagli script di profilo. Fa anche riferimento a profili “di sistema” come geolocalizzazione, conteggio delle visite, ecc. |
-| profile.get('param_name') |  |
+| profile.get('param_name') | Il modo corretto per ottenere un parametro di profilo da utilizzare in uno script di profilo è il metodo profile.get('param_name'). |
 | profile.param('param_name'); |  |
 | profile.parameter('parameter_name'); | Parametri mbox che sono resi persistenti a causa del loro profilo.  Prefisso. |
 | profile.browserTime | Ora locale del browser del visitatore. Per l'ora di sistema, creare un nuovo oggetto di data nello script del profilo |
