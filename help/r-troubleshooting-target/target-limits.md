@@ -1,11 +1,11 @@
 ---
-keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;numero massimo;limite;vincolo;carattere;buona prassi; orderid;orderTotal;mbox3rdPartyID;categoria;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
 
 ---
 
@@ -107,14 +107,38 @@ Tutti i profili oltre i primi 50 vengono ignorati.
 
 **Limite**: i seguenti limiti si applicano ai parametri mbox:
 
+Per le chiamate mbox standard:
 * Parametri mbox: 500 parametri per mbox.
-* Parametri profilo: 500 parametri.
-* Parametri del profilo per mbox:
+* Parametri profilo: 500 parametri di profilo per mbox.
 * Altri parametri (URL, URL di riferimento e così via): 50 per mbox, per un altro tipo di parametro.
 
-Per i parametri che hanno eseguito l’accesso al database di Target, i limiti indicati sopra si riferiscono per richieste mbox standard. Questi limiti possono essere applicati a meno che la richiesta non venga ridotta a causa di limiti del browser web.
+Questi limiti possono essere applicati a meno che la richiesta non venga ridotta a causa di limiti del browser web.
 
-Se utilizzi [l’API di distribuzione in batch](https://developers.adobetarget.com/api/#server-side-batch-delivery)nell’SDK dei Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l'API di distribuzione in batch. Se una richiesta supera tali limiti, l’API restituisce il seguente messaggio di errore:“Il numero di mboxParameters non può essere superiore a 100”.
+Se utilizzi [l’API di distribuzione in batch](https://developers.adobetarget.com/api/#server-side-batch-delivery)nell’SDK dei Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l'API di distribuzione in batch. Se una richiesta contiene più di questi limiti, l'API restituirà il seguente messaggio di errore:
+
+"Il numero di mboxParameters non può superare 50."
+
+Limiti impostati per gli endpoint:
+
+Mbox batch v2:
+* parametri mbox 100
+* nome parametro mbox max 128
+* il valore del parametro mbox non può essere null
+* valore del parametro mbox 5000
+* parametri di profilo 50
+* nome del parametro del profilo lunghezza max 128
+* il valore del parametro del profilo non può essere null
+* valore del parametro del profilo lunghezza massima 256
+
+Endpoint API di consegna
+* parametri mbox 50
+* nome parametro mbox max 128
+* il valore del parametro mbox non può essere null
+* valore del parametro mbox 5000
+* parametri di profilo 50
+* nome del parametro del profilo lunghezza max 128
+* il valore del parametro del profilo non può essere null
+* valore del parametro del profilo lunghezza massima 256
 
 ## URL richieste mbox
 
