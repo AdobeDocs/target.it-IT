@@ -5,7 +5,7 @@ title: Domande frequenti su destinazioni e pubblico
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -22,7 +22,9 @@ Considerate il seguente URL:
 
 `http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
 
-**Targeting** URL pubblico: Per applicare il targeting URL del pubblico, durante la creazione di un'attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre fasi) fate clic sull'icona a forma di ingranaggio, fate clic su Distribuzione pagina, quindi specificate l'URL desiderato.
+### Targeting URL pubblico
+
+ Per applicare il targeting URL del pubblico, durante la creazione di un'attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre fasi) fate clic sull'icona a forma di ingranaggio, fate clic su Distribuzione pagina, quindi specificate l'URL desiderato.
 
 ![URL distribuzione pagina](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
@@ -32,9 +34,11 @@ Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l'UR
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Come procedura ottimale, oltre al targeting dell'audience sull'URL, potete anche specificare valori specifici che possono essere presenti nella query.
+Oltre al targeting dell'audience sull'URL, potete anche specificare valori specifici che possono essere presenti nella query.
 
-**Targeting** URL: Per applicare il targeting URL, durante la creazione di un'audience, fate clic su Aggiungi regola, fate clic su Pagine del sito, selezionate un'opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), selezionate URL dal secondo elenco a discesa, specificate un valutatore, quindi specificate l'URL desiderato.
+### Targeting URL
+
+ Per applicare il targeting URL, durante la creazione di un'audience, fate clic su Aggiungi regola, fate clic su Pagine del sito, selezionate un'opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), selezionate URL dal secondo elenco a discesa, specificate un valutatore, quindi specificate l'URL desiderato.
 
 ![Pagine del sito &gt; Pagina corrente &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
