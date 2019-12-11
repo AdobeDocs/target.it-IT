@@ -1,10 +1,10 @@
 ---
-keywords: test modello;modello;stessa esperienza su pagine simili;test template
+keywords: template testing;template;same experience on similar pages;template test
 description: Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
 title: Includere la stessa esperienza in pagine simili
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -36,7 +36,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 
 1. Specifica l'intervallo di pagine. L'intervallo di pagine può essere uno tra i seguenti:
 
-   * URL
+   * URL Per ulteriori informazioni sul modo in cui Target valuta gli URL, consulta [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.
    * Dominio
    * Percorso
    * Hash (#) frammento (destinazione della parte di un URL che segue il simbolo #).
