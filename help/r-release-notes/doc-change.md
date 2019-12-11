@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d9dd38172d5c43fcda96b40a9ebba926b723ff76
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -18,6 +18,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 11 dicembre 2019 | [Domande frequenti su destinazioni e pubblico](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: "In che modo Target valuta gli URL nel targeting?" |
 | 10 dicembre 2019 | [Limiti di Target](/help/r-troubleshooting-target/target-limits.md) | Aggiornamento della sezione dei parametri mbox. |
 |  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md) | Aggiunta nota sul supporto per la funzione Utilizzo criteri. |
 | 5 dicembre 2019 | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md) | Argomento aggiornato. |
