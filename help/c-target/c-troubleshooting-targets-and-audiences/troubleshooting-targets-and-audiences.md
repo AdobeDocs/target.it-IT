@@ -1,11 +1,11 @@
 ---
-keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 title: Domande frequenti su destinazioni e pubblico
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4f877bf6a0bd73e2d29c2d41ab64dc2a39c61a31
 
 ---
 
@@ -13,6 +13,37 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 # Domande frequenti su destinazioni e pubblico{#targets-and-audiences-faq}
 
 Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
+
+## In che modo Target valuta gli URL nel targeting? {#url}
+
+In Target gli URL vengono valutati in modo diverso a seconda se utilizzate il targeting degli URL del pubblico durante la creazione di un'attività o se utilizzate il targeting URL durante la creazione di un'audience.
+
+Considerate il seguente URL:
+
+`http://www.example.com/path1/path2/path3?queryStringParam1=test123&queryStringParam2=test7`
+
+**Targeting** URL pubblico: Per applicare il targeting URL del pubblico, durante la creazione di un'attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre fasi) fate clic sull'icona a forma di ingranaggio, fate clic su Distribuzione pagina, quindi specificate l'URL desiderato.
+
+![URL distribuzione pagina](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
+
+Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l'URL corrisponde, Target non considera ulteriori logica. Nell'URL precedente, se l'attività è impostata su Attivato, l'URL corrisponde per `www.example.com`i seguenti URL, perché il targeting dell'URL del pubblico non è agnostico alla query:
+
+* `www.example.com?query=something`
+* `www.example.com?query=anything`
+* `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
+
+Come procedura ottimale, oltre al targeting dell'audience sull'URL, potete anche specificare valori specifici che possono essere presenti nella query.
+
+**Targeting** URL: Per applicare il targeting URL, durante la creazione di un'audience, fate clic su Aggiungi regola, fate clic su Pagine del sito, selezionate un'opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), selezionate URL dal secondo elenco a discesa, specificate un valutatore, quindi specificate l'URL desiderato.
+
+![Pagine del sito &gt; Pagina corrente &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+
+Il targeting degli URL trasforma l'URL in un set di regole da valutare:
+
+* Dominio URL = `example.com`
+* Percorso = path1/path2/path3
+* queryStringParam1 = test123
+* queryStringParam2 = test7
 
 ## Durante la creazione di stringhe URL complesse, valuta [!DNL Target] l’intero URL?
 
