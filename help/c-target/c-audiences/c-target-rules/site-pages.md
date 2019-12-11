@@ -5,7 +5,7 @@ title: Pagine del sito in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 ---
 
@@ -32,7 +32,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL
+      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
       * Dominio
       * Query
       * Sottodominio
@@ -43,7 +43,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL
+      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
       * Dominio
       * Query
       * Sottodominio
@@ -53,7 +53,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL
+      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
       * Dominio
       * Query
       * Sottodominio
