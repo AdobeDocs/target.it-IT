@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a2e4a4d1036d2c56d752d808054f6f4b4ab1d411
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 12 dicembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sezione Domande frequenti aggiornata. |
+|  | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Argomento rinominato e aggiunta la sezione seguente: "Comprendere i rapporti Lift and Confidence nelle attività Auto-Allocate." |
 | 11 dicembre 2019 | [Domande frequenti su destinazioni e pubblico](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: "In che modo Target valuta gli URL nel targeting?" |
 | 10 dicembre 2019 | [Limiti di Target](/help/r-troubleshooting-target/target-limits.md) | Aggiornamento della sezione dei parametri mbox. |
 |  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md) | Aggiunta nota sul supporto per la funzione Utilizzo criteri. |
