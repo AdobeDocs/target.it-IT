@@ -1,20 +1,32 @@
 ---
-keywords: assegnazione automatica del traffico;targeting;vincitore;garanzia statistica;affidabilità;determinazione del vincitore
+keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
 title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
 
 ---
 
 
-# Determinare un vincitore{#determine-a-winner}
+# Interpreta rapporti di allocazione automatica {#determine-a-winner}
 
-Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
+Interpretate i risultati di un'attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell'interfaccia di Target.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
+
+## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
+
+Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di "controllo" nella scheda Rapporti. Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come riferimento o previsione per alcune figure del rapporto.
+
+Il valore numerico "Lift" e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all'esperienza "Control" definita. L'esperienza "Control" definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore "—" vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un'esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato "—".
+
+Le barre dell'intervallo di confidenza visualizzato rappresentano l'intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un'esperienza. Sono anche codificati in base al colore rispetto all'esperienza "Control" definita. La barra dell'esperienza "Control" è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell'intervallo di confidenza dell'esperienza "Control" sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell'esperienza "Control" sono colorate di verde.
+
+Un vincitore si trova quando l'intervallo di confidenza del 95% dell'esperienza principale non si sovrappone ad altre esperienze. L'esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell'esperienza e nel banner "Vincitore". Quando nessuna stella è visibile, il banner recita "No Winner yet" (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
+
+Un numero "Confidence" viene riportato anche accanto all'esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando la confidenza dell'esperienza principale non raggiunge almeno il 60%. Se esattamente due esperienze sono presenti nell'esperimento Allocazione automatica, questo numero rappresenta il livello di confidenza con cui l'esperienza ha prestazioni migliori rispetto all'altra esperienza. Se nell'esperimento Auto-Allocate sono presenti più di due esperienze, questo numero rappresenta il livello di confidenza con cui l'esperienza viene eseguita meglio dell'esperienza "Control" definita. Se l'esperienza "Control" è vincente, non viene segnalata alcuna figura "Confidence".
 
 ## Visualizzazione del badge vincitore nell'interfaccia utente di Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
