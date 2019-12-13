@@ -5,7 +5,7 @@ title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 7a4699da4f36f2a3c2508c23ad68b14926a255be
+source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
 
 ---
 
@@ -16,19 +16,7 @@ Interpretate i risultati di un'attività di allocazione automatica A/B esaminand
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
 
-## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
-
-Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di "controllo" nella scheda Rapporti. Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come riferimento o previsione per alcune figure del rapporto.
-
-Il valore numerico "Lift" e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all'esperienza "Control" definita. L'esperienza "Control" definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore "—" vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un'esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato "—".
-
-Le barre dell'intervallo di confidenza visualizzato rappresentano l'intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un'esperienza. Sono anche codificati in base al colore rispetto all'esperienza "Control" definita. La barra dell'esperienza "Control" è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell'intervallo di confidenza dell'esperienza "Control" sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell'esperienza "Control" sono colorate di verde.
-
-Un vincitore si trova quando l'intervallo di confidenza del 95% dell'esperienza principale non si sovrappone ad altre esperienze. L'esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell'esperienza e nel banner "Vincitore". Quando nessuna stella è visibile, il banner recita "No Winner yet" (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
-
-Un numero "Confidence" viene riportato anche accanto all'esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando la confidenza dell'esperienza principale non raggiunge almeno il 60%. Se esattamente due esperienze sono presenti nell'esperimento Allocazione automatica, questo numero rappresenta il livello di confidenza con cui l'esperienza ha prestazioni migliori rispetto all'altra esperienza. Se nell'esperimento Auto-Allocate sono presenti più di due esperienze, questo numero rappresenta il livello di confidenza con cui l'esperienza viene eseguita meglio dell'esperienza "Control" definita. Se l'esperienza "Control" è vincente, non viene segnalata alcuna figura "Confidence".
-
-## Visualizzazione del badge vincitore nell'interfaccia utente di Target {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identificare l'esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell'attività che indica “Ancora nessun vincitore” finché l'attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
 
@@ -42,7 +30,7 @@ Quando viene dichiarata l'esperienza migliore, in [!DNL Target] appare la scritt
 >
 >Le attività di Allocazione automatica sono progettate per trovare la migliore esperienza tra tutte le opzioni e non solo per fare confronti in coppia con il controllo.
 
-## Garanzie statistiche di Allocazione automatica {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Al termine di un'attività A/B, Allocazione automatica garantisce che il vincitore determinato abbia un tasso di falso positivo efficace del 5%. Questo significa che solo per il 5% del tempo, il vincitore determinato non è in realtà la migliore esperienza tra tutte le esperienze nell'attività. Per un test A/A (con esperienze identiche), concludiamo un test inferiore al 5% del tempo. Il comportamento previsto per un test A/A (con esperienze identiche) è l'esecuzione indefinita e quindi il badge del vincitore non dovrebbe mai apparire.
 
@@ -59,6 +47,18 @@ Nell'illustrazione seguente viene mostrata un'attività che non ha ancora un vin
 Nell'illustrazione seguente viene mostrata un'attività che ha un vincitore:
 
 ![](assets/winner_found.png)
+
+## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
+
+Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di "controllo" nella scheda Rapporti. Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come riferimento o previsione per alcune figure del rapporto.
+
+Il valore numerico "Lift" e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all'esperienza "Control" definita. L'esperienza "Control" definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore "—" vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un'esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato "—".
+
+Le barre dell'intervallo di confidenza visualizzato rappresentano l'intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un'esperienza. Sono anche codificati in base al colore rispetto all'esperienza "Control" definita. La barra dell'esperienza "Control" è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell'intervallo di confidenza dell'esperienza "Control" sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell'esperienza "Control" sono colorate di verde.
+
+Un vincitore si trova quando l'intervallo di confidenza del 95% dell'esperienza principale non si sovrappone ad altre esperienze. L'esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell'esperienza e nel banner "Vincitore". Quando nessuna stella è visibile, il banner recita "No Winner yet" (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
+
+Un numero "Confidence" viene riportato anche accanto all'esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando la confidenza dell'esperienza principale non raggiunge almeno il 60%. Se esattamente due esperienze sono presenti nell'esperimento Allocazione automatica, questo numero rappresenta il livello di confidenza con cui l'esperienza ha prestazioni migliori rispetto all'altra esperienza. Se nell'esperimento Auto-Allocate sono presenti più di due esperienze, questo numero rappresenta il livello di confidenza con cui l'esperienza viene eseguita meglio dell'esperienza "Control" definita. Se l'esperienza "Control" è vincente, non viene segnalata alcuna figura "Confidence".
 
 ## Domande frequenti {#section_C8E068512A93458D8C006760B1C0B6A2}
 
