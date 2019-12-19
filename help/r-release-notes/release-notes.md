@@ -1,11 +1,11 @@
 ---
-keywords: Note sulla versione;nuove funzioni;rilasci;aggiornamenti;aggiornamento;rilascio;miglioramenti;correzioni;correzioni di bug
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
 description: Queste note sulla versione forniscono informazioni su funzioni, miglioramenti, correzioni e problemi noti per ciascuna versione di Adobe Target Standard e Target Premium.
 title: 'Note sulla versione di Adobe Target (corrente) '
-topic: Consigli
+topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
+source-git-commit: 6b49e4fb6c92da023678c1f27823458229d21711
 
 ---
 
@@ -15,6 +15,12 @@ source-git-commit: af0434a14bf9a816366941b9e2108fb8ba7c9d24
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di Target Standard e Target Premium. Inoltre, se applicabile, sono incluse anche le note sulla versione per le API Target, gli SDK, la libreria JavaScript (at.js) e altre modifiche alla piattaforma.
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Target Java SDK versione 1.1.0 (16 dicembre 2019)
+
+* È stato aggiunto il supporto per la configurazione proxy a causa del contributo open source fornito da @hisham-hassan.
+
+Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
 
 ## Target Java SDK versione 1.0.1 (11 novembre 2019)
 
