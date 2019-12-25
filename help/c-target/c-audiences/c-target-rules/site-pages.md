@@ -5,7 +5,7 @@ title: Pagine del sito in Adobe Target
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 ---
 
@@ -14,15 +14,15 @@ source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
 
 Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]**>**[!UICONTROL  Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Pagine del sito]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]**>**[!UICONTROL  Pagine del sito]**.
 
    ![Pubblico per pagine del sito](assets/target_site_pages.png)
 
-1. Fare clic sull'elenco a discesa **[!UICONTROL Seleziona]** , selezionare una delle opzioni seguenti, quindi configurare la regola come desiderato.
+1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]**, selezionare una delle opzioni seguenti, quindi configurare la regola come desiderato.
 
-   Le opzioni disponibili e i valutatori negli elenchi a discesa successivi della regola variano in base all'opzione scelta. L'illustrazione seguente mostra le opzioni disponibili se scegliete Pagina corrente:
+   Le opzioni disponibili e i valutatori negli elenchi a discesa successivi della regola variano in base all&#39;opzione scelta. L&#39;illustrazione seguente mostra le opzioni disponibili se scegliete Pagina corrente:
 
    ![Pagina corrente](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
@@ -64,7 +64,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       >
       >L’oggetto `landing.url` viene reimpostato in caso di modifica del sottodominio o di sostituzione diretta dell’URL.
 
-   * **** Intestazione HTTP: Questa opzione valuta le informazioni nell'intestazione HTTP della richiesta Target. Ad esempio, se l'intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
+   * **** Intestazione HTTP: Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta Target. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -108,7 +108,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
 
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
+1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]**per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Puoi anche creare un pubblico per le pagine del sito utilizzando un “parametro di query definito dall’utente” o una “intestazione definita dall’utente”.
@@ -116,7 +116,7 @@ Puoi anche creare un pubblico per le pagine del sito utilizzando un “parametro
 Utilizza:
 
 * Un parametro di query se la regola selezionata è Pagina corrente, Pagina di destinazione o Pagina precedente.
-* Intestazione se la regola selezionata dall'utente è un'intestazione HTTP.
+* Intestazione se la regola selezionata dall&#39;utente è un&#39;intestazione HTTP.
 
 Come illustrato di seguito:
 
@@ -124,19 +124,25 @@ Come illustrato di seguito:
 
 ## Risoluzione dei problemi {#ts}
 
-* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il `mboxReferrer` parametro impostato (per l'API di consegna il `context.address.referringUrl` parametro) che la libreria JavaScript at.js prende dalla pagina utilizzando l' `document.referrer` attributo. Questo `HTMLDocument` attributo restituisce l’URI della pagina da cui l’utente ha navigato. Il valore di questo attributo è una stringa vuota quando l'utente si sposta direttamente sulla pagina (non attraverso un collegamento, ma, ad esempio, tramite un segnalibro).
+* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il `mboxReferrer` parametro impostato (per l&#39;API di consegna il `context.address.referringUrl` parametro) che la libreria JavaScript at.js prende dalla pagina utilizzando l&#39; `document.referrer` attributo. Questo `HTMLDocument` attributo restituisce l’URI della pagina da cui l’utente ha navigato. Il valore di questo attributo è una stringa vuota quando l&#39;utente si sposta direttamente sulla pagina (non attraverso un collegamento, ma, ad esempio, tramite un segnalibro).
 
-   Se questo comportamento non soddisfa i requisiti dell'utente, effettuare una delle seguenti operazioni:
+   Se questo comportamento non soddisfa i requisiti dell&#39;utente, effettuare una delle seguenti operazioni:
 
    * Trasmettete i parametri [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox da [!DNL Target] utilizzare per il targeting.
-   * Utilizzate un'attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un'attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
+   * Utilizzate un&#39;attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un&#39;attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
    * Utilizzate invece un profilo [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitatore.
+
+* Quando si utilizzano i valutatori &quot;Inizia/Termina con&quot; su stringhe contenenti virgole, tenere presente che questi vengono valutati come una matrice di valori, in cui ogni valore separato da virgole viene valutato. Ad esempio, se il valore di un&#39;intestazione è: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` sarà possibile soddisfare condizioni come:
+   * inizia con zh,
+   * inizia con en,
+   * termina con 0,7,
+   * termina con 0,8.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
