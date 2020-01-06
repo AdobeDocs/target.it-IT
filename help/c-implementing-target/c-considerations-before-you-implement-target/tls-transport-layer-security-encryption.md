@@ -5,16 +5,16 @@ title: Modifiche alla crittografia di TLS (Transport Layer Security)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 0cd553316d43e78e23c268de20871150dcc1cc85
+source-git-commit: d227b22463ebf08d8f16c78a18d451723e4e6aee
 
 ---
 
 
 # Modifiche alla crittografia di TLS (Transport Layer Security){#tls-transport-layer-security-encryption-changes}
 
-Informazioni sulle modifiche relative al modo in cui Adobe e Target utilizzano TLS (Transport Layer Security) per mantenere standard di sicurezza elevati e promuovere la sicurezza dei dati dei clienti.
+Informazioni sulle modifiche alle modalità in cui Adobe e Adobe Target utilizzano TLS (Transport Layer Security) per mantenere gli standard di sicurezza più elevati e promuovere la sicurezza dei dati dei clienti.
 
-Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più ampiamente ed è oggi utilizzato per i browser web e per altre applicazioni dove i dati devono essere scambiati in modo sicuro all’interno di una rete. Gli standard di sicurezza e conformità adottati da [!DNL Adobe] richiedono la dismissione dei protocolli più vecchi e l’utilizzo di TLS 1.2 per poter utilizzare sempre la versione più aggiornata e più sicura.
+Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più ampiamente ed è oggi utilizzato per i browser web e per altre applicazioni dove i dati devono essere scambiati in modo sicuro all’interno di una rete. Adobe possiede degli standard di sicurezza e conformità che richiedono la chiusura dei protocolli più vecchi e l’utilizzo di TLS 1.2 per poter avere la versione in uso più aggiornata e più sicura.
 
 >[!IMPORTANT]
 >
@@ -24,19 +24,19 @@ Non è previsto un impatto significativo di tale cambiamento sui dati dei client
 
 ## Compositore esperienza visivo con Compositore esperienza avanzato abilitato {#section_B374B62DEC3344C194AC7BECC2EE0AA0}
 
-Finora, il [Compositore esperienza avanzato](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) di Adobe Target ha utilizzato TLS 1.1 per impostazione predefinita. Dopo il 1 marzo 2020, Target passa a TLS 1.2 per impostazione predefinita.
+TLS 1.2 è il valore predefinito a partire dal 1 marzo 2020 e TLS 1.1 non sarà più supportato.
 
 Adobe sposterà i clienti a TLS 1.2 in modo graduale. Per quanto riguarda coloro che sono in possesso di domini già conformi alla versione 1.2, verranno spostati a TLS 1.2 senza la necessità di apportare delle modifiche. La maggior parte dei domini cliente supporta già TLS 1.2; tuttavia, se il tuo dominio non supporta TLS 1.2, manterremo tali domini su TLS 1.1 come oggi (fino a marzo 2020).
 
 Non dovresti riscontrare alcun problema durante questa fase di migrazione. Se il Compositore esperienza visivo ha smesso di caricare un sito che prima funzionava, [apri una segnalazione per l’Assistenza clienti](../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) riportando questa migrazione come possibile causa.
 
-Se, tuttavia, sei uno di quei clienti che si trovano su TSL 1.1 senza supportare TLS 1.2, allora dovresti pianificare lo spostamento dei tuoi domini/infrastruttura a TLS 1.2. Continueremo a supportare il protocollo TLS 1.1 fino a marzo 2020. A partire da marzo 2020, Target non supporterà il protocollo TLS 1.1 da utilizzare per il VEC tramite la funzionalità Enhanced Experience Composer (Compositore esperienza avanzato).
+Se, tuttavia, sei uno di quei clienti che si trovano su TSL 1.1 senza supportare TLS 1.2, allora dovresti pianificare lo spostamento dei tuoi domini/infrastruttura a TLS 1.2. Continueremo a supportare il protocollo TLS 1.1 fino al 1 marzo 2020. A partire dal 1 marzo 2020, Target non supporterà il protocollo TLS 1.1 da utilizzare per il VEC tramite la funzionalità Enhanced Experience Composer (Compositore esperienza avanzato).
 
 Anche se consigliamo vivamente a tutti di utilizzare fin da ora TLS 1.2, se sei un nuovo cliente ma *NON* supporti questo protocollo, contatta l’Assistenza clienti informandola che hai bisogno di TLS 1.1 per il Compositore esperienza avanzato. Tuttavia, pianificate di passare a TLS 1.2 perché non sarete supportati oltre il 1 marzo 2020.
 
 ## Activity delivery {#section_46CA5943E4354B259014C2BF340AECD6}
 
-A partire dal 1 marzo 2020, i server Target non supporteranno più TLS 1.1. Con questa modifica, i server di Target non accetteranno più richieste da utenti finali con dispositivi o browser Web meno recenti che non supportano TLS 1.1 o versioni successive. Di conseguenza, i dispositivi e i browser più vecchi che supportano solo TLS 1.1 (o supportano TLS 1.1 per impostazione predefinita) non riceveranno più il contenuto dell&#39;attività da Adobe Target. Il contenuto predefinito del sito viene eseguito.
+A partire dal 1 marzo 2020, i server Target non supporteranno più TLS 1.1. Con questa modifica, i server di Target non accetteranno più richieste da visitatori con dispositivi o browser Web meno recenti che non supportano TLS 1.2 (o versioni successive). Di conseguenza, i dispositivi e i browser più vecchi che supportano solo TLS 1.1 (o supportano TLS 1.1 per impostazione predefinita) non riceveranno più il contenuto dell&#39;attività da Adobe Target. Il contenuto predefinito del sito viene eseguito.
 
 Tra i dispositivi e i browser più vecchi che saranno interessati sono compresi:
 
@@ -49,7 +49,7 @@ Mentre pianificate questa modifica, tenete presente quanto segue (la scadenza de
 
 * Devi assicurarti che il tuo sito predefinito sia pronto per essere riprodotto sui dispositivi e sui browser conformi.
 * Tieni presente che il numero di visitatori nei rapporti di Target potrebbe avere un calo non significativo.
-* Potresti dover modificare i tipi di pubblico creati specificamente per i dispositivi o i browser più vecchi che non supportano TLS 1.1: la consegna a questi dispositivi e browser non funzionerà più.
+* Potrebbe essere necessario modificare le audience create specificamente per dispositivi o browser meno recenti che non supportano TLS 1.2. La distribuzione a tali dispositivi e browser non funzionerà più.
 
 Per ulteriori dettagli sui browser supportati e le loro versioni, consulta [Browser supportati](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100).
 
