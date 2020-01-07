@@ -5,7 +5,7 @@ title: Modifiche alla crittografia di TLS (Transport Layer Security)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: d227b22463ebf08d8f16c78a18d451723e4e6aee
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -18,7 +18,7 @@ Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più
 
 >[!IMPORTANT]
 >
->Dopo il 1 marzo 2020, Adobe Target non supporterà più la crittografia TLS 1.1 per Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), distribuzione di attività, API e così via. Per evitare problemi, effettua l&#39;aggiornamento a TLS 1.2 prima del 1 marzo 2002.
+>Dopo il 1 marzo 2020, Adobe Target non supporterà più la crittografia TLS 1.1 per Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), distribuzione di attività, API e così via. Per evitare problemi, effettua l&#39;aggiornamento a TLS 1.2 prima del 1 marzo 2020.
 
 Non è previsto un impatto significativo di tale cambiamento sui dati dei clienti o sulla creazione di rapporti.
 
@@ -40,6 +40,9 @@ A partire dal 1 marzo 2020, i server Target non supporteranno più TLS 1.1. Con 
 
 Tra i dispositivi e i browser più vecchi che saranno interessati sono compresi:
 
+* Google Chrome (Chrome per Android) versioni 29 e precedenti
+* Browser Opera (Opera Mobile) versioni 12.17 e precedenti
+* Mozilla Firefox (Firefox per dispositivi mobili) versioni 26 e precedenti
 * Android 4.3 e versioni precedenti
 * Internet Explorer 8-10 su Windows 7 e versioni precedenti
 * Internet Explorer 10 su Windows Phone 8.0
