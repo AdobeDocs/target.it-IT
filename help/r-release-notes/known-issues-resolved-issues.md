@@ -4,7 +4,7 @@ description: Informazioni sui problemi noti per questa release di Adobe Target. 
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 540d4cae79960db2fd87f134b7bab562ca904aef
+source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
 
 ---
 
@@ -67,7 +67,7 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 * Recommendations Le offerte nelle attività A/B e Targeting delle esperienze non mostrano un&#39;anteprima visiva della barra delle raccomandazioni (TGT-33426)
 * Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. (TGT-35777)
 * Le attività di Recommendations create tramite API possono essere visualizzate nell&#39;interfaccia utente, ma possono essere modificate solo tramite API.
-* Lo stato del feed dei criteri personalizzati visualizzato nella vista Elenco criteri (scheda) viene aggiornato ogni 10 minuti e può essere superiore a 10 minuti in alcune rare circostanze. Lo stato visualizzato nella visualizzazione di modifica dei criteri personalizzati viene recuperato in tempo reale e sempre aggiornato. (TGT-35896, TGT-36173)
+* Lo stato del feed dei criteri personalizzati visualizzato nella vista dell&#39;elenco Criteri (scheda) viene aggiornato ogni dieci minuti e potrebbe essere superiore a dieci minuti in circostanze rare. Lo stato visualizzato nella visualizzazione di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
 
 ### Attività di test multivariato (MVT)
 
