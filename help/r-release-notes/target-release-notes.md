@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: cab8de265b173c393af37cde31006302e5238f25
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -25,6 +25,12 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 ## Target Standard/Premium 20.1.1 (22 gennaio 2020)
 
 La versione di Target Standard/Premium 20.1.1 sarà il 22 gennaio 2020. Le funzioni e i miglioramenti saranno annunciati qui.
+
+>[!IMPORTANT]
+>
+>A partire dal 1 marzo 2020, Target disabiliterà il supporto per la crittografia TLS 1.1 e TLS 1.0. Transport Layer Security (TLS) è tra i protocolli di sicurezza distribuiti più ampiamente ed è oggi utilizzato per i browser web e per altre applicazioni dove i dati devono essere scambiati in modo sicuro all’interno di una rete. Questa modifica è necessaria per soddisfare lo standard di conformità alla sicurezza generalmente accettato di TLS 1.2 o versione successiva. Verificare la versione TLS in uso. Se la versione in uso è inferiore alla 1.2, implementate le modifiche necessarie prima del 1 marzo 2020 per continuare a utilizzare Target come previsto.
+>
+> Per informazioni dettagliate sul possibile impatto e sui passi che potrebbero essere necessari per aggiornare l&#39;implementazione, vedete Modifiche [alla crittografia](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
