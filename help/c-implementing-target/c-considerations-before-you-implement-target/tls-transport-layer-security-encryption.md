@@ -5,7 +5,7 @@ title: Modifiche alla crittografia di TLS (Transport Layer Security)
 topic: Standard
 uuid: d222b966-ee73-4254-87b7-68099583e0dd
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -85,23 +85,23 @@ Per controllare la versione TLS sul tuo sito web utilizzando Google Chrome:
 >
 >Queste istruzioni sono aggiornate al momento della pubblicazione e sono soggette a modifiche. Una ricerca rapida su Internet dovrebbe essere di aiuto in caso di modifica di queste istruzioni.  Altri browser hanno passaggi simili.
 
-## Expected behavior with browsers supporting TLS 1.0 Only {#section_B5DA97A34EF248EB927610A5DA71EF2F}
+## Funzionamento previsto con i browser che supportano le versioni TLS inferiori alla 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-Questa sezione descrive cosa aspettarsi con i browser che supportano TLS 1.0 solo quando si utilizza un&#39;implementazione at.js o mbox.js. A scopo di confronto, questa sezione descrive anche cosa aspettarsi dai browser che supportano TLS 1.2.
+Questa sezione descrive cosa aspettarsi dai browser che supportano le versioni TLS inferiori alla 1.2 solo quando si utilizza un&#39;implementazione at.js o mbox.js. A scopo di confronto, questa sezione descrive anche cosa aspettarsi dai browser che supportano TLS 1.2.
 
 ### Endpoint centrali
 
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
-| at.js | Con TLS 1.0 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file at.js viene scaricato.</li></ul> |
-| mbox.js | Con TLS 1.0 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file mbox.js viene scaricato.</li></ul> |
+| at.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file at.js viene scaricato.</li></ul> |
+| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file mbox.js viene scaricato.</li></ul> |
 
 ### Endpoint dei bordi
 
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
-| at.js | Con TLS 1.0 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
-| mbox.js | Con TLS 1.0 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta</li></ul> |
+| at.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
+| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta</li></ul> |
 
 ### Attività con targeting per audience con versione browser (Internet Explorer, versioni 6, 7 o 8)
 
@@ -112,4 +112,4 @@ Questa sezione descrive cosa aspettarsi con i browser che supportano TLS 1.0 sol
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
 | at.js | at.js non è supportato nelle versioni di Internet Explorer precedenti alla versione 10. |
-| mbox.js | Con TLS 1.0 abilitato:<ul><li>Viene servito il contenuto predefinito.</li><li>Non viene attivata alcuna richiesta di Target.</li><li>Non viene visualizzato alcun errore di console.</li><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
+| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Viene servito il contenuto predefinito.</li><li>Non viene attivata alcuna richiesta di Target.</li><li>Non viene visualizzato alcun errore di console.</li><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
