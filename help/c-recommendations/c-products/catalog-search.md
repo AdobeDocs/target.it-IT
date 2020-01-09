@@ -4,7 +4,7 @@ description: In Adobe Target la ricerca nel catalogo consente di individuare pro
 title: Ricerca nel catalogo in Adobe Target
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 1a1e1a0f2ff802ee630c47ceeb3241c55eb2cb65
+source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 ---
 
@@ -40,7 +40,7 @@ Il catalogo viene aggiornato automaticamente quando si ricevono aggiornamenti tr
 
 Puoi creare [raccolte](/help/c-recommendations/c-products/collections.md) o [esclusioni](/help/c-recommendations/c-products/exclusions.md) utilizzando la Ricerca avanzata nella pagina Ricerca nel catalogo ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as.png)
+![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
 Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] > [!UICONTROL Raccolta o Esclusione].
 
