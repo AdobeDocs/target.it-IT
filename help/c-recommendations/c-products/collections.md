@@ -1,10 +1,10 @@
 ---
-keywords: raccolta;Targeting
+keywords: collection;Targeting
 description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
 title: Raccolte in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -35,7 +35,7 @@ Quando crei o modifichi un’attività di [!DNL Recommendations], il nome della 
 
 Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
-1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Raccolte]** per visualizzare l’elenco delle raccolte esistenti.
+1. Fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Crea raccolta]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]**quando crei (o aggiorni) una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare una raccolta](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Digita un **[!UICONTROL Nome]** per la raccolta.
+1. Digita un **[!UICONTROL Nome]**per la raccolta.
 
    È inoltre possibile immettere una **[!UICONTROL Descrizione facoltativa]**.
 
@@ -61,11 +61,11 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 ## Creare una raccolta utilizzando Ricerca avanzata
 
-Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
+Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-![Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
+![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] &gt; [!UICONTROL Raccolta].
+Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] > [!UICONTROL Raccolta].
 
 >[!IMPORTANT]
 >
@@ -78,4 +78,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
