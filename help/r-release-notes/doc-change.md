@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 ---
 
@@ -18,7 +18,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 6 gennaio 2019 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto relativo allo stato del feed Criteri personalizzati. |
+| 9 gennaio 2020 | [Modifiche alla crittografia di TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Testo aggiornato.<br>Dopo il 1 marzo 2020, Adobe Target non supporterà più la crittografia TLS 1.1 per Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), distribuzione di attività, API e così via. Per evitare problemi, effettua l&#39;aggiornamento a TLS 1.2 prima del 1 marzo 2020. |
+| 6 gennaio 2020 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto relativo allo stato del feed Criteri personalizzati. |
 | 19 dicembre 2019 | [Note sulla versione - Java SDK di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Sono state aggiunte informazioni sulla versione 1.1.0. |
 | 12 dicembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sezione Domande frequenti aggiornata. |
 |  | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Argomento rinominato e aggiunta la sezione seguente: &quot;Comprendere i rapporti Lift and Confidence nelle attività Auto-Allocate.&quot; |
