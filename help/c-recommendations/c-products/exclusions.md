@@ -1,10 +1,10 @@
 ---
-keywords: esclusioni
+keywords: exclusions
 description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione in Adobe Target.
 title: Esclusioni in Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
 
 ---
 
@@ -19,7 +19,7 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 **Per creare un’esclusione:**
 
-1. Fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Esclusioni]** per visualizzare l’elenco delle esclusioni esistenti.
+1. Fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
    ![](assets/exclusions_list.png)
 
@@ -27,11 +27,11 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) un’esclusione per visualizzare in anteprima i contenuti dell’esclusione tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]**quando crei (o aggiorni) un’esclusione per visualizzare in anteprima i contenuti dell’esclusione tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare un’esclusione](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Digita un **[!UICONTROL Nome]** per l’esclusione e immetti una descrizione facoltativa.
+1. Digita un **[!UICONTROL Nome]**per l’esclusione e immetti una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 
@@ -41,11 +41,11 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 ## Creare un’esclusione utilizzando Ricerca avanzata
 
-Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] &gt; [!UICONTROL Ricerca nel catalogo] &gt; [!UICONTROL Ricerca avanzata]).
+Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-[Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
+![Salva con nome](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Dopo aver creato una ricerca utilizzando “id &gt; contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] &gt; [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
+Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
 
 >[!IMPORTANT]
 >
@@ -58,4 +58,4 @@ Questo video contiene le seguenti informazioni:
 * Creare una raccolta
 * Creare un’esclusione
 
->[!VIDEO](https://video.tv.adobe.com/v/27689?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27689)
