@@ -1,10 +1,10 @@
 ---
-keywords: feed di raccomandazioni;feed;SAINT;ftp;csv;classificazioni;classificazioni di analisi
+keywords: recommendations feed;feed;SAINT;ftp;csv;classifications;analytics classifications
 description: I feed consentono di importare le entità in Adobe Recommendations. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e/o le classificazioni di prodotto Adobe Analytics.
 title: Feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
 
 ---
 
@@ -21,7 +21,7 @@ Dal file di classificazioni di prodotto di [!DNL Target] o da quello di Google P
 
 Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
 
-Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]** &gt; **[!UICONTROL Feed]**, sono incluse informazioni su eventuali feed creati.
+Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]**>**[!UICONTROL  Feed]**, sono incluse informazioni su eventuali feed creati.
 
 ![Pagina Feed](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -33,6 +33,14 @@ La pagina Feed contiene le colonne seguenti:
 * **Pianificazione**: visualizza la pianificazione di aggiornamento del feed: Giornaliero, Settimanale, Ogni 2 settimane o Mai.
 * **Elementi**: visualizza il numero di elementi presenti nel feed.
 * **Ultimo aggiornamento**: visualizza la data e l’ora dell’ultimo aggiornamento del feed e il nome della persona che lo ha eseguito. Se per [!UICONTROL Ultimo aggiornamento] è riportata la dicitura “indefinito”, il feed proviene da [!DNL Recommendations Classic] e non può essere modificato in [!DNL Target Premium Recommendations].
+
+>[!IMPORTANT]
+>
+>Le entità caricate e gli attributi di entità scadono dopo 61 giorni. Ciò significa:
+>
+>* Il feed deve essere eseguito almeno mensilmente per garantire che il contenuto del catalogo non scada.
+>* La rimozione di un elemento dal file del feed non rimuove tale elemento dal catalogo. Per rimuovere l&#39;elemento dal catalogo, eliminate manualmente l&#39;elemento tramite l&#39;interfaccia utente o l&#39;API di Target. In alternativa, modificate gli attributi articolo (ad esempio magazzino) per assicurare che l&#39;articolo sia escluso dal corrispettivo.
+
 
 ## CSV {#section_65CC1148C7DD448FB213FDF499D35FCA}
 
@@ -50,7 +58,7 @@ I dati caricati dal file .csv, dal feed di prodotto Google o dal feed di classif
 
 >[!IMPORTANT]
 >
->Non racchiudere i valori tra virgolette doppie (") nel file .csv, a meno che queste non siano intenzionali. Se racchiudi i valori tra virgolette doppie, dovrai racchiuderli in una seconda serie di virgolette. In caso contrario, il feed dei consigli non verrà caricato correttamente.
+>Non racchiudere i valori tra virgolette doppie (&quot;) nel file .csv, a meno che queste non siano intenzionali. Se racchiudi i valori tra virgolette doppie, dovrai racchiuderli in una seconda serie di virgolette. In caso contrario, il feed dei consigli non verrà caricato correttamente.
 
 Ad esempio, la sintassi seguente non è corretta:
 
@@ -66,7 +74,7 @@ La sintassi corretta è:
 
 >[!NOTE]
 >
->Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascrivere un valore, è necessario indicarne uno sostitutivo. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare "NULL" o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
+>Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascrivere un valore, è necessario indicarne uno sostitutivo. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare &quot;NULL&quot; o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
 
 Il prodotto è disponibile nell’interfaccia di amministrazione circa due ore dopo il corretto caricamento della relativa entità.
 
@@ -200,7 +208,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
-1. Nell’interfaccia di Target, fai clic su **[!UICONTROL Consigli]** &gt; **[!UICONTROL Feed]** &gt; **[!UICONTROL Crea feed]**.
+1. Nell’interfaccia di Target, fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Feed]** > **[!UICONTROL Crea feed]**.
 
    ![Finestra di dialogo Crea feed](assets/CreateFeed.png)
 
@@ -212,7 +220,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Classificazioni Analytics
    Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
+1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]**o**[!UICONTROL  Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
    * **FTP**: se hai selezionato FTP, indica le informazioni relative al server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare il protocollo FTP con SSL (FTPS).
 
@@ -227,7 +235,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL Classificazioni Analytics]**, scegli la suite di rapporti dal relativo elenco a discesa.
 
-1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Pianificazione].
+1. Fai clic sulla freccia **[!UICONTROL Successivo]**per visualizzare le opzioni di[!UICONTROL Pianificazione].
 
    ![Risultato passaggio](assets/CreateFeedSchedule.png)
 
@@ -242,7 +250,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
    Questa opzione si basa sul fuso orario utilizzato nel browser. Se desideri utilizzare l’orario di un fuso orario diverso, dovrai calcolarlo in base al tuo fuso orario attuale.
 
-1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Mappatura], quindi specifica come eseguire la mappatura dei dati per le definizioni di [!DNL Target].
+1. Fai clic sulla freccia **[!UICONTROL Successivo]**per visualizzare le opzioni di[!UICONTROL Mappatura], quindi specifica come eseguire la mappatura dei dati per le definizioni di[!DNL Target].
 
    ![Risultato passaggio](assets/CreatFeedMapping.png)
 
@@ -275,7 +283,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Attesa del download | Target si sta preparando per il download del file di feed. |
 | Download del file di feed | Target sta eseguendo il download del file di feed. |
 | Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. |
-| Feed importato correttamente alle *ora* | Target ha importato il file di feed nel suo sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno visibili nei consigli distribuiti. Qualora non lo fossero, riprova più tardi e aggiorna la pagina contenente i consigli.<br>*Nota 1:* se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, tale esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento *non viene più* escluso dai consigli, questo verrà applicato al successivo aggiornamento dell’algoritmo, che si verifica entro 24 ore.<br>*Nota 2:* quando viene visualizzato questo stato, è possibile che gli aggiornamenti non risultino ancora visibili nell’interfaccia utente di Ricerca nel catalogo. In Ricerca nel catalogo viene visualizzato uno stato separato che indica quando è avvenuto l’ultimo aggiornamento del catalogo ricercabile. |
+| Feed importato correttamente alle *ora* | Target ha importato il file di feed nel suo sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno visibili nei consigli distribuiti. Qualora non lo fossero, riprova più tardi e aggiorna la pagina contenente i consigli.<br>*Nota 1:*se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, tale esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento* non viene più&#x200B;*escluso dai consigli, questo verrà applicato al successivo aggiornamento dell’algoritmo, che si verifica entro 24 ore.<br>*Nota 2:* quando viene visualizzato questo stato, è possibile che gli aggiornamenti non risultino ancora visibili nell’interfaccia utente di Ricerca nel catalogo. In Ricerca nel catalogo viene visualizzato uno stato separato che indica quando è avvenuto l’ultimo aggiornamento del catalogo ricercabile. |
 | Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
@@ -322,7 +330,7 @@ Questo video contiene le seguenti informazioni:
 * Comprendere lo scopo dei feed
 * Comprendere il valore dei feed
 
->[!VIDEO](https://video.tv.adobe.com/v/27695?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27695)
 
 ### Creare un feed (6:44)
 
@@ -331,4 +339,4 @@ Questo video contiene le seguenti informazioni:
 * Impostare un feed
 * Quale tipo di feed usare
 
->[!VIDEO](https://video.tv.adobe.com/v/27696?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27696)
