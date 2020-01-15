@@ -1,20 +1,16 @@
 ---
-keywords: contenuto misto;sicuro;non sicuro;chrome;risoluzione dei problemi;compositore esperienza visivo;non protetto
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
 description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
-title: Consentire contenuti misti nel browser
+title: Abilitazione di contenuti misti nel browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
 
 ---
 
 
-# Consentire contenuti misti nel browser{#enabling-mixed-content-in-your-browser}
-
-Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
-
-## Consentire contenuti misti nel browser {#concept_46D022D50280468C9EF6D5DF6EFC911C}
+# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
 Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
 
@@ -34,7 +30,37 @@ Se il sito web è in esecuzione su un dominio non protetto (HTTP), è necessario
 
 Per ulteriori informazioni, vedi la sezione sui [contenuto misti](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) nel sito web di *Mozilla Developer Network* (MDN).
 
-## Consentire contenuti misti in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Enabling mixed content in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+
+Se stai visitando un sito tramite una connessione sicura, Google Chrome verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
+
+<!-- 
+
+target/t_mixed_content_chrome.xml
+
+ -->
+
+Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
+
+### Video di formazione: Attiva VEC in Chrome (Gen. 2020)
+
+Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non dovranno completare questi passaggi.
+
+>[!VIDEO](https://www.youtube.com/watch?v=6zGCi5Y8eVo&feature=youtu.be)
+
+Il video riportato sopra illustra i passaggi necessari:
+
+1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Impostazioni sito.
+
+   ![Impostazioni sito](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
+
+1. Scorri fino al contenuto non protetto, quindi usa l&#39;elenco a discesa per cambiare Blocca (impostazione predefinita) in Consenti.
+
+   ![Contenuto non protetto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
+
+1. Ricaricare la pagina VEC.
+
+## Enabling mixed content in Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Per impostazione predefinita, Firefox blocca le pagine che contengono un misto di contenuti protetti e non protetti. Si consiglia di modificare definitivamente questa impostazione per utilizzare [!DNL Target].
 
@@ -49,9 +75,9 @@ target/t_mixed_content_firefox.xml
 1. Nella barra di ricerca digita `block_active`.
 1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
-   Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “Falso”, l'operazione è completata.  È consigliabile riavviare il computer dopo aver modificato questa impostazione.
+   Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “Falso”, l&#39;operazione è completata.  È consigliabile riavviare il computer dopo aver modificato questa impostazione.
 
-## Consentire contenuti misti in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
+## Enabling mixed content in Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
 
 Per impostazione predefinita, Internet Explorer blocca le pagine che contengono un misto di contenuti protetti e non protetti. È consigliabile modificare in modo permanente questa impostazione per utilizzare Target Standard.
 
@@ -61,23 +87,12 @@ target/t_mixed_content_ie.xml
 
  -->
 
-1. In Internet Explorer, fai clic sull’icona Impostazioni &gt; **[!UICONTROL Opzioni Internet]**.
+1. In Internet Explorer, fai clic sull’icona Impostazioni > **[!UICONTROL Opzioni Internet]**.
 1. Apri la scheda [!UICONTROL Sicurezza.]
-1. Seleziona **[!UICONTROL Internet]**, quindi fai clic su **[!UICONTROL Livello personalizzato]**.
+1. Seleziona **[!UICONTROL Internet]**, quindi fai clic su**[!UICONTROL  Livello personalizzato]**.
 1. Seleziona **[!UICONTROL Varie]**.
 1. In [!UICONTROL Varie], abilita **[!UICONTROL Visualizza contenuto misto]**.
-1. Fai clic su **[!UICONTROL OK]** &gt; **[!UICONTROL Sì]** &gt; **[!UICONTROL Applica]**.
+1. Fai clic su **[!UICONTROL OK]**>**[!UICONTROL  Sì]** > **[!UICONTROL Applica]**.
 
 È consigliabile riavviare il computer dopo aver modificato questa impostazione.
 
-## Consentire contenuti misti in Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
-
-Se stai visitando un sito tramite una connessione sicura, Google Chrome verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
-
-<!-- 
-
-target/t_mixed_content_chrome.xml
-
- -->
-
-Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
