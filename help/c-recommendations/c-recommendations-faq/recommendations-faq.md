@@ -1,10 +1,10 @@
 ---
-keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
 description: Elenco delle domande frequenti sulle attività di Adobe Target Recommendations.
 title: Domande frequenti su Adobe Target Recommendations
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
 
 ---
 
@@ -35,7 +35,7 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
-Utilizza i valori di escape in JavaScript. Le virgolette (") possono interrompere l’array. Lo snippet di codice seguente è un esempio di valori di escape:
+Utilizza i valori di escape in JavaScript. Le virgolette (&quot;) possono interrompere l’array. Lo snippet di codice seguente è un esempio di valori di escape:
 
 ```
 #set($String='') 
@@ -62,7 +62,7 @@ L’impostazione [Filtra criteri incompatibili](../../c-recommendations/plan-imp
 >
 >Questa impostazione è valida solo per le attività create nel Compositore esperienza visivo. Non è applicabile alle attività create nel Compositore esperienza basato su moduli (Target non dispone di contesto di posizione).
 
-Per accedere all’impostazione [!UICONTROL Filtra criteri incompatibili], fai clic su [!UICONTROL Consigli] &gt; [!UICONTROL Impostazioni]:
+Per accedere all’impostazione [!UICONTROL Filtra criteri incompatibili], fai clic su [!UICONTROL Consigli] > [!UICONTROL Impostazioni]:
 
 ![](assets/recs_settings_filter.png)
 
@@ -115,7 +115,7 @@ Target a volte non può mostrare consigli a causa del basso numero di consigli d
 
 Il numero di valori generati per criterio è pari a 3 volte il numero di entità specificato nel modello. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 3x, quindi è possibile finire con meno di 3x valori al momento della consegna. Per limitare questa situazione, aumenta il numero di entità nel modello nascondendo altre entità.
 
-Il seguente JavaScript può essere utilizzato all'inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 30 (3x10).
+Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 30 (3x10).
 
 ```
 #foreach($entity in $entities) 
@@ -138,7 +138,7 @@ Durante la creazione di un criterio di Consigli, promozioni o una regola di test
 
 Per selezionare il parametro desiderato:
 
-* Mentre crei un nuovo criterio, una promozione o una regola di test di modelli, seleziona il nome di un parametro dall'elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
+* Mentre crei un nuovo criterio, una promozione o una regola di test di modelli, seleziona il nome di un parametro dall&#39;elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
 * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
 
 Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il criterio, la promozione o la regola di test di modelli funzioneranno sulla base del parametro su tutte le mboxes che trasmettono tale parametro.
@@ -147,7 +147,7 @@ Se modifichi una regola di test di criteri, una promozione o un criterio, i crit
 
 ## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
-Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l'attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
+Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l&#39;attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
@@ -159,12 +159,32 @@ Nella stringa di query, puoi trasmettere gli ID per le entità da escludere dai 
 
 Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta delle raccomandazioni.
 
-L'esclusione viene eseguita solo per la chiamata Target corrente; gli elementi non sono esclusi dalle chiamate Target successive, a meno che il `excludedIds` valore non venga nuovamente passato. Per escludere gli elementi nel carrello dalle raccomandazioni su ogni pagina, continuate a trasmettere il `excludedIds` valore su ogni pagina.
+L&#39;esclusione viene eseguita solo per la chiamata Target corrente; gli elementi non sono esclusi dalle chiamate Target successive, a meno che il `excludedIds` valore non venga nuovamente passato. Per escludere gli elementi nel carrello dalle raccomandazioni su ogni pagina, continuate a trasmettere il `excludedIds` valore su ogni pagina.
 
 >[!NOTE]
 >
 >Se escludi troppe entità, i consigli si comportano come se non ci fossero abbastanza entità per riempire il modello di consigli.
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando l'URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
+To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
+
+## Cosa significa la risposta NO_CONTENT restituita talvolta nella traccia di contenuto di Recommendations?
+
+NO_CONTENT viene restituito quando le raccomandazioni non sono disponibili per l&#39;algoritmo e la combinazione di chiavi richiesti. In genere, ciò si verifica quando i backup vengono disabilitati per l&#39;algoritmo e anche una o più delle seguenti situazioni è vera:
+
+* I risultati non sono ancora pronti.
+
+   Ciò si verifica in genere quando si salva un&#39;attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell&#39;attività.
+
+* I risultati sono pronti, ma non ancora memorizzati nella cache del server periferico più vicino, per la combinazione di tasti/algoritmo richiesta.
+
+   La richiesta appena effettuata avvierà un&#39;operazione di caching, quindi questa si risolve automaticamente dopo alcuni ricarichi di pagina e/o pochi minuti.
+
+* I risultati sono pronti, ma non disponibili per il valore chiave fornito.
+
+   Ciò si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l&#39;esecuzione dell&#39;algoritmo più recente e si risolve automaticamente dopo l&#39;esecuzione dell&#39;algoritmo successivo.
+
+* Il rendering parziale del modello è disattivato e non sono disponibili risultati sufficienti per compilare il modello.
+
+   Ciò si verifica in genere quando si dispone di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare questo problema, abilitate i backup e non applicate la regola di inclusione ai backup, né utilizzate i criteri in sequenza con criteri filtrati meno aggressivi.
