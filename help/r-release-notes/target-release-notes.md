@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
+source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 5b13ad02691a685dd76db2b390e030f8aef30dd9
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 8 gennaio 2020**
+**Ultimo aggiornamento: 22 gennaio 2020**
 
 >[!NOTE]
 >
@@ -22,9 +22,9 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 >
 >I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Target Standard/Premium 20.1.1 (22 gennaio 2020)
+## Target Standard/Premium 20.1.1 (29 gennaio 2020)
 
-La versione di Target Standard/Premium 20.1.1 sarà il 22 gennaio 2020. Le funzioni e i miglioramenti saranno annunciati qui.
+La versione di Target Standard/Premium 20.1.1 sarà il 29 gennaio 2020. Le funzioni e i miglioramenti saranno annunciati qui.
 
 >[!IMPORTANT]
 >
