@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 23 gennaio 2020 | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta una nota per utilizzare il calcolatore delle dimensioni del campione di Adobe Target per determinare il vincitore. |
+|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targePageParams`. |
 | 22 gennaio 2020 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiornate le seguenti domande frequenti: &quot;È possibile utilizzare il calcolatore delle dimensioni del campione quando si utilizza Auto-Allocate per stimare quanto tempo l&#39;attività impiegherà per identificare il vincitore?&quot; |
 | 15 gennaio 2020 | [Abilitazione di contenuti misti nel browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | È stato aggiunto un video di formazione e istruzioni per spiegare come aggiornare le impostazioni del sito per consentire contenuti misti nell&#39;ultima versione di Chrome. |
 |  | [Feed](/help/c-recommendations/c-products/feeds.md) | Aggiunta nota sul caricamento e la rimozione di entità e attributi di entità. |
