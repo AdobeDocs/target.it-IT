@@ -1,10 +1,10 @@
 ---
-keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
+keywords: entity;entity attributes;pass information to Recommendations;behavioral data;data counter;define relative URL;display inventory level;define price;define profit margin;custom attributes
 description: Utilizza gli attribuiti di entità per trasmettere informazioni su prodotti o contenuti alla funzione Consigli.
 title: Attributi di entità
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
@@ -61,7 +61,7 @@ Ad esempio, nel codice seguente la categoria Womens viene divisa in varie sottoc
 mboxCreate('mboxName', 'entity.id=343942-32', 'entity.categoryId= Womens, Womens:Outerwear, Womens:Outerwear:Jackets, Womens:Outerwear:Jackets:Parka, Womens:Outerwear:Jackets:Caban’, 'entity.thumbnailUrl=...', 'entity.message=...', );
 ```
 
-Per la distribuzione mbox, viene utilizzato il nome di attributo più lungo per la chiave. Se c'è un pareggio, viene utilizzato l'ultimo attributo. Nell'esempio precedente, il tasto della categoria è Womens:Outerwear:Jackets:Caban.
+Per la distribuzione mbox, viene utilizzato il nome di attributo più lungo per la chiave. Se c&#39;è un pareggio, viene utilizzato l&#39;ultimo attributo. Nell&#39;esempio precedente, il tasto della categoria è Womens:Outerwear:Jackets:Caban.
 
 ### `entity.brand`
 
@@ -75,7 +75,7 @@ Esempio: `'entity.brand=brandxyz'`
 
 Solo valore singolo.
 
-Definisce l'URL relativo della pagina nella quale l'elemento può essere acquistato.
+Definisce l&#39;URL relativo della pagina nella quale l&#39;elemento può essere acquistato.
 
 Esempio: `'entity.pageUrl=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
 
@@ -83,7 +83,7 @@ Esempio: `'entity.pageUrl=baseball/giants-tix/giantsvrockies5.12.2000-67833'`
 
 Solo valore singolo.
 
-Definisce l'URL relativo all'immagine di miniatura visualizzata con l'elemento.
+Definisce l&#39;URL relativo all&#39;immagine di miniatura visualizzata con l&#39;elemento.
 
 Esempio: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
@@ -99,11 +99,11 @@ Esempio: `'entity.message=Family&nbsp;special'`
 
 Solo valore singolo. Richiede un valore intero o lungo.
 
-Visualizza il livello di inventario dell'elemento.
+Visualizza il livello di inventario dell&#39;elemento.
 
 Esempio: `'entity.inventory=1'`
 
-**Gestione attributi inventario vuoti:** per la consegna, se disponi di una regola di inclusione, una regola di raccolta o un’impostazione dei criteri con `entity.inventory` &gt; 0 o `entity.inventory` = 0 e il prodotto non ha impostato l’inventario, [!DNL Target] restituisce il valore TRUE e include i prodotti in cui l’inventario non è impostato. Questa operazione è stata eseguita per impostazione predefinita, in modo che i prodotti con inventario non vengano visualizzati nei risultati di consigli.
+**Gestione attributi inventario vuoti:** per la consegna, se disponi di una regola di inclusione, una regola di raccolta o un’impostazione dei criteri con `entity.inventory` > 0 o `entity.inventory` = 0 e il prodotto non ha impostato l’inventario, [!DNL Target] restituisce il valore TRUE e include i prodotti in cui l’inventario non è impostato. Questa operazione è stata eseguita per impostazione predefinita, in modo che i prodotti con inventario non vengano visualizzati nei risultati di consigli.
 
 Analogamente, se si dispone di una regola di esclusione globale con `entity.inventory` = 0 e `entity.inventory` non è impostato, [!DNL Target] valuta questa regola in modo che sia TRUE ed esclude il prodotto.
 
@@ -113,7 +113,7 @@ Analogamente, se si dispone di una regola di esclusione globale con `entity.inve
 
 Solo valore singolo.
 
-Definisce il prezzo o il valore dell'elemento.
+Definisce il prezzo o il valore dell&#39;elemento.
 
 Esempio: `'entity.value=15.99'`
 
@@ -121,7 +121,7 @@ Esempio: `'entity.value=15.99'`
 
 Solo valore singolo.
 
-Il margine di profitto o altro valore dell'elemento.
+Il margine di profitto o altro valore dell&#39;elemento.
 
 Esempio: `'entity.margin=1.00'`
 
@@ -179,7 +179,11 @@ La funzione Consigli invia il `productId` o `productPurchasedId` (cui viene fatt
 
 La maggior parte dei parametri predefiniti accetta un solo valore, con i nuovi valori che sovrascrivono i vecchi valori. Il parametro `categoryId` può accettare un elenco di valori delimitato da virgole per ogni categoria contenente quel prodotto. I nuovi valori `categoryId` non sovrascrivono quelli esistenti ma vengono aggiunti durante l’aggiornamento dell’entità (limite di 250 caratteri).
 
-In generale, l'elemento mbox delle informazioni di visualizzazione sarà simile a quello del seguente esempio. Modifica i dettagli in grassetto per fare riferimento ai tuoi prodotti.
+In generale, la mbox delle informazioni di visualizzazione potrebbe essere simile all&#39;esempio seguente se utilizzate at.js 1.*x* con `mboxCreate`.
+
+>[!NOTE]
+>
+>Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, utilizzate i seguenti metodi API: [getOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md), [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md), [applyOffer](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md)o [applyOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffers-atjs-2.md).
 
 >[!NOTE]
 >
@@ -227,9 +231,9 @@ mboxCreate('productPage',
 
 >[!NOTE]
 >
->Per `pageUrl` e `thumbnailUrl` gli URL relativi sono preferiti agli URL assoluti poiché i consigli ricevono i dati inviati da tutti gli ambienti sul sito. L'utilizzo degli URL relativi evita collegamenti fissi a un server di preproduzione o di sviluppo.
+>Per `pageUrl` e `thumbnailUrl` gli URL relativi sono preferiti agli URL assoluti poiché i consigli ricevono i dati inviati da tutti gli ambienti sul sito. L&#39;utilizzo degli URL relativi evita collegamenti fissi a un server di preproduzione o di sviluppo.
 
-Se l'elemento mbox si trova su una pagina di prodotto, puoi includere sia l'ID prodotto che l'ID categoria. L'algoritmo selezionato determina quale verrà visualizzato. L'ID prodotto è utilizzato per gli algoritmi di affinità e l'ID categoria per gli algoritmi di categoria.
+Se l&#39;elemento mbox si trova su una pagina di prodotto, puoi includere sia l&#39;ID prodotto che l&#39;ID categoria. L&#39;algoritmo selezionato determina quale verrà visualizzato. L&#39;ID prodotto è utilizzato per gli algoritmi di affinità e l&#39;ID categoria per gli algoritmi di categoria.
 
 ## Argomenti correlati:
 
