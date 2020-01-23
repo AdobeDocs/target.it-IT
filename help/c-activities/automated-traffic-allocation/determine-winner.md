@@ -5,24 +5,24 @@ title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 9937bf3f9f2675f43de535d8a09c493769b060be
+source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
 
 ---
 
 
 # Interpreta rapporti di allocazione automatica {#determine-a-winner}
 
-Interpretate i risultati di un'attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell'interfaccia di Target.
+Interpretate i risultati di un&#39;attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell&#39;interfaccia di Target.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
 
-## Identificare l'esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identificare l&#39;esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
-Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell'attività che indica “Ancora nessun vincitore” finché l'attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
+Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
 
 ![Indicatore Nessun vincitore](/help/c-activities/automated-traffic-allocation/assets/no-winner.png)
 
-Quando viene dichiarata l'esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
+Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
 ![](assets/auto_traffic_winner.png)
 
@@ -32,33 +32,37 @@ Quando viene dichiarata l'esperienza migliore, in [!DNL Target] appare la scritt
 
 ## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
-Al termine di un'attività A/B, Allocazione automatica garantisce che il vincitore determinato abbia un tasso di falso positivo efficace del 5%. Questo significa che solo per il 5% del tempo, il vincitore determinato non è in realtà la migliore esperienza tra tutte le esperienze nell'attività. Per un test A/A (con esperienze identiche), concludiamo un test inferiore al 5% del tempo. Il comportamento previsto per un test A/A (con esperienze identiche) è l'esecuzione indefinita e quindi il badge del vincitore non dovrebbe mai apparire.
+Al termine di un&#39;attività A/B, Allocazione automatica garantisce che il vincitore determinato abbia un tasso di falso positivo efficace del 5%. Questo significa che solo per il 5% del tempo, il vincitore determinato non è in realtà la migliore esperienza tra tutte le esperienze nell&#39;attività. Per un test A/A (con esperienze identiche), concludiamo un test inferiore al 5% del tempo. Il comportamento previsto per un test A/A (con esperienze identiche) è l&#39;esecuzione indefinita e quindi il badge del vincitore non dovrebbe mai apparire.
 
-Non utilizziamo l’affidabilità basata sul valore p per l'Allocazione automatica.
+Non utilizziamo l’affidabilità basata sul valore p per l&#39;Allocazione automatica.
 
-La colonna Affidabilità in un'attività di Allocazione automatica (illustrata di seguito) visualizza la probabilità che un'esperienza sia il vincitore entro l'1% di margine di errore (cioè l'algoritmo utilizza un effetto minimo rilevabile dell'1% tra il tasso di conversione migliore e il secondo migliore). L'algoritmo utilizza la [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) per calcolare questa probabilità.
+La colonna Affidabilità in un&#39;attività di Allocazione automatica (illustrata di seguito) visualizza la probabilità che un&#39;esperienza sia il vincitore entro l&#39;1% di margine di errore (cioè l&#39;algoritmo utilizza un effetto minimo rilevabile dell&#39;1% tra il tasso di conversione migliore e il secondo migliore). L&#39;algoritmo utilizza la [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) per calcolare questa probabilità.
 
-I test A/B normali calcolano l’affidabilità in base ai valori p. L'Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un’esperienza è diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
+I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un’esperienza è diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
 
-Nell'illustrazione seguente viene mostrata un'attività che non ha ancora un vincitore:
+Nell&#39;illustrazione seguente viene mostrata un&#39;attività che non ha ancora un vincitore:
 
 ![](assets/no_winner.png)
 
-Nell'illustrazione seguente viene mostrata un'attività che ha un vincitore:
+Nell&#39;illustrazione seguente viene mostrata un&#39;attività che ha un vincitore:
 
 ![](assets/winner_found.png)
 
+>[!IMPORTANT]
+>
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati del calcolatore [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione di Adobe Target. In Target non vengono considerati i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
+
 ## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
 
-Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di "controllo" nella scheda Rapporti. Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come riferimento o previsione per alcune figure del rapporto.
+Nelle attività di allocazione automatica, la prima esperienza (per impostazione predefinita denominata Esperienza A) è sempre definita come esperienza di &quot;controllo&quot; nella scheda Rapporti. Questa esperienza non viene trattata come un vero controllo statistico nella modellazione utilizzata per determinare le prestazioni delle esperienze, ma viene trattata come riferimento o previsione per alcune figure del rapporto.
 
-Il valore numerico "Lift" e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all'esperienza "Control" definita. L'esperienza "Control" definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore "—" vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un'esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato "—".
+Il valore numerico &quot;Lift&quot; e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all&#39;esperienza &quot;Control&quot; definita. L&#39;esperienza &quot;Control&quot; definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore &quot;—&quot; vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un&#39;esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato &quot;—&quot;.
 
-Le barre dell'intervallo di confidenza visualizzato rappresentano l'intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un'esperienza. Sono anche codificati in base al colore rispetto all'esperienza "Control" definita. La barra dell'esperienza "Control" è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell'intervallo di confidenza dell'esperienza "Control" sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell'esperienza "Control" sono colorate di verde.
+Le barre dell&#39;intervallo di confidenza visualizzato rappresentano l&#39;intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un&#39;esperienza. Sono anche codificati in base al colore rispetto all&#39;esperienza &quot;Control&quot; definita. La barra dell&#39;esperienza &quot;Control&quot; è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell&#39;intervallo di confidenza dell&#39;esperienza &quot;Control&quot; sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell&#39;esperienza &quot;Control&quot; sono colorate di verde.
 
-Un vincitore si trova quando l'intervallo di confidenza del 95% dell'esperienza principale non si sovrappone ad altre esperienze. L'esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell'esperienza e nel banner "Vincitore". Quando nessuna stella è visibile, il banner recita "No Winner yet" (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
+Un vincitore si trova quando l&#39;intervallo di confidenza del 95% dell&#39;esperienza principale non si sovrappone ad altre esperienze. L&#39;esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell&#39;esperienza e nel banner &quot;Vincitore&quot;. Quando nessuna stella è visibile, il banner recita &quot;No Winner yet&quot; (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
 
-Un numero "Confidence" viene riportato anche accanto all'esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando la confidenza dell'esperienza principale non raggiunge almeno il 60%. Se esattamente due esperienze sono presenti nell'esperimento Allocazione automatica, questo numero rappresenta il livello di confidenza con cui l'esperienza ha prestazioni migliori rispetto all'altra esperienza. Se nell'esperimento Auto-Allocate sono presenti più di due esperienze, questo numero rappresenta il livello di confidenza con cui l'esperienza viene eseguita meglio dell'esperienza "Control" definita. Se l'esperienza "Control" è vincente, non viene segnalata alcuna figura "Confidence".
+Un numero &quot;Confidence&quot; viene riportato anche accanto all&#39;esperienza attualmente leader o vincente. Questa cifra viene riportata solo fino a quando la confidenza dell&#39;esperienza principale non raggiunge almeno il 60%. Se esattamente due esperienze sono presenti nell&#39;esperimento Allocazione automatica, questo numero rappresenta il livello di confidenza con cui l&#39;esperienza ha prestazioni migliori rispetto all&#39;altra esperienza. Se nell&#39;esperimento Auto-Allocate sono presenti più di due esperienze, questo numero rappresenta il livello di confidenza con cui l&#39;esperienza viene eseguita meglio dell&#39;esperienza &quot;Control&quot; definita. Se l&#39;esperienza &quot;Control&quot; è vincente, non viene segnalata alcuna figura &quot;Confidence&quot;.
 
 ## Domande frequenti {#section_C8E068512A93458D8C006760B1C0B6A2}
 
@@ -66,12 +70,12 @@ Un numero "Confidence" viene riportato anche accanto all'esperienza attualmente 
 
 Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività viene visualizzato 0% per i seguenti motivi:
 
-* I test A/B manuali e l'allocazione automatica utilizzano statistiche diverse per visualizzare i valori di affidabilità.
+* I test A/B manuali e l&#39;allocazione automatica utilizzano statistiche diverse per visualizzare i valori di affidabilità.
 
-   I test A/B manuali utilizzano valori p basati sul [test t di Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valore p rappresenta la probabilità di trovare la differenza osservata (o una differenza maggiore) tra un’esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori p possono essere utilizzati solo per determinare se i dati osservati sono coerenti quando un’esperienza specifica e il controllo sono uguali. Questi valori non possono essere utilizzati per determinare se un'esperienza è diversa da un'altra esperienza (non controllo).
+   I test A/B manuali utilizzano valori p basati sul [test t di Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valore p rappresenta la probabilità di trovare la differenza osservata (o una differenza maggiore) tra un’esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori p possono essere utilizzati solo per determinare se i dati osservati sono coerenti quando un’esperienza specifica e il controllo sono uguali. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
 
-   L'allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell'attività. Questo significa che solo un'esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
+   L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L'allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l'esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di confidenza vengono generalmente visualizzati in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control's conversion-rate in "Baseline conversion rate," "5%" for "Lift," and 95% for "Confidence." In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un'idea di quando potrai iniziare a vedere valori di affidabilità.
+* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di confidenza vengono generalmente visualizzati in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
 
