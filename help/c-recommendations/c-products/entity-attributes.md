@@ -4,7 +4,7 @@ description: Utilizza gli attribuiti di entità per trasmettere informazioni su 
 title: Attributi di entità
 uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 2ee61d04c9afcb79be980f70fe5ecedcd5eefa9f
+source-git-commit: 96b62977729064da624e3b8fc951bbef3f9a36c1
 
 ---
 
@@ -183,7 +183,7 @@ In generale, la mbox delle informazioni di visualizzazione potrebbe essere simil
 
 >[!NOTE]
 >
->Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, utilizza [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md).
+>Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, utilizza [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio di ciò, vedete [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
 
 >[!NOTE]
 >
