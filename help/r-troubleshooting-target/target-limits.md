@@ -5,14 +5,14 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 64a0813c1ae2600911d00c56980fcac62b2e8144
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
 
 # Limiti{#limits}
 
-Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
+Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 
 >[!NOTE]
 >
@@ -114,9 +114,11 @@ Per le chiamate mbox standard:
 
 Questi limiti possono essere applicati a meno che la richiesta non venga ridotta a causa di limiti del browser web.
 
-Se utilizzi [l’API di distribuzione in batch](https://developers.adobetarget.com/api/#server-side-batch-delivery)nell’SDK dei Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l'API di distribuzione in batch. Se una richiesta contiene più di questi limiti, l'API restituirà il seguente messaggio di errore:
+Se utilizzate l&#39;API di consegna batch, il limite è di 50 mbox per ogni richiesta batch.
 
-"Il numero di mboxParameters non può superare 50."
+Se utilizzi [l’API di distribuzione in batch](https://developers.adobetarget.com/api/#server-side-batch-delivery)nell’SDK dei Mobile Services, il limite di 50 parametri mbox, 50 parametri del profilo e 50 per altri tipi di parametri sono limitazioni dell’API stessa. Non è possibile inviare una richiesta contenente numeri superiori a questi utilizzando l&#39;API di distribuzione in batch. Se una richiesta contiene più di questi limiti, l&#39;API restituirà il seguente messaggio di errore:
+
+&quot;Il numero di mboxParameters non può superare 50.&quot;
 
 Limiti impostati per gli endpoint:
 
