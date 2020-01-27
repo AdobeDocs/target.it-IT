@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
 
 ---
 
@@ -18,8 +18,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 27 gennaio 2020 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiunte le seguenti informazioni: &quot;Se utilizzate l&#39;API di consegna batch, il limite è 50 mbox per ogni richiesta batch.&quot; |
+| 27 gennaio 2020 | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Aggiunta nuova sezione: &quot;Adobe Blogs.&quot; |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiunte le seguenti informazioni: &quot;Se utilizzate l&#39;API di consegna batch, il limite è 50 mbox per ogni richiesta batch.&quot; |
 |  | [Risorse e informazioni di contatto](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Collegamento aggiornato per aprire un ticket di supporto. |
+|  | [Rapporto di riepilogo del Targeting automatico](/help/c-reports/auto-target-summary-report.md) | Aggiornati testo e immagini. |
 | 23 gennaio 2020 | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta una nota per utilizzare il calcolatore delle dimensioni del campione di Adobe Target per determinare il vincitore. |
 |  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targetPageParams`. |
 | 22 gennaio 2020 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiornate le seguenti domande frequenti: &quot;È possibile utilizzare il calcolatore delle dimensioni del campione quando si utilizza Auto-Allocate per stimare quanto tempo l&#39;attività impiegherà per identificare il vincitore?&quot; |
