@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: abaa0d1c2fa19e914f708f5ffdacdba2eed56d03
+source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
 
 ---
 
@@ -18,8 +18,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 27 gennaio 2020 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiunte le seguenti informazioni: &quot;Se utilizzate l&#39;API di consegna batch, il limite è 50 mbox per ogni richiesta batch.&quot; |
+|  | [Risorse e informazioni di contatto](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Collegamento aggiornato per aprire un ticket di supporto. |
 | 23 gennaio 2020 | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta una nota per utilizzare il calcolatore delle dimensioni del campione di Adobe Target per determinare il vincitore. |
-|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targePageParams`. |
+|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targetPageParams`. |
 | 22 gennaio 2020 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiornate le seguenti domande frequenti: &quot;È possibile utilizzare il calcolatore delle dimensioni del campione quando si utilizza Auto-Allocate per stimare quanto tempo l&#39;attività impiegherà per identificare il vincitore?&quot; |
 | 15 gennaio 2020 | [Abilitazione di contenuti misti nel browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | È stato aggiunto un video di formazione e istruzioni per spiegare come aggiornare le impostazioni del sito per consentire contenuti misti nell&#39;ultima versione di Chrome. |
 |  | [Feed](/help/c-recommendations/c-products/feeds.md) | Aggiunta nota sul caricamento e la rimozione di entità e attributi di entità. |
