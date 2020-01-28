@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: d5e5e90d7f4872d3ecdef29d0f004538d9470355
 
 ---
 
@@ -16,7 +16,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
 
 
 
-**Ultimo aggiornamento: 27 gennaio 2020**
+**Ultimo aggiornamento: 28 gennaio 2020**
 
 >[!NOTE]
 >
@@ -32,7 +32,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
    Per informazioni dettagliate sul possibile impatto e sui passi che potrebbero essere necessari per aggiornare l&#39;implementazione, vedete Modifiche [alla crittografia](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md)TLS (Transport Layer Security).
 
 
-## Target Standard/Premium 20.1.1 (29 gennaio 2020)
+## Target Standard/Premium 20.1.1 (4 febbraio 2020)
 
 Target Standard/Premium 20.1.1 è una versione di manutenzione che include miglioramenti e miglioramenti back-end. Sono state inoltre introdotte le seguenti correzioni:
 
