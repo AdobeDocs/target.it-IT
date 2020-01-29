@@ -1,12 +1,12 @@
 ---
-keywords: rapporti;bloccare indirizzo ip;bloccare visitatore da indirizzo ip;scaricare rapporti;csv
+keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: I rapporti forniscono informazioni sulle prestazioni delle attività
 title: Rapporti
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1e6e91e90e78524019ea5dc4595d22993c2124eb
 
 ---
 
@@ -52,19 +52,25 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
    Nella legenda vengono visualizzate le seguenti informazioni:
 
    * Lo stato dell’attività, compreso l’intervallo di date in cui l’attività è stata eseguita.
-   * L’esperienza vincente prevista (se disponibile).
+   * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
    >[!NOTE]
    >
    >I risultati dell’esperienza compaiono dopo che questa è stata vista almeno da un partecipante.
 
 1. (Facoltativo) [Configura il rapporto](../c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA) come desideri.
-1. (Facoltativo) [Scarica il rapporto in formato CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) per l'analisi in Excel e altri programmi.
+1. (Facoltativo) [Scarica il rapporto in formato CSV](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) per l&#39;analisi in Excel e altri programmi.
 
    Sono disponibili le seguenti opzioni:
 
    * [!UICONTROL Esportare un rapporto in formato CSV]
    * [!UICONTROL Esportare i dettagli ordine in CSV]
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Vista tabella]** e **[!UICONTROL Vista grafico]** per passare da un formato di reporting all’altro.
+1. (Facoltativo) Fai clic su **[!UICONTROL Vista tabella]**e**[!UICONTROL  Vista grafico]** per passare da un formato di reporting all’altro.
 
-   Solo per i test multivariati, fai clic sull’icona **[!UICONTROL Contributo posizione]** (icona ![Contributo posizione](assets/icon_location_contribution.png)) per far sì che il rapporto mostri il contributo in base alla posizione.
+   A seconda del tipo di rapporto selezionato, potrebbero essere disponibili altre viste e rapporti:
+
+   | Tipo di report | Visualizzazione |
+   | --- | --- |
+   | Targeting automatico | Fate clic sulle icone Segmenti ****automatizzati o Attributi**** importanti.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.</li></ul> |
+   | Personalizzazione automatizzata | Oltre ai rapporti [Sintetico personalizzazione](/help/c-reports/reports-ap.md)automatizzata, puoi fare clic sulle icone Segmenti ****automatizzati o Attributi**** importanti.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.</li></ul> |
+   | Test multivariato (MVT) | Oltre al rapporto [](/help/c-reports/experience-performance-report.md)Experience Performance, puoi fare clic sull’icona [Location Contribution (Contributo](/help/c-reports/location-contribution-report.md) posizione) per cambiare il rapporto e mostrare il contributo per posizione. |
