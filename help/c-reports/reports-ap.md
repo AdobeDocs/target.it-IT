@@ -4,7 +4,7 @@ description: Per gli utenti di Personalizzazione automatizzata sono disponibili 
 title: Rapporto di riepilogo per Personalizzazione automatizzata
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: ea6d526c07a32c84d85d9cd62f2cda804e81d418
 
 ---
 
@@ -29,7 +29,7 @@ La funzione [!UICONTROL Personalizzazione automatizzata] fornisce i seguenti rap
 
 Il rapporto a [!UICONTROL livello di attività] consente di confrontare le prestazioni di aggregazione dell&#39;utilizzo di un algoritmo di [!UICONTROL Personalizzazione automatizzata] per il contenuto fornito in modo casuale (controllo).
 
-![](assets/box_plot_ap.jpg)
+![Report Activity Level (Livello di attività)](/help/c-reports/assets/box_plot_ap.png)
 
 Si applicano comunque le regole standard di interpretazione dei risultati per il test A/B, tra cui incremento, affidabilità, trend, durata e così via. Per ulteriori informazioni sull’interpretazione dei risultati, vedi [Tasso di conversione](../c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
 
