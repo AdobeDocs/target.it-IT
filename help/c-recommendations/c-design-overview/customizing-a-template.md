@@ -1,10 +1,10 @@
 ---
-keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
+keywords: custom design;velocity;decimal;comma;customize design
 description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
 title: Personalizzare una progettazione con Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68faea47b0beef33f6c46672ba1f098c49b97440
 
 ---
 
@@ -25,7 +25,7 @@ La logica, la sintassi e altro di Velocity possono essere utilizzati integralmen
 $entityN.variable
 ```
 
-I nomi delle variabili devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$*, seguito da un identificatore VTL (Velocity Template Language). L'identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
+I nomi delle variabili devono seguire la notazione abbreviata di Velocity, costituita da un carattere iniziale *$*, seguito da un identificatore VTL (Velocity Template Language). L&#39;identificatore VTL deve iniziare con un carattere alfabetico (a-z o A-Z).
 
 I nomi delle variabili di Velocity sono limitati ai seguenti tipi di caratteri:
 
@@ -71,89 +71,119 @@ puoi utilizzare il codice seguente:
 
 ```
 <table style="border:1px solid #CCCCCC;"> 
- 
 <tr> 
- 
 <td colspan="3" style="font-size: 130%; border-bottom:1px solid  
 #CCCCCC;"> You May Also Like... </td> 
- 
 </tr> 
- 
 <tr> 
- 
 <td style="border-right:1px solid #CCCCCC;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity1.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity1.id</a></div> 
- 
 By $entity1.message <a href="?x14=brand;q14=$entity1.message"> 
 (More)</a><br/> 
- 
 sku: $entity1.prodId<br/> Price: $$entity1.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="border-right:1px solid #CCCCCC; padding-left:10px;"> 
- 
-<div class="search_content_inner" style="border-bottom:0px;"> 
- 
+<div class="search_content_inner" style="border-bottom:0px;">  
 <div class="search_title"><a href="$entity2.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity2.id</a></div> 
- 
 By $entity2.message <a href="?x14=brand;q14=$entity2.message"> 
 (More)</a><br/> 
- 
 sku: $entity2.prodId<br/> 
- 
 Price: $$entity2.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
 <td style="padding-left:10px;"> 
- 
 <div class="search_content_inner" style="border-bottom:0px;"> 
- 
 <div class="search_title"><a href="$entity3.pageUrl"  
 style="color: rgb(112, 161, 0); font-weight: bold;"> 
 $entity3.id</a></div> 
- 
 By $entity3.message <a href="?x14=brand;q14=$entity3.message"> 
 (More)</a><br/> 
- 
 sku: $entity3.prodId<br/> Price: $$entity3.value 
- 
 <br/><br/> 
- 
 </div> 
- 
 </td> 
- 
-</tr> 
- 
+</tr>  
 </table>
 ```
 
 >[!NOTE] {class=“- topic/note ”}
 >
->Per aggiungere le informazioni dopo il valore della variabile, utilizza la notazione formale. Ad esempio: `${entity1.thumbnailUrl}.gif`.
+>Se desiderate aggiungere del testo dopo il valore di una variabile prima che un tag che indichi che il nome della variabile è terminato, potete farlo utilizzando la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
 
 Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato in modo dinamico nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi inoltre utilizzare queste variabili per visualizzare il `dayCount` (numero di giorni di dati utilizzati nel criterio, come “articoli più venduti negli ultimi 2 giorni” ecc.
 
-## Scenario: visualizzare un articolo chiave con i prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Utilizzo dei numeri nei modelli Velocity
 
-Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l'articolo corrente, come riferimento.
+Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, effettuate le seguenti operazioni:
+1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario
+2. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per l&#39;analisi dei modelli di Target Recommendations per convalidare e salvare il modello)
+3. Passate l&#39;attributo di entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio
+4. Eseguire l&#39;operazione matematica o il confronto sul nuovo valore numerico
+
+**Esempio: Calcolo di un prezzo di sconto**
+
+Si supponga di voler ridurre il prezzo visualizzato di un articolo di $ 0,99 per applicare uno sconto. Per ottenere questo risultato, potete usare il seguente approccio:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('priceBeforeDiscount') != '' )
+    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    Item price: $$discountedPrice
+#else
+    Item price unavailable
+#end
+```
+
+**Esempio: Scelta del numero di stelle da visualizzare in base alla valutazione di un elemento**
+
+Si supponga di voler visualizzare un numero appropriato di stelle in base alla media numerica del punteggio cliente di un articolo. Per ottenere questo risultato, potete usare il seguente approccio:
+
+```
+#set( $Double = 0.1 )
+
+#if( $entity1.get('rating') != '' )
+    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #if( $rating >= 4.5 )
+        <img src="5_stars.jpg">
+    #elseif( $rating >= 3.5 )
+        <img src="4_stars.jpg">
+    #elseif( $rating >= 2.5 )
+        <img src="3_stars.jpg">
+    #elseif( $rating >= 1.5 )
+        <img src="2_stars.jpg">
+    #else
+        <img src="1_star.jpg">
+    #end
+#else
+    <img src="no_rating_default.jpg">
+#end
+```
+
+**Esempio: Calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento**
+
+Si supponga di memorizzare la lunghezza di un filmato in minuti, ma si desidera visualizzarla in ore e minuti. Per ottenere questo risultato, potete usare il seguente approccio:
+
+```
+#if( $entity1.get('length_minutes') )
+#set( $Integer = 1 )
+#set( $nbr = $Integer.parseInt($entity1.get('length_minutes')) )
+#set( $hrs = $nbr / 60)
+#set( $mins = $nbr % 60)
+#end
+```
+
+## Visualizzazione di un elemento chiave con i prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+
+Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l&#39;articolo corrente, come riferimento.
 
 A tale scopo, crea una colonna nella progettazione che utilizzi l’attributo `$key` cui si basa il consiglio, anziché l’attributo `$entity`. Ad esempio, il codice per la colonna chiave potrebbe essere simile a:
 
@@ -168,15 +198,15 @@ A tale scopo, crea una colonna nella progettazione che utilizzi l’attributo `$
 </div>
 ```
 
-Il risultato è una progettazione come la seguente, dove una colonna mostra l'elemento chiave.
+Il risultato è una progettazione come la seguente, dove una colonna mostra l&#39;elemento chiave.
 
 ![](assets/rec_key.png)
 
-Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l'attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l'elemento chiave previsto.
+Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
-## Scenario: sostituisci il punto decimale con il delimitatore virgola in un prezzo di vendita {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-Puoi modificare la progettazione per sostituire il punto, utilizzato come separatore decimale negli Stati Uniti, con la virgola, che invece è utilizzata in Europa e in altri paesi.
+È possibile modificare la progettazione per sostituire i valori all&#39;interno di una stringa. Ad esempio, sostituire il delimitatore di punti decimali utilizzato negli Stati Uniti con il delimitatore di virgole utilizzato in Europa e in altri paesi.
 
 Il codice seguente mostra una riga singola in un esempio di prezzo di vendita condizionale:
 
@@ -200,7 +230,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
                                     </span>
 ```
 
-## Scenario: creare una progettazione predefinita di Recommendations 4x2 con logica di null-checking {#default}
+## Personalizzazione delle dimensioni del modello e controllo dei valori vuoti {#default}
 
 Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitata l’opzione [!UICONTROL Rendering di modelli parziale].
 
