@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
+source-git-commit: bcec0643aebc3e867374640e2797ee6c7f783f8e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.1.1 (4 febbraio 2019)
+## Adobe Target Standard/Premium 20.1.1 (4 febbraio 2020)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
