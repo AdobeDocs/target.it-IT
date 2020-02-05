@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: e7a866c01b03815a2e167612d4c7922cef54a5c0
 
 ---
 
@@ -14,7 +14,13 @@ source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target/Standard/Premium 19.10.1 (22 ottobre 2019)
+## Adobe Target Standard/Premium 20.1.1 (4 febbraio 2019)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 4 febbraio | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.1.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
+
+## Adobe Target Standard/Premium 19.10.1 (22 ottobre 2019)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
