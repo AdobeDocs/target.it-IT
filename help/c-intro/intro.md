@@ -5,7 +5,7 @@ title: Introduzione ad Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -24,19 +24,23 @@ Nella soluzione [!DNL Adobe Target] sono inclusi diversi componenti:
 
 | Componente | Descrizione |
 |--- |--- |
-| Target Standard | Fornisce un'interfaccia visiva per la creazione e la gestione di test A/B e attività di targeting basate su regole. |
-| Target Premium | Aggiunge funzionalità Premium all'interfaccia di Target Standard. |
-| Recommendations Classic | Visualizza automaticamente prodotti o contenuti di potenziale interesse per il cliente in base alla precedente attività dell'utente sul sito web. |
+| Target Standard | Fornisce un&#39;interfaccia visiva per la creazione e la gestione di test A/B e attività di targeting basate su regole. |
+| Target Premium | Aggiunge funzionalità Premium all&#39;interfaccia di Target Standard. |
+| Recommendations Classic | Visualizza automaticamente prodotti o contenuti di potenziale interesse per il cliente in base alla precedente attività dell&#39;utente sul sito web. |
 
 ## Target Standard {#section_ACD5EFF17AAB4E979CBEFA0145CCD905}
 
-[!DNL Target Standard] è un front-end per [!DNL Adobe Target] che consente di creare e gestire visivamente test A/B e attività di targeting basate su regole e di connettersi ad Adobe Experience Cloud. Con [!DNL Target Standard] è possibile inserire codici personalizzati sia all'interno sia all'esterno del flusso di lavoro del [!UICONTROL Compositore di esperienza visiva]. Mediante [!DNL Target Standard] viene fornita una strategia di implementazione semplificata con le tue risorse digitali: basta una riga di codice in ogni pagina per gestire tutte le comunicazioni necessarie tra il sito e [!DNL Adobe Target].
+[!DNL Target Standard] è un front-end per [!DNL Adobe Target] che consente di creare e gestire visivamente test A/B e attività di targeting basate su regole e di connettersi ad Adobe Experience Cloud. Con [!DNL Target Standard] è possibile inserire codici personalizzati sia all&#39;interno sia all&#39;esterno del flusso di lavoro del [!UICONTROL Compositore di esperienza visiva]. Mediante [!DNL Target Standard] viene fornita una strategia di implementazione semplificata con le tue risorse digitali: basta una riga di codice in ogni pagina per gestire tutte le comunicazioni necessarie tra il sito e [!DNL Adobe Target].
 
-[!DNL Target Standard] è progettato per l'uso da parte di utenti nuovi ed esperti, e integra le procedure ottimali di settore. Puoi condividere dati e risultati e collaborare facilmente con altri membri del gruppo che utilizzano [!DNL Adobe Experience Cloud].
+[!DNL Target Standard] è progettato per l&#39;uso da parte di utenti nuovi ed esperti, e integra le procedure ottimali di settore. Puoi condividere dati e risultati e collaborare facilmente con altri membri del gruppo che utilizzano [!DNL Adobe Experience Cloud].
 
 ## Target Premium {#premium}
 
 [!DNL Target Premium] è una licenza avanzata di [!DNL Target] che aggiunge funzionalità Premium a [!DNL Target Standard].
+
+Gli argomenti di Target Premium in questa guida includono il contrassegno Premium nella parte superiore della pagina:
+
+![Badge Premium](/help/assets/premium.png)
 
 In Target Premium sono incluse le seguenti funzionalità Premium:
 
@@ -44,7 +48,7 @@ In Target Premium sono incluse le seguenti funzionalità Premium:
 
 [Personalizzazione automatizzata](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) fornisce algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e tassi di conversione migliorati per le esperienze digitali.
 
-Nella funzionalità Personalizzazione automatizzata (ex Test&amp;Target 1:1) viene registrata l'attività dei visitatori sul sito con la creazione di un profilo che rende possibile eseguire il targeting del contenuto per visitatori simili. Vengono monitorate le risposte al contenuto sia per i singoli sia per la popolazione nel suo complesso, e utilizzati sofisticati approcci di modellazione per eseguire automaticamente il targeting di ogni singolo visitatore valutandone tutte le informazioni note.
+Nella funzionalità Personalizzazione automatizzata (ex Test&amp;Target 1:1) viene registrata l&#39;attività dei visitatori sul sito con la creazione di un profilo che rende possibile eseguire il targeting del contenuto per visitatori simili. Vengono monitorate le risposte al contenuto sia per i singoli sia per la popolazione nel suo complesso, e utilizzati sofisticati approcci di modellazione per eseguire automaticamente il targeting di ogni singolo visitatore valutandone tutte le informazioni note.
 
 Con la funzionalità Personalizzazione automatizzata vi è un apprendimento automatico con una richiesta di attività di analisi minima da parte di operatori umani. Automatizzazione completa, apprendimento continuativo. Il sistema genera modelli e apprende automaticamente per quali prodotti è più elevata la probabilità che un singolo visitatore abbia interesse. Ogni volta che un visitatore interagisce con il sito, le informazioni vengono raccolte e memorizzate nel relativo profilo. Sono disponibili vari algoritmi per fornire il modello ottimale al sistema.
 
@@ -78,7 +82,7 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all'esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
 
 ### Autorizzazioni per gli utenti Enterprise
@@ -87,7 +91,7 @@ Con la funzionalità [Autorizzazioni utente Enterprise](../administrating-target
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
-Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell'utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
+Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 
 Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
 
@@ -97,7 +101,7 @@ Crea il tuo programma di ottimizzazione e personalizzazione con Adobe Target e q
 
 [Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Video di formazione: Tipi di attività (09:03)
+## ![Video sul badge](/help/assets/overview.png) Panoramica Formazione: Tipi di attività (9:03)
 
 Il video di seguito spiega i tipi di attività disponibili in [!DNL Target Standard/Premium] e come raggiungere gli obiettivi del sito con il flusso di lavoro guidato in tre passaggi di Target.
 
@@ -105,4 +109,4 @@ Il video di seguito spiega i tipi di attività disponibili in [!DNL Target Stand
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
