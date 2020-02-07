@@ -1,10 +1,10 @@
 ---
-keywords: Recommendations;criteri di Recommendations;algoritmi di Recommendations;attività di Recommendations;criteri;targeting delle raccomandazioni;recs
+keywords: Recommendations;Recommendations criteria;recommendations algorithms;recommendations activity;criteria;recommendations targeting;recs
 description: Le attività di Recommendations in Adobe Target visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base all'attività utente precedente o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -43,7 +43,7 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Video di formazione: Tipi di attività
+## ![Video sul badge](/help/assets/overview.png) Panoramica Formazione: Tipi di attività
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium]. L’argomento di [!DNL Recommendations] è trattato a partire dal minuto 7:20.
 
@@ -51,7 +51,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione consigli {#intro-to-recs}
 
