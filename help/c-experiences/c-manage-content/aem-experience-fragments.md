@@ -1,11 +1,11 @@
 ---
-keywords: esperienza;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
+keywords: experience;json;aem;adobe experience manager;export to adobe target;experience fragments;fragments;XF
 description: Informazioni sull’utilizzo di frammenti esperienza creati in Adobe Experience Manager (AEM) nelle attività di Adobe Target per facilitare l’ottimizzazione o la personalizzazione.
 title: Frammenti esperienza Adobe Experience Manager (AEM) in Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
 
 ---
 
@@ -22,7 +22,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 Using experience fragments created in AEM in [!DNL Target] activities lets you combine the ease-of-use and power of AEM with powerful Automated Intelligence (AI) and Machine Learning (ML) capabilities in [!DNL Target] to test and personalize experiences at scale.
 
-AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un'unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo. AEM regola automaticamente ogni esperienza utilizzando il contenuto.
+AEM riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. AEM consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un&#39;unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo. AEM regola automaticamente ogni esperienza utilizzando il contenuto.
 
 [!DNL Target] consente di fornire esperienze personalizzate in scala su una combinazione di approcci di apprendimento automatico basati sulle regole e guidati da intelligenze automatizzate che incorporano variabili comportamentali, contestuali e offline. With [!DNL Target] you can easily set up and run [A/B Test](/help/c-activities/t-test-ab/test-ab.md) and [Multivariate](/help/c-activities/c-multivariate-testing/multivariate-testing.md) (MVT) activities to determine the best offers, content, and experiences.
 
@@ -60,7 +60,7 @@ I frammenti di esperienza sono creati in AEM. Per ulteriori informazioni, consul
 ### Passaggio 3: configurare AEM per condividere il frammento di esperienza con Target
 
 1. Dall’interno di AEM, seleziona il frammento di esperienza desiderato o la cartella che lo contiene, quindi fai clic su **[!UICONTROL Proprietà]**.
-2. Click the **[!UICONTROL Cloud Services]** tab, then from the **[!UICONTROL Cloud Service Configuration]** drop-down list, select **[!UICONTROL Adobe Target]**.
+2. Fa clic sulla scheda **[!UICONTROL Servizi cloud]**, poi, dall&#39;elenco a discesa **[!UICONTROL Configurazione del servizio cloud]**, seleziona **[!UICONTROL Adobe Target]**.
 
    >[!NOTE]
    >
@@ -98,7 +98,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 **Per utilizzare frammenti di esperienza utilizzando il Compositore esperienza visivo:**
 
-1. In [!DNL Target]quando create o modificate un'esperienza in [Visual Experience Composer (Compositore esperienza visivo](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)), fate clic sul percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate l'opzione desiderata per visualizzare l'elenco [!UICONTROL Choose an Experience Fragment (Scegli un frammento] esperienza).
+1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Visual Experience Composer (Compositore esperienza visivo](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)), fate clic sul percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate l&#39;opzione desiderata per visualizzare l&#39;elenco [!UICONTROL Choose an Experience Fragment (Scegli un frammento] esperienza).
 
    * [!UICONTROL Inserisci prima]
    * [!UICONTROL Inserisci dopo]
@@ -126,7 +126,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 **Per utilizzare frammenti di esperienza tramite il Compositore esperienza basato su moduli:**
 
-1. In [!DNTarget], durante la creazione o la modifica di un'esperienza in Experience Composer (Compositore esperienza basato su [moduli](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l'elenco [!UICONTROL Scegli un frammento] esperienza.
+1. In [!DNTarget], durante la creazione o la modifica di un&#39;esperienza in Experience Composer (Compositore esperienza basato su [moduli](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire il contenuto AEM, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l&#39;elenco [!UICONTROL Scegli un frammento] esperienza.
 
    ![](assets/experience_fragment_list.png)
 
@@ -139,8 +139,12 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 
 * [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Nota che il frammento di esperienza nella versione “master” rimane in AEM. Non è possibile modificare il frammento di esperienza in [!DNL Target].
-* Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell' [!DNL Target] interfaccia utente.
+* Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell&#39; [!DNL Target] interfaccia utente.
 
-## Video di formazione: Utilizzo dei frammenti esperienza AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
+## ![Video sull’esercitazione](/help/assets/overview.png) Training: Utilizzo di frammenti esperienza AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
 
-Il seguente video illustra come impostare e utilizzare i frammenti di esperienza: [Uso dei frammenti di esperienza AEM con Adobe Target](https://helpx.adobe.com/experience-manager/kt/sites/using/experience-fragment-target-feature-video-use.html).
+Il seguente video illustra come impostare e utilizzare i frammenti esperienza:
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+Per ulteriori informazioni, consultate [Utilizzo di frammenti esperienza con Adobe Target](https://docs.adobe.com/content/help/en/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html) nella pagina Video ed esercitazioni *di* AEM Sites.
