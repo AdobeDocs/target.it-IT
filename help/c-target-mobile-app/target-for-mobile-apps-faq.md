@@ -1,11 +1,11 @@
 ---
-keywords: app mobile;domande frequenti;domande frequenti;domande frequenti;app mobile di destinazione
+keywords: mobile app;frequently asked questions;faq;target mobile app
 description: Domande frequenti su Adobe Target per app mobili.
 title: Domande frequenti su Adobe Target per app mobili
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -16,19 +16,7 @@ Elenco di domande frequenti su [!DNL Target] per app mobili.
 
 ## Devo utilizzare [!DNL Adobe Experience Platform Launch] per distribuire l’SDK, oppure posso distribuire l’SDK senza utilizzare [!DNL Launch]?
 
-L’SDK è disponibile sul git di [Adobe Marketing Cloud](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Se non usi [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), devi gestire il file delle impostazioni e gestirlo nell'app.
-
-## È possibile utilizzare Visual Experience Composer (VEC) per app mobili con il supporto nativo React per l'SDK v5 di Adobe Experience Platform?
-
-Al momento, [VEC per le app](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md) mobili native non supporta l'app nativa React. È necessario utilizzare Experience Composer (Compositore esperienza basato su [moduli](/help/c-experiences/form-experience-composer.md)).
-
-## L’integrazione con Mobile SDK consente l’implementazione di nuove funzionalità per dispositivi mobili? È possibile attivare e disattivare il flag di funzione senza nuove distribuzioni di codice?
-
-Sì, puoi usare il nostro SDK per dispositivi mobili per distribuire gradualmente le funzionalità.
-
-## Per una logica più complessa, devo sviluppare direttamente nell'app invece di utilizzare Mobile VEC? In caso affermativo, quale lingua di sviluppo dovrei usare?
-
-Attualmente, il VEC supporta casi d’uso comuni come la modifica di immagine, testo, colore, ecc. Per casi di utilizzo più avanzati, ad esempio per personalizzare il layout dell'app, dovete inserire la [!DNL Target] richiesta/posizione (mbox) nel codice e utilizzare Experience Composer (Compositore esperienza basato su [modulo](/help/c-experiences/form-experience-composer.md) ) per progettare le esperienze e allocare il traffico. Il nostro SDK per dispositivi mobili supporta Java, Objective C e Swift. Dipende dalle preferenze e risorse del team per scegliere la lingua.
+L’SDK è disponibile sul git di [Adobe Marketing Cloud](https://github.com/Adobe-Marketing-Cloud/acp-sdks/). Se non usi [Launch](https://docs.adobe.com/content/help/en/launch/using/overview.html), devi gestire il file delle impostazioni e gestirlo nell&#39;app.
 
 ## Quali SDK sono disponibili oggi?
 
@@ -38,25 +26,21 @@ Gli SDK di Adobe Experience Platform Mobile al momento supportano iOS, Android e
 
 See the [Adobe Places documentation](https://placesdocs.com/places-services-by-adobe-documentation/) for more information.
 
-## Quali classi native sono supportate dalle visualizzazioni mobili? Supportano qualsiasi classe derivata da NSObject (o qualsiasi oggetto Android) o solo NSViewController e Activities?
-
-Per ulteriori informazioni, consulta la documentazione Android per il modo [manuale di dichiarare le viste](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer-android.md#views).
-
 ## È necessario at.js per il funzionamento degli SDK di Adobe Experience Platform Mobile?
 
 No, non è necessario at.js per utilizzare gli SDK per dispositivi mobili. at.js è la libreria [!DNL Target] JavaScript per i siti Web. Gli SDK di Adobe Experience Platform Mobile sono per le app mobili.
 
 ## Target Mobile è una funzionalità solo dello SKU prodotto Adobe Target Premium?
 
-Per i clienti di Adobe Target Standard, potete utilizzare i nostri SDK Mobile solo per attività Test e Targeting delle esperienze A/B (XT). Se desiderate utilizzare le funzionalità di Recommendations o basate sull'intelligenza artificiale nell'app mobile, avete bisogno di una licenza [Adobe Target Premium](/help/c-intro/intro.md#premium) .
+Per i clienti di Adobe Target Standard, potete utilizzare i nostri SDK Mobile solo per attività Test e Targeting delle esperienze A/B (XT). Se desiderate utilizzare le funzionalità di Recommendations o basate sull&#39;intelligenza artificiale nell&#39;app mobile, avete bisogno di una licenza [Adobe Target Premium](/help/c-intro/intro.md#premium) .
 
 ## Posso sfruttare i tipi di pubblico di Adobe Audience Manager (AAM) in VEC per le app mobili?
 
 Sì, gli SDK di Adobe Experience Platform Mobile sono creati per [Audience Manager](https://docs.adobe.com/content/help/en/audience-manager/user-guide/aam-home.html), [Analytics](https://docs.adobe.com/content/help/en/analytics/landing/home.html), [Campaign](https://docs.adobe.com/content/help/en/campaign-standard/using/campaign-standard-home.html)e Target. Le audience in Audience Manager sono condivise con [!DNL Target].
 
-## Esiste un'integrazione di app mobile tra le attività mobile Adobe Experience Manager (AEM) e Target?
+## Esiste un&#39;integrazione di app mobile tra le attività mobile Adobe Experience Manager (AEM) e Target?
 
-E' nella nostra tabella di marcia, ma non c'è ancora una data. Attualmente, puoi condividere frammenti [](/help/c-experiences/c-manage-content/aem-experience-fragments.md) esperienza JSON da AEM a Target e potrebbe essere possibile utilizzarli in un'attività app mobile.
+E&#39; nella nostra tabella di marcia, ma non c&#39;è ancora una data. Attualmente, puoi condividere frammenti [](/help/c-experiences/c-manage-content/aem-experience-fragments.md) esperienza JSON da AEM a Target e potrebbe essere possibile utilizzarli in un&#39;attività app mobile.
 
 ## È possibile aggiungere altre immagini utilizzando il VEC o solo modificare le immagini esistenti?
 
