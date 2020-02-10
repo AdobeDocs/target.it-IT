@@ -1,11 +1,11 @@
 ---
-keywords: risolvere problemi di Target;risoluzione problemi di Target
+keywords: troubleshoot target;troubleshooting target
 description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
 title: Risoluzione dei problemi relativi ad Adobe Target
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
 
 ---
 
@@ -48,7 +48,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 ## Integrazione di Analytics e Target (A4T)
 
 * [Risoluzione di problemi relativi all’integrazione di Analytics e Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
-* Video “Office hours”, un'iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
+* Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * Domande frequenti su A4T
    * [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Provisioning iniziale - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
@@ -111,7 +111,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 * [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md)
 * [Limitazioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
-* Video “Office hours”, un'iniziativa portata avanti dal team di assistenza clienti di Adobe. Vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
+* Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
 
 ### mbox.js
 
@@ -124,7 +124,6 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## App mobili
 
-* [Compositore esperienza visivo per app mobile](/help/c-target-mobile-app/c-mobile-visual-experience-composer/mobile-visual-experience-composer.md#ts)
 * [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Generazione di rapporti
@@ -154,4 +153,4 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione dei problemi relativi al Compositore esperienza visivo ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Best practice e limitazioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
-* Video “Office hours”, un'iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
+* Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
