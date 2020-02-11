@@ -1,12 +1,12 @@
 ---
-keywords: Experience Cloud;accesso
+keywords: Experience Cloud;sign in
 description: Istruzioni per accedere ad Adobe Target da Adobe Experience Cloud.
 title: Accedere a Target da Adobe Experience Cloud
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Icona dell’applicazione](/help/c-intro/assets/appmenu-new.png)
 
-1. Fai clic sull'icona di [!DNL Target] nel menu delle app.
+1. Fai clic sull&#39;icona di [!DNL Target] nel menu delle app.
 
    ![Icona di Target](/help/c-intro/assets/appmenu-target-new.png)
 
@@ -29,7 +29,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Avvio di Target](/help/c-intro/assets/target-launch-new.png)
 
-1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l'avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
+1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
 
    ![Pagina di destinazione](/help/c-intro/assets/pagepref-new.png)
 
@@ -91,7 +91,7 @@ La documentazione di [!DNL Target] è ora disponibile nelle seguenti lingue:
 * Cinese tradizionale
 * Coreano
 
-## Video di formazione: Adobe Target in Experience Cloud (4:59)
+## Training video: Adobe Target in the Experience Cloud (4:59) ![Overview badge](/help/assets/overview.png)
 
 Questo video include informazioni su [!DNL Adobe Target] in [!DNL Experience Cloud].
 
