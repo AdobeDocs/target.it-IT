@@ -1,10 +1,10 @@
 ---
-keywords: Progettazione consigli;creare progettazione;copia progettazione
+keywords: recommendations design;create design;copy design
 description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 title: Creare una progettazione
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
-È possibile creare una progettazione [!UICONTROL Consigli] utilizzando una progettazione predefinita o creandone una personalizzata. La schermata **[!UICONTROL Consigli &gt; Progettazioni]** visualizza le schede di progettazione predefinite e le progettazioni create. Le progettazioni predefinite non possono essere modificate o eliminate.
+È possibile creare una progettazione [!UICONTROL Consigli] utilizzando una progettazione predefinita o creandone una personalizzata. La schermata **[!UICONTROL Consigli > Progettazioni]** visualizza le schede di progettazione predefinite e le progettazioni create. Le progettazioni predefinite non possono essere modificate o eliminate.
 
-1. Nella schermata **[!UICONTROL Consigli &gt; Progettazioni]**, muovi il mouse sulla scheda della progettazione che desideri creare.
+1. Nella schermata **[!UICONTROL Consigli > Progettazioni]**, muovi il mouse sulla scheda della progettazione che desideri creare.
 
    ![](assets/Card_CopyDesign.png)
 
@@ -23,13 +23,13 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
    Oppure
 
-   Per creare una progettazione personalizzata, fai clic su **[!UICONTROL Crea progettazione]** nella schermata **[!UICONTROL Consigli &gt; Progettazioni]**.
+   Per creare una progettazione personalizzata, fai clic su **[!UICONTROL Crea progettazione]** nella schermata **[!UICONTROL Consigli > Progettazioni]**.
 
    ![](assets/createDesign.png)
 
 1. Aggiungi un **[!UICONTROL nome contenuto]**.
 
-   Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un'immagine da visualizzare sulla scheda di progettazione.
+   Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un&#39;immagine da visualizzare sulla scheda di progettazione.
 1. Modifica il **[!UICONTROL codice]** di progettazione.
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
@@ -42,11 +42,11 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creare progettazioni personalizzate in Recommendations (3:20)
+## Training video: Create custom designs in Recommendations (3:20) ![Overview badge](/help/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
 * Creare una progettazione personalizzata
 * Comprendere come inserire nelle progettazioni un riferimento a variabili di visualizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/27687?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27687)
