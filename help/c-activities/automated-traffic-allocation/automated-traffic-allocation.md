@@ -5,7 +5,7 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 5067b78b78ce74b67173be92baa88a6182d01193
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -182,7 +182,7 @@ Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperi
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Flusso di lavoro di un&#39;attività - Targeting (2:14)
+### Flusso di lavoro di un&#39;attività - Targeting (2:14) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare l&#39;allocazione del traffico.
 
@@ -193,7 +193,7 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creazione di test A/B (8:36)
+### Creazione di un contrassegno ![Esercitazione per test A/B (8:36)](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. L’allocazione automatica del traffico è trattata a partire dal minuto 4:45.
 
