@@ -5,7 +5,7 @@ title: Configurare le autorizzazioni Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 862966508fefaa935c7a5e64bc223e90cee80755
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ Per le attività eseguite in Adobe Admin Console per Enterprise, accedi alla con
 
    Oppure
 
-   Se hai già effettuato l’accesso a Experience Cloud, passa a [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), quindi fai clic sull’icona [!UICONTROL App] nella barra di navigazione superiore e fai clic su **[!UICONTROL Amministrazione]**a destra.
+   Se hai già effettuato l’accesso a Experience Cloud, passa a [https://www.experiencecloud.adobe.com](https://experiencecloud.adobe.com), quindi fai clic sull’icona [!UICONTROL App] nella barra di navigazione superiore e fai clic su **[!UICONTROL Amministrazione]** a destra.
 
 1. (Condizionale) Se disponi dell&#39;accesso ad [!DNL Admin Console for Enterprise] per più di un’organizzazione, fai clic sull’avatar utente nell’angolo a destra o sulla barra di navigazione superiore, quindi seleziona l’organizzazione desiderata.
 
@@ -43,7 +43,7 @@ Per le attività eseguite in Adobe Admin Console per Enterprise, accedi alla con
 
 Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Proprietà], tutte le attività di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
-1. [In Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]**nella parte superiore della pagina >**[!UICONTROL  Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
+1. [In Admin Console](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) nella *guida utente della versione Enterprise*.
 
 ## Passaggio 2: Creare un&#39;area di lavoro (profilo prodotto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
@@ -90,7 +90,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-impleme
 
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
-1. In Admin Console, fai clic sulla scheda **[!UICONTROL Utenti]**nella parte superiore della pagina >**[!UICONTROL  Gruppi di utenti]** per creare nuovi gruppi di utenti o per modificare gruppi esistenti.
+1. In Admin Console, fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Gruppi di utenti]** per creare nuovi gruppi di utenti o per modificare gruppi esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
 
 ## Passaggio 4: Creare proprietà {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
@@ -101,7 +101,7 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
 **Suggerimento**: per ulteriori informazioni su come creare le proprietà, guarda il video di formazione sottostante.
 
-1. In [!DNL Target], fai clic su **[!UICONTROL Configurazione]**>**[!UICONTROL  Proprietà]** per visualizzare l&#39;elenco delle [!UICONTROL Proprietà].
+1. In [!DNL Target], fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco delle [!UICONTROL Proprietà].
 1. Fai clic su **Crea proprietà**.
 
    ![Finestra di dialogo Nuova proprietà](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
@@ -112,7 +112,7 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
    * **Nome (obbligatorio):** specifica un nome descrittivo per la proprietà.
    * **Descrizione:** specifica una descrizione facoltativa per la proprietà.
 
-1. Fai clic su **[!UICONTROL Genera codice]**per generare il codice da utilizzare durante l&#39;esecuzione dei passaggi in[5: Aggiornare l’implementazione per includere il parametro at_property](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Fai clic su **[!UICONTROL Genera codice]** per generare il codice da utilizzare durante l&#39;esecuzione dei passaggi in [5: Aggiornare l’implementazione per includere il parametro at_property](../../../administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. Copia il codice negli appunti.
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
 
@@ -129,7 +129,7 @@ Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è
 
    Oppure
 
-   In [!DNL Target], fai clic su **[!UICONTROL Configurazione]**>**[!UICONTROL  Proprietà]** per visualizzare l&#39;elenco delle [!UICONTROL Proprietà].
+   In [!DNL Target], fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco delle [!UICONTROL Proprietà].
 
    1. Passa il puntatore del mouse sull&#39;[!UICONTROL ultima colonna aggiornata] per visualizzare la proprietà desiderata e fai clic sull&#39;[!UICONTROL icona del codice].
 
@@ -192,7 +192,7 @@ Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Come configurare le aree di lavoro di Target (6:55)
+### Come configurare le aree di lavoro di Target (6:55) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video spiega come creare aree di lavoro.
 
@@ -206,7 +206,7 @@ Questo video spiega come creare aree di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### Come creare proprietà in Adobe Target (3:05)
+### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 * Come creare una proprietà all’interno dell’interfaccia di [!DNL Adobe Target]
 * Come generare un token di proprietà da includere nell&#39;implementazione della proprietà
