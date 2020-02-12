@@ -1,10 +1,10 @@
 ---
-keywords: sequenza di criteri;criteri multipli;algoritmi;criteri;criteri per consigli
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
 description: Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività Consigli.
 title: Creare sequenze di criteri
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -23,8 +23,8 @@ Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mir
 
 Ad esempio, una sequenza di criteri di pagina prodotto potrebbe seguire questo ordine:
 
-1. In base all'articolo corrente, della stessa marca
-1. In base all'articolo corrente, di tutte le marche
+1. In base all&#39;articolo corrente, della stessa marca
+1. In base all&#39;articolo corrente, di tutte le marche
 1. In base a somiglianza del contenuto
 1. In base agli articoli più venduti
 1. In base agli articoli più visualizzati di tutto il sito
@@ -39,9 +39,9 @@ Una sequenza di criteri della pagina iniziale potrebbe seguire questo ordine:
 
 Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza criteri]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
-* Quando crei un’attività [!UICONTROL Consigli], fai clic su **[!UICONTROL Crea nuovo]** &gt; **[!UICONTROL Crea sequenza criteri]** nella schermata [!UICONTROL Seleziona criteri]. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
-* Quando modifichi un’attività [!UICONTROL Consigli], fai clic su una casella di [!UICONTROL Posizione consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** &gt; **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
-* Sulla schermata della libreria **[!UICONTROL Consigli]** &gt; **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]** &gt; **[!UICONTROL Crea sequenza criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!UICONTROL Consigli].
+* Quando crei un&#39;attività di [!UICONTROL Consigli], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]** nella schermata [!UICONTROL Seleziona criteri]. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
+* Quando modifichi un’attività [!UICONTROL Consigli], fai clic su una casella di [!UICONTROL Posizione consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
+* Su **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea sequenza criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!UICONTROL Consigli].
 
 1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
 
@@ -63,15 +63,15 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
 1. Seleziona un **[!UICONTROL Settore verticale]**.
 
    Il settore verticale predefinito appare automaticamente.
-1. Seleziona un **[!UICONTROL Tipo di pagina]**.
+1. Seleziona un **[!UICONTROL tipo di pagina]**.
 
    Puoi selezionare più tipi di pagina.
 
    Insieme, i tipi di pagina e i settori verticali vengono utilizzati per categorizzare la sequenza di criteri salvati, semplificando il riutilizzo delle sequenze per altre attività di [!UICONTROL Consigli].
-1. Imposta le regole di **[!UICONTROL Contenuto]**.
+1. Imposta le regole di **[!UICONTROL contenuto]**.
 
    Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering parziale della progettazione vengono ignorate per i singoli criteri che costituiscono la sequenza. Per utilizzare i consigli di backup e il rendering parziale della progettazione, è necessario abilitarli per la sequenza. Seleziona i pulsanti appropriati. Se si sceglie di consentire i consigli di backup, è altresì possibile scegliere se applicare le regole di inclusione ai backup.
-1. Imposta l'ordine di sequenza.
+1. Imposta l&#39;ordine di sequenza.
 
 1. Fai clic su **[!UICONTROL Aggiungi criteri]**.
 1. Nella schermata Aggiungi criteri, seleziona un criterio.
@@ -80,13 +80,13 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
    È possibile aggiungere fino a cinque criteri a una sequenza.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   La sequenza di criteri verrà visualizzata nell'elenco criteri.
+   La sequenza di criteri verrà visualizzata nell&#39;elenco criteri.
 
    ![](assets/CriteriaSequenceCard.png)
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Video di formazione: Creare i criteri in Recommendations (12:33)
+## Video di formazione: Creare i criteri in Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
 
 Questo video contiene le seguenti informazioni:
 
@@ -94,4 +94,4 @@ Questo video contiene le seguenti informazioni:
 * Creare sequenze di criteri
 * Caricare criteri personalizzati
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
