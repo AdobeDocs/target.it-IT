@@ -1,11 +1,11 @@
 ---
-keywords: Targeting esperienza;XT;metriche;impostazione metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;entrate;ricavi;coinvolgimento
+keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un’attività Targeting esperienza per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
 solution: Target,standard
 uuid: 5b2f6613-0773-4614-9d39-d9a408566969
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -50,7 +50,8 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    | `-` | Meno |
    | `@` | Chiocciola |
 
-## Video di formazione: metriche attività (7:43)
+## Video di formazione: metriche attività (7:43) Badge ![Tutorial](/help/assets/tutorial.png)
+
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
@@ -58,4 +59,4 @@ Questo video contiene informazioni su come utilizzare le metriche di successo.
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
