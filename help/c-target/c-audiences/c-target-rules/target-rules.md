@@ -1,10 +1,10 @@
 ---
-keywords: Targeting;categorie di targeting;condizioni di targeting;Audience Manager;parametri di profilo personalizzati;profilo visitatore;parametri utente personalizzati;regole di targeting
+keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
 title: Categorie di pubblico
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -25,11 +25,11 @@ Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubb
 
 Puoi ordinare lʼelenco Tipi di pubblico in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione del contrassegno ![Esercitazione sull&#39;audience](/help/assets/tutorial.png)
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
