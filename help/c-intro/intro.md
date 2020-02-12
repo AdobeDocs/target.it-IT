@@ -5,7 +5,7 @@ title: Introduzione ad Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -101,7 +101,7 @@ Crea il tuo programma di ottimizzazione e personalizzazione con Adobe Target e q
 
 [Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## ![Video sul badge](/help/assets/overview.png) Panoramica Formazione: Tipi di attività (9:03)
+## Video di formazione: Logo ![Panoramica sui tipi di attività (9:03)](/help/assets/overview.png)
 
 Il video di seguito spiega i tipi di attività disponibili in [!DNL Target Standard/Premium] e come raggiungere gli obiettivi del sito con il flusso di lavoro guidato in tre passaggi di Target.
 
