@@ -1,11 +1,11 @@
 ---
-keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
+keywords: audience;audience rules;create audience;creating audience
 description: Puoi creare tipi di pubblico personalizzati e salvarli nella libreria di Target per utilizzarli nelle attività. Puoi copiare un pubblico esistente, modificarlo per crearne uno simile e combinare più tipi di pubblico.
 title: Creare tipi di pubblico in Target
 topic: Advanced,Standard,Classic
 uuid: 496dbb9d-cb13-47ee-88bd-ba5920b2ca1c
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,13 +16,13 @@ Puoi creare tipi di pubblico personalizzati e salvarli nella libreria di Target 
 
 ## Panoramica sul pubblico
 
-I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un'attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Le definizioni di pubblico complesse utilizzano gli operatori booleani AND e OR (E/O) per combinare regole e parametri per poter controllare in modo dettagliato quali visitatori del sito vengono conteggiati come partecipanti all'attività.
+I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Le definizioni di pubblico complesse utilizzano gli operatori booleani AND e OR (E/O) per combinare regole e parametri per poter controllare in modo dettagliato quali visitatori del sito vengono conteggiati come partecipanti all&#39;attività.
 
-Quando si combinano regole o parametri con AND (E), qualsiasi membro potenziale del pubblico deve soddisfare *tutte* le condizioni definite per essere incluso come partecipante. Ad esempio, se si definisce una regola del sistema operativo e una regola del browser, solo i visitatori che utilizzano il sistema operativo definito *e* il browser definito sono inclusi nell'attività.
+Quando si combinano regole o parametri con AND (E), qualsiasi membro potenziale del pubblico deve soddisfare *tutte* le condizioni definite per essere incluso come partecipante. Ad esempio, se si definisce una regola del sistema operativo e una regola del browser, solo i visitatori che utilizzano il sistema operativo definito *e* il browser definito sono inclusi nell&#39;attività.
 
-Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del pubblico deve soddisfare solo una singola condizione definita per essere incluso come partecipante. Ad esempio, se si definiscono più regole mobili connesse da OR, i visitatori che soddisfano *uno* dei criteri definiti sono inclusi nell'attività.
+Quando si combinano regole o parametri con OR, qualsiasi membro potenziale del pubblico deve soddisfare solo una singola condizione definita per essere incluso come partecipante. Ad esempio, se si definiscono più regole mobili connesse da OR, i visitatori che soddisfano *uno* dei criteri definiti sono inclusi nell&#39;attività.
 
-È possibile combinare entrambi gli operatori booleani per creare regole complesse. Tuttavia, gli operatori allo stesso livello di regola devono corrispondere. L'interfaccia utente applica automaticamente l'operatore corretto.
+È possibile combinare entrambi gli operatori booleani per creare regole complesse. Tuttavia, gli operatori allo stesso livello di regola devono corrispondere. L&#39;interfaccia utente applica automaticamente l&#39;operatore corretto.
 
 Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome *oppure* Firefox su un computer Windows:
 
@@ -54,13 +54,13 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 1. Definisci i parametri della regola.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   Il pubblico appena creato viene visualizzato nell'elenco dopo alcuni secondi di ritardo dovuti all'elaborazione. Se il pubblico non viene visualizzato immediatamente nell'elenco, prova a cercarlo o ad aggiornare l'elenco.
+   Il pubblico appena creato viene visualizzato nell&#39;elenco dopo alcuni secondi di ritardo dovuti all&#39;elaborazione. Se il pubblico non viene visualizzato immediatamente nell&#39;elenco, prova a cercarlo o ad aggiornare l&#39;elenco.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione di tipi di pubblico badge ![Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni su come creare i tipi di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
