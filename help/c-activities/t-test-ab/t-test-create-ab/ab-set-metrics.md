@@ -1,11 +1,11 @@
 ---
-keywords: A/B;metriche di attività;metriche;configurare metriche;metriche obiettivo;impostazioni attività;metrica successo;conversione;ricavi;impegno
+keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -37,7 +37,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
 
    Per ulteriori informazioni, vedi [Metriche di successo](../../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 1. (Facoltativo) Aggiungi altre metriche.
-1. Una volta completata la configurazione delle metriche, fai clic su **[!UICONTROL Continua]**.
+1. Una volta completata la configurazione delle metriche, fai clic su **[!UICONTROL Continua]**. 
 
 Nota che quando denomini o rinomini una metrica, i seguenti caratteri non sono consentiti:
 
@@ -52,7 +52,7 @@ Nota che quando denomini o rinomini una metrica, i seguenti caratteri non sono c
 | - | Meno |
 | @ | Chiocciola |
 
-## Video di formazione: metriche attività (7:43)
+## Video di formazione: metriche attività (7:43) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
@@ -60,4 +60,4 @@ Questo video contiene informazioni su come utilizzare le metriche di successo.
 * Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
 * Creazione di una metrica di tracciamento dei clic
 
->[!VIDEO](https://video.tv.adobe.com/v/17380?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17380)
