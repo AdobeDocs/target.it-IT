@@ -1,12 +1,12 @@
 ---
-keywords: debug mbox;risoluzione dei problemi di mbox;problemi di mbox;visualizzazione momentanea;mboxDebug;mboxTrace;token;debugger;priorità;priorità di attività;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst acquisto di mbox;articolo più venduto
+keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
 description: Se nella pagina non viene visualizzato il contenuto previsto, potete effettuare alcune operazioni per eseguire il debug della distribuzione dei contenuti in Adobe Target.
 title: Risoluzione dei problemi di distribuzione dei contenuti in Adobe Target
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -27,7 +27,7 @@ Dato che in mboxTrace e mboxDebug è possibile esporre dati sulla campagna e sul
 
 Per recuperare il token di autorizzazione:
 
-1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Implementazione]**.
+1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]**.
 1. Seleziona **[!UICONTROL mbox.js]** o **[!UICONTROL at.js]**.
 1. Fai clic su **[!UICONTROL Genera token di autenticazione]**.
 
@@ -99,7 +99,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell'implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
+Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
@@ -157,14 +157,14 @@ at.js non attiva le mbox di Target se utilizzi un doctype non valido. at.js rich
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Aggiungi estensione
+### Aggiungi estensione Badge ![Tutorial](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23114t2/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Debug Target di base
+### Badge ![Esercitazione debug Target di base](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23115t2/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
-### Mbox Trace
+### badge ![Esercitazione traccia mbox](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/23113t2/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23113t2/)
