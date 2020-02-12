@@ -1,12 +1,12 @@
 ---
-keywords: token di risposta;token;plugin;plug-in;at.js;response
+keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: I token di risposta consentono di inviare automaticamente in uscita informazioni specifiche di Target (dettagli dell'attività, informazioni del profilo utente, informazioni geografiche e così via) da utilizzare per il debug o l'integrazione con sistemi di terze parti (ad esempio, Clicktale)
 title: Token di risposta in Adobe Target
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -34,7 +34,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
    Per ulteriori informazioni, consulta [Scarica at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. In [!DNL Target], fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Token di risposta]**.
+1. In [!DNL Target], fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Token di risposta]**.
 
    ![](assets/response_tokens.png)
 
@@ -279,8 +279,8 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
 </script>
 ```
 
-## Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_3AA0A6C8DBD94A528337A2525E3E05D5} Badge ![Tutorial](/help/assets/tutorial.png)
 
 Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
->[!VIDEO](https://video.tv.adobe.com/v/23253/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/23253/)
