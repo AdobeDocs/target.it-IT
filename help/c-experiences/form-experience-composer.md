@@ -1,11 +1,11 @@
 ---
-keywords: compositore esperienza basato su moduli;compositore basato su modulo;perfezionamenti
+keywords: form-based experience composer;form-based composer;refinements
 description: Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo.
 title: Compositore esperienza basato su moduli
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -31,7 +31,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    Quando fai clic nella casella Seleziona posizione, viene visualizzato un elenco di posizioni disponibili. Seleziona una di queste posizioni. Per scegliere la posizione globale fornita tramite target.js, seleziona “target-global-mbox”.
 
-   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l'ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell’elenco.
+   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l&#39;ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell’elenco.
 1. Fai clic su **[!UICONTROL Aggiungi perfezionamenti pubblico]**, quindi scegli uno o più tipi di [pubblico](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) per questa attività.
 
    ![](assets/location_refinements_2.png)
@@ -47,11 +47,11 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    **Modifica Offerte immagine:** scegli un’immagine salvata nella libreria di contenuti di Target.
 
-   È inoltre possibile aggiungere un collegamento a un'immagine (click-through, destinazione e così via.)
+   È inoltre possibile aggiungere un collegamento a un&#39;immagine (click-through, destinazione e così via.)
 
    1. Fai clic su [!UICONTROL Cambia offerta immagine].
-   1. Seleziona l'immagine desiderata, quindi fai clic su [!UICONTROL Modifica collegamenti].
-   1. Specifica l'URL o la pagina desiderata nel sito, quindi fai clic su [!UICONTROL Aggiorna].
+   1. Seleziona l&#39;immagine desiderata, quindi fai clic su [!UICONTROL Modifica collegamenti].
+   1. Specifica l&#39;URL o la pagina desiderata nel sito, quindi fai clic su [!UICONTROL Aggiorna].
    **Modifica offerta JSON:** scegli un’offerta JSON.
 
    **Modifica frammento esperienza:** scegli un frammento esperienza.
@@ -63,18 +63,18 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
    **Crea offerta HTML:**
 
    1. Fai clic su [!UICONTROL Offerte], quindi seleziona la scheda [!UICONTROL Offerte di codice].
-   1. Fai clic su [!UICONTROL Crea] &gt; [!UICONTROL Offerta HTML].
+   1. Fai clic su [!UICONTROL Crea] > [!UICONTROL Offerta HTML].
    1. Digita un nome per l’offerta.
    1. Digita o incolla il codice HTML nella casella Codice.
    1. Fai clic su [!UICONTROL Salva].
    **Crea offerta JSON:**
 
    1. Fai clic su [!UICONTROL Offerte], quindi seleziona la scheda [!UICONTROL Offerte di codice].
-   1. Fai clic su [!UICONTROL Crea] &gt; [!UICONTROL Offerta JSON].
+   1. Fai clic su [!UICONTROL Crea] > [!UICONTROL Offerta JSON].
    1. Digita un nome per l’offerta.
    1. Digita o incolla il codice JSON nella casella Codice.
    1. Fai clic su [!UICONTROL Salva].
-   Per un'attività Consigli, l'elenco a discesa del contenuto fornisce l'opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+   Per un&#39;attività Consigli, l&#39;elenco a discesa del contenuto fornisce l&#39;opzione Aggiungi consiglio. Fai clic su **[!UICONTROL Aggiungi consiglio]**, quindi seleziona il tipo di pagina. Quindi segui i passi consueti descritti per [creare un’attività di consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
@@ -91,7 +91,7 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 * [Creare un’attività Targeting delle esperienze](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Creare un’attività Consigli](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Video di formazione: Compositore basato su modulo
+## Video di formazione: Compositore basato su modulo Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video fornisce una demo del Compositore esperienza basato su moduli.
 
@@ -99,4 +99,4 @@ Questo video fornisce una demo del Compositore esperienza basato su moduli.
 * Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
 * Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/17390?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
