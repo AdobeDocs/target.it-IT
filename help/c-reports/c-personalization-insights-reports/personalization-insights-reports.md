@@ -4,7 +4,7 @@ description: 'Per gli utenti di attività di Personalizzazione automatizzata (AP
 title: Rapporti Approfondimenti personalizzazione
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: fb85d967ec9948d6a5337c15678858eab7a1534f
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -53,7 +53,7 @@ Target offre diverse opzioni per la trasmissione di dati a Target al fine di aum
 | Destinatari condivisi (Adobe Audience Manager o Adobe Analytics) | Destinatari creati tramite Adobe Audience Manager o Adobe Analytics e condivisi con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Destinatari di reporting nell&#39;attività - Segmenti | I destinatari definiti nell&#39;attività di Personalizzazione automatizzata o Targeting automatico durante l&#39;impostazione in “Obiettivi e Metrica”. | `Custom - Reporting Segment - [segment name]` |
 
-## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione
+## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione Badge ![Tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
