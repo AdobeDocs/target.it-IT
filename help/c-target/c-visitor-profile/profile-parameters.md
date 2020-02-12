@@ -5,7 +5,7 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 6586d49118ff5a598b699dfb9f5a23ef9da4cce7
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Gli attributi del profilo sono parametri specifici di un visitatore. Tali attrib
 
 Quando un visitatore naviga nel tuo sito o ritorna per un’altra sessione, puoi usare gli attributi salvati nel suo profilo per presentargli specifici contenuti oppure per registrare informazioni a scopo di filtro dei segmenti.
 
-Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Tipi di pubblico]** &gt; **[!UICONTROL Script di profilo]**.
+Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Script profilo.]**
 
 ![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -24,7 +24,7 @@ Sono disponibili i seguenti tipi di attributi di profilo:
 
 | Tipo di parametro | Descrizione |
 |--- |--- |
-| mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota**: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi [Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+| mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota **: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi[Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
 | Script | Definito direttamente con uno snippet di codice JavaScript. Possono memorizzare i totali correnti come il denaro totale speso dal consumatore ed è eseguito dietro ogni richiesta mbox. Consulta Attributi degli script di profilo qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
@@ -74,7 +74,7 @@ if (mbox.name == 'Track_Interest') {
 
 Puoi visualizzare schede a comparsa di script di profilo simili come schede informative. Queste schede informative sullo script di profilo ti permettono di visualizzare l’elenco delle attività che si riferiscono allo script di profilo selezionato, insieme ad altri metadati utili.
 
-Ad esempio, se si passa il cursore su uno script di profilo nell'Elenco script di profilo (Destinatari &gt; Script di profilo) e poi si fa clic sull'icona Informazioni, si accede alla seguente scheda di informazioni sullo script di profilo.
+Ad esempio, se si passa il cursore su uno script di profilo nell&#39;Elenco script di profilo (Destinatari > Script di profilo) e poi si fa clic sull&#39;icona Informazioni, si accede alla seguente scheda di informazioni sullo script di profilo.
 
 La scheda [!UICONTROL Informazioni script] contiene le seguenti informazioni: Nome, Stato, Tipo token, ID script, Sostituisci registro e Descrizione.
 
@@ -82,13 +82,13 @@ La scheda [!UICONTROL Informazioni script] contiene le seguenti informazioni: No
 
 La scheda [!UICONTROL Utilizzo script] elenca le attività (e aree di lavoro) relative allo script di profilo selezionato.
 
-![Scheda di informazioni Script di profilo &gt; Scheda Utilizzo script](assets/profile_script_info_card_usage_tab.png)
+![Scheda di informazioni Script di profilo > Scheda Utilizzo script](assets/profile_script_info_card_usage_tab.png)
 
 >[!Note]
 >
 >La scheda Utilizzo script non visualizza le attività che fanno riferimento allo script di profilo selezionato nelle situazioni seguenti:
-> * L'attività è nello stato Bozza.
-> * Il contenuto o l'offerta utilizzato/a nell'attività impiega variabili di script (o un'offerta in linea all'interno dell'attività o un'offerta nel catalogo Offerte).
+> * L&#39;attività è nello stato Bozza.
+> * Il contenuto o l&#39;offerta utilizzato/a nell&#39;attività impiega variabili di script (o un&#39;offerta in linea all&#39;interno dell&#39;attività o un&#39;offerta nel catalogo Offerte).
 
 
 
@@ -232,11 +232,11 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Utilizza lo strumento di debug mboxTrace per eseguire il debug degli script di profilo.**
 
-   Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** &gt; **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Implementazione]** &gt; **[!UICONTROL Genera token di autorizzazione]**.
+   Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Genera token di autorizzazione]**.
 
-   Poi aggiungi questi due parametri all'URL della tua pagina dopo il "?": `mboxTrace=window&authorization=YOURTOKEN`.
+   Poi aggiungi questi due parametri all&#39;URL della tua pagina dopo il &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
-   In questo modo si ha qualche informazione in più rispetto al token di risposta, perché si ottiene un'istantanea del profilo precedente all'esecuzione e una successiva. Vengono inoltre visualizzati tutti i profili disponibili.
+   In questo modo si ha qualche informazione in più rispetto al token di risposta, perché si ottiene un&#39;istantanea del profilo precedente all&#39;esecuzione e una successiva. Vengono inoltre visualizzati tutti i profili disponibili.
 
    ![](assets/debug_profile_script_2.png)
 
@@ -302,7 +302,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crea una variabile chiamata `adobeQA` per monitorare un utente per il QA [dell'](/help/c-activities/c-activity-qa/activity-qa.md)attività.
+Crea una variabile chiamata `adobeQA` per monitorare un utente per il QA [dell&#39;](/help/c-activities/c-activity-qa/activity-qa.md)attività.
 
 
 ### Oggetti e metodi
@@ -344,9 +344,9 @@ Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operat
 | `||` | Stabilisce una relazione logica di tipo “OR” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando una delle parti è vera (in caso contrario restituisce false). |
 | `//` | Controlla se la sorgente contiene tutti gli elementi del formato booleano di destinazione (origine Array, destinazione Array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La funzione supporta anche l’uso di valori stringa costanti, raggruppamenti (`condition1 || condition2) && condition3` ed espressioni regolari (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Video di formazione: Script di profilo
+## Video di formazione: Badge ![Esercitazione script profilo](/help/assets/tutorial.png)
 
-Questo video include informazioni sull'utilizzo e sulla creazione degli script di profilo.
+Questo video include informazioni sull&#39;utilizzo e sulla creazione degli script di profilo.
 
 * Cos’è uno script di profilo
 * Differenza tra script di profilo e parametro di profilo
@@ -354,4 +354,4 @@ Questo video include informazioni sull'utilizzo e sulla creazione degli script d
 * Utilizzare il menu Token disponibile per accedere alle opzioni disponibili
 * Abilitare e disabilitare gli script di profilo
 
->[!VIDEO](https://video.tv.adobe.com/v/17394?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17394)
