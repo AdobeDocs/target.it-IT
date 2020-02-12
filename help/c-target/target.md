@@ -1,10 +1,10 @@
 ---
-keywords: Targeting;tipi di pubblico;target percentuale
+keywords: Targeting;audiences;percentage target
 description: Utilizza i tipi di pubblico in Adobe Target per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 title: Tipi di pubblico in Adobe Target
 uuid: 12317898-e9c9-4605-b659-25bdf200849b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,11 +21,11 @@ I target possono anche essere in base a regole. Un target basato su regole si ba
 
 Se desideri mostrare a tutti lo stesso contenuto, ma suddividere i dati del rapporto per gruppo, utilizza i filtri di segmento anziché il targeting.
 
-Quando un visitatore arriva su una pagina in cui hai impostato un'attività, [!DNL Target] determina se il visitatore si qualifica come membro di un pubblico identificato per l'attività. Se il visitatore non può essere identificato come membro di un pubblico target, il visitatore visualizza il contenuto predefinito e non viene incluso nei rapporti per l'attività.
+Quando un visitatore arriva su una pagina in cui hai impostato un&#39;attività, [!DNL Target] determina se il visitatore si qualifica come membro di un pubblico identificato per l&#39;attività. Se il visitatore non può essere identificato come membro di un pubblico target, il visitatore visualizza il contenuto predefinito e non viene incluso nei rapporti per l&#39;attività.
 
 Se il visitatore è identificato come parte di un pubblico, [!DNL Target]Target determina quale esperienza mostrare, in base ai criteri stabiliti quando hai creato il test.
 
-## Video di formazione: Targeting di attività (2:13)
+## Video di formazione: Targeting di attività (2:13) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare il targeting e i tipi di pubblico.
 
@@ -34,4 +34,4 @@ Questo video include informazioni su come impostare il targeting e i tipi di pub
 * Selezionare il metodo di allocazione del traffico
 * Allocare il traffico tra diverse esperienze
 
->[!VIDEO](https://video.tv.adobe.com/v/17385?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17385)
