@@ -1,11 +1,11 @@
 ---
-keywords: impostazioni di attività;obiettivi e impostazioni MVT;obiettivi e impostazioni multivariati;impostazioni di reporting;metriche di obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;tipi di pubblico per il reporting;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succederà dopo che un utente incontra questa metrica di obiettivo;note
+keywords: activity settings;mvt goals and settings;multivariate goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -152,7 +152,7 @@ Inserisci informazioni sull’attività, utili per te o per gli altri membri del
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Impostazioni delle attività (3:02)
+### Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -162,13 +162,13 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creazione di test multivariati (9:25)
+### Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
