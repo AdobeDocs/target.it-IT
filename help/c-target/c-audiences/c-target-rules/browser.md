@@ -1,11 +1,11 @@
 ---
-keywords: opzioni browser;tipo;tipo di browser;lingua del browser;lingua;versione;versione del browser
+keywords: browser options;type;browser type;browser language;language;version;browser version
 description: Puoi creare diversi tipi di pubblico in Adobe Target per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o particolari opzioni del browser.
 title: Opzioni del browser nei tipi di pubblico di Adobe Target
-subtopic: Test multivariato
+subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,11 +35,11 @@ Esistono due modi per indirizzare i browser:
 
 **Regola di pubblico personalizzato per browser:** un pubblico personalizzato consente di rivolgerti agli utenti di più browser o di impostare regole o esclusioni per specifici browser, versioni o lingue del browser. Ciò offre molta flessibilità per indirizzare una campagna basata sugli attributi del browser.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Browser]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Browser]**.
 
-   ![Regole &gt; Browser](assets/target_browser.png)
+   ![Regole > Browser](assets/target_browser.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
@@ -117,11 +117,11 @@ In questo campo di testo è possibile immettere solo le versioni principali. La 
 
 Le opzioni multiple sono collegate con l’operatore O.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione di tipi di pubblico Badge ![Tutorial](/help/assets/tutorial.png)
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
