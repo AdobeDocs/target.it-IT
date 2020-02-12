@@ -4,7 +4,7 @@ description: Una raccolta è un insieme di prodotti o elementi in Adobe Target c
 title: Raccolte in Adobe Target
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -35,7 +35,7 @@ Quando crei o modifichi un’attività di [!DNL Recommendations], il nome della 
 
 Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
-1. Fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
 
@@ -43,11 +43,11 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Crea raccolta]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]**quando crei (o aggiorni) una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) una raccolta per visualizzare in anteprima i contenuti della raccolta in tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare una raccolta](/help/c-recommendations/c-products/assets/CreateCollection.png)
 
-1. Digita un **[!UICONTROL Nome]**per la raccolta.
+1. Digita un **[!UICONTROL Nome]** per la raccolta.
 
    È inoltre possibile immettere una **[!UICONTROL Descrizione facoltativa]**.
 
@@ -71,7 +71,7 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi f
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei raccolte in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un catalogo con l’intento di restituire i prodotti contenenti “vacanza”, verranno restituiti solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
