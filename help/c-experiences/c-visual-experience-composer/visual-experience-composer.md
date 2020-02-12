@@ -3,7 +3,7 @@ description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC
 title: Compositore esperienza visivo (VEC) di Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -16,7 +16,7 @@ Il Compositore esperienza visivo è l’interfaccia utente WYSIWYG che consente 
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
-Nella scheda **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Preferenze]** di Target, puoi immettere l’URL predefinito del Compositore esperienza visivo.
+Nella scheda **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]** di Target, puoi immettere l’URL predefinito del Compositore esperienza visivo.
 
 ![Impostazioni predefinite dell’URL del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -42,7 +42,7 @@ Per modificare l’evidenziazione, fai clic sull’icona **[!UICONTROL Sovrappos
 
 ![Modifica le impostazioni di Sovrapposizione](/help/c-experiences/c-visual-experience-composer/assets/change-overlay.png)
 
-Per visualizzare il menu delle opzioni disponibili per un certo tipo di elemento evidenziato, fai clic su quell’elemento. Ad esempio, per modificare un testo fai clic su un’immagine e seleziona **[!UICONTROL Modifica &gt; Testo/HTML]**, oppure fai clic su un pulsante e modifica il colore dello sfondo. Con i pulsanti in alto a sinistra nella pagina puoi attivare e disattivare le sovrapposizioni.
+Per visualizzare il menu delle opzioni disponibili per un certo tipo di elemento evidenziato, fai clic su quell’elemento. Ad esempio, per modificare un testo fai clic su un’immagine e seleziona **[!UICONTROL Modifica > Testo/HTML]**, oppure fai clic su un pulsante e modifica il colore dello sfondo. Con i pulsanti in alto a sinistra nella pagina puoi attivare e disattivare le sovrapposizioni.
 
 Puoi inoltre fare clic su **[!UICONTROL Sfoglia]** e passare dalla pagina principale a una pagina disponibile, ad esempio quella di spedizione o del carrello acquisti, ed eseguire da questa il test delle modifiche. Puoi inoltre accedere agli elementi della pagina disponibili, come menu a comparsa e mini-carrelli, passando il puntatore del mouse sopra di essi. Quindi, fai clic su **[!UICONTROL Componi]** per modificare l’esperienza. Ad esempio, puoi modificare la struttura di un elenco a discesa del carrello acquisti o un carosello di immagini.
 
@@ -109,14 +109,14 @@ Per continuare a gestire le esperienze nell’attività corrente o per aggiunger
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Compositore esperienza visivo (1 di 2) (7:17)
+### Visual Experience Composer (1 di 2) (7:17) ![Badge delle esercitazioni](/help/assets/tutorial.png)
 
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Compositore esperienza visivo (2 di 2) (7:29)
+### Visual Experience Composer (2 di 2) (7:29) ![Badge delle esercitazioni](/help/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
@@ -125,9 +125,9 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 * Creare un’esperienza e visualizzarne l’anteprima per i siti web reattivi
 * Evidenziare tipi di elementi con le sovrapposizioni
 
->[!VIDEO](https://video.tv.adobe.com/v/17401?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Office Hours: Compositore esperienza visivo
+### Orario ufficio: distintivo ![Esercitazione di Visual Experience Composer (Compositore esperienza visivo)](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
@@ -135,4 +135,4 @@ Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-
 * Come evitare i problemi più comuni con Compositore esperienza visivo
 * Procedure utili che puoi utilizzare con Compositore esperienza visivo
 
->[!VIDEO](https://video.tv.adobe.com/v/20784/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/20784/)
