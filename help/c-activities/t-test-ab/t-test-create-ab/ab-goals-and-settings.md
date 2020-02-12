@@ -1,11 +1,11 @@
 ---
-keywords: impostazioni attività;obiettivi e impostazioni A/B;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo principale;metriche aggiuntive;obiettivo;priorità;durata;soluzione di reporting;obiettivo;audience per rapporti;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succede dopo che un utente ha individuato questa metrica obiettivo;note
+keywords: activity settings;A/B goals and settings;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -65,7 +65,7 @@ Consulta [Metriche di successo](../../../c-activities/r-success-metrics/success-
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Impostazioni delle attività (3:02)
+### Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -77,11 +77,11 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 (https://video.tv.adobe.com/v/17381?captions=ita)
 
-### Creazione di test A/B (8:36)
+### Creazione di un contrassegno ![Esercitazione per test A/B (8:36)](/help/assets/tutorial.png)
 
 Questo video mostra le impostazioni di attività nel flusso di lavoro guidato in tre passaggi durante la creazione di un’attività. Obiettivi e impostazioni sono trattati a partire dal minuto 5:30.
 
 * Creare un’attività A/B in Adobe Target
 * Allocare il traffico con suddivisione manuale o automatica del traffico
 
->[!VIDEO](https://video.tv.adobe.com/v/17391?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17391)
