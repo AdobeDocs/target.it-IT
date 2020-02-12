@@ -1,12 +1,12 @@
 ---
-keywords: a4t;Analytics;analytics for target;Analytics come origine per la generazione di rapporti;Adobe Analytics come origine di reporting per Target
+keywords: a4t;analytics;analytics for target;analytics reporting source;adobe analytics as the reporting source for target
 description: Adobe Analytics for Target (A4T) è un’integrazione tra soluzioni che consente di creare attività basate su metriche di conversione e segmenti di pubblico di Analytics. Questa integrazione consente di utilizzare i rapporti di Analytics per esaminare i risultati. Se utilizzi Analytics come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano sulla raccolta di dati di Analytics.
 title: Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
-subtopic: Integrazione
+subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -37,7 +37,7 @@ Tutte le metriche di Analytics, incluse quelle calcolate, sono disponibili in Ta
 
 Ogni metrica è inclusa, comprese quelle personalizzate o calcolate che sono integrate in Analytics.
 
-Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un'ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
+Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
 Considerazioni importanti per l’utilizzo di A4T:
 
@@ -50,7 +50,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 * L’utilizzo di Analytics come origine per la generazione di rapporti consente una sola metrica basata su mbox.
 * Una chiamata da server a server da Target ad Analytics invia informazioni ad Analytics sulle attività e sulle esperienze. Questa integrazione non comporta chiamate server aggiuntive per Target o Analytics.
 
-   In alcune situazioni, la chiamata di classificazione da Target ad Analytics potrebbe non riuscire e le attività non mostrano i dati in Analytics. In tal caso, consultate [Risoluzione dei problemi relativi all'integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
+   In alcune situazioni, la chiamata di classificazione da Target ad Analytics potrebbe non riuscire e le attività non mostrano i dati in Analytics. In tal caso, consultate [Risoluzione dei problemi relativi all&#39;integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
 
 ## Tipi di attività supportate {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -100,30 +100,30 @@ La figura seguente illustra la [!UICONTROL Vista tabella] di un rapporto A4T:
 
 Per visualizzare il rapporto in [!DNL Analytics] anziché in [!DNL Target], fai clic su **[!UICONTROL Visualizza in Analytics]** nella parte superiore del rapporto.
 
-## Analytics &amp; Target: esercitazione sulle best practice per l'analisi {#section_3438E6E77A464424B717A4FD333B84B2}
+## Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi {#section_3438E6E77A464424B717A4FD333B84B2}
 
-Apri l'esercitazione [Analytics &amp; Target: esercitazione sulle best practice per l'analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
+Apri l&#39;esercitazione [Analytics &amp; Target: esercitazione sulle best practice per l&#39;analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
 
 ## Video di formazione:
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Reporting di Analytics for Target (A4T) (4:32)
+### Badge ![Panoramica di Analytics per Target (A4T) (4:32)](/help/assets/overview.png)
 
-Questo video spiega come usare Adobe Analytics come origine per la generazione di rapporti in Adobe Target per l'analisi del tuo programma di ottimizzazione.
+Questo video spiega come usare Adobe Analytics come origine per la generazione di rapporti in Adobe Target per l&#39;analisi del tuo programma di ottimizzazione.
 
 * Cosa è A4T e perché utilizzarlo
 * Come funziona A4T
 * Prerequisiti necessari prima di utilizzare A4T
 
->[!VIDEO](https://video.tv.adobe.com/v/17384?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integrazione di Analytics e Target (A4T) (40:33)
+### Integrazione di Analytics/Target (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
-* Configurare e convalidare il funzionamento dell'integrazione
-* Funzionamento dell'integrazione
+* Configurare e convalidare il funzionamento dell&#39;integrazione
+* Funzionamento dell&#39;integrazione
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
