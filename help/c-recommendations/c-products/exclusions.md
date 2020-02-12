@@ -4,7 +4,7 @@ description: Per evitare che determinati elementi vengano consigliati, crea un e
 title: Esclusioni in Adobe Target
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 5aad5e544fd0f3b6fd7ef3db9bf74d549873b077
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -19,7 +19,7 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 **Per creare un’esclusione:**
 
-1. Fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
+1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
    ![](assets/exclusions_list.png)
 
@@ -27,11 +27,11 @@ Per evitare che determinati elementi vengano consigliati, crea un elenco di escl
 
 1. Fai clic su **[!UICONTROL Crea esclusione]**.
 
-1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]**quando crei (o aggiorni) un’esclusione per visualizzare in anteprima i contenuti dell’esclusione tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
+1. (Facoltativo) Scegli un ambiente dal filtro **[!UICONTROL Ambiente]** quando crei (o aggiorni) un’esclusione per visualizzare in anteprima i contenuti dell’esclusione tale ambiente. Per impostazione predefinita, sono visualizzati i risultati del gruppo di host predefinito.
 
    ![Creare un’esclusione](/help/c-recommendations/c-products/assets/CreateExclusion.png)
 
-1. Digita un **[!UICONTROL Nome]**per l’esclusione e immetti una descrizione facoltativa.
+1. Digita un **[!UICONTROL Nome]** per l’esclusione e immetti una descrizione facoltativa.
 
 1. Utilizza il generatore di regole per creare le esclusioni.
 
@@ -51,7 +51,7 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è pos
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
