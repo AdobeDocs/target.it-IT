@@ -5,7 +5,7 @@ title: Abilitazione di contenuti misti nel browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: c6ae795eceaecad73cdbad520712f1fba1eb7c8a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -36,7 +36,7 @@ Se stai visitando un sito tramite una connessione sicura, Google Chrome verifica
 
 Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
 
-### Video di formazione: Abilitare il VEC in Chrome versione 79.0.3945.117 o successiva (Gen. 2020)
+### Video di formazione: Abilitare il VEC in Chrome versione 79.0.3945.117 o successiva (Gen. 2020) ![Etichetta Panoramica](/help/assets/overview.png)
 
 Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non dovranno completare questi passaggi.
 
@@ -71,10 +71,10 @@ Per impostazione predefinita, Internet Explorer blocca le pagine che contengono 
 
 1. In Internet Explorer, fai clic sull’icona Impostazioni > **[!UICONTROL Opzioni Internet]**.
 1. Apri la scheda [!UICONTROL Sicurezza.]
-1. Seleziona **[!UICONTROL Internet]**, quindi fai clic su**[!UICONTROL  Livello personalizzato]**.
+1. Seleziona **[!UICONTROL Internet]**, quindi fai clic su **[!UICONTROL Livello personalizzato]**.
 1. Seleziona **[!UICONTROL Varie]**.
 1. In [!UICONTROL Varie], abilita **[!UICONTROL Visualizza contenuto misto]**.
-1. Fai clic su **[!UICONTROL OK]**>**[!UICONTROL  Sì]** > **[!UICONTROL Applica]**.
+1. Fai clic su **[!UICONTROL OK]** > **[!UICONTROL Sì]** > **[!UICONTROL Applica]**.
 
 È consigliabile riavviare il computer dopo aver modificato questa impostazione.
 
