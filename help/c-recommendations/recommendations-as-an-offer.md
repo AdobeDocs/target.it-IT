@@ -1,22 +1,22 @@
 ---
-keywords: Recommendations;consigli;offerta
+keywords: Recommendations;offer
 description: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
 title: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Consigli come offerta
 
-Ora puoi includere consigli all'interno di [!UICONTROL test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e attività di [!UICONTROL targeting delle esperienze] (XT).
+Ora puoi includere consigli all&#39;interno di [!UICONTROL test A/B] (tra cui [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) e attività di [!UICONTROL targeting delle esperienze] (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all'esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
 
 Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting delle esperienze] tramite il [!UICONTROL Compositore esperienza visivo] e utilizza l’azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con] per aggiungere consigli a un’esperienza.
@@ -31,7 +31,7 @@ Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting 
 
 1. Durante la creazione di un’[esperienza](/help/c-experiences/c-visual-experience-composer/viztarget-options.md), fai clic sull’elemento a cui desideri aggiungere un Consiglio come offerta, seleziona l’azione **[!UICONTROL Inserisci prima]**, **[!UICONTROL Inserisci dopo]** o **[!UICONTROL Sostituisci con]**, quindi seleziona [!UICONTROL Consiglio].
 
-   Nell’illustrazione seguente viene mostrata l’opzione [!UICONTROL Inserisci dopo &gt; Consiglio].
+   Nell’illustrazione seguente viene mostrata l’opzione [!UICONTROL Inserisci dopo > Consiglio].
 
    ![Inserire un Consiglio come offerta](/help/c-recommendations/assets/replace-after-recommendations.png)
 
@@ -96,13 +96,13 @@ Esistono due modi per eliminare un’offerta di consigli:
 
 ### Eliminare un’offerta di consigli tramite il menu Modifica
 
-1. Fai clic sull’offerta da rimuovere, quindi fai clic su **[!UICONTROL Layout &gt; Rimuovi]**.
+1. Fai clic sull’offerta da rimuovere, quindi fai clic su **[!UICONTROL Layout > Rimuovi]**.
 
    ![Rimuovi](/help/c-recommendations/assets/recs-offer-remove.png)
 
 ### Eliminare un’offerta di consigli tramite il pannello Modifiche
 
-1. Fai clic sull’icona [!UICONTROL Modifiche] **( &lt;/&gt; )** per visualizzare il riquadro [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+1. Fai clic sull’icona [!UICONTROL Modifiche] **( &lt;/> )** per visualizzare il riquadro [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 1. Passa il cursore del mouse sull’azione desiderata, quindi fai clic sull’icona [!UICONTROL Elimina].
 
    ![Icona Elimina](/help/c-recommendations/assets/recs-offer-delete.png)
@@ -117,6 +117,6 @@ Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella p
 
 ![Stato di un’offerta Consigli](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Video di formazione:Raccomandazioni come offerta
+## Video di formazione: Raccomandazioni come badge ![Panoramica offerta](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/28878?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/28878)
