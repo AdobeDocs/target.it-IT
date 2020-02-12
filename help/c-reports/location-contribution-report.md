@@ -1,11 +1,11 @@
 ---
-keywords: MVT;test multivariato;rapporto contributo posizione
+keywords: mvt;multivariate test;location contribution report
 description: Nel rapporto Contributo posizione sono incluse le prestazioni di ogni elemento e di ogni offerta.
 title: Rapporto Contributo Posizione (MVT)
 topic: Standard
 uuid: f487d1a2-05dc-40b7-af40-8da1616452b3
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -30,8 +30,8 @@ La seconda tabella fornisce un rapporto a livello di offerta. Mostra tasso di co
 
 ![](assets/locationcontributionbottom.png)
 
-## Video di formazione: Creare un test MVT
+## Video di formazione: Creare un test MVT Badge ![Tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Contributo posizione è descritto a partire dal minuto 8:45.
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
