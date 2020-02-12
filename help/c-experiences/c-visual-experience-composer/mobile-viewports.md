@@ -4,7 +4,7 @@ description: I riquadri di visualizzazione per dispositivi mobili consentono di 
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: f9632c4b55596b073bcce5187071bd326fdbedb5
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -73,8 +73,8 @@ Se il sito non è reattivo, è comunque possibile utilizzare il Compositore web 
 
 Configura tutti i riquadri di visualizzazione per dispositivi mobili che desideri rendere disponibili quando crei le tue esperienze.
 
-1. Fai clic su **[!UICONTROL Configurazione]**>**[!UICONTROL  Preferenze]**.
-1. Nella sezione Configurazione riquadri di visualizzazione per dispositivi mobili della pagina Preferenze account, fai clic su **[!UICONTROL Aggiungi nuovo]**per aggiungere un riquadro di visualizzazione.
+1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]**.
+1. Nella sezione Configurazione riquadri di visualizzazione per dispositivi mobili della pagina Preferenze account, fai clic su **[!UICONTROL Aggiungi nuovo]** per aggiungere un riquadro di visualizzazione.
 
    Per modificare la configurazione di una finestra mobile esistente, seleziona quella finestra, quindi fai clic sull&#39;icona Modifica (matita).
 
@@ -106,7 +106,7 @@ Configura tutti i riquadri di visualizzazione per dispositivi mobili che desider
 Aggiungi i riquadri di visualizzazione per dispositivi mobili alle attività di destinazione per creare esperienze reattive per gli schermi dei cellulari.
 
 1. Crea un’attività.
-1. In Compositore esperienza visivo, fai clic sull’icona a forma di ruota dentata **[!UICONTROL Impostazioni]**, quindi seleziona**[!UICONTROL  Aggiungi riquadri di visualizzazione per dispositivi mobili]**.
+1. In Compositore esperienza visivo, fai clic sull’icona a forma di ruota dentata **[!UICONTROL Impostazioni]**, quindi seleziona **[!UICONTROL Aggiungi riquadri di visualizzazione per dispositivi mobili]**.
 1. Fai clic sull’icona **[!UICONTROL Dispositivi]**, quindi attiva tutti i dispositivi che devono avere un riquadro di visualizzazione per dispositivi mobili.
 
    ![](assets/MobileViewPorts.jpg)
@@ -126,7 +126,7 @@ Aggiungi i riquadri di visualizzazione per dispositivi mobili alle attività di 
 
 Questo caso d’uso spiega come configurare le esperienze per due versioni di iPhone (iPhone 6 e iPhone 6 Plus) utilizzando la funzionalità Riquadri di visualizzazione mobili di Target Standard.
 
-1. In Target Standard, fai clic su **[!UICONTROL Configurazione]**>**[!UICONTROL  Preferenze]**.
+1. In Target Standard, fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]**.
 1. Nella sezione per la configurazione dei riquadri di visualizzazione per dispositivi mobili, nella pagina Preferenze, crea riquadri di visualizzazione per iPhone 6 e iPhone 6 Plus.
 
    Utilizza le impostazioni seguenti per ciascun riquadro di visualizzazione:
@@ -152,7 +152,7 @@ Questo caso d’uso spiega come configurare le esperienze per due versioni di iP
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Compositore esperienza visivo (2 di 2) (7:29)
+### Compositore esperienza visivo (2 di 2) (7:29) badge ![Panoramica](/help/assets/overview.png)
 
 Il video demo seguente include informazioni sull&#39;utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
 
@@ -165,7 +165,7 @@ Il video demo seguente include informazioni sull&#39;utilizzo del Compositore es
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Preferenze dell’account in Adobe Target
+### Preferenze account nel badge ![Panoramica di Adobe Target](/help/assets/overview.png)
 
 Questo video include informazioni sulla configurazione dei riquadri di visualizzazione per dispositivi mobili nelle preferenze dell&#39;account, a partire dal minuto 4:40.
 
