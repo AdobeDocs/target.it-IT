@@ -1,11 +1,11 @@
 ---
-keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di generazione rapporti;altri metadati
+keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli in Adobe Target.
 title: Impostazioni per le attività Consigli in Adobe Target
-subtopic: Consigli
+subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -62,7 +62,7 @@ L’attività può iniziare dopo l’attivazione, oppure è possibile impostare 
 
 Inserisci delle note sull’attività.
 
-## Video di formazione: Impostazioni attività (03:02)
+## Video di formazione:Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -72,4 +72,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
