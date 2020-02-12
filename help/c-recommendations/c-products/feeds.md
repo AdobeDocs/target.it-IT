@@ -4,7 +4,7 @@ description: I feed consentono di importare le entità in Adobe Recommendations.
 title: Feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: bead9cc8ebf85e97e70f7f4a047c12d5e432f000
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -21,7 +21,7 @@ Dal file di classificazioni di prodotto di [!DNL Target] o da quello di Google P
 
 Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
 
-Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]**>**[!UICONTROL  Feed]**, sono incluse informazioni su eventuali feed creati.
+Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]** > **[!UICONTROL Feed]**, sono incluse informazioni su eventuali feed creati.
 
 ![Pagina Feed](/help/c-recommendations/c-products/assets/feeds-page.png)
 
@@ -208,7 +208,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
-1. Nell’interfaccia di Target, fai clic su **[!UICONTROL Consigli]**>**[!UICONTROL  Feed]** > **[!UICONTROL Crea feed]**.
+1. Nell’interfaccia di Target, fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Feed]** > **[!UICONTROL Crea feed]**.
 
    ![Finestra di dialogo Crea feed](assets/CreateFeed.png)
 
@@ -220,7 +220,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Classificazioni Analytics
    Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
-1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]**o**[!UICONTROL  Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
+1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
    * **FTP**: se hai selezionato FTP, indica le informazioni relative al server FTP, le credenziali di accesso, il nome del file e la directory FTP. Per caricamenti più sicuri, puoi utilizzare il protocollo FTP con SSL (FTPS).
 
@@ -235,7 +235,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL Classificazioni Analytics]**, scegli la suite di rapporti dal relativo elenco a discesa.
 
-1. Fai clic sulla freccia **[!UICONTROL Successivo]**per visualizzare le opzioni di[!UICONTROL Pianificazione].
+1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Pianificazione].
 
    ![Risultato passaggio](assets/CreateFeedSchedule.png)
 
@@ -250,7 +250,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
    Questa opzione si basa sul fuso orario utilizzato nel browser. Se desideri utilizzare l’orario di un fuso orario diverso, dovrai calcolarlo in base al tuo fuso orario attuale.
 
-1. Fai clic sulla freccia **[!UICONTROL Successivo]**per visualizzare le opzioni di[!UICONTROL Mappatura], quindi specifica come eseguire la mappatura dei dati per le definizioni di[!DNL Target].
+1. Fai clic sulla freccia **[!UICONTROL Successivo]** per visualizzare le opzioni di [!UICONTROL Mappatura], quindi specifica come eseguire la mappatura dei dati per le definizioni di [!DNL Target].
 
    ![Risultato passaggio](assets/CreatFeedMapping.png)
 
@@ -323,7 +323,7 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Informazioni sui feed in Recommendations (3:01)
+### Informazioni sui feed in Recommendations (3:01) badge ![Panoramica](/help/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -332,7 +332,7 @@ Questo video contiene le seguenti informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creare un feed (6:44)
+### Creare un feed (6:44) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
