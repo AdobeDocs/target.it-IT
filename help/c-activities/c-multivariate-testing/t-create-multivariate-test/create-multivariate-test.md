@@ -1,10 +1,10 @@
 ---
-keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
+keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Il Compositore esperienza visivo in Adobe Target è utile per creare i test multivariati (MVT) direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creazione di un test multivariato
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,7 +17,7 @@ L’editor rapido di Target consente di scegliere qualsiasi posizione e di aggiu
 
 Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
 
-1. Fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Test multivariato]**.
+1. Fate clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Test multivariato]**.
 
    ![Creare un test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/create-multivariate.png)
 
@@ -114,11 +114,11 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l’attività.
 
-## Video di formazione: Creazione di test multivariati (09:25)
+## Video di formazione:Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 
 * Definizione e progettazione di un test multivariato
 * Creazione di un test multivariato
 
->[!VIDEO](https://video.tv.adobe.com/v/17395?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17395)
