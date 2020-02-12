@@ -1,10 +1,10 @@
 ---
-keywords: contenuto;risorse;gestione contenuto;offerte;gestione risorse;inserire modalità selezione;modalità di selezione
+keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Gestisci il contenuto delle offerte basate su codice e su immagine tramite la libreria delle offerte.
 title: Offerte
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -83,7 +83,7 @@ Sono disponibili le seguenti informazioni:
 * Tipo di URL di reindirizzamento
 * URL assoluto o relativo
 
-## Video di formazione: L’archivio dei contenuti
+## Video di formazione: L’archivio dei contenuti badge ![Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione delle offerte.
 
@@ -91,4 +91,4 @@ Questo video include informazioni sulla gestione delle offerte.
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
