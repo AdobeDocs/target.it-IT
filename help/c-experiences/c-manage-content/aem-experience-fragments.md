@@ -5,7 +5,7 @@ title: Frammenti esperienza Adobe Experience Manager (AEM) in Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 1bd741f374c772aedc93bfae63105e1ce09be61a
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -141,7 +141,7 @@ You can consume Experience Fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Nota che il frammento di esperienza nella versione “master” rimane in AEM. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 * Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell&#39; [!DNL Target] interfaccia utente.
 
-## ![Video sull’esercitazione](/help/assets/overview.png) Training: Utilizzo di frammenti esperienza AEM con Adobe Target {#section_C0EDC54063464F41A182492D2045BC64}
+## Training video: Using AEM Experience Fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 Il seguente video illustra come impostare e utilizzare i frammenti esperienza:
 
