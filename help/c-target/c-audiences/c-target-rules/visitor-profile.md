@@ -1,10 +1,10 @@
 ---
-keywords: profilo visitatore;targeting profilo visitatore
+keywords: visitor profile;target visitor profile
 description: Crea tipi di pubblico in Adobe Target per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
 title: Profilo visitatore
 uuid: 462c80f4-bd5f-4dce-b02b-21b2c33c5bf6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -13,9 +13,9 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Profilo visitatore]**.
 
    ![](assets/target_visitor_profile.png)
 
@@ -39,11 +39,11 @@ Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di p
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione del contrassegno ![Panoramica pubblico](/help/assets/overview.png)
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
