@@ -3,7 +3,7 @@ description: I criteri controllano il contenuto delle attività di Adobe Recomme
 title: Creare criteri
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,7 +20,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 * Quando crei un’attività di [!DNL Recommendations], fai clic su **[!UICONTROL Crea nuovo]** nella schermata [!UICONTROL Seleziona criteri]. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
 * Quando modifichi un’attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Posizione Consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
-* Nella schermata della libreria **[!UICONTROL Consigli]** &gt; **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
+* Nella schermata della libreria **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
 
 1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
 
@@ -65,7 +65,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
    >[!NOTE]
    >
-   >Se selezioni **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]**, avrai la possibilità di impostare le [regole di similarità dei contenuti](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
+   >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
 1. Imposta l’**[!UICONTROL Intervallo di dati]** per determinare l’intervallo di tempo dei dati cronologici disponibili sul comportamento dell’utente da utilizzare per determinare quali consigli visualizzare.
 
@@ -81,7 +81,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    * Un mese
    * Due mesi
 
-1. Seleziona l’**[!UICONTROL Origine di dati comportamentali]** desiderata: [!UICONTROL Elementi mbox] o [!UICONTROL Analytics].
+1. Seleziona la **[!UICONTROL Origine di dati comportamentali]** desiderata: [!UICONTROL Elementi mbox] o [!UICONTROL Analytics].
 
    Se si sceglie [!UICONTROL Analytics], selezionare la suite di rapporti desiderata.
 
@@ -104,13 +104,13 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Configura la **[!UICONTROL ponderazione degli attributi]**.
 
-   È possibile aggiungere più regole per “spostare” l'algoritmo in base alla descrizione o ai metadati importanti relativi al catalogo del contenuto. Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli.
+   È possibile aggiungere più regole per “spostare” l&#39;algoritmo in base alla descrizione o ai metadati importanti relativi al catalogo del contenuto. Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli.
 
    Consulta [Ponderazione degli attributi](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
 
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
 
-   Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un'altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
+   Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un&#39;altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
 
 ### Adobe Analytics
 
@@ -127,7 +127,7 @@ I consigli basati su chiavi utilizzano il contesto comportamentale dei visitator
 Esistono due tipi di consigli:
 
 * **Popolarità:** elenca gli elementi in base ai più visualizzati, i più venduti, e alla metrica migliore. La chiave dei criteri di popolarità è vuota.
-* **Basato su chiave:** comprende il resto dei criteri. I consigli offrono una serie diversificata di scelte per quanto riguarda il tipo di chiave. Le opzioni variano da “elemento corrente” a “parametri profilo” e consentono di impostare la chiave dei valori da consigliare in modo sistematico. È possibile sottoporre a test più criteri confrontandoli uno con l'altro e basando ogni criterio su una chiave diversa.
+* **Basato su chiave:** comprende il resto dei criteri. I consigli offrono una serie diversificata di scelte per quanto riguarda il tipo di chiave. Le opzioni variano da “elemento corrente” a “parametri profilo” e consentono di impostare la chiave dei valori da consigliare in modo sistematico. È possibile sottoporre a test più criteri confrontandoli uno con l&#39;altro e basando ogni criterio su una chiave diversa.
 
 Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in modo uniforme tra i diversi test di criteri. In altre parole, in presenza di due criteri, il traffico viene suddiviso in modo uniforme tra di essi. In presenza di due criteri e di due progettazioni, il traffico viene suddiviso in modo uniforme tra le quattro combinazioni. Puoi inoltre specificare una percentuale di visitatori del sito che visualizzano il contenuto predefinito, a scopo di confronto. In tal caso, la percentuale specificata di visitatori visualizza il contenuto predefinito e gli altri sono suddivisi tra i criteri e le combinazioni di progettazione.
 
@@ -138,9 +138,9 @@ Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in mod
 
 ### Elemento corrente
 
-Il consiglio è determinato dall'elemento attualmente visualizzato dal visitatore.
+Il consiglio è determinato dall&#39;elemento attualmente visualizzato dal visitatore.
 
-Il consiglio visualizzano altri elementi che potrebbero interessare i visitatori interessati all'elemento specificato.
+Il consiglio visualizzano altri elementi che potrebbero interessare i visitatori interessati all&#39;elemento specificato.
 
 Quando questa opzione è selezionata, il valore `entity.id` deve essere trasmesso come parametro alla mbox di visualizzazione.
 
@@ -181,7 +181,7 @@ NON utilizzare nelle pagine dei risultati di ricerca nulli.
 
 Il consiglio è determinato da un elemento memorizzato nel profilo di un visitatore, utilizzando uno degli utenti.*x* o profilo.Attributi *x*.
 
-Quando questa opzione è selezionata, il valore `entity.id` deve essere presente nell'attributo profilo.
+Quando questa opzione è selezionata, il valore `entity.id` deve essere presente nell&#39;attributo profilo.
 
 **Logica (criteri)**
 
@@ -223,7 +223,7 @@ Se l’attributo di profilo personalizzato non corrisponde direttamente a un sin
 
 ### Ultimo articolo acquistato
 
-Il consiglio è determinato in base all'ultimo articolo acquistato da ogni visitatore. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
+Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
 **Logica (criteri)**
 
@@ -241,7 +241,7 @@ NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
 ### Ultimo articolo visualizzato
 
-Il consiglio è determinato dall'ultimo articolo visualizzato da ogni visitatore univoco. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
+Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visitatore univoco. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
 **Logica (criteri)**
 
@@ -259,7 +259,7 @@ NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
 ### Articolo più visualizzato
 
-Il consiglio è determinata in base all'articolo visualizzato più frequentemente, attraverso lo stesso metodo impiegato per la categoria preferita.
+Il consiglio è determinata in base all&#39;articolo visualizzato più frequentemente, attraverso lo stesso metodo impiegato per la categoria preferita.
 
 Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
 
@@ -283,7 +283,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 ### Categoria preferita
 
-Il consiglio è determinato dalla categoria destinataria della maggioranza dell'attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
+Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
 
 Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
 
@@ -319,7 +319,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 ### Articoli visualizzati di recente {#recently-viewed}
 
-Utilizza la cronologia del visitatore (nell'arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
+Utilizza la cronologia del visitatore (nell&#39;arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
 
 Il criterio Articoli visualizzati di recente ora restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
 
@@ -335,7 +335,7 @@ Pagine generali, come la pagina principale o le pagine di destinazione e gli ann
 
 Varie opzioni consentono di limitare gli articoli visualizzati nei consigli. Puoi utilizzare le regole di inclusione durante la creazione di criteri o promozioni.
 
-Le regole di inclusione sono facoltative. Tuttavia, l'impostazione di questi dettagli consente un maggiore controllo sugli elementi visualizzati nei consigli. Ogni dettaglio configurato restringe ulteriormente i criteri di visualizzazione.
+Le regole di inclusione sono facoltative. Tuttavia, l&#39;impostazione di questi dettagli consente un maggiore controllo sugli elementi visualizzati nei consigli. Ogni dettaglio configurato restringe ulteriormente i criteri di visualizzazione.
 
 Ad esempio, è possibile scegliere di visualizzare solo le scarpe da donna con una disponibilità di oltre 50 pezzi e un prezzo tra \25 $ e \45 $. È anche possibile ponderare ogni attributo in modo che la probabilità di comparire sia maggiore per gli elementi più importanti per la tua attività.
 
@@ -345,9 +345,9 @@ Le opzioni di regola di inclusione variano secondo il settore verticale. Per imp
 
 >[!NOTE]
 >
->È consigliabile utilizzare le regole di inclusione con cautela. Questi criteri sono utili se, ad esempio, all'interno dell'organizzazione sono utilizzate regole che richiedano di evitare la visualizzazione di un marchio quando ne viene visualizzato un altro. Tuttavia, questa funzione comporta un costo opportunità. Potresti perdere una percentuale di incremento limitando la visualizzazione di alcuni elementi che verrebbero visualizzati normalmente in base ai criteri dell'attività.
+>È consigliabile utilizzare le regole di inclusione con cautela. Questi criteri sono utili se, ad esempio, all&#39;interno dell&#39;organizzazione sono utilizzate regole che richiedano di evitare la visualizzazione di un marchio quando ne viene visualizzato un altro. Tuttavia, questa funzione comporta un costo opportunità. Potresti perdere una percentuale di incremento limitando la visualizzazione di alcuni elementi che verrebbero visualizzati normalmente in base ai criteri dell&#39;attività.
 
-Le regole di inclusione sono unite con l'operatore “AND” (E). Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
+Le regole di inclusione sono unite con l&#39;operatore “AND” (E). Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
 
 Per creare una semplice regola di inclusione, come accennato in precedenza, per visualizzare solo le scarpe da donna con una disponibilità di oltre 50 pezzi e un prezzo tra 25 $ e 45 $, attieniti alla seguente procedura:
 
@@ -357,11 +357,11 @@ Per creare una semplice regola di inclusione, come accennato in precedenza, per 
 
    ![](assets/Recs_InclusionRules.png)
 
-   Puoi specificare che gli articoli siano inclusi solo quando uno degli attributi nell'elenco viene soddisfatto o non corrisponde a uno o più condizioni specificate.
+   Puoi specificare che gli articoli siano inclusi solo quando uno degli attributi nell&#39;elenco viene soddisfatto o non corrisponde a uno o più condizioni specificate.
 
-   I valutatori disponibili dipendono dal valore scelto nel primo elenco a discesa. È possibile elencare più elementi. Questi elementi sono valutati con l'operatore “OR”.
+   I valutatori disponibili dipendono dal valore scelto nel primo elenco a discesa. È possibile elencare più elementi. Questi elementi sono valutati con l&#39;operatore “OR”.
 
-   Più regole sono collegate tra loro mediante l'operatore “AND” (E).
+   Più regole sono collegate tra loro mediante l&#39;operatore “AND” (E).
 
    >[!NOTE]
    >
@@ -369,7 +369,7 @@ Per creare una semplice regola di inclusione, come accennato in precedenza, per 
 
 ## Ponderazione degli attributi {#task_2AEDA0DB15B74770B76F6982B24C2E42}
 
-Utilizza la ponderazione degli attributi per “spostare” l'algoritmo in modo che alcuni elementi abbiano più probabilità di essere visualizzati. L’addetto al marketing può influenzare l’algoritmo in base a descrizioni importanti o metadati relativi al catalogo dei contenuti.
+Utilizza la ponderazione degli attributi per “spostare” l&#39;algoritmo in modo che alcuni elementi abbiano più probabilità di essere visualizzati. L’addetto al marketing può influenzare l’algoritmo in base a descrizioni importanti o metadati relativi al catalogo dei contenuti.
 
 Attribuisci una ponderazione maggiore agli articoli in offerta affinché compaiano più spesso tra i prodotti consigliati. Gli articoli non in offerta non vengono esclusi del tutto, ma sono visualizzati con minore frequenza. È possibile applicare più attributi di ponderazione allo stesso algoritmo, e sottoporli a test con traffico suddiviso nel consiglio.
 
@@ -405,7 +405,7 @@ Seleziona i pulsanti appropriati:
 * [!UICONTROL Applicare le regole di inclusione ai consigli di backup]
 * [!UICONTROL Consiglia gli articoli acquistati in precedenza]
 
-   Questa impostazione è basata sul valore di profilo `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. Se di solito i clienti acquistano determinati articoli su base ripetuta, l'attivazione di questa funzionalità consente di continuare a consigliare gli articoli acquistati in precedenza.
+   Questa impostazione è basata sul valore di profilo `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. Se di solito i clienti acquistano determinati articoli su base ripetuta, l&#39;attivazione di questa funzionalità consente di continuare a consigliare gli articoli acquistati in precedenza.
 
 Se abiliti **[!UICONTROL Mostra consigli di backup]**, l’opzione per applicare le [regole di inclusione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079) ai consigli di backup è abilitata per impostazione predefinita.
 
@@ -415,18 +415,18 @@ Se abiliti **[!UICONTROL Mostra consigli di backup]**, l’opzione per applicare
 |--- |--- |--- |
 | Disabilitato | Disabilitato | Se vengono restituiti meno consigli rispetto alle richieste di progettazione, la progettazione dei consigli viene sostituita dal contenuto predefinito e non vengono visualizzate indicazioni. |
 | Abilitato | Disabilitato | La progettazione viene sottoposta a rendering, ma può includere spazio vuoto se vengono restituite meno consigli rispetto al numero richiesto dalla progettazione. |
-| Abilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l'applicazione di regole di inclusione ai consigli di backup limita il numero di quelle qualificate al punto che la progettazione non può essere riempita, la progettazione viene parzialmente sottoposta a rendering.<br>Se i criteri non restituiscono alcun consiglio e le regole di inclusione limitano i consigli di backup a zero, la progettazione viene sostituita con il contenuto predefinito. |
-| Disabilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l'applicazione di regole di inclusione limita il numero di consigli di backup qualificate al punto che la progettazione non può essere riempita, la progettazione viene sostituita dal contenuto predefinito e non vengono visualizzati consigli. |
+| Abilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione ai consigli di backup limita il numero di quelle qualificate al punto che la progettazione non può essere riempita, la progettazione viene parzialmente sottoposta a rendering.<br>Se i criteri non restituiscono alcun consiglio e le regole di inclusione limitano i consigli di backup a zero, la progettazione viene sostituita con il contenuto predefinito. |
+| Disabilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione limita il numero di consigli di backup qualificate al punto che la progettazione non può essere riempita, la progettazione viene sostituita dal contenuto predefinito e non vengono visualizzati consigli. |
 
 ## Somiglianza del contenuto {#concept_5402DAFA279C4E46A9A449526889A0CB}
 
 Utilizza le regole di [!UICONTROL somiglianza del contenuto] per formulare consigli basati su attributi di elemento o file multimediale.
 
-Le regole di somiglianza del contenuto confrontano le parole chiave dell'attributo dell'elemento e formulano consigli basati su quante parole chiave hanno in comune diversi elementi. I consigli basati sulla somiglianza del contenuto non richiedono dati precedenti per fornire risultati significativi.
+Le regole di somiglianza del contenuto confrontano le parole chiave dell&#39;attributo dell&#39;elemento e formulano consigli basati su quante parole chiave hanno in comune diversi elementi. I consigli basati sulla somiglianza del contenuto non richiedono dati precedenti per fornire risultati significativi.
 
 Utilizzare la somiglianza di contenuto per generare consigli è particolarmente efficace per i nuovi elementi, i quali non possono essere mostrati nei consigli utilizzando il criterio *Le persone che hanno visto questo, hanno visto anche* e altre logiche basate sul comportamento precedente. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
 
-Quando si selezionano **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]**, è possibile creare regole per aumentare o diminuire l’importanza degli attributi di elementi specifici nella determinazione dei consigli. Per gli articoli quali i libri, si potrebbe voler aumentare l'importanza di attributi come *genere*, *autore*, *serie*, e così via, per consigliare libri simili.
+Quando si selezionano **[!UICONTROL elementi]**/**[!UICONTROL supporti con attributi simili]**, è possibile creare regole per aumentare o diminuire l&#39;importanza degli attributi di elementi specifici nella determinazione dei consigli. Per gli articoli quali i libri, si potrebbe voler aumentare l&#39;importanza di attributi come *genere*, *autore*, *serie*, e così via, per consigliare libri simili.
 
 ![](assets/ContentSimilarity.png)
 
@@ -436,9 +436,9 @@ Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento
 
 >[!NOTE]
 >
->L'algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell'esecuzione dell'algoritmo.
+>L&#39;algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell&#39;esecuzione dell&#39;algoritmo.
 
-## Video di formazione: Creare i criteri in Recommendations (12:33)
+## Video di formazione: Creare criteri in Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -446,4 +446,4 @@ Questo video contiene le seguenti informazioni:
 * Creare sequenze di criteri
 * Caricare criteri personalizzati
 
->[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12&captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/27694?quality=12)
