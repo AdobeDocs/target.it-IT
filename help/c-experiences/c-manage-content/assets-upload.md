@@ -1,11 +1,11 @@
 ---
-keywords: contenuto;aggiornare contenuto;risorse;caricare contenuto;caricare risorsa
+keywords: content;update content;assets;upload content;upload asset
 description: È possibile aggiungere elementi all’elenco delle Offerte di immagine.
 title: Caricare contenuto
 topic: Standard
 uuid: f6ab926b-163a-4873-80a5-48d2d225ac88
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,13 +15,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 È possibile aggiungere elementi o rimuovere elementi dall’elenco Offerte di immagine.
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte immagine]**.
-1. Fai clic su **[!UICONTROL Crea]** &gt; **[!UICONTROL File]**.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL File]**.
 1. Seleziona l’elemento da aggiungere, quindi fai clic su **[!UICONTROL Apri]**.
 1. Modifica il nome del file dell’elemento, se necessario, quindi fai clic su **[!UICONTROL Carica]**.
 
    L’elemento viene caricato nella libreria.
 
-## Video di formazione: L’archivio dei contenuti
+## Video di formazione: L’archivio dei contenuti badge ![Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto.
 
@@ -29,4 +29,4 @@ Questo video include informazioni sulla gestione del contenuto.
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
->[!VIDEO](https://video.tv.adobe.com/v/17387?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17387)
