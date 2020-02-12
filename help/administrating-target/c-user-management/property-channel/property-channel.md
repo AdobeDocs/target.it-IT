@@ -1,11 +1,11 @@
 ---
-keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto
+keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informazioni su come creare le proprietà e come utilizzare la funzionalità Proprietà e autorizzazioni, che consente agli amministratori di Target di creare aree di lavoro diverse (profili prodotto) in Target e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web in base a queste aree di lavoro.
 title: Autorizzazioni per gli utenti Enterprise
-subtopic: Introduzione
+subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -20,17 +20,17 @@ Le autorizzazioni degli utenti Enterprise rappresentano un mezzo per amministrar
 >
 >La funzionalità Proprietà e Autorizzazioni è disponibile come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di Target Premium.
 >
->L'implementazione del tuo Target può utilizzare qualsiasi versione di at.js o mbox.js.
+>L&#39;implementazione del tuo Target può utilizzare qualsiasi versione di at.js o mbox.js.
 
 Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul collegamento [!UICONTROL Configurazione] in alto nell’interfaccia utente di [!DNL Target].
 
-* **Clienti[!DNL Target Standard]**: se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Configurazione &gt; Utenti]), significa che si dispone di una licenza [!DNL Target Standard]. I clienti [!DNL Target Standard] possono seguire le istruzioni riportate in [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in Adobe Admin Console.
+* **[!DNL Target Standard]Clienti **: se è presente la scheda[!UICONTROL Utenti]([!UICONTROL Configurazione > Utenti]), significa che si dispone di una licenza[!DNL Target Standard]. I clienti[!DNL Target Standard]possono seguire le istruzioni riportate in[Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md)per aggiungere utenti e assegnare autorizzazioni in Adobe Admin Console.
 
-   [!DNL Target Standard]Gli utenti visualizzano il seguente messaggio di errore quando si fa clic sulla scheda [!UICONTROL Proprietà]. Non c'è niente di sbagliato con [!DNL Target]. Gli utenti [!DNL Target Standard] non hanno accesso alla funzionalità di [!DNL Target Premium] [!UICONTROL autorizzazioni Enterprise].
+   [!DNL Target Standard]Gli utenti visualizzano il seguente messaggio di errore quando si fa clic sulla scheda [!UICONTROL Proprietà]. Non c&#39;è niente di sbagliato con [!DNL Target]. Gli utenti [!DNL Target Standard] non hanno accesso alla funzionalità di [!DNL Target Premium] [!UICONTROL autorizzazioni Enterprise].
 
    ![Messaggio di errore](/help/administrating-target/c-user-management/property-channel/assets/sorry.png)
 
-* **Clienti[!DNL Target Premium]**: se è presente la scheda [!UICONTROL Proprietà] ([!UICONTROL Configurazione &gt; Proprietà]), significa che si dispone di una licenza [!DNL Target Premium]. I clienti [!DNL Target Premium] devono seguire le istruzioni contenute in questo articolo e in [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clienti **: se è presente la scheda[!UICONTROL Proprietà]([!UICONTROL Configurazione > Proprietà]), significa che si dispone di una licenza[!DNL Target Premium]. I clienti[!DNL Target Premium]devono seguire le istruzioni contenute in questo articolo e in[Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Prima di iniziare a utilizzare le autorizzazioni Enterprise
 
@@ -53,7 +53,7 @@ Le proprietà appartengono a canali specifici (web, mobile, email o API/altro).
 
 ### Area di lavoro (profilo prodotto)
 
-Un’area di lavoro consente a un’azienda di assegnare un gruppo specifico di utenti a un insieme specifico di proprietà. In vari modi, un'area di lavoro è simile a una suite di rapporti in Adobe Analytics.
+Un’area di lavoro consente a un’azienda di assegnare un gruppo specifico di utenti a un insieme specifico di proprietà. In vari modi, un&#39;area di lavoro è simile a una suite di rapporti in Adobe Analytics.
 
 Nota: le aree di lavoro sono note come profili di prodotto in Adobe Admin Console per Enterprise.
 
@@ -71,13 +71,13 @@ Tutte le attività create tramite Adobe Experience Manager (AEM), Adobe Mobile S
 
 ### Area di lavoro predefinita
 
-Tutte le aree di lavoro esistenti (profili prodotto) in Admin Console vengono unite in un'unica area di lavoro predefinita durante la migrazione dell'organizzazione al nuovo modello di autorizzazioni Enterprise.
+Tutte le aree di lavoro esistenti (profili prodotto) in Admin Console vengono unite in un&#39;unica area di lavoro predefinita durante la migrazione dell&#39;organizzazione al nuovo modello di autorizzazioni Enterprise.
 
 >[!IMPORTANT]
 >
 >Non eliminare l’area di lavoro predefinita.
 
-Tutti i ruoli utente e l'accesso a tutte le funzionalità di Target rimangono esattamente identici a quelli precedenti alla migrazione al nuovo modello di autorizzazioni Enterprise.
+Tutti i ruoli utente e l&#39;accesso a tutte le funzionalità di Target rimangono esattamente identici a quelli precedenti alla migrazione al nuovo modello di autorizzazioni Enterprise.
 
 ### Gruppi di utenti
 
@@ -85,27 +85,27 @@ Tutti i ruoli utente e l'accesso a tutte le funzionalità di Target rimangono es
 
 ### Ruoli e autorizzazioni
 
-I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestiscono le attività nell'implementazione del tuo Target. In Target i ruoli includono quanto segue:
+I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestiscono le attività nell&#39;implementazione del tuo Target. In Target i ruoli includono quanto segue:
 
 * Osservatore: può visualizzare le attività, ma non può crearle o modificarle.
-* Editor: può creare e modificare le attività prima che siano in diretta, ma non può approvare l'avvio di un'attività.
+* Editor: può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività.
 * Approvatore: creare, modificare, attivare o interrompere le attività.
 
 ### Canale
 
 Il canale si riferisce al tipo di contenuto in cui vengono recapitate le attività di Target: pagine Web, applicazioni mobili, messaggi e-mail e così via.
 
-Quando si crea una nuova attività, questa viene creata nell'area di lavoro attualmente selezionata. Vedrai le opzioni di selezione del canale nella prima finestra di dialogo che ti permette di scegliere il canale desiderato per l'attività: Web, app mobile, e-mail o altro/API.
+Quando si crea una nuova attività, questa viene creata nell&#39;area di lavoro attualmente selezionata. Vedrai le opzioni di selezione del canale nella prima finestra di dialogo che ti permette di scegliere il canale desiderato per l&#39;attività: Web, app mobile, e-mail o altro/API.
 
 ## Cenni preliminari sulle autorizzazioni {#section_DC2172520DA84605B218A5E9FB6D187A}
 
 Le informazioni seguenti spiegano il modo in cui le autorizzazioni sono state applicate in precedenza in [!DNL Target] e come vengono applicate utilizzando la funzionalità [!UICONTROL Proprietà] e [!UICONTROL Autorizzazioni].
 
-Con la nuova funzionalità [!UICONTROL Autorizzazioni] è possibile creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l'accesso alla visualizzazione, alla modifica e all'approvazione dei propri utenti in base all'area, all'ambiente (sviluppo, pre-produzione, produzione), al canale o ad altri criteri personalizzati.
+Con la nuova funzionalità [!UICONTROL Autorizzazioni] è possibile creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]) per assegnare a un singolo utente varie autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti saranno in grado di limitare l&#39;accesso alla visualizzazione, alla modifica e all&#39;approvazione dei propri utenti in base all&#39;area, all&#39;ambiente (sviluppo, pre-produzione, produzione), al canale o ad altri criteri personalizzati.
 
 ![](assets/permissions.png)
 
-Ad esempio, un utente specifico potrebbe avere accesso “approvato” ai siti Web americani, ma solo un accesso di “visualizzazione” sull'applicazione mobile europea. Lo stesso utente potrebbe non avere alcun accesso neppure per visualizzare le attività offerte sulle proprietà Web e mobile nella regione APAC.
+Ad esempio, un utente specifico potrebbe avere accesso “approvato” ai siti Web americani, ma solo un accesso di “visualizzazione” sull&#39;applicazione mobile europea. Lo stesso utente potrebbe non avere alcun accesso neppure per visualizzare le attività offerte sulle proprietà Web e mobile nella regione APAC.
 
 Il modello di [!DNL Target] [!UICONTROL Autorizzazioni] corrente dispone di tre ruoli di autorizzazione (osservatore, editor e approvatore), come illustrato nella figura seguente:
 
@@ -116,10 +116,10 @@ Ogni ruolo dispone di diversi livelli di autorizzazioni:
 | Ruolo | Descrizione |
 |--- |--- |
 | Osservatore | Ha accesso in sola lettura alle attività. Può visualizzare le attività, ma non può crearle o modificarle. |
-| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l'avvio di un'attività. |
+| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
 | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
 
-È importante notare che il ruolo di ogni utente si applica a ogni pagina, proprietà o sito dell'account che include i tag di [!DNL Target], come illustrato di seguito:
+È importante notare che il ruolo di ogni utente si applica a ogni pagina, proprietà o sito dell&#39;account che include i tag di [!DNL Target], come illustrato di seguito:
 
 ![](assets/permissions_2.png)
 
@@ -153,7 +153,7 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
 * **Ernie**: Ernie è un Marketing Manager per l’organizzazione ed è responsabile del marketing negli Stati Uniti.
 
-   Siccome Ernie è entrato di recente nell'organizzazione e ha poca esperienza con Target, dispone dei permessi editor per la homepage degli Stati Uniti, il sito degli Stati Uniti, e le pagine dei prodotti. Grazie alle autorizzazioni editor, Ernie può creare e modificare le attività prima che siano attive, ma non può approvare il lancio di un'attività — qualcuno che dispone delle autorizzazioni di approvazione, ad esempio Jan, deve approvare l'attività prima che possa essere messa in produzione.
+   Siccome Ernie è entrato di recente nell&#39;organizzazione e ha poca esperienza con Target, dispone dei permessi editor per la homepage degli Stati Uniti, il sito degli Stati Uniti, e le pagine dei prodotti. Grazie alle autorizzazioni editor, Ernie può creare e modificare le attività prima che siano attive, ma non può approvare il lancio di un&#39;attività — qualcuno che dispone delle autorizzazioni di approvazione, ad esempio Jan, deve approvare l&#39;attività prima che possa essere messa in produzione.
 
    Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito Russia, del sito Francia, o del sito carriere, non può vedere le attività per quei siti.
 
@@ -163,7 +163,7 @@ Se fai parte di un’azienda multinazionale, potresti avere un’area di lavoro 
 
 ### Organizzazione multi-brand
 
-Se fai parte di un'azienda multi-brand, potresti avere un'area di lavoro separata per le pagine Web, le proprietà o i siti di ogni marca.
+Se fai parte di un&#39;azienda multi-brand, potresti avere un&#39;area di lavoro separata per le pagine Web, le proprietà o i siti di ogni marca.
 
 Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cui sopra, è possibile impostare i progetti e le autorizzazioni come di seguito:
 
@@ -171,31 +171,31 @@ Dopo una riorganizzazione, utilizzando gli utenti tipo nelle illustrazioni di cu
 
    Nel suo ruolo dispone delle autorizzazioni di approvatore per il sito ospedaliero. grazie alle autorizzazioni di approvatore può creare, modificare e attivare o arrestare le attività.
 
-   Jan si consulta inoltre con il team di ottimizzazione nell'ambito dei prodotti di consumo e, pertanto, dispone delle autorizzazioni di osservatore per quel sito, che le consentono l'accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
+   Jan si consulta inoltre con il team di ottimizzazione nell&#39;ambito dei prodotti di consumo e, pertanto, dispone delle autorizzazioni di osservatore per quel sito, che le consentono l&#39;accesso in sola lettura alle attività. Jan può visualizzare le attività, ma non può crearle o modificarle.
 
 * **Ernie:** Ernie è un Marketing Manager per l’organizzazione ed è responsabile del marketing nell’ambito dei prodotti di consumo.
 
-   Siccome Ernie è entrato di recente nell'organizzazione e ha poca esperienza con Target, dispone dei permessi editor per il sito consumatore. Grazie alle autorizzazioni editor, Ernie può creare e modificare le attività prima che siano attive, ma non può approvare il lancio di un'attività — qualcuno che dispone delle autorizzazioni di approvazione per il sito consumatore, ma non Jan in questo caso, deve approvare l'attività prima che possa essere messa in produzione.
+   Siccome Ernie è entrato di recente nell&#39;organizzazione e ha poca esperienza con Target, dispone dei permessi editor per il sito consumatore. Grazie alle autorizzazioni editor, Ernie può creare e modificare le attività prima che siano attive, ma non può approvare il lancio di un&#39;attività — qualcuno che dispone delle autorizzazioni di approvazione per il sito consumatore, ma non Jan in questo caso, deve approvare l&#39;attività prima che possa essere messa in produzione.
 
-   Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito dell'ospedale, non può vedere le attività per quel sito.
+   Siccome Ernie non ha un ruolo che richiede la sua visualizzazione del sito dell&#39;ospedale, non può vedere le attività per quel sito.
 
 * **Diana**: Diana è ora un’analista per l’organizzazione e le sono stati concessi i permessi di osservatore per il sito dell’ospedale e il sito consumatore, che le consentono un accesso in sola lettura alle attività. Diana può visualizzare le attività, ma non può crearle o modificarle.
 
 ## Punti di contatto nell’interfaccia utente Target per proprietà e autorizzazioni {#section_3414371393BB42999A268628B5456EC9}
 
-La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni nell'interfaccia utente di [!DNL Target].
+La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni nell&#39;interfaccia utente di [!DNL Target].
 
-* **Elenco a discesa nell'area di lavoro (profilo prodotto):** l'elenco a discesa nell'area di lavoro viene visualizzato nella parte superiore delle pagine [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte]. Seleziona l'area di lavoro desiderata per filtrare l'elenco e visualizzare solo gli elementi nell'area di lavoro selezionata.
+* **Elenco a discesa nell&#39;area di lavoro (profilo prodotto):** l&#39;elenco a discesa nell&#39;area di lavoro viene visualizzato nella parte superiore delle pagine [!UICONTROL Attività], [!UICONTROL Tipi di pubblico] e [!UICONTROL Offerte]. Seleziona l&#39;area di lavoro desiderata per filtrare l&#39;elenco e visualizzare solo gli elementi nell&#39;area di lavoro selezionata.
 
    ![](assets/workspace_drop-down.png)
 
-* **Creazione di attività:** quando si crea una nuova attività, questa viene creata nell'area di lavoro attualmente selezionata. Vedrai le opzioni di selezione del canale nella prima finestra di dialogo che ti permette di scegliere il canale desiderato per l'attività: Web, app mobile, e-mail o altro/API.
+* **Creazione di attività:** quando si crea una nuova attività, questa viene creata nell&#39;area di lavoro attualmente selezionata. Vedrai le opzioni di selezione del canale nella prima finestra di dialogo che ti permette di scegliere il canale desiderato per l&#39;attività: Web, app mobile, e-mail o altro/API.
 
    ![](assets/channel_options.png)
 
-* **Creazione di pubblico:** quando si crea un nuovo pubblico, questo viene creato nell'area di lavoro attualmente selezionata.
-* **Creazione di offerta:** quando si crea una nuova offerta, questa viene creata nell'area di lavoro attualmente selezionata.
-* **Pagina delle proprietà (Configurazione &gt; Proprietà):** è possibile utilizzare la casella di [!UICONTROL ricerca], il [!UICONTROL canale] e le opzioni del [!UICONTROL profilo del prodotto] per filtrare l'elenco delle [!UICONTROL proprietà].
+* **Creazione di pubblico:** quando si crea un nuovo pubblico, questo viene creato nell&#39;area di lavoro attualmente selezionata.
+* **Creazione di offerta:** quando si crea una nuova offerta, questa viene creata nell&#39;area di lavoro attualmente selezionata.
+* **Pagina delle proprietà (Configurazione > Proprietà):** è possibile utilizzare la casella di [!UICONTROL ricerca], il [!UICONTROL canale] e le opzioni del [!UICONTROL profilo del prodotto] per filtrare l&#39;elenco delle [!UICONTROL proprietà].
 
    ![](assets/properties_list.png)
 
@@ -203,13 +203,13 @@ La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni
 
 Quando si usano o si configurano proprietà e autorizzazioni in Target Premium, considera quanto segue:
 
-* **Importante**: non eliminare le aree di lavoro con le attività. Se questo accade, collabora con l'assistenza ai clienti per recuperare quelle attività.
+* **Importante**: non eliminare le aree di lavoro con le attività. Se questo accade, collabora con l&#39;assistenza ai clienti per recuperare quelle attività.
 * Quando usi la vista Tutte le aree di lavoro:
 
    * Puoi visualizzare le attività, i destinatari e le offerte per tutti gli spazi di lavoro e le autorizzazioni per accedere.
-   * Quando selezioni la vista Tutte le aree di lavoro, viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte che elenca l'area di lavoro e l'autorizzazione utente associate a quell'elemento (Osservatore, Editor o Collaboratore).
-   * Quando crei un'attività, un pubblico o un'offerta nella vista Tutte le aree di lavoro, devi selezionare l'area di lavoro in cui deve essere creato l'elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell'editor o dell'approvatore.
-   * Quando copi un'attività, un pubblico o un'offerta nella vista Tutte le aree di lavoro, devi selezionare l'area di lavoro in cui copiare l'elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell'editor o dell'approvatore.
+   * Quando selezioni la vista Tutte le aree di lavoro, viene aggiunta una nuova colonna alla pagina Attività, Tipi di pubblico e Offerte che elenca l&#39;area di lavoro e l&#39;autorizzazione utente associate a quell&#39;elemento (Osservatore, Editor o Collaboratore).
+   * Quando crei un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui deve essere creato l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
+   * Quando copi un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui copiare l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
 
 * Qualsiasi impostazione nelle seguenti pagine di installazione può essere controllata da qualsiasi approvatore in qualsiasi area di lavoro:
 
@@ -218,26 +218,26 @@ Quando si usano o si configurano proprietà e autorizzazioni in Target Premium, 
    * Impostazioni di Scene7
    * Host
 
-* Gli utenti non possono spostare le risorse da un'area di lavoro (profilo prodotto) a un'altra. Copy, tuttavia, è supportato.
+* Gli utenti non possono spostare le risorse da un&#39;area di lavoro (profilo prodotto) a un&#39;altra. Copy, tuttavia, è supportato.
 * Quando si visualizzano i tipi di pubblico dalla pagina [!DNL Audiences], questa viene caricata più lentamente del previsto. Se interagite in qualsiasi modo con la barra di ricerca, la pagina dei tipi di pubblico si visualizzerà più velocemente. Si tratta di un problema noto e verrà risolto in un aggiornamento imminente. Questo problema non influisce sulla selezione dei destinatari durante il flusso di lavoro della creazione di attività.
 * Le risorse seguenti fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Attività, gruppi di destinatari e offerte di codice create all'interno di Target Standard/Premium dopo che il cliente è abilitato alle autorizzazioni. (Nota: i clienti devono avere il diritto di Target Premium.)
-   * Le proprietà possono essere aggiunte alle attività esistenti nell'area di lavoro predefinita. Tuttavia, questo è soggetto a modifiche.
-   * Solo le nuove risorse (ad esempio attività, offerte di codice e gruppi di destinatari) create all'interno di Target Premium (dopo l'abilitazione delle autorizzazioni Enterprise) saranno disponibili per limitare le autorizzazioni.
-   * Le risorse esterne sono disponibili solo per gli utenti nell'area di lavoro predefinita. Il ruolo di un utente nell'area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
+   * Attività, gruppi di destinatari e offerte di codice create all&#39;interno di Target Standard/Premium dopo che il cliente è abilitato alle autorizzazioni. (Nota: i clienti devono avere il diritto di Target Premium.)
+   * Le proprietà possono essere aggiunte alle attività esistenti nell&#39;area di lavoro predefinita. Tuttavia, questo è soggetto a modifiche.
+   * Solo le nuove risorse (ad esempio attività, offerte di codice e gruppi di destinatari) create all&#39;interno di Target Premium (dopo l&#39;abilitazione delle autorizzazioni Enterprise) saranno disponibili per limitare le autorizzazioni.
+   * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
 
 * Le risorse seguenti *non* fanno parte del nuovo modello di autorizzazioni Enterprise:
 
    * Offerte immagine
    * Tutte le risorse di Recommendations, inclusi Libreria criteri, Libreria progettazioni, Catalogo, Configurazione Recommendations.
-   * Le risorse esistenti (ad esempio attività, offerte di codice e gruppi di destinatari) create all'interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
+   * Le risorse esistenti (ad esempio attività, offerte di codice e gruppi di destinatari) create all&#39;interno di Target Premium prima di abilitare le autorizzazioni Enterprise possono essere copiate ma non possono essere spostate in altre aree di lavoro.
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma saranno parte dell’Area di lavoro predefinita: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
    * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere controllate dal modello di autorizzazioni Enterprise in questo momento.
-   * clickTracking e reindirizzamenti funzionano solo quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell'attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
+   * clickTracking e reindirizzamenti funzionano solo quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell&#39;attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
    Target attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il rilevamento. Nel caso in cui il token sia (1) non presente, (2) non rilevato al momento dell’impostazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato al clickTracking mbox tramite la funzione `targetPageParamsAll()`, la metrica non verrà incrementata e apparirà come “0”.
 
-   Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all'interno di Compositore esperienza visivo.
+   Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
 
    In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
 
@@ -247,11 +247,11 @@ Quando si usano o si configurano proprietà e autorizzazioni in Target Premium, 
 
 Le domande frequenti sulle autorizzazioni Enterprise includono:
 
-### Posso spostare un'attività da un'area di lavoro a un'altra?
+### Posso spostare un&#39;attività da un&#39;area di lavoro a un&#39;altra?
 
-Sfortunatamente non è possibile spostare le attività da un'area di lavoro a un'altra. Tuttavia è possibile copiare un'attività in qualsiasi area di lavoro sapendo che i dati di rapporto non verranno riportati. Per ulteriori informazioni, vedere “Copia/modifica di un'attività quando si utilizzano aree di lavoro” in [Copia/modifica di un'attività quando si utilizzano aree di lavoro](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
+Sfortunatamente non è possibile spostare le attività da un&#39;area di lavoro a un&#39;altra. Tuttavia è possibile copiare un&#39;attività in qualsiasi area di lavoro sapendo che i dati di rapporto non verranno riportati. Per ulteriori informazioni, vedere “Copia/modifica di un&#39;attività quando si utilizzano aree di lavoro” in [Copia/modifica di un&#39;attività quando si utilizzano aree di lavoro](../../../c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
-Le attività create prima della migrazione continuano a essere eseguite nello stesso modo nell'area di lavoro predefinita, a meno che non siano proprietà modificate e assegnate. Le attività in un'area di lavoro specifica onoreranno le proprietà assegnate a quell'area di lavoro e, pertanto, il comportamento potrebbe non rimanere uguale a prima della migrazione.
+Le attività create prima della migrazione continuano a essere eseguite nello stesso modo nell&#39;area di lavoro predefinita, a meno che non siano proprietà modificate e assegnate. Le attività in un&#39;area di lavoro specifica onoreranno le proprietà assegnate a quell&#39;area di lavoro e, pertanto, il comportamento potrebbe non rimanere uguale a prima della migrazione.
 
 ### Perché viene visualizzato un messaggio di errore a indicare che nessuna proprietà è associata a questa attività, anche se è stata assegnata una proprietà?
 
@@ -271,7 +271,7 @@ Quando un visitatore apre Pagina1 in un browser, viene reindirizzato a Pagina2. 
 
 Se la pagina di reindirizzamento e l’URL attività appartengono alla stessa proprietà, le tracce di clic funzionano come previsto. Per ulteriori informazioni, consulta [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Video di formazione: Video sulla formazione sulle autorizzazioni Enterprise {#section_2FA080303A064242B63FF16CFA6DB31D}
+## Video di formazione: Autorizzazioni Enterprise Training Video {#section_2FA080303A064242B63FF16CFA6DB31D} ![Overview badge](/help/assets/overview.png)
 
 Finalità di apprendimento:
 
@@ -279,4 +279,4 @@ Finalità di apprendimento:
 * I concetti di Proprietà e Aree di lavoro e come funzionano questi limiti e raggruppamenti per consentire il controllo sui livelli di accesso degli utenti
 * Diversi esempi di Proprietà da considerare per la tua organizzazione
 
->[!VIDEO](https://video.tv.adobe.com/v/19042/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/19042/)
