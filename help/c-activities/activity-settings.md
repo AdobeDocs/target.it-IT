@@ -1,12 +1,12 @@
 ---
-keywords: Obiettivo e impostazioni;finalità;priorità;durata
+keywords: Goal &Settings;objective;priority;duration
 description: Utilizza le Impostazioni attività per gestire la finalità, la priorità e la durata delle attività.
 title: Impostazioni delle attività
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -15,10 +15,10 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Utilizza le Impostazioni attività per gestire la finalità, la priorità e la durata delle attività.
 
-1. Immetti delle note sulla finalità dell'attività.
+1. Immetti delle note sulla finalità dell&#39;attività.
 
    Inserisci informazioni sull’attività, utili per te o per gli altri membri del gruppo. Trascina per ridimensionare il campo [!UICONTROL Finalità].
-1. Imposta la durata dell'attività.
+1. Imposta la durata dell&#39;attività.
 
    L’interfaccia utente e le opzioni per [!UICONTROL Priorità] variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.
 
@@ -40,7 +40,7 @@ Utilizza le Impostazioni attività per gestire la finalità, la priorità e la d
 
 1. Imposta la durata dell’attività.
 
-   È possibile attivare e disattivare manualmente l'attività oppure specificare la data e l'ora della sua consegna. Il controllo del tempo usa un orologio di 24 ore, dove 00:00 indica la mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
+   È possibile attivare e disattivare manualmente l&#39;attività oppure specificare la data e l&#39;ora della sua consegna. Il controllo del tempo usa un orologio di 24 ore, dove 00:00 indica la mezzanotte. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser.
 
    >[!NOTE]
    >
@@ -54,7 +54,7 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Test multivariato](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Consigli](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività
+## Video di formazione: Impostazioni attività Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -64,4 +64,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
-   >[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
+   >[!VIDEO](https://video.tv.adobe.com/v/17381)
