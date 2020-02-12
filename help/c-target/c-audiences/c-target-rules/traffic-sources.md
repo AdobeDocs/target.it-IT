@@ -1,10 +1,10 @@
 ---
-keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
+keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 title: Rivolgersi a specifiche origini di traffico in Adobe Target
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -17,9 +17,9 @@ Ad esempio, puoi rivolgerti a visitatori specifici in base al browser utilizzato
 
 Puoi combinare più origini di traffico per creare una regola di targeting complessa.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Origini del traffico]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Origini del traffico]**.
 
    ![](assets/target_traffic_source.png)
 
@@ -39,11 +39,11 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
 
 Puoi rivolgerti agli utenti che arrivano al tuo sito da un motore di ricerca specifico o da una pagina di destinazione specifica.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione di tipi di pubblico badge ![Panoramica](/help/assets/overview.png)
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
