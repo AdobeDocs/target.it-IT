@@ -1,11 +1,11 @@
 ---
-keywords: parametri personalizzati;parametri personalizzati di target;targetpageparams;parametri mbox di targeting
+keywords: custom parameters;target custom parameters;targetpageparams;targeting mbox parameters
 description: I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
 title: Parametri personalizzati in Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 ---
 
@@ -18,13 +18,13 @@ For more information, see [Pass parameters to a global mbox](/help/c-implementin
 
 Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Personalizzato]**.
+1. Click **[!UICONTROL Add Rule]** > **[!UICONTROL Custom]**.
 
    Per selezionare il parametro desiderato:
 
-   * Mentre crei un nuovo pubblico, seleziona il nome di un parametro dall'elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
+   * Mentre crei un nuovo pubblico, seleziona il nome di un parametro dall&#39;elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
    * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
    Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il pubblico funzionerà sulla base del parametro su tutte le mbox che trasmettono tale parametro.
 
@@ -52,11 +52,11 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 * I tipi di pubblico e le attività vengono valutati per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting per attività/pubblico non verrà qualificato per la mbox regionale.
 * Il targeting non viene valutato sui parametri mbox interni, come mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId e mboxVersion.
 
-## Video di formazione: Creazione di tipi di pubblico
+## Video di formazione: Creazione del contrassegno ![Esercitazione sull&#39;audience](/help/assets/tutorial.png)
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
