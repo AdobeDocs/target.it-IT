@@ -1,11 +1,11 @@
 ---
-keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
+keywords: experience preview;experience urls;generate urls;view experience urls
 description: Gli URL di esperienza possono essere generati per le attività di Personalizzazione automatizzata di Target per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività venga pubblicata, per scopi di anteprima e controllo qualità. Gli URL di esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
 title: Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 533a2aac50ceb085b090ad5f9d7b1fff396c2de4
 
 ---
 
@@ -20,24 +20,24 @@ Gli URL di esperienza possono essere generati per le attività di Personalizzazi
 
 .
 
-Per utilizzare gli URL di esperienza, devi condividere i collegamenti generati da Target, non l'URL finale di destinazione in cui visualizzi l'esperienza. Inoltre, se il contenuto cambia, è necessario generare nuovi URL. Se si generano nuovi URL, i vecchi potrebbero non funzionare.
+Per utilizzare gli URL di esperienza, devi condividere i collegamenti generati da Target, non l&#39;URL finale di destinazione in cui visualizzi l&#39;esperienza. Inoltre, se il contenuto cambia, è necessario generare nuovi URL. Se si generano nuovi URL, i vecchi potrebbero non funzionare.
 
-Tramite gli URL di esperienza, non solo puoi condividere esperienze con i membri del gruppo, ma anche esperienze di controllo qualità attraverso i browser e gli ambienti, senza creare un'attività di controllo qualità distinta. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
+Tramite gli URL di esperienza, non solo puoi condividere esperienze con i membri del gruppo, ma anche esperienze di controllo qualità attraverso i browser e gli ambienti, senza creare un&#39;attività di controllo qualità distinta. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
 
 1. Crea un’[attività di personalizzazione automatizzata](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oppure fai clic sull’attività per aprirla.
 
-   L'attività non deve essere live per visualizzare un'anteprima dell'esperienza.
+   L&#39;attività non deve essere live per visualizzare un&#39;anteprima dell&#39;esperienza.
 1. Nella pagina di riepilogo attività, fai clic sui tre punti verticali, quindi scegli **[!UICONTROL Visualizza gli URL di esperienza]**.
 1. Rivedi e/o definisci gli URL.
 
-   * Se utilizzi il Compositore esperienza visivo, l'URL predefinito specificato per l'attività viene immesso automaticamente e viene generato un collegamento per ogni esperienza nell'attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
+   * Se utilizzi il Compositore esperienza visivo, l&#39;URL predefinito specificato per l&#39;attività viene immesso automaticamente e viene generato un collegamento per ogni esperienza nell&#39;attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
    * Se utilizzi il Compositore esperienza basato su moduli, non viene immesso automaticamente alcun URL predefinito. Se non hai creato gli URL di esperienza, fai clic su **Aggiungi nuovo URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
-   Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l'attività su più di una pagina.
+   Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l&#39;attività su più di una pagina.
 
-   Tramite una finestra modale, puoi visualizzare i collegamenti alle esperienze sul tuo sito per ottenere una “anteprima fedele” al di fuori del Compositore esperienza visivo. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l'URL risultante direttamente dalla pagina, perché l'URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all'intero team.
+   Tramite una finestra modale, puoi visualizzare i collegamenti alle esperienze sul tuo sito per ottenere una “anteprima fedele” al di fuori del Compositore esperienza visivo. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL risultante direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
 1. Fai clic su **[!UICONTROL Genera tutto]** e poi su ogni esperienza per visualizzarne l’anteprima.
 
-   Se apporti modifiche all'esperienza, assicurati di generare nuovi collegamenti di anteprima per il team. Torna alla finestra modale e fai clic su **Genera tutto** per ottenere nuovi collegamenti.
+   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
 
    **Nota:** i collegamenti di anteprima si aprono in nuove schede e richiedono che nel browser venga disattivato il blocco dei popup.
 
@@ -66,7 +66,7 @@ Tramite gli URL di esperienza, non solo puoi condividere esperienze con i membri
 **Visualizzazione delle esperienze con gli URL delle esperienze**
 
 * L’anteprima funziona per qualsiasi attività salvata, purché la pagina non venga modificata.
-* L’URL dell’esperienza è disponibile se l'attività è attiva o inattiva.
+* L’URL dell’esperienza è disponibile se l&#39;attività è attiva o inattiva.
 * Non puoi visualizzare in anteprima un’esperienza in stato Bozza
 * La visualizzazione in anteprima con gli URL delle esperienze non ha alcun impatto sui rapporti.
 
