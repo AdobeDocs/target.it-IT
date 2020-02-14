@@ -5,7 +5,7 @@ title: Risorse e informazioni di contatto
 topic: Standard
 uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: 16f2dbeba46ee3d0e180223a8f3be20ca627119b
+source-git-commit: fe738d15eb165df0315e6b7edd10494110c0ba5c
 
 ---
 
@@ -78,25 +78,7 @@ Per consentire una più rapida valutazione del problema, tieni le seguenti infor
 | Impatto sull&#39;attività | Qual è l&#39;impatto del problema sull&#39;attività? Ad esempio, il problema sta causando mancato profitto, rende il prodotto inutilizzabile, o esiste una soluzione alternativa? |
 | Aspettative | Cosa ti aspetti che accada? |
 
-Tieni a portata di mano anche le informazioni collegate al problema specifico. Ad esempio, uno dei problemi più comuni segnalati all’assistenza clienti è l&#39;eccessiva lentezza di caricamento delle mbox. Per questo problema, i dati utili comprendono:
-
-* Un trace Firebug che evidenzia un problema di lentezza ripetibile verso un URL o un host.
-
-   Un report gomez con una o due richieste sottostanti non è sufficiente per analizzare o risolvere il problema.
-* Screenshot di un traceroute dalla macchina che esegue TO 70.42.13.100 firebug.
-
-   Questo è molto importante. Le reti EDGE sono globali, quindi è molto difficile determinare la destinazione del cliente. Ad esempio, se puoi riprodurre il problema dal desktop in ufficio, specifica “Posso riprodurre il problema dal mio desktop e mi trovo su EDGE 20”.
-* Il codice cliente e il nome della mbox (se disponibile).
-* Il numero di mbox incorporate nella pagina.
-
-   Il problema è relativo a una singola mbox di molte presenti sulla pagina?
-* Quanto è ripetibile questo problema di lentezza con quella mbox su quella pagina?
-
-   L&#39;indicazione di un trace Firebug fornisce all’assistenza clienti uno scenario relativo a un caso unico. L&#39;indicazione di dati statistici, come “il valore più basso riscontrato è 300ms, il più alto 1,1 secondi, a fronte di 50 tentativi”, faciliterà la soluzione.
-* Informazioni relative a elementi insoliti che caratterizzano le campagne.
-
-   Il numero di segmenti è elevato? (Ad esempio, i segmenti vengono aggiornati 3/4 volte all&#39;ora nella interfaccia di amministrazione?) Queste informazioni consentono all’assistenza clienti di comprendere l&#39;interazione tra le interfacce di amministrazione e gli edge di questa campagna. Aggiornamenti frequenti alla campagna significano reload frequenti dal server centrale, che possono forzare più chiamate remote o reload della cache.
-* Qualsiasi altro dato ritieni possa essere utile.
+Per problemi di distribuzione dei contenuti, consultate [Risoluzione dei problemi di distribuzione](/help/c-activities/c-troubleshooting-activities/content-trouble.md) dei contenuti per le possibili soluzioni e informazioni sulla risoluzione dei problemi.
 
 ### In caso si verifichi un’interruzione {#section_2CB3BC53E4C641F38D50949E2E7A2886}
 
