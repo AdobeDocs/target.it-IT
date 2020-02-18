@@ -6,7 +6,7 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
 
 ---
 
@@ -135,6 +135,10 @@ A causa del modo in cui il traffico viene mascherato da AOL, possiamo eseguire i
 `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
 Prima di eseguire questa operazione è necessario eliminare i cookie.
+
+>[!NOTE]
+>
+>mboxOverride.browserIp è supportato solo in at.js 1.*jx*. Questa funzionalità non è supportata in at.js 2.*x*.
 
 **Come vengono mappati territori come Porto Rico e Hong Kong nella struttura di geotargeting?**
 
