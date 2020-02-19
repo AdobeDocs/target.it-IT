@@ -5,7 +5,7 @@ title: Note sulla versione per le versioni precedenti
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -17,6 +17,15 @@ Note sulla versione per le versioni precedenti di Target, incluse le note di ril
 >[!NOTE]
 >
 >Consulta [Note sulla versione di Target (corrente)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
+
+## Note sulla versione - 2020
+
+### Target Standard/Premium 20.1.1 (4 febbraio 2020)
+
+Target Standard/Premium 20.1.1 è una versione di manutenzione che include miglioramenti e miglioramenti back-end. Sono state inoltre introdotte le seguenti correzioni:
+
+* È stato risolto un problema che causava la visualizzazione del campo del server di tracciamento Adobe Analytics nella pagina Goals and Settings (Obiettivi e impostazioni) per le attività Adobe for Target esistenti (A4T). (TGT-35960)
+* Risolto un problema nell&#39;interfaccia utente che impediva la visualizzazione della selezione nel secondo elenco a discesa durante la creazione di un&#39;audience per l&#39;affinità di categoria. (TGT-36098)
 
 ## Note sulla versione - 2019 {#releases-2019}
 
