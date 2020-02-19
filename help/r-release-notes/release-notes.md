@@ -5,7 +5,7 @@ title: 'Note sulla versione di Adobe Target (corrente) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 799772707223fa78e17d383b589720a5d63dc1f7
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -32,12 +32,19 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
 
-## Target Standard/Premium 20.1.1 (4 febbraio 2020)
+## Target Standard/Premium 20.2.1 (19 febbraio 2020)
 
-Target Standard/Premium 20.1.1 è una versione di manutenzione che include miglioramenti e miglioramenti back-end. Sono state inoltre introdotte le seguenti correzioni:
+>[!IMPORTANT]
+>
+>Consultate le informazioni riportate sopra sulla rimozione di mbox.js.
 
-* È stato risolto un problema che causava la visualizzazione del campo del server di tracciamento Adobe Analytics nella pagina Goals and Settings (Obiettivi e impostazioni) per le attività Adobe for Target esistenti (A4T). (TGT-35960)
-* Risolto un problema nell&#39;interfaccia utente che impediva la visualizzazione della selezione nel secondo elenco a discesa durante la creazione di un&#39;audience per l&#39;affinità di categoria. (TGT-36098)
+Questa versione contiene i seguenti miglioramenti e correzioni:
+
+* È stato risolto un problema che impediva ai clienti di selezionare una raccolta durante la ricerca di un catalogo. (TGT-36230)
+* È stato corretto un problema in seguito al quale un criterio creato tramite API, ma a cui non si fa riferimento da un&#39;attività creata nell&#39;interfaccia utente di Target, poteva essere eliminato erroneamente dall&#39;interfaccia utente. (TGT-35917)
+* Miglioramenti della sicurezza implementati nell&#39;informativa sulla sicurezza dei contenuti (CSP). (TGT-36190)
+* È stato risolto un problema che causava la visualizzazione di &quot;NaN%&quot; durante lo scorrimento della barra della percentuale di ponderazione attributo verso l&#39;estrema sinistra. (TGT-36211)
+* Sono stati risolti i problemi di localizzazione per consentire la corretta visualizzazione del testo dell&#39;interfaccia in diverse lingue.
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
