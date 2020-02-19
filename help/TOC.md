@@ -5,7 +5,7 @@ user-guide-title: Adobe Target Help
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
+source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
 
 ---
 
@@ -206,7 +206,7 @@ source-git-commit: bdf2fdd19c14739b56eb15ee36e29cfacbf1381c
       + [Gestire le esclusioni](c-activities/t-automated-personalization/managing-exclusions.md)
       + [Selezione del controllo per l&#39;attività Automated Personalization (Personalizzazione automatizzata) o Auto-Target (Destinazione automatica)](c-activities/t-automated-personalization/experience-as-control.md)
       + [Domande frequenti sulla Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Condividere gli URL di esperienza per visualizzare in anteprima la personalizzazione automatizzata al di fuori di Target](c-activities/t-automated-personalization/experience-preview.md)
+      + [Anteprima delle attività di Automated Personalization (Personalizzazione automatizzata) con gli URL di anteprima dell&#39;esperienza](c-activities/t-automated-personalization/experience-preview.md)
       + [Risolvere i problemi relativi alla personalizzazione automatica](c-activities/t-automated-personalization/ap-trouble.md)
    + Targeting esperienza {#experience-targeting}
       + [Panoramica su Targeting esperienza](c-activities/t-experience-target/experience-target.md)
