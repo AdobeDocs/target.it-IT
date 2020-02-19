@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
 
 ---
 
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 19 febbraio 2020 | [Note sulla versione](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla prossima eliminazione della libreria mbox.js. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Aggiunta nota `mboxOverride.browserIp` supportata in at.js 1.*x.* |
+|  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Testo chiarito che spiega quali versioni di at.js supportate dal team di Target. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.2.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 20.1.1 (4 febbraio 2020)
