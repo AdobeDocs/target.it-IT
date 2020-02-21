@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 21 febbraio | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla nuova navigazione in Adobe Experience Cloud. |
 | 20 febbraio | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Sono state aggiunte informazioni per le seguenti impostazioni: `pageLoadEnabled` e `viewsEnabled`. |
 | 19 febbraio | [Note sulla versione](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla prossima eliminazione della libreria mbox.js. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Aggiunta nota `mboxOverride.browserIp` supportata in at.js 1.*x.* |
