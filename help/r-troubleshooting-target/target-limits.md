@@ -5,7 +5,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -192,9 +192,7 @@ Qualsiasi valore superiore viene troncato dal sistema.
 
 **Limite consigliato di script di profilo totali per account**: 2.000
 
-**Raccomandazioni per limitare la complessità** dello script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consultate [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in Attributi [](/help/c-target/c-visitor-profile/profile-parameters.md)profilo.
-
-**Limite consigliato**: massimo di 500.000 loop per script di profilo.
+**Raccomandazioni per limitare la complessità** dello script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consultate [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in Attributi ** profilo.
 
 ## Proprietà
 
