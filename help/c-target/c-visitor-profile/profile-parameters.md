@@ -5,7 +5,7 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: 4063a890568e93a50a3488e4610dba793c4d736a
+source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 ---
 
@@ -120,16 +120,17 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
 * Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Contare il numero di istruzioni non è ovvio, ma è importante notare che gli script superiori ai 2 KB vengono disattivati automaticamente. Non esiste un limite al numero di script eseguibili, ma ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
 * In un’espressione regex, non è quasi mai necessario iniziare con punto-asterisco (ad esempio: `/.*match/`, `/a|.*b/`). La ricerca regex inizia da tutte le posizioni in una stringa (a meno che non sia delimitata con `^`), e punto-asterisco è quindi implicito. L’esecuzione dello script può essere interrotta se a un’espressione regex corrispondono dati di input sufficientemente lunghi (anche solo di qualche centinaia di caratteri).
 * In caso di esito negativo, inserisci lo script in un try/catch.
-* Consigli per limitare la complessità dello script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni.
+* Raccomandazioni per limitare la complessità dello script di profilo.
+
+    Gli script di profilo possono eseguire un numero limitato di istruzioni.
 
    Come best practice:
 
    * Mantenere gli script di profilo il più possibile piccoli e semplici.
    * Evitate espressioni regolari o utilizzate solo espressioni regolari molto semplici. Anche le espressioni semplici possono richiedere molte istruzioni da valutare.
    * Evitare la ricorsione.
-   Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo. Ciò potrebbe influire sul traffico e sulla conversione.
-
-   Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token di risposta.
+   * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo, il che potrebbe avere un impatto sul traffico e sulla conversione.
+   * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token [di](/help/administrating-target/response-tokens.md) risposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
