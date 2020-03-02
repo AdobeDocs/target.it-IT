@@ -5,7 +5,7 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
 
 ---
 
@@ -14,18 +14,26 @@ source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
 
 Gli attributi del profilo sono parametri specifici di un visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività.
 
-Quando un visitatore naviga nel tuo sito o ritorna per un’altra sessione, puoi usare gli attributi salvati nel suo profilo per presentargli specifici contenuti oppure per registrare informazioni a scopo di filtro dei segmenti.
+Un profilo utente contiene informazioni demografiche e comportamentali relative a un visitatore di una pagina Web, ad esempio età, genere, prodotti acquistati, ultima ora della visita e così via, utilizzati da Target per personalizzare il contenuto che serve al visitatore.
 
-Per impostare gli attributi del profilo, fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Script profilo.]**
+Quando un visitatore visita il sito Web o quando ritorna per un’altra sessione, gli attributi di profilo salvati nel profilo possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtraggio dei segmenti.
 
-![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+Per impostare gli attributi di profilo:
 
-Sono disponibili i seguenti tipi di attributi di profilo:
+1. Fate clic su **[!UICONTROL Audience]** > Script **[!UICONTROL di profilo.]**
 
-| Tipo di parametro | Descrizione |
-|--- |--- |
-| mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota **: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi[Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
-| Script | Definito direttamente con uno snippet di codice JavaScript. Possono memorizzare i totali correnti come il denaro totale speso dal consumatore ed è eseguito dietro ogni richiesta mbox. Consulta Attributi degli script di profilo qui di seguito. |
+   ![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
+
+1. Fare clic su **[!UICONTROL Crea script]**.
+
+   ![Finestra di dialogo Crea script di profilo](/help/c-target/c-visitor-profile/assets/create-script.png)
+
+   Sono disponibili i seguenti tipi di attributi di profilo:
+
+   | Tipo di parametro | Descrizione |
+   |--- |--- |
+   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**Nota **: Target ha un limite di 50 attributi univoci di profilo per chiamata mbox. Se devi passare più di 50 attributi di profilo a Target, puoi farlo utilizzando il metodo API Aggiornamento profilo. Per ulteriori informazioni, vedi[Aggiornamento profilo nella documentazione API di Adobe Target](http://developers.adobetarget.com/api/#updating-profiles). |
+   | Profilo | Definito direttamente con uno snippet di codice JavaScript. Possono memorizzare i totali correnti come il denaro totale speso dal consumatore ed è eseguito dietro ogni richiesta mbox. Consulta Attributi degli script di profilo qui di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
 
@@ -43,13 +51,13 @@ Per aggiungere un nuovo script di profilo, fai clic sulla scheda **[!UICONTROL S
 
 Oppure
 
-Per copiare uno script di profilo esistente, passa il mouse sullo script desiderato nell’elenco [!UICONTROL Script di profilo] e fai clic sull’icona **[!UICONTROL Copia]**: (assets/icon_copy.png)
+To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Ora puoi modificare il pubblico per crearne uno simile.
 
 ![Finestra di dialogo Crea script di profilo](assets/profile-script.png)
 
-Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di posizione. Quando viene ricevuta una richiesta di posizione, Target determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, tiene traccia del successo dell’attività ed esegue eventuali script di profilo rilevanti. Questo consente di tenere traccia di informazioni sulla visita: la posizione del visitatore, l’ora del giorno, quante volte ha visitato il sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito.
+Gli script di profilo eseguono dei “catcher” per acquisire attributi di profilo per ogni richiesta di posizione. Quando viene ricevuta una richiesta di posizione, Target determina quale attività deve essere eseguita e visualizza il contenuto appropriato per l’attività e l’esperienza, tiene traccia del successo dell’attività ed esegue eventuali script di profilo rilevanti. Questo consente di monitorare le informazioni sulla visita, come la posizione del visitatore, l&#39;ora del giorno, il numero di volte in cui il visitatore è stato sul sito, se ha effettuato acquisti in passato e così via. Queste informazioni vengono poi aggiunte al profilo del visitatore, in modo da poter monitorare meglio la sua attività sul sito.
 
 Gli attributi degli script di profilo hanno il tag `user.` inserito prima del nome dell’attributo. Ad esempio:
 
@@ -60,6 +68,8 @@ if (mbox.name == 'Track_Interest') {
     } 
 }
 ```
+
+Tenete presenti le seguenti informazioni:
 
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
@@ -87,10 +97,9 @@ La scheda [!UICONTROL Utilizzo script] elenca le attività (e aree di lavoro) re
 > * Il contenuto o l&#39;offerta utilizzato/a nell&#39;attività impiega variabili di script (o un&#39;offerta in linea all&#39;interno dell&#39;attività o un&#39;offerta nel catalogo Offerte).
 
 
-
 ## Target disabilita gli script di profilo in determinate situazioni {#section_C0FCB702E60D4576AD1174D39FBBE1A7}
 
-[!DNL Target] disabilita automaticamente gli script di profilo in determinate situazioni, ad esempio se richiedono troppo tempo o hanno troppe istruzioni.
+[!DNL Target] disattiva automaticamente gli script di profilo in alcune situazioni, ad esempio se l&#39;esecuzione degli script richiede troppo tempo o se contengono troppe istruzioni.
 
 Quando uno script di profilo è disabilitato, viene contrassegnato da un’icona gialla di avviso nell’interfaccia utente di Target, come illustrato di seguito:
 
@@ -111,25 +120,23 @@ Il sistema disabilita gli script di profilo in alcune circostanze. I motivi più
 
 Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di profilo semplificati, il più possibile privi di errori, mediante la scrittura di codice che genera un errore controllato in modo da consentire l’elaborazione degli script senza determinare un blocco di sistema. Queste linee guida sono il risultato di best practice collaudate in termini di efficienza. Applica queste linee guida unitamente ai principi e alle raccomandazioni stilati dalla community di sviluppo Rhino.
 
-* Imposta il valore dello script corrente su una variabile locale nello script utente, imposta un failover in caso di stringa vuota.
+* Impostate il valore dello script corrente su una variabile locale nello script utente, impostate un failover su una stringa vuota.
 * Convalida la variabile locale verificando che non si tratti di una stringa vuota.
-* Utilizza le funzioni di manipolazione basate su stringa anziché le espressioni regolari.
+* Utilizzate funzioni di manipolazione basate su stringhe piuttosto che espressioni regolari.
 * Utilizza cicli limitati “for” invece di cicli aperti “for” o “while”.
 * Non superare 1.300 caratteri o 50 iterazioni di ciclo.
 * Non superare 2.000 istruzioni JavaScript. Target ha un limite di 2.000 istruzioni JavaScript per ogni script, ma è difficile calcolarle con la semplice lettura manuale del codice JavaScript. Ad esempio, Rhino tratta tutte le chiamate di funzione e le chiamate “nuove” come 100 istruzioni. Inoltre, la dimensione dei dati immessi, ad esempio i valori URL, può influire sul conteggio delle istruzioni.
 * Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Contare il numero di istruzioni non è ovvio, ma è importante notare che gli script superiori ai 2 KB vengono disattivati automaticamente. Non esiste un limite al numero di script eseguibili, ma ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
 * In un’espressione regex, non è quasi mai necessario iniziare con punto-asterisco (ad esempio: `/.*match/`, `/a|.*b/`). La ricerca regex inizia da tutte le posizioni in una stringa (a meno che non sia delimitata con `^`), e punto-asterisco è quindi implicito. L’esecuzione dello script può essere interrotta se a un’espressione regex corrispondono dati di input sufficientemente lunghi (anche solo di qualche centinaia di caratteri).
 * In caso di esito negativo, inserisci lo script in un try/catch.
-* Raccomandazioni per limitare la complessità dello script di profilo.
-
-    Gli script di profilo possono eseguire un numero limitato di istruzioni.
+* Le raccomandazioni seguenti possono essere utili per limitare la complessità degli script di profilo.  Gli script di profilo possono eseguire un numero limitato di istruzioni.
 
    Come best practice:
 
    * Mantenere gli script di profilo il più possibile piccoli e semplici.
    * Evitate espressioni regolari o utilizzate solo espressioni regolari molto semplici. Anche le espressioni semplici possono richiedere molte istruzioni da valutare.
    * Evitare la ricorsione.
-   * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo, il che potrebbe avere un impatto sul traffico e sulla conversione.
+   * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo. Ciò potrebbe influire sul traffico e sulla conversione.
    * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token [di](/help/administrating-target/response-tokens.md) risposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
@@ -140,12 +147,12 @@ Puoi utilizzare gli attributi del profilo per impostare test che confrontano due
 
 La verifica delle attività reciprocamente esclusive impedisce al visitatore di un’attività di influenzare i risultati del test per le altre attività. Quando un visitatore partecipa a più attività, può essere difficile determinare se l’incremento positivo o negativo deriva dall’esperienza del visitatore con una sola attività o se le interazioni tra più attività ne hanno influenzato i risultati.
 
-Ad esempio, puoi testare due aree del tuo sistema di e-commerce. Puoi provare l’effetto di un pulsante “Aggiungi al carrello” rosso invece che blu. Oppure, potresti voler testare un nuovo processo di pagamento che prevede solo due passaggi, invece degli attuali cinque passaggi. Se entrambe le attività hanno lo stesso evento di successo (un acquisto completato), può essere difficile determinare se le conversioni sono state determinate dal pulsante rosso o dal miglioramento del processo di pagamento. Separando i test in attività reciprocamente esclusive, è possibile testare ogni modifica in modo indipendente.
+Ad esempio, puoi testare due aree del tuo sistema di e-commerce. Potrebbe essere utile verificare se il pulsante &quot;Aggiungi al carrello&quot; è rosso invece che blu. Oppure, potresti voler testare un nuovo processo di pagamento che prevede solo due passaggi, invece degli attuali cinque passaggi. Se entrambe le attività hanno lo stesso evento di successo (un acquisto completato), può essere difficile determinare se il pulsante rosso migliora le conversioni, o se le stesse conversioni sono state aumentate a causa del miglioramento del processo di estrazione. Separando i test in attività reciprocamente esclusive, è possibile testare ogni modifica in modo indipendente.
 
 Quando utilizzi uno degli script di profilo seguenti, considera quanto segue:
 
 * Lo script di profilo deve essere eseguito prima dell’avvio dell’attività e deve rimanere invariato per tutta la durata dell’attività.
-* Questa tecnica ridurrà la quantità di traffico nell’attività che potrebbe richiedere una durata di esecuzione più lunga. Tieni conto di questo fatto quando stimi la durata dell’attività.
+* Questa tecnica riduce la quantità di traffico nell&#39;attività, che potrebbe richiedere un&#39;esecuzione più lunga dell&#39;attività. Tieni conto di questo fatto quando stimi la durata dell’attività.
 
 ### Impostazione di due attività
 
@@ -162,17 +169,17 @@ if (!user.get('twogroups')) {
 }
 ```
 
-`if (!user.get('twogroups'))` determina se l’attributo di profilo *twogroups* è impostato per il visitatore corrente. In caso affermativo, non è necessaria alcuna ulteriore azione.
+* `if (!user.get('twogroups'))` determina se l’attributo di profilo *twogroups* è impostato per il visitatore corrente. In caso affermativo, non è necessaria alcuna ulteriore azione.
 
-`var ran_number=Math.floor(Math.random() *99)` dichiara una nuova variabile chiamata ran_number, imposta il suo valore su un decimale casuale tra 0 e 1, poi lo moltiplica per 99 e lo arrotonda verso il basso per creare un intervallo di 100 (0-99), utile per specificare una percentuale di visitatori che vedono l’attività.
+* `var ran_number=Math.floor(Math.random() *99)` dichiara una nuova variabile chiamata ran_number, imposta il suo valore su un decimale casuale tra 0 e 1, poi lo moltiplica per 99 e lo arrotonda verso il basso per creare un intervallo di 100 (0-99), utile per specificare una percentuale di visitatori che vedono l’attività.
 
-`if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-99, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
+* `if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-99, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
 
-Dopo aver creato l’attributo di profilo, imposta la prima attività per indirizzare la popolazione desiderata richiedendo che il parametro del profilo utente user.twogroups corrisponda al valore specificato per GroupA.
+After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
 
 >[!NOTE]
 >
->Scegli una mbox all’inizio della pagina. Questo codice determina se un visitatore sperimenta la campagna. Se il browser incontra subito una mbox, questa può essere utilizzata per impostare questo valore.
+>Scegli una mbox all’inizio della pagina. Questo codice determina se un visitatore esegue o meno l&#39;attività. Se il browser incontra subito una mbox, questa può essere utilizzata per impostare questo valore.
 
 Imposta la seconda campagna in modo che il parametro `user.twogroups` del profilo utente corrisponda al valore specificato per GroupB.
 
@@ -256,7 +263,7 @@ Gli script di profilo non sono in grado di leggere la pagina direttamente poich�
 
 ## Riferimento JavaScript per parametri del profilo di script
 
-È necessaria una conoscenza semplice di JavaScript per utilizzare in modo efficace i parametri del profilo di script. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
+È necessaria una semplice conoscenza JavaScript per utilizzare efficacemente i parametri dei profili di script. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
 
 I parametri del profilo di script si trovano nella scheda mbox/profiles. È possibile scrivere programmi JavaScript che restituiscono qualsiasi tipo di valore JavaScript (stringa, numero intero, array e così via).
 
@@ -312,7 +319,6 @@ else if (mbox.param("adobeQA"))
 
 Crea una variabile chiamata `adobeQA` per monitorare un utente per il QA [dell&#39;](/help/c-activities/c-activity-qa/activity-qa.md)attività.
 
-
 ### Oggetti e metodi
 
 I parametri del profilo di script possono fare riferimento alle proprietà e ai metodi seguenti:
@@ -321,7 +327,7 @@ I parametri del profilo di script possono fare riferimento alle proprietà e ai 
 | --- | --- |
 | `page.url` | L’URL corrente. |
 | `page.protocol` | Il protocollo utilizzato per la pagina (http o https). |
-| page.domain | Il dominio dell’URL corrente (tutto ciò che precede la prima barra). Ad esempio, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Il dominio dell’URL corrente (tutto ciò che precede la prima barra). Ad esempio, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
 | `page.query` | La stringa di query per la pagina corrente. Tutto ciò che segue il segno “?”. Ad esempio, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | Il valore del parametro indicato da `<par_name>`. Se l’URL corrente è la pagina di ricerca di Google e hai inserito `page.param('hl')`, riceverai “en” per l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le stesse operazioni di cui sopra valgono per la pagina di provenienza e la destinazione (ad esempio referrer.url sarà l’indirizzo URL della pagina di provenienza). |
