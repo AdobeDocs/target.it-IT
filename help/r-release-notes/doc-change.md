@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a7929ef8070dbe94c43832df915c6b75cd69f0a7
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 marzo | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Aggiornato l&#39;intero argomento, con ampie revisioni alla sezione &quot;Best practice&quot;. |
 | 21 febbraio | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla nuova navigazione in Adobe Experience Cloud. |
 | 20 febbraio | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Sono state aggiunte informazioni per le seguenti impostazioni: `pageLoadEnabled` e `viewsEnabled`. |
 | 19 febbraio | [Note sulla versione](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla prossima eliminazione della libreria mbox.js. |
@@ -37,21 +38,21 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 29 gennaio 2020 | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Testo ed esempi di codice aggiornati. I nuovi esempi di codice mostrano come utilizzare i numeri nei modelli Velocity. |
 | 28 gennaio 2020 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data di rilascio di Target Standard/Premium 20.1.1. La data di rilascio è ora il 4 febbraio 2020. |
-| 27 gennaio 2020 | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Aggiunta nuova sezione: &quot;Adobe Blogs.&quot; |
-|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiunte le seguenti informazioni: &quot;Se utilizzate l&#39;API di consegna batch, il limite è 50 mbox per ogni richiesta batch.&quot; |
+| 27 gennaio 2020 | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | È stata aggiunta una nuova sezione: &quot;Adobe Blogs.&quot; |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiunte le seguenti informazioni: &quot;Se utilizzate l&#39;API di consegna batch, il limite è di 50 mbox per ogni richiesta batch.&quot; |
 |  | [Risorse e informazioni di contatto](/help/cmp-resources-and-contact-information.md#section_354AC2658BA84A2A96E64C5B2C43B73B) | Collegamento aggiornato per aprire un ticket di supporto. |
 |  | [Rapporto di riepilogo del Targeting automatico](/help/c-reports/auto-target-summary-report.md) | Aggiornati testo e immagini. |
 | 23 gennaio 2020 | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta una nota per utilizzare il calcolatore delle dimensioni del campione di Adobe Target per determinare il vincitore. |
-|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targetPageParams`. |
+|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stata aggiunta una nota in cui si spiega che se si utilizza at.js 2.*x*, `mboxCreate` non è più supportato. Per trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, use `targetPageParams`. |
 | 22 gennaio 2020 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiornate le seguenti domande frequenti: &quot;È possibile utilizzare il calcolatore delle dimensioni del campione quando si utilizza Auto-Allocate per stimare quanto tempo l&#39;attività impiegherà per identificare il vincitore?&quot; |
 | 15 gennaio 2020 | [Abilitazione di contenuti misti nel browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | È stato aggiunto un video di formazione e istruzioni per spiegare come aggiornare le impostazioni del sito per consentire contenuti misti nell&#39;ultima versione di Chrome. |
 |  | [Feed](/help/c-recommendations/c-products/feeds.md) | Aggiunta nota sul caricamento e la rimozione di entità e attributi di entità. |
-|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti:Cosa significa la risposta NO_CONTENT restituita talvolta nella traccia di contenuto di Recommendations? |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti: Cosa significa la risposta NO_CONTENT restituita talvolta nella traccia di contenuto di Recommendations? |
 |  | [Creare una mbox di conferma d’ordine - mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) | È stata aggiunta una nota che spiega come eseguire la conferma dell&#39;ordine utilizzando at.js 2.*x*. |
 | 9 gennaio 2020 | [Modifiche alla crittografia di TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | Testo aggiornato.<br>Dopo il 1 marzo 2020, Adobe Target non supporterà più la crittografia TLS 1.1 per Visual Experience Composer (VEC), Enhanced Experience Composer (EEC), distribuzione di attività, API e così via. Per evitare problemi, effettua l&#39;aggiornamento a TLS 1.2 prima del 1 marzo 2020. |
 | 6 gennaio 2020 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto relativo allo stato del feed Criteri personalizzati. |
 | 19 dicembre 2019 | [Note sulla versione - Java SDK di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Sono state aggiunte informazioni sulla versione 1.1.0. |
-| 12 dicembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Sezione Domande frequenti aggiornata. |
+| 12 dicembre 2019 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Aggiornamento della sezione Domande frequenti. |
 |  | [Interpreta rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | Argomento rinominato e aggiunta la sezione seguente: &quot;Comprendere i rapporti Lift and Confidence nelle attività Auto-Allocate.&quot; |
 | 11 dicembre 2019 | [Domande frequenti su destinazioni e pubblico](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: &quot;In che modo Target valuta gli URL nel targeting?&quot; |
 | 10 dicembre 2019 | [Limiti di Target](/help/r-troubleshooting-target/target-limits.md) | Aggiornamento della sezione dei parametri mbox. |
@@ -72,22 +73,22 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | 4 novembre 2019 | [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md) | Testo aggiornato con le seguenti domande frequenti: &quot;Perché viene visualizzato un messaggio di avviso, ad esempio &quot;azioni con selettori mancanti&quot;?&quot; |
 | 31 ottobre 2019 | [Utilizzo di attributi con più valori](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Nuovo argomento. |
 |  | [Note sulla versione - Java SDK di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md) | Nuovo argomento. |
-|  | [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | Aggiunta nuova sezione: &quot;Che a.js 1.*I parametri x* per la creazione di audience non sono supportati in at.js 2.*x*?&quot; |
+|  | [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#audience-parameters) | È stata aggiunta una nuova sezione: &quot;Che a.js 1.*I parametri x* per la creazione di audience non sono supportati in at.js 2.*x*?&quot; |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un nuovo problema noto relativo agli spazi aggiuntivi da aggiungere alle regole dei modelli. |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Premium 19.10.2 e sulla versione di Target Java SDK. |
 | 30 ottobre 2019 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Premium 19.10.2 (31 ottobre 2019). |
 | 29 ottobre 2019 | [Similarità dei contenuti](/help/c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB) | Aggiunta nota. |
 |  | [Visualizzare l&#39;anteprima e avviare l&#39;attività di Recommendations](/help/c-recommendations/t-create-recs-activity/previewing-and-launching-your-recommendations-activity.md) | Nuovo argomento. |
-| 25 ottobre 2019 | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | Aggiunto nuovo elemento in &quot;Considerazioni&quot; per spiegare che il targeting non viene valutato sui parametri mbox interni. |
+| 25 ottobre 2019 | [Parametri personalizzati](/help/c-target/c-audiences/c-target-rules/custom-parameters.md#considerations) | È stato aggiunto un nuovo elemento in &quot;Considerazioni&quot; per spiegare che il targeting non viene valutato sui parametri mbox interni. |
 |  | [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) | Argomento aggiornato completamente e rimosso gli esempi obsoleti. |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiunta una nota con collegamento alla documentazione API Target Delivery per aiutarti a comprendere i tipi disponibili per le richieste/risposte (array, stringa e così via). |
-|  | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | Aggiunta la sezione &quot;Risoluzione dei problemi&quot;. |
+|  | [Pagine del sito](/help/c-target/c-audiences/c-target-rules/site-pages.md#ts) | È stata aggiunta la sezione &quot;Risoluzione dei problemi&quot;. |
 | 24 ottobre 2019 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#section_DB3F40673AED42228E407C05437D99E9) | Testo aggiornato nelle seguenti domande frequenti: &quot;Perché a volte Target non è in grado di mostrare le raccomandazioni?&quot; |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Aggiunta una nota a un problema noto che interessa le versioni precedenti di at.js (precedenti alla versione 2.2.0). |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | È stata aggiunta una nota a un problema noto che interessa versioni precedenti di at.js (precedenti alla versione 2.2.0). |
 |  | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | Aggiunta nota sul comportamento predefinito per le metriche di successo per le attività che utilizzano A4T. |
 | 22 ottobre 2019 | [Criteri/algoritmi](/help/c-recommendations/c-algorithms/algorithms.md#criteria-algorithms) | È stata aggiunta una riga per le raccomandazioni basate sull&#39;utente. |
-|  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | Aggiunta nuova sezione: &quot;Utilizzo di una chiave di raccomandazione personalizzata.&quot; |
+|  | [Criteri](/help/c-recommendations/c-algorithms/algorithms.md#custom-key) | È stata aggiunta una nuova sezione: &quot;Utilizzo di una chiave di raccomandazione personalizzata.&quot; |
 |  | [Domande frequenti su Target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte nuove domande frequenti: &quot;Quando si creano stringhe URL complesse, viene [!DNL Target] valutato l’intero URL?&quot; |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 19.10.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
@@ -95,12 +96,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 17 ottobre 2019 | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Argomento aggiornato per spiegare in che modo la QA attività funziona con i cookie di terze parti. |
+| 17 ottobre 2019 | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Argomento aggiornato per spiegare in che modo il QA dell&#39;attività funziona con i cookie di terze parti. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione per includere informazioni sulle modifiche alla Shell unificata. |
-| 10 ottobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | Aggiunta nuova sezione: &quot;serverState.&quot; |
+| 10 ottobre 2019 | [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state) | È stata aggiunta una nuova sezione: &quot;serverState.&quot; |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle versioni at.js 2.2 e at.js 1.8. |
-|  | [Risolvere i problemi relativi alle attività](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | Aggiunta nuova sezione: &quot;Ho creato un&#39;attività utilizzando l&#39;interfaccia utente di Target e non posso aggiornarla tramite API.&quot; |
+|  | [Risolvere i problemi relativi alle attività](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | È stata aggiunta una nuova sezione: &quot;Ho creato un&#39;attività utilizzando l&#39;interfaccia utente di Target e non posso aggiornarla tramite API.&quot; |
 | 9 ottobre 2019 | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | Argomento aggiornato. |
 |  | [Note sulla versione - API lato server di Target](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md) | Nuovo argomento. |
 |  | [Note sulla versione - SDK Node.js di destinazione](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md) | Nuovo argomento. |
