@@ -3,7 +3,7 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Documentazione del prodotto di Adobe Target
 uuid: 8755e622-8a31-4106-ba90-b1128a0cf89c
 translation-type: tm+mt
-source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 687e5c50ab494e35c746b691f00512702c5dd59b
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 21 febbraio 2020 ([Vedi che cosa è cambiato](r-release-notes/doc-change.md))**
+**Ultimo aggiornamento: 4 Marzo 2020 ([Vedere Cosa È Cambiato](r-release-notes/doc-change.md))**
 
 Nelle sezioni seguenti sono disponibili collegamenti utili all’interno della presente guida, organizzati secondo i destinatari in base alle tipiche mansioni di lavoro:
 
@@ -49,7 +49,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Implementare Target](c-implementing-target/implementing-target.md): illustra come implementare [!DNL Target] su siti Web, app mobili, app a pagina singola (SPA) e piattaforme iOT/OTT.
 - [API](https://developers.adobetarget.com/api/delivery-api/)lato server di destinazione: Descrive le risorse che compongono l&#39;API di distribuzione di Adobe Target.
 - [SDK](https://github.com/adobe/target-nodejs-sdk)NodeJS di destinazione: Spiega come distribuire lato server di Target. Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk)Java di destinazione: Spiega come distribuire lato server di Target. Java SDK consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk)Java di destinazione: Spiega come distribuire lato server di Target. Questo SDK Java consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
 - [API](https://developers.adobetarget.com/api/recommendations/)Target Recommendations: Descrive le risorse che compongono l&#39;API ufficiale di Adobe Target Recommendations.
 - [Documentazione](http://developers.adobetarget.com/api/#introduction)Target Adobe.IO: Descrive come utilizzare le API REST di Target per l&#39;amministrazione e il profilo che utilizzano l&#39;integrazione Adobe.IO per gestire attività, audience, offerte, proprietà, report, mbox, ambienti e profili.
 
