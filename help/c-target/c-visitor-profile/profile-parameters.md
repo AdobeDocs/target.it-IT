@@ -5,7 +5,7 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: c408a4c7169c8a94c6c303e54f65391a0869b634
+source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
 
 ---
 
@@ -20,7 +20,7 @@ Quando un visitatore visita il sito Web o quando ritorna per un’altra sessione
 
 Per impostare gli attributi di profilo:
 
-1. Fate clic su **[!UICONTROL Audience]** > Script **[!UICONTROL di profilo.]**
+1. Fate clic su **[!UICONTROL Audiences]** (Audience) > **[!UICONTROL Profile Scripts (Script di profilo).]**
 
    ![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -126,10 +126,10 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
 * Utilizza cicli limitati “for” invece di cicli aperti “for” o “while”.
 * Non superare 1.300 caratteri o 50 iterazioni di ciclo.
 * Non superare 2.000 istruzioni JavaScript. Target ha un limite di 2.000 istruzioni JavaScript per ogni script, ma è difficile calcolarle con la semplice lettura manuale del codice JavaScript. Ad esempio, Rhino tratta tutte le chiamate di funzione e le chiamate “nuove” come 100 istruzioni. Inoltre, la dimensione dei dati immessi, ad esempio i valori URL, può influire sul conteggio delle istruzioni.
-* Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Contare il numero di istruzioni non è ovvio, ma è importante notare che gli script superiori ai 2 KB vengono disattivati automaticamente. Non esiste un limite al numero di script eseguibili, ma ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
+* Presta attenzione non solo alle prestazioni dello script, ma anche alle prestazioni combinate di tutti gli script. Come procedura ottimale, si consigliano meno di 5.000 istruzioni in totale. Il conteggio del numero di istruzioni non è ovvio, ma la cosa importante da notare è che gli script superiori a 2.000 istruzioni vengono automaticamente disattivati. Il numero di script di profilo attivi non deve superare i 300. Ogni script viene eseguito con ogni singola chiamata mbox. Esegui solo il numero di script necessario.
 * In un’espressione regex, non è quasi mai necessario iniziare con punto-asterisco (ad esempio: `/.*match/`, `/a|.*b/`). La ricerca regex inizia da tutte le posizioni in una stringa (a meno che non sia delimitata con `^`), e punto-asterisco è quindi implicito. L’esecuzione dello script può essere interrotta se a un’espressione regex corrispondono dati di input sufficientemente lunghi (anche solo di qualche centinaia di caratteri).
 * In caso di esito negativo, inserisci lo script in un try/catch.
-* Le raccomandazioni seguenti possono essere utili per limitare la complessità degli script di profilo.  Gli script di profilo possono eseguire un numero limitato di istruzioni.
+* Le raccomandazioni seguenti possono essere utili per limitare la complessità degli script di profilo. Gli script di profilo possono eseguire un numero limitato di istruzioni.
 
    Come best practice:
 
@@ -140,94 +140,6 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
    * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token [di](/help/administrating-target/response-tokens.md) risposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
-
-## Script di profilo per testare attività reciprocamente esclusive {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
-
-Puoi utilizzare gli attributi del profilo per impostare test che confrontano due o più attività ma non consentono a uno stesso visitatore di partecipare a ciascuna attività.
-
-La verifica delle attività reciprocamente esclusive impedisce al visitatore di un’attività di influenzare i risultati del test per le altre attività. Quando un visitatore partecipa a più attività, può essere difficile determinare se l’incremento positivo o negativo deriva dall’esperienza del visitatore con una sola attività o se le interazioni tra più attività ne hanno influenzato i risultati.
-
-Ad esempio, puoi testare due aree del tuo sistema di e-commerce. Potrebbe essere utile verificare se il pulsante &quot;Aggiungi al carrello&quot; è rosso invece che blu. Oppure, potresti voler testare un nuovo processo di pagamento che prevede solo due passaggi, invece degli attuali cinque passaggi. Se entrambe le attività hanno lo stesso evento di successo (un acquisto completato), può essere difficile determinare se il pulsante rosso migliora le conversioni, o se le stesse conversioni sono state aumentate a causa del miglioramento del processo di estrazione. Separando i test in attività reciprocamente esclusive, è possibile testare ogni modifica in modo indipendente.
-
-Quando utilizzi uno degli script di profilo seguenti, considera quanto segue:
-
-* Lo script di profilo deve essere eseguito prima dell’avvio dell’attività e deve rimanere invariato per tutta la durata dell’attività.
-* Questa tecnica riduce la quantità di traffico nell&#39;attività, che potrebbe richiedere un&#39;esecuzione più lunga dell&#39;attività. Tieni conto di questo fatto quando stimi la durata dell’attività.
-
-### Impostazione di due attività
-
-Per suddividere i visitatori in gruppi che vedono rispettivamente attività diverse devi creare un attributo di profilo. Un attributo di profilo può indirizzare un visitatore verso uno di due o più gruppi. Per impostare un attributo di profilo denominato “twogroups”, crea lo script seguente:
-
-```
-if (!user.get('twogroups')) { 
-    var ran_number = Math.floor(Math.random() * 99); 
-    if (ran_number <= 49) { 
-        return 'GroupA'; 
-    } else { 
-        return 'GroupB'; 
-    } 
-}
-```
-
-* `if (!user.get('twogroups'))` determina se l’attributo di profilo *twogroups* è impostato per il visitatore corrente. In caso affermativo, non è necessaria alcuna ulteriore azione.
-
-* `var ran_number=Math.floor(Math.random() *99)` dichiara una nuova variabile chiamata ran_number, imposta il suo valore su un decimale casuale tra 0 e 1, poi lo moltiplica per 99 e lo arrotonda verso il basso per creare un intervallo di 100 (0-99), utile per specificare una percentuale di visitatori che vedono l’attività.
-
-* `if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-99, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
-
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
-
->[!NOTE]
->
->Scegli una mbox all’inizio della pagina. Questo codice determina se un visitatore esegue o meno l&#39;attività. Se il browser incontra subito una mbox, questa può essere utilizzata per impostare questo valore.
-
-Imposta la seconda campagna in modo che il parametro `user.twogroups` del profilo utente corrisponda al valore specificato per GroupB.
-
-### Impostazione di tre o più attività
-
-L’impostazione di tre o più attività mutuamente esclusive è simile alla configurazione di due, ma devi modificare il JavaScript dell’attributo del profilo per creare un gruppo separato per ogni attività e determinare chi le vede. La generazione di numeri casuali è diversa a seconda che si crei un numero di gruppi pari o dispari.
-
-Ad esempio, per creare quattro gruppi, utilizza il seguente JavaScript:
-
-```
-if (!user.get('fourgroups')) { 
-    var ran_number = Math.floor​(Math.random() * 99); 
-    if (ran_number <= 24) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 49) { 
-        return 'GroupB'; 
-    } else if (ran_number <= 74) { 
-        return 'GroupC'; 
-    } else { 
-        return 'GroupD'; 
-    } 
-}
-```
-
-In questo esempio, la matematica utilizzata per generare il numero casuale che assegna un visitatore a un gruppo è identica a quella con solo due gruppi. Si genera un decimale casuale, che viene quindi arrotondato per creare un numero intero.
-
-Se crei un numero dispari di gruppi o un numero che non è divisore di 100, non devi arrotondare il decimale a un intero. Il mancato arrotondamento del decimale consente di specificare intervalli non interi. A tale scopo, modifica questa riga:
-
-`var ran_number=Math.floor(Math.random()*99);`
-
-in:
-
-`var ran_number=Math.random()*99;`
-
-Ad esempio, per suddividere i visitatori in tre gruppi uguali, utilizza il codice seguente:
-
-```
-if (!user.get('threegroups')) { 
-    var ran_number = Math.random() * 99; 
-    if (ran_number <= 32.33) { 
-        return 'GroupA'; 
-    } else if (ran_number <= 65.66) { 
-        return 'GroupB'; 
-    } else { 
-        return 'GroupC'; 
-    } 
-}
-```
 
 ## Debug degli script di profilo {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -306,7 +218,7 @@ if (mbox.name == 'orderThankyouPage') {
 
 Crea una variabile chiamata `monetaryValue`, che cerca il valore corrente per un visitatore specificato (o impostata su 0 in assenza di un valore precedente). Se il nome della mbox è `orderThankyouPage`, viene restituito nuovo valore monetario aggiungendo il precedente e il valore del parametro `orderTotal` trasmesso alla mbox.
 
-**** Nome: adobeQA
+**Nome:** adobeQA
 
 ```
 if (page.param("adobeQA"))
