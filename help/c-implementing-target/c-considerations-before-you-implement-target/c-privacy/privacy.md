@@ -1,12 +1,12 @@
 ---
-keywords: Panoramica e riferimento
+keywords: Overview and Reference
 description: In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l’utilizzo in conformità con le leggi sulla riservatezza dei dati.
 title: Privacy
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 85b736bb70a46ff06b765cfabaca298d9590edbe
 
 ---
 
@@ -17,7 +17,7 @@ In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l�
 
 ## Raccolta di indirizzi IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-L'indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l'indirizzo IP non rappresenta necessariamente l'indirizzo IP del relativo computer. Potrebbe essere ad esempio l'indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell'utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
+L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
 
 ## Oscuramento dell’ultimo ottetto dell’indirizzo IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
@@ -25,9 +25,15 @@ Adobe ha sviluppato una nuova impostazione “privacy by design”, che può ess
 
 Quando questa funzione è abilitata, l’indirizzo IP è reso sufficientemente anonimo da non essere più identificabile come dato personale. Di conseguenza, è possibile utilizzare Adobe Target in conformità alle leggi sulla riservatezza dei dati nei paesi che non consentono la raccolta di informazioni personali. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’oscuramento dell’indirizzo IP. L’ottenimento di informazioni a livello di area e nazionale dovrebbe essere influenzato solo leggermente.
 
-È disponibile anche un'impostazione per offuscare l'intero indirizzo IP.
-
 Per abilitare la funzione di oscuramento dell’IP, contatta l’Assistenza clienti di Adobe.
+
+Sono disponibili le seguenti opzioni:
+
+* Nessuna offuscamento: Target non nasconde alcuna parte dell&#39;indirizzo IP.
+* Ultimo ottetto: Target nasconde l&#39;ultimo ottetto dell&#39;indirizzo IP.
+* IP completo: Target nasconde l&#39;intero indirizzo IP.
+
+Target riceve l&#39;indirizzo IP completo e lo oscura (se impostato su Last ottet o Full IP) come specificato. In Target viene quindi memorizzato l&#39;indirizzo IP offuscato per tutta la durata della sessione.
 
 ## Geosegmentazione {#section_BB69F96559BD44BDA4177537C4A5345A}
 
