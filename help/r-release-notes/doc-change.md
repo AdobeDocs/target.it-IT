@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
+source-git-commit: 0d9d88a7d3559621cdd49eecffaed0dd178047fa
 
 ---
 
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | 6 marzo | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Sono state aggiunte ulteriori informazioni nella sezione &quot;Sostituzione dell’ultimo ottetto di indirizzi IP&quot;. |
 | 4 marzo | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Aggiornato l&#39;intero argomento, con ampie revisioni alla sezione &quot;Best practice&quot;. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md) | La data di rilascio è stata modificata in 9 marzo. |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle metriche obsolete e modificate quando si utilizza Target per Analytics (A4T). |
 | 21 febbraio | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla nuova navigazione in Adobe Experience Cloud. |
 | 20 febbraio | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Updated the description for the `enabled` setting. Sono state aggiunte informazioni per le seguenti impostazioni: `pageLoadEnabled` e `viewsEnabled`. |
