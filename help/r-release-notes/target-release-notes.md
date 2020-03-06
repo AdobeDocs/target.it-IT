@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 336726bef7a8a3a8cf4abed37ccdeb63b8efa369
+source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
 
 ---
 
@@ -39,7 +39,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
    Spostando tutti i clienti a at.js, i nostri tecnici e il nostro staff di supporto saranno in grado di fornirvi nuove funzionalità e di offrire il supporto che vi aspettate da Adobe.
 
 
-## Target Standard/Premium 20.2.1 (3 marzo 2020)
+## Target Standard/Premium 20.2.1 (9 marzo 2020)
 
 >[!IMPORTANT]
 >
