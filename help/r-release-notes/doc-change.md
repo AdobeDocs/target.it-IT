@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: 78984fffbc43b6ada6c39a9395ebf247d6b8ef4f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 6 marzo | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Sono state aggiunte ulteriori informazioni nella sezione &quot;Sostituzione dell’ultimo ottetto di indirizzi IP&quot;. |
 | 4 marzo | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Aggiornato l&#39;intero argomento, con ampie revisioni alla sezione &quot;Best practice&quot;. |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle metriche obsolete e modificate quando si utilizza Target per Analytics (A4T). |
 | 21 febbraio | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla nuova navigazione in Adobe Experience Cloud. |
