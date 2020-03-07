@@ -73,7 +73,7 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
 In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è coerente quando si controllano le metriche. Questo si verifica se un utente passa dalla visualizzazione Riepilogo alla visualizzazione Grafico, quindi torna alla visualizzazione Riepilogo, modifica una metrica e passa alla visualizzazione Grafico. Quando si verifica questo problema, la visualizzazione Riepilogo mostra sempre il vincitore corretto. Se l’utente non passa mai dalla vista Grafico alla vista Riepilogo, la vista Grafico mostra il vincitore corretto.
 
-### at.js {#atjs}
+### Payload JSON di at.js {#atjs}
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
