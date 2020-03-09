@@ -1,10 +1,10 @@
 ---
-keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
+keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Per definire informazioni aggiuntive sugli elementi del catalogo, utilizza attributi di entità personalizzati a valore singolo e multiplo.
 title: Attributi di entità personalizzati
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -21,7 +21,7 @@ La lunghezza massima degli attributi personalizzati delle entità con valore sin
 
 Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
-## Valori degli attributi di entità personalizzati {#section_313331A9F8194A89B5EDD89363018651}
+## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
@@ -61,7 +61,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 * Gli array devono contenere un unico tipo di valore. Gli array con valori misti (`["AB",1,true]`) non sono supportati.
 * Un attributo con più valori che include un array JSON nidificato (`[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
 
-## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
@@ -109,10 +109,16 @@ Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
 **Utilizzo delle API**
 
+Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in un parametro mbox come valore di stringa contenente un array JSON con escape.
+
+```
+"execute": { "mboxes": [ { "index": 0, "name": "first-mbox", "parameters": { "entity.id": "32323", "entity.categoryId": "My Category", "entity.MultiValueAttribute": "[\"X\", \"Y\", \"Z\"]" } }
+```
+
 See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about
 using the Delivery and Save entities APIs.
 
-## Utilizzo di operatori per attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando applichi gli operatori agli attributi personalizzati con più valori nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, il risultato sarà *vero* se almeno un valore nell’elenco deve essere soddisfatto (booleano *or*).
 
@@ -144,7 +150,7 @@ La tabella seguente riepiloga il comportamento dell’operatore nelle regole di 
 >
 >*Doppio* è un tipo di dati Java. Per gli operatori che richiedono valori numerici, la conversione in doppio elimina i valori non numerici dalla considerazione nei risultati.
 
-## Attributi con più valori nei progetti {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Gli attributi con più valori verranno visualizzati come un elenco separato da virgole quando vi si fa riferimento in un progetto.
 
