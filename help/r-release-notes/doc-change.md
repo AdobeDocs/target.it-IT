@@ -1,11 +1,11 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits
+keywords: target documentation change log;documentation updates;new topics;edits;updates
 description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione di Adobe Target, ordinate per versioni.
 title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 97f48e317b8d73d61c6262884ef689ffba645428
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -18,7 +18,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 6 marzo | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Sono state aggiunte ulteriori informazioni nella sezione &quot;Sostituzione dell’ultimo ottetto di indirizzi IP&quot;. |
+| 9 marzo | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Sono state aggiunte ulteriori informazioni nella sezione &quot;Sostituzione dell’ultimo ottetto di indirizzi IP&quot;. |
+|  | [Utilizzo di attributi con più valori](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md) | Esempio di codice aggiornato in *Passa un parametro con più valori in JavaScript*. |
+|  | [Attributi di entità personalizzati](/help/c-recommendations/c-products/custom-entity-attributes.md) | È stato aggiunto un esempio di codice in *Utilizzo delle API* in *Implementazione degli attributi* multivalore. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md) | La data di rilascio è stata modificata al 9 marzo. |
 | 4 marzo | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Aggiornato l&#39;intero argomento, con ampie revisioni alla sezione &quot;Best practice&quot;. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md) | La data di rilascio è stata modificata in 9 marzo. |
