@@ -1,11 +1,11 @@
 ---
-keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes
+keywords: Release notes;new features;releases;updates;update;release;enhancement;enhancements;fixes;bug fixes;updates
 description: Queste note sulla versione forniscono informazioni su funzioni, miglioramenti, correzioni e problemi noti per ciascuna versione di Adobe Target Standard e Target Premium.
 title: 'Note sulla versione di Adobe Target (corrente) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: dd8d7dfe058114183b75d104206393309bb8a789
+source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
 
 ---
 
@@ -34,7 +34,9 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 * I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
 
-## Target Standard/Premium 20.2.1 (9 marzo 2020)
+## Target Standard/Premium 20.2.1 (Da Determinare)
+
+Controlla qui la data esatta in cui tali informazioni diventano disponibili.
 
 >[!IMPORTANT]
 >
