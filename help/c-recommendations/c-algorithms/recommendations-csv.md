@@ -4,7 +4,7 @@ description: Carica un file CSV per personalizzare i consigli.
 title: Caricare criteri personalizzati
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -89,9 +89,9 @@ Di seguito sono riportati i possibili messaggi di errore che si potrebbero ricev
 | Directory non trovata | Fornisci una directory esistente sul server. |
 | File non trovato | Fornisci il nome di un file sul server nella directory indicata. |
 
-## Video di formazione: Creare i criteri in Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Video di formazione: Creare i criteri in Recommendations (12:33) Badge ![Tutorial](/help/assets/tutorial.png)
 
-Questo video contiene le seguenti informazioni:
+Questo video contiene le seguenti informazioni (i dettagli sul caricamento dei criteri personalizzati iniziano alle 11:43):
 
 * Creare criteri
 * Creare sequenze di criteri
