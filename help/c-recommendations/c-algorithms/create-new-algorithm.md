@@ -3,7 +3,7 @@ description: I criteri controllano il contenuto delle attività di Adobe Recomme
 title: Creare criteri
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 ---
 
@@ -438,7 +438,7 @@ Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento
 >
 >L&#39;algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell&#39;esecuzione dell&#39;algoritmo.
 
-## Video di formazione: Creare criteri in Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png)
+## Training video: Create criteria in Recommendations (12:33) ![Tutorial badge](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
