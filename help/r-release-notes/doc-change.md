@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 51abcafed1641d073b38800d0fea756df92b3685
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 13 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il numero di tipi di pubblico/account riutilizzabili. |
 | 12 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md#summit) | Sono state aggiunte informazioni di registrazione per l&#39;accesso gratuito alla conferenza online del Summit digitale. |
 | 11 marzo | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Indicato che la release di Target Standard/Premium 20.2.1 sarà il 17 marzo 2020. |
 | 9 marzo | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | Sono state aggiunte ulteriori informazioni nella sezione &quot;Sostituzione dell’ultimo ottetto di indirizzi IP&quot;. |
