@@ -5,7 +5,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: fa7e418cdbd3a9a7e853111c23eb80bdb411ee58
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -204,9 +204,7 @@ Qualsiasi valore superiore viene troncato dal sistema.
 
 ## Tipi di pubblico riutilizzabili per account
 
-**Limite consigliato**: 75 tipi di pubblico.
-
-Nell’interfaccia possono verificarsi timeout di JavaScript in presenza di troppi tipi di pubblico.
+**Limite consigliato**: 20,000 tipi di pubblico.
 
 ## Casella di immissione profilo di script nell’interfaccia utente di Target
 
