@@ -1,10 +1,10 @@
 ---
-keywords: Target;report;impostazioni dei report;preimpostazione;predefinito;preimpostazione target;predefinito target;metrica;destinatari;intervallo di date;impostazioni;download;visualizzazione tabella;visualizzazione grafico;incremento medio;incremento;contributo posizione;media corrente;metodologia di conteggio
+keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
 title: Impostazioni dei rapporti
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
 
 ---
 
@@ -21,12 +21,15 @@ Per visualizzare un rapporto, fai clic su **[!UICONTROL Attività]**, scegli l�
 
 Puoi salvare fino a dieci diversi predefiniti del rapporto di una singola attività dopo averlo configurato come desiderato (metriche, destinatari, impostazioni avanzate e così via). Tutti gli utenti di Target possono visualizzare, modificare ed eliminare i vari predefiniti, a prescindere da chi li ha creati.
 
-Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che compare quando vedi che il rapporto dell'attività sta avanzando.
+Puoi anche configurare il rapporto di una singola attività come desiderato e salvare la configurazione come predefinito di default/preferito. Questa è la vista che compare quando vedi che il rapporto dell&#39;attività sta avanzando.
 
-**Creare un predefinito o un predefinito di deault**
+### Creare un predefinito o un predefinito
 
-1. Configura il rapporto dell'attività come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
-1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]**.
+1. Configurate il rapporto dell&#39;attività nel modo desiderato.
+
+   Le impostazioni disponibili, incluse metriche, intervalli di date, audience, impostazioni avanzate e così via, sono spiegate di seguito.
+
+1. Accanto a **[!UICONTROL Predefinito target]**, fai clic sull&#39;icona dei tre puntini di sospensione verticali > **[!UICONTROL Salva come nuovo]**.
 
    ![Predefinito per rapporto](/help/c-reports/c-report-settings/assets/report_preset-new.png)
 
@@ -38,13 +41,13 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 1. (Facoltativo) Se desideri che questa sia la vista di default/preferita del rapporto, imposta il pulsante **[!UICONTROL Imposta come predefinito di default]** su Attivato.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-**Selezionare un predefinito diverso**
+### Selezionate un altro predefinito
 
-Seleziona il predefinito desiderato dall'elenco a discesa **[!UICONTROL Predefinito target]**.
+Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Predefinito target]**.
 
 ![Elenco a discesa Predefinito](/help/c-reports/c-report-settings/assets/report_preset_drop-down-new.png)
 
-**Modificare un predefinito**
+### Modificare un predefinito
 
 1. Seleziona il predefinito da modificare.
 1. Modifica la configurazione del rapporto come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
@@ -53,34 +56,34 @@ Seleziona il predefinito desiderato dall'elenco a discesa **[!UICONTROL Predefin
 
    ![Predefinito per rapporto con asterisco](/help/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
-1. Fai clic sull’icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Salva come nuovo]** per creare un nuovo predefinito.
+1. Fai clic sull’icona dei tre puntini di sospensione verticali > **[!UICONTROL Salva come nuovo]** per creare un nuovo predefinito.
 
    Oppure
 
-   Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
+   Fai clic sull&#39;icona dei tre puntini di sospensione verticali > **[!UICONTROL Aggiorna]** per aggiornare il predefinito corrente.
 
    ![Aggiorna predefinito del rapporto](/help/c-reports/c-report-settings/assets/report_preset_update-new.png)
 
-**Eliminare un predefinito**
+### Eliminare un predefinito
 
 1. Seleziona il predefinito da eliminare.
-1. Fai clic sull'icona dei tre puntini di sospensione verticali &gt; **[!UICONTROL Elimina]**.
+1. Fai clic sull&#39;icona dei tre puntini di sospensione verticali > **[!UICONTROL Elimina]**.
 
    ![Elimina predefinito del rapporto](/help/c-reports/c-report-settings/assets/report_preset_delete-new.png)
 
-1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l'eliminazione.
+1. Fai clic su **[!UICONTROL Elimina]** di nuovo per confermare l&#39;eliminazione.
 
-**Gestione degli errori nei predefiniti**
+### Gestione degli errori dei predefiniti
 
-Gli avvisi e i messaggi all'interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L'avviso o il messaggio indica di scegliere dei destinatari, una metrica, un gruppo di host o un'esperienza differenti per rendere valido il predefinito.
+Gli avvisi e i messaggi all&#39;interno dei rapporti ti consentono di sapere se un predefinito non è più valido. L&#39;avviso o il messaggio indica di scegliere dei destinatari, una metrica, un gruppo di host o un&#39;esperienza differenti per rendere valido il predefinito.
 
-Nell'elenco seguente sono descritte alcune delle situazioni che potrebbero provocare la mancata validità di un predefinito:
+Nell&#39;elenco seguente sono descritte alcune delle situazioni che potrebbero provocare la mancata validità di un predefinito:
 
-* Un gruppo di destinatari di reporting è stato rimosso dall'attività ma è riportato nella definizione del predefinito.
-* Una metrica (o più) è stata eliminata ma è riportata nella definizione del predefinito. Ad esempio, potresti eliminare una o più metriche dall'attività e aggiungerne di nuove.
+* Un gruppo di destinatari di reporting è stato rimosso dall&#39;attività ma è riportato nella definizione del predefinito.
+* Una metrica (o più) è stata eliminata ma è riportata nella definizione del predefinito. Ad esempio, potresti eliminare una o più metriche dall&#39;attività e aggiungerne di nuove.
 * Un gruppo di host (o più) non esiste ma è riportato nella definizione del predefinito.
-* Un'esperienza (o più) è stata eliminata dopo la creazione del predefinito, ma è riportata nella definizione del predefinito.
-* Un predefinito non è valido perché le entità riportate esistono ancora ma sono state aggiornate in modo tale da modificare semanticamente la definizione del predefinito. Ad esempio, immagina di creare inizialmente un predefinito denominato “Ricavi da Chrome”. In seguito aggiorni l'attività per misurare la metrica di Conversione anziché Ricavi. Questo aggiornamento alla definizione dell'attività invalida semanticamente la definizione del predefinito.
+* Un&#39;esperienza (o più) è stata eliminata dopo la creazione del predefinito, ma è riportata nella definizione del predefinito.
+* Un predefinito non è valido perché le entità riportate esistono ancora ma sono state aggiornate in modo tale da modificare semanticamente la definizione del predefinito. Ad esempio, immagina di creare inizialmente un predefinito denominato “Ricavi da Chrome”. In seguito aggiorni l&#39;attività per misurare la metrica di Conversione anziché Ricavi. Questo aggiornamento alla definizione dell&#39;attività invalida la definizione del predefinito in modo semantico.
 
 ## Metrica rapporto {#section_894ABD7148244806B7CE556EBBA2AD62}
 
@@ -92,17 +95,17 @@ Per ulteriori informazioni sulla selezione di più metriche da visualizzare nei 
 
 ## Destinatari {#section_70926EB4618945D9AFF2B0564FF3717B}
 
-Fai clic sull’elenco a discesa [!UICONTROL Pubblico] per modificare il [pubblico](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) visualizzato per il rapporto.
+Fai clic sull’elenco a discesa [!UICONTROL Pubblico] per modificare il pubblico visualizzato per il rapporto.
 
 Per ulteriori informazioni, consulta [Tipi di pubblico](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Intervallo date {#section_A410A768403C4E01891F95CB357E63ED}
 
-Nella casella Intervallo date viene visualizzato l'intervallo di date del rapporto corrente. Fai clic sull'icona a discesa per visualizzare un calendario che consente di modificare l'intervallo di date del rapporto.
+Nella casella Intervallo date viene visualizzato l&#39;intervallo di date corrente del report. Fai clic sull&#39;icona a discesa per visualizzare un calendario che consente di modificare l&#39;intervallo di date del rapporto.
 
 ![Calendario](/help/c-reports/c-report-settings/assets/date_range-new.png)
 
-Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall'inizio dell'attività]** e **[!UICONTROL Fino al termine dell'attività]**.
+Seleziona la nuova data di **[!UICONTROL Inizio]** e **[!UICONTROL Fine]** del rapporto. Puoi anche utilizzare le caselle di spunta **[!UICONTROL Dall&#39;inizio dell&#39;attività]** e **[!UICONTROL Fino al termine dell&#39;attività]**.
 
 Fai clic su **[!UICONTROL Date personalizzate]** per selezionare intervalli di date predefiniti: Ultimi 7 giorni, Ultimi 15 giorni o Ultimi 30 giorni. Questi intervalli di date predefiniti sono incrementali. Se la data di inizio è precedente al numero di giorni scelto, il calendario mostrerà l’intervallo da questa data; tuttavia, questo inizierà a scorrere una volta che la data di inizio diventerà successiva al numero di giorni scelto durante l’avanzamento dell’attività..
 
@@ -144,19 +147,22 @@ Fai clic sull’icona Scarica per scaricare i dati del rapporto in formato [!DNL
 
 ## Aggiorna {#section_E203729F2F314DF3856D2EE67C60B370}
 
-Fai clic sull’icona Aggiorna per aggiornare la tabella e il grafico di un rapporto senza aggiornare l'intera pagina, la configurazione o l'intervallo di date.
+Fai clic sull’icona Aggiorna per aggiornare la tabella e il grafico di un rapporto senza aggiornare l&#39;intera pagina, la configurazione o l&#39;intervallo di date.
 
-## Altre opzioni {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
+## More options {#section_AB1B5C695D7045A0A0AC0E2698D2E7DE}
 
 Fai clic sull’icona Altre opzioni (tre puntini di sospensione verticali) per accedere alle opzioni [!UICONTROL Modifica attività] e [!UICONTROL Visualizza URL esperienza].
 
-## Vista tabella {#section_4E7E75955A964847ADFF2C2314EC0F21}
+## Opzioni di visualizzazione
 
-Fai clic sull’icona **[!UICONTROL Vista tabella]** per visualizzare il rapporto sotto forma di tabella.
+Potete visualizzare il rapporto in vari formati, a seconda del tipo di attività. Selezionate l’opzione desiderata.
 
-## Vista grafico {#section_0D24B902A8D142468ADB7EEF1D941786}
+![Visualizza icone delle opzioni](/help/c-reports/c-report-settings/assets/view-options.png)
 
-Fai clic sull’icona **[!UICONTROL Vista grafico]** per visualizzare il rapporto sotto forma di grafico.
+* **Visualizzazione** tabella: Fate clic sull’icona Visualizzazione **** tabella per visualizzare il rapporto come una tabella.
+* **Visualizzazione** grafico: Fate clic sull’icona Visualizzazione **** grafico per visualizzare il rapporto come grafico.
+* **Segmenti** automatizzati: (disponibili solo per le attività di Automated Personalization (AP) e di Auto-Target (AT)).) Fare clic sull&#39;icona **Segmenti automatizzati per visualizzare il rapporto [dei segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati.
+* **Attributi** importanti: (Disponibile solo per le attività di Automated Personalization (AP) e di Auto-Target (AT).) Fai clic sull&#39;icona **[!UICONTROL Important Attributes (Attributi] importanti) per visualizzare il rapporto [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Importanti.
 
 ## Incremento medio, limiti di incremento e intervallo di affidabilità {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -167,7 +173,7 @@ Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e i
 Considera i seguenti aspetti:
 
 * Disponibile solo quando i rapporti vengono visualizzati nella vista Tabella.
-* Questa funzionalità non è disponibile per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T).
+* Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ## Contributo posizione {#section_5832F126AC114AE1ABFFF4D9B904393B}
 
@@ -187,18 +193,21 @@ Nell’illustrazione seguente, il rapporto contiene solo le esperienze Default, 
 
 (Disponibile solo quando i rapporti vengono visualizzati nella vista Grafico)
 
+&quot;Media continua&quot; riflette le conversioni cumulative (dall&#39;inizio della finestra di reporting alla data rappresentata nel grafico) divise per i visitatori cumulativi.
+
 Seleziona la vista grafico desiderata:
 
 * Media corrente
 * Media corrente - Incremento
-* Giornaliero
+* Giornaliero Control
+* Targeting giornaliero
 * Incremento giornaliero
 
 ![Rapporto Media corrente](/help/c-reports/c-report-settings/assets/report_running_average-new.png)
 
 >[!NOTE]
 >
->Il nome di questo elenco a discesa varia a seconda della vista selezionata, ma sarà una delle quattro viste elencate sopra.
+>Il nome di questo elenco a discesa varia a seconda della vista selezionata, ma sarà una delle viste elencate sopra.
 
 ## Metodologia di conteggio {#section_01B0ED5665C74AE1AE97259800190C3E}
 
@@ -210,13 +219,13 @@ Per accedere all’opzione Metodologia di conteggio, durante la visualizzazione 
 
 La metodologia di conteggio sarà la stessa di quella selezionata nella finestra di dialogo [!UICONTROL Impostazioni], sopra descritta.
 
-![Metodologia di conteggio](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
+![Metodologia di conteggio](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
 
 Per impostazione predefinita, il grafico è tracciato in modalità [!UICONTROL Giornaliero].
 
-Per modificare la modalità fai clic sull’elenco a discesa [!UICONTROL Giornaliero], quindi seleziona [!UICONTROL Cumulativo].
+You can change the mode by clicking the [!UICONTROL Daily] drop-down list, then selecting a cumulative option.
 
-![Cumulativo](/help/c-reports/c-report-settings/assets/counting_methodology_2-new.png)
+![Cumulativo](/help/c-reports/c-report-settings/assets/counting_methodology-new.png)
 
 >[!NOTE]
 >
@@ -226,17 +235,17 @@ Sono disponibili quattro modalità per le attività di targeting automatico: con
 
 L’ordine predefinito in cui viene tracciato il grafico è il seguente:
 
-* Test A/B (incluse Allocazione automatica e Personalizzazione automatizzata): in base all’ordine di creazione delle esperienze, in ordine decrescente.
-* Targeting esperienze (XT): in base all’ordine delle esperienze nell’attività.
-* Test multivariato (MVT): in base al nome delle esperienze, in ordine alfabetico.
-* Consigli: in base all’ordine di creazione delle esperienze, in ordine decrescente.
+* **Test A/B (tra cui allocazione automatica e Automated Personalization (Personalizzazione automatizzata)**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
+* **Targeting delle esperienze (XT)**: Ordine delle esperienze nell&#39;attività.
+* **Test multivariato (MVT)**: Alfabetico in base al nome dell&#39;esperienza.
+* **Recommendations**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
 
 Quando lavori con le opzioni di metodologia di conteggio, considera le seguenti avvertenze:
 
-* Per le attività di targeting automatico non è possibile selezionare “Visitatori” come metodologia di conteggio. Il targeting automatico è l’unico tipo di attività i cui dati non possono essere visualizzati per visitatori.
-* Per le attività che utilizzano Analytics come origine per la generazione dei rapporti (A4T), non è possibile tracciare cumulativamente visitatori, visite o impression.
+* For [Auto-Target activities](/help/c-activities/auto-target-to-optimize.md), there is no option for selecting &quot;Visitors&quot; as the counting methodology. Il targeting automatico è l’unico tipo di attività i cui dati non possono essere visualizzati per visitatori.
+* For activities that use [Analytics as the reporting source (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md), you cannot plot Visitor, Visit, or Impression cumulatively.
 
-**Utilizzo dei grafici per attività con oltre 16 esperienze**
+## Utilizzo di grafici con più di 16 esperienze nell&#39;attività
 
 Se le esperienze di un’attività sono meno di 16, ogni esperienza è rappresentata da un colore diverso nel grafico.
 
