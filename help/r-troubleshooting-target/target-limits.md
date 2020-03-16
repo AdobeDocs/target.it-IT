@@ -5,7 +5,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
 
 ---
 
@@ -40,6 +40,10 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offert
 
 **Limite**: 50 tipi di pubblico per mbox, metrica o esperienza.
 
+## Pubblico, riutilizzabile per account
+
+**Limite consigliato**: 20,000 tipi di pubblico.
+
 ## Parametro categoryId
 
 **Limite**: 128 caratteri.
@@ -51,6 +55,12 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offert
 ## ID alias di attributo cliente
 
 **Limite**: 50 caratteri.
+
+## Attributi del cliente, caricamento
+
+* **Dimensione massima per ciascun caricamento mediante il metodo** HTTP: 100 MB.
+* **dimensione massima del file per ogni caricamento mediante il metodo** FTP: 4 GB
+* **Numero di attributi consentiti per la sottoscrizione**: 5 for [!DNL Target Standard] e 200 for [!DNL Target Premium].
 
 ## Attributi personalizzati entità
 
@@ -201,10 +211,6 @@ Qualsiasi valore superiore viene troncato dal sistema.
 ## Tipi di pubblico/Segmenti di reporting
 
 **Limite**: 50 tipi di pubblico/segmenti di reporting per attività.
-
-## Tipi di pubblico riutilizzabili per account
-
-**Limite consigliato**: 20,000 tipi di pubblico.
 
 ## Casella di immissione profilo di script nell’interfaccia utente di Target
 
