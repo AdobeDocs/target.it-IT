@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: 413247cd4fe97cdfc9df383c12ce7260380ae99a
+source-git-commit: 35b3651a151d070effea025ad8ac9277a4bee8cc
 
 ---
 
@@ -148,7 +148,11 @@ Per ulteriori informazioni sull&#39;utilizzo degli attributi del cliente in [!DN
 
 ## Issues frequently encountered by customers {#section_BE0F70E563F64294B17087DE2BC1E74C}
 
-È possibile che si verifichino i seguenti problemi quando si utilizzano gli attributi del cliente e [!DNL Target]:
+È possibile che si verifichino i seguenti problemi quando si utilizzano gli attributi del cliente e [!DNL Target].
+
+>[!NOTE]
+>
+>Le questioni 1 e 2 causano circa il 60 per cento dei problemi in questo settore. Il numero 3 causa circa il 30% dei problemi. Il numero 4 causa circa il 5% dei problemi. Il restante 5% è dovuto a questioni varie.
 
 ### Problema 1: Gli attributi del cliente vengono rimossi perché il profilo è troppo grande
 
@@ -178,11 +182,7 @@ Tieni conto dei seguenti problemi di implementazione:
 
 If you cannot find Customer Attributes data in Target, ensure that the import occurred within the last *x* days where *x* is the Target [Visitor Profile Lifetime](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) value (14 days by default).
 
->[!NOTE]
->
->I punti 1 e 2 di cui sopra causano circa il 60 per cento dei problemi in questo settore. Il numero 3 causa circa il 30% dei problemi. Il numero 4 causa circa il 5% dei problemi. Il restante 5% è dovuto a questioni varie.
-
-## Video di formazione: Caricare dati offline utilizzando gli attributi del cliente {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} Badge ![Tutorial](/help/assets/tutorial.png)
+## Training video: Upload Offline Data using Customer Attributes {#section_9A4E0FA0D0934D06BD8D5BFA673E9BD8} ![Tutorial badge](/help/assets/tutorial.png)
 
 This video shows you how to import offline CRM, help desk, point-of-sale, and other marketing data into the [!DNL Experience Cloud People] service and associate it with visitors using their known IDs.
 
