@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 9 marzo 2020**
+**Ultimo aggiornamento: 20 marzo 2020**
 
 >[!NOTE]
 >
@@ -39,7 +39,7 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
    Spostando tutti i clienti a at.js, i nostri tecnici e il nostro staff di supporto saranno in grado di fornirvi nuove funzionalità e di offrire il supporto che vi aspettate da Adobe.
 
 
-## Target Standard/Premium 20.2.1 (17 marzo 2020)
+## Target Standard/Premium 20.2.1 (23 marzo 2020)
 
 >[!IMPORTANT]
 >
@@ -52,18 +52,21 @@ Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 * Miglioramenti della sicurezza implementati nell&#39;informativa sulla sicurezza dei contenuti (CSP). (TGT-36190)
 * È stato risolto un problema che causava la visualizzazione di &quot;NaN%&quot; durante lo scorrimento della barra della percentuale di ponderazione attributo verso l&#39;estrema sinistra. (TGT-36211)
 * Sono stati risolti i problemi di localizzazione per consentire la corretta visualizzazione del testo dell&#39;interfaccia in diverse lingue.
-* Le seguenti metriche di Adobe Analytics non sono più supportate per Analytics for Target (A4T) a partire dalla release di marzo 2020 di Target:
-   * averfacilitisitprofondità
-   * bots
-* Le metriche seguenti non sono più supportate e vengono automaticamente convertite in nuove versioni della metrica la prima volta che un utente modifica un&#39;attività contenente la metrica:
+* Abbiamo standardizzato l&#39;elenco delle metriche disponibili dalle attività di Adobe Analytics per Target (A4T) eliminando le metriche di Adobe Analytics non supportate nella versione corrente delle API di Adobe Analytics. Questo ci consentirà di estendere il supporto A4T nelle prossime release di Adobe Target.
 
-   | Metrica obsoleta | Nuova metrica |
+   Sono state apportate le seguenti modifiche:
+
+   * &quot;Tempo medio trascorso sulla pagina&quot; è stato sostituito da &quot;Tempo medio trascorso sul sito&quot;. Tutte le attività che utilizzano questa metrica nella metrica Obiettivo principale avranno &quot;Tempo medio trascorso sul sito&quot; (nota: misurati in minuti anziché in secondi) selezionati come Metrica obiettivo principale al successivo modifica dell&#39;attività.
+   * &quot;Visitatori&quot; è stato sostituito da &quot;Visitatori unici&quot;. Per tutte le attività che utilizzano questa metrica come Metrica obiettivo principale, alla successiva modifica dell&#39;attività verrà selezionato &quot;Visitatori unici&quot; come Metrica obiettivo principale.
+
+* Le metriche seguenti sono state eliminate e non possono più essere selezionate come Metrica obiettivo principale quando si crea una nuova attività A4T.
+
+   | Metriche obsolete | Metriche di sostituzione suggerite |
    |--- |--- |
-   | `averagetimespentonpage` | `averagetimespentonsite` (nota: misurati in minuti anziché in secondi) |
-   | `instances` | `occurrences` |
-   | `singleaccess` | `singlepagevisits` |
-   | `uniquevisitors` | `visitors` |
-   | `visitorsdaily`, `visitorshourly`, `visitorsmonthly`, `visitorsquarterly`, `visitorsweekly`, `visitorsyearly` | `visitors` |
+   | Visitatori giornalieri, Visitatori orari, Visitatori mensili, Visitatori trimestrali, Visitatori settimanali, Visitatori annuali | Visitatori univoci |
+   | Profondità media delle visite | n/d Non suggerito come metrica di obiettivo principale |
+   | Bot | n/d Non suggerito come metrica di obiettivo principale |
+   | Frequenza arresti anomali per dispositivi mobili, Durata media sessione per dispositivi mobili, Classifica media app store, Frequenza arresti anomali delle prestazioni delle app mobili, Valutazione media app store per dispositivi mobili | n/d Non suggerito come metrica di obiettivo principale |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
