@@ -5,7 +5,7 @@ title: Introduzione ad Adobe Target
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
 
 ---
 
@@ -16,9 +16,9 @@ Adobe Target è la soluzione Adobe Experience Cloud che ti offre tutto il necess
 
 I video di seguito forniscono le nozioni di base per comprendere come Target, insieme ad altre soluzioni Adobe Experience Cloud, può aiutare la tua organizzazione a raggiungere i suoi obiettivi:
 
->[!VIDEO](https://www.youtube.com/watch?v=O7fFTcV7toI)
+>[!VIDEO](https://www.youtube.com/v=O7fFTcV7toI)
 
->[!VIDEO](https://www.youtube.com/watch?v=qsgXjHdtgYE)
+>[!VIDEO](https://www.youtube.com/v=qsgXjHdtgYE)
 
 Nella soluzione [!DNL Adobe Target] sono inclusi diversi componenti:
 
