@@ -1,10 +1,10 @@
 ---
-keywords: Targeting;libreria di Target;libreria
+keywords: Targeting;target library;library
 description: Puoi indirizzare l’attività agli utenti in base a regole di targeting predefinite.
 title: Libreria di Target
 uuid: 62e894a8-e3ca-4c1d-883a-976daf041506
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,13 +15,9 @@ Puoi indirizzare l’attività agli utenti in base a regole di targeting predefi
 
 I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di pubblico legacy e sono presenti in altre categorie. Per ulteriori informazioni e best practice, consulta [Domande frequenti su targeting e pubblico](../../../c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md#concept_C4EE4B8F4840430CBD798D579A8F208D).
 
->[!NOTE]
->
->Target Classic utilizzava i target con espressioni per consentire di creare target sofisticati una volta e poi utilizzarli ripetutamente in diverse attività, esperienze, ecc. Questa funzionalità non è inclusa in Target Standard/Premium.
-
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Libreria di Target]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Libreria di Target]**.
 
    ![Libreria di Target](assets/target_library.png)
 
@@ -38,9 +34,9 @@ I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di p
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
