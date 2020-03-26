@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: e8d57a7288eddac2ec11d4c32c3c31ea77ab542e
 
 Queste note sulla versione contengono informazioni su funzioni, miglioramenti e correzioni per le versioni più recenti o in arrivo di [!DNL Adobe Target].
 
-**Ultimo aggiornamento: 20 marzo 2020**
+**Ultimo aggiornamento: 25 marzo 2020**
 
 >[!NOTE]
 >
@@ -38,6 +38,15 @@ Queste note sulla versione contengono informazioni su funzioni, miglioramenti e 
    >   
    Spostando tutti i clienti a at.js, i nostri tecnici e il nostro staff di supporto saranno in grado di fornirvi nuove funzionalità e di offrire il supporto che vi aspettate da Adobe.
 
+
+## Target at.js (25 marzo 2020)
+
+Sono disponibili le seguenti nuove versioni delle librerie JavaScript di Target at.js:
+
+* at.js versione 2.3.0
+* at.js versione 1.8.1
+
+For more information, see [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ## Target Standard/Premium 20.2.1 (23 marzo 2020)
 
