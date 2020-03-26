@@ -6,7 +6,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -15,7 +15,7 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 
 I token di risposta consentono di generare automaticamente informazioni specifiche di Target (dettagli della campagna, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o per l’integrazione con sistemi di terze parti (ad esempio, Clicktale)
 
-In Adobe Target Classic, la funzionalità di plug-in server consentiva di inviare un JavaScript che si eseguiva con una risposta di una mbox. I token di risposta sono simili ai plug-in: consentono di far emergere informazioni specifiche di Target da utilizzare altrove. I token di risposta consentono di scegliere quali variabili sfruttare, che vengono quindi inviate come parte della risposta di una mbox. Per farlo, devi solo attivare una variabile utilizzando l’apposito interruttore, e questa sarà inviata con la risposta della mbox, che può essere convalidata in chiamate di rete. I token di risposta funzionano anche in modalità Anteprima.
+I token di risposta consentono di scegliere quali variabili sfruttare, che vengono quindi inviate come parte della risposta di una mbox. Per farlo, devi solo attivare una variabile utilizzando l’apposito interruttore, e questa sarà inviata con la risposta della mbox, che può essere convalidata in chiamate di rete. I token di risposta funzionano anche in modalità Anteprima.
 
 Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in recapitano alla pagina un codice JavaScript che viene eseguito al momento del recapito. I token di risposta, invece, recapitano un oggetto che può quindi essere letto e utilizzato mediante i listener di eventi. Per ulteriori informazioni, consulta [Eventi personalizzati di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e gli esempi forniti più avanti in questo articolo. L’approccio dei token di risposta è più sicuro e dovrebbe consentire uno sviluppo e una manutenzione più agevoli delle integrazioni di terze parti.
 
