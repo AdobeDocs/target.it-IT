@@ -1,11 +1,11 @@
 ---
-keywords: host;gruppo host;ambiente;risoluzione dei problemi;best practice
+keywords: host;hosts;host group;environment;troubleshooting;best practices
 description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -17,8 +17,6 @@ Organizza siti e ambienti di preproduzione per gestirli facilmente e per generar
 ## Host {#concept_516BB01EBFBD4449AB03940D31AEB66E}
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
-
-Funzionalità simili erano già presenti in [!DNL Target Classic]. I gruppi di host in [!DNL Target Classic] si chiamavano “ambienti” in [!DNL Target Standard/Premium].
 
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. La gestione host consente inoltre di separare i dati dei rapporti per ambiente.
 
@@ -32,7 +30,7 @@ Quando una richiesta mbox viene ricevuta da nuovi siti web o domini, questi nuov
 
 Target non limita un host che può inviare e ricevere mbox. Quindi, quando compaiono nuovi server o domini, questi funzionano automaticamente (a meno che non sia impostata una whitelist o blacklist). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
 
-Per gestire gli host e gli ambienti, fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Host]**.
+Per gestire gli host e gli ambienti, clicca su **[!UICONTROL Configurazione]** > **[!UICONTROL Host]**.
 
 ![](assets/hosts_list.png)
 
@@ -58,7 +56,7 @@ Dopo aver visualizzato la pagina, l’host è presente nell’elenco degli [!UIC
 
 Dopo aver aggiunto un host all’elenco degli [!UICONTROL host], assicurati che l’host sia riconosciuto.
 
-1. Fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Host]**.
+1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Host]**.
 1. Se l’host non è elencato, aggiorna il browser. 
 Per impostazione predefinita, un host appena riconosciuto viene inserito nell’ambiente Produzione. Questo è l’ambiente più sicuro perché non consente di visualizzare le attività inattive da questi host.
 1. (Condizionale) Sposta l’host nell’ambiente Sviluppo o Staging.
@@ -72,7 +70,7 @@ Per impostazione predefinita, un host appena riconosciuto viene inserito nell’
 Informazioni su come gestire host e ambienti (gruppi host), tra cui impostazione dell’host predefinito per la generazione dei rapporti, creazione di whitelist, modifica del nome di un ambiente, spostamento di un host in un altro ambiente ed eliminazione di un host o un ambiente.
 
 
-Per accedere all’elenco [!UICONTROL Host], fai clic su **[!UICONTROL Configurazione]** &gt; **[!UICONTROL Host]**.
+Per accedere all’elenco [!UICONTROL Host], fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Host]**.
 
 ![](assets/hosts_list.png)
 
@@ -184,9 +182,9 @@ Se si verificano problemi con gli host, prova i seguenti suggerimenti di risoluz
 
 * Aggiorna la pagina [!UICONTROL Host] nel browser.
 * Verifica che il codice della mbox sia corretto, incluso il riferimento a [!DNL mbox.js].
-* Prova a passare a una delle mbox sull'host. È possibile che sia ancora stato eseguito il rendering in un browser per nessuna mbox dell’host.
+* Prova a passare a una delle mbox sull&#39;host. È possibile che sia ancora stato eseguito il rendering in un browser per nessuna mbox dell’host.
 
-**Domini casuali o sconosciuti vengono visualizzati nell'elenco[!UICONTROL Host].**
+**Domini casuali o sconosciuti vengono visualizzati nell&#39;elenco[!UICONTROL Host].**
 
 Un dominio viene visualizzato in questo elenco se viene effettuata una chiamata a [!DNL Target] dal dominio. Spesso, è possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali. Se il dominio elencato non è tra quelli utilizzati dal team, è possibile fare clic su [!UICONTROL Elimina] per rimuoverlo.
 
@@ -203,17 +201,17 @@ Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Cons
 >[!NOTE]
 >Le attività Consigli sono disponibili come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di Target Premium.
 
-Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell'anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell'aggiornamento dell'elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
+Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
 
-Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell'ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
+Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell&#39;ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
 
 >[!NOTE]
 >Dopo aver modificato l’ambiente selezionato, fai clic su Cerca per aggiornare i risultati restituiti.
 
 Il filtro Ambiente è disponibile nelle seguenti posizioni nell’interfaccia utente di Target:
 
-* Ricerca nel catalogo ([!UICONTROL Recommendations &gt; Ricerca nel catalogo])
-* Finestra di dialogo Crea raccolta ([!UICONTROL Recommendations &gt; Raccolte &gt; Crea nuova])
-* Finestra di dialogo Aggiorna raccolta ([!UICONTROL Recommendations &gt; Raccolte &gt; Modifica])
-* Finestra di dialogo Crea esclusione ([!UICONTROL Recommendations &gt; Esclusioni &gt; Crea nuova])
-* Finestra di dialogo Aggiorna esclusione ([!UICONTROL Recommendations &gt; Esclusioni &gt; Modifica])
+* Ricerca nel catalogo ([!UICONTROL Recommendations > Ricerca nel catalogo])
+* Finestra di dialogo Crea raccolta ([!UICONTROL Recommendations > Raccolte > Crea nuova])
+* Finestra di dialogo Aggiorna raccolta ([!UICONTROL Recommendations > Raccolte > Modifica])
+* Finestra di dialogo Crea esclusione ([!UICONTROL Recommendations > Esclusioni > Crea nuova])
+* Finestra di dialogo Aggiorna esclusione ([!UICONTROL Recommendations > Esclusioni > Modifica])
