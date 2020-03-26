@@ -4,7 +4,7 @@ title: Glossario di Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -37,7 +37,7 @@ Un conflitto tra attività si verifica quando più attività sono configurate pe
 
 **URL attività**
 
-L'URL predefinito utilizzato per un'attività.
+L&#39;URL predefinito utilizzato per un&#39;attività.
 
 **AdBox**
 
@@ -61,13 +61,13 @@ La funzione Targeting automatico utilizza l’apprendimento automatico avanzato 
 
 **personalizzazione automatizzata**
 
-La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l'apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti ed effettuare le conversioni.
+La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l&#39;apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti ed effettuare le conversioni.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
 **annunci comportamentali**
 
-Consentono di sottoporre a test e di monitorare le visite ad annunci e altri contenuti offsite. Puoi inoltre utilizzare gli annunci comportamentali per identificare lo stesso utente sul sito e all'esterno di esso e per fornirgli un'esperienza Web coerente.
+Consentono di sottoporre a test e di monitorare le visite ad annunci e altri contenuti offsite. Puoi inoltre utilizzare gli annunci comportamentali per identificare lo stesso utente sul sito e all&#39;esterno di esso e per fornirgli un&#39;esperienza Web coerente.
 
 ## C {#section_2CBF7BABD2B74C8286A2992D8C54C8A6}
 
@@ -81,11 +81,11 @@ Una metrica di coinvolgimento che calcola un punteggio aggregato basato sul valo
 
 **catalogo**
 
-L'intero insieme di prodotti o contenuti che possono essere raccomandati.
+L&#39;intero insieme di prodotti o contenuti che possono essere raccomandati.
 
 **affinità tra categorie**
 
-Acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente per la categoria, affinché possa essere utilizzata per il targeting e la segmentazione. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
+Acquisisce automaticamente le categorie visitate da un utente e calcola l&#39;affinità dell&#39;utente per la categoria, affinché possa essere utilizzata per il targeting e la segmentazione. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 
 **raccolta**
 
@@ -97,11 +97,11 @@ Le varianti di contenuto create quando si sottopongono a test più opzioni di co
 
 **contenuto**
 
-Il testo o l'immagine che include una variante di test all'interno di una posizione. In un test multivariato vengono confrontate una serie di opzioni di contenuto, in più posizioni. Nella metodologia MVT, il contenuto è a volte denominato *livello*.
+Il testo o l&#39;immagine che include una variante di test all&#39;interno di una posizione. In un test multivariato vengono confrontate una serie di opzioni di contenuto, in più posizioni. Nella metodologia MVT, il contenuto è a volte denominato *livello*.
 
 **mbox di conversione**
 
-Registra i risultati di test o attività, come registrazioni, ordini o vendite. In genere, un elemento mbox di conversione non visualizza nulla ma resta semplicemente in ascolto. Posizioni comuni per l'elemento mbox di conversione sono una pagina di completamento della registrazione, un pagina di ringraziamento per un ordine o un click-through. Puoi utilizzare anche un elemento mbox globale per calcolare le metriche di conversione.
+Registra i risultati di test o attività, come registrazioni, ordini o vendite. In genere, un elemento mbox di conversione non visualizza nulla ma resta semplicemente in ascolto. Posizioni comuni per l&#39;elemento mbox di conversione sono una pagina di completamento della registrazione, un pagina di ringraziamento per un ordine o un click-through. Puoi utilizzare anche un elemento mbox globale per calcolare le metriche di conversione.
 
 **criteri**
 
@@ -119,11 +119,11 @@ Viene visualizzato se il visitatore non soddisfa i requisiti del test o se il co
 
 **progettazione**
 
-HTML abilitato per i modelli che visualizza gli elementi consigliati alla pagina Web. Una progettazione definisce l’aspetto dei consigli in un'attività di Consigli.
+HTML abilitato per i modelli che visualizza gli elementi consigliati alla pagina Web. Una progettazione definisce l’aspetto dei consigli in un&#39;attività di Consigli.
 
 **durata**
 
-La durata dell'esecuzione di un'attività, dalla data e ora di inizio alla data e ora di fine.
+La durata dell&#39;esecuzione di un&#39;attività, dalla data e ora di inizio alla data e ora di fine.
 
 **contenuto dinamico**
 
@@ -135,7 +135,7 @@ Consente alle applicazioni Rich Internet (RIA) di manipolare l’HTML dopo che l
 
 **offerta dinamica**
 
-Utilizza la tecnologia a pagina dinamica per trasmettere valori all'offerta.
+Utilizza la tecnologia a pagina dinamica per trasmettere valori all&#39;offerta.
 
 ## E {#section_55C3D8AF3D31494784C70090D8343244}
 
@@ -161,7 +161,7 @@ Un partecipante è un visitatore che soddisfa i criteri di inclusione in un’at
 
 **ambiente**
 
-Per facilitare la gestione, gli host sono raccolti in ambienti. I gruppi di host preimpostati sono Produzione, Staging e Sviluppo. Tuttavia, puoi aggiungere nuovi gruppi di host e rinominare i tuoi gruppi esistenti. Gli ambienti sono stati chiamati “gruppi di host” in [!DNL Target Classic].
+Per facilitare la gestione, gli host sono raccolti in ambienti. I gruppi di host preimpostati sono Produzione, Staging e Sviluppo. Tuttavia, potete aggiungere nuovi gruppi di host e rinominare quelli esistenti.
 
 **esperienza**
 
@@ -179,7 +179,7 @@ Fornisce i metodi per ottenere informazioni sul prodotto o sul contenuto nei sug
 
 **diagramma di flusso**
 
-La rappresentazione visiva di un'attività in Target Standard.
+La rappresentazione visiva di un&#39;attività in Target Standard.
 
 **Compositore esperienza basato su moduli**
 
@@ -193,7 +193,7 @@ Consente di eseguire il targeting di attività ed esperienze in base alla posizi
 
 **obiettivo**
 
-La conversione o il risultato che indica un'attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico.
+La conversione o il risultato che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico.
 
 ## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
@@ -209,7 +209,7 @@ Vedi *Ambiente*. I gruppi di host sono chiamati “ambienti” in [!DNL Target S
 
 **parametro di profilo in-mbox**
 
-Parametro specifico del visitatore trasmesso al cookie del visitatore dall'elemento mbox. Il visitatore di ritorno è un esempio di parametro di profilo in-mbox.
+Parametro specifico del visitatore trasmesso al cookie del visitatore dall&#39;elemento mbox. Il visitatore di ritorno è un esempio di parametro di profilo in-mbox.
 
 ## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
@@ -219,13 +219,13 @@ Consente di utilizzare il targeting per visualizzare contenuti diversi nella pag
 
 **posizione**
 
-Un'area di contenuto specifica su una pagina, spesso inserita in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
+Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
 ## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
-“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all'interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l'aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
+“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
 
 **mbox.js**
 
@@ -233,7 +233,7 @@ Prima di 16.3.1, [!DNL Target] richiedeva una chiamata a [!DNL mbox.js] per crea
 
 **parametro mbox**
 
-Trasmesso nella pagina, non nell'URL. I parametri vengono utilizzati per trasmettere i dati dal database e per monitorare i dati di vendita o per eseguire Adobe Recommendations. Anche noto come parametro di pagina.
+Trasmesso nella pagina, non nell&#39;URL. I parametri vengono utilizzati per trasmettere i dati dal database e per monitorare i dati di vendita o per eseguire Adobe Recommendations. Anche noto come parametro di pagina.
 
 **test multivariato**
 
@@ -243,11 +243,11 @@ Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di of
 
 **finalità**
 
-Un campo di attività in cui immettere una descrizione delle informazioni che desideri derivare da un'attività.
+Un campo di attività in cui immettere una descrizione delle informazioni che desideri derivare da un&#39;attività.
 
 **offerta**
 
-Un’offerta è costituita dal contenuto visualizzato all’interno di una mbox durante attività e test. Un'esperienza determina quale offerta viene visualizzata quando vengono soddisfatte determinate condizioni.
+Un’offerta è costituita dal contenuto visualizzato all’interno di una mbox durante attività e test. Un&#39;esperienza determina quale offerta viene visualizzata quando vengono soddisfatte determinate condizioni.
 
 **collegamento per la rinuncia**
 
@@ -341,4 +341,4 @@ In Target Standard, è l’interfaccia utente WYSIWYG che consente di creare e t
 
 **esperienza vincente**
 
-L'esperienza con le prestazioni più elevate in un test.
+L&#39;esperienza con le prestazioni più elevate in un test.
