@@ -5,7 +5,7 @@ title: Dettagli sulle versioni di at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d677fd2b68f223136dbb2f97b069c5c14f9f1efa
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -16,7 +16,21 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 
 >[!IMPORTANT]
 >
->Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata.
+>Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
+
+## at.js versione 2.3.0 (25 marzo 2020)
+
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
+
+* Impostazione del supporto per le nonce dell&#39;informativa sulla sicurezza dei contenuti sui tag SCRIPT e STYLE aggiunti al DOM della pagina quando si applicano le offerte Target distribuite. I clienti possono impostare `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` in modo che at.js possa impostare il corrispondente codice di script e di tag di stile sulle offerte applicate. See  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) for more details.
+* È stato risolto un problema durante la compilazione di at.js con il compilatore Google Closure per la distribuzione di Google Tag Manager.
+* Rinominato il cookie di controllo at.js da `check` a `at_check` per evitare conflitti con le implementazioni dei clienti.
+
+## at.js versione 1.8.1 (25 marzo 2020)
+
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
+
+* Rinominato il cookie di controllo at.js da `check` a `at_check` per evitare conflitti con le implementazioni dei clienti.
 
 ## at.js versione 2.2.0 (10 ottobre 2019)
 
