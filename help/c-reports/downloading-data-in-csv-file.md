@@ -1,12 +1,12 @@
 ---
-keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
+keywords: reports;download reports;csv;success metrics;order details
 description: Scarica i dati in formato .csv per una rapida importazione in Excel, Access o altri programmi di analisi dati tramite Adobe Target.
 title: Download di dati in un file CSV tramite Adobe Target
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -22,7 +22,7 @@ Per scaricare i dati in un file CSV:
    Se hai numerose attività, puoi filtrare l’elenco selezionando le opzioni che ti interessano dagli elenchi a discesa [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metrica] e [!UICONTROL Origine attività].
 
 1. Fai clic sulla scheda **[!UICONTROL Rapporti]**.
-1. Fai clic sull’icona **[!UICONTROL Scarica], quindi seleziona un tipo di rapporto da scaricare per l’analisi in Excel e altri strumenti.**
+1. Fai clic sull’icona **[!UICONTROL Scarica]**, quindi seleziona un tipo di rapporto da scaricare per l’analisi in Excel e altri strumenti.
 
    * [!UICONTROL Esporta rapporti in CSV]
    * [!UICONTROL Esportare i dettagli ordine in CSV]
@@ -39,11 +39,11 @@ I dati vengono salvati fino alla fine dell’attività.
 
 >[!NOTE]
 >
->Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l'incremento o la confidenza utilizzate per i test A/B. To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l&#39;incremento o la confidenza utilizzate per i test A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 ## Esportare i dettagli ordine in CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Il rapporto Dettagli ordine (noto come Rapporto di audit in [!DNL Target Classic]) presenta informazioni sugli ordini, tra cui:
+Il rapporto Dettagli ordine mostra informazioni sugli ordini, tra cui:
 
 * Data e ora dell’ordine
 * Importo dell’ordine (se è stato inserito una mbox Inserisci ordine)
@@ -62,7 +62,7 @@ Il rapporto Dettagli ordine (noto come Rapporto di audit in [!DNL Target Classic
 
    Nel rapporto [!UICONTROL Dettagli ordine] per le attività [!UICONTROL Test A/B], [!UICONTROL Targeting esperienza] (XT) e [!UICONTROL Test multivariato] (MVT), la colonna [!UICONTROL Esperienza] contiene il valore `localId` dell’esperienza. Si tratta del valore restituito da `$campaign.recipe.id` nei token dell’offerta.
 
-   Non esiste una colonna [!UICONTROL Esperienze] per le attività [!UICONTROL Personalizzazione automatica] (AP). La colonna [!UICONTROL Nome algoritmo] attuale è stata sostituita da “Controllo” rispetto a "Target", come in altre aree di [!DNL Target].
+   Non esiste una colonna [!UICONTROL Esperienze] per le attività [!UICONTROL Personalizzazione automatica] (AP). La colonna [!UICONTROL Nome algoritmo] attuale è stata sostituita da “Controllo” rispetto a &quot;Target&quot;, come in altre aree di [!DNL Target].
 
    Non vi è stato alcun impatto sulle attività [!UICONTROL Consigli].
 
