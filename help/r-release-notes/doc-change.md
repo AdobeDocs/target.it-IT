@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0fad08727233566dae6e948e53cda4f7acb64f6f
+source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
 
 ---
 
@@ -18,6 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 marzo | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle seguenti nuove versioni di at.js:<ul><li>at.js versione 2.3.0</li><li>at.js versione 1.8.1</li></ul> |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Sono state aggiunte le seguenti righe nella sezione &quot;Impostazioni&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>È stata aggiunta la seguente sezione:<ul><li>Informativa sulla sicurezza dei contenuti</li></ul> |
 | 24 marzo | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Sono state aggiunte informazioni sugli impatti per i seguenti elementi:<ul><li>Script di profilo basati su 3rdPartyID</li><li>URL QA/Anteprima nei dispositivi iOS</li></ul> |
 | 20 marzo | [Note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Indicato che la release di Target Standard/Premium 20.2.1 sarà il 23 marzo 2020. |
 | 13 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il numero di &quot;Audience, riutilizzabili per account.&quot; |
