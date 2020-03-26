@@ -5,7 +5,7 @@ title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaSc
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 5042acd5b646d3debf0d2be79bf317401a98763e
+source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
 
 ---
 
@@ -32,7 +32,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 | visitorApiTimeout | Numero | 2000 ms = 2 s | Rappresenta il timeout della richiesta API dei visitatori |
 | Abilitato | Booleano | true | Quando abilitata, una richiesta Target per recuperare le esperienze e la modifica DOM per eseguirne il rendering viene eseguita automaticamente. Inoltre, le chiamate Target possono essere eseguite manualmente tramite `getOffer(s)` / `applyOffer(s)`<br>Se disattivate, le richieste Target non vengono eseguite automaticamente o manualmente |
 | pageLoadEnabled | Booleano | true | Quando abilitata, recupera automaticamente le esperienze che devono essere restituite al caricamento della pagina |
-| viewsEnabled | Booleano | true | Quando è attivata, recupera automaticamente le viste che devono essere restituite al caricamento della pagina. Le visualizzazioni sono supportate in at.js 2.*x* |
+| viewsEnabled | Booleano | true | Quando questa opzione è attivata, recupera automaticamente le viste che devono essere restituite al caricamento della pagina. Le visualizzazioni sono supportate in at.js 2.*x* |
 | defaultContentHiddenStyle | Stringa | visibilità: nascosto | Utilizzato solo per il wrapping di mbox che utilizzano DIV con il nome di classe “mboxDefault” e vengono eseguiti tramite `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` per nascondere il contenuto predefinito |
 | defaultContentVisibleStyle | Stringa | visibilità: visibile | Utilizzato solo per il wrapping di mbox che utilizzano DIV con il nome di classe “mboxDefault” e vengono eseguiti tramite `mboxCreate()`, `mboxUpdate()` o `mboxDefine()` per rivelare l’offerta applicata, se del caso, o il contenuto predefinito |
 | bodyHiddenStyle | Stringa | corpo {opacità: 0} | Utilizzato solo quando `globalMboxAutocreate === true` per minimizzare il rischio di visualizzazione momentanea di altro contenuto.<br>Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md). |
@@ -44,6 +44,8 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 | optoutEnabled | Booleano | false | Indica se Target deve richiamare la funzione dell’API Visitor `isOptedOut()`. Ciò fa parte dell&#39;abilitazione di Device Graph. |
 | selectorsPollingTimeout | Numero | 5000 ms = 5 s | In at.js 0.9.6, Target ha introdotto questa nuova impostazione che può essere ignorata tramite `targetGlobalSettings`.<br>`selectorsPollingTimeout` rappresenta il tempo in cui il client è disposto ad attendere che tutti gli elementi identificati dai selettori vengano visualizzati nella pagina.<br>Le attività create tramite il Compositore esperienza visivo hanno offerte che contengono selettori. |
 | dataProviders | Consulta “Fornitori di dati” di seguito. | Consulta “Fornitori di dati” di seguito. | Consulta “Fornitori di dati” di seguito. |
+| cspScriptNonce | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. |
+| cspStyleNonce | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. | Consultate &quot;Informativa sulla sicurezza dei contenuti&quot; di seguito. |
 
 ## Utilizzo {#section_9AD6FA3690364F7480C872CB55567FB0}
 
@@ -175,6 +177,29 @@ Quando si lavora con l&#39;impostazione `dataProviders`, tieni presente quanto s
 
 * Se i fornitori di dati aggiunti a `window.targetGlobalSettings.dataProviders` sono asincroni, verranno eseguiti in parallelo. La richiesta API dei visitatori verrà eseguita in parallelo con le funzioni aggiunte a `window.targetGlobalSettings.dataProviders` per consentire un tempo minimo di attesa.
 * at.js non tenterà di memorizzare i dati nella cache. Se il fornitore di dati recupera i dati una sola volta, deve assicurarsi che i dati siano memorizzati nella cache e, quando viene invocata la funzione di fornitore di dati, deve servire i dati della cache per la seconda invocazione.
+
+## Content Security Policy {#content-security}
+
+at.js 2.3.0+ supporta l&#39;impostazione dei nonces in Content Security Policy sui tag SCRIPT e STYLE aggiunti al DOM della pagina quando si applicano le offerte Target distribuite.
+
+I nonces SCRIPT e STYLE devono essere impostati in `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` di conseguenza, prima del caricamento di at.js 2.3.0+. Di seguito è riportato un esempio:
+
+```
+...
+<head>
+ <script nonce="<script_nonce_value>">
+window.targetGlobalSettings = {
+  cspScriptNonce: "<csp_script_nonce_value>",
+  cspStyleNonce: "<csp_style_nonce_value>"
+};
+ </script>
+ <script nonce="<script_nonce_value>" src="at.js"></script>
+...
+</head>
+...
+```
+
+Dopo aver specificato `cspScriptNonce` e `cspStyleNonce` le impostazioni, at.js 2.3.0+ le imposta come attributi non CE su tutti i tag SCRIPT e STYLE che aggiunge al DOM quando si applicano le offerte Target.
 
 ## serverState {#server-state}
 
