@@ -4,7 +4,7 @@ description: Informazioni sui problemi noti per questa release di Adobe Target. 
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 7b2299e786fcdb45e321b0d0a10ffe09ff6fd515
+source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
 
 ---
 
@@ -77,6 +77,7 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
+* Utilizzando le versioni at.js precedenti alla 2.2.0, il monitoraggio dei clic non segnala le conversioni in Analytics per Target (A4T) se il codice Adobe Analytics non è presente sugli elementi di pagina (come i pulsanti). È stata introdotta una correzione per questo problema in at.js 2.2.0. Se si verifica questo problema, [effettua l&#39;aggiornamento alla versione](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) at.js più recente.
 * Se create un&#39;esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un&#39;esperienza predefinita), l&#39;esperienza potrebbe non essere conteggiata nei report, Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il plug-in [ttMeta potrebbe non funzionare correttamente](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) .
 
    Come soluzione alternativa, utilizzate uno spazio vuoto nel contenuto dell&#39;esperienza. (TNT-33366)
@@ -165,7 +166,7 @@ La versione v1 delle API Offer su Adobe I/O considera tutte le offerte create tr
 
 Questo problema è stato risolto.
 
-### at.js {#atjs-1}
+### at.js
 
 Dopo l’aggiornamento alla versione 1.0 di at.js, le mbox non funzionano nei browser Microsoft Explorer 11 a causa dell’interazione tra at.js e Visitor API 2.2.0. Questo problema riguarda le versioni 0.9.6 e successive di at.js. (TNT-27600)
 
@@ -177,7 +178,7 @@ La ricerca di una stringa contenente caratteri speciali (ad esempio uno spazio o
 
 Corretto a novembre 2018.
 
-### at.js {#atjs-2}
+### at.js
 
 Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell&#39;attività.
 
@@ -219,7 +220,7 @@ Quando viene modificato il nome di un pubblico per la creazione di rapporti util
 
 Questo problema è stato risolto con la versione 18.5.1 (22 maggio 2018).
 
-### at.js {#atjs-3}
+### at.js
 
 L’algoritmo per l’estrazione del dominio di primo livello che deve essere utilizzato quando si salvano i cookie è stato modificato nella versione 0.9.6. di at.js. A causa di questa modifica, i cookie non possono essere salvati in indirizzi IP. La maggior parte degli indirizzi IP si utilizza a scopo di test, ma in alternativa puoi utilizzare le voci DNS, regolare il file host in una casella locale oppure utilizzare la funzione targetGlobalSettings() di at.js per inserire uno snippet di codice per il supporto degli indirizzi IP.
 
@@ -260,7 +261,7 @@ Il primo problema è stato risolto nella versione 17.3.1 di Target (marzo 2017).
 
 Il secondo problema è stato risolto nella versione 17.6.1 di Target (giugno 2017).
 
-### at.js {#atjs-4}
+### at.js
 
 A partire dalla versione 17.4.1 di Target (27 aprile 2017), se si utilizza l’azione Inserisci immagine nel Compositore esperienza visivo, il contenuto dell’offerta non viene consegnato quando si utilizza la libreria at.js.
 
@@ -280,7 +281,7 @@ Un problema ha interessato la consegna e l’anteprima di offerte in attività A
 
 Risolto nell’aggiornamento rapido 17.4.3 di Target.
 
-### at.js {#atjs-5}
+### at.js
 
 Le seguenti azioni hanno causato la mancata consegna dell’offerta collegata all’utilizzo delle funzioni Sposta e Ridisponi del Compositore esperienza visivo e di at.js.
 
@@ -304,7 +305,7 @@ Per il criterio Visualizzato di recente, le regole dinamiche basate su entità n
 
 Questo problema è stato risolto con il rilascio della funzionalità Consigli (22 marzo 2018). Dopo il rilascio della funzionalità Consigli, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
 
-### at.js {#atjs-6}
+### at.js
 
 Quando gli utenti tentano di scaricare at.js dalla pagina dei dettagli Implementazioni dopo l’aggiornamento delle impostazioni di at.js, mbox.js viene scaricato al suo posto. (TGT-23069)
 
