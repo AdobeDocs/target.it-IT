@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: fe537a2c2007af59b2eb8abb4aaf3ec5626f2c65
 
 ---
 
@@ -19,7 +19,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 30 marzo | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Sono stati aggiunti problemi noti che interessano le versioni di at.js precedenti a at.js 2.2.0. Questo problema causava il monitoraggio dei clic per non riportare le conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente sugli elementi di pagina. |
-|  | Dettagli sulle versioni di at.js | Sono state aggiunte le seguenti informazioni ai dettagli di at.js versione 2.2.0:<ul><li>È stato risolto un problema che causava il mancato monitoraggio dei clic nel reporting delle conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente negli elementi di pagina.</li></ul> |
+|  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte le seguenti informazioni ai dettagli di at.js versione 2.2.0:<ul><li>È stato risolto un problema che causava il mancato monitoraggio dei clic nel reporting delle conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente negli elementi di pagina.</li></ul> |
 | 25 marzo | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle seguenti nuove versioni di at.js:<ul><li>at.js versione 2.3.0</li><li>at.js versione 1.8.1</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Sono state aggiunte le seguenti righe nella sezione &quot;Impostazioni&quot;:<ul><li>cspScriptNonce</li><li>cspStyleNonce</li></ul>È stata aggiunta la seguente sezione:<ul><li>Informativa sulla sicurezza dei contenuti</li></ul> |
 | 24 marzo | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md#impact) | Sono state aggiunte informazioni sugli impatti per i seguenti elementi:<ul><li>Script di profilo basati su 3rdPartyID</li><li>URL QA/Anteprima nei dispositivi iOS</li></ul> |
