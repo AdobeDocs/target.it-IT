@@ -5,7 +5,7 @@ title: Funzionamento della libreria JavaScript di Adobe Target at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -91,7 +91,7 @@ Note importanti:
 * at.js non garantisce in alcun modo l’ordine di esecuzione di script remoti, poiché questi vengono caricati in modo asincrono.
 * Gli script in linea non devono avere dipendenze da script remoti, poiché questi ultimi vengono caricati ed eseguiti successivamente.
 
-## Video di formazione: at.js 2.x contrassegno ![Panoramica diagramma architettonico](/help/assets/overview.png) badge ![Panoramica](/help/assets/overview.png)
+## Video di formazione: at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
 
 at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
 
