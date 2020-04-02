@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: cb5dd23e6cc8b15fda81cdb4fb615ac3efdad83f
 
 ---
 
@@ -18,7 +18,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Aprile 2 | [Aggiornamento da at.js 1.*x* a at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | È stata aggiunta la seguente nota:<ul><li>Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti. È importante notare che questa funzionalità funziona solo dopo la scadenza della sessione.</li></ul> |
+| Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. |
+|  | [Aggiornamento da at.js 1.*x* a at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | È stata aggiunta la seguente nota:<ul><li>Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti. È importante notare che questa funzionalità funziona solo dopo la scadenza della sessione.</li></ul> |
 | 30 marzo | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Sono stati aggiunti problemi noti che interessano le versioni di at.js precedenti a at.js 2.2.0. Questo problema causava il monitoraggio dei clic per non riportare le conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente sugli elementi di pagina. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte le seguenti informazioni ai dettagli di at.js versione 2.2.0:<ul><li>È stato risolto un problema che causava il mancato monitoraggio dei clic nel reporting delle conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente negli elementi di pagina.</li></ul> |
 | 25 marzo | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle seguenti nuove versioni di at.js:<ul><li>at.js versione 2.3.0</li><li>at.js versione 1.8.1</li></ul> |
