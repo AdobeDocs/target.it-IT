@@ -5,7 +5,7 @@ title: Aggiornamento da Adobe Target at.js versione 1.*x* alla versione 2.*x*
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
 
 ---
 
@@ -286,7 +286,11 @@ In Target, il cookie di terze parti è memorizzato in `<CLIENTCODE>.tt.omtrdc.ne
 
 Tuttavia, con at.js 2.*x* non si utilizza più HTTP GET, ma HTTP POST. HTTP POST viene ora utilizzato tramite at.js 2.*x* per inviare payload JSON ai server Edge di Target. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti non viene più riconosciuta come valida. Infatti le richieste HTTP GET sono transazioni idempotenti, mentre HTTP POST non lo è e non deve essere ripetuto arbitrariamente. Di conseguenza, il tracciamento tra più domini in at.js 2.*x* non è più supportato come funzionalità integrata. Solo at.js 1.*x* supporta il tracciamento tra più domini come funzionalità integrata.
 
-Per utilizzare il tracciamento tra domini, è necessario installare la libreria [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) insieme a at.js 2.*x*. La libreria ECID consente di gestire gli ID persistenti utilizzati per identificare lo stesso visitatore su domini diversi. Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti.
+Per utilizzare il tracciamento tra domini, è necessario installare la libreria [ECID v4.3.0+](https://docs.adobe.com/content/help/en/id-service/using/release-notes/release-notes.html) insieme a at.js 2.*x*. La libreria ECID consente di gestire gli ID persistenti utilizzati per identificare lo stesso visitatore su domini diversi.
+
+>[!NOTE]
+>
+>Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti. È importante notare che questa funzionalità funziona solo dopo la scadenza della sessione.
 
 ### Supporto della creazione automatica di una mbox globale
 
