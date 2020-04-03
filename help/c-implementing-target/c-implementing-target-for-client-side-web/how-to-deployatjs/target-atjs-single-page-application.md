@@ -5,7 +5,7 @@ title: Implementazione di applicazioni a pagina singola in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 8881a02d292312c8ac87c63c63d7b5a9ecaa797f
 
 ---
 
@@ -274,15 +274,15 @@ Se segui la procedura precedente, dovresti disporre di una soluzione A4T solida 
 
 I video che seguono contengono ulteriori informazioni:
 
-### Come funziona at.js 2.x
+### Come funziona at.js 2.x badge ![Panoramica](/help/assets/overview.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26250) badge ![Panoramica](/help/assets/overview.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
 
-### Implementare at.js 2.x in un’applicazione a pagina singola
+### Implementazione a.js 2.x in un badge ![Tutorial SPA](/help/assets/tutorial.png)
 
->[!VIDEO](https://video.tv.adobe.com/v/26248) Badge ![Tutorial](/help/assets/tutorial.png)
+>[!VIDEO](https://video.tv.adobe.com/v/26248)
 
 Per ulteriori informazioni, consulta [Implementazione di Adobe Target at.js 2.x in un’applicazione SPA (Single Page Application)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
 
