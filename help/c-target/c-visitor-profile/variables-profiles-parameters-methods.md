@@ -28,7 +28,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | user.daysSinceLastVisit |  |
 | User.browser | Agente utente |
 | User.header | Tutti i profili `user.header` sono incorporati dai dati di intestazione di richiesta mbox |
-| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-inoltrato-per&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>È possibile ottenerlo in diversi modi, ad esempio con [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172.<br>NOTA: Questa intestazione non funziona nei margini AWS più recenti. Usa `user.header('x-forwarded-for')` invece. |
+| user.header(&#39;x-cluster-client-ip&#39;)<br><br>oruser.header(&#39;x-inoltrato-per&#39;) | L&#39;indirizzo IP pubblico della connessione di rete che in cui si trova il visitatore.<br>NOTA: L&#39;intestazione user.header(&#39;x-cluster-client-ip&#39;) non funziona nei margini AWS più recenti.<br>È possibile ottenerlo in diversi modi, ad esempio con [whatismyip.com](https://www.whatismyip.com/). L&#39;indirizzo IP non è l&#39;indirizzo NAT (indirizzo interno), che inizia con 10., 192,168., o 172. |
 | user.header(&#39;host&#39;) | Hostname del sito web |
 | user.header(&#39;cookie&#39;) | Dati cookie del visitatore |
 | user.header(&#39;user-agent&#39;) | Agente utente del browser del visitatore |
