@@ -5,7 +5,7 @@ title: Limiti
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 7c8705e45b84fb7d49f93e1f3a25392a8d2758a6
+source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
 
 ---
 
@@ -98,12 +98,6 @@ Per le richieste GET, anche se il limite è di 5 KB, a causa del fatto che Micro
 **Limite**: 256 caratteri.
 
 I valori più lunghi vengono troncati.
-
-## Profili In-mbox in una richiesta mbox
-
-**Limite**: 50 profili.
-
-Tutti i profili oltre i primi 50 vengono ignorati.
 
 ## Nomi di profilo In-mbox
 
