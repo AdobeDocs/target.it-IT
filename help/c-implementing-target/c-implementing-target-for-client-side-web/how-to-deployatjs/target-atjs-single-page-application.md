@@ -5,7 +5,7 @@ title: Implementazione di applicazioni a pagina singola in Adobe Target
 topic: standard
 uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: 7a2e5ae6a02c63f06fc49f5d040b74656f0f3262
+source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
 
 ---
 
@@ -270,7 +270,7 @@ Anche se questi esempi utilizzano il codice JavaScript, tutto questo può essere
 
 Se segui la procedura precedente, dovresti disporre di una soluzione A4T solida per le applicazioni a pagina singola.
 
-## Best practice di implementazione
+## Best practice di implementazione {#bp}
 
 le API at.js 2.x consentono di personalizzare l&#39; [!DNL Target] implementazione in molti modi, ma è importante seguire l&#39;ordine corretto delle operazioni durante questo processo.
 
