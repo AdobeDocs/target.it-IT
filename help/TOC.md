@@ -1,11 +1,11 @@
 ---
 product: target
 audience: end-user
-user-guide-title: Adobe Target Help
+user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -60,6 +60,7 @@ source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive sulla sicurezza dei contenuti](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
+         + [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
