@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 377ed0368bf6134100e7e36382e3830a8d24c8d5
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Aprile 14 | [Host periferici di Whitelist Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
 | Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. |
