@@ -1,12 +1,12 @@
 ---
-keywords: implementare;implementazione
+keywords: implement;implementing
 description: Considerazioni da affrontare prima di implementare Adobe Target.
 title: Prima dell’implementazione
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: c513b653-bf0e-4a94-afcb-0f1295401b6b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
 
 ---
 
@@ -28,3 +28,4 @@ Questa sezione include informazioni specifiche che gli sviluppatori devono racco
 - [Browser supportati](supported-browsers.md)
 - [Modifiche alla crittografia di TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME e Adobe Target](implement-cname-support-in-target.md)
+- [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md)
