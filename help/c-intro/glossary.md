@@ -4,7 +4,7 @@ title: Glossario di Adobe Target
 topic: Standard
 uuid: df0e5612-bfe8-48a5-be2c-1d50ce9fd3f5
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: 9d4dc651bb283fbb18231f389660675ebfabc564
 
 ---
 
@@ -328,6 +328,10 @@ Un tipo di coinvolgimento che rappresenta la durata della visita (in secondi) da
 Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse automaticamente a un elemento mbox ogni volta che la pagina con l’elemento mbox viene visualizzata da un visitatore. Queste variabili URL sono quindi disponibili per l’utilizzo a scopo di targeting di visualizzazione o per i filtri per segmenti nei rapporti.
 
 ## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+
+**visit**
+
+A volte una visita viene denominata sessione. Una visita termina dopo 30 minuti di inattività, il che significa che sono passati almeno 30 minuti tra le richieste del server a Target.
 
 **visitatore**
 
