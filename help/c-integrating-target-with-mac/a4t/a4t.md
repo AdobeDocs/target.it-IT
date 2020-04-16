@@ -6,7 +6,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -108,7 +108,7 @@ Apri l&#39;esercitazione [Analytics &amp; Target: esercitazione sulle best pract
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Badge ![Panoramica di Analytics per Target (A4T) (4:32)](/help/assets/overview.png)
+### Badge di ![panoramica di Analytics per Target (A4T) (4:32)](/help/assets/overview.png)
 
 Questo video spiega come usare Adobe Analytics come origine per la generazione di rapporti in Adobe Target per l&#39;analisi del tuo programma di ottimizzazione.
 
@@ -118,7 +118,7 @@ Questo video spiega come usare Adobe Analytics come origine per la generazione d
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integrazione di Analytics/Target (A4T) (40:33) !![Tutorial badge](/help/assets/tutorial.png)
+### Badge ![delle esercitazioni sull&#39;integrazione di Analytics/Target (A4T) (40:33)](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
