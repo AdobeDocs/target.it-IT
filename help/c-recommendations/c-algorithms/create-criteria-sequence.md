@@ -4,7 +4,7 @@ description: Utilizza le sequenze di criteri (fino a cinque criteri per sequenza
 title: Creare sequenze di criteri
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 0ba817898366e9d18fec6cc0fc75013c78a136e9
 
 ---
 
@@ -86,7 +86,7 @@ Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza crit
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Video di formazione: Creare i criteri in Recommendations (12:33) !![Tutorial badge](/help/assets/tutorial.png
+## Video di formazione: Creare i criteri in Recommendations (12:33) Badge ![Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
