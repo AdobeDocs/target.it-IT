@@ -1,12 +1,12 @@
 ---
-keywords: Implementazione;mbox;scaricare mbox.js;scaricare api;api mbox.js
+keywords: Implementation;Mbox;download mbox.js;download api;mbox.js api
 description: Per utilizzare Target Standard o Target Premium, aggiungi una riga di codice per chiamare mbox.js.
 title: Implementazione di mbox.js
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: aa53dfd4-db42-4a33-b561-7e84ca7e4497
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: e5948d70eff9a3ec8205eb69591325bd55e37855
 
 ---
 
@@ -19,7 +19,11 @@ Puoi utilizzare uno dei due riferimenti di libreria: [!DNL mbox.js] o [!DNL at.j
 
 >[!NOTE]
 >
->La libreria mbox.js è ancora supportata, ma non ci saranno aggiornamenti di funzionalità. Tutti i clienti devono migrare a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>**mbox.js obsoleto**: Il 30 agosto 2020, Adobe Target non supporterà più la libreria mbox.js. Dopo il 30 agosto 2020, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine in cui sono in esecuzione attività Target. È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della libreria at.js prima di tale data, in modo da evitare potenziali problemi con i siti. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md).
+>
+>Sebbene mbox.js sia attualmente supportato, a partire da luglio 2017 non sono stati forniti aggiornamenti di funzionalità per questa libreria. Il più recente at.js offre molti vantaggi rispetto a mbox.js. Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni Web, migliora la sicurezza e offre migliori opzioni di implementazione per le applicazioni a pagina singola.
+>
+>Spostando tutti i clienti a at.js, i nostri tecnici e il nostro staff di supporto saranno in grado di fornirvi nuove funzionalità e di offrire il supporto che vi aspettate da Adobe.
 
 Il singolo riferimento a [!DNL mbox.js] in ogni pagina fornisce le librerie necessarie per tutte le attività. [!DNL mbox.js] chiama [!DNL Target] da ogni pagina che fa riferimento al file [!DNL mbox.js]. Questo consente a [!DNL Target] di effettuare le seguenti operazioni:
 
@@ -38,4 +42,4 @@ Non è necessario mantenere diverse versioni del file specifiche per le singole 
    `<script src="/ *`directory`*/ *`scripts`*/mbox.js"></script>`
 
    Dove ` *`directory`*/ *`scripts`*` è la directory in cui è stato salvato il file [!DNL mbox.js] dopo averlo scaricato. 
-Se disponi già di elementi mbox sulla tua pagina derivanti da un'implementazione precedente, questi possono ancora essere utilizzati nella nuova interfaccia. Il file [!DNL mbox.js] aggiornato rimane necessario, ma queste mbox possono essere selezionate per le attività e modificate utilizzando il [!UICONTROL Compositore esperienza visivo].
+Se disponi già di elementi mbox sulla tua pagina derivanti da un&#39;implementazione precedente, questi possono ancora essere utilizzati nella nuova interfaccia. Il file [!DNL mbox.js] aggiornato rimane necessario, ma queste mbox possono essere selezionate per le attività e modificate utilizzando il [!UICONTROL Compositore esperienza visivo].
