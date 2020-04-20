@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 0e32f92659ada27ecf91776418c66bb2f4a58167
+source-git-commit: 1befd131034805ba81e4d68e7e976fd290041d52
 
 ---
 
@@ -18,6 +18,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Aprile 20 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nuova sezione: Generatore di *competenze Adobe Target: Chat sviluppatore, effettua la migrazione di mbox.js di Adobe Target in at.js.* |
 | Aprile 14 | [Host periferici di Whitelist Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
