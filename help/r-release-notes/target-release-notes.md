@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
+source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 00e69d8887cb79eb81b602a519d4b92d31612dad
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 24 aprile 2020**
+**Ultimo aggiornamento: 28 aprile 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -37,7 +37,7 @@ Martedì 5 maggio, 8:00 - 9:00 AM (PDT)
 
 [Registrati qui!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
 
-## Target Standard/Premium 20.4.1 (27 aprile 2020)
+## Target Standard/Premium 20.4.1 (6 maggio 2020)
 
 Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 
