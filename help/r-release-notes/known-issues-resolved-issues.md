@@ -4,7 +4,7 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
 
 ---
 
@@ -33,7 +33,7 @@ L&#39;utente *non* è stato interessato se:
 * Le attività Target utilizzano Analytics per Target (A4T).
 * Si trova la regione Asia-Pacifico (APAC).
 
-Per determinare se questo problema ha avuto un impatto sull&#39;implementazione di Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Per determinare se questo problema ha avuto un impatto sui report di Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Consegna delle pagine {#page-delivery}
 
