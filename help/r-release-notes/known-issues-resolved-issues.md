@@ -1,15 +1,15 @@
 ---
 keywords: known issues;resolved issues;release notes;bugs;issues;fixes
-description: Informazioni sui problemi noti per questa release di Adobe Target. Include inoltre informazioni sui problemi risolti.
+description: Informazioni sui problemi noti per questa versione di Adobe Target. Include inoltre informazioni sui problemi risolti.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 68a158b76db8d13f68c40385a227d44bac172b3e
+source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
 
 ---
 
 
-# Problemi noti e problemi risolti{#known-issues-and-resolved-issues}
+# Problemi noti e problemi risolti {#known-issues-and-resolved-issues}
 
 Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
 
@@ -21,9 +21,23 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Distribuzione delle pagine {#page-delivery}
+### Generazione di rapporti e ordini estremi
 
-Se aggiungete una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella distribuzione [delle](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md)pagine, spazi aggiuntivi hanno il prefisso alle regole. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di audience e sulla distribuzione delle offerte. (TGT-35916)
+Dal 25 novembre 2019 al 26 aprile 2020, un server di Target ha riscontrato un problema che ha portato a conteggiare i valori degli ordini estremi nelle metriche dei report basate sulle entrate (AOV, RPV). Dal 19 dicembre 2019 al 23 aprile 2020, un altro server ha riscontrato lo stesso problema. Questo problema non ha interessato tutti i server Target o tutti i clienti Target.
+
+L&#39;utente *non* è stato interessato se:
+
+* L&#39;implementazione di Target utilizza server diversi.
+* I rapporti non escludevano ordini estremi.
+* È stata utilizzata una metrica di conversione per misurare le attività.
+* Le attività Target utilizzano Analytics per Target (A4T).
+* Si trova la regione Asia-Pacifico (APAC).
+
+Per determinare se questo problema ha avuto un impatto sull&#39;implementazione di Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+
+### Consegna delle pagine {#page-delivery}
+
+Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di pubblico né sulla consegna delle offerte. (TGT-35916)
 
 ### Collegamenti di anteprima Controllo di qualità delle attività {#preview}
 
@@ -40,7 +54,7 @@ Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzame
 
 Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
 
-### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo{#cancel}
+### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo {#cancel}
 
 * Al momento si verifica il seguente problema noto quando si annulla il caricamento di un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienze] (XT) nel Compositore esperienze visivo in presenza di un URL di reindirizzamento.
 
@@ -62,12 +76,12 @@ Le offerte di codice create dall’interfaccia utente di Target nella libreria O
 
 Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 
-* Le entità sono scadute correttamente dopo 60 giorni dalla ricezione di aggiornamenti tramite feed o API; tuttavia, le entità scadute non vengono rimosse dall&#39;indice di ricerca del catalogo dopo la scadenza. (IRI-857)
-* Le sovrapposizioni &quot;Informazioni sull&#39;utilizzo&quot; per i criteri e le progettazioni non riflettono il loro utilizzo nelle attività A/B e Targeting delle esperienze (TGT-34331)
-* Recommendations Le offerte nelle attività A/B e Targeting delle esperienze non mostrano un&#39;anteprima visiva della barra delle raccomandazioni (TGT-33426)
-* Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. (TGT-35777)
-* Le attività di Recommendations create tramite API possono essere visualizzate nell&#39;interfaccia utente, ma possono essere modificate solo tramite API.
-* Lo stato del feed dei criteri personalizzati visualizzato nella vista dell&#39;elenco Criteri (scheda) viene aggiornato ogni dieci minuti e potrebbe essere superiore a dieci minuti in circostanze rare. Lo stato visualizzato nella visualizzazione di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
+* Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
+* Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
+* Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra dei consigli. (TGT-33426)
+* Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante API non sono visibili nell’interfaccia di Target e possono essere modificati solo tramite API. (TGT-35777)
+* Le attività Consigli create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
+* Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
 
 ### Attività di test multivariato (MVT)
 
@@ -77,18 +91,18 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Utilizzando le versioni at.js precedenti alla 2.2.0, il monitoraggio dei clic non segnala le conversioni in Analytics per Target (A4T) se il codice Adobe Analytics non è presente sugli elementi di pagina (come i pulsanti). È stata introdotta una correzione per questo problema in at.js 2.2.0. Se si verifica questo problema, [effettua l&#39;aggiornamento alla versione](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) at.js più recente.
-* Se create un&#39;esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un&#39;esperienza predefinita), l&#39;esperienza potrebbe non essere conteggiata nei report, Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il plug-in [ttMeta potrebbe non funzionare correttamente](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) .
+* Utilizzando le versioni at.js precedenti alla versione 2.2.0, nel monitoraggio dei clic non sono incluse le conversioni in Analytics for Target (A4T) se il codice Adobe Analytics non è presente sugli elementi di pagina (come i pulsanti). Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+* Se crei un’esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un’esperienza predefinita), questa potrebbe non essere conteggiata nei rapporti, in Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il [plug-in ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) potrebbe non funzionare correttamente.
 
-   Come soluzione alternativa, utilizzate uno spazio vuoto nel contenuto dell&#39;esperienza. (TNT-33366)
+   Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza. (TNT-33366)
 
    >[!NOTE]
    >
-   >Una correzione per questo problema è stata inclusa in at.js 2.2.0. Devi eseguire l&#39;aggiornamento alla versione [più recente o a.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure utilizzare la soluzione alternativa indicata sopra solo per le versioni at.js precedenti alla 2.2.0.
+   >Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.
 
 * Quando si carica una pagina nel Compositore esperienza visivo, Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
-   Quando si utilizza at.js, la casella di controllo Compatibile è nascosta e non è pertanto possibile visualizzare gli algoritmi non compatibili.
+   Quando si utilizza at.js, la casella di controllo Compatibilità è nascosta e non è quindi possibile visualizzare gli algoritmi non compatibili.
 
    Questo problema è relativo solo alle attività Consigli che utilizzano il Compositore esperienza visivo.
 
@@ -295,7 +309,7 @@ La possibilità di visualizzare più metriche in un rapporto è stata inclusa ne
 
 ### Offerte
 
-Le immagini eliminate dalla libreria Offerte immagine (Offerte \> Offerte immagine) rimangono visibili nell’interfaccia utente. In una versione futura, le immagini eliminate non verranno più visualizzate. Nel frattempo, le immagini eliminate vengono visualizzate nell’interfaccia utente, ma presentano lo stato Eliminato. (TGT-23793)
+Le immagini eliminate dalla libreria Offerte immagine (Offerte > Offerte immagine) rimangono visibili nell’interfaccia utente. In una versione futura, le immagini eliminate non verranno più visualizzate. Nel frattempo, le immagini eliminate vengono visualizzate nell’interfaccia utente, ma presentano lo stato Eliminato. (TGT-23793)
 
 Risolto nella versione 17.4.1 di Target (27 aprile 2017).
 
