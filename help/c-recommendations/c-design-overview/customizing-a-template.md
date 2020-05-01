@@ -4,7 +4,7 @@ description: Utilizza il linguaggio di progettazione open-source Velocity per pe
 title: Personalizzare una progettazione con Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: d8d2ea7fc0cf58a6072684a09c11a01933f10cf6
+source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
 
 ---
 
@@ -125,9 +125,9 @@ Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili n
 Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. Potrebbe essere utile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, effettuate le seguenti operazioni:
 
 1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario
-1. Assicuratevi che l&#39;attributo di entità da utilizzare non sia vuoto (richiesto per l&#39;analisi dei modelli di Target Recommendations per convalidare e salvare il modello)
+1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per l&#39;analisi dei modelli di Target Recommendations per convalidare e salvare il modello)
 1. Passate l&#39;attributo di entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio
-1. Eseguire l&#39;operazione matematica o il confronto sul nuovo valore numerico
+1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico
 
 **Esempio: Calcolo di un prezzo di sconto**
 
@@ -264,6 +264,6 @@ Il seguente snippet HTML sostituisce la porzione HTML esistente nella progettazi
             #set($count = $count + 1) 
         #end 
     #end
-    </div>
   </div>
+</div>
 ```
