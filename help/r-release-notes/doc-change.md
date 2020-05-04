@@ -5,7 +5,7 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b6b915d7a39e760f206ae362b2934371f9c0a3ca
+source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
 
 ---
 
@@ -18,12 +18,13 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 4 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Sono state aggiunte nuove domande frequenti: &quot;Perché la divisione del traffico tra le mie esperienze non è uniforme nell&#39;attività A/B o MVT?&quot; |
 | Aprile 29 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto per la creazione di rapporti con ordini estremi. |
 | Aprile 28 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state rimosse informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. Questo comando ora funziona con i bordi AWS più recenti. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data della release di Target Standard/Premium (20.4.1) in 6 maggio. |
 | Aprile 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
-| Aprile 22 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata aggiunta una nuova sezione: Modifiche all&#39;API v2 *Profile Batch Status (4 maggio 2020).* |
-| Aprile 20 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nuova sezione: Generatore di *competenze Adobe Target: Chat sviluppatore, effettua la migrazione di mbox.js di Adobe Target in at.js.* |
+| Aprile 22 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata aggiunta una nuova sezione: *Modifiche all&#39;API v2 di Stato batch profilo (4 maggio 2020).* |
+| Aprile 20 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nuova sezione: *Adobe Target Experience Builder: Chat sviluppatore, effettua la migrazione di mbox.js di Adobe Target in at.js.* |
 | Aprile 14 | [Host periferici di Whitelist Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
