@@ -5,7 +5,7 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
+source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
 
 ---
 
@@ -14,7 +14,7 @@ source-git-commit: 39288a6374483f7311a96c08e599b37f95b5ba35
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 28 aprile 2020**
+**Ultimo aggiornamento: 4 maggio 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -53,7 +53,7 @@ Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 * È stato risolto un problema di visualizzazione a causa del quale un algoritmo di Recommendations visualizzava &quot;Recupero dei risultati&quot; per un periodo prolungato. (TGT-36550 e TGT-36551)
 * Sono state aggiornate molte stringhe di interfaccia utente localizzate in diverse lingue.
 
-## Modifiche all&#39;API v2 per lo stato del batch profilo (4 maggio 2020)
+## Modifiche all&#39;API v2 di stato batch profilo (12 maggio 2020)
 
 Con la release del 4 maggio, lo stato del batch di profili restituirà solo i dati di errore a livello di riga in corso (i dati di successo non verranno restituiti). Gli ID profilo non riusciti verranno restituiti dall&#39;API in futuro.
 
