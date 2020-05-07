@@ -5,7 +5,10 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2d64c902ad19b83c44c78f162a963a9b91694fad
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '600'
+ht-degree: 14%
 
 ---
 
@@ -20,7 +23,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 >[!NOTE]
 >
->* **mbox.js obsoleto**: Il 30 agosto 2020, Adobe Target non supporterà più la libreria mbox.js. Dopo il 30 agosto 2020, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine in cui sono in esecuzione attività Target. È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della libreria at.js prima di tale data, in modo da evitare potenziali problemi con i siti. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consultate *Adobe Target Experience Builder (Generatore di competenze Adobe Target): Chat sviluppatore, migrate il file mbox.js di Adobe Target in at.js* di seguito per informazioni sulla registrazione per una prossima chat sviluppatore su questo argomento.
+>* **mbox.js obsoleto**: Il 30 agosto 2020, Adobe Target non supporterà più la libreria mbox.js. Dopo il 30 agosto 2020, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine in cui sono in esecuzione attività Target. È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della libreria at.js prima di tale data, in modo da evitare potenziali problemi con i siti. For more information, see [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md). Consultate *Adobe Target Experience Builder (Generatore di competenze Adobe Target): Chat sviluppatore, effettua la migrazione di mbox.js di Adobe Target in at.js* di seguito per ulteriori informazioni.
    >
    >   
    Sebbene mbox.js sia attualmente supportato, a partire da luglio 2017 non sono stati forniti aggiornamenti di funzionalità per questa libreria. Il più recente at.js offre molti vantaggi rispetto a mbox.js. Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni Web, migliora la sicurezza e offre migliori opzioni di implementazione per le applicazioni a pagina singola.
@@ -31,11 +34,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 ## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
 
-Join David Son, Adobe Target Product Manager, illustra i vantaggi della migrazione di mbox.js a at.js. Ascoltate gli ultimi aggiornamenti at.js, scoprite le sue funzionalità migliorate e come si allineano con le tendenze più ampie nel panorama tecnologico, nonché alcuni suggerimenti pratici per garantire che la migrazione da mbox.js a at.js estenda lo stesso valore da Target. Gli sviluppatori di Adobe Target non vogliono perdere questa opportunità!
-
-Martedì 5 maggio, 8:00 - 9:00 AM (PDT)
-
-[Registrati qui!](https://atskillbuilder-devchat.experienceleague.adobeevents.com/)
+Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
 
 ## Target Standard/Premium 20.4.1 (6 maggio 2020)
 
