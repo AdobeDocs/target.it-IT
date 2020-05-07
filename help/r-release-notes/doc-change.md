@@ -5,7 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '7548'
+ht-degree: 81%
 
 ---
 
@@ -18,6 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 7 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. È disponibile un collegamento che consente di guardare il webinar per i prossimi 30 giorni. |
+|  | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Aggiornamento della sezione &quot;Considerazioni&quot;. |
+|  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Riga &quot;overrideMboxEdgeServer&quot; aggiornata in &quot;Settings&quot;. |
+| Maggio 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Sono state aggiunte informazioni su ITP 2.3. |
 | Maggio 4 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Sono state aggiunte nuove domande frequenti: &quot;Perché la divisione del traffico tra le mie esperienze non è uniforme nell&#39;attività A/B o MVT?&quot; |
 | Aprile 29 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto per la creazione di rapporti con ordini estremi. |
 | Aprile 28 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state rimosse informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. Questo comando ora funziona con i bordi AWS più recenti. |
