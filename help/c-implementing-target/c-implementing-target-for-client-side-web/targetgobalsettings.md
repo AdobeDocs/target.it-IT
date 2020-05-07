@@ -1,11 +1,14 @@
 ---
-keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders
+keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization
 description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73f2850baa2eb301b6366f0d89343d739edde004
+source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+workflow-type: tm+mt
+source-wordcount: '1532'
+ht-degree: 63%
 
 ---
 
@@ -22,7 +25,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 | Impostazioni | Tipo | Valore predefinito | Descrizione |
 |--- |--- |--- |--- |
-| serverState | Vedere &quot;serverState&quot; di seguito. | Vedere &quot;serverState&quot; di seguito. | Vedere &quot;serverState&quot; di seguito. |
+| serverState | Vedi &quot;Personalizzazione ibrida&quot; di seguito. | Vedi &quot;Personalizzazione ibrida&quot; di seguito. | Vedi &quot;Personalizzazione ibrida&quot; di seguito. |
 | clientCode | Stringa | Valore impostato tramite l&#39;interfaccia utente | Rappresenta il codice cliente |
 | serverDomain | Stringa | Valore impostato tramite l&#39;interfaccia utente | Rappresenta il server Edge di Target |
 | cookieDomain | Stringa | Se possibile impostato su dominio di primo livello | Rappresenta il dominio utilizzato quando si salvano i cookie |
@@ -39,7 +42,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 | bodyHidingEnabled | Booleano | true | Utilizzato per controllare la visualizzazione momentanea di altri contenuti quando `target-global-mbox` viene utilizzato per fornire le offerte create nel Compositore esperienza visivo (offerte visive) |
 | imsOrgId | Stringa | ID ORG IMS | Rappresenta l&#39;ID ORG di IMS |
 | secureOnly | Booleano | false | Indica se at.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. |
-| overrideMboxEdgeServer | Booleano | true (true a partire da at.js versione 1.6.2) | Indica se è necessario utilizzare il dominio `<clientCode>.tt.omtrdc.net` o `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Se questo valore è true, il dominio `mboxedge<clusterNumber>.tt.omtrdc.net` verrà salvato in un cookie |
+| overrideMboxEdgeServer | Booleano | true (true a partire da at.js versione 1.6.2) | Indica se è necessario utilizzare il dominio `<clientCode>.tt.omtrdc.net` o `mboxedge<clusterNumber>.tt.omtrdc.net`.<br>Se questo valore è true, il dominio `mboxedge<clusterNumber>.tt.omtrdc.net` verrà salvato in un cookie. Attualmente non funziona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) |
 | overrideMboxEdgeServerTimeout | Numero | 1860000 = > 31 minuti | Indica la validità del cookie contenente il valore `mboxedge<clusterNumber>.tt.omtrdc.net`. |
 | optoutEnabled | Booleano | false | Indica se Target deve richiamare la funzione dell’API Visitor `isOptedOut()`. Ciò fa parte dell&#39;abilitazione di Device Graph. |
 | selectorsPollingTimeout | Numero | 5000 ms = 5 s | In at.js 0.9.6, Target ha introdotto questa nuova impostazione che può essere ignorata tramite `targetGlobalSettings`.<br>`selectorsPollingTimeout` rappresenta il tempo in cui il client è disposto ad attendere che tutti gli elementi identificati dai selettori vengano visualizzati nella pagina.<br>Le attività create tramite il Compositore esperienza visivo hanno offerte che contengono selettori. |
@@ -73,8 +76,8 @@ I video che seguono contengono ulteriori informazioni:
 
 | Video | Descrizione |
 |--- |--- |
-| [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html) | Fornitori di dati è una funzionalità che ti permette di trasmettere facilmente dati da terze parti a Target. Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore. |
-| [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Dettagli di implementazione ed esempi di come utilizzare la funzione Fornitori di dati in Adobe Target per recuperare dati da fornitori di dati terzi e trasmetterli alla richiesta Target. |
+| [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-feature-video-use.html) | Fornitori di dati è una funzionalità che ti permette di trasmettere facilmente dati da terze parti a Target. Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore. |
+| [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-technical-video-implement.html) | Dettagli di implementazione ed esempi di come utilizzare la funzione Fornitori di dati in Adobe Target per recuperare dati da fornitori di dati terzi e trasmetterli alla richiesta Target. |
 
 L’impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
 
@@ -201,7 +204,7 @@ window.targetGlobalSettings = {
 
 Dopo aver specificato `cspScriptNonce` e `cspStyleNonce` le impostazioni, at.js 2.3.0+ le imposta come attributi non CE su tutti i tag SCRIPT e STYLE che aggiunge al DOM quando si applicano le offerte Target.
 
-## serverState {#server-state}
+## Personalizzazione ibrida {#server-state}
 
 `serverState` è un&#39;impostazione disponibile in at.js v2.2+ che può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un&#39;integrazione ibrida di Target. L&#39;integrazione ibrida significa che stai utilizzando sia at.js v2.2+ sul lato client che l&#39;API di consegna o un SDK Target sul lato server per distribuire esperienze. `serverState` consente a at.js v2.2+ di applicare esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina che viene servita.
 
