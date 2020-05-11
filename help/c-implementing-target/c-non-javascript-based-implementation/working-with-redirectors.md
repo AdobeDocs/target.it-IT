@@ -1,12 +1,15 @@
 ---
-keywords: Implementazione;mbox.js non JavaScript;redirector;costi per clic; ricavi per clic
+keywords: Implementation;mbox.js non javascript;redirector;costs per click;revenue per click
 description: È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
 title: Lavorare con i redirector
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+workflow-type: tm+mt
+source-wordcount: '665'
+ht-degree: 78%
 
 ---
 
@@ -33,8 +36,8 @@ Per decidere la giusta configurazione, consulta [Implementazioni non basate su J
 
 Prima di poter utilizzare un redirector, è necessario crearlo.
 
-1. Determina le varianti di destinazione dell'annuncio, inclusa la destinazione predefinita.
-1. Crea l'URL di redirector.
+1. Determina le varianti di destinazione dell&#39;annuncio, inclusa la destinazione predefinita.
+1. Crea l&#39;URL di redirector.
 
    ```
    https://<your_testandtarget_clientcode>.tt.omtrdc.net/​m2/yourclientcode/ubox
@@ -44,22 +47,25 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `yourclientcode` è il codice client dell’azienda. Il codice cliente della tua azienda è tutto minuscolo e non ha caratteri speciali.
 
-      * **at.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni at.js] nell’interfaccia di [!DNL Target].
+      * **at.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione > Implementazione > Modifica impostazioni at.js] nell’interfaccia di [!DNL Target].
 
-      * **mbox.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni mbox.js].
+      * **mbox.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione > Implementazione > Modifica impostazioni mbox.js].
    * `redirectorlink_456` è il nome dell’elemento mbox redirector che appare nel tuo account, da utilizzare nelle campagne e nei test.
 
-      I redirector operano in modo diverso rispetto agli altri elementi mbox, ma appaiono nel tuo account come qualsiasi altro mbox. Dai un nome al redirector in modo da poterlo distinguere facilmente dagli elementi mbox standard nel tuo account.  È buona norma iniziare il nome mbox con "redirectorlink".
+      I redirector operano in modo diverso rispetto agli altri elementi mbox, ma appaiono nel tuo account come qualsiasi altro mbox. Dai un nome al redirector in modo da poterlo distinguere facilmente dagli elementi mbox standard nel tuo account.  È buona norma iniziare il nome mbox con &quot;redirectorlink&quot;.
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
+
+      Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md).
 
       Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
 
 
 1. Convalida il Redirector.
-   1. Inserisci l'URL del redirector in un browser e aggiornalo.
-   1. Accedi all'account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell'elenco come una mbox.
+   1. Assicurarsi che il dominio utilizzato nel redirector sia inserito nella white list, come indicato sopra. Se utilizzi un dominio non inserito nella white list, Adobe bloccherà qualsiasi chiamata a tale dominio per impedire agli attori malintenzionati di utilizzare il redirector per reindirizzare a domini potenzialmente dannosi.
+   1. Inserisci l&#39;URL del redirector in un browser e aggiornalo.
+   1. Accedi all&#39;account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell&#39;elenco come una mbox.
 1. Se esegui il test di destinazioni diverse per un annuncio, crea [offerte di reindirizzamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) per ogni versione.
 1. Creare la campagna.
 
@@ -82,7 +88,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
    >* `mboxDebug` non funziona con i redirector.
 
 
-1. Invia l'URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell'annuncio.
+1. Invia l&#39;URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell&#39;annuncio.
 
 ## Utilizzare un Redirector per trasmettere i costi per clic e i ricavi per clic {#concept_3078EF48E9C44B34992D62AAB9628853}
 
