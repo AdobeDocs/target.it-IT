@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '665'
-ht-degree: 78%
+source-wordcount: '680'
+ht-degree: 73%
 
 ---
 
@@ -32,7 +32,7 @@ Utilizza il redirector per eseguire le operazioni seguenti:
 
 Per decidere la giusta configurazione, consulta [Implementazioni non basate su JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Creare un redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
 
 Prima di poter utilizzare un redirector, è necessario crearlo.
 
@@ -56,7 +56,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
 
-      Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md).
+      Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare whitelist che specificano gli ospitanti autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*.
 
       Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
 
@@ -90,7 +90,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
 1. Invia l&#39;URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell&#39;annuncio.
 
-## Utilizzare un Redirector per trasmettere i costi per clic e i ricavi per clic {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Use a redirector to pass Costs per Click and Revenue Per Click {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informazioni su come utilizzare un redirector per trasmettere costi per clic e ricavi per clic.
 
