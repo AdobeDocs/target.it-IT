@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 07abc419-0253-47c6-80b8-0bd0734d2c9d
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '405'
-ht-degree: 86%
+source-wordcount: '420'
+ht-degree: 82%
 
 ---
 
@@ -36,4 +36,4 @@ Gli annunci AdBox e i Redirector possono essere utilizzati con qualsiasi tipo di
 * Per utilizzare i cookie di prima parte su AdBox, dovrai portare la sessione mBox nell&#39;URL. A tale scopo, rivolgiti al rappresentante del tuo account.
 * Per utilizzare i cookie di prima parte per tenere traccia dei clic sugli annunci, passa la sessione mbox nell&#39;URL. A tale scopo, rivolgiti al rappresentante del tuo account.
 * Per utilizzare più di un AdBox nella stessa pagina, devi passare la sessione mbox nell&#39;URL. A tale scopo, rivolgiti al rappresentante del tuo account. Potresti avere un AdBox e un link Redirector nella stessa pagina (perché il Redirector è in realtà su una seconda pagina).
-* Si noti che con Redirector, è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md).
+* Si noti che con Redirector, è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare whitelist che specificano gli ospitanti autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*.
