@@ -5,10 +5,10 @@ title: Integrare i Consigli con l’e-mail
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
 workflow-type: tm+mt
-source-wordcount: '1420'
-ht-degree: 95%
+source-wordcount: '1431'
+ht-degree: 93%
 
 ---
 
@@ -60,7 +60,7 @@ Dove `clientcode` è il codice del client Target.
 
 Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Opzione 2: utilizzare un modello di e-mail Rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Option 2: Use a rawbox email template {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Poiché non disponi di [!DNL mbox.js] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
 
@@ -107,7 +107,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se viene passato `entity.id`, è consigliabile passare anche questo parametro per impedire che la richiesta incrementi il numero di visualizzazioni di pagina conteggiate per un elemento, in modo da non alterare gli algoritmi basati sulla visualizzazione del prodotto. |  |
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> Se il dominio utilizzato nell’ `mboxDefault` URL non è inserito nella white list, potete rischiare di creare una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector o `mboxDefault` da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire in una whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Host](https://developers.adobetarget.com/api/#server-side-delivery). |  |
+| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> Se il dominio utilizzato nell’ `mboxDefault` URL non è inserito nella white list, potete rischiare di creare una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector o `mboxDefault` da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire in una whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare whitelist che specificano gli ospitanti autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*. |  |
 | `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
 | `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun “thirdPartyId”, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota **: assicurati di fornire un valore univoco di`mboxSession`e`mboxPC`per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe rallentare o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
