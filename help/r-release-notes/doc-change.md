@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 32cfa346ae6aa3246d830e1ce153cb45baab8c89
+source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
 workflow-type: tm+mt
-source-wordcount: '7601'
+source-wordcount: '7641'
 ht-degree: 81%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 81%
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
 
-## Adobe Target Standard/Premium 20.2.1 (19 febbraio 2020)
+## Adobe Target Standard/Premium 20.4.1 (6 maggio 2020)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
@@ -29,6 +29,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Aggiornamento della sezione &quot;Considerazioni&quot;. |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Riga &quot;overrideMboxEdgeServer&quot; aggiornata in &quot;Settings&quot;. |
 | Maggio 6 | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Sono state aggiunte informazioni su ITP 2.3. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.4.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
+
+## Adobe Target Standard/Premium 20.2.1 (19 febbraio 2020)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
 | Maggio 4 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md#uneven) | Sono state aggiunte nuove domande frequenti: &quot;Perché la divisione del traffico tra le mie esperienze non è uniforme nell&#39;attività A/B o MVT?&quot; |
 | Aprile 29 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto per la creazione di rapporti con ordini estremi. |
 | Aprile 28 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state rimosse informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. Questo comando ora funziona con i bordi AWS più recenti. |
