@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: d9280db0ffcec8f2f44ec466c99680d4f483d5da
+source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '683'
 ht-degree: 73%
 
 ---
@@ -32,7 +32,7 @@ Utilizza il redirector per eseguire le operazioni seguenti:
 
 Per decidere la giusta configurazione, consulta [Implementazioni non basate su JavaScript](../../c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
 
-## Create a redirector {#task_76608B0F73FC45C4A9F125B894DCF821}
+## Create a redirector {#redirector}
 
 Prima di poter utilizzare un redirector, è necessario crearlo.
 
@@ -56,14 +56,15 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
 
-      Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare whitelist che specificano gli ospitanti autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*.
+      Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.
 
-      Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encodes your URLs.|
-
+      >[!IMPORTANT]
+      >
+      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nella whitelist i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per inserire nella whitelist i domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare whitelist che specificano gli ospitanti autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*.
 
 
 1. Convalida il Redirector.
-   1. Assicurarsi che il dominio utilizzato nel redirector sia inserito nella white list, come indicato sopra. Se utilizzi un dominio non inserito nella white list, Adobe bloccherà qualsiasi chiamata a tale dominio per impedire agli attori malintenzionati di utilizzare il redirector per reindirizzare a domini potenzialmente dannosi.
+   1. *Best practice* di protezione: Assicurarsi che il dominio utilizzato nel redirector sia inserito nella white list, come indicato sopra. Se utilizzi un dominio non inserito nella white list, Adobe bloccherà qualsiasi chiamata a tale dominio per impedire agli attori malintenzionati di utilizzare il redirector per reindirizzare a domini potenzialmente dannosi.
    1. Inserisci l&#39;URL del redirector in un browser e aggiornalo.
    1. Accedi all&#39;account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell&#39;elenco come una mbox.
 1. Se esegui il test di destinazioni diverse per un annuncio, crea [offerte di reindirizzamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) per ogni versione.
