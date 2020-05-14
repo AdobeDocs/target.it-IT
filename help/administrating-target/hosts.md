@@ -5,7 +5,7 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: d8f059565ff44646c99b284ffb765377f5e9d19d
+source-git-commit: 111a960201e14c5283b8c7212dffac9fde9c49e9
 workflow-type: tm+mt
 source-wordcount: '1823'
 ht-degree: 92%
@@ -127,7 +127,7 @@ Se una chiamata mbox viene effettuata su un host non autorizzato, la chiamata ri
 
 >[!IMPORTANT]
 >
->*Best practice* di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questa whitelist controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se la whitelist non viene specificata, Adobe non sarà in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
+>**Best practice** di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questa whitelist controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se la whitelist non viene specificata, Adobe non sarà in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
 >
 >La whitelist prevale sugli ambienti. È necessario cancellare tutti gli host prima di utilizzare la funzione whitelist: nell’elenco Host verranno quindi elencati solo gli host consentiti dalla whitelist. A questo punto puoi spostare gli host nell’ambiente desiderato.
 
