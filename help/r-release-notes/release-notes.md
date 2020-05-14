@@ -5,10 +5,10 @@ title: 'Note sulla versione di Adobe Target (corrente) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
 workflow-type: tm+mt
-source-wordcount: '783'
-ht-degree: 34%
+source-wordcount: '843'
+ht-degree: 32%
 
 ---
 
@@ -33,6 +33,75 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
 ## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
 
 Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
+
+## Modifiche all&#39;API v2 di stato batch profilo (14 maggio 2020)
+
+Con la release del 20 maggio, lo stato del batch di profili restituirà solo i dati di errore a livello di riga in corso (i dati di successo non verranno restituiti). Gli ID profilo non riusciti verranno restituiti dall&#39;API in futuro.
+
+Le risposte API precedenti e nuove sono le seguenti:
+
+`ProfileBatchStatus Api
+http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+
+**Attualmente la risposta è la seguente:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>1514187733806-729395</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>1573612762055-214017</id>
+ 
+        <status>success</status>
+ 
+    </profile>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
+
+**Dopo il 4 maggio, la risposta sarà:**
+
+```
+<response>
+ 
+    <batchId>samplebatch-1585929692655-59449976</batchId>
+ 
+    <status>complete</status>
+ 
+    <batchSize>164</batchSize>
+ 
+    <profile>
+ 
+        <id>some profile id</id>
+ 
+        <status>failed</status>
+ 
+    </profile>
+ 
+</response>
+```
 
 ## Target Standard/Premium 20.4.1 (6 maggio 2020)
 
