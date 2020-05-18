@@ -4,7 +4,10 @@ description: L’URL attività determina la pagina utilizzata nell’attività T
 title: URL attività
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '275'
+ht-degree: 92%
 
 ---
 
@@ -19,7 +22,7 @@ L’URL attività determina la pagina utilizzata nell’attività Targeting espe
    >
    >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] sono entrambi validi.
    >
-   >Per impostazione predefinita, nel Compositore esperienza visivo e in quello basato su moduli viene aperta la pagina specificata nelle [Preferenze account](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
+   >By default, the VEC or Form-Based Experience Composer opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
    >
    >Se hai specificato un URL per un sito che non include il codice JavaScript di Target Standard, non puoi selezionare elementi di pagina.
 
