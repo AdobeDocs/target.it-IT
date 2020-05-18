@@ -5,9 +5,9 @@ title: Note sulla versione per le versioni precedenti
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 2aca4490a70c0f6a1f38fab2e62cdab55b5b7a4f
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
 workflow-type: tm+mt
-source-wordcount: '29277'
+source-wordcount: '29260'
 ht-degree: 92%
 
 ---
@@ -449,7 +449,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Origine per la generazione di rapporti per le attività </p> </td> 
-   <td colname="col2"> <p>In <span class="wintitle">Configurazione</span> &gt; <span class="wintitle">Preferenze</span>, è possibile selezionare l'origine per la generazione di rapporti per le attività, in <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics </span>. È inoltre possibile selezionare l'origine per la generazione di rapporti per ogni attività. </p> <p>A partire da questa versione, è necessario tenere presenti alcune importanti considerazioni sul flusso di lavoro quando si sceglie l'origine per la generazione di rapporti in <span class="wintitle">Preferenze</span> o per attività. </p> <p>Vedi <a href="https://docs.adobe.com/content/help/en/target/using/administer/preferences/target-account-preferences.html" format="html" scope="external">Preferenze </a>. </p> </td> 
+   <td colname="col2"> <p>In <span class="wintitle">Configurazione</span> &gt; <span class="wintitle">Preferenze</span>, è possibile selezionare l'origine per la generazione di rapporti per le attività, in <span class="keyword">Target</span> o <span class="keyword">Adobe Analytics </span>. È inoltre possibile selezionare l'origine per la generazione di rapporti per ogni attività. </p> <p>A partire da questa versione, è necessario tenere presenti alcune importanti considerazioni sul flusso di lavoro quando si sceglie l'origine per la generazione di rapporti in <span class="wintitle">Preferenze</span> o per attività.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -3391,7 +3391,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
  <tbody> 
   <tr> 
    <td colname="col1"> Incremento stimato delle entrate </td> 
-   <td colname="col2"> <p>Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente. </p> <p>Questa stima calcola il volume dell'incremento ottenuto dall'esperienza vincente e il numero totale di visitatori per tutta la durata del test, mostrando l'incremento potenzialmente realizzabile se ogni visitatore visualizza l'esperienza vincente, in caso di continuità delle tendenze come durante il test. </p> <p> La precisione della stima dipende da una serie di fattori, inclusi i dati previsionali basati sulla continuità delle tendenze correnti. Si tratta di stime basate sulle prestazioni passate e non devono essere utilizzate a scopo di orientamento finanziario. I risultati futuri possono variare. </p> <p>Consulta <a href="../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE" format="dita" scope="local"> Stima dell’incremento dei ricavi </a>. </p> </td> 
+   <td colname="col2"> <p>Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente. </p> <p>Questa stima calcola il volume dell'incremento ottenuto dall'esperienza vincente e il numero totale di visitatori per tutta la durata del test, mostrando l'incremento potenzialmente realizzabile se ogni visitatore visualizza l'esperienza vincente, in caso di continuità delle tendenze come durante il test. </p> <p> La precisione della stima dipende da una serie di fattori, inclusi i dati previsionali basati sulla continuità delle tendenze correnti. Si tratta di stime basate sulle prestazioni passate e non devono essere utilizzate a scopo di orientamento finanziario. I risultati futuri possono variare. </p></td> 
   </tr> 
   <tr> 
    <td colname="col1"> Annulla/Ripristina </td> 
