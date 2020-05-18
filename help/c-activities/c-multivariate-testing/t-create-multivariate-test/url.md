@@ -4,7 +4,10 @@ description: L’URL attività determina la pagina utilizzata nel test multivari
 title: URL attività
 uuid: ddc7330c-199a-4e38-b3d4-6786e3997783
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '286'
+ht-degree: 93%
 
 ---
 
@@ -19,7 +22,7 @@ Quando viene richiesto durante la [creazione dell’attività](/help/c-activitie
 >
 >[!DNL Target] non distingue tra protocolli URL ([!DNL https] e [!DNL http]). Di conseguenza, [!DNL `https://www.adobe.com`] e [!DNL `http://www.adobe.com`] sono entrambi validi.
 
-Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] apre la pagina specificata nelle [preferenze dell’account](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
+By default, the [!UICONTROL Visual Experience Composer] (VEC) opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
 
 Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic sull’icona **[!UICONTROL Configura]**, seleziona **[!UICONTROL Consegna pagine]** e specifica l’URL.
 
