@@ -1,12 +1,15 @@
 ---
-keywords: implementare;implementazione;configurazione;setup
+keywords: implement;implementing;setting up;setup
 description: Informazioni che consentono di configurare Adobe Target, incluse le preferenze, l’implementazione, la gestione degli utenti, le proprietà, le impostazioni Scene7, la gestione degli host e i token di risposta.
 title: Amministrare Adobe Target
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+workflow-type: tm+mt
+source-wordcount: '87'
+ht-degree: 67%
 
 ---
 
@@ -15,14 +18,16 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Informazioni che consentono di configurare Adobe Target, incluse le preferenze, l’implementazione, la gestione degli utenti, le proprietà, le impostazioni Scene7, la gestione degli host e i token di risposta.
 
-Per accedere alle voci del menu [!UICONTROL Configurazione], fai clic su **[!UICONTROL Configurazione]** nella barra dei menu in alto, quindi fai clic sulla scheda desiderata lungo il lato sinistro:
+To access the [!UICONTROL Setup] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
-* [Preferenze](/help/administrating-target/r-target-account-preferences/target-account-preferences.md)
-* [Implementazione](/help/c-implementing-target/implementing-target.md)
-* [Utenti](/help/administrating-target/c-user-management/user-management.md)
-* [Proprietà](/help/administrating-target/c-user-management/property-channel/property-channel.md)
+* [Compositore esperienza visivo](/help/administrating-target/visual-experience-composer-set-up.md)
+* [Generazione di rapporti](/help/administrating-target/reporting.md)
 * [Impostazioni di Scene7](/help/administrating-target/scene7-settings.md)
+* [Implementazione](/help/c-implementing-target/implementing-target.md)
+* [Proprietà](/help/administrating-target/c-user-management/property-channel/property-channel.md)
 * [Host](/help/administrating-target/hosts.md)
+* [](/help/administrating-target/environments.md)Ambienti
 * [Token di risposta](/help/administrating-target/response-tokens.md)
+* [Utenti](/help/administrating-target/c-user-management/user-management.md)
 
-![Menu Configurazione di Adobe Target](/help/administrating-target/assets/setup_menu_new.png)
+![Menu Amministrazione di Adobe Target](/help/administrating-target/assets/administration.png)
