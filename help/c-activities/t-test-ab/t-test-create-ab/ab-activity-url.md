@@ -1,11 +1,14 @@
 ---
-keywords: Panoramica e riferimento
+keywords: Overview and Reference
 description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
 title: URL attività
 topic: Standard
 uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 93%
 
 ---
 
@@ -22,7 +25,8 @@ Quando viene richiesto durante la creazione dell’attività, specifica l’URL 
 
 ## Specificare un URL diverso
 
-Per impostazione predefinita, il [!UICONTROL Compositore esperienza visivo] apre la pagina specificata nelle [Preferenze account Target](/help/administrating-target/r-target-account-preferences/target-account-preferences.md). È possibile specificare una pagina diversa durante la creazione dell’attività.
+By default, the [!UICONTROL Visual Experience Composer] opens the page that is specified in your [Visual Experience Composer settings](/help/administrating-target/visual-experience-composer-set-up.md)
+. È possibile specificare una pagina diversa durante la creazione dell’attività.
 
 Per visualizzare una pagina diversa dopo l’apertura del [!UICONTROL Compositore esperienza visivo], fai clic sull’icona a forma di ingranaggio **[!UICONTROL Configura]**, quindi seleziona **[!UICONTROL Consegna pagine]**. Immetti l’URL nel campo URL attività.
 
