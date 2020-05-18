@@ -1,11 +1,14 @@
 ---
 description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienza su una pagina abilitata per Target e modificare alcune parti della pagina in Adobe Target.
 title: Creare un’attività Targeting esperienze
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: 6299982b-b1ba-4dd0-9c69-36a76680a3e1
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '427'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +25,9 @@ Per ulteriori informazioni su Targeting esperienza, un esempio di utilizzo e vid
 
 **Per creare un’attività Targeting esperienza:**
 
-1. Dall’elenco [!UICONTROL Attività], fai clic su **[!UICONTROL Crea attività]** &gt; **[!UICONTROL Targeting esperienza]**.
+1. Nell&#39;elenco [!UICONTROL Attività] fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Targeting dell&#39;esperienza]**.
 
-   ![Crea attività &gt; Targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
+   ![Crea attività > Targeting esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/xt_select-1.png)
 
    >[!NOTE]
    >
@@ -50,7 +53,7 @@ Per ulteriori informazioni su Targeting esperienza, un esempio di utilizzo e vid
 
 1. Specifica l’[URL di attività](../../../c-activities/t-experience-target/t-xt-create/xt-activity-url.md#concept_D28549AAA0A14E3BB5F05F32BE8ABC90), quindi fai clic su **[!UICONTROL Successivo]**.
 
-   Se l’account è [configurato con un URL predefinito](/help/administrating-target/r-target-account-preferences/target-account-preferences.md), questo verrà visualizzato come impostazione predefinita. Se necessario, è possibile passare dall’URL predefinito a un altro.
+   Se l’account è [configurato con un URL predefinito](/help/administrating-target/visual-experience-composer-set-up.md), questo verrà visualizzato come impostazione predefinita. Se necessario, è possibile passare dall’URL predefinito a un altro.
 
    Viene aperto il Compositore esperienza visivo, con la pagina specificata nell’URL.
 
