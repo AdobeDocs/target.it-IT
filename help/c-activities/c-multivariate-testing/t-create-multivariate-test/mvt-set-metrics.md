@@ -5,7 +5,10 @@ title: Impostare le metriche
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+workflow-type: tm+mt
+source-wordcount: '310'
+ht-degree: 99%
 
 ---
 
@@ -31,7 +34,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
 
    Le impostazioni disponibili dipendono dalla metrica di successo in uso.
 
-   Se attivato, il campo del [!UICONTROL valore stimato della conversione] (non disponibile per le metriche Punteggio di pagina) fornisce un valore per l’obiettivo. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. I dati sono di tipo valuta. Questo campo viene visualizzato progressivamente dopo che l’utente indica l’azione intrapresa per soddisfare l’obiettivo. Consulta [Stima dell’incremento dei ricavi](../../../administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md#concept_32F875D8F91349CE86AF391F65BEAEEE) per maggiori informazioni.
+   Se attivato, il campo del [!UICONTROL valore stimato della conversione] (non disponibile per le metriche Punteggio di pagina) fornisce un valore per l’obiettivo. Questo valore consente a Target di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. I dati sono di tipo valuta. Questo campo viene visualizzato progressivamente dopo che l’utente indica l’azione intrapresa per soddisfare l’obiettivo. Consulta [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni.
 
    La corretta configurazione delle metriche di successo è fondamentale per ottenere i dati previsti.
 
@@ -50,7 +53,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    | `-` | Meno |
    | `@` | Chiocciola |
 
-## Video di formazione: metriche attività (7:43) Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: metriche attività (7:43) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
