@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
+source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '851'
 ht-degree: 36%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
+|  | [Host](/help/administrating-target/hosts.md) | Aggiunta nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche alla versione 2 dell&#39;API di Stato batch profilo. |
 | Maggio 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | È stata aggiunta la sezione &quot;Limitazioni note&quot;. |
 | Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e whitelist. |
