@@ -5,9 +5,9 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 78c2547a036d7c01348410a34010e57d36797e07
 workflow-type: tm+mt
-source-wordcount: '342'
+source-wordcount: '413'
 ht-degree: 22%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 22%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 14 maggio 2020**
+**Ultimo aggiornamento: 20 maggio 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -36,9 +36,12 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
 
-## Target Standard/Premium 20.5.1 (10 giugno 2020)
+## Target Standard/Premium 20.6.1 (10 giugno 2020)
 
-I dettagli di questa versione saranno pubblicati qui.
+| Funzionalità/Miglioramento | Descrizione |
+| --- | --- |
+| Ruolo editore | Questo nuovo ruolo è simile a quello corrente dell&#39;osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per le attività attive. |
+| Amministrazione<br>paginaPrecedentemente &quot;Configurazione&quot;. | La pagina Configurazione è stata rinominata &quot;Amministrazione&quot; e l’interfaccia utente per tutte le voci di menu è stata aggiornata per migliorare il flusso di lavoro e la facilità d’uso.<br>Le voci di menu disponibili includono:<ul><li>Compositore esperienza visivo</li><li>Generazione di rapporti</li><li>Impostazioni di Scene7</li><li>Implementazione</li><li>Proprietà</li><li>Host</li><li>Ambienti</li><li>Token di risposta</li><li>Utenti</li></ul> |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
