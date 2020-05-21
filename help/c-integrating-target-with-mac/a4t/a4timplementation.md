@@ -1,43 +1,46 @@
 ---
-keywords: A4T;Adobe Analytics;attività basata su Analytics;suite di rapporti di Analytics;suite di rapporti;integrazione di Target Analytics;configurazione di suite di rapporti
+keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Implementazione di Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '877'
+ht-degree: 65%
 
 ---
 
 
 # Implementazione di Analytics for Target{#analytics-for-target-implementation}
 
-Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
+Several steps are required when implementing [!DNL Adobe Analytics] as the reporting source for [!DNL Target] (A4T).
 
-## Passaggi di implementazione {#section_73961BAD5BB4430A95E073DE5C026277}
+## Implementation steps {#section_73961BAD5BB4430A95E073DE5C026277}
 
-Nella tabella seguente sono illustrati i passaggi necessari per implementare questa integrazione nel sito.
+Le sezioni seguenti descrivono i passaggi necessari per implementare questa integrazione nel sito.
 
-## Passaggio 1: Richiedere il provisioning per Analytics e Target
+## Passaggio 1: Richiesta di provisioning per Analytics e Target
 
-Dopo aver implementato Analytics come origine di reporting per Target, è necessario ottenere il provisioning per entrambi. [Utilizza questo modulo per richiedere il provisioning](http://www.adobe.com/go/audiences).
+After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](http://www.adobe.com/go/audiences).
 
 ## Passaggio 2: Configurare le autorizzazioni utente
 
-I requisiti dell'account utente devono essere soddisfatti prima di procedere alla creazione di un'attività basata su Adobe Analytics in Adobe Target. Consulta [Requisiti delle autorizzazioni utente](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
+User account requirements must be met before you can create an [!DNL Analytics]-based activity in [!DNL Target]. See [User permission requirements](/help/c-integrating-target-with-mac/a4t/account-reqs.md).
 
 ## Passaggio 3: Implementare il servizio ID visitatore di Experience Cloud
 
-Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni Experience Cloud. È necessario implementare o eseguire la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni [!DNL Adobe Experience Cloud]. È necessario implementare o eseguire la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementazione del servizio Experience Cloud ID per Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) nella documentazione del servizio ID visitatore di Experience Cloud.
+See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.com/content/help/en/id-service/using/implementation-guides/setup-target.html) in the *Experience Cloud Visitor ID Service* documentation.
 
 ## Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
 È necessario implementare o eseguire la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, consultate Panoramica [dell'implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all'implementazione di* Analytics.
+Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all&#39;implementazione di* Analytics.
 
-Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all'implementazione di* Analytics.
+Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all&#39;implementazione di* Analytics.
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
@@ -71,9 +74,9 @@ src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
 
 È essenziale che VisitorAPI.js sia caricato prima di at.js o mbox.js. Se stai aggiornando un file at.js o mbox.js esistente, assicurati di verificare l’ordine di caricamento.
 
-Dal punto di vista dell’implementazione, le impostazioni predefinite per l’integrazione di Target e Analytics sono configurate in modo che l’identificatore SDID passato dalla pagina unisca automaticamente nel backend le richieste di Target e Analytics.
+The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
-Tuttavia, se desideri un maggiore controllo su come e quando inviare i dati di analisi di Target ad Analytics a scopo di reporting, senza accettare le impostazioni predefinite per l’unione automatica dei dati di analisi di Target e Analytics tramite l’identificatore SDID, puoi impostare **analyticsLogging = client_side** tramite **window.targetGlobalSettings**. Nota: questo approccio non è supportato dalle versioni precedenti alla versione 2.1.
+However, if you want more control on how and when to send analytics data related to [!DNL Target] to [!DNL Analytics] for reporting purposes, and you do not want to opt-in to the default settings of having [!DNL Target] and [!DNL Analytics] automatically stitch the analytics data via the SDID, then you can set **analyticsLogging = client_side** via **window.targetGlobalSettings**. Nota: questo approccio non è supportato dalle versioni precedenti alla versione 2.1.
 
 Ad esempio:
 
@@ -83,7 +86,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata effettuata da at.js, **analyticsLogging: "client_side"** verrà inviato all’interno delle richieste Target e per ogni richiesta viene restituito un payload di Analytics. Con questa impostazione, il formato del payload restituito sarà simile a quello riportato di seguito:
+Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata effettuata da at.js, **analyticsLogging: &quot;client_side&quot;** verrà inviato all’interno delle richieste e per ogni richiesta viene restituito un payload di Analytics. [!DNL Target] Con questa impostazione, il formato del payload restituito sarà simile a quello riportato di seguito:
 
 ```
 "analytics": {
@@ -94,9 +97,9 @@ Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato ad Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
-Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: "client_side"**. Il payload di Analytics verrà restituito solo per questa chiamata e il backend di Target non inoltrerà il payload ad Analytics. Con questo approccio, ogni richiesta di at.js di Target non restituirà il payload per impostazione predefinita, ma solo quando questo viene specificato.
+Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
 Ad esempio:
 
@@ -152,11 +155,11 @@ La risposta si presenta come segue:
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l'API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato [!DNL Analytics] tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 ## Passaggio 8: Convalidare l’implementazione {#step8}
 
-Carica le pagine dopo aver aggiornato le librerie JavaScript per confermare che i valori dei parametri mboxMCSDID nelle chiamate di Target corrispondano al valore del parametro sdid nella chiamata di visualizzazione della pagina Analytics.
+Carica le pagine dopo aver aggiornato le librerie JavaScript per confermare che i valori dei parametri `mboxMCSDID`[!DNL Target] nelle chiamate di corrispondano al valore del parametro `sdid`[!DNL Analytics] nella chiamata di visualizzazione della pagina 
 
 Tale conferma è particolarmente importante in applicazioni a pagina singola (SPA) in cui l’ordine delle chiamate non è sempre prevedibile.
 
@@ -168,8 +171,8 @@ Tale conferma è particolarmente importante in applicazioni a pagina singola (SP
 
 ## Passaggio 10: Abilitare le opzioni per l’utilizzo di Analytics come origine per la creazione di rapporti per Target
 
-In Target, fai clic su [!UICONTROL Configurazione &gt; Preferenze] e scegli [!UICONTROL Seleziona per attività] o [!UICONTROL Adobe Analytics].
+In [!DNL Target], fai clic su **[!UICONTROL Configurazione > Preferenze]** e scegli **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]**.
 
-* Seleziona per attività consente di scegliere tra Target e Analytics per la creazione di ogni attività.
-* Adobe Analytics imposta Analytics come origine dei rapporti per tutte le attività che hai creato.
+* **[!UICONTROL Seleziona per attività consente di scegliere tra e per la creazione di ogni attività.]**[!DNL Target][!DNL Analytics]
+* **[!UICONTROL Adobe imposta Analytics come origine dei rapporti per tutte le attività che hai creato.]**[!DNL Analytics]
 
