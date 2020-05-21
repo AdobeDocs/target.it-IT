@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: da102687f5d73813e3670b166eb0e668b96c93b6
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '860'
 ht-degree: 36%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 21 | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
 |  | [Host](/help/administrating-target/hosts.md) | Aggiunta nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche alla versione 2 dell&#39;API di Stato batch profilo. |
