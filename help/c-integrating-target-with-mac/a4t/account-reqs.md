@@ -1,12 +1,15 @@
 ---
-keywords: Analytics come origine per la generazione di rapporti;a4t; A4T
+keywords: Analytics as reporting source;a4t;A4T
 description: I requisiti dell’account utente per creare un’attività basata su Adobe Analytics in Adobe Target (A4T).
 title: Requisiti delle autorizzazioni utente
 solution: Target,Analytics
-topic: Reports & Analytics
+topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+workflow-type: tm+mt
+source-wordcount: '290'
+ht-degree: 63%
 
 ---
 
@@ -35,20 +38,19 @@ Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno acc
 
 For more information, see [Manage Experience Cloud users and products](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
-
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
 Completa le seguenti attività in [!DNL Adobe Analytics]:
 
 ### Configurare l’accesso alla suite di rapporti di Analytics
 
-Prima di creare o visualizzare rapporti per un’attività basata su Analytics, devi essere membro del gruppo con **[!UICONTROL Accesso a tutti i rapporti]** o di un gruppo che abbia accesso ad almeno un rapporto nella suite di rapporti che desideri utilizzare. Se non riesci a visualizzare i rapporti, assicurati di essere un membro di uno di questi gruppi.
+Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. Se non riesci a visualizzare i rapporti, assicurati di essere un membro di uno di questi gruppi.
 
 Per ulteriori informazioni, consulta Profili [di prodotto e gruppi](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
 
 ### Configurare l’accesso al gruppo con accesso ai servizi Web
 
-Devi appartenere al gruppo con accesso ai servizi Web in [!DNL Adobe Analytics] per poter utilizzare [!DNL Analytics] come origine di generazione di rapporti per [!DNL Target].
+Devi appartenere al gruppo con accesso ai servizi Web in [!DNL Analytics] per poter utilizzare [!DNL Analytics] come origine di generazione di rapporti per [!DNL Target].
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
