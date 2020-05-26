@@ -5,7 +5,10 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+workflow-type: tm+mt
+source-wordcount: '2414'
+ht-degree: 80%
 
 ---
 
@@ -75,6 +78,8 @@ Tenete presenti le seguenti informazioni:
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
 * I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori che verranno ricevuti durante l’attività o il test.
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
+* Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili già contengono un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.
+* Gli script di profilo non possono essere eliminati mentre vengono utilizzati in un&#39;attività.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
