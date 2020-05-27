@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2167de7512e16a7b91aa276baa0cfdc35dcafeaa
+source-git-commit: 7857b9765a9338405b6705046333f11f8255b365
 workflow-type: tm+mt
-source-wordcount: '895'
+source-wordcount: '912'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto di Analytics per Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.&quot; |
 | Maggio 21 | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
