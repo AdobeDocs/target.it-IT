@@ -5,10 +5,10 @@ title: Domande frequenti sulla generazione di rapporti in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 39%
+source-wordcount: '983'
+ht-degree: 35%
 
 ---
 
@@ -37,6 +37,14 @@ Considerate l&#39;esempio seguente, tenendo conto delle condizioni sopra indicat
 * Il visitatore ritorna al sito dopo che sono state soddisfatte le condizioni per i visitatori di ritorno e viene conteggiato come Visitatore di ritorno.
 
 Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato sia nei segmenti New Visitors (Nuovi visitatori) che Return Visitors (Visitatori di ritorno).
+
+Le differenze tra i conteggi per i nuovi visitatori e per i visitatori di ritorno dipendono anche da come configurate le metriche [di](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività:
+
+Prendi in considerazione l&#39;esempio seguente:
+
+Diversi nuovi visitatori visitano il sito e sono qualificati per un&#39;attività. Questi nuovi visitatori vengono conteggiati nel segmento Nuovi visitatori. Tutti questi visitatori hanno anche registrato una visita in quell&#39;attività.
+
+Alcuni visitatori hanno raggiunto la metrica di conversione, che era configurata come &quot;Incremento conteggio, rilascio utente e permesso il rientro&quot;. Se alcuni di questi utenti raggiungono la metrica di conversione più volte, la metrica di conversione non aumenterà. Dato che l&#39;impostazione, tuttavia, alcuni utenti potrebbero aver raggiunto la metrica di conversione e quindi tornare alla home page, abilitando nuovamente l&#39;attività per registrare una nuova visita.
 
 ## Perché i miei rapporti [!UICONTROL Targeting esperienze] (XT) contengono metriche per le esperienze di controllo?
 
