@@ -4,7 +4,10 @@ description: I riquadri di visualizzazione per dispositivi mobili consentono di 
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+workflow-type: tm+mt
+source-wordcount: '1264'
+ht-degree: 98%
 
 ---
 
@@ -42,7 +45,7 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 | Google Pixel | 411 x 731 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
 | Google Pixel XL | 411 x 731 (larghezza x altezza) | 1440 x 2560 (larghezza x altezza) |
 | Google Pixel 2 | 411 x 731 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
-| Google Pixel 2 XL | 411 x 731 (larghezza x altezza) | 1440 x 2560 (larghezza x altezza) |
+| Google Pixel 2 XL | 411 x 823 (larghezza x altezza) | 1440 x 2880 (larghezza x altezza) |
 | Samsung Galaxy Note 5 | 480 x 853 (larghezza x altezza) | 1440 x 2560 (larghezza x altezza) |
 | LG G5 | 480 x 853 (larghezza x altezza) | 1440 x 2560 (larghezza x altezza) |
 | One Plus 3 | 480 x 853 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
@@ -152,7 +155,7 @@ Questo caso d’uso spiega come configurare le esperienze per due versioni di iP
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Compositore esperienza visivo (2 di 2) (7:29) badge ![Panoramica](/help/assets/overview.png)
+### Compositore esperienza visivo (2 di 2) (7:29) ![badge Panoramica](/help/assets/overview.png)
 
 Il video demo seguente include informazioni sull&#39;utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
 
