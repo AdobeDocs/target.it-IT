@@ -5,7 +5,10 @@ title: Frammenti esperienza Adobe Experience Manager (AEM) in Adobe Target
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: f243e0a74d5f4d91e399e1e64a0e0aa545517ee8
+source-git-commit: 4e1b4d31ba28e21513d314041add5231c9a3062a
+workflow-type: tm+mt
+source-wordcount: '1104'
+ht-degree: 33%
 
 ---
 
@@ -53,9 +56,9 @@ Per ulteriori informazioni, consulta:
 
 I frammenti di esperienza sono creati in [!DNL AEM]. Per ulteriori informazioni, consulta:
 
-* **[!DNL AEM]6.3 **: Frammenti[](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **: Frammenti[](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.4*.
-* **[!DNL AEM]6.5 **: Frammenti[](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3 **:[Frammenti](https://docs.adobe.com/docs/en/aem/6-3/author/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **:[Frammenti](https://helpx.adobe.com/experience-manager/6-4/sites/authoring/using/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **:[Frammenti](https://helpx.adobe.com/experience-manager/6-5/sites/authoring/using/experience-fragments.html)esperienza nella documentazione di *Adobe Experience Manager 6.5*.
 
 ### Step 3: Configure [!DNL AEM] to share the experience fragment with [!DNL Target]
 
@@ -72,11 +75,11 @@ I frammenti di esperienza sono creati in [!DNL AEM]. Per ulteriori informazioni,
 
 A seconda della [!DNL AEM] versione in uso, consulta i seguenti collegamenti per istruzioni dettagliate:
 
-* **[!DNL AEM]6.3 **: Esportazione[di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.3*.
-* **[!DNL AEM]6.4 **: Esportazione[di un frammento esperienza in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.4*.
-* **[!DNL AEM]6.5 **: Esportazione[di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.3 **:[Esportazione di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-3/sites/administering/using/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.3*.
+* **[!DNL AEM]6.4 **:[Esportazione di un frammento esperienza in Target](https://docs.adobe.com/content/help/en/experience-manager-64/administering/integration/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.4*.
+* **[!DNL AEM]6.5 **:[Esportazione di un frammento esperienza in Target](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/experience-fragments-target.html)nella documentazione di *Adobe Experience Manager 6.5*.
 
-## Using experience fragments in DNL Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+## Using experience fragments in Target activities {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
 
 Dopo aver eseguito le attività precedenti, il frammento di esperienza viene visualizzato nella pagina [!UICONTROL Offerte] di [!DNL Target].
 
@@ -141,7 +144,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Nota che il frammento di esperienza nella versione “master” rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 * Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell&#39; [!DNL Target] interfaccia utente.
 
-## Video di formazione: Utilizzo di frammenti di esperienza DNL AEM con il badge {#section_C0EDC54063464F41A182492D2045BC64} ![Esercitazione di Adobe Target](/help/assets/overview.png)
+## Training video: Using AEM experience fragments with Adobe Target {#section_C0EDC54063464F41A182492D2045BC64} ![Tutorial badge](/help/assets/overview.png)
 
 Il seguente video illustra come impostare e utilizzare i frammenti esperienza:
 
