@@ -5,10 +5,10 @@ title: Domande frequenti sulla generazione di rapporti in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 9229a2b6e17d7a340e7c8fb5f2c144cff1804e9e
+source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 35%
+source-wordcount: '1012'
+ht-degree: 33%
 
 ---
 
@@ -19,7 +19,7 @@ Elenco delle domande frequenti sulla generazione di rapporti in [!DNL Target].
 
 ## Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?
 
-Considera i seguenti aspetti:
+Le informazioni seguenti spiegano come vengono conteggiati i nuovi visitatori e visitatori di ritorno e forniscono esempi del motivo per cui la somma di questi due segmenti non corrisponde sempre al numero totale di visitatori.
 
 **Nuovi visitatori**: Un visitatore è incluso nel segmento Nuovi visitatori se è soddisfatta una delle seguenti condizioni:
 
@@ -38,9 +38,9 @@ Considerate l&#39;esempio seguente, tenendo conto delle condizioni sopra indicat
 
 Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato sia nei segmenti New Visitors (Nuovi visitatori) che Return Visitors (Visitatori di ritorno).
 
-Le differenze tra i conteggi per i nuovi visitatori e per i visitatori di ritorno dipendono anche da come configurate le metriche [di](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività:
+Le discrepanze tra i conteggi per i nuovi visitatori e i visitatori di ritorno dipendono anche da come configurate le metriche [di](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività.
 
-Prendi in considerazione l&#39;esempio seguente:
+Ad esempio:
 
 Diversi nuovi visitatori visitano il sito e sono qualificati per un&#39;attività. Questi nuovi visitatori vengono conteggiati nel segmento Nuovi visitatori. Tutti questi visitatori hanno anche registrato una visita in quell&#39;attività.
 
