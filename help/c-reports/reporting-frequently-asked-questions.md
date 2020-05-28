@@ -1,14 +1,14 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports
+keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
 description: Elenco delle domande frequenti sulla generazione di rapporti in Adobe Target.
 title: Domande frequenti sulla generazione di rapporti in Adobe Target
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 7b57ef37f2764f5ec58c9a090edc295e81fdaaa9
+source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 50%
+source-wordcount: '862'
+ht-degree: 39%
 
 ---
 
@@ -16,6 +16,27 @@ ht-degree: 50%
 # Domande frequenti sulla generazione di rapporti{#reporting-faq}
 
 Elenco delle domande frequenti sulla generazione di rapporti in [!DNL Target].
+
+## Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?
+
+Considera i seguenti aspetti:
+
+**Nuovi visitatori**: Un visitatore è incluso nel segmento Nuovi visitatori se è soddisfatta una delle seguenti condizioni:
+
+* È la prima volta che il visitatore visita il sito.
+* È la prima volta che il visitatore visita il sito dopo aver cancellato i cookie.
+* È la prima volta che il visitatore visita il sito dalla scadenza della durata [del profilo del](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) visitatore.
+
+**Visitatori** di ritorno: Il visitatore viene incluso nel segmento Visitatori di ritorno se l’utente ha visitato in precedenza il sito, se ne è andato per almeno 30 minuti e ha nuovamente effettuato la restituzione al sito con gli stessi cookie. Fino a quando un visitatore ritorna entro la durata del suo profilo, viene considerato un visitatore di ritorno.
+
+Se questi due segmenti sono applicati a un&#39;attività, il segmento Nuovi visitatori e il segmento Visitatori di ritorno non sempre si sommano al numero totale di visitatori.
+
+Considerate l&#39;esempio seguente, tenendo conto delle condizioni sopra indicate per i nuovi visitatori e i visitatori di ritorno:
+
+* Un visitatore visita il sito per la prima volta e viene conteggiato come Nuovo visitatore.
+* Il visitatore ritorna al sito dopo che sono state soddisfatte le condizioni per i visitatori di ritorno e viene conteggiato come Visitatore di ritorno.
+
+Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato sia nei segmenti New Visitors (Nuovi visitatori) che Return Visitors (Visitatori di ritorno).
 
 ## Perché i miei rapporti [!UICONTROL Targeting esperienze] (XT) contengono metriche per le esperienze di controllo?
 
