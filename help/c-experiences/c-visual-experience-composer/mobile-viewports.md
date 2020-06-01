@@ -4,9 +4,9 @@ description: I riquadri di visualizzazione per dispositivi mobili consentono di 
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 4fcbd120c6c6448b4ff1c8fc43ab296f791f9d83
+source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1281'
 ht-degree: 98%
 
 ---
@@ -33,8 +33,10 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 | iPhone 8 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
 | iPhone 7 Plus | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
 | iPhone 7 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
+| iPhone 6s Più | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
+| iPhone 6s | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
+| iPhone 6 Plus | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
 | iPhone 6 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
-| iPhone 6s | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
 | iPad Pro | 1024 x 1366 (larghezza x altezza) | 2048 x 2732 (larghezza x altezza) |
 | iPad di terza e quarta generazione | 768 x 1024 (larghezza x altezza) | 1536 x 2048 (larghezza x altezza) |
 | iPad Air 1 e 2 | 768 x 1024 (larghezza x altezza) | 1536 x 2048 (larghezza x altezza) |
