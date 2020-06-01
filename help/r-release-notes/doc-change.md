@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: c22f2c375c15c5827f5c9884fbf948b99424c760
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '930'
+source-wordcount: '952'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 1 giugno | [Riquadri di visualizzazione mobili per esperienze reattive](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Sono state aggiornate le dimensioni e le risoluzioni delle finestre per i modelli Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maggio 28 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte le seguenti domande frequenti: <ul><li>Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?</li></ul> |
 | Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto di Analytics per Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.&quot; |
