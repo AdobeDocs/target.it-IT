@@ -4,10 +4,10 @@ description: I riquadri di visualizzazione per dispositivi mobili consentono di 
 title: Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: d5f2f1c46f5cf254dcab08da76a2465f1248bb0a
+source-git-commit: 1d0aa67027d76c659ca634f679c2341cafa52b09
 workflow-type: tm+mt
-source-wordcount: '1281'
-ht-degree: 98%
+source-wordcount: '1346'
+ht-degree: 97%
 
 ---
 
@@ -28,6 +28,14 @@ Di seguito sono mostrati i riquadri di visualizzazione e le risoluzioni per alcu
 
 | Dispositivo | Dimensioni riquadro di visualizzazione | Risoluzione del dispositivo |
 |---|---|---|
+| iPhone SE | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
+| iPhone 11 Pro Max | 414 x 896 (larghezza x altezza) | 1242 x 2688 (larghezza x altezza) |
+| iPhone 11 Xs Max | 414 x 896 (larghezza x altezza) | 1242 x 2688 (larghezza x altezza) |
+| iPhone 11 | 414 x 896 (larghezza x altezza) | 828 x 1792 (larghezza x altezza) |
+| iPhone 11 Xr | 414 x 896 (larghezza x altezza) | 828 x 1792 (larghezza x altezza) |
+| iPhone 11 Pro | 375 x 812 (larghezza x altezza) | 1125 x 2436 (larghezza x altezza) |
+| iPhone 11 X | 375 x 812 (larghezza x altezza) | 1125 x 2436 (larghezza x altezza) |
+| iPhone 11 Xs | 375 x 812 (larghezza x altezza) | 1125 x 2436 (larghezza x altezza) |
 | iPhone X | 375 x 812 (larghezza x altezza) | 1125 x 2436 (larghezza x altezza) |
 | iPhone 8 Plus | 414 x 736 (larghezza x altezza) | 1080 x 1920 (larghezza x altezza) |
 | iPhone 8 | 375 x 667 (larghezza x altezza) | 750 x 1334 (larghezza x altezza) |
