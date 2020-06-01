@@ -5,10 +5,10 @@ title: 'Note sulla versione di Adobe Target (corrente) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 8139b9373dab3b699a93036752d982793fbd1158
+source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
 workflow-type: tm+mt
-source-wordcount: '843'
-ht-degree: 32%
+source-wordcount: '817'
+ht-degree: 33%
 
 ---
 
@@ -26,13 +26,12 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
    >
    >   
    Spostando tutti i clienti a at.js, i nostri tecnici e il nostro staff di supporto saranno in grado di fornirvi nuove funzionalità e di offrire il supporto che vi aspettate da Adobe.
+   >
+   >
+* **Annunci** Target: Consultate la pagina degli annunci di Target per informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, le chat per sviluppatori, i webinar e le sessioni Target Coffee Break. Per ulteriori informazioni, vedi Annunci [Target](/help/r-release-notes/target-announcements.md).
 
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
-
-## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
-
-Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
 
 ## Modifiche all&#39;API v2 di stato batch profilo (14 maggio 2020)
 
