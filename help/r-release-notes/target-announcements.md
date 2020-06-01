@@ -4,7 +4,7 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
 workflow-type: tm+mt
 source-wordcount: '255'
 ht-degree: 0%
@@ -27,7 +27,9 @@ Unisciti ai product manager Tamer Mina e Mark Tuyay per presentare storie vere s
 * Automazione dell&#39;assimilazione dei contenuti nelle raccomandazioni di Target
 * Tenere traccia delle prestazioni del contenuto raccomandato e della correlazione con la generazione di lead
 
-Giovedì 4 giugno 2010:00 alle 10:45 (EST)
+**Giovedì 4 giugno 2020**
+
+**dalle 10:00 alle 10:45 (EST)**
 
 Per registrarti visita la pagina di [registrazione sul sito Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)di Adobe Experience League.
 
