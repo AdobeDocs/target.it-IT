@@ -4,9 +4,9 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b82fe15b7c53bd0f11ad30019f1c24ee88884846
+source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '254'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,11 @@ Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience B
 
 ## Adobe Target Experience Builder: Come `Adobe.com` utilizza Adobe Sensei AI per personalizzare le esperienze
 
-In qualità di uno dei siti B2E più importanti su Internet, `Adobe.com` ha pienamente accettato il suo ruolo di &quot;Customer Zero&quot; per Adobe Experience Cloud, adottando tutte le soluzioni per i casi di utilizzo B2B e B2C a livello globale. Come destinazione digitale che serve una miriade di persone, tra cui creativi pratici, esperti di marketing non tecnici e acquirenti IT profondamente tecnici, la personalizzazione è fondamentale per il successo di Adobe.com.
+**Giovedì 4 giugno 2020**
+
+**dalle 10:00 alle 10:45 (EST)**
+
+In qualità di uno dei siti B2E più importanti su Internet, `Adobe.com` ha pienamente accettato il suo ruolo di &quot;Customer Zero&quot; per Adobe Experience Cloud, adottando tutte le soluzioni per i casi di utilizzo B2B e B2C a livello globale. Come destinazione digitale che serve una miriade di persone, tra cui creativi pratici, esperti di marketing non tecnici e acquirenti IT profondamente tecnici, la personalizzazione è fondamentale per il successo di `Adobe.com`.
 
 Unisciti ai product manager Tamer Mina e Mark Tuyay per presentare storie vere su come funziona la personalizzazione `Adobe.com`. In questo webinar imparerete come:
 
@@ -26,10 +30,6 @@ Unisciti ai product manager Tamer Mina e Mark Tuyay per presentare storie vere s
 * Utilizzo di esperienze fluide per ridimensionare il contenuto raccomandato `Adobe.com`
 * Automazione dell&#39;assimilazione dei contenuti nelle raccomandazioni di Target
 * Tenere traccia delle prestazioni del contenuto raccomandato e della correlazione con la generazione di lead
-
-**Giovedì 4 giugno 2020**
-
-**dalle 10:00 alle 10:45 (EST)**
 
 Per registrarti visita la pagina di [registrazione sul sito Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)di Adobe Experience League.
 
