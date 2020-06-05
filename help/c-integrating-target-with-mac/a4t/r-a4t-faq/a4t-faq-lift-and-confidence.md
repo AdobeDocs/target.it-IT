@@ -5,7 +5,10 @@ title: Incremento e affidabilità - Domande frequenti su A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: a06747412ba93cacb012e0d68334590fc3d52ab7
+source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+workflow-type: tm+mt
+source-wordcount: '521'
+ht-degree: 55%
 
 ---
 
@@ -28,13 +31,14 @@ Il livello di affidabilità è la probabilità che il tasso di conversione misur
 
 ## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate? {#lift-confidence}
 
-L&#39;incremento e la confidenza non sono attualmente supportati con le metriche calcolate. Tuttavia, nella maggior parte dei casi questo non dovrebbe essere un problema perché il tasso di conversione calcolato nel rapporto A4T è già una metrica calcolata in cui il denominatore è la metrica di normalizzazione (istanze, visite o visitatori). Ad esempio, se selezionate la metrica degli ordini e la metrica di normalizzazione sono visitatori, il tasso di conversione (ordini/visitatore) viene calcolato automaticamente tramite il reporting A4T. La metrica di incremento risultante riflette la differenza nel tasso di conversione tra le esperienze di testo rispetto a quella predefinita.
+Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e confidenza. Ciò è dovuto al fatto che Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. La confidenza, in particolare, è un calcolo a livello di visitatore.
 
-La maggior parte delle metriche calcolate per l&#39;ottimizzazione rientra in una delle due categorie: metriche aggregate o altri calcoli di conversione, ad esempio valore ordine medio (AOV).
+Gli eventi non calcolati (standard) sono supportati in incremento e confidenza. Diventano il numeratore nella funzione di sollevamento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000, ecc. Ciò significa che le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatori) sono supportate in incremento e confidenza.
 
-Le metriche aggregate vengono utilizzate quando un&#39;organizzazione utilizza eventi univoci per acquisire &quot;sapori&quot; diversi della conversione del salvataggio. Ad esempio, se l’obiettivo è quello di promuovere gli invii di moduli lead e si dispone di dieci moduli lead diversi, è possibile creare eventi univoci per conteggiare ogni tipo di conversione del modulo. Per visualizzare la quantità totale di tutti i moduli lead inviati, è necessario creare una metrica calcolata semplice per aggiungerli insieme. Un modo migliore e più moderno per tenere traccia di questo problema consiste nell’implementare un singolo evento di invio dei lead in Analytics e quindi utilizzare un’eVar per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili ed elimina la necessità di aggregare singole metriche e consente comunque di visualizzare la conversione olistica del modulo lead e di suddividerla per tipo di modulo lead utilizzando l’eVar. Questo elimina anche la necessità di metriche aggregate per la valutazione delle prestazioni di un&#39;attività Target.
+Esempi di metriche o casi di utilizzo non supportati:
 
-Un&#39;altra metrica calcolata comune, Valore ordine medio, attualmente non è supportata con incremento e confidenza perché la metrica di normalizzazione non è una metrica standard (istanze, visite o visitatori). Al contrario, la raccomandazione consiste nel tenere d&#39;occhio le due metriche influenti di AOV, Revenue per Visitors (Entrate per visitatore) e Conversion Rate (Tasso di conversione).
+* Valore ordine medio (ricavi/ordine, per visitatore). AOV non è supportato perché il numeratore è una metrica calcolata. Al contrario, la raccomandazione è di considerare le due metriche influenti di AOV - Revenue per Visitors (Entrate per visitatore) e Conversion Rate (Tasso di conversione).
+* Metriche calcolate che rappresentano la somma degli eventi standard. Ad esempio, potete tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli insieme per ottenere il totale degli invii lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio dei lead in Analytics e quindi utilizzare un eVar per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili e garantisce l’utilizzo della metrica di invio dei lead nelle funzioni di incremento e confidenza.
 
 ## Come gestisce A4T i calcoli di affidabilità? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
