@@ -4,34 +4,38 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fff07b97cc4a5620cfc32eae8eb0ed86b7a60cea
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '254'
-ht-degree: 0%
+source-wordcount: '218'
+ht-degree: 2%
 
 ---
 
 
-# Annunci Target
+# Annunci ed eventi Target
 
 Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
 
-## Adobe Target Experience Builder: Come `Adobe.com` utilizza Adobe Sensei AI per personalizzare le esperienze
+## Interruzione del caffè della community Adobe Target
 
-**Giovedì 4 giugno 2020**
+**Mercoledì 10 giugno 2020**
 
-**dalle 10:00 alle 10:45 (EST)**
+**10:00 alle 11:00 (PST)**
 
-In qualità di uno dei siti B2E più importanti su Internet, `Adobe.com` ha pienamente accettato il suo ruolo di &quot;Customer Zero&quot; per Adobe Experience Cloud, adottando tutte le soluzioni per i casi di utilizzo B2B e B2C a livello globale. Come destinazione digitale che serve una miriade di persone, tra cui creativi pratici, esperti di marketing non tecnici e acquirenti IT profondamente tecnici, la personalizzazione è fondamentale per il successo di `Adobe.com`.
+Unitevi a noi per la prossima pausa caffè [!DNL Adobe Target] della comunità D e R! Questo fa parte di una serie che abbiamo recentemente lanciato per consentire ai nostri esperti interni di interagire direttamente con voi sui nostri forum per una &quot;Pausa caffè&quot;. Pensatelo come l&#39;equivalente [!DNL Adobe Target] di un forum della community di AMA (Ask Me Qualunque cosa) o di una chat su Twitter.
 
-Unisciti ai product manager Tamer Mina e Mark Tuyay per presentare storie vere su come funziona la personalizzazione `Adobe.com`. In questo webinar imparerete come:
+David Son, [!DNL Target] Product Manager, risponderà a tutte le tue domande. Il settore di competenza di David comprende:
 
-* Mantenere il contenuto aggiornato e aggiornato senza necessità di aggiornamenti manuali
-* Utilizzo di esperienze fluide per ridimensionare il contenuto raccomandato `Adobe.com`
-* Automazione dell&#39;assimilazione dei contenuti nelle raccomandazioni di Target
-* Tenere traccia delle prestazioni del contenuto raccomandato e della correlazione con la generazione di lead
+* at.js
+* Dispositivi mobili
+* Lega
+* API di 
 
-Per registrarti visita la pagina di [registrazione sul sito Web](https://atskillbuilder-senseiai.experienceleague.adobeevents.com/)di Adobe Experience League.
+Non esitate a porre domande su Target.
+
+Per partecipare, devi semplicemente aver effettuato l&#39;accesso alla community [di](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe Target.
+
+[Registrati qui](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
 
