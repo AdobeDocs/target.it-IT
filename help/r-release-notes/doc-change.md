@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
+source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1008'
 ht-degree: 34%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 5 giugno | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè di Adobe Target del 10 giugno. |
+|  | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Testo aggiornato per le seguenti domande frequenti: &quot;Perché non riesco a visualizzare l&#39;incremento e la fiducia nelle metriche calcolate?&quot; |
 | 4 giugno | [Generazione di rapporti per A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Aggiornamento della sezione &quot;Report in Analytics&quot;. |
 | 1 giugno | [Annunci Target](/help/r-release-notes/target-announcements.md) | È stata aggiunta una nuova pagina per annunciare gli eventi Target in programma. |
 |  | [Riquadri di visualizzazione mobili per esperienze reattive](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Sono state aggiornate le dimensioni e le risoluzioni delle finestre per i modelli Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
