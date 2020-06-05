@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9a74178fa337d0890ae3c4813e01ba0a12a44902
+source-git-commit: 2a7ada5f72574c7d1d50042b2955b81501b5f1f6
 workflow-type: tm+mt
-source-wordcount: '962'
-ht-degree: 33%
+source-wordcount: '986'
+ht-degree: 34%
 
 ---
 
@@ -21,12 +21,14 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 5 giugno | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè di Adobe Target del 10 giugno. |
+| 4 giugno | [Generazione di rapporti per A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Aggiornamento della sezione &quot;Report in Analytics&quot;. |
 | 1 giugno | [Annunci Target](/help/r-release-notes/target-announcements.md) | È stata aggiunta una nuova pagina per annunciare gli eventi Target in programma. |
 |  | [Riquadri di visualizzazione mobili per esperienze reattive](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md) | Sono state aggiornate le dimensioni e le risoluzioni delle finestre per i modelli Apple iPhone 11, Apple iPhone SE e Google Pixel 2 XL. |
 | Maggio 28 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte le seguenti domande frequenti: <ul><li>Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?</li></ul> |
 | Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto di Analytics per Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.&quot; |
-| Maggio 21 | [Whitelist Target edge nodes](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
+| Maggio 21 | [Inserire nella whitelist i nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
 |  | [Host](/help/administrating-target/hosts.md) | Aggiunta nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche alla versione 2 dell&#39;API di Stato batch profilo. |
