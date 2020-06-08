@@ -5,10 +5,10 @@ title: Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '2904'
-ht-degree: 99%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -190,7 +190,7 @@ Prova le informazioni sulla [risoluzione dei problemi](../c-experiences/c-visual
 
 È anche disponibile un [approccio basato su modulo](../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [proxy server di Adobe nella whitelist degli indirizzi consentiti](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [allowlist Adobe&#39;s proxy servers](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
