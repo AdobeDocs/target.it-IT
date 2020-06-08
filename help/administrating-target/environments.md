@@ -1,14 +1,14 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
 description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 title: Ambienti
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '757'
-ht-degree: 68%
+ht-degree: 65%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
 
-[!DNL Target] non limita un host che può inviare e ricevere mbox. Quindi, quando compaiono nuovi server o domini, questi funzionano automaticamente (a meno che non sia impostata una whitelist o blacklist). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
+[!DNL Target] non limita un host che può inviare e ricevere mbox, pertanto quando nuovi server o domini vengono visualizzati, funzionano automaticamente (a meno che non abbiate impostato un elenco di autorizzazioni o un elenco di blocchi). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
 
 Per gestire gli ambienti, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Ambienti]**.
 
