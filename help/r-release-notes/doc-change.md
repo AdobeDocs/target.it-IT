@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1040'
-ht-degree: 34%
+ht-degree: 33%
 
 ---
 
@@ -31,12 +31,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Maggio 28 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte le seguenti domande frequenti: <ul><li>Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?</li></ul> |
 | Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto di Analytics per Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.&quot; |
-| Maggio 21 | [Inserire nella whitelist i nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
+| Maggio 21 | [Permette di elencare i nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
 |  | [Host](/help/administrating-target/hosts.md) | Aggiunta nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche alla versione 2 dell&#39;API di Stato batch profilo. |
 | Maggio 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | È stata aggiunta la sezione &quot;Limitazioni note&quot;. |
-| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e whitelist. |
+| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e elenchi consentiti. |
 |  | [Lavorare con i redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
 |  | [Integrare i Consigli con l’e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
 |  | [E-mail: implementare Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
@@ -57,7 +57,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Aprile 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | Aprile 22 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata aggiunta una nuova sezione: *Modifiche all&#39;API v2 di Stato batch profilo (4 maggio 2020).* |
 | Aprile 20 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nuova sezione: *Adobe Target Experience Builder: Chat sviluppatore, effettua la migrazione di mbox.js di Adobe Target in at.js.* |
-| Aprile 14 | [Host periferici di Whitelist Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuovo argomento. |
+| Aprile 14 | [Host periferici di Allowlist Target](/help/c-implementing-target/c-considerations-before-you-implement-target/white-list-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
 | Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. |
