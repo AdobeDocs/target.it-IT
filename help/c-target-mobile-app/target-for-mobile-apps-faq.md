@@ -5,15 +5,15 @@ title: Domande frequenti su Adobe Target per app mobili
 topic: Target
 uuid: 3d6422ac-7cff-4e0d-9cea-64a64cd1a098
 translation-type: tm+mt
-source-git-commit: 9646a1434d499a595c9c8140e0fece7b48c9955a
+source-git-commit: e11681cd22e97c744e1006afef67beb5d3fd37d4
 workflow-type: tm+mt
-source-wordcount: '291'
-ht-degree: 0%
+source-wordcount: '294'
+ht-degree: 2%
 
 ---
 
 
-# Domande frequenti su Target per app mobili
+# Domande frequenti su Target per le app per dispositivi mobili
 
 Elenco di domande frequenti su [!DNL Target] per app mobili.
 
@@ -35,7 +35,7 @@ No, non è necessario at.js per utilizzare gli SDK per dispositivi mobili. at.js
 
 ## Target Mobile è una funzionalità solo dello SKU prodotto Adobe Target Premium?
 
-Per i clienti di Adobe Target Standard, potete utilizzare i nostri SDK Mobile solo per attività Test e Targeting delle esperienze A/B (XT). Se desiderate utilizzare le funzionalità di Recommendations o basate sull&#39;intelligenza artificiale nell&#39;app mobile, avete bisogno di una licenza [Adobe Target Premium](/help/c-intro/intro.md#premium) .
+No. Per [!DNL Adobe Target Standard] i clienti, puoi usare i nostri SDK Mobile per attività Test e Targeting delle esperienze A/B (XT) solo con il componente aggiuntivo [!DNL Target Standard] Mobile App. Se desiderate utilizzare le funzionalità di Recommendations o basate sull&#39;intelligenza artificiale nell&#39;app mobile, avete bisogno di una licenza [Adobe Target Premium](/help/c-intro/intro.md#premium) .
 
 ## Esiste un&#39;integrazione di app mobile tra le attività di Adobe Experience Manager (AEM) e Target per dispositivi mobili?
 
