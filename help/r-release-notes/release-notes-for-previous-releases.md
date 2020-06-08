@@ -5,7 +5,7 @@ title: Note sulla versione per le versioni precedenti
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '29260'
 ht-degree: 92%
@@ -84,7 +84,7 @@ Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
    * Le notifiche per non [!DNL Target] sono attualmente disponibili nel menu a discesa [!UICONTROL Notifiche] dell&#39;intestazione.
    >[!NOTE]
    >
-   >Durante il rollout della nuova barra di navigazione, noterete anche alcune modifiche agli URL. Tutti i precedenti collegamenti con segnalibro continuano a funzionare, ma vi invitiamo a contrassegnare nuovi collegamenti per un&#39;apertura più rapida.
+   >Durante il rollout della nuova barra di navigazione, noterete anche alcune modifiche agli URL. Tutti i collegamenti con segnalibro precedenti continuano a funzionare, ma vi invitiamo a contrassegnare nuovi collegamenti per un&#39;apertura più rapida.
 
 ### Target Standard/Premium 20.1.1 (4 febbraio 2020)
 
@@ -281,6 +281,7 @@ Questa versione include i miglioramenti, le modifiche e le funzioni seguenti:
 
    * Le cartelle non vuote nella libreria Offerta immagini possono essere eliminate. Se le immagini contenute nella cartella non sono indicate in nessuna attività, l’intera cartella e il relativo contenuto vengono eliminati. Se in un’attività vi sono riferimenti ad alcune immagini, vengono eliminate tutte le immagini senza riferimenti, mentre vengono mantenute quelle con riferimenti e le cartelle che le contengono.
    * Il rendering delle offerte immagini nel selettore delle risorse immagine risulta più rapido ed efficiente.
+
    Per ulteriori informazioni, consulta [Operazioni con il contenuto della libreria](/help/c-experiences/c-manage-content/assets-working.md). (TGT-32897)
 
 * Abbiamo migliorato il rendering delle offerte immagini nel selettore di Assets. La visualizzazione e la selezione delle offerte immagini sono ora più veloci ed efficienti. (TGT-32897)
@@ -462,6 +463,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e 
 
    * Se un pubblico è stato eliminato in AAM, viene visualizzata un&#39;icona di avviso sia nell&#39;elenco [!UICONTROL Tipi di pubblico] sia nel selettore dei tipi di pubblico. Un suggerimento nell&#39;interfaccia utente indica inoltre che il pubblico è stato eliminato in AAM.
    * Se si tenta di combinare più tipi di pubblico con un pubblico eliminato o se si tenta di salvare un&#39;attività che fa riferimento a un pubblico eliminato, viene visualizzato un messaggio di avviso.
+
    Consulta [Informazioni sui tipi di pubblico](https://docs.adobe.com/content/help/en/target/using/audiences/create-audiences/audiences.html).
 
 * Risolto un problema che impediva agli utenti in determinate circostanze di creare un&#39;attività quando Adobe Analytics era selezionato come origine per la generazione di rapporti nella pagina [!UICONTROL Configurazione]. Gli utenti visualizzavano il messaggio “Seleziona una suite di rapporti” anche se non veniva data la possibilità di selezionarla. (TGT-31968)
@@ -1815,7 +1817,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Compositore esperienza visivo avanzato </p> </td> 
-   <td colname="col2"> <p>Aggiornamento degli indirizzi IP per il Compositore esperienza visivo avanzato. </p> <p>Se inserisci in whitelist gli indirizzi IP utilizzati per il Compositore esperienza visivo, aggiungi i nuovi indirizzi IP. </p> <p>Per ulteriori informazioni, consulta <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Risoluzione dei problemi relativi a Compositore esperienza visivo </a>. </p> </td> 
+   <td colname="col2"> <p>Aggiornamento degli indirizzi IP per il Compositore esperienza visivo avanzato. </p> <p>Se consentite di elencare gli indirizzi IP utilizzati per il VEC, aggiungete i nuovi indirizzi IP. </p> <p>Per ulteriori informazioni, consulta <a href="../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md#reference_77743144F10143A3A89D56E116D296E4" format="dita" scope="local">Risoluzione dei problemi relativi a Compositore esperienza visivo </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2187,6 +2189,7 @@ Sono stati segnalati i seguenti problemi:
    1. Modifica l&#39;URL sostituendolo con uno fittizio e salva.
    1. Modifica nuovamente l&#39;URL fittizio sostituendolo con l&#39;URL di reindirizzamento previsto dalla tua campagna.
    1. Seleziona l&#39;opzione “Includi parametri di query correnti” e salva.
+
    Se si seleziona l&#39;opzione durante la creazione di una nuova offerta di reindirizzamento, i parametri di query verranno probabilmente inclusi nel reindirizzamento.
 
    Per le attività create in precedenza, se questa opzione è selezionata nel compositore esperienza dell&#39;attività, il reindirizzamento includerà i parametri della query. Se non è selezionata, i parametri di query correnti non verranno inclusi nel reindirizzamento.
