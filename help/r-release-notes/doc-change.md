@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: e499ef3b216ccea67b0d238c3f9f979367b5fdd2
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1008'
+source-wordcount: '1040'
 ht-degree: 34%
 
 ---
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 giugno | [Domande frequenti su Target per le app per dispositivi mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Testo aggiornato per le seguenti domande frequenti: &quot;Target Mobile è una funzionalità solo dello SKU prodotto Adobe Target Premium?&quot; |
+|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Intero argomento aggiornato. |
 | 5 giugno | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè di Adobe Target del 10 giugno. |
 |  | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md) | Testo aggiornato per le seguenti domande frequenti: &quot;Perché non riesco a visualizzare l&#39;incremento e la fiducia nelle metriche calcolate?&quot; |
 | 4 giugno | [Generazione di rapporti per A4T](/help/c-integrating-target-with-mac/a4t/reporting.md) | Aggiornamento della sezione &quot;Report in Analytics&quot;. |
