@@ -5,10 +5,10 @@ title: Controllo di qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: a24d932f02d49ff11da6299eb46d73f4f385b866
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 88%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -83,7 +83,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
 
    Si consiglia di parlare con il team IT per assicurarsi che tutti i parametri di anteprima siano inseriti nelle white list, in modo che non vengano trasformati in alcun modo.
 
-   Nella tabella seguente sono elencati i parametri consentiti nel dominio:
+   Nella tabella seguente sono elencati i parametri che è possibile elencare nel dominio:
 
    | Parametro | Tipo | Valore | Descrizione |
    |--- |--- |--- |--- |
