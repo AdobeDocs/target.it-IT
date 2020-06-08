@@ -1,14 +1,14 @@
 ---
-keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist
+keywords: host;hosts;host group;troubleshooting;best practices;ubox;redirects;redirect;whitelist;allowlist;blacklist;blocklist
 description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 521b595c2292e7e67f188759805f24a26f6ae8d5
+source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
 workflow-type: tm+mt
 source-wordcount: '1232'
-ht-degree: 65%
+ht-degree: 57%
 
 ---
 
@@ -27,7 +27,7 @@ One environment, the default environment, is pre-named [!UICONTROL Production]. 
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
 
-[!DNL Target] non limita un host che può inviare e ricevere mbox. Quindi, quando compaiono nuovi server o domini, questi funzionano automaticamente (a meno che non sia impostata una whitelist o blacklist). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
+[!DNL Target] non limita un host che può inviare e ricevere mbox, pertanto quando nuovi server o domini vengono visualizzati, funzionano automaticamente (a meno che non abbiate impostato un elenco di autorizzazioni o un elenco di blocchi). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
 
 Per gestire gli host, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Ospitanti]**.
 
@@ -71,11 +71,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create whitelists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
+## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#whitelist}
 
-È possibile creare una whitelist che specifichi gli host (domini) autorizzati a inviare chiamate mbox a [!DNL Target]. Tutti gli altri host che generano chiamate riceveranno una risposta di errore di autorizzazione, inserita come riga di commento. Per impostazione predefinita, qualsiasi host che contiene una chiamata mbox si registra con [!DNL Target] nell’Ambiente di produzione e ha accesso a tutte le attività attive e approvate. Se questo non è l’approccio desiderato, è invece possibile utilizzare la whitelist per registrare host specifici idonei a fare chiamate mbox e a ricevere i contenuti di [!DNL Target]. Tutti gli host continuano a essere visualizzati nell’elenco [!UICONTROL Host] e gli ambienti possono comunque essere utilizzati per raggruppare questi host e assegnare diversi livelli a ciascuno, ad esempio se l’host può visualizzare campagne attive e/o inattive.
+You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Tutti gli altri host che generano chiamate riceveranno una risposta di errore di autorizzazione, inserita come riga di commento. Per impostazione predefinita, qualsiasi host che contiene una chiamata mbox si registra con [!DNL Target] nell’Ambiente di produzione e ha accesso a tutte le attività attive e approvate. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Tutti gli host continuano a essere visualizzati nell’elenco [!UICONTROL Host] e gli ambienti possono comunque essere utilizzati per raggruppare questi host e assegnare diversi livelli a ciascuno, ad esempio se l’host può visualizzare campagne attive e/o inattive.
 
-Per creare una whitelist:
+Per creare un elenco di autorizzazioni:
 
 1. Dall&#39;elenco [!UICONTROL Ospitanti] , fate clic su **[!UICONTROL Autorizza ospitanti]**.
 1. Attivate l&#39;opzione **[!UICONTROL Abilita ospitanti autorizzati per la distribuzione]** del contenuto.
@@ -93,9 +93,9 @@ Se una chiamata mbox viene effettuata su un host non autorizzato, la chiamata ri
 
 >[!IMPORTANT]
 >
->**Best practice** di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questa whitelist controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se la whitelist non viene specificata, Adobe non sarà in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
+>**Best practice** di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questo elenco di autorizzazioni controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se l&#39;elenco di autorizzazioni non viene specificato, Adobe non sarà in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
 >
->La whitelist prevale sugli ambienti. È necessario cancellare tutti gli host prima di utilizzare la funzione whitelist: nell’elenco Host verranno quindi elencati solo gli host consentiti dalla whitelist. A questo punto puoi spostare gli host nell’ambiente desiderato.
+>L&#39;elenco dei permessi ha la precedenza sugli ambienti. Prima di utilizzare la funzione Elenco consentito, è necessario eliminare tutti gli host, quindi solo quelli consentiti dall&#39;elenco di host vengono visualizzati nell&#39;elenco. A questo punto puoi spostare gli host nell’ambiente desiderato.
 
 A volte i domini da altri siti appaiono negli ambienti. Un dominio viene visualizzato nell&#39;elenco se il dominio effettua una chiamata al tuo at.js o mbox.js. Ad esempio, se qualcuno copia una delle tue pagine web sul suo server, tale dominio verrà visualizzato nel tuo ambiente. Potrebbe anche essere possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali.
 
@@ -105,7 +105,7 @@ Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione vie
 
 >[!NOTE]
 >
->Poiché l&#39;elenco Host autorizzati è utilizzato sia per gli host mbox che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK Javascript di Adobe Target (at.js) *E* tutti i domini utilizzati negli URL di reindirizzamento predefiniti di ubox. È inoltre necessario aggiungere nuovi domini simili alla whitelist in futuro.
+>Poiché l&#39;elenco Host autorizzati è utilizzato sia per gli host mbox che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK Javascript di Adobe Target (at.js) *E* tutti i domini utilizzati negli URL di reindirizzamento predefiniti di ubox. In futuro è inoltre necessario aggiungere nuovi domini simili all&#39;elenco dei domini consentiti.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
