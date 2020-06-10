@@ -5,10 +5,10 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 2a8fde3f9011138e4df15d45cdc97595d5ded52e
+source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 20%
+source-wordcount: '413'
+ht-degree: 19%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 20%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 4 giugno 2020**
+**Ultimo aggiornamento: 10 giugno 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -41,7 +41,6 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 | --- | --- |
 | Analytics for Target (A4T) supporto per le attività di allocazione automatica | Con la release di giugno, i test di allocazione automatica supporteranno [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md). Questa integrazione consente di utilizzare la funzionalità di allocazione automatica delle bande armate multiple per indirizzare il traffico verso esperienze vincenti, utilizzando al contempo una metrica di obiettivo Adobe Analytics e/o funzionalità di reporting e analisi di Adobe Analytics. Se avete già [implementato A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) per l’utilizzo con le attività Test A/B e Targeting delle esperienze, siete tutti impostati! |
 | Ruolo editore | Questo nuovo ruolo è simile a quello corrente dell&#39;osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
-| Amministrazione<br>paginaPrecedentemente &quot;Configurazione&quot;. | La pagina Configurazione è stata rinominata &quot;Amministrazione&quot; e l’interfaccia utente per tutte le voci di menu è stata aggiornata per migliorare il flusso di lavoro e la facilità d’uso.<br>Le voci di menu disponibili includono:<ul><li>Compositore esperienza visivo</li><li>Generazione di rapporti</li><li>Impostazioni di Scene7</li><li>Implementazione</li><li>Proprietà</li><li>Host</li><li>Ambienti</li><li>Token di risposta</li><li>Utenti</li></ul> |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
