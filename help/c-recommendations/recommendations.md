@@ -4,7 +4,10 @@ description: Le attività di Recommendations in Adobe Target visualizzano automa
 title: Adobe Target Recommendations
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: f9bd8faa62acb78f2b605702386ec97747e36556
+workflow-type: tm+mt
+source-wordcount: '465'
+ht-degree: 89%
 
 ---
 
@@ -43,7 +46,7 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
-## Video di formazione: Tipi di attività badge ![Panoramica](/help/assets/overview.png)
+## Video di formazione: Tipi di attività ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium]. L’argomento di [!DNL Recommendations] è trattato a partire dal minuto 7:20.
 
@@ -53,8 +56,8 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione consigli {#intro-to-recs} Badge ![Tutorial](/help/assets/tutorial.png)
+## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione consigli {#intro-to-recs} ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Il webinar *Introduzione alla funzione Consigli* include una descrizione approfondita di come sfruttare il valore di [!DNL Adobe Target Recommendations]. Scopri in che modo questa attività [!DNL Target] visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell’interfaccia utente [!DNL Target] per una panoramica dettagliata su come creare un’attività [!DNL Recommendations].
 
-[Introduzione alla funzione Consigli](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
+[Introduzione alla funzione Consigli](https://adobecustomersuccess.adobeconnect.com/p8gt31drhs3e/?OWASP_CSRFTOKEN=4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
