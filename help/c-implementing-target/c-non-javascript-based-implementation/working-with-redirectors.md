@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '683'
+ht-degree: 73%
 
 ---
 
@@ -60,7 +60,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
       >[!IMPORTANT]
       >
-      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per consentire l&#39;elenco dei domini URL di reindirizzamento predefiniti. Target utilizza gli host per consentire l&#39;elenco dei domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare elenchi di autorizzazioni che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#whitelist) in *ospitanti*.
+      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per consentire l&#39;elenco dei domini URL di reindirizzamento predefiniti. Target utilizza gli host per consentire l&#39;elenco dei domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare elenchi di autorizzazioni che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *ospitanti*.
 
 
 1. Convalida il Redirector.
