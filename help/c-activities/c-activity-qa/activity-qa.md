@@ -5,10 +5,10 @@ title: Controllo di qualità delle attività
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1489'
+ht-degree: 85%
 
 ---
 
@@ -81,7 +81,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
 
    A causa di questa doppia codifica, quando si tenta di decodificare il token `at_preview_token`, Target non può estrarre il valore corretto del token e l’anteprima non funziona.
 
-   Si consiglia di parlare con il team IT per assicurarsi che tutti i parametri di anteprima siano inseriti nelle white list, in modo che non vengano trasformati in alcun modo.
+   È consigliabile consultare il team IT per verificare che tutti i parametri di anteprima siano elencati in modo da evitare che tali valori vengano trasformati in alcun modo.
 
    Nella tabella seguente sono elencati i parametri che è possibile elencare nel dominio:
 
