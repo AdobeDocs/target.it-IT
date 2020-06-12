@@ -5,10 +5,10 @@ title: Note sulla versione prerelease di Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 932711ea4ac1ed1a7f8e8084d6133d357752f99f
+source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 19%
+source-wordcount: '495'
+ht-degree: 17%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 19%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 10 giugno 2020**
+**Ultimo aggiornamento: 12 giugno 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -34,6 +34,20 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
    >
 * **Annunci** Target: Consultate la pagina degli annunci di Target per informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, le chat per sviluppatori, i webinar e le sessioni Target Coffee Break. Per ulteriori informazioni, vedi Annunci [Target](/help/r-release-notes/target-announcements.md).
 
+
+## versioni at.js 1.8.2 e at.js 2.3.1 (15 giugno 2020)
+
+Nelle librerie [!DNL Target] at.js sono stati apportati i seguenti miglioramenti e correzioni:
+
+### Payload JSON di at.js 1.8.2
+
+* Quando si utilizzano CNAME e edge override, at.js 1.*x* potrebbe creare in modo non corretto il dominio del server, causando il fallimento della [!DNL Target] richiesta. (TNT-35064)
+
+### Payload JSON di at.js 2.3.1
+
+* L’impostazione `deviceIdLifetime` è stata sostituita tramite [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* Quando si utilizzano CNAME e edge override, at.js 2.*x* potrebbe creare in modo non corretto il dominio del server, causando il fallimento della [!DNL Target] richiesta. (TNT-35065)
+* Quando si utilizza l&#39; [!DNL Target] estensione v2 e l&#39; [!DNL Launch][!DNL Adobe Analytics] estensione, [!DNL Launch] ha ritardato la [!DNL Target] chiamata [!DNL Analytics] `sendBeacon` . (TNT-36407, TNT-35990, TNT-36000)
 
 ## Target Standard/Premium 20.5.1 (17 giugno 2020)
 
