@@ -4,10 +4,10 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8481e1d374da0dc2306fb4d2f3b35a6d136c77e1
+source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
 workflow-type: tm+mt
-source-wordcount: '224'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -15,27 +15,6 @@ ht-degree: 2%
 # Annunci ed eventi Target
 
 Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
-
-## Interruzione del caffè della community Adobe Target
-
-**Mercoledì 10 giugno 2020**
-
-**10:00 alle 11:00 (PST)**
-
-Unitevi a noi per la prossima pausa caffè [!DNL Adobe Target] della comunità D e R! Questo fa parte di una serie che abbiamo recentemente lanciato per consentire ai nostri esperti interni di interagire direttamente con voi sui nostri forum per una &quot;Pausa caffè&quot;. Pensatelo come l&#39;equivalente [!DNL Adobe Target] di un forum della community di AMA (Ask Me Qualunque cosa) o di una chat su Twitter.
-
-David Son, [!DNL Target] Product Manager, risponderà a tutte le tue domande. Il settore di competenza di David comprende:
-
-* at.js
-* Dispositivi mobili
-* Adobe Experience Platform - AEP Web SDK (già)
-* API di 
-
-Non esitate a porre domande su Target.
-
-Per partecipare, devi semplicemente aver effettuato l&#39;accesso alla community [di](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community) Adobe Target.
-
-[Registrati qui](https://adobe-target-community-coffee-break.experienceleague.adobeevents.com/).
 
 ## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
 
