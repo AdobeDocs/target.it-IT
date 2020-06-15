@@ -5,9 +5,9 @@ title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaSc
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 7e602a3451c41ac1f3f2330bce6e763ded82b084
+source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
 workflow-type: tm+mt
-source-wordcount: '1638'
+source-wordcount: '1648'
 ht-degree: 41%
 
 ---
@@ -91,6 +91,10 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 * **Valore** predefinito: 63244800000 ms = 2 anni
 * **Descrizione**: Quantità di tempo `deviceId` è persistente nei cookie.
 
+>[!NOTE]
+>
+>L&#39;impostazione deviceIdLifetime è reversibile in at.js versione 2.3.1 o successiva.
+
 ### abilitato
 
 * **Tipo**: Booleano
@@ -157,7 +161,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 * **Tipo**: String
 * **Valore** predefinito: Valore impostato tramite l’interfaccia utente.
-* **Descrizione**: Rappresenta il server periferico di Target.
+* **Descrizione**: Rappresenta il server periferico Target.
 
 ### serverState
 
@@ -462,7 +466,7 @@ Considerate quanto segue quando utilizzate `serverState`:
    * Attività create VEC che vengono eseguite al caricamento della pagina.
    * Viste prerecuperate.
 
-      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuto aggiuntive a Target.
+      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuti aggiuntive ad Target.
 
    * **Nota**:  Attualmente, le mbox recuperate sul lato server non sono supportate in `serverState`.
 
