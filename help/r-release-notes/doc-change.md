@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b21965e692cbcf45aa8caef4364a26f91cc85362
+source-git-commit: 8ef5b9c09cc016aad08c75d62f361b22630a7a56
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 34%
+source-wordcount: '1079'
+ht-degree: 33%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 15 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note della release [!DNL Target Standard/Premium] 20.5.1 (17 giugno 2020) per includere informazioni sul supporto A4T in [!DNL Analysis Workspace]. |
 | 12 giugno | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `deviceIdLifetime`. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 1.8.2 e at.js 2.3.1. |
 | 8 giugno | [Domande frequenti su Target per le app per dispositivi mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md) | Testo aggiornato per le seguenti domande frequenti: &quot;Target Mobile è una funzionalità solo dello SKU prodotto Adobe Target Premium?&quot; |
