@@ -5,7 +5,10 @@ title: Dettagli sulle versioni di at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 9168a8f14ad45dfc48ad5c314df61ee8c02156d5
+source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+workflow-type: tm+mt
+source-wordcount: '3947'
+ht-degree: 86%
 
 ---
 
@@ -18,7 +21,21 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >
 >Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
 >
->[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per effettuare l&#39;aggiornamento a.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzioni alle loro estensioni e correggono frequentemente i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un’estensione e resi disponibili nel [!DNL Launch] catalogo come aggiornamenti. Per ulteriori informazioni, consulta Aggiornamento [](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) estensione nella Guida *utente di avvio della piattaforma* Experience.
+>[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per effettuare l&#39;aggiornamento a at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzioni alle loro estensioni e correggono frequentemente i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un’estensione e resi disponibili nel [!DNL Launch] catalogo come aggiornamenti. Per ulteriori informazioni, consultate Aggiornamento [](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) estensione nella Guida *utente di* Experience Platform Launch.
+
+## at.js 1.8.2 (15 giugno 2020)
+
+Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+
+* È stato risolto un problema che si verificava quando si utilizzavano CNAME e edge override, in at.js 1.*x* potrebbe creare in modo non corretto il dominio del server, causando il fallimento della [!DNL Target] richiesta. (TNT-35064)
+
+## release at.js 2.3.1 (15 giugno 2020)
+
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
+
+* L’impostazione `deviceIdLifetime` è stata sostituita tramite [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* È stato risolto un problema che si verificava quando si utilizzavano CNAME e edge override, in at.js 2.*x* potrebbe creare in modo non corretto il dominio del server, causando il fallimento della [!DNL Target] richiesta. (TNT-35065)
+* È stato risolto un problema che si verificava durante l’utilizzo dell’ [!DNL Target] estensione v2 e dell’ [!DNL Launch][!DNL Adobe Analytics] estensione, [!DNL Launch] causava il ritardo della [!DNL Target] chiamata [!DNL Analytics] `sendBeacon` . (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js versione 2.3.0 (25 marzo 2020)
 
@@ -38,8 +55,8 @@ Questa release di at.js è una versione di manutenzione e include i migliorament
 
 Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
-* È stato corretto un problema in seguito al quale il monitoraggio dei clic non segnalava le conversioni in Analytics per Target (A4T) quando il codice Adobe Analytics non era presente negli elementi di pagina.
-* Sono state migliorate le prestazioni quando si utilizzano sia Experience Cloud ID Service (ECID) v4.4 che at.js 2.2 sulle pagine Web.
+* È stato corretto un problema in seguito al quale il monitoraggio dei clic non segnalava le conversioni in  Analytics per Target (A4T) quando il codice Adobe  Analytics non era presente negli elementi di pagina.
+* Sono state migliorate le prestazioni quando si utilizzano  servizio Experience Cloud ID (ECID) v4.4 e at.js 2.2 sulle pagine Web.
 * In precedenza, l&#39;ECID effettuava due chiamate di blocco prima che at.js potesse recuperare le esperienze. È stato ridotto a una singola chiamata, il che migliora notevolmente le prestazioni.
 
    >[!NOTE]
@@ -52,7 +69,7 @@ Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
 Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
-* Sono state migliorate le prestazioni quando si utilizzano sia Experience Cloud ID Service (ECID) v4.4 che at.js 1.8 sulle pagine Web.
+* Sono state migliorate le prestazioni quando si utilizzano  servizio Experience Cloud ID (ECID) v4.4 e at.js 1.8 sulle pagine Web.
 * In precedenza, l&#39;ECID effettuava due chiamate di blocco prima che at.js potesse recuperare le esperienze. È stato ridotto a una singola chiamata, il che migliora notevolmente le prestazioni.
 
 >[!NOTE]
@@ -228,6 +245,7 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
    * CONTENT_RENDERING_START
    * CONTENT_RENDERING_NO_OFFERS
    * CONTENT_RENDERING_REDIRECT
+
    Per ulteriori informazioni, consulta [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md).
 
 * È possibile integrare una richiesta at.js con parametri aggiuntivi provenienti da provider di dati. Aggiungi i provider di dati a `window.targetGlobalSettings` nella `dataProviders key`.
