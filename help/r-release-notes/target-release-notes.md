@@ -5,10 +5,10 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
 workflow-type: tm+mt
-source-wordcount: '529'
-ht-degree: 16%
+source-wordcount: '515'
+ht-degree: 17%
 
 ---
 
@@ -45,7 +45,6 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 ### Miglioramenti, correzioni e modifiche
 
-* Sono stati apportati miglioramenti nell&#39;interfaccia utente di Target per semplificare la specifica della mbox globale. (TGT-15280)
 * È stato risolto un problema che causava la memorizzazione della metrica &quot;visitatori&quot; nella definizione dell&#39;attività invece di &quot;VisitatoriUnivoci&quot;. (TGT-37098)
 * È stato risolto un problema nell&#39; [!DNL Target] interfaccia utente a causa del quale la barra di scorrimento verticale non funzionava correttamente nella pagina [!UICONTROL Audiences] . (TGT-36968)
 
