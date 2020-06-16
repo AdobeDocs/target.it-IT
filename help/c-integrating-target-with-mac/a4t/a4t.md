@@ -6,10 +6,10 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1247'
-ht-degree: 48%
+source-wordcount: '1257'
+ht-degree: 47%
 
 ---
 
@@ -53,7 +53,7 @@ Considerazioni importanti per l’utilizzo di A4T:
 * Only one mbox-based metric is allowed when using [!DNL Analytics] as the reporting source.
 * A server-to-server call from [!DNL Target] to [!DNL Analytics] sends activity and experience information to [!DNL Analytics]. This integration does not result in additional server calls for either [!DNL Target] or [!DNL Analytics].
 
-   In alcune situazioni, la chiamata di classificazione da [!DNL Target] a [!DNL Analytics] potrebbe non riuscire e le attività non mostrano i dati in [!DNL Analytics]. In tal caso, consultate [Risoluzione dei problemi relativi all&#39;integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
+   In alcune situazioni, la chiamata di classificazione da [!DNL Target] a [!DNL Analytics] potrebbe non riuscire e le attività non mostrano i dati in [!DNL Analytics]. In tal caso, consultate [Risoluzione dei problemi relativi all&#39;integrazione  Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
 
 ## Supported activity types {#section_F487896214BF4803AF78C552EF1669AA}
 
@@ -62,7 +62,7 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
 | Attività A/B con suddivisione manuale del traffico | Sì |  |
-| Attività A/B con Allocazione automatica | No |  |
+| Attività A/B con Allocazione automatica | Sì | Consultate [supporto Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di allocazione automatica. |
 | Attività A/B con Targeting automatico | No |  |
 | Targeting esperienza (XT) | Sì |  |
 | Test multivariato (MVT) | Sì | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
@@ -111,7 +111,7 @@ Open the [Analytics &amp; Target: Best Practices for Analysis](https://spark.ado
 
 I seguenti video contengono ulteriori informazioni sui concetti trattati in questo argomento.
 
-### Badge di ![panoramica di Analytics per Target (A4T) (4:32)](/help/assets/overview.png)
+###  contrassegno ![Panoramica di Analytics per Target (A4T) (4:32)](/help/assets/overview.png)
 
 This video explains how to use [!DNL Analytics] as a reporting source in [!DNL Target] to drive the analysis of your optimization program.
 
@@ -121,7 +121,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Badge ![delle esercitazioni sull&#39;integrazione di Analytics/Target (A4T) (40:33)](/help/assets/tutorial.png)
+###  badge ![Tutorial sull&#39;integrazione Analytics / Target (A4T) (40:33)](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
@@ -130,4 +130,4 @@ Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
-[Ore di ufficio integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[ore di ufficio integrazione Analytics/Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
