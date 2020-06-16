@@ -5,7 +5,7 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 781a89b68dcf6574522a3be118a1cc1c15a848a8
+source-git-commit: 62a22032f45a7ae6c4d52b4d4170039ac5e5387d
 workflow-type: tm+mt
 source-wordcount: '515'
 ht-degree: 17%
@@ -17,7 +17,7 @@ ht-degree: 17%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 15 giugno 2020**
+**Ultimo aggiornamento: 17 giugno 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
