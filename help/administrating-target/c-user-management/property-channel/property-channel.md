@@ -5,10 +5,10 @@ title: Autorizzazioni per gli utenti Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '2899'
-ht-degree: 86%
+source-wordcount: '2948'
+ht-degree: 85%
 
 ---
 
@@ -87,9 +87,12 @@ All user roles and access to all [!DNL Target] functionality remains exactly the
 
 I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devono creare e gestiscono le attività nell&#39;implementazione del tuo [!DNL Target]. In [!DNL Target] i ruoli includono quanto segue:
 
-* **[!UICONTROL Osservatore]**: Può visualizzare le attività, ma non può crearle o modificarle.
-* **[!UICONTROL Editor]**: Può creare e modificare le attività prima che siano live, ma non può approvare l&#39;avvio di un&#39;attività.
-* **[!UICONTROL Approver]**: Può creare, modificare, attivare o interrompere le attività.
+| Ruolo | Descrizione |
+|--- |--- |
+| Approvatore | Può creare, modificare, attivare o interrompere le attività. |
+| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+| Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
+| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
 
 ### Canale
 
@@ -115,10 +118,10 @@ Ogni ruolo dispone di diversi livelli di autorizzazioni:
 
 | Ruolo | Descrizione |
 |--- |--- |
-| Osservatore | Ha accesso in sola lettura alle attività. Può visualizzare le attività, ma non può crearle o modificarle. |
-| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
 | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
-
+| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+| Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
+| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
 È importante notare che il ruolo di ogni utente si applica a ogni pagina, proprietà o sito dell&#39;account che include i tag di [!DNL Target], come illustrato di seguito:
 
 ![](assets/permissions_2.png)
@@ -240,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma saranno parte dell’Area di lavoro predefinita: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
    * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere controllate dal modello di autorizzazioni Enterprise in questo momento.
    * clickTracking e reindirizzamenti funzionano solo quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell&#39;attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
+
    [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il rilevamento. Nel caso in cui il token sia (1) non presente, (2) non rilevato al momento dell’impostazione dell’attività (all’interno del Compositore esperienza visivo), o (3) non passato al clickTracking mbox tramite la funzione `targetPageParamsAll()`, la metrica non verrà incrementata e apparirà come “0”.
 
    Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
