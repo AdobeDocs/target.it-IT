@@ -1,10 +1,13 @@
 ---
-keywords: integrazione;ruoli;autorizzazioni utente;admin console
+keywords: integration;roles;user permissions;admin console
 description: Informazioni su come consentire alle integrazioni Adobe I/O di accedere a tutte le aree di lavoro con il ruolo desiderato in Adobe Target
 title: Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli in Adobe Target
-subtopic: Introduzione
+subtopic: Getting Started
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+workflow-type: tm+mt
+source-wordcount: '615'
+ht-degree: 88%
 
 ---
 
@@ -57,7 +60,9 @@ Questo aggiornamento supporta i casi d’uso seguenti:
 
 1. Dall’elenco a discesa **[!UICONTROL Ruolo prodotto]**, seleziona il ruolo desiderato per tale area di lavoro:
 
-   * [!UICONTROL Approvatore]
-   * [!UICONTROL Editor]
-   * [!UICONTROL Osservatore]
-   ![Scegliere il ruolo Profilo prodotto](/help/administrating-target/c-user-management/property-channel/assets/product-profile-role.png)
+   | Ruolo | Descrizione |
+   |--- |--- |
+   | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
+   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+   | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
+   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
