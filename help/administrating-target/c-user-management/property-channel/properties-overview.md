@@ -5,10 +5,10 @@ title: Configurare le autorizzazioni Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 2c34371005be851b2a86113050c01182334c2dc9
+source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
 workflow-type: tm+mt
-source-wordcount: '1381'
-ht-degree: 79%
+source-wordcount: '1418'
+ht-degree: 75%
 
 ---
 
@@ -34,7 +34,7 @@ Nella tabella seguente sono elencate le attività da eseguire per creare proprie
 
 For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
 
-1. In Adobe Target, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** > **[!UICONTROL Assegna proprietà a aree di lavoro]**.
+1. In  Adobe Target, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** > **[!UICONTROL Assegna proprietà a aree di lavoro]**.
 
    Oppure
 
@@ -172,22 +172,28 @@ Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è
 
 1. In Admin Console, fai clic su **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
-   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-new.png)
+   ![Workspace](/help/administrating-target/c-user-management/c-user-management/assets/workspace-publisher.png)
 
-1. Fai clic sul nome del profilo desiderato.
+1. Fate clic sul nome del profilo desiderato (ad esempio, Area di lavoro predefinita).
+
+   ![Area di lavoro predefinita](/help/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+
 1. Fai clic su **[!UICONTROL Utenti]**.
 
    Nella scheda [!UICONTROL Utenti] vengono visualizzati tutti gli utenti di quell’area di lavoro.
 
-   ![Configurare gli utenti](/help/administrating-target/c-user-management/property-channel/assets/configuration_users_new.png)
+   ![configurazione degli utenti](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Seleziona il ruolo di autorizzazioni desiderato (Approvatore, Editor o Osservatore) dall’elenco a discesa per ogni utente nella colonna [!UICONTROL Ruolo prodotto].
+1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+
+   ![Elenco a discesa Ruolo prodotto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Ruolo | Descrizione |
    |--- |--- |
-   | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
    | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
+   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+   | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
+   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
 
    Per ulteriori informazioni, vedi [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) nella *guida utente della versione Enterprise*.
 
