@@ -5,7 +5,10 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+workflow-type: tm+mt
+source-wordcount: '3026'
+ht-degree: 89%
 
 ---
 
@@ -13,10 +16,6 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 # Allocazione automatica{#auto-allocate}
 
 L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
-
->[!IMPORTANT]
->
->L’allocazione automatica non supporta la creazione di rapporti per [!DNL Target for Analytics] (A4T).
 
 Quando [crei un’attività A/B tramite il flusso di lavoro guidato in tre passaggi](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), puoi scegliere l’opzione [!UICONTROL Allocazione automatica all’esperienza migliore].
 
@@ -92,10 +91,6 @@ Una volta pronto il modello per un’attività di allocazione automatica (ogni e
 
 ## Avvertenze {#section_5C83F89F85C14FD181930AA420435E1D}
 
-**Le attività di allocazione automatica A/B non sono più supportate in Analytics for Target (A4T).**
-
-A partire dalla versione 16.10.1.0 (25 ottobre 2016), Target non supporta Analytics come origine dei rapporti per le attività A/B con Allocazione automatica. Tutte le attività A/B con Allocazione automatica attive con A4T abilitato passeranno alla modalità Manuale (allocazione del traffico in parti uguali).
-
 **La funzione Allocazione automatica funziona con una sola impostazione di metriche avanzate: Incrementa il conteggio e mantieni l’utente nell’attività**
 
 Le seguenti impostazioni di metriche avanzate non sono supportate: “Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso” e “Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso”.
@@ -131,6 +126,10 @@ Queste situazioni possono sfalsare i risultati di un test di Allocazione automat
    Ad esempio, “i saldi al 30% finiscono oggi” incita il visitatore ad eseguire oggi stesso la conversione, mentre “50% di sconto sul primo acquisto” non crea lo stesso senso di urgenza.
 
 ## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+
+**  Analytics per Target (A4T) supporta le attività di allocazione automatica?
+
+Sì. Per ulteriori informazioni, consultate [supporto Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) di allocazione automatica nella creazione *di* attività.
 
 **I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?**
 
@@ -182,7 +181,7 @@ Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperi
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Flusso di lavoro di un&#39;attività - Targeting (2:14) Badge ![Tutorial](/help/assets/tutorial.png)
+### Flusso di lavoro di un&#39;attività - Targeting (2:14) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare l&#39;allocazione del traffico.
 
