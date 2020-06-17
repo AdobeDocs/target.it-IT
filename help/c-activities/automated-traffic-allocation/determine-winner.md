@@ -5,16 +5,23 @@ title: Determinare un vincitore
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: cda0765d79e370d8639d2a3177bf26be624d91c1
+source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+workflow-type: tm+mt
+source-wordcount: '1109'
+ht-degree: 49%
 
 ---
 
 
-# Interpreta rapporti di allocazione automatica {#determine-a-winner}
+# Interpretare i rapporti di allocazione automatica {#determine-a-winner}
 
-Interpretate i risultati di un&#39;attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell&#39;interfaccia di Target.
+Interpretate i risultati di un&#39;attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell&#39;interfaccia utente di Target.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
+
+>[!NOTE]
+>
+>Per informazioni generali sulla dichiarazione di un vincitore, consultate [Dieci comuni errori di test A/B e come evitarli](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identificare l&#39;esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -24,7 +31,7 @@ Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target
 
 Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
-![](assets/auto_traffic_winner.png)
+![](assets/winner.png)
 
 >[!NOTE]
 >
@@ -40,17 +47,9 @@ La colonna Affidabilità in un&#39;attività di Allocazione automatica (illustra
 
 I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un’esperienza è diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
 
-Nell&#39;illustrazione seguente viene mostrata un&#39;attività che non ha ancora un vincitore:
-
-![](assets/no_winner.png)
-
-Nell&#39;illustrazione seguente viene mostrata un&#39;attività che ha un vincitore:
-
-![](assets/winner_found.png)
-
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati del calcolatore [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione di Adobe Target. In Target non vengono considerati i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati della calcolatrice [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione del Adobe Target . Target non considera i tassi di conversione di base di un sito e altri aspetti importanti che vengono inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
 
 ## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
 
@@ -58,7 +57,7 @@ Nelle attività di allocazione automatica, la prima esperienza (per impostazione
 
 Il valore numerico &quot;Lift&quot; e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all&#39;esperienza &quot;Control&quot; definita. L&#39;esperienza &quot;Control&quot; definita non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene segnalato un valore &quot;—&quot; vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un&#39;esperienza ha prestazioni peggiori del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato &quot;—&quot;.
 
-Le barre dell&#39;intervallo di confidenza visualizzato rappresentano l&#39;intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un&#39;esperienza. Sono anche codificati in base al colore rispetto all&#39;esperienza &quot;Control&quot; definita. La barra dell&#39;esperienza &quot;Control&quot; è sempre di colore grigio. Le parti degli intervalli di confidenza al di sotto dell&#39;intervallo di confidenza dell&#39;esperienza &quot;Control&quot; sono colorate di rosso e le parti degli intervalli di confidenza al di sopra dell&#39;esperienza &quot;Control&quot; sono colorate di verde.
+Le barre dell&#39;intervallo di confidenza visualizzato rappresentano l&#39;intervallo di confidenza del 95% intorno alla stima media del tasso di conversione di un&#39;esperienza. Sono anche codificati in base al colore rispetto all&#39;esperienza &quot;Control&quot; definita. La barra dell&#39;esperienza &quot;Control&quot; è sempre di colore grigio. Le porzioni di intervalli di confidenza al di sotto dell&#39;intervallo di confidenza dell&#39;esperienza &quot;Control&quot; sono colorate di rosso e le porzioni di intervalli di confidenza al di sopra dell&#39;esperienza &quot;Control&quot; sono colorate di verde.
 
 Un vincitore si trova quando l&#39;intervallo di confidenza del 95% dell&#39;esperienza principale non si sovrappone ad altre esperienze. L&#39;esperienza vincente viene designata con un contrassegno a stella verde a sinistra del nome dell&#39;esperienza e nel banner &quot;Vincitore&quot;. Quando nessuna stella è visibile, il banner recita &quot;No Winner yet&quot; (Nessun vincitore ancora) e il vincitore non è ancora stato trovato.
 
