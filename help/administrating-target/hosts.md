@@ -5,10 +5,10 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '1232'
-ht-degree: 57%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 57%
 # Host{#hosts}
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
+
+>[!NOTE]
+>
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
@@ -105,7 +109,7 @@ Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione vie
 
 >[!NOTE]
 >
->Poiché l&#39;elenco Host autorizzati è utilizzato sia per gli host mbox che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK Javascript di Adobe Target (at.js) *E* tutti i domini utilizzati negli URL di reindirizzamento predefiniti di ubox. In futuro è inoltre necessario aggiungere nuovi domini simili all&#39;elenco dei domini consentiti.
+>Poiché l&#39;elenco Host autorizzati è utilizzato sia per gli host mbox che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK Javascript del Adobe Target  (at.js) *E* tutti i domini utilizzati negli URL di reindirizzamento predefiniti ubox. In futuro è inoltre necessario aggiungere nuovi domini simili all&#39;elenco dei domini consentiti.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
