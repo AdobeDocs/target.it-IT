@@ -5,10 +5,10 @@ title: Autorizzazioni per gli utenti Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '2948'
-ht-degree: 85%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -280,7 +280,11 @@ Quando un visitatore apre Pagina1 in un browser, viene reindirizzato a Pagina2. 
 
 Se la pagina di reindirizzamento e l’URL attività appartengono alla stessa proprietà, le tracce di clic funzionano come previsto. Per ulteriori informazioni, consulta [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md).
 
-## Training video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
+## Video di formazione
+
+I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+
+### Training Video: Enterprise Permissions Training Video ![Overview badge](/help/assets/overview.png)
 
 Finalità di apprendimento:
 
@@ -289,3 +293,14 @@ Finalità di apprendimento:
 * Diversi esempi di Proprietà da considerare per la tua organizzazione
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
+
+### Orario ufficio: Target Premium Workspaces
+
+Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+
+* Creazione di un’area di lavoro (profilo di prodotto)
+* Creazione delle proprietà
+* Aggiunta di utenti
+* Aggiornamento dell&#39;implementazione
+
+>[!VIDEO](https://video.tv.adobe.com/v/23643/)
