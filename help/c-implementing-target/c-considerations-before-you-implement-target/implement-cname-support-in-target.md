@@ -5,9 +5,9 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e31a4195097d3338e1b07679ab52dfa7f2299017
+source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1233'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,9 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
 
 1. Determinate l’elenco dei nomi host necessari per il certificato SSL (consultate le domande frequenti).
 
-1. Per ciascun nome host, crea un record CNAME nel DNS indicando il [!DNL Target] nome host normale `clientcode.tt.omtrdc.net`. Ad esempio, se il codice client è un cliente e il nome host proposto è `target.example.com`, il record CNAME DNS deve essere simile al seguente:
+1. Per ciascun nome host, crea un record CNAME nel DNS indicando il [!DNL Target] nome host normale `clientcode.tt.omtrdc.net`.
+
+   Ad esempio, se il codice client è &quot;nomecustomer&quot; e il nome host proposto è `target.example.com`, il record CNAME DNS deve essere simile al seguente:
 
    ```
    target.example.com.  IN  CNAME  cnamecustomer.tt.omtrdc.net.
@@ -34,7 +36,7 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
    >* L&#39;autorità di certificazione di Adobe, DigiCert, non può rilasciare un certificato fino al completamento di questo passaggio. Pertanto, Adobe non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
 
 
-1. Compilate il seguente modulo e includetelo quando [aprite un ticket Adobe Client Care che richiede il supporto](https://docs.adobe.com/content/help/en/target/using/cmp-resources-and-contact-information.html#reference_ACA3391A00EF467B87930A450050077C)CNAME:
+1. Compilate il seguente modulo e includetelo quando [aprite un ticket Adobe Client Care che richiede il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
    * Adobe [!DNL Target] client code:
    * Nomi host del certificato SSL (esempio: `target.example.com target.example.org`):
@@ -48,7 +50,7 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
 
 1. Se Adobe sta acquistando il certificato, Adobe collaborerà con DigiCert per acquistare e distribuire il certificato sui server di produzione Adobe.
 
-   Se il cliente sta acquistando il certificato (BYOC), Adobe Client Care invierà nuovamente la richiesta di firma del certificato (CSR) che dovrete utilizzare per acquistare il certificato tramite la vostra autorità di certificazione. Una volta rilasciato il certificato, sarà necessario inviare una copia del certificato ed eventuali certificati intermedi ad Adobe Client Care per la distribuzione.
+   Se il cliente sta acquistando il certificato (BYOC), Adobe Client Care invierà la richiesta di firma del certificato (CSR), che dovrete utilizzare per acquistare il certificato tramite la vostra autorità di certificazione. Dopo il rilascio del certificato, è necessario inviare una copia del certificato ed eventuali certificati intermedi ad Adobe Client Care per la distribuzione.
 
    Adobe Client Care ti avviserà quando sarà pronta la tua implementazione.
 
@@ -90,11 +92,11 @@ Per ulteriori informazioni sull&#39;ITP, vedere [Apple Intelligent Tracking Prev
 
 ### Che tipo di interruzione del servizio posso aspettarmi quando viene implementata l’implementazione CNAME?
 
-Non si verifica alcuna interruzione del servizio quando il certificato viene distribuito (compresi i rinnovi di certificati). Tuttavia, quando si modifica il nome host nel codice di implementazione Target (`serverDomain` in at.js) nel nuovo nome host CNAME (`target.example.com`), i browser Web tratteranno i visitatori di ritorno come nuovi visitatori e i loro dati di profilo andranno persi perché il cookie precedente sarà inaccessibile sotto il vecchio nome host (`clientcode.tt.omtrdc.net`) a causa dei modelli di protezione del browser. Si tratta di un&#39;interruzione una tantum solo per il cut-over iniziale del nuovo CNAME, i rinnovi di certificati non hanno lo stesso effetto in quanto il nome host non cambia.
+Non si verifica alcuna interruzione del servizio quando il certificato viene distribuito (compresi i rinnovi di certificati). Tuttavia, quando si modifica il nome host nel codice di [!DNL Target] implementazione (`serverDomain` in at.js) nel nuovo nome host CNAME (`target.example.com`), i browser Web tratteranno i visitatori di ritorno come nuovi visitatori e i loro dati di profilo andranno persi perché il cookie precedente sarà inaccessibile sotto il vecchio nome host (`clientcode.tt.omtrdc.net`) a causa dei modelli di protezione del browser. Si tratta di un’interruzione una tantum solo per il cut-over iniziale del nuovo CNAME. I rinnovi di certificati non hanno lo stesso effetto in quanto il nome host non viene modificato.
 
 ### Che tipo di chiave e algoritmo di firma certificato verranno utilizzati per l&#39;implementazione CNAME?
 
-Tutti i certificati sono RSA SHA-256 e le chiavi sono RSA a 2048 bit per impostazione predefinita. Le dimensioni chiave superiori a 2048 bit non sono attualmente supportate.
+Tutti i certificati sono RSA SHA-256 e le chiavi sono RSA a 2048 bit, per impostazione predefinita. Le dimensioni chiave superiori a 2048 bit non sono attualmente supportate.
 
 ### Adobe/DigiCert può inviare le e-mail DCV a un altro indirizzo `<someone>@example.com`?
 
