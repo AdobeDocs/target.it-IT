@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 2880b9e06017cbf85036a7b37c4d9a2d750d01a5
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1222'
 ht-degree: 35%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 17 giugno | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
+|  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sui token di risposta per il metodo di allocazione del traffico per le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). |
 |  | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Sono state aggiunte informazioni sul supporto  Analytics per Target (A4T) per le attività di allocazione automatica. |
 |  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] in *Specificare ruoli e autorizzazioni*. |
 |  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] al *passaggio 6: Specificate ruoli e autorizzazioni*. |
