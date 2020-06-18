@@ -6,9 +6,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: a55aeb18e86a4428187faa5ecba6c66d11feda6d
 workflow-type: tm+mt
-source-wordcount: '1571'
+source-wordcount: '1570'
 ht-degree: 87%
 
 ---
@@ -62,8 +62,8 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
    |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
    | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Dettagli dell’attività corrente. “Opzione” equivale a “offerta”. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
-   | Metodo<br>di allocazione del trafficoSi applica solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;di destinazione&quot;. |
-   |  | `experience.trafficAllocationType` | Restituire rispettivamente &quot;control&quot; e &quot;targeting&quot;. |
+   | Metodo<br>di allocazione del traffico (applicabile solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;di destinazione&quot;. |
+   |  | `experience.trafficAllocationType` | Restituisce &quot;control&quot; o &quot;target&quot;. |
 
    Nell’elenco vengono visualizzati anche gli attributi del profilo utente e gli attributi del cliente.
 
