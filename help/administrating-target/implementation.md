@@ -5,10 +5,10 @@ title: Implementare Target
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '157'
-ht-degree: 42%
+source-wordcount: '204'
+ht-degree: 32%
 
 ---
 
@@ -17,9 +17,13 @@ ht-degree: 42%
 
 Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms, be familiar with how [!DNL Target] works and integrates with your infrastructure, and understand how visitors are tracked by the [!DNL Target] system.
 
-Per ulteriori informazioni, vedi i vari argomenti in [Implementa Target](/help/c-implementing-target/implementing-target.md).
+Per ulteriori informazioni, consultate i vari argomenti in [Implementa Target](/help/c-implementing-target/implementing-target.md).
 
 Le informazioni applicabili alle impostazioni in questa pagina sono disponibili in [Implementa Target senza un gestore](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)di tag.
+
+>[!NOTE]
+>
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 >[!NOTE]
 >
