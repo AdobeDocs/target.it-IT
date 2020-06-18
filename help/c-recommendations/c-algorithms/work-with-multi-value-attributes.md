@@ -1,9 +1,12 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informazioni sull'utilizzo di un campo multivalore in Adobe Target Recommendations mediante speciali operatori multivalore.
-title: Utilizzo degli attributi con più valori in Adobe Target Recommendations
+description: Informazioni sull'utilizzo di un campo multivalore in  Recommendations del Adobe Target mediante operatori multivalore speciali.
+title: Utilizzo di attributi con più valori in  raccomandazioni per Adobi Target
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+workflow-type: tm+mt
+source-wordcount: '449'
+ht-degree: 1%
 
 ---
 
@@ -67,7 +70,7 @@ I seguenti operatori sono disponibili per l&#39;uso con gli attributi di entità
 
 >[!NOTE]
 >
->Il supporto per la corrispondenza dinamica con attributi con più valori è attualmente disponibile solo in criteri quando si utilizza una regola di corrispondenza attributo di profilo o attributo di parametro (mbox) quando si confronta un singolo valore a sinistra con un lato destro con più valori. All&#39;inizio del 2020 sarà disponibile il supporto per promozioni, corrispondenza degli attributi delle entità e per gli elenchi sul lato sinistro delle regole di inclusione.
+>Il supporto per la corrispondenza dinamica con attributi con più valori è attualmente disponibile solo in criteri quando si utilizza una regola di corrispondenza attributo di profilo o attributo di parametro (mbox) quando si confronta un singolo valore a sinistra con un lato destro con più valori. Gli attributi multivalore non sono attualmente supportati nelle promozioni, nella corrispondenza degli attributi di entità o negli elenchi a sinistra delle regole di inclusione.
 
 
 ### Esempio: Escludere gli elementi guardati di recente
