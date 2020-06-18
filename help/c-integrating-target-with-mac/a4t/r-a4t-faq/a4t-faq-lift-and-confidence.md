@@ -5,10 +5,10 @@ title: Incremento e affidabilità - Domande frequenti su A4T
 topic: Standard
 uuid: 7d0402f3-d6f2-422e-b69c-86e10120ac83
 translation-type: tm+mt
-source-git-commit: 894954ef73c0f65468d5c406ac1040d532e74b17
+source-git-commit: 51b0a0b1666e03f2910335b34091d2b825082ac7
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 55%
+source-wordcount: '496'
+ht-degree: 50%
 
 ---
 
@@ -31,20 +31,18 @@ Il livello di affidabilità è la probabilità che il tasso di conversione misur
 
 ## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate? {#lift-confidence}
 
-Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e confidenza. Ciò è dovuto al fatto che Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. La confidenza, in particolare, è un calcolo a livello di visitatore.
+Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e confidenza. Ciò è dovuto al fatto che  Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. La confidenza, in particolare, è un calcolo a livello di visitatore.
 
 Gli eventi non calcolati (standard) sono supportati in incremento e confidenza. Diventano il numeratore nella funzione di sollevamento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000, ecc. Ciò significa che le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatori) sono supportate in incremento e confidenza.
 
 Esempi di metriche o casi di utilizzo non supportati:
 
 * Valore ordine medio (ricavi/ordine, per visitatore). AOV non è supportato perché il numeratore è una metrica calcolata. Al contrario, la raccomandazione è di considerare le due metriche influenti di AOV - Revenue per Visitors (Entrate per visitatore) e Conversion Rate (Tasso di conversione).
-* Metriche calcolate che rappresentano la somma degli eventi standard. Ad esempio, potete tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli insieme per ottenere il totale degli invii lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio dei lead in Analytics e quindi utilizzare un eVar per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili e garantisce l’utilizzo della metrica di invio dei lead nelle funzioni di incremento e confidenza.
+* Metriche calcolate che rappresentano la somma degli eventi standard. Ad esempio, potete tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli insieme per ottenere il totale degli invii lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio lead in  Analytics e quindi utilizzare un eVar per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili e garantisce l’utilizzo della metrica di invio dei lead nelle funzioni di incremento e confidenza.
 
 ## Come gestisce A4T i calcoli di affidabilità? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono presi in considerazione.
-
-Qualsiasi segmento Analytics può essere applicato al rapporto. In questo modo è possibile ottenere “l&#39;ordine estremo” e altre opzioni di segmento. Una metrica potrebbe anche essere creata in modo da limitare aspetti quali quante volte un visitatore dà luogo a una conversione.
+A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono presi in considerazione. Inoltre, il calcolo della confidenza non applica una correzione Bonferroni per offerte multiple.
 
 ## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
