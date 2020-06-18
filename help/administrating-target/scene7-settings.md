@@ -5,10 +5,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 94%
+source-wordcount: '483'
+ht-degree: 85%
 
 ---
 
@@ -16,6 +16,10 @@ ht-degree: 94%
 # Integrazione Dynamic Media Classic{#scene-settings}
 
 Target può essere integrato con Adobe Dynamic Media Classic (già Scene7) per fornire Digital Asset Management (DAM) nella libreria dei contenuti.
+
+>[!NOTE]
+>
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 >[!NOTE]
 >
@@ -29,7 +33,7 @@ Se desideri fare riferimento a un URL di immagine pubblica direttamente in un&#3
 
 Tieni presente che l’URL di archiviazione e gli URL di pubblicazione finali delle immagini di Dynamic Media sono diversi; fai attenzione a NON creare offerte utilizzando il collegamento di archiviazione delle immagini, poiché in tal caso la consegna non funzionerà. Utilizza la funzionalità per offerte di immagini descritta nella documentazione.
 
-Per poter essere integrato con Dynamic Media Classic (Scene7), dovete specificare le seguenti informazioni.
+Per effettuare l’integrazione con Dynamic Media Classic (Scene7), dovete specificare le seguenti informazioni.
 
 1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
 
