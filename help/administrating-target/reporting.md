@@ -1,20 +1,24 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configurate Adobe Target Visual Experience Composer (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
-title: Configurare il reporting in Adobe Target
+description: Configurate il  Adobe Target Visual Experience Composer (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
+title: Configurare i rapporti in  Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 34c4c48602df8550287e86c535ebc350fe2185f7
+source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
 workflow-type: tm+mt
-source-wordcount: '648'
-ht-degree: 69%
+source-wordcount: '695'
+ht-degree: 65%
 
 ---
 
 
-# Configurare il reporting in Target
+# Configurare i rapporti in Target
 
-Configurate le impostazioni generali da utilizzare nei rapporti di Target che si applicano all&#39;intero [!DNL Target] account.
+Configurate le impostazioni generali da utilizzare nei rapporti Target applicabili all&#39;intero [!DNL Target] account.
+
+>[!NOTE]
+>
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 Per accedere alla pagina di configurazione [!UICONTROL Reporting] (Generazione rapporti), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting (Generazione rapporti)].**
 
