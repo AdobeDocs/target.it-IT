@@ -6,17 +6,21 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: ca91c67f13dfc9b338d2f316af3c62b871bdcfa6
+source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
 workflow-type: tm+mt
-source-wordcount: '1484'
-ht-degree: 92%
+source-wordcount: '1571'
+ht-degree: 87%
 
 ---
 
 
 # Token di risposta{#response-tokens}
 
-I token di risposta consentono di generare automaticamente informazioni specifiche di Target (dettagli della campagna, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o per l’integrazione con sistemi di terze parti (ad esempio, Clicktale)
+I token di risposta consentono di generare automaticamente informazioni specifiche di Target (dettagli della campagna, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o per l’integrazione con sistemi di terze parti (ad esempio, Clicktale).
+
+>[!NOTE]
+>
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 I token di risposta consentono di scegliere quali variabili sfruttare, che vengono quindi inviate come parte della risposta di una mbox. Per farlo, devi solo attivare una variabile utilizzando l’apposito interruttore, e questa sarà inviata con la risposta della mbox, che può essere convalidata in chiamate di rete. I token di risposta funzionano anche in modalità Anteprima.
 
@@ -58,6 +62,8 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
    |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
    | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Dettagli dell’attività corrente. “Opzione” equivale a “offerta”. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
+   | Metodo<br>di allocazione del trafficoSi applica solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;di destinazione&quot;. |
+   |  | `experience.trafficAllocationType` | Restituire rispettivamente &quot;control&quot; e &quot;targeting&quot;. |
 
    Nell’elenco vengono visualizzati anche gli attributi del profilo utente e gli attributi del cliente.
 
