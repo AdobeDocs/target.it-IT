@@ -1,20 +1,24 @@
 ---
 keywords: visual experience composer;vec;default url;enhanced experience composer;eec;mixed content;experience snapshots;mobile viewport;css;css selectors
-description: Configurate Adobe Target Visual Experience Composer (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
-title: Configurare Adobe Target Visual Experience Composer (Compositore esperienza visivo di Adobe Target)
+description: Configurate il  Adobe Target Visual Experience Composer (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
+title: Configurare  Adobe Target Visual Experience Composer (Compositore esperienza visivo)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '640'
-ht-degree: 57%
+source-wordcount: '686'
+ht-degree: 52%
 
 ---
 
 
-# Configurazione di Visual Experience Composer (Compositore esperienza visivo)
+# Configurare il Compositore esperienza visivo
 
 Configurate [!DNL Adobe Target] Visual Experience Composer (VEC) (Compositore esperienza [!UICONTROL visivo] visivo) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
+
+>[!NOTE]
+>
+>Gli argomenti di questa sezione, elencati di seguito, sono stati aggiornati per consentirvi di vedere di seguito le modifiche dell’interfaccia utente in arrivo nella release [!DNL Target Standard/Premium] 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questi argomenti si applica all&#39;interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 Per accedere alla pagina di configurazione di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] , fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)].**
 
@@ -38,15 +42,15 @@ Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza 
 
 ### Abilita Compositore esperienza avanzato
 
-Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deselezionate questa opzione per ripristinare Visual Experience Composer (Compositore esperienza visivo) originale. La distribuzione delle attività ai siti non è interessata da questa selezione.
+Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La distribuzione delle attività ai siti non è interessata da questa selezione.
 
 Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-Potete inoltre abilitare Enhanced Experience Composer (Compositore esperienza avanzato) a livello di attività.
+You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
 
 ### Caricamento contenuto misto
 
-Abilita i contenuti misti durante l’apertura di un sito web mediante il Compositore esperienza avanzato. Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
 
 Questa opzione è utile se, ad esempio:
 
