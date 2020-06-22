@@ -5,10 +5,10 @@ title: Ambienti
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '702'
+ht-degree: 63%
 
 ---
 
@@ -21,17 +21,11 @@ Organizza siti e ambienti di preproduzione per gestirli facilmente e per generar
 >
 >Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
-L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. La gestione host consente inoltre di separare i dati dei rapporti per ambiente.
-
-A [host](/help/administrating-target/hosts.md) is any web server (or web domain) from where you serve content during any stage of your project. Viene riconosciuto qualsiasi host che trasmette una mbox.
-
 Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si potrebbero avere decine di host raggruppati in due o tre ambienti. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. È anche possibile aggiungere nuovi ambienti e rinominare gli ambienti.
 
 One environment, the default environment, is pre-named [!UICONTROL Production]. Questo ambiente predefinito non può essere eliminato, anche se lo si rinomina. [!DNL Target] presuppone che è qui che verranno eseguiti attività e test finali e approvati.
 
 When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
-
-[!DNL Target] non limita un host che può inviare e ricevere mbox, pertanto quando nuovi server o domini vengono visualizzati, funzionano automaticamente (a meno che non abbiate impostato un elenco di autorizzazioni o un elenco di blocchi). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
 
 Per gestire gli ambienti, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Ambienti]**.
 
@@ -60,8 +54,7 @@ Per impostare l’ambiente predefinito per la segnalazione:
 
 ## Change the name of an environment {#section_9F5F94285F8E495E9CE69810CE94CA08}
 
-1. From the [!UICONTROL Environment] list, click the **[!UICONTROL Environments]** tab.
-1. Click the **[!UICONTROL Edit]** icon.
+1. Dall&#39;elenco [!UICONTROL Ambiente] , fate clic sull&#39;icona **[!UICONTROL Modifica]** .
 1. Modifica il nome dell’ambiente.
 1. Fai clic su **[!UICONTROL Salva]**.
 
