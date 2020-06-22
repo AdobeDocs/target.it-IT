@@ -5,10 +5,10 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1127'
+ht-degree: 54%
 
 ---
 
@@ -24,12 +24,6 @@ Organizza siti e ambienti di preproduzione per gestirli facilmente e per generar
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
 Un host è un qualsiasi server web (o dominio web) dal quale viene trasmesso il contenuto durante qualsiasi fase del progetto. Viene riconosciuto qualsiasi host che trasmette una mbox.
-
-Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si potrebbero avere decine di host raggruppati in due o tre ambienti. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. È anche possibile aggiungere nuovi ambienti e rinominare gli ambienti.
-
-One environment, the default environment, is pre-named [!UICONTROL Production]. Questo ambiente predefinito non può essere eliminato, anche se lo si rinomina. [!DNL Target] presuppone che è qui che verranno eseguiti attività e test finali e approvati.
-
-When an mbox request is received from new websites or domains, these new domains always appear in the [!UICONTROL Production] environment. The [!UICONTROL Production] environment cannot have its settings changed, so unknown or new sites are guaranteed to see only content that is active and ready. La gestione degli host consente inoltre di garantire facilmente la qualità di nuove attività e contenuti nei test, nella gestione temporanea (staging) e negli ambienti di sviluppo prima di attivare le attività.
 
 [!DNL Target] non limita un host che può inviare e ricevere mbox, pertanto quando nuovi server o domini vengono visualizzati, funzionano automaticamente (a meno che non abbiate impostato un elenco di autorizzazioni o un elenco di blocchi). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
 
@@ -63,7 +57,7 @@ Dopo aver aggiunto un host all’elenco degli [!UICONTROL host], assicurati che 
 
    By default, a newly recognized host is placed in the [!UICONTROL Production] environment. Questo è l’ambiente più sicuro perché non consente di visualizzare le attività inattive da questi host.
 
-1. (Condizionale) Fate clic sull&#39;icona Sposta (icona ![](/help/administrating-target/assets/icon-move.png) Sposta) per spostare l&#39;host in [!UICONTROL Sviluppo], [!UICONTROL Staging]o altro ambiente.
+1. (Condizionale) Fate clic sull&#39;icona **[!UICONTROL Sposta]** ( icona ![](/help/administrating-target/assets/icon-move.png) Sposta ) per spostare l&#39;host nello [!UICONTROL sviluppo], nell&#39; [!UICONTROL area]di gestione temporanea o in un altro ambiente.
 
 >[!NOTE]
 >
@@ -123,8 +117,6 @@ Quando un host non è più necessario, è possibile eliminarlo.
 >L’host sarà elencato di nuovo se qualcuno passa a una pagina con mbox sull’host.
 
 ## Risoluzione dei problemi relativi agli host {#concept_B3D7583FA4BB480382CC7453529FE1B7}
-
-Procedure consigliate per la gestione e la risoluzione dei problemi relativi agli host in [!DNL Adobe Target].
 
 Se si verificano problemi con gli host, prova i seguenti suggerimenti di risoluzione:
 
