@@ -5,9 +5,9 @@ user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '1408'
+source-wordcount: '1406'
 ht-degree: 99%
 
 ---
@@ -41,7 +41,7 @@ ht-degree: 99%
    + Generazione di rapporti {#reporting}
       + [Configurare la generazione di rapporti](/help/administrating-target/reporting.md)
       + [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Integrazione Dynamic Media Classic](administrating-target/scene7-settings.md)
+   + [Configurazione Scene7](administrating-target/scene7-settings.md)
    + [Implementazione](/help/administrating-target/implementation.md)
    + [Host](administrating-target/hosts.md)
    + [Ambienti](/help/administrating-target/environments.md)
@@ -67,7 +67,7 @@ ht-degree: 99%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Permette di elencare i nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Consenti nodi periferici Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
