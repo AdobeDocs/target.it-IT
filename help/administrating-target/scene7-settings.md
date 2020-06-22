@@ -5,17 +5,17 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 85%
+source-wordcount: '429'
+ht-degree: 30%
 
 ---
 
 
-# Integrazione Dynamic Media Classic{#scene-settings}
+# Configurazione Scene7 {#scene-settings}
 
-Target può essere integrato con Adobe Dynamic Media Classic (già Scene7) per fornire Digital Asset Management (DAM) nella libreria dei contenuti.
+Target can be integrated with [!DNL Adobe Dynamic Media Classic] (formerly [!DNL Scene7]) to provide Digital Asset Management (DAM) in the Content Library.
 
 >[!NOTE]
 >
@@ -23,30 +23,30 @@ Target può essere integrato con Adobe Dynamic Media Classic (già Scene7) per f
 
 >[!NOTE]
 >
->L’integrazione di Target con Dynamic Media Classic consente la trasmissione delle risorse (come parte delle attività) caricate nella cartella risorse di Adobe Experience Cloud. Tale integrazione non consente l’accesso a tutte le risorse caricate in Dynamic Media Classic per la trasmissione alle attività di Target.
+>Integrating [!DNL Target] with [!DNL Dynamic Media Classic] enables delivery of assets (as part of activities) uploaded to the [!DNL Adobe Experience Cloud] assets folder. This integration does not enable access to all assets uploaded in [!DNL Dynamic Media Classic] for delivery in [!DNL Target] activities.
 
-Se disponi già di un account Dynamic Media, puoi fornirne le tue credenziali. In caso contrario, puoi richiedere un account Dynamic Media Classic limitato, senza alcun costo aggiuntivo, rivolgendoti al tuo rappresentante Adobe. Questo account può essere utilizzato per scopi limitati solo in Target. Questo servizio viene reso disponibile ai clienti per i flussi di lavoro che necessitano di funzionalità di scambio immagini.
+If you already have a [!DNL Dynamic Media] account, you can supply your existing credentials. If you do not have an account, you can request a restricted-use [!DNL Dynamic Media Classic] account at no additional charge from your [!DNL Adobe] representative. This account can be used for purposes restricted for use in [!DNL Target] only. Questo servizio viene reso disponibile ai clienti per i flussi di lavoro che necessitano di funzionalità di scambio immagini.
 
-Se questa impostazione non è configurata, l&#39;opzione di offerta Scambio immagine all&#39;interno del flusso di lavoro di creazione attività non è disponibile. Una volta configurata, l’opzione di offerte di scambio/cambiamento immagine è disponibile sia nel [Compositore esperienza visivo che nel Compositore esperienza basato su moduli](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). Puoi quindi sfruttare le offerte di immagine con le immagini che sono state caricate da Adobe Experience Cloud e usarle in attività di Target.
+If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Una volta configurata, l’opzione di offerte di scambio/cambiamento immagine è disponibile sia nel [Compositore esperienza visivo che nel Compositore esperienza basato su moduli](../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
-Se desideri fare riferimento a un URL di immagine pubblica direttamente in un&#39;offerta o codice personalizzato durante la creazione di attività, devi distribuire l&#39;immagine ai server web e utilizzare il tuo URL nel codice. Non è possibile ottenere l&#39;URL pubblicato di un&#39;immagine caricata su Experience Cloud per utilizzarlo direttamente o all&#39;esterno dei flussi di lavoro di targeting utilizzando Adobe Target. Questa funzionalità non è consentita, secondo il contratto.
+Se desideri fare riferimento a un URL di immagine pubblica direttamente in un&#39;offerta o codice personalizzato durante la creazione di attività, devi distribuire l&#39;immagine ai server web e utilizzare il tuo URL nel codice. There is no way to obtain the published URL of an image uploaded into the [!DNL Experience Cloud] to consume directly or outside of targeting workflows using [!DNL Target]. Questa funzionalità non è consentita, secondo il contratto.
 
-Tieni presente che l’URL di archiviazione e gli URL di pubblicazione finali delle immagini di Dynamic Media sono diversi; fai attenzione a NON creare offerte utilizzando il collegamento di archiviazione delle immagini, poiché in tal caso la consegna non funzionerà. Utilizza la funzionalità per offerte di immagini descritta nella documentazione.
+Note that the storage URL and the final publish URLs of images from [!DNL Dynamic Media] are different and one must *NOT* create offers using the storage link of images as delivery will not work in such cases. Devi usare la funzionalità delle offerte di immagini come spiegato nella nostra documentazione.
 
-Per effettuare l’integrazione con Dynamic Media Classic (Scene7), dovete specificare le seguenti informazioni.
+To integrate with [!DNL Dynamic Media Classic] ([!DNL Scene7]), you need to specify the following information.
 
-1. Click **[!UICONTROL Administration]** > **[!UICONTROL Scene7 Settings]**.
+1. Fate clic su **[!UICONTROL Amministrazione]** > Configurazione **** Scene7.
 
    ![Pagina Scene7](/help/administrating-target/assets/scene7.png)
 
-1. Specifica le seguenti informazioni relative all’account Dynamic Media Classic:
+1. Specify the following [!DNL Dynamic Media Classic] account information:
 
-   **Regione:** l’area geografica del tuo account (Nord America, Europa o Asia).
+   **Regione:** La regione per il tuo [!DNL Dynamic Media] account: Nord America, Europa o Asia.
 
-   **Adhoc folder** (Cartella ad hoc): posizione del contenuto che si trova al di fuori della cartella di Target e viene caricato manualmente in Dynamic Media.
+   **Adhoc folder** (Cartella ad hoc): posizione del contenuto che si trova al di fuori della cartella di Target e viene caricato manualmente in [!DNL Dynamic Media].
 
-   **Email address (Indirizzo e-mail):** indirizzo e-mail utilizzato per accedere a Dynamic Media Classic (Scene7).
+   **Indirizzo e-mail:** L&#39;indirizzo e-mail utilizzato per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]).
 
-   **Password**: password utilizzata per accedere a Dynamic Media Classic (Scene7).
+   **Password:** La password utilizzata per accedere a [!DNL Dynamic Media Classic] ([!DNL Scene7]).
 
 1. Fai clic su **[!UICONTROL Invia]**.
