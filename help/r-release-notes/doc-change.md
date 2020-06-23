@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b25108284abbc44320fdceddd8ca155e2b800b3c
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '1222'
-ht-degree: 35%
+source-wordcount: '1260'
+ht-degree: 34%
 
 ---
 
@@ -21,6 +21,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 23 giugno | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla pausa caffè del Adobe Target del 24 giugno . |
+|  | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | È inoltre sconsigliato creare script di profilo dipendenti che utilizzano il risultato di uno script di profilo in un altro script di profilo. |
 | 17 giugno | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 |  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sui token di risposta per il metodo di allocazione del traffico per le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). |
 |  | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Sono state aggiunte informazioni sul supporto  Analytics per Target (A4T) per le attività di allocazione automatica. |
