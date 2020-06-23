@@ -1,11 +1,14 @@
 ---
 keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
-title: Funzionamento della libreria JavaScript di Adobe Target at.js
+title: Funzionamento dell'Adobe Target  della libreria JavaScript at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: ba4274772e2fb034d32025ac0824062663f716da
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+workflow-type: tm+mt
+source-wordcount: '1123'
+ht-degree: 88%
 
 ---
 
@@ -91,10 +94,27 @@ Note importanti:
 * at.js non garantisce in alcun modo l’ordine di esecuzione di script remoti, poiché questi vengono caricati in modo asincrono.
 * Gli script in linea non devono avere dipendenze da script remoti, poiché questi ultimi vengono caricati ed eseguiti successivamente.
 
-## Video di formazione: at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
+## Video di formazione
+
+I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
+
+### at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
 
 at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
 Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
+
+### Orario ufficio: at.js suggerimenti e panoramica (26 giugno 2019) badge ![tutorial](/help/assets/tutorial.png)
+
+Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+
+* Vantaggi dell&#39;utilizzo di at.js
+* at.js, impostazioni
+* Gestione dei sfarfallio
+* Debug di at.js
+* Problemi noti
+* Domande frequenti
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
