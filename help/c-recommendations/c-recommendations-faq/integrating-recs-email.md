@@ -5,10 +5,10 @@ title: Integrare i Consigli con l’e-mail
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
 workflow-type: tm+mt
-source-wordcount: '1434'
-ht-degree: 93%
+source-wordcount: '1459'
+ht-degree: 91%
 
 ---
 
@@ -64,6 +64,10 @@ Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](http
 
 Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Poiché non disponi di [!DNL mbox.js] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
 
+>[!NOTE]
+>
+>Quando usate una rawbox e [!DNL Target], consultate l&#39;importante informativa sulla sicurezza nella sezione [Creazione di elenchi di autorizzazioni che specifica gli ospitanti autorizzati a inviare chiamate mbox ad Target](/help/administrating-target/hosts.md#allowlist).
+
 Questo approccio ti consente di monitorare le prestazioni dei consigli nelle e-mail, sottoporli normalmente a test con un consiglio e continuare il monitoraggio sul sito.
 
 Configura un’attività [!DNL Recommendations] in [!DNL Adobe Target] utilizzando l’opzione [Compositore esperienza basata su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Per il percorso, seleziona il nome dell&#39;elemento mbox che hai deciso di utilizzare nella richiesta rawbox proveniente dall&#39;ESP. Seleziona una progettazione con l&#39;aspetto che desideri per la tua e-mail. Al momento della compilazione dell&#39;e-mail, l&#39;ESP effettua una chiamata ai server di [!DNL Adobe Target] per ogni rawbox in ogni e-mail che viene generata. L&#39;ESP deve disporre di un modo per includere l&#39;HTML restituito nell&#39;e-mail quando viene inviato.
@@ -107,7 +111,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se viene passato `entity.id`, è consigliabile passare anche questo parametro per impedire che la richiesta incrementi il numero di visualizzazioni di pagina conteggiate per un elemento, in modo da non alterare gli algoritmi basati sulla visualizzazione del prodotto. |  |
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> **Best practice** di protezione: Se il dominio utilizzato nell’ `mboxDefault` URL non è elencato, è possibile esporre il rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector o `mboxDefault` da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per consentire l&#39;elenco dei domini URL di reindirizzamento predefiniti. Target utilizza gli host per consentire l&#39;elenco dei domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare elenchi di autorizzazioni che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *ospitanti*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> **Best practice** di protezione: Se il dominio utilizzato nell’ `mboxDefault` URL non è elencato, è possibile esporre il rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector o `mboxDefault` da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per consentire l&#39;elenco dei domini URL di reindirizzamento predefiniti. Target utilizza gli host per consentire l&#39;elenco dei domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare elenchi di autorizzazioni che specificano gli host autorizzati a inviare chiamate mbox ad Target](/help/administrating-target/hosts.md#allowlist) in *host*. |  |
 | `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
 | `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun “thirdPartyId”, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota **: assicurati di fornire un valore univoco di`mboxSession`e`mboxPC`per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe rallentare o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
