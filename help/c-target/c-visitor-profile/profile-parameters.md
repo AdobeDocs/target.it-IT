@@ -5,10 +5,10 @@ title: Attributi di profilo in Adobe Target
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2d4dd143056218c2f67f0641c15059cd078111b
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '2414'
-ht-degree: 80%
+source-wordcount: '2442'
+ht-degree: 79%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 80%
 
 Gli attributi del profilo sono parametri specifici di un visitatore. Tali attributi vengono memorizzati nel profilo del visitatore in modo da fornire informazioni che puoi usare nelle attività.
 
-Un profilo utente contiene informazioni demografiche e comportamentali relative a un visitatore di una pagina Web, ad esempio età, genere, prodotti acquistati, ultima ora della visita e così via, utilizzati da Target per personalizzare il contenuto che serve al visitatore.
+Un profilo utente contiene informazioni demografiche e comportamentali relative a un visitatore di una pagina Web, ad esempio età, genere, prodotti acquistati, ultima visita e così via, che Target utilizza per personalizzare il contenuto che esso serve al visitatore.
 
 Quando un visitatore visita il sito Web o quando ritorna per un’altra sessione, gli attributi di profilo salvati nel profilo possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtraggio dei segmenti.
 
@@ -80,6 +80,7 @@ Tenete presenti le seguenti informazioni:
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
 * Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili già contengono un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.
 * Gli script di profilo non possono essere eliminati mentre vengono utilizzati in un&#39;attività.
+* Non è consigliabile creare script di profilo dipendenti che utilizzano il risultato di uno script di profilo in un altro script di profilo. L&#39;ordine di esecuzione dello script di profilo non è garantito.
 
 ## Visualizzazione delle schede di informazioni sugli script di profilo {#section_18EA3B919A8E49BBB09AA9215E1E3F17}
 
@@ -141,7 +142,7 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
    * Mantenere gli script di profilo il più possibile piccoli e semplici.
    * Evitate espressioni regolari o utilizzate solo espressioni regolari molto semplici. Anche le espressioni semplici possono richiedere molte istruzioni da valutare.
    * Evitare la ricorsione.
-   * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo. Ciò potrebbe influire sul traffico e sulla conversione.
+   * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti ad Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo. Ciò potrebbe influire sul traffico e sulla conversione.
    * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token [di](/help/administrating-target/response-tokens.md) risposta.
 
 * See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
