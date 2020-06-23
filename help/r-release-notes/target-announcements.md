@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat
-description: Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
+description: Informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni di Target Coffee Break.
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 25f7ce65f4f9b863ce6ebfe0a7ff8df08e561741
+source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
 workflow-type: tm+mt
-source-wordcount: '97'
+source-wordcount: '162'
 ht-degree: 0%
 
 ---
@@ -14,8 +14,21 @@ ht-degree: 0%
 
 # Annunci ed eventi Target
 
-Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
+Informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni di Target Coffee Break.
 
-## Adobe Target Experience Builder: Chat sviluppatore, trasferire mbox.js di Adobe Target in at.js {#skill-builder}
+##  Adobe Target D e R Pausa caffè
 
-Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
+* **mercoledì 24 giugno 2020**
+* **10:00 alle 11:00 (PDT)**
+
+Ram Parthasarathy, alias @ram_adobe, Principal Product Manager per [!DNL Adobe Experience Cloud]. Ram sarà connesso [!DNL Adobe Target Community] per chattare direttamente con voi sulle vostre [!DNL Target] domande riguardanti le sue aree di competenza:
+
+* Argomenti generali [!DNL Target]
+* Prossima offerta
+* Decisioni sulle offerte
+
+Per effettuare la registrazione, [visita la comunità](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286) Adobe Target.
+
+##  Generatore di abilità Adobe Target: Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js {#skill-builder}
+
+Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son,  Manager prodotto di Adobe Target ha recentemente ospitato una chat sviluppatore per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
