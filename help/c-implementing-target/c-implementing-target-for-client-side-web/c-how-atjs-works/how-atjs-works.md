@@ -5,9 +5,9 @@ title: Funzionamento dell'Adobe Target  della libreria JavaScript at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: 0b36f1b36b354d90a9d79313b1d2a35b55461943
+source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1108'
 ht-degree: 88%
 
 ---
@@ -66,6 +66,14 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
 
+### at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
+
+at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
+
+>[!VIDEO](https://video.tv.adobe.com/v/26250)
+
+Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
+
 ## Diagramma di at.js 1.x
 
 ![Flusso di Target - at.js 1.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/target-flow.png)
@@ -76,6 +84,19 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 3 | Viene effettuata una richiesta mbox globale, con tutti i parametri configurati, MCID, SDID e ID cliente (facoltativo). | 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede tipi di pubblico idonei dalla [!UICONTROL libreria Pubblico] (ad esempio, audience condivisi da [!DNL Adobe Analytics], [!DNL Audience Manager], ecc.).<br>Gli attributi del cliente vengono inviati al [!DNL Profile Store] in un processo batch. |
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>[!DNL Analytics]I dati di  possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
+
+### Orario ufficio: at.js suggerimenti e panoramica (26 giugno 2019) badge ![tutorial](/help/assets/tutorial.png)
+
+Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+
+* Vantaggi dell&#39;utilizzo di at.js
+* at.js, impostazioni
+* Gestione dei sfarfallio
+* Debug di at.js
+* Problemi noti
+* Domande frequenti
+
+>[!VIDEO](https://video.tv.adobe.com/v/27959)
 
 ## Come avviene il rendering delle offerte con contenuti HTML in at.js {#render}
 
@@ -93,28 +114,3 @@ Note importanti:
 
 * at.js non garantisce in alcun modo l’ordine di esecuzione di script remoti, poiché questi vengono caricati in modo asincrono.
 * Gli script in linea non devono avere dipendenze da script remoti, poiché questi ultimi vengono caricati ed eseguiti successivamente.
-
-## Video di formazione
-
-I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
-
-### at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
-
-at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
-
->[!VIDEO](https://video.tv.adobe.com/v/26250)
-
-Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
-
-### Orario ufficio: at.js suggerimenti e panoramica (26 giugno 2019) badge ![tutorial](/help/assets/tutorial.png)
-
-Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
-
-* Vantaggi dell&#39;utilizzo di at.js
-* at.js, impostazioni
-* Gestione dei sfarfallio
-* Debug di at.js
-* Problemi noti
-* Domande frequenti
-
->[!VIDEO](https://video.tv.adobe.com/v/27959)
