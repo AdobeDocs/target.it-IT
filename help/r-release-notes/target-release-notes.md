@@ -5,10 +5,10 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
+source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
 workflow-type: tm+mt
-source-wordcount: '558'
-ht-degree: 18%
+source-wordcount: '555'
+ht-degree: 19%
 
 ---
 
@@ -35,7 +35,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 * **Annunci** Target: Consultate la pagina degli annunci Target per informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, le chat per sviluppatori, i webinar e le sessioni di Target Coffee Break. Per ulteriori informazioni, consultate Annunci [Target](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.6.1 (luglio 2020, data esatta TBD)
+## Target Standard/Premium 20.7.1 (21 luglio 2020)
 
 Questa versione include i seguenti miglioramenti:
 
