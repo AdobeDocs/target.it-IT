@@ -5,9 +5,9 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4db3fa7d25662aa48a346f64a6eecbca5e477952
+source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
 workflow-type: tm+mt
-source-wordcount: '3026'
+source-wordcount: '3014'
 ht-degree: 89%
 
 ---
@@ -83,7 +83,7 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 
 Se l’attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando Target trova un’esperienza con il 90% di affidabilità. A quel punto, il 70% del traffico viene assegnato all’esperienza vincente e il 30% a quella perdente. Quando l’esperienza raggiunge il 95% di affidabilità, viene assegnato il 100% del traffico all’esperienza vincente e lo 0% a quella perdente.
 
-Una volta pronto il modello per un’attività di allocazione automatica (ogni esperienza ha un minimo di 1.000 visitatori e 50 conversioni), non sono consentite le seguenti operazioni dall’interfaccia utente:
+After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
