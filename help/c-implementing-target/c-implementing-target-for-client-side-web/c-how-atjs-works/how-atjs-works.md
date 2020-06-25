@@ -5,9 +5,9 @@ title: Funzionamento dell'Adobe Target  della libreria JavaScript at.js
 topic: Standard
 uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '1108'
+source-wordcount: '1106'
 ht-degree: 88%
 
 ---
@@ -66,7 +66,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
 
-### at.js 2.x contrassegno ![Panoramica del diagramma architettonico](/help/assets/overview.png)
+### Video - diagramma architettonico at.js 2.x
 
 at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud. Questo video spiega come tutti questo elementi funzionano insieme.
 
@@ -85,7 +85,7 @@ Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://he
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>[!DNL Analytics]I dati di  possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
 
-### Orario ufficio: at.js suggerimenti e panoramica (26 giugno 2019) badge ![tutorial](/help/assets/tutorial.png)
+### Video - Orario ufficio: it.js suggerimenti e panoramica (26 giugno 2019)
 
 Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
