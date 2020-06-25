@@ -5,10 +5,10 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a6bcaac474927ddd0a14d4cb274c0460e6002a9b
+source-git-commit: 6c94110c42ef5a7a9b44d58346f0f3b18a4b6cdc
 workflow-type: tm+mt
-source-wordcount: '684'
-ht-degree: 15%
+source-wordcount: '558'
+ht-degree: 18%
 
 ---
 
@@ -59,30 +59,6 @@ Durante questo aggiornamento, sarà possibile eseguire facilmente molte azioni u
 * Indirizzi IP offuscati dei visitatori per motivi di privacy (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**)
 * Visualizzate l’elenco esistente di utenti per area di lavoro e i relativi ruoli prima di gestirli in Adobe  Admin Console (**[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]**).
 * Cerca e filtra tutte le tabelle nella sezione [!UICONTROL Amministrazione] .
-
-Le modifiche importanti includono:
-
-* **[!UICONTROL Pagina]di Visual Experience Composer (Compositore esperienza visivo)**: Questa nuova pagina (**[!UICONTROL Amministrazione ]**>****Visual Experience Composer (Compositore esperienza visivo) consente di:
-
-   * Configurare le impostazioni generali per il VEC (specificare l&#39;URL predefinito, abilitare [!UICONTROL Enhanced Experience Composer], caricare contenuti misti e generare istantanee dell&#39;esperienza nel diagramma del flusso di attività)
-   * Configurare i visualizzatori per dispositivi mobili
-   * Configurare i selettori CSS
-
-* **[!UICONTROL Pagina]di reporting **: Questa nuova pagina (**[!UICONTROL Amministrazione ]**>**[!UICONTROL Rapporti ]**) consente di configurare le impostazioni generali da utilizzare nei[!DNL Target]rapporti che si applicano all&#39;intero[!DNL Target]account.
-
-   Le impostazioni disponibili sono:
-
-   * La [!DNL Adobe Experience Cloud] soluzione da utilizzare per il reporting
-   * Fuso orario da utilizzare per il reporting
-   * Valuta da utilizzare per il reporting
-   * Indirizzi IP da escludere dalla segnalazione
-   * Se mostrare l&#39;incremento stimato delle entrate nei rapporti
-   * Se consentire priorità di grana fine
-
-* La pagina [!UICONTROL Ospitanti] precedente è stata suddivisa in due nuove pagine:
-
-   * [!UICONTROL Host]
-   * [!UICONTROL Ambienti]
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
