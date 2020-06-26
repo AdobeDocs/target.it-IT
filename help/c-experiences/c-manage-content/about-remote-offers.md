@@ -1,11 +1,14 @@
 ---
-keywords: offerta remota;matrice di selezione offerta remota;contenuto salvato nella cache;contenuto dinamico
+keywords: remote offer;remote offer selection matrix;cached content;dynamic content
 description: 'Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.'
 title: Creare offerte remote
 topic: Standard
 uuid: 5aaff281-e96c-41a6-849e-2c3b0e35f161
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 09e217e416b7c3d106a2524bbfdc9eaba50c0ad4
+workflow-type: tm+mt
+source-wordcount: '704'
+ht-degree: 100%
 
 ---
 
@@ -31,7 +34,7 @@ Alcuni esempi di offerte remote includono:
 **Per creare un’offerta remota:**
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte di codice]**.
-1. Fai clic su **[!UICONTROL Crea]** &gt; **[!UICONTROL Offerta remota]**.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Offerta remota]**.
 
    ![](assets/remote_offer_ui.png)
 
@@ -78,6 +81,6 @@ La matrice per la selezione dell’offerta remota è utile per decidere quale ti
 | Aggiornamenti di contenuto | Salvato nella cache ogni 2 ore | Aggiornamento immediato ad ogni richiesta |
 | Tempo di caricamento | Più veloce | Più lento a causa della richiesta di elaborazione |
 | Può vedere JavaScript a pagina | Sì | No, ma può passare tramite URL |
-| Le offerte possono includere JavaScript | Sì | No |
+| Le offerte possono includere JavaScript | Sì | Sì |
 | URL di offerta | Assoluto o relativo | Relativo |
 | Richiesta computer | Server Adobe | Il computer del visitatore, che trasporta i suoi cookies |
