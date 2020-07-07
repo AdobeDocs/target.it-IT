@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '1298'
+source-wordcount: '1312'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 7 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè dell&#39;8 luglio  Adobe Target. |
 | 25 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione Target Standard/Premium 20.6.1 (luglio 2020). |
 |  | [Panoramica della documentazione Target](/help/r-release-notes/target-documentation.md) | Nuovo argomento con informazioni dettagliate sulle diverse fonti di [!DNL Target] documentazione. |
 | 23 giugno | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla pausa caffè del Adobe Target del 24 giugno . |
@@ -30,7 +31,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sui token di risposta per il metodo di allocazione del traffico per le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). |
 |  | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Sono state aggiunte informazioni sul supporto  Analytics per Target (A4T) per le attività di allocazione automatica. |
 |  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] in *Specificare ruoli e autorizzazioni*. |
-|  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] al *passaggio 6: Specificate ruoli e autorizzazioni*. |
+|  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Added information about the new [!UICONTROL Publisher] role under *Step 6: Specify roles and permissions*. |
 |  | [autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Aggiunto collegamento alle ore di *Office: Sessione* Target Premium Workspaces. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.5.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
@@ -38,7 +39,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 15 giugno | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 1.8.2 e at.js 2.3.1. |
+| 15 giugno | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Added information about the at.js 1.8.2 and at.js 2.3.1 releases. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle versioni at.js 1.8.2 e at.js 2.3.1. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note della release [!DNL Target Standard/Premium] 20.5.1 (17 giugno 2020) per includere informazioni sul supporto A4T in [!DNL Analysis Workspace]. |
 | 12 giugno | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `deviceIdLifetime`. |
@@ -53,12 +54,12 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Maggio 28 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte le seguenti domande frequenti: <ul><li>Come vengono contate le metriche Nuovi visitatori e Visitatori di ritorno?</li></ul> |
 | Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto  Analytics per Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nell&#39;audience di un&#39;attività saranno qualificati in tale attività.&quot; |
-| Maggio 21 | [Consenti nodi periferici Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
+| Maggio 21 | [Inserire nell&#39;elenco Consentiti nodi Target edge](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Aggiunto `mboxedge30.tt.omtrdc.net` all&#39;elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima release di Target Standard/Premium 20.6.1 (10 giugno 2020). |
 |  | [Host](/help/administrating-target/hosts.md) | Aggiunta nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche alla versione 2 dell&#39;API di Stato batch profilo. |
 | Maggio 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | È stata aggiunta la sezione &quot;Limitazioni note&quot;. |
-| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e elenchi consentiti. |
+| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e inserire nell&#39;elenco Consentiti di . |
 |  | [Lavorare con i redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
 |  | [Integrare i Consigli con l’e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
 |  | [E-mail: implementare Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Sono state aggiunte informazioni sull&#39;utilizzo degli host per evitare vulnerabilità Open Redirect. |
@@ -79,7 +80,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Aprile 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | Aprile 22 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata aggiunta una nuova sezione: *Modifiche all&#39;API v2 di Stato batch profilo (4 maggio 2020).* |
 | Aprile 20 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nuova sezione: *Generatore di abilità Adobe Target: Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js.* |
-| Aprile 14 | [Consenti host periferici Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuovo argomento. |
+| Aprile 14 | [Inserire nell&#39;elenco Consentiti host periferici Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
 | Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. |
