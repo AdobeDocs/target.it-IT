@@ -4,10 +4,10 @@ description: Informazioni sugli eventi in programma, comprese le sessioni di Tar
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 4b7f7cbeb83d98568ec65e3260b4f78e8fca8ad9
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '162'
-ht-degree: 0%
+source-wordcount: '168'
+ht-degree: 2%
 
 ---
 
@@ -16,18 +16,21 @@ ht-degree: 0%
 
 Informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni di Target Coffee Break.
 
-##  Adobe Target D e R Pausa caffè
+##  Adobe Target Interruzione caffè D e R Community
 
-* **mercoledì 24 giugno 2020**
-* **10:00 alle 11:00 (PDT)**
+* **Mercoledì 8 luglio**
+* **10:00 - 11:00 (PST)**
 
-Ram Parthasarathy, alias @ram_adobe, Principal Product Manager per [!DNL Adobe Experience Cloud]. Ram sarà connesso [!DNL Adobe Target Community] per chattare direttamente con voi sulle vostre [!DNL Target] domande riguardanti le sue aree di competenza:
+A noi parteciperà Rob Hornick, Senior  Adobe Target Product Manager, che verrà registrato nella community del Adobe Target  per chattare direttamente con voi sulle vostre domande Target relative alle aree di competenza:
 
-* Argomenti generali [!DNL Target]
-* Prossima offerta
-* Decisioni sulle offerte
+* Personalizzazione
+* Apprendimento automatico e intelligenza artificiale
+* Consigli
+* Allocazione automatica
+* Targeting automatico
+* Personalizzazione automatizzata
 
-Per effettuare la registrazione, [visita la comunità](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-6-24-ram-parthasarathy/td-p/367286) Adobe Target.
+Per effettuare la registrazione, [visita la comunità](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558) Adobe Target.
 
 ##  Generatore di abilità Adobe Target: Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js {#skill-builder}
 
