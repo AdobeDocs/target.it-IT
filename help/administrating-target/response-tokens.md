@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
 source-wordcount: '1571'
-ht-degree: 85%
+ht-degree: 81%
 
 ---
 
@@ -20,9 +20,9 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 >[!NOTE]
 >
->Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
+>The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
-I token di risposta consentono di scegliere quali variabili sfruttare, che vengono quindi inviate come parte della risposta di una mbox. Per farlo, devi solo attivare una variabile utilizzando l’apposito interruttore, e questa sarà inviata con la risposta della mbox, che può essere convalidata in chiamate di rete. Response tokens work in [!UICONTROL Preview] mode as well.
+I token di risposta consentono di scegliere quali variabili sfruttare e quindi di inviarle come parte di una risposta Target. Per fare ciò, è sufficiente abilitare una variabile utilizzando lo switch e la variabile verrà inviata con risposte Target, che possono essere convalidate nelle chiamate di rete. Response tokens work in [!UICONTROL Preview] mode as well.
 
 Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in recapitano alla pagina un codice JavaScript che viene eseguito al momento del recapito. I token di risposta, invece, recapitano un oggetto che può quindi essere letto e utilizzato mediante i listener di eventi. Per ulteriori informazioni, consulta [Eventi personalizzati di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e gli esempi forniti più avanti in questo articolo. L’approccio dei token di risposta è più sicuro e dovrebbe consentire uno sviluppo e una manutenzione più agevoli delle integrazioni di terze parti.
 
