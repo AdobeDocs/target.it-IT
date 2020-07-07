@@ -5,10 +5,10 @@ title: Configurare le autorizzazioni Enterprise
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 44d9024cb9c1f6a1e28845f9545fed0d56fe176a
+source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1469'
+ht-degree: 70%
 
 ---
 
@@ -104,7 +104,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-impleme
 
 ## Passaggio 4: Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Le proprietà vengono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (mbox, API, ecc.) a Target.
+Le proprietà sono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (chiamata Target, chiamata API, ecc.) a Target.
 
 Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
@@ -129,7 +129,7 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
 ## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
 
-Per utilizzare la funzionalità di [!DNL Target] delle autorizzazioni utente, è necessario aggiungere il parametro `at_property` a qualsiasi chiamata che per  (mbox, API, ecc.).[!DNL Target]
+To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
 
 **Per ottenere il`at_property`codice del parametro**:
 
