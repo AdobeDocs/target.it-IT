@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1571'
-ht-degree: 81%
+source-wordcount: '1567'
+ht-degree: 78%
 
 ---
 
@@ -20,7 +20,7 @@ Response tokens let you automatically output information specific to [!DNL Targe
 
 >[!NOTE]
 >
->The information in this topic has been updated to give you a sneak peak at the UI changes coming in the Target Standard/Premium 20.6.1 release (July 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 I token di risposta consentono di scegliere quali variabili sfruttare e quindi di inviarle come parte di una risposta Target. Per fare ciò, è sufficiente abilitare una variabile utilizzando lo switch e la variabile verrà inviata con risposte Target, che possono essere convalidate nelle chiamate di rete. Response tokens work in [!UICONTROL Preview] mode as well.
 
@@ -51,7 +51,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
    | Tipo | Parametro | Note |
    |--- |--- |--- |
-   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due mbox che forniscono due diverse attività, la seconda mbox includerà entrambe le attività. |
+   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. For example, on a page with two [!DNL Target] requests delivering two different activities, the second request includes both activities. |
    |  | `profile.isFirstSession` | Restituisce “vero” o “falso”. |
    |  | `profile.isNewSession` | Restituisce “vero” o “falso”. |
    |  | `profile.daysSinceLastVisit` | Restituisce il numero di giorni dall’ultima visita del visitatore. |
@@ -71,7 +71,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
    >
    >I parametri con caratteri speciali non vengono visualizzati nell’elenco. Sono supportati solo caratteri alfanumerici e il trattino basso.
 
-1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through an mbox call and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
+1. (Conditional) If you want to use a profile parameter as a response token, but the parameter has not been passed through a [!DNL Target] request and, thus, has not loaded into the Target UI, you can use the [!UICONTROL Add Response Token] button to add the profile to the UI.
 
    Fate clic su **[!UICONTROL Aggiungi token]** di risposta, fornite il nome del token, quindi fate clic su **[!UICONTROL Attiva]**.
 
@@ -79,7 +79,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
 1. Crea un’attività.
 
-Usa gli [eventi personalizzati di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) per ascoltare la risposta della mbox e leggere i token di risposta.
+Usa gli [eventi personalizzati di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) per ascoltare la risposta della e leggere i token di risposta.[!DNL Target]
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 
@@ -136,15 +136,15 @@ Potrai visualizzare i token di risposta, ma at.js non sarà in grado di utilizza
 
 **Che cosa succede se uso at.js 1.1 (o versione successiva) su alcune pagine del sito e mbox.js su altre?**
 
-I token di risposta verranno recapitati alle risposte mbox di [!DNL at.js], ma non alle risposte [!DNL mbox.js].
+Response tokens will be delivered to the [!DNL at.js] Target responses, but not to the [!DNL mbox.js] responses.
 
 **È possibile avere attivi allo stesso tempo sia plug-in di Target Classic che i token di risposta?**
 
 Plug-in e token di risposta saranno disponibili in parallelo; tuttavia, i plug-in diventeranno obsoleti in futuro.
 
-**I token di risposta sono consegnati attraverso tutte le risposte mbox o solo attraverso le mbox che forniscono un’attività?**
+**I token di risposta vengono distribuiti attraverso tutte[!DNL Target]le risposte o solo attraverso[!DNL Target]le risposte che forniscono un&#39;attività?**
 
-I token di risposta vengono consegnati solo tramite le mbox che forniscono un’attività.
+Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
 **Il mio plug-in di Target Classic comprendeva JavaScript. Come posso riprodurne la funzionalità utilizzando i token di risposta?**
 
