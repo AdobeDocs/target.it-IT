@@ -3,7 +3,10 @@ description: A volte le attività non vanno come previsto. Questo articolo elenc
 title: Risolvere i problemi relativi alla personalizzazione automatica
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '725'
+ht-degree: 94%
 
 ---
 
@@ -14,7 +17,7 @@ A volte le attività non vanno come previsto. Questo articolo elenca alcuni pote
 
 ## La mia attività di Personalizzazione automatizzata sta impiegando troppo tempo per generare i modelli. {#section_20028B204DBB4D77A324BA193434AEE2}
 
-Sono disponibili diverse modifiche dell'impostazione dell'attività che possono ridurre il tempo previsto per la generazione di modelli, tra cui il numero di esperienze nell'attività di Personalizzazione automatizzata, il traffico verso il sito e la metrica di successo selezionata.
+Sono disponibili diverse modifiche dell&#39;impostazione dell&#39;attività che possono ridurre il tempo previsto per la generazione di modelli, tra cui il numero di esperienze nell&#39;attività di Personalizzazione automatizzata, il traffico verso il sito e la metrica di successo selezionata.
 
 **Soluzione:** esamina l’impostazione dell’attività e verifica se ci sono modifiche che intendi apportare per migliorare la velocità con cui i modelli vengono generati.
 
@@ -36,7 +39,7 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 ## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In Personalizzazione automatizzata, le regole per i test di URL e modelli vengono aggiunte al vincolo di ingresso mbox (ad esempio, target-global-mbox), dove vengono valutate una sola volta. Una volta che un utente si qualifica per una campagna, le regole di targeting di livello mbox non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
 **Soluzione:** aggiungi le regole di modello necessarie come pubblico di input della campagna. La valutazione del pubblico avviene su ogni richiesta/chiamata.
 
@@ -46,12 +49,12 @@ Questo problema verrà risolto in una delle prossime versioni.
 
 Si tratta di un comportamento previsto.
 
-In un'attività di Personalizzazione automatizzata, una volta convertita una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l'utente viene rilasciato dall'esperienza e l'attività viene riavviata.
+In un&#39;attività di Personalizzazione automatizzata, una volta convertita una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l&#39;utente viene rilasciato dall&#39;esperienza e l&#39;attività viene riavviata.
 
 Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore consegue la conversione per C1 e poi per A1, la conversione A1 non risulta perché, non appena ottenuta la conversione per C1, il visitatore viene rilasciato.
 
 ## I miei URL di esperienza non funzionano come previsto. {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
-* Se non puoi visualizzare l'anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte o a copiare il collegamento e aprirlo in un nuovo browser o una nuova sessione.
+* Se non puoi visualizzare l&#39;anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte o a copiare il collegamento e aprirlo in un nuovo browser o una nuova sessione.
 * Rigenera i collegamenti degli URL di esperienza se hai modificato qualsiasi contenuto e condividi i nuovi collegamenti con i tuoi compagni di team.
 
