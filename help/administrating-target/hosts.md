@@ -5,10 +5,10 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1127'
-ht-degree: 54%
+source-wordcount: '1128'
+ht-degree: 26%
 
 ---
 
@@ -19,13 +19,13 @@ Organizza siti e ambienti di preproduzione per gestirli facilmente e per generar
 
 >[!NOTE]
 >
->Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
+>Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release [!DNL Target] Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
-Un host è un qualsiasi server web (o dominio web) dal quale viene trasmesso il contenuto durante qualsiasi fase del progetto. Viene riconosciuto qualsiasi host che trasmette una mbox.
+Un host è qualsiasi dominio da cui viene [!DNL Target] eseguita una richiesta. In un sito Web, si tratta in genere della `location.hostname` proprietà dell’URL che effettua la [!DNL Target] richiesta.
 
-[!DNL Target] non limita un host che può inviare e ricevere mbox, pertanto quando nuovi server o domini vengono visualizzati, funzionano automaticamente (a meno che non abbiate impostato un elenco di autorizzazioni o un elenco di blocchi). Ciò consente inoltre di testare gli annunci su domini diversi che non si conoscono o non si possono anticipare.
+Per impostazione predefinita, [!DNL Target] non limita un ospitante che può effettuare [!DNL Target] richieste e ricevere [!DNL Target] risposte. Quando i nuovi ospitanti effettuano delle richieste, queste funzionano automaticamente. Questo consente anche di eseguire test su domini diversi che non conosci o che non puoi prevedere. Se si desidera ignorare questo comportamento predefinito, è possibile impostare un  inserire nell&#39;elenco Consentiti o  inserii nell&#39;elenco Bloccati per limitare gli host con cui lavorare [!DNL Target].
 
 Per gestire gli host, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Ospitanti]**.
 
@@ -35,15 +35,15 @@ Per gestire gli host, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONT
 
 Per riconoscere un host e aggiungerlo all&#39;elenco [!UICONTROL Ospitanti] , è necessario soddisfare le seguenti condizioni:
 
-* Almeno una mbox deve esistere sull’host
+* At least one [!DNL Target] request must exist on the host
 * Una pagina sull’host deve avere quanto segue:
 
    * Un riferimento preciso a at.js o mbox.js
-   * Una mbox o una chiamata mbox globale generata automaticamente
+   * Una [!DNL Target] richiesta o una richiesta globale generata automaticamente [!DNL Target]
 
-* La pagina con la mbox deve essere visualizzata in un browser
+* The page with the [!DNL Target] request must be viewed in a browser
 
-Dopo aver visualizzato la pagina, l’host è presente nell’elenco degli [!UICONTROL host]; è quindi possibile gestirlo in un ambiente, nonché visualizzare in anteprima e avviare attività e test.
+After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
 >[!NOTE] {class=“- topic/note ”}
 >
@@ -69,11 +69,11 @@ To sort the [!UICONTROL Hosts] list, click any column header ([!UICONTROL Name],
 
 To search the [!UICONTROL Hosts] list, type a search term in the [!UICONTROL Search Hosts] box.
 
-## Create allowlists that specify hosts that are authorized to send mbox calls to Target. {#allowlist}
+## Create allowlists that specify hosts that are authorized to send Target requests to Target. {#allowlist}
 
-You can create an allowlist that specifies hosts (domains) that are authorized to send mbox calls to [!DNL Target]. Tutti gli altri host che generano chiamate riceveranno una risposta di errore di autorizzazione, inserita come riga di commento. Per impostazione predefinita, qualsiasi host che contiene una chiamata mbox si registra con [!DNL Target] nell’Ambiente di produzione e ha accesso a tutte le attività attive e approvate. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make mbox calls and receive [!DNL Target] content. Tutti gli host continuano a essere visualizzati nell’elenco [!UICONTROL Host] e gli ambienti possono comunque essere utilizzati per raggruppare questi host e assegnare diversi livelli a ciascuno, ad esempio se l’host può visualizzare campagne attive e/o inattive.
+You can create an allowlist that specifies hosts (domains) that are authorized to send [!DNL Target] requests to [!DNL Target]. Tutti gli altri host che generano richieste riceveranno una risposta di errore di autorizzazione con commenti. By default, any host that contains a [!DNL Target] request registers with [!DNL Target] in the [!UICONTROL Production] environment and has access to all active and approved activities. If this is not the desired approach, you can instead use the allowlist to record specific hosts that are eligible to make [!DNL Target] requests and receive [!DNL Target] content. All hosts will continue to display in the [!UICONTROL Hosts] list, and environments can still be used to group these hosts and assign different levels to each, such as whether the host can see active and/or inactive activities.
 
-Per creare un elenco di autorizzazioni:
+Per creare un inserire nell&#39;elenco Consentiti di :
 
 1. Dall&#39;elenco [!UICONTROL Ospitanti] , fate clic su **[!UICONTROL Autorizza ospitanti]**.
 1. Attivate l&#39;opzione **[!UICONTROL Abilita ospitanti autorizzati per la distribuzione]** del contenuto.
@@ -87,23 +87,23 @@ Per creare un elenco di autorizzazioni:
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Se una chiamata mbox viene effettuata su un host non autorizzato, la chiamata risponderà con `/* no display - unauthorized mbox host */`.
+If a [!DNL Target] request is made on an unauthorized host, the call will respond with `/* no display - unauthorized mbox host */`.
 
 >[!IMPORTANT]
 >
->**Best practice** di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questo elenco di autorizzazioni controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se l&#39;elenco di autorizzazioni non viene specificato, Adobe non sarà in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
+>**Best practice** di protezione: Se utilizzate la funzionalità ubox di [!DNL Target], tenete presente che questo  inserì nell&#39;elenco Consentiti controllerà anche l&#39;elenco dei domini a cui i [redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) possono navigare. Accertati di aggiungere eventuali domini a cui vuoi reindirizzare quando utilizzi ubox come parte dell&#39;implementazione. Se il inserire nell&#39;elenco Consentiti di  non viene specificato, [!DNL Adobe] non sarà in grado di verificare gli URL di reindirizzamento e di proteggere da potenziali reindirizzamenti dannosi.
 >
->L&#39;elenco dei permessi ha la precedenza sugli ambienti. Prima di utilizzare la funzione Elenco consentito, è necessario eliminare tutti gli host, quindi solo quelli consentiti dall&#39;elenco di host vengono visualizzati nell&#39;elenco. A questo punto puoi spostare gli host nell’ambiente desiderato.
+>Il inserire nell&#39;elenco Consentiti  ha la precedenza sugli ambienti. Prima di utilizzare la funzione di inserire nell&#39;elenco Consentiti di , è necessario eliminare tutti gli host, quindi solo gli host consentiti dal inserire nell&#39;elenco Consentiti di  vengono visualizzati nell&#39;elenco degli host. A questo punto puoi spostare gli host nell’ambiente desiderato.
 
 A volte i domini da altri siti appaiono negli ambienti. Un dominio viene visualizzato nell&#39;elenco se il dominio effettua una chiamata al tuo at.js o mbox.js. Ad esempio, se qualcuno copia una delle tue pagine web sul suo server, tale dominio verrà visualizzato nel tuo ambiente. Potrebbe anche essere possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali.
 
 Nei casi in cui `mboxHost` viene passato in una chiamata API, la conversione viene registrata per l’ambiente passato. If no environment is passed, the host in the call defaults to [!UICONTROL Production].
 
-È inoltre possibile creare una lista nera che specifichi gli host (domini) che non possono inviare le chiamate mbox a [!DNL Target] aggiungendo gli host desiderati nell’host nella casella [!UICONTROL L’host non contiene].
+You can also create a denylist that specifies hosts (domains) than cannot send [!DNL Target] requests to [!DNL Target] by adding the desired hosts in the [!UICONTROL Host Does Not Contain] box.
 
 >[!NOTE]
 >
->Poiché l&#39;elenco Host autorizzati è utilizzato sia per gli host mbox che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK Javascript del Adobe Target  (at.js) *E* tutti i domini utilizzati negli URL di reindirizzamento predefiniti ubox. In futuro è inoltre necessario aggiungere nuovi domini simili all&#39;elenco dei domini consentiti.
+>Poiché l&#39;elenco Host autorizzati è utilizzato sia per [!DNL Target] gli host che per gli host di reindirizzamento predefiniti, è necessario aggiungere tutti i domini esistenti approvati per utilizzare l&#39;SDK [!DNL Adobe Target] Javascript (at.js) *AND* tutti i domini utilizzati negli URL di reindirizzamento predefiniti ubox. È inoltre necessario aggiungere nuovi domini simili al inserire nell&#39;elenco Consentiti  in futuro.
 
 ## Delete a host {#section_F56355BA4BC54B078A1A8179BC954632}
 
@@ -114,22 +114,22 @@ Quando un host non è più necessario, è possibile eliminarlo.
 
 >[!NOTE]
 >
->L’host sarà elencato di nuovo se qualcuno passa a una pagina con mbox sull’host.
+>L’ospitante verrà elencato di nuovo se qualcuno passa a una pagina che contiene una [!DNL Target] richiesta sull’ospitante.
 
 ## Risoluzione dei problemi relativi agli host {#concept_B3D7583FA4BB480382CC7453529FE1B7}
 
 Se si verificano problemi con gli host, prova i seguenti suggerimenti di risoluzione:
 
-**L’host non compare nell’elenco delle mbox per il tuo account.**
+**L&#39;host non viene visualizzato nell&#39;elenco dell&#39;account.**
 
 * Aggiorna la pagina [!UICONTROL Host] nel browser.
-* Verificate che il codice mbox sia corretto, compreso il riferimento at.js o mbox.js.
-* Prova a passare a una delle mbox sull&#39;host. È possibile che sia ancora stato eseguito il rendering in un browser per nessuna mbox dell’host.
+* Verificate che la [!DNL Target] richiesta sia corretta, compreso il riferimento at.js o mbox.js.
+* Try browsing to one of the [!DNL Target] requests on the host. It&#39;s possible that no [!DNL Target] request on the host was ever rendered in a browser.
 
 **Domini casuali o sconosciuti vengono visualizzati nell&#39;elenco[!UICONTROL Host].**
 
-Un dominio viene visualizzato in questo elenco se viene effettuata una chiamata a [!DNL Target] dal dominio. Spesso, è possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali. Se il dominio elencato non è tra quelli utilizzati dal team, è possibile fare clic su [!UICONTROL Elimina] per rimuoverlo.
+A domain appears in this list if a request to [!DNL Target] is made from the domain. Spesso, è possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali. Se il dominio elencato non è tra quelli utilizzati dal team, è possibile fare clic su [!UICONTROL Elimina] per rimuoverlo.
 
-**La mia chiamata mbox restituisce /* no display - unauthorized mbox host */.**
+**La mia[!DNL Target]richiesta restituisce /* nessun display - host mbox non autorizzato */.**
 
-Se una chiamata mbox viene effettuata su un host non autorizzato, la chiamata risponderà con /* no display - unauthorized mbox host */.
+If a [!DNL Target] request is made on an unauthorized host, the request will respond with /* no display - unauthorized mbox host */.
