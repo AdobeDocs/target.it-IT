@@ -1,12 +1,15 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: Se nella pagina non viene visualizzato il contenuto previsto, potete effettuare alcune operazioni per eseguire il debug della distribuzione dei contenuti in Adobe Target.
-title: Risoluzione dei problemi di distribuzione dei contenuti in Adobe Target
+description: Se nella pagina non viene visualizzato il contenuto previsto, è possibile eseguire il debug della distribuzione del contenuto in  Adobe Target.
+title: Risoluzione dei problemi di distribuzione dei contenuti in  Adobe Target
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1313'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +19,10 @@ source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
 Se nella pagina non viene visualizzato il contenuto previsto, puoi adottare alcune misure per eseguire il debug della distribuzione dei contenuti.
 
 * Controlla con attenzione il codice relativo all’attività o alla campagna. Un errore di battitura o di altro tipo potrebbe causare la mancata visualizzazione del contenuto previsto.
-* Utilizza mboxTrace o mboxDebug per eseguire la risoluzione dei problemi su mbox.
-* Adobe Experience Cloud Debugger è uno strumento facile da usare che fornisce molte informazioni in comune con mboxDebug, per risolvere i problemi di mbox.
+* Use mboxTrace or mboxDebug to troubleshoot the [!DNL Target] request.
+* Use the Adobe Experience Cloud Debugger, an easy-to-use tool that provides much of the same information as mboxDebug, to troubleshoot the [!DNL Target] request.
 
-mboxDebug è particolarmente utile quando esegui la configurazione di Target sulla pagina, per assicurarti che la mbox sia attiva e il cookie sia impostato. Tuttavia, non fornisce il livello di dettaglio necessario durante il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
+mboxDebug is especially useful when you are setting up [!DNL Target] on your page to make sure the [!DNL Target] request is firing and the cookie is being set. Tuttavia, non fornisce il livello di dettaglio necessario durante il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
 
 ## Recuperare il token di autorizzazione per gli strumenti di debug {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -39,7 +42,7 @@ Per recuperare il token di autorizzazione:
 
 ## mboxTrace {#section_256FCF7C14BB435BA2C68049EF0BA99E}
 
-mboxTrace consente di ricevere informazioni di tracciamento collegate alle risposte mbox. Le informazioni di tracciamento riflettono il risultato di una chiamata mbox (ad esempio, una conversione o un’impressione) ed eventuali dati ulteriori che possono aiutare a determinare perché sia stato ottenuto questo particolare risultato, ad esempio un insieme di rami disponibili tra i quali è stata effettuata la selezione in una campagna. Esegui il debug della distribuzione dei contenuti con queste informazioni.
+mboxTrace enables you to receive trace information attached to [!DNL Target] responses. Trace information reflects the outcome of a [!DNL Target] call (for example, a conversion or an impression) and any additional data that may help in determining why this particular outcome happened, such as a set of available branches among which the selection was made in a campaign. Esegui il debug della distribuzione dei contenuti con queste informazioni.
 
 Sono disponibili i seguenti parametri:
 
@@ -78,7 +81,7 @@ mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visit
 
 ## mboxDebug {#mboxdebug}
 
-Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. Nella tabella seguente sono incluse le informazioni sui parametri URL relativi a mbox.
+Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. The following table contains information about [!DNL Target] response-related URL parameters.
 
 >[!NOTE]
 >
@@ -86,11 +89,11 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 | Parametri URL | Finalità |
 |--- |--- |
-| `mboxDebug=1` | Debugger<br>L’aggiunta di questo parametro a qualsiasi URL con mbox definito determina l’apertura di una finestra a comparsa con dettagli utili sul debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL mbox. Fai clic su un URL mbox per visualizzare la risposta per quella mbox. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | <br>DebuggerL&#39;aggiunta di questo parametro a qualsiasi URL con richieste Target definite apre una finestra a comparsa con utili dettagli di debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL Click on a Target request URL to show the response for that [!DNL Target] request. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Modifica il cookie |
 | `mboxDisable=1` | Disattiva le mbox sulla pagina |
 | `mboxDebug=x-profile` | Visualizza i profili impostati. |
-| `mboxDebug=x-time` | Mostra il tempo di risposta per ogni richiesta mbox |
+| `mboxDebug=x-time` | Show response time for each [!DNL Target] request |
 | `mboxOverride.browserIp=<Insert IP address>` | Testa geotargeting<br>Testa il geotargeting con questo parametro URL. Digita un indirizzo IP come valore per questo attributo e il geotargeting di Test&amp;Target valuterà tale indirizzo IP rispetto a qualsiasi geotargeting o segmentazione impostata in una campagna. |
 
 >[!NOTE]
@@ -99,7 +102,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
+Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Effettuate l&#39;autenticazione nell&#39;Experience Cloud  e potete utilizzare il potente strumento MboxTrace per ispezionare le qualifiche dell&#39;attività, del pubblico e del profilo del visitatore.
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
@@ -111,21 +114,21 @@ Se target.js non viene caricato durante la distribuzione, mbox.js invia al visit
 
 ## Gli articoli più venduti non compaiono in Consigli {#section_3920C857270A406C80BE6CBAC8221ECD}
 
-La mbox *`SIteCatalyst: purchase`* non può essere utilizzata per i dati del traffico algoritmo di acquisto. Utilizza invece la mbox *`orderConfirmPage`*.
+The *`SiteCatalyst: purchase`* call can&#39;t be used for Purchase algorithm traffic data. Utilizzate invece la *`orderConfirmPage`* chiamata.
 
 ## Controllo priorità dell’attività {#section_3D0DD07240F0465BAF655D0804100AED}
 
-Le attività basate su modelli create con [!DNL Target Standard/Premium] potrebbero entrare in conflitto con le attività create nell’interfaccia utente di [!DNL Target Classic] che hanno la stessa priorità e utilizzano la stessa mbox.
+Form-based activities created with [!DNL Target Standard/Premium] might collide with activities created in the [!DNL Target Classic] UI that have the same priority and use the same [!DNL Target] request.
 
 ## Il codice personalizzato non produce i risultati previsti in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target non supporta più Internet Explorer 8.
 
-## Il contenuto JavaScript distribuito da mbox globale che non viene caricato quando si utilizza mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
+## JavaScript content delivered by the global [!DNL Target] request doesn&#39;t load when using mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
 
 Effettua l’aggiornamento a [!DNL mbox.js] versione 58 o successiva.
 
-La versione 58 o successiva di mbox.js esegue il contenuto non-JavaScript per la mbox globale subito dopo il tag HTML `BODY`. Il contenuto JavaScript all’interno dei tag `<script>` per la mbox globale viene eseguito dopo che l’attivazione dell’evento `DOMContentLoaded`. Questo ordine di consegna dei contenuti assicura che il contenuto JavaScript per la mbox globale sia consegnato e renderizzato correttamente.
+mbox.js version 58 and later executes non-JavaScript content for the global [!DNL Target] request immediately after the HTML `BODY` tag is present. JavaScript content inside `<script>` tags for the global [!DNL Target] request executes after the `DOMContentLoaded` event is fired. This order of content delivery ensures that JavaScript content for the global [!DNL Target] request is delivered and rendered properly.
 
 ## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
@@ -141,27 +144,27 @@ Per ovviare a questo problema, puoi disabilitare la personalizzazione AEM nelle 
 
 Se l’offerta di reindirizzamento o l’offerta remota utilizza un URL non valido, la sua consegna potrebbe non riuscire.
 
-Per le offerte di reindirizzamento, la risposta della mbox può contenere `/* invalid redirect offer URL */`
+For redirect offers, the [!DNL Target] response can contain `/* invalid redirect offer URL */`
 
 Oppure
 
-Per le offerte remote, la risposta della mbox può contenere `/* invalid remote offer URL */`
+For remote offers, the [!DNL Target] response can contain `/* invalid remote offer URL */`
 
-Puoi controllare la risposta mbox nel browser o utilizzare mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
+You can check the [!DNL Target] response in the browser or using mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Le mbox non si attivano sul sito.
+## Le richieste Target non vengono visualizzate sul sito.
 
-at.js non attiva le mbox di Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
+at.js non invia richieste Target se si utilizza un doctype non valido. at.js richiede il doctype HTML5.
 
 ## Video di formazione
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Aggiungi estensione Badge ![Tutorial](/help/assets/tutorial.png)
+### Aggiungi estensione ![Badge di esercitazione](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Badge ![Esercitazione debug Target di base](/help/assets/tutorial.png)
+### Badge ![Esercitazione di debug Target di base](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
