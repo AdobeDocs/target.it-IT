@@ -1,11 +1,14 @@
 ---
-keywords: impostazioni;priorità
-description: Adobe Target determina l'attività (o le attività) da distribuire a una pagina in modo diverso a seconda dell'interfaccia di Target e della funzione di creazione dell'attività (Visual Experience Composer (Compositore esperienza visivo) o di un compositore basato su moduli) che utilizzate.
-title: Priorità in Adobe Target
+keywords: settings;priority
+description: ' Adobe Target determina quale attività (o attività) distribuire a una pagina in modo diverso a seconda dell''interfaccia Target e della funzione di creazione dell''attività (Visual Experience Composer (Compositore esperienza visivo) o di Compositore basato su modulo) in uso.'
+title: Priorità in  Adobe Target
 topic: Standard
 uuid: 114cd625-2716-4c4c-983b-a7f677717b07
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1167'
+ht-degree: 88%
 
 ---
 
@@ -14,7 +17,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Target determina in modo diverso l’attività (o le attività) da consegnare a una pagina, a seconda dell’interfaccia di Target e della funzione di creazione attività (Compositore esperienza visivo o Compositore basato su moduli) che stai utilizzando.
 
-## Solo Compositore esperienza visivo di Target Standard/Premium o solo Compositore esperienza basato su moduli con mbox globale {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se la tua società utilizza esclusivamente il Compositore esperienza visivo di Target Standard/Premium, per la stessa chiamata possono essere restituiti i contenuti da più attività. Le attività vengono consegnate in base al seguente flusso decisionale:
 
@@ -46,8 +49,8 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
 
 Se la tua società utilizza il compositore basato su moduli di Target Standard/Premium e il Compositore esperienza visivo di Target Standard/Premium, può essere fornito il contenuto di più attività del Compositore esperienza visivo, ma solo un’attività dal flusso di lavoro basato su moduli. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server di Target contiene le informazioni sulla mbox e sull’URL.
-1. Target Classic e Standard richiamano ogni attività in esecuzione in quella mbox.
+1. Target server call comes to Target with information about the [!DNL Target] request and URL.
+1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
 1. Target tenta di stabilire la corrispondenza tra il visitatore e le attività.
 
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
@@ -63,17 +66,17 @@ In presenza di due attività, una con targeting impostato sulla parola chiave di
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## Compositore esperienza basato su moduli di Target Standard/Premium con mbox non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Queste informazioni si applicano anche alle campagne in esecuzione che sono state create in Target Classic.
 
-Se l’azienda utilizza mbox diverse da mbox globali nel compositore basato su moduli, può essere restituito solo il contenuto di una attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
+If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server di Target contiene le informazioni sulla mbox e sull’URL.
-1. Target richiama ogni attività in esecuzione su tale mbox.
-1. Target tenta di stabilire la corrispondenza tra il visitatore e l’attività con priorità più elevata.
+1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
+1. [!DNL Target] richiama ogni attività in esecuzione in quella [!DNL Target] richiesta.
+1. [!DNL Target] tenta di stabilire la corrispondenza tra il visitatore e l’attività con priorità più elevata.
 
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
 
@@ -88,7 +91,7 @@ Se l’azienda utilizza mbox diverse da mbox globali nel compositore basato su m
 >
 >I valori di priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999. Per ulteriori informazioni, consulta [Impostazioni attività](../c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Due campagne di Target Classic utilizzano mbox non globali**
+**Due campagne Target Classic utilizzano richieste Target non globali**
 
 * Campagna 1: homePageHero, offer1, priorità alta
 * Campagna 2: homePageHero, offer2, priorità bassa
@@ -136,4 +139,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
