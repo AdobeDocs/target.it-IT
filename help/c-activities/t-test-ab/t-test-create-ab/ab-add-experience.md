@@ -4,7 +4,10 @@ description: Il Compositore esperienza visivo di Adobe Target offre un’interfa
 title: Aggiungi esperienza
 uuid: 9cb4c897-8701-4737-aec8-b0d4f5d62b94
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '457'
+ht-degree: 90%
 
 ---
 
@@ -27,7 +30,7 @@ Per ulteriori dettagli sulle esperienze, vedi [Esperienze](../../../c-experience
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza.
 
-   Se hai creato una mbox sulla pagina utilizzando Target Classic (già Test&amp;Target), questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
+   If you created a [!DNL Target] request on the page using Target Classic (formerly Test&amp;Target), that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    Per un elenco delle azioni che possono essere eseguite su un elemento nella pagina visualizzata per modificare l&#39;esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
