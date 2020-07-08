@@ -1,29 +1,32 @@
 ---
-keywords: punteggio di acquisizione;punteggio
-description: La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
+keywords: capture score;score
+description: La metrica di coinvolgimento Capture Score calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima visualizzazione della richiesta Target della campagna.
 title: Punteggio di acquisizione
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '770'
+ht-degree: 52%
 
 ---
 
 
 # Punteggio di acquisizione{#capture-score}
 
-La metrica di coinvolgimento “Punteggio di acquisizione” calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione della campagna.
+The Capture Score engagement metric calculates an aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the campaign&#39;s first display [!DNL Target] request.
 
-Nell'esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l'immagine di un gatto e l'altra con l'immagine di un cane.
+Nell&#39;esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l&#39;immagine di un gatto e l&#39;altra con l&#39;immagine di un cane.
 
 ![](assets/example_score.png)
 
-In questo esempio, il primo visitatore sperimenta l'esperienza del gatto. Supponiamo che una mbox globale passi in un punteggio di pagina in base al valore della pagina. Se l’esperto di marketing ha raccolto il coinvolgimento del conteggio delle pagine su una metrica di successo associata a `**any mbox**`, il punteggio di visita si accumula per qualsiasi mbox di richiesta visto dopo la mbox di visualizzazione intorno all’immagine del gatto.
+In questo esempio, il primo visitatore sperimenta l&#39;esperienza del gatto. Assume that a global [!DNL Target] request passes in a page score based on the value of the page. If the marketer has captured page count engagement on a success metric associated with `**any Target request**`, the visit score accumulates for any request seen after the display request around the cat image.
 
-La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo potrebbe essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l'esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
+La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e la quarta 0,10 per un totale di 1,45. Questo potrebbe essere interpretato come valuta o punti. In una visita diversa, un visitatore sperimenta l&#39;esperienza del cane e anche se il visitatore vede meno pagine, il punteggio è 2,10, quindi maggiore di altre visite, perché il visitatore ha visualizzato pagine con maggiore valore.
 
-Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. Nota che, in questo esempio, entrambe le mbox nella pagina dell'articolo passano un punteggio, possibilmente rappresentando un CPM noto.
+Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. Notice that, in this example, both [!DNL Target] requests on the article page pass a score, possibly representing a known CPM.
 
 ![](assets/example_score2.png)
 
@@ -33,30 +36,30 @@ Puoi assegnare un valore a qualsiasi pagina del tuo sito in base a ciò al valor
 
 Esistono due metodi per assegnare un punteggio a una pagina:
 
-* Nel codice mbox, crea un parametro mbox chiamato `mboxPageValue`.
+* Nella [!DNL Target] richiesta, create un parametro denominato `mboxPageValue`.
 
    Esempio: `('global_mbox', 'mboxPageValue=10');`
 
-   Il valore specificato viene aggiunto al punteggio ogni volta che viene visualizzata la pagina con tale mbox. Se più mbox nella pagina includono valori di punteggio, il punteggio per la pagina è il totale di tutti i valori mbox. `mboxPageValue` è un parametro riservato usato per la trasmissione dei valori in una mbox per acquisire un punteggio di coinvolgimento. Possono essere trasmessi valori positivi e negativi. La somma è calcolata alla fine della visita di ogni visitatore per calcolare il punteggio totale per la visita.
+   The specified value is added to the score every time the page with that [!DNL Target] request is viewed. Se più richieste sulla pagina includono dei valori di punteggio, la valutazione della pagina corrisponde al totale di tutti i valori di richiesta. `mboxPageValue` è un parametro riservato utilizzato per trasmettere valori in una richiesta Target per acquisire un punteggio di coinvolgimento. Possono essere trasmessi valori positivi e negativi. La somma è calcolata alla fine della visita di ogni visitatore per calcolare il punteggio totale per la visita.
 
 * Passa il parametro `?mboxPageValue=n` nell’URL della pagina.
 
    Esempio: `https://www.mydomain.com?mboxPageValue=5`
 
-   Utilizzando questo metodo, il valore specificato viene aggiunto al punteggio per ogni mbox nella pagina. Ad esempio, se passi il parametro `?mboxPageValue=10` e ci sono tre mbox sulla pagina, il punteggio per la pagina è di 30.
+   Using this method, the specified value is added to the score for each [!DNL Target] request on the page. For example, if you pass the parameter `?mboxPageValue=10`and there are three [!DNL Target] requests on the page, the score for the page is 30.
 
 >[!NOTE] {class=“- topic/note ”}
 >
->Le mbox situate sopra la prima mbox visualizzata della campagna non saranno incluse nel punteggio.
+>Le richieste Target che si trovano al di sopra della prima richiesta di visualizzazione [!DNL Target] dell&#39;attività non saranno incluse nella valutazione.
 
-La procedura consigliata consiste nell'assegnare valori nel codice mbox. Questo permette di essere precisi nei valori che misuri, a seconda del contenuto di ogni mbox.
+Best practice is to assign values in the [!DNL Target] request. Questo consente di essere precisi nei valori misurati, a seconda del contenuto di ogni richiesta.
 
 >[!NOTE] {class=“- topic/note ”}
 >
->Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell'account per l'assistenza.
+>Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell&#39;account per l&#39;assistenza.
 
-È possibile combinare i due metodi, ma questo potrebbe causare un punteggio più alto del previsto. Ad esempio, se assegni un valore di 10 a ciascuna delle tre mbox e nessun punteggio a una quarta mbox, passando infine il parametro URL `?mboxPageValue=5`, il tuo punteggio di pagina sarà 50, di cui 30 per le tre mbox con i valori assegnati e 5 per ciascuna delle quattro mbox sulla pagina.
+È possibile combinare i due metodi, ma questo potrebbe causare un punteggio più alto del previsto. For example, if you assign a value of 10 to each of three [!DNL Target] requests and no score to a fourth request, then pass the URL parameter `?mboxPageValue=5`, your page score will be 50, 30 for the three requests with assigned values, and then 5 for each of the four requests on the page.
 
-Il contatore inizia con la prima mbox visualizzata, non la mbox di ingresso. Ad esempio, se immetti la campagna sulla pagina principale che non ha una mbox visualizzata, poi colleghi alla pagina del catalogo contenente una mbox visualizzata, il contatore inizia quando si passa alla pagina del catalogo.
+Il contatore inizia con la prima richiesta di visualizzazione, non con la richiesta di ingresso. Ad esempio, se immettete l&#39;attività nella home page che non dispone di una richiesta di visualizzazione, e quindi il collegamento alla pagina del catalogo contenente una richiesta di visualizzazione, il contatore inizia quando passate alla pagina del catalogo.
 
 Inoltre puoi passare in valori negativi su alcune pagine che costano o non è opportuno che un visitatore le veda. Anche i valori negativi influiscono sul punteggio complessivo. Questa tecnica può essere utilizzata su una pagina che i visitatori raggiungono da un annuncio, in modo da sapere quanto è stato il CPC. Oppure, per esempio, può essere utilizzata per una pagina di supporto o di contatto, dalla quale sai che i visitatori potrebbero chiamare o richiedere assistenza.
