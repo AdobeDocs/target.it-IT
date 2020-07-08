@@ -4,10 +4,10 @@ description: Informazioni sugli eventi in programma, comprese le sessioni di Tar
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 2%
+source-wordcount: '97'
+ht-degree: 0%
 
 ---
 
@@ -15,22 +15,6 @@ ht-degree: 2%
 # Annunci ed eventi Target
 
 Informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni di Target Coffee Break.
-
-##  Adobe Target Interruzione caffè D e R Community
-
-* **Mercoledì 8 luglio**
-* **10:00 - 11:00 (PST)**
-
-A noi parteciperà Rob Hornick, Senior  Adobe Target Product Manager, che verrà registrato nella community del Adobe Target  per chattare direttamente con voi sulle vostre domande Target relative alle aree di competenza:
-
-* Personalizzazione
-* Apprendimento automatico e intelligenza artificiale
-* Consigli
-* Allocazione automatica
-* Targeting automatico
-* Personalizzazione automatizzata
-
-Per effettuare la registrazione, [visita la comunità](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-7-8-rob-hornick-adobe-target/td-p/369558) Adobe Target.
 
 ##  Generatore di abilità Adobe Target: Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js {#skill-builder}
 
