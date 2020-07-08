@@ -1,11 +1,14 @@
 ---
-keywords: creare un’esperienza;creazione di esperienza;priorità;pubblico;esperienza;compositore esperienza visivo
+keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina in un’attività Targeting esperienza.
 title: Creare esperienze
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '962'
+ht-degree: 93%
 
 ---
 
@@ -24,7 +27,7 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza visivo. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l’esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Se hai creato una mbox sulla pagina utilizzando [!DNL Target Classic], questa viene visualizzata come un elemento che mostra il nome della mbox, e può essere modificata come qualsiasi altro elemento.
+   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
 
    >[!NOTE]
    >
@@ -42,7 +45,7 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
    >
    >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Durante la creazione di un pubblico, puoi selezionare una posizione (mbox) e specificarne i parametri. In [!UICONTROL Personalizzato] (Crea pubblico &gt; Aggiungi regola &gt; Personalizzato), seleziona la mbox e specifica i parametri desiderati.
+   Quando create un&#39;audience, potete selezionare una posizione e specificare i parametri per tale posizione. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
    >[!NOTE]
    >
@@ -76,7 +79,7 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
 
    Nel [!UICONTROL targeting delle esperienze] si presuppone che l’ordine sia rilevante. Se un visitatore rientra nella prima coppia Pubblico/Esperienza, viene consegnata la prima esperienza.
 
-   Supponi, ad esempio, di non sapere che l’ordine è importante durante la creazione di un’attività di targeting esperienze. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l'esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell'ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l'esperienza A, sia che si trovino a San Francisco o altrove in California. È possibile riordinare le coppie Pubblico/Esperienza da più restrittive a meno restrittive (San Francisco &gt; California &gt; Stati Uniti) senza ricreare l'intera attività.
+   Supponi, ad esempio, di non sapere che l’ordine è importante durante la creazione di un’attività di targeting esperienze. Successivamente, ti rendi conto durante i test che i visitatori che ritenevi più idonei per le esperienze B o C sono invece qualificati per l&#39;esperienza A. Questo potrebbe essere perché i tipi di pubblico non si escludono a vicenda e non sono nell&#39;ordine corretto (per esempio, esperienza A = Stati Uniti, esperienza B = San Francisco ed esperienza C = California). In questo scenario, tutti gli utenti degli Stati Uniti si qualificano per l&#39;esperienza A, sia che si trovino a San Francisco o altrove in California. È possibile riordinare le coppie Pubblico/Esperienza da più restrittive a meno restrittive (San Francisco > California > Stati Uniti) senza ricreare l&#39;intera attività.
 
    Se hai un pubblico [!UICONTROL Tutti i visitatori], assicurati che questo non sia il primo pubblico nel diagramma. Un’esperienza rivolta a “Tutti i visitatori” può essere utilizzata come ultima esperienza nell’attività di targeting delle esperienze in modo da includere i visitatori che non sono rientrati in nessun’altra esperienza.
 
@@ -99,7 +102,7 @@ Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavor
 
 È possibile copiare un’esperienza in un’attività di Targeting esperienza (XT) così da poter apportare modifiche minori senza dover ricreare l’esperienza da zero.
 
-Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui tre puntini di sospensione verticali &gt; **[!UICONTROL Duplica]**.
+Nella pagina **[!UICONTROL Esperienze]** (il primo passaggio del flusso di lavoro guidato in tre passaggi), fai clic sui tre puntini di sospensione verticali > **[!UICONTROL Duplica]**.
 
 ![Duplicare un’esperienza](/help/c-activities/t-experience-target/t-xt-create/assets/duplicate_experience-new.png)
 
@@ -115,17 +118,17 @@ Questo video descrive come effettuare un test A/B al livello successivo con il t
 * Scopri come distribuire contenuti specifici per il sito a un pubblico che si trova in aree geografiche diverse
 * Descrivi come riordinare le esperienze per garantire che il contenuto corretto venga distribuito al pubblico giusto
 
->[!VIDEO](https://video.tv.adobe.com/v/22418/?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/22418/)
 
 ### Tipi di attività (9:03)
 
-Questo video spiega i tipi di attività disponibili in Target Standard/Premium. L'esperienza di targeting è trattata a partire dal minuto 5:15.
+Questo video spiega i tipi di attività disponibili in Target Standard/Premium. L&#39;esperienza di targeting è trattata a partire dal minuto 5:15.
 
 * Descrizione dei tipi di attività inclusi in [!DNL Adobe Target]
 * Selezionare il tipo di attività appropriato per i tuoi obiettivi
 * Descrizione del flusso di lavoro guidato in tre passaggi da applicare a tutti i tipi di attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17386?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17386)
 
 ### Utilizzo del Compositore esperienza visivo
 
@@ -134,4 +137,4 @@ Questo video fornisce informazioni sull’utilizzo delle opzioni del Compositore
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
->[!VIDEO](https://video.tv.adobe.com/v/17399?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17399)
