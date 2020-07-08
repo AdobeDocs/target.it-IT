@@ -1,10 +1,13 @@
 ---
-keywords: dati ambiente;dati sessione;dati geografici;dati geo;dati dispositivo;dati mobili;attributi;attributi profilo
+keywords: environmental data;session data;geo data;geographical data;device data;mobile data;attributes;profile attributes
 description: Adobe Target raccoglie e utilizza automaticamente una varietà di dati per creare gli algoritmi di personalizzazione nelle attività di Personalizzazione automatizzata e Targeting automatico. Quando un visitatore accede a un’attività di Personalizzazione automatizzata e Targeting automatico, viene trasmessa un’istantanea di informazioni a un set di “record di apprendimento” (i dati del visitatore su cui si baseranno gli algoritmi di personalizzazione).
 title: Raccolta di dati per gli algoritmi di personalizzazione di Adobe Target
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+workflow-type: tm+mt
+source-wordcount: '1755'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +27,7 @@ La tabella seguente mostra i dati raccolti da Personalizzazione automatica e Tar
 | Segmento Experience Cloud | Tipi di pubblico creati in Audience Manager o Analytics e condivise in Experience Cloud | `Custom - Experience Cloud Audience - [Audience Name]` | Dati personalizzati |
 | [Dati geografici](#geo) | Informazioni su dove si trova il visitatore.<br>Vedi “Dati geografici”, di seguito. | `Geo - [geo attribute]` | Città<br>Paese<br>Provincia/Stato<br>Codice postale<br>Latitudine<br>Longitudine<br>ISP o gestore di telefonia mobile |
 | Attributi del profilo | Script di profilo o attributi direttamente caricati nel profilo di Target tramite l’API di aggiornamento | `Custom - Visitor Profile - [attribute name]` | Dati personalizzati |
-| Parametri URL di riferimento | In generale, l’URL di riferimento (o di provenienza) è quello contenente il riferimento a una pagina particolare che ha avviato la chiamata mbox.<br>Questa variabile può essere influenzata dall’attività degli utenti sul sito e dall’implementazione tecnica del sito. | `Custom - [Referring URL Parameter] - [Parameter value]` | Dati personalizzati |
+| Parametri URL di riferimento | In generale, l’URL di riferimento è l’URL che fa riferimento a una particolare pagina che ha avviato la chiamata Target.<br>Questa variabile può essere influenzata dall’attività degli utenti sul sito e dall’implementazione tecnica del sito. | `Custom - [Referring URL Parameter] - [Parameter value]` | Dati personalizzati |
 | Segmenti di reporting | Qualsiasi segmento configurato nella configurazione dell’attività. | `Reporting Segment -[Segment Name]` | Dati personalizzati |
 | [Dati sessione](#session) | Informazioni sul comportamento del visitatore durante la sessione di accesso all’attività. | `Visitor Profile - [Attribute Name]` | Visitor Profile - Start of Most Recent Visit |
 | Parametri URL | Target esamina l’URL per estrarre i parametri URL. | `Custom - URL Parameter - [URL Parameter]` | Dati personalizzati |
@@ -96,13 +99,13 @@ Le sezioni seguenti contengono informazioni dettagliate sui vari tipi di dati, t
 | Visitor Profile - First Visit | Specifica l’ora della prima visita durante la quale il visitatore ha interagito con Target. | Doppio, millisecondi |
 | Visitor Profile - Hours since Last Visit | Specifica quante ore sono trascorse dall’ultima visita a questa attività specifica. | Doppio (solo numero intero positivo) 1, 2, 3, ecc. |
 | Visitor Profile - Impressions of Location/Content | Specifica il numero di impression per una particolare combinazione di posizione/contenuto in una particolare attività. | Doppio (solo numero intero positivo) 1, 2, 3, ecc. |
-| Visitor Profile - Last Target Interaction | Specifica l’ora dell’ultima interazione con Target. L’interazione si verifica per ogni richiesta mbox perché l’implementazione corrente di Target aggiorna il profilo a ogni richiesta. | Doppio, millisecondi |
+| Visitor Profile - Last Target Interaction | Specifica l’ora dell’ultima interazione con Target. Interaction happens on every [!DNL Target] request because the current implementation of [!DNL Target] updates the profile on each request. | Doppio, millisecondi |
 | Visitor Profile - Pages Seen Before Activity | Specifica il numero di visualizzazioni pagina (impression) totali, inclusa la visita/sessione corrente, fino a quando il visitatore accede all’attività. | Doppio (solo numero intero positivo) 1, 2, 3, ecc. |
 | Visitor Profile - Page Views in Current Visit | Specifica il numero di visualizzazioni pagina durante la visita/sessione corrente fino a quando il visitatore accede all’attività. Più precisamente, il numero di impression. Le impression non sono visualizzazioni di pagina reali, ma piuttosto quante volte la richiesta è stata ricevuta da Target. Target non è in grado di distinguere tra timeout o altri motivi per cui l’utente potrebbe non ricevere o visualizzare effettivamente il contenuto. | Doppio (solo numero intero positivo). |
-| Visitor Profile - Start of Current Visit | Specifica l’ora in cui è iniziata la visita/sessione corrente con Target. La visita con Target può essere avviata senza accedere a un’attività. È determinata solo da una chiamata a un qualsiasi elemento mbox. Potrebbe trascorrere un po’ di tempo prima che il visitatore acceda all’attività e venga acquisita l’istantanea. | Doppio, millisecondi |
+| Visitor Profile - Start of Current Visit | Specifica l’ora in cui è iniziata la visita/sessione corrente con Target. La visita con Target può essere avviata senza accedere a un’attività. All that is required is a call to any [!DNL Target] request. Potrebbe trascorrere un po’ di tempo prima che il visitatore acceda all’attività e venga acquisita l’istantanea. | Doppio, millisecondi |
 | Visitor Profile - Start of Most Recent Visit | Specifica l’ora in cui è iniziata l’ultima visita/sessione con Target. Questo attributo viene aggiornato alla scadenza della sessione.<br>Se si tratta della prima sessione del visitatore, verrà generato `LAST_SESSION_START = 0.` | Doppio, millisecondi |
 | Visitor Profile - Time Since Most Recent Visit When First Enter Activity | Specifica il tempo trascorso tra la sessione precedente e il momento in cui l’utente accede all’attività e viene acquisita l’istantanea. | Doppio, millisecondi |
-| Visitor Profile - Time in Visit Before Enter Activity | Specifica la differenza tra l’ultima interazione con Target e l’inizio della visita corrente. Questo attributo può essere considerato come durata della visita/sessione fino al momento in cui l’utente accede all’attività e viene acquisita l’istantanea.<br>Vengono riportati valori negativi quando l’inizio della sessione e l’ultima ora di aggiornamento vengono attivati dalla stessa chiamata mbox. I valori negativi devono essere considerati 0 (zero). | Doppio, millisecondi |
+| Visitor Profile - Time in Visit Before Enter Activity | Specifica la differenza tra l’ultima interazione con Target e l’inizio della visita corrente. Questo attributo può essere considerato come durata della visita/sessione fino al momento in cui l’utente accede all’attività e viene acquisita l’istantanea.<br>[!DNL Target]Vengono riportati valori negativi quando l’inizio della sessione e l’ultima ora di aggiornamento vengono attivati dalla stessa chiamata I valori negativi devono essere considerati 0 (zero). | Doppio, millisecondi |
 | Profilo visitatore - Visite totali | Specifica il numero totale di visite/sessioni. La visita/sessione corrente non è inclusa. | Doppio (solo numero intero positivo) 1, 2, 3, ecc. |
 | Visitor Profile - Total Visits to Activity | Specifica il numero di visite a una particolare attività. Se non è presente alcuna visita precedente, viene restituito 0 (zero). | Doppio (solo numero intero positivo) 1, 2, 3, ecc. |
 | Visitor Profile - Total Visits to Activity with Conversion | Specifica il numero di visite/sessioni a una particolare attività nel corso delle quali si è verificata almeno una conversione. | Doppio |
