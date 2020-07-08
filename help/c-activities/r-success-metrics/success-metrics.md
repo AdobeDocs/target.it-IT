@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;success;conversion metric;page score metric;page views metric;revenue metrics;time on site metric;estimated value;advanced settings;success metrics
-description: In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
-title: Metriche di successo in Adobe Target
+description: In  Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
+title: Metriche di successo in  Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
 workflow-type: tm+mt
-source-wordcount: '1019'
-ht-degree: 92%
+source-wordcount: '1020'
+ht-degree: 83%
 
 ---
 
 
 # Metriche di successo{#success-metrics}
 
-In Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
+In  Adobe Target, le metriche di successo sono preconfigurate a scopo di reporting e tracciamento.
 
 Le metriche di successo sono parametri utilizzati per misurare il successo di un’attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività Target. Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello può aumentare il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
@@ -35,14 +35,14 @@ Sono disponibili le seguenti metriche di successo:
 | Conversione | Basato su conversione | La conversione si verifica quando un visitatore esegue sul tuo sito un’azione da te definita (clic su un pulsante, visualizzazione di una pagina, completamento di un sondaggio o acquisto). Una conversione può essere conteggiata una volta per ogni visitatore o ogni volta che un visitatore completa una conversione. |
 | Ricavi | Basato su conversione | Ricavi generati dalla visita. Puoi scegliere tra le seguenti metriche collegate ai ricavi:<ul><li>Ricavo per visitatore (RPV)</li><li>Valore medio dell’ordine (AOV)</li><li>Vendite totali</li></ul> |
 | Visualizzazioni pagina | Basato su coinvolgimento | Ogni visita univoca viene conteggiata come conversione. |
-| Tempo sul sito | Basato su coinvolgimento | Il tempo trascorso (in secondi) dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell&#39;attività fino al caricamento della pagina finale con una mbox nella sessione. |
-| Punteggio personalizzato | Basato su coinvolgimento | Punteggio aggregato in base al valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima mbox di visualizzazione dell&#39;attività. |
+| Tempo sul sito | Basato su coinvolgimento | Tempo trascorso nella visita (in secondi) dal momento in cui il visitatore vede la prima richiesta Target di visualizzazione dell&#39;attività al caricamento della pagina finale con una richiesta nella sessione. |
+| Punteggio personalizzato | Basato su coinvolgimento | Aggregated score based on the value assigned to pages visited on the site, from the point the visitor first sees the activity&#39;s first display [!DNL Target] request. |
 
 Per le metriche basate su coinvolgimento (a differenza delle metriche basate su conversione e su ricavo), i visitatori devono riqualificarsi per l&#39;attività in ciascuna posizione per incrementare il conteggio per quella sessione. La metrica associata inizia ad aumentare dopo la riqualificazione e termina alla fine di ogni sessione del visitatore. Una visita termina dopo 30 minuti di inattività. Di conseguenza, i risultati non vengono visualizzati immediatamente durante la verifica, tuttavia tutti i risultati della sessione sono disponibili entro pochi minuti dalla stessa.
 
 Inoltre puoi creare metriche di successo personalizzate.
 
-Dopo aver selezionato la metrica di successo, seleziona l’azione eseguita da un visitatore per raggiungere l’obiettivo. Ad esempio, scegli una metrica di conversione, impostala per il conteggio una volta per ogni visitatore, quindi definisci se il successo viene ottenuto quando un visitatore visualizza una determinata pagina (o insieme di pagine), visualizza una determinata mbox o fa clic su un collegamento specifico.
+Dopo aver selezionato la metrica di successo, seleziona l’azione eseguita da un visitatore per raggiungere l’obiettivo. For example, choose a Conversion metric, set it to be counted once per visitor, then set whether success is achieved when a visitor views a certain page (or set of pages), views a specific [!DNL Target] request, or clicks a specific link.
 
 Se attivato, il campo del Valore stimato di una conversione (non disponibile per la metrica Punteggio di pagina) fornisce un valore per l’obiettivo, ma non per altre metriche. Questo valore consente a [!DNL Target] di calcolare un incremento stimato dei ricavi. Questo campo è facoltativo; tuttavia, i ricavi incrementali per eventuali metriche non collegate ai ricavi non possono essere calcolate senza di esso. Per tutte le metriche collegate ai ricavi (Ricavo per visitatore, Valore ordine medio, Vendite totali e Ordini), la stima utilizza Ricavo per visitatore. I dati sono di tipo valuta. Consulta [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni.
 
