@@ -5,7 +5,10 @@ title: Parametri personalizzati in Adobe Target
 topic: Standard
 uuid: a9eb62a6-e86a-4e7b-922c-ad87570435ba
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: e78cba101db2c5fb6c7d98130cb78b1b295c9f34
+workflow-type: tm+mt
+source-wordcount: '412'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +29,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 
    * Mentre crei un nuovo pubblico, seleziona il nome di un parametro dall&#39;elenco, comincia a digitare i primi caratteri del parametro desiderato o il nome intero.
    * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
+
    Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il pubblico funzionerà sulla base del parametro su tutte le mbox che trasmettono tale parametro.
 
    Se modifichi un pubblico esistente, i criteri di filtraggio vengono visualizzati con il nome mbox fornito durante la creazione.
@@ -35,6 +39,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
    * Contiene (senza distinzione maiuscole/minuscole)
    * Non contiene (senza distinzione maiuscole/minuscole)
    * È uguale a
+
    ![Parametro per pubblico Personalizzato](/help/c-target/c-audiences/c-target-rules/assets/custom.png)
 
 1. Inserisci ciascun valore in una nuova riga.
@@ -50,7 +55,7 @@ I [dettagli della definizione di una scheda a comparsa](../../../c-target/c-audi
 ## Considerazioni {#considerations}
 
 * I tipi di pubblico e le attività vengono valutati per una mbox specifica. Ad esempio, se la mbox globale trasmette un determinato parametro, ma la mbox regionale non lo fa, il targeting per attività/pubblico non verrà qualificato per la mbox regionale.
-* Il targeting non viene valutato sui parametri mbox interni, come mboxPC, mboxSession, mbox3rdPartyId, mboxCount, mboxId e mboxVersion.
+* Il targeting non viene valutato sui parametri mbox interni, come mboxPC, mboxSession, mbox3rdPartyId, mboxMCSDID, mboxMCAVID, mboxMCGVID, mboxCount, mboxId e mboxVersion.
 
 ## Video di formazione: Creazione del contrassegno ![Esercitazione sull&#39;audience](/help/assets/tutorial.png)
 
