@@ -5,7 +5,10 @@ title: Tasso di conversione
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1621'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +21,7 @@ Nell’illustrazione seguente viene mostrata l’intestazione del grafico per un
 
 ![](assets/conversion-rate.jpg)
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >In tutti i dati, gli ordini duplicati vengono ignorati se viene passato un `orderID`. Nel rapporto di audit vengono elencati gli ordini duplicati ignorati.
 
@@ -104,7 +107,7 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 
 Il [rapporto CSV scaricato](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-To calculate these calculated metrics, download the Target's [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity's value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -121,7 +124,7 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 **Per eseguire la funzione di esportazione dei dati di[!DNL Analytics]:**
 
 1. Accedi a [!DNL Adobe Analytics].
-1. Fai clic su **[!UICONTROL Strumenti]** &gt; **[!UICONTROL Data Warehouse]**.
+1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Data Warehouse]**.
 1. Compila i campi nella scheda di **[!UICONTROL Richiesta Data Warehouse]**.
 
    Per ulteriori informazioni su ogni campo, consulta “Descrizioni di Data Warehouse” in [Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse.html).
@@ -138,14 +141,14 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
 1. Fai clic su **[!UICONTROL Richiedi questo rapporto]**.
 
-   La consegna dei file può richiedere fino a 72 ore, a seconda della quantità di dati richiesti. Puoi controllare l’avanzamento della richiesta in qualsiasi momento facendo clic su [!UICONTROL Tools] &gt; [!UICONTROL Data Warehouse] &gt; [!UICONTROL Request Manager] (Strumenti &gt; Data Warehouse &gt; Gestione richieste).
+   La consegna dei file può richiedere fino a 72 ore, a seconda della quantità di dati richiesti. Puoi controllare l’avanzamento della richiesta in qualsiasi momento facendo clic su [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] (Strumenti > Data Warehouse > Gestione richieste).
 
    Per richiedere nuovamente dati già richiesti in passato, puoi duplicare una richiesta precedente da [!UICONTROL Request Manager] (Gestione richieste).
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Creare una richiesta di data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best practice di Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Creare una richiesta di Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best practice di Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -180,6 +183,6 @@ Per le attività Personalizzazione automatica (AP) al momento è supportata solo
 
    Una singola visita potrebbe includere diverse impression, ad esempio, della home page.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Di solito, questi conteggi sono determinati dai cookie e dalle attività di sessione. Tuttavia, se il visitatore raggiunge il punto di conversione finale di un’attività e quindi accede nuovamente all’attività, viene considerato come un nuovo partecipante e una nuova visita all’attività. Questo vale anche se i valori PCID e `sessionID` non cambiano.
