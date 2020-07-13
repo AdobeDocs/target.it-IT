@@ -5,9 +5,9 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1125'
 ht-degree: 26%
 
 ---
@@ -45,7 +45,7 @@ Per riconoscere un host e aggiungerlo all&#39;elenco [!UICONTROL Ospitanti] , è
 
 After the page is viewed, the host is listed in the [!UICONTROL Hosts] list, allowing you to manage it in an environment, as well as preview and launch activities and tests.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Questo include tutti i server di sviluppo personali.
 
