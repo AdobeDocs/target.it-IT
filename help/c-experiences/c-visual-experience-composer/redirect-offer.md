@@ -1,11 +1,14 @@
 ---
 description: Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 title: Reindirizzamento a un URL
-subtopic: Test multivariato
+subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '416'
+ht-degree: 100%
 
 ---
 
@@ -14,30 +17,30 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Utilizza questa opzione quando desideri reindirizzare il visitatore a una pagina diversa anziché mostrare il contenuto nella stessa pagina.
 
-Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all'interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l'altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull'etichetta della lettera dell'esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l'URL della pagina B. L'offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
+Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l&#39;URL della pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
-Nell'offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo tale che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
+Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo tale che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
 
 Le offerte di reindirizzamento implicano alcune limitazioni:
 
-* Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l'implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
-* Quando si utilizza il Compositore esperienza basato su moduli, le offerte di reindirizzamento non devono essere utilizzate su elementi mbox che fanno parte della pagina. Un'offerta di reindirizzamento deve essere utilizzata solo a partire da un tag script che fa parte del codice HTML `<head>`. Dovresti sempre utilizzare la funzione di creazione automatica e impostare l'offerta di reindirizzamento per l'elemento mbox globale.
+* Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Quando si utilizza il Compositore esperienza basato su moduli, le offerte di reindirizzamento non devono essere utilizzate su elementi mbox che fanno parte della pagina. Un&#39;offerta di reindirizzamento deve essere utilizzata solo a partire da un tag script che fa parte del codice HTML `<head>`. Dovresti sempre utilizzare la funzione di creazione automatica e impostare l&#39;offerta di reindirizzamento per l&#39;elemento mbox globale.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Per trasmettere il valore referente della pagina di destinazione, è consigliabile utilizzare un’offerta HTML anziché un’offerta di reindirizzamento.
 
-Per creare un'offerta di reindirizzamento:
+Per creare un&#39;offerta di reindirizzamento:
 
-1. Crea un'esperienza.
-1. Posiziona il puntatore del mouse su un'esperienza con il cursore, quindi fai clic sull'icona Reindirizza all'URL (![](assets/icon_redirect_url.png)).
+1. Crea un&#39;esperienza.
+1. Posiziona il puntatore del mouse su un&#39;esperienza con il cursore, quindi fai clic sull&#39;icona Reindirizza all&#39;URL (![](assets/icon_redirect_url.png)).
 
    ![](assets/exp_actions.png)
 
 1. Digita l’URL.
-1. Se desiderato, seleziona l'opzione per includere i parametri di query correnti.
+1. Se desiderato, seleziona l&#39;opzione per includere i parametri di query correnti.
 
-   Se questa opzione è selezionata, tutto ciò che segue il carattere ? nell'URL del visitatore viene aggiunto in coda all'URL di reindirizzamento al momento del reindirizzamento.
+   Se questa opzione è selezionata, tutto ciò che segue il carattere ? nell&#39;URL del visitatore viene aggiunto in coda all&#39;URL di reindirizzamento al momento del reindirizzamento.
 
    Questa opzione è selezionata per impostazione predefinita.
 1. (Facoltativo) Crea regole aggiuntive.
