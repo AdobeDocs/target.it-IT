@@ -5,7 +5,10 @@ title: Creare offerte di reindirizzamento
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '562'
+ht-degree: 98%
 
 ---
 
@@ -16,7 +19,7 @@ Con un’offerta di reindirizzamento, il browser viene reindirizzato a una nuova
 
 Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, nel test A/B vengono messe a confronto la pagina A e la pagina B. Configura una campagna di test A/B con due esperienze: una dirige alla pagina predefinita A e l&#39;altra reindirizza alla pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Non è possibile utilizzare le offerte di reindirizzamento in elementi mbox ajax (`mboxUpdate`).
 >
@@ -26,7 +29,7 @@ Per informazioni sulla configurazione di un’esperienza che effettua un redirec
 
 Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per reindirizzare il browser. Tale codice utilizza il metodo `window.location.replace();`, in modo che la pagina a cui il visitatore è reindirizzato non venga memorizzata nella cronologia del browser. Questo consente al visitatore di utilizzare il pulsante “Indietro” nel browser.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Per trasmettere il valore referente della pagina di destinazione, è consigliabile utilizzare un’offerta HTML anziché un’offerta di reindirizzamento.
 
@@ -51,11 +54,11 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
    Se si utilizza l&#39;impostazione cookie proprietario e di terze parti, non è necessario trasmetter l&#39;ID sessione mbox quando si attraversano i domini. È ripetuto nel cookie di terze parti, quindi non è necessario nell&#39;URL.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Chiedi al tuo consulente di implementazione prima di lanciare questi test.
 
-## Video di formazione: L’archivio dei contenuti (4:56) badge ![Panoramica](/help/assets/overview.png)
+## Video di formazione: L’archivio dei contenuti (4:56) ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto.
 
