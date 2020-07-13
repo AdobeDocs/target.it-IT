@@ -4,7 +4,10 @@ description: Utilizza il linguaggio di progettazione open-source Velocity per pe
 title: Personalizzare una progettazione con Velocity
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 9dc508ee3e4d11d8b1e83ba1397eb783805091eb
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '1010'
+ht-degree: 65%
 
 ---
 
@@ -114,7 +117,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 </table>
 ```
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Se desiderate aggiungere del testo dopo il valore di una variabile prima che un tag che indichi che il nome della variabile è terminato, potete farlo utilizzando la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
 
