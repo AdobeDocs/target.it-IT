@@ -1,10 +1,13 @@
 ---
-keywords: consigli;backup;back up
+keywords: recommendation;backup;back up
 description: Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 title: Utilizzare un consiglio di backup
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 32217a752574f671b790880667ac869443778f51
+workflow-type: tm+mt
+source-wordcount: '477'
+ht-degree: 100%
 
 ---
 
@@ -30,7 +33,7 @@ Questo processo di divisione in blocchi determina che i consigli di backup venga
 
 Senza la divisione in blocchi dei consigli di backup, il primo consiglio presentato potrebbe essere ad esempio il 499° elemento più visualizzato, seguito dal 200°, dal 380° e così via. Grazie al processo di divisione in blocchi, invece, gli articoli più visualizzati vengono consigliati per primi.
 
->[!NOTE] {class=“- topic/note ”}
+>[!NOTE]
 >
 >Se raggruppi gli articoli in cataloghi, anche i consigli di backup generati per ogni algoritmo all’interno dei consigli utilizzano questo catalogo; di conseguenza, nei consigli di backup vengono inclusi solo gli articoli del catalogo.
 
