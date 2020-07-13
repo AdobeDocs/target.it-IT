@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 79d7caf6-5693-4bb3-9131-8d1ae420fa5e
 translation-type: tm+mt
-source-git-commit: 1dc6fc4a9ad582cb4ace5394c5b9834aa8cd3f58
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 73%
+source-wordcount: '680'
+ht-degree: 72%
 
 ---
 
@@ -60,11 +60,11 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
       >[!IMPORTANT]
       >
-      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per consentire l&#39;elenco dei domini URL di reindirizzamento predefiniti. Target utilizza gli host per consentire l&#39;elenco dei domini ai quali si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare elenchi di autorizzazioni che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *ospitanti*.
+      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare Inserire nell&#39;elenco Consentiti di  che specificano gli host autorizzati a inviare chiamate mbox ad Target](/help/administrating-target/hosts.md#allowlist) in *host*.
 
 
 1. Convalida il Redirector.
-   1. *Best practice* di protezione: Assicurarsi che il dominio utilizzato nel redirector sia elencato, come indicato sopra. Se utilizzi un dominio non elencato, Adobe bloccherà tutte le chiamate a tale dominio per impedire agli attori dannosi di utilizzare il Redirector per reindirizzare a domini potenzialmente dannosi.
+   1. *Best practice* di protezione: Assicurarsi che il dominio utilizzato nel redirector sia inserito nell&#39;elenco Consentiti, come indicato sopra. Se utilizzi un dominio non inserito nell&#39;elenco Consentiti, Adobe bloccherà qualsiasi chiamata a tale dominio per impedire agli attori malintenzionati di utilizzare il redirector per reindirizzare a domini potenzialmente dannosi.
    1. Inserisci l&#39;URL del redirector in un browser e aggiornalo.
    1. Accedi all&#39;account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell&#39;elenco come una mbox.
 1. Se esegui il test di destinazioni diverse per un annuncio, crea [offerte di reindirizzamento](../../c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) per ogni versione.
@@ -83,7 +83,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
 1. Verifica che tutte le esperienze, il contenuto predefinito e i rapporti agiscano come previsto su tutti i tipi di browser, per tutti gli ambienti.
 
-   >[!NOTE] {class=“- topic/note ”}
+   >[!NOTE]
    >
    >* I redirector non sono supportati dalla funzione Offerta anteprima o Sfoglia per mbox. Guarda in anteprima le esperienze direttamente in un browser.
    >* `mboxDebug` non funziona con i redirector.
