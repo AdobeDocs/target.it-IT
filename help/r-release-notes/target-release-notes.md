@@ -5,9 +5,9 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 322b14629d420601b763fed7597c43a8458b7dbf
+source-git-commit: 1280d152b749442fe9337dc9eba7321d33f17723
 workflow-type: tm+mt
-source-wordcount: '483'
+source-wordcount: '572'
 ht-degree: 16%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 16%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 24 giugno 2020**
+**Ultimo aggiornamento: 13 luglio 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -51,6 +51,16 @@ Durante questo aggiornamento, sarà possibile eseguire facilmente molte azioni u
 * Indirizzi IP offuscati dei visitatori per motivi di privacy (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**)
 * Visualizzate l’elenco esistente di utenti per area di lavoro e i relativi ruoli prima di gestirli in Adobe  Admin Console (**[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]**).
 * Cerca e filtra tutte le tabelle nella sezione [!UICONTROL Amministrazione] .
+
+### Miglioramenti, correzioni e modifiche
+
+Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
+
+* È stato risolto un problema che impediva il mantenimento delle preferenze del sito dopo l&#39;aggiornamento. (TGT-37239)
+* È stato risolto un problema che impediva il corretto funzionamento di [!UICONTROL Inserisci dopo] > [!UICONTROL Immagine] con immagini SVG (Scalable Vector Graphics). (TGT-37242)
+* È stato risolto un problema per gli utenti con il ruolo [!UICONTROL Editore] che impediva l&#39;eliminazione delle bozze di attività. (TGT-37358)
+* È stato risolto un problema che impediva agli utenti di modificare un&#39;attività quando si selezionava [!UICONTROL Tutte le aree di lavoro] personali. (TGT-37276)
+* Schede di informazioni script profilo esistenti migliorate con informazioni sull&#39;utilizzo del pubblico. (TGT-37302)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
