@@ -5,7 +5,7 @@ title: Ambienti
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 32217a752574f671b790880667ac869443778f51
 workflow-type: tm+mt
 source-wordcount: '701'
 ht-degree: 63%
@@ -76,6 +76,7 @@ Quando un ambiente non è più necessario, è possibile eliminarlo.
 Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Consigli per un ambiente selezionato (gruppo di host).
 
 >[!NOTE]
+>
 >Recommendations activities are available as part of the [!DNL Target] Premium solution. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
 
 Un ambiente può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. For example, you can use host groups for [!UICONTROL Development] and [!UICONTROL Production] environments, different brands, or different geographies. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
