@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1334'
 ht-degree: 33%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 14 | [Domande frequenti su allocazione](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatica,<br>[Target](/help/c-activities/auto-target-to-optimize.md)automatica<br><br>[e Automated Personalization (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Sono state aggiunte domande frequenti in cui si consiglia di non modificare la metrica obiettivo nel mezzo di un&#39;attività. |
 | Luglio 7 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè dell&#39;8 luglio  Adobe Target. |
 | 25 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione Target Standard/Premium 20.6.1 (luglio 2020). |
 |  | [Panoramica della documentazione Target](/help/r-release-notes/target-documentation.md) | Nuovo argomento con informazioni dettagliate sulle diverse fonti di [!DNL Target] documentazione. |
@@ -31,7 +32,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sui token di risposta per il metodo di allocazione del traffico per le attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata). |
 |  | [Creazione di attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Sono state aggiunte informazioni sul supporto  Analytics per Target (A4T) per le attività di allocazione automatica. |
 |  | [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] in *Specificare ruoli e autorizzazioni*. |
-|  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Added information about the new [!UICONTROL Publisher] role under *Step 6: Specify roles and permissions*. |
+|  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Sono state aggiunte informazioni sul nuovo ruolo [!UICONTROL Editore] al *passaggio 6: Specificate ruoli e autorizzazioni*. |
 |  | [autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md) | Aggiunto collegamento alle ore di *Office: Sessione* Target Premium Workspaces. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.5.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
@@ -39,7 +40,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 15 giugno | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Added information about the at.js 1.8.2 and at.js 2.3.1 releases. |
+| 15 giugno | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle versioni at.js 1.8.2 e at.js 2.3.1. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle versioni at.js 1.8.2 e at.js 2.3.1. |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note della release [!DNL Target Standard/Premium] 20.5.1 (17 giugno 2020) per includere informazioni sul supporto A4T in [!DNL Analysis Workspace]. |
 | 12 giugno | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `deviceIdLifetime`. |
