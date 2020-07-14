@@ -5,10 +5,10 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: a7669e3af01da50750ab7f61be692b6d7197476f
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
 workflow-type: tm+mt
-source-wordcount: '3014'
-ht-degree: 89%
+source-wordcount: '3112'
+ht-degree: 84%
 
 ---
 
@@ -127,55 +127,63 @@ Queste situazioni possono sfalsare i risultati di un test di Allocazione automat
 
 ## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-**  Analytics per Target (A4T) supporta le attività di allocazione automatica?
+Consultate le seguenti domande frequenti e risposte mentre lavorate con le attività di allocazione [!UICONTROL automatica] :
+
+###  Analytics per Target (A4T) supporta le attività di allocazione automatica?
 
 Sì. Per ulteriori informazioni, consultate [supporto Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) di allocazione automatica nella creazione *di* attività.
 
-**I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?**
+###  I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?
 
 No. Solo i nuovi visitatori vengono allocati automaticamente. I visitatori di ritorno continuano a vedere la loro esperienza originale. Questo protegge la validità del test A/B.
 
-**In che modo l’algoritmo tratta i falsi positivi?**
+###  In che modo l’algoritmo tratta i falsi positivi?
 
 L’algoritmo garantisce un&#39;affidabilità del 95% o un tasso di falsa positività del 5% se si attende che appaia il badge del vincitore.
 
-**Quando Allocazione automatica inizia ad allocare il traffico?**
+### Quando Allocazione automatica inizia ad allocare il traffico?
 
 L’algoritmo inizia a funzionare dopo che tutte le esperienze nell’attività hanno un minimo di 1.000 visitatori e 50 conversioni.
 
-**Quanto aggressivamente viene applicato l’algoritmo?**
+### Quanto aggressivamente viene applicato l’algoritmo?
 
 L’80% del traffico viene servito con Allocazione automatica e il 20% del traffico viene servito in modo casuale. Quando viene identificato un vincitore, a tutto l&#39;80% del traffico viene veicolata l’esperienza vincente, mentre tutte le esperienze continuano a ricevere un certo traffico come parte del 20%, compresa quella vincente.
 
-**Le esperienze perdenti vengono mostrate?**
+### Le esperienze perdenti vengono mostrate?
 
 Sì. Con un approccio di tipo slot machine, almeno il 20% del traffico è riservato all’esplorazione di modifiche nei pattern o nei tassi di conversione in tutte le esperienze.
 
-**Cosa succede alle attività con tempi di conversione lunghi?**
+### Cosa succede alle attività con tempi di conversione lunghi?
 
 Fintanto che tutte le esperienze ottimizzate avranno ritardi simili, il comportamento è lo stesso di un&#39;attività con un ciclo di conversione più veloce. Tuttavia sarà necessario più tempo per raggiungere la soglia di 50 conversiono superata la quale inizierà il processo di allocazione del traffico.
 
-**Quali sono le differenze tra Allocazione automatica e Personalizzazione automatizzata?**
+###  Quali sono le differenze tra Allocazione automatica e Personalizzazione automatizzata?
 
 La funzione Personalizzazione automatizzata utilizza gli attributi del profilo di ogni visitatore per determinare l&#39;esperienza migliore. In tal modo, non solo ottimizza, ma personalizza anche l’attività per quell’utente.
 
 La funzione Allocazione automatica, invece, è un test A/B che produce un vincitore aggregato (l’esperienza più popolare, ma non necessariamente più efficace per ogni visitatore).
 
-**I visitatori di ritorno gonfiano il tasso di conversione sulla metrica di successo?**
+###  I visitatori di ritorno gonfiano il tasso di conversione sulla metrica di successo? 
 
 Attualmente, la logica favorisce i visitatori che si convertono rapidamente o che effettuano visite frequenti. Questo perché tali visitatori aumentano temporaneamente il tasso di conversione complessivo dell’esperienza a cui appartengono. L’algoritmo si regola frequentemente, quindi l’aumento del tasso di conversione viene amplificato in ogni istantanea. Se il sito riceve molti di visitatori di ritorno, le loro conversioni possono potenzialmente aumentare il tasso di conversione globale per l’esperienza a cui appartengono. C&#39;è una buona probabilità che i visitatori di ritorno siano distribuiti in modo casuale, nel qual caso l’effetto aggregato (aumento dell’incremento) è mitigato. Per attenuare questo effetto, è consigliabile modificare il metodo di conteggio della metrica di sucesso per conteggiare ogni partecipante una sola volta.
 
-**Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?**
+### Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?
 
 You can use the existing [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html) to get an estimate of how long the test will run. (Come per i test A/B tradizionali, applicate la correzione Bonferroni se state eseguendo il test su più offerte o più di una metrica/ipotesi di conversione.) Si noti che questo calcolatore è progettato per i test A/B tradizionali a orizzonte fisso e fornisce solo una stima. L&#39;utilizzo del calcolatore per un&#39;attività di allocazione automatica è facoltativo perché Auto-Allocate indicherà un vincitore. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo scoperto quanto segue:
 * Durante il test di due esperienze, Auto-Allocate trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l&#39;intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande, ma potrebbe essere necessario un tempo supplementare per identificare un vincitore quando la differenza di prestazioni tra le esperienze è ridotta. In questi casi, i test a orizzonte fisso sarebbero generalmente terminati senza un risultato statisticamente significativo.
 * Durante il test di più di due esperienze, Auto-Allocate rileva un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l&#39;intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza supera nettamente tutte le altre esperienze. Se due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre esperienze ma strettamente associate tra loro, l&#39;allocazione automatica potrebbe richiedere più tempo per determinare quale sia più efficace. In questi casi, i test a orizzonte fisso si sarebbero generalmente conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori delle esperienze con prestazioni inferiori, ma non hanno identificato quale fosse superiore.
 
-**È necessario rimuovere un’esperienza insoddisfacente da un’attività di allocazione automatica per velocizzare il processo di determinazione di un vincitore?**
+### È necessario rimuovere un&#39;esperienza meno performante da un&#39;attività di allocazione automatica per accelerare il processo di determinazione di un vincitore?
 
-Non esiste alcun motivo per rimuovere un’esperienza insoddisfacente. L’allocazione automatica fornisce esperienze ad alte prestazioni più spesso e offre invece con minor frequenza quelle meno performanti. L’utilizzo di un’esperienza insoddisfacente nell’attività non influisce in modo significativo sulla velocità per determinarne una vincente.
+Non c&#39;è davvero motivo di rimuovere un&#39;esperienza meno performante. La funzione Auto-Allocate (Allocazione automatica) consente di distribuire automaticamente esperienze ad alte prestazioni con maggiore frequenza e di distribuire esperienze meno spesso con prestazioni ridotte. Lasciare un&#39;esperienza con prestazioni inferiori nell&#39;attività non influirà in modo significativo sulla velocità di determinazione del vincitore.
 
-Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. La quantità di traffico utilizzata per un’esperienza insoddisfacente è ridotta (20% diviso per il numero di esperienze).
+Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. Il traffico servito a un&#39;esperienza con prestazioni inferiori è minimo (20% diviso per il numero di esperienze).
+
+### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di allocazione automatica? {#change-metric}
+
+Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
+
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata) che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
