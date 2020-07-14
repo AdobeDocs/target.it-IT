@@ -1,10 +1,13 @@
 ---
-keywords: risoluzione dei problemi;domande frequenti;FAQ;FAQs;personalizzazione automatizzata
+keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 title: Domande frequenti sulla Personalizzazione automatizzata
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+workflow-type: tm+mt
+source-wordcount: '1761'
+ht-degree: 95%
 
 ---
 
@@ -103,3 +106,9 @@ Esamina l’impostazione dell’attività e verifica se ci sono modifiche che in
 ## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
+
+## Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di Automated Personalization (Personalizzazione automatizzata)? {#change-metric}
+
+Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
+
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata) che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
