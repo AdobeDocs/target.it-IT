@@ -5,10 +5,10 @@ user-guide-title: Guida di Adobe Target
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: d37cd2e93af576741dfd17f8e54dada06b8a64a3
+source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
 workflow-type: tm+mt
-source-wordcount: '1409'
-ht-degree: 99%
+source-wordcount: '1421'
+ht-degree: 98%
 
 ---
 
@@ -68,7 +68,7 @@ ht-degree: 99%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Consenti nodi periferici Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Inserire nell&#39;elenco Consentiti nodi Target edge](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -202,6 +202,7 @@ ht-degree: 99%
    + Allocazione automatica {#auto-allocate}
       + [Allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
+      + [L&#39;allocazione automatica fornisce risultati di test più rapidi e ricavi più alti rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Targeting automatico](c-activities/auto-target-to-optimize.md)
    + Personalizzazione automatizzata {#automated-personalization}
       + [Panoramica su Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization.md)
