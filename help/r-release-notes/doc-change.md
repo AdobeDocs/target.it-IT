@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1365'
 ht-degree: 32%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 17 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè del Adobe Target del 22 luglio . |
 | Luglio 15 | [L&#39;allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md) | Nuovo argomento. |
 | Luglio 14 | [Domande frequenti su allocazione](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatica,<br>[Target](/help/c-activities/auto-target-to-optimize.md)automatica<br><br>[e Automated Personalization (Personalizzazione automatizzata)](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Sono state aggiunte domande frequenti in cui si consiglia di non modificare la metrica obiettivo nel mezzo di un&#39;attività. |
 | Luglio 7 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull&#39;interruzione di caffè dell&#39;8 luglio  Adobe Target. |
