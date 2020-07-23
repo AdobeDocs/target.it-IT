@@ -5,10 +5,10 @@ title: Best practice e limitazioni del Compositore esperienza visivo
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2446'
-ht-degree: 98%
+source-wordcount: '2448'
+ht-degree: 97%
 
 ---
 
@@ -31,13 +31,13 @@ Inserisci mbox.js alla fine della sezione `<head>`, senza dichiarazioni aggiunti
 
 **Puoi abilitare il Compositore esperienza avanzato a livello di account (abilitato per tutte le attività create nell’account) o a livello della singola attività.**
 
-Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Configurazione > Preferenze], quindi attiva il pulsante.
+To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
 
 Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fai clic su [!UICONTROL Configura > URL], quindi attiva il pulsante.
 
-**Se Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) non viene caricato su pagine sicure del sito, potete includere alcuni indirizzi IP.**
+**Potete  inserire nell&#39;elenco Consentiti alcuni indirizzi IP se Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) non viene caricato sulle pagine sicure del sito.**
 
-È possibile risolvere i problemi di caricamento di Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) consentendo l&#39;elencazione dei seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del sito non necessitano di questi indirizzi IP consentiti.
+I problemi di caricamento di Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) possono essere risolti  inserire nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del sito non necessitano di questi indirizzi IP inseriti nell&#39;elenco Consentiti.
 
 Stati Uniti: 52.55.99.45, 54.80.158.92, e 54.204.197.253
 
