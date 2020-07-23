@@ -6,7 +6,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '400'
+ht-degree: 90%
 
 ---
 
@@ -24,14 +27,15 @@ Utilizza le Impostazioni attività per gestire la finalità, la priorità e la d
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   Se questa opzione non è abilitata in [!UICONTROL Configurazione] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Configurazione], quindi attiva l’opzione [!UICONTROL Abilita priorità precise].
+   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
    * 0 = Bassa
    * 999 = Alta
+
    Per le attività create con le versioni precedenti di [!DNL Target Standard/Premium], la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.
 
    >[!NOTE]
@@ -54,7 +58,7 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Test multivariato](../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Consigli](../c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Impostazioni attività ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
