@@ -5,10 +5,10 @@ title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaSc
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: da42f51038da6e4445f7e35d665c479e870d8454
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1648'
-ht-degree: 41%
+source-wordcount: '1647'
+ht-degree: 40%
 
 ---
 
@@ -189,7 +189,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 ## Utilizzo {#section_9AD6FA3690364F7480C872CB55567FB0}
 
-Questa funzione può essere definita prima che at.js sia caricato o in **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Modifica impostazioni at.js]** > **[!UICONTROL Impostazioni codice]** > **[!UICONTROL Intestazione della libreria]**.
+This function can be defined before at.js is loaded or in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
 
 Il campo di intestazione della libreria consente di entrare in JavaScript in formato libero. Il codice di personalizzazione deve avere un aspetto simile all&#39;esempio seguente:
 
@@ -472,7 +472,7 @@ Considerate quanto segue quando utilizzate `serverState`:
 
 * Quando applicate `serverState `le offerte, at.js prende in considerazione `pageLoadEnabled` e `viewsEnabled` le impostazioni, ad esempio le offerte di caricamento pagina non verranno applicate se l&#39; `pageLoadEnabled` impostazione è false.
 
-   Per attivare queste impostazioni, attivate l’interruttore in Configurazione **[UICONTROL > Implementazione > Modifica impostazioni > Caricamento pagina abilitato]**.
+   Per attivare queste impostazioni, attivare l’attivazione o disattivazione in Amministrazione **[UICONTROL > Implementazione > Modifica > Caricamento pagina abilitata]**.
 
    ![Impostazioni abilitate per il caricamento della pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
