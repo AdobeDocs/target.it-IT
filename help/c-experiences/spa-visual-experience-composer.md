@@ -1,11 +1,14 @@
 ---
-keywords: vec spa;react;angular;react.js;compositore esperienza visivo spa;opzioni compositore esperienza spa;app a pagina singola;app a pagina singola;spa;opzioni esperienza mobile;visualizzazione target
+keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Il compositore esperienza visivo (VEC) per app a pagina singola (SPA) in Adobe Target consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utilizzato per creare attività nei framework più popolari, come ad esempio React e Angular.
 title: Compositore esperienza visivo per app a pagina singola (SPA)
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3692'
+ht-degree: 93%
 
 ---
 
@@ -20,25 +23,25 @@ Con la versione più recente si inaugura il Compositore esperienza visivo per le
 
 ## Visualizzazioni e applicazioni a pagina singola di Adobe Target
 
-Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all'interno di un sito.
+Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all&#39;interno di un sito.
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento: Sito[principale](https://target.enablementadobe.com/react/demo/#/)**
+**Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento: Sito[prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento:[Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
-Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione "products" come nel nome del percorso `https://target.enablementadobe.com/react/demo/#/products`.
+Interessati ai prodotti, decidiamo di fare clic sul collegamento Prodotti. Come con la home page, l’intero sito dei prodotti può essere definito come visualizzazione. Possiamo denominare questa visualizzazione &quot;products&quot; come nel nome del percorso `https://target.enablementadobe.com/react/demo/#/products`.
 
 ![sito del prodotto 2](/help/c-experiences/assets/product-site-2.png)
 
-All'inizio di questa sezione, abbiamo definito visualizzazioni come l'intero sito o anche un gruppo di elementi visivi sul sito. Come si vede qui sopra, è possibile raggruppare i quattro prodotti visibili sul sito e considerarli come una visualizzazione. Se vogliamo, possiamo denominare questa visualizzazione “Prodotti”.
+All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;intero sito o anche un gruppo di elementi visivi sul sito. Come si vede qui sopra, è possibile raggruppare i quattro prodotti visibili sul sito e considerarli come una visualizzazione. Se vogliamo, possiamo denominare questa visualizzazione “Prodotti”.
 
 ![sito del prodotto 3](/help/c-experiences/assets/product-site-3.png)
 
@@ -64,7 +67,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell’implementazione](/help/c-experiences/assets/imp-200.png)
 
-   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Configurazione &gt; Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
+   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa la funzione più recente di at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sui siti.
 
@@ -74,13 +77,13 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    | Parametro | Tipo | Obbligatorio | Convalida | Descrizione |
    | --- | --- | --- | --- | --- |
-   | viewName | Stringa | Sì | 1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con "`/`". Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, "home" e "`/home`" sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l'opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
+   | viewName | Stringa | Sì | 1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
    | options | Oggetto | No |  |  |
-   | options &gt; page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+   | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE **: con`page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento: Sito[principale](https://target.enablementadobe.com/react/demo/#/)**
+   **Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -111,7 +114,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Collegamento: Sito[prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+   **Collegamento:[Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
 
    Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -185,7 +188,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    >[!NOTE]
    >
-   >Il Compositore esperienza visivo per le applicazioni a pagina singola è lo stesso Compositore esperienza visivo utilizzato nelle normali pagine web, ma con alcune funzionalità aggiuntive disponibili quando si apre un'app a pagina singola con `triggerView()` implementato.
+   >Il Compositore esperienza visivo per le applicazioni a pagina singola è lo stesso Compositore esperienza visivo utilizzato nelle normali pagine web, ma con alcune funzionalità aggiuntive disponibili quando si apre un&#39;app a pagina singola con `triggerView()` implementato.
 
 I due principali miglioramenti al pannello [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) e alle azioni per il Compositore esperienza visivo consentono a quest’ultimo di funzionare correttamente con le applicazioni a pagina singola.
 
@@ -205,8 +208,8 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L’azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota**: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Sfoglia] per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
-| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina]: tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota**: dopo un’operazione Sposta, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L’azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota **: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite[!UICONTROL Sfoglia]per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina]: tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota **: dopo un’operazione Sposta, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Elimina | Elimina l’azione. |
 
 >[!NOTE]
@@ -372,7 +375,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 
 Le impostazioni [!UICONTROL Consegna pagine] consentono di configurare le regole con cui determinare quando un’attività di Target si qualifica come idonea e viene eseguita per un pubblico.
 
-Per accedere alle opzioni di [!UICONTROL Consegna pagine] nel flusso di lavoro guidato in tre parti del Compositore esperienza visivo per la creazione delle attività, dal passaggio **[!UICONTROL Esperienze]** fai clic su **[!UICONTROL Configura]** (icona a forma di ingranaggio) &gt; **[!UICONTROL Consegna pagina]**.
+Per accedere alle opzioni di [!UICONTROL Consegna pagine] nel flusso di lavoro guidato in tre parti del Compositore esperienza visivo per la creazione delle attività, dal passaggio **[!UICONTROL Esperienze]** fai clic su **[!UICONTROL Configura]** (icona a forma di ingranaggio) > **[!UICONTROL Consegna pagina]**.
 
 ![Finestra di dialogo delle opzioni di Consegna pagine](/help/c-experiences/assets/page-delivery.png)
 
@@ -436,6 +439,6 @@ Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visual
 
 ## Video di formazione: Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola in Adobe Target
 
->[!VIDEO](https://video.tv.adobe.com/v/26249?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/26249)
 
 See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
