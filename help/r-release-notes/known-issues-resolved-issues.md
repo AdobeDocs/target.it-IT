@@ -4,7 +4,10 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2f62d98c5d18b0252f7cf806039a349ee54dc7fb
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '3201'
+ht-degree: 95%
 
 ---
 
@@ -20,20 +23,6 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
-
-### Generazione di rapporti e ordini estremi
-
-Dal 25 novembre 2019 al 26 aprile 2020, un server di Target ha riscontrato un problema che ha portato a conteggiare i valori degli ordini estremi nelle metriche dei report basate sulle entrate (AOV, RPV). Dal 19 dicembre 2019 al 23 aprile 2020, un altro server ha riscontrato lo stesso problema. Questo problema non ha interessato tutti i server Target o tutti i clienti Target.
-
-L&#39;utente *non* è stato interessato se:
-
-* L&#39;implementazione di Target utilizza server diversi.
-* I rapporti non escludevano ordini estremi.
-* È stata utilizzata una metrica di conversione per misurare le attività.
-* Le attività Target utilizzano Analytics per Target (A4T).
-* Si trova la regione Asia-Pacifico (APAC).
-
-Per determinare se questo problema ha avuto un impatto sui report di Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Consegna delle pagine {#page-delivery}
 
@@ -121,7 +110,7 @@ La libreria mbox.js non supporta linguaggi di template lato client, come Handleb
 
 ### Implementazione: Creazione automatica mbox globale
 
-Nella scheda Implementazione ([!UICONTROL Configurazione > Implementazione]) il campo [!UICONTROL Creazione automatica mbox globale] è impostato su “false” per impostazione predefinita per un tenant nuovo.
+On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
 
 Quando mbox.js viene scaricato per la prima volta dopo il provisioning, il campo [!UICONTROL Creazione automatica mbox globale] è impostato su “true” nel file mbox.js scaricato e nel backend di [!DNL Target], ma continua a mostrare “false” nella pagina [!UICONTROL Implementazione] dell’interfaccia utente fino a quando la pagina non viene aggiornata (dopo l’aggiornamento della pagina, lo stato diventa “true”).
 
@@ -146,6 +135,20 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
+
+### Generazione di rapporti e ordini estremi
+
+Dal 25 novembre 2019 al 26 aprile 2020, un server Target ha riscontrato un problema che causava il conteggio dei valori degli ordini estremi nelle metriche dei report basate sulle entrate (AOV, RPV). Dal 19 dicembre 2019 al 23 aprile 2020, un altro server ha riscontrato lo stesso problema. Questo problema non ha interessato tutti i server Target o tutti i clienti Target.
+
+L&#39;utente *non* è stato interessato se:
+
+* L&#39;implementazione Target utilizza server diversi.
+* I rapporti non escludevano ordini estremi.
+* È stata utilizzata una metrica di conversione per misurare le attività.
+* Le attività Target utilizzano  Analytics per Target (A4T).
+* Si trova la regione Asia-Pacifico (APAC).
+
+Per determinare se questo problema ha avuto un impatto sui rapporti Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Consigli
 
