@@ -1,12 +1,15 @@
 ---
-keywords: mbox globale;personalizzare mbox globale;modificare mbox.js;modificare at.js;at.js;implementare mbox.js;implementare at.js
+keywords: global mbox;customize global mbox;edit mbox.js;edit at.js;at.js;implement mbox.js;implement at.js
 description: Informazioni su come personalizzare una mbox globale per at.js e mbox.js.
 title: Personalizzare una mbox globale
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 0f784d6e-8f36-4c26-adbf-0d56b7d6d390
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '192'
+ht-degree: 97%
 
 ---
 
@@ -17,10 +20,11 @@ Informazioni su come personalizzare una mbox globale per at.js e mbox.js.
 
 1. Modificare mbox.js.
 
-   Vai su **[!UICONTROL Target]** &gt; **[!UICONTROL Installazione]** &gt; **[!UICONTROL Implementazione]**.
+   Go to **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
 
    * Per mbox.js, fai clic su **[!UICONTROL Modifica impostazioni mbox.js]**.
-   * Per [!DNL at.js]**, seleziona[!UICONTROL at.js]** sotto il metodo di implementazione, quindi fai clic su **[!UICONTROL Modifica impostazioni mbox.js]**.
+   * Per [!DNL at.js]**[!UICONTROL , seleziona at.js]** sotto il metodo di implementazione, quindi fai clic su **[!UICONTROL Modifica impostazioni mbox.js]**.
+
    ![](assets/step-1-edit-mboxjs.png)
 
 1. Modificare [!DNL mbox.js] o [!DNL at.js].
