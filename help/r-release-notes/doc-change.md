@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92fbf512bba2adbb8336d762a8193e156125c1c2
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '1365'
-ht-degree: 32%
+source-wordcount: '1483'
+ht-degree: 33%
 
 ---
 
@@ -16,6 +16,15 @@ ht-degree: 32%
 # Modifiche alla documentazione{#documentation-changes}
 
 This page lists important changes made to the [!DNL Adobe Target] product documentation.
+
+## Adobe Target Standard/Premium 20.7.1 (27 luglio 2020)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| Luglio 27 | [Amministrare Target](/help/administrating-target/administrating-target.md) | Testo aggiornato in tutti gli argomenti collegati in questa pagina per riflettere le nuove modifiche dell’interfaccia utente per le pagine di [!UICONTROL amministrazione] . |
+|  | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state apportate le seguenti modifiche: <ul><li>Sono state aggiunte informazioni di registrazione per il webinar seguente: &quot;Come HSBC sfrutta  Adobe Target e AI per ottimizzare e fornire rapidamente la personalizzazione su larga scala.&quot;</li><li>Sono state aggiunte ulteriori informazioni su Adobe che è stata nuovamente denominata Leader nel Gartner Magic Quadrant for Personalization Engines.</li></ul> |
+|  | [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md) | Informazioni chiarite al punto 4: Selezionare una posizione. |
+|  | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.7.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 20.5.1 (17 giugno 2020)
 
