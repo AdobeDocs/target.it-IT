@@ -1,11 +1,14 @@
 ---
-keywords: Targeting delle esperienze;test pagina di destinazione
+keywords: Experience Targeting;Landing Page Test
 description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 title: Selettori di elementi utilizzati nel Compositore esperienza visivo
 topic: Standard
 uuid: e109878c-9771-426e-8ad1-b6ea66f6a900
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '406'
+ht-degree: 90%
 
 ---
 
@@ -16,7 +19,7 @@ Un selettore di elementi è un’espressione CSS che può identificare uno o pi�
 
 Puoi trovare informazioni di base sui selettori CSS nel documento sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in Mozilla Developer Network (MDN).
 
-Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Configurazione &gt; Preferenze]**, quindi scegli i selettori CSS preferiti.
+Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fate clic su **[!UICONTROL Amministrazione > Visual Experience Composer (Compositore esperienza visivo)]**, quindi scegliete i selettori CSS preferiti.
 
 ![](assets/css_selectors.png)
 
@@ -68,9 +71,9 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
 
    In questo esempio:
 
-   Selettore: `#container` &gt; `ul.navigation:eq(0)` &gt; `li.item:eq(0)` (“ &gt; ” indica l’elemento figlio diretto).
+   Selettore: `#container` > `ul.navigation:eq(0)` > `li.item:eq(0)` (“ > ” indica l’elemento figlio diretto).
 
-   `eq` comunica all’indice che c’è un elemento con "tagName=UL" e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
+   `eq` comunica all’indice che c’è un elemento con &quot;tagName=UL&quot; e che la prima classe è `navigation`. Pertanto, l’`index` è 0. Per ulteriori informazioni, leggi l’articolo sui [selettori](https://developer.mozilla.org/en-US/docs/Web/Guide/CSS/Getting_started/Selectors) in MDN.
 
 1. Se un elemento non contiene una classe, Target utilizza `tagName` per l’elemento ed analizza l’elemento padre fino a quando non viene trovato l’elemento `<HTML>` o un elemento con un ID.
 
@@ -89,7 +92,7 @@ Target utilizza un semplice algoritmo per creare un selettore. Ecco una brevissi
    </div>
    ```
 
-   Selettore: `#container` &gt; `ul.navigation(0)` &gt; `li:nth-of-type(4)`
+   Selettore: `#container` > `ul.navigation(0)` > `li:nth-of-type(4)`
 
    Puoi scoprire di più su [nth-of-type nella pagina web dei trucchi per CSS](https://css-tricks.com/almanac/selectors/n/nth-of-type/).
 
