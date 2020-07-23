@@ -3,7 +3,10 @@ description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC
 title: Compositore esperienza visivo (VEC) di Adobe Target
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1376'
+ht-degree: 97%
 
 ---
 
@@ -16,7 +19,7 @@ Il Compositore esperienza visivo è l’interfaccia utente WYSIWYG che consente 
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
-Nella scheda **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]** di Target, puoi immettere l’URL predefinito del Compositore esperienza visivo.
+On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
 
 ![Impostazioni predefinite dell’URL del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
