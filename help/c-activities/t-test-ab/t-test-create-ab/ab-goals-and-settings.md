@@ -5,7 +5,10 @@ title: Obiettivi e impostazioni
 uuid: 46d02e39-0c19-4da8-bdd8-48acb708831b
 snippet: y
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1260'
+ht-degree: 96%
 
 ---
 
@@ -23,7 +26,7 @@ Le impostazioni disponibili dipendono dall’utilizzo di Target o [Analytics](/h
 | Impostazioni | Descrizione |
 |--- |--- |
 | Finalità | Specifica una finalità facoltativa. La finalità può essere costituita da qualsiasi informazione che consenta a te e agli altri membri del gruppo di identificare la campagna. |
-| Priorità | L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.<br>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<br>Se questa opzione non è abilitata in Configurazione (impostazione predefinita), specifica una priorità: Bassa, Media o Alta. <br>Per abilitare le priorità dettagliate, fai clic su Configurazione, quindi attiva l’opzione Abilita priorità precise. <br>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999: 0 = bassa e 999 = alta. <br>Per le attività create con le versioni precedenti di Target Standard/Premium, la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.<br>Nota: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
+| Priorità | L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.<br>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<br>Se questa opzione non è abilitata in [!UICONTROL Amministrazione] (impostazione predefinita), specificate una priorità: Bassa, Media o Alta. <br>Per abilitare le priorità con granulometria fine, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting (Generazione rapporti]), quindi seleziona l’opzione Attiva priorità con granulosità fine nella posizione &quot;Attiva&quot;. <br>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999: 0 = bassa e 999 = alta. <br>Per le attività create con le versioni precedenti di Target Standard/Premium, la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.<br>Nota: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
 | Durata | L’attività può iniziare dopo l’approvazione, oppure è possibile impostare una data e un’ora specifiche. Analogamente, l’attività può terminare quando viene disattivata, oppure è possibile impostare una data e un’ora specifiche. Il selettore dell’ora è nel formato 24 ore e la mezzanotte è indicata come 00:00. Il fuso orario è impostato sul fuso configurato nel browser. Per utilizzare un fuso orario diverso, imposta il browser su un altro fuso orario e riavvia il browser. |
 
 ## Impostazioni reporting {#section_13119392051044FBA6387D9B3B1C43CF}
