@@ -1,11 +1,14 @@
 ---
-keywords: impostazioni attività;obiettivi e impostazioni di targeting esperienza;obiettivi e impostazioni XT;targeting esperienza;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;pubblico per il reporting;quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;cosa succede dopo che un utente trova questa metrica di obiettivo;note
+keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1228'
+ht-degree: 97%
 
 ---
 
@@ -36,9 +39,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in Configurazione (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+Se questa opzione non è abilitata in Amministrazione (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
 
-Per abilitare le priorità dettagliate, fai clic su Configurazione, quindi attiva l’opzione Abilita priorità precise.
+To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -160,4 +163,4 @@ Questo video include informazioni sulle impostazioni delle attività.
 * Aggiungere tipi di pubblico da usare come filtri nella generazione di rapporti
 * Inserire delle note per le attività
 
->[!VIDEO](https://video.tv.adobe.com/v/17381?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17381)
