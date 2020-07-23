@@ -5,10 +5,10 @@ title: Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2908'
+ht-degree: 98%
 
 ---
 
@@ -134,7 +134,7 @@ Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso 
 Sono disponibili due opzioni:
 
 * Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzata, abilita la funzione Priorità precise (Configurazione > Preferenze).
+* Personalizzata, da 0 a 999. Per Personalizzato, abilitate la funzione Priorità di fine granulometria (Amministrazione > Visual Experience Composer (Compositore esperienza visivo).
 
 ## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -198,7 +198,7 @@ Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](../c-
 
 **Ho più domini. Uno dei domini ha bisogno del Compositore esperienza avanzato, mentre altri hanno bisogno che questo sia disabilitato. Come posso fare?**
 
-È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per bypassare l’impostazione predefinita (Configurazione > Preferenze).
+You can always use [Enhanced Experience Composer option at the activity level](../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
 
 **Perché non vedo un&#39;opzione per scambiare le immagini?**
 
