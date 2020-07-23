@@ -5,10 +5,10 @@ title: Autorizzazioni per gli utenti Enterprise
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: dda60f13ee351428504fcebfbbfb1dd824319d65
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '2999'
-ht-degree: 83%
+source-wordcount: '3053'
+ht-degree: 81%
 
 ---
 
@@ -29,7 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
 * **[!DNL Target Standard]Clienti **: Se viene visualizzata la scheda[!UICONTROL Utenti]([!UICONTROL Amministrazione > Utenti]) (e non la scheda[!UICONTROL Proprietà]), l&#39;organizzazione dispone di una[!DNL Target Standard]licenza. I clienti[!DNL Target Standard]possono seguire le istruzioni riportate in[Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md)per aggiungere utenti e assegnare autorizzazioni in[!DNL Adobe Admin Console].
 
-* **[!DNL Target Premium]Clienti **: Se vengono visualizzate la scheda[!UICONTROL Proprietà]([!UICONTROL Configurazione > Proprietà]) e la scheda[!UICONTROL Utenti], l’organizzazione dispone di una[!DNL Target Premium]licenza. I clienti[!DNL Target Premium]devono seguire le istruzioni contenute in questo articolo e in[Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+* **[!DNL Target Premium]Clienti **: Se vengono visualizzate la scheda[!UICONTROL Proprietà]([!UICONTROL Amministrazione > Proprietà]) e la scheda[!UICONTROL Utenti], l&#39;organizzazione dispone di una[!DNL Target Premium]licenza. I clienti[!DNL Target Premium]devono seguire le istruzioni contenute in questo articolo e in[Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
 
 ## Prima di iniziare con le autorizzazioni aziendali
 
@@ -198,7 +198,7 @@ La nuova funzionalità delle autorizzazioni può essere vista in varie posizioni
 
 * **Creazione di pubblico:** quando si crea un nuovo pubblico, questo viene creato nell&#39;area di lavoro attualmente selezionata.
 * **Creazione di offerta:** quando si crea una nuova offerta, questa viene creata nell&#39;area di lavoro attualmente selezionata.
-* **Pagina Proprietà (Configurazione > Proprietà):** È possibile utilizzare la casella [!UICONTROL Ricerca] per cercare nell&#39;elenco [!UICONTROL Proprietà] .
+* **Pagina Proprietà (Amministrazione > Proprietà):** È possibile utilizzare la casella [!UICONTROL Ricerca] per cercare nell&#39;elenco [!UICONTROL Proprietà] .
 
    ![](assets/properties_list.png)
 
@@ -243,6 +243,7 @@ Consider the following when using or configuring properties and permissions in [
    * Le attività, i tipi di pubblico, le offerte basate su codice, le offerte immagini o qualsiasi altra risorsa creata utilizzando le soluzioni o i metodi seguenti non possono essere controllate dal modello di autorizzazioni Enterprise, ma saranno parte dell’Area di lavoro predefinita: Target Classic, Adobe Experience Manager (AEM), Adobe Mobile Services e le risorse create tramite API. Le risorse create tramite API includono le attività, i tipi di pubblico, le offerte basate su codice e le offerte di immagini.
    * Le offerte di immagini (le risorse archiviate in `https://[tenantName].marketing.adobe.com/content/mac/[tenantName]/target/offers.html#image-library` non possono essere controllate dal modello di autorizzazioni Enterprise in questo momento.
    * clickTracking e reindirizzamenti funzionano solo quando il collegamento di destinazione o la pagina di destinazione fanno parte di una proprietà inclusa nell&#39;attività. Inoltre, clickTracking potrebbe non funzionare quando si utilizza la funzione `targetPageParams()`. La funzione suggerita è `targetPageParamsAll()`.
+
    [!DNL Target] attualmente richiede un token `at_property` per essere presente in qualsiasi pagina in cui si verifica il rilevamento. In the event that the token is (1) not present, (2) not detected at the time of activity setup (within the VEC), or (3) not passed to the clickTracking Target call via the `targetPageParamsAll()` function, the metric will not be incremented and will appear as &quot;0.&quot;
 
    Lo stesso vale per le attività che utilizzano i reindirizzamenti. La pagina di destinazione deve avere un token `at_property` ed essere riconosciuta al momento della configurazione all&#39;interno di Compositore esperienza visivo.
@@ -301,5 +302,9 @@ Questo video è una registrazione di “ Office Hours”, un’iniziativa condot
 * Creazione delle proprietà
 * Aggiunta di utenti
 * Aggiornamento dell&#39;implementazione
+
+>[!NOTE]
+>
+>L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza dell’utente nel prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
