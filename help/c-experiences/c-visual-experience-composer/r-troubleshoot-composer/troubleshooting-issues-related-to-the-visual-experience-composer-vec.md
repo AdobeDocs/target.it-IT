@@ -4,10 +4,10 @@ description: In determinate condizioni in Compositore esperienza visivo (VEC) si
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '778'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Diversi problemi possono influenzare le prestazioni della pagina nei compositori
 
 Se si verificano problemi con il Compositore esperienza avanzato, prova a disattivarlo e utilizza invece il Compositore esperienza visivo.
 
-Per disabilitare il Compositore esperienza avanzato, passa a **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]** e disattiva l’opzione **[!UICONTROL Abilita Compositore esperienza avanzato]**.
+To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
 
 Alcuni utenti visualizzano il seguente messaggio di errore nella console:
 
@@ -117,10 +117,6 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
    Fai clic sull&#39;icona a sinistra dell&#39;URL nella barra degli indirizzi del browser e fai clic su **[!UICONTROL Disattiva protezione su questa pagina]**.
 * Hai immesso un URL non valido.
 * Non hai inserito un URL predefinito nella pagina di configurazione dell&#39;account.
-
-## Quando si avvia un URL per un&#39;attività nel Compositore esperienza visivo, nella console viene visualizzato un messaggio di errore di tipo: “ReferenceError non gestito:_AT non è definito”. (Solo Compositore esperienza visivo) {#section_BB5B9B629AC4452496A82943EFF72B85}
-
-Questo errore si verifica se si tenta di fornire campagne al Compositore esperienza visivo e non è stato aggiornato mbox.js scaricato dall&#39;interfaccia utente di Target con l&#39;opzione [!UICONTROL Supporta le attività di Compositore esperienza visivo] abilitata ([!UICONTROL Configurazione] > [!UICONTROL Implementazione] > [!UICONTROL mbox.js] > [!UICONTROL Modifica impostazioni mbox.js]).
 
 Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna mbox.js sul tuo sito web.
 
