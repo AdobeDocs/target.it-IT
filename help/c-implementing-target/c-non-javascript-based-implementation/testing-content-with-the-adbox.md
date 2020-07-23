@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 83%
+source-wordcount: '308'
+ht-degree: 77%
 
 ---
 
@@ -32,9 +32,8 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
 
    * Dove `myClientCode` è il codice client dell’azienda. Il codice cliente della tua azienda è tutto minuscolo e non ha caratteri speciali.
 
-      * **at.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione > Implementazione > Modifica impostazioni at.js] nell’interfaccia di [!DNL Target].
+      Your client code is available at the top of the [!UICONTROL Administation > Implementation] page of the [!DNL Target] interface.
 
-      * **mbox.js**: il tuo codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Configurazione > Implementazione > Modifica impostazioni mbox.js].
    * Dove `image` è il tipo di chiamata. In questo caso è un&#39;immagine.
 
    * Dove `emailHeroImage123_320x200` è il nome dell’AdBox.
@@ -42,7 +41,6 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fimg%2Flogo%2Egif` è il contenuto predefinito della mbox. Questa deve essere un&#39;immagine.
 
       Deve essere codificata in URL e deve essere un riferimento assoluto. You can use the [HTML URL Encoding Reference](https://www.w3schools.com/tags/ref_urlencode.asp) to quickly encode your URLs.
-
 
 1. Crea [offerte di reindirizzamento](../../c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) per ogni immagine alternativa.
 
