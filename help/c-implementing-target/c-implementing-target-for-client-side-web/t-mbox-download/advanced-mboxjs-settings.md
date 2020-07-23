@@ -1,10 +1,13 @@
 ---
-keywords: impostazioni avanzate di mbox.js;client;dominio server;xdomain;livello di compressione;supporto id sessione client;secureOnly;supporto id pc client;passare una pagina;URL di riferimento;livello di traffico;durata del traffico;funzione mboxParameters();funzione mboxSupported();funzione mboxCookieDomain();JavaScript extra;plug-in SiteCatalyst;mbox.js come JavaScript autoestraente;visualizzazione momentanea di altri contenuti;nascondere il corpo;corpo nascosto
+keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informazioni utili per scegliere diverse impostazioni nella pagina Impostazioni mbox.js.
 title: Configurare mbox.js
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '329'
+ht-degree: 91%
 
 ---
 
@@ -23,13 +26,13 @@ Sono disponibili le seguenti opzioni:
 
 Il codice cliente del tuo account.
 
-In [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni mbox.js], il codice cliente del tuo account è riportato in alto.
+When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
 
 ## Timeout
 
 Timeout della richiesta di Target.
 
-In [!UICONTROL Configurazione &gt; Implementazione &gt; Modifica impostazioni mbox.js], il valore Timeout dopo Livello di compressione riporta il timeout della richiesta di Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
+Quando visualizzate [!UICONTROL Amministrazione > Implementazione], l’impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
 
 ## XDomain
 
@@ -47,7 +50,7 @@ Restituisce parametri aggiuntivi da passare a ogni chiamata mbox.
 
 Ad esempio:
 
-return "test=123";
+return &quot;test=123&quot;;
 
 ## Corpo funzione mboxSupported()
 
@@ -55,7 +58,7 @@ Restituisce “false” per escludere utenti specifici.
 
 Ad esempio:
 
-return !navigator.userAgent.indexOf('Safari') != -1;
+return !navigator.userAgent.indexOf(&#39;Safari&#39;) != -1;
 
 È possibile includere o escludere i seguenti browser:
 
@@ -70,7 +73,7 @@ Restituisce una stringa che descrive il dominio per impostare i cookie di prima 
 
 Ad esempio:
 
-return "YOUR-DOMAIN";
+return &quot;YOUR-DOMAIN&quot;;
 
 ## JavaScript aggiuntivo
 
