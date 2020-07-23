@@ -1,11 +1,14 @@
 ---
-keywords: FAQ;domande frequenti;analytics for target;a4t;configurazione delle attività
+keywords: faq;frequently asked questions;analytics for target;a4T;activity setup
 description: Questo argomento contiene le risposte alle domande più frequenti sulla configurazione delle attività e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Impostazioni delle attività - Domande frequenti su A4T
 topic: Standard
 uuid: 3472ab3c-908b-40f8-81a6-512dccde64a6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '285'
+ht-degree: 89%
 
 ---
 
@@ -24,13 +27,13 @@ Quando viene creata un’attività, Target invia un file di classificazione ad A
 
 ## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea una nuova attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-È possibile modificare le opzioni di Impostazioni reporting in Configurazione.
+Puoi modificare le opzioni delle impostazioni di reporting in Amministrazione.
 
-1. In Adobe Target, fai clic su **[!UICONTROL Configurazione]**.
+1. In Adobe Target, click **[!UICONTROL Administration]**.
 1. Nell’elenco a discesa **[!UICONTROL Soluzione Experience Cloud utilizzata per i rapporti]**, fai clic su **[!UICONTROL Seleziona per attività]**.
 
 ![](assets/select-per-activity.png)
 
 L’elenco a discesa **[!UICONTROL Origine per i rapporti]** è abilitato nella schermata **[!UICONTROL Obiettivi e impostazioni]** per la creazione e la modifica delle attività.
 
-Per utilizzare sempre Analytics come origine per la generazione di rapporti, seleziona **[!UICONTROL Adobe Analytics]** dall’elenco a discesa in Configurazione.
+To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
