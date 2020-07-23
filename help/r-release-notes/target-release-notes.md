@@ -5,10 +5,10 @@ title: Note sulla versione prerelease  Adobe Target
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 26447c745cf56f3e04ad477bc05446e5d8ab76c1
+source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 16%
+source-wordcount: '630'
+ht-degree: 14%
 
 ---
 
@@ -17,13 +17,16 @@ ht-degree: 16%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 22 luglio 2020**
+**Ultimo aggiornamento: 27 luglio 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
->[!NOTE]
+>[!IMPORTANT]
 >
->* **mbox.js obsoleto**: Il 30 agosto 2020  Adobe Target non supporterà più la libreria mbox.js. Dopo il 30 agosto 2020, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività Target in esecuzione distribuendo contenuti predefiniti. È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della libreria at.js prima di tale data, in modo da evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) and [Adobe Target Experience Builder (Funzionamento di At.js e Generatore di competenze di ): Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+>* **Anche Adobe ha nominato un leader nel Gartner Magic Quadrant per i motori** di personalizzazione: Adobe è stato nuovamente nominato leader nel terzo rapporto annuale Gartner Magic Quadrant for Personalization Engines, 2020. Il Magic Quadrant di Gartner per i motori di personalizzazione ha valutato i fornitori in 15 criteri che rientrano in due categorie: completezza della vista e capacità di esecuzione. [Leggetelo su The Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/).
+   >
+   >
+* **mbox.js obsoleto**: Il 30 agosto 2020  Adobe Target non supporterà più la libreria mbox.js. Dopo il 30 agosto 2020, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività Target in esecuzione distribuendo contenuti predefiniti. È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della libreria at.js prima di tale data, in modo da evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [How At.js Works](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) and [Adobe Target Experience Builder (Funzionamento di At.js e Generatore di competenze di ): Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
    >
    >   
    Sebbene mbox.js sia attualmente supportato, a partire da luglio 2017 non sono stati forniti aggiornamenti di funzionalità per questa libreria. Il più recente at.js offre molti vantaggi rispetto a mbox.js. Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni Web, migliora la sicurezza e offre migliori opzioni di implementazione per le applicazioni a pagina singola.
@@ -35,7 +38,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 * **Annunci** Target: Consultate la pagina degli annunci Target per informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, le chat per sviluppatori, i webinar e le sessioni di Target Coffee Break. Per ulteriori informazioni, consultate Annunci [Target](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.7.1 (22 luglio 2020)
+## Target Standard/Premium 20.7.1 (27 luglio 2020)
 
 Questa versione include i seguenti miglioramenti:
 
@@ -51,6 +54,8 @@ Durante questo aggiornamento, sarà possibile eseguire facilmente molte azioni u
 * Indirizzi IP offuscati dei visitatori per motivi di privacy (**[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**)
 * Visualizzate l’elenco esistente di utenti per area di lavoro e i relativi ruoli prima di gestirli in Adobe  Admin Console (**[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]**).
 * Cerca e filtra tutte le tabelle nella sezione [!UICONTROL Amministrazione] .
+
+Per ulteriori informazioni, consulta [Amministrazione di Target Overview](/help/administrating-target/administrating-target.md).
 
 ### Miglioramenti, correzioni e modifiche
 
