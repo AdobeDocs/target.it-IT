@@ -4,10 +4,10 @@ description: In determinate condizioni si possono verificare problemi di visuali
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: cf69c1d8472088d5f6a6b7250bedd1048cac5c10
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '964'
+ht-degree: 98%
 
 ---
 
@@ -67,7 +67,7 @@ Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la 
 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Preferenze]** quindi seleziona la casella di controllo che abilita il Compositore esperienza avanzato. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
+Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
 
 >[!NOTE]
 >
