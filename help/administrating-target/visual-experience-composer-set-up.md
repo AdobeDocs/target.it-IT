@@ -4,9 +4,9 @@ description: Configurate il  Adobe Target Visual Experience Composer (VEC) speci
 title: Configurare  Adobe Target Visual Experience Composer (Compositore esperienza visivo)
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '686'
+source-wordcount: '694'
 ht-degree: 52%
 
 ---
@@ -15,10 +15,6 @@ ht-degree: 52%
 # Configurare il Compositore esperienza visivo
 
 Configurate [!DNL Adobe Target] Visual Experience Composer (VEC) (Compositore esperienza [!UICONTROL visivo] visivo) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
-
->[!NOTE]
->
->Gli argomenti di questa sezione, elencati di seguito, sono stati aggiornati per consentirvi di vedere di seguito le modifiche dell’interfaccia utente in arrivo nella release [!DNL Target Standard/Premium] 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questi argomenti si applica all&#39;interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 Per accedere alla pagina di configurazione di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] , fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)].**
 
@@ -104,5 +100,9 @@ Puoi eseguire l&#39;override di questa [!UICONTROL impostazione] per ogni attivi
 In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 * Descrizione delle impostazioni account disponibili in [!DNL Target Standard]
+
+>[!NOTE]
+>
+>L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza dell’utente nel prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
