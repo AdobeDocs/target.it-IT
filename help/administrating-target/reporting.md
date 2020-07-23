@@ -4,10 +4,10 @@ description: Configurate il  Adobe Target Visual Experience Composer (VEC) speci
 title: Configurare i rapporti in  Adobe Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 0736f6f777f9f3d64706541bf5ef8265615e9082
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 35%
+source-wordcount: '666'
+ht-degree: 38%
 
 ---
 
@@ -15,10 +15,6 @@ ht-degree: 35%
 # Configurare i rapporti in Target
 
 Configurate le impostazioni generali da utilizzare nei [!DNL Adobe Target] rapporti che si applicano all&#39;intero [!DNL Target] account.
-
->[!NOTE]
->
->Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 Per accedere alla pagina di configurazione [!UICONTROL Reporting] (Generazione rapporti), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting (Generazione rapporti)].**
 
