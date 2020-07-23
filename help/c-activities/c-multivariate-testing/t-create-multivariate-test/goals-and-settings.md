@@ -5,7 +5,10 @@ title: Obiettivi e impostazioni
 topic: Standard
 uuid: 710c64bf-aa28-412e-a933-3845892f457e
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1248'
+ht-degree: 96%
 
 ---
 
@@ -36,9 +39,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in Configurazione (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
+If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
 
-Per abilitare le priorità dettagliate, fai clic su Configurazione, quindi attiva l’opzione Abilita priorità precise.
+To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
