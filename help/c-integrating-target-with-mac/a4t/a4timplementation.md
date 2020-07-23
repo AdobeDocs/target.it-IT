@@ -4,10 +4,10 @@ description: Sono necessari diversi passaggi per implementare Adobe Analytics co
 title: Implementazione di Analytics for Target
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '877'
-ht-degree: 65%
+source-wordcount: '879'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +20,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 Le sezioni seguenti descrivono i passaggi necessari per implementare questa integrazione nel sito.
 
-## Passaggio 1: Richiesta di provisioning per Analytics e Target
+## Passaggio 1: Richiesta di provisioning per  Analytics e Target
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](http://www.adobe.com/go/audiences).
 
@@ -38,9 +38,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 È necessario implementare o eseguire la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all&#39;implementazione di* Analytics.
+Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida all&#39;implementazione di *Analytics*.
 
-Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all&#39;implementazione di* Analytics.
+Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida all&#39;implementazione di *Analytics*.
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
@@ -97,7 +97,7 @@ Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato a  Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
@@ -171,7 +171,7 @@ Tale conferma è particolarmente importante in applicazioni a pagina singola (SP
 
 ## Passaggio 10: Abilitare le opzioni per l’utilizzo di Analytics come origine per la creazione di rapporti per Target
 
-In [!DNL Target], fai clic su **[!UICONTROL Configurazione > Preferenze]** e scegli **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]**.
+In [!DNL Target], click **[!UICONTROL Administation > Visual Experience Composer]** and choose either **[!UICONTROL Select per activity]** or **[!UICONTROL Adobe Analytics]** to enable the options.
 
 * **[!UICONTROL Seleziona per attività consente di scegliere tra e per la creazione di ogni attività.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe imposta Analytics come origine dei rapporti per tutte le attività che hai creato.]**[!DNL Analytics]
