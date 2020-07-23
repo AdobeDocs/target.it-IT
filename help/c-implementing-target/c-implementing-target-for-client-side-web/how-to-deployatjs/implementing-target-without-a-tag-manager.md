@@ -1,105 +1,140 @@
 ---
-keywords: order confirmation;orderConfirmPage
+keywords: implement target;implementation;implement at.js;tag manager
 description: Informazioni sull’implementazione di Adobe Target senza l’utilizzo di un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
 title: Implementare Target senza un sistema per la gestione dei tag
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: ff3e0d7baacc149e53641f0340dded3a310c60f9
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+workflow-type: tm+mt
+source-wordcount: '1537'
+ht-degree: 66%
 
 ---
 
 
 # Implementare Target senza un sistema per la gestione dei tag{#implement-target-without-a-tag-manager}
 
-Informazioni sull’implementazione di [!DNL Adobe Target] senza l’utilizzo di un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
-
-## Implementare Target senza un sistema per la gestione dei tag {#topic_397FFA3D6918456BBE02A9FBE9537894}
-
-Informazioni sull’implementazione di Adobe Target senza l’utilizzo di un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
+Information about implementing [!DNL Adobe Target] without using a tag manager ([!DNL Adobe Launch] or [!DNL Dynamic Tag Manager]).
 
 >[!NOTE]
 >
 >[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) è il metodo preferito per l’implementazione di Target e della libreria at.js. Le seguenti informazioni non sono applicabili quando si utilizza Adobe Launch per implementare Target.
 
-## at.js configurations {#concept_2FA0456607D04F82B0539C5BF5309812}
+Per accedere alla pagina [!UICONTROL Implementazione] , fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
-Informazioni utili per scegliere diverse impostazioni nella pagina Impostazioni di at.js.
+In questa pagina potete specificare le seguenti impostazioni:
 
->[!NOTE]
->
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) è il metodo preferito per l’implementazione di Target e della libreria at.js. Le seguenti informazioni non sono applicabili quando si utilizza Adobe Launch per implementare Target.
+* Dettagli account
+* Metodi di implementazione
+* API profilo
+* Strumenti debugger
+* Privacy
 
 >[!NOTE]
 >
 >È possibile modificare le impostazioni nella libreria at.js anziché configurare le impostazioni nell’interfaccia utente di Target Standard/Premium o con le API REST. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-Per aprire la pagina [!UICONTROL Impostazioni]:
+## Dettagli account
 
-1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]**.
-1. Seleziona **[!UICONTROL at. js]** > **[!UICONTROL Modifica impostazioni at.js]**.
-
-## Impostazioni di erogazione contenuto {#section_118D290DFC444509AD8E4AE86C9D92C0}
-
-Prima di cambiare queste impostazioni, rivolgiti all’Assistenza clienti. Queste impostazioni sono necessarie per la maggior parte delle implementazioni.
+Potete visualizzare i seguenti dettagli account. Queste impostazioni non possono essere modificate.
 
 | Impostazione | Descrizione |
-|--- |--- |
-| Creazione automatica mbox globale | Seleziona se incorporare la chiamata mbox globale nel file at.js in modo che si attivi automaticamente al caricamento di ogni pagina.<br>La modifica di questa impostazione ha effetto sia su at.js che su mbox.js. |
-| Nome mbox globale | Seleziona un nome per la mbox globale. Per impostazione predefinita, il nome è target-global-mbox.<br>Nei nomi delle mbox in at.js puoi usare caratteri speciali, tra cui il simbolo &amp;.<br>La modifica di questa impostazione ha effetto sia su at.js che su mbox.js. |
+| --- | --- |
+| Codice cliente | Il codice cliente è una sequenza di caratteri specifica del cliente spesso necessaria quando si utilizzano le API di Target. |
+| ID organizzazione IMS | Questo ID collega l’implementazione al tuo account [!DNL Adobe Experience Cloud]. |
 
-## Impostazioni avanzate {#section_33B697B77BA64A01B5939D7EC75231F2}
+## Metodi di implementazione
 
-| Impostazione | Descrizione |
-|--- |--- |
-| Codice cliente | Il codice cliente è una sequenza di caratteri specifica del cliente spesso necessaria quando si utilizzano le API di Target.<br>Non è possibile modificare questa impostazione. |
-| ID organizzazione IMS | Questo ID collega l’implementazione al tuo account [!DNL Adobe Experience Cloud].<br>Non è possibile modificare questa impostazione. |
-| Durata del profilo | Questa impostazione determina per quanto tempo vengono memorizzati i profili visitatore. Per impostazione predefinita, i profili vengono memorizzati per due settimane. Questa operazione può essere prolungata fino a 90 giorni.<br>Per modificare l’impostazione Durata del profilo, contatta l’[Assistenza clienti](https://helpx.adobe.com/contact/enterprise-support.ec.html). |
-| X-Domain | Determina se il browser imposta i cookie nel proprio dominio (cookie di prima parte), nel dominio di Target o entrambi.<br>La modifica di questa impostazione ha effetto sia su at.js che su mbox.js. |
-| Timeout | Se [!DNL Target] non risponde con il contenuto entro il periodo definito, la chiamata al server riceve un timeout e viene visualizzato il contenuto predefinito. Durante la sessione del visitatore vengono ripetuti ulteriori tentativi di chiamata. Il valore predefinito è 5 secondi.<br>La modifica di questa impostazione ha effetto sia su at.js che su mbox.js.<br>La libreria at.js utilizza l’impostazione di timeout in `XMLHttpRequest`. Il timeout viene avviato quando parte la richiesta e si interrompe quando Target riceve una risposta dal server. Per ulteriori informazioni, consulta [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) in Mozilla Developer Network.<br>Se il timeout specificato si verifica prima della ricezione della risposta, viene visualizzato il contenuto predefinito e il visitatore può essere conteggiato come partecipante a un’attività, poiché la raccolta dei dati viene eseguita sul server Edge di [!DNL Target]. Se la richiesta raggiunge il server Edge di [!DNL Target], il visitatore viene conteggiato.<br>Quando configuri l’impostazione di timeout, tieni presente quanto segue:<ul><li>Se il valore è troppo basso, gli utenti potrebbero visualizzare il contenuto predefinito la maggior parte delle volte, nonostante il visitatore venga conteggiato come partecipante all’attività.</li><li>Se il valore è troppo alto, i visitatori potrebbero visualizzare aree vuote nella pagina web o pagine vuote (se utilizzi la funzione per nascondere il corpo) per periodi di tempo prolungati.</li></ul>Per comprendere meglio i tempi di risposta della mbox, guarda la scheda Rete negli strumenti di sviluppo del tuo browser. Puoi anche utilizzare strumenti di terze parti per il monitoraggio delle prestazioni web, ad esempio Catchpoint.<br>**Nota **: l’impostazione[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)evita che[!DNL Target]attenda troppo a lungo la risposta dell’API visitatore. Questa impostazione e l’impostazione Timeout per at.js qui descritta non entrano in contrasto. |
-| Supporto di browser legacy | **Nota**: l’opzione Supporto di browser legacy è disponibile nelle versioni 0.9.3 e precedenti di at.js. Questa opzione è stata rimossa in at.js versione 0.9.4. Per un elenco di browser supportati da at.js, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>I browser legacy sono browser meno recenti che non supportano completamente la condivisione delle risorse tra diverse origini (Cross Origin Resource Sharing, CORS). Questi browser includono: Internet Explorer nelle versioni precedenti alla versione 11; Safari versione 6 e precedenti. Se il supporto di browser legacy è disattivato, Target non recapita i contenuti né conta i visitatori nei rapporti per questi browser. Se questa opzione è abilitata, si consiglia di eseguire test di controllo qualità su diversi browser più datati, per assicurarsi che sia possibile fornire agli utenti un’esperienza positiva. |
+Le seguenti impostazioni possono essere configurate nel pannello Metodi di implementazione:
 
-## Impostazioni codice {#section_D41C905D0F8149949F525C85F2CCFF7F}
-
-| Impostazione | Descrizione |
-|--- |--- |
-| Intestazione libreria | Aggiungi un JavaScript personalizzato da includere nella parte superiore della libreria. |
-| Piè di pagina libreria | Aggiungi un JavaScript personalizzato da includere nella parte inferiore della libreria. |
-
-## Scaricare at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
-
-Istruzioni per scaricare la libreria utilizzando l’interfaccia di Target o l’API di download.
-
-<!-- 
-
-ov2/c_target-configure-atjs.xml
-
- -->
+### Impostazioni globali
 
 >[!NOTE]
 >
->[Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) è il metodo preferito per l’implementazione di Target e della libreria at.js. Le seguenti informazioni non sono applicabili quando si utilizza Adobe Launch per implementare Target.
+>Queste impostazioni vengono applicate a tutte le librerie [!DNL Target] .js. Dopo aver apportato le modifiche nella sezione Metodi [!UICONTROL di] implementazione è necessario scaricare la libreria e aggiornarla nell&#39;implementazione.
+
+|Caricamento pagina abilitato (creazione automatica di mbox globale|Specifica se incorporare la chiamata mbox globale nel file at.js per attivare automaticamente il caricamento di ogni pagina.|
+|Mbox globale|Selezionate un nome per la mbox globale. Per impostazione predefinita, il nome è target-global-mbox.<br>Nei nomi delle mbox in at.js puoi usare caratteri speciali, tra cui il simbolo &amp;.|
+|Timeout (seconds)|If [!DNL Target] does not respond with content within the defined period, the server call times out and default content is displayed. Durante la sessione del visitatore vengono ripetuti ulteriori tentativi di chiamata. Il valore predefinito è 5 secondi.<br>La libreria at.js utilizza l’impostazione di timeout in `XMLHttpRequest`. Il timeout viene avviato quando parte la richiesta e si interrompe quando [!DNL Target] riceve una risposta dal server. Per ulteriori informazioni, consulta [XMLHttpRequest.timeout](https://developer.mozilla.org/en-US/docs/Web/API/XMLHttpRequest/timeout) in Mozilla Developer Network.<br>Se il timeout specificato si verifica prima della ricezione della risposta, viene visualizzato il contenuto predefinito e il visitatore può essere conteggiato come partecipante a un’attività, poiché la raccolta dei dati viene eseguita sul server Edge di [!DNL Target]. Se la richiesta raggiunge il server Edge di [!DNL Target], il visitatore viene conteggiato.<br>Quando configuri l’impostazione di timeout, tieni presente quanto segue:<ul><li>Se il valore è troppo basso, gli utenti potrebbero visualizzare il contenuto predefinito la maggior parte delle volte, nonostante il visitatore venga conteggiato come partecipante all’attività.</li><li>Se il valore è troppo alto, i visitatori potrebbero visualizzare aree vuote nella pagina web o pagine vuote (se utilizzi la funzione per nascondere il corpo) per periodi di tempo prolungati.</li></ul>Per comprendere meglio i tempi di risposta della mbox, guarda la scheda Rete negli strumenti di sviluppo del tuo browser. Puoi anche utilizzare strumenti di terze parti per il monitoraggio delle prestazioni web, ad esempio Catchpoint.<br>**Nota **: l’impostazione[visitorApiTimeout](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md)evita che[!DNL Target]attenda troppo a lungo la risposta dell’API visitatore. Questa impostazione e l’impostazione Timeout per at.js qui descritta non entrano in contrasto.|
+|Durata profilo|Questa impostazione determina per quanto tempo vengono memorizzati i profili dei visitatori. Per impostazione predefinita, i profili vengono memorizzati per due settimane. Questa operazione può essere prolungata fino a 90 giorni.<br>Per modificare l’impostazione Durata del profilo, contatta l’[Assistenza clienti](https://helpx.adobe.com/it/contact/enterprise-support.ec.html).|
+
+### Metodo di implementazione principale
 
 >[!IMPORTANT]
 >
->Il team di Target gestisce solo due versioni di [!DNL at.js], la versione corrente e quella immediatamente precedente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+>Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
 
-## Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
+Per scaricare la versione at.js desiderata, fate clic sul pulsante **[!UICONTROL Scarica]** appropriato.
+
+Per modificare le impostazioni at.js, fate clic su **[!UICONTROL Modifica]** accanto alla versione at.js desiderata.
+
+>[!IMPORTANT]
+>
+>Prima di modificare queste impostazioni predefinite, consulta [Client Care](/help/cmp-resources-and-contact-information.md) per non influenzare l&#39;implementazione corrente.
+
+Oltre alle impostazioni descritte in precedenza, sono disponibili anche le seguenti impostazioni at.js specifiche:
+
+| Impostazione | Descrizione |
+|--- |--- |
+| Intestazione libreria personalizzata | Aggiungi un JavaScript personalizzato da includere nella parte superiore della libreria. |
+| Piè di pagina libreria personalizzata | Aggiungi un JavaScript personalizzato da includere nella parte inferiore della libreria. |
+
+### API profilo
+
+Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
+
+For more information, see [Profile API settings](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md).
+
+### Strumenti debugger
+
+Generare un token di autorizzazione per utilizzare strumenti [!DNL Target] di debug avanzati. Click **[!UICONTROL Generate New Authentication Token]**.
+
+![Genera nuovo token di autenticazione](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+
+### Privacy
+
+Queste impostazioni consentono di utilizzare [!DNL Target] in conformità alle leggi sulla privacy dei dati.
+
+Scegli l&#39;impostazione desiderata dall&#39;elenco a discesa Indirizzo IP visitatore offuscato:
+
+* Ultima offuscamento ottetto
+* Intera offuscamento IP
+* None (Nessuno)
+
+Per ulteriori informazioni, consulta [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md).
+
+>[!NOTE]
+>
+>L&#39;opzione Supporto browser legacy era disponibile in at.js versione 0.9.3 e precedenti. Questa opzione è stata rimossa in at.js versione 0.9.4. Per un elenco di browser supportati da at.js, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>I browser legacy sono browser meno recenti che non supportano completamente la condivisione delle risorse tra diverse origini (Cross Origin Resource Sharing, CORS). Questi browser includono: Internet Explorer nelle versioni precedenti alla versione 11; Safari versione 6 e precedenti. Se l&#39;opzione Supporto browser legacy è stata disabilitata, Target non ha distribuito contenuti o registrato visitatori nei rapporti su questi browser. Se questa opzione è stata attivata, si consiglia di garantire la qualità tra i browser più datati per garantire una buona esperienza cliente.
+
+## Scaricare at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
+
+Instructions to download the library using the [!DNL Target] interface or the Download API.
+
+>[!NOTE]
+>
+>* [Adobe Launch](../../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) è il metodo preferito per l’implementazione di Target e della libreria at.js. Le seguenti informazioni non sono applicabili quando si utilizza Adobe Launch per implementare Target.
+   >
+   >
+* Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
+
+
+### Download at.js using the Target interface {#section_1F5EE401C2314338910FC57F9592894E}
 
 Per scaricare [!DNL at.js] dall&#39;interfaccia di [!DNL Target]:
 
-1. Fai clic su **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]**.
-1. Seleziona **[!UICONTROL at.js]**.
-1. Fai clic su **[!UICONTROL Scarica at.js]**.
+1. Fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
+1. Nella sezione Metodi [!UICONTROL di] implementazione, fate clic sul pulsante **[!UICONTROL Scarica]** accanto alla versione at.js desiderata.
 
-## Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
+### Download at.js using the Target Download API {#section_C0D9D2A9068144708D08526BA5CA10D0}
 
 Per scaricare [!DNL at.js] utilizzando l&#39;API.
 
 1. Ottieni il tuo codice cliente.
 
-   Il codice cliente è disponibile nella parte superiore della pagina **[!UICONTROL Configurazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Modifica impostazioni at.js]** dell&#39;interfaccia di [!DNL Target].
+   Your client code is available at the top of the **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** page of the [!DNL Target] interface.
 
 1. Ottieni il tuo numero di amministratore.
 
@@ -132,6 +167,7 @@ Per scaricare [!DNL at.js] utilizzando l&#39;API.
    * Replace `admin number` with your admin number.
    * Replace `client code` with the client code from Step 1.
    * Replace `version number` with the desired at.js version number (for example, 2.2).
+
    >[!IMPORTANT]
    >
    >Il team di Target gestisce solo due versioni di [!DNL at.js], la versione corrente e quella immediatamente precedente. Aggiorna [!DNL at.js] per assicurarti di eseguire una versione supportata. Per ulteriori informazioni su ogni versione, consulta [Dettagli sulla versione di at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
@@ -202,7 +238,7 @@ Un’implementazione tipica di Target che non utilizza un gestore di tag come [A
 Considera le seguenti note importanti:
 
 * Deve essere utilizzato il tipo di documento HTML5 (ad esempio, `<!doctype html>`). I doctype non supportati o meno recenti potrebbero impedire a Target di effettuare una richiesta.
-* Preconnessione e Preacquisizione sono opzioni che potrebbero consentire di caricare più rapidamente le pagine Web. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Setup]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit at.js Settings]** page.
+* Preconnessione e Preacquisizione sono opzioni che potrebbero consentire di caricare più rapidamente le pagine Web. If you use these configurations, ensure that you replace `<client code>` with your own client code, which you can obtain from the **[!UICONTROL Administration]** > **[!UICONTROL Implementation] page.
 * Se si dispone di un livello di dati, è ottimale definirlo il più possibile nel `<head>` delle pagine prima di caricare at.js. Questo posizionamento offre la massima capacità di sfruttare queste informazioni in Target per la personalizzazione.
 * Funzioni speciali di Target, come ad esempio `targetPageParams()`, `targetPageParamsAll()`, Data Providers e `targetGlobalSettings()` devono essere definite dopo il livello di dati e prima di caricare at.js. In alternativa, possono venire salvate nella sezione [!UICONTROL Intestazione libreria] della pagina [!UICONTROL Modifica impostazioni at.js] e salvate come parte della libreria at.js stessa. Per ulteriori informazioni su queste funzioni, vedi [Funzioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
 * Se si utilizzano librerie di supporto di JavaScript, come ad esempio jQuery, includerle prima di Target così da poterne sfruttare la sintassi e i metodi durante la creazione di esperienze Target.
