@@ -5,10 +5,10 @@ title: Ambienti
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 63%
+source-wordcount: '654'
+ht-degree: 68%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 63%
 # Ambienti
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
-
->[!NOTE]
->
->Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release Target Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 Per facilitare la gestione, gli host sono raccolti in ambienti. Ad esempio, si potrebbero avere decine di host raggruppati in due o tre ambienti. The preset environments include [!UICONTROL Production], [!UICONTROL Staging], and [!UICONTROL Development]. È anche possibile aggiungere nuovi ambienti e rinominare gli ambienti.
 
