@@ -5,9 +5,9 @@ title: Dettagli sulle versioni di at.js
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: 8bd08463509e06673bedd0fedf9ee15e46472826
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '3947'
+source-wordcount: '3978'
 ht-degree: 86%
 
 ---
@@ -22,6 +22,12 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per effettuare l&#39;aggiornamento a at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzioni alle loro estensioni e correggono frequentemente i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un’estensione e resi disponibili nel [!DNL Launch] catalogo come aggiornamenti. Per ulteriori informazioni, consultate Aggiornamento [](https://docs.adobe.com/content/help/en/launch/using/reference/manage-resources/extensions/extension-upgrade.html) estensione nella Guida *utente di* Experience Platform Launch.
+
+## at.js 2.3.2 (24 luglio 2020)
+
+Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+
+* È stato corretto un bug a causa del quale uno script o un codice aggiungeva proprietà predefinite alla finestra o al documento.
 
 ## at.js 1.8.2 (15 giugno 2020)
 
