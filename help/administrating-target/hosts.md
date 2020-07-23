@@ -5,10 +5,10 @@ title: Host
 topic: Standard
 uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
 workflow-type: tm+mt
-source-wordcount: '1125'
-ht-degree: 26%
+source-wordcount: '1079'
+ht-degree: 27%
 
 ---
 
@@ -16,10 +16,6 @@ ht-degree: 26%
 # Host{#hosts}
 
 Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
-
->[!NOTE]
->
->Le informazioni riportate in questo argomento sono state aggiornate per fornire un picco spettacolare delle modifiche all&#39;interfaccia utente in arrivo nella release [!DNL Target] Standard/Premium 20.6.1 (luglio 2020). La maggior parte delle informazioni presentate in questo argomento si applica all’interfaccia utente corrente; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. Host management also lets you separate report data by [environment](/help/administrating-target/environments.md).
 
