@@ -5,10 +5,10 @@ title: 'Note sulla versione di Adobe Target (corrente) '
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: fe68bfb124a5c8c58fbc6822d31b49257a0cfc0b
+source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
 workflow-type: tm+mt
-source-wordcount: '873'
-ht-degree: 32%
+source-wordcount: '904'
+ht-degree: 31%
 
 ---
 
@@ -35,6 +35,12 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## at.js 2.3.2 (24 luglio 2020)
+
+Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+
+* È stato corretto un bug a causa del quale uno script o un codice aggiungeva proprietà predefinite alla finestra o al documento.
 
 ## Target Standard/Premium 20.7.1 (27 luglio 2020)
 
