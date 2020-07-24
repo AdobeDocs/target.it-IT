@@ -4,10 +4,10 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
 workflow-type: tm+mt
-source-wordcount: '3201'
-ht-degree: 95%
+source-wordcount: '3261'
+ht-degree: 94%
 
 ---
 
@@ -131,6 +131,10 @@ Come soluzione alternativa, basati sui dati A4T in Reports &amp; Analytics fino 
 ### API di Target
 
 I clienti non possono eseguire operazioni CRUD sulle attività di allocazione automatica tramite la versione v3 dell’API A/B Activities in Adobe I/O.
+
+### Targeting GEO
+
+Il 10 maggio 2020 abbiamo aggiornato i file del nostro provider GEO, che hanno introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole; anche se, i valori nelle audience esistenti non avevano una virgola. Questa modifica non ha interessato tutti i server di distribuzione. Di conseguenza, tra il 10 maggio e il 22 luglio 2020 l&#39;audience che utilizza tali valori potrebbe non avere qualificato tutti i visitatori corretti.
 
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
