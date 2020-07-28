@@ -1,10 +1,13 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
-description: Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili agli utenti delle attività di Automated Personalization (AP) e di Auto-Target (AT) in Adobe Target.
+description: Informazioni sul report Segmenti automatizzati, uno dei due report specializzati disponibili agli utenti delle attività di  Automated Personalization (AP) e Auto-Target (AT) in  Adobe Target.
 title: Rapporto Segmenti automatizzati
 uuid: 3f736d7d-b305-438b-8320-2a54e4a9234f
 translation-type: tm+mt
-source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '2103'
+ht-degree: 92%
 
 ---
 
@@ -14,15 +17,29 @@ source-git-commit: ecec827209074a2f9ea96320ccdcf3ca81770e9c
 Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
 
 >[!NOTE]
->Le attività di AP e AT sono disponibili come parte della soluzione Target Premium. Non sono disponibili in Target Standard senza una licenza di[ Target Premium](/help/c-intro/intro.md#premium).
 >
->I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.|
+>Quando usi i rapporti Personalization Insights, prendi in considerazione quanto segue:
+>
+>* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
+   >
+   >
+* [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
+   >
+   >
+* [!UICONTROL I rapporti Personalization Insights] (Approfondimenti sulla personalizzazione) sono disponibili solo se l&#39;obiettivo  principale è selezionato dall&#39;elenco a discesa [!UICONTROL Report Metric (Metrica] report).
+   >
+   >
+* I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](../../administrating-target/hosts.md).
+   >
+   >
+* [!UICONTROL I rapporti sugli approfondimenti] di personalizzazione sono generati solo per le attività che si trovano nello stato [!UICONTROL Live] e sono state attivate e ricevono traffico per almeno 15 giorni.
+
 
 I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
 ## Accedere al rapporto Segmenti automatizzati {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired[Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)or[Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)activity from the list.
+1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](../../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3) activity from the list.
 
    If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
 
