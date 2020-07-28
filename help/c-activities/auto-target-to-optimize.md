@@ -4,10 +4,10 @@ title: Targeting automatico
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3365'
-ht-degree: 96%
+source-wordcount: '3517'
+ht-degree: 91%
 
 ---
 
@@ -32,11 +32,18 @@ Similmente alla Personalizzazione automatizzata, il [!UICONTROL Targeting automa
 
 A differenza di un’attività A/B in cui l’allocazione dell’esperienza per un determinato visitatore è definitiva, il [!UICONTROL Targeting automatico] ottimizza l’obiettivo di business specificato su ogni visita. Come nella [!UICONTROL Personalizzazione automatizzata], il [!UICONTROL Targeting automatico], per impostazione predefinita, riserva parte del traffico dell’attività come gruppo di controllo per misurare l’incremento. Ai visitatori del gruppo di controllo viene messa a disposizione un&#39;esperienza casuale nell&#39;attività.
 
-Ci sono alcune note importanti da tenere a mente quando si utilizza il [!UICONTROL Targeting automatico]:
+## Considerazioni
+
+There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
 
 * Non puoi passare un’attività specifica dal [!UICONTROL Targeting automatico] alla Personalizzazione automatizzata e viceversa.
 * Non puoi passare dall’Allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico] e viceversa durante un’attività in corso.
-* Quando si utilizzano host e ambienti (gruppi di host), i modelli vengono generati solo per l&#39;ambiente “Produzione”. Tutti gli ambienti contribuiscono a fornire i dati necessari alla generazione di modelli per campagne di “Produzione”.
+* Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all&#39;invio di tutto il traffico all&#39;esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
+
+   Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
+
+   Le richieste saranno quindi servite con lo stesso modello, indipendentemente dall&#39;ambiente, ma la pluralità di traffico dovrebbe provenire dall&#39;ambiente predefinito per garantire che l&#39;esperienza vincente complessiva identificata sia coerente con il comportamento del mondo reale.
+
 * Sono necessarie un minimo di due esperienze.
 
 ## Terminologia {#section_A309B7E0B258467789A5CACDC1D923F3}
@@ -220,7 +227,11 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 
 Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata) che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+
+### È possibile utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di Target automatico?
+
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività [!UICONTROL Auto-Target] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di Target  automatico, create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization] .
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
