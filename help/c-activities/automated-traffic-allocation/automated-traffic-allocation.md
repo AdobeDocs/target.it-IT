@@ -5,10 +5,10 @@ title: Allocazione automatica
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '3134'
-ht-degree: 83%
+source-wordcount: '3335'
+ht-degree: 78%
 
 ---
 
@@ -187,7 +187,19 @@ Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperi
 
 Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata) che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+
+### Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?
+
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello Allocazione [!UICONTROL automatica] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] .)
+
+### In che modo Auto-Allocate crea modelli in relazione agli ambienti?
+
+[!UICONTROL L&#39;allocazione automatica] crea modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Produzione] è l’ambiente predefinito, ma può essere modificato in Target [Administration > Ambienti](/help/administrating-target/environments.md).
+
+Se si verifica un hit in un altro ambiente (non predefinito), il traffico verrà distribuito in base al comportamento di conversione osservato nell&#39;ambiente predefinito. Il risultato di tale hit (conversione o non conversione) verrà registrato a fini di reporting, ma non verrà preso in considerazione nel modello di allocazione [!UICONTROL automatica] .
+
+Quando si seleziona un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L&#39;ambiente selezionato predefinito per un report sarà sempre l&#39;impostazione predefinita a livello di account selezionata. L&#39;ambiente predefinito non può essere impostato per attività.
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
