@@ -4,15 +4,15 @@ description: Elenco delle domande frequenti sulla Personalizzazione automatizzat
 title: Domande frequenti sulla Personalizzazione automatizzata
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 25d210e69211d8573cfa369a3ea6652d5d9648d7
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 95%
+source-wordcount: '1965'
+ht-degree: 85%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Domande frequenti sulla Personalizzazione automatizzata{#automated-personalization-faq}
+# ![PREMIUM](/help/assets/premium.png)  Domande frequenti su Automated Personalization{#automated-personalization-faq}
 
 Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 
@@ -51,15 +51,19 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
    * Non esiste alcuna personalizzazione tra le offerte in un gruppo di rapporti: le offerte sono tutte considerate uguali dal modello di personalizzazione.
    * Non mettere mai tutte le offerte di un’attività in un singolo gruppo di rapporti. Questa decisione farà sì che tutte le offerte siano indirizzate in modo uniforme a tutti i visitatori che accedono all’attività.
 
-## Quali sono alcuni dei limiti della Personalizzazione automatizzata? {#section_08BA09ED51B547299963C94FE6417CFA}
+## Domande frequenti 
+
+Consultate le seguenti domande frequenti e risposte durante l’utilizzo delle attività di allocazione automatica:
+
+### Quali sono alcuni dei limiti della Personalizzazione automatizzata? {#section_08BA09ED51B547299963C94FE6417CFA}
 
 Target supporta fino a 30.000 esperienze, ma funziona al meglio quando sono create meno di 10.000 esperienze.
 
-## Come viene implementato il targeting a livello di offerta? {#section_9D7A86EA93D74E9B8C81072A681263A4}
+### Come viene implementato il targeting a livello di offerta? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
 Quando arriva un visitatore, il set di possibili offerte che il visitatore può visualizzare è determinato dalle regole di targeting a livello di offerta. Quindi, l’algoritmo sceglie l’offerta che, secondo le previsioni del modello, che avrà il miglior ricavo atteso o possibilità di conversione tra quelle offerte. Il targeting dell’offerta ha un impatto sull’efficacia degli algoritmi di apprendimento automatico di Target e, di conseguenza, dovrebbe essere utilizzato con la massima parsimonia possibile.
 
-## La mia attività non mostra alcun incremento. Cosa succede? {#section_BFA07C8C258F45318F73A461B8F32737}
+### La mia attività non mostra alcun incremento. Cosa succede? {#section_BFA07C8C258F45318F73A461B8F32737}
 
 Ci sono quattro fattori necessari affinché un’attività di Personalizzazione automatizzata generi incremento:
 
@@ -72,29 +76,29 @@ La migliore linea di azione è di assicurarsi in primo luogo che i contenuti e l
 
 Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla personalizzazione automatica](../../c-activities/t-automated-personalization/ap-trouble.md#reference_281954549C3E49E2B5498009BBDC62CA).
 
-## In che modo la Personalizzazione automatizzata alloca il traffico della mia attività? {#section_4369364F77804E0D9B78BEE551DA5659}
+### In che modo la Personalizzazione automatizzata alloca il traffico della mia attività? {#section_4369364F77804E0D9B78BEE551DA5659}
 
 La personalizzazione automatizzata indirizza i visitatori all’esperienza con la metrica di successo più elevata in base ai modelli di [Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) più recenti costruiti per ciascun modello. Questa previsione si basa sulle informazioni specifiche del visitatore e sul contesto di visita.
 
 Ad esempio, supponi che un’attività di Personalizzazione automatizzata abbia due posizioni con due offerte ciascuna. Nella prima posizione, l’offerta A ha un tasso di conversione previsto del 3% per un visitatore specifico e l’offerta B ha un tasso di conversione previsto dell’1%. Nella seconda posizione, l’offerta C ha un tasso di conversione previsto del 2% per lo stesso visitatore e l’offerta D ha un tasso di conversione previsto del 5%. La Personalizzazione automatizzata offrirebbe quindi a questo visitatore un’esperienza con le offerte A e D.
 
-## Quando devo interrompere l’attività di Personalizzazione automatizzata? {#section_C51F3DAB8887463BB147373F6FE06B93}
+### Quando devo interrompere l’attività di Personalizzazione automatizzata? {#section_C51F3DAB8887463BB147373F6FE06B93}
 
 La Personalizzazione automatizzata può essere utilizzata come personalizzazione “sempre attiva” che si ottimizza costantemente. Soprattutto per i contenuti fissi, non è necessario interrompere l’attività di Personalizzazione automatizzata. Se desideri apportare modifiche sostanziali ai contenuti che non sono simili alle offerte attualmente nell’attività di Personalizzazione automatizzata, si consiglia di avviare una nuova attività. In tal modo si evita il rischio che altri utenti che esaminano i rapporti possano confondersi o utilizzare risultati precedenti con contenuti diversi.
 
-## Quanto tempo devo aspettare per la generazione dei modelli? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
+### Quanto tempo devo aspettare per la generazione dei modelli? {#section_6F6A5A9DB3564BE6B22FFEDFA5B29619}
 
 Il periodo di tempo necessario alla generazione dei modelli nell’attività dipende in genere dal traffico nelle posizioni delle attività selezionate e dalla metrica di successo dell’attività. Utilizza il [Calcolatore del traffico](../../c-activities/t-automated-personalization/ap-traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per determinare il periodo di tempo previsto per la generazione dei modelli nell’attività.
 
-## L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? {#section_51EA953C6D1D4A3185FC9DD290D66621}
+### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? {#section_51EA953C6D1D4A3185FC9DD290D66621}
 
 No, per iniziare la personalizzazione occorrono almeno due modelli generati nell’attività.
 
-## Quando posso esaminare i risultati di un’attività di Personalizzazione automatizzata? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
+### Quando posso esaminare i risultati di un’attività di Personalizzazione automatizzata? {#section_05DB5ACAE6AD429C9510766A7268EE2C}
 
 Puoi iniziare a esaminare i risultati dell’attività di Personalizzazione automatizzata quando disponi di almeno due esperienze con modelli generati (segno di spunta verde).
 
-## Come posso ridurre la quantità di tempo necessario alla generazione dei modelli nell’attività? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
+### Come posso ridurre la quantità di tempo necessario alla generazione dei modelli nell’attività? {#section_CCB8CEE98DAA40BA93AADCD596C48D82}
 
 Esamina l’impostazione dell’attività e verifica se ci sono modifiche che intendi apportare per migliorare la velocità con cui i modelli vengono generati.
 
@@ -103,12 +107,24 @@ Esamina l’impostazione dell’attività e verifica se ci sono modifiche che in
 * È possibile eliminare alcune esperienze dall’attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
 * Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiori sono il traffico e le conversioni nelle posizioni dell’attività, più rapidamente verranno generati i modelli.
 
-## Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
+### Perché i visitatori vedono esperienze per unʼattività di personalizzazione automatizzata che non dovrebbero vedere? {#section_41CECEAE0881446A8D9F3B016857914B}
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
 
-## Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di Automated Personalization (Personalizzazione automatizzata)? {#change-metric}
+### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività Automated Personalization ? {#change-metric}
 
 Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization (Personalizzazione] automatizzata) che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+
+### Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività Automated Personalization ?
+
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Automated Personalization] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività di allocazione [!UICONTROL automatica] e di Target  automatico.
+
+### In che modo  Automated Personalization costruisce modelli in relazione agli ambienti?
+
+Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all&#39;invio di tutto il traffico all&#39;esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
+
+Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
+
+Le richieste saranno quindi servite con lo stesso modello, indipendentemente dall&#39;ambiente, ma la pluralità di traffico dovrebbe provenire dall&#39;ambiente predefinito per garantire che l&#39;esperienza vincente complessiva identificata sia coerente con il comportamento del mondo reale.
