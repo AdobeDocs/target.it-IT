@@ -1,12 +1,15 @@
 ---
-keywords: Browser;prerequisiti;requisiti;Internet Explorer;Chrome;Firefox;Safari;Android;Surface
+keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;safari;android;surface
 description: L’applicazione Adobe Target e la consegna dei contenuti sono stati testati su una vasta gamma di browser e dispositivi.
 title: Browser supportati
-subtopic: Introduzione
+subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+workflow-type: tm+mt
+source-wordcount: '302'
+ht-degree: 89%
 
 ---
 
@@ -32,14 +35,13 @@ La consegna dei contenuti è stata testata attraverso i seguenti browser e dispo
 
 | Tipo di dispositivo | Versione del browser |
 |--- |--- |
-| Windows | <ul><li>Internet Explorer 9 e 10. Testato in modalità emulazione.<br>**Nota**: at.js 1.3.0 (e versioni successive) non supporta più la consegna di contenuto in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (ultima, ultima meno 1)</li><li>Firefox (ultima, ultima meno 1)</li></ul> |
-| Mac | <ul><li>Apple Safari (ultima)<br>**Nota**: per ulteriori informazioni su come Safari gestisce i cookie di prima e terze parti, consulta [Cookie di Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (ultima, ultima meno 1)</li><li>Chrome (ultima, ultima meno 1)</li></ul> |
+| Windows | <ul><li>Internet Explorer 9 e 10. Testato in modalità emulazione.<br>**Nota **: at.js 1.3.0 (e versioni successive) non supporta più la consegna di contenuto in Microsoft Internet Explorer 9.</li><li>Internet Explorer 11</li><li>Microsoft Edge</li><li>Chrome (ultima, ultima meno 1)</li><li>Firefox (ultima, ultima meno 1)</li></ul> |
+| Mac | <ul><li>Apple Safari (ultima)<br>**Nota **: per ulteriori informazioni su come Safari gestisce i cookie di prima e terze parti, consulta[Cookie di Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/cookie-behavior.md).</li><li>Firefox (ultima, ultima meno 1)</li><li>Chrome (ultima, ultima meno 1)</li></ul> |
 | Cellulare/Tablet | <ul><li>Apple iOS (ultima)</li><li>Dispositivi Android e Tablet (Android 4 e versioni successive)</li><li>Microsoft Surface (Windows 8.1)</li></ul> |
 
-Per le implementazioni di [!DNL at.js], [!DNL Target] mostra il contenuto predefinito nelle versioni precedenti di Internet Explorer e possibilmente nelle versioni precedenti dei browser sopra elencati. Per le implementazioni di [!DNL mbox.js], [!DNL Target] tenta di eseguire il rendering del contenuto ma l’operazione potrebbe non avere esito positivo.
+Tenete presente quanto segue:
 
-[!DNL Target] mostra il contenuto predefinito nei browser non elencati sopra e nei browser che utilizzano modalità [non standard](https://en.wikipedia.org/wiki/Quirks_mode). at.js richiede un doctype che esegua il rendering in modalità standard, ad esempio: `<!DOCTYPE html>`.
-
->[!NOTE]
->
->L’infrastruttura di Adobe Delivery è stata protetta per NON supportare i dispositivi e i browser TLS 1.0 dopo il 12 settembre 2018. Consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) per capire l’impatto complessivo di questa modifica.
+* Per le implementazioni di [!DNL at.js], [!DNL Target] mostra il contenuto predefinito nelle versioni precedenti di Internet Explorer e possibilmente nelle versioni precedenti dei browser sopra elencati. Per le implementazioni di [!DNL mbox.js], [!DNL Target] tenta di eseguire il rendering del contenuto ma l’operazione potrebbe non avere esito positivo.
+* Internet Explorer gestisce tutti gli elementi sconosciuti (come gli elementi personalizzati) come lo stesso tipo di elemento. Di conseguenza, la distribuzione non funzionerà con elementi personalizzati.
+* [!DNL Target] mostra il contenuto predefinito nei browser non elencati sopra e nei browser che utilizzano modalità [non standard](https://en.wikipedia.org/wiki/Quirks_mode). at.js richiede un doctype che esegua il rendering in modalità standard, ad esempio: `<!DOCTYPE html>`.
+* L’infrastruttura di Adobe Delivery è stata protetta per NON supportare i dispositivi e i browser TLS 1.0 dopo il 12 settembre 2018. Consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) per capire l’impatto complessivo di questa modifica.
