@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 32%
+source-wordcount: '1661'
+ht-degree: 30%
 
 ---
 
@@ -21,7 +21,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Luglio 28 | [Report](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)Personalization Insights, report<br>[sui segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati<br>e report sugli attributi [importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Testo aggiornato nella nota. |
+| Luglio 28 | [Report](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)Personalization Insights, report<br>[sui segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati<br>e report sugli attributi [importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Testo aggiornato nella nota nella parte superiore degli argomenti. |
+|  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?</li><li>In che modo Auto-Allocate crea modelli in relazione agli ambienti?</li></ul> |
+|  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>È possibile utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di Target automatico?</li></ul>Testo aggiornato nella sezione &quot;Considerazioni&quot;. |
+|  | [Domande frequenti su Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività Automated Personalization ?</li><li>In che modo  Automated Personalization costruisce modelli in relazione agli ambienti?</li></ul> |
 |  | [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Sono state aggiunte informazioni su Internet Explorer ed elementi sconosciuti. |
 |  | [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Updated following paragraph:<br>[!DNL Adobe] does not guarantee that 100% of customer attribute (visitor profile) data from CRM databases will be onboarded to the [!DNL Experience Cloud] and, thus, be available for use for targeting in [!DNL Target]. Nella nostra progettazione attuale, esiste la possibilità che una piccola percentuale di dati (fino allo 0,1% dei batch di produzione di grandi dimensioni) potrebbe non essere caricata. |
 | Luglio 27 | [Amministrare Target](/help/administrating-target/administrating-target.md) | Testo aggiornato in tutti gli argomenti collegati in questa pagina per riflettere le nuove modifiche dell’interfaccia utente per le pagine di [!UICONTROL amministrazione] . |
