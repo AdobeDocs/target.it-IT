@@ -1,10 +1,10 @@
 ---
-keywords: announcements;skill builder;developer chat
+keywords: announcements;skill builder;developer chat;coffee break;events
 description: Informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni di Target Coffee Break.
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
+source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
 workflow-type: tm+mt
 source-wordcount: '370'
 ht-degree: 0%
