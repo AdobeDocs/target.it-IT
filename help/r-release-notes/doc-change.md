@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
+source-git-commit: a6615c37dfd26315246633b93c1dbfbd990b9b0a
 workflow-type: tm+mt
-source-wordcount: '1676'
-ht-degree: 31%
+source-wordcount: '1693'
+ht-degree: 30%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Luglio 31 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un nuovo problema noto: &quot;Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;.&quot; |
+|  | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni di registrazione sulla prossima  Adobe Target Coffee Break Community il 5 agosto. |
 | Luglio 28 | [Report](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)Personalization Insights, report<br>[sui segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati<br>e report sugli attributi [importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Testo aggiornato nella nota nella parte superiore degli argomenti. |
 |  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?</li><li>In che modo Auto-Allocate crea modelli in relazione agli ambienti?</li></ul> |
 |  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>È possibile utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di Target automatico?</li></ul>Testo aggiornato nella sezione &quot;Considerazioni&quot;. |
