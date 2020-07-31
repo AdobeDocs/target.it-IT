@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 18461d7b2e7e1e8e0ea097bea4bb7242d851f9af
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 30%
+source-wordcount: '1676'
+ht-degree: 31%
 
 ---
 
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 31 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un nuovo problema noto: &quot;Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;.&quot; |
 | Luglio 28 | [Report](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)Personalization Insights, report<br>[sui segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati<br>e report sugli attributi [importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | Testo aggiornato nella nota nella parte superiore degli argomenti. |
 |  | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?</li><li>In che modo Auto-Allocate crea modelli in relazione agli ambienti?</li></ul> |
 |  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>È possibile utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di Target automatico?</li></ul>Testo aggiornato nella sezione &quot;Considerazioni&quot;. |
