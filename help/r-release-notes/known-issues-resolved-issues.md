@@ -4,10 +4,10 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 2a3715ee54a2a68c0847d83117d4fb9fc7898dbe
+source-git-commit: 270fc448eb4d3a13d6593b45a0956edfa72f58c5
 workflow-type: tm+mt
-source-wordcount: '3261'
-ht-degree: 94%
+source-wordcount: '3352'
+ht-degree: 91%
 
 ---
 
@@ -135,6 +135,10 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 ### Targeting GEO
 
 Il 10 maggio 2020 abbiamo aggiornato i file del nostro provider GEO, che hanno introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole; anche se, i valori nelle audience esistenti non avevano una virgola. Questa modifica non ha interessato tutti i server di distribuzione. Di conseguenza, tra il 10 maggio e il 22 luglio 2020 l&#39;audience che utilizza tali valori potrebbe non avere qualificato tutti i visitatori corretti.
+
+### Immagine 0ffs che mostra l&#39;etichetta &quot;Elaborazione&quot;
+
+Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di &quot;elaborazione&quot; per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta di un problema relativo solo all&#39;etichetta: le offerte di immagini possono essere ancora utilizzate nelle attività e distribuite. In alcuni casi, tuttavia, un’offerta immagine potrebbe non essere disponibile per l’azione Sostituisci contenuto > Immagine. In questo caso, caricate di nuovo l’offerta immagine e verificate dopo alcune ore se l’offerta è disponibile per la sostituzione. (TGT-37458)
 
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
