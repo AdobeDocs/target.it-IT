@@ -4,10 +4,10 @@ description: In  Adobe Target, le metriche di successo sono preconfigurate a sco
 title: Metriche di successo in  Adobe Target
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
 workflow-type: tm+mt
-source-wordcount: '1020'
-ht-degree: 83%
+source-wordcount: '1062'
+ht-degree: 79%
 
 ---
 
@@ -82,6 +82,10 @@ Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utent
 | Incrementa il conteggio e mantieni l’utente nell’attività | Specifica come viene incrementato il conteggio:<ul><li>Una volta per partecipante (impostazione predefinita)</li><li>A ogni impression, escluso l’aggiornamento della pagina</li><li>A ogni impression</li></ul> |
 | Incrementa il conteggio, rilascia l’utente e consenti nuovo accesso | Seleziona l’esperienza che il visitatore vede se accede di nuovo all’attività:<ul><li>Stessa esperienza (impostazione predefinita)</li><li>Esperienza casuale</li><li>Esperienza non visualizzata</li></ul> |
 | Incrementa il conteggio, rilascia l’utente e impedisci nuovo accesso | Determina ciò che l’utente vede al posto del contenuto dell’attività:<ul><li>Stessa esperienza, senza tracciamento (impostazione predefinita)</li><li>Contenuto predefinito o contenuto di altra attività</li></ul> |
+
+>[!NOTE]
+>
+>Se configurate una metrica con una delle opzioni [!UICONTROL Increment Count] (Conteggioincrementi) di cui sopra, il conteggio delle metriche incrementa correttamente una volta per partecipante solo a livello di visitatore. Il conteggio delle metriche incrementa una volta per visita per ogni nuova sessione a livello di visita.
 
 ## Video di formazione: Metriche di attività
 
