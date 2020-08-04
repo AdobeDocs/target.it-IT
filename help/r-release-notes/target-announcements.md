@@ -4,9 +4,9 @@ description: Informazioni sugli eventi in programma, comprese le sessioni di Tar
 title: Annunci Target
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d2254af0d9d2f0d5dc31685aa9bcc28bf6ab531e
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '370'
+source-wordcount: '390'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,13 @@ Partecipa  Adobe e HSBC per questo webinar:
 [Registrati qui](https://hsbc-targetai.experienceleague.adobeevents.com/)per questo emozionante webinar.
 
 *Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maggio 2020
+
+## Webinar: Strategie di personalizzazione utilizzando l&#39;intelligenza artificiale e il Adobe Target 
+
+* **8:00 - 9:00 (PDT)**
+* **Giovedì 13 agosto 2020**
+
+[Registrati qui](https://atskillbuilder-maxpersonalization.experienceleague.adobeevents.com/).
 
 ##  Generatore di abilità Adobe Target: Chat sviluppatore, migrate  Adobe Target  mbox.js in at.js {#skill-builder}
 
