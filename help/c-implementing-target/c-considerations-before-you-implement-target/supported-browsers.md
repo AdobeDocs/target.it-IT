@@ -6,10 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
 workflow-type: tm+mt
-source-wordcount: '302'
-ht-degree: 89%
+source-wordcount: '299'
+ht-degree: 86%
 
 ---
 
@@ -22,7 +22,7 @@ Per ulteriori importanti informazioni su TLS, vedi [Modifiche alla crittografia 
 
 ## [!DNL Target]Interfaccia di Standard/Premium {#section_1B73CA4B7BBC460BB7009DF00A2AFC4D}
 
-L’interfaccia di [!DNL [!DNL Target]] Standard/Premium supporta i seguenti browser e dispositivi:
+The [!DNL Target] interface supports the following browsers and devices:
 
 | Tipo di dispositivo | Versione del browser |
 |--- |--- |
