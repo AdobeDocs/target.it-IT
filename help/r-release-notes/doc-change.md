@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 438e03f781dac24d35110bf770a6594a0dbb2765
+source-git-commit: 9f985fa466997f7c14ff8211adeecf450da84df0
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1746'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 agosto | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni di registrazione sul webinar &quot;Personalization Strategies Using Artificial Intelligence and  Adobe Target&quot;, in programma per il 13 agosto. |
 | 3 agosto | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | È stata aggiunta una nota che chiarisce il significato delle opzioni [!UICONTROL Incremento conteggio] per i visitatori rispetto alle visite. |
 | Luglio 31 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un nuovo problema noto: &quot;Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;.&quot; |
 |  | [adobe.target.getOffers(options) - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stato aggiunto un esempio di codice da utilizzare `getoffers()` per eseguire pageLoad. |
