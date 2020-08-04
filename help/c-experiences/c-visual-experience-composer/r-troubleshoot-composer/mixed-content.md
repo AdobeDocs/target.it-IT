@@ -1,24 +1,29 @@
 ---
-keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure
+keywords: mixed content;secure;insecure;chrome;troubleshooting;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
 title: Abilitazione di contenuti misti nel browser
 topic: Advanced,Standard,Classic
 uuid: 6944ce97-ff73-4b61-b006-35862ff83ef1
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: e4f69d6e5543ed022f3f4dc0c13614dd78812457
+workflow-type: tm+mt
+source-wordcount: '555'
+ht-degree: 36%
 
 ---
 
 
 # Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
 
-Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
+Il contenuto misto si verifica se il contenuto HTTPS (protetto) ** e HTTP (non sicuro) viene caricato per visualizzare la stessa pagina Web e la richiesta iniziale è stata protetta tramite HTTPS.
 
-Se il Compositore esperienza visivo tenta di aprire una pagina contenente un misto di contenuti protetti e non protetti, un messaggio indica come disabilitare il blocco nel browser in modo da poter aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
+I browser più recenti potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto protetto e contenuto non protetto.
+
+If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
 
 ![](assets/mixed_content_warning.gif)
 
-In precedenza, quando i contenuti misti non erano consentiti, era comunque possibile eseguire alcune azioni nel passaggio 1 del flusso di lavoro guidato in tre passaggi durante la creazione di attività. Ora Target blocca le azioni nel passaggio 1. Quando viene visualizzato questo messaggio, prima di continuare è necessario abilitare i contenuti misti.
+In precedenza, quando i contenuti misti non erano consentiti, era comunque possibile eseguire alcune azioni nel passaggio 1 del flusso di lavoro guidato in tre passaggi durante la creazione di attività. [!DNL Target]Ora blocca le azioni nel passaggio 1. Quando viene visualizzato questo messaggio, è necessario abilitare il contenuto misto prima di continuare a creare l&#39;attività.
 
 Le impostazioni di sicurezza del browser potrebbero bloccare i contenuto misti o non protetti (HTTP) caricati in una pagina o in un frame protetti (HTTPS) (come, ad esempio Compositore esperienza visivo). Se non si desidera disabilitare le impostazioni di sicurezza del browser, è necessario disporre di un sito web HTTPS.
 
@@ -32,23 +37,17 @@ Per ulteriori informazioni, vedi la sezione sui [contenuto misti](https://develo
 
 ## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
-Se stai visitando un sito tramite una connessione sicura, Google Chrome verifica che i contenuti della pagina web siano trasmessi in modo sicuro.
+Se visitate un sito tramite una connessione protetta, Chrome verifica che il contenuto della pagina Web sia stato trasmesso in modo sicuro.
 
 Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
 
-### Video di formazione: Abilitare il VEC in Chrome versione 79.0.3945.117 o successiva (Gen. 2020) ![Etichetta Panoramica](/help/assets/overview.png)
+Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non dovranno completare questi passaggi.
-
->[!VIDEO](https://www.youtube.com/v=6zGCi5Y8eVo)
-
-Il video riportato sopra illustra i passaggi necessari:
-
-1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Impostazioni sito.
+1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Impostazioni **** sito.
 
    ![Impostazioni sito](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scorri fino al contenuto non protetto, quindi usa l&#39;elenco a discesa per cambiare Blocca (impostazione predefinita) in Consenti.
+1. Scorri fino al contenuto **** non protetto, quindi usa l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
 
    ![Contenuto non protetto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
@@ -56,25 +55,37 @@ Il video riportato sopra illustra i passaggi necessari:
 
 ## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
-Per impostazione predefinita, Firefox blocca le pagine che contengono un misto di contenuti protetti e non protetti. Si consiglia di modificare definitivamente questa impostazione per utilizzare [!DNL Target].
+Per impostazione predefinita, Firefox blocca le pagine che contengono un misto di contenuti protetti e non protetti. Si consiglia di modificare definitivamente questa impostazione per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
 
 1. In Firefox, digita `about:config` nella barra degli indirizzi.
 1. Conferma il messaggio di avvertenza visualizzato da Firefox.
+
+   ![Avvertimento Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox.png)
+
 1. Nella barra di ricerca digita `block_active`.
+
+   ![Impostazione attiva blocco Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+
 1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
-   Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “Falso”, l&#39;operazione è completata.  È consigliabile riavviare il computer dopo aver modificato questa impostazione.
+   Il valore cambia da “Vero” a “Falso”. Quando il valore è impostato su “Falso”, l&#39;operazione è completata.
 
-## Enabling mixed content in Microsoft Internet Explorer {#task_59E7D13C04DF486C92CD78D0C63DDDE8}
-
-Per impostazione predefinita, Internet Explorer blocca le pagine che contengono un misto di contenuti protetti e non protetti. Si consiglia di modificare definitivamente questa impostazione per utilizzare Target.
-
-1. In Internet Explorer, fai clic sull’icona Impostazioni > **[!UICONTROL Opzioni Internet]**.
-1. Apri la scheda [!UICONTROL Sicurezza.]
-1. Seleziona **[!UICONTROL Internet]**, quindi fai clic su **[!UICONTROL Livello personalizzato]**.
-1. Seleziona **[!UICONTROL Varie]**.
-1. In [!UICONTROL Varie], abilita **[!UICONTROL Visualizza contenuto misto]**.
-1. Fai clic su **[!UICONTROL OK]** > **[!UICONTROL Sì]** > **[!UICONTROL Applica]**.
+   ![Protezione Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
 È consigliabile riavviare il computer dopo aver modificato questa impostazione.
 
+## Abilitazione di contenuti misti in Microsoft Edge
+
+Se visitate un sito tramite una connessione protetta, Edge verifica che il contenuto della pagina Web sia stato trasmesso in modo sicuro.
+
+Se utilizzate il VEC con la versione più recente di Edge, dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
+
+1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Autorizzazioni **** sito.
+
+   ![Autorizzazioni del sito in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
+
+1. Scorri fino al contenuto **** non protetto, quindi usa l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
+
+   ![Contenuto non protetto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
+
+1. Ricaricare la pagina VEC.
