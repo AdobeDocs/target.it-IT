@@ -4,9 +4,9 @@ title: Eliminare il cookie  Adobe Target
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: 79bcd452a9faa0883272d2e686efd7c4ddfa34a2
+source-git-commit: 871250ecaadafa7e9b56fad7e211f258767e3c18
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '409'
 ht-degree: 5%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 5%
 
 Potete eliminare il cookie [!DNL Target] del browser (mbox) in modo da poter convalidare tutte le esperienze durante il test.
 
-If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. There are several ways to delete your [!DNL Target] cookies without deleting all of your browser cookies.
+If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and shown a new experience. Ci sono diversi modi per eliminare la mbox senza eliminare tutti i cookie del browser.
 
 >[!NOTE]
 >
@@ -36,6 +36,8 @@ Versione 84.0.4147.105
 
 Versione 79.0
 
+### Elimina tutti i cookie associati a `adobe.com`
+
 1. Fare clic sul menu **Firefox** > **Preferenze**.
 1. Fate clic sulla scheda **Privacy e sicurezza** .
 1. In **Cookie e dati** del sito, fai clic su **Gestisci dati**.
@@ -43,7 +45,15 @@ Versione 79.0
 
    >[!NOTE]
    >
-   >Questo elimina tutti i cookie associati al `adobe.com` sito. Se desiderate eliminare o modificare i singoli cookie di un sito, potete farlo nella finestra di ispezione [dell&#39;archivio degli strumenti](https://developer.mozilla.org/en-US/docs/Tools/Storage_Inspector)di sviluppo. Il cookie specifico da eliminare è denominato &quot;mbox&quot;.
+   >Questo elimina tutti i cookie associati al `adobe.com` sito. Se desiderate eliminare un singolo cookie per un sito, seguite le istruzioni riportate di seguito.
+
+### Eliminare un singolo cookie (mbox)
+
+1. In Firefox, fare clic su **Strumenti** > **Web Developer** > **Storage Inspector**.
+1. Click the **Advanced** tab.
+1. Passate alla pagina Web contenente il cookie da eliminare.
+1. Espandete la sezione **Cookie** , quindi fate clic su `https://experience.adobe.com`.
+1. Fate clic con il pulsante destro del mouse sul cookie **mbox** , quindi fate clic su **Elimina**.
 
 ## Eliminare il cookie Target da Microsoft Edge
 
@@ -59,14 +69,18 @@ Versione 84.0.522.52
 
 Versione 13.1.2
 
+### Elimina tutti i cookie associati a `adobe.com`
+
 1. Fate clic sul menu **Safari** > **Preferenze**.
 1. Click the **Privacy** tab.
 1. Fate clic su **Gestisci dati** sito Web.
 1. Selezionate i siti per i cookie da eliminare, quindi fate clic su **Rimuovi**.
 
->[!NOTE]
->
->Questo elimina tutti i cookie associati al `adobe.com` sito. Se desiderate eliminare un singolo cookie per un sito, seguite le istruzioni riportate di seguito:
+   >[!NOTE]
+   >
+   >Questo elimina tutti i cookie associati al `adobe.com` sito. Se desiderate eliminare un singolo cookie per un sito, seguite le istruzioni riportate di seguito.
+
+### Eliminare un singolo cookie (mbox)
 
 1. Fate clic sul menu **Safari** > **Preferenze**.
 1. Click the **Advanced** tab.
