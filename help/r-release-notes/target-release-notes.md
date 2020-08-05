@@ -5,10 +5,10 @@ title: ' note sulla versione prerelease di Adobe Target'
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 6ca8aa18c8b9deca1345f09db3a1f85b13840c28
+source-git-commit: 580a4cbdc4ea164e858eadc2fe2923ab65711e2b
 workflow-type: tm+mt
-source-wordcount: '493'
-ht-degree: 22%
+source-wordcount: '391'
+ht-degree: 19%
 
 ---
 
@@ -40,11 +40,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 ## Target Standard/Premium 20.9.1 (2 settembre 2020)
 
-Questa versione di Target include le seguenti nuove funzioni o miglioramenti:
-
-| Funzionalità/Miglioramento | Descrizione |
-| --- | --- |
-| Analytics for Target (A4T) supporto per le attività [!UICONTROL Auto-Target] | [!UICONTROL Le attività di Auto-Target] supporteranno [!UICONTROL Analytics per Target] (A4T).<br>Questa integrazione consente di utilizzare l&#39;apprendimento automatico avanzato [!UICONTROL Auto-Target] per selezionare tra più esperienze definite dall&#39;esperto di marketing ad alte prestazioni per personalizzare i contenuti e stimolare le conversioni, utilizzando al contempo una metrica di obiettivo [!UICONTROL Adobe Analytics] e/o funzionalità di reporting e analisi [!DNL Adobe Analytics] . [!UICONTROL La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.]<br>Se avete già [implementato A4T](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) per l’utilizzo con attività Test [!UICONTROL A/B]A, Allocazione [!UICONTROL automatica]e Targeting  esperienza, siete tutti impostati! |
+Nuove funzioni, miglioramenti e correzioni in questa versione saranno aggiornati qui.
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
