@@ -5,9 +5,9 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 864ce209675b465e229fad787e102e8d9bf5825c
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '1762'
+source-wordcount: '1779'
 ht-degree: 30%
 
 ---
@@ -21,6 +21,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 6 agosto | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md#how-long) | Testo aggiornato per le seguenti domande frequenti: &quot;Per quanto tempo dovrei aspettare che i modelli si costruiscano?&quot; |
 | 5 agosto | [Eliminare il cookie di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Intero argomento aggiornato. |
 | 4 agosto | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni di registrazione sul webinar &quot;Personalization Strategies Using Artificial Intelligence and  Adobe Target&quot;, pianificato per il 13 agosto. |
 |  | [Abilitazione di contenuti misti nel browser](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md) | Argomento aggiornato. |
