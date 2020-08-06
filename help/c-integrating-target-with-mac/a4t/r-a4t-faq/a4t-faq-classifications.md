@@ -1,18 +1,21 @@
 ---
-keywords: faq;domande frequenti;analytics for target;a4T;classificazioni;classificazione;importatore di classificazioni;post-tnt-action
+keywords: faq;frequently asked questions;analytics for target;a4T;classifications;classification;classifications importer;post-tnt-action
 description: Questo argomento contiene le risposte alle domande più frequenti sulle classificazioni e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Classificazioni - Domande frequenti su A4T
 topic: Standard
 uuid: 4b42adbc-4fa8-4b62-86c8-bb8f8bec7e54
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 66%
 
 ---
 
 
 # Classificazioni - Domande frequenti su A4T{#classifications-a-t-faq}
 
-Questo argomento contiene le risposte alle domande più frequenti sulle classificazioni e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
+This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Dopo aver utilizzato la funzione di importazione classificazioni per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -22,7 +25,7 @@ Questo file di consultazione è utile per i clienti che ricevono il feed di dati
 
 Il formato stringa della variabile TNT è `activityID:experienceID:targettype|event`.
 
-* targettype sarà sempre 0 per A4T.
+* targettype = 0 (control/random) o 1 (targeting) per le attività di allocazione [!UICONTROL automatica] e [!UICONTROL targeting] automatico.
 * Event = 0 rappresenta l’entrata di un’esperienza.
 * Event = 1 rappresenta una visita all’esperienza.
 * Event = 2 rappresenta l’impression di un’attività.
