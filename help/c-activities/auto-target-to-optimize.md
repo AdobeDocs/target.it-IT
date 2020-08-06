@@ -4,10 +4,10 @@ title: Targeting automatico
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
 workflow-type: tm+mt
-source-wordcount: '3517'
-ht-degree: 91%
+source-wordcount: '3610'
+ht-degree: 85%
 
 ---
 
@@ -40,7 +40,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 * Non puoi passare dall’Allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico] e viceversa durante un’attività in corso.
 * Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all&#39;invio di tutto il traffico all&#39;esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
 
-   Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
+   Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o per esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
 
    Le richieste saranno quindi servite con lo stesso modello, indipendentemente dall&#39;ambiente, ma la pluralità di traffico dovrebbe provenire dall&#39;ambiente predefinito per garantire che l&#39;esperienza vincente complessiva identificata sia coerente con il comportamento del mondo reale.
 
@@ -156,7 +156,7 @@ Per ulteriori informazioni, consulta [Rapporto di riepilogo del Targeting automa
 
 ## Domande frequenti sul Targeting automatico {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultate le seguenti domande frequenti e risposte mentre lavorate con le attività [!UICONTROL Auto-Target] :
+Consultate le seguenti domande frequenti e risposte mentre lavorate con le attività di [!UICONTROL Auto-Target] :
 
 ### Quali sono le procedure consigliate per impostare un’attività di [!UICONTROL Targeting automatico]?
 
@@ -198,14 +198,17 @@ Il [!UICONTROL Targeting automatico] può essere utilizzato come personalizzazio
 
 Se desideri apportare modifiche sostanziali al contenuto nell’attività di [!UICONTROL Targeting automatico], la procedura consigliata consiste nell’avviare una nuova attività in modo che gli altri utenti che revisionano i rapporti non confondano o riferiscano i risultati passati con contenuti diversi.
 
-### Quanto tempo devo aspettare per la generazione dei modelli?
+### Quanto tempo devo aspettare per la generazione dei modelli? {#how-long}
 
-Il periodo di tempo necessario alla generazione dei modelli nell’attività di [!UICONTROL Targeting automatico] dipende in genere dal traffico delle posizioni dell’attività selezionate e dalla metrica di successo dell’attività.
+The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
 
-Per il [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole generali per comprendere i requisiti del traffico:
+[!UICONTROL Auto-Target] non tenterà di creare un modello personalizzato per una determinata esperienza finché non ci saranno almeno 50 conversioni per tale esperienza. Inoltre, se il modello costruito è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; del blocco, utilizzando [una metrica nota come AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non sarà utilizzato per servire il traffico in modo personalizzato.
 
-* **Quando la Conversione è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e in più l&#39;attività deve avere almeno 7.000 visite e 350 conversioni.
-* **Quando il Ricavo per visita è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e in più l&#39;attività deve avere almeno 1.000 conversioni per esperienza. RPV di solito richiede più dati per costruire modelli a causa della varianza più elevata dei dati che esiste in genere nei ricavi di visita rispetto al tasso di conversione.
+Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Auto-Target]:
+
+* Una volta che un&#39;attività è live, [!UICONTROL Auto-Target] considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando si tenta di creare modelli (ovvero controllare il traffico, più alcuni dati serviti in modo casuale aggiuntivi conservati dal nostro algoritmo).
+* Quando [!UICONTROL Revenue per Visit (Entrate per visita] ) è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate derivanti dalle visite rispetto al tasso di conversione.
+* Poiché i modelli sono basati su un&#39;esperienza specifica, sostituire un&#39;esperienza con un&#39;altra significa che è necessario raccogliere il traffico sufficiente (ovvero almeno 50 conversioni) per la nuova esperienza prima di poter ricostruire i modelli personalizzati.
 
 ### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? 
 
@@ -223,15 +226,15 @@ Questa funzione ti permette di indirizzare tutto il traffico di controllo a una 
 
 Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di Auto-Target? {#change-metric}
+### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di targeting automatico? {#change-metric}
 
 Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
 
 Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
 
-### È possibile utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di Target automatico?
+### Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di targeting automatico?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività [!UICONTROL Auto-Target] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di Target  automatico, create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization] .
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di [!UICONTROL Auto-Target] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target] . Anziché utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività [!UICONTROL Auto-Target] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization] .
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
