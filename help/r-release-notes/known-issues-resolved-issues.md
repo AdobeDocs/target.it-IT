@@ -4,10 +4,10 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 86ff105770a430b3cc56ab8ed490a154a1c2180f
+source-git-commit: f3bb126943bc5f3a44f2969e82190eac34fc5710
 workflow-type: tm+mt
-source-wordcount: '3352'
-ht-degree: 91%
+source-wordcount: '3421'
+ht-degree: 88%
 
 ---
 
@@ -124,9 +124,9 @@ Quando una metrica di successo è impostata per essere incrementata a ogni impre
 
 ### Analytics for Target (A4T)
 
-Le impressioni e le conversioni delle attività di Target vengono attualmente conteggiate in modo errato in Analysis Workspace.
+Quando utilizzi impression e conversioni dell&#39;attività Target in  Analysis Workspace, applica il modello di Attribution IQ  &quot;Same Touch&quot; alle metriche per garantire un conteggio accurato. Per applicare un modello [di attribuzione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non predefinito, fai clic con il pulsante destro del mouse sulla metrica per **modificare le Impostazioni colonna > abilita Usa modello di attribuzione non predefinito > Seleziona Modello** di attribuzione simile. Senza l&#39;applicazione di questo modello, le metriche sono sopravvalutate.
 
-Come soluzione alternativa, basati sui dati A4T in Reports &amp; Analytics fino a quando questo problema non viene risolto.
+Tutti i pacchetti Analytics correnti possono aggiungere questo modello con  Attribution IQ. Se non avete accesso alle  Attribution IQ, fate affidamento sui dati A4T in Reporting e analisi.
 
 ### API di Target
 
@@ -146,17 +146,17 @@ Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella se
 
 ### Generazione di rapporti e ordini estremi
 
-Dal 25 novembre 2019 al 26 aprile 2020, un server Target ha riscontrato un problema che causava il conteggio dei valori degli ordini estremi nelle metriche dei report basate sulle entrate (AOV, RPV). Dal 19 dicembre 2019 al 23 aprile 2020, un altro server ha riscontrato lo stesso problema. Questo problema non ha interessato tutti i server Target o tutti i clienti Target.
+Dal 25 novembre 2019 al 26 aprile 2020, un server di Target ha riscontrato un problema che ha portato a conteggiare i valori degli ordini estremi nelle metriche dei report basate sulle entrate (AOV, RPV). Dal 19 dicembre 2019 al 23 aprile 2020, un altro server ha riscontrato lo stesso problema. Questo problema non ha interessato tutti i server Target o tutti i clienti Target.
 
 L&#39;utente *non* è stato interessato se:
 
-* L&#39;implementazione Target utilizza server diversi.
+* L&#39;implementazione di Target utilizza server diversi.
 * I rapporti non escludevano ordini estremi.
 * È stata utilizzata una metrica di conversione per misurare le attività.
-* Le attività Target utilizzano  Analytics per Target (A4T).
+* Le attività Target utilizzano Analytics per Target (A4T).
 * Si trova la regione Asia-Pacifico (APAC).
 
-Per determinare se questo problema ha avuto un impatto sui rapporti Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
+Per determinare se questo problema ha avuto un impatto sui report di Target, rivolgiti a [Client Care](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
 ### Consigli
 
