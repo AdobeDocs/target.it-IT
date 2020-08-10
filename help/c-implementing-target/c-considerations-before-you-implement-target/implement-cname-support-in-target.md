@@ -5,9 +5,9 @@ title: CNAME e Adobe Target
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: b4b51eabee1b3cac9933ecfc6c94e0de02abb633
+source-git-commit: 8edefa9975cf4f39fb33b0323e5a52893d46ff97
 workflow-type: tm+mt
-source-wordcount: '1145'
+source-wordcount: '1172'
 ht-degree: 3%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 3%
 
 # CNAME e Adobe Target {#cname-and-adobe-target}
 
-Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Per gestire al meglio i problemi di blocco degli annunci o i criteri dei cookie relativi a ITP, viene utilizzato un CNAME per cui le chiamate vengono effettuate a un dominio di proprietà del cliente anziché a un dominio di proprietà di Adobe.
+Instructions for working with Adobe Client Care to implement CNAME (Canonical Name) support in [!DNL Adobe Target]. Per gestire al meglio i problemi di blocco degli annunci o i criteri dei cookie relativi a ITP, viene utilizzato un CNAME per cui le chiamate vengono effettuate a un dominio di proprietà del cliente anziché a un dominio di proprietà  Adobe.
 
 ## Richiedi supporto CNAME
 
@@ -33,14 +33,14 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
 
    >[!NOTE]
    >
-   >* L&#39;autorità di certificazione di Adobe, DigiCert, non può rilasciare un certificato fino al completamento di questo passaggio. Pertanto, Adobe non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
+   >*  Adobe  autorità di certificazione DigiCert non può rilasciare un certificato finché il passaggio non viene completato. Pertanto,  Adobe non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
 
 
-1. Compilate il seguente modulo e includetelo quando [aprite un ticket Adobe Client Care che richiede il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
+1. Compilate il seguente modulo e includetelo quando [aprite un ticket Client Care  Adobe che richiede il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
    * Adobe [!DNL Target] client code:
    * Nomi host del certificato SSL (esempio: `target.example.com target.example.org`):
-   * Acquirente certificato SSL (Adobe è fortemente consigliato, consultare le domande frequenti): Adobe/customer
+   * Acquirente certificato SSL ( Adobe è altamente consigliato, consultare le domande frequenti: Adobe/cliente 
    * Se il cliente sta acquistando il certificato (alias BYOC), compilare i seguenti dettagli aggiuntivi:
       * Organizzazione dei certificati (esempio: Esempio Azienda Inc):
       * Unità organizzativa certificato (facoltativo, esempio: Marketing):
@@ -48,13 +48,13 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
       * Stato/regione del certificato (esempio: California):
       * Città certificato (esempio: San Jose):
 
-1. Se Adobe sta acquistando il certificato, Adobe collaborerà con DigiCert per acquistare e distribuire il certificato sui server di produzione Adobe.
+1. Se  Adobe sta acquistando il certificato,  Adobe collaborerà con DigiCert per acquistare e distribuire il certificato  Adobe server di produzione .
 
-   Se il cliente sta acquistando il certificato (BYOC), Adobe Client Care invierà la richiesta di firma del certificato (CSR), che dovrete utilizzare per acquistare il certificato tramite la vostra autorità di certificazione. Dopo il rilascio del certificato, è necessario inviare una copia del certificato ed eventuali certificati intermedi ad Adobe Client Care per la distribuzione.
+   Se il cliente sta acquistando il certificato (BYOC),  Client Care di Adobe vi invierà la richiesta di firma del certificato (CSR), che dovrete utilizzare per acquistare il certificato tramite la vostra autorità di certificazione. Dopo il rilascio del certificato, è necessario inviare una copia del certificato ed eventuali certificati intermedi a  Client Care Adobe per la distribuzione.
 
-   Adobe Client Care ti avviserà quando sarà pronta la tua implementazione.
+    Client Care di Adobe ti avviserà quando sarà pronta l&#39;implementazione.
 
-1. Dopo aver completato le attività precedenti e dopo che Adobe Client Care ha notificato che l&#39;implementazione è pronta, devi aggiornare il CNAME `serverDomain` al nuovo CNAME in at.js.
+1. Dopo aver completato le attività precedenti e  Client Care di Adobe ti ha notificato che l&#39;implementazione è pronta, devi aggiornare il CNAME `serverDomain` al nuovo CNAME in at.js.
 
 ## Domande frequenti 
 
@@ -62,11 +62,11 @@ Le seguenti informazioni rispondono alle domande frequenti su come richiedere e 
 
 ### Posso fornire il mio certificato personale (ovvero portare il tuo certificato personale o BYOC)?
 
-Sì, è possibile fornire il proprio certificato; tuttavia, non è consigliato. La gestione del ciclo di vita del certificato SSL è notevolmente più semplice sia per Adobe che per gli utenti quando Adobe acquista e controlla il certificato. I certificati SSL devono essere rinnovati ogni anno, il che significa che Adobe Client Care deve contattarvi ogni anno per inviare un nuovo certificato ad Adobe in tempo utile. Alcuni clienti potrebbero avere difficoltà a produrre un certificato rinnovato in modo tempestivo ogni anno, il che compromette la loro [!DNL Target] implementazione perché i browser rifiuteranno le connessioni alla scadenza del certificato.
+Sì, è possibile fornire il proprio certificato; tuttavia, non è consigliato. La gestione del ciclo di vita del certificato SSL è notevolmente più semplice sia per  Adobe che per l’utente quando  Adobe acquista e controlla il certificato. I certificati SSL devono essere rinnovati ogni anno, il che significa che  Client Care di Adobe deve contattarvi ogni anno per inviare  Adobe un nuovo certificato in modo tempestivo. Alcuni clienti potrebbero avere difficoltà a produrre un certificato rinnovato in modo tempestivo ogni anno, il che compromette la loro [!DNL Target] implementazione perché i browser rifiuteranno le connessioni alla scadenza del certificato.
 
 >[!IMPORTANT]
 >
->Se richiedi un’implementazione CNAME [!DNL Target] con certificato personale, devi fornire ogni anno certificati rinnovati ad Adobe Client Care. Consentendo al certificato CNAME di scadere prima che Adobe possa distribuire un certificato rinnovato, si verificherà un&#39;interruzione dell&#39; [!DNL Target] implementazione specifica.
+>Se richiedi un’implementazione CNAME [!DNL Target] con certificato personale, devi fornire certificati rinnovati a  Adobe Client Care ogni anno. Consentendo al certificato CNAME di scadere prima  Adobe di distribuire un certificato rinnovato, si verificherà un&#39;interruzione dell&#39; [!DNL Target] implementazione specifica.
 
 ### Fino a quando scade il mio nuovo certificato SSL?
 
@@ -82,11 +82,11 @@ La maggior parte dei clienti scelgono un nome host come `target.example.com`, qu
 
 No, [!DNL Target] richiede un nome host e un certificato separati.
 
-### L&#39;implementazione corrente di Target è influenzata da ITP 2.x?
+### L&#39;implementazione corrente di Target viene influenzata da ITP 2.x?
 
-In un browser Safari, accedete al sito Web in cui è presente una libreria Target JavaScript. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
+In un browser Safari, accedete al sito Web in cui è presente una libreria JavaScript di Target. If you see a Target cookie set in the context of a CNAME, such as `analytics.company.com`, then you are not impacted by ITP 2.x.
 
-I problemi ITP possono essere risolti per Target con un  CNAME Analytics. Avrete bisogno di un CNAME Target separato solo per gli scenari di blocco degli annunci in cui Target è bloccato.
+I problemi ITP possono essere risolti per Target con un CNAME Analytics. Avrete bisogno di un CNAME Target separato solo per gli scenari di blocco degli annunci in cui Target viene bloccato.
 
 Per ulteriori informazioni sull&#39;ITP, vedere [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
@@ -146,3 +146,4 @@ Utilizzate il seguente set di comandi (nel terminale della riga di comando MacOs
 
 * La modalità QA non sarà fissa se hai CNAME e at.js 1.x perché è basata su un cookie di terze parti. La soluzione alternativa consiste nell’aggiungere i parametri di anteprima a ciascun URL a cui ci si sposta. La modalità QA è fissa quando si dispone di CNAME e a.js 2.x.
 * Al momento l’ `overrideMboxEdgeServer` impostazione non funziona correttamente con CNAME. Deve essere impostato come `false` per evitare richieste non riuscite.
+* Quando si utilizza CNAME, è più probabile che la dimensione dell&#39;intestazione del cookie per le chiamate a Target aumenti. Consigliamo di mantenere la dimensione del cookie sotto gli 8 KB.
