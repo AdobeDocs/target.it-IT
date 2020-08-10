@@ -5,10 +5,10 @@ title: Modifiche apportate alla documentazione di Adobe Target.
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 92d13769b2ed7e7843daf746d308ca892622001e
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1788'
-ht-degree: 30%
+source-wordcount: '1843'
+ht-degree: 29%
 
 ---
 
@@ -21,6 +21,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 10 agosto | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | È stato aggiunto del testo che indica che la dimensione dell’intestazione del cookie aumenterà quando si utilizza CNAME. |
+|  | [Integrare Target con Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md) | Nuovo argomento. |
+|  | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | È stato aggiunto un collegamento per visualizzare il seguente webinar archiviato: &quot;In che modo HSBC sfrutta  Adobe Target e AI per ottimizzare e distribuire rapidamente la personalizzazione su larga scala.&quot; |
 | 6 agosto | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md#how-long) | Testo aggiornato per le seguenti domande frequenti: &quot;Per quanto tempo dovrei aspettare che i modelli si costruiscano?&quot; |
 |  | [Classificazioni - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | È stato aggiornato il testo per targettype. |
 | 5 agosto | [Eliminare il cookie di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md) | Intero argomento aggiornato. |
