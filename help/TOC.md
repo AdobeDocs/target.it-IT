@@ -6,10 +6,10 @@ user-guide-description: Learn how to tailor and personalize your customers' expe
 user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 translation-type: tm+mt
-source-git-commit: 4b2479c51a01ccaa04d86290af36e949e98b69b3
+source-git-commit: a65f61d603cae698afa13e6858569bc0db100905
 workflow-type: tm+mt
-source-wordcount: '1423'
-ht-degree: 98%
+source-wordcount: '1429'
+ht-degree: 97%
 
 ---
 
@@ -21,7 +21,7 @@ ht-degree: 98%
    + [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md)
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
    + [Note sulla versione di Target (prerelease)](r-release-notes/target-release-notes.md)
-   + [Panoramica della documentazione Target](/help/r-release-notes/target-documentation.md)
+   + [Panoramica della documentazione di Target](/help/r-release-notes/target-documentation.md)
    + [Newsletter Target Insider](/help/r-release-notes/target-insider-newsletter.md)
    + [Problemi noti e problemi risolti](r-release-notes/known-issues-resolved-issues.md)
    + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
@@ -69,7 +69,7 @@ ht-degree: 98%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Inserire nell&#39;elenco Consentiti nodi Target edge](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -182,6 +182,7 @@ ht-degree: 98%
          + [Integrazione legacy tra SiteCatalyst e Test&amp;Target - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-old-integration.md)
       + [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md)
    + [Experience Cloud Audiences](c-integrating-target-with-mac/mmp.md)
+   + [Integrare Target con Adobe Audience Manager](/help/c-integrating-target-with-mac/audience-manager-target-integration.md)
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
    + [Experience Cloud Device Co-op](c-integrating-target-with-mac/experience-cloud-device-co-op.md)
 + Attività {#activities}
