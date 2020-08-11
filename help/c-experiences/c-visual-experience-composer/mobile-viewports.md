@@ -4,10 +4,10 @@ description: I visualizzatori per dispositivi mobili consentono di visualizzare 
 title: Visualizzazioni per dispositivi mobili per esperienze reattive
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 292c6a5f2a49e6de88778c944099f4971d8a10af
+source-git-commit: 7a3aee58750b98515d44f85bbe3cd441683169a7
 workflow-type: tm+mt
-source-wordcount: '1413'
-ht-degree: 66%
+source-wordcount: '1402'
+ht-degree: 71%
 
 ---
 
@@ -148,27 +148,27 @@ Add mobile viewports to your [!DNL Target] activities to create responsive exper
 
 ## Use Case: Target two iPhone versions {#task_CC3144BF5BA54034996E1D3DB0BC1A35}
 
-Questo esempio di utilizzo mostra come configurare le esperienze per due versioni per iPhone: iPhone 11 Pro Max e iPhone SE.
+Questo esempio di utilizzo mostra come configurare le esperienze per due versioni per iPhone: iPhone 6 e iPhone 6 Plus.
 
-1. In Target, fai clic su **[!UICONTROL Amministrazione]**.
-1. Nella sezione Configurazione **[!UICONTROL viewport]** mobile, create dei viewport mobili per iPhone 11 Pro Max e iPhone SE.
+1. Fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]**.
+1. In the **[!UICONTROL Mobile Viewport Configuration]** section, create mobile viewports for iPhone 6 and iPhone 6 plus.
 
    Utilizza le impostazioni seguenti per ciascun riquadro di visualizzazione:
 
    | Nome | Larghezza | Altezza | Sistema operativo |
    |---|---|---|---|
-   | iPhone 11 Pro Max | 414 | 896 | App |
-   | iPhone SE | 375 | 667 | iOS |
+   | iPhone 6 | 375 | 667 | iOS |
+   | iPhone 6 Plus | 414 | 736 | iOS |
 
    ![](assets/iphoneviewportconfig.png)
 
 1. Create un&#39;attività con l&#39;esperienza di cui desiderate eseguire il targeting.
-1. Selezionate l&#39;esperienza di destinazione per i visitatori che accedono al sito da un iPhone 11 Pro Max o iPhone SE.
+1. Seleziona l’esperienza da indirizzare ai visitatori che accedono al sito da un iPhone 6 o iPhone 6 Plus.
 1. Quando selezioni il tuo target, fai clic su **[!UICONTROL Crea pubblico]**, quindi configura un pubblico come illustrato di seguito:
 
    ![](assets/iphoneaudiences.png)
 
-   Poiché il telefono potrebbe essere ruotato in orizzontale, la necessità sia di altezza che larghezza sia maggiore di 320 crea contemporaneamente una condizione che solo l&#39;iPhone 11 Pro Max e l&#39;iPhone SE siano in grado di soddisfare, se combinato con iPhone Device Model.
+   Poiché il telefono potrebbe essere ruotato in orizzontale, con altezza e larghezza entrambi maggiori di 320 puoi creare una condizione che solo i modelli 6 e 6 Plus sono in grado di soddisfare, quando viene combinata con il modello di dispositivo iPhone.
 1. Fai clic su **[!UICONTROL Salva]**.
 1. Continua a impostare la tua attività come di consueto.
 
