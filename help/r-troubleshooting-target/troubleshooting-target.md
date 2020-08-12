@@ -1,11 +1,15 @@
 ---
 keywords: troubleshoot target;troubleshooting target
 description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
-title: Risoluzione dei problemi relativi ad Adobe Target
+title: Risoluzione dei problemi  Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: 4ce4cf754ec64ec54c72bcb0557f042a92f5a8e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '429'
+ht-degree: 98%
 
 ---
 
@@ -124,7 +128,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## App mobili
 
-* [Domande frequenti su Target per app mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
+* [Domande frequenti su Target per le app per dispositivi mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
 ## Generazione di rapporti
 
