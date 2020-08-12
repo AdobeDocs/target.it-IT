@@ -2,9 +2,13 @@
 keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
 description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 title: Rivolgersi a specifiche origini di traffico in Adobe Target
+feature: null
 uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '234'
+ht-degree: 99%
 
 ---
 
@@ -32,6 +36,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
    * Pagina di destinazione di riferimento: URL
    * Pagina di destinazione di riferimento: dominio
    * Pagina di destinazione di riferimento: query
+
    A seconda della selezione, potrebbe essere necessario fornire informazioni aggiuntive (valutatore e/o valori).
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
@@ -39,7 +44,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
 
 Puoi rivolgerti agli utenti che arrivano al tuo sito da un motore di ricerca specifico o da una pagina di destinazione specifica.
 
-## Video di formazione: Creazione di tipi di pubblico badge ![Panoramica](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico ![badge Panoramica](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
