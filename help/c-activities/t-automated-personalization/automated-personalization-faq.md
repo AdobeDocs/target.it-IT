@@ -2,9 +2,10 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization
 description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 title: Domande frequenti sulla Personalizzazione automatizzata
+feature: null
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1965'
 ht-degree: 85%
@@ -119,7 +120,7 @@ Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!U
 
 ### Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività Automated Personalization ?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Automated Personalization] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività di allocazione [!UICONTROL automatica] e di Target  automatico.
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Automated Personalization] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per [!UICONTROL attività Automated Personalization] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività di allocazione [!UICONTROL automatica] e di [!UICONTROL targeting] automatico.
 
 ### In che modo  Automated Personalization costruisce modelli in relazione agli ambienti?
 
