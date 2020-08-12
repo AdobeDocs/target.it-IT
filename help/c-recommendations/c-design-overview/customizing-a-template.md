@@ -2,9 +2,10 @@
 keywords: custom design;velocity;decimal;comma;customize design
 description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
 title: Personalizzare una progettazione con Velocity
+feature: null
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1010'
 ht-degree: 65%
@@ -128,7 +129,7 @@ Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili n
 Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. Potrebbe essere utile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, effettuate le seguenti operazioni:
 
 1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario
-1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per l&#39;analisi dei modelli di Target Recommendations per convalidare e salvare il modello)
+1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello)
 1. Passate l&#39;attributo di entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio
 1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico
 
