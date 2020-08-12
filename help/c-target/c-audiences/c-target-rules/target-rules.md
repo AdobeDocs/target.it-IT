@@ -2,9 +2,13 @@
 keywords: Targeting;target categories;target conditions;audience manager;custom profile parameters;visitor profile;custom user parameters;target rules
 description: Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
 title: Categorie di pubblico
+feature: null
 uuid: 4b0f6e32-24bc-4e87-aa8e-70728889f891
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '369'
+ht-degree: 98%
 
 ---
 
