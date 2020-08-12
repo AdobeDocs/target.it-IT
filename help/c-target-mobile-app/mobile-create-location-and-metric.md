@@ -1,11 +1,15 @@
 ---
-keywords: app mobile;posizione app mobile;target app mobile;posizioni target mobile;metriche di successo app mobile
+keywords: mobile app;mobile app location;target mobile app;mobile target locations;mobile app success metrics
 description: Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 title: iOS - Creare una posizione di destinazione e una metrica di successo
+feature: null
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 92%
 
 ---
 
@@ -14,13 +18,13 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 
-Questa sezione include il codice di esempio che può essere utilizzato come modello per l'app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Android SDK 4.x per Experience Cloud Solutions.
+Questa sezione include il codice di esempio che può essere utilizzato come modello per l&#39;app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Android SDK 4.x per Experience Cloud Solutions.
 
 >[!NOTE]
 >
 >See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
-Per creare una posizione di destinazione nell'app e fare una richiesta, esistono due metodi principali:
+Per creare una posizione di destinazione nell&#39;app e fare una richiesta, esistono due metodi principali:
 
 * `targetCreateRequestWithName`
 * `targetLoadRequest`
@@ -39,8 +43,8 @@ Per creare una posizione di destinazione nell'app e fare una richiesta, esistono
    | Parametro | Descrizione |
    |---|---|
    | `ADBTargetLocationRequest *myRequest` | Sostituisci `myRequest` con il nome della tua `targetLocation` nell’app. |
-   | `targetCreateRequestWithName:@"heroBanner"` | Sostituisci `heroBanner` con il nome della `targetLocation` in Target. È lo stesso del nome mbox. Il banner protagonista viene visualizzato nell'interfaccia di Target. |
-   | `defaultContent:@"default.png"` | Sostituisci `default.png` con il valore utilizzato dall'app nel caso in cui Target non risponda. |
+   | `targetCreateRequestWithName:@"heroBanner"` | Sostituisci `heroBanner` con il nome della `targetLocation` in Target. È lo stesso del nome mbox. Il banner protagonista viene visualizzato nell&#39;interfaccia di Target. |
+   | `defaultContent:@"default.png"` | Sostituisci `default.png` con il valore utilizzato dall&#39;app nel caso in cui Target non risponda. |
    | `parameters:nil` | Specifica il profilo o i parametri mbox. Per ulteriori informazioni, consulta la sezione “passaggio di dati personalizzati”. |
 
    Ecco una chiamata di esempio per caricare la richiesta:
@@ -56,12 +60,12 @@ Per creare una posizione di destinazione nell'app e fare una richiesta, esistono
    | Parametro | Descrizione |
    |---|---|
    | `targetLoadRequest:myRequest` | Sostituisci `myRequest` con il nome della tua `targetLocation` nell’app. |
-   | `NSString *content` | Sostituisci contenuto della richiesta con il contenuto effettivo che ritorna da Adobe. La stringa può essere XML, JSON o semplice. Utilizza questa sezione del codice per definire le variabili, impostare i percorsi delle immagini, visualizzare i flussi di regolazione, i punti di transazione o qualsiasi altra operazione che desideri eseguire. Target restituirà il contenuto immesso nell'interfaccia utente nello stesso formato. |
-   | `heroImage.image = [UIImage imageNamed:content];` | Ad esempio: seleziona il contenuto e imposta il percorso per un'immagine protagonista. |
+   | `NSString *content` | Sostituisci contenuto della richiesta con il contenuto effettivo che ritorna da Adobe. La stringa può essere XML, JSON o semplice. Utilizza questa sezione del codice per definire le variabili, impostare i percorsi delle immagini, visualizzare i flussi di regolazione, i punti di transazione o qualsiasi altra operazione che desideri eseguire. Target restituirà il contenuto immesso nell&#39;interfaccia utente nello stesso formato. |
+   | `heroImage.image = [UIImage imageNamed:content];` | Ad esempio: seleziona il contenuto e imposta il percorso per un&#39;immagine protagonista. |
 
 1. Creare una metrica di successo.
 
-   Il metodo `targetCreateOrderConfirmRequestWithName` può essere utilizzato per monitorare una metrica di conversione/successo nell'app.
+   Il metodo `targetCreateOrderConfirmRequestWithName` può essere utilizzato per monitorare una metrica di conversione/successo nell&#39;app.
 
    ```
    ADBTargetLocationRequest *req = [ADBMobile targetCreateOrderConfirmRequestWithName: "orderConfirm" 
@@ -81,4 +85,4 @@ Per creare una posizione di destinazione nell'app e fare una richiesta, esistono
 
 1. Genera l’app.
 
-   Risultato passaggio: dopo aver creato correttamente una posizione di destinazione e aver applicato i tag a una metrica di successo, crea un test A/B. L'attività può essere creata utilizzando il Compositore esperienza basato su moduli.
+   Risultato passaggio: dopo aver creato correttamente una posizione di destinazione e aver applicato i tag a una metrica di successo, crea un test A/B. L&#39;attività può essere creata utilizzando il Compositore esperienza basato su moduli.
