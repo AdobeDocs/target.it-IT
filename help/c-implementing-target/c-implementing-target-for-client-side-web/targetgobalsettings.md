@@ -2,10 +2,11 @@
 keywords: serverstate;targetGlobalSettings;targetglobalsettings;globalSettings;globalsettings;global settings;at.js;functions;function;clientCode;clientcode;serverDomain;serverdomain;cookieDomain;cookiedomain;crossDomain;crossdomain;timeout;globalMboxAutoCreate;visitorApiTimeout;defaultContentHiddenStyle;defaultContentVisibleStyle;bodyHiddenStyle;bodyHidingEnabled;imsOrgId;secureOnly;overrideMboxEdgeServer;overrideMboxEdgeServerTimeout;optoutEnabled;optout;opt out;selectorsPollingTimeout;dataProviders;Hybrid Personalization;deviceIdLifetime
 description: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
 title: Informazioni sulla funzione targetGlobalSettings() per la libreria JavaScript at.js di Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1647'
 ht-degree: 40%
@@ -161,7 +162,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 * **Tipo**: String
 * **Valore** predefinito: Valore impostato tramite l’interfaccia utente.
-* **Descrizione**: Rappresenta il server periferico Target.
+* **Descrizione**: Rappresenta il server periferico di Target.
 
 ### serverState
 
@@ -466,7 +467,7 @@ Considerate quanto segue quando utilizzate `serverState`:
    * Attività create VEC che vengono eseguite al caricamento della pagina.
    * Viste prerecuperate.
 
-      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuti aggiuntive ad Target.
+      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuto aggiuntive a Target.
 
    * **Nota**:  Attualmente, le mbox recuperate sul lato server non sono supportate in `serverState`.
 
