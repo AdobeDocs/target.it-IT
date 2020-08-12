@@ -2,10 +2,11 @@
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
 description: Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
 title: Risolvere i problemi relativi alle attività
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -25,7 +26,7 @@ Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le so
 
 ## Ho creato un&#39;attività utilizzando l&#39;interfaccia utente di Target e non posso aggiornarla tramite API.
 
-Le attività create utilizzando l&#39;interfaccia utente di Target devono essere aggiornate tramite l&#39;interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se create originariamente un&#39;attività utilizzando l&#39;API, ad esempio, ma successivamente modificate l&#39;attività tramite l&#39;interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un&#39;altra chiamata API.
+Le attività create utilizzando l&#39;interfaccia utente di Target devono essere aggiornate tramite l&#39;interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se originariamente create un&#39;attività utilizzando l&#39;API, ad esempio, ma successivamente modificate l&#39;attività tramite l&#39;interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un&#39;altra chiamata API.
 
 Come procedura ottimale, provate ad aggiornare l&#39;attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato originariamente per creare l&#39;attività.
 
