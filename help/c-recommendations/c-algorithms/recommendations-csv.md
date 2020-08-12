@@ -2,9 +2,13 @@
 keywords: creating custom criteria;algorithms;criteria;recommendations criteria;csv;ftp;upload csv
 description: Carica un file CSV per personalizzare i consigli.
 title: Caricare criteri personalizzati
+feature: null
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '821'
+ht-degree: 98%
 
 ---
 
@@ -89,7 +93,7 @@ Di seguito sono riportati i possibili messaggi di errore che si potrebbero ricev
 | Directory non trovata | Fornisci una directory esistente sul server. |
 | File non trovato | Fornisci il nome di un file sul server nella directory indicata. |
 
-## Video di formazione: Creare i criteri in Recommendations (12:33) Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Creare i criteri in Recommendations (12:33) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni (i dettagli sul caricamento dei criteri personalizzati iniziano alle 11:43):
 
