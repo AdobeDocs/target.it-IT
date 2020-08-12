@@ -2,9 +2,10 @@
 keywords: advanced mbox.js settings;client;server domain;xdomain;compression level;client session id support;secureOnly;client pc id support;pass page;referring url;traffic level;traffic duration;mboxParameters() function body;mboxSupported() function body;mboxCookieDomain() function body;Extra JavaScript;SiteCatalyst plug-in;Get mbox.js as self-extracting JavaScript;flicker;body hiding;hide body
 description: Informazioni utili per scegliere diverse impostazioni nella pagina Impostazioni mbox.js.
 title: Configurare mbox.js
+feature: null
 uuid: e79c7af7-f8bd-4e2b-8e67-b04eddf0c65d
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '329'
 ht-degree: 91%
@@ -32,7 +33,7 @@ When viewing [!UICONTROL Administration > Implementation], the Client at the top
 
 Timeout della richiesta di Target.
 
-Quando visualizzate [!UICONTROL Amministrazione > Implementazione], l’impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
+Quando visualizzate [!UICONTROL Amministrazione > Implementazione], l&#39;impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
 
 ## XDomain
 
