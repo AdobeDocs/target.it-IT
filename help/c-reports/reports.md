@@ -2,11 +2,12 @@
 keywords: reports;block ip address;block visitor from ip address;download reports;csv;reporting
 description: I rapporti forniscono informazioni sulle prestazioni delle attività
 title: Rapporti
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8d20f4e7-72fd-4872-a21f-54ce16a2d2ab
 translation-type: tm+mt
-source-git-commit: 316c1157a4dff346f16862cfd7a04994c6a1bc7d
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '800'
 ht-degree: 78%
@@ -57,6 +58,7 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
 
    * Lo stato dell’attività, compreso l’intervallo di date in cui l’attività è stata eseguita.
    * The [projected winning experience](/help/c-activities/automated-traffic-allocation/determine-winner.md) (if available).
+
    >[!NOTE]
    >
    >I risultati dell’esperienza compaiono dopo che questa è stata vista almeno da un partecipante.
@@ -76,5 +78,5 @@ Oltre alle informazioni di reporting generali presenti in questo argomento e nei
    | Tipo di report | Visualizzazione |
    | --- | --- |
    | Targeting automatico | Fate clic sulle icone Segmenti **** automatizzati o Attributi **** importanti.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.</li></ul> |
-   | Personalizzazione automatizzata | Oltre ai rapporti [Sintetico personalizzazione](/help/c-reports/reports-ap.md)automatizzata, puoi fare clic sulle icone Segmenti **** automatizzati o Attributi **** importanti.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.</li></ul> |
+   | Personalizzazione automatizzata | Oltre ai [rapporti](/help/c-reports/reports-ap.md)di riepilogo di Automated Personalization, puoi fare clic sulle icone Segmenti **** automatizzati o Attributi **** importanti.<ul><li>The [Automated Segments report](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md) shows how different visitors respond differently to the offers/experiences in your AP/AT activity. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.</li><li>The [Important Attributes report](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) hows how, in different activities, different attributes are more (or less) important to how the model decides to personalize. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.</li></ul> |
    | Test multivariato (MVT) | Oltre al rapporto [](/help/c-reports/experience-performance-report.md)Experience Performance, puoi fare clic sull’icona [Location Contribution (Contributo](/help/c-reports/location-contribution-report.md) posizione) per cambiare il rapporto e mostrare il contributo per posizione. |
