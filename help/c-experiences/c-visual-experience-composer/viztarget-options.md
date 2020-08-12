@@ -1,11 +1,15 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica HTML;modifica testo/HTML;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;link;collegamento al compositore esperienza visivo;modifica classe CSS;classe CSS;sostituire l’offerta;sostituisci l’offerta;scambiare immagine;scambia immagine;rimuovere elemento;rimuovi elemento;nascondere una voce;nascondi voce;riorganizzare;spostare elemento;sposta elemento;ridimensionare elemento;ridimensiona elemento;elemento;espandere la selezione;passa a questo collegamento;passare a un link;passa a un link;navigare;annullare;ripeti;annulla/ripristina
+keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
 description: Quando fai clic su un elemento di pagina nel Compositore esperienza visivo di Adobe Target, un menu mostra le opzioni disponibili per tale tipo di elemento.
 title: Opzioni del Compositore esperienza visivo di Adobe Target
+feature: null
 topic: Standard
 uuid: efd672ae-c684-455f-8ec1-0efcfe1e9534
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2404'
+ht-degree: 95%
 
 ---
 
@@ -30,7 +34,7 @@ Sono disponibili le seguenti opzioni:
 
 #### Testo/HTML {#edit-text-html}
 
-Modifica il codice HTML per l'elemento, ad esempio il testo per un'area di testo, un pulsante o collegamento.
+Modifica il codice HTML per l&#39;elemento, ad esempio il testo per un&#39;area di testo, un pulsante o collegamento.
 
 Oltre al codice HTML, puoi modificare e inserire codice JavaScript personalizzato.
 
@@ -55,7 +59,7 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
-Per accedere al pannello [!UICONTROL Stili], fai clic su un elemento di pagina dall’interno del Compositore esperienza visivo, quindi su **[!UICONTROL Modifica]** &gt; **[!UICONTROL Stili]**.
+To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
 
 Il pannello [!UICONTROL Stili] viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.
 
@@ -109,6 +113,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    * Automatico
    * Valore (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
+
    Il margine supporta valori positivi e negativi.
 
    Target supporta anche altre unità di misura, come rem, pc, em ecc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
@@ -132,13 +137,14 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * Stile del bordo (nessuno, nascosto, punteggiato, tratteggiato, linea continua o linea doppia)
    * Colore del bordo (specifica il codice del colore o utilizza il selettore colore)
    * Spessore del bordo (trascina il cursore per selezionare lo spessore del bordo o specifica lo spessore in pixel)
+
    Il bordo supporta valori di spessore a partire da 0.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
 
 * **Posizione**
 
-   Sposta l’elemento selezionato dalla posizione corrente. You can change the element's top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Sposta l’elemento selezionato dalla posizione corrente. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -147,10 +153,12 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    * Assoluto
    * In rilievo
    * Fisso
+
    Fai clic sull’icona a discesa per ciascuna posizione per scegliere tra le seguenti opzioni:
 
    * Automatico
    * Valore (trascina il cursore per posizionare l’elemento o specifica il numero di pixel a cui spostare l’elemento)
+
    La posizione supporta valori positivi e negativi.
 
    Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
@@ -284,7 +292,7 @@ Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
 **Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
-Le dimensioni di un'offerta HTML non possono superare i 256 KB.
+Le dimensioni di un&#39;offerta HTML non possono superare i 256 KB.
 
 #### Consiglio
 
@@ -322,7 +330,7 @@ Consnete di nascondere l’elemento. Lo spazio vuoto viene conservato, ma il con
 
 #### Rimuovi
 
-Rimuovi l’elemento. Lo spazio vuoto dietro l'immagine viene rimosso e lo spazio in cui l'elemento si trovava viene compresso.
+Rimuovi l’elemento. Lo spazio vuoto dietro l&#39;immagine viene rimosso e lo spazio in cui l&#39;elemento si trovava viene compresso.
 
 **Nota:** gli elementi di una mbox classica (una mbox creata in una campagna di Target Classic) non possono essere rimossi con questa opzione.
 
