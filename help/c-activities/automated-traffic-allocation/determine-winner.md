@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
 description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
 title: Determinare un vincitore
+feature: null
 topic: Standard
 uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: 0c54560d1f19b498c3c541a2146aeeaf33f5bd17
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
@@ -15,7 +16,7 @@ ht-degree: 49%
 
 # Interpretare i rapporti di allocazione automatica {#determine-a-winner}
 
-Interpretate i risultati di un&#39;attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell&#39;interfaccia utente di Target.
+Interpretate i risultati di un&#39;attività di allocazione automatica A/B esaminando indicatori importanti, inclusi incrementi e confidenza, nell&#39;interfaccia di Target.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
 
@@ -49,7 +50,7 @@ I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Alloca
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati della calcolatrice [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione del Adobe Target . Target non considera i tassi di conversione di base di un sito e altri aspetti importanti che vengono inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati della  calcolatrice [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione Adobe Target. In Target non vengono considerati i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
 
 ## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
 
