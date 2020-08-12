@@ -2,10 +2,14 @@
 keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
 description: Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 title: Limiti
+feature: null
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: dd56b67506831f150490a4f4fcd5493e4a2553ac
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '989'
+ht-degree: 77%
 
 ---
 
@@ -196,7 +200,7 @@ Qualsiasi valore superiore viene troncato dal sistema.
 
 **Limite consigliato di script di profilo totali per account**: 2.000
 
-**Raccomandazioni per limitare la complessità** dello script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consultate [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in Attributi ** profilo.
+**Recommendations per limitare la complessità** degli script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consultate [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in Attributi ** profilo.
 
 ## Proprietà
 
