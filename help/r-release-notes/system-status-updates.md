@@ -1,11 +1,15 @@
 ---
-keywords: aggiornamento del sistema;risoluzione dei problemi;manutenzione;stato del sistema;stato di aggiornamento
+keywords: system update;troubleshooting;maintenance;system status;update status
 description: Utilizza la pagina Stato del sistema di Adobe per visualizzare lo stato dei prodotti Adobe e delle soluzioni Experience Cloud, incluso Target. Questa pagina è utile per determinare se eventuali problemi riscontrati sono dovuti a un aggiornamento del sistema o a un intervento di manutenzione ordinaria.
 title: Aggiornamenti dello stato del sistema
+feature: null
 topic: Standard
 uuid: 5a627580-8e06-4e14-9fe0-1a442acc6fd8
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 98%
 
 ---
 
@@ -28,7 +32,7 @@ Per visualizzare lo stato delle soluzioni [!DNL Experience Cloud], tra cui [!DNL
 
 La parte superiore della pagina contiene informazioni sugli eventi di manutenzione in corso e include un collegamento per la sottoscrizione agli aggiornamenti per le singole soluzioni.
 
-Nell’illustrazione precedente, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] erano sottoposti ad aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l'utilizzo di [!DNL Target].
+Nell’illustrazione precedente, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] erano sottoposti ad aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l&#39;utilizzo di [!DNL Target].
 
 Una notifica interna al prodotto compare sempre durante il rilascio mensile di [!DNL Target], ma talvolta si verificano aggiornamenti minori e vengono elencati in questa pagina.
 
