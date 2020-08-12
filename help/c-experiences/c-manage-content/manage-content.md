@@ -2,9 +2,13 @@
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
 description: Gestisci il contenuto delle offerte basate su codice e su immagine tramite la libreria delle offerte.
 title: Offerte
+feature: null
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '478'
+ht-degree: 97%
 
 ---
 
@@ -83,7 +87,7 @@ Sono disponibili le seguenti informazioni:
 * Tipo di URL di reindirizzamento
 * URL assoluto o relativo
 
-## Video di formazione: L’archivio dei contenuti badge ![Panoramica](/help/assets/overview.png)
+## Video di formazione: L’archivio dei contenuti ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione delle offerte.
 
