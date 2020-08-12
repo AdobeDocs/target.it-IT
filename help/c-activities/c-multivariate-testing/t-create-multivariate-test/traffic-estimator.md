@@ -1,10 +1,14 @@
 ---
 description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.
 title: Stimare il traffico necessario per il successo del test
+feature: null
 topic: Standard
 uuid: ccc7232e-20f9-43db-8b68-d4fb1d586a4d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '525'
+ht-degree: 100%
 
 ---
 
@@ -20,12 +24,12 @@ Mediante il Calcolatore del traffico viene prevista la dimensione del campione n
    Questo indica che la possibilità che venga segnalato un falso positivo in assenza di un incremento reale è del 5% (100% - livello di affidabilità).
 * 80% di potenza statistica
 
-   Questo significa che il test ha una probabilità dell'80% di rilevare un incremento reale pari al 25% o più.
+   Questo significa che il test ha una probabilità dell&#39;80% di rilevare un incremento reale pari al 25% o più.
 * Incremento rilevabile con affidabilità minima del 25%
 
-   In Target viene calcolato il traffico necessario per ottenere probabilità dell'80% di rilevare un incremento reale pari al 25% o più.
+   In Target viene calcolato il traffico necessario per ottenere probabilità dell&#39;80% di rilevare un incremento reale pari al 25% o più.
 
-Il test utilizza la correzione di Bonferroni in caso di confronti multipli. Questo metodo è noto per essere di tipo conservativo, il che risulta controbilanciato dall'imposizione di un incremento rilevabile con affidabilità minima relativamente ampio.
+Il test utilizza la correzione di Bonferroni in caso di confronti multipli. Questo metodo è noto per essere di tipo conservativo, il che risulta controbilanciato dall&#39;imposizione di un incremento rilevabile con affidabilità minima relativamente ampio.
 
 Il Calcolatore del traffico fornisce un feedback che consente di sapere se disponi di traffico sufficiente affinché il test progettato abbia successo.
 
@@ -41,18 +45,20 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
    * [!UICONTROL Tasso di conversione tipico]: il tasso di conversione è espresso in percentuale, in base alla stima o ai dati passati derivati dal sistema di analisi.
    * [!UICONTROL Visitatori stimati al giorno]: è il numero di visitatori che probabilmente visualizzeranno la pagina in base ai criteri di targeting. Può essere basato sui dati di analisi.
    * [!UICONTROL Durata del test]: il numero di giorni desiderati per l’esecuzione dell’attività.
+
    Nel Calcolatore del traffico questi dati statistici vengono utilizzati per determinare quali aggiustamenti sono necessari per eseguire un test di successo.
 
    Nella parte superiore del Calcolatore del traffico, vengono calcolati i valori inseriti e visualizzati i risultati.
 
    ![](assets/estimatorinsufficient.png)
 
-   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test un numero elevato di esperienze e il tasso di conversione e le impression sono troppo ridotti, il Calcolatore del traffico mostra quanto dovrà durare l'esecuzione del test perché questo abbia successo. Oppure, se il traffico è limitato, nel Calcolatore del traffico potrebbe venire suggerito un numero inferiore di esperienze, in modo che sia possibile eseguire il test per il numero desiderato di giorni.
+   Modificando i valori, si modifica anche la stima. Ad esempio, se stai sottoponendo a test un numero elevato di esperienze e il tasso di conversione e le impression sono troppo ridotti, il Calcolatore del traffico mostra quanto dovrà durare l&#39;esecuzione del test perché questo abbia successo. Oppure, se il traffico è limitato, nel Calcolatore del traffico potrebbe venire suggerito un numero inferiore di esperienze, in modo che sia possibile eseguire il test per il numero desiderato di giorni.
 
    Se il traffico non è sufficiente, puoi eseguire una o entrambe le operazioni seguenti:
 
    * Ridurre il numero di combinazioni di offerte e il numero di posizioni.
    * Impostare la durata del test.
+
    Adegua i valori finché il Calcolatore del traffico indica che il traffico è sufficiente, quindi progetta il test di conseguenza.
 
    ![](assets/estimatorok.png)
