@@ -1,11 +1,15 @@
 ---
-keywords: offerta remota;creazione di offerta remota
+keywords: remote offer;create remote offer
 description: Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
 title: Creare offerte JSON
+feature: null
 topic: Standard
 uuid: 4ae3ca34-7661-4c1d-a132-fc446e653b90
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -29,7 +33,7 @@ Quando lavori con le offerte JSON, considera quanto segue:
 ## Creazione di un’offerta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte di codice]**.
-1. Fai clic su **[!UICONTROL Crea]** &gt; **[!UICONTROL Offerta JSON]**.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Offerta JSON]**.
 
    ![](assets/offer-json.png)
 
