@@ -2,9 +2,13 @@
 keywords: recommendations design;create design;copy design
 description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 title: Creare una progettazione
+feature: null
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 669160af359972cace9c298aa061fcfa2af69072
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '644'
+ht-degree: 95%
 
 ---
 
@@ -110,7 +114,7 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
 | Parametro | Valore |
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings > Token API per i consigli > Codice client. |
-| `[YOUR_MBOX_NAME]` | Il nome selezionato nella sezione &quot;percorsi&quot; di Recommendations basato su moduli, in questo caso Sample_Recs_Response. |
+| `[YOUR_MBOX_NAME]` | Nome selezionato nella sezione &quot;percorsi&quot; dell&#39;Recommendations basato su modulo, in questo caso Sample_Recs_Response. |
 | `[ENTITY_ID`] | L&#39;`entity.id` di un elemento nel catalogo. |
 | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
 
