@@ -1,10 +1,14 @@
 ---
-keywords: Promozioni;promozioni prima;promozioni dopo;tipo di promozioni
+keywords: promotions;front promotions;back promotions;promotions type
 description: Aggiungi articoli in promozione e controllane il posizionamento nelle progettazioni di Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
 title: Aggiungi promozioni alle progettazioni di Adobe Target Recommendations.
+feature: null
 uuid: 732bf2c2-0cc7-4d5d-9919-9fe668344d39
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '469'
+ht-degree: 100%
 
 ---
 
@@ -56,6 +60,6 @@ Le promozioni vengono deduplicate rispetto agli articoli consigliati dai criteri
 
    * Seleziona **[!UICONTROL Promuovi una raccolta]** e scegli la raccolta di elementi che desideri promuovere. È possibile creare nuove raccolte da utilizzare per le promozioni. Consulta [Creare una raccolta](../../c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) per ulteriori informazioni.
 
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Salva.]**.
 
-Le promozioni sono applicate a tutte le esperienze nell'attività.
+Le promozioni sono applicate a tutte le esperienze nell&#39;attività.
