@@ -1,11 +1,15 @@
 ---
-keywords: multipagina;test di viaggio;attività multipagina
+keywords: multi-page;journey testing;multipage activity
 description: Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
 title: Attività multipagina
+feature: null
 topic: Advanced
 uuid: a89f5334-540e-417d-ac51-a90f8b4687a4
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '362'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Puoi anche utilizzare un’attività multipagina per definire layout diversi per
 
 Per aggiungere delle pagine a un test:
 
-1. Fai clic sull'icona **[!UICONTROL Configura]** a forma di ingranaggio.
+1. Fai clic sull&#39;icona **[!UICONTROL Configura]** a forma di ingranaggio.
 1. Fai clic su **[!UICONTROL Aggiungi pagine supplementari]**.
 
    Sulla sinistra dello schermo appare una barra di navigazione.
@@ -37,11 +41,11 @@ Per aggiungere delle pagine a un test:
 
    Fai clic su **[!UICONTROL Aggiungi pagina]** per aggiungere una pagina.
 
-   Fai clic sull'icona dei tre puntini di sospensione verticali per visualizzare un menu di azione:
+   Fai clic sull&#39;icona dei tre puntini di sospensione verticali per visualizzare un menu di azione:
 
    ![](assets/multipage_menu.png)
 
-   Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall'interno dell'attività multipagina ed eliminare la pagina.
+   Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall&#39;interno dell&#39;attività multipagina ed eliminare la pagina.
 
-1. Il compositore di esperienza visivo permette di progettare il modo in cui l'offerta appare in ogni pagina.
+1. Il compositore di esperienza visivo permette di progettare il modo in cui l&#39;offerta appare in ogni pagina.
 
