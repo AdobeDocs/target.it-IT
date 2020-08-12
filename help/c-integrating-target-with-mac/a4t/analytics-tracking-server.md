@@ -2,9 +2,10 @@
 keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;reporting source
 description: Se utilizzi una versione precedente di at.js o mbox.js, è necessario specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for Target (A4T).
 title: Utilizzare un server di tracciamento di Analytics
+feature: null
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 68f356b0711abf9acf7ef631edf3656bd3dd49e3
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '363'
 ht-degree: 53%
@@ -26,7 +27,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà
 
 1. Dalla pagina in cui state creando l&#39;attività, aprite la pagina [!DNL Adobe Experience Cloud Debugger].
 
-   Se non hai installato il debugger, consulta [Installare Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html).
+   Se non avete installato il debugger, consultate [Experience Cloud Debugger](https://docs.adobe.com/content/help/en/debugger/using/install-debugger.html)di installazione.
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -35,6 +36,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà
    * (per le implementazioni CNAME)
    * (per le implementazioni non RDC)
    * (per l’implementazione RDC)
+
    *Società*[!DNL Analytics] rappresenta il nome della società di , *metriche* è un esempio di un valore CNAME, e *d1* è un esempio di un centro dati [!DNL Analytics]
 1. Copiare l&#39;intero contenuto del campo.
 1. Nella sezione [!UICONTROL Impostazioni reporting] della schermata [!UICONTROL Obiettivo e impostazioni] dell&#39;attività, incollare le informazioni del server di tracciamento nel campo **[!UICONTROL server di tracciamento]**.
