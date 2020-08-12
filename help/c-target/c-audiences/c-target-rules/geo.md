@@ -2,11 +2,15 @@
 keywords: targeting;a4t;geo;geotargeting;geotargeting accuracy;country;state;city;zip code;dma;mobile carrier;city codes;region codes;country codes;metro codes;profile scripts;geotargeting profile scripts;geotargeting mobile
 description: Utilizza i tipi di pubblico di Adobe Target per indirizzare l’attività a specifici utenti in base alla loro posizione geografica, compreso paese, stato/provincia, città, CAP, DMA o gestore mobile.
 title: Geo
+feature: null
 solution: Target,Analytics
 topic: Reports and analytics
 uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 4d229112a478c4d98c9f88971f2f1b243dd62782
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '937'
+ht-degree: 88%
 
 ---
 
@@ -33,6 +37,7 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
    * Longitudine
    * DMA
    * Gestore di telefonia mobile
+
    Per risolvere i parametri di geotargeting per quel visitatore, viene trasmesso il relativo indirizzo IP con una richiesta mbox, una volta per ogni visita (sessione).
 
    Per il gestore di telefonia mobile, in [!DNL Target] vengono utilizzati i dati di registrazione dell’indirizzo IP (chi possiede il blocco di indirizzi IP) per determinare il gestore di telefonia mobile appropriato utilizzando i [codici nazionali (MCC, Mobile Country Code) e i codici di rete mobile (MCC, Mobile Network Code)](https://www.mcc-mnc.com).
@@ -144,7 +149,7 @@ Prima di eseguire questa operazione è necessario eliminare i cookie.
 
 Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” separati.
 
-**Acquisisce (e archivia)[!DNL Target]informazioni come i codici ZIP quando l&#39;attività è mirata con funzionalità di targeting geografico?**
+**Acquisisce (e archivia)[!DNL Target]informazioni come i codici ZIP quando l&#39;attività è mirata con le funzionalità di targeting geografico?**
 
 No, [!DNL Target] utilizza dati geografici solo per la durata della sessione, quindi i dati vengono scartati.
 
