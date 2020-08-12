@@ -2,11 +2,12 @@
 keywords: add user;manage user;user permissions
 description: Informazioni su come gestire gli utenti in Target Standard e come gestire le proprietà e le autorizzazioni Enterprise in Target Premium.
 title: Gestione utente
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: bbc1c9282007c180f30023b6f15d693a31683243
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -28,6 +29,7 @@ You can tell whether your organization has a Standard or Premium license by clic
 
    * Verrà visualizzata la scheda [!UICONTROL Utenti] ( [!UICONTROL Amministrazione] > [!UICONTROL Utenti] )
    * La scheda *Proprietà* [!UICONTROL non] verrà visualizzata ( [!UICONTROL Amministrazione] > [!UICONTROL Proprietà] )
+
    [!DNL Target]I clienti di Standard possono seguire le istruzioni riportate in [Utenti](/help/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in Adobe Admin Console.
 
 * **Clienti Target Premium:** Se l&#39;azienda dispone di una licenza [!DNL Target] Premium, nell&#39;interfaccia di Target osserverete quanto segue:
