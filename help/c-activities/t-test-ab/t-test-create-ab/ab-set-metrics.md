@@ -2,10 +2,11 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
+feature: null
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    * Conversione
    * Ricavi
    * Coinvolgimento
+
    È possibile utilizzare una qualsiasi delle metriche di successo predefinite, o crearne una personalizzata. È inoltre possibile contrassegnare una metrica di successo come metrica principale. Le schede dei rapporti e di Experience Cloud per impostazione predefinita mostrano la metrica primaria, se è stata impostata.
 1. Specifica le impostazioni per le metriche.
 
