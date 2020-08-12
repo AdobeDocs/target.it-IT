@@ -2,9 +2,13 @@
 keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
 description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creare un’attività Consigli
+feature: null
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1150'
+ht-degree: 94%
 
 ---
 
@@ -61,6 +65,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    * Pagina risultati di ricerca
    * Pagina di ringraziamento
    * Altro
+
    ![Opzioni per Seleziona tipo di pagina](/help/c-recommendations/t-create-recs-activity/assets/Menu_PageType.png)
 
 1. Seleziona uno o più [criteri](/help/c-recommendations/c-algorithms/algorithms.md).
@@ -165,6 +170,6 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video di formazione: Creare un’attività Consigli (7:15) Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Creare un’attività Consigli (7:15) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
