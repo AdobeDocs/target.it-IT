@@ -1,9 +1,13 @@
 ---
 description: I criteri controllano il contenuto delle attività di Adobe Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 title: Creare criteri
+feature: null
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 7e94e3f9aae0f710e1dff72c82c1c132bd4239b5
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3605'
+ht-degree: 98%
 
 ---
 
@@ -47,6 +51,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    * [!UICONTROL Retail/E-commerce]
    * [!UICONTROL Generazione di lead/B2B/servizi finanziari]
    * [!UICONTROL Media/Editoria]
+
    Altre opzioni di criteri cambieranno in base al verticale di settore selezionato.
 
 1. Seleziona un **[!UICONTROL tipo di pagina]**.
@@ -94,6 +99,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    * [!UICONTROL Abilita il rendering parziale della progettazione]
    * [!UICONTROL Mostra consigli di backup]
    * [!UICONTROL Consiglia gli articoli acquistati in precedenza]
+
    Questa impostazione è basata su `productPurchasedId`. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi articoli che la gente è solita acquistare di nuovo, come shampoo o altri oggetti personali, dovresti disabilitare questa opzione.
 
 1. Imposta le **[!UICONTROL regole di inclusione]**.
