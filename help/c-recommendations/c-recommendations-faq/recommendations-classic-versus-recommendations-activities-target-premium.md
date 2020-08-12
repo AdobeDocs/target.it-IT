@@ -1,10 +1,14 @@
 ---
-keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
+keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività Consigli di Target Premium.
 title: Confronto tra Recommendations Classic e le attività Consigli di Target Premium
+feature: null
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '647'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +21,7 @@ Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività
 >
 >Le attività Consigli sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza [!DNL Target Premium].
 
-Nel prodotto classico [!DNL Recommendations], la visualizzazione dei consigli passava attraverso la creazione di una mbox di raccolta dei dati su una pagina e l'aggiunta di una mbox di visualizzazione in una posizione specifica della pagina. L’attività di [!DNL Recommendations] in [!DNL Target Premium] consente di raccogliere informazioni sui visitatori e di creare i tuoi consigli in qualsiasi punto della pagina senza la necessità di creare una mbox per ogni posizione in cui desideri consigliare prodotti o contenuti. Un semplice riferimento JavaScript nell'intestazione della pagina consente di abilitare i consigli in qualsiasi punto della pagina. Utilizza questo riferimento JavaScript per passare alla mbox globale di [!DNL Target] le chiavi, come quelle `entity.id` e `entity.categoryId`.
+Nel prodotto classico [!DNL Recommendations], la visualizzazione dei consigli passava attraverso la creazione di una mbox di raccolta dei dati su una pagina e l&#39;aggiunta di una mbox di visualizzazione in una posizione specifica della pagina. L’attività di [!DNL Recommendations] in [!DNL Target Premium] consente di raccogliere informazioni sui visitatori e di creare i tuoi consigli in qualsiasi punto della pagina senza la necessità di creare una mbox per ogni posizione in cui desideri consigliare prodotti o contenuti. Un semplice riferimento JavaScript nell&#39;intestazione della pagina consente di abilitare i consigli in qualsiasi punto della pagina. Utilizza questo riferimento JavaScript per passare alla mbox globale di [!DNL Target] le chiavi, come quelle `entity.id` e `entity.categoryId`.
 
 [!DNL Recommendations Classic] ha la propria scheda nell’interfaccia utente di [!DNL Experience Cloud]. Un’attività di [!DNL Recommendations] è disponibile all’interno del flusso di lavoro di [!DNL Target Premium].
 
@@ -33,7 +37,7 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 
 * Contenuto relativo e non relativo a consigli di test e targeting all’interno della stessa attività.
 * Facile sperimentazione con il posizionamento di consigli sulla pagina, tra cui l’ordine di più consigli.
-* Invio automatico di traffico all'esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
+* Invio automatico di traffico all&#39;esperienza di consigli con le prestazioni migliori tramite [!UICONTROL Allocazione automatica].
 * Assegnazione dinamica di visitatori a esperienze di consigli su misura in base al loro profilo tramite [!UICONTROL Targeting automatico].
 
 Per iniziare, crea un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting delle esperienze] tramite il [!UICONTROL Compositore esperienza visivo] e utilizza l’azione [!UICONTROL Inserisci prima], [!UICONTROL Inserisci dopo] o [!UICONTROL Sostituisci con] per aggiungere consigli a un’esperienza.
@@ -46,7 +50,7 @@ Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendat
 
 ![](assets/overview_criteria.png)
 
-I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l'utilizzo in una pagina del prodotto, mostrando prodotti all'interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
+I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l&#39;utilizzo in una pagina del prodotto, mostrando prodotti all&#39;interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
 
 Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
@@ -60,11 +64,11 @@ Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché co
 
 ## Anteprima visiva {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
 
-È possibile visualizzare in anteprima i consigli dopo averli impostati e apportare le modifiche necessarie senza doverli prima creare nella pagina. Le anteprime sono disponibili all'interno di [!DNL Target].
+È possibile visualizzare in anteprima i consigli dopo averli impostati e apportare le modifiche necessarie senza doverli prima creare nella pagina. Le anteprime sono disponibili all&#39;interno di [!DNL Target].
 
 ## Targeting {#section_93295EA0DBA14210B8518AF4802A459F}
 
-In [!DNL Recommendations Classic] c'erano sei opzioni di targeting. Per le attività di Consigli viene utilizzata l'intera gamma di opzioni di targeting di Target. Definisci un pubblico utilizzando [!DNL Target] o altri gruppi di pubblico di [!DNL Adobe Experience Cloud] (ad esempio [!DNL Audience Manager] e [!DNL Analytics]), quindi seleziona la percentuale di partecipanti all’attività che visualizzano ogni progetto e le percentuali che vedono il controllo.
+In [!DNL Recommendations Classic] c&#39;erano sei opzioni di targeting. Per le attività di Consigli viene utilizzata l&#39;intera gamma di opzioni di targeting di Target. Definisci un pubblico utilizzando [!DNL Target] o altri gruppi di pubblico di [!DNL Adobe Experience Cloud] (ad esempio [!DNL Audience Manager] e [!DNL Analytics]), quindi seleziona la percentuale di partecipanti all’attività che visualizzano ogni progetto e le percentuali che vedono il controllo.
 
 ![](assets/overview_targeting.png)
 
