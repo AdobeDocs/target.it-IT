@@ -2,11 +2,12 @@
 keywords: setting up;setup;set-up;set up;administration
 description: Informazioni utili per configurare  Adobe Target, incluse preferenze, implementazione, gestione utenti, proprietà, configurazione Scene7, gestione host e token di risposta.
 title: Amministrare Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 496f2dbe-96e2-4cd5-ba2e-d980d80eceb9
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '90'
 ht-degree: 18%
@@ -16,7 +17,7 @@ ht-degree: 18%
 
 # Panoramica sull’amministrazione di Target{#administer-target}
 
-Informazioni utili per l’amministrazione [!DNL Adobe Target], comprese le impostazioni di configurazione per Visual Experience Composer (VEC), i rapporti, la configurazione di Scene7, l’implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
+Informazioni utili per l&#39;amministrazione [!DNL Adobe Target], comprese le impostazioni di configurazione per Visual Experience Composer (VEC), il reporting, la configurazione Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
 
 To access the [!UICONTROL Administration] menu items, click **[!UICONTROL Administration]** in the top menu bar, then click the desired tab along the left side:
 
