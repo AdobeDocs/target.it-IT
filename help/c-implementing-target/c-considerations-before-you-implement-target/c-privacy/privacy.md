@@ -2,11 +2,15 @@
 keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
 description: In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l’utilizzo in conformità con le leggi sulla riservatezza dei dati.
 title: Privacy
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: 578f71f84f4db06dbc91679562007450166a8a22
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '641'
+ht-degree: 78%
 
 ---
 
@@ -35,7 +39,7 @@ Target riceve l&#39;indirizzo IP completo e lo oscura (se impostato su Last otte
 
 >[!NOTE]
 >
->[Contattate l&#39;Assistenza](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) clienti Adobe per stabilire quale impostazione state utilizzando o per abilitare la funzione di offuscamento dell&#39;IP.
+>[Contatta  Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per determinare quale impostazione stai utilizzando o per abilitare la funzione di offuscamento dell&#39;IP.
 
 ## Geosegmentazione {#section_BB69F96559BD44BDA4177537C4A5345A}
 
