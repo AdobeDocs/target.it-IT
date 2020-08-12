@@ -1,11 +1,12 @@
 ---
 keywords: qa;preview;preview links;adobe target;target
-description: Utilizzate  URL QA Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting QA che rimane segmentato dai dati dell'attività live.
+description: Utilizzate  URL QA di Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting QA che rimane segmentato dai dati dell'attività live.
 title: Controllo di qualità delle attività
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1489'
 ht-degree: 79%
@@ -15,7 +16,7 @@ ht-degree: 79%
 
 # Controllo di qualità delle attività {#activity-qa}
 
-Utilizzate gli URL di QA in  Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting di QA che restano segmentati dai dati dell&#39;attività live.
+Utilizzate gli URL di QA in  Adobe Target per eseguire attività QA end-to-end in modo semplice con collegamenti di anteprima che non cambiano mai, targeting facoltativo del pubblico e reporting di QA che restano segmentati dai dati dell&#39;attività live.
 
 ## Panoramica {#section_11B761A522A14E61978275772210A4C2}
 
@@ -24,7 +25,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
 * Collegamenti da condividere con i membri del gruppo, che non cambiano mai né richiedono di essere generati di nuovo, anche in seguito a modifiche apportate alle esperienze o attività.. Questo consente di testare completamente le attività nell’intero percorso dell’utente.
 * Possibilità di rispettare o meno le condizioni di pubblico, per testare i criteri di targeting o per ignorarli al fine di verificare come si presentano le esperienze senza dover soddisfare le condizioni di pubblico.
 * Il rapporto di controllo qualità viene acquisito per permettere agli addetti al marketing di confermare che le metriche aumentano come previsto, e i relativi dati sono tenuti separati dai rapporti di produzione (per la generazione di rapporti non A4T).
-* La capacità di visualizzare in anteprima un&#39;esperienza isolata o in combinazione con altre attività live che soddisfano i criteri di consegna (pagina/richiesta Target/pubblico).
+* La capacità di visualizzare in anteprima un&#39;esperienza isolata o in combinazione con altre attività live che soddisfano i criteri di consegna (pagina/richiesta/pubblico di Target).
 * Capacità di eseguire il controllo qualità sull’intero percorso dell’utente. Puoi accedere al tuo sito una volta con il collegamento di controllo qualità e quindi navigare nell’intero sito in modalità di controllo qualità dell’attività. Resterai in tale modalità fino alla fine della sessione o fino a quando utilizzi il [Bookmarklet di controllo qualità di Target](../../c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879) per uscire dalla modalità di controllo qualità dell’attività. Questa funzionalità è particolarmente utile per le attività che si estendono su più pagine web.
 
    >[!NOTE]
