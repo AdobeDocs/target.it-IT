@@ -2,10 +2,11 @@
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;page params;page parameters;at.js;functions;function
 description: Informazioni sulla funzione targetPageParamsAll() per la libreria JavaScript at.js di Adobe Target.
 title: Informazioni sulla funzione targetPageParamsAll() per la libreria JavaScript at.js di Adobe Target.
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '152'
 ht-degree: 88%
