@@ -2,9 +2,10 @@
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
 description: In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo
+feature: null
 uuid: 95126e92-75ce-4052-b061-7ca4ebb3136b
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '778'
 ht-degree: 97%
