@@ -1,9 +1,10 @@
 ---
 description: A volte le attività non vanno come previsto. Questo articolo elenca alcuni potenziali problemi che si possono presentare durante l’utilizzo della Personalizzazione automatizzata, con possibili soluzioni.
 title: Risolvere i problemi relativi alla personalizzazione automatica
+feature: null
 uuid: 50c5380f-bc7f-41ae-8a85-cdce2dcc0ccd
 translation-type: tm+mt
-source-git-commit: c7664f9674234565a3657f453541095811fa5aa6
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%
@@ -39,7 +40,7 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 ## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
+In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
 **Soluzione:** aggiungi le regole di modello necessarie come pubblico di input della campagna. La valutazione del pubblico avviene su ogni richiesta/chiamata.
 
