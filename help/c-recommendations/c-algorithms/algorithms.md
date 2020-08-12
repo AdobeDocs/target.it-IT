@@ -1,10 +1,11 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: I criteri in  Recommendations del Adobe Target sono regole che determinano quali prodotti raccomandare in base a un insieme predeterminato di comportamenti dei visitatori.
-title: Criteri in  raccomandazioni del Adobe Target
+description: I criteri di  Adobe Target Recommendations sono regole che determinano quali prodotti raccomandare in base a un insieme predeterminato di comportamenti dei visitatori.
+title: Criteri in  Adobe Target Recommendations
+feature: null
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -46,7 +47,7 @@ Potete anche basare le raccomandazioni sul valore di un attributo di profilo per
 
 >[!NOTE]
 >
->I parametri di profilo personalizzati possono essere passati ad Target tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, consulta Profili [](/help/c-target/c-visitor-profile/visitor-profile.md)visitatore.
+>I parametri di profilo personalizzati possono essere passati a Target tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, consulta Profili [](/help/c-target/c-visitor-profile/visitor-profile.md)visitatore.
 
 Ad esempio, se desiderate visualizzare i filmati consigliati in base al filmato aggiunto più di recente da un utente alla coda,
 
@@ -86,7 +87,7 @@ Ad esempio, se desiderate visualizzare gli elementi più venduti dal marchio pre
 | Articoli più venduti | Articoli inclusi nella maggioranza degli ordini completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine. |
 | Articoli più visualizzati | Articoli o elementi multimediali visualizzati più spesso. |
 | Articoli/Media visualizzati di recente | Articoli che sono stati visualizzati di recente dal visitatore. Quando si utilizza questo criterio, è necessario aggiornare la progettazione di Target in modo da gestire i casi di visualizzazione di raccomandazioni vuote laddove gli elementi visualizzati in precedenza non siano sufficienti. |
-| Raccomandazioni basate sull&#39;utente | Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati &quot;Consigliati per l&#39;utente.&quot;<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L&#39;elenco delle raccomandazioni è ponderato per l&#39;attività più recente del visitatore e viene aggiornato in sessione e diventa più personalizzato man mano che l&#39;utente naviga sul sito.<br>Sia le viste che gli acquisti vengono utilizzati per determinare gli elementi raccomandati. La chiave di raccomandazione specificata (ad es. Elemento corrente) viene utilizzata per applicare eventuali filtri di regole di inclusione selezionati. Sarà possibile, ad esempio:<ul><li>Escludere gli elementi che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via)</li><li>Limita gli elementi inclusi a una singola categoria o alla categoria corrente</li></ul> |
+| Recommendations basato su utente | Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati &quot;Consigliati per l&#39;utente.&quot;<br>Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L&#39;elenco delle raccomandazioni è ponderato per l&#39;attività più recente del visitatore e viene aggiornato in sessione e diventa più personalizzato man mano che l&#39;utente naviga sul sito.<br>Sia le viste che gli acquisti vengono utilizzati per determinare gli elementi raccomandati. La chiave di raccomandazione specificata (ad es. Elemento corrente) viene utilizzata per applicare eventuali filtri di regole di inclusione selezionati. Sarà possibile, ad esempio:<ul><li>Escludere gli elementi che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via)</li><li>Limita gli elementi inclusi a una singola categoria o alla categoria corrente</li></ul> |
 
 >[!NOTE]
 >
@@ -112,4 +113,4 @@ Fai clic sulla scheda **[!UICONTROL Uso dell&#39;Algoritmo]** per visualizzare u
 
 >[!NOTE]
 >
->La funzione Utilizzo  dell&#39;algoritmo è attualmente supportata solo per le attività di Recommendations. Al momento questa funzione non è supportata per le attività Test e Targeting delle esperienze A/B (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
+>Al momento la funzione Utilizzo  algoritmo è supportata solo per le attività Recommendations. Al momento questa funzione non è supportata per le attività Test e Targeting delle esperienze A/B (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
