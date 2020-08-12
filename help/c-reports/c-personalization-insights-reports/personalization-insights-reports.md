@@ -2,9 +2,10 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions;important attributes
 description: 'Per gli utenti di attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) sono disponibili due rapporti specializzati: Segmenti automatizzati e Attributi importanti.'
 title: Rapporti Approfondimenti personalizzazione
+feature: null
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 68bfa65011b7af493cd28849bce23a64c0ec3e48
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 71%
@@ -69,7 +70,7 @@ Esistono due tipi di attributi rappresentati nei rapporti [!UICONTROL Registri d
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Per ulteriori informazioni, consulta [Utilizzo dei rapporti di approfondimento della personalizzazione in  Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Per ulteriori informazioni, consulta [Utilizzo dei report Personalization Insights in  Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
 ## Blog  Adobe
 
