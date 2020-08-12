@@ -1,12 +1,16 @@
 ---
-keywords: implementare;implementazione;rfi;richiesta di informazioni
+keywords: implement;implementing;rfi;request for information
 description: Quando si prepara l’implementazione di Adobe Target è necessario completare alcune attività e raccogliere alcune informazioni.
 title: Preparare l’implementazione di Adobe Target
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: b8d6f9f4-a995-4f6a-9eea-f75ef36b7f31
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '268'
+ht-degree: 100%
 
 ---
 
@@ -21,7 +25,7 @@ Se lavori con un consulente Adobe, non è necessario conoscere le informazioni c
 
 ## Richiesta di informazioni aziendali per Adobe Target {#section_A345E8D9ED41478A90ABE7703648C06C}
 
-Questa sezione contiene il documento di richiesta di informazioni (Request for Information, RFI) aziendali che deve essere compilato dal cliente prima della prima chiamata per l'implementazione di Target.
+Questa sezione contiene il documento di richiesta di informazioni (Request for Information, RFI) aziendali che deve essere compilato dal cliente prima della prima chiamata per l&#39;implementazione di Target.
 
 Le finalità del documento RFI aziendale sono le seguenti:
 
@@ -32,11 +36,11 @@ Scarica il documento di [richiesta di informazioni aziendali](/help/assets/busin
 
 ## Richiesta di informazioni tecniche per Adobe Target {#section_95C4F0A2E4EB423399D24F2B7198F6C5}
 
-Questa sezione contiene il documento di richiesta di informazioni (Request for Information, RFI) tecniche che aiuterà il nostro team di consulenza a sviluppare un'implementazione di Target che soddisfi i requisiti tecnici e aziendali del cliente. Le domande di questo documento riguarderanno eventuali ostacoli nascosti o difficoltà per minimizzare o eliminare la necessità di rivedere l'implementazione.
+Questa sezione contiene il documento di richiesta di informazioni (Request for Information, RFI) tecniche che aiuterà il nostro team di consulenza a sviluppare un&#39;implementazione di Target che soddisfi i requisiti tecnici e aziendali del cliente. Le domande di questo documento riguarderanno eventuali ostacoli nascosti o difficoltà per minimizzare o eliminare la necessità di rivedere l&#39;implementazione.
 
 Le finalità del documento RFI tecnico sono le seguenti:
 
 * Comprendere la piattaforma tecnica e le eventuali limitazioni
-* Comprendere l'ambiente tecnico per quanto riguarda le persone e i processi.
+* Comprendere l&#39;ambiente tecnico per quanto riguarda le persone e i processi.
 
 Scarica il documento di [richiesta di informazioni tecniche](/help/assets/technical-rfi.docx).
