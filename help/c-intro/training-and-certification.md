@@ -1,19 +1,23 @@
 ---
-keywords: training;certificazione;target;corsi online;corsi;classe;classi
-description: Adobe Training Services fornisce classi e certificazioni per prodotti e soluzioni Adobe, incluso Adobe Target.
-title: Formazione e certificazione per prodotti e soluzioni Adobe, incluso Adobe Target
-subtopic: Introduzione
+keywords: training;certification;target;online courses;courses;class;classes
+description: ' Adobe Training Services fornisce classi e certificazioni per  prodotti e soluzioni di Adobe, incluso  Adobe Target.'
+title: Formazione e certificazione per prodotti e soluzioni  Adobe, compresi  Adobe Target
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a1be34dd-9790-4c8f-be61-07f46966d56f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '91'
+ht-degree: 48%
 
 ---
 
 
 # Formazione e certificazione{#training-and-certification}
 
-Adobe Training Services fornisce classi e certificazioni per prodotti e soluzioni Adobe, incluso Adobe Target.
+ Adobe Training Services fornisce classi e certificazioni per  prodotti e soluzioni di Adobe, incluso  Adobe Target.
 
 Per un elenco dei corsi disponibili, con istruttore e online, visita il [sito web di Adobe Customer Training](https://training.adobe.com/training/courses.html#solution=adobeTarget).
 
