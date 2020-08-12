@@ -1,10 +1,14 @@
 ---
-keywords: istanze cloud;elenco suffissi pubblici;suffisso pubblico;cookie;cookie di prime parti;cookie di prime parti;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
+keywords: cloud instances;public suffix list;public suffix;cookie;first-party cookie;1st-party cookie;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
 description: Informazioni sui problemi riscontrati dai clienti quando si utilizzano istanze basate su cloud per testare Adobe Target.
 title: Utilizzare istanze basate su cloud con Target
+feature: null
 uuid: dcaba49e-7567-4970-bb9a-19377aff7d38
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '143'
+ht-degree: 95%
 
 ---
 
