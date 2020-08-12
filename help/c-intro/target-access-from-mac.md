@@ -6,7 +6,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: df5aaded-cb8c-4929-801f-deb0a190febd
 translation-type: tm+mt
-source-git-commit: 6542eb14daf7f9154fe33a4e4cfdb2bb35f4d44c
+source-git-commit: 2fce6cd51f3d472001773d7b69eca52bcd1cf8c3
+workflow-type: tm+mt
+source-wordcount: '466'
+ht-degree: 76%
 
 ---
 
@@ -17,17 +20,13 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Accedere ad Adobe Target e impostare la visualizzazione predefinita
 
-1. Accedi a [!DNL Experience Cloud], quindi fai clic sull’icona dell’app nella barra di navigazione.
+1. Effettuate l&#39;accesso all&#39; [Adobe Experience Cloud](https://experience.adobe.com/).
+
+1. Fate clic sull&#39;icona **** App nella barra di navigazione, quindi fate clic su **[!UICONTROL Target]**.
+
+   Potete anche fare clic sul [!DNL Target] pannello nella finestra principale per accedere a [!DNL Target] (o a qualsiasi altra [!DNL Adobe Experience Cloud] soluzione a cui avete accesso).
 
    ![Icona dell’applicazione](/help/c-intro/assets/appmenu-new.png)
-
-1. Fai clic sull&#39;icona di [!DNL Target] nel menu delle app.
-
-   ![Icona di Target](/help/c-intro/assets/appmenu-target-new.png)
-
-1. Fai clic su **[!UICONTROL Avvia]** sulla scheda di [!DNL Target].
-
-   ![Avvio di Target](/help/c-intro/assets/target-launch-new.png)
 
 1. (Facoltativo) Per impostare [!DNL Target] come visualizzazione predefinita quando si accede a [!DNL Experience Cloud], fai clic su **[!UICONTROL Modifica profilo]** sotto l&#39;avatar del tuo profilo, quindi imposta la preferenza della pagina di destinazione.
 
@@ -35,13 +34,15 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Modificare la lingua predefinita per l’interfaccia utente di Target {#language}
 
-1. Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud ] o [!DNL Target], fai clic sull’avatar del tuo profilo, e poi su **[!UICONTROL Modifica profilo]**.
+1. After signing into the [!DNL Adobe Experience Cloud ] or [!DNL Target], click your profile avatar, then click **[!UICONTROL Edit Preferences]**.
 
    ![Modifica profilo](/help/c-intro/assets/change-language.png)
 
-1. Fai clic **[!UICONTROL su Modifica informazioni personali]**.
+1. Fate clic su **[!UICONTROL account]** Adobe per accedere al vostro [!DNL Adobe] profilo.
 
-1. Fai clic sulla scheda **[!UICONTROL Comunicazione]** nella barra dei menu superiore.
+   ![Account Adobe](/help/c-intro/assets/adobe-account.png)
+
+1. Fate clic sulla scheda **[!UICONTROL Notifiche]** nella barra dei menu superiore, quindi fate clic sulla scheda **[!UICONTROL Preferenze]** a sinistra.
 
    ![Lingue preferite](/help/c-intro/assets/prefered-language.png)
 
@@ -49,7 +50,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Seleziona la prima lingua (principale), quindi un’eventuale seconda lingua.
 
-   L’interfaccia utente di [!DNL Target] è ora disponibile nelle seguenti lingue:
+   L’ [!DNL Target] interfaccia utente è disponibile nelle seguenti lingue: tuttavia, le notifiche sono disponibili in più lingue:
 
    * Inglese
    * Spagnolo
@@ -68,7 +69,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Modificare la lingua per la documentazione di Target {#doc-lang}
 
-Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione di Target viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
+Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). [!DNL Target]La documentazione di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 
 Per passare rapidamente alla versione originale inglese, fai clic sul collegamento disponibile nell’intestazione della pagina.
 
