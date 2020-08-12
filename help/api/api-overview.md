@@ -4,9 +4,9 @@ description: Informazioni  API Adobe Target, incluse le API Admin, Delivery, Rep
 title: ' Panoramica dell''API Adobe Target'
 topic: APIs
 translation-type: tm+mt
-source-git-commit: 84cd5d41655baaaadeba63954858730ce956e039
+source-git-commit: 240c0f36bf39ee16d8d8e1b66ad6bed54b4f1fed
 workflow-type: tm+mt
-source-wordcount: '240'
+source-wordcount: '246'
 ht-degree: 1%
 
 ---
@@ -14,9 +14,9 @@ ht-degree: 1%
 
 #  Panoramica dell&#39;API Adobe Target
 
- le API Adobe Target possono essere raggruppate in base al tipo.
+[!DNL Adobe Target] Le API possono essere raggruppate in base al tipo.
 
-| Tipo API | Cosa consente di fare | Collegamento di download | Altri collegamenti utili |
+| Tipo di API | Cosa consente di fare | Collegamento di download | Altri collegamenti utili |
 | --- | --- | --- |--- |
 | Amministrazione | Creazione, modifica ed eliminazione di attività, audience, offerte e altri oggetti (incluse [!DNL Recommendations] entità, criteri, progettazioni e così via). Le [!DNL Recommendations] API sono un tipo di API admin.) | <UL><li>[Raccolta Postman API di amministrazione di Target](https://developers.adobetarget.com/api/#admin-postman-collection)</li><li>[Recommendations API Postman Collection](https://developers.adobetarget.com/api/recommendations/#section/Postman)</li></ul> | [Utilizzare le API](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html) Recommendations nei Tutorials *Adobe Target* |
 | Consegna | Recuperate contenuti ottimizzati e personalizzati da [!DNL Target] distribuire a un utente finale. | [Raccolta Postman API Target Delivery](https://developers.adobetarget.com/api/delivery-api/#section/Getting-Started/Postman-Collection) |  |
@@ -25,6 +25,12 @@ ht-degree: 1%
 
 >[!NOTE]
 >
->Notate la distinzione tra le API **** di amministrazione (comprese le [!DNL Recommendations] API), che vi consente di configurare vari aspetti di  Adobe Target, rispetto alle API **di** distribuzione, che consentono di recuperare il contenuto. Le API di amministrazione richiedono l&#39;autenticazione, mentre le API di consegna no.
+>Esistono importanti differenze tra le API [!DNL Target] di amministrazione (comprese le [!DNL Recommendations] API) e le API di [!DNL Target] consegna:
 >
->Per utilizzare  Adobe Target Admin API, è innanzitutto necessario configurare l&#39;autenticazione mediante  I/O Adobe. Per ulteriori informazioni, consultate [Configurare l&#39;autenticazione](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) in *Tutorials* Adobe Target.
+>* Le API di amministrazione consentono di configurare vari aspetti di [!DNL Target] cui è possibile configurare anche nell’ [!DNL Target] interfaccia utente. Le API di amministrazione richiedono l&#39;autenticazione.
+   >
+   >
+* Le API di distribuzione consentono di recuperare il contenuto. Le API di consegna non richiedono l&#39;autenticazione.
+>
+>
+Per utilizzare le API [!DNL Target] di amministrazione, è innanzitutto necessario configurare l&#39;autenticazione utilizzando  I/O Adobe. Per ulteriori informazioni, consultate [Configurare l&#39;autenticazione](https://docs.adobe.com/content/help/en/target-learn/tutorials/apis/configure-io-target-integration.html) in *Tutorials* Adobe Target.
