@@ -1,11 +1,15 @@
 ---
-keywords: mboxDefine;mboxdefine;definizione mbox;mboxUpdate;mboxupdate;aggiornamento mbox;at.js;funzioni;funzione
+keywords: mboxDefine;mboxdefine;mbox define;mboxUpdate;mboxupdate;mbox update;at.js;functions;function
 description: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
 title: Informazioni sulle funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript at.js di Adobe Target.
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '184'
+ht-degree: 100%
 
 ---
 
@@ -26,7 +30,7 @@ Crea una mappatura interna tra un nodeId e un nome mbox, ma non esegue la richie
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Esegue la richiesta e applica l'offerta all'elemento identificato da `nodeId` in `mboxDefine()`. Può essere utilizzato anche per aggiornare una mbox iniziata da `mboxCreate`. Incorporata in [!DNL at.js] per lo più per facilitare la transizione da [!DNL mbox.js] ad [!DNL at.js]. È possibile sostituire `mboxDefine()`/`mboxUpdate()` con [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) e [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) utilizzando l’opzione del selettore.
+Esegue la richiesta e applica l&#39;offerta all&#39;elemento identificato da `nodeId` in `mboxDefine()`. Può essere utilizzato anche per aggiornare una mbox iniziata da `mboxCreate`. Incorporata in [!DNL at.js] per lo più per facilitare la transizione da [!DNL mbox.js] ad [!DNL at.js]. È possibile sostituire `mboxDefine()`/`mboxUpdate()` con [adobe.target.getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) e [adobe.target.applyOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-applyoffer.md) utilizzando l’opzione del selettore.
 
 ## Esempio {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 
