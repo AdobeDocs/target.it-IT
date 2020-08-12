@@ -2,11 +2,15 @@
 keywords: Overview and Reference;act
 description: Informazioni sui concetti chiave che ti aiuteranno a comprendere le funzionalità di Adobe Target.
 title: Concetti chiave di Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1515'
+ht-degree: 98%
 
 ---
 
@@ -107,7 +111,7 @@ Per informazioni su come il profilo visitatore tiene traccia delle informazioni 
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03) badge ![Panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03) ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -117,7 +121,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilizzo del pubblico in Adobe Target (6:21) ![Etichetta Panoramica](/help/assets/overview.png)
+### Utilizzo dell&#39;audience  contrassegno ![Panoramica di Adobe Target (6:21)](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
