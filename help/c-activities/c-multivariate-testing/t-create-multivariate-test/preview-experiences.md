@@ -1,17 +1,21 @@
 ---
 description: Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un'anteprima della pagina con ogni esperienza.
 title: Visualizzare un'anteprima delle esperienze per un test multivariato
+feature: null
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '189'
+ht-degree: 100%
 
 ---
 
 
-# Visualizzazione di un'anteprima delle esperienze per un test multivariato{#preview-experiences-for-a-multivariate-test}
+# Visualizzazione di un&#39;anteprima delle esperienze per un test multivariato{#preview-experiences-for-a-multivariate-test}
 
-Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un'anteprima della pagina con ogni esperienza.
+Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un&#39;anteprima della pagina con ogni esperienza.
 
 1. In Compositore esperienza, fai clic su **[!UICONTROL Anteprima]**.
 
@@ -19,13 +23,13 @@ Dato che in un test multivariato vengono confrontate più esperienze sulla stess
 
    ![](assets/preview.png)
 
-1. Fai clic su una delle esperienze nell'elenco per visualizzarla.
+1. Fai clic su una delle esperienze nell&#39;elenco per visualizzarla.
 
 1. Per escludere una o più esperienze dal test multivariato, selezionale, quindi fai clic su **[!UICONTROL Escludi]**.
 
    ![Escludere le esperienze](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-   Potrebbe essere utile escludere un'esperienza che mostra varianti in conflitto o che non è esteticamente equilibrata.
+   Potrebbe essere utile escludere un&#39;esperienza che mostra varianti in conflitto o che non è esteticamente equilibrata.
 
    >[!NOTE]
    >
