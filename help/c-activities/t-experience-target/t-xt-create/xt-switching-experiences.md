@@ -1,11 +1,15 @@
 ---
-keywords: priorità;generare esperienze;esperienza;pubblico;passare a un’altra esperienza;compositore esperienza visivo
+keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Informazioni su come i visitatori possono passare da un’esperienza all’altra in un’attività Targeting esperienze (XT) mentre i loro profili evolvono.
 title: Passare ad altre esperienze nel targeting delle esperienze
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a4fa4cf0-509c-4c31-a778-09c5edacc9b0
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '899'
+ht-degree: 100%
 
 ---
 
@@ -38,24 +42,24 @@ Per sfruttare queste funzionalità in [!DNL Target], è importante comprendere l
 
    Ad esempio, nella seguente configurazione attività, un visitatore ha visitato il tuo sito web dagli Stati Uniti e poi si è recato in Germania, dove ha visitato il tuo sito web una seconda volta. Durante la prima visita, questo visitatore si è qualificato per l’Esperienza A (visitatori negli Stati Uniti). Dopo aver visitato il tuo sito web dalla Germania, lo stesso visitatore è passato all’Esperienza B (visitatore dalla Germania).
 
-   ![Priorità Stati Uniti &gt; Germania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Priorità Stati Uniti > Germania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
 * **Un visitatore potrà anche passare da un’esperienza all’altra se non si qualifica più per il pubblico attuale e inizia invece a qualificarsi per un’esperienza a priorità più bassa.**
 * **Se il visitatore non si qualifica più per l’esperienza attuale, né si qualifica per un’altra esperienza, vedrà il contenuto predefinito.**
 
    Ad esempio, nella seguente configurazione attività, un visitatore ha visitato il tuo sito web dagli Stati Uniti e poi si è recato in Francia, dove ha visitato il tuo sito web una seconda volta. Durante la prima visita, questo visitatore si è qualificato per l’Esperienza A (visitatori negli Stati Uniti). Dopo aver visitato il tuo sito web dalla Francia, questo visitatore rimarrà nell’esperienza originale.
 
-   ![Priorità Stati Uniti &gt; Germania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
+   ![Priorità Stati Uniti > Germania](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_germany-new.png)
 
-* **Un’esperienza rivolta a “Tutti i visitatori” può essere utilizzata come ultima esperienza nell’attività di targeting delle esperienze in modo da includere i visitatori che non sono rientrati in nessun’altra esperienza. Se un’esperienza rivolta a "Tutti i Visitatori" non è l’ultima dell’ordine, verranno comunque valutate le altre esperienze che la seguono.**
+* **Un’esperienza rivolta a “Tutti i visitatori” può essere utilizzata come ultima esperienza nell’attività di targeting delle esperienze in modo da includere i visitatori che non sono rientrati in nessun’altra esperienza. Se un’esperienza rivolta a &quot;Tutti i Visitatori&quot; non è l’ultima dell’ordine, verranno comunque valutate le altre esperienze che la seguono.**
 
    Ad esempio, nella seguente configurazione attività, un visitatore ha visitato il tuo sito web dagli Stati Uniti e poi si è recato in Germania, dove ha visitato il tuo sito web una seconda volta. Durante la prima visita, questo visitatore si è qualificato per l’Esperienza A (visitatori negli Stati Uniti). Dopo aver visitato il tuo sito web dalla Germania, questo visitatore rimarrà nell’Esperienza A (visitatori dagli Stati Uniti).
 
-   ![Priorità Stati Uniti &gt; Tutti i visitatori](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
+   ![Priorità Stati Uniti > Tutti i visitatori](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_all_visitors-new.png)
 
    Se preferisci evitare questa situazione, puoi creare un nuovo pubblico definito esplicitamente come l’inverso del pubblico di destinazione, come illustrato di seguito:
 
-   ![Priorità Stati Uniti &gt; Non Stati Uniti](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
+   ![Priorità Stati Uniti > Non Stati Uniti](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_us_not_us-new.png)
 
 * **Con un’attività Targeting esperienza con una sola esperienza, i visitatori rimarranno in un’esperienza anche se non si qualificheranno più per il pubblico che li ha portati in tale esperienza.**
 
@@ -69,5 +73,5 @@ Per sfruttare queste funzionalità in [!DNL Target], è importante comprendere l
 
    È un aspetto importante da tenere presente negli scenari in cui un visitatore potrebbe qualificarsi per più di un pubblico. Ad esempio, supponiamo di avere due esperienze: una rivolta ai visitatori “Stati Uniti” e l’altra ai visitatori “New York”; un visitatore da New York si qualifica per entrambi i tipi di pubblico. Devi quindi assicurarti che l’esperienza “New York” sia definita prima dell’esperienza “Stati Uniti” nell’interfaccia utente di Target. In tal modo l’esperienza “New York” più mirata avrà una priorità più alta, come illustrato nell’esempio seguente:
 
-   ![Priorità New York &gt; Stati Uniti](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
+   ![Priorità New York > Stati Uniti](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
 
