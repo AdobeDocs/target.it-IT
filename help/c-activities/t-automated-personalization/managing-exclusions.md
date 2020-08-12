@@ -1,11 +1,15 @@
 ---
-keywords: deduplicazione;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;disabilitare offerte duplicate
+keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers
 description: Gestisci le esclusioni creando gruppi di esclusione o escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti nelle attività di Personalizzazione automatizzata in Adobe Target.
 title: Gestire le esclusioni
+feature: null
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '961'
+ht-degree: 97%
 
 ---
 
@@ -18,7 +22,7 @@ Gestisci le esclusioni creando gruppi di esclusione o escludendo le offerte dupl
 
 Crea dei gruppi di esclusione nelle attività di Personalizzazione automatizzata per escludere automaticamente esperienze con specifiche offerte.
 
-I gruppi di esclusione sono un ottimo modo per garantire che le offerte incompatibili non siano presentate nella stessa esperienza in percorsi diversi. Ad esempio, supponiamo di avere due offerte: una è per il 20% di sconto di tutte le merci e l'altro è per il 15% di sconto. Non vorresti mai che queste due offerte fossero presentate ai visitatori nella stessa esperienza. Se si aggiungono queste due offerte a un gruppo di esclusione, è possibile assicurarsi che questo non sarà mai il caso.
+I gruppi di esclusione sono un ottimo modo per garantire che le offerte incompatibili non siano presentate nella stessa esperienza in percorsi diversi. Ad esempio, supponiamo di avere due offerte: una è per il 20% di sconto di tutte le merci e l&#39;altro è per il 15% di sconto. Non vorresti mai che queste due offerte fossero presentate ai visitatori nella stessa esperienza. Se si aggiungono queste due offerte a un gruppo di esclusione, è possibile assicurarsi che questo non sarà mai il caso.
 
 Puoi anche limitare quali tipi di pubblico possono vedere offerte specifiche nelle attività di Personalizzazione automatizzata. Per ulteriori informazioni, consulta [Targeting delle offerte di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/ap-target-offers.md).
 
@@ -30,9 +34,9 @@ Puoi anche limitare quali tipi di pubblico possono vedere offerte specifiche nel
 
 1. Nella finestra di dialogo [!UICONTROL Gestione contenuto] fai clic su **[!UICONTROL Gruppi di esclusione]**.
 
-   ![Finestra di dialogo Gestione contenuto &gt; Gruppi di esclusione](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
+   ![Finestra di dialogo Gestione contenuto > Gruppi di esclusione](/help/c-activities/t-automated-personalization/assets/exclusion_group_create-new.png)
 
-   Se sono stati precedentemente creati gruppi di esclusione, questi vengono visualizzati nell'elenco. Se non è stato ancora creato un gruppo di esclusione, viene richiesto di crearne uno.
+   Se sono stati precedentemente creati gruppi di esclusione, questi vengono visualizzati nell&#39;elenco. Se non è stato ancora creato un gruppo di esclusione, viene richiesto di crearne uno.
 
 1. Fai clic su **[!UICONTROL Crea gruppo di esclusione.]**
 
@@ -54,9 +58,9 @@ Le offerte del gruppo di esclusione saranno escluse in maniera automatizzata dal
 
 Evita che le offerte della libreria vengano duplicate quando sono utilizzate in posizioni diverse nelle attività di [!UICONTROL Personalizzazione automatizzata].
 
-Si potrebbe avere un'attività, ad esempio, con sei percorsi in una pagina con 12 offerte. Esiste la possibilità che la stessa offerta possa essere collocata in uno o più percorsi nell'attività. Questa funzionalità impedisce la visualizzazione di offerte duplicate contemporaneamente in percorsi diversi all'interno della stessa attività.
+Si potrebbe avere un&#39;attività, ad esempio, con sei percorsi in una pagina con 12 offerte. Esiste la possibilità che la stessa offerta possa essere collocata in uno o più percorsi nell&#39;attività. Questa funzionalità impedisce la visualizzazione di offerte duplicate contemporaneamente in percorsi diversi all&#39;interno della stessa attività.
 
-Fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Offerte duplicate]**, quindi fai clic su **[!UICONTROL Consenti duplicati]** o **[!UICONTROL Non consentire duplicati]**.
+Clicca su **[!UICONTROL Configura]** > **[!UICONTROL Offerte duplicate]**, quindi clicca su **[!UICONTROL Consenti duplicati]** o **[!UICONTROL Non consentire duplicati]**.
 
 ![Opzioni Offerte duplicate](/help/c-activities/t-automated-personalization/assets/duplicate_offers-new.png)
 
@@ -64,13 +68,13 @@ Fai clic su **[!UICONTROL Configura]** &gt; **[!UICONTROL Offerte duplicate]**, 
 
 Escludi specifiche esperienze se desideri escludere dall’attività di Personalizzazione automatizzata determinate combinazioni di offerte.
 
-Ci potrebbero essere alcune combinazioni che non funzionano bene insieme, o si potrebbe limitare il numero di esperienze testate per ridurre i requisiti di traffico per l'attività.
+Ci potrebbero essere alcune combinazioni che non funzionano bene insieme, o si potrebbe limitare il numero di esperienze testate per ridurre i requisiti di traffico per l&#39;attività.
 
 1. Durante la [creazione o la modifica di un’attività di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md), fai clic su **Gestione contenuto** nella barra dell’intestazione.
 
    ![Collegamento Gestione contenuto](/help/c-activities/t-automated-personalization/assets/manage-content.png)
 
-   L'elenco [!UICONTROL Esperienze] mostra ogni esperienza generata dalle permutazioni di tutte le opzioni di contenuto e percorso.
+   L&#39;elenco [!UICONTROL Esperienze] mostra ogni esperienza generata dalle permutazioni di tutte le opzioni di contenuto e percorso.
 
 1. Escludi le esperienze, se lo desideri.
 
@@ -84,7 +88,7 @@ Ci potrebbero essere alcune combinazioni che non funzionano bene insieme, o si p
 
    Per filtrare questo elenco in modo da visualizzare solo le attività escluse o incluse, fai clic sul menu a discesa [!UICONTROL Stato].
 
-   Le esperienze saranno ora escluse dall'attività e il loro [!UICONTROL Stato] appare come [!UICONTROL Escluso].
+   Le esperienze saranno ora escluse dall&#39;attività e il loro [!UICONTROL Stato] appare come [!UICONTROL Escluso].
 
    ![Esperienze escluse](/help/c-activities/t-automated-personalization/assets/exclude_exp_3a.png)
 
@@ -96,7 +100,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 **Per escludere il contenuto predefinito utilizzando il Compositore di esperienza visiva:**
 
-1. Durante la [creazione o la modifica di un’attività di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md), seleziona il contenuto che desideri sostituire e fai clic per accedere a **[!UICONTROL Cambia testo/HTML]**, **[!UICONTROL Cambia immagine]** o **[!UICONTROL Cambia colore di sfondo]**.
+1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
 1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **Includi** a destra del contenuto predefinito (oppure deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
 
    A seconda del tipo di contenuto/offerta, la casella di controllo [!UICONTROL Includi] è in un percorso leggermente diverso.
@@ -115,14 +119,14 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l'offerta predefinita esclusa.
+   È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l&#39;offerta predefinita esclusa.
 
    ![](assets/exclude_content_vec_4.png)
 
 **Per escludere il contenuto predefinito utilizzando il Compositore esperienza basato su moduli:**
 
 1. Durante la creazione o la modifica di un’attività di Personalizzazione automatizzata, clicca su **[!UICONTROL Modifica testo/HTML]** o **[!UICONTROL Modifica offerta immagine]** in **[!UICONTROL Contenuto]**.
-1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **[!UICONTROL Includi]** a destra del contenuto predefinito (o deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
+1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **[!UICONTROL Includi]** a destra del contenuto predefinito (oppure deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
 
    A seconda del tipo di contenuto od offerta, la casella di controllo Includi sarà in un luogo leggermente diverso.
 
@@ -136,6 +140,6 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l'offerta predefinita esclusa.
+   È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l&#39;offerta predefinita esclusa.
 
    ![](assets/exclude_content_form_3.png)
