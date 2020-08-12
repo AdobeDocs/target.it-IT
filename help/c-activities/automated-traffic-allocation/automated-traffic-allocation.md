@@ -2,10 +2,11 @@
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
 description: L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 title: Allocazione automatica
+feature: null
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 4695dbf2ecbd19be5589bfc63e2d947361d77fce
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3335'
 ht-degree: 78%
@@ -133,9 +134,9 @@ Queste situazioni possono sfalsare i risultati di un test di Allocazione automat
 
 Consultate le seguenti domande frequenti e risposte mentre lavorate con le attività di allocazione [!UICONTROL automatica] :
 
-###  Analytics per Target (A4T) supporta le attività di allocazione automatica?
+### Analytics for Target (A4T) supporta le attività di allocazione automatica?
 
-Sì. Per ulteriori informazioni, consultate [supporto Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) di allocazione automatica nella creazione *di* attività.
+Sì. Per ulteriori informazioni, consultate Supporto di [Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) di allocazione automatica nella creazione *di* attività.
 
 ###  I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?
 
@@ -191,11 +192,11 @@ Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!U
 
 ### Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello Allocazione [!UICONTROL automatica] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] .)
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello Allocazione [!UICONTROL automatica] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] .
 
 ### In che modo Auto-Allocate crea modelli in relazione agli ambienti?
 
-[!UICONTROL L&#39;allocazione automatica] crea modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Produzione] è l’ambiente predefinito, ma può essere modificato in Target [Administration > Ambienti](/help/administrating-target/environments.md).
+[!UICONTROL L&#39;allocazione automatica] crea modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Production] è l&#39;ambiente predefinito, ma può essere modificato in [Amministrazione Target > Ambienti](/help/administrating-target/environments.md).
 
 Se si verifica un hit in un altro ambiente (non predefinito), il traffico verrà distribuito in base al comportamento di conversione osservato nell&#39;ambiente predefinito. Il risultato di tale hit (conversione o non conversione) verrà registrato a fini di reporting, ma non verrà preso in considerazione nel modello di allocazione [!UICONTROL automatica] .
 
