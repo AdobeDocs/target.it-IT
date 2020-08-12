@@ -1,10 +1,14 @@
 ---
-keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
+keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
 description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
 title: Trasmettere i dati dinamici nelle offerte
+feature: null
 uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '492'
+ht-degree: 100%
 
 ---
 
@@ -16,7 +20,7 @@ Puoi visualizzare in modo dinamico le informazioni dei visitatori memorizzate ne
 **Casi aziendali**
 
 * Promuovere un’offerta scontata per un acquisto relativo all’ultimo prodotto acquistato. Invece di creare un’offerta separata per ogni elemento del catalogo, puoi creare un’offerta con testo dinamico che visualizza “l’ultimo prodotto acquistato” dal profilo insieme a un collegamento nell’offerta.
-* Un visitatore arriva sulla pagina di destinazione con `keyword=world` `cup`. Mostra il termine *World cup* nell'offerta.
+* Un visitatore arriva sulla pagina di destinazione con `keyword=world` `cup`. Mostra il termine *World cup* nell&#39;offerta.
 * Personalizza un’etichetta di consigli con informazioni come (1) l’ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000), (2) la preferenza colore del visitatore (nero) e (3) la categoria non relativa alla scarpa preferita dal visitatore (felpe). Esempio: “Abbina a “Nike Air Max 1000” queste fantastiche “felpe” “nere””.
 
 
@@ -29,7 +33,7 @@ Poiché le preferenze, i comportamenti, gli stati specifici dell’utente posson
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
 * Codice offerta HTML: `Get your ${profile.keyword} information here!`
-* L'utente vede: Get your World Cup information here!
+* L&#39;utente vede: Get your World Cup information here!
 
 I seguenti valori possono essere “sostituiti tramite token”:
 
@@ -62,7 +66,7 @@ Puoi inoltre specificare i valori predefiniti se desideri esporli alle offerte. 
 
 `${user.testAttribute default="All Items!"}`
 
-Quando `testAttribute` non esiste o è vuoto, verrà scritto “All Items!” Se un valore di attributo vuoto è valido e desideri scriverlo anziché visualizzare l'impostazione predefinita, puoi utilizzare:
+Quando `testAttribute` non esiste o è vuoto, verrà scritto “All Items!” Se un valore di attributo vuoto è valido e desideri scriverlo anziché visualizzare l&#39;impostazione predefinita, puoi utilizzare:
 
 `${user.testAttribute default="All Items!" show_blank="true"}`
 
