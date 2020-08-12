@@ -2,10 +2,14 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 title: Utilizzo del pubblico in Adobe Target
+feature: null
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '881'
+ht-degree: 95%
 
 ---
 
@@ -79,7 +83,7 @@ Quando lavori con tipi di pubblico importati, considera i seguenti punti:
 * Il pubblico di destinazione con espressioni non è più supportato in Target Standard/Premium.
 * In Target Standard/Premium non sono supportati alcuni tipi di pubblico obsoleti o sono stati migliorati alcuni operatori per facilitarne l&#39;uso. Per questo motivo, anche se un pubblico importato funziona in base alla sua definizione, potrebbe non essere disponibile per la creazione di un pubblico nell&#39;interfaccia Standard/Premium. Ad esempio, i tipi di pubblico Social sono visibili con le loro regole, ma Target Standard/Premium non consente di creare un pubblico Social.
 
-## Video di formazione: Utilizzo dei tipi di pubblico Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Utilizzo dei tipi di pubblico ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sull&#39;utilizzo dei tipi di pubblico.
 
