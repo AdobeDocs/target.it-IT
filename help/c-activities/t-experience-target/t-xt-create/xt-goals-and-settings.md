@@ -2,10 +2,11 @@
 keywords: activity settings;experience targeting goals and settings;xt goals and settings;experience targeting;reporting settings;goal metrics;success metrics;dependent success metrics;advanced settings;primary goal;additional metrics;objective;priority;duration;reporting solution;goal;audiences for reporting;Which success metric must be reached before incrementing this metric;What will happen after a user encounters this goal metric;notes
 description: Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
+feature: null
 topic: Standard
 uuid: e8cd1881-9b08-4c90-b2fc-ec60fee17697
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1228'
 ht-degree: 97%
