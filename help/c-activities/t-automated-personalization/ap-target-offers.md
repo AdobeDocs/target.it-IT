@@ -1,10 +1,14 @@
 ---
 description: In un’attività di Personalizzazione automatizzata è possibile indirizzare le offerte a tipi di pubblico specifici.
 title: Targeting delle offerte di Personalizzazione automatizzata
+feature: null
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '356'
+ht-degree: 100%
 
 ---
 
@@ -18,11 +22,11 @@ Questa funzionalità riduce il numero di offerte per le quali un dato visitatore
 |  | Visitatore 1 | Visitatore 2 |
 |--- |--- |--- |
 | Qualifica per pubblico | Pubblico A | Pubblico B |
-| Punteggio del modello di personalizzazione di Target dell'offerta 1 | 90 | 90 |
-| Punteggio del modello di personalizzazione di Target dell'offerta 2 | 50 | 70 |
-| Punteggio del modello di personalizzazione di Target dell'offerta 3 | 80 | 60 |
+| Punteggio del modello di personalizzazione di Target dell&#39;offerta 1 | 90 | 90 |
+| Punteggio del modello di personalizzazione di Target dell&#39;offerta 2 | 50 | 70 |
+| Punteggio del modello di personalizzazione di Target dell&#39;offerta 3 | 80 | 60 |
 
-In questo scenario, il visitatore 1 vede l'offerta 1 (perché ha diritto all'ambito del pubblico A), che è il punteggio più elevato del visitatore. Tuttavia, il visitatore 2 vede l'offerta 2 anche se il suo punteggio più elevato è per l'offerta 1, perché il visitatore 2 non fa parte del pubblico A. Questo esempio dimostra perché le regole di targeting dovrebbero essere utilizzate con moderazione per soddisfare le esigenze aziendali. L'aggiunta di queste regole può ridurre l'efficacia dei modelli di personalizzazione di Target.
+In questo scenario, il visitatore 1 vede l&#39;offerta 1 (perché ha diritto all&#39;ambito del pubblico A), che è il punteggio più elevato del visitatore. Tuttavia, il visitatore 2 vede l&#39;offerta 2 anche se il suo punteggio più elevato è per l&#39;offerta 1, perché il visitatore 2 non fa parte del pubblico A. Questo esempio dimostra perché le regole di targeting dovrebbero essere utilizzate con moderazione per soddisfare le esigenze aziendali. L&#39;aggiunta di queste regole può ridurre l&#39;efficacia dei modelli di personalizzazione di Target.
 
 ## Impostare le regole di targeting
 
