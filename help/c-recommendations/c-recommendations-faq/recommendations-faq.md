@@ -1,17 +1,21 @@
 ---
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;recommendations;special characters;attribute weighting;content similarity
-description: Elenco delle domande frequenti sulle attività di Adobe Target Recommendations.
-title: Domande frequenti su Adobe Target Recommendations
+description: Elenco delle domande frequenti sulle  attività di Adobe Target Recommendations.
+title: ' Adobe Target Recommendations FAQ'
+feature: null
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 6971616706cab12c3933cbd5d1998af98ef8a702
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1933'
+ht-degree: 84%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli{#recommendations-faq}
 
-Elenco delle domande frequenti sulle attività di Adobe Target Recommendations.
+Elenco delle domande frequenti sulle  attività di Adobe Target Recommendations.
 
 ## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
@@ -169,21 +173,21 @@ To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the 
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
 
-## Cosa significa la risposta NO_CONTENT restituita talvolta nella traccia di contenuto di Recommendations?
+## Cosa significa la risposta NO_CONTENT restituita talvolta nella traccia di contenuto Recommendations?
 
 NO_CONTENT viene restituito quando le raccomandazioni non sono disponibili per l&#39;algoritmo e la combinazione di chiavi richiesti. In genere, ciò si verifica quando i backup vengono disabilitati per l&#39;algoritmo e anche una o più delle seguenti situazioni è vera:
 
 * I risultati non sono ancora pronti.
 
-   Ciò si verifica in genere quando si salva un&#39;attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell&#39;attività.
+   Ciò si verifica in genere quando si salva per la prima volta un&#39;attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell&#39;attività.
 
 * I risultati sono pronti, ma non ancora memorizzati nella cache del server periferico più vicino, per la combinazione di tasti/algoritmo richiesta.
 
    La richiesta appena effettuata avvierà un&#39;operazione di caching, quindi questa si risolve automaticamente dopo alcuni ricarichi di pagina e/o pochi minuti.
 
-* I risultati sono pronti, ma non disponibili per il valore chiave fornito.
+* I risultati sono pronti, ma non sono disponibili per il valore chiave fornito.
 
-   Ciò si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l&#39;esecuzione dell&#39;algoritmo più recente e si risolve automaticamente dopo l&#39;esecuzione dell&#39;algoritmo successivo.
+   Ciò si verifica in genere quando si richiedono raccomandazioni per un elemento che è stato aggiunto al catalogo dopo l&#39;esecuzione dell&#39;algoritmo più recente e che si risolve automaticamente dopo l&#39;esecuzione dell&#39;algoritmo successivo.
 
 * Il rendering parziale del modello è disattivato e non sono disponibili risultati sufficienti per compilare il modello.
 
