@@ -1,12 +1,13 @@
 ---
 keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
-description: Se nella pagina non viene visualizzato il contenuto previsto, è possibile eseguire il debug della distribuzione del contenuto in  Adobe Target.
+description: Se nella pagina non viene visualizzato il contenuto previsto, è possibile eseguire il debug della distribuzione dei contenuti in  Adobe Target.
 title: Risoluzione dei problemi di distribuzione dei contenuti in  Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 8837d07a-f793-495e-a6c1-b9c35fbe18b1
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1316'
 ht-degree: 67%
@@ -101,7 +102,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 ## Adobe Experience Cloud Debugger {#section_A2798ED3A431409690A4BE08A1BFCF17}
 
-Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Effettuate l&#39;autenticazione nell&#39;Experience Cloud  e potete utilizzare il potente strumento MboxTrace per ispezionare le qualifiche dell&#39;attività, del pubblico e del profilo del visitatore.
+Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&#39;implementazione di Target. Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Effettuate l&#39;autenticazione nel Experience Cloud  e potete utilizzare il potente strumento MboxTrace per ispezionare le qualifiche dell&#39;attività e dell&#39;audience nonché il profilo del visitatore.
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
@@ -151,9 +152,9 @@ For remote offers, the [!DNL Target] response can contain `/* invalid remote off
 
 You can check the [!DNL Target] response in the browser or using mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Le richieste Target non vengono visualizzate sul sito.
+## Le richieste Target non vengono attivate sul sito.
 
-at.js non invia richieste Target se si utilizza un doctype non valido. at.js richiede il doctype HTML5.
+at.js non attiva le richieste Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
 
 ## Video di formazione
 
@@ -163,7 +164,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Badge ![Esercitazione di debug Target di base](/help/assets/tutorial.png)
+### Badge ![Esercitazione debug Target di base](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
