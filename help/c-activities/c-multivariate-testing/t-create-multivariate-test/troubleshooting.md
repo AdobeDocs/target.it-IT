@@ -1,12 +1,16 @@
 ---
-keywords: Editor di esperienza web mobile
+keywords: Mobile Web Experience Editor
 description: Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
 title: Risolvere i problemi relativi ai test multivariati
-subtopic: Riquadri di visualizzazione per dispositivi mobili
+feature: null
+subtopic: Mobile Viewports
 topic: Standard
 uuid: 4de03e03-cbbd-4e8f-a1b9-19ba8b2e6951
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '165'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
 
-* Quando si modifica un'attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
+* Quando si modifica un&#39;attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
 * In caso di modifiche a un test già in esecuzione, puoi reimpostare il test e i relativi dati.
 
    Target consente di modificare un’attività live. È importante considerare che la modifica di un’attività in corso potrebbe ripristinare il test, quindi i rapporti potrebbero non riconoscere alcune delle modifiche.
