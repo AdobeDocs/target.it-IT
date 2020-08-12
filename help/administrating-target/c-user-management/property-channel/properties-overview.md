@@ -2,10 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Informazioni sulle attività necessarie per aggiungere utenti all’implementazione di Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l’implementazione di Target per includere il parametro at_property e specificare ruoli e autorizzazioni.
 title: Configurare le autorizzazioni Enterprise
+feature: null
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -100,7 +101,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-impleme
 
 ## Passaggio 4: Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
-Le proprietà sono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (chiamata Target, chiamata API, ecc.) a Target.
+ a Target.
 
 Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
@@ -206,7 +207,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 >
 >L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza dell’utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
-### Come configurare il contrassegno ![Esercitazione di Target Workspaces (6:55)](/help/assets/tutorial.png)
+### Come configurare le aree di lavoro Target (6:55) ![Logo delle esercitazioni](/help/assets/tutorial.png)
 
 Questo video spiega come creare aree di lavoro.
 
