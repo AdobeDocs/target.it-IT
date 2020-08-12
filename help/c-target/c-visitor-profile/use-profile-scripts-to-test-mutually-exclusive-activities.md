@@ -1,16 +1,20 @@
 ---
 keywords: Profile script;profile script attributes;mutually exclusive activities
 description: Puoi utilizzare gli attributi del profilo per impostare test che confrontano due o più attività ma non consentono a uno stesso visitatore di partecipare a ciascuna attività.
-title: Utilizzare gli script di profilo per testare attività che si escludono a vicenda
+title: 'Utilizzare gli script di profilo per testare attività reciprocamente esclusive '
+feature: null
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: bd46d992998a2ec18693490da3ad03e38cff04e2
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '686'
+ht-degree: 84%
 
 ---
 
 
-# Use profile scripts to test mutually exclusive activities {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
+# Utilizzare gli script di profilo per testare attività reciprocamente esclusive {#section_FEFE50ACA6694DE7BF1893F2EFA96C01}
 
 Puoi utilizzare gli attributi del profilo per impostare test che confrontano due o più attività ma non consentono a uno stesso visitatore di partecipare a ciascuna attività.
 
