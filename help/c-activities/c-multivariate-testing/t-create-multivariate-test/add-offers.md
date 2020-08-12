@@ -1,9 +1,13 @@
 ---
 description: Utilizza il Compositore esperienza visivo in Adobe Target per creare le offerte da includere nel test multivariato (MVT).
 title: Creare combinazioni in test multivariati (MVT) utilizzando Adobe Target
+feature: null
 uuid: 2ee47bf5-f8b3-41e2-b9a5-0ff4ab175373
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '505'
+ht-degree: 100%
 
 ---
 
@@ -22,9 +26,9 @@ Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per
 
 ## Offerte immagine {#section_A48333211DB149ED926AE467D0032914}
 
-Sottoponi a test offerte immagine multiple all'interno di una posizione per determinare quale immagine sia più efficace.
+Sottoponi a test offerte immagine multiple all&#39;interno di una posizione per determinare quale immagine sia più efficace.
 
-1. Fa clic su un'immagine nella pagina e quindi seleziona **[!UICONTROL Cambia immagine]**.
+1. Fa clic su un&#39;immagine nella pagina e quindi seleziona **[!UICONTROL Cambia immagine]**.
 
    ![Opzione Cambia immagine](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/changeimage.png)
 
@@ -32,7 +36,7 @@ Sottoponi a test offerte immagine multiple all'interno di una posizione per dete
 
    ![Finestra di dialogo Seleziona contenuto per aggiungere immagini](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/addimage.png)
 
-Ogni immagine diventa un'esperienza separata nella posizione in questione.
+Ogni immagine diventa un&#39;esperienza separata nella posizione in questione.
 
 ## Offerte HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
 
