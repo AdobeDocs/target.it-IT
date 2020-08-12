@@ -1,11 +1,15 @@
 ---
 keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
 description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
-title: Pagine del sito in Adobe Target
+title: Pagine del sito in  Adobe Target
+feature: null
 topic: Standard
 uuid: 1cf9fa94-dbec-4719-9a0a-79c1eb91a233
 translation-type: tm+mt
-source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '860'
+ht-degree: 41%
 
 ---
 
@@ -14,13 +18,13 @@ source-git-commit: b569263ac3510d981f13b0c3d59078a57f2deb78
 
 Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
 
-1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]**>**[!UICONTROL  Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]**>**[!UICONTROL  Pagine del sito]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Pagine del sito]**.
 
    ![Pubblico per pagine del sito](assets/target_site_pages.png)
 
-1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]**, selezionare una delle opzioni seguenti, quindi configurare la regola come desiderato.
+1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]** , selezionare una delle opzioni seguenti, quindi configurare la regola come desiderato.
 
    Le opzioni disponibili e i valutatori negli elenchi a discesa successivi della regola variano in base all&#39;opzione scelta. L&#39;illustrazione seguente mostra le opzioni disponibili se scegliete Pagina corrente:
 
@@ -28,7 +32,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
    Le seguenti opzioni sono disponibili nell’elenco a discesa iniziale quando scegliete [!UICONTROL Seleziona].
 
-   * **** Pagina corrente: La pagina sulla quale si trova l’utente.
+   * **Pagina corrente:** La pagina sulla quale si trova l’utente.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -60,11 +64,12 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       * Dominio di primo livello
       * Percorso
       * Frammento hash (#)
+
       >[!NOTE]
       >
       >L’oggetto `landing.url` viene reimpostato in caso di modifica del sottodominio o di sostituzione diretta dell’URL.
 
-   * **** Intestazione HTTP: Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta Target. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
+   * **Intestazione HTTP:** Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta Target. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -97,6 +102,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       * Agente utente
       * Via
       * Attenzione
+
    Se scegliete Pagina corrente, Pagina precedente o Pagina [!UICONTROL di]destinazione, sono disponibili le opzioni [!UICONTROL Dominio] e [!UICONTROL Query] . Quando si scelgono queste opzioni, tenere presente quanto segue:
 
    * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, perché se ad esempio usi “dominio è uguale a facebook.com”, non verranno accettati né `m.facebook.com` né `www.facebook.com`. Se invece utilizzi “dominio contiene facebook.com” verrà accettata qualsiasi variante di facebook.com.
@@ -108,7 +114,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
 
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]**per impostare regole aggiuntive per il pubblico.
+1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
 Puoi anche creare un pubblico per le pagine del sito utilizzando un “parametro di query definito dall’utente” o una “intestazione definita dall’utente”.
@@ -132,7 +138,7 @@ Come illustrato di seguito:
    * Utilizzate un&#39;attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un&#39;attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
    * Utilizzate invece un profilo [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitatore.
 
-* Quando si utilizzano i valutatori &quot;Inizia/Termina con&quot; su stringhe contenenti virgole, tenere presente che questi vengono valutati come una matrice di valori, in cui ogni valore separato da virgole viene valutato. Ad esempio, se il valore di un&#39;intestazione è: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` sarà possibile soddisfare condizioni come:
+* Quando si utilizzano i valutatori &quot;Inizia/Termina con&quot; su stringhe contenenti virgole, tenere presente che questi vengono valutati come una matrice di valori, in cui ogni valore separato da virgole viene valutato. Ad esempio, se si dispone del valore per un&#39;intestazione: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` saranno soddisfatte condizioni come:
    * inizia con zh,
    * inizia con en,
    * termina con 0,7,
