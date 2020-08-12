@@ -1,11 +1,12 @@
 ---
 keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
-description: Consenti nodi periferici di Adobe Target
-title: Consenti nodi periferici di Adobe Target
+description: ' Inserire nell''elenco Consentiti  nodi periferici Adobe Target'
+title: ' Inserire nell''elenco Consentiti  nodi periferici Adobe Target'
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '117'
 ht-degree: 0%
@@ -13,13 +14,13 @@ ht-degree: 0%
 ---
 
 
-# Permette di elencare i nodi periferici di Target
+#  Inserire nell&#39;elenco Consentiti nodi periferici di Target
 
-Informazioni e un elenco aggiornato di ospitanti per facilitare l&#39;elencazione dei bordi di Adobe [!DNL Target] .
+Informazioni e un elenco aggiornato di ospitanti per facilitare l&#39; inserire nell&#39;elenco Consentiti dei bordi  Adobe [!DNL Target] .
 
-Un edge è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo. Ogni nodo Edge contiene tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e per tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono instradate al nodo Edge più vicino. Per ulteriori informazioni, vedi [La rete](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) periferica in *How Adobe[!DNL Target]funziona*.
+Un edge è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo. Ogni nodo Edge contiene tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e per tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono instradate al nodo Edge più vicino. Per ulteriori informazioni, vedere [La rete](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) periferica in *Come funziona  Adobe[!DNL Target]*.
 
-Se necessario, potete elencare i nodi [!DNL Target] dei bordi.
+Se necessario, potete  i nodi [!DNL Target] dei bordi inserire nell&#39;elenco Consentiti.
 
 Il seguente elenco include gli host correnti:
 
