@@ -1,10 +1,11 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
 title: Targeting automatico
+feature: null
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 6aab753a746a3473fccf3d1e5e1c1a017dc3f6f4
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3610'
 ht-degree: 85%
@@ -40,7 +41,7 @@ There are a few important considerations to keep in mind when using [!UICONTROL 
 * Non puoi passare dall’Allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico] e viceversa durante un’attività in corso.
 * Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico servito in modo casuale rispetto all&#39;invio di tutto il traffico all&#39;esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
 
-   Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o per esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
+   Il traffico da un secondo set di modelli è costruito per ciascun gruppo di modellazione (AP) o esperienza (AT). Per ciascuno di questi modelli, vengono presi in considerazione hit e conversioni in tutti gli ambienti.
 
    Le richieste saranno quindi servite con lo stesso modello, indipendentemente dall&#39;ambiente, ma la pluralità di traffico dovrebbe provenire dall&#39;ambiente predefinito per garantire che l&#39;esperienza vincente complessiva identificata sia coerente con il comportamento del mondo reale.
 
