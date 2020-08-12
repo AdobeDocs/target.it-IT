@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;experience performance report
 description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 title: Rapporto Prestazioni Esperienza (MVT)
+feature: null
 uuid: ca72e933-2ad3-44e1-893f-7b65c474704b
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '325'
+ht-degree: 99%
 
 ---
 
@@ -33,7 +37,7 @@ Puoi scegliere di visualizzare le cinque esperienze migliori o peggiori, oppure 
 
 Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visualizzato ogni esperienza, così come altre informazioni rilevanti per la metrica di successo.
 
-## Video di formazione: Creare un test MVT Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Creare un test MVT ![Badge di esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 
