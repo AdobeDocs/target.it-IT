@@ -2,10 +2,14 @@
 keywords: audience;select audience;choose audience;Selectors
 description: Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
 title: Selezionare il pubblico
+feature: null
 topic: Standard
 uuid: 057c3c28-15fe-47c9-91c3-c67af0898942
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '426'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +50,7 @@ Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Utilizzo del pubblico in Adobe Target (6:21) badge ![Panoramica](/help/assets/overview.png)
+### Utilizzo del pubblico in Adobe Target (6:21) ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
