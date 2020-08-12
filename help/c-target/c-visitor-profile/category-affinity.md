@@ -1,11 +1,15 @@
 ---
-keywords: affinità;affinità tra categorie
+keywords: affinity;category affinity
 description: La funzionalità di affinità tra categorie in Adobe Target acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 title: Utilizzare l’affinità tra categorie in Adobe Target
+feature: null
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '830'
+ht-degree: 98%
 
 ---
 
@@ -111,14 +115,14 @@ Questa sezione contiene le seguenti informazioni:
    Per copiare un pubblico esistente, porta il cursore del mouse sul pubblico desiderato nellʼelenco Tipi di pubblico, quindi fai clic sullʼicona Copia. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Inserisci un nome descrittivo per il pubblico.
-1. Fai clic su **[!UICONTROL + Aggiungi regola]** &gt; **[!UICONTROL Profilo visitatore]**.
+1. Fai clic su **[!UICONTROL + Aggiungi regola]** > **[!UICONTROL Profilo visitatore]**.
 1. Nellʼelenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona **[!UICONTROL Affinità tra categorie]**.
 
-   ![Profilo visitatore &gt; Affinità tra categorie](assets/affinity.png)
+   ![Profilo visitatore > Affinità tra categorie](assets/affinity.png)
 
 1. Seleziona la categoria desiderata:
 
-   ![Affinità tra categorie &gt; Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Affinità tra categorie > Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
 
    Le categorie includono:
 
@@ -128,7 +132,8 @@ Questa sezione contiene le seguenti informazioni:
    * Terza categoria
    * Quarta categoria
    * Quinta categoria
-   Le opzioni "Categoria preferita" e "Prima categoria" sono equivalenti.
+
+   Le opzioni &quot;Categoria preferita&quot; e &quot;Prima categoria&quot; sono equivalenti.
 
 1. Scegli il valutatore:
 
