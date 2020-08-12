@@ -2,11 +2,12 @@
 keywords: implement target;implementation;implement at.js;tag manager
 description: Informazioni sull’implementazione di Adobe Target senza l’utilizzo di un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
 title: Implementare Target senza un sistema per la gestione dei tag
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 3ecc041a-42d8-40f8-90be-7856e1d3d080
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1537'
 ht-degree: 66%
@@ -107,7 +108,7 @@ Per ulteriori informazioni, consulta [Privacy](/help/c-implementing-target/c-con
 
 >[!NOTE]
 >
->L&#39;opzione Supporto browser legacy era disponibile in at.js versione 0.9.3 e precedenti. Questa opzione è stata rimossa in at.js versione 0.9.4. Per un elenco di browser supportati da at.js, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>I browser legacy sono browser meno recenti che non supportano completamente la condivisione delle risorse tra diverse origini (Cross Origin Resource Sharing, CORS). Questi browser includono: Internet Explorer nelle versioni precedenti alla versione 11; Safari versione 6 e precedenti. Se l&#39;opzione Supporto browser legacy è stata disabilitata, Target non ha distribuito contenuti o registrato visitatori nei rapporti su questi browser. Se questa opzione è stata attivata, si consiglia di garantire la qualità tra i browser più datati per garantire una buona esperienza cliente.
+>L&#39;opzione Supporto browser legacy era disponibile in at.js versione 0.9.3 e precedenti. Questa opzione è stata rimossa in at.js versione 0.9.4. Per un elenco di browser supportati da at.js, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md).<br>I browser legacy sono browser meno recenti che non supportano completamente la condivisione delle risorse tra diverse origini (Cross Origin Resource Sharing, CORS). Questi browser includono: Internet Explorer nelle versioni precedenti alla versione 11; Safari versione 6 e precedenti. Se l&#39;opzione Supporto browser legacy è stata disabilitata, Target non distribuiva il contenuto o non contava i visitatori nei rapporti su questi browser. Se questa opzione è stata attivata, si consiglia di garantire la qualità tra i browser più datati per garantire una buona esperienza cliente.
 
 ## Scaricare at.js {#concept_1E1F958F9CCC4E35AD97581EFAF659E2}
 
