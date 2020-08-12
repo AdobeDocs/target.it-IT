@@ -2,9 +2,13 @@
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: I test multivariati in Adobe Target richiedono una certa pianificazione prima di poter creare un test di successo.
 title: Pianificare un test multivariato in Adobe Target
+feature: null
 uuid: f286d08a-e11d-4a39-8c62-3eba99885299
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '288'
+ht-degree: 97%
 
 ---
 
@@ -23,7 +27,7 @@ Pianifica il test degli elementi sulla pagina che produrranno probabilmente risu
 
 Infine, prima di creare il test, devi creare il contenuto da verificare. Assicurati di comprendere le differenze nel contenuto previsto per ogni offerta, e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test.
 
-## Video di formazione:Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 
