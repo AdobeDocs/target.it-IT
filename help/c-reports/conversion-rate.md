@@ -2,10 +2,11 @@
 keywords: Targeting
 description: Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità.
 title: Tasso di conversione
+feature: null
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -147,8 +148,8 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
-* [Creare una richiesta di Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best practice di Data warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Creare una richiesta di Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/t-dw-create-request.html)
+* [Best practice di Data Warehouse](https://docs.adobe.com/content/help/en/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
