@@ -2,9 +2,13 @@
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
 description: Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti specializzati.
 title: Rapporto di riepilogo per Personalizzazione automatizzata
+feature: null
 uuid: 959b6814-9686-4741-8a79-5957e64f6209
 translation-type: tm+mt
-source-git-commit: 72f1a92f299286e14211f0c8773ba7718d779198
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '276'
+ht-degree: 100%
 
 ---
 
@@ -17,7 +21,7 @@ Per gli utenti di Personalizzazione automatizzata sono disponibili rapporti spec
 >
 >La personalizzazione automatizzata è disponibile come parte della soluzione [!DNL Target Premium]. Non è disponibile in [!DNL Target Standard] senza una licenza [Target Premium](/help/c-intro/intro.md#premium).
 
-1. Fai clic su **[!UICONTROL Attività]**, fai clic sull’attività di[!UICONTROL Personalizzazione automatica]desiderata dall’elenco, quindi fai clic sulla scheda**[!UICONTROL  Rapporti]**.
+1. Fai clic su **[!UICONTROL Attività]**, fai clic sull’attività di [!UICONTROL Personalizzazione automatica] desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 
    Se hai numerose attività, puoi filtrare l’elenco selezionando [!UICONTROL Personalizzazione automatizzata] dall’elenco a discesa [!UICONTROL Tipo].
 
