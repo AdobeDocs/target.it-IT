@@ -1,12 +1,16 @@
 ---
-keywords: parametri mbox globali;targetPageParams;stringa di query;array;json;dtm;Dynamic Tag Management
+keywords: global mbox parameters;targetPageParams;query string;array;json;dtm;dynamic tag management
 description: La funzione targetPageParams di JavaScript viene utilizzata per trasmettere parametri alla mbox globale. È utile in tutte le situazioni in cui occorre passare a Target informazioni di targeting o di contesto aggiuntive.
 title: Trasmettere i parametri a una mbox globale
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '386'
+ht-degree: 97%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 
 La funzione targetPageParams di JavaScript viene utilizzata per trasmettere parametri alla mbox globale. È utile in tutte le situazioni in cui occorre passare a Target informazioni di targeting o di contesto aggiuntive.
 
-Ad esempio, in un'attività di Consigli, rappresenta il prodotto o la categoria corrente che stai osservando con i parametri.
+Ad esempio, in un&#39;attività di Consigli, rappresenta il prodotto o la categoria corrente che stai osservando con i parametri.
 
 Il codice per chiamare la funzione JavaScript deve essere sulla pagina prima della mbox globale, sia che la mbox globale si attici come una parte di mbox.js o sia inclusa manualmente nel codice della pagina.
 
@@ -46,7 +50,7 @@ p1=v1&p2=v2&p3=hello%20world
 
    In questo esempio, p3 ha il valore `hello world`, il cui URL è codificato.
 
-Quello che segue è un esempio dell'aspetto potenziale del codice per la pagina:
+Quello che segue è un esempio dell&#39;aspetto potenziale del codice per la pagina:
 
 ```
 <html> 
@@ -65,7 +69,7 @@ Quello che segue è un esempio dell'aspetto potenziale del codice per la pagina:
 </html>
 ```
 
-In questo esempio vengono inviati i seguenti dati all'edge della mbox:
+In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
 
 * p1=v1
 * p2=v2
@@ -81,7 +85,7 @@ In questo esempio vengono inviati i seguenti dati all'edge della mbox:
 
 I valori non devono avere la codifica URL. Ad esempio, se un valore contiene uno spazio, non è necessario codificare lo spazio.
 
-In questo esempio vengono inviati i seguenti dati all'edge della mbox:
+In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
 
 * a=1
 * b=2
@@ -108,7 +112,7 @@ JSON è una potente modalità di trasferimento dei parametri. Target utilizza le
 
 I valori non devono avere la codifica URL. Ad esempio, “San Francisco” non richiede la codifica dello spazio. Lo spazio è sufficiente.
 
-In questo esempio vengono inviati i seguenti dati all'edge della mbox:
+In questo esempio vengono inviati i seguenti dati all&#39;edge della mbox:
 
 * a=1
 * b=2
