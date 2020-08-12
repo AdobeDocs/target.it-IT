@@ -1,9 +1,13 @@
 ---
-keywords: Recommendations;intro;introduzione;webinar;demo
+keywords: Recommendations;intro;introduction;webinar;demo
 description: Introduzione alle attività Consigli di Adobe Target per visualizzare automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 title: Introduzione alle attività Consigli in Adobe Target
+feature: null
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2129'
+ht-degree: 96%
 
 ---
 
