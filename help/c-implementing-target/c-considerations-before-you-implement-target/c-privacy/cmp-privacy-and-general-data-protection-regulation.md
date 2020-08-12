@@ -1,11 +1,15 @@
 ---
-keywords: gdpr;rgpd;eu;unione europea;privacy;faq;domande frequenti;california consumer privacy act;ccpa;privacy;protezione dei dati;opt-out;opt out;amministrazione;regolamenti
+keywords: gdpr;eu;european union;privacy;faq;frequently asked questions;california consumer privacy act;ccpa;privacy;data protection;opt-out;opt out;government;regulation
 description: Informazioni sul regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea, sul California Consumer Privacy Act (CCPA) e altri requisiti internazionali sulla privacy, e come questi regolamenti influiscono sulla tua organizzazione e su Adobe Target.
 title: Informazioni sul regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea, sul California Consumer Privacy Act (CCPA) e altri requisiti internazionali sulla privacy, e come questi regolamenti influiscono sulla tua organizzazione e su Adobe Target.
+feature: null
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: bd6c30d868002f8c65b99065d83d51daf66c3b3e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2276'
+ht-degree: 93%
 
 ---
 
@@ -16,7 +20,7 @@ Informazioni sul regolamento generale sulla protezione dei dati (RGPD) dell’Un
 
 ## Privacy e Regolamento generale sulla protezione dei dati (RGPD) - Panoramica {#topic_DE567ECB6C944695AEE5073889F1AEA9}
 
-Il 25 maggio 2018 è entrato in vigore il regolamento RGPD dell’Unione Europea. Per ulteriori informazioni sulle implicazioni per l'utente, consultare [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
+Il 25 maggio 2018 è entrato in vigore il regolamento RGPD dell’Unione Europea. Per ulteriori informazioni sulle implicazioni per l&#39;utente, consultare [RGPD e la tua azienda](https://www.adobe.com/privacy/general-data-protection-regulation.html).
 
 Quando [!DNL Adobe] fornisce software e servizi alle aziende, [!DNL Adobe] agisce come Incaricato del trattamento dei dati, per ognuno dei dati personali trattati e memorizzati nell’ambito della fornitura di tali servizi. In qualità di Incaricato del trattamento dei dati, [!DNL Adobe] tratta i dati personali in conformità alle autorizzazioni e alle istruzioni dell’azienda (ad esempio, come stabilito nell’accordo con [!DNL Adobe]).
 
@@ -70,7 +74,7 @@ window.targetGlobalSettings = {
 Esistono tre scenari da considerare quando si utilizza l’opt-in:
 
 1. **Il tag di[!DNL Target]è pre-approvato tramite[!DNL Launch](oppure l’interessato ha già approvato[!DNL Target]in precedenza):** il tag di [!DNL Target] non viene trattenuto per il consenso e funziona come previsto.
-1. **Il tag di[!DNL Target]NON è pre-approvato e`bodyHidingEnabled`è FALSE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Dopo aver ricevuto il consenso, [!DNL Target] viene chiamato e il contenuto personalizzato è disponibile per l’interessato (il visitatore). Poiché solo i contenuti predefiniti sono disponibili prima del consenso, è importante sfruttare una strategia appropriata, come ad esempio una pagina iniziale che copre qualsiasi parte della pagina o del contenuto che potrebbe essere personalizzata. Ciò garantisce che l'esperienza rimanga coerente per l'interessato (visitatore).
+1. **Il tag di[!DNL Target]NON è pre-approvato e`bodyHidingEnabled`è FALSE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Dopo aver ricevuto il consenso, [!DNL Target] viene chiamato e il contenuto personalizzato è disponibile per l’interessato (il visitatore). Poiché solo i contenuti predefiniti sono disponibili prima del consenso, è importante sfruttare una strategia appropriata, come ad esempio una pagina iniziale che copre qualsiasi parte della pagina o del contenuto che potrebbe essere personalizzata. Ciò garantisce che l&#39;esperienza rimanga coerente per l&#39;interessato (visitatore).
 1. **Il tag di[!DNL Target]NON è pre-approvato e`bodyHidingEnabled`è TRUE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Tuttavia, poiché `bodyHidingEnabled` è impostato su true, `bodyHiddenStyle` determina quale contenuto della pagina è nascosto fino a quando il tag di [!DNL Target] non viene attivato (o l’interessato rifiuta di effettuare l’opt-in, nel qual caso viene visualizzato il contenuto predefinito). Per impostazione predefinita, `bodyHiddenStyle` è impostato su `body { opacity:0;`}, che nasconde il tag HTML body. Di seguito si trova la configurazione di pagina consigliata affinché l’intero corpo della pagina, a eccezione della finestra di dialogo di gestione del consenso, sia nascosto inserendo il contenuto della pagina in un contenitore e la finestra di dialogo di gestione del consenso in un contenitore separato. Questa configurazione imposta [!DNL Target] affinché nasconda solo il contenitore del contenuto della pagina. Consulta la [documentazione di Launch per ulteriori informazioni su come configurare queste impostazioni](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    La configurazione consigliata della pagina per lo scenario 3 è:
@@ -129,8 +133,8 @@ Anche i profili dei visitatori di [!DNL Target] che sono stati inattivi per 90 g
 
 | ID utente | Tipo ID dello spazio dei nomi | ID dello spazio dei nomi | Definizione |
 |--- |--- |--- |--- |
-| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, precedentemente conosciuto come ID visitatore o Marketing Cloud ID. È possibile utilizzare l'API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
-| ID TnT/ID cookie(TNTID) | Standard | 9 | Identificativo di Target impostato come cookie nel browser del visitatore. È possibile utilizzare l'API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
+| Experience Cloud ID (ECID) | Standard | 4 | Adobe Experience Cloud ID, precedentemente conosciuto come ID visitatore o Marketing Cloud ID. È possibile utilizzare l&#39;API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
+| ID TnT/ID cookie(TNTID) | Standard | 9 | Identificativo di Target impostato come cookie nel browser del visitatore. È possibile utilizzare l&#39;API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
 | ID di terze parti/ID CRM (THIRDPARTYID) | Specifico di Target | N/D | Se si fornisce a Target il proprio CRM o altre informazioni di identificazione univoche per i propri clienti. |
 
 >[!NOTE]
@@ -147,9 +151,9 @@ Attualmente, [!DNL Adobe] non offre una soluzione per la gestione dei consensi, 
 
 For more information on GDPR, CCPA, and [!DNL Launch], see [The Adobe Privacy JavaScript Library and GDPR](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html). Inoltre, consulta la sezione precedente *Adobe Target e la funzionalità opt-in di Experience Platform Launch*.
 
-### AdobePrivacy.js invia informazioni all'API RGPD? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
+### AdobePrivacy.js invia informazioni all&#39;API RGPD? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
-[!DNL AdobePrivacy.js] *non* invia tali informazioni all'API. Farlo è compito del cliente. Questa libreria fornisce solo gli ID memorizzati nel browser per un visitatore specifico.
+[!DNL AdobePrivacy.js] *non* invia tali informazioni all&#39;API. Farlo è compito del cliente. Questa libreria fornisce solo gli ID memorizzati nel browser per un visitatore specifico.
 
 ### Che cosa elimina l’azione removeIdentities? {#section_D3A1591EA1B84C499CE1563DEAF32448}
 
@@ -203,11 +207,11 @@ Oltre ai requisiti del Servizio centrale di privacy, un messaggio RGPD o CCPA va
 | Stato richiesta | Messaggio risposta Target | Scenario |
 |--- |--- |--- |
 | Processing (Completa elaborazione) | Processing (Completa elaborazione) | Target ha ricevuto la richiesta RGPD o CCPA e la sta elaborando. |
-| Completa | Non applicabile; contesto aziendale non applicabile | L’ID IMS nella richiesta RGPD o CCPA non viene mappato su alcun client di Target.<br>Tieni presente che alcune società hanno più ID IMS. Devi inviare l'ID IMS in cui è stato fornito Target. |
+| Completa | Non applicabile; contesto aziendale non applicabile | L’ID IMS nella richiesta RGPD o CCPA non viene mappato su alcun client di Target.<br>Tieni presente che alcune società hanno più ID IMS. Devi inviare l&#39;ID IMS in cui è stato fornito Target. |
 | Completa | Non applicabile; contesto utente non trovato | L’ID fornito nella richiesta RGPD o CCPA per il visitatore o l’oggetto dati specifico non è presente nell’archivio dei profili di Target.<br>Nota che questo risultato si ottiene anche se si tenta di inviare un tipo di ID spazio dei nomi non supportato da Target (vedi sopra per gli ID supportati). |
-| Errore | Messaggio di errore (i dettagli dipendono dal tipo di errore) | Errore durante il recupero o l'eliminazione del profilo dati richiesto.<br>Errore durante il caricamento su Azure della richiesta di accesso. |
+| Errore | Messaggio di errore (i dettagli dipendono dal tipo di errore) | Errore durante il recupero o l&#39;eliminazione del profilo dati richiesto.<br>Errore durante il caricamento su Azure della richiesta di accesso. |
 
-### Quale risposta invia Target all'API RGPD per una richiesta di accesso? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
+### Quale risposta invia Target all&#39;API RGPD per una richiesta di accesso? {#section_D96D8FBEAF9C4BDAA638215FAFE00763}
 
 Le risposte alle richieste di accesso ai dati contengono un riassunto del profilo di [!DNL Target] per il visitatore in questione. Si noti che questo ritorno è inviato all’API RGPD di [!DNL Experience Cloud], che a sua volta invia una risposta ai Titolari del trattamento dei dati.
 
@@ -256,7 +260,7 @@ Un esempio di risposta API di accesso a [!DNL Target] potrebbe essere il seguent
 | imsOrgID | Fornisce un identificatore univoco per la tua azienda. |
 | namespace | Denominato anche fonte di dati. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD o CCPA per Target?” in questo argomento. |
 | type | Tipo di ID per il quale è stato richiesto l’accesso ai dati RGPD o CCPA. Target accetta diversi tipi di ID, alcuni dei quali sono standard e altri specifici di Target. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD o CCPA per Target?” in questo argomento. |
-| value | L'ID spazio dei nomi/sorgente dei dati. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD o CCPA per Target?” per i valori accettati. |
+| value | L&#39;ID spazio dei nomi/sorgente dei dati. Consulta “Quali ID sono supportati per aiutare i clienti a completare una richiesta di accesso e cancellazione RGPD o CCPA per Target?” per i valori accettati. |
 | integration code | I codici di integrazione sono nomi semplici per le origini dati e consentono di tracciarle più facilmente rispetto agli ID delle origini dati. |
 
 Quando vengono forniti più valori per identificare i profili, ogni identificatore valido ha un file di profilo. I file di profilo sono inviati al Azure Blob centrale per RGPD attraverso l’API centrale RGPD, sotto forma di risposta JSON per il profilo di [!DNL Target].
@@ -282,8 +286,8 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 | Campo | Descrizione |
 |--- |--- |
 | Sample_Parameter | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, è stato caricato un parametro nel profilo di [!DNL Target], utilizzando l’API di aggiornamento del profilo. Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
-| user.ReturnTimeOfDay | Questo campo standard include l'ora del giorno dell'ultima visita di ritorno dell'utente. |
-| firstSessionStart | Questo campo standard include l'ora del giorno in cui è iniziata la prima sessione dell'utente. |
+| user.ReturnTimeOfDay | Questo campo standard include l&#39;ora del giorno dell&#39;ultima visita di ritorno dell&#39;utente. |
+| firstSessionStart | Questo campo standard include l&#39;ora del giorno in cui è iniziata la prima sessione dell&#39;utente. |
 | user.sessionCountScript | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, uno script di profilo incrementa il numero di sessioni che il visitatore ha effettuato sul sito del Titolare del trattamento dei dati. Per ulteriori informazioni, consulta [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md). |
 
 >[!NOTE]
