@@ -1,10 +1,14 @@
 ---
-keywords: regole di inclusione;criteri di inclusione;consigli;creazione di nuovi criteri;promozione;promozioni;filtro dinamico;dinamico;valori vuoti;ignorare regola di filtro;filtro statico;filtro per valore;corrispondenza attributo entità;corrispondenza attributo profilo;parametro corrispondente;filtro per valore;filtro statico
-description: Informazioni sulla creazione di regole di inclusione in Adobe Target Recommendations per criteri e promozioni e sull'aggiunta di ulteriori regole di filtro dinamiche o statiche per ottenere risultati migliori.
-title: Utilizzare regole di inclusione dinamiche e statiche in Adobe Target Recommendations
+keywords: inclusion rules;inclusion criteria;recommendations;create new criteria;promotion;promotions;dynamic filtering;dynamic;empty values;ignore filtering rule;static filter;filter by value;entity attribute matching;profile attribute matching;parameter matching;filter by value;static filter
+description: Informazioni sulla creazione di regole di inclusione in  Adobe Target Recommendations per criteri e promozioni e sull'aggiunta di ulteriori regole di filtro dinamiche o statiche per ottenere risultati migliori.
+title: Utilizzare regole di inclusione dinamiche e statiche in  Adobe Target Recommendations
+feature: null
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1453'
+ht-degree: 75%
 
 ---
 
@@ -37,7 +41,7 @@ Nella tabella seguente sono elencati i tipi di opzioni di filtro per criteri e p
 |--- |--- |--- |
 | **Filtraggio dinamico** | **Corrispondenza attributo di entità:** consente di filtrare in modo dinamico confrontando un pool di potenziali articoli consigliati con un articolo specifico con cui gli utenti hanno interagito.<br>Ad esempio, per consigliare solo gli articoli con lo stesso marchio dell’articolo corrente. | uguale a<br>non uguale a<br>compreso tra<br>contiene<br>non contiene<br>inizia con<br>termina con<br>valore presente<br>valore non presente<br>maggiore o uguale a<br>minore o uguale a |
 |  | **Corrispondenza attributo profilo:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore presente nel profilo dell’utente.<br>Ad esempio, per consigliare solo gli articoli del marchio preferito del visitatore. | uguale a<br> non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
-|  | **Corrispondenza parametro:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).<br>Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina “settore”.<br>**Importante:** se l’attività è stata creata prima del 31 ottobre 2016, la sua consegna avrà esito negativo se si utilizza il filtro “Corrispondenza parametro”. Per risolvere questo problema:<ul><li>Crea una nuova attività e aggiungi i relativi criteri.</li><li>Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.</li><li>Rimuovi il filtro “Corrispondenza parametro” dai criteri.</li></ul> | è uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
+|  | **Corrispondenza parametro:** consente di filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).<br>Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina “settore”.<br>**Importante:**se l’attività è stata creata prima del 31 ottobre 2016, la sua consegna avrà esito negativo se si utilizza il filtro “Corrispondenza parametro”. Per risolvere questo problema:<ul><li>Crea una nuova attività e aggiungi i relativi criteri.</li><li>Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.</li><li>Rimuovi il filtro “Corrispondenza parametro” dai criteri.</li></ul> | è uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>maggiore o uguale a<br>minore o uguale a<br>compreso tra |
 | **Filtra per valore** | **Filtro statico:** consente di immettere manualmente uno o più valori statici da utilizzare come filtro.<br>Ad esempio, per consigliare solo i contenuti con una classificazione MPAA di “G” o “PG”. | uguale a<br>non uguale a<br>contiene<br>non contiene<br>inizia con<br>termina con<br>valore presente<br>valore non presente<br>maggiore o uguale a<br>minore o uguale a |
 
 >[!NOTE]
@@ -48,21 +52,21 @@ Nella tabella seguente sono elencati i tipi di opzioni di filtro per criteri e p
 
 I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle promozioni statici; producono risultati migliore e un maggiore coinvolgimento del visitatore. I seguenti esempi ti daranno idee su come utilizzare le promozioni dinamiche nelle tue attività di marketing:
 
-**È uguale a:** utilizzando l'operatore “è uguale a” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri oggetti appartenenti a:
+**È uguale a:** utilizzando l&#39;operatore “è uguale a” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri oggetti appartenenti a:
 
 * lo stesso marchio
 * la stessa categoria
 * la stessa categoria E lo stesso marchio
 * lo stesso store
 
-**È diverso da:** utilizzando l'operatore “è diverso da” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:
+**È diverso da:** utilizzando l&#39;operatore “è diverso da” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:
 
 * una serie TV diversa
 * un genere diverso
 * una serie di prodotti diversi
 * un ID di stile diverso
 
-**È tra:** utilizzando l'operatore “è tra” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:
+**È tra:** utilizzando l&#39;operatore “è tra” nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:
 
 * più costosi
 * meno costosi
@@ -72,9 +76,9 @@ I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle p
 
 ## Gestione dei valori vuoti durante l’applicazione di filtri per corrispondenza attributo entità, attributo profilo e parametri {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-È possibile scegliere diverse opzioni per gestire i valori vuoti durante l'applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza parametro per i criteri e le promozioni di uscita.
+È possibile scegliere diverse opzioni per gestire i valori vuoti durante l&#39;applicazione di filtri per corrispondenza attributo entità, corrispondenza attributo profilo e corrispondenza parametro per i criteri e le promozioni di uscita.
 
-In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L'elenco a discesa “Se *x* è vuoto” consente di scegliere l'azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
+In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L&#39;elenco a discesa “Se *x* è vuoto” consente di scegliere l&#39;azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
 
 ![](assets/empty_value.png)
 
@@ -82,15 +86,15 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| Ignora questa regola di filtro | Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l'azione predefinita per Corrispondenza attributo profilo e Corrispondenza parametro.<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
-| Non mostrare alcun risultato per questo criterio | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l'azione predefinita per Corrispondenza attributo entità.<br>Corrisponde al modo in cui Target gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| Ignora questa regola di filtro | Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l&#39;azione predefinita per Corrispondenza attributo profilo e Corrispondenza parametro.<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| Non mostrare alcun risultato per questo criterio | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l&#39;azione predefinita per Corrispondenza attributo entità.<br>Corrisponde al modo in cui Target gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
 | Usa un valore statico | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
 
 ## Esempi di corrispondenza attributi profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
 
 [!UICONTROL La corrispondenza] attributi profilo consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
 
-**Esempio 1: Consigliando gli elementi dal marchio** preferito dell'utente. Ad esempio, potete utilizzare l'opzione Corrispondenza [!UICONTROL attributi] profilo per creare una regola che consiglia gli elementi solo se il marchio è uguale al valore o al testo memorizzato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
+**Esempio 1: Consigliando gli elementi dal marchio** preferito dell&#39;utente. Ad esempio, potete utilizzare l&#39;opzione Corrispondenza [!UICONTROL attributi] profilo per creare una regola che consiglia gli elementi solo se il marchio è uguale al valore o al testo memorizzato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
 
 ```
 Profile Attribute Matching
@@ -99,7 +103,7 @@ brand - equals - the value/text stored in - profile.favoritebrand
 
 **Esempio 2: Associare i lavori a chi cerca** lavoro Supponiamo che tu stia cercando di abbinare i lavori a chi cerca lavoro. Si consiglia solo i lavori che si trovano nella stessa città di chi cerca lavoro.
 
-Potete utilizzare le regole di inclusione per far corrispondere la posizione di un cercatore di lavoro dal profilo del visitatore a un elenco di processi, come nell'esempio seguente:
+Potete utilizzare le regole di inclusione per far corrispondere la posizione di un cercatore di lavoro dal profilo del visitatore a un elenco di processi, come nell&#39;esempio seguente:
 
 ```
 Profile Attribute Matching
@@ -108,9 +112,9 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 ## Esempi di corrispondenza attributi entità
 
-[!UICONTROL La corrispondenza] attributi entità consente di consigliare solo gli elementi che corrispondono a un attributo dell'elemento che l'utente sta visualizzando, l'elemento visualizzato più di recente dall'utente, l'elemento acquistato più di recente dall'utente, l'elemento visualizzato più di frequente dall'utente o da un elemento memorizzato in un attributo personalizzato nel profilo del visitatore, come negli esempi seguenti.
+[!UICONTROL La corrispondenza] attributi entità consente di consigliare solo gli elementi che corrispondono a un attributo dell&#39;elemento che l&#39;utente sta visualizzando, l&#39;elemento visualizzato più di recente dall&#39;utente, l&#39;elemento acquistato più di recente dall&#39;utente, l&#39;elemento visualizzato più di frequente dall&#39;utente o da un elemento memorizzato in un attributo personalizzato nel profilo del visitatore, come negli esempi seguenti.
 
-**Esempio 3: Rivendita a un prodotto** più costoso Supponiamo che tu sia un rivenditore di abbigliamento e che desideri incoraggiare gli utenti a considerare articoli più costosi e quindi più redditizi. È possibile utilizzare gli operatori "uguale" e "è tra" per promuovere elementi più costosi appartenenti alla stessa categoria e allo stesso marchio. Ad esempio, un visitatore che vede un'azienda in esecuzione può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che guarda scarpe da corsa.
+**Esempio 3: Rivendita a un prodotto** più costoso Supponiamo che tu sia un rivenditore di abbigliamento e che desideri incoraggiare gli utenti a considerare articoli più costosi e quindi più redditizi. È possibile utilizzare gli operatori &quot;uguale&quot; e &quot;è tra&quot; per promuovere elementi più costosi appartenenti alla stessa categoria e allo stesso marchio. Ad esempio, un visitatore che vede un&#39;azienda in esecuzione può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che guarda scarpe da corsa.
 
 ```
 Entity Attribute Matching
@@ -123,7 +127,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-**Esempio 4: Promozione dei prodotti** con etichette privateÈ possibile combinare filtri dinamici e statici per promuovere i prodotti con etichette private. Ad esempio, una società di fornitura di uffici può promuovere le cartucce toner del marchio della casa dell'azienda per condurre una vendita più redditizia per un visitatore che guarda il toner — e promuovere penne del marchio della casa dell'azienda per guidare una vendita più redditizia per un visitatore che guarda le penne.
+**Esempio 4: Promozione dei prodotti** con etichette privateÈ possibile combinare filtri dinamici e statici per promuovere i prodotti con etichette private. Ad esempio, una società di fornitura di uffici può promuovere le cartucce toner del marchio della casa dell&#39;azienda per condurre una vendita più redditizia per un visitatore che guarda il toner — e promuovere penne del marchio della casa dell&#39;azienda per guidare una vendita più redditizia per un visitatore che guarda le penne.
 
 ```
 Entity Attribute Matching
