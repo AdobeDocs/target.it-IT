@@ -2,9 +2,13 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
 title: Impostazioni dei rapporti
+feature: null
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a210ba64a0e7d3b04f1bfb8b0f158b2abb18ce3f
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1878'
+ht-degree: 83%
 
 ---
 
@@ -161,8 +165,8 @@ Potete visualizzare il rapporto in vari formati, a seconda del tipo di attività
 
 * **Visualizzazione** tabella: Fate clic sull’icona Visualizzazione **** tabella per visualizzare il rapporto come una tabella.
 * **Visualizzazione** grafico: Fate clic sull’icona Visualizzazione **** grafico per visualizzare il rapporto come grafico.
-* **Segmenti** automatizzati: (disponibili solo per le attività di Automated Personalization (AP) e di Auto-Target (AT)).) Fare clic sull&#39;icona **Segmenti automatizzati per visualizzare il rapporto [dei segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati.
-* **Attributi** importanti: (Disponibile solo per le attività di Automated Personalization (AP) e di Auto-Target (AT).) Fai clic sull&#39;icona **[!UICONTROL Important Attributes (Attributi] importanti) per visualizzare il rapporto [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Importanti.
+* **Segmenti** automatizzati: (Disponibile solo per  attività Automated Personalization (AP) e Auto-Target (AT).) Fare clic sull&#39;icona **Segmenti automatizzati per visualizzare il rapporto [dei segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati.
+* **Attributi** importanti: (Disponibile solo per  attività Automated Personalization (AP) e Auto-Target (AT).) Fai clic sull&#39;icona **[!UICONTROL Important Attributes (Attributi] importanti) per visualizzare il rapporto [](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)Importanti.
 
 ## Incremento medio, limiti di incremento e intervallo di affidabilità {#section_0D87615B1D3344B3858BA494EEBC16FB}
 
@@ -235,7 +239,7 @@ Sono disponibili quattro modalità per le attività di targeting automatico: con
 
 L’ordine predefinito in cui viene tracciato il grafico è il seguente:
 
-* **Test A/B (tra cui allocazione automatica e Automated Personalization (Personalizzazione automatizzata)**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
+* **Test A/B (inclusi allocazione automatica e  Automated Personalization)**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
 * **Targeting delle esperienze (XT)**: Ordine delle esperienze nell&#39;attività.
 * **Test multivariato (MVT)**: Alfabetico in base al nome dell&#39;esperienza.
 * **Recommendations**: Ordine di creazione dell&#39;esperienza, in ordine decrescente.
