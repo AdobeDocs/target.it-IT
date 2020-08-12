@@ -2,10 +2,14 @@
 keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 title: Domande frequenti su destinazioni e pubblico
+feature: null
 topic: Standard
 uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: 0f77ca5d8d18bca17250baecd496c4d2fe43fa6c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '934'
+ht-degree: 69%
 
 ---
 
@@ -16,7 +20,7 @@ Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi d
 
 ## In che modo Target valuta gli URL nel targeting? {#url}
 
-In Target gli URL vengono valutati in modo diverso a seconda se utilizzate il targeting degli URL del pubblico durante la creazione di un'attività o se utilizzate il targeting URL durante la creazione di un'audience.
+In Target gli URL vengono valutati in modo diverso a seconda se utilizzate il targeting degli URL del pubblico durante la creazione di un&#39;attività o se utilizzate il targeting URL durante la creazione di un&#39;audience.
 
 Considerate il seguente URL:
 
@@ -24,25 +28,25 @@ Considerate il seguente URL:
 
 ### Targeting URL pubblico
 
- Per applicare il targeting URL del pubblico, durante la creazione di un'attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre fasi) fate clic sull'icona a forma di ingranaggio, fate clic su Distribuzione pagina, quindi specificate l'URL desiderato.
+Per applicare il targeting URL del pubblico, durante la creazione di un&#39;attività, nella pagina Esperienze (passaggio uno del flusso di lavoro guidato in tre fasi) fate clic sull&#39;icona a forma di ingranaggio, fate clic su Distribuzione pagina, quindi specificate l&#39;URL desiderato.
 
 ![URL distribuzione pagina](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l'URL corrisponde, Target non considera ulteriori logica. Nell'URL precedente, se l'attività è impostata su Attivato, l'URL corrisponde per `www.example.com`i seguenti URL, perché il targeting dell'URL del pubblico non è agnostico alla query:
+Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l&#39;URL corrisponde, Target non considera ulteriori logica. Nell&#39;URL precedente, se l&#39;attività è impostata su Attivato, l&#39;URL corrisponde per `www.example.com`i seguenti URL, perché il targeting dell&#39;URL del pubblico non è agnostico alla query:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
 * `www.example.com?query=nothing&qa=true&stuff=random&product=shoes&height=superTall`
 
-Oltre al targeting dell'audience sull'URL, potete anche specificare valori specifici che possono essere presenti nella query.
+Oltre al targeting dell&#39;audience sull&#39;URL, potete anche specificare valori specifici che possono essere presenti nella query.
 
 ### Targeting URL
 
- Per applicare il targeting URL, durante la creazione di un'audience, fate clic su Aggiungi regola, fate clic su Pagine del sito, selezionate un'opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), selezionate URL dal secondo elenco a discesa, specificate un valutatore, quindi specificate l'URL desiderato.
+Per applicare il targeting URL, durante la creazione di un&#39;audience, fate clic su Aggiungi regola, fate clic su Pagine del sito, selezionate un&#39;opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), selezionate URL dal secondo elenco a discesa, specificate un valutatore, quindi specificate l&#39;URL desiderato.
 
-![Pagine del sito &gt; Pagina corrente &gt; URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
+![Pagine del sito > Pagina corrente > URL](/help/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
-Il targeting degli URL trasforma l'URL in un set di regole da valutare:
+Il targeting degli URL trasforma l&#39;URL in un set di regole da valutare:
 
 * Dominio URL = `example.com`
 * Percorso = path1/path2/path3
@@ -65,7 +69,7 @@ la prima istanza del `Category` parametro viene valutata e il secondo `Category`
 
 ## Quando creo un pubblico, perché i tipi di pubblico predefiniti nella libreria di Target si trovano in altre categorie? {#section_9EBF5B0F9DF94168A15B92B905CCF7E0}
 
-I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di pubblico legacy e sono presenti in altre categorie. Ad esempio, per il pubblico legacy Libreria di Target &gt; Nuovi visitatori, è presente una controparte aggiornata: Profilo visitatore &gt; Nuovo visitatore.
+I tipi di pubblico predefiniti nella categoria Libreria di Target sono tipi di pubblico legacy e sono presenti in altre categorie. Ad esempio, per il pubblico legacy Libreria di Target > Nuovi visitatori, è presente una controparte aggiornata: Profilo visitatore > Nuovo visitatore.
 
 Come best practice, utilizza i tipi di pubblico più recenti, perché offrono prestazioni migliori. Poiché alcuni clienti potrebbero utilizzare tipi di pubblico predefiniti legacy, questi non sono stati rimossi dall’interfaccia di Target.
 
@@ -83,7 +87,7 @@ Ad esempio, nellʼillustrazione seguente, un utente in California che utilizza u
 
 ## Perché esistono nomi diversi per uno stesso pubblico in Target, Adobe Audience Manager (AAM) e nella libreria Pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 
-I nomi del pubblico in [!DNL Target] sono univoci. Tuttavia, in [!DNL AAM] e [!DNL Audience Library], è possibile usare lo stesso nome per più tipi di pubblico (se si trovano in cartelle diverse). Quando [!DNL Target] rileva un nome di pubblico che corrisponde a un pubblico [!DNL AAM] o [!DNL Audience Library], [!DNL Target] aggiunge “#&lt;numero&gt;” al nome.
+I nomi del pubblico in [!DNL Target] sono univoci. Tuttavia, in [!DNL AAM] e [!DNL Audience Library], è possibile usare lo stesso nome per più tipi di pubblico (se si trovano in cartelle diverse). Quando [!DNL Target] rileva un nome di pubblico che corrisponde a un pubblico [!DNL AAM] o [!DNL Audience Library], [!DNL Target] aggiunge “#&lt;numero>” al nome.
 
 Ad esempio, potresti vedere i seguenti tipi di pubblico: “Utenti PC” (in [!DNL AAM]) e “Utenti PC #1” (in [!DNL Target]).
 
@@ -101,7 +105,7 @@ Le attività di personalizzazione automatizzata vengono valutate una volta per s
 
 ## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nell’interfaccia utente di Target? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
-A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell'interfaccia utente di Target.
+A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell&#39;interfaccia utente di Target.
 
 ## Le stringhe che rappresentano numeri (compresi i numeri a virgola mobile) sono considerate numeri.{#strings-that-represent-numbers}
 
