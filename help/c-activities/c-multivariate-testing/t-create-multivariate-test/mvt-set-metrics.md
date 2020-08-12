@@ -2,10 +2,11 @@
 keywords: multivariate;mvt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un test multivariato per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
+feature: null
 solution: Target,standard
 uuid: 0fb297ba-f1c3-4139-ac37-7fa0bf2ac308
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '310'
 ht-degree: 99%
@@ -29,6 +30,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    * Conversione
    * Ricavi
    * Coinvolgimento
+
    È possibile utilizzare una qualsiasi delle metriche di successo predefinite, o crearne una personalizzata. È inoltre possibile contrassegnare una metrica di successo come metrica principale. Le schede dei rapporti e di Experience Cloud per impostazione predefinita mostrano la metrica primaria, se è stata impostata.
 1. Specifica le impostazioni per le metriche.
 
