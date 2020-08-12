@@ -1,22 +1,26 @@
 ---
 keywords: experience preview;experience urls;generate urls;view experience urls
-description: Gli URL di anteprima esperienza possono essere generati per le attività di Automated Personalization (Personalizzazione automatizzata) di Target per visualizzare il contenuto dell'esperienza direttamente sul sito prima che l'attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
-title: Anteprima delle attività di Automated Personalization (Personalizzazione automatizzata) con gli URL di anteprima dell'esperienza
+description: Gli URL di anteprima esperienza possono essere generati per le attività di Target  Automated Personalization per visualizzare il contenuto dell'esperienza direttamente sul sito prima che l'attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
+title: Anteprima delle attività Personalizzazione automatizzata con URL di anteprima dell’esperienza
+feature: null
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 4ab572a0466381854d70eb47e0fc0b4a2874b833
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '786'
+ht-degree: 65%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview Automated Personalization (Anteprima delle attività di Automated Personalization) con gli URL di anteprima dell&#39;esperienza{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![PREMIUM](/help/assets/premium.png) Preview  attività Automated Personalization con URL di anteprima esperienza{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
-Gli URL di anteprima esperienza possono essere generati per le attività di Automated Personalization (Personalizzazione automatizzata) di Target per visualizzare il contenuto dell&#39;esperienza direttamente sul sito prima che l&#39;attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
+Gli URL di anteprima esperienza possono essere generati per le attività di Target  Automated Personalization per visualizzare il contenuto dell&#39;esperienza direttamente sul sito prima che l&#39;attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
 
 >[!NOTE]
 >
->Gli URL di anteprima esperienza per Automated Personalization (Personalizzazione automatizzata) sono diversi dalla modalità di QA dell&#39;attività. La modalità di controllo qualità delle attività consente di creare URL per altri tipi di attività. Per ulteriori informazioni, consulta [Controllo qualità delle attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>Gli URL di anteprima esperienza per  Automated Personalization sono diversi dalla modalità di QA dell&#39;attività. La modalità di controllo qualità delle attività consente di creare URL per altri tipi di attività. Per ulteriori informazioni, consulta [Controllo qualità delle attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
 >
 >Gli URL di anteprima esperienza per le attività AP sono disponibili solo quando si utilizza at.js 1.x. Gli URL di anteprima esperienza per le attività AP non sono attualmente supportati per at.js 2.x.
 
@@ -30,6 +34,7 @@ Utilizzate gli URL di anteprima esperienza per condividere esperienze con i memb
 
    * Se utilizzi il Compositore esperienza visivo, l&#39;URL predefinito specificato per l&#39;attività viene immesso automaticamente e viene generato un collegamento per ogni esperienza nell&#39;attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
    * Se utilizzi il Compositore esperienza basato su moduli, non viene immesso automaticamente alcun URL predefinito. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
+
    Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l&#39;attività su più di una pagina.
 
    Tramite una finestra modale, puoi visualizzare i collegamenti alle esperienze sul tuo sito per ottenere una “anteprima fedele” al di fuori del Compositore esperienza visivo. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL risultante direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
@@ -59,7 +64,7 @@ Utilizzate gli URL di anteprima esperienza per condividere esperienze con i memb
 **Condivisione degli URL di anteprima esperienza**
 
 * Puoi visualizzare in anteprima un esperienza anche se non fai parte del pubblico di destinazione.
-* Potete condividere gli URL di anteprima dell&#39;esperienza con colleghi che non hanno accesso ad Adobe Target.
+* Potete condividere gli URL di anteprima dell&#39;esperienza con colleghi che non hanno accesso a  Adobe Target.
 
 **Visualizzazione delle esperienze con gli URL di anteprima esperienza**
 
