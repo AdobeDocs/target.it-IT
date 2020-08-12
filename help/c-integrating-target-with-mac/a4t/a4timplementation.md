@@ -2,9 +2,10 @@
 keywords: A4T;Adobe Analytics;Analytics-based activity;Analytics report suite;report suite;Analytics Target integration;configure report suite
 description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Implementazione di Analytics for Target
+feature: null
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 63%
@@ -20,7 +21,7 @@ Several steps are required when implementing [!DNL Adobe Analytics] as the repor
 
 Le sezioni seguenti descrivono i passaggi necessari per implementare questa integrazione nel sito.
 
-## Passaggio 1: Richiesta di provisioning per  Analytics e Target
+## Passaggio 1: Richiesta di provisioning per Analytics e Target
 
 After you implement [!DNL Analytics] as the reporting source for [!DNL Target], you must be provisioned for [!DNL Analytics] and [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](http://www.adobe.com/go/audiences).
 
@@ -38,9 +39,9 @@ See [Implement the Experience Cloud ID Service for Target](https://docs.adobe.co
 
 È necessario implementare o eseguire la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida all&#39;implementazione di *Analytics*.
+Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) JavaScript nella Guida *all&#39;implementazione di* Analytics.
 
-Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida all&#39;implementazione di *Analytics*.
+Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all&#39;implementazione di* Analytics.
 
 ## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
 
@@ -97,7 +98,7 @@ Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato a  Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato ad Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
 
 Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
