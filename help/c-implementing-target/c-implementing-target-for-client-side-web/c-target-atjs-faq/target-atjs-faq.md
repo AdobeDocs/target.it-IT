@@ -2,10 +2,14 @@
 keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
 description: Risposte alle domande frequenti sulla libreria JavaScript di Adobe Target at.js.
 title: Domande frequenti su Adobe Target at.js
+feature: null
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 16b7b064d68d8d5a6bc4e5426f700ca707d97c55
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '2660'
+ht-degree: 94%
 
 ---
 
@@ -28,41 +32,41 @@ Come illustrato in precedenza, utilizzando mbox.js il contenuto della pagina ini
 
 ## Qual è l’impatto di at.js e mbox.js sui tempi di caricamento delle pagine? {#page-load}
 
-Molti clienti e consulenti vogliono conoscere l'impatto di [!DNL at.js] e di [!DNL mbox.js] sul tempo di caricamento delle pagine, soprattutto nel contesto di nuovi utenti rispetto a utenti di ritorno. Purtroppo, è difficile misurare e offrire numeri concreti per quanto riguarda l'influenza di [!DNL at.js] o [!DNL mbox.js] sul tempo di caricamento della pagina, a causa delle implementazioni del singolo cliente.
+Molti clienti e consulenti vogliono conoscere l&#39;impatto di [!DNL at.js] e di [!DNL mbox.js] sul tempo di caricamento delle pagine, soprattutto nel contesto di nuovi utenti rispetto a utenti di ritorno. Purtroppo, è difficile misurare e offrire numeri concreti per quanto riguarda l&#39;influenza di [!DNL at.js] o [!DNL mbox.js] sul tempo di caricamento della pagina, a causa delle implementazioni del singolo cliente.
 
-Tuttavia, se sulla pagina è presente l'API dei visitatori, possiamo capire meglio in che modo [!DNL at.js] e [!DNL mbox.js] influenzano il tempo di caricamento delle pagine.
+Tuttavia, se sulla pagina è presente l&#39;API dei visitatori, possiamo capire meglio in che modo [!DNL at.js] e [!DNL mbox.js] influenzano il tempo di caricamento delle pagine.
 
 >[!NOTE]
 >
->L’API dei visitatori e [!DNL at.js] o [!DNL mbox.js] hanno un impatto sul tempo di caricamento della pagina solo quando si utilizza la mbox globale (a causa della tecnica di celamento del corpo). Le mbox regionali non sono influenzate dall'integrazione delle API dei visitatori.
+>L’API dei visitatori e [!DNL at.js] o [!DNL mbox.js] hanno un impatto sul tempo di caricamento della pagina solo quando si utilizza la mbox globale (a causa della tecnica di celamento del corpo). Le mbox regionali non sono influenzate dall&#39;integrazione delle API dei visitatori.
 
 Le sezioni seguenti illustrano la sequenza di azioni per i visitatori nuovi e per i visitatori di ritorno:
 
 ### Visitatori nuovi
 
-1. L'API dei visitatori viene caricata, analizzata ed eseguita.
+1. L&#39;API dei visitatori viene caricata, analizzata ed eseguita.
 1. at.js / mbox.js è caricato, analizzato ed eseguito.
 1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
 
-   * Crea un'istanza dell'oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell'ID visitatore di Experience Cloud.
-   * Poiché si tratta di un nuovo visitatore, l'API dei visitatori genera una richiesta cross-domain a demdex.net.
-   * Dopo il recupero dei dati dell'ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Crea un&#39;istanza dell&#39;oggetto Visitatore.
+   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
+   * Poiché si tratta di un nuovo visitatore, l&#39;API dei visitatori genera una richiesta cross-domain a demdex.net.
+   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
 
 ### Visitatori di ritorno
 
-1. L'API dei visitatori viene caricata, analizzata ed eseguita.
+1. L&#39;API dei visitatori viene caricata, analizzata ed eseguita.
 1. at.js / mbox.js è caricato, analizzato ed eseguito.
 1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
 
-   * Crea un'istanza dell'oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell'ID visitatore di Experience Cloud.
-   * L'API dei visitatori recupera i dati dai cookie.
-   * Dopo il recupero dei dati dell'ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Crea un&#39;istanza dell&#39;oggetto Visitatore.
+   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
+   * L&#39;API dei visitatori recupera i dati dai cookie.
+   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
 
 >[!NOTE]
 >
->Per i nuovi visitatori, quando è presente l'API dei visitatori, Target deve connettersi più volte per assicurare che la richiesta includa i dati dell'ID visitatore di Experience Cloud. Per i visitatori di ritorno, Target si connette solo per recuperare il contenuto personalizzato.
+>Per i nuovi visitatori, quando è presente l&#39;API dei visitatori, Target deve connettersi più volte per assicurare che la richiesta includa i dati dell&#39;ID visitatore di Experience Cloud. Per i visitatori di ritorno, Target si connette solo per recuperare il contenuto personalizzato.
 
 ## Perché mi sembra di notare tempi di risposta più lenti dopo l’aggiornamento da una versione precedente di at.js alla versione 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
@@ -223,45 +227,45 @@ Per garantire che Target possa correttamente tenere traccia degli utenti e per f
 
 ## Con quale frequenza at.js attiva una richiesta di rete? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target esegue tutte le sue decisioni sul lato server. Ciò significa che at.js at.js genera una richiesta di rete ogni volta che la pagina si ricarica o viene richiamata un'API pubblica di at.js.
+Adobe Target esegue tutte le sue decisioni sul lato server. Ciò significa che at.js at.js genera una richiesta di rete ogni volta che la pagina si ricarica o viene richiamata un&#39;API pubblica di at.js.
 
-## Nel migliore dei casi, possiamo aspettarci che l'utente non verifichi effetti visibili sul caricamento della pagina dovuti al fatto che si nasconde, sostituisce e visualizza il contenuto? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
+## Nel migliore dei casi, possiamo aspettarci che l&#39;utente non verifichi effetti visibili sul caricamento della pagina dovuti al fatto che si nasconde, sostituisce e visualizza il contenuto? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
-at.js cerca di evitare di nascondere anticipatamente HTML BODY o altri elementi DOM per un periodo di tempo prolungato, ma ciò dipende dalle condizioni di rete e dalla configurazione dell'attività. at.js offre [impostazioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) che è possibile utilizzare per personalizzare lo stile CSS per nascondere il BODY, in modo tale che invece di svuotare l’intero BODY HTML sia possibile nascondere anticipatamente solo alcune parti della pagina. L'aspettativa è che quelle parti contengano elementi DOM che devono essere “personalizzati”.
+at.js cerca di evitare di nascondere anticipatamente HTML BODY o altri elementi DOM per un periodo di tempo prolungato, ma ciò dipende dalle condizioni di rete e dalla configurazione dell&#39;attività. at.js offre [impostazioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) che è possibile utilizzare per personalizzare lo stile CSS per nascondere il BODY, in modo tale che invece di svuotare l’intero BODY HTML sia possibile nascondere anticipatamente solo alcune parti della pagina. L&#39;aspettativa è che quelle parti contengano elementi DOM che devono essere “personalizzati”.
 
 ## Qual è la sequenza di eventi in uno scenario medio in cui un utente si qualifica per un’attività? {#section_56E6F448E901403FB77DF02F44C44452}
 
 La richiesta at.js è un `XMLHttpRequest` asincrono, quindi eseguiamo i seguenti passaggi:
 
 1. La pagina viene caricata.
-1. at.js nasconde anticipatamente il BODY HTML. È presente un'impostazione per nascondere anticipatamente un particolare contenitore invece del BODY HTML.
+1. at.js nasconde anticipatamente il BODY HTML. È presente un&#39;impostazione per nascondere anticipatamente un particolare contenitore invece del BODY HTML.
 1. La richiesta at.js viene attivata.
 1. Dopo aver ricevuto la risposta di Target, Target estrae i selettori CSS.
 1. Utilizzando i selettori CSS, Target crea tag STYLE per nascondere anticipatamente gli elementi DOM che saranno personalizzati.
 1. Il BODY HTML che nasconde anticipatamente STYLE viene rimosso.
 1. Target avvia il polling per gli elementi DOM.
-1. Se viene trovato un elemento DOM, Target applica le modifiche DOM e l'elemento che nasconde anticipatamente STYLE viene rimosso.
+1. Se viene trovato un elemento DOM, Target applica le modifiche DOM e l&#39;elemento che nasconde anticipatamente STYLE viene rimosso.
 1. Se gli elementi DOM non vengono trovati, un timeout globale rivela gli elementi per evitare di avere una pagina interrotta.
 
-## Quanto spesso il contenuto della pagina è completamente caricato e visibile quando at.js rivela infine l'elemento che l'attività sta modificando? {#section_01AFF476EFD046298A2E17FE3ED85075}
+## Quanto spesso il contenuto della pagina è completamente caricato e visibile quando at.js rivela infine l&#39;elemento che l&#39;attività sta modificando? {#section_01AFF476EFD046298A2E17FE3ED85075}
 
-Considerando lo scenario precedente, quanto spesso il contenuto della pagina è completamente caricato e visibile quando at.js rivela infine l'elemento che l'attività sta modificando? In altre parole, la pagina è completamente visibile ad eccezione del contenuto dell'attività, che viene poi rivelato leggermente dopo il resto del contenuto.
+Considerando lo scenario precedente, quanto spesso il contenuto della pagina è completamente caricato e visibile quando at.js rivela infine l&#39;elemento che l&#39;attività sta modificando? In altre parole, la pagina è completamente visibile ad eccezione del contenuto dell&#39;attività, che viene poi rivelato leggermente dopo il resto del contenuto.
 
 at.js non blocca il rendering della pagina. Un utente potrebbe notare alcune aree vuote nella pagina che rappresentano elementi che verranno personalizzati da Target. Se il contenuto da applicare non contiene molte risorse remote, come SCRIPT o IMG, il rendering dovrebbe essere eseguito rapidamente.
 
 ## In che modo una pagina interamente salvata nella cache influirà sullo scenario precedente? Sarebbe più probabile che il contenuto dell’attività diventi visibile notevolmente dopo il caricamento del resto del contenuto della pagina? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Se una pagina viene salvata nella cache in una rete CDN vicina alla posizione dell'utente, ma non vicina a Target Edge, l'utente potrebbe vedere alcuni ritardi. I Target Edge sono ben distribuiti in tutto il mondo, quindi nella maggior parte dei casi questo non è un problema.
+Se una pagina viene salvata nella cache in una rete CDN vicina alla posizione dell&#39;utente, ma non vicina a Target Edge, l&#39;utente potrebbe vedere alcuni ritardi. I Target Edge sono ben distribuiti in tutto il mondo, quindi nella maggior parte dei casi questo non è un problema.
 
 ## È possibile che un’immagine protagonista venga visualizzata e poi scambiata dopo un breve ritardo? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Considerando lo scenario seguente:
 
-Il timeout di Target è di cinque secondi. Un utente carica una pagina che ha un'attività per personalizzare un'immagine protagonista. at.js invia la richiesta per determinare se c'è un'attività da applicare, ma non è presente una risposta iniziale. Supponiamo che l'utente veda il contenuto regolare dell'immagine protagonista, perché non è stata ricevuta alcuna risposta da Target sull'esistenza di un'attività associata. Dopo quattro secondi, Target restituisce una risposta con il contenuto dell'attività.
+Il timeout di Target è di cinque secondi. Un utente carica una pagina che ha un&#39;attività per personalizzare un&#39;immagine protagonista. at.js invia la richiesta per determinare se c&#39;è un&#39;attività da applicare, ma non è presente una risposta iniziale. Supponiamo che l&#39;utente veda il contenuto regolare dell&#39;immagine protagonista, perché non è stata ricevuta alcuna risposta da Target sull&#39;esistenza di un&#39;attività associata. Dopo quattro secondi, Target restituisce una risposta con il contenuto dell&#39;attività.
 
-A questo punto, è possibile che la versione alternativa venga mostrata? Perciò dopo quattro secondi, l'immagine protagonista potrebbe essere scambiata e l'utente potrebbe notare questo scambio di immagini?
+A questo punto, è possibile che la versione alternativa venga mostrata? Perciò dopo quattro secondi, l&#39;immagine protagonista potrebbe essere scambiata e l&#39;utente potrebbe notare questo scambio di immagini?
 
-Inizialmente, l'elemento DOM dell’immagine protagonista è nascosto. Dopo aver ricevuto una risposta da Target, at.js applica le modifiche DOM, come la sostituzione dell'IMG e la visualizzazione dell'immagine protagonista personalizzata.
+Inizialmente, l&#39;elemento DOM dell’immagine protagonista è nascosto. Dopo aver ricevuto una risposta da Target, at.js applica le modifiche DOM, come la sostituzione dell&#39;IMG e la visualizzazione dell&#39;immagine protagonista personalizzata.
 
 ## Quale doctype HTML richiede at.js?
 
