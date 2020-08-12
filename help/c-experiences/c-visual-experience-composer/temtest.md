@@ -2,9 +2,13 @@
 keywords: template testing;template;same experience on similar pages;template test
 description: Se si utilizza un modello di pagina per fornire una struttura alle pagine, o se le pagine contengono elementi simili, questa funzione consente di sottoporre a test le varianti di elementi di pagina con struttura simile.
 title: Includere la stessa esperienza in pagine simili
+feature: null
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '499'
+ht-degree: 96%
 
 ---
 
@@ -72,7 +76,7 @@ Si possono specificare le pagine che contengono gli elementi di modifica, o appl
 >
 > Target non è in grado di controllare le pagine per assicurare che siano visualizzate come previsto, quindi è sempre opportuno, quando si utilizza questa funzione, verificare le pagine interessate prima di pubblicarle.
 
-## Video di formazione: Compositore esperienza visivo (2 di 2) (7:29) Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Compositore esperienza visivo (2 di 2) (7:29) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
