@@ -1,17 +1,21 @@
 ---
-keywords: Amministrazione;ruolo approvatore;approvatore
+keywords: Administration;approver role;approver
 description: Questa sezione descrive i primi passi che gli amministratori di Adobe Target devono compiere dopo aver ricevuto l’invito ad Adobe Experience Cloud.
 title: Primi passaggi per l'amministratore
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '404'
+ht-degree: 92%
 
 ---
 
 
-# Primi passaggi per l'amministratore{#administrator-first-steps}
+# Primi passaggi per l&#39;amministratore{#administrator-first-steps}
 
 Questa sezione descrive i primi passi che gli amministratori di [!DNL Target] devono compiere dopo aver ricevuto l’invito ad [!DNL Adobe Experience Cloud].
 
@@ -19,7 +23,7 @@ Questa sezione descrive i primi passi che gli amministratori di [!DNL Target] de
 
 Un amministratore di sistema utilizza [!DNL Adobe Admin Console] per aggiungerti come utente ad [!DNL Target] invitandoti a partecipare. L’amministratore di sistema deve quindi aggiungerti a uno o più gruppi specifici per il tuo ruolo. Entrambe queste attività sono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Per ulteriori informazioni, vedi [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html) Experience Cloud nell'Aiuto *di* Experience Cloud e dei servizi di base.
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html)  Experience Cloud nella guida *del Experience Cloud* e dei servizi di base.
 
 Dopo che l’amministratore di sistema avrà eseguito questi passaggi, riceverai un messaggio e-mail di invito.
 
