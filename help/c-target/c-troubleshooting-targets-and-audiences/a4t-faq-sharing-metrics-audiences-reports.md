@@ -1,11 +1,15 @@
 ---
-keywords: faq;domande frequenti;analytics for target;segmenti;a4T;condividere rapporti
+keywords: faq;frequently asked questions;analytics for target;segments;a4T;share reports
 description: Questo argomento contiene le risposte alle domande che vengono spesso poste in merito alla condivisione di metriche, tipi di pubblico e rapporti quando si utilizza Analytics come origine per la creazione di rapporti per Target (A4T).
 title: Condividere metriche, pubblico e rapporti - Domande frequenti su A4T
+feature: null
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '240'
+ht-degree: 82%
 
 ---
 
