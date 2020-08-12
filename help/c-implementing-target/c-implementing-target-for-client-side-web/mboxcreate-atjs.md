@@ -1,11 +1,15 @@
 ---
-keywords: mboxCreate;mboxcreate;mbox create;at.js;funzioni;funzione
+keywords: mboxCreate;mboxcreate;mbox create;at.js;functions;function
 description: Informazioni sulla funzione mboxCreate(mbox,params) per la libreria JavaScript at.js di Adobe Target.
 title: Informazioni sulla funzione mboxCreate(mbox,params) per la libreria JavaScript at.js di Adobe Target.
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '193'
+ht-degree: 100%
 
 ---
 
@@ -33,9 +37,9 @@ Questa funzione è incorporata in [!DNL at.js] per lo più per facilitare la tra
 
 ## Note
 
-`mboxCreate()` usa ora l'endpoint “json” invece di quello “standard” e si attiva in modo asincrono. Per questo motivo:
+`mboxCreate()` usa ora l&#39;endpoint “json” invece di quello “standard” e si attiva in modo asincrono. Per questo motivo:
 
-* [Il debug](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) è un po' diverso.
+* [Il debug](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md#concept_CAE591DA8C404C22917584ECD4F7494F) è un po&#39; diverso.
 * Evita di usare codice di offerte che richiede chiamate sincrone e bloccanti.
 
    Ad esempio, offerte che impostano variabili JavaScript che vengono utilizzate dal codice del sito o altre mbox che compaiono più avanti nella pagina.
