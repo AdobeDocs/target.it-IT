@@ -2,11 +2,12 @@
 keywords: Overview and Reference;SEO;search engine optimization
 description: 'Adobe Target si integra con i siti web mediante una delle due librerie JavaScript: at.js o mbox.js.'
 title: Come funziona Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: d8cacece5dd29416f5dd025621ce442fbb6a0518
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '2346'
 ht-degree: 94%
@@ -98,9 +99,9 @@ Ogni nodo di Edge include tutte le informazioni necessarie per rispondere alla r
 
 ![Mappatura con siti edge principali e siti edge](assets/edge_network.png)
 
-L&#39;origine di questa immagine è il white paper Panoramica sulla sicurezza di [Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) .
+L&#39;origine di questa immagine è il white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Panoramica sulla sicurezza di).
 
-La soluzione Adobe Target è ospitata su data center di Adobe (propri o noleggiati) in tutto il mondo. I server di amministrazione si trovano interamente in data center di proprietà di Adobe a Londra, Singapore e in varie località negli Stati Uniti, compresi Oregon e Virginia. I server periferici sono ospitati sia sui server Adobe di proprietà che su quelli in leasing Adobe nei centri dati Amazon AWS di Londra, Hong Kong SAR di Cina, Singapore, Tokyo e Sydney.
+La soluzione Adobe Target è ospitata su data center di Adobe (propri o noleggiati) in tutto il mondo. I server di amministrazione si trovano interamente in data center di proprietà di Adobe a Londra, Singapore e in varie località negli Stati Uniti, compresi Oregon e Virginia. I server periferici sono ospitati sia sui server di proprietà  Adobe che su quelli affittati  Adobe  i data center Amazon AWS a Londra, Hong Kong SAR of China, Singapore, Tokyo e Sydney.
 
 Le località in cui si trovano i server di amministrazione contengono sia un centro di raccolta dati sia un centro di elaborazione dati. Le posizioni del sito Edge contengono solo un centro raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
 
@@ -110,7 +111,7 @@ Anziché rispondere a tutte le richieste di targeting da un’unica posizione, l
 >
 >[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni per l’utente finale continueranno a essere limitate per i clienti di [!DNL Target] in Cina. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Se necessario, potete includere nell&#39;elenco le note sui bordi di Target. Per ulteriori informazioni, vedete Elenco [perimetrale di Target nodi](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
+Potete  inserire nell&#39;elenco Consentiti le note sui bordi di Target, se lo desiderate. Per ulteriori informazioni, consultate [inserire nell&#39;elenco Consentiti nodi](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)periferici di Target.
 
 ## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
