@@ -1,10 +1,14 @@
 ---
 description: Il registro delle modifiche tiene traccia delle modifiche apportate alle attività e indica da chi e quando sono state apportate.
-title: Registro delle modifiche dell'attività in Adobe Target
+title: Accesso alle modifiche dell'attività  Adobe Target
+feature: null
 topic: Advanced
 uuid: 5bf4d79f-f15b-4ac4-9303-8eb2de5729d6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '99'
+ht-degree: 93%
 
 ---
 
@@ -17,6 +21,6 @@ Il registro delle modifiche tiene traccia delle modifiche apportate alle attivit
 
    ![Registro delle modifiche apportate alle attività](/help/c-activities/assets/change_log.png)
 
-   La data e l’utente vengono elencati ogni volta che viene creata, aggiornata, attivata o disattivata un’attività. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell'attività. La colonna stato indica se l'azione è completata, in sospeso o non riuscita.
+   La data e l’utente vengono elencati ogni volta che viene creata, aggiornata, attivata o disattivata un’attività. Vengono inoltre elencate le modifiche apportate alle destinazioni e alle offerte personalizzate utilizzate nell&#39;attività. La colonna stato indica se l&#39;azione è completata, in sospeso o non riuscita.
 
    Aggiorna la pagina per visualizzare le modifiche dello stato.
