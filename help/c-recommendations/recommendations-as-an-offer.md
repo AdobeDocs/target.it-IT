@@ -2,8 +2,12 @@
 keywords: Recommendations;offer
 description: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
 title: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
+feature: null
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '556'
+ht-degree: 98%
 
 ---
 
@@ -117,6 +121,6 @@ Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella p
 
 ![Stato di un’offerta Consigli](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Video di formazione: Raccomandazioni come badge ![Panoramica offerta](/help/assets/overview.png)
+## Video di formazione: Recommendations come badge ![Panoramica dell&#39;offerta](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
