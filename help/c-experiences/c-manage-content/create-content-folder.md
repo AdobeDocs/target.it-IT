@@ -1,11 +1,15 @@
 ---
-keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
+keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
 description: Crea una cartella per gli elementi nella libreria delle Offerte.
 title: Creare una cartella di offerta
+feature: null
 topic: Standard
 uuid: f7611fbb-76fe-44d7-a78f-ab22e9a2a2bc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '382'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +19,7 @@ source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
 Crea una cartella per gli elementi nella libreria delle Offerte.
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte codice]** o **[!UICONTROL Offerte immagini]**, se necessario.
-1. Fai clic su **[!UICONTROL Crea]** &gt; **[!UICONTROL Cartella]**.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
 1. Compila i campi:
 
    | Campo | Descrizione |
@@ -23,13 +27,13 @@ Crea una cartella per gli elementi nella libreria delle Offerte.
    | Titolo (si applica solo alle offerte di immagini) | Assegna un nome descrittivo per la cartella. Ad esempio, è possibile specificare il tipo di contenuto che conterrà.<br>Il nome non può contenere i seguenti caratteri:<br>Segno percentuale `%`<br>Barra `/`<br>Barra rovesciata `\`<br>Due punti `:`<br>Asterisco `*`<br>Punto interrogativo `?`<br>Virgolette `"`<br>Parentesi quadra aperta `[`<br>Parentesi quadra chiusa `]`<br>Segno più: `+`<br>Barra verticale: `|`<br>Punto: `.`<br>Cancelletto: `#`<br>Parentesi graffa aperta: `{`<br>Parentesi graffa chiusa `}`<br>Circonflesso `^`<br>Punto e virgola `;`<br>Utilizza un trattino (`- `) al posto di questi caratteri. |
    | Nome (si applica al codice e alle offerte di immagini) | Modifica il nome, se desiderato. |
    | Privato (si applica solo alle offerte di immagini) | Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto. |
-   | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull'icona di visualizzazione scheda o quella di visualizzazione elenco nell'angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
+   | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull&#39;icona di visualizzazione scheda o quella di visualizzazione elenco nell&#39;angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
 ## Opzioni Offerte codice
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l'icona appropriata.
+Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
 
 ### Informazioni ![](assets/icon_info.png)
 
@@ -45,9 +49,9 @@ Copia la cartella.
 
 ### Sposta ![](assets/icon_move_folder.png)
 
-Fai clic sull'icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull'icona Rilascia.
+Fai clic sull&#39;icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull&#39;icona Rilascia.
 
-Ad esempio, è possibile spostare una o più cartelle in un'altra per creare sottocartelle.
+Ad esempio, è possibile spostare una o più cartelle in un&#39;altra per creare sottocartelle.
 
 Fai clic su Cancella selezione per deselezionare le cartelle selezionate.
 
@@ -57,7 +61,7 @@ Elimina la cartella.
 
 ## Opzioni Offerte immagine
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l'icona appropriata:
+Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata:
 
 ### Seleziona ![](assets/icon_check.png)
 
