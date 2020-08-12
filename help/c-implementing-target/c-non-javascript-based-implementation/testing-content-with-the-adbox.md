@@ -1,12 +1,13 @@
 ---
 keywords: Implementation;mbox.js non javascript;mbox;adbox
-description: Usate un AdBox per distribuire immagini in un'implementazione off-site, utilizzando  Adobe Target.
+description: Usate un AdBox per distribuire immagini in un’implementazione off-site, utilizzando  Adobe Target.
 title: Creare un Adbox per un’immagine utilizzando  Adobe Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 6b1763f7-08de-4bde-9e20-e79b92b02f20
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '308'
 ht-degree: 77%
@@ -16,7 +17,7 @@ ht-degree: 77%
 
 # Creare un AdBox per un’immagine{#create-an-adbox-for-an-image}
 
-Utilizzate un AdBox per distribuire immagini in un&#39;implementazione off-site utilizzando  Adobe Target.
+Utilizzate un AdBox per distribuire immagini in un&#39;implementazione off-site tramite  Adobe Target.
 
 Un AdBox è come una mbox, ma è controllato da un URL piuttosto che da JavaScript. Gli AdBox sono creati con un URL AdBox speciale che carica una mbox di tipo annuncio (o AdBox) nel tuo account Adobe. Utilizza questo AdBox al posto della mbox nelle tue attività. Utilizza l&#39;URL AdBox anziché un riferimento diretto all&#39;immagine in email o altre implementazioni non JavaScript.
 
