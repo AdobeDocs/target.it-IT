@@ -1,12 +1,16 @@
 ---
 keywords: reports;download reports;csv;success metrics;order details
-description: Scarica i dati in formato .csv per una rapida importazione in Excel, Access o altri programmi di analisi dati tramite Adobe Target.
-title: Download di dati in un file CSV tramite Adobe Target
+description: Scarica i dati in formato .csv per una rapida importazione in Excel, Access o altri programmi di analisi dei dati tramite  Adobe Target.
+title: Download di dati in un file CSV tramite  Adobe Target
+feature: null
 subtopic: Multivariate Test
 topic: Standard
 uuid: 9ac151e1-45a9-4d46-b23b-e7c9ae518253
 translation-type: tm+mt
-source-git-commit: ba4c776d93f911c122f36113a99ce4349b3c5524
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '673'
+ht-degree: 83%
 
 ---
 
@@ -26,6 +30,7 @@ Per scaricare i dati in un file CSV:
 
    * [!UICONTROL Esporta rapporti in CSV]
    * [!UICONTROL Esportare i dettagli ordine in CSV]
+
    ![Opzioni di download](/help/c-reports/assets/download-options.png)
 
 ## Esportare un rapporto in formato CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
@@ -82,7 +87,7 @@ Il rapporto Dettagli ordine mostra informazioni sugli ordini, tra cui:
 
 Le informazioni seguenti si applicano all’opzione Scarica:
 
-* Potete scaricare entrambi i rapporti per Test A/B, Personalizzazione automatizzata, Targeting delle esperienze e attività multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
+* Potete scaricare entrambi i rapporti per Test A/B,  Automated Personalization, Targeting delle esperienze e attività multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
 * L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
 * I tipi di pubblico applicati nell’interfaccia utente di Target per la generazione di rapporti non vengono trasferiti al rapporto scaricato.
