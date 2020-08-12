@@ -1,37 +1,41 @@
 ---
-keywords: AB;A/B;AB...n;dimensioni del campione;calcolatore delle dimensioni del campione;allocazione automatica;allocazione automatica
+keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto allocate
 description: Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 title: Per quanto tempo si deve eseguire un test A/B?
+feature: null
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '3108'
+ht-degree: 97%
 
 ---
 
 
 # Per quanto tempo si deve eseguire un test A/B?{#how-long-should-you-run-an-a-b-test}
 
-Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
+Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore dimensioni campione di Target per garantire che l&#39;attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 
-Si potrebbe essere tentati di interrompere un'attività se nei primi giorni dell’attività, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c'è un'alta probabilità che un incremento positivo o negativo sia imputabile al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che l’attività raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
+Si potrebbe essere tentati di interrompere un&#39;attività se nei primi giorni dell’attività, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che l’attività raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
-Arrestare prematuramente un'attività è una delle nove insidie significative in cui si può incappare durante l'esecuzione di un test A/B. Per ulteriori informazioni, consulta [Nove insidie frequenti per i test A/B e come evitarle](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+Arrestare prematuramente un&#39;attività è una delle nove insidie significative in cui si può incappare durante l&#39;esecuzione di un test A/B. Per ulteriori informazioni, consulta [Nove insidie frequenti per i test A/B e come evitarle](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 Target fornisce degli strumenti per garantire che l’attività abbia una dimensione campione abbastanza grande da raggiungere gli obiettivi di conversione:
 
 * **Allocazione automatica:** un’attività di allocazione automatica è un tipo di test A/B che identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
-   I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. Dopo aver fatto tutto questo, c'è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
+   I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. Dopo aver fatto tutto questo, c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
 
    La soluzione è l’allocazione automatica. L’allocazione automatica riduce il costo e il sovraccarico associati al determinare un’esperienza vincente. L’allocazione automatica monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze che hanno prestazioni migliori. Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. È possibile vedere i vantaggi del test nei risultati, anche se l’attività è ancora in esecuzione: l’ottimizzazione si verifica in parallelo all’apprendimento.
 
    L’allocazione automatica sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere fino a quando un’attività finisce per determinare un vincitore. Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
 
-   Quando utilizzi la funzione di Allocazione automatica, Target mostra un badge nella parte superiore della pagina dell'attività che indica “Ancora nessun vincitore” finché l'attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. Target dichiara quindi l'esperienza vincente mostrando un badge nella parte superiore della pagina dell'attività.
+   Quando utilizzi la funzione di Allocazione automatica, Target mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. Target dichiara quindi l&#39;esperienza vincente mostrando un badge nella parte superiore della pagina dell&#39;attività.
 
    Per ulteriori informazioni, consulta [Allocazione automatica](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
-* **Calcolatore dimensioni campione di Target:** se si sceglie di utilizzare un test A/B manuale invece dell’allocazione automatica, il calcolatore delle dimensioni del campione di Target consente di determinare le dimensioni del campione necessarie per un test di successo. Un test A/B manuale è un test orizzontale fisso, quindi la calcolatrice è estremamente utile. L'utilizzo del calcolatore per un'attività di allocazione automatica è facoltativo perché l'allocazione automatica dichiarerà un vincitore. La calcolatrice fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
+* **Calcolatore dimensioni campione di Target:** se si sceglie di utilizzare un test A/B manuale invece dell’allocazione automatica, il calcolatore delle dimensioni del campione di Target consente di determinare le dimensioni del campione necessarie per un test di successo. Un test A/B manuale è un test orizzontale fisso, quindi la calcolatrice è estremamente utile. L&#39;utilizzo del calcolatore per un&#39;attività di allocazione automatica è facoltativo perché l&#39;allocazione automatica dichiarerà un vincitore. La calcolatrice fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
 ## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
