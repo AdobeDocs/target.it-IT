@@ -1,12 +1,16 @@
 ---
-keywords: implementa;implementazione;impostazione;installazione;parametro di pagina;tomcat;codifica url;attributo profilo di pagina;parametro mbox;attributi profilo di pagina;attributo profilo script;aggiornamento API bulk profilo;aggiornamento API file singolo;attributi cliente;fornitori di dati;fornitori dati;fornitori di dati
+keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
 description: Informazioni sui vari metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
 title: Metodi per immettere i dati in Target
-subtopic: Introduzione
+feature: null
+subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '1940'
+ht-degree: 96%
 
 ---
 
@@ -19,7 +23,7 @@ Informazioni sui diversi metodi possibili per ottenere i dati in Target, inclusi
 
 I parametri di pagina sono coppie di nome e valore passate direttamente tramite codice di pagina che non sono memorizzati nel profilo del visitatore per un utilizzo futuro.
 
-I parametri di pagina sono utili per inviare ulteriori dati di pagina alla destinazione che non devono essere memorizzati con il profilo del visitatore per un futuro targeting. Questi valori vengono invece utilizzati per descrivere la pagina o l'azione che l'utente ha assunto nella pagina specifica.
+I parametri di pagina sono utili per inviare ulteriori dati di pagina alla destinazione che non devono essere memorizzati con il profilo del visitatore per un futuro targeting. Questi valori vengono invece utilizzati per descrivere la pagina o l&#39;azione che l&#39;utente ha assunto nella pagina specifica.
 
 ### Formato
 
@@ -31,7 +35,7 @@ Esempi:
 
 * `categoryId=homeLoans`
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 **Pagine dei prodotti**: invia informazioni sul prodotto specifico visualizzato (questo è il modo in cui funzionano i consigli)
 
@@ -47,19 +51,19 @@ I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla
 
 ### Avvertenze
 
-* Richiede l'aggiornamento del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
+* Richiede l&#39;aggiornamento del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
 * Se i dati devono essere utilizzati per la destinazione di una successiva chiamata di pagina/server, è necessario tradurli in uno script di profilo.
 * Le stringhe di query possono contenere solo caratteri che rispettano lo [standard Internet Engineering Task Force (IETF)](https://www.ietf.org/rfc/rfc3986.txt).
 
    Oltre a quelli menzionati sul sito di IETF, Target consente l’utilizzo dei seguenti caratteri nelle stringhe di query:
 
-   `&lt; &gt; # % ” { } | \\ ^ \[\] \``
+   `&lt; > # % ” { } | \\ ^ \[\] \``
 
    Tutto il resto deve avere la codifica URL. The standard specifies the following format ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), as illustrated below:
 
    ![](assets/ietf1.png)
 
-   Oppure, l'elenco completo per semplicità:
+   Oppure, l&#39;elenco completo per semplicità:
 
    ![](assets/ietf2.png)
 
@@ -89,11 +93,11 @@ Affinità tra categorie: [Affinità tra categorie](/help/c-target/c-visitor-prof
 
 Gli attributi di profilo nella pagina sono coppie di nome e valore passate direttamente tramite il codice della pagina archiviato nel profilo del visitatore per un utilizzo futuro.
 
-Gli attributi di profilo nella pagina consentono l'archiviazione dei dati specifici dell'utente nel profilo di Target per targeting e segmentazione in un secondo momento.
+Gli attributi di profilo nella pagina consentono l&#39;archiviazione dei dati specifici dell&#39;utente nel profilo di Target per targeting e segmentazione in un secondo momento.
 
 ### Formato
 
-Gli attributi di profilo nella pagina vengono passati a Target tramite una chiamata al server come stringa di coppia di nome e valore con il prefisso “profile.” prima del nome dell'attributo.
+Gli attributi di profilo nella pagina vengono passati a Target tramite una chiamata al server come stringa di coppia di nome e valore con il prefisso “profile.” prima del nome dell&#39;attributo.
 
 I nomi e i valori degli attributi sono personalizzabili (sebbene esistano alcuni “nomi riservati” per usi specifici).
 
@@ -102,7 +106,7 @@ Esempi:
 * `profile.membershipLevel=silver`
 * `profile.visitCount=3`
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 **Informazioni di login**: condividi dati non-PII (personalmente identificabili) con Target in base al login dell’utente. Questo potrebbe essere status di appartenenza, cronologia degli ordini, ecc.
 
@@ -118,7 +122,7 @@ I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla
 
 Richiede aggiornamenti del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
 
-Gli attributi e i valori sono visibili nelle chiamate al server, pertanto un visitatore può visualizzare i valori. Se si condividono informazioni quali le gamme di credito o altre informazioni potenzialmente private, questo potrebbe non essere l'approccio migliore.
+Gli attributi e i valori sono visibili nelle chiamate al server, pertanto un visitatore può visualizzare i valori. Se si condividono informazioni quali le gamme di credito o altre informazioni potenzialmente private, questo potrebbe non essere l&#39;approccio migliore.
 
 ### Esempi di codice
 
@@ -142,17 +146,17 @@ Attributi nel codice mboxCreate:
 
 ## Attributi di profilo script {#section_3E27B58C841448C38BDDCFE943984F8D}
 
-Gli attributi di profilo script sono coppie di nome e valore definite nella soluzione di Target. Il valore è determinato dall'esecuzione di un frammento JavaScript sul server di destinazione per ogni chiamata del server.
+Gli attributi di profilo script sono coppie di nome e valore definite nella soluzione di Target. Il valore è determinato dall&#39;esecuzione di un frammento JavaScript sul server di destinazione per ogni chiamata del server.
 
-Gli utenti scrivono frammenti di codice di piccole dimensioni che vengono eseguiti per chiamata mbox e prima che un visitatore venga valutato per l'appartenenza al pubblico e all'attività.
+Gli utenti scrivono frammenti di codice di piccole dimensioni che vengono eseguiti per chiamata mbox e prima che un visitatore venga valutato per l&#39;appartenenza al pubblico e all&#39;attività.
 
 ### Formato
 
-Gli attributi di profilo script vengono creati nella sezione Tipi di pubblico di Target. Qualsiasi nome di attributo è valido e il valore è il risultato di una funzione JavaScript scritta dall'utente di Target. Il nome dell'attributo viene automaticamente preceduto da “user. ” in Target per distinguerlo dagli attributi di profilo nella pagina.
+Gli attributi di profilo script vengono creati nella sezione Tipi di pubblico di Target. Qualsiasi nome di attributo è valido e il valore è il risultato di una funzione JavaScript scritta dall&#39;utente di Target. Il nome dell&#39;attributo viene automaticamente preceduto da “user. ” in Target per distinguerlo dagli attributi di profilo nella pagina.
 
 Il frammento di codice è scritto nel linguaggio Rhino JS e può fare riferimento a token e altri valori.
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 **Abbandono del carrello**: quando il visitatore raggiunge il carrello, imposta lo script del profilo su 1. Quando il visitatore si converte, reimpostarlo a 0. Se il valore è uguale a 1, allora il visitatore ha un elemento nel carrello.
 
@@ -162,7 +166,7 @@ Il frammento di codice è scritto nel linguaggio Rhino JS e può fare riferiment
 
 Non richiede aggiornamenti del codice della pagina.
 
-Viene eseguito prima delle decisioni relative all'appartenenza al pubblico e all'attività, pertanto questi attributi di script profilo possono influenzare l'appartenenza a una singola chiamata al server.
+Viene eseguito prima delle decisioni relative all&#39;appartenenza al pubblico e all&#39;attività, pertanto questi attributi di script profilo possono influenzare l&#39;appartenenza a una singola chiamata al server.
 
 Può essere molto robusto. Ben 2000 istruzioni possono essere eseguite per ogni script.
 
@@ -170,7 +174,7 @@ Può essere molto robusto. Ben 2000 istruzioni possono essere eseguite per ogni 
 
 Richiede conoscenza di JavaScript.
 
-L'ordine di esecuzione degli script di profilo non può essere garantito, quindi non possono contare l'uno sull'altro.
+L&#39;ordine di esecuzione degli script di profilo non può essere garantito, quindi non possono contare l&#39;uno sull&#39;altro.
 
 Il debug può essere difficile da eseguire.
 
@@ -192,11 +196,11 @@ Nota: Fornitori di dati richiede at.js 1.3 o successive.
 
 ### Formato
 
-L'impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
+L&#39;impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
 
 Per ulteriori informazioni sulla struttura di ciascun fornitore di dati, vedi [Fornitori di dati](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore.
 
@@ -206,7 +210,7 @@ Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati
 
 Supporta la raccolta di dati da più provider tramite richieste sincrone e asincrone.
 
-L'utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l'impatto sulle prestazioni della pagina.
+L&#39;utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l&#39;impatto sulle prestazioni della pagina.
 
 ### Avvertenze
 
@@ -224,40 +228,40 @@ Documentazione: [Fornitori di dati](/help/c-implementing-target/c-implementing-t
 
 ### Video di formazione:
 
-* [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/target/kt/using/dataProviders-atjs-technical-video-implement.html)
+* [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-feature-video-use.html)
+* [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API di aggiornamento del profilo bulk {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
-Tramite l'API, inviare un file .csv a Target con gli aggiornamenti del profilo visitatori per molti visitatori. Ogni profilo visitatore può essere aggiornato con più attributi di profilo nella pagina in una chiamata.
+Tramite l&#39;API, inviare un file .csv a Target con gli aggiornamenti del profilo visitatori per molti visitatori. Ogni profilo visitatore può essere aggiornato con più attributi di profilo nella pagina in una chiamata.
 
 Questa opzione è molto simile agli attributi del cliente con alcune differenze:
 
-* Gli attributi del cliente utilizzano un caricamento FTP mentre l'API di aggiornamento del profilo bulk di Target utilizza un'API HTTP post.
-* I dati degli attributi dei clienti possono essere condivisi con Analytics. L'aggiornamento del profilo bulk è utilizzabile solo in Target.
-* Gli attributi del cliente supportano la creazione di un profilo per una destinazione utente non ancora visibile. L'API di aggiornamento del profilo bulk aggiorna solo i profili di Target esistenti.
-* Gli Attributi cliente richiedono l'utilizzo di Experience Cloud ID (ECID). L'API di aggiornamento del profilo bulk richiede l'ID TNT o `mbox3rdPartyId`.
+* Gli attributi del cliente utilizzano un caricamento FTP mentre l&#39;API di aggiornamento del profilo bulk di Target utilizza un&#39;API HTTP post.
+* I dati degli attributi dei clienti possono essere condivisi con Analytics. L&#39;aggiornamento del profilo bulk è utilizzabile solo in Target.
+* Gli attributi del cliente supportano la creazione di un profilo per una destinazione utente non ancora visibile. L&#39;API di aggiornamento del profilo bulk aggiorna solo i profili di Target esistenti.
+* Gli Attributi cliente richiedono l&#39;utilizzo di Experience Cloud ID (ECID). L&#39;API di aggiornamento del profilo bulk richiede l&#39;ID TNT o `mbox3rdPartyId`.
 * Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
 ### Formato
 
-Il file .csv deve fare riferimento a ciascun visitatore tramite il proprio target PCID o mboxThirdPartyId . Experience Cloud ID (ECID) non è supportato. Tutti gli attributi e valori del profilo vengono creati e aggiornati tramite l'API. I dettagli del formato sono disponibili nella documentazione API.
+Il file .csv deve fare riferimento a ciascun visitatore tramite il proprio target PCID o mboxThirdPartyId . Experience Cloud ID (ECID) non è supportato. Tutti gli attributi e valori del profilo vengono creati e aggiornati tramite l&#39;API. I dettagli del formato sono disponibili nella documentazione API.
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
-Il CRM o altro sistema interno archivia dati importanti relativi ai visitatori che si desidera aggiornare costantemente in Target, senza esporre i dati del profilo nell'implementazione della pagina.
+Il CRM o altro sistema interno archivia dati importanti relativi ai visitatori che si desidera aggiornare costantemente in Target, senza esporre i dati del profilo nell&#39;implementazione della pagina.
 
 ### Vantaggi del metodo
 
 Nessun limite al numero di attributi del profilo.
 
-Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l'API e viceversa.
+Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l&#39;API e viceversa.
 
 ### Avvertenze
 
 La dimensione del file batch deve essere inferiore a 50 MB. Inoltre, il numero totale di righe non deve superare 500000 righe per upload.
 
-Non esiste alcun limite al numero o alle righe che è possibile caricare per un periodo di 24 ore nei batch successivi. Tuttavia, il processo di ingestione potrebbe essere limitato durante l'orario di ufficio per garantire che altri processi vengano eseguiti in modo efficiente.
+Non esiste alcun limite al numero o alle righe che è possibile caricare per un periodo di 24 ore nei batch successivi. Tuttavia, il processo di ingestione potrebbe essere limitato durante l&#39;orario di ufficio per garantire che altri processi vengano eseguiti in modo efficiente.
 
 Le [chiamate all’aggiornamento collettivo V2](https://developers.adobetarget.com/api/#updating-profiles) senza chiamate mbox tra gli stessi thirdPartyIds sovrascrivono le proprietà aggiornate nella prima chiamata di aggiornamento collettivo.
 
@@ -271,13 +275,13 @@ Consulta [Aggiornamento di profili](https://developers.adobetarget.com/api/#upda
 
 ## Aggiornamento di singolo profilo API {#section_5D7A9DD7019F40E9AEF2F66F7F345A8D}
 
-Quasi identico all'API di aggiornamento del profilo bulk, ma un solo profilo visitatore alla volta viene aggiornato, in linea con la chiamata API anziché con un file .csv
+Quasi identico all&#39;API di aggiornamento del profilo bulk, ma un solo profilo visitatore alla volta viene aggiornato, in linea con la chiamata API anziché con un file .csv
 
 ### Formato
 
 Il visitatore deve essere identificato tramite il valore mboxPC di Target o il valore mboxThirdPartyId. Experience Cloud ID (ECID) non è supportato.
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 Si vuole aggiornare Target in tempo reale quando un visitatore esegue alcune azioni offline, ad esempio se chiama un Call Center, richiede un prestito, utilizza una carta fedeltà in negozio, accede a un chiosco, e così via.
 
@@ -285,7 +289,7 @@ Si vuole aggiornare Target in tempo reale quando un visitatore esegue alcune azi
 
 Nessun limite al numero di attributi del profilo.
 
-Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l'API e viceversa.
+Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l&#39;API e viceversa.
 
 ### Avvertenze
 
@@ -303,7 +307,7 @@ GET e POST supportati. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mb
 
 ## Attributi del cliente {#section_C47FC7980A9A4608BD1A5F0BD900FA70}
 
-Gli attributi dei clienti consentono di caricare i dati del profilo visitatori tramite FTP nell'Experience Cloud. Una volta effettuato l'aggiornamento, sfrutta i dati in Adobe Analytics e Adobe Target.
+Gli attributi dei clienti consentono di caricare i dati del profilo visitatori tramite FTP nell&#39;Experience Cloud. Una volta effettuato l&#39;aggiornamento, sfrutta i dati in Adobe Analytics e Adobe Target.
 
 I clienti di Target Standard possono sfruttare 5 attributi, i clienti Target Premium possono sfruttare 200 attributi.
 
@@ -311,7 +315,7 @@ I clienti di Target Standard possono sfruttare 5 attributi, i clienti Target Pre
 
 Un file con estensione .csv con gli ID di Experience Cloud ID (ECID) e coppie di nome attributo e valore viene caricato tramite FTP o manualmente nell’interfaccia utente di Experience Cloud.
 
-### Esempi di casi d'uso
+### Esempi di casi d&#39;uso
 
 Il tuo CRM o altro sistema interno memorizza informazioni preziose che desideri condividere con Adobe Experience Cloud, inclusi Target e Analytics.
 
@@ -321,7 +325,7 @@ Il caricamento dei dati del cliente crea una voce di profilo per il visitatore i
 
 Gli stessi dati sono automaticamente disponibili in Target e Analytics.
 
-FTP può essere un metodo di implementazione più semplice rispetto all'API.
+FTP può essere un metodo di implementazione più semplice rispetto all&#39;API.
 
 ### Avvertenze
 
@@ -329,7 +333,7 @@ I clienti di Target Standard possono sfruttare 5 attributi, i clienti Target Pre
 
 Può solo aggiornare i valori tramite gli attributi del cliente, non sulla pagina.
 
-Richiede l'implementazione di Experience Cloud ID (ECID).
+Richiede l&#39;implementazione di Experience Cloud ID (ECID).
 
 ### Esempi di codice
 
@@ -337,4 +341,4 @@ Details can be found in [Create a customer attribute source and upload the data 
 
 ### Link a informazioni rilevanti
 
-[Crea un'origine attributo del cliente e carica il file di dati](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+[Crea un&#39;origine attributo del cliente e carica il file di dati](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
