@@ -1,11 +1,15 @@
 ---
-keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore stimato
+keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: Con Target puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
 title: Stimare l’Incremento dei ricavi
+feature: null
 topic: Advanced,Standard,Classic
 uuid: e3ccb440-ce54-4a5a-be93-69a6162a160f
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '504'
+ht-degree: 100%
 
 ---
 
@@ -28,7 +32,7 @@ La funzione di stima calcola la quantità di incremento conseguito dall’esperi
 
 La stima dell’incremento dei ricavo è calcolata in base al ricavo per visitatore (Revenue per Visit, RPV) ottenuto dalla metrica dell’obiettivo primario.
 
-La stima dell’incremento è calcolata utilizzando la seguente formula: (&lt;RPV esperienza vincente&gt; - &lt;RPV esperienza di controllo&lt;) * &lt;numero totale di visitatori nell’attività&gt;.
+La stima dell’incremento è calcolata utilizzando la seguente formula: (&lt;RPV esperienza vincente> - &lt;RPV esperienza di controllo&lt;) * &lt;numero totale di visitatori nell’attività>.
 
 Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K.
 
