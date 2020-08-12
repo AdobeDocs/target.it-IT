@@ -2,10 +2,11 @@
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
 description: Informazioni su come creare le proprietà e come utilizzare la funzionalità Proprietà e autorizzazioni, che consente agli amministratori di Target di creare aree di lavoro diverse (profili prodotto) in Target e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web in base a queste aree di lavoro.
 title: Autorizzazioni per gli utenti Enterprise
+feature: null
 subtopic: Getting Started
 uuid: 1961730d-2357-406f-acac-a36b7a63bd35
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3053'
 ht-degree: 81%
@@ -294,7 +295,7 @@ Finalità di apprendimento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Orario ufficio: Target Premium Workspaces
+### Orario ufficio: Aree di lavoro Target Premium
 
 Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
