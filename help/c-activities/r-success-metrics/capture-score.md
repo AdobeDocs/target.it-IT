@@ -1,12 +1,13 @@
 ---
 keywords: capture score;score
-description: La metrica di coinvolgimento Capture Score calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima visualizzazione della richiesta Target della campagna.
+description: La metrica di coinvolgimento Capture Score calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta Target di visualizzazione della campagna.
 title: Punteggio di acquisizione
+feature: null
 subtopic: Getting Started
 topic: Standard
 uuid: 977454ad-da32-449a-a8c9-1f3c75220be6
 translation-type: tm+mt
-source-git-commit: 32217a752574f671b790880667ac869443778f51
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '764'
 ht-degree: 51%
@@ -50,7 +51,7 @@ Esistono due metodi per assegnare un punteggio a una pagina:
 
 >[!NOTE]
 >
->Le richieste Target che si trovano al di sopra della prima richiesta di visualizzazione [!DNL Target] dell&#39;attività non saranno incluse nella valutazione.
+>Le richieste di destinazione che si trovano al di sopra della prima richiesta di visualizzazione [!DNL Target] dell&#39;attività non saranno incluse nella valutazione.
 
 Best practice is to assign values in the [!DNL Target] request. Questo consente di essere precisi nei valori misurati, a seconda del contenuto di ogni richiesta.
 
