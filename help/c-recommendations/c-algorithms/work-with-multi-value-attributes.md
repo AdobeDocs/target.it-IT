@@ -1,9 +1,10 @@
 ---
 keywords: multi-value;attributes;recommendations;multi value;multivalue;multi-value
-description: Informazioni sull'utilizzo di un campo multivalore in  Recommendations del Adobe Target mediante operatori multivalore speciali.
-title: Utilizzo di attributi con più valori in  raccomandazioni per Adobi Target
+description: Informazioni sull’utilizzo di un campo multivalore in  Adobe Target Recommendations con operatori multivalore speciali.
+title: Utilizzo di attributi con più valori in  Adobe Target Recommendations
+feature: null
 translation-type: tm+mt
-source-git-commit: cb3ce080fe5284d58e785704d1f422b56ff4b447
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -119,7 +120,7 @@ Rappresentazione API JSON della regola di inclusione:
 
 ### Esempio: Creazione API di criteri che consigliano gli elementi dai preferiti di un utente
 
-I criteri che utilizzano regole di filtraggio multivalore, come tutti i criteri, possono essere creati tramite le API di I/O di Adobe. Una chiamata API di esempio per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco dei parametri mbox `favorites` è fornita qui:
+I criteri che utilizzano regole di filtraggio multivalore, come tutti i criteri, possono essere creati tramite  API I/O Adobe. Una chiamata API di esempio per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco dei parametri mbox `favorites` è fornita qui:
 
 ```
 curl -X POST \
