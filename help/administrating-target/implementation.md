@@ -2,10 +2,11 @@
 keywords: implement;implementing
 description: Prima di cominciare a utilizzare Adobe Target, devi implementarlo sul tuo sito, capire alcuni concetti e termini di base, acquisire familiarità con il suo funzionamento e il modo in cui si integra con la tua infrastruttura e capire come il sistema traccia i visitatori.
 title: Implementare Target
+feature: null
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: b8eb49876c3759223eb5d6979678f6c6b24963e9
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
@@ -17,7 +18,7 @@ ht-degree: 43%
 
 Before you start using [!DNL Adobe Target], you should implement it on your site, understand a few basic concepts and terms; be familiar with how [!DNL Target] works and integrates with your infrastructure; and understand how visitors are tracked by the [!DNL Target] system.
 
-Per ulteriori informazioni, consultate i vari argomenti in [Implementa Target](/help/c-implementing-target/implementing-target.md).
+Per ulteriori informazioni, vedi i vari argomenti in [Implementa Target](/help/c-implementing-target/implementing-target.md).
 
 >[!NOTE]
 >
@@ -25,6 +26,6 @@ Per ulteriori informazioni, consultate i vari argomenti in [Implementa Target](/
 
 1. Per accedere alla pagina [!UICONTROL Implementazione] , fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
-1. Per informazioni sulle impostazioni disponibili in questa pagina, consulta [Implementare Target senza gestione](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)tag.
+1. Per informazioni applicabili alle impostazioni di questa pagina, consultate [Implementare Target senza un gestore](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)di tag.
 
 ![Pagina di implementazione](/help/administrating-target/assets/implementation.png)
