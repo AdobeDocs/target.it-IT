@@ -2,10 +2,11 @@
 keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;auto-target;auto target;permissions;what is adobe target;
 description: Adobe Target è la soluzione Adobe Experience Cloud che ti offre tutto il necessario per adattare e personalizzare l’esperienza dei tuoi clienti in modo da massimizzare i ricavi per siti web e mobili, applicazioni, social media e altri canali digitali.
 title: Introduzione ad Adobe Target
+feature: null
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: 45bd128a01dcb8d4d8d330d8ed4a4df04b98a612
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '906'
 ht-degree: 86%
