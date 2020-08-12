@@ -2,9 +2,13 @@
 keywords: collection;Targeting
 description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
 title: Raccolte in Adobe Target
+feature: null
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '638'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +75,7 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi f
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei raccolte in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un catalogo con l’intento di restituire i prodotti contenenti “vacanza”, verranno restituiti solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) Badge ![Tutorial](/help/assets/tutorial.png)
+## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
