@@ -2,10 +2,11 @@
 keywords: at.js releases;at.js versions
 description: Dettagli sulle modifiche apportate in ogni versione di at.js.
 title: Dettagli sulle versioni di at.js
+feature: null
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: b9a445d1b9e0b4b06b10370c6fefd570380d48f7
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '3978'
 ht-degree: 86%
@@ -61,8 +62,8 @@ Questa release di at.js è una versione di manutenzione e include i migliorament
 
 Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
-* È stato corretto un problema in seguito al quale il monitoraggio dei clic non segnalava le conversioni in  Analytics per Target (A4T) quando il codice Adobe  Analytics non era presente negli elementi di pagina.
-* Sono state migliorate le prestazioni quando si utilizzano  servizio Experience Cloud ID (ECID) v4.4 e at.js 2.2 sulle pagine Web.
+* È stato corretto un problema in seguito al quale il monitoraggio dei clic non segnalava le conversioni in Analytics per Target (A4T) quando  codice Adobe Analytics non era presente sugli elementi di pagina.
+* Sono state migliorate le prestazioni quando si utilizzano  servizio ID Experience Cloud (ECID) v4.4 e at.js 2.2 sulle pagine Web.
 * In precedenza, l&#39;ECID effettuava due chiamate di blocco prima che at.js potesse recuperare le esperienze. È stato ridotto a una singola chiamata, il che migliora notevolmente le prestazioni.
 
    >[!NOTE]
@@ -75,7 +76,7 @@ Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
 Questa versione di at.js include i seguenti miglioramenti e correzioni:
 
-* Sono state migliorate le prestazioni quando si utilizzano  servizio Experience Cloud ID (ECID) v4.4 e at.js 1.8 sulle pagine Web.
+* Sono state migliorate le prestazioni quando si utilizzano  servizio ID Experience Cloud (ECID) v4.4 e at.js 1.8 sulle pagine Web.
 * In precedenza, l&#39;ECID effettuava due chiamate di blocco prima che at.js potesse recuperare le esperienze. È stato ridotto a una singola chiamata, il che migliora notevolmente le prestazioni.
 
 >[!NOTE]
