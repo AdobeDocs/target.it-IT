@@ -1,11 +1,15 @@
 ---
-keywords: targeting;dispositivi mobili;target dispositivi mobili;deviceatlas;iphone;modelli di iphone;device atlas;displaywidth;larghezza display;altezza display;tipo di dispositivo;displayheight;telefono;tablet;modello di dispositivo
+keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Crea dei tipi di pubblico in Adobe Target per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
 title: Pubblico da dispositivi mobili in Adobe Target
+feature: null
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '582'
+ht-degree: 99%
 
 ---
 
@@ -20,27 +24,27 @@ Il targeting per i dispositivi mobili è fornito da [DeviceAtlas](https://device
 
 Il rilevamento del dispositivo viene eseguito analizzando le stringhe Utente-Agente. Alcuni produttori di dispositivi, come ad esempio Apple, disabilitano questa funzionalità (non forniscono informazioni sufficienti nel documentazione per gli utenti).
 
-Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell'UA. Pertanto non è possibile rilevare i modelli di iPhone (come iPhone 5S, iPhone SE, iPhone 6, e così via) utilizzando un semplice metodo basato su parole chiave.
+Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Pertanto non è possibile rilevare i modelli di iPhone (come iPhone 5S, iPhone SE, iPhone 6, e così via) utilizzando un semplice metodo basato su parole chiave.
 
 Per risolvere questo problema, Target raccoglie dati aggiuntivi per rilevare accuratamente iPhone e altri dispositivi Apple utilizzando i seguenti parametri:
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
 | devicePixelRatio | Stringa | Rapporto tra pixel fisici e pixel indipendenti dalla periferica (dips) nel browser.  per es. “1,5” o “2” |
-| screenOrientation | Stringa | Il motore JavaScript del dispositivo e del browser supportano l'Orientamento del Dispositivo. Può essere orizzontale o verticale. |
+| screenOrientation | Stringa | Il motore JavaScript del dispositivo e del browser supportano l&#39;Orientamento del Dispositivo. Può essere orizzontale o verticale. |
 | webGLRenderer | Stringa | Rendering del browser del driver grafico. |
 
 >[!NOTE]
 >
 >I clienti che usano SDK mobile non hanno necessità di utilizzare questa funzione. I clienti che utilizzano at.js devono [eseguire l’aggiornamento alla versione 1.5.0 di at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (o successiva).
 
-È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate tra loro mediante l'operatore O.
+È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate tra loro mediante l&#39;operatore O.
 
-I clienti che utilizzano un'integrazione personalizzata (non con at.js o l'SDK mobile) possono raccogliere questi parametri e trasmetterli come parametri mbox.
+I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#39;SDK mobile) possono raccogliere questi parametri e trasmetterli come parametri mbox.
 
-1. Nell’interfaccia di [!DNL Target], fai clic su **[!UICONTROL Pubblico]** &gt; **[!UICONTROL Crea pubblico]**.
+1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** &gt; **[!UICONTROL Mobile]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Mobile]**.
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * Nome marketing del dispositivo
@@ -52,6 +56,7 @@ I clienti che utilizzano un'integrazione personalizzata (non con at.js o l'SDK m
    * Sistema operativo
    * Altezza schermo (px)
    * Larghezza schermo (px)
+
    >[!NOTE]
    >
    >Le nuove modifiche introdotte in iOS 12.2 incidono sulla creazione di un pubblico con regole definite dai modelli Nome marketing del dispositivo e Modello dispositivo che specificano modelli di iPhone. Non è più possibile impostare come destinazione gli utenti che utilizzano iPhone con iOS 12.2. Tuttavia il targeting funziona correttamente per gli utenti di iPhone con una versione di iOS diversa da 12.2.
@@ -71,9 +76,9 @@ L’illustrazione seguente mostra un pubblico che include i visitatori che utili
 
 ## Video di formazione: Creazione di tipi di pubblico
 
-Questo video contiene informazioni sull'utilizzo delle categorie di pubblico.
+Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
 * Creazione di un pubblico
 * Definizione delle categorie di pubblico
 
->[!VIDEO](https://video.tv.adobe.com/v/17392?captions=ita)
+>[!VIDEO](https://video.tv.adobe.com/v/17392)
