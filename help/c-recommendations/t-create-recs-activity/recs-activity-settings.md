@@ -2,10 +2,14 @@
 keywords: Recommendations;Settings;name;objective;priority;duration;reporting settings;other metadata
 description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli in Adobe Target.
 title: Impostazioni per le attività Consigli in Adobe Target
+feature: null
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 65a4fd0d05ad065c9291a83dc0b3066451f7373e
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '388'
+ht-degree: 98%
 
 ---
 
@@ -62,7 +66,7 @@ L’attività può iniziare dopo l’attivazione, oppure è possibile impostare 
 
 Inserisci delle note sull’attività.
 
-## Video di formazione:Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
+## Video di formazione: Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
