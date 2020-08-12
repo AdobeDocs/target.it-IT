@@ -2,9 +2,13 @@
 keywords: catalog;search
 description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 title: Ricerca nel catalogo in Adobe Target
+feature: null
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '357'
+ht-degree: 96%
 
 ---
 
@@ -13,7 +17,7 @@ source-git-commit: 182b31e29c1a78881ebdd09fdcc73b74806d649b
 
 La ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 
-To access catalog search, click **[!UICONTROL Recommendations]**>**[!UICONTROL  Catalog Search]**.
+To access catalog search, click **[!UICONTROL Recommendations]** > **[!UICONTROL Catalog Search]**.
 
 Puoi limitare la ricerca selezionando un’opzione di ricerca dal menu delle opzioni visualizzato facendo clic sulla freccia rivolta verso il basso nel campo di ricerca.
 
@@ -28,9 +32,9 @@ Le opzioni di ricerca includono:
 * ID
 * Messaggio
 
-**[!UICONTROL TUTTO]**esegue la ricerca in tutti gli altri criteri di ricerca, utilizzando l’operatore logico OR.
+**[!UICONTROL TUTTO]** esegue la ricerca in tutti gli altri criteri di ricerca, utilizzando l’operatore logico OR.
 
-Nei risultati della ricerca, fai clic sul filtro **[!UICONTROL Ambiente]**per specificare l’[ambiente del gruppo di host](/help/administrating-target/hosts.md)di produzione di cui stai visualizzando il catalogo. Puoi inoltre scorrere tra gli elementi nei risultati di ricerca per visualizzare le miniature e altre informazioni sui prodotti.
+Nei risultati della ricerca, fai clic sul filtro **[!UICONTROL Ambiente]** per specificare l’[ambiente del gruppo di host](/help/administrating-target/hosts.md) di produzione di cui stai visualizzando il catalogo. Puoi inoltre scorrere tra gli elementi nei risultati di ricerca per visualizzare le miniature e altre informazioni sui prodotti.
 
 Il numero visualizzato accanto a &quot;Prodotti&quot; è il numero di prodotti corrispondenti al termine di ricerca, sul totale disponibile nell’ambiente specificato.
 
