@@ -1,10 +1,14 @@
 ---
-keywords: Targeting;analytics;server di tracciamento
+keywords: Targeting;analytics;tracking server
 description: È possibile configurare un’attività in Target Standard per utilizzare Adobe Analytics come origine per la generazione di rapporti (A4T).
 title: Utilizzo dei dati di Analytics
+feature: null
 uuid: 4ac0c181-030b-4cf5-b138-acf02c7af4f6
 translation-type: tm+mt
-source-git-commit: 217ca811521e67dcd1b063d77a644ba3ae94a72c
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+workflow-type: tm+mt
+source-wordcount: '536'
+ht-degree: 95%
 
 ---
 
@@ -29,10 +33,10 @@ Analytics for Target richiede un server di tracciamento per riportare correttame
 >
 >Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-Durante l'impostazione di un'attività dopo aver impostato Analytics come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. I segmenti di Analytics sono disponibili nel rapporto Attività di Target.
+Durante l&#39;impostazione di un&#39;attività dopo aver impostato Analytics come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. I segmenti di Analytics sono disponibili nel rapporto Attività di Target.
 
-È necessario selezionare una metrica di successo da utilizzare come obiettivo per ogni test. L'obiettivo dell'attività è l'attività di conversione che indica una campagna di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. È possibile scegliere qualsiasi metrica di Analytics disponibile nel selettore delle metriche di Analytics.
+È necessario selezionare una metrica di successo da utilizzare come obiettivo per ogni test. L&#39;obiettivo dell&#39;attività è l&#39;attività di conversione che indica una campagna di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. È possibile scegliere qualsiasi metrica di Analytics disponibile nel selettore delle metriche di Analytics.
 
-L'impostazione di un obiettivo non impedisce di utilizzare un'altra metrica per valutare i risultati dei test. L'obiettivo, comunque, funge da promemoria rispetto all'elemento da migliorare con il test.
+L&#39;impostazione di un obiettivo non impedisce di utilizzare un&#39;altra metrica per valutare i risultati dei test. L&#39;obiettivo, comunque, funge da promemoria rispetto all&#39;elemento da migliorare con il test.
 
-Quando un visitatore completa l'obiettivo, non è più incluso nella campagna. Se il visitatore viene incluso nuovamente nella campagna dopo aver completato un'attività, sarà conteggiato come nuovo visitatore.
+Quando un visitatore completa l&#39;obiettivo, non è più incluso nella campagna. Se il visitatore viene incluso nuovamente nella campagna dopo aver completato un&#39;attività, sarà conteggiato come nuovo visitatore.
