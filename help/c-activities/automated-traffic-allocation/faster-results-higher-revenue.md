@@ -2,9 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 title: L'allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale
+feature: null
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 9330fe9e3010bc232dd0ce29ef959a9172779675
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
@@ -24,7 +25,7 @@ Se desiderate un&#39;opzione per distribuire l&#39;esperienza vincente più spes
 
 [!UICONTROL Auto-Allocate] utilizza il principio del bandit multi-armato. Se il termine non è familiare, un bandito monomarca è un termine colloquiale per una slot machine (pensare: Las Vegas). Visualizzare l&#39;allocazione automatica del traffico come se avesse più slot machine, in questo caso, varianti di test, e all&#39;inizio tirare tutti i handle in modo uguale. Nel tempo, una o più macchine, o varianti di test, potrebbero pagare più di altre. Quando questo accade, un giocatore naturalmente inizierebbe a tirare le maniglie di quelli che vincono più spesso. In termini di allocazione del traffico, [!DNL Adobe Target] sarà utile a più visitatori l&#39;esperienza o le esperienze che stanno vincendo di più.
 
-Considerate la seguente illustrazione di un&#39;attività A/B di due settimane. Con [!UICONTROL Auto-Allocate], come emerge un&#39;esperienza vincente, [!UICONTROL Target] trasferisce più del traffico a quel vincitore all&#39;inizio del test.
+Considerate la seguente illustrazione di un&#39;attività A/B di due settimane. Con [!UICONTROL Auto-Allocate], man mano che emerge un&#39;esperienza vincente, [!UICONTROL Target] trasferisce una parte maggiore del traffico a tale vincitore all&#39;inizio del test.
 
 ![Allocazione automatica dell&#39;illustrazione](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
