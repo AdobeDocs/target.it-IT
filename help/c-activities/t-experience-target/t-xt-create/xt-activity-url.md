@@ -2,9 +2,10 @@
 keywords: Targeting
 description: L’URL attività determina la pagina utilizzata nell’attività Targeting esperienza e che viene aperta nel Compositore esperienza visivo o Compositore esperienza basato su moduli di Adobe Target quando l’attività viene progettata.
 title: URL attività
+feature: null
 uuid: 970de8ba-ab60-4339-866b-27889bec67f9
 translation-type: tm+mt
-source-git-commit: fdf75402a0283c3189952fb74997d4ab536d5098
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '275'
 ht-degree: 92%
@@ -44,6 +45,7 @@ L’URL attività determina la pagina utilizzata nell’attività Targeting espe
    * Frammento hash (#)
    * Query
    * Parametro mbox
+
    È possibile aggiungere altre regole all’URL attività mediante l’operatore E oppure O. Tutte le regole aggiunte vengono valutate tra loro con E.
 
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
