@@ -2,11 +2,11 @@
 keywords: automated personalization;Audiences;ensemble;random forest
 description: La Personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti di offerta ad ogni visitatore in base al suo profilo cliente, al fine di personalizzare il contenuto e favorire l’incremento.
 title: Personalizzazione automatizzata
-feature: null
+feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '1023'
 ht-degree: 98%
@@ -38,7 +38,7 @@ I seguenti termini sono utili quando si parla della [!UICONTROL Personalizzazion
 
 Quando utilizzi la [!UICONTROL personalizzazione automatizzata], considera i dettagli seguenti:
 
-La **[!UICONTROL personalizzazione automatizzata]**utilizza un algoritmo Foresta casuale da personalizzare.
+La **[!UICONTROL personalizzazione automatizzata]** utilizza un algoritmo Foresta casuale da personalizzare.
 
 Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel linguaggio della scienza dei dati, indica una classificazione di raccolta, o metodo di regressione, che funziona costruendo un gran numero di alberi decisionali basati su visitatori e attributi di visita. In Target, l’algoritmo Foresta casuale determina quale esperienza possa avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. Ad esempio, per i visitatori che utilizzano Chrome, sono membri fidelizzati e accedono al tuo sito il martedì, potrebbe essere più probabile la conversione con l’esperienza A; mentre per i visitatori provenienti da New York potrebbe essere più probabile la conversione con l’esperienza B. Per ulteriori informazioni su Foresta casuale in Target, consulta [Algoritmo Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
 
