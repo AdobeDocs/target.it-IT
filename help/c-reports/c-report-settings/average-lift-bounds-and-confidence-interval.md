@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
 description: I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione che consentono di comprendere i limiti di incremento e il livello di affidabilità associati all’attività. Ciò consente di determinare più accuratamente un vincitore.
 title: Incremento medio, limiti di incremento e intervallo di affidabilità
-feature: null
+feature: report settings
 uuid: 2899503a-d81e-4dc3-b258-a5ecafd1d1a4
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '845'
 ht-degree: 98%
