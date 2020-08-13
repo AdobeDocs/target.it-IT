@@ -2,10 +2,10 @@
 keywords: content library;assets;search;smart collections;search folder;filter
 description: Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
 title: Ricercare contenuti e creare raccolte avanzate
-feature: null
+feature: offers
 uuid: 14af2833-5602-4926-a25f-546c6dcb006c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '344'
 ht-degree: 100%
