@@ -1,11 +1,11 @@
 ---
 description: Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un'anteprima della pagina con ogni esperienza.
 title: Visualizzare un'anteprima delle esperienze per un test multivariato
-feature: null
+feature: mvt
 topic: Standard
 uuid: a5099438-e125-4d24-a7e6-ec270ffeba24
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '189'
 ht-degree: 100%
