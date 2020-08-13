@@ -2,11 +2,11 @@
 keywords: flicker;at.js;implementation;asynchronously;asynchronous;synchronously;synchronous
 description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
 title: Gestione della visualizzazione momentanea di altri contenuti di Adobe Target at.js
-feature: null
+feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 83%
@@ -36,7 +36,7 @@ La figura seguente mostra le chiamate per Nascondi corpo e Mostra corpo, sia in 
 
 ![Flusso di Target: richiesta di caricamento della pagina di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/atjs-20-flow-page-load-request.png)
 
-**at.js 1.*x ***
+**at.js 1.*x***
 
 ![](assets/target-flow2.png)
 
