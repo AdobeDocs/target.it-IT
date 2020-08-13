@@ -2,11 +2,11 @@
 keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
 description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 title: Utilizzo del pubblico in Adobe Target
-feature: null
+feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -75,7 +75,7 @@ Per questi tipi di pubblico importati sono disponibili i seguenti dettagli:
 | Tipo di pubblico | Dettagli |
 |--- |--- |
 | Pubblico mobile | Nome marketing, produttore e modello.<br>L’operatore `matches | does not match` viene visualizzato invece del `equals | does not equal`<br>![Pubblico mobile importato](/help/c-target/c-audiences/assets/imported_mobile_audience.png). |
-| Pubblico con comportamento del visitatore | **user.categoryAffinity:** `categoryAffinity` con parametro `FAVORITE`.<br>![Affinità tra categorie importata](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoraggio:**il servizio di monitoraggio è uguale a vero.<br>**Nessun servizio di monitoraggio:** il servizio di monitoraggio è uguale a falso.<br>![Monitoraggio importato](/help/c-target/c-audiences/assets/imported_monitoring.png) |
+| Pubblico con comportamento del visitatore | **user.categoryAffinity:** `categoryAffinity` con parametro `FAVORITE`.<br>![Affinità tra categorie importata ](/help/c-target/c-audiences/assets/imported_category_affinity.png)<br>**Monitoraggio:** il servizio di monitoraggio è uguale a vero.<br>**Nessun servizio di monitoraggio:** il servizio di monitoraggio è uguale a falso.<br>![Monitoraggio importato](/help/c-target/c-audiences/assets/imported_monitoring.png) |
 | Tipi di pubblico con operatore NOT | **Regola singola:** Target mostra il pubblico nel formato `[All Visitor AND [NOT [rule]`. Viene visualizzata una singola regola NOT con AND con pubblico `AllVisitor`.<br>![Pubblico NOT importato](/help/c-target/c-audiences/assets/imported_not_audience.png) |
 
 Quando lavori con tipi di pubblico importati, considera i seguenti punti:
