@@ -2,11 +2,11 @@
 keywords: experience;control;automated personalization;auto-target
 description: Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività di Personalizzazione automatizzata o Targeting automatico in Adobe Target.
 title: Utilizzare un’esperienza specifica come controllo in Adobe Target
-feature: null
+feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '753'
 ht-degree: 100%
