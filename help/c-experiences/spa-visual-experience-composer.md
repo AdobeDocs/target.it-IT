@@ -2,11 +2,11 @@
 keywords: spa vec;react;angular;react.js;spa visual experience composer;spa experience composer options;single page apps;single-page-app;spa;mobile experience options;target view
 description: Il compositore esperienza visivo (VEC) per app a pagina singola (SPA) in Adobe Target consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utilizzato per creare attività nei framework più popolari, come ad esempio React e Angular.
 title: Compositore esperienza visivo per app a pagina singola (SPA)
-feature: null
+feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -80,7 +80,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    | --- | --- | --- | --- | --- |
    | viewName | Stringa | Sì | 1. Senza spazi finali.<br>2. Non può essere vuoto.<br>3. Il nome della visualizzazione deve essere univoco per tutte le pagine.<br>4. **Avviso**: il nome della visualizzazione non deve iniziare o finire con &quot;`/`&quot;. Questo perché il cliente in genere estrae il nome della visualizzazione dal percorso URL. Per noi, &quot;home&quot; e &quot;`/home`&quot; sono diversi.<br>5. **Avviso**: non attivare la stessa visualizzazione in sequenza più volte con l&#39;opzione `{page: true}`. | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
    | options | Oggetto | No |  |  |
-   | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE **: con`page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+   | options > page | Booleano | No |  | **TRUE**: il valore predefinito della pagina è vero. Con `page=true`, si inviano notifiche ai server perimetrali per incrementare il conteggio delle impression.<br>**FALSE**: con `page=false`, non si inviano notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
@@ -209,8 +209,8 @@ Nella tabella seguente viene descritta ogni azione:
 | --- | --- |
 | Informazioni | Visualizza i dettagli dell’azione. |
 | Modifica | Ti consente di modificare direttamente le proprietà dell’azione. |
-| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L’azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota **: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite[!UICONTROL Sfoglia]per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
-| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina]: tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota **: dopo un’operazione Sposta, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Clona | Clona l’azione in una o più visualizzazioni presenti nel pannello [!UICONTROL Modifiche] o in una o più visualizzazioni a cui sei passato nel Compositore esperienza visivo. L’azione non deve necessariamente essere presente nel pannello [!UICONTROL Modifiche].<br>**Nota**: dopo un’operazione Clona, passa alla visualizzazione nel Compositore esperienza visivo tramite [!UICONTROL Sfoglia] per verificare che l’azione clonata sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
+| Sposta | Sposta l’azione in un evento di caricamento pagina o in un’altra visualizzazione già esistente nel pannello delle modifiche.<br>[!UICONTROL Evento di caricamento pagina]: tutte le azioni corrispondenti all’evento di caricamento pagina vengono applicate al caricamento iniziale della pagina dell’applicazione web.<br>**Nota**: dopo un’operazione Sposta, passa alla visualizzazione nel Compositore esperienza visivo tramite Sfoglia per verificare che lo spostamento sia un’operazione valida. Se non può essere applicata alla visualizzazione, viene visualizzato un errore. |
 | Elimina | Elimina l’azione. |
 
 >[!NOTE]
