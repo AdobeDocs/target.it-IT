@@ -1,11 +1,11 @@
 ---
 description: Elimina i cookie del browser di Target, in modo da poter convalidare tutte le esperienze.
 title: Eliminare il cookie  Adobe Target
-feature: null
+feature: privacy and security
 topic: Standard
 uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -75,7 +75,7 @@ Versione 13.1.2
 1. Fate clic sul menu **Safari** > **Preferenze**.
 1. Click the **Privacy** tab.
 1. Fate clic su **Gestisci dati** sito Web.
-1. Selezionare i siti per i cookie da eliminare, quindi fare clic su **Rimuovi**.
+1. Selezionate i siti per i cookie da eliminare, quindi fate clic su **Rimuovi**.
 
    >[!NOTE]
    >
