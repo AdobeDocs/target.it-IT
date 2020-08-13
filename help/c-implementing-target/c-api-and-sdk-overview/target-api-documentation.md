@@ -2,11 +2,11 @@
 keywords: api;adobe i/o
 description: Informazioni sulla transizione dalle API legacy di Target alle nuove API su Adobe I/O.
 title: Transizione dalle API legacy di Target ad Adobe I/O
-feature: null
+feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
