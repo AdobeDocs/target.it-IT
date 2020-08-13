@@ -2,10 +2,10 @@
 keywords: collection;Targeting
 description: Una raccolta è un insieme di prodotti o elementi in Adobe Target che sono considerati idonei per essere proposti come consigli.
 title: Raccolte in Adobe Target
-feature: null
+feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 99%
