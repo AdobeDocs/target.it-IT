@@ -2,10 +2,10 @@
 keywords: Target;reports;report settings;preset;target preset;metric;audience;date range;settings;download;table view;graph view;average lift;lift;lift bound;confidence interval;confidence;location contribution;running average;counting methodology
 description: Informazioni su come impostare gli elementi da visualizzare nel rapporto. Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
 title: Impostazioni dei rapporti
-feature: null
+feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 83%
@@ -29,7 +29,7 @@ Puoi anche configurare il rapporto di una singola attività come desiderato e sa
 
 ### Creare un predefinito o un predefinito
 
-1. Configurate il rapporto dell&#39;attività nel modo desiderato.
+1. Configure the activity&#39;s report as desired.
 
    Le impostazioni disponibili, incluse metriche, intervalli di date, audience, impostazioni avanzate e così via, sono spiegate di seguito.
 
