@@ -2,9 +2,10 @@
 keywords: Recommendations;settings;preferences;industry vertical;filter incompatible criteria;default host group;thumb base url;recommendations api token
 description: Che cosa è necessario sapere prima di creare un’attività di Consigli.
 title: Pianificare e implementare la funzione Consigli
+feature: null
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 3edb13b196240bb1918fc66edcc653936e32d3ef
+source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
 workflow-type: tm+mt
 source-wordcount: '1597'
 ht-degree: 97%
@@ -12,7 +13,7 @@ ht-degree: 97%
 ---
 
 
-# ![Piano PREMIUM](/help/assets/premium.png) e implementazione di raccomandazioni {#plan-and-implement-recommendations}
+# ![PREMIUM](/help/assets/premium.png) : pianificazione e implementazione di Recommendations {#plan-and-implement-recommendations}
 
 Che cosa è necessario sapere prima di creare un’attività di Consigli.
 
