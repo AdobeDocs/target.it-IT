@@ -2,11 +2,11 @@
 keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
 description: Informazioni dettagliate su come effettuare l’aggiornamento da Adobe Target at.js 1.*x* alla versione 2.0.0
 title: Aggiornamento da Adobe Target at.js versione 1.*x* alla versione 2.*x*
-feature: null
+feature: client-side
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '2747'
 ht-degree: 90%
@@ -28,7 +28,7 @@ Di seguito sono riportati alcuni vantaggi dell’utilizzo di at.js 2.*x* che non
 
 I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.*x* tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.*x*, consulta [Implementazione di un’applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
 
-![Flusso di Target con at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
+![Flusso di Target con at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
 | Chiamata | Dettagli |
 | --- | --- |
