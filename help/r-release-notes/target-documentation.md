@@ -2,10 +2,10 @@
 keywords: adobe target;target;documentation;api;apis;sdk;sdks;tutorials;doc;documentation
 description: ' documentazione Adobe Target è disponibile in diversi formati, tra cui panoramiche, esercitazioni e guide per l’interfaccia utente, SKD e API.'
 title: Annunci Target
-feature: null
+feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '471'
 ht-degree: 2%
