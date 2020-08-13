@@ -2,10 +2,10 @@
 keywords: catalog;search
 description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
 title: Ricerca nel catalogo in Adobe Target
-feature: null
+feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 96%
