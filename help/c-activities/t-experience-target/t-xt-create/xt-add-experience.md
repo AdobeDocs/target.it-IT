@@ -2,11 +2,11 @@
 keywords: create experience;experience create;priority;audience;experience;visual experience composer
 description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina in un’attività Targeting esperienza.
 title: Creare esperienze
-feature: null
+feature: xt
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 93%
