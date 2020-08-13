@@ -2,10 +2,10 @@
 keywords: Recommendations;recommendations algorithms;recommendations activity;recommendations classic
 description: Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività Consigli di Target Premium.
 title: Confronto tra Recommendations Classic e le attività Consigli di Target Premium
-feature: null
+feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
