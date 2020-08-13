@@ -2,11 +2,11 @@
 keywords: experience preview;experience urls;generate urls;view experience urls
 description: Gli URL di anteprima esperienza possono essere generati per le attività di Target  Automated Personalization per visualizzare il contenuto dell'esperienza direttamente sul sito prima che l'attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
 title: Anteprima delle attività Personalizzazione automatizzata con URL di anteprima dell’esperienza
-feature: null
+feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
