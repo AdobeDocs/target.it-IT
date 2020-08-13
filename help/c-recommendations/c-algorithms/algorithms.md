@@ -2,10 +2,10 @@
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
 description: I criteri di  Adobe Target Recommendations sono regole che determinano quali prodotti raccomandare in base a un insieme predeterminato di comportamenti dei visitatori.
 title: Criteri in  Adobe Target Recommendations
-feature: null
+feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '1631'
 ht-degree: 74%
@@ -79,7 +79,7 @@ Ad esempio, se desiderate visualizzare gli elementi più venduti dal marchio pre
 
 | Criteri | Descrizione |
 |--- |--- |
-| Articoli/Media con attributi simili | Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore.<br>**Nota:**se selezioni Articoli/Media con attributi simili, avrai la possibilità di impostare regole di somiglianza del contenuto. |
+| Articoli/Media con attributi simili | Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore.<br>**Nota:** se selezioni Articoli/Media con attributi simili, avrai la possibilità di impostare regole di somiglianza del contenuto. |
 | Chi ha visualizzato questo ha visualizzato anche quello | Consiglia gli elementi che vengono visualizzati più spesso nella stessa sessione in cui viene visualizzato l’elemento specificato. |
 | Chi ha visualizzato questo ha acquistato anche quello | Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. Questo criterio restituisce gli altri prodotti acquistati dopo la visualizzazione dell’articolo corrente; il prodotto specificato non è incluso nell’insieme di risultati. |
 | Chi ha comprato questo ha acquistato anche quello | Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato. |
