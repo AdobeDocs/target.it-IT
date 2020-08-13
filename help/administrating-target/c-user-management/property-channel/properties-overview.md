@@ -2,11 +2,11 @@
 keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
 description: Informazioni sulle attività necessarie per aggiungere utenti all’implementazione di Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l’implementazione di Target per includere il parametro at_property e specificare ruoli e autorizzazioni.
 title: Configurare le autorizzazioni Enterprise
-feature: null
+feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1476'
 ht-degree: 69%
@@ -101,7 +101,7 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-impleme
 
 ## Passaggio 4: Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
- a Target.
+Le proprietà sono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (chiamata Target, chiamata API, ecc.) a Target.
 
 Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
