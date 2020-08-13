@@ -2,10 +2,10 @@
 keywords: automated traffic allocation;targeting;auto-allocate
 description: L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 title: L'allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale
-feature: null
+feature: auto-allocate
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 5%
