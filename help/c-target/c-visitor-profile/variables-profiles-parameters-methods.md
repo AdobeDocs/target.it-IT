@@ -2,11 +2,11 @@
 keywords: variables;profiles;parameters;built in profiles;methods;url variables;geo profiles;third party profiles;mbox variables;campaign variables;customer attributes
 description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
 title: Glossario di profili e variabili
-feature: null
+feature: visitor profiles
 topic: Standard
 uuid: 9286467c-cbb5-42be-99c0-6687ffab0969
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '559'
 ht-degree: 93%
@@ -88,7 +88,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | In ogni mbox chiamata alla pagina viene assegnato un valore. |
 | mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all&#39;URL della pagina in cui lo cerca il mbox.js. |
-| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:**l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza[Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md)(A4T). Utilizza la[modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md)durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
+| mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
 
 ## Attributi del cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
