@@ -2,11 +2,11 @@
 keywords: adobe.target.trackEvent;trackEvent;trackevent;track event;at.js;functions;function;preventDefault;preventdefault;prevent default
 description: Informazioni sulla funzione adobe.target.trackEvent(options) per la libreria at.js JavaScript di Adobe Target.
 title: Informazioni sulla funzione adobe.target.trackEvent(options) per la libreria at.js JavaScript di Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '248'
 ht-degree: 100%
@@ -27,7 +27,7 @@ Di seguito sono riportati i dettagli API:
 | mbox | Stringa | Sì | Nome Mbox |
 | selector | Stringa | No | Selettori CSS utilizzati per trovare gli elementi HTML. I listener di eventi verranno allegati agli elementi trovati. |
 | type | Stringa | No | Rappresenta un tipo di evento registrato. Può trattarsi sia di eventi HTML noti come: click, mouseown, ecc, così come di eventi HTML personalizzati. |
-| preventDefault | Booleano | No | Indica se utilizzare `event.preventDefault()` nella chiamata di ritorno del listener di eventi. Predefinito su false.<br>**Nota **: sono supportati solo`form[submit] and `a[click]”. Altri scenari non sono supportati a causa della complessità e delle enormi quantità di scenari da supportare. |
+| preventDefault | Booleano | No | Indica se utilizzare `event.preventDefault()` nella chiamata di ritorno del listener di eventi. Predefinito su false.<br>**Nota**: sono supportati solo `form[submit] and `a[click]”. Altri scenari non sono supportati a causa della complessità e delle enormi quantità di scenari da supportare. |
 | params | Oggetto | No | Parametri mbox. Un oggetto di coppie chiave-valore che presenta la struttura seguente:<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Numero | No | Timeout in millisecondi.<br>Se non viene specificato, viene utilizzato il valore predefinito:<br>`...timeoutInSeconds: 0.15...}` |
 | success | Funzione | No | Funzione di callback utilizzata per indicare che quell’evento è stato segnalato. |
