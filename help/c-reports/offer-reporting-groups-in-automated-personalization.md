@@ -2,11 +2,11 @@
 keywords: automated personalization;offer;reporting;group;reporting group
 description: Informazioni sull'utilizzo dei gruppi di reporting  attività Automated Personalization (AP) in  Adobe Target.
 title: Offrire gruppi di reporting in  attività Automated Personalization (AP) in  Adobe Target
-feature: null
+feature: reports
 topic: Advanced
 uuid: 5b111a68-bd05-4ef1-8156-d064f2c7e257
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 64%
