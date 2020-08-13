@@ -2,11 +2,11 @@
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
-feature: null
+feature: ab
 solution: Target,standard
 uuid: 57f84da4-10f9-42f3-b9ce-06cf41007157
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
 workflow-type: tm+mt
 source-wordcount: '312'
 ht-degree: 99%
