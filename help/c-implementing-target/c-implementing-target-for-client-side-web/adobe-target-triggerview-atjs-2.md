@@ -2,11 +2,11 @@
 keywords: adobe.target.triggerView;triggerView;triggerview;trigger view;at.js;functions;function;viewName;viewname;view name
 description: Informazioni sulla funzione adobe.target.triggerView (viewName, options) per la libreria at.js JavaScript di Adobe Target.
 title: Informazioni sulla funzione adobe.target.triggerView (viewName, options) per la libreria at.js JavaScript di Adobe Target.
-feature: null
+feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '270'
 ht-degree: 100%
@@ -26,7 +26,7 @@ ht-degree: 100%
 | --- | --- | --- | --- |
 | viewName | Stringa | Sì | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
 | options | Oggetto | No |  |
-| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Se alla visualizzazione non è associata alcuna esperienza o metrica di attività, non viene inviata alcuna notifica.<br>**FALSE:**con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Se alla visualizzazione non è associata alcuna esperienza o metrica di attività, non viene inviata alcuna notifica.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
 ## Esempio: True
 
