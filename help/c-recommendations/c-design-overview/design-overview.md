@@ -2,10 +2,10 @@
 keywords: recommendations design;template;create design;delivery;output
 description: Informazioni generali sulle progettazioni che definiscono come verranno visualizzati i consigli su una pagina.
 title: Panoramica della progettazione
-feature: null
+feature: designs
 uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
 workflow-type: tm+mt
 source-wordcount: '84'
 ht-degree: 100%
