@@ -2,11 +2,11 @@
 keywords: target documentation change log;documentation updates;new topics;edits;updates;update
 description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione Adobe Target , ordinate per rilascio.
 title: Modifiche apportate alla documentazione di Adobe Target.
-feature: null
+feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
 workflow-type: tm+mt
 source-wordcount: '1856'
 ht-degree: 29%
@@ -118,7 +118,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione.&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | Testo aggiornato per &quot;Perché non è possibile visualizzare l&#39;incremento e la confidenza sulle metriche calcolate?&quot; |
 | Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull&#39;utilizzo `user.header('x-forwarded-for')` con i margini AWS più recenti per recuperare gli indirizzi IP degli utenti. |
-|  | [Aggiornamento da at.js 1.*x* a at.js 2.*x *](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | È stata aggiunta la seguente nota:<ul><li>Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti. È importante notare che questa funzionalità funziona solo dopo la scadenza della sessione.</li></ul> |
+|  | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md) | È stata aggiunta la seguente nota:<ul><li>Dopo l’installazione della libreria ECID v4.3.0+ e di at.js 2.*x*, potrai creare attività che si estendono su più domini singoli e tenere traccia degli utenti. È importante notare che questa funzionalità funziona solo dopo la scadenza della sessione.</li></ul> |
 | 30 marzo | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#atjs) | Sono stati aggiunti problemi noti che interessano le versioni di at.js precedenti a at.js 2.2.0. Questo problema causava il monitoraggio dei clic per non riportare le conversioni in Analytics per Target (A4T) quando  codice Adobe Analytics non era presente sugli elementi di pagina. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte le seguenti informazioni ai dettagli di at.js versione 2.2.0:<ul><li>È stato risolto un problema che causava il mancato monitoraggio dei clic nel report delle conversioni in Analytics per Target (A4T) quando  codice Adobe Analytics non era presente sugli elementi di pagina.</li></ul> |
 | 25 marzo | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulle seguenti nuove versioni di at.js:<ul><li>at.js versione 2.3.0</li><li>at.js versione 1.8.1</li></ul> |
