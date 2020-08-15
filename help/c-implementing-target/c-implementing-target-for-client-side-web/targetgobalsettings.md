@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
 workflow-type: tm+mt
-source-wordcount: '1647'
-ht-degree: 40%
+source-wordcount: '1686'
+ht-degree: 39%
 
 ---
 
@@ -476,6 +476,8 @@ Considerate quanto segue quando utilizzate `serverState`:
    Per attivare queste impostazioni, attivare l’attivazione o disattivazione in Amministrazione **[UICONTROL > Implementazione > Modifica > Caricamento pagina abilitata]**.
 
    ![Impostazioni abilitate per il caricamento della pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
+
+* Se utilizzate `serverState` e utilizzate `<script>` tag nel contenuto restituito, accertatevi che il contenuto HTML utilizzi `<\/script>` anziché `</script>`. Se utilizzate `</script>`, il browser interpreta `</script>` come fine di uno SCRIPT in linea e potrebbe interrompere la pagina HTML.
 
 ### Risorse aggiuntive
 
