@@ -5,9 +5,9 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
 workflow-type: tm+mt
-source-wordcount: '3421'
+source-wordcount: '3442'
 ht-degree: 88%
 
 ---
@@ -32,6 +32,10 @@ Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /car
 ### Collegamenti di anteprima Controllo di qualità delle attività {#preview}
 
 I collegamenti di [anteprima Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Per evitare che questo problema si verifichi di nuovo, archivia le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
+
+### Modalità QA per le attività Recommendations
+
+Un problema noto impedisce l&#39;anteprima se i criteri utilizzati nell&#39;attività sono basati su elementi o categorie. (TNT-37455)
 
 ### Offerte di reindirizzamento {#redirect}
 
