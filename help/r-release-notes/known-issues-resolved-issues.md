@@ -5,9 +5,9 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: c974e6b71d94a28b73fc45affe041c794ab7fe7d
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3403'
 ht-degree: 88%
 
 ---
@@ -27,11 +27,7 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 ### Consegna delle pagine {#page-delivery}
 
-Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di pubblico né sulla consegna delle offerte. (TGT-35916)
-
-### Collegamenti di anteprima Controllo di qualità delle attività {#preview}
-
-I collegamenti di [anteprima Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Per evitare che questo problema si verifichi di nuovo, archivia le attività salvate che non vengono più utilizzate attivamente. (TNT-32697)
+Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di pubblico né sulla consegna delle offerte. (TGT-35920)
 
 ### Modalità QA per le attività Recommendations
 
@@ -43,10 +39,6 @@ Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzame
 
 * In alcune condizioni, un numero limitato di clienti ha segnalato maggiore varianza nella distribuzione del traffico quando si utilizza un’offerta di reindirizzamento in attività configurate con Analytics per Target (A4T). Gli ingegneri Adobe stanno indagando su questo problema.
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
-
-### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata.
-
-Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
 
 ### Annullare il caricamento di una pagina all’interno del Compositore esperienza visivo {#cancel}
 
@@ -107,12 +99,6 @@ Di seguito sono riportati problemi noti relativi a at.js:
 
    **Soluzione alternativa**: configura at.js con l’opzione “Solo x” attivata e passa `mboxThirdPartyId` nelle chiamate per la gestione degli utenti.
 
-### mbox.js
-
-La libreria mbox.js non supporta linguaggi di template lato client, come Handlebar e Mustache. La libreria at.js *supporta* tali linguaggi.
-
-**Nota**: la libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
-
 ### Implementazione: Creazione automatica mbox globale
 
 On the Implementation tab ([!UICONTROL Administration > Implementation]) the [!UICONTROL Global Mbox Auto Create] field will be &quot;false&quot; by default for a newly provisioned tenant.
@@ -148,6 +134,18 @@ Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
+
+### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata.
+
+Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
+
+Questo problema è stato risolto con la versione 19.7.1 di Target. 
+
+### mbox.js
+
+La libreria mbox.js non supporta linguaggi di template lato client, come Handlebar e Mustache. La libreria at.js *supporta* tali linguaggi.
+
+**Nota**: la libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Generazione di rapporti e ordini estremi
 
