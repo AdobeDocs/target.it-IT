@@ -6,10 +6,10 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 4fb49bd8cac0faf42e009e5d66cd0e577c996653
 workflow-type: tm+mt
-source-wordcount: '1489'
-ht-degree: 79%
+source-wordcount: '1531'
+ht-degree: 80%
 
 ---
 
@@ -67,6 +67,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
 ## Considerazioni {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
 * Il collegamento [!UICONTROL Controllo di qualità attività] viene visualizzato nella pagina [!UICONTROL Panoramica] di tutti i tipi di attività eccetto Personalizzazione automatica. È possibile utilizzare i [collegamenti di anteprima](../../c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) per le attività di Personalizzazione automatica.
+* I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Per evitare che questo problema si verifichi di nuovo, archivia le attività salvate che non vengono più utilizzate attivamente.
 * Gli URL controllo qualità delle attività sono disponibili per le attività in cui Analytics è impostato come origine per la creazione di rapporti (A4T). I risultati generati durante l’esecuzione del controllo qualità utilizzando la funzione Controllo di qualità attività confluiranno nella stessa suite di rapporti dei dati dell’attività, anche dopo che l’attività sarà stata pubblicata.
 * La funzione Controllo di qualità attività non visualizza i contenuti di attività archiviate o scadute. Se si disattiva un’attività terminata, è necessario salvare nuovamente l&#39;attività affinché la funzione Controllo di qualità attività funzioni.
 * Le attività importate in Target Standard/Premium (da Target Classic, ad esempio) non supportano gli URL di controllo qualità.
