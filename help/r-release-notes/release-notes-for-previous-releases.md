@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 234a995e9fab6e8e4063d2897aa1c3b80e2b2906
 workflow-type: tm+mt
-source-wordcount: '30025'
+source-wordcount: '29471'
 ht-degree: 89%
 
 ---
@@ -1457,13 +1457,6 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
       <li id="li_EF1B3D3DCC7F4D2490D2BFE660EC661C"> <p>Sono state apportate modifiche per garantire che il tracciamento dei clic non interferisca con la proprietà di visibilità. Gli elementi di tracciamento dei clic sono contrassegnati con la classe CSS <span class="codeph">at-element-click-tracking</span> anziché <span class="codeph">at-element-marker </span>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>18 luglio 2017</b> </p> <p> È ora disponibile la versione 63 di <span class="filepath">mbox.js</span>. Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">Download di mbox.js </a>. </p> <p>I seguenti miglioramenti e correzioni sono inclusi nella versione 63 di <span class="filepath">mbox.js</span>: </p> <p> 
-     <ul id="ul_F876FABA804A459D84387102DC38B7DC"> 
-      <li id="li_E840AFDFAD394F5E9CDF52FABCA27EF7">È stato risolto un problema nella generazione di SDID quando si utilizzano <span class="codeph">mboxDefine()</span> e <span class="codeph">mboxUpdate()</span>. Questo influisce solo sui clienti che dispongono di API visitatore nella pagina. </li> 
-     </ul> </p> </td> 
-  </tr> 
  </tbody> 
 </table>
 
@@ -1581,41 +1574,6 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni d
    `marketingCloudMetadata(remoteModifiedBy)`
 
    Questo processo di importazione verrà eseguito quando verrà aperta la pagina attività, con un ritardo massimo di dieci minuti. (KB-1526)
-
-### Modifiche alla piattaforma Target (18 luglio 2017) {#section_08A2B80060FE4833B1BDD12D1AF5E3D6}
-
-<table id="table_17607030DA7948819F73FA9F2B22AB5B"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Modifica </th> 
-   <th colname="col2" class="entry"> Dettagli </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js </span> </p> </td> 
-   <td colname="col2"> <p><b>18 luglio 2017</b> </p> <p> È ora disponibile la versione 63 di <span class="filepath">mbox.js</span>. Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/target-download-config-mbox.md#task_4EAE26BB84FD4E1D858F411AEDF4B420" format="dita" scope="local">Download di mbox.js </a>. </p> <p>I seguenti miglioramenti e correzioni sono inclusi nella versione 63 di <span class="filepath">mbox.js</span>: </p> <p> 
-     <ul id="ul_6C88DB6332A94858B278F7F846E2F8EB"> 
-      <li id="li_597D15CAD9DA44008FEC01E6BB3CB9A7">È stato risolto un problema nella generazione di SDID quando si utilizzano <span class="codeph">mboxDefine()</span> e <span class="codeph">mboxUpdate()</span>. Questo influisce solo sui clienti che dispongono di API visitatore nella pagina. </li> 
-     </ul> </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
-   <td colname="col2"> <p><b>7 luglio 2017</b> </p> <p> È ora disponibile la versione 1.0 di <span class="filepath">at.js</span>. Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">Scarica at.js</a>. </p> <p>I miglioramenti e le correzioni seguenti sono inclusi nella versione 1.0 di <span class="filepath">at.js</span>: </p> <p> 
-     <ul id="ul_4407D3923CE34CD8AD7120A2580A34DF"> 
-      <li id="li_34C8D0572A0340DF99294DD33E352D2C"> <p>Supporto per il caricamento in modo asincrono di at.js per caricare le pagine più velocemente. </p> </li> 
-      <li id="li_BC944624B3104418854140484E682D69"> <p>Supporto che consente di pre-nascondere il contenuto della pagina durante il caricamento di at.js in modo asincrono. </p> </li> 
-      <li id="li_F9D0AD095A2A425CB78772DDE8FCCF97"> <p>Miglioramento della messaggistica di errore quando la consegna del contenuto è disattivata. </p> </li> 
-      <li id="li_4B32468665A34FC0AF66C1CD15DE7AFC"> <p>Miglioramenti delle prestazioni durante la distribuzione di più attività. </p> </li> 
-      <li id="li_48EAD25A4077411E954CCCDB95058924"> <p>Supporto per il compressore YUI. </p> </li> 
-      <li id="li_3598B4223C0A478D956A7EC618BFBCD6"> <p>Segnalazione di bug ed errori per eventi personalizzati durante la consegna delle attività. </p> </li> 
-      <li id="li_28A5DDF1A9D64D66BF8BD0E89E5BD69B"> <p>Correzione di problemi di prestazione in Microsoft Internet Explorer 11. </p> </li> 
-      <li id="li_BB1C11A76FB14341AB7699F2C7753377"> <p>Risoluzione della funzione <span class="codeph">getOffer()</span> che dava un errore su alcuni siti web. </p> </li> 
-      <li id="li_4C7F3DE9A0A346C38E9EDCE21C83843D"> <p>È possibile caricare la libreria di Target in modo asincrono. </p> </li> 
-     </ul> </p> </td> 
-  </tr> 
- </tbody> 
-</table>
 
 ### Target Standard/Premium 17.6.2 (22 giugno 2017) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
@@ -1845,14 +1803,6 @@ Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioram
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>È stata aggiunta l’impostazione <span class="codeph">secureOnly</span> che indica se <span class="codeph">at.js</span> deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False e può essere bypassata tramite <span class="codeph">targetGlobalSettings </span>. (TNT-26183) </p> <p>Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>L'opzione <span class="wintitle">Supporto di browser legacy</span> è disponibile nelle versioni 0.9.3 e precedenti di <span class="codeph">at.js</span>. Questa opzione è stata rimossa nella versione 0.9.4 di <span class="codeph">at.js</span>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">Configurazioni at.js</a>. </p> </li> 
      </ul> </p> <p>Per informazioni dettagliate sulle modifiche apportate a ogni versione di <span class="codeph">at.js</span>, vedi <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">Dettagli sulla versione di at.js </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="codeph"> mbox.js</span> versione 62 </p> </td> 
-   <td colname="col2"> <p>18 gennaio 2017 </p> <p> La versione 62 di <span class="codeph">mbox.js</span> contiene i seguenti miglioramenti e correzioni: </p> <p> 
-     <ul id="ul_1D4351AEB0D74FE4B09196113A4672C1"> 
-      <li id="li_653D9C605A0B447AB1FFEE5D22D3AD05"> <p>Sono stati risolti i problemi di visualizzazione momentanea nelle attività di reindirizzamento visualizzate nei browser Google Chrome. (TNT-24928) </p> </li> 
-      <li id="li_2196D7CD9B144C0A96AE8B8D13976C69"> <p>È stata aggiunta l’impostazione <span class="codeph">secureOnly</span> che indica se <span class="codeph">mbox.js</span> deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False. (TNT-26183) </p> <p>Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C" format="dita" scope="local"> Configurare mbox.js </a>. </p> </li> 
-     </ul> </p> <p>Per informazioni dettagliate sulle modifiche apportate a ogni versione di <span class="codeph">mbox.js</span>, vedi <a href="https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html" format="html" scope="external">Dettagli sulle versioni di mbox.js </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2112,27 +2062,6 @@ Questa versione include i seguenti miglioramenti:
 
 * L’opzione [!UICONTROL Rendering con JavaScript] non è attualmente supportata se viene utilizzata con codice personalizzato nel Compositore esperienza visivo.
 
-### Modifiche alla piattaforma Target (agosto 2016) {#section_8D8BA8C628E747338C84564EC34CE0FD}
-
-<table id="table_0035B0D7ECD444C68B1B6CB0F150C55E"> 
- <thead> 
-  <tr> 
-   <th colname="col1" class="entry"> Modifica </th> 
-   <th colname="col2" class="entry"> Dettagli </th> 
-  </tr> 
- </thead>
- <tbody> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> versione 61 </p> </td> 
-   <td colname="col2"> <p>23 agosto 2016 </p> <p> La versione 61 di <span class="filepath">mbox.js</span> prevede le seguenti modifiche nell'uscita di agosto: </p> <p> 
-     <ul id="ul_DC4E5AB3B48A4D2D9B08B6CDA5DFE8FB"> 
-      <li id="li_B52F3AE60D324C2A8FAD03C1495F26D7"> <p> Il download della versione 61 di <span class="filepath">mbox.js</span> è ora predefinito nelle interfacce utente di <span class="keyword">Target Standard/Premium</span> e <span class="keyword">Target Classic</span>. </p> </li> 
-      <li id="li_41C2D2E552BF4F8E8A4375AF368F7728"> <p>È stata aggiunta l’impostazione <span class="codeph">optoutEnabled</span> per supportare la futura funzionalità di rifiuto del consenso di Adobe Experience Cloud. Il valore predefinito è False. Se questa proprietà è abilitata, tutte le richieste vengono eseguite in modo asincrono rispetto all’endpoint <span class="filepath">/ajax,</span> proprio come nella versione 60. </p> </li> 
-     </ul> </p> <p>Per ulteriori informazioni su tutte le modifiche apportate alla versione 61 di <span class="filepath"> mbox. js </span>, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> Dettagli sulle versioni di mbox.js </a>. </p> </td> 
-  </tr> 
- </tbody> 
-</table>
-
 ### Adobe Target Standard/Premium 16.8.1 (23 agosto 2016) {#section_A8854D4EDF014AEBB81F49EB104D4A20}
 
 La versione 16.8.1 di Adobe Target Standard/Premium (23 agosto 2016) prevede le seguenti funzionalità e migliorie:
@@ -2200,10 +2129,6 @@ Sono stati segnalati i seguenti problemi:
   <tr> 
    <td colname="col1"> <p> <span class="filepath"> at.js</span> versione 0.9.1 </p> </td> 
    <td colname="col2"> <p>14 luglio 2016 </p> <p> È ora disponibile la versione 0.9.1 di <span class="filepath">at.js</span>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">Dettagli della versione di at.js </a>. </p> </td> 
-  </tr> 
-  <tr> 
-   <td colname="col1"> <p> <span class="filepath"> mbox.js</span> versione 61 </p> </td> 
-   <td colname="col2"> <p>28 luglio 2016 </p> <p> È ora disponibile la versione 61 di <span class="codeph">mbox.js</span>. La versione 61 non è attualmente il download predefinito. </p> <p>Per ulteriori informazioni, consulta <a href="../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local"> Dettagli sulle versioni di mbox.js </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2399,16 +2324,6 @@ Quando implementi at.js, tieni presente quanto segue:
 * L’implementazione asincrona potrebbe impedire il funzionamento delle integrazioni legacy come il plug-in Test&amp;Target a SiteCatalyst.
 * I plug-in Target che fanno riferimento a oggetti e metodi mbox.js non sono supportati.
 * Tutte le chiamate a Target vengono effettuate tramite XMLHTTPRequest e il contenuto viene restituito tramite JSON.
-
-### Modifiche alla piattaforma Target {#section_8295A808A4CE405C9DA2893E7935238E}
-
-* Da oggi, la [versione 60 di mbox.js](../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#section_3BDAB885FA13444A8D35940A4BFF5825) è il download predefinito.
-* Le versioni di mbox.js precedenti a 50 non sono più testate attivamente. Se la tua implementazione non è ancora stata aggiornata, assicurati di eseguire ulteriori verifiche di controllo qualità sulla consegna di tutti i contenuti di Target e sulla raccolta per la generazione dei rapporti.
-* Le campagne Flash e altri elementi correlati a Flash sono stati rimossi da Target.
-* Internet Explorer 10 non è più supportato dall&#39;interfaccia di Target.
-* Si prevede che, in una prossima versione, la distribuzione dei contenuti su Internet Explorer 8, 9 e 10 non verrà più supportata.
-
-   Per questi browser, i test attivi verranno interrotti in una versione futura, dopo che Microsoft cesserà di supportarli attivamente. Target continuerà a distribuire il contenuto a questi browser, ma sarà necessario verificare la distribuzione del contenuto e la raccolta dei dati per i rapporti.
 
 ### Correzione ad Adobe Target Standard/Premium 16.4.1 (5 maggio 2016) {#section_70552F61E83140C7B4D2A245198B630E}
 
@@ -3175,9 +3090,6 @@ Questa versione include le seguenti correzioni:
 **Problemi noti**
 
 * Gli eventi di conversione basati su Target per i test multivariati in Target Standard/Premium non vengono inseriti nei rapporti quando Analytics è utilizzato come origine per la generazione di rapporti per Target. Questo problema verrà risolto al più presto.
-* In mbox.js versione 56 la sezione “extra JavaScript” è stata spostata in modo da essere eseguita prima della mbox globale.
-
-   Tutte le impostazioni in v56+ sono con spazio dei nomi. Eventuali funzioni dichiarate in “extra JavaScript” devono essere precedute da window. Consulta il [registro delle modifiche mbox.js](https://docs.adobe.com/content/help/en/target/using/implement-target/client-side/mbox-implement/mboxjs-change-log.html).
 
 ### Adobe Target 15.2.1 (19 febbraio 2015) {#section_9AA19B060D814E08A673FB752E21D0C3}
 
