@@ -7,25 +7,25 @@ subtopic: Getting Started
 topic: Standard
 uuid: 058f0ef5-037a-4daf-8a1e-a9c7ecc7f0bd
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 8bf89f30fec597b983067ec4604dba09a9ec2832
 workflow-type: tm+mt
-source-wordcount: '386'
-ht-degree: 97%
+source-wordcount: '381'
+ht-degree: 73%
 
 ---
 
 
 # Trasmettere i parametri a una mbox globale{#pass-parameters-to-a-global-mbox}
 
-La funzione targetPageParams di JavaScript viene utilizzata per trasmettere parametri alla mbox globale. È utile in tutte le situazioni in cui occorre passare a Target informazioni di targeting o di contesto aggiuntive.
+La funzione `targetPageParams` di JavaScript viene utilizzata per trasmettere parametri alla mbox globale. This is needed in any scenario where additional targeting/context information is to be passed into [!DNL Target].
 
-Ad esempio, in un&#39;attività di Consigli, rappresenta il prodotto o la categoria corrente che stai osservando con i parametri.
+For example, in a [!DNL Recommendations] activity, use the parameters to represent the current product or category that is being viewed.
 
-Il codice per chiamare la funzione JavaScript deve essere sulla pagina prima della mbox globale, sia che la mbox globale si attici come una parte di mbox.js o sia inclusa manualmente nel codice della pagina.
+Il codice per chiamare la funzione JavaScript deve precedere la mbox globale sulla pagina, a prescindere dal fatto che la mbox globale venga attivata come parte di at.js o sia inclusa manualmente nel codice della pagina.
 
 >[!NOTE]
 >
->Se desideri aggiungere parametri a tutte le mbox sulla pagina e non solo alla mbox globale, utilizza la funzione [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) (solo at.js).
+>If you want to add parameters to all mboxes on the page, not just to the global mbox, use the [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) function.
 
 Puoi trasmettere parametri a `target-global-mbox` utilizzando la funzione `targetPageParams()` in uno dei seguenti modi:
 
