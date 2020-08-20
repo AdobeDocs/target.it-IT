@@ -5,17 +5,39 @@ title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al C
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '964'
-ht-degree: 98%
+source-wordcount: '1253'
+ht-degree: 74%
 
 ---
 
 
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
 
-In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
+Problemi di visualizzazione e altri problemi possono verificarsi in Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
+
+## In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e CEE? {#samesite}
+
+Con le ultime modifiche (agosto 2020), tutti gli utenti con Chrome 80+ versioni del browser:
+
+* *Non* sarà possibile utilizzare il VEC (con o senza l&#39;estensione VEC Helper installata e attivata) nelle pagine protette da password dei loro siti. Questo perché i cookie di accesso al sito verranno considerati cookie di terze parti e non verranno inviati con la richiesta di accesso. L&#39;unica eccezione è rappresentata dal caso in cui il cookie di login del sito cliente abbia già il parametro SameSite impostato su &quot;none&quot;.
+* *Non* sarà possibile scaricare [!DNL Target] le librerie durante la modifica di un&#39;attività (se non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe  protetto e viene rifiutata come non autenticata.
+* La CEE *non* funziona per tutti gli utenti perché non è in grado di impostare l&#39;attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuterà questi cookie, causando il fallimento della CEE.
+
+ Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi del cookie per impostare l’ `SameSite="none"` attributo, se necessario. L&#39;estensione [aggiornata è disponibile qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en).
+
+### Alternative e soluzioni alternative
+
+Utilizzare una delle seguenti opzioni per garantire che il VEC e la CEE continui a funzionare come previsto:
+
+* Scaricate e utilizzate l&#39;estensione [](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC Helper aggiornata.
+* Utilizzate il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
+* Continuate a utilizzare Chrome, ma impostate il `chrome://flags/#same-site-by-default-cookies` flag su &quot;Disattivato&quot;.
+
+   >[!NOTE]
+   >
+   >Questo *non* sarà sufficiente se i cookie hanno già l&#39;attributo SameSite impostato su &quot;Lax&quot; o &quot;Strict&quot; dal server.
 
 ## Target supporta gli iframe a più livelli?
 
