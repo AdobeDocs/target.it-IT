@@ -1,14 +1,14 @@
 ---
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
-description: I visualizzatori per dispositivi mobili consentono di visualizzare un'anteprima di come vengono visualizzate  attività Adobe Target sugli schermi di varie dimensioni.
+description: Mobile viewports help you preview how your Adobe Target activities appear on screens of various sizes.
 title: Visualizzazioni per dispositivi mobili per esperienze reattive
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
 workflow-type: tm+mt
-source-wordcount: '1402'
-ht-degree: 71%
+source-wordcount: '1443'
+ht-degree: 69%
 
 ---
 
@@ -119,6 +119,10 @@ Configura tutti i riquadri di visualizzazione per dispositivi mobili che desider
    Se utilizzi il [Compositore esperienza avanzato](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e scegli un sistema operativo,  emulerà tale dispositivo quando visualizzerai la pagina. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Fai clic su **[!UICONTROL Salva]**.
+
+>[!NOTE]
+>
+>Se tenti di eliminare una finestra mobile in uso, viene visualizzato il messaggio seguente: &quot;Questa finestra è attualmente associata a una o più attività. È necessario rimuovere la finestra da tali attività prima di poterla eliminare.&quot;
 
 ## Create a responsive experience {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
