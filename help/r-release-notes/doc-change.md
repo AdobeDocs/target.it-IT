@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 177fbaa1e26544d46dc56ae19558ffcfb4d2773c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1932'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 21 agosto | [Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md) | Nuovo articolo e argomenti secondari. |
 | 20 agosto | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | È stata aggiunta la sezione seguente: &quot;In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e CEE?&quot; |
 |  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | È stato aggiornato il testo seguente: &quot;Se selezionate più di un elemento, se un partecipante fa clic su uno degli elementi selezionati, viene conteggiato il clic. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modificate il selettore degli elementi CSS in modo che corrisponda a più elementi.&quot; |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.9.1 (2 settembre 2020). |
