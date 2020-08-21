@@ -5,7 +5,7 @@ title: Creazione di un test multivariato
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 98%
@@ -39,7 +39,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
-   >L’opzione [!UICONTROL Choose Workplace] (Scegli luogo di lavoro) nell’illustrazione precedente è una funzione di [Target Premium](/help/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.]
+   >L’opzione [!UICONTROL Choose Workplace] (Scegli luogo di lavoro) nell’illustrazione precedente è una funzione di [Target Premium](/help/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.
 
 1. (Condizionale) Se sei un cliente Target Premium, [scegli un’area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
@@ -100,7 +100,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    ![](assets/estimator2.png)
 
-1. Fai clic su **[!UICONTROL Successivo]** per passare alla pagina [!UICONTROL Targeting].]
+1. Fai clic su **[!UICONTROL Successivo]** per passare alla pagina [!UICONTROL Targeting.]
 
 1. Scegli il pubblico e la percentuale di visitatori validi che dovranno accedere all’attività.
 
