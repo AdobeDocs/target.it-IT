@@ -5,7 +5,7 @@ title: ' Adobe Target Recommendations'
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '465'
 ht-degree: 89%
@@ -57,7 +57,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione consigli {#intro-to-recs} ![Badge di esercitazione](/help/assets/tutorial.png)
+## Webinar sulle nozioni di base di Adobe Target: introduzione alla funzione consigli ![Badge di esercitazione](/help/assets/tutorial.png) {#intro-to-recs}
 
 Il webinar *Introduzione alla funzione Consigli* include una descrizione approfondita di come sfruttare il valore di [!DNL Adobe Target Recommendations]. Scopri in che modo questa attività [!DNL Target] visualizza automaticamente prodotti o contenuti che potrebbero interessare ai clienti ottimizzando i suggerimenti in tempo reale basati sulle visite precedenti. Inoltre, immergiti nell’interfaccia utente [!DNL Target] per una panoramica dettagliata su come creare un’attività [!DNL Recommendations].
 
