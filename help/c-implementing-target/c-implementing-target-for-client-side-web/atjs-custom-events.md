@@ -6,7 +6,7 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -48,7 +48,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Video di formazione: Token di risposta ed eventi personalizzati at. js {#section_ED304A7137DC42A4BDCD6D57C989F1FA} ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Badge di esercitazione](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
