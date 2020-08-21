@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '655'
-ht-degree: 83%
+ht-degree: 80%
 
 ---
 
@@ -28,7 +28,7 @@ Se si abilita l&#39;impostazione, quando si configura at.js, at.js imposta l&#39
 
 L&#39;opzione opacità impostata su 0 mantiene il contenuto della pagina nascosto per impedire la visualizzazione momentanea di altri contenuti, ma il browser esegue ancora il rendering della pagina e carica tutte le risorse necessarie come CSS, immagini e così via.
 
-Se l&#39;opacità 0 non funziona nell&#39;implementazione, puoi anche gestire la visualizzazione momentanea di altri contenuti personalizzando `bodyHiddenStyle` e impostarlo su `body {visibility:hidden !important}`. Puoi utilizzare entrambi i valori body `{opacity:0 !important`} o `body {visibility:hidden !important}`, a seconda di quale sia il migliore per il tuo caso.
+Se l&#39;opacità 0 non funziona nell&#39;implementazione, puoi anche gestire la visualizzazione momentanea di altri contenuti personalizzando `bodyHiddenStyle` e impostarlo su `body {visibility:hidden !important}`. You can use either value body `{opacity:0 !important}` or `body {visibility:hidden !important}`, whichever works best for your specific circumstance.
 
 La figura seguente mostra le chiamate per Nascondi corpo e Mostra corpo, sia in at.js 1.*x* che in at.js 2.x.
 
