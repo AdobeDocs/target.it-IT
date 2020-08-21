@@ -5,7 +5,7 @@ title: Creare una progettazione
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
 workflow-type: tm+mt
 source-wordcount: '644'
 ht-degree: 95%
@@ -115,7 +115,7 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
 |--- |--- |
 | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings > Token API per i consigli > Codice client. |
 | `[YOUR_MBOX_NAME]` | Nome selezionato nella sezione &quot;percorsi&quot; dell&#39;Recommendations basato su modulo, in questo caso Sample_Recs_Response. |
-| `[ENTITY_ID`] | L&#39;`entity.id` di un elemento nel catalogo. |
+| `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
 | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
 
 Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
