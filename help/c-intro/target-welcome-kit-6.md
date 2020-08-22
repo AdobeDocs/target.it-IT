@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit di benvenuto  Adobe Target - Capitolo 6
-title: Kit di benvenuto  Adobe Target - Capitolo 6
+description: Kit di benvenuto  Adobe Target - Capitolo 6 - Facili da evitare
+title: Kit di benvenuto  Adobe Target - Capitolo 6 - Facili da evitare
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '377'
+source-wordcount: '383'
 ht-degree: 0%
 
 ---
@@ -16,12 +16,14 @@ ht-degree: 0%
 
 La cosa buona nell&#39;avviare il programma di ottimizzazione e personalizzazione ora è che le persone che lo hanno fatto per un po&#39; hanno già scoperto molti degli errori che sono facili da fare. Conoscendo queste insidie, è possibile facilmente evitarle o porvi rimedio.
 
-Consultate [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) per informazioni dettagliate. Oltre alle idee presentate in quell&#39;articolo, tenete questo breve elenco a portata di mano per evitare o correggere questi comuni errori di test e personalizzazione.
+>[!NOTE]
+>
+>Consultate [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) per informazioni dettagliate. Oltre alle idee presentate in quell&#39;articolo, tenete questo breve elenco a portata di mano per evitare o correggere questi comuni errori di test e personalizzazione.
 
 | Insidia | Soluzione |
 | --- | --- |
 | Traffico insufficiente per raggiungere risultati statisticamente significativi. | Utilizzate in anticipo  calcolatore [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html) campione Adobe Target per comprendere quanto tempo il test deve essere eseguito, quindi eseguite il test per completare l&#39;operazione. |
-| Apportare modifiche troppo piccole o invisibili. | Apportare la modifica in modo sufficientemente sostanziale da renderla visibile a pochi metri dallo schermo. |
+| Apportare una modifica troppo piccola o invisibile. | Apportare la modifica in modo sufficientemente sostanziale da renderla visibile a pochi metri dallo schermo. |
 | Mancata allineamento delle attività con gli obiettivi aziendali. | Concentrarsi maggiormente sulla metodologia di definizione delle priorità e comunicare tale metodologia alle parti interessate interne. |
 | Avere poco o niente backlog di test. | Coinvolgi gli interessati interni e consente loro di presentare test in linea con gli obiettivi aziendali chiave. |
 | Estensione dei lanci di attività con scadenze scadute | Migliorate la documentazione per le attività e includete dettagli specifici sulla configurazione del test. |
