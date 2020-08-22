@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit di benvenuto  Adobe Target - Capitolo 4
-title: Kit di benvenuto  Adobe Target - Capitolo 4
+description: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
+title: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: abe2e2acdf5cdd24ac2f9039cdb1119f5d3afb90
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '2874'
+source-wordcount: '2882'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Per ulteriori informazioni, consultate Autorizzazioni utente [Enterprise](/help/
 
 Utilizzo di Target Standard Potete comunque [assegnare tre livelli di accesso](/help/administrating-target/c-user-management/c-user-management/user-management.md) agli utenti con ruoli di sola lettura, editor e approver!
 
-## Suggerimento 6: Scopri le prestazioni di un&#39;offerta nel percorso del cliente testandola su ogni pagina del percorso.
+## Suggerimento 6: Scopri le prestazioni di un&#39;offerta lungo il percorso del cliente testandola su ogni pagina del percorso.
 
 Scopri le prestazioni di un’offerta, ad esempio la spedizione gratuita, durante il percorso del cliente che si svolge su più pagine del sito Web.
 
@@ -94,7 +94,7 @@ Se stai effettuando il targeting di un segmento che sai non sarà nuovamente uti
 
 Consultate [Creare un&#39;audience](/help/c-target/creating-activity-only-audience.md) solo per l&#39;attività per istruzioni dettagliate.
 
-**Funzionalità** altamente richiesta: I nostri clienti ci hanno chiesto di poter evitare che i tipi di pubblico a uso singolo vengano salvati automaticamente nella Libreria Pubblico. Ora, non devono più eliminare manualmente i tipi di pubblico per mantenere le librerie organizzate.
+**Funzionalità** altamente richiesta: I nostri clienti ci hanno chiesto di poter evitare che i tipi di pubblico a uso singolo vengano salvati automaticamente nella Libreria Pubblico. Ora, non devono più eliminare manualmente i tipi di pubblico per mantenere organizzate le loro librerie.
 
 ## Suggerimento 10: Eseguire semplici test più velocemente, evitando di passare attraverso il processo standard di controllo qualità.
 
@@ -152,7 +152,7 @@ Ad esempio, un cliente di servizi sanitari di  Adobe ha recentemente dimostrato 
 
 Uno dei vantaggi della configurazione delle attività per l&#39;utilizzo dei parametri di QA è che potete condividere tali collegamenti con tutti i membri del team. Rendete più consapevoli dell&#39;attività e assicuratevi che il sito non funzioni correttamente quando raggiungono una variante di test.
 
-Dopo aver completato i test, comunicare gli avvii delle campagne, i risultati dei test e in particolare le lezioni apprese consente di acquisire consapevolezza e interesse per i risultati del test. La condivisione dei risultati con tutti nell&#39;organizzazione evita inoltre di ripetere un&#39;ipotesi, educa tutti su ciò che funziona e li aiuta a sfidare fondamentalmente le proprie idee su ciò che funziona in base a ciò che hai trovato. È buona norma preparare un modello che usate ogni volta per condividere i risultati e le informazioni chiave.
+Dopo aver completato i test, comunicare gli avvii delle campagne, i risultati dei test e soprattutto le lezioni apprese consente di acquisire consapevolezza e interesse per i risultati del test. La condivisione dei risultati con tutti nell&#39;organizzazione evita inoltre di ripetere un&#39;ipotesi, educa tutti su ciò che funziona e li aiuta a sfidare fondamentalmente le proprie idee su ciò che funziona in base a ciò che hai trovato. È buona norma preparare un modello che usate ogni volta per condividere i risultati e le informazioni chiave.
 Quindi prendete in considerazione la creazione di un libro condivisibile o di un deck Microsoft PowerPoint che acquisisca cumulativamente queste informazioni.
 
 ## Suggerimento 20: Sfruttate la funzionalità mobile per creare attività mobili più innovative.
