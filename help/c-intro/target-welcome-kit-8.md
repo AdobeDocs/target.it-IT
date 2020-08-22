@@ -1,12 +1,12 @@
 ---
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
-description: Kit di benvenuto  Adobe Target - Capitolo 8
-title: Kit di benvenuto  Adobe Target - Capitolo 8
+description: ' kit di benvenuto Adobe Target - Capitolo 8 - Comunicare i risultati dell''attività'
+title: ' kit di benvenuto Adobe Target - Capitolo 8 - Comunicare i risultati dell''attività'
 feature: intro
 translation-type: tm+mt
-source-git-commit: 37c200dedb2b76dc537ef6dc561146ecdc2ff47a
+source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '198'
 ht-degree: 0%
 
 ---
@@ -18,6 +18,6 @@ Se eseguite un&#39;attività e ottenete risultati straordinari, dovete condivide
 
 Quando si comunicano questi risultati, è utile avvicinarsi a questo evento come si fa per raccontare una storia. Rendetelo interessante e spiegate chiaramente cosa è stato testato o personalizzato e perché, e quali sono stati i risultati. Utilizzate la lingua e la terminologia comprese da coloro che stanno rivedendo i risultati.
 
-In Microsoft PowerPoint è stato incluso un modello [di riepilogo](/help/assets/executive-summary.zip) esecutivo. Rinominatelo con lo schema e il logo della vostra organizzazione e utilizzatelo per presentare i risultati della vostra prima attività di test o personalizzazione. Come per Activity Planner, è incluso con il kit di benvenuto come file standalone, ma ne abbiamo aggiunto anche un&#39;immagine qui, insieme a un esempio del tipo di informazioni da includere in ogni area del modello.
+In Microsoft PowerPoint è stato incluso un modello [di risultati di riepilogo](/help/assets/executive-summary.zip) esecutivo. Rinominatelo con lo schema e il logo della vostra organizzazione e utilizzatelo per presentare i risultati della vostra prima attività di test o personalizzazione. Come per Activity Planner, è incluso con il kit di benvenuto come file standalone, ma ne abbiamo aggiunto anche un&#39;immagine qui, insieme a un esempio del tipo di informazioni da includere in ogni area del modello.
 
 ![Relazione di sintesi](/help/c-intro/assets/executive-summary-report.png)
