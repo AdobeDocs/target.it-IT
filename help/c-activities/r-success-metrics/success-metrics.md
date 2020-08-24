@@ -5,10 +5,10 @@ title: Metriche di successo in  Adobe Target
 feature: success metrics
 uuid: 24e9ae0f-099b-430b-b2bb-03b405f88929
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 61273ea3174f5b380a2d8d6b664584f4e3d7f6ff
 workflow-type: tm+mt
-source-wordcount: '1070'
-ht-degree: 52%
+source-wordcount: '1129'
+ht-degree: 47%
 
 ---
 
@@ -57,7 +57,7 @@ Some metrics, such as [!UICONTROL Custom Scoring] and [!UICONTROL Revenue Per Vi
 
 ## Impostazioni avanzate {#section_7CE95A2FA8F5438E936C365A6D43BC5B}
 
-Con le impostazioni avanzate puoi gestire il modo in cui viene misurato il successo. Le opzioni includono il conteggio della metrica per impression o una volta per visitatore, e la possibilità di scegliere se mantenere o meno l’utente nell’attività.
+Con le impostazioni avanzate puoi gestire il modo in cui viene misurato il successo. Le opzioni includono l&#39;aggiunta di dipendenze, la scelta se mantenere l&#39;utente nell&#39;attività o rimuoverli, e se contare la metrica una volta per partecipante o su ogni impressione.
 
 Per accedere alle opzioni [!UICONTROL Impostazioni] avanzate, fate clic sulle ellissi **[!UICONTROL verticali]** > Impostazioni **[!UICONTROL avanzate]**.
 
@@ -67,21 +67,27 @@ Per accedere alle opzioni [!UICONTROL Impostazioni] avanzate, fate clic sulle el
 >
 >Se utilizzi [!DNL Adobe Analytics] come origine per la generazione dei rapporti, le impostazioni vengono gestite dal server [!DNL Analytics]. The [!UICONTROL Advanced Settings] option will not be available. For more information, see [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
-Puoi inoltre utilizzare le impostazioni avanzate per creare metriche di successo dipendenti, incrementando una metrica solo se un visitatore ha già raggiunto un’altra metrica.
+### Aggiungi dipendenza
+
+Potete utilizzare le impostazioni avanzate per creare metriche di successo dipendenti, incrementando una metrica solo se un visitatore raggiunge prima un&#39;altra metrica.
 
 ![Aggiungi dipendenza](/help/c-activities/r-success-metrics/assets/UI_dep_success_metric.png)
 
 Ad esempio, potresti rendere valida una conversione di test solo se un visitatore fa clic sull’offerta o raggiunge una determinata pagina prima della conversione.
 
-Le metriche di successo dipendenti sono supportate nelle attività di test A/B, Personalizzazione automatizzata, Targeting esperienze e test multivariato. Al momento le attività Consigli non supportano le metriche di successo dipendenti.
+Dependency functionality is *not* supported for the following:
 
->[!NOTE]
->
->Le metriche di successo dipendenti non verranno convertite nei seguenti casi:
->
->* Se crei una dipendenza circolare in cui metric1 dipende da metric2 e metric2 dipende da metric1, nessuna delle due metriche viene convertita.
->* Le attività di Personalizzazione automatizzata rilasciano gli utenti e riavviano l’attività una volta raggiunte le metriche di conversione, cosicché eventuali metriche dipendenti sulla conversione non vengono convertite.
+* [!UICONTROL Attività di consigli. ] Questa funzionalità è supportata da tutti gli altri tipi di attività.
+* If you use [Analytics as your reporting source](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+* Con il tipo di metrica “Visualizzazione di una pagina”.
+* Con il tipo di metrica “Clic su un elemento” per le attività del Compositore esperienza visivo.
 
+Le metriche di successo dipendenti non verranno convertite nei seguenti casi:
+
+* Se crei una dipendenza circolare in cui metric1 dipende da metric2 e metric2 dipende da metric1, nessuna delle due metriche viene convertita.
+* Le attività di Personalizzazione automatizzata rilasciano gli utenti e riavviano l’attività una volta raggiunte le metriche di conversione, cosicché eventuali metriche dipendenti sulla conversione non vengono convertite.
+
+### Cosa accade dopo che un utente incontra questa metrica per obiettivo?
 
 Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utente raggiunge la metrica obiettivo. Nella tabella seguente sono indicate le opzioni disponibili:
 
@@ -94,6 +100,14 @@ Utilizza le impostazioni avanzate per determinare cosa succede dopo che un utent
 >[!NOTE]
 >
 >Se configurate una metrica con una delle opzioni [!UICONTROL Increment Count] (Conteggioincrementi) di cui sopra, il conteggio delle metriche incrementa correttamente una volta per partecipante solo a livello di visitatore. Il conteggio delle metriche incrementa una volta per visita per ogni nuova sessione a livello di visita.
+
+### Come verrà incrementato il conteggio:
+
+Scegliete il comportamento desiderato:
+
+* Una volta per partecipante
+* Su ogni impressione (escludendo gli aggiornamenti di pagina)
+* A ogni impression
 
 ## Video di formazione: Metriche di attività
 
