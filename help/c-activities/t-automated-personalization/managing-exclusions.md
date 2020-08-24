@@ -6,9 +6,9 @@ feature: ap
 solution: Target,Analytics
 uuid: c67901d2-19cd-47d3-b8c4-abdcb046f404
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '961'
+source-wordcount: '960'
 ht-degree: 97%
 
 ---
@@ -82,7 +82,7 @@ Ci potrebbero essere alcune combinazioni che non funzionano bene insieme, o si p
 
    ![Opzione Escludi esperienza visibile al passaggio del mouse](/help/c-activities/t-automated-personalization/assets/exclude_exp_1a.png)
 
-   Oppure, per escludere e includere esperienze in blocco, seleziona la casella di controllo per le esperienze rilevanti e fai clic su **[UICONTROL Escludi]** in alto a destra nella finestra di dialogo. Quando si selezionano una o più esperienze, viene visualizzata l’icona [!UICONTROL Escludi].
+   Oppure, per escludere e includere esperienze in blocco, seleziona la casella di controllo per le esperienze rilevanti e fai clic su **[!UICONTROL Escludi]** in alto a destra nella finestra di dialogo. Quando si selezionano una o più esperienze, viene visualizzata l’icona [!UICONTROL Escludi].
 
    ![Esclusione di più esperienze](/help/c-activities/t-automated-personalization/assets/exclude_exp_2a.png)
 
