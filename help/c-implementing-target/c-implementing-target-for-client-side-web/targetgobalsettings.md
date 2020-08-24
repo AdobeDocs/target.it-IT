@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 69e8b0724e61eccbff98f2e739b54f19ec9de6bc
+source-git-commit: 270c2976242c834245bd34caac6d3153b49b38d6
 workflow-type: tm+mt
-source-wordcount: '1686'
+source-wordcount: '1685'
 ht-degree: 39%
 
 ---
@@ -78,7 +78,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 
 * **Tipo**: String
 * **Valore** predefinito: visibilità: hidden
-* **Descrizione**: Utilizzata solo per il wrapping di mbox che utilizzano DIV con nome di classe &quot;mboxDefault&quot; e che vengono eseguite tramite `mboxCreate()`, `mboxUpdate()`, o `mboxDefine()` per nascondere il contenuto predefinito.
+* **Descrizione**: Utilizzata solo per il wrapping di mbox che utilizzano DIV con il nome di classe &quot;mboxDefault&quot; e che vengono eseguite tramite `mboxCreate()`, `mboxUpdate()`, o `mboxDefine()` per nascondere il contenuto predefinito.
 
 ### defaultContentVisibleStyle
 
@@ -473,7 +473,7 @@ Considerate quanto segue quando utilizzate `serverState`:
 
 * Quando applicate `serverState `le offerte, at.js prende in considerazione `pageLoadEnabled` e `viewsEnabled` le impostazioni, ad esempio le offerte di caricamento pagina non verranno applicate se l&#39; `pageLoadEnabled` impostazione è false.
 
-   Per attivare queste impostazioni, attivare l’attivazione o disattivazione in Amministrazione **[UICONTROL > Implementazione > Modifica > Caricamento pagina abilitata]**.
+   Per attivare queste impostazioni, attivate l’opzione **[!UICONTROL Amministrazione]>[!UICONTROL Implementazione]>[!UICONTROL Modifica]>[!UICONTROL Caricamento pagina abilitata]**.
 
    ![Impostazioni abilitate per il caricamento della pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
