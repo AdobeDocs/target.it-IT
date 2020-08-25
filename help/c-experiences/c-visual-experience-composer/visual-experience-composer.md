@@ -4,7 +4,7 @@ title: Compositore esperienza visivo (VEC) di Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -91,7 +91,7 @@ Alcuni motivi per cui potrebbe essere utile annullare il caricamento della pagin
 * Desideri aggiungere ulteriori regole di test dei modelli ai criteri di consegna delle pagine
 * Desideri ignorare l’attivazione globale del Compositore esperienza avanzato quando si carica una pagina tramite il Compositore esperienza avanzato oppure soltanto l’iframe, pagina per pagina
 
-Dopo aver annullato il caricamento della pagina nel Compositore esperienza visivo, puoi passare alle diverse esperienze nell’attività senza attendere che la pagina venga caricata. Per visualizzare nuovamente la pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTOL Ricarica]**.
+Dopo aver annullato il caricamento della pagina nel Compositore esperienza visivo, puoi passare alle diverse esperienze nell’attività senza attendere che la pagina venga caricata. Per visualizzare nuovamente la pagina nel Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Ricarica]**.
 
 >[!IMPORTANT]
 >
