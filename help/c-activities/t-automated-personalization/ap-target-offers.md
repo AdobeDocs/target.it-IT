@@ -5,7 +5,7 @@ feature: ap
 solution: Target,Analytics
 uuid: 4ee30e1a-bfda-4b20-9313-99e32dcf60ac
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
 source-wordcount: '356'
 ht-degree: 100%
@@ -43,7 +43,7 @@ In questo scenario, il visitatore 1 vede l&#39;offerta 1 (perché ha diritto all
 
 1. Seleziona le offerte desiderate e scegli i tipi di pubblico che dovranno visualizzare l’offerta.
 
-   Per impostare il targeting per una singola offerta, passa il cursore sull’offerta desiderata e fai clic sull’icona **[!UICONTORL Targeting]**.
+   Per impostare il targeting per una singola offerta, passa il cursore sull’offerta desiderata e fai clic sull’icona **[!UICONTROL Targeting]**.
 
    Per impostare il targeting per più offerte, seleziona la casella di controllo di ciascuna offerta e fai clic sull’icona **[!UICONTROL Targeting] che viene visualizzata in alto a destra dell’elenco.
 
