@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
 workflow-type: tm+mt
-source-wordcount: '1104'
-ht-degree: 31%
+source-wordcount: '1100'
+ht-degree: 32%
 
 ---
 
@@ -34,7 +34,7 @@ Frammenti di esperienza rappresentano un enorme passo avanti per collegare i cre
 
 ## Requisiti {#section_AE6F0971E1574B3AA324003599B96E5A}
 
-You must be provisioned with the experience fragments functionality within [!DNl Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Il rappresentante del tuo account può aiutarti a rispettare i requisiti per utilizzare questa funzione:
+Devi essere provvisto della funzionalità frammenti di esperienza all&#39;interno di [!DNL Target]. In addition, you must be using [!DNL AEM] 6.3 with the appropriate service pack or [!DNL AEM] 6.4 (or later). Il rappresentante del tuo account può aiutarti a rispettare i requisiti per utilizzare questa funzione:
 
 * [!DNL Adobe Experience Manager] 6.4 (o successivo).
 * [!DNL Adobe Experience Manager] 6.3 SP2 (o successivo).
@@ -131,7 +131,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 **Per utilizzare i frammenti esperienza con Experience Composer basato su modulo:**
 
-1. In [!DNTarget], durante la creazione o la modifica di un&#39;esperienza in Experience Composer (Compositore esperienza basato su [moduli](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire [!DNL AEM] il contenuto, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l&#39;elenco [!UICONTROL Scegli un frammento] esperienza.
+1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Form-Based Experience Composer (Compositore esperienza basato su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire [!DNL AEM] contenuto, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l&#39;elenco [!UICONTROL Scegli un frammento] esperienza.
 
    ![](assets/experience_fragment_list.png)
 
