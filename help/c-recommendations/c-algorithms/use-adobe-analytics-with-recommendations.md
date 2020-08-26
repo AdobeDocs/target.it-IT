@@ -4,9 +4,9 @@ description: Utilizzando  Adobe Analytics come origine dati comportamentale, i c
 title: Utilizzo di  Adobe Analytics con Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 205850df6108db962a4ab514c027b7d04effaa76
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '877'
 ht-degree: 1%
 
 ---
@@ -95,10 +95,10 @@ Presupponendo che tutti i prerequisiti siano stati predisposti, eseguite le segu
    >Consultate il [!DNL Adobe Analytics] team prima di eseguire questo passaggio.
 
    * **Tipo**: FTP
-   * **Host**: xxx.yyy.com
-   * **Percorso**: Codice client di Target
-   * **Nome utente**: xxxyyy
-   * **Password**: xxxxxxxxxxxxx
+   * **Host**: `xxx.yyy.com`
+   * **Percorso**: Codice [!DNL Target] client
+   * **Nome utente**: Specificare il nome utente
+   * **Password**: Specificare la password
 
    Lo screenshot è solo a scopo di riferimento. La distribuzione avrà credenziali diverse. Consulta il team [!DNL Adobe Analytics] o l&#39;Assistenza clienti durante questo passaggio.
 
