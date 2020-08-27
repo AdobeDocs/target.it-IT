@@ -4,9 +4,9 @@ title: Creare criteri
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
 workflow-type: tm+mt
-source-wordcount: '3605'
+source-wordcount: '3615'
 ht-degree: 98%
 
 ---
@@ -89,6 +89,8 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 1. Seleziona la **[!UICONTROL Origine di dati comportamentali]** desiderata: [!UICONTROL Elementi mbox] o [!UICONTROL Analytics].
 
    Se si sceglie [!UICONTROL Analytics], selezionare la suite di rapporti desiderata.
+
+   Per ulteriori informazioni, consultate [Usare  Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 1. Imposta le regole di **[!UICONTROL contenuto]**.
 
