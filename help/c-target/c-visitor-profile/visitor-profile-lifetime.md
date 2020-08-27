@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01ccda60-7e28-4d26-8d5d-1c0a022bbef0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 32853a516910358034bacaa58e594cfb1eb91f29
 workflow-type: tm+mt
-source-wordcount: '289'
-ht-degree: 100%
+source-wordcount: '312'
+ht-degree: 83%
 
 ---
 
@@ -30,4 +30,4 @@ La libreria JavaScript di [!DNL Target] in uso ([!DNL at.js] o [!DNL mbox.js]) d
 
 La data di scadenza non viene reimpostata per i profili esistenti. Se un visitatore precedente non torna per 15 giorni, il suo profilo scade. Se un visitatore precedente torna prima della scadenza originale del profilo, il profilo viene reimpostato sulla durata estesa. Tutti i nuovi profili dei visitatori sono impostati sulla durata di profilo estesa.
 
-In presenza di due siti con un unico codice cliente, visitati entrambi dallo stesso visitatore, la durata del profilo sarà pari a quella impostata per il sito visitato per ultimo. Ad esempio, se la durata del profilo del sito 1 è di 84 giorni e quella del sito 2 è di 14 giorni, e un visitatore visita prima il sito 1 e poi il sito 2, il suo profilo scadrà dopo 14 giorni. Se il visitatore visita prima il sito 2 e poi il sito 1, il profilo scade dopo 84 giorni.
+Nello scenario seguente, si supponga che uno o entrambi i siti siano implementati con mbox.js, che richiede un aggiornamento del codice dopo l&#39;aggiornamento del profilo. Se entrambi i siti si trovano sotto un unico codice client e un visitatore visita entrambi i siti, il profilo è impostato sulla durata dei profili in qualsiasi sito sia stato visitato per ultimo. Ad esempio, se la durata del profilo del sito 1 è di 84 giorni e quella del sito 2 è di 14 giorni, e un visitatore visita prima il sito 1 e poi il sito 2, il suo profilo scadrà dopo 14 giorni. Se il visitatore visita prima il sito 2 e poi il sito 1, il profilo scade dopo 84 giorni.
