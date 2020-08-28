@@ -5,10 +5,10 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3b29677488adc0de1f87b77a441bb3922bdfcb9e
+source-git-commit: 2067535ec682b44e7b2c20e853dcf3a8737331cd
 workflow-type: tm+mt
-source-wordcount: '3403'
-ht-degree: 88%
+source-wordcount: '3521'
+ht-degree: 85%
 
 ---
 
@@ -122,6 +122,12 @@ Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
+
+### Pagine non caricate in Visual Experience Composer (VEC) o Enhanced Experience Composer (EEC) quando si utilizza Google Chrome versione 80+
+
+Questo problema noto riguarda la decisione di Google di modificare il comportamento predefinito dei cookie senza l&#39;attributo SameSite a partire da Chrome versione 80. Prima della modifica, Chrome aveva impostato tutti i cookie senza l&#39;attributo SameSite su &quot;SameSite=None&quot; per impostazione predefinita e ora su &quot;SameSite=Lax&quot; per impostazione predefinita, modificando il modo in cui i cookie vengono inviati sulle richieste di GET e POST. Consultate Aggiornamenti [](https://www.chromium.org/updates/same-site)SameSite.
+
+Per ulteriori informazioni e una correzione, vedere &quot;In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e la CEE?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata.
 
