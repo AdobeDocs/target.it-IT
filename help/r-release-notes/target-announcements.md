@@ -5,7 +5,7 @@ title: Annunci Target
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 81b9735ea1fa6c42aa9c73565efd68a4d474622c
 workflow-type: tm+mt
 source-wordcount: '340'
 ht-degree: 0%
@@ -34,7 +34,7 @@ Annunci e informazioni sugli eventi imminenti, comprese le sessioni di Target Ex
 
 McKinsey Digital riporta che &quot;abbiamo compiuto cinque anni di progressi nell&#39;adozione digitale di consumatori e aziende in circa otto settimane&quot;. *
 
-Le richieste dei consumatori sono in rapida evoluzione e HSBC ha abbracciato l&#39;ottimizzazione con  Adobe Target per testare e personalizzare rapidamente i nuovi viaggi dei clienti, riducendo alcuni sviluppi e avvii da 6 mesi a 1 settimana!
+Le richieste dei consumatori si stanno rapidamente evolvendo e HSBC ha abbracciato l&#39;ottimizzazione con  Adobe Target per testare e personalizzare i nuovi viaggi dei clienti, riducendo alcuni sviluppi e avvii da 6 mesi a 1 settimana!
 
 Partecipa  Adobe e HSBC per questo webinar:
 
@@ -48,4 +48,4 @@ Partecipa  Adobe e HSBC per questo webinar:
 
 ##  Generatore di competenze Adobe Target: Chat sviluppatore, migrate  Adobe Target mbox.js in at.js {#skill-builder}
 
-Con la prossima eliminazione di mbox.js il 30 agosto 2020, David Son,  Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
+Con la prossima eliminazione di mbox.js il 18 gennaio 2021, David Son,  Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js. Per i 30 giorni successivi potete [visualizzare la registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)del webinar.
