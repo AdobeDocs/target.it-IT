@@ -5,10 +5,10 @@ title: Estensione Adobe Target VEC Helper
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: c77561696c35a5890c10591fc1014d812485f0f8
 workflow-type: tm+mt
-source-wordcount: '632'
-ht-degree: 94%
+source-wordcount: '663'
+ht-degree: 89%
 
 ---
 
@@ -23,8 +23,9 @@ Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Com
 * Il sito web si trova in un iframe.
 * La libreria at.js non è ancora implementata sul sito web.
 * Il sito per il controllo qualità e/o il sito di stage del cliente non è disponibile nel mondo esterno (il sito è interno).
+* State utilizzando Google Chrome 80+ con criteri di imposizione dei cookie SameSite avanzati. Per ulteriori informazioni, vedere [In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e sul EEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite)?
 
-L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento del sito, per i quali i clienti in genere si affidano a [!DNL Target] [!UICONTROL Compositore esperienza avanzato ] o estensioni di terze parti, come Requestly
+L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento del sito, per i quali i clienti in genere si affidano a [!DNL Target] [!UICONTROL Compositore esperienza avanzato ] o estensioni di terze parti, come Requestly.
 
 Vantaggi dell’utilizzo dell’estensione VEC Helper:
 
