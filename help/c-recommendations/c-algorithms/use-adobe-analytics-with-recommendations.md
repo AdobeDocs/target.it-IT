@@ -4,9 +4,9 @@ description: Utilizzando  Adobe Analytics come origine dati comportamentale, i c
 title: Utilizzo di  Adobe Analytics con Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 9bf30d6397fefdc85e51e2bd431ba163b10f6c09
+source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Durante la [creazione di criteri](/help/c-recommendations/c-algorithms/create-ne
 >
 >Se questi due pulsanti non vengono visualizzati nell&#39;account, rivolgiti all&#39;Assistenza [](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)clienti.
 
-## Casi d&#39;uso
+## Casi di utilizzo per i dati di Analytics in Target
 
 L&#39;utilizzo [!DNL Analytics] come origine dati comportamentale per le raccomandazioni consente inoltre di distribuire casi d&#39;uso specifici senza il requisito di assegnare tag alle pagine di entità con tutti i parametri di [!DNL Target] entità. Anche se ciò richiede l&#39;implementazione di alcuni prerequisiti, la disponibilità di &quot;Variabili di prodotto&quot; è la cosa più importante per il funzionamento di tale funzionalità senza problemi. Le eVar e le prop regolari non sono sufficienti per consentire l&#39;applicazione automatica di questa stretta di mano tra [!DNL Analytics] e [!DNL Target].
 
@@ -39,7 +39,7 @@ Puoi utilizzare [!DNL Analytics] come origine dati comportamentale per:
 
 Le sezioni seguenti sono utili per implementare questa funzione sul [!DNL Analytics] lato.
 
-### Prerequisiti: variabili di prodotto in Analytics
+### Prerequisiti: configurazione di variabili di prodotto in Analytics
 
 Devi implementare le variabili di prodotto in [!DNL Analytics] con gli attributi necessari per [!DNL Target Recommendations].
 
@@ -57,9 +57,83 @@ Per ulteriori dettagli su come impostare le variabili di prodotto, vedi [prodott
 
 Per un rapido processo decisionale sull&#39;origine dati da utilizzare, se ci sono molti dati organici generati ogni giorno dagli utenti, e non molta dipendenza richiesta dai dati storici, allora utilizzare una [!DNL Target] mbox come l&#39;origine dati comportamentale può essere una buona misura. In caso di minore disponibilità di dati organici generati di recente, se si desidera eseguire il bank sui [!DNL Analytics] dati, l&#39;utilizzo [!DNL Analytics] come origine dati comportamentale è una buona misura.
 
-### Contatta l’Assistenza clienti per creare un feed di dati
+### Passaggi per la distribuzione
 
-Presupponendo che tutti i prerequisiti siano stati predisposti, contatta l’Assistenza [](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) clienti per richiedere la creazione di un feed di dati.
+Presupponendo che siano presenti tutti i prerequisiti, il team Adobe Target Recommendations  deve eseguire le seguenti attività:
+
+>[IMPORTANTE]
+>
+>I passaggi indicati di seguito sono a scopo illustrativo. Un membro del team Recommendations deve attualmente eseguire i seguenti passaggi. [Contatta l&#39;Assistenza clienti per ulteriori informazioni.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+
+1. In [!DNL Target], fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** per acquisire il codice [!DNL Target] client.
+
+   ![Codice cliente](/help/c-recommendations/c-algorithms/assets/client-code.png)
+
+1. Acquisisci la tua suite di [!DNL Analytics] rapporti.
+
+   Utilizzate la suite di rapporti del sito [!DNL Analytics] di produzione. Questa è la suite di rapporti che tiene traccia del sito in cui hai [!DNL Recommendations] distribuito.
+
+1. In [!DNL Analytics], fai clic su **[!UICONTROL Admin]** > **[!UICONTROL Data Feeds (Feed di dati)]**.
+
+   ![Configurazione > Feed dati](/help/c-recommendations/c-algorithms/assets/data-feed.png)
+
+1. Click **[!UICONTROL Add]** to create a new feed.
+
+   ![Aggiungi feed](/help/c-recommendations/c-algorithms/assets/add-feed.png)
+
+1. Compila le informazioni sui feed:
+
+   * **Nome**: Feed Recs Prod
+   * **Suite** di rapporti: Suite di rapporti predeterminata
+   * **E-mail**: Specifica l&#39;indirizzo appropriato per un utente Amministratore
+   * **Intervallo** feed: Selezionare l&#39;intervallo desiderato
+   * **Elaborazione** ritardata: Nessun ritardo.
+   * **Date** di inizio e fine: Alimentazione continua
+
+   ![Sezione Informazioni sui feed](/help/c-recommendations/c-algorithms/assets/feed-information.png)
+
+1. Fill in the details in the **[!UICONTROL Destination]** section:
+
+   >[!NOTE]
+   > 
+   >Consultate il [!DNL Adobe Analytics] team prima di eseguire questo passaggio.
+
+   * **Tipo**: FTP
+   * **Host**: `xxx.yyy.com`
+   * **Percorso**: Codice [!DNL Target] client
+   * **Nome utente**: Specificare il nome utente
+   * **Password**: Specificare la password
+
+   Lo screenshot è solo a scopo di riferimento. La distribuzione avrà credenziali diverse. Consulta il team [!DNL Adobe Analytics] o l&#39;Assistenza clienti durante questo passaggio.
+
+   ![Sezione di destinazione](/help/c-recommendations/c-algorithms/assets/destination.png)
+
+1. Compila le definizioni delle colonne **[!UICONTROL di]** dati:
+
+   * **Formato** di compressione: Gzip
+   * **Tipo** di pacchetto:  File singolo
+   * **Manifesto:** Fine file
+
+      ![Impostazioni Formato compressione, Tipo di pacchetto e Manifest](/help/c-recommendations/c-algorithms/assets/compression.png)
+
+   * **Colonne** incluse:
+
+      >[!IMPORTANT]
+      >
+      >Le colonne devono essere aggiunte nello stesso ordine indicato qui. Selezionate le colonne nel seguente ordine e fate clic su **[!UICONTROL Aggiungi]** per ciascuna colonna.
+
+      * hit_time_gmt
+      * visid_high
+      * visid_low
+      * event_list
+      * product_list
+      * visit_num
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+   ![Sezione definizioni colonna dati](/help/c-recommendations/c-algorithms/assets/data-column-definitions.png)
+
+Con questo, la configurazione da [!DNL Analytics] lato è completa. Ora è il momento di mappare queste variabili [!DNL Target] sul lato opposto per la fornitura continua di dati comportamentali.
 
 ## Implementazione in Target
 
