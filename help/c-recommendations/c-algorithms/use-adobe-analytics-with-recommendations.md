@@ -4,9 +4,9 @@ description: Utilizzando  Adobe Analytics come origine dati comportamentale, i c
 title: Utilizzo di  Adobe Analytics con Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c108b9b54f6f54b265170cf8f6bee20616cfa595
+source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1024'
 ht-degree: 1%
 
 ---
@@ -59,11 +59,11 @@ Per un rapido processo decisionale sull&#39;origine dati da utilizzare, se ci so
 
 ### Passaggi per la distribuzione
 
-Presupponendo che siano presenti tutti i prerequisiti, il team Adobe Target Recommendations  deve eseguire le seguenti attività:
+Presupponendo che tutti i prerequisiti siano stati predisposti, il [!DNL Adobe Target Recommendations] team deve eseguire le seguenti attività:
 
->[IMPORTANTE]
+>[!IMPORTANT]
 >
->I passaggi indicati di seguito sono a scopo illustrativo. Un membro del team Recommendations deve attualmente eseguire i seguenti passaggi. [Contatta l&#39;Assistenza clienti per ulteriori informazioni.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
+>I passaggi indicati di seguito sono solo a scopo illustrativo. Un membro del [!DNL Recommendations] team deve attualmente eseguire questi passaggi. [Contatta l&#39;Assistenza clienti per ulteriori informazioni.](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)
 
 1. In [!DNL Target], fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** per acquisire il codice [!DNL Target] client.
 
