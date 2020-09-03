@@ -6,9 +6,9 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: d3c8c328e122eaf7bf1829fc46f55ef23ad187e6
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1012'
 ht-degree: 77%
 
 ---
@@ -65,6 +65,10 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offert
 * **Dimensione massima per ciascun caricamento mediante il metodo** HTTP: 100 MB.
 * **dimensione massima del file per ogni caricamento mediante il metodo** FTP: 4 GB
 * **Numero di attributi consentiti per la sottoscrizione**: 5 for [!DNL Target Standard] e 200 for [!DNL Target Premium].
+
+## Entità
+
+Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
 
 ## Attributi personalizzati entità
 
