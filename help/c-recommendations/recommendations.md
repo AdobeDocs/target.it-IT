@@ -5,9 +5,9 @@ title: ' Adobe Target Recommendations'
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '930'
 ht-degree: 59%
 
 ---
@@ -53,7 +53,7 @@ Prima di iniziare a utilizzare [!DNL Recommendations], è utile acquisire famili
 | Termine | Definizione |
 | --- | --- |
 | Attività | Le attività in [!DNL Target] consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni di pagina. [!DNL Recommendations] è solo uno dei molti tipi di attività disponibili in [!DNL Target]. Per ulteriori informazioni, vedete Tipi [di attività](/help/c-activities/target-activities-guide.md)Target. |
-| Entità | Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere prodotti, contenuti (articoli, presentazioni, immagini, filmati e presentazioni televisive), elenchi di lavori, ristoranti e così via.Per ulteriori informazioni, vedere [Entità](/help/c-recommendations/c-products/products.md). |
+| Entità | Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere prodotti, contenuti (articoli, presentazioni, immagini, filmati e programmi televisivi), elenchi di lavoro, ristoranti e così via. For more information, see [Entities](/help/c-recommendations/c-products/products.md). |
 | Feed | I feed vengono utilizzati per importare le entità in [!DNL Recommendations]. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e le classificazioni di prodotto Adobe Analytics. Per ulteriori informazioni, consulta [Feed](/help/c-recommendations/c-products/feeds.md). |
 | Catalogo | I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo può contenere molte raccolte, un modo per organizzare i prodotti in raggruppamenti logici. |
 | Raccolta | Le raccolte fanno riferimento a un insieme di elementi simili o correlati, ad esempio una singola categoria di prodotti. Tuttavia, puoi raggruppare qualsiasi elemento in una categoria adatta alla tua attività specifica, come prodotti in una determinata fascia di prezzo o colore o che possono essere di interesse in una particolare area geografica. For more information, see [Collections](/help/c-recommendations/c-products/collections.md). |
