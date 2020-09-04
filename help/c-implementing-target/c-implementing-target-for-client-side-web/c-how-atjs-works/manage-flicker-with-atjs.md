@@ -6,7 +6,7 @@ feature: client-side
 topic: Standard
 uuid: 65f67c4a-a931-4e0d-80d9-29ab67b62573
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '655'
 ht-degree: 80%
@@ -22,7 +22,7 @@ La visualizzazione momentanea di altri contenuti si verifica quando il contenuto
 
 ## Utilizzo di una mbox globale creata automaticamente {#section_C502170D551C4F52AAFD8E82C41BB63A}
 
-Se abiliti l’impostazione [Creazione automatica di una mbox globale](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) quando configuri at.js, at.js gestisce la visualizzazione momentanea di altri contenuti modificando l’impostazione di opacità durante il caricamento della pagina. Quando si carica, at.js cambia l’impostazione di opacità dell’elemento <body> Su “0”, rendendo la pagina inizialmente invisibile ai visitatori. Dopo aver ricevuto una risposta da Target, o se viene rilevato un errore con la richiesta di Target, at.js reimposta l&#39;opacità su 1. In questo modo il visitatore vede la pagina solo dopo l&#39;applicazione del contenuto delle attività.
+Se abiliti l’impostazione [Creazione automatica di una mbox globale](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/understanding-global-mbox.md#concept_76AC0EC995A048238F3220F53773DB13) quando configuri at.js, at.js gestisce la visualizzazione momentanea di altri contenuti modificando l’impostazione di opacità durante il caricamento della pagina. Quando si carica, at.js cambia l’impostazione di opacità dell’elemento `<body>` Su “0”, rendendo la pagina inizialmente invisibile ai visitatori. Dopo aver ricevuto una risposta da Target, o se viene rilevato un errore con la richiesta di Target, at.js reimposta l&#39;opacità su 1. In questo modo il visitatore vede la pagina solo dopo l&#39;applicazione del contenuto delle attività.
 
 Se si abilita l&#39;impostazione, quando si configura at.js, at.js imposta l&#39;elemento HTML “BODY” con un valore di opacità pari a 0. Dopo aver ricevuto una risposta da Target, at.js reimposta su 1 l&#39;opacità dell&#39;elemento HTML “BODY”.
 
