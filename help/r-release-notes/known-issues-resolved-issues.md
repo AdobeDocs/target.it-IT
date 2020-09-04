@@ -5,10 +5,10 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 3fc1e3e582b5137d1e77eb11bc243d0c31398879
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '3657'
-ht-degree: 82%
+source-wordcount: '3704'
+ht-degree: 81%
 
 ---
 
@@ -44,6 +44,10 @@ Questo problema è correlato solo alla [!DNL Target] generazione di rapporti. Qu
 ### Consegna delle pagine {#page-delivery}
 
 Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Si tratta di un problema cosmetico che non influisce sulla creazione di definizioni di pubblico né sulla consegna delle offerte. (TGT-35920)
+
+### Collegamenti di anteprima QA
+
+I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Archivia le attività salvate che non vengono più utilizzate attivamente per impedire che il problema continui. (TNT-37294)
 
 ### Modalità QA per le attività Recommendations
 
