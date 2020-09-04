@@ -5,10 +5,10 @@ title: Estensione Adobe Target VEC Helper
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
 workflow-type: tm+mt
-source-wordcount: '830'
-ht-degree: 63%
+source-wordcount: '847'
+ht-degree: 61%
 
 ---
 
@@ -17,7 +17,11 @@ ht-degree: 63%
 
 The [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) Helper browser extension for Google Chrome lets you load websites reliably within the VEC to rapidly author and QA web experiences.
 
-Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo:
+>[!NOTE]
+>
+>Il browser VEC Helper è un&#39;estensione Chrome. Questa estensione non è necessaria quando si utilizza Mozilla Firefox.
+
+## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
 * Il sito web dispone di criteri di sicurezza rigidi.
 * Il sito web si trova in un iframe.
@@ -27,7 +31,7 @@ Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Com
 
 L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento del sito, per i quali i clienti in genere si affidano a [!DNL Target] [Compositore esperienza avanzato ](/help/administrating-target/visual-experience-composer-set-up.md#eec) o estensioni di terze parti, come Requestly.
 
-Vantaggi dell’utilizzo dell’estensione VEC Helper:
+## Vantaggi dell’utilizzo dell’estensione VEC Helper
 
 * Tutte le intestazioni dei siti non compatibili con iframe, come X-Frame-Options e Content-Security-Policy, vengono rimosse implicitamente dal sito web. Non è più necessario creare regole complesse in Requestly per farlo.
 * Se una pagina web non contiene ancora la libreria JavaScript di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
