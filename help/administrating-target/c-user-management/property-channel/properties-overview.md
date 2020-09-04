@@ -6,10 +6,10 @@ feature: user management
 subtopic: Getting Started
 uuid: 2f44ecd5-5c43-49c3-b1c3-58d28531c859
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
 workflow-type: tm+mt
 source-wordcount: '1476'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -158,7 +158,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       Per ulteriori informazioni, vedi [Parametri globali - Adobe Target](https://docs.adobe.com/content/help/en/dtm/using/tools-reference/target.html#global-parameters---adobe-target) nella *documentazione del prodotto per la Dynamic Tag Management*.
 
-   * **Tramite la funzione targetPageParams():** inserisci il codice seguente nei <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> tag, sopra il riferimento at.js o mbox.js.
+   * **Tramite la funzione targetPageParams():** Inserite il codice seguente nei `<head>` tag , sopra il riferimento at.js o mbox.js.
 
       ![](assets/property_token_1.png)
 
@@ -205,7 +205,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!NOTE]
 >
->L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza dell’utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 ### Come configurare le aree di lavoro Target (6:55) ![Logo delle esercitazioni](/help/assets/tutorial.png)
 
