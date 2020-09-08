@@ -1,87 +1,117 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria
-description: Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività Consigli.
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+description: Utilizzate sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
 title: Creare sequenze di criteri
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
 workflow-type: tm+mt
-source-wordcount: '636'
-ht-degree: 99%
+source-wordcount: '840'
+ht-degree: 57%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Creare sequenze di criteri{#create-criteria-sequences}
+# ![PREMIUM](/help/assets/premium.png) Creare sequenze di criteri
 
-Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività Consigli.
+Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli].
 
 >[!NOTE]
 >
 >Le sequenze di criteri non possono essere utilizzate con le attività [!UICONTROL Consigli] create prima del rilascio di [!DNL Target Premium] in ottobre 2016.
 
-Per creare una sequenza di criteri, è necessario innanzitutto creare i criteri da includere nella sequenza. Consulta [Creazione di sequenze di criteri](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE) per ulteriori informazioni.
+Per creare una sequenza di criteri, è necessario innanzitutto creare i criteri da includere nella sequenza. Consulta [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) per ulteriori informazioni.
 
-Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mirati, anziché utilizzare consigli di backup più generici, quando un criterio non fornisce abbastanza risultati per completare il progetto. In genere, una sequenza di criteri andrà da targeting più specifico, che può restituire meno risultati, a targeting più generale, che di solito restituisce più risultati.
+Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mirati, anziché utilizzare consigli di backup più generici, quando un criterio non fornisce abbastanza risultati per completare il progetto. In genere, una sequenza di criteri passa da un targeting più specifico, che potrebbe restituire meno risultati, a un targeting più generale, che in genere restituisce più risultati.
 
-Ad esempio, una sequenza di criteri di pagina prodotto potrebbe seguire questo ordine:
+Le sequenze di criteri possono variare in base al tipo di pagina, come illustrato negli esempi seguenti:
 
-1. In base all&#39;articolo corrente, della stessa marca
-1. In base all&#39;articolo corrente, di tutte le marche
-1. In base a somiglianza del contenuto
-1. In base agli articoli più venduti
-1. In base agli articoli più visualizzati di tutto il sito
+| Tipo pagina | Possibile ordine di sequenza |
+| --- | --- |
+| Pagina prodotto | <ol><li>In base all&#39;articolo corrente, della stessa marca</li><li>In base all&#39;articolo corrente, di tutte le marche</li><li>In base a somiglianza del contenuto</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
+| Home page | <ol><li>In base all’ultimo acquisto del visitatore </li><li>In base all’articolo preferito del visitatore</li><li>In base alla categoria preferita del visitatore</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
 
-Una sequenza di criteri della pagina iniziale potrebbe seguire questo ordine:
-
-1. In base all’ultimo acquisto del visitatore
-1. In base all’articolo preferito del visitatore
-1. In base alla categoria preferita del visitatore
-1. In base agli articoli più venduti
-1. In base agli articoli più visualizzati di tutto il sito
+## Accedere alla schermata Crea sequenza criteri
 
 Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza criteri]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
-* Quando crei un&#39;attività di [!UICONTROL Consigli], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]** nella schermata [!UICONTROL Seleziona criteri]. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
-* Quando modifichi un’attività [!UICONTROL Consigli], fai clic su una casella di [!UICONTROL Posizione consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
 * Su **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea sequenza criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!UICONTROL Consigli].
+* Quando create un&#39;attività [!UICONTROL Recommendations] , nella schermata Seleziona criteri fate clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza]** criteri. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
+* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
 
-1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
+Nella procedura seguente si presuppone che sia possibile accedere alla schermata [!UICONTROL Crea sequenza] criteri utilizzando il primo metodo: nella schermata Libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]** .
 
-   ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Fate clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
 
-1. Seleziona **[!UICONTROL Crea sequenza criteri]**.
+1. Fate clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza]** criteri.
 
    ![](assets/CreateCriteriaSequence.png)
+
+## Compila la sezione Informazioni
 
 1. Digita un **[!UICONTROL Nome]** per la sequenza.
 
    Si tratta del nome “interno” usato per descrivere la sequenza di criteri. I visitatori del sito non vedranno questo nome.
+
+   ![Sezione Informazioni sulla sequenza di criteri](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
+
 1. Digita un **[!UICONTROL Titolo di visualizzazione generico rivolto al pubblico]** in modo che sia visualizzato nella pagina nel caso in cui vengano utilizzati più criteri nella sequenza per riempire la progettazione dei [!UICONTROL Consigli].
 
    Ad esempio, si potrebbe desiderare di sostituire “I clienti che hanno visualizzato questo hanno visto anche...” con “Consigliato per te”, nel caso in cui la progettazione possa includere elementi in base a più di un codice [!UICONTROL Consigli].
+
 1. Digita una breve **[!UICONTROL Descrizione]** della sequenza di criteri.
 
-   La descrizione deve consentire di identificare la sequenza di criteri e può includere informazioni sul relativo scopo.
+   La descrizione dovrebbe facilitare l&#39;identificazione della sequenza di criteri e potrebbe includere informazioni sulla sua funzione.
+
 1. Seleziona un **[!UICONTROL Settore verticale]**.
 
-   Il settore verticale predefinito appare automaticamente.
+   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+
 1. Seleziona un **[!UICONTROL tipo di pagina]**.
 
    Puoi selezionare più tipi di pagina.
 
    Insieme, i tipi di pagina e i settori verticali vengono utilizzati per categorizzare la sequenza di criteri salvati, semplificando il riutilizzo delle sequenze per altre attività di [!UICONTROL Consigli].
-1. Imposta le regole di **[!UICONTROL contenuto]**.
 
-   Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering parziale della progettazione vengono ignorate per i singoli criteri che costituiscono la sequenza. Per utilizzare i consigli di backup e il rendering parziale della progettazione, è necessario abilitarli per la sequenza. Seleziona i pulsanti appropriati. Se si sceglie di consentire i consigli di backup, è altresì possibile scegliere se applicare le regole di inclusione ai backup.
-1. Imposta l&#39;ordine di sequenza.
+## Creare sequenze di criteri
 
-1. Fai clic su **[!UICONTROL Aggiungi criteri]**.
-1. Nella schermata Aggiungi criteri, seleziona un criterio.
+L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
+
+1. Nella sezione Sequenza **** criteri, fare clic su **[!UICONTROL Aggiungi criteri]**.
+
+   ![Aggiungi criteri](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
+
+1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+
+   ![Selezionare criteri](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
+
 1. Fai clic su **[!UICONTROL Aggiungi]**.
 
-   È possibile aggiungere fino a cinque criteri a una sequenza.
+1. Continuate ad aggiungere criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
+
+## Specificare il contenuto di backup
+
+Scegliete quale contenuto viene restituito quando non sono disponibili abbastanza raccomandazioni per compilare il modello di progettazione.
+
+Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering parziale della progettazione vengono ignorate per i singoli criteri che costituiscono la sequenza. Per utilizzare i consigli di backup e il rendering parziale della progettazione, è necessario abilitarli per la sequenza. Seleziona i pulsanti appropriati. Se si sceglie di consentire i consigli di backup, è altresì possibile scegliere se applicare le regole di inclusione ai backup.
+
+![Impostazioni di backup del contenuto](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
+
+1. (Facoltativo) Fate scorrere l&#39;interruttore di rendering **[!UICONTROL della struttura]** parziale nella posizione &quot;attivato&quot;.
+
+   Verranno compilati tutti gli slot possibili, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti.
+
+1. (Facoltativo) Selezionate l’opzione **[!UICONTROL Backup Recommendations]** per passare alla posizione &quot;attivato&quot;.
+
+   Riempite tutti gli slot vuoti rimanenti nel progetto con una selezione casuale di prodotti più visualizzati da tutto il sito.
+
+   Per ulteriori informazioni, consultate [Utilizzare una raccomandazione](/help/c-recommendations/c-algorithms/backup-recs.md)di backup.
+
+1. (Condizionale) Se avete selezionato **[!UICONTROL Backup Recommendations]** nel passaggio precedente, potete selezionare **[!UICONTROL Applica regole di inclusione alle raccomandazioni]** di backup.
+
+   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La sequenza di criteri verrà visualizzata nell&#39;elenco criteri.
