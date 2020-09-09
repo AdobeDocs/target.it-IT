@@ -5,7 +5,7 @@ title: Creare sequenze di criteri
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 43%
@@ -118,7 +118,7 @@ Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering
 
    Verranno compilati tutti gli slot possibili, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti.
 
-1. (Facoltativo) Selezionate l’opzione **[!UICONTROL Backup Recommendations]** per passare alla posizione &quot;attivato&quot;.
+1. (Facoltativo) Fate scorrere l’interruttore **[!UICONTROL Backup Recommendations]** nella posizione &quot;attivato&quot;.
 
    Riempite tutti gli slot vuoti rimanenti nel progetto con una selezione casuale di prodotti più visualizzati da tutto il sito.
 
