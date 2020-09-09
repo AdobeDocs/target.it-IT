@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '1045'
-ht-degree: 27%
+source-wordcount: '1095'
+ht-degree: 26%
 
 ---
 
@@ -36,6 +36,12 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Target Standard/Premium 20.8.2 (10 settembre 2020)
+
+| Funzione | Dettagli |
+| --- | --- |
+| Controllare gli slot delle raccomandazioni nelle sequenze di criteri | Le sequenze di criteri ora consentono di controllare il numero di slot occupati da ogni criterio di raccomandazione, consentendo di combinare e far corrispondere diversi tipi di elementi o diverse logiche di algoritmo.<br>Consultate [Creare sequenze](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) di criteri per ulteriori informazioni. |
 
 ## Target Standard/Premium 20.8.1 (2 settembre 2020)
 
