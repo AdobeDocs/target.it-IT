@@ -4,39 +4,45 @@ title: Creare criteri
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 90a224475c645f9b5fcfd4aaeab6d189dd1ce9b1
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '3615'
-ht-degree: 98%
+source-wordcount: '3759'
+ht-degree: 91%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Creare criteri{#create-criteria}
 
-I criteri controllano il contenuto delle attività di Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
+I criteri controllano il contenuto delle attività [!UICONTROL Consigli]. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
 
-## Creare criteri {#task_8A9CB465F28D44899F69F38AD27352FE}
+## Creare nuovi criteri
 
-I criteri controllano il contenuto delle attività di [!DNL Recommendations]. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
+Nelle sezioni seguenti viene illustrato come creare un nuovo criterio.
+
+### Accedere alla schermata Crea nuovo criterio
 
 Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criterio]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
-* Quando crei un’attività di [!DNL Recommendations], fai clic su **[!UICONTROL Crea nuovo]** nella schermata [!UICONTROL Seleziona criteri]. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
-* Quando modifichi un’attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Posizione Consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
-* Nella schermata della libreria **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
+* On the **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** library screen, click **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
+* When you are creating a [!DNL Recommendations] activity, click **[!UICONTROL Create Criteria]** on the [!UICONTROL Select Criteria] screen. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
+* Quando modifichi un’attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Posizione Consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. On the [!UICONTROL Select Criteria] screen, click **[!UICONTROL Create Criteria]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
 
-1. Fai clic su **[!UICONTROL Crea criterio]** o **[!UICONTROL Crea nuovo]**.
+Nella procedura seguente si presuppone che sia possibile accedere alla schermata [!UICONTROL Crea nuovo criterio] utilizzando il primo metodo: nella schermata Libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]** .
 
-   ![Pulsante Crea criterio](/help/c-recommendations/c-algorithms/assets/button_CreateCriteria_new.png)
+1. Fate clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
 
-1. Seleziona **[!UICONTROL Crea criterio]**.
+1. Fate clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**.
 
    ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
+
+### Compila la sezione Informazioni di base
 
 1. Inserisci un **[!UICONTROL Nome criterio]**.
 
    Si tratta del nome “interno” usato per descrivere i criteri. Ad esempio, potresti voler chiamare i tuoi criteri “prodotti di margine più alto”, ma non vuoi che questo titolo venga visualizzato pubblicamente. Vedi il passo successivo per impostare il titolo visualizzato dal pubblico.
+
+   ![Sezione Informazioni di base](/help/c-recommendations/c-algorithms/assets/basic-information.png)
 
 1. Inserisci un **[!UICONTROL Titolo da visualizzare]**, che verrà mostrato nella pagina per i consigli che utilizzano questo criterio.
 
@@ -44,7 +50,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
 
 1. Inserisci una breve **[!UICONTROL descrizione]** dei criteri.
 
-   La descrizione dovrebbe aiutare a identificare i criteri e potrebbe includere informazioni sul loro scopo.
+   La descrizione dovrebbe facilitare l&#39;identificazione dei criteri e potrebbe includere informazioni sullo scopo dei criteri.
 
 1. Seleziona un **[!UICONTROL Settore verticale]**:
 
@@ -72,7 +78,11 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    >
    >If you select **[!UICONTROL Items]**/ **[!UICONTROL Media with Similar Attributes]**, you will have the option to set [content similarity rules](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_5402DAFA279C4E46A9A449526889A0CB).
 
+### Specificare le opzioni dell&#39;origine dati
+
 1. Imposta l’**[!UICONTROL Intervallo di dati]** per determinare l’intervallo di tempo dei dati cronologici disponibili sul comportamento dell’utente da utilizzare per determinare quali consigli visualizzare.
+
+   ![Cursore intervallo dati](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Se il sito genera molto traffico e i comportamenti si modificano spesso, scegli una finestra dati più breve. Una finestra più breve consente a [!DNL Recommendations] di essere più reattivo alle modifiche all’interno del mercato e della tua attività. Ad esempio, una finestra più breve implica che [!DNL Recommendations] rileverà le modifiche nel comportamento dei visitatori quando questi iniziano lo shopping stagionale, ad esempio quello natalizio o per il rientro a scuola, raccomandando gli articoli appropriati.
 
@@ -86,45 +96,63 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    * Un mese
    * Due mesi
 
-1. Seleziona la **[!UICONTROL Origine di dati comportamentali]** desiderata: [!UICONTROL Elementi mbox] o [!UICONTROL Analytics].
+1. (Conditional) Select the desired **[!UICONTROL Behavioral Data Source]**: [!UICONTROL mboxes] or [!UICONTROL Analytics].
+
+   ![Sezione Origine dati comportamentale](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Se si sceglie [!UICONTROL Analytics], selezionare la suite di rapporti desiderata.
 
-   Per ulteriori informazioni, consultate [Usare  Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Per ulteriori informazioni, vedi [Adobe Analytics](#analytics) di seguito e [Usa  Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
-1. Imposta le regole di **[!UICONTROL contenuto]**.
+### Specificare le impostazioni del contenuto
 
-   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
+Imposta le regole di [!UICONTROL contenuto].
 
-   Seleziona i pulsanti appropriati:
+Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo.
 
-   * [!UICONTROL Abilita il rendering parziale della progettazione]
-   * [!UICONTROL Mostra consigli di backup]
-   * [!UICONTROL Consiglia gli articoli acquistati in precedenza]
+![Sezione Contenuto](/help/c-recommendations/c-algorithms/assets/content.png)
 
-   Questa impostazione è basata su `productPurchasedId`. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi articoli che la gente è solita acquistare di nuovo, come shampoo o altri oggetti personali, dovresti disabilitare questa opzione.
+1. (Facoltativo) Fate scorrere l&#39;interruttore di rendering **[!UICONTROL della struttura]** parziale nella posizione &quot;attivato&quot;.
 
-1. Imposta le **[!UICONTROL regole di inclusione]**.
+   Verranno compilati tutti gli slot possibili, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti.
+
+1. (Facoltativo) Fate scorrere l’opzione **[!UICONTROL Mostra Recommendations]** backup nella posizione &quot;attivato&quot;.
+
+   Riempite tutti gli slot vuoti rimanenti nel progetto con una selezione casuale di prodotti più visualizzati da tutto il sito.
+
+   Per ulteriori informazioni, consultate [Utilizzare una raccomandazione](/help/c-recommendations/c-algorithms/backup-recs.md)di backup.
+
+1. (Condizionale) Se avete selezionato **[!UICONTROL Mostra Recommendations]** di backup nel passaggio precedente, potete abilitare **[!UICONTROL Applica regole di inclusione alle raccomandazioni]** di backup.
 
    Le regole di inclusione determinano quali articoli verranno inclusi nei consigli. Le opzioni disponibili dipendono dal tuo settore verticale.
 
    Per ulteriori dettagli consulta [Regole di inclusione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079).
 
-1. Configura la **[!UICONTROL ponderazione degli attributi]**.
+1. (Facoltativo) Fate scorrere il **[!UICONTROL suggerimento Articoli]** acquistati in precedenza nella posizione &quot;attivato&quot;.
 
-   È possibile aggiungere più regole per “spostare” l&#39;algoritmo in base alla descrizione o ai metadati importanti relativi al catalogo del contenuto. Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli.
+   Questa impostazione è basata su `productPurchasedId`. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi articoli che la gente è solita acquistare di nuovo, come shampoo o altri oggetti personali, dovresti disabilitare questa opzione.
 
-   Consulta [Ponderazione degli attributi](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+### Specificare le regole di inclusione
 
-1. Al termine, fai clic su **[!UICONTROL Salva]**.
+![Regole di inclusione](/help/c-recommendations/c-algorithms/assets/inclusion-rules.png)
 
-   Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un&#39;altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
+For more information, see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
-### Adobe Analytics
+### Specificare la ponderazione dell&#39;attributo
+
+È possibile aggiungere più regole per “spostare” l&#39;algoritmo in base alla descrizione o ai metadati importanti relativi al catalogo del contenuto. Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli.
+
+Consulta [Ponderazione degli attributi](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2AEDA0DB15B74770B76F6982B24C2E42).
+
+Al termine, fai clic su **[!UICONTROL Salva]**.
+
+Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un&#39;altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
+
+### Adobe Analytics {#analytics}
 
 Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, l’eventuale utilizzo della suite di rapporti e dell’intervallo di lookback selezionati per altri criteri incide sul tempo che trascorre prima che il criterio creato diventi disponibile.
 
-* **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. Il tempo necessario dipende dal caricamento del sistema [!DNL Analytics].
+* **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. This time frame is dependent on the [!DNL Analytics] system load.
 * **Criteri nuovi o modificati che utilizzano una suite di rapporti già disponibile**: se crei un nuovo criterio o ne modifichi uno esistente e la suite di rapporti selezionata è già utilizzata per [!DNL Target Recommendations] con un intervallo di dati uguale o inferiore a quello selezionato, i dati diventano subito disponibili e non è richiesta alcuna configurazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
 * **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per un consiglio di tipo [!UICONTROL Affinità per articoli visualizzati], quando un utente visualizza un prodotto, a [!DNL Analytics] viene trasmessa una chiamata di tracciamento per visualizzazione prodotto quasi in tempo reale. I dati [!DNL Analytics] vengono inviati a [!DNL Target] all’inizio del giorno successivo e [!DNL Target] esegue l’algoritmo in meno di 12 ore.
 
