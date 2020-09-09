@@ -5,15 +5,15 @@ title: Criteri in  Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 638d70f44a479f67cfe40854bc26b6180d33f935
 workflow-type: tm+mt
-source-wordcount: '1631'
-ht-degree: 74%
+source-wordcount: '1636'
+ht-degree: 73%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Criteri{#criteria}
+# ![PREMIUM](/help/assets/premium.png) Criteri
 
 I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
 
@@ -107,10 +107,10 @@ Fai clic sulla scheda **[!UICONTROL Informazioni algoritmo]** per visualizzare l
 
 ![Scheda Informazioni algoritmo](/help/c-recommendations/c-algorithms/assets/criteria_info.png)
 
-Fai clic sulla scheda **[!UICONTROL Uso dell&#39;Algoritmo]** per visualizzare un elenco di attività che fanno riferimento ai criteri selezionati. La scheda elenca le attività attive e inattive. Fai clic sugli elenchi a discesa Attività o Inattività per visualizzare l&#39;intero elenco di attività che fanno riferimento a tali criteri. Puoi fare clic sul link dell&#39;attività per aprire quella da modificare.
+Fai clic sulla scheda **[!UICONTROL Uso dell&#39;Algoritmo]** per visualizzare un elenco di attività che fanno riferimento ai criteri selezionati. La scheda elenca le attività attive, inattive e bozze. Fate clic sugli elenchi a discesa Attività live/Attività inattive/Attività bozza per visualizzare l&#39;intero elenco delle attività che fanno riferimento a tali criteri. Puoi fare clic sul link dell&#39;attività per aprire quella da modificare.
 
 ![Utilizzo algoritmo, scheda](/help/c-recommendations/c-algorithms/assets/criteria_usage.png)
 
 >[!NOTE]
 >
->Al momento la funzione Utilizzo  algoritmo è supportata solo per le attività Recommendations. Al momento questa funzione non è supportata per le attività Test e Targeting delle esperienze A/B (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
+>Al momento la funzione Utilizzo  algoritmo è supportata solo per le attività Recommendations. Al momento questa funzione non è supportata per le attività Test A/B, allocazione automatica, targeting automatico e Targeting delle esperienze (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
