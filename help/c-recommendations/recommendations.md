@@ -5,7 +5,7 @@ title: ' Adobe Target Recommendations'
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -44,7 +44,7 @@ Una raccomandazione determina il modo in cui un prodotto viene suggerito a un vi
 | Aumentare il tempo che i visitatori passano su un sito multimediale consigliando contenuti simili a quelli che stanno guardando. | Creare un consiglio che suggerisce altri video, utilizzando i criteri “Chi ha visualizzato questo ha visualizzato anche”. |
 | Suggerire ai clienti che hanno visualizzato informazioni su piani di risparmio di una banca di consultare anche le informazioni sui conti IRA. | Mostrare altri elementi acquistati dai visitatori dopo aver visualizzato un prodotto, senza mostrare il primo prodotto nei consigli, utilizzando i criterio “Chi ha visualizzato questo ha acquistato anche”. |
 
-Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](../c-recommendations/c-algorithms/algorithms.md).
 
 ## Termini
 
