@@ -5,10 +5,10 @@ title: Creare sequenze di criteri
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: b85237ba7526701dee76810af1b719be00fb4fc3
+source-git-commit: a0a11d91776499f7c8e62d68b64011d111bc1edc
 workflow-type: tm+mt
-source-wordcount: '840'
-ht-degree: 57%
+source-wordcount: '1106'
+ht-degree: 43%
 
 ---
 
@@ -74,7 +74,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    Insieme, i tipi di pagina e i settori verticali vengono utilizzati per categorizzare la sequenza di criteri salvati, semplificando il riutilizzo delle sequenze per altre attività di [!UICONTROL Consigli].
 
-## Creare sequenze di criteri
+## Crea sequenza {#sequence}
 
 L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
 
@@ -84,11 +84,27 @@ L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempi
 
 1. On the [!UICONTROL Select Criteria] screen, select a criteria.
 
+   Potete usare la casella di ricerca e i menu a discesa dei filtri per individuare i criteri desiderati.
+
    ![Selezionare criteri](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi]**.
 
-1. Continuate ad aggiungere criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
+1. (Facoltativo) Fate scorrere il **[!UICONTROL limite del numero di elementi restituiti]** per passare alla posizione &quot;on&quot;, quindi specificate il numero di elementi (tra 1 e 50).
+
+   ![Limita il numero di elementi restituiti](/help/c-recommendations/c-algorithms/assets/limit-number.png)
+
+   Per comprendere meglio il valore dell&#39;opzione [!UICONTROL Limita il numero di elementi restituiti] , prendere in considerazione i seguenti casi di utilizzo:
+
+   * **Caso d’uso 1**: Desiderate disporre di diversi tipi di elementi in un unico vassoio delle raccomandazioni. Ad esempio, si desidera mostrare un mix di abbigliamento (giacca) e top (camicie, T-shirt). A tal fine, utilizzate una raccolta per l&#39;attività che include tutti i potenziali tipi di prodotti che desiderate in qualsiasi slot del vostro progetto. Quindi, impostate il primo criterio con un filtro statico che limiti i criteri in modo che includano solo l&#39;uso esterno e il secondo criterio con un filtro statico che limiti i criteri in modo da includere solo i piani. Infine, aggiungete entrambi i criteri a una sequenza di criteri e limitate i primi criteri a 2 slot.
+
+      Il vassoio delle raccomandazioni potrebbe essere simile al seguente sul sito:
+
+      ![Vassoio delle raccomandazioni per i prodotti](/help/c-recommendations/c-algorithms/assets/featured-products.png)
+
+   * **Caso d’uso 2**: Desiderate un mix di articoli alternativi e complementari. Impostate un criterio per utilizzare un algoritmo visualizzato/visualizzato e utilizzate un filtro dinamico che limiti gli elementi raccomandati alla categoria dell&#39;elemento corrente. Impostate il secondo criterio per utilizzare un algoritmo visualizzato/acquistato e utilizzate un filtro dinamico che includa solo gli elementi consigliati che non corrispondono alla categoria dell&#39;elemento corrente. Infine, aggiungete entrambi i criteri a una sequenza e limitate i primi criteri a 2 slot.
+
+1. Continuate ad aggiungere altri criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
 
 ## Specificare il contenuto di backup
 
@@ -115,8 +131,6 @@ Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La sequenza di criteri verrà visualizzata nell&#39;elenco criteri.
-
-   ![](assets/CriteriaSequenceCard.png)
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
 
