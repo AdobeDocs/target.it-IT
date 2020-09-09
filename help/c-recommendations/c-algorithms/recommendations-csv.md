@@ -5,10 +5,10 @@ title: Caricare criteri personalizzati
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
 workflow-type: tm+mt
-source-wordcount: '821'
-ht-degree: 98%
+source-wordcount: '823'
+ht-degree: 97%
 
 ---
 
@@ -54,10 +54,10 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    Per ulteriori informazioni sui criteri basati su una chiave, consultate [Basare il consiglio su una Chiave consiglio](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
 1. Imposta le regole di **[!UICONTROL contenuto]**.
 
-   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo. Seleziona i pulsanti appropriati. Consulta [Impostazioni di contenuto](../../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96).
+   Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo. Seleziona i pulsanti appropriati. Consulta [Specificate le impostazioni](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)del contenuto.
 1. Imposta le **[!UICONTROL regole di inclusione]**.
 
-   Le regole di inclusione consentono di restringere gli elementi visualizzati nei consigli. Consulta [Regole di inclusione](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079). 1. Seleziona la **[!UICONTROL posizione]** del file CSV.
+   Le regole di inclusione consentono di restringere gli elementi visualizzati nei consigli. Consulta [Specificate le regole](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)di inclusione. 1. Seleziona la **[!UICONTROL posizione]** del file CSV.
 
    Il file CSV deve essere formattato correttamente per essere caricato con successo. Fai clic su **[!UICONTROL Scarica il modello CSV]** per ottenere un file CSV formattato correttamente.
 
