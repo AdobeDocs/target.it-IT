@@ -6,9 +6,9 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
 workflow-type: tm+mt
-source-wordcount: '29297'
+source-wordcount: '29291'
 ht-degree: 88%
 
 ---
@@ -758,7 +758,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col2"> <p> 
      <ul id="ul_371C18DFC6D24E94B3D4FFFD83FC8D3A"> 
       <li id="li_9D11939014E7479AB7FD8910852A5386"> <p>Visualizza un elenco di attività che fanno riferimento a criteri selezionati sulla relativa scheda Criteri. La scheda elenca le attività attive e inattive. (TGT-27672) </p> </li> 
-      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Dal diagramma attività, le schede Criteri ora mostrano quando i risultati sono pronti per essere visualizzati. (TGT-27673) </p> <p>Consulta <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">Criteri </a>. </p> </li> 
+      <li id="li_B97BF9305EB04F6D8B1F6178B2E0CB34"> <p>Dal diagramma attività, le schede Criteri ora mostrano quando i risultati sono pronti per essere visualizzati. (TGT-27673) </p> <p>Consulta <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">Criteri </a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1055,7 +1055,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
      <ul id="ul_BDD55AB34F4A43C691D2399C16AA3D6C"> 
       <li id="li_133C33E0D02E4861A4C855BD8A492E69"> <p>Adesso puoi configurare i Criteri personalizzati, come altri criteri nei consigli. </p> </li> 
       <li id="li_AC201F0917BF465C985E8947635F762E"> <p>Puoi utilizzare raccolte, esclusioni e inclusioni (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri. Le raccolte e le esclusioni erano già supportate. Con questa versione sono state aggiunte le inclusioni. </p> </li> 
-     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteri </a>. </p> <p>(TGT-28488) </p> </td> 
+     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteri </a>. </p> <p>(TGT-28488) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Consigli: regole di inclusione, raccolte ed esclusioni per i criteri “Visualizzati di recente” </p> </td> 
@@ -1063,7 +1063,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
      <ul id="ul_A2D260F01CA047EEA72EF56BD0EE88FA"> 
       <li id="li_DB107DD357B741CCB2B7A4FDAD16F9D6"> <p>Adesso puoi configurare i criteri per la funzione Visualizzato di recente, come gli altri criteri nei consigli. </p> </li> 
       <li id="li_85452C03F0924D4C8D854509F1293021"> <p>Puoi utilizzare raccolte, esclusioni e inclusioni (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri. Le raccolte e le esclusioni erano già supportate. Con questa versione sono state aggiunte le inclusioni. </p> </li> 
-     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local"> Criteri </a>. </p> <p>(TGT-22843) </p> </td> 
+     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local"> Criteri </a>. </p> <p>(TGT-22843) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Estensione Target per Adobe Launch </p> </td> 
@@ -2623,7 +2623,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Consigli </p> <p class="Premium">Esclusione degli acquisti passati </p> </td> 
-   <td colname="col2"> <p>Target ora esclude automaticamente dagli articoli consigliati al visitatore quelli che ha già acquistato in precedenza. Questa opzione può essere disabilitata per qualsiasi criterio. </p> <p>Questa opzione è ora attiva per tutti i criteri predefiniti, compresi quelli utilizzati nelle attività in esecuzione prima di questa versione. Se non desideri escludere gli acquisti precedenti, modifica le attività in oggetto. </p> <p>Consulta <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Regole di inclusione </a>. </p> </td> 
+   <td colname="col2"> <p>Target ora esclude automaticamente dagli articoli consigliati al visitatore quelli che ha già acquistato in precedenza. Questa opzione può essere disabilitata per qualsiasi criterio. </p> <p>Questa opzione è ora attiva per tutti i criteri predefiniti, compresi quelli utilizzati nelle attività in esecuzione prima di questa versione. Se non desideri escludere gli acquisti precedenti, modifica le attività in oggetto. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Consigli </p> <p> Ponderazione degli attributi </p> </td> 
@@ -2646,7 +2646,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_901D4AAF7BE244FCB9277DC7EDD91E32">Attributi personalizzati che corrispondono a un determinato entity.id e utilizzano articoli con attributi simili </li> 
       <li id="li_49D52B0182F346E982C11A0C2DA50B4F">Ultimo articolo visualizzato con attributi simili </li> 
       <li id="li_2DBAF32476AC435EB57D08D96CB55683">Articolo con attributi simili più visualizzato </li> 
-     </ul> </p> <p>Consulta <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#task_28DB20F968B1451481D8E51BAF947079" format="dita" scope="local"> Regole di inclusione </a>. </p> </td> 
+     </ul> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Nuovi filtri per l’elenco delle attività </td> 
@@ -2665,7 +2665,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_1B44AB35B045416B8D8B72C428750822">Altri contenuti come questo </li> 
       <li id="li_FEC84CCF3DF3444DAB39F4764DE897B0">Altre presentazioni come questa </li> 
       <li id="li_5E874ACB5B004CACBDB4F8FF217BC593">Altri prodotti come questo </li> 
-     </ul> </p> <p>Consulta <a href="../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750" format="dita" scope="local">Criteri </a>. </p> </td> 
+     </ul> </p> <p>Consulta <a href="../c-recommendations/c-algorithms/algorithms.md" format="dita" scope="local">Criteri </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Miglioramento: maggiori dettagli visualizzati quando si usa Analytics come origine per la generazione di rapporti. </td> 
@@ -2998,7 +2998,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col1" class="premium"> <p class="Premium"> Funzionalità Recommendations Classic ora supportata in Recommendations Premium </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_E0D6A9C12B514DE3B3EA753BB4D56662"> 
-      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Rendering di modelli parziale <p>Consulta <a href="../c-recommendations/c-algorithms/create-new-algorithm.md#concept_BC16005C7A1E4F1A87E33D16221F4A96" format="dita" scope="local"> Impostazioni di contenuto </a>. </p> </li> 
+      <li id="li_2A728C8938834162A0C0C1C926AC5DD9"> Rendering di modelli parziale <p>Consulta <a href="/help/c-recommendations/c-algorithms/create-new-algorithm.md#content" format="dita" scope="local"> Impostazioni di contenuto </a>. </p> </li> 
       <li id="li_B1DFC829D19B4570AB5A7F937C7EF2CC"> Specifica delle regole di backup per criterio </li> 
       <li id="li_F8C9690CEC974E37B72A85C2FACFAA6D"> Supporto FTPS per i feed di prodotto</li> 
       <li id="li_3C0FA493C87345E4BE994936DF0D0162"> Gli algoritmi personalizzati vengono ora visualizzati automaticamente come criteri</li> 
