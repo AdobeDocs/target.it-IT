@@ -5,7 +5,7 @@ title: Confronto tra Recommendations Classic e le attività Consigli di Target P
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a4479a26873f39a41782e78651802899512b87fe
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,7 +52,7 @@ Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendat
 
 I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l&#39;utilizzo in una pagina del prodotto, mostrando prodotti all&#39;interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
 
-Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](../../c-recommendations/c-algorithms/algorithms.md#concept_4BD01DC437F543C0A13621C93A302750).
+Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](../../c-recommendations/c-algorithms/algorithms.md).
 
 ## Flusso di lavoro {#section_76B4A26297BF422382DE2C79A2713D3C}
 
