@@ -5,7 +5,7 @@ title: Caricare criteri personalizzati
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '823'
 ht-degree: 97%
@@ -51,7 +51,7 @@ Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criter
    Insieme, tipi di pagina e verticali del settore vengono utilizzati per categorizzare i criteri salvati, semplificandone il riutilizzo per altre attività di [!UICONTROL Consigli].
 1. Seleziona una **[!UICONTROL Chiave consiglio]**.
 
-   Per ulteriori informazioni sui criteri basati su una chiave, consultate [Basare il consiglio su una Chiave consiglio](../../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+   Per ulteriori informazioni sui criteri basati su una chiave, consultate [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 1. Imposta le regole di **[!UICONTROL contenuto]**.
 
    Le regole di contenuto determinano ciò che accade se il numero di elementi consigliati non riempie la progettazione. Ad esempio, se la progettazione dispone di spazio per cinque elementi, ma i criteri determinano solo tre elementi da consigliare, puoi lasciare vuoto lo spazio rimanente oppure utilizzare i consigli di backup per riempirlo. Seleziona i pulsanti appropriati. Consulta [Specificate le impostazioni](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)del contenuto.
