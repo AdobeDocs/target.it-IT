@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 419825546dd5bf26f7a5a5498014c01bae65bd7b
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '854'
 ht-degree: 11%
 
 ---
@@ -43,7 +43,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 | Funzione | Dettagli |
 | --- | --- |
-| Controllare gli slot delle raccomandazioni nelle sequenze di criteri | Le sequenze di criteri ora consentono di controllare il numero di slot occupati da ogni criterio di raccomandazione, consentendo di combinare e far corrispondere diversi tipi di elementi o diverse logiche di algoritmo.<br>Consultate [Creare sequenze](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) di criteri per ulteriori informazioni. |
+| ![Slot per il controllo dei simboli](/help/assets/premium.png) Premium nelle sequenze di criteri | Le sequenze di criteri ora consentono di controllare il numero di slot occupati da ogni criterio di raccomandazione, consentendo di combinare e far corrispondere diversi tipi di elementi o diverse logiche di algoritmo.<br>Consultate [Creare sequenze](/help/c-recommendations/c-algorithms/create-criteria-sequence.md#sequence) di criteri per ulteriori informazioni. |
 
 ## Target Standard/Premium 20.8.1 (2 settembre 2020)
 
