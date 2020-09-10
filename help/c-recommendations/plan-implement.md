@@ -5,7 +5,7 @@ title: Pianificare e implementare la funzione Consigli
 feature: recommendations general
 uuid: 37be7fb3-3686-4dec-9cca-478d28191985
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
 workflow-type: tm+mt
 source-wordcount: '1592'
 ht-degree: 96%
@@ -26,7 +26,7 @@ Che cosa è necessario sapere prima di creare un’attività di [!DNL Recommenda
 | Passaggio | Informazioni | Dettagli |
 |--- |--- |--- |
 | ![Passaggio 1](/help/c-recommendations/assets/step1_red.png) | Libreria JavaScript | Ogni pagina richiede un riferimento a at.js versione 0.9.1 (o successiva) o mbox. js versione 55 (o successiva). Questo passaggio di implementazione è obbligatorio in tutte le pagine in cui verrà utilizzata un&#39;attività di Target e può includere chiavi quali un ID di prodotto o di categoria.<BR>Per informazioni su at. js, consulta [Implementazione di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Per ulteriori informazioni su mbox.js, consulta [Implementazione di mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
-| ![Passaggio 2](/help/c-recommendations/assets/step2_red.png) | Chiavi | La chiave determina il tipo di prodotto o contenuto visualizzato nei consigli. Ad esempio, la chiave può essere una categoria di prodotti. Consulta [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B). |
+| ![Passaggio 2](/help/c-recommendations/assets/step2_red.png) | Chiavi | La chiave determina il tipo di prodotto o contenuto visualizzato nei consigli. Ad esempio, la chiave può essere una categoria di prodotti. Consulta [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 | ![Passaggio 3](/help/c-recommendations/assets/step3_red.png) | Attributi | Gli attributi forniscono informazioni più specifiche sui prodotti da mostrare. Ad esempio, potrebbe essere utile mostrare i prodotti entro una determinata fascia di prezzo, o prodotti con un certo livello di scorte. Gli attributi possono essere indicati nella mbox o attraverso un [feed](/help/c-recommendations/c-products/feeds.md).<br>Consultate [[Specificare le regole](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion)di inclusione. |
 | ![Passaggio 4](/help/c-recommendations/assets/step4_red.png) | Esclusioni | Le esclusioni determinano quali elementi specifici non includere nei consigli.<br>Consulta [Esclusioni](/help/c-recommendations/c-products/exclusions.md). |
 | ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Dettagli di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull’ordine una volta completato l’acquisto. |
@@ -151,7 +151,7 @@ Per ulteriori informazioni sulle differenze tra le due librerie JavaScript di Ta
 
 ## Pagina categoria {#section_F51A1AAEAC0E4B788582BBE1FEC3ABDC}
 
-In una pagina categoria, sarà probabilmente utile limitare i consigli ai prodotti o al contenuto all&#39;interno della categoria in questione. Per impostare una pagina categoria, configura le chiavi utilizzate dalla pagina. Per ulteriori informazioni sulle chiavi, consulta  [Basare il consiglio su una Chiave consiglio](../c-recommendations/c-algorithms/create-new-algorithm.md#task_2B0ED54AFBF64C56916B6E1F4DC0DC3B).
+In una pagina categoria, sarà probabilmente utile limitare i consigli ai prodotti o al contenuto all&#39;interno della categoria in questione. Per impostare una pagina categoria, configura le chiavi utilizzate dalla pagina. Per ulteriori informazioni sulle chiavi, consulta  [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ```
 function targetPageParams() { 
