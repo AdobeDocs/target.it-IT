@@ -5,10 +5,10 @@ title: Caricare criteri personalizzati
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 66b3c42181daf582c9b3bee1f83a2229b823c5c3
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1873'
-ht-degree: 66%
+source-wordcount: '1893'
+ht-degree: 65%
 
 ---
 
@@ -49,11 +49,13 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    La descrizione dovrebbe facilitare l&#39;identificazione dei criteri e potrebbe includere informazioni sullo scopo dei criteri.
 
-1. Seleziona un **[!UICONTROL Settore verticale]**:
+1. Selezionate un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
 
-   * [!UICONTROL Retail/E-commerce]
-   * [!UICONTROL Generazione di lead/B2B/servizi finanziari]
-   * [!UICONTROL Media/Editoria]
+   | Settore verticale | Obiettivo |
+   |--- |--- |
+   | Retail/E-commerce | Conversione con conseguente acquisto |
+   | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
+   | Media/Editoria | Coinvolgimento |
 
    Altre opzioni di criteri cambieranno in base al verticale di settore selezionato.
 
