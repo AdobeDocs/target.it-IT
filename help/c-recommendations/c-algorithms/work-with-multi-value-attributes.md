@@ -4,7 +4,7 @@ description: Informazioni sull’utilizzo di un campo multivalore in  Adobe Targ
 title: Utilizzo di attributi con più valori in  Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
 source-wordcount: '449'
 ht-degree: 1%
@@ -72,7 +72,6 @@ I seguenti operatori sono disponibili per l&#39;uso con gli attributi di entità
 >[!NOTE]
 >
 >Il supporto per la corrispondenza dinamica con attributi con più valori è attualmente disponibile solo in criteri quando si utilizza una regola di corrispondenza attributo di profilo o attributo di parametro (mbox) quando si confronta un singolo valore a sinistra con un lato destro con più valori. Gli attributi multivalore non sono attualmente supportati nelle promozioni, nella corrispondenza degli attributi di entità o negli elenchi a sinistra delle regole di inclusione.
-
 
 ### Esempio: Escludere gli elementi guardati di recente
 
@@ -157,7 +156,7 @@ curl -X POST \
 }'
 ```
 
-Questo viene associato a JavaScript sulla pagina per trasmettere il contenuto dei preferiti:
+Tale operazione verrebbe associata a JavaScript sulla pagina per trasmettere il contenuto dei preferiti:
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->
