@@ -5,9 +5,9 @@ title: Creare criteri
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 00749d54d0416c57364ff648bd0911e636c84bc7
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '2402'
+source-wordcount: '2422'
 ht-degree: 66%
 
 ---
@@ -53,11 +53,13 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    La descrizione dovrebbe facilitare l&#39;identificazione dei criteri e potrebbe includere informazioni sullo scopo dei criteri.
 
-1. Seleziona un **[!UICONTROL Settore verticale]**:
+1. Selezionate un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
 
-   * [!UICONTROL Retail/E-commerce]
-   * [!UICONTROL Generazione di lead/B2B/servizi finanziari]
-   * [!UICONTROL Media/Editoria]
+   | Settore verticale | Obiettivo |
+   |--- |--- |
+   | Retail/E-commerce | Conversione con conseguente acquisto |
+   | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
+   | Media/Editoria | Coinvolgimento |
 
    Altre opzioni di criteri cambieranno in base al verticale di settore selezionato.
 
