@@ -1,27 +1,27 @@
 ---
 keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
-description: I criteri di  Adobe Target Recommendations sono regole che determinano quali prodotti raccomandare in base a un insieme predeterminato di comportamenti dei visitatori.
+description: I criteri in  Adobe Target sono regole che determinano quali prodotti o contenuti consigliare in base a un insieme predeterminato di comportamenti dei visitatori.
 title: Criteri in  Adobe Target Recommendations
 feature: criteria
 uuid: 738db164-174b-45b8-bb8a-778f6494f1d7
 translation-type: tm+mt
-source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
+source-git-commit: d276693eeab095b7f2f5fad293a03ab10eb1faf6
 workflow-type: tm+mt
-source-wordcount: '1135'
-ht-degree: 69%
+source-wordcount: '1059'
+ht-degree: 53%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Criteri
 
-I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
+Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
 
-I criteri determinano quale azione provocherà quale consiglio. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
+Nelle sezioni seguenti vengono spiegate ulteriori informazioni sulle chiavi dei criteri e sulla logica delle raccomandazioni che potete utilizzare per ogni chiave. Fate clic sui collegamenti per ulteriori informazioni.
 
 ## Settore verticale {#section_936BCFCF234C49A2BEC1C38AAC2D71AF}
 
-Seleziona un settore verticale in base agli obiettivi dell&#39;attività consigliata. A seconda del settore verticale selezionato,
+Durante la creazione di un criterio, potete selezionare un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
 
 | Settore verticale | Obiettivo |
 |--- |--- |
@@ -29,9 +29,15 @@ Seleziona un settore verticale in base agli obiettivi dell&#39;attività consigl
 | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
 | Media/Editoria | Coinvolgimento |
 
+Le altre opzioni dei criteri vengono modificate in base al settore verticale selezionato. Potete impostare il settore verticale predefinito nella pagina **[!UICONTROL Recommendations > Impostazioni]** oppure specificare il settore verticale per ogni criterio.
+
 ## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La chiave dei consigli selezionata determina il tipo di criterio. Esistono diversi tipi di criteri che vengono rappresentati come schede di criteri quando imposti un’attività di [!DNL Recommendations].
+
+![Pagina Criteri](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+
+Nella tabella seguente sono illustrati i vari tipi di criteri e le relative chiavi di accompagnamento. Fate clic sui collegamenti per ulteriori informazioni su ciascuna chiave.
 
 | Tipo di criteri | Chiavi |
 |--- |--- |
@@ -39,7 +45,7 @@ La chiave dei consigli selezionata determina il tipo di criterio. Esistono diver
 | Personalizzato | Consiglia gli elementi o articoli in base agli attributi personalizzati.<ul><li>[Attributo personalizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Quando basi i consigli su attributi personalizzati, seleziona l&#39;attributo personalizzato, quindi il tipo di consiglio. |
 | Comportamento passato | Consiglia gli articoli in base alle reazioni passate dei visitatori a un articolo. Per esempio, chi ha già acquistato un articolo di una data marca sarà più propenso ad acquistare un altro articolo della stessa marca.<ul><li>[Ultimo articolo acquistato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Ultimo articolo visualizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Articolo più visualizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Categoria preferita](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
 | Popolarità | Consiglia gli articoli più popolari, ad esempio i video più popolari in una categoria correlata o i prodotti visualizzati più spesso sul sito.<ul><li>[Popolarità](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| Articoli visualizzati di recente | Consiglia gli articoli che un visitatore ha visto più di recente, ad esempio gli articoli che ha guardato l&#39;ultima volta che ha visitato il tuo sito o gli articoli di tendenza in questo momento.<br>L’algoritmo di visualizzazione degli elementi visualizzati di recente restituisce i risultati specifici dell’attività di un visitatore in un [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono a ambienti diversi e un visitatore passa tra i due siti, l&#39;algoritmo restituisce solo gli elementi visualizzati di recente dal sito appropriato.<br>Questo tipo di criteri non è limitato dalle raccolte.<ul><li>[Articoli visualizzati di recente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed)</li></ul>**Nota:** non è possibile utilizzare il criterio Articoli visualizzati di recente per i consigli di backup.<br>Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.<ul><li>I criteri “visualizzati di recente” sono configurabili, come altri criteri nei consigli.</li><li>È possibile utilizzare [raccolte](/help/c-recommendations/c-products/collections.md), [esclusioni](/help/c-recommendations/c-products/exclusions.md) e [inclusioni](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) (incluse le regole speciali per Prezzo e Inventario) proprio come per tutti gli altri criteri.</li></ul>Eventuali casi di utilizzo includono:<ul><li>Una società multinazionale con più business potrebbe avere un visitatore che visualizza elementi in più proprietà digitali. In questo caso, puoi limitare gli articoli visualizzati di recente al solo sito su cui sono stati visualizzati. In tal modo gli articoli visualizzati di recente non saranno visualizzati sugli altri siti della stessa società.</li></ul> |
+| [Articoli visualizzati di recente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Raccomanda gli elementi che un visitatore ha visualizzato più di recente, ad esempio gli elementi che un visitatore ha visualizzato l&#39;ultima volta che ha visitato il sito, o gli articoli con tendenze più elevate al momento. |
 
 ## Utilizzo di una chiave di raccomandazione personalizzata {#custom-key}
 
