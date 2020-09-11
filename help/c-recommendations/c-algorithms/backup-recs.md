@@ -1,21 +1,21 @@
 ---
 keywords: recommendation;backup;back up
-description: Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
+description: Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 title: Utilizzare un consiglio di backup
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 92bce65559d46a4f22a3ecf249b9c754bbb0ea84
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '477'
-ht-degree: 100%
+source-wordcount: '483'
+ht-degree: 90%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Utilizzare un consiglio di backup{#use-a-backup-recommendation}
 
-Se utilizzi la funzione di consiglio di backup, per i consigli privi di un numero sufficiente di elementi consigliati non saranno visualizzati i contenuti predefiniti. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
+Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 
 Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elementi sufficienti a popolare completamente la visualizzazione, nel sistema viene visualizzato il contenuto predefinito per l’utente.
 
