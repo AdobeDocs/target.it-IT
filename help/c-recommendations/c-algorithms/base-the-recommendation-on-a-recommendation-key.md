@@ -3,9 +3,9 @@ keywords: recommendation key;recommendation logic;current category;custom attrib
 description: Recommendations basato sulle chiavi utilizza il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività di Adobe Target Recommendations.
 title: Basare il consiglio su una chiave consiglio
 feature: criteria
-mini-toc-levels: 3
+mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: 21c8e39669925e8fd26d7f64ea7dfe95f28795bf
 workflow-type: tm+mt
 source-wordcount: '2151'
 ht-degree: 70%
