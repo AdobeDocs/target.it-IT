@@ -5,10 +5,10 @@ title: Basare il consiglio su una chiave consiglio
 feature: criteria
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: ab44de312d86432450ccee1ba42a7df77fbeed0b
+source-git-commit: 55f0791bb68fc98e319fa70a647e5168ac72ae1e
 workflow-type: tm+mt
-source-wordcount: '2692'
-ht-degree: 72%
+source-wordcount: '2777'
+ht-degree: 70%
 
 ---
 
@@ -33,7 +33,7 @@ Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in mod
 
 Le seguenti chiavi di raccomandazione sono disponibili nell&#39;elenco a discesa [!UICONTROL Chiave] raccomandazione:
 
-### Elemento corrente
+### Elemento corrente {#current-item}
 
 Il consiglio è determinato dall&#39;elemento attualmente visualizzato dal visitatore.
 
@@ -54,7 +54,7 @@ Quando questa opzione è selezionata, il valore `entity.id` deve essere trasmess
 * Pagine a elemento singolo, ad esempio le pagine del prodotto.
 * NON utilizzare nelle pagine dei risultati di ricerca nulli.
 
-### Categoria corrente
+### Categoria corrente {#current-category}
 
 Il consiglio è determinato dalla categoria di prodotto attualmente visualizzata dal visitatore.
 
@@ -133,7 +133,29 @@ Se l’attributo di profilo personalizzato non corrisponde direttamente a un sin
 
    ![Finestra di dialogo per creare un nuovo criterio 2](/help/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
-### Ultimo articolo acquistato
+### Categoria preferita {#favorite-category}
+
+Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
+
+Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
+
+* 10 punti per la prima visualizzazione della categoria
+* 5 punti per ogni visualizzazione successiva
+
+Alle categorie visitate per la prima volta sono attribuiti 10 punti. Per le visite successive alla stessa categoria sono attribuiti 5 punti. A ogni visita, viene sottratto 1 punto alle categorie non correnti che sono state visualizzate in precedenza.
+
+Ad esempio, la visualizzazione di “Categoria A” e poi di “Categoria B” in una sessione restituisce come risultato A: 9, B: 10. Se si visualizzano gli stessi elementi nella sessione successiva, i valori cambiano in A: 20, B: 9.
+
+#### Logica (criteri)
+
+* [!UICONTROL Articoli più venduti]
+* [!UICONTROL Articoli più visualizzati]
+
+#### Dove utilizzare nel sito
+
+* Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
+
+### Ultimo articolo acquistato {#last-purchased}
 
 Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
@@ -150,7 +172,7 @@ Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni v
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
-### Ultimo articolo visualizzato
+### Ultimo articolo visualizzato {#last-viewed}
 
 Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visitatore univoco. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
@@ -167,7 +189,7 @@ Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visita
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
-### Articolo più visualizzato
+### Articolo più visualizzato {#most-viewed}
 
 Il consiglio è determinata in base all&#39;articolo visualizzato più frequentemente, attraverso lo stesso metodo impiegato per la categoria preferita.
 
@@ -191,29 +213,7 @@ Ad esempio, la visualizzazione di “tavola da surf A” e poi di “tavola da s
 
 * Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
 
-### Categoria preferita
-
-Il consiglio è determinato dalla categoria destinataria della maggioranza dell&#39;attività, con lo stesso metodo utilizzato per “articolo più visualizzato”, il punteggio però viene attribuito alle categorie anziché ai prodotti.
-
-Tale metodo si basa sul criterio di attualità/frequenza, che si comporta come segue:
-
-* 10 punti per la prima visualizzazione della categoria
-* 5 punti per ogni visualizzazione successiva
-
-Alle categorie visitate per la prima volta sono attribuiti 10 punti. Per le visite successive alla stessa categoria sono attribuiti 5 punti. A ogni visita, viene sottratto 1 punto alle categorie non correnti che sono state visualizzate in precedenza.
-
-Ad esempio, la visualizzazione di “Categoria A” e poi di “Categoria B” in una sessione restituisce come risultato A: 9, B: 10. Se si visualizzano gli stessi elementi nella sessione successiva, i valori cambiano in A: 20, B: 9.
-
-#### Logica (criteri)
-
-* [!UICONTROL Articoli più venduti]
-* [!UICONTROL Articoli più visualizzati]
-
-#### Dove utilizzare nel sito
-
-* Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
-
-### Popolarità
+### Popolarità {#popularity}
 
 Il consiglio è determinata dalla popolarità degli elementi sul sito. Il consiglio di tipo popolarità include gli elementi più venduti e i più visualizzati secondo i dati mbox e, se si utilizza Adobe Analytics, tutte le metriche disponibili nel rapporto del prodotto. Gli elementi vengono classificati in base alla logica del consiglio selezionato.
 
@@ -247,7 +247,7 @@ Il criterio Articoli visualizzati di recente ora restituisce risultati specifici
 
 La seguente logica di raccomandazione (criteri) è disponibile dall&#39;elenco a discesa Logica  raccomandazione:
 
-### Articoli/Media con attributi simili
+### Articoli/Media con attributi simili {#similar-attributes}
 
 Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore.
 
@@ -264,7 +264,7 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-### Articoli più visualizzati
+### Articoli più visualizzati {#most-viewed-logic}
 
 Visualizza gli elementi o i supporti visualizzati più spesso sul sito.
 
@@ -277,9 +277,11 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Categoria preferita
 * Popolarità
 
-### Chi ha comprato questo ha acquistato anche quello
+### Chi ha comprato questo ha acquistato anche quello {#bought-bought}
 
 Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato.
+
+Questa logica restituisce gli altri prodotti acquistati dopo l&#39;acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
 Questa logica consente di aumentare le opportunità di cross-selling mostrando una raccomandazione su una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando una suite, la raccomandazione potrebbe visualizzare altri elementi acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Quando i visitatori rivedono i loro acquisti, dovete fornire loro ulteriori raccomandazioni.
 
@@ -291,9 +293,11 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-### Chi ha visualizzato questo ha acquistato anche quello
+### Chi ha visualizzato questo ha acquistato anche quello {#viewed-bought}
 
 Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. Questo criterio restituisce gli altri prodotti acquistati dopo la visualizzazione dell’articolo corrente; il prodotto specificato non è incluso nell’insieme di risultati.
+
+Questa logica restituisce gli altri prodotti acquistati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
 
 Questa logica consente di aumentare le opportunità di cross-selling mostrando una raccomandazione su una pagina di prodotto, ad esempio, che mostra gli elementi che altri visitatori hanno visualizzato l&#39;elemento acquistato. Ad esempio, se il visitatore sta visualizzando un palo da pesca, la raccomandazione potrebbe mostrare altri elementi acquistati, come le caselle di controllo, i wader e gli escursioni di pesca. Quando i visitatori consultano il sito, vengono loro fornite ulteriori raccomandazioni di acquisto.
 
@@ -305,9 +309,11 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-### Chi ha visualizzato questo ha visualizzato anche quello
+### Chi ha visualizzato questo ha visualizzato anche quello {#viewed-viewed}
 
 Consiglia gli elementi che vengono visualizzati più spesso nella stessa sessione in cui viene visualizzato l’elemento specificato.
+
+Questa logica restituisce gli altri prodotti visualizzati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
 
 Questa logica consente di creare ulteriori opportunità di conversione consigliando gli elementi visualizzati anche dagli altri visitatori che hanno visualizzato un elemento. Ad esempio, i visitatori che visualizzano le bici da strada sul sito possono anche guardare caschi ciclabili, kit ciclabili, serrature e così via. Potete creare una raccomandazione utilizzando questa logica che suggerisce altri prodotti per incrementare le entrate.
 
@@ -319,13 +325,15 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-### Affinità sito
+### Affinità sito {#site-affinity}
 
 Consiglia gli articoli in base alla certezza di una relazione tra articoli diversi. È possibile configurare questo criterio per determinare la quantità di dati necessari prima che venga presentato un consiglio utilizzando il cursore delle Regole di inclusione. Per esempio, se selezioni molto forte, vengono consigliati i prodotti con una maggiore certezza di corrispondenza.
 
 Ad esempio, se imposti un’affinità molto forte e il progetto include cinque elementi, tre dei quali soddisfano il livello di soglia di connessione, i due elementi che non soddisfano i requisiti di forza minima non vengono visualizzati nei suggerimenti e vengono sostituiti dagli elementi di backup definiti. Gli elementi con affinità più elevata vengono visualizzati per primi.
 
 Ad esempio, un rivenditore online può raccomandare gli elementi nelle visite successive a cui un visitatore ha mostrato interesse durante le sessioni passate. L&#39;attività di ogni sessione del visitatore viene acquisita per calcolare un&#39;affinità basata su un modello di aggiornamento e di frequenza. Quando il visitatore ritorna al sito, l&#39;affinità del sito viene utilizzata per visualizzare le raccomandazioni in base alle azioni passate sul sito.
+
+Alcuni clienti con varie raccolte di prodotti e comportamenti diversi sui siti potrebbero ottenere risultati ottimali impostando un’affinità di sito debole.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -334,7 +342,7 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Ultimo articolo visualizzato
 * Articolo più visualizzato
 
-### Articoli più venduti
+### Articoli più venduti {#top-sellers}
 
 Visualizza gli elementi inclusi negli ordini più completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
 
@@ -345,7 +353,7 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 * Categoria preferita
 * Popolarità
 
-### Recommendations basato su utente
+### Recommendations basato su utente {#user-based}
 
 Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati &quot;Consigliati per l&#39;utente.&quot;
 
