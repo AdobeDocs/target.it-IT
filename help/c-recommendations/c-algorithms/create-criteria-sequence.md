@@ -5,10 +5,10 @@ title: Creare sequenze di criteri
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
 workflow-type: tm+mt
-source-wordcount: '1106'
-ht-degree: 43%
+source-wordcount: '1148'
+ht-degree: 44%
 
 ---
 
@@ -64,9 +64,17 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    La descrizione dovrebbe facilitare l&#39;identificazione della sequenza di criteri e potrebbe includere informazioni sulla sua funzione.
 
-1. Seleziona un **[!UICONTROL Settore verticale]**.
+1. Selezionate un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
 
-   Your default [industry vertical](/help/c-recommendations/c-algorithms/algorithms.md#section_936BCFCF234C49A2BEC1C38AAC2D71AF) appears automatically.
+   | Settore verticale | Obiettivo |
+   |--- |--- |
+   | Retail/E-commerce | Conversione con conseguente acquisto |
+   | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
+   | Media/Editoria | Coinvolgimento |
+
+   Il settore verticale predefinito appare automaticamente.
+
+   Altre opzioni di criteri cambieranno in base al verticale di settore selezionato.
 
 1. Seleziona un **[!UICONTROL tipo di pagina]**.
 
