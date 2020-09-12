@@ -1,14 +1,14 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
 description: Utilizzate sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
 title: Creare sequenze di criteri
 feature: criteria
 uuid: 9a5ca86b-fc79-4c24-b86f-e333b0c63088
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
-source-wordcount: '1148'
-ht-degree: 44%
+source-wordcount: '787'
+ht-degree: 36%
 
 ---
 
@@ -32,7 +32,9 @@ Le sequenze di criteri possono variare in base al tipo di pagina, come illustrat
 | Pagina prodotto | <ol><li>In base all&#39;articolo corrente, della stessa marca</li><li>In base all&#39;articolo corrente, di tutte le marche</li><li>In base a somiglianza del contenuto</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
 | Home page | <ol><li>In base all’ultimo acquisto del visitatore </li><li>In base all’articolo preferito del visitatore</li><li>In base alla categoria preferita del visitatore</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
 
-## Accedere alla schermata Crea sequenza criteri
+## Creare una sequenza di criteri
+
+Potete creare le sequenze di criteri dalla schermata [!UICONTROL Crea sequenza] criteri.
 
 Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza criteri]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
@@ -48,55 +50,19 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    ![](assets/CreateCriteriaSequence.png)
 
-## Compila la sezione Informazioni
-
-1. Digita un **[!UICONTROL Nome]** per la sequenza.
-
-   Si tratta del nome “interno” usato per descrivere la sequenza di criteri. I visitatori del sito non vedranno questo nome.
-
-   ![Sezione Informazioni sulla sequenza di criteri](/help/c-recommendations/c-algorithms/assets/criteria-sequence-info.png)
-
-1. Digita un **[!UICONTROL Titolo di visualizzazione generico rivolto al pubblico]** in modo che sia visualizzato nella pagina nel caso in cui vengano utilizzati più criteri nella sequenza per riempire la progettazione dei [!UICONTROL Consigli].
-
-   Ad esempio, si potrebbe desiderare di sostituire “I clienti che hanno visualizzato questo hanno visto anche...” con “Consigliato per te”, nel caso in cui la progettazione possa includere elementi in base a più di un codice [!UICONTROL Consigli].
-
-1. Digita una breve **[!UICONTROL Descrizione]** della sequenza di criteri.
-
-   La descrizione dovrebbe facilitare l&#39;identificazione della sequenza di criteri e potrebbe includere informazioni sulla sua funzione.
-
-1. Selezionate un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
-
-   | Settore verticale | Obiettivo |
-   |--- |--- |
-   | Retail/E-commerce | Conversione con conseguente acquisto |
-   | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
-   | Media/Editoria | Coinvolgimento |
-
-   Il settore verticale predefinito appare automaticamente.
-
-   Altre opzioni di criteri cambieranno in base al verticale di settore selezionato.
-
-1. Seleziona un **[!UICONTROL tipo di pagina]**.
-
-   Puoi selezionare più tipi di pagina.
-
-   Insieme, i tipi di pagina e i settori verticali vengono utilizzati per categorizzare la sequenza di criteri salvati, semplificando il riutilizzo delle sequenze per altre attività di [!UICONTROL Consigli].
-
-## Crea sequenza {#sequence}
-
-L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
+1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
 
 1. Nella sezione Sequenza **** criteri, fare clic su **[!UICONTROL Aggiungi criteri]**.
 
+   L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
+
    ![Aggiungi criteri](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. On the [!UICONTROL Select Criteria] screen, select a criteria.
+1. Nella schermata [!UICONTROL Seleziona criteri] , selezionate un criterio, quindi fate clic su **[!UICONTROL Aggiungi]**.
 
    Potete usare la casella di ricerca e i menu a discesa dei filtri per individuare i criteri desiderati.
 
    ![Selezionare criteri](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
-
-1. Fai clic su **[!UICONTROL Aggiungi]**.
 
 1. (Facoltativo) Fate scorrere il **[!UICONTROL limite del numero di elementi restituiti]** per passare alla posizione &quot;on&quot;, quindi specificate il numero di elementi (tra 1 e 50).
 
@@ -114,27 +80,7 @@ L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempi
 
 1. Continuate ad aggiungere altri criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
 
-## Specificare il contenuto di backup
-
-Scegliete quale contenuto viene restituito quando non sono disponibili abbastanza raccomandazioni per compilare il modello di progettazione.
-
-Quando si crea una sequenza di criteri, le impostazioni di backup e di rendering parziale della progettazione vengono ignorate per i singoli criteri che costituiscono la sequenza. Per utilizzare i consigli di backup e il rendering parziale della progettazione, è necessario abilitarli per la sequenza. Seleziona i pulsanti appropriati. Se si sceglie di consentire i consigli di backup, è altresì possibile scegliere se applicare le regole di inclusione ai backup.
-
-![Impostazioni di backup del contenuto](/help/c-recommendations/c-algorithms/assets/backup-content-settings.png)
-
-1. (Facoltativo) Fate scorrere l&#39;interruttore di rendering **[!UICONTROL della struttura]** parziale nella posizione &quot;attivato&quot;.
-
-   Verranno compilati tutti gli slot possibili, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti.
-
-1. (Facoltativo) Fate scorrere l’interruttore **[!UICONTROL Backup Recommendations]** nella posizione &quot;attivato&quot;.
-
-   Riempite tutti gli slot vuoti rimanenti nel progetto con una selezione casuale di prodotti più visualizzati da tutto il sito.
-
-   Per ulteriori informazioni, consultate [Utilizzare una raccomandazione](/help/c-recommendations/c-algorithms/backup-recs.md)di backup.
-
-1. (Condizionale) Se avete selezionato **[!UICONTROL Backup Recommendations]** nel passaggio precedente, potete selezionare **[!UICONTROL Applica regole di inclusione alle raccomandazioni]** di backup.
-
-   For more information see [Use dynamic and static inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+1. Abilitare le opzioni [di](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)backup del contenuto.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
