@@ -1,14 +1,14 @@
 ---
 keywords: recommendation;backup;back up
 description: Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
-title: Utilizzare un consiglio di backup
+title: Utilizzare un consiglio di backup in  Adobe Target Recommendations
 feature: criteria
 uuid: 2910a844-9dd6-4e69-8652-b2215fed1545
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: b37c2065fb74a441a1b4b722cf565f5ece7abb3f
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 90%
+source-wordcount: '523'
+ht-degree: 83%
 
 ---
 
@@ -18,6 +18,10 @@ ht-degree: 90%
 Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 
 Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elementi sufficienti a popolare completamente la visualizzazione, nel sistema viene visualizzato il contenuto predefinito per l’utente.
+
+>[!NOTE]
+>
+>Ulteriori informazioni sono incluse nella sezione [Contenuto dell&#39;argomento Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inclusa una matrice che illustra i risultati che osserverete quando utilizzate le opzioni Rendering [!UICONTROL progettazione] parziale e [!UICONTROL Mostra Recommendations] backup insieme o separatamente.
 
 La funzionalità di consiglio di backup utilizza sempre gli elementi più visualizzati sul sito per popolare gli spazi rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, supponi che il modello sia configurato per mostrare cinque elementi consigliati e che sia in uso l’algoritmo *Affinità di acquisto*. Se tuttavia i dati sono sufficienti solo per popolare due spazi su cinque, la funzione di consiglio di backup popola gli altri tre con gli elementi più visualizzati.
 
