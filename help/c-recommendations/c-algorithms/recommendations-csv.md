@@ -5,7 +5,7 @@ title: Caricare criteri personalizzati
 feature: criteria
 uuid: e0b4d320-db00-43ad-b49e-ce36c8532320
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 81de460e5cd9277adcee4bd6e1e0175b0e350605
 workflow-type: tm+mt
 source-wordcount: '687'
 ht-degree: 63%
@@ -39,7 +39,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
 1. (Condizionale) Compila le informazioni nella sezione [Regole](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) di inclusione.
 
-1. (Riempimento condizionale nelle informazioni nella sezione Ponderazione [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) attributo.
+1. (Condizionale) Compila le informazioni nella sezione Ponderazione [](/help/c-recommendations/c-algorithms/create-new-algorithm.md#weighting) attributi.
 
 1. Nella sezione **[!UICONTROL Carica CSV]** , selezionate la **[!UICONTROL posizione]** del file CSV.
 
