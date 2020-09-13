@@ -6,10 +6,10 @@ feature: reference general
 topic: Standard
 uuid: 603fb800-a26c-43ec-b2d9-ef7a8ed8721e
 translation-type: tm+mt
-source-git-commit: 0f6b32b443860faf93fe0fe3dc05f3f47f5c4889
+source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
 workflow-type: tm+mt
-source-wordcount: '1012'
-ht-degree: 77%
+source-wordcount: '1021'
+ht-degree: 76%
 
 ---
 
@@ -72,7 +72,9 @@ Il numero massimo di entità a cui puoi fare riferimento in una progettazione, t
 
 ## Attributi personalizzati entità
 
-**Limite**: la lunghezza massima dipende dalla lingua.
+Potete includere fino a 100 attributi di entità personalizzati
+
+**Limite**: La lunghezza massima dei caratteri dipende dalla lingua.
 
 * 15.000 caratteri (valore singolo, lingue a uno o due byte)
 * 500 valori, 100 caratteri per valore (multivalore)
