@@ -7,9 +7,9 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1271'
 ht-degree: 47%
 
 ---
@@ -63,8 +63,8 @@ The following table shows you which activity types support [!DNL Analytics] as t
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
 | Attività A/B con suddivisione manuale del traffico | Sì |  |
-| Attività A/B con Allocazione automatica | Sì | Consultate Supporto di [Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di allocazione automatica. |
-| Attività A/B con Targeting automatico | No |  |
+| Attività A/B con Allocazione automatica | Sì | Consultate Supporto di [Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di allocazione automatica e di targeting automatico. |
+| Attività A/B con Targeting automatico | Sì | Consultate Supporto di [Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di allocazione automatica e di targeting automatico. |
 | Targeting esperienza (XT) | Sì |  |
 | Test multivariato (MVT) | Sì | Requires mbox-based goal metric goal to get the [!UICONTROL Element Contribution] report.  The [!UICONTROL Element Contribution] report does not currently support [!DNL Analytics] metrics. |
 | Attività di Personalizzazione automatizzata (AP) | No |  |
