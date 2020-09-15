@@ -5,9 +5,9 @@ title: Ricerca nel catalogo in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: 71a8e2a1a542f8a2ce4eb287efa6caa2d49847e9
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '950'
 ht-degree: 21%
 
 ---
@@ -70,7 +70,7 @@ Potete usare una ricerca semplice o avanzata per individuare gli elementi presen
 
 Potete utilizzare la ricerca  avanzata per perfezionare ulteriormente i risultati della ricerca o per salvarli come [raccolta](/help/c-recommendations/c-products/collections.md) o [esclusione](/help/c-recommendations/c-products/exclusions.md).
 
-1. Fate clic su Ricerca **[!UICONTROL avanzata]**.
+1. Fate clic sul collegamento Ricerca **** avanzata.
 
    ![Pagina Ricerca avanzata](/help/c-recommendations/c-products/assets/advances-search.png)
 
@@ -108,7 +108,7 @@ Tutte le informazioni su tale elemento vengono rimosse dall’indice del catalog
 
 ## Aggiornare il catalogo
 
-L’indice del catalogo viene creato automaticamente quando caricate il primo feed e aggiornato in base alla pianificazione specificata.
+L’indice del catalogo viene creato automaticamente quando caricate il primo feed e aggiornato in base alla pianificazione [specificata](/help/c-recommendations/c-products/feeds.md#steps).
 
 Il catalogo viene aggiornato automaticamente quando si ricevono aggiornamenti tramite file di feed, API o aggiornamenti di mbox. In genere, gli aggiornamenti vengono completati entro un’ora. Se sono in corso degli aggiornamenti, viene visualizzata l’ora di inizio dell’aggiornamento più recente. Se non vi sono aggiornamenti in corso, viene visualizzata l’ora di inizio e di fine dell’aggiornamento più recente.
 
@@ -118,7 +118,7 @@ Puoi creare [raccolte](/help/c-recommendations/c-products/collections.md) o [esc
 
 1. Eseguire una ricerca [](#advanced-search)avanzata.
 
-1. (Facoltativo) Fate clic su **[!UICONTROL Salva con nome]**, quindi su **[!UICONTROL Raccolta]** o **[!UICONTROL Esclusione]**.
+1. Fate clic su **[!UICONTROL Salva con nome]**, quindi su **[!UICONTROL Raccolta]** o **[!UICONTROL Esclusione]**.
 
    ![Opzioni Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
@@ -150,6 +150,8 @@ Potete aggiungere altri facet di filtro alla pagina di ricerca [!UICONTROL del] 
 
 1. Seleziona i facet di ricerca desiderati (ID, nome, messaggio, ecc.).
 
+   ![Aggiungere filtri](/help/c-recommendations/c-products/assets/add-filters.png)
+
 Tenete presente che i facet aggiuntivi del filtro sono disponibili solo nella sessione corrente.
 
 ### Modificare le colonne
@@ -166,4 +168,4 @@ Potete modificare temporaneamente le colonne attive nella pagina di ricerca [!UI
 
    È inoltre possibile fare clic sull&#39;icona di eliminazione ( x ) accanto alla colonna da spostare dalla sezione attiva a quella inattiva.
 
-Le modifiche apportate si applicano solo alla sessione corrente.
+Eventuali modifiche apportate si applicano solo alla sessione corrente.
