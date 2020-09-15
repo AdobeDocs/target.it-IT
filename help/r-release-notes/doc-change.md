@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 4e7e509df33e5730c26c6e1ceaa82b3adb3ef2cc
+source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
 workflow-type: tm+mt
-source-wordcount: '2179'
-ht-degree: 30%
+source-wordcount: '2275'
+ht-degree: 29%
 
 ---
 
@@ -22,6 +22,10 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 15 settembre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.8.3, che include il supporto di Analytics per Target (A4T) per le attività di Auto-Target. Il supporto per le attività di allocazione automatica è stato aggiunto in una versione precedente. |
+|  | [Supporto di Analytics per Target (A4T) per le attività](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di allocazione automatica e di targeting automatico. | Sono state aggiunte informazioni sul supporto A4T nelle attività di targeting automatico. |
+|  | [Bookmarklet di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | Testo aggiornato per indicare che il metodo per uscire manualmente dalla modalità QA caricando una pagina sul sito con il `at_preview_token` parametro con un valore vuoto si applica a at.js 1.*x.* |
+|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) | Intero argomento aggiornato. |
 | 10 settembre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.9.2 che include le seguenti nuove funzioni: Controllare gli slot delle raccomandazioni all&#39;interno delle sequenze di criteri. |
 |  | [Creare sequenze di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Sono state aggiunte informazioni sulla funzione &quot;Limita il numero di elementi restituiti&quot;. |
 | 9 settembre | [Bookmarklet di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiunto il codice JavaScript da usare con at.js 2.*x*. |
