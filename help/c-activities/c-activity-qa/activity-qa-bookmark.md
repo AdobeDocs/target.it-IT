@@ -6,7 +6,7 @@ feature: qa
 topic: Advanced,Standard,Classic
 uuid: 2890e215-16c9-4b22-a8eb-732cd6efede3
 translation-type: tm+mt
-source-git-commit: 620bb6dfbe160cf27ef5de9199c3d91fb806f316
+source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -45,6 +45,12 @@ javascript:(
 )();
 ```
 
+You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
+
+Ad esempio:
+
+`https://www.mysite.com/?at_preview_token=`
+
 ## bookmarklet QA attività per at.js 2.*x*
 
 Contrariamente a at.js 1.*x*, at.js 2.*x* non supporta i cookie di terze parti e la modalità QA è fissa solo per il dominio di prime parti (tramite un cookie di prime parti impostato da at.js). Così, in at.js 2.*x*, la sessione in modalità QA viene gestita solo sul lato client e non vengono inviati cookie in modalità QA a Target.
@@ -70,8 +76,3 @@ javascript:(
 
 Fare clic sul bookmarklet sulla barra degli strumenti del browser.
 
-You can also manually force yourself out of QA mode by loading a page on your site with the `at_preview_token` parameter with an empty value.
-
-Ad esempio:
-
-`https://www.mysite.com/?at_preview_token=`
