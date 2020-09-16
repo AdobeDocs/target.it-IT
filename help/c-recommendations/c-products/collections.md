@@ -5,21 +5,21 @@ title: Raccolte in Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 99%
+source-wordcount: '769'
+ht-degree: 69%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Raccolte {#collections}
 
-Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
+Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli. Una raccolta è definita specificando le condizioni che devono essere soddisfatte dagli elementi per farne parte.
 
-Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, puoi raggruppare qualsiasi elemento in una categoria adatta alla tua attività specifica, come prodotti in una determinata fascia di prezzo o colore o che possono essere di interesse in una particolare area geografica.
+Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, potete raggruppare qualsiasi elemento in una categoria che abbia senso per la vostra attività, ad esempio prodotti in una determinata fascia di prezzo o in un determinato colore o elementi che potrebbero essere interessanti in una particolare area geografica.
 
-Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un’area geografica ma non in un’altra, è possibile creare una raccolta che escluda gli elementi non disponibili nell’area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
+Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un&#39;area, ma non in un&#39;altra, potete creare una raccolta che escluda gli elementi non disponibili nell&#39;area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
 
 Anche i [consigli di backup](/help/c-recommendations/c-algorithms/backup-recs.md) generati per ogni criterio all’interno del consiglio utilizzano questa raccolta, in modo da includere nel consiglio di backup solo gli elementi della raccolta. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
 
@@ -37,11 +37,15 @@ Quando crei o modifichi un’attività di [!DNL Recommendations], il nome della 
 
 ## Creazione di una raccolta {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
+Create una raccolta per organizzare i prodotti o il contenuto da mostrare nelle raccomandazioni.
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
+
+   Nella pagina [!UICONTROL Raccolte] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fate clic sul pulsante [!UICONTROL Crea raccolta] . Potete inoltre modificare, copiare ed eliminare le raccolte esistenti posizionando il puntatore del mouse sulla raccolta desiderata e facendo clic sull&#39;icona desiderata.
+
+   ![Icone al passaggio del mouse: modificare, copiare ed eliminare](/help/c-recommendations/c-products/assets/hover-icons.png)
 
    Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) per modificare il gruppo host predefinito.
 
@@ -59,15 +63,15 @@ Crea una raccolta per organizzare i prodotti che desideri mostrare nei consigli.
 
    Ad esempio, la raccolta potrebbe essere basata su un ID o categoria di prodotto, un margine, o qualsiasi altro parametro nell’elenco.
 
-   È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Le regole multiple sono collegate tra loro mediante l’operatore E. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
+   È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Regole multiple sono collegate con un operatore AND. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Creare una raccolta utilizzando Ricerca avanzata
 
-Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
+Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as.png)
 
 Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] > [!UICONTROL Raccolta].
 
@@ -75,7 +79,19 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi f
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei raccolte in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un catalogo con l’intento di restituire i prodotti contenenti “vacanza”, verranno restituiti solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) ![Badge di esercitazione](/help/assets/tutorial.png)
+## Utilizzo di una raccolta in un&#39;attività Recommendations
+
+1. Create una raccolta utilizzando uno dei metodi indicati in precedenza.
+
+1. Fate clic su **[!UICONTROL Attività]** e [create una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificate un&#39;attività esistente.
+
+1. Nella pagina **[!UICONTROL Esperienze]** (passaggio 2 del flusso di lavoro guidato in tre parti), fate clic su un percorso in cui avete inserito le raccomandazioni, quindi fate clic su **[!UICONTROL Modifica raccolta]**.
+
+   ![Cambia raccolta, opzione](/help/c-recommendations/c-products/assets/change-collection.png)
+
+1. Nella pagina **[!UICONTROL Aggiungi raccolta]** , selezionate la raccolta desiderata.
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
