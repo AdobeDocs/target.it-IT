@@ -5,21 +5,27 @@ title: Esclusioni in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
+source-git-commit: 28e97c03e21df246e208588d507d4af8d3695283
 workflow-type: tm+mt
-source-wordcount: '490'
-ht-degree: 55%
+source-wordcount: '597'
+ht-degree: 45%
 
 ---
 
 
 # Esclusioni{#exclusions}
 
-Create un&#39;esclusione in [!DNL Adobe Target Recommendations] modo da impedire che prodotti o contenuti vengano raccomandati ai visitatori.
+Create un&#39;esclusione in [!DNL Adobe Target Recommendations] modo da impedire che prodotti o contenuti vengano raccomandati ai visitatori. Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori.
 
-Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori. Ad esempio, potete utilizzare le esclusioni per impedire la visualizzazione di prodotti o contenuti nelle raccomandazioni che sono state disattivate o sono sensibili alla natura (ad esempio, filmati con una valutazione non adatta a tutti in base alle valutazioni dei contenuti).
+Le esclusioni sono disponibili per l&#39;intero account. A differenza delle raccolte, dove specificate una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Recommendations] , le esclusioni si applicano a tutte le attività dell&#39;account. Non è disponibile alcuna opzione per assegnare un gruppo di esclusione durante la creazione dell&#39;attività.
 
-Le esclusioni sono disponibili per l&#39;intero account.
+Alcuni esempi di volte in cui si utilizzano le esclusioni:
+
+* Prodotti che sono stati interrotti
+* Il catalogo Autunno/Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Qualsiasi articolo del catalogo Estate non è più disponibile per l&#39;acquisto.
+* Elementi che potrebbero essere inopportuni da consigliare sulla maggior parte delle pagine/schermi (prodotti per adulti, film NC-17, ecc.)
+* Prodotti con campi di metadati incompleti (miniatura mancante, prezzo o altri metadati importanti)
+* Prodotti che non dovrebbero mai essere raccomandati (forse esiste uno SKU nel sistema per qualcosa, ma non è un articolo acquistabile, o forse è un falso SKU per il team di QA per simulare un acquisto senza ordinare qualcosa, ecc.)
 
 >[!IMPORTANT]
 >
