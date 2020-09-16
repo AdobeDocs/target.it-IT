@@ -5,23 +5,25 @@ title: Esclusioni in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
 workflow-type: tm+mt
-source-wordcount: '352'
-ht-degree: 99%
+source-wordcount: '407'
+ht-degree: 83%
 
 ---
 
 
 # Esclusioni{#exclusions}
 
-Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione.
+Create un&#39;esclusione in [!DNL Adobe Target Recommendations] modo da impedire che prodotti o contenuti vengano raccomandati ai visitatori.
+
+Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori. Ad esempio, potete utilizzare le esclusioni per impedire la visualizzazione di prodotti o contenuti nelle raccomandazioni che sono state disattivate o sono sensibili alla natura (ad esempio, filmati con una valutazione non adatta a tutte le età).
 
 >[!IMPORTANT]
 >
 >Le regole di esclusione statica e dinamica sono funzioni molto efficaci che possono esserti utili nelle iniziative di marketing. Per informazioni dettagliate, esempi e scenari di utilizzo, consulta [Utilizzare regole di inclusione dinamiche e statiche](../../c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#concept_4CB5C0FA705D4E449BD0B37B3D987F9F).
 
-**Per creare un’esclusione:**
+## Creare un’esclusione
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
@@ -49,7 +51,7 @@ Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ric
 
 ![Salva con nome](/help/c-recommendations/c-products/assets/save-as-dialog.png)
 
-Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md).
+Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as).
 
 >[!IMPORTANT]
 >
