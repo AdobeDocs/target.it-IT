@@ -1,14 +1,14 @@
 ---
 keywords: exclusions
-description: Per evitare che determinati elementi vengano consigliati, crea un elenco di esclusione in Adobe Target.
+description: Consente di creare un'esclusione [!DNL Adobe Target Recommendations] per impedire che prodotti o contenuti vengano raccomandati ai visitatori.
 title: Esclusioni in Adobe Target
 feature: entities
 uuid: 1970846e-37d8-4b69-a0d9-ff45bb840bef
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '407'
-ht-degree: 83%
+source-wordcount: '490'
+ht-degree: 55%
 
 ---
 
@@ -17,7 +17,9 @@ ht-degree: 83%
 
 Create un&#39;esclusione in [!DNL Adobe Target Recommendations] modo da impedire che prodotti o contenuti vengano raccomandati ai visitatori.
 
-Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori. Ad esempio, potete utilizzare le esclusioni per impedire la visualizzazione di prodotti o contenuti nelle raccomandazioni che sono state disattivate o sono sensibili alla natura (ad esempio, filmati con una valutazione non adatta a tutte le età).
+Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori. Ad esempio, potete utilizzare le esclusioni per impedire la visualizzazione di prodotti o contenuti nelle raccomandazioni che sono state disattivate o sono sensibili alla natura (ad esempio, filmati con una valutazione non adatta a tutti in base alle valutazioni dei contenuti).
+
+Le esclusioni sono disponibili per l&#39;intero account.
 
 >[!IMPORTANT]
 >
@@ -47,17 +49,27 @@ Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero 
 
 ## Creare un’esclusione utilizzando Ricerca avanzata
 
-Puoi creare esclusioni anche utilizzando la ricerca avanzata nella pagina di ricerca nel catalogo ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
+You can also create exclusions using [!UICONTROL Advanced Search] on the [Catalog Search](/help/c-recommendations/c-products/catalog-search.md#save-as) page ( [!UICONTROL Recommendations] > [!UICONTROL Catalog Search] > [!UICONTROL Advanced Search]).
 
-![Salva con nome](/help/c-recommendations/c-products/assets/save-as-dialog.png)
+![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as.png)
 
-Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione]. Per ulteriori informazioni, consulta [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as).
+Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione].
 
 >[!IMPORTANT]
 >
->La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
+>The [!UICONTROL Advanced Search] functionality is case-insensitive; however, products returned at the time of delivery are based on case-sensitive search. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Video di formazione: Crea raccolte ed esclusioni in Recommendations (7:05) ![Badge di esercitazione](/help/assets/tutorial.png)
+## Modificare, copiare o eliminare un&#39;esclusione
+
+Passate il puntatore del mouse sull&#39;esclusione desiderata nell&#39;elenco, quindi fate clic sull&#39;icona appropriata: modificare, copiare o eliminare.
+
+![Icone al passaggio del mouse per un&#39;esclusione](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+
+È possibile copiare un&#39;esclusione esistente per creare una doppia esclusione da modificare. Questo consente di creare un&#39;esclusione simile con meno sforzi.
+
+Tieni presente che le esclusioni sono disponibili per l&#39;intero account. Prima di eliminare un&#39;esclusione, è necessario tenere presente questo aspetto. Le esclusioni eliminate non possono essere recuperate.
+
+## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
