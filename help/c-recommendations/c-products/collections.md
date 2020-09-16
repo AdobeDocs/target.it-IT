@@ -5,10 +5,10 @@ title: Raccolte in Adobe Target
 feature: entities
 uuid: aa1afdcf-e51c-4e44-a229-3c21fc9d0514
 translation-type: tm+mt
-source-git-commit: 421168f34bffe1f5f90d90f4af9b28940d0b8010
+source-git-commit: af46453734f4ce185e0cd4282793a800fada8a98
 workflow-type: tm+mt
-source-wordcount: '769'
-ht-degree: 69%
+source-wordcount: '868'
+ht-degree: 61%
 
 ---
 
@@ -79,17 +79,29 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi f
 >
 >La funzionalità di Ricerca avanzata non distingue tra maiuscole e minuscole, tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei raccolte in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un catalogo con l’intento di restituire i prodotti contenenti “vacanza”, verranno restituiti solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
+## Modificare, copiare o eliminare una raccolta
+
+Passate il puntatore del mouse sulla raccolta desiderata nell&#39;elenco, quindi fate clic sull&#39;icona appropriata: modificare, copiare o eliminare.
+
+![Icone al passaggio del mouse per una raccolta](/help/c-recommendations/c-products/assets/hover-collections.png)
+
+Potete copiare una raccolta esistente per creare una raccolta duplicata da modificare. Questo consente di creare un&#39;esclusione simile con meno sforzi.
+
+Tenete presente che le raccolte sono disponibili nell&#39;intero account. Considerate questo aspetto prima di eliminare una raccolta. Le raccolte eliminate non possono essere recuperate.
+
 ## Utilizzo di una raccolta in un&#39;attività Recommendations
 
 1. Create una raccolta utilizzando uno dei metodi indicati in precedenza.
 
 1. Fate clic su **[!UICONTROL Attività]** e [create una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificate un&#39;attività esistente.
 
-1. Nella pagina **[!UICONTROL Esperienze]** (passaggio 2 del flusso di lavoro guidato in tre parti), fate clic su un percorso in cui avete inserito le raccomandazioni, quindi fate clic su **[!UICONTROL Modifica raccolta]**.
+1. Dopo aver selezionato un criterio e una progettazione, la pagina [!UICONTROL Opzioni] viene visualizzata quando selezionate la raccolta desiderata.
+
+   ![Scegli opzione raccolta](/help/c-recommendations/c-products/assets/choose-collection.png)
+
+1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Esperienze]** (passaggio 2 del flusso di lavoro guidato in tre parti), fate clic su un percorso in cui avete inserito le raccomandazioni, fate clic su **[!UICONTROL Modifica raccolta]**, quindi selezionate la raccolta desiderata.
 
    ![Cambia raccolta, opzione](/help/c-recommendations/c-products/assets/change-collection.png)
-
-1. Nella pagina **[!UICONTROL Aggiungi raccolta]** , selezionate la raccolta desiderata.
 
 ## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
 
