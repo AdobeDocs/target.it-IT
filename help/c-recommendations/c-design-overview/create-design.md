@@ -5,10 +5,10 @@ title: Creare una progettazione
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
 workflow-type: tm+mt
-source-wordcount: '644'
-ht-degree: 95%
+source-wordcount: '854'
+ht-degree: 43%
 
 ---
 
@@ -17,24 +17,44 @@ ht-degree: 95%
 
 Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
-È possibile creare una progettazione [!UICONTROL Consigli] utilizzando una progettazione predefinita o creandone una personalizzata. La schermata **[!UICONTROL Consigli > Progettazioni]** visualizza le schede di progettazione predefinite e le progettazioni create. Le progettazioni predefinite non possono essere modificate o eliminate.
+È possibile creare una progettazione [!UICONTROL Consigli] utilizzando una progettazione predefinita o creandone una personalizzata. Nella schermata **[!UICONTROL Recommendations > Progettazione]** sono visualizzate sia le schede di progettazione predefinite che tutte le progettazioni create nel vostro account.
 
-1. Nella schermata **[!UICONTROL Consigli > Progettazioni]**, muovi il mouse sulla scheda della progettazione che desideri creare.
+Quando lavorate con le progettazioni, tenete presenti le seguenti informazioni:
+
+* Potete creare una progettazione di raccomandazioni utilizzando una progettazione predefinita oppure una progettazione personalizzata.
+* Non è possibile modificare o eliminare una progettazione predefinita.
+* Potete modificare, copiare o eliminare una progettazione personalizzata.
+* Per creare una progettazione basata su una progettazione predefinita, dovete prima copiare la progettazione e quindi modificare la copia.
+
+Questa illustrazione mostra la progettazione predefinita di 1 x 4:
+
+![Design predefinito 1 x 4](/help/c-recommendations/c-design-overview/assets/default-design.png)
+
+Questa illustrazione mostra una progettazione personalizzata:
+
+![Progettazione personalizzata](/help/c-recommendations/c-design-overview/assets/custom-design.png)
+
+Potete creare una progettazione durante il processo di creazione dell&#39;attività dall&#39;interno di Visual Experience Composer (VEC) o dalla libreria di progettazione all&#39;esterno della creazione dell&#39;attività. Le sezioni seguenti presumono che si stiano creando strutture dalla libreria, ma i passaggi sono simili.
+
+## Creare una progettazione basata su una progettazione predefinita
+
+1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Progettazione]** per visualizzare la libreria [!UICONTROL Progettazione] .
+
+   ![Libreria Progettazione](/help/c-recommendations/c-design-overview/assets/design-library.png)
+
+1. Passate il puntatore del mouse sulla scheda per la progettazione da creare, quindi fate clic sull&#39;icona **[!UICONTROL Copia]** .
 
    ![](assets/Card_CopyDesign.png)
 
-1. Per copiare e modificare una progettazione esistente, fai clic sull’icona **[!UICONTROL Copia]**.
-
-   Oppure
-
-   Per creare una progettazione personalizzata, fai clic su **[!UICONTROL Crea progettazione]** nella schermata **[!UICONTROL Consigli > Progettazioni]**.
+   Viene visualizzata la finestra di dialogo [!UICONTROL Crea struttura] .
 
    ![](assets/createDesign.png)
 
-1. Aggiungi un **[!UICONTROL nome contenuto]**.
+1. Nel pannello **[!UICONTROL Informazioni]** , aggiungete un nome **** contenuto e un&#39;immagine di anteprima facoltativa da visualizzare sulla scheda grafica.
 
-   Quando si utilizza una progettazione predefinita, il nome della progettazione e la “copia” verranno visualizzati nel campo **[!UICONTROL Nome contenuto]**. È possibile modificare il nome. 1. (Facoltativo) Fai clic per selezionare un&#39;immagine da visualizzare sulla scheda di progettazione.
-1. Modifica il **[!UICONTROL codice]** di progettazione.
+   When you use a default design, the design name and &quot;Copy&quot; appears in the **[!UICONTROL Content Name]** field. È possibile modificare il nome. Potete anche selezionare un&#39;immagine da visualizzare sulla scheda grafica.
+
+1. (Condizionale) Modificate il **[!UICONTROL Codice]** di progettazione come desiderate.
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
 
@@ -42,20 +62,37 @@ Una progettazione definisce come i consigli verranno visualizzati su una pagina.
 
    >[!NOTE]
    >
-   >Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
+   >Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite hardcoded o loop, è 99.
+
+1. Fai clic su **[!UICONTROL Salva]**.
+
+## Creare una progettazione personalizzata
+
+1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Progettazione]** per visualizzare la libreria [!UICONTROL Progettazione] .
+
+1. Fate clic su **[!UICONTROL Crea struttura]**.
+
+   Se desiderate basare la nuova progettazione personalizzata su una progettazione esistente, passate il puntatore del mouse sulla progettazione desiderata, quindi fate clic sull&#39;icona [!UICONTROL Copia] . Potete quindi modificare la copia per creare una nuova progettazione personalizzata.
+
+1. Aggiungete un nome **** contenuto e un’immagine di anteprima facoltativa.
+
+1. (Condizionale) Modificate il **[!UICONTROL Codice]** di progettazione come desiderate.
+
+   Per ulteriori informazioni, fare riferimento alle informazioni del punto 4 precedente.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
 ## Esempio JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
-Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte JSON quando si configura un&#39;attività tramite l&#39;editor basato su modelli.
+L&#39;esempio seguente mostra come è possibile restituire le risposte JSON quando si configura un&#39;attività tramite l&#39;editor basato su modulo.
 
-1. Crea una progettazione dall&#39;interno della Libreria di progettazione o all&#39;interno del flusso di lavoro basato su modelli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro del Compositore esperienza visivo, puoi creare solo una struttura HTML, che viene racchiusa in un elemento `<div>` a scopo di tracciamento dei clic.
+1. Creare una progettazione dall&#39;interno della libreria Progettazione o nel flusso di lavoro basato su moduli. Se tenti di eseguire questa operazione all’interno del flusso di lavoro del Compositore esperienza visivo, puoi creare solo una struttura HTML, che viene racchiusa in un elemento `<div>` a scopo di tracciamento dei clic.
+
 1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
 
    ![](assets/html_design_toggle.png)
 
-1. Il codice riportato di seguito è un esempio di ciò che è possibile incollare nella progettazione:
+1. Di seguito è riportato un esempio di ciò che è possibile incollare nella progettazione:
 
    ```
        #* 
@@ -84,24 +121,22 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
        }  
    ```
 
-1. Imposta un&#39;attività di Consigli basata su moduli che utilizzi questa progettazione.
+1. Set up a form-based [!DNL Recommendations] activity that uses this design.
 
-   1. Passa alla pagina Attività.
-   1. Fai clic su **[!UICONTROL Crea attività]**.
-   1. Seleziona **[!UICONTROL Consigli]**.
-   1. In **[!UICONTROL Scegli Compositore esperienza]**, seleziona **[!UICONTROL Modulo]**.
-
+   1. Navigate to the **[!UICONTROL Activities]** page.
+   1. Fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Consigli]**.
+   1. In **[!UICONTROL Scegli Experience Composer (Compositore esperienza)]**, seleziona **[!UICONTROL Modulo]**, quindi fai clic su **[!UICONTROL Avanti]**.
    1. In posizione, immetti il testo: “Sample_Recs_Response”
    1. In **[!UICONTROL Contenuto predefinito]** fai clic sulla freccia giù, poi su **[!UICONTROL Aggiungi consiglio]**.
    1. Scegli un Tipo di pagina. Questo determina il filtraggio iniziale della schermata successiva.
    1. Seleziona una scheda Criteri, poi fai clic su **[!UICONTROL Avanti]**.
-   1. Seleziona la struttura creata nel passaggio precedente, poi fai clic su **[!UICONTROL Salva]**.
+   1. Select the design you created in the previous step, then click **[!UICONTROL Next]**.
    1. Completa il processo di impostazione.
    1. Fai clic sulla freccia destra accanto a **[!UICONTROL Inattivo]**, poi seleziona **[!UICONTROL Attiva]**.
 
 1. Dopo aver impostato e attivato l&#39;attività, è possibile impostare una richiesta di esempio per ottenere la risposta JSON pulita.
 
-   Dal momento in cui salvi l&#39;attività, Target dovrà generare un modello per supportare la configurazione dei criteri selezionati. A seconda di una serie di fattori, questo potrebbe richiedere del tempo. Una volta generato il modello vengono visualizzati i risultati.
+   From the time that you save your activity, [!DNL Target] will need to build a model to support the selected criteria configuration. A seconda di una serie di fattori, questo potrebbe richiedere del tempo. Una volta generato il modello vengono visualizzati i risultati.
 
    Ad esempio:
 
@@ -111,18 +146,18 @@ Nell&#39;esempio seguente viene illustrato come è possibile restituire risposte
 
    dove
 
-| Parametro | Valore |
-|--- |--- |
-| `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings > Token API per i consigli > Codice client. |
-| `[YOUR_MBOX_NAME]` | Nome selezionato nella sezione &quot;percorsi&quot; dell&#39;Recommendations basato su modulo, in questo caso Sample_Recs_Response. |
-| `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
-| `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
+   | Parametro | Valore |
+   |--- |--- |
+   | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings > Token API per i consigli > Codice client. |
+   | `[YOUR_MBOX_NAME]` | Nome selezionato nella sezione &quot;percorsi&quot; dell&#39;Recommendations basato su modulo, in questo caso Sample_Recs_Response. |
+   | `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
+   | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
 
 Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
 
 ![](assets/json_recommendation.png){width=&quot;575px&quot;}
 
-## Ulteriori suggerimenti sugli oggetti JSON {#section_C305673C68944749969DB239E3221DC2}
+## Additional JSON object tips and tricks {#section_C305673C68944749969DB239E3221DC2}
 
 È inoltre possibile inviare un semplice elenco di elementi delimitato da virgole impostando una progettazione con la seguente sintassi:
 
@@ -130,7 +165,7 @@ Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la rispos
 entity1.id, $entity2.id, $entity3.id, $entity4.id, $entity5.id, 
 ```
 
-In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). In questo esempio di progettazione vengono inoltre restituiti i dettagli dell&#39;attività, del Profilo di Target (come applicabile) e altri attributi `entity.attributes` associati agli elementi restituiti.
+In alternativa, è possibile inviare ulteriori informazioni nella risposta. Il file di codice seguente è un esempio più complesso che restituisce molto di più degli ID di entità con gli spazi associati (ordine). This design example also returns activity details, Target Profile details (as applicable), and other `entity.attributes` associated with the items returned.
 
 ```
     {   
