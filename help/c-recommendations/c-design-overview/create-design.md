@@ -5,10 +5,10 @@ title: Creare una progettazione
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 43%
+source-wordcount: '988'
+ht-degree: 36%
 
 ---
 
@@ -36,7 +36,11 @@ Questa illustrazione mostra una progettazione personalizzata:
 
 Potete creare una progettazione durante il processo di creazione dell&#39;attività dall&#39;interno di Visual Experience Composer (VEC) o dalla libreria di progettazione all&#39;esterno della creazione dell&#39;attività. Le sezioni seguenti presumono che si stiano creando strutture dalla libreria, ma i passaggi sono simili.
 
-## Creare una progettazione basata su una progettazione predefinita
+## Creare progettazioni
+
+Potete creare una progettazione basata su una progettazione predefinita oppure su una progettazione personalizzata.
+
+### Creare una progettazione basata su una progettazione predefinita
 
 1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Progettazione]** per visualizzare la libreria [!UICONTROL Progettazione] .
 
@@ -56,9 +60,9 @@ Potete creare una progettazione durante il processo di creazione dell&#39;attivi
 
 1. (Condizionale) Modificate il **[!UICONTROL Codice]** di progettazione come desiderate.
 
-   Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
+   Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Per informazioni su Velocity, consultate [https://velocity.apache.org](https://velocity.apache.org) e [Personalizzare un progetto con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni HTML sono racchiuse da un tag <div> per consentire il tracciamento dei clic in un ambiente web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic.
+   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni HTML sono racchiuse da un tag <div> per consentire il tracciamento dei clic in un ambiente web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Fate scorrere l&#39;opzione Progettazione  HTML nella posizione &quot;disattivata&quot; per utilizzare codice non HTML.
 
    >[!NOTE]
    >
@@ -66,7 +70,7 @@ Potete creare una progettazione durante il processo di creazione dell&#39;attivi
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Creare una progettazione personalizzata
+### Creare una progettazione personalizzata
 
 1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Progettazione]** per visualizzare la libreria [!UICONTROL Progettazione] .
 
@@ -81,6 +85,18 @@ Potete creare una progettazione durante il processo di creazione dell&#39;attivi
    Per ulteriori informazioni, fare riferimento alle informazioni del punto 4 precedente.
 
 1. Fai clic su **[!UICONTROL Salva]**.
+
+## Modificare, copiare o eliminare una progettazione
+
+Non potete modificare o copiare una progettazione predefinita; è possibile copiare solo le strutture predefinite.
+
+Passate il puntatore del mouse sulla progettazione desiderata nella libreria [!UICONTROL Progettazione] , quindi fate clic sull&#39;icona appropriata: modificare, copiare o eliminare.
+
+![Icone al passaggio del mouse per una progettazione](/help/c-recommendations/c-design-overview/assets/hover-icons-design.png)
+
+Potete copiare una progettazione esistente per creare una progettazione duplicata da modificare. Questo consente di creare un design simile con meno sforzi.
+
+Tenete presente che le progettazioni sono disponibili per l&#39;intero account. Considerate questo aspetto prima di eliminare una progettazione. I disegni eliminati non possono essere recuperati.
 
 ## Esempio JSON {#section_75BFB2537CFF4FBD9B560F59EB32C8DD}
 
