@@ -5,10 +5,10 @@ title: Creare un’attività Consigli
 feature: recs creation
 uuid: c3f22cce-204a-4509-92c4-8fec43fbaebe
 translation-type: tm+mt
-source-git-commit: 93d6d12a1ccb3185d489de8f9218ef924d4a50a1
+source-git-commit: d14c57c5ebbbe1902d71ad60dd95ef697ee6411e
 workflow-type: tm+mt
-source-wordcount: '1150'
-ht-degree: 93%
+source-wordcount: '1303'
+ht-degree: 78%
 
 ---
 
@@ -49,9 +49,15 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Click an element on your page, then if recommendations are available where that element is located, click **[!UICONTROL Replace w/ Recommendations]**, **[!UICONTROL Insert Recommendations Before]**, or **[!UICONTROL Insert Recommendations After]**.
 
+   I visitatori del sito visualizzeranno il contenuto consigliato solo se sono idonei per la raccomandazione. I visitatori non idonei per la raccomandazione visualizzeranno il contenuto predefinito.
+
    ![Opzioni per la funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   La sostituzione di un elemento con i consigli elimina il contenuto corrente e lo sostituisce con i consigli.
+   * **[!UICONTROL Sostituisci con Recommendations]**: La sostituzione di un elemento con le raccomandazioni elimina il contenuto corrente e lo sostituisce con le raccomandazioni. Quando i visitatori visitano il sito e si qualificano per la raccomandazione, visualizzeranno gli elementi consigliati nell&#39;area specificata invece del contenuto esistente.
+   * **[!UICONTROL Inserisci Recommendations prima]**: L&#39;inserimento di raccomandazioni prima dell&#39;elemento selezionato posiziona il contenuto consigliato prima di tale elemento. A seconda della costruzione della pagina, la raccomandazione viene visualizzata sopra o a sinistra dell&#39;elemento selezionato.
+   * **[!UICONTROL Inserisci Recommendations dopo]**: L&#39;inserimento di raccomandazioni dopo l&#39;elemento selezionato posiziona il contenuto consigliato dopo tale elemento. A seconda della costruzione della pagina, la raccomandazione viene visualizzata sotto o a destra dell&#39;elemento selezionato.
+
+   L&#39;opzione **[!UICONTROL Espandi selezione]** consente di espandere la posizione selezionata (contenitore principale) per identificare e includere più facilmente gli elementi di pagina desiderati.
 
 1. Seleziona un tipo di pagina.
 
@@ -70,7 +76,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Seleziona uno o più [criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, nella schermata [!UICONTROL Seleziona criteri] sono visualizzati i criteri compatibili con il settore verticale e il tipo di pagina selezionato. Puoi modificare queste opzioni per visualizzare altri criteri.
+   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. By default, the [!UICONTROL Select Criteria] screen displays criteria that are compatible with your industry vertical and the page type you selected in the previous step. Puoi modificare queste opzioni per visualizzare altri criteri.
 
    >[!NOTE]
    >
@@ -105,6 +111,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 1. Fai clic su **[!UICONTROL Successivo]**.
 
    Puoi aggiungere delle promozioni ai consigli. Per ulteriori informazioni sull’aggiunta di promozioni prima e dopo, consulta [Aggiunta di promozioni](../../c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+
 1. Fai clic su **[!UICONTROL Salva]**.
 
    La schermata del Compositore esperienza visivo mostra la progettazione dei consigli sulla tua pagina.
@@ -158,7 +165,8 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    * Attivare l’attività
    * Modificare l’attività
-   * Aggiungere l’attività alla bacheca di Experience Cloud
+   * Condivisione dell&#39;attività nel feed di Experience Cloud 
+   * QA dell&#39;attività
    * Visualizzare gli URL dell’esperienza
    * Scaricare dati
    * Modificare la percentuale di partecipanti all’attività che visualizzano l’esperienza di controllo
@@ -166,6 +174,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
    * Visualizzare il codice delle progettazioni
 
 1. (Facoltativo) Apri la pagina dei [!UICONTROL Rapporti] per visualizzare le prestazioni dell’attività di [!DNL Recommendations].
+
 1. (Facoltativo) Apri la pagina [!UICONTROL Conflitti] per visualizzare eventuali [conflitti tra attività.](/help/c-experiences/c-visual-experience-composer/activity-collisions.md)
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
