@@ -6,17 +6,17 @@ feature: recs creation
 subtopic: Recommendations
 uuid: 7c66d0e8-cecf-4d0d-8c62-5347a7d80a53
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 98%
+source-wordcount: '384'
+ht-degree: 89%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Impostazioni dell’attività Consigli{#recommendations-activity-settings}
 
-Informazioni sulle impostazioni utilizzabili per descrivere e controllare un’attività [!UICONTROL Consigli].
+Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
 
 ![Pagina Obiettivi e impostazioni della funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -37,7 +37,7 @@ I seguenti caratteri non sono consentiti nel nome di un’attività:
 `-`
 `@`
 
-Se specifichi un nome di attività [!UICONTROL Consigli] che esiste già per un’altra attività in [!UICONTROL Recommendations Classic], la nuova attività viene risincronizzata con un altro nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. Questo nuovo nome viene visualizzato in entrambi Target Standard/Premium e [!UICONTROL Recommendations Classic].
+Se specifichi un nome di attività [!UICONTROL Consigli] che esiste già per un’altra attività in [!UICONTROL Recommendations Classic], la nuova attività viene risincronizzata con un altro nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
 
 ## Finalità
 
@@ -57,7 +57,7 @@ L’attività può iniziare dopo l’attivazione, oppure è possibile impostare 
 
 ## Impostazioni reporting
 
-* **Origine per i rapporti:** seleziona l’origine per la generazione di rapporti: Adobe Target o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificare l’origine per i rapporti dopo che l’attività è divenuta live in quanto si potrebbero verificare incongruenze nei risultati dei rapporti.
+* **Origine report:** Selezionare l&#39;origine di reporting: [!DNL Adobe Target] o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificare l’origine per i rapporti dopo che l’attività è divenuta live in quanto si potrebbero verificare incongruenze nei risultati dei rapporti.
 * **Metrica per obiettivo**: seleziona la metrica di successo che determina il successo dell’attività.
 * **Altre metriche:** Configura ulteriori metriche di successo da utilizzare nei rapporti.
 * **Tipi di pubblico per i rapporti:** Definisci i tipi di pubblico che possono essere utilizzati per filtrare i rapporti.
