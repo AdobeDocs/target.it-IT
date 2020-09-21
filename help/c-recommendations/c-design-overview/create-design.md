@@ -5,7 +5,7 @@ title: Creare una progettazione
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: 54b1dd66d725ba58d7d9009396c8a4d510a4fd6e
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '988'
 ht-degree: 36%
@@ -62,7 +62,7 @@ Potete creare una progettazione basata su una progettazione predefinita oppure s
 
    Le progettazioni per consigli utilizzano il linguaggio di progettazione open-source Velocity. Per informazioni su Velocity, consultate [https://velocity.apache.org](https://velocity.apache.org) e [Personalizzare un progetto con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md).
 
-   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni HTML sono racchiuse da un tag <div> per consentire il tracciamento dei clic in un ambiente web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Fate scorrere l&#39;opzione Progettazione  HTML nella posizione &quot;disattivata&quot; per utilizzare codice non HTML.
+   Una progettazione può essere HTML o non HTML. Per impostazione predefinita, le progettazioni HTML sono racchiuse da un tag `<div>` per consentire il tracciamento dei clic in un ambiente web. Le progettazioni non HTML sono per ambienti non web in cui non è possibile effettuare il monitoraggio dei clic. Fate scorrere l&#39;opzione Progettazione  HTML nella posizione &quot;disattivata&quot; per utilizzare codice non HTML.
 
    >[!NOTE]
    >
