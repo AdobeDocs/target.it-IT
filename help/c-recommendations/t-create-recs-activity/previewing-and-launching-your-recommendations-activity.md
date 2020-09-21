@@ -5,10 +5,10 @@ title: 'Dopo aver creato l''attività Recommendations, A/B Test o Experience Tar
 feature: recs creation
 subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
 source-wordcount: '1398'
-ht-degree: 19%
+ht-degree: 16%
 
 ---
 
@@ -39,7 +39,7 @@ I risultati dello stato includono quanto segue:
 
 ## Quanto tempo sarà necessario per l&#39;esecuzione dell&#39;algoritmo?
 
-Dopo aver salvato un&#39;attività contenente un criterio, [!DNL Target] calcola le raccomandazioni in base alla raccolta, ai criteri, alla progettazione e alle promozioni selezionate. Il calcolo richiede un po’ di tempo, in base alla logica selezionata per la generazione dei consigli, all’intervallo di dati, alla quantità di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all’origine selezionata per i dati comportamentali.
+Dopo aver salvato un&#39;attività contenente un criterio, [!DNL Target] calcola le raccomandazioni in base alla raccolta, ai criteri, alla progettazione e alle promozioni selezionate. Questo calcolo richiede un certo tempo e il periodo di tempo varia in base alla logica di raccomandazione selezionata, all&#39;intervallo di dati, al numero di elementi nel catalogo, alla quantità di dati comportamentali generati dai clienti e all&#39;origine dati comportamentale selezionata.
 
 Quest’ultima influisce maggiormente sul tempo di elaborazione, come segue:
 
@@ -75,11 +75,11 @@ L&#39;utilizzo di un collegamento di controllo qualità consente di visualizzare
 
 >[!NOTE]
 >
->La modalità QA di destinazione è &quot;appiccicosa&quot; e salvata in un cookie. Se non uscite dalla modalità di controllo qualità, continuerete a visualizzare i risultati di tale controllo in tutto il sito. Per uscire dalla modalità QA, utilizzare il [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+>* La modalità QA di destinazione è &quot;appiccicosa&quot; e salvata in un cookie. Se non uscite dalla modalità di controllo qualità, continuerete a visualizzare i risultati di tale controllo in tutto il sito. Per uscire dalla modalità QA, utilizzare il [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
+   >
+   >
+* In modalità di controllo qualità, la navigazione sul sito non influirà sugli elementi [!UICONTROL visualizzati di] recente o sugli elementi [!UICONTROL acquistati]di recente del profilo.&quot; Questo comportamento si verifica in base alla progettazione per evitare l&#39;inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un [!UICONTROL visualizzatore recente di elementi] o criteri Recommendations [!UICONTROL basati su] utente, prima sfogliate il sito al di fuori della modalità QA, quindi utilizzate la stessa sessione per aprire un collegamento in modalità QA.
 
->[!NOTE]
->
->In modalità QA, la navigazione sul sito non influirà sugli articoli [!UICONTROL visualizzati di] recente o sugli articoli [!UICONTROL acquistati]di recente del profilo.&quot; Questo comportamento si verifica in base alla progettazione per evitare l&#39;inquinamento accidentale dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un [!UICONTROL visualizzatore recente di elementi] o criteri Recommendations [!UICONTROL basati su] utente, prima sfogliate il sito al di fuori della modalità QA, quindi utilizzate la stessa sessione per aprire un collegamento in modalità QA.
 
 ## Utilizzo del download CSV per visualizzare in anteprima le raccomandazioni
 
