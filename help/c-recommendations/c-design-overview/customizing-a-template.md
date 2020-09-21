@@ -1,21 +1,21 @@
 ---
 keywords: custom design;velocity;decimal;comma;customize design
-description: Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
+description: Utilizzate il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in  Adobe Target Recommendations.
 title: Personalizzare una progettazione con Velocity
 feature: designs
 uuid: 80701a15-c5eb-4089-a92e-117eda11faa2
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
 workflow-type: tm+mt
-source-wordcount: '1010'
-ht-degree: 65%
+source-wordcount: '1014'
+ht-degree: 61%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Personalizzare una progettazione con Velocity{#customize-a-design-using-velocity}
 
-Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli.
+Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
 
 ## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -65,7 +65,7 @@ Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome 
 
 >[!NOTE]
 >
->Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
+>Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite hardcoded o loop, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
 
 Ad esempio, se desideri una progettazione che mostri qualcosa di simile a quanto segue:
 
@@ -126,14 +126,14 @@ Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili n
 
 ## Utilizzo dei numeri nei modelli Velocity
 
-Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. Potrebbe essere utile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, effettuate le seguenti operazioni:
+Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. Potrebbe essere utile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, procedere come segue:
 
-1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario
-1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello)
-1. Passate l&#39;attributo di entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio
-1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico
+1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario.
+1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello).
+1. Passate l&#39;attributo dell&#39;entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio.
+1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico.
 
-**Esempio: Calcolo di un prezzo di sconto**
+### Esempio: Calcolo di un prezzo di sconto
 
 Si supponga di voler ridurre il prezzo visualizzato di un articolo di $ 0,99 per applicare uno sconto. Per ottenere questo risultato, potete usare il seguente approccio:
 
@@ -148,7 +148,7 @@ Si supponga di voler ridurre il prezzo visualizzato di un articolo di $ 0,99 per
 #end
 ```
 
-**Esempio: Scelta del numero di stelle da visualizzare in base alla valutazione di un elemento**
+### Esempio: Scelta del numero di stelle da visualizzare in base alla valutazione di un elemento
 
 Si supponga di voler visualizzare un numero appropriato di stelle in base alla media numerica del punteggio cliente di un articolo. Per ottenere questo risultato, potete usare il seguente approccio:
 
@@ -173,7 +173,7 @@ Si supponga di voler visualizzare un numero appropriato di stelle in base alla m
 #end
 ```
 
-**Esempio: Calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento**
+### Esempio: Calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento
 
 Si supponga di memorizzare la lunghezza di un filmato in minuti, ma si desidera visualizzarla in ore e minuti. Per ottenere questo risultato, potete usare il seguente approccio:
 
