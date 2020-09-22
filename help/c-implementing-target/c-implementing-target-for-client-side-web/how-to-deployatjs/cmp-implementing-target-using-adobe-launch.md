@@ -5,10 +5,10 @@ title: Implementare Target con Adobe Launch
 feature: implementation with launch
 uuid: c8cd855b-bed1-4fc2-a0e3-f1ea6ab620e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
 source-wordcount: '470'
-ht-degree: 82%
+ht-degree: 80%
 
 ---
 
@@ -29,7 +29,7 @@ La tabella seguente elenca le diverse fonti da cui puoi ottenere ulteriori infor
 | [Documentazione di Adobe Launch](https://docs.adobe.com/content/help/en/launch/using/intro/get-started/quick-start.html) | Informazioni sull’utilizzo e la gestione di tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. |
 | [Adobe Target Extension Documentazione](https://docs.adobe.com/content/help/en/launch/using/extensions-ref/adobe-extension/target-extension/overview.html) | Informazioni sull&#39;implementazione di Target mediante Launch. |
 
-## Vantaggi dell&#39;implementazione di at.js con Target Launch Extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
+## Advantages of implementing at.js using the Target Launch extension {#section_48B3F938B6F8491DAF798E0DB54EF304}
 
 I seguenti vantaggi si applicano solo se si utilizza Adobe Launch per implementare at.js. Per questo motivo, si consiglia di utilizzare Adobe Launch anziché DTM o un&#39;implementazione manuale di at.js.
 
