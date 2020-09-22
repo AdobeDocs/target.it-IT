@@ -6,10 +6,10 @@ feature: client-side
 topic: Standard
 uuid: 3601bc84-24da-4495-b1aa-7ca463edef4c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3ddaf11d272fc68e98d6063591cdcf956a5e7faa
 workflow-type: tm+mt
-source-wordcount: '188'
-ht-degree: 100%
+source-wordcount: '308'
+ht-degree: 57%
 
 ---
 
@@ -22,6 +22,16 @@ Puoi implementare at.js utilizzando i seguenti metodi:
 
 * **[Implementare Target con Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)**: Launch è la piattaforma di gestione dei tag di nuova generazione di Adobe ed è il metodo preferito per implementare Adobe Target. Launch offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate.
 * **[Implementare Target senza un sistema per la gestione tag](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)**: puoi implementare Target senza un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
-* **[Implementare Target utilizzando Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)**: puoi implementare Target utilizzando Adobe Dynamic Tag Management (DTM), il precedente sistema Adobe per la gestione dei tag. Adobe Launch è il metodo preferito e aggiornato per l’implementazione di Target e della libreria at.js. Per le nuove implementazioni di Target, utilizza Launch.
+* **[Implementa Target tramite Gestione](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md)** tag dinamica: Puoi implementare Target utilizzando  Gestione dinamica dei tag (DTM, Dynamic Tag Management)  Adobe  gestore di tag legacy. Adobe Launch è il metodo preferito e aggiornato per l’implementazione di Target e della libreria at.js. Per le nuove implementazioni di Target, utilizza Launch.
+* **Implementate Target utilizzando un gestore** di tag di terze parti: [Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Adobe è il metodo preferito per implementare Target; tuttavia, potete anche implementare Target utilizzando un gestore di tag di terze parti, come Tealium, Ensight, Google Tag, ecc. Per un elenco dei vantaggi dell&#39;utilizzo di Launch, vedi [Vantaggi dell&#39;implementazione di at.js tramite l&#39;estensione](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#section_48B3F938B6F8491DAF798E0DB54EF304)Target Launch.
+
+   Tuttavia, se sai come implementare Target senza un gestore di tag, puoi facilmente implementarlo con un gestore di tag di terze parti invece di codificare il file at.js nel codice del sito.
+
+   Di seguito sono riportati due argomenti rilevanti per l&#39;implementazione di Target con un gestore di tag di terze parti:
+
+   * [Prima dell’implementazione](/help/c-implementing-target/c-considerations-before-you-implement-target/considerations-before-you-implement-target.md)
+   * [Implementare Target senza un sistema per la gestione dei tag](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md)
+
+   Per ulteriori informazioni, consulta la documentazione relativa al gestore di tag di terze parti.
 
 Per implementare Target quando si utilizzano le app a pagina singola, vedi [Implementazione delle applicazioni a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
