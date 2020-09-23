@@ -5,7 +5,7 @@ title: Utilizzare un server di tracciamento di Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 2f437e4cf33e4facba60d53ba545beb95c16f191
+source-git-commit: 1957e67c8502c06be950c7dafdcc3f6878f87065
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 24%
@@ -62,7 +62,7 @@ Gli strumenti per sviluppatori devono essere visualizzati in una pagina in cui l
 
 1. Filtrare per ‘/ss,’ per visualizzare le richieste di analisi.
 
-   ![Strumenti di sviluppo Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Strumenti di sviluppo Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools-2.png)
 
    Il server di tracciamento è il nome host della richiesta.
 
