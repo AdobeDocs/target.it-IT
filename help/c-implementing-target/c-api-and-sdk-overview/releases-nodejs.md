@@ -5,7 +5,7 @@ title: Note sulla versione relative  SDK Node.js di Adobe Target.
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 21c49efb4b5de0ae14215712f4ec87b4759f29e1
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 1%
@@ -39,7 +39,7 @@ Le sezioni seguenti forniscono ulteriori informazioni sulla versione 1.0.0 dell�
    Stiamo introducendo un&#39;impostazione denominata `serverState` che contiene le esperienze recuperate sul lato server, in modo che at.js v2.2+ non effettuerà una chiamata server aggiuntiva per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.
 
 * Viene aperta in origine su GitHub come SDK [Node.js di](https://github.com/adobe/target-nodejs-sdk)Target.
-* Nuovo metodo [API](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientsendnotifications) sendNotifications() per l&#39;invio di notifiche visualizzate/su cui è stato fatto clic [!DNL Target] per il contenuto preacquisito tramite [getOffers()](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers).
+* Nuovo metodo [API](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications) sendNotifications() per l&#39;invio di notifiche visualizzate/su cui è stato fatto clic [!DNL Target] per il contenuto preacquisito tramite [getOffers()](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientsendnotifications).
 * Creazione semplificata di richieste API View Delivery con completamento automatico del campo interno con impostazioni predefinite (ad esempio, `request.id`, `request.context`ecc.).
 * Convalida degli argomenti del metodo SDK API.
 * Readme, campioni e unit test aggiornati.
@@ -50,13 +50,13 @@ Le sezioni seguenti forniscono ulteriori informazioni sulla versione 1.0.0 dell�
 
 * Progetto rinominato in `target-nodejs-sdk`.
 * Refactoring principale, sostituendo l&#39;API BatchMbox v2 di Target con l&#39;API Target View Delivery v1.
-* [gli argomenti del metodo](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientcreate) create() API sono stati modificati, rimuovendo la nidificazione ridondante (vedete la dichiarazione del metodo precedente [qui](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)).
-* [gli argomenti del metodo](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) API getOffers() sono stati modificati (vedete la dichiarazione del metodo precedente [qui](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)).
-* Il metodo `getTargetCookieName()` API è stato sostituito con `TargetCookieName` accessor. Consultate Accessori [dell&#39;utility](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)TargetClient.
-* Il metodo `getTargetLocationHintCookieName()` API è stato sostituito con `TargetLocationHintCookieName` accessor.  Consultate Accessori [dell&#39;utility](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclient-utility-accessors)TargetClient.
+* [gli argomenti del metodo](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientcreate) create() API sono stati modificati, rimuovendo la nidificazione ridondante (vedete la dichiarazione del metodo precedente [qui](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientcreate)).
+* [gli argomenti del metodo](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) API getOffers() sono stati modificati (vedete la dichiarazione del metodo precedente [qui](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffers)).
+* Il metodo `getTargetCookieName()` API è stato sostituito con `TargetCookieName` accessor. Consultate Accessori [dell&#39;utility](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)TargetClient.
+* Il metodo `getTargetLocationHintCookieName()` API è stato sostituito con `TargetLocationHintCookieName` accessor.  Consultate Accessori [dell&#39;utility](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclient-utility-accessors)TargetClient.
 
 ### Rimosso
 
 * Supporto API BatchMbox v2 Target.
-* Il metodo [API](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) getOffer() è stato rimosso. Utilizzate invece il metodo [API](https://git.corp.adobe.com/anischev/target-nodejs-sdk/blob/TNT-33695/README.md#targetclientgetoffers) getOffers().
+* Il metodo [API](https://www.npmjs.com/package/@adobe/target-node-client#targetnodeclientgetoffer) getOffer() è stato rimosso. Utilizzate invece il metodo [API](https://github.com/adobe/target-nodejs-sdk/blob/master/README.md#targetclientgetoffers) getOffers().
 
