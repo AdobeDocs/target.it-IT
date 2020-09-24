@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '687'
+source-wordcount: '723'
 ht-degree: 11%
 
 ---
@@ -60,6 +60,12 @@ Java SDK è un sofisticato kit di sviluppo software che elimina la complessità 
 
 * **Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni mediante la memorizzazione nella cache**: Potete utilizzare JavaSDK per recuperare esperienze e memorizzarle nella cache locale sul server Java allo scopo di ridurre al minimo le chiamate server [!DNL Target] e ottimizzare le prestazioni dell’applicazione.
 * **Possibilità di recuperare le attività** create VEC: Recuperate le attività create VEC sul lato server. La risposta che contiene attività create con VEC dispone di selettori che possono essere utilizzati per prenascondere solo parti della pagina che devono essere personalizzate. Questo consente di ottimizzare la metrica [First Contentful Paint](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) della pagina, che è un indicatore KPI importante per la tua attività per ottenere un punteggio elevato nel sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
+
+## Sviluppatori  Adobe Target
+
+Collegamento: [Sviluppatori  Adobe Target](http://developers.adobetarget.com/)
+
+Il  sito Adobe Target Developers consente di implementare [!DNL Target] applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Potete anche esportare [!DNL Target] i dati in soluzioni di terze parti.
 
 ## API per la funzione Consigli di Target
 
