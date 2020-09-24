@@ -1,14 +1,14 @@
 ---
-keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Cloud debugger;reporting source;developer tools
+keywords: analytics tracking server;A4T;Adobe Experience Cloud debugger;Adobe Experience Platform debugger;reporting source;developer tools
 description: Se utilizzi una versione precedente di at.js o mbox.js, è necessario specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for Target (A4T).
 title: Utilizzare un server di tracciamento di Analytics
 feature: a4t general
 uuid: ad700b90-f409-496a-bc26-0f0367410a85
 translation-type: tm+mt
-source-git-commit: 570f844c8b4ff6a4240262e6a1d2acf0e264ad18
+source-git-commit: 236f1ff7287b6a0407f1c80ee50cab84fc998a1c
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 24%
+source-wordcount: '698'
+ht-degree: 27%
 
 ---
 
@@ -44,6 +44,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà
    * **Implementazioni** CNAME: `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (sicura). `stats.adobe.com` è un esempio di richiesta di prima parte CNAME per una pagina http (non sicura).
 
 1. Copiare l&#39;intero contenuto del campo.
+
 1. Nella sezione **[!UICONTROL Impostazioni reporting]** della schermata **[!UICONTROL Obiettivo e impostazioni]** dell&#39;attività, incollare le informazioni del server di tracciamento nel campo **[!UICONTROL server di tracciamento]**.
 
    >[!NOTE]
@@ -69,4 +70,12 @@ Gli strumenti per sviluppatori devono essere visualizzati in una pagina in cui l
    * **Server** di tracciamento di prime parti: Se il nome host della richiesta corrisponde al dominio in uso, si tratta di un server di tracciamento di prime parti. Ad esempio, se utilizzi `adobe.com`, `adobe.com` è il server di tracciamento di prime parti.
    * **Server** di tracciamento di terze parti: Un server di monitoraggio di terze parti è in genere `[company].sc.omtrdc.net` il luogo in cui la società corrisponde al nome della società, ma termina sempre `sc.omtrdc.net`.
    * **Implementazioni** CNAME: `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (sicura). `stats.adobe.com` è un esempio di richiesta di prima parte CNAME per una pagina http (non sicura).
+
+1. Copiare l&#39;intero contenuto del campo.
+
+1. Nella sezione **[!UICONTROL Impostazioni reporting]** della schermata **[!UICONTROL Obiettivo e impostazioni]** dell&#39;attività, incollare le informazioni del server di tracciamento nel campo **[!UICONTROL server di tracciamento]**.
+
+   >[!NOTE]
+   >
+   >You must select [!UICONTROL Analytics as the Reporting Source] for your activity for the [!UICONTROL Tracking Server] field to be available.
 
