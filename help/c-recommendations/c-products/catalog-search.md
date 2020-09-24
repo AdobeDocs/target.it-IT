@@ -5,9 +5,9 @@ title: Ricerca nel catalogo in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1050'
+source-wordcount: '1016'
 ht-degree: 19%
 
 ---
@@ -57,6 +57,12 @@ Potete usare una ricerca semplice o avanzata per individuare gli elementi presen
    È possibile utilizzare la funzionalità di completamento automatico della ricerca. Nell&#39;illustrazione seguente, digitando &quot;bik&quot; vengono restituiti tutti i prodotti che contengono la parola &quot;bike&quot;.
 
    ![Ricerca automatica](/help/c-recommendations/c-products/assets/bike-results-2.png)
+
+   >[!NOTE]
+   >
+   >Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
+   >
+   >Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) del cliente che fa riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
 
 1. Potete anche usare i filtri per trovare il prodotto desiderato. Nell&#39;esempio seguente, espandendo il facet [!UICONTROL Raccolte] e selezionando &quot;Strumenti bici&quot;, tutti gli strumenti ciclabili nel display del catalogo.
 
@@ -170,12 +176,3 @@ Potete modificare temporaneamente le colonne attive nella pagina di ricerca [!UI
 
 Eventuali modifiche apportate si applicano solo alla sessione corrente.
 
-## Domande frequenti {#faq}
-
-Consultate le seguenti domande frequenti per informazioni sulla funzione di ricerca  nel catalogo:
-
-### Perché Catalog Search non visualizza i risultati corretti quando si esegue una ricerca su un attributo personalizzato con un valore numerico?
-
-Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
-
-Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) del cliente che fa riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
