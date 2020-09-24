@@ -5,10 +5,10 @@ title: ' Adobe Target Recommendations FAQ'
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '1933'
-ht-degree: 84%
+source-wordcount: '2019'
+ht-degree: 80%
 
 ---
 
@@ -16,6 +16,12 @@ ht-degree: 84%
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli{#recommendations-faq}
 
 Elenco delle domande frequenti sulle  attività di Adobe Target Recommendations.
+
+## Perché Catalog Search non visualizza i risultati corretti quando si esegue una ricerca su un attributo personalizzato con un valore numerico?
+
+Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
+
+Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) del cliente che fa riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
 
 ## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
@@ -187,7 +193,7 @@ NO_CONTENT viene restituito quando le raccomandazioni non sono disponibili per l
 
 * I risultati sono pronti, ma non sono disponibili per il valore chiave fornito.
 
-   Ciò si verifica in genere quando si richiedono raccomandazioni per un elemento che è stato aggiunto al catalogo dopo l&#39;esecuzione dell&#39;algoritmo più recente e che si risolve automaticamente dopo l&#39;esecuzione dell&#39;algoritmo successivo.
+   Ciò si verifica in genere quando si richiedono raccomandazioni per un elemento aggiunto al catalogo dopo l&#39;esecuzione dell&#39;algoritmo più recente e si risolve automaticamente dopo l&#39;esecuzione dell&#39;algoritmo successivo.
 
 * Il rendering parziale del modello è disattivato e non sono disponibili risultati sufficienti per compilare il modello.
 
