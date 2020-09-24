@@ -5,9 +5,9 @@ title: Annunci Target
 feature: release notes
 topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '505'
 ht-degree: 2%
 
 ---
@@ -27,6 +27,7 @@ Di seguito viene fornita una breve descrizione dei tipi di documentazione più c
 | [documentazione di Adobe Experience Platform Launch Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informazioni sull&#39;implementazione [!DNL Target] tramite [!DNL Adobe Experience Platform Launch], la piattaforma di gestione tag di nuova generazione [!DNL Adobe]. Questo è il metodo preferito da implementare [!DNL Target]. |
 | [Sessioni “Office Hours” del Servizio clienti di Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informazioni su &quot;Office Hours&quot;, un&#39;iniziativa guidata dal team di assistenza clienti del Adobe . These sessions are designed to inform as well as help participants troubleshoot problems, and provide tips and tricks to be successful with the [!DNL Adobe Experience Cloud] solutions, including [!DNL Target]. |
 | [Serie di webinar di base per Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Registration information and links to previous sessions of the [!DNL Target] Basics Webinar Series, a Customer Success Webinar Series brought to you by the Community. |
+| [Sviluppatori  Adobe Target](http://developers.adobetarget.com/) | Le informazioni sul  sito Adobe Target Developers consentono di implementare [!DNL Target] su applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Potete anche esportare [!DNL Target] i dati in soluzioni di terze parti. |
 | [API per la funzione Consigli di Target](https://developers.adobetarget.com/api/recommendations/) | Informazioni sulle API [!UICONTROL Recommendations] che consentono di interagire in modo programmatico con i server delle [!DNL Target] raccomandazioni. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] UI. |
 | [API di distribuzione lato server](https://developers.adobetarget.com/api/delivery-api/) | Informazioni sulle risorse che compongono  Adobe Target Delivery API. |
 | [Node.js SDK](https://github.com/adobe/target-nodejs-sdk) | Informazioni sull’SDK Node.js, un sofisticato kit di sviluppo software che elimina la complessità della gestione di cookie, sessioni e integrazione con [!DNL Adobe Experience Cloud] soluzioni quali [!DNL Target], [!DNL Adobe Analytics], [!DNL Experience Cloud Visitor ID Service]e [!DNL Audience Manager]. |
