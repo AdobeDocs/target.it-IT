@@ -1,5 +1,5 @@
 ---
-keywords: Overview and Reference;SEO;search engine optimization
+keywords: Overview and Reference;SEO;search engine optimization;edge clusters, central clusters
 description: 'Adobe Target si integra con i siti web mediante una delle due librerie JavaScript: at.js o mbox.js.'
 title: Come funziona Adobe Target
 feature: intro
@@ -7,15 +7,15 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
 workflow-type: tm+mt
-source-wordcount: '2346'
-ht-degree: 94%
+source-wordcount: '2398'
+ht-degree: 82%
 
 ---
 
 
-# Come funziona Adobe Target{#how-adobe-target-works}
+# Come funziona Adobe Target
 
 Informazioni su come funziona Adobe Target, comprese informazioni sulle librerie JavaScript di Target (at.js e mbox.js) e sui vari tipi di attività inclusi in Target.
 
@@ -89,31 +89,51 @@ Consulta [Consigli](../c-recommendations/recommendations.md#concept_7556C8A45439
 
 Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
-## La rete Edge {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
-“Edge” è un’architettura di servizio geograficamente distribuita che garantisce agli utenti finali che richiedono contenuti in tempi di risposta ottimali, indipendentemente dall’area geografica in cui si trovano.
+Un &quot;Edge&quot; è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo.
 
-Per migliorare i tempi di risposta, gli ambienti Edge ospitano solo logica di attività, profilo memorizzato nella cache e informazioni sulle offerte. I database di attività e contenuti, i dati di [!DNL Analytics], le API e le interfacce utente per gli addetti al marketing si trovano negli ambienti di dati centrali di Adobe. Gli aggiornamenti vengono quindi inviati ai nodi di Edge. Gli ambienti centrali e i nodi di Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati delle attività memorizzati nella cache. Anche la modellazione 1:1 è memorizzata presso ogni nodo di Edge, dove è quindi possibile elaborare anche le richieste più complesse.
+Per migliorare i tempi di risposta, Target Edge ospita solo la logica di attività, i profili memorizzati nella cache e le informazioni sulle offerte.
 
-Ogni nodo di Edge include tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste degli utenti vengono indirizzate al nodo di Edge più vicino.
+Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. Gli aggiornamenti vengono quindi inviati ai bordi di Target. I cluster centrali e i cluster Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati dell&#39;attività memorizzati nella cache. Tutti i modelli 1:1 sono inoltre memorizzati su ciascun bordo, per cui anche le richieste più complesse possono essere elaborate sul bordo.
 
-![Mappatura con siti edge principali e siti edge](assets/edge_network.png)
+Ogni cluster Edge dispone di tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono indirizzate al cluster Edge più vicino.
 
-L&#39;origine di questa immagine è il white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Panoramica sulla sicurezza di).
+Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-La soluzione Adobe Target è ospitata su data center di Adobe (propri o noleggiati) in tutto il mondo. I server di amministrazione si trovano interamente in data center di proprietà di Adobe a Londra, Singapore e in varie località negli Stati Uniti, compresi Oregon e Virginia. I server periferici sono ospitati sia sui server di proprietà  Adobe che su quelli affittati  Adobe  i data center Amazon AWS a Londra, Hong Kong SAR of China, Singapore, Tokyo e Sydney.
+The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
-Le località in cui si trovano i server di amministrazione contengono sia un centro di raccolta dati sia un centro di elaborazione dati. Le posizioni del sito Edge contengono solo un centro raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
+Le posizioni cluster centrali contengono sia un centro di raccolta dati che un centro di elaborazione dati. Le posizioni cluster Edge contengono solo un centro di raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
 
-Anziché rispondere a tutte le richieste di targeting da un’unica posizione, le richieste vengono elaborate dall’ambiente Edge più vicino al punto di richiesta in modo da mitigare l’impatto del tempo di trasferimento sulla rete/su Internet.
+I dati dell&#39;attività del sito del cliente vengono raccolti dai sette cluster Edge più vicini e indirizzati alla destinazione del cluster centrale predeterminata del cliente (una delle tre posizioni: Oregon, Dublino, Singapore) per l&#39;elaborazione. I dati del profilo del visitatore sono memorizzati nel cluster Edge più vicino al visitatore del sito (le posizioni del cluster Central e Virginia, Amsterdam, Sydney, Tokyo e Hong Kong).
+
+Invece di rispondere a tutte le richieste di targeting da un&#39;unica posizione, le richieste vengono elaborate dal cluster Edge più vicino al visitatore, mitigando in tal modo l&#39;impatto dei tempi di viaggio di rete/Internet.
+
+Target Central Clusters, ospitato  Amazon Web Services (AWS), si trova in:
+
+* Oregon, USA
+* Dublin (Irlanda)
+* Repubblica di Singapore
+
+Target Edge Clusters, ospitato su AWS, si trova in:
+
+* Mumbai, India
+* Tokyo, Giappone
+* Virginia, Stati Uniti
+* Oregon, USA
+* Sydney, Australia
+* Dublin (Irlanda)
+* Repubblica di Singapore
+
+Il [!DNL Target Recommendations] servizio è ospitato in un centro [!DNL Adobe] dati in Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] al momento non dispone di una rete Edge in Cina e le prestazioni per l’utente finale continueranno a essere limitate per i clienti di [!DNL Target] in Cina. Because of the firewall and the lack of Edge nodes within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
 
-Potete  inserire nell&#39;elenco Consentiti le note sui bordi di Target, se lo desiderate. Per ulteriori informazioni, consultate [inserire nell&#39;elenco Consentiti nodi](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)periferici di Target.
+Se necessario, potete  inserire nell&#39;elenco Consentiti i cluster Edge di Target. Per ulteriori informazioni, consultate [inserire nell&#39;elenco Consentiti nodi](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)periferici di Target.
 
-## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantisce un alto grado di affidabilità per la disponibilità e le prestazioni dell’infrastruttura di targeting. Tuttavia, un&#39;interruzione delle comunicazioni tra il browser di un utente finale e il server di Adobe può causare un’interruzione nella distribuzione dei contenuti.
 
@@ -128,7 +148,7 @@ Adobe tutela l’esperienza utente attraverso l’ottimizzazione e la salvaguard
 * Adobe utilizza un approccio multilivello per garantire che le applicazioni forniscano il livello massimo di disponibilità e di affidabilità ai clienti.
 * [!DNL Target] Consulting offre assistenza nell’implementazione e supporto continuo per il prodotto.
 
-## Test di usabilità per l’ottimizzazione per motori di ricerca (SEO){#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO){#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
