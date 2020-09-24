@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
 workflow-type: tm+mt
-source-wordcount: '2361'
-ht-degree: 29%
+source-wordcount: '2396'
+ht-degree: 28%
 
 ---
 
@@ -23,7 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 24 settembre | [Bookmarklet di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiornato il codice per il bookmarklet QA dell&#39;attività per at.js 2.*x*. |
-|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Aggiunta una sezione Domande frequenti. |
+|  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#faq) | Aggiunta una nota sulla ricerca su un attributo personalizzato con un valore numerico. |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Perché la ricerca nel catalogo non mostra i risultati corretti quando si esegue la ricerca in un attributo personalizzato con un valore numerico?&quot; |
 |  | [Come funziona Target](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) | Aggiornate le posizioni cluster Target e cluster Target Central elencate in &quot;La rete edge&quot;. |
 | 23 settembre | [Utilizzare un server di tracciamento di Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md) | È stato aggiornato l&#39;intero argomento con informazioni provenienti da [!DNL Adobe Experience Platform Debugger] e dal browser Developer Tools. |
 |  | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | È stata aggiornata la riga &quot;user.header(&#39;x-inoltrato-per&#39;)&quot; per indicare che &quot;user.header(&#39;x-cluster-client-ip&#39;)&quot; è stato dichiarato obsoleto. |
