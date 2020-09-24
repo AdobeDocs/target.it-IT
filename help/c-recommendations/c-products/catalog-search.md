@@ -5,10 +5,10 @@ title: Ricerca nel catalogo in Adobe Target
 feature: catalog
 uuid: e0876963-5905-4850-a615-953e435f26e9
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: ae002d52aa98d20357b2efad4b008c22ea787aee
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 21%
+source-wordcount: '1050'
+ht-degree: 19%
 
 ---
 
@@ -169,3 +169,13 @@ Potete modificare temporaneamente le colonne attive nella pagina di ricerca [!UI
    È inoltre possibile fare clic sull&#39;icona di eliminazione ( x ) accanto alla colonna da spostare dalla sezione attiva a quella inattiva.
 
 Eventuali modifiche apportate si applicano solo alla sessione corrente.
+
+## Domande frequenti {#faq}
+
+Consultate le seguenti domande frequenti per informazioni sulla funzione di ricerca  nel catalogo:
+
+### Perché Catalog Search non visualizza i risultati corretti quando si esegue una ricerca su un attributo personalizzato con un valore numerico?
+
+Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
+
+Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) del cliente che fa riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
