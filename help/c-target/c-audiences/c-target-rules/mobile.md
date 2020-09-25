@@ -1,15 +1,15 @@
 ---
 keywords: targeting;mobile;target mobile;deviceatlas;iphone;iphone models;device atlas;displaywidth;display width;display height;type of device;displayheight;phone;tablet;device model
 description: Crea dei tipi di pubblico in Adobe Target per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
-title: Pubblico da dispositivi mobili in Adobe Target
+title: Opzioni per dispositivi mobili  pubblico Adobe Target
 feature: audiences
 topic: Standard
 uuid: a731e8c0-e9c1-4971-95b7-882cefcabfc7
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 99%
+source-wordcount: '583'
+ht-degree: 98%
 
 ---
 
