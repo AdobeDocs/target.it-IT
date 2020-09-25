@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 3%
@@ -34,8 +34,7 @@ Esegui la procedura seguente per richiedere il supporto CNAME in [!DNL Target]:
 
    >[!NOTE]
    >
-   >*  Adobe  autorità di certificazione DigiCert non può rilasciare un certificato finché il passaggio non viene completato. Pertanto,  Adobe non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
-
+   > Adobe  autorità di certificazione DigiCert non può rilasciare un certificato finché il passaggio non viene completato. Pertanto,  Adobe non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
 
 1. [Compila questo modulo](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/assets/FPC_Request_Form.xlsx) e includilo quando [apri un ticket Client Care  Adobe che richiede il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C)CNAME:
 
