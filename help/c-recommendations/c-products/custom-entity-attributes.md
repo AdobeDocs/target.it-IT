@@ -6,9 +6,9 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 5830d5bb9827c1302fbaa779adc29216774727b3
+source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
 workflow-type: tm+mt
-source-wordcount: '1377'
+source-wordcount: '1379'
 ht-degree: 91%
 
 ---
@@ -70,7 +70,7 @@ Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempi
 
 Un attributo con più valori può avere fino a 500 valori.
 
-**Utilizzo di targetPageParams**
+### Utilizzo di targetPageParams
 
 L’esempio seguente illustra come utilizzare `targetPageParams`
 
@@ -89,7 +89,7 @@ function targetPageParams() {
 }
 ```
 
-**Utilizzo di CSV**
+### Utilizzo di CSV
 
 Puoi gestire i file CSV in formato raw tramite un editor di testo o un foglio di calcolo.
 
@@ -108,7 +108,7 @@ Durante la conversione in formato .csv, il foglio di calcolo aggiunge virgolette
 
 Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
-**Utilizzo delle API**
+### Utilizzo delle API
 
 Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in un parametro mbox come valore di stringa contenente un array JSON con escape.
 
@@ -261,7 +261,6 @@ Esempio:
 
 Quando `entity.genre=["genre1","genre2"]` ha un riferimento in un progetto come `$entity<N>.genre`, il risultato è `genre1, genre2`.
 
->[!MORELIKETHIS]
->
->* [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+## Argomenti correlati:
 
+* [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
