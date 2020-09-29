@@ -6,9 +6,9 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1118'
 ht-degree: 32%
 
 ---
@@ -145,6 +145,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 * [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. The imported experience fragment should be available in [!DNL Target] within ten minutes, but this time frame should shorten going forward.
 * The experience fragment is currently imported into [!DNL Target] as an HTML offer. Note that the experience fragment &quot;primary&quot; version remains in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 * Potete importare offerte JSON come frammenti esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti esperienza) non sono attualmente completamente supportate nell&#39; [!DNL Target] interfaccia utente.
+* Non è possibile creare frammenti esperienza utilizzando  I/O Adobe. È necessario creare frammenti esperienza utilizzando AEM, come spiegato in precedenza.
 
 ## Training video: Using AEM experience fragments with Adobe Target ![Tutorial badge](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
 
