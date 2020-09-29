@@ -7,9 +7,9 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: f6b83af17b8d98dbf565b02fb9b82f63946580bb
+source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '755'
 ht-degree: 90%
 
 ---
@@ -80,7 +80,7 @@ L’elenco delle suite di rapporti visualizzate in Target Standard/Premium corri
 Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. 
 
 * **at.js 1.x**: Nella [!DNL Target] chiamata, l’ID supplementare è contenuto nel `mboxMCSDID` parametro. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
-* **at.js 2.x**: L’ID supplementare viene restituito nell’intestazione HTTP come valore per `experienceCloud.analytics.supplementalDataId`.
+* **at.js 2.x**: Nella [!DNL Target] chiamata, l’ID supplementare viene restituito nell’intestazione HTTP come valore per `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 
 Il modo più semplice per esaminare l&#39;ID supplementare è utilizzare Adobe Experience Platform Debugger.
 
