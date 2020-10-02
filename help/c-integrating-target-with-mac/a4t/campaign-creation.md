@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: d858f17baff9a7d863be0888200800b3f0d0f301
+source-git-commit: d2c733b83fc0f53abd72e6279bb51e296d7a5840
 workflow-type: tm+mt
-source-wordcount: '1330'
+source-wordcount: '1335'
 ht-degree: 20%
 
 ---
@@ -130,10 +130,18 @@ I seguenti tipi di metriche non sono supportati come metriche dell&#39;obiettivo
 
 ### Limitazioni e note
 
+**Allocazione automatica e targeting automatico**
+
 * L&#39;origine di reporting non può essere modificata da [!DNL Analytics] a [!DNL Target] o viceversa dopo l&#39;attivazione di un&#39;attività.
-* Sebbene le metriche calcolate non siano supportate come metriche dell&#39;obiettivo principale, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell&#39;obiettivo principale. Ad esempio, se desiderate ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, selezionate un evento personalizzato corrispondente a &quot;completamenti del modulo&quot; come metrica obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione in base a ogni visita per tenere conto della distribuzione del traffico non uniforme, quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
+* Sebbene le metriche calcolate non siano supportate come metriche dell&#39;obiettivo principale, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell&#39;obiettivo principale. Ad esempio, se si desidera ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, selezionare un evento personalizzato corrispondente a &quot;completamento del modulo&quot; come metrica obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione in base a ogni visita per tenere conto della distribuzione del traffico non uniforme, quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
 * [!DNL Target] utilizza il modello di attribuzione &quot;Same Touch&quot; nell’implementazione di allocazione [!UICONTROL automatica] A4T.
+
+**Allocazione automatica**
+
 * [!UICONTROL Come sempre, i modelli di allocazione] automatica proseguono la formazione ogni due ore.
+
+**Targeting automatico**
+
 * [!UICONTROL I modelli Auto-Target] continuano a essere formati ogni 24 ore, come al solito. Tuttavia, i dati evento di conversione provenienti da [!DNL Analytics] vengono posticipati di ulteriori 6-24 ore. Questo ritardo significa che la distribuzione del traffico [!DNL Target] seguirà gli ultimi eventi registrati in [!DNL Analytics]. Questo avrà l&#39;effetto più grande nelle prime 48 ore dalla prima attivazione di un&#39;attività; le prestazioni dell&#39;attività rispecchieranno più da vicino il comportamento di [!DNL Analytics] conversione dopo cinque giorni. È consigliabile utilizzare [!UICONTROL Auto-Allocate] invece di [!UICONTROL Auto-Target] per le attività di breve durata in cui il traffico si verifica per la maggior parte entro i primi cinque giorni di vita dell&#39;attività.
 * Quando si utilizza [!DNL Analytics] come origine dati per un&#39;attività [!UICONTROL Auto-Target] , le sessioni vengono considerate terminate dopo sei ore. Le conversioni che si verificano dopo sei ore non saranno conteggiate.
 
