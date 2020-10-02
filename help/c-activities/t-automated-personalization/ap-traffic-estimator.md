@@ -6,9 +6,9 @@ feature: ap
 topic: Standard
 uuid: 9961ebaa-8761-431d-9605-852025ca580f
 translation-type: tm+mt
-source-git-commit: fec7708ddb17ec5565bd3c5f00f0490c03ec0140
+source-git-commit: df9cb5c4a3cd44917ee9136300e4ad68f922d3c9
 workflow-type: tm+mt
-source-wordcount: '730'
+source-wordcount: '731'
 ht-degree: 24%
 
 ---
@@ -69,4 +69,4 @@ Quando lavorate con [!UICONTROL Traffic Estimator (Utilità di stima]traffico), 
 
 In alcune circostanze, il traffico potrebbe essere sufficientemente ampio da consentire la creazione di un modello personalizzato, ma tale traffico potrebbe informare [!DNL Target] che non esiste alcuna differenza significativa tra il modello personalizzato e quello casuale. Anche se il modello è incorporato [!DNL Target] e testato, non verrà distribuito perché il modello non è significativamente migliore di quello casuale.
 
-Un possibile motivo per cui il modello non è migliore del casuale potrebbe essere che le offerte non sono significativamente diverse tra loro. In questo caso, potete provare ad aumentare le differenze nelle offerte rendendole più visivamente diverse o modificando il contenuto stesso.
+Un possibile motivo per cui il modello non è migliore del casuale potrebbe essere che le offerte non sono significativamente diverse tra loro. In questo caso, potete provare a rendere le offerte più diverse dal punto di vista visivo se i messaggi sono simili, oppure provare a modificare i messaggi stessi.
