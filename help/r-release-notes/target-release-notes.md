@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: a89c951b3221056e8892831871ef46ed66e5b9c9
+source-git-commit: 036b7e07efb0d814a9ec7e398f87371033c77eb8
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 18%
+source-wordcount: '526'
+ht-degree: 15%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 18%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 23 settembre 2020**
+**Ultimo aggiornamento: 7 ottobre 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -39,13 +39,13 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 * **Annunci** Target: Consultate la pagina degli annunci di Target per informazioni sugli eventi in programma, comprese le sessioni di Target Experience Builder, le chat per sviluppatori, i webinar e le sessioni Target Coffee Break. Per ulteriori informazioni, vedi Annunci [Target](/help/r-release-notes/target-announcements.md).
 
 
-## Target Standard/Premium 20.9.1 (30 settembre 2020)
+## Target Standard/Premium 20.10.1 (27 ottobre 2020)
 
-Questa versione di manutenzione contiene i seguenti miglioramenti, correzioni e modifiche:
+Questa versione contiene le nuove funzioni seguenti:
 
-* Navigazione e funzionalità migliorate per gli utenti che utilizzano solo la tastiera. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
-* Sono state aggiunte etichette nell’interfaccia utente per aiutare gli utenti che utilizzano tecnologie di assistenza. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
-* È stato migliorato il contrasto tra testo e colori per immagini e testo nell’interfaccia utente. (TGT-34513)
+| Funzione | Dettagli |
+| --- | --- |
+| Decisioni sul dispositivo | Le decisioni sul dispositivo consentono sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti. Le decisioni sul dispositivo consentono agli esperti di marketing e ora agli sviluppatori di prodotti di testare e ottimizzare le esperienze direttamente da un dispositivo utente, riducendo i tempi di decisione e caricamento a quasi zero per esperienze contestuali in tempo reale.<br>Le decisioni sul dispositivo consentono di compilare tutte le istruzioni di personalizzazione e sperimentazione su &quot;artifact di ottimizzazione&quot;, caricate sui dispositivi dei clienti. Questi artefatti a latenza zero consentono agli esperti di marketing di personalizzare singolarmente, retargeting comportamentale e raccomandazioni di prodotti e contenuti in tempo reale, fornendo allo stesso tempo agli sviluppatori e ai proprietari dei prodotti l&#39;accesso diretto al codice per testare le esperienze degli utenti e per eseguire il targeting e il lancio dei prodotti in fase, perfezionando i prodotti in tempo reale. Inoltre, poiché le decisioni sui dispositivi si collegano in modo nativo con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti ottengono analisi rapide e iterazioni di esperienza più veloci. |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
