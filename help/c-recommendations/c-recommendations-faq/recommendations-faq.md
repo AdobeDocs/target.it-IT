@@ -5,7 +5,7 @@ title: ' Adobe Target Recommendations FAQ'
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: 282ed6f2046cda178568ad37a8668cc8e0cc080f
+source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -198,3 +198,4 @@ NO_CONTENT viene restituito quando le raccomandazioni non sono disponibili per l
 * Il rendering parziale del modello è disattivato e non sono disponibili risultati sufficienti per compilare il modello.
 
    Ciò si verifica in genere quando si dispone di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare questo problema, abilitate i backup e non applicate la regola di inclusione ai backup, né utilizzate i criteri in sequenza con criteri filtrati meno aggressivi.
+
