@@ -5,9 +5,9 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 9745315edf83f4210a3650822653b1a3081e1e1c
+source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
 workflow-type: tm+mt
-source-wordcount: '3704'
+source-wordcount: '3708'
 ht-degree: 81%
 
 ---
@@ -24,22 +24,6 @@ Informazioni sui problemi noti per questa versione di Target. Include inoltre in
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
-
-### Generazione di rapporti
-
-Le conversioni al momento aumentano in modo diverso in base al tipo di pubblico utilizzato.
-
-Ad esempio, per lo stesso visitatore, se il conteggio di conversione è impostato per incrementare &quot;Once per Entrant:&quot;
-
-* Pubblico: Per le conversioni a livello di visita, &quot;Tutti i visitatori qualificati&quot; incrementano una sola volta. Questo è il comportamento previsto.
-* Pubblico: &quot;Nuovi visitatori&quot; per le conversioni a livello di visita aumentano in modo errato ogni volta, invece di incrementare solo una volta. Questo non è il comportamento previsto.
-
-Se il conteggio di conversione è impostato per incrementare &quot;Su ogni impressione:&quot;
-
-* Pubblico: &quot;Tutti i visitatori qualificati&quot; per le conversioni a livello di visitatore, l’incremento non è corretto e non è sufficiente una sola volta, bensì ogni volta. Questo non è il comportamento previsto.
-* Pubblico: &quot;Nuovi visitatori&quot; per le conversioni a livello di visitatore vengono incrementate ogni volta. Questo è il comportamento previsto.
-
-Questo problema è correlato solo alla [!DNL Target] generazione di rapporti. Questo non è un problema quando si utilizza il reporting di [!UICONTROL Analytics per Target] (A4T).
 
 ### Consegna delle pagine {#page-delivery}
 
@@ -142,6 +126,24 @@ Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
+
+### Generazione di rapporti
+
+Le conversioni al momento aumentano in modo diverso in base al tipo di pubblico utilizzato.
+
+Ad esempio, per lo stesso visitatore, se il conteggio di conversione è impostato per incrementare &quot;Once per Entrant:&quot;
+
+* Pubblico: Per le conversioni a livello di visita, &quot;Tutti i visitatori qualificati&quot; incrementano una sola volta. Questo è il comportamento previsto.
+* Pubblico: &quot;Nuovi visitatori&quot; per le conversioni a livello di visita aumentano in modo errato ogni volta, invece di incrementare solo una volta. Questo non è il comportamento previsto.
+
+Se il conteggio di conversione è impostato per incrementare &quot;Su ogni impressione:&quot;
+
+* Pubblico: &quot;Tutti i visitatori qualificati&quot; per le conversioni a livello di visitatore, l’incremento non è corretto e non è sufficiente una sola volta, bensì ogni volta. Questo non è il comportamento previsto.
+* Pubblico: &quot;Nuovi visitatori&quot; per le conversioni a livello di visitatore vengono incrementate ogni volta. Questo è il comportamento previsto.
+
+Questo problema è correlato solo alla [!DNL Target] generazione di rapporti. Questo non è un problema quando si utilizza il reporting di [!UICONTROL Analytics per Target] (A4T).
+
+Questo problema è stato risolto.
 
 ### Pagine non caricate in Visual Experience Composer (VEC) o Enhanced Experience Composer (EEC) quando si utilizza Google Chrome versione 80+
 
