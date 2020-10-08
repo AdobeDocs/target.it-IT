@@ -5,10 +5,10 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: d3d9ef5cd18668d913fd1f890d71ca954957424b
+source-git-commit: 05bf843e5016d33ba436f6f24f5a0d05045d5129
 workflow-type: tm+mt
-source-wordcount: '3708'
-ht-degree: 81%
+source-wordcount: '3790'
+ht-degree: 80%
 
 ---
 
@@ -127,7 +127,19 @@ Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
 
-### Generazione di rapporti
+### Generazione di rapporti con targeting automatico (#at-metriche)
+
+È stato risolto un problema che interessava la generazione di rapporti su [!DNL Adobe Target Premium] Auto-Target  degli utenti a partire dal 15 settembre alle 14:30. (PDT) al 6 ottobre, 9:25 (PDT). Quando visualizzi i rapporti per le metriche di conversione interessate (&quot;[!UICONTROL Visualizzata una pagina]&quot; o &quot;[!UICONTROL Premuto sulla mbox]&quot;), i tassi di conversione non vengono segnalati correttamente. Nessun problema di consegna noto al momento.
+
+Per risincronizzare e correggere il reporting:
+
+1. Copiate e salvate le attività [!UICONTROL Auto-Target] interessate.
+1. Attiva le attività salvate di recente (se le attività interessate sono live).
+1. Eliminate le attività originali (interessate).
+
+(TGT-38522, CSO 20201006007)
+
+### Generazione di rapporti {#conversions-audiences}
 
 Le conversioni al momento aumentano in modo diverso in base al tipo di pubblico utilizzato.
 
