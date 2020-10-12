@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
 workflow-type: tm+mt
-source-wordcount: '2610'
+source-wordcount: '2631'
 ht-degree: 29%
 
 ---
@@ -26,6 +26,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 |  | [Impostazioni API del profilo](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Argomento aggiornato per indicare il livello di autorizzazione necessario per generare un token di autenticazione. |
 |  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | È stata aggiunta una storia di successo nel mondo reale tramite Auto-Target. |
 |  | [Includere la stessa esperienza in pagine simili](/help/c-experiences/c-visual-experience-composer/temtest.md) | È stata aggiunta una sezione per spiegare come eseguire il rendering della stessa attività nell&#39;intero dominio. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto il seguente problema noto:<ul><li>Metriche di Analytics per Target (A4T) per le attività di allocazione automatica e di targeting automatico</li></ul> |
 | 8 ottobre | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | È stato aggiunto il seguente problema risolto:<ul><li>[Generazione di rapporti con targeting automatico](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>È stato spostato il seguente problema dalla sezione Problemi noti alla sezione Problemi risolti:<ul><li>[Generazione di rapporti](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implementazione ibrida](/help/c-implementing-target/hybrid-implementation.md) | Nuovo argomento. |
 | 7 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.10.1. |
