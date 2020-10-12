@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 55181a33654b261190c1a08fd44c3d5f29db4886
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '2564'
+source-wordcount: '2603'
 ht-degree: 29%
 
 ---
@@ -23,6 +23,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 12 ottobre | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aggiornato [Recupera il token di autorizzazione da utilizzare con gli strumenti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) di debug per indicare il livello di autorizzazione necessario per generare un token di autenticazione. |
+|  | [Impostazioni API del profilo](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Argomento aggiornato per indicare il livello di autorizzazione necessario per generare un token di autenticazione. |
+|  | [Includere la stessa esperienza in pagine simili](/help/c-experiences/c-visual-experience-composer/temtest.md) | È stata aggiunta una sezione per spiegare come eseguire il rendering della stessa attività nell&#39;intero dominio. |
 | 8 ottobre | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) | È stato aggiunto il seguente problema risolto:<ul><li>[Generazione di rapporti con targeting automatico](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics)</li></ul>È stato spostato il seguente problema dalla sezione Problemi noti alla sezione Problemi risolti:<ul><li>[Generazione di rapporti](/help/r-release-notes/known-issues-resolved-issues.md#conversions-audiences)</li></ul> |
 |  | [Implementazione ibrida](/help/c-implementing-target/hybrid-implementation.md) | Nuovo argomento. |
 | 7 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.10.1. |
