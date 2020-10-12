@@ -1,27 +1,27 @@
 ---
 keywords: implementation;api;profile;profile api settings;authentication token
-description: Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
-title: Impostazioni API del profilo
+description: Abilitare o disabilitare l'autenticazione per gli aggiornamenti batch tramite  API Adobe Target e generare un token di autenticazione del profilo.
+title: Impostazioni API profilo in  Adobe Target
 feature: api
 subtopic: Getting Started
 topic: Standard
 uuid: 481b4a14-f10f-47cd-988d-9e6b8c4d5c00
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
 workflow-type: tm+mt
-source-wordcount: '248'
-ht-degree: 64%
+source-wordcount: '313'
+ht-degree: 40%
 
 ---
 
 
-# Impostazioni API del profilo{#profile-api-settings}
+# Impostazioni API del profilo
 
-Puoi abilitare o disabilitare l’autenticazione per gli aggiornamenti collettivi tramite API e generare un token di autenticazione del profilo.
+Abilitare o disabilitare l&#39;autenticazione per gli aggiornamenti batch tramite  API Adobe Target e generare un token di autenticazione del profilo.
 
-[!DNL Adobe Target] crea e conserva un profilo per ogni singolo utente. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit, however, you can update a profile individually or in bulk via API.
+[!DNL Adobe Target] crea e conserva un profilo per ogni singolo utente. This profile is stored on the [!DNL Target] edge cluster and is updated in real time after every visit; however, you can update a profile individually or in bulk via API.
 
-Per una maggiore sicurezza, puoi scegliere che l’intestazione della richiesta di aggiornamento collettivo dell’API debba contenere un token di accesso valido. Users with [!UICONTROL Approver] permissions can generate and enable profile API authentication tokens.
+Per una maggiore sicurezza, puoi scegliere che l’intestazione della richiesta di aggiornamento collettivo dell’API debba contenere un token di accesso valido.
 
 **Per richiedere l’autenticazione e generare un token di accesso utilizzando l’interfaccia utente di Target:**
 
@@ -30,12 +30,23 @@ Per una maggiore sicurezza, puoi scegliere che l’intestazione della richiesta 
 
    ![](assets/profile_api_settings.png)
 
-1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Pfofile Authentication Token]**.
+1. (Conditional) If you enabled authentication requirements, click **[!UICONTROL Generate New Profile Authentication Token]**.
 
    ![](assets/profile_api_settings_2.png)
 
    La scadenza del token è indicata nella casella [!UICONTROL Scade tra].
 
+   Per generare un token di autenticazione è necessario disporre di una delle seguenti autorizzazioni utente:
+
+   * Almeno l&#39;autorizzazione [!UICONTROL Editor] (o [!UICONTROL Approver])
+
+      Per ulteriori informazioni per [!DNL Target Standard] i clienti, consultate [Specificare ruoli e autorizzazioni](/help/administrating-target/c-user-management/c-user-management/user-management.md#roles-permissions) in *Utenti*. Per ulteriori informazioni per [!DNL Target Premium] i clienti, consultate [Configurare le autorizzazioni](/help/administrating-target/c-user-management/property-channel/properties-overview.md)enterprise.
+
+   * Ruolo amministratore nell’area di lavoro/a livello di profilo di prodotto
+
+      Le aree di lavoro sono disponibili solo per [!DNL Target Premium] i clienti. For more information, see [Configure enterprise permissions](/help/administrating-target/c-user-management/property-channel/properties-overview.md).
+
+   * Diritti di amministratore (autorizzazione Sysadmin) a livello di [!DNL Adobe Target] prodotto
    >[!NOTE]
    >
    >Puoi anche generare un token di autenticazione profilo tramite API. Per ulteriori informazioni, vedi [Profili](https://developers.adobetarget.com/api/#profiles) sul [sito web per sviluppatori di Adobe Target](https://developers.adobetarget.com/).
