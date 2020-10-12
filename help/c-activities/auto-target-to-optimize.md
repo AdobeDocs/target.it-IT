@@ -1,19 +1,20 @@
 ---
 keywords: auto-target;targeting;traffic allocation;frequently aske questions;faq;troubleshooting;trouble shooting
+description: Il targeting automatico in  Adobe Target utilizza l'apprendimento automatico avanzato per selezionare tra più esperienze definite dall'esperto di marketing ad alte prestazioni per personalizzare i contenuti e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 title: Targeting automatico
 feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
 workflow-type: tm+mt
-source-wordcount: '3610'
-ht-degree: 85%
+source-wordcount: '3744'
+ht-degree: 83%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Targeting automatico{#auto-target}
+# ![PREMIUM](/help/assets/premium.png) Targeting automatico
 
 La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automatico avanzato per scegliere tra più esperienze definite dall’addetto al marketing al fine di personalizzare il contenuto e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 
@@ -21,11 +22,19 @@ La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automati
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
 
+## Successo nel mondo reale tramite Auto-Target {#success}
+
+Un importante rivenditore di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo casuale) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Aggiungi al carrello]&quot; è stata scelta come metrica di ottimizzazione principale. Le esperienze mirate hanno registrato un incremento medio del 29,09%. Dopo la creazione dei modelli [!UICONTROL Auto-Target] , l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
+
+In soli dieci giorni, è stato raggiunto più di 1.700.000 dollari in incremento.
+
+Continua a leggere per apprendere come utilizzare [!UICONTROL Auto-Target] per aumentare l&#39;incremento e le entrate dell&#39;organizzazione.
+
+## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
+
 Durante la [creazione di un’attività A/B tramite il flusso di lavoro guidato in tre passaggi](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72), è possibile scegliere di allocare il traffico utilizzando l’opzione [!UICONTROL Targeting automatico per esperienze personalizzate]:
 
 ![Opzione Targeting automatico per esperienze personalizzate](/help/c-activities/assets/auto-target-ui-new.png)
-
-## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
 
 L’opzione di [!UICONTROL Targeting automatico] all’interno del flusso di attività A/B ti consente di sfruttare l’apprendimento automatico per personalizzare in base a una serie di esperienze definite dall’esperto di marketing in un clic. [!UICONTROL La funzionalità di Targeting automatico] è progettata per fornire la massima ottimizzazione, rispetto ai tradizionali test A/B o Allocazione automatica, determinando quale esperienza visualizzare per ogni visitatore. A differenza di un’attività A/B in cui la finalità è quella di trovare un singolo vincitore, il [!UICONTROL Targeting automatico] determina automaticamente la migliore esperienza per uno specifico visitatore (in base al suo profilo e altre informazioni contestuali) per fornire un’esperienza altamente personalizzata.
 
@@ -117,7 +126,7 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 
 * Questa metrica potrebbe essere basata sulla conversione o i ricavi (più specificamente ricavi per visita).
 
-**L&#39;algoritmo non supporta[!DNL Analytics]come origine di dati o come endpoint per la generazione di rapporti.**
+**L&#39;algoritmo non supporta [!DNL Analytics] come origine di dati o come endpoint per la generazione di rapporti.**
 
 **Target raccoglie automaticamente informazioni sui visitatori per generare modelli di personalizzazione.**
 
@@ -133,7 +142,7 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 
 ## Quali sono le differenze tra il [!UICONTROL Targeting automatico] e la Personalizzazione automatizzata? {#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB}
 
-**[!UICONTROL Il Targeting automatico]richiede spesso meno traffico rispetto alla Personalizzazione automatizzata per generare un modello personalizzato.**
+**[!UICONTROL Il Targeting automatico] richiede spesso meno traffico rispetto alla Personalizzazione automatizzata per generare un modello personalizzato.**
 
 Anche se la quantità di traffico *per esperienza* richiesta per la generazione dei modelli di [!UICONTROL Targeting automatico] o [!UICONTROL Personalizzazione automatizzata] è la stessa, ci sono di solito più esperienze in un&#39;attività di Personalizzazione automatizzata di un&#39;attività di [!UICONTROL Targeting automatico]. Ad esempio, se disponessi di un’attività di [!UICONTROL Personalizzazione automatizzata] in cui sono state create due offerte per posizione con due posizioni, ci sarebbero quattro (2 = 4) esperienze totali incluse nell’attività (senza esclusioni). Tramite il [!UICONTROL Targeting automatico] puoi impostare l’esperienza 1 per includere l’offerta 1 in posizione 1 e l’offerta 2 in posizione 2 e l’esperienza 2 per includere l’offerta 1 in posizione 1 e l’offerta 2 in posizione 2. Poiché il [!UICONTROL Targeting automatico] consente di avere più modifiche all’interno di un’esperienza, puoi ridurre il numero di esperienze totali nell’attività.
 
@@ -142,11 +151,11 @@ Per il [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole
 * **Quando la Conversione è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e in più l&#39;attività deve avere almeno 7.000 visite e 350 conversioni.
 * **Quando il Ricavo per visita è la metrica di successo:** 1.000 visite e almeno 50 conversioni al giorno per esperienza e in più l&#39;attività deve avere almeno 1.000 conversioni per esperienza. RPV di solito richiede più dati per costruire modelli a causa della varianza più elevata dei dati che esiste in genere nei ricavi di visita rispetto al tasso di conversione.
 
-**[!UICONTROL Il Targeting automatico]ha una funzionalità di installazione completa.**
+**[!UICONTROL Il Targeting automatico] ha una funzionalità di installazione completa.**
 
 * Poiché è incorporato nel flusso di lavoro di attività A/B, il [!UICONTROL Targeting automatico] beneficia di un Compositore esperienza visivo molto maturo e completo.  Puoi anche sfruttare i [collegamenti di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) con il [!UICONTROL Targeting automatico].
 
-**[!UICONTROL Il Targeting automatico]fornisce un ampio framework di test online.**
+**[!UICONTROL Il Targeting automatico] fornisce un ampio framework di test online.**
 
 * La slot machine è parte di un quadro più ampio di test online che permette ai nostri scienziati e ricercatori di dati di comprendere i benefici dei loro continui miglioramenti nelle condizioni del mondo reale.
 * In futuro, questo banco di prova ci permetterà di aprire la nostra piattaforma di apprendimento automatico per i nostri clienti esperti di dati in modo che possano portare i propri modelli per aumentare i modelli di Target.
@@ -208,7 +217,7 @@ The length of time it takes for models to build in your [!UICONTROL Auto-Target]
 Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Auto-Target]:
 
 * Una volta che un&#39;attività è live, [!UICONTROL Auto-Target] considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando si tenta di creare modelli (ovvero controllare il traffico, più alcuni dati serviti in modo casuale aggiuntivi conservati dal nostro algoritmo).
-* Quando [!UICONTROL Revenue per Visit (Entrate per visita] ) è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate derivanti dalle visite rispetto al tasso di conversione.
+* Quando [!UICONTROL Revenue per Visit (Entrate per visita] ) è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate delle visite rispetto al tasso di conversione.
 * Poiché i modelli sono basati su un&#39;esperienza specifica, sostituire un&#39;esperienza con un&#39;altra significa che è necessario raccogliere il traffico sufficiente (ovvero almeno 50 conversioni) per la nuova esperienza prima di poter ricostruire i modelli personalizzati.
 
 ### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? 
@@ -241,7 +250,7 @@ Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rappo
 
 A volte le attività non vanno come previsto. Di seguito sono elencate alcune potenziali sfide che potresti affrontare durante l’utilizzo del [!UICONTROL Targeting automatico] e alcune soluzioni suggerite.
 
-**La mia attività di[!UICONTROL Targeting automatico]sta impiegando troppo tempo per generare i modelli.**
+**La mia attività di [!UICONTROL Targeting automatico] sta impiegando troppo tempo per generare i modelli.**
 
 Sono disponibili diverse modifiche dell’impostazione dell’attività che possono ridurre il tempo previsto per la generazione di modelli, tra cui il numero di esperienze nell’attività di [!UICONTROL Targeting automatico], il traffico verso il sito e la metrica di successo selezionata.
 
@@ -252,7 +261,7 @@ Sono disponibili diverse modifiche dell’impostazione dell’attività che poss
 * È possibile eliminare alcune esperienze dall’attività? Diminuendo il numero di esperienze, diminuirà anche il tempo necessario alla generazione dei modelli.
 * Esiste una pagina con traffico più alto in cui questa attività avrebbe più successo? Maggiori sono il traffico e le conversioni nelle posizioni dell’attività, più rapidamente verranno generati i modelli.
 
-**La mia attività di[!UICONTROL Targeting automatico]non genera alcun incremento.**
+**La mia attività di [!UICONTROL Targeting automatico] non genera alcun incremento.**
 
 Ci sono quattro fattori necessari affinché un’attività di Personalizzazione automatizzata generi incremento:
 
