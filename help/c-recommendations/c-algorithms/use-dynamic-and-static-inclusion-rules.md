@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 381c405e55475f2474881541698d69b87eddf6fb
+source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
 workflow-type: tm+mt
-source-wordcount: '1478'
-ht-degree: 56%
+source-wordcount: '2135'
+ht-degree: 36%
 
 ---
 
@@ -40,13 +40,25 @@ Nella tabella seguente sono elencati i tipi di opzioni di filtro per criteri e p
 
 ### Filtraggio dinamico
 
+Le regole di inclusione dinamica sono più potenti delle regole di inclusione statica e producono risultati e coinvolgimento migliori. Considera i seguenti aspetti:
+
+* Le regole di inclusione dinamica distribuiscono le raccomandazioni facendo corrispondere un attributo nel parametro di profilo di un utente o in una chiamata mbox.
+
+   Ad esempio, potete creare una raccomandazione Criteri più popolari e quindi del set di raccomandazioni restituite, escluderne una in tempo reale rispetto a un attributo passato quando l&#39;utente accede a una pagina in cui vengono visualizzate le raccomandazioni.
+
+* Utilizzate le regole statiche per limitare gli elementi inclusi nella raccomandazione (invece delle raccolte).
+
+* Potete creare tutte le regole di inclusione dinamica necessarie. Le regole di inclusione vengono collegate mediante un operatore E. Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
+
 Per il filtro dinamico sono disponibili le seguenti opzioni:
 
 #### Corrispondenza attributo entità
 
 Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui gli utenti hanno interagito.
 
-Ad esempio, per consigliare solo gli articoli con lo stesso marchio dell’articolo corrente.
+Ad esempio, consigliamo solo gli elementi che corrispondono al marchio dell&#39;elemento corrente, come nell&#39;esempio seguente:
+
+Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=Nike`, solo i prodotti Nike vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio per gli Adidas, vengono restituiti solo i prodotti Adidas. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve solo specificare una regola di raccomandazione che restituisca i risultati rilevanti del marchio in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico per corrispondere al nome del marchio.
 
 Operatori disponibili:
 
@@ -66,31 +78,79 @@ Operatori disponibili:
 
 Filtrare in modo dinamico confrontando elementi (entità) con un valore nel profilo dell&#39;utente.
 
-Ad esempio, per consigliare solo gli articoli del marchio preferito del visitatore.
+Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
 
-Operatori disponibili:
+Gli esempi seguenti mostrano come utilizzare la corrispondenza tra attributi [!UICONTROL profilo]:
 
-* è uguale a
-* è diverso da
-* contiene
-* non contiene
-* inizia con
-* termina con
-* è maggiore o uguale a
-* è minore o uguale a
-* è tra
+* Una società che vende occhiali memorizza il colore di fotogramma preferito di un visitatore come &quot;noce&quot;. Per quel visitatore specifico, le raccomandazioni sono configurate per restituire solo i fotogrammi della lente di occhio che corrispondono a &quot;noce&quot; nel colore.
+* Un parametro di profilo può essere definito per la dimensione dell’abbigliamento (ad esempio, Piccolo, Medio o Grande) di un visitatore che naviga nel sito Web della società. È possibile impostare una raccomandazione in modo che corrisponda al parametro del profilo e restituire prodotti specifici solo per le dimensioni di abbigliamento preferite dall&#39;utente.
+
+Vediamo un esempio per raccomandare vestiti che corrispondono alla dimensione dell&#39;abbigliamento impostata nel profilo del visitatore.
+
+La pagina del prodotto invia `entity.size` nella chiamata mbox (freccia rossa nell&#39;illustrazione seguente).
+
+Potete creare uno script [di](/help/c-target/c-visitor-profile/profile-parameters.md) profilo per acquisire gli attributi e i valori del profilo del visitatore dall&#39;ultima pagina visitata dal visitatore.
+
+Ad esempio,
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Lo script di profilo acquisisce il `entity.size` valore dalla mbox denominata `target-global-mbox` e lo restituisce come attributo di profilo denominato `user.size` (freccia blu nell&#39;illustrazione seguente).
+
+![chiamata mbox size](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Quando create i criteri di raccomandazione, fate clic su [!UICONTROL Aggiungi regola]di filtro, quindi selezionate Corrispondenza attributi [!UICONTROL profilo].
+
+![Attributo profilo corrispondente a illustrazione](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Se il `user.size` profilo è stato caricato in [!DNL Target], viene visualizzato nell&#39;elenco a discesa per la corrispondenza quando si imposta la regola in modo che corrisponda al valore passato nella chiamata mbox (`size`) al nome dello script di profilo (`user.size`).
+
+Potete quindi selezionare &quot;size&quot; &quot;equals&quot; (uguale a) il valore/testo memorizzato in &quot;user.size&quot; per l&#39;attributo di profilo corrispondente.
+
+Una volta create le regole degli attributi di profilo, queste filtreranno tutte le raccomandazioni che hanno attributi che non corrispondono all&#39;attributo di profilo memorizzato del visitatore.
+
+Per un esempio visivo del modo in cui la corrispondenza dell&#39;attributo di profilo influisce sulle raccomandazioni, prendete in considerazione un sito Web che vende fan.
+
+Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del `entity.size` parametro in base al fatto che le dimensioni della ventola nell’immagine siano piccole o grandi.
+
+Si supponga di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo o su grande.
+
+Se il visitatore ritorna quindi alla Home Page, visualizzerà le raccomandazioni filtrate in base al fatto che sia stato fatto clic su un maggior numero di fan piccoli o grandi.
+
+Recommendations basato sulla visualizzazione di più piccole fan sul sito Web:
+
+![raccomandazioni per i piccoli ventilatori](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations basato sulla visualizzazione di più grandi fan sul sito Web:
+
+![raccomandazioni per i fan di grandi dimensioni](/help/c-recommendations/c-algorithms/assets/large-fans.png)
 
 #### Corrispondenza parametro
 
 Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).
 
-Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina “settore”.
+Ad esempio, si consiglia solo il contenuto che corrisponde al parametro di pagina &quot;industria&quot; o ad altri parametri, come le dimensioni del dispositivo o la geolocalità, come negli esempi seguenti.
 
-Importante: se l’attività è stata creata prima del 31 ottobre 2016, la sua consegna avrà esito negativo se si utilizza il filtro “Corrispondenza parametro”. Per risolvere questo problema:
+* I parametri Mbox per la larghezza e l&#39;altezza dello schermo possono essere utilizzati per i visitatori di dispositivi mobili e consigliamo solo dispositivi mobili e accessori.
+* I parametri di geolocalizzazione regionali possono essere utilizzati per restituire raccomandazioni per gli strumenti durante l&#39;inverno. I soffiatori di neve e altri strumenti di riduzione della neve possono essere raccomandati per i visitatori in aree dove nevica ma non consigliato per i visitatori in aree dove non neve.
 
-* Crea una nuova attività e aggiungi i relativi criteri.
-* Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.
-* Rimuovi il filtro “Corrispondenza parametro” dai criteri.
+>[!NOTE]
+>
+>Se l&#39;attività è stata creata prima del 31 ottobre 2016, la sua distribuzione non riuscirà se utilizza il filtro &quot;Parametro Matching&quot;. Per risolvere questo problema:
+>
+>* Crea una nuova attività e aggiungi i relativi criteri.
+>* Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.
+>* Rimuovi il filtro “Corrispondenza parametro” dai criteri.
+
 
 Operatori disponibili:
 
