@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 2d7435c420326a7eb1a59c95befa87b06c7614c8
 workflow-type: tm+mt
-source-wordcount: '2100'
-ht-degree: 35%
+source-wordcount: '2125'
+ht-degree: 34%
 
 ---
 
@@ -66,59 +66,12 @@ Filtrare in modo dinamico confrontando elementi (entità) con un valore nel prof
 
 Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
 
-Gli esempi seguenti mostrano come utilizzare la corrispondenza tra attributi [!UICONTROL profilo]:
+Gli scenari seguenti mostrano come utilizzare la corrispondenza attributi [!UICONTROL profilo]:
 
 * Una società che vende occhiali memorizza il colore di fotogramma preferito di un visitatore come &quot;noce&quot;. Per quel visitatore specifico, le raccomandazioni sono configurate per restituire solo i fotogrammi della lente di occhio che corrispondono a &quot;noce&quot; nel colore.
 * Un parametro di profilo può essere definito per la dimensione dell’abbigliamento (ad esempio, Piccolo, Medio o Grande) di un visitatore che naviga nel sito Web della società. È possibile impostare una raccomandazione in modo che corrisponda al parametro del profilo e restituire prodotti specifici solo per le dimensioni di abbigliamento preferite dall&#39;utente.
 
-Vediamo un esempio per raccomandare vestiti che corrispondono alla dimensione dell&#39;abbigliamento impostata nel profilo del visitatore.
-
-La pagina del prodotto invia `entity.size` nella chiamata mbox (freccia rossa nell&#39;illustrazione seguente).
-
-Potete creare uno script [di](/help/c-target/c-visitor-profile/profile-parameters.md) profilo per acquisire gli attributi e i valori del profilo del visitatore dall&#39;ultima pagina visitata dal visitatore.
-
-Ad esempio,
-
-```
-if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
-}
-
-else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
-}
-```
-
-Lo script di profilo acquisisce il `entity.size` valore dalla mbox denominata `target-global-mbox` e lo restituisce come attributo di profilo denominato `user.size` (freccia blu nell&#39;illustrazione seguente).
-
-![chiamata mbox size](/help/c-recommendations/c-algorithms/assets/size.png)
-
-Quando create i criteri di raccomandazione, fate clic su [!UICONTROL Aggiungi regola]di filtro, quindi selezionate Corrispondenza attributi [!UICONTROL profilo].
-
-![Attributo profilo corrispondente a illustrazione](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
-
-Se il `user.size` profilo è stato caricato in [!DNL Target], viene visualizzato nell&#39;elenco a discesa per la corrispondenza quando si imposta la regola in modo che corrisponda al valore passato nella chiamata mbox (`size`) al nome dello script di profilo (`user.size`).
-
-Potete quindi selezionare &quot;size&quot; &quot;equals&quot; (uguale a) il valore/testo memorizzato in &quot;user.size&quot; per l&#39;attributo di profilo corrispondente.
-
-Una volta create le regole degli attributi di profilo, queste filtreranno tutte le raccomandazioni che hanno attributi che non corrispondono all&#39;attributo di profilo memorizzato del visitatore.
-
-Per un esempio visivo del modo in cui la corrispondenza dell&#39;attributo di profilo influisce sulle raccomandazioni, prendete in considerazione un sito Web che vende fan.
-
-Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del `entity.size` parametro in base al fatto che le dimensioni della ventola nell’immagine siano piccole o grandi.
-
-Si supponga di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo o su grande.
-
-Se il visitatore ritorna quindi alla Home Page, visualizzerà le raccomandazioni filtrate in base al fatto che sia stato fatto clic su un maggior numero di fan piccoli o grandi.
-
-Recommendations basato sulla visualizzazione di più piccole fan sul sito Web:
-
-![raccomandazioni per i piccoli ventilatori](/help/c-recommendations/c-algorithms/assets/small-fans.png)
-
-Recommendations basato sulla visualizzazione di più grandi fan sul sito Web:
-
-![raccomandazioni per i fan di grandi dimensioni](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+Per ulteriori esempi e istruzioni, consulta Esempi [di corrispondenza attributi](#section_9873E2F22E094E479569D05AD5BB1D40) profilo di seguito.
 
 #### Corrispondenza parametro
 
@@ -253,11 +206,64 @@ Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
+### Esempio 3: Suggerimento di vestiti che corrispondono alle dimensioni di un visitatore
+
+Vediamo un esempio per raccomandare vestiti che corrispondono alla dimensione dell&#39;abbigliamento impostata nel profilo del visitatore.
+
+La pagina del prodotto invia `entity.size` nella chiamata mbox (freccia rossa nell&#39;illustrazione seguente).
+
+Potete creare uno script [di](/help/c-target/c-visitor-profile/profile-parameters.md) profilo per acquisire gli attributi e i valori del profilo del visitatore dall&#39;ultima pagina visitata dal visitatore.
+
+Ad esempio,
+
+```
+if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'small')) { return 'small';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'medium')) { return 'medium';
+}
+
+else if ((mbox.name=="target-global-mbox") &&(mbox.param('entity.size') == 'large')) { return 'large';
+}
+```
+
+Lo script di profilo acquisisce il `entity.size` valore dalla mbox denominata `target-global-mbox` e lo restituisce come attributo di profilo denominato `user.size` (freccia blu nell&#39;illustrazione seguente).
+
+![chiamata mbox size](/help/c-recommendations/c-algorithms/assets/size.png)
+
+Quando create i criteri di raccomandazione, fate clic su [!UICONTROL Aggiungi regola]di filtro, quindi selezionate Corrispondenza attributi [!UICONTROL profilo].
+
+![Attributo profilo corrispondente a illustrazione](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
+
+Se il `user.size` profilo è stato caricato in [!DNL Target], viene visualizzato nell&#39;elenco a discesa per la corrispondenza quando si imposta la regola in modo che corrisponda al valore passato nella chiamata mbox (`size`) al nome dello script di profilo (`user.size`).
+
+Potete quindi selezionare &quot;size&quot; &quot;equals&quot; (uguale a) il valore/testo memorizzato in &quot;user.size&quot; per l&#39;attributo di profilo corrispondente.
+
+Una volta create le regole degli attributi di profilo, queste filtreranno tutte le raccomandazioni che hanno attributi che non corrispondono all&#39;attributo di profilo memorizzato del visitatore.
+
+### Esempio 4: Raccomanda gli elementi in base alle dimensioni
+
+Per un esempio visivo del modo in cui la corrispondenza dell&#39;attributo di profilo influisce sulle raccomandazioni, prendete in considerazione un sito Web che vende fan.
+
+Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del `entity.size` parametro in base al fatto che le dimensioni della ventola nell’immagine siano piccole o grandi.
+
+Si supponga di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo o su grande.
+
+Se il visitatore ritorna quindi alla Home Page, visualizzerà le raccomandazioni filtrate in base al fatto che sia stato fatto clic su un maggior numero di fan piccoli o grandi.
+
+Recommendations basato sulla visualizzazione di più piccole fan sul sito Web:
+
+![raccomandazioni per i piccoli ventilatori](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+
+Recommendations basato sulla visualizzazione di più grandi fan sul sito Web:
+
+![raccomandazioni per i fan di grandi dimensioni](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+
 ## Esempi di corrispondenza attributi entità
 
 [!UICONTROL La corrispondenza] attributi entità consente di consigliare solo gli elementi che corrispondono a un attributo dell&#39;elemento che l&#39;utente sta visualizzando, l&#39;elemento visualizzato più di recente dall&#39;utente, l&#39;elemento acquistato più di recente dall&#39;utente, l&#39;elemento visualizzato più di frequente dall&#39;utente o da un elemento memorizzato in un attributo personalizzato nel profilo del visitatore, come negli esempi seguenti.
 
-### Esempio 3: Upselling per un prodotto più costoso
+### Esempio 5: Upselling per un prodotto più costoso
 
 Supponiamo di essere un rivenditore di abbigliamento e di voler incoraggiare gli utenti a considerare articoli più costosi e, quindi, più redditizi. È possibile utilizzare gli operatori &quot;uguale&quot; e &quot;è tra&quot; per promuovere elementi più costosi appartenenti alla stessa categoria e allo stesso marchio. Ad esempio, un rivenditore di scarpe può promuovere scarpe da ginnastica più costose nel tentativo di up-sell di un visitatore che guarda scarpe da corsa.
 
@@ -272,7 +278,7 @@ Entity Attribute Matching
 value - is between - 100% and 1000% of - current item's - value
 ```
 
-### Esempio 4: Promozione di prodotti con etichette private
+### Esempio 6: Promozione di prodotti con etichette private
 
 Potete combinare filtri dinamici e statici per promuovere i prodotti con etichette private. Ad esempio, una società di fornitura di uffici può promuovere le cartucce toner del marchio della casa dell&#39;azienda per condurre una vendita più redditizia per un visitatore che guarda il toner — e promuovere penne del marchio della casa dell&#39;azienda per guidare una vendita più redditizia per un visitatore che guarda le penne.
 
