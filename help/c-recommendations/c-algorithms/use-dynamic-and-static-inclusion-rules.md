@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: f1df23d94ab81002945b22c6468ba1d3a9030388
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2135'
-ht-degree: 36%
+source-wordcount: '2100'
+ht-degree: 35%
 
 ---
 
@@ -59,20 +59,6 @@ Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle r
 Ad esempio, consigliamo solo gli elementi che corrispondono al marchio dell&#39;elemento corrente, come nell&#39;esempio seguente:
 
 Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=Nike`, solo i prodotti Nike vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio per gli Adidas, vengono restituiti solo i prodotti Adidas. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve solo specificare una regola di raccomandazione che restituisca i risultati rilevanti del marchio in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico per corrispondere al nome del marchio.
-
-Operatori disponibili:
-
-* è uguale a
-* è diverso da
-* è tra
-* contiene
-* non contiene
-* inizia con
-* termina con
-* è presente un valore
-* il valore non è presente
-* è maggiore o uguale a
-* è minore o uguale a
 
 #### Corrispondenza attributo profilo
 
