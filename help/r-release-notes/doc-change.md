@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 227713f49e355f0975ee2babc02715ce8df0d0b2
+source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
 workflow-type: tm+mt
-source-wordcount: '2631'
+source-wordcount: '2684'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,8 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 13 ottobre | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar live in programma per il 10 novembre 2020:<ul><li>Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target</li></ul> |
+|  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul seguente webinar live in programma per il 10 novembre 2020:<ul><li>Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target</li></ul> |
 | 12 ottobre | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md) | Aggiornato [Recupera il token di autorizzazione da utilizzare con gli strumenti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#section_BED130298E794D1FA229DB7C3358BA54) di debug per indicare il livello di autorizzazione necessario per generare un token di autenticazione. |
 |  | [Impostazioni API del profilo](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md) | Argomento aggiornato per indicare il livello di autorizzazione necessario per generare un token di autenticazione. |
 |  | [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | È stata aggiunta una storia di successo nel mondo reale tramite Auto-Target. |
