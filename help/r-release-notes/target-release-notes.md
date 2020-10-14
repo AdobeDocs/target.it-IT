@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 13%
+source-wordcount: '778'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 13%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 7 ottobre 2020**
+**Ultimo aggiornamento: 14 ottobre 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -46,6 +46,18 @@ Questa versione contiene le nuove funzioni seguenti:
 | Funzione | Dettagli |
 | --- | --- |
 | Decisioni sul dispositivo | Le decisioni sul dispositivo consentono sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti. Le decisioni sul dispositivo consentono agli esperti di marketing e ora agli sviluppatori di prodotti di testare e ottimizzare le esperienze direttamente da un dispositivo utente, riducendo i tempi di decisione e caricamento a quasi zero per esperienze contestuali in tempo reale.<br>Le decisioni sul dispositivo consentono di compilare tutte le istruzioni di personalizzazione e sperimentazione su &quot;artifact di ottimizzazione&quot;, caricate sui dispositivi dei clienti. Questi artefatti a latenza zero consentono agli esperti di marketing di personalizzare singolarmente, retargeting comportamentale e raccomandazioni di prodotti e contenuti in tempo reale, fornendo allo stesso tempo agli sviluppatori e ai proprietari dei prodotti l&#39;accesso diretto al codice per testare le esperienze degli utenti e per eseguire il targeting e il lancio dei prodotti in fase, perfezionando i prodotti in tempo reale. Inoltre, poiché le decisioni sui dispositivi si collegano in modo nativo con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti ottengono analisi rapide e iterazioni di esperienza più veloci.<br>**Registratevi ora per un webinar live.** Partecipate  esperti di prodotti Adobe Target per discutere di come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo, da eseguire localmente con latenza zero, possano aprire le porte a nuovi casi d&#39;uso entusiasmanti e migliorare le prestazioni del sito per i vostri clienti.<ul><li>10 novembre 2020</li><li>10 PT / 12 CT / 1 p.m. ET</li><li>[Registrati qui](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+
+Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
+
+* È stato risolto un problema che impediva la visualizzazione dell&#39;intervallo [!UICONTROL medio di confidenza e della] confidenza [!UICONTROL dell&#39;incremento nel] reporting per la riga [!DNL Auto-Target] Totale  . Misurazioni visualizzate correttamente per tutte le singole esperienze. (TGT-37301)
+* È stato risolto un problema che interessava il reporting di [!DNL Adobe Target Premium] Auto-Target  degli utenti a partire dal 15 settembre alle 2:30. (PDT) al 6 ottobre, 9:25 (PDT). Quando visualizzate i rapporti per le metriche di conversione interessate (configurate utilizzando l&#39;opzione &quot;[!UICONTROL Visualizzato una pagina]&quot; o &quot;[!UICONTROL Premuto su mbox]&quot;), i tassi di conversione vengono segnalati in modo non corretto. Nessun problema di consegna noto al momento. Per informazioni su come risincronizzare e correggere i rapporti, vedi Report [di](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) Auto-Target in Problemi ** risolti in Problemi *noti e problemi* risolti.
+* È stata aggiunta una colonna [!UICONTROL Ultimo aggiornamento] selezionabile nella tabella Ricerca  catalogo e un filtro [!UICONTROL Ultimo aggiornamento a] . Questo miglioramento consente di risparmiare tempo e fatica perché non è necessario aprire ogni singolo elemento per vedere quando è stato aggiornato per l&#39;ultima volta e si può filtrare per data l&#39;ultimo aggiornamento degli elementi.
+
+   ![Ultimo aggiornamento a colonna e illustrazione filtro](/help/r-release-notes/assets/column-and-filter.png)
+
+* Navigazione e funzionalità migliorate per gli utenti che utilizzano solo la tastiera.
+* Sono state aggiunte etichette nell’interfaccia utente per aiutare gli utenti che utilizzano tecnologie di assistenza.
+* È stato migliorato il contrasto tra testo e colori per immagini e testo nell’interfaccia utente.
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
