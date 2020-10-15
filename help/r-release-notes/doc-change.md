@@ -6,10 +6,10 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: b53918af5ddceded80829288d181102cf1b56841
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 29%
+source-wordcount: '2716'
+ht-degree: 28%
 
 ---
 
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 15 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease per Target Standard/Premium 20.10.1 (27 ottobre 2020). |
 | 14 ottobre | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Aggiunta una nota sull&#39;allocazione del traffico per un&#39;attività di allocazione automatica con solo due esperienze. |
 | 13 ottobre | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar live in programma per il 10 novembre 2020:<ul><li>Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target</li></ul> |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul seguente webinar live in programma per il 10 novembre 2020:<ul><li>Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target</li></ul> |
