@@ -6,9 +6,9 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: 8b1f98e6c05844308e63e2c32255c32d0c126cba
+source-git-commit: f531dd591455b90a8e4e937bdbc0a10f70ff089a
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '803'
 ht-degree: 10%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 10%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 14 ottobre 2020**
+**Ultimo aggiornamento: 15 ottobre 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -55,9 +55,10 @@ Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 
    ![Ultimo aggiornamento a colonna e illustrazione filtro](/help/r-release-notes/assets/column-and-filter.png)
 
-* Navigazione e funzionalità migliorate per gli utenti che utilizzano solo la tastiera.
-* Sono state aggiunte etichette nell’interfaccia utente per aiutare gli utenti che utilizzano tecnologie di assistenza.
-* È stato migliorato il contrasto tra testo e colori per immagini e testo nell’interfaccia utente.
+* Sono stati effettuati aggiornamenti per rendere l&#39;interfaccia utente di Target conforme alle linee guida [per l&#39;accessibilità dei contenuti](https://www.w3.org/WAI/standards-guidelines/wcag/) Web 2.0 di livello A e AA (WCAG 2.0 AA). (TGT-34384 e TGT-24679)
+* Miglioramenti apportati all&#39;informativa sulla sicurezza dei contenuti (CSP). (TGT-37035)
+* È stato introdotto un modo per specificare il codice client come parametro per i clienti che utilizzano CNAME. (TNT-38571)
+
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
