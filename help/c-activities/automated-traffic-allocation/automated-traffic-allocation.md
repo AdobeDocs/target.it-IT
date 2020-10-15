@@ -6,10 +6,10 @@ feature: reports
 topic: Standard
 uuid: e8aee4d7-2b99-4e1f-8004-2efc820658b5
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: b53918af5ddceded80829288d181102cf1b56841
 workflow-type: tm+mt
-source-wordcount: '3335'
-ht-degree: 78%
+source-wordcount: '3368'
+ht-degree: 76%
 
 ---
 
@@ -82,7 +82,9 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 | ![Turno 4](/help/c-activities/automated-traffic-allocation/assets/aa-phase-4.png) | **Turno 4**: durante questo turno, l’80% di traffico è assegnato alle esperienze C e D (40% ciascuna). Il 20% del traffico è allocato in modo casuale, quindi A, B, C e D ricevono rispettivamente il 5% del traffico. Durante questo turno, l&#39;esperienza C risulta avere buone prestazioni.<ul><li>L&#39;algoritmo sceglie l&#39;esperienza C per passare al turno successivo perché ha il più alto tasso di conversione (come indicato da sulla scala verticale di ogni attività).</li><li>L&#39;algoritmo sceglie anche l&#39;esperienza D per proseguire perché, tra le esperienze rimanenti, ha il limite superiore più alto dell&#39;intervallo di affidabilità Bernstein al 95%.</li></ul>Le esperienze C e D proseguono. |
 | ![Turno n](/help/c-activities/automated-traffic-allocation/assets/aa-phase-n.png) | **Turno n**: mentre l&#39;attività progredisce, inizia a emergere un&#39;esperienza con prestazioni elevate e il processo continua fino a individuare un&#39;esperienza vincente. Quando l’intervallo di confidenza dell’esperienza con il tasso di conversione più elevato non si sovrappone all’intervallo di confidenza di qualsiasi altra esperienza, questa viene contrassegnata come vincitrice e un [badge compare nella pagina dell’attività](/help/c-activities/automated-traffic-allocation/determine-winner.md) e nell’elenco Attività.<ul><li>L&#39;algoritmo sceglie l’esperienza C come chiaro vincitore</li></ul>A questo punto l&#39;algoritmo indirizza l’80% del traffico all’esperienza C, mentre il 20% del traffico continua a essere indirizzato casualmente a tutte le esperienze (A, B, C e D). In totale, C ottiene l’85% del traffico. Nel caso improbabile che l’intervallo di affidabilità del vincitore inizi a sovrapporsi di nuovo cpn quello di un’altra esperienza, l’algoritmo ritorna al comportamento del turno 4 di cui sopra.<br>**Importante**: se scegliessi manualmente un vincitore in una fase precedente del processo, rischieresti di scegliere l’esperienza sbagliata. Per questo motivo, è consigliabile attendere che l’algoritmo determini l’esperienza vincente. |
 
-Se l’attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando Target trova un’esperienza con il 90% di affidabilità. A quel punto, il 70% del traffico viene assegnato all’esperienza vincente e il 30% a quella perdente. Quando l’esperienza raggiunge il 95% di affidabilità, viene assegnato il 100% del traffico all’esperienza vincente e lo 0% a quella perdente.
+>[!NOTE]
+>
+>If an activity has only two experiences, both experiences get equal traffic until [!DNL Target] finds a winning experience with 75% confidence. A quel punto, 2/3 del traffico è assegnato al vincitore e 1/3 al perdente. In seguito, quando un&#39;esperienza raggiunge un livello di confidenza del 95%, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. Manteniamo sempre un certo traffico che viene inviato all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi nel lungo periodo (ossia mantenere qualche esplorazione).
 
 After an [!UICONTROL Auto-Allocate] activity is activated, the following operations from the UI are not allowed:
 
@@ -192,7 +194,7 @@ Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!U
 
 ### Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello Allocazione [!UICONTROL automatica] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] .
+L&#39;utilizzo dell&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello Allocazione [!UICONTROL automatica] . Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di allocazione [!UICONTROL automatica] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL Automated Personalization] .
 
 ### In che modo Auto-Allocate crea modelli in relazione agli ambienti?
 
