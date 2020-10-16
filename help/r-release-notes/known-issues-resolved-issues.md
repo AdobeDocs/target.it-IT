@@ -5,7 +5,7 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: a09a90333079a25f83a7f242e52194146a2337ab
+source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
 workflow-type: tm+mt
 source-wordcount: '3897'
 ht-degree: 77%
@@ -240,7 +240,7 @@ La versione v1 delle API Offer su Adobe I/O considera tutte le offerte create tr
 
 Questo problema è stato risolto.
 
-### at.js
+### at.js {#at-js-2}
 
 Dopo l’aggiornamento alla versione 1.0 di at.js, le mbox non funzionano nei browser Microsoft Explorer 11 a causa dell’interazione tra at.js e Visitor API 2.2.0. Questo problema riguarda le versioni 0.9.6 e successive di at.js. (TNT-27600)
 
@@ -252,7 +252,7 @@ La ricerca di una stringa contenente caratteri speciali (ad esempio uno spazio o
 
 Corretto a novembre 2018.
 
-### at.js
+### at.js {#at-js-3}
 
 Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell&#39;attività.
 
@@ -294,7 +294,7 @@ Quando viene modificato il nome di un pubblico per la creazione di rapporti util
 
 Questo problema è stato risolto con la versione 18.5.1 (22 maggio 2018).
 
-### at.js
+### at.js {#at-js-4}
 
 L’algoritmo per l’estrazione del dominio di primo livello che deve essere utilizzato quando si salvano i cookie è stato modificato nella versione 0.9.6. di at.js. A causa di questa modifica, i cookie non possono essere salvati in indirizzi IP. La maggior parte degli indirizzi IP si utilizza a scopo di test, ma in alternativa puoi utilizzare le voci DNS, regolare il file host in una casella locale oppure utilizzare la funzione targetGlobalSettings() di at.js per inserire uno snippet di codice per il supporto degli indirizzi IP.
 
@@ -335,7 +335,7 @@ Il primo problema è stato risolto nella versione 17.3.1 di Target (marzo 2017).
 
 Il secondo problema è stato risolto nella versione 17.6.1 di Target (giugno 2017).
 
-### at.js
+### at.js {#at-js-5}
 
 A partire dalla versione 17.4.1 di Target (27 aprile 2017), se si utilizza l’azione Inserisci immagine nel Compositore esperienza visivo, il contenuto dell’offerta non viene consegnato quando si utilizza la libreria at.js.
 
@@ -355,7 +355,7 @@ Un problema ha interessato la consegna e l’anteprima di offerte in attività A
 
 Risolto nell’aggiornamento rapido 17.4.3 di Target.
 
-### at.js
+### at.js {#at-js-6}
 
 Le seguenti azioni hanno causato la mancata consegna dell’offerta collegata all’utilizzo delle funzioni Sposta e Ridisponi del Compositore esperienza visivo e di at.js.
 
@@ -379,7 +379,7 @@ Per il criterio Visualizzato di recente, le regole dinamiche basate su entità n
 
 Questo problema è stato risolto con il rilascio della funzionalità Consigli (22 marzo 2018). Dopo il rilascio della funzionalità Consigli, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
 
-### at.js
+### at.js {#at-js-7}
 
 Quando gli utenti tentano di scaricare at.js dalla pagina dei dettagli Implementazioni dopo l’aggiornamento delle impostazioni di at.js, mbox.js viene scaricato al suo posto. (TGT-23069)
 
