@@ -6,10 +6,10 @@ feature: criteria
 mini-toc-levels: 3
 uuid: f0ee2086-1126-44a4-9379-aa897dc0e06b
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '1004'
-ht-degree: 45%
+source-wordcount: '1062'
+ht-degree: 39%
 
 ---
 
@@ -18,7 +18,9 @@ ht-degree: 45%
 
 Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
 
-Le regole di inclusione per i criteri e le promozioni possono essere create e utilizzate con processi simili, così come sono simili i rispettivi casi ed esempi di utilizzo. Sia i criteri che le promozioni e l&#39;uso delle regole di inclusione sono trattati in questa sezione.
+>[!NOTE]
+>
+>Le regole di inclusione per i criteri e le promozioni possono essere create e utilizzate con processi simili, così come sono simili i rispettivi casi ed esempi di utilizzo. Sia i criteri che le promozioni e l&#39;uso delle regole di inclusione sono trattati in questa sezione.
 
 ## Aggiunta di regole di filtro ai criteri {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -36,7 +38,7 @@ Durante la [creazione di una promozione](../../c-recommendations/t-create-recs-a
 
 ## Tipi di filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-Nelle sezioni seguenti sono elencati i tipi di opzioni di filtro per criteri e promozioni, Filtro dinamico e Filtro per valore:
+Nelle sezioni seguenti sono elencati i tipi di opzioni di filtro per Filtro [!UICONTROL dinamico] e [!UICONTROL Filtro per valore] per criteri e promozioni:
 
 ### Filtraggio dinamico
 
@@ -44,9 +46,9 @@ Le regole di inclusione dinamica sono più potenti delle regole di inclusione st
 
 * Le regole di inclusione dinamica distribuiscono le raccomandazioni facendo corrispondere un attributo nel parametro di profilo di un utente o in una chiamata mbox.
 
-   Ad esempio, potete creare una raccomandazione &quot;Most Popular Criteria&quot; (Criteri più comuni) e quindi del set di raccomandazioni restituite, escluderne una in tempo reale rispetto a un attributo passato quando l&#39;utente accede a una pagina in cui vengono visualizzate le raccomandazioni.
+   Ad esempio, potete creare una raccomandazione &quot;Most Popular Criteria&quot; (Criteri più comuni), quindi del set di raccomandazioni restituite, quindi filtrare eventuali raccomandazioni (in tempo reale) rispetto a un attributo passato quando l&#39;utente accede a una pagina in cui vengono visualizzate le raccomandazioni.
 
-* Utilizzate le regole statiche per limitare gli elementi inclusi nella raccomandazione (invece delle raccolte).
+* Utilizzate le regole statiche per limitare gli elementi inclusi nella raccomandazione (invece di utilizzare le raccolte).
 
 * Potete creare tutte le regole di inclusione dinamica necessarie. Le regole di inclusione vengono collegate mediante un operatore E. Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
 
@@ -54,9 +56,9 @@ Per il filtro dinamico sono disponibili le seguenti opzioni:
 
 | Filtro dinamico, opzione | Dettagli |
 | --- | --- |
-| [Corrispondenza attributo entità](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui gli utenti hanno interagito.<br>Utilizzate Corrispondenza attributi entità per mostrare le raccomandazioni più probabili per il visitatore, ad esempio il marchio preferito del visitatore. |
+| [Corrispondenza attributo entità](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui gli utenti hanno interagito.<br>Utilizzate Corrispondenza [!UICONTROL attributi] entità per mostrare le raccomandazioni più probabili per il visitatore, ad esempio il marchio preferito del visitatore. |
 | [Corrispondenza attributo profilo](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nel profilo dell&#39;utente.<br>Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito. |
-| [Corrispondenza parametro](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).<br>Utilizzate la corrispondenza dei parametri per raccomandare il contenuto che corrisponda ai parametri della pagina o dei visitatori, come le dimensioni del dispositivo o la geolocalità. |
+| [Corrispondenza parametro](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).<br>Utilizzate [!UICONTROL Corrispondenza] parametri per raccomandare il contenuto che corrisponda ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità. |
 
 ### Filtra per valore
 
@@ -68,37 +70,15 @@ L&#39;opzione seguente è disponibile per filtrare in base al valore:
 
 ## Criteri dinamici ed esempi di promozione
 
-I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle promozioni statici; producono risultati migliore e un maggiore coinvolgimento del visitatore.
+I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle promozioni statici e offrono risultati e coinvolgimento migliori.
 
-Gli esempi seguenti illustrano come utilizzare le promozioni dinamiche nelle attività di marketing:
+Gli esempi seguenti forniscono idee generali su come utilizzare le promozioni dinamiche nelle attività di marketing:
 
-### È uguale a
-
-Utilizzando l&#39;operatore &quot;uguale&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi da:
-
-* lo stesso marchio
-* la stessa categoria
-* la stessa categoria E lo stesso marchio
-* lo stesso store
-
-### Non uguale
-
-Utilizzando l&#39;operatore &quot;non uguale&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi da:
-
-* una serie TV diversa
-* un genere diverso
-* una serie di prodotti diversi
-* un ID di stile diverso
-
-### È tra
-
-Utilizzando l&#39;operatore &quot;è compreso&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi:
-
-* più costosi
-* meno costosi
-* più o meno costosi del 30%
-* episodi successivi nella stessa stagione
-* libri precedenti in una collana
+| Operatore | Esempi |
+| --- | --- |
+| È uguale a | Utilizzando l&#39;operatore &quot;uguale&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi da:<ul><li>lo stesso marchio</li><li>la stessa categoria</li><li>la stessa categoria E lo stesso marchio</li><li>lo stesso store</li></ul> |
+| Non uguale | Utilizzando l&#39;operatore &quot;non uguale&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi da:<ul><li>una serie TV diversa</li><li>un genere diverso</li><li>una serie di prodotti diversi</li><li>un ID di stile diverso</li></ul> |
+| È tra | Utilizzando l&#39;operatore &quot;è compreso&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi:<ul><li>più costosi</li><li>meno costosi</li><li>più o meno costosi del 30%</li><li>episodi successivi nella stessa stagione</li><li>libri precedenti in una collana</li></ul> |
 
 ## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -112,9 +92,10 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| Ignora questa regola di filtro | Corrispondenza attributo profilo<br>Corrispondenza parametro | Questa è l&#39;azione predefinita per Corrispondenza attributo profilo e Corrispondenza parametro.<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
-| Non promuovere alcun elemento | Corrispondenza attributo di entità<br>con attributo<br>di profilo di profilo | Questa è l&#39;azione predefinita per Corrispondenza attributo entità.<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
-| Usa un valore statico | Corrispondenza attributo entità<br>Corrispondenza attributo profilo<br>Corrispondenza parametro | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
+| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza] attributi profilo[!UICONTROL e corrispondenza parametri] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| [!UICONTROL Non mostrare risultati per questo criterio]<br>(solo criteri) | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| [!UICONTROL Non promuovere elementi<br>(solo Promozioni)] | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| [!UICONTROL Usa un valore statico] | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
 
 ## Avvertenze {#section_A889FAF794B7458CA074DEE06DD0E345}
 
