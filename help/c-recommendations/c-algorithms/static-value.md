@@ -4,32 +4,19 @@ description: Immettete manualmente uno o più valori statici per filtrare utiliz
 title: Filtrare per valori statici nelle regole di inclusione in  Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 75%
+source-wordcount: '160'
+ht-degree: 73%
 
 ---
 
 
 # ![Filtro statico PREMIUM](/help/assets/premium.png)
 
-Immettete manualmente uno o più valori statici per filtrare utilizzando le regole di inclusione in  Adobe Target Recommendations.
+Immettete manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target][!DNL Recommendations].
 
 Ad esempio, per consigliare solo i contenuti con una classificazione MPAA di “G” o “PG”.
-
-Operatori disponibili:
-
-* è uguale a
-* è diverso da
-* contiene
-* non contiene
-* inizia con
-* termina con
-* è presente un valore
-* il valore non è presente
-* è maggiore o uguale a
-* è minore o uguale a
 
 >[!NOTE]
 >
