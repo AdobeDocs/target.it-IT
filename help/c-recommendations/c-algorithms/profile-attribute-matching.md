@@ -4,9 +4,9 @@ description: Filtrare in modo dinamico  Adobe Target Recommendations confrontand
 title: Filtrare per corrispondenza attributi profilo nelle regole di inclusione dinamica in  Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '655'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 5%
 Filtrare in modo dinamico [!DNL Adobe Target] [!DNL Recommendations] confrontando elementi (entità) con un valore nel profilo dell&#39;utente.
 
 Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
+
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
 
 Gli scenari seguenti mostrano come utilizzare la corrispondenza attributi [!UICONTROL profilo]:
 
@@ -72,7 +76,7 @@ Lo script di profilo acquisisce il `entity.size` valore dalla mbox denominata `t
 
 ![chiamata mbox size](/help/c-recommendations/c-algorithms/assets/size.png)
 
-Quando create i criteri di raccomandazione, fate clic su [!UICONTROL Aggiungi regola]di filtro, quindi selezionate Corrispondenza attributi [!UICONTROL profilo].
+Quando create i criteri di raccomandazione, fate clic su **[!UICONTROL Aggiungi regola]** di filtro, quindi selezionate Corrispondenza attributi **[!UICONTROL profilo]**.
 
 ![Attributo profilo corrispondente a illustrazione](/help/c-recommendations/c-algorithms/assets/profile-attribute-matching.png)
 
@@ -80,11 +84,13 @@ Se il `user.size` profilo è stato caricato in [!DNL Target], viene visualizzato
 
 Potete quindi selezionare &quot;size&quot; &quot;equals&quot; (uguale a) il valore/testo memorizzato in &quot;user.size&quot; per l&#39;attributo di profilo corrispondente.
 
+![Esempio di dimensioni](/help/c-recommendations/c-algorithms/assets/example-size.png)
+
 Una volta create le regole degli attributi di profilo, queste filtreranno tutte le raccomandazioni che hanno attributi che non corrispondono all&#39;attributo di profilo memorizzato del visitatore.
 
 ### Raccomanda gli elementi in base alle dimensioni
 
-Per un esempio visivo del modo in cui la corrispondenza dell&#39;attributo di profilo influisce sulle raccomandazioni, prendete in considerazione un sito Web che vende fan.
+Per un esempio visivo di come la corrispondenza attributo profilo influisce sulle raccomandazioni, considerate un sito Web che vende ventole elettriche.
 
 Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del `entity.size` parametro in base al fatto che le dimensioni della ventola nell’immagine siano piccole o grandi.
 
