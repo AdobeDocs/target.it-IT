@@ -4,9 +4,9 @@ description: Filtrare in modo dinamico  Adobe Target Recommendations confrontand
 title: Filtra per corrispondenza attributi entità nelle regole di inclusione dinamica in  Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: b51c980d8e7db3ee574350a04f9056fe5b00a703
+source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
 workflow-type: tm+mt
-source-wordcount: '354'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,15 @@ ht-degree: 0%
 
 Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
 
+>[!NOTE]
+>
+>The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+
 Ad esempio, consigliamo solo gli elementi che corrispondono al marchio dell&#39;elemento corrente, come nell&#39;esempio seguente:
 
-Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=Nike`, solo i prodotti Nike vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio per Adidas, vengono restituiti solo i prodotti Adidas. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve solo specificare una regola di raccomandazione che restituisca i risultati rilevanti del marchio in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico per corrispondere al nome del marchio.
+Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=Nike`, solo i prodotti Nike vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio per Adidas, vengono restituiti solo i prodotti Adidas. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve specificare una sola regola di raccomandazione che restituisca risultati del marchio rilevanti in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico che corrisponda al nome del marchio.
+
+Per garantire il corretto funzionamento, dovete distribuire il contenuto `entity.brand` nella mbox su tali pagine di destinazione.
 
 ## Esempi di corrispondenza attributi entità
 
@@ -29,6 +35,24 @@ Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=N
 * L’elemento acquistato più di recente dall’utente
 * L’elemento visualizzato più frequentemente dall’utente
 * Un elemento memorizzato in un attributo personalizzato nel profilo del visitatore
+
+### Raccomanda articoli basati sul marchio
+
+Una volta create le regole dell&#39;attributo di entità, queste filtreranno tutte le raccomandazioni con attributi che non corrispondono al valore di entità passato sulla pagina.
+
+L&#39;esempio seguente mostra le raccomandazioni corrispondenti al marchio di prodotto visualizzato sulla pagina:
+
+Quando visitate una pagina che include un prodotto Nike, la pagina imposta il valore del `entity.brand` parametro su &quot;Nike&quot;.
+
+![Esempio di chiamata Target](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
+
+Nelle raccomandazioni della pagina, verranno visualizzati solo i prodotti Nike.
+
+![Consigli Nike](/help/c-recommendations/c-algorithms/assets/nike.png)
+
+Se poi visualizzi una pagina di prodotto Adidas, il `entity.brand` valore verrà reimpostato su &quot;Adidas&quot; e vedrai i prodotti Adidas consigliati sulle pagine di prodotto Adidas.
+
+![Raccomandazioni Adidas](/help/c-recommendations/c-algorithms/assets/adidas.png)
 
 ### Upselling per un prodotto più costoso
 
