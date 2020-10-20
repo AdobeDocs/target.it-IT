@@ -4,9 +4,9 @@ description: Filtrare in modo dinamico  Adobe Target Recommendations confrontand
 title: Filtra per corrispondenza attributi entità nelle regole di inclusione dinamica in  Adobe Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: c814215476ef6e40f4f175fe3f9dbb2c26b966eb
+source-git-commit: 60b71c426b61bb16a23976da9a03926f8e73cf6c
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a 
 
 Ad esempio, consigliamo solo gli elementi che corrispondono al marchio dell&#39;elemento corrente, come nell&#39;esempio seguente:
 
-Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=Nike`, solo i prodotti Nike vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio per Adidas, vengono restituiti solo i prodotti Adidas. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve specificare una sola regola di raccomandazione che restituisca risultati del marchio rilevanti in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico che corrisponda al nome del marchio.
+Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=brandA`, solo i prodotti del marchio A vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio B, vengono restituiti solo i prodotti del marchio B. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve specificare una sola regola di raccomandazione che restituisca risultati del marchio rilevanti in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico che corrisponda al nome del marchio.
 
 Per garantire il corretto funzionamento, dovete distribuire il contenuto `entity.brand` nella mbox su tali pagine di destinazione.
 
@@ -42,21 +42,23 @@ Una volta create le regole dell&#39;attributo di entità, queste filtreranno tut
 
 L&#39;esempio seguente mostra le raccomandazioni corrispondenti al marchio di prodotto visualizzato sulla pagina:
 
-Quando visitate una pagina che include un prodotto Nike, la pagina imposta il valore del `entity.brand` parametro su &quot;Nike&quot;.
+Quando visitate una pagina che include un prodotto Marchio A, la pagina imposta il valore del `entity.brand` parametro su &quot;MarchioA&quot;.
 
 ![Esempio di chiamata Target](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
-Nelle raccomandazioni della pagina, verranno visualizzati solo i prodotti Nike.
+Nelle raccomandazioni sulla pagina, verranno visualizzati solo i prodotti del marchio A.
 
-![Consigli Nike](/help/c-recommendations/c-algorithms/assets/nike.png)
+![Suggerimenti per il marchio A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se poi visualizzi una pagina di prodotto Adidas, il `entity.brand` valore verrà reimpostato su &quot;Adidas&quot; e vedrai i prodotti Adidas consigliati sulle pagine di prodotto Adidas.
+Se poi visualizzi una pagina di prodotto del marchio B, il `entity.brand` valore verrà reimpostato su &quot;BrandB&quot; e vedrai i prodotti del marchio B consigliati sulle pagine di prodotto del marchio B.
 
-![Raccomandazioni Adidas](/help/c-recommendations/c-algorithms/assets/adidas.png)
+![Suggerimenti per il marchio B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
 ### Upselling per un prodotto più costoso
 
-Supponiamo di essere un rivenditore di abbigliamento e di voler incoraggiare gli utenti a considerare articoli più costosi e, quindi, più redditizi. È possibile utilizzare gli operatori &quot;uguale&quot; e &quot;è tra&quot; per promuovere elementi più costosi appartenenti alla stessa categoria e allo stesso marchio. Ad esempio, un rivenditore di scarpe può promuovere scarpe da ginnastica più costose nel tentativo di vendere un visitatore che guarda scarpe da corsa, come nel seguente esempio di codice:
+Supponiamo di essere un rivenditore di abbigliamento e di voler incoraggiare gli utenti a considerare articoli più costosi e, quindi, più redditizi. È possibile utilizzare gli operatori &quot;uguale&quot; e &quot;è tra&quot; per promuovere elementi più costosi appartenenti alla stessa categoria e allo stesso marchio. Ad esempio, un rivenditore di scarpe può promuovere scarpe da corsa più costose nel tentativo di vendere un visitatore che guarda scarpe da corsa, come nell&#39;esempio seguente:
+
+![Upselling](/help/c-recommendations/c-algorithms/assets/upsell.png)
 
 ```
 Entity Attribute Matching
@@ -71,7 +73,9 @@ value - is between - 100% and 1000% of - current item's - value
 
 ### Promozione di prodotti con etichette private
 
-Potete combinare filtri dinamici e statici per promuovere i prodotti con etichette private. Ad esempio, una società di fornitura di uffici può promuovere le cartucce toner del marchio della casa della società per promuovere una vendita più redditizia per un visitatore che guarda il toner — e promuovere penne del marchio della casa della società per promuovere una vendita più redditizia per un visitatore che guarda le penne, come nel seguente esempio di codice:
+Potete combinare filtri dinamici e statici per promuovere i prodotti con etichette private. Ad esempio, una società di fornitura di uffici può promuovere le cartucce toner del marchio della casa della società per promuovere una vendita più redditizia per un visitatore che guarda il toner — e promuovere penne del marchio della casa della società per guidare una vendita più redditizia per un visitatore che guarda le penne, come nel seguente esempio:
+
+![marchio House](/help/c-recommendations/c-algorithms/assets/housebrand.png)
 
 ```
 Entity Attribute Matching
