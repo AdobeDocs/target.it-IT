@@ -6,9 +6,9 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 5675672777c778676b878dee2f713b16bc62bc1e
+source-git-commit: 252bea6810e54c0592a14559874f872e39ae261d
 workflow-type: tm+mt
-source-wordcount: '3744'
+source-wordcount: '3731'
 ht-degree: 83%
 
 ---
@@ -125,8 +125,6 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 **L’algoritmo esegue l’ottimizzazione continua per una singola metrica dell’obiettivo.**
 
 * Questa metrica potrebbe essere basata sulla conversione o i ricavi (più specificamente ricavi per visita).
-
-**L&#39;algoritmo non supporta [!DNL Analytics] come origine di dati o come endpoint per la generazione di rapporti.**
 
 **Target raccoglie automaticamente informazioni sui visitatori per generare modelli di personalizzazione.**
 
