@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1674'
-ht-degree: 39%
+source-wordcount: '1698'
+ht-degree: 38%
 
 ---
 
@@ -128,7 +128,7 @@ In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dyna
 * **Valore** predefinito: true (true a partire da at.js versione 1.6.2)
 * **Descrizione**: Indica se utilizzare `<clientCode>.tt.omtrdc.net` dominio o `mboxedge<clusterNumber>.tt.omtrdc.net` dominio.
 
-   Se questo valore è true, il dominio `mboxedge<clusterNumber>.tt.omtrdc.net` verrà salvato in un cookie. Attualmente non funziona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
+   Se questo valore è true, il dominio `mboxedge<clusterNumber>.tt.omtrdc.net` verrà salvato in un cookie. Attualmente non funziona con [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) quando si utilizzano versioni at.js precedenti a at.js 1.8.2 e at.js 2.3.1. Se si tratta di un problema, è consigliabile [aggiornare at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) a una versione più recente e supportata.
 
 ### overrideMboxEdgeServerTimeout
 
@@ -467,13 +467,13 @@ Considerate quanto segue quando utilizzate `serverState`:
    * Attività create VEC che vengono eseguite al caricamento della pagina.
    * Viste prerecuperate.
 
-      Nel caso di SPA che utilizzano [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuto aggiuntive a Target.
+      Nel caso di SPA utilizzando [!DNL Target] Visualizzazioni e `triggerView()` nell&#39;API at.js, at.js v2.2 memorizza nella cache il contenuto per tutte le Visualizzazioni prerecuperate sul lato server e le applica non appena ogni Visualizzazione viene attivata tramite `triggerView()`, di nuovo senza attivare chiamate di recupero di contenuti aggiuntive a Target.
 
    * **Nota**:  Attualmente, le mbox recuperate sul lato server non sono supportate in `serverState`.
 
 * Quando applicate `serverState `le offerte, at.js prende in considerazione `pageLoadEnabled` e `viewsEnabled` le impostazioni, ad esempio le offerte di caricamento pagina non verranno applicate se l&#39; `pageLoadEnabled` impostazione è false.
 
-   Per attivare queste impostazioni, attivate l’opzione **[!UICONTROL Amministrazione]>[!UICONTROL Implementazione]>[!UICONTROL Modifica]>[!UICONTROL Caricamento pagina abilitata]**.
+   Per attivare queste impostazioni, attivate l’opzione **[!UICONTROL Amministrazione] > [!UICONTROL Implementazione] > [!UICONTROL Modifica] > [!UICONTROL Caricamento pagina abilitata]**.
 
    ![Impostazioni abilitate per il caricamento della pagina](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/page-load-enabled-setting.png)
 
@@ -484,4 +484,4 @@ Considerate quanto segue quando utilizzate `serverState`:
 Per ulteriori informazioni sul `serverState` funzionamento, consulta le risorse seguenti:
 
 * [Codice](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/advanced-atjs-integration-serverstate)di esempio.
-* [App SPA (Single Page Application) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
+* [App di esempio per applicazioni a pagina singola (SPA) con `serverState`](https://github.com/Adobe-Marketing-Cloud/target-node-client-samples/tree/master/react-shopping-cart-demo).
