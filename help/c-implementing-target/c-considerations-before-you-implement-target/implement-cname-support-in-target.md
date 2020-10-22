@@ -6,9 +6,9 @@ feature: privacy and security
 topic: Standard
 uuid: 3fb0ea31-e91d-4359-a8cc-64c547e6314e
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1212'
 ht-degree: 3%
 
 ---
@@ -145,5 +145,5 @@ Utilizzate il seguente set di comandi (nel terminale della riga di comando MacOs
 ## Limitazioni note
 
 * La modalità QA non sarà fissa se hai CNAME e at.js 1.x perché è basata su un cookie di terze parti. La soluzione alternativa consiste nell’aggiungere i parametri di anteprima a ciascun URL a cui ci si sposta. La modalità QA è fissa quando si dispone di CNAME e a.js 2.x.
-* Al momento l’ `overrideMboxEdgeServer` impostazione non funziona correttamente con CNAME. Deve essere impostato come `false` per evitare richieste non riuscite.
+* Attualmente l’ `overrideMboxEdgeServer` impostazione non funziona correttamente con CNAME quando si utilizzano le versioni at.js precedenti a at.js 1.8.2 e at.js 2.3.1. Se utilizzi una versione precedente di at.js, devi impostarla come `false` per evitare richieste non riuscite. In alternativa, è consigliabile [aggiornare at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) a una versione più recente e supportata.
 * Quando si utilizza CNAME, è più probabile che la dimensione dell&#39;intestazione del cookie per le chiamate a Target aumenti. Consigliamo di mantenere la dimensione del cookie sotto gli 8 KB.
