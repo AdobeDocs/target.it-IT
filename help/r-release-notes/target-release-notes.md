@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 35ecabbe-b8b4-479b-9266-4823c831d79a
 translation-type: tm+mt
-source-git-commit: adf481f0fb4a8f9320e48dde72d64b16ad64dab4
+source-git-commit: b6d3a241362592d5034f9db6141b459db7c6739b
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 9%
+source-wordcount: '816'
+ht-degree: 10%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 9%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 15 ottobre 2020**
+**Ultimo aggiornamento: 23 ottobre 2020**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -45,7 +45,7 @@ Questa versione contiene le nuove funzioni seguenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Decisioni sul dispositivo | Le decisioni sul dispositivo consentono sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti. Le decisioni sul dispositivo consentono agli esperti di marketing e ora agli sviluppatori di prodotti di testare e ottimizzare le esperienze direttamente da un dispositivo utente, riducendo i tempi di decisione e caricamento a quasi zero per esperienze contestuali in tempo reale.<br>Le decisioni sul dispositivo consentono di compilare tutte le istruzioni di personalizzazione e sperimentazione su &quot;artifact di ottimizzazione&quot;, caricate sui dispositivi dei clienti. Questi artefatti a latenza zero consentono agli esperti di marketing di personalizzare singolarmente, retargeting comportamentale e raccomandazioni di prodotti e contenuti in tempo reale, fornendo allo stesso tempo agli sviluppatori e ai proprietari dei prodotti l&#39;accesso diretto al codice per testare le esperienze degli utenti e per eseguire il targeting e il lancio dei prodotti in fase, perfezionando i prodotti in tempo reale. Inoltre, poiché le decisioni sui dispositivi si collegano in modo nativo con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti ottengono analisi rapide e iterazioni di esperienza più veloci.<br>**Registratevi ora per un webinar live.** Partecipate  esperti di prodotti Adobe Target per discutere di come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo, da eseguire localmente con latenza zero, possano aprire le porte a nuovi casi d&#39;uso entusiasmanti e migliorare le prestazioni del sito per i vostri clienti.<ul><li>10 novembre 2020</li><li>10 PT / 12 CT / 1 p.m. ET</li><li>[Registrati qui](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| Decisioni su dispositivo | La decisione sul dispositivo consente sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a una latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti.<br>La decisione sul dispositivo consente di compilare le istruzioni chiave di personalizzazione e sperimentazione nei tipi di attività Test e Targeting delle esperienze (XT) A/B in oggetti JSON &quot;ottimization artifact:&quot; caricati sui dispositivi dei clienti tramite CDN. Inoltre, grazie al collegamento nativo delle decisioni sui dispositivi con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti possono eseguire analisi rapide e iterazioni più veloci dell&#39;esperienza.<br>**Registratevi ora per un webinar live.** Partecipate  esperti di prodotti Adobe Target per discutere di come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo, da eseguire localmente con latenza zero, possano aprire le porte a nuovi casi d&#39;uso entusiasmanti e migliorare le prestazioni del sito per i vostri clienti.<ul><li>10 novembre 2020</li><li>10 PT / 12 CT / 1 p.m. ET</li><li>[Registrati qui](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
 
 Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 
