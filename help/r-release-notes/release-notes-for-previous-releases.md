@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 095eba041a5d991f7c60f9390b035a5e51c4d2ca
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '29837'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,14 @@ Note sulla versione delle versioni precedenti di Target, incluse le note sulla v
 >Consulta [Note sulla versione di Target (corrente)](../r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2020
+
+### Target Standard/Premium 20.9.1 (30 settembre 2020)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti, correzioni e modifiche:
+
+* Navigazione e funzionalità migliorate per gli utenti che utilizzano solo la tastiera. (TGT-34487, TGT-34516, TGT-34517, TGT-34514)
+* Sono state aggiunte etichette nell’interfaccia utente per aiutare gli utenti che utilizzano tecnologie di assistenza. (TGT-34500, TGT-34501, TGT-34502, TGT-24504)
+* È stato migliorato il contrasto tra testo e colori per immagini e testo nell’interfaccia utente. (TGT-34513)
 
 ### Target Standard/Premium 20.8.3 (15 settembre 2020)
 
@@ -272,21 +280,17 @@ Target Standard/Premium 20.1.1 è una versione di manutenzione che include migli
 
 * È stato aggiunto il supporto per la configurazione proxy a causa di un contributo open source fornito da @hisham-hassan.
 
-Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Target Java SDK versione 1.0.1 (11 novembre 2019)
 
 Il seguente problema è stato risolto nella versione 1.0.1:
 
 * Invia un ID dati supplementare in una richiesta Target anche quando non è presente alcun cookie API del visitatore.
 
-Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).
-
 ### Piattaforma Target (31 ottobre 2019)
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| SDK Java | L’SDK [!DNL Target] Java consente di implementare il lato [!DNL Target] server. Questo SDK Java consente di integrarsi facilmente [!DNL Target] con altre [!DNL Adobe Experience Cloud] soluzioni, come il [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager].<br>Java SDK introduce procedure ottimali e rimuove le complessità durante l&#39;integrazione con [!DNL Target] tramite l&#39;API di distribuzione, in modo che i team di progettazione possano concentrarsi sulla logica aziendale. Di seguito sono riportate alcune importanti funzioni introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite caching.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida tra [!DNL Target] le pagine Web e lato server. Stiamo introducendo un&#39;impostazione chiamata `serverState` che viene popolata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata server aggiuntiva per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li>Supporto per il recupero di attività create VEC tramite Java SDK, reso possibile dalla nuova API di consegna.</li><li>Aperto in modo che i vostri sviluppatori possano contribuire all&#39;SDK [Java di](https://github.com/adobe/target-java-sdk)Target.</li></ul>Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-target-java-sdk.md).<br>Per saperne di più sull’SDK Java di Target, consulta  Adobe Tech Blog - Ottimizzazione lato [server con la nuova SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java di Target. |
+| SDK Java | L’SDK [!DNL Target] Java consente di implementare il lato [!DNL Target] server. Questo SDK Java consente di integrarsi facilmente [!DNL Target] con altre [!DNL Adobe Experience Cloud] soluzioni, come il [!DNL Adobe Experience Cloud Identity Service], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager].<br>Java SDK introduce procedure ottimali e rimuove le complessità durante l&#39;integrazione con [!DNL Target] tramite l&#39;API di distribuzione, in modo che i team di progettazione possano concentrarsi sulla logica aziendale. Di seguito sono riportate alcune importanti funzioni introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite caching.</li><li>Supporto per l’ottimizzazione delle prestazioni in caso di integrazione ibrida tra [!DNL Target] le pagine Web e lato server. Stiamo introducendo un&#39;impostazione chiamata `serverState` che viene popolata da esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata server aggiuntiva per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li>Supporto per il recupero di attività create VEC tramite Java SDK, reso possibile dalla nuova API di consegna.</li><li>Aperto in modo che i vostri sviluppatori possano contribuire all&#39;SDK [Java di](https://github.com/adobe/target-java-sdk)Target.</li></ul>Per saperne di più sull’SDK Java di Target, consulta  Adobe Tech Blog - Ottimizzazione lato [server con la nuova SDK](https://medium.com/adobetech/server-side-optimization-with-the-new-target-java-sdk-421dc418a3f2)Java di Target. |
 
 ### Target Standard/Premium 19.10.2 (31 ottobre 2019)
 
@@ -337,8 +341,8 @@ Per ulteriori informazioni, vedi Note sulla [versione - Target Java SDK](/help/c
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Node.js SDK versione 1.0 | L’SDK Node.js di Target consente di distribuire Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni  Experienci Cloud, come Adobe Experience Cloud Identity Service,  Adobe Analytics e Adobe Audience Manager.<br>L’SDK Node.js introduce procedure ottimali e rimuove le complessità durante l’integrazione con  Adobe Target tramite la nostra API di distribuzione, in modo che i team tecnici possano concentrarsi sulla logica aziendale. Di seguito sono riportate alcune importanti funzioni introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite caching.</li><li>Supporto per l&#39;ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine Web che sul lato server. Stiamo introducendo un&#39;impostazione denominata `serverState` che verrà compilata dalle esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata server aggiuntiva per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create VEC tramite Node.js SDK, reso possibile dalla nuova API di consegna.</li><li>Apri in origine in modo che i tuoi sviluppatori possano contribuire all’SDK Node.js.</li></ul><br>Per ulteriori informazioni, consulta Note sulla [versione - SDK](/help/c-implementing-target/c-api-and-sdk-overview/releases-nodejs.md)Target Node.js. |
-| API di consegna | In produzione è disponibile un endpoint API di distribuzione completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per recuperare le esperienze per una o più mbox.</li><li>Recuperate le attività create VEC tramite l&#39;API.</li><li>Supporto per un oggetto completamente nuovo, denominato Views (Visualizzazioni), utilizzato per le applicazioni SPA (Single Page Applications) e per le applicazioni mobili.</li></ul><br>Per ulteriori informazioni, consultate Note sulla [versione - API](/help/c-implementing-target/c-api-and-sdk-overview/releases-server-side.md)lato server di Target. |
+| Node.js SDK versione 1.0 | L’SDK Node.js di Target consente di distribuire Target lato server.<br>Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni  Experienci Cloud, come Adobe Experience Cloud Identity Service,  Adobe Analytics e Adobe Audience Manager.<br>L’SDK Node.js introduce procedure ottimali e rimuove le complessità durante l’integrazione con  Adobe Target tramite la nostra API di distribuzione, in modo che i team tecnici possano concentrarsi sulla logica aziendale. Di seguito sono riportate alcune importanti funzioni introdotte nell’ultima versione:<ul><li>Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni tramite caching.</li><li>Supporto per l&#39;ottimizzazione delle prestazioni in caso di integrazione ibrida di Target sia sulle pagine Web che sul lato server. Stiamo introducendo un&#39;impostazione denominata `serverState` che verrà compilata dalle esperienze recuperate tramite il lato server, in modo che at.js 2.2 non effettuerà più una chiamata server aggiuntiva per recuperare le esperienze. Questo approccio ottimizza le prestazioni di caricamento delle pagine.</li><li> Supporto per il recupero di attività create VEC tramite Node.js SDK, reso possibile dalla nuova API di consegna.</li><li>Apri in origine in modo che i tuoi sviluppatori possano contribuire all’SDK Node.js.</li></ul> |
+| API di consegna | In produzione è disponibile un endpoint API di distribuzione completamente nuovo (/v1/delivery). Le funzioni principali sono:<ul><li>Un endpoint per recuperare le esperienze per una o più mbox.</li><li>Recuperate le attività create VEC tramite l&#39;API.</li><li>Supporto per un oggetto completamente nuovo denominato Views (Visualizzazioni), utilizzato per le applicazioni SPA (Single Page Applications) e per le applicazioni mobili.</li></ul> |
 
 ### Target Standard/Premium 19.9.2 (30 settembre 2019)
 
