@@ -6,10 +6,10 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 08ad3291a1f981fbc3963ce403bf19849c358b97
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 11%
+source-wordcount: '371'
+ht-degree: 21%
 
 ---
 
@@ -37,35 +37,17 @@ Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/deliver
 
 Tramite l&#39;API [!DNL Target] di consegna, potete:
 
-* Distribuite esperienze in tutto il Web, inclusi gli SPA e i canali mobili, nonché dispositivi IoT non basati su browser, come televisori connessi, chioschi o schermi digitali all&#39;interno del negozio.
+* Distribuite esperienze in tutto il Web, inclusi canali SPA e mobili, nonché dispositivi IoT non basati su browser, come televisori connessi, chioschi o schermi digitali all&#39;interno del negozio.
 * Distribuite esperienze da qualsiasi piattaforma o applicazione lato server in grado di effettuare chiamate HTTP/s.
 * Distribuisci esperienze coerenti e personalizzate a un visitatore, indipendentemente dal canale o dai dispositivi utilizzati dal visitatore per interagire con il tuo business.
 * Memorizza nella cache le esperienze di un visitatore all’interno di una sessione sul server, in modo da evitare chiamate API multiple, che consentono di ottenere prestazioni migliori.
 * Integrazione perfetta con [!DNL Adobe Experience Cloud] prodotti quali [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) e il lato [!DNL Experience Cloud ID Service] del server.
 
-## Node.js SDK
+## SDK lato server
 
-Collegamento: [Node.js SDK](https://github.com/adobe/target-nodejs-sdk)
+Collegamento: [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/)
 
-Node.js SDK è un sofisticato kit di sviluppo software che elimina la complessità della gestione di cookie, sessioni e integrazioni con [!DNL Experience Cloud] prodotti come [!DNL Analytics], [!DNL Experience Cloud Visitor ID Service]e [!DNL Audience Manager]. Dietro le quinte, l’SDK Node.js utilizza l’ `/rest/v1/delivery` API. Di seguito sono riportate alcune funzionalità importanti supportate nell’SDK Node.js:
-
-* **Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni mediante la memorizzazione nella cache:** Puoi usare l’SDK Node.js per recuperare esperienze e memorizzarle nella cache locale sul server Node.js allo scopo di ridurre al minimo le chiamate al server [!DNL Target] e ottimizzare le prestazioni dell’applicazione.
-* **Possibilità di recuperare le attività create VEC:** Recuperate le attività create VEC sul lato server. La risposta che contiene attività create con VEC dispone di selettori che possono essere utilizzati per prenascondere solo parti della pagina che devono essere personalizzate. Questo consente di ottimizzare la metrica [](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html)First Contentful Paint della pagina, che è un indicatore KPI importante per la tua attività per ottenere un punteggio elevato nel sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
-
-## Target Java SDK
-
-Collegamento: [Target Java SDK](https://github.com/adobe/target-java-sdk)
-
-Java SDK è un sofisticato kit di sviluppo software che elimina la complessità della gestione di cookie, sessioni e integrazioni con [!DNL Adobe Experience Cloud] soluzioni, come [!DNL Adobe Analytics], il [!DNL Experience Cloud Visitor ID Service]e [!DNL Adobe Audience Manager]. Dietro le quinte, l&#39;SDK Java utilizza l&#39; `/rest/v1/delivery` API. Di seguito sono riportate alcune funzionalità importanti supportate nell’SDK Java:
-
-* **Supporto per preacquisizione e notifiche che consentono di ottimizzare le prestazioni mediante la memorizzazione nella cache**: Potete utilizzare JavaSDK per recuperare esperienze e memorizzarle nella cache locale sul server Java allo scopo di ridurre al minimo le chiamate server [!DNL Target] e ottimizzare le prestazioni dell’applicazione.
-* **Possibilità di recuperare le attività** create VEC: Recuperate le attività create VEC sul lato server. La risposta che contiene attività create con VEC dispone di selettori che possono essere utilizzati per prenascondere solo parti della pagina che devono essere personalizzate. Questo consente di ottimizzare la metrica [First Contentful Paint](https://developers.google.com/web/fundamentals/performance/user-centric-performance-metrics.html) della pagina, che è un indicatore KPI importante per la tua attività per ottenere un punteggio elevato nel sistema [Google PageRank](https://en.wikipedia.org/wiki/PageRank) .
-
-## Sviluppatori  Adobe Target
-
-Collegamento: [Sviluppatori  Adobe Target](http://developers.adobetarget.com/)
-
-Il  sito Adobe Target Developers consente di implementare [!DNL Target] applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Potete anche esportare [!DNL Target] i dati in soluzioni di terze parti.
+Il portale della documentazione dell&#39;SDK lato [!DNL Adobe Target] server consente di implementare [!DNL Target] sui server nella lingua desiderata.
 
 ## API per la funzione Consigli di Target
 
