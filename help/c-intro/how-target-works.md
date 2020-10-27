@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: a82adf656646fb2f4da4c2f38c920765e09c67ed
+source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
 workflow-type: tm+mt
-source-wordcount: '2398'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -99,7 +99,7 @@ Activity and content databases, [!DNL Analytics] data, APIs, and marketer user i
 
 Ogni cluster Edge dispone di tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono indirizzate al cluster Edge più vicino.
 
-Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://www.adobe.com/content/dam/acom/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
 The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
 
@@ -108,6 +108,8 @@ Le posizioni cluster centrali contengono sia un centro di raccolta dati che un c
 I dati dell&#39;attività del sito del cliente vengono raccolti dai sette cluster Edge più vicini e indirizzati alla destinazione del cluster centrale predeterminata del cliente (una delle tre posizioni: Oregon, Dublino, Singapore) per l&#39;elaborazione. I dati del profilo del visitatore sono memorizzati nel cluster Edge più vicino al visitatore del sito (le posizioni del cluster Central e Virginia, Amsterdam, Sydney, Tokyo e Hong Kong).
 
 Invece di rispondere a tutte le richieste di targeting da un&#39;unica posizione, le richieste vengono elaborate dal cluster Edge più vicino al visitatore, mitigando in tal modo l&#39;impatto dei tempi di viaggio di rete/Internet.
+
+![Mappa dei tipi di server di Target](/help/c-intro/assets/target-servers.png)
 
 Target Central Clusters, ospitato  Amazon Web Services (AWS), si trova in:
 
