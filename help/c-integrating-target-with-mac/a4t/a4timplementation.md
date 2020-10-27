@@ -5,10 +5,10 @@ title: Implementazione di Analytics for Target
 feature: a4t implementation
 uuid: da6498c8-1549-4c36-ae42-38c731a28f08
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
 workflow-type: tm+mt
-source-wordcount: '879'
-ht-degree: 63%
+source-wordcount: '904'
+ht-degree: 49%
 
 ---
 
@@ -43,21 +43,21 @@ Per le nuove implementazioni, consultate Panoramica [dell&#39;implementazione](h
 
 Per una migrazione, vedi [Migrazione ad AppMeasurement per JavaScript](https://docs.adobe.com/content/help/en/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella Guida *all&#39;implementazione di* Analytics.
 
-## Passaggio 5: Scaricare e aggiornare at.js o mbox.js
+## Passaggio 5: Scarica e aggiorna at.js
 
-Devi implementare o eseguire la migrazione alla versione richiesta di at.js o mbox.js utilizzando il tuo account di produzione. Non sono richieste modifiche al codice.
+Devi implementare o migrare alla versione richiesta di at.js utilizzando il tuo account di produzione. Non sono richieste modifiche al codice.
 
 Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-## Passaggio 6: Hosting di at.js o mbox.js
+## Passaggio 6: Host at.js
 
-Se at.js o mbox.js è stato distribuito in precedenza, puoi sostituire il file esistente con la versione aggiornata. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Se hai precedentemente distribuito at.js, puoi sostituire il file esistente con la versione aggiornata. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
 In caso contrario, il file può essere incluso in hosting insieme al servizio ID visitatore e AppMeasurement per file JavaScript. Questi file devono essere in hosting su un server web accessibile a tutte le pagine del sito. È necessario definire il percorso di questi file nella fase successiva.
 
-## Passaggio 7: Includere un riferimento a at.js o mbox.js in tutte le pagine del sito {#step7}
+## Step 7: Reference at.js on all site pages {#step7}
 
-Includi at.js o mbox.js sotto VisitorAPI.js aggiungendo la seguente riga di codice al tag in ogni pagina:
+Includi at.js sotto VisitorAPI.js aggiungendo la seguente riga di codice nel tag in ogni pagina:
 
 Per at.js:
 
@@ -66,14 +66,7 @@ Per at.js:
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
 
-Per mbox.js:
-
-```
-<script language="JavaScript" type="text/javascript"
-src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/mbox.js"></script>
-```
-
-È essenziale che VisitorAPI.js sia caricato prima di at.js o mbox.js. Se stai aggiornando un file at.js o mbox.js esistente, assicurati di verificare l’ordine di caricamento.
+È essenziale che VisitorAPI.js venga caricato prima di at.js. Se state aggiornando un file at.js o mbox.js esistente, accertatevi di verificare l&#39;ordine di caricamento.
 
 The way the out-of-the-box settings are configured for [!DNL Target] and [!DNL Analytics] integration from an implementation perspective is to use the SDID that is passed from the page to stitch the [!DNL Target] and [!DNL Analytics] request together on the backend automatically for you.
 
@@ -98,7 +91,7 @@ Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato ad Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati. Per le attività di allocazione [!UICONTROL automatica] e di [!UICONTROL destinazione] automatica è necessario inoltrare anche sessionId. Per ulteriori informazioni, vedi [Adobe Analytics per Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) nella Guida alle API di distribuzione *Adobe Target*
 
 Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. The analytics payload will be returned for only this call and the [!DNL Target] backend will not forward the payload to [!DNL Analytics]. By pursuing this approach, every at.js [!DNL Target] request will not return the payload by default, but instead only when desired and specified.
 
