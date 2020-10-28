@@ -1,22 +1,22 @@
 ---
 keywords: server side;server-side;api;sdk;node.js;nodejs;node js;recommendations api;api:apis
-description: Informazioni  API di consegna lato server Adobe Target, SDK Node.js e API Recommendations Target.
+description: Informazioni  API di distribuzione lato server Adobe Target, SDK e API Recommendations Target.
 title: Informazioni  API di consegna lato server Adobe Target, SDK Node.js e API Recommendations Target.
 feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '371'
-ht-degree: 21%
+source-wordcount: '388'
+ht-degree: 20%
 
 ---
 
 
 # Lato server: implementare Target{#server-side-implement-target}
 
-Informazioni sulle API di consegna lato [!DNL Adobe Target] server, l’SDK Node.js e [!DNL Target Recommendations] le API.
+Informazioni su API di consegna lato [!DNL Adobe Target] server, SDK e [!DNL Target Recommendations] API.
 
 Il processo seguente si verifica in un’implementazione lato server di [!DNL Target]:
 
@@ -26,6 +26,10 @@ Il processo seguente si verifica in un’implementazione lato server di [!DNL Ta
 1. Il server determina l’esperienza da distribuire al dispositivo client per il rendering.
 
 L&#39;esperienza non deve essere visualizzata in un browser. L&#39;esperienza può essere visualizzata in un&#39;e-mail o in un chiosco, tramite un assistente vocale o tramite un&#39;altra esperienza non visiva o un dispositivo non basato su browser. Poiché il server risiede tra il client e [!DNL Target], questo tipo di implementazione è ideale anche se hai bisogno di maggiore controllo e sicurezza oppure in presenza di processi di backend complessi che devono essere eseguiti sul server.
+
+>[!NOTE]
+>
+>Un visitatore della prima volta può essere inizializzato solo sul lato client. Un visitatore della prima volta *non può* essere inizializzato sul lato server.
 
 Le sezioni seguenti forniscono ulteriori informazioni sulle varie API e l’SDK NodeJS:
 
