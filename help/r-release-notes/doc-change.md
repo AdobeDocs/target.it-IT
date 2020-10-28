@@ -6,9 +6,9 @@ feature: release notes
 topic: Standard
 uuid: 6fba75e2-0a93-488d-9010-fffa423600c0
 translation-type: tm+mt
-source-git-commit: 13fca0cb4e749edbb5d21b0a58af5d4f4a91c14d
+source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
 workflow-type: tm+mt
-source-wordcount: '2872'
+source-wordcount: '2889'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 28 ottobre | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | È stato aggiunto che i visitatori della prima volta possono essere inizializzati solo sul lato client, non sul lato server. |
 | 27 ottobre | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | È stato aggiunto un collegamento al nuovo portale *[SDK](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target. |
 |  | [Creare un&#39;attività che utilizza Analytics come origine di reporting](/help/c-integrating-target-with-mac/a4t/campaign-creation.md) | Sono state aggiunte informazioni che indicano che, se utilizzate `analyticsLogging = client_side`, dovete trasmettere il `sessionId` valore a [!DNL Analytics] quando utilizzate Analytics come origine di reporting (A4T) con le attività di Auto-Target. |
 |  | [Implementazione di Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) | Sono state aggiunte informazioni che indicano che per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] utilizzando `analyticsLogging = client_side`, è necessario inoltrare anche sessionId. |
