@@ -6,10 +6,10 @@ feature: client-side
 subtopic: Getting Started
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 8789d750e9e0245d88d54a8d3fe342e5b2e616fc
+source-git-commit: f782d5498c3aa3bc436cb6cfa2a4eb2f96f37b3e
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 100%
+source-wordcount: '298'
+ht-degree: 78%
 
 ---
 
@@ -24,7 +24,7 @@ Di seguito sono riportati i dettagli API:
 
 | Chiave | Tipo | Obbligatorio | Descrizione |
 |--- |--- |--- |--- |
-| mbox | Stringa | Sì | Nome Mbox |
+| mbox | Stringa | Sì | Mbox <br>**nameNote**: Se una chiamata trackEvent() viene attivata con un nome mbox già attivato sulla pagina, l’identificatore SDID di trackEvent() viene reimpostato e sarà diverso dalle chiamate Target sulla pagina. Tuttavia, se si avvia una chiamata trackEvent() con un nome mbox diverso, l’identificatore SDID delle chiamate trackEvent() rimane coerente con le chiamate Page Load Request/triggerView() sulla pagina. |
 | selector | Stringa | No | Selettori CSS utilizzati per trovare gli elementi HTML. I listener di eventi verranno allegati agli elementi trovati. |
 | type | Stringa | No | Rappresenta un tipo di evento registrato. Può trattarsi sia di eventi HTML noti come: click, mouseown, ecc, così come di eventi HTML personalizzati. |
 | preventDefault | Booleano | No | Indica se utilizzare `event.preventDefault()` nella chiamata di ritorno del listener di eventi. Predefinito su false.<br>**Nota**: sono supportati solo `form[submit] and `a[click]”. Altri scenari non sono supportati a causa della complessità e delle enormi quantità di scenari da supportare. |
