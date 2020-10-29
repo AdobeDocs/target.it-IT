@@ -5,9 +5,9 @@ title: Impostazioni dei rapporti
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: 1397891d4451d9e66a25e018e6bd7078e70cfd3f
+source-git-commit: 58a3f898ba024ac838273561c14d6caa46b8651b
 workflow-type: tm+mt
-source-wordcount: '1887'
+source-wordcount: '1891'
 ht-degree: 68%
 
 ---
@@ -119,7 +119,7 @@ Fai clic su **[!UICONTROL Date personalizzate]** per selezionare intervalli di d
 Per i rapporti sono previste le seguenti limitazioni di data:
 
 * La data di inizio del rapporto deve risalire agli ultimi due anni.
-* I rapporti giornalieri sono limitati a 100 giorni.
+* I rapporti sui gruppi di offerte sono limitati a 99 giorni da oggi.
 * I rapporti orari sono limitati a 15 giorni.
 
 ## Impostazioni {#section_D99CE462107D45CABE0960F820E1E972}
