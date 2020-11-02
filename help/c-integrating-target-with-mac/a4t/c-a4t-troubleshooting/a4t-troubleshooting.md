@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: c4743ffebedbaea1f242e56f35abc7fa0cf0091f
+source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
 workflow-type: tm+mt
-source-wordcount: '755'
-ht-degree: 90%
+source-wordcount: '787'
+ht-degree: 84%
 
 ---
 
@@ -73,7 +73,11 @@ Anche se queste metriche sono negative, nei rapporti di Target l’incremento è
 
 ## La suite di rapporti di cui ho bisogno non viene visualizzata. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-L’elenco delle suite di rapporti visualizzate in Target Standard/Premium corrisponde alle suite di rapporti configurate per Analytics come origine per la generazione di rapporti per Target. Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi. Se non trovi la suite di rapporti che stai cercando, contatta l’Assistenza clienti per abilitarla.
+L’elenco delle suite di rapporti visualizzate in Target Standard/Premium corrisponde alle suite di rapporti configurate per Analytics come origine per la generazione di rapporti per Target. Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
+
+Inoltre, se utilizzi più origini di reporting, le suite di rapporti DEVONO essere presenti anche nell&#39;origine di reporting predefinita impostata in Target. In caso contrario, le suite di rapporti non verranno visualizzate.
+
+Se la suite di rapporti che stai cercando non è ancora visibile, contatta l&#39;Assistenza clienti per attivarla.
 
 ## Non trovo nei rapporti la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
 
