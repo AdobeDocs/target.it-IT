@@ -7,10 +7,10 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: a82397d14c07b3ef4c4da7cd270765c3ca8fbce1
+source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 84%
+source-wordcount: '781'
+ht-degree: 80%
 
 ---
 
@@ -71,13 +71,13 @@ Questo è un problema noto.
 
 Anche se queste metriche sono negative, nei rapporti di Target l’incremento è mostrato come se fossero positive. Ad esempio, anche se si desidera una percentuale di mancato recapito più bassa, la percentuale più elevata viene visualizzata come vincitore con l’incremento più alto. Considera queste metriche e ad altre simili, e se preferisci aumentare o diminuire i numeri, quando prendi decisioni in base ai rapporti.
 
-## La suite di rapporti di cui ho bisogno non viene visualizzata. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-L’elenco delle suite di rapporti visualizzate in Target Standard/Premium corrisponde alle suite di rapporti configurate per Analytics come origine per la generazione di rapporti per Target. Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
+The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
 
-Inoltre, se utilizzi più origini di reporting, le suite di rapporti DEVONO essere presenti anche nell&#39;origine di reporting predefinita impostata in Target. In caso contrario, le suite di rapporti non verranno visualizzate.
+Inoltre, se utilizzi più origini di reporting, le suite di rapporti devono essere presenti anche nell&#39;origine di reporting predefinita impostata in [!DNL Target] ; in caso contrario, le suite di rapporti non verranno visualizzate.
 
-Se la suite di rapporti che stai cercando non è ancora visibile, contatta l&#39;Assistenza clienti per attivarla.
+If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
 
 ## Non trovo nei rapporti la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
 
