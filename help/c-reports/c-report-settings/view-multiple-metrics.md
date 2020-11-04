@@ -5,7 +5,7 @@ title: Visualizzare più metriche in un report utilizzando  Adobe Target
 feature: report settings
 uuid: f3ea7313-0f98-4b58-88aa-e2438c06e739
 translation-type: tm+mt
-source-git-commit: 1433de7270f400ec21c4f506cdc6dee8bcaa550f
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 61%
@@ -19,7 +19,7 @@ Puoi selezionare più metriche da visualizzare in un [!DNL Adobe Target] rapport
 
 Tieni presente le informazioni seguenti quando lavori con più metriche nei rapporti:
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
+* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
 * You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
 * Non puoi utilizzare l&#39;opzione [](/help/c-reports/downloading-data-in-csv-file.md)Scarica per scaricare i rapporti in formato CSV se sono state selezionate più metriche. Devi selezionare una sola metrica per attivare l’opzione [!UICONTROL Scarica].
 * You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
