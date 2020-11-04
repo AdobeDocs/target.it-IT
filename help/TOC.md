@@ -8,9 +8,9 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1555'
 ht-degree: 91%
 
 ---
@@ -205,7 +205,7 @@ ht-degree: 91%
       + [Per quanto tempo si deve eseguire un test A/B?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dieci insidie frequenti per i test A/B e come evitarle](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
       + Creare un test A/B {#create}
-         + [Creare test](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+         + [Creare un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL attività](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
          + [Aggiungi esperienza](c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md)
          + [Selezionare il pubblico](c-activities/t-test-ab/t-test-create-ab/ab-audience.md)
@@ -214,7 +214,8 @@ ht-degree: 91%
          + [Impostare le metriche](c-activities/t-test-ab/t-test-create-ab/ab-set-metrics.md)
          + [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Allocazione automatica {#auto-allocate}
-      + [Allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Panoramica dell&#39;allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+      + [Creazione di un&#39;attività di allocazione automatica](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
       + [L&#39;allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + [Targeting automatico](c-activities/auto-target-to-optimize.md)
