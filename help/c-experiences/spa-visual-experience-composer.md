@@ -6,7 +6,7 @@ feature: spa vec
 topic: Standard
 uuid: 4dcd6d9c-b2e3-4759-a2e0-3696c572faba
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -28,13 +28,13 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+**Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento:[Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento: [Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -48,7 +48,7 @@ All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;in
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “Pagina prodotti 2”.
 
-**Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![pagina di checkout](/help/c-experiences/assets/checkout.png)
 
@@ -84,7 +84,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+   **Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -115,7 +115,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Collegamento:[Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+   **Collegamento: [Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
 
    Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -144,7 +144,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    }
    ```
 
-   **Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -343,11 +343,11 @@ Sì, at.js 2.x supporta A4T per applicazioni a pagina singola tramite la funzion
 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì |
 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | Sì |
 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | No |
-| [Targeting automatico](/help/c-activities/auto-target-to-optimize.md) | No |
+| [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) | No |
 | [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) | No |
 | [Consigli](/help/c-recommendations/recommendations.md) | No |
 
-**Se abbiamo installato at.js 2.x e implementato`triggerView()`sui nostri siti, come eseguiamo le attività A/B di targeting automatico, dato che non è supportato dal Compositore esperienza visivo per applicazioni a pagina singola?**
+**Se abbiamo installato at.js 2.x e implementato `triggerView()` sui nostri siti, come eseguiamo le attività A/B di targeting automatico, dato che non è supportato dal Compositore esperienza visivo per applicazioni a pagina singola?**
 
 Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le azioni da eseguire sull’evento caricamento pagina nel Compositore esperienza visivo. Passa il puntatore del mouse su ciascuna azione, quindi fai clic sul pulsante [!UICONTROL Sposta su evento “Caricamento pagina”]. Dopodiché, nel passaggio successivo, seleziona il targeting automatico come metodo di allocazione del traffico.
 
