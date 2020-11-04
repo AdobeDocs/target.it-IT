@@ -5,15 +5,15 @@ title: Test multivariato
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
 workflow-type: tm+mt
-source-wordcount: '1440'
+source-wordcount: '1441'
 ht-degree: 91%
 
 ---
 
 
-# Multivariate test{#multivariate-test}
+# Panoramica sul test multivariato
 
 Il [!UICONTROL test multivariato] (MVT) in [!DNL Adobe Target] confronta diverse combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio per un pubblico specifico e identifica gli elementi che hanno un maggior impatto sul successo dell’attività.
 
