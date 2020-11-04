@@ -5,7 +5,7 @@ title: Panoramica del test A/B
 feature: ab
 uuid: 154559cf-58bb-425d-bb2e-4eaf34c89451
 translation-type: tm+mt
-source-git-commit: 6e0605304d99c0a070ad22a232e2ba2246611f94
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 38%
@@ -45,7 +45,7 @@ Oltre all&#39;attività manuale di test [!UICONTROL A/B (descritta in questa sez
 | --- | --- |
 | [!UICONTROL Test A/B manuale] | Confronta due o più esperienze per vedere quale migliora in modo più efficace le conversioni durante un periodo di test pre-specificato. <br>Questa sezione descrive come impostare un&#39;attività di test [!UICONTROL A/B manuale, ma i passaggi per gli altri tipi di attività di test]  A/B sono simili. |
 | [!UICONTROL Allocazione automatica] | Identifica un vincitore tra due o più esperienze, e reindirizza il traffico verso il vincitore, aumentando la conversione mentre il test continua a essere eseguito e ad apprendere. <br>Per informazioni sui vantaggi dell&#39;utilizzo di un&#39;attività di allocazione automatica, consultate Allocazione [automatica](/help/c-activities/t-test-ab/sample-size-determination.md#auto-allocate) in *quanto tempo eseguire un test* A/B e una panoramica [di allocazione](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)automatica. |
-| ![badge](/help/assets/premium.png) Premium [!UICONTROL Auto-Target] | Utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni individuando più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. <br>Per ulteriori informazioni, vedi [Destinazione](/help/c-activities/auto-target-to-optimize.md)automatica. |
+| ![badge](/help/assets/premium.png) Premium [!UICONTROL Auto-Target] | Utilizza l’apprendimento automatico avanzato per personalizzare i contenuti e favorire le conversioni individuando più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili. <br>Per ulteriori informazioni, vedi [Destinazione](/help/c-activities/auto-target/auto-target-to-optimize.md)automatica. |
 
 Per ulteriori informazioni su quale di queste attività di test [!UICONTROL A/B è adatta alle tue esigenze, consulta la Guida interattiva alle attività di] Adobe Target in formato PDF [](/help/c-activities/target-activities-guide.md).
 
