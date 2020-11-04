@@ -8,10 +8,10 @@ user-guide-url: /content/help/en/target/using/target-home.html
 solution: Target
 type: Documentation
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
-source-wordcount: '1555'
-ht-degree: 91%
+source-wordcount: '1565'
+ht-degree: 90%
 
 ---
 
@@ -218,7 +218,10 @@ ht-degree: 91%
       + [Creazione di un&#39;attività di allocazione automatica](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
       + [L&#39;allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
-   + [Targeting automatico](c-activities/auto-target-to-optimize.md)
+   + Targeting automatico {#auto-target}
+      + [Panoramica di AutoTarget](/help/c-activities/auto-target/auto-target-to-optimize.md)
+      + [Creazione di un&#39;attività di targeting automatico](/help/c-activities/auto-target/create-auto-target.md)
+      + [Risoluzione dei problemi e domande frequenti su Target automatico](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
    + Personalizzazione automatizzata {#automated-personalization}
       + [Panoramica su Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Foresta casuale](c-activities/t-automated-personalization/algo-random-forest.md)
