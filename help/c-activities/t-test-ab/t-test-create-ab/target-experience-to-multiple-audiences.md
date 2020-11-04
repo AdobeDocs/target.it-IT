@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Stai testando due esperienze, un banner con targeting geografico contro un banne
 
 In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per area geografica, in modo da poter valutare l&#39;esperienza con targeting geografico rispetto a una senza.
 
-1. [Crea un&#39;attività A/B](../../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) come si farebbe normalmente.
+1. [Crea un&#39;attività A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) come si farebbe normalmente.
 
    Al momento di configurare l’esperienza che avrà più versioni, seleziona il pubblico per ogni versione, come illustrato nei passaggi seguenti.
 
