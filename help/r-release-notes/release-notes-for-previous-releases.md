@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1085,7 +1085,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Attività di Personalizzazione automatizzata (AP) e Targeting automatico </p> </td> 
-   <td colname="col2"> <p>Puoi trovare ulteriori indicazioni nell’interfaccia utente e nell’Aiuto per allocare in modo più efficace le percentuali di traffico nelle attività di Personalizzazione automatizzata (AP) e Targeting automatico. </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md#section_AB3656F71D2D4C67A55A24B38092958F" format="dita" scope="local">Determinazione dell’allocazione del traffico</a> e <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Creazione di un’attività di personalizzazione automatizzata </a>. </p> </td> 
+   <td colname="col2"> <p>Puoi trovare ulteriori indicazioni nell’interfaccia utente e nell’Aiuto per allocare in modo più efficace le percentuali di traffico nelle attività di Personalizzazione automatizzata (AP) e Targeting automatico. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Determinazione dell’allocazione del traffico</a> e <a href="../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Creazione di un’attività di personalizzazione automatizzata </a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Consigli: regole di inclusione, raccolte ed esclusioni per Criteri personalizzati </p> </td> 
@@ -1311,8 +1311,8 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
    <td colname="col1" class="premium"> <p>Targeting automatico </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Le attività di Targeting automatico supportano ora la generazione rapporti a livello di segmento. (TGT-22777) </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puoi modificare la percentuale di Controllo per le attività Targeting automatico. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Le attività di Targeting automatico supportano ora la generazione rapporti a livello di segmento. (TGT-22777) </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puoi modificare la percentuale di Controllo per le attività Targeting automatico. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1489,7 +1489,7 @@ Per ulteriori informazioni, consulta [Abilitazione di contenuto misto nel browse
   </tr> 
   <tr> 
    <td colname="col1"> <p>Modalità controllo qualità </p> </td> 
-   <td colname="col2"> <p>Verifica in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live. </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40" format="dita" scope="local">Controllo qualità delle attività </a>. </p> </td> 
+   <td colname="col2"> <p>Verifica in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/c-activity-qa/activity-qa.md" format="dita" scope="local">Controllo qualità delle attività </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1553,7 +1553,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Targeting automatico </p> </td> 
-   <td colname="col2"> <p>La funzionalità Targeting automatico è ora disponibile per tutti i clienti Target Premium. </p> <p>La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni. </p> <p>Durante la creazione di un'attività A/B tramite il flusso di lavoro guidato in tre passaggi, è possibile scegliere di allocare il traffico utilizzando l'opzione <span class="wintitle">Targeting automatico per Esperienze personalizzate</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
+   <td colname="col2"> <p>La funzionalità Targeting automatico è ora disponibile per tutti i clienti Target Premium. </p> <p>La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni. </p> <p>Durante la creazione di un'attività A/B tramite il flusso di lavoro guidato in tre passaggi, è possibile scegliere di allocare il traffico utilizzando l'opzione <span class="wintitle">Targeting automatico per Esperienze personalizzate</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> Generazione di rapporti </td> 
-   <td colname="col2"> <p><b>Visualizzazione di più obiettivi/metriche:</b> è ora possibile visualizzare più metriche attività A/B e Targeting esperienza (XT), a eccezione delle attività A/B di <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> allocazione automatica </a> e <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> targeting automatico </a>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Visualizzare più metriche in un rapporto </a>. </p> </td> 
+   <td colname="col2"> <p><b>Visualizzazione di più obiettivi/metriche:</b> è ora possibile visualizzare più metriche attività A/B e Targeting esperienza (XT), a eccezione delle attività A/B di <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> allocazione automatica </a> e <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local"> targeting automatico </a>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Visualizzare più metriche in un rapporto </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>First Look</b> </p> Targeting automatico nelle attività A/B </td> 
-   <td colname="col2"> <p> <p>Nota: l'offerta “First Look” è abilitata soltanto per alcuni clienti di questa versione per effettuare test e fornire riscontri. </p> </p> <p>Indirizza automaticamente le esperienze negli A/B test per fornire ad ogni visitatore l'esperienza più adatta. </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Nota: l'offerta “First Look” è abilitata soltanto per alcuni clienti di questa versione per effettuare test e fornire riscontri. </p> </p> <p>Indirizza automaticamente le esperienze negli A/B test per fornire ad ogni visitatore l'esperienza più adatta. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-activities/auto-target/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2518,7 +2518,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
 | Funzione | Descrizione |
 |---|---|
-| Targeting dell&#39;inclusione nelle attività per percentuale. | Da oggi è possibile limitare le partecipazioni alle attività [A/B](../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72) e [multivariate](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) a una percentuale di visitatori o membri del pubblico. Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”. |
+| Targeting dell&#39;inclusione nelle attività per percentuale. | Da oggi è possibile limitare le partecipazioni alle attività [A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md) e [multivariate](../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710) a una percentuale di visitatori o membri del pubblico. Ad esempio, puoi limitare l’accesso al 50% di tutti i visitatori o 45% del pubblico “Californians”. |
 | Supporto di Ricavi, Ordini e Coinvolgimento in Allocazione automatica | Da oggi è possibile scegliere metriche su Ricavi (RPV), Ordini e Coinvolgimento come obiettivi per le attività A/B con l&#39;allocazione automatica selezionata. In precedenza, erano supportate solo le metriche di conversione. Consulta [Allocazione automatizzata del traffico](../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4). |
 | Filtra in base all&#39;origine | Da oggi è possibile filtrare l&#39;elenco delle attività in base all&#39;origine in cui sono state create. Le opzioni sono Adobe Target e Adobe Experience Manager. Consulta [Attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). |
 | Miglioramenti delle prestazioni della Personalizzazione automatizzata | La personalizzazione automatizzata è stata riprogettata per funzionare meglio con un gran numero di combinazioni offerta/posizione. |
@@ -2584,7 +2584,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p> Scaricare i rapporti sulle metriche di successo </p> </td> 
-   <td colname="col2"> <p> Scarica un singolo file CSV con tutte le metriche di successo elencate anziché un rapporto del solo obiettivo finale dell'attività. </p> <p>Consulta <a href="../c-reports/reports.md#concept_B5077F5503AA4C98901AA99EDCE6CDE6" format="dita" scope="local"> Rapporti </a>. </p> </td> 
+   <td colname="col2"> <p> Scarica un singolo file CSV con tutte le metriche di successo elencate anziché un rapporto del solo obiettivo finale dell'attività. </p> <p>Consulta <a href="/help/c-reports/reports.md" format="dita" scope="local"> Rapporti </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -3053,7 +3053,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p> Test A/B e Targeting esperienza: flusso di creazione attività in tre fasi </p> </td> 
-   <td colname="col2"> <p> <a href="../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72" format="dita" scope="local"> Crea attività A/B </a>e <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> di Targeting esperienza </a> in tre passaggi invece di quattro. Questa modifica rende il processo di creazione di queste attività più simile al flusso di lavoro di altre attività, come ad esempio Personalizzazione automatizzata e Test multivariati. </p> </td> 
+   <td colname="col2"> <p> <a href="/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md" format="dita" scope="local"> Crea attività A/B </a>e <a href="../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765" format="dita" scope="local"> di Targeting esperienza </a> in tre passaggi invece di quattro. Questa modifica rende il processo di creazione di queste attività più simile al flusso di lavoro di altre attività, come ad esempio Personalizzazione automatizzata e Test multivariati. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Analytics come origine per la generazione di rapporti è disponibile con la maggior parte dei tipi di attività. </p> </td> 
