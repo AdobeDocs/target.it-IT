@@ -6,7 +6,7 @@ feature: release notes
 topic: Recommendations
 uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
 source-wordcount: '29837'
 ht-degree: 86%
@@ -1311,8 +1311,8 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
    <td colname="col1" class="premium"> <p>Targeting automatico </p> </td> 
    <td colname="col2"> <p> 
      <ul id="ul_6F89BD36373E47C4B3A6F8584D431D82"> 
-      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Le attività di Targeting automatico supportano ora la generazione rapporti a livello di segmento. (TGT-22777) </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
-      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puoi modificare la percentuale di Controllo per le attività Targeting automatico. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
+      <li id="li_5F7B590AF8F24066ADD270E9F75CB12F"> <p>Le attività di Targeting automatico supportano ora la generazione rapporti a livello di segmento. (TGT-22777) </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
+      <li id="li_35042E7D6BB04265B42F08A23A774E92"> <p>Puoi modificare la percentuale di Controllo per le attività Targeting automatico. (TGT-26467) </p> <p> <img src="assets/auto-target-control-small.png" id="image_81F6F61DB61240C289FB71362851AA53" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
@@ -1553,7 +1553,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
  <tbody> 
   <tr> 
    <td colname="col1" class="premium"> <p>Targeting automatico </p> </td> 
-   <td colname="col2"> <p>La funzionalità Targeting automatico è ora disponibile per tutti i clienti Target Premium. </p> <p>La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni. </p> <p>Durante la creazione di un'attività A/B tramite il flusso di lavoro guidato in tre passaggi, è possibile scegliere di allocare il traffico utilizzando l'opzione <span class="wintitle">Targeting automatico per Esperienze personalizzate</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
+   <td colname="col2"> <p>La funzionalità Targeting automatico è ora disponibile per tutti i clienti Target Premium. </p> <p>La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni. </p> <p>Durante la creazione di un'attività A/B tramite il flusso di lavoro guidato in tre passaggi, è possibile scegliere di allocare il traffico utilizzando l'opzione <span class="wintitle">Targeting automatico per Esperienze personalizzate</span>: </p> <p> <img src="assets/auto-target-ui-small.png" id="image_DB7899CAD51D411EAB858CE132BECAA5" /> </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1726,7 +1726,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> Generazione di rapporti </td> 
-   <td colname="col2"> <p><b>Visualizzazione di più obiettivi/metriche:</b> è ora possibile visualizzare più metriche attività A/B e Targeting esperienza (XT), a eccezione delle attività A/B di <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> allocazione automatica </a> e <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local"> targeting automatico </a>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Visualizzare più metriche in un rapporto </a>. </p> </td> 
+   <td colname="col2"> <p><b>Visualizzazione di più obiettivi/metriche:</b> è ora possibile visualizzare più metriche attività A/B e Targeting esperienza (XT), a eccezione delle attività A/B di <a href="../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4" format="dita" scope="local"> allocazione automatica </a> e <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local"> targeting automatico </a>. </p> <p>Per ulteriori informazioni, consulta <a href="../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7" format="dita" scope="local">Visualizzare più metriche in un rapporto </a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1987,7 +1987,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="firstlook"> <p><b>First Look</b> </p> Targeting automatico nelle attività A/B </td> 
-   <td colname="col2"> <p> <p>Nota: l'offerta “First Look” è abilitata soltanto per alcuni clienti di questa versione per effettuare test e fornire riscontri. </p> </p> <p>Indirizza automaticamente le esperienze negli A/B test per fornire ad ogni visitatore l'esperienza più adatta. </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
+   <td colname="col2"> <p> <p>Nota: l'offerta “First Look” è abilitata soltanto per alcuni clienti di questa versione per effettuare test e fornire riscontri. </p> </p> <p>Indirizza automaticamente le esperienze negli A/B test per fornire ad ogni visitatore l'esperienza più adatta. </p> <p>Per ulteriori informazioni, consulta <a href="../c-activities/auto-target-to-optimize.md" format="dita" scope="local">Targeting automatico per esperienze personalizzate</a>. </p> </td> 
   </tr> 
  </tbody> 
 </table>
