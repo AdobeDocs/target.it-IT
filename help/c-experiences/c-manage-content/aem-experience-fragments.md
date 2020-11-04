@@ -6,10 +6,10 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: e846109c476f98b4adc09d8b9dd2c2ef039b5ef7
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1118'
-ht-degree: 32%
+source-wordcount: '1115'
+ht-degree: 31%
 
 ---
 
@@ -123,7 +123,7 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
    * **Test A/B:** [Creare un test A/B](../../c-activities/t-test-ab/t-test-create-ab/test-create-ab.md#task_68C8079BF9FF4625A3BD6680D554BB72)
    * **Allocazione automatica:** [Allocazione automatica](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
-   * **Targeting automatico:** [Targeting automatico per esperienze personalizzate](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3)
+   * **Destinazione automatica:** [Destinazione automatica](/help/c-activities/auto-target-to-optimize.md)
    * **Personalizzazione automatizzata (AP):** [Creazione di un’attività di personalizzazione automatica](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Test multivariato (MVT):** [Creare un test multivariato](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
