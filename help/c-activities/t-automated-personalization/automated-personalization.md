@@ -6,10 +6,10 @@ feature: ap
 topic: Advanced
 uuid: cf9489f2-45b2-4028-8956-36d0afe0ee0a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1023'
-ht-degree: 98%
+source-wordcount: '1020'
+ht-degree: 97%
 
 ---
 
@@ -24,7 +24,7 @@ La [!UICONTROL Personalizzazione automatizzata] (AP) combina offerte o messaggi 
 
 Analogamente al [!UICONTROL Targeting automatico], la [!UICONTROL Personalizzazione automatizzata] utilizza un algoritmo Foresta casuale, uno dei principali metodi di raccolta di dati scientifici, come algoritmo principale di personalizzazione per determinare l’esperienza migliore da mostrare a un visitatore. La [!UICONTROL Personalizzazione automatizzata] può essere utile nella fase di individuazione dei test. È inoltre utile per consentire all&#39;apprendimento automatico di determinare il contenuto più efficace indirizzato a diversi visitatori. Nel corso del tempo, l&#39;algoritmo impara a prevedere il contenuto più efficace e visualizza il più probabile per raggiungere i tuoi obiettivi.
 
-Per ulteriori informazioni sulle differenze tra [!UICONTROL Personalizzazione automatizzata] e [!UICONTROL Targeting automatico], vedi [Targeting automatico per esperienze personalizzate](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+To find more information about how [!UICONTROL Automated Personalization] differs from [!UICONTROL Auto-Target], see [Auto-Target](/help/c-activities/auto-target-to-optimize.md).
 
 Gli addetti al marketing implementano un file sul sito che permette loro di selezionare rapidamente qualsiasi contenuto e quindi creare visivamente e selezionare le opzioni di contenuto aggiuntivo per tale area, utilizzando il Compositore esperienza visivo ([!UICONTROL Visual Experience Composer, VEC]). L&#39;algoritmo determina automaticamente quale parte di contenuto distribuire a ogni singolo visitatore, sulla base di tutti i dati comportamentali di cui il sistema dispone su di esso, così da fornire un&#39;esperienza personalizzata. Poiché la [!UICONTROL Personalizzazione automatizzata] può adattarsi ai cambiamenti del comportamento del visitatore, può essere eseguita senza impostare una data di termine per produrre un incremento e una personalizzazione costanti. Tale funzione è talvolta indicata come modalità di “connessione permanente”. L’addetto al marketing non deve eseguire un test, analizzare i risultati e quindi stabilire un vincitore per un’idea dell’incremento ottenuto a partire dall’ottimizzazione, il quale è un ordine standard di operazioni per implementare il risultato di una attività A/B standard.
 
@@ -62,7 +62,7 @@ Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel li
 
 * Per ulteriori informazioni sugli attributi utilizzati in [!UICONTROL Targeting automatico] e [!UICONTROL Personalizzazione automatizzata], consulta [Raccolta dati di Personalizzazione automatizzata](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058).
 
-**Target utilizza automaticamente tutti i tipi di[!DNL Adobe Experience Cloud]pubblico di condivisi, per generare i modelli di personalizzazione.**
+**Target utilizza automaticamente tutti i tipi di [!DNL Adobe Experience Cloud] pubblico di condivisi, per generare i modelli di personalizzazione.**
 
 * Non è necessario eseguire alcuna operazione specifica per aggiungere i tipi di pubblico al modello. Per informazioni sull’utilizzo di [!DNL Experience Cloud Audiences] con [!DNL Target], consulta [Audience di Experience Cloud](../../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969).
 
