@@ -7,10 +7,10 @@ subtopic: Getting Started
 topic: Standard
 uuid: 01c0072d-f77d-4f14-935b-8633f220db7b
 translation-type: tm+mt
-source-git-commit: 02b0bd61d1ba7a591a5b61df36acc5d136e787f0
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '2403'
+ht-degree: 82%
 
 ---
 
@@ -59,7 +59,7 @@ L’allocazione automatica identifica un vincitore tra due o più esperienze e, 
 
 ### Targeting automatico (AT)
 
-Per ulteriori informazioni, consulta [Targeting automatico](../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+Per ulteriori informazioni, consulta [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
 
 La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per selezionare tra più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.
 
