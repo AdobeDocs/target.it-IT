@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: b6d4cc35e32f118ff46fcd3b235c8b5deae35d05
+source-git-commit: cafd4fc6c6b93f48afd4368fdf290730535ee0b2
 workflow-type: tm+mt
-source-wordcount: '1397'
+source-wordcount: '1393'
 ht-degree: 19%
 
 ---
@@ -79,7 +79,7 @@ Questa integrazione consente di:
 * Utilizzate la funzionalità di allocazione [automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)dei bandi con più braccia per indirizzare il traffico verso esperienze vincenti
 * Utilizzate l&#39;algoritmo di machine learning di [Auto-Target](/help/c-activities/auto-target-to-optimize.md)per scegliere un&#39;esperienza ottimale per ogni visitatore in base al profilo, al comportamento e al contesto in cui si trova, utilizzando al contempo una metrica di [!DNL Adobe Analytics] obiettivo e le funzionalità di reporting e analisi avanzate [!DNL Adobe Analytics]di ogni visitatore.
 
-Assicuratevi di aver [implementato A4T per l&#39;utilizzo con le attività](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)Test A/B e Targeting delle esperienze. Se utilizzi `analyticsLogging = client_side`, devi anche trasmettere il `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, vedi [Adobe Analytics per Target (A4T)](https://developers.adobetarget.com/api/delivery-api/#section/Integration-with-Experience-Cloud/Adobe-Analytics-for-Target-(A4T)) nella Guida alle API di distribuzione *Adobe Target*
+Assicuratevi di aver [implementato A4T per l&#39;utilizzo con le attività](/help/c-integrating-target-with-mac/a4t/a4timplementation.md)Test A/B e Targeting delle esperienze. Se utilizzi `analyticsLogging = client_side`, devi anche trasmettere il `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta Generazione di rapporti [di](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) Analytics per Target (A4T) nella guida *agli SDK* di Adobe Target.
 
 Per iniziare:
 
@@ -103,7 +103,7 @@ Per iniziare:
 
    [!UICONTROL Auto-Target] utilizzerà la metrica selezionata per ottimizzare l&#39;attività, portando i visitatori a un&#39;esperienza personalizzata.
 
-1. Utilizzate la scheda **[!UICONTROL Rapporti]** per visualizzare i rapporti dell&#39;attività in base alle [!DNL Adobe Analytics] metriche selezionate. Fai clic su **[!UICONTROL Visualizza in Analytics]** per acquisire in profondità e segmentare ulteriormente i dati di reporting.
+1. Utilizzate la scheda **[!UICONTROL Rapporti]** per visualizzare i rapporti dell&#39;attività in base alle [!DNL Adobe Analytics] metriche selezionate. Fai clic su **[!UICONTROL Visualizza in Analytics]** per approfondire e segmentare ulteriormente i dati di reporting.
 
 ### Metriche obiettivo supportate
 
