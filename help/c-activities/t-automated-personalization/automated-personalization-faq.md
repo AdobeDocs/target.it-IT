@@ -5,7 +5,7 @@ title: Domande frequenti sulla Personalizzazione automatizzata
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1962'
 ht-degree: 85%
@@ -19,7 +19,7 @@ Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 
 ## Posso specificare un’esperienza particolare da usare come controllo?
 
-Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
+Puoi selezionare un’esperienza da usare come controllo durante la creazione di un’attività [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) oppure [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Questa funzione ti permette di indirizzare tutto il traffico di controllo a una specifica esperienza, in base alla percentuale di allocazione del traffico configurata nell’attività. Puoi quindi valutare i rapporti sulle prestazioni del traffico personalizzato rispetto al traffico verso l’esperienza di controllo.
 
@@ -31,7 +31,7 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
 
 ## Quali sono le best practice per impostare un’attività di Personalizzazione automatizzata? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Se vuoi personalizzare una pagina con traffico più basso o apportare modifiche strutturali all’esperienza che stai personalizzando, considera l’utilizzo della funzione Targeting automatico invece di Personalizzazione automatizzata. Consulta [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
+* Se vuoi personalizzare una pagina con traffico più basso o apportare modifiche strutturali all’esperienza che stai personalizzando, considera l’utilizzo della funzione Targeting automatico invece di Personalizzazione automatizzata. Consulta [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
 * È consigliabile completare un’attività A/B tra le offerte e le posizioni che prevedi di utilizzare nell’attività di Personalizzazione automatizzata per garantire che le posizioni e le offerte abbiano un impatto sull’obiettivo di ottimizzazione. Se per un’attività A/B non è possibile dimostrare una differenza significativa, è probabile che nemmeno la Personalizzazione automatizzata riesca a generare incrementi.
 
    * Se un test A/B...N non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica di successo oppure l’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
@@ -79,7 +79,7 @@ Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi alla per
 
 ### In che modo la Personalizzazione automatizzata alloca il traffico della mia attività? {#section_4369364F77804E0D9B78BEE551DA5659}
 
-La personalizzazione automatizzata indirizza i visitatori all’esperienza con la metrica di successo più elevata in base ai modelli di [Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA) più recenti costruiti per ciascun modello. Questa previsione si basa sulle informazioni specifiche del visitatore e sul contesto di visita.
+La personalizzazione automatizzata indirizza i visitatori all’esperienza con la metrica di successo più elevata in base ai modelli di [Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md) più recenti costruiti per ciascun modello. Questa previsione si basa sulle informazioni specifiche del visitatore e sul contesto di visita.
 
 Ad esempio, supponi che un’attività di Personalizzazione automatizzata abbia due posizioni con due offerte ciascuna. Nella prima posizione, l’offerta A ha un tasso di conversione previsto del 3% per un visitatore specifico e l’offerta B ha un tasso di conversione previsto dell’1%. Nella seconda posizione, l’offerta C ha un tasso di conversione previsto del 2% per lo stesso visitatore e l’offerta D ha un tasso di conversione previsto del 5%. La Personalizzazione automatizzata offrirebbe quindi a questo visitatore un’esperienza con le offerte A e D.
 
