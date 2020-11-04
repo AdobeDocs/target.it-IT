@@ -5,7 +5,7 @@ title: Raccolta di dati per gli algoritmi di personalizzazione di Adobe Target
 feature: ap
 uuid: f5ca2d84-0016-4af5-a139-bca567a3d0e8
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '1755'
 ht-degree: 97%
@@ -17,9 +17,9 @@ ht-degree: 97%
 
 Target raccoglie e utilizza automaticamente una varietà di dati per creare gli algoritmi di personalizzazione nelle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT). Quando un visitatore accede a un’attività di Personalizzazione automatizzata e Targeting automatico, viene trasmessa un’istantanea di informazioni a un set di “record di apprendimento” (i dati del visitatore su cui si baseranno gli algoritmi di personalizzazione).
 
-Per ulteriori informazioni sugli algoritmi di personalizzazione di Target, consulta [Algoritmo Foresta casuale](../../c-activities/t-automated-personalization/algo-random-forest.md#concept_48F3CDAA16A848D2A84CDCD19DAAE3AA).
+Per ulteriori informazioni sugli algoritmi di personalizzazione di Target, consulta [Algoritmo Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md).
 
-La tabella seguente mostra i dati raccolti da Personalizzazione automatica e Targeting automatico per impostazione predefinita, senza la necessità di eseguire alcuna operazione, nonché la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Approfondimenti personalizzazione](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli algoritmi di personalizzazione Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+La tabella seguente mostra i dati raccolti da Personalizzazione automatica e Targeting automatico per impostazione predefinita, senza la necessità di eseguire alcuna operazione, nonché la convenzione di denominazione utilizzata per indicare questi attributi nei [rapporti Approfondimenti personalizzazione](../../c-reports/c-personalization-insights-reports/personalization-insights-reports.md#concept_A897070E1EDC403EB84CFB7A6ECAD767). Puoi aumentare il set di dati di input in qualsiasi momento. Per ulteriori informazioni su come caricare dati aggiuntivi, consulta [Caricamento dei dati per gli algoritmi di personalizzazione Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 | Tipo di dati | Descrizione | Convenzione sulla denominazione del tipo di dati | Attributi di esempio |
 | --- | --- | --- | --- |
