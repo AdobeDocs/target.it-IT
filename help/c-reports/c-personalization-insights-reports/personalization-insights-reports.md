@@ -5,7 +5,7 @@ title: Rapporti Approfondimenti personalizzazione
 feature: reports
 uuid: 2507a7a6-d229-412a-a992-5777b45c80e7
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '716'
 ht-degree: 71%
@@ -53,8 +53,8 @@ Sono disponibili due rapporti [!UICONTROL Personalization Insights] :
 
 Esistono due tipi di attributi rappresentati nei rapporti [!UICONTROL Registri di personalizzazione] e utilizzati nei modelli di Personalizzazione automatizzata (AP) e Targeting automatico (AT):
 
-* **Attributi raccolti automaticamente da :**[!DNL Target] Target utilizza un set di dati base per la creazione degli algoritmi di personalizzazione nelle attività di AP e AT che si riflettono in Registri di personalizzazione. Consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](../../c-activities/t-automated-personalization/ap-data.md#reference_255BD3DE7AD04DC9B766E0BC78961058) per i tipi di dati, gli attributi di esempio e la relativa convenzione di denominazione per [!UICONTROL Registri di personalizzazione]. Tieni presente che nonostante questi attributi vengano considerati, i modelli di una singola attività potrebbero non utilizzare tutti gli attributi nel modello finale.
-* **Attributi trasmessi a Target:** vedi [Caricamento dei dati per gli algoritmi di personalizzazione Target](../../c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md#concept_85EA505B37E54514A1C8AB91553FEED6).
+* **Attributi raccolti automaticamente da :**[!DNL Target] Target utilizza un set di dati base per la creazione degli algoritmi di personalizzazione nelle attività di AP e AT che si riflettono in Registri di personalizzazione. Consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](/help/c-activities/t-automated-personalization/ap-data.md) per i tipi di dati, gli attributi di esempio e la relativa convenzione di denominazione per [!UICONTROL Registri di personalizzazione]. Tieni presente che nonostante questi attributi vengano considerati, i modelli di una singola attività potrebbero non utilizzare tutti gli attributi nel modello finale.
+* **Attributi trasmessi a Target:** vedi [Caricamento dei dati per gli algoritmi di personalizzazione Target](/help/c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md).
 
 [!DNL Target] offre diverse opzioni per la trasmissione di dati a al fine di aumentare il set di dati base utilizzati per la creazione di algoritmi di personalizzazione nelle attività di AP e AT:[!DNL Target]
 
