@@ -5,9 +5,9 @@ title: Domande frequenti sulla Personalizzazione automatizzata
 feature: ap
 uuid: 4c8aadd3-75c3-4388-b838-e62576dfb955
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
 workflow-type: tm+mt
-source-wordcount: '1965'
+source-wordcount: '1962'
 ht-degree: 85%
 
 ---
@@ -31,7 +31,7 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
 
 ## Quali sono le best practice per impostare un’attività di Personalizzazione automatizzata? {#section_E155B26282BE49B58EA2683413D11DE6}
 
-* Se vuoi personalizzare una pagina con traffico più basso o apportare modifiche strutturali all’esperienza che stai personalizzando, considera l’utilizzo della funzione Targeting automatico invece di Personalizzazione automatizzata. Consulta [Targeting automatico per esperienze personalizzate](../../c-activities/auto-target-to-optimize.md#concept_67779E5B7F67427A97D7EA2A6FB919B3).
+* Se vuoi personalizzare una pagina con traffico più basso o apportare modifiche strutturali all’esperienza che stai personalizzando, considera l’utilizzo della funzione Targeting automatico invece di Personalizzazione automatizzata. Consulta [Targeting automatico](/help/c-activities/auto-target-to-optimize.md).
 * È consigliabile completare un’attività A/B tra le offerte e le posizioni che prevedi di utilizzare nell’attività di Personalizzazione automatizzata per garantire che le posizioni e le offerte abbiano un impatto sull’obiettivo di ottimizzazione. Se per un’attività A/B non è possibile dimostrare una differenza significativa, è probabile che nemmeno la Personalizzazione automatizzata riesca a generare incrementi.
 
    * Se un test A/B...N non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica di successo oppure l’obiettivo di ottimizzazione è troppo lontano nel funnel di conversione per essere influenzato dalle offerte scelte.
