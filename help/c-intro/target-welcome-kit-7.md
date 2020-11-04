@@ -4,7 +4,7 @@ description: ' kit di benvenuto Adobe Target - Capitolo 7 - Creazione ed esecuzi
 title: ' kit di benvenuto Adobe Target - Capitolo 7 - Creazione ed esecuzione della prima attività Target'
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Esempio: Una compagnia aerea prende di mira i suoi membri di livello platino con
 
 ## Route 3: Applicazione di AI e automazione per personalizzare in scala i singoli visitatori
 
-Potete impostare un&#39;attività basata sull&#39;intelligenza artificiale per fornire la migliore esperienza tra i vari visitatori, semplicemente selezionando [Auto-Target](/help/c-activities/auto-target-to-optimize.md) nel secondo passaggio del flusso di lavoro di configurazione del test A/B. L&#39;utilizzo di Auto-Target con la vostra prima attività può essere estremamente utile se non sapete quale esperienza risuonerà per i diversi visitatori. Con Auto-Target, potete consentire all&#39;apprendimento automatico di valutare e valutare gli attributi predittivi in tempo reale e determinare quali attributi dei visitatori sono più importanti per determinare quale esperienza distribuire.
+Potete impostare un&#39;attività basata sull&#39;intelligenza artificiale per fornire la migliore esperienza tra i vari visitatori, semplicemente selezionando [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) nel secondo passaggio del flusso di lavoro di configurazione del test A/B. L&#39;utilizzo di Auto-Target con la vostra prima attività può essere estremamente utile se non sapete quale esperienza risuonerà per i diversi visitatori. Con Auto-Target, potete consentire all&#39;apprendimento automatico di valutare e valutare gli attributi predittivi in tempo reale e determinare quali attributi dei visitatori sono più importanti per determinare quale esperienza distribuire.
 
 Esempio: Un telco che vende marchi e modelli di telefoni multipli attiva Auto-Target per utilizzare l&#39;automazione e l&#39;apprendimento automatico per determinare quale delle quattro diverse esperienze o offerte sulla sua homepage o sulla schermata di apertura dell&#39;app mobile avrà la meglio risonanza con la sua ampia varietà di visitatori.
 
