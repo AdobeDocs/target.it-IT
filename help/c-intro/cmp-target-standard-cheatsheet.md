@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
 workflow-type: tm+mt
 source-wordcount: '2903'
 ht-degree: 98%
@@ -64,7 +64,7 @@ Utilizza i nostri [rapporti per determinare l’esperienza vincente](../c-activi
 
 **È possibile eseguire un&#39;attività con un livello di personalizzazione come parte integrante dell&#39;attività?**
 
-Selezionate l’opzione [Destinazione](/help/c-activities/auto-target-to-optimize.md) automatica.
+Selezionate l’opzione [Destinazione](/help/c-activities/auto-target/auto-target-to-optimize.md) automatica.
 
 **Come posso sapere quale tipo di attività si adatta meglio alle mie esigenze?**
 
@@ -120,7 +120,7 @@ Anche questo è possibile. Utilizza semplicemente [l&#39;opzione Salva disponibi
 
 **Come posso visualizzare in anteprima ed effettuare il QA di un&#39;attività appena creata?**
 
-Utilizza la nostra [potente funzione di modalità di controllo qualità](../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40) per eseguire le attività di QA. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l&#39;attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
+Utilizza la nostra [potente funzione di modalità di controllo qualità](/help/c-activities/c-activity-qa/activity-qa.md) per eseguire le attività di QA. Puoi condividere i collegamenti con il tuo team Controllo qualità e testare l&#39;attività end-to-end, compresi i rapporti, per essere sicuri che una volta pubblicata l’attività funzioni come previsto e come testato.
 
 **Come posso utilizzare il potere decisionale di Target per ricevere un&#39;esperienza/offerta che può essere utilizzata nelle applicazioni di singole pagine (SPA) o nelle integrazioni lato server?**
 
@@ -167,7 +167,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](../c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 * [Attributi del cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
-* [Tipi di pubblico](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Tipi di pubblico](/help/c-integrating-target-with-mac/mmp.md)
 
 ## Esperienze {#section_5959536B8D6A4BEA8FAA1273338F3451}
 
@@ -277,7 +277,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Attributi del cliente](../c-target/c-visitor-profile/working-with-customer-attributes.md#concept_16C5C434D32D4EB1AD44A71821F3DEE8)
 
-* [Tipi di pubblico](../c-integrating-target-with-mac/mmp.md#concept_F4863DE4C92D4805AB690B4B3D487969)
+* [Tipi di pubblico](/help/c-integrating-target-with-mac/mmp.md)
 
 
 **Posso suddividere il reporting per più segmenti di utenti?**
