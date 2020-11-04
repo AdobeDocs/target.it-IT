@@ -7,10 +7,10 @@ solution: Target,Analytics
 topic: Reports and analytics
 uuid: cf359bcd-547e-4f8f-bcf6-e646245bb9ce
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 63%
+source-wordcount: '267'
+ht-degree: 51%
 
 ---
 
@@ -45,13 +45,11 @@ Completa le seguenti attività in [!DNL Adobe Analytics]:
 
 ### Configurare l’accesso alla suite di rapporti di Analytics
 
-Before creating or viewing reports for an [!DNL Analytics]-powered activity, you must be a member of the **[!UICONTROL All Report Access]** group, or a member of a group that has access to at least one report in the report suite that you want to use. Se non riesci a visualizzare i rapporti, assicurati di essere un membro di uno di questi gruppi.
+Per utilizzare A4T in una determinata suite di rapporti, è necessario avere accesso a tale suite di rapporti. Per ottenere l&#39;accesso in [!UICONTROL Admin Console], fai clic su un profilo di [!DNL Analytics] prodotto, quindi fai clic sulla scheda [!UICONTROL Autorizzazioni] . Potete quindi vedere a quali suite di rapporti ha accesso il profilo. Accertatevi che la suite di rapporti a cui desiderate accedere in [!DNL Target] sia una delle suite elencate nel profilo di prodotto di cui fate parte.
 
-Per ulteriori informazioni, consulta Profili [di prodotto e gruppi](https://docs.adobe.com/content/help/en/core-services/interface/manage-users-and-products/admin-getting-started.html#section_AB50558124D541CF80A0D3D76D35A4BF).
+L&#39;illustrazione seguente è un esempio di un profilo di prodotto che ha accesso a tutte le suite di rapporti:
 
-### Configurare l’accesso al gruppo con accesso ai servizi Web
-
-Devi appartenere al gruppo con accesso ai servizi Web in [!DNL Analytics] per poter utilizzare [!DNL Analytics] come origine di generazione di rapporti per [!DNL Target].
+![, scheda Autorizzazioni Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 ## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
 
