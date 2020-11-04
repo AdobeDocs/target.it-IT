@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Advanced,Standard,Classic
 uuid: 8ed11372-f2cd-4bc4-a1da-ad626131e196
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 3215aa7c5ce986ff335dd2669c250ef5900d8789
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 98%
+source-wordcount: '433'
+ht-degree: 97%
 
 ---
 
@@ -27,11 +27,19 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
 * [Risoluzione dei problemi relativi alle attività](/help/c-activities/c-troubleshooting-activities/troubleshooting-activities.md)
 
-### [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] (AT)
+### Test A/B
 
 * [Nove insidie frequenti per i test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md)
 * [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
 * [Targeting automatico per esperienze personalizzate](/help/c-activities/auto-target/auto-target-to-optimize.md)
+
+### Allocazione automatica
+
+* [Panoramica dell&#39;allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+
+### Targeting automatico
+
+* [Risoluzione dei problemi e domande frequenti per la destinazione automatica](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalizzazione automatizzata
 
