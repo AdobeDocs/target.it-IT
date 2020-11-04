@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
@@ -20,7 +20,7 @@ Gli URL di anteprima esperienza possono essere generati per le attività di Targ
 
 >[!NOTE]
 >
->Gli URL di anteprima esperienza per  Automated Personalization sono diversi dalla modalità di QA dell&#39;attività. La modalità di controllo qualità delle attività consente di creare URL per altri tipi di attività. Per ulteriori informazioni, consulta [Controllo qualità delle attività](../../c-activities/c-activity-qa/activity-qa.md#concept_9329EF33DE7D41CA9815C8115DBC4E40).
+>Gli URL di anteprima esperienza per  Automated Personalization sono diversi dalla modalità di QA dell&#39;attività. La modalità di controllo qualità delle attività consente di creare URL per altri tipi di attività. Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md).
 >
 >Gli URL di anteprima esperienza per le attività AP sono disponibili solo quando si utilizza at.js 1.x. Gli URL di anteprima esperienza per le attività AP non sono attualmente supportati per at.js 2.x.
 
