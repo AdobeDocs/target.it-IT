@@ -5,7 +5,7 @@ title: Feed in  Adobe Target Recommendations
 feature: data feed
 uuid: b228a0de-e201-4567-ad09-1190196babda
 translation-type: tm+mt
-source-git-commit: 0a462ff6206870fa328249a57367b18eabbec008
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2520'
 ht-degree: 84%
@@ -237,7 +237,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Feed di prodotto Google
    * Classificazioni Analytics
 
-   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](../../c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
@@ -275,7 +275,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
 
 1. (Facoltativo) Se desideri che il feed appartenga a un ambiente (gruppo di host), seleziona il gruppo di host.
 
-   Per impostazione predefinita, il feed appartiene a tutti i gruppi di host. Gli elementi contenuti in questo feed saranno quindi sempre disponibili, in qualsiasi ambiente. Per ulteriori informazioni, consulta [Host](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+   Per impostazione predefinita, il feed appartiene a tutti i gruppi di host. Gli elementi contenuti in questo feed saranno quindi sempre disponibili, in qualsiasi ambiente. Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
