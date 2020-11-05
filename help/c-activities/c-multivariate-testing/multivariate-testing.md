@@ -5,7 +5,7 @@ title: Test multivariato
 feature: mvt
 uuid: a6f0cf9f-bd5e-4ae2-8dbe-0c94ec6a02ba
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1441'
 ht-degree: 91%
@@ -31,7 +31,7 @@ In Target ogni combinazione corrisponde a un’esperienza. Il test multivariato 
 
 ![](assets/multivariate.png)
 
-A causa del numero di combinazioni che possono essere generate, un test multivariato richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e includere nel test un numero ottimale di combinazioni per una durata di tempo appropriata per ottenere i risultati richiesti. Mediante il [Calcolatore di traffico](../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) di Target puoi progettare facilmente un test adeguato al traffico. Prima di utilizzare il Calcolatore di traffico, devi disporre di statistiche valide che mostrino il numero di impression e di conversioni ricevute normalmente dal sito. Considera i livelli di traffico giornalieri. Più esperienze sono incluse in un’attività, più traffico deve includere l’attività o più a lungo l’attività deve essere eseguita. Se il traffico non è molto elevato, sottoponi a test un numero limitato di combinazioni; in caso contrario, il tempo richiesto per produrre risultati significativi potrebbe essere eccessivo per risultare utile.
+A causa del numero di combinazioni che possono essere generate, un test multivariato richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e includere nel test un numero ottimale di combinazioni per una durata di tempo appropriata per ottenere i risultati richiesti. Mediante il [Calcolatore di traffico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) di Target puoi progettare facilmente un test adeguato al traffico. Prima di utilizzare il Calcolatore di traffico, devi disporre di statistiche valide che mostrino il numero di impression e di conversioni ricevute normalmente dal sito. Considera i livelli di traffico giornalieri. Più esperienze sono incluse in un’attività, più traffico deve includere l’attività o più a lungo l’attività deve essere eseguita. Se il traffico non è molto elevato, sottoponi a test un numero limitato di combinazioni; in caso contrario, il tempo richiesto per produrre risultati significativi potrebbe essere eccessivo per risultare utile.
 
 ## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
@@ -85,7 +85,7 @@ Quando utilizzi il foglio di calcolo per calcoli offline, considera i seguenti s
 * Crea le esperienze nel flusso di lavoro A/B con il [Compositore esperienza visivo](/help/c-experiences/experiences.md). Puoi usare codice personalizzato, modificare l’HTML, la modalità WYSIWYG o qualsiasi combinazione di questi mezzi.
 * Al termine dell’attività (in base al calcolatore delle dimensioni del campione), immetti i risultati nel foglio di calcolo per ottenere gli altri dettagli.
 
-Per ulteriori considerazioni e best practice, vedi [Best practice relative ai test multivariati](../../c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
+Per ulteriori considerazioni e best practice, vedi [Best practice relative ai test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md#reference_53635817FFB741EF8C4E56CC70688EDD).
 
 ## Video di formazione:
 
