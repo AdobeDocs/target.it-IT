@@ -5,7 +5,7 @@ title: Includere la stessa esperienza in pagine simili utilizzando  Adobe Target
 feature: experiences
 uuid: 055b276e-2492-40d8-b48e-849dffa93f35
 translation-type: tm+mt
-source-git-commit: bd13fee3a0a2ef675d121a9832583c3aa125865d
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '608'
 ht-degree: 45%
@@ -32,7 +32,7 @@ Ad esempio, si può utilizzare per eseguire una delle operazioni seguenti:
 
 Potete specificare le pagine che contengono gli elementi di modifica o applicare la modifica al sito o al dominio.
 
-1. Create  or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
 
@@ -90,7 +90,7 @@ Potete prendere in considerazione l&#39;uso delle regole del modello per eseguir
 * Per includere un banner globale (ad esempio, annunci COVID-19)
 * Per includere una promozione globale sulla spedizione gratuita
 
-1. Create or edit an activity as described in [Activities](../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
 1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
 
