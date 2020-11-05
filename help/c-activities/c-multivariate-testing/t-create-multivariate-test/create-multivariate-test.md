@@ -5,7 +5,7 @@ title: Creazione di un test multivariato
 feature: mvt
 uuid: 876441bd-d841-4974-b1ec-3ad7cb6ef3ee
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '561'
 ht-degree: 98%
@@ -29,7 +29,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
    >
    >I tipi di attività disponibili dipendono dall’account Target. Alcuni tipi di attività potrebbero non essere visualizzati nell’elenco. Ad esempio, [!UICONTROL Personalizzazione automatizzata] è una [funzione disponibile in Target Premium](/help/c-intro/intro.md#premium).
    >
-   >Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](../../../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
+   >Per ulteriori informazioni sui vari tipi di attività disponibili in [!DNL Target] e sulle loro differenze, consulta [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03). Consulta [Tipi di attività di Target](/help/c-activities/target-activities-guide.md) per aiutarti a stabilire il tipo di attività più adatto per le tue esigenze.
 
 1. Se necessario, seleziona **[!UICONTROL Visivo (impostazione predefinita)]**.
 
@@ -43,7 +43,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
 1. (Condizionale) Se sei un cliente Target Premium, [scegli un’area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
-1. [Specifica l’URL](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) per la pagina da testare, quindi fai clic su **[!UICONTROL Successivo]**.
+1. [Specifica l’URL](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/url.md#concept_C12E4A85FF3B4E518E3110F6CF1AF9C0) per la pagina da testare, quindi fai clic su **[!UICONTROL Successivo]**.
 
    >[!NOTE]
    >
@@ -70,7 +70,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
    | - | Meno |
    | @ | Chiocciola |
 
-1. [Crea le offerte in ogni posizione](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
+1. [Crea le offerte in ogni posizione](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
    ![Finestra di dialogo Modifica testo/HTML](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/editoffers.png)
 
@@ -88,7 +88,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    ![Escludere le esperienze](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/preview-mvt-exclude.png)
 
-1. [Utilizza Il Calcolatore del traffico](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per verificare la fattibilità del piano di test.
+1. [Utilizza Il Calcolatore del traffico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) per verificare la fattibilità del piano di test.
 
    ![Indicatore del traffico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/mvt-traffic-indicator.png)
 
@@ -110,11 +110,11 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    >[!NOTE]
    >
-   >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-1. [Rivedi il riepilogo del test](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) e apporta eventuali modifiche, quindi fai clic su **[!UICONTROL Successivo]**.
+1. [Rivedi il riepilogo del test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/test-summary.md#reference_971AB225963A4DC18EEB5B0E20F0A4A7) e apporta eventuali modifiche, quindi fai clic su **[!UICONTROL Successivo]**.
 
-1. [Specifica obiettivi e impostazioni](../../../c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per il test.
+1. [Specifica obiettivi e impostazioni](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC) per il test.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l’attività.
 
