@@ -5,7 +5,7 @@ title: Applicare un pubblico di reportistica a una metrica di successo in Adobe 
 feature: success metrics
 uuid: cc485785-84cc-4a60-acf8-788b842b243f
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 100%
@@ -25,7 +25,7 @@ Ad esempio, supponi di aver creato un’attività per tutti i visitatori che acc
 
 L’elenco a discesa Applicato a fornisce potenzialmente tre categorie: tutti i visitatori dell’attività, solo i visitatori che raggiungono un certo passo nell’attività o solo i visitatori che arrivano alla conversione. Oppure, per formularlo in altro modo, è possibile specificare che un visitatore deve aver raggiunto una mbox sulla pagina di accesso all’attività, una mbox che definisce un certo punto nel mezzo dell’attività o la mbox di conversione alla fine dell’attività.
 
-[Le metriche di successo](../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sono disponibili solo se sono state configurate per l’attività. Se non hai definito la metrica di successo, vedrai solo due opzioni nell’elenco a discesa: Accesso alla campagna e Conversione.
+[Le metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) sono disponibili solo se sono state configurate per l’attività. Se non hai definito la metrica di successo, vedrai solo due opzioni nell’elenco a discesa: Accesso alla campagna e Conversione.
 
 Considera le seguenti informazioni quando applichi un pubblico per la reportistica a una metrica di successo:
 
