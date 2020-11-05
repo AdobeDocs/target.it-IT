@@ -6,7 +6,7 @@ feature: null
 topic: Standard
 uuid: 10da01d7-d308-44e3-9c6e-ff4f713bd312
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -63,7 +63,7 @@ La libreria [!DNL at.js] offre diversi miglioramenti rispetto alla libreria [!DN
 
 ## Video di formazione: at. js - Vantaggi e best practice per l’implementazione ![badge Panoramica](/help/assets/overview.png)
 
-Questo video è una registrazione di “ [Office Hours](../../../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
 * Funzionamento della libreria at.js
 * Vantaggi di at.js rispetto mbox.js
