@@ -6,7 +6,7 @@ feature: xt
 topic: Advanced,Standard,Classic
 uuid: ce559c3c-5a16-46b8-b2a7-df696626c7c0
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '962'
 ht-degree: 93%
@@ -40,11 +40,11 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
 
    Viene visualizzata la finestra di dialogo [!UICONTROL Scegli pubblico]. Per eseguire il targeting di un’esperienza per un pubblico, è necessario selezionare il pubblico prima di poter aggiungere un’esperienza.
 
-   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](../../../c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
+   La libreria del pubblico include tipi di pubblico definiti in precedenza, inclusi alcuni di utilizzo comune già integrati in [!DNL Target]. È possibile selezionare un pubblico dalla libreria o [crearne uno nuovo](/help/c-target/c-audiences/audiences.md#concept_65BE870D290E412D8BBF557EEA67C271).
 
    >[!NOTE]
    >
-   >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
+   >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
    Quando create un&#39;audience, potete selezionare una posizione e specificare i parametri per tale posizione. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
 
