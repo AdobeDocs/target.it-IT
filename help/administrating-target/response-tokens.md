@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -36,7 +36,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
 1. Assicurati di utilizzare [!DNL at.js] nella versione 1.1 o successiva.
 
-   Per ulteriori informazioni, consulta [Scarica at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
+   Per ulteriori informazioni, consulta [Scarica at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
 1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Response Tokens]**.
 
@@ -113,7 +113,7 @@ Le istruzioni seguenti spiegano come aggiungere un gestore di eventi personalizz
    });
    ```
 
-Se desideri avere tutto in un singolo file, aggiungi lo snippet seguente al piè di pagina della libreria nella [pagina Configurazione di at.js](../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
+Se desideri avere tutto in un singolo file, aggiungi lo snippet seguente al piè di pagina della libreria nella [pagina Configurazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
 ```
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
@@ -139,7 +139,7 @@ Response tokens will be delivered to the [!DNL at.js] Target responses, but not 
 
 Plug-in e token di risposta saranno disponibili in parallelo; tuttavia, i plug-in diventeranno obsoleti in futuro.
 
-**I token di risposta vengono distribuiti attraverso tutte[!DNL Target]le risposte o solo attraverso[!DNL Target]le risposte che forniscono un&#39;attività?**
+**I token di risposta vengono distribuiti attraverso tutte [!DNL Target] le risposte o solo attraverso [!DNL Target] le risposte che forniscono un&#39;attività?**
 
 Response tokens are delivered only through [!DNL Target] responses delivering an activity.
 
@@ -291,6 +291,6 @@ Guarda il video seguente e scopri come utilizzare i token di risposta e gli even
 
 >[!NOTE]
 >
->L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza dell’utente nel prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
