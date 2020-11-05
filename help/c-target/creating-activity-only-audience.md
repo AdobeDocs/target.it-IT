@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 3d0898d0-96e8-4bc9-86bd-3ae39db0e74d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 100%
@@ -23,7 +23,7 @@ I tipi di pubblico per sola attività forniscono i seguenti vantaggi:
 * È possibile utilizzare i tipi di pubblico per sola attività per creare un pubblico da utilizzare una sola volta, senza archiviarlo nella [!UICONTROL Libreria tipi di pubblico]. In tal modo si evita di riempire la [!UICONTROL Libreria] con tipi di pubblico che non verranno più utilizzati.
 * I tipi di pubblico per sola attività non sono visibili nella [!UICONTROL Libreria tipi di pubblico]. In tal modo si evita il rischio che possano essere modificate da parte di altri membri della tua organizzazione.
 
-1. Quando crei un’[attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona dei tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Quando crei un’[attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona dei tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
@@ -39,7 +39,7 @@ I tipi di pubblico per sola attività forniscono i seguenti vantaggi:
 
 1. Seleziona un tipo di regola.
 
-   Ogni tipo di regola ha i propri parametri. Consulta [Categorie di pubblico](../c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) per ulteriori informazioni su come configurare ogni tipo di regola per la definizione del pubblico.
+   Ogni tipo di regola ha i propri parametri. Consulta [Categorie di pubblico](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) per ulteriori informazioni su come configurare ogni tipo di regola per la definizione del pubblico.
 
 1. Definisci i parametri della regola.
 1. Fai clic su **[!UICONTROL Salva]**.
@@ -53,5 +53,5 @@ Quando lavori con tipi di pubblico per sola attività, considera quanto segue:
 * I perfezionamenti per le attività esistenti vengono trasferiti ai tipi di pubblico per sola attività.
 * I tipi di pubblico per sola attività hanno lo stato [!UICONTROL Utilizzato] o [!UICONTROL Non utilizzato]. I tipi di pubblico per sola attività non utilizzati vengono visualizzate finché l’attività non viene salvata. Se restano inutilizzati e tenti di salvare l’attività, un messaggio di avvertenza ti informa che i tipi di pubblico per sola attività inutilizzati verranno eliminati.
 * Puoi visualizzare i dettagli della definizione del pubblico in una scheda a comparsa dal selettore del pubblico, senza aprire il pubblico.
-* È possibile [combinare più tipi di pubblico](../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) per creare un pubblico per sola attività.
+* È possibile [combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) per creare un pubblico per sola attività.
 
