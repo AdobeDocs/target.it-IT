@@ -6,7 +6,7 @@ feature: activities
 topic: Advanced,Standard,Classic
 uuid: 5b22c369-0efc-48c0-a0dc-0179b18536fe
 translation-type: tm+mt
-source-git-commit: 3b7d903c135e7fcd2afa7287b9e88af400e4b466
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '799'
 ht-degree: 81%
@@ -20,7 +20,7 @@ Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero
 
 >[!NOTE]
 >
->Oltre alle seguenti informazioni sulla risoluzione di problemi, consulta [Risoluzione dei problemi di Target](../../r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per collegamenti ad ulteriori argomenti, domande frequenti e altre informazioni utili sulle attività di risoluzione dei problemi e altre funzionalità in [!DNL Adobe Target].
+>Oltre alle seguenti informazioni sulla risoluzione di problemi, consulta [Risoluzione dei problemi di Target](/help/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per collegamenti ad ulteriori argomenti, domande frequenti e altre informazioni utili sulle attività di risoluzione dei problemi e altre funzionalità in [!DNL Adobe Target].
 
 Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le soluzioni suggerite.
 
@@ -82,7 +82,7 @@ Una volta aggiunto come utente in Target, devi disporre del ruolo Approvatore pe
 * Chiedi all’amministratore del tuo account di assegnarti il ruolo Approvatore.
 * If you are the Admin, give yourself the Approver role from **[!UICONTROL Administration]** > **[!UICONTROL Users]** in Target.
 
-   Consulta [Assegnare a se stessi il ruolo di Approvatore](../../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+   Consulta [Assegnare a se stessi il ruolo di Approvatore](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## La struttura della pagina è cambiata dal momento della configurazione dell’attività.
 
@@ -92,7 +92,7 @@ Una volta aggiunto come utente in Target, devi disporre del ruolo Approvatore pe
 
 * Ricrea l’attività.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La struttura della pagina viene modificata durante il caricamento (in fase di esecuzione).
 
@@ -105,7 +105,7 @@ Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla ca
 * Aggiorna il codice della pagina in modo da identificare in modo univoco ogni elemento che sarà oggetto di test (utilizzando un id).
 * Interrompi la modifica dinamica della classe o degli elementi di pari livello come descritto sopra.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Mbox.js estrae tutto il codice successivo dalla sezione head e nella sezione body.
 
