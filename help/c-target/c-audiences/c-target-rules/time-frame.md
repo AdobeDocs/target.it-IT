@@ -5,7 +5,7 @@ title: Opzioni di frame temporali in  pubblico Adobe Target
 feature: audiences
 uuid: 6c75014b-f0fd-4f76-a84f-b841bf87f1d7
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '410'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 Puoi aggiungere date e orari di inizio/fine per rivolgerti agli utenti che visitano il tuo sito durante un intervallo temporale specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
-Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](../../../c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday.
+Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni prima del Black Friday e su altri contenuti dopo il Black Friday.
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Dai un nome al pubblico.
