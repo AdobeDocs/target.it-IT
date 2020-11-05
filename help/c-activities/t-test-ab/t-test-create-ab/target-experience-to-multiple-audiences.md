@@ -6,7 +6,7 @@ feature: ab
 topic: Standard
 uuid: c6571632-942d-48c7-99ec-5c17f9ff983d
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '605'
 ht-degree: 100%
@@ -44,7 +44,7 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 
    ![](assets/exp-versions.png)
 
-   Se il pubblico non esiste ancora, fai clic su [Crea pubblico](../../../c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
+   Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 
    Se un visitatore è adeguato per più di un pubblico, il contenuto viene respinto per tutti i tipi di pubblico e l&#39;ultimo nell&#39;elenco esegue effettivamente il rendering sulla pagina.
 
