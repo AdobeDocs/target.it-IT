@@ -6,10 +6,10 @@ feature: auto-target
 topic: Standard
 uuid: fce769d2-9e7f-4064-add7-76e1fc394b4f
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 7284a37dde0d89e1c81ef3813f98d936a4eced3b
 workflow-type: tm+mt
-source-wordcount: '1992'
-ht-degree: 87%
+source-wordcount: '2014'
+ht-degree: 86%
 
 ---
 
@@ -21,6 +21,8 @@ La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automati
 >[!NOTE]
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
+>
+>[!UICONTROL Analytics for Target] (A4T) supporta le attività [!UICONTROL Auto-Target] . Per ulteriori informazioni, vedi [Creare un&#39;attività che utilizza Analytics come origine](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di reporting.
 
 ## Successo nel mondo reale tramite Auto-Target {#success}
 
