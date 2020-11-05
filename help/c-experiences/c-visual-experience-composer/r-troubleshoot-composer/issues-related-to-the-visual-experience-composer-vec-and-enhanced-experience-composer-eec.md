@@ -5,7 +5,7 @@ title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al C
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: ee618961faa12a7352aaf9ed1d869f9e5ab39cdd
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1370'
 ht-degree: 68%
@@ -86,11 +86,11 @@ Per impostazione predefinita, il Compositore esperienza visivo blocca gli elemen
 
 Questo problema si verifica quando i clienti hanno una versione di mbox.js precedente alla 57 (vale a dire la versione 56 o precedente).
 
-È consigliabile che tutti gli utenti del Compositore esperienza visivo effettuino l’aggiornamento alla [versione più recente di mbox. js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) oppure che eseguano almeno l’aggiornamento alla versione 57. È inoltre consigliabile [effettuare la transizione a at.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
+È consigliabile che tutti gli utenti del Compositore esperienza visivo effettuino l’aggiornamento alla [versione più recente di mbox. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) oppure che eseguano almeno l’aggiornamento alla versione 57. È inoltre consigliabile [effettuare la transizione a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
 
 ## Alla modifica di un elemento della pagina, vengono modificati più elementi. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_309188ACF34942989BE473F63C5710AF}
 
-Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Questa è una best practice HTML standard. Per ulteriori informazioni, consulta [Scenari di modifica delle pagine](../../../c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la modifica di uno di questi elementi influenza tutti gli elementi con lo stesso ID. Per evitare il problema, è opportuno utilizzare ciascun ID solo una volta in ogni pagina. Questa è una best practice HTML standard. Per ulteriori informazioni, consulta [Scenari di modifica delle pagine](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
