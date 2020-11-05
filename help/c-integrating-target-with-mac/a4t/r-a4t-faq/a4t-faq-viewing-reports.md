@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: d51991f7-cdda-4a59-b64c-7ef1c3f8380d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1992'
 ht-degree: 63%
@@ -20,7 +20,7 @@ This topic contains answers to questions that are frequently asked about viewing
 
 ## Posso visualizzare i dati di attività Target in Analysis Workspace? {#workspace}
 
-Puoi utilizzare [!DNL Analysis Workspace] per analizzare le tue [!DNL Target] attività ed esperienze. Il pannello [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analisi per Target consente di visualizzare tre metriche di successo con un livello di affidabilità e di incremento. Puoi anche approfondire la ricerca utilizzando tabelle e visualizzazioni.
+Potete utilizzare [!DNL Analysis Workspace] per analizzare le [!DNL Target] attività e le esperienze. Il pannello [](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/panels/a4t-panel.html) Analisi per Target consente di visualizzare tre metriche di successo con un livello di affidabilità e di incremento. Puoi anche approfondire la ricerca utilizzando tabelle e visualizzazioni.
 
 For detailed information and examples, open the [Analytics &amp; Target: Best Practices for Analysis tutorial](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), provided by Adobe Experience League.
 
@@ -125,7 +125,7 @@ You can shorten the amount of time the [!DNL Target] variable persists down to a
 Di seguito sono elencati i motivi per cui lo stesso visitatore potrebbe essere conteggiato in più esperienze in [!DNL Analytics]:
 
 * The [!DNL Target] profile expired but the [!DNL Analytics] cookie is still there. In this situation, [!DNL Target] re-evaluates the user but [!DNL Analytics] considers the visitor to be the same person.
-* Se il visitatore utilizza l’ID `mbox3rdPartyId`, quando il visitatore anonimo viene unito al suo profilo ID di terze parti,  potrebbe porre il visitatore in un’esperienza diversa per farlo corrispondere all’ID di terze parti. [!DNL Target] Per ulteriori informazioni, consulta [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](../../../c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
+* Se il visitatore utilizza l’ID `mbox3rdPartyId`, quando il visitatore anonimo viene unito al suo profilo ID di terze parti,  potrebbe porre il visitatore in un’esperienza diversa per farlo corrispondere all’ID di terze parti. [!DNL Target] Per ulteriori informazioni, consulta [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] potrebbe tenere traccia di diversi dispositivi come lo stesso visitatore in un modo diverso rispetto a [!DNL Target] questi dispositivi: l’impostazione ID di terze parti in [!DNL Target] è diversa da quella di Analytics.
 
 ## A4T supporta le suite di rapporti virtuali?
