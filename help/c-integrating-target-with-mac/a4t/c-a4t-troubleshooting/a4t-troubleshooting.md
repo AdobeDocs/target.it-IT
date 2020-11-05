@@ -7,7 +7,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: a5aa3be5-68a2-4f12-8226-f32a76136bbd
 translation-type: tm+mt
-source-git-commit: d126016a5a828a00fd38fd2661349aeebd3903d2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '781'
 ht-degree: 80%
@@ -33,7 +33,7 @@ Questo può accadere per diversi motivi:
 
 * La chiamata di classificazione da [!DNL Target] ad [!DNL Analytics] non è riuscita.
 
-   [Contatta l’Assistenza clienti](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+   [Contatta l’Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 >[!NOTE]
 >
@@ -43,7 +43,7 @@ Questo può accadere per diversi motivi:
 
 ## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
-Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](../../../c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
 ## L’incremento stimato nella metrica Ricavo non mostra dati corretti. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -51,7 +51,7 @@ I dettagli dell’incremento e dell’affidabilità di Target non sono disponibi
 
 ## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](../../../c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
+Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
 >[!NOTE]
 >
@@ -94,4 +94,4 @@ Se il debugger non è installato, vedere [Introduzione a Adobe Experience Platfo
 
 Se nella chiamata di [!DNL Target] non è presente alcun ID di dati supplementare, verifica che il file [!DNL VisitorAPI.js] sia stato caricato prima di [!DNL at.js] o [!DNL mbox.js]. Se nella chiamata di [!DNL Analytics] non è presente alcun ID di dati supplementare, verifica che la chiamata di [!DNL Target] venga attivata prima della chiamata di [!DNL Analytics].
 
-Per ulteriori informazioni, consulta [Implementazione di Analytics for Target](../../../c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o contatta l’[Assistenza clienti](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+Per ulteriori informazioni, consulta [Implementazione di Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o contatta l’[Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
