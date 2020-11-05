@@ -5,7 +5,7 @@ title: Impostazioni dei rapporti
 feature: report settings
 uuid: c3463f0d-8f09-4be2-9c85-f933578cce50
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1891'
 ht-degree: 68%
@@ -94,17 +94,17 @@ Nell&#39;elenco seguente sono descritte alcune delle situazioni che potrebbero p
 
 ## Metrica rapporto {#section_894ABD7148244806B7CE556EBBA2AD62}
 
-Fai clic sull’elenco a discesa **[!UICONTROL Metrica rapporto]** per selezionare una [metrica di successo](../../c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diversa o più metriche da visualizzare nei grafici.
+Fai clic sull’elenco a discesa **[!UICONTROL Metrica rapporto]** per selezionare una [metrica di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924) diversa o più metriche da visualizzare nei grafici.
 
 Per impostazione predefinita, la metrica principale è determinata nella configurazione delle metriche di successo quando crei l’attività. Se modifichi la configurazione e salvi di nuovo l’attività, la metrica principale per la generazione dei rapporti si aggiorna.
 
-Per ulteriori informazioni sulla selezione di più metriche da visualizzare nei rapporti, consulta [Visualizzare più metriche in un rapporto](../../c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
+Per ulteriori informazioni sulla selezione di più metriche da visualizzare nei rapporti, consulta [Visualizzare più metriche in un rapporto](/help/c-reports/c-report-settings/view-multiple-metrics.md#concept_9E3C3F6F3EC1412FAF252975AC0720B7).
 
 ## Destinatari {#section_70926EB4618945D9AFF2B0564FF3717B}
 
 Fai clic sull’elenco a discesa [!UICONTROL Pubblico] per modificare il pubblico visualizzato per il rapporto.
 
-Per ulteriori informazioni, consulta [Tipi di pubblico](../../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
+Per ulteriori informazioni, consulta [Tipi di pubblico](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522).
 
 ## Intervallo date {#section_A410A768403C4E01891F95CB357E63ED}
 
@@ -149,7 +149,7 @@ Selezionare l&#39;esperienza di controllo da utilizzare per il calcolo e il conf
 
 ### Ambiente
 
-Selezionare l&#39;ambiente (gruppo di host) da utilizzare per il rapporto. Per ulteriori informazioni, consulta [Host](../../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Selezionare l&#39;ambiente (gruppo di host) da utilizzare per il rapporto. Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ### Ripristina dati rapporto
 
@@ -161,7 +161,7 @@ Reimposta i dati di reporting per rimuovere i dati obsoleti. I visitatori attual
 
 ### Escludere i valori estremi
 
-The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Per ulteriori informazioni, consulta [Esclusione di ordini estremi](../../c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+The [!UICONTROL Exclude Extreme Values] toggle applies to activities with Revenue and Engagement metric types only. Per ulteriori informazioni, consulta [Esclusione di ordini estremi](/help/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 ## Scarica {#section_77E65C50BAAF4AB79242DB3A8778ADEF}
 
@@ -169,7 +169,7 @@ Click the **[!UICONTROL Download]** icon to download report data in a [!DNL .csv
 
 ![Icona Scarica](/help/c-reports/c-report-settings/assets/download-icon.png)
 
-Per ulteriori informazioni, consulta [Download di dati in un file CSV](../../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Per ulteriori informazioni, consulta [Download di dati in un file CSV](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
 
 ## Aggiorna {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -194,7 +194,7 @@ Potete visualizzare il rapporto in vari formati, a seconda del tipo di attività
 
 I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione che consentono di comprendere i limiti di incremento e il livello di affidabilità associati all’attività. Ciò consente di determinare più accuratamente un vincitore.
 
-Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e intervallo di confidenza](../../c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e intervallo di confidenza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
 
 Considera i seguenti aspetti:
 
