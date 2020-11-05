@@ -6,7 +6,7 @@ feature: reports
 topic: Advanced,Standard,Classic
 uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1621'
 ht-degree: 96%
@@ -52,7 +52,7 @@ Se il controllo è uguale a 0, non vi è alcuna percentuale di incremento.
 
 Questo numero rappresenta la probabilità che i risultati vengano duplicati se il test venisse eseguito nuovamente. L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
-Consulta [Livello di affidabilità e intervallo di affidabilità](../c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Consulta [Livello di affidabilità e intervallo di affidabilità](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
@@ -106,7 +106,7 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 
 ## Calcolo dell’affidabilità e modalità di esecuzione offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
-Il [rapporto CSV scaricato](../c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
+Il [rapporto CSV scaricato](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
 To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
 
@@ -122,7 +122,7 @@ Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché
 
 Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, devi esportare un campione del numero totale di visualizzazioni di pagina per ogni visitatore per un lasso di tempo specificato, come un paio di giorni (servono solo poche migliaia di punti di dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
-**Per eseguire la funzione di esportazione dei dati di[!DNL Analytics]:**
+**Per eseguire la funzione di esportazione dei dati di [!DNL Analytics]:**
 
 1. Accedi a [!DNL Adobe Analytics].
 1. Fai clic su **[!UICONTROL Strumenti]** > **[!UICONTROL Data Warehouse]**.
