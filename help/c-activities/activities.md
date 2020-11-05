@@ -6,7 +6,7 @@ feature: activities
 topic: Standard
 uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 97%
@@ -148,7 +148,7 @@ L’attività non può essere salvata se superi uno di questi limiti.
 
 Un maggior numero di elementi nell&#39;attività comporta anche un aumento del tempo necessario per sincronizzare l&#39;attività in Target.
 
-Per ulteriori limiti del Compositore esperienza visivo, consulta [Limitazioni del Compositore esperienza visivo](../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+Per ulteriori limiti del Compositore esperienza visivo, consulta [Limitazioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 ## Attributi importati in Target per attività aggiornate al di fuori di Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
