@@ -6,7 +6,7 @@ feature: form-based composer
 topic: Standard
 uuid: 6791ed6f-69d0-4ec4-9ea4-47aa92b2a4c9
 translation-type: tm+mt
-source-git-commit: 777b5a84fed7455274183d2b9fe7f20096087064
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '744'
 ht-degree: 79%
@@ -41,11 +41,11 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
    >
    >La creazione di una posizione immessa manualmente durante la creazione dell&#39;attività non crea automaticamente una nuova posizione. Il nome della posizione viene salvato solo nel contesto dell&#39;attività. La posizione viene creata in presenza di una chiamata di distribuzione del contenuto. In seguito alla posizione in fase di creazione, sarà disponibile per l&#39;utilizzo in altre attività, per la creazione di audience, ecc. dall’elenco a discesa delle posizioni disponibili.
 
-1. Fai clic su **[!UICONTROL Aggiungi perfezionamenti pubblico]**, quindi scegli uno o più tipi di [pubblico](../c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) per questa attività.
+1. Fai clic su **[!UICONTROL Aggiungi perfezionamenti pubblico]**, quindi scegli uno o più tipi di [pubblico](/help/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) per questa attività.
 
    ![](assets/location_refinements_2.png)
 
-   Nel Compositore esperienza basato su moduli, i Perfezionamenti sono stati sostituiti da funzionalità di pubblico complete. I perfezionamenti per le attività esistenti sono stati trasferiti ai tipi di [pubblico per sola attività](../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
+   Nel Compositore esperienza basato su moduli, i Perfezionamenti sono stati sostituiti da funzionalità di pubblico complete. I perfezionamenti per le attività esistenti sono stati trasferiti ai tipi di [pubblico per sola attività](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 1. Seleziona il tipo di contenuto da visualizzare in tale posizione.
 
    ![](assets/form_content.png)
@@ -100,8 +100,8 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
 
 * [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-* [Creare un’attività Targeting delle esperienze](../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-* [Creare un’attività Consigli](../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+* [Creare un’attività Targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+* [Creare un’attività Consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 ## Video di formazione: Compositore basato su modulo ![Badge di esercitazione](/help/assets/tutorial.png)
 
