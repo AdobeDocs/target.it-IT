@@ -5,10 +5,10 @@ title: Creare una progettazione
 feature: designs
 uuid: 812258e0-8d28-4ef3-b745-45ed694fcabe
 translation-type: tm+mt
-source-git-commit: afbec50cb0ec4e689bfaa77296ffda91bc6de3a5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
-source-wordcount: '988'
-ht-degree: 36%
+source-wordcount: '989'
+ht-degree: 35%
 
 ---
 
@@ -164,7 +164,7 @@ L&#39;esempio seguente mostra come è possibile restituire le risposte JSON quan
 
    | Parametro | Valore |
    |--- |--- |
-   | `[YOUR_CLIENT_CODE]` | Codice client di Target (disponibile in ../target/products.html#recsSettings > Token API per i consigli > Codice client. |
+   | `[YOUR_CLIENT_CODE]` | Codice client di destinazione (disponibile in /help/target/products.html#recsSettings > Token API Recommendations > Codice client. |
    | `[YOUR_MBOX_NAME]` | Nome selezionato nella sezione &quot;percorsi&quot; dell&#39;Recommendations basato su modulo, in questo caso Sample_Recs_Response. |
    | `[ENTITY_ID` | L&#39;`entity.id` di un elemento nel catalogo. |
    | `[AT_PROPERTY_TOKEN]` | (Facoltativo) Aggiungi se hai selezionato una Proprietà (parte delle autorizzazioni dell&#39;azienda) durante l&#39;impostazione dell&#39;attività. |
