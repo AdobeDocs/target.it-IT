@@ -1,11 +1,11 @@
 ---
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
-description: Mobile viewports help you preview how your Adobe Target activities appear on screens of various sizes.
+description: I visualizzatori per dispositivi mobili consentono di visualizzare un'anteprima di come vengono visualizzate  attività Adobe Target sugli schermi di varie dimensioni.
 title: Visualizzazioni per dispositivi mobili per esperienze reattive
 feature: vec
 uuid: 86a74584-4a4d-428b-9d29-f7ebdf0cef2a
 translation-type: tm+mt
-source-git-commit: 870f3dc0d4c154b282021384071699fa2d477d18
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -21,7 +21,7 @@ La funzione di anteprima della finestra del visualizzatore per dispositivi mobil
 
 >[!NOTE]
 >
-> * I riquadri di visualizzazione per dispositivi mobili si utilizzano quando il sito è reattivo e gli stessi elementi presenti nella pagina del desktop vengono utilizzati nella versione mobile della pagina in una configurazione diversa. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](../../c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
+> * I riquadri di visualizzazione per dispositivi mobili si utilizzano quando il sito è reattivo e gli stessi elementi presenti nella pagina del desktop vengono utilizzati nella versione mobile della pagina in una configurazione diversa. If you have a separate mobile site with a separate structure, such as `m.mysite.com`, use a [multipage activity](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) instead.
    >
    >
 * I riquadri di visualizzazione per dispositivi mobili non sono disponibili se sovrapposti da una sovrapposizione di offerta di reindirizzamento.
@@ -116,7 +116,7 @@ Configura tutti i riquadri di visualizzazione per dispositivi mobili che desider
    * Symbian
    * Blackberry
 
-   Se utilizzi il [Compositore esperienza avanzato](../../c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e scegli un sistema operativo,  emulerà tale dispositivo quando visualizzerai la pagina. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
+   Se utilizzi il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) e scegli un sistema operativo,  emulerà tale dispositivo quando visualizzerai la pagina. [!DNL Target] If, for example, there is a different look and feel for Android than iOS on your responsive site, [!DNL Target] mimics that behavior.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
