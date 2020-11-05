@@ -4,7 +4,7 @@ title: Compositore esperienza visivo (VEC) di Adobe Target
 feature: vec
 uuid: f1e6f67e-1d7e-4806-8389-2ce165b534b4
 translation-type: tm+mt
-source-git-commit: fbb0a4b07f9294846aac88ac692159e658c2c8e2
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1376'
 ht-degree: 97%
@@ -54,7 +54,7 @@ Puoi inoltre fare clic su **[!UICONTROL Sfoglia]** e passare dalla pagina princi
 >
 >Se uno stato hover dipende da JavaScript, assicurati che **[!UICONTROL Disabilita JavaScript]** non sia selezionato. Per modificare elementi JavaScript è necessario che JavaScript sia abilitato.
 
-Per informazioni sulle opzioni disponibili nel Compositore esperienza visivo, vedi [Opzioni del Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
+Per informazioni sulle opzioni disponibili nel Compositore esperienza visivo, vedi [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81).
 
 È possibile eseguire alcune modifiche su una pagina mentre questa è in fase di caricamento (o dopo il suo mancato caricamento), oppure è possibile annullarne nel Compositore esperienza visivo. Per ulteriori informazioni, consulta:
 
@@ -133,7 +133,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 ### Orario ufficio: distintivo ![Esercitazione di Visual Experience Composer (Compositore esperienza visivo)](/help/assets/tutorial.png)
 
-Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
 * Funzionamento del Compositore esperienza visivo
 * Come evitare i problemi più comuni con Compositore esperienza visivo
