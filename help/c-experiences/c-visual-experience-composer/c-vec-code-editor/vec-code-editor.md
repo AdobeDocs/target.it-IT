@@ -7,7 +7,7 @@ subtopic: Code Editor
 topic: Standard
 uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -19,7 +19,7 @@ ht-degree: 100%
 
 Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 
-La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e [selezionando un&#39;azione](../../../c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
+La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e [selezionando un&#39;azione](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
 
 ## Panoramica sulle modifiche {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -69,7 +69,7 @@ Utilizza la pagina Modifiche per:
 
    >[!NOTE]
    >
-   >Per aprire il pannello Modifiche nel Compositore esperienza basato su modulo, crea o modifica un’offerta HTML. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](../../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
+   >Per aprire il pannello Modifiche nel Compositore esperienza basato su modulo, crea o modifica un’offerta HTML. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E).
 
    Viene visualizzata la pagina delle [!UICONTROL modifiche], che suddivide lo schermo tra la modalità visiva e il pannello Modifiche a destra. Fai clic sull’icona [!UICONTROL Ancora] per ancorare il pannello Modifiche in verticale lungo il lato dell’interfaccia di Target oppure in orizzontale lungo il bordo inferiore. Nota che l&#39;esperienza A nella figura seguente non ha modifiche precedenti.
 
@@ -191,7 +191,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 * Aggiungi i modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. Questi modelli di esperienza sono disponibili gratuitamente per gli sviluppatori e i rivenditori come punto di partenza per eseguire alcuni casi comuni di utilizzo esterno in Adobe Target (tramite il Compositore esperienza visivo o il Compositore esperienza basato su modulo). I casi di utilizzo includono lightbox, giostre, countdown e altro ancora.
 
-   Per ulteriori informazioni, consulta [Modelli di esperienza](../../../c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
+   Per ulteriori informazioni, consulta [Modelli di esperienza](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/experience-templates.md#concept_109BBD7EABC04DD39E6B7B1687786652).
 
 ## Tecniche consigliate per il codice personalizzato {#section_10DFFD9FB92A43C1BB444A45E0272B28}
 
@@ -246,7 +246,7 @@ Ogni modifica crea un nuovo elemento nel pannello Modifiche. La seconda azione m
 
 In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, il pannello Modifiche mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se elimini l&#39;elemento originale, il testo modificato non sarà in grado di trovare l&#39;elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
 
-***Un elemento che ho creato usando`document.write`in uno script non appare dove previsto.***
+***Un elemento che ho creato usando `document.write` in uno script non appare dove previsto.***
 
 Gli script vengono eseguiti in modo asincrono. Questo causa spesso la comparsa delle azioni `document.write` nel punto sbagliato della pagina. Adobe consiglia di non utilizzare `document.write` negli script creati nel codice personalizzato.
 
