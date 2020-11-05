@@ -6,7 +6,7 @@ feature: vec
 topic: Classic
 uuid: 8d1d199b-b3d7-4edb-ba05-bd97372a0b9e
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -22,11 +22,11 @@ Segui queste best practice per evitare che si verifichino problemi imprevisti co
 
 ## Best practice {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Per mbox.js versione 57 e successive e per at.js, inserisci il riferimento a mbox.js o at.js nella parte superiore della sezione`<head>`della pagina.**
+**Per mbox.js versione 57 e successive e per at.js, inserisci il riferimento a mbox.js o at.js nella parte superiore della sezione `<head>` della pagina.**
 
 Se utilizzi anche il servizio API visitatore, inserisci il relativo script prima di mbox.js o at.js.
 
-**Per le versioni di mbox.js precedenti alla 57, posiziona il codice mbox.js il più in basso possibile nella sezione`<head>`della pagina.**
+**Per le versioni di mbox.js precedenti alla 57, posiziona il codice mbox.js il più in basso possibile nella sezione `<head>` della pagina.**
 
 Inserisci mbox.js alla fine della sezione `<head>`, senza dichiarazioni aggiuntive successive. In caso contrario, eventuali tag di script o di collegamento verranno spostati nella sezione `<body>`.
 
@@ -99,9 +99,9 @@ Ogni modifica crea un nuovo elemento nel Compositore esperienza visivo. La secon
 
 In altre parole, se aggiungi un elemento con testo e modifichi tale elemento con un testo diverso in un&#39;azione separata, l&#39;editor di codice mostrerà entrambe le azioni come elementi distinti. Durante la modifica dell&#39;elemento è stato creato un nuovo elemento, contenente il testo modificato, che modifica l&#39;elemento originale creato. Se elimini l&#39;elemento originale, il testo modificato non sarà in grado di trovare l&#39;elemento modificato e non verrà visualizzato. Il secondo elemento rimarrà nell&#39;elenco senza tuttavia influire sulla pagina, poiché l&#39;elemento da modificare non esiste più.
 
-Consulta [Selettori di elementi utilizzati nel Compositore esperienza visivo](../../c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
+Consulta [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/vec-selectors.md#concept_4EB7663E255F439B8D24079D23479337).
 
-**Utilizza i tag`<b>`e`<i>`per la formattazione di elementi di testo con l’editor di testo RTF.**
+**Utilizza i tag `<b>` e `<i>` per la formattazione di elementi di testo con l’editor di testo RTF.**
 
 * Per il testo in grassetto, utilizza `<b>` anziché `<strong>`.
 * Per il testo in corsivo, utilizza `<i>` anziché `<em>`.
@@ -112,7 +112,7 @@ I tag `<strong>` e `<em>` potrebbero causare risultati imprevisti.
 
 Alcuni campi modulo potrebbero essere obbligatori per l&#39;invio. La loro eliminazione potrebbe influenzare gli invii.
 
-**Non includere`mboxCreate`all’interno degli script.**
+**Non includere `mboxCreate` all’interno degli script.**
 
 Poiché `mboxCreate` utilizza `document.write`, si sconsiglia di includere `mboxCreate` negli script. Per tale scopo, utilizza invece `mboxDefine` e `mboxUpdate`.
 
@@ -151,7 +151,7 @@ Ad esempio, non è possibile indirizzare il testo del carrello acquisti nel Comp
 
 In questo esempio, nel Compositore di esperienza visiva viene selezionato tutto l&#39;elemento di ancoraggio, che causa un&#39;influenza negativa su altri elementi in caso di esecuzione del targeting.
 
-**Non utilizzare le variabili`top`o`self`nel codice JavaScript.**
+**Non utilizzare le variabili `top` o `self` nel codice JavaScript.**
 
 Quando il Compositore esperienza avanzato è abilitato, il valore della parte superiore e delle variabili self vengono aggiornati per annullare la non compatibilità con iframe. Per aggiungere il busting iframe, utilizza un&#39;intestazione X-frame-options invece dei codici JavaScript personalizzati.
 
@@ -190,7 +190,7 @@ Disattiva le tecniche di busting iframe sul sito web e verifica se questo si apr
 
 **La funzione Sposta non supporta la funzionalità z-index.**
 
-In assenza della funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](../../c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
+In assenza della funzionalità z-index, l&#39;elemento spostato non può essere spostato sopra un altro elemento. Per ulteriori dettagli, vedi [Limitazioni](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
 **La ridisposizione degli elementi influenza il monitoraggio dei clic.**
 
@@ -198,7 +198,7 @@ Se ridisponi un elemento contrassegnato per il rilevamento di clic, i percorsi d
 
 Ciò si verifica perché sia il codice per distribuire il contenuto dell&#39;attività sia il codice per tenere traccia dei clic è incluso in un segmento di codice recapitato alla pagina. Se passi a una pagina diversa e imposti il rilevamento dei clic, il codice del contenuto dell&#39;attività e il codice di monitoraggio dei clic vengono recapitati a tale pagina. Se la pagina di rilevamento dei clic ha una struttura simile alla pagina in cui viene eseguito il test, il contenuto del test può anche essere visualizzato nella pagina di rilevamento dei clic.
 
-**L’inserimento di un elemento potrebbe non funzionare in un`<div>`costituito da una mbox.**
+**L’inserimento di un elemento potrebbe non funzionare in un `<div>` costituito da una mbox.**
 
 Se nella mbox è contenuta un&#39;offerta e questa è implementata in modo errato, inserendo un elemento è possibile che venga visualizzato come insertBefore e non come insertAfter.
 
