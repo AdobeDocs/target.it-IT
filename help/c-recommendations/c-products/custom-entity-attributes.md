@@ -6,7 +6,7 @@ feature: entities
 mini-toc-levels: 3
 uuid: ccebcd16-7d8f-468f-8474-c89b0f029bdb
 translation-type: tm+mt
-source-git-commit: 175a08155f57fa6355014ee05cfca2606b245be6
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 91%
@@ -53,11 +53,11 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 >[!NOTE]
 >
->Per cambiare un attributo con più valori in attributo con valore singolo, devi cancellare il catalogo e caricare i dati prodotto corretti. L’eliminazione del catalogo non comporta l’eliminazione dei dati cronologici associati agli ID dei prodotti. Per ulteriori informazioni, consulta [Eliminazione di tutti gli elementi dal sistema](../../assets/adobe-recommendations-classic.pdf) nella documentazione di *Adobe Recommendations Classic*.
+>Per cambiare un attributo con più valori in attributo con valore singolo, devi cancellare il catalogo e caricare i dati prodotto corretti. L’eliminazione del catalogo non comporta l’eliminazione dei dati cronologici associati agli ID dei prodotti. Per ulteriori informazioni, consulta [Eliminazione di tutti gli elementi dal sistema](/help/assets/adobe-recommendations-classic.pdf) nella documentazione di *Adobe Recommendations Classic*.
 
 **Limitazioni**:
 
-* Non è possibile utilizzare nomi di attributi di entità predefiniti per attributi di entità personalizzati. (Consulta [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
+* Non è possibile utilizzare nomi di attributi di entità predefiniti per attributi di entità personalizzati. (Consulta [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F).)
 * L’attributo `entity.environment` è riservato dal sistema e non può essere utilizzato per gli attributi di entità personalizzati. I tentativi di passare `entity.environment` tramite `targetPageParams`, feed o API verranno ignorati.
 * Gli array devono contenere un unico tipo di valore. Gli array con valori misti (`["AB",1,true]`) non sono supportati.
 * Un attributo con più valori che include un array JSON nidificato (`[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
@@ -263,4 +263,4 @@ Quando `entity.genre=["genre1","genre2"]` ha un riferimento in un progetto come 
 
 ## Argomenti correlati:
 
-* [Attributi di entità](../../c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
+* [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md#reference_3BCC1383FB3F44F4A2120BB36270387F)
