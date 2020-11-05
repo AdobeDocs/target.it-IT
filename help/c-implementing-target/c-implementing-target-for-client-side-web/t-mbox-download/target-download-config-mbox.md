@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: b2a46321-cac7-4924-92dd-a80b50e27cee
 translation-type: tm+mt
-source-git-commit: a51addc6155f2681f01f2329b25d72327de36701
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '187'
 ht-degree: 94%
@@ -25,7 +25,7 @@ Per utilizzare l&#39;[!DNL Adobe Target]Editor di esperienza visiva[!UICONTROL  
 1. Fai clic su **[!UICONTROL Scarica mbox.js]** e segui le istruzioni per salvare il file.
 1. (Opzione d&#39;uso) Se si utilizza la versione 60 o successiva di [!DNL mbox.js], è possibile configurare la libreria per nascondere automaticamente il contenuto della pagina per impostazione predefinita durante il caricamento degli elementi mbox per ridurre la visualizzazione momentanea di altro contenuto sui siti reattivi.
 
-   Per ulteriori informazioni, consulta “Eliminare visualizzazione momentanea di altri contenuti al caricamento della pagina” in [Impostazioni avanzate di mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
+   Per ulteriori informazioni, consulta “Eliminare visualizzazione momentanea di altri contenuti al caricamento della pagina” in [Impostazioni avanzate di mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/advanced-mboxjs-settings.md#reference_A9C8DAC6DF7743EDBCF1D71F8F20843C).
 
 1. Crea il riferimento a [!DNL mbox.js] sul sito web.
 
