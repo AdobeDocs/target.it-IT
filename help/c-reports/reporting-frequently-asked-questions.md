@@ -6,7 +6,7 @@ feature: reports
 topic: Standard
 uuid: 0be40d3f-3274-493d-899b-cb7bb3612baf
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1110'
 ht-degree: 31%
@@ -50,7 +50,7 @@ Considerate l&#39;esempio seguente, tenendo conto delle condizioni sopra indicat
 * Un visitatore visita il sito per la prima volta e viene conteggiato come Nuovo visitatore.
 * Il visitatore ritorna al sito dopo che sono state soddisfatte le condizioni per i visitatori di ritorno e viene conteggiato come Visitatore di ritorno.
 
-Questo visitatore viene conteggiato come un singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato sia nei segmenti New Visitors (Nuovi visitatori) che Return Visitors (Visitatori di ritorno).
+Questo visitatore viene conteggiato come singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato nei segmenti Nuovi visitatori e Visitatori di ritorno.
 
 **Esempio 2**: Le discrepanze tra i conteggi per i nuovi visitatori e i visitatori di ritorno dipendono anche da come configurate le metriche [di](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività.
 
@@ -94,7 +94,7 @@ Per modificare l’ambiente per il rapporto di un’attività:
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-Per ulteriori informazioni sugli ambienti, vedi [Host](../administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+Per ulteriori informazioni sugli ambienti, vedi [Host](/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
 
 ## Perché la divisione del traffico tra le mie esperienze non è uniforme nell&#39;attività A/B o MVT? {#uneven}
 
@@ -103,7 +103,7 @@ Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25, ma
 * Quando un&#39; [!DNL Target] attività viene avviata per la prima volta, la distribuzione del traffico potrebbe non essere uniforme a causa dell&#39;architettura dei nodi periferici che [!DNL Target] utilizza per ottimizzare la distribuzione dell&#39;esperienza. La procedura ottimale consiste nel concedere a un&#39;attività un certo tempo per la raccolta di dati aggiuntivi e la distribuzione si normalizzerà. Per ulteriori informazioni sull&#39; [!DNL Adobe Target] architettura e sui nodi Edge, vedere [Come  funziona](/help/c-intro/how-target-works.md)Adobe Target.
 * Se vi trovate in [!DNL Target] o [!DNL Analytics] e utilizzate la metrica **[!UICONTROL Visite]** , ricordate che [!DNL Target] è un sistema basato sui visitatori e che la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se si esaminano i risultati dell&#39;attività utilizzando la metrica **[!UICONTROL Visite]** , la distribuzione del traffico potrebbe apparire diseguale perché alcuni visitatori potrebbero avere più visite. I visitatori sono la metrica standard di normalizzazione per la valutazione delle prestazioni dell&#39;attività.
 * La procedura ottimale per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. La modifica della distribuzione del traffico tra le esperienze (ad esempio da 90/10 a 50/50) durante un test può portare a visitatori irregolari tra le esperienze. L&#39;esperienza di traffico inferiore potrebbe non &quot;raggiungere&quot;.
-* Se state seguendo le best practice sopra riportate e la suddivisione del traffico non si normalizza nel tempo, è necessario verificare quanto segue:
+* Se state seguendo le best practice indicate sopra e la suddivisione del traffico non si normalizza nel tempo, è necessario verificare quanto segue:
 
    * Utilizzi la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta i dettagli [della versione](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
 
