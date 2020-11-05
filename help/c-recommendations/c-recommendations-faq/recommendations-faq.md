@@ -5,7 +5,7 @@ title: ' Adobe Target Recommendations FAQ'
 feature: recommendations general
 uuid: 27752811-0ffe-4d60-83d1-39e18b1953d5
 translation-type: tm+mt
-source-git-commit: e603c623b47c3c5391ba76da811f2e72daf22616
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2019'
 ht-degree: 80%
@@ -66,7 +66,7 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-L’impostazione [Filtra criteri incompatibili](../../c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) di Target consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
+L’impostazione [Filtra criteri incompatibili](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) di Target consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
 
 >[!NOTE]
 >
@@ -161,7 +161,7 @@ Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico l
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, si consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente dovrebbe essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Ulteriori limiti sulla lunghezza delle colonne richieste sono disponibili nella [pagina Limitazioni di Target](../../r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
+Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, si consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente dovrebbe essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Ulteriori limiti sulla lunghezza delle colonne richieste sono disponibili nella [pagina Limitazioni di Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
 ## È possibile escludere un’entità in modo dinamico?
 
