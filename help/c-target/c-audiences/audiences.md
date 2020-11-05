@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '881'
 ht-degree: 95%
@@ -60,7 +60,7 @@ Fai clic sull’icona Visualizza nella pagina Panoramica di un’attività per a
 
 ![Attività > Definizione pubblico](assets/audience_definition_list.png)
 
-Fai clic sulla scheda [!UICONTROL Utilizzo tipo di pubblico] per visualizzare altre attività che fanno riferimento a tale pubblico, se applicabile. In questo modo puoi evitare un impatto accidentale su altre attività mentre modifichi i tipi di pubblico. Le informazioni includono attività live, inattive, archiviate e di sincronizzazione. Questa funzione è disponibile per tutti i tipi di pubblico (pubblico della libreria e [pubblico per sola attività](../../c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
+Fai clic sulla scheda [!UICONTROL Utilizzo tipo di pubblico] per visualizzare altre attività che fanno riferimento a tale pubblico, se applicabile. In questo modo puoi evitare un impatto accidentale su altre attività mentre modifichi i tipi di pubblico. Le informazioni includono attività live, inattive, archiviate e di sincronizzazione. Questa funzione è disponibile per tutti i tipi di pubblico (pubblico della libreria e [pubblico per sola attività](/help/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483)).
 
 Se un pubblico viene combinato con un altro e il pubblico combinato viene utilizzato per creare un&#39;attività, nelle informazioni di utilizzo per entrambi i tipi di pubblico verrà riportata l&#39;attività appena creata.
 
