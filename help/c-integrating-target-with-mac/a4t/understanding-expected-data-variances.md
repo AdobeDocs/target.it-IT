@@ -6,7 +6,7 @@ feature: a4t troubleshooting
 topic: Advanced
 uuid: 61bef460-8613-4251-b1b2-b6226ec86d9b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '853'
 ht-degree: 100%
@@ -36,7 +36,7 @@ Di seguito sono riportati alcuni scenari in cui potresti riscontrare una varianz
 
 * Supponi di creare un’attività di allocazione automatica aperta a tutti i visitatori di una pagina particolare. Dato che le attività di allocazione automatica non supportano A4T, tutti i dati delle attività vengono raccolti per [!DNL Target]. Potresti aspettarti che i visitatori dell’attività corrispondano, nei rapporti di [!DNL Target], ai visitatori di quella pagina nei rapporti di [!DNL Analytics] considerando stesso intervallo di date. È uno scenario in cui la varianza descritta sotto è prevista.
 
-   Per un elenco completo dei tipi di attività che supportano A4T, consulta [Tipi di attività supportate](../../c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
+   Per un elenco completo dei tipi di attività che supportano A4T, consulta [Tipi di attività supportate](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA).
 
 ## Varianza dei dati prevista quando *non si utilizza* A4T {#expected-not-using-a4t}
 
