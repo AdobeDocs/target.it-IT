@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Standard
 uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%
@@ -103,8 +103,8 @@ Informazioni su come utilizzare un pubblico con [!UICONTROL Affinità tra catego
 
 Questa sezione contiene le seguenti informazioni:
 
-* [Creare un pubblico da utilizzare per Affinità tra categorie](../../c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
-* [Utilizzare il pubblico con Affinità tra categorie in unʼattività](../../c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
+* [Creare un pubblico da utilizzare per Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md#section_A27C600BBA664FE7A74F8FE076B78F40)
+* [Utilizzare il pubblico con Affinità tra categorie in unʼattività](/help/c-target/c-visitor-profile/category-affinity.md#section_91526B942D1B4AEBB8FCDF4EBFF931CF)
 
 ## Creare un pubblico da utilizzare per Affinità tra categorie {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
