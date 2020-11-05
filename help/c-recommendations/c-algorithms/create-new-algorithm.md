@@ -5,7 +5,7 @@ title: Creare criteri
 feature: criteria
 uuid: 603d4b02-cdb6-40aa-9654-0086c23b0c8e
 translation-type: tm+mt
-source-git-commit: 108bbe65732b7df20caf9df6b3e5b77e3c31c457
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2422'
 ht-degree: 66%
@@ -75,7 +75,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
 1. Seleziona la **[!UICONTROL Logica consigli]**.
 
-   Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](../../c-recommendations/c-algorithms/algorithms.md).
+   Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
    >[!NOTE]
    >
