@@ -5,7 +5,7 @@ title: Confronto tra Recommendations Classic e le attività Consigli di Target P
 feature: recommendations general
 uuid: 5917bd3b-f321-4348-b9b0-4fba6a1f3d1a
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '647'
 ht-degree: 100%
@@ -52,14 +52,14 @@ Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendat
 
 I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l&#39;utilizzo in una pagina del prodotto, mostrando prodotti all&#39;interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
 
-Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](../../c-recommendations/c-algorithms/algorithms.md).
+Per ulteriori informazioni sull’utilizzo e la creazione dei criteri, vedi [Criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Flusso di lavoro {#section_76B4A26297BF422382DE2C79A2713D3C}
 
 Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché compilare moduli complicati, puoi seguire un flusso di lavoro visivo che consente di:
 
 1. Selezionare i criteri.
-1. Selezionare una [progettazione](../../c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
+1. Selezionare una [progettazione](/help/c-recommendations/c-design-overview/create-design.md#task_CC5BD28C364742218C1ACAF0D45E0E14).
 1. Visualizzare in anteprima i consigli risultanti.
 
 ## Anteprima visiva {#section_639B9E38C9EC4093BF9023EE0F2A15AC}
