@@ -5,7 +5,7 @@ title: Per quanto tempo si deve eseguire un test A/B?
 feature: ab
 uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 82996c9fe97e43f26f03f95c62292461e094d588
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
@@ -21,7 +21,7 @@ Si potrebbe essere tentati di interrompere un&#39;attività se nei primi giorni 
 
 >[!IMPORTANT]
 >
->L&#39;arresto prematuro di un&#39;attività è uno dei dieci errori significativi a cui potresti essere vittima durante l&#39;esecuzione di test A/B. Per ulteriori informazioni, vedete [Dieci comuni insidie di test A/B e come evitarle](../../c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>L&#39;arresto prematuro di un&#39;attività è uno dei dieci errori significativi a cui potresti essere vittima durante l&#39;esecuzione di test A/B. Per ulteriori informazioni, vedete [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] fornisce strumenti per garantire che l&#39;attività disponga di dimensioni di esempio sufficienti per raggiungere gli obiettivi di conversione: Allocazione automatica.
 
@@ -37,7 +37,7 @@ The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL L’allocazione automati
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. [!DNL Target] dichiara quindi l&#39;esperienza vincente mostrando un badge nella parte superiore della pagina dell&#39;attività.
 
-For more information, see [Auto-Allocate overview](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
