@@ -6,7 +6,7 @@ feature: release notes
 subtopic: Getting Started
 uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: d70e5c2c90b80b91ceb3b83800af330f436696d5
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '3977'
 ht-degree: 85%
@@ -228,7 +228,7 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 * I dettagli dell’evento `at-request-succeeded` contengono il flag di reindirizzamento. Questo flag può essere utilizzato per determinare se la pagina verrà reindirizzata a un URL diverso. Se desideri conoscere l&#39;URL, abbonati a `at-content-rendering-redirect`. (TNT-29834)
 * È stato risolto un problema che ha causato il mancato funzionamento di `window.targetGlobalSettings.enabled` con un&#39;eccezione di esecuzione se è stato impostato su falso. (TNT-29829)
 * È stato risolto un problema che ha causato un errore durante il caricamento nel Compositore esperienza visivo se si utilizza il codice personalizzato per una richiesta mbox globale di abilitazione e si nasconde il corpo. (TNT-29795)
-* È stato aggiunto il supporto per `screenOrientation`, `devicePixelRatio` e `webGLRenderer`. Questi nuovi parametri di richiesta di Target vengono utilizzati per iPhone X e altri sistemi di rilevamento dispositivi moderni. Per ulteriori informazioni, consulta [Mobile](../../c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-29781)
+* È stato aggiunto il supporto per `screenOrientation`, `devicePixelRatio` e `webGLRenderer`. Questi nuovi parametri di richiesta di Target vengono utilizzati per iPhone X e altri sistemi di rilevamento dispositivi moderni. Per ulteriori informazioni, consulta [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-29781)
 * È stato risolto un problema per cui il suggerimento di posizione di Adobe Audience Manager (AAM) non veniva sempre inviato. (TNT-29695)
 * Per i browser che lo supportano, at.js 1.5.0 passa a MutationObserver per la votazione del selettore. Le versioni precedenti a at.js 1.0.0 utilizzavano un polyfill MutationObserver, che si è dimostrato problematico. Per evitare problemi di polyfill, la versione 1.5.0 utilizza il seguente pseudo codice per decidere quale meccanismo di programmazione utilizzare:
 
@@ -264,13 +264,13 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 * at.js offre una funzionalità migliorata per il tracciamento di eventi e clic. at.js utilizza `navigator.sendBeacon()` per inviare i dati di tracciamento degli eventi; se `navigator.sendBeacon()` non è supportato, si basa su richieste XHR sincrone. Questa alternativa riguarda principalmente Internet Explorer 10 e 11 e alcune versioni di Safari. Con iOS 11.3, in Safari verrà aggiunto il supporto di `navigator.sendBeacon()`.
 * at.js ora può renderizzare le offerte anche quando una pagina viene aperta nelle schede in background. Alcuni utenti di Target hanno riscontrato problemi quando `requestAnimationFrame()` è stato disattivato a causa del comportamento di limitazione del browser per le schede in background.
 * In questa versione sono stati aggiunti svariati miglioramenti a livello di prestazioni, tra cui call stack più brevi durante l’ispezione di un profilo CPU in Chrome.
-* at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, consulta [Browser supportati](../../c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Da adesso in poi, tutte le richieste vengono eseguite tramite `XMLHttpRequest` con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza.
+* at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Da adesso in poi, tutte le richieste vengono eseguite tramite `XMLHttpRequest` con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza.
 
 ## at.js versione 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 È ora disponibile la versione 1.2.3 di [!DNL at.js].
 
-* Aggiunge il supporto per le offerte JSON. Le offerte JSON sono supportate solo nelle attività create utilizzando il Compositore esperienza basato su moduli. Attualmente le offerte JSON possono essere utilizzate solo tramite chiamate API dirette. Consulta [Creare offerte JSON](../../c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
+* Aggiunge il supporto per le offerte JSON. Le offerte JSON sono supportate solo nelle attività create utilizzando il Compositore esperienza basato su moduli. Attualmente le offerte JSON possono essere utilizzate solo tramite chiamate API dirette. Consulta [Creare offerte JSON](/help/c-experiences/c-manage-content/create-json-offer.md#concept_63C7BEE1F0DB4A7596D997219B7C136D).
 
 ## at.js versione 1.2.2 {#section_4E96D13F2DFE4F1F81A1089877D53649}
 
@@ -308,7 +308,7 @@ La versione 1.2 di [!DNL at.js] è ora disponibile come una versione di manutenz
 
 I seguenti miglioramenti e correzioni sono inclusi nella versione 1.1 di [!DNL at.js]:
 
-* È stata aggiunta la gestione dei token di risposta. Per ulteriori informazioni, consulta [Token di risposta](../../administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
+* È stata aggiunta la gestione dei token di risposta. Per ulteriori informazioni, consulta [Token di risposta](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 * È stato risolto un problema in modo che `document.currentScript polyfill` non interferisca con Angular 1.X.
 * Sono state apportate modifiche per garantire che il tracciamento dei clic non interferisca con la proprietà di visibilità. Gli elementi di tracciamento dei clic sono contrassegnati con la classe CSS `at-element-click-tracking` anziché `at-element-marker`.
 
@@ -326,7 +326,7 @@ I miglioramenti e le correzioni seguenti sono inclusi nella versione 1.0 di at.j
 * Segnalazione di bug ed errori per eventi personalizzati durante la consegna delle attività.
 * Correzione di problemi di prestazione in Microsoft Internet Explorer 11.
 * Risoluzione della funzione `getOffer()` che dava un errore su alcuni siti web.
-* È possibile caricare la libreria di Target in modo asincrono. Per ulteriori informazioni, consulta [Domande frequenti su at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
+* È possibile caricare la libreria di Target in modo asincrono. Per ulteriori informazioni, consulta [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## at.js versione 0.9.7 {#section_6C7B698BE21E40E495FD2850EFBF3E80}
 
@@ -342,7 +342,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.7 di [!DNL
 
 I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL at.js]:
 
-* Supporto per le offerte di reindirizzamento per A4T. Dopo aver scaricato e installato la versione 0.9.6 di [!DNL at.js], è possibile utilizzare le offerte di reindirizzamento in attività che utilizzano [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T). Oltre alla versione 0.9.6 di [!DNL at.js], l’implementazione deve soddisfare altri requisiti minimi al fine di usare le offerte di reindirizzamento e A4T. Per ulteriori informazioni e importanti informazioni aggiuntive che dovresti conoscere, consulta [Offerte di reindirizzamento: domande frequenti su A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Supporto per le offerte di reindirizzamento per A4T. Dopo aver scaricato e installato la versione 0.9.6 di [!DNL at.js], è possibile utilizzare le offerte di reindirizzamento in attività che utilizzano [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T). Oltre alla versione 0.9.6 di [!DNL at.js], l’implementazione deve soddisfare altri requisiti minimi al fine di usare le offerte di reindirizzamento e A4T. Per ulteriori informazioni e importanti informazioni aggiuntive che dovresti conoscere, consulta [Offerte di reindirizzamento: domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Prima della versione 0.9.6 di [!DNL at.js], se l’API visitatore era presente nella pagina e l’impostazione `visitorApiTimeout` era troppo aggressiva, poteva capitare che i dati MCID non venissero inviati nella richiesta di [!DNL Target]. Questo poteva portare a problemi come la presenza di dati parziali in [!DNL Analytics] durante l’utilizzo di A4T.
 
    Questo comportamento è stato modificato nella versione 0.9.6 di [!DNL at.js]: anche se l’impostazione `visitorApiTimeout` è impostata su 1 ms, ad esempio, Target tenterà di raccogliere SDID, server di tracciamento e dati degli ID cliente, per inviarli nella richiesta di Target.
@@ -361,7 +361,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 
 * I nomi mbox possono ora contenere caratteri speciali, tra cui il simbolo &amp;, per essere coerenti con i requisiti di denominazione per i nomi mbox che utilizzano mbox.js.
 
-   Per un elenco dei caratteri speciali consentiti, consulta [Configurazioni at.js](../../c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
+   Per un elenco dei caratteri speciali consentiti, consulta [Configurazioni at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
 * È stata aggiunta l’impostazione `secureOnly` che indica se at.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False e può essere bypassata tramite `targetGlobalSettings`.
 * L&#39;opzione [!UICONTROL Supporto di browser legacy] è disponibile nelle versioni 0.9.3 e precedenti di at.js. Questa opzione è stata rimossa nella versione 0.9.4 di at.js.
