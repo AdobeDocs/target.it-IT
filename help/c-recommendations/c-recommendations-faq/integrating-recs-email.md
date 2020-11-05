@@ -6,7 +6,7 @@ feature: recommendations general
 topic: Recommendations
 uuid: ae137d7c-58c5-4601-92fc-2dc5548760fd
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1459'
 ht-degree: 91%
@@ -71,7 +71,7 @@ Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esemp
 
 Questo approccio ti consente di monitorare le prestazioni dei consigli nelle e-mail, sottoporli normalmente a test con un consiglio e continuare il monitoraggio sul sito.
 
-Configura un’attività [!DNL Recommendations] in [!DNL Adobe Target] utilizzando l’opzione [Compositore esperienza basata su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Per il percorso, seleziona il nome dell&#39;elemento mbox che hai deciso di utilizzare nella richiesta rawbox proveniente dall&#39;ESP. Seleziona una progettazione con l&#39;aspetto che desideri per la tua e-mail. Al momento della compilazione dell&#39;e-mail, l&#39;ESP effettua una chiamata ai server di [!DNL Adobe Target] per ogni rawbox in ogni e-mail che viene generata. L&#39;ESP deve disporre di un modo per includere l&#39;HTML restituito nell&#39;e-mail quando viene inviato.
+Configura un’attività [!DNL Recommendations] in [!DNL Adobe Target] utilizzando l’opzione [Compositore esperienza basata su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E). Per il percorso, seleziona il nome dell&#39;elemento mbox che hai deciso di utilizzare nella richiesta rawbox proveniente dall&#39;ESP. Seleziona una progettazione con l&#39;aspetto che desideri per la tua e-mail. Al momento della compilazione dell&#39;e-mail, l&#39;ESP effettua una chiamata ai server di [!DNL Adobe Target] per ogni rawbox in ogni e-mail che viene generata. L&#39;ESP deve disporre di un modo per includere l&#39;HTML restituito nell&#39;e-mail quando viene inviato.
 
 Il sistema di posta elettronica utilizzato deve essere in grado di gestire questi scenari:
 
@@ -141,4 +141,4 @@ Configura un consiglio come al solito, ma scegli **solo download** nella sezione
 
 Con questa opzione, il server dei consigli non è in grado di monitorare direttamente le prestazioni di un consiglio o di suddividere il traffico tra più combinazioni di algoritmo/modello. Inoltre, i consigli non sono legati al profilo di un visitatore.
 
-Per ulteriori informazioni sull&#39;API di download, vedi [API Legacy > Download](../../assets/adobe-recommendations-classic.pdf).
+Per ulteriori informazioni sull&#39;API di download, vedi [API Legacy > Download](/help/assets/adobe-recommendations-classic.pdf).
