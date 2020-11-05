@@ -6,7 +6,7 @@ feature: server-side
 topic: Standard
 uuid: f8a0ab54-5840-4430-b9be-19e689b1c09a
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '599'
 ht-degree: 93%
@@ -20,7 +20,7 @@ Informazioni sulla transizione dalle API legacy di Target alle nuove API su Adob
 
 Con il ritiro di Adobe Target Classic, le API che sono connesse al tuo account Target Classic sono state rese non disponibili. Questo documento è utile per effettuare la transizione dalle API legacy di Target alle nuove API su Adobe I/O.
 
-Per ulteriori informazioni sulla documentazione API di Target, vedi [API di Target e SDK di NodeJS](../../c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Per ulteriori informazioni sulla documentazione API di Target, vedi [API di Target e SDK di NodeJS](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
 ## Terminologia {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
