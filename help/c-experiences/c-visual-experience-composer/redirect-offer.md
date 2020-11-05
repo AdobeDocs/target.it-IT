@@ -6,7 +6,7 @@ subtopic: Multivariate Test
 topic: Standard
 uuid: e6515279-8a6e-4265-aa2d-700ee81eb143
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 100%
@@ -24,7 +24,7 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 Le offerte di reindirizzamento implicano alcune limitazioni:
 
-* Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](../../c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
+* Per le offerte di reindirizzamento nelle attività che utilizzano A4T, l&#39;implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905).
 * Quando si utilizza il Compositore esperienza basato su moduli, le offerte di reindirizzamento non devono essere utilizzate su elementi mbox che fanno parte della pagina. Un&#39;offerta di reindirizzamento deve essere utilizzata solo a partire da un tag script che fa parte del codice HTML `<head>`. Dovresti sempre utilizzare la funzione di creazione automatica e impostare l&#39;offerta di reindirizzamento per l&#39;elemento mbox globale.
 
 >[!NOTE]
