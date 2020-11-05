@@ -6,7 +6,7 @@ feature: intro
 topic: Advanced
 uuid: 70ccfbe9-c240-4380-9f43-522af51c1d5f
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 86%
@@ -38,7 +38,7 @@ In Target Premium sono incluse le seguenti funzionalità Premium:
 
 ### Personalizzazione automatizzata
 
-[Personalizzazione automatizzata](../c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) fornisce algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e tassi di conversione migliorati per le esperienze digitali.
+[Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) fornisce algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e tassi di conversione migliorati per le esperienze digitali.
 
 Nella funzionalità Personalizzazione automatizzata (ex Test&amp;Target 1:1) viene registrata l&#39;attività dei visitatori sul sito con la creazione di un profilo che rende possibile eseguire il targeting del contenuto per visitatori simili. Vengono monitorate le risposte al contenuto sia per i singoli sia per la popolazione nel suo complesso, e utilizzati sofisticati approcci di modellazione per eseguire automaticamente il targeting di ogni singolo visitatore valutandone tutte le informazioni note.
 
@@ -50,7 +50,7 @@ Con la funzionalità Personalizzazione automatizzata vi è un apprendimento auto
 
 ### Consigli
 
-Mediante le attività [Consigli](../c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) vengono visualizzati automaticamente prodotti o contenuti che potrebbero interessare ai clienti sulla base delle loro precedenti attività. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
+Mediante le attività [Consigli](/help/c-recommendations/recommendations.md#concept_7556C8A4543942F2A77B13A29339C0C0) vengono visualizzati automaticamente prodotti o contenuti che potrebbero interessare ai clienti sulla base delle loro precedenti attività. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
 Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in base alle sue attività sul sito. Ad esempio:
 
@@ -79,13 +79,13 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 
 ### Autorizzazioni per gli utenti Enterprise
 
-[La funzionalità Autorizzazioni](../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) utente Enterprise consente di creare diversi progetti (denominati &quot;Profili di prodotto&quot; in [!DNL Adobe Admin Console for Enterprise]) per consentire di assegnare diverse autorizzazioni a un singolo utente che stabilisce i diritti di accesso dell&#39;utente per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti potranno limitare la visualizzazione, la modifica, l&#39;approvazione e l&#39;accesso al pubblico ai propri utenti in base all&#39;area geografica, all&#39;ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
+[La funzionalità Autorizzazioni](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) utente Enterprise consente di creare diversi progetti (denominati &quot;Profili di prodotto&quot; in [!DNL Adobe Admin Console for Enterprise]) per consentire di assegnare diverse autorizzazioni a un singolo utente che stabilisce i diritti di accesso dell&#39;utente per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti potranno limitare la visualizzazione, la modifica, l&#39;approvazione e l&#39;accesso al pubblico ai propri utenti in base all&#39;area geografica, all&#39;ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
 Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 
-Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](../assets/adobe-recommendations-classic.pdf).
+Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
 ## Experience League: kit di benvenuto per Adobe Target {#kit}
 
