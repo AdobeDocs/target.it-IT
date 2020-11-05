@@ -6,7 +6,7 @@ feature: visitor profiles
 topic: Advanced,Standard,Classic
 uuid: a76ed523-32cb-46a2-a2a3-aba7f880248b
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2446'
 ht-degree: 78%
@@ -20,7 +20,7 @@ Gli attributi del profilo sono parametri specifici di un visitatore. Tali attrib
 
 Un profilo utente contiene informazioni demografiche e comportamentali relative a un visitatore di una pagina Web, ad esempio età, genere, prodotti acquistati, ultima ora della visita e così via, utilizzati da Target per personalizzare il contenuto che serve al visitatore.
 
-Quando un visitatore visita il sito Web o quando ritorna per un’altra sessione, gli attributi di profilo salvati nel profilo possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtraggio dei segmenti.
+Quando un visitatore naviga nel sito Web o quando il visitatore ritorna per un’altra sessione, gli attributi di profilo salvati nel profilo possono essere utilizzati per eseguire il targeting del contenuto o delle informazioni di registro per il filtraggio dei segmenti.
 
 Per impostare gli attributi di profilo:
 
@@ -122,7 +122,7 @@ Il sistema disabilita gli script di profilo in alcune circostanze. I motivi più
 * Riferimento a una variabile non definita.
 * Riferimento a un valore non valido. Questo fatto è spesso causato dal riferimento a valori URL e ad altri dati immessi dall’utente senza una corretta convalida.
 * Troppe istruzioni JavaScript. Target ha un limite di 2.000 istruzioni JavaScript per ogni script, ma è difficile calcolarle con la semplice lettura manuale del codice JavaScript. Ad esempio, Rhino tratta tutte le chiamate di funzione e le chiamate “nuove” come 100 istruzioni. Ciò significa che qualsiasi chiamata a una funzione richiede 100 istruzioni. Inoltre, la dimensione dei dati immessi, ad esempio i valori URL, può influire sul conteggio delle istruzioni.
-* Mancato rispetto delle istruzioni evidenziate nella sezione [Best practice](../../c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) qui sotto.
+* Mancato rispetto delle istruzioni evidenziate nella sezione [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#section_64AFE5D2B0C8408A912FC2A832B3AAE0) qui sotto.
 
 ## Best practice {#best}
 
@@ -179,7 +179,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 **È possibile utilizzare script di profilo per acquisire informazioni da una pagina che si trova in un livello di dati?**
 
-Gli script di profilo non sono in grado di leggere la pagina direttamente poiché vengono eseguiti lato server. I dati devono essere trasmessi mediante una richiesta mbox o altri [metodi per l’immissione di dati in Target](../../c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una volta che i dati sono in Target, gli script di profilo possono leggerli come un parametro mbox o un parametro di profilo.
+Gli script di profilo non sono in grado di leggere la pagina direttamente poiché vengono eseguiti lato server. I dati devono essere trasmessi mediante una richiesta mbox o altri [metodi per l’immissione di dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17). Una volta che i dati sono in Target, gli script di profilo possono leggerli come un parametro mbox o un parametro di profilo.
 
 ## Riferimento JavaScript per parametri del profilo di script
 
