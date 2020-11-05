@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
@@ -37,7 +37,7 @@ You can tell whether your organization has a Standard or Premium license by clic
    * Verrà visualizzata la scheda [!UICONTROL Proprietà] ( [!UICONTROL Amministrazione] > [!UICONTROL Proprietà] )
    * Verrà inoltre visualizzata la scheda [!UICONTROL Utenti] ( [!UICONTROL Amministrazione] > [!UICONTROL Utenti] )
 
-      [!DNL Target] I clienti Premium devono seguire le istruzioni riportate in Autorizzazioni [utente](../../administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise e [Configurare le Autorizzazioni](../../administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) Enterprise per aggiungere utenti e assegnare autorizzazioni nel [!DNL Adobe Admin Console].
+      [!DNL Target] I clienti Premium devono seguire le istruzioni riportate in Autorizzazioni [utente](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Enterprise e [Configurare le Autorizzazioni](/help/administrating-target/c-user-management/property-channel/properties-overview.md#concept_22F2855DBF0D4754B9460F5D68749C71) Enterprise per aggiungere utenti e assegnare autorizzazioni nel [!DNL Adobe Admin Console].
 
 L&#39;illustrazione seguente mostra la pagina [!UICONTROL Amministrazione] per un account [!DNL Target] Premium. Si noti che sono disponibili le schede [!UICONTROL Proprietà] e [!UICONTROL Utenti] :
 
