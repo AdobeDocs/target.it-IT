@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: c62ac156-b4cf-494c-979f-33f889abd118
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1515'
 ht-degree: 98%
@@ -105,7 +105,7 @@ I tipi di pubblico possono essere salvati e riutilizzati in più attività, oppu
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
 | Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. See [Audiences](https://docs.adobe.com/content/help/en/core-services/interface/audiences/audience-library.html) for examples. |
 
-Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](../c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
+Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
 ## Video di formazione:
 
