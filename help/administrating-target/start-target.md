@@ -7,7 +7,7 @@ subtopic: Getting Started
 topic: Standard
 uuid: 1a7ea739-4fa6-444a-8f39-17cf346c73c2
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '404'
 ht-degree: 92%
@@ -49,7 +49,7 @@ Dopo aver ricevuto l’invito per [!DNL Adobe Experience Cloud], accetta l’inv
    A questo punto, non disponi ancora di gruppi configurati con diritti per effettuare collegamenti.
 1. Puoi guardare il video con l’introduzione ad [!DNL Adobe Experience Cloud].
 1. Per visualizzare i nuovi privilegi e accedere al prodotto, disconnettiti da [!DNL Adobe Experience Cloud], quindi accedi nuovamente.
-1. Procedi al passaggio successivo, [Assegnarsi il ruolo Approvatore](../administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
+1. Procedi al passaggio successivo, [Assegnarsi il ruolo Approvatore](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## Assegnarsi il ruolo Approvatore {#task_15CAA437A71444E2932B333D5E66A3C7}
 
