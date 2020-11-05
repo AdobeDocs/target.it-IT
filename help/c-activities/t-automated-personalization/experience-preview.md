@@ -6,7 +6,7 @@ feature: ap
 topic: Standard
 uuid: 2ef07b6c-086d-43ac-bf02-efe217652a3a
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '786'
 ht-degree: 65%
@@ -26,7 +26,7 @@ Gli URL di anteprima esperienza possono essere generati per le attività di Targ
 
 Utilizzate gli URL di anteprima esperienza per condividere esperienze con i membri del team e per esperienze di QA tra browser e ambienti, senza creare un&#39;attività di QA separata. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
 
-1. Crea un’[attività di personalizzazione automatizzata](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oppure fai clic sull’attività per aprirla.
+1. Crea un’[attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9) oppure fai clic sull’attività per aprirla.
 
    L&#39;attività non deve essere live per visualizzare un&#39;anteprima dell&#39;esperienza.
 1. Nella pagina di riepilogo attività, fai clic sui tre punti verticali, quindi scegli **[!UICONTROL Visualizza gli URL di esperienza]**.
