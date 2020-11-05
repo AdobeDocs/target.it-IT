@@ -6,7 +6,7 @@ feature: audiences
 topic: Advanced,Standard,Classic
 uuid: aec09341-9b54-400c-a438-60058c52ac2a
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 99%
@@ -30,7 +30,7 @@ Secondo un altro esempio, è possibile indirizzare tutti i clienti fidelizzati i
 
 Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] dell’attività durante il flusso di lavoro guidato in tre passaggi.
 
-1. Quando crei un’[attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona dei tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Quando crei un’[attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona dei tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
@@ -82,7 +82,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
 Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e impostazioni] dell&#39;attività da utilizzare nel targeting metrico. Ad esempio, per creare un targeting basato sulla conversione utilizzando un pubblico combinato:
 
-1. Durante la modifica o la creazione di un&#39; [attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]**, seleziona **[!UICONTROL Conversione]** per la metrica di successo, quindi seleziona **[!UICONTROL Visualizza una mbox]** come azione.
+1. Durante la modifica o la creazione di un&#39; [attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]**, seleziona **[!UICONTROL Conversione]** per la metrica di successo, quindi seleziona **[!UICONTROL Visualizza una mbox]** come azione.
 1. Seleziona la mbox desiderata nel campo **[!UICONTROL Ricerca mbox]**.
 
    ![](assets/combine_multiple_audiences4.png)
@@ -92,17 +92,17 @@ Puoi creare un pubblico combinato specifico nella pagina [!UICONTROL Obiettivi e
 
    ![](assets/combine_multiple_audiences5.png)
 
-1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
+1. Procedi con il [Passaggio 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Crea un pubblico combinato durante la creazione di un&#39;attività” per creare il pubblico combinato.
 
 ## Creare un pubblico combinato per l’utilizzo nel rapporto {#section_4682D342EFBB43C38E54B99B3A1E14CD}
 
 Puoi creare un pubblico combinato specifico nella pagina dell&#39;attività [!UICONTROL Obiettivi e impostazioni] da utilizzare nel rapporto.
 
-1. Durante la modifica o la creazione di un’ [attività](../c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]** fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** in [!UICONTROL Pubblico per la creazione di rapporti] per visualizzare la pagina [!UICONTROL Scegli pubblico].
+1. Durante la modifica o la creazione di un’ [attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Obiettivi e impostazioni]** fai clic sull&#39;icona **[!UICONTROL Aggiungi pubblico]** in [!UICONTROL Pubblico per la creazione di rapporti] per visualizzare la pagina [!UICONTROL Scegli pubblico].
 
    ![](assets/combine_multiple_audiences6.png)
 
-1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Creare un pubblico combinato durante la creazione di un’attività” per creare il pubblico combinato.
+1. Procedi con il [Passaggio 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Creare un pubblico combinato durante la creazione di un’attività” per creare il pubblico combinato.
 
 ## Creare un pubblico combinato durante la modifica di un’attività {#section_364A12CE96E04B61B7C18113AA586C2C}
 
@@ -122,4 +122,4 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    ![Cambia pubblico](/help/c-target/assets/combine_multiple_audiences8.png)
 
-1. Procedi con il [Passaggio 2](../c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Creare un pubblico combinato durante la creazione di un’attività” per creare il pubblico combinato.
+1. Procedi con il [Passaggio 2](/help/c-target/combining-multiple-audiences.md#section_2F1CE9434CC04174B4BA2BFC89B85D77) in “Creare un pubblico combinato durante la creazione di un’attività” per creare il pubblico combinato.
