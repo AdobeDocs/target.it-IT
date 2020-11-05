@@ -5,7 +5,7 @@ title: ' Adobe Target Recommendations'
 feature: recommendations general
 uuid: 2aefd118-8fec-493d-ae4e-c1139c877a3f
 translation-type: tm+mt
-source-git-commit: a4479a26873f39a41782e78651802899512b87fe
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '930'
 ht-degree: 59%
@@ -21,7 +21,7 @@ ht-degree: 59%
 >
 >Le attività [!DNL Recommendations] sono disponibili come parte della soluzione [Target Premium](/help/c-intro/intro.md#premium). Non sono disponibili in [!DNL Target Standard] senza una licenza [!DNL Target Premium].
 >
->Se al momento disponi di [!DNL Recommendations Classic], consulta [Confronto tra Recommendations Classic e le attività Consigli di Target Premium](../c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) per ulteriori informazioni sulle due soluzioni.
+>Se al momento disponi di [!DNL Recommendations Classic], consulta [Confronto tra Recommendations Classic e le attività Consigli di Target Premium](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md#concept_A80223EF66634EA380580C2823A581C5) per ulteriori informazioni sulle due soluzioni.
 
 [!DNL Recommendations] ti consente di ottimizzare e personalizzare suggerimenti in tempo reale per diversi canali, applicazioni, pagine, messaggi di posta elettronica e altre opzioni di recapito per aumentare il coinvolgimento e la conversione riducendo il carico di gestione.
 
@@ -44,7 +44,7 @@ Una raccomandazione determina il modo in cui un prodotto viene suggerito a un vi
 | Aumentare il tempo che i visitatori passano su un sito multimediale consigliando contenuti simili a quelli che stanno guardando. | Creare un consiglio che suggerisce altri video, utilizzando i criteri “Chi ha visualizzato questo ha visualizzato anche”. |
 | Suggerire ai clienti che hanno visualizzato informazioni su piani di risparmio di una banca di consultare anche le informazioni sui conti IRA. | Mostrare altri elementi acquistati dai visitatori dopo aver visualizzato un prodotto, senza mostrare il primo prodotto nei consigli, utilizzando i criterio “Chi ha visualizzato questo ha acquistato anche”. |
 
-Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](../c-recommendations/c-algorithms/algorithms.md).
+Per ulteriori informazioni su questi e altri criteri di [!DNL Recommendations], consulta [Criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
 ## Termini
 
