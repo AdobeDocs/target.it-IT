@@ -6,7 +6,7 @@ feature: privacy and security
 topic: Standard
 uuid: 5e67adcf-464c-495f-9ba5-15152d9a6a41
 translation-type: tm+mt
-source-git-commit: 8b722ea47119eb71df56209d53e0e34f4c14461a
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2250'
 ht-degree: 93%
@@ -73,9 +73,9 @@ window.targetGlobalSettings = {
 
 Esistono tre scenari da considerare quando si utilizza l’opt-in:
 
-1. **Il tag di[!DNL Target]è pre-approvato tramite[!DNL Launch](oppure l’interessato ha già approvato[!DNL Target]in precedenza):** il tag di [!DNL Target] non viene trattenuto per il consenso e funziona come previsto.
-1. **Il tag di[!DNL Target]NON è pre-approvato e`bodyHidingEnabled`è FALSE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Dopo aver ricevuto il consenso, [!DNL Target] viene chiamato e il contenuto personalizzato è disponibile per l’interessato (il visitatore). Poiché solo i contenuti predefiniti sono disponibili prima del consenso, è importante sfruttare una strategia appropriata, come ad esempio una pagina iniziale che copre qualsiasi parte della pagina o del contenuto che potrebbe essere personalizzata. Ciò garantisce che l&#39;esperienza rimanga coerente per l&#39;interessato (visitatore).
-1. **Il tag di[!DNL Target]NON è pre-approvato e`bodyHidingEnabled`è TRUE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Tuttavia, poiché `bodyHidingEnabled` è impostato su true, `bodyHiddenStyle` determina quale contenuto della pagina è nascosto fino a quando il tag di [!DNL Target] non viene attivato (o l’interessato rifiuta di effettuare l’opt-in, nel qual caso viene visualizzato il contenuto predefinito). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Di seguito si trova la configurazione di pagina consigliata affinché l’intero corpo della pagina, a eccezione della finestra di dialogo di gestione del consenso, sia nascosto inserendo il contenuto della pagina in un contenitore e la finestra di dialogo di gestione del consenso in un contenitore separato. Questa configurazione imposta [!DNL Target] affinché nasconda solo il contenitore del contenuto della pagina. Consulta la [documentazione di Launch per ulteriori informazioni su come configurare queste impostazioni](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
+1. **Il tag di [!DNL Target]è pre-approvato tramite [!DNL Launch] (oppure l’interessato ha già approvato [!DNL Target] in precedenza):** il tag di [!DNL Target] non viene trattenuto per il consenso e funziona come previsto.
+1. **Il tag di [!DNL Target] NON è pre-approvato e `bodyHidingEnabled` è FALSE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Dopo aver ricevuto il consenso, [!DNL Target] viene chiamato e il contenuto personalizzato è disponibile per l’interessato (il visitatore). Poiché solo i contenuti predefiniti sono disponibili prima del consenso, è importante sfruttare una strategia appropriata, come ad esempio una pagina iniziale che copre qualsiasi parte della pagina o del contenuto che potrebbe essere personalizzata. Ciò garantisce che l&#39;esperienza rimanga coerente per l&#39;interessato (visitatore).
+1. **Il tag di [!DNL Target] NON è pre-approvato e `bodyHidingEnabled` è TRUE:** il tag di [!DNL Target] viene attivato solo dopo il consenso del cliente. Prima della raccolta del consenso, è disponibile solo il contenuto predefinito. Tuttavia, poiché `bodyHidingEnabled` è impostato su true, `bodyHiddenStyle` determina quale contenuto della pagina è nascosto fino a quando il tag di [!DNL Target] non viene attivato (o l’interessato rifiuta di effettuare l’opt-in, nel qual caso viene visualizzato il contenuto predefinito). By default, `bodyHiddenStyle` is set to `body { opacity:0;}`, which hides the HTML body tag. Di seguito si trova la configurazione di pagina consigliata affinché l’intero corpo della pagina, a eccezione della finestra di dialogo di gestione del consenso, sia nascosto inserendo il contenuto della pagina in un contenitore e la finestra di dialogo di gestione del consenso in un contenitore separato. Questa configurazione imposta [!DNL Target] affinché nasconda solo il contenitore del contenuto della pagina. Consulta la [documentazione di Launch per ulteriori informazioni su come configurare queste impostazioni](https://www.adobe.io/apis/cloudplatform/gdpr/services/allservices.html).
 
    La configurazione consigliata della pagina per lo scenario 3 è:
 
@@ -121,7 +121,7 @@ Tutte le richieste relative ai requisiti RGPD per le soluzioni [!DNL Experience 
 
 ### Quali sono le informazioni che [!DNL Adobe] consente ai nostri clienti di eliminare, in risposta a una richiesta dell’interessato/utente? {#section_4B51D00924EC4166B2442218B69214F0}
 
-Le informazioni relative a un singolo visitatore all’interno di [!DNL Target] sono contenute nel Profilo del visitatore di [!DNL Target]. [!DNL Target] consentirà ai nostri clienti di eliminare tutti i dati associati a un ID nel loro profilo visitatore. Per esempi dei dati del profilo memorizzati da [!DNL Target], consulta [Profilo visitatore](../../../c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+Le informazioni relative a un singolo visitatore all’interno di [!DNL Target] sono contenute nel Profilo del visitatore di [!DNL Target]. [!DNL Target] consentirà ai nostri clienti di eliminare tutti i dati associati a un ID nel loro profilo visitatore. Per esempi dei dati del profilo memorizzati da [!DNL Target], consulta [Profilo visitatore](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 I dati aggregati o anonimi (ad esempio, i dati di segnalazione) che non identificano una persona particolare oppure i dati che non sono correlati a una persona specifica (ad esempio, i dati sul contenuto) esulano dall’ambito di una richiesta di cancellazione da parte dell’utente.
 
@@ -296,7 +296,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 ### Target supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](../../../c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
 
 ### Devo fare qualcosa per evitare che i miei dati vengano condivisi o venduti a terzi?
 
