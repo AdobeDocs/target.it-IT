@@ -7,7 +7,7 @@ subtopic: Integrating
 topic: Standard
 uuid: 616798a6-1587-410f-9ac6-473beb39e3fc
 translation-type: tm+mt
-source-git-commit: b69a34023466fa2e348ed77ee41bc1cfdeb4e6ab
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1271'
 ht-degree: 47%
@@ -45,7 +45,7 @@ Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti 
 
 Considerazioni importanti per l’utilizzo di A4T:
 
-* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contatta il rappresentante del tuo account](../../cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per accedere a queste soluzioni.
+* To use [!DNL Analytics] as the reporting source for [!DNL Target], both you and your company must have access to [!DNL Analytics] and to [!DNL Target]. [Contatta il rappresentante del tuo account](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per accedere a queste soluzioni.
 * L’origine per la generazione di rapporti è impostata per ogni attività. [!DNL Target] continua a raccogliere i dati da utilizzare nel reporting e [!DNL Target] i dati sono ancora disponibili se si preferisce basare un&#39;attività sui dati raccolti da [!DNL Target].
 * Per la generazione dei rapporti, è necessario utilizzare un’origine o l’altra. Non è possibile raccogliere dati per una singola attività da entrambe le origini.
 * When using A4T, all success metrics available to your activities are [!DNL Analytics] metrics. Tuttavia, la metrica obiettivo può essere basata su una chiamata mbox. For example, you can use Target&#39;s out-of-the-box click-tracking capabilities with A4T instead of having to implement [!DNL Analytics] click-tracking code.
@@ -124,7 +124,7 @@ This video explains how to use [!DNL Analytics] as a reporting source in [!DNL T
 
 ### Badge ![delle esercitazioni sull&#39;integrazione di Analytics/Target (A4T) (40:33)](/help/assets/tutorial.png)
 
-Questo video è una registrazione di “ [Office Hours](../../cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
 * Configurare e convalidare il funzionamento dell&#39;integrazione
 * Funzionamento dell&#39;integrazione
