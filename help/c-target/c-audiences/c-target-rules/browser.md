@@ -6,7 +6,7 @@ feature: audiences
 subtopic: Multivariate Test
 uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
@@ -47,9 +47,9 @@ Esistono due modi per indirizzare i browser:
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
-   * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](../../../c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
-   * **Lingua:** includi o escludi i browser impostati per una specifica lingua. Consulta [Lingua](../../../c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
-   * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](../../../c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
+   * **Tipo**: Includi o escludi gli utenti che usano un determinato browser. Consulta [Tipo](/help/c-target/c-audiences/c-target-rules/browser.md#section_6ADC758F23F145B3A310151546D83D56).
+   * **Lingua:** includi o escludi i browser impostati per una specifica lingua. Consulta [Lingua](/help/c-target/c-audiences/c-target-rules/browser.md#section_7520D1AA464A45A6843EABE2D2B431A1).
+   * **Versione:** includi o escludi una determinata versione del browser. Consulta [Versione](/help/c-target/c-audiences/c-target-rules/browser.md#section_37CC8CE45DA04E8682AE6388321BA6EF).
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
