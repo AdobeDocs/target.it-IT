@@ -6,7 +6,7 @@ feature: null
 subtopic: Getting Started
 uuid: 5f8e0511-637b-4c17-bb19-aa7f4d7c98ea
 translation-type: tm+mt
-source-git-commit: 12366dd29552a4073a932ddfdb04a1302e775c9e
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '2320'
 ht-degree: 98%
@@ -22,11 +22,11 @@ In questa pagina sono elencate le modifiche per ogni versione di mbox.js.
 >
 >È consigliabile che tutti gli utenti di mbox.js effettuino l’aggiornamento alla versione 57 o successiva. Alcuni utenti hanno avuto problemi di timeout per il mancato caricamento di `target.js`. La versione 57 ha risolto questo problema. Tuttavia, se utilizzi il servizio [!DNL Experience Cloud Visitor ID], è richiesta la versione 58 o successiva.
 
-Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore e dall’esistenza dell’ID del visitatore. Per informazioni, consulta [Risposte alle chiamate di Target a seconda della versione della libreria](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
+Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore e dall’esistenza dell’ID del visitatore. Per informazioni, consulta [Risposte alle chiamate di Target a seconda della versione della libreria](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/call-responses-library-version.md#concept_A95A4758A1E7405D947E9B4BCB5D62F0).
 
 >[!NOTE]
 >
->La libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
+>La libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ## mbox.js versione 63 {#section_ED8EFCF653A845ED8927F759578C4A33}
 
@@ -96,7 +96,7 @@ Anche nella versione 60, se il file [!DNL visitorAPI.js] è presente per il serv
 
 * Chiamate asincrone nella versione 60 (V60)
 
-   Quando utilizzi v60 con il servizio ID visitatore, tutte le chiamate mbox vengono eseguite in modo asincrono. Si tratta di un nuovo metodo di lavoro per mbox, quindi fai attenzione se vuoi eseguire l’aggiornamento a questa versione. Per comprendere alcuni dei rischi implicati, consulta la sezione sulle [considerazioni sull’asincronicità](../../../c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) della documentazione di [!DNL at.js] ([!DNL at.js] utilizza anche chiamate asincrone).
+   Quando utilizzi v60 con il servizio ID visitatore, tutte le chiamate mbox vengono eseguite in modo asincrono. Si tratta di un nuovo metodo di lavoro per mbox, quindi fai attenzione se vuoi eseguire l’aggiornamento a questa versione. Per comprendere alcuni dei rischi implicati, consulta la sezione sulle [considerazioni sull’asincronicità](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md#section_B586360A3DD34E2995AE25A18E3FB953) della documentazione di [!DNL at.js] ([!DNL at.js] utilizza anche chiamate asincrone).
 * Possibile visualizzazione momentanea per i nuovi visitatori
 
    Se utilizzi le versioni dalla 58 alla 60 con il servizio ID visitatore, le chiamate mbox attendono che sia impostato l’ID visitatore prima di attivarsi (o fino a un timeout). Questo accade durante il primo caricamento della pagina per un nuovo visitatore.
