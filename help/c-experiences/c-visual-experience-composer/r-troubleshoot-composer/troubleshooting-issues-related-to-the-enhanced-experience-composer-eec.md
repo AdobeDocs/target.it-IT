@@ -5,7 +5,7 @@ title: Risoluzione dei problemi relativi al Compositore esperienza avanzato
 feature: vec
 uuid: 2ea9a91f-08ca-4a06-ad5d-35ced140db14
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '430'
 ht-degree: 71%
@@ -41,13 +41,13 @@ Di seguito sono riportati possibili cause per questo messaggio di errore e soluz
 
    **Rimedio:**   gli indirizzi IP elencati sopra.
 
-* **Problema:** Gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti, ma il sito Web non supporta TLS versione 1.2. In Target è attualmente utilizzata la configurazione predefinita di 1.2. Prima di Target 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consultate Modifiche [alla crittografia](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
+* **Problema:** Gli indirizzi IP vengono inseriti nell&#39;elenco Consentiti, ma il sito Web non supporta TLS versione 1.2. In Target è attualmente utilizzata la configurazione predefinita di 1.2. Prima di Target 18.4.1 (25 aprile 2018), la configurazione predefinita supportava TLS 1.0. Per ulteriori informazioni, consultate Modifiche [alla crittografia](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451)TLS (Transport Layer Security).
 
    **Soluzione:** consulta la domanda seguente (il Compositore esperienza visivo avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.2).
 
 ## Il Compositore esperienza avanzato non viene caricato su pagine protette del mio sito che utilizzano TLS 1.0. (Solo Compositore esperienza avanzato) {#section_C5B31E3D32A844F68E5A8153BD17551F}
 
-È possibile che venga visualizzato il messaggio di errore descritto in precedenza al punto “Il Compositore esperienza visivo avanzato non viene caricato su pagine sicure del mio sito” if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
+È possibile che venga visualizzato il messaggio di errore descritto in precedenza al punto “Il Compositore esperienza visivo avanzato non viene caricato su pagine sicure del mio sito” if the above IP addresses are allowlisted but your website does not support TLS version 1.2. Target currently uses the default configuration of 1.2. Prior to the Target 18.4.1 (April 25, 2018), the default configuration supported TLS 1.0. For more information, see [TLS (Transport Layer Security) Encryption Changes](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451).
 
 Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hanno passaggi simili):
 
@@ -64,7 +64,7 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 
    ![](assets/firefox_more_info_3.png)
 
-1. Se scopri che il tuo sito web visualizza TLS 1.0, consulta: [Modifiche alla crittografia di TLS (Transport Layer Security)](../../../c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) per informazioni sull’informativa sul supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018), rivolgiti all’[Assistenza clienti](../../../cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
+1. Se scopri che il tuo sito web visualizza TLS 1.0, consulta: [Modifiche alla crittografia di TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md#concept_CC1001E9D3AE4BABAF90B8311B0A6451) per informazioni sull’informativa sul supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018), rivolgiti all’[Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione di TLS e il dominio.
 
 ## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
 
