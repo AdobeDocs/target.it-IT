@@ -5,7 +5,7 @@ title: Utilizzare i contenuti della libreria
 feature: offers
 uuid: 7518e298-a824-4766-b2bf-49770b293b9a
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 96%
@@ -19,7 +19,7 @@ Informazioni sulle attività eseguibili su una risorsa della Libreria dei conten
 
 1. Fai clic su **[!UICONTROL Offerta]**, seleziona la scheda **[!UICONTROL Offerta codice]** o **[!UICONTROL Offerta immagine]**, quindi individuare la risorsa con cui desideri lavorare.
 
-   Per ulteriori informazioni sulla ricerca nella Libreria offerte e sulla creazione di Smart Collection, consulta [Filtrare e cercare contenuti](../../c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
+   Per ulteriori informazioni sulla ricerca nella Libreria offerte e sulla creazione di Smart Collection, consulta [Filtrare e cercare contenuti](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
 1. Passa il puntatore del mouse sopra l’elemento da utilizzare, quindi seleziona un’azione. Per accedere ed eseguire alcune delle operazioni qui riportate, occorre innanzitutto fare clic sull’icona Seleziona (il segno di spunta), quindi scegliere l’azione desiderata (ad esempio, Elimina).
 
