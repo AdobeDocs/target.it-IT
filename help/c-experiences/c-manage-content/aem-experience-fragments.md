@@ -6,7 +6,7 @@ feature: aem
 topic: Standard
 uuid: 4dc2b5da-524f-4d6a-8ffc-8c3ac78cb39e
 translation-type: tm+mt
-source-git-commit: 6278a01928fcb9dd0b34d7a8b5313f09f1e8da0f
+source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 31%
@@ -20,7 +20,7 @@ Information about using experience fragments created in [!DNL Adobe Experience M
 
 >[!NOTE]
 >
->This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. Per ulteriori informazioni, consulta [“Risoluzione dei problemi”](../../c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A).
+>This feature requires that you are an [!DNL Adobe Experience Manager] ([!DNL AEM]) customer. Per ulteriori informazioni, consulta [“Risoluzione dei problemi”](/help/c-experiences/c-manage-content/aem-experience-fragments.md#section_AE6F0971E1574B3AA324003599B96E5A).
 
 ## Panoramica {#section_95A91830530F493B81C5C9CDB9B783EA}
 
@@ -98,11 +98,11 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
 
 >[!NOTE]
 >
->To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
+>To fully utilize the [!DNL Target] AI and ML functionality, you can select [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) or [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) while creating an A/B Test.
 
 **Per utilizzare i frammenti esperienza con il VEC:**
 
-1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Visual Experience Composer (Compositore esperienza visivo](../../c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)), fate clic sul percorso nella pagina in cui desiderate inserire [!DNL AEM] del contenuto, quindi selezionate l&#39;opzione desiderata per visualizzare l&#39;elenco [!UICONTROL Choose an Experience Fragment (Scegli un frammento] esperienza).
+1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Visual Experience Composer (Compositore esperienza visivo](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D)), fate clic sul percorso nella pagina in cui desiderate inserire [!DNL AEM] del contenuto, quindi selezionate l&#39;opzione desiderata per visualizzare l&#39;elenco [!UICONTROL Choose an Experience Fragment (Scegli un frammento] esperienza).
 
    * [!UICONTROL Inserisci prima]
    * [!UICONTROL Inserisci dopo]
@@ -122,16 +122,16 @@ You can consume experience fragments in [!DNL Target] activities using the [Visu
    Per ulteriori informazioni sulla configurazione dei vari tipi di attività, consulta i seguenti argomenti:
 
    * **Test A/B:** [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
-   * **Allocazione automatica:** [Allocazione automatica](../../c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Allocazione automatica:** [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
    * **Destinazione automatica:** [Destinazione automatica](/help/c-activities/auto-target/auto-target-to-optimize.md)
-   * **Personalizzazione automatizzata (AP):** [Creazione di un’attività di personalizzazione automatica](../../c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
-   * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](../../c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Test multivariato (MVT):** [Creare un test multivariato](../../c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendationfs:** [Creare un’attività di Recommendations](../../c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+   * **Personalizzazione automatizzata (AP):** [Creazione di un’attività di personalizzazione automatica](/help/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Test multivariato (MVT):** [Creare un test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
+   * **Recommendationfs:** [Creare un’attività di Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 **Per utilizzare i frammenti esperienza con Experience Composer basato su modulo:**
 
-1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Form-Based Experience Composer (Compositore esperienza basato su modulo](../../c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire [!DNL AEM] contenuto, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l&#39;elenco [!UICONTROL Scegli un frammento] esperienza.
+1. In [!DNL Target]quando create o modificate un&#39;esperienza in [Form-Based Experience Composer (Compositore esperienza basato su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E)), selezionate il percorso nella pagina in cui desiderate inserire [!DNL AEM] contenuto, quindi selezionate **[!UICONTROL Modifica frammento]** esperienza per visualizzare l&#39;elenco [!UICONTROL Scegli un frammento] esperienza.
 
    ![](assets/experience_fragment_list.png)
 
