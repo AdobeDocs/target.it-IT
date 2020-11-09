@@ -3,9 +3,8 @@ keywords: Targeting;visual experience composer;whitelist;white list;allowlist;al
 description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 feature: vec
-uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1368'
 ht-degree: 69%
