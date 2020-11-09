@@ -2,9 +2,8 @@
 description: Informazioni su come distribuire in modo sicuro at.js in un ambiente non di produzione.
 title: Distribuire at.js in un ambiente non di produzione
 feature: null
-uuid: 7f1adc43-35b4-442c-bb06-feab60604a87
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '368'
 ht-degree: 92%
