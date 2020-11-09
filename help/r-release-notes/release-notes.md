@@ -6,10 +6,10 @@ feature: release notes
 topic: Recommendations
 uuid: f6c3e64d-de1e-416c-a56f-2122a58b613e
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 26%
+source-wordcount: '948'
+ht-degree: 27%
 
 ---
 
@@ -69,7 +69,7 @@ Per informazioni aggiuntive, oltre alle note di ciascuna versione, consulta le s
 |--- |--- |
 | Modifiche alla documentazione | Informazioni dettagliate sugli aggiornamenti apportati a questa guida che potrebbero non essere incluse nelle note sulla versione.<br>Per ulteriori informazioni, consulta [Modifiche alla documentazione](/help/r-release-notes/doc-change.md#reference_366123CF00994BACBBF9BBDF2C4D840C). |
 | Note sulla versione per le versioni precedenti | Informazioni su nuove funzionalità e miglioramenti introdotti nelle versioni precedenti di Target Standard e Target Premium.<br>Per ulteriori informazioni, consulta [Note sulla versione per le versioni precedenti](/help/r-release-notes/release-notes-for-previous-releases.md). |
-| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>Per ulteriori informazioni, consulta [Experience Cloud - Note](https://docs.adobe.com/content/help/en/release-notes/experience-cloud/current.html)sulla versione. |
+| Note sulla versione di Adobe Experience Cloud | Ultime note sulla versione per le soluzioni Adobe Experience Cloud.<br>Per ulteriori informazioni, consulta [Experience Cloud - Note](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)sulla versione. |
 
 ## Informazioni in anteprima {#section_5D588F0415A2435B851A4D0113ACA3A0}
 
