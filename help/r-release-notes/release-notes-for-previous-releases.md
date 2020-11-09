@@ -3,10 +3,8 @@ keywords: Release notes
 description: Note sulla versione delle versioni precedenti di Target, incluse le note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 title: Note sulla versione per le versioni precedenti
 feature: release notes
-topic: Recommendations
-uuid: a1f0ddae-39f1-4e28-bf86-03e82e3cb91e
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '29813'
 ht-degree: 86%
