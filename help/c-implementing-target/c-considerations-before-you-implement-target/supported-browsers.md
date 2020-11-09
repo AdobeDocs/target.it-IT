@@ -3,11 +3,8 @@ keywords: Browsers;Prerequisites;Requirements;internet explorer;chrome;firefox;s
 description: L’applicazione Adobe Target e la consegna dei contenuti sono stati testati su una vasta gamma di browser e dispositivi.
 title: Browser supportati
 feature: reference general
-subtopic: Getting Started
-topic: Standard
-uuid: 614088da-412c-45e3-9f2d-6985391973be
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '299'
 ht-degree: 86%
