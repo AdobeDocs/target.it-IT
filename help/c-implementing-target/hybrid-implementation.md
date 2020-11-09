@@ -3,9 +3,8 @@ keywords: hybrid deployment;hybrid;sever-side;serverside;server side;client-side
 description: ' Adobe Target offre un modello di implementazione ibrida univoco per la personalizzazione, la fusione di implementazioni lato client e lato server.'
 title: Implementazione ibrida
 feature: hybrid implementation
-topic: Target
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 0%
