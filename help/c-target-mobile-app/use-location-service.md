@@ -3,9 +3,8 @@ keywords: mobile app;mobile app location;target mobile app;mobile target locatio
 description: Questo argomento fornisce una panoramica su come utilizzare Adobe Experience Platform Location Service in  Adobe Target.
 title: Utilizzare il servizio posizione
 feature: mobile implementation
-topic: Target
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 3%
