@@ -4,9 +4,9 @@ description: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'ut
 title: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2882'
+source-wordcount: '2880'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Puoi personalizzare le esperienze con [!DNL Target] i dati immediatamente dispon
 
 Ad esempio, puoi associare i dati di acquisto dal tuo sistema di punti vendita a un profilo visitatore. Per fare ciò, create un file CSV con fino a 200 variabili offline, e caricatelo direttamente [!DNL Adobe Experience Cloud] tramite un caricamento di file, oppure utilizzate l&#39;FTP per ospitare e pianificare il file da aggiornare regolarmente. Una volta inclusi gli attributi del cliente, [!DNL Adobe Experience Cloud]puoi mapparli a [!DNL Experience Cloud] soluzioni come [!DNL Adobe Analytics] e [!DNL Target] dove saranno disponibili per analisi, test e personalizzazione.
 
-Per istruzioni dettagliate, consultate Attributi [](https://docs.adobe.com/content/help/en/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) personalizzati.
+Per istruzioni dettagliate, consultate Attributi [](https://experienceleague.adobe.com/docs/target/using/audiences/visitor-profiles/working-with-customer-attributes.html) personalizzati.
 
 **Buono a conoscere**: Poiché [!DNL Target] è una piattaforma aperta e agnostica che funziona bene con tecnologie diverse, puoi aggiungere dati CRM o acquistati in molti modi diversi. Ciò significa che potete scegliere un metodo che funzioni meglio per la vostra organizzazione.
 
