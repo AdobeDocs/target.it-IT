@@ -3,10 +3,8 @@ keywords: contact;legal;technical support;tech support;support;service;capabilit
 description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
 title: Risorse e informazioni di contatto
 feature: reference general
-topic: Standard
-uuid: 3a7fb747-f7b9-4956-9a0e-4c5679110783
 translation-type: tm+mt
-source-git-commit: abe28722199c74c8b57dbfd0ca893dbf2e862cad
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 76%
@@ -119,7 +117,7 @@ In base alla configurazione della soluzione, alcune opzioni descritte in questa 
 
 ### Feedback {#section_8154D6D712054220A90D85FA8E92933E}
 
-Siamo lieti di ricevere qualsiasi suggerimento o commento sulla soluzione. Idee e suggerimenti migliorativi possono essere aggiunti alla [community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Target Experience League. Click the [!UICONTROL Ideas] tab.
+Siamo lieti di ricevere qualsiasi suggerimento o commento sulla soluzione. Idee e suggerimenti migliorativi possono essere aggiunti alla [community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community)Adobe Target  Experience League. Click the [!UICONTROL Ideas] tab.
 
 ### Note legali {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
