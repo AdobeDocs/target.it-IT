@@ -6,9 +6,9 @@ feature: client-side
 subtopic: Getting Started
 uuid: 1fcd3984-7c6d-4619-953e-3e28eb0d015a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2660'
+source-wordcount: '2652'
 ht-degree: 94%
 
 ---
@@ -91,7 +91,7 @@ La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asi
 
 Per caricare at.js in modo asincrono:
 
-* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
 * Puoi anche caricare at.js in modo asincrono aggiungendo l’attributo async al tag script che carica at.js. Dovresti usare qualcosa del genere:
 
    ```
@@ -111,7 +111,7 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 Puoi evitare sfarfallii utilizzando uno snippet che nasconde preventivamente la pagina (o porzioni specificate), quindi la rivela dopo che at.js e la richiesta globale sono completamente caricate. Lo snippet deve essere aggiunto prima del caricamento di at.js.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://docs.adobe.com/content/help/en/experience-cloud/implementing-in-websites-with-launch/index.html).
+If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Durante l’implementazione di at.js tramite un’implementazione sincrona di DTM, puoi aggiungere lo snippet tramite una regola di caricamento della pagina attivata nella parte superiore della pagina.
 
