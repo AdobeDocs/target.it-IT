@@ -3,10 +3,8 @@ keywords: system diagram;flicker;at.js;implementation;javascript library;js;atjs
 description: Schema del sistema Adobe Target che mostra il flusso di chiamate e informazioni inviate o raccolte per una mbox globale creata automaticamente utilizzando at.js.
 title: Funzionamento della  libreria JavaScript Adobe Target at.js
 feature: client-side
-topic: Standard
-uuid: 8ed04881-3dd9-496f-9c9c-feb9c740ed80
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1106'
 ht-degree: 88%
@@ -35,7 +33,7 @@ Consulta [Aggiornamento da at.js 1.x a at.js 2.x](/help/c-implementing-target/c-
 Da un punto di vista avanzato, esistono alcune differenze tra le due versioni:
 
 * at.js 2.x non ha un concetto di richiesta mbox globale, ma una richiesta al caricamento della pagina. Una richiesta di caricamento della pagina si può intendere come una richiesta per recuperare il contenuto da applicare al caricamento iniziale della pagina del sito web.
-* at.js 2.x gestisce un concetto denominato Views (Visualizzazioni), che viene utilizzato per le applicazioni SPA (Single Page Applications). In at.js 1.*x* questo concetto non è disponibile.
+* at.js 2.x gestisce un concetto denominato Views (Visualizzazioni), utilizzato per le applicazioni a pagina singola (SPA). In at.js 1.*x* questo concetto non è disponibile.
 
 ## Diagrammi at.js 2.x
 
@@ -50,7 +48,7 @@ I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x t
 | 3 | Si effettua una richiesta di caricamento della pagina, con tutti i parametri configurati (MCID, SDID e ID cliente). |
 | 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede un pubblico idoneo dalla libreria Pubblico (ad esempio, pubblico condiviso da Adobe Analytics, Audience Manager, ecc.).<br>Gli attributi del cliente vengono inviati all’archivio profili in un processo batch. |
 | 5 | In base ai parametri di richiesta dell’URL e ai dati di profilo, [!DNL Target] determina le attività ed esperienze da restituire al visitatore per la pagina corrente e le visualizzazioni future. |
-| 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>Il contenuto mirato sulla pagina corrente viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito.<br>Il contenuto di destinazione per le viste visualizzate come risultato delle azioni dell&#39;utente in un&#39;app SPA viene memorizzato nella cache del browser in modo che possa essere applicato istantaneamente senza una chiamata server aggiuntiva quando le viste vengono attivate `triggerView()`. |
+| 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>Il contenuto mirato sulla pagina corrente viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito.<br>Il contenuto di destinazione per le viste visualizzate come risultato delle azioni dell&#39;utente in un SPA viene memorizzato nella cache del browser in modo che possa essere applicato immediatamente senza una chiamata server aggiuntiva quando le viste vengono attivate `triggerView()`. |
 | 7 | I dati Analytics vengono inviati ai server di raccolta dati. |
 | 8 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID ed elaborati nell’archivio dei rapporti di Analytics.<br>I dati di Analytics possono quindi essere visualizzati sia in Analytics che in Target tramite i rapporti Analytics for Target (A4T). |
 
