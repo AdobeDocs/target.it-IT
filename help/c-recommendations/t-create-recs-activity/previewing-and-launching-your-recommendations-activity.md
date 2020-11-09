@@ -3,9 +3,8 @@ keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Dopo aver creato l''attività Recommendations, A/B Test o Experience Targeting (XT) contenente  offerte Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
 title: 'Dopo aver creato l''attività Recommendations, A/B Test o Experience Targeting (XT) contenente  offerte Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
 feature: recs creation
-subtopic: Recommendations
 translation-type: tm+mt
-source-git-commit: 8ae2bf479a9b53693f830515aee55573987bb05b
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
