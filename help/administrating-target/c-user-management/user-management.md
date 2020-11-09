@@ -3,11 +3,8 @@ keywords: add user;manage user;user permissions
 description: Informazioni su come gestire gli utenti in Target Standard e come gestire le proprietà e le autorizzazioni Enterprise in Target Premium.
 title: Gestione utente
 feature: user management
-subtopic: Getting Started
-topic: Standard
-uuid: 798a6273-2a6e-4fe6-b1a0-b5c28932969f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '226'
 ht-degree: 25%
