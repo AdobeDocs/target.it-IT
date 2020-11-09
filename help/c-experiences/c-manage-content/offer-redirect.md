@@ -6,9 +6,9 @@ feature: offers
 topic: Standard
 uuid: 54336965-a26e-47c3-b3bc-079d3573502a
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '560'
 ht-degree: 98%
 
 ---
@@ -63,7 +63,7 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 Questo video include informazioni sulla gestione del contenuto.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
