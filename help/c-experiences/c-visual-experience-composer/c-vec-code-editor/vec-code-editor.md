@@ -3,11 +3,8 @@ keywords: css selector;custom code;code editor;Mobile Web Experience Editor
 description: Informazioni sulla pagina delle modifiche che ti consente di visualizzare le modifiche apportate alla tua pagina e di effettuare ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 title: Modifiche
 feature: vec
-subtopic: Code Editor
-topic: Standard
-uuid: 4555290b-8d51-4882-9251-c80c868e1a73
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
