@@ -5,10 +5,10 @@ title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 uuid: f8e8e057-1842-4922-ab7f-4d5441048573
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '3897'
-ht-degree: 77%
+source-wordcount: '3895'
+ht-degree: 78%
 
 ---
 
@@ -113,7 +113,7 @@ Quando una metrica di successo è impostata per essere incrementata a ogni impre
 
 ### Analytics for Target (A4T)
 
-Quando utilizzi impression e conversioni dell&#39;attività Target in  Analysis Workspace, applica il modello di Attribution IQ  &quot;Same Touch&quot; alle metriche per garantire un conteggio accurato. Per applicare un modello [di attribuzione](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non predefinito, fai clic con il pulsante destro del mouse sulla metrica per **modificare le Impostazioni colonna > abilita Usa modello di attribuzione non predefinito > Seleziona Modello** di attribuzione simile. Senza l&#39;applicazione di questo modello, le metriche sono sopravvalutate.
+Quando utilizzi impression e conversioni dell&#39;attività Target in  Analysis Workspace, applica il modello di Attribution IQ  &quot;Same Touch&quot; alle metriche per garantire un conteggio accurato. Per applicare un modello [di attribuzione](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html)non predefinito, fai clic con il pulsante destro del mouse sulla metrica per **modificare le Impostazioni colonna > abilita Usa modello di attribuzione non predefinito > Seleziona Modello** di attribuzione simile. Senza l&#39;applicazione di questo modello, le metriche sono sopravvalutate.
 
 Tutti i pacchetti Analytics correnti possono aggiungere questo modello con  Attribution IQ. Se non avete accesso alle  Attribution IQ, fate affidamento sui dati A4T in Reporting e analisi.
 
