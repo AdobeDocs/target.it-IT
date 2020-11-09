@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 313150fa-a7ec-46fe-9166-742a5c246a72
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '587'
-ht-degree: 93%
+source-wordcount: '583'
+ht-degree: 94%
 
 ---
 
@@ -32,8 +32,8 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per istruzioni su come scaricare l&#39;SDK appropriato, vedi:
 
-   * **iOS:** [Prima di iniziare](https://docs.adobe.com/content/help/en/mobile-services/ios/getting-started-ios/requirements.html) nella Guida *di* Mobile Services iOS.
-   * **Android:** [Prima di iniziare](https://docs.adobe.com/content/help/en/mobile-services/android/getting-started-android/requirements.html) da *Mobile Services Android Help*.
+   * **iOS:** [Prima di iniziare](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) nella Guida *di* Mobile Services iOS.
+   * **Android:** [Prima di iniziare](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) da *Mobile Services Android Help*.
 
 1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l&#39;app. È necessario specificare uno schema URL univoco per l&#39;anteprima.
 
