@@ -6,10 +6,10 @@ feature: mobile implementation
 topic: Advanced,Standard,Classic
 uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '237'
-ht-degree: 62%
+source-wordcount: '233'
+ht-degree: 63%
 
 ---
 
@@ -27,5 +27,5 @@ Considerate le seguenti limitazioni quando utilizzate il metodo di preacquisizio
 
 Per ulteriori informazioni, inclusi i metodi di preacquisizione, le classi pubbliche e gli esempi di codice, vedi:
 
-* **iOS:**  [Preacquisizione del contenuto dell&#39;offerta in iOS](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) nella guida *dell&#39;SDK di* Mobile Services per iOS.
-* **Android:**  [Preacquisizione del contenuto delle offerte in Android](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/c-mob-target-prefetch-android.html) nella guida *dell&#39;SDK per Android di* Mobile Services.
+* **iOS:**  [Preacquisizione del contenuto dell&#39;offerta in iOS](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-mob-target-prefetch-ios.html) nella guida *dell&#39;SDK di* Mobile Services per iOS.
+* **Android:**  [Preacquisizione del contenuto delle offerte in Android](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/c-mob-target-prefetch-android.html) nella guida *dell&#39;SDK per Android di* Mobile Services.
