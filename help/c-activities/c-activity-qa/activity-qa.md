@@ -3,10 +3,8 @@ keywords: qa;preview;preview links;adobe target;target
 description: Utilizzate  URL QA di Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting QA che rimane segmentato dai dati dell'attività live.
 title: Controllo di qualità delle attività
 feature: qa
-topic: Advanced,Standard,Classic
-uuid: 58d99940-7c3d-41ab-a2f5-a87c880dbc17
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 80%
