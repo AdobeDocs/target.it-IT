@@ -6,9 +6,9 @@ feature: server-side
 topic: Recommendations
 uuid: 21d321c7-3da4-44a2-a04f-1807cc2a893b
 translation-type: tm+mt
-source-git-commit: 42ecb1d2eee4b12e4eff3a646e6d596286e01e00
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '386'
 ht-degree: 20%
 
 ---
@@ -55,6 +55,6 @@ Il portale della documentazione dell&#39;SDK lato [!DNL Adobe Target] server con
 
 ## API per la funzione Consigli di Target
 
-Collegamento: [API](https://developers.adobetarget.com/api/recommendations) Recommendations Target e [Panoramica](https://docs.adobe.com/content/help/en/target-learn/recommendations-api-tutorial/recs-api-overview.html)API Adobe Recommendations.
+Collegamento: [API](https://developers.adobetarget.com/api/recommendations) Recommendations Target e [Panoramica](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)API Adobe Recommendations.
 
 The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
