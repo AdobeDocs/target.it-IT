@@ -6,9 +6,9 @@ feature: intro
 topic: Advanced
 uuid: b6052939-6ed4-4c90-b118-77b6fe42b0af
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '2903'
+source-wordcount: '2901'
 ht-degree: 98%
 
 ---
@@ -237,7 +237,7 @@ Utilizza l’[approccio basato su moduli](/help/c-experiences/form-experience-co
 
 **È possibile garantire che la stessa esperienza venga fornita in modo coerente su tutti i dispositivi di un utente?**
 
-Consulta il nostro servizio [Device Co-op](https://docs.adobe.com/content/help/en/device-co-op/using/home.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
+Consulta il nostro servizio [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
 
 Se fai parte della Cooperativa, un semplice flag nella pagina Obiettivi e impostazioni abilita la funzione. Inoltre, il reporting cambia per riflettere Persone anziché Visitatori. Contatta Adobe per maggiori informazioni su questa funzione in quanto non è disponibile in tutte le regioni.
 
