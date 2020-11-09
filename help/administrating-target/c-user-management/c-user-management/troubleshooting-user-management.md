@@ -3,10 +3,8 @@ keywords: troubleshoot target;troubleshooting target;users;user management
 description: Risoluzione dei problemi di gestione degli utenti in Adobe Target.
 title: Risolvere i problemi relativi alla gestione degli utenti
 feature: user management
-topic: Advanced,Standard,Classic
-uuid: e73fead8-0f7e-4f44-8ddb-6611b17c2e8b
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '72'
 ht-degree: 30%
