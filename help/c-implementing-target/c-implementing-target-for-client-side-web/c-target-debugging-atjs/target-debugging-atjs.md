@@ -6,10 +6,10 @@ feature: troubleshooting general
 topic: Target
 uuid: 04cfb0fe-1f45-4824-bd06-d54c43baaffe
 translation-type: tm+mt
-source-git-commit: 8d0faeb83e7fe854dcf99c89081fb656cf16c4c0
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 82%
+source-wordcount: '180'
+ht-degree: 83%
 
 ---
 
@@ -20,7 +20,7 @@ Informazioni sull&#39;utilizzo dell&#39;estensione debugger di Adobe Experience 
 
 Puoi visualizzare rapidamente la configurazione della libreria, esaminare le richieste per verificare che i parametri personalizzati vengano passati correttamente, attivare la registrazione della console e disattivare tutte le richieste Target. Autenticati in Experience Cloud per utilizzare lo strumento Mbox Trace ed esaminare le tue attività, i requisiti del pubblico e il tuo profilo visitatore.
 
-Per ulteriori informazioni, consulta la [documentazione dell’estensione debugger di Adobe Experience Cloud](https://docs.adobe.com/content/help/en/debugger/using/experience-cloud-debugger.html). Le informazioni specifiche di Target sono disponibili nella sezione [Strumenti](https://docs.adobe.com/content/help/en/debugger/using/tools.html).
+Per ulteriori informazioni, consulta la [documentazione dell’estensione debugger di Adobe Experience Cloud](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html). Le informazioni specifiche di Target sono disponibili nella sezione [Strumenti](https://experienceleague.adobe.com/docs/debugger/using/tools.html).
 
 ## Video di formazione
 
