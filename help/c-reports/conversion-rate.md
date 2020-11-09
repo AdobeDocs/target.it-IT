@@ -3,10 +3,8 @@ keywords: Targeting
 description: Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità.
 title: Tasso di conversione
 feature: reports
-topic: Advanced,Standard,Classic
-uuid: c42d7683-2eec-4443-9545-5695a122c9de
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1615'
 ht-degree: 96%
