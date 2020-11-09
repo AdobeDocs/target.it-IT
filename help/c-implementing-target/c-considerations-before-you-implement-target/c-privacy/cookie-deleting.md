@@ -2,10 +2,8 @@
 description: Elimina i cookie del browser di Target, in modo da poter convalidare tutte le esperienze.
 title: Eliminare il cookie  Adobe Target
 feature: privacy and security
-topic: Standard
-uuid: 6e95ee4d-dbf2-4432-8abe-cfd9bc928f0c
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -21,7 +19,7 @@ If there is no [!DNL Target] cookie (mbox), you are considered a new visitor and
 
 >[!NOTE]
 >
->Le seguenti istruzioni sono corrette per i browser e le versioni elencati. Cerca le istruzioni per il browser o la versione specifica in Internet.
+>Le seguenti istruzioni sono corrette per i browser e le versioni elencati. Cercate in Internet istruzioni per il browser o la versione specifica in uso.
 
 ## Elimina il cookie Target da Google Chrome
 
