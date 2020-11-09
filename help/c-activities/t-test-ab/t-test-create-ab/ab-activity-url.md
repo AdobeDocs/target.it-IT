@@ -3,10 +3,8 @@ keywords: activity url;url;different url
 description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
 title: URL attività
 feature: ab
-topic: Standard
-uuid: 65489969-d548-4286-858f-8420120317c0
 translation-type: tm+mt
-source-git-commit: 55ee85188ec80a4dcc7dbb39cd0ce24f829ea331
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '290'
 ht-degree: 93%
