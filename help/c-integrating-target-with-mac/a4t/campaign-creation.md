@@ -6,9 +6,9 @@ feature: a4t general
 topic: Advanced,Standard,Classic
 uuid: b04ad535-62fb-4dd3-ab3f-23da60fbffbd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1393'
+source-wordcount: '1391'
 ht-degree: 19%
 
 ---
@@ -145,4 +145,4 @@ Alcune limitazioni e note si applicano sia all&#39;allocazione automatica che al
 * [!UICONTROL I modelli Auto-Target] continuano a essere formati ogni 24 ore, come al solito. Tuttavia, i dati evento di conversione provenienti da [!DNL Analytics] vengono posticipati di ulteriori 6-24 ore. Questo ritardo significa che la distribuzione del traffico [!DNL Target] seguirà gli ultimi eventi registrati in [!DNL Analytics]. Questo avrà l&#39;effetto più grande nelle prime 48 ore dalla prima attivazione di un&#39;attività; le prestazioni dell&#39;attività rispecchieranno più da vicino il comportamento di [!DNL Analytics] conversione dopo cinque giorni. È consigliabile utilizzare [!UICONTROL Auto-Allocate] invece di [!UICONTROL Auto-Target] per le attività di breve durata in cui il traffico si verifica per la maggior parte entro i primi cinque giorni di vita dell&#39;attività.
 * Quando si utilizza [!DNL Analytics] come origine dati per un&#39;attività [!UICONTROL Auto-Target] , le sessioni vengono considerate terminate dopo sei ore. Le conversioni che si verificano dopo sei ore non saranno conteggiate.
 
-Per ulteriori informazioni, vedi Modelli [di attribuzione e finestre](https://docs.adobe.com/content/help/en/analytics/analyze/analysis-workspace/attribution/models.html) di lookback nella Guida *degli strumenti di* Analytics.
+Per ulteriori informazioni, vedi Modelli [di attribuzione e finestre](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) di lookback nella Guida *degli strumenti di* Analytics.
