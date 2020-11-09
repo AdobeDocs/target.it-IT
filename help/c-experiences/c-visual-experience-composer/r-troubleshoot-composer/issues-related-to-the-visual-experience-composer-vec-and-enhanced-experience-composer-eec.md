@@ -5,10 +5,10 @@ title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al C
 feature: vec
 uuid: 93f646d9-fcbc-43f0-9f84-0ce8e486ff7f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 68%
+source-wordcount: '1368'
+ht-degree: 69%
 
 ---
 
@@ -27,7 +27,7 @@ Con le ultime modifiche (agosto 2020), tutti gli utenti con Chrome 80+ versioni 
 
  Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi del cookie per impostare l’ `SameSite="none"` attributo, se necessario. L&#39;estensione [aggiornata è disponibile qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, consultate Estensione [helper di](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Visual Experience Composer (Compositore esperienza visivo).
 
-Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore [!UICONTROL Cookie] , quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [Cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target nella Guida *utente dell&#39;interfaccia di* Experience Cloud.
+Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore [!UICONTROL Cookie] , quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target nella Guida *utente dell&#39;interfaccia di* Experience Cloud.
 
 ![I cookie si attivano nell&#39;estensione del supporto VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
