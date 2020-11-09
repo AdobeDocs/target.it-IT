@@ -3,10 +3,8 @@ keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whi
 description: Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
 title: Ambienti
 feature: hosts and environments
-topic: Standard
-uuid: c7682269-4ec2-4a0f-b053-7e0ec77f4604
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '654'
 ht-degree: 68%
