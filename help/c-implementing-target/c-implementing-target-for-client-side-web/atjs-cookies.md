@@ -3,10 +3,8 @@ keywords: at.js;2.0;1.x;cookies
 description: Dettagli sulla gestione dei cookie da parte di Adobe Target at.js 2.x e at.js 1.x
 title: Cookie di at.js in Adobe Target
 feature: client-side
-subtopic: Getting Started
-topic: Standard
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1820'
 ht-degree: 98%
