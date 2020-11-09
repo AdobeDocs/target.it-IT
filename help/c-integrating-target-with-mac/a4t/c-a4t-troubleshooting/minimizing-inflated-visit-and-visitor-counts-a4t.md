@@ -3,10 +3,8 @@ keywords: partial data;partial-data;A4T;discrepancies;analytics for target;orpha
 description: Informazioni che consentono di minimizzare gli effetti di conteggia gonfiati per visite e visitatori quando si utilizza Analytics come origine per la generazione di rapporti.
 title: Minimizzare i conteggi gonfiati per visite e visitatori in A4T
 feature: a4t troubleshooting
-topic: Standard
-uuid: 1d5f242a-634f-47f7-ad23-b62019359734
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1345'
 ht-degree: 97%
