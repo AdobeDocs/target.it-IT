@@ -3,10 +3,8 @@ keywords: audience;audience rules;create audience;creating audience;targeting au
 description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
 title: Utilizzo del pubblico in Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 994eed40-11ca-460e-827c-75a4db8a942d
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '879'
 ht-degree: 95%
