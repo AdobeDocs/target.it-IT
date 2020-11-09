@@ -3,9 +3,8 @@ keywords: Recommendations
 description: Negli scenari di questo argomento viene illustrato come le modifiche apportate alla pagina influiscono sulla capacità di Target di mostrare un’esperienza.
 title: Scenari di modifica delle pagine
 feature: vec
-uuid: bb868f55-7e77-49c4-81b5-3aff5b63b827
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
