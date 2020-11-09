@@ -3,10 +3,8 @@ keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
 description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
 title: Domande frequenti su destinazioni e pubblico
 feature: audiences
-topic: Standard
-uuid: 4a8d977a-aa98-4aff-843e-ace32b8eed53
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 69%
