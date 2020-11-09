@@ -3,10 +3,8 @@ keywords: faq;frequently asked questions;analytics for target;a4T;redirect;redir
 description: Questo argomento contiene le risposte alle domande che vengono spesso poste in merito alle offerte di reindirizzamento durante l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
 title: Offerte di reindirizzamento - Domande frequenti su A4T
 feature: a4t troubleshooting
-topic: Standard
-uuid: a45cef89-3003-4177-bf84-3d5a486b950d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1206'
 ht-degree: 94%
