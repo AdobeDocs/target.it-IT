@@ -3,10 +3,8 @@ keywords: single page application implementation;implement single page applicati
 description: Informazioni per utilizzare Adobe Target at.js 2.x per implementare applicazioni a pagina singola.
 title: Implementazione di applicazioni a pagina singola in Adobe Target
 feature: implementation general
-topic: standard
-uuid: 5887ec53-e5b1-40f9-b469-33685f5c6cd6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -34,13 +32,13 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+**Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento:[Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento: [Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -54,7 +52,7 @@ All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;in
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “PRODUCTS-PAGE-2”.
 
-**Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![pagina di checkout](/help/c-experiences/assets/checkout.png)
 
@@ -88,7 +86,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento:[Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+   **Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -119,7 +117,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
  <Router history={hashHistory} onUpdate={targetView} >
 ```
 
-**Collegamento:[Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento: [Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
 
 Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta “Prezzo” in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -148,7 +146,7 @@ Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esp
  }
 ```
 
-**Collegamento:[Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -286,12 +284,12 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 | --- | --- | --- |
 | 1 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre [!DNL Adobe] soluzioni sulla pagina Web. |
 | 2 | Carica a.js 2.x | at.js 2.x carica tutte le API necessarie che utilizzate per implementare [!DNL Target] richieste e viste. |
-| 3 | Esegui [!DNL Target] richiesta | Se disponete di un livello dati, vi consigliamo di caricare i dati critici da inviare [!DNL Target] prima di eseguire una [!DNL Target] richiesta. Questo consente di inviare `targetPageParams` i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se avete impostato `pageLoadEnabled` e `viewsEnabled`, con il Passaggio 2 vengono eseguiti sia il comando pageLoad che il comando prefetch > le viste, in caso contrario, è necessario utilizzare l&#39; `getOffers()` API per effettuare questa richiesta. |
+| 3 | Esegui [!DNL Target] richiesta | Se disponete di un livello dati, vi consigliamo di caricare i dati critici da inviare [!DNL Target] prima di eseguire una [!DNL Target] richiesta. Questo consente di inviare `targetPageParams` i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se avete impostato `pageLoadEnabled` e `viewsEnabled`, con il passaggio 2 vengono eseguite entrambe le operazioni > pageLoad e prefetch > le viste; in caso contrario, è necessario utilizzare l&#39; `getOffers()` API per effettuare questa richiesta. |
 | 4 | Chiamata `triggerView()` | Poiché la [!DNL Target] richiesta avviata nel passaggio 3 potrebbe restituire esperienze sia per l&#39;esecuzione del caricamento delle pagine che per le viste, accertatevi che `triggerView()` venga chiamata dopo la restituzione della [!DNL Target] richiesta e la fine dell&#39;applicazione delle offerte alla cache. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
 | 5 | Chiamare il beacon di visualizzazione della [!DNL Analytics] pagina | Questo beacon invia il codice SDID associato ai passaggi 3 e 4 [!DNL Analytics] per l&#39;unione dei dati. |
-| 6 | Richiama `triggerView({"page": false})` | Si tratta di un passaggio facoltativo per i framework SPA che potrebbero eventualmente eseguire nuovamente il rendering di alcuni componenti sulla pagina senza che si verifichi una modifica della visualizzazione. In tali casi, è importante richiamare questa API per garantire che [!DNL Target] le esperienze vengano applicate nuovamente dopo che il framework SPA ha rieseguito il rendering dei componenti. Potete eseguire questo passaggio tutte le volte che desiderate assicurarvi che [!DNL Target] le esperienze persistano nelle viste dell’area di protezione. |
+| 6 | Richiama `triggerView({"page": false})` | Si tratta di un passaggio facoltativo per i framework SPA che potrebbero eventualmente eseguire nuovamente il rendering di alcuni componenti sulla pagina senza che si verifichi una modifica della visualizzazione. In tali casi, è importante richiamare questa API per garantire che [!DNL Target] le esperienze vengano applicate nuovamente dopo che il framework SPA avrà eseguito nuovamente il rendering dei componenti. Potete eseguire questo passaggio tutte le volte che desiderate assicurarvi che [!DNL Target] le esperienze persistano nelle viste SPA. |
 
-### Ordine delle operazioni per la modifica della visualizzazione SPA (nessun ricarico a pagina intera)
+### Ordine delle operazioni per SPA modifica della visualizzazione (nessun ricarico a pagina intera)
 
 | Passaggio | Azione | Dettagli |
 | --- | --- | --- |
@@ -300,7 +298,7 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 | 3 | Chiamata `triggerView()` | Se avete eseguito il Passaggio 2, dovete attendere la [!DNL Target] richiesta e applicare le offerte alla cache prima di eseguire questo passaggio. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
 | 4 | Chiamata `triggerView()` | Se non hai eseguito il Passaggio 2, puoi eseguire questo passaggio non appena avrai completato il Passaggio 1. Se hai eseguito i passaggi 2 e 3, devi saltare questo passaggio. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
 | 5 | Chiamare il beacon di visualizzazione della [!DNL Analytics] pagina | Questo beacon invia il codice SDID associato ai passaggi 2, 3 e 4 [!DNL Analytics] per l&#39;unione dei dati. |
-| 6 | Richiama `triggerView({"page": false})` | Si tratta di un passaggio facoltativo per i framework SPA che potrebbero eventualmente eseguire nuovamente il rendering di alcuni componenti sulla pagina senza che si verifichi una modifica della visualizzazione. In tali casi, è importante richiamare questa API per garantire che [!DNL Target] le esperienze vengano applicate nuovamente dopo che il framework SPA ha rieseguito il rendering dei componenti. Potete eseguire questo passaggio tutte le volte che desiderate assicurarvi che [!DNL Target] le esperienze persistano nelle viste dell’area di protezione. |
+| 6 | Richiama `triggerView({"page": false})` | Si tratta di un passaggio facoltativo per i framework SPA che potrebbero eventualmente eseguire nuovamente il rendering di alcuni componenti sulla pagina senza che si verifichi una modifica della visualizzazione. In tali casi, è importante richiamare questa API per garantire che [!DNL Target] le esperienze vengano applicate nuovamente dopo che il framework SPA avrà eseguito nuovamente il rendering dei componenti. Potete eseguire questo passaggio tutte le volte che desiderate assicurarvi che [!DNL Target] le esperienze persistano nelle viste SPA. |
 
 ## Video di formazione
 
@@ -312,11 +310,11 @@ I video che seguono contengono ulteriori informazioni:
 
 Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
 
-### Implementazione a.js 2.x in un badge ![Tutorial SPA](/help/assets/tutorial.png)
+### Implementare at.js 2.x in un badge ![Tutorial SPA](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/26248)
 
-Per ulteriori informazioni, consulta [Implementazione  Adobe Target a.js 2.x in un’applicazione SPA (Single Page Application)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) .
+Per ulteriori informazioni, vedere [Implementazione  Adobe Target a.js 2.x in un&#39;applicazione (SPA)](https://helpx.adobe.com/target/kt/using/atjs2-single-page-application-technical-video-implement.html) a pagina singola.
 
 ### Using the VEC for SPAs in Adobe Target ![Tutorial badge](/help/assets/tutorial.png)
 
