@@ -3,10 +3,8 @@ keywords: offer;prefetch;iOS;android;sdk;mobile;mobile sdk
 description: La funzione di preacquisizione di Adobe Target utilizza gli SDK per dispositivi mobili iOS e Android per recuperare il contenuto delle offerte il minor numero di volte possibile, memorizzando nella cache le risposte dal server.
 title: Preacquisire il contenuto dell’offerta
 feature: mobile implementation
-topic: Advanced,Standard,Classic
-uuid: 715e0e77-bfd9-437b-b42c-899d66f2890c
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '233'
 ht-degree: 63%
