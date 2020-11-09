@@ -3,11 +3,8 @@ keywords: customer relationship management;customer record service;crs;crm;mbox3
 description: Informazioni sull'utilizzo dei dati del cliente aziendale da database CRM (Customer Relationship Management) per il targeting dei contenuti in  Adobe Target, utilizzando Attributi cliente nel servizio di base Persone di Adobe Experience Cloud.
 title: Attributi del cliente in  Adobe Target
 feature: visitor profiles
-subtopic: Getting Started
-topic: Standard
-uuid: fc3c9a02-30d7-43df-838d-10ce1aa17f16
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1494'
 ht-degree: 40%
