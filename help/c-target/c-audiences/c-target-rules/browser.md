@@ -3,10 +3,8 @@ keywords: browser options;type;browser type;browser language;language;version;br
 description: Puoi creare diversi tipi di pubblico in Adobe Target per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o particolari opzioni del browser.
 title: Opzioni del browser nei tipi di pubblico di Adobe Target
 feature: audiences
-subtopic: Multivariate Test
-uuid: 9059aae2-477f-4e8d-99ce-ef2dad2d17bb
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '648'
 ht-degree: 99%
