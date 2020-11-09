@@ -3,10 +3,8 @@ keywords: audience;propensity;profile attribute;compare;comparison;create audien
 description: Definisci un pubblico per confrontare due attributi di profilo per la tua Libreria tipi di pubblico di Target o in un pubblico per sola attività. L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 title: Creare un pubblico per il confronto degli attributi di profilo in Adobe Target
 feature: audiences
-topic: Advanced,Standard,Classic
-uuid: 17c1f2e0-4c1e-4b7a-8398-9ec147253a5f
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '429'
 ht-degree: 99%
