@@ -4,10 +4,8 @@ description: Utilizza i tipi di pubblico di Adobe Target per indirizzare l’att
 title: Opzioni Geo in  pubblico Adobe Target
 feature: audiences
 solution: Target,Analytics
-topic: Reports and analytics
-uuid: d30cda0e-016e-4391-95b7-ff3b55e06bf0
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '942'
 ht-degree: 88%
@@ -149,7 +147,7 @@ Prima di eseguire questa operazione è necessario eliminare i cookie.
 
 Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” separati.
 
-**Acquisisce (e archivia)[!DNL Target]informazioni come i codici ZIP quando l&#39;attività è mirata con le funzionalità di targeting geografico?**
+**Acquisisce (e archivia) [!DNL Target] informazioni come i codici ZIP quando l&#39;attività è mirata con le funzionalità di targeting geografico?**
 
 No, [!DNL Target] utilizza dati geografici solo per la durata della sessione, quindi i dati vengono scartati.
 
