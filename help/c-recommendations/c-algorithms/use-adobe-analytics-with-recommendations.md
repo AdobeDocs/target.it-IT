@@ -4,9 +4,9 @@ description: Utilizzando  Adobe Analytics come origine dati comportamentale, i c
 title: Utilizzo di  Adobe Analytics con Target Recommendations
 feature: criteria
 translation-type: tm+mt
-source-git-commit: f9e185ed9b8dbf2b96ac5476ba5b050725e81d4b
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1022'
 ht-degree: 1%
 
 ---
@@ -49,7 +49,7 @@ Un formato di feed [!DNL Target Recommendations] di esempio fungerà da guida su
 >
 >Se si tratta di un sito di contenuti, le rispettive parti di contenuto devono essere trattate come &quot;prodotti&quot; e gli attributi associati relativi a tale contenuto (ad esempio: nome autore, data di pubblicazione, titolo contenuto, mese di rilascio, ecc.) devono essere passati come attributi. La granularità del livello di categoria o dei tipi di categoria dovrebbe essere decisa dall&#39;impresa in base ai requisiti del caso d&#39;uso.
 
-Per ulteriori dettagli su come impostare le variabili di prodotto, vedi [prodotti](https://docs.adobe.com/content/help/en/analytics/implementation/vars/page-vars/products.html) nella Guida all&#39;implementazione di *Analytics*. Alcune delle note contenute in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare  Adobe prima di eseguire questa attività.
+Per ulteriori dettagli su come impostare le variabili di prodotto, vedi [prodotti](https://experienceleague.adobe.com/docs/analytics/implementation/vars/page-vars/products.html) nella Guida all&#39;implementazione di *Analytics*. Alcune delle note contenute in tale documentazione richiedono discrezione da parte del team che la sta distribuendo (ad esempio: Categoria). È sempre consigliabile consultare  Adobe prima di eseguire questa attività.
 
 ### Considerazioni
 
