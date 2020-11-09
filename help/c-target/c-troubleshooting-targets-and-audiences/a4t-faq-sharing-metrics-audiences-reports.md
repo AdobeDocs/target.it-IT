@@ -6,10 +6,10 @@ feature: a4t troubleshooting
 topic: Standard
 uuid: 53f3c341-280e-4271-8d53-f1ad74036dd9
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 82%
+source-wordcount: '234'
+ht-degree: 84%
 
 ---
 
@@ -22,10 +22,10 @@ Questo argomento contiene le risposte alle domande che vengono spesso poste in m
 
 Spesso è utile creare una visualizzazione di un test per diversi gruppi di utenti affinché possano facilmente esaminare i risultati del test. In Analytics, è possibile creare un segnalibro per salvare la visualizzazione corrente di un rapporto, inclusi dati quali metriche, intervalli di date, segmenti e altri dati.
 
-Per ulteriori informazioni, vedere Gestione dei [segnalibri](https://docs.adobe.com/content/help/en/analytics/analyze/reports-analytics/bookmarks.html).
+Per ulteriori informazioni, vedere Gestione dei [segnalibri](https://experienceleague.adobe.com/docs/analytics/analyze/reports-analytics/bookmarks.html).
 
 ## Come posso verificare che le metriche e i segmenti siano condivisi con il team di ottimizzazione? {#section_38BCA134A2F64C21B670CBD4491B7099}
 
 Se utilizzi metriche e segmenti speciali con un test, puoi creare un gruppo di utenti per il team di ottimizzazione. Condividi tali metriche e segmenti con il gruppo anziché con singoli membri, per assicurarti che tutti abbiano accesso ai segmenti e alle metriche. Solo gli amministratori possono condividere con i gruppi.
 
-See [Sharing segments](https://docs.adobe.com/content/help/en/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://docs.adobe.com/content/help/en/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+See [Sharing segments](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) and [Sharing calculated metrics](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
