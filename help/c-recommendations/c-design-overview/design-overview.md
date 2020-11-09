@@ -3,9 +3,8 @@ keywords: recommendations design;template;create design;delivery;output
 description: Le progettazioni  Adobe Target Recommendations definiscono la modalità di visualizzazione delle raccomandazioni su una pagina. Le progettazioni definiscono il layout e il formato delle raccomandazioni per migliorare il coinvolgimento, la conversione e le entrate dei visitatori.
 title: Panoramica della progettazione
 feature: designs
-uuid: 82cc6a19-bfde-47b3-92b9-b862be70dd87
 translation-type: tm+mt
-source-git-commit: 4a3a34c868b542a4d534b6dcef8663e2b2b6b448
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '191'
 ht-degree: 30%
