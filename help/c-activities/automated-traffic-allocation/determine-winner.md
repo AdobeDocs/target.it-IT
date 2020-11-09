@@ -3,10 +3,8 @@ keywords: automated traffic allocation;targeting;winner;statistical guarantee;co
 description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
 title: Determinare un vincitore
 feature: auto-allocate
-topic: Standard
-uuid: 0bcc11b2-44bd-450c-a504-a8ff7a4d72e6
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1109'
 ht-degree: 49%
