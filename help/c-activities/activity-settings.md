@@ -3,11 +3,8 @@ keywords: Goal &Settings;objective;priority;duration
 description: Utilizza le Impostazioni attività per gestire la finalità, la priorità e la durata delle attività.
 title: Impostazioni delle attività
 feature: activities
-subtopic: Multivariate Test
-topic: Standard
-uuid: d317e63a-ba1f-4c0e-ab90-c6181b8b45fd
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '400'
 ht-degree: 90%
