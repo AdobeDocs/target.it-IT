@@ -3,9 +3,8 @@ keywords: Targeting;AP reports;automated personalization reports;auto-target;aut
 description: Informazioni sul rapporto Attributi importanti, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
 title: Rapporto Attributi importanti
 feature: reports
-uuid: c03bf806-0b03-4315-a176-4eaa9250a271
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1629'
 ht-degree: 94%
