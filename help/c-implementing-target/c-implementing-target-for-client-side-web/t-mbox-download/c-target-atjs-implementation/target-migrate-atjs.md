@@ -6,10 +6,10 @@ feature: null
 topic: Standard
 uuid: 45f81fe8-7b04-4a36-931d-bbf03ed6cbb3
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '828'
-ht-degree: 98%
+source-wordcount: '826'
+ht-degree: 99%
 
 ---
 
@@ -87,7 +87,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    >[!NOTE]
    >
-   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità. [Dynamic Tag Management](https://dtm.adobe.com) di Adobe è gratuita per i clienti [!DNL Target] ed è il metodo consigliato per distribuire [!DNL Target]. Per ulteriori informazioni, vedi [Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management](https://docs.adobe.com/content/help/en/dtm/implementing/overview.html).
+   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità. [Dynamic Tag Management](https://dtm.adobe.com) di Adobe è gratuita per i clienti [!DNL Target] ed è il metodo consigliato per distribuire [!DNL Target]. Per ulteriori informazioni, vedi [Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
 
 1. Verifica che tutte le attività e le integrazioni correnti funzionino come previsto.
 
