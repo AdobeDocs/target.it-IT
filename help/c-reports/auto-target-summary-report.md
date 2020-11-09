@@ -3,11 +3,8 @@ keywords: reports;auto-target;auto target;AT;report
 description: Informazioni su come interpretare il rapporto di riepilogo di Auto-Target in  Adobe Target.
 title: Rapporto di riepilogo del Targeting automatico
 feature: reports
-subtopic: Multivariate Test
-topic: Standard
-uuid: a30fa886-e8df-408f-bbc9-11a917a592d8
 translation-type: tm+mt
-source-git-commit: 56c77e1a7b5dd4e64f59b0416a16c3039a649ba3
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 57%
