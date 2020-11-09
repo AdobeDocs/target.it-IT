@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;mistakes;pitfalls;mistake;pitfall;significance;winner;st
 description: Il test A/B costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione descrive nove delle insidie più significative a cui le aziende sono soggette quando eseguono test A/B in  Adobe Target. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 title: Nove insidie frequenti per i test A/B e come evitarle
 feature: ab
-uuid: 63c47a7c-3378-4a0b-bfd5-c15865dad403
 translation-type: tm+mt
-source-git-commit: b2f80c89ecceb6f88a176db7a90e71a162a24641
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3918'
 ht-degree: 88%
