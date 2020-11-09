@@ -3,9 +3,8 @@ keywords: Targeting;traffic sources;target traffic sources;target search engine;
 description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 title: Opzioni Sorgenti di traffico nel pubblico  Adobe Target
 feature: audiences
-uuid: 725cb4f4-6530-403a-a9c8-305219765615
 translation-type: tm+mt
-source-git-commit: 6922b80c88cbd2947c3bfd0cc9d8409ff5dcdcd0
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '235'
 ht-degree: 96%
