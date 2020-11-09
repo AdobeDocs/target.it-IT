@@ -5,10 +5,10 @@ title: Offerte
 feature: offers
 uuid: 925b930a-1fa9-41a3-a11b-f5241dab7725
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 97%
+source-wordcount: '476'
+ht-degree: 98%
 
 ---
 
@@ -91,7 +91,7 @@ Sono disponibili le seguenti informazioni:
 
 Questo video include informazioni sulla gestione delle offerte.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://docs.adobe.com/content/help/en/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
+* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
 * Offerte HTML personalizzate
 * Offerta HTML personalizzata nel Compositore esperienza visivo
 
