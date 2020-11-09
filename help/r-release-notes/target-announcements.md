@@ -3,9 +3,8 @@ keywords: announcements;skill builder;developer chat;coffee break;events
 description: Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
 title: Annunci Target
 feature: release notes
-topic: Standard
 translation-type: tm+mt
-source-git-commit: 55860d360cf69415ad41807144a3cbe4657eedad
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '592'
 ht-degree: 0%
