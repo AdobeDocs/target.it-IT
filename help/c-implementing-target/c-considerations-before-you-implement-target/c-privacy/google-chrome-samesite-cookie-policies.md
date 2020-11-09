@@ -3,11 +3,8 @@ keywords: google;samesite;cookies;chrome 80;ietf
 description: Informazioni su Adobe Target e lo standard IETF SameSite introdotto con Google Chrome versione 80.
 title: ' i criteri dei cookie di Adobe Target e Google SameSite'
 feature: privacy and security
-subtopic: Getting Started
-topic: Standard
-uuid: aaeda1e6-7b2c-4a00-b65d-bfc95ea796b5
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2033'
 ht-degree: 8%
@@ -31,7 +28,7 @@ I cookie sono importanti perché migliorano l&#39;esperienza dell&#39;utente che
 
 Esistono anche cookie di terze parti. Per comprenderli meglio, consideriamo questo esempio:
 
-Supponiamo che un&#39;ipotetica società di social media denominata &quot;Amici&quot; fornisca un pulsante Condividi implementato da altri siti per consentire agli utenti di condividere il contenuto del sito sul feed Friends. Ora, un utente legge un articolo di notizie su un sito Web di notizie che utilizza il pulsante Condividi e fa clic su di esso per pubblicare automaticamente il proprio account Amici.
+Supponiamo che un&#39;ipotetica società di social media denominata &quot;Amici&quot; fornisca un pulsante Condividi implementato da altri siti per consentire agli utenti di condividere il contenuto del sito sul feed Amici. Ora, un utente legge un articolo di notizie su un sito Web di notizie che utilizza il pulsante Condividi e fa clic su di esso per pubblicare automaticamente il proprio account Amici.
 
 A tal fine, il browser recupera il pulsante Condivisione amici da `platform.friends.com` quando viene caricato l’articolo della notizia. In questo processo, il browser allega i cookie Friends, che contengono le credenziali di accesso dell&#39;utente, alla richiesta ai server Friends. Questo consente agli amici di pubblicare l’articolo nel proprio feed per conto dell’utente senza che l’utente debba effettuare l’accesso.
 
@@ -60,7 +57,7 @@ Tre valori diversi possono essere passati nell’attributo SameSite: Strict, Lax
 | Valore | Descrizione |
 | --- | --- |
 | Strict (Rigoroso) | I cookie con questa impostazione sono accessibili solo quando si visita il dominio in cui sono stati inizialmente impostati. In altre parole, Strict impedisce completamente che il cookie possa essere utilizzato tra siti diversi. Questa opzione è ideale per le applicazioni che richiedono elevata sicurezza, come le banche. |
-| Lax (Tollerante) | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. Pertanto, questa opzione viene utilizzata se il cookie può essere utilizzato da terzi, ma con un ulteriore vantaggio di sicurezza che protegge gli utenti da essere vittime di attacchi CSRF. |
+| Lax (Tollerante) | Cookies with this setting are sent only on same-site requests or top-level navigation with non-idempotent HTTP requests, like `HTTP GET`. Pertanto, questa opzione viene utilizzata se il cookie può essere utilizzato da terzi, ma con un vantaggio in termini di sicurezza che protegge gli utenti da attacchi CSRF. |
 | None (Nessuno) | I cookie con questa impostazione funzioneranno come i cookie di oggi. |
 
 Tenendo presente quanto sopra, Chrome 80 introduce due impostazioni indipendenti per gli utenti: &quot;Per impostazione predefinita, SameSite cookie&quot; e &quot;Cookies senza SameSite devono essere protetti.&quot; Queste impostazioni verranno abilitate per impostazione predefinita in Chrome 80.
