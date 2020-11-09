@@ -1,4 +1,5 @@
 ---
+keywords: scene7;dynamic media classic;digital asset management;assets;dam;content library
 description: Target Standard può essere integrato con  Adobe Dynamic Media Classic per fornire Digital Asset Management (DAM) nella libreria Contenuto.
 title: Integrazione con Dynamic Media Classic
 feature: administration general
@@ -6,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: 4b06a3ed-0e87-4e49-874f-2e479324f81c
 translation-type: tm+mt
-source-git-commit: 4e2e894ee10d8a83907e0533630091442d1733fa
+source-git-commit: b1dbed6f911cb4e8542855322022f75b7779878f
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '399'
 ht-degree: 25%
 
 ---
@@ -16,7 +17,7 @@ ht-degree: 25%
 
 # Configurazione Scene7 {#scene-settings}
 
-Target can be integrated with [!DNL Adobe Dynamic Media Classic] to provide Digital Asset Management (DAM) in the Content Library.
+[!DNL Target] può essere integrato con [!DNL Adobe Dynamic Media Classic] per fornire Digital Asset Management (DAM) nella libreria [!UICONTROL Contenuto].
 
 >[!NOTE]
 >
@@ -26,7 +27,7 @@ If you already have a [!DNL Dynamic Media] account, you can supply your existing
 
 >[!NOTE]
 >
->Un [!DNL Dynamic Media Classic] account gratuito a uso limitato per  Adobe Target non è più supportato per i nuovi clienti o nuovi utenti. Le credenziali di accesso esistenti funzionano normalmente.
+>Un [!DNL Dynamic Media Classic] account gratuito a uso limitato non [!DNL Adobe Target] è più supportato per i nuovi clienti o nuovi utenti. Le credenziali di accesso esistenti funzionano normalmente.
 
 If this setting is not configured, the [!UICONTROL Swap Image offer] option within the activity creation workflow is not available. Una volta configurata, l’opzione di offerte di scambio/cambiamento immagine è disponibile sia nel [Compositore esperienza visivo che nel Compositore esperienza basato su moduli](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D). You can then leverage image offers with images that have been uploaded from the [!DNL Adobe Experience Cloud] for use in [!DNL Target] activities.
 
