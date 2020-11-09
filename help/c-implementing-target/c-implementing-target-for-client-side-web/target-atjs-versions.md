@@ -3,10 +3,8 @@ keywords: at.js releases;at.js versions
 description: Dettagli sulle modifiche apportate in ogni versione di at.js.
 title: Dettagli sulle versioni di at.js
 feature: release notes
-subtopic: Getting Started
-uuid: 3586af55-db15-4e68-90a7-d552338ec5e8
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3975'
 ht-degree: 86%
