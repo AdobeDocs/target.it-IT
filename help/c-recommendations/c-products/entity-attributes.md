@@ -3,9 +3,8 @@ keywords: entity;entity attributes;pass information to Recommendations;behaviora
 description: Utilizzate gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad  Adobe Target Recommendations.
 title: Attributi di entità
 feature: entities
-uuid: 27672881-a79c-4271-9a61-defddb9a5249
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1019'
 ht-degree: 88%
