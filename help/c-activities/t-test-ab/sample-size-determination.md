@@ -3,9 +3,8 @@ keywords: AB;A/B;AB...n;sample size;sample size calculator;auto-allocate;auto al
 description: Un test A/B di successo richiede un numero adeguato di visitatori (dimensioni del campione) per migliorare il tasso di conversione, ma come si fa a sapere per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività di allocazione automatica e sul calcolatore  dimensioni campione Adobe Target per garantire che l'attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 title: Per quanto tempo si deve eseguire un test A/B?
 feature: ab
-uuid: 4f5693c8-5372-425b-8e61-efb595b144cc
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '3102'
 ht-degree: 75%
