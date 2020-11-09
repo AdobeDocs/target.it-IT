@@ -7,9 +7,9 @@ subtopic: Getting Started
 topic: Standard
 uuid: a6d64e39-6cdc-49fe-afe5-ecf7dcacf97d
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '1940'
+source-wordcount: '1936'
 ht-degree: 96%
 
 ---
@@ -337,8 +337,8 @@ Richiede l&#39;implementazione di Experience Cloud ID (ECID).
 
 ### Esempi di codice
 
-Details can be found in [Create a customer attribute source and upload the data file](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+Details can be found in [Create a customer attribute source and upload the data file](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
 
 ### Link a informazioni rilevanti
 
-[Crea un&#39;origine attributo del cliente e carica il file di dati](https://docs.adobe.com/content/help/en/core-services/interface/customer-attributes/t-crs-usecase.html).
+[Crea un&#39;origine attributo del cliente e carica il file di dati](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html).
