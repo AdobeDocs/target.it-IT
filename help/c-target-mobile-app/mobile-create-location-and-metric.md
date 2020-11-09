@@ -6,9 +6,9 @@ feature: mobile implementation
 topic: Target
 uuid: dc39260c-8222-42b3-9f6b-f83be30e3210
 translation-type: tm+mt
-source-git-commit: e203dc94e9bb34c4090f5795cbf73869808ada88
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '388'
+source-wordcount: '384'
 ht-degree: 92%
 
 ---
@@ -18,11 +18,11 @@ ht-degree: 92%
 
 Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
 
-Questa sezione include il codice di esempio che può essere utilizzato come modello per l&#39;app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [](https://docs.adobe.com/content/help/en/mobile-services/android/target-android/target-main.html)Android SDK 4.x per Experience Cloud Solutions.
+Questa sezione include il codice di esempio che può essere utilizzato come modello per l&#39;app. Gli esempi in questa sezione contengono il codice per iOS. Gli stessi modelli si applicano ad Android. La sintassi specifica per Android può essere trovata nel manuale [](https://experienceleague.adobe.com/docs/mobile-services/android/target-android/target-main.html)Android SDK 4.x per Experience Cloud Solutions.
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://docs.adobe.com/content/help/en/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
 
 Per creare una posizione di destinazione nell&#39;app e fare una richiesta, esistono due metodi principali:
 
