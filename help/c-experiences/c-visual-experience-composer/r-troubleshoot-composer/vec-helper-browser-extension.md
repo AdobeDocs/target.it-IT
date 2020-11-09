@@ -5,9 +5,9 @@ title: Estensione Adobe Target VEC Helper
 feature: vec
 topic: Standard
 translation-type: tm+mt
-source-git-commit: 73af03c895ce98e5b6762950e8cd638d7bef0990
+source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
 workflow-type: tm+mt
-source-wordcount: '880'
+source-wordcount: '878'
 ht-degree: 59%
 
 ---
@@ -66,7 +66,7 @@ L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento 
 
    * Per ulteriori informazioni sulla correzione del browser SameSite=None dell&#39;attributo, vedere &quot;How do the Google Chrome SameSite Cookie Enforcement Policies (Come possono le politiche di imposizione dei cookie dello stesso sito Google recentemente annunciate avere un impatto sul VEC e CEE?&quot; in [Troubleshooting Issues Related to the Visual Experience Composer and Enhanced Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-   * Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [Cookie](https://docs.adobe.com/content/help/en/core-services/interface/ec-cookies/cookies-target.html) Adobe Target nella Guida *utente dell&#39;interfaccia di* Experience Cloud.
+   * Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target nella Guida *utente dell&#39;interfaccia di* Experience Cloud.
 
 ## Note
 
