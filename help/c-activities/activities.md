@@ -3,10 +3,8 @@ keywords: activities list;activities;activity;activity types;edit activity;activ
 description: Le attività in  Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test i design delle pagine
 title: Le attività in  Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni di pagina.
 feature: activities
-topic: Standard
-uuid: 89dca5b4-c23d-4dfa-8f13-f1b05c7ab22c
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '2094'
 ht-degree: 97%
