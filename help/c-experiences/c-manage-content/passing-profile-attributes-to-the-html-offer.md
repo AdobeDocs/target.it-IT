@@ -3,9 +3,8 @@ keywords: dynamic data;assets;data;offers;personalized offers;personal offers;to
 description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
 title: Trasmettere i dati dinamici nelle offerte
 feature: offers
-uuid: 1910a7f5-e4bd-413a-9875-e0b005407f50
 translation-type: tm+mt
-source-git-commit: 3cf1f4fa56f86c106dccdc2c97c080c17c3982b4
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '492'
 ht-degree: 100%
