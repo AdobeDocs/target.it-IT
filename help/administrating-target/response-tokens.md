@@ -3,11 +3,8 @@ keywords: response tokens;tokens;plugins;plug-ins;at.js;response
 description: I token di risposta consentono di inviare automaticamente in uscita informazioni specifiche di Target (dettagli dell'attività, informazioni del profilo utente, informazioni geografiche e così via) da utilizzare per il debug o l'integrazione con sistemi di terze parti (ad esempio, Clicktale)
 title: Token di risposta in Adobe Target
 feature: response tokens
-subtopic: Getting Started
-topic: Standard
-uuid: 20561673-d762-4c3d-bedc-94aeab5053d7
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
