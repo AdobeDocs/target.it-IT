@@ -3,10 +3,8 @@ keywords: affinity;category affinity
 description: La funzionalità di affinità tra categorie in Adobe Target acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 title: Utilizzare l’affinità tra categorie in Adobe Target
 feature: visitor profiles
-topic: Standard
-uuid: b81d9c91-a222-4768-9ac8-359f9ab9ca2d
 translation-type: tm+mt
-source-git-commit: 95450abc32be19d04b791af3c62673e9411ab53c
+source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
 workflow-type: tm+mt
 source-wordcount: '830'
 ht-degree: 98%
