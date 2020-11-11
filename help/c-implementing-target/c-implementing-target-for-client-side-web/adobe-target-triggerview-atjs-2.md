@@ -4,10 +4,10 @@ description: Informazioni sulla funzione adobe.target.triggerView (viewName, opt
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 100%
+source-wordcount: '264'
+ht-degree: 92%
 
 ---
 
@@ -24,7 +24,7 @@ ht-degree: 100%
 | --- | --- | --- | --- |
 | viewName | Stringa | Sì | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
 | options | Oggetto | No |  |
-| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Se alla visualizzazione non è associata alcuna esperienza o metrica di attività, non viene inviata alcuna notifica.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Per impostazione predefinita, una notifica viene sempre inviata quando `triggerView` viene chiamata una chiamata, tranne quando opzioni > pagina sono impostate su false.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
 ## Esempio: True
 
