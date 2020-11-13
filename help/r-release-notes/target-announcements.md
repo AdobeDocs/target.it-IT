@@ -4,9 +4,9 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '462'
+source-wordcount: '417'
 ht-degree: 0%
 
 ---
@@ -30,21 +30,6 @@ In questo webinar live, partecipa  esperti di prodotti Adobe Target e illustra c
 * **10 PST | 12 p.m. CST | 1 p.m. EST**
 
 [Registrati qui per questo evento emozionante.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
-
-##  Interruzione del caffè della community Adobe Target D e R
-
-* **mercoledì 11 novembre 2020**
-* **8:00 PST**
-
-Il nostro esperto sarà Senior [!DNL Adobe Target] Product Manager, David Son, che condividerà approfondimenti e competenze sui seguenti argomenti:
-
-* Decisioni su dispositivo
-* At.js
-* Dispositivi mobili
-* AEP Web SDK
-* API di 
-
-[Registrati qui.](https://adobe.ly/2H3MBX9)
 
 ## Webinar: Come HSBC sfrutta  Adobe Target e AI per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
