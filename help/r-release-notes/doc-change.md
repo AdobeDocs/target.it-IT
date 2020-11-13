@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: fb843aef10721d138fa652c818d90295b606247e
+source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2940'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 13 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.3.3. |
 | Novembre 10 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla  Interruzione del caffè della community Adobe Target, prevista per l’11 novembre. |
 | Novembre 3 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stato aggiornato il seguente argomento per la risoluzione dei problemi: &quot;La suite di rapporti di cui ho bisogno non viene visualizzata.&quot; |
 | 28 ottobre | [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) | È stato aggiunto che i visitatori della prima volta possono essere inizializzati solo sul lato client, non sul lato server. |
