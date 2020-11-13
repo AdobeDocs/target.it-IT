@@ -1,18 +1,18 @@
 ---
-keywords: at.js releases;at.js versions
-description: Dettagli sulle modifiche apportate in ogni versione di at.js.
+keywords: at.js releases;at.js versions;release notes
+description: Dettagli sulle modifiche in ciascuna versione di  Adobe Target at.js.
 title: Dettagli sulle versioni di at.js
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 40cf05566f8872b14f02811e18e12e2a955d1545
 workflow-type: tm+mt
-source-wordcount: '3975'
-ht-degree: 86%
+source-wordcount: '4003'
+ht-degree: 85%
 
 ---
 
 
-# Dettagli sulle versioni di at.js {#at-js-version-details}
+# Dettagli sulle versioni di at.js
 
 Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL Adobe Target].
 
@@ -21,6 +21,12 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
 >
 >[Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per effettuare l&#39;aggiornamento a at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzioni alle loro estensioni e correggono frequentemente i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un’estensione e resi disponibili nel [!DNL Launch] catalogo come aggiornamenti. Per ulteriori informazioni, consultate Aggiornamento [](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) estensione nella Guida *utente di* Experience Platform Launch.
+
+## at.js 2.3.3 (13 novembre 2020)
+
+Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+
+* È stato risolto un problema relativo al tracciamento dei clic mbox e A4T.
 
 ## at.js 2.3.2 (24 luglio 2020)
 
