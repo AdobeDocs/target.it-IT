@@ -4,10 +4,10 @@ description: Queste note sulla versione forniscono informazioni su funzioni, mig
 title: 'Note sulla versione di Adobe Target (corrente) '
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: fd3ab8737cd79da7bc14cc0236d07a024d6e85bc
 workflow-type: tm+mt
-source-wordcount: '974'
-ht-degree: 26%
+source-wordcount: '918'
+ht-degree: 27%
 
 ---
 
@@ -44,7 +44,7 @@ Questa versione contiene le nuove funzioni seguenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| [Decisioni su dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La decisione sul dispositivo consente sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a una latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti.<br>La decisione sul dispositivo consente di compilare le istruzioni chiave di personalizzazione e sperimentazione nei tipi di attività Test e Targeting delle esperienze (XT) A/B in oggetti JSON &quot;ottimization artifact:&quot; caricati sui dispositivi dei clienti tramite CDN. Inoltre, grazie al collegamento nativo delle decisioni sui dispositivi con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti possono eseguire analisi rapide e iterazioni più veloci dell&#39;esperienza.<br>Per ulteriori informazioni, consulta *[Introduzione alle decisioni](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* sul dispositivo nella Guida agli SDK per *Adobe Target*.<br>**Registratevi ora per un webinar live.** Partecipate  esperti di prodotti Adobe Target per discutere di come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo, da eseguire localmente con latenza zero, possano aprire le porte a nuovi casi d&#39;uso entusiasmanti e migliorare le prestazioni del sito per i vostri clienti.<ul><li>10 novembre 2020</li><li>10 PT / 12 CT / 1 p.m. ET</li><li>[Registrati qui](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)</li></ul> |
+| [Decisioni su dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La decisione sul dispositivo consente sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a una latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti.<br>La decisione sul dispositivo consente di compilare le istruzioni chiave di personalizzazione e sperimentazione nei tipi di attività Test e Targeting delle esperienze (XT) A/B in oggetti JSON &quot;ottimization artifact:&quot; caricati sui dispositivi dei clienti tramite CDN. Inoltre, grazie al collegamento nativo delle decisioni sui dispositivi con [!DNL Adobe Experience Cloud] i prodotti, [!DNL Target] gli utenti possono eseguire analisi rapide e iterazioni più veloci dell&#39;esperienza.<br>Per ulteriori informazioni, consulta *[Introduzione alle decisioni](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)* sul dispositivo nella Guida agli SDK per *Adobe Target*. |
 
 Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 
