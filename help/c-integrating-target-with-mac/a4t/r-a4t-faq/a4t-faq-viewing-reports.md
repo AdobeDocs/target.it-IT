@@ -4,10 +4,10 @@ description: Questo argomento contiene le risposte alle domande che vengono spes
 title: Visualizzare i rapporti - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
 workflow-type: tm+mt
-source-wordcount: '2177'
-ht-degree: 58%
+source-wordcount: '2196'
+ht-degree: 57%
 
 ---
 
@@ -138,13 +138,11 @@ Come procedura ottimale, devi arrestare l’attività esistente, quindi creare u
 
 ## In che modo vengono conteggiate le visite in Analytics e il credito di conversione allocati in un&#39;attività di Auto-Target che utilizza A4T?
 
-Dopo che un visitatore si qualifica per un&#39;attività, tutto il credito di conversione viene legato a tale attività in futuro.
+Quando un visitatore soddisfa i requisiti, visualizza il contenuto o converte in un&#39;attività A4T, [!DNL Target] invia i dati dell&#39;evento a [!DNL Analytics], che consente [!DNL Analytics] di attribuire eventi di conversione e altri eventi clickstream che si verificano sulla pagina alle attività e alle esperienze pertinenti [!DNL Target] .
 
-Considera i seguenti aspetti:
+Di seguito sono riportati alcuni punti da tenere a mente quando si visualizzano [!DNL Analytics] i rapporti:
 
-* Se una conversione avviene al di fuori della finestra di analisi, la conversione non sarà visibile nei report. La finestra di reporting deve iniziare dalla data di inizio dell&#39;attività.
-* È possibile per un visitatore che non è idoneo per l&#39;attività incrementare il numero di visitatori in [!DNL Analytics], anche se potrebbe non vedere il contenuto fornito dall&#39;attività.
-* Se un visitatore si qualifica per più esperienze in visite diverse, il credito di conversione viene attribuito all&#39;ultima esperienza visualizzata.
-* Se una prima immissione in un&#39;attività si verifica prima della finestra di analisi, le successive visite e conversioni continuano a essere conteggiate nella finestra di analisi. Tuttavia, questo può distorcere [!DNL Analytics] i rapporti.
-* Le attività sono aggiunte e fungono da variabili elenco; tuttavia, le esperienze vengono sovrascritte, ma il merito per la conversione viene attribuito all&#39;ultima esperienza visualizzata.
-* Un visitatore può incrementare le visite per due esperienze diverse se reinserisce l&#39;attività in una visita successiva.
+* In generale, la finestra di reporting deve sempre iniziare dalla data di inizio dell&#39;attività.
+* Se una conversione avviene al di fuori della finestra del rapporto, la conversione non sarà visibile in [!DNL Analytics].
+* Quando nella parte &quot;mirata&quot; del traffico per le attività [!UICONTROL Auto-Target] , i visitatori potrebbero visualizzare esperienze diverse da una sessione all&#39;altra. Ad esempio, il loro profilo o contesto è cambiato e gli algoritmi di machine-learning [!DNL Target]di cui dispongono decideranno che è più probabile che vengano convertiti in base a una nuova esperienza. Ciò è diverso dalle normali attività di test A/B, in cui le esperienze sono appiccicose per un visitatore durante le visite.
+* Se un visitatore visualizza più esperienze tra una visita e l&#39;altra, qualsiasi conversione viene sempre attribuita all&#39;ultima esperienza visualizzata dal visitatore; tuttavia, il conteggio delle visite verrà incrementato per ogni esperienza visualizzata dal visitatore. Questo può eliminare artificialmente i tassi di conversione per esperienza quando si visualizzano esperienze sotto la dimensione &quot;[!UICONTROL Target]&quot; nei [!DNL Adobe Analytics] report.
