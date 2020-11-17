@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
 workflow-type: tm+mt
-source-wordcount: '2994'
+source-wordcount: '3020'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 | --- | --- | --- |
 | Novembre 17 | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Un visitatore può passare da esperienze con targeting a esperienze controllate in visite diverse in un&#39;attività con targeting automatico che utilizza A4T?&quot; |
 |  | [Risoluzione dei problemi e domande frequenti su Target automatico](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Si consiglia di utilizzare Auto Target con una suddivisione 90(Controllo)/10(Destinato) fino alla creazione dei modelli?&quot; |
+|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Sono state aggiunte le seguenti domande frequenti: &quot;In che modo vengono conteggiate le visite in Analytics e il credito di conversione assegnati in un&#39;attività di Auto-Target che utilizza A4T?&quot; |
 | Novembre 13 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.3.3. |
 | Novembre 10 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla  Interruzione del caffè della community Adobe Target, prevista per l’11 novembre. |
 | Novembre 3 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stato aggiornato il seguente argomento per la risoluzione dei problemi: &quot;La suite di rapporti di cui ho bisogno non viene visualizzata.&quot; |
