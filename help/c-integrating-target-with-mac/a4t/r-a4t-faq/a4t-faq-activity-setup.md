@@ -4,10 +4,10 @@ description: Questo argomento contiene le risposte alle domande più frequenti s
 title: Impostazioni delle attività - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 35%
+source-wordcount: '432'
+ht-degree: 42%
 
 ---
 
@@ -47,10 +47,3 @@ Se le percentuali non vengono modificate a livello di attività, un visitatore c
 
 * Dopo essere stato nel &quot;bucket&quot; di traffico di destinazione, il visitatore può essere inviato a un&#39;esperienza diversa da visita a visita se i modelli di machine-learning determinano che una diversa esperienza è rilevante per la nuova visita.
 * Dopo essere stato assegnato al &quot;bucket&quot; di controllo del traffico, un visitatore visualizzerà sempre la stessa esperienza perché l&#39;assegnazione dell&#39;esperienza è basata su un hash pseudo-casuale deterministico del visitorId.
-
-## È consigliabile utilizzare il modello personalizzato per Auto Target e A4T con una divisione 90(Control)/10(Targeting) fino alla creazione dei modelli?
-
-La suddivisione ottimale dell&#39;allocazione del traffico dipende da cosa si desidera ottenere.
-
-Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di efficacia degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore.
-
