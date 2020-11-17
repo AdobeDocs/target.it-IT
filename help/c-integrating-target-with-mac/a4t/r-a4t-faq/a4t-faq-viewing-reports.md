@@ -4,9 +4,9 @@ description: Questo argomento contiene le risposte alle domande che vengono spes
 title: Visualizzare i rapporti - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 7ad57c6f3814140df0826f57d8052f6db3fda301
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '2196'
+source-wordcount: '2214'
 ht-degree: 57%
 
 ---
@@ -138,11 +138,11 @@ Come procedura ottimale, devi arrestare l’attività esistente, quindi creare u
 
 ## In che modo vengono conteggiate le visite in Analytics e il credito di conversione allocati in un&#39;attività di Auto-Target che utilizza A4T?
 
-Quando un visitatore soddisfa i requisiti, visualizza il contenuto o converte in un&#39;attività A4T, [!DNL Target] invia i dati dell&#39;evento a [!DNL Analytics], che consente [!DNL Analytics] di attribuire eventi di conversione e altri eventi clickstream che si verificano sulla pagina alle attività e alle esperienze pertinenti [!DNL Target] .
+Quando un visitatore si qualifica, visualizza il contenuto o effettua la conversione in un&#39;attività A4T, [!DNL Target] invia i dati dell&#39;evento a [!DNL Analytics], il che consente [!DNL Analytics] di attribuire eventi di conversione e altri eventi clickstream che si verificano sulla pagina alle pertinenti [!DNL Target] attività ed esperienze.
 
 Di seguito sono riportati alcuni punti da tenere a mente quando si visualizzano [!DNL Analytics] i rapporti:
 
-* In generale, la finestra di reporting deve sempre iniziare dalla data di inizio dell&#39;attività.
+* In generale, come procedura ottimale, la finestra di reporting deve iniziare dalla data di inizio dell&#39;attività.
 * Se una conversione avviene al di fuori della finestra del rapporto, la conversione non sarà visibile in [!DNL Analytics].
-* Quando nella parte &quot;mirata&quot; del traffico per le attività [!UICONTROL Auto-Target] , i visitatori potrebbero visualizzare esperienze diverse da una sessione all&#39;altra. Ad esempio, il loro profilo o contesto è cambiato e gli algoritmi di machine-learning [!DNL Target]di cui dispongono decideranno che è più probabile che vengano convertiti in base a una nuova esperienza. Ciò è diverso dalle normali attività di test A/B, in cui le esperienze sono appiccicose per un visitatore durante le visite.
-* Se un visitatore visualizza più esperienze tra una visita e l&#39;altra, qualsiasi conversione viene sempre attribuita all&#39;ultima esperienza visualizzata dal visitatore; tuttavia, il conteggio delle visite verrà incrementato per ogni esperienza visualizzata dal visitatore. Questo può eliminare artificialmente i tassi di conversione per esperienza quando si visualizzano esperienze sotto la dimensione &quot;[!UICONTROL Target]&quot; nei [!DNL Adobe Analytics] report.
+* Quando nella parte &quot;con targeting&quot; del traffico per le attività [!UICONTROL Auto-Target] , i visitatori potrebbero vedere esperienze diverse da una sessione all&#39;altra. Ad esempio, se il profilo o il contesto sono cambiati e gli algoritmi di machine-learning [!DNL Target]di tali utenti hanno maggiori probabilità di eseguire la conversione in base a una nuova esperienza. Quando i visitatori passano dall&#39;esperienza all&#39;esperienza, il conteggio delle visite aumenta per ogni esperienza visualizzata. Ciò è diverso dalle normali attività di test A/B in cui le esperienze sono appiccicose per un visitatore durante le visite.
+* Se un visitatore visualizza più esperienze tra una visita e l&#39;altra, qualsiasi conversione viene sempre attribuita all&#39;ultima esperienza visualizzata dal visitatore. Come già detto, il conteggio delle visite incrementa ogni esperienza visualizzata dal visitatore. Questo può eliminare artificialmente i tassi di conversione per esperienza quando si visualizzano esperienze sotto la dimensione &quot;[!UICONTROL Target]&quot; nei [!DNL Adobe Analytics] report.
