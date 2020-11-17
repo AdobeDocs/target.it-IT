@@ -4,17 +4,17 @@ description: Questo argomento contiene le risposte alle domande più frequenti s
 title: Impostazioni delle attività - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
-source-wordcount: '285'
-ht-degree: 89%
+source-wordcount: '514'
+ht-degree: 35%
 
 ---
 
 
-# Impostazioni delle attività - Domande frequenti su A4T{#activity-settings-a-t-faq}
+# Impostazioni delle attività - Domande frequenti su A4T
 
-Questo argomento contiene le risposte alle domande più frequenti sulla configurazione delle attività e sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
+This topic contains answers to questions that are frequently asked about activity setup and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
 
 ## Quali tipi di attività supportano Analytics come origine per la generazione di rapporti (A4T)? {#section_5E4F58CD25A5424E869E6FE0803968EF}
 
@@ -22,17 +22,35 @@ Per un elenco completo, consulta “Tipi di attività supportati” in [Adobe An
 
 ## Ho appena creato un’attività. Perché non vedo dati in arrivo? {#section_9F8092BE4225442896F926540292F221}
 
-Quando viene creata un’attività, Target invia un file di classificazione ad Analytics. Sebbene Analytics acquisisca ed elabori i dati, questi non vengono visualizzati nei rapporti fino a quando il file di classificazione non sarà stato aggiornato. Questa operazione può richiedere fino a 24 ore. Se dopo 48 ore non vedi i tuoi dati, [contatta l’assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai che lancerai un’attività, puoi crearla con qualche giorno di anticipo: le classificazioni vengono infatti inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. Tieni presente che l’elaborazione dei dati da parte di Analytics richiede 45-90 minuti.
+When an activity is created, [!DNL Target] sends a classification file to [!DNL Analytics]. Although [!DNL Analytics] is capturing the and processing the data, it does not show in the reports until the classification file has been updated. Questa operazione può richiedere fino a 24 ore. Se dopo 48 ore non vedi i tuoi dati, [contatta l’assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai che lancerai un’attività, puoi crearla con qualche giorno di anticipo: le classificazioni vengono infatti inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. Please note that it takes 45-90 minutes for data to be processed in [!DNL Analytics].
 
 ## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea una nuova attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
-Puoi modificare le opzioni delle impostazioni di reporting in Amministrazione.
+You can change your [!UICONTROL Reporting Settings] options in [!UICONTROL Administration].
 
-1. In Adobe Target, click **[!UICONTROL Administration]**.
+1. In [!DNL Target], fate clic su **[!UICONTROL Amministrazione]**.
 1. Nell’elenco a discesa **[!UICONTROL Soluzione Experience Cloud utilizzata per i rapporti]**, fai clic su **[!UICONTROL Seleziona per attività]**.
 
 ![](assets/select-per-activity.png)
 
 L’elenco a discesa **[!UICONTROL Origine per i rapporti]** è abilitato nella schermata **[!UICONTROL Obiettivi e impostazioni]** per la creazione e la modifica delle attività.
 
-To always use Analytics as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in Administration.
+To always use [!DNL Analytics] as the reporting source, select **[!UICONTROL Adobe Analytics]** from the drop-down list in [!UICONTROL Administration].
+
+## Un visitatore può passare da esperienze con targeting a esperienze controllate in visite diverse in un&#39;attività di targeting automatico che utilizza A4T?
+
+Quanto segue è vero se l’ID visitatore non cambia per un visitatore tra una visita e l’altra.
+
+Se la percentuale di allocazione del traffico viene modificata in base all&#39;attività media, è possibile che un visitatore si sposti tra esperienze con targeting e esperienze di controllo.
+
+Se le percentuali non vengono modificate a livello di attività, un visitatore che inizialmente vede il controllo verrà sempre inviato a tale controllo. Un visitatore che viene inviato a esperienze con targeting sarà sempre inviato a esperienze con targeting.
+
+* Dopo essere stato nel &quot;bucket&quot; di traffico di destinazione, il visitatore può essere inviato a un&#39;esperienza diversa da visita a visita se i modelli di machine-learning determinano che una diversa esperienza è rilevante per la nuova visita.
+* Dopo essere stato assegnato al &quot;bucket&quot; di controllo del traffico, un visitatore visualizzerà sempre la stessa esperienza perché l&#39;assegnazione dell&#39;esperienza è basata su un hash pseudo-casuale deterministico del visitorId.
+
+## È consigliabile utilizzare il modello personalizzato per Auto Target e A4T con una divisione 90(Control)/10(Targeting) fino alla creazione dei modelli?
+
+La suddivisione ottimale dell&#39;allocazione del traffico dipende da cosa si desidera ottenere.
+
+Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di efficacia degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore.
+
