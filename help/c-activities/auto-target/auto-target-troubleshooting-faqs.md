@@ -1,13 +1,13 @@
 ---
-keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting
+keywords: auto-target;targeting;traffic allocation;frequently asked questions;faq;troubleshooting;trouble shooting;traffic
 description: Risoluzione dei problemi e domande frequenti su Auto-Target in  Adobe Target.
 title: Risoluzione dei problemi e domande frequenti su Target automatico
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
+source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
 workflow-type: tm+mt
-source-wordcount: '1845'
-ht-degree: 73%
+source-wordcount: '1830'
+ht-degree: 71%
 
 ---
 
@@ -37,11 +37,15 @@ Consultate le seguenti domande frequenti e risposte mentre lavorate con le attiv
 
 La suddivisione ottimale dell&#39;allocazione del traffico dipende da cosa si desidera ottenere.
 
-Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di efficacia degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore.
+Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di esperienza degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore per il ciclo di vita dell&#39;attività.
 
-### Se l&#39;intervallo di date del rapporto cambia, i segni di spunta che indicano che un modello è stato generato per l&#39;esperienza si aggiornano?
+La best practice consiste nel mantenere la suddivisione dell&#39;allocazione del traffico per il ciclo di vita dell&#39;attività in modo che i visitatori non passino da un&#39;esperienza con targeting a un&#39;altra.
 
-No, i segni di spunta per la generazione di modelli mostrano solo i modelli generati fino ad ora. Non c&#39;è modo di tornare indietro e vedere quando è stato completato un modello.
+<!-- 
+### Do the check marks indicating a model is built for that experience update if the report date range changes?
+
+No, check marks for model generation show only the models built to date. There's no way to go back and see when a model was completed.
+-->
 
 ### Se un visitatore non vede l’attività di [!UICONTROL Targeting automatico] e converte, la conversione conta nella mia attività?
 
