@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 9f69e0b58947537abb70f1acbd5400c56c594f11
+source-git-commit: 208196b8c0cf11367ad37121c4792a015b396dc7
 workflow-type: tm+mt
-source-wordcount: '2940'
+source-wordcount: '2993'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 17 | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Un visitatore può passare da esperienze con targeting a esperienze controllate in visite diverse in un&#39;attività di targeting automatico che utilizza A4T?</li><li>È consigliabile utilizzare il modello personalizzato per Auto Target e A4T con una divisione 90(Control)/10(Targeting) fino alla creazione dei modelli?</li></ul> |
 | Novembre 13 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.3.3. |
 | Novembre 10 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla  Interruzione del caffè della community Adobe Target, prevista per l’11 novembre. |
 | Novembre 3 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stato aggiornato il seguente argomento per la risoluzione dei problemi: &quot;La suite di rapporti di cui ho bisogno non viene visualizzata.&quot; |
