@@ -4,10 +4,10 @@ description: Risoluzione dei problemi e domande frequenti su Auto-Target in  Ado
 title: Risoluzione dei problemi e domande frequenti su Target automatico
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 146eecd331fc1a676c4bfc61e6fc8a414084a2d5
 workflow-type: tm+mt
-source-wordcount: '1769'
-ht-degree: 76%
+source-wordcount: '1845'
+ht-degree: 73%
 
 ---
 
@@ -32,6 +32,12 @@ Consultate le seguenti domande frequenti e risposte mentre lavorate con le attiv
    * Se un test A/B non mostra differenze statisticamente significative tra le esperienze, probabilmente le offerte che stai prendendo in considerazione non sono sufficientemente diverse tra loro, le posizioni selezionate non incidono sulla metrica successo o l&#39;obiettivo di ottimizzazione è troppo lontano nell&#39;imbuto di conversione per essere influenzato dalle offerte scelte.
 
 * Cerca di non apportare modifiche sostanziali alle esperienze durante il corso dell&#39;attività.
+
+### È consigliabile utilizzare Auto Target con una suddivisione 90(Control)/10(Targeting) fino alla creazione dei modelli?
+
+La suddivisione ottimale dell&#39;allocazione del traffico dipende da cosa si desidera ottenere.
+
+Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di efficacia degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore.
 
 ### Se l&#39;intervallo di date del rapporto cambia, i segni di spunta che indicano che un modello è stato generato per l&#39;esperienza si aggiornano?
 
