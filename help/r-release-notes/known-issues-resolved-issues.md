@@ -4,17 +4,17 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 897446656d5cc94e1462e3ef5af1ebf3b3484974
 workflow-type: tm+mt
-source-wordcount: '3895'
-ht-degree: 78%
+source-wordcount: '3957'
+ht-degree: 76%
 
 ---
 
 
 # Problemi noti e problemi risolti
 
-Informazioni sui problemi noti per questa versione di Target. Include inoltre informazioni sui problemi risolti.
+Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informazioni sui problemi risolti.
 
 >[!NOTE]
 >
@@ -127,6 +127,12 @@ Il 10 maggio 2020 abbiamo aggiornato i file del nostro provider GEO, che hanno i
 ### Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;
 
 Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di &quot;elaborazione&quot; per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta di un problema relativo solo all&#39;etichetta: le offerte di immagini possono essere ancora utilizzate nelle attività e distribuite. In alcuni casi, tuttavia, un’offerta immagine potrebbe non essere disponibile per l’azione Sostituisci contenuto > Immagine. In questo caso, caricate di nuovo l’offerta immagine e verificate dopo alcune ore se l’offerta è disponibile per la sostituzione. (TGT-37458)
+
+### Rapporti - Dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell&#39;interfaccia di Target.
+
+I report generati per il download come file .csv non sono coerenti se l&#39;attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
+
+L’origine della verità è sempre il rapporto visualizzato nell’ [!DNL Target] interfaccia utente.
 
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
