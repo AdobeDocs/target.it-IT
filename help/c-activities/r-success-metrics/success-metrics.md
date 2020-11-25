@@ -4,15 +4,15 @@ description: In  Adobe Target, le metriche di successo sono parametri utilizzati
 title: Metriche di successo in  Adobe Target
 feature: success metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1138'
 ht-degree: 47%
 
 ---
 
 
-# Metriche di successo{#success-metrics}
+# Metriche di successo
 
 In [!DNL Adobe Target] success metrics are parameters used to measure the success of an activity. Success metrics include key business measures that enable you to determine the success of a given experience or offer in a [!DNL Target] activity.
 
@@ -28,7 +28,7 @@ Revenue metrics that are set to &quot;[!UICONTROL Increment count &amp; keep use
 
 >[!NOTE]
 >
->Il comportamento predefinito per le attività che utilizzano [Analytics come origine](/help/c-integrating-target-with-mac/a4t/a4t.md) di reporting (A4T) è &quot;[!UICONTROL Increment count &amp; keep user in activity]&quot; (Conteggio incrementi e mantieni l&#39;utente in attività[!UICONTROL ) con &quot;]Once per entrant&quot; (Una volta per partecipante).
+>Per le attività che utilizzano [Analytics come origine](/help/c-integrating-target-with-mac/a4t/a4t.md) di reporting (A4T), la metrica dell&#39;obiettivo utilizzerà sempre le impostazioni &quot;[!UICONTROL Increment Count &amp; Keep User in Activity]&quot; (Conteggio incrementi e Mantieni utente in attività[!UICONTROL ) e &quot;]On Every Impression&quot; (Su ogni impressione). Questo *non* è configurabile.
 
 Sono disponibili le seguenti metriche di successo:
 
