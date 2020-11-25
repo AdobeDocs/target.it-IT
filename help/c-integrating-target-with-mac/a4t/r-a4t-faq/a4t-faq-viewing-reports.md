@@ -4,10 +4,10 @@ description: Questo argomento contiene le risposte alle domande che vengono spes
 title: Visualizzare i rapporti - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 4fcf2a799f24e9963b0790a6b90c448f369d3ea2
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '2214'
-ht-degree: 57%
+source-wordcount: '2280'
+ht-degree: 55%
 
 ---
 
@@ -31,6 +31,12 @@ I segmenti vengono applicati più comunemente nella parte superiore di un pannel
 La variabile di [!DNL Target] inviata ad [!DNL Analytics] ha un periodo di scadenza predefinito di 90 giorni. (Nota: se necessario, tale periodo di scadenza può essere regolato dall&#39;Assistenza clienti). Quando i visitatori navigano nel sito attraverso questa finestra di scadenza, fanno parte di molte [!DNL Target] attività, tutte raccolte nella dimensione.
 
 Di conseguenza, quando segmentate la presenza di un&#39;attività in un hit, otterrete tutte le esperienze che fanno parte di tale attività *più* qualsiasi altra esperienza persistente su tale hit.
+
+## Durante la configurazione delle metriche obiettivo, perché non è possibile accedere alle impostazioni avanzate?
+
+Per le attività che utilizzano [!DNL Analytics] come origine di reporting (A4T), la metrica obiettivo utilizzerà sempre le impostazioni &quot;[!UICONTROL Increment Count &amp; Keep User in Activity]&quot; (Conteggio incrementi e Mantieni utente in attività[!UICONTROL ) e &quot;]On Every Impression&quot; (Su ogni impressione). Questo *non* è configurabile.
+
+Per ulteriori informazioni, vedere &quot;Durante la configurazione delle metriche degli obiettivi, perché non è possibile accedere alle opzioni delle impostazioni avanzate?&quot; in [Metric definitions - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## È necessario utilizzare i visitatori, le visite o le impression dell&#39;attività come metrica di normalizzazione (ad es. metodologia di conteggio)? {#metrics}
 
