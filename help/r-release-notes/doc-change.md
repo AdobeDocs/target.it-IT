@@ -4,10 +4,10 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e99e31db2f0060c86161a575a3afd5b713b9ba72
+source-git-commit: a12eea60aa3e66cdb54ab284fa3f942be4d56178
 workflow-type: tm+mt
-source-wordcount: '3020'
-ht-degree: 29%
+source-wordcount: '3093'
+ht-degree: 28%
 
 ---
 
@@ -20,6 +20,9 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 24 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto il seguente problema noto:<ul><li>[Rapporti - Dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell&#39;interfaccia di Target.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>È stato aggiunto il seguente problema risolto:<ul><li>[Reporting di Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
+|  | [Definizioni delle metriche - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Durante la configurazione delle metriche degli obiettivi, perché non è possibile accedere alle opzioni delle impostazioni avanzate?&quot; |
+|  | [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md) | Testo modificato nella nota sulle attività che utilizzano A4T. |
 | Novembre 17 | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Un visitatore può passare da esperienze con targeting a esperienze controllate in visite diverse in un&#39;attività con targeting automatico che utilizza A4T?&quot; |
 |  | [Risoluzione dei problemi e domande frequenti su Target automatico](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Si consiglia di utilizzare Auto Target con una suddivisione 90(Controllo)/10(Destinato) fino alla creazione dei modelli?&quot; |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Sono state aggiunte le seguenti domande frequenti: &quot;In che modo vengono conteggiate le visite in Analytics e il credito di conversione assegnati in un&#39;attività di Auto-Target che utilizza A4T?&quot; |
