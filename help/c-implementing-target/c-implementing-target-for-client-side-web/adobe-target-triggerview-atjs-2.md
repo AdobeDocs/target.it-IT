@@ -4,7 +4,7 @@ description: Informazioni sulla funzione adobe.target.triggerView (viewName, opt
 title: adobe.target.triggerView (viewName, options) - at.js 2.x
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 5c7ab4af3d4290ef8fa53ed51ed1c2e8336e02f9
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '264'
 ht-degree: 92%
@@ -30,7 +30,7 @@ ht-degree: 92%
 
 Chiamata `triggerView()` per inviare una notifica al backend Target per incrementare le impression dell’attività e altre metriche.
 
-```
+```javascript
 adobe.target.triggerView("homeView")
 ```
 
@@ -38,6 +38,6 @@ adobe.target.triggerView("homeView")
 
 Chiamata `triggerView()` per non inviare notifiche al backend Target per il conteggio delle impression.
 
-```
+```javascript
 adobe.target.triggerView("homeView", {page: false})
 ```
