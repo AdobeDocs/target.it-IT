@@ -4,7 +4,7 @@ description: Informazioni sulla funzione adobe.target.applyOffer(options) per la
 title: adobe.target.applyOffer(options)
 feature: client-side
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# adobe.target.applyOffer(options) {#reference_BBE83F513B5B4E03BBC3F50D90864245}
+# adobe.target.applyOffer(options)
 
 Questa funzione applica il contenuto di risposta.
 
@@ -32,7 +32,7 @@ Il parametro delle opzioni è obbligatorio e ha la seguente struttura:
 
 Nell&#39;esempio seguente viene illustrato come utilizzare insieme `getOffer` e `applyOffer`:
 
-```
+```javascript
 adobe.target.getOffer({   
   "mbox": "mbox",   
   "success": function(offers) {           
