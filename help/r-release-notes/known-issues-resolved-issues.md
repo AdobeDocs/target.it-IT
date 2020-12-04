@@ -4,9 +4,9 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 16a626878cab97dd81b22d3d2a170df80a025afb
+source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
 workflow-type: tm+mt
-source-wordcount: '4327'
+source-wordcount: '4329'
 ht-degree: 70%
 
 ---
@@ -73,7 +73,7 @@ Di seguito sono riportati i problemi noti relativi alle attività Consigli:
 * Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante API non sono visibili nell’interfaccia di Target e possono essere modificati solo tramite API. (TGT-35777)
 * Le attività Consigli create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
-* I criteri e le schede di progettazione non mostrano il numero corretto di attività in cui vengono utilizzati. Se i criteri o la progettazione vengono utilizzati in un&#39;attività A/B, la scheda potrebbe mostrare erroneamente che la progettazione o i criteri non sono utilizzati, anche quando la progettazione o i criteri sono utilizzati nell&#39;attività.
+* I criteri e le schede di progettazione non mostrano il numero corretto di attività in cui vengono utilizzati. Se i criteri o la progettazione vengono utilizzati in un&#39;attività A/B, la scheda potrebbe mostrare erroneamente che la progettazione o i criteri non sono utilizzati, anche quando la progettazione o i criteri sono utilizzati nell&#39;attività. (TGT-36621, TGT-37217)
 
 ### Attività di test multivariato (MVT)
 
