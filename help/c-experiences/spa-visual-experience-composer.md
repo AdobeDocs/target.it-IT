@@ -4,7 +4,7 @@ description: Il compositore esperienza visivo (VEC) per app a pagina singola (SP
 title: Compositore esperienza visivo per app a pagina singola (SPA)
 feature: spa vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '3692'
 ht-degree: 93%
@@ -88,7 +88,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    In qualità di esperto di marketing, se desideri eseguire test A/B sull’intero sito principale, potrebbe essere utile assegnare alla visualizzazione il nome “home” estraendolo dall’URL:
 
-   ```
+   ```javascript
    function targetView() {
      var viewName = window.location.hash; // or use window.location.pathName if router works on path and not hash
    
@@ -119,7 +119,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![react prodotti](/help/c-experiences/assets/react4.png)
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -150,7 +150,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Adesso, gli esperti di marketing potrebbero voler eseguire un test A/B per valutare se cambiare il colore da blu a rosso quando si seleziona l’opzione Consegna express per aumentare le conversioni, invece di mantenere il pulsante blu con entrambe le opzioni di consegna.
 
-   ```
+   ```javascript
    function targetView(viewName) {
      // Validate if the Target Libraries are available on your website
      if (typeof adobe != 'undefined' && adobe.target && typeof adobe.target.triggerView === 'function') {
@@ -293,7 +293,7 @@ Quindi, come si recupera la visualizzazione Logged In e si visualizza il messagg
 
 Utilizza le nuove funzioni `getOffers()` e `applyOffers()` supportate in at.js 2.x:
 
-```
+```javascript
 adobe.target.getOffers({
   request: {
   prefetch: {
