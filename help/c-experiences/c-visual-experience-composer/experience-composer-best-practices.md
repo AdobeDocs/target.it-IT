@@ -4,7 +4,7 @@ description: Le best practice seguenti consentono di ottenere più facilmente il
 title: Best practice e limitazioni del Compositore esperienza visivo
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2448'
 ht-degree: 97%
@@ -135,7 +135,7 @@ Quando utilizzi il Compositore esperienza avanzato, il sito web viene manipolato
 
 Ad esempio, non è possibile indirizzare il testo del carrello acquisti nel Compositore di esperienza visiva se il codice è simile al seguente:
 
-```
+```html
 <a href="https://www.botanicchoice.com/shop.axd/Cart"> 
    <img alt="Shopping Cart"src="/images/ico-cart.gif"></img> 
    Shopping Cart: 
@@ -167,7 +167,7 @@ Assicurati che il tuo sito web carichi come previsto dopo l&#39;aggiunta di para
 
 Disattiva le tecniche di busting iframe sul sito web e verifica se questo si apre come previsto all&#39;interno di un iframe su una pagina fittizia. Ad esempio:
 
-```
+```html
 <!DOCTYPE 
 <html> 
 <html> 
@@ -208,7 +208,7 @@ Se nella mbox è contenuta un&#39;offerta e questa è implementata in modo errat
 
 Ad esempio, se nella pagina è incluso quanto segue:
 
-```
+```html
 <div> 
   <div class="mboxDefault" > 
   </div>
@@ -272,7 +272,7 @@ Lo script viene eseguito all&#39;interno dell&#39;ambito di target.js dopo il ca
 
 *Errato:*
 
-```
+```html
 <script> 
   var myVar = 123; 
   function myFunc() { 
@@ -283,7 +283,7 @@ Lo script viene eseguito all&#39;interno dell&#39;ambito di target.js dopo il ca
 
 *Corretto:*
 
-```
+```html
 <script> 
   window.myVar = 123; 
   window.myFunc = function() { 
@@ -296,7 +296,7 @@ Lo script viene eseguito all&#39;interno dell&#39;ambito di target.js dopo il ca
 
 Aggiungi un elemento di ancoraggio all&#39;interno del tag div &#39;customHeaderMessage&#39; con un testo fittizio:
 
-```
+```html
 <a href="#"> 
 <span> Dummy text </span>
 </a>
@@ -306,7 +306,7 @@ Seleziona questo tag div utilizzando l&#39;azione Inserisci elemento per inserir
 
 Dopo l&#39;inserimento dell&#39;immagine, verrà visualizzato in questo modo:
 
-```
+```html
 <a href="#">  
 <span> Dummy text </span> 
 <img src=""> This is inserted Image. </img> 
