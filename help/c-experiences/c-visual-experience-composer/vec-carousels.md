@@ -4,7 +4,7 @@ description: Questo argomento illustra come creare un carosello che possa essere
 title: Creazione di caroselli di immagini adatti al Compositore esperienza visivo
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '148'
 ht-degree: 100%
@@ -20,7 +20,7 @@ Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiv
 
 1. Crea segnaposti HTML statici.
 
-   ```
+   ```html
    <ul>
    <li class="show"> slide 1 </li>
    <li class="hidden"> slide 2 </li>
