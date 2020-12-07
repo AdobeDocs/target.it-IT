@@ -4,7 +4,7 @@ description: Informazioni sulla pagina delle modifiche che ti consente di visual
 title: Modifiche
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 100%
@@ -113,7 +113,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
    Ad esempio, per modificare il colore di un elemento:
 
-   ```
+   ```javascript
    <script type="text/javascript"> 
    document.getElementById("element_id").style.color = "blue"; 
    </script> 
@@ -123,7 +123,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
    Ad esempio, per definire una classe per un elemento sovrapposto:
 
-   ```
+   ```html
    <style> 
    .overlay 
    { position: absolute; top:0; left: 0; right: 0; bottom: 0; background: red; } 
@@ -134,13 +134,13 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
    Ad esempio, utilizza il seguente frammento HTML per creare una sovrapposizione `<div>` utilizzando la classe CSS definita sopra:
 
-   ```
+   ```html
    <div class="overlay"></div>
    ```
 
 * Scambio su DOM-ready, utilizzando jQuery
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    jQuery( document ).ready(function() { 
@@ -152,7 +152,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 * Scambio su DOM-ready, non jQuery (non supporta Internet Explorer 8)
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    document.addEventListener("DOMContentLoaded", function(event) {  
@@ -166,7 +166,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
    Il vantaggio di questo è che lo scambio avviene prima rispetto al DOM-ready. Il plug-in gestisce le operazioni che portano alla condizione di pre-nascosto e rivelato, e richiede un ID sull&#39;elemento.
 
-   ```
+   ```javascript
    <style>#default_content {visibility:hidden;}</style> 
    <script> 
    /*elementOnLoad DOM Swizzling v3 ==>Mbox.js Extra Javascript*/window.elementOnLoad=function(e,l){var m=document.getElementById(e);if(m){setTimeout(function(){l(m);setTimeout(function(){m.style.visibility='visible';m.style.display='block'},20)},20)}else{setTimeout(function(){elementOnLoad(e,l)},20)}},addEvent=function(a){var d=document,w=window,wa=w.addEventListener,da=d.addEventListener,e='load',o='on'+e;if(wa){wa(e,a,false)}else if(da){da(e,a,false)}else if(d.attachEvent){w.attachEvent(o,a)}};addEvent(function(){setTimeout("elementOnLoad=function(){}",500)}); 
@@ -178,7 +178,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 * Reindirizzamento personalizzato passando parametri esistenti, parametro `s_tnt` (per l&#39;integrazione legacy di Analytics), parametri di riferimento e sessione mbox
 
-   ```
+   ```javascript
    <style type="text/css">body{display:none!important;}</style> 
    <script type="text/javascript"> 
     var qs='';window.location.search?qs=window.location.search+'&':qs='?'; 
@@ -196,7 +196,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 Ad esempio:
 
-```
+```html
 <div id="custom-code"> 
 // My Code goes here 
 </div>
