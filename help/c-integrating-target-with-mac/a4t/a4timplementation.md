@@ -4,7 +4,7 @@ description: Sono necessari diversi passaggi per implementare Adobe Analytics co
 title: Implementazione di Analytics for Target
 feature: a4t implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '894'
 ht-degree: 50%
@@ -60,7 +60,7 @@ Includi at.js sotto VisitorAPI.js aggiungendo la seguente riga di codice nel tag
 
 Per at.js:
 
-```
+```javascript
 <script language="JavaScript" type="text/javascript"
 src="http://INSERT-DOMAIN-AND-PATH-TO-CODE-HERE/at.js"></script>
 ```
@@ -73,7 +73,7 @@ However, if you want more control on how and when to send analytics data related
 
 Ad esempio:
 
-```
+```javascript
 window.targetGlobalSettings = {
   analyticsLogging: "client_side"
 };
@@ -81,7 +81,7 @@ window.targetGlobalSettings = {
 
 Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata effettuata da at.js, **analyticsLogging: &quot;client_side&quot;** verrà inviato all’interno delle richieste e per ogni richiesta viene restituito un payload di Analytics. [!DNL Target] Con questa impostazione, il formato del payload restituito sarà simile a quello riportato di seguito:
 
-```
+```javascript
 "analytics": {
    "payload": {
       "pe": "tnt",
@@ -96,7 +96,7 @@ Se non desideri usare un’impostazione globale a favore di un approccio di tipo
 
 Ad esempio:
 
-```
+```javascript
 adobe.target.getOffers({
       request: {
         experienceCloud: {
@@ -119,7 +119,7 @@ Questa chiamata richiama una risposta dalla quale è possibile estrarre il paylo
 
 La risposta si presenta come segue:
 
-```
+```javascript
 {
   "prefetch": {
     "mboxes": [{
