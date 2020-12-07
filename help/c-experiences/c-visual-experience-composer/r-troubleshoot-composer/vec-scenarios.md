@@ -4,7 +4,7 @@ description: Negli scenari di questo argomento viene illustrato come le modifich
 title: Scenari di modifica delle pagine
 feature: vec
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '520'
 ht-degree: 100%
@@ -32,7 +32,7 @@ Esiste la possibilità che JavaScript aggiunga la prima classe presente nell’e
 
 **Elemento inserito:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -48,7 +48,7 @@ Il selettore funziona come previsto perché `li.women-section:eq(0)` non è inte
 
 Prima:
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="men-section"> Men</li> <li class="women-section">Women</li>
@@ -58,7 +58,7 @@ Prima:
 
 Dopo:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="kids-section">Kids</li>
@@ -73,7 +73,7 @@ In questo scenario, si tenta di inserire un elenco quando è selezionata una voc
 
 **Elemento inserito:**
 
-```
+```html
 <ul class="nav"> 
    <li class="item"> Sale </li> 
    <li> class="item"> Offers </li> 
@@ -92,7 +92,7 @@ Il selettore non funziona, perché `ul.nav:eq(0)` fornisce un elemento aggiunto 
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section"> Men</li>       <li class="women-section">Women</li>
@@ -102,7 +102,7 @@ Prima:
 
 Dopo (tentativo):
 
-```
+```html
 <div id="wrap">
      <ul class="nav">
         <li class="item"> Sale</li>
@@ -121,7 +121,7 @@ In questo scenario, una voce di elenco viene inserita dopo l’elemento selezion
 
 **Elemento inserito:**
 
-```
+```html
 <ul class="nav"> 
    <li class="men-section"> Men Clothes</li> 
    <li class="women-section"> Women Clothes</li> 
@@ -140,7 +140,7 @@ In questo caso, l’inserimento di un elenco dopo quello che termina con la voce
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>       <li class="women">Women Shoes</li>
@@ -150,7 +150,7 @@ Prima:
 
 Dopo:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men">Men Shoes </li>
@@ -169,7 +169,7 @@ In questo scenario, viene eliminata la voce di elenco che precede quella selezio
 
 **Elemento rimosso:**
 
-```
+```html
 <li class="men-section"> Men </li>
 ```
 
@@ -185,7 +185,7 @@ L’elemento viene rimosso correttamente perché la classe dell’elemento selez
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -196,7 +196,7 @@ Prima:
 
 Dopo:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="women-section">Women</li>
@@ -210,7 +210,7 @@ In questo scenario, viene eliminata la voce di elenco dopo l’elemento selezion
 
 **Elemento rimosso:**
 
-```
+```html
 <li class="kids-section">Kids</li>
 ```
 
@@ -226,7 +226,7 @@ L’elemento viene rimosso correttamente perché la classe dell’elemento selez
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -238,7 +238,7 @@ Prima:
 
 Dopo:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -253,7 +253,7 @@ In questo scenario, viene eliminata la voce di elenco selezionata.
 
 **Elemento rimosso:**
 
-```
+```html
 <li class="women-shoes">Women</li>
 ```
 
@@ -269,7 +269,7 @@ L’elemento viene rimosso correttamente.
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -280,7 +280,7 @@ Prima:
 
 Dopo
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
        <li class="men-section">Men</li>
@@ -294,7 +294,7 @@ In questo scenario, viene modificata la classe della voce di elenco selezionata.
 
 **Elemento modificato:**
 
-```
+```html
 <li class="women-section">Women</li>
 ```
 
@@ -310,7 +310,7 @@ La classe dell’elemento non può essere rinominata perché `class` non è stat
 
 Prima:
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
@@ -321,7 +321,7 @@ Prima:
 
 Dopo (tentativo):
 
-```
+```html
 <div id="wrap">
     <ul class="nav">
         <li class="men-section">Men</li>
