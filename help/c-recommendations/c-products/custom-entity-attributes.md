@@ -5,7 +5,7 @@ title: Attributi di entità personalizzati in  Adobe Target
 feature: entities
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1379'
 ht-degree: 91%
@@ -73,7 +73,7 @@ Un attributo con più valori può avere fino a 500 valori.
 
 L’esempio seguente illustra come utilizzare `targetPageParams`
 
-```
+```javascript
 function targetPageParams() { 
   return { 
     'entity.id':                   '123', 
@@ -111,7 +111,7 @@ Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
 Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in un parametro mbox come valore di stringa contenente un array JSON con escape.
 
-```
+```javascript
 "execute": {
     "mboxes": [
       {
