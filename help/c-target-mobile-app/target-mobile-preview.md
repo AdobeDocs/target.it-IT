@@ -4,7 +4,7 @@ description: Il collegamento di anteprima su dispositivi mobili ti permette di v
 title: Utilizzo del collegamento di anteprima per dispositivi mobili in Adobe Target
 feature: mobile implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '583'
 ht-degree: 94%
@@ -49,7 +49,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Il seguente frammento di codice è un esempio:
 
-   ```
+   ```javascript
    - (BOOL) application:(UIApplication *)app openURL:(NSURL *)url 
                 options:(NSDictionary<NSString *,id> *)options { 
    
@@ -63,7 +63,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    **Android:** nell’app, chiama `Config.trackAdobeDeepLink(URL);` quando al chiamante viene richiesto di aprire la risorsa con lo schema URL specificato nel passaggio precedente.
 
-   ```
+   ```javascript
     private Boolean shouldOpenDeeplinkUrl() { 
         Intent appLinkIntent = getIntent(); 
         String appLinkAction = appLinkIntent.getAction(); 
@@ -78,7 +78,7 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per il corretto funzionamento dell&#39;anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice nel file [!DNL AndroidManifest.xml]:
 
-   ```
+   ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
