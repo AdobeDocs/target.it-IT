@@ -4,7 +4,7 @@ description: Puoi utilizzare gli attributi del profilo per impostare test che co
 title: 'Utilizzare gli script di profilo per testare attività reciprocamente esclusive '
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 84%
@@ -29,7 +29,7 @@ Quando utilizzi uno degli script di profilo seguenti, considera quanto segue:
 
 Per suddividere i visitatori in gruppi che vedono rispettivamente attività diverse devi creare un attributo di profilo. Un attributo di profilo può indirizzare un visitatore verso uno di due o più gruppi. Per impostare un attributo di profilo denominato “twogroups”, crea lo script seguente:
 
-```
+```javascript
 if (!user.get('twogroups')) { 
     var ran_number = Math.floor(Math.random() * 99); 
     if (ran_number <= 49) { 
@@ -60,7 +60,7 @@ L’impostazione di tre o più attività mutuamente esclusive è simile alla con
 
 Ad esempio, per creare quattro gruppi, utilizza il seguente JavaScript:
 
-```
+```javascript
 if (!user.get('fourgroups')) { 
     var ran_number = Math.floor​(Math.random() * 99); 
     if (ran_number <= 24) { 
@@ -87,7 +87,7 @@ in:
 
 Ad esempio, per suddividere i visitatori in tre gruppi uguali, utilizza il codice seguente:
 
-```
+```javascript
 if (!user.get('threegroups')) { 
     var ran_number = Math.random() * 99; 
     if (ran_number <= 32.33) { 
