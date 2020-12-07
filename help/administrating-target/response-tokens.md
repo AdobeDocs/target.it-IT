@@ -4,7 +4,7 @@ description: I token di risposta consentono di inviare automaticamente in uscita
 title: Token di risposta in Adobe Target
 feature: response tokens
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '1574'
 ht-degree: 77%
@@ -77,7 +77,7 @@ Usa gli [eventi personalizzati di at.js](/help/c-implementing-target/c-implement
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 
-```
+```html
 <html> 
   <head> 
     .... 
@@ -104,7 +104,7 @@ Le istruzioni seguenti spiegano come aggiungere un gestore di eventi personalizz
 
 1. Nell’editor di codice aggiungi il seguente codice a [!DNL at.js]:
 
-   ```
+   ```json
    document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
      console.log("Request succeeded", e.detail); 
    });
@@ -112,7 +112,7 @@ Le istruzioni seguenti spiegano come aggiungere un gestore di eventi personalizz
 
 Se desideri avere tutto in un singolo file, aggiungi lo snippet seguente al piè di pagina della libreria nella [pagina Configurazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
 
-```
+```json
 document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
   console.log("Request succeeded", e.detail); 
 });
@@ -168,7 +168,7 @@ Target esegue un aggiornamento degli attributi a intervalli regolari. Tutti gli 
 
 Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codice alla pagina HTML:
 
-```
+```javascript
 <script type="text/javascript"> 
   (function(i, s, o, g, r, a, m) { 
     i['GoogleAnalyticsObject'] = r; 
@@ -234,7 +234,7 @@ Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codic
 
 L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiungendo il seguente codice alla pagina HTML:
 
-```
+```javascript
 <script type="text/javascript" > 
   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
     window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
