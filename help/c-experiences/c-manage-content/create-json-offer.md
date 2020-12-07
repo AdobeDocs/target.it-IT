@@ -4,7 +4,7 @@ description: Crea offerte JSON nella libreria di offerte e utilizzale nel Compos
 title: Creare offerte JSON
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '382'
 ht-degree: 100%
@@ -45,7 +45,7 @@ Le offerte JSON sono supportate solo nelle attività create utilizzando il Compo
 
 Di seguito è riportato un esempio:
 
-```
+```json
 adobe.target.getOffer({ 
   mbox: "some-mbox", 
   success: function(actions) { 
@@ -59,7 +59,7 @@ adobe.target.getOffer({
 
 Le azioni passate al callback di successo sono una matrice di oggetti. Supponiamo di avere una singola offerta JSON, con il seguente contenuto:
 
-```
+```json
 { 
   "demo": {"a": 1, "b": 2} 
 }
@@ -67,7 +67,7 @@ Le azioni passate al callback di successo sono una matrice di oggetti. Supponiam
 
 La matrice di azioni avrà questa struttura:
 
-```
+```json
 [ 
  { 
    action: "setJson", 
@@ -84,7 +84,7 @@ Per estrarre l’offerta JSON, è necessario eseguire iterazioni attraverso le a
 
 Supponiamo che la seguente offerta JSON arrivi alla tua pagina web:
 
-```
+```json
 { 
     "_id": "5a65d24d8fafc966921e9169", 
     "index": 0, 
@@ -115,7 +115,7 @@ Supponiamo che la seguente offerta JSON arrivi alla tua pagina web:
 
 Nel codice seguente viene illustrato come accedere all’attributo “greeting”:
 
-```
+```json
 adobe.target.getOffer({   
   "mbox": "name_of_mbox", 
   "params": {}, 
