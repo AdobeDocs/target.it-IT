@@ -4,7 +4,7 @@ description: Gli URL di controllo qualità con distribuzione lato server consent
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 feature: qa
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 88%
@@ -20,7 +20,7 @@ L&#39;implementazione standard del Controllo qualità delle attività supporta i
 
 Nell&#39;esempio di codice seguente viene illustrato il Controllo qualità delle attività in una chiamata lato server:
 
-```
+```json
 {
   "mbox" : "orderConfirmPage",
   "clientSideAnalyticsLogging": true,
