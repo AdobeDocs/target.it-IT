@@ -1,17 +1,18 @@
 ---
-description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.
+keyword: traffic estimate;traffic estimator
+description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi.  Adobe Target Traffic Estimator (Utilità di stima traffico) utilizza le statistiche sulla pagina e il numero di esperienze in fase di test per stimare la quantità di traffico e la durata del test necessari per il successo del test.
 title: Stimare il traffico necessario per il successo del test
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 100%
+source-wordcount: '527'
+ht-degree: 93%
 
 ---
 
 
-# Stimare il traffico necessario per il successo del test{#estimate-the-traffic-required-for-a-successful-test}
+# Stimare il traffico necessario per il successo del test
 
 Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi. Il Calcolatore di traffico utilizza le statistiche sulla pagina e il numero di esperienze sottoposte al test per stimare la quantità di traffico e la durata del test necessarie per la sua riuscita.
 
