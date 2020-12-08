@@ -1,20 +1,20 @@
 ---
 keywords: Mobile Web Experience Editor
-description: Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
+description: Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che potrebbero verificarsi durante la progettazione di un test MVT in  Adobe Target.
 title: Risolvere i problemi relativi ai test multivariati
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '165'
-ht-degree: 100%
+source-wordcount: '171'
+ht-degree: 77%
 
 ---
 
 
 # Risolvere i problemi relativi ai test multivariati{#troubleshoot-multivariate-tests}
 
-Questo argomento contiene suggerimenti per la risoluzione dei problemi che possono verificarsi quando si progetta un test multivariato.
+Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che potrebbero verificarsi durante la progettazione di un test MVT in  Adobe Target.
 
 * Quando si modifica un&#39;attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
 * In caso di modifiche a un test già in esecuzione, puoi reimpostare il test e i relativi dati.
