@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;winner;statistical guarantee;confidence;determine winner;lift;confidence;default;default experience
-description: Gli indicatori nell’interfaccia utente di Target consentono di determinare l’esperienza migliore in un’attività di allocazione automatica A/B.
+description: Determinate un vincitore in un'attività di allocazione automatica A/B visualizzando gli indicatori nell'interfaccia  di Adobe Target.
 title: Determinare un vincitore
 feature: auto-allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '1109'
-ht-degree: 49%
+source-wordcount: '1110'
+ht-degree: 48%
 
 ---
 
