@@ -1,13 +1,13 @@
 ---
 keywords: Overview and Reference
-description: Il riepilogo del test fornisce una panoramica visiva del test multivariato.
+description: Il riepilogo del test fornisce una panoramica visiva del test multivariato Adobe Target .
 title: Riepilogo del test
 feature: mvt
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '101'
-ht-degree: 100%
+source-wordcount: '103'
+ht-degree: 87%
 
 ---
 
