@@ -1,13 +1,13 @@
 ---
 keywords: qa;server side;server-side;preview;preview links
-description: Gli URL di controllo qualità con distribuzione lato server consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
+description: Utilizzate  URL di QA Adobe Target con distribuzione lato server per eseguire attività QA end-to-end in modo semplice con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting di QA che rimane segmentato dai dati dell'attività live.
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 feature: qa
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 88%
+source-wordcount: '383'
+ht-degree: 80%
 
 ---
 
