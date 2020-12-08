@@ -1,12 +1,12 @@
 ---
 keywords: Release notes
-description: Note sulla versione delle versioni precedenti di Target, incluse le note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
+description: Note sulla versione delle precedenti versioni di Adobe Target , comprese note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 title: Note sulla versione per le versioni precedenti
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '29813'
+source-wordcount: '29814'
 ht-degree: 86%
 
 ---
@@ -14,7 +14,9 @@ ht-degree: 86%
 
 # Note sulla versione per le versioni precedenti{#release-notes-for-previous-releases}
 
-Note sulla versione delle versioni precedenti di Target, incluse le note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
+Note sulla versione delle versioni precedenti di Target, incluse le note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js).
+
+Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 
 >[!NOTE]
 >
