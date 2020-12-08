@@ -1,13 +1,13 @@
 ---
 keywords: automated traffic allocation;targeting;Increment Count and Keep User in Activity;traffic allocation
-description: L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
+description: L'attività di allocazione automatica in  Adobe Target identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore per aumentare le conversioni mentre il test continua a essere eseguito e imparare.
 title: Allocazione automatica
 feature: reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '3369'
-ht-degree: 75%
+source-wordcount: '3374'
+ht-degree: 74%
 
 ---
 
