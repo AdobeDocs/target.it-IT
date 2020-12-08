@@ -1,13 +1,13 @@
 ---
 keywords: workspaces;manage property;permissions;product configuration;product profile;roles;project
-description: Informazioni su come creare le proprietà e come utilizzare la funzionalità Proprietà e autorizzazioni, che consente agli amministratori di Target di creare aree di lavoro diverse (profili prodotto) in Target e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web in base a queste aree di lavoro.
+description: Informazioni sulla creazione di proprietà e sull'utilizzo della funzionalità Proprietà e autorizzazioni che consente  amministratori di Adobe Target di creare aree di lavoro separate (profili di prodotto) in Target e quindi di assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti Web basati su tali aree di lavoro.
 title: Autorizzazioni per gli utenti Enterprise
 feature: user management
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
 workflow-type: tm+mt
-source-wordcount: '3053'
-ht-degree: 81%
+source-wordcount: '3054'
+ht-degree: 80%
 
 ---
 
