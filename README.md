@@ -1,16 +1,12 @@
 ---
-source-git-commit: 1911fc7f9fb82d57a995184e904fb993646ad2c1
+source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '509'
-ht-degree: 73%
+source-wordcount: '427'
+ht-degree: 86%
 
 ---
 # Articolo di Contribute
-
-| EXL-PR | EXL | Anteprima | Attiva | Pubblicato | Aiuto |
-|--- |--- |--- |--- |--- |--- |
-| [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_pr-exl/lastBuild/) | [![Stato build](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/badge/icon)](https://docs.ci.corp.adobe.com/view/exl-pr/job/target.en_exl/lastBuild/lastBuild) | [URL anteprima](https://experienceleague.corp.adobe.com/docs/target/using/target-home.html?lang=en) | [activate-exl](https://docs.ci.corp.adobe.com/job/activate-exl/build/) | [URL dal vivo](https://experienceleague.adobe.com/docs/target/using/target-home.html?lang=en) | [Guida all’authoring](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/home.html?lang=en) |
 
 Apprezziamo i contributi della nostra community e dei dipendenti Adobe esterni ai team della documentazione.
 
