@@ -4,9 +4,9 @@ description: 'Il processo decisionale sul dispositivo consente di memorizzare ne
 title: Decisioni su dispositivo
 feature: server-side
 translation-type: tm+mt
-source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
+source-git-commit: 9523ed3022d683764e122cd5867a65c79c70df3a
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '264'
 ht-degree: 0%
 
 ---
@@ -38,12 +38,6 @@ Questo video di 7 minuti:
 * Mostra un esempio di codice SDK Node.JS contenente la configurazione chiave necessaria per le decisioni sul dispositivo
 * Mostra i risultati in un browser
 
-Alla fine di questo video, potrete:
-
-* Descrivere le decisioni prese sul dispositivo e i relativi vantaggi
-* Attiva la decisione sul dispositivo in [!DNL Target]
-* Creazione di un&#39;attività di composizione basata su modulo destinata all&#39;utilizzo con decisioni sul dispositivo
-* Per saperne di più sulla configurazione SDK necessaria per le decisioni sul dispositivo, consulta la documentazione dell’SDK [Adobe Target](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning)
-* Comprendere l&#39;esperienza degli utenti finali per i contenuti distribuiti utilizzando le decisioni sui dispositivi
-
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
+
+Per ulteriori video ed esercitazioni, consultate la guida [Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target.
