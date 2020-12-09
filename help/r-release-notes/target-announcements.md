@@ -4,9 +4,9 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 4e6e6de0da9657fd902ac3e80cc1eba54709fbdd
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -35,8 +35,6 @@ Più che mai, agli esperti di marketing, ai proprietari di prodotti e agli svilu
 In questo webinar registrato,  esperti di prodotti Adobe Target illustrano come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo da eseguire localmente con latenza zero possano aprire le porte a nuovi casi d&#39;uso emozionanti e migliorare le prestazioni del sito per i clienti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
-
-[Registrati qui per questo evento emozionante.](https://www.adobeeventsonline.com/Target/2020/OnDeviceDecisions/invite.html)
 
 ## Webinar: Come HSBC sfrutta  Adobe Target e AI per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
