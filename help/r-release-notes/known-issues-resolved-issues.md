@@ -4,9 +4,9 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: a841c492e5d9e4bfedb20133ba32e37daf738c57
+source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
 workflow-type: tm+mt
-source-wordcount: '4329'
+source-wordcount: '4296'
 ht-degree: 70%
 
 ---
@@ -125,10 +125,6 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 
 Il 10 maggio 2020 abbiamo aggiornato i file del nostro provider GEO, che hanno introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole; anche se, i valori nelle audience esistenti non avevano una virgola. Questa modifica non ha interessato tutti i server di distribuzione. Di conseguenza, tra il 10 maggio e il 22 luglio 2020 l&#39;audience che utilizza tali valori potrebbe non avere qualificato tutti i visitatori corretti.
 
-### Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;
-
-Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di &quot;elaborazione&quot; per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta di un problema relativo solo all&#39;etichetta: le offerte di immagini possono essere ancora utilizzate nelle attività e distribuite. In alcuni casi, tuttavia, un’offerta immagine potrebbe non essere disponibile per l’azione Sostituisci contenuto > Immagine. In questo caso, caricate di nuovo l’offerta immagine e verificate dopo alcune ore se l’offerta è disponibile per la sostituzione. (TGT-37458)
-
 ### Rapporti - Dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell&#39;interfaccia di Target. {#csv}
 
 I report generati per il download come file .csv non sono coerenti se l&#39;attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
@@ -138,6 +134,12 @@ L’origine della verità è sempre il rapporto visualizzato nell’ [!DNL Targe
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i suddetti problemi noti vengono risolti, saranno spostati nella sezione seguente e verranno eventualmente integrati con note aggiuntive.
+
+### Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;
+
+Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di &quot;elaborazione&quot; per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta di un problema relativo solo all&#39;etichetta: le offerte di immagini possono essere ancora utilizzate nelle attività e distribuite. (MCUI-10264, TGT-37458)
+
+Questo problema è stato risolto nella release di Target Standard/Premium 20.10.1.
 
 ### Reporting di Analytics for Target (A4T)
 
