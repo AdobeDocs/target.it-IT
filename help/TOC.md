@@ -3,9 +3,9 @@ user-guide-title: Guida ad Adobe Target
 breadcrumb-title: Guida a Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '1565'
+source-wordcount: '1567'
 ht-degree: 90%
 
 ---
@@ -158,6 +158,7 @@ ht-degree: 90%
    + Lato server: implementare Target {#server-side}
       + [Lato server: panoramica sull’implementazione di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)
       + [Transizione dalle API legacy di Target ad Adobe I/O](c-implementing-target/c-api-and-sdk-overview/target-api-documentation.md)
+      + [Decisioni su dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md)
    + [Implementazione ibrida](/help/c-implementing-target/hybrid-implementation.md)
    + E-mail: implementare Target {#implement-email}
       + [E-mail: panoramica sull’implementazione di Target](c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md)
