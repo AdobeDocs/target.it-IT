@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: e55777d75435a0668f3e23407b1cffea4cac1b6f
+source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
 workflow-type: tm+mt
-source-wordcount: '3115'
+source-wordcount: '3120'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ This page lists important changes made to the [!DNL Adobe Target] product docume
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Dicembre 9 | [Decisioni su dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuovo argomento. |
 | Dicembre 1 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | È stata incorporata la registrazione del webinar per &quot;Personalizzare e testare a latenza zero con decisioni sul dispositivo da  Adobe Target&quot;. |
 | Novembre 24 | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto il seguente problema noto:<ul><li>[Rapporti - Dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell&#39;interfaccia di Target.](/help/r-release-notes/known-issues-resolved-issues.md#csv)</li></ul>È stato aggiunto il seguente problema risolto:<ul><li>[Reporting di Analytics for Target (A4T)](/help/r-release-notes/known-issues-resolved-issues.md#section_FD2FC86E7C734D60B1EDC9DEF60E1014)</li></ul> |
 |  | [Definizioni delle metriche - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Durante la configurazione delle metriche degli obiettivi, perché non è possibile accedere alle opzioni delle impostazioni avanzate?&quot; |
