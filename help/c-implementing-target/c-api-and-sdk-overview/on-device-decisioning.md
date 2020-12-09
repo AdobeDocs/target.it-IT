@@ -1,10 +1,10 @@
 ---
 keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività di  Adobe Target A/B e Experience Targeting (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete  Adobe Target Edge Network. '
+description: 'Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività di  Adobe Target A/B e Experience Targeting (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete su Adobe Target Edge Network . '
 title: Decisioni su dispositivo
 feature: server-side
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: d443076f37f5a63c0f82675e5c9cdbaa61045059
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Decisioni su dispositivo
 
-Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività Test [!DNL Adobe Target] [!UICONTROL A/B e Targeting] [!UICONTROL esperienza (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete a] [!DNL Adobe Target]Edge Network.
+Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività Test [!DNL Adobe Target] [!UICONTROL A/B e Targeting] [!UICONTROL esperienza (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete a] [!DNL Adobe Target] Edge Network.
 
 Per ulteriori informazioni, consulta [Introduzione alle decisioni](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) sul dispositivo nella documentazione *[degli SDK per](https://adobetarget-sdks.gitbook.io/docs/)* Adobe Target.
 
@@ -28,7 +28,7 @@ In questo webinar registrato, [!DNL Adobe Target] gli esperti del prodotto illus
 
 ## Esercitazione: Decisioni su dispositivo
 
-[!DNL Adobe Targe]La decisione sul dispositivo consente la distribuzione di contenuti con latenza quasi zero.
+[!DNL Adobe Target] la decisione sul dispositivo consente la distribuzione di contenuti con latenza quasi zero.
 
 Questo video di 7 minuti:
 
