@@ -1,20 +1,20 @@
 ---
-keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned
+keywords: criteria sequence;multiple criteria;algorithms;criteria;recommendations criteria;sequence;limit number of items returned;slot level control;slot
 description: Utilizzate sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
 title: Creare sequenze di criteri
 feature: criteria
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4b9ff10ff01ea3bf4fc1be165b220d4975e1f948
 workflow-type: tm+mt
-source-wordcount: '787'
-ht-degree: 36%
+source-wordcount: '808'
+ht-degree: 35%
 
 ---
 
 
 # ![PREMIUM](/help/assets/premium.png) Creare sequenze di criteri
 
-Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli].
+Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli. ] È inoltre possibile limitare il numero di elementi restituiti (talvolta denominati &quot;controllo del livello degli slot&quot;).
 
 >[!NOTE]
 >
@@ -67,7 +67,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    ![Limita il numero di elementi restituiti](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Per comprendere meglio il valore dell&#39;opzione [!UICONTROL Limita il numero di elementi restituiti] , prendere in considerazione i seguenti casi di utilizzo:
+   Per comprendere meglio il valore dell&#39;opzione [!UICONTROL Limita il numero di elementi restituiti] (talvolta denominata &quot;controllo del livello di slot&quot;), prendere in considerazione i seguenti casi di utilizzo:
 
    * **Caso d’uso 1**: Desiderate disporre di diversi tipi di elementi in un unico vassoio delle raccomandazioni. Ad esempio, si desidera mostrare un mix di abbigliamento (giacca) e top (camicie, T-shirt). A tal fine, utilizzate una raccolta per l&#39;attività che include tutti i potenziali tipi di prodotti che desiderate in qualsiasi slot del vostro progetto. Quindi, impostate il primo criterio con un filtro statico che limiti i criteri in modo che includano solo l&#39;uso esterno e il secondo criterio con un filtro statico che limiti i criteri in modo da includere solo i piani. Infine, aggiungete entrambi i criteri a una sequenza di criteri e limitate i primi criteri a 2 slot.
 
