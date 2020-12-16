@@ -117,7 +117,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l’attività.
 
-## Video di formazione: Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 
