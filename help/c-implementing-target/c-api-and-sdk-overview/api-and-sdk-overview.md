@@ -14,7 +14,7 @@ ht-degree: 20%
 
 # Lato server: implementare Target{#server-side-implement-target}
 
-Informazioni su API di consegna lato [!DNL Adobe Target] server, SDK e [!DNL Target Recommendations] API.
+Informazioni su [!DNL Adobe Target] API di distribuzione lato server, SDK e [!DNL Target Recommendations] API.
 
 Il processo seguente si verifica in un’implementazione lato server di [!DNL Target]:
 
@@ -27,32 +27,32 @@ L&#39;esperienza non deve essere visualizzata in un browser. L&#39;esperienza pu
 
 >[!NOTE]
 >
->Un visitatore della prima volta può essere inizializzato solo sul lato client. Un visitatore della prima volta *non può* essere inizializzato sul lato server.
+>Un visitatore della prima volta può essere inizializzato solo sul lato client. Un visitatore di prima visita *non può* essere inizializzato sul lato server.
 
 Le sezioni seguenti forniscono ulteriori informazioni sulle varie API e l’SDK NodeJS:
 
 ## API di distribuzione lato server
 
-Link: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
+Collegamento: [Server Side Delivery APIs](https://developers.adobetarget.com/api/delivery-api/)
 
 `/rest/v1/delivery`
 
-Tramite l&#39;API [!DNL Target] di consegna, potete:
+Tramite l&#39;API di consegna [!DNL Target] potete:
 
 * Distribuite esperienze in tutto il Web, inclusi canali SPA e mobili, nonché dispositivi IoT non basati su browser, come televisori connessi, chioschi o schermi digitali all&#39;interno del negozio.
 * Distribuite esperienze da qualsiasi piattaforma o applicazione lato server in grado di effettuare chiamate HTTP/s.
 * Distribuisci esperienze coerenti e personalizzate a un visitatore, indipendentemente dal canale o dai dispositivi utilizzati dal visitatore per interagire con il tuo business.
 * Memorizza nella cache le esperienze di un visitatore all’interno di una sessione sul server, in modo da evitare chiamate API multiple, che consentono di ottenere prestazioni migliori.
-* Integrazione perfetta con [!DNL Adobe Experience Cloud] prodotti quali [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) e il lato [!DNL Experience Cloud ID Service] del server.
+* Integrazione perfetta con i prodotti [!DNL Adobe Experience Cloud], come [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] (AAM) e [!DNL Experience Cloud ID Service] dal lato server.
 
 ## SDK lato server
 
-Collegamento: [Adobe Target SDK](https://adobetarget-sdks.gitbook.io/docs/)
+Collegamento: [ SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)
 
-Il portale della documentazione dell&#39;SDK lato [!DNL Adobe Target] server consente di implementare [!DNL Target] sui server nella lingua desiderata.
+Il portale della documentazione dell&#39;SDK lato server [!DNL Adobe Target] consente di implementare [!DNL Target] sui server nella lingua desiderata.
 
 ## API per la funzione Consigli di Target
 
-Collegamento: [API](https://developers.adobetarget.com/api/recommendations) Recommendations Target e [Panoramica](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html)API Adobe Recommendations.
+Collegamento: [Target Recommendations APIs](https://developers.adobetarget.com/api/recommendations) e [ Adobe Recommendations API Overview](https://experienceleague.adobe.com/docs/target-learn/recommendations-api-tutorial/recs-api-overview.html).
 
-The Recommendations APIs let you programmatically interact with [!DNL Target] recommendations servers. These APIs can be integrated with a range of application stacks to perform functions that you would typically do via the [!DNL Target] user interface.
+Le API Recommendations consentono di interagire in modo programmatico con i server [!DNL Target] delle raccomandazioni. Queste API possono essere integrate con una serie di stack di applicazioni per eseguire funzioni che normalmente si eseguono tramite l&#39;interfaccia utente [!DNL Target].
