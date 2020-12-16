@@ -14,7 +14,7 @@ ht-degree: 65%
 
 # Classificazioni - Domande frequenti su A4T{#classifications-a-t-faq}
 
-This topic contains answers to questions that are frequently asked about classifications and using [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Questo argomento contiene le risposte alle domande frequenti sulle classificazioni e sull&#39;utilizzo di [!DNL Analytics] come origine di reporting per [!DNL Target] (A4T).
 
 ## Dopo aver utilizzato la funzione di importazione classificazioni per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
 
@@ -24,11 +24,11 @@ Questo file di consultazione è utile per i clienti che ricevono il feed di dati
 
 Il formato stringa della variabile TNT è `activityID:experienceID:targettype|event`.
 
-* targettype = 0 (control/random) o 1 (targeting) per le attività di allocazione [!UICONTROL automatica] e [!UICONTROL targeting] automatico.
+* targettype = 0 (control/random) o 1 (targeting) per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target].
 * Event = 0 rappresenta l’entrata di un’esperienza.
 * Event = 1 rappresenta una visita all’esperienza.
 * Event = 2 rappresenta l’impression di un’attività.
 * Evento = 3-32766 rappresenta l&#39;ID della metrica di successo dell&#39;analisi.
 * Event = 32767 rappresenta una conversione di attività.
 
-You can import the classification file on a frequent basis from the UI using a [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) or an [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). È inoltre possibile interagire con i Servizi di ingegneria per ottenere il file come una tabella di consultazione insieme a un feed di dati clickstream.
+È possibile importare il file di classificazione in modo frequente dall&#39;interfaccia utente utilizzando un [browser import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) o un [FTP import](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). È inoltre possibile interagire con i Servizi di ingegneria per ottenere il file come una tabella di consultazione insieme a un feed di dati clickstream.
