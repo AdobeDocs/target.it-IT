@@ -14,19 +14,19 @@ ht-degree: 0%
 
 # Capitolo 7: Creazione ed esecuzione della prima attività Target
 
-Sei pronto per iniziare la tua prima attività in [!DNL Target]? Eccellente. Scopriamo un&#39;attività per il tuo sito Web, sito mobile o app mobile che non è eccessivamente complessa, ma che può fornire un ROI rapido e farti eccitare sul potenziale di utilizzo [!DNL Target] per testare e personalizzare. A seconda dell&#39;organizzazione e del suo centro di interesse, potresti prendere in considerazione l&#39;idea di eseguire una delle tre diverse route con quella prima attività.
+Sei pronto per iniziare la tua prima attività in [!DNL Target]? Eccellente. Scopriamo un&#39;attività per il tuo sito Web, sito mobile o app mobile che non è eccessivamente complessa, ma che può fornire un ROI rapido e farti eccitare sul potenziale di utilizzo di [!DNL Target] per testare e personalizzare. A seconda dell&#39;organizzazione e del suo centro di interesse, potresti prendere in considerazione l&#39;idea di eseguire una delle tre diverse route con quella prima attività.
 
 La chiave della tua prima attività, tuttavia, è stabilire una linea di base della metrica aziendale che stai cercando di migliorare: entrate, click-through, invii di moduli, registrazioni completate e così via. In un test A/B, potete spesso utilizzare l&#39;esperienza o l&#39;offerta corrente come &quot;controllo&quot; e misurare l&#39;impatto di una variante di tale esperienza o offerta rispetto ad essa. Tuttavia, con la maggior parte delle attività di personalizzazione, potete determinare idealmente le prestazioni dell&#39;esperienza corrente prima di avviarne una versione personalizzata. Questo ti consentirà di misurare l&#39;impatto della personalizzazione.
 
 ## Route 1: Test A/B per tutto il traffico dei visitatori
 
-Potete impostare un&#39;attività [di test](/help/c-activities/t-test-ab/test-ab.md) A/B di base in cui sottoporre a test una variante di un&#39;offerta o di un&#39;esperienza rispetto a una o più altre varianti per vedere quali preferiscono i visitatori. Se state solo cercando la variante vincente, potete scegliere di sfruttare l&#39;intelligenza artificiale per ottenere risultati più rapidi selezionando Allocazione [automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) nel secondo passaggio del flusso di lavoro di impostazione del test A/B.
+Potete impostare un&#39;attività di test [A/B](/help/c-activities/t-test-ab/test-ab.md) di base in cui testare una variante di un&#39;offerta o di un&#39;esperienza rispetto a una o più altre varianti per vedere quali preferiscono i visitatori. Se state solo cercando la variante vincente, potete scegliere di sfruttare l&#39;AI per ottenere risultati più rapidi selezionando [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) nel secondo passaggio del flusso di lavoro di impostazione del test A/B.
 
 Esempio: Una società di media verifica la copia corrente di un’offerta di iscrizione regalo sulla propria pagina Web o sul sito mobile per vedere quale variante porta più visitatori ad acquistare un’iscrizione regalo. Se si seleziona Allocazione automatica, durante l&#39;esecuzione del test l&#39;attività sposterà più traffico verso la variante vincente. In caso contrario, sarà necessario inviare manualmente l&#39;esperienza vincente live al termine del test.
 
 ## Route 2: Personalizzare un pubblico specifico
 
-Puoi impostare un&#39;attività [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) che interessa un pubblico specifico che sai essere prezioso con un&#39;offerta o un&#39;esperienza che risonanza con loro.
+Potete impostare un&#39;attività [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) che si rivolge a un pubblico specifico di cui siete a conoscenza e che sia preziosa con un&#39;offerta o un&#39;esperienza che sapreste avere a che fare con loro.
 
 Esempio: Una compagnia aerea prende di mira i suoi membri di livello platino con un&#39;offerta speciale che raddoppia i loro punti sul loro prossimo acquisto di volo per premiarli e costruire ulteriormente la fedeltà dei clienti.
 
@@ -38,7 +38,7 @@ Esempio: Un telco che vende marchi e modelli di telefoni multipli attiva Auto-Ta
 
 ## Generazione di un&#39;idea di attività
 
-Potreste eseguire il test di base sul colore del pulsante o sul cambiamento di copia, ma che ne dite di testare o personalizzare qualcosa che abbia il potenziale per dimostrare quanto [!DNL Target] possa essere efficace per spostare l&#39;ago delle metriche di business che contano? Qualcosa che solleva sopracciglia con i dirigenti della suite C e i leader delle unità aziendali.
+Potreste eseguire il semplice test di modifica del colore del pulsante o della copia, ma che ne dite di testare o personalizzare qualcosa che abbia il potenziale per dimostrare quanto sia potente [!DNL Target] per spostare l&#39;ago delle metriche aziendali rilevanti? Qualcosa che solleva sopracciglia con i dirigenti della suite C e i leader delle unità aziendali.
 
 Di seguito sono riportati alcuni modi per realizzare idee di attività che sono facili da implementare ma che possono avere un grande impatto sul business:
 
@@ -52,11 +52,11 @@ Nel formulare l&#39;idea di test, ricordate che dovreste essere in grado di spie
 
 ## Pianificazione dell&#39;attività con l&#39;Activity Planner
 
-Abbiamo incluso il [Adobe Target Activity Planner](/help/assets/activity-planner.pdf) come PDF standalone che puoi salvare e utilizzare più e più volte. Fare clic sul collegamento per visualizzare il file PDF. Fare clic con il pulsante destro del mouse per scaricare il file PDF.
+Abbiamo incluso il [ Adobe Target Activity Planner](/help/assets/activity-planner.pdf) come PDF standalone che puoi salvare e utilizzare più volte. Fare clic sul collegamento per visualizzare il file PDF. Fare clic con il pulsante destro del mouse per scaricare il file PDF.
 
 Per eseguire un&#39;attività efficace, è necessario compilare ogni area del planner. Utilizzate questo strumento come voi e altri studiate le idee per testare e personalizzare le attività.
 
-![Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
+![ Adobe Target Activity Planner](/help/c-intro/assets/activity-planner.png)
 
 Ecco il tipo di pensiero che va in ogni area del planner:
 
@@ -70,11 +70,11 @@ Spiegare chiaramente qual è il problema con l&#39;esperienza della pagina Web c
 
 ### Che tipo di attività è necessario?
 
-Selezionare la casella del tipo di attività che si desidera eseguire. Puoi esaminare l&#39;argomento sui tipi [di attività di](/help/c-activities/target-activities-guide.md) Target o l&#39; [Adobe Target in un capitolo Panoramica](/help/c-intro/target-welcome-kit-2.md) per comprendere i diversi tipi di attività disponibili.
+Selezionare la casella del tipo di attività che si desidera eseguire. È possibile esaminare l&#39;argomento [Tipi di attività di destinazione](/help/c-activities/target-activities-guide.md) o il capitolo [ Adobe Target in un capitolo Glance](/help/c-intro/target-welcome-kit-2.md) per comprendere i diversi tipi di attività disponibili.
 
 ### Chi è il pubblico di destinazione?
 
-In un test A/B con un&#39;esperienza di controllo e una variante, ad esempio, potete includere l&#39;intera popolazione di visitatori. Per impostazione predefinita, [!DNL Target] distribuisce il 50% al controllo e il 50% alla variante. Ma se stai personalizzando, potresti descrivere il pubblico o i tipi di pubblico ai quali stai personalizzando. Quando si utilizza l&#39;intelligenza artificiale, è possibile che si stia utilizzando l&#39;intelligenza artificiale per personalizzare l&#39;individuo. L&#39;ipotesi dovrebbe indicare il motivo per cui scegliete un pubblico specifico per un&#39;attività, se ne scegliete uno specifico.
+In un test A/B con un&#39;esperienza di controllo e una variante, ad esempio, potete includere l&#39;intera popolazione di visitatori. Per impostazione predefinita, [!DNL Target] fornisce il 50% al controllo e il 50% alla variante. Ma se stai personalizzando, potresti descrivere il pubblico o i tipi di pubblico ai quali stai personalizzando. Quando si utilizza l&#39;intelligenza artificiale, è possibile che si stia utilizzando l&#39;intelligenza artificiale per personalizzare l&#39;individuo. L&#39;ipotesi dovrebbe indicare il motivo per cui scegliete un pubblico specifico per un&#39;attività, se ne scegliete uno specifico.
 
 ### Quali sono le metriche principali per misurare l&#39;impatto dell&#39;attività?
 
@@ -92,7 +92,7 @@ Se l&#39;attività richiede l&#39;assistente di un designer, uno sviluppatore We
 
 Per trarre una conclusione statisticamente significativa dal test è necessario inserire un certo numero di visitatori nella popolazione di test. Pensateci, se solo due persone partecipano al test, sarete sicuri dei risultati?
 
-[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi.  calcolatore [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html) campione di Adobe consente di determinare il tempo necessario per eseguire un test in base alla confidenza necessaria nei risultati. Fate clic sul collegamento [!UICONTROL Ulteriori] informazioni in questa casella per aprire e utilizzare la calcolatrice.
+[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il  Adobe [calcolatore delle dimensioni del campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) consente di determinare il tempo necessario per eseguire un test in base alla confidenza necessaria nei risultati. Fare clic sul collegamento [!UICONTROL Ulteriori informazioni] in questa casella per aprire e utilizzare la calcolatrice.
 
 ### Quanto è importante questa attività?
 
@@ -108,4 +108,4 @@ I risultati dell&#39;attività forniscono spesso informazioni approfondite sulle
 
 ## Aprite Target e create e avviate l&#39;attività
 
-Hai compilato il piano attività. Ora è il momento di entrare nella soluzione e creare la vostra attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web in [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)].
+Hai compilato il piano attività. Ora è il momento di entrare nella soluzione e creare la vostra attività. [!DNL Target] semplifica notevolmente la modifica della pagina Web in  [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)].
