@@ -28,7 +28,7 @@ Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubb
 
 Puoi ordinare lʼelenco Tipi di pubblico in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
-## Video di formazione: Creazione del contrassegno ![Esercitazione sull&#39;audience](/help/assets/tutorial.png)
+## Video di formazione: Creazione di audience ![Logo di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
