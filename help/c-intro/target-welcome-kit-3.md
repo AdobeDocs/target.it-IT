@@ -24,7 +24,7 @@ Identificare le opportunità per le attività in linea con gli obiettivi azienda
 
 Effettuate questa operazione tramite:
 
-* Attività potenziali di Brainstorming [!DNL Target] basate sui dati sulle prestazioni del sito, sull&#39;analisi della concorrenza e sui risultati dei test passati.
+* Attività potenziali di Brainstorming [!DNL Target] basate sulle prestazioni del sito, sull&#39;analisi della concorrenza e sui risultati dei test passati.
 * Sviluppare idee per attività di revisione, feedback e registrazione.
 
 Ad esempio, cercate una pagina sul sito con un elevato tasso di rimbalzo, considerate la causa del problema e i modi per ridurre il tasso di rimbalzo.
@@ -49,13 +49,13 @@ Effettuate questa operazione tramite:
 
 * Finalizzazione dei criteri di immissione dell&#39;attività e delle metriche necessarie per determinare le prestazioni dell&#39;attività.
 * Completamento e approvazione dei progetti finali per le esperienze di attività.
-* Documentazione dei requisiti per l&#39; [!DNL Target] attività, inclusi criteri di immissione dei test, metriche di reporting e modifiche dell&#39;esperienza.
+* Documentazione dei requisiti per l&#39;attività [!DNL Target], compresi i criteri di immissione dei test, le metriche di reporting e le modifiche dell&#39;esperienza.
 
 Utilizzate Activity Planner, fornito più avanti nel kit di benvenuto, per documentare i dettagli dell&#39;attività, incluse le metriche che verranno utilizzate per misurare le prestazioni dell&#39;attività, ad esempio clic su un pulsante di chiamata all&#39;azione, avvii video o ricavi generati. Accertatevi di includere screenshot o immagini delle progettazioni di esperienze che pianificate di sottoporre a test o personalizzare.
 
 ## Passaggio 4: Creazione ed esecuzione
 
-Create ed eseguite l&#39;attività all&#39;interno [!DNL Target], sviluppate eventuale codice, eseguite il test di controllo qualità e avviate l&#39;attività.
+Create ed eseguite l&#39;attività all&#39;interno di [!DNL Target], sviluppate eventuale codice, eseguite il test di QA e avviate l&#39;attività.
 
 Effettuate questa operazione tramite:
 
