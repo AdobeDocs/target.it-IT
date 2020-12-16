@@ -41,7 +41,7 @@ Gli addetti al marketing utilizzano [!DNL Adobe Target] per promuovere esperienz
 * **Giochi**: le aziende di gaming usano [!DNL Target] per consigliare giochi e contenuti pertinenti agli utenti sulle loro console.
 * **Vendite B2B**: [le aziende business-to-business usano Target per consigliare video, white paper e articoli di blog ai potenziali clienti B2B; per fornire download; e per fornire assistenza ai clienti esistenti](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Viaggi**: [Una prenotazione di viaggio tedesca utilizza Target per consigliare alberghi e altro ai viaggiatori](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Viaggi**:  [Una prenotazione di viaggio tedesca utilizza Target per consigliare alberghi e altro ai viaggiatori](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
 * **Retail**: [un grande rivenditore BB utilizza Target per consigliare categorie e prodotti di rilievo ai visitatori che ritornano sul suo sito sial dal browser che dalla sua app mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
 
@@ -129,7 +129,7 @@ Un’attività di [!DNL Recommendations] è composta dai seguenti elementi:
 
 ![Illustrazione che mostra gli elementi che compongono un’attività di Consigli: pubblico, criteri e progettazioni](/help/c-recommendations/assets/intro-12.png)
 
-Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. We’ve had previous [webinars about building audiences](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
+Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. In [sono stati già organizzati seminari Web sulla creazione di audience](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
 
 Target utilizza il concetto di scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
 
