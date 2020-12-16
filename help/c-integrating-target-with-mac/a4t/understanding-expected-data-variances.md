@@ -48,7 +48,7 @@ I rapporti di [!DNL Target] descrivono le prestazioni in base alla mbox di conve
 
 Le varianze di dati previste possono essere causate da differenze tecniche e di business.
 
-### Esempi di varianze tecniche {#section_C3B50ED2E2F9416FAC91437CF1A87369}
+### Esempi di varianze tecniche  {#section_C3B50ED2E2F9416FAC91437CF1A87369}
 
 I seguenti elementi possono causare varianze di dati in base a differenze tecniche:
 
@@ -58,7 +58,7 @@ I seguenti elementi possono causare varianze di dati in base a differenze tecnic
 * Considerazioni sul fuso orario
 * Differenze nel conteggio dei dispositivi
 
-### Esempi di varianze di business {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
+### Esempi di varianze di business  {#section_2E1EB5E15BB64A1A80E4CDB1A5062AEE}
 
 I seguenti elementi possono causare varianze di dati in base a differenze di business:
 
