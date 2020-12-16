@@ -31,9 +31,9 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 1. Assegna un nome all’attività.
 1. Seleziona una posizione.
 
-   When you click in the [!UICONTROL Select Location] box, a list of available locations appears. Seleziona una di queste posizioni. Per scegliere la posizione globale fornita tramite target.js, seleziona “target-global-mbox”.
+   Quando si fa clic nella casella [!UICONTROL Seleziona posizione], viene visualizzato un elenco delle posizioni disponibili. Seleziona una di queste posizioni. Per scegliere la posizione globale fornita tramite target.js, seleziona “target-global-mbox”.
 
-   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l&#39;ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell&#39;elenco delle posizioni disponibili. La prossima volta che tentate di selezionare una posizione immessa manualmente, sarà disponibile dall&#39;elenco a discesa [!UICONTROL Seleziona posizione] per quell&#39;attività.
+   È inoltre possibile immettere una posizione non elencata. Tale opzione può essere utile se la mbox non è ancora stata creata o visualizzata su una pagina. Digita il nome della posizione. Presta attenzione quando inserisci una posizione che non esiste ancora. Se l&#39;ortografia o l’uso di maiuscole/minuscole non corrisponde quando viene effettuata la chiamata mbox, l’attività non verrà consegnata. Le posizioni inserite manualmente vengono salvate nell&#39;elenco delle posizioni disponibili. Al successivo tentativo di selezionare una posizione immessa manualmente, sarà disponibile dall&#39;elenco a discesa [!UICONTROL Seleziona posizione] per tale attività.
 
    >[!NOTE]
    >
@@ -94,14 +94,14 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    ![](assets/change_criteria_2.png)
 
-1. (Optional, for AB activities, Automated Personalization, and Experience Targeting) To repeat this process for additional locations, click **[!UICONTROL Add Location]** and configure the location and content.
-1. Click **[!UICONTROL Next]**, then complete the activity creation steps as usual for your activity type.
+1. (Facoltativo, per le attività AB,  Automated Personalization e Targeting delle esperienze) Per ripetere questo processo per altre posizioni, fate clic su **[!UICONTROL Aggiungi posizione]** e configurate la posizione e il contenuto.
+1. Fate clic su **[!UICONTROL Next]**, quindi completate i passaggi di creazione dell&#39;attività come di consueto per il tipo di attività.
 
 * [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
 * [Creare un’attività Targeting delle esperienze](/help/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
 * [Creare un’attività Consigli](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
-## Video di formazione: Compositore basato su modulo ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Compositore basato su modulo  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video fornisce una demo del Compositore esperienza basato su moduli.
 
