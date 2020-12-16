@@ -1,6 +1,9 @@
 ---
 source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+workflow-type: tm+mt
 translation-type: tm+mt
+source-wordcount: '431'
+ht-degree: 100%
 
 ---
 # Codice di condotta Adobe
@@ -8,8 +11,8 @@ translation-type: tm+mt
 ## Il nostro impegno
 
 Allo scopo di promuovere un ambiente aperto e accogliente, i 
-collaboratori e i maintainer si impegnano a rendere la partecipazione all'interno del nostro progetto e
-della nostra community un'esperienza libera da discriminazioni per tutti, a prescindere da fattori come età, dimensioni
+collaboratori e i maintainer si impegnano a rendere la partecipazione all&#39;interno del nostro progetto e
+della nostra community un&#39;esperienza libera da discriminazioni per tutti, a prescindere da fattori come età, dimensioni
 del corpo, disabilità, etnia, identità ed espressione di genere, livello di esperienza,
 nazionalità, aspetto personale, razza, religione, identità e
 orientamento sessuale.
@@ -48,7 +51,7 @@ minacciosi, offensivi o dannosi.
 
 ## Portata
 
-Questo Codice di condotta si applica sia all'interno di spazi progetto che agli spazi
+Questo Codice di condotta si applica sia all&#39;interno di spazi progetto che agli spazi
 pubblici quando un utente è rappresentante di un progetto o della relativa community. Esempi di
 rappresentanza di un progetto o di una community includono utilizzo di un indirizzo e-mail
 ufficiale del progetto, pubblicazione tramite un account social media ufficiale o partecipazione come rappresentante
@@ -57,7 +60,7 @@ definire e chiarire ulteriormente il concetto di rappresentanza di un progetto.
 
 ## Applicazione
 
-I casi di comportamenti offensivi, molesti o in generale inaccettabili si possono segnalare contattando il team di progetto all'indirizzo Grp-opensourceoffice@adobe.com. Tutte
+I casi di comportamenti offensivi, molesti o in generale inaccettabili si possono segnalare contattando il team di progetto all&#39;indirizzo Grp-opensourceoffice@adobe.com. Tutte
 le lamentele saranno esaminate e analizzate e riceveranno la risposta ritenuta necessaria e adatta alle circostanze. Il team di progetto è
 obbligato a mantenere la privacy di chi ha segnalato un problema. 
 La pubblicazione di ulteriori dettagli su criteri di applicazione specifici può avvenire separatamente.
@@ -71,5 +74,5 @@ membri della direzione del progetto.
 Questo Codice di condotta è stato adattato dal documento [Contributor Covenant][homepage], versione 1.4,
 disponibile all’indirizzo [https://www.contributor-covenant.org/it/version/1/4/code-of-conduct][version]
 
-[homepage]: https://contributor-covenant.org
-[version]: https://contributor-covenant.org/version/1/4/
+[homepage]: https://contributor-covenant.org/it
+[version]: https://contributor-covenant.org/it/version/1/4/code-of-conduct
