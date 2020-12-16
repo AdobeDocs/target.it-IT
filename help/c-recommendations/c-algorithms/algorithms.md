@@ -14,7 +14,7 @@ ht-degree: 53%
 
 # ![PREMIUM](/help/assets/premium.png) Criteri
 
-Criteria in [!DNL Adobe Target] are rules that determine which products or content to recommend based on a predetermined set of visitor behaviors. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
+I criteri in [!DNL Adobe Target] sono regole che determinano quali prodotti o contenuti consigliare in base a un insieme predeterminato di comportamenti dei visitatori. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
 
 Nelle sezioni seguenti vengono spiegate ulteriori informazioni sulle chiavi dei criteri e sulla logica delle raccomandazioni che potete utilizzare per ogni chiave. Fate clic sui collegamenti per ulteriori informazioni.
 
@@ -28,9 +28,9 @@ Durante la creazione di un criterio, potete selezionare un settore verticale in 
 | Generazione di lead/B2B/servizi finanziari | Conversione senza acquisto |
 | Media/Editoria | Coinvolgimento |
 
-Le altre opzioni dei criteri vengono modificate in base al settore verticale selezionato. Potete impostare il settore verticale predefinito nella pagina **[!UICONTROL Recommendations > Impostazioni]** oppure specificare il settore verticale per ogni criterio.
+Le altre opzioni dei criteri vengono modificate in base al settore verticale selezionato. È possibile impostare il settore verticale predefinito sulla pagina **[!UICONTROL Recommendations > Settings]** oppure specificare il settore verticale per ogni criterio.
 
-## Recommendation key {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Chiave raccomandazione {#section_885B3BB1B43048A88A8926F6B76FC482}
 
 La chiave dei consigli selezionata determina il tipo di criterio. Esistono diversi tipi di criteri che vengono rappresentati come schede di criteri quando imposti un’attività di [!DNL Recommendations].
 
@@ -52,33 +52,33 @@ Potete anche basare le raccomandazioni sul valore di un attributo di profilo per
 
 >[!NOTE]
 >
->I parametri di profilo personalizzati possono essere passati a Target tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, consulta Profili [](/help/c-target/c-visitor-profile/visitor-profile.md)visitatore.
+>I parametri di profilo personalizzati possono essere passati a Target tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, vedere [Profili visitatore](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Ad esempio, se desiderate visualizzare i filmati consigliati in base al filmato aggiunto più di recente da un utente alla coda,
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Last Show Added to Watchlist]).
+1. Selezionate l&#39;attributo di profilo personalizzato dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione] (ad esempio, [!UICONTROL Ultima visualizzazione aggiunta a Elenco di controllo]).
 
-1. Select your [!UICONTROL Recommendation Logic] (for example, [!UICONTROL People Who Viewed This, Viewed That]).
+1. Selezionare la logica [!UICONTROL di raccomandazione] (ad esempio, [!UICONTROL Chi ha visualizzato questo, l&#39;ha visualizzata]).
 
    ![Crea nuovo criterio, finestra di dialogo](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
 
-If your custom profile attribute does not directly match to a single entity ID, it is necessary to explain to [!DNL Recommendations] how you want the match to an entity to occur.
+Se l&#39;attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, è necessario spiegare a [!DNL Recommendations] in che modo si desidera che venga rilevata la corrispondenza con un&#39;entità.
 
 Ad esempio, se desiderate visualizzare gli elementi più venduti dal marchio preferito di un utente,
 
-1. Select your custom profile attribute from the [!UICONTROL Recommendation Key] drop-down list (for example, [!UICONTROL Favorite Brand]).
+1. Selezionate l&#39;attributo di profilo personalizzato dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione] (ad esempio, [!UICONTROL Marchio preferito]).
 
-1. Select the [!UICONTROL Recommendation Logic] you want to use with this key (for example, [!UICONTROL Top Sellers]).
+1. Selezionare la [!UICONTROL Logica raccomandazione] che si desidera utilizzare con questa chiave (ad esempio, [!UICONTROL Top Sellers]).
 
    Viene visualizzata l’opzione [!UICONTROL Raggruppa per valore univoco di].
 
-1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In this case [!UICONTROL Favorite Brand] matches to `entity.brand`.
+1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In questo caso [!UICONTROL Il marchio preferito] corrisponde a `entity.brand`.
 
-   [!DNL Recommendations] genera ora un elenco &quot;Top Sellers&quot; (Venditori principali) per ogni marchio e mostra all&#39;utente l&#39;elenco &quot;Top Sellers&quot; appropriato in base al valore memorizzato nell&#39;attributo del profilo del marchio [!UICONTROL Preferiti] .
+   [!DNL Recommendations] genera ora un elenco &quot;Top Sellers&quot; (Venditori principali) per ogni marchio e mostra all&#39;utente l&#39;elenco &quot;Top Sellers&quot; appropriato in base al valore memorizzato nell&#39;attributo  [!UICONTROL Favorite ] Brandprofile (Preferito Branprofile).
 
    ![Attributo Top Sellers](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
 
-## Criteria/algorithms {#criteria-algorithms}
+## Criteri/algoritmi {#criteria-algorithms}
 
 [!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell&#39;attività. La Chiave consiglio determina le opzioni di logica disponibili.
 
@@ -101,7 +101,7 @@ Puoi anche utilizzare informazioni conosciute aggiuntive su un visitatore per mi
 
 Tutti i criteri di un giorno vengono eseguiti due volte al giorno. Tutti i criteri di una settimana e più vengono eseguiti una volta al giorno. I criteri di affinità per sito vengono eseguiti una volta al giorno. I criteri di backup vengono eseguiti due volte al giorno.
 
-## Viewing criteria information {#section_7162DE58E4594FD688A4D7FDB829FD8B}
+## Visualizzazione delle informazioni sui criteri {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
 Per visualizzare i dettagli dei criteri su una scheda a comparsa, passa il mouse su una scheda e fai clic sull&#39;icona Informazioni sulla scheda dei criteri, senza aprirli.
 
@@ -117,4 +117,4 @@ Fai clic sulla scheda **[!UICONTROL Uso dell&#39;Algoritmo]** per visualizzare u
 
 >[!NOTE]
 >
->Al momento la funzione Utilizzo  algoritmo è supportata solo per le attività Recommendations. Al momento questa funzione non è supportata per le attività Test A/B, allocazione automatica, targeting automatico e Targeting delle esperienze (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
+>La funzione [!UICONTROL Uso dell&#39;algoritmo] è attualmente supportata solo per le attività Recommendations. Al momento questa funzione non è supportata per le attività Test A/B, Allocazione automatica, Destinazione automatica e Targeting delle esperienze (XT) che includono [raccomandazioni come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
