@@ -44,7 +44,7 @@ I seguenti tag HTML5 possono essere nidificati:
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
+| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
 | `<label>` | `<p>` |
 
 #### Colore di sfondo
@@ -57,7 +57,7 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
-To access the [!UICONTROL Styles] panel, click a page element from within the VEC, then click **[!UICONTROL Edit]** > **[!UICONTROL Styles]**.
+Per accedere al pannello [!UICONTROL Stili], fare clic su un elemento di pagina all&#39;interno del VEC, quindi fare clic su **[!UICONTROL Modifica]** > **[!UICONTROL Stili]**.
 
 Il pannello [!UICONTROL Stili] viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.
 
@@ -114,7 +114,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Il margine supporta valori positivi e negativi.
 
-   Target supporta anche altre unità di misura, come rem, pc, em ecc. For more information about these units, see [Web Style Sheets CSS Tips and Tricks](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target supporta anche altre unità di misura, come rem, pc, em ecc. Per ulteriori informazioni su queste unità, vedere [Suggerimenti e trucchi CSS per i fogli di stile Web](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Spaziatura**
 
@@ -124,7 +124,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La spaziatura supporta valori di larghezza a partire da 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
 
 * **Bordo**
 
@@ -138,11 +138,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Il bordo supporta valori di spessore a partire da 0.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
 
 * **Posizione**
 
-   Sposta l’elemento selezionato dalla posizione corrente. You can change the element&#39;s top, bottom, left, right, and [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) position.
+   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare la posizione superiore, inferiore, sinistra, destra e [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) dell&#39;elemento.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -159,7 +159,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La posizione supporta valori positivi e negativi.
 
-   Target also supports [other size units](https://www.w3.org/Style/Examples/007/units.en.html), such as rem, pc, em, etc.
+   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
 
 * **Dimensioni**
 
@@ -316,7 +316,7 @@ Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTRO
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
-#### Sposta {#move}
+#### Sposta  {#move}
 
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: supporto per assicurare che gli elementi spostati non risultino nascosti dietro ad altri elementi.)
 
