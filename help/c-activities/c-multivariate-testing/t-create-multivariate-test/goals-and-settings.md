@@ -38,9 +38,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-If this option is not enabled in S[!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
 
-To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Per abilitare le priorità con granulosità fine, fare clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attivare l&#39;opzione Attiva priorità con granulosità fine nella posizione &quot;Attiva&quot;.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -154,7 +154,7 @@ Inserisci informazioni sull’attività, utili per te o per gli altri membri del
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
+### Impostazioni attività (3:02) ![Logo esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -166,7 +166,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
+### Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 
