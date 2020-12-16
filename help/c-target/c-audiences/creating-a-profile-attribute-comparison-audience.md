@@ -58,7 +58,7 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](/help/
 
    ![](assets/propensity_score_4.png)
 
-## badge ![Panoramica video formazione](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Video di formazione ![Logo Panoramica](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Per ulteriori informazioni e uno scenario in cui potresti utilizzare questa funzione, guarda il seguente video:
 
