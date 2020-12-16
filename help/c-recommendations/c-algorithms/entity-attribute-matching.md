@@ -12,23 +12,23 @@ ht-degree: 0%
 ---
 
 
-# ![Corrispondenza attributo entità PREMIUM](/help/assets/premium.png)
+# ![Corrispondenza attributo ](/help/assets/premium.png) PREMIUMEntity
 
-Filter dynamically in [!DNL Adobe Target] [!DNL Recommendations] by comparing a pool of potential recommendations items to a specific item that the user has interacted with.
+Filtrare in modo dinamico in [!DNL Adobe Target] [!DNL Recommendations] confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui l&#39;utente ha interagito.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>Il processo [per la creazione e l&#39;utilizzo di regole di inclusione](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per criteri e promozioni è simile, così come i casi di utilizzo e gli esempi.
 
 Ad esempio, consigliamo solo gli elementi che corrispondono al marchio dell&#39;elemento corrente, come nell&#39;esempio seguente:
 
 Se la mbox su una pagina di destinazione del marchio restituisce `entity.brand=brandA`, solo i prodotti del marchio A vengono restituiti e visualizzati sulla pagina. Analogamente, nella pagina di destinazione del marchio B, vengono restituiti solo i prodotti del marchio B. Con questo tipo di regola di inclusione dinamica, l&#39;utente deve specificare una sola regola di raccomandazione che restituisca risultati del marchio rilevanti in tutte le pagine del marchio, invece di specificare una raccolta o un filtro statico che corrisponda al nome del marchio.
 
-Per garantire il corretto funzionamento, dovete distribuire il contenuto `entity.brand` nella mbox su tali pagine di destinazione.
+Notate che dovete distribuire la `entity.brand` nella mbox su quelle pagine di destinazione per consentirne il funzionamento.
 
 ## Esempi di corrispondenza attributi entità
 
-[!UICONTROL La corrispondenza] attributi entità consente di consigliare solo gli elementi che corrispondono, ad esempio:
+[!UICONTROL La ] corrispondenza attributi di entità consente di consigliare solo gli elementi che corrispondono, ad esempio:
 
 * Un attributo dell’elemento che l’utente sta visualizzando
 * L’elemento visualizzato più di recente dall’utente
@@ -42,7 +42,7 @@ Una volta create le regole dell&#39;attributo di entità, queste filtreranno tut
 
 L&#39;esempio seguente mostra le raccomandazioni corrispondenti al marchio di prodotto visualizzato sulla pagina:
 
-Quando visitate una pagina che include un prodotto Marchio A, la pagina imposta il valore del `entity.brand` parametro su &quot;MarchioA&quot;.
+Quando visitate una pagina con un prodotto Marchio A, la pagina imposta il valore del parametro `entity.brand` su &quot;BrandA&quot;.
 
 ![Esempio di chiamata Target](/help/c-recommendations/c-algorithms/assets/example-target-call.png)
 
@@ -50,7 +50,7 @@ Nelle raccomandazioni sulla pagina, verranno visualizzati solo i prodotti del ma
 
 ![Suggerimenti per il marchio A](/help/c-recommendations/c-algorithms/assets/brandA.png)
 
-Se poi visualizzi una pagina di prodotto del marchio B, il `entity.brand` valore verrà reimpostato su &quot;BrandB&quot; e vedrai i prodotti del marchio B consigliati sulle pagine di prodotto del marchio B.
+Se poi visualizzi una pagina di prodotto Brand B, il valore `entity.brand` verrà reimpostato su &quot;BrandB&quot; e vedrai i prodotti Brand B consigliati sulle pagine di prodotto del marchio B.
 
 ![Suggerimenti per il marchio B](/help/c-recommendations/c-algorithms/assets/brandB.png)
 
