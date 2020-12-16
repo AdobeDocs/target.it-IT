@@ -15,7 +15,7 @@ ht-degree: 91%
 
 # ![PREMIUM](/help/assets/premium.png) Attributi di entità personalizzati{#custom-entity-attributes}
 
-Use single- and multi-value custom entity attributes in [!DNL Adobe Target Recommendations] to define additional information about items in your catalog.
+Utilizzate gli attributi di entità personalizzati a valore singolo e multivalore in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi nel catalogo.
 
 ## Limiti {#limits}
 
@@ -25,7 +25,7 @@ La lunghezza massima degli attributi personalizzati delle entità con valore sin
 
 Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
-## Custom entity attribute values {#section_313331A9F8194A89B5EDD89363018651}
+## Valori attributi entità personalizzati {#section_313331A9F8194A89B5EDD89363018651}
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
@@ -61,7 +61,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 * Gli array devono contenere un unico tipo di valore. Gli array con valori misti (`["AB",1,true]`) non sono supportati.
 * Un attributo con più valori che include un array JSON nidificato (`[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
 
-## Implementing multi-value attributes {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementazione degli attributi multi-valore {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
@@ -127,9 +127,9 @@ Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in u
   }
 ```
 
-See the [Adobe Recommendations API documentation](http://developers.adobetarget.com/api/recommendations) for information about using the Delivery and Save entities APIs.
+Per informazioni sull&#39;utilizzo delle API di consegna e salvataggio delle entità, consultate la [ documentazione API di Adobe Recommendations](http://developers.adobetarget.com/api/recommendations).
 
-## Using operators with multi-value attributes {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Utilizzo di operatori con attributi multi-valore {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando applichi gli operatori agli attributi personalizzati con più valori nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, il risultato sarà *vero* se almeno un valore nell’elenco deve essere soddisfatto (booleano *or*).
 
@@ -252,7 +252,7 @@ Esempio: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Doppio* è un tipo di dati Java. Per gli operatori che richiedono valori numerici, la conversione in doppio elimina i valori non numerici dalla considerazione nei risultati.
 
-## Multi-value attributes in designs {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attributi multivalore nelle strutture {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
 Gli attributi multivalore vengono visualizzati come elenco separato da virgole quando vi viene fatto riferimento in una progettazione.
 
