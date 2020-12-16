@@ -20,7 +20,7 @@ Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elem
 
 >[!NOTE]
 >
->Ulteriori informazioni sono incluse nella sezione [Contenuto dell&#39;argomento Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inclusa una matrice che illustra i risultati che osserverete quando utilizzate le opzioni Rendering [!UICONTROL progettazione] parziale e [!UICONTROL Mostra Recommendations] backup insieme o separatamente.
+>Ulteriori informazioni sono incluse nella sezione [Contenuto dell&#39;argomento Criteri di creazione](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content), inclusa una matrice che spiega i risultati che osserverete quando utilizzate le opzioni [!UICONTROL Rendering progettazione parziale] e [!UICONTROL Mostra Recommendations backup] insieme o separatamente.
 
 La funzionalità di consiglio di backup utilizza sempre gli elementi più visualizzati sul sito per popolare gli spazi rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, supponi che il modello sia configurato per mostrare cinque elementi consigliati e che sia in uso l’algoritmo *Affinità di acquisto*. Se tuttavia i dati sono sufficienti solo per popolare due spazi su cinque, la funzione di consiglio di backup popola gli altri tre con gli elementi più visualizzati.
 
