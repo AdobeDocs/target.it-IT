@@ -41,7 +41,7 @@ I dati vengono salvati fino alla fine dell’attività.
 
 >[!NOTE]
 >
->Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l&#39;incremento o la confidenza utilizzate per i test A/B. To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+>Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l&#39;incremento o la confidenza utilizzate per i test A/B. Per calcolare queste metriche calcolate, scaricate il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività, oppure rivedete i [calcoli statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
 
 ## Esportare i dettagli ordine in CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
