@@ -20,7 +20,7 @@ Questa sezione include il codice di esempio che può essere utilizzato come mode
 
 >[!NOTE]
 >
->See the [Mobile documentation](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) for a list of all the available Target methods.
+>Consulta la [Documentazione mobile](https://experienceleague.adobe.com/docs/mobile-services/ios/target-ios/c-target-methods.html) per un elenco di tutti i metodi di Target disponibili.
 
 Per creare una posizione di destinazione nell&#39;app e fare una richiesta, esistono due metodi principali:
 
