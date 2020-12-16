@@ -41,7 +41,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 63 di [!DNL mb
 * Sono stati risolti i problemi di visualizzazione momentanea nelle attività di reindirizzamento visualizzate nei browser Google Chrome.
 * È stata aggiunta l’impostazione `secureOnly` che indica se mbox.js deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False.
 
-## mbox.js versione 61 {#section_F3B59C5578B64883AE013B9342151193}
+## mbox.js versione 61  {#section_F3B59C5578B64883AE013B9342151193}
 
 **Versione di Target:** 16.7.2
 
@@ -58,7 +58,7 @@ La versione 61 di mbox.js contiene i seguenti miglioramenti:
    * Se non ci sono cookie di ID visitatore di Experience Cloud, tutte le richieste vengono eseguite in modo asincrono rispetto a [!DNL /ajax] durante il primo caricamento della pagina. Durante il secondo caricamento della pagina, Target utilizza il flusso normale perché i valori di ID visitatore sono già presenti.
    * Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## mbox.js versione 60 {#section_3BDAB885FA13444A8D35940A4BFF5825}
+## mbox.js versione 60  {#section_3BDAB885FA13444A8D35940A4BFF5825}
 
 **Versione di Target:** 16.4.1
 
@@ -99,7 +99,7 @@ Anche nella versione 60, se il file [!DNL visitorAPI.js] è presente per il serv
 
    Se utilizzi le versioni dalla 58 alla 60 con il servizio ID visitatore, le chiamate mbox attendono che sia impostato l’ID visitatore prima di attivarsi (o fino a un timeout). Questo accade durante il primo caricamento della pagina per un nuovo visitatore.
 
-## mbox.js versione 59 {#section_FF0E70C4C17E402D8374DE428C5D996E}
+## mbox.js versione 59  {#section_FF0E70C4C17E402D8374DE428C5D996E}
 
 **Versione di Target:** 16.2.1
 
@@ -112,7 +112,7 @@ La versione 59 di mbox.js contiene i seguenti miglioramenti:
 
    Invece di utilizzare `display:none` per nascondere la pagina come nella versione 58, viene usato `opacity:0`. Questo risolve i problemi del metodo precedente nel nascondere la pagina per i siti reattivi.
 
-## mbox.js versione 58 {#section_5070B0D1C87F4937BB97727923DD36C7}
+## mbox.js versione 58  {#section_5070B0D1C87F4937BB97727923DD36C7}
 
 **Versione di Target:** 15.7.1
 
@@ -137,7 +137,7 @@ window.targetGlobalSettings = {
 
 La versione 58 o successiva di mbox.js esegue il contenuto non-JavaScript per la mbox globale subito dopo il tag HTML `BODY`. Il contenuto JavaScript all’interno dei tag `<script>` per la mbox globale viene eseguito dopo che l’attivazione dell’evento `DOMContentLoaded`. Questo ordine di consegna dei contenuti assicura che il contenuto JavaScript per la mbox globale sia consegnato e renderizzato correttamente.
 
-## mbox.js versione 57 {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
+## mbox.js versione 57  {#section_6BA1CDBF75B14A94B59E8624ACF583D4}
 
 **Versione di Target:** 15.4.1
 
@@ -147,7 +147,7 @@ Le seguenti modifiche sono state apportate in questa versione:
 
 * La risposta con Creazione automatica mbox globale per Target Standard non utilizza più document.write() né crea un `<div>` elemento.
 
-   This removes the requirement for the mbox.js file to be the last item in the `<head>` of the page. Ti consigliamo di effettuare un controllo qualità approfondito dopo l’aggiornamento a questa nuova versione.
+   Questo elimina il requisito che il file mbox.js sia l&#39;ultimo elemento nella `<head>` della pagina. Ti consigliamo di effettuare un controllo qualità approfondito dopo l’aggiornamento a questa nuova versione.
 
    Questa modifica potrebbe causare modifiche nel comportamento durante la distribuzione di alcuni tipi di offerta. Ecco le specifiche condizioni che dovrai considerare:
 
@@ -177,7 +177,7 @@ La versione 57 di mbox.js include anche importanti risoluzioni di problemi:
 * È stato risolto un problema che provocava errori JavaScript aggiuntivi a causa della modifica dell’ambito.
 * Ripristina le impostazioni di fabbrica di mboxFactory.
 
-## mbox.js versione 56 {#section_C4F4A53584B741FF9FD907D81CB7E164}
+## mbox.js versione 56  {#section_C4F4A53584B741FF9FD907D81CB7E164}
 
 **Versione di Target:** 15.1.2
 
