@@ -37,7 +37,7 @@ Questa sezione contiene le seguenti informazioni:
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-## Salvataggio di una raccolta avanzata {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Salvataggio di una raccolta avanzata  {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l&#39;esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
 
