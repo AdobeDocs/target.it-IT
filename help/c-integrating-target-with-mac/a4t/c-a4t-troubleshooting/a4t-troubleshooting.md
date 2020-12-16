@@ -46,7 +46,7 @@ Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite
 
 I dettagli dell’incremento e dell’affidabilità di Target non sono disponibili in Analytics. Sono, tuttavia, disponibili nei rapporti di Target.
 
-## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Le attività non vengono visualizzate nei rapporti di Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
@@ -54,7 +54,7 @@ Le attività A4T richiedono che sia stato specificato un server di tracciamento 
 >
 >Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
+## I miei segmenti di Analytics non compaiono in Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
@@ -62,26 +62,26 @@ Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a crear
 * È necessario essere membri di uno o più gruppi Experience Cloud che hanno accesso ad Analytics e a Target.
 * Verifica che Analytics e Target siano visualizzati nella sezione App marketing del menu di navigazione di sinistra.
 
-## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Questo è un problema noto.
 
 Anche se queste metriche sono negative, nei rapporti di Target l’incremento è mostrato come se fossero positive. Ad esempio, anche se si desidera una percentuale di mancato recapito più bassa, la percentuale più elevata viene visualizzata come vincitore con l’incremento più alto. Considera queste metriche e ad altre simili, e se preferisci aumentare o diminuire i numeri, quando prendi decisioni in base ai rapporti.
 
-## The report suite I need does not display. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
+## La suite di rapporti di cui ho bisogno non viene visualizzata. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-The list of report suites that appears in [!DNL Target Standard/Premium] is the list of report suites that have been configured for [!DNL Analytics] as the reporting source for [!DNL Target] (A4T). Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
+L&#39;elenco delle suite di rapporti che viene visualizzato in [!DNL Target Standard/Premium] è l&#39;elenco delle suite di rapporti configurate per [!DNL Analytics] come origine di reporting per [!DNL Target] (A4T). Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
 
-Inoltre, se utilizzi più origini di reporting, le suite di rapporti devono essere presenti anche nell&#39;origine di reporting predefinita impostata in [!DNL Target] ; in caso contrario, le suite di rapporti non verranno visualizzate.
+Inoltre, se utilizzi più origini di reporting, le suite di rapporti devono essere presenti anche nel set di origini di reporting predefinito in [!DNL Target]; in caso contrario, le suite di rapporti non verranno visualizzate.
 
-If you still don&#39;t see the report suite you are looking for, contact [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) to get it enabled.
+Se la suite di rapporti che stai cercando non è ancora visibile, contatta l&#39; [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per attivarla.
 
-## Non trovo nei rapporti la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
+## Non trovo nei rapporti la quantità di dati che mi aspettavo.  {#section_75002584FA63456D8D9086172925DD8D}
 
 Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. 
 
-* **at.js 1.x**: Nella [!DNL Target] chiamata, l’ID supplementare è contenuto nel `mboxMCSDID` parametro. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
-* **at.js 2.x**: Nella [!DNL Target] chiamata, l’ID supplementare viene restituito nell’intestazione HTTP come valore per `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
+* **at.js 1.x**: Nella  [!DNL Target] chiamata, l’ID supplementare è contenuto nel  `mboxMCSDID` parametro. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
+* **at.js 2.x**: Nella  [!DNL Target] chiamata, l’ID supplementare viene restituito nell’intestazione HTTP come valore per  `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 
 Il modo più semplice per esaminare l&#39;ID supplementare è utilizzare Adobe Experience Platform Debugger.
 
