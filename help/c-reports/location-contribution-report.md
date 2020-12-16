@@ -32,7 +32,7 @@ La seconda tabella fornisce un rapporto a livello di offerta. Mostra tasso di co
 
 ![](assets/locationcontributionbottom.png)
 
-## Video di formazione: Creare un test MVT ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare un test MVT  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Contributo posizione è descritto a partire dal minuto 8:45.
 
