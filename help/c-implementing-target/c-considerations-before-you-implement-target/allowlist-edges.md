@@ -14,11 +14,11 @@ ht-degree: 0%
 
 #  Inserire nell&#39;elenco Consentiti nodi periferici di Target
 
-Informazioni e un elenco aggiornato di ospitanti per facilitare l&#39; inserire nell&#39;elenco Consentiti dei bordi  Adobe [!DNL Target] .
+Informazioni e un elenco aggiornato di ospitanti per facilitare l&#39; inserire nell&#39;elenco Consentiti di  Adobi [!DNL Target] margini.
 
-Un edge è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo. Ogni nodo Edge contiene tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e per tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono instradate al nodo Edge più vicino. Per ulteriori informazioni, vedere [La rete](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) periferica in *Come funziona  Adobe [!DNL Target]*.
+Un edge è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo. Ogni nodo Edge contiene tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e per tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono instradate al nodo Edge più vicino. Per ulteriori informazioni, vedere [La rete periferica](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Come funziona  Adobe [!DNL Target]*.
 
-Se necessario, potete  i nodi [!DNL Target] dei bordi inserire nell&#39;elenco Consentiti.
+Se necessario, potete  inserire nell&#39;elenco Consentiti i nodi dei bordi [!DNL Target].
 
 Il seguente elenco include gli host correnti:
 
