@@ -99,7 +99,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 **Per escludere il contenuto predefinito utilizzando il Compositore di esperienza visiva:**
 
-1. While [creating or editing an AP activity](/help/c-activities/t-automated-personalization/create-ap-activity.md), select the content you want to replace and click to access **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]**, or **[!UICONTROL Change Background Color]**.
+1. Durante la creazione o la modifica di un&#39;attività AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selezionare il contenuto da sostituire e fare clic per accedere a **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** o **[!UICONTROL Change Background Color]**.[
 1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **Includi** a destra del contenuto predefinito (oppure deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
 
    A seconda del tipo di contenuto/offerta, la casella di controllo [!UICONTROL Includi] è in un percorso leggermente diverso.
