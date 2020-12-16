@@ -54,7 +54,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    | `-` | Meno |
    | `@` | Chiocciola |
 
-## Video di formazione: metriche attività (7:43) ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: metriche attività (7:43)  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
