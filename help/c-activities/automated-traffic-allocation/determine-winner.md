@@ -20,7 +20,7 @@ Molti addetti al marketing commettono l’errore di dichiarare un’esperienza v
 
 >[!NOTE]
 >
->Per informazioni generali sulla dichiarazione di un vincitore, consultate [Dieci comuni errori di test A/B e come evitarli](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Per informazioni generali sulla dichiarazione di un vincitore, vedere [Dieci comuni errori di test A/B e come evitarli](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identificare l&#39;esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -36,7 +36,7 @@ Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la sc
 >
 >Le attività di Allocazione automatica sono progettate per trovare la migliore esperienza tra tutte le opzioni e non solo per fare confronti in coppia con il controllo.
 
-## Statistical guarantees of Auto-Allocate {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
+## Garanzie statistiche di allocazione automatica {#section_7AF3B93E90BA4B80BC9FC4783B6A389C}
 
 Al termine di un&#39;attività A/B, Allocazione automatica garantisce che il vincitore determinato abbia un tasso di falso positivo efficace del 5%. Questo significa che solo per il 5% del tempo, il vincitore determinato non è in realtà la migliore esperienza tra tutte le esperienze nell&#39;attività. Per un test A/A (con esperienze identiche), concludiamo un test inferiore al 5% del tempo. Il comportamento previsto per un test A/A (con esperienze identiche) è l&#39;esecuzione indefinita e quindi il badge del vincitore non dovrebbe mai apparire.
 
@@ -48,7 +48,7 @@ I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Alloca
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati della  calcolatrice [delle dimensioni del](https://docs.adobe.com/content/target-microsite/testcalculator.html)campione Adobe Target. In Target non vengono considerati i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Sample Size Calculator](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6)(Calcolatore dimensioni campione).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati del  Adobe Target [calcolatore dimensioni campione](https://docs.adobe.com/content/target-microsite/testcalculator.html). In Target non vengono considerati i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell&#39;attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, vedere [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprendere i rapporti Lift and Confidence nelle attività Auto Allocate {#lift-confidence}
 
@@ -74,6 +74,6 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
    L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di confidenza vengono generalmente visualizzati in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). To determine how long a normal A/B test would run, please use a [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html): plug control&#39;s conversion-rate in &quot;Baseline conversion rate,&quot; &quot;5%&quot; for &quot;Lift,&quot; and 95% for &quot;Confidence.&quot; In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
+* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di confidenza vengono generalmente visualizzati in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo dovrebbe durare un normale test A/B, utilizzare un [calcolatore delle dimensioni del campione](https://docs.adobe.com/content/target-microsite/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione previsto&quot;, &quot;5%&quot; per &quot;Lift&quot; e &quot;95% per &quot;Confidence&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
 
