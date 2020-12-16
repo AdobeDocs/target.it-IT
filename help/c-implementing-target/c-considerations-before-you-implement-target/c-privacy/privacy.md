@@ -20,7 +20,7 @@ In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l�
 
 L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
 
-## Replacement of last octet of IP addresses {#section_AE84EB0D7CE04E93B279B77732ADD61E}
+## Sostituzione dell&#39;ultimo ottetto degli indirizzi IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
 Adobe ha sviluppato una nuova impostazione “privacy by design”, che può essere abilitata dall’Assistenza clienti di Adobe per Adobe Target. Quando questa impostazione è abilitata, l’ultimo ottetto (l’ultima parte) dell’indirizzo IP viene immediatamente oscurato quando l’indirizzo IP viene raccolto da Adobe. Questa forma di anonimizzazione viene eseguita prima di qualsiasi elaborazione dell’indirizzo IP, inclusa l’operazione di lookup geografico.
 
@@ -36,7 +36,7 @@ Target riceve l&#39;indirizzo IP completo e lo oscura (se impostato su Last otte
 
 >[!NOTE]
 >
->[Contatta  Adobe Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per determinare quale impostazione stai utilizzando o per abilitare la funzione di offuscamento dell&#39;IP.
+>[Contatta  Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Carte per determinare quale impostazione stai utilizzando o per abilitare la funzione di offuscamento dell&#39;IP.
 
 ## Geosegmentazione {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -44,7 +44,7 @@ Se attivi l’oscuramento dell’ultimo ottetto dell’indirizzo IP, i restanti 
 
 Se gli indirizzi IP sono completamente offuscati, GeoSegmentation e il target geografico non sono disponibili.
 
-## Opt-out link {#section_E7A62B7B99C94B3A806CB262D16E27FC}
+## Collegamento di rifiuto {#section_E7A62B7B99C94B3A806CB262D16E27FC}
 
 Puoi aggiungere un collegamento di rinuncia ai siti per consentire ai visitatori di rinunciare a tutte le operazioni di conteggio e di distribuzione dei contenuti.
 
@@ -59,4 +59,4 @@ Anche se utilizzi un’implementazione di cookie di prima parte, la rinuncia vie
 
 ## Normative sulla privacy e la protezione dei dati
 
-See [Privacy and data protection regulations](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) for information about the European Union&#39;s General Data Protection Regulation (GDPR), the California Consumer Privacy Act (CCPA), and other international privacy requirements, and how these regulations impact your organization and Adobe Target.
+Per informazioni sul Regolamento generale sulla protezione dei dati (General Data Protection Regulation, GDPR) dell&#39;Unione Europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali sulla privacy, vedere [Le normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) e vedere in che modo queste normative influiscono sulla tua organizzazione e  Adobe Target.
