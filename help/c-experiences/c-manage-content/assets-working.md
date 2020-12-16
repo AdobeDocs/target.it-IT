@@ -36,7 +36,7 @@ Informazioni sulle attività eseguibili su una risorsa della Libreria dei conten
 
 1. Per modificare l’immagine che rappresenta un elemento della libreria, fai clic sull’elemento, quindi fai clic sull’icona **[!UICONTROL Proprietà]**, poi su **[!UICONTROL Modifica]** e aggiungi un’immagine.
 
-## Video di formazione: Il contrassegno ![Panoramica archivio dei contenuti](/help/assets/overview.png)
+## Video di formazione: Il contrassegno Panoramica dell&#39;archivio dei contenuti ![a1/>](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto. (4:56)
 
