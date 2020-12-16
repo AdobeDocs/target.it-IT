@@ -12,13 +12,13 @@ ht-degree: 71%
 ---
 
 
-# ![Risoluzione dei problemi e domande frequenti relativi a PREMIUM](/help/assets/premium.png) Auto-Target
+# ![Risoluzione dei problemi e domande frequenti su ](/help/assets/premium.png) PREMIUMAuto-Target
 
 Risoluzione dei problemi e domande frequenti su [!UICONTROL Auto-Target] in [!DNL Adobe Target].
 
 ## Domande frequenti sul Targeting automatico {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultate le seguenti domande frequenti e risposte mentre lavorate con le attività di [!UICONTROL Auto-Target] :
+Consultate le seguenti domande frequenti e risposte durante l&#39;utilizzo delle attività di [!UICONTROL Auto-Target]:
 
 ### Quali sono le procedure consigliate per impostare un’attività di [!UICONTROL Targeting automatico]?
 
@@ -72,14 +72,14 @@ Se desideri apportare modifiche sostanziali al contenuto nell’attività di [!U
 
 ### Quanto tempo devo aspettare per la generazione dei modelli? {#how-long}
 
-The length of time it takes for models to build in your [!UICONTROL Auto-Target] activity typically depends on the traffic to your selected activity location(s) and conversion rates associated with you activity success metric.
+Il tempo necessario per la creazione dei modelli nell&#39;attività [!UICONTROL Auto-Target] dipende in genere dal traffico nelle posizioni dell&#39;attività selezionate e dai tassi di conversione associati alla metrica di successo dell&#39;attività.
 
-[!UICONTROL Auto-Target] non tenterà di creare un modello personalizzato per una determinata esperienza finché non ci saranno almeno 50 conversioni per tale esperienza. Inoltre, se il modello costruito è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; del blocco, utilizzando [una metrica nota come AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non sarà utilizzato per servire il traffico in modo personalizzato.
+[!UICONTROL Il ] targeting automatico non tenterà di creare un modello personalizzato per una determinata esperienza fino a quando non ci saranno almeno 50 conversioni per tale esperienza. Inoltre, se il modello costruito è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; del blocco, utilizzando [una metrica nota come AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non sarà utilizzato per servire il traffico in modo personalizzato.
 
 Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Auto-Target]:
 
-* Una volta che un&#39;attività è live, [!UICONTROL Auto-Target] considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando si tenta di creare modelli (ovvero controllare il traffico, più alcuni dati serviti in modo casuale aggiuntivi conservati dal nostro algoritmo).
-* Quando [!UICONTROL Revenue per Visit (Entrate per visita] ) è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate delle visite rispetto al tasso di conversione.
+* Una volta che un&#39;attività è live, [!UICONTROL Auto-Target] considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando si tenta di creare modelli (ad esempio, controllare il traffico, più alcuni dati serviti in modo casuale aggiuntivi conservati dal nostro algoritmo).
+* Quando [!UICONTROL Revenue per Visit] è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate da visita rispetto al tasso di conversione.
 * Poiché i modelli sono basati su un&#39;esperienza specifica, sostituire un&#39;esperienza con un&#39;altra significa che è necessario raccogliere il traffico sufficiente (ovvero almeno 50 conversioni) per la nuova esperienza prima di poter ricostruire i modelli personalizzati.
 
 ### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? 
@@ -100,13 +100,13 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 
 ### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di targeting automatico? {#change-metric}
 
-Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Anche se è possibile modificare la metrica dell&#39;obiettivo durante un&#39;attività utilizzando l&#39; [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
+Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Sebbene sia possibile modificare la metrica di obiettivo durante un&#39;attività utilizzando l&#39;interfaccia utente [!DNL Target], è comunque necessario avviare sempre una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target]e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL  Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
 
 ### Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di targeting automatico?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività di [!UICONTROL Auto-Target] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target] . Anziché utilizzare l&#39;opzione [!UICONTROL Ripristina dati] rapporto per le attività [!UICONTROL Auto-Target] , create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Automated Personalization] .
+Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target]. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target]. Invece di utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target], create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL  Automated Personalization].
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
