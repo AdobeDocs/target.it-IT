@@ -89,7 +89,7 @@ La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asi
 
 Per caricare at.js in modo asincrono:
 
-* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). See the [Add Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) lesson of the [Implementing the Experience Cloud in Websites with Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) tutorial for more information.
+* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). Per ulteriori informazioni, vedere la lezione [Aggiungi  Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) relativa all&#39;implementazione del Experience Cloud  in Siti Web con l&#39;esercitazione Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).[
 * Puoi anche caricare at.js in modo asincrono aggiungendo l’attributo async al tag script che carica at.js. Dovresti usare qualcosa del genere:
 
    ```
@@ -109,7 +109,7 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 Puoi evitare sfarfallii utilizzando uno snippet che nasconde preventivamente la pagina (o porzioni specificate), quindi la rivela dopo che at.js e la richiesta globale sono completamente caricate. Lo snippet deve essere aggiunto prima del caricamento di at.js.
 
-If you are deploying at.js through an asynchronous Launch implementation, be sure to include the pre-hiding snippet directly on your pages, before the Launch Embed code, as described in the [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) section of the [Implementing the Experience Cloud in Websites with Launch tutorial](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Se distribuite at.js tramite un&#39;implementazione di Launch asincrona, accertatevi di includere lo snippet di pre-occultamento direttamente sulle pagine, prima del codice di incorporamento di Launch, come descritto nella sezione [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) della sezione [Implementazione del Experience Cloud  in Siti Web con l&#39;esercitazione di Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Durante l’implementazione di at.js tramite un’implementazione sincrona di DTM, puoi aggiungere lo snippet tramite una regola di caricamento della pagina attivata nella parte superiore della pagina.
 
@@ -223,7 +223,7 @@ HttpOnly può essere impostato solo tramite codice basato su server. I cookie Ta
 
 Per garantire che Target possa correttamente tenere traccia degli utenti e per far sì che i cookie vengano generati dal lato del cliente, Target non utilizza nessuno di questi flag.
 
-## Con quale frequenza at.js attiva una richiesta di rete? {#section_57C5235DF7694AF093A845D73EABADFD}
+## Con quale frequenza at.js attiva una richiesta di rete?  {#section_57C5235DF7694AF093A845D73EABADFD}
 
 Adobe Target esegue tutte le sue decisioni sul lato server. Ciò significa che at.js at.js genera una richiesta di rete ogni volta che la pagina si ricarica o viene richiamata un&#39;API pubblica di at.js.
 
@@ -231,7 +231,7 @@ Adobe Target esegue tutte le sue decisioni sul lato server. Ciò significa che a
 
 at.js cerca di evitare di nascondere anticipatamente HTML BODY o altri elementi DOM per un periodo di tempo prolungato, ma ciò dipende dalle condizioni di rete e dalla configurazione dell&#39;attività. at.js offre [impostazioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) che è possibile utilizzare per personalizzare lo stile CSS per nascondere il BODY, in modo tale che invece di svuotare l’intero BODY HTML sia possibile nascondere anticipatamente solo alcune parti della pagina. L&#39;aspettativa è che quelle parti contengano elementi DOM che devono essere “personalizzati”.
 
-## Qual è la sequenza di eventi in uno scenario medio in cui un utente si qualifica per un’attività? {#section_56E6F448E901403FB77DF02F44C44452}
+## Qual è la sequenza di eventi in uno scenario medio in cui un utente si qualifica per un’attività?  {#section_56E6F448E901403FB77DF02F44C44452}
 
 La richiesta at.js è un `XMLHttpRequest` asincrono, quindi eseguiamo i seguenti passaggi:
 
@@ -251,11 +251,11 @@ Considerando lo scenario precedente, quanto spesso il contenuto della pagina è 
 
 at.js non blocca il rendering della pagina. Un utente potrebbe notare alcune aree vuote nella pagina che rappresentano elementi che verranno personalizzati da Target. Se il contenuto da applicare non contiene molte risorse remote, come SCRIPT o IMG, il rendering dovrebbe essere eseguito rapidamente.
 
-## In che modo una pagina interamente salvata nella cache influirà sullo scenario precedente? Sarebbe più probabile che il contenuto dell’attività diventi visibile notevolmente dopo il caricamento del resto del contenuto della pagina? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
+## In che modo una pagina interamente salvata nella cache influirà sullo scenario precedente? Sarebbe più probabile che il contenuto dell’attività diventi visibile notevolmente dopo il caricamento del resto del contenuto della pagina?  {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
 Se una pagina viene salvata nella cache in una rete CDN vicina alla posizione dell&#39;utente, ma non vicina a Target Edge, l&#39;utente potrebbe vedere alcuni ritardi. I Target Edge sono ben distribuiti in tutto il mondo, quindi nella maggior parte dei casi questo non è un problema.
 
-## È possibile che un’immagine protagonista venga visualizzata e poi scambiata dopo un breve ritardo? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
+## È possibile che un’immagine protagonista venga visualizzata e poi scambiata dopo un breve ritardo?  {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Considerando lo scenario seguente:
 
