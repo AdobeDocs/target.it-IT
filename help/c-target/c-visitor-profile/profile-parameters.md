@@ -22,7 +22,7 @@ Quando un visitatore naviga nel sito Web o quando il visitatore ritorna per un�
 
 Per impostare gli attributi di profilo:
 
-1. Fate clic su **[!UICONTROL Audiences]** (Audience) > **[!UICONTROL Profile Scripts (Script di profilo).]**
+1. Fare clic su **[!UICONTROL Audience]** > **[!UICONTROL Script di profilo.]**
 
    ![Scheda Script di profilo](/help/c-target/c-visitor-profile/assets/profile-scripts.png)
 
@@ -53,7 +53,7 @@ Per aggiungere un nuovo script di profilo, fai clic sulla scheda **[!UICONTROL S
 
 Oppure
 
-To copy an existing profile script, from the [!UICONTROL Profile Scripts] list, hover over the desired script, then click the **[!UICONTROL Copy]** icon: ![copy icon](/help/c-target/c-visitor-profile/assets/icon_copy.png)
+Per copiare uno script di profilo esistente, dall&#39;elenco [!UICONTROL Script di profilo], passare il mouse sullo script desiderato, quindi fare clic sull&#39;icona **[!UICONTROL Copia]**: ![icona Copia](/help/c-target/c-visitor-profile/assets/icon_copy.png)
 
 Ora puoi modificare il pubblico per crearne uno simile.
 
@@ -143,9 +143,9 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
    * Evitate espressioni regolari o utilizzate solo espressioni regolari molto semplici. Anche le espressioni semplici possono richiedere molte istruzioni da valutare.
    * Evitare la ricorsione.
    * Gli script di profilo devono essere sottoposti a test delle prestazioni prima di essere aggiunti a Target. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l&#39;esecuzione delle richieste mbox richiederà più tempo. Ciò potrebbe influire sul traffico e sulla conversione.
-   * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token [di](/help/administrating-target/response-tokens.md) risposta.
+   * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare i token di risposta [](/help/administrating-target/response-tokens.md).
 
-* See the JS Rhino engine documentation for more information: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Per ulteriori informazioni, consulta la documentazione del motore JS Rhino: [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
 
 ## Debug degli script di profilo {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
@@ -157,7 +157,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Aggiungi script di profilo come token di risposta per eseguire il debug degli script di profilo:**
 
-   In Target, click **[!UICONTROL Administration]**, click **[!UICONTROL Response Tokens]**, then enable the profile script you want to debug.
+   In Target, fare clic su **[!UICONTROL Amministrazione]**, fare clic su **[!UICONTROL Token di risposta]**, quindi abilitare lo script di profilo di cui si desidera eseguire il debug.
 
    Ogni volta che carichi una pagina del sito con Target, una parte della risposta di Target conterrà il valore dello script di profilo specificato, come illustrato di seguito:
 
@@ -165,7 +165,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Utilizza lo strumento di debug mboxTrace per eseguire il debug degli script di profilo.**
 
-   This method requires an authorization token that you can generate by clicking **[!UICONTROL Target]** > **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Generate Authorization Token]** in the [!UICONTROL Debugger tools] section.
+   Questo metodo richiede un token di autorizzazione che è possibile generare facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Genera token di autorizzazione]** nella sezione [!UICONTROL Strumenti debugger].
 
    Poi aggiungi questi due parametri all&#39;URL della tua pagina dopo il &quot;?&quot;: `mboxTrace=window&authorization=YOURTOKEN`.
 
@@ -181,7 +181,8 @@ Gli script di profilo non sono in grado di leggere la pagina direttamente poich�
 
 ## Riferimento JavaScript per parametri del profilo di script
 
-È necessaria una semplice conoscenza JavaScript per utilizzare efficacemente i parametri dei profili di script. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
+È necessaria una semplice conoscenza JavaScript per utilizzare efficacemente il profilo di script
+parametri. Questa sezione serve come riferimento rapido per consentirti di utilizzare questa funzionalità in pochi minuti.
 
 I parametri del profilo di script si trovano nella scheda mbox/profiles. È possibile scrivere programmi JavaScript che restituiscono qualsiasi tipo di valore JavaScript (stringa, numero intero, array e così via).
 
@@ -211,7 +212,7 @@ if (mbox.name == 'orderThankyouPage') {
 }
 ```
 
-Creates a variable called `frequency`, initializing it to either the previous value or 0, if there was no previous value. Se il nome della mbox è `orderThankyouPage`, viene restituito il valore incrementale.
+Crea una variabile denominata `frequency`, inizializzandola sul valore precedente o su 0, se non è presente alcun valore precedente. Se il nome della mbox è `orderThankyouPage`, viene restituito il valore incrementale.
 
 **Nome:** *user.monetaryValue*
 
@@ -235,7 +236,7 @@ else if (mbox.param("adobeQA"))
      return mbox.param("adobeQA");
 ```
 
-Crea una variabile chiamata `adobeQA` per monitorare un utente per il QA [dell&#39;](/help/c-activities/c-activity-qa/activity-qa.md)attività.
+Crea una variabile denominata `adobeQA` per monitorare un utente per [Activity QA](/help/c-activities/c-activity-qa/activity-qa.md).
 
 ### Oggetti e metodi
 
@@ -252,7 +253,7 @@ I parametri del profilo di script possono fare riferimento alle proprietà e ai 
 | `landing.url`, `landing.protocol`, `landing.query` e `landing.param` | Simile a quella della pagina, ma per la pagina di destinazione. |
 | `mbox.name` | Il nome della mbox attiva. |
 | `mbox.param(‘<par_name>’)` | Un parametro mbox in base al nome specificato nella mbox attiva. |
-| `profile.get(‘<par_name>’)` | Il parametro del profilo utente creato dal client in base al nome `<par_name>`. Ad esempio, se l’utente imposta un parametro di profilo denominato “gender”, il valore può essere estratto utilizzando “profile.gender”. Restituisce il valore del “`profile.<par_name>`” impostato per il visitatore corrente; restituisce null se non è stato impostato alcun valore. Nota che `profile.get(<par_name>)` è qualificata come chiamata di funzione. |
+| `profile.get(‘<par_name>’)` | Il parametro del profilo utente creato dal client in base al nome `<par_name>`. Ad esempio, se l’utente imposta un parametro di profilo denominato “gender”, il valore può essere estratto utilizzando “profile.gender”. Restituisce il valore del “`profile.<par_name>`” impostato per il visitatore corrente; restituisce null se non è stato impostato alcun valore. Tenere presente che `profile.get(<par_name>)` è qualificato come chiamata di funzione. |
 | `user.get(‘<par_name>’)` | Restituisce il valore del “`user.<par_name>`” impostato per il visitatore corrente; restituisce null se non è stato impostato alcun valore. |
 | `user.categoryAffinity` | Restituisce il nome della categoria migliore. |
 | `user.categoryAffinities` | Restituisce un array con le categorie migliori. |
@@ -276,7 +277,7 @@ Tutti gli operatori JavaScript standard sono presenti e utilizzabili. Gli operat
 | `||` | Stabilisce una relazione logica di tipo “OR” tra le espressioni alla sua sinistra e alla sua desta: restituisce true solo quando una delle parti è vera (in caso contrario restituisce false). |
 | `//` | Controlla se la sorgente contiene tutti gli elementi del formato booleano di destinazione (origine Array, destinazione Array).<br>`//` estrae la sottostringa dalla destinazione (corrispondente a regexp) e la decodifica `Array/*String*/ decode(String encoding, String regexp, String target)`.<br>La funzione supporta anche l’uso di valori stringa costanti, raggruppamenti (`condition1 || condition2) && condition3` ed espressioni regolari (`/[^a-z]$/.test(landing.referring.url)`. |
 
-## Video di formazione: Badge ![Esercitazione script profilo](/help/assets/tutorial.png)
+## Video di formazione: Script di profilo ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sull&#39;utilizzo e sulla creazione degli script di profilo.
 
