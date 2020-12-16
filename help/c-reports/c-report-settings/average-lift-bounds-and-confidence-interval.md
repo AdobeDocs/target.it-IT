@@ -14,19 +14,19 @@ ht-degree: 73%
 
 # Incremento medio, limiti di incremento e intervallo di affidabilità
 
-I rapporti includono diversi punti dati e rappresentazioni delle visualizzazioni che consentono di comprendere meglio i limiti di incremento e il livello di confidenza associati all&#39; [!DNL Adobe Target] attività per determinare in modo più accurato il vincitore.
+I rapporti includono diversi punti dati e rappresentazioni delle visualizzazioni che consentono di comprendere meglio i limiti di incremento e il livello di confidenza associati all&#39;attività [!DNL Adobe Target] per determinare con maggiore precisione un vincitore.
 
 >[!NOTE]
 >
->This feature is available only when viewing reports in [!UICONTROL Table] View. Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Questa funzione è disponibile solo quando si visualizzano i rapporti in [!UICONTROL Tabella] Vista. Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Interpretare i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## Interpreta i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-The following illustration shows [!UICONTROL Lift Bounds and Confidence Level] information:
+L&#39;illustrazione seguente mostra le informazioni relative a [!UICONTROL Limiti di incremento e livello di confidenza]:
 
 ![Rapporto di incremento medio e livello di affidabilità](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-The lift and confidence information in the [!DNL Target] reporting UI includes:
+Le informazioni relative all&#39;incremento e alla confidenza nell&#39;interfaccia [!DNL Target] per il reporting includono:
 
 ### Incremento
 
@@ -34,13 +34,13 @@ Il numero elevato e la freccia riflettono il valore atteso dell’incremento. Qu
 
 ### Limiti di incremento
 
-Intervallo di affidabilità dell’incremento del 95%. Viene visualizzato come un intervallo, sotto all’incremento medio. See [Example calculation](#example) below for an example of how these lift bounds are calculated.
+Intervallo di affidabilità dell’incremento del 95%. Viene visualizzato come un intervallo, sotto all’incremento medio. Per un esempio di come vengono calcolati i limiti dell&#39;incremento, vedere [Esempio di calcolo](#example) di seguito.
 
 ### Grafico Boxplot
 
-The boxplot graph in the [!DNL Target] interface represents the expected value and 95% confidence interval of the success metric in question. Immaginalo come una modalità grafica per visualizzare le informazioni sull’incremento e i suoi limiti.
+Il grafico a boxplot nell&#39;interfaccia [!DNL Target] rappresenta il valore previsto e l&#39;intervallo di confidenza del 95% della metrica di successo in questione. Immaginalo come una modalità grafica per visualizzare le informazioni sull’incremento e i suoi limiti.
 
-There are a few key ways [!DNL Target] helps you interpret the confidence information, one of which is color. Nel grafico, la sovrapposizione tra l’intervallo di affidabilità di un’esperienza specifica e l’intervallo di affidabilità del controllo è indicata in grigio. L’intervallo di affidabilità di un’esperienza specifica superiore o inferiore rispetto a quello del controllo viene invece indicato rispettivamente in verde o rosso.
+Esistono alcuni modi principali [!DNL Target] per interpretare le informazioni sulla confidenza, uno dei quali è il colore. Nel grafico, la sovrapposizione tra l’intervallo di affidabilità di un’esperienza specifica e l’intervallo di affidabilità del controllo è indicata in grigio. L’intervallo di affidabilità di un’esperienza specifica superiore o inferiore rispetto a quello del controllo viene invece indicato rispettivamente in verde o rosso.
 
 La lunghezza della barra box plot rappresenta in modo immediato la grandezza dell’intervallo di affidabilità. A seconda dei dati che vengono raccolti nell’attività, la barra si sposta e cambia. L’intervallo di affidabilità è derivato dalla varianza e dalla dimensione del campione (numero di visitatori). Minore è la varianza e maggiore è la dimensione del campione, più ridotto sarà l’intervallo di affidabilità.
 
@@ -48,7 +48,7 @@ La lunghezza della barra box plot rappresenta in modo immediato la grandezza del
 
 L’affidabilità di un’esperienza o di un’offerta rappresenta la probabilità che l’incremento dell’esperienza o dell’offerta a essa associata rispetto all’esperienza o all’offerta di controllo sia “reale” (non casuale). Tipicamente, 95% è il livello consigliato di affidabilità per considerare l’incremento significativo.
 
-## How are lift bounds calculated? {#section_1D360781D972483693680BE0F07AEAD1}
+## Come vengono calcolati i limiti dell&#39;incremento? {#section_1D360781D972483693680BE0F07AEAD1}
 
 I limiti di incremento rappresentano gli intervalli di affidabilità al 95% dell’incremento per l’esperienza o l’offerta specifica rispetto all’esperienza o all’offerta di controllo. In altre parole, significa che l’incremento reale ha circa il 95% di probabilità di essere compreso tra questi limiti.
 
@@ -71,7 +71,7 @@ Vi sono dei calcoli aggiuntivi per ottenere l’input per i limiti di incremento
    >
    >L’errore standard per le attività con metriche di successo sul ricavo si basa sulla varianza dei ricavi del campione.
 
-## Example calculation {#example}
+## Esempio di calcolo {#example}
 
 Consideriamo un’attività di esempio con due esperienze e i seguenti risultati:
 
@@ -106,11 +106,11 @@ Pertanto, i limiti di incremento per l’esperienza B saranno:
 
 >[!NOTE]
 >
->Potrebbero esserci lievi varianze tra i calcoli manuali svolti utilizzando le formule di cui sopra e i numeri visualizzati nel rapporto. La differenza può essere attribuita al fatto che i numeri delle visualizzazioni di pagina utilizzati nei calcoli manuali sono arrotondati. The lift shown in the [!DNL Target] report is based on the exact numbers obtained from the total engagement and the engagement count. I numeri di coinvolgimento possono essere ottenuti tramite l&#39;API di rapporto sulle prestazioni.
+>Potrebbero esserci lievi varianze tra i calcoli manuali svolti utilizzando le formule di cui sopra e i numeri visualizzati nel rapporto. La differenza può essere attribuita al fatto che i numeri delle visualizzazioni di pagina utilizzati nei calcoli manuali sono arrotondati. L&#39;incremento mostrato nel report [!DNL Target] si basa sui numeri esatti ottenuti dal coinvolgimento totale e dal conteggio del coinvolgimento. I numeri di coinvolgimento possono essere ottenuti tramite l&#39;API di rapporto sulle prestazioni.
 
-## When Are lift bounds not displayed? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Quando non vengono visualizzati i limiti di incremento? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
-In certain cases, [!DNL Target] does not display lift bounds:
+In alcuni casi, [!DNL Target] non visualizza i limiti di incremento:
 
 * Per qualsiasi attività, quando il numero totale di visite o visitatori è inferiore a 30.
-* For [!UICONTROL Auto-Allocate] activities, no lift bounds are displayed until one experience has attained 60% confidence.
+* Per le attività [!UICONTROL Allocazione automatica], non vengono visualizzati limiti di incremento finché un&#39;esperienza non raggiunge un livello di confidenza del 60%.
