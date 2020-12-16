@@ -33,7 +33,7 @@ Diversi problemi possono influenzare le prestazioni della pagina nei compositori
 
 Se si verificano problemi con il Compositore esperienza avanzato, prova a disattivarlo e utilizza invece il Compositore esperienza visivo.
 
-To disable the Enhanced Experience Composer, go to **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** and turn off the **[!UICONTROL Enable Enhanced Experience Composer]** option.
+Per disabilitare Enhanced Experience Composer (Compositore esperienza avanzato), andate a **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]** e disattivate l&#39;opzione **[!UICONTROL Abilita Enhanced Experience Composer]**.
 
 Alcuni utenti visualizzano il seguente messaggio di errore nella console:
 
