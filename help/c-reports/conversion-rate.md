@@ -102,11 +102,11 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 * **Dimensione del campione:** al crescere del campione l’intervallo si ridurrà. Questo rapporto è quello preferenziale, perché indica che i rapporti si avvicinano al valore effettivo della metrica di successo.
 * **Deviazione standard più piccola:** più risultati simili, come AOV simili o numeri simili o visitatori con conversioni ogni giorno, riducono la deviazione standard.
 
-## Calcolo dell’affidabilità e modalità di esecuzione offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcolo dell’affidabilità e modalità di esecuzione offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Il [rapporto CSV scaricato](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-To calculate these calculated metrics, download the Target&#39;s [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) Excel file to input the activity&#39;s value, or review the [statistical calculations used by Target](/help/assets/statistical-calculations.pdf).
+Per calcolare queste metriche calcolate, scaricate il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività, oppure rivedete i [calcoli statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
