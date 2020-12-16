@@ -14,7 +14,7 @@ ht-degree: 88%
 
 # Funzionamento di at.js{#how-at-js-works}
 
-To implement [!DNL Adobe Target] client-side, you must use the at.js JavaScript library.
+Per implementare [!DNL Adobe Target] lato client, è necessario utilizzare la libreria JavaScript at.js.
 
 In un’implementazione lato client di [!DNL Adobe Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md)) o un’interfaccia non visiva (il [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md)) per creare esperienze di test e personalizzazione.
 
@@ -24,7 +24,7 @@ la [libreria at.js](/help/c-implementing-target/c-implementing-target-for-client
 
 Per ulteriori informazioni, consulta [Librerie JavaScript di Target](/help/c-intro/how-target-works.md#libraries).
 
-In the [!DNL Target] implementation illustrated below, the following [!DNL Adobe Experience Cloud] solutions are implemented: Analytics, Target, and Audience Manager. Inoltre, sono implementati i seguenti servizi principali di Experience Cloud: Adobe Launch, Audiences e Servizio ID visitatore.
+Nell&#39;implementazione [!DNL Target] illustrata di seguito, vengono implementate le soluzioni [!DNL Adobe Experience Cloud] seguenti: Analytics, Target e  Audience Manager. Inoltre, sono implementati i seguenti servizi principali di Experience Cloud: Adobe Launch, Audiences e Servizio ID visitatore.
 
 ## Qual è la differenza tra at.js 1.*x* e di at.js 2.x?
 
@@ -48,7 +48,7 @@ I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x t
 | 3 | Si effettua una richiesta di caricamento della pagina, con tutti i parametri configurati (MCID, SDID e ID cliente). |
 | 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede un pubblico idoneo dalla libreria Pubblico (ad esempio, pubblico condiviso da Adobe Analytics, Audience Manager, ecc.).<br>Gli attributi del cliente vengono inviati all’archivio profili in un processo batch. |
 | 5 | In base ai parametri di richiesta dell’URL e ai dati di profilo, [!DNL Target] determina le attività ed esperienze da restituire al visitatore per la pagina corrente e le visualizzazioni future. |
-| 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>Il contenuto mirato sulla pagina corrente viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito.<br>Il contenuto di destinazione per le viste visualizzate come risultato delle azioni dell&#39;utente in un SPA viene memorizzato nella cache del browser in modo che possa essere applicato immediatamente senza una chiamata server aggiuntiva quando le viste vengono attivate `triggerView()`. |
+| 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>Il contenuto mirato sulla pagina corrente viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito.<br>Il contenuto di destinazione per le viste visualizzate come risultato delle azioni dell&#39;utente in un SPA viene memorizzato nella cache del browser in modo che possa essere applicato immediatamente senza una chiamata server aggiuntiva quando le viste vengono attivate  `triggerView()`. |
 | 7 | I dati Analytics vengono inviati ai server di raccolta dati. |
 | 8 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID ed elaborati nell’archivio dei rapporti di Analytics.<br>I dati di Analytics possono quindi essere visualizzati sia in Analytics che in Target tramite i rapporti Analytics for Target (A4T). |
 
@@ -60,7 +60,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | --- | --- |
 | 1 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
 | 2 | Il contenuto mirato per la visualizzazione viene letto dalla cache. |
-| 3 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
+| 1 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 4 | Si invia la richiesta di notifica all&#39;archivio profili di [!DNL Target] per conteggiare il visitatore nell&#39;attività e nelle metriche incrementali. |
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
@@ -71,7 +71,7 @@ at.js 2.x migliora il supporto di Adobe Target per le applicazioni a pagina sing
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) di at.js 2.x.
+Per ulteriori informazioni, vedere [Come funziona at.js 2.x](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html).
 
 ## Diagramma di at.js 1.x
 
@@ -79,7 +79,7 @@ Per ulteriori informazioni, consulta [Informazioni sul funzionamento](https://he
 
 | Passaggio | Descrizione | Chiamata | Descrizione |
 |--- |--- |--- |--- |
-| 1 | La chiamata restituisce l’[!DNL Experience Cloud ID] (MCID) se l’utente è autenticato; un’altra chiamata sincronizza l’ID cliente. | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento. |
+| 3 | La chiamata restituisce l’[!DNL Experience Cloud ID] (MCID) se l’utente è autenticato; un’altra chiamata sincronizza l’ID cliente. | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento. |
 | 3 | Viene effettuata una richiesta mbox globale, con tutti i parametri configurati, MCID, SDID e ID cliente (facoltativo). | 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede tipi di pubblico idonei dalla [!UICONTROL libreria Pubblico] (ad esempio, audience condivisi da [!DNL Adobe Analytics], [!DNL Audience Manager], ecc.).<br>Gli attributi del cliente vengono inviati al [!DNL Profile Store] in un processo batch. |
 | 5 | In base all’URL, ai parametri mbox e ai dati di profilo, [!DNL Target] decide quali attività ed esperienze restituire al visitatore. | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>L’esperienza viene mostrata il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 7 | I dati [!DNL Analytics] vengono inviati ai server di raccolta dati. | 8 | I dati di [!DNL Target] vengono confrontati con i dati di [!DNL Analytics] tramite SDID e vengono elaborati nell’archivio dei rapporti di [!DNL Analytics].<br>[!DNL Analytics]I dati di  possono quindi essere visualizzati sia in [!DNL Analytics] che in [!DNL Target] tramite i rapporti [!DNL Analytics for Target] (A4T). |
