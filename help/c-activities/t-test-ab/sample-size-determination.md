@@ -14,35 +14,35 @@ ht-degree: 75%
 
 # Per quanto tempo si deve eseguire un test A/B?
 
-A successful [!UICONTROL A/B Test] activity requires an adequate number of visitors (sample size) to improve your conversion rate, but how do you know how long to run an A/B test? This article contains information about [!UICONTROL Auto-Allocate] activities and the [!UICONTROL Adobe Target] Sample Size Calculator to help you ensure that your activity has a sufficient number of visitors to achieve your goals.
+Un&#39;attività [!UICONTROL A/B Test] di successo richiede un numero adeguato di visitatori (dimensione del campione) per migliorare il tasso di conversione, ma come sai per quanto tempo eseguire un test A/B? Questo articolo contiene informazioni sulle attività [!UICONTROL Auto-Allocate] e sul [!UICONTROL  Adobe Target] Sample Size Calculator (Utilità di calcolo dimensioni campione) per garantire che l&#39;attività disponga di un numero sufficiente di visitatori per raggiungere gli obiettivi.
 
 Si potrebbe essere tentati di interrompere un&#39;attività se nei primi giorni dell’attività, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che l’attività raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
 >[!IMPORTANT]
 >
->L&#39;arresto prematuro di un&#39;attività è uno dei dieci errori significativi a cui potresti essere vittima durante l&#39;esecuzione di test A/B. Per ulteriori informazioni, vedete [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
+>L&#39;arresto prematuro di un&#39;attività è uno dei dieci errori significativi a cui potresti essere vittima durante l&#39;esecuzione di test A/B. Per ulteriori informazioni, vedere [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md#concept_578A7947C9554868B30F12DFF9E3F8E3).
 
 [!DNL Target] fornisce strumenti per garantire che l&#39;attività disponga di dimensioni di esempio sufficienti per raggiungere gli obiettivi di conversione: Allocazione automatica.
 
 ## Allocazione automatica {#auto-allocate}
 
-An [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) activity is a type of A/B test that identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn.
+Un&#39;attività [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) è un tipo di test A/B che identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore per aumentare le conversioni mentre il test continua a essere eseguito e imparare.
 
 I test A/B standard hanno un costo intrinseco. Devi investire del traffico per misurare le prestazioni di ogni esperienza e capire quale sia l’esperienza vincente attraverso l’analisi. La distribuzione del traffico rimane fissa anche dopo aver compreso che alcune esperienze hanno prestazioni migliori di altre. Inoltre, è complicato calcolare la dimensione necessaria del campione, e l’attività deve essere eseguita completamente prima di poter intervenire in base al vincitore. Dopo aver fatto tutto questo, c&#39;è ancora una possibilità che il vincitore identificato non sia un vero vincitore.
 
-The solution is [!UICONTROL Auto-Allocate]. [!UICONTROL L’allocazione automatica riduce il costo e il sovraccarico associati al determinare un’esperienza vincente. ] [!UICONTROL L’allocazione automatica monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze che hanno prestazioni migliori. ] Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. Potete visualizzare i vantaggi dell&#39;attività sui risultati, anche mentre l&#39;attività è ancora in esecuzione: l&#39;ottimizzazione avviene in parallelo con l&#39;apprendimento.
+La soluzione è [!UICONTROL Auto-Allocate]. [!UICONTROL L’allocazione automatica riduce il costo e il sovraccarico associati al determinare un’esperienza vincente. ] [!UICONTROL L’allocazione automatica monitora le prestazioni della metrica obiettivo di tutte le esperienze e invia in modo proporzionale un numero maggiore di nuovi partecipanti alle esperienze che hanno prestazioni migliori. ] Per l’esplorazione delle altre esperienze viene riservata una quantità adeguata di traffico. Potete visualizzare i vantaggi dell&#39;attività sui risultati, anche mentre l&#39;attività è ancora in esecuzione: l&#39;ottimizzazione avviene in parallelo con l&#39;apprendimento.
 
 [!UICONTROL L’allocazione automatica sposta gradualmente i visitatori verso esperienze vincenti, invece di richiedere di attendere fino a quando un’attività finisce per determinare un vincitore. ] Puoi beneficiare di incrementi più rapidi perché potenziali esperienze vincenti vengono mostrate a partecipanti che sarebbero altrimenti stati destinati a esperienze di minor successo.
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità. [!DNL Target] dichiara quindi l&#39;esperienza vincente mostrando un badge nella parte superiore della pagina dell&#39;attività.
 
-For more information, see [Auto-Allocate overview](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
+Per ulteriori informazioni, vedere [Allocazione automatica della panoramica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
 ## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
-If you choose to use a manual [!UICONTROL A/B Test] activity rather than [!UICONTROL Auto-Allocate], the [!DNL Target] Sample Size Calculator helps you determine the sample size needed for a successful test. Un test A/B manuale è un test orizzontale fisso, quindi la calcolatrice è estremamente utile. L&#39;utilizzo del calcolatore per un&#39;attività di allocazione [!UICONTROL automatica] è facoltativo perché [!UICONTROL Auto-Allocate] dichiara un vincitore. La calcolatrice fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
+Se si sceglie di utilizzare un&#39;attività [!UICONTROL A/B Test] manuale anziché [!UICONTROL Auto-Allocate], il calcolatore [!DNL Target] Dimensione campione consente di determinare la dimensione del campione necessaria per un test di successo. Un test A/B manuale è un test orizzontale fisso, quindi la calcolatrice è estremamente utile. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Auto-Allocate] è facoltativo perché [!UICONTROL Auto-Allocate] dichiara un vincitore. La calcolatrice fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
-Before setting up your A/B test, access the Adobe Target [sample size calculator](https://docs.adobe.com/content/target-microsite/testcalculator.html).
+Prima di configurare il test A/B, accedere al  calcolatore delle dimensioni del campione Adobe Target [a](https://docs.adobe.com/content/target-microsite/testcalculator.html).
 
 ![Calcolatore delle dimensioni del campione di Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -74,7 +74,7 @@ La figura seguente illustra i quattro possibili risultati di un test A/B:
 
 Il livello di rilevanza di un test determina la probabilità che il test indichi una differenza significativa nei tassi di conversione tra due offerte diverse quando, in realtà, non esiste alcuna differenza reale. Questo è noto come falso positivo o errore di tipo I. Il livello di rilevanza è una soglia specificata dall&#39;utente ed è un compromesso tra la tolleranza per i falsi positivi e il numero di visitatori che devono essere inclusi nel test.
 
-In un test A/B, si presume inizialmente che entrambe le offerte abbiano lo stesso tasso di conversione. La probabilità del risultato osservato è quindi calcolata sulla base di questo presupposto. If this probability (the p-value) is smaller than some predefined threshold (the significance level), [!DNL Target] concludes that the initial assumption--that both offers have the same conversion rate--is incorrect and, therefore, the conversion rates of A and B are statistically different at the given significance level.
+In un test A/B, si presume inizialmente che entrambe le offerte abbiano lo stesso tasso di conversione. La probabilità del risultato osservato è quindi calcolata sulla base di questo presupposto. Se questa probabilità (il valore p) è inferiore a una soglia predefinita (il livello di rilevanza), [!DNL Target] conclude che l&#39;ipotesi iniziale, ovvero che entrambe le offerte hanno lo stesso tasso di conversione, è errata e, di conseguenza, i tassi di conversione di A e B sono statisticamente diversi a un determinato livello di rilevanza.
 
 Un livello di significatività comunemente utilizzato nei test A/B è pari al 5%, che corrisponde a un livello di affidabilità del 95% (livello di affidabilità = 100% - livello di significatività). Un livello di affidabilità del 95% significa che, a ogni esecuzione di un test, esiste una possibilità del 5% di rilevare un incremento statisticamente significativo, anche se non esiste alcuna differenza tra le offerte.
 
@@ -142,7 +142,7 @@ In questo esempio, potresti decidere che la capacità di rilevare un incremento 
 
 Quando utilizzi la metrica Ricavo per visita (RPV), viene aggiunta un’origine di varianza ulteriore, perché RPV è il prodotto del ricavo per ordine e del tasso di conversione (RPV = ricavo/n° visitatori = (ricavo per ordine * n° ordini)/n° visitatori = ricavo per ordine * (n° visitatori * CTR)/n° visitatori = ricavo per ordine * CTR), ciascuno con la propria varianza. La varianza del tasso di conversione può essere stimata direttamente utilizzando un modello matematico, ma la varianza delle entrate per ordine è specifica per l&#39;attività. Utilizzate quindi la conoscenza di questa varianza rispetto alle attività passate o eseguite il test A/B per alcuni giorni per stimare la varianza delle entrate. La varianza viene calcolata in base ai valori di Somma vendite, Somma vendite al quadrato e Numero di visitatori che si trovano nel file di download CSV. Una volta stabilito questo valore, utilizzate il foglio di calcolo per calcolare il tempo necessario per completare il test.
 
-Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. When you open the calculator, you&#39;ll see a tab labeled [!UICONTROL RPV Metric]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
+Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando si apre la calcolatrice, viene visualizzata una scheda con l&#39;etichetta [!UICONTROL Metrica RPV]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
 
 * Numero di visitatori dell’offerta di controllo
 * Ricavi totali dell’offerta di controllo
@@ -155,12 +155,12 @@ Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in 
 
 In generale, l&#39;utilizzo dell&#39;RPV come metrica richiede un incremento del 20-30% per ottenere lo stesso livello di confidenza statistica per lo stesso livello di incremento misurato. Questo perché RPV ha la varianza aggiunta di diverse dimensioni di ordine per conversione. Questo dovrebbe essere un fattore importante nella scelta tra tasso di conversione rettilineo e RPV come metrica su cui basare la decisione finale di business.
 
-## Correction for comparing multiple offers {#section_1474113764224D0B85472D8B023CCA15}
+## Correzione per il confronto di più offerte {#section_1474113764224D0B85472D8B023CCA15}
 
 Ogni volta che confronti due offerte, la possibilità di ottenere un falso positivo (osservando una differenza statisticamente significativa anche quando non c’è alcuna differenza nel tasso di conversione) è pari al livello di significatività. Ad esempio, in presenza di cinque offerte, A/B/C/D/E, dove A è l’offerta di controllo, vengono effettuati quattro confronti (tra il controllo e B, tra il controllo e C, tra il controllo e D e tra il controllo ed E), e la probabilità di un falso positivo è pari al 18,5% anche quando il livello di affidabilità è del 95%, in quanto Pr (almeno un falso positivo) = 1 - Pr (nessun falso positivo) = 1 - 0,95= 18,5%. Un falso positivo è definito in questo contesto come l’indicazione che il controllo è migliore dell’alternativa, o viceversa, quando in realtà non c’è differenza tra i due.
 
-## Conclusione {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusione  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
-By using an [!UICONTROL Auto-Allocate] activity, [!DNL Target] identifies a winner among two or more experiences and automatically reallocates more traffic to the winner to increase conversions while the test continues to run and learn. [!UICONTROL L’allocazione automatica semplifica il raggiungimento degli obiettivi di conversione eliminando le supposizioni.]
+Utilizzando un&#39;attività [!UICONTROL Auto-Allocate], [!DNL Target] identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore per aumentare le conversioni mentre il test continua a essere eseguito e imparare. [!UICONTROL L’allocazione automatica semplifica il raggiungimento degli obiettivi di conversione eliminando le supposizioni.]
 
 Utilizzando il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) illustrato in questo articolo ed eseguendo il test per il tempo suggerito, puoi contare su test A/B di qualità elevata, conformi ai livelli di falsi positivi e falsi negativi stabiliti come adeguati per il test specifico. Questo assicura che i test siano coerenti e in grado di rilevare in modo affidabile l’incremento ricercato.
