@@ -47,7 +47,7 @@ Il nostro esempio comporterebbe l&#39;albero sottostante:
 
 Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia, hanno alcuni svantaggi. Il problema maggiore è che si adattano “troppo” ai dati, in questo modo un singolo albero predice male i dati futuri che non sono stati utilizzati per generare l&#39;albero iniziale. Questa sfida è conosciuta come il [compromesso bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) nell&#39;apprendimento statistico. Gli algoritmi di Foresta casuale aiutano a superare questa sfida. Al livello più alto, una Foresta casuale è una raccolta di alberi decisionali che vengono generati in modo leggermente diverso sullo stesso insieme di dati che “vota” insieme per produrre un modello migliore rispetto a un singolo albero. Gli alberi sono generati selezionando casualmente un sottoinsieme di dati di visite con la sostituzione (nota come insaccamento), così come un sottoinsieme degli attributi, in modo che la foresta sia costituita da alberi decisionali leggermente diversi. Questo metodo introduce piccole variazioni nelle strutture create in Foresta casuale. L&#39;aggiunta in questa quantità controllata di varianza consente di migliorare la precisione predittiva dell&#39;algoritmo.
 
-## Come viene utilizzato Foresta casuale dagli algoritmi di personalizzazione di Target? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## Come viene utilizzato Foresta casuale dagli algoritmi di personalizzazione di Target?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Come vengono generati i modelli**
 
