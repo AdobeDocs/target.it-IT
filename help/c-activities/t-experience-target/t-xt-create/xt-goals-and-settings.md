@@ -40,7 +40,7 @@ La priorità è utilizzata se più attività vengono assegnate alla stessa posiz
 
 Se questa opzione non è abilitata in Amministrazione (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
 
-To enable fine-grained priorities, click **[!UICONTROL Administration]** > **[!UICONTROL Reporting]**, then toggle the Enable Fine-Grained Priorities option to the &quot;On&quot; position.
+Per abilitare le priorità con granulosità fine, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting]**, quindi attivare l&#39;opzione Attiva priorità con granulosità fine nella posizione &quot;Attiva&quot;.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
