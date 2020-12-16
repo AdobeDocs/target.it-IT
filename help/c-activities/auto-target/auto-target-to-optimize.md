@@ -12,7 +12,7 @@ ht-degree: 86%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Panoramica di Auto-Target
+# ![Panoramica di ](/help/assets/premium.png) PREMIUMAuto-Target
 
 La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automatico avanzato per scegliere tra più esperienze definite dall’addetto al marketing al fine di personalizzare il contenuto e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 
@@ -20,15 +20,15 @@ La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automati
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics for Target] (A4T) supporta le attività [!UICONTROL Auto-Target] . Per ulteriori informazioni, vedi [Creare un&#39;attività che utilizza Analytics come origine](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa)di reporting.
+>[!UICONTROL Analytics for Target] (A4T) supporta le attività  [!UICONTROL Auto-] Target. Per ulteriori informazioni, vedete [Creare un&#39;attività che utilizza Analytics come origine di reporting](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
 
-## Successo nel mondo reale tramite Auto-Target {#success}
+## Successo reale utilizzando Auto-Target {#success}
 
-Un importante rivenditore di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo casuale) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Aggiungi al carrello]&quot; è stata scelta come metrica di ottimizzazione principale. Le esperienze mirate hanno registrato un incremento medio del 29,09%. Dopo la creazione dei modelli [!UICONTROL Auto-Target] , l&#39;attività è stata impostata sul 90% di esperienze personalizzate.
+Un importante rivenditore di abbigliamento ha recentemente utilizzato un&#39;attività [!UICONTROL Auto-Target] con dieci esperienze basate su categorie di prodotti (più controllo casuale) per fornire il contenuto giusto a ogni visitatore. &quot;[!UICONTROL Aggiungi al carrello]&quot; è stata scelta come metrica di ottimizzazione principale. Le esperienze mirate hanno registrato un incremento medio del 29,09%. Dopo aver creato i modelli [!UICONTROL Auto-Target], l&#39;attività è stata impostata su 90% esperienze personalizzate.
 
 In soli dieci giorni, è stato raggiunto più di 1.700.000 dollari in incremento.
 
-Continua a leggere per apprendere come utilizzare [!UICONTROL Auto-Target] per aumentare l&#39;incremento e le entrate dell&#39;organizzazione.
+Continua a leggere per apprendere come utilizzare [!UICONTROL Auto-Target] per aumentare l&#39;incremento e le entrate per la tua organizzazione.
 
 ## Panoramica {#section_972257739A2648AFA7E7556B693079C9}
 
@@ -44,7 +44,7 @@ A differenza di un’attività A/B in cui l’allocazione dell’esperienza per 
 
 ## Considerazioni
 
-There are a few important considerations to keep in mind when using [!UICONTROL Auto-Target]:
+Quando si utilizza [!UICONTROL Auto-Target] è necessario tenere presenti alcune considerazioni importanti:
 
 * Non puoi passare un’attività specifica dal [!UICONTROL Targeting automatico] alla Personalizzazione automatizzata e viceversa.
 * Non puoi passare dall’Allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico] e viceversa durante un’attività in corso.
@@ -162,7 +162,7 @@ Per il [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole
 
 Per ulteriori informazioni, consulta [Rapporto di riepilogo del Targeting automatico](/help/c-reports/auto-target-summary-report.md) nella sezione [Rapporti](/help/c-reports/reports.md).
 
-## Video di formazione: Informazioni sul contrassegno ![Panoramica attività di targeting automatico](/help/assets/overview.png)
+## Video di formazione: Informazioni sulle attività di targeting automatico ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega come configurare un’attività di [!UICONTROL Targeting automatico] A/B.
 
