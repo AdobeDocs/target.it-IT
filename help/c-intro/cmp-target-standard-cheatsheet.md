@@ -62,7 +62,7 @@ Utilizza i nostri [rapporti per determinare l’esperienza vincente](/help/c-act
 
 **È possibile eseguire un&#39;attività con un livello di personalizzazione come parte integrante dell&#39;attività?**
 
-Selezionate l’opzione [Destinazione](/help/c-activities/auto-target/auto-target-to-optimize.md) automatica.
+Selezionare l&#39;opzione [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 **Come posso sapere quale tipo di attività si adatta meglio alle mie esigenze?**
 
@@ -189,7 +189,7 @@ Prova le informazioni sulla [risoluzione dei problemi](/help/c-experiences/c-vis
 
 È anche disponibile un [approccio basato su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [allowlist Adobe&#39;s proxy servers](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) as well.
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i  [   Adobe  ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) server proxy.
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
@@ -197,7 +197,7 @@ Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help
 
 **Ho più domini. Uno dei domini ha bisogno del Compositore esperienza avanzato, mentre altri hanno bisogno che questo sia disabilitato. Come posso fare?**
 
-You can always use [Enhanced Experience Composer option at the activity level](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) to override the default setting ( Administration > Visual Experience Composer).
+Potete sempre utilizzare l&#39;opzione [Enhanced Experience Composer (Compositore esperienza avanzato) a livello di attività](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita (Amministrazione > Visual Experience Composer (Compositore esperienza visivo).
 
 **Perché non vedo un&#39;opzione per scambiare le immagini?**
 
