@@ -62,7 +62,7 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offert
 
 * **Dimensione massima per ciascun caricamento mediante il metodo** HTTP: 100 MB.
 * **dimensione massima del file per ogni caricamento mediante il metodo** FTP: 4 GB
-* **Numero di attributi consentiti per la sottoscrizione**: 5 for [!DNL Target Standard] e 200 for [!DNL Target Premium].
+* **Numero di attributi consentiti per la sottoscrizione**: 5 for  [!DNL Target Standard] e 200 for  [!DNL Target Premium].
 
 ## Entità
 
@@ -204,7 +204,7 @@ Qualsiasi valore superiore viene troncato dal sistema.
 
 **Limite consigliato di script di profilo totali per account**: 2.000
 
-**Recommendations per limitare la complessità** degli script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, consultate [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in Attributi ** profilo.
+**Recommendations per limitare la complessità** degli script di profilo: Gli script di profilo possono eseguire un numero limitato di istruzioni. Per ulteriori informazioni, vedere [Best practice](/help/c-target/c-visitor-profile/profile-parameters.md#best) in *Attributi del profilo*.
 
 ## Proprietà
 
