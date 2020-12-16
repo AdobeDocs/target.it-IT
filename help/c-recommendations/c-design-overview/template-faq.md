@@ -14,7 +14,7 @@ ht-degree: 87%
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti sulle progettazioni {#design-faq}
 
-List of frequently asked questions (FAQs) about [!DNL Adobe Target] recommendations designs.
+Elenco delle domande frequenti sulle strutture delle [!DNL Adobe Target] raccomandazioni.
 
 ## Nel prezzo consigliato dell’articolo non vengono visualizzati i due valori a destra del punto decimale. Come è possibile visualizzarli?
 
@@ -38,7 +38,7 @@ L&#39;ID categoria non può essere visualizzato nella progettazione. Poiché è 
 
 L&#39;aggiornamento delle modifiche alla progettazione in uso richiede un po&#39; di tempo. Per modificare immediatamente la progettazione, create una nuova progettazione, selezionatela nell&#39;attività e salvate la raccomandazione.
 
-## Come posso acquisire le informazioni chiave da visualizzare nella progettazione? Esempio: se vogliamo visualizzare la categoria del prodotto chiave, come posso codificare tale valore nel progetto Velocity? {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Come posso acquisire le informazioni chiave da visualizzare nella progettazione? Esempio: se vogliamo visualizzare la categoria del prodotto chiave, come posso codificare tale valore nel progetto Velocity?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Il parametro `$key. *`value`*` acquisisce la maggior parte delle informazioni relative al prodotto chiave da visualizzare nella progettazione. Esempio: per visualizzare la miniatura del prodotto chiave, puoi utilizzare `$key.thumbnailURL`.
 
