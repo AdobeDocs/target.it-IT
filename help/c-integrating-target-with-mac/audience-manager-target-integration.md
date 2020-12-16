@@ -14,6 +14,6 @@ ht-degree: 0%
 
 # Integrare Target con Adobe Audience Manager (AAM)
 
-L’ [!DNL Target]integrazione consente di inviare[!DNL Audience Manager] segmenti a [!DNL Audience Manager] [!DNL Target].
+L&#39;integrazione [!DNL Target]/[!DNL Audience Manager] consente di inviare segmenti [!DNL Audience Manager] a [!DNL Target].
 
-Per ulteriori informazioni, consultate [Integrare  Audience Manager con Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) nella Guida *utente del Audience Manager*.
+Per ulteriori informazioni, vedere [Integrare  Audience Manager con Target](https://experienceleague.adobe.com/docs/audience-manager/user-guide/implementation-integration-guides/integration-other-solutions/aam-target-integration.html) nella *Guida utente del Audience Manager*.
