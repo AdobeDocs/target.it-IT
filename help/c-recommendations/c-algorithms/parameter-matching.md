@@ -12,7 +12,7 @@ ht-degree: 10%
 ---
 
 
-# ![Corrispondenza parametri PREMIUM](/help/assets/premium.png)
+# ![Corrispondenza ](/help/assets/premium.png) PREMIUMParameter
 
 Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).
 
@@ -33,9 +33,9 @@ Ad esempio, si consiglia solo il contenuto che corrisponde al parametro di pagin
 
 ## Esempi di corrispondenza dei parametri
 
-[!UICONTROL La corrispondenza] dei parametri consente di consigliare il contenuto che corrisponde ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità, come nell&#39;esempio seguente:
+[!UICONTROL La ] corrispondenza dei parametri consente di consigliare il contenuto che corrisponde ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità, come nell&#39;esempio seguente:
 
-[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella [!DNL Target] chiamata. In questa istanza, [!DNL Target] rileva che un visitatore utilizza un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella [!DNL Target] chiamata, e consiglia solo gli elementi che sono dispositivi mobili.
+[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella  [!DNL Target] chiamata. In questa istanza, [!DNL Target] rileva che un visitatore utilizza un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella chiamata [!DNL Target], e consiglia solo gli elementi che sono dispositivi mobili.
 
 Prendete in considerazione l&#39;esempio seguente di chiamata Target:
 
