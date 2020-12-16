@@ -21,10 +21,10 @@ Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli o
 >* Se gli utenti effettuano acquisti sul tuo sito web, ti consigliamo di implementare una mbox di conferma d’ordine anche se per generare rapporti usi Analytics for Target (A4T).
    >
    >
-* Potete anche creare una mbox di conferma dell&#39;ordine per at.js 1.*x* con lo stesso metodo; tuttavia, il [!DNL at.js] metodo è preferito. Per ulteriori informazioni, consulta [Tracciare le conversioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Potete anche creare una mbox di conferma dell&#39;ordine per at.js 1.** usando lo stesso metodo; tuttavia, il  [!DNL at.js] metodo è preferibile. Per ulteriori informazioni, consulta [Tracciare le conversioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Se utilizzi at.js 2.*x*, `mboxCreate` non è più supportato. Per la conferma dell&#39;ordine utilizzando at.js 2.*x*, usa le seguenti API relative al tracciamento: [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) e [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Se utilizzi at.js 2.*x*, non  `mboxCreate` è più supportato. Per la conferma dell&#39;ordine utilizzando at.js 2.*x*, usa le seguenti API relative al tracciamento:  [trackEvent() ](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) e  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Nella pagina dei dettagli dell’ordine, inserisci lo script mbox secondo il modello indicato di seguito.
