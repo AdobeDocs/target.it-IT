@@ -18,7 +18,7 @@ Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferiment
 
 >[!NOTE]
 >
->Le offerte remote possono essere create solo nel compositore basato su moduli. Content will be injected in the [!DNL Target] request locations, so these are most likely not appropriate for a global [!DNL Target] request.
+>Le offerte remote possono essere create solo nel compositore basato su moduli. Il contenuto verrà inserito nelle posizioni di richiesta [!DNL Target], pertanto è molto probabile che non siano adatte a una richiesta globale [!DNL Target].
 >
 >[!DNL Target Classic] includeva funzioni simili: [!UICONTROL Offerta sul tuo sito] e [!UICONTROL Offerta esterna a Test&amp;Target].
 
@@ -46,7 +46,7 @@ Alcuni esempi di offerte remote includono:
    | Opzione | Descrizione |
    |--- |--- |
    | Memorizzato in cache | Il contenuto di un’offerta remota con URL memorizzato nella cache viene trasmesso da Target.<br>Ogni due ore, [!DNL Target] recupera il contenuto dall’URL remoto e quindi lo archivia in Target. Quando i visitatori caricano un sito con un’esperienza che include un’offerta remota, l’offerta viene consegnata da Target.<br>Le offerte remote memorizzate nella cache forniscono un livello di protezione maggiore, perché il loro contenuto non può essere modificato da qualcuno che abbia effettuato l’accesso a Target. Per modificare il contenuto, è necessario accedere al sistema di gestione dei contenuti o a un altro sistema e modificare il contenuto da tale ambiente.<br>L’URL di un’offerta remota memorizzata nella cache può essere assoluto o relativo. |
-   | Dinamico | Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da Target.<br>Potresti non volere che il contenuto venga periodicamente memorizzato nella cache e quindi consegnato da Target ogni volta che un visitatore carica un sito contenente un’esperienza con un’offerta remota. Al contrario, potresti preferire che venga chiamato il sistema che ospita il contenuto e che vengano eventualmente passate a tale sistema informazioni specifiche, affinché l’offerta restituita sia dinamica o diversa per ogni utente.<br>Ad esempio, se un utente accede al sito web della sua carta di credito e il sito include un’esperienza con un’offerta remota dinamica, puoi passare nell’URL parametri specifici per informazioni sul conto dell’utente. Quindi il sito web potrebbe fornire informazioni specifiche per questo utente, ad esempio il saldo del conto.<br>Fate clic su [!UICONTROL Aggiungi parametro] per aggiungere una o più [!DNL Target] richieste o parametri di richiesta. |
+   | Dinamico | Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da Target.<br>Potresti non volere che il contenuto venga periodicamente memorizzato nella cache e quindi consegnato da Target ogni volta che un visitatore carica un sito contenente un’esperienza con un’offerta remota. Al contrario, potresti preferire che venga chiamato il sistema che ospita il contenuto e che vengano eventualmente passate a tale sistema informazioni specifiche, affinché l’offerta restituita sia dinamica o diversa per ogni utente.<br>Ad esempio, se un utente accede al sito web della sua carta di credito e il sito include un’esperienza con un’offerta remota dinamica, puoi passare nell’URL parametri specifici per informazioni sul conto dell’utente. Quindi il sito web potrebbe fornire informazioni specifiche per questo utente, ad esempio il saldo del conto.<br>Fate clic su  [!UICONTROL Aggiungi ] parametro per aggiungere uno o più parametri di  [!DNL Target] richieste o richieste. |
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -54,7 +54,7 @@ Alcuni esempi di offerte remote includono:
 
 Best practice per l’utilizzo delle offerte remote nelle attività:
 
-* If your offer resides in the same domain as the [!DNL Target] requests, using the [!UICONTROL Cached] option lets you use relative URLs in describing your offer location.
+* Se l&#39;offerta risiede nello stesso dominio delle [!DNL Target] richieste, l&#39;opzione [!UICONTROL Cache] consente di utilizzare URL relativi per descrivere la posizione dell&#39;offerta.
 
    Ciò significa che quando sposti l’attività dai server di gestione temporanea alla produzione, il contenuto sarà automaticamente accessibile senza dover modificare manualmente l’URL.
 
