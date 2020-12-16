@@ -78,7 +78,7 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 
 ### Autorizzazioni per gli utenti Enterprise
 
-[La funzionalità Autorizzazioni](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) utente Enterprise consente di creare diversi progetti (denominati &quot;Profili di prodotto&quot; in [!DNL Adobe Admin Console for Enterprise]) per consentire di assegnare diverse autorizzazioni a un singolo utente che stabilisce i diritti di accesso dell&#39;utente per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti potranno limitare la visualizzazione, la modifica, l&#39;approvazione e l&#39;accesso al pubblico ai propri utenti in base all&#39;area geografica, all&#39;ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
+[La funzionalità ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Autorizzazioni utente Enterprise consente di creare diversi progetti (denominati &quot;Profili di prodotto&quot; in  [!DNL Adobe Admin Console for Enterprise]) per consentire di assegnare diverse autorizzazioni a un singolo utente che stabilisce i diritti di accesso dell&#39;utente per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti potranno limitare la visualizzazione, la modifica, l&#39;approvazione e l&#39;accesso al pubblico ai propri utenti in base all&#39;area geografica, all&#39;ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
@@ -88,11 +88,11 @@ Per ulteriori informazioni, consulta la [documentazione di Recommendations Class
 
 ## Experience League: kit di benvenuto per Adobe Target {#kit}
 
-Crea il tuo programma di ottimizzazione e personalizzazione con Adobe Target e questo kit di benvenuto! It includes key information, tools, and resources to help you prepare for and launch your first [!DNL Adobe Target] activity, with short-term quick wins and long-term optimization strategies.
+Crea il tuo programma di ottimizzazione e personalizzazione con Adobe Target e questo kit di benvenuto! Include informazioni, strumenti e risorse chiave per prepararvi e avviare la vostra prima attività [!DNL Adobe Target], con vittorie rapide a breve termine e strategie di ottimizzazione a lungo termine.
 
-[Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
+[ Adobe Target Welcome Kit](https://expleague.azureedge.net/pdf/Adobe-Target-Welcome-Kit.pdf)
 
-## Video di formazione: Logo ![Panoramica sui tipi di attività (9:03)](/help/assets/overview.png)
+## Video di formazione: Tipi di attività (9:03) ![Logo Panoramica](/help/assets/overview.png)
 
 Il video di seguito spiega i tipi di attività disponibili in [!DNL Target Standard/Premium] e come raggiungere gli obiettivi del sito con il flusso di lavoro guidato in tre passaggi di Target.
 
