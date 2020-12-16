@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Target determina in modo diverso l’attività (o le attività) da consegnare a una pagina, a seconda dell’interfaccia di Target e della funzione di creazione attività (Compositore esperienza visivo o Compositore basato su moduli) che stai utilizzando.
 
-## Target Standard/Premium Visual Experience Composer Only or Form-Based Composer Using Global Target Request Only {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Solo Visual Experience Composer (Compositore esperienza visivo) di Target Standard/Premium o Compositore basato su moduli che utilizza solo la richiesta globale di Target {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se la tua società utilizza esclusivamente il Compositore esperienza visivo di Target Standard/Premium, per la stessa chiamata possono essere restituiti i contenuti da più attività. Le attività vengono consegnate in base al seguente flusso decisionale:
 
@@ -48,8 +48,8 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
 
 Se la tua società utilizza il compositore basato su moduli di Target Standard/Premium e il Compositore esperienza visivo di Target Standard/Premium, può essere fornito il contenuto di più attività del Compositore esperienza visivo, ma solo un’attività dal flusso di lavoro basato su moduli. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. Target server call comes to Target with information about the [!DNL Target] request and URL.
-1. Target Classic and Standard pull every activity running in that [!DNL Target] request.
+1. La chiamata al server di Target arriva a Target con informazioni sulla richiesta [!DNL Target] e sull&#39;URL.
+1. Target Classic e Standard esegue il pull di tutte le attività in esecuzione nella richiesta [!DNL Target].
 1. Target tenta di stabilire la corrispondenza tra il visitatore e le attività.
 
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
@@ -65,16 +65,16 @@ In presenza di due attività, una con targeting impostato sulla parola chiave di
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## Target Standard/Premium Form-Based Composer with Non-Global Target Requests {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositore basato su moduli di Target Standard/Premium con richieste Target non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Queste informazioni si applicano anche alle campagne in esecuzione che sono state create in Target Classic.
 
-If your company uses [!DNL Target] requests other than the global [!DNL Target] request in the form-based composer, content from only one activity can be returned per call. Le attività vengono consegnate in base al seguente flusso decisionale:
+Se la società utilizza [!DNL Target] richieste diverse dalla richiesta globale [!DNL Target] nel compositore basato su modulo, è possibile restituire il contenuto di una sola attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. The [!DNL Target] server call comes to [!DNL Target] with information about the [!DNL Target] request and URL.
-1. [!DNL Target] richiama ogni attività in esecuzione in quella [!DNL Target] richiesta.
+1. La chiamata al server [!DNL Target] arriva a [!DNL Target] con informazioni sulla richiesta e sull&#39;URL [!DNL Target].
+1. [!DNL Target] richiama ogni attività in esecuzione in quella  [!DNL Target] richiesta.
 1. [!DNL Target] tenta di stabilire la corrispondenza tra il visitatore e l’attività con priorità più elevata.
 
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
