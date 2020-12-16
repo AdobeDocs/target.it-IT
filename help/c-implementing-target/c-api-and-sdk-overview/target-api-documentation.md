@@ -38,7 +38,7 @@ Le API legacy verranno ritirate insieme a Target Classic:
 
 Le API di Recommendations Classic non saranno influenzate da questa linea temporale.
 
-## Metodi equivalenti {#section_DDB42CCC172545B09CB728D794CC466B}
+## Metodi equivalenti  {#section_DDB42CCC172545B09CB728D794CC466B}
 
 Nella tabella seguente sono elencati i nuovi metodi delle API di Target equivalenti ai metodi API legacy. Le nuove API restituiscono JSON quando confrontate con la risposta XML fornita dalle API legacy.
 
@@ -66,6 +66,6 @@ I nuovi metodi delle API sono collegati alla sezione corrispondente nel sito del
 
 Se hai bisogno di un&#39;eccezione, contatta il tuo Customer Success Manager.
 
-## Aiuto {#section_591F850E2B7A4342B1C233693425415C}
+## Aiuto  {#section_591F850E2B7A4342B1C233693425415C}
 
 Ti invtiamo a contattare l’Assistenza clienti di Adobe Target (tt-support@adobe.com) per eventuali o se hai bisogno di aiuto nella transizione alle nuove API di Target su Adobe I/O.
