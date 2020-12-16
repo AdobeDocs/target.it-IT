@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Il test A/B costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione descrive dieci delle insidie più significative a cui le aziende sono soggette durante l&#39;esecuzione di test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 
-## Pitfall 1: Ignoring the effects of the significance level {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Pitfall 1: Ignorare gli effetti del livello di rilevanza {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Quanto è probabile che il test riporti una differenza significativa nel tasso di conversione tra due offerte, quando in realtà non c&#39;è? Questo è ciò che il *livello di significatività* di un test aiuta a determinare. Tali risultati fuorvianti sono spesso chiamati un falso positivo e, nel mondo delle statistiche, sono chiamati un errore di Tipo I (se si rifiuta erroneamente l&#39;ipotesi null che è effettivamente vera).
 
@@ -56,7 +56,7 @@ Tuttavia, due situazioni garantiscono una particolare attenzione al livello di s
 
    Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
-## Pitfall 2: Declaring winners of multiple offer tests with no statistically significant difference {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Pitfall 2: Dichiarare vincitori di test di offerta multipli senza differenze statisticamente significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Con il test di offerta multipla, gli addetti al marketing dichiarano spesso l&#39;offerta con il più alto elevatore come il vincitore della prova, anche se non c&#39;è differenza statisticamente significativa fra il vincitore e il secondo classificato. Questa situazione si verifica quando la differenza tra le alternative è minore della differenza tra le alternative e il controllo. La figura seguente illustra questo concetto, con le barre di errore nere che rappresentano gli intervalli di affidabilità del 95% dell&#39;incremento. Il reale incremento per ogni offerta rispetto all&#39;offerta di controllo ha il 95% di probabilità di rientrare nell&#39;intervallo di affidabilità, indicato dalle barre di errore.
 
@@ -70,7 +70,7 @@ In genere non è possibile eseguire il test abbastanza a lungo da identificare l
 
 Nota che per identificare l&#39;offerta con il più alto tasso di conversione, si devono confrontare tutte le offerte con ogni altra offerta. Nell&#39;esempio precedente, si dispone di n = 5 offerte. Pertanto è necessario effettuare n(n-1)/2 confronti ossia 5*(5-1)/2 = 10 confronti. In questo caso, la correzione Bonferroni richiede che il livello di significatività del test sia 5%/10 = 0,5%, il che corrisponde a un livello di affidabilità del 99,5%. Tuttavia, un livello di affidabilità elevato potrebbe richiedere di eseguire il test per un periodo di tempo eccessivo.
 
-## Pitfall 3: Ignoring the effects of statistical power {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Pitfall 3: Ignorare gli effetti della potenza statistica {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 La potenza statistica è la probabilità che un test rilevi una reale differenza nel tasso di conversione tra le offerte. A causa della natura casuale o “stocastica” degli eventi di conversione, un test potrebbe non mostrare una differenza statisticamente significativa, anche quando esiste una reale differenza nel tasso di conversione tra due offerte nel lungo periodo. Chiamala sfortuna o caso. Il mancato rilevamento di una reale differenza nel tasso di conversione è chiamato un falso negativo o un errore di Tipo II.
 
@@ -82,7 +82,7 @@ Oggi gli addetti al marketing tendono a condurre molti test con una potenza stat
 
 Per evitare di condurre test con potenza statistica insufficiente, considera che uno standard tipico per un test con potenza adeguata include un livello di affidabilità del 95% e una potenza statistica dell&#39;80%. Tale test offre una probabilità del 95% di evitare un falso positivo e un 80% di probabilità di evitare un falso negativo.
 
-## Passaggio 4: Utilizzo di test con una coda {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Passaggio 4: Utilizzo di test a una coda {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 I test a una coda richiedono una differenza più ridotta osservata nei tassi di conversione tra le offerte per chiamare un vincitore a un certo livello di significatività. Questo sembra interessante perché i vincitori possono essere chiamati prima e più spesso di quando si effettuano test a due code. Ma in linea con il detto “nessuno dà niente per niente”, i test a una coda hanno un costo.
 
@@ -104,7 +104,7 @@ Per capire perché ciò avviene, è necessario considerare le diverse azioni int
 
 Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test verrà eseguito. È bene tenere d’occhio i risultati del test in corso, per assicurarsi che sia implementato correttamente. Tuttavia, non bisogna trarre conclusioni o arrestare il test prima che sia stato raggiunto il numero richiesto di visitatori. In altre parole, non sbirciare.
 
-## Pitfall 6: Arresto prematuro dei test {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Pitfall 6: Arresto anticipato dei test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Si potrebbe essere tentati di interrompere un test se nei primi giorni del test, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
@@ -130,7 +130,7 @@ Se desiderate modificare le percentuali o influenzare notevolmente il flusso di 
 Se modificate le percentuali per esperienze diverse durante il periodo di test, la normalizzazione dei dati richiede alcuni giorni, soprattutto se molti acquirenti restituiscono i visitatori.
 Come altro esempio, se l&#39;allocazione del traffico del test A/B è divisa tra 50/50 e successivamente si modifica la suddivisione in 80/20, per i primi giorni dopo tale modifica i risultati potrebbero apparire distorti. Se il tempo medio di conversione è elevato, il che significa che per un acquisto sono necessarie diverse ore o persino giorni, queste conversioni ritardate possono influenzare i rapporti. Così, in quella prima esperienza in cui il numero è passato dal 50% all&#39;80%, e il tempo medio di conversione è di due giorni, solo i visitatori dal 50% della popolazione si stanno convertendo il primo giorno del test, anche se oggi l&#39;80% della popolazione sta entrando nell&#39;esperienza. Questo fa sembrare il tasso di conversione precipitato, ma si normalizzerà di nuovo dopo che l&#39;80% dei visitatori ha impiegato due giorni per la conversione.
 
-## Pitfall 8: Not considering novelty effects {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Pitfall 8: Mancata considerazione degli effetti di novità {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Se un test non viene eseguito per il tempo necessario, possono verificarsi anche altre cose inaspettate. Questa volta il problema non legato alla statistica, ma semplicemente alla normale reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si potrà trarre dall&#39;offerta superiore.
 
@@ -138,7 +138,7 @@ Per determinare se le scarse prestazioni della nuova offerta sono dovute all’e
 
 L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento, solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
 
-## Pitfall 9: Not considering differences in the consideration period {#section_B166731B5BEE4E578816E351ECDEA992}
+## Pitfall 9: Mancata considerazione delle differenze nel periodo di riflessione {#section_B166731B5BEE4E578816E351ECDEA992}
 
 Il periodo di considerazione è il periodo di tempo da quando la soluzione di test A/B presenta un&#39;offerta a un visitatore a quando il visitatore si converte. Ciò può essere importante con le offerte che interessano sostanzialmente il periodo preso in esame, per esempio, un&#39;offerta che implica una scadenza, quale “offerta a tempo limitato, acquista entro domenica”.
 
@@ -150,7 +150,7 @@ La figura seguente mostra due offerte che due visitatori diversi vedono allo ste
 
 Per evitare questa insidia, lascia un certo tempo per i visitatori che sono stati esposti alle offerte di test per la conversione dopo che è stata interrotta una nuova voce nel test. Questo passaggio dà un equo confronto delle offerte.
 
-## Pitfall 10: Using metrics that do not reflect business objectives {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Pitfall 10: Utilizzo di metriche che non riflettono gli obiettivi aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Gli addetti al marketing potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella canalizzazione superiore, ad esempio il CTR (tasso di click-through), per raggiungere un numero adeguato di conversioni di test più velocemente. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l&#39;offerta stessa, ad esempio un&#39;offerta di sconto, porta semplicemente a minori ricavi.
 
@@ -162,7 +162,7 @@ Considera l&#39;offerta di sci di seguito. Genera un CTR molto più elevato risp
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 
-## Conclusion: Success with A/B testing by recognizing and stepping around the pitfalls {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusione: Successo con il test A/B riconoscendo e aggirando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
 
 Dopo aver appreso le comuni insidie dei test A/B, ci auguriamo che tu possa identificare quando e dove potresti esserne caduto vittima. Speriamo anche di averti fornito una migliore comprensione di alcuni dei concetti di statistiche e probabilità coinvolti nei test A/B che spesso si percepiscono come di dominio di persone laureate in matematica.
 
