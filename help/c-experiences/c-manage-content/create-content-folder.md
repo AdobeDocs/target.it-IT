@@ -41,11 +41,11 @@ Visualizza le informazioni sulla cartella.
 
 Modifica la cartella.
 
-### Copia ![](assets/icon_copy.png)
+### Copia  ![](assets/icon_copy.png)
 
 Copia la cartella.
 
-### Sposta ![](assets/icon_move_folder.png)
+### Sposta  ![](assets/icon_move_folder.png)
 
 Fai clic sull&#39;icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull&#39;icona Rilascia.
 
@@ -70,7 +70,7 @@ Seleziona una o più cartelle in cui eseguire le azioni seguenti:
 * Sposta
 * Elimina
 
-### Scarica ![](assets/icon_download.png)
+### Scarica  ![](assets/icon_download.png)
 
 Scarica la cartella e il suo contenuto.
 
@@ -78,6 +78,6 @@ Scarica la cartella e il suo contenuto.
 
 Condividi la cartella e il suo contenuto con Adobe Creative Cloud.
 
-### Copia ![](assets/icon_copy_content.png)
+### Copia  ![](assets/icon_copy_content.png)
 
 Copia la cartella e il suo contenuto.
