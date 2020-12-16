@@ -100,7 +100,7 @@ I tipi di pubblico possono essere salvati e riutilizzati in più attività, oppu
 |--- |--- |
 | Pubblico riutilizzabile | I tipi di pubblico riutilizzabili possono essere selezionati per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
-| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. See [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) for examples. |
+| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Vedere [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) per gli esempi. |
 
 Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Per informazioni su come il profilo visitatore tiene traccia delle informazioni 
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03) ![badge Panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03)  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilizzo dell&#39;audience  contrassegno ![Panoramica di Adobe Target (6:21)](/help/assets/overview.png)
+### Utilizzo dell&#39;audience in  Adobe Target (6:21) ![Logo Panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
