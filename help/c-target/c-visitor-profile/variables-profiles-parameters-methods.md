@@ -92,4 +92,4 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 Gli attributi del cliente possono essere indicati in script di profilo, formattati come `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tenete presente che gli spazi nel pannello `datasourceName` devono essere rimossi da qualsiasi chiamata API.
+Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tenete presente che gli spazi in `datasourceName` devono essere rimossi da qualsiasi chiamata API.
