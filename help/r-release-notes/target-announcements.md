@@ -20,7 +20,7 @@ Annunci e informazioni sugli eventi imminenti, comprese le sessioni di Target Ex
 
  Adobe è stato nominato leader in The Forrester Wave: Piattaforme di ottimizzazione dell&#39;esperienza, report Q4 2020 per la sua offerta in questo spazio,  Adobe Target Premium.  Adobe ha ricevuto il punteggio più alto di tutti i fornitori partecipanti nelle attuali categorie di offerta e presenza sul mercato, nonché nelle raccomandazioni e nei criteri di esperienza della piattaforma. Target Premium ha inoltre ricevuto il punteggio più alto possibile nell&#39;innovazione della tecnica di ottimizzazione dell&#39;esperienza e nei criteri dei servizi di supporto. Il rapporto si basa su una valutazione approfondita di 10 fornitori di piattaforme per l&#39;ottimizzazione dell&#39;esperienza su 22 criteri.
 
-Leggetelo sul [Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
+Leggetelo sul [ Adobe Blog](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html).
 
 ##  Adobe è stato nuovamente nominato leader nel Gartner Magic Quadrant per i motori di personalizzazione
 
@@ -38,7 +38,7 @@ In questo webinar registrato,  esperti di prodotti Adobe Target illustrano come 
 
 ## Webinar: Come HSBC sfrutta  Adobe Target e AI per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
-* **Fate clic qui per visualizzare la registrazione del [webinar](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **Fate clic qui per visualizzare la registrazione del  [webinar](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital riporta che &quot;abbiamo compiuto cinque anni di progressi nell&#39;adozione digitale di consumatori e aziende in circa otto settimane&quot;. *
 
@@ -50,10 +50,10 @@ Partecipa  Adobe e HSBC per questo webinar:
 * Come AI e Analytics accelerano i loro sforzi e forniscono un impatto chiaro e significativo sul business
 * Come HSBC ha realizzato un programma di successo per la realizzazione di oltre 3000 attività
 
-*Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maggio 2020
+*Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; Maggio 2020
 
 ##  Generatore di competenze Adobe Target: Chat sviluppatore, migrate  Adobe Target mbox.js in at.js {#skill-builder}
 
 Con la prossima eliminazione di mbox.js il 18 gennaio 2021, David Son,  Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
 
-[Visualizzate qui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true)la registrazione del webinar.
+[Visualizzate qui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true) la registrazione del webinar.
