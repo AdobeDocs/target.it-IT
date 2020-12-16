@@ -26,13 +26,13 @@ Sono disponibili le seguenti opzioni:
 
 Il codice cliente del tuo account.
 
-When viewing [!UICONTROL Administration > Implementation], the Client at the top is the client code for your account.
+Quando si visualizza [!UICONTROL Amministrazione > Implementazione], il client nella parte superiore è il codice client per l&#39;account.
 
 ## Timeout
 
 Timeout della richiesta di Target.
 
-Quando visualizzate [!UICONTROL Amministrazione > Implementazione], l&#39;impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
+Quando si visualizza [!UICONTROL Amministrazione > Implementazione], l&#39;impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
 
 ## XDomain
 
