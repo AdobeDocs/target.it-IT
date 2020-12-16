@@ -29,7 +29,7 @@ Gli annunci AdBox e i Redirector possono essere utilizzati con qualsiasi tipo di
 
 ## Best practice di protezione {#security}
 
-Si noti che con Redirector, è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, consultate [Creare Inserire nell&#39;elenco Consentiti di  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *ospitanti*.
+Si noti che con Redirector, è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, vedere [Creare Inserire nell&#39;elenco Consentiti  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*.
 
 ## Vincoli {#section_38F559DCF1324271926608BCD4AB1227}
 
