@@ -26,7 +26,7 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza visivo. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l’esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   If you created a [!DNL Target] request on the page using [!DNL Target Classic], that [!DNL Target] request appears as an element that shows the request name, and can be modified like any other element.
+   Se avete creato una richiesta [!DNL Target] sulla pagina utilizzando [!DNL Target Classic], la richiesta [!DNL Target] viene visualizzata come un elemento che mostra il nome della richiesta e può essere modificata come qualsiasi altro elemento.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ Il [!UICONTROL Compositore esperienza visivo] offre un’interfaccia visiva per 
    >
    >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Quando create un&#39;audience, potete selezionare una posizione e specificare i parametri per tale posizione. Under [!UICONTROL Custom] (Create Audience > Add Rule > Custom), select the location, then specify the desired parameters.
+   Quando create un&#39;audience, potete selezionare una posizione e specificare i parametri per tale posizione. In [!UICONTROL Custom] (Crea pubblico > Aggiungi regola > Personalizzato), selezionate la posizione, quindi specificate i parametri desiderati.
 
    >[!NOTE]
    >
