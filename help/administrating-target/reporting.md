@@ -14,9 +14,9 @@ ht-degree: 38%
 
 # Configurare il reporting in Target
 
-Configurate le impostazioni generali da utilizzare nei [!DNL Adobe Target] rapporti che si applicano all&#39;intero [!DNL Target] account.
+Configurare le impostazioni generali da utilizzare nei report [!DNL Adobe Target] che si applicano all&#39;intero account [!DNL Target].
 
-Per accedere alla pagina di configurazione [!UICONTROL Reporting] (Generazione rapporti), fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting (Generazione rapporti)].**
+Per accedere alla pagina di configurazione [!UICONTROL Reporting], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting].**
 
 In questa pagina potete specificare le seguenti impostazioni:
 
@@ -29,7 +29,7 @@ In questa pagina potete specificare le seguenti impostazioni:
 
 >[!NOTE]
 >
->Tieni presente che il fuso orario, la valuta e gli indirizzi IP per escludere le impostazioni si applicano alle attività che utilizzano i [!DNL Target] rapporti. Queste impostazioni non si applicano alle attività che utilizzano [Analytics per Target (A4T)] come origine di reporting (/help/c-integrating-target-with-mac/a4t/a4t.md).
+>Tieni presente che il fuso orario, la valuta e gli indirizzi IP per escludere le impostazioni si applicano alle attività che utilizzano il reporting [!DNL Target]. Queste impostazioni non si applicano alle attività che utilizzano [Analytics for Target (A4T)] come origine di reporting (/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 ![Pagina di reporting](/help/administrating-target/assets/reporting.png)
 
@@ -41,10 +41,10 @@ Seleziona l&#39;origine di creazione di rapporti per le attività, sia in [!DNL 
 
 Considera le seguenti informazioni nella scelta dell&#39;origine per la generazione di rapporti:
 
-* Se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Target]** qui, non è consentito attivare un&#39;attività che utilizza come origine per la generazione di rapporti. [!DNL Analytics] You must change the reporting source to [!DNL Target] in your activity or change the reporting source to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* Se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Analytics]**[!DNL Target]**[!UICONTROL qui, non è consentito attivare un&#39;attività che utilizza come origine per la generazione di rapporti (l&#39;origine per la generazione di rapporti è specificata come Target per attività])**. You must change the reporting source to [!DNL Analytics] in your activity or change the reporting engine to **[!UICONTROL Select per activity]** in **[!UICONTROL Administration] > [!UICONTROL Reporting]**.
-* If the reporting source is set to **[!UICONTROL Select per activity]** here, you can create, activate, and deactivate activities that are supported by the selected reporting source. For a matrix of supported activities, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
-* [!UICONTROL creazione, attivazione e disattivazione dell&#39;attività Automated Personalization] (AP) sono consentite indipendentemente dall&#39;origine di reporting selezionata. Automated Personalization activities are not supported when you choose [Adobe Analytics as the reporting source for Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Even if you specify [!DNL Analytics] as your reporting source, [!DNL Target] is used as the reporting source for Automated Personalization activities. For more information, see [Supported activity types](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics as the reporting source for Adobe Target (A4t)*.
+* Se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Target]** qui, non è consentito attivare un&#39;attività che utilizza come origine per la generazione di rapporti. [!DNL Analytics] È necessario modificare l&#39;origine di reporting in [!DNL Target] nell&#39;attività oppure cambiare l&#39;origine di reporting in **[!UICONTROL Seleziona per attività]** in **[!UICONTROL Amministrazione] > [!UICONTROL Reporting]**.
+* Se l&#39;origine per la generazione di rapporti è impostata su **[!DNL Analytics]**[!DNL Target]**[!UICONTROL qui, non è consentito attivare un&#39;attività che utilizza come origine per la generazione di rapporti (l&#39;origine per la generazione di rapporti è specificata come Target per attività])**. È necessario modificare l&#39;origine di reporting in [!DNL Analytics] nell&#39;attività oppure cambiare il motore di reporting in **[!UICONTROL Seleziona per attività]** in **[!UICONTROL Amministrazione] > [!UICONTROL Reporting]**.
+* Se l&#39;origine di reporting è impostata su **[!UICONTROL Seleziona per attività]** qui, puoi creare, attivare e disattivare le attività supportate dall&#39;origine di reporting selezionata. Per una matrice di attività supportate, vedere [Tipi di attività supportati](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics come origine di reporting per  Adobe Target (A4t)*.
+* [!UICONTROL  creazione, attivazione e disattivazione dell&#39;attività Automated Personalization] (AP) sono consentite indipendentemente dall&#39;origine di reporting selezionata.  le attività Automated Personalization non sono supportate quando si sceglie [ Adobe Analytics come origine di reporting per  Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). Anche se si specifica [!DNL Analytics] come origine di reporting, [!DNL Target] viene utilizzato come origine di reporting per  attività Automated Personalization. Per ulteriori informazioni, vedere [Tipi di attività supportati](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) in *Adobe Analytics come origine di reporting per  Adobe Target (A4t)*.
 
 ## Fuso orario per reporting
 
@@ -64,7 +64,7 @@ Immettete ogni indirizzo IP su una nuova riga.
 
 È possibile scegliere di visualizzare l&#39;incremento stimato delle entrate se si inserisce un valore monetario per l&#39;obiettivo. Con [!DNL Target] puoi stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente. La funzione di stima dell&#39;incremento è disabilitata per impostazione predefinita.
 
-Only [!DNL Experience Cloud] Admin users can enable or disable this feature. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
+Solo gli utenti [!DNL Experience Cloud] amministratori possono attivare o disattivare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 
 Per informazioni dettagliate, vedi [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md).
 
