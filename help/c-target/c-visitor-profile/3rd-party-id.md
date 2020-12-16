@@ -37,7 +37,7 @@ Quando il visitatore si disconnette, il profilo unito viene mantenuto.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] gli obiettivi non verranno tracciati nei casi in cui l&#39; [!DNL Adobe Experience Cloud] ID (EDID) cambia (ad esempio, il visitatore modifica i dispositivi), anche se il [!DNL Target] profilo potrebbe essere unito in base a mbox3rdPartyId e ancora dispone di informazioni sull&#39;attività. For visitors identified with the same EDID (those who access the page with the same device), [!DNL Analytics for Target] (A4T) should work as expected.
+>[!DNL Adobe Analytics] gli obiettivi non verranno tracciati nei casi in cui l&#39; [!DNL Adobe Experience Cloud] ID (EDID) cambia (ad esempio, il visitatore modifica i dispositivi), anche se il  [!DNL Target] profilo potrebbe essere unito in base a mbox3rdPartyId e ancora dispone di informazioni sull&#39;attività. Per i visitatori identificati con lo stesso EDID (quelli che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) deve funzionare come previsto.
 
 ## Considerazioni {#considerations}
 
