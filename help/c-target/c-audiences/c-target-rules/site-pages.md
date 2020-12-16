@@ -22,19 +22,19 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
    ![Pubblico per pagine del sito](assets/target_site_pages.png)
 
-1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]** , selezionare una delle opzioni seguenti, quindi configurare la regola come desiderato.
+1. Fare clic sull&#39;elenco a discesa **[!UICONTROL Seleziona]**, selezionare una delle opzioni seguenti, quindi configurare la regola nel modo desiderato.
 
-   Le opzioni disponibili e i valutatori negli elenchi a discesa successivi della regola variano in base all&#39;opzione scelta. L&#39;illustrazione seguente mostra le opzioni disponibili se scegliete Pagina corrente:
+   Le opzioni disponibili e i valutatori negli elenchi a discesa successivi della regola variano in base all&#39;opzione scelta. L&#39;illustrazione seguente mostra le opzioni disponibili se si sceglie [!UICONTROL Pagina corrente]:
 
    ![Pagina corrente](/help/c-target/c-audiences/c-target-rules/assets/current-page.png)
 
-   Le seguenti opzioni sono disponibili nell’elenco a discesa iniziale quando scegliete [!UICONTROL Seleziona].
+   Le seguenti opzioni sono disponibili nell&#39;elenco a discesa iniziale quando si sceglie [!UICONTROL Seleziona].
 
-   * **Pagina corrente:** La pagina sulla quale si trova l’utente.
+   * **Pagina corrente:** pagina su cui si trova l’utente.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
+      * URL (Per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti su target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Dominio
       * Query
       * Sottodominio
@@ -45,7 +45,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
+      * URL (Per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti su target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Dominio
       * Query
       * Sottodominio
@@ -55,7 +55,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
-      * URL (per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.)
+      * URL (Per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti su target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
       * Dominio
       * Query
       * Sottodominio
@@ -67,7 +67,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       >
       >L’oggetto `landing.url` viene reimpostato in caso di modifica del sottodominio o di sostituzione diretta dell’URL.
 
-   * **Intestazione HTTP:** Questa opzione valuta le informazioni nell&#39;intestazione HTTP della richiesta Target. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la `Accept-Language: es` condizione per i visitatori target che accedono alla pagina in spagnolo.
+   * **Intestazione HTTP:** questa opzione valuta le informazioni nell’intestazione HTTP della richiesta Target. Ad esempio, se l&#39;intestazione HTTP contiene informazioni sulla lingua, potete creare una regola che contiene la condizione `Accept-Language: es` per indirizzare i visitatori che accedono alla pagina in spagnolo.
 
       Le seguenti opzioni sono disponibili nel secondo elenco a discesa se scegliete questa opzione:
 
@@ -101,7 +101,7 @@ Potete eseguire il targeting dei visitatori che si trovano su una pagina specifi
       * Via
       * Attenzione
 
-   Se scegliete Pagina corrente, Pagina precedente o Pagina [!UICONTROL di]destinazione, sono disponibili le opzioni [!UICONTROL Dominio] e [!UICONTROL Query] . Quando si scelgono queste opzioni, tenere presente quanto segue:
+   Se si è scelto [!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente] o [!UICONTROL Pagina di destinazione], sono disponibili le opzioni [!UICONTROL Dominio] e [!UICONTROL Query]. Quando si scelgono queste opzioni, tenere presente quanto segue:
 
    * **Dominio:** il dominio completo della pagina. Nella specificazione di un dominio, è consigliabile utilizzare “contiene”, perché se ad esempio usi “dominio è uguale a facebook.com”, non verranno accettati né `m.facebook.com` né `www.facebook.com`. Se invece utilizzi “dominio contiene facebook.com” verrà accettata qualsiasi variante di facebook.com.
    * **Query:** il contenuto dell’URL dopo il primo punto interrogativo (?).
@@ -128,15 +128,16 @@ Come illustrato di seguito:
 
 ## Risoluzione dei problemi {#ts}
 
-* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il `mboxReferrer` parametro impostato (per l&#39;API di consegna il `context.address.referringUrl` parametro) che la libreria JavaScript at.js prende dalla pagina utilizzando l&#39; `document.referrer` attributo. Questo `HTMLDocument` attributo restituisce l’URI della pagina da cui l’utente ha navigato. Il valore di questo attributo è una stringa vuota quando l&#39;utente si sposta direttamente sulla pagina (non attraverso un collegamento, ma, ad esempio, tramite un segnalibro).
+* Affinché il pubblico della pagina di destinazione funzioni correttamente, le richieste devono avere il parametro `mboxReferrer` impostato (per l&#39;API di consegna il parametro `context.address.referringUrl`) che la libreria JavaScript at.js recupera dalla pagina utilizzando l&#39;attributo `document.referrer`. Questo attributo `HTMLDocument` restituisce l&#39;URI della pagina da cui l&#39;utente ha navigato. Il valore di questo attributo è una stringa vuota quando l&#39;utente si sposta direttamente sulla pagina (non attraverso un collegamento, ma, ad esempio, tramite un segnalibro).
 
    Se questo comportamento non soddisfa i requisiti dell&#39;utente, effettuare una delle seguenti operazioni:
 
-   * Trasmettete i parametri [](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) mbox da [!DNL Target] utilizzare per il targeting.
-   * Utilizzate un&#39;attività [Test](/help/c-activities/t-test-ab/test-ab.md) A/B invece di un&#39;attività sulla pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
-   * Utilizzate invece un profilo [](/help/c-target/c-audiences/c-target-rules/visitor-profile.md) visitatore.
+   * Passa i parametri [mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) a [!DNL Target] per essere utilizzati a scopo di targeting.
+   * Utilizzare un&#39;attività di test [A/B](/help/c-activities/t-test-ab/test-ab.md) invece di un&#39;attività della pagina di destinazione. Le attività di test A/B non modificano le esperienze per lo stesso visitatore.
+   * Utilizzare invece un [profilo visitatore](/help/c-target/c-audiences/c-target-rules/visitor-profile.md).
 
-* Quando si utilizzano i valutatori &quot;Inizia/Termina con&quot; su stringhe contenenti virgole, tenere presente che questi vengono valutati come una matrice di valori, in cui ogni valore separato da virgole viene valutato. Ad esempio, se si dispone del valore per un&#39;intestazione: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` saranno soddisfatte condizioni come:
+* Quando si utilizzano i valutatori &quot;Inizia/Termina con&quot; su stringhe contenenti virgole, tenere presente che questi
+sono valutati come una matrice di valori, in cui viene valutato ogni valore separato da virgole. Ad esempio, se si dispone del valore per un&#39;intestazione: `Accept-Language: en,zh;q=0.9,en-IN;q=0.8,zh-CN;q=0.7` consente di soddisfare condizioni come:
    * inizia con zh,
    * inizia con en,
    * termina con 0,7,
