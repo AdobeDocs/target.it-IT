@@ -26,26 +26,26 @@ Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializ
 * [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
    >
    >
-* [!UICONTROL I rapporti Personalization Insights] (Approfondimenti sulla personalizzazione) sono disponibili solo se l&#39;obiettivo  principale è selezionato dall&#39;elenco a discesa [!UICONTROL Report Metric (Metrica] report).
+* [!UICONTROL I rapporti ] Insightsreport sulla personalizzazione sono disponibili solo se gli  [!UICONTROL obiettivi ] primari selezionati dall&#39;elenco a discesa  [!UICONTROL Metricia ] report.
    >
    >
 * I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL I rapporti sugli approfondimenti] di personalizzazione sono generati solo per le attività che si trovano nello stato [!UICONTROL Live] e sono state attivate e ricevono traffico per almeno 15 giorni.
+* [!UICONTROL I rapporti ] Insightsreporting sulla personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
 
 
 I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
 ## Accedere al rapporto Segmenti automatizzati {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Click **[!UICONTROL Activities]**, then click the desired [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) or [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) activity from the list.
+1. Fare clic su **[!UICONTROL Activities]**, quindi fare clic sull&#39;attività [ Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche&lt;a11>, e gli elenchi a discesa [!UICONTROL Origine attività].]
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   The [Automated Personalization Summary](/help/c-reports/reports-ap.md) or [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md) report displays, which provides information about the performance of your activities, represented by the first screen icon. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
+   Viene visualizzato il report [ Automated Personalization Summary](/help/c-reports/reports-ap.md) o [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentato dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
 
    ![](assets/personalization_insights.png)
 
