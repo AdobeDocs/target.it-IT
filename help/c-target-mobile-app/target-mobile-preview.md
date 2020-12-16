@@ -30,8 +30,8 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per istruzioni su come scaricare l&#39;SDK appropriato, vedi:
 
-   * **iOS:** [Prima di iniziare](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) nella Guida *di* Mobile Services iOS.
-   * **Android:** [Prima di iniziare](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) da *Mobile Services Android Help*.
+   * **iOS:** [prima dell&#39;](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) avvio nell&#39;Aiuto *di* Mobile Services iOS.
+   * **Android:** [prima di ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) avviare l&#39;Aiuto *di* Mobile Services per Android.
 
 1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l&#39;app. È necessario specificare uno schema URL univoco per l&#39;anteprima.
 
