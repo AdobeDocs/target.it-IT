@@ -112,7 +112,7 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    Fai clic sull&#39;attività desiderata per aprirla, quindi fai clic su **[!UICONTROL Modifica attività]**.
 
-1. Click the **[!UICONTROL Configure]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Fare clic su **[!UICONTROL Configura]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
 
    ![Configura > Tipi di pubblico > Più tipi di pubblico](/help/c-target/assets/combine_multiple_audiences7.png)
 
