@@ -29,8 +29,8 @@ ht-degree: 90%
    + [Accedere a Target da Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Concetti chiave di Target](c-intro/target-key-concepts.md)
    + [Comprendere l&#39;interfaccia utente di Target](/help/c-intro/understand-the-target-ui.md)
-   +  Adobe Target welcome kit {#welcome}
-      + [Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)
+   +  kit di benvenuto Adobe Target {#welcome}
+      + [ Adobe Target welcome kit overview](/help/c-intro/target-welcome-kit.md)
       + [Capitolo 1: Introduzione](/help/c-intro/target-welcome-kit-1.md)
       + [Capitolo 2:  Adobe Target](/help/c-intro/target-welcome-kit-2.md)
       + [Capitolo 3: Sviluppare idee di test e personalizzazione](/help/c-intro/target-welcome-kit-3.md)
@@ -78,7 +78,7 @@ ht-degree: 90%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [ Inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -177,7 +177,7 @@ ht-degree: 90%
       + Risoluzione dei problemi relativi all’integrazione di Analytics e Target (A4T) {#troubleshoot-a4t}
          + [Risolvere i problemi di A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Domande frequenti su A4T {#a4t-faq}
+      + Domande frequenti su A4T  {#a4t-faq}
          + [Provisioning iniziale - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Impostazioni delle attività - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualizzare i rapporti - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -308,7 +308,7 @@ ht-degree: 90%
       + [Condividere metriche, pubblico e rapporti - Domande frequenti su A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Esperienze e offerte {#experiences}
    + [Panoramica su esperienze e offerte](c-experiences/experiences.md)
-   + Compositore esperienza visivo {#vec}
+   + Compositore esperienza visivo  {#vec}
       + [Panoramica sul Compositore esperienza visivo](c-experiences/c-visual-experience-composer/visual-experience-composer.md)
       + [Opzioni del Compositore esperienza visivo](c-experiences/c-visual-experience-composer/viztarget-options.md)
       + [Includere la stessa esperienza in pagine simili](c-experiences/c-visual-experience-composer/temtest.md)
@@ -381,7 +381,7 @@ ht-degree: 90%
       + [Creare sequenze di criteri](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
       + [Caricare criteri personalizzati](c-recommendations/c-algorithms/recommendations-csv.md)
-      + Dynamic and static inclusion rules {#dynamic-static}
+      + Regole di inclusione dinamiche e statiche {#dynamic-static}
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
          + [Corrispondenza attributo entità](/help/c-recommendations/c-algorithms/entity-attribute-matching.md)
          + [Corrispondenza attributo profilo](/help/c-recommendations/c-algorithms/profile-attribute-matching.md)
@@ -412,5 +412,5 @@ ht-degree: 90%
    + [Risolvere i problemi di Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
-   + [Panoramica dell&#39;API Adobe Target](/help/api/api-overview.md)
+   + [ Panoramica dell&#39;API Adobe Target](/help/api/api-overview.md)
 + [Risorse e informazioni di contatto](cmp-resources-and-contact-information.md)
