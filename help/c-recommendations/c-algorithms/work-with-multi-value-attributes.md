@@ -20,9 +20,9 @@ A volte può essere utile utilizzare un campo con più valori. Prendi in conside
 * Vende biglietti per concerti. Un dato utente ha più bande preferite.
 * Vende vestiti. Una camicia è disponibile in diverse dimensioni.
 
-Per gestire le raccomandazioni in questi scenari, potete trasmettere dati multivalore a operatori multivalore [!DNL Target Recommendations] e utilizzare speciali operatori multivalore.
+Per gestire le raccomandazioni in questi scenari, potete trasmettere dati con più valori a [!DNL Target Recommendations] e utilizzare operatori multivalore speciali.
 
-Per consentire [!DNL Recommendations] di identificare dati con più valori, questi devono essere inviati come array JSON, come negli esempi di codice riportati di seguito.
+Per consentire a [!DNL Recommendations] di identificare dati con più valori, è necessario inviarli come array JSON, come negli esempi di codice riportati di seguito.
 
 ## Passa un parametro con più valori in JavaScript
 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Per ulteriori informazioni, consultate [Implementazione di attributi](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) con più valori negli attributi *di entità* personalizzati.
+Per ulteriori informazioni, vedere [Implementazione di attributi con più valori](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Attributi entità personalizzati*.
 
 ## Trasmettere un attributo di entità con più valori in un file CSV
 
@@ -60,7 +60,7 @@ Per ulteriori informazioni, consultate [Implementazione di attributi](/help/c-re
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Quando un attributo di entità, un attributo di profilo o un parametro mbox viene fornito come valore multiplo in base al formato sopra indicato, [!DNL Recommendations] deduce automaticamente che il campo è multivalore.
+Quando un attributo di entità, un attributo di profilo o un parametro mbox viene fornito come valore multiplo in base al formato indicato sopra, [!DNL Recommendations] deduce automaticamente che il campo è multivalore.
 
 I seguenti operatori sono disponibili per l&#39;uso con gli attributi di entità con più valori, profilo e mbox:
 
@@ -75,7 +75,7 @@ I seguenti operatori sono disponibili per l&#39;uso con gli attributi di entità
 
 ### Esempio: Escludere gli elementi guardati di recente
 
-Si supponga di voler impedire che vengano consigliati i filmati presenti negli ultimi dieci filmati visualizzati dall’utente. Innanzitutto, scrivete uno script di profilo chiamato `user.lastWatchedMovies` per tenere traccia degli ultimi dieci filmati visualizzati come array JSON. Potete quindi escludere gli elementi utilizzando la seguente regola di inclusione:
+Si supponga di voler impedire che vengano consigliati i filmati presenti negli ultimi dieci filmati visualizzati dall’utente. Innanzitutto, scrivete uno script di profilo denominato `user.lastWatchedMovies` per tenere traccia degli ultimi dieci filmati visualizzati come array JSON. Potete quindi escludere gli elementi utilizzando la seguente regola di inclusione:
 
 ```
 `Profile Attribute Matching`
@@ -97,7 +97,7 @@ Rappresentazione API JSON della regola di inclusione:
 
 ### Esempio: Raccomanda gli elementi dai preferiti dell&#39;utente
 
-Supponete di voler consigliare i biglietti solo per i concerti se la band è una delle band preferite dall&#39;utente. Innanzitutto, accertatevi di disporre di una variabile di profilo denominata `profile.favoriteBands` che contenga le bande preferite dell&#39;utente. Quindi, accertatevi che il catalogo includa un attributo `entity.artistPerforming` che includa l&#39;artista che esegue il concerto. Quindi, potete utilizzare la seguente regola di inclusione:
+Supponete di voler consigliare i biglietti solo per i concerti se la band è una delle band preferite dall&#39;utente. Innanzitutto, accertatevi di disporre di una variabile di profilo denominata `profile.favoriteBands` che contenga le bande preferite dall&#39;utente. Quindi, accertatevi che il catalogo includa un attributo `entity.artistPerforming` che includa l&#39;artista che esegue il concerto. Quindi, potete utilizzare la seguente regola di inclusione:
 
 ```
 `Profile Attribute Matching`
@@ -119,7 +119,7 @@ Rappresentazione API JSON della regola di inclusione:
 
 ### Esempio: Creazione API di criteri che consigliano gli elementi dai preferiti di un utente
 
-I criteri che utilizzano regole di filtraggio multivalore, come tutti i criteri, possono essere creati tramite  API I/O Adobe. Una chiamata API di esempio per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco dei parametri mbox `favorites` è fornita qui:
+I criteri che utilizzano regole di filtraggio multivalore, come tutti i criteri, possono essere creati tramite  API Adobe I/O. Una chiamata API di esempio per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco di parametri mbox `favorites` è fornita qui:
 
 ```
 curl -X POST \
