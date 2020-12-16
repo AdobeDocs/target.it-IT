@@ -26,7 +26,7 @@ Un visitatore è incluso nel segmento Nuovi visitatori se è soddisfatta una del
 
 * È la prima volta che il visitatore visita il sito.
 * È la prima volta che il visitatore visita il sito dopo aver cancellato i cookie.
-* È la prima volta che il visitatore visita il sito dalla scadenza della durata [del profilo del](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) visitatore.
+* È la prima volta che il visitatore visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
 
 ### Visitatori di ritorno
 
@@ -50,7 +50,7 @@ Considerate l&#39;esempio seguente, tenendo conto delle condizioni sopra indicat
 
 Questo visitatore viene conteggiato come singolo visitatore nel conteggio complessivo dei visitatori dell&#39;attività anche se viene conteggiato nei segmenti Nuovi visitatori e Visitatori di ritorno.
 
-**Esempio 2**: Le discrepanze tra i conteggi per i nuovi visitatori e i visitatori di ritorno dipendono anche da come configurate le metriche [di](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività.
+**Esempio 2**: Le discrepanze tra i conteggi per i nuovi visitatori e i visitatori di ritorno dipendono anche da come configurate le metriche [ di ](/help/c-activities/r-success-metrics/success-metrics.md)successo dell&#39;attività.
 
 Ad esempio:
 
@@ -96,13 +96,13 @@ Per ulteriori informazioni sugli ambienti, vedi [Host](/help/administrating-targ
 
 ## Perché la divisione del traffico tra le mie esperienze non è uniforme nell&#39;attività A/B o MVT? {#uneven}
 
-Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25, ma vedo una distribuzione molto diversa tra le esperienze nel reporting. Nella [!DNL Target] generazione dei rapporti sono disponibili diversi motivi per cui i conteggi dei visitatori non sono uniformi:
+Ad esempio, ho impostato la suddivisione del traffico su 50/50 o 25/25/25/25, ma vedo una distribuzione molto diversa tra le esperienze nel reporting. Esistono diversi motivi spiegabili per i conteggi irregolari dei visitatori nei report [!DNL Target]:
 
-* Quando un&#39; [!DNL Target] attività viene avviata per la prima volta, la distribuzione del traffico potrebbe non essere uniforme a causa dell&#39;architettura dei nodi periferici che [!DNL Target] utilizza per ottimizzare la distribuzione dell&#39;esperienza. La procedura ottimale consiste nel concedere a un&#39;attività un certo tempo per la raccolta di dati aggiuntivi e la distribuzione si normalizzerà. Per ulteriori informazioni sull&#39; [!DNL Adobe Target] architettura e sui nodi Edge, vedere [Come  funziona](/help/c-intro/how-target-works.md)Adobe Target.
-* Se vi trovate in [!DNL Target] o [!DNL Analytics] e utilizzate la metrica **[!UICONTROL Visite]** , ricordate che [!DNL Target] è un sistema basato sui visitatori e che la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se si esaminano i risultati dell&#39;attività utilizzando la metrica **[!UICONTROL Visite]** , la distribuzione del traffico potrebbe apparire diseguale perché alcuni visitatori potrebbero avere più visite. I visitatori sono la metrica standard di normalizzazione per la valutazione delle prestazioni dell&#39;attività.
+* Quando viene avviata per la prima volta un&#39;attività [!DNL Target], la distribuzione del traffico potrebbe non essere uniforme a causa dell&#39;architettura dei nodi periferici che [!DNL Target] utilizza per ottimizzare la distribuzione dell&#39;esperienza. La procedura ottimale consiste nel concedere a un&#39;attività un certo tempo per la raccolta di dati aggiuntivi e la distribuzione si normalizzerà. Per ulteriori informazioni sull&#39;architettura [!DNL Adobe Target] e sui nodi Edge, vedere [Come  Adobe Target](/help/c-intro/how-target-works.md).
+* Se siete in [!DNL Target] o [!DNL Analytics] e state utilizzando la metrica **[!UICONTROL Visits]**, ricordate che [!DNL Target] è un sistema basato sui visitatori e che la distribuzione del traffico per un test A/B o MVT è assegnata a livello di visitatore. Pertanto, se si esaminano i risultati dell&#39;attività utilizzando la metrica **[!UICONTROL Visits]**, la distribuzione del traffico potrebbe apparire diseguale perché alcuni visitatori potrebbero avere più visite. I visitatori sono la metrica standard di normalizzazione per la valutazione delle prestazioni dell&#39;attività.
 * La procedura ottimale per i test A/B e MVT consiste nel mantenere uniformi le suddivisioni del traffico. La modifica della distribuzione del traffico tra le esperienze (ad esempio da 90/10 a 50/50) durante un test può portare a visitatori irregolari tra le esperienze. L&#39;esperienza di traffico inferiore potrebbe non &quot;raggiungere&quot;.
 * Se state seguendo le best practice indicate sopra e la suddivisione del traffico non si normalizza nel tempo, è necessario verificare quanto segue:
 
-   * Utilizzi la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consulta i dettagli [della versione](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)at.js.
+   * Utilizzi la libreria at.js più recente? Per ulteriori informazioni sulla versione corrente e sulle relative note sulla versione, consultate [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-   * È un test di reindirizzamento? I tempi errati per l&#39;attivazione dei tag sulla pagina possono causare interruzioni di traffico non uniformi, soprattutto se utilizzati [!DNL Analytics] come origine dati per un&#39; [!DNL Target] attività. Per informazioni dettagliate per correggere la distribuzione del traffico diseguale in un&#39;attività di reindirizzamento con Analytics for Target (A4T), consultate [Offerte di reindirizzamento - Domande frequenti](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)A4T.
+   * È un test di reindirizzamento? I tempi errati per l&#39;attivazione dei tag sulla pagina possono causare interruzioni del traffico, soprattutto se si utilizza [!DNL Analytics] come origine dati per un&#39;attività [!DNL Target]. Per informazioni dettagliate per correggere la distribuzione del traffico diseguale in un&#39;attività di reindirizzamento con Analytics for Target (A4T), consultate [Offerte di reindirizzamento - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md).
