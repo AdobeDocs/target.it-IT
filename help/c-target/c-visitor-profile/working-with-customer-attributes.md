@@ -1,26 +1,26 @@
 ---
 keywords: customer relationship management;customer record service;crs;crm;mbox3rdpartyid;customer attributes;targeting;csv;crm;adobe experience cloud people
-description: Informazioni sull'utilizzo dei dati del cliente aziendale da database CRM (Customer Relationship Management) per il targeting dei contenuti in  Adobe Target, utilizzando Attributi cliente nel servizio di base Persone di Adobe Experience Cloud.
+description: Informazioni sull'utilizzo dei dati del cliente Enterprise provenienti da database CRM (Customer Relationship Management) per il targeting dei contenuti in  Adobe Target mediante l'uso di Attributi del cliente nel servizio Adobe Experience Cloud People.
 title: Attributi del cliente in  Adobe Target
 feature: visitor profiles
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: e347266dffd00e2a47e0f29f396e9340e581b1be
 workflow-type: tm+mt
-source-wordcount: '1494'
+source-wordcount: '1488'
 ht-degree: 40%
 
 ---
 
 
-# Attributi del cliente {#customer-attributes}
+# Attributi del cliente
 
-Informazioni sull&#39;utilizzo dei dati del cliente aziendale dai database CRM (Customer Relationship Management) per il targeting dei contenuti in [!DNL Adobe Target] utilizzando gli attributi del cliente nel servizio di base [!DNL Adobe Enterprise Cloud People].
+Informazioni sull&#39;utilizzo dei dati del cliente aziendale dai database CRM (Customer Relationship Management) per il targeting dei contenuti in [!DNL Adobe Target] utilizzando gli attributi del cliente nel servizio [!DNL Adobe Enterprise Cloud People].
 
-I dati dei clienti Enterprise raccolti attraverso più origini e memorizzati all&#39;interno di database CRM possono essere utilizzati in [!DNL Target] per fornire strategicamente i contenuti più rilevanti ai clienti, concentrandosi in particolare sui clienti di ritorno. Audience e attributi del cliente nel servizio di base [!DNL People] (ex Profili e pubblico) riunisce la raccolta e l&#39;analisi dei dati con test e ottimizzazione, rendendo fruibili i dati e le informazioni.
+I dati dei clienti Enterprise raccolti attraverso più origini e memorizzati all&#39;interno di database CRM possono essere utilizzati in [!DNL Target] per fornire strategicamente i contenuti più rilevanti ai clienti, concentrandosi in particolare sui clienti di ritorno. Audience e attributi del cliente nel servizio [!DNL People] (ex Profili e pubblico) riunisce la raccolta e l&#39;analisi dei dati con test e ottimizzazione, rendendo fruibili i dati e le informazioni.
 
 ## Panoramica sugli attributi del cliente {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Gli ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) attributi del cliente nel servizio di  [!DNL People] base fanno parte del servizio  [!DNL Adobe Experience Cloud] e forniscono alle aziende uno strumento per trasmettere i dati dei clienti alla  [!DNL Experience Cloud] piattaforma.
+[Gli ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) attributi del cliente nel  [!DNL People] servizio fanno parte del servizio  [!DNL Adobe Experience Cloud] e forniscono alle aziende uno strumento per inviare i dati dei clienti alla  [!DNL Experience Cloud] piattaforma.
 
 I dati inseriti nell&#39;[!DNL Experience Cloud] sono disponibili per tutti i flussi di lavoro di [!DNL Experience Cloud]. [!DNL Target] utilizza questi dati per il targeting del cliente di ritorno in base agli attributi. [!DNL Adobe Analytics] utilizza questi attributi che possono essere utili per l&#39;analisi e la segmentazione.
 
@@ -28,7 +28,7 @@ I dati inseriti nell&#39;[!DNL Experience Cloud] sono disponibili per tutti i fl
 
 Considera le seguenti informazioni mentre lavori con gli attributi del cliente e [!DNL Target]:
 
-* Per poter utilizzare la funzionalità [!UICONTROL Attributi del cliente] nel servizio di base [!DNL People], è necessario soddisfare alcuni requisiti preliminari. Per ulteriori informazioni, vedere &quot;Prerequisiti per il caricamento di attributi del cliente&quot; in [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) nella *documentazione del prodotto del Experience Cloud  e dei servizi di base*.
+* Per poter utilizzare la funzionalità [!UICONTROL Attributi del cliente] nel servizio [!DNL People], è necessario soddisfare alcuni requisiti preliminari. Per ulteriori informazioni, vedere &quot;Prerequisiti per il caricamento di attributi del cliente&quot; in [Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html#section_BD38693AFBF34926BA28E964963B4EA0) nella *documentazione  servizi e amministrazione di Experience Cloud*.
 
    >[!NOTE]
    >
@@ -42,7 +42,7 @@ Considera le seguenti informazioni mentre lavori con gli attributi del cliente e
 
 * Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
-## Accesso agli attributi del cliente nel servizio di base Persone
+## Accesso agli attributi del cliente nel servizio Persone
 
 1. In [!DNL Adobe Experience Cloud], fare clic sull&#39;icona del menu ( ![icona del menu](/help/c-target/c-visitor-profile/assets/menu-icon.png) ), quindi fare clic su **[!UICONTROL Persone]**.
 
@@ -58,7 +58,7 @@ Completa i passaggi seguenti per utilizzare i dati CRM in [!DNL Target], come il
 
 ![flusso di lavoro crm](/help/c-target/c-visitor-profile/assets/crm_workflow.png)
 
-Istruzioni dettagliate per l&#39;esecuzione di ciascuna delle seguenti attività sono reperibili in [Creare un&#39;origine attributo del cliente e caricare il file di dati](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) nella *Documentazione prodotto Experience Cloud e servizi di base*.
+Istruzioni dettagliate per l&#39;esecuzione di ciascuna delle seguenti attività sono reperibili in [Creare un&#39;origine attributo del cliente e caricare il file di dati](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) nella *documentazione Servizi di Experience Cloud e Amministrazione*.
 
 1. Creazione di un file di dati.
 
@@ -141,11 +141,11 @@ Passa `mbox3rdPartyId` come parametro alla mbox globale all&#39;interno del meto
 
 ### Utilizzo del servizio Experience Cloud ID
 
-Se utilizzi il servizio Experience Cloud ID, devi impostare un ID cliente e uno stato di autenticazione per utilizzare gli attributi del cliente nel targeting. Per ulteriori informazioni, vedere [ID cliente e stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) nella *Guida del servizio identità Experience Cloud*.
+Se utilizzi il servizio Experience Cloud ID, devi impostare un ID cliente e uno stato di autenticazione per utilizzare gli attributi del cliente nel targeting. Per ulteriori informazioni, vedere [ID cliente e stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) nella *Guida del servizio ID Experience Cloud*.
 
 Per ulteriori informazioni sull&#39;utilizzo degli attributi del cliente in [!DNL Target], consulta le risorse seguenti:
 
-* [Creare un&#39;origine attributo del cliente e caricare il ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) file di dati nella Documentazione prodotto del  *Experience Cloud*
+* [Creare un&#39;origine attributo del cliente e caricare il ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-crs-usecase.html) file di dati nella documentazione Servizi e Amministrazione  *Experience Cloud*
 * [Customer Attributes: The More You Know, The Better You Connect](https://blogs.adobe.com/digitalmarketing/analytics/customer-attributes-know-better-connect/) (Attributi del cliente: più si conoscono, meglio ci si connette) nel *Digital Marketing Blog*
 
 ## Problemi riscontrati frequentemente dai clienti {#section_BE0F70E563F64294B17087DE2BC1E74C}
