@@ -14,7 +14,7 @@ ht-degree: 89%
 
 # ![PREMIUM](/help/assets/premium.png) Impostazioni dell’attività Consigli{#recommendations-activity-settings}
 
-Information about the settings you can use to describe and control a [!UICONTROL Recommendations] activity in [!DNL Adobe Target].
+Informazioni sulle impostazioni che è possibile utilizzare per descrivere e controllare un&#39;attività [!UICONTROL Recommendations] in [!DNL Adobe Target].
 
 ![Pagina Obiettivi e impostazioni della funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/recs-settings.png)
 
@@ -35,7 +35,7 @@ I seguenti caratteri non sono consentiti nel nome di un’attività:
 `-`
 `@`
 
-Se specifichi un nome di attività [!UICONTROL Consigli] che esiste già per un’altra attività in [!UICONTROL Recommendations Classic], la nuova attività viene risincronizzata con un altro nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. This new name is displayed in both [!DNL Target Standard/Premium] and [!UICONTROL Recommendations Classic].
+Se specifichi un nome di attività [!UICONTROL Consigli] che esiste già per un’altra attività in [!UICONTROL Recommendations Classic], la nuova attività viene risincronizzata con un altro nome. Il nuovo nome è composto dal nome originale più una marca temporale per renderlo univoco. Questo nuovo nome viene visualizzato sia in [!DNL Target Standard/Premium] che in [!UICONTROL Recommendations Classic].
 
 ## Finalità
 
@@ -55,7 +55,7 @@ L’attività può iniziare dopo l’attivazione, oppure è possibile impostare 
 
 ## Impostazioni reporting
 
-* **Origine report:** Selezionare l&#39;origine di reporting: [!DNL Adobe Target] o [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificare l’origine per i rapporti dopo che l’attività è divenuta live in quanto si potrebbero verificare incongruenze nei risultati dei rapporti.
+* **Origine rapporto:** selezionare l&#39;origine di reporting:  [!DNL Adobe Target] o  [Analytics](/help/c-integrating-target-with-mac/a4t/a4t.md). Non modificare l’origine per i rapporti dopo che l’attività è divenuta live in quanto si potrebbero verificare incongruenze nei risultati dei rapporti.
 * **Metrica per obiettivo**: seleziona la metrica di successo che determina il successo dell’attività.
 * **Altre metriche:** Configura ulteriori metriche di successo da utilizzare nei rapporti.
 * **Tipi di pubblico per i rapporti:** Definisci i tipi di pubblico che possono essere utilizzati per filtrare i rapporti.
@@ -64,7 +64,7 @@ L’attività può iniziare dopo l’attivazione, oppure è possibile impostare 
 
 Inserisci delle note sull’attività.
 
-## Video di formazione: Etichetta ![Esercitazione impostazioni attività (3:02)](/help/assets/tutorial.png)
+## Video di formazione: Impostazioni attività (3:02) ![Logo esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
