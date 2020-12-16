@@ -69,7 +69,7 @@ Se in questo scenario utilizzi la versione 57 di [!DNL mbox.js], tutto funziona 
 | Creazione automatica mbox globale | Creazione automatica mbox globale, sincrono | Creazione automatica mbox globale, asincrono | Creazione automatica mbox globale, asincrono | Creazione automatica mbox globale, asincrono |
 | mboxCreate | Standard | AJAX | AJAX | AJAX |
 
-## Implementazione del servizio ID visitatore e presenza dell’ID visitatore {#section_9CD4AE4C8186425D886398BC3CE6C46D}
+## Implementazione del servizio ID visitatore e presenza dell’ID visitatore  {#section_9CD4AE4C8186425D886398BC3CE6C46D}
 
 Se è presente il cookie ID visitatore, non è necessario che [!DNL Target] effettui una chiamata al servizio ID visitatore. In questo caso, non occorre attendere la risposta dal servizio ID visitatore prima di visualizzare il contenuto. Per le versioni da 57 a 59, viene utilizzato il tipo **Creazione automatica mbox globale, sincrono** e la pagina attende quindi la restituzione della chiamata a [!DNL Target] prima di continuare il caricamento. In questo modo si evita la visualizzazione momentanea del contenuto predefinito. Per v60 viene utilizzato il tipo **mbox globale, asincrono** in modo che [!DNL Target] attenda la risposta del servizio di rinuncia di [!DNL Experience Cloud]. Il servizio di rinuncia fa parte del rilascio Data Co-op dell’autunno 2016. Poiché tutte le chiamate vengono restituite utilizzando AJAX, non utilizzare `document.write()` con la versione 60 di [!DNL mbox.js].
 
