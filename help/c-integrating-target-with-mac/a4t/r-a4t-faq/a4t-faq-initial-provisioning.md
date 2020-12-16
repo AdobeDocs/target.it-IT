@@ -40,14 +40,14 @@ Controlla quanto segue se si verifica uno di questi problemi:
 * Se utilizzi account di accesso in Analytics per diverse società all’interno della stessa società Experience Cloud, assicurati che l’ultima società Analytics a cui ti sei connesso corrisponda a quella collegata all’account Target per l’integrazione.
 * Se sei stato connesso a Experience Cloud per diverse ore, la sessione di Analytics potrebbe essere scaduta. Disconnettiti, accedi di nuovo e riprova.
 
-## Perché non vedo le opzioni di Analytics in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Perché non vedo le opzioni di Analytics in Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
-## Perché non vedo i rapporti A4T in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Perché non vedo i rapporti A4T in Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
-## Perché i rapporti in Target sono vuoti? {#section_3837104757464CB488C5A83014A669A1}
+## Perché i rapporti in Target sono vuoti?  {#section_3837104757464CB488C5A83014A669A1}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
