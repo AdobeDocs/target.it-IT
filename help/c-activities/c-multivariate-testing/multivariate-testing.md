@@ -16,7 +16,7 @@ ht-degree: 91%
 
 Il [!UICONTROL test multivariato] (MVT) in [!DNL Adobe Target] confronta diverse combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona meglio per un pubblico specifico e identifica gli elementi che hanno un maggior impatto sul successo dell’attività.
 
-## MVT overview {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
+## Panoramica MVT {#section_C73A2D1409EC42C9B0EDD4B976651C5E}
 
 Un test multivariato aiuta a scoprire l’influenza relativa che specifici elementi hanno sulla conversione, rispetto ad altri elementi della pagina. Può anche essere utile per perfezionare una combinazione di elementi che so è dimostrata efficace.
 
@@ -32,7 +32,7 @@ In Target ogni combinazione corrisponde a un’esperienza. Il test multivariato 
 
 A causa del numero di combinazioni che possono essere generate, un test multivariato richiede più tempo e traffico di un test A/B. La pagina deve ricevere abbastanza traffico per produrre risultati statisticamente significativi per ogni esperienza. Per ottenere risultati utili, è necessario comprendere la quantità di traffico ricevuto dalla pagina e includere nel test un numero ottimale di combinazioni per una durata di tempo appropriata per ottenere i risultati richiesti. Mediante il [Calcolatore di traffico](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md#task_71AA6922AFD447EA8C5E610A78ABA714) di Target puoi progettare facilmente un test adeguato al traffico. Prima di utilizzare il Calcolatore di traffico, devi disporre di statistiche valide che mostrino il numero di impression e di conversioni ricevute normalmente dal sito. Considera i livelli di traffico giornalieri. Più esperienze sono incluse in un’attività, più traffico deve includere l’attività o più a lungo l’attività deve essere eseguita. Se il traffico non è molto elevato, sottoponi a test un numero limitato di combinazioni; in caso contrario, il tempo richiesto per produrre risultati significativi potrebbe essere eccessivo per risultare utile.
 
-## MVT terminology {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
+## Terminologia MVT {#section_DF475CA7F34B4CFDB7BE7363761D64AE}
 
 Quando configuri un test multivariato, è utile comprendere alcuni termini di base.
 
@@ -46,7 +46,7 @@ In questo settore esistono più termini utilizzati in modi diversi. Questa sezio
 
 **Posizione:** area di contenuto specifica in una pagina, spesso contenuta in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
-## When to use MVT vs A/B {#section_3D2B966B6671406C861A1843EA41D28C}
+## Quando utilizzare MVT rispetto a A/B {#section_3D2B966B6671406C861A1843EA41D28C}
 
 Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Alcuni esempi di situazioni in cui può essere utile utilizzarli insieme:
 
@@ -72,7 +72,7 @@ Puoi usare i test multivariati insieme ai test A/B per ottimizzare la pagina. Al
 
 ## Test fattoriale parziale
 
-[!DNL Target] offre test multivariati fattoriali completi come opzione di attività incorporata. Nella statistica, nel Design of Experiments (DOE, progettazione di esperimenti) si utilizzano diversi approcci, o design, per determinare quali fattori influenzano i risultati. One such approach is the [Taguchi Method](https://en.wikipedia.org/wiki/Taguchi_methods) for partial-factorial testing. Taguchi permette agli addetti al marketing di fare una serie di presupposti che riducono il numero di permutazioni di esperienze da testare, e quindi diminuisce i requisiti di traffico per un test multivariato. Puoi sfruttare questo approccio di funzionalità e test in [!DNL Target] utilizzando [questo foglio di calcolo offline](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
+[!DNL Target] offre test multivariati fattoriali completi come opzione di attività incorporata. Nella statistica, nel Design of Experiments (DOE, progettazione di esperimenti) si utilizzano diversi approcci, o design, per determinare quali fattori influenzano i risultati. Uno di questi è il [Metodo Taguchi](https://en.wikipedia.org/wiki/Taguchi_methods) per il test fattoriale parziale. Taguchi permette agli addetti al marketing di fare una serie di presupposti che riducono il numero di permutazioni di esperienze da testare, e quindi diminuisce i requisiti di traffico per un test multivariato. Puoi sfruttare questo approccio di funzionalità e test in [!DNL Target] utilizzando [questo foglio di calcolo offline](/help/assets/MVT-Taguchi-Partial-Factorial-Design-02102017.xlsx).
 
 Se il tuo team utilizza altri approcci DOE, puoi utilizzare questo foglio di calcolo come implementazione di riferimento per progetti di esperimento personalizzati.
 
@@ -90,7 +90,7 @@ Per ulteriori considerazioni e best practice, vedi [Best practice relative ai te
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03) ![badge Panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03)  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video introduttivo descrive i tipi di attività disponibili in Target Standard/Premium. Il test multivariato è trattato a partire dal minuto 4:20.
 
@@ -100,7 +100,7 @@ Questo video introduttivo descrive i tipi di attività disponibili in Target Sta
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
+### Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
 
 Questo video è utile per comprendere, pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target.
 
