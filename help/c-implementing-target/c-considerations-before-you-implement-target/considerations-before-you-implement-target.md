@@ -29,4 +29,4 @@ Questa sezione include informazioni specifiche che gli sviluppatori devono racco
 - [Browser supportati](supported-browsers.md)
 - [Modifiche alla crittografia di TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
 - [CNAME e Adobe Target](implement-cname-support-in-target.md)
-- [Inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [ Inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
