@@ -38,7 +38,7 @@ Gli hit con dati parziali sono spesso dovuti a un’implementazione errata, ad e
 
 Per ulteriori informazioni, consulta “Cosa contribuisce ai dati parziali” in [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
 
-## Ho degli hit con dati parziali. Cosa posso fare per ripulire i miei dati? {#section_CBE778A9D07A469E8FF98F68BACC7124}
+## Ho degli hit con dati parziali. Cosa posso fare per ripulire i miei dati?  {#section_CBE778A9D07A469E8FF98F68BACC7124}
 
 È possibile creare una suite di rapporti virtuale per escludere dai rapporti i dati parziali della cronologia.
 
