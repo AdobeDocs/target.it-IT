@@ -59,7 +59,7 @@ La libreria [!DNL at.js] offre diversi miglioramenti rispetto alla libreria [!DN
 
 * Funzioni progettate specificamente per applicazioni a pagina singola/framework MVC
 
-## Video di formazione: at. js - Vantaggi e best practice per l’implementazione ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: at. js - Vantaggi e best practice per l’implementazione  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
