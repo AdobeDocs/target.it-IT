@@ -14,13 +14,13 @@ ht-degree: 52%
 
 # Configurare il Compositore esperienza visivo
 
-Configurate [!DNL Adobe Target] Visual Experience Composer (VEC) (Compositore esperienza [!UICONTROL visivo] visivo) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
+Configurate [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
 
-Per accedere alla pagina di configurazione di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] , fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)].**
+Per accedere alla pagina di configurazione di [!UICONTROL Visual Experience Composer], fare clic su **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer].**
 
 >[!NOTE]
 >
->Tenete presente che le impostazioni in questa pagina si applicano all’intero [!DNL Target] account.
+>Le impostazioni specificate in questa pagina si applicano all&#39;intero account [!DNL Target].
 
 ![Pagina di configurazione di Visual Experience Composer (Compositore esperienza visivo)](/help/administrating-target/assets/vec.png)
 
@@ -38,15 +38,15 @@ Imposta l&#39;URL predefinito utilizzato dal [!UICONTROL Compositore esperienza 
 
 ### Abilita Compositore esperienza avanzato {#eec}
 
-Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deselect this option to revert to the original [!UICONTROL Visual Experience Composer]. La distribuzione delle attività ai siti non è interessata da questa selezione.
+Consente la modifica sui siti non compatibili con iFrame e su siti con contenuti misti. Alcuni siti potrebbero non essere compatibili con la versione avanzata. Deselezionate questa opzione per ripristinare il [!UICONTROL Visual Experience Composer] originale. La distribuzione delle attività ai siti non è interessata da questa selezione.
 
 Per ulteriori informazioni, consulta [Risoluzione dei problemi relativi a Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
 
-You can also enable the [!UICONTROL Enhanced Experience Composer] at the activity level.
+Potete inoltre abilitare [!UICONTROL Enhanced Experience Composer] a livello di attività.
 
 ### Caricamento contenuto misto
 
-Enable mixed content while opening a website using the [!UICONTROL Enhanced Experience Composer] (EEC). Enabling this option avoids the extra overhead of loading static resources via [!DNL Target] proxy servers.
+Abilitate i contenuti misti durante l&#39;apertura di un sito Web utilizzando [!UICONTROL Enhanced Experience Composer] (EEC). Abilitando questa opzione si evita il sovraccarico aggiuntivo del caricamento di risorse statiche tramite server proxy [!DNL Target].
 
 Questa opzione è utile se, ad esempio:
 
@@ -57,13 +57,13 @@ Questa opzione è utile se, ad esempio:
 
 L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## ![Configurazione vista](/help/assets/premium.png) mobile badge Premium
+## ![Configurazione vista ](/help/assets/premium.png) badgeMobile Premium
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 
 ![Sezione Configurazione di Mobile Viewer](/help/administrating-target/assets/mobile-viewport-configuration.png)
 
-Click **[!UICONTROL Add]**, specify a descriptive name for the mobile viewport, specify the width and height, select the desired operating system, then click [!UICONTROL Save].
+Fate clic su **[!UICONTROL Aggiungi]**, specificate un nome descrittivo per la finestra del visualizzatore mobile, specificate la larghezza e l&#39;altezza, selezionate il sistema operativo desiderato, quindi fate clic su [!UICONTROL Salva].
 
 Per informazioni su come aggiungere un riquadro di visualizzazione mobile, vedi [Configurazione di riquadri di visualizzazione per dispositivi mobili](/help/c-experiences/c-visual-experience-composer/mobile-viewports.md).
 
@@ -93,9 +93,9 @@ Puoi eseguire l&#39;override di questa [!UICONTROL impostazione] per ogni attivi
 
 >[!NOTE]
 >
->Overriding the setting per activity is not available in [!UICONTROL Automated Personalization] and [!UICONTROL Multivariate Testing] activities.  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/vec-selectors.md).
+>La sostituzione dell&#39;impostazione per attività non è disponibile nelle attività di [!UICONTROL  Automated Personalization] e [!UICONTROL Multivariate Testing].  Per ulteriori informazioni sui selettori, vedi [Selettori di elementi utilizzati nel Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/vec-selectors.md).
 
-## Video di formazione: Preferenze account (7:33) ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: Preferenze account (7:33) ![Logo Panoramica](/help/assets/overview.png)
 
 In questo video trovi informazioni sulle preferenze dell&#39;account.
 
@@ -103,6 +103,6 @@ In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 >[!NOTE]
 >
->L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (precedentemente [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per il rilascio delle nuove funzioni e migliorare l&#39;esperienza dell&#39;utente in tutto il prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)
