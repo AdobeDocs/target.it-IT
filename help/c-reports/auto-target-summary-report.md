@@ -12,21 +12,21 @@ ht-degree: 57%
 ---
 
 
-# ![Report Riepilogo destinazione automatica PREMIUM](/help/assets/premium.png){#auto-target-summary-report}
+# ![Report di riepilogo ](/help/assets/premium.png) PREMIUMAuto-Target{#auto-target-summary-report}
 
-Information about how to interpret the [!UICONTROL Auto-Target Summary] reports in [!DNL Adobe Target].
+Informazioni su come interpretare i report [!UICONTROL Auto-Target Summary] in [!DNL Adobe Target].
 
 >[!NOTE]
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Non è disponibile in [!DNL Target Standard] senza una licenza [Target Premium](/help/c-intro/intro.md#premium).
 
-Per visualizzare i rapporti Riepilogo [!UICONTROL destinazione] automatica:
+Per visualizzare i report [!UICONTROL Riepilogo destinazione automatica]:
 
-1. Nella pagina [!UICONTROL Attività] , fate clic sull&#39;attività [!UICONTROL Auto-Target] desiderata.
+1. Dalla pagina [!UICONTROL Activities], fare clic sull&#39;attività [!UICONTROL Auto-Target] desiderata.
 
-   If you have many activities, you can filter the list by selecting options from the [!UICONTROL Type], [!UICONTROL Status], [!UICONTROL Property], [!UICONTROL Reporting Source], [!UICONTROL Experience Composer], [!UICONTROL Metrics Type], and [!UICONTROL Activity Source] drop-down lists.
+   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche&lt;a11>, e gli elenchi a discesa [!UICONTROL Origine attività].]
 
-1. Fate clic sulla scheda [!UICONTROL Rapporti] , quindi fate clic sull&#39;icona desiderata:
+1. Fare clic sulla scheda [!UICONTROL Report], quindi fare clic sull&#39;icona desiderata:
 
    * Vista tabella
    * Vista grafico
@@ -35,11 +35,11 @@ Per visualizzare i rapporti Riepilogo [!UICONTROL destinazione] automatica:
 
 ## Vista tabella
 
-L&#39;illustrazione seguente mostra l&#39;aspetto di un tipico rapporto di riepilogo nella vista  Tabella quando si visualizza un rapporto di attività [!UICONTROL Auto-Target] :
+L&#39;illustrazione seguente mostra l&#39;aspetto di un tipico rapporto di riepilogo in [!UICONTROL Visualizzazione tabella] quando si visualizza un report di attività [!UICONTROL Auto-Target]:
 
 ![Rapporto visualizzazione tabella di destinazione automatica](/help/c-reports/assets/at-table-view.png)
 
-Some tips and considerations as you interpret your [!UICONTROL Auto-Target] reports:
+Alcuni suggerimenti e considerazioni durante l&#39;interpretazione dei report [!UICONTROL Auto-Target]:
 
 * Le varie righe della tabella consentono di comprendere le prestazioni dell&#39;attività.
 
@@ -52,32 +52,32 @@ Some tips and considerations as you interpret your [!UICONTROL Auto-Target] repo
    * In questo caso, per aumentare la velocità dell&#39;attività con modelli generati per tutte le esperienze, il traffico aggiuntivo viene inviato a esperienze con modelli non generati.
    * Ci devono essere almeno due esperienze con modelli generati (segno di spunta verde) affinché inizi la personalizzazione.
 
-* Comparing the conversion rate of experience A with that of experience B is not the right comparison in [!UICONTROL Auto-Target]. La domanda è se l&#39;esperienza A funziona meglio quando viene fornita in modo intelligente rispetto a un modo casuale (in altre parole, rispetto al controllo). Gli addetti al marketing dovrebbero anche usare cautela nell&#39;interpretazione degli incrementi di esperienze individuali, perché l&#39;algoritmo di personalizzazione tenta di ottimizzare secondo la metrica di successo su tutta l&#39;attività, non su ogni singola esperienza.
+* Il confronto tra il tasso di conversione dell&#39;esperienza A e quello dell&#39;esperienza B non è il confronto corretto in [!UICONTROL Auto-Target]. La domanda è se l&#39;esperienza A funziona meglio quando viene fornita in modo intelligente rispetto a un modo casuale (in altre parole, rispetto al controllo). Gli addetti al marketing dovrebbero anche usare cautela nell&#39;interpretazione degli incrementi di esperienze individuali, perché l&#39;algoritmo di personalizzazione tenta di ottimizzare secondo la metrica di successo su tutta l&#39;attività, non su ogni singola esperienza.
 * Le esperienze con l&#39;incremento maggiore possono essere considerate come quelle che presentano la più alta differenziazione all&#39;interno della popolazione. Questo è l&#39;algoritmo che ha trovato un segmento che piace di più a quella particolare esperienza.
 * Le varie colonne della tabella mostrano il numero di visite, il tasso di conversione, il livello medio di incremento e confidenza e la confidenza. Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e intervallo di confidenza](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md).
 
 ## Vista grafico
 
-L&#39;illustrazione seguente mostra l&#39;aspetto di un tipico rapporto di riepilogo nella visualizzazione  grafico durante la visualizzazione di un rapporto di attività [!UICONTROL Auto-Target] :
+L&#39;illustrazione seguente mostra l&#39;aspetto di un tipico rapporto di riepilogo in [!UICONTROL Visualizzazione grafico] quando si visualizza un report di attività [!UICONTROL Auto-Target]:
 
 ![Report visualizzazione grafico di destinazione automatica](/help/c-reports/assets/at-graph-view.png)
 
-Come mostrato di seguito, potete utilizzare i due elenchi a discesa per scegliere le metriche desiderate, la metodologia di conteggio e altro ancora. Per ulteriori informazioni, consulta Panoramica [delle impostazioni dei](/help/c-reports/c-report-settings/report-settings.md) rapporti:
+Come mostrato di seguito, potete utilizzare i due elenchi a discesa per scegliere le metriche desiderate, la metodologia di conteggio e altro ancora. Per ulteriori informazioni, vedere [Panoramica delle impostazioni dei report](/help/c-reports/c-report-settings/report-settings.md):
 
 ![Report visualizzazione grafico di destinazione automatica](/help/c-reports/assets/at-graph-view-2.png)
 
 ## Segmenti automatizzati
 
-Fare clic sull&#39;icona Segmenti  automatizzati. Questo rapporto mostra il modo in cui i diversi visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
+Fare clic sull&#39;icona [!UICONTROL Segmenti automatizzati]. Questo rapporto mostra il modo in cui i diversi visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
 ![Icona segmenti automatizzati](/help/c-reports/assets/icon-automated-sements.png)
 
-Per ulteriori informazioni, consulta Rapporto [Segmenti](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md)automatizzati.
+Per ulteriori informazioni, vedere [Rapporto Segmenti automatizzati](/help/c-reports/c-personalization-insights-reports/automated-segments-report.md).
 
 ## Attributi importanti
 
-Fate clic sull&#39;icona [!UICONTROL Attributi] importanti. Questo rapporto mostra come, in attività diverse, attributi diversi siano più (o meno) importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
+Fare clic sull&#39;icona [!UICONTROL Attributi importanti]. Questo rapporto mostra come, in attività diverse, attributi diversi siano più (o meno) importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
 
 ![Icona importanti attributi](/help/c-reports/assets/icon-important-attributes.png)
 
-Per ulteriori informazioni, consulta Rapporto [Attributi](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md)importanti.
+Per ulteriori informazioni, vedere [Report Attributi importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
