@@ -33,37 +33,37 @@ Le sequenze di criteri possono variare in base al tipo di pagina, come illustrat
 
 ## Creare una sequenza di criteri
 
-Potete creare le sequenze di criteri dalla schermata [!UICONTROL Crea sequenza] criteri.
+Le sequenze di criteri vengono create dalla schermata [!UICONTROL Crea sequenza di criteri].
 
 Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza criteri]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
 * Su **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea sequenza criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!UICONTROL Consigli].
-* Quando create un&#39;attività [!UICONTROL Recommendations] , nella schermata Seleziona criteri fate clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza]** criteri. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
-* When you are editing a [!UICONTROL Recommendations] activity, click in a [!UICONTROL Recommendations Location] box on your page, then select **[!UICONTROL Change Criteria]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
+* Quando si crea un&#39;attività [!UICONTROL Recommendations], nella schermata Select Criteria (Seleziona criteri) fare clic su **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]** (Crea sequenza criteri). Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
+* Quando si modifica un&#39;attività [!UICONTROL Recommendations], fare clic in una casella [!UICONTROL Recommendations Location] sulla pagina, quindi selezionare **[!UICONTROL Change Criteria]** (Modifica criteri). Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
 
-Nella procedura seguente si presuppone che sia possibile accedere alla schermata [!UICONTROL Crea sequenza] criteri utilizzando il primo metodo: nella schermata Libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]** .
+La procedura seguente presuppone che si possa accedere alla schermata [!UICONTROL Crea sequenza criteri] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Fate clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
+1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
 
-1. Fate clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza]** criteri.
+1. Fare clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza criteri]**.
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Fill in the information in the [Basic Information](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) section.
+1. Compila le informazioni nella sezione [Informazioni di base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-1. Nella sezione Sequenza **** criteri, fare clic su **[!UICONTROL Aggiungi criteri]**.
+1. Nella sezione **[!UICONTROL Sequenza criteri]**, fare clic su **[!UICONTROL Aggiungi criteri]**.
 
    L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
 
    ![Aggiungi criteri](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Nella schermata [!UICONTROL Seleziona criteri] , selezionate un criterio, quindi fate clic su **[!UICONTROL Aggiungi]**.
+1. Nella schermata [!UICONTROL Seleziona criteri], selezionare un criterio, quindi fare clic su **[!UICONTROL Aggiungi]**.
 
    Potete usare la casella di ricerca e i menu a discesa dei filtri per individuare i criteri desiderati.
 
    ![Selezionare criteri](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Facoltativo) Fate scorrere il **[!UICONTROL limite del numero di elementi restituiti]** per passare alla posizione &quot;on&quot;, quindi specificate il numero di elementi (tra 1 e 50).
+1. (Facoltativo) Fare scorrere il simbolo **[!UICONTROL Limitare il numero di elementi restituiti]** per passare alla posizione &quot;on&quot;, quindi specificare il numero di elementi (tra 1 e 50).
 
    ![Limita il numero di elementi restituiti](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
@@ -79,7 +79,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
 1. Continuate ad aggiungere altri criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
 
-1. Abilitare le opzioni [di](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content)backup del contenuto.
+1. Abilitare le opzioni [Contenuto backup](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -87,7 +87,7 @@ Nella procedura seguente si presuppone che sia possibile accedere alla schermata
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Video di formazione: Creare i criteri in Recommendations (12:33) ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare i criteri in Recommendations (12:33)  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
