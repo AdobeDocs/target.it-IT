@@ -14,7 +14,7 @@ ht-degree: 45%
 
 # Includere la stessa esperienza in pagine simili
 
-Utilizzate un modello di pagina in [!DNL Adobe Target] per fornire struttura alle pagine, o se le pagine contengono elementi simili, per testare le varianti di elementi di pagina con struttura simile o nell&#39;intero dominio.
+Utilizzate un modello di pagina in [!DNL Adobe Target] per fornire una struttura alle pagine, o se le pagine contengono elementi simili, per testare le varianti in elementi di pagina con struttura simile o nell&#39;intero dominio.
 
 Per funzionare correttamente, questa funzione deve essere utilizzata su pagine con una struttura simile o contenenti elementi di modello strutturati allo stesso modo su tutte le pagine.
 
@@ -31,9 +31,9 @@ Ad esempio, si può utilizzare per eseguire una delle operazioni seguenti:
 
 Potete specificare le pagine che contengono gli elementi di modifica o applicare la modifica al sito o al dominio.
 
-1. Create  or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Creare o modificare un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the pages where the experience will appear, in the [!UICONTROL Visual Experience Composer] (VEC) click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, in [!UICONTROL Visual Experience Composer] (VEC) fate clic sull&#39;icona a forma di ingranaggio, quindi selezionate **[!UICONTROL Page Delivery]**.
 
    ![Icona ingranaggio > Consegna pagina](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
@@ -41,7 +41,7 @@ Potete specificare le pagine che contengono gli elementi di modifica o applicare
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
-   * URL Per ulteriori informazioni sul modo in cui Target valuta gli URL, consulta [Domande frequenti](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)su Target e audience.
+   * URL Per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti su target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
    * Dominio
    * Percorso
    * Frammento hash (#) (eseguite il targeting della parte di un URL che segue il simbolo #.)
@@ -69,7 +69,7 @@ Potete specificare le pagine che contengono gli elementi di modifica o applicare
    >
    >Più elementi utilizzano la logica OR, il che significa che qualsiasi elemento nell&#39;elenco rende vera la condizione.
 
-1. If desired, enter additional criteria by clicking **[!UICONTROL Add Template Rule]** and repeating the procedure in the previous steps.
+1. Se lo desiderate, inserite criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura nei passaggi precedenti.
 
    I criteri multipli sono collegati mediante AND (E). [!DNL Target] aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
@@ -89,17 +89,17 @@ Potete prendere in considerazione l&#39;uso delle regole del modello per eseguir
 * Per includere un banner globale (ad esempio, annunci COVID-19)
 * Per includere una promozione globale sulla spedizione gratuita
 
-1. Create or edit an activity as described in [Activities](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Creare o modificare un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. To specify the domain where the experience will appear, in the Visual Experience Composer click the gear icon, then select **[!UICONTROL Page Delivery]**.
+1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, in Visual Experience Composer (Compositore esperienza visivo) fate clic sull&#39;icona a forma di ingranaggio, quindi selezionate **[!UICONTROL Page Delivery]**.
 
-1. Fate clic su **[!UICONTROL Aggiungi regola]** modello > **[!UICONTROL Dominio]**.
+1. Fare clic su **[!UICONTROL Aggiungi regola modello]** > **[!UICONTROL Dominio]**.
 
-1. Dal menu a discesa **[!UICONTROL Scegli valutatore]** , selezionate **[!UICONTROL Contiene]**, quindi specificate il dominio.
+1. Dal menu a discesa **[!UICONTROL Scegli valutatore]**, selezionare **[!UICONTROL Contiene]**, quindi specificare il dominio.
 
    ![Il dominio contiene](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Training video: Visual Experience Composer (2 of 2) (7:29) ![Tutorial badge](/help/assets/tutorial.png)
+## Video di formazione: Visual Experience Composer (2 di 2) (7:29) ![Logo di esercitazione](/help/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
