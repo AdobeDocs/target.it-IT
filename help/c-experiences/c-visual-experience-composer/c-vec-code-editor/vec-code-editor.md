@@ -222,7 +222,7 @@ Ogni modifica crea un nuovo elemento nel pannello Modifiche. La seconda azione m
 
 Se utilizzi la funzione codice personalizzato per due attività con targeting allo stesso URL, JavaScript viene integrato nella pagina da entrambe le attività. Target determina automaticamente l&#39;ordine del contenuto recapitato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 
-## Risoluzione dei problemi relativi al Codice personalizzato {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+## Risoluzione dei problemi relativi al Codice personalizzato  {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
 
 **Ho ricevuto un avviso rispetto al fatto che un&#39;azione non può essere applicata a causa di modifiche strutturali a una pagina. Cosa significa?**
 
