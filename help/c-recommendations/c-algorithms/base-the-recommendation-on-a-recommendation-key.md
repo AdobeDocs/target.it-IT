@@ -15,7 +15,7 @@ ht-degree: 69%
 
 # Basare il consiglio su una chiave consiglio
 
-Recommendations based on keys use visitor behavior context to show relevant results in [!DNL Adobe Target] [!DNL Recommendations] activities.
+Recommendations basato sulle chiavi utilizza il contesto del comportamento dei visitatori per mostrare risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations].
 
 Esistono due tipi di consigli:
 
@@ -24,14 +24,14 @@ Esistono due tipi di consigli:
 
 Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in modo uniforme tra i diversi test di criteri. In altre parole, in presenza di due criteri, il traffico viene suddiviso in modo uniforme tra di essi. In presenza di due criteri e di due progettazioni, il traffico viene suddiviso in modo uniforme tra le quattro combinazioni. Puoi inoltre specificare una percentuale di visitatori del sito che visualizzano il contenuto predefinito, a scopo di confronto. In tal caso, la percentuale specificata di visitatori visualizza il contenuto predefinito e gli altri sono suddivisi tra i criteri e le combinazioni di progettazione.
 
-1. Create a new criteria, or select an existing criteria and click **[!UICONTROL Edit]**.
-1. To change the recommendation key, select the new key from the [!UICONTROL Recommendation Key] drop-down list, then click **[!UICONTROL Save]** or **[!UICONTROL Update]**.
+1. Create un nuovo criterio, oppure selezionate un criterio esistente e fate clic su **[!UICONTROL Modifica]**.
+1. Per modificare la chiave di raccomandazione, selezionate la nuova chiave dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione], quindi fate clic su **[!UICONTROL Salva]** o **[!UICONTROL Aggiorna]**.
 
    Poiché diverse logiche sono associate a diverse chiavi di consigli, diversi consigli si prestano a posizionarsi su diversi tipi di pagine. Per ulteriori informazioni su ciascuna chiave di raccomandazione, consultate le sezioni seguenti.
 
 ## Chiavi di raccomandazione
 
-Le seguenti chiavi di raccomandazione sono disponibili nell&#39;elenco a discesa [!UICONTROL Chiave] raccomandazione:
+Le seguenti chiavi di raccomandazione sono disponibili dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione]:
 
 ### Elemento corrente {#current-item}
 
@@ -72,7 +72,7 @@ Quando questa opzione è selezionata, il valore `entity.categoryId` deve essere 
 * Pagine a categoria singola.
 * NON utilizzare nelle pagine dei risultati di ricerca nulli.
 
-### Attributo personalizzato {#custom}
+### Attributo personalizzato  {#custom}
 
 Il consiglio è determinato da un elemento memorizzato nel profilo di un visitatore, utilizzando uno degli utenti.*x* o profilo.Attributi *x*.
 
@@ -82,7 +82,7 @@ Quando basi i consigli su attributi personalizzati, seleziona l&#39;attributo pe
 
 Puoi eseguire il filtro in tempo reale all&#39;inizio dell&#39;output di criteri personalizzati. Ad esempio, puoi limitare gli articoli consigliati a quelli della categoria o del marchio preferito dal visitatore. Così puoi combinare calcoli offline e filtri in tempo reale.
 
-This functionality means that you can use [!DNL Target] to add personalization on top of your offline calculated recommendations or custom-curated lists. Permette infatti di unire le compenze del personale addetto ai dati alle tecnonologie comprovate di Adobe per la distribuzione, l&#39;applicazione di filtri al momento dell&#39;esecuzione, i test A/B, il targeting, la generazione di rapporti, le integrazioni e altro.
+Questa funzionalità consente di utilizzare [!DNL Target] per aggiungere personalizzazione alle raccomandazioni calcolate offline o agli elenchi personalizzati. Permette infatti di unire le compenze del personale addetto ai dati alle tecnonologie comprovate di Adobe per la distribuzione, l&#39;applicazione di filtri al momento dell&#39;esecuzione, i test A/B, il targeting, la generazione di rapporti, le integrazioni e altro.
 
 Con l’aggiunta delle regole di inclusione ai Criteri personalizzati, i consigli non sono più statici ma diventano dinamici, in base agli interessi del visitatore.
 
@@ -172,7 +172,7 @@ Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni v
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
-### Ultimo articolo visualizzato {#last-viewed}
+### Ultimo articolo visualizzato  {#last-viewed}
 
 Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visitatore univoco. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
@@ -189,7 +189,7 @@ Il consiglio è determinato dall&#39;ultimo articolo visualizzato da ogni visita
 * Pagina principale, pagina account, annunci fuori sede.
 * NON utilizzare su pagine di prodotti o pagine rilevanti per gli acquisti.
 
-### Articolo più visualizzato {#most-viewed}
+### Articolo più visualizzato  {#most-viewed}
 
 Il consiglio è determinata in base all&#39;articolo visualizzato più frequentemente, attraverso lo stesso metodo impiegato per la categoria preferita.
 
@@ -213,7 +213,7 @@ Ad esempio, la visualizzazione di “tavola da surf A” e poi di “tavola da s
 
 * Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
 
-### Popolarità {#popularity}
+### Popolarità  {#popularity}
 
 Il consiglio è determinata dalla popolarità degli elementi sul sito. Il consiglio di tipo popolarità include gli elementi più venduti e i più visualizzati secondo i dati mbox e, se si utilizza Adobe Analytics, tutte le metriche disponibili nel rapporto del prodotto. Gli elementi vengono classificati in base alla logica del consiglio selezionato.
 
@@ -227,15 +227,15 @@ Il consiglio è determinata dalla popolarità degli elementi sul sito. Il consig
 
 * Pagine generali, come la pagina principale o le pagine di destinazione e gli annunci offsite.
 
-### Articoli visualizzati di recente {#recently-viewed}
+### Articoli visualizzati di recente  {#recently-viewed}
 
 Utilizza la cronologia del visitatore (nell&#39;arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
 
-The Recently Viewed Items criteria returns results specific to a given [environment](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
+Il criterio Elementi visualizzati di recente restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
 
 >[!NOTE]
 >
->You cannot use the [!UICONTROL Recently Viewed Items] criteria for backup recommendations.
+>Non potete utilizzare i criteri [!UICONTROL Elementi visualizzati di recente] per le raccomandazioni di backup.
 
 Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.
 
@@ -252,13 +252,13 @@ Una società multinazionale con più business potrebbe avere un visitatore che v
 
 >[!NOTE]
 >
->[!UICONTROL Elementi] visualizzati di recente rispetta sia le impostazioni globali di esclusioni che l&#39;impostazione della raccolta selezionata per l&#39;attività. If an item is excluded by a global exclusion, or is not contained in the selected collection, it will not be displayed. Therefore, when using a [!UICONTROL Recently Viewed Items] criteria, the &quot;All Collections&quot; setting should generally be used.
+>[!UICONTROL Recently Viewed ] Items (Elementi visualizzati di recente) rispetta sia le impostazioni globali di esclusione che le impostazioni della raccolta selezionata per l&#39;attività. Se un elemento è escluso da un&#39;esclusione globale, o non è contenuto nella raccolta selezionata, non verrà visualizzato. Di conseguenza, quando si utilizza un criterio [!UICONTROL Elementi visualizzati di recente], in genere deve essere utilizzata l&#39;impostazione &quot;Tutte le raccolte&quot;.
 
 ## Logica raccomandazione
 
 [!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell&#39;attività. La Chiave consiglio determina le opzioni di logica disponibili.
 
-La seguente logica di raccomandazione (criteri) è disponibile dall&#39;elenco a discesa Logica  raccomandazione:
+La seguente logica di raccomandazione (criteri) è disponibile dall&#39;elenco a discesa [!UICONTROL Logica raccomandazione]:
 
 ### Articoli/Media con attributi simili {#similar-attributes}
 
@@ -268,7 +268,7 @@ Se selezionate Elementi/File multimediali con attributi simili, potete impostare
 
 L&#39;utilizzo della similarità dei contenuti per generare raccomandazioni è particolarmente efficace per i nuovi elementi, che probabilmente non verranno visualizzati nelle raccomandazioni utilizzando le persone che hanno visualizzato questo, l&#39;hanno visualizzato e altre logiche basate sul comportamento passato. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
 
-Per ulteriori informazioni, consultate [Somiglianza](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity)contenuto.
+Per ulteriori informazioni, vedere [Somiglianza dei contenuti](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
