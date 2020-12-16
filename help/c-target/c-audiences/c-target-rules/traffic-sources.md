@@ -43,7 +43,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
 
 Puoi rivolgerti agli utenti che arrivano al tuo sito da un motore di ricerca specifico o da una pagina di destinazione specifica.
 
-## Video di formazione: Creazione di tipi di pubblico ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
