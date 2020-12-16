@@ -12,28 +12,28 @@ ht-degree: 7%
 ---
 
 
-# ![Corrispondenza attributo profilo PREMIUM](/help/assets/premium.png)
+# ![Corrispondenza attributo ](/help/assets/premium.png) PREMIUMProfile
 
-Filtrare in modo dinamico [!DNL Adobe Target] [!DNL Recommendations] confrontando elementi (entità) con un valore nel profilo dell&#39;utente.
+Filtrare in modo dinamico in [!DNL Adobe Target] [!DNL Recommendations] confrontando elementi (entità) con un valore nel profilo dell&#39;utente.
 
-Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
+Utilizzate [!UICONTROL Profile Attribute Matching] (Corrispondenza attributo profilo) per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
 
 >[!NOTE]
 >
->The [process for creating and using inclusion rules](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) for criteria and promotions is similar, as are the use cases and examples.
+>Il processo [per la creazione e l&#39;utilizzo di regole di inclusione](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per criteri e promozioni è simile, così come i casi di utilizzo e gli esempi.
 
-Gli scenari seguenti mostrano come utilizzare la corrispondenza attributi [!UICONTROL profilo]:
+Gli scenari seguenti mostrano come utilizzare [!UICONTROL Corrispondenza attributi profilo]:
 
 * Una società che vende occhiali memorizza il colore di fotogramma preferito di un visitatore come &quot;noce&quot;. Per quel visitatore specifico, le raccomandazioni sono configurate per restituire solo i fotogrammi della lente di occhio che corrispondono a &quot;noce&quot; nel colore.
 * Un parametro di profilo può essere definito per la dimensione dell’abbigliamento (ad esempio, Piccolo, Medio o Grande) di un visitatore che naviga nel sito Web della società. È possibile impostare una raccomandazione in modo che corrisponda al parametro del profilo e restituire prodotti specifici solo per le dimensioni di abbigliamento preferite dall&#39;utente.
 
 ## Esempi di corrispondenza attributi profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La corrispondenza] attributi profilo consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
+[!UICONTROL La ] corrispondenza attributi profilo consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
 
 ### Suggerimento di elementi dal marchio preferito dell&#39;utente
 
-For example, you can use the [!UICONTROL Profile Attribute Matching] option to create a rule that recommends items only where the brand equals the value or text stored in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
+Ad esempio, è possibile utilizzare l&#39;opzione [!UICONTROL Corrispondenza attributo profilo] per creare una regola che raccomanda gli elementi solo se il marchio è uguale al valore o al testo memorizzato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
 
 ![Marchio preferito](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -59,7 +59,7 @@ jobCity - equals - the value/text stored in - profile.usersCity
 
 Per un esempio visivo di come la corrispondenza attributo profilo influisce sulle raccomandazioni, considerate un sito Web che vende ventole elettriche.
 
-Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del `entity.size` parametro in base al fatto che le dimensioni della ventola nell’immagine siano piccole o grandi.
+Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del parametro `entity.size` a seconda che le dimensioni della ventola nell&#39;immagine siano piccole o grandi.
 
 Si supponga di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo o su grande.
 
