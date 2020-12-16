@@ -14,7 +14,7 @@ ht-degree: 57%
 
 # Utilizzare una mbox globale da unʼimplementazione legacy{#use-a-global-mbox-from-a-legacy-implementation}
 
-By default, [!DNL Target] creates a global mbox called target-global-mbox, which is used to run activities created in [!DNL Target]. Tuttavia, se hai già creato una mbox globale sulle tue pagine per le implementazioni legacy, puoi utilizzarla anche per le attività di [!DNL Target].
+Per impostazione predefinita, [!DNL Target] crea una mbox globale denominata target-global-mbox, utilizzata per eseguire le attività create in [!DNL Target]. Tuttavia, se hai già creato una mbox globale sulle tue pagine per le implementazioni legacy, puoi utilizzarla anche per le attività di [!DNL Target].
 
 >[!NOTE]
 >
@@ -22,13 +22,13 @@ By default, [!DNL Target] creates a global mbox called target-global-mbox, which
 
 Per utilizzare la mbox globale esistente sia per [!DNL Target] che per l&#39;implementazione precedente, è necessario impostare alcuni parametri.
 
-1. Go to [!DNL Target], then click **[!UICONTROL Administration]** > **[!UICONTROL Implementation]**.
+1. Vai a [!DNL Target], quindi fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
-   By default, **[!UICONTROL Page load enabled (Auto-create global mbox]** is enabled, and the custom global mbox is named `target-global-mbox`.
+   Per impostazione predefinita, **[!UICONTROL Caricamento pagina abilitato (Creazione automatica di mbox globale]** è abilitata, e la mbox globale personalizzata è denominata `target-global-mbox`.
 
-1. If you want to use an existing mbox, disable **[!UICONTROL Page load enabled (Auto-create global mbox]**, and specify the name of a previously created global mbox in the **[!UICONTROL Global Mbox]** field.
+1. Se desiderate utilizzare una mbox esistente, disattivate il caricamento di **[!UICONTROL pagina abilitato (create automaticamente mbox globale]**) e specificate il nome di una mbox globale creata in precedenza nel campo **[!UICONTROL Mbox globale]**.
 
-   The [!UICONTROL Global Mbox] drop-down lists all mboxes in your account. Per utilizzare una mbox non esistente, creala.
+   L&#39;elenco a discesa [!UICONTROL Mbox globale] elenca tutte le mbox nell&#39;account. Per utilizzare una mbox non esistente, creala.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -44,4 +44,4 @@ Le seguenti domande frequenti possono essere utilizzate per risolvere eventuali 
 
 ### Perché la mbox globale non viene caricata o perché c&#39;è latenza nel caricamento della mbox globale quando la pagina viene caricata?
 
-Assicuratevi che il riferimento at.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, consultate [Global mbox Frequently Asked Questions (Domande](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md)globali più frequenti).
+Assicuratevi che il riferimento at.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, consultate [Global mbox Frequently Asked Questions](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/global-mbox-frequently-asked-questions.md) (Domande frequenti globali sulla mbox).
