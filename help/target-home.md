@@ -45,7 +45,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Note sulla versione di Target](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a Target](c-intro/intro.md): spiega i concetti principali della soluzione [!DNL Target].
 - Integrare Target con Adobe Experience Cloud: Spiega come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
-- [Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html)Adobe Target: Fornisce esercitazioni e video per aiutarti a trarre il massimo da Target.
+- [ Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target: Fornisce esercitazioni e video per aiutarti a trarre il massimo da Target.
 - [Risoluzione dei problemi di Target](r-troubleshooting-target/troubleshooting-target.md): fornisce collegamenti alle informazioni sulla risoluzione dei problemi contenute in questa guida, tra cui informazioni sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Target].
 - [Target per le app per dispositivi mobili](c-target-mobile-app/target-mobile-app.md): illustra come utilizzare [!DNL Target] per l’ottimizzazione e la personalizzazione delle app per dispositivi mobili.
 - [Risorse e informazioni di contatto](cmp-resources-and-contact-information.md): fornisce informazioni su risorse aggiuntive relative alle funzioni di [!DNL Target] e a come contattare [!DNL Adobe] in caso di bisogno di assistenza.
@@ -57,25 +57,25 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
 - [Recommendations](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
 
-## Sviluppatori {#developers}
+## Sviluppatori  {#developers}
 
 - [Implementare Target](c-implementing-target/implementing-target.md): illustra come implementare [!DNL Target] su siti Web, app mobili, app a pagina singola (SPA) e piattaforme iOT/OTT.
-- [API](https://developers.adobetarget.com/api/delivery-api/)lato server di destinazione: Descrive le risorse che compongono  Adobe Target Delivery API.
-- [SDK](https://github.com/adobe/target-nodejs-sdk)NodeJS di destinazione: Spiega come distribuire lato server di Target. Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
-- [SDK](https://github.com/adobe/target-java-sdk)Java di destinazione: Spiega come distribuire lato server di Target. Java SDK consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
-- [API](https://developers.adobetarget.com/api/recommendations/)Recommendations Target: Descrive le risorse che compongono l&#39;API ufficiale  Adobe Target Recommendations.
-- [Target  documentazione](http://developers.adobetarget.com/api/#introduction)Adobe.IO: Descrive come utilizzare le API REST di Target per l&#39;amministrazione e il profilo che utilizzano l&#39;integrazione  Adobe.IO per gestire attività, audience, offerte, proprietà, report, mbox, ambienti e profili.
+- [API](https://developers.adobetarget.com/api/delivery-api/) lato server di destinazione: Descrive le risorse che compongono  Adobe Target Delivery API.
+- [SDK](https://github.com/adobe/target-nodejs-sdk) NodeJS di destinazione: Spiega come distribuire lato server di Target. Questo SDK Node.js consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
+- [SDK](https://github.com/adobe/target-java-sdk) Java di destinazione: Spiega come distribuire lato server di Target. Java SDK consente di integrare facilmente Target con altre soluzioni Adobe Experience Cloud.
+- [API](https://developers.adobetarget.com/api/recommendations/) Recommendations Target: Descrive le risorse che compongono l&#39;API ufficiale  Adobe Target Recommendations.
+- [Target  documentazione](http://developers.adobetarget.com/api/#introduction) Adobe.IO: Descrive come utilizzare le API REST di Target per l&#39;amministrazione e il profilo che utilizzano l&#39;integrazione  Adobe.IO per gestire attività, audience, offerte, proprietà, report, mbox, ambienti e profili.
 
 ## Amministratori di Target e Adobe Experience Cloud {#admins}
 
 - [Amministrare Target](administrating-target/administrating-target.md): illustra come aggiungere utenti e configurare l’account [!DNL Target].
 
-## Analisti {#analysts}
+## Analisti  {#analysts}
 
 - [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Rapporti](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
 
-## Addetti al controllo qualità {#qa}
+## Addetti al controllo qualità  {#qa}
 
 - [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
 
@@ -83,4 +83,4 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 | Assistenza per soluzioni di Adobe [!DNL Target] | Risorse di [!DNL Adobe Experience Cloud] |
 |--- |--- |
-| <ul><li>[informazioni e supporto per Adobe Target](https://helpx.adobe.com/it/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Documentazione API di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum della community di Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Pagina principale dell&#39;assistenza di Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentazione Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
+| <ul><li>[ informazioni e supporto per Adobe Target](https://helpx.adobe.com/it/support/target.html)</li><li>[Recommendations Premium](c-recommendations/recommendations.md)</li><li>[Adobe Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf)</li><li>[Search&amp;Promote](https://experienceleague.adobe.com/docs/search-promote/using/sp-home.html)</li><li>[Documentazione API di Target](c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md)</li></ul> | <ul><li>[Forum della community di Target](https://forums.adobe.com/community/experience-cloud/marketing-cloud/target)</li><li>[Note sulla versione di Experience Cloud](https://experienceleague.adobe.com/docs/release-notes/experience-cloud/current.html)</li><li>[Pagina principale dell&#39;assistenza di Experience Cloud](https://helpx.adobe.com/support/experience-cloud.html)</li><li>[Documentazione Adobe Experience Cloud](https://experienceleague.adobe.com/docs/experience-cloud/user-guides/home.html)</li><li>[Formazione e tutorial di Adobe](https://helpx.adobe.com/learning.html?promoid=KAUDK)</li></ul> |  |
