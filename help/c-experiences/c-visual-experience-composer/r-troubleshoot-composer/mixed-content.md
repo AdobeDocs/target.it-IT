@@ -12,13 +12,13 @@ ht-degree: 35%
 ---
 
 
-# Enabling mixed content in your browser{#enabling-mixed-content-in-your-browser}
+# Abilitazione di contenuti misti nel browser{#enabling-mixed-content-in-your-browser}
 
-Il contenuto misto si verifica se il contenuto HTTPS (protetto) ** e HTTP (non sicuro) viene caricato per visualizzare la stessa pagina Web e la richiesta iniziale è stata protetta tramite HTTPS.
+Il contenuto misto si verifica se il contenuto HTTPS (protetto) *e* HTTP (non sicuro) viene caricato per visualizzare la stessa pagina Web e la richiesta iniziale è stata protetta tramite HTTPS.
 
 I browser più recenti potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto protetto e contenuto non protetto.
 
-If the [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tries to open a page containing mixed content, a message displays showing how to disable blocking in your browser so you can open an HTTP site or a site that has mixed calls (HTTPS and HTTP).
+Se [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tenta di aprire una pagina con contenuti misti, viene visualizzato un messaggio che mostra come disattivare il blocco nel browser in modo da poter aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
 
 ![avviso di contenuto misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
@@ -34,7 +34,7 @@ Se il sito web è in esecuzione su un dominio non protetto (HTTP), è necessario
 
 Per ulteriori informazioni, vedi la sezione sui [contenuto misti](https://developer.mozilla.org/en-US/docs/Web/Security/Mixed_content) nel sito web di *Mozilla Developer Network* (MDN).
 
-## Enabling mixed content in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
+## Abilitazione di contenuti misti in Google Chrome {#task_FF297A08F66E47A588C14FD67C037B3A}
 
 Se visitate un sito tramite una connessione protetta, Chrome verifica che il contenuto della pagina Web sia stato trasmesso in modo sicuro.
 
@@ -42,17 +42,17 @@ Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/c
 
 Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Impostazioni **** sito.
+1. Fare clic sull&#39;icona Blocca o Avviso, quindi fare clic su **[!UICONTROL Impostazioni sito]**.
 
    ![Impostazioni sito](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
-1. Scorri fino al contenuto **** non protetto, quindi usa l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
+1. Scorrete fino a **[!UICONTROL Contenuto non sicuro]**, quindi utilizzate l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
 
    ![Contenuto non protetto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/insecure-content.png)
 
 1. Ricaricare la pagina VEC.
 
-## Enabling mixed content in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
+## Abilitazione di contenuti misti in Mozilla Firefox {#task_5448763B8DC941FD80F84041AEF0A14D}
 
 Per impostazione predefinita, Firefox blocca le pagine che contengono un misto di contenuti protetti e non protetti. Si consiglia di modificare definitivamente questa impostazione per utilizzare [!DNL Target]. I visitatori del sito non devono completare questi passaggi.
 
@@ -79,11 +79,11 @@ Se visitate un sito tramite una connessione protetta, Edge verifica che il conte
 
 Se utilizzate il VEC con la versione più recente di Edge, dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su Autorizzazioni **** sito.
+1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su **[!UICONTROL Autorizzazioni sito]**.
 
    ![Autorizzazioni del sito in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
-1. Scorri fino al contenuto **** non protetto, quindi usa l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
+1. Scorrete fino a **[!UICONTROL Contenuto non sicuro]**, quindi utilizzate l&#39;elenco a discesa per cambiare &quot;Blocca (predefinito)&quot; in &quot;Consenti&quot;.
 
    ![Contenuto non protetto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge-2.png)
 
