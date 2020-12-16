@@ -31,7 +31,7 @@ Questi dati su ciascun elemento possono essere utilizzati per:
 * Ordinare gli elementi in raccolte diverse
 * Applicare esclusioni alle raccomandazioni
 
-Le descrizioni degli elementi possono essere trasmesse in [!DNL Target] feed o mbox. Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
+Le descrizioni degli elementi possono essere trasmesse in [!DNL Target] utilizzando feed o mbox. Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
 
 Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]** > **[!UICONTROL Feed]**, sono incluse informazioni su eventuali feed creati.
 
@@ -118,13 +118,13 @@ Se disponi di un feed di prodotto Google, puoi utilizzarlo come file di importaz
 >
 >Non è necessario utilizzare i dati di Google. [!DNL Recommendations] utilizza semplicemente lo stesso formato di Google. Puoi utilizzare questo metodo per caricare qualsiasi dato a tua disposizione e utilizzare le funzioni di pianificazione disponibili. Tuttavia, quando imposti il file dovrai mantenere i nomi degli attributi predefiniti di Google.
 
-La maggior parte dei venditori caricano i prodotti in Google per far sì che questi vengano visualizzati quando un visitatore utilizza Google Product Search. [!DNL Recommendations] segue esattamente le specifiche di Google per i feed di entità. Entity feeds can be sent to [!DNL Recommendations] via .xml, .txt, or .tsv, and can use the [attributes defined by Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). È possibile cercare i risultati nelle [pagine di Google Shopping](https://www.google.com/prdhp).
+La maggior parte dei venditori caricano i prodotti in Google per far sì che questi vengano visualizzati quando un visitatore utilizza Google Product Search. [!DNL Recommendations] segue esattamente le specifiche di Google per i feed di entità. I feed di entità possono essere inviati a [!DNL Recommendations] tramite .xml, .txt o .tsv e possono utilizzare gli attributi [definiti da Google](https://support.google.com/merchants/answer/188494?hl=en&amp;topic=2473824&amp;ctx=topic#US). È possibile cercare i risultati nelle [pagine di Google Shopping](https://www.google.com/prdhp).
 
 >[!NOTE]
 >
 >È necessario consentire il metodo POST sul server che ospita il contenuto del feed di Google.
 
-Because [!DNL Recommendations] users already configure .xml or .txt feeds to send to Google either via URL or FTP, entity feeds accept that product data and use it to build out the recommendations catalog. Specifica la posizione di tale feed per fare in modo che il server dei consigli recuperi i dati.
+Poiché gli utenti [!DNL Recommendations] configurano già i feed .xml o .txt da inviare a Google tramite URL o FTP, i feed di entità accettano tali dati di prodotto e li utilizzano per creare il catalogo delle raccomandazioni. Specifica la posizione di tale feed per fare in modo che il server dei consigli recuperi i dati.
 
 Se utilizzi Google Product Search per il caricamento del feed di entità, dovrà essere presente una mbox sulla pagina in cui desideri mostrare i consigli o monitorare le visualizzazioni dei prodotti per gli algoritmi di distribuzione basati sulle visualizzazioni.
 
@@ -209,19 +209,19 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificazioni di prodotto Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. For more information about this classification file, see [About classifications](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) in the *Analytics Components* guide. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
+La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella guida *Componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
 
 >[!IMPORTANT]
 >
->Before importing entity data into [!DNL Recommendations] using Analytics product classifications, be aware that this is not the preferred method.
+>Prima di importare i dati di entità in [!DNL Recommendations] utilizzando le classificazioni dei prodotti Analytics, tenete presente che questo non è il metodo preferito.
 >
 > In particolare, tieni conto dei seguenti aspetti:
 >
 >* Gli aggiornamenti agli attributi di entità subiscono un ritardo aggiuntivo fino a 24 ore.
->* [!DNL Target] supporta solo classificazioni di prodotto. The Analytics product SKU must map to the same level as the [!DNL Recommendations] `entity.id`. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
+>* [!DNL Target] supporta solo classificazioni di prodotto. Lo SKU del prodotto Analytics deve corrispondere allo stesso livello del [!DNL Recommendations] `entity.id`. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
-## Creazione di un feed {#steps}
+## Creazione di un feed  {#steps}
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
@@ -236,7 +236,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Feed di prodotto Google
    * Classificazioni Analytics
 
-   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). You can also [download a model CSV guide](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) to help you format the feed correctly.
+   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Potete anche [scaricare una guida CSV del modello](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) per formattare correttamente il feed.
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
@@ -284,7 +284,7 @@ Durante l’indicizzazione, prodotti e intestazioni dei feed vengono visualizzat
 
 Lo stato “Completato” indica che il file è stato trovato e analizzato correttamente. Le informazioni non sono disponibili per l’utilizzo all’interno di [!DNL Recommendations] finché il file non viene indicizzato, operazione che può richiedere un po’ di tempo, a seconda della dimensione del file. Se il processo non riesce, il file non è stato trovato (ad esempio, hai utilizzato un URL o informazioni FTP errati), o si è verificato un errore di analisi.
 
-## Stati e indicatori dei feed {#concept_E475986720D1400999868B3DFD14A7A0}
+## Stati e indicatori dei feed  {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informazioni sui possibili stati dei feed e sui relativi indicatori.
 
@@ -309,7 +309,7 @@ Per aggiornare un feed (ad esempio, per apportare modifiche alla configurazione 
 
 >[!IMPORTANT]
 >
->Le entità caricate scadono dopo 61 giorni. Significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un’interruzione delle attività di Consigli. If an item is not included in a feed file (or other entity update method) at least once every 60 days, [!DNL Adobe Target] infers the item is no longer relevant and removes it from the catalog.
+>Le entità caricate scadono dopo 61 giorni. Significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un’interruzione delle attività di Consigli. Se un elemento non è incluso in un file di feed (o altro metodo di aggiornamento entità) almeno una volta ogni 60 giorni, [!DNL Adobe Target] deduce che l&#39;elemento non è più rilevante e lo rimuove dal catalogo.
 
 ### Indicatori di stato dei feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Informazioni sui feed in Recommendations (3:01) ![badge Panoramica](/help/assets/overview.png)
+### Informazioni sui feed in Recommendations (3:01)  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -351,7 +351,7 @@ Questo video contiene le seguenti informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creare un feed (6:44) ![Badge di esercitazione](/help/assets/tutorial.png)
+### Creare un feed (6:44)  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
