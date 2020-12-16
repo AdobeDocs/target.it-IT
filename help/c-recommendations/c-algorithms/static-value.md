@@ -12,9 +12,9 @@ ht-degree: 48%
 ---
 
 
-# ![Filtro statico PREMIUM](/help/assets/premium.png)
+# ![Filtro ](/help/assets/premium.png) PREMIUMStatic
 
-Immettete manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target][!DNL Recommendations].
+Immettere manualmente uno o più valori statici da filtrare utilizzando le regole di inclusione in [!DNL Adobe Target] [!DNL Recommendations].
 
 Ad esempio, si consiglia solo il contenuto con una valutazione MPA (Motion Picture Association) pari a &quot;G&quot; o &quot;PG&quot;.
 
