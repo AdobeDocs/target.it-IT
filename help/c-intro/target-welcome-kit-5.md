@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Capitolo 5: Ispirazione per attività di test e personalizzazione.
 
-Queste idee di test e personalizzazione, ispirate ad attività reali svolte dai nostri clienti che hanno incrementato i tassi di conversione e le entrate, valgono la pena di provare o usare come ispirazione per le tue [!DNL Target] attività. Anche se l&#39;idea non è adatta alla vostra organizzazione, con una piccola creatività e un brainstorming, prendete in considerazione la possibilità di sviluppare un&#39;attività basata sullo spirito del test o dell&#39;idea di personalizzazione.
+Queste idee di test e personalizzazione, ispirate ad attività reali svolte dai nostri clienti che hanno incrementato i tassi di conversione e le entrate, valgono la pena provare o usare come ispirazione per le tue attività [!DNL Target]. Anche se l&#39;idea non è adatta alla vostra organizzazione, con una piccola creatività e un brainstorming, prendete in considerazione la possibilità di sviluppare un&#39;attività basata sullo spirito del test o dell&#39;idea di personalizzazione.
 
 ## Idea 1: Test della personalizzazione del percorso del cliente.
 
