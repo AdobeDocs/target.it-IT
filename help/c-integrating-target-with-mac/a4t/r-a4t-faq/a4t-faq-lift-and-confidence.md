@@ -28,7 +28,7 @@ L’incremento è la differenza percentuale tra i risultati della pagina di cont
 
 Il livello di affidabilità è la probabilità che il tasso di conversione misurato differisca dal tasso di conversione della pagina campione per ragioni diverse dalla sola casualità.
 
-## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate? {#lift-confidence}
+## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate?  {#lift-confidence}
 
 Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e confidenza. Ciò è dovuto al fatto che Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. La confidenza, in particolare, è un calcolo a livello di visitatore.
 
@@ -39,10 +39,10 @@ Esempi di metriche o casi di utilizzo non supportati:
 * Valore ordine medio (ricavi/ordine, per visitatore). AOV non è supportato perché il numeratore è una metrica calcolata. Al contrario, la raccomandazione è di considerare le due metriche influenti di AOV - Revenue per Visitors (Entrate per visitatore) e Conversion Rate (Tasso di conversione).
 * Metriche calcolate che rappresentano la somma degli eventi standard. Ad esempio, potete tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli insieme per ottenere il totale degli invii lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio dei lead in Analytics e quindi utilizzare un eVar  per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili e garantisce l’utilizzo della metrica di invio dei lead nelle funzioni di incremento e confidenza.
 
-## Come gestisce A4T i calcoli di affidabilità? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
+## Come gestisce A4T i calcoli di affidabilità?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
 A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono presi in considerazione. Inoltre, il calcolo della confidenza non applica una correzione Bonferroni per offerte multiple.
 
-## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
+## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io?  {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
 Incremento e affidabilità non funzionano in Ad Hoc e Report Builder e non puoi calcolarli per variabili continue. È possibile calcolarli manualmente per metriche binarie.
