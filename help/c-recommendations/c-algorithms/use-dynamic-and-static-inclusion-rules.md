@@ -15,7 +15,7 @@ ht-degree: 39%
 
 # ![PREMIUM](/help/assets/premium.png) Utilizzare regole di inclusione dinamiche e statiche{#use-dynamic-and-static-inclusion-rules}
 
-Information about creating inclusion rules for criteria and promotions in [!DNL Adobe Target] and adding additional dynamic or static filtering rules to achieve better results for your recommendations.
+Informazioni sulla creazione di regole di inclusione per criteri e promozioni in [!DNL Adobe Target] e sull&#39;aggiunta di ulteriori regole di filtro dinamiche o statiche per ottenere risultati migliori per le raccomandazioni.
 
 >[!NOTE]
 >
@@ -37,7 +37,7 @@ Durante la [creazione di una promozione](/help/c-recommendations/t-create-recs-a
 
 ## Tipi di filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
-Nelle sezioni seguenti sono elencati i tipi di opzioni di filtro per Filtro [!UICONTROL dinamico] e [!UICONTROL Filtro per valore] per criteri e promozioni:
+Nelle sezioni seguenti sono elencati i tipi di opzioni di filtro per [!UICONTROL Filtro dinamico] e [!UICONTROL Filtro per valore] per criteri e promozioni:
 
 ### Filtraggio dinamico
 
@@ -55,9 +55,9 @@ Per il filtro dinamico sono disponibili le seguenti opzioni:
 
 | Filtro dinamico, opzione | Dettagli |
 | --- | --- |
-| [Corrispondenza attributo entità](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui gli utenti hanno interagito.<br>Utilizzate Corrispondenza [!UICONTROL attributi] entità per mostrare le raccomandazioni più probabili per il visitatore, ad esempio il marchio preferito del visitatore. |
-| [Corrispondenza attributo profilo](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nel profilo dell&#39;utente.<br>Utilizzate la corrispondenza [!UICONTROL attributo] profilo per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito. |
-| [Corrispondenza parametro](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).<br>Utilizzate [!UICONTROL Corrispondenza] parametri per raccomandare il contenuto che corrisponda ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità. |
+| [Corrispondenza attributo entità](/help/c-recommendations/c-algorithms/entity-attribute-matching.md) | Filtrare in modo dinamico confrontando un insieme di potenziali elementi delle raccomandazioni con un elemento specifico con cui gli utenti hanno interagito.<br>Utilizzate  [!UICONTROL Entity Attribute ] Matchinging (Corrispondenza attributi entità) per mostrare le raccomandazioni più probabili per il visitatore, ad esempio il marchio preferito del visitatore. |
+| [Corrispondenza attributo profilo](/help/c-recommendations/c-algorithms/profile-attribute-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nel profilo dell&#39;utente.<br>Utilizzate  [!UICONTROL Profile Attribute ] Matchinging (Corrispondenza attributi profilo) per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito. |
+| [Corrispondenza parametro](/help/c-recommendations/c-algorithms/parameter-matching.md) | Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).<br>Utilizzate  [!UICONTROL Corrispondenza ] parametri per raccomandare il contenuto che corrisponda ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità. |
 
 ### Filtra per valore
 
@@ -79,9 +79,9 @@ Gli esempi seguenti forniscono idee generali su come utilizzare le promozioni di
 | Non uguale | Utilizzando l&#39;operatore &quot;non uguale&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi da:<ul><li>una serie TV diversa</li><li>un genere diverso</li><li>una serie di prodotti diversi</li><li>un ID di stile diverso</li></ul> |
 | È tra | Utilizzando l&#39;operatore &quot;è compreso&quot; nelle promozioni dinamiche, quando un visitatore visualizza un elemento sul sito Web (ad esempio un prodotto, un articolo o un filmato) potete promuovere altri elementi:<ul><li>più costosi</li><li>meno costosi</li><li>più o meno costosi del 30%</li><li>episodi successivi nella stessa stagione</li><li>libri precedenti in una collana</li></ul> |
 
-## Handling empty values when filtering by Entity Attribute Matching, Profile Attribute Matching, and Parameter Matching {#section_7D30E04116DB47BEA6FF840A3424A4C8}
+## Gestione dei valori vuoti durante il filtraggio per corrispondenza attributi entità, corrispondenza attributi profilo e corrispondenza parametri {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
-You can choose several options to handle empty values when filtering by [!UICONTROL Entity Attribute Matching], [!UICONTROL Profile Attribute Matching], and [!UICONTROL Parameter Matching] for exit criteria and promotions.
+Potete scegliere diverse opzioni per gestire i valori vuoti durante il filtraggio per [!UICONTROL Corrispondenza attributi entità], [!UICONTROL Corrispondenza attributi profilo] e per [!UICONTROL Corrispondenza parametri] per criteri e promozioni di uscita.
 
 In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L&#39;elenco a discesa “Se *x* è vuoto” consente di scegliere l&#39;azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
 
@@ -91,16 +91,16 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza] attributi profilo[!UICONTROL e corrispondenza parametri] | This is the default action for [!UICONTROL Profile Attribute Matching] and [!UICONTROL Parameter Matching].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
-| [!UICONTROL Non mostrare risultati per questo criterio]<br>(solo criteri) | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
-| [!UICONTROL Non promuovere elementi<br>(solo Promozioni)] | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | This is the default action for [!UICONTROL Entity Attribute Matching].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
-| [!UICONTROL Usa un valore statico] | [!UICONTROL Corrispondenza]attributi entità, corrispondenza attributi [!UICONTROL profilo]e corrispondenza [!UICONTROL parametri] | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
+| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza attributi profilo ] [!UICONTROL e corrispondenza parametri] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributi profilo] e [!UICONTROL Corrispondenza parametri].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| [!UICONTROL Non mostrare risultati per questo criterio]<br> (solo criteri) | [!UICONTROL Corrispondenza] attributi entità, corrispondenza attributi  [!UICONTROL profilo] e corrispondenza  [!UICONTROL parametri] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| [!UICONTROL Non promuovere elementi<br> (solo Promozioni)] | [!UICONTROL Corrispondenza] attributi entità, corrispondenza attributi  [!UICONTROL profilo] e corrispondenza  [!UICONTROL parametri] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| [!UICONTROL Usa un valore statico] | [!UICONTROL Corrispondenza] attributi entità, corrispondenza attributi  [!UICONTROL profilo] e corrispondenza  [!UICONTROL parametri] | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
 
 ## Avvertenze {#section_A889FAF794B7458CA074DEE06DD0E345}
 
 >[!IMPORTANT]
 >
->Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. You should use [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory], and [!UICONTROL Environment] values wisely on the right hand side if the left hand side has predefined attributes or custom attributes.
+>Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. È consigliabile utilizzare i valori [!UICONTROL Value], [!UICONTROL Margin], [!UICONTROL Inventory] e [!UICONTROL Environment] saggiamente sul lato destro se il lato sinistro dispone di attributi predefiniti o personalizzati.
 
 ![](assets/left_right.png)
 
