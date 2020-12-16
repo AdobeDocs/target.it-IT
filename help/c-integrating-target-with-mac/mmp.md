@@ -16,4 +16,4 @@ ht-degree: 78%
 
 Experience Cloud Audiences permette alle soluzioni Adobe Experience Cloud di comunicare e condividere informazioni sui visitatori del sito web in modo che gli stessi dati possano essere utilizzati da ogni soluzione.
 
-Per informazioni dettagliate, vedi [Audience](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) nella Guida *utente ai servizi* di base.
+Per informazioni dettagliate, vedere [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) nella *Guida utente dei servizi di base*.
