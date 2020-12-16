@@ -20,7 +20,7 @@ Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte
 >
 >Questo argomento contiene informazioni su `mboxSession` e `mboxPC`. Le nostre best practice di implementazione consigliano di non collegare o archiviare informazioni sensibili con i dati dei cookie: `mboxSession` o `mboxPC`.
 
-See also [Delete the Target cookie](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
+Vedere anche [Eliminare il cookie di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cookie-deleting.md).
 
 ## Quando utilizzare un cookie di prima parte o di terze parti {#section_F71B29420C004A7FA3B1921E619B326E}
 
