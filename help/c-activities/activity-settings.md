@@ -25,9 +25,9 @@ Utilizza le Impostazioni attività per gestire la finalità, la priorità e la d
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   If this option is not enabled in [!UICONTROL Administration] > [!UICONTROL Reporting] (the default), specify a priority: Low, Medium, or High.
+   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
 
-   To enable fine-grained priorities, click [!UICONTROL Administration] > [!UICONTROL Reporting], then toggle the [!UICONTROL Enable Fine-Grained Priorities] option to the &quot;On&quot; position.
+   Per abilitare le priorità con granulosità fine, fare clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attivare l&#39;opzione [!UICONTROL Abilita priorità con granulosità fine] nella posizione &quot;Attivato&quot;.
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -56,7 +56,7 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Consigli](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Impostazioni attività  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
