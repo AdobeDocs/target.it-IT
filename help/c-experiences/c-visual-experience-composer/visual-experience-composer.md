@@ -19,7 +19,7 @@ Il Compositore esperienza visivo è l’interfaccia utente WYSIWYG che consente 
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
-On the Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** tab, you can enter the Default Visual Experience Composer URL.
+Nella scheda Target **[!UICONTROL Administration]** > **[!UICONTROL Visual Experience Composer]** (Compositore esperienza visivo), potete immettere l&#39;URL predefinito di Visual Experience Composer (Compositore esperienza visivo).
 
 ![Impostazioni predefinite dell’URL del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/assets/pref-default-url-new.png)
 
@@ -112,14 +112,14 @@ Per continuare a gestire le esperienze nell’attività corrente o per aggiunger
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Visual Experience Composer (1 di 2) (7:17) ![Badge delle esercitazioni](/help/assets/tutorial.png)
+### Visual Experience Composer (1 di 2) (7:17) ![Logo di esercitazione](/help/assets/tutorial.png)
 
 * Modificare il contenuto di una pagina
 * Modificare il layout di una pagina
 
 >[!VIDEO](https://video.tv.adobe.com/v/17399)
 
-### Visual Experience Composer (2 di 2) (7:29) ![Badge delle esercitazioni](/help/assets/tutorial.png)
+### Visual Experience Composer (2 di 2) (7:29) ![Logo di esercitazione](/help/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
@@ -130,7 +130,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!VIDEO](https://video.tv.adobe.com/v/17401)
 
-### Orario ufficio: distintivo ![Esercitazione di Visual Experience Composer (Compositore esperienza visivo)](/help/assets/tutorial.png)
+### Orario ufficio: Visual Experience Composer (Compositore esperienza visivo) ![Logo di esercitazione](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
