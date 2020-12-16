@@ -20,13 +20,13 @@ Problemi di visualizzazione e altri problemi possono verificarsi in Visual Exper
 
 Con le ultime modifiche (agosto 2020), tutti gli utenti con Chrome 80+ versioni del browser:
 
-* *Non* sarà possibile utilizzare il VEC (con o senza l&#39;estensione VEC Helper installata e attivata) nelle pagine protette da password dei loro siti. Questo perché i cookie di accesso al sito verranno considerati cookie di terze parti e non verranno inviati con la richiesta di accesso. L&#39;unica eccezione è rappresentata dal caso in cui il cookie di login del sito cliente abbia già il parametro SameSite impostato su &quot;none&quot;.
-* *Non* sarà possibile scaricare [!DNL Target] le librerie durante la modifica di un&#39;attività (se non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe  protetto e viene rifiutata come non autenticata.
-* La CEE *non* funziona per tutti gli utenti perché non è in grado di impostare l&#39;attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuterà questi cookie, causando il fallimento della CEE.
+* *non* sarà in grado di utilizzare il VEC (con o senza l&#39;estensione VEC Helper installata e attivata) nelle pagine protette da password dei propri siti. Questo perché i cookie di accesso al sito verranno considerati cookie di terze parti e non verranno inviati con la richiesta di accesso. L&#39;unica eccezione è rappresentata dal caso in cui il cookie di login del sito cliente abbia già il parametro SameSite impostato su &quot;none&quot;.
+* *non* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe  protetto e viene rifiutata come non autenticata.
+* La funzione CEE *not* non è disponibile per tutti gli utenti perché non è in grado di impostare l&#39;attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuterà questi cookie, causando il fallimento della CEE.
 
- Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi del cookie per impostare l’ `SameSite="none"` attributo, se necessario. L&#39;estensione [aggiornata è disponibile qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, consultate Estensione [helper di](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)Visual Experience Composer (Compositore esperienza visivo).
+ Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi del cookie per impostare l&#39;attributo `SameSite="none"`, se necessario. L&#39;estensione [aggiornata è disponibile qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, vedere [Estensione helper di Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore [!UICONTROL Cookie] , quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [Cookie](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) Adobe Target nella Guida *utente dell&#39;interfaccia di* Experience Cloud.
+Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore [!UICONTROL Cookie], quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [ Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) nella *Guida utente dell&#39;interfaccia del Experience Cloud*.
 
 ![I cookie si attivano nell&#39;estensione del supporto VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
@@ -34,9 +34,9 @@ Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore
 
 Utilizzare una delle seguenti opzioni per garantire che il VEC e la CEE continui a funzionare come previsto:
 
-* Scaricate e utilizzate l&#39;estensione [](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)VEC Helper aggiornata.
+* Scaricate e utilizzate l&#39;estensione [VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) aggiornata.
 * Utilizzate il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
-* Continuate a utilizzare Chrome, ma impostate il `chrome://flags/#same-site-by-default-cookies` flag su &quot;Disattivato&quot;.
+* Continuate a utilizzare Chrome, ma impostate il flag `chrome://flags/#same-site-by-default-cookies` su &quot;Disabled&quot;.
 
    >[!NOTE]
    >
@@ -93,7 +93,7 @@ Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la 
 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Click **[!UICONTROL Administation]** > **[!UICONTROL Visual Experience Composer]**, then select the check box that enables the Enhanced Experience Composer. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
+Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]**, quindi selezionate la casella di controllo che abilita Enhanced Experience Composer (Compositore esperienza avanzato). Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
 
 >[!NOTE]
 >
