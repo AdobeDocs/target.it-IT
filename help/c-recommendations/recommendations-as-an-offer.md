@@ -121,6 +121,6 @@ Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella p
 
 ![Stato di un’offerta Consigli](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Video di formazione: Recommendations come badge ![Panoramica dell&#39;offerta](/help/assets/overview.png)
+## Video di formazione: Recommendations come offerta ![Logo Panoramica](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
