@@ -50,7 +50,7 @@ L’illustrazione seguente mostra un pubblico che include gli utenti che accedon
 
 ## Precisione {#section_D63D5FFCB49C42F9933AFD0BD7C79DF1}
 
-La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La precisione del geotargeting dipende da diversi fattori. Le connessioni Wi-Fi sono più accurate delle reti cellulari. Quando il visitatore utilizza una connessione dati cellulare, la precisione della ricerca geografica può essere influenzata dalla posizione, dal rapporto dati del provider con [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester) e da altri fattori. Le connessioni di rete basate su stazioni cellulari possono essere meno precise delle connessioni cablate o Wi-Fi. Inoltre, l&#39;indirizzo IP di un visitatore può essere mappato alla relativa posizione ISP, che può non coincidere con la posizione effettiva del visitatore. Alcuni problemi di geolocalizzazione per dispositivi mobili possono essere risolti utilizzando l&#39; [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 Nella seguente tabella viene mostrata la precisione delle informazioni geografiche basate su IP da [DigitalEnvoy](https://www.digitalelement.com/solutions/) per connessioni internet cablate o Wi-Fi. DigitalEnvoy fornisce i dati più precisi del settore. La precisione globale è superiore al 99,9% a livello di paese e fino al 97% a livello di città. Le informazioni di precisione non si applicano alle reti basate su stazioni cellulari.
 
@@ -116,7 +116,7 @@ Ad esempio, utilizza:
 
 **Come funziona il geotargeting per i dispositivi mobili?**
 
-La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Some mobile geo-location issues can be solved using the [Geolocation API](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La stragrande maggioranza degli utenti che usa dispositivi mobili accede al contenuto via Wi-Fi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello basato sulla posizione di un computer desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione per dispositivi mobili possono essere risolti utilizzando l&#39; [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?**
 
@@ -141,17 +141,17 @@ Prima di eseguire questa operazione è necessario eliminare i cookie.
 
 >[!NOTE]
 >
->`mboxOverride.browserIp` è supportato solo in at.js 1.*jx* . Questa funzionalità non è supportata in at.js 2.*x*.
+>`mboxOverride.browserIp` è supportato in at.js 1.** jxonly. Questa funzionalità non è supportata in at.js 2.*x*.
 
 **Come vengono mappati territori come Porto Rico e Hong Kong nella struttura di geotargeting?**
 
 Porto Rico, Hong Kong e altri territori vengono considerati valori “Paese” separati.
 
-**Acquisisce (e archivia) [!DNL Target] informazioni come i codici ZIP quando l&#39;attività è mirata con le funzionalità di targeting geografico?**
+**Vengono  [!DNL Target] acquisite (e archiviate) informazioni come i codici ZIP quando l&#39;attività viene mirata con le funzionalità di targeting delle geolocalità?**
 
 No, [!DNL Target] utilizza dati geografici solo per la durata della sessione, quindi i dati vengono scartati.
 
-## Video di formazione: Creazione del contrassegno ![Esercitazione sull&#39;audience](/help/assets/tutorial.png)
+## Video di formazione: Creazione di audience ![Logo di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
