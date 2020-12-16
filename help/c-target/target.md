@@ -28,7 +28,7 @@ Quando un visitatore arriva su una pagina in cui hai impostato un&#39;attività,
 
 Se il visitatore è identificato come parte di un pubblico, [!DNL Target]Target determina quale esperienza mostrare, in base ai criteri stabiliti quando hai creato il test.
 
-## Video di formazione: Targeting di attività (2:13) ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Targeting di attività (2:13)  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare il targeting e i tipi di pubblico.
 
