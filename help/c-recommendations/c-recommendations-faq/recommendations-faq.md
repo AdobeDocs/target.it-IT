@@ -20,7 +20,7 @@ Elenco delle domande frequenti sulle  attività di Adobe Target Recommendations.
 
 Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
 
-Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) del cliente che fa riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
+Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema del cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerica.
 
 ## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
@@ -90,7 +90,7 @@ L’elenco seguente contiene casi speciali in cui target non visualizza la casel
 * La pagina non genera chiamate mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
 * I parametri di Target non sono definiti.
 
-## Cosa devo fare se una raccolta in Consigli va a zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Cosa devo fare se una raccolta in Consigli va a zero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considera le seguenti informazioni se noti che una raccolta, che in precedenza non lo era, va a zero:
 
@@ -118,7 +118,7 @@ Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave 
 
 ![](assets/content_similarity_example.png)
 
-## Perché Target talvolta non è in grado di mostrare i consigli? {#section_DB3F40673AED42228E407C05437D99E9}
+## Perché Target talvolta non è in grado di mostrare i consigli?  {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target a volte non può mostrare consigli a causa del basso numero di consigli disponibili.
 
@@ -135,13 +135,13 @@ Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aum
 #end 
 ```
 
-## Qual è il limite di dimensione di una chiamata API per inserire/aggiornare prodotti? È possibile aggiornare 50.000 prodotti con una chiamata utilizzando l’API al posto di un feed? {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual è il limite di dimensione di una chiamata API per inserire/aggiornare prodotti? È possibile aggiornare 50.000 prodotti con una chiamata utilizzando l’API al posto di un feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
 Target impone un limite per i post di 50 MB a livello di applicazione; tuttavia, ciò si verifica solo quando trasmetti l’intestazione del tipo di contenuto `application/x-www-form-urlencoded`.
 
 Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se questa avesse esito negativo, dovresti suddividerla in batch. Di solito consigliamo ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotto per diminuire la possibilità di un timeout dovuto al carico del sistema.
 
-## È necessario specificare il nome mbox per creare i criteri per i Consigli, le promozioni o le regole di test di modelli? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## È necessario specificare il nome mbox per creare i criteri per i Consigli, le promozioni o le regole di test di modelli?  {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Durante la creazione di un criterio di Consigli, promozioni o una regola di test di modelli basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
@@ -154,11 +154,11 @@ Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro.
 
 Se modifichi una regola di test di criteri, una promozione o un criterio, i criteri di filtraggio vengono visualizzati con il nome mbox fornito durante la creazione.
 
-## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l&#39;attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
 
-## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
+## Qual è la dimensione massima di un file CSV per un caricamento del feed?  {#section_20F1AF4839A447B9889B246D6E873538}
 
 Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, si consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente dovrebbe essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Ulteriori limiti sulla lunghezza delle colonne richieste sono disponibili nella [pagina Limitazioni di Target](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1).
 
@@ -168,13 +168,13 @@ Nella stringa di query, puoi trasmettere gli ID per le entità da escludere dai 
 
 Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta delle raccomandazioni.
 
-L&#39;esclusione viene eseguita solo per la chiamata Target corrente; gli elementi non sono esclusi dalle chiamate Target successive, a meno che il `excludedIds` valore non venga nuovamente passato. Per escludere gli elementi nel carrello dalle raccomandazioni su ogni pagina, continuate a trasmettere il `excludedIds` valore su ogni pagina.
+L&#39;esclusione viene eseguita solo per la chiamata Target corrente; gli elementi non sono esclusi dalle chiamate Target successive, a meno che il valore `excludedIds` non venga nuovamente passato. Per escludere gli elementi nel carrello dalle raccomandazioni su ogni pagina, continuate a passare il valore `excludedIds` su ogni pagina.
 
 >[!NOTE]
 >
 >Se escludi troppe entità, i consigli si comportano come se non ci fossero abbastanza entità per riempire il modello di consigli.
 
-To exclude `entityIds`, append the `&excludes=${mbox.excludedIds}` token to the offer content url. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
+Per escludere `entityIds`, aggiungete il token `&excludes=${mbox.excludedIds}` all&#39;URL del contenuto dell&#39;offerta. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
 
