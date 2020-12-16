@@ -24,7 +24,7 @@ Puoi utilizzarlo con `adobe.target.applyOffer()` per elaborare la risposta o usa
 | params | Oggetto | No | Parametri mbox. Un oggetto di coppie chiave-valore che presenta la struttura seguente:<br>`{ "param1": "value1", "param2": "value2"}` |
 | success | Funzione | Sì | Callback da eseguire quando abbiamo ricevuto una risposta dal server. La funzione di callback di successo riceverà un singolo parametro che rappresenta un array di oggetti di offerta. Esempio di callback di successo:<br>`function handleSuccess(response){......}`<br>per informazioni dettagliate, consulta le risposte sottostanti. |
 | error | Funzione | Sì | Callback da eseguire quando visualizziamo un errore. Ci sono alcuni casi che sono considerati di errore:<ul><li>Codice di stato HTTP diverso da 200 OK</li><li>La risposta non può essere analizzata. Ad esempio abbiamo generato in modo non corretto JSON o HTML invece di JSON.</li><li>La risposta contiene la chiave “Errore”. Ad esempio, è stata lanciata un&#39;eccezione sull&#39;Edge di una richiesta che non è stato possibile elaborare correttamente. Si può ricevere un errore se una mbox è bloccata e non è possibile recuperare alcun contenuto per essa, ecc. La funzione di callback di errore riceverà due parametri: stato ed errore. Ecco un esempio di callback di errore: `function handleError(status, error){......}`</li></ul>Vedi le risposte di errore qui sotto per i dettagli. |
-| timeout | Numero | No | Timeout in millisecondi. Se non viene specificato, verrà utilizzato il timeout predefinito in at.js.<br>Il timeout predefinito può essere impostato dall’ [!DNL Target] interfaccia utente in [!UICONTROL Amministrazione > Implementazione]. |
+| timeout | Numero | No | Timeout in millisecondi. Se non viene specificato, verrà utilizzato il timeout predefinito in at.js.<br>Il timeout predefinito può essere impostato dall’ [!DNL Target] interfaccia utente in  [!UICONTROL Amministrazione > Implementazione]. |
 
 ## Esempi {#section_97C2D2E03E6549BEA7F4873E3F5E4A0D}
 
@@ -89,7 +89,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Risposte {#section_CF9FD236EF794620BCBF84EB80160183}
+## Risposte  {#section_CF9FD236EF794620BCBF84EB80160183}
 
 Il parametro di risposta trasmesso al callback di successo sarà un array di azioni. Un&#39;azione è un oggetto che in genere presenta il formato seguente:
 
