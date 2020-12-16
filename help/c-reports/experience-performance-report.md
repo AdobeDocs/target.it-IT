@@ -36,7 +36,7 @@ Puoi scegliere di visualizzare le cinque esperienze migliori o peggiori, oppure 
 
 Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visualizzato ogni esperienza, così come altre informazioni rilevanti per la metrica di successo.
 
-## Video di formazione: Creare un test MVT ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare un test MVT  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 
