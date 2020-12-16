@@ -14,7 +14,7 @@ ht-degree: 68%
 
 # ![PREMIUM](/help/assets/premium.png) Configurare le autorizzazioni Enterprise{#configure-enterprise-permissions}
 
-Information about the tasks required to add users to your [!DNL Target] implementation; create workspaces, user groups, and properties; update your [!DNL Target] implementation to include the `at_property` parameter; and specify roles and permissions.
+Informazioni sulle attività necessarie per aggiungere utenti all&#39;implementazione [!DNL Target]; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l&#39;implementazione [!DNL Target] per includere il parametro `at_property`; e specificare ruoli e autorizzazioni.
 
 >[!NOTE]
 >
@@ -31,29 +31,29 @@ Nella tabella seguente sono elencate le attività da eseguire per creare proprie
 | 5: Aggiornare l’implementazione per includere il parametro `at_property` | Interfaccia utente [!DNL Target], le funzioni at.js, [!DNL Adobe Launch] o [!DNL Dynamic Tag Management] |
 | 6. Specificare ruoli e autorizzazioni | [!DNL Adobe Admin Console for Enterprise] |
 
-For those tasks performed in the [!DNL Adobe Admin Console for Enterprise], access the console by following these steps:
+Per le attività eseguite in [!DNL Adobe Admin Console for Enterprise], accedere alla console attenendosi alla seguente procedura:
 
-1. In  Adobe Target, fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** > **[!UICONTROL Assegna proprietà a aree di lavoro]**.
+1. In  Adobe Target, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** > **[!UICONTROL Assegna proprietà a aree di lavoro]**.
 
    Oppure
 
-   Go to [https://adminconsole.adobe.com/enterprise](https://adminconsole.adobe.com/enterprise/) > sign in using your Adobe ID, if you have not already logged in.
+   Andate a https://adminconsole.adobe.com/enterprise[](https://adminconsole.adobe.com/enterprise/) > Accedi utilizzando l&#39;Adobe ID , se non avete già eseguito l&#39;accesso.
 
 
 1. (Condizionale) Se disponi dell&#39;accesso ad [!DNL Admin Console for Enterprise] per più di un’organizzazione, fai clic sull’avatar utente nell’angolo a destra o sulla barra di navigazione superiore, quindi seleziona l’organizzazione desiderata.
 
-## Passaggio 1: Add users (Optional) {#section_A92AF0F921B743FEB9E9033433BD816A}
+## Passaggio 1: Aggiungi utenti (facoltativo) {#section_A92AF0F921B743FEB9E9033433BD816A}
 
 Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Proprietà], tutte le attività di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
 1. [In Admin Console](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) nella *guida utente della versione Enterprise*.
 
-## Passaggio 2: Create a workspace (product profile) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
+## Passaggio 2: Creare un&#39;area di lavoro (profilo di prodotto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
 Un’area di lavoro (profilo di prodotto) consente a un’organizzazione di assegnare un set specifico di utenti a un set specifico di proprietà. Un’area di lavoro è simile per vari aspetti a una suite di rapporti di [!DNL Analytics].
 
-Organizations can begin taking advantage of Enterprise permissions functionality by creating new workspaces within [!DNL Admin Console], assigning [!DNL Target] properties to these workspaces, and moving users from the &quot;Default Workspace&quot; configuration to these newer, limited-access workspaces.
+Le organizzazioni possono iniziare a sfruttare la funzionalità delle autorizzazioni Enterprise creando nuove aree di lavoro all&#39;interno di [!DNL Admin Console], assegnando proprietà [!DNL Target] a tali aree di lavoro e spostando gli utenti dalla configurazione &quot;Area di lavoro predefinita&quot; a queste aree di lavoro più recenti a accesso limitato.
 
 I clienti possono utilizzare queste aree di lavoro per separare l’accesso ai diversi team per regione, business unit, sezione del sito vista o qualsiasi altro metodo scelto.
 
@@ -81,7 +81,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
 
-### Obtain your workspace ID {#workspace-id}
+### Ottenete l&#39;ID dell&#39;area di lavoro {#workspace-id}
 
 Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) devi passare l’ID workspace.
 
@@ -90,14 +90,14 @@ Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-impleme
 
    ![workspaceID](/help/administrating-target/c-user-management/property-channel/assets/workspace-id-newest.png)
 
-## Passaggio 3: Create user groups (Optional) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
+## Passaggio 3: Creare gruppi di utenti (facoltativo) {#section_5F5CB9AA7A9F4D26953E22016DA59605}
 
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 1. In Admin Console, fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Gruppi di utenti]** per creare nuovi gruppi di utenti o per modificare gruppi esistenti.
 1. Segui le istruzioni contenute in [Gestire utenti e gruppi nella configurazione di un prodotto](https://helpx.adobe.com/enterprise/help/manage-products-and-configurations.html) nella *Guida utente Enterprise*.
 
-## Passaggio 4: Create properties {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
+## Passaggio 4: Creare proprietà {#section_E8F2C92BE0F4466AB87604059C9CF3FD}
 
 Le proprietà sono abilitate aggiungendo una coppia nome/valore specifica come parametro con qualsiasi chiamata (chiamata Target, chiamata API, ecc.) a Target.
 
@@ -105,26 +105,26 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 
 **Suggerimento**: per ulteriori informazioni su come creare le proprietà, guarda il video di formazione sottostante.
 
-1. In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco [!UICONTROL Proprietà].
 1. Fai clic su **Crea proprietà**.
 
    ![Finestra di dialogo Nuova proprietà](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
 
    Compila i campi:
 
-   * **Nome proprietà (obbligatorio):** Specificate un nome descrittivo per la proprietà.
+   * **Nome proprietà (obbligatorio):** specificate un nome descrittivo per la proprietà.
    * **Descrizione:** specifica una descrizione facoltativa per la proprietà.
    * **Canale:** seleziona il canale desiderato per la proprietà: Web, App mobile, E-mail o Altro/API (per esempio un set-top box o una console PlayStation).
 
-1. Click **[!UICONTROL Copy]** to copy the code to your clipboard that you&#39;ll use while performing the steps in [5: Update Your Implementation to Include the at_property Parameter](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
+1. Fare clic su **[!UICONTROL Copia]** per copiare il codice negli Appunti che verrà utilizzato durante l&#39;esecuzione dei passaggi in [5: Aggiornate l&#39;implementazione in modo da includere il parametro at_property](/help/administrating-target/c-user-management/property-channel/properties-overview.md#section_9B17A59807A94712BE642942442EBBC8).
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
 
 >[!NOTE]
 >Per ulteriori informazioni sulla creazione di proprietà, guarda il video di formazione sottostante.
 
-## Step 5: Update your implementation to include the at_property parameter {#section_9B17A59807A94712BE642942442EBBC8}
+## Passaggio 5: Aggiornate l&#39;implementazione per includere il parametro at_property {#section_9B17A59807A94712BE642942442EBBC8}
 
-To use the [!DNL Target] user-permissions functionality, you must add the `at_property` parameter to any call that is hitting [!DNL Target] (Target call, api call, etc.).
+Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessario aggiungere il parametro `at_property` a qualsiasi chiamata che sta colpendo [!DNL Target] (chiamata Target, chiamata API, ecc.).
 
 **Per ottenere il `at_property`codice del parametro**:
 
@@ -132,7 +132,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    Oppure
 
-   In [!DNL Target], click **[!UICONTROL Administration]** > **[!UICONTROL Properties]** to display the [!UICONTROL Properties] list.
+   In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco [!UICONTROL Proprietà].
 
    1. Passa il puntatore del mouse sull&#39;[!UICONTROL ultima colonna aggiornata] per visualizzare la proprietà desiderata e fai clic sull&#39;[!UICONTROL icona del codice].
 
@@ -142,13 +142,13 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       ![Codice proprietà](/help/administrating-target/c-user-management/property-channel/assets/code_property_2_new.png)
 
-1. Update your [!DNL Target] implementation with the implementation code obtained in the previous step.
+1. Aggiornate l&#39;implementazione [!DNL Target] con il codice di implementazione ottenuto nel passaggio precedente.
 
    Esistono diversi modi per aggiornare l&#39;implementazione di [!DNL Target]. Ad esempio, è possibile utilizzare i seguenti metodi per le pagine Web:
 
    * **Tramite un “parametro globale” in [!DNL Adobe Launch]:**
 
-      For more information, see [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) in the *Adobe Experience Platform Launch* documentation.
+      Per ulteriori informazioni, vedere [Add Global Target Params](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) nella documentazione di *Adobe Experience Platform Launch*.
 
    * **Tramite un “parametro globale” in [!DNL Dynamic Tag Management]:**
 
@@ -156,7 +156,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       Per ulteriori informazioni, vedi [Parametri globali - Adobe Target](https://experienceleague.adobe.com/docs/dtm/using/tools-reference/target.html#global-parameters---adobe-target) nella *documentazione del prodotto per la Dynamic Tag Management*.
 
-   * **Tramite la funzione targetPageParams():** Inserite il codice seguente nei `<head>` tag , sopra il riferimento at.js o mbox.js.
+   * **Tramite la funzione targetPageParams():** inserire il codice seguente nei  `<head>` tag, sopra il riferimento at.js o mbox.js.
 
       ![](assets/property_token_1.png)
 
@@ -168,7 +168,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
       Per ulteriori informazioni su come eseguire questa procedura con at.js, vedi [targetPageParams()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
-## Step 6: Specify roles and permissions {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
+## Passaggio 6: Specificare ruoli e autorizzazioni {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
 1. In Admin Console, fai clic su **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
@@ -184,7 +184,7 @@ To use the [!DNL Target] user-permissions functionality, you must add the `at_pr
 
    ![configurazione degli utenti](/help/administrating-target/c-user-management/c-user-management/assets/configuration_users-new-publisher.png)
 
-1. Select the desired permissions role (Approver, Editor, Observer, or Publisher) by using the drop-down list for each user in the [!UICONTROL Product Role] column.
+1. Selezionate il ruolo di autorizzazioni desiderato (approver, Editor, Observer o Publisher) utilizzando l&#39;elenco a discesa per ciascun utente nella colonna [!UICONTROL Product Role].
 
    ![Elenco a discesa Ruolo prodotto](/help/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
@@ -203,9 +203,9 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!NOTE]
 >
->L’interfaccia utente del menu [!DNL Target] Amministrazione [!UICONTROL (precedentemente] Configurazione ) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per rilasciare nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (precedentemente [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per il rilascio delle nuove funzioni e migliorare l&#39;esperienza dell&#39;utente in tutto il prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
-### Come configurare le aree di lavoro Target (6:55) ![Logo delle esercitazioni](/help/assets/tutorial.png)
+### Come configurare le aree di lavoro Target (6:55) ![Logo esercitazione](/help/assets/tutorial.png)
 
 Questo video spiega come creare aree di lavoro.
 
@@ -219,7 +219,7 @@ Questo video spiega come creare aree di lavoro.
 
 >[!VIDEO](https://video.tv.adobe.com/v/19463/)
 
-### How to Create Properties in Adobe Target (3:05) ![Tutorial badge](/help/assets/tutorial.png)
+### Come creare le proprietà in  Adobe Target (3:05) ![Logo esercitazione](/help/assets/tutorial.png)
 
 * Come creare una proprietà all’interno dell’interfaccia di [!DNL Adobe Target]
 * Come generare un token di proprietà da includere nell&#39;implementazione della proprietà
