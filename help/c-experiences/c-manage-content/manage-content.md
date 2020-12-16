@@ -86,7 +86,7 @@ Sono disponibili le seguenti informazioni:
 * Tipo di URL di reindirizzamento
 * URL assoluto o relativo
 
-## Video di formazione: L’archivio dei contenuti ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: L’archivio dei contenuti  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione delle offerte.
 
