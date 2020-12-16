@@ -14,7 +14,7 @@ ht-degree: 54%
 
 # Prima dell’implementazione{#before-you-implement}
 
-Several changes occur in your data collection process when enabling [!DNL Analytics] as the reporting source for [!DNL Target] (A4T).
+Nel processo di raccolta dei dati si verificano diverse modifiche quando si abilita [!DNL Analytics] come origine di reporting per [!DNL Target] (A4T).
 
 Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguenti e considera l&#39;impatto sui processi di reporting:
 
@@ -22,7 +22,7 @@ Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguent
 
 >[!IMPORTANT]
 >
->Prima di iniziare a utilizzare A4T, è necessario richiedere che il tuo account sia predisposto per l’integrazione. Utilizzate il modulo [di provisioning Integrazioni](https://www.adobe.com/go/audiences) Marketing Cloud per richiedere il provisioning.
+>Prima di iniziare a utilizzare A4T, è necessario richiedere che il tuo account sia predisposto per l’integrazione. Utilizzate il modulo di provisioning [Integrazioni Marketing Cloud](https://www.adobe.com/go/audiences) per richiedere il provisioning.
 
 Questa integrazione A4T richiede l’implementazione delle seguenti versioni della libreria (o più recenti), a seconda che si desideri utilizzare o meno le offerte di reindirizzamento con A4T:
 
@@ -45,36 +45,36 @@ Per utilizzare le offerte di reindirizzamento con A4T, devi implementare le segu
 
 * Adobe Analytics: appMeasurement.js versione 2.1
 
-Download and deployment instructions are listed in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+Le istruzioni di download e distribuzione sono elencate in [Analytics for Target Implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
 
 ## Aspetti da considerare prima dell’implementazione {#section_50D49CC52E11414089C89FB67F9B88F5}
 
-* This integration is enabled on new activities when you select to use [!DNL Analytics] as the reporting source. Dopo avere apportato le modifiche all&#39;implementazione descritte in questo documento, le attività esistenti non vengono influenzate.
-* The process of setting up [!DNL Analytics] as the reporting source for [!DNL Target] includes several implementation steps, followed by a provisioning step. È opportuno rivedere l&#39;intero processo come descritto di seguito prima di procedere all&#39;implementazione. After you complete these steps, you will be ready to use [!DNL Analytics] as your reporting source as soon as it is enabled for you. Il processo di previsionamento può richiedere fino a cinque giorni lavorativi.
-* L&#39; [!DNL Visitor ID service] oggetto crea una condivisione [!DNL Visitor ID] all&#39;interno dell&#39; [!DNL Adobe Experience Cloud]. Although it does not replace the [!DNL Target] mboxPC id or [!DNL Audience Manager] UUID, it does replace the way [!DNL Analytics] identifies new visitors. If set up properly, returning [!DNL Analytics] visitors should also be identified via their old [!DNL Analytics] ID to prevent visitor cliffing. Similarly, because the [!DNL Target] mboxPCid remains intact, no [!DNL Target] visitor profile data is lost when you upgrade to the [!DNL Visitor ID service].
-* L&#39;operazione [!DNL Visitor ID service] deve essere eseguita prima del codice [!DNL Analytics] e della [!DNL Target] pagina. Make sure that `VisitorAPI.js` appears above the tags for all other [!DNL Experience Cloud] solutions.
+* Questa integrazione è abilitata sulle nuove attività quando si seleziona l&#39;utilizzo di [!DNL Analytics] come origine di reporting. Dopo avere apportato le modifiche all&#39;implementazione descritte in questo documento, le attività esistenti non vengono influenzate.
+* Il processo di configurazione di [!DNL Analytics] come origine di reporting per [!DNL Target] include diverse fasi di implementazione, seguite da una fase di provisioning. È opportuno rivedere l&#39;intero processo come descritto di seguito prima di procedere all&#39;implementazione. Una volta completati questi passaggi, sarà possibile utilizzare [!DNL Analytics] come origine di reporting non appena questa sarà abilitata. Il processo di previsionamento può richiedere fino a cinque giorni lavorativi.
+* Il [!DNL Visitor ID service] crea un [!DNL Visitor ID] condiviso all&#39;interno di [!DNL Adobe Experience Cloud]. Sebbene non sostituisca l&#39;ID [!DNL Target] mboxPC o [!DNL Audience Manager] UUID, esso sostituisce il modo in cui [!DNL Analytics] identifica i nuovi visitatori. Se la configurazione è corretta, i visitatori di ritorno [!DNL Analytics] devono essere identificati anche tramite il loro [!DNL Analytics] ID per evitare che i visitatori cali. Allo stesso modo, poiché la [!DNL Target] mboxPCid rimane intatta, nessun dato del profilo visitatore [!DNL Target] viene perso quando si esegue l&#39;aggiornamento alla [!DNL Visitor ID service].
+* L&#39;esecuzione di [!DNL Visitor ID service] deve essere eseguita prima del codice di pagina [!DNL Analytics] e [!DNL Target]. Accertatevi che `VisitorAPI.js` sia visualizzato sopra i tag per tutte le altre soluzioni [!DNL Experience Cloud].
 
 ## Latenza {#section_9489BE6FD21641A4844E591711E3F813}
 
-Dopo l&#39;abilitazione di questa integrazione, è possibile che si verifichi una latenza aggiuntiva di 5-10 minuti in [!DNL Analytics]. This latency increase allows data from [!DNL Analytics] and [!DNL Target] to be stored on the same hit, allowing you to break down activities by page and site section.
+Dopo l&#39;abilitazione di questa integrazione, è possibile che si verifichi una latenza aggiuntiva di 5-10 minuti in [!DNL Analytics]. Questo aumento di latenza consente di memorizzare i dati di [!DNL Analytics] e [!DNL Target] sullo stesso hit, consentendo di suddividere le attività per pagina e sezione del sito.
 
-This increase is reflected in all [!DNL Analytics] services and tools, including the live-stream and real-time reporting, and applies in the following scenarios:
+Questo aumento si riflette in tutti i servizi e gli strumenti [!DNL Analytics], inclusi i rapporti in tempo reale e in tempo reale, e si applica nei seguenti scenari:
 
 * Per lo streaming live, i rapporti in tempo reale e le richieste API e per i dati correnti per le variabili di traffico, vengono ritardati solo gli insiemi con ID di dati supplementari.
 * Per i dati correnti sulle metriche di conversione, i dati finalizzati e i feed di dati, tutti gli hit sono ritardati di altri 5-7 minuti.
 
-Be aware that the latency increase starts after you implement the [!DNL Experience Cloud] visitor ID service, even if you have not fully implemented this integration.
+L&#39;aumento della latenza inizia dopo che hai implementato il servizio ID visitatore [!DNL Experience Cloud], anche se non hai implementato completamente questa integrazione.
 
 ## ID supplementare {#section_2C1F745A2B7D41FE9E30915539226E3A}
 
-All [!DNL Target] calls used by an A4T activity to deliver content or record the goal metric must have a corresponding [!DNL Analytics] hit that shares the same supplemental ID for A4T to work properly.
+Tutte le [!DNL Target] chiamate utilizzate da un&#39;attività A4T per distribuire contenuto o registrare la metrica dell&#39;obiettivo devono avere un hit [!DNL Analytics] corrispondente che condivide lo stesso ID supplementare affinché A4T possa funzionare correttamente.
 
-Hits that contain data from [!DNL Analytics] and [!DNL Target] contain a supplemental data ID. You can see this ID in the [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) as the `sdid` parameter. Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
+Gli hit che contengono dati di [!DNL Analytics] e [!DNL Target] contengono un ID dati supplementare. Potete visualizzare questo ID in [Adobe Experience Cloud Debugger](https://experienceleague.adobe.com/docs/debugger/using/experience-cloud-debugger.html) come parametro `sdid`. Ad esempio: `sdid=2F3C18E511F618CC-45F83E994AEE93A0`. Questo ID viene generato in qualsiasi momento siano presenti i seguenti criteri:
 
 * È implementato il servizio ID visitatore
 * È implementata una versione di [!DNL mbox.js] che supporta questa integrazione.
 
-When [troubleshooting](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), be sure to confirm that the supplemental ID is present on [!DNL Analytics] hits.
+Quando [risoluzione dei problemi](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md), verificare che l&#39;ID supplementare sia presente negli hit [!DNL Analytics].
 
 ## Registrazione Analytics lato client {#client-side}
 
@@ -84,11 +84,11 @@ Tuttavia, in alcuni casi potrebbe essere opportuno avere maggiore controllo su q
 
 ## Pubblico condiviso
 
-Durante la compilazione del modulo [di provisioning Integrazioni](https://www.adobe.com/go/audiences)Marketing Cloud, tenete presente le seguenti informazioni importanti relative all&#39;opzione Pubblico  condiviso elencata in[!UICONTROL Per quali funzionalità si richiede il provisioning]?
+Durante la compilazione del [modulo di provisioning integrazioni di Marketing Cloud](https://www.adobe.com/go/audiences), prendere nota delle seguenti informazioni importanti relative all&#39;opzione [!UICONTROL Audience condivise] elencata in &quot;[!UICONTROL Per quali funzionalità si richiede il provisioning]?&quot;
 
 ![Modulo di richiesta](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
-Quando richiedete Audience condivise, abilitate [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) a condividere informazioni, in questo caso audience.
+Quando richiedete [!UICONTROL Audience condivise], abilitate [!UICONTROL Target] e [!UICONTROL Adobe Audience Manager] (AAM) per condividere le informazioni, in questo caso i tipi di pubblico.
 
 >[!IMPORTANT]
 >
