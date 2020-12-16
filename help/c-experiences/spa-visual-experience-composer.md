@@ -26,13 +26,13 @@ Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singo
 
 Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ipotetico sito online di e-commerce implementato in React ed esploriamo alcune visualizzazioni di esempio. Fai clic sui collegamenti di seguito per aprire il sito in una nuova scheda del browser.
 
-**Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+**Collegamento:  [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
 ![home page](/help/c-experiences/assets/home.png)
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento: [Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento:  [Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +46,7 @@ All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;in
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “Pagina prodotti 2”.
 
-**Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Collegamento:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![pagina di checkout](/help/c-experiences/assets/checkout.png)
 
@@ -66,7 +66,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell’implementazione](/help/c-experiences/assets/imp-200.png)
 
-   Download the at.js 2.x via the Adobe Target UI located in [!UICONTROL Administration > Implementation]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
+   Scaricate at.js 2.x tramite l&#39;interfaccia  di Adobe Target, che si trova in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa la funzione più recente di at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sui siti.
 
@@ -82,7 +82,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    Ora vediamo alcuni esempi d’uso su come invocare la funzione `triggerView()` in React per la nostra ipotetica applicazione a pagina singola per e-commerce:
 
-   **Collegamento: [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
+   **Collegamento:  [Sito principale](https://target.enablementadobe.com/react/demo/#/)**
 
    ![home-react-1](/help/c-experiences/assets/react1.png)
 
@@ -113,7 +113,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    <Router history={hashHistory} onUpdate={targetView} >
    ```
 
-   **Collegamento: [Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
+   **Collegamento:  [Sito prodotti](https://target.enablementadobe.com/react/demo/#/products)**
 
    Ora vediamo un esempio un po’ più complicato. Diciamo che, in qualità di esperti di marketing, desideriamo personalizzare la seconda riga dei prodotti cambiando il colore dell’etichetta del prezzo in rosso dopo che un utente ha fatto clic sul pulsante Carica altro.
 
@@ -142,7 +142,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    }
    ```
 
-   **Collegamento: [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Collegamento:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -391,9 +391,9 @@ Considera questo esempio di utilizzo:
 Sono state apportate le seguenti modifiche:
 
 * È stato cambiato il colore di sfondo nella vista Home, che si trova all’URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
-* Changed the button color in the Products view, which is located under the URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* È stato modificato il colore del pulsante nella vista Prodotti, che si trova sotto l’URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-With the example above in mind, what would happen when we configure [!UICONTROL Page Delivery] settings to only include: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in an SPA with at.js 2.*x*?
+Tenendo presente l&#39;esempio precedente, cosa accade quando si configurano le impostazioni [!UICONTROL Page Delivery] solo per includere: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in un SPA con at.js 2.*x*?
 
 ![Finestra di dialogo Consegna pagine](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -403,19 +403,19 @@ L’illustrazione seguente mostrata la richiesta Flusso di Target - Caricamento 
 
 **Percorso utente 1**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
+* Un utente passa direttamente a [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/).
 * Payload JSON di at.js 2.*x* invia una query al server Edge per verificare se è necessario eseguire un’attività per l’URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * Nel passaggio 6, il server Edge di Target restituisce le azioni per le visualizzazioni Home e Prodotti in modo che vengano memorizzate nella cache del browser.
 
 **Risultato**: l’utente vede la pagina Home con sfondo verde. Quando l’utente passa a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, viene visualizzato il colore di sfondo blu del pulsante, perché l’azione è memorizzata nella cache nel browser per la visualizzazione Prodotti.
 
-Note: The user navigating to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) did not trigger a page load.
+Nota: L&#39;utente che si sposta su [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) non ha attivato il caricamento di una pagina.
 
 **Percorso utente 2**
 
-* A user navigates directly to [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Un utente passa direttamente a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Payload JSON di at.js 2.*x* invia una query al server Edge per verificare se è necessario eseguire un’attività per l’URL: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products.
-* There are no activities qualified for [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Nessuna attività qualificata per [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Poiché non vi sono attività qualificate come idonee, nessuna azione né visualizzazione deve essere memorizzata nella cache per l’attivazione di at.js 2.*x*.
 
 **Risultato**: anche se hai definito `triggerView()` per la visualizzazione Prodotti e impostato un’azione per la visualizzazione Prodotti tramite il Compositore esperienza visivo per applicazioni a pagina singola, l’azione prevista non viene visualizzata perché non hai creato una regola che includa [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products nelle impostazioni Consegna pagine.
@@ -440,4 +440,4 @@ Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visual
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-See [Using the Visual Experience Composer for Single Page Application (SPA VEC) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) for more information.
+Per ulteriori informazioni, consultate [Utilizzo di Visual Experience Composer (Compositore esperienza visivo per applicazione SPA pagina singola) in  Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
