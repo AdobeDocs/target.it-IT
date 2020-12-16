@@ -52,7 +52,7 @@ Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](/help/c
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creazione del contrassegno ![Panoramica pubblico](/help/assets/overview.png)
+## Video di formazione: Creazione del contrassegno Panoramica ![Audience](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
