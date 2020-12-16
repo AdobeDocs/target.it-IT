@@ -29,25 +29,25 @@ Completa le seguenti attività in [!DNL Adobe Experience Cloud][Admin Console](h
 
 Gli account utente [!DNL Analytics] e [!DNL Target] devono essere collegati al tuo Adobe ID.
 
-For more information, see [Organizations and account linking](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
+Per ulteriori informazioni, vedere [Organizzazioni e collegamento dell&#39;account](https://docs.adobe.com/help/en/core-services/interface/manage-users-and-products/organizations.html).
 
 ### Configurare l’iscrizione al gruppo Experience Cloud
 
 Devi essere membro di uno o più gruppi di [!DNL Experience Cloud] che hanno accesso a [!DNL Analytics] e a [!DNL Target].
 
-For more information, see [Manage Experience Cloud users and products](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
+Per ulteriori informazioni, vedere [Gestione di utenti  Experienci Cloud e prodotti](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html).
 
 ## Adobe Analytics {#section_8F404FDE9A634534AB0AA4CB3075582B}
 
-Configure access to the [!DNL Analytics] report suite:
+Configurare l&#39;accesso alla suite di rapporti [!DNL Analytics]:
 
 Per utilizzare A4T in una determinata suite di rapporti, è necessario avere accesso a tale suite di rapporti.
 
-1. In **[!UICONTROL Admin Console]**, fai clic su un profilo di [!DNL Analytics] prodotto, quindi fai clic sulla scheda **[!UICONTROL Autorizzazioni]** .
+1. In **[!UICONTROL Admin Console]**, fare clic su un profilo di prodotto [!DNL Analytics], quindi fare clic sulla scheda **[!UICONTROL Autorizzazioni]**.
 
    Potete quindi vedere a quali suite di rapporti ha accesso il profilo.
 
-1. Assicurati che la suite di rapporti a cui vuoi accedere [!DNL Target] sia una delle suite elencate nel profilo di prodotto di cui fai parte.
+1. Assicurati che la suite di rapporti a cui vuoi accedere in [!DNL Target] sia una delle suite elencate nel profilo di prodotto di cui fai parte.
 
    L&#39;illustrazione seguente è un esempio di un profilo di prodotto che ha accesso a tutte le suite di rapporti:
 
