@@ -71,7 +71,7 @@ Seleziona **[!UICONTROL Tipo]**, quindi scegli “è uguale a” o “è diverso
 
 Seleziona uno o più browser. Le opzioni multiple sono collegate con l’operatore O.
 
-### Lingua {#section_7520D1AA464A45A6843EABE2D2B431A1}
+### Lingua  {#section_7520D1AA464A45A6843EABE2D2B431A1}
 
 Includi o escludi alcuni browser impostati per una specifica lingua.
 
@@ -98,7 +98,7 @@ Seleziona una o più lingue. Le opzioni multiple sono collegate con l’operator
 * Spagnolo
 * Cinese tradizionale
 
-### Versione {#section_37CC8CE45DA04E8682AE6388321BA6EF}
+### Versione  {#section_37CC8CE45DA04E8682AE6388321BA6EF}
 
 Includi o escludi una determinata versione del browser.
 
@@ -119,7 +119,7 @@ In questo campo di testo è possibile immettere solo le versioni principali. La 
 
 Le opzioni multiple sono collegate con l’operatore O.
 
-## Video di formazione: Creazione di tipi di pubblico ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di tipi di pubblico  ![Badge di esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
