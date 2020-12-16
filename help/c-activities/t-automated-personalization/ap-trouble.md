@@ -37,15 +37,15 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 **Soluzione:** la migliore linea di azione è di assicurarsi in primo luogo che i contenuti e le posizioni, che compongono le esperienze di attività, facciano davvero una differenza per i tassi di risposta generali tramite un semplice test A/B e non personalizzato. Calcola le dimensioni del campione in tempo per assicurarti che sia possibile visualizzare un incremento ragionevole ed esegui il test A/B per una durata fissa senza interruzioni né modifiche. Se i risultati di un test A/B mostrano un incremento statisticamente significativo su una o più esperienze, è probabile che un’attività personalizzata funzioni. Naturalmente, la personalizzazione può funzionare anche se non ci sono differenze nei tassi di risposta complessiva delle esperienze. Il problema, solitamente, deriva dalle offerte/posizioni che non hanno un impatto sull’obiettivo di ottimizzazione tale da poter essere rilevato con rilevanza statistica.
 
-## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate. {#section_82A224406DBF4107B05204BEFBBE458C}
+## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, the URL and template testing rules are added to the [!DNL Target] request entry constraint (for example, target-global-mbox), where they are evaluated only once. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
+In AP, le regole di verifica degli URL e dei modelli vengono aggiunte al vincolo di immissione della richiesta [!DNL Target] (ad esempio, target-global-mbox), in cui vengono valutate solo una volta. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
 **Soluzione:** aggiungi le regole di modello necessarie come pubblico di input della campagna. La valutazione del pubblico avviene su ogni richiesta/chiamata.
 
 Questo problema verrà risolto in una delle prossime versioni.
 
-## Le metriche dipendenti dalla metrica di conversione non conseguono mai la conversione. {#section_076D1F44298C4E4A849AC52F5A33214D}
+## Le metriche dipendenti dalla metrica di conversione non conseguono mai la conversione.  {#section_076D1F44298C4E4A849AC52F5A33214D}
 
 Si tratta di un comportamento previsto.
 
@@ -53,7 +53,7 @@ In un&#39;attività di Personalizzazione automatizzata, una volta convertita una
 
 Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore consegue la conversione per C1 e poi per A1, la conversione A1 non risulta perché, non appena ottenuta la conversione per C1, il visitatore viene rilasciato.
 
-## I miei URL di esperienza non funzionano come previsto. {#section_7B08DA1F30AA483E9406336DAF361BA4}
+## I miei URL di esperienza non funzionano come previsto.  {#section_7B08DA1F30AA483E9406336DAF361BA4}
 
 * Se non puoi visualizzare l&#39;anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte o a copiare il collegamento e aprirlo in un nuovo browser o una nuova sessione.
 * Rigenera i collegamenti degli URL di esperienza se hai modificato qualsiasi contenuto e condividi i nuovi collegamenti con i tuoi compagni di team.
