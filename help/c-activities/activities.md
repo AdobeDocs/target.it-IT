@@ -111,7 +111,7 @@ Il campo di ricerca include un menu a discesa che consente di restringere la ric
 | Origine per i rapporti | Target<br>Analytics |
 | Compositore esperienza | Visivo<br>Basato su modulo |
 | Tipo di metrica | Conversione<br>Revenue<br>Engagement |
-| Origine attività | Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
+| Origine attività |  Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
 
 ### Ordina per attributo attività
 
@@ -170,7 +170,7 @@ Questo processo di importazione verrà eseguito quando verrà aperta la pagina a
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Logo ![Panoramica sui tipi di attività (9:03)](/help/assets/overview.png)
+### Tipi di attività (9:03) ![Logo Panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Gestione delle attività (5:55) badge ![Panoramica](/help/assets/overview.png)
+### Gestione delle attività (5:55) ![Logo Panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare l&#39;elenco Attività per gestire le attività.
 
