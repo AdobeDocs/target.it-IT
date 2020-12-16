@@ -24,14 +24,14 @@ Per ulteriori informazioni, consulta la [documentazione dell’estensione debugg
 
 Nei video seguenti viene descritto il processo di debugging:
 
-### Aggiungere l’estensione debugger di Adobe Experience Cloud ![badge Panoramica](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
+### Aggiungere l’estensione debugger di Adobe Experience Cloud  ![badge Panoramica](/help/assets/overview.png) {#section_8CD96F76E397476193529573F3199615}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/)
 
-### Basic Target Debugging Using the Adobe Experience Cloud Debugger ![Overview badge](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
+### Debug di destinazione di base con Adobe Experience Cloud Debugger ![badge Panoramica](/help/assets/overview.png) {#section_AB2814A994DC4A86BABDD0441343D911}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/)
 
-### Badge ![Panoramica traccia mbox](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
+### Traccia mbox ![Logo Panoramica](/help/assets/overview.png) {#section_FD3BC8019FA847209AB8BCA747C50211}
 
 >[!VIDEO](https://video.tv.adobe.com/v/23113/)
