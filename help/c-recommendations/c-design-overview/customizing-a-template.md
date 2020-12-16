@@ -14,7 +14,7 @@ ht-degree: 61%
 
 # ![PREMIUM](/help/assets/premium.png) Personalizzare una progettazione con Velocity{#customize-a-design-using-velocity}
 
-Use the open-source Velocity design language to customize recommendation designs in [!DNL Adobe Target Recommendations].
+Utilizzate il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in [!DNL Adobe Target Recommendations].
 
 ## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -129,7 +129,7 @@ Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi 
 
 1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario.
 1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello).
-1. Passate l&#39;attributo dell&#39;entità nel `parseInt` metodo o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio.
+1. Passate l&#39;attributo dell&#39;entità nel metodo `parseInt` o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio.
 1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico.
 
 ### Esempio: Calcolo di un prezzo di sconto
@@ -185,7 +185,7 @@ Si supponga di memorizzare la lunghezza di un filmato in minuti, ma si desidera 
 #end
 ```
 
-## Visualizzazione di un elemento chiave con i prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Visualizzazione di un elemento chiave con prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l&#39;articolo corrente, come riferimento.
 
@@ -208,7 +208,7 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l&#3
 
 Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
-## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Esecuzione di sostituzioni in un valore di stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
 È possibile modificare la progettazione per sostituire i valori all&#39;interno di una stringa. Ad esempio, sostituire il delimitatore di punti decimali utilizzato negli Stati Uniti con il delimitatore di virgole utilizzato in Europa e in altri paesi.
 
