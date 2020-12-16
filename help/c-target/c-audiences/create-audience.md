@@ -58,7 +58,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    Il pubblico appena creato viene visualizzato nell&#39;elenco dopo alcuni secondi di ritardo dovuti all&#39;elaborazione. Se il pubblico non viene visualizzato immediatamente nell&#39;elenco, prova a cercarlo o ad aggiornare l&#39;elenco.
 
-## Video di formazione: Creazione di tipi di pubblico ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni su come creare i tipi di pubblico.
 
