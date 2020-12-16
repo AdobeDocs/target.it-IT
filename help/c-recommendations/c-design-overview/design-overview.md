@@ -14,7 +14,7 @@ ht-degree: 30%
 
 # Panoramica della progettazione{#design-overview}
 
-Progettazione in [!DNL Adobe Target Recommendations] Definizione della modalità di visualizzazione delle raccomandazioni su una pagina. Le progettazioni definiscono il layout e il formato delle raccomandazioni per migliorare il coinvolgimento, la conversione e le entrate dei visitatori.
+Le progettazioni in [!DNL Adobe Target Recommendations] definiscono la modalità di visualizzazione delle raccomandazioni su una pagina. Le progettazioni definiscono il layout e il formato delle raccomandazioni per migliorare il coinvolgimento, la conversione e le entrate dei visitatori.
 
 [!DNL Recommendations] viene fornito con diverse progettazioni predefinite (pre-build) o è possibile crearne di nuove.
 
