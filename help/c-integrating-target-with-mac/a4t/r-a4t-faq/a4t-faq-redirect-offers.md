@@ -73,9 +73,9 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
-## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-You will need to work with your IT team to have these parameters ( `adobe_mc_sdid` and `adobe_mc_ref`) allowlisted.
+Sarà necessario lavorare con il team IT per inserire nell&#39;elenco Consentiti questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`).
 
 ## Cosa succede se non uso A4T con la mia attività di reindirizzamento e non voglio che questi parametri vengano aggiunti ai miei URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -89,11 +89,11 @@ Se utilizzi A4T e le offerte di reindirizzamento, Target aggiunge i parametri `a
 
 A causa di questa doppia codifica quando l’API dei visitatori tenta di decodificare il valore `adobe_mc_sdid`, non può estrarre il valore SDID e genera un nuovo SDID. Questo porta all’invio di valori SDID errati a Target e Analytics, e vedrai una suddivisione irregolare dei reindirizzamenti nei rapporti di Analytics.
 
-We recommend that you talk to their IT team to ensure that `adobe_mc_ref` and `adobe_mc_sdid` are allowlisted so that these values are not transformed in any way.
+È consigliabile consultare il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` siano inseriti nell&#39;elenco Consentiti in modo che tali valori non vengano trasformati in alcun modo.
 
 ## Perché l’URL di riferimento deve essere passato alla nuova pagina? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Suppose a visitor clicks a link on [!DNL `www.google.com`] to your homepage (`www.mysite.com/index.html`) on which a redirect activity is live and is then redirected to a new page (`www.mysite.com/index2.html`).
+Supponiamo che un visitatore faccia clic su un collegamento in [!DNL `www.google.com`] alla pagina principale (`www.mysite.com/index.html`) sulla quale un&#39;attività di reindirizzamento è live e quindi reindirizzata a una nuova pagina (`www.mysite.com/index2.html`).
 
 In precedenza, la richiesta di [!DNL Analytics] della nuova pagina avrebbe segnalato l’URL di riferimento [!DNL `www.mysite.com/index.html`] anziché [!DNL `www.google.com`]. Questo causava una segnalazione inesatta in [!DNL Analytics] associata agli URL di riferimento (ad esempio nei rapporti Canale marketing,). Nei rapporti andava perso il fatto che il visitatore era giunto al sito da [!DNL `www.google.com`].
 
