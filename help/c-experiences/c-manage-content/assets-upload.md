@@ -23,7 +23,7 @@ ht-degree: 91%
 
    L’elemento viene caricato nella libreria.
 
-## Video di formazione: L’archivio dei contenuti ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: L’archivio dei contenuti  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto.
 
