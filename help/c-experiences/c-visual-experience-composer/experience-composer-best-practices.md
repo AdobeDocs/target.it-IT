@@ -30,7 +30,7 @@ Inserisci mbox.js alla fine della sezione `<head>`, senza dichiarazioni aggiunti
 
 **Puoi abilitare il Compositore esperienza avanzato a livello di account (abilitato per tutte le attività create nell’account) o a livello della singola attività.**
 
-To enable the Enhanced Experience Composer at the account level, click [!UICONTROL Administration > Visual Experience Composer], then toggle the switch to the On position.
+Per abilitare Enhanced Experience Composer (Compositore esperienza avanzato) a livello di account, fate clic su [!UICONTROL Amministrazione > Visual Experience Composer (Compositore esperienza visivo)], quindi passate alla posizione Attivato.
 
 Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fai clic su [!UICONTROL Configura > URL], quindi attiva il pulsante.
 
