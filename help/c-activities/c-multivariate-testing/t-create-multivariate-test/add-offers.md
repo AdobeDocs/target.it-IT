@@ -37,7 +37,7 @@ Sottoponi a test offerte immagine multiple all&#39;interno di una posizione per 
 
 Ogni immagine diventa un&#39;esperienza separata nella posizione in questione.
 
-## Offerte HTML {#section_DF016101AFA9412C9B99862C23DE77B1}
+## Offerte HTML  {#section_DF016101AFA9412C9B99862C23DE77B1}
 
 Sottoponi a test offerte in formato testo/HTML multiple all’interno di una posizione per determinare quale sia la più efficace.
 
