@@ -14,26 +14,26 @@ ht-degree: 64%
 
 # ![PREMIUM](/help/assets/premium.png) Gruppi di creazione di rapporti di offerte in Personalizzazione automatizzata{#offer-reporting-groups-in-automated-personalization}
 
-Information about using reporting groups in [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) activities.
+Informazioni sull&#39;utilizzo dei gruppi di reporting nelle attività di [ Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 I gruppi di reporting svolgono due funzioni chiave:
 
 * Consentono di vedere le offerte raggruppate nel reporting delle attività di AP.
-* They play a key role with how the [!DNL Target] personalization models function.
+* Essi svolgono un ruolo chiave nel funzionamento dei modelli di personalizzazione [!DNL Target].
 
-When you use reporting groups, [!DNL Target] creates only one personalization model for each reporting group instead of each offer in your AP activity using the data from all offers in that group.
+Quando utilizzate i gruppi di reporting, [!DNL Target] crea un solo modello di personalizzazione per ciascun gruppo di reporting invece di ogni offerta nell&#39;attività AP utilizzando i dati di tutte le offerte in tale gruppo.
 
 Se la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per ciascuna offerta, i gruppi di reporting possono contribuire a ridurre i requisiti di dati per utilizzare la Personalizzazione automatizzata. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nella tua attività di AP.
 
-Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Grouping all offers or grouping offers with very different conversion rates likely reduces the effectiveness of the [!DNL Target] personalization models.
+Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Raggruppando tutte le offerte o raggruppando le offerte con tassi di conversione molto diversi è probabile che riduca l&#39;efficacia dei modelli di personalizzazione [!DNL Target].
 
 >[!NOTE]
 >
->Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In other words, deleted offers do not contribute to what data is used for the [!DNL Target] personalization models to learn.
+>Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In altre parole, le offerte eliminate non contribuiscono a determinare i dati utilizzati per i modelli di personalizzazione [!DNL Target] da imparare.
 
 **Per impostare i gruppi di reporting:**
 
-1. On the [!UICONTROL Experiences] page of an AP activity, click the **[!UICONTROL Manage Content]** icon.
+1. Nella pagina [!UICONTROL Esperienze] di un&#39;attività AP, fare clic sull&#39;icona **[!UICONTROL Gestisci contenuto]**.
 
    ![](assets/ap_manage_content.png)
 
@@ -46,7 +46,7 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Conditional) To assign the selected offer to an existing reporting group, select **[!UICONTROL Existing]**, select the desired reporting group from the drop-down list, then click **[!UICONTROL Apply]**.
+1. (Condizionale) Per assegnare l&#39;offerta selezionata a un gruppo di rapporti esistente, selezionare **[!UICONTROL Esistente]**, selezionare il gruppo di rapporti desiderato dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Applica]**.
 
    Oppure
 
