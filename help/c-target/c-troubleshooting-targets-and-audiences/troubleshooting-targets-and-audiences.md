@@ -30,7 +30,7 @@ Per applicare il targeting URL del pubblico, durante la creazione di un&#39;atti
 
 ![URL distribuzione pagina](/help/c-target/c-troubleshooting-targets-and-audiences/assets/activity-url.png)
 
-Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l&#39;URL corrisponde, Target non considera ulteriori logica. Nell&#39;URL precedente, se l&#39;attività è impostata su Attivato, l&#39;URL corrisponde per `www.example.com`i seguenti URL, perché il targeting dell&#39;URL del pubblico non è agnostico alla query:
+Il targeting degli URL per audience cerca una corrispondenza URL esatta. Se l&#39;URL corrisponde, Target non considera ulteriori logica. Nell&#39;URL precedente, se l&#39;attività è impostata su `www.example.com`, l&#39;URL corrisponde per i seguenti URL, perché il targeting dell&#39;URL del pubblico non è agnostico della query:
 
 * `www.example.com?query=something`
 * `www.example.com?query=anything`
@@ -51,7 +51,7 @@ Il targeting degli URL trasforma l&#39;URL in un set di regole da valutare:
 * queryStringParam1 = test123
 * queryStringParam2 = test7
 
-## Durante la creazione di stringhe URL complesse, valuta [!DNL Target] l’intero URL?
+## Quando si creano stringhe URL complesse, l&#39;intero URL viene valutato da [!DNL Target]?
 
 Se in una stringa URL utilizzate lo stesso nome di parametro più volte, HTTP considera il primo nome di parametro e ignora i parametri successivi con lo stesso nome.
 
@@ -59,7 +59,7 @@ Ad esempio, nella seguente stringa URL:
 
 `https://www.adobe.com/SearchResults.aspx?sc=BM&fi=1&fr=1&ps=0&av=0&Category=C0010438&Category=C000047`
 
-la prima istanza del `Category` parametro viene valutata e il secondo `Category` parametro viene ignorato.
+la prima istanza del parametro `Category` viene valutata e la seconda `Category` viene ignorata.
 
 È consigliabile associare più valori a una singola categoria, come illustrato di seguito:
 
@@ -75,7 +75,7 @@ Come best practice, utilizza i tipi di pubblico più recenti, perché offrono pr
 
 Per impostazione predefinita, il traffico viene suddiviso in modo uniforme tra le varie esperienze. Tuttavia puoi specificare target basati su percentuali per ogni esperienza. In questo caso, viene generato un numero casuale, utilizzato per scegliere l’esperienza da visualizzare. Le percentuali risultanti potrebbero non corrispondere esattamente ai target specificati. Con l’aumentare del traffico, le esperienze risulteranno tuttavia suddivise in modo più rispondente agli obiettivi.
 
-## Quale esperienza viene visualizzata se un utente è idoneo per unʼattività che contiene più esperienze con più di un pubblico ideoneo? {#section_94A60B11212D48FD8AB0803C6C7E7253}
+## Quale esperienza viene visualizzata se un utente è idoneo per unʼattività che contiene più esperienze con più di un pubblico ideoneo?  {#section_94A60B11212D48FD8AB0803C6C7E7253}
 
 Lʼutente diventa idoneo per la prima esperienza/il primo pubblico che viene visualizzato nella pagina [!UICONTROL Destinazioni] dellʼattività.
 
@@ -93,7 +93,7 @@ Ad esempio, potresti vedere i seguenti tipi di pubblico: “Utenti PC” (in [!D
 
 Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitatori” e “Visitatori di ritorno”. Questi non possono essere rinominati dagli utenti.
 
-## Perché tutti i parametri del profilo non vengono visualizzati nellʼinterfaccia utente di Target? {#section_3CD947D15C984EE9AD19550220E0E8BD}
+## Perché tutti i parametri del profilo non vengono visualizzati nellʼinterfaccia utente di Target?  {#section_3CD947D15C984EE9AD19550220E0E8BD}
 
 [!DNL Target] ha un limite di 50 attributi di profilo univoci per chiamata mbox. Se devi passare più di 50 attributi di profilo a [!DNL Target], puoi farlo utilizzando il metodo API [!UICONTROL Aggiornamento profilo]. Per ulteriori informazioni, vedi [Aggiornamento profilo](https://developers.adobetarget.com/api/#authentication-tokens) nella documentazione API di Adobe Target.
 
@@ -101,7 +101,7 @@ Alcuni tipi di pubblico di Target sono predefiniti, ad esempio “Nuovi visitato
 
 Le attività di personalizzazione automatizzata vengono valutate una volta per sessione. Se c’erano delle sessioni attive idonee per una particolare esperienza e ora sono state aggiunte nuove offerte, gli utenti vedranno il nuovo contenuto insieme alle offerte precedentemente mostrate. Poiché in precedenza sono stati considerati idonei per quelle esperienze, continueranno a vederle per tutta la durata della sessione. Per eseguire la valutazione per ogni singola visita, usa il tipo di attività Targeting esperienza (XT).
 
-## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nell’interfaccia utente di Target? {#section_6BEB237CAC004A06A290F9644E5BF0FB}
+## Perché le modifiche apportate ai tipi di pubblico creati tramite API non vengono riportate nell’interfaccia utente di Target?  {#section_6BEB237CAC004A06A290F9644E5BF0FB}
 
 A differenza delle offerte e degli script di profilo, le modifiche apportate da API a tipi di pubblico creati tramite Target Standard non sono attualmente sincronizzate nell&#39;interfaccia utente di Target.
 
