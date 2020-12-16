@@ -14,13 +14,13 @@ ht-degree: 88%
 
 # ![PREMIUM](/help/assets/premium.png) Attributi di entità{#entity-attributes}
 
-Use entity attributes to pass product or content information to [!DNL Adobe Target Recommendations].
+Utilizzate gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] invia il `productId` o `productPurchasedId` (indicato come `entity.id` nel codice) utilizzato negli algoritmi.
+[!DNL Recommendations] invia l&#39; `productId` o  `productPurchasedId` (indicato come  `entity.id` nel codice) utilizzato negli algoritmi.
 
 >[!NOTE]
 >
->* `entity.id` deve corrispondere alla pagina di conferma `productPurchasedId` inviata all&#39;ordine e `productId` utilizzata nei rapporti  prodotto Adobe Analytics.
+>* `entity.id` deve corrispondere all&#39; `productPurchasedId` inviato alla pagina di conferma dell&#39;ordine e all&#39; `productId` utilizzato nei rapporti  prodotto Adobe Analytics.
    >
    >
 * I valori degli attributi di entità specificati scadono dopo 61 giorni. Questo significa che devi assicurarti che il valore più recente di ogni attributo di entità sia passato a Target Recommendations almeno una volta al mese per ogni elemento del catalogo.
@@ -28,11 +28,11 @@ Use entity attributes to pass product or content information to [!DNL Adobe Targ
 
 La maggior parte dei parametri predefiniti accetta un solo valore, con i nuovi valori che sovrascrivono i vecchi valori. Il parametro `categoryId` può accettare un elenco di valori delimitato da virgole per ogni categoria contenente quel prodotto. I nuovi valori `categoryId` non sovrascrivono quelli esistenti ma vengono aggiunti durante l’aggiornamento dell’entità (limite di 250 caratteri).
 
-In generale, la mbox delle informazioni di visualizzazione potrebbe essere simile all&#39;esempio seguente se utilizzate at.js 1.*x* con `mboxCreate`.
+In generale, la mbox delle informazioni di visualizzazione potrebbe essere simile all&#39;esempio seguente se utilizzate at.js 1.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Se utilizzi at.js 2.*x*, `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti ad Recommendations utilizzando at.js 2.*x*, utilizza [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio di questo tipo, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
+>* Se utilizzi at.js 2.*x*,  `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti ad Recommendations utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, vedere [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
