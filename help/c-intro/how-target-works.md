@@ -86,19 +86,19 @@ Consulta [Consigli](/help/c-recommendations/recommendations.md#concept_7556C8A45
 
 Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
-## The edge network {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
+## Rete periferica {#concept_0AE2ED8E9DE64288A8B30FCBF1040934}
 
 Un &quot;Edge&quot; è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo.
 
 Per migliorare i tempi di risposta, Target Edge ospita solo la logica di attività, i profili memorizzati nella cache e le informazioni sulle offerte.
 
-Activity and content databases, [!DNL Analytics] data, APIs, and marketer user interfaces are housed in Adobe’s Central Clusters. Gli aggiornamenti vengono quindi inviati ai bordi di Target. I cluster centrali e i cluster Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati dell&#39;attività memorizzati nella cache. Tutti i modelli 1:1 sono inoltre memorizzati su ciascun bordo, per cui anche le richieste più complesse possono essere elaborate sul bordo.
+I database delle attività e dei contenuti, i dati [!DNL Analytics], le API e le interfacce utente degli esperti di marketing sono memorizzati  cluster centrali del Adobe. Gli aggiornamenti vengono quindi inviati ai bordi di Target. I cluster centrali e i cluster Edge vengono sincronizzati automaticamente per aggiornare continuamente i dati dell&#39;attività memorizzati nella cache. Tutti i modelli 1:1 sono inoltre memorizzati su ciascun bordo, per cui anche le richieste più complesse possono essere elaborate sul bordo.
 
 Ogni cluster Edge dispone di tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono indirizzate al cluster Edge più vicino.
 
 Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
 
-The [!DNL Adobe Target] solution is hosted on Adobe-owned and Adobe-leased data centers around the globe.
+La soluzione [!DNL Adobe Target] è ospitata  centri dati di proprietà del Adobe e affittati  Adobe in tutto il mondo.
 
 Le posizioni cluster centrali contengono sia un centro di raccolta dati che un centro di elaborazione dati. Le posizioni cluster Edge contengono solo un centro di raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
 
@@ -124,15 +124,15 @@ Target Edge Clusters, ospitato su AWS, si trova in:
 * Dublin (Irlanda)
 * Repubblica di Singapore
 
-Il [!DNL Target Recommendations] servizio è ospitato in un centro [!DNL Adobe] dati in Oregon.
+Il servizio [!DNL Target Recommendations] è ospitato in un centro dati [!DNL Adobe] dell&#39;Oregon.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per [!DNL Target] i clienti in Cina. Because of the firewall and the lack of Edge Clusters within the country, the experiences of sites with [!DNL Target] deployed will be slow to render and page loads will be affected. Also, marketers might experience latency when using the [!DNL Target] authoring UI.
+>[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni dell&#39;utente finale continueranno a essere limitate per  [!DNL Target] i clienti in Cina. A causa del firewall e della mancanza di Edge Clusters nel paese, le esperienze dei siti con [!DNL Target] implementato risulteranno lente e i carichi delle pagine ne risulteranno influenzati. Inoltre, gli esperti di marketing potrebbero rilevare la latenza durante l&#39;utilizzo dell&#39;interfaccia di authoring [!DNL Target].
 
-Se necessario, potete  inserire nell&#39;elenco Consentiti i cluster Edge di Target. Per ulteriori informazioni, consultate [inserire nell&#39;elenco Consentiti nodi](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)periferici di Target.
+Se necessario, potete  inserire nell&#39;elenco Consentiti i cluster Edge di Target. Per ulteriori informazioni, vedere [ inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
-## Protected user experience {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
+## Esperienza utente protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
 Adobe garantisce un alto grado di affidabilità per la disponibilità e le prestazioni dell’infrastruttura di targeting. Tuttavia, un&#39;interruzione delle comunicazioni tra il browser di un utente finale e il server di Adobe può causare un’interruzione nella distribuzione dei contenuti.
 
@@ -194,7 +194,7 @@ Riteniamo che sarebbe difficile cambiare involontariamente il significato del co
 
 ## Bot {#bots}
 
-Adobe Target uses [DeviceAtlas](https://deviceatlas.com/) to detect known bots. Al traffico che viene identificato come traffico generato da un bot vengono comunque trasmessi i contenuti, come per il traffico proveniente da utenti regolari, nel rispetto delle linee guida SEO. Tuttavia, l’utilizzo di traffico da bot trattato come utenti normali può sfalsare i test A/B o gli algoritmi di personalizzazione. Pertanto, se nell’attività Target viene rilevato un bot noto, il relativo traffico viene trattato in modo leggermente diverso. La rimozione del traffico da bot genera misurazioni più accurate delle attività degli utenti effettivi.
+ Adobe Target utilizza [DeviceAtlas](https://deviceatlas.com/) per rilevare i bot noti. Al traffico che viene identificato come traffico generato da un bot vengono comunque trasmessi i contenuti, come per il traffico proveniente da utenti regolari, nel rispetto delle linee guida SEO. Tuttavia, l’utilizzo di traffico da bot trattato come utenti normali può sfalsare i test A/B o gli algoritmi di personalizzazione. Pertanto, se nell’attività Target viene rilevato un bot noto, il relativo traffico viene trattato in modo leggermente diverso. La rimozione del traffico da bot genera misurazioni più accurate delle attività degli utenti effettivi.
 
 In particolare, per il traffico proveniente da bot noti, Target:
 
