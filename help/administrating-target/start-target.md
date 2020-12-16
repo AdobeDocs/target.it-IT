@@ -20,7 +20,7 @@ Questa sezione descrive i primi passi che gli amministratori di [!DNL Target] de
 
 Un amministratore di sistema utilizza [!DNL Adobe Admin Console] per aggiungerti come utente ad [!DNL Target] invitandoti a partecipare. L’amministratore di sistema deve quindi aggiungerti a uno o più gruppi specifici per il tuo ruolo. Entrambe queste attività sono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Per ulteriori informazioni, consulta [Gestione di utenti e prodotti](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html)  Experience Cloud nella guida *del Experience Cloud* e dei servizi di base.
+Per ulteriori informazioni, vedere [Gestione di utenti e prodotti  Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nell&#39;Aiuto di *Experience Cloud e servizi di base*.
 
 Dopo che l’amministratore di sistema avrà eseguito questi passaggi, riceverai un messaggio e-mail di invito.
 
