@@ -42,7 +42,7 @@ Create una raccolta per organizzare i prodotti o il contenuto da mostrare nelle 
 
    ![Elenco Raccolte](assets/collections_list.png)
 
-   Nella pagina [!UICONTROL Raccolte] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fate clic sul pulsante [!UICONTROL Crea raccolta] . Potete inoltre modificare, copiare ed eliminare le raccolte esistenti posizionando il puntatore del mouse sulla raccolta desiderata e facendo clic sull&#39;icona desiderata.
+   Nella pagina [!UICONTROL Raccolte] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fate clic sul pulsante [!UICONTROL Crea raccolta]. Potete inoltre modificare, copiare ed eliminare le raccolte esistenti posizionando il puntatore del mouse sulla raccolta desiderata e facendo clic sull&#39;icona desiderata.
 
    ![Icone al passaggio del mouse: modificare, copiare ed eliminare](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -92,9 +92,9 @@ Tenete presente che le raccolte sono disponibili nell&#39;intero account. Consid
 
 1. Create una raccolta utilizzando uno dei metodi indicati in precedenza.
 
-1. Fate clic su **[!UICONTROL Attività]** e [create una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificate un&#39;attività esistente.
+1. Fare clic su **[!UICONTROL Activities]** e [creare una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificare un&#39;attività esistente.
 
-1. Dopo aver selezionato un criterio e una progettazione, la pagina [!UICONTROL Opzioni] viene visualizzata quando selezionate la raccolta desiderata.
+1. Dopo aver selezionato un criterio e una progettazione, viene visualizzata la pagina [!UICONTROL Opzioni] in cui si seleziona la raccolta desiderata.
 
    ![Scegli opzione raccolta](/help/c-recommendations/c-products/assets/choose-collection.png)
 
@@ -102,7 +102,7 @@ Tenete presente che le raccolte sono disponibili nell&#39;intero account. Consid
 
    ![Cambia raccolta, opzione](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Training video: Create collections and exclusions in Recommendations (7:05) ![Tutorial badge](/help/assets/tutorial.png)
+## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Logo delle esercitazioni](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
