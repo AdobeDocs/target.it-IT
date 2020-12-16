@@ -14,14 +14,14 @@ ht-degree: 61%
 
 # Visualizzare più metriche in un rapporto{#view-multiple-metrics-in-a-report}
 
-Puoi selezionare più metriche da visualizzare in un [!DNL Adobe Target] rapporto.
+Puoi selezionare più metriche da visualizzare in un report [!DNL Adobe Target].
 
 Tieni presente le informazioni seguenti quando lavori con più metriche nei rapporti:
 
-* The ability to view multiple metrics is available for [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md), and [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) activities only.
-* You cannot add more than 20 metrics to a report for an activity that uses [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). You can add as many metrics as you have in your activity to reports for activities that do *not* use A4T.
+* La possibilità di visualizzare più metriche è disponibile solo per le attività [A/B Test](/help/c-activities/t-test-ab/test-ab.md), [Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md), [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) e [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT).
+* Non puoi aggiungere più di 20 metriche a un report per un&#39;attività che utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Puoi aggiungere tutte le metriche di cui disponi nell&#39;attività ai report per le attività che *non* utilizzano A4T.
 * Non puoi utilizzare l&#39;opzione [](/help/c-reports/downloading-data-in-csv-file.md)Scarica per scaricare i rapporti in formato CSV se sono state selezionate più metriche. Devi selezionare una sola metrica per attivare l’opzione [!UICONTROL Scarica].
-* You cannot view multiple metrics for activities created before the July 2015 [!DNL Target] release (July 30, 2015).
+* Non è possibile visualizzare più metriche per le attività create prima della release [!DNL Target] di luglio 2015 (30 luglio 2015).
 
 **Per selezionare più metriche da visualizzare nel rapporto:**
 
@@ -42,10 +42,10 @@ Tieni presente le informazioni seguenti quando lavori con più metriche nei rapp
 
    Nell&#39;elenco [!UICONTROL Metriche visualizzate] deve essere presente almeno una metrica.
 
-   È possibile ridisporre le metriche trascinandole nell&#39;ordine desiderato nell&#39;elenco [!UICONTROL Metriche visualizzate]. The selected order will be reflected in the [!UICONTROL Table View] and [!UICONTROL Graph View]. Per rimuovere una metrica dall&#39;elenco [!UICONTROL Metriche visualizzate], posiziona il puntatore del mouse sulla metrica, quindi fai clic sull&#39;icona **X**.
+   È possibile ridisporre le metriche trascinandole nell&#39;ordine desiderato nell&#39;elenco [!UICONTROL Metriche visualizzate]. L&#39;ordine selezionato verrà riportato nella [!UICONTROL Visualizzazione tabella] e nella [!UICONTROL Visualizzazione grafico]. Per rimuovere una metrica dall&#39;elenco [!UICONTROL Metriche visualizzate], posiziona il puntatore del mouse sulla metrica, quindi fai clic sull&#39;icona **X**.
 
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
-1. (Conditional) While viewing the report in the [!UICONTROL Table View], hover your mouse pointer on any metric&#39;s column header to display a blue arrow. Fai clic sulla freccia per espandere la tabella e visualizzare i parametri di [!UICONTROL Incremento] e [!UICONTROL Affidabilità] per tale metrica.
+1. (Condizionale) Durante la visualizzazione del rapporto in [!UICONTROL Visualizzazione tabella], posizionate il puntatore del mouse sull&#39;intestazione della colonna di una metrica per visualizzare una freccia blu. Fai clic sulla freccia per espandere la tabella e visualizzare i parametri di [!UICONTROL Incremento] e [!UICONTROL Affidabilità] per tale metrica.
 
    ![](assets/multiple_metrics_table.png)
 
