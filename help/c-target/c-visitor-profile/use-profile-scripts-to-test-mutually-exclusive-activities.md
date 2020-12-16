@@ -46,7 +46,7 @@ if (!user.get('twogroups')) {
 
 * `if (ran_number <= 49)` inizia una routine che determina il gruppo a cui appartiene il visitatore. Se il numero restituito è 0-49, il visitatore viene assegnato a GroupA. Se il numero è 50-99, il visitatore viene assegnato a GroupB. Il gruppo determina l’attività che verrà visualizzata dal visitatore.
 
-After you create the profile attribute, set up the first activity to target the desired population by requiring that the user profile parameter `user.twogroups` matches the value specified for GroupA.
+Dopo aver creato l&#39;attributo di profilo, configurate la prima attività per la popolazione desiderata richiedendo che il parametro di profilo utente `user.twogroups` corrisponda al valore specificato per GroupA.
 
 >[!NOTE]
 >
