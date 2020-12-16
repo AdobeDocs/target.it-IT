@@ -11,7 +11,7 @@ ht-degree: 92%
 ---
 
 
-# Deploy at.js to a non-production environment{#deploy-at-js-to-a-non-production-environment}
+# Distribuzione di at.js in un ambiente non di produzione{#deploy-at-js-to-a-non-production-environment}
 
 Informazioni sulle tecniche per distribuire in modo sicuro at.js in un ambiente non di produzione.
 
