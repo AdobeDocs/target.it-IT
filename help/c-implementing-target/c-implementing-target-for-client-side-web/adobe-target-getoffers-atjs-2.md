@@ -30,7 +30,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 >[!NOTE]
 >
->Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consulta la documentazione [API di](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) consegna.
+>Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consultare la [Documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
 
 | Nome campo | Obbligatorio | Limitazioni | Descrizione |
 | --- | --- | --- | --- |
@@ -185,7 +185,7 @@ adobe.target.getOffers({
 }
 ```
 
-Il payload può quindi essere inoltrato a  Adobe Analytics tramite l&#39;API [di inserimento](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html)dati.
+Il payload può quindi essere inoltrato a  Adobe Analytics tramite l&#39; [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
