@@ -43,7 +43,7 @@ Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di p
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creazione del contrassegno ![Panoramica pubblico](/help/assets/overview.png)
+## Video di formazione: Creazione del contrassegno Panoramica ![Audience](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
