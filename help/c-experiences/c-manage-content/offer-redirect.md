@@ -57,7 +57,7 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 >
 >Chiedi al tuo consulente di implementazione prima di lanciare questi test.
 
-## Video di formazione: L’archivio dei contenuti (4:56) ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: L’archivio dei contenuti (4:56)  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto.
 
