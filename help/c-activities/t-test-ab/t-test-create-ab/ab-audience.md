@@ -48,7 +48,7 @@ Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Utilizzo del pubblico in Adobe Target (6:21) ![badge Panoramica](/help/assets/overview.png)
+### Utilizzo del pubblico in Adobe Target (6:21)  ![badge Panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flusso di lavoro attività - Targeting (2:14) badge ![esercitazione](/help/assets/tutorial.png)
+### Flusso di lavoro attività - Targeting (2:14) ![Logo esercitazione](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come impostare i tipi di pubblico.
 
