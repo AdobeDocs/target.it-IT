@@ -30,5 +30,5 @@ Le API di [!DNL Target] per la generazione di [!UICONTROL consigli] utilizzano i
 
 >[!NOTE]
 >
->For the complete, most up-to-date list, see [IP Addresses used in the Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
+>Per l&#39;elenco completo e più aggiornato, vedere [Indirizzi IP utilizzati in Adobe Experience Cloud](https://helpx.adobe.com/analytics/kb/adobe-ip-addresses.html).
 
