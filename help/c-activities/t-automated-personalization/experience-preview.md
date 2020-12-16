@@ -12,7 +12,7 @@ ht-degree: 65%
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Preview  attività Automated Personalization con URL di anteprima esperienza{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
+# ![](/help/assets/premium.png) PREMIUMPreview  attività Automated Personalization con URL di anteprima esperienza{#share-experience-urls-to-preview-automated-personalization-outside-of-target}
 
 Gli URL di anteprima esperienza possono essere generati per le attività di Target  Automated Personalization per visualizzare il contenuto dell&#39;esperienza direttamente sul sito prima che l&#39;attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
 
@@ -31,14 +31,14 @@ Utilizzate gli URL di anteprima esperienza per condividere esperienze con i memb
 1. Rivedi e/o definisci gli URL.
 
    * Se utilizzi il Compositore esperienza visivo, l&#39;URL predefinito specificato per l&#39;attività viene immesso automaticamente e viene generato un collegamento per ogni esperienza nell&#39;attività. Se lo desideri, puoi modificare questo URL e aggiungerne altri.
-   * Se utilizzi il Compositore esperienza basato su moduli, non viene immesso automaticamente alcun URL predefinito. If you haven&#39;t previously created experience preview URLs, click **Add New URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
+   * Se utilizzi il Compositore esperienza basato su moduli, non viene immesso automaticamente alcun URL predefinito. Se non avete creato precedentemente gli URL di anteprima dell&#39;esperienza, fate clic su **Aggiungi nuovo URL**. Devi specificare tutti gli URL che desideri visualizzare in anteprima e un nome per ognuno.
 
    Puoi aggiungere più URL, tale opzione è utile quando esegui un test a più pagine o un test modello e desideri visualizzare in anteprima l&#39;attività su più di una pagina.
 
    Tramite una finestra modale, puoi visualizzare i collegamenti alle esperienze sul tuo sito per ottenere una “anteprima fedele” al di fuori del Compositore esperienza visivo. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL risultante direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio. Invece, copia il testo nella finestra modale e invialo all&#39;intero team.
 1. Fai clic su **[!UICONTROL Genera tutto]** e poi su ogni esperienza per visualizzarne l’anteprima.
 
-   If you then make changes to the experience, make sure to generate new preview links for your team by returning to the modal window and clicking **Renew Links** to get new links.
+   Se modificate l&#39;esperienza, accertatevi di generare nuovi collegamenti di anteprima per il team tornando alla finestra modale e facendo clic su **Rinnova collegamenti** per ottenere nuovi collegamenti.
 
    **Nota:** i collegamenti di anteprima si aprono in nuove schede e richiedono che nel browser venga disattivato il blocco dei popup.
 
