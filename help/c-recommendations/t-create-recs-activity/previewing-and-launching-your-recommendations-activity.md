@@ -14,17 +14,17 @@ ht-degree: 16%
 
 # Anteprima e avvio di un’attività Consigli
 
-Dopo aver creato l&#39;attività [!UICONTROL Recommendations], Test A/B o Targeting  esperienza (XT) contenente le offerte [](/help/c-recommendations/recommendations-as-an-offer.md)Recommendations, desiderate visualizzare l&#39;anteprima delle raccomandazioni per assicurarvi che i risultati siano disponibili prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare l&#39;anteprima delle raccomandazioni.
+Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B Test] o [!UICONTROL Experience Targeting] (XT) contenente le [offerte Recommendations](/help/c-recommendations/recommendations-as-an-offer.md), desiderate visualizzare l&#39;anteprima delle raccomandazioni per assicurarvi che i risultati siano disponibili prima di avviare l&#39;attività. [!DNL Target Recommendations] offre diversi modi per visualizzare l&#39;anteprima delle raccomandazioni.
 
 ## Verifica dello stato dell’algoritmo Recommendations
 
 Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare le raccomandazioni. L&#39;esecuzione di questo algoritmo potrebbe richiedere alcune ore.
 
-Potete verificare se l&#39;algoritmo è stato completato nel diagramma di panoramica [!UICONTROL Attività] , in cui è elencato lo stato dei criteri. L&#39;illustrazione seguente mostra lo stato nel diagramma dell&#39;attività nella pagina [!DNL Recommendations] Panoramica  di un&#39;attività:
+È possibile verificare se l&#39;algoritmo è stato completato nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. L&#39;illustrazione seguente mostra lo stato nel diagramma dell&#39;attività su una pagina [!DNL Recommendations]Overview[!UICONTROL  dell&#39;attività:]
 
 ![Pagina Panoramica dell&#39;attività Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
-L&#39;illustrazione seguente illustra lo stato in una pagina [!UICONTROL A/B Test] o XT activity&#39;s [!UICONTROL Overview (Panoramica] dell&#39;attività XT):
+L&#39;illustrazione seguente illustra lo stato di una pagina [!UICONTROL A/B Test] o dell&#39;attività XT [!UICONTROL Overview]:
 
 ![Pagina Panoramica test A/B](/help/c-recommendations/t-create-recs-activity/assets/ab-overview.png)
 
@@ -32,7 +32,7 @@ I risultati dello stato includono quanto segue:
 
 * [!UICONTROL Risultati pronti]: Indica che l&#39;algoritmo ha restituito dei risultati
 * [!UICONTROL Risultati non pronti]: Indica che l&#39;algoritmo non è stato completato.
-* [!UICONTROL Errore]feed: Indica che non è stato possibile recuperare il file di feed dei criteri personalizzati.
+* [!UICONTROL Errore] feed: Indica che non è stato possibile recuperare il file di feed dei criteri personalizzati.
 
 ![Risultati, finestra di dialogo](/help/c-recommendations/c-algorithms/assets/criteria_status_multi.png)
 
@@ -51,22 +51,22 @@ Se come origini dei dati comportamentali sono selezionate delle mbox, i criteri 
 Se il criterio utilizza [!DNL Adobe Analytics] come origine dei dati comportamentali, l’eventuale utilizzo della suite di rapporti e dell’intervallo di lookback selezionati per altri criteri incide sul tempo che trascorre prima che il criterio creato diventi disponibile.
 
 * **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. Il tempo necessario dipende dal caricamento del sistema [!DNL Analytics].
-* **Criteri nuovi o modificati utilizzando una suite** di rapporti già disponibile: Quando si crea un nuovo criterio o si modifica un criterio esistente, se la suite di rapporti selezionata è già stata utilizzata con [!DNL Target Recommendations], con un intervallo di dati uguale o inferiore all&#39;intervallo di dati selezionato, i dati sono immediatamente disponibili e non è richiesta alcuna impostazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
-* **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per un consiglio di tipo [!UICONTROL Affinità per articoli visualizzati], quando un utente visualizza un prodotto, a [!DNL Analytics] viene trasmessa una chiamata di tracciamento per visualizzazione prodotto quasi in tempo reale. The [!DNL Analytics] data is pushed to [!DNL Target] early the next day and [!DNL Target] runs the algorithm in fewer than 12 hours.
+* **Criteri nuovi o modificati utilizzando una suite** di rapporti già disponibile: Quando si crea un nuovo criterio o si modifica un criterio esistente, se la suite di rapporti selezionata è già stata utilizzata con  [!DNL Target Recommendations], con un intervallo di dati uguale o inferiore all&#39;intervallo di dati selezionato, i dati sono immediatamente disponibili e non è richiesta alcuna impostazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
+* **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per un consiglio di tipo [!UICONTROL Affinità per articoli visualizzati], quando un utente visualizza un prodotto, a [!DNL Analytics] viene trasmessa una chiamata di tracciamento per visualizzazione prodotto quasi in tempo reale. I dati [!DNL Analytics] vengono inviati a [!DNL Target] all&#39;inizio del giorno successivo e [!DNL Target] eseguono l&#39;algoritmo in meno di 12 ore.
 
 >[!NOTE]
 >
->[!UICONTROL Gli elementi] visualizzati di recente non richiedono l&#39;esecuzione di un algoritmo offline e i risultati sono immediatamente disponibili. [!UICONTROL Gli algoritmi Top View] e [!UICONTROL Top Sellers] basati su dati mbox generalmente producono risultati molto rapidamente a causa del calcolo più semplice richiesto. Queste possono essere buone opzioni quando si desidera visualizzare l&#39;anteprima di una modifica di progettazione o confermare che i dati comportamentali vengono raccolti correttamente.
+>[!UICONTROL Gli ] elementi visualizzati di recente non richiedono l&#39;esecuzione di un algoritmo offline e i risultati sono immediatamente disponibili. [!UICONTROL Top ] Viewedand  [!UICONTROL Top ] Sellersalgorithms basato su dati mbox generalmente producono risultati molto rapidamente a causa del più semplice calcolo richiesto. Queste possono essere buone opzioni quando si desidera visualizzare l&#39;anteprima di una modifica di progettazione o confermare che i dati comportamentali vengono raccolti correttamente.
 
 ## Utilizzo dei collegamenti QA per l&#39;anteprima di Recommendations
 
-Una volta pronti i risultati per l&#39;algoritmo, potete visualizzare l&#39;anteprima dei risultati utilizzando la funzionalità di collegamento [](/help/c-activities/c-activity-qa/activity-qa.md) QA di [!DNL Adobe Target]. I collegamenti QA sono disponibili nella sezione [!UICONTROL Activity QA] della pagina di panoramica dell&#39;attività:
+Una volta pronti i risultati per l&#39;algoritmo, è possibile visualizzare l&#39;anteprima dei risultati utilizzando la funzionalità [QA link](/help/c-activities/c-activity-qa/activity-qa.md) di [!DNL Adobe Target]. I collegamenti QA sono disponibili nella sezione [!UICONTROL Attività QA] della pagina Panoramica dell&#39;attività:
 
 ![Collegamento Controllo di qualità attività](/help/c-recommendations/t-create-recs-activity/assets/qa-link.png)
 
 >[!NOTE]
 >
->Per impostazione predefinita, ti aggiunge [!DNL Target] automaticamente al pubblico richiesto per il collegamento QA. Se questa impostazione è disattivata e l&#39;attività ha regole di targeting, il profilo utente deve rispettare tali regole di targeting per visualizzare l&#39;esperienza che contiene le raccomandazioni.
+>Per impostazione predefinita, [!DNL Target] ti aggiunge automaticamente al pubblico richiesto per il collegamento QA. Se questa impostazione è disattivata e l&#39;attività ha regole di targeting, il profilo utente deve rispettare tali regole di targeting per visualizzare l&#39;esperienza che contiene le raccomandazioni.
 
 L&#39;utilizzo di un collegamento di controllo qualità consente di visualizzare in anteprima le raccomandazioni sulla pagina:
 
@@ -77,14 +77,14 @@ L&#39;utilizzo di un collegamento di controllo qualità consente di visualizzare
 >* La modalità QA di destinazione è &quot;appiccicosa&quot; e salvata in un cookie. Se non uscite dalla modalità di controllo qualità, continuerete a visualizzare i risultati di tale controllo in tutto il sito. Per uscire dalla modalità QA, utilizzare il [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* In modalità di controllo qualità, la navigazione sul sito non influirà sugli elementi [!UICONTROL visualizzati di] recente o sugli elementi [!UICONTROL acquistati]di recente del profilo.&quot; Questo comportamento si verifica in base alla progettazione per evitare l&#39;inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un [!UICONTROL visualizzatore recente di elementi] o criteri Recommendations [!UICONTROL basati su] utente, prima sfogliate il sito al di fuori della modalità QA, quindi utilizzate la stessa sessione per aprire un collegamento in modalità QA.
+* In modalità QA, la navigazione sul sito non influirà sugli [!UICONTROL elementi visualizzati di recente] o [!UICONTROL elementi acquistati di recente] del tuo profilo.&quot; Questo comportamento si verifica in base alla progettazione per evitare l&#39;inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un criterio Recommendations[!UICONTROL Elementi visualizzati di recente] o [!UICONTROL Basati su utente], prima esplorare il sito al di fuori della modalità QA, quindi utilizzare la stessa sessione per aprire un collegamento alla modalità QA.
 
 
 ## Utilizzo del download CSV per visualizzare in anteprima le raccomandazioni
 
-In alcuni casi, potrebbe essere utile controllare gli elementi specifici consigliati. Questo è particolarmente utile quando si utilizzano algoritmi come [!UICONTROL Persone che hanno visualizzato questo, Visualizzato che], dove viene consigliato un diverso set di elementi a seconda dell&#39;elemento che l&#39;utente sta visualizzando attualmente, e si potrebbero avere migliaia o milioni di elementi diversi nel catalogo.
+In alcuni casi, potrebbe essere utile controllare gli elementi specifici consigliati. Questo è particolarmente utile quando si utilizzano algoritmi come [!UICONTROL Chi ha visualizzato questo, ha visualizzato che], dove viene consigliato un diverso set di elementi a seconda dell&#39;elemento che l&#39;utente sta visualizzando, e si potrebbero avere migliaia o milioni di elementi diversi nel catalogo.
 
-I risultati non sono disponibili per il download fino a quando non viene visualizzato uno stato Pronto [!UICONTROL per i] risultati per almeno un algoritmo nell&#39;attività.
+I risultati non sono disponibili per il download finché non viene visualizzato uno stato [!UICONTROL Results Ready] per almeno un algoritmo nell&#39;attività.
 
 Per scaricare i risultati per l&#39;anteprima, fate clic sull&#39;icona del menu nell&#39;angolo superiore destro della pagina Panoramica dell&#39;attività, quindi fate clic su **[!UICONTROL Scarica dati]**.
 
@@ -94,15 +94,15 @@ Per scaricare i risultati per l&#39;anteprima, fate clic sull&#39;icona del menu
 
 ![Elementi consigliati, file CSV](/help/c-recommendations/t-create-recs-activity/assets/recommended-items.png)
 
-Da sinistra a destra è riportato un elenco degli elementi consigliati, in questo caso quelli visualizzati più di frequente. Le raccomandazioni sono separate per ambiente, in questo caso solo l&#39;ambiente di produzione ha raccomandazioni. Per questo algoritmo, non sono state applicate restrizioni basate sul valore chiave, pertanto la riga con un asterisco (*) contiene l&#39;intero set di raccomandazioni. Per altri tipi di algoritmo basati su un valore chiave, come [!UICONTROL Persone che hanno visualizzato questo, che]i valori chiave (cioè gli elementi &quot;This&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (cioè gli elementi &quot;That&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
+Da sinistra a destra è riportato un elenco degli elementi consigliati, in questo caso quelli visualizzati più di frequente. Le raccomandazioni sono separate per ambiente, in questo caso solo l&#39;ambiente di produzione ha raccomandazioni. Per questo algoritmo, non sono state applicate restrizioni basate sul valore chiave, pertanto la riga con un asterisco (*) contiene l&#39;intero set di raccomandazioni. Per altri tipi di algoritmo basati su un valore chiave, come [!UICONTROL Chi ha visualizzato questo, ha visualizzato che], i valori chiave (ovvero gli elementi &quot;This&quot;) sono elencati nella colonna più a sinistra e gli elementi consigliati (cioè gli elementi &quot;That&quot;) sono elencati da sinistra a destra nelle colonne Recommendation_X.
 
 >[!NOTE]
 >
->I download dei risultati non sono disponibili per le attività contenenti un algoritmo Recommendations [!UICONTROL basato su] utente. I download dei risultati non sono disponibili per i criteri che utilizzano la logica di raccomandazione Elementi [!UICONTROL visualizzati di] recente.
+>I download dei risultati non sono disponibili per le attività contenenti un algoritmo Recommendations[!UICONTROL  basato su utente. ] I download dei risultati non sono disponibili per i criteri che utilizzano la logica di raccomandazione [!UICONTROL Elementi visualizzati di recente].
 
 ## Attivazione dell&#39;attività Recommendations
 
-Dalla scheda Panoramica  attività, fare clic sulla freccia a discesa accanto allo stato, quindi selezionare **[!UICONTROL Attiva]**.
+Dalla scheda [!UICONTROL Activity Overview], fare clic sulla freccia a discesa accanto allo stato, quindi selezionare **[!UICONTROL Activate]**.
 
 ![Attiva, opzione](/help/c-recommendations/t-create-recs-activity/assets/activate.png)
 
@@ -110,7 +110,7 @@ Lo stato diventa [!UICONTROL Attivazione]:
 
 ![Attivazione](/help/c-recommendations/t-create-recs-activity/assets/activating.png)
 
-Dopo alcuni secondi o due minuti, lo stato passa a [!UICONTROL Live]:
+Dopo alcuni secondi a un paio di minuti, lo stato passa a [!UICONTROL Live]:
 
 ![Live](/help/c-recommendations/t-create-recs-activity/assets/live.png)
 
@@ -118,7 +118,7 @@ Potete anche disattivare o archiviare l&#39;attività utilizzando lo stesso elen
 
 ## Evitare interruzioni durante la modifica delle impostazioni di Recommendations
 
-La modifica delle [!DNL Recommendations] raccolte, dei criteri, delle promozioni o delle impostazioni di progettazione in un&#39;attività live potrebbe causare la mancata validità dei risultati dell&#39;algoritmo e la modifica dello stato di un algoritmo in [!UICONTROL Risultati non pronti].
+La modifica delle raccolte [!DNL Recommendations], dei criteri, delle promozioni o delle impostazioni di progettazione in un&#39;attività live potrebbe determinare la non validità dei risultati dell&#39;algoritmo e la modifica dello stato di un algoritmo in [!UICONTROL Results Not Ready].
 
 Per evitare di interrompere un&#39;attività live, è consigliabile adottare il seguente approccio quando si modifica un&#39;attività live:
 
