@@ -139,7 +139,7 @@ Consente alle applicazioni Rich Internet (RIA) di manipolare l’HTML dopo che l
 
 Utilizza la tecnologia a pagina dinamica per trasmettere valori all&#39;offerta.
 
-## E {#section_55C3D8AF3D31494784C70090D8343244}
+## E  {#section_55C3D8AF3D31494784C70090D8343244}
 
 **coinvolgimento**
 
@@ -173,7 +173,7 @@ Un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione d
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
-## F {#section_45450032955C4DD2B607B85A23C4E21A}
+## F  {#section_45450032955C4DD2B607B85A23C4E21A}
 
 **feed**
 
@@ -187,7 +187,7 @@ La rappresentazione visiva di un&#39;attività in Target Standard.
 
 Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Personalizzazione automatizzata e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
 
-## G {#section_D7B3B62BD3A449EFAA11DF9704773B28}
+## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
 **parametro di geolocalizzazione**
 
@@ -197,7 +197,7 @@ Consente di eseguire il targeting di attività ed esperienze in base alla posizi
 
 La conversione o il risultato che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico.
 
-## H {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
+## H  {#section_B3FB79217FAF4FE3917AC14DE6F68E08}
 
 **host**
 
@@ -213,7 +213,7 @@ Vedi *Ambiente*. I gruppi di host sono chiamati “ambienti” in [!DNL Target S
 
 Parametro specifico del visitatore trasmesso al cookie del visitatore dall&#39;elemento mbox. Il visitatore di ritorno è un esempio di parametro di profilo in-mbox.
 
-## L {#section_9F81FB4EED15412BB51B286512E1C5FC}
+## L  {#section_9F81FB4EED15412BB51B286512E1C5FC}
 
 **attività pagina di destinazione**
 
@@ -223,7 +223,7 @@ Consente di utilizzare il targeting per visualizzare contenuti diversi nella pag
 
 Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo elemento DOM. Nella metodologia MVT, una posizione è a volte indicata come *fattore*. Un testo multivariato fattoriale completo mette a confronto tutte le possibili combinazioni di offerte nelle posizioni.
 
-## M {#section_FA130A5F610F4B5DA7A88CF119B8F422}
+## M  {#section_FA130A5F610F4B5DA7A88CF119B8F422}
 
 **mbox**
 
@@ -255,7 +255,7 @@ Un’offerta è costituita dal contenuto visualizzato all’interno di una mbox 
 
 Consente ai visitatori di rinunciare a tutte le operazioni di tracciamento e consegna dei contenuti.
 
-## P {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
+## P  {#section_C4ED86CA8CE74D03A8C6586A205C04B4}
 
 **conteggio di pagina**
 
@@ -265,7 +265,7 @@ Una metrica di coinvolgimento che calcola il numero di pagine visualizzate in un
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-## R {#section_86725D549B6F46A6ADEE424F33595705}
+## R  {#section_86725D549B6F46A6ADEE424F33595705}
 
 **ricetta**
 
@@ -313,7 +313,7 @@ Un’applicazione a pagina singola (SPA) è un’applicazione web o un sito web 
 
 Parametri utilizzati per misurare il successo di un’attività. Le metriche di successo includono misure aziendali chiave che consentono di determinare il successo di un’esperienza o un’offerta specifica in un’attività Target. Ad esempio, puoi determinare se una nuova offerta o l’aggiunta di un articolo al carrello aumenta il tuo ricavo per visitatore. Le metriche di successo possono essere utili per individuare problemi a livello di registrazione, ordini o percorsi di acquisto, o anche semplicemente il livello di coinvolgimento di visitatori o clienti.
 
-## T {#section_1841144841AF41169AF1E83B90C18292}
+## T  {#section_1841144841AF41169AF1E83B90C18292}
 
 **test**
 
@@ -323,13 +323,13 @@ Un’attività in cui due o più esperienze sono confrontate con specifiche metr
 
 Un tipo di coinvolgimento che rappresenta la durata della visita (in secondi) dal momento in cui il visitatore vede il primo elemento mbox di visualizzazione dell’attività al caricamento della pagina finale nella sessione con un elemento mbox.
 
-## U {#section_6407B81326FF43049D92265746E6C402}
+## U  {#section_6407B81326FF43049D92265746E6C402}
 
 **parametri URL**
 
 Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse automaticamente a un elemento mbox ogni volta che la pagina con l’elemento mbox viene visualizzata da un visitatore. Queste variabili URL sono quindi disponibili per l’utilizzo a scopo di targeting di visualizzazione o per i filtri per segmenti nei rapporti.
 
-## V {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
+## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
 **visit**
 
@@ -343,7 +343,7 @@ Un visitatore è qualsiasi soggetto che accede al sito. Un visitatore viene valu
 
 In Target Standard, è l’interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Per creare esperienze e offerte per le attività di Target puoi trascinare, scambiare e modificare il layout e il contenuto di una pagina web (o offerta).
 
-## W {#section_62E7B598DBB34ECABAF4EF913B0895EC}
+## W  {#section_62E7B598DBB34ECABAF4EF913B0895EC}
 
 **esperienza vincente**
 
