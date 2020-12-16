@@ -26,7 +26,7 @@ Pianifica il test degli elementi sulla pagina che produrranno probabilmente risu
 
 Infine, prima di creare il test, devi creare il contenuto da verificare. Assicurati di comprendere le differenze nel contenuto previsto per ogni offerta, e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test.
 
-## Video di formazione: Creazione di test multivariati (9:25) badge ![Esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 
