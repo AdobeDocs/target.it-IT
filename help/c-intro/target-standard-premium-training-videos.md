@@ -32,12 +32,12 @@ I video di formazione sono inclusi negli argomenti pertinenti di questa guida. F
 
 ## Adobe Target - Esercitazioni e video
 
-A collection of how-to videos and tutorials highlighting the capabilities of Target available on the [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) page.
+Una raccolta di video e esercitazioni che illustrano le funzionalità di Target disponibili nella pagina [ Adobe Target  Experience League](https://guided.adobe.com/#recommended/solutions/target).
 
 ![Video di Experience League](/help/c-intro/assets/experience-league.png)
 
-## Esercitazioni di Adobe Target {#tutorials}
+## Esercitazioni di Adobe Target  {#tutorials}
 
-Video introductions to [!DNL Target] concepts and tools are available on  the [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) page.
+Video introduttivi sui concetti e gli strumenti di [!DNL Target] sono disponibili sulla pagina [ Tutorials Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
 
 ![Esercitazioni di Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
