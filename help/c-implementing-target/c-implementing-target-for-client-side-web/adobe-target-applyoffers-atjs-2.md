@@ -22,14 +22,14 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 
 | Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
-| selector | Stringa | No | Elemento HTML o selettore CSS utilizzato per identificare l’elemento HTML in cui [!DNL Target] deve inserire il contenuto dell’offerta. If a selector is not provided, [!DNL Target] assumes that the HTML element to use is HTML HEAD. |
+| selector | Stringa | No | Elemento HTML o selettore CSS utilizzato per identificare l’elemento HTML in cui [!DNL Target] deve inserire il contenuto dell’offerta. Se non viene fornito un selettore, [!DNL Target] presuppone che l&#39;elemento HTML da utilizzare sia un HEAD HTML. |
 | Risposta | Oggetto | Sì | Oggetto di risposta da `getOffers()`.<br>Vedi la tabella Richieste di seguito. |
 
 ## Risposta
 
 >[!NOTE]
 >
->Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consulta la documentazione [API di](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) consegna.
+>Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consultare la [Documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
 
 | Nome campo | Descrizione |
 | --- | --- |
