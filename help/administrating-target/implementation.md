@@ -2,9 +2,9 @@
 keywords: implement;implementing
 description: Prima di cominciare a utilizzare Adobe Target, devi implementarlo sul tuo sito, capire alcuni concetti e termini di base, acquisire familiarità con il suo funzionamento e il modo in cui si integra con la tua infrastruttura e capire come il sistema traccia i visitatori.
 title: Implementare Target
-feature: implementation general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '155'
 ht-degree: 43%
