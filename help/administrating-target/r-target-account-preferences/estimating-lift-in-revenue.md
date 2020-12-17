@@ -2,9 +2,9 @@
 keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
 description: ' Adobe Target può stimare l''incremento delle entrate che si otterrebbe se tutti gli utenti visualizzassero l''esperienza vincente.'
 title: Stimare l’Incremento dei ricavi
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '505'
 ht-degree: 96%
