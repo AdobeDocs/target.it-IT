@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: 7f35d23897675e970012ad506d057de6ca2c2b2d
+source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
 workflow-type: tm+mt
-source-wordcount: '3144'
+source-wordcount: '3165'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Dicembre 16 | [Risoluzione dei problemi e domande frequenti su Target automatico](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Cosa succede se rimuovo una singola esperienza da un&#39;attività di targeting automatico?&quot; |
 | Dicembre 9 | [Decisioni su dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuovo argomento. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato spostato il seguente problema dalla sezione Problemi noti alla sezione Problemi risolti: &quot;Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;.&quot; |
 | Dicembre 1 | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | È stata incorporata la registrazione del webinar per &quot;Personalizzare e testare a latenza zero con decisioni sul dispositivo da  Adobe Target&quot;. |
