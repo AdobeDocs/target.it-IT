@@ -4,7 +4,7 @@ description: Risoluzione dei problemi e domande frequenti su Auto-Target in  Ado
 title: Risoluzione dei problemi e domande frequenti su Target automatico
 feature: auto-target
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: f4e6de7c8eb2478010ba1d0cd37fab99c6e8d80b
 workflow-type: tm+mt
 source-wordcount: '1902'
 ht-degree: 68%
@@ -108,6 +108,12 @@ Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!U
 
 Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target]. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target]. Invece di utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target], create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL  Automated Personalization].
 
+### Cosa succede se rimuovo una singola esperienza da un&#39;attività di targeting automatico?
+
+[!DNL Target] crea un modello per esperienza, quindi rimuovendo un&#39;esperienza  [!DNL Target] si crea un modello in meno e non si influenzano i modelli per le altre esperienze.
+
+Ad esempio, se disponete di un&#39;attività [!UICONTROL Auto-Target] con otto esperienze e non vi piace le prestazioni di un&#39;esperienza. Potete rimuovere quell&#39;esperienza e ciò non influirà sui modelli per le sette esperienze rimanenti.
+
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
 A volte le attività non vanno come previsto. Di seguito sono elencate alcune potenziali sfide che potresti affrontare durante l’utilizzo del [!UICONTROL Targeting automatico] e alcune soluzioni suggerite.
@@ -144,8 +150,3 @@ In un’attività di [!UICONTROL Targeting automatico], una volta conseguita la 
 
 Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore consegue la conversione per C1 e poi per A1, la conversione A1 non risulta perché, non appena ottenuta la conversione per C1, il visitatore viene rilasciato.
 
-### Cosa succede se rimuovo una singola esperienza da un&#39;attività di targeting automatico?
-
-[!DNL Target] crea un modello per esperienza, quindi rimuovendo un&#39;esperienza  [!DNL Target] si crea un modello in meno e non si influenzano i modelli per le altre esperienze.
-
-Ad esempio, se disponete di un&#39;attività [!UICONTROL Auto-Target] con otto esperienze e non vi piace le prestazioni di un&#39;esperienza. Potete rimuovere quell&#39;esperienza e ciò non influirà sui modelli per le sette esperienze rimanenti.
