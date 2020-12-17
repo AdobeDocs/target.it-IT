@@ -2,9 +2,9 @@
 keywords: Create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate
 description: Utilizzate Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target per creare l'attività di allocazione automatica del test A/B direttamente su una pagina compatibile con Target e per modificare parti della pagina all'interno di Target.
 title: Creazione di un'attività di allocazione automatica
-feature: ab
+feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '871'
 ht-degree: 62%
