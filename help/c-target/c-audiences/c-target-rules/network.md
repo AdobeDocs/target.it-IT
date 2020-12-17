@@ -4,7 +4,7 @@ description: Puoi creare tipi di pubblico in Adobe Target in base a dettagli del
 title: Opzioni di rete  pubblico Adobe Target
 feature: audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
 source-wordcount: '482'
 ht-degree: 98%
@@ -45,7 +45,7 @@ Puoi creare un pubblico in base ai dettagli della rete.
       >
       >Quando esegui il targeting basato su ISP, utilizza il nome ISP, non il nome comunemente diffuso. Assicurati di creare la regola senza distinzione tra maiuscole e minuscole o di utilizzare sempre le minuscole.
 
-      Puoi verificare l’ISP e i valori dei nomi di dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `themboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
+      Puoi verificare l’ISP e i valori dei nomi di dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `mboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
 
    * **Nome di dominio:** è il nome di dominio per l’indirizzo IP del visitatore. Non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. Di solito è molto simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
    * **Velocità di connessione:** questa è la velocità di connessione del visitatore a Internet. Le opzioni includono: banda larga, cavo, dialup, mobile, oc3, oc12, satellite, t1, t2, wireless, e xdsl.
