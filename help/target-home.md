@@ -3,9 +3,9 @@ keywords: Target;home;popular topics;adobe target;standard;premium;target docume
 title: Guida ad Adobe Target
 description: Visualizzate la home page di Target Guide.
 seo-description: Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necessario per adattare e personalizzare l'esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
-feature: landing
+feature: Overview
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '703'
 ht-degree: 62%
