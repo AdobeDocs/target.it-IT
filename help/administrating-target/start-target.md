@@ -2,9 +2,9 @@
 keywords: Administration;approver role;approver
 description: Questa sezione descrive i primi passi che gli amministratori di Adobe Target devono compiere dopo aver ricevuto l’invito ad Adobe Experience Cloud.
 title: Primi passaggi per l'amministratore
-feature: administration general
+feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '402'
 ht-degree: 93%
