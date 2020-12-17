@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: release notes
 translation-type: tm+mt
-source-git-commit: d5444f1053cdea0ab121a5a5331556f906b17c6f
+source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
 workflow-type: tm+mt
-source-wordcount: '3165'
+source-wordcount: '3188'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Dicembre 17 | [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Tabella aggiornata per indicare che Java SDK supporta A4T. |
 | Dicembre 16 | [Risoluzione dei problemi e domande frequenti su Target automatico](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Cosa succede se rimuovo una singola esperienza da un&#39;attività di targeting automatico?&quot; |
 | Dicembre 9 | [Decisioni su dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | Nuovo argomento. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato spostato il seguente problema dalla sezione Problemi noti alla sezione Problemi risolti: &quot;Offerte di immagini che mostrano l&#39;etichetta &quot;Elaborazione&quot;.&quot; |
