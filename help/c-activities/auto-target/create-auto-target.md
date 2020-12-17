@@ -2,9 +2,9 @@
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
 description: Utilizzate Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target per creare l'attività di allocazione automatica del test A/B direttamente su una pagina compatibile con Target e per modificare parti della pagina all'interno di Target.
 title: Creazione di un'attività di targeting automatico
-feature: ab
+feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
 workflow-type: tm+mt
 source-wordcount: '866'
 ht-degree: 61%
