@@ -3,9 +3,9 @@ user-guide-title: Guida ad Adobe Target
 breadcrumb-title: Guida a Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: da1f911533e8689d9ba521bb58700776b98a785d
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1570'
 ht-degree: 90%
 
 ---
@@ -200,6 +200,7 @@ ht-degree: 90%
       + [Panoramica sui test A/B](c-activities/t-test-ab/test-ab.md)
       + [Per quanto tempo si deve eseguire un test A/B?](c-activities/t-test-ab/sample-size-determination.md)
       + [Dieci insidie frequenti per i test A/B e come evitarle](c-activities/t-test-ab/common-ab-testing-pitfalls.md)
+      + [Test A/A](/help/c-activities/t-test-ab/aa-testing.md)
       + Creare un test A/B {#create}
          + [Creare un test A/B](c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
          + [URL attività](c-activities/t-test-ab/t-test-create-ab/ab-activity-url.md)
