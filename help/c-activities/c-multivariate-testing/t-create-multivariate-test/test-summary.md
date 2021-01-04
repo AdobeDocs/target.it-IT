@@ -2,19 +2,19 @@
 keywords: Overview and Reference
 description: Il riepilogo del test fornisce una panoramica visiva del test multivariato Adobe Target .
 title: Riepilogo del test
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '103'
-ht-degree: 87%
+ht-degree: 76%
 
 ---
 
 
-# Riepilogo del test{#test-summary}
+# Riepilogo del test
 
-Il riepilogo del test fornisce una panoramica visiva del test multivariato.
+Il riepilogo del test fornisce una panoramica visiva del [!DNL Adobe Target] [!UICONTROL Test multivariato].
 
 ![Finestra di dialogo Riepilogo del test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/summary2new.png)
 
