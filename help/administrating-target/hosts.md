@@ -4,17 +4,17 @@ description: Organizzate i siti e gli ambienti di pre-produzione per semplificar
 title: Host
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '1082'
-ht-degree: 26%
+source-wordcount: '1083'
+ht-degree: 25%
 
 ---
 
 
 # Host{#hosts}
 
-Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati.
+Organizzate i siti e gli ambienti di pre-produzione per semplificare la gestione e la generazione di rapporti separati in [!DNL Adobe Target].
 
 L’obiettivo principale della gestione host è quello di garantire che nessun contenuto inattivo venga visualizzato accidentalmente sui siti web. La gestione dell&#39;host consente inoltre di separare i dati dei report per [ambiente](/help/administrating-target/environments.md).
 
