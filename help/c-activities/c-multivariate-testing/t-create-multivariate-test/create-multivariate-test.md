@@ -2,21 +2,21 @@
 keywords: mvt;multivariate test;multivariate test create;multivariate test creating;mvt create;mvt creating;mvt how;multivariate test how
 description: Il Compositore esperienza visivo in Adobe Target è utile per creare i test multivariati (MVT) direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creazione di un test multivariato
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '561'
-ht-degree: 98%
+source-wordcount: '560'
+ht-degree: 96%
 
 ---
 
 
 # Creazione di un test multivariato{#create-a-multivariate-test}
 
-Il [!UICONTROL Compositore esperienza visivo] in [!DNL Target] è utile per creare i test direttamente su una pagina abilitata per e modificare parti della pagina in [!DNL Target].
+Il [!UICONTROL Compositore esperienza visivo] in [!DNL Adobe Target] è utile per creare i test direttamente su una pagina abilitata per e modificare parti della pagina in [!DNL Target].
 
-L’editor rapido di Target consente di scegliere qualsiasi posizione e di aggiungere offerte multiple.
+L&#39;editor [!DNL Target] point-and-click consente di scegliere qualsiasi posizione e aggiungere più offerte.
 
 Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
 
