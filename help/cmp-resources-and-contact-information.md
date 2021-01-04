@@ -4,7 +4,7 @@ description: Informazioni sulle risorse aggiuntive per scoprire di più sulle fu
 title: Risorse e informazioni di contatto
 feature: reference general
 translation-type: tm+mt
-source-git-commit: e07a457339509d1019cdd241ef3adfbb17ffafaa
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 76%
@@ -121,7 +121,7 @@ Siamo lieti di ricevere qualsiasi suggerimento o commento sulla soluzione. Idee 
 
 ### Note legali {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2020 Adobe Systems Incorporated. All Rights Reserved.
+* © 2021 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [Condizioni d&#39;uso](https://www.adobe.com/go/marketingcloud_terms_of_use) | [Centro per la privacy](https://www.adobe.com/privacy.html)
