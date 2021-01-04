@@ -1,21 +1,22 @@
 ---
-description: Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un'anteprima della pagina con ogni esperienza.
-title: Visualizzare un'anteprima delle esperienze per un test multivariato in Adobe Target
-feature: mvt
+keywords: multivariate;mvt;preview;experiences
+description: Poiché un test multivariato in  Adobe Target confronta più esperienze su una pagina, è utile visualizzare l'anteprima della pagina con ogni esperienza.
+title: Visualizzare in anteprima le esperienze per un test multivariato in  Adobe Target
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '192'
-ht-degree: 100%
+source-wordcount: '198'
+ht-degree: 69%
 
 ---
 
 
 # Visualizzazione di un&#39;anteprima delle esperienze per un test multivariato{#preview-experiences-for-a-multivariate-test}
 
-Dato che in un test multivariato vengono confrontate più esperienze sulla stessa pagina, è utile visualizzare un&#39;anteprima della pagina con ogni esperienza.
+Poiché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esperienze su una pagina, è utile visualizzare l&#39;anteprima della pagina con ogni esperienza.
 
-1. In Compositore esperienza, fai clic su **[!UICONTROL Anteprima]**.
+1. In Visual Experience Composer (VEC), fate clic su **[!UICONTROL Preview]**.
 
    Viene visualizzato un elenco di tutte le esperienze.
 
