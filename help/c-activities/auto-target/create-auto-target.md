@@ -1,13 +1,13 @@
 ---
 keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
-description: Utilizzate Visual Experience Composer (Compositore esperienza visivo) in  Adobe Target per creare l'attività di allocazione automatica del test A/B direttamente su una pagina compatibile con Target e per modificare parti della pagina all'interno di Target.
+description: Utilizzate Visual Experience Composer (VEC) (Compositore esperienza visivo) in  Adobe Target per creare l'attività di test A/B con targeting automatico direttamente su una pagina compatibile con Target e per modificare porzioni della pagina all'interno di Target.
 title: Creazione di un'attività di targeting automatico
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '866'
-ht-degree: 61%
+source-wordcount: '897'
+ht-degree: 62%
 
 ---
 
@@ -17,6 +17,8 @@ ht-degree: 61%
 Utilizzate [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] per creare l&#39;attività [!UICONTROL Auto-Target] [!UICONTROL A/B Test] direttamente su una pagina [!DNL Target] abilitata e per modificare parti della pagina all&#39;interno di [!DNL Target].
 
 >[!NOTE]
+>
+>La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
 >
 >Oltre all&#39;attività [!UICONTROL Auto-Target] [!UICONTROL A/B Test] (discussa in questo articolo), [!DNL Target] fornisce due tipi aggiuntivi di attività [!UICONTROL A/B Test]: [!UICONTROL Manuale (predefinito)] e [!UICONTROL Allocazione automatica].
 >
