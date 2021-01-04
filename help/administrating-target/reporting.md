@@ -1,13 +1,13 @@
 ---
 keywords: report;reports;reporting;experience cloud solution;timezone;time zone;currency;exclude IPs;estimated lift in revenue;revenue;lift in revenue;fine-grained priorities;fine-grained
-description: Configurate  Adobe Target Visual Experience Composer (VEC) specificandone le impostazioni generali, la configurazione del viewport mobile e i selettori CSS.
+description: Configura le impostazioni generali da utilizzare  rapporti Adobe Target applicabili all'intero account di Target. Puoi configurare la soluzione Adobe Experience Cloud da utilizzare per il reporting (Target o Analytics), il fuso orario e il formato della valuta da utilizzare per il reporting, gli indirizzi IP da escludere dal reporting e se mostrare l'incremento stimato delle entrate e le priorità definite nei report.
 title: Configurare i rapporti in  Adobe Target
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '666'
-ht-degree: 38%
+source-wordcount: '708'
+ht-degree: 35%
 
 ---
 
