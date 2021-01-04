@@ -4,17 +4,17 @@ description: Il targeting automatico in  Adobe Target utilizza l'apprendimento a
 title: Panoramica di AutoTarget
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '2014'
-ht-degree: 86%
+source-wordcount: '2018'
+ht-degree: 85%
 
 ---
 
 
 # ![Panoramica di ](/help/assets/premium.png) PREMIUMAuto-Target
 
-La funzione [!UICONTROL Targeting automatico] utilizza un apprendimento automatico avanzato per scegliere tra più esperienze definite dall’addetto al marketing al fine di personalizzare il contenuto e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
+[!UICONTROL Le attività di ] targeting automatico in  Adobe Target utilizzano l&#39;apprendimento automatico avanzato per selezionare tra più esperienze definite dagli esperti di marketing ad alte prestazioni per personalizzare i contenuti e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
 
 >[!NOTE]
 >
