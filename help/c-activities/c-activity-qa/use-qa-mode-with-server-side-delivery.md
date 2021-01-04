@@ -4,17 +4,17 @@ description: Utilizzate  URL di QA Adobe Target con distribuzione lato server pe
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '383'
-ht-degree: 80%
+source-wordcount: '384'
+ht-degree: 72%
 
 ---
 
 
-# Utilizzare il Controllo qualità delle attività con la distribuzione lato server{#use-activity-qa-with-server-side-delivery}
+# Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 
-Gli URL di controllo qualità con distribuzione lato server consentono di verificare in modo facile e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
+Utilizzate gli URL QA con distribuzione lato server in [!DNL Adobe Target] per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting facoltativo del pubblico e reporting QA che rimane segmentato dai dati dell&#39;attività live.
 
 L&#39;implementazione standard del Controllo qualità delle attività supporta il passaggio di parametri `qa_mode` tramite i parametri di `pageUrl`. Questo approccio è conveniente per le chiamate standard/ajax [!DNL Target]. Tuttavia, per le chiamate da server a server, questo non è l&#39;approccio migliore per un caso di SDK mobile quando `pageUrl` non è disponibile.
 
