@@ -1,12 +1,12 @@
 ---
 keywords: add user;manage user;user permissions
-description: Potete aggiungere utenti a  Adobe Target e gestire le loro autorizzazioni in Adobe Admin Console.
+description: Aggiungi utenti a  Adobe Target e gestisci le loro autorizzazioni in Adobe Admin Console.
 title: Utenti
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '892'
 ht-degree: 46%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 46%
 
 # Utenti{#users}
 
-Puoi aggiungere utenti e gestire le loro autorizzazioni in [!DNL Adobe Admin Console].
+Aggiungi utenti e gestisci le loro autorizzazioni in [!DNL Adobe Admin Console].
 
 >[!NOTE]
 >
