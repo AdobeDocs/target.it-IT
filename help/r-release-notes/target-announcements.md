@@ -4,7 +4,7 @@ description: Informazioni sugli eventi imminenti, comprese le sessioni di Target
 title: Annunci Target
 feature: release notes
 translation-type: tm+mt
-source-git-commit: f4091506538cd4719302227b88fa11e9d4ae93a6
+source-git-commit: 10d8f47dcca1d09654405c8382c70adc0b828e50
 workflow-type: tm+mt
 source-wordcount: '496'
 ht-degree: 0%
@@ -54,6 +54,6 @@ Partecipa  Adobe e HSBC per questo webinar:
 
 ##  Generatore di competenze Adobe Target: Chat sviluppatore, migrate  Adobe Target mbox.js in at.js {#skill-builder}
 
-Con la prossima eliminazione di mbox.js il 18 gennaio 2021, David Son,  Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
+Con la prossima eliminazione di mbox.js il 31 marzo 2021, David Son,  Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
 
 [Visualizzate qui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true) la registrazione del webinar.
