@@ -4,7 +4,7 @@ description: Informazioni utili per utilizzare il bookmarklet  Adobe Target QA p
 title: bookmarklet QA attività per  Adobe Target
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
 source-wordcount: '261'
 ht-degree: 11%
@@ -12,7 +12,7 @@ ht-degree: 11%
 ---
 
 
-# Bookmarklet di controllo qualità delle attività{#activity-qa-bookmarklet}
+# Bookmarklet di controllo qualità delle attività
 
 Informazioni utili per utilizzare il bookmarklet [!DNL Target] QA per forzare [!DNL Target] il rilascio dalla modalità QA.
 
