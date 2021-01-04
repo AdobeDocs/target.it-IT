@@ -1,19 +1,20 @@
 ---
+keywords: mvt;multivariate test;offers;combinations
 description: Utilizza il Compositore esperienza visivo in Adobe Target per creare le offerte da includere nel test multivariato (MVT).
 title: Creare combinazioni in test multivariati (MVT) utilizzando Adobe Target
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
 workflow-type: tm+mt
-source-wordcount: '505'
-ht-degree: 100%
+source-wordcount: '503'
+ht-degree: 96%
 
 ---
 
 
-# Creare combinazioni{#create-combinations}
+# Creare combinazioni
 
-Utilizza il Compositore esperienza visivo in Adobe Target per creare le offerte da includere nel test multivariato (MVT).
+Utilizzate [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC) in [!DNL Adobe Target] per creare le offerte che desiderate includere nel [!UICONTROL Test multivariato] (MVT).
 
 Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per creare e modificare le offerte, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
