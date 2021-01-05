@@ -1,18 +1,18 @@
 ---
-keywords: Targeting
+keywords: random forest;decision tree;ap;Automated Personalization
 description: “Foresta casuale” è l’algoritmo di personalizzazione principale di Target, utilizzato sia nella Personalizzazione automatizzata, sia nel Targeting automatico. I metodi di raggruppamento come Foresta casuale si basano su più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto agli algoritmi di apprendimento costituenti. L’algoritmo Foresta casuale nel sistema di Personalizzazione automatizzata è un metodo di classificazione o regressione che si basa sulla costruzione di un elevato numero di alberi decisionali durante la fase di apprendimento.
 title: Algoritmo Foresta casuale
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '1456'
-ht-degree: 99%
+ht-degree: 97%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Algoritmo Foresta casuale{#random-forest-algorithm}
+# ![PREMIUM](/help/assets/premium.png) Algoritmo Foresta casuale
 
 “Foresta casuale” è l’algoritmo di personalizzazione principale di Target, utilizzato sia nella Personalizzazione automatizzata, sia nel Targeting automatico. I metodi di raggruppamento come Foresta casuale si basano su più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto agli algoritmi di apprendimento costituenti. L’algoritmo Foresta casuale nel sistema di Personalizzazione automatizzata è un metodo di classificazione o regressione che si basa sulla costruzione di un elevato numero di alberi decisionali durante la fase di apprendimento.
 
@@ -20,7 +20,7 @@ Quando si pensa alle statistiche, si potrebbe pensare a un unico modello di regr
 
 L&#39;algoritmo di Foresta casuale è l&#39;algoritmo chiave di personalizzazione sottostante utilizzato nelle attività di Personalizzazione automatizzata e di Targeting automatico. Foresta casuale unisce centinaia di alberi decisionali per arrivare ad una previsione migliore di quanto un singolo albero possa fare da solo.
 
-## Che cos&#39;è un Albero decisionale? {#section_7F5865D8064447F4856FED426243FDAC}
+## Cos&#39;è un albero decisionale? {#section_7F5865D8064447F4856FED426243FDAC}
 
 L&#39;obiettivo di una struttura decisionale è quello di abbattere tutti i dati di visita disponibili da cui un sistema può imparare e poi raggruppare i dati in cui le visite all&#39;interno di ogni gruppo sono più simili possibile l&#39;una all&#39;altra per quanto riguarda la metrica di obiettivo. Attraverso i gruppi, tuttavia, le visite sono il più possibile diverse, rispetto alla metrica di obiettivo (ad esempio il tasso di conversione). L&#39;albero decisionale esamina le diverse variabili che ha nell&#39;insieme di apprendimento per determinare come dividere i dati in un MECE (mutualmente-esclusivo-collettivamente-esaustivo) in questi gruppi (o “foglie”) per massimizzare questo obiettivo.
 
@@ -43,11 +43,11 @@ Il nostro esempio comporterebbe l&#39;albero sottostante:
 
 ![](assets/decsion_tree_2.png)
 
-## Come vengono utilizzati gli alberi decisionali da Foresta casuale? {#section_536C105EF9F540C096D60450CAC6F627}
+## Come vengono utilizzati gli alberi decisionali della Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia, hanno alcuni svantaggi. Il problema maggiore è che si adattano “troppo” ai dati, in questo modo un singolo albero predice male i dati futuri che non sono stati utilizzati per generare l&#39;albero iniziale. Questa sfida è conosciuta come il [compromesso bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) nell&#39;apprendimento statistico. Gli algoritmi di Foresta casuale aiutano a superare questa sfida. Al livello più alto, una Foresta casuale è una raccolta di alberi decisionali che vengono generati in modo leggermente diverso sullo stesso insieme di dati che “vota” insieme per produrre un modello migliore rispetto a un singolo albero. Gli alberi sono generati selezionando casualmente un sottoinsieme di dati di visite con la sostituzione (nota come insaccamento), così come un sottoinsieme degli attributi, in modo che la foresta sia costituita da alberi decisionali leggermente diversi. Questo metodo introduce piccole variazioni nelle strutture create in Foresta casuale. L&#39;aggiunta in questa quantità controllata di varianza consente di migliorare la precisione predittiva dell&#39;algoritmo.
 
-## Come viene utilizzato Foresta casuale dagli algoritmi di personalizzazione di Target?  {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## In che modo gli algoritmi di personalizzazione di Target utilizzano Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Come vengono generati i modelli**
 
@@ -78,7 +78,7 @@ Le trasformazioni di funzionalità dipendono dal tipo di attributo. Pricipalment
 
 Per le funzionalità categoriche, viene mantenuto un insieme di tutte le funzionalità possibili e la probabilità di trasformazione viene utilizzata per ridurre la dimensione dei dati. Per le caratteristiche numeriche, il ridimensionamento assicura che le funzioni siano confrontabili a livello globale.
 
-**Apprendimento di bilanciamento contro Personalizzazione con slot machine**
+**Equilibrare l&#39;apprendimento rispetto alla personalizzazione con il Bandito Multi-Armed**
 
 Una volta che Target ha generato modelli di personalizzazione per personalizzare il traffico, c&#39;è un chiaro compromesso che devi affrontare per i futuri visitatori della tua attività: dovresti personalizzare tutto il traffico in base al modello attuale o continuare a imparare dai nuovi visitatori fornendo loro offerte casuali? Vuoi assicurarti che l&#39;algoritmo di personalizzazione apprenda sempre nuove tendenze nei visitatori, personalizzando contemporaneamente la maggior parte del traffico.
 
