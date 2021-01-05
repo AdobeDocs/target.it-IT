@@ -1,20 +1,20 @@
 ---
 keywords: troubleshoot target;troubleshooting target;default content;test not live;activity not live;targeting not working;previous experience displays;cannot create activities;can't create activities;create activities;page structure changed;page structure modified;error message;error delete profile script;ajax not working
-description: Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
+description: Se l'attività Adobe Target  non viene visualizzata sul sito, questi suggerimenti per la risoluzione dei problemi dovrebbero facilitare la ricerca della soluzione.
 title: Risolvere i problemi relativi alle attività
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '799'
-ht-degree: 81%
+source-wordcount: '801'
+ht-degree: 77%
 
 ---
 
 
-# Risolvere i problemi relativi alle attività{#troubleshoot-activities}
+# Risolvere i problemi relativi alle attività
 
-Se l’attività non viene visualizzata sul sito, questi suggerimenti dovrebbero agevolare la risoluzione del problema.
+Se l&#39;attività [!DNL Adobe Target] non viene visualizzata sul sito, questi suggerimenti per la risoluzione dei problemi dovrebbero facilitare la ricerca della soluzione.
 
 >[!NOTE]
 >
