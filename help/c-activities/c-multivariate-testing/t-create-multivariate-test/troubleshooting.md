@@ -1,25 +1,25 @@
 ---
-keywords: Mobile Web Experience Editor
+keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
 description: Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che potrebbero verificarsi durante la progettazione di un test MVT in  Adobe Target.
 title: Risolvere i problemi relativi ai test multivariati
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 77%
+source-wordcount: '168'
+ht-degree: 45%
 
 ---
 
 
-# Risolvere i problemi relativi ai test multivariati{#troubleshoot-multivariate-tests}
+# Risolvere i problemi relativi ai test multivariati
 
-Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che potrebbero verificarsi durante la progettazione di un test MVT in  Adobe Target.
+Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che possono verificarsi durante la progettazione di un test [!UICONTROL multivariato] (MVT) in [!DNL Adobe Target].
 
-* Quando si modifica un&#39;attività, se sono state utilizzate metriche basate su Analytics e la suite di rapporti non viene caricata (viene visualizzata l’icona che ruota), passa alle metriche di Target e quindi torna nuovamente a quelle basate su Analytics. In questo modo sarà possibile caricare la suite di rapporti.
-* In caso di modifiche a un test già in esecuzione, puoi reimpostare il test e i relativi dati.
+* Quando modificate un&#39;attività, se avete utilizzato metriche basate su [!DNL Analytics] e la suite di rapporti non viene caricata (viene visualizzato lo spinner), passate alle metriche [!DNL Target] e quindi tornate alla metrica basata su [!DNL Analytics]. In questo modo sarà possibile caricare la suite di rapporti.
+* Se apportate modifiche a un test già in esecuzione, potreste ripristinare il test e i relativi dati.
 
-   Target consente di modificare un’attività live. È importante considerare che la modifica di un’attività in corso potrebbe ripristinare il test, quindi i rapporti potrebbero non riconoscere alcune delle modifiche.
+   [!DNL Target] consente di modificare un&#39;attività live. È importante considerare che la modifica di un’attività in corso potrebbe ripristinare il test, quindi i rapporti potrebbero non riconoscere alcune delle modifiche.
 
    Puoi apportare piccoli cambiamenti, ad esempio modificare le offerte di testo o HTML esistenti.
 
