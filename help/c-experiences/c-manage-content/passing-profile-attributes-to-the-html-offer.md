@@ -4,10 +4,10 @@ description: Puoi visualizzare i valori dei profili e le informazioni sull’att
 title: Trasmettere i dati dinamici nelle offerte
 feature: offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
 workflow-type: tm+mt
 source-wordcount: '492'
-ht-degree: 100%
+ht-degree: 94%
 
 ---
 
@@ -36,7 +36,7 @@ Poiché le preferenze, i comportamenti, gli stati specifici dell’utente posson
 
 I seguenti valori possono essere “sostituiti tramite token”:
 
-| Valori | Esempi |
+| Valore | Esempi |
 |--- |--- |
 | Parametri di profilo in-mbox | `${profile.age}` |
 | Parametri di profilo script | `${user.lifetimeSpend}` |
@@ -57,7 +57,7 @@ Per i parametri di profilo trasmessi in una mbox, utilizza la sintassi: `${profi
 
 `${user.parameter}`
 
-Durante l’utilizzo degli attributi dinamici nei progetti Consigli, devi inserire una barra inversa (\) prima del simbolo del dollaro ($) affinché il valore dinamico possa essere visualizzato correttamente: `\${user.endpoint.lastViewedEntity}`
+Quando si utilizzano gli attributi dinamici in una progettazione Recommendations, è necessario inserire una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) affinché il rendering del valore dinamico sia eseguito correttamente: `\${user.endpoint.lastViewedEntity}`
 
 Queste variabili sono sostituite con il valore sul lato server, quindi nessuna virgoletta o altro JavaScript è necessario per la visualizzazione corretta.
 
