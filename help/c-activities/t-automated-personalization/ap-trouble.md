@@ -1,9 +1,10 @@
 ---
+kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
 description: A volte le attività non vanno come previsto. Questo articolo elenca alcuni potenziali problemi che si possono presentare durante l’utilizzo della Personalizzazione automatizzata, con possibili soluzioni.
 title: Risolvere i problemi relativi alla personalizzazione automatica
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '725'
 ht-degree: 94%
