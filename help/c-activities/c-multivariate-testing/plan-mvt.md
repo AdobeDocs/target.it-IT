@@ -2,9 +2,9 @@
 keywords: multivariate test;mvt;mvt plan;multivariate test plan
 description: I test multivariati in Adobe Target richiedono una certa pianificazione prima di poter creare un test di successo.
 title: Pianificare un test multivariato in Adobe Target
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '288'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# Pianificare un test multivariato{#plan-a-multivariate-test}
+# Pianificare un test multivariato
 
 I [!UICONTROL test multivariati] (MVT) in [!DNL Adobe Target] richiedono una certa pianificazione prima di poter creare un test di successo.
 
