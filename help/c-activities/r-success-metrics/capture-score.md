@@ -1,20 +1,20 @@
 ---
 keywords: capture score;score
-description: La metrica di coinvolgimento Capture Score calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta Target di visualizzazione della campagna.
+description: La metrica di coinvolgimento Capture Score in  Adobe Target calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta Target di visualizzazione della campagna.
 title: Punteggio di acquisizione
-feature: success metrics
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '764'
-ht-degree: 51%
+source-wordcount: '768'
+ht-degree: 50%
 
 ---
 
 
-# Punteggio di acquisizione{#capture-score}
+# Punteggio di acquisizione
 
-La metrica di coinvolgimento Capture Score calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta di visualizzazione della campagna [!DNL Target].
+La metrica di coinvolgimento Capture Score in [!DNL Adobe Target] calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta di visualizzazione della campagna [!DNL Target].
 
 Nell&#39;esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l&#39;immagine di un gatto e l&#39;altra con l&#39;immagine di un cane.
 
@@ -28,7 +28,7 @@ Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di 
 
 ![](assets/example_score2.png)
 
-**Assegnazione di un punteggio di pagina**
+## Assegnazione di una valutazione di pagina
 
 Puoi assegnare un valore a qualsiasi pagina del tuo sito in base a ciò al valore della pagina. Ad esempio, un sito di cucina potrebbe essere in grado di vendere annunci pubblicitari per più soldi sulle pagine di articoli caratteristiche rispetto alla sezione esperienza. Gli articoli caratteristici sono più importanti della sezione esperienza. Il Punteggio di pagina consente di sviluppare un “valore” complessivo di una visita, in modo che la persona che legge più articoli caratteristici ottenga più “punti” di qualcuno che sfoglia solo le esperienze.
 
