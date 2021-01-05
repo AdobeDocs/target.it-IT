@@ -1,21 +1,22 @@
 ---
-description: I dati offline, ad esempio le informazioni CRM o i punteggi di propensione di abbandono dei clienti, possono essere estremamente utili nella generazione di modelli di personalizzazione.
+keywords: Automated Personalization;ap;upload data;offline data;personalization algorithm;auto target;auto-target;best practices
+description: I dati offline, come le informazioni CRM o i punteggi di propensione del cliente, possono essere incredibilmente preziosi quando si creano modelli di personalizzazione in  attività Adobe Target  Automated Personalization (AP).
 title: Caricare dati per gli algoritmi di personalizzazione di Target
-feature: ap
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '272'
-ht-degree: 100%
+source-wordcount: '284'
+ht-degree: 82%
 
 ---
 
 
-# Caricare dati per gli algoritmi di personalizzazione Target{#upload-data-for-target-s-personalization-algorithms}
+# Caricare dati per gli algoritmi di personalizzazione Target
 
-I dati offline, ad esempio le informazioni CRM o i punteggi di propensione di abbandono dei clienti, possono essere estremamente utili nella generazione di modelli di personalizzazione.
+I dati offline, come le informazioni CRM o i punteggi di propensione del cliente, possono essere incredibilmente preziosi quando si creano modelli di personalizzazione in [!DNL Adobe Target] [!UICONTROL  attività Automated Personalization] (AP).
 
-Sono disponibili diversi modi per immettere dati in algoritmi di Personalizzazione automatizzata (AP) e Targeting automatico. Oltre ai metodi descritti in [Metodi per immettere i dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), nei nostri algoritmi vengono utilizzati anche i tipi di pubblico condivisi in Experience Cloud (Adobe Analytics, Audience Management) e quelli di reporting all’interno delle attività.
+Sono disponibili diversi modi per immettere dati in algoritmi di [!UICONTROL Personalizzazione automatizzata] (AP) e [!UICONTROL Targeting automatico. ] Oltre ai metodi descritti in [Metodi per immettere i dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17), nei nostri algoritmi vengono utilizzati anche i tipi di pubblico condivisi in Experience Cloud (Adobe Analytics, Audience Management) e quelli di reporting all’interno delle attività.
 
 Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi di Personalizzazione automatizzata e Targeting automatico, consulta [Raccolta dati di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/ap-data.md).
 
