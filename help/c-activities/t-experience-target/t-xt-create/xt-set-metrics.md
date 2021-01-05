@@ -2,20 +2,19 @@
 keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
 description: Utilizza le metriche in un’attività Targeting esperienza per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
-feature: xt
-solution: Target
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
-source-wordcount: '316'
-ht-degree: 99%
+source-wordcount: '321'
+ht-degree: 92%
 
 ---
 
 
-# Impostare le metriche{#set-metrics}
+# Impostare le metriche nelle attività Experience Targeting (XT)
 
-Utilizza le metriche in un’attività Esperienza targeting (XT) per determinare quando una visita ha esito positivo.
+Utilizzate le metriche in un&#39;attività [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
