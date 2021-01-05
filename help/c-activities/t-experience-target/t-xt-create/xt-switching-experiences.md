@@ -2,9 +2,9 @@
 keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
 description: Informazioni su come i visitatori possono passare da un’esperienza all’altra in un’attività Targeting esperienze (XT) mentre i loro profili evolvono.
 title: Passare ad altre esperienze nel targeting delle esperienze
-feature: xt
+feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '899'
 ht-degree: 100%
@@ -12,7 +12,7 @@ ht-degree: 100%
 ---
 
 
-# Passare ad altre esperienze in Targeting esperienza{#switching-experiences-in-experience-targeting}
+# Passare ad altre esperienze in Targeting esperienza
 
 Informazioni su come i visitatori possono passare da un’esperienza all’altra in un’attività Targeting esperienze (XT) mentre i loro profili evolvono.
 
