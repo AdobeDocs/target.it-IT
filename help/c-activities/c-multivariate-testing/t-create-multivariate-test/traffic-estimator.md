@@ -1,10 +1,10 @@
 ---
-keyword: traffic estimate;traffic estimator
+keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
 description: Dato che in un test multivariato vengono messe a confronto più esperienze, è importante sapere quanto traffico è necessario per generare risultati significativi.  Adobe Target Traffic Estimator (Utilità di stima traffico) utilizza le statistiche sulla pagina e il numero di esperienze in fase di test per stimare la quantità di traffico e la durata del test necessari per il successo del test.
 title: Stimare il traffico necessario per il successo del test
-feature: mvt
+feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 93%
