@@ -1,12 +1,12 @@
 ---
 keywords: announcements;skill builder;developer chat;coffee break;events;forrester;gartner;webinar
-description: Informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
+description: Informazioni sugli eventi imminenti, comprese  sessioni di Adobe Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
 title: Annunci Target
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: af02347bbf9f22b03e5ab5752ba4b3b0b2e9ad9a
+source-git-commit: c129430e038d7179846761cf946c437d079e26ee
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '679'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Annunci ed eventi Target
 
-Annunci e informazioni sugli eventi imminenti, comprese le sessioni di Target Experience Builder, chat per sviluppatori, seminari Web e sessioni Target Coffee Break.
+Annunci e informazioni sugli eventi imminenti, comprese  sessioni di Adobe Target Experience Builder, chat per sviluppatori, webinar e sessioni di interruzione del caffè Target.
 
 ## Riconoscimento per  Adobe Target
 
