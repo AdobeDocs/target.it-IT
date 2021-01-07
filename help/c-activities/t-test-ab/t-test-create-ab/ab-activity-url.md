@@ -1,20 +1,20 @@
 ---
 keywords: activity url;url;different url
-description: L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
+description: L'URL attività determina la pagina utilizzata nel test e che si apre quando il test viene progettato utilizzando  Adobe Target.
 title: URL attività
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 93%
+source-wordcount: '296'
+ht-degree: 78%
 
 ---
 
 
-# URL attività{#activity-url}
+# URL attività
 
-L’URL attività determina la pagina utilizzata nel test e che viene visualizzata quando il test è generato.
+L&#39;URL attività determina la pagina utilizzata nel test e che si apre quando il test viene progettato utilizzando  Adobe Target.
 
 Quando viene richiesto durante la creazione dell’attività, specifica l’URL attività. Digita l’URL completo (comprensivo di `https://`), quindi fai clic su **[!UICONTROL Crea]**.
 
