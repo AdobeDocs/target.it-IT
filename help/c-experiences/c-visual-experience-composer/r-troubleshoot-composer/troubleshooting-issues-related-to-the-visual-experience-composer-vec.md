@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;tls;tls 1.2
-description: In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
+description: A volte si verificano problemi di visualizzazione in  Adobe Target Visual Experience Composer (VEC) a determinate condizioni.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '777'
-ht-degree: 97%
+source-wordcount: '779'
+ht-degree: 92%
 
 ---
 
 
-# Risoluzione dei problemi relativi al Compositore esperienza visivo{#troubleshooting-issues-related-to-the-visual-experience-composer}
+# Risoluzione dei problemi relativi a Visual Experience Composer (Compositore esperienza visivo)
 
-In determinate condizioni in Compositore esperienza visivo (VEC) si verificano a volte problemi di visualizzazione.
+A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) a determinate condizioni.
 
 ## Quando apro il mio sito web nel Compositore esperienza visivo, le librerie di Target non vengono caricate. (Solo Compositore esperienza visivo) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
