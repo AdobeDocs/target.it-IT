@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;eec;visual experience composer;troubleshoot enhanced experience composer;troubleshooting
-description: In determinate condizioni in Compositore esperienza avanzato si verificano a volte problemi di visualizzazione.
+description: A volte si verificano problemi di visualizzazione in  Adobe Target Enhanced Experience Composer (EEC) a determinate condizioni.
 title: Risoluzione dei problemi relativi al Compositore esperienza avanzato
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '430'
-ht-degree: 71%
+source-wordcount: '432'
+ht-degree: 63%
 
 ---
 
 
-# Risoluzione dei problemi relativi al Compositore esperienza avanzato{#troubleshooting-issues-related-to-the-enhanced-experience-composer}
+# Risoluzione dei problemi relativi a Enhanced Experience Composer
 
-In determinate condizioni in Compositore esperienza avanzato si verificano a volte problemi di visualizzazione.
+A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Enhanced Experience Composer] (EEC) a determinate condizioni.
 
 ## Il Compositore esperienza avanzato non carica un URL di controllo qualità interno che non è accessibile su IP pubblico. (Solo Compositore esperienza avanzato) {#section_D29E96911D5C401889B5EACE267F13CF}
 
