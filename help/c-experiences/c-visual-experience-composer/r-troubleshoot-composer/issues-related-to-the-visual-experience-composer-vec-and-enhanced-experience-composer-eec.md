@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
+description: A volte si verificano problemi di visualizzazione in  Adobe Target Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1368'
-ht-degree: 69%
+source-wordcount: '1370'
+ht-degree: 67%
 
 ---
 
 
-# Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato{#troubleshooting-issues-related-to-the-visual-experience-composer-and-enhanced-experience-composer}
+# Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 
-Problemi di visualizzazione e altri problemi possono verificarsi in Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
+Problemi di visualizzazione e altri problemi si verificano a volte in [!DNL Adobe Target] Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
 
 ## In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e CEE? {#samesite}
 
