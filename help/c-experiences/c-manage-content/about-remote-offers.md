@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;remote offer selection matrix;cached content;dynamic content
-description: 'Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.'
+description: Utilizzate le offerte remote per ospitare contenuti al di fuori di  Adobe Target a cui Target fa riferimento e che vengono inviati ai siti Web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.
 title: Creare offerte remote
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '704'
-ht-degree: 92%
+ht-degree: 89%
 
 ---
 
 
-# Creare offerte remote{#create-remote-offers}
+# Creare offerte remote
 
-Con le offerte remote puoi utilizzare contenuti esterni: Target farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.
+Con le offerte remote puoi utilizzare contenuti esterni: [!DNL Adobe Target] farà riferimento a tali contenuti e li consegnerà ai siti web degli utenti. I contenuti esterni possono trovarsi in un sistema di gestione dei contenuti o in un altro sistema, per motivi di facilità d’uso o di sicurezza.
 
 >[!NOTE]
 >
