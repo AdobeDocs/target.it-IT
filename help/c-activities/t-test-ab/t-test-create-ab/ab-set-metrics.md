@@ -1,21 +1,20 @@
 ---
 keywords: A/B;activity metrics;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
+description: Utilizza le metriche in un'attività A/B  Adobe Target per determinare quando una visita ha esito positivo.
 title: Impostare le metriche
-feature: ab
-solution: Target
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 99%
+source-wordcount: '314'
+ht-degree: 89%
 
 ---
 
 
-# Impostare le metriche{#set-metrics}
+# Impostare le metriche
 
-Utilizza le metriche in un’attività A/B per determinare quando una visita ha esito positivo.
+Utilizzate le metriche in un&#39;attività A/B [!DNL Adobe Target] per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
