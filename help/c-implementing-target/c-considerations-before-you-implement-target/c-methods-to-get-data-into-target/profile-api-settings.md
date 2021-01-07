@@ -2,11 +2,11 @@
 keywords: implementation;api;profile;profile api settings;authentication token
 description: Abilitare o disabilitare l'autenticazione per gli aggiornamenti batch tramite  API Adobe Target e generare un token di autenticazione del profilo.
 title: Impostazioni API profilo in  Adobe Target
-feature: api
+feature: APIs/SDKs
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 40%
 
 # Impostazioni API del profilo
 
-Abilitare o disabilitare l&#39;autenticazione per gli aggiornamenti batch tramite  API Adobe Target e generare un token di autenticazione del profilo.
+Abilitare o disabilitare l&#39;autenticazione per gli aggiornamenti batch tramite le API [!DNL Adobe Target] e generare un token di autenticazione del profilo.
 
 [!DNL Adobe Target] crea e conserva un profilo per ogni singolo utente. Questo profilo viene memorizzato nel cluster periferico [!DNL Target] e aggiornato in tempo reale dopo ogni visita; tuttavia, potete aggiornare un profilo singolarmente o in blocco tramite API.
 
