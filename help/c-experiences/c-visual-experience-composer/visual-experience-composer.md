@@ -1,21 +1,22 @@
 ---
+keywords: visual experience composer;vec;wysiwyg
 description: Informazioni sull’utilizzo del Compositore esperienza visivo (VEC) in Adobe Target.
 title: Compositore esperienza visivo (VEC) di Adobe Target
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1376'
-ht-degree: 97%
+source-wordcount: '1378'
+ht-degree: 95%
 
 ---
 
 
-# Compositore esperienza visivo (VEC){#visual-experience-composer-vec}
+# Compositore esperienza visivo
 
-Informazioni sull’utilizzo del Compositore esperienza visivo (VEC).
+Informazioni sull&#39;utilizzo di [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC) in [!DNL Adobe Target].
 
-Il Compositore esperienza visivo è l’interfaccia utente WYSIWYG che consente di creare e testare offerte ed esperienze personalizzate nel contesto del sito. Per creare esperienze e offerte per le attività di Target puoi trascinare, scambiare e modificare il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili.
+Il VEC è un&#39;interfaccia utente WYSIWYG che consente di creare e testare facilmente esperienze e offerte personalizzate nel contesto del sito. Per creare esperienze e offerte per le attività di Target puoi trascinare, scambiare e modificare il layout e il contenuto di una pagina web (o offerta) oppure di una pagina web per dispositivi mobili.
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo consente agli addetti al marketing e ai designer di creare e modificare i contenuti mediante un’interfaccia visiva che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
