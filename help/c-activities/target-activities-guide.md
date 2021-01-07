@@ -2,19 +2,19 @@
 keywords: activities guide;activities;activity;activity types;activity actions
 description: Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili in Adobe Target (ad eccezione della funzionalità Consigli).
 title: Tipi di attività di Target
-feature: activities
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '1462'
-ht-degree: 98%
+source-wordcount: '1460'
+ht-degree: 97%
 
 ---
 
 
-# Tipi di attività di Target{#target-activity-types}
+# Target tipi di attività
 
-Scarica un PDF interattivo che descrive i diversi tipi di attività disponibili in Adobe Target (ad eccezione della funzionalità Consigli).
+Scaricate un PDF interattivo che descrive i diversi tipi di attività in [!DNL Adobe Target] (ad eccezione di Recommendations).
 
 >[!NOTE]
 >
