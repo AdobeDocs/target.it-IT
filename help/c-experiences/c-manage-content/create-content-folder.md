@@ -1,20 +1,20 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Crea una cartella per gli elementi nella libreria delle Offerte.
+description: Create una cartella in cui memorizzare gli elementi nella libreria Offerte in  Adobe Target.
 title: Creare una cartella di offerta
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '388'
+ht-degree: 93%
 
 ---
 
 
-# Creare una cartella di offerta{#create-offer-folder}
+# Creare una cartella di offerta
 
-Crea una cartella per gli elementi nella libreria delle Offerte.
+Create una cartella in cui memorizzare gli elementi nella libreria Offerte in  Adobe Target.
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte codice]** o **[!UICONTROL Offerte immagini]**, se necessario.
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
