@@ -1,20 +1,20 @@
 ---
 keywords: audience;select audience;choose audience;Selectors
-description: Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
+description: L'audience determina quali visitatori del sito vengono immessi nell'attività Adobe Target .
 title: Selezionare il pubblico
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 98%
+source-wordcount: '428'
+ht-degree: 92%
 
 ---
 
 
-# Selezionare il pubblico{#select-audience}
+# Selezionare il pubblico
 
-Il pubblico determina quali visitatori del sito vengono inseriti nell’attività.
+L&#39;audience determina quali visitatori del sito vengono immessi nell&#39;attività [!DNL Adobe Target].
 
 >[!NOTE]
 >
