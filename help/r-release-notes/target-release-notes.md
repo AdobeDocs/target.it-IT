@@ -1,13 +1,13 @@
 ---
-keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates
+keywords: release notes;releases;updates;future release;enhancements;new features;fixes;updates;prerelease
 description: Note sulla versione che forniscono informazioni su funzioni, miglioramenti e correzioni per le versioni DNL  Adobe Target più recenti o imminenti.
 title: ' note sulla versione prerelease di Adobe Target'
 feature: null
 translation-type: tm+mt
-source-git-commit: 1b07c69c703c591a3710495da277ce5ebd6d343f
+source-git-commit: d952b88fd66c50bf27f2ea6c61eae8d5b4d16681
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 20%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
