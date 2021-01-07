@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;experience;add experience;experience add
-description: Il Compositore esperienza visivo di Adobe Target offre un’interfaccia visiva per la modifica delle esperienze sulla pagina.
+description: ' Adobe Target Visual Experience Composer (VEC) in  Adobe Target fornisce un''interfaccia visiva per la modifica delle esperienze sulla pagina.'
 title: Aggiungi esperienza
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 90%
+source-wordcount: '461'
+ht-degree: 81%
 
 ---
 
 
-# Aggiungi esperienza{#add-experience}
+# Aggiungi esperienza
 
-Il Compositore esperienza visivo offre un’interfaccia visiva per l’aggiunta e la modifica delle esperienze sulla pagina.
+ Adobe Target Visual Experience Composer (VEC) fornisce un&#39;interfaccia visiva per aggiungere e modificare le esperienze sulla pagina.
 
 Per ulteriori dettagli sulle esperienze, vedi [Esperienze](/help/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D).
 
