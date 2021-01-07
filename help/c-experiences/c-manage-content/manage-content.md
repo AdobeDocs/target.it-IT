@@ -1,20 +1,20 @@
 ---
 keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Gestisci il contenuto delle offerte basate su codice e su immagine tramite la libreria delle offerte.
+description: Utilizzate la libreria Offerte in  Adobe Target per gestire il contenuto dell'offerta di codice e dell'offerta di immagini.
 title: Offerte
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 98%
+source-wordcount: '480'
+ht-degree: 91%
 
 ---
 
 
 # Offerte{#offers}
 
-Gestisci il contenuto delle offerte basate su codice e su immagine tramite la libreria delle offerte.
+Utilizzate la libreria Offerte in [!DNL Adobe Target] per gestire il contenuto dell&#39;offerta di codice e dell&#39;offerta di immagini.
 
 >[!NOTE]
 >
