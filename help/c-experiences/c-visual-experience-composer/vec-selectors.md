@@ -2,9 +2,9 @@
 keywords: Experience Targeting;Landing Page Test
 description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 title: Selettori di elementi utilizzati nel Compositore esperienza visivo
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 90%
@@ -12,7 +12,7 @@ ht-degree: 90%
 ---
 
 
-# Selettori di elementi utilizzati nel Compositore esperienza visivo{#element-selectors-used-in-the-visual-experience-composer}
+# Selettori di elementi utilizzati nel Compositore esperienza visivo
 
 Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi.
 
