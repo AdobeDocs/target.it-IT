@@ -2,9 +2,9 @@
 keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
 description: Informazioni per utilizzare Adobe Target at.js 2.x per implementare applicazioni a pagina singola.
 title: Implementazione di applicazioni a pagina singola in Adobe Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '2752'
 ht-degree: 74%
@@ -210,7 +210,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 | --- | --- |
 | 3 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
 | 2 | Il contenuto mirato per la visualizzazione viene letto dalla cache. |
-| 1 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
+| 3 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 4 | Si invia la richiesta di notifica all&#39;archivio profili di [!DNL Target] per conteggiare il visitatore nell&#39;attività e nelle metriche incrementali. |
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
@@ -282,9 +282,9 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 
 | Passaggio | Azione | Dettagli |
 | --- | --- | --- |
-| 3 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
+| 1 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
 | 2 | Carica a.js 2.x | at.js 2.x carica tutte le API necessarie che utilizzate per implementare le richieste e le viste [!DNL Target]. |
-| 3 | Esegui [!DNL Target] richiesta | Se si dispone di un livello dati, si consiglia di caricare i dati critici che è necessario inviare a [!DNL Target] prima di eseguire una richiesta [!DNL Target]. Questo consente di utilizzare `targetPageParams` per inviare i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se sono state impostate le viste `pageLoadEnabled` e `viewsEnabled`, con il passaggio 2 vengono automaticamente eseguiti > pageLoad e prefetch > le viste; in caso contrario, è necessario utilizzare l&#39;API `getOffers()` per effettuare questa richiesta. |
+| 1 | Esegui [!DNL Target] richiesta | Se si dispone di un livello dati, si consiglia di caricare i dati critici che è necessario inviare a [!DNL Target] prima di eseguire una richiesta [!DNL Target]. Questo consente di utilizzare `targetPageParams` per inviare i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se sono state impostate le viste `pageLoadEnabled` e `viewsEnabled`, con il passaggio 2 vengono automaticamente eseguiti > pageLoad e prefetch > le viste; in caso contrario, è necessario utilizzare l&#39;API `getOffers()` per effettuare questa richiesta. |
 | 4 | Chiamata `triggerView()` | Poiché la richiesta [!DNL Target] avviata nel passaggio 3 potrebbe restituire esperienze sia per l&#39;esecuzione del caricamento delle pagine che per le viste, accertatevi che `triggerView()` venga chiamata dopo la restituzione della richiesta [!DNL Target] e che le offerte vengano applicate alla cache. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
 | 5 | Chiamare il beacon di visualizzazione della pagina [!DNL Analytics] | Questo beacon invia il codice SDID associato ai passaggi 3 e 4 a [!DNL Analytics] per l&#39;unione dei dati. |
 | 6 | Chiama `triggerView({"page": false})` | Si tratta di un passaggio facoltativo per i framework SPA che potrebbero eventualmente eseguire nuovamente il rendering di alcuni componenti sulla pagina senza che si verifichi una modifica della visualizzazione. In tali casi, è importante richiamare questa API per fare in modo che le esperienze [!DNL Target] vengano riapplicate dopo che il framework SPA ha eseguito nuovamente il rendering dei componenti. Potete eseguire questo passaggio tutte le volte che desiderate assicurarvi che le esperienze [!DNL Target] persistano nelle viste SPA. |
