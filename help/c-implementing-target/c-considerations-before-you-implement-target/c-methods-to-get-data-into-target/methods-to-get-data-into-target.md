@@ -1,20 +1,20 @@
 ---
 keywords: implement;implementing;setting up;setup;page parameter;tomcat;url encoded;in-page profile attribute;mbox parameter;in-page profile attributes;script profile attribute;bulk profile update API;single file update API;customer attributes;data providers;dataprovider;data provider
-description: Informazioni sui vari metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
+description: Informazioni sui vari metodi che è possibile utilizzare per inserire dati in  Adobe Target, inclusi parametri di pagina, attributi di profilo di pagina, attributi di profilo di script, provider di dati, API di aggiornamento di profilo in massa, API di aggiornamento di profilo singolo e attributi cliente.
 title: Metodi per immettere i dati in Target
-feature: implementation general
+feature: Implementation
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '1936'
-ht-degree: 96%
+ht-degree: 92%
 
 ---
 
 
-# Metodi per immettere i dati in Target{#methods-to-get-data-into-target}
+# Metodi per immettere i dati in Target
 
-Informazioni sui diversi metodi possibili per ottenere i dati in Target, inclusi parametri di pagina, attributi di profilo nella pagina, attributi di profilo script, fornitori dei dati, API di aggiornamento collettivo dei profili, API di aggiornamento di singoli profili e attributi dei clienti.
+Informazioni sui diversi metodi che è possibile utilizzare per inserire i dati in [!DNL Adobe Target], inclusi i parametri di pagina, gli attributi di profilo in-page, gli attributi di profilo di script, i provider di dati, l&#39;API di aggiornamento del profilo in massa, l&#39;API di aggiornamento del profilo singolo e gli attributi cliente.
 
 ## Parametri di pagina (detti anche “parametri mbox”){#section_5A297816173C4FE48DC4FE03860CB42B}
 
