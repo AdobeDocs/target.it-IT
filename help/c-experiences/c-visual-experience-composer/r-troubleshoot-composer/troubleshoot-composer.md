@@ -2,21 +2,21 @@
 keywords: Targeting;visual experience composer;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
 description: In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
 title: Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 100%
+source-wordcount: '221'
+ht-degree: 91%
 
 ---
 
 
-# Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato{#troubleshooting-the-visual-experience-composer-and-enhanced-experience-composer}
+# Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 
-In determinate condizioni si possono verificare problemi di visualizzazione nel Compositore esperienza visivo e nel Compositore esperienza avanzato.
+A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e in [!UICONTROL Enhanced Experience Composer] (EEC) a determinate condizioni.
 
-Il Compositore esperienza visivo è una delle funzionalità principali di Adobe Target. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
+Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
 Il Compositore esperienza avanzato è un’estensione del Compositore esperienza visivo che consente di modificare un’esperienza per siti non compatibili con iframe o per pagine che non includono ancora l’implementazione di Target. Se hai difficoltà ad aprire la pagina nel Compositore esperienza visivo, prova con il Compositore esperienza avanzato.
 
