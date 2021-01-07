@@ -1,20 +1,20 @@
 ---
 keywords: multi-page;journey testing;multipage activity
-description: Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
+description: Un’attività con più pagine in  Adobe Target consente di creare un brano su più pagine, con una progettazione specifica per ogni pagina.
 title: Attività multipagina
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '362'
-ht-degree: 100%
+source-wordcount: '364'
+ht-degree: 87%
 
 ---
 
 
-# Attività multipagina{#multipage-activity}
+# Attività multipagina
 
-Un’attività multipagina consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
+Un&#39;attività multipagina in [!DNL Adobe Target] consente di creare un brano su più pagine, con una progettazione specifica per ogni pagina.
 
 Ad esempio, ti può essere utile per testare un’offerta di spedizione gratuita per acquisti superiori a un determinato importo. Vorresti che questa offerta venga visualizzata nella pagina di destinazione, in una pagina di categoria e in alcune pagine di prodotto, ma con dimensioni e posizione diverse in ciascun tipo di pagina. L’offerta dovrà essere prominente sulla home page, quindi proposta di nuovo ma più piccola su altre pagine correlate.
 
