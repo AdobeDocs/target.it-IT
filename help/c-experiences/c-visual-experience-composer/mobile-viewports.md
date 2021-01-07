@@ -2,9 +2,9 @@
 keywords: responsive;mobile viewports;viewport;devices;mobile;responsive web design;rwd
 description: I visualizzatori per dispositivi mobili consentono di visualizzare un'anteprima di come vengono visualizzate  attività Adobe Target sugli schermi di varie dimensioni.
 title: Visualizzazioni per dispositivi mobili per esperienze reattive
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
 source-wordcount: '1443'
 ht-degree: 69%
@@ -12,9 +12,9 @@ ht-degree: 69%
 ---
 
 
-# Porte mobili per esperienze reattive{#mobile-viewports-for-responsive-experiences}
+# Visualizzazioni per dispositivi mobili per esperienze reattive
 
-I visualizzatori per dispositivi mobili consentono di visualizzare un&#39;anteprima delle attività [!DNL Target] su schermi di varie dimensioni.
+I visualizzatori per dispositivi mobili consentono di visualizzare un&#39;anteprima delle attività [!DNL Adobe Target] su schermi di varie dimensioni.
 
 La funzione di anteprima della finestra del visualizzatore per dispositivi mobili è progettata per i siti reattivi che possono essere visualizzati correttamente su vari dispositivi, finestre o dimensioni dello schermo. I siti reattivi si adattano e si adattano automaticamente a qualsiasi dimensione dello schermo, compresi desktop, laptop, tablet o telefoni cellulari.
 
