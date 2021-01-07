@@ -1,9 +1,10 @@
 ---
+keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Elimina i cookie del browser di Target, in modo da poter convalidare tutte le esperienze.
 title: Eliminare il cookie  Adobe Target
-feature: privacy and security
+feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
 workflow-type: tm+mt
 source-wordcount: '409'
 ht-degree: 5%
@@ -11,9 +12,9 @@ ht-degree: 5%
 ---
 
 
-# Eliminare il cookie di Target{#delete-the-target-cookie}
+# Eliminare il cookie di Target
 
-Potete eliminare il cookie [!DNL Target] del browser (mbox) in modo da poter convalidare tutte le esperienze durante il test.
+Potete eliminare il cookie [!DNL Adobe Target] del browser (mbox) in modo da poter convalidare tutte le esperienze durante il test.
 
 Se non è presente un cookie [!DNL Target] (mbox), viene considerato un nuovo visitatore e viene mostrata una nuova esperienza. Ci sono diversi modi per eliminare la mbox senza eliminare tutti i cookie del browser.
 
