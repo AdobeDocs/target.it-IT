@@ -1,20 +1,20 @@
 ---
 keywords: multiple audiences;experience versions;target experience versions
-description: È possibile indirizzare diverse versioni di una stessa esperienza a tipi di pubblico diversi nelle attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
+description: Potete eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B  Adobe Target. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 title: Più versioni di esperienza in un test A/B
-feature: ab
+feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '605'
-ht-degree: 100%
+source-wordcount: '607'
+ht-degree: 94%
 
 ---
 
 
-# Esperienza con più tipi di pubblico un testo A/B{#multiple-experience-versions-in-an-a-b-test}
+# Esperienza con più tipi di pubblico un testo A/B
 
-È possibile indirizzare diverse versioni di una stessa esperienza a tipi di pubblico diversi nelle attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
+Potete eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 
 Gli utenti possono passare da un pubblico dell&#39;esperienza all&#39;altro quando cambiano profilo. Non sono bloccati nella stessa esperienza per l&#39;intero ciclo di vita dell&#39;attività.
 
@@ -24,7 +24,7 @@ Senza la possibilità di impostare le versioni dell&#39;esperienza, è necessari
 
 Con la creazione di diverse versioni di un&#39;esperienza, si ricevono informazioni più accurate senza la necessità di calcoli manuali e ipotesi.
 
-**Scenario**
+## Scenario
 
 Stai testando due esperienze, un banner con targeting geografico contro un banner generico. Il banner per ogni area geografica deve essere diverso, ma lo scopo generale del test è determinare se il geotargeting sia migliore del generico. Se si impostasse un&#39;esperienza separata per ogni posizione, si valuterebbero effettivamente le prestazioni di un&#39;area geografica rispetto all&#39;altra, piuttosto che determinare se il geotargeting aiuti a soddisfare gli obiettivi di successo rispetto al banner generico.
 
@@ -48,7 +48,7 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 
 1. Continua a configurare l’attività.
 
-**Best practice**
+## Best practice
 
 * Scegli tipi di pubblico che si escludono a vicenda. Se l&#39;attività è stata creata nel Compositore esperienza visivo, nel caso in cui un visitatore corrisponda a più di un pubblico, il contenuto per ogni pubblico viene respinto e il contenuto per l&#39;ultimo pubblico in elenco è visualizzato nella pagina.
 * Il pubblico di accesso all&#39;attività definito nel diagramma viene combinato con il pubblico di esperienza utilizzando una condizione E. Per accedere all&#39;attività, un visitatore deve essere idoneo al pubblico di attività e uno dei tipi di pubblico dell&#39;esperienza.
