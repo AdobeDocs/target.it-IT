@@ -1,20 +1,20 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: È possibile aggiungere elementi all’elenco delle Offerte di immagine.
+description: Potete aggiungere elementi all’elenco Offerte immagini in  Adobe Target.
 title: Caricare contenuto
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '107'
-ht-degree: 91%
+source-wordcount: '111'
+ht-degree: 68%
 
 ---
 
 
-# Caricare contenuto{#upload-content}
+# Caricare contenuto
 
-È possibile aggiungere elementi o rimuovere elementi dall’elenco Offerte di immagine.
+Potete aggiungere o rimuovere elementi dall&#39;elenco Offerte immagini in [!DNL Adobe Target].
 
 1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte immagine]**.
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL File]**.
