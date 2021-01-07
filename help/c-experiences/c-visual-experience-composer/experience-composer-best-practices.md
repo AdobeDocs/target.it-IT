@@ -1,20 +1,20 @@
 ---
 keywords: visual experience composer;visual experience composer best practices;visual experience composer limitations;visual experience composer caveats;vec best practices;vec
-description: Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Durante l’utilizzo del Compositore esperienza visivo è necessario considerare ulteriori suggerimenti e limitazioni.
+description: Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Sono inoltre disponibili altri suggerimenti e limitazioni da tenere presenti quando si utilizza Visual Experience Composer (VEC) in  Adobe Target.
 title: Best practice e limitazioni del Compositore esperienza visivo
-feature: vec
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '2448'
-ht-degree: 97%
+source-wordcount: '2452'
+ht-degree: 95%
 
 ---
 
 
-# Best practice e limitazioni del Compositore esperienza visivo{#visual-experience-composer-best-practices-and-limitations}
+# Best practice e limitazioni del Compositore esperienza visivo
 
-Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Durante l’utilizzo del Compositore esperienza visivo è necessario considerare ulteriori suggerimenti e limitazioni.
+Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Sono inoltre disponibili altri suggerimenti e limitazioni da tenere presenti quando si utilizza Visual Experience Composer (VEC) in [!DNL Adobe Target].
 
 Segui queste best practice per evitare che si verifichino problemi imprevisti con le esperienze che progetti.
 
