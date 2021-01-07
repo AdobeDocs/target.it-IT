@@ -1,20 +1,20 @@
 ---
 keywords: remote offer;create remote offer
-description: Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
+description: Create offerte JSON nella libreria delle offerte in  Adobe Target da utilizzare in Form-Based Experience Composer (Compositore esperienza basato su moduli).
 title: Creare offerte JSON
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6704ac2ec73361ad95e110e9182485537d0de642
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 100%
+source-wordcount: '386'
+ht-degree: 91%
 
 ---
 
 
 # Creare offerte JSON{#create-json-offers}
 
-Crea offerte JSON nella libreria di offerte e utilizzale nel Compositore esperienza basato su moduli.
+Create offerte JSON nella [!UICONTROL libreria di offerte] in [!DNL Adobe Target] per l&#39;utilizzo in [!UICONTROL Form-Based Experience Composer].
 
 Le offerte JSON possono essere utilizzate in attività basate su moduli per casi di utilizzo in cui è richiesto un processo decisionale di Target per inviare un’offerta in formato JSON per l’utilizzo in ambito SPA (Single-page application, applicazione a pagina singola) o per integrazioni lato server.
 
