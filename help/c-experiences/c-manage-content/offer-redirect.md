@@ -2,19 +2,19 @@
 keywords: redirect offer;create redirect offer;add html offer;Pass all URL parameters in redirect;Pass mboxSessionId in redirect (only needed when the redirect is going to a different domain)
 description: Informazioni sulle offerte di reindirizzamento in Adobe Target che consentono, in un browser, il reindirizzamento verso una nuova pagina.
 title: Creare offerte di reindirizzamento
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 98%
+source-wordcount: '562'
+ht-degree: 95%
 
 ---
 
 
-# Creare offerte di reindirizzamento{#create-redirect-offers}
+# Creare offerte di reindirizzamento
 
-Con un’offerta di reindirizzamento, il browser viene reindirizzato a una nuova pagina.
+Le offerte di reindirizzamento in  Adobe Target causano il reindirizzamento di un browser a una nuova pagina.
 
 Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, nel test A/B vengono messe a confronto la pagina A e la pagina B. Configura una campagna di test A/B con due esperienze: una dirige alla pagina predefinita A e l&#39;altra reindirizza alla pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
