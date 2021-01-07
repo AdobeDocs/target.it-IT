@@ -1,33 +1,32 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Puoi visualizzare i valori dei profili e le informazioni sull’attività direttamente in un’offerta HTML o JSON.
+description: Potete visualizzare i valori di profilo e le informazioni sulle attività direttamente in un'offerta HTML o JSON  Adobe Target.
 title: Trasmettere i dati dinamici nelle offerte
-feature: offers
+feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 431ccc937a3ad4aaf735b31b4790ead43a6fc4d9
+source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
 workflow-type: tm+mt
-source-wordcount: '492'
-ht-degree: 94%
+source-wordcount: '494'
+ht-degree: 88%
 
 ---
 
 
-# Trasmettere i dati dinamici nelle offerte{#pass-dynamic-data-into-offers}
+# Trasmettere i dati dinamici nelle offerte
 
-Puoi visualizzare in modo dinamico le informazioni dei visitatori memorizzate nel profilo Target. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
+Potete visualizzare dinamicamente le informazioni sui visitatori memorizzate nel profilo [!DNL Adobe Target]. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
 
-**Casi aziendali**
+## Casi aziendali
 
 * Promuovere un’offerta scontata per un acquisto relativo all’ultimo prodotto acquistato. Invece di creare un’offerta separata per ogni elemento del catalogo, puoi creare un’offerta con testo dinamico che visualizza “l’ultimo prodotto acquistato” dal profilo insieme a un collegamento nell’offerta.
 * Un visitatore arriva sulla pagina di destinazione con `keyword=world` `cup`. Mostra il termine *World cup* nell&#39;offerta.
 * Personalizza un’etichetta di consigli con informazioni come (1) l’ultimo elemento aggiunto al carrello di un visitatore (Nike Air Max 1000), (2) la preferenza colore del visitatore (nero) e (3) la categoria non relativa alla scarpa preferita dal visitatore (felpe). Esempio: “Abbina a “Nike Air Max 1000” queste fantastiche “felpe” “nere””.
 
-
-**Vantaggi tecnici**
+## Vantaggi tecnici
 
 Poiché le preferenze, i comportamenti, gli stati specifici dell’utente possono essere memorizzati nel profilo utente, puoi ripetere questo messaggio nelle visite successive. Le offerte dinamiche consentono una maggiore estensione: ti permettono infatti di configurare una singola offerta all’interno di un’attività che visualizza messaggi personalizzati per tutti i visitatori. Il contenuto del sito Web si aggiorna automaticamente per riflettere i cambiamenti nell’intento del visitatore.
 
-**Esempio**
+## Esempio
 
 * `mboxCreate("landingpage"`, `"profile.keyword=World Cup");`
 
@@ -51,7 +50,7 @@ Registra le informazioni nella console per scopi di debug, come `${campaign.name
 
 Consulta ulteriori esempi in [Panoramica della progettazione](/help/c-recommendations/c-design-overview/design-overview.md) per progetti Consigli.
 
-**Implementazione**
+## Implementazione
 
 Per i parametri di profilo trasmessi in una mbox, utilizza la sintassi: `${profile.parameter}`; per i parametri di profilo creati in uno script di profilo, utilizza la sintassi:
 
