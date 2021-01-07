@@ -1,20 +1,20 @@
 ---
 keywords: form-based experience composer;form-based composer;refinements
-description: Il compositore esperienza basato su moduli permette di creare esperienze in modo non visivo.
+description: ' Adobe Target Form-Based Experience Composer (Compositore esperienza basato su moduli) consente la creazione di esperienze non visive.'
 title: Compositore esperienza basato su moduli
-feature: form-based composer
+feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 79%
+source-wordcount: '746'
+ht-degree: 72%
 
 ---
 
 
 # Compositore esperienza basato su moduli{#form-based-experience-composer}
 
-Il compositore esperienza basato su moduli è un’interfaccia non visiva per la creazione di esperienze e offerte, utile per creare le esperienze da utilizzare nelle funzioni Test A/B, Targeting esperienza, Personalizzazione automatizzata e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] è un&#39;interfaccia per la creazione di esperienze non visive e di offerte che è utile per creare esperienze da utilizzare in test A/B, targeting delle esperienze,  attività Automated Personalization e Recommendations quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;uso. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
 
 Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i test di verifica e progettazione. Se scegli più criteri o progettazioni, Target genera automaticamente le esperienze.
 
