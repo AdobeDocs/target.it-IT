@@ -2,9 +2,9 @@
 keywords: reports;auto-target;auto target;AT;report
 description: Informazioni su come interpretare il rapporto di riepilogo di Auto-Target in  Adobe Target.
 title: Rapporto di riepilogo del Targeting automatico
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '666'
 ht-degree: 57%
@@ -24,7 +24,7 @@ Per visualizzare i report [!UICONTROL Riepilogo destinazione automatica]:
 
 1. Dalla pagina [!UICONTROL Activities], fare clic sull&#39;attività [!UICONTROL Auto-Target] desiderata.
 
-   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche&lt;a11>, e gli elenchi a discesa [!UICONTROL Origine attività].]
+   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche], e gli elenchi a discesa [!UICONTROL Origine attività].
 
 1. Fare clic sulla scheda [!UICONTROL Report], quindi fare clic sull&#39;icona desiderata:
 
