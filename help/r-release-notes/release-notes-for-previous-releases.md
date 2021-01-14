@@ -2,9 +2,9 @@
 keywords: Release notes
 description: Note sulla versione delle precedenti versioni di Adobe Target , comprese note sulla versione per Target Standard/Premium, la piattaforma Target e la libreria Javascript di Target (at.js). Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di rilascio.
 title: Note sulla versione per le versioni precedenti
-feature: release notes
+feature: Release Notes
 translation-type: tm+mt
-source-git-commit: c2769c0fcf7a05c10405ec855468c829aca785c0
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '29814'
 ht-degree: 86%
@@ -62,7 +62,7 @@ Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
 * È stato risolto un problema che impediva ad alcuni utenti di visualizzare l&#39;elenco [!UICONTROL Activity]. È stato visualizzato il seguente messaggio di errore: &quot;Impossibile recuperare i suggerimenti URL.&quot; L&#39;errore si verificava per gli utenti che utilizzavano il ritorno a capo nel proprio Nome (Nome/r/n) nel sistema di back-end del Adobe . (TGT-37330)
 * È stato risolto un problema che impediva agli utenti di visualizzare la pagina [!UICONTROL Activity] se il nome dell&#39;area di lavoro (specificato in [!UICONTROL Adobe Admin Console for Enterprise]) conteneva un apostrofo. (TGT-37709)
 * È stato risolto un problema nelle attività [!UICONTROL Auto-Allocate] durante la selezione delle metriche di ottimizzazione e conversione in cui un messaggio di errore informava erroneamente gli utenti di selezionare una suite di rapporti, anche se era già specificata una suite di rapporti. (TGT-37689)
-* È stato risolto un problema che a volte causava la visualizzazione delle metriche sulla pagina [!UICONTROL Goals and Settings] (Obiettivi e impostazioni&lt;a1/>) dopo la navigazione alla pagina [!UICONTROL Targeting] e quindi di nuovo. (TGT-37691)
+* È stato risolto un problema che a volte causava la visualizzazione delle metriche sulla pagina [!UICONTROL Goals and Settings] (Obiettivi e impostazioni) dopo la navigazione alla pagina [!UICONTROL Targeting] e quindi di nuovo. (TGT-37691)
 * È stato risolto un problema che causava un valore errato dell&#39;ultima modifica per i criteri [!DNL Recommendations]. (TGT-37666)
 * È stato risolto un problema che causava la visualizzazione degli ID mbox nell&#39;elenco a discesa Mbox invece dei nomi mbox. (TGT-37739)
 
