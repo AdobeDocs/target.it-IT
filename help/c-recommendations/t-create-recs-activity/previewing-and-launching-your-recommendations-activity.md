@@ -2,9 +2,9 @@
 keywords: Recommendations;offer;preview;launch;status;criteria;algorithm
 description: 'Dopo aver creato l''attività Recommendations, A/B Test o Experience Targeting (XT) contenente  offerte Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
 title: 'Dopo aver creato l''attività Recommendations, A/B Test o Experience Targeting (XT) contenente  offerte Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l''attività. In Target Recommendations sono disponibili diversi modi per visualizzare l''anteprima delle raccomandazioni. '
-feature: recs creation
+feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '1398'
 ht-degree: 16%
@@ -20,7 +20,7 @@ Dopo aver creato l&#39;attività [!UICONTROL Recommendations], [!UICONTROL A/B T
 
 Dopo aver creato un&#39;attività, [!DNL Recommendations] esegue un algoritmo per generare le raccomandazioni. L&#39;esecuzione di questo algoritmo potrebbe richiedere alcune ore.
 
-È possibile verificare se l&#39;algoritmo è stato completato nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. L&#39;illustrazione seguente mostra lo stato nel diagramma dell&#39;attività su una pagina [!DNL Recommendations]Overview[!UICONTROL  dell&#39;attività:]
+È possibile verificare se l&#39;algoritmo è stato completato nel diagramma di panoramica [!UICONTROL Activity], in cui è elencato lo stato dei criteri. L&#39;illustrazione seguente mostra lo stato nel diagramma dell&#39;attività su una pagina [!UICONTROL Overview] dell&#39;attività:[!DNL Recommendations]
 
 ![Pagina Panoramica dell&#39;attività Recommendations](/help/c-recommendations/t-create-recs-activity/assets/recs-overview.png)
 
@@ -98,7 +98,7 @@ Da sinistra a destra è riportato un elenco degli elementi consigliati, in quest
 
 >[!NOTE]
 >
->I download dei risultati non sono disponibili per le attività contenenti un algoritmo Recommendations[!UICONTROL  basato su utente. ] I download dei risultati non sono disponibili per i criteri che utilizzano la logica di raccomandazione [!UICONTROL Elementi visualizzati di recente].
+>I download dei risultati non sono disponibili per le attività contenenti un algoritmo Recommendations] basato su utente. [!UICONTROL  I download dei risultati non sono disponibili per i criteri che utilizzano la logica di raccomandazione [!UICONTROL Elementi visualizzati di recente].
 
 ## Attivazione dell&#39;attività Recommendations
 
