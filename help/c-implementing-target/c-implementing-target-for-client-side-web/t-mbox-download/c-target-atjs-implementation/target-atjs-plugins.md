@@ -2,9 +2,9 @@
 keywords: at.js plugins;supported plugins;unsupported plugins;ttMeta;ttmeta;mboxTrack
 description: Informazioni sui plug-in at.js supportati e non supportati per Adobe Target.
 title: Plug-in at.js per Adobe Target
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '209'
 ht-degree: 97%
@@ -12,7 +12,7 @@ ht-degree: 97%
 ---
 
 
-# Plug-in at.js{#at-js-plug-ins}
+# Plug-in at.js
 
 Informazioni sui plug-in at.js supportati e non supportati in Adobe Target.
 
