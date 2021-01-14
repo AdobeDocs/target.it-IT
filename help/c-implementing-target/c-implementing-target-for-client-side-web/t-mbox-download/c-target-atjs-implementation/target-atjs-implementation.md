@@ -2,9 +2,9 @@
 keywords: Target Standard;at.js;implementation
 description: La libreria at.js è una nuova libreria di implementazione per Adobe Target progettata sia per le implementazioni web tipiche che per le applicazioni a pagina singola.
 title: Migrare da mbox.js a at.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '585'
 ht-degree: 96%
@@ -12,7 +12,7 @@ ht-degree: 96%
 ---
 
 
-# Migrare da mbox.js a at.js{#migrate-from-mbox-js-to-at-js}
+# Migrare da mbox.js a at.js
 
 La libreria at.js è una nuova libreria di implementazione per [!DNL Adobe Target] progettata sia per le implementazioni web tipiche che per le applicazioni a pagina singola.
 
