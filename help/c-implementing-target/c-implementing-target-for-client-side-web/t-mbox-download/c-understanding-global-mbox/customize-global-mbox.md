@@ -2,9 +2,9 @@
 keywords: global mbox;customize global mbox;edit at.js;at.js;implement at.js
 description: Informazioni utili per personalizzare una mbox globale per at.js.
 title: Personalizzare una mbox globale
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 59%
@@ -12,7 +12,7 @@ ht-degree: 59%
 ---
 
 
-# Personalizzare una mbox globale{#customize-a-global-mbox}
+# Personalizzare una mbox globale
 
 Informazioni utili per personalizzare una mbox globale per at.js.
 
