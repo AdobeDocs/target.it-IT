@@ -2,9 +2,9 @@
 keywords: implement;implementing;implementation;tag manager;dtm;at.js;dynamic tag management
 description: Dynamic Tag Management (DTM) di Adobe è il sistema legacy di Adobe per la gestione dei tag.
 title: Implementare Target utilizzando Dynamic Tag Management (DTM)
-feature: Implementation
+feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
 workflow-type: tm+mt
 source-wordcount: '85'
 ht-degree: 92%
@@ -12,7 +12,7 @@ ht-degree: 92%
 ---
 
 
-# Implementare Target utilizzando Dynamic Tag Management (DTM){#implement-target-using-dynamic-tag-management-dtm}
+# Implementare Target utilizzando Dynamic Tag Management (DTM)
 
 Dynamic Tag Management (DTM) di Adobe è il sistema legacy di Adobe per la gestione dei tag.
 
