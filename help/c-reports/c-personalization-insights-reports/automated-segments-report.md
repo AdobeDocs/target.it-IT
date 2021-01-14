@@ -2,9 +2,9 @@
 keywords: Targeting;AP reports;automated personalization reports;auto-target;auto target;auto target report;auto-target report;personalization;insights;automated segments;faq;frequently asked questions
 description: Informazioni sul report Segmenti automatizzati, uno dei due report specializzati disponibili agli utenti delle attività  Automated Personalization (AP) e Auto-Target (AT) in  Adobe Target.
 title: Rapporto Segmenti automatizzati
-feature: reports
+feature: Reports
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
 workflow-type: tm+mt
 source-wordcount: '2103'
 ht-degree: 92%
@@ -41,7 +41,7 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
 1. Fare clic su **[!UICONTROL Activities]**, quindi fare clic sull&#39;attività [ Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
 
-   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche&lt;a11>, e gli elenchi a discesa [!UICONTROL Origine attività].]
+   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche], e gli elenchi a discesa [!UICONTROL Origine attività].
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
