@@ -4,10 +4,10 @@ description: Dettagli sulle modifiche in ciascuna versione di  Adobe Target at.j
 title: Dettagli sulle versioni di at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 81a3e84b16521a9ae361f9f32cfdb06791e8cba2
 workflow-type: tm+mt
-source-wordcount: '4003'
-ht-degree: 85%
+source-wordcount: '4034'
+ht-degree: 84%
 
 ---
 
@@ -21,6 +21,13 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >Il team Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata.
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launchis è il metodo preferito per effettuare l&#39;aggiornamento a at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzioni alle loro estensioni e correggono frequentemente i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e resi disponibili nel catalogo [!DNL Launch] come aggiornamenti. Per ulteriori informazioni, vedere [Aggiornamento estensione](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) nella *Guida utente del Experience Platform Launch*.
+
+## at.js 2.4.0 (14 gennaio 2021)
+
+Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+
+* Aggiunge il supporto per l&#39;ID di piattaforma/profilo unificato agli ID cliente API di consegna
+* Correzione dell&#39;iniezione di tag di stile non valida
 
 ## at.js 2.3.3 (13 novembre 2020)
 
