@@ -1,20 +1,20 @@
 ---
-keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID
+keywords: character limit;mbox parameters;batch delivery api;profile parameters;limits;built in profiles;maximum;limit;constraint;character;best practice;orderid;orderTotal;mbox3rdPartyID;category;categoryID;troubleshooting
 description: Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell'offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 title: Limiti
-feature: Recommendations
+feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 020113cfe09cba3dfbdfce1d29879c6a80fd5e27
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 76%
+source-wordcount: '1035'
+ht-degree: 71%
 
 ---
 
 
-# Limiti{#limits}
+# Limiti
 
-Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
+Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ Informazioni sui limiti dei caratteri e altri limiti (dimensioni dell&#39;offert
 >
 >Quando si raggiungono i superano i limiti indicati come “consigliati”, si può verificare un deterioramento delle prestazioni. Un rallentamento nei tempi di caricamento dell’interfaccia può essere anche dovuto ad attività molto complesse, ad esempio se un’attività contiene molti tipi di pubblico, obiettivi ed esperienze.
 >
->Le attività molto complesse dovrebbero essere esaminate con il coinvolgimento di Adobe Consulting e testate in un ambiente limitato prima di essere rilasciate in un ambiente di produzione.
+>Le attività altamente complesse dovrebbero essere riviste con la [!DNL Adobe] Consulenza e collaudate in un ambiente limitato prima di essere immesse in produzione.
 
 ## Attività
 
@@ -194,9 +194,7 @@ Se utilizzi una mbox globale, il limite è per l’intero insieme di contenuti r
 
 ## Parametro productPurchasedId
 
-**Limite**: 47 caratteri per valore separato da virgole.
-
-Qualsiasi valore superiore viene troncato dal sistema.
+**Limite**: 47 caratteri per il valore separato da virgole e 250 caratteri in totale. I singoli valori superiori a 47 caratteri possono essere troncati dal sistema. Le lunghezze totali superiori a 250 caratteri possono causare un errore 400.
 
 ## Script di profilo
 
