@@ -4,10 +4,10 @@ description: Queste note sulla versione forniscono informazioni su funzioni, mig
 title: 'Note sulla versione di Adobe Target (corrente) '
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: a85a5c10c31fb0d7eb00c21ff03b2012d044de45
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '943'
-ht-degree: 27%
+source-wordcount: '852'
+ht-degree: 36%
 
 ---
 
@@ -28,7 +28,25 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 >
 Sebbene mbox.js sia attualmente supportato (fino al 31 marzo 2021), a partire da luglio 2017 non è disponibile alcun aggiornamento della funzione per questa libreria. Spostando tutti i clienti su [!UICONTROL Adobe Experience Platform Web SDK] o at.js, i nostri tecnici e personale di supporto saranno in grado di fornire nuove funzionalità e offrire il supporto che ci si aspetta da  Adobe.
 
+(I codici tra parentesi sono per uso interno di [!DNL Adobe].)
+
+## Target Standard/Premium 21.1.1 (19 gennaio 2021)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti, correzioni e modifiche.
+
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+* È stato aggiunto un avviso quando si seleziona una metrica [!DNL Adobe Analytics] quando si utilizza [!UICONTROL Analytics come origine di reporting] (A4T) in un&#39;attività [!UICONTROL Auto-Target]. [!UICONTROL I modelli di ] targeting automatico sono ottimizzati per funzionare con metriche binarie (basate sulla conversione). La selezione di una metrica continua, come le entrate, potrebbe avere risultati non ottimali e i report [!UICONTROL Personalization Insights] potrebbero non essere precisi. (TGT-38926)
+* È stata aggiunta un&#39;icona di stato nel report [!UICONTROL Auto-Target Summary] per le attività [!UICONTROL Auto-Target] che utilizzano A4T. L&#39;icona di controllo verde accanto a ogni esperienza nel rapporto indica che per quell&#39;esperienza è stato generato un modello di apprendimento automatico personalizzato. L&#39;icona dell&#39;orologio indica che non è stato fornito abbastanza traffico per generare il modello. (TGT-38925)
+* I report [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] per le attività [!UICONTROL Auto-Target] che utilizzano le metriche di conversione A4T e [!DNL Analytics] vengono generati e hanno lo stesso aspetto di quando si utilizza [!DNL Target] come origine di reporting. (TGT-38931)
+* Aggiunta un&#39;opzione di filtro dell&#39;ambiente all&#39;elenco [!UICONTROL Recommendations] [!UICONTROL Raccolte]. (TGT-38353)
+* È stato risolto un problema che causava la visualizzazione del numero di prodotti errato nelle raccolte [!UICONTROL Recommendations]. (TGT-39162)
+* È stato aggiunto un filtro [!UICONTROL Ultimo aggiornamento] alla [!UICONTROL Recommendations] [!UICONTROL Ricerca nel catalogo]. (TGT-38340)
+* È stato risolto un problema in [!UICONTROL Recommendations] che causava il blocco della pagina [!UICONTROL Crea sequenza] dopo la modifica del settore verticale. (TGT-38160)
+* È stato risolto un problema che impediva il salvataggio dell&#39;attività se Device Co-op era abilitato e l&#39;utente passava da [!DNL Target] come origine di reporting a [!DNL Analytics] (A4T). (TGT-38163)
+* È stato risolto un problema che impediva agli utenti di rimuovere un&#39;audience da un&#39;offerta in un&#39;attività [!UICONTROL  Automated Personalization] (AP). (TGT-39058)
+* È stato risolto un problema che causava la visualizzazione errata dell&#39;intervallo di tempo (date di inizio e fine) nelle schede [!UICONTROL Informazioni sull&#39;audience] per alcuni clienti. (TGT-39150)
+* È stato risolto un problema che impediva ad alcuni clienti di visualizzare l&#39;elenco delle attività in [!UICONTROL Area di lavoro predefinita]. (TGT-38526)
 
 ## at.js 2.4.0 (14 gennaio 2021)
 
@@ -36,27 +54,6 @@ Questa versione di at.js è una versione di manutenzione e include le seguenti c
 
 * Aggiunge il supporto per l&#39;ID di piattaforma/profilo unificato agli ID cliente API di consegna.
 * Corregge l&#39;inserimento di tag di stile non valido.
-
-## Target Standard/Premium 20.10.1 (27 ottobre 2020)
-
-Questa versione contiene le nuove funzioni seguenti:
-
-| Funzione | Dettagli |
-| --- | --- |
-| [Decisioni su dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) | La decisione sul dispositivo consente sia agli esperti di marketing che agli sviluppatori di prodotti di distribuire la sperimentazione e la personalizzazione basata sull&#39;apprendimento automatico dall&#39;interno del dispositivo dell&#39;utente, attraverso i canali, a una latenza quasi zero.<br>La velocità e le prestazioni sono importanti, in termini di approfondimenti e soddisfazione degli utenti.<br>La decisione sul dispositivo consente di compilare le istruzioni chiave di personalizzazione e sperimentazione nei tipi di attività Test e Targeting delle esperienze (XT) A/B in oggetti JSON &quot;ottimization artifact:&quot; caricati sui dispositivi dei clienti tramite CDN. Inoltre, poiché le decisioni sui dispositivi si connettono in modo nativo con i prodotti [!DNL Adobe Experience Cloud], gli utenti [!DNL Target] ricevono analisi rapide e iterazioni di esperienza più veloci.<br>Per ulteriori informazioni, vedere *[Regolazione](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) del dispositivo. |
-
-Questa versione contiene i seguenti miglioramenti, correzioni e modifiche:
-
-* È stato risolto un problema che impediva la visualizzazione di [!UICONTROL Intervallo di confidenza media dell&#39;incremento] e [!UICONTROL Confidence] nel report [!DNL Auto-Target] per la riga [!UICONTROL Totale]. Misurazioni visualizzate correttamente per tutte le singole esperienze. (TGT-37301)
-* È stato risolto un problema che interessava il reporting degli [!DNL Adobe Target Premium] utenti [!UICONTROL Auto-Target] dal 15 settembre alle 2:30 p.m. (PDT) al 6 ottobre, 9:25 (PDT). Quando si visualizzano i rapporti per le metriche di conversione interessate (configurate mediante l&#39;opzione &quot;[!UICONTROL Visualizzato una pagina]&quot; o &quot;[!UICONTROL Selezionato su mbox]&quot;), i tassi di conversione vengono riportati in modo non corretto. Nessun problema di consegna noto al momento. Per informazioni su come risincronizzare e correggere il reporting, vedere [Generazione di rapporti con targeting automatico](/help/r-release-notes/known-issues-resolved-issues.md#at-metrics) in *Problemi risolti* in *Problemi noti e problemi risolti*.
-* È stata aggiunta una colonna [!UICONTROL Ultimo aggiornamento a ] selezionabile nella tabella [!UICONTROL Ricerca nel catalogo] e un filtro [!UICONTROL Ultimo aggiornamento a]. Questo miglioramento consente di risparmiare tempo e fatica perché non è necessario aprire ogni singolo elemento per vedere quando è stato aggiornato per l&#39;ultima volta e si può filtrare per data l&#39;ultimo aggiornamento degli elementi.
-
-   ![Ultimo aggiornamento a colonna e illustrazione filtro](/help/r-release-notes/assets/column-and-filter.png)
-
-* Sono stati effettuati aggiornamenti per rendere l&#39;interfaccia utente di Target conforme alle [Linee guida per l&#39;accessibilità dei contenuti Web](https://www.w3.org/WAI/standards-guidelines/wcag/) 2.0 Livello A e ai criteri di successo AA (WCAG 2.0 AA). (TGT-34384 e TGT-24679)
-* Miglioramenti apportati all&#39;informativa sulla sicurezza dei contenuti (CSP). (TGT-37035)
-* È stato introdotto un modo per specificare il codice client come parametro per i clienti che utilizzano CNAME. (TNT-38571)
-* [!DNL Adobe Experience Cloud] la documentazione si sta spostando in  [!DNL Experience League]. Durante ottobre, tutte le note sulla versione, gli articoli, i video e le esercitazioni verranno spostati dalla posizione corrente in `docs.adobe.com` a [!DNL Experience League]. Questa operazione garantisce che tutti i contenuti di apprendimento, supporto autonomo, abilitazione e community vengano serviti da un&#39;unica posizione. Quando si verifica questa modifica, non è necessario eseguire alcuna operazione, in quanto tutti i collegamenti verranno reindirizzati a [!DNL Experience League]. Le note sulla versione verranno aggiornate all’inizio del ritaglio.
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
