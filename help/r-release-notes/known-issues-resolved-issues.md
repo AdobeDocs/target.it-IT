@@ -4,7 +4,7 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
 workflow-type: tm+mt
 source-wordcount: '4337'
 ht-degree: 69%
@@ -67,7 +67,7 @@ Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzame
 
 Di seguito sono riportati i problemi noti relativi alle attività di [!UICONTROL Recommendations]:
 
-* Attualmente, quando si copia un&#39;attività [!UICONTROL Recommendation] con una promozione attiva, qualsiasi modifica nell&#39;attività duplicata incide anche sull&#39;attività originale e viceversa. (TGT-39155)
+* Durante la copia di un&#39;attività [!UICONTROL Recommendation] con una promozione attiva, qualsiasi modifica nell&#39;attività duplicata incide attualmente anche sull&#39;attività originale, e viceversa. (TGT-39155)
 
    Come soluzione alternativa temporanea:
 
