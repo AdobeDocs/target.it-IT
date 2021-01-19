@@ -4,10 +4,10 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 729bf757b0072cf57e89fdfc42e6a3db4422341e
+source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
 workflow-type: tm+mt
-source-wordcount: '4296'
-ht-degree: 70%
+source-wordcount: '4337'
+ht-degree: 69%
 
 ---
 
@@ -65,7 +65,15 @@ Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzame
 
 ### Consigli
 
-Di seguito sono riportati i problemi noti relativi alle attività Consigli:
+Di seguito sono riportati i problemi noti relativi alle attività di [!UICONTROL Recommendations]:
+
+* Attualmente, quando si copia un&#39;attività [!UICONTROL Recommendation] con una promozione attiva, qualsiasi modifica nell&#39;attività duplicata incide anche sull&#39;attività originale e viceversa. (TGT-39155)
+
+   Come soluzione alternativa temporanea:
+
+   * Disattivazione delle promozioni di attività
+   * Duplicare l&#39;attività
+   * Abilita di nuovo le promozioni in ogni attività
 
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
 * Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
@@ -170,7 +178,7 @@ Sono stati risolti i seguenti problemi relativi a A4T:
 
    Questo problema ha influito sulla generazione di rapporti per le attività A4T in diretta tra il 22 settembre e l&#39;11 novembre 2020 (2:30 PST). I rapporti per le attività A4T interessate mostreranno correttamente le conversioni al di fuori di questo intervallo di date. I rapporti per le attività non A4T non sono stati influenzati.
 
-In caso di ulteriori domande, rivolgiti al Customer Success Manager (CSM) o all&#39;Assistenza clienti  Adobe [. ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) (CSO 20201110016)
+In caso di ulteriori domande, rivolgiti al Customer Success Manager (CSM) o all&#39;Assistenza clienti  Adobe ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). [ (CSO 20201110016)
 
 ### Generazione di report di destinazione automatica {#at-metrics}
 
