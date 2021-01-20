@@ -4,10 +4,10 @@ description: Risposte alle domande più frequenti su mbox.js.
 title: Domande frequenti su mbox.js
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '325'
-ht-degree: 98%
+source-wordcount: '398'
+ht-degree: 80%
 
 ---
 
@@ -15,6 +15,12 @@ ht-degree: 98%
 # Domande frequenti su mbox.js{#mbox-js-frequently-asked-questions}
 
 Risposte alle domande più frequenti su mbox.js.
+
+>[!IMPORTANT]
+>
+>**fine ciclo di vita** di mbox.js: Il 31 marzo 2021 non  [!DNL Adobe Target] supporterà più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività [!DNL Target] in esecuzione distribuendo contenuti predefiniti.
+>
+>È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, vedere [Panoramica: implementate Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 ## Qual è l’impatto di mbox.js sui tempi di caricamento pagina? {#section_90B3B94FE0BF4B369577FCB97B67F089}
 
