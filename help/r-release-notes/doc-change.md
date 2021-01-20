@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 2dce7bbe94f20ad6f6732dfc3abceb69058a1f75
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '3387'
+source-wordcount: '3395'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Gennaio 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuovo argomento. |
 | Gennaio 19 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target 21.1.1 (19 gennaio 2021). |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato per il parametro `productPurchasedID`. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto durante la copia di un&#39;attività [!UICONTROL Recommendation] con una promozione attiva. Qualsiasi modifica nell&#39;attività duplicata influisce anche sull&#39;attività originale, e viceversa. È inclusa una soluzione alternativa temporanea. |
