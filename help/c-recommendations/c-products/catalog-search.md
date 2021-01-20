@@ -1,28 +1,28 @@
 ---
-keywords: catalog;search
-description: In Adobe Target la ricerca nel catalogo consente di individuare prodotti o contenuti all’interno del catalogo.
-title: Ricerca nel catalogo in Adobe Target
+keywords: catalog search;catalog;search;exclusion;collection;filter
+description: Scoprite come utilizzare Recommendations Catalog Search per individuare prodotti o contenuti, creare raccolte o esclusioni, rimuovere elementi dal catalogo e altro ancora.
+title: Come usare Recommendations Catalog Search
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 1d31bf9474f817827e9be9f515ae5d06fae0cb2a
 workflow-type: tm+mt
-source-wordcount: '1016'
-ht-degree: 19%
+source-wordcount: '1031'
+ht-degree: 17%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Ricerca nel catalogo {#catalog-search}
+# ![](/help/assets/premium.png) PREMIUMCatalog Search
 
-La pagina [!UICONTROL Catalog Search] consente di individuare i prodotti o i contenuti presenti nel catalogo.
+La pagina [!UICONTROL Catalog Search] in [!DNL Adobe Recommendations] consente di individuare i prodotti o i contenuti nel catalogo. L&#39;attività più semplice che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, potete modificare l&#39;ambiente, salvare i risultati di ricerca in raccolte o esclusioni, aggiungere facet di filtro e modificare le colonne della tabella, aggiungere nuovi facet di ricerca e altro ancora.
 
 I cataloghi si riferiscono all’intero set di prodotti (entità). Il catalogo può contenere molte raccolte, un modo per organizzare i prodotti in raggruppamenti logici.
+
+## Accesso alla ricerca nel catalogo
 
 Per accedere alla pagina [!UICONTROL Ricerca nel catalogo], fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Ricerca nel catalogo]**.
 
 ![Pagina di ricerca del catalogo](/help/c-recommendations/c-products/assets/catalog-search.png)
-
-L&#39;attività più semplice che è possibile eseguire in questa pagina è la ricerca di un elemento. Inoltre, è possibile modificare l&#39;ambiente; salvare i risultati della ricerca nelle raccolte o nelle esclusioni; aggiungere, rimuovere o ridisporre le colonne nella tabella e aggiungere nuovi facet di ricerca al pannello [!UICONTROL Filtri].
 
 ## Cercare un elemento
 
@@ -59,9 +59,9 @@ Potete usare una ricerca semplice o avanzata per individuare gli elementi presen
 
    >[!NOTE]
    >
-   >Quando si esegue una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo String anziché come valore numerico.
+   >Quando eseguite una ricerca di catalogo su un attributo personalizzato con un valore numerico, l&#39;attributo personalizzato viene considerato come tipo di stringa invece di un valore numerico.
    >
-   >Al momento, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema del cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerica.
+   >Al momento non è disponibile alcuna funzionalità che consenta di modificare il tipo di un attributo. Per apportare una modifica, [aprire un problema del cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerica.
 
 1. Potete anche usare i filtri per trovare il prodotto desiderato. Nell&#39;esempio seguente, espandendo il facet [!UICONTROL Raccolte] e selezionando &quot;Strumenti bici&quot;, tutti gli strumenti ciclabili nel display del catalogo.
 
@@ -153,7 +153,7 @@ Potete aggiungere ulteriori facet di filtro alla pagina [!UICONTROL Ricerca nel 
 
    ![Collegamento Modifica filtri](/help/c-recommendations/c-products/assets/modify-filters.png)
 
-1. Seleziona i facet di ricerca desiderati (ID, nome, messaggio, ecc.).
+1. Selezionate i facet di ricerca desiderati (ID, nome, messaggio, ecc.), quindi fate clic su **[!UICONTROL Salva]**.
 
    ![Aggiungere filtri](/help/c-recommendations/c-products/assets/add-filters.png)
 
