@@ -1,13 +1,13 @@
 ---
 keywords: multi-value entity attributes;custom entity attributes;valid JSON;entity attribute value;JSON array;multi-valued;multivalued
 description: Per definire informazioni aggiuntive sugli elementi del catalogo, utilizza attributi di entità personalizzati a valore singolo e multiplo.
-title: Attributi di entità personalizzati in  Adobe Target
+title: Attributi di entità personalizzati
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 4fb3603946850092ff2db47e2ad319ab84ff9261
 workflow-type: tm+mt
-source-wordcount: '1379'
+source-wordcount: '1376'
 ht-degree: 91%
 
 ---
