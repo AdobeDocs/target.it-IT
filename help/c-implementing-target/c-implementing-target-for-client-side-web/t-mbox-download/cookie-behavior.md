@@ -4,10 +4,10 @@ description: Il comportamento del cookie dipende dal fatto di essere un cookie d
 title: Cookie mbox.js
 feature: null
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
 workflow-type: tm+mt
-source-wordcount: '1565'
-ht-degree: 99%
+source-wordcount: '1638'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 99%
 Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte, un cookie di terze parti con un cookie di prima parte oppure un cookie di terze parti.
 
 >[!IMPORTANT]
+>
+>**fine ciclo di vita** di mbox.js: Il 31 marzo 2021 non  [!DNL Adobe Target] supporterà più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività [!DNL Target] in esecuzione distribuendo contenuti predefiniti.
+>
+>È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, vedere [Panoramica: implementate Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+>[!NOTE]
 >
 >Questo argomento contiene informazioni su `mboxSession` e `mboxPC`. Le nostre best practice di implementazione consigliano di non collegare o archiviare informazioni sensibili con i dati dei cookie: `mboxSession` o `mboxPC`.
 
