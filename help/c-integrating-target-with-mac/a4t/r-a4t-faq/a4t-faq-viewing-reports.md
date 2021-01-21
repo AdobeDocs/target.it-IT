@@ -4,10 +4,10 @@ description: Questo argomento contiene le risposte alle domande che vengono spes
 title: Visualizzare i rapporti - Domande frequenti su A4T
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: 3776fac31aa512728f40211de8b8bb902df35070
 workflow-type: tm+mt
-source-wordcount: '2280'
-ht-degree: 55%
+source-wordcount: '2347'
+ht-degree: 54%
 
 ---
 
@@ -69,6 +69,9 @@ In altri rapporti, “non specificato” significa che i dati non soddisfano una
 
 Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti circa un&#39;ora dopo essere stati raccolti dal sito. Tutte le metriche, i segmenti e i valori nei rapporti provengono dalla suite di rapporti selezionata quando si configura l’attività.
 
+Nel caso in cui la classificazione sia stata effettuata per quell&#39;attività e nel rapporto sia ancora visibile una riga &quot;non specificata&quot;, accertati che il rapporto non utilizzi una metrica non di destinazione per visualizzare i dati. A meno che il report non utilizzi una metrica specifica di Target, quella riga &quot;non specificata&quot; conterrà eventi per le chiamate che non sono associate a Target.
+Rispettivamente, tale riga non conterrà informazioni associate a Target (ad esempio, nessun visitatore/visita/impression).
+
 ## Perché le metriche di Target vengono inviate ad Analytics anche dopo la disattivazione dell’attività? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 La variabile di [!DNL Target] inviata ad [!DNL Analytics] ha un periodo di scadenza predefinito di 90 giorni. Se necessario, l&#39;Assistenza clienti può modificare il periodo di scadenza. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
@@ -87,27 +90,27 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente tramite la persistenza e per l’utente è stato quindi impostato ABC, vedremo due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| ABC | 1 | 5 | 3 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore eVar viene reimpostata a partire dal 1° aprile, quindi sarà riportato nel rapporto. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
+| XYZ | 1 | 20 | 4 | 3 | 3 |
+| ABC | 3 | 10 | 2 | 1 | 3 |
 | Totale | 2 | 20 | 3 | 3 | 3 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per i report [!DNL Target], poiché non state inserendo un&#39;attività [!DNL Target] rispetto a un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ottenuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
