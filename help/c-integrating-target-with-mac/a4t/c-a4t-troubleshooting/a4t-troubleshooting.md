@@ -4,10 +4,10 @@ description: In questo argomento vengono descritti alcuni problemi che sono stat
 title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 541adbdf8a2512761fc3f2f676cabec085b6825a
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '880'
+ht-degree: 71%
 
 ---
 
@@ -37,6 +37,15 @@ Questo può accadere per diversi motivi:
 >A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
+
+## I rapporti Attività A4T includono una riga con un numero elevato di eventi &quot;non specificati&quot;. {#added_unspecified_events}
+
+Verrà sempre visualizzata una riga di eventi non specificata, a seconda della metrica utilizzata per visualizzare i dati.\
+Se utilizzi una metrica solo Target, quella riga &quot;non specificata&quot; non verrà visualizzata.
+Se utilizzi una metrica più comune, la riga verrà visualizzata di nuovo nel report.
+
+L&#39;elemento di riga &quot;non specificato&quot; non avrà alcuna informazione associata a Target (ad esempio, nessun visitatore/visita/impression).\
+L&#39;unico modo per evitare che venga incluso nel report è impostare Target su ogni richiesta inviata da quella pagina, il che non ha senso.
 
 ## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
