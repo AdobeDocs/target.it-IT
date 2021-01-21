@@ -4,10 +4,10 @@ description: In questo argomento vengono descritti alcuni problemi che sono stat
 title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
 feature: a4t troubleshooting
 translation-type: tm+mt
-source-git-commit: 6659e444ffd680d87a90ded6bb9020a90ea22433
+source-git-commit: bac88f7535afe31fd9882f56de0cd4b5ae8a730b
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 80%
+source-wordcount: '987'
+ht-degree: 63%
 
 ---
 
@@ -32,11 +32,25 @@ Questo può accadere per diversi motivi:
 
    [Contatta l’Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
+Se suddividete la riga &quot;non specificato&quot; per la dimensione &quot;Analytics for Target&quot; e non è costituita da ID attività, significa che tutto è classificato correttamente.  Se gli ID dell&#39;attività sono elencati qui, funge da indicazione per un problema di classificazione.
+
 >[!NOTE]
 >
 >A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
+
+
+## I rapporti Attività A4T includono una riga con un numero elevato di eventi &quot;non specificati&quot;. {#added_unspecified_events}
+
+Nel rapporto potrebbe essere visualizzata una riga di eventi &quot;non specificata&quot;, a seconda della metrica utilizzata per visualizzare i dati.
+
+In genere, questa riga viene visualizzata se nel rapporto scegliete una metrica comune non specifica per Target (ad esempio Visualizzazioni di pagina, Visite, Visitatori unici, ecc.).
+In questo caso, la riga &quot;Non specificato&quot; includerà tutte le visualizzazioni pagina, le visite e i visitatori unici che non sono associati alle attività di Target.
+A tale riga non saranno associate informazioni su Target (ad es. nessun visitatore, visita o impression). Per ulteriori informazioni, vedere [&quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nel report](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nelle *note tecniche di Analytics*.
+
+Se scegliete una metrica specifica di Target nel rapporto, quella riga &quot;Non specificato&quot; non verrà visualizzata.
+L&#39;unico modo per evitare che venga incluso nel rapporto consiste nell&#39;impostare una chiamata Target per ogni richiesta inviata da quella pagina, cosa non comune o necessaria.
 
 ## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
