@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
 workflow-type: tm+mt
-source-wordcount: '3442'
+source-wordcount: '3454'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Gennaio 22 | [Tasso di conversione](/help/c-reports/conversion-rate.md#t-test) | È stata aggiunta la sezione seguente: &quot;Perché Target utilizza i test t-test per studenti?&quot; |
 | Gennaio 21 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stata aggiunta una nuova sezione: &quot;I report Attività A4T includono una riga con un numero elevato di eventi &quot;non specificati&quot;.&quot; |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Aggiornamento della sezione seguente: &quot;Perché visualizzo &quot;non specificato&quot; nei report di Analytics? Che cosa significa?&quot; |
 | Gennaio 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuovo argomento. |
