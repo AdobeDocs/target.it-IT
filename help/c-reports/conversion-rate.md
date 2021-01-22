@@ -4,9 +4,9 @@ description: Per ogni esperienza viene riportato il tasso di conversione, l’in
 title: Tasso di conversione
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 2cdb00fac80a938e2ee6d06b91f90c58e3f53118
+source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
 workflow-type: tm+mt
-source-wordcount: '2145'
+source-wordcount: '2146'
 ht-degree: 72%
 
 ---
@@ -186,7 +186,7 @@ Per le attività Personalizzazione automatica (AP) al momento è supportata solo
 >
 >Di solito, questi conteggi sono determinati dai cookie e dalle attività di sessione. Tuttavia, se il visitatore raggiunge il punto di conversione finale di un’attività e quindi accede nuovamente all’attività, viene considerato come un nuovo partecipante e una nuova visita all’attività. Questo vale anche se i valori PCID e `sessionID` non cambiano.
 
-## Perché Target utilizza i test t-test per studenti? {#t-test}
+## Perché Target consiglia di utilizzare i test t-test per studenti? {#t-test}
 
 I test A/B sono esperimenti per confrontare il valore medio di alcune metriche business in una variante di controllo (nota anche come esperienza) con il valore medio di quella stessa metrica in una o più esperienze alternative.
 
