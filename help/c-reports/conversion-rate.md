@@ -4,10 +4,10 @@ description: Per ogni esperienza viene riportato il tasso di conversione, l’in
 title: Tasso di conversione
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 3e4b31c7534c337cbc68faa204edd334fda0793e
+source-git-commit: f30e16bdb24268e85f6cb3739455d77f7bcb4279
 workflow-type: tm+mt
-source-wordcount: '2146'
-ht-degree: 72%
+source-wordcount: '2172'
+ht-degree: 70%
 
 ---
 
@@ -116,7 +116,7 @@ Per calcolare queste metriche calcolate, scaricate il file Excel [Complete Confi
 
 Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics].
 
-Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Student, è necessaria la “somma dei quadrati”. Questa può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
+Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t dello studente, per calcolare la varianza è necessaria la &quot;somma dei quadrati&quot;, utilizzata nel denominatore della statistica t. [In questo documento vengono illustrati ](/help/assets/statistical-calculations.pdf) i dettagli delle formule matematiche utilizzate. È possibile recuperare la somma dei quadrati da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
 Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, devi esportare un campione del numero totale di visualizzazioni di pagina per ogni visitatore per un lasso di tempo specificato, come un paio di giorni (servono solo poche migliaia di punti di dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
