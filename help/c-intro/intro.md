@@ -5,10 +5,10 @@ landing-page-description: Personalize your customers' experience to maximize rev
 title: Introduzione ad Adobe Target
 feature: intro
 translation-type: tm+mt
-source-git-commit: b935820585f6e0c4ae11449d1d9d7807d5d91a85
+source-git-commit: 90cc6d010988984c8f05e04ed3610b573829b6b6
 workflow-type: tm+mt
-source-wordcount: '903'
-ht-degree: 86%
+source-wordcount: '918'
+ht-degree: 85%
 
 ---
 
@@ -81,6 +81,10 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 [La funzionalità ](/help/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) Autorizzazioni utente Enterprise consente di creare diversi progetti (denominati &quot;Profili di prodotto&quot; in  [!DNL Adobe Admin Console for Enterprise]) per consentire di assegnare diverse autorizzazioni a un singolo utente che stabilisce i diritti di accesso dell&#39;utente per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti potranno limitare la visualizzazione, la modifica, l&#39;approvazione e l&#39;accesso al pubblico ai propri utenti in base all&#39;area geografica, all&#39;ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
+
+>[!IMPORTANT]
+>
+>[!DNL Recommendations Classic] è un prodotto legacy. Per una migliore esperienza [!DNL Recommendations], eseguire l&#39;aggiornamento alle attività [!DNL Recommendations] disponibili in [!DNL Adobe Target Premium], come descritto in precedenza.
 
 Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti o contenuti di potenziale interesse per i clienti sulla base della precedente attività dell&#39;utente sul sito web. Con la funzionalità Consigli è possibile indirizzare i clienti verso articoli di cui potrebbero ignorare l’esistenza, incrementando le vendite generate sul sito.
 
