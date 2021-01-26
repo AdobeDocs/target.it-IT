@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
 title: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: a05d2a28b7bea3aa559cd0174930af10c6d94134
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2880'
 ht-degree: 0%
@@ -68,9 +68,9 @@ Per ulteriori informazioni, vedere [Autorizzazioni utente Enterprise](/help/admi
 
 Utilizzo di Target Standard È comunque possibile [assegnare tre livelli di accesso](/help/administrating-target/c-user-management/c-user-management/user-management.md) agli utenti con ruoli di sola lettura, editor e approver!
 
-## Suggerimento 6: Scopri le prestazioni di un&#39;offerta lungo il percorso del cliente testandola su ogni pagina del percorso.
+## Suggerimento 6: Scoprite le prestazioni di un&#39;offerta in un percorso cliente, sottoponendola a test in tutte le pagine del percorso.
 
-Scopri le prestazioni di un’offerta, ad esempio la spedizione gratuita, durante il percorso del cliente che si svolge su più pagine del sito Web.
+Scopri le prestazioni di un&#39;offerta, come la spedizione gratuita, durante un percorso cliente che si svolge su più pagine del sito Web.
 
 Per istruzioni dettagliate, vedere [Attività multipagina](/help/c-experiences/c-visual-experience-composer/multipage-activity.md).
 
