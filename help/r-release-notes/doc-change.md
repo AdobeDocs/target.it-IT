@@ -4,15 +4,15 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 1464e1a7380b3545f76c506c9d302a6dd357db3c
+source-git-commit: 350d401accc7e7d937185c9a65d01a3f5266271e
 workflow-type: tm+mt
-source-wordcount: '3455'
+source-wordcount: '3469'
 ht-degree: 29%
 
 ---
 
 
-# Modifiche alla documentazione{#documentation-changes}
+# Modifiche alla documentazione
 
 In questa pagina sono elencate le modifiche importanti apportate alla documentazione di prodotto [!DNL Adobe Target].
 
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Gennaio 26 | [Tasso di conversione](/help/c-reports/conversion-rate.md#t-test) | È stato chiarito in che modo Target utilizza la &quot;somma dei quadrati&quot; nei test t degli studenti. |
 | Gennaio 22 | [Tasso di conversione](/help/c-reports/conversion-rate.md#t-test) | È stata aggiunta la sezione seguente: &quot;Perché Target consiglia di utilizzare i test t-test per studenti?&quot; |
 | Gennaio 21 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stata aggiunta una nuova sezione: &quot;I report Attività A4T includono una riga con un numero elevato di eventi &quot;non specificati&quot;.&quot; |
 |  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Aggiornamento della sezione seguente: &quot;Perché visualizzo &quot;non specificato&quot; nei report di Analytics? Che cosa significa?&quot; |
