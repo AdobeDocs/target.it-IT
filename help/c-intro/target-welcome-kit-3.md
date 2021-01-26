@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: ' kit di benvenuto Adobe Target - Capitolo 3 - Sviluppare le idee di test e personalizzazione'
 title: ' kit di benvenuto Adobe Target - Capitolo 3 - Sviluppare le idee di test e personalizzazione'
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
