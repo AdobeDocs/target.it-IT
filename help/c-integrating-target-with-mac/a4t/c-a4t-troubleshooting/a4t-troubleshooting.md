@@ -2,9 +2,9 @@
 keywords: analytics tracking server;A4T;analytics segments;report suites;incorrect data;orphaned;sdid;VisitorAPI.js;mboxMCSDID;phantom;unspecified
 description: In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
 title: Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '983'
 ht-degree: 63%
