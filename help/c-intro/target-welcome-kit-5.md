@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit di benvenuto  Adobe Target - Capitolo 5 - Ispirazione per attività di test e personalizzazione
 title: Kit di benvenuto  Adobe Target - Capitolo 5 - Ispirazione per attività di test e personalizzazione
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 0188108d0fe554f60ebc8eda300979e720b7539d
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1039'
 ht-degree: 0%
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 Queste idee di test e personalizzazione, ispirate ad attività reali svolte dai nostri clienti che hanno incrementato i tassi di conversione e le entrate, valgono la pena provare o usare come ispirazione per le tue attività [!DNL Target]. Anche se l&#39;idea non è adatta alla vostra organizzazione, con una piccola creatività e un brainstorming, prendete in considerazione la possibilità di sviluppare un&#39;attività basata sullo spirito del test o dell&#39;idea di personalizzazione.
 
-## Idea 1: Test della personalizzazione del percorso del cliente.
+## Idea 1: Verifica la personalizzazione del percorso clienti.
 
-Aumento del tasso di conversione e delle entrate grazie alla creazione di un percorso creativo personalizzato e di un&#39;esperienza di branding in linea con i visitatori del sito Web nel raggiungimento degli obiettivi aziendali. Dopodiché, potete sottoporre a test il percorso personalizzato confrontandolo con esperienze statiche o con esperienze distribuite in modo casuale. Approfondisci il livello di personalizzazione scoprendo e creando i tipi di pubblico a cui sei abituato utilizzando dati di seconda e terza parte in [!DNL Adobe Audience Manager].
+Aumento del tasso di conversione e dei ricavi mediante la creazione di un percorso creativo personalizzato e di un&#39;esperienza di branding che risonanza con i visitatori del sito Web nel raggiungimento degli obiettivi aziendali. Quindi verificate tale percorso personalizzato confrontandolo con esperienze statiche o con esperienze distribuite in modo casuale. Approfondisci il livello di personalizzazione scoprendo e creando i tipi di pubblico a cui sei abituato utilizzando dati di seconda e terza parte in [!DNL Adobe Audience Manager].
 
-Dopo aver identificato questi tipi di pubblico, effettua test di esperienza degli utenti e ricerche di mercato per scoprire cosa li convince a rispondere, e sviluppare le esperienze che li target nel loro percorso di conseguenza.
+Dopo aver identificato questi tipi di pubblico, effettua test di esperienza degli utenti e ricerche di mercato per scoprire cosa li convince a rispondere, e sviluppare di conseguenza le esperienze che ti rivolgi a loro all&#39;interno del percorso.
 
 Ad esempio, quando un visitatore che rientra in un pubblico di &quot;giocatori seri&quot; per una società di telecomunicazioni visita il sito web della società, fornisci un&#39;esperienza che include copia e immagini che risuonano con i giocatori e un&#39;offerta per Internet ad alta velocità.
 
