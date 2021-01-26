@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: ' kit di benvenuto Adobe Target - Capitolo 7 - Creazione ed esecuzione della prima attività Target'
 title: ' kit di benvenuto Adobe Target - Capitolo 7 - Creazione ed esecuzione della prima attività Target'
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: e18f18e6d6e0b8fc6eb5ada845e2fe5377d6c5d0
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '1716'
 ht-degree: 0%
