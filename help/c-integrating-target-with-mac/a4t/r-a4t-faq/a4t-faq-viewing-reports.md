@@ -2,9 +2,9 @@
 keywords: faq;frequently asked questions;analytics for target;a4T;report;reports;view reports;reporting;counting methodology;impressions;visitors;visits;default metric;activity conversions;unspecified
 description: Questo argomento contiene le risposte alle domande che vengono spesso poste in merito alla visualizzazione dei rapporti durante l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
 title: Visualizzare i rapporti - Domande frequenti su A4T
-feature: a4t troubleshooting
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: ccde84826178f63d68e0e8f9157d671a5bbd2d7c
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '2344'
 ht-degree: 54%
@@ -95,22 +95,22 @@ L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra a
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 1 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente tramite la persistenza e per l’utente è stato quindi impostato ABC, vedremo due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 1 |
+| XYZ | 1 | 15 | 3 | 3 |
 | ABC | 3 | 5 | 3 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore eVar viene reimpostata a partire dal 1° aprile, quindi sarà riportato nel rapporto. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 1 |
+| XYZ | 1 | 20 | 4 | 3 | 1 |
 | ABC | 3 | 10 | 2 | 3 | 3 |
-| Totale | 2 | 20 | 3 | 1 | 3 |
+| Totale | 2 | 20 | 3 | 3 | 3 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per i report [!DNL Target], poiché non state inserendo un&#39;attività [!DNL Target] rispetto a un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ottenuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
