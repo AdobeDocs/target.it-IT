@@ -2,11 +2,11 @@
 keywords: a4t;A4T;Analytics as the reporting source for Target
 description: È possibile configurare un’attività in Target Standard/Premium per utilizzare Adobe Analytics come origine per la generazione di rapporti (A4T).
 title: Creare un'attività che utilizza A4T come origine di reporting
-feature: a4t general
+feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1394'
 ht-degree: 19%
 
 ---
@@ -74,8 +74,8 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
 
 Questa integrazione consente di:
 
-* Utilizzate la funzionalità di allocazione automatica di [bandit multi-armate di &lt;a0/>Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per indirizzare il traffico alle esperienze vincenti
-* Utilizzate l&#39;algoritmo di apprendimento per computer di [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) di &lt;a0/>Auto-Target&lt;a1/> per scegliere l&#39;esperienza migliore per ogni visitatore in base al profilo, al comportamento e al contesto in cui si trovano, utilizzando tutte le funzionalità di reporting e analisi [!DNL Adobe Analytics] di [!DNL Adobe Analytics]&quot;.
+* Utilizzate la funzionalità di allocazione automatica di [bandit multi-armate di Auto-Allocate](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) per indirizzare il traffico alle esperienze vincenti
+* Utilizzate l&#39;algoritmo di apprendimento per computer di [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) di Auto-Target per scegliere l&#39;esperienza migliore per ogni visitatore in base al profilo, al comportamento e al contesto in cui si trovano, utilizzando tutte le funzionalità di reporting e analisi [!DNL Adobe Analytics] di [!DNL Adobe Analytics]&quot;.
 
 Assicuratevi di aver [implementato A4T per l&#39;utilizzo con attività Test A/B e Targeting delle esperienze](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). Se si utilizza `analyticsLogging = client_side`, è necessario anche passare il valore `sessionId` a [!DNL Analytics]. Per ulteriori informazioni, vedi [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) nella *Adobe Target SDKs* guida.
 
@@ -132,7 +132,7 @@ Alcune limitazioni e note si applicano sia all&#39;allocazione automatica che al
 
 * L&#39;origine di reporting non può essere modificata da [!DNL Analytics] a [!DNL Target] o viceversa dopo che un&#39;attività è stata attivata.
 * Sebbene le metriche calcolate non siano supportate come metriche dell&#39;obiettivo principale, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell&#39;obiettivo principale. Ad esempio, se si desidera ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, selezionare un evento personalizzato corrispondente a &quot;completamento del modulo&quot; come metrica obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione in base a ogni visita per tenere conto della distribuzione del traffico non uniforme, quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
-* [!DNL Target] utilizza il modello di attribuzione &quot;Same Touch&quot; nell’implementazione  [!UICONTROL Auto-] AllocateA4T.
+* [!DNL Target] utilizza il modello di attribuzione &quot;Stesso tocco&quot; nella funzione di  [!UICONTROL allocazione ] automatica: Analytics per Target (A4T).
 
 #### Allocazione automatica
 
