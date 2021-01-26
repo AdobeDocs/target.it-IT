@@ -2,9 +2,9 @@
 keywords: welcome kit;target welcome kit;intro;introduction;getting started
 description: Kit di benvenuto  Adobe Target - Capitolo 1 - Introduzione
 title: Kit di benvenuto  Adobe Target - Capitolo 1 - Introduzione
-feature: intro
+feature: Overview
 translation-type: tm+mt
-source-git-commit: 31ee320c3a5d81a4d859881666ab098253f9047e
+source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
 workflow-type: tm+mt
 source-wordcount: '352'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Ad esempio:
 
 * Una grande banca ha testato e razionalizzato un modulo di richiesta di prestito. L&#39;applicazione viene avviata triplicando e l&#39;applicazione completa aumenta di oltre il 50%.
 * Una grande azienda di tecnologia B2B ha personalizzato le pagine di prodotto con risorse quali guide e white paper. I clic sulle risorse sono aumentati di oltre il 25%.
-* Una delle principali società alberghiere ha personalizzato i contenuti delle app per dispositivi mobili. I tassi di conversione sono raddoppiati rispetto al suo sito mobile, e l&#39;app ha superato 1,5 miliardi di dollari nelle prenotazioni.
+* Un&#39;importante azienda alberghiera ha personalizzato i contenuti delle sue app mobili. I tassi di conversione sono raddoppiati rispetto al suo sito mobile, e l&#39;app ha superato 1,5 miliardi di dollari nelle prenotazioni.
 
 Coinvolgere i clienti in questo modo richiede una soluzione che possa essere utilizzata su quasi tutti i punti di contatto utilizzando quasi tutte le fonti di dati per comprenderli. [!DNL Adobe Target]In parte,  [!DNL Adobe Experience Cloud]è quella soluzione. [!DNL Target] offre le funzionalità di ottimizzazione e personalizzazione necessarie per offrire ai clienti esperienze pertinenti e tempestive che generano più entrate e conversioni più elevate.
 
