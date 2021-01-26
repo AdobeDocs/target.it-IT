@@ -4,10 +4,10 @@ description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
 title: Creare offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 67d11820d32bb3518de59801b71df4c0a9485cae
+source-git-commit: d966727239d982116e3cd1c2925cb1627e2954ea
 workflow-type: tm+mt
-source-wordcount: '1018'
-ht-degree: 69%
+source-wordcount: '845'
+ht-degree: 59%
 
 ---
 
@@ -44,12 +44,11 @@ Alcuni esempi di offerte remote includono:
 
    Un nome descrittivo è utile per ritrovare rapidamente l’offerta nella libreria [!UICONTROL Risorse].
 
-1. Specifica l’URL remoto per l’offerta remota:
+1. Specificate il tipo di URL di reindirizzamento.
 
-   | Opzione | Descrizione |
-   |--- |--- |
-   | Memorizzato in cache | Il contenuto di un’offerta remota con URL memorizzato nella cache viene trasmesso da [!DNL Target].<br>Ogni due ore, [!DNL Target] recupera il contenuto dall’URL remoto e quindi lo archivia in [!DNL Target]. Quando i visitatori caricano un sito con un’esperienza che include un’offerta remota, l’offerta viene consegnata da [!DNL Target].<br>Le offerte remote memorizzate nella cache forniscono un livello di protezione maggiore, perché il loro contenuto non può essere modificato da qualcuno che abbia effettuato l’accesso a [!DNL Target] Per modificare il contenuto, è necessario accedere al sistema di gestione dei contenuti o a un altro sistema e modificare il contenuto da tale ambiente.<br>L’URL di un’offerta remota memorizzata nella cache può essere assoluto o relativo. |
-   | Dinamico | Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da [!DNL Target].<br>[!DNL Target]Potresti non volere che il contenuto venga periodicamente memorizzato nella cache e quindi consegnato da ogni volta che un visitatore carica un sito contenente un’esperienza con un’offerta remota. Al contrario, desiderate chiamare il sistema che ospita il contenuto, eventualmente trasmettere informazioni specifiche in modo che l&#39;offerta restituita possa essere dinamica (o diversa) per ogni utente.<br>Ad esempio, se un utente accede al sito web della sua carta di credito e il sito include un’esperienza con un’offerta remota dinamica, puoi passare nell’URL parametri specifici per informazioni sul conto dell’utente. Quindi il sito web potrebbe fornire informazioni specifiche per questo utente, ad esempio il saldo del conto.<br>Fate clic su  **[!UICONTROL Aggiungi]** parametro per aggiungere uno o più parametri di  [!DNL Target] richieste o richieste. |
+   Vedere [Tipo URL di reindirizzamento: Cache o Dynamic](#url-type) per ulteriori informazioni.
+
+1. Specifica l’URL remoto per l’offerta remota.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -71,14 +70,35 @@ Alcuni esempi di offerte remote includono:
 
    Un nome descrittivo è utile per ritrovare rapidamente l’offerta nella libreria [!UICONTROL Risorse].
 
-1. Specifica l’URL remoto per l’offerta remota:
+1. Specificate il tipo di URL di reindirizzamento.
 
-   | Opzione | Descrizione |
-   |--- |--- |
-   | Memorizzato in cache | Il contenuto di un’offerta remota con URL memorizzato nella cache viene trasmesso da [!DNL Target].<br>Ogni due ore, [!DNL Target] recupera il contenuto dall’URL remoto e quindi lo archivia in [!DNL Target]. Quando i visitatori caricano un sito con un’esperienza che include un’offerta remota, l’offerta viene consegnata da [!DNL Target].<br>Le offerte remote memorizzate nella cache forniscono un livello di protezione maggiore, perché il loro contenuto non può essere modificato da qualcuno che abbia effettuato l’accesso a [!DNL Target] Per modificare il contenuto, è necessario accedere al sistema di gestione dei contenuti o a un altro sistema e modificare il contenuto da tale ambiente.<br>L’URL di un’offerta remota memorizzata nella cache può essere assoluto o relativo. |
-   | Dinamico | Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da [!DNL Target].<br>[!DNL Target]Potresti non volere che il contenuto venga periodicamente memorizzato nella cache e quindi consegnato da ogni volta che un visitatore carica un sito contenente un’esperienza con un’offerta remota. Al contrario, desiderate chiamare il sistema che ospita il contenuto, eventualmente trasmettere informazioni specifiche in modo che l&#39;offerta restituita possa essere dinamica (o diversa) per ogni utente.<br>Ad esempio, se un utente accede al sito web della sua carta di credito e il sito include un’esperienza con un’offerta remota dinamica, puoi passare nell’URL parametri specifici per informazioni sul conto dell’utente. Quindi il sito web potrebbe fornire informazioni specifiche per questo utente, ad esempio il saldo del conto.<br>Fate clic su  **[!UICONTROL Aggiungi]** parametro per aggiungere uno o più parametri di  [!DNL Target] richieste o richieste. |
+   Vedere [Tipo URL di reindirizzamento: Cache o Dynamic](#url-type) per ulteriori informazioni.
+
+1. Specifica l’URL remoto per l’offerta remota.
 
 1. Fai clic su **[!UICONTROL Salva]**.
+
+## Tipo URL di reindirizzamento: Cache o Dinamica {#url-type}
+
+Le seguenti informazioni sono utili per comprendere le differenze tra le due opzioni:
+
+### Tipo URL memorizzato nella cache
+
+Il contenuto di un’offerta remota con URL memorizzato nella cache viene trasmesso da [!DNL Target].
+
+Ogni due ore, [!DNL Target] recupera il contenuto dall’URL remoto e quindi lo archivia in [!DNL Target]. Quando i visitatori caricano un sito con un’esperienza che include un’offerta remota, l’offerta viene consegnata da [!DNL Target].
+
+Le offerte remote memorizzate nella cache offrono una protezione avanzata perché un utente che ha eseguito l&#39;accesso a [!DNL Target] non può modificare il contenuto. Per modificare il contenuto, è necessario accedere al sistema di gestione dei contenuti o a un altro sistema e modificare il contenuto da tale ambiente.
+
+L’URL di un’offerta remota memorizzata nella cache può essere assoluto o relativo.
+
+### Tipo di URL dinamico
+
+Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da [!DNL Target].
+
+Potresti non volere che il contenuto venga periodicamente memorizzato nella cache e quindi consegnato da [!DNL Target] ogni volta che un visitatore carica un sito contenente un’esperienza con un’offerta remota. Al contrario, desiderate chiamare il sistema che ospita il contenuto, eventualmente trasmettere informazioni specifiche in modo che l&#39;offerta restituita possa essere dinamica (o diversa) per ogni utente. Ad esempio, se un utente accede al sito web della sua carta di credito e il sito include un’esperienza con un’offerta remota dinamica, puoi passare nell’URL parametri specifici per informazioni sul conto dell’utente. Quindi il sito web potrebbe fornire informazioni specifiche per questo utente, ad esempio il saldo del conto.
+
+Potete fare clic su **[!UICONTROL Aggiungi parametro]** per aggiungere uno o più [!DNL Target] parametri di richieste o richieste.
 
 ## Procedure ottimali per l&#39;utilizzo delle offerte remote {#section_7718512D08E14121B6F6B8C38134F4BC}
 
