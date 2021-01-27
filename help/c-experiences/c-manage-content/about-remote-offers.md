@@ -4,7 +4,7 @@ description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
 title: Creare offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
+source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
 workflow-type: tm+mt
 source-wordcount: '998'
 ht-degree: 51%
@@ -32,6 +32,18 @@ Alcuni esempi di offerte remote includono:
 * E-mail
 * Chioschi
 * Assistenti vocali
+
+## Procedure ottimali per l&#39;utilizzo delle offerte remote {#section_7718512D08E14121B6F6B8C38134F4BC}
+
+Best practice per l’utilizzo delle offerte remote nelle attività:
+
+* Se l&#39;offerta risiede nello stesso dominio delle [!DNL Target] richieste, l&#39;opzione [!UICONTROL Cache] consente di utilizzare URL relativi per descrivere la posizione dell&#39;offerta.
+
+   Ciò significa che quando sposti l’attività dai server di gestione temporanea alla produzione, il contenuto sarà automaticamente accessibile senza dover modificare manualmente l’URL.
+
+* Se il test include dati generati dinamicamente dal server, l’opzione [!UICONTROL Dinamico] potrebbe essere la scelta giusta.
+* Se si prevede di testare solo l’aspetto del contenuto dell’offerta remota esistente, utilizza il [!UICONTROL Compositore esperienza visivo] per modificare l’aspetto del contenuto restituito dal sistema di gestione dei contenuti.
+* Utilizzate la [Matrice di selezione dell&#39;offerta remota](#reference_B23BEDD29DDD47709A7651AFD27E776B) (sotto) per scegliere l&#39;offerta più adatta per il caso specifico. Se hai domande, rivolgiti al rappresentante del tuo account.
 
 ## Creare un&#39;offerta remota dalla pagina Code Offers (Offerte codice)
 
@@ -122,18 +134,6 @@ Potete fare clic su **[!UICONTROL Aggiungi parametro]** per aggiungere uno o pi�
 1. Selezionate l&#39;offerta remota desiderata dalla finestra di dialogo [!UICONTROL Seleziona offerta remota], quindi fate clic su **[!UICONTROL Fine]**.
 
 1. Termina la configurazione dell’attività.
-
-## Procedure ottimali per l&#39;utilizzo delle offerte remote {#section_7718512D08E14121B6F6B8C38134F4BC}
-
-Best practice per l’utilizzo delle offerte remote nelle attività:
-
-* Se l&#39;offerta risiede nello stesso dominio delle [!DNL Target] richieste, l&#39;opzione [!UICONTROL Cache] consente di utilizzare URL relativi per descrivere la posizione dell&#39;offerta.
-
-   Ciò significa che quando sposti l’attività dai server di gestione temporanea alla produzione, il contenuto sarà automaticamente accessibile senza dover modificare manualmente l’URL.
-
-* Se il test include dati generati dinamicamente dal server, l’opzione [!UICONTROL Dinamico] potrebbe essere la scelta giusta.
-* Se si prevede di testare solo l’aspetto del contenuto dell’offerta remota esistente, utilizza il [!UICONTROL Compositore esperienza visivo] per modificare l’aspetto del contenuto restituito dal sistema di gestione dei contenuti.
-* Utilizzate la matrice di selezione dell&#39;offerta remota (sotto) per scegliere l&#39;offerta più adatta per il caso specifico. Se hai domande, rivolgiti al rappresentante del tuo account.
 
 ## Funzionamento delle offerte remote dinamiche {#concept_CC2A969420B34364A9FA78C1CE251818}
 
