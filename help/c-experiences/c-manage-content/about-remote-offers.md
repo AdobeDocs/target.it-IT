@@ -4,10 +4,10 @@ description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
 title: Creare offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
+source-git-commit: d6a422d03a696e7f8262277e6c81b19dd4a6bc61
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 54%
+source-wordcount: '998'
+ht-degree: 51%
 
 ---
 
@@ -29,6 +29,9 @@ Alcuni esempi di offerte remote includono:
 * Moduli
 * Calcolatori
 * Aggiornamenti del tasso di interesse
+* E-mail
+* Chioschi
+* Assistenti vocali
 
 ## Creare un&#39;offerta remota dalla pagina Code Offers (Offerte codice)
 
@@ -103,6 +106,8 @@ Potete fare clic su **[!UICONTROL Aggiungi parametro]** per aggiungere uno o pi�
 ## Utilizzare offerte remote nelle attività
 
 È necessario applicare le offerte remote utilizzando [!UICONTROL Form-Based Experience Composer]. Attualmente non è possibile applicare offerte remote utilizzando il VEC.
+
+[!DNL Adobe Target] [!UICONTROL Form-Based Experience Composer] è un&#39;interfaccia per la creazione di esperienze non visive e di offerte che è utile per creare esperienze da utilizzare in [!UICONTROL A/B Tests], [!UICONTROL Experience Targeting] (XT), [!UICONTROL  Automated Personalization] (AP) e [!UICONTROL Recommendations&lt;a a10/> attività quando Visual Experience Composer (Compositore esperienza visivo) non è disponibile o pratico per l&#39;uso. ] Ad esempio, potete utilizzare [!UICONTROL Form-Based Experience Composer] per creare esperienze che utilizzano offerte remote.
 
 1. Create o modificate un&#39;attività in [!UICONTROL Form-Based Experience Composer].
 
