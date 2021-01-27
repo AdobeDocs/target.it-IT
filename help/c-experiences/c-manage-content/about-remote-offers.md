@@ -4,9 +4,9 @@ description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
 title: Creare offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 44d516da4afcbdb3dcf159d30bef718328df1217
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1047'
 ht-degree: 51%
 
 ---
@@ -156,3 +156,13 @@ La matrice per la selezione dell’offerta remota è utile per decidere quale ti
 | Le offerte possono includere JavaScript | Sì | Sì |
 | URL di offerta | Assoluto o relativo | Relativo |
 | Richiesta computer | Server Adobe | Il computer del visitatore, che trasporta i suoi cookies |
+
+## Video di formazione: Logo di Composer basato su modulo ![Tutorial](/help/assets/tutorial.png)
+
+Questo video fornisce una dimostrazione del compositore basato su moduli, che potete utilizzare per creare offerte remote.
+
+* Creare un’attività utilizzando il Compositore esperienza basato su moduli
+* Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
+* Indirizzare una posizione con i perfezionamenti
+
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
