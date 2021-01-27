@@ -4,7 +4,7 @@ description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
 title: Creare offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: 4109b0580ddb2809d29e75d0e5ec7ed4b5b126cf
 workflow-type: tm+mt
 source-wordcount: '934'
 ht-degree: 54%
@@ -78,11 +78,11 @@ Alcuni esempi di offerte remote includono:
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-### Tipo URL di reindirizzamento: Cache o Dinamica {#url-type}
+## Tipo URL di reindirizzamento: Cache o Dinamica {#url-type}
 
 Le seguenti informazioni sono utili per comprendere le differenze tra le due opzioni:
 
-#### URL memorizzato nella cache
+### URL memorizzato nella cache
 
 Il contenuto di un’offerta remota con URL memorizzato nella cache viene trasmesso da [!DNL Target].
 
@@ -92,7 +92,7 @@ Le offerte remote memorizzate nella cache offrono una protezione avanzata perch�
 
 L’URL di un’offerta remota memorizzata nella cache può essere assoluto o relativo.
 
-#### URL dinamico
+### URL dinamico
 
 Un’offerta remota con URL dinamico viene trasmessa dal sistema di gestione dei contenuti o da un altro sistema anziché da [!DNL Target].
 
