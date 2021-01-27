@@ -4,10 +4,10 @@ description: ' Adobe Target Form-Based Experience Composer (Compositore esperien
 title: Compositore esperienza basato su moduli
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 72%
+source-wordcount: '772'
+ht-degree: 68%
 
 ---
 
@@ -21,14 +21,18 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 1. Fai clic su **[!UICONTROL Crea attività]**, quindi seleziona il tipo di attività che desideri creare.
 
    Il Compositore esperienza basato su moduli è disponibile per test A/B, targeting di esperienza, personalizzazione automatizzata e attività di consigli.
-1. Seleziona **[!UICONTROL Compositore esperienza basato su moduli]** nella finestra di dialogo [!UICONTROL Nuova attività].
+1. Selezionate **[!UICONTROL Compositore esperienza basato su modulo]** nella finestra di dialogo [!UICONTROL Crea attività].
+
+1. (Condizionale) Scegliete un’area di lavoro e una proprietà.
+
+1. Fai clic su **[!UICONTROL Successivo]**.
 
    Si apre il Compositore esperienza basato su moduli.
 
    ![](assets/location_refinements.png)
 
    La schermata è diversa se si sta creando un’attività di consigli. Le attività di consigli non includono esperienze.
-1. Assegna un nome all’attività.
+1. Denominate l&#39;attività facendo clic su &quot;[!UICONTROL Attività senza titolo]&quot;.
 1. Seleziona una posizione.
 
    Quando si fa clic nella casella [!UICONTROL Seleziona posizione], viene visualizzato un elenco delle posizioni disponibili. Seleziona una di queste posizioni. Per scegliere la posizione globale fornita tramite target.js, seleziona “target-global-mbox”.
@@ -64,9 +68,9 @@ Se stai creando un’attività di consigli, non ci sono esperienze. Scegli i tes
 
    **Modifica frammento esperienza:** scegli un frammento esperienza.
 
-   **Modifica offerta di reindirizzamento:** scegli un’offerta di reindirizzamento.
+   **Modifica offerta di reindirizzamento:** scegli un’offerta di reindirizzamento. Per ulteriori informazioni, vedere [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md).
 
-   **Modifica offerta remota:** scegli un’offerta remota.
+   **Modifica offerta remota:** scegli un’offerta remota. Per ulteriori informazioni, vedere [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md).
 
    **Crea offerta HTML:**
 
