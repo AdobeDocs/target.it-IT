@@ -4,10 +4,10 @@ description: Posso utilizzare le offerte di reindirizzamento per reindirizzare u
 title: Creare offerte di reindirizzamento
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
 workflow-type: tm+mt
-source-wordcount: '1149'
-ht-degree: 48%
+source-wordcount: '1154'
+ht-degree: 47%
 
 ---
 
@@ -134,12 +134,12 @@ Nell&#39;offerta di reindirizzamento viene eseguito il codice JavaScript per rei
 
 1. Termina la configurazione dell’attività.
 
-## Video di formazione: Archivio contenuti (4:56) ![Logo Panoramica](/help/assets/overview.png)
+## Video di formazione: Logo di Composer basato su modulo ![Tutorial](/help/assets/tutorial.png)
 
-Questo video include informazioni sulla gestione del contenuto.
+Questo video fornisce una dimostrazione di composer basato su modulo, che potete utilizzare per creare offerte di reindirizzamento.
 
-* Connessione tra la [libreria delle risorse di Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/assets/creative-cloud.html) e la libreria dei contenuti di Target
-* Offerte HTML personalizzate
-* Offerta HTML personalizzata nel Compositore esperienza visivo
+* Creare un’attività utilizzando il Compositore esperienza basato su moduli
+* Quando utilizzare il Compositore esperienza basato su moduli o il Compositore esperienza visivo
+* Indirizzare una posizione con i perfezionamenti
 
->[!VIDEO](https://video.tv.adobe.com/v/17387)
+>[!VIDEO](https://video.tv.adobe.com/v/17390)
