@@ -1,83 +1,107 @@
 ---
 keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
-description: Create una cartella in cui memorizzare gli elementi nella libreria Offerte in  Adobe Target.
+description: Come si creano le cartelle nella libreria Offerte?
 title: Creare una cartella di offerta
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 93%
+source-wordcount: '576'
+ht-degree: 21%
 
 ---
 
 
-# Creare una cartella di offerta
+# Creare le cartelle delle offerte
 
-Create una cartella in cui memorizzare gli elementi nella libreria Offerte in  Adobe Target.
+Create cartelle nella libreria  Adobe Target Offer per contenere offerte di codice, offerte di immagini e altre cartelle e creare una struttura di sottocartelle.
 
-1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte codice]** o **[!UICONTROL Offerte immagini]**, se necessario.
+Il processo di creazione delle cartelle per le offerte di codice e immagini è leggermente diverso. Le sezioni che seguono contengono ulteriori informazioni.
+
+## Cartelle delle offerte del codice
+
+1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]**.
+
+   ![Code Offers, scheda](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
-1. Compila i campi:
 
-   | Campo | Descrizione |
-   |--- |--- |
-   | Titolo (si applica solo alle offerte di immagini) | Assegna un nome descrittivo per la cartella. Ad esempio, è possibile specificare il tipo di contenuto che conterrà.<br>Il nome non può contenere i seguenti caratteri:<br>Segno percentuale `%`<br>Barra `/`<br>Barra rovesciata `\`<br>Due punti `:`<br>Asterisco `*`<br>Punto interrogativo `?`<br>Virgolette `"`<br>Parentesi quadra aperta `[`<br>Parentesi quadra chiusa `]`<br>Segno più: `+`<br>Barra verticale: `|`<br>Punto: `.`<br>Cancelletto: `#`<br>Parentesi graffa aperta: `{`<br>Parentesi graffa chiusa `}`<br>Circonflesso `^`<br>Punto e virgola `;`<br>Utilizza un trattino (`- `) al posto di questi caratteri. |
-   | Nome (si applica al codice e alle offerte di immagini) | Modifica il nome, se desiderato. |
-   | Privato (si applica solo alle offerte di immagini) | Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto. |
-   | Riordino abilitato in visualizzazione elenco (si applica solo alle offerte di immagini) | Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.<br>Per passare dalla visualizzazione scheda alla visualizzazione elenco, fai clic sull&#39;icona di visualizzazione scheda o quella di visualizzazione elenco nell&#39;angolo in alto a destra della libreria dei contenuti. È inoltre possibile selezionare le impostazioni di visualizzazione per includere o escludere le colonne nella visualizzazione elenco. |
+1. Specificate un nome descrittivo per la cartella.
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-## Opzioni Offerte codice
+### Opzioni Offerte codice
 
 Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
 
-### Informazioni ![](assets/icon_info.png)
+![Icone al passaggio del mouse nella scheda Code Offers (Offerte codice)](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-Visualizza le informazioni sulla cartella.
+* **Informazioni**: Visualizza le informazioni dell&#39;offerta.
+* **Modifica**: Modificate la cartella o l’offerta.
+* **Copia**: Copiate l’offerta. Copiando e quindi modificando l&#39;offerta potete facilmente creare una nuova offerta simile.
+* **Sposta**: Fate clic sull&#39;icona Sposta, individuate il percorso in cui desiderate spostare la cartella, quindi fate clic sul  **** pulsante Sfoglia. Ad esempio, potete spostare una o più cartelle in un’altra per creare sottocartelle. Fate clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
+* **Elimina**: Eliminate l’offerta o la cartella.
 
-### Modifica ![](assets/icon_edit.png)
+## Cartelle delle offerte di immagini
 
-Modifica la cartella.
+1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagini]**.
 
-### Copia  ![](assets/icon_copy.png)
+   ![Immagine, scheda](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
-Copia la cartella.
+1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
+1. Specificate un **[!UICONTROL Titolo]** descrittivo per la cartella.
 
-### Sposta  ![](assets/icon_move_folder.png)
+   Ad esempio, è possibile specificare il tipo di contenuto che conterrà. Il nome non può contenere i caratteri seguenti: Segno percentuale `%`,Barra avanti `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Doppie virgolette `"`, Staffa quadrata `[`, Staffa quadrata `]`, Segno più: `+`, Pipe: `|`, punto: `.`, Segno di numero: `#`, parentesi graffe: `{`, parentesi graffe `}`, punto di inserimento `^` o punto e virgola `;`. È possibile utilizzare un trattino ( `- `) invece di questi caratteri.
 
-Fai clic sull&#39;icona, passa alla posizione in cui desideri spostare la cartella, quindi fai clic sull&#39;icona Rilascia.
+1. (Facoltativo) Modificare il **[!UICONTROL Nome]**.
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Privato]**.
 
-Ad esempio, è possibile spostare una o più cartelle in un&#39;altra per creare sottocartelle.
+   Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto.
 
-Fai clic su Cancella selezione per deselezionare le cartelle selezionate.
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Riordina in Visualizzazione elenco]**.
 
-### Elimina ![](assets/icon_delete.png)
+   Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.
 
-Elimina la cartella.
+1. (Facoltativo) Per passare dalla vista [!UICONTROL vista a schede] alla vista a elenco [!UICONTROL vista a elenco], fare clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
 
-## Opzioni Offerte immagine
+   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata:
+   ![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-### Seleziona ![](assets/icon_check.png)
+1. Fai clic su **[!UICONTROL Crea]**.
 
-Seleziona una o più cartelle in cui eseguire le azioni seguenti:
+### Opzioni Offerte immagine
 
-* Scarica
-* Copia
-* Sposta
-* Elimina
+Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
 
-### Scarica  ![](assets/icon_download.png)
+L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si visualizza la [!UICONTROL vista a schede].
 
-Scarica la cartella e il suo contenuto.
+![Icone al passaggio del mouse nella scheda Offerte immagine quando si trova nella vista a schede](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-### Condividi in Adobe Creative Cloud ![](assets/icon_creative_cloud.png)
+L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si visualizza la [!UICONTROL Visualizzazione elenco]. Per visualizzare le icone, fate clic su un elemento nell’elenco.
 
-Condividi la cartella e il suo contenuto con Adobe Creative Cloud.
+![Icone al passaggio del mouse nella scheda Offerte immagine in visualizzazione elenco](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-### Copia  ![](assets/icon_copy_content.png)
+* **Selezionate**: Selezionare una o più cartelle in cui eseguire le azioni seguenti:
 
-Copia la cartella e il suo contenuto.
+   * Scarica
+   * Copia
+   * Sposta
+   * Elimina
+
+   Selezionate una o più offerte di immagini sulle quali eseguire le azioni seguenti:
+
+   * Condividi
+   * Scarica
+   * View Properties (Visualizza proprietà)
+   * Modifica
+   * Annota
+   * Sposta
+
+
+* **Scarica**: Scaricate l’offerta dell’immagine o la cartella e il relativo contenuto.
+* **Visualizza proprietà**: Visualizzare le proprietà dell&#39;elemento. Fare clic sulla scheda [!UICONTROL Base] e sulla scheda [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili.
+* **Altre azioni**: Visualizza opzioni aggiuntive nella vista a schede.
+* **Modifica**: Modificate la cartella o l’offerta.
+* **Annota**: Aggiungete annotazioni all’offerta di immagini.
+* **Copia**: Copiate l’offerta. Copiando e quindi modificando l&#39;offerta potete facilmente creare una nuova offerta simile.
