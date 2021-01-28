@@ -4,10 +4,10 @@ description: Come si gestiscono le offerte di codice e immagini?
 title: Offerte
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 70547a05155aa2909b0e66a1f26b0fd2cc730dd9
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '483'
-ht-degree: 39%
+source-wordcount: '525'
+ht-degree: 36%
 
 ---
 
@@ -44,6 +44,8 @@ Utilizzate la libreria [!UICONTROL Offerte] in [!DNL Adobe Target] per gestire l
 
    A seconda delle autorizzazioni, potrebbero non essere visualizzate le icone per tutte le opzioni. Ad esempio, un utente con autorizzazioni [!UICONTROL Observer] non dispone dei diritti per utilizzare l&#39;opzione [!UICONTROL Copia].
 
+   Per informazioni dettagliate sulle attività che potete eseguire su offerte e cartelle, consultate [Operazioni con i contenuti nella libreria Risorse](/help/c-experiences/c-manage-content/assets-working.md).
+
 1. (Facoltativo) Per eseguire ulteriori operazioni, passare il puntatore del mouse sull&#39;offerta o sulla cartella di immagini desiderata nella scheda [!UICONTROL Offerte immagine], quindi fare clic sull&#39;icona desiderata.
 
    ![Opzioni Offerte immagine](/help/c-experiences/c-manage-content/assets/image-offers-icons.png)
@@ -56,6 +58,8 @@ Utilizzate la libreria [!UICONTROL Offerte] in [!DNL Adobe Target] per gestire l
    * Modifica
    * Annota
    * Copia
+
+   Per informazioni dettagliate sulle attività che potete eseguire su offerte e cartelle, consultate [Operazioni con i contenuti nella libreria Risorse](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Visualizzazione delle definizioni delle offerte {#section_6B059DD121434E6292CAB393507D010E}
 
