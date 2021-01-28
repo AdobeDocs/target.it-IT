@@ -1,13 +1,13 @@
 ---
 keywords: content library;assets;search;smart collections;search folder;filter
-description: Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
+description: Come posso cercare le risorse in base alle parole chiave e salvare le cartelle di ricerca?
 title: Ricercare contenuti e creare raccolte avanzate
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '344'
-ht-degree: 100%
+source-wordcount: '329'
+ht-degree: 94%
 
 ---
 
@@ -18,10 +18,7 @@ Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanz
 
 Questa sezione contiene le seguenti informazioni:
 
-* [Ricerca di risorse per parole chiave ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_2465A71BC95942588F586B1EC8B9E5DB)
-* [Salvataggio di una raccolta avanzata ](/help/c-experiences/c-manage-content/filter-and-search-content.md#section_5C95159543B5405EB8C8E47B518DF4AB)
-
-## Ricerca di risorse per parole chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
+## Cerca risorse per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
 1. Per accedere alla [!UICONTROL libreria delle risorse], fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
 
@@ -37,7 +34,7 @@ Questa sezione contiene le seguenti informazioni:
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-## Salvataggio di una raccolta avanzata  {#section_5C95159543B5405EB8C8E47B518DF4AB}
+## Salvataggio di una raccolta avanzata {#section_5C95159543B5405EB8C8E47B518DF4AB}
 
 Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l&#39;esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
 
