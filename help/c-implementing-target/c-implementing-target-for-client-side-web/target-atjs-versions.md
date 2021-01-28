@@ -4,10 +4,10 @@ description: Dettagli sulle modifiche in ciascuna versione di  Adobe Target at.j
 title: Dettagli sulle versioni di at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 98914eaa894f7b6e60ebb3e7229be0c35570c281
+source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
 workflow-type: tm+mt
-source-wordcount: '4034'
-ht-degree: 84%
+source-wordcount: '4069'
+ht-degree: 83%
 
 ---
 
@@ -33,7 +33,7 @@ Questa versione di at.js è una versione di manutenzione e include le seguenti c
 
 Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
 
-* È stato risolto un problema relativo al tracciamento dei clic mbox e A4T.
+* È stato risolto un problema relativo al tracciamento dei clic mbox e A4T. Con 0n-clic, Target ha avviato una chiamata API di consegna con i parametri mbox e mbox corretti. Tuttavia, il codice SDID non corrispondeva a quello presente nella chiamata [!DNL Analytics], pertanto non è stato possibile cuocere e convertire gli hit. (TNT-38372)
 
 ## at.js 2.3.2 (24 luglio 2020)
 
