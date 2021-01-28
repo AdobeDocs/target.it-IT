@@ -4,10 +4,10 @@ description: Come si creano le cartelle nella libreria Offerte?
 title: Creare una cartella di offerta
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 21%
+source-wordcount: '588'
+ht-degree: 11%
 
 ---
 
@@ -32,14 +32,14 @@ Il processo di creazione delle cartelle per le offerte di codice e immagini è l
 
 ### Opzioni Offerte codice
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibile eseguire le azioni seguenti nella cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
+Quando visualizzate la pagina [!UICONTROL Code Offers], potete eseguire le seguenti azioni su un elemento posizionando il puntatore del mouse su un&#39;offerta o una cartella, quindi selezionando l&#39;icona appropriata.
 
 ![Icone al passaggio del mouse nella scheda Code Offers (Offerte codice)](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
 * **Informazioni**: Visualizza le informazioni dell&#39;offerta.
 * **Modifica**: Modificate la cartella o l’offerta.
 * **Copia**: Copiate l’offerta. Copiando e quindi modificando l&#39;offerta potete facilmente creare una nuova offerta simile.
-* **Sposta**: Fate clic sull&#39;icona Sposta, individuate il percorso in cui desiderate spostare la cartella, quindi fate clic sul  **** pulsante Sfoglia. Ad esempio, potete spostare una o più cartelle in un’altra per creare sottocartelle. Fate clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
+* **Sposta**: Fate clic sull&#39;icona Sposta, individuate il percorso in cui desiderate spostare l&#39;offerta o la cartella, quindi fate clic sul  **** Dropicon. Ad esempio, potete spostare una o più cartelle in un’altra per creare sottocartelle. Fate clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
 * **Elimina**: Eliminate l’offerta o la cartella.
 
 ## Cartelle delle offerte di immagini
@@ -51,7 +51,9 @@ Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibil
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
 1. Specificate un **[!UICONTROL Titolo]** descrittivo per la cartella.
 
-   Ad esempio, è possibile specificare il tipo di contenuto che conterrà. Il nome non può contenere i caratteri seguenti: Segno percentuale `%`,Barra avanti `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Doppie virgolette `"`, Staffa quadrata `[`, Staffa quadrata `]`, Segno più: `+`, Pipe: `|`, punto: `.`, Segno di numero: `#`, parentesi graffe: `{`, parentesi graffe `}`, punto di inserimento `^` o punto e virgola `;`. È possibile utilizzare un trattino ( `- `) invece di questi caratteri.
+   Ad esempio, è possibile specificare il tipo di contenuto che conterrà.
+
+   Il nome non può contenere i seguenti caratteri: Segno percentuale `%`,Barra avanti `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Doppie virgolette `"`, Staffa quadrata `[`, Staffa quadrata `]`, Segno più: `+`, Pipe: `|`, punto: `.`, Segno di numero: `#`, parentesi graffe: `{`, parentesi graffe `}`, punto di inserimento `^` o punto e virgola `;`. È possibile utilizzare un trattino ( `- `) invece di questi caratteri.
 
 1. (Facoltativo) Modificare il **[!UICONTROL Nome]**.
 1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Privato]**.
@@ -60,7 +62,7 @@ Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibil
 
 1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Riordina in Visualizzazione elenco]**.
 
-   Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.
+   Specifica che è possibile riordinare la posizione della cartella nella [!UICONTROL Visualizzazione elenco].
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
@@ -74,7 +76,7 @@ L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza 
 
 ### Opzioni Offerte immagine
 
-Quando si visualizza la pagina delle [!UICONTROL offerte di immagini], è possibile eseguire le azioni seguenti sulla cartella passando con il mouse sopra la cartella e selezionando l&#39;icona appropriata.
+Quando visualizzate la pagina [!UICONTROL Offerte immagine], potete eseguire le seguenti operazioni su un elemento posizionando il puntatore del mouse su un&#39;offerta o una cartella, quindi selezionando l&#39;icona appropriata.
 
 L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si visualizza la [!UICONTROL vista a schede].
 
