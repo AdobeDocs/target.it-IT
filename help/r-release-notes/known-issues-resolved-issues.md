@@ -4,9 +4,9 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 2055d77d660c0d7656b1971ea9c049d2973fb20d
+source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
 workflow-type: tm+mt
-source-wordcount: '4337'
+source-wordcount: '4365'
 ht-degree: 69%
 
 ---
@@ -75,6 +75,7 @@ Di seguito sono riportati i problemi noti relativi alle attività di [!UICONTROL
    * Duplicare l&#39;attività
    * Abilita di nuovo le promozioni in ogni attività
 
+* Quando [!DNL Target] restituisce un&#39;offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituite una progettazione Recommendations JSON, essa restituisce un tipo di HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
 * Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra dei consigli. (TGT-33426)
