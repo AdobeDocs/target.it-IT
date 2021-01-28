@@ -4,9 +4,9 @@ description: Come si creano le cartelle nella libreria Offerte?
 title: Creare una cartella di offerta
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 9d6700839991d05d7a8ca83c720e86e3c349caa7
+source-git-commit: 75ed1a180cbb774cfd2ec4b8a6cd19378b83a03e
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '582'
 ht-degree: 21%
 
 ---
@@ -62,13 +62,15 @@ Quando si visualizza la pagina delle [!UICONTROL offerte di codice], è possibil
 
    Specifica che è possibile riordinare la posizione della cartella nella visualizzazione elenco.
 
-1. (Facoltativo) Per passare dalla vista [!UICONTROL vista a schede] alla vista a elenco [!UICONTROL vista a elenco], fare clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
-
-   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
-
-   ![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
-
 1. Fai clic su **[!UICONTROL Crea]**.
+
+### Passa dalla vista a scheda a quella a elenco
+
+Per alternare tra la [!UICONTROL vista a schede] e la [!UICONTROL vista a elenco], fate clic sull&#39;icona [!UICONTROL Visualizzazione a schede] o sull&#39;icona [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
+
+L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
+
+![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 ### Opzioni Offerte immagine
 
