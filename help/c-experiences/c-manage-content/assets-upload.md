@@ -1,29 +1,42 @@
 ---
 keywords: content;update content;assets;upload content;upload asset
-description: Potete aggiungere elementi all’elenco Offerte immagini in  Adobe Target.
+description: Come si caricano le immagini da usare come offerte di immagini?
 title: Caricare contenuto
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
 workflow-type: tm+mt
-source-wordcount: '111'
-ht-degree: 68%
+source-wordcount: '215'
+ht-degree: 17%
 
 ---
 
 
 # Caricare contenuto
 
-Potete aggiungere o rimuovere elementi dall&#39;elenco Offerte immagini in [!DNL Adobe Target].
+Potete caricare le immagini nell&#39;elenco [!UICONTROL Offerte immagine] in [!DNL Adobe Target] per utilizzarle come offerte di immagini nelle attività. Potete anche eliminare le offerte di immagini quando non sono più necessarie nelle attività.
 
-1. Fai clic su **[!UICONTROL Offerte]**, quindi seleziona la scheda **[!UICONTROL Offerte immagine]**.
+## Aggiungere offerte di immagini all&#39;elenco
+
+1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagini]**.
+
+   ![Offerte > Offerte immagini](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL File]**.
-1. Seleziona l’elemento da aggiungere, quindi fai clic su **[!UICONTROL Apri]**.
-1. Modifica il nome del file dell’elemento, se necessario, quindi fai clic su **[!UICONTROL Carica]**.
+1. Individuate e selezionate l&#39;elemento da aggiungere, quindi fate clic su **[!UICONTROL Apri]**.
+1. Se necessario, modificate il nome del file dell&#39;elemento, quindi fate clic su **[!UICONTROL Carica]**.
 
-   L’elemento viene caricato nella libreria.
+## Eliminare offerte o cartelle di immagini
 
-## Video di formazione: L’archivio dei contenuti  ![badge Panoramica](/help/assets/overview.png)
+Per alternare tra la [!UICONTROL vista a schede] e la [!UICONTROL vista a elenco], fate clic sull&#39;icona [!UICONTROL Visualizzazione a schede] o sull&#39;icona [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti.
+
+Nella [!UICONTROL vista a schede], posizionate il puntatore del mouse sull&#39;offerta o sulla cartella di immagini desiderata, fate clic sull&#39;icona **[!UICONTROL Seleziona]** (il segno di spunta), quindi fate clic su **[!UICONTROL Elimina]**.
+
+Dalla [!UICONTROL Visualizzazione elenco], fare clic sulla miniatura dell&#39;immagine sul lato sinistro dell&#39;elenco per selezionare l&#39;offerta o la cartella di immagini desiderata, quindi fare clic su **[!UICONTROL Elimina]**, come illustrato di seguito:
+
+![Elimina elemento selezionato](/help/c-experiences/c-manage-content/assets/delete-image-offer.png)
+
+## Video di formazione: Il contrassegno Panoramica dell&#39;archivio dei contenuti ![a1/>](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto.
 
