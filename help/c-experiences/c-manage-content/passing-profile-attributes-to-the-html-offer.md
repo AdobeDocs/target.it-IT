@@ -1,13 +1,13 @@
 ---
 keywords: dynamic data;assets;data;offers;personalized offers;personal offers;token replace
-description: Potete visualizzare i valori di profilo e le informazioni sulle attività direttamente in un'offerta HTML o JSON  Adobe Target.
+description: Come posso trasmettere valori di profilo e informazioni sulle attività direttamente in un'offerta HTML o JSON?
 title: Trasmettere i dati dinamici nelle offerte
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 59605f220884c74ec43b8b2a47f36ba32120ae2a
+source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
 workflow-type: tm+mt
-source-wordcount: '494'
-ht-degree: 88%
+source-wordcount: '491'
+ht-degree: 81%
 
 ---
 
@@ -52,15 +52,21 @@ Consulta ulteriori esempi in [Panoramica della progettazione](/help/c-recommenda
 
 ## Implementazione
 
-Per i parametri di profilo trasmessi in una mbox, utilizza la sintassi: `${profile.parameter}`; per i parametri di profilo creati in uno script di profilo, utilizza la sintassi:
+Per i parametri di profilo passati in una mbox, utilizzate la sintassi:
+
+`${profile.parameter}`
+
+Per i parametri di profilo creati in uno script di profilo, utilizzare la sintassi seguente:
 
 `${user.parameter}`
 
-Quando si utilizzano gli attributi dinamici in una progettazione Recommendations, è necessario inserire una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) affinché il rendering del valore dinamico sia eseguito correttamente: `\${user.endpoint.lastViewedEntity}`
+Quando si utilizzano gli attributi dinamici in una struttura [!DNL Recommendations], è necessario inserire una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) per consentire il corretto rendering del valore dinamico:
+
+`\${user.endpoint.lastViewedEntity}`
 
 Queste variabili sono sostituite con il valore sul lato server, quindi nessuna virgoletta o altro JavaScript è necessario per la visualizzazione corretta.
 
-Puoi inoltre specificare i valori predefiniti se desideri esporli alle offerte. La sintassi è simile alla seguente:
+I valori predefiniti possono essere specificati anche per i valori che si desidera esporre alle offerte. La sintassi è simile alla seguente:
 
 `${user.testAttribute default="All Items!"}`
 
