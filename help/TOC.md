@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 translation-type: tm+mt
-source-git-commit: 3202b1d73e9657c843dc225c2161b4524d442b84
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '1583'
+source-wordcount: '1579'
 ht-degree: 89%
 
 ---
@@ -344,7 +344,7 @@ ht-degree: 89%
       + [Creare offerte remote](c-experiences/c-manage-content/about-remote-offers.md)
       + [Creare offerte JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Utilizzo dei contenuti della libreria](c-experiences/c-manage-content/assets-working.md)
-      + [Ricercare contenuti e creare raccolte avanzate](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Ricerca del contenuto](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Frammenti di esperienza AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporti {#reports}
