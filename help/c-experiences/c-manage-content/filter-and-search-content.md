@@ -1,65 +1,58 @@
 ---
-keywords: content library;assets;search;smart collections;search folder;filter
-description: Come posso cercare le risorse in base alle parole chiave e salvare le cartelle di ricerca?
-title: Ricercare contenuti e creare raccolte avanzate
+keywords: content library;assets;search;filter
+description: Come si ricercano le risorse in base alle parole chiave?
+title: Ricerca del contenuto
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 94%
+source-wordcount: '239'
+ht-degree: 13%
 
 ---
 
 
-# Ricercare contenuti e creare raccolte avanzate
+# Ricerca del contenuto
 
-Cerca le risorse per parole chiave e salva cartelle di ricerca, o Raccolte avanzate, che vengono aggiornate automaticamente con i risultati della ricerca.
+Cercare risorse in base alle parole chiave nella libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
 
-Questa sezione contiene le seguenti informazioni:
+## Cerca offerte di codice per parola chiave
 
-## Cerca risorse per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
+1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]**.
+1. Digitare le parole chiave desiderate nella casella [!UICONTROL Cerca].
 
-1. Per accedere alla [!UICONTROL libreria delle risorse], fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
+   È inoltre possibile filtrare gli elenchi a discesa [!UICONTROL Tipo] e [!UICONTROL Origine] per perfezionare ulteriormente la ricerca.
 
-   Per visualizzare le risorse in un formato scheda, fai clic sull&#39;icona [!UICONTROL Vista scheda] nell&#39;angolo superiore destro.
+## Cerca offerte di immagini per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-   Oppure
+1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagini]**.
 
-   Per visualizzare le risorse in un formato elenco, fai clic sull&#39;icona [!UICONTROL Vista elenco] nell&#39;angolo superiore destro.
+1. (Facoltativo) Per passare dalla [!UICONTROL vista a schede] alla [!UICONTROL vista a elenco], fare clic sull&#39;icona [!UICONTROL Visualizzazione a schede] o [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
+
+   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
+
+   ![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Per visualizzare la casella di ricerca, fai clic sull&#39;icona **[!UICONTROL Solo contenuto]** nell&#39;angolo superiore sinistro.
 
-   ![](assets/search_assets.png)
+   ![Opzione Solo contenuto](/help/c-experiences/c-manage-content/assets/content-only.png)
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-## Salvataggio di una raccolta avanzata {#section_5C95159543B5405EB8C8E47B518DF4AB}
+1. (Facoltativo) utilizzare il riquadro **[!UICONTROL Filtri e opzioni]** per perfezionare ulteriormente la ricerca.
 
-Puoi creare ricerche salvate, denominate raccolte avanzate, per risparmiare tempo durante l&#39;esecuzione di ricerche simili. In una ricerca salvata viene creata una raccolta avanzata che si aggiorna automaticamente con i risultati di ricerca.
+   ![Riquadro Filtro e opzioni](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-1. Per accedere alla [!UICONTROL libreria delle risorse], fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
+   Potete filtrare per:
 
-   ![](assets/content.png)
-
-1. Per visualizzare il pannello **[!UICONTROL Filtri e opzioni]** nella barra sinistra, fai clic sull&#39;icona [!UICONTROL Solo contenuto] nell&#39;angolo superiore sinistro.
-1. Per visualizzare la finestra di dialogo **[!UICONTROL Seleziona percorso]**, fai clic sull&#39;icona [!UICONTROL Sfoglia].
-
-   ![](assets/browse_folders.png)
-
-1. Individua e seleziona la cartella su cui desideri basare la raccolta avanzata, quindi fai clic sull&#39;icona **[!UICONTROL Conferma]**.
-
-   ![](assets/browse_folders2.png)
-
-1. (Facoltativo) Seleziona tra le varie opzioni per restringere il filtro, ad esempio tipo di file e dimensioni.
-1. Per visualizzare le opzioni di salvataggio, fai clic su **[!UICONTROL Salva raccolta avanzata]** nella parte inferiore del pannello [!UICONTROL Filtri e opzioni].
-
-   ![](assets/save_smart_collection_options.png)
-
-1. Specifica un nome per la raccolta avanzata. Seleziona la casella di controllo **[!UICONTROL Pubblico]** se desideri garantire l&#39;accesso a questa raccolta avanzata a tutti gli utenti nel tuo account di [!DNL Target], quindi fai clic su **[!UICONTROL Salva]**.
-
-   La raccolta avanzata viene aggiunta all&#39;elenco delle ricerche salvate per un utilizzo futuro:
-
-   ![](assets/saved_smart_collection.png)
-
-Puoi modificare una raccolta avanzata salvata selezionandola dall&#39;elenco a discesa [!UICONTROL Ricerche salvate], aprendola e facendo clic su [!UICONTROL Modifica raccolta avanzata].
+   * Tipo di file: Immagini, documenti, contenuti multimediali o archivi.
+   * Dimensione file: Piccolo, Medio o Grande
+   * Ultima modifica: Ora, Giorno, Settimana, Mese o Anno.
+   * Stato approvazione: Approvato o Rifiutato.
+   * Stato scadenza: Scaduto.
+   * Valutazione media: da 1 a 5.
+   * Orientamento: Orizzontale, Verticale o Quadrato.
+   * Stile: Colore o Bianco e nero.
+   * Valutazione utilizzo: Da minimo a massimo
+   * Punteggio impression: Da minimo a massimo
+   * Fai clic su Valutazione: da 1 a 5.
