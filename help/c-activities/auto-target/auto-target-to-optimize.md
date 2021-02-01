@@ -4,9 +4,9 @@ description: Il targeting automatico in  Adobe Target utilizza l'apprendimento a
 title: Panoramica di AutoTarget
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '2018'
+source-wordcount: '2016'
 ht-degree: 85%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 85%
 >
 >La funzione di [!UICONTROL Targeting automatico] è disponibile come parte della soluzione [!DNL Target Premium]. Questa funzione non è disponibile in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni sulle funzioni avanzate fornite da questa licenza, consulta [Target Premium](/help/c-intro/intro.md).
 >
->[!UICONTROL Analytics for Target] (A4T) supporta le attività  [!UICONTROL Auto-] Target. Per ulteriori informazioni, vedete [Creare un&#39;attività che utilizza Analytics come origine di reporting](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa).
+>[!UICONTROL Analytics for Target] (A4T) supporta le attività  [!UICONTROL Auto-] Target. Per ulteriori informazioni, consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) (Supporto per l&#39;allocazione automatica e la destinazione automatica).
 
 ## Successo reale utilizzando Auto-Target {#success}
 
