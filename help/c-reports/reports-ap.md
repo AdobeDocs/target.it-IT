@@ -4,9 +4,9 @@ description: Come si utilizzano i rapporti di riepilogo di  Automated Personaliz
 title: Rapporto di riepilogo per Personalizzazione automatizzata
 feature: Reports
 translation-type: tm+mt
-source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
+source-git-commit: 52fd172abf1c92d3df6c123b36373c7db6467972
 workflow-type: tm+mt
-source-wordcount: '632'
+source-wordcount: '633'
 ht-degree: 43%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 43%
 
 # ![PREMIUM](/help/assets/premium.png) Rapporti di riepilogo per Personalizzazione automatizzata
 
-I rapporti specializzati sono disponibili per gli utenti di [!UICONTROL  attività Automated Personalization] in [!DNL Adobe Target].
+I rapporti di riepilogo specializzati sono disponibili per gli utenti di [!UICONTROL  attività Automated Personalization] in [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -80,5 +80,5 @@ Per ulteriori informazioni, vedere [Report Attributi importanti](/help/c-reports
 **Report** livello offerta: Le impression registrate nel report  [!UICONTROL Offer ] Levelreport acquisiscono il numero di impression per ogni offerta. Pertanto, in un&#39;attività con più di una posizione, il numero totale di visite registrate nel report [!UICONTROL Livello offerta] in tutti i gruppi di reporting è uguale al multiplo del numero di visite registrate per il traffico controllato o mirato nel report [!UICONTROL Livello attività] volte il numero totale di posizioni nell&#39;attività. Impression del contenuto predefinito che si verificano nelle posizioni in cui il contenuto predefinito era un&#39;opzione disponibile vengono registrate nel gruppo di offerte &quot;Contenuto predefinito&quot;. Le impression di offerte che non erano state assegnate a un gruppo di reporting sono registrate nel gruppo di offerte &quot;Non raggruppate&quot;.
 
 >[!NOTE]
-
-Il numero di impression registrate nel report [!UICONTROL Livello offerta] potrebbe non essere un numero intero esatto multiplo del numero di visite registrate nel report [!UICONTROL Livello attività]. Ciò è dovuto a piccole discrepanze che si verificano nell&#39;acquisizione del traffico di dati di segnalazione via Internet (il tasso di discrepanza tipico è inferiore al 5%). Pertanto, il numero di impression non sarà un multiplo esatto quando il numero di posizioni disponibili nell&#39;attività cambierà dopo l&#39;attivazione dell&#39;attività.
+>
+>Il numero di impression registrate nel report [!UICONTROL Livello offerta] potrebbe non essere un numero intero esatto multiplo del numero di visite registrate nel report [!UICONTROL Livello attività]. Ciò è dovuto a piccole discrepanze che si verificano nell&#39;acquisizione del traffico di dati di segnalazione via Internet (il tasso di discrepanza tipico è inferiore al 5%). Pertanto, il numero di impression non sarà un multiplo esatto quando il numero di posizioni disponibili nell&#39;attività cambierà dopo l&#39;attivazione dell&#39;attività.
