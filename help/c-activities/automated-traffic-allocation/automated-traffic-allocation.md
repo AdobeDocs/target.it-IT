@@ -4,9 +4,9 @@ description: Un'attività di allocazione automatica in  Adobe Target identifica 
 title: Allocazione automatica
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '3377'
+source-wordcount: '3373'
 ht-degree: 73%
 
 ---
@@ -136,7 +136,7 @@ Consultate le seguenti domande frequenti e risposte durante l&#39;utilizzo delle
 
 ### Analytics for Target (A4T) supporta le attività di allocazione automatica?
 
-Sì. Per ulteriori informazioni, consultate [Supporto di Analytics per Target (A4T) per le attività di allocazione automatica](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Creazione di attività*.
+Sì. Per ulteriori informazioni, consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) (Supporto per l&#39;allocazione automatica e la destinazione automatica).
 
 ###  I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?
 
