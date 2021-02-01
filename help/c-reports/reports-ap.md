@@ -4,10 +4,10 @@ description: Come si utilizzano i rapporti di riepilogo di  Automated Personaliz
 title: Rapporto di riepilogo per Personalizzazione automatizzata
 feature: Reports
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
 workflow-type: tm+mt
-source-wordcount: '626'
-ht-degree: 43%
+source-wordcount: '631'
+ht-degree: 44%
 
 ---
 
@@ -55,16 +55,6 @@ Le offerte possono essere visualizzate all’interno di gruppi di rapporti, che 
 >
 >L’icona dell’orologio indica che il modello dell’algoritmo è ancora in corso. L&#39;icona del segno di spunta indica che è stato stabilito l&#39;algoritmo di base.
 
-## Differenze nei dati tra i rapporti Livello attività e Livello offerta
-
-**[!UICONTROL Report ] livello** attività: Le visite registrate nel report  [!UICONTROL Activity ] Levelreport acquisiscono il numero di visite alle esperienze di controllo rispetto a traffico &quot;mirato&quot;. Il traffico mirato include un mix di traffico di esplorazione e traffico personalizzato.
-
-**Report** livello offerta: Le impression registrate nel report  [!UICONTROL Offer ] Levelreport acquisiscono il numero di impression per ogni offerta. Pertanto, in un&#39;attività con più di una posizione, il numero totale di visite registrate nel report [!UICONTROL Livello offerta] in tutti i gruppi di reporting è uguale al multiplo del numero di visite registrate per il traffico controllato o mirato nel report [!UICONTROL Livello attività] volte il numero totale di posizioni nell&#39;attività. Impression del contenuto predefinito che si verificano nelle posizioni in cui il contenuto predefinito era un&#39;opzione disponibile vengono registrate nel gruppo di offerte &quot;Contenuto predefinito&quot;. Le impression di offerte che non erano state assegnate a un gruppo di reporting sono registrate nel gruppo di offerte &quot;Non raggruppate&quot;.
-
->[!NOTE]
-
-Il numero di impression registrate nel report [!UICONTROL Livello offerta] potrebbe non essere un numero intero esatto multiplo del numero di visite registrate nel report [!UICONTROL Livello attività]. Ciò è dovuto a piccole discrepanze che si verificano nell&#39;acquisizione del traffico di dati di segnalazione via Internet (il tasso di discrepanza tipico è inferiore al 5%). Pertanto, il numero di impression non sarà un multiplo esatto quando il numero di posizioni disponibili nell&#39;attività cambierà dopo l&#39;attivazione dell&#39;attività.
-
 ## Segmenti automatizzati
 
 Fare clic sull&#39;icona [!UICONTROL Segmenti automatizzati]. Questo rapporto mostra il modo in cui i diversi visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
@@ -80,3 +70,15 @@ Fare clic sull&#39;icona [!UICONTROL Attributi importanti]. Questo rapporto most
 ![Icona importanti attributi](/help/c-reports/assets/icon-important-attributes-ap.png)
 
 Per ulteriori informazioni, vedere [Report Attributi importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md).
+
+## Domande frequenti 
+
+### Esistono differenze nei dati tra i rapporti Livello attività e Livello offerta?
+
+**[!UICONTROL Report ] livello** attività: Le visite registrate nel report  [!UICONTROL Activity ] Levelreport acquisiscono il numero di visite alle esperienze di controllo rispetto a traffico &quot;mirato&quot;. Il traffico mirato include un mix di traffico di esplorazione e traffico personalizzato.
+
+**Report** livello offerta: Le impression registrate nel report  [!UICONTROL Offer ] Levelreport acquisiscono il numero di impression per ogni offerta. Pertanto, in un&#39;attività con più di una posizione, il numero totale di visite registrate nel report [!UICONTROL Livello offerta] in tutti i gruppi di reporting è uguale al multiplo del numero di visite registrate per il traffico controllato o mirato nel report [!UICONTROL Livello attività] volte il numero totale di posizioni nell&#39;attività. Impression del contenuto predefinito che si verificano nelle posizioni in cui il contenuto predefinito era un&#39;opzione disponibile vengono registrate nel gruppo di offerte &quot;Contenuto predefinito&quot;. Le impression di offerte che non erano state assegnate a un gruppo di reporting sono registrate nel gruppo di offerte &quot;Non raggruppate&quot;.
+
+>[!NOTE]
+
+Il numero di impression registrate nel report [!UICONTROL Livello offerta] potrebbe non essere un numero intero esatto multiplo del numero di visite registrate nel report [!UICONTROL Livello attività]. Ciò è dovuto a piccole discrepanze che si verificano nell&#39;acquisizione del traffico di dati di segnalazione via Internet (il tasso di discrepanza tipico è inferiore al 5%). Pertanto, il numero di impression non sarà un multiplo esatto quando il numero di posizioni disponibili nell&#39;attività cambierà dopo l&#39;attivazione dell&#39;attività.
