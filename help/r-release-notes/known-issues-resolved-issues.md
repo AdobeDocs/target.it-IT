@@ -4,9 +4,9 @@ description: Informazioni sui problemi noti per questa versione di Adobe Target.
 title: Problemi noti e problemi risolti in Adobe Target
 feature: known issues
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '4365'
+source-wordcount: '4359'
 ht-degree: 69%
 
 ---
@@ -28,7 +28,7 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 Esiste un problema noto corrente nell&#39;interfaccia utente [!DNL Target] che consente agli utenti di selezionare metriche di coinvolgimento e ricavi non supportate come metrica di obiettivo principale per l&#39;ottimizzazione nelle attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target]. Sono supportate le metriche di conversione; le metriche di coinvolgimento e ricavi sono *non* supportate. Se selezionate le metriche dell&#39;obiettivo di coinvolgimento o ricavi, non verrà creato un modello di ottimizzazione (anche se l&#39;interfaccia [!DNL Target] attualmente consente di selezionare metriche di obiettivo non supportate).
 
-Per un elenco delle metriche di obiettivo supportate e non supportate, vedete [Metriche di obiettivo supportate](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa) in *Creare un&#39;attività che utilizza Analytics come origine di reporting*. (TNT-38409)
+Per un elenco delle metriche di obiettivo supportate e non supportate, consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) (Supporto per l&#39;allocazione automatica e il targeting automatico delle attività). (TNT-38409)
 
 ### Consegna delle pagine {#page-delivery}
 
