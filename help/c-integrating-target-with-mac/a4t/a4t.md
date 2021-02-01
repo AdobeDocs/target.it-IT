@@ -4,9 +4,9 @@ description: Adobe Analytics for Target (A4T) è un’integrazione tra soluzioni
 title: Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
 workflow-type: tm+mt
-source-wordcount: '1306'
+source-wordcount: '1300'
 ht-degree: 46%
 
 ---
@@ -60,8 +60,8 @@ La tabella seguente mostra quali tipi di attività supportano [!DNL Analytics] c
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
 | Attività A/B con suddivisione manuale del traffico | Sì |  |
-| Attività A/B con Allocazione automatica | Sì | Consultate il supporto di [Analytics for Target (A4T) per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
-| Attività A/B con Targeting automatico | Sì | Consultate il supporto di [Analytics for Target (A4T) per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/campaign-creation.md#a4t-aa). |
+| Attività A/B con Allocazione automatica | Sì | Vedere [Supporto A4T per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| Attività A/B con Targeting automatico | Sì | Consultate il supporto di [A4T per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
 | Targeting esperienza (XT) | Sì |  |
 | Test multivariato (MVT) | Sì | Richiede un obiettivo di metrica obiettivo basato su mbox per ottenere il report [!UICONTROL Contributo elemento].  Il report [!UICONTROL Element Contribution] attualmente non supporta le metriche [!DNL Analytics]. |
 | Attività di Personalizzazione automatizzata (AP) | No |  |
