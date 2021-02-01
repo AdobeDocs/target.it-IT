@@ -4,10 +4,10 @@ description: Come si utilizzano i rapporti di riepilogo di  Automated Personaliz
 title: Rapporto di riepilogo per Personalizzazione automatizzata
 feature: Reports
 translation-type: tm+mt
-source-git-commit: a34c6830b0e30017ae54ef1bf47407d390935d29
+source-git-commit: de8245e237be407f5a6a6a0ccf2d40209eb7fda1
 workflow-type: tm+mt
-source-wordcount: '631'
-ht-degree: 44%
+source-wordcount: '632'
+ht-degree: 43%
 
 ---
 
@@ -73,7 +73,7 @@ Per ulteriori informazioni, vedere [Report Attributi importanti](/help/c-reports
 
 ## Domande frequenti 
 
-### Esistono differenze nei dati tra i rapporti Livello attività e Livello offerta?
+### Perché ci sono differenze nei dati tra i rapporti Livello attività e Livello offerta?
 
 **[!UICONTROL Report ] livello** attività: Le visite registrate nel report  [!UICONTROL Activity ] Levelreport acquisiscono il numero di visite alle esperienze di controllo rispetto a traffico &quot;mirato&quot;. Il traffico mirato include un mix di traffico di esplorazione e traffico personalizzato.
 
