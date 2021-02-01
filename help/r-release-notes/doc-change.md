@@ -4,9 +4,9 @@ description: In questa pagina sono elencate le modifiche importanti apportate al
 title: Modifiche apportate alla documentazione di Adobe Target.
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 15eb3050b4263358d0747b09a8afd2b4c102294c
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '3480'
+source-wordcount: '3499'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 1 febbraio | [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: &quot;Differenze nei dati tra i rapporti Livello attività e Livello offerta.&quot; |
 | Gennaio 27 | [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Argomento aggiornato. |
 |  | [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md) | Argomento aggiornato. |
 | Gennaio 26 | [Tasso di conversione](/help/c-reports/conversion-rate.md) | È stato chiarito in che modo Target utilizza la &quot;somma dei quadrati&quot; nei test t degli studenti. |
