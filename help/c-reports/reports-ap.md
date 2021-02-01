@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report
-description: I rapporti specializzati sono disponibili per gli utenti  attività Automated Personalization in  Adobe Target.
+description: Come si utilizzano i rapporti di riepilogo di  Automated Personalization?
 title: Rapporto di riepilogo per Personalizzazione automatizzata
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
 workflow-type: tm+mt
-source-wordcount: '388'
-ht-degree: 72%
+source-wordcount: '626'
+ht-degree: 43%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Rapporti di riepilogo per Personalizzazione automatizzata{#automated-personalization-summary-reports}
+# ![PREMIUM](/help/assets/premium.png) Rapporti di riepilogo per Personalizzazione automatizzata
 
 I rapporti specializzati sono disponibili per gli utenti di [!UICONTROL  attività Automated Personalization] in [!DNL Adobe Target].
 
@@ -24,9 +24,14 @@ I rapporti specializzati sono disponibili per gli utenti di [!UICONTROL  attivit
 
    Se hai numerose attività, puoi filtrare l’elenco selezionando [!UICONTROL Personalizzazione automatizzata] dall’elenco a discesa [!UICONTROL Tipo].
 
-1. (Facoltativo) Fai clic sull&#39;icona [!UICONTROL Scarica] per scaricare il riepilogo (ad esempio, il confronto tra il Controllo e il Traffico mirato) con suddivisione in base a tutte le metriche di successo disponibili.
+1. (Facoltativo) Fai clic sull&#39;icona **[!UICONTROL Scarica]** per scaricare il riepilogo (ad esempio, il confronto tra il Controllo e il Traffico mirato) con suddivisione in base a tutte le metriche di successo disponibili.
 
 La funzione [!UICONTROL Personalizzazione automatizzata] fornisce i seguenti rapporti:
+
+* Livello attività
+* Livello offerta
+* Segmenti automatizzati
+* Attributi importanti
 
 ## Report Activity Level (Livello di attività){#section_6F72FC5C790B4492B3DCECBFFA971337}
 
@@ -48,7 +53,17 @@ Le offerte possono essere visualizzate all’interno di gruppi di rapporti, che 
 
 >[!NOTE]
 >
->L’icona dell’orologio indica che il modello dell’algoritmo è ancora in corso. L’icona di spunta indica che l’algoritmo di base è stato determinato.
+>L’icona dell’orologio indica che il modello dell’algoritmo è ancora in corso. L&#39;icona del segno di spunta indica che è stato stabilito l&#39;algoritmo di base.
+
+## Differenze nei dati tra i rapporti Livello attività e Livello offerta
+
+**[!UICONTROL Report ] livello** attività: Le visite registrate nel report  [!UICONTROL Activity ] Levelreport acquisiscono il numero di visite alle esperienze di controllo rispetto a traffico &quot;mirato&quot;. Il traffico mirato include un mix di traffico di esplorazione e traffico personalizzato.
+
+**Report** livello offerta: Le impression registrate nel report  [!UICONTROL Offer ] Levelreport acquisiscono il numero di impression per ogni offerta. Pertanto, in un&#39;attività con più di una posizione, il numero totale di visite registrate nel report [!UICONTROL Livello offerta] in tutti i gruppi di reporting è uguale al multiplo del numero di visite registrate per il traffico controllato o mirato nel report [!UICONTROL Livello attività] volte il numero totale di posizioni nell&#39;attività. Impression del contenuto predefinito che si verificano nelle posizioni in cui il contenuto predefinito era un&#39;opzione disponibile vengono registrate nel gruppo di offerte &quot;Contenuto predefinito&quot;. Le impression di offerte che non erano state assegnate a un gruppo di reporting sono registrate nel gruppo di offerte &quot;Non raggruppate&quot;.
+
+>[!NOTE]
+
+Il numero di impression registrate nel report [!UICONTROL Livello offerta] potrebbe non essere un numero intero esatto multiplo del numero di visite registrate nel report [!UICONTROL Livello attività]. Ciò è dovuto a piccole discrepanze che si verificano nell&#39;acquisizione del traffico di dati di segnalazione via Internet (il tasso di discrepanza tipico è inferiore al 5%). Pertanto, il numero di impression non sarà un multiplo esatto quando il numero di posizioni disponibili nell&#39;attività cambierà dopo l&#39;attivazione dell&#39;attività.
 
 ## Segmenti automatizzati
 
