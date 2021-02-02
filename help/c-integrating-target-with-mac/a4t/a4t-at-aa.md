@@ -4,10 +4,10 @@ description: Posso usare A4T con le attività di Auto-Target e Auto-Allocate?
 title: Supporto A4T per le attività di allocazione automatica e di targeting automatico
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 8be597121eb30b56d3b106352678246fc71d667b
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 2%
+source-wordcount: '853'
+ht-degree: 1%
 
 ---
 
@@ -36,10 +36,14 @@ Per iniziare:
 
 1. Selezionare **[!UICONTROL Adobe Analytics]** per **[!UICONTROL Origine report]** nella pagina **[!UICONTROL Goals &amp; Settings]** (Obiettivi e impostazioni) e selezionare la suite di rapporti corrispondente all&#39;obiettivo di ottimizzazione desiderato.
 
+   ![Sezione Origine reporting nella pagina Goals and Settings (Obiettivi e impostazioni)](/help/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
+
 1. Scegliere una metrica Obiettivo principale.
 
    * Scegliere **[!UICONTROL Conversion]** per utilizzare [!DNL Adobe Target] per specificare l&#39;obiettivo di ottimizzazione.
    * Scegliete **[!UICONTROL Usa una metrica Analytics]**, quindi selezionate una metrica da [!DNL Analytics] da utilizzare come obiettivo di ottimizzazione. È possibile utilizzare una metrica di conversione [!DNL Analytics] out-of-box o un evento personalizzato [!DNL Analytics].
+
+   Per ulteriori informazioni, vedi [Metriche dell&#39;obiettivo supportate](#supported) di seguito.
 
 1. Salvate e attivate l&#39;attività.
 
@@ -51,7 +55,7 @@ Per iniziare:
 
 1. Utilizzate la scheda **[!UICONTROL Reports]** per visualizzare i report dell&#39;attività in base alle metriche [!DNL Adobe Analytics] selezionate. Fai clic su **[!UICONTROL Visualizza in Analytics]** per approfondire e segmentare ulteriormente i dati di reporting.
 
-## Metriche obiettivo supportate
+## Metriche obiettivo supportate {#supported}
 
 [!UICONTROL A4] Per l&#39; [!UICONTROL allocazione ] automatica e l&#39; [!UICONTROL Auto-] Targetlet potete scegliere uno dei seguenti tipi di metriche come metrica di obiettivo principale per l&#39;ottimizzazione:
 
