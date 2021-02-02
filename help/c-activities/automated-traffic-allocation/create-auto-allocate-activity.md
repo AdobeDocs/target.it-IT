@@ -1,13 +1,13 @@
 ---
-keywords: create auto-allocate;A/B test;auto-allocate activity;new a/b activity;auto allocate;auto-allocate to best experience;allocate;auto-allocate
+keywords: creare l'allocazione automatica;test A/B;allocare automaticamente l'attività;nuova attività a/b;allocare automaticamente;allocare automaticamente per la migliore esperienza;allocare;allocare automaticamente
 description: Utilizzate Visual Experience Composer (VEC) (Compositore esperienza visivo) in  Adobe Target per creare l'attività di allocazione automatica del test A/B direttamente su una pagina compatibile con Target e per modificare parti della pagina all'interno di Target.
 title: Creazione di un'attività di allocazione automatica
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '872'
-ht-degree: 62%
+source-wordcount: '916'
+ht-degree: 59%
 
 ---
 
@@ -119,6 +119,10 @@ Per creare un&#39;attività [!UICONTROL Allocazione automatica]:
 1. Specifica [obiettivi e impostazioni](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) per l’attività.
 
    ![Impostazioni per attività A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Se desiderate utilizzare [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con questa attività, consultate informazioni importanti nel supporto [A4T per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Fare clic su **[!UICONTROL Salva e chiudi]** o su **[!UICONTROL Salva]**.
 
