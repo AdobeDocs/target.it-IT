@@ -1,13 +1,13 @@
 ---
-keywords: a4t;A4T;Analytics as the reporting source for Target
+keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
 description: Posso usare A4T con le attività di Auto-Target e Auto-Allocate?
 title: Supporto A4T per le attività di allocazione automatica e di targeting automatico
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '819'
-ht-degree: 0%
+source-wordcount: '838'
+ht-degree: 2%
 
 ---
 
@@ -29,6 +29,8 @@ Per iniziare:
 
    * [!UICONTROL Assegnazione automatica per esperienze ottimali]
    * [!UICONTROL Targeting automatico per esperienze personalizzate]
+
+   ![Opzioni Metodi di allocazione traffico: Allocazione manuale, automatica e destinazione automatica](/help/c-integrating-target-with-mac/a4t/assets/traffic-allocation-methods.png)
 
    Per ulteriori informazioni e istruzioni dettagliate, vedere [Creazione di un&#39;attività di allocazione automatica](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md) e [Creazione di un&#39;attività di targeting automatico](/help/c-activities/auto-target/create-auto-target.md).
 
