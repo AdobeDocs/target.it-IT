@@ -1,13 +1,13 @@
 ---
-keywords: Create auto-target;A/B test;auto-target activity;new a/b activity;auto target;auto-target for personalized experiences;personalized
+keywords: Creare targeting automatico;test A/B;targeting automatico dell'attività;nuova attività a/b;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato
 description: Utilizzate Visual Experience Composer (VEC) (Compositore esperienza visivo) in  Adobe Target per creare l'attività di test A/B con targeting automatico direttamente su una pagina compatibile con Target e per modificare porzioni della pagina all'interno di Target.
 title: Creazione di un'attività di targeting automatico
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
 workflow-type: tm+mt
-source-wordcount: '897'
-ht-degree: 62%
+source-wordcount: '940'
+ht-degree: 59%
 
 ---
 
@@ -121,6 +121,10 @@ Per creare un&#39;attività [!UICONTROL Auto-Target]:
 1. Specifica [obiettivi e impostazioni](/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md) per l’attività.
 
    ![Impostazioni per attività A/B](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_settings-new.png)
+
+   >[!NOTE]
+   >
+   >Se desiderate utilizzare [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T) con questa attività, consultate informazioni importanti nel supporto [A4T per le attività di allocazione automatica e di destinazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 1. Fare clic su **[!UICONTROL Salva e chiudi]** o su **[!UICONTROL Salva]**.
 
