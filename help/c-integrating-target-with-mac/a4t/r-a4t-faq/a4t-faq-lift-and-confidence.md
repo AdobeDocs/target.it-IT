@@ -1,12 +1,12 @@
 ---
-keywords: faq;frequently asked questions;analytics for target;a4T;lift;ad hoc;report builder;confidence
+keywords: faq;domande frequenti;analytics for target;a4t;incremento;ad hoc;report builder;affidabilità
 description: Questo argomento contiene le risposte alle domande che vengono spesso poste in merito ai concetti di incremento e affidabilità durante l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
-title: Incremento e affidabilità - Domande frequenti su A4T
+title: Sollevamento E Fiducia - Domande Frequenti Su A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '511'
 ht-degree: 50%
 
 ---
