@@ -1,12 +1,12 @@
 ---
-keywords: content library;assets;search;filter
+keywords: libreria dei contenuti;risorse;ricerca;filtro
 description: Come si ricercano le risorse in base alle parole chiave?
-title: Ricerca del contenuto
+title: Cerca contenuto
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 6b226279c047b2f897a5b66b9f1414af51334a82
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '244'
 ht-degree: 13%
 
 ---
