@@ -1,12 +1,12 @@
 ---
-keywords: settings;priority
+keywords: impostazioni;priorità
 description: ' Adobe Target determina l''attività (o le attività) da distribuire a una pagina in modo diverso a seconda dell''interfaccia di Target e della funzione di creazione dell''attività (Visual Experience Composer (Compositore esperienza visivo) o di un compositore basato su modulo) che utilizzate.'
-title: Priorità in  Adobe Target
+title: Priorità
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1167'
+source-wordcount: '1166'
 ht-degree: 88%
 
 ---
