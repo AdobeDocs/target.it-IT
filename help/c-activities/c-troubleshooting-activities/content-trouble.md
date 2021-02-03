@@ -1,12 +1,12 @@
 ---
-keywords: debug mbox;troubleshoot mbox;mbox issues;flicker;mboxDebug;mboxTrace;token;debugger;priority;activity priority;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst  purchase mbox;top selling;top seller
+keywords: debug mbox;risoluzione dei problemi di mbox;problemi di mbox;visualizzazione momentanea;mboxDebug;mboxTrace;token;debugger;priorità;priorità di attività;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst acquisto di mbox;articolo più venduto
 description: Se nella pagina non viene visualizzato il contenuto previsto, è possibile eseguire il debug della distribuzione dei contenuti in  Adobe Target.
-title: Risoluzione dei problemi di distribuzione dei contenuti in  Adobe Target
+title: Risoluzione dei problemi relativi alla distribuzione dei contenuti
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1386'
+source-wordcount: '1410'
 ht-degree: 60%
 
 ---
