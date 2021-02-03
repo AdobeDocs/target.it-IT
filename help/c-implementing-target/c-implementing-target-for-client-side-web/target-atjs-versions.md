@@ -1,12 +1,12 @@
 ---
-keywords: at.js releases;at.js versions;release notes
+keywords: versioni at.js;versioni at.js;note sulla versione
 description: Dettagli sulle modifiche in ciascuna versione di  Adobe Target at.js.
-title: Dettagli sulle versioni di at.js
+title: Dettagli sulla versione di at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: cc8d32d0ec4164c5cbd86ececdbfd24c7286a236
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '4069'
+source-wordcount: '4075'
 ht-degree: 83%
 
 ---
