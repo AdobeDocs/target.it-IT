@@ -1,13 +1,13 @@
 ---
-keywords: Automated Personalization;ap;preview;exclude experience;
+keywords: ' Automated Personalization;ap;preview;exclude experience;'
 description: Dato che in un test di Personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
-title: Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo di Adobe Target
-feature: ap
+title: Anteprima  esperienze Automated Personalization in Visual Experience Composer (VEC)
+feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 61%
+source-wordcount: '260'
+ht-degree: 55%
 
 ---
 
