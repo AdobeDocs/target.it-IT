@@ -1,12 +1,12 @@
 ---
-keywords: qa;server side;server-side;preview;preview links
+keywords: qa;lato server;anteprima;collegamenti di anteprima
 description: Utilizzate  URL di QA Adobe Target con distribuzione lato server per eseguire attività QA end-to-end in modo semplice con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting di QA che rimane segmentato dai dati dell'attività live.
 title: Utilizzare il Controllo qualità delle attività con la distribuzione lato server
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '391'
 ht-degree: 72%
 
 ---
