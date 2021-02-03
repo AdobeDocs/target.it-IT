@@ -1,12 +1,12 @@
 ---
-keywords: Recommendations
+keywords: Consigli
 description: Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita Analytics come origine della generazione di rapporti per Target (A4T).
-title: Prima di implementare  Adobe Analytics come origine di reporting per  Adobe Target (A4T)
+title: Prima di implementare Analytics come origine di reporting (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '901'
+source-wordcount: '898'
 ht-degree: 54%
 
 ---
