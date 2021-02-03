@@ -1,13 +1,13 @@
 ---
-keywords: IP address;IP addresses;whitelist;allowlist;firewall;recs;feed;servers;adobe marketing cloud;recommendations
+keywords: indirizzo IP;indirizzi IP;whitelist; inserire nell'elenco Consentiti;firewall;recs;feed;server;adobe marketing cloud;Recommendations
 description: Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed della funzionalità per i consigli (Recommendations), situati nel data center dell’Oregon, per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server Adobe.
-title: Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations)
+title: ' Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations)'
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '166'
-ht-degree: 87%
+source-wordcount: '180'
+ht-degree: 81%
 
 ---
 
