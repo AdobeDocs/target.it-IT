@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference
+keywords: Panoramica e riferimento
 description: Utilizza Target con Adobe Campaign per ottimizzare i contenuti delle e-mail.
-title: Integrare Target con Adobe Campaign
+title: Integrare con Adobe Campaign
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '377'
 ht-degree: 51%
 
 ---
