@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;AP reports;automated personalization reports;activity level report;offer level report;offer detail report;faq
+keywords: Targeting;report AP;report di personalizzazione automatizzata;report livello attività;report livello offerta;report dettagli offerta;faq
 description: Come si utilizzano i rapporti di riepilogo di  Automated Personalization?
-title: Rapporto di riepilogo per Personalizzazione automatizzata
+title: Report di riepilogo della Personalizzazione automatizzata
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 24680f707928201b9390c0e71e54fc549c81e165
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '633'
-ht-degree: 43%
+source-wordcount: '649'
+ht-degree: 42%
 
 ---
 
