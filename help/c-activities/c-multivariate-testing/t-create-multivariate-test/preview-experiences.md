@@ -1,13 +1,13 @@
 ---
-keywords: multivariate;mvt;preview;experiences
+keywords: multivariato;mvt;preview;experience
 description: Poiché un test multivariato in  Adobe Target confronta più esperienze su una pagina, è utile visualizzare l'anteprima della pagina con ogni esperienza.
-title: Visualizzare in anteprima le esperienze per un test multivariato in  Adobe Target
+title: Visualizzare in anteprima le esperienze per un test multivariato (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '198'
-ht-degree: 69%
+source-wordcount: '200'
+ht-degree: 68%
 
 ---
 
