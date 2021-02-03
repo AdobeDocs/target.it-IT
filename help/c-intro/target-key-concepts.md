@@ -1,12 +1,12 @@
 ---
-keywords: Overview and Reference;act
-description: Informazioni sui concetti chiave che ti aiuteranno a comprendere le funzionalità di Adobe Target.
-title: Concetti chiave di Target
+keywords: Panoramica e riferimento;attività
+description: Come posso comprendere e utilizzare Target?
+title: Concetti chiave
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1513'
+source-wordcount: '1507'
 ht-degree: 98%
 
 ---
