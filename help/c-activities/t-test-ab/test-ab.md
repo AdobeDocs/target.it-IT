@@ -1,12 +1,12 @@
 ---
-keywords: AB;A/B;AB...n;compare experiences;Targeting;compare content;auto-target;auto-allocate
+keywords: AB;A/B;AB..n;confrontare esperienze;Targeting;confrontare contenuto;auto-target;auto-allocazione
 description: Un'attività di test A/B manuale mette a confronto due o più versioni del contenuto del sito Web per vedere quale versione migliora maggiormente le conversioni durante un periodo di test preimpostato.
-title: Panoramica del test A/B
+title: Panoramica dei test A/B
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '754'
+source-wordcount: '765'
 ht-degree: 38%
 
 ---
