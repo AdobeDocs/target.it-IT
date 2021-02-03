@@ -1,13 +1,13 @@
 ---
-keywords: qa;preview;bookmarklet;preview links
+keywords: qa;anteprima;bookmarklet;collegamenti di anteprima
 description: Informazioni utili per utilizzare il bookmarklet  Adobe Target QA per forzare Target a rilasciarvi dalla modalità QA.
-title: bookmarklet QA attività per  Adobe Target
+title: Bookmarklet di controllo qualità delle attività
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 11%
+source-wordcount: '263'
+ht-degree: 14%
 
 ---
 
