@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;traffic sources;target traffic sources;target search engine;search engine;landing page;target landing page;referring landing page
+keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
 description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
-title: Opzioni Sorgenti di traffico nel pubblico  Adobe Target
-feature: audiences
+title: Opzioni Sorgenti Di Traffico In Audience
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '235'
-ht-degree: 96%
+source-wordcount: '252'
+ht-degree: 97%
 
 ---
 
