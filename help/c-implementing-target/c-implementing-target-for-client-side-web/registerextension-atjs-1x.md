@@ -1,13 +1,13 @@
 ---
-keywords: registerExtension;registerextension;register extension;at.js;functions;function;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
+keywords: registerExtension;registerextension;registra estensione;at.js;funzioni;funzione;clientCode;serverDomain;globalMboxName;globalMboxAutoCreate;timeout
 description: Informazioni sulla funzione registerExtension() per la libreria JavaScript at.js di Adobe Target.
-title: registerExtension() - at.js 1.x
+title: Registerextension() - at.js 1.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '249'
-ht-degree: 98%
+source-wordcount: '261'
+ht-degree: 97%
 
 ---
 
