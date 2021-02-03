@@ -1,13 +1,13 @@
 ---
-keywords: visitor profile;target visitor profile
+keywords: profilo visitatore;targeting profilo visitatore
 description: Crea tipi di pubblico in Adobe Target per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
-title: Opzioni Profilo visitatore in  pubblico Adobe Target
-feature: audiences
+title: Opzioni del profilo del visitatore in Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '222'
-ht-degree: 94%
+source-wordcount: '225'
+ht-degree: 95%
 
 ---
 
