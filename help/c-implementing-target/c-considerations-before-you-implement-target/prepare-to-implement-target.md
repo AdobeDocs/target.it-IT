@@ -1,13 +1,13 @@
 ---
-keywords: implement;implementing;rfi;request for information
+keywords: implementare;implementazione;rfi;richiesta di informazioni
 description: Quando si prepara l’implementazione di Adobe Target è necessario completare alcune attività e raccogliere alcune informazioni.
-title: Preparare l’implementazione di Adobe Target
+title: Preparazione all'implementazione
 feature: Implementation
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '267'
-ht-degree: 94%
+source-wordcount: '271'
+ht-degree: 93%
 
 ---
 
