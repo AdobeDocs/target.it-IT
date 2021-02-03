@@ -1,13 +1,13 @@
 ---
-keywords: content library;assets;annotate;copy;delete asset;download asset;edit content;share card;view content properties
+keywords: libreria di contenuti;risorsa;annota;copia;elimina risorsa;scarica risorsa;modifica contenuto;condividi scheda;visualizza proprietà contenuto
 description: Come si utilizzano le risorse nella libreria Contenuto
-title: Utilizzare i contenuti della libreria
+title: Utilizzo dei contenuti nella libreria
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '727'
-ht-degree: 37%
+source-wordcount: '743'
+ht-degree: 38%
 
 ---
 
