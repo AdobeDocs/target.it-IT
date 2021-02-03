@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app process;target mobile app;mobile target locations;mobile app success metrics
+keywords: app mobile;processo app mobile;target app mobile;posizioni target mobili;metriche di successo app dispositivi mobili
 description: Target può essere utilizzato per lʼottimizzazione e la personalizzazione di app per dispositivi mobili
 title: Target per le app per dispositivi mobili
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '117'
-ht-degree: 95%
+source-wordcount: '132'
+ht-degree: 96%
 
 ---
 
