@@ -1,12 +1,12 @@
 ---
-keywords: qa;preview;preview links;adobe target;target
+keywords: qa;anteprima;collegamenti di anteprima;adobe target;target
 description: Utilizzate  URL QA di Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting QA che rimane segmentato dai dati dell'attività live.
 title: Controllo di qualità delle attività
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1529'
+source-wordcount: '1536'
 ht-degree: 80%
 
 ---
