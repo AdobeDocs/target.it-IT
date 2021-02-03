@@ -1,14 +1,14 @@
 ---
-keywords: dedupe;allow duplicates;exclude duplicate offers;automated personalization;disallow duplicate offers;exclude;default content;exclusion group;
+keywords: dedupa;consenti duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
 description: Gestisci le esclusioni creando gruppi di esclusione o escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti nelle attività di Personalizzazione automatizzata in Adobe Target.
 title: Gestire le esclusioni
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '965'
-ht-degree: 94%
+source-wordcount: '981'
+ht-degree: 92%
 
 ---
 
