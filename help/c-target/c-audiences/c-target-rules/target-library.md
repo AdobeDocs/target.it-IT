@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target library;library
+keywords: Targeting;libreria di Target;libreria
 description: Puoi indirizzare l’attività agli utenti in base a regole di targeting predefinite.
-title: Opzioni della libreria Target in  audience Adobe Target
-feature: audiences
+title: Libreria di Target Opzioni in Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '183'
-ht-degree: 96%
+source-wordcount: '185'
+ht-degree: 98%
 
 ---
 
