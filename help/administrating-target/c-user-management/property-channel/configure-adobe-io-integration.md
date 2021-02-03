@@ -1,13 +1,13 @@
 ---
-keywords: integration;roles;user permissions;admin console
+keywords: integrazione;ruoli;autorizzazioni utente;admin console
 description: Concedere alle  integrazioni Adobe I/O esistenti l'accesso a tutte le aree di lavoro con il ruolo desiderato in  Adobe Target
-title: Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli in Adobe Target
+title: Concedere  accesso alle aree di lavoro e assegnare i ruoli ad Adobe I/O Integrations
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '613'
-ht-degree: 85%
+source-wordcount: '616'
+ht-degree: 83%
 
 ---
 
