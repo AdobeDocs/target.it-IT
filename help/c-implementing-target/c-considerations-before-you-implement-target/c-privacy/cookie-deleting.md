@@ -1,13 +1,13 @@
 ---
-keywords: cookie;cookies;delete cookie;delete target cookie;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
+keywords: cookie;cookie;elimina cookie;elimina cookie di destinazione;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
 description: Elimina i cookie del browser di Target, in modo da poter convalidare tutte le esperienze.
-title: Eliminare il cookie  Adobe Target
+title: Eliminazione del cookie di Target
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '409'
-ht-degree: 5%
+source-wordcount: '424'
+ht-degree: 6%
 
 ---
 
