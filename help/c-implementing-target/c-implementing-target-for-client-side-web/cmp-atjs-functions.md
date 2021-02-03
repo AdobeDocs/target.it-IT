@@ -1,12 +1,12 @@
 ---
-keywords: at.js;functions;javascript library
+keywords: at.js;funzioni;libreria javascript
 description: Elenco di funzioni che possono essere utilizzate con la libreria JavaScript di at.js in Adobe Target.
-title: Funzioni di at.js in Adobe Target
+title: Funzioni di at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 100%
 
 ---
