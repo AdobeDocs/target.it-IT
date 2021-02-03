@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
 description: Kit di benvenuto  Adobe Target - Capitolo 5 - Ispirazione per attività di test e personalizzazione
-title: Kit di benvenuto  Adobe Target - Capitolo 5 - Ispirazione per attività di test e personalizzazione
+title: Kit Di Benvenuto - Capitolo 5 - Ispirazione per le attività di test e personalizzazione
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1046'
 ht-degree: 0%
 
 ---
