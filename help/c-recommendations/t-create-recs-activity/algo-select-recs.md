@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm
+keywords: raccomandazioni;attività di raccomandazione;criteri;algoritmo
 description: Seleziona i criteri da utilizzare nell’attività di Adobe Target Recommendations.
-title: Selezionare criteri
+title: Seleziona criteri
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 80%
+source-wordcount: '386'
+ht-degree: 79%
 
 ---
 
