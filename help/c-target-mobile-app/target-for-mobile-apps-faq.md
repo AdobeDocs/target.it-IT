@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;frequently asked questions;faq;target mobile app
+keywords: app mobile;domande frequenti;domande frequenti;domande frequenti;app mobile di destinazione
 description: Domande frequenti su  Adobe Target per app mobili.
-title: Domande frequenti su  Adobe Target per app mobili
-feature: mobile implementation
+title: Domande frequenti su Target per app mobili
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '300'
 ht-degree: 2%
 
 ---
