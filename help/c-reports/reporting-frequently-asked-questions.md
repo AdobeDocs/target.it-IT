@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;metric discrepancies;FAQ;reports;new visitor;new visitors;returning visitor;returning visitors;return visit;new visit
+keywords: risoluzione dei problemi;discrepanze di metriche;Domande frequenti;rapporti;nuovi visitatori;visitatori di ritorno;visitatori di ritorno;visita di ritorno;visita di ritorno
 description: Elenco delle domande frequenti sulla generazione di rapporti in Adobe Target.
-title: Domande frequenti sulla generazione di rapporti in Adobe Target
+title: Domande frequenti sulla generazione di rapporti
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1110'
-ht-degree: 31%
+source-wordcount: '1124'
+ht-degree: 30%
 
 ---
 
