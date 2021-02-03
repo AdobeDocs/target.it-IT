@@ -1,13 +1,13 @@
 ---
-keywords: mvt;multivariate test;offers;combinations
+keywords: mvt;test multivariato;offerte;combinazioni
 description: Utilizza il Compositore esperienza visivo in Adobe Target per creare le offerte da includere nel test multivariato (MVT).
-title: Creare combinazioni in test multivariati (MVT) utilizzando Adobe Target
+title: Creare combinazioni in test multivariati (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 96%
+source-wordcount: '505'
+ht-degree: 93%
 
 ---
 
