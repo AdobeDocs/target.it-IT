@@ -1,12 +1,12 @@
 ---
-keywords: add user;project;user group;properties;workspace;manage property;property;at_property;roles;permissions
+keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gestisci proprietà;proprietà;at_property;ruoli;autorizzazioni
 description: Aggiungere utenti all'implementazione Adobe Target ; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l'implementazione di Target per includere il parametro at_property; e specificare ruoli e autorizzazioni.
-title: Configurare le autorizzazioni Enterprise
+title: Configurazione delle autorizzazioni Enterprise
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1468'
+source-wordcount: '1482'
 ht-degree: 66%
 
 ---
