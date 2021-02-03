@@ -1,13 +1,13 @@
 ---
-keywords: implementation;mbox;download mbox.js;download api;mbox.js api
+keywords: implementazione;mbox;download mbox.js;download api;mbox.js api
 description: Per utilizzare  Adobe Target Standard o Target Premium, aggiungete una riga di codice per chiamare mbox.js.
 title: Implementazione di mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '256'
-ht-degree: 52%
+source-wordcount: '264'
+ht-degree: 50%
 
 ---
 
