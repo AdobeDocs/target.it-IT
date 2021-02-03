@@ -1,13 +1,13 @@
 ---
-keywords: at.js releases;at.js versions;single page app;spa;cross domain;cross-domain
+keywords: versioni at.js;release at.js;app a pagina singola;spa;domini diversi;tra domini diversi
 description: Informazioni dettagliate su come effettuare l’aggiornamento da Adobe Target at.js 1.*x* alla versione 2.0.0
-title: Aggiornamento da Adobe Target at.js versione 1.*x* alla versione 2.*x*
+title: Aggiornamento da at.js versione 1.x alla versione 2.x
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2749'
-ht-degree: 90%
+source-wordcount: '2757'
+ht-degree: 89%
 
 ---
 
