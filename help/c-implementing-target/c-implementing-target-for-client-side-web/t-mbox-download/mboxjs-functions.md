@@ -1,13 +1,13 @@
 ---
-keywords: mbox functions
+keywords: Funzioni mbox
 description: Elenco di funzioni mbox.js da utilizzare per l'implementazione con mbox.js.
 title: Funzioni di mbox.js
-feature: null
+feature: at.js
 translation-type: tm+mt
-source-git-commit: ae44c57c7b8767915fbbce4271a4b1858dd07efd
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 58%
+source-wordcount: '180'
+ht-degree: 59%
 
 ---
 
