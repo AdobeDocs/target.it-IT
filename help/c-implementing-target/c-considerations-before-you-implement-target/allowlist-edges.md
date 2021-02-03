@@ -1,12 +1,12 @@
 ---
-keywords: implement;implementing;whitelist;white list;allowlist;allow list;edge;edges
+keywords: implementare;implementazione;whitelist;whitelist;whitelist; inserì nell'elenco Consentiti; elenco consentiti;edge;edge;edge
 description: ' Inserire nell''elenco Consentiti  nodi periferici Adobe Target'
-title: ' Inserire nell''elenco Consentiti  nodi periferici Adobe Target'
+title: ' Inserire nell''elenco Consentiti nodi Edge Target'
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '116'
+source-wordcount: '125'
 ht-degree: 0%
 
 ---
