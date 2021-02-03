@@ -1,12 +1,12 @@
 ---
-keywords: visual experience composer options;experience composer options;experience options;edit text;edit html;edit text/html;edit background color;background color;insert element;edit link;link;visual experience composer link;edit css class;css class;swap offer;offer swap;swap image;image swap;remove item;item remove;hide item;item hide;rearrange;move element;element move;resize element;element resize;element;expand selection;navigate to this link;navigate link;link navigate;navigate;link;undo;redo;undo/redo
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica HTML;modifica testo/HTML;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;link;collegamento al compositore esperienza visivo;modifica classe CSS;classe CSS;sostituire l’offerta;sostituisci l’offerta;scambiare immagine;scambia immagine;rimuovere elemento;rimuovi elemento;nascondere una voce;nascondi voce;riorganizzare;spostare elemento;sposta elemento;ridimensionare elemento;ridimensiona elemento;elemento;espandere la selezione;passa a questo collegamento;passare a un link;passa a un link;navigare;annullare;ripeti;annulla/ripristina
 description: Quando fai clic su un elemento di pagina nel Compositore esperienza visivo di Adobe Target, un menu mostra le opzioni disponibili per tale tipo di elemento.
-title: Opzioni del Compositore esperienza visivo di Adobe Target
+title: Opzioni di Visual Experience Composer (VEC)
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2478'
 ht-degree: 94%
 
 ---
