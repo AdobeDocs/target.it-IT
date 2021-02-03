@@ -1,13 +1,13 @@
 ---
-keywords: at.js;non-production;non production;deploy
+keywords: at.js;non produzione;non produzione;distribuire
 description: Informazioni su come distribuire in modo sicuro at.js in un ambiente non di produzione.
-title: Distribuzione di at.js in un ambiente non di produzione
+title: Distribuire at.js in un ambiente non di produzione
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '369'
-ht-degree: 90%
+source-wordcount: '373'
+ht-degree: 91%
 
 ---
 
