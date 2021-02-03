@@ -1,13 +1,13 @@
 ---
-keywords: content;update content;assets;upload content;upload asset
+keywords: contenuto;aggiornare contenuto;risorse;caricare contenuto;caricare risorsa
 description: Come si caricano le immagini da usare come offerte di immagini?
-title: Caricare contenuto
+title: Carica contenuto
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 16b63ca221ef3a69dcb5b297b2164dc7bea864e8
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '215'
-ht-degree: 17%
+source-wordcount: '223'
+ht-degree: 19%
 
 ---
 
