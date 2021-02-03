@@ -1,9 +1,9 @@
 ---
 description: L’SDK di Adobe Mobile contatta il server di Target per ottenere il contenuto ed altri punti di dati per mostrare l’esperienza più appropriata all’utente.
 title: Funzionamento di Target nelle applicazioni per dispositivi mobili
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
 source-wordcount: '195'
 ht-degree: 100%
