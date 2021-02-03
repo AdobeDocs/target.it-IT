@@ -1,12 +1,12 @@
 ---
-keywords: mobile app;mobile app location;target mobile app;mobile target locations;location service;adobe experience cloud location service;pois;points of interest;sdk;location
+keywords: app mobile;posizione dell'app mobile;destinazione dell'app mobile;posizione dell'app mobile;posizione dell'app mobile;servizio di localizzazione;servizio di posizione cloud dell'esperienza Adobe;punti di interesse;sdk;posizione
 description: Questo argomento fornisce una panoramica su come utilizzare Adobe Experience Platform Location Service in  Adobe Target.
 title: Utilizzare il servizio posizione
-feature: mobile implementation
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '184'
 ht-degree: 3%
 
 ---
