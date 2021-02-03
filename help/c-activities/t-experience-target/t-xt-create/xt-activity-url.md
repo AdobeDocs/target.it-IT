@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;activity url;url
+keywords: Targeting delle esperienze;xt;activity url;url
 description: L'URL attività determina la pagina utilizzata nell'attività di targeting dell'esperienza di Adobe Target  e che si apre in Visual Experience Composer (VEC) o in Form-Based Experience Composer (Compositore esperienza basato su modulo) quando l'attività è progettata.
 title: URL attività
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 66%
+source-wordcount: '286'
+ht-degree: 65%
 
 ---
 
