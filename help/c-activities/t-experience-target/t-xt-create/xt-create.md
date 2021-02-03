@@ -1,13 +1,13 @@
 ---
-keywords: Experience Targeting;xt;create
+keywords: Targeting delle esperienze;xt;create
 description: Utilizza il Compositore esperienza visivo per creare un’attività Targeting esperienza su una pagina abilitata per Target e modificare alcune parti della pagina in Adobe Target.
 title: Creare un’attività Targeting esperienze
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 100%
+source-wordcount: '431'
+ht-degree: 99%
 
 ---
 
