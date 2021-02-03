@@ -1,12 +1,12 @@
 ---
-keywords: server side;server-side;sdk;sdks;on-device;decisioning;on device;ondevice;zero latency;latency;near-zero;node.js
-description: 'Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività di  Adobe Target A/B e Experience Targeting (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete su Adobe Target Edge Network . '
+keywords: lato server;lato server;sdk;sdk;su dispositivo;decisione;su dispositivo;ondevice;latenza zero;latenza;near-zero;node.js
+description: Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività di  Adobe Target A/B e Experience Targeting (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete su Adobe Target Edge Network .
 title: Decisioni su dispositivo
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '264'
+source-wordcount: '279'
 ht-degree: 0%
 
 ---
