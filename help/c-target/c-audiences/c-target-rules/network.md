@@ -1,12 +1,12 @@
 ---
-keywords: Targeting;network;target network;isp;domain name;connection speed;target isp;target domain name;target connection speed
+keywords: Targeting;rete;rete di target;isp;nome di dominio;velocità di connessione;isp target;nome di dominio target;velocità di connessione target
 description: Puoi creare tipi di pubblico in Adobe Target in base a dettagli della rete.
-title: Opzioni di rete  pubblico Adobe Target
-feature: audiences
+title: Opzioni di rete nel pubblico
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: fe6826e25b2d7c66ab245492f610585d0f5b3d69
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '497'
 ht-degree: 98%
 
 ---
