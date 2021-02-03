@@ -1,13 +1,13 @@
 ---
-keywords: recommendations;recommendations activity;criteria;algorithm;recommendation key;custom key;industry vertical;retail;eccommerce;lead generation;b2b;financial services;media;publishing
+keywords: raccomandazioni;attività di raccomandazione;criteri;algoritmo;chiave di raccomandazione;chiave personalizzata;settore verticale;retail;e-commerce;generazione di lead;b2b;servizi finanziari;media;pubblicazione
 description: I criteri in  Adobe Target sono regole che determinano quali prodotti o contenuti consigliare in base a un insieme predeterminato di comportamenti dei visitatori.
-title: Criteri in  Adobe Target Recommendations
+title: Criteri in Target Recommendations
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1059'
-ht-degree: 53%
+source-wordcount: '1079'
+ht-degree: 52%
 
 ---
 
