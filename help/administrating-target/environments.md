@@ -1,13 +1,13 @@
 ---
-keywords: environment;troubleshooting;best practices;ubox;redirects;redirect;whitelist;blacklist;blocklist;allowlist
+keywords: ambiente;risoluzione dei problemi;procedure ottimali;ubox;reindirizza;reindirizza;whitelist;blacklist; inserisce nell'elenco Bloccati; inserire nell'elenco Consentiti
 description: Organizzate i siti e gli ambienti di pre-produzione per semplificare la gestione e la creazione di report separati in  Adobe Target.
 title: Ambienti
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 9b57d5554884b06d278c3baef3b2c1d5f37bdeb5
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '657'
-ht-degree: 65%
+source-wordcount: '668'
+ht-degree: 64%
 
 ---
 
