@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;audience;reporting;success metric
+keywords: Targeting;pubblico;creazione di rapporti;metrica di successo
 description: Scegli una metrica di successo in Adobe Target che qualifichi l’utente per il pubblico di reportistica.
-title: Applicare un pubblico di reportistica a una metrica di successo in Adobe Target
-feature: success metrics
+title: Applicazione di un pubblico di reporting a una metrica di successo
+feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '290'
-ht-degree: 100%
+source-wordcount: '292'
+ht-degree: 97%
 
 ---
 
