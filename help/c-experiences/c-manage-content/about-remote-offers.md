@@ -1,13 +1,13 @@
 ---
-keywords: remote offer;remote offer selection matrix;cached content;dynamic content;url type
+keywords: offerta remota;matrice di selezione dell'offerta remota;contenuto memorizzato nella cache;contenuto dinamico;tipo URL
 description: Posso utilizzare le offerte remote per ospitare contenuti esterni?
-title: Creare offerte remote
+title: Creazione di offerte remote
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 3456eb3844d37dcc8f2d8a4d0fe713c50e0c234c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1047'
-ht-degree: 51%
+source-wordcount: '1059'
+ht-degree: 50%
 
 ---
 
