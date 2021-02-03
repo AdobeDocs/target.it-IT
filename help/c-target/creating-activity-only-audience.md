@@ -1,13 +1,13 @@
 ---
-keywords: audience;audience rules;create audience;creating audience;activity only;activity-only;adhoc
+keywords: pubblico;regole pubblico;creare pubblico;creazione di pubblico;solo attività;per una sola attività;ad hoc
 description: Durante la creazione di un’attività in Adobe Target puoi creare tipi di pubblico per sole attività dal flusso di lavoro guidato in tre passaggi. Questi tipi di pubblico specifici possono essere utilizzati in altre aree della stessa attività, ma non vengono memorizzati nella Libreria pubblico e non possono quindi essere utilizzati in altre attività.
-title: Creare un pubblico per sola attività in Adobe Target
-feature: audiences
+title: Creare Un Pubblico Solo Per Attività
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 100%
+source-wordcount: '410'
+ht-degree: 99%
 
 ---
 
