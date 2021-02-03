@@ -1,12 +1,12 @@
 ---
 keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
 description: È possibile configurare un’attività in Target Standard/Premium per utilizzare Adobe Analytics come origine per la generazione di rapporti (A4T).
-title: Creare un'attività che utilizza A4T come origine di reporting
+title: Creare un'attività che utilizza A4T
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4f0f1df1bcb6baad0e20c4dc1ae7e12751080d91
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '649'
 ht-degree: 43%
 
 ---
