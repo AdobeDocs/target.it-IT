@@ -1,13 +1,13 @@
 ---
-keywords: content;create folder;assets;move folder;copy folder;delete folder;download folder;folder
+keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
 description: Come si creano le cartelle nella libreria Offerte?
-title: Creare una cartella di offerta
+title: Creazione di una cartella di offerta
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 4ea0a50b2b37fc23fa9c60730af9a41c80cf2082
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '245'
-ht-degree: 21%
+source-wordcount: '258'
+ht-degree: 25%
 
 ---
 
