@@ -1,13 +1,13 @@
 ---
-keywords: site pages;target site pages;targeting;current page;target current page;previous page;target previous page;landing page;target landing page;http header
+keywords: pagine del sito;pagine del sito di destinazione;targeting;pagina corrente;pagina corrente di destinazione;pagina precedente;pagina precedente di destinazione;pagina di destinazione;pagina di destinazione;intestazione http
 description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
-title: Opzioni delle pagine del sito in  pubblico Adobe Target
-feature: audiences
+title: Opzioni delle pagine del sito nel pubblico
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '862'
-ht-degree: 41%
+source-wordcount: '883'
+ht-degree: 40%
 
 ---
 
