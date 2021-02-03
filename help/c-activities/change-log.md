@@ -1,13 +1,13 @@
 ---
-keywords: activity change log;change log
+keywords: registro delle modifiche dell'attività;registro delle modifiche
 description: Il registro delle modifiche tiene traccia delle modifiche apportate alle attività e indica da chi e quando sono state apportate.
-title: Accesso alle modifiche dell'attività  Adobe Target
-feature: activities
+title: Registro delle modifiche apportate alle attività
+feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 77%
+source-wordcount: '102'
+ht-degree: 78%
 
 ---
 
