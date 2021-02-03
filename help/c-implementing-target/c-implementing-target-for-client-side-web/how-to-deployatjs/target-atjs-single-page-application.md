@@ -1,13 +1,13 @@
 ---
-keywords: single page application implementation;implement single page application;spa;at.js 2.x;at.js;single page application;single page app;spa;SPAs
+keywords: implementazione dell'applicazione a pagina singola;implementazione dell'applicazione a pagina singola;spa;at.js 2.x;at.js;applicazione a pagina singola;app a pagina singola;spa;SPA
 description: Informazioni per utilizzare Adobe Target at.js 2.x per implementare applicazioni a pagina singola.
-title: Implementazione di applicazioni a pagina singola in Adobe Target
+title: Implementazione applicazione a pagina singola
 feature: Implement Server-side
 translation-type: tm+mt
-source-git-commit: 88f6e4c6ad168e4f9ce69aa6618d8641b466e28a
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2752'
-ht-degree: 74%
+source-wordcount: '2769'
+ht-degree: 73%
 
 ---
 
@@ -208,9 +208,9 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 | Passaggio | Dettagli |
 | --- | --- |
-| 1 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
+| 3 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
 | 2 | Il contenuto mirato per la visualizzazione viene letto dalla cache. |
-| 3 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
+| 1 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 4 | Si invia la richiesta di notifica all&#39;archivio profili di [!DNL Target] per conteggiare il visitatore nell&#39;attività e nelle metriche incrementali. |
 | 5 | Dati di Analytics inviati ai server di raccolta dati. |
 | 6 | I dati di Target vengono confrontati con i dati di Analytics tramite SDID e vengono elaborati nell’archivio dei rapporti di Analytics. È quindi possibile visualizzare i dati di Analytics sia in Analytics che in Target tramite i rapporti A4T. |
@@ -282,7 +282,7 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 
 | Passaggio | Azione | Dettagli |
 | --- | --- | --- |
-| 1 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
+| 3 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
 | 2 | Carica a.js 2.x | at.js 2.x carica tutte le API necessarie che utilizzate per implementare le richieste e le viste [!DNL Target]. |
 | 3 | Esegui [!DNL Target] richiesta | Se si dispone di un livello dati, si consiglia di caricare i dati critici che è necessario inviare a [!DNL Target] prima di eseguire una richiesta [!DNL Target]. Questo consente di utilizzare `targetPageParams` per inviare i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se sono state impostate le viste `pageLoadEnabled` e `viewsEnabled`, con il passaggio 2 vengono automaticamente eseguiti > pageLoad e prefetch > le viste; in caso contrario, è necessario utilizzare l&#39;API `getOffers()` per effettuare questa richiesta. |
 | 4 | Chiamata `triggerView()` | Poiché la richiesta [!DNL Target] avviata nel passaggio 3 potrebbe restituire esperienze sia per l&#39;esecuzione del caricamento delle pagine che per le viste, accertatevi che `triggerView()` venga chiamata dopo la restituzione della richiesta [!DNL Target] e che le offerte vengano applicate alla cache. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
@@ -293,7 +293,7 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 
 | Passaggio | Azione | Dettagli |
 | --- | --- | --- |
-| 1 | Chiamata `visitor.resetState()` | Questa API assicura che l&#39;identificatore SDID venga rigenerato per la nuova visualizzazione durante il caricamento. |
+| 3 | Chiamata `visitor.resetState()` | Questa API assicura che l&#39;identificatore SDID venga rigenerato per la nuova visualizzazione durante il caricamento. |
 | 2 | Aggiornare la cache chiamando l&#39;API `getOffers()` | Si tratta di un passaggio facoltativo da eseguire se questa modifica di visualizzazione ha un potenziale per qualificare il visitatore corrente per più attività [!DNL Target] o per escluderlo dalle attività. A questo punto, potete anche scegliere di inviare dati aggiuntivi a [!DNL Target] per abilitare ulteriori funzionalità di targeting. |
 | 3 | Chiamata `triggerView()` | Se avete eseguito il passaggio 2, dovete attendere la richiesta [!DNL Target] e applicare le offerte alla cache prima di eseguire questo passaggio. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
 | 4 | Chiamata `triggerView()` | Se non hai eseguito il Passaggio 2, puoi eseguire questo passaggio non appena avrai completato il Passaggio 1. Se hai eseguito i passaggi 2 e 3, devi saltare questo passaggio. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
