@@ -4,15 +4,15 @@ description: Il riepilogo del test fornisce una panoramica visiva del test multi
 title: Riepilogo del test
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '105'
-ht-degree: 75%
+source-wordcount: '106'
+ht-degree: 72%
 
 ---
 
 
-# Riepilogo del test (Test multivariati)
+# Riepilogo test (test multivariati)
 
 Il riepilogo del test fornisce una panoramica visiva del [!DNL Adobe Target] [!UICONTROL Test multivariato].
 
