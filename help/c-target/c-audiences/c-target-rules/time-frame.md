@@ -1,13 +1,13 @@
 ---
-keywords: time frame;start date;end date;start/end dates;timeframe;target schedule;week parting;day parting;parting
+keywords: intervallo temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
 description: Puoi aggiungere date e orari di inizio/fine per rivolgerti agli utenti che visitano il tuo sito durante un intervallo temporale specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
-title: Opzioni di frame temporali in  pubblico Adobe Target
-feature: audiences
+title: Opzioni per i frame temporali in Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 96%
+source-wordcount: '425'
+ht-degree: 97%
 
 ---
 
