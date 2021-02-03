@@ -1,12 +1,12 @@
 ---
-keywords: welcome kit;target welcome kit;intro;introduction;getting started
+keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
 description: Kit di benvenuto  Adobe Target - Capitolo 9 - Prossimi passi e risorse
-title: Kit di benvenuto  Adobe Target - Capitolo 9 - Prossimi passi e risorse
+title: Kit di benvenuto - Capitolo 9 - Prossimi passi e risorse
 feature: Overview
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '701'
 ht-degree: 0%
 
 ---
