@@ -1,13 +1,13 @@
 ---
-keywords: activity settings;goals and settings;multivariate;mvt
+keywords: impostazioni attività;obiettivi e impostazioni;multivariato;mvt
 description: La pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target contiene le informazioni sugli obiettivi del test.
 title: Obiettivi e impostazioni
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1258'
-ht-degree: 93%
+source-wordcount: '1265'
+ht-degree: 92%
 
 ---
 
