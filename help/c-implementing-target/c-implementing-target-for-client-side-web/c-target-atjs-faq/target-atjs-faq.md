@@ -1,12 +1,12 @@
 ---
-keywords: at.js faq;at.js frequently asked questions;faq;flicker;loader;page loader;cross domain;file size;filesize;x-domain;at.js and mbox.js;x only;cross domain;safari;single page app;missing selectors;selectors;single page application;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;ip address;httponly;HttpOnly;secure;ip;cookie domain
+keywords: faq at.js;domande frequenti at.js;faq;visualizzazione temporanea;caricatore;caricatore pagina;cross domain;dimensione file;dimensioni file;dominio x;at.js e mbox.js;solo x;diversi domini;safari;app a pagina singola;selettori mancanti;selettori;applicazione a pagina singola;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;indirizzo ip;httponly;Httponly;protetto;ip;dominio cookie
 description: Risposte alle domande frequenti sulla libreria JavaScript di Adobe Target at.js.
-title: Domande frequenti su Adobe Target at.js
+title: Domande frequenti su at.js
 feature: at.js
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2652'
+source-wordcount: '2698'
 ht-degree: 94%
 
 ---
