@@ -1,13 +1,13 @@
 ---
-keywords: mobile app;mobile app send data;target mobile app;mobile custom user data;mobile app custom data
+keywords: app mobile;inviare dati app mobile;app mobile target;dati personalizzati utente mobile;app mobile;dati personalizzati app mobile
 description: Puoi inviare a Target informazioni aggiuntive sulla posizione o sull’utente, sotto forma di coppie nome-valore.
-title: iOS - Inviare dati utente personalizzati
-feature: mobile implementation
+title: IOS - Invia dati utente personalizzati
+feature: Implement Mobile
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '322'
-ht-degree: 100%
+source-wordcount: '339'
+ht-degree: 98%
 
 ---
 
