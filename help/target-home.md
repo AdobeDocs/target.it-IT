@@ -1,14 +1,14 @@
 ---
-keywords: Target;home;popular topics;adobe target;standard;premium;target documentation;adobe target documentation
+keywords: Target;home;argomenti più comuni;adobe target;standard;premium;target documentation;adobe target documentation
 title: Guida di Adobe Target
-description: Visualizzate la home page di Target Guide.
+description: Dove posso trovare la documentazione di Target?
 seo-description: Adobe Target è la soluzione di Adobe Experience Cloud che offre tutto il necessario per adattare e personalizzare l'esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 feature: Overview
 translation-type: tm+mt
-source-git-commit: eb51e8951643fcf64d7a9464d57f809636c9c931
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '703'
-ht-degree: 63%
+source-wordcount: '714'
+ht-degree: 62%
 
 ---
 
