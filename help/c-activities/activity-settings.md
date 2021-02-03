@@ -1,13 +1,13 @@
 ---
-keywords: Goal & Settings;objective;priority;duration
+keywords: Obiettivi e impostazioni;obiettivo;priorità;durata
 description: Utilizzate Impostazioni attività in  Adobe Target per gestire l'obiettivo, la priorità e la durata delle attività.
-title: Impostazioni delle attività
+title: Impostazioni attività
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '404'
-ht-degree: 83%
+source-wordcount: '409'
+ht-degree: 82%
 
 ---
 
