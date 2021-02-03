@@ -1,12 +1,12 @@
 ---
-keywords: audience;audience rules;create audience;creating audience;targeting audience;reporting audience;report audience;segment;custom profile parameters;audience definition;audiences list
+keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;pubblico di destinazione;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
 description: I tipi di pubblico (o audience) in Adobe Target determinano le fasce di visitatori a cui verranno presentati i contenuti e le esperienze di un’attività di destinazione.
-title: Utilizzo del pubblico in Adobe Target
-feature: audiences
+title: Creazione di audience
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '897'
 ht-degree: 95%
 
 ---
