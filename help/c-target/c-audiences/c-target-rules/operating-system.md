@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;target operating system;operating system;target os;os;target linux;linux;target windows;windows;target macintosh;macintosh;mac;target mac;win;target win
+keywords: targeting;target;sistema operativo target;sistema operativo;os target;os;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
 description: Puoi indirizzare l’attività ai visitatori che utilizzano un determinato sistema operativo.
-title: Opzioni del sistema operativo in  pubblico Adobe Target
-feature: audiences
+title: Sistema operativo Opzioni in Audiences
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '99'
-ht-degree: 92%
+source-wordcount: '121'
+ht-degree: 97%
 
 ---
 
