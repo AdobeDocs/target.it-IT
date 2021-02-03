@@ -1,12 +1,12 @@
 ---
-keywords: revenue lift;revenue;estimating lift in revenue;calculate lift;estimated value
+keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore stimato
 description: Utilizzate  Adobe Target per stimare l'incremento delle entrate che otterreste se tutti gli utenti visualizzassero l'esperienza vincente.
-title: Stimare l’Incremento dei ricavi
+title: Estimate Lift in Revenue (Incremento stimato delle entrate)
 feature: Administration & Configuration
 translation-type: tm+mt
-source-git-commit: 1c5fd1062da5f90f24720fc3deb67f7f3b05aee9
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '517'
 ht-degree: 90%
 
 ---
@@ -18,7 +18,7 @@ Utilizzate [!DNL Adobe Target] per stimare l&#39;incremento delle entrate che ot
 
 >[!NOTE]
 >
->Al momento l&#39;incremento stimato non è disponibile per le attività [!UICONTROL Experience Targeting] (XT) di &lt;a0/>Experience Targeting.
+>Al momento l&#39;incremento stimato non è disponibile per le attività [!UICONTROL Experience Targeting] (XT) di Experience Targeting.
 
 La funzione per la stima dell’incremento è disattivata per impostazione predefinita. Può essere attivata nelle preferenze dell’account. Solo gli utenti amministratore di Experience Cloud possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 
