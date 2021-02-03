@@ -1,12 +1,12 @@
 ---
-keywords: create recommendations;recommendations activity;new recommendations;recommendations overview
+keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 title: Creare un’attività Consigli
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1303'
+source-wordcount: '1311'
 ht-degree: 78%
 
 ---
