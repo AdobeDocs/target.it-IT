@@ -1,12 +1,12 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
 description: Informazioni su Adobe Target e lo standard IETF SameSite introdotto con Google Chrome versione 80.
-title: ' i criteri dei cookie di Adobe Target e Google SameSite'
+title: Le politiche sui cookie Samesite di Google
 feature: Privacy & Security
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '2033'
+source-wordcount: '2035'
 ht-degree: 8%
 
 ---
@@ -46,7 +46,7 @@ Anche se i cookie migliorano le esperienze utente e la pubblicità di potenza, p
 
 Detto questo, vediamo come [!DNL Target] utilizza i cookie. Per poter utilizzare [!DNL Target] in primo luogo, è necessario installare la [!DNL Target] libreria JavaScript sul sito. Questo consente di inserire un cookie di prima parte nel browser dell&#39;utente che visita il sito. Quando l&#39;utente interagisce con il sito Web, è possibile trasmettere i dati comportamentali e di interesse dell&#39;utente a [!DNL Target] tramite la libreria JavaScript. La libreria JavaScript [!DNL Target] utilizza cookie di prime parti per estrarre informazioni identificative sull&#39;utente da mappare ai dati di comportamento e interesse dell&#39;utente. Questi dati vengono quindi utilizzati da [!DNL Target] per potenziare le attività di personalizzazione.
 
-Target utilizza anche (a volte) cookie di terze parti. Se possedete più siti Web che vivono su domini diversi e desiderate monitorare il percorso utente attraverso tali siti, potete utilizzare cookie di terze parti sfruttando il monitoraggio tra domini diversi. Attivando il tracciamento tra domini nella [!DNL Target] libreria JavaScript, l&#39;account inizierà a utilizzare cookie di terze parti. Quando un utente passa da un dominio all&#39;altro, il browser comunica con il server di back-end di [!DNL Target] e, in questo processo, viene creato un cookie di terze parti che viene inserito nel browser dell&#39;utente. Grazie al cookie di terze parti presente nel browser dell&#39;utente, [!DNL Target] è in grado di fornire un&#39;esperienza coerente tra domini diversi per un singolo utente.
+Target utilizza anche (a volte) cookie di terze parti. Se possedete più siti Web che vivono su domini diversi e desiderate monitorare il percorso degli utenti su tali siti Web, potete utilizzare cookie di terze parti sfruttando il monitoraggio tra domini diversi. Attivando il tracciamento tra domini nella [!DNL Target] libreria JavaScript, l&#39;account inizierà a utilizzare cookie di terze parti. Quando un utente passa da un dominio all&#39;altro, il browser comunica con il server di back-end di [!DNL Target] e, in questo processo, viene creato un cookie di terze parti che viene inserito nel browser dell&#39;utente. Grazie al cookie di terze parti presente nel browser dell&#39;utente, [!DNL Target] è in grado di fornire un&#39;esperienza coerente tra domini diversi per un singolo utente.
 
 ## La nuova ricetta di cookie di Google
 
