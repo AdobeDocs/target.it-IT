@@ -1,12 +1,12 @@
 ---
-keywords: multivariate test;mvt;experience performance report
+keywords: test multivariato;MVT;rapporto prestazioni esperienza
 description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
-title: Rapporto Prestazioni Esperienza (MVT)
+title: Report Prestazioni Esperienza (MVT)
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '331'
 ht-degree: 99%
 
 ---
