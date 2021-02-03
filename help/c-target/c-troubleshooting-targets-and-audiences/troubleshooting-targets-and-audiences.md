@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;targets;audiences
+keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
 description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
-title: Domande frequenti su destinazioni e pubblico
-feature: audiences
+title: Domande frequenti su Target e audience
+feature: Audiences
 translation-type: tm+mt
-source-git-commit: 968d36d65016e51290f6bf754f69c91fd8f68405
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '934'
-ht-degree: 69%
+source-wordcount: '942'
+ht-degree: 68%
 
 ---
 
