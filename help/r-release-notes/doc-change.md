@@ -1,12 +1,12 @@
 ---
-keywords: target documentation change log;documentation updates;new topics;edits;updates;update
-description: In questa pagina sono elencate le modifiche importanti apportate alla documentazione Adobe Target , ordinate per rilascio.
-title: Modifiche apportate alla documentazione di Adobe Target.
+keywords: registro delle modifiche alla documentazione di destinazione;aggiornamenti alla documentazione;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
+description: Quali modifiche sono state apportate alla documentazione?
+title: Modifiche alla documentazione
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 95e2ed4d9ca22e18b91533365624bcc001d09c34
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '3488'
+source-wordcount: '3487'
 ht-degree: 29%
 
 ---
