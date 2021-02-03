@@ -1,13 +1,13 @@
 ---
-keywords: activities;activity;activity types;edit activity;edit;draft
+keywords: attività;tipi di attività;modificare attività;modifica; bozza
 description: Informazioni sui diversi modi in cui è possibile modificare un'attività esistente in  Adobe Target, incluso il salvataggio di un'attività in formato bozza.
-title: Modificare un’attività o salvarla come bozza
+title: Modificare un'attività o salvare come bozza
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
 workflow-type: tm+mt
-source-wordcount: '1115'
-ht-degree: 96%
+source-wordcount: '1123'
+ht-degree: 95%
 
 ---
 
