@@ -1,13 +1,13 @@
 ---
 keywords: Note sulla versione;nuove funzioni;rilasci;aggiornamenti;aggiornamento;rilascio;miglioramenti;correzioni;correzioni di bug;aggiornamenti
-description: Quali nuove funzioni sono incluse nella versione corrente?
-title: Note sulla versione (corrente)
+description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  Adobe Target, inclusi SDK, API e librerie JavaScript.
+title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 40%
+source-wordcount: '714'
+ht-degree: 39%
 
 ---
 
