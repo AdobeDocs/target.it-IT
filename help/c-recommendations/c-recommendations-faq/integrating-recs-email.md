@@ -1,13 +1,13 @@
 ---
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
-description: Informazioni su come integrare le e-mail con i Consigli.
-title: Integrare Recommendations con e-mail
+description: Scoprite come integrare le e-mail con  Adobe Target Recommendations, utilizzando tra l'altro l'API Target Delivery, i modelli rawbox e i modelli solo per il download.
+title: Come posso integrare Recommendations con l'e-mail?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1475'
-ht-degree: 91%
+source-wordcount: '1490'
+ht-degree: 90%
 
 ---
 
