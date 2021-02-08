@@ -1,13 +1,13 @@
 ---
 keywords: Target;report;impostazioni report;metriche multiple;metriche mostrate;metriche nascoste
-description: Seleziona più metriche da visualizzare in un report utilizzando  Adobe Target.
-title: Visualizzare più metriche in un rapporto
+description: Scopri come selezionare più metriche da visualizzare in un report utilizzando  Adobe Target.
+title: Come si visualizzano più metriche in un report?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '427'
-ht-degree: 62%
+source-wordcount: '433'
+ht-degree: 59%
 
 ---
 
