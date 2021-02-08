@@ -1,13 +1,14 @@
 ---
 keywords: faq at.js;domande frequenti at.js;faq;visualizzazione temporanea;caricatore;caricatore pagina;cross domain;dimensione file;dimensioni file;dominio x;at.js e mbox.js;solo x;diversi domini;safari;app a pagina singola;selettori mancanti;selettori;applicazione a pagina singola;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;indirizzo ip;httponly;Httponly;protetto;ip;dominio cookie
-description: Risposte alle domande frequenti sulla libreria JavaScript di Adobe Target at.js.
-title: Domande frequenti su at.js
+description: Leggi le risposte alle domande frequenti sulla libreria JavaScript  Adobe Target at.js.
+title: Quali sono le domande e le risposte comuni su at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2698'
-ht-degree: 94%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
