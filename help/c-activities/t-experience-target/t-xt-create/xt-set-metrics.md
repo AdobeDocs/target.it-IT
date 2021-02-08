@@ -1,13 +1,13 @@
 ---
-keywords: experience targeting;xt;metrics;set metrics;goal metric;activity settings;success metric;conversion;revenue;engagement
-description: Utilizza le metriche in un’attività Targeting esperienza per determinare quando una visita ha esito positivo.
-title: Impostare le metriche
+keywords: Targeting esperienza;XT;metriche;impostazione metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;entrate;ricavi;coinvolgimento
+description: Scoprite come specificare le metriche in un'attività di targeting delle esperienze di Adobe Target  per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Partecipazione.
+title: Come si impostano le metriche degli obiettivi in un'attività di targeting delle esperienze?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '321'
-ht-degree: 92%
+source-wordcount: '353'
+ht-degree: 83%
 
 ---
 
