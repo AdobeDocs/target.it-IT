@@ -1,12 +1,12 @@
 ---
-keywords: behavioral data source;analytics;recommendations;criteria;product variables
-description: Utilizzando  Adobe Analytics come origine dati comportamentale, i client possono utilizzare i dati comportamentali basati sulla visualizzazione e/o sull'acquisto di Analytics in  Adobe Recommendations.
-title: Utilizzo di  Adobe Analytics con Target Recommendations
+keywords: origine dati comportamentale;analisi;raccomandazioni;criteri;variabili prodotto
+description: Scopri come utilizzare  Adobe Analytics come origine dati comportamentale per utilizzare i dati comportamentali basati sulla visualizzazione e/o sull'acquisto da Analytics in Target Recommendations.
+title: Come si utilizza  Adobe Analytics con Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1022'
+source-wordcount: '1035'
 ht-degree: 1%
 
 ---
