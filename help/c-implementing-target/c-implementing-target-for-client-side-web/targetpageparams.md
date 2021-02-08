@@ -1,13 +1,14 @@
 ---
 keywords: targetPageParams;targetpageparams;pageParams;pageparams;parametri pagina;parametri page;at.js;funzioni;funzione
-description: Informazioni sulla funzione targetPageParams() per la libreria JavaScript at.js di Adobe Target.
-title: Targetpageparams()
+description: Utilizzate la funzione targetPageParams() per la libreria JavaScript di Adobe Target at.js  per allegare parametri alla mbox globale dall'esterno del codice della richiesta.
+title: Come si utilizza la funzione targetPageParams()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '150'
-ht-degree: 88%
+source-wordcount: '168'
+ht-degree: 72%
 
 ---
 
