@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Kit di benvenuto  Adobe Target - Capitolo 4 - Suggerimenti per l'utilizzo di Target
-title: Kit di benvenuto - Capitolo 4 - Suggerimenti per l'utilizzo di Target
+description: Leggi suggerimenti dal nostro gruppo di esperti sull'utilizzo  Adobe Target come parte delle tue attività di test e personalizzazione.
+title: Dove è possibile trovare suggerimenti e trucchi per utilizzare Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2887'
+source-wordcount: '2900'
 ht-degree: 0%
 
 ---
