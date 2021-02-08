@@ -1,12 +1,12 @@
 ---
 keywords: ricerca catalogo;catalogo;ricerca;esclusione;raccolta;filtro
 description: Scoprite come utilizzare Recommendations Catalog Search per individuare prodotti o contenuti, creare raccolte o esclusioni, rimuovere elementi dal catalogo e altro ancora.
-title: Come utilizzare Recommendations Catalog Search
+title: Come si utilizza Recommendations Catalog Search?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1038'
+source-wordcount: '1039'
 ht-degree: 16%
 
 ---
