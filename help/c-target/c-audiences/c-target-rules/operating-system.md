@@ -1,13 +1,13 @@
 ---
 keywords: targeting;target;sistema operativo target;sistema operativo;os target;os;linux target;linux;windows target;windows;macintosh target;macintosh;mac;mac target;win;win target
-description: Puoi indirizzare l’attività ai visitatori che utilizzano un determinato sistema operativo.
-title: Sistema operativo Opzioni in Audiences
+description: Scoprite come eseguire il targeting dei visitatori che utilizzano un determinato sistema operativo (Linux, Macintosh o Windows).
+title: Posso eseguire il targeting dei visitatori in base al sistema operativo?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '121'
-ht-degree: 97%
+source-wordcount: '129'
+ht-degree: 82%
 
 ---
 
