@@ -1,13 +1,13 @@
 ---
 keywords: faq;domande frequenti;analytics for target;segmenti;a4T;condividere rapporti
-description: Questo argomento contiene le risposte alle domande che vengono spesso poste in merito alla condivisione di metriche, tipi di pubblico e rapporti quando si utilizza Analytics come origine per la creazione di rapporti per Target (A4T).
-title: Condivisione di metriche, audience e report - Domande frequenti su A4T
+description: Domande frequenti sulla condivisione di metriche, audience e report quando si utilizza Analytics per Target (A4T). A4T consente di utilizzare i report di Analytics per  attività Adobe Target.
+title: Dove è possibile trovare metriche di condivisione delle domande frequenti, audience e report in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 82%
+source-wordcount: '249'
+ht-degree: 70%
 
 ---
 
