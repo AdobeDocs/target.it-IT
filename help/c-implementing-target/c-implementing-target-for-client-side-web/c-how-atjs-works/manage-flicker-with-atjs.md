@@ -1,13 +1,14 @@
 ---
 keywords: sfarfallio;at.js;implementazione;asincrono;asincrono;sincrono;sincrono
-description: Informazioni su come la libreria JavaScript at.js di Adobe Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
-title: Gestione at.js della visualizzazione momentanea di altri contenuti
+description: Scoprite come at.js e  Adobe Target impediscono lo sfarfallio (il contenuto predefinito viene visualizzato momentaneamente prima di essere sostituito dal contenuto dell'attività) durante il caricamento della pagina o dell'app.
+title: In che modo at.js Manage Flicker?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 80%
+source-wordcount: '668'
+ht-degree: 76%
 
 ---
 
