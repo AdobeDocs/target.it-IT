@@ -1,13 +1,13 @@
 ---
-keywords: targeting;collisions;conflicts
-description: La scheda Collisions (Collisioni) nella pagina Activity Overview (Panoramica attività) in Adobe Target elenca le collisioni tra attività sul sito.
-title: Conflitti tra attività
+keywords: targeting;collisioni;conflitti
+description: Le collisioni si verificano quando più attività sono configurate per distribuire contenuto alla stessa pagina. Scoprite come evitare conflitti quando si utilizza  Adobe Target.
+title: Come Posso Evitare Collisioni Di Attività?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '335'
-ht-degree: 83%
+source-wordcount: '349'
+ht-degree: 79%
 
 ---
 
