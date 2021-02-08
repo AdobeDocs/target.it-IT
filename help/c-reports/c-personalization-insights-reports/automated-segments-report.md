@@ -1,10 +1,10 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
-description: Informazioni sul report Segmenti automatizzati, uno dei due report specializzati disponibili agli utenti delle attività  Automated Personalization (AP) e Auto-Target (AT) in  Adobe Target.
-title: Report Segmenti automatizzati
+description: Scopri in che modo diversi segmenti definiti  modelli di personalizzazione Adobe Target rispondono alle offerte/esperienze nell'attività visualizzando il rapporto Segmenti automatizzati.
+title: Che cos'è il report Segmenti automatizzati?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
