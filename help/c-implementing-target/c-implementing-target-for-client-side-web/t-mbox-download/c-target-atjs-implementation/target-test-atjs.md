@@ -1,13 +1,14 @@
 ---
 keywords: at.js;non produzione;non produzione;distribuire
-description: Informazioni su come distribuire in modo sicuro at.js in un ambiente non di produzione.
-title: Distribuire at.js in un ambiente non di produzione
+description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+title: Come si distribuisce at.js in un ambiente non di produzione?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 91%
+source-wordcount: '392'
+ht-degree: 82%
 
 ---
 
