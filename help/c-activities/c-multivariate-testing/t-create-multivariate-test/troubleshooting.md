@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;troubleshoot;troubleshooting;mvt
-description: Questo argomento contiene suggerimenti per la risoluzione di alcuni problemi che potrebbero verificarsi durante la progettazione di un test MVT in  Adobe Target.
-title: Risolvere i problemi relativi ai test multivariati
+keywords: Test multivariati;risoluzione dei problemi;risoluzione dei problemi;mvt
+description: Esplorate le potenziali sfide che potreste affrontare durante l'utilizzo delle attività Test multivariato (MVT) in  Adobe Target, insieme alle soluzioni suggerite.
+title: Come Si Risolvono I Problemi Relativi Ai Test Multivariati?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 45%
+source-wordcount: '176'
+ht-degree: 42%
 
 ---
 
