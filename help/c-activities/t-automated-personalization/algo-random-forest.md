@@ -1,13 +1,13 @@
 ---
 keywords: foresta casuale;albero decisionale;app; Automated Personalization
-description: “Foresta casuale” è l’algoritmo di personalizzazione principale di Target, utilizzato sia nella Personalizzazione automatizzata, sia nel Targeting automatico. I metodi di raggruppamento come Foresta casuale si basano su più algoritmi di apprendimento per ottenere prestazioni predittive migliori rispetto agli algoritmi di apprendimento costituenti. L’algoritmo Foresta casuale nel sistema di Personalizzazione automatizzata è un metodo di classificazione o regressione che si basa sulla costruzione di un elevato numero di alberi decisionali durante la fase di apprendimento.
-title: Algoritmo Foresta casuale
+description: Scoprite come  Adobe Target utilizza l'algoritmo Foresta casuale sia nelle attività di  Automated Personalization (AP) che in Auto-Target.
+title: In che modo Target utilizza l'algoritmo Foresta casuale?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1463'
-ht-degree: 97%
+source-wordcount: '1419'
+ht-degree: 95%
 
 ---
 
