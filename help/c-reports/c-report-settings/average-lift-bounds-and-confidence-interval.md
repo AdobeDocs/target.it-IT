@@ -1,13 +1,13 @@
 ---
-keywords: Target;reports;report settings;environment;lift;lift bound;variance;confidence;control
-description: I rapporti includono diversi punti dati e rappresentazioni delle visualizzazioni che consentono di comprendere meglio i limiti di incremento e il livello di confidenza associati all'attività di Adobe Target  per determinare con maggiore precisione un vincitore.
-title: Incremento medio, limiti di incremento e intervallo di affidabilità
+keywords: Target;rapporti;impostazioni dei rapporti;ambiente;incremento;limiti di incremento;varianza;affidabilità;controllo
+description: Scopri come interpretare  rapporti Adobe Target, che includono punti dati e rappresentazioni delle visualizzazioni per aiutarti a comprendere i limiti di incremento e il livello di confidenza delle tue attività.
+title: Come si visualizza l'incremento medio, i limiti di incremento e l'intervallo di confidenza?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 7b86db4b45f93a3c6169caf81c2cd52236bb5a45
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '807'
-ht-degree: 73%
+source-wordcount: '817'
+ht-degree: 72%
 
 ---
 
