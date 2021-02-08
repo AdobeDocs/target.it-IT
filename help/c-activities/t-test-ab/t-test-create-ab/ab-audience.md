@@ -1,13 +1,13 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
 description: L'audience determina quali visitatori del sito vengono immessi nell'attività Adobe Target .
-title: Selezionare il pubblico
+title: Come si seleziona un pubblico in un'attività A/B di Target?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 92%
+source-wordcount: '444'
+ht-degree: 90%
 
 ---
 
