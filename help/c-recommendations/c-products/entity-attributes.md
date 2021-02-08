@@ -1,12 +1,12 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
-description: Utilizzate gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad  Adobe Target Recommendations.
-title: Attributi di entità
+description: Scoprite come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad  Adobe Target Recommendations.
+title: Come Si Utilizzano Gli Attributi Di Entità?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1050'
 ht-degree: 88%
 
 ---
