@@ -1,12 +1,12 @@
 ---
 keywords: attività;tipi di attività;modificare attività;modifica; bozza
-description: Informazioni sui diversi modi in cui è possibile modificare un'attività esistente in  Adobe Target, incluso il salvataggio di un'attività in formato bozza.
-title: Modificare un'attività o salvare come bozza
+description: Scoprite i diversi modi in cui potete modificare un'attività esistente in  Adobe Target, incluso il salvataggio di un'attività in formato bozza.
+title: Come si modifica un'attività o si salva come bozza?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1123'
+source-wordcount: '1126'
 ht-degree: 95%
 
 ---
