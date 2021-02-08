@@ -1,13 +1,13 @@
 ---
 keywords: interfaccia utente target;interfaccia utente;ui
-description: Come si utilizza l’interfaccia utente?
-title: Comprendere L'Interfaccia Utente
+description: Acquisisci familiarità con l'interfaccia utente e trova collegamenti verso informazioni più approfondite per aiutarti a ottenere il massimo da Target.
+title: Come si utilizza l'interfaccia di Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '800'
-ht-degree: 30%
+source-wordcount: '817'
+ht-degree: 29%
 
 ---
 
