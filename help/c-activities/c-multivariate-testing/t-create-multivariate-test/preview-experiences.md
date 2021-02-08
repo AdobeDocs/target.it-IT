@@ -1,12 +1,12 @@
 ---
 keywords: multivariato;mvt;preview;experience
-description: Poiché un test multivariato in  Adobe Target confronta più esperienze su una pagina, è utile visualizzare l'anteprima della pagina con ogni esperienza.
-title: Visualizzare in anteprima le esperienze per un test multivariato (MVT)
+description: Scoprite come visualizzare in anteprima ogni esperienza in un'attività Test multivariato (MVT) in  Adobe Target utilizzando Visual Experience Composer (VEC) (Compositore esperienza visivo).
+title: Come visualizzare in anteprima le esperienze per un test multivariato (MVT)
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '200'
+source-wordcount: '201'
 ht-degree: 68%
 
 ---
