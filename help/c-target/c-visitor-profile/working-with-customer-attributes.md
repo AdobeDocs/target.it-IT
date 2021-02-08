@@ -1,13 +1,13 @@
 ---
 keywords: gestione delle relazioni con i clienti;servizio record cliente;crs;crm;mbox3rdpartyid;attributi cliente;targeting;csv;crm;adobe experience cloud people
-description: Informazioni sull'utilizzo dei dati del cliente Enterprise provenienti da database CRM (Customer Relationship Management) per il targeting dei contenuti in  Adobe Target mediante l'uso di Attributi del cliente nel servizio Adobe Experience Cloud People.
-title: Attributi del cliente
+description: Scopri come utilizzare i dati dei clienti aziendali da un database CRM (Customer Relationship Management) per il targeting dei contenuti in  Adobe Target.
+title: Cosa sono gli attributi del cliente e come li uso?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1504'
-ht-degree: 40%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
