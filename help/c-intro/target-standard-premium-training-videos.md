@@ -1,13 +1,13 @@
 ---
 keywords: video di formazione;youtube;video;formazione video;esercitazione;esercitazioni;video
 description: Guarda i video di formazione per trarre il massimo da Target Standard e Target Premium.
-title: Video di formazione
+title: Dove È Possibile Trovare Video Di Formazione Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 67%
+source-wordcount: '169'
+ht-degree: 63%
 
 ---
 
