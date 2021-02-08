@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations
-description: Le attività Recommendations in  Adobe Target visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti sulla base dell'attività utente precedente o di altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
-title: Attività Attività
+description: Trova informazioni sulle attività Recommendations in  Adobe Target che visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle attività utente precedenti.
+title: Dove È Possibile Trovare Informazioni Sulle Attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '89'
-ht-degree: 47%
+source-wordcount: '83'
+ht-degree: 32%
 
 ---
 
