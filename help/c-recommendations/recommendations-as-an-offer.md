@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;consigli;offerta
-description: Funzione Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di targeting delle esperienze (XT)
-title: Recommendations come offerta nei test A/B (incluse le attività di allocazione automatica e targeting automatico) e di targeting delle esperienze (XT)
+description: Scopri come utilizzare  Adobe Recommendations come offerta nei test A/B (inclusi allocazioni automatiche e targeting automatico) e nelle attività Experience Targeting (XT).
+title: Come si utilizza Recommendations come offerta in altri tipi di attività?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '557'
-ht-degree: 95%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
