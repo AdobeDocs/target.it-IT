@@ -1,12 +1,13 @@
 ---
 keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gestisci proprietà;proprietà;at_property;ruoli;autorizzazioni
-description: Aggiungere utenti all'implementazione Adobe Target ; creare aree di lavoro, gruppi di utenti e proprietà; aggiornare l'implementazione di Target per includere il parametro at_property; e specificare ruoli e autorizzazioni.
-title: Configurazione delle autorizzazioni Enterprise
+description: Scoprite come aggiungere utenti a  Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiorna la tua implementazione; e specificare ruoli e autorizzazioni.
+title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1482'
+source-wordcount: '1479'
 ht-degree: 66%
 
 ---
