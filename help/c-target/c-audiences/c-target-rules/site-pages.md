@@ -1,12 +1,12 @@
 ---
 keywords: pagine del sito;pagine del sito di destinazione;targeting;pagina corrente;pagina corrente di destinazione;pagina precedente;pagina precedente di destinazione;pagina di destinazione;pagina di destinazione;intestazione http
-description: Potete eseguire il targeting dei visitatori che si trovano su una pagina specifica del sito.
-title: Opzioni delle pagine del sito nel pubblico
+description: Scoprite come eseguire il targeting dei visitatori utilizzando  Adobe Target che si trovano su una pagina specifica del sito.
+title: Posso eseguire il targeting dei visitatori in base alle pagine del sito?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '890'
 ht-degree: 40%
 
 ---
