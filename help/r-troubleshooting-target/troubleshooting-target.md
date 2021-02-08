@@ -1,13 +1,13 @@
 ---
 keywords: risolvere problemi di Target;risoluzione problemi di Target
-description: Elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
-title: Risoluzione dei problemi
+description: Leggi un elenco di argomenti utili per risolvere i problemi in  Adobe Target, inclusi argomenti per la risoluzione di problemi, domande frequenti e altri argomenti utili.
+title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '439'
-ht-degree: 97%
+source-wordcount: '445'
+ht-degree: 91%
 
 ---
 
