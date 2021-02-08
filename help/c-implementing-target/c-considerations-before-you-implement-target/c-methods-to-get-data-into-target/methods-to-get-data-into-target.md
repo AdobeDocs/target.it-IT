@@ -1,13 +1,14 @@
 ---
 keywords: implementa;implementazione;impostazione;installazione;parametro di pagina;tomcat;codifica url;attributo profilo di pagina;parametro mbox;attributi profilo di pagina;attributo profilo script;aggiornamento API bulk profilo;aggiornamento API file singolo;attributi cliente;fornitori di dati;fornitori dati;fornitori di dati
-description: Informazioni sui vari metodi che è possibile utilizzare per inserire dati in  Adobe Target, inclusi parametri di pagina, attributi di profilo di pagina, attributi di profilo di script, provider di dati, API di aggiornamento di profilo in massa, API di aggiornamento di profilo singolo e attributi cliente.
-title: Metodi per inserire dati in Target
+description: Trasferisci i dati in Target (parametri di pagina, attributi di profilo, attributi di profilo di script, provider di dati, API di aggiornamento di profili singolo e di massa, attributi cliente).
+title: Come si inseriscono i dati in Target?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1972'
-ht-degree: 92%
+source-wordcount: '1956'
+ht-degree: 93%
 
 ---
 
