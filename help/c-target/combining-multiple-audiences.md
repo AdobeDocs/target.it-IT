@@ -1,13 +1,13 @@
 ---
 keywords: pubblico;regole del pubblico;combinare il pubblico;esclusione;aggiungere esclusione;escludere;combinazione di tipi di pubblico;pubblico adhoc;pubblico ad hoc
-description: Combina al volo più tipi di pubblico (tra cui i tipi di pubblico di Adobe Experience Cloud e di Target) per creare un pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
-title: Combinare più tipi di pubblico
+description: Scopri come combinare più tipi di pubblico (comprese le audience di Adobe Experience Cloud e Target) al volo per creare audience ad hoc.
+title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '907'
-ht-degree: 99%
+source-wordcount: '905'
+ht-degree: 95%
 
 ---
 
