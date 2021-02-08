@@ -1,14 +1,15 @@
 ---
-keywords: implement;implementing
-description: Prima di cominciare a utilizzare Adobe Target, devi implementarlo sul tuo sito, capire alcuni concetti e termini di base, acquisire familiarità con il suo funzionamento e il modo in cui si integra con la tua infrastruttura e capire come il sistema traccia i visitatori.
-landing-page-description: Before you start using Adobe Target, you should implement it on your site, understand a few basic concepts and terms, and be familiar with how Target works.
-title: Implementare Target
+keywords: implementare;implementazione
+description: Comprendi i concetti di base, acquisisci familiarità con il funzionamento di Target e l'integrazione con la tua infrastruttura, e scopri in che modo i visitatori vengono tracciati.
+landing-page-description: Prima di iniziare a utilizzare Adobe Target, è necessario implementarlo sul sito, comprendere alcuni concetti e termini di base e acquisire familiarità con il suo funzionamento.
+title: Come Si Implementa Target?
 feature: Implementation
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '100'
-ht-degree: 100%
+source-wordcount: '111'
+ht-degree: 77%
 
 ---
 
