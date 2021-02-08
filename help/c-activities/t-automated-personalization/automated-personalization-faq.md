@@ -1,13 +1,13 @@
 ---
-keywords: troubleshooting;frequently asked questions;FAQ;FAQs;automated personalization;control;default experience;best practices
-description: Elenco delle domande frequenti sulla Personalizzazione automatizzata.
-title: Domande frequenti sulla Personalizzazione automatizzata
+keywords: risoluzione dei problemi;domande frequenti;Domande frequenti;Domande frequenti;personalizzazione automatizzata;controllo;esperienza predefinita;procedure ottimali
+description: Esplora un elenco delle domande frequenti e delle risposte sulle attività di Automated Personalization (AP)  (Frequently Asked Questions, domande frequenti) in  Adobe Target.
+title: Come è possibile trovare domande frequenti su  attività Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1963'
-ht-degree: 85%
+source-wordcount: '1990'
+ht-degree: 83%
 
 ---
 
