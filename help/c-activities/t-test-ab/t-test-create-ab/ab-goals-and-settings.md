@@ -1,13 +1,13 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni A/B;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo principale;metriche aggiuntive;obiettivo;priorità;durata;soluzione di reporting;obiettivo;audience per rapporti;Quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;Cosa succede dopo che un utente ha individuato questa metrica obiettivo;note
-description: La pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target contiene le informazioni sugli obiettivi del test.
-title: Obiettivi e impostazioni
+description: Scopri come utilizzare la pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target per specificare le informazioni sugli obiettivi di un'attività A/B.
+title: Come si specificano gli obiettivi e le impostazioni in un'attività A/B di Target?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1316'
-ht-degree: 93%
+source-wordcount: '1330'
+ht-degree: 92%
 
 ---
 
