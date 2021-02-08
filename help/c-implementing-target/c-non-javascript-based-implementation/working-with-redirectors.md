@@ -1,13 +1,14 @@
 ---
 keywords: Implementazione;mbox.js non JavaScript;redirector;costi per clic; ricavi per clic
-description: È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
-title: Utilizzo dei redirector
+description: Scoprite come utilizzare i redirector nelle implementazioni e-mail, in modo simile a come utilizzate una mbox nelle attività Adobe Target .
+title: Come si utilizzano i redirector?
 feature: Implement Email
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '670'
-ht-degree: 69%
+source-wordcount: '680'
+ht-degree: 66%
 
 ---
 
