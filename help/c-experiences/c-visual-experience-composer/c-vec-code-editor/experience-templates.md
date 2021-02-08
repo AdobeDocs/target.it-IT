@@ -1,13 +1,13 @@
 ---
-keywords: experience template;custom code;banner;lightbox;carousel;countdown;ribbon;buttons
-description: 'Informazioni sui modelli Adobe Target Experience per il codice personalizzato. I modelli di esperienza di Target sono esempi precodificati con input configurabili da utilizzare per casi di utilizzo ricorrenti per gli addetti al marketing. '
-title: Modelli di esperienza
+keywords: modello di esperienza;codice personalizzato;banner;lightbox;carosello;conto alla rovescia;barra multifunzione;pulsanti
+description: Scopri come utilizzare i modelli di esperienza, esempi precodificati con input configurabili da utilizzare per eseguire i casi di utilizzo di marketing comuni in  Adobe Target.
+title: Quali modelli di esperienza sono disponibili in Target?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '466'
-ht-degree: 85%
+source-wordcount: '477'
+ht-degree: 79%
 
 ---
 
