@@ -1,13 +1,13 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;raccomandazioni;promozione;promozioni;filtro dinamico;statico;filtro statico
-description: Immettete manualmente uno o più valori statici per filtrare utilizzando le regole di inclusione in  Adobe Target Recommendations.
-title: Filtrare Per Valori Statici Nelle Regole Di Inclusione In  Adobe Target Recommendations
+description: Scoprite come immettere manualmente uno o più valori statici per filtrare utilizzando le regole di inclusione in  Adobe Target Recommendations.
+title: In Che Modo È Possibile Filtrare In Base Ai Valori Statici Nelle Attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 46%
+source-wordcount: '227'
+ht-degree: 45%
 
 ---
 
