@@ -1,12 +1,13 @@
 ---
-description: Il modo in cui Target effettua e risponde alle chiamate dalla pagina dipende dalla versione della libreria di Target che stai utilizzando, dall’eventuale implementazione del servizio ID visitatore di Experience Cloud e dall’esistenza dell’ID del visitatore.
-title: Metodi per chiamate pagina per le diverse versioni della libreria mbox.js
+description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+title: Quali metodi di pagina utilizzano mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '939'
-ht-degree: 92%
+source-wordcount: '929'
+ht-degree: 88%
 
 ---
 
