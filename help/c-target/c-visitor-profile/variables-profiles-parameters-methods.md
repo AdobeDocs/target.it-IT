@@ -1,13 +1,13 @@
 ---
 keywords: variabili;profili;parametri;profili incorporati;metodi;variabili URL;profili geo;profili di terze parti;variabili mbox;variabili di campagna;attributi dei clienti
-description: Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
-title: Glossario di profili e variabili
+description: Visualizzare un elenco di profili, variabili e parametri utili negli script di profilo in  Adobe Target.
+title: Quali profili, variabili e parametri vengono utilizzati in Target?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '582'
-ht-degree: 92%
+source-wordcount: '592'
+ht-degree: 88%
 
 ---
 
