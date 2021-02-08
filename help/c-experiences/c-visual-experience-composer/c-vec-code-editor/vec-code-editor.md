@@ -1,12 +1,12 @@
 ---
-keywords: css selector;custom code;code editor;Mobile Web Experience Editor
-description: Informazioni sulla pagina Modifiche in  Adobe Target che consente di visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (Selettore CSS, Mbox e Codice personalizzato).
-title: Modifiche
+keywords: selettore css;codice personalizzato;editor di codice;Mobile Web Experience Editor
+description: Scoprite come utilizzare il pannello Modifiche in  Adobe Target per visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (Selettore CSS, Mbox e Codice personalizzato).
+title: Quali modifiche posso apportare alla mia pagina?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2107'
+source-wordcount: '2123'
 ht-degree: 97%
 
 ---
