@@ -1,13 +1,13 @@
 ---
-keywords: capture score;score
-description: La metrica di coinvolgimento Capture Score in  Adobe Target calcola un punteggio aggregato basato sul valore assegnato alle pagine visitate sul sito, dal momento in cui il visitatore vede per la prima volta la prima richiesta Target di visualizzazione della campagna.
-title: Punteggio di acquisizione
+keywords: punteggio di acquisizione;punteggio
+description: Scopri la metrica di coinvolgimento Capture Score in  Adobe Target che calcola un punteggio aggregato in base al valore assegnato alle pagine visitate sul sito.
+title: Cos’è la metrica Capture Score?
 feature: Success Metrics
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '768'
-ht-degree: 50%
+source-wordcount: '765'
+ht-degree: 51%
 
 ---
 
