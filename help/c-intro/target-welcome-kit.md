@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: ' kit di benvenuto Adobe Target.'
-title: Kit di benvenuto
+description: Per  Adobe Target? Inizia subito con il kit di benvenuto  Adobe Target.
+title: Come si inizia a utilizzare Target
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '79'
+source-wordcount: '93'
 ht-degree: 0%
 
 ---
