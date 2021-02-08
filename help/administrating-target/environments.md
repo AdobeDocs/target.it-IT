@@ -1,13 +1,14 @@
 ---
 keywords: ambiente;risoluzione dei problemi;procedure ottimali;ubox;reindirizza;reindirizza;whitelist;blacklist; inserisce nell'elenco Bloccati; inserire nell'elenco Consentiti
-description: Organizzate i siti e gli ambienti di pre-produzione per semplificare la gestione e la creazione di report separati in  Adobe Target.
-title: Ambienti
+description: Scoprite come utilizzare gli ambienti in  Adobe Target per organizzare i siti e gli ambienti di pre-produzione in modo da semplificare la gestione e la creazione di report separati.
+title: Cosa sono gli ambienti e come li uso?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '668'
-ht-degree: 64%
+source-wordcount: '682'
+ht-degree: 63%
 
 ---
 
