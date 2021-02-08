@@ -1,13 +1,13 @@
 ---
 keywords: ' Experience Cloud;accedere;lingua;lingua predefinita;lingua predefinita'
-description: Come posso accedere a Target dall'Adobe Experience Cloud?
-title: Accesso a Target dall'Adobe Experience Cloud
+description: Scopri come accedere a Target dall'Adobe Experience Cloud, impostare la visualizzazione predefinita e modificare la lingua dell'interfaccia utente e della documentazione di Target.
+title: Come posso accedere a Target dall'Adobe Experience Cloud?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '402'
-ht-degree: 69%
+source-wordcount: '419'
+ht-degree: 67%
 
 ---
 
