@@ -1,14 +1,14 @@
 ---
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
-description: Per definire informazioni aggiuntive sugli elementi del catalogo, utilizza attributi di entità personalizzati a valore singolo e multiplo.
-title: Attributi di entità personalizzati
+description: Scoprite come utilizzare gli attributi di entità personalizzata a valore singolo e multivalore per definire informazioni aggiuntive sugli elementi nel  catalogo Adobe Target Recommendations.
+title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
 feature: Recommendations
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1391'
-ht-degree: 91%
+source-wordcount: '1401'
+ht-degree: 89%
 
 ---
 
