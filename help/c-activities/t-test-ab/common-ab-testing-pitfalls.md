@@ -1,13 +1,13 @@
 ---
 keywords: AB;A/B;AB..n;errori;errori;errori;errore;errore;pitfall;rilevanza;vincitore;differenza statistica;statistica;potenza statistica;potenza statistica;allocazione traffico;allocazione;
-description: I test A/B in  Adobe Target costituiscono la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale, consentendo agli esperti di marketing di offrire esperienze ottimizzate e mirate ai visitatori e ai clienti. Questa sezione descrive nove delle insidie più significative a cui le aziende sono soggette quando eseguono test A/B in  Adobe Target. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
-title: Nove insidie frequenti per i test A/B e come evitarle
+description: Scoprite come evitare le insidie e gli errori più comuni che le aziende fanno quando eseguono test A/B in  Adobe Target e in altre soluzioni di test.
+title: Come posso evitare errori comuni di test A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3940'
-ht-degree: 86%
+source-wordcount: '3885'
+ht-degree: 87%
 
 ---
 
