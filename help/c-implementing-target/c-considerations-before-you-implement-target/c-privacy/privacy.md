@@ -1,13 +1,14 @@
 ---
-keywords: privacy;ip address;geosegmentation;opt out;optout;opt-out;data privacy;government regulations;regulations;gdpr;ccpa
-description: In Adobe Target sono stati inclusi processi e impostazioni che ne consentono l’utilizzo in conformità con le leggi sulla riservatezza dei dati.
-title: Privacy
+keywords: privacy;indirizzo ip;geosegmentazione;opt out;optout;privacy;data privacy;regolamenti governativi;regolamenti;gdpr;ccpa
+description: Scopri in che modo  Adobe Target rispetta le leggi sulla privacy dei dati applicabili, compresa la raccolta e la gestione degli indirizzi IP e le istruzioni di rifiuto.
+title: In Che Modo Target Gestisce I Problemi Di Privacy?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 6bb75e3b818a71af323614d9150e50e3e9f611b7
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '638'
-ht-degree: 76%
+source-wordcount: '658'
+ht-degree: 70%
 
 ---
 
