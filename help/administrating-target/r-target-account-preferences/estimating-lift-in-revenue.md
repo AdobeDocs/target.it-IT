@@ -1,13 +1,14 @@
 ---
 keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore stimato
-description: Utilizzate  Adobe Target per stimare l'incremento delle entrate che otterreste se tutti gli utenti visualizzassero l'esperienza vincente.
-title: Estimate Lift in Revenue (Incremento stimato delle entrate)
+description: Stimate l'incremento che potreste ottenere se ogni visitatore visualizza l'esperienza vincente, se le tendenze continuano come hanno durante il test.
+title: Cosa posso stimare l'incremento delle entrate?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 90%
+source-wordcount: '525'
+ht-degree: 88%
 
 ---
 
