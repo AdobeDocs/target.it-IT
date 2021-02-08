@@ -1,13 +1,13 @@
 ---
-keywords: priority;experience create;priority;experience;audience;experience;switching experiences;visual experience composer
-description: Informazioni su come i visitatori possono passare da un’esperienza all’altra in un’attività Targeting esperienze (XT) mentre i loro profili evolvono.
-title: Passare ad altre esperienze nel targeting delle esperienze
+keywords: priorità;generare esperienze;esperienza;pubblico;passare a un’altra esperienza;compositore esperienza visivo
+description: Scoprite come i visitatori possono passare da un'esperienza all'altra in un'attività  di Adobe Target Experience Targeting (XT) man mano che i loro profili si evolvono.
+title: I visitatori possono cambiare esperienza in un'attività di targeting delle esperienze?
 feature: Experience Targeting
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '899'
-ht-degree: 100%
+source-wordcount: '915'
+ht-degree: 96%
 
 ---
 
