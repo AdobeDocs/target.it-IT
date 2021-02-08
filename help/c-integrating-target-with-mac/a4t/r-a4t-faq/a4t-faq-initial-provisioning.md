@@ -1,13 +1,13 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4t;provisioning;adobe experience cloud
-description: Questo argomento contiene le risposte alle domande più frequenti sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
-title: Provisioning iniziale - Domande frequenti su A4T
+description: Trovate le risposte alle domande frequenti sul provisioning di Analytics per Target (A4T), che vi consente di utilizzare i report di Analytics per le attività di Target.
+title: Dove posso trovare informazioni sul provisioning iniziale A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '473'
-ht-degree: 100%
+source-wordcount: '481'
+ht-degree: 92%
 
 ---
 
