@@ -1,13 +1,14 @@
 ---
 keywords: app mobile;posizione app mobile;target app mobile;posizioni target mobile;metriche di successo app mobile
-description: Per utilizzare Target nell’applicazione mobile, crea una posizione e una metrica di successo.
-title: IOS - Crea una posizione di destinazione e una metrica di successo
+description: Visualizzare il codice di esempio per imparare a creare posizioni e metriche di successo nelle app iOS in modo da poter utilizzare  Adobe Target per personalizzare e ottimizzare l'app.
+title: Come posso creare posizioni di destinazione e metriche di successo in un'app iOS?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '399'
-ht-degree: 91%
+source-wordcount: '420'
+ht-degree: 83%
 
 ---
 
