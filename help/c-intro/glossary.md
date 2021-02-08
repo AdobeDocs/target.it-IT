@@ -1,12 +1,12 @@
 ---
-description: Definizioni dei termini.
-title: Glossario
+description: Cosa significano termini diversi utilizzati in  Adobe Target? Scopri le definizioni dei termini comuni per ottenere maggiori informazioni su Target.
+title: Dove è possibile trovare termini e definizioni utilizzati in Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2289'
-ht-degree: 98%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
