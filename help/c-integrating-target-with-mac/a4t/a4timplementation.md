@@ -1,13 +1,13 @@
 ---
 keywords: A4T;Adobe Analytics;attività basata su Analytics;suite di rapporti di Analytics;suite di rapporti;integrazione di Target Analytics;configurazione di suite di rapporti
-description: Sono necessari diversi passaggi per implementare Adobe Analytics come origine per la generazione di rapporti per Target (A4T).
-title: Implementazione di Analytics for Target
+description: Seguite i passaggi richiesti per implementare Analytics per Target (A4T) nelle soluzioni Adobe Target  e  Adobe Analytics.
+title: Come posso implementare Analytics per Target (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '911'
-ht-degree: 51%
+source-wordcount: '919'
+ht-degree: 48%
 
 ---
 
