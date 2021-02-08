@@ -1,13 +1,13 @@
 ---
 keywords: problemi noti;problemi risolti;note sulla versione;bug;problemi;correzioni
-description: Dove è possibile trovare problemi noti e problemi risolti?
-title: Problemi noti e problemi risolti
+description: Trovate informazioni sui problemi noti in  Adobe Target, incluse le informazioni sulla soluzione alternativa. Quando i problemi vengono risolti, vengono spostati nella sezione Risolto.
+title: Dove è possibile trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '4355'
-ht-degree: 69%
+source-wordcount: '4374'
+ht-degree: 68%
 
 ---
 
