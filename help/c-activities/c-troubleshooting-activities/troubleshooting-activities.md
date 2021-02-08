@@ -1,13 +1,13 @@
 ---
 keywords: risolvi problemi di Target;risoluzione problemi di Target;contenuto predefinito;test non live;attività non live;targeting non funzionante;visualizzazione esperienza precedente;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina cambiata;messaggio di errore;errore elimina script profilo;AJAX non funziona
-description: Se l'attività Adobe Target  non viene visualizzata sul sito, questi suggerimenti per la risoluzione dei problemi dovrebbero facilitare la ricerca della soluzione.
-title: Risoluzione dei problemi relativi alle attività
+description: Trovate suggerimenti per la risoluzione dei problemi se l'attività Adobe Target  non viene visualizzata sul sito.
+title: Come Posso Risolvere I Problemi Delle Attività?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '842'
-ht-degree: 77%
+source-wordcount: '838'
+ht-degree: 78%
 
 ---
 
