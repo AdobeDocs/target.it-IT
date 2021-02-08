@@ -1,13 +1,13 @@
 ---
 keywords: Target Standard;faq;domande frequenti;guida di riferimento rapido;riferimento rapido
-description: Un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Target, oltre a informazioni e collegamenti verso ulteriori informazioni.
-title: Domande frequenti su ottimizzazione e personalizzazione
+description: Esplora un elenco di domande frequenti sull’utilizzo delle funzionalità in  Adobe Target, insieme a informazioni e collegamenti per ulteriori informazioni.
+title: Dove posso trovare risposte alle mie domande di ottimizzazione e personalizzazione?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2909'
-ht-degree: 97%
+source-wordcount: '2917'
+ht-degree: 96%
 
 ---
 
