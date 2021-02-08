@@ -1,13 +1,14 @@
 ---
 keywords: implementazione;implementazione;implementazione;adobe launch;launch;race;redirect;experience platform launch
-description: ' Adobe Experience Platform Launch è la piattaforma di gestione tag di nuova generazione  Adobe ed è il metodo preferito per implementare  Adobe Target. Launch offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate.'
-title: Implementare con Adobe Launch
+description: Scopri come implementare la libreria  Adobe Target at.js utilizzando  Adobe Experience Platform Launch, il metodo preferito per implementare  Adobe Target.
+title: Come posso implementare Target utilizzando  lancio Adobe?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '474'
-ht-degree: 79%
+source-wordcount: '454'
+ht-degree: 76%
 
 ---
 
