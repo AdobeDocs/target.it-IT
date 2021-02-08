@@ -1,13 +1,13 @@
 ---
-keywords: Recommendations
-description: Gli scenari di questo argomento mostrano come le modifiche apportate alla pagina influiscono  capacità di Adobe Target di visualizzare un'esperienza.
-title: Scenari di modifica delle pagine
+keywords: Consigli
+description: Esplora scenari comuni che mostrano come le modifiche apportate alla pagina in Visual Experience Composer (VEC) influiscono  capacità di Adobe Target di visualizzare un'esperienza.
+title: Quali Sono Alcuni Scenari Di Modifica Di Pagina Comuni?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '522'
-ht-degree: 92%
+source-wordcount: '532'
+ht-degree: 90%
 
 ---
 
