@@ -1,13 +1,13 @@
 ---
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
-description: Utilizzate il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in  Adobe Target Recommendations.
-title: Personalizzare un progetto con Velocity
+description: Scoprite come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in  Adobe Target Recommendations.
+title: Come posso personalizzare un progetto utilizzando Velocity?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1021'
-ht-degree: 61%
+source-wordcount: '1027'
+ht-degree: 60%
 
 ---
 
