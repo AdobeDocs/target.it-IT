@@ -1,13 +1,14 @@
 ---
 keywords: implementare target;implementazione;implementare at.js;tag manager
-description: Informazioni sull’implementazione di Adobe Target senza l’utilizzo di un sistema per la gestione dei tag (Adobe Launch o Dynamic Tag Management).
-title: Implementazione senza Gestione tag
+description: Scoprite come specificare le impostazioni (dettagli account, metodi di implementazione, ecc.) per implementare la libreria  Adobe Target at.js senza utilizzare un gestore di tag.
+title: Posso implementare Target senza un gestore di tag?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 69%
+source-wordcount: '1555'
+ht-degree: 68%
 
 ---
 
