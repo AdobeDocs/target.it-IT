@@ -1,12 +1,12 @@
 ---
 keywords: registro delle modifiche alla documentazione di destinazione;aggiornamenti alla documentazione;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
-description: Quali modifiche sono state apportate alla documentazione?
-title: Modifiche alla documentazione
+description: Aggiornatevi con importanti aggiunte e modifiche alla documentazione  del prodotto Adobe Target.
+title: Dove è possibile visualizzare gli aggiornamenti della documentazione per Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '3487'
+source-wordcount: '3522'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 febbraio | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | È stato aggiunto lo snippet di codice da aggiungere al file AndroidManifest.xml per la versione 4 dell’SDK Mobile  Adobe. |
 | 1 febbraio | [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: &quot;Domande frequenti.&quot; |
 | Gennaio 27 | [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Argomento aggiornato. |
 |  | [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md) | Argomento aggiornato. |
