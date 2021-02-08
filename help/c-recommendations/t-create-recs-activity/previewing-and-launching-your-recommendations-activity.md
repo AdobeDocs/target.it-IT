@@ -1,12 +1,12 @@
 ---
 keywords: Recommendations;offerta;anteprima;lancio;stato;criteri;algoritmo
-description: Dopo aver creato l'attività Recommendations, A/B Test o Experience Targeting (XT) contenente  offerte Adobe Target Recommendations, desiderate visualizzarla in anteprima per verificare che i risultati siano disponibili prima di avviare l'attività. In Target Recommendations sono disponibili diversi modi per visualizzare l'anteprima delle raccomandazioni.
-title: Visualizzare l'anteprima e avviare l'attività Recommendations
+description: 'Scoprite come visualizzare in anteprima l''attività di Adobe Target Recommendations  per garantire che i risultati siano disponibili prima di avviare l''attività. '
+title: Come si visualizza l'anteprima e si avvia un'attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1371'
+source-wordcount: '1350'
 ht-degree: 17%
 
 ---
