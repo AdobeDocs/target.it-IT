@@ -1,13 +1,13 @@
 ---
 keywords: Panoramica e riferimento
-description: Per impostazione predefinita, i profili dei visitatori vengono memorizzati per 14 giorni. La durata del profilo può essere estesa.
-title: Durata del profilo del visitatore
+description: Scopri di più sulla scadenza (per impostazione predefinita, 14 giorni) di un profilo visitatore in  Adobe Target. La durata del profilo può essere estesa contattando  Client Care di Adobe.
+title: Qual è la durata del profilo del visitatore e posso estenderla?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '315'
-ht-degree: 83%
+source-wordcount: '334'
+ht-degree: 73%
 
 ---
 
