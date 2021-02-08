@@ -1,13 +1,13 @@
 ---
 keywords: contenuto;aggiornare contenuto;risorse;caricare contenuto;caricare risorsa
-description: Come si caricano le immagini da usare come offerte di immagini?
-title: Carica contenuto
+description: Scoprite come caricare le immagini da usare come offerte di immagini in  Adobe Target.
+title: Come si carica il contenuto nella libreria delle offerte?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '223'
-ht-degree: 19%
+source-wordcount: '233'
+ht-degree: 18%
 
 ---
 
