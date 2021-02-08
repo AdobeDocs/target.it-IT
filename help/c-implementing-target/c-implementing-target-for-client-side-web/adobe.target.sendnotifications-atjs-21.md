@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.sendNotifications;sendNotifications;sendnotifications;invia bnotifiche;notifiche;at.js;funzioni;funzione
-description: Informazioni sulla funzione adobe.target.sendNotifications(options) per la libreria at.js JavaScript di Adobe Target.
-title: Adobe.Target.Sendnotifications(Options)
+description: Utilizzate adobe.target.sendNotifications() per at.js per inviare notifiche al bordo di Target quando viene eseguito il rendering di un'esperienza senza utilizzare applyOffer(s). (at.js.2.1 +)
+title: Come si utilizza la funzione adobe.target.sendNotifications()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 99%
+source-wordcount: '634'
+ht-degree: 95%
 
 ---
 
