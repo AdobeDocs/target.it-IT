@@ -1,13 +1,14 @@
 ---
 keywords: report;report;report;experience cloud solution;timezone;time zone;currency;exclude IPs;Estimated lift in Revenue;Revenue;lift in Revenue;lift in Revenue;Experience Cloud solution;timezone;time zone;currency;exclude IPs;Estimated lift in Revenue;Revenue;lift in Revenue;lift in Revenue;fine-granised priority;fine-grased priority
-description: Configura le impostazioni generali da utilizzare  rapporti Adobe Target applicabili all'intero account di Target. Puoi configurare la soluzione Adobe Experience Cloud da utilizzare per il reporting (Target o Analytics), il fuso orario e il formato della valuta da utilizzare per il reporting, gli indirizzi IP da escludere dal reporting e se mostrare l'incremento stimato delle entrate e le priorità definite nei report.
-title: Configurare i rapporti
+description: Utilizzate Target o  Adobe Analytics come origine di reporting, specificate il fuso orario predefinito e il formato della valuta, aggiungete indirizzi IP da escludere dal reporting e altro ancora.
+title: Come si configura il reporting in Target?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '728'
-ht-degree: 34%
+source-wordcount: '698'
+ht-degree: 36%
 
 ---
 
