@@ -1,13 +1,14 @@
 ---
 keywords: app mobile;domande frequenti;domande frequenti;domande frequenti;app mobile di destinazione
-description: Domande frequenti su  Adobe Target per app mobili.
-title: Domande frequenti su Target per app mobili
+description: Visualizzare le domande frequenti e le relative risposte su  Adobe Target per le app mobili.
+title: Quali sono le domande frequenti su Target per le app mobili?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '300'
-ht-degree: 2%
+source-wordcount: '306'
+ht-degree: 1%
 
 ---
 
