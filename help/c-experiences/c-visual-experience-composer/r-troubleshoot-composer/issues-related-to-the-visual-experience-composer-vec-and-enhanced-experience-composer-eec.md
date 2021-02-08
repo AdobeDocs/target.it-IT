@@ -1,13 +1,13 @@
 ---
-keywords: Targeting;visual experience composer;whitelist;white list;allowlist;allow list;enhanced visual experience composer;vec;troubleshoot visual experience composer;troubleshooting;eec;enhanced experience composer;tls;tls 1.2
-description: A volte si verificano problemi di visualizzazione in  Adobe Target Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
-title: Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
+keywords: Targeting;Visual Experience Composer (Compositore esperienza visivo);whitelist;whitelist;whitelist;whitelist;elenco bianco; inserì nell'elenco Consentiti; elenco consentiti;Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato);vec;troubleshoot Visual Experience Composer (Compositore esperienza visivo);risoluzione dei problemi;eec;Enhanced Experience Composer;tls;tls 1.2
+description: Scoprite come risolvere i problemi che talvolta si verificano in  Adobe Target Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) in determinate condizioni.
+title: Come posso risolvere i problemi relativi a Visual Experience Composer (Compositore esperienza visivo) e Enhanced Experience Composer (Compositore esperienza avanzato)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1370'
-ht-degree: 67%
+source-wordcount: '1403'
+ht-degree: 65%
 
 ---
 
