@@ -1,12 +1,12 @@
 ---
 keywords: sequenza di criteri;criteri multipli;algoritmi;criteri;criteri di raccomandazione;sequenza;numero limite di elementi restituiti;controllo del livello di slot;slot
-description: Utilizzate sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
-title: Crea sequenze di criteri
+description: Scoprite come impostare sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
+title: Come si creano le sequenze di criteri in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '834'
 ht-degree: 34%
 
 ---
