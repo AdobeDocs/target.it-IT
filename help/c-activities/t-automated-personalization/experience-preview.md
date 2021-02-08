@@ -1,13 +1,13 @@
 ---
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
-description: Gli URL di anteprima esperienza possono essere generati per le attività di Target  Automated Personalization per visualizzare il contenuto dell'esperienza direttamente sul sito prima che l'attività sia live a scopo di anteprima e di QA. Gli URL di anteprima esperienza aggirano il targeting per forzare la visualizzazione di una particolare esperienza.
-title: Anteprima  attività Automated Personalization con URL anteprima esperienza
+description: Scoprite come utilizzare gli URL di anteprima esperienza per  le attività di Adobe Target  Automated Personalization per visualizzare il contenuto esperienza direttamente sul sito prima che l'attività sia live.
+title: Come posso utilizzare gli URL di anteprima esperienza in  attività Automated Personalization?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '795'
-ht-degree: 64%
+source-wordcount: '783'
+ht-degree: 65%
 
 ---
 
