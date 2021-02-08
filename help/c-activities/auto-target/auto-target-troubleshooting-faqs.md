@@ -1,12 +1,12 @@
 ---
 keywords: targeting automatico;targeting;allocazione traffico;domande frequenti;domande frequenti;domande frequenti;risoluzione dei problemi;risoluzione dei problemi;traffico
-description: Risoluzione dei problemi e domande frequenti su Auto-Target in  Adobe Target.
-title: Risoluzione dei problemi e domande frequenti per la destinazione automatica
+description: Esplora argomenti sulla risoluzione dei problemi e Domande frequenti sulle attività di Auto-Target in  Adobe Target.
+title: Come Posso Risolvere I Problemi Relativi Alle Attività Di Auto-Target?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1914'
+source-wordcount: '1919'
 ht-degree: 68%
 
 ---
