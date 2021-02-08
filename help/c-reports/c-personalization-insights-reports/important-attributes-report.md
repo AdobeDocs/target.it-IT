@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;FAQ;domande frequenti;attributi importanti
-description: Informazioni sul rapporto Attributi importanti, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
-title: Report Attributi importanti
+description: Scopri come utilizzare il rapporto Attributi importanti in  Adobe Target che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
+title: Qual è il rapporto Importanti attributi?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1651'
-ht-degree: 94%
+source-wordcount: '1656'
+ht-degree: 92%
 
 ---
 
