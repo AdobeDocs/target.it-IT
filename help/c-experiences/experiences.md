@@ -1,13 +1,13 @@
 ---
 keywords: esperienza;Visual Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza esperienza visivo);Enhanced Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza esperienza visivo);form based Experience Composer (Compositore esperienza esperienza visivo);experience Composer (Compositore esperienza visivo);mista content content;iframe iframe iframe bustibile misto;iframe iframe iframe;iframe bust iframe hit;bust iframe iframe iframe iframe iframe iframe iframe iframe iframe iframe iframe; x-options;x-frame;x-frame;x-options;x-frame; x frame opzioni frame;x frame;x frame;opzioni frame;cross-origin options;cross-origin options;cross-origin;cross-origin issues;workworkflow di autenticazione
-description: Un'esperienza in  Adobe Target determina quale contenuto viene visualizzato quando il visitatore soddisfa i criteri di audience per un'attività.
-title: Esperienze e offerte
+description: Ulteriori informazioni su Adobe Experience Composer (Compositori esperienza visivo) - Visual Experience Composer (Compositore esperienza visivo), Form-Based Experience Composer (Compositore esperienza basato su moduli) e su Single Page Experience Composer (Compositore esperienza visivo a pagina singola).
+title: Quali Experience Composer Offre Target?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 80%
+source-wordcount: '381'
+ht-degree: 79%
 
 ---
 
