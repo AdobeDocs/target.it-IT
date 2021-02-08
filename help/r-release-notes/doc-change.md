@@ -4,10 +4,10 @@ description: Aggiornatevi con importanti aggiunte e modifiche alla documentazion
 title: Dove è possibile visualizzare gli aggiornamenti della documentazione per Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '3522'
-ht-degree: 29%
+source-wordcount: '3600'
+ht-degree: 28%
 
 ---
 
@@ -21,6 +21,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 8 febbraio | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | È stato aggiunto lo snippet di codice da aggiungere al file AndroidManifest.xml per la versione 4 dell’SDK Mobile  Adobe. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato chiarito il seguente problema noto:<ul><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati tramite l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. Analogamente, se create uno di questi elementi nell&#39;interfaccia utente di Target e successivamente li modificate tramite API, tali modifiche non si rifletteranno nell&#39;interfaccia di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.</li></ul> |
 | 1 febbraio | [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: &quot;Domande frequenti.&quot; |
 | Gennaio 27 | [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Argomento aggiornato. |
 |  | [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md) | Argomento aggiornato. |
