@@ -1,13 +1,14 @@
 ---
 keywords: integrazioni at.js;integrazioni supportate;integrazioni non supportate;integrazioni di terze parti
-description: Informazioni sulle integrazioni più comuni con Target e il loro stato di supporto con at.js.
-title: Integrazioni at.js
+description: Vedi le integrazioni supportate (e non supportate) da  Adobe Target at.js, incluso Analytics for Target (A4T), il servizio ID Experience Cloud  e altro ancora.
+title: Quali integrazioni supporta at.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '560'
-ht-degree: 91%
+source-wordcount: '575'
+ht-degree: 86%
 
 ---
 
