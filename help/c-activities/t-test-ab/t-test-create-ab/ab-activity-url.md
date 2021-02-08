@@ -1,13 +1,13 @@
 ---
-keywords: activity url;url;different url
-description: L'URL attività determina la pagina utilizzata nel test e che si apre quando il test viene progettato utilizzando  Adobe Target.
-title: URL attività
+keywords: url attività;url;url diverso
+description: Scoprite come specificare l'URL attività che determina la pagina utilizzata nel test e che si apre quando il test viene progettato utilizzando  Adobe Target.
+title: Cos'è l'URL attività in un'attività A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 8110807a73e4d6d9848a52224db04faba033c98c
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '296'
-ht-degree: 78%
+source-wordcount: '314'
+ht-degree: 73%
 
 ---
 
