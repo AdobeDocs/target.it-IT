@@ -1,13 +1,13 @@
 ---
 keywords: dati parziali;dati parziali;A4T;incongruenze;analytics for target;orfano;suite rapporti virtuali;phantom;risoluzione dei problemi;dati parziali;gonfiato;non specificato
-description: Informazioni che consentono di minimizzare gli effetti di conteggia gonfiati per visite e visitatori quando si utilizza Analytics come origine per la generazione di rapporti.
-title: Minimizzare i conteggi gonfiati per visite e visitatori in A4T
+description: Scopri come ridurre al minimo gli effetti dei conteggi delle visite e dei visitatori in eccesso quando utilizzi Analytics per Target (A4t). Scopri cosa sono i "dati parziali" e come ridurli.
+title: Come si riducono al minimo i conteggi delle visite e dei visitatori gonfiati in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1375'
+ht-degree: 94%
 
 ---
 
