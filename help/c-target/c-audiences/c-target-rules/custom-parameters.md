@@ -1,13 +1,13 @@
 ---
 keywords: parametri personalizzati;parametri personalizzati di target;targetpageparams;parametri mbox di targeting
-description: I parametri personalizzati sono parametri mbox. Se li trasmetti alle mbox, o utilizzi la funzione targetPageParams, questi parametri vengono visualizzati qui e possono essere utilizzati nei tipi di pubblico.
-title: Parametri personalizzati
+description: Scoprite come trasmettere parametri personalizzati a  Adobe Target per l'utilizzo nei tipi di pubblico.
+title: Posso eseguire il targeting dei visitatori in base ai parametri personalizzati?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '418'
-ht-degree: 90%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
