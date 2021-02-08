@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;report AP;report di personalizzazione automatizzata;report livello attività;report livello offerta;report dettagli offerta;faq
-description: Come si utilizzano i rapporti di riepilogo di  Automated Personalization?
-title: Report di riepilogo della Personalizzazione automatizzata
+description: Scoprite come interpretare il  rapporto Riepilogo Automated Personalization in  Adobe Target. Da questo rapporto potete passare ai rapporti Segmenti automatizzati e Attributi importanti.
+title: Come si utilizzano i rapporti di riepilogo di Automated Personalization ?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '649'
-ht-degree: 42%
+source-wordcount: '671'
+ht-degree: 40%
 
 ---
 
