@@ -1,12 +1,13 @@
 ---
 keywords: lato server;lato server;api;sdk;node.js;nodejs;nodo js;Recommendations api;api:apis
-description: Informazioni  API di distribuzione lato server Adobe Target, SDK e API Recommendations Target.
-title: Informazioni Sull'API di consegna lato server, l'SDK Node.js e le API Recommendations
+description: Scopri le  API di distribuzione lato server Adobe Target, gli SDK e le API Recommendations di Target.
+title: Dove è possibile reperire informazioni sulle API e gli SDK di Target Server-Side Delivery?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '398'
 ht-degree: 20%
 
 ---
