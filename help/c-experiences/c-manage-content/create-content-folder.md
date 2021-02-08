@@ -1,13 +1,13 @@
 ---
 keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
 description: Come si creano le cartelle nella libreria Offerte?
-title: Creazione di una cartella di offerta
+title: Scoprite come creare cartelle nella libreria  Adobe Target Offers per contenere le offerte di codice e immagini, nonché altre cartelle.
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '258'
-ht-degree: 25%
+source-wordcount: '277'
+ht-degree: 22%
 
 ---
 
