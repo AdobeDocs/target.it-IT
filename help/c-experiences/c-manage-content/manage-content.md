@@ -1,13 +1,13 @@
 ---
-keywords: content;assets;manage content;offers;manage assets;enter selection mode;selection mode
-description: Come si gestiscono le offerte di codice e immagini?
-title: Offerte
+keywords: contenuto;risorse;gestione contenuto;offerte;gestione risorse;inserire modalità selezione;modalità di selezione
+description: Scoprite come gestire le offerte di codice e immagini utilizzando la libreria Offerte in  Adobe Target.
+title: Come posso gestire le offerte per codice e immagini?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: d4f53922359d2b35e9e442242087d6ed126b3f22
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '525'
-ht-degree: 36%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
