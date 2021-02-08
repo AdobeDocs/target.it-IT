@@ -1,12 +1,12 @@
 ---
 keywords: annunci;generatore di competenze;chat sviluppatore;pausa caffè;eventi;forrester;gartner;webinar
-description: Dove è possibile trovare eventi e seminari Web in programma?
-title: Annunci ed eventi
+description: Leggete gli annunci e registratevi per  eventi Adobe Target, comprese le sessioni di Experience Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
+title: Dove è possibile trovare annunci ed eventi Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
