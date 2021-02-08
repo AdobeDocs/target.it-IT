@@ -1,13 +1,13 @@
 ---
 keywords: criteri;algoritmo;settore verticale;tipo di pagina;chiave di raccomandazione;logica di raccomandazione;intervallo di dati;origine dati comportamento;progettazione parziale;raccomandazioni di backup;regole di inclusione;ponderazione attributo;categoria corrente;attributo personalizzato;ultimo elemento acquistato;ultimo elemento visualizzato;elemento visualizzato;elemento più visualizzato;categoria preferita;popolarità;ultimo elemento visualizzato;ultimo acquistato;ultimo visualizzato;più visualizzato;preferito;recentemente visualizzato
-description: I criteri controllano il contenuto delle attività di Adobe Recommendations. Crea dei criteri per visualizzare i consigli più appropriati per l’attività.
-title: Creare criteri
+description: Scoprite come creare criteri per il controllo del contenuto delle attività di Adobe Recommendations  per mostrare le raccomandazioni più appropriate per l'attività.
+title: Come si creano i criteri in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2477'
-ht-degree: 64%
+source-wordcount: '2485'
+ht-degree: 63%
 
 ---
 
