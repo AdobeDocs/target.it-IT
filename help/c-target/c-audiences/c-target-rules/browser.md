@@ -1,13 +1,13 @@
 ---
 keywords: opzioni browser;tipo;tipo di browser;lingua del browser;lingua;versione;versione del browser
-description: Puoi creare diversi tipi di pubblico in Adobe Target per indirizzare l’attività agli utenti che visitano la pagina utilizzando un browser specifico o particolari opzioni del browser.
-title: Tipi di pubblico delle opzioni del browser
+description: Scoprite come creare audience in  Adobe Target per gli utenti che utilizzano un browser specifico o specifiche opzioni di browser quando visitano la pagina.
+title: Posso eseguire il targeting dei visitatori in base al tipo di browser?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 99%
+source-wordcount: '662'
+ht-degree: 94%
 
 ---
 
