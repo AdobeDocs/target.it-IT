@@ -1,13 +1,13 @@
 ---
 keywords: intervallo temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
-description: Puoi aggiungere date e orari di inizio/fine per rivolgerti agli utenti che visitano il tuo sito durante un intervallo temporale specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
-title: Opzioni per i frame temporali in Audiences
+description: Scopri come utilizzare le date e le ore di inizio/fine per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico. È inoltre possibile impostare le opzioni relative a Settimana e Partizione giorno.
+title: Posso eseguire il targeting dei visitatori che visitano il mio sito in orari specifici?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 97%
+ht-degree: 88%
 
 ---
 
