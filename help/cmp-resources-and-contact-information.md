@@ -1,13 +1,13 @@
 ---
 keywords: contatti;note legali;supporto tecnico;assistenza tecnica;supporto;servizio;funzionalità;fatturazione;feedback
-description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Target e su come contattare Adobe in caso di necessità di assistenza con Target.
-title: Risorse e informazioni di contatto
+description: Scopri ulteriori risorse per imparare  funzioni di Adobe Target e come contattare  Adobe in caso di necessità con Target.
+title: Dove è possibile trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1223'
-ht-degree: 76%
+source-wordcount: '1230'
+ht-degree: 74%
 
 ---
 
