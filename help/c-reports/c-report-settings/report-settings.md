@@ -1,13 +1,13 @@
 ---
 keywords: Target;report;impostazioni dei report;preimpostazione;predefinito;preimpostazione target;predefinito target;metrica;destinatari;intervallo di date;impostazioni;download;visualizzazione tabella;visualizzazione grafico;incremento medio;incremento;contributo posizione;media corrente;metodologia di conteggio
-description: Informazioni utili per impostare gli elementi da visualizzare nel rapporto Adobe Target . Le impostazioni dei rapporti possono essere salvate per un utilizzo successivo.
-title: Impostazioni dei rapporti
+description: Scopri come configurare le impostazioni dei report in  Adobe Target, comprese metriche, audience, intervalli di date e altro ancora.
+title: Come Si Configurano Le Impostazioni Dei Report?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1922'
-ht-degree: 69%
+source-wordcount: '1918'
+ht-degree: 68%
 
 ---
 
