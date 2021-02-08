@@ -1,12 +1,12 @@
 ---
 keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
-description: Posso usare A4T con le attività di Auto-Target e Auto-Allocate?
-title: Supporto A4T per attività di allocazione automatica e targeting automatico
+description: Scoprite come creare attività di allocazione automatica e targeting automatico in  Adobe Target che utilizzano Analytics come origine di reporting (A4T).
+title: A4T supporta le attività di allocazione automatica e di targeting automatico?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '863'
 ht-degree: 1%
 
 ---
