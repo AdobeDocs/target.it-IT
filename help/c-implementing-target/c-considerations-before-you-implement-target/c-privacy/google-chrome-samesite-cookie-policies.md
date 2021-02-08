@@ -1,13 +1,14 @@
 ---
 keywords: google;samesite;cookies;chrome 80;ietf
-description: Informazioni su Adobe Target e lo standard IETF SameSite introdotto con Google Chrome versione 80.
-title: Le politiche sui cookie Samesite di Google
+description: Scoprite come  Adobe Target gestisce lo standard IETF di SameSite introdotto con Google Chrome versione 80 e cosa dovete fare per conformarsi a questi criteri.
+title: In che modo Target gestisce le politiche Samesite Cookie di Google?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2035'
-ht-degree: 8%
+source-wordcount: '2050'
+ht-degree: 7%
 
 ---
 
