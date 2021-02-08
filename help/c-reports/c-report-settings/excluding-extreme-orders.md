@@ -1,13 +1,13 @@
 ---
 keywords: Target;rapporti;impostazioni rapporti;ordini estremi;valori estremi
-description: Potete escludere valori estremi dall'influenza dei rapporti in  Adobe Target, in modo che alcuni ordini insoliti non influenzino i risultati dell'attività. Un esempio di un ordine insolito potrebbe essere un allenatore che acquista le maglie per tutta la squadra, rispetto a singoli acquirenti che acquistano una sola maglia ciascuno.
-title: Escludi valori estremi nei report
+description: Scoprite come escludere valori estremi dall'influenza dei rapporti in  Adobe Target, in modo che alcuni ordini insoliti non influenzino i risultati dell'attività.
+title: Come si escludono i valori estremi nei report?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 74%
+source-wordcount: '330'
+ht-degree: 71%
 
 ---
 
