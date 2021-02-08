@@ -1,13 +1,13 @@
 ---
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-description: Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
-title: Creare un’attività Consigli
+description: Scoprite come utilizzare  Adobe Target Visual Experience Composer (VEC) per creare un'attività Recommendations direttamente su una pagina compatibile con Target.
+title: Come si crea un'attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1311'
-ht-degree: 78%
+source-wordcount: '1309'
+ht-degree: 76%
 
 ---
 
