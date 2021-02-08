@@ -1,13 +1,13 @@
 ---
 keywords: consigli;backup;back up
-description: Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
-title: Utilizzo di una raccomandazione di backup in Recommendations Target
+description: Scoprite come utilizzare le raccomandazioni di backup in  Adobe Target Recommendations. La raccomandazione che non dispone di un numero sufficiente di elementi raccomandati visualizza i risultati dell'algoritmo di backup.
+title: Come si utilizza una raccomandazione di backup in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '526'
-ht-degree: 82%
+source-wordcount: '520'
+ht-degree: 81%
 
 ---
 
