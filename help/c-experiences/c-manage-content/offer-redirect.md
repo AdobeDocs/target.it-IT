@@ -1,13 +1,13 @@
 ---
 keywords: reindirizzare offerta;crea offerta di reindirizzamento;aggiungere offerta HTML;trasmettere tutti i parametri URL nel reindirizzamento;trasmettere mboxSessionId nel reindirizzamento (necessario solo quando si reindirizza a un dominio diverso)
-description: Posso utilizzare le offerte di reindirizzamento per reindirizzare un browser a una nuova pagina?
-title: Creazione di offerte di reindirizzamento
+description: 'Scoprite come creare offerte di reindirizzamento in  Adobe Target per reindirizzare un browser a una nuova pagina. '
+title: Come Si Creano Le Offerte Di Reindirizzamento?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1183'
-ht-degree: 49%
+source-wordcount: '1190'
+ht-degree: 48%
 
 ---
 
