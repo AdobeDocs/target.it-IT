@@ -1,14 +1,14 @@
 ---
 keywords: personalizzazione automatizzata;offerte;target;audience;regole di targeting;targeting
-description: In un’attività di Personalizzazione automatizzata è possibile indirizzare le offerte a tipi di pubblico specifici.
-title: ' offerte Automated Personalization '
+description: Scoprite come eseguire il targeting di singole offerte per audience specifiche utilizzando un'attività Automated Personalization (AP)  in  Adobe Target.
+title: Come Posso Eseguire Il Targeting  Offerte Automated Personalization?
 feature: Automated Personalization
 solution: Target,Analytics
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '361'
-ht-degree: 93%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
