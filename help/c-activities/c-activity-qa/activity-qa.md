@@ -1,13 +1,13 @@
 ---
 keywords: qa;anteprima;collegamenti di anteprima;adobe target;target
-description: Utilizzate  URL QA di Adobe Target per eseguire attività QA end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting QA che rimane segmentato dai dati dell'attività live.
-title: Controllo di qualità delle attività
+description: Scoprite come utilizzare  URL di QA di Adobe Target per eseguire attività QA end-to-end in modo semplice con collegamenti di anteprima che non cambiano mai, targeting di audience facoltativo e reporting di QA che rimane segmentato dai dati dell'attività live.
+title: Come Si Esegue Il QA Activities?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1536'
-ht-degree: 80%
+source-wordcount: '1542'
+ht-degree: 79%
 
 ---
 
