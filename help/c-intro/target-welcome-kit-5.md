@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Kit di benvenuto  Adobe Target - Capitolo 5 - Ispirazione per attività di test e personalizzazione
-title: Kit Di Benvenuto - Capitolo 5 - Ispirazione per le attività di test e personalizzazione
+description: Dove posso trovare idee e ispirazione per le mie attività di test e personalizzazione utilizzando  Adobe Target.
+title: Dove posso trovare ispirazione per i miei sforzi di testing e personalizzazione?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1053'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Forse cambiate l&#39;ordine delle opzioni tra cui scegliere quando i clienti vog
 
 Se la tua azienda sta spendendo risorse per sviluppare un&#39;app mobile per iOS, Android o altri dispositivi, non devi limitarti a sederti indietro e sperare che gli utenti possano inciampare sulla tua app all&#39;interno dell&#39;app store. Invece, abbiamo una strategia solida per come promuoverla. Test di approcci diversi per promuovere download e utilizzo delle app. Se il sito non mobile ha un collegamento per scaricare l&#39;app, provate a verificare l&#39;efficacia di una pagina di destinazione interstiziale che promuove esplicitamente l&#39;app quando i visitatori arrivano sulla pagina principale. Configurate un test di reindirizzamento che filtra metà del traffico mobile alla pagina del sito corrente e l’altra metà alla pagina di destinazione interstiziale.
 
-## Idea 9: usa le innovazioni delle app mobili.
+## Idea 9: Utilizza le innovazioni delle app mobili.
 
 Esplorare gli aspetti dello smartphone oltre la geolocalizzazione, come l&#39;accelerometro o il giroscopio. Ad esempio, testate un&#39;esperienza che utilizza l&#39;accelerometro per aggiungere un elemento visualizzato a un carrello scuotendo il telefono. Potete anche testarlo agli utenti di diversi marchi di dispositivi, come iOS o Android per vedere se la loro risposta è diversa. Tali test consentono di scoprire nuovi comportamenti dei visitatori da utilizzare nei test futuri.
 
