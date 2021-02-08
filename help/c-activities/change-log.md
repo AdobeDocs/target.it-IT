@@ -1,13 +1,13 @@
 ---
 keywords: registro delle modifiche dell'attività;registro delle modifiche
-description: Il registro delle modifiche tiene traccia delle modifiche apportate alle attività e indica da chi e quando sono state apportate.
-title: Registro delle modifiche apportate alle attività
+description: Accedete al registro delle modifiche di un'attività  Adobe Target per visualizzare un record di chi ha modificato le attività e quando si sono verificate le modifiche.
+title: Come è possibile visualizzare un registro delle modifiche delle attività?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '102'
-ht-degree: 78%
+source-wordcount: '113'
+ht-degree: 53%
 
 ---
 
