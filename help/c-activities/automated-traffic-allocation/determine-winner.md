@@ -1,12 +1,12 @@
 ---
 keywords: allocazione automatizzata del traffico;targeting;vincitore;garanzia statistica;confidenza;determinare vincitore;incremento;confidenza;predefinita;esperienza predefinita;allocazione automatica;allocazione automatica
-description: Interpretate i risultati di un'attività di allocazione automatica A/B in  Adobe Target esaminando indicatori importanti, inclusi incrementi e confidenza.
-title: Interpreta rapporti di allocazione automatica
+description: Scoprite come interpretare i risultati di un'attività A/B di allocazione automatica in  Adobe Target esaminando indicatori importanti, tra cui incremento e confidenza.
+title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Auto-Allocate
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1136'
 ht-degree: 47%
 
 ---
