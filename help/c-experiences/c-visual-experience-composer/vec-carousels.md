@@ -1,13 +1,13 @@
 ---
 keywords: Compositore esperienza visivo;VEC;carosello
-description: In questo argomento viene illustrato come creare un carosello che può essere modificato in  Adobe Target Visual Experience Composer (VEC).
-title: Creazione di contenuti caroselli che funzionano in Visual Experience Composer (Compositore esperienza visivo)
+description: Scoprite come creare un carosello che può essere modificato in  Adobe Target Visual Experience Composer (VEC).
+title: Come si creano i contenuti Carousels in Visual Experience Composer (Compositore esperienza visivo)?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '155'
-ht-degree: 69%
+source-wordcount: '154'
+ht-degree: 70%
 
 ---
 
