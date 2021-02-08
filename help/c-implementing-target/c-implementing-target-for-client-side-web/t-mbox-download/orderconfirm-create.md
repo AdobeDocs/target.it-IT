@@ -1,13 +1,14 @@
 ---
 keywords: conferma d’ordine;orderConfirmPage
-description: Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli ordini sul sito e generare rapporti in base a ricavi e ordini. Con la mbox di conferma dell’ordine è inoltre possibile determinare algoritmi per i consigli, come “Persone che hanno acquistato il prodotto x hanno acquistato anche il prodotto y”.
-title: Creare una mbox di conferma d'ordine - mbox.js
+description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+title: Come si crea una mbox di conferma dell'ordine utilizzando mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '382'
-ht-degree: 69%
+source-wordcount: '374'
+ht-degree: 58%
 
 ---
 
