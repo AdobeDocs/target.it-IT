@@ -1,13 +1,13 @@
 ---
 keywords: experience Cloud;device co-op;device co op;analytics;audience manager;aam;media optimizer;device graph
-description: Informazioni su Adobe Experience Cloud Device Co-op, un programma che consente ai partecipanti di collaborare per identificare meglio i clienti in diversi punti di contatto digitali, garantendo al contempo il massimo livello di privacy e trasparenza.
-title: ' Experience Cloud Device Co-Op'
+description: Trova informazioni su Adobe Experience Cloud Device Co-op. Lavorare insieme per identificare meglio i consumatori attraverso i punti di contatto digitali, garantendo al contempo la privacy e la trasparenza.
+title: Cos'è Adobe Experience Cloud Device Co-Op?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '187'
-ht-degree: 83%
+source-wordcount: '183'
+ht-degree: 68%
 
 ---
 
