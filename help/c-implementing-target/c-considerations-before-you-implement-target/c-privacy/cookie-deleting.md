@@ -1,13 +1,14 @@
 ---
 keywords: cookie;cookie;elimina cookie;elimina cookie di destinazione;google chrome;chrome;mozilla firefox;firefox;microsoft edge;safari
-description: Elimina i cookie del browser di Target, in modo da poter convalidare tutte le esperienze.
-title: Eliminazione del cookie di Target
+description: Scopri come eliminare i cookie del browser di Target per convalidare le esperienze.
+title: Come si elimina il cookie di Target?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 6%
+source-wordcount: '428'
+ht-degree: 1%
 
 ---
 
