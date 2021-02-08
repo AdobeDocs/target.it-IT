@@ -1,13 +1,13 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;targeting;tipi di pubblico
-description: Elenco delle domande frequenti (FAQ) sul targeting delle esperienze e sui tipi di pubblico.
-title: Domande frequenti su Target e audience
+description: Visualizzate le domande frequenti sul targeting delle esperienze e sui tipi di pubblico utilizzati  attività Adobe Target.
+title: Dove posso trovare domande e risposte su target e pubblico?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 68%
+source-wordcount: '953'
+ht-degree: 66%
 
 ---
 
