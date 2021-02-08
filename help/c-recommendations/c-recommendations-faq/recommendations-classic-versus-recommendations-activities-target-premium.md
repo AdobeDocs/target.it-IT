@@ -1,13 +1,13 @@
 ---
 keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
-description: Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività Consigli di Target Premium.
-title: Recommendations Classic contro le attività Recommendations in Target Premium
+description: Leggete le informazioni per comprendere le differenze tra le attività precedenti di Recommendations Classic e Recommendations in Target Premium.
+title: Qual è la differenza tra Recommendations Classic e Recommendations in Target Premium?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '654'
-ht-degree: 98%
+source-wordcount: '663'
+ht-degree: 95%
 
 ---
 
