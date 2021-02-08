@@ -1,13 +1,14 @@
 ---
 keywords: app mobile;posizione dell'app mobile;destinazione dell'app mobile;posizione dell'app mobile;posizione dell'app mobile;servizio di localizzazione;servizio di posizione cloud dell'esperienza Adobe;punti di interesse;sdk;posizione
-description: Questo argomento fornisce una panoramica su come utilizzare Adobe Experience Platform Location Service in  Adobe Target.
-title: Utilizzare il servizio posizione
+description: Scoprite come utilizzare Adobe Experience Platform Location Service per abilitare le app mobili con la consapevolezza della posizione.
+title: Come si utilizza il servizio posizione Adobe ?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '184'
-ht-degree: 3%
+source-wordcount: '190'
+ht-degree: 1%
 
 ---
 
