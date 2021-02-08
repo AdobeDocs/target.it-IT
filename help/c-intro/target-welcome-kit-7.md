@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: ' kit di benvenuto Adobe Target - Capitolo 7 - Creazione ed esecuzione della prima attività Target'
-title: Kit di benvenuto - Capitolo 7 - Creazione ed esecuzione della prima attività Target
+description: Cominciamo con la tua prima attività in  Adobe Target per ottenere un ROI sull'investimento.
+title: Devo creare la mia prima attività in Target. Dove Inizio?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1723'
+source-wordcount: '1732'
 ht-degree: 0%
 
 ---
