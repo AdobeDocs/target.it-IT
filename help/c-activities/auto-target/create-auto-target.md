@@ -1,12 +1,12 @@
 ---
 keywords: Creare targeting automatico;test A/B;targeting automatico dell'attività;nuova attività a/b;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato
-description: Utilizzate Visual Experience Composer (VEC) (Compositore esperienza visivo) in  Adobe Target per creare l'attività di test A/B con targeting automatico direttamente su una pagina compatibile con Target e per modificare porzioni della pagina all'interno di Target.
-title: Creazione di un'attività di targeting automatico
+description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare l'attività di test A/B con targeting automatico direttamente su una pagina abilitata per Target.
+title: Come si crea un'attività di targeting automatico?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '937'
 ht-degree: 59%
 
 ---
