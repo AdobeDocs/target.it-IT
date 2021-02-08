@@ -1,13 +1,13 @@
 ---
 keywords: ' Automated Personalization;ap;preview;exclude experience;'
-description: Dato che in un test di Personalizzazione automatizzata vengono messe a confronto più offerte in una pagina, è utile visualizzare un’anteprima della pagina con ogni esperienza.
-title: Anteprima  esperienze Automated Personalization in Visual Experience Composer (VEC)
+description: Scoprite come visualizzare in anteprima ogni esperienza in un'attività Automated Personalization (AP)  in  Adobe Target mediante Visual Experience Composer (VEC).
+title: Come posso visualizzare in anteprima  esperienze Automated Personalization nel VEC?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '260'
-ht-degree: 55%
+source-wordcount: '259'
+ht-degree: 47%
 
 ---
 
