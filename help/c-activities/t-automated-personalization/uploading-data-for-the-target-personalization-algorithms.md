@@ -1,13 +1,13 @@
 ---
 keywords: ' Automated Personalization;ap;upload data;offline data;personalizzazione algorithm;auto target;auto-target;best practice'
-description: I dati offline, come le informazioni CRM o i punteggi di propensione del cliente, possono essere incredibilmente preziosi quando si creano modelli di personalizzazione in  attività Adobe Target  Automated Personalization (AP).
-title: Carica dati per gli algoritmi di personalizzazione
+description: Scopri come caricare dati offline, come informazioni CRM, durante la creazione di modelli di personalizzazione in  attività Adobe Target  Automated Personalization (AP).
+title: Come posso caricare i dati per gli algoritmi di personalizzazione?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '297'
-ht-degree: 76%
+source-wordcount: '295'
+ht-degree: 77%
 
 ---
 
