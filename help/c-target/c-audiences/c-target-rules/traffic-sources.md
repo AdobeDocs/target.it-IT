@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
-description: Crea tipi di pubblico in Adobe Target per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
-title: Opzioni Sorgenti Di Traffico In Audience
+description: Scopri come creare audience in  Adobe Target per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al tuo sito.
+title: Posso eseguire il targeting dei visitatori in base al motore di ricerca o al sito di riferimento?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 97%
+source-wordcount: '261'
+ht-degree: 85%
 
 ---
 
