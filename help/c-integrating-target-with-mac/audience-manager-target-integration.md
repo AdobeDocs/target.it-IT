@@ -1,12 +1,12 @@
 ---
-keywords: segments;audiences;aam;audience manager;adobe audience manager;integrate;integration
-description: L'integrazione tra Audience Manager Target/ consente di inviare  segmenti di Audience Manager  Adobe Target
-title: Integrare Target con Adobe Audience Manager (AAM)
+keywords: segmenti;audience;aam;audience manager;adobe audience manager;integrare;integrazione
+description: Scopri come utilizzare l'integrazione tra Audience Manager Target/ per inviare segmenti  Audience Manager (AAM) a  Adobe Target.
+title: Come posso integrare Target con Adobe Audience Manager (AAM)?
 feature: Integrations
 translation-type: tm+mt
-source-git-commit: cf47b7f3625bb1c3430b9fba00c573f489efc448
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '58'
+source-wordcount: '75'
 ht-degree: 0%
 
 ---
