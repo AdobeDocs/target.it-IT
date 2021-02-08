@@ -1,13 +1,13 @@
 ---
 keywords: Targeting
-description: Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità.
-title: Tasso di conversione
+description: Scoprite come  Adobe Target mostra e calcola il tasso di conversione, l'incremento, la confidenza (rilevanza statistica) e l'intervallo di confidenza per ogni esperienza.
+title: Come si visualizzano tasso di conversione, incremento e livello di confidenza?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2173'
-ht-degree: 71%
+source-wordcount: '2187'
+ht-degree: 69%
 
 ---
 
