@@ -1,13 +1,13 @@
 ---
 keywords: libreria di contenuti;risorsa;annota;copia;elimina risorsa;scarica risorsa;modifica contenuto;condividi scheda;visualizza proprietà contenuto
-description: Come si utilizzano le risorse nella libreria Contenuto
-title: Utilizzo dei contenuti nella libreria
+description: Scoprite come gestire le offerte di codice e immagini nella libreria  Adobe Target Offers. Scoprite come visualizzare i dettagli di un'offerta e come modificare, copiare, spostare o eliminare le offerte.
+title: Come si utilizza il contenuto nella libreria delle offerte?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '743'
-ht-degree: 38%
+source-wordcount: '767'
+ht-degree: 37%
 
 ---
 
