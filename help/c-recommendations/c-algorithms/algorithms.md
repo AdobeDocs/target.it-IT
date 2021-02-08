@@ -1,12 +1,12 @@
 ---
 keywords: raccomandazioni;attività di raccomandazione;criteri;algoritmo;chiave di raccomandazione;chiave personalizzata;settore verticale;retail;e-commerce;generazione di lead;b2b;servizi finanziari;media;pubblicazione
-description: I criteri in  Adobe Target sono regole che determinano quali prodotti o contenuti consigliare in base a un insieme predeterminato di comportamenti dei visitatori.
-title: Criteri in Target Recommendations
+description: Scoprite come utilizzare i criteri in  Adobe Target Recommendations. I criteri sono regole che determinano il contenuto da raccomandare in base a un insieme predeterminato di comportamenti dei visitatori.
+title: Come si utilizzano i criteri in Target Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1087'
 ht-degree: 52%
 
 ---
