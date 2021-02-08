@@ -1,13 +1,13 @@
 ---
 keywords: script profilo;attributi script profilo;attività che si escludono a vicenda
-description: Puoi utilizzare gli attributi del profilo per impostare test che confrontano due o più attività ma non consentono a uno stesso visitatore di partecipare a ciascuna attività.
-title: Utilizzare gli script di profilo per testare le attività con esclusione reciproca
+description: Scoprite come utilizzare gli attributi di profilo per impostare test in  Adobe Target che confrontano più attività ma non consentono agli stessi visitatori di partecipare a ogni attività.
+title: Posso utilizzare gli script di profilo per testare le attività con esclusione reciproca?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 82%
+source-wordcount: '698'
+ht-degree: 77%
 
 ---
 
