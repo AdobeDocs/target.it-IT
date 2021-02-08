@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;domande frequenti;analytics for target;a4t;gonfiato;visita;visitatore;hit parziale;orfano
-description: Questo argomento contiene le risposte alle domande più frequenti sui conteggi gonfiati per visite e visitatori quando si utilizza Analytics come origine per la generazione di rapporti per Target (A4T).
-title: Conteggi gonfiati per visite e visitatori - Domande frequenti su A4T
+description: Risposte alle domande su visite e conteggi dei visitatori in eccesso quando si utilizza Analytics per Target (A4T). Scopri come ridurre a icona i dati parziali.
+title: Dove posso trovare domande frequenti su visite gonfiate e conteggio visitatori con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '656'
-ht-degree: 100%
+source-wordcount: '658'
+ht-degree: 94%
 
 ---
 
