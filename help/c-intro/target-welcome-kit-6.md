@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Kit di benvenuto  Adobe Target - Capitolo 6 - Facili da evitare
-title: Kit di benvenuto - Capitolo 6 - Facilmente evitabili
+description: Scopri gli errori commessi da altri utenti in modo da non creare gli stessi errori quando utilizzi  Adobe Target come parte della tua strategia di test e personalizzazione.
+title: Quali sono gli errori comuni nell'utilizzo di Target e come posso evitarli?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '413'
 ht-degree: 0%
 
 ---
