@@ -1,13 +1,13 @@
 ---
 keywords: pubblico;propensione;attributo di profilo;confrontare;confronto;creare pubblico;creazione di pubblico
-description: Definisci un pubblico per confrontare due attributi di profilo per la tua Libreria tipi di pubblico di Target o in un pubblico per sola attività. L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
-title: Crea un criterio di confronto per gli attributi di profilo
+description: Scoprite come definire un'audience per confrontare due attributi di profilo per la libreria di Target Audience o in un'audience solo per attività.
+title: Posso confrontare due attributi di profilo da usare in Audiences?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '436'
-ht-degree: 99%
+source-wordcount: '419'
+ht-degree: 91%
 
 ---
 
