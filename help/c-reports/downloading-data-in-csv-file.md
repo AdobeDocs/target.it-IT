@@ -1,13 +1,13 @@
 ---
 keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
-description: Scarica i dati in formato .csv per una rapida importazione in Excel, Access o altri programmi di analisi dei dati tramite  Adobe Target.
-title: Download Di Dati In Un File CSV
+description: Scopri come scaricare dati da  attività Adobe Target in formato CVS per importare rapidamente dati in Excel, Access o altri programmi di analisi dei dati.
+title: Come Posso Scaricare I Dati Dei Rapporti In Un File CSV?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '678'
-ht-degree: 83%
+source-wordcount: '686'
+ht-degree: 82%
 
 ---
 
