@@ -1,13 +1,13 @@
 ---
 keywords: stima traffico;personalizzazione automatizzata;ap;stima traffico
-description: Mediante Traffic Estimator (Utilità di stima traffico) viene fornito un feedback che consente di sapere se il traffico è sufficiente per garantire il successo dell'attività Adobe Target .
-title: Stima del traffico necessario per il successo
+description: Scoprite come utilizzare Traffic Estimator (Utilità di stima traffico) che consente di sapere se il traffico è sufficiente per garantire il successo  attività Adobe Target  Automated Personalization.
+title: Quanto traffico è necessario per un'attività Automated Personalization ?
 feature: Automated Personalization
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '738'
-ht-degree: 23%
+source-wordcount: '746'
+ht-degree: 22%
 
 ---
 
