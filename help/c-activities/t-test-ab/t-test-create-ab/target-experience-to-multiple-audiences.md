@@ -1,13 +1,13 @@
 ---
 keywords: più tipi di pubblico;versioni esperienza;versioni esperienza target
-description: Potete eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B  Adobe Target. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
-title: Più versioni di esperienza in un test A/B
+description: Scoprite come eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B  Adobe Target.
+title: Posso utilizzare più versioni dell'esperienza in un'attività A/B?
 feature: A/B Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '614'
-ht-degree: 94%
+source-wordcount: '598'
+ht-degree: 92%
 
 ---
 
