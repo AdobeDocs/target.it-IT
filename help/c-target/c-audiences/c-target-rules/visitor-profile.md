@@ -1,13 +1,13 @@
 ---
 keywords: profilo visitatore;targeting profilo visitatore
-description: Crea tipi di pubblico in Adobe Target per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
-title: Opzioni del profilo del visitatore in Audiences
+description: Scopri come creare audience in  Adobe Target per i visitatori che soddisfano parametri di profilo specifici, come visitatori nuovi o di ritorno, affinità di categoria e molto altro.
+title: Posso Eseguire Il Targeting Dei Visitatori Che Soddisfano Parametri Di Profilo Specifici?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '225'
-ht-degree: 95%
+source-wordcount: '242'
+ht-degree: 83%
 
 ---
 
