@@ -1,13 +1,14 @@
 ---
 keywords: app mobile;processo app mobile;target app mobile;posizioni target mobili;metriche di successo app dispositivi mobili
-description: Target può essere utilizzato per lʼottimizzazione e la personalizzazione di app per dispositivi mobili
-title: Target per le app per dispositivi mobili
+description: Scopri come utilizzare  Adobe Target per l’ottimizzazione e la personalizzazione delle app mobili, con test iterativi e personalizzazioni basate su regole e basate su AI.
+title: Posso utilizzare Target con le app mobili?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '132'
-ht-degree: 96%
+source-wordcount: '145'
+ht-degree: 77%
 
 ---
 
