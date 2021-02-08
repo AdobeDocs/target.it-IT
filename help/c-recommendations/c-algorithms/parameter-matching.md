@@ -1,12 +1,12 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;raccomandazioni;promozione;promozioni;filtro dinamico;corrispondenza parametri
-description: Filtrare in modo dinamico  Adobe Target Recommendations confrontando elementi (entità) con un valore nella richiesta (API o mbox).
-title: Filtrare per corrispondenza parametri nelle regole di inclusione dinamica in Target Recommendations
+description: Scoprite come filtrare in modo dinamico in  Adobe Target Recommendations confrontando elementi (entità) con un valore presente nella richiesta (API o mbox).
+title: In Che Modo È Possibile Filtrare In Base Ai Parametri Corrispondenti Nelle Attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '331'
 ht-degree: 10%
 
 ---
