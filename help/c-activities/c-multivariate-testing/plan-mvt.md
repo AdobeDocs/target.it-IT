@@ -1,13 +1,13 @@
 ---
 keywords: test multivariato;mvt;piano mvt;piano test multivariato
-description: I test multivariati in Adobe Target richiedono una certa pianificazione prima di poter creare un test di successo.
-title: Pianificare un test multivariato
+description: Scoprite come pianificare un test multivariato in  Adobe Target per creare un test di successo.
+title: Come posso pianificare un test multivariato?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '293'
-ht-degree: 97%
+source-wordcount: '298'
+ht-degree: 89%
 
 ---
 
