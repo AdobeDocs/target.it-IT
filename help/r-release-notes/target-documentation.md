@@ -1,12 +1,12 @@
 ---
 keywords: adobe target;target;documentazione;api;apis;sdk;sdk;tutorials;doc;documentation
-description: Dove posso trovare la documentazione di Target?
-title: Panoramica della documentazione
+description: Accedi  documentazione Adobe Target, inclusi guida in linea, esercitazioni, video e documentazione per gli sviluppatori (SDK, API e librerie JavaScript).
+title: Dove posso trovare la documentazione per Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '465'
 ht-degree: 2%
 
 ---
