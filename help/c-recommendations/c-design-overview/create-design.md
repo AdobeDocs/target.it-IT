@@ -1,13 +1,13 @@
 ---
 keywords: Progettazione consigli;creare progettazione;copia progettazione
-description: Una progettazione definisce come i consigli verranno visualizzati su una pagina.
-title: Creare una progettazione
+description: Scoprite come creare una  progettazione Adobe Target Recommendations utilizzando una progettazione predefinita o creando una progettazione personalizzata per adattarla al meglio al layout della pagina.
+title: Come si crea una progettazione in Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 35%
+source-wordcount: '1018'
+ht-degree: 33%
 
 ---
 
