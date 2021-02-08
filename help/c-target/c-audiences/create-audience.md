@@ -1,13 +1,13 @@
 ---
 keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
-description: Puoi creare tipi di pubblico personalizzati e salvarli nella libreria di Target per utilizzarli nelle attività. Puoi copiare un pubblico esistente, modificarlo per crearne uno simile e combinare più tipi di pubblico.
-title: Creazione di audience
+description: Scopri come creare audience personalizzate e salvarle nella libreria  Adobe Target Audiences per utilizzarle nelle tue attività.
+title: Come Posso Creare Audience?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '478'
-ht-degree: 99%
+source-wordcount: '464'
+ht-degree: 94%
 
 ---
 
