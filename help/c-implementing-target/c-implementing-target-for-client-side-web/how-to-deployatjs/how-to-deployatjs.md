@@ -1,13 +1,14 @@
 ---
 keywords: implementare;at.js;libreria JavaScript
-description: Informazioni su come distribuire la libreria JavaScript di Adobe Target, at.js, utilizzando Adobe Launch, senza utilizzare un sistema per la gestione dei o Adobe Dynamic Tag Management (DTM).
-title: Come distribuire at.js
+description: Scoprite come distribuire la libreria JavaScript  Adobe Target at.js utilizzando  Adobe Experience Platform Launch o senza un gestore di tag.
+title: Come si distribuisce at.js?
 feature: Implement Server-side
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '312'
-ht-degree: 56%
+source-wordcount: '308'
+ht-degree: 49%
 
 ---
 
