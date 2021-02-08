@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;audience, filtro;audience;filter
-description: I filtri dell'audience in  Adobe Target (o audience) sono gruppi di visitatori che condividono una caratteristica specifica o un insieme di caratteristiche.
-title: Filtri di pubblico per i rapporti
+description: Scopri come utilizzare i filtri per l'audience in  Adobe Target per visualizzare i dati di gruppi di visitatori che condividono una caratteristica specifica o un insieme di caratteristiche.
+title: Posso usare i filtri per l'audience per i rapporti?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '484'
-ht-degree: 81%
+source-wordcount: '492'
+ht-degree: 79%
 
 ---
 
