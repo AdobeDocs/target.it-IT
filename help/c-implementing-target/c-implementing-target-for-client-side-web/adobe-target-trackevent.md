@@ -1,13 +1,14 @@
 ---
 keywords: adobe.target.trackEvent;trackEvent;trackevent;tracccia evento;at.js;funzioni;funzione;preventDefault;preventdefault;disattivare impostazione predefinita
-description: Informazioni sulla funzione adobe.target.trackEvent(options) per la libreria at.js JavaScript di Adobe Target.
-title: Adobe.Target.Trackevent(Options)
+description: Utilizzate la funzione adobe.target.trackEvent() per la libreria JavaScript di Adobe Target at.js  per attivare una richiesta di segnalazione di azioni utente, ad esempio clic e conversioni sul sito.
+title: Come si utilizza la funzione adobe.target.trackEvent()?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '310'
-ht-degree: 79%
+source-wordcount: '329'
+ht-degree: 70%
 
 ---
 
