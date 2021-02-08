@@ -1,12 +1,13 @@
 ---
 keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto
-description: Create proprietà e utilizzando la funzionalità Proprietà e autorizzazioni che consente  amministratori di Adobe Target di creare aree di lavoro separate (profili di prodotto) in Target e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti Web basati su tali aree di lavoro.
-title: Autorizzazioni per gli utenti Enterprise
+description: Scoprite come creare aree di lavoro separate (profili di prodotto) e assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti Web.
+title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '3062'
+source-wordcount: '3053'
 ht-degree: 80%
 
 ---
