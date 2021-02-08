@@ -1,13 +1,13 @@
 ---
 keywords: Targeting;libreria di Target;libreria
-description: Puoi indirizzare l’attività agli utenti in base a regole di targeting predefinite.
-title: Libreria di Target Opzioni in Audiences
+description: Scoprite come eseguire il targeting dei visitatori utilizzando audience preesistenti. Per migliorare le prestazioni, si consiglia di utilizzare le categorie di pubblico più recenti.
+title: Posso eseguire il targeting dei visitatori in base a regole di targeting predefinite?
 feature: Audiences
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '185'
-ht-degree: 98%
+source-wordcount: '202'
+ht-degree: 85%
 
 ---
 
