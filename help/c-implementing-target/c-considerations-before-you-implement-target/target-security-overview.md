@@ -1,13 +1,14 @@
 ---
 keywords: sicurezza;procedure di sicurezza
-description: Informazioni sull'approccio approfondito e le procedure di sicurezza implementate da Adobe per rafforzare la sicurezza dei tuoi dati e dell'esperienza in Adobe Target.
-title: Panoramica sulla protezione
+description: Scoprite le procedure  Adobe utilizzate per rafforzare la sicurezza dei dati e  esperienza Adobe Target. Scaricate il white paper  Adobe Target Security Overview.
+title: In che modo Target gestisce la sicurezza dei miei dati?
 feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '156'
-ht-degree: 92%
+source-wordcount: '165'
+ht-degree: 74%
 
 ---
 
