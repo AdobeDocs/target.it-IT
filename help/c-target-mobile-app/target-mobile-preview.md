@@ -1,13 +1,14 @@
 ---
 keywords: qa;anteprima;collegamenti di anteprima;mobile;anteprima mobile
-description: Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
-title: Utilizzo di Mobile Preview Link in Target Mobile
+description: Usa i collegamenti di anteprima per dispositivi mobili per eseguire una QA end-to-end per le attività delle app mobili. Potete iscrivervi a esperienze diverse senza dispositivi di prova speciali.
+title: Come si utilizza Mobile Preview Link in Target Mobile?
 feature: Implement Mobile
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
 workflow-type: tm+mt
-source-wordcount: '589'
-ht-degree: 92%
+source-wordcount: '609'
+ht-degree: 82%
 
 ---
 
@@ -76,10 +77,16 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
      }
    ```
 
-   Per il corretto funzionamento dell&#39;anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice nel file [!DNL AndroidManifest.xml]:
+   Per far funzionare l&#39;anteprima Mobile per Android, devi anche aggiungere il seguente frammento di codice in [!DNL AndroidManifest.xml] se utilizzi la versione 5 dell&#39;SDK Mobile  Adobe:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
+   ```
+
+   Se utilizzi la versione 4 dell’SDK Mobile per  Adobe, usa il seguente frammento di codice:
+
+   ```javascript
+   <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
    ```
 
 ## Generazione di un link di anteprima {#section_D9D58173FFF34E9BB75EBF357273F128}
