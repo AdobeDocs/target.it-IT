@@ -1,13 +1,13 @@
 ---
 keywords: server di tracciamento analisi;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform Debugger;reporting source;developer tools
-description: Se utilizzi una versione precedente di at.js o mbox.js, è necessario specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for Target (A4T).
-title: Utilizzo di un server di tracciamento Analytics
+description: 'Scoprite come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics per Target (A4T) se utilizzate una versione precedente di at.js o mbox.js. '
+title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '713'
-ht-degree: 25%
+source-wordcount: '717'
+ht-degree: 22%
 
 ---
 
