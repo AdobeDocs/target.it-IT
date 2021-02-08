@@ -1,13 +1,13 @@
 ---
 keywords: libreria dei contenuti;risorse;ricerca;filtro
-description: Come si ricercano le risorse in base alle parole chiave?
-title: Cerca contenuto
+description: Scoprite come cercare offerte di codice e immagini nella libreria  Adobe Target Offers.
+title: Come si fa per cercare contenuti nella libreria delle offerte?
 feature: Experiences and Offers
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '244'
-ht-degree: 13%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
