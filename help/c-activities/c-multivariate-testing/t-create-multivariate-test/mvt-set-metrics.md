@@ -1,13 +1,13 @@
 ---
 keywords: multivariato;MVT;metriche;impostare metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;ricavi;impegno
-description: Utilizzate le metriche in un test multivariato  Adobe Target per determinare quando una visita ha esito positivo.
-title: Impostare le metriche
+description: Scoprite come specificare le metriche in un'attività Test multivariato di Adobe Target  per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Partecipazione.
+title: Come si impostano le metriche degli obiettivi in un'attività Test multivariato (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 88%
+source-wordcount: '351'
+ht-degree: 83%
 
 ---
 
