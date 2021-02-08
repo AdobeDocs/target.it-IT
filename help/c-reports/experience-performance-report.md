@@ -1,13 +1,13 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Nel rapporto Prestazioni esperienza vengono visualizzate le prestazioni di ogni esperienza nell’attività. Questo include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
-title: Report Prestazioni Esperienza (MVT)
+description: Scoprite come utilizzare il rapporto Experience Performance (Prestazioni esperienza) per  le attività Adobe Target Experience Targeting che mostrano le prestazioni di ogni esperienza nell'attività.
+title: Come si utilizza il rapporto Experience Performance per i test multivariati?
 feature: Reports
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '331'
-ht-degree: 99%
+source-wordcount: '333'
+ht-degree: 89%
 
 ---
 
