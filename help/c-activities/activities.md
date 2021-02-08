@@ -1,12 +1,12 @@
 ---
 keywords: elenco delle attività;attività;attività;tipi di attività;attività di modifica;attività;attività;attività attributo;attività list filter;activity limits;personalizzazione;personalizzazione
-description: Le attività in  Adobe Target consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test i design delle pagine
-title: Personalizzare il contenuto per specifici tipi di pubblico e testare le progettazioni di pagine
+description: Scoprite come le attività in  Adobe Target consentono di personalizzare il contenuto per audience specifiche e di testare le progettazioni di pagina
+title: Come posso personalizzare le progettazioni di pagine di contenuti e test con Target?
 feature: Activities
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2105'
+source-wordcount: '2109'
 ht-degree: 96%
 
 ---
