@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: ' kit di benvenuto Adobe Target - Capitolo 8 - Comunicare i risultati dell''attività'
-title: Kit Di Benvenuto - Capitolo 8 - Comunicare I Risultati Dell'Attività
+description: Utilizzate il modello Risultati di riepilogo per comunicare i successi ottenuti con le attività Adobe Target .
+title: Come posso condividere i risultati delle attività Target con la mia organizzazione?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '205'
+source-wordcount: '219'
 ht-degree: 0%
 
 ---
