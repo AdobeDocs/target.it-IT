@@ -1,13 +1,13 @@
 ---
 keywords: analytics for target;a4t;analytics come fonte dei rapporti
-description: Utilizzando Analytics come origine per la generazione di rapporti per Target (A4T), puoi accedere ai rapporti di Analytics per le attività di Target.
-title: Rapporto A4T
+description: Scoprite come utilizzare Analytics per Target (A4T). A4T fornisce l'accesso ai report di Analytics per le attività Target che utilizzano le metriche di Analytics e i segmenti di audience.
+title: Come si utilizza il reporting in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '677'
-ht-degree: 37%
+source-wordcount: '688'
+ht-degree: 34%
 
 ---
 
