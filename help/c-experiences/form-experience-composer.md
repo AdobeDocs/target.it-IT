@@ -1,13 +1,13 @@
 ---
-keywords: form-based experience composer;form-based composer;refinements
-description: ' Adobe Target Form-Based Experience Composer (Compositore esperienza basato su moduli) consente la creazione di esperienze non visive.'
-title: Compositore esperienza basato su moduli
+keywords: compositore esperienza basato su moduli;compositore basato su modulo;perfezionamenti
+description: Scoprite come utilizzare  Adobe Target Form-Based Experience Composer per creare esperienze non visive. Utilizzate questo compositore quando il VEC non è disponibile o non è pratico da utilizzare.
+title: Come si utilizza Experience Composer basato su moduli?
 feature: Form-based Experience Composer
 translation-type: tm+mt
-source-git-commit: 7f4ecf9963bca54439f81688dbde1340499b795d
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 68%
+source-wordcount: '801'
+ht-degree: 66%
 
 ---
 
