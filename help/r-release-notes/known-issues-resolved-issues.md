@@ -4,10 +4,10 @@ description: Trovate informazioni sui problemi noti in  Adobe Target, incluse le
 title: Dove è possibile trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: fe26b651fbf0e71d5eb16657028d03ae40b5a8b1
 workflow-type: tm+mt
-source-wordcount: '4374'
-ht-degree: 68%
+source-wordcount: '4419'
+ht-degree: 67%
 
 ---
 
@@ -79,7 +79,7 @@ Di seguito sono riportati i problemi noti relativi alle attività di [!UICONTROL
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
 * Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra dei consigli. (TGT-33426)
-* Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante API non sono visibili nell’interfaccia di Target e possono essere modificati solo tramite API. (TGT-35777)
+* Le raccolte, le esclusioni, i criteri e le progettazioni creati tramite l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. Analogamente, se create uno di questi elementi nell&#39;interfaccia utente di Target e successivamente li modificate tramite API, tali modifiche non si rifletteranno nell&#39;interfaccia di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.  (TGT-35777)
 * Le attività Consigli create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
 * I criteri e le schede di progettazione non mostrano il numero corretto di attività in cui vengono utilizzati. Se i criteri o la progettazione vengono utilizzati in un&#39;attività A/B, la scheda potrebbe mostrare erroneamente che la progettazione o i criteri non sono utilizzati, anche quando la progettazione o i criteri sono utilizzati nell&#39;attività. (TGT-36621, TGT-37217)
