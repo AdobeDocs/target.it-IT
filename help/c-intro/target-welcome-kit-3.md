@@ -1,12 +1,12 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: ' kit di benvenuto Adobe Target - Capitolo 3 - Sviluppare le idee di test e personalizzazione'
-title: Kit di benvenuto - Capitolo 3 - Sviluppare le idee di test e personalizzazione
+description: Scopri sei passaggi che delineano un processo collaudato per migliorare le idee di test e personalizzazione prima di creare attività in  Adobe Target.
+title: Come posso sviluppare le mie idee di test e personalizzazione?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
