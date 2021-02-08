@@ -1,13 +1,13 @@
 ---
 keywords: contenuto misto;sicuro;insicuro;cromo;risoluzione dei problemi;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
-description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti.
-title: Consentire contenuti misti nel browser
+description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti. Scoprite come abilitare i contenuti misti in Chrome, Firefox ed Edge.
+title: Come si attivano i contenuti misti nel browser?
 feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '574'
-ht-degree: 35%
+source-wordcount: '588'
+ht-degree: 34%
 
 ---
 
