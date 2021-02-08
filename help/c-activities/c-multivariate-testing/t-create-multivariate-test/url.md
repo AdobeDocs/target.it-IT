@@ -1,13 +1,13 @@
 ---
-keywords: Multivariate Tests;activity url
-description: L'URL attività determina la pagina utilizzata in un test multivariato  Adobe Target (MVT), che si apre quando il test è progettato in  Adobe Target.
-title: URL attività
+keywords: Test multivariati;url attività
+description: Scoprite come specificare l'URL attività che determina la pagina utilizzata nel test e che si apre quando l'attività Test multivariato viene progettata utilizzando  Adobe Target.
+title: Cos'è l'URL attività in un'attività multivariato (MVT)?
 feature: Multivariate Tests
 translation-type: tm+mt
-source-git-commit: 4adade56529fb95e4400e06d04d3c6c69e120edc
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '288'
-ht-degree: 84%
+source-wordcount: '303'
+ht-degree: 79%
 
 ---
 
