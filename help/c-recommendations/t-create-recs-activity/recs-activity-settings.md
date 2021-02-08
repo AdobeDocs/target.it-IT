@@ -1,13 +1,13 @@
 ---
 keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di generazione rapporti;altri metadati
-description: Puoi utilizzare diverse impostazioni per descrivere e controllare un’attività Consigli in Adobe Target.
-title: Impostazioni delle attività Consigli
+description: Scoprite come configurare le impostazioni utilizzate per descrivere e controllare un'attività Recommendations in  Adobe Target.
+title: Come Si Configurano Le Impostazioni Dell'Attività Recommendations?
 feature: Recommendations
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 90%
+source-wordcount: '397'
+ht-degree: 84%
 
 ---
 
