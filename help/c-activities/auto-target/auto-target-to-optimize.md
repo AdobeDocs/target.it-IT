@@ -1,12 +1,12 @@
 ---
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi
-description: Il targeting automatico in  Adobe Target utilizza l'apprendimento automatico avanzato per selezionare tra più esperienze definite dall'esperto di marketing ad alte prestazioni per personalizzare i contenuti e stimolare le conversioni. La funzione Targeting automatico consegna a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente e al comportamento dei visitatori precedenti con profili simili.
-title: Panoramica di destinazione automatica
+description: Scopri in che modo un'attività di targeting automatico in Target offre a ogni visitatore l'esperienza più personalizzata in base ai profili dei clienti e al comportamento di visitatori simili.
+title: Che cos'è un'attività di targeting automatico?
 feature: Auto-Target
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2027'
+source-wordcount: '2008'
 ht-degree: 85%
 
 ---
