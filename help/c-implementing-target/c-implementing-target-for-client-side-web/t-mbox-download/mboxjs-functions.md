@@ -1,13 +1,14 @@
 ---
 keywords: Funzioni mbox
-description: Elenco di funzioni mbox.js da utilizzare per l'implementazione con mbox.js.
-title: Funzioni di mbox.js
+description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+title: Quali funzioni supporta mbox.js?
 feature: at.js
+role: Developer
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '180'
-ht-degree: 59%
+source-wordcount: '200'
+ht-degree: 47%
 
 ---
 
