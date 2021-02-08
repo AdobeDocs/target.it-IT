@@ -1,14 +1,14 @@
 ---
 keywords: chiave di raccomandazione;logica di raccomandazione;categoria corrente;attributo personalizzato;ultimo elemento acquistato;ultimo elemento visualizzato;elemento più visualizzato;elemento visualizzato;categoria preferita;popolarità;elemento visualizzato di recente;ultimo acquistato;ultimo visualizzato;ultimo visualizzato;ultimo visualizzato;preferito;ultimo visualizzato;recente visualizzato
-description: Recommendations basato sulle chiavi utilizza il contesto del comportamento del visitatore per mostrare risultati rilevanti nelle attività di Adobe Target Recommendations.
-title: Basare il consiglio su una Chiave consiglio
+description: Scoprite come utilizzare le raccomandazioni basate sulle chiavi che utilizzano il contesto di comportamento dei visitatori per mostrare risultati rilevanti  attività Adobe Target Recommendations.
+title: Come posso basare la raccomandazione su una chiave di raccomandazione?
 feature: Recommendations
 mini-toc-levels: 2
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '2924'
-ht-degree: 68%
+source-wordcount: '2932'
+ht-degree: 67%
 
 ---
 
