@@ -1,12 +1,12 @@
 ---
 keywords: Note sulla versione
-description: Dove è possibile trovare informazioni sulle versioni precedenti?
-title: Note Sulla Versione Per Le Versioni Precedenti
+description: Visualizza un elenco di funzioni, miglioramenti e correzioni incluse nelle versioni precedenti di  Adobe Target.
+title: Quali funzioni sono incluse nelle release precedenti?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 48b94f967252f5ddb009597456edf0a43bc54ba6
+source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
 workflow-type: tm+mt
-source-wordcount: '30512'
+source-wordcount: '30521'
 ht-degree: 85%
 
 ---
