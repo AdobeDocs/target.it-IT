@@ -4,10 +4,10 @@ description: Leggete gli annunci e registratevi per  eventi Adobe Target, compre
 title: Dove è possibile trovare annunci ed eventi Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: c139cca0562c2d8b9f29343b74ef7a091d91083b
 workflow-type: tm+mt
-source-wordcount: '699'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -25,20 +25,20 @@ Annunci e informazioni sugli eventi imminenti, comprese  sessioni di Adobe Targe
 | Forrester | **Adobe denominato Leader nel report Onda di Forrester per le piattaforme di ottimizzazione dell&#39;esperienza.**<br> Adobe è stato nominato leader in The Forrester Wave: Piattaforme di ottimizzazione dell&#39;esperienza, report Q4 2020 per la sua offerta in questo spazio,  Adobe Target Premium.  Adobe ha ricevuto il punteggio più alto di tutti i fornitori partecipanti nelle attuali categorie di offerta e presenza sul mercato, nonché nelle raccomandazioni e nei criteri di esperienza della piattaforma. Target Premium ha inoltre ricevuto il punteggio più alto possibile nell&#39;innovazione della tecnica di ottimizzazione dell&#39;esperienza e nei criteri dei servizi di supporto. Il rapporto si basa su una valutazione approfondita di 10 fornitori di piattaforme per l&#39;ottimizzazione dell&#39;esperienza su 22 criteri.<br>Leggetelo sul  [ Adobe](https://blog.adobe.com/en/2020/11/24/adobe-named-leader-in-forrester-wave-report-experience-optimization-platforms.html). |
 | Gartner | **Adobe ha nuovamente nominato Leader nel Gartner Magic Quadrant per i motori di personalizzazione.**<br> Adobe è stato nuovamente nominato leader nel terzo rapporto annuale Gartner Magic Quadrant for Personalization Engines, 2020. Il Magic Quadrant di Gartner per i motori di personalizzazione ha valutato i fornitori in 15 criteri che rientrano in due categorie: completezza della vista e capacità di esecuzione.<br>[Leggetelo su The  Adobe Blog](https://theblog.adobe.com/adobe-again-named-leader-in-gartner-magic-quadrant-for-personalization-engines/). |
 
-## Webinar: Personalizzazione di successo su scala: Risultati chiave dalle piattaforme Forrester Wave, Experience Optimization
+##  Interruzione del caffè della community Adobe Target D e R
 
-* **Martedì, gennaio 19**
-* **8:00 PT | 10 CT | 11.000 ET**
-* **Durata: 60 minuti**
-* **[Registrati Qui](https://www.adobeeventsonline.com/Webinar/2021/Personalization/index.php?source=998).**
+* **Mercoledì, 24 febbraio**
+* **9:00 PST | 11 CST | 12 mezzogiorno EST**
+* **Durata 60 minuti**
+* **[Ulteriori informazioni](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-2-24-21-9am-pt-rob-hornick/td-p/396626)**
 
-La capacità di ottimizzare le esperienze dei clienti su scala è ora fondamentale per soddisfare le esigenze dinamiche dei clienti e l&#39;attuale ondata di nuovi visitatori digitali. Una piattaforma di ottimizzazione dell&#39;esperienza, come [!DNL Adobe Target], può essere implementata nelle vostre proprietà digitali per determinare e fornire rapidamente l&#39;esperienza giusta per i clienti al momento giusto, sfruttando il targeting comportamentale manuale e basato sull&#39;intelligenza artificiale, il test e le funzionalità di raccomandazione. Unisciti a noi e al nostro ospite speciale James McCormick, Principal Analyst di Forrester, per presentare e discutere le scoperte chiave di The Forrester Wave, Experience Optimization Platforms, Q4 2020.
+Ci sarà  il responsabile senior del prodotto di Adobe Target Rob Hornick. Rob risponderà alle tue domande relative a Target e alle sue aree di competenza:
 
-In questo webinar imparerete:
-
-* Tendenze del settore che influenzano l&#39;evoluzione degli strumenti di personalizzazione e ottimizzazione dell&#39;esperienza
-* Funzionalità chiave di una piattaforma di ottimizzazione dell&#39;esperienza leader
-* Best practice per ottimizzare le esperienze dei clienti su scala ridotta per il massimo impatto sul business
+* Consigli
+* Allocazione automatica
+* Targeting automatico
+* Personalizzazione automatizzata
+* Apprendimento automatico e intelligenza artificiale
 
 ## Webinar: Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target
 
