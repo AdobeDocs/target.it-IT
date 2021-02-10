@@ -283,7 +283,7 @@ Le informazioni seguenti descrivono l&#39;ordine delle operazioni da seguire qua
 
 | Passaggio | Azione | Dettagli |
 | --- | --- | --- |
-| 1 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
+| 3 | Carica VisitorAPI JS | Questa libreria è responsabile dell&#39;assegnazione di un ECID al visitatore. Questo ID viene successivamente utilizzato da altre soluzioni [!DNL Adobe] sulla pagina Web. |
 | 2 | Carica a.js 2.x | at.js 2.x carica tutte le API necessarie che utilizzate per implementare le richieste e le viste [!DNL Target]. |
 | 3 | Esegui [!DNL Target] richiesta | Se si dispone di un livello dati, si consiglia di caricare i dati critici che è necessario inviare a [!DNL Target] prima di eseguire una richiesta [!DNL Target]. Questo consente di utilizzare `targetPageParams` per inviare i dati da utilizzare per il targeting. Devi accertarti di richiedere di eseguire > pageLoad e di preacquisire > visualizzazioni in questa chiamata API. se sono state impostate le viste `pageLoadEnabled` e `viewsEnabled`, con il passaggio 2 vengono automaticamente eseguiti > pageLoad e prefetch > le viste; in caso contrario, è necessario utilizzare l&#39;API `getOffers()` per effettuare questa richiesta. |
 | 4 | Chiamata `triggerView()` | Poiché la richiesta [!DNL Target] avviata nel passaggio 3 potrebbe restituire esperienze sia per l&#39;esecuzione del caricamento delle pagine che per le viste, accertatevi che `triggerView()` venga chiamata dopo la restituzione della richiesta [!DNL Target] e che le offerte vengano applicate alla cache. Questo passaggio deve essere eseguito una sola volta per ogni visualizzazione. |
