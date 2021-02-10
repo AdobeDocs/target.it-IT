@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella prossima release?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 26%
+source-wordcount: '348'
+ht-degree: 25%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 26%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 14 gennaio 2021**
+**Ultimo aggiornamento: 10 febbraio 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -26,23 +26,16 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >
 >È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, vedere [Panoramica: implementate Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.1.1 (19 gennaio 2021)
+## Target Standard/Premium 21.2.1 (2 marzo 2021)
 
 Questa versione di manutenzione contiene i seguenti miglioramenti, correzioni e modifiche.
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-* È stato aggiunto un avviso quando si seleziona una metrica [!DNL Adobe Analytics] quando si utilizza [!UICONTROL Analytics come origine di reporting] (A4T) in un&#39;attività [!UICONTROL Auto-Target]. [!UICONTROL I modelli di ] targeting automatico sono ottimizzati per funzionare con metriche binarie (basate sulla conversione). La selezione di una metrica continua, come le entrate, potrebbe avere risultati non ottimali e i report [!UICONTROL Personalization Insights] potrebbero non essere precisi. (TGT-38926)
-* È stata aggiunta un&#39;icona di stato nel report [!UICONTROL Auto-Target Summary] per le attività [!UICONTROL Auto-Target] che utilizzano A4T. L&#39;icona di controllo verde accanto a ogni esperienza nel rapporto indica che per quell&#39;esperienza è stato generato un modello di apprendimento automatico personalizzato. L&#39;icona dell&#39;orologio indica che non è stato fornito abbastanza traffico per generare il modello. (TGT-38925)
-* I report [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] per le attività [!UICONTROL Auto-Target] che utilizzano le metriche di conversione A4T e [!DNL Analytics] vengono generati e hanno lo stesso aspetto di quando si utilizza [!DNL Target] come origine di reporting. (TGT-38931)
-* Aggiunta un&#39;opzione di filtro dell&#39;ambiente all&#39;elenco [!UICONTROL Recommendations] [!UICONTROL Raccolte]. (TGT-38353)
-* È stato risolto un problema che causava la visualizzazione del numero di prodotti errato nelle raccolte [!UICONTROL Recommendations]. (TGT-39162)
-* È stato aggiunto un filtro [!UICONTROL Ultimo aggiornamento] alla [!UICONTROL Recommendations] [!UICONTROL Ricerca nel catalogo]. (TGT-38340)
-* È stato risolto un problema in [!UICONTROL Recommendations] che causava il blocco della pagina [!UICONTROL Crea sequenza] dopo la modifica del settore verticale. (TGT-38160)
-* È stato risolto un problema che impediva il salvataggio dell&#39;attività se Device Co-op era abilitato e l&#39;utente passava da [!DNL Target] come origine di reporting a [!DNL Analytics] (A4T). (TGT-38163)
-* È stato risolto un problema che impediva agli utenti di rimuovere un&#39;audience da un&#39;offerta in un&#39;attività [!UICONTROL  Automated Personalization] (AP). (TGT-39058)
-* È stato risolto un problema che causava la visualizzazione errata dell&#39;intervallo di tempo (date di inizio e fine) nelle schede [!UICONTROL Informazioni sull&#39;audience] per alcuni clienti. (TGT-39150)
-* È stato risolto un problema che impediva ad alcuni clienti di visualizzare l&#39;elenco delle attività in [!UICONTROL Area di lavoro predefinita]. (TGT-38526)
+* È stata aumentata la dimensione dell&#39;offerta consentita tramite l&#39;API da 512 KB a 1 MB. (TGT-38304)
+* È stato risolto un problema che impediva la visualizzazione della dipendenza corrente quando i clienti facevano clic su [!UICONTROL Edit Dependency] nella pagina [!UICONTROL Goals &amp; Settings] di un&#39;attività. (TGT-39340)
+* È stato risolto un problema durante l&#39;aggiornamento della [!UICONTROL Libreria Pubblico di un&#39;area di lavoro]. Prima dell&#39;aggiornamento, venivano visualizzati i tipi di pubblico dell&#39;area di lavoro correntemente selezionata. Dopo l&#39;aggiornamento, viene visualizzato l&#39; [!UICONTROL Area di lavoro predefinita] e i relativi tipi di pubblico. L&#39;area di lavoro corrente e i relativi tipi di pubblico ora persistono dopo l&#39;aggiornamento. (TGT-38871)
+* È stato risolto un problema che si verificava durante la copia di un&#39;attività [!UICONTROL Recommendations] e successivamente durante la modifica dell&#39;attività originale, modificando la sequenza dei criteri. La modifica nella sequenza di criteri nell&#39;attività originale è stata applicata erroneamente anche all&#39;attività copiata. (TGT-39155)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
