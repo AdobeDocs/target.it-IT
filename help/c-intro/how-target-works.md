@@ -4,10 +4,10 @@ description: Scoprite come funziona  Adobe Target, comprese informazioni sulle l
 title: Come funziona Target?
 feature: Overview
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 565d620d1aeb87483c2fbad18656cda5e0858fa9
 workflow-type: tm+mt
-source-wordcount: '2516'
-ht-degree: 70%
+source-wordcount: '2559'
+ht-degree: 69%
 
 ---
 
@@ -200,7 +200,13 @@ Riteniamo che sarebbe difficile cambiare involontariamente il significato del co
 
 ## Bot {#bots}
 
- Adobe Target utilizza [DeviceAtlas](https://deviceatlas.com/) per rilevare i bot noti. Al traffico che viene identificato come traffico generato da un bot vengono comunque trasmessi i contenuti, come per il traffico proveniente da utenti regolari, nel rispetto delle linee guida SEO. Tuttavia, l’utilizzo di traffico da bot trattato come utenti normali può sfalsare i test A/B o gli algoritmi di personalizzazione. Pertanto, se nell’attività Target viene rilevato un bot noto, il relativo traffico viene trattato in modo leggermente diverso. La rimozione del traffico da bot genera misurazioni più accurate delle attività degli utenti effettivi.
+ Adobe Target utilizza la metrica [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester/) &quot;isRobot&quot; per rilevare i bot noti in base alla stringa agente utente passata nell&#39;intestazione della richiesta.
+
+>[!NOTE]
+>
+> Per le richieste [!DNL Server Side], il valore passato nel nodo &quot;Contesto&quot; della richiesta [è precedenza rispetto alla stringa agente utente per il rilevamento di bot.](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API)
+
+Al traffico che viene identificato come traffico generato da un bot vengono comunque trasmessi i contenuti, come per il traffico proveniente da utenti regolari, nel rispetto delle linee guida SEO. Tuttavia, l’utilizzo di traffico da bot trattato come utenti normali può sfalsare i test A/B o gli algoritmi di personalizzazione. Pertanto, se nell’attività Target viene rilevato un bot noto, il relativo traffico viene trattato in modo leggermente diverso. La rimozione del traffico da bot genera misurazioni più accurate delle attività degli utenti effettivi.
 
 In particolare, per il traffico proveniente da bot noti, Target:
 
