@@ -5,9 +5,9 @@ title: Quali sono i diversi limiti di carattere, dimensione e altri limiti in  A
 feature: Troubleshooting
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 06ea1c67a515dc7287a0e5e237a5a08f4b38e807
+source-git-commit: 80717e6a99e52fbf357afa85ded63fbf73349de5
 workflow-type: tm+mt
-source-wordcount: '1087'
+source-wordcount: '1086'
 ht-degree: 65%
 
 ---
@@ -159,7 +159,7 @@ Limiti di carattere e altri limiti (dimensioni dell’offerta, audience, profili
    * il valore del parametro del profilo non può essere null
    * valore del parametro del profilo lunghezza massima 256
 
-   **Endpoint API di consegna**
+   **Endpoint** API di consegna:
 
    * parametri mbox 50
    * nome parametro mbox max 128
@@ -194,11 +194,11 @@ Limiti di carattere e altri limiti (dimensioni dell’offerta, audience, profili
 
 ### Dimensione offerta
 
-* **Limite**: i seguenti limiti di dimensione si applicano alle offerte:
+Alle offerte si applicano i seguenti limiti di dimensione:
 
-   * 256 KB per le offerte HTML.
-   * 64 KB per le offerte visive dall’interfaccia utente.
-   * 512 KB dall’API.
+* 256 KB per le offerte HTML.
+* 64 KB per le offerte visive dall’interfaccia utente.
+* 512 KB dall’API.
 
    Se utilizzi una mbox globale, il limite è per l’intero insieme di contenuti restituiti per la pagina. È utile limitare le dimensioni dell’offerta per migliorare i tempi di caricamento della pagina. Se il limite viene superato, viene visualizzato un messaggio di tipo:
 
