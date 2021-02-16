@@ -4,9 +4,9 @@ description: Aggiornatevi con importanti aggiunte e modifiche alla documentazion
 title: Dove è possibile visualizzare gli aggiornamenti della documentazione per Target?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: 305e457e81b16a427ff9ee368aea9bf077018902
+source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
 workflow-type: tm+mt
-source-wordcount: '3626'
+source-wordcount: '3641'
 ht-degree: 28%
 
 ---
@@ -20,10 +20,11 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 16 febbraio | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Testo aggiornato per la dimensione del limite delle offerte nelle note sulla versione prerelease. |
 | 11 febbraio | [Come funziona Target](/help/c-intro/how-target-works.md) | Aggiornamento della sezione &quot;Bots&quot;. |
 | 10 febbraio | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla  Adobe Target Community Q&amp;A Coffee Break il mercoledì 24 febbraio 2021. |
 | 8 febbraio | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | È stato aggiunto lo snippet di codice da aggiungere al file AndroidManifest.xml per la versione 4 dell’SDK Mobile  Adobe. |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato chiarito il seguente problema noto:<ul><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati tramite l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. Analogamente, se create uno di questi elementi nell&#39;interfaccia utente di Target e successivamente li modificate tramite API, tali modifiche non si rifletteranno nell&#39;interfaccia di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.</li></ul> |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato chiarito il seguente problema noto:<ul><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati mediante l&#39;API non sono visibili nell&#39;interfaccia utente di Target e possono essere modificati solo tramite l&#39;API. Analogamente, se create uno di questi elementi nell&#39;interfaccia utente di Target e successivamente li modificate tramite API, tali modifiche non si rifletteranno nell&#39;interfaccia di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.</li></ul> |
 | 1 febbraio | [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: &quot;Domande frequenti.&quot; |
 | Gennaio 27 | [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Argomento aggiornato. |
 |  | [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md) | Argomento aggiornato. |
@@ -108,7 +109,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 |  | [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md) | Intero argomento aggiornato. |
 | 10 settembre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di Target Standard/Premium 20.9.2 che include le seguenti nuove funzioni: Controllare gli slot delle raccomandazioni all&#39;interno delle sequenze di criteri. |
 |  | [Creare sequenze di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) | Sono state aggiunte informazioni sulla funzione &quot;Limita il numero di elementi restituiti&quot;. |
-| 9 settembre | [Bookmarklet di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiunto il codice JavaScript da usare con at.js 2.*x*. |
+| 9 settembre | [Bookmarklet di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa-bookmark.md) | È stato aggiunto il codice JavaScript da utilizzare con at.js 2.*x*. |
 | 3 settembre | [Estensione Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Aggiornata la sezione &quot;Ottieni e installa l&#39;estensione del browser VEC Helper&quot; con informazioni sul nome e dominio del cookie. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | Aggiornato &quot;In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e CEE?&quot; con informazioni sul nome e dominio del cookie. |
 | 2 settembre | [Note sulla versione](/help/r-release-notes/release-notes.md): 20.8.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
