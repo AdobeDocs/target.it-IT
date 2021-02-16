@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella prossima release?
 feature: Release Notes
 translation-type: tm+mt
-source-git-commit: e0d61de20501f40ea6b61db83be346072df997f0
+source-git-commit: 2d610a91118b2e1c69e23faed2f8b7c411c5b7ea
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '363'
 ht-degree: 25%
 
 ---
@@ -16,7 +16,7 @@ ht-degree: 25%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 10 febbraio 2021**
+**Ultimo aggiornamento: 16 febbraio 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni presenti in queste pagine potrebbero essere le stesse, a seconda della data di rilascio. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -32,7 +32,14 @@ Questa versione di manutenzione contiene i seguenti miglioramenti, correzioni e 
 
 I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-* È stata aumentata la dimensione dell&#39;offerta consentita tramite l&#39;API da 512 KB a 1 MB. (TGT-38304)
+* È stata aumentata la dimensione dell&#39;offerta consentita:
+
+   | Tipo | Limite precedente | Nuovo limite |
+   | --- | --- | --- |
+   | HTML | 256 KB | 1024 KB |
+   | Offerte visive dall&#39;interfaccia utente di Target | 64 KB | 1024 KB per ogni esperienza |
+   | Tramite API | 512 KB | 1024 KB |
+
 * È stato risolto un problema che impediva la visualizzazione della dipendenza corrente quando i clienti facevano clic su [!UICONTROL Edit Dependency] nella pagina [!UICONTROL Goals &amp; Settings] di un&#39;attività. (TGT-39340)
 * È stato risolto un problema durante l&#39;aggiornamento della [!UICONTROL Libreria Pubblico di un&#39;area di lavoro]. Prima dell&#39;aggiornamento, venivano visualizzati i tipi di pubblico dell&#39;area di lavoro correntemente selezionata. Dopo l&#39;aggiornamento, viene visualizzato l&#39; [!UICONTROL Area di lavoro predefinita] e i relativi tipi di pubblico. L&#39;area di lavoro corrente e i relativi tipi di pubblico ora persistono dopo l&#39;aggiornamento. (TGT-38871)
 * È stato risolto un problema che si verificava durante la copia di un&#39;attività [!UICONTROL Recommendations] e successivamente durante la modifica dell&#39;attività originale, modificando la sequenza dei criteri. La modifica nella sequenza di criteri nell&#39;attività originale è stata applicata erroneamente anche all&#39;attività copiata. (TGT-39155)
