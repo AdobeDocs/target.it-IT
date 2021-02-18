@@ -4,9 +4,9 @@ description: Seguite i passaggi richiesti per implementare Analytics per Target 
 title: Come posso implementare Analytics per Target (A4T)?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 260492867eb31c59637fc8dff2b8440b5d24c347
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '918'
 ht-degree: 48%
 
 ---
@@ -32,15 +32,15 @@ I requisiti dell&#39;account utente devono essere soddisfatti prima di poter cre
 
 Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni [!DNL Adobe Experience Cloud]. È necessario implementare o eseguire la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementazione del servizio ID Experience Cloud  per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation-guides/setup-target.html) nella *Servizio ID visitatore del Experience Cloud* documentazione.
+Consulta [Implementazione del servizio ID Experience Cloud  per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) nella *Servizio ID visitatore del Experience Cloud* documentazione.
 
 ## Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
 È necessario implementare o eseguire la migrazione alla versione richiesta di appMeasurement.js. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Per le nuove implementazioni, vedi [Panoramica sull&#39;implementazione JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/javascript-implementation-overview.html) nella *Guida all&#39;implementazione di Analytics*.
+Per le nuove implementazioni, vedi [Panoramica sull&#39;implementazione JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/overview.html) nella *Guida all&#39;implementazione di Analytics*.
 
-Per una migrazione, vedete [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/javascript-implementation/appmeasurement-js/appmeasure-mjs-migrate.html) nella *Guida all&#39;implementazione di Analytics*.
+Per una migrazione, vedete [Migrazione ad AppMeasurement per JavaScript](https://experienceleague.adobe.com/docs/analytics/implementation/js/migrate-from-hcode.html) nella *Guida all&#39;implementazione di Analytics*.
 
 ## Passaggio 5: Scarica e aggiorna at.js
 
@@ -92,7 +92,7 @@ Questa configurazione ha un effetto globale. In altre parole, con ogni chiamata 
 
 Il payload può quindi essere inoltrato ad Analytics tramite l&#39; [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Tenere presente che, per le attività [!UICONTROL Auto-Allocate] e [!UICONTROL Auto-Target] sarà necessario inoltrare anche sessionId. Per ulteriori informazioni, vedi [Analytics for Target (A4T) reporting](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) nella *Adobe Target SDKs* guida.
 
-Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. Il payload di analisi verrà restituito solo per questa chiamata e il [!DNL Target] backend non inoltrerà il payload a [!DNL Analytics]. Seguendo questo approccio, ogni richiesta at.js [!DNL Target] non restituirà il payload per impostazione predefinita, ma solo quando desiderato e specificato.
+Se non desideri usare un’impostazione globale a favore di un approccio di tipo on-demand, puoi utilizzare la funzione at.js [getOffers()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) per ottenere lo stesso risultato passando la chiamata **analyticsLogging: &quot;client_side&quot;**. Il payload di analisi verrà restituito solo per questa chiamata e il backend [!DNL Target] non inoltrerà il payload a [!DNL Analytics]. Seguendo questo approccio, ogni richiesta at.js [!DNL Target] non restituirà il payload per impostazione predefinita, ma solo quando desiderato e specificato.
 
 Ad esempio:
 
