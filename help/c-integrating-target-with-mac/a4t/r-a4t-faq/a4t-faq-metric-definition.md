@@ -4,9 +4,9 @@ description: Risposte alle domande sulle definizioni delle metriche e sull'utili
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '391'
 ht-degree: 58%
 
 ---
@@ -20,7 +20,7 @@ Questo argomento contiene le risposte alle domande più frequenti sulle definizi
 
 La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questo valore può essere modificato dall’assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
 
-## Durante la configurazione delle metriche degli obiettivi, perché non è possibile accedere alle opzioni delle impostazioni avanzate? {#adv-settings}
+## Durante la configurazione delle metriche dell&#39;obiettivo, perché non è possibile accedere alle opzioni Impostazioni avanzate? {#adv-settings}
 
 Le opzioni [!UICONTROL Impostazioni avanzate] non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine di reporting (A4T).
 
