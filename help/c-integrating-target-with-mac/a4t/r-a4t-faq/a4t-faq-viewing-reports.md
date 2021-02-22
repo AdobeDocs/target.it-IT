@@ -4,10 +4,10 @@ description: Risposte alle domande frequenti sulla visualizzazione dei report qu
 title: Trovate risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 53%
+source-wordcount: '2427'
+ht-degree: 52%
 
 ---
 
@@ -24,7 +24,9 @@ Per informazioni dettagliate ed esempi, aprite [Analytics &amp; Target: Esercita
 
 ## Dove si possono applicare i segmenti in  Analysis Workspace? {#segmentation}
 
-I segmenti vengono applicati più comunemente nella parte superiore di un pannello nella zona di rilascio del segmento. Il segmento viene applicato a tutte le tabelle e le visualizzazioni nel pannello. Questa tecnica è particolarmente utile per vedere in che modo il test interessa un sottoinsieme di persone (ad esempio, come è stato eseguito questo test per le persone nel Regno Unito)?
+I segmenti vengono utilizzati più comunemente nella parte superiore di un pannello nella zona di rilascio dei segmenti. Il segmento viene applicato a tutte le tabelle e le visualizzazioni nel pannello. Questa tecnica è particolarmente utile per vedere in che modo il test interessa un sottoinsieme di persone (ad esempio, come è stato eseguito questo test per le persone nel Regno Unito)?
+
+Un segmento può anche essere disposto su più livelli direttamente nella tabella a forma libera, ma è necessario sovrapporlo all’intera tabella per mantenere i calcoli relativi all’incremento e alla confidenza nel pannello A4T. Al momento, i segmenti a livello di colonna non sono supportati nel pannello.
 
 ## Quando applico un segmento di hit per una specifica attività Target, perché viene restituita un&#39;esperienza non correlata? {#activity-segmentation}
 
@@ -89,27 +91,27 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 3 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente tramite la persistenza e per l’utente è stato quindi impostato ABC, vedremo due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 3 | 5 | 1 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore eVar viene reimpostata a partire dal 1° aprile, quindi sarà riportato nel rapporto. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
 | Totale | 2 | 20 | 3 | 3 | 3 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per i report [!DNL Target], poiché non state inserendo un&#39;attività [!DNL Target] rispetto a un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ottenuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
