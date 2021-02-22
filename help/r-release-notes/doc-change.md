@@ -2,11 +2,11 @@
 keywords: registro delle modifiche alla documentazione di destinazione;aggiornamenti alla documentazione;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
 description: Aggiornatevi con importanti aggiunte e modifiche alla documentazione  del prodotto Adobe Target.
 title: Dove è possibile visualizzare gli aggiornamenti della documentazione per Target?
-feature: Release Notes
+feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: b04e107dd83f662f3a8926f3ce3d0e8dde18813d
+source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
 workflow-type: tm+mt
-source-wordcount: '3641'
+source-wordcount: '3661'
 ht-degree: 28%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche importanti apportate alla documentaz
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 22 febbraio | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Sono state aggiornate le seguenti domande frequenti:<ul><li>Dove si possono applicare i segmenti in  Analysis Workspace?</li></ul> |
 | 16 febbraio | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Testo aggiornato per la dimensione del limite delle offerte nelle note sulla versione prerelease. |
 | 11 febbraio | [Come funziona Target](/help/c-intro/how-target-works.md) | Aggiornamento della sezione &quot;Bots&quot;. |
 | 10 febbraio | [Annunci ed eventi Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla  Adobe Target Community Q&amp;A Coffee Break il mercoledì 24 febbraio 2021. |
