@@ -2,31 +2,31 @@
 keywords: contenuto misto;sicuro;insicuro;cromo;risoluzione dei problemi;vec;visual experience composer;unsecure;http;https;firefox;internet explorer
 description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti protetti e non protetti. Scoprite come abilitare i contenuti misti in Chrome, Firefox ed Edge.
 title: Come si attivano i contenuti misti nel browser?
-feature: Visual Experience Composer (VEC)
+feature: Compositore esperienza visivo
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 453106f7534f83c205722421bbf00044fde7da67
 workflow-type: tm+mt
-source-wordcount: '588'
-ht-degree: 34%
+source-wordcount: '592'
+ht-degree: 26%
 
 ---
 
 
 # Abilitazione di contenuti misti nel browser
 
-Il contenuto misto si verifica se il contenuto HTTPS (protetto) *e* HTTP (non sicuro) viene caricato per visualizzare la stessa pagina Web e la richiesta iniziale è stata protetta tramite HTTPS.
+Il contenuto misto si verifica se la richiesta iniziale è protetta tramite HTTPS, ma il contenuto HTTPS *e* HTTP viene caricato per visualizzare la pagina Web. Il contenuto HTTPS è sicuro. Il contenuto HTTP non è sicuro.
 
 I browser più recenti potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto protetto e contenuto non protetto.
 
-Se [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tenta di aprire una pagina con contenuti misti, viene visualizzato un messaggio che mostra come disattivare il blocco nel browser in modo da poter aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
+Viene visualizzato un messaggio di avviso se [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Target] tenta di aprire una pagina contenente contenuti misti. Questo messaggio informa come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
 
-![avviso di contenuto misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
+![Avviso contenuto misto](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
 In precedenza, quando i contenuti misti non erano consentiti, era comunque possibile eseguire alcune azioni nel passaggio 1 del flusso di lavoro guidato in tre passaggi durante la creazione di attività. [!DNL Target]Ora blocca le azioni nel passaggio 1. Quando viene visualizzato questo messaggio, è necessario abilitare il contenuto misto prima di continuare a creare l&#39;attività.
 
-Le impostazioni di sicurezza del browser potrebbero bloccare i contenuto misti o non protetti (HTTP) caricati in una pagina o in un frame protetti (HTTPS) (come, ad esempio Compositore esperienza visivo). Se non si desidera disabilitare le impostazioni di sicurezza del browser, è necessario disporre di un sito web HTTPS.
+Le impostazioni di sicurezza del browser potrebbero bloccare i contenuto misti o non protetti (HTTP) caricati in una pagina o in un frame protetti (HTTPS) (come, ad esempio Compositore esperienza visivo). Se non desiderate disattivare le impostazioni di protezione del browser, dovete disporre di un sito Web HTTPS.
 
-Se il sito web è in esecuzione su un dominio non protetto (HTTP), è necessario consentire al Compositore esperienza visivo di caricare i contenuti misti attivi.
+Se il sito Web è in esecuzione su un dominio non sicuro (HTTP), è necessario consentire al VEC di caricare il contenuto misto attivo.
 
 >[!NOTE]
 >
@@ -38,11 +38,11 @@ Per ulteriori informazioni, vedi la sezione sui [contenuto misti](https://develo
 
 Se visitate un sito tramite una connessione protetta, Chrome verifica che il contenuto della pagina Web sia stato trasmesso in modo sicuro.
 
-Consulta [Gestire gli avvisi per i siti non sicuri](https://support.google.com/chrome/answer/1342714?hl=en) nella guida di Google Chrome.
+Vedere &quot;[Questa pagina contiene contenuto non sicuro](https://support.google.com/chrome/answer/1342714?hl=en)&quot; nella Guida di Google Chrome.
 
 Se utilizzate il VEC con la versione più recente di Chrome (versione 79.0.3945.117 o successiva), dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. Fare clic sull&#39;icona Blocca o Avviso, quindi fare clic su **[!UICONTROL Impostazioni sito]**.
+1. Fate clic sull&#39;icona Blocca (cautela), quindi fate clic su **[!UICONTROL Impostazioni sito]**.
 
    ![Impostazioni sito](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/site-settings.png)
 
@@ -63,7 +63,7 @@ Per impostazione predefinita, Firefox blocca le pagine che contengono un misto d
 
 1. Nella barra di ricerca digita `block_active`.
 
-   ![Impostazione attiva blocco Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
+   ![Firefox block_active, impostazione](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox3.png)
 
 1. Fai doppio clic su ` **[!UICONTROL security.mixed_content.block_active_content]**`.
 
@@ -71,7 +71,7 @@ Per impostazione predefinita, Firefox blocca le pagine che contengono un misto d
 
    ![Protezione Firefox](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/firefox2.png)
 
-È consigliabile riavviare il computer dopo aver modificato questa impostazione.
+Dopo aver modificato questa impostazione, riavviare il computer.
 
 ## Abilitazione di contenuti misti in Microsoft Edge
 
@@ -79,7 +79,7 @@ Se visitate un sito tramite una connessione protetta, Edge verifica che il conte
 
 Se utilizzate il VEC con la versione più recente di Edge, dovete aggiornare le impostazioni del sito. I visitatori del sito non devono completare questi passaggi.
 
-1. Fate clic sull&#39;icona Blocca o Avviso, quindi fate clic su **[!UICONTROL Autorizzazioni sito]**.
+1. Fate clic sull&#39;icona Blocca (cautela), quindi fate clic su **[!UICONTROL Autorizzazioni sito]**.
 
    ![Autorizzazioni del sito in Microsoft Edge](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/ms-edge.png)
 
