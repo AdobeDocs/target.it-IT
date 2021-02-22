@@ -4,9 +4,9 @@ description: Risposte alle domande frequenti sulla visualizzazione dei report qu
 title: Trovate risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: a2f0c728d40d7a53a40e1f88f36e6feb885e0629
+source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
 workflow-type: tm+mt
-source-wordcount: '2427'
+source-wordcount: '2426'
 ht-degree: 52%
 
 ---
@@ -38,7 +38,7 @@ Di conseguenza, quando segmentate la presenza di un&#39;attività in un hit, ott
 
 Per le attività che utilizzano [!DNL Analytics] come origine di reporting (A4T), la metrica di obiettivo utilizzerà sempre le impostazioni &quot;[!UICONTROL Increment Count &amp; Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. È possibile configurare *not*.
 
-Per ulteriori informazioni, vedere &quot;Durante la configurazione delle metriche degli obiettivi, perché non è possibile accedere alle opzioni delle impostazioni avanzate?&quot; in [Definizioni metriche - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
+Per ulteriori informazioni, consultate &quot;Durante la configurazione delle metriche dell&#39;obiettivo, perché non è possibile accedere alle opzioni delle impostazioni avanzate?&quot; in [Definizioni metriche - A4T FAQ](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-metric-definition.md).
 
 ## È necessario utilizzare i visitatori, le visite o le impression dell&#39;attività come metrica di normalizzazione (ad es. metodologia di conteggio)? {#metrics}
 
@@ -91,7 +91,7 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
@@ -104,15 +104,15 @@ L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volt
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
 | XYZ | 1 | 15 | 3 | 1 |
-| ABC | 3 | 5 | 1 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore eVar viene reimpostata a partire dal 1° aprile, quindi sarà riportato nel rapporto. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
-| Totale | 2 | 20 | 3 | 3 | 3 |
+| Totale | 2 | 20 | 1 | 1 | 1 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per i report [!DNL Target], poiché non state inserendo un&#39;attività [!DNL Target] rispetto a un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ottenuto credito. Si confrontano i risultati di due elementi all’interno della singola attività e non è possibile per un utente vedere diverse esperienze nella stessa attività, quindi non vi è alcun rischio di contaminazione incrociata del credito attribuito per l’ordine.
 
