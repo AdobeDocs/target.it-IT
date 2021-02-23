@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: dc8d7b90915e35f60c7f17a47e43f0be55a96d68
+source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
 workflow-type: tm+mt
-source-wordcount: '1587'
+source-wordcount: '1586'
 ht-degree: 89%
 
 ---
@@ -42,7 +42,7 @@ ht-degree: 89%
       + [Capitolo 8: Comunicare i risultati dell&#39;attività](/help/c-intro/target-welcome-kit-8.md)
       + [Capitolo 9: Passaggi successivi e risorse](/help/c-intro/target-welcome-kit-9.md)
    + [Glossario](c-intro/glossary.md)
-   + [Come funziona Adobe Target](c-intro/how-target-works.md)
+   + [Come funziona Target](c-intro/how-target-works.md)
    + [Formazione e certificazione](c-intro/training-and-certification.md)
    + [Video di formazione su Adobe Target Standard e Premium](c-intro/target-standard-premium-training-videos.md)
    + [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](c-intro/cmp-target-standard-cheatsheet.md)
