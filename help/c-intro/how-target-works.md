@@ -4,7 +4,7 @@ description: Scoprite come funziona  Adobe Target, comprese informazioni sulle l
 title: Come funziona Target?
 feature: Panoramica
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: 1e5448ecdfe57c2b6cc492180c7225f3740b7147
 workflow-type: tm+mt
 source-wordcount: '2567'
 ht-degree: 32%
@@ -28,7 +28,7 @@ Scoprite come funziona [!DNL Adobe Target], comprese informazioni sulle librerie
 >
 >Tutti i clienti devono effettuare la migrazione alla [!DNL AEP Web SDK] o all&#39;ultima versione di at.js. Per ulteriori informazioni, vedere [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) o [Migra a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
-Fate riferimento a [!DNL AEP Web SDK] o at.js in ogni pagina del sito. Ad esempio, potete aggiungere una di queste librerie all’intestazione globale. In alternativa, è consigliabile utilizzare [ Platform Launch Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html) per implementare [!DNL Target].
+Fate riferimento a [!DNL AEP Web SDK] o at.js in ogni pagina del sito. Ad esempio, potete aggiungere una di queste librerie all’intestazione globale. In alternativa, è consigliabile utilizzare [ Platform launch Adobe](https://experienceleague.adobe.com/docs/launch/using/overview.html) per implementare [!DNL Target].
 
 Le seguenti risorse contengono informazioni dettagliate utili per implementare AEP Web SDK o at.js:
 
@@ -56,7 +56,7 @@ Consulta [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test
 
 ### Allocazione automatica
 
-Allocazione automatica identifica un vincitore tra due o più esperienze. Allocazione automatica riassegna automaticamente più traffico all&#39;esperienza vincente per aumentare le conversioni mentre il test continua a essere eseguito e imparare.
+Allocazione automatica identifica un vincitore tra due o più esperienze. Allocazione automatica riassegna automaticamente più traffico all&#39;esperienza vincente, contribuendo ad aumentare le conversioni mentre il test continua a essere eseguito e apprendere.
 
 Per ulteriori informazioni, consulta [ Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -134,7 +134,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un centro dati [!DNL Ad
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni del visitatore continuano a essere limitate per  [!DNL Target] i clienti in Cina. A causa del firewall e dell&#39;assenza di Edge Clusters nel paese, le esperienze dei siti con [!DNL Target] implementato possono essere influenzate. Le esperienze possono essere lente per il rendering e i caricamenti di pagina possono essere influenzati. Inoltre, gli esperti di marketing potrebbero rilevare la latenza durante l&#39;utilizzo dell&#39;interfaccia di authoring [!DNL Target].
+>[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni del visitatore restano limitate per  [!DNL Target] i clienti in Cina. A causa del firewall e dell&#39;assenza di Edge Clusters nel paese, le esperienze dei siti con [!DNL Target] implementato possono essere influenzate. Le esperienze possono essere lente per il rendering e i caricamenti di pagina possono essere influenzati. Inoltre, gli esperti di marketing potrebbero rilevare la latenza durante l&#39;utilizzo dell&#39;interfaccia di authoring [!DNL Target].
 
 Se necessario,   [!DNL Target] Edge Clusters. Per ulteriori informazioni, vedere [ inserire nell&#39;elenco Consentiti nodi periferici di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md).
 
@@ -174,9 +174,9 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    `<link rel="canonical" href="https://www.adobe.com" />`
 
-* **Utilizzare i reindirizzamenti** 302 (temporanei): Nei casi in cui sono utilizzati URL separati per le pagine di variazione in un test, Google consiglia di utilizzare un reindirizzamento 302 per indirizzare il traffico verso le varianti di test. Il reindirizzamento 302 indica ai motori di ricerca che il reindirizzamento è temporaneo ed è attivo solo finché il test è in esecuzione.
+* **Utilizzare i reindirizzamenti** 302 (temporanei): Nei casi in cui sono utilizzati URL separati per le pagine di variazione in un test, Google consiglia di utilizzare un reindirizzamento 302 per indirizzare il traffico verso le varianti di test. Il reindirizzamento 302 indica ai motori di ricerca che il reindirizzamento è temporaneo e attivo solo finché il test è in esecuzione.
 
-   Un reindirizzamento 302 è un reindirizzamento lato server e [!DNL Target], insieme alla maggior parte dei provider di ottimizzazione, utilizza funzionalità lato client. Pertanto, si tratta di un&#39;area in cui [!DNL Target] non è completamente conforme alle raccomandazioni di Google. Questa pratica, tuttavia, interessa solo una piccola parte dei test. L&#39;approccio standard per l&#39;esecuzione di test tramite [!DNL Target] chiamate per la modifica del contenuto all&#39;interno di un singolo URL, pertanto non è necessario eseguire un reindirizzamento. In alcuni casi, i client devono usare più URL per rappresentare le loro varianti di test. In questi casi, [!DNL Target] utilizza il comando JavaScript `window.location`. Questo comando indirizza gli utenti al test delle varianti, il che non indica esplicitamente se il reindirizzamento è 301 o 302.
+   Un reindirizzamento 302 è un reindirizzamento lato server e [!DNL Target], insieme alla maggior parte dei provider di ottimizzazione, utilizza funzionalità lato client. Pertanto, i reindirizzamenti sono un&#39;area in cui [!DNL Target] non è completamente conforme alle raccomandazioni di Google. Questa pratica, tuttavia, interessa solo una piccola parte dei test. L&#39;approccio standard per l&#39;esecuzione di test tramite [!DNL Target] chiamate per la modifica del contenuto all&#39;interno di un singolo URL, pertanto non è necessario eseguire un reindirizzamento. In alcuni casi, i client devono usare più URL per rappresentare le loro varianti di test. In questi casi, [!DNL Target] utilizza il comando JavaScript `window.location`. Questo comando indirizza gli utenti al test delle varianti, il che non indica esplicitamente se il reindirizzamento è 301 o 302.
 
     Adobe continua a cercare soluzioni valide per allinearsi completamente con le linee guida dei motori di ricerca. Per i client che devono utilizzare URL separati per il test,  Adobe è convinto che la corretta implementazione dei tag canonici riduca il rischio associato a questo approccio.
 
