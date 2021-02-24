@@ -4,10 +4,10 @@ title: Dove posso trovare la documentazione di Target?
 description: Scopri come utilizzare  Adobe Target per personalizzare l'esperienza dei clienti al fine di massimizzare le entrate sui siti Web e mobili, le app e altri canali digitali.
 feature: Panoramica
 translation-type: tm+mt
-source-git-commit: 86cd5ade1de62add37c9007bb6a9f7f97b92559d
+source-git-commit: 69677b9d384d9817a39386fc1388a4aa42121713
 workflow-type: tm+mt
 source-wordcount: '699'
-ht-degree: 58%
+ht-degree: 45%
 
 ---
 
@@ -45,18 +45,18 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Introduzione a Target](c-intro/intro.md): spiega i concetti principali della soluzione [!DNL Target].
 - Integrare Target con Adobe Experience Cloud: Spiega come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md), [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md) e [Experience Cloud Device Co-op](/help/c-integrating-target-with-mac/experience-cloud-device-co-op.md).
 - [ Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) Adobe Target: Fornisce esercitazioni e video per aiutarti a trarre il massimo da Target.
-- [Risoluzione dei problemi di Target](r-troubleshooting-target/troubleshooting-target.md): fornisce collegamenti alle informazioni sulla risoluzione dei problemi contenute in questa guida, tra cui informazioni sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in [!DNL Target].
+- [Risoluzione dei problemi relativi a Target](r-troubleshooting-target/troubleshooting-target.md): Fornisce collegamenti alle informazioni per la risoluzione dei problemi contenute in questa guida, incluse informazioni sui limiti di caratteri e altri limiti (dimensioni dell&#39;offerta, audience, profili, valori, parametri e così via) che interessano le attività e altri elementi in  [!DNL Target].
 - [Target per le app per dispositivi mobili](c-target-mobile-app/target-mobile-app.md): illustra come utilizzare [!DNL Target] per l’ottimizzazione e la personalizzazione delle app per dispositivi mobili.
-- [Risorse e informazioni di contatto](cmp-resources-and-contact-information.md): fornisce informazioni su risorse aggiuntive relative alle funzioni di [!DNL Target] e a come contattare [!DNL Adobe] in caso di bisogno di assistenza.
+- [Risorse e informazioni](cmp-resources-and-contact-information.md) di contatto: Fornisce informazioni su ulteriori risorse per aiutarvi a conoscere  [!DNL Target] le funzioni e a contattare  [!DNL Adobe] in caso di necessità.
 
 ## Esperti di marketing {#marketers}
 
 - [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
-- [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
+- [Pubblico](c-target/target.md): Spiega come determinare chi visualizza contenuto ed esperienze in attività con targeting.
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
 - [Recommendations](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
 
-## Sviluppatori  {#developers}
+## Sviluppatori {#developers}
 
 - [Implementare Target](c-implementing-target/implementing-target.md): illustra come implementare [!DNL Target] su siti Web, app mobili, app a pagina singola (SPA) e piattaforme iOT/OTT.
 - [API](https://developers.adobetarget.com/api/delivery-api/) lato server di destinazione: Descrive le risorse che compongono  Adobe Target Delivery API.
@@ -71,7 +71,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Analisti  {#analysts}
 
-- [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
+- [Pubblico](c-target/target.md): Spiega come determinare chi visualizza contenuto ed esperienze in attività con targeting.
 - [Rapporti](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
 
 ## Addetti al controllo qualità  {#qa}
