@@ -2,19 +2,19 @@
 keywords: creare l'allocazione automatica;test A/B;allocare automaticamente l'attività;nuova attività a/b;allocare automaticamente;allocare automaticamente per la migliore esperienza;allocare;allocare automaticamente
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un'attività di test A/B allocata automaticamente direttamente su una pagina abilitata per Target.
 title: Come si crea un'attività di allocazione automatica?
-feature: Auto-Allocate
+feature: Allocazione automatica
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '913'
-ht-degree: 60%
+source-wordcount: '908'
+ht-degree: 58%
 
 ---
 
 
 # Creazione di un&#39;attività di allocazione automatica
 
-Utilizzate [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC) in [!DNL Adobe Target] per creare l&#39;attività [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] direttamente su una pagina [!DNL Target] e per modificare parti della pagina all&#39;interno di [!DNL Target].
+Utilizzate [!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] per creare l&#39;attività [!UICONTROL Auto-Allocate] [!UICONTROL A/B Test] direttamente su una pagina [!DNL Target] abilitata e per modificare parti della pagina all&#39;interno di [!DNL Target].
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Per creare un&#39;attività [!UICONTROL Allocazione automatica]:
 
    >[!NOTE]
    >
-   >Oltre a VEC e [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre il VEC per l&#39;applicazione a pagina singola. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/c-experiences/experiences.md).
+   >Oltre a VEC e [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre VEC per l&#39;applicazione a pagina singola. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
@@ -62,14 +62,10 @@ Per creare un&#39;attività [!UICONTROL Allocazione automatica]:
 
    ![Campo Nome](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   I seguenti caratteri non sono consentiti nel nome di un’attività:
+   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
-   | `/` | Barra |
-   | `?` | Punto interrogativo |
-   | `#` | Cancelletto |
-   | `:` | Due punti |
    | `=` | Uguale |
    | `+` | Più |
    | `-` | Meno |
