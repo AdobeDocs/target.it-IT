@@ -1,13 +1,13 @@
 ---
-keywords: Creare targeting automatico;test A/B;targeting automatico dell'attività;nuova attività a/b;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato
+keywords: Creare targeting automatico;test A/B;targeting automatico dell'attività;nuova attività a/b;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare l'attività di test A/B con targeting automatico direttamente su una pagina abilitata per Target.
 title: Come si crea un'attività di targeting automatico?
-feature: Auto-Target
+feature: Targeting automatico
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d57153a26ac0bc95004900dbcb006b867bc31d81
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 59%
+source-wordcount: '933'
+ht-degree: 58%
 
 ---
 
@@ -64,14 +64,10 @@ Per creare un&#39;attività [!UICONTROL Auto-Target]:
 
    ![Campo Nome](/help/c-activities/t-test-ab/t-test-create-ab/assets/ab_newname-new.png)
 
-   I seguenti caratteri non sono consentiti nel nome di un’attività:
+   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
-   | `/` | Barra |
-   | `?` | Punto interrogativo |
-   | `#` | Cancelletto |
-   | `:` | Due punti |
    | `=` | Uguale |
    | `+` | Più |
    | `-` | Meno |
@@ -105,7 +101,7 @@ Per creare un&#39;attività [!UICONTROL Auto-Target]:
 
    Puoi mostrare più esperienze allo stesso pubblico. Viene visualizzato un diagramma che mostra il pubblico selezionato e le esperienze aggiunte all’attività.
 
-   Scegli il metodo desiderato per l’allocazione del traffico. Per creare un&#39;attività [!UICONTROL Auto-Target], selezionate **[!UICONTROL Auto-target per esperienze personalizzate]**.
+   Scegli il metodo desiderato per l’allocazione del traffico. Per creare un&#39;attività [!UICONTROL Auto-Target], selezionare **[!UICONTROL Auto-target per esperienze personalizzate]**.
 
    I tre tipi di assegnazione del traffico sono descritti di seguito:
 
