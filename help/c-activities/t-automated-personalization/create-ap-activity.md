@@ -2,11 +2,11 @@
 keywords: personalizzazione automatizzata;ap;audience;ensemble;foresta casuale;varianza residua;varianza errore;valore del ciclo di vita
 description: Scoprite come creare un'attività Automated Personalization (AP)  in  Adobe Target utilizzando Visual Experience Composer (VEC).
 title: Come si crea un'attività Automated Personalization ?
-feature: Automated Personalization
+feature: Personalizzazione automatizzata
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '2057'
+source-wordcount: '2053'
 ht-degree: 91%
 
 ---
@@ -48,18 +48,14 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL  Automated Personalization] (
 
    ![Campo Nome](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   I seguenti caratteri non sono consentiti nel nome di un’attività:
+   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
-   | / | Barra |
-   | ? | Punto interrogativo |
-   | # | Cancelletto |
-   | : | Due punti |
-   | = | Uguale |
-   | + | Più |
-   | - | Meno |
-   | @ | Chiocciola |
+   | `=` | Uguale |
+   | `+` | Più |
+   | `-` | Meno |
+   | `@` | Chiocciola |
 
 1. Modifica gli elementi della pagina come descritto in [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
