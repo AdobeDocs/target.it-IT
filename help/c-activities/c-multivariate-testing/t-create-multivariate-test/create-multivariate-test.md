@@ -2,12 +2,12 @@
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un test multivariato (MVT) direttamente su una pagina compatibile con Target.
 title: Come si crea un test multivariato?
-feature: Multivariate Tests
+feature: Test multivariati
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt
-source-wordcount: '573'
-ht-degree: 91%
+source-wordcount: '569'
+ht-degree: 88%
 
 ---
 
@@ -56,18 +56,14 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    ![Campo Nome attività](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   I seguenti caratteri non sono consentiti nel nome di un’attività:
+   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
-   | / | Barra |
-   | ? | Punto interrogativo |
-   | # | Cancelletto |
-   | : | Due punti |
-   | = | Uguale |
-   | + | Più |
-   | - | Meno |
-   | @ | Chiocciola |
+   | `=` | Uguale |
+   | `+` | Più |
+   | `-` | Meno |
+   | `@` | Chiocciola |
 
 1. [Crea le offerte in ogni posizione](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/add-offers.md#concept_DCE6B45C30F7419B8EC17AFDEE8D8AA6).
 
