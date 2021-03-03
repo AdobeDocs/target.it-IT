@@ -1,20 +1,20 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4t;provisioning;adobe experience cloud
-description: Trovate le risposte alle domande frequenti sul provisioning di Analytics per Target (A4T), che vi consente di utilizzare i report di Analytics per le attività di Target.
-title: Dove posso trovare informazioni sul provisioning iniziale A4T?
+description: Trova le risposte alle domande che vengono spesso poste in merito al provisioning di Analytics for Target (A4T), che consente di utilizzare i rapporti di Analytics per le attività di Target.
+title: Dove posso trovare informazioni sul provisioning iniziale di A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '481'
-ht-degree: 92%
+source-wordcount: '489'
+ht-degree: 68%
 
 ---
 
 
 # Provisioning iniziale - Domande frequenti su A4T{#initial-provisioning-a-t-faq}
 
-Questo argomento contiene le risposte alle domande più frequenti sull’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
+Questo argomento contiene le risposte alle domande più frequenti sul provisioning [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
 ## Come posso impostare un’attività A4T con più pagine?
 
@@ -37,12 +37,12 @@ Se si verificano problemi di provisioning, verifica se il provisioning di A4T è
 Controlla quanto segue se si verifica uno di questi problemi:
 
 * Assicurati che i tuoi account Analytics e Target siano collegati in Experience Cloud.
-* Se utilizzi account di accesso in Analytics per diverse società all’interno della stessa società Experience Cloud, assicurati che l’ultima società Analytics a cui ti sei connesso corrisponda a quella collegata all’account Target per l’integrazione.
+* Alcuni clienti utilizzano più accessi aziendali di Analytics nella stessa azienda Experience Cloud. Se utilizzi più accessi, assicurati che l’ultima società Analytics a cui hai effettuato l’accesso sia quella collegata all’account Target per l’integrazione.
 * Se sei stato connesso a Experience Cloud per diverse ore, la sessione di Analytics potrebbe essere scaduta. Disconnettiti, accedi di nuovo e riprova.
 
 ## Perché non vedo le opzioni di Analytics in Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
-Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
+Consulta “Perché le suite di rapporti non vengono caricate?” Sopra. La causa principale di questo problema è la stessa.
 
 ## Perché non vedo i rapporti A4T in Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
