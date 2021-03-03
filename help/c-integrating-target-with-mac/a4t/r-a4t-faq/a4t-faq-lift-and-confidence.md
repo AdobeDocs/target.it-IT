@@ -1,20 +1,20 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4t;incremento;ad hoc;report builder;affidabilità
-description: Risposte alle domande su incremento e confidenza quando si utilizza Analytics per Target (A4T). A4T consente di utilizzare il reporting di Analytics per le attività di Target.
-title: Dove posso trovare informazioni su Sollevamento e fiducia con A4T?
+description: Trova le risposte alle domande su incremento e affidabilità durante l’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+title: Dove posso trovare informazioni su incremento e affidabilità con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '517'
-ht-degree: 45%
+source-wordcount: '510'
+ht-degree: 40%
 
 ---
 
 
 # Incremento e affidabilità - Domande frequenti su A4T{#lift-and-confidence-a-t-faq}
 
-Questo argomento contiene le risposte alle domande che vengono spesso poste in merito ai concetti di incremento e affidabilità durante l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
+Questo argomento contiene le risposte alle domande che vengono spesso poste in merito all’incremento e all’affidabilità quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
 ## Posso eseguire calcoli offline per A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
@@ -30,18 +30,18 @@ Il livello di affidabilità è la probabilità che il tasso di conversione misur
 
 ## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate?  {#lift-confidence}
 
-Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e confidenza. Ciò è dovuto al fatto che Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. La confidenza, in particolare, è un calcolo a livello di visitatore.
+Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e affidabilità. Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. In particolare, Affidabilità è un calcolo a livello di visitatore.
 
-Gli eventi non calcolati (standard) sono supportati in incremento e confidenza. Diventano il numeratore nella funzione di sollevamento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000, ecc. Ciò significa che le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatori) sono supportate in incremento e confidenza.
+Gli eventi non calcolati (standard) sono supportati in incremento e affidabilità. Diventano il numeratore nella funzione di incremento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000 e così via. Le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatore), sono supportate in incremento e affidabilità.
 
-Esempi di metriche o casi di utilizzo non supportati:
+Esempi di metriche o casi d’uso non supportati sono:
 
-* Valore ordine medio (ricavi/ordine, per visitatore). AOV non è supportato perché il numeratore è una metrica calcolata. Al contrario, la raccomandazione è di considerare le due metriche influenti di AOV - Revenue per Visitors (Entrate per visitatore) e Conversion Rate (Tasso di conversione).
-* Metriche calcolate che rappresentano la somma degli eventi standard. Ad esempio, potete tenere traccia di dieci diversi moduli lead in dieci eventi separati, quindi aggiungerli insieme per ottenere il totale degli invii lead. Un metodo consigliato per tenere traccia di questi eventi consiste nell’implementare un singolo evento di invio dei lead in Analytics e quindi utilizzare un eVar  per raccogliere il tipo di modulo lead. L’utilizzo di questo metodo richiede un numero minore di variabili e garantisce l’utilizzo della metrica di invio dei lead nelle funzioni di incremento e confidenza.
+* Valore medio dell’ordine (ricavi/ordine, per visitatore). AOV non supportato perché il numeratore è una metrica calcolata. Invece, si consiglia di considerare le due metriche che influenzano l’AOV - Ricavo per visitatore e Tasso di conversione.
+* Metriche calcolate che corrispondono alla somma degli eventi standard. Ad esempio, è possibile tenere traccia di dieci diversi moduli lead in dieci eventi distinti, quindi aggiungerli insieme per ottenere invii totali. Per tenere traccia di questi eventi, si consiglia di implementare un singolo evento di invio del lead in Analytics e quindi di utilizzare una eVar per raccogliere il tipo di modulo per lead. L’utilizzo di questo metodo richiede un numero inferiore di variabili e garantisce l’utilizzo della singola metrica di invio del lead nelle funzioni di incremento e affidabilità.
 
 ## Come gestisce A4T i calcoli di affidabilità?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono presi in considerazione. Inoltre, il calcolo della confidenza non applica una correzione Bonferroni per offerte multiple.
+A4T utilizza calcoli metrici non binari con la somma dei dati al quadrato. La varianza viene calcolata utilizzando la somma dei dati al quadrato. Gli ordini estremi non vengono considerati. Inoltre, il calcolo dell’affidabilità non applica una correzione Bonferroni per offerte multiple.
 
 ## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io?  {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
