@@ -1,28 +1,28 @@
 ---
 keywords: server di tracciamento di analytics;A4T;segmenti di analytics;suite di rapporti;dati non corretti;orfani;sdid;VisitorAPI.js;mboxMCSDID;phantom;non specificato
-description: Esplorate i problemi più comuni che i clienti hanno incontrato quando utilizzano Analytics per Target (A4T).
-title: Come risolvere i problemi di integrazione di Analytics e Target (A4T)
+description: Esplorare i problemi comuni riscontrati dai clienti durante l’utilizzo di Analytics for Target (A4T).
+title: Come posso risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '995'
-ht-degree: 61%
+source-wordcount: '1003'
+ht-degree: 42%
 
 ---
 
 
 # Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
 
-In questo argomento vengono descritti alcuni problemi che sono stati riscontrati durante l’utilizzo di Analytics come origine per la generazione di rapporti per Target (A4T).
+Questo argomento tratta alcuni problemi comuni che sono stati riscontrati durante l’utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
 ## Le attività non mostrano dati in Analytics, ma sono elencate come “non specificato”.{#unspecified}
 
-Questo può accadere per diversi motivi:
+Ci sono diversi motivi per cui i dati possono verificarsi come &quot;non specificato&quot;:
 
 * La classificazione in [!DNL Target] non è stata completamente elaborata.
 
-   In genere la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
+   La classificazione richiede generalmente da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 
 * La suite di rapporti non contiene dati, ma [!DNL Target] ha effettuato un tentativo di classificazione dei risultati. [!DNL Target] non può classificare i dati finché non si verifica il primo risultato.
 
@@ -32,23 +32,23 @@ Questo può accadere per diversi motivi:
 
    [Contatta l’Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
-Se suddividete la riga &quot;non specificato&quot; per la dimensione &quot;Analytics for Target&quot; e non è costituita da ID attività, significa che tutto è classificato correttamente.  Se gli ID dell&#39;attività sono elencati qui, funge da indicazione per un problema di classificazione.
+Se suddividi la riga &quot;non specificato&quot; per la dimensione &quot;Analytics for Target&quot; e non è costituita da ID attività, significa che tutto viene classificato correttamente. Se gli ID attività sono elencati lì, funge da indicazione per un problema di classificazione.
 
 >[!NOTE]
 >
->A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificato” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che la classificazione richiede tra 24 e 72 ore per classificare i rapporti dopo il primo salvataggio.
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma poi vengono ripristinati come &quot;non specificato&quot; perché è stata aggiunta una nuova attività che non ha completato la classificazione. Ricorda che in genere la classificazione dei rapporti dopo il primo salvataggio richiede da 24 a 72 ore.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
-## I report Attività A4T includono una riga con un numero elevato di eventi &quot;non specificati&quot;. {#added_unspecified_events}
+## I rapporti sulle attività di A4T includono una riga con molti eventi &quot;non specificati&quot;. {#added_unspecified_events}
 
-Potrebbe essere presente una riga di eventi &quot;[!UICONTROL Non specificato]&quot; mostrata nel rapporto, a seconda della metrica utilizzata per visualizzare i dati.
+Nel rapporto potrebbe essere visualizzata una riga di eventi &quot;[!UICONTROL Non specificato]&quot;, a seconda della metrica con cui vengono visualizzati i dati.
 
-In genere, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non sia specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] ecc.). In questo caso, la riga [!UICONTROL &quot;Non specificato&quot;] include tutte le [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite] e [!UICONTROL Visitatori unici] non associate alle attività [!DNL Target].
+In genere, questa riga viene visualizzata se scegli una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, la riga [!UICONTROL &quot;Non specificato&quot;] include tutte le [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite] e [!UICONTROL Visitatori unici] non associate alle attività [!DNL Target].
 
-A tale riga non saranno associate [!DNL Target] informazioni (ad es. nessun visitatore, visita o impression). Per ulteriori informazioni, vedere [&quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nel report](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nelle *note tecniche di Analytics*.
+A tale riga non saranno associate [!DNL Target] informazioni (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [&quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=en) nelle *note tecniche di Analytics*.
 
-Se scegliete una metrica [!DNL Target] specifica nel rapporto, la riga [!UICONTROL &quot;Non specificato&quot;] non viene visualizzata. L&#39;unico modo per evitare che venga incluso nel rapporto è impostare una [!DNL Target] chiamata su ogni richiesta inviata da quella pagina, cosa non comune o necessaria.
+Se scegli una metrica specifica [!DNL Target] nel rapporto, la riga [!UICONTROL &quot;Non specificato&quot;] non viene visualizzata. L&#39;unico modo per evitare di averlo completamente nel rapporto è quello di impostare una chiamata [!DNL Target] su ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
 ## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
 
@@ -60,44 +60,44 @@ I dettagli dell’incremento e dell’affidabilità di Target non sono disponibi
 
 ## Le attività non vengono visualizzate nei rapporti di Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Utilizzo di un server di tracciamento di Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
+Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta  [Utilizzo di un ](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) server di tracciamento di Analytics per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
 >[!NOTE]
 >
->Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza mbox.js versione 61 (o successiva) o at.js versione 0.9.1 (o successiva). La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 ## I miei segmenti di Analytics non compaiono in Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
-* È necessario appartenere al gruppo di accesso ai servizi Web in Adobe Analytics per poter utilizzare Analytics come origine per la generazione di rapporti per Target.
-* È necessario essere membri di uno o più gruppi Experience Cloud che hanno accesso ad Analytics e a Target.
+* Appartenere al gruppo Accesso ai servizi Web in Adobe Analytics per poter utilizzare Analytics come origine per la generazione di rapporti per Target
+* È membro di uno o più gruppi Experience Cloud con accesso ad Analytics e Target.
 * Verifica che Analytics e Target siano visualizzati nella sezione App marketing del menu di navigazione di sinistra.
 
 ## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
-Questo è un problema noto.
+Queste metriche che appaiono positive nei rapporti sono un problema noto.
 
 Anche se queste metriche sono negative, nei rapporti di Target l’incremento è mostrato come se fossero positive. Ad esempio, anche se si desidera una percentuale di mancato recapito più bassa, la percentuale più elevata viene visualizzata come vincitore con l’incremento più alto. Considera queste metriche e ad altre simili, e se preferisci aumentare o diminuire i numeri, quando prendi decisioni in base ai rapporti.
 
 ## La suite di rapporti di cui ho bisogno non viene visualizzata. {#section_BD8F956E41D6475B98B7BF0C74CC387C}
 
-L&#39;elenco delle suite di rapporti che viene visualizzato in [!DNL Target Standard/Premium] è l&#39;elenco delle suite di rapporti configurate per [!DNL Analytics] come origine di reporting per [!DNL Target] (A4T). Questo significa che potresti non vedere tutte le suite di rapporti di cui disponi.
+L’elenco delle suite di rapporti visualizzate in [!DNL Target Standard/Premium] è l’elenco delle suite di rapporti configurate per [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T). Potresti non visualizzare tutte le suite di rapporti disponibili.
 
-Inoltre, se utilizzi più origini di reporting, le suite di rapporti devono essere presenti anche nel set di origini di reporting predefinito in [!DNL Target]; in caso contrario, le suite di rapporti non verranno visualizzate.
+Se utilizzi più origini di reporting, le suite di rapporti devono essere presenti anche nell’origine di reporting predefinita impostata in [!DNL Target]. Se le suite di rapporti non sono nell’origine di reporting predefinita, le suite di rapporti non vengono visualizzate.
 
-Se la suite di rapporti che stai cercando non è ancora visibile, contatta l&#39; [Client Care](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per attivarla.
+Se la suite di rapporti che stai cercando non viene ancora visualizzata, contatta l’ [Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per abilitarla.
 
 ## Non trovo nei rapporti la quantità di dati che mi aspettavo.  {#section_75002584FA63456D8D9086172925DD8D}
 
 Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. 
 
-* **at.js 1.x**: Nella  [!DNL Target] chiamata, l’ID supplementare è contenuto nel  `mboxMCSDID` parametro. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
-* **at.js 2.x**: Nella  [!DNL Target] chiamata, l’ID supplementare viene restituito nell’intestazione HTTP come valore per  `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
+* **at.js 1.x**: Nella  [!DNL Target] chiamata , l’ID supplementare è contenuto nel  `mboxMCSDID` parametro . Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
+* **at.js 2.x**: Nella  [!DNL Target] chiamata , l’ID supplementare viene restituito nell’intestazione HTTP come valore per  `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 
-Il modo più semplice per esaminare l&#39;ID supplementare è utilizzare Adobe Experience Platform Debugger.
+Il modo più semplice per esaminare l’ID supplementare è utilizzare il debugger di Adobe Experience Platform.
 
-Se il debugger non è installato, vedere [Introduzione a Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+Se non hai installato il debugger, consulta [Introduzione al debugger di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
 ![Strumento di debug](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
