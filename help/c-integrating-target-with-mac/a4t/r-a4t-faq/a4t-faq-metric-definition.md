@@ -1,39 +1,39 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4T;metriche;definizioni metriche
-description: Risposte alle domande sulle definizioni delle metriche e sull'utilizzo di Analytics per Target (A4T). A4T consente di utilizzare il reporting di Analytics con  attività Adobe Target.
+description: Trova le risposte alle domande sulle definizioni delle metriche e sull’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics con le attività di Adobe Target.
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 418a178aea06e29a1886cf77cb32fde2b8dcb9df
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '391'
-ht-degree: 58%
+source-wordcount: '380'
+ht-degree: 39%
 
 ---
 
 
 # Definizioni delle metriche - Domande frequenti su A4T
 
-Questo argomento contiene le risposte alle domande più frequenti sulle definizioni metriche e sull’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
+Questo argomento contiene le risposte alle domande più frequenti sulle definizioni metriche e sull’utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
 ## Qual è la scadenza per l’appartenenza all’attività? Per quanto tempo dopo che i visitatori accedono all’attività, le loro azioni vengono conteggiate nell’attività se non la visualizzano nuovamente? {#section_41B4958F33534E4B96DEE0C981227A79}
 
-La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questo valore può essere modificato dall’assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
+La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questa impostazione può essere regolata da ClientCare. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
 
-## Durante la configurazione delle metriche dell&#39;obiettivo, perché non è possibile accedere alle opzioni Impostazioni avanzate? {#adv-settings}
+## Durante la configurazione delle metriche dell’obiettivo, perché non posso accedere alle opzioni Impostazioni avanzate? {#adv-settings}
 
-Le opzioni [!UICONTROL Impostazioni avanzate] non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine di reporting (A4T).
+Le opzioni [!UICONTROL Impostazioni avanzate] non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
 
-Per le attività che utilizzano A4T, la metrica obiettivo utilizzerà sempre le impostazioni &quot;[!UICONTROL Increment Count &amp; Keep User in Activity]&quot; e &quot;[!UICONTROL On Every Impression]&quot;. È possibile configurare *not*.
+Per le attività che utilizzano A4T, la metrica obiettivo utilizza sempre le impostazioni &quot;[!UICONTROL Incrementa il conteggio e mantieni l’utente in attività]&quot; e &quot;[!UICONTROL Su ogni impression]&quot;. Queste impostazioni sono *non* configurabili.
 
-Per le attività non A4T, potete utilizzare le [opzioni Impostazioni avanzate](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) per gestire il modo in cui misurate il successo. Le opzioni includono l&#39;aggiunta di dipendenze, la scelta se mantenere l&#39;utente nell&#39;attività o rimuoverli, e se contare la metrica una volta per partecipante o su ogni impressione. Per accedere alle opzioni [!UICONTROL Impostazioni avanzate] in un&#39;attività non A4T, fare clic sulle ellissi verticali > [!UICONTROL Impostazioni avanzate], come illustrato di seguito:
+Per le attività non A4T, puoi utilizzare le [opzioni Impostazioni avanzate](/help/c-activities/r-success-metrics/success-metrics.md#section_7CE95A2FA8F5438E936C365A6D43BC5B) per gestire il modo in cui misurare il successo. Le opzioni includono l’aggiunta di dipendenze, la scelta se mantenere o rimuovere l’utente nell’attività e se contare la metrica una volta per partecipante o su ogni impression. Per accedere alle opzioni [!UICONTROL Impostazioni avanzate] in un’attività non A4T, fai clic sui puntini di sospensione verticali > [!UICONTROL Impostazioni avanzate], come illustrato di seguito:
 
 ![Impostazioni avanzate](/help/c-activities/r-success-metrics/assets/advanced-settings.png)
 
-## Quali sono le metriche calcolate e come sostituiscono la mbox SiteCatalyst:Event che utilizzo abitualmente?  {#section_D59F4719E6B94758A2187427C17F8EF3}
+## Quali sono le metriche calcolate e come sostituiscono la mbox SiteCatalyst:Event che utilizzo abitualmente? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
-Le metriche calcolate consentono di creare metriche personalizzate derivate da segmenti o calcoli matematici. In passato, potresti aver utilizzato la mbox `SiteCatlayst:Event` dove `evar27=shoes` e l’evento è `purchase` (acquisto). Ora crei un segmento in cui `evar27=shoes` e quindi crei una metrica calcolata in cui l’evento è `purchase` (acquisto) con il segmento applicato. Il vantaggio è che queste metriche possono essere create in qualsiasi momento, anche quando l’attività è in corso. Possono quindi essere utilizzate in qualsiasi rapporto in Analytics.
+Le metriche calcolate consentono di creare metriche personalizzate derivate da segmenti o calcoli matematici. In passato, potresti aver utilizzato la mbox `SiteCatlayst:Event` dove `evar27=shoes` e l’evento è `purchase` (acquisto). Ora crei un segmento in cui `evar27=shoes` e quindi crei una metrica calcolata in cui l’evento è `purchase` (acquisto) con il segmento applicato. Queste metriche possono essere create in qualsiasi momento, anche dopo che l’attività è in corso. Possono quindi essere utilizzate in qualsiasi rapporto in Analytics.
 
 ## A4T attribuisce conversioni a più campagne?  {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sì. Questa operazione viene eseguita utilizzando l’impostazione &quot;Allocazione completa&quot;.
+Sì, utilizzando l’impostazione &quot;Allocazione completa&quot;.
