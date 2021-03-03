@@ -1,30 +1,30 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4T;reindirizzamento;offerte di reindirizzamento;adobe-mc-sdid;adobe_mc_ref
-description: Risposte alle domande sull'utilizzo delle offerte di reindirizzamento quando si utilizza Analytics per Target (A4T). A4T consente di utilizzare il reporting di Analytics per le attività di Target.
-title: Dove è possibile trovare domande frequenti sulle offerte di reindirizzamento con A4T?
+description: Trova le risposte alle domande sull’utilizzo delle offerte di reindirizzamento quando si utilizza Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
 workflow-type: tm+mt
-source-wordcount: '1228'
-ht-degree: 91%
+source-wordcount: '1229'
+ht-degree: 69%
 
 ---
 
 
-# Offerte di reindirizzamento - Domande frequenti su A4T{#redirect-offers-a-t-faq}
+# Offerte di reindirizzamento - Domande frequenti su A4T
 
-Questo argomento contiene le risposte alle domande che vengono spesso poste in merito alle offerte di reindirizzamento durante l’utilizzo di Analytics come origine per la creazione di rapporti per Target (A4T).
+Questo argomento contiene le risposte alle domande più frequenti sull’utilizzo delle offerte di reindirizzamento quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
 ## Analytics for Target (A4T) supporta le offerte di reindirizzamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-Sì, purché l’implementazione utilizzi [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
+Sì, se l’implementazione utilizza [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
 
 >[!NOTE]
 >
 >A causa di un problema noto, un numero limitato di clienti con reindirizzamenti A4T ottengono una percentuale più alta di hit non uniti. Consulta [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
 
-## Quali sono i requisiti minimi necessari per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
+## Quali sono i requisiti minimi per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
 L’implementazione deve soddisfare i seguenti requisiti minimi:
 
@@ -42,11 +42,11 @@ Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindi
 
 ## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Quando si utilizza at.js 1.6.3 o versione successiva, questo problema non si verifica. Questa situazione di tipo “race condition” interessa solo i clienti che utilizzano versioni precedenti. Il team di Target gestisce solo due versioni di at.js: la versione corrente e quella immediatamente precedente. Aggiorna at.js per assicurarti di eseguire sempre una [versione supportata](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+Quando si utilizza at.js versione 1.6.3 o successiva, il conteggio delle visualizzazioni di pagina su entrambe le pagine non è un problema. Questa situazione di tipo “race condition” interessa solo i clienti che utilizzano versioni precedenti. Il team di Target gestisce solo due versioni di at.js: la versione corrente e quella immediatamente precedente. Aggiorna at.js per assicurarti di eseguire sempre una [versione supportata](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Se utilizzi una versione precedente e non supportata di at.js, si potrebbe verificare una situazione di tipo “race condition” a causa della quale potrebbe essere attivata una chiamata Analytics prima che sulla prima pagina sia stato eseguito il reindirizzamento. Questo può determinare un conteggio delle visualizzazioni di pagina sia nella pagina originale sia in quella di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
+Se utilizzi una versione precedente e non supportata di at.js, si potrebbe verificare una situazione di tipo “race condition” a causa della quale potrebbe essere attivata una chiamata Analytics prima che sulla prima pagina sia stato eseguito il reindirizzamento. Questa situazione può determinare il conteggio delle visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
 
-Per aumentare la velocità del reindirizzamento della pagina, è consigliabile creare un’attività di reindirizzamento con il compositore basato su moduli. Questo è dovuto al punto in cui viene eseguito il codice nella pagina. Inoltre, è consigliato creare un’offerta di reindirizzamento per ogni esperienza, anche per quella predefinita, dove il reindirizzamento riporta alla pagina originale. Ciò assicura che, se si verifica un conteggio errato, questo si verifica in tutte le esperienze, in modo che il rapporto e l’analisi siano comunque validi per il test.
+Si consiglia di utilizzare il compositore basato su moduli per creare un’attività di reindirizzamento per aumentare la velocità di reindirizzamento della pagina a causa della posizione in cui il codice viene eseguito sulla pagina. Inoltre, è consigliato creare un’offerta di reindirizzamento per ogni esperienza, anche per quella predefinita, dove il reindirizzamento riporta alla pagina originale. La creazione di un&#39;offerta di reindirizzamento per ogni esperienza garantisce che, se si verifica un conteggio errato, questo si verifichi in tutte le esperienze. I rapporti e le analisi sono ancora validi per il test.
 
 Potrebbe essere utile usare offerte di reindirizzamento per tutte le esperienze dell’attività, inclusa quella predefinita (esperienza di controllo), ad esempio, per inserire le stesse condizioni in tutte le esperienze. Supponiamo che sia stata impostata un’offerta di reindirizzamento per tutte le esperienze eccetto quella predefinita: la velocità dell’esperienza priva di offerta di reindirizzamento sarà avvantaggiata. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio a scopo di test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio a scopo di personalizzazione. Dopo aver determinato l’esperienza “vincitrice”, rimuovi il reindirizzamento per migliorare le prestazioni di caricamento della pagina.
 
@@ -68,18 +68,22 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 | Parametro | Descrizione |
 |--- |--- |
-| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l’ID di dati supplementari (SDID) e l’ID dell’organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina affinché A4T “unisca” la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina. |
-| `adobe_mc_ref` | Il parametro `adobe_mc_ref` passa l’URL di riferimento della pagina predefinita alla nuova pagina. Se utilizzato con AppMeasurement.js versione 2.1 (o successiva), Analytics utilizzerà questo valore di parametro come URL di riferimento nella nuova pagina. |
+| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l’ID di dati supplementari (SDID) e l’ID dell’organizzazione Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina. |
+| `adobe_mc_ref` | Il parametro `adobe_mc_ref` passa l’URL di riferimento della pagina predefinita alla nuova pagina. Se utilizzato con AppMeasurement.js versione 2.1 (o successiva), Analytics utilizza questo valore di parametro come URL di riferimento nella nuova pagina. |
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
 ## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Sarà necessario lavorare con il team IT per inserire nell&#39;elenco Consentiti questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`).
+Collabora con il tuo team IT per inserire questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`) nell&#39;elenco consentiti.
 
 ## Cosa succede se non uso A4T con la mia attività di reindirizzamento e non voglio che questi parametri vengano aggiunti ai miei URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
-Se non utilizzi A4T con l’attività di reindirizzamento, disponi del servizio ID visitatore implementato e questi parametri non devono essere aggiunti automaticamente agli URL, utilizza un reindirizzamento con codice personalizzato.
+Utilizza un reindirizzamento con codice personalizzato se:
+
+* Non utilizzi A4T con l’attività di reindirizzamento
+* Hai implementato il servizio ID visitatore
+* Non desideri che questi parametri vengano aggiunti automaticamente agli URL
 
 Tuttavia, come best practice, è possibile mantenere il parametro `adobe_mc_ref` nell’URL per segnalare correttamente le informazioni di riferimento a [!DNL Analytics].
 
@@ -87,17 +91,17 @@ Tuttavia, come best practice, è possibile mantenere il parametro `adobe_mc_ref`
 
 Se utilizzi A4T e le offerte di reindirizzamento, Target aggiunge i parametri `adobe_mc_ref` e `adobe_mc_sdid` all’URL. Questi valori sono già codificati nell’URL. Nella maggior parte dei casi tutto funziona come previsto, tuttavia alcuni clienti potrebbero usare bilanciatori di carico o server web che tentano di codificare nuovamente i parametri della stringa di query.
 
-A causa di questa doppia codifica quando l’API dei visitatori tenta di decodificare il valore `adobe_mc_sdid`, non può estrarre il valore SDID e genera un nuovo SDID. Questo porta all’invio di valori SDID errati a Target e Analytics, e vedrai una suddivisione irregolare dei reindirizzamenti nei rapporti di Analytics.
+A causa di questa doppia codifica quando l’API dei visitatori tenta di decodificare il valore `adobe_mc_sdid`, non può estrarre il valore SDID e genera un nuovo SDID. Questo processo causa l’invio di valori SDID errati a Target e Analytics e la suddivisione irregolare dei reindirizzamenti nei rapporti di Analytics.
 
-È consigliabile consultare il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` siano inseriti nell&#39;elenco Consentiti in modo che tali valori non vengano trasformati in alcun modo.
+Adobe consiglia di parlare con il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` siano elencati nell’elenco dei valori consentiti in modo che tali valori non vengano trasformati in alcun modo.
 
 ## Perché l’URL di riferimento deve essere passato alla nuova pagina? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Supponiamo che un visitatore faccia clic su un collegamento in [!DNL `www.google.com`] alla pagina principale (`www.mysite.com/index.html`) sulla quale un&#39;attività di reindirizzamento è live e quindi reindirizzata a una nuova pagina (`www.mysite.com/index2.html`).
+Supponiamo che un visitatore faccia clic su un collegamento alla pagina principale [!DNL `www.google.com`] (`www.mysite.com/index.html`) sulla quale è attiva un’attività di reindirizzamento e venga quindi reindirizzato a una nuova pagina (`www.mysite.com/index2.html`).
 
 In precedenza, la richiesta di [!DNL Analytics] della nuova pagina avrebbe segnalato l’URL di riferimento [!DNL `www.mysite.com/index.html`] anziché [!DNL `www.google.com`]. Questo causava una segnalazione inesatta in [!DNL Analytics] associata agli URL di riferimento (ad esempio nei rapporti Canale marketing,). Nei rapporti andava perso il fatto che il visitatore era giunto al sito da [!DNL `www.google.com`].
 
-Con [!DNL at.js] versione 0.9.6 (o successiva) e [!DNL AppMeasurement.js] 2.1 (o versioni successive), la richiesta di [!DNL Analytics] sulla nuova pagina segnalerà [!DNL `www.google.com`] come URL di riferimento.
+Con [!DNL at.js] versione 0.9.6 (o successiva) e [!DNL AppMeasurement.js] 2.1 (o versioni successive), la richiesta [!DNL Analytics] nella nuova pagina riporta un URL di riferimento di [!DNL `www.google.com`].
 
 ## Posso usare le offerte di reindirizzamento personalizzate/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
