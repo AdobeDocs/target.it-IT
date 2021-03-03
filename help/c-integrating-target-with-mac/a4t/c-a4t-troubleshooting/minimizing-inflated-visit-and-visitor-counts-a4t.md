@@ -1,13 +1,13 @@
 ---
 keywords: dati parziali;dati parziali;A4T;incongruenze;analytics for target;orfano;suite rapporti virtuali;phantom;risoluzione dei problemi;dati parziali;gonfiato;non specificato
-description: Scopri come ridurre al minimo gli effetti dei conteggi delle visite e dei visitatori in eccesso quando utilizzi Analytics per Target (A4t). Scopri cosa sono i "dati parziali" e come ridurli.
-title: Come si riducono al minimo i conteggi delle visite e dei visitatori gonfiati in A4T?
+description: Scopri come ridurre al minimo gli effetti dei conteggi gonfiati per visite e visitatori quando utilizzi Analytics for Target (A4t). Scopri cosa sono i "dati parziali" e come ridurli.
+title: Come posso ridurre al minimo i conteggi gonfiati per visite e visitatori in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
 workflow-type: tm+mt
-source-wordcount: '1375'
-ht-degree: 94%
+source-wordcount: '1372'
+ht-degree: 82%
 
 ---
 
@@ -19,9 +19,9 @@ Informazioni che consentono di minimizzare gli effetti di conteggia gonfiati per
 >[!IMPORTANT]
 >Il 14 novembre 2016, in Adobe Analytics sonos tate cambiate le modalità di elaborazione di alcuni dati per i clienti che utilizzano le funzioni di reporting di Analytics per Target (A4T). Queste modifiche consentono un migliore allineamento dei dati di Adobe Target con il modello dati di Adobe Analytics. Le suddette modifiche sono state apportate per tutti i clienti che utilizzano A4T. Queste modifiche rispondono specificamente a un problema notato dai clienti, relativo a un conteggio eccessivo dei visitatori quando le attività di Target sono in esecuzione.
 >
->Nota: questo cambiamento non è retroattivo. Se i rapporti cronologici mostrano conteggi gonfiati e desideri escluderli, puoi creare una suite di rapporti virtuale, come descritto di seguito.
+>Questo cambiamento non è retroattivo. Se i rapporti cronologici mostrano conteggi gonfiati e desideri escluderli, puoi creare una suite di rapporti virtuale, come descritto di seguito.
 >
->Inoltre, diverse librerie JavaScript sono state aggiornate per ridurre al minimo i conteggi gonfiati. Si consiglia di eseguire l&#39;aggiornamento alle seguenti versioni della libreria (o successive):
+>Inoltre, diverse librerie JavaScript sono state aggiornate per ridurre al minimo i conteggi gonfiati. Adobe consiglia di eseguire l’aggiornamento alle seguenti versioni della libreria (o successive):
 >
 >* Servizio ID visitatore di Experience Cloud: visitorAPI.js versione 2.3.0 o successiva.
 >* Adobe Analytics: appMeasurement.js versione 2.1.
@@ -33,21 +33,21 @@ La libreria mbox.js non supporta le offerte di reindirizzamento con A4T. L’imp
 
 ## Cosa è cambiato? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
-Quando [!DNL Adobe Analytics] viene utilizzato per misurare le attività di [!DNL Target] (A4T), [!DNL Analytics] raccoglie dati aggiuntivi che non sono disponibili se non è presente alcuna attività di [!DNL Target] nella pagina. Ciò è dovuto al fatto che l’attività di [!DNL Target] innesca una chiamata nella parte superiore della pagina, ma solitamente [!DNL Analytics] genera le chiamate di raccolta dati nella parte inferiore della pagina. Nell’implementazione di A4T fino a oggi, abbiamo incluso questi dati aggiuntivi ogni volta che un’attività di [!DNL Target] risultava attiva. In futuro, includeremo questi dati aggiuntivi solo quando vengono generati da i tag di entrambi [!DNL Target] e [!DNL Analytics].
+Quando [!DNL Adobe Analytics] viene utilizzato per misurare le attività [!DNL Target] (chiamate A4T), [!DNL Analytics] raccoglie dati aggiuntivi che non sono disponibili quando non è presente alcuna attività [!DNL Target] nella pagina. Ciò è dovuto al fatto che l’attività di [!DNL Target] innesca una chiamata nella parte superiore della pagina, ma solitamente [!DNL Analytics] genera le chiamate di raccolta dati nella parte inferiore della pagina. Nell’implementazione di A4T fino a oggi, Adobe include questi dati aggiuntivi ogni volta che un’attività [!DNL Target] era attiva. Da ora in poi, Adobe include questi dati aggiuntivi solo quando sono attivati sia i tag [!DNL Target] che [!DNL Analytics] .
 
 ## Perché Adobe ha introdotto questa modifica? {#section_92380A4BD69E4B8886692DD27540C92A}
 
-L&#39;accuratezza e la qualità dei dati sono motivo di orgoglio per Adobe. Quando il tag di [!DNL Target] viene attivato, ma il tag di [!DNL Analytics] no, si registrano dati parziali, che non verrebbero acquisiti da [!DNL Analytics] in assenza di attività di [!DNL Target]. L’inclusione dei dati parziali nella reportistica di [!DNL Analytics] fornisce informazioni aggiuntive, ma genera anche hit incoerenti per i dati precedenti relativi a periodi in cui non vi erano attività di [!DNL Target] in esecuzione. Questo può causare problemi agli utenti di [!DNL Analytics] che analizzano le tendenze nel tempo. Al fine di garantire la coerenza dei dati di [!DNL Analytics], escluderemo tutti i dati parziali.
+L&#39;accuratezza e la qualità dei dati sono motivo di orgoglio per Adobe. Quando il tag [!DNL Target] viene attivato, ma il tag [!DNL Analytics] no, Adobe registra i dati parziali (a volte denominati &quot;hit parziali&quot;) che non verrebbero acquisiti da [!DNL Analytics] in assenza di attività [!DNL Target]. L’inclusione dei dati parziali nella reportistica di [!DNL Analytics] fornisce informazioni aggiuntive, ma genera anche hit incoerenti per i dati precedenti relativi a periodi in cui non vi erano attività di [!DNL Target] in esecuzione. Questo può causare problemi agli utenti di [!DNL Analytics] che analizzano le tendenze nel tempo. Al fine di garantire la coerenza dei dati in [!DNL Analytics], Adobe esclude tutti i dati parziali.
 
 ## Cosa contribuisce ai dati parziali? {#section_C9C906BEAA7D44DAB9D3C03932A2FEB8}
 
-Alcuni clienti presentano tassi molto elevati di dati parziali in [!DNL Analytics]. Questo può dipendere da un&#39;implementazione impropria, ma esistono anche cause legittime.
+Adobe ha visto alcuni clienti con tassi elevati di dati parziali in [!DNL Analytics]. Questo può dipendere da un&#39;implementazione impropria, ma esistono anche cause legittime.
 
 Le cause identificate dei dati parziali includono le seguenti:
 
 * **ID delle suite di rapporti non allineati (implementazione):** la suite di rapporti specificata durante la configurazione dell’attività non corrisponde alla suite di rapporti nella pagina in cui viene consegnato il test. Questo aspetto è simile ai dati parziali perché i dati non possono essere riconciliati nei server di [!DNL Analytics].
 * **Pagine lente:** poiché le chiamate di [!DNL Target] sono nella parte superiore della pagina e quelle di [!DNL Analytics] normalmente sono in fondo alla pagina, se la pagina viene caricata lentamente aumenta la probabilità che un visitatore lasci la pagina dopo che la chiamata di [!DNL Target] è stata generata, ma prima della chiamata di [!DNL Analytics]. Questo può essere particolarmente problematico sui siti web mobili, spesso con connessioni più lente.
-* **Errori di pagina:** se ci sono errori JavaScript o altri scenari in cui ciascuno dei punti di contatto non si attiva (servizio Experience Cloud ID, Target e Analytics), si otterranno dei dati parziali.
+* **Errori di pagina:** se ci sono errori JavaScript o altri scenari in cui ciascuno dei punti di contatto non si attiva (servizio Experience Cloud ID, Target e Analytics), risultati di dati parziali.
 * **Offerte di reindirizzamento nelle attività di [!DNL Target]:** per le offerte di reindirizzamento nelle attività che utilizzano A4T, l’implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere alcune informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
 * **Versioni precedenti delle librerie:** nel corso degli anni Adobe ha apportato diversi miglioramenti alle nostre librerie JavaScript ([!DNL appMeasurement.js], `at.js/mbox.js` e `visitorAPI.js`) per assicurarsi che i dati vengano inviati nel modo più efficiente possibile. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
@@ -76,7 +76,7 @@ Nella maggior parte delle situazioni, un risultato di [!DNL Target] è vincolato
 
 **Risultati con dati parziali:** gli utenti a volte non rimangono su una pagina abbastanza a lungo per inviare una chiamata di [!DNL Analytics], ma [!DNL Target] ha un MCID corretto. Questo comporta risultati con dati parziali (risultati senza visualizzazioni pagina di [!DNL Analytics]). Se questi utenti tornano sul tuo sito e visualizzano una pagina che contiene codice [!DNL Analytics], verranno conteggiati correttamente come visitatori ritornati. Questi risultati verrebbero persi se sulla pagina fosse presente solo il codice [!DNL Analytics]. Alcuni clienti non desiderano i dati per questi risultati perché gonfiano determinate metriche (visite) e ne riducono altre (visualizzazioni di pagina per visita, durata per visita, ecc.). Inoltre, si vedranno visite senza alcuna visualizzazione di pagina. Tuttavia, esistono anche validi motivi per mantenere questi dati.
 
-Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) che escluda tali risultati. Per istruzioni dettagliate, vedete [Creare suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) nella *Guida ai componenti di Analytics*.
+Per ridurre al minimo i risultati con dati parziali, velocizza il caricamento della pagina, aggiorna le librerie alle versioni più recenti oppure crea una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) che escluda tali risultati. Per istruzioni dettagliate, consulta [Creare suite di rapporti virtuali](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) nella *Guida ai componenti di Analytics*.
 
 Nell&#39;illustrazione seguente viene mostrata la definizione di un segmento per la suite di rapporti virtuale:
 
