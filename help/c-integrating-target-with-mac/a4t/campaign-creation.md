@@ -1,65 +1,65 @@
 ---
 keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
-description: Scoprite come configurare un'attività in  Adobe Target che utilizza  Adobe Analytics come origine di reporting (A4T).
-title: Come si crea un'attività che utilizza A4T?
+description: Scopri come configurare un’attività in Adobe Target che utilizza Adobe Analytics come origine per la generazione di rapporti (A4T).
+title: Come si crea un’attività che utilizza A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '652'
-ht-degree: 40%
+source-wordcount: '650'
+ht-degree: 35%
 
 ---
 
 
-# Creare un&#39;attività che utilizza Analytics come origine di reporting
+# Creare un’attività che utilizza Analytics come origine per la generazione di rapporti
 
-Potete configurare un&#39;attività in [!DNL Target] per utilizzare [!DNL Adobe Analytics] come origine di reporting (A4T).
+Puoi configurare un’attività in [!DNL Adobe Target] per utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T).
 
-Prima di impostare un&#39;attività che utilizza [!DNL Analytics] come origine di reporting, stabilire l&#39;obiettivo per l&#39;attività, ad esempio migliorare le entrate per visitatore (RPV) o aumentare i clic sul carrello. Scegli una metrica di successo finale per l’attività. Sebbene sia possibile selezionare metriche aggiuntive in qualsiasi momento in [!DNL Analytics], è comunque necessario specificare una metrica specifica che si prevede verrà interessata dal test.
+Prima di impostare un’attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti, stabilisci l’obiettivo dell’attività, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l’aumento dei clic sul carrello acquisti. Scegli una metrica di successo finale per l’attività. Anche se è possibile selezionare più metriche in qualsiasi momento in [!DNL Analytics], è comunque necessario specificare una metrica particolare che si prevede verrà interessata dal test.
 
 ## Crea l&#39;attività
 
-La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] come origine di reporting è simile alla configurazione di un&#39;attività [!DNL Target] regolare, con alcune importanti differenze. Ad esempio, non è possibile selezionare un segmento per il reporting durante la creazione dell&#39;attività, perché tutti i segmenti disponibili in [!DNL Analytics] possono essere applicati quando si visualizza un rapporto.
+La creazione di un’attività [!DNL Target] che utilizza [!DNL Analytics] come origine per la generazione di rapporti è simile alla configurazione di una normale attività [!DNL Target], con alcune importanti differenze. Ad esempio, non è possibile selezionare un segmento per il reporting durante la creazione dell’attività, perché tutti i segmenti disponibili in [!DNL Analytics] possono essere applicati durante la visualizzazione di un rapporto.
 
 1. Fai clic su **[!UICONTROL Crea attività]**.
 
    >[!NOTE]
    >
-   >Un nome di attività non può includere il carattere &quot;%&quot; se [!DNL Analytics] viene utilizzato come origine di reporting.
+   >Un nome di attività non può includere il carattere &quot;%&quot; se [!DNL Analytics] è utilizzato come origine per la generazione di rapporti.
 
 1. Seleziona il tipo di attività e inizia a impostarla.
 
-   Per creare un&#39;attività [!UICONTROL Auto-Allocate] o [!UICONTROL Auto-Target], consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) per ulteriori informazioni.
+   Per ulteriori informazioni, se desideri creare un&#39;attività [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], consulta [Supporto A4T per le attività di Allocazione automatica e Targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) .
 
 1. Una volta nella sezione **[!UICONTROL Impostazioni]** del flusso di creazione dell’attività, scegli **[!UICONTROL Adobe Analytics]** e specifica la società.
 1. Seleziona una suite di rapporti.
 
-   Puoi scegliere qualsiasi suite di rapporti disponibile in [!DNL Analytics]. La suite di rapporti definisce dove trovare i dati raccolti disponibili. Le suite di rapporti virtuali non sono incluse nell&#39;elenco suite di rapporti.
+   Puoi scegliere qualsiasi suite di rapporti disponibile in [!DNL Analytics]. La suite di rapporti definisce dove sono disponibili i dati raccolti. Le suite di rapporti virtuali non sono incluse nell&#39;elenco suite di rapporti.
 
    Possono verificarsi due eventuali errori durante la selezione della suite di rapporti:
 
    * Un errore che segnala che nessuna suite di rapporti è disponibile, ma l&#39;account è impostato correttamente.
 
-      Potrebbe essere necessario controllare la società [!DNL Analytics]. Se l&#39;account [!DNL Adobe Experience Cloud] è associato a più società [!DNL Analytics], disconnettetevi da [!DNL Target] ed effettuate l&#39;accesso a [!DNL Analytics] nella società giusta. Quindi tornate a [!DNL Target] e le suite di rapporti verranno caricate.
+      Controlla la tua [!DNL Analytics] azienda. Se il tuo account [!DNL Adobe Experience Cloud] è associato a più di una [!DNL Analytics] azienda, esci da [!DNL Target] e accedi a [!DNL Analytics] nella società giusta. Quindi torna a [!DNL Target] e le suite di rapporti vengono caricate.
 
    * Non è possibile visualizzare la suite di rapporti attesa.
 
-      Solo le suite di rapporti per le quali è stato eseguito il provisioning per la connessione a [!DNL Target] saranno disponibili per la selezione. Se non visualizzi le suite di rapporti previste, prova prima a disconnettersi ed eseguire nuovamente il login a [!DNL Adobe Experience Cloud] per riprovare.
-   Se le suite di rapporti non sono ancora presenti nell’elenco, [contatta l’assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+      Puoi selezionare solo le suite di rapporti per le quali è stato eseguito il provisioning per la connessione a [!DNL Target]. Se non trovi le suite di rapporti previste, disconnettiti e accedi nuovamente a [!DNL Adobe Experience Cloud] per riprovare.
+   Se nell&#39;elenco mancano ancora una o più suite di rapporti, [contatta l&#39;Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
 
 1. Specifica il server di tracciamento.
 
    Consulta [Utilizzo di un server di tracciamento di Analytics](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823).
 
-1. Definite l&#39;esperienza.
+1. Definisci l’esperienza.
 1. Specifica l&#39;obiettivo dell&#39;attività.
 
-   È necessario selezionare una metrica di successo da utilizzare come obiettivo per ogni attività. L&#39;obiettivo è l&#39;attività di conversione che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. Potete scegliere qualsiasi metrica [!DNL Analytics] disponibile nel selettore delle metriche [!DNL Analytics].
+   È necessario selezionare una metrica di successo da utilizzare come obiettivo per ogni attività. L&#39;obiettivo è l&#39;attività di conversione che indica un&#39;attività di successo. È buona norma non eseguire mai un test senza un obiettivo da migliorare in modo specifico. Puoi scegliere qualsiasi metrica [!DNL Analytics] disponibile nel selettore di metriche [!DNL Analytics].
 
    >[!NOTE]
    >
-   >Puoi inviare una metrica personalizzata basata su Target a [!DNL Analytics] anziché affidarti solo ai dati [!DNL Analytics]. Ad esempio, è possibile monitorare i clic su una pagina, elemento solitamente non controllato da [!DNL Analytics]. Questa metrica personalizzata viene inviata automaticamente a [!DNL Analytics] dal server [!DNL Target] e viene visualizzata come metrica &quot;[!DNL Target] Conversion&quot; nel selettore delle metriche in [!DNL Analytics]. La metrica di conversione [!DNL Target] è vuota se si sceglie di utilizzare le metriche [!DNL Analytics].
+   >Puoi inviare una metrica personalizzata basata su Target a [!DNL Analytics] anziché affidarti solo ai dati [!DNL Analytics]. Ad esempio, puoi monitorare i clic su una pagina, che in genere non viene tracciata da [!DNL Analytics]. Questa metrica personalizzata viene inviata automaticamente a [!DNL Analytics] dal server [!DNL Target] e viene visualizzata come metrica &quot;[!DNL Target] Conversion&quot; nel selettore delle metriche in [!DNL Analytics]. La metrica [!DNL Target] Conversione è vuota se scegli di utilizzare le metriche [!DNL Analytics].
 
    L&#39;impostazione di un obiettivo non impedisce di utilizzare un&#39;altra metrica per valutare i risultati dei test. L&#39;obiettivo, tuttavia, funge da promemoria rispetto all&#39;elemento da migliorare con l&#39;attività.
 
@@ -67,10 +67,10 @@ La creazione di un&#39;attività [!DNL Target] che utilizza [!DNL Analytics] com
 
    >[!NOTE]
    >
-   >Quando si configura un&#39;attività dopo aver configurato [!DNL Analytics] come origine di reporting, non è disponibile alcuna opzione per impostare audience per il reporting. [!DNL Analytics] i segmenti sono disponibili nel rapporto  [!DNL Target] Attività.
+   >Quando si configura un’attività dopo aver impostato [!DNL Analytics] come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione di rapporti. [!DNL Analytics] i segmenti sono disponibili nel rapporto  [!DNL Target] Attività .
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Attività A4T e Auto-Allocate e Auto-Target
+## Attività A4T e di allocazione automatica e targeting automatico
 
-Per ulteriori informazioni, consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) (Supporto per l&#39;allocazione automatica e la destinazione automatica).
+Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
