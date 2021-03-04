@@ -1,46 +1,46 @@
 ---
-keywords: server di tracciamento analisi;A4T;Adobe Experience Cloud Debugger;Adobe Experience Platform Debugger;reporting source;developer tools
-description: 'Scoprite come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics per Target (A4T) se utilizzate una versione precedente di at.js o mbox.js. '
+keywords: server di tracciamento di Analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione di rapporti;strumenti per sviluppatori
+description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for Target (A4T) se utilizzi una versione precedente di at.js o mbox.js. '
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 22%
+source-wordcount: '705'
+ht-degree: 20%
 
 ---
 
 
 # Utilizzare un server di tracciamento di Analytics
 
-Se utilizzi una versione precedente di at.js o mbox.js, devi specificare un server di tracciamento Analytics per le attività che utilizzano [!DNL Analytics] per [!DNL Target] (A4T).
+Se utilizzi una versione precedente di at.js o mbox.js, devi specificare un server di tracciamento di Analytics per le attività che utilizzano [!DNL Adobe Analytics] per [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Se utilizzate [!DNL Analytics] come origine di reporting dell&#39;attività, non è necessario specificare un server di tracciamento durante la creazione dell&#39;attività se utilizzate mbox.js versione 61 (o successiva) o at.js versione 0.9.1 (o successiva). La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza mbox.js versione 61 (o successiva) o at.js versione 0.9.1 (o successiva). La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 >
->Il team [!DNL Target] supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l&#39;aggiornamento all&#39;aggiornamento più recente di una delle versioni principali di at.js per assicurarti che sia in esecuzione una versione supportata. Per ulteriori informazioni, vedere [at.js version details](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Il team [!DNL Target] supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
-Per garantire che i dati da [!DNL Target] vadano nella posizione corretta in [!DNL Analytics], A4T richiede l&#39;invio di un server di tracciamento di Analytics in tutte le chiamate a Modstats da [!DNL Target]. Per le implementazioni che utilizzano più server di tracciamento è possibile utilizzare gli [!DNL Adobe Experience Platform Debugger] o gli strumenti per sviluppatori del browser per determinare il server di tracciamento corretto per l&#39;attività.
+Per garantire che i dati da [!DNL Target] vadano nella posizione corretta in [!DNL Analytics], A4T richiede l’invio di un server di tracciamento Analytics in tutte le chiamate a Modstats da [!DNL Target]. Per le implementazioni che utilizzano più server di tracciamento, utilizza [!DNL Adobe Experience Platform Debugger] o gli strumenti per sviluppatori del browser per determinare il server di tracciamento corretto per l&#39;attività.
 
-## Ottenere il server di tracciamento di Analytics tramite Adobe Experience Platform Debugger
+## Ottenere il server di tracciamento di Analytics utilizzando il debugger di Adobe Experience Platform
 
-Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà recapitata per assicurarsi di selezionare il server di tracciamento corretto. È inoltre possibile specificare un server di tracciamento predefinito per ogni account. Contatta l&#39;assistenza clienti per specificare o modificare l&#39;impostazione predefinita.
+Il debugger deve essere visualizzato in una pagina in cui l&#39;attività viene distribuita per assicurarsi di selezionare il server di tracciamento corretto. È inoltre possibile specificare un server di tracciamento predefinito per ogni account. Contatta l&#39;assistenza clienti per specificare o modificare l&#39;impostazione predefinita.
 
-1. Dalla pagina in cui state creando l&#39;attività, aprite la cartella [!DNL Adobe Experience Platform Debugger].
+1. Dalla pagina in cui stai creando l&#39;attività, apri la cartella [!DNL Adobe Experience Platform Debugger].
 
-   Se il debugger non è installato, vedere [Introduzione a Adobe Experience Platform Debugger](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   Se non hai installato il debugger, consulta [Introduzione al debugger di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
-1. Fate clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
+1. Fai clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
 
-   Il server di tracciamento di Analytics si trova nella sezione [!UICONTROL Nome host] del debugger.
+   Il server di tracciamento di Analytics si trova nella sezione [!UICONTROL Hostname] del debugger.
 
-   * **Server** di tracciamento di prime parti: Se il nome host della richiesta corrisponde al dominio in uso, si tratta di un server di tracciamento di prime parti. Ad esempio, se vi trovate su `adobe.com`, `adobe.com` è il server di tracciamento di prime parti.
-   * **Server** di tracciamento di terze parti: Un server di monitoraggio di terze parti è in genere  `[company].sc.omtrdc.net` dove la società corrisponde al nome della società, ma termina sempre  `sc.omtrdc.net`.
-   * **Implementazioni** CNAME:  `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (sicura). `stats.adobe.com` è un esempio di richiesta di prima parte CNAME per una pagina http (non sicura).
+   * **Server** di tracciamento di prime parti: Se il nome host della richiesta corrisponde al dominio su cui ti trovi, si tratta di un server di tracciamento di prime parti. Ad esempio, se utilizzi `adobe.com`, `adobe.com` è il server di tracciamento di prime parti.
+   * **Server** di tracciamento di terze parti: Un server di tracciamento di terze parti è in genere  `[company].sc.omtrdc.net` dove l&#39;azienda corrisponde al nome della tua azienda, ma termina sempre con  `sc.omtrdc.net`.
+   * **Implementazioni** CNAME:  `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (secure). `stats.adobe.com` è un esempio di richiesta di prime parti CNAME per una pagina http (non protetta).
 
 1. Copiare l&#39;intero contenuto del campo.
 
@@ -48,27 +48,27 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività verrà
 
    >[!NOTE]
    >
-   >È necessario selezionare [!UICONTROL Analytics come origine di reporting] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
+   >Seleziona [!UICONTROL Analytics come origine per la generazione di rapporti] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
 
 ## Ottenere il server di tracciamento di Analytics utilizzando gli strumenti per sviluppatori del browser in uso
 
-Gli strumenti per sviluppatori devono essere visualizzati in una pagina in cui l&#39;attività verrà consegnata per essere certi di selezionare il server di tracciamento corretto. È inoltre possibile specificare un server di tracciamento predefinito per ogni account. Contatta l&#39;assistenza clienti per specificare o modificare l&#39;impostazione predefinita.
+Gli Strumenti per sviluppatori devono essere visualizzati in una pagina in cui l’attività viene recapitata per assicurarsi di selezionare il server di tracciamento corretto. È inoltre possibile specificare un server di tracciamento predefinito per ogni account. Contatta l&#39;assistenza clienti per specificare o modificare l&#39;impostazione predefinita.
 
-1. Dalla pagina in cui state creando l&#39;attività, aprite gli strumenti per sviluppatori del browser (in Google Chrome, fate clic sulle tre ellissi verticali nell&#39;angolo in alto a destra > Altri strumenti > Strumenti per sviluppatori).
+1. Dalla pagina in cui stai creando l’attività, apri gli Strumenti per sviluppatori del browser (in Google Chrome, fai clic sui tre puntini di sospensione verticali nell’angolo in alto a destra > Altri strumenti > Strumenti per sviluppatori).
 
-   ![Strumenti di sviluppo Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
+   ![Strumenti per sviluppatori Chrome](/help/c-integrating-target-with-mac/a4t/assets/chrome-dev-tools.png)
 
 1. Fare clic sulla scheda **[!UICONTROL Rete]**.
 
-1. Filtro per `/ss,` per visualizzare le richieste di Analytics.
+1. Filtra per `/ss,` per visualizzare le richieste di Analytics.
 
-   ![Strumenti di sviluppo Chrome con ricerca /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
+   ![Strumenti per sviluppatori Chrome con ricerca /ss](/help/c-integrating-target-with-mac/a4t/assets/chrome-search.png)
 
    Il server di tracciamento è il nome host della richiesta.
 
-   * **Server** di tracciamento di prime parti: Se il nome host della richiesta corrisponde al dominio in uso, si tratta di un server di tracciamento di prime parti. Ad esempio, se vi trovate su `adobe.com`, `adobe.com` è il server di tracciamento di prime parti.
-   * **Server** di tracciamento di terze parti: Un server di monitoraggio di terze parti è in genere  `[company].sc.omtrdc.net` dove la società corrisponde al nome della società, ma termina sempre  `sc.omtrdc.net`.
-   * **Implementazioni** CNAME:  `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (sicura). `stats.adobe.com` è un esempio di richiesta di prima parte CNAME per una pagina http (non sicura).
+   * **Server** di tracciamento di prime parti: Se il nome host della richiesta corrisponde al dominio su cui ti trovi, si tratta di un server di tracciamento di prime parti. Ad esempio, se utilizzi `adobe.com`, `adobe.com` è il server di tracciamento di prime parti.
+   * **Server** di tracciamento di terze parti: Un server di tracciamento di terze parti è in genere  `[company].sc.omtrdc.net` dove l&#39;azienda corrisponde al nome della tua azienda, ma termina sempre con  `sc.omtrdc.net`.
+   * **Implementazioni** CNAME:  `sstats.adobe.com` è un esempio di server di tracciamento di prime parti CNAME per una richiesta https (secure). `stats.adobe.com` è un esempio di richiesta di prime parti CNAME per una pagina http (non protetta).
 
 1. Copiare l&#39;intero contenuto del campo.
 
@@ -76,5 +76,5 @@ Gli strumenti per sviluppatori devono essere visualizzati in una pagina in cui l
 
    >[!NOTE]
    >
-   >È necessario selezionare [!UICONTROL Analytics come origine di reporting] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
+   >Seleziona [!UICONTROL Analytics come origine per la generazione di rapporti] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
 
