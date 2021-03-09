@@ -4,9 +4,9 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
 workflow-type: tm+mt
-source-wordcount: '3715'
+source-wordcount: '3740'
 ht-degree: 29%
 
 ---
@@ -14,14 +14,15 @@ ht-degree: 29%
 
 # Modifiche alla documentazione
 
-In questa pagina sono elencate le modifiche importanti apportate alla documentazione di prodotto [!DNL Adobe Target] .
+In questa pagina sono elencate le modifiche significative apportate alla documentazione del prodotto [!DNL Adobe Target] .
 
 ## Adobe Target Standard/Premium 21.2.1 (9 marzo 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | Sono stati aggiornati i limiti di dimensione dell’offerta consentiti. |
+| 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti di dimensione dell’offerta consentiti.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
 |  | [Nodi edge di Target consentiti](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
+|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15.99 invece di 15.99). |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.2.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe Target Standard/Premium 21.1.1 (19 gennaio 2021)
