@@ -1,43 +1,55 @@
 ---
-keywords: implementare;implementazione;whitelist;whitelist;whitelist; inserì nell'elenco Consentiti; elenco consentiti;edge;edge;edge
-description: Visualizzate un elenco di host per facilitare l' di inserire nell'elenco Consentiti  margini Adobe Target (nodi di trasmissione geograficamente distribuiti che garantiscono tempi di risposta ottimali per gli utenti finali).
-title: Come  Inserire nell'elenco Consentiti i nodi Edge di Target?
-feature: Privacy & Security
-role: Developer
+keywords: implementare;implementazione;whitelist;white list;allowlist;allow list;edge;edge
+description: Visualizza un elenco di host per consentirti di elencare gli edge di Adobe Target (nodi di servizio distribuiti geograficamente che garantiscono tempi di risposta ottimali agli utenti finali).
+title: Come Posso Consentire I Nodi Edge Di Target?
+feature: Privacy e sicurezza
+role: Sviluppatori
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: d5bcc86458751968b0ebe174f0b57322a26089ed
 workflow-type: tm+mt
-source-wordcount: '145'
-ht-degree: 0%
+source-wordcount: '245'
+ht-degree: 7%
 
 ---
 
 
-#  Inserire nell&#39;elenco Consentiti nodi periferici di Target
+# Nodi edge di Target consentiti
 
-Informazioni e un elenco aggiornato di ospitanti per facilitare l&#39; inserire nell&#39;elenco Consentiti dei bordi [!DNL Adobe Target].
+Informazioni e un elenco aggiornato di host per facilitare l’elenco dei bordi [!DNL Adobe Target] consentiti.
 
-Un edge è un&#39;architettura di servizio geograficamente distribuita che garantisce tempi di risposta ottimali agli utenti finali che richiedono contenuti, indipendentemente da dove si trovano in tutto il mondo. Ogni nodo Edge contiene tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell&#39;utente e per tenere traccia dei dati di analisi su tale richiesta. Le richieste degli utenti vengono instradate al nodo Edge più vicino. Per ulteriori informazioni, vedere [La rete periferica](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Come funziona  Adobe [!DNL Target]*.
+Un edge è un’architettura di servizio geograficamente distribuita che garantisce agli utenti finali che richiedono contenuti in tempi di risposta ottimali, indipendentemente da dove si trovano. Ogni nodo perimetrale dispone di tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell’utente e per tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste degli utenti vengono indirizzate al nodo perimetrale più vicino. Per ulteriori informazioni, consulta [La rete perimetrale](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Come funziona l&#39;Adobe [!DNL Target]*.
 
-Se necessario, potete  inserire nell&#39;elenco Consentiti i nodi dei bordi [!DNL Target].
+Se necessario, è possibile elencare i nodi perimetrali [!DNL Target].
 
-Il seguente elenco include gli host correnti:
+## Indirizzi IP NAT (Network Address Translation) degli edge di Target
 
-* `CLIENTCODE.tt.omtrdc.net`
+Elenco degli indirizzi IP in uscita dei bordi [!DNL Target]. Consenti l’elenco di questi IP se intendi far sì che Target raggiunga i tuoi servizi.
 
-   (dove CLIENTCODE è l&#39;ID client di Target)
+| Posizione Edge | Indirizzi IP Egress |
+| --- | --- |
+| Edge31 (Mumbai) | 13.126.131.246<br>13.234.229.8 |
+| Edge32 (Tokyo) | 3.115.154.28<br>3.115.227.146 |
+| Edge34 (Stati Uniti) | 34.232.149.249<br>52.21.139.93 |
+| Edge35 (costa occidentale USA) | 52.10.11.139<br>44.231.171.161 |
+| Edge36 (Sydney) | 13.237.227.20<br>13.210.93.142 |
+| Edge37 (Irlanda) | 54.72.21.68<br>52.208.139.19 |
+| Edge38 (Singapore) | 18.141.132.96<br>54.179.187.167 |
 
-* `mboxedge17.tt.omtrdc.net`
-* `mboxedge21.tt.omtrdc.net`
-* `mboxedge22.tt.omtrdc.net`
-* `mboxedge26.tt.omtrdc.net`
-* `mboxedge28.tt.omtrdc.net`
-* `mboxedge29.tt.omtrdc.net`
-* `mboxedge30.tt.omtrdc.net`
-* `mboxedge31.tt.omtrdc.net`
-* `mboxedge32.tt.omtrdc.net`
-* `mboxedge34.tt.omtrdc.net`
-* `mboxedge35.tt.omtrdc.net`
-* `mboxedge36.tt.omtrdc.net`
-* `mboxedge37.tt.omtrdc.net`
-* `mboxedge38.tt.omtrdc.net`
+## Indirizzi IP edge di Target
+
+Elenco di indirizzi IP dei bordi [!DNL Target]. Consenti questi IP se desideri effettuare chiamate API ai bordi di Target.
+
+| Posizione Edge | Dominio | Indirizzi IP |
+| --- | --- | --- |
+| Edge31 (Mumbai) | `mboxedge31.tt.omtrdc.net` | 15.207.157.131<br>15.206.8.201 |
+| Edge32 (Tokyo) | `mboxedge32.tt.omtrdc.net` | 54.199.66.101<br>54.64.93.37 |
+| Edge34 (Stati Uniti) | `mboxedge34.tt.omtrdc.net` | 3.225.56.36<br>3.230.207.249<br>34.198.55.51<br>52.3.14.12<br>52.21.222.9 3<br>52.55.235.132<br>52.70.52.52<br>54.165.204.89 |
+| Edge35 (costa occidentale USA) | `mboxedge35.tt.omtrdc.net` | 52.10.244.20<br>52.36.232.38<br>52.88.209.29<br>54.214.180.56<br>35.162.2 74.35<br>34.214.12.211<br>52.42.35.202<br>54.148.71.13 |
+| Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
+| Edge37 (Irlanda) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
+| Edge38 (Singapore) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
+
+
+
+
+
