@@ -1,26 +1,26 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
-description: Scoprite come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad  Adobe Target Recommendations.
+description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad Adobe Target Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità?
-feature: Recommendations
+feature: Consigli
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 069b30b9cb9124d982841a92220d372b3d6ad32d
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 88%
+source-wordcount: '1064'
+ht-degree: 87%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Attributi di entità{#entity-attributes}
+# ![PREMIUM](/help/assets/premium.png) Attributi di entità
 
-Utilizzate gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Adobe Target Recommendations].
+Utilizza gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Adobe Target Recommendations].
 
-[!DNL Recommendations] invia l&#39; `productId` o  `productPurchasedId` (indicato come  `entity.id` nel codice) utilizzato negli algoritmi.
+[!DNL Recommendations] invia il  `productId` o  `productPurchasedId` (indicato  `entity.id` nel codice) utilizzato negli algoritmi.
 
 >[!NOTE]
 >
->* `entity.id` deve corrispondere all&#39; `productPurchasedId` inviato alla pagina di conferma dell&#39;ordine e all&#39; `productId` utilizzato nei rapporti  prodotto Adobe Analytics.
+>* `entity.id` deve corrispondere al  `productPurchasedId` inviato alla pagina di conferma dell’ordine e al  `productId` utilizzato nei rapporti sui prodotti Adobe Analytics.
    >
    >
 * I valori degli attributi di entità specificati scadono dopo 61 giorni. Questo significa che devi assicurarti che il valore più recente di ogni attributo di entità sia passato a Target Recommendations almeno una volta al mese per ogni elemento del catalogo.
@@ -28,11 +28,11 @@ Utilizzate gli attributi di entità per trasmettere informazioni su prodotti o c
 
 La maggior parte dei parametri predefiniti accetta un solo valore, con i nuovi valori che sovrascrivono i vecchi valori. Il parametro `categoryId` può accettare un elenco di valori delimitato da virgole per ogni categoria contenente quel prodotto. I nuovi valori `categoryId` non sovrascrivono quelli esistenti ma vengono aggiunti durante l’aggiornamento dell’entità (limite di 250 caratteri).
 
-In generale, la mbox delle informazioni di visualizzazione potrebbe essere simile all&#39;esempio seguente se utilizzate at.js 1.** xwith  `mboxCreate`.
+In generale, se utilizzi at.js 1, l’elemento mbox delle informazioni di visualizzazione potrebbe avere l’aspetto seguente.** xwith  `mboxCreate`.
 
 >[!NOTE]
 >
->* Se utilizzi at.js 2.*x*,  `mboxCreate` (come utilizzato nell&#39;esempio seguente) non è più supportato. Per trasmettere informazioni su prodotti o contenuti ad Recommendations utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, vedere [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
+>* Se utilizzi at.js 2.*x*,  `mboxCreate`  (come utilizzato nell&#39;esempio seguente) non è più supportato. Trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
 
 >
 
@@ -86,7 +86,7 @@ Solo valore singolo.
 
 Questo parametro richiesto identifica il prodotto. Questo ID alfanumerico deve essere lo stesso in tutti i prodotti [!DNL Adobe Experience Cloud] utilizzati, tra cui [!DNL Analytics], affinché i vari prodotti riconoscano l’elemento e ne condividano i dati.
 
-I valori `entity.id` non devono contenere barre, simboli commerciali, punti interrogativi, simboli percentuali, virgole o altri caratteri di punteggiatura che richiedono la codifica URL quando vengono trasmessi in una chiamata API REST. Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
+I valori `entity.id`*non devono contenere barre, simboli commerciali, punti interrogativi, simboli percentuali, virgole o altri caratteri di punteggiatura che richiedono la codifica URL quando vengono trasmessi in una chiamata API REST.* Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
 
 Esempio: `'entity.id=67833'`
 
@@ -179,6 +179,8 @@ Solo valore singolo.
 Definisce il prezzo o il valore dell&#39;elemento.
 
 Esempio: `'entity.value=15.99'`
+
+entity.value supporta solo il formato decimale (ad esempio, 15.99). Il formato della virgola (15.99) non è supportato.
 
 ### entity.margin
 
