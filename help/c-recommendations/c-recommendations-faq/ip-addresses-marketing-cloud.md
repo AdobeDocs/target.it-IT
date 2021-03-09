@@ -1,28 +1,28 @@
 ---
-keywords: indirizzo IP;indirizzi IP;whitelist; inserire nell'elenco Consentiti;firewall;recs;feed;server;adobe marketing cloud;Recommendations
-description: Visualizzate un elenco degli indirizzi IP utilizzati nei server di elaborazione dei feed di Recommendations Target per facilitare la configurazione del firewall e consentire l'utilizzo di indirizzi IP provenienti da  server di Adobe.
-title: Quali indirizzi IP utilizzano i server Recommendations per l'elaborazione dei feed?
-feature: Recommendations
+keywords: Indirizzo IP;indirizzi IP;whitelist;elenco consentiti;firewall;recs;feed;server;adobe marketing cloud;consigli
+description: Visualizza un elenco di indirizzi IP utilizzati nei server di elaborazione dei feed Recommendations di Target per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
+title: Quali indirizzi IP utilizzano i server di elaborazione dei feed Recommendations?
+feature: Consigli
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 61%
+source-wordcount: '175'
+ht-degree: 15%
 
 ---
 
 
-# ![PREMIUM](/help/assets/premium.png) Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations){#ip-addresses-used-by-recommendations-feed-processing-servers}
+# ![PREMIUM](/help/assets/premium.png) Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations)
 
-Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed della funzionalità per i consigli (Recommendations), situati nel data center dell’Oregon, per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server Adobe.
+Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Adobe Target] [!DNL Recommendations] nel data center dell’Oregon per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
 
-Le attività di [!DNL Target] per la generazione di [!UICONTROL consigli] utilizzano i seguenti indirizzi IP situati nel data center dell’Oregon per accedere ai server FTP dei clienti (controlla regolarmente il collegamento link qui sotto per ottenere le informazioni più aggiornate):
+[!DNL Target]  Le attività Consigli utilizzano i seguenti indirizzi IP nel data center dell’Oregon per accedere ai server FTP dei clienti (controlla regolarmente il link qui sotto per ottenere le informazioni più aggiornate):
 
 | Notazione CIDR | IP iniziale | IP finale |
 |---|---|---|
 | 192.243.242.0/24 | 192.243.242.0 | 192.243.242.255 |
 
-Le API di [!DNL Target] per la generazione di [!UICONTROL consigli] utilizzano i seguenti indirizzi IP situati nel data center dell’Oregon (controlla regolarmente il collegamento link qui sotto per ottenere le informazioni più aggiornate):
+[!DNL Target]  Le API per la generazione di consigli utilizzano i seguenti indirizzi IP nel data center dell’Oregon (controlla regolarmente il collegamento link qui sotto per ottenere le informazioni più aggiornate):
 
 | Notazione CIDR | IP iniziale | IP finale |
 |---|---|---|
