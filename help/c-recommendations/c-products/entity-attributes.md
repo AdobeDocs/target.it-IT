@@ -1,13 +1,13 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
-description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti ad Adobe Target Recommendations.
+description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a Target Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: f280db15658a44f01a81eff3d02eb6d6c6d53b6f
+source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt
-source-wordcount: '1054'
-ht-degree: 65%
+source-wordcount: '1080'
+ht-degree: 55%
 
 ---
 
@@ -16,29 +16,22 @@ ht-degree: 65%
 
 Utilizza gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Adobe Target Recommendations].
 
+Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono includere prodotti, contenuti (articoli, presentazioni, immagini, filmati e programmi televisivi), annunci di lavoro, ristoranti e così via.
+
 [!DNL Recommendations] invia il  `productId` o  `productPurchasedId` (indicato  `entity.id` nel codice) utilizzato negli algoritmi.
 
->[!NOTE]
->
->* `entity.id` deve corrispondere al  `productPurchasedId` inviato alla pagina di conferma dell’ordine e al  `productId` utilizzato nei rapporti sui prodotti Adobe Analytics.
-   >
-   >
-* I valori degli attributi di entità specificati scadono dopo 61 giorni. Questa scadenza significa che devi assicurarti che il valore più recente di ogni attributo di entità sia passato a Target Recommendations almeno una volta al mese per ogni elemento del catalogo.
+Considera i seguenti aspetti:
 
+* `entity.id` deve corrispondere al  `productPurchasedId` inviato alla pagina di conferma dell’ordine e al  `productId` utilizzato nei rapporti sui  [!DNL Adobe Analytics] prodotti.
+* I valori degli attributi di entità passati a [!DNL Recommendations] scadono dopo 61 giorni. Adobe consiglia di passare il valore più recente di ogni attributo di entità a [!DNL Recommendations] almeno una volta al mese per ogni elemento del catalogo.
 
 La maggior parte dei parametri predefiniti accetta un solo valore, con i nuovi valori che sovrascrivono i vecchi valori. Il parametro `categoryId` può accettare un elenco di valori delimitato da virgole per ogni categoria contenente quel prodotto. I nuovi valori `categoryId` non sovrascrivono quelli esistenti ma vengono aggiunti durante l’aggiornamento dell’entità (limite di 250 caratteri).
 
-In generale, se utilizzi at.js 1, l’elemento mbox delle informazioni di visualizzazione ha l’aspetto seguente.** xwith  `mboxCreate`.
+In generale, se utilizzi at.js 1, l’elemento mbox delle informazioni di visualizzazione ha l’aspetto seguente.** xwith  `mboxCreate`. Tutti gli attributi dei parametri di entità fanno distinzione tra maiuscole e minuscole.
 
 >[!NOTE]
 >
->* Se utilizzi at.js 2.*x*,  `mboxCreate`  (come utilizzato nell&#39;esempio seguente) non è più supportato. Trasmettere informazioni su prodotti o contenuti a Recommendations utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
-
->
-
-
-
-Tutti gli attributi dei parametri di entità fanno distinzione tra maiuscole e minuscole.
+>Se utilizzi at.js 2.*x*,  `mboxCreate`  (come utilizzato nell&#39;esempio seguente) non è più supportato. Trasmettere informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
@@ -86,7 +79,7 @@ Solo valore singolo.
 
 Questo parametro richiesto identifica il prodotto. Questo ID alfanumerico deve essere lo stesso in tutti i prodotti [!DNL Adobe Experience Cloud] utilizzati, tra cui [!DNL Analytics], affinché i vari prodotti riconoscano l’elemento e ne condividano i dati.
 
-I valori `entity.id`*non devono contenere barre, simboli commerciali, punti interrogativi, simboli percentuali, virgole o altri caratteri di punteggiatura che richiedono la codifica URL quando vengono trasmessi in una chiamata API REST.* Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
+I valori `entity.id` devono *non* contenere barre, e commerciali, punti interrogativi, simboli percentuali, virgole o altri caratteri di punteggiatura che richiedono la codifica URL quando vengono trasmessi in una chiamata API REST. Sono consentiti trattini e trattini bassi. L’inclusione di punteggiatura non valida in un valore `entity.id` causerà il mancato funzionamento di alcune funzionalità di [!DNL Recommendations].
 
 Esempio: `'entity.id=67833'`
 
@@ -102,9 +95,9 @@ Esempio: `'entity.name=Giants& vs& Rockies& 5/12'`
 
 Supporta più valori (elenco delimitato da virgole).
 
-Categoria della pagina corrente. entity.categoryID può includere più categorie, ad esempio una sottosezione cardigan (ovvero donne, donne:maglie, donne:maglie:cardigan). Le categorie multiple devono essere separate da virgole.
+Categoria della pagina corrente. entity.categoryID può includere più categorie, ad esempio una sottosezione cardigan (per esempio, donne, donne:maglie, donne:maglie:cardigan). Le categorie multiple devono essere separate da virgole.
 
-`categoryId` è limitato a 250 caratteri.
+Il valore `categoryId` è limitato a 250 caratteri.
 
 >[!NOTE]
 >
@@ -116,7 +109,7 @@ Esempi:
 * Esempio di pagina Categoria di Sweaters: womens:sweaters
 * Esempio di pagina Categoria di Cardigans: womens:sweaters:cardigans
 
-Per i consigli basati su categorie, viene utilizzata una virgola per separare il valore della categoria. I valori separati da virgole diventano categorie. Puoi inoltre definire le sottocategorie usando un separatore diverso, ad esempio un segno di due punti (:), per separare le sottocategorie nel valore della categoria.
+Per i consigli basati su categorie, una virgola separa il valore della categoria. I valori separati da virgole diventano categorie. Puoi inoltre definire le sottocategorie usando un separatore diverso, ad esempio un segno di due punti (:), per separare le sottocategorie nel valore della categoria.
 
 Ad esempio, nel codice seguente la categoria Donne è divisa in diverse sottocategorie:
 
@@ -154,7 +147,7 @@ Esempio: `'entity.thumbnailUrl=baseball/giants-tix/giants-136px.gif'`
 
 Solo valore singolo.
 
-Un messaggio relativo al prodotto che viene visualizzato nel consiglio, come ad esempio “in offerta” o “saldo”. Il messaggio è in genere più dettagliato rispetto al nome del prodotto. Da utilizzare per definire informazioni aggiuntive da visualizzare con il prodotto nel modello.
+Un messaggio relativo al prodotto che viene visualizzato nel consiglio, come ad esempio “in offerta” o “saldo”. Il messaggio è in genere più dettagliato rispetto al nome del prodotto. Utilizza entity.message per definire informazioni aggiuntive da visualizzare con il prodotto nel modello.
 
 Esempio: `'entity.message=Family&nbsp;special'`
 
@@ -170,7 +163,7 @@ Esempio: `'entity.inventory=1'`
 
 Analogamente, se si dispone di una regola di esclusione globale con `entity.inventory` = 0 e `entity.inventory` non è impostato, [!DNL Target] valuta questa regola in modo che sia TRUE ed esclude il prodotto.
 
-**Problema noto:** la ricerca dei prodotti non è coerente con la distribuzione non impostata per gli attributi dei valori di inventario. Ad esempio, per una regola con `entity.inventory` = 0 , la ricerca del prodotto non visualizza i prodotti in cui il valore di inventario non è impostato.
+**Problema noto:** la ricerca dei prodotti non è coerente con la distribuzione degli attributi dei valori di inventario non impostati. Ad esempio, per una regola con `entity.inventory` = 0 , la ricerca del prodotto non visualizza i prodotti in cui il valore di inventario non è impostato.
 
 ### entity.value
 
@@ -211,9 +204,7 @@ Gli attributi di entità personalizzati supportano più valori. Consulta [Attrib
 
 Esempio: `'entity.secondary=["band1",&nbsp;"band2"]'`
 
->[!NOTE]
->
->Gli attributi di entità personalizzati multivalore richiedono array JSON validi. Per informazioni sulla sintassi corretta, consulta Attributi di entità personalizzati.
+Gli attributi di entità personalizzati multivalore richiedono array JSON validi. Per informazioni sulla sintassi corretta, consulta [Attributi di entità personalizzati](/help/c-recommendations/c-products/custom-entity-attributes.md).
 
 ### entity.event.detailsOnly
 
@@ -230,6 +221,7 @@ mboxCreate('myMbox', 'profile.geo.city = new york', 'profile.geo.state = new yor
 mboxCreate('myMbox',  'profile.geo.city = new york', 'profile.geo.state = new york',  'entity.id = 123', 'entity.inventory = 4' 'entity.event.detailsOnly=true' )
 ```
 
-## Argomenti correlati:
+>[!MORELIKETHIS]
+>
+>* [Attributi di entità personalizzati](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
 
-* [Attributi di entità personalizzati](/help/c-recommendations/c-products/custom-entity-attributes.md#concept_E5CF39BCAC8140309A73828706288322)
