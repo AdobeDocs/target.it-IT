@@ -4,7 +4,7 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
+source-git-commit: 6a1f51cba34038abc3c73fa5cf88bfab183dfb28
 workflow-type: tm+mt
 source-wordcount: '3767'
 ht-degree: 28%
@@ -20,7 +20,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 12 marzo | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | È stata aggiunta la seguente nuova esercitazione:<ul><li>Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico</li></ul> |
+| 12 marzo 2021 | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | È stata aggiunta la seguente nuova esercitazione:<ul><li>Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico</li></ul> |
 | 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti di dimensione dell’offerta consentiti.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
 |  | [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
 |  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15.99 invece di 15.99). |
