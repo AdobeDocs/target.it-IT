@@ -4,10 +4,10 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: cc87bd2ab4d4971f5b24772cd38e12932a4e4f3e
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '3740'
-ht-degree: 29%
+source-wordcount: '3767'
+ht-degree: 28%
 
 ---
 
@@ -20,8 +20,9 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 12 marzo | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | È stata aggiunta la seguente nuova esercitazione:<ul><li>Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico</li></ul> |
 | 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti di dimensione dell’offerta consentiti.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
-|  | [Nodi edge di Target consentiti](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
+|  | [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
 |  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15.99 invece di 15.99). |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.2.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
@@ -205,12 +206,12 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 | Maggio 28 | [Domande frequenti sulla generazione di rapporti](/help/c-reports/reporting-frequently-asked-questions.md) | Sono state aggiunte le seguenti nuove domande frequenti: <ul><li>Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?</li></ul> |
 | Maggio 27 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sul supporto di Analytics for Target (A4T) per le attività di allocazione automatica. |
 | Maggio 26 | [Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md) | Sono state aggiunte le seguenti informazioni: &quot;Il parametro rimane nel profilo dopo aver disabilitato lo script. Gli utenti i cui profili contengono già un parametro utilizzato nel pubblico di un’attività si qualificheranno in tale attività.&quot; |
-| Maggio 21 | [Nodi edge di Target consentiti](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | È stato aggiunto `mboxedge30.tt.omtrdc.net` all’elenco. |
+| Maggio 21 | [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | È stato aggiunto `mboxedge30.tt.omtrdc.net` all’elenco. |
 | Maggio 20 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima versione di Target Standard/Premium 20.6.1 (10 giugno 2020). |
 |  | [Host](/help/administrating-target/hosts.md) | È stata aggiunta una nota alla sezione &quot;Best practice per la sicurezza&quot;. |
 | Maggio 14 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle modifiche all’API v2 di Stato batch profilo. |
 | Maggio 13 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | È stata aggiunta la sezione &quot;Limitazioni note&quot;. |
-| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti e elenchi consentiti. |
+| Maggio 11 | [Host](/help/administrating-target/hosts.md) | Sono state aggiunte informazioni sull’utilizzo della funzionalità ubox con reindirizzamenti ed inserire nell&#39;elenco Consentiti. |
 |  | [Lavorare con i redirector](/help/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) | Sono state aggiunte informazioni sull’utilizzo degli host per evitare vulnerabilità di reindirizzamento aperto. |
 |  | [Integrare i Consigli con l’e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Sono state aggiunte informazioni sull’utilizzo degli host per evitare vulnerabilità di reindirizzamento aperto. |
 |  | [E-mail: implementare Target](/help/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md) | Sono state aggiunte informazioni sull’utilizzo degli host per evitare vulnerabilità di reindirizzamento aperto. |
@@ -229,7 +230,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata modificata la data di rilascio di Target Standard/Premium (20.4.1) al 6 maggio. |
 | Aprile 23 | [CNAME e Adobe Target](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Argomento aggiornato. |
 | Aprile 22 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stata aggiunta una nuova sezione: *Modifiche all&#39;API di stato batch del profilo v2 (4 maggio 2020).* |
-| Aprile 14 | [Host edge di Target consentiti](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuovo argomento. |
+| Aprile 14 | [Inserire nell&#39;elenco Consentiti host edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Nuovo argomento. |
 | Aprile 10 | [Implementazione di un&#39;applicazione a pagina singola](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md#bp) | È stata aggiunta una nuova sezione: &quot;Best practice di implementazione&quot; |
 | Aprile 7 | [Incremento e affidabilità - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-lift-and-confidence.md#lift-condidence) | È stato aggiornato il testo per &quot;Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate?&quot; |
 | Aprile 2 | [Glossario di profili e variabili](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md) | Sono state aggiunte informazioni sull’utilizzo di `user.header('x-forwarded-for')` con i nuovi bordi AWS per recuperare gli indirizzi IP degli utenti. |
