@@ -1,13 +1,13 @@
 ---
-keywords: analytics for target;a4t;analytics come fonte dei rapporti
+keywords: analytics for target;a4t;analytics come origine per la generazione di rapporti;analytics
 description: Scopri come utilizzare Analytics for Target (A4T). A4T fornisce l’accesso ai rapporti di Analytics per le attività di Target che utilizzano le metriche di Analytics e i segmenti di pubblico.
 title: Come si utilizza il reporting in A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: 7b2d5251275f42da66d09370501d0882671d5cca
 workflow-type: tm+mt
-source-wordcount: '689'
-ht-degree: 31%
+source-wordcount: '690'
+ht-degree: 30%
 
 ---
 
@@ -18,7 +18,7 @@ Utilizzando [!DNL Adobe Analytics] come origine per la generazione di rapporti p
 
 Puoi visualizzare i rapporti relativi alle attività sia in [!DNL Analytics] che in [!DNL Target].
 
-Per le best practice per la generazione di rapporti con [!DNL Analytics] per [!DNL Target], [visita questa pagina di Adobe Spark](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
+Per informazioni sulle best practice di reporting utilizzando [!DNL Analytics] per [!DNL Target], [visita questo Adobe Spark Page](https://spark.adobe.com/page/Lo3Spm4oBOvwF/).
 
 ## Panoramica {#section_035A62D65608423285D8A5A54731E2C5}
 
