@@ -1,5 +1,5 @@
 ---
-keywords: Target Standard;Recommendations;Target Premium;Personalizzazione automatizzata;targeting automatico;targeting automatico;autorizzazioni;cos'è adobe target;
+keywords: Target Standard;Recommendations;Target Premium;Automated Personalization;targeting automatico;targeting automatico;autorizzazioni;cos'è adobe target;
 description: Apprendi le basi di Adobe Target Standard e Adobe Target Premium. Target Premium include funzionalità avanzate non disponibili nel prodotto Standard.
 landing-page-description: Personalizza l’esperienza dei clienti per massimizzare le entrate tramite siti web, app mobili, social media e altri canali digitali.
 title: Cos’è Target?
@@ -37,7 +37,7 @@ In Target sono incluse le seguenti funzionalità Premium:
 
 ### Personalizzazione automatizzata
 
-[Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) fornisce algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e migliorare i tassi di conversione per le esperienze digitali.
+[Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9)  (AP) fornisce algoritmi di apprendimento automatico avanzati per distribuire esperienze personalizzate e migliorare i tassi di conversione per le esperienze digitali.
 
 [!UICONTROL La ] personalizzazione automatizzata registra l’attività dei visitatori sul sito, creando un profilo di visitatori in modo che il contenuto possa essere indirizzato a visitatori simili. AP tiene traccia delle risposte ai contenuti, sia per gli individui che per la popolazione nel suo insieme. AP utilizza quindi sofisticati approcci di modellazione per eseguire automaticamente il targeting di ogni individuo. AP considera tutto ciò che è noto su ogni visitatore.
 
@@ -67,7 +67,7 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 ### Consigli come offerta
 
-[La funzione Consigli come ](/help/c-recommendations/recommendations-as-an-offer.md) offerta consente di includere i consigli nelle attività di test  [!UICONTROL A/B], allocazione  [!UICONTROL automatica],  [!UICONTROL targeting automatico] e targeting delle  [!UICONTROL esperienze]  (XT).
+[Recommendations come ](/help/c-recommendations/recommendations-as-an-offer.md) offerta consente di includere consigli nelle attività di test  [!UICONTROL A/B], allocazione  [!UICONTROL automatica],  [!UICONTROL targeting automatico] e targeting delle  [!UICONTROL esperienze]  (XT).
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
