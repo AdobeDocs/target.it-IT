@@ -4,9 +4,9 @@ description: Scopri come creare attività di allocazione automatica e targeting 
 title: A4T supporta le attività di allocazione automatica e targeting automatico?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: bd226d255ece635272e6c3f372c6936a9acd5faf
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '964'
 ht-degree: 2%
 
 ---
@@ -96,3 +96,11 @@ Alcune limitazioni e note si applicano sia alle attività [!UICONTROL Allocazion
 * Quando utilizzi [!DNL Analytics] come origine dati per un&#39;attività [!UICONTROL Targeting automatico], le sessioni terminano dopo sei ore. Le conversioni che si verificano dopo sei ore non sono conteggiate.
 
 Per ulteriori informazioni, consulta [Modelli di attribuzione e finestre di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) nella *Guida agli strumenti di Analytics*.
+
+## Esercitazione: Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico {#tutorial}
+
+Sebbene le funzionalità di analisi avanzate siano disponibili in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], per interpretare correttamente le attività di Targeting automatico sono necessarie alcune modifiche al pannello predefinito [!UICONTROL Analytics for Target] . Queste modifiche sono necessarie a causa delle differenze tra le attività di sperimentazione (manuale A/B e [!UICONTROL Allocazione automatica]) e le attività di personalizzazione ([!UICONTROL Targeting automatico]).
+
+Questa esercitazione illustra le modifiche consigliate per l&#39;analisi delle attività di [!UICONTROL Targeting automatico] in [!UICONTROL Workspace].
+
+Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
