@@ -1,8 +1,8 @@
 ---
-source-git-commit: 8bd57fb3bb467d8dae50535b6c367995f2acabac
+source-git-commit: b14736a6f49e4276c94490f2fa435a87f8d365ae
 workflow-type: tm+mt
 translation-type: tm+mt
-source-wordcount: '154'
+source-wordcount: '145'
 ht-degree: 100%
 
 ---
@@ -18,7 +18,7 @@ Il progetto aderisce al [Codice di condotta Adobe](https://git.corp.adobe.com/Op
 
 ## Contratto di licenza del collaboratore
 
-Tutti i contributi di terze parti a questo progetto devono essere accompagnati da una licenza del collaboratore firmata. Questo autorizza Adobe a distribuire i tuoi contributi come parte del progetto. Firma il nostro contratto di licenza all’indirizzo [SOME LINK](nessun collegamento disponibile al momento). Dovrai inviare un contratto di licenza Adobe solo una volta, quindi se ne hai già inviato uno in precedenza, potrai procedere!
+Tutti i contributi di terze parti a questo progetto devono essere accompagnati da una licenza del collaboratore firmata. Questo autorizza Adobe a distribuire i tuoi contributi come parte del progetto. Dovrai inviare un contratto di licenza Adobe solo una volta, quindi se ne hai già inviato uno in precedenza, potrai procedere!
 
 ## Revisioni di codice
 
