@@ -4,9 +4,9 @@ description: Trova le risposte alle domande più frequenti sulla visualizzazione
 title: Trova risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
 workflow-type: tm+mt
-source-wordcount: '2405'
+source-wordcount: '2434'
 ht-degree: 40%
 
 ---
@@ -22,7 +22,7 @@ Puoi utilizzare [!DNL Analysis Workspace] per analizzare le attività e le esper
 
 Per informazioni ed esempi dettagliati, apri [Analytics &amp; Target: Esercitazione sulle best practice per l&#39;analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
 
-## Dove si possono applicare i segmenti in Analysis Workspace? {#segmentation}
+## Dove possono essere applicati i segmenti in Analysis Workspace? {#segmentation}
 
 I segmenti vengono più comunemente utilizzati nella parte superiore di un pannello nella zona di rilascio dei segmenti. Il segmento viene applicato a tutte le tabelle e visualizzazioni nel pannello . Questa tecnica è particolarmente utile per vedere in che modo il test interessa un sottoinsieme di persone (ad esempio, come si è verificato questo test per le persone nel Regno Unito)?
 
@@ -54,6 +54,8 @@ Considera i seguenti aspetti:
 
 * Le metriche sopra indicate si attivano quando un utente si qualifica per un&#39;attività e il contenuto viene restituito da [!DNL Target]. Ciò non significa necessariamente che l&#39;utente abbia visto l&#39;offerta. Se l&#39;esperienza di un’attività si trova nella parte inferiore della pagina e l&#39;utente non scorre la pagina verso il basso, allora l&#39;offerta è stata servita da [!DNL Target] ma non è stata vista dall&#39;utente.
 * Le [!UICONTROL impressioni dell’attività] (misurate da [!DNL Target]) e le [!UICONTROL istanze] (misurate da [!DNL Analytics]) sono uguali, a meno che non vi siano più chiamate mbox sulla stessa pagina nella stessa attività. In tal caso si contano più [!UICONTROL impressioni dell’attività], ma solo una singola [!UICONTROL istanza].
+
+Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
 
 ## Perché le &quot;impression di attività&quot; e le &quot;conversioni di attività&quot; sono più alte in Analysis Workspace rispetto a Reports &amp; Analytics? {#sametouch}
 
@@ -97,22 +99,22 @@ L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra a
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 1 |
+| XYZ | 1 | 10 | 2 | 3 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente attraverso la persistenza e questo utente ha quindi impostato ABC, vedrai due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 15 | 3 | 1 |
-| ABC | 1 | 5 | 1 | 1 |
+| XYZ | 3 | 15 | 3 | 3 |
+| ABC | 3 | 5 | 3 | 1 |
 
-L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore eVar viene reimpostata il 1° aprile, quindi lo puoi vedere nei rapporti. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
+L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore di eVar viene reimpostata il 1° aprile, quindi lo puoi vedere nei rapporti. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
 | XYZ | 1 | 20 | 4 | 1 | 1 |
 | ABC | 1 | 10 | 2 | 1 | 1 |
-| Totale | 2 | 20 | 1 | 1 | 1 |
+| Totale | 2 | 20 | 1 | 3 | 1 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting [!DNL Target], poiché non stai mettendo un&#39;attività [!DNL Target] contro un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ricevuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile che un utente veda diverse esperienze nella stessa attività, in modo da non doverti preoccupare della contaminazione incrociata del credito d’ordine.
 
