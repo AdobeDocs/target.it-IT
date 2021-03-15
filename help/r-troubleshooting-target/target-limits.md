@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 8c9390beee7a2f8a257c651743885a0f48628062
+source-git-commit: 70da200e317c4aaa3de7e3da40fef5fc3b4424dc
 workflow-type: tm+mt
 source-wordcount: '1090'
 ht-degree: 64%
