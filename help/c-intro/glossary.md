@@ -1,12 +1,12 @@
 ---
-description: Cosa significano termini diversi utilizzati in  Adobe Target? Scopri le definizioni dei termini comuni per ottenere maggiori informazioni su Target.
-title: Dove è possibile trovare termini e definizioni utilizzati in Target?
-feature: Overview
+description: Cosa significano termini diversi utilizzati in Adobe Target? Scopri le definizioni dei termini comuni per ottenere di più da Target.
+title: Dove posso trovare termini e definizioni utilizzati in Target?
+feature: Panoramica
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
 workflow-type: tm+mt
-source-wordcount: '2316'
-ht-degree: 97%
+source-wordcount: '2472'
+ht-degree: 90%
 
 ---
 
@@ -51,7 +51,7 @@ La libreria [!DNL at.js] è una nuova libreria di implementazione per [!DNL Adob
 
 **pubblico**
 
-Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
+Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Un gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds dal Midwest. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
 
 **Allocazione automatica**
 
@@ -241,6 +241,18 @@ Trasmesso nella pagina, non nell&#39;URL. I parametri vengono utilizzati per tra
 
 Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività
 
+## N
+
+**Nuovo visitatore**
+
+Un visitatore viene incluso nel segmento Nuovi visitatori se viene soddisfatta una delle seguenti condizioni:
+
+* È la prima volta che il visitatore visita il sito.
+* È la prima volta che il visitatore visita il sito dopo aver cancellato i cookie.
+* È la prima volta che il visitatore visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
+
+Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) nelle domande e risposte relative ai rapporti. Contrasto con &quot;Visitatore di ritorno&quot; di seguito.
+
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
 **finalità**
@@ -278,6 +290,12 @@ Reindirizza un visitatore a una diversa pagina Web. Utilizza questo redirector i
 **parametro URL di riferimento**
 
 Trasmette valori all’elemento mbox della pagina di destinazione come parametri e valori dell’URL di riferimento. Puoi utilizzarli, ad esempio, per eseguire il targeting sull’origine del visitatore.
+
+**Visitatore di ritorno**
+
+Il visitatore viene incluso nel segmento Visitatori di ritorno se l’utente ha visitato il sito in precedenza, se ne è andato per almeno 30 minuti, e lo ha nuovamente visitato con gli stessi cookie. Se un visitatore ritorna entro la durata del suo profilo, diventa un visitatore di ritorno.
+
+Per ulteriori informazioni, consulta [Modalità di conteggio delle metriche Nuovi visitatori e Visitatori di ritorno](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Domande e risposte sui rapporti. Contrasto con &quot;Nuovo visitatore&quot; sopra.
 
 **ruolo**
 
@@ -333,7 +351,7 @@ Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse au
 
 **visit**
 
-A volte una visita viene denominata sessione. Una visita termina dopo 30 minuti di inattività, il che significa che sono passati almeno 30 minuti tra le richieste del server a Target.
+A volte una visita viene definita sessione. Una visita termina dopo 30 minuti di inattività, il che significa che sono passati almeno 30 minuti tra le richieste del server a Target.
 
 **visitatore**
 
