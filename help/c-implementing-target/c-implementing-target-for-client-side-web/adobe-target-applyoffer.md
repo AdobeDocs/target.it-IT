@@ -1,21 +1,21 @@
 ---
 keywords: adobe.target.applyOffer;applyOffer;applyoffer;applica offerta;at.js;funzioni;funzione
-description: Utilizzate la funzione adobe.target.applyOffer() per  libreria JavaScript Adobe Target at.js per applicare il contenuto della risposta.
+description: Utilizza la funzione adobe.target.applyOffer() per la libreria JavaScript at.js di Adobe Target per applicare il contenuto della risposta.
 title: Come si utilizza la funzione adobe.target.applyOffer()?
 feature: at.js
-role: Developer
+role: Sviluppatori
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 3a71ae60a89a802ca469fa7acd583157221bdeee
 workflow-type: tm+mt
-source-wordcount: '176'
-ht-degree: 86%
+source-wordcount: '177'
+ht-degree: 72%
 
 ---
 
 
 # adobe.target.applyOffer(options)
 
-Questa funzione applica il contenuto di risposta.
+Questa funzione consente di applicare il contenuto della risposta con [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -26,8 +26,8 @@ Il parametro delle opzioni è obbligatorio e ha la seguente struttura:
 | Chiave | Tipo | Obbligatorio | Descrizione |
 |--- |--- |--- |--- |
 | mbox | Stringa | Sì | Nome mbox<br>Con at.js 1.3.0 (e versioni successive), Target impone l’utilizzo della chiave mbox. Questa chiave era già richiesta in passato, ma Target ora ne impone l’utilizzo per garantire la corretta convalida di Target e il corretto utilizzo di questa funzione da parte dei clienti. |
-| selector | Elemento Stringa o DOM | No | Elemento HTML o selettore CSS utilizzato per identificare l&#39;elemento HTML in cui Target deve inserire il contenuto dell&#39;offerta. Se il selettore non viene fornito, target presuppone che l&#39;elemento HTML che dovremmo usare sia HTML HEAD. |
-| offerta | Array | Sì | Azioni di array che devono essere applicate all&#39;elemento. |
+| selector | Elemento Stringa o DOM | No | Elemento HTML o selettore CSS utilizzato per identificare l&#39;elemento HTML in cui Target deve inserire il contenuto dell&#39;offerta. Se il selettore non viene fornito, Target presuppone che l&#39;elemento HTML utilizzi HTML HEAD. |
+| Offerta | Array | Sì | Azioni di array che devono essere applicate all&#39;elemento. |
 
 ## Esempio {#section_D8D6A17B73DE4542937CDB687193A5CC}
 
