@@ -5,9 +5,9 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 70da200e317c4aaa3de7e3da40fef5fc3b4424dc
+source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1094'
 ht-degree: 64%
 
 ---
@@ -218,7 +218,7 @@ Alle offerte si applicano i seguenti limiti di dimensione:
 
 ## Script di profilo
 
-* **Limite consigliato per gli script** di profilo attivi: 300
+* **Limite consigliato per gli script di profilo attivi (quelli abilitati)**: 300
 
 * **Limite consigliato di script di profilo totali per account**: 2.000
 
