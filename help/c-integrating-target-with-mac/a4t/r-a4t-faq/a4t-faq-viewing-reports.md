@@ -4,10 +4,10 @@ description: Trova le risposte alle domande più frequenti sulla visualizzazione
 title: Trova risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 translation-type: tm+mt
-source-git-commit: 29df46273639b87f10502e8d9f04d2bc429637f9
+source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
 workflow-type: tm+mt
-source-wordcount: '2434'
-ht-degree: 40%
+source-wordcount: '2526'
+ht-degree: 38%
 
 ---
 
@@ -93,32 +93,36 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 1 | 1 |
+| XYZ | 1 | 5 | 3 | 1 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 10 | 2 | 3 |
+| XYZ | 3 | 10 | 2 | 3 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente attraverso la persistenza e questo utente ha quindi impostato ABC, vedrai due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 1 |
+| ABC | 1 | 5 | 3 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore di eVar viene reimpostata il 1° aprile, quindi lo puoi vedere nei rapporti. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 1 | 20 | 4 | 1 | 1 |
-| ABC | 1 | 10 | 2 | 1 | 1 |
-| Totale | 2 | 20 | 1 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 1 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 1 |
+| Totale | 2 | 20 | 3 | 3 | 3 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting [!DNL Target], poiché non stai mettendo un&#39;attività [!DNL Target] contro un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ricevuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile che un utente veda diverse esperienze nella stessa attività, in modo da non doverti preoccupare della contaminazione incrociata del credito d’ordine.
 
 Per ulteriori informazioni, consulta [Variabili di conversione (eVar](https://experienceleague.adobe.com/docs/analytics/admin/admin-tools/conversion-variables/conversion-var-admin.html)) nella *Guida per l’amministrazione di Analytics*.
+
+## Perché continuo a vedere più impression dopo la disattivazione dell’attività? {#deactivated}
+
+Un’origine di impression per il rapporto di un’attività A4T dopo la disattivazione può essere il traffico in modalità QA. Target normalmente non registra gli eventi per un’attività disattivata, ma Analytics non ha un modo per sapere che le impression provengono dalla modalità di controllo qualità. Quando il rapporto di attività di Target viene recuperato da Analytics, mostra queste impression. Questo funziona correttamente perché i clienti devono poter controllare i rapporti A4T anche se l’attività non è attiva utilizzando la modalità di controllo qualità.
 
 ## Perché Analytics e Analytics for Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
 
