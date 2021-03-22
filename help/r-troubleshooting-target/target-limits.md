@@ -5,10 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 translation-type: tm+mt
-source-git-commit: 79023ea6e45abcb18daa9f10e0758688d83d7e09
+source-git-commit: c076660ca816346bc83ec71747d491aa408b049f
 workflow-type: tm+mt
-source-wordcount: '1094'
-ht-degree: 64%
+source-wordcount: '1152'
+ht-degree: 60%
 
 ---
 
@@ -76,6 +76,8 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 ### Numero di entità
 
 * Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
+* Il limite consigliato per le migliori prestazioni è quello di mantenere il catalogo inferiore a 1.000.000 elementi per ambiente e meno di 10.000.000 elementi per tutti gli ambienti.
+* Il limite massimo è di 10.000.000 elementi per ambiente e 100.000.000 elementi per tutti gli ambienti. Se hai tra 1.000.000 e 10.000.000 elementi per ambiente, le prestazioni dell&#39;interfaccia utente [!UICONTROL Ricerca nel catalogo] sono influenzate. [!DNL Target Recommendations]Tuttavia, continua a produrre e a fornire raccomandazioni.
 
 ### Attributi personalizzati entità
 
