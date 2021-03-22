@@ -1,34 +1,34 @@
 ---
-keywords: token di risposta;token;plugin;plug-in;at.js;response
-description: Scoprite come utilizzare i token di risposta in  Adobe Target per ottenere informazioni specifiche da utilizzare per il debug e l'integrazione con sistemi di terze parti (ad esempio, Clicktale).
-title: Cosa sono i token di risposta e come li uso?
-feature: Administration & Configuration
-role: Administrator
+keywords: token di risposta;token;plug-in;plug-in;at.js;risposta
+description: Scopri come utilizzare i token di risposta in Adobe Target per ottenere informazioni specifiche da utilizzare nel debug e nell’integrazione con sistemi di terze parti (ad esempio, Clicktale).
+title: Cosa sono i token di risposta e come li utilizzo?
+feature: Amministrazione e configurazione
+role: Amministratore
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt
-source-wordcount: '1580'
-ht-degree: 77%
+source-wordcount: '1575'
+ht-degree: 76%
 
 ---
 
 
 # Token di risposta{#response-tokens}
 
-I token di risposta consentono di inviare automaticamente informazioni specifiche a [!DNL Target] (dettagli attività, informazioni profilo utente, informazioni geografiche e così via) da utilizzare per il debug o l&#39;integrazione con sistemi di terze parti (ad esempio, Clicktale).
+I token di risposta consentono di generare automaticamente informazioni specifiche per [!DNL Target] (dettagli dell’attività, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o l’integrazione con sistemi di terze parti (ad esempio, Clicktale).
 
-I token di risposta consentono di scegliere quali variabili sfruttare e quindi di inviarle come parte di una risposta di Target. Per fare ciò, è sufficiente abilitare una variabile utilizzando lo switch e la variabile verrà inviata con le risposte di Target, che possono essere convalidate nelle chiamate di rete. I token di risposta funzionano anche in modalità [!UICONTROL Anteprima].
+I token di risposta ti consentono di scegliere quali variabili sfruttare e quindi di attivarle per inviarle come parte di una risposta di Target. Per farlo, devi solo abilitare una variabile utilizzando lo switch e questa verrà inviata con le risposte di Target, che possono essere convalidate nelle chiamate di rete. I token di risposta funzionano anche in modalità [!UICONTROL Anteprima] .
 
 Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in recapitano alla pagina un codice JavaScript che viene eseguito al momento del recapito. I token di risposta, invece, recapitano un oggetto che può quindi essere letto e utilizzato mediante i listener di eventi. Per ulteriori informazioni, consulta [Eventi personalizzati di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) e gli esempi forniti più avanti in questo articolo. L’approccio dei token di risposta è più sicuro e dovrebbe consentire uno sviluppo e una manutenzione più agevoli delle integrazioni di terze parti.
 
 >[!NOTE]
 >
->I token di risposta sono disponibili con at.js 1.1 o versione successiva. I token di risposta non sono supportati con mbox.js.
+>I token di risposta sono disponibili con at.js 1.1 o versione successiva.
 
 | Libreria di Target in uso | Azioni consigliate |
 |--- |--- |
 | at.js | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md). Per informazioni sulle nuove funzionalità in ogni versione di at.js, vedi [Dettagli sulla versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni di mbox.js che non sono presenti in at.js verranno consegnati, ma non avranno esito positivo. Per ulteriori informazioni, consulta [Limitazioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md). |
-| mbox.js | I plug-in continueranno a essere supportati e consegnati utilizzando mbox.js.<br>Tuttavia, i clienti che utilizzano mbox.js e i plug-in sono invitati a passare ad at.js e ai token di risposta. Per informazioni sui vantaggi dell’utilizzo di at.js rispetto a mbox.js, consulta [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Per informazioni sulla migrazione, consulta [Migrare a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Dopo che Target Classic è stato dichiarato obsoleto (novembre 2017), potrebbe essere necessario contattare l’Assistenza clienti per modificare o disabilitare i plug-in esistenti. Dovresti aver controllato i plug-in prima che Target Classic venisse dichiarato obsoleto, e aver disabilitato i plug-in indesiderati.<br>Non è possibile creare nuovi plug-in in Target Standard/Premium. Al loro posto, utilizza piuttosto i token.<br>I plug-in obsoleti di SiteCatalyst devono essere disattivati e sostituiti con [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Il plug-in ttMeta deve essere disabilitato e sostituito con [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
+| mbox.js | I plug-in continuano a essere supportati e consegnati quando si utilizza mbox.js.<br>Tuttavia, i clienti che utilizzano mbox.js e i plug-in sono invitati a passare ad at.js e ai token di risposta. Per informazioni sui vantaggi dell’utilizzo di at.js rispetto a mbox.js, consulta [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md). Per informazioni sulla migrazione, consulta [Migrare a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md).<br>Dopo che Target Classic è stato dichiarato obsoleto (novembre 2017), potrebbe essere necessario contattare l’Assistenza clienti per modificare o disabilitare i plug-in esistenti. Dovresti aver controllato i plug-in prima che Target Classic venisse dichiarato obsoleto, e aver disabilitato i plug-in indesiderati.<br>Non è possibile creare nuovi plug-in in Target Standard/Premium. Al loro posto, utilizza piuttosto i token.<br>I plug-in obsoleti di SiteCatalyst devono essere disattivati e sostituiti con [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Il plug-in ttMeta deve essere disabilitato e sostituito con [Adobe Experience Cloud Debugger](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj). |
 
 ## Utilizzo dei token di risposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
    Per ulteriori informazioni, consulta [Scarica at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-1. In [!DNL Target], fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
+1. In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
 
    ![](assets/response_tokens-new.png)
 
@@ -46,7 +46,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
 
    | Tipo | Parametro | Note |
    |--- |--- |--- |
-   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due [!DNL Target] richieste di distribuzione di due attività diverse, la seconda richiesta include entrambe le attività. |
+   | Profili incorporati | `profile.activeActivities` | Restituisce una matrice dei codici `activityIds` per i quali il visitatore si qualifica. Viene incrementato man mano che gli utenti si qualificano. Ad esempio, in una pagina con due richieste [!DNL Target] che forniscono due diverse attività, la seconda richiesta include entrambe le attività. |
    |  | `profile.isFirstSession` | Restituisce “vero” o “falso”. |
    |  | `profile.isNewSession` | Restituisce “vero” o “falso”. |
    |  | `profile.daysSinceLastVisit` | Restituisce il numero di giorni dall’ultima visita del visitatore. |
@@ -57,7 +57,7 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
    |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
    | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Dettagli dell’attività corrente. “Opzione” equivale a “offerta”. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
-   | Metodo di allocazione del traffico<br>(applicabile solo alle attività [!UICONTROL Auto-Target] e [!UICONTROL  Automated Personalization]). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un&#39;esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un&#39;esperienza dalla distribuzione del traffico &quot;di destinazione&quot;. |
+   | Metodo di allocazione del traffico<br>(si applica solo alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] ). | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
    |  | `experience.trafficAllocationType` | Restituisce &quot;control&quot; o &quot;target&quot;. |
 
    Nell’elenco vengono visualizzati anche gli attributi del profilo utente e gli attributi del cliente.
@@ -66,9 +66,9 @@ Una differenza fondamentale tra i plug-in e i token di risposta è che i plug-in
    >
    >I parametri con caratteri speciali non vengono visualizzati nell’elenco. Sono supportati solo caratteri alfanumerici e il trattino basso.
 
-1. (Condizionale) Se desiderate utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato passato attraverso una richiesta [!DNL Target] e, pertanto, non è stato caricato nell&#39;interfaccia di Target, potete utilizzare il pulsante [!UICONTROL Aggiungi token di risposta] per aggiungere il profilo all&#39;interfaccia utente.
+1. (Condizionale) Se desideri utilizzare un parametro di profilo come token di risposta, ma il parametro non è stato trasmesso tramite una richiesta [!DNL Target] e quindi non è stato caricato nell’interfaccia utente di Target, puoi utilizzare il pulsante [!UICONTROL Aggiungi token di risposta] per aggiungere il profilo all’interfaccia utente.
 
-   Fare clic su **[!UICONTROL Aggiungi token di risposta]**, fornire il nome del token, quindi fare clic su **[!UICONTROL Attiva]**.
+   Fai clic su **[!UICONTROL Aggiungi token di risposta]**, fornisci il nome del token, quindi fai clic su **[!UICONTROL Attiva]**.
 
    ![](assets/response_token_create.png)
 
@@ -131,15 +131,15 @@ Potrai visualizzare i token di risposta, ma at.js non sarà in grado di utilizza
 
 **Che cosa succede se uso at.js 1.1 (o versione successiva) su alcune pagine del sito e mbox.js su altre?**
 
-I token di risposta verranno inviati alle [!DNL at.js] risposte Target, ma non alle [!DNL mbox.js] risposte.
+I token di risposta verranno consegnati alle risposte di [!DNL at.js] Target, ma non alle risposte [!DNL mbox.js].
 
 **È possibile avere attivi allo stesso tempo sia plug-in di Target Classic che i token di risposta?**
 
 Plug-in e token di risposta saranno disponibili in parallelo; tuttavia, i plug-in diventeranno obsoleti in futuro.
 
-**I token di risposta vengono distribuiti attraverso tutte le  [!DNL Target] risposte o solo attraverso  [!DNL Target] le risposte che forniscono un&#39;attività?**
+**I token di risposta vengono consegnati attraverso tutte le  [!DNL Target] risposte o solo tramite  [!DNL Target] le risposte che forniscono un’attività?**
 
-I token di risposta vengono forniti solo tramite [!DNL Target] risposte che forniscono un&#39;attività.
+I token di risposta vengono consegnati solo tramite le risposte [!DNL Target] che forniscono un’attività.
 
 **Il mio plug-in di Target Classic comprendeva JavaScript. Come posso riprodurne la funzionalità utilizzando i token di risposta?**
 
@@ -283,12 +283,12 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
 </script>
 ```
 
-## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Etichetta esercitazione](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Badge tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
 >[!NOTE]
 >
->L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Administration] (precedentemente [!UICONTROL Setup]) è stata riprogettata per fornire prestazioni migliorate, ridurre il tempo di manutenzione necessario per il rilascio delle nuove funzioni e migliorare l&#39;esperienza dell&#39;utente in tutto il prodotto. Le informazioni riportate nel seguente video sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L&#39;interfaccia utente del menu [!DNL Target] [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stata riprogettata per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l&#39;esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
