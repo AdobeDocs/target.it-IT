@@ -4,10 +4,10 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '3848'
-ht-degree: 28%
+source-wordcount: '3866'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,8 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 23 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
+|  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 | 22 marzo | [Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità Consigli](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Elenco aggiornato degli indirizzi IP. |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiornata la sezione &quot;Numero di entità&quot; in &quot;Entità&quot;. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Nuove informazioni su at.js 2.** xunder &quot;Come posso testare le mie attività come se fossi un utente proveniente da una posizione diversa?&quot; |
