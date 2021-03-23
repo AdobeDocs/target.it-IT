@@ -4,10 +4,10 @@ description: Visualizza un elenco di indirizzi IP utilizzati nei server di elabo
 title: Quali indirizzi IP utilizzano i server di elaborazione dei feed Recommendations?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: 55b246f5f0d660e6c4f71352c5b638347d55ac28
+source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
 workflow-type: tm+mt
-source-wordcount: '142'
-ht-degree: 13%
+source-wordcount: '138'
+ht-degree: 10%
 
 ---
 
@@ -18,19 +18,19 @@ Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Adob
 
 [!DNL Target]  Le attività Consigli utilizzano i seguenti indirizzi IP per accedere ai server FTP dei clienti:
 
-| Notazione CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 [!DNL Target]  Le API di Recommendations utilizzano i seguenti indirizzi IP:
 
-| Notazione CIDR |
-|---|
-| 44.241.237.28/32 |
-| 44.232.167.82/32 |
-| 52.41.252.205/32 |
+44.241.237.28
+
+44.232.167.82
+
+52.41.252.205
 
 >[!NOTE]
 >
