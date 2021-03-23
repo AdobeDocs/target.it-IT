@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '618'
-ht-degree: 36%
+source-wordcount: '673'
+ht-degree: 35%
 
 ---
 
@@ -23,6 +23,14 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 >Esegui la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di questa data per evitare potenziali problemi con i tuoi siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
+
+## at.js 2.4.1 (23 marzo 2021)
+
+Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
+
+* È stato risolto un problema a causa del quale targetPageParams veniva incluso nelle richieste mbox. targetPageParams deve essere incluso solo nelle richieste pageLoad . (TNT-40247)
+* Ottimizzazione dei globali di finestre e documenti che fanno riferimento nell&#39;estensione [!DNL Adobe Experience Platform Launch]. (TNT-37124)
+* Sono state aggiornate le dipendenze di build e test per correggere le vulnerabilità di sicurezza.
 
 ## Modifiche all&#39;indirizzo IP per i server di elaborazione dei feed Recommendations (16 marzo 2021)
 
