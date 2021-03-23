@@ -4,10 +4,10 @@ description: Visualizza un elenco delle domande frequenti e delle risposte sulle
 title: Dove posso trovare domande e risposte su Target Recommendations?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
 workflow-type: tm+mt
-source-wordcount: '2320'
-ht-degree: 49%
+source-wordcount: '2377'
+ht-degree: 46%
 
 ---
 
@@ -26,45 +26,21 @@ Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di 
 
 L’intervallo di tempo e i risultati variano a seconda di come vengono aggiornati gli elementi.
 
-### Attributi degli articoli aggiornati tramite mbox o API
-
-* Recommendations viene aggiornato entro 15 minuti.
-* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
-* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
-
-### Attributi degli articoli aggiornati tramite feed
-
-* Recommendations viene aggiornato dopo l’acquisizione dei feed (2-8 ore).
-* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
-* La ricerca nel catalogo viene aggiornata dopo l’acquisizione dei feed (2-8 ore) e dopo l’indice del catalogo successivo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.
-
-### Elemento eliminato dal catalogo tramite interfaccia utente o API di Target
-
-* Recommendations viene aggiornato entro 15 minuti.
-* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
-* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
-
-### Elemento aggiunto al catalogo tramite mbox o API
-
-* Recommendations viene aggiornato dopo l’esecuzione dell’algoritmo. Le esecuzioni degli algoritmi sono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni.
-* I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.
-* I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.
-* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
-
-### Elemento aggiunto al catalogo tramite feed
-
-* Recommendations viene aggiornato dopo l’acquisizione del feed (2-8 ore). Le esecuzioni successive degli algoritmi vengono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni. Recommendations viene generalmente aggiornato entro 2-32 ore totali.
-* I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.
-* I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.
-* La ricerca nel catalogo viene aggiornata dopo l’inserimento dei feed (2-8 ore) e dopo l’indice del catalogo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.
-
-### Modifiche aggiuntive
+| Origine | Dettagli |
+| --- | --- |
+| Attributi degli articoli aggiornati tramite mbox o API | <ul><li>Recommendations viene aggiornato entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
+| Attributi degli articoli aggiornati tramite feed | <ul><li>Recommendations viene aggiornato dopo l’acquisizione dei feed (2-8 ore).</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l’acquisizione dei feed (2-8 ore) e dopo l’indice del catalogo successivo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.</li></ul> |
+| Elemento eliminato dal catalogo tramite interfaccia utente o API di Target | <ul><li>Recommendations viene aggiornato entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
+| Elemento aggiunto al catalogo tramite mbox o API | <ul><li>Recommendations viene aggiornato dopo l’esecuzione dell’algoritmo. Le esecuzioni degli algoritmi sono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
+| Elemento aggiunto al catalogo tramite feed | <ul><li>Recommendations viene aggiornato dopo l’acquisizione del feed (2-8 ore). Le esecuzioni successive degli algoritmi vengono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni. Recommendations viene generalmente aggiornato entro 2-32 ore totali.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l’inserimento dei feed (2-8 ore) e dopo l’indice del catalogo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.</li></ul> |
 
 Dopo aver importato un file di feed o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche si riflettono in meno di 60 minuti:
 
-* Attributi degli articoli restituiti nel modello Progettazione.
-* Attributi degli articoli utilizzati nelle regole di esclusione globali che impediscono l’inclusione dell’articolo nei consigli restituiti.
-* Attributi degli articoli utilizzati nelle regole di inclusione dei criteri che incidono sull’inclusione o esclusione dell’articolo dai consigli restituiti.
+* Se un elemento è stato escluso in precedenza ma ora deve essere incluso, verrà incluso nella prossima esecuzione dell’algoritmo (12-24 ore).
+
+   Ciò si verifica perché Target applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online scompare rapidamente ma l’esclusione offline non scompare fino all’esecuzione dell’algoritmo successivo.
+
+* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento verrà escluso in base agli &quot;Attributi articolo aggiornati...&quot;. la linea temporale di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
 
 Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritmo successivo (entro 12-24 ore):
 
