@@ -4,9 +4,9 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
+source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
 workflow-type: tm+mt
-source-wordcount: '3866'
+source-wordcount: '3890'
 ht-degree: 29%
 
 ---
@@ -22,6 +22,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 | --- | --- | --- |
 | 23 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole perché gli aggiornamenti agli articoli del catalogo si riflettano sul mio sito?</li></ul> |
 | 22 marzo | [Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità Consigli](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Elenco aggiornato degli indirizzi IP. |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiornata la sezione &quot;Numero di entità&quot; in &quot;Entità&quot;. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Nuove informazioni su at.js 2.** xunder &quot;Come posso testare le mie attività come se fossi un utente proveniente da una posizione diversa?&quot; |
