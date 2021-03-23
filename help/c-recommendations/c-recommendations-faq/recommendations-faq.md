@@ -1,13 +1,13 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-description: Visualizza un elenco delle domande frequenti e delle risposte relative alle attività di Adobe Target Recommendations.
-title: Dove posso trovare domande e risposte sui consigli di Target?
+description: Visualizza un elenco delle domande frequenti e delle risposte sulle attività di Adobe Target Recommendations.
+title: Dove posso trovare domande e risposte su Target Recommendations?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: e4d7f9d6bd42343c5c5e591853a4fc70d1f49ee7
+source-git-commit: 2cc49dd09c0e51419feba5a844ed5c316838c696
 workflow-type: tm+mt
-source-wordcount: '2031'
-ht-degree: 57%
+source-wordcount: '2320'
+ht-degree: 49%
 
 ---
 
@@ -24,7 +24,43 @@ Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di 
 
 ## Quanto tempo ci vuole perché gli aggiornamenti agli articoli del catalogo si riflettano sul mio sito?
 
-Dopo aver importato un file di feed, o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche verranno riportate in meno di 60 minuti:
+L’intervallo di tempo e i risultati variano a seconda di come vengono aggiornati gli elementi.
+
+### Attributi degli articoli aggiornati tramite mbox o API
+
+* Recommendations viene aggiornato entro 15 minuti.
+* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
+* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
+
+### Attributi degli articoli aggiornati tramite feed
+
+* Recommendations viene aggiornato dopo l’acquisizione dei feed (2-8 ore).
+* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
+* La ricerca nel catalogo viene aggiornata dopo l’acquisizione dei feed (2-8 ore) e dopo l’indice del catalogo successivo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.
+
+### Elemento eliminato dal catalogo tramite interfaccia utente o API di Target
+
+* Recommendations viene aggiornato entro 15 minuti.
+* I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.
+* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
+
+### Elemento aggiunto al catalogo tramite mbox o API
+
+* Recommendations viene aggiornato dopo l’esecuzione dell’algoritmo. Le esecuzioni degli algoritmi sono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni.
+* I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.
+* I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.
+* La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).
+
+### Elemento aggiunto al catalogo tramite feed
+
+* Recommendations viene aggiornato dopo l’acquisizione del feed (2-8 ore). Le esecuzioni successive degli algoritmi vengono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni. Recommendations viene generalmente aggiornato entro 2-32 ore totali.
+* I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.
+* I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.
+* La ricerca nel catalogo viene aggiornata dopo l’inserimento dei feed (2-8 ore) e dopo l’indice del catalogo (3-8 ore). La ricerca nel catalogo viene generalmente aggiornata entro 5-16 ore totali.
+
+### Modifiche aggiuntive
+
+Dopo aver importato un file di feed o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche si riflettono in meno di 60 minuti:
 
 * Attributi degli articoli restituiti nel modello Progettazione.
 * Attributi degli articoli utilizzati nelle regole di esclusione globali che impediscono l’inclusione dell’articolo nei consigli restituiti.
@@ -40,7 +76,7 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Gli aggiornamenti possono richiedere più di 60 minuti per riflettersi nell’interfaccia utente di Ricerca nel catalogo; La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa &quot;Aggiornamenti completati&quot;. Anche se la ricerca nel catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti sui tempi elencati sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
+>Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Gli aggiornamenti possono richiedere più di 60 minuti per riflettersi nell’interfaccia utente di Ricerca nel catalogo; La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa &quot;Aggiornamenti completati&quot;. Anche se la funzione Ricerca nel catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti sui tempi elencati sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -139,9 +175,9 @@ Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aum
 
 Target impone un limite per i post di 50 MB a livello di applicazione; tuttavia, questo accade solo quando trasmetti l’intestazione del tipo di contenuto `application/x-www-form-urlencoded` .
 
-Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se non riesce, puoi suddividerlo in batch. Adobe consiglia ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotti per ridurre la probabilità di un timeout dovuto al caricamento del sistema.
+Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se non riesce, puoi suddividerlo in batch. Adobe consiglia ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotti per diminuire la probabilità di un timeout a causa del carico di sistema.
 
-## È necessario specificare il nome mbox per la creazione di criteri di Consigli, promozioni o regole di test di modelli? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## È necessario specificare il nome mbox per la creazione di criteri, promozioni o regole di test di modelli Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Durante la creazione di un criterio di Consigli, promozioni o una regola di test di modelli basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
