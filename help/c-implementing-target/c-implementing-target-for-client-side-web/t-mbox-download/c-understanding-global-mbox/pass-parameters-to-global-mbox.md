@@ -1,13 +1,13 @@
 ---
 keywords: parametri mbox globali;targetPageParams;stringa di query;array;json;dtm;Dynamic Tag Management
-description: Scoprite come utilizzare la funzione targetPageParams per trasmettere informazioni di targeting o di contesto aggiuntive alla mbox globale di Adobe Target .
-title: Come posso passare i parametri a una mbox globale?
+description: Scopri come utilizzare la funzione targetPageParams per passare ulteriori informazioni di targeting o contesto alla mbox globale di Adobe Target.
+title: Come faccio a trasmettere parametri a una mbox globale?
 feature: at.js
-role: Developer
+role: Sviluppatori
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt
-source-wordcount: '385'
+source-wordcount: '387'
 ht-degree: 63%
 
 ---
@@ -15,15 +15,15 @@ ht-degree: 63%
 
 # Trasmettere i parametri a una mbox globale
 
-La funzione JavaScript `targetPageParams` viene utilizzata per trasmettere parametri alla mbox globale in [!DNL Adobe Target]. Questo è necessario in qualsiasi scenario in cui ulteriori informazioni di targeting/contesto verranno trasmesse in [!DNL Target].
+La funzione JavaScript `targetPageParams` viene utilizzata per trasmettere parametri alla mbox globale in [!DNL Adobe Target]. Questo è necessario in qualsiasi scenario in cui informazioni di targeting/contesto aggiuntive devono essere trasmesse in [!DNL Target].
 
-Ad esempio, in un&#39;attività [!DNL Recommendations], utilizzate i parametri per rappresentare il prodotto o la categoria corrente visualizzato.
+Ad esempio, in un’attività [!DNL Recommendations] , utilizza i parametri per rappresentare il prodotto o la categoria corrente che viene visualizzata.
 
-Il codice per chiamare la funzione JavaScript deve precedere la mbox globale sulla pagina, a prescindere dal fatto che la mbox globale venga attivata come parte di at.js o sia inclusa manualmente nel codice della pagina.
+Il codice per chiamare la funzione JavaScript deve precedere la mbox globale sulla pagina, sia che la mbox globale sia attivata come parte di at.js o sia inclusa manualmente nel codice della pagina.
 
 >[!NOTE]
 >
->Se desiderate aggiungere parametri a tutte le mbox sulla pagina, non solo alla mbox globale, utilizzate la funzione [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
+>Se desideri aggiungere parametri a tutte le mbox sulla pagina e non solo alla mbox globale, utilizza la funzione [targetPageParamsAll()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) .
 
 Puoi trasmettere parametri a `target-global-mbox` utilizzando la funzione `targetPageParams()` in uno dei seguenti modi:
 
@@ -56,8 +56,7 @@ Quello che segue è un esempio dell&#39;aspetto potenziale del codice per la pag
     <title>Title here..</title> 
     <script type="text/javascript"> 
         function targetPageParams() { 
-           
-<b>return "p1=v1&p2=v2&p3=hello%20world"</b>; 
+          return "p1=v1&p2=v2&p3=hello%20world";
         } 
     </script> 
     <script src="mbox.js" type="text/javascript"></script> 
