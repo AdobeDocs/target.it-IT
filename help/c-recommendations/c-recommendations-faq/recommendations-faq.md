@@ -4,10 +4,10 @@ description: Visualizza un elenco delle domande frequenti e delle risposte sulle
 title: Dove posso trovare domande e risposte su Target Recommendations?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: cef2a1fc065501a1d4b7d138b9f67d73d2a2e06e
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '2377'
-ht-degree: 46%
+source-wordcount: '2694'
+ht-degree: 40%
 
 ---
 
@@ -40,7 +40,7 @@ Dopo aver importato un file di feed o ricevuto aggiornamenti di entità tramite 
 
    Ciò si verifica perché Target applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online scompare rapidamente ma l’esclusione offline non scompare fino all’esecuzione dell’algoritmo successivo.
 
-* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento verrà escluso in base agli &quot;Attributi articolo aggiornati...&quot;. la linea temporale di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
+* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso secondo &quot;Attributi articolo aggiornati...&quot;. la linea temporale di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
 
 Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritmo successivo (entro 12-24 ore):
 
@@ -209,4 +209,19 @@ NO_CONTENT viene restituito quando i consigli non sono disponibili per l’algor
 * Il rendering parziale del modello è disabilitato e non sono disponibili risultati sufficienti per riempire il modello.
 
    Questa situazione si verifica in genere quando si dispone di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare situazioni, abilitare i backup e non applicare la regola di inclusione ai backup, o utilizzare i criteri in sequenza con criteri filtrati in modo meno aggressivo.
+
+## I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore? {#persist-across-devices}
+
+Quando un visitatore avvia una sessione, l’ID della sessione è associato a un singolo computer Edge e su questo computer Edge viene memorizzata una cache di profilo temporanea. Le richieste successive dalla stessa sessione leggono questa cache del profilo, inclusi gli elementi visualizzati di recente.
+
+Al termine della sessione (generalmente, quando scade dopo 30 minuti di nessuna attività), lo stato della sessione, inclusi gli elementi visualizzati di recente, viene quindi mantenuto in un archivio di profilo più permanente nello stesso margine geografico.
+
+Le sessioni successive da diversi dispositivi possono quindi accedere a questi elementi visualizzati di recente, purché la nuova sessione sia collegata al profilo del cliente tramite lo stesso ID Marketing Cloud (MCID), ID Experience Cloud (ECID) o CustomerID/mbox3rdPartyId.
+
+Se un visitatore ha due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo non aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, a meno che i dispositivi non siano costretti a condividere lo stesso ID sessione. Esiste una soluzione potenziale per il problema, ma [!DNL Target] non supporta direttamente la condivisione di un ID sessione su più dispositivi. Il cliente deve gestire autonomamente questa condivisione ID.
+
+Tieni presente che questo comportamento si verifica ancora se un visitatore è attivo su un dispositivo e poi diventa attivo sull’altro dispositivo qualche minuto dopo. La sessione del primo dispositivo non scade per 30 minuti e può trascorrere fino a cinque minuti prima che lo stato del profilo sia scritto nello stato permanente ed elaborato. Consenti 35 minuti per la scadenza della sessione e il profilo da memorizzare durante il test di questo comportamento.
+
+Se il visitatore non dispone di due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, purché la sessione sia terminata. Consenti la scadenza di 35 minuti per la sessione durante il test di questo comportamento.
+
 
