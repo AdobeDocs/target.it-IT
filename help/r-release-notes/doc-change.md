@@ -4,9 +4,9 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 translation-type: tm+mt
-source-git-commit: 695e997ecb0a0acc6d9c20eb2cab3f4647602615
+source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt
-source-wordcount: '3890'
+source-wordcount: '3911'
 ht-degree: 29%
 
 ---
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 29 marzo | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nuove domande frequenti aggiunte:<ul><li>I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore?</li></ul> |
 | 23 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 |  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole perché gli aggiornamenti agli articoli del catalogo si riflettano sul mio sito?</li></ul> |
