@@ -4,10 +4,10 @@ description: Visualizza un elenco di indirizzi IP utilizzati nei server di elabo
 title: Quali indirizzi IP utilizzano i server di elaborazione dei feed Recommendations?
 feature: Consigli
 translation-type: tm+mt
-source-git-commit: 21c87786e9332e06469533488194d971d3cbec1b
+source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt
 source-wordcount: '138'
-ht-degree: 10%
+ht-degree: 7%
 
 ---
 
@@ -16,21 +16,15 @@ ht-degree: 10%
 
 Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Adobe Target] [!DNL Recommendations] per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
 
-[!DNL Target]  Le attività Consigli utilizzano i seguenti indirizzi IP per accedere ai server FTP dei clienti:
+[!DNL Target]  Le attività Consigli utilizzano i seguenti host AWS per accedere ai server FTP dei clienti:
 
-44.241.237.28
+| Posizione | Host |
+| --- | --- |
+| Oregon | `44.241.237.28` |
+| Oregon | `44.232.167.82` |
+| Oregon | `52.41.252.205` |
 
-44.232.167.82
-
-52.41.252.205
-
-[!DNL Target]  Le API di Recommendations utilizzano i seguenti indirizzi IP:
-
-44.241.237.28
-
-44.232.167.82
-
-52.41.252.205
+[!DNL Target]  Le API di Recommendations utilizzano anche gli stessi host AWS.
 
 >[!NOTE]
 >
