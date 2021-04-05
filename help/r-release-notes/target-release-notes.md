@@ -3,14 +3,14 @@ keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramen
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella prossima versione di Adobe Target, inclusi SDK, API e librerie JavaScript.
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Note sulla versione
+exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
 source-wordcount: '437'
 ht-degree: 21%
 
 ---
-
 
 # Note sulla versione di Target (prerelease)
 
@@ -22,7 +22,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: Il 31 marzo 2021 non  [!DNL Adobe Target] supporterà più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
+>**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
 >
 >L’Adobe consiglia a tutti i clienti di eseguire la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
