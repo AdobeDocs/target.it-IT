@@ -3,14 +3,14 @@ keywords: annunci;generatore di competenze;chat sviluppatore;pausa caffè;eventi
 description: Leggi gli annunci e registrati per gli eventi Adobe Target, incluse le sessioni di Skills Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
 title: Dove posso trovare annunci ed eventi di Target?
 feature: Note sulla versione
+exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 801a2717615a1f0ff2ce306cda59f68cc5c4a8f8
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '540'
 ht-degree: 0%
 
 ---
-
 
 # Annunci ed eventi di Target
 
@@ -39,7 +39,7 @@ In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano c
 
 McKinsey Digital riporta che &quot;abbiamo compiuto cinque anni di carriera nell&#39;adozione digitale di consumatori e business in circa otto settimane&quot;. *
 
-Le richieste dei consumatori si stanno evolvendo rapidamente e HSBC ha abbracciato l&#39;ottimizzazione con Adobe Target per testare e personalizzare rapidamente i nuovi percorsi dei clienti, riducendo alcuni sviluppi e lanci da 6 mesi a 1 settimana!
+Le richieste dei consumatori si stanno evolvendo rapidamente e HSBC ha abbracciato l&#39;ottimizzazione con Adobe Target per testare e personalizzare rapidamente nuovi percorsi di clienti, riducendo alcuni sviluppi e lanci da 6 mesi a 1 settimana!
 
 Partecipa ad Adobe e HSBC per questo webinar per scoprire:
 
@@ -51,6 +51,6 @@ Partecipa ad Adobe e HSBC per questo webinar per scoprire:
 
 ## Generatore di competenze Adobe Target: Sviluppatore chat, migrazione di Adobe Target mbox.js in at.js {#skill-builder}
 
-Con l’imminente rimozione di mbox.js il 31 marzo 2021, David Son, Adobe Target Product Manager ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
+Con mbox.js dichiarato obsoleto il 31 marzo 2021, David Son, Adobe Target Product Manager, ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
 
 * **[Visualizza la registrazione del webinar qui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
