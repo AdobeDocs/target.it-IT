@@ -1,17 +1,17 @@
 ---
 keywords: impostazioni avanzate di mbox.js;client;dominio server;xdomain;livello di compressione;supporto id sessione client;secureOnly;supporto id pc client;passare una pagina;URL di riferimento;livello di traffico;durata del traffico;funzione mboxParameters();funzione mboxSupported();funzione mboxCookieDomain();JavaScript extra;plug-in SiteCatalyst;mbox.js come JavaScript autoestraente;visualizzazione momentanea di altri contenuti;nascondere il corpo;corpo nascosto
-description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
-title: Come posso configurare la libreria mbox.js di Target?
+description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
+title: Come si configura la libreria mbox.js di Target?
 feature: at.js
-role: Developer
+role: Sviluppatori
+exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '472'
-ht-degree: 70%
+source-wordcount: '474'
+ht-degree: 71%
 
 ---
-
 
 # Configurare mbox.js
 
@@ -19,9 +19,9 @@ Informazioni utili per scegliere diverse impostazioni nella pagina Impostazioni 
 
 >[!IMPORTANT]
 >
->**fine ciclo di vita** di mbox.js: Il 31 marzo 2021 non  [!DNL Adobe Target] supporterà più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività [!DNL Target] in esecuzione distribuendo contenuti predefiniti.
+>**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
 >
->È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, vedere [Panoramica: implementate Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 Le impostazioni predefinite della libreria di funzioni [!DNL mbox.js] rispondono alle esigenze della maggior parte degli utenti di [!DNL Target].
 
@@ -33,13 +33,13 @@ Sono disponibili le seguenti opzioni:
 
 Il codice cliente del tuo account.
 
-Quando si visualizza [!UICONTROL Amministrazione > Implementazione], il client nella parte superiore è il codice client per l&#39;account.
+In [!UICONTROL Amministrazione > Implementazione], il codice cliente del tuo account è riportato in alto.
 
 ## Timeout
 
 Timeout della richiesta di Target.
 
-Quando si visualizza [!UICONTROL Amministrazione > Implementazione], l&#39;impostazione Timeout (secondi) corrisponde al timeout della richiesta Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
+Quando visualizzi [!UICONTROL Amministrazione > Implementazione], l&#39;impostazione Timeout (secondi) corrisponde al timeout della richiesta di Target. Per impostazione predefinita questo valore è impostato su 15 secondi, ma si consiglia di impostarlo su un valore compreso tra 2 e 5 secondi.
 
 ## XDomain
 
