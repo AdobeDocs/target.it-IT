@@ -1,17 +1,17 @@
 ---
 keywords: conferma d’ordine;orderConfirmPage
-description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
-title: Come si crea una mbox di conferma dell'ordine utilizzando mbox.js?
+description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
+title: Come si crea una mbox di conferma d'ordine utilizzando mbox.js?
 feature: at.js
-role: Developer
+role: Sviluppatori
+exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 58%
+source-wordcount: '376'
+ht-degree: 59%
 
 ---
-
 
 # Creare una mbox di conferma d&#39;ordine - mbox.js
 
@@ -19,19 +19,19 @@ Con la mbox di conferma dell’ordine è possibile registrare i dettagli sugli o
 
 >[!IMPORTANT]
 >
->**fine ciclo di vita** di mbox.js: Il 31 marzo 2021 non  [!DNL Adobe Target] supporterà più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno attività [!DNL Target] in esecuzione distribuendo contenuti predefiniti.
+>**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
 >
->È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, vedere [Panoramica: implementate Target per Web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 >[!NOTE]
 >
 >* Se gli utenti effettuano acquisti sul tuo sito web, ti consigliamo di implementare una mbox di conferma d’ordine anche se per generare rapporti usi Analytics for Target (A4T).
    >
    >
-* Potete anche creare una mbox di conferma dell&#39;ordine per at.js 1.** usando lo stesso metodo; tuttavia, il  [!DNL at.js] metodo è preferibile. Per ulteriori informazioni, consulta [Tracciare le conversioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
+* Puoi anche creare una mbox di conferma d’ordine per at.js 1.** utilizzando lo stesso metodo; tuttavia, il  [!DNL at.js] metodo è preferito. Per ulteriori informazioni, consulta [Tracciare le conversioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053).
    >
    >
-* Se utilizzi at.js 2.*x*, non  `mboxCreate` è più supportato. Per la conferma dell&#39;ordine utilizzando at.js 2.*x*, usa le seguenti API relative al tracciamento:  [trackEvent() ](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) e  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
+* Se utilizzi at.js 2.*x*, non  `mboxCreate` è più supportato. Per la conferma dell’ordine utilizzando at.js 2.*x*, utilizza le seguenti API relative al tracciamento:  [trackEvent()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-trackevent.md) e  [sendNotifications()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe.target.sendnotifications-atjs-21.md).
 
 
 1. Nella pagina dei dettagli dell’ordine, inserisci lo script mbox secondo il modello indicato di seguito.
