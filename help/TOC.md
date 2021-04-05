@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 2a06eccf27ce214a9d43bced25b15afbc291d814
+source-git-commit: bbcfb1e64bbf4bd2b2b1af7c6b0835828bf1b293
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1578'
 ht-degree: 89%
 
 ---
@@ -30,10 +30,10 @@ ht-degree: 89%
    + [Accedere a Target da Adobe Experience Cloud](c-intro/target-access-from-mac.md)
    + [Concetti chiave di Target](c-intro/target-key-concepts.md)
    + [Comprendere l’interfaccia utente di Target](/help/c-intro/understand-the-target-ui.md)
-   + Kit di benvenuto di Adobe Target {#welcome}
-      + [Panoramica del kit di benvenuto di Adobe Target](/help/c-intro/target-welcome-kit.md)
+   + Kit di benvenuto Adobe Target {#welcome}
+      + [Panoramica del kit di benvenuto Adobe Target](/help/c-intro/target-welcome-kit.md)
       + [Capitolo 1: Introduzione](/help/c-intro/target-welcome-kit-1.md)
-      + [Capitolo 2: Panoramica di Adobe Target](/help/c-intro/target-welcome-kit-2.md)
+      + [Capitolo 2: Adobe Target a colpo d&#39;occhio](/help/c-intro/target-welcome-kit-2.md)
       + [Capitolo 3: Sviluppa i test e le idee di personalizzazione](/help/c-intro/target-welcome-kit-3.md)
       + [Capitolo 4: Suggerimenti per l’utilizzo di Target](/help/c-intro/target-welcome-kit-4.md)
       + [Capitolo 5: Ispirazione per attività di test e personalizzazione](/help/c-intro/target-welcome-kit-5.md)
@@ -53,7 +53,7 @@ ht-degree: 89%
    + Generazione di rapporti {#reporting}
       + [Configurare la generazione di rapporti](/help/administrating-target/reporting.md)
       + [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md)
-   + [Configurazione di Scene7](administrating-target/scene7-settings.md)
+   + [Configurazione Scene7](administrating-target/scene7-settings.md)
    + [Implementazione](/help/administrating-target/implementation.md)
    + [Host](administrating-target/hosts.md)
    + [Ambienti](/help/administrating-target/environments.md)
@@ -79,7 +79,7 @@ ht-degree: 89%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Nodi edge di Target consentiti](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
@@ -89,7 +89,7 @@ ht-degree: 89%
       + [CNAME e Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web lato client: implementare Target {#client-side}
       + [Panoramica: implementazione di Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Implementazione dell’SDK per web di Adobe Experience Platform {#aep-implementation}
+      + Implementazione Adobe Experience Platform Web SDK {#aep-implementation}
          + [Panoramica dell’SDK web AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implementazione at.js {#at-js-implementation}
          + Funzionamento di at.js {#at-js}
@@ -311,7 +311,6 @@ ht-degree: 89%
       + [Glossario di profili e variabili](c-target/c-visitor-profile/variables-profiles-parameters-methods.md)
    + Domande frequenti su destinazioni e pubblico {#faq-audiences}
       + [Domande frequenti su destinazioni e pubblico](c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md)
-      + [Condividere metriche, pubblico e rapporti - Domande frequenti su A4T](c-target/c-troubleshooting-targets-and-audiences/a4t-faq-sharing-metrics-audiences-reports.md)
 + Esperienze e offerte {#experiences}
    + [Panoramica su esperienze e offerte](c-experiences/experiences.md)
    + Compositore esperienza visivo  {#vec}
@@ -395,7 +394,7 @@ ht-degree: 89%
          + [Filtro statico](/help/c-recommendations/c-algorithms/static-value.md)
       + [Utilizzare un consiglio di backup](c-recommendations/c-algorithms/backup-recs.md)
       + [Utilizzo di attributi con più valori](/help/c-recommendations/c-algorithms/work-with-multi-value-attributes.md)
-      + [Utilizzare Adobe Analytics con la funzione Consigli](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
+      + [Utilizzare Adobe Analytics con Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md)
    + Progettazione {#recommendations-design}
       + [Panoramica della progettazione](c-recommendations/c-design-overview/design-overview.md)
       + [Creare una progettazione](c-recommendations/c-design-overview/create-design.md)
