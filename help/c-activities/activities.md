@@ -1,20 +1,20 @@
 ---
-keywords: elenco delle attività;attività;attività;tipi di attività;attività di modifica;attività;attività;attività attributo;attività list filter;activity limits;personalizzazione;personalizzazione
-description: Scoprite come le attività in  Adobe Target consentono di personalizzare il contenuto per audience specifiche e di testare le progettazioni di pagina
-title: Come posso personalizzare le progettazioni di pagine di contenuti e test con Target?
-feature: Activities
+keywords: elenco attività;attività;tipi di attività;modificare attività;azioni attività;attributo attività;filtro elenco attività;limitazioni attività;personalizzazione;personalizzazione
+description: Scopri come le attività in Adobe Target consentono di personalizzare i contenuti per tipi di pubblico specifici e di testare le progettazioni di pagine
+title: Come posso personalizzare i contenuti e testare le progettazioni di pagine con Target?
+feature: Attività
+exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
 workflow-type: tm+mt
-source-wordcount: '2109'
+source-wordcount: '2103'
 ht-degree: 96%
 
 ---
 
-
 # Attività
 
-Le attività in [!DNL Adobe Target] consentono di personalizzare il contenuto per audience specifiche e di sottoporre a test le progettazioni delle pagine.
+Le attività in [!DNL Adobe Target] ti consentono di personalizzare il contenuto per tipi di pubblico specifici e di testare le progettazioni di pagine.
 
 Ad esempio, puoi progettare un’attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un’altra con abbigliamento estivo generico. L&#39;attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L&#39;attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni, ad esempio tra date specifiche, o per iniziare quando l&#39;attività viene approvata e per terminare quando viene disattivata.
 
@@ -69,7 +69,7 @@ Sono disponibili le seguenti azioni (a seconda delle autorizzazioni):
 | Attiva | Avvia un&#39;attività inattiva o pronta. |
 | Archivia | Invia l&#39;attività all&#39;archivio. Per impostazione predefinita, le attività archiviate non vengono più visualizzate nell&#39;elenco Attività. Per includere nell’elenco anche le attività archiviate, devi cambiare il filtro per l&#39;elenco delle attività. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.<br>Se disattivi o archivi un’attività e poi la riattivi in un secondo momento, un visitatore continuerà a esserne parte dopo la riattivazione se vi partecipava prima che fosse disattivata o archiviata. Ogni metrica di conversione registrata durante il periodo trascorso tra i due eventi non verrà attribuita a quell’attività. |
 | Copia | Copia un&#39;attività. Qualsiasi attività può essere copiata. Quando si copia un&#39;attività viene creata una nuova attività con lo stesso nome e la dicitura “Copia”. Ad esempio, la copia di un test denominato “Offerte browser” sarà denominata “Copia Offerte browser”.<br>Le offerte visive vengono copiate con l&#39;attività. È possibile modificare in modo sicuro le offerte nella copia senza influire sull&#39;attività originale. L&#39;unica eccezione sono le offerte e le immagini salvate nella cartella Contenuto/Risorse. |
-| Elimina | Elimina una bozza o un’attività.<BR>**NOTA**: le attività eliminate non possono essere recuperate. A meno di non essere assolutamente sicuro che questa attività non sarà mai più necessaria, utilizza piuttosto l’azione [!UICONTROL Archivia] in modo da poterla riattivare all’occorrenza. |
+| Elimina | Elimina una bozza o un’attività.<BR>**NOTA**: le attività eliminate non possono essere recuperate. A meno di non essere assolutamente sicuro che questa attività non sarà mai più necessaria, utilizza piuttosto l’azione [!UICONTROL Archivia] Puoi quindi riattivare l’attività, se necessario. |
 
 Ricorda i seguenti dettagli sull&#39;elenco delle attività:
 
@@ -111,7 +111,7 @@ Il campo di ricerca include un menu a discesa che consente di restringere la ric
 | Origine per i rapporti | Target<br>Analytics |
 | Compositore esperienza | Visivo<br>Basato su modulo |
 | Tipo di metrica | Conversione<br>Revenue<br>Engagement |
-| Origine attività |  Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
+| Origine attività | Adobe Target<br>Adobe Target Classic<br>Adobe Experience Manager<br>Adobe Mobile Services |
 
 ### Ordina per attributo attività
 
@@ -170,7 +170,7 @@ Questo processo di importazione verrà eseguito quando verrà aperta la pagina a
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03) ![Logo Panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03) ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -180,7 +180,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Gestione delle attività (5:55) ![Logo Panoramica](/help/assets/overview.png)
+### Gestione delle attività (5:55) ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare l&#39;elenco Attività per gestire le attività.
 
