@@ -1,36 +1,36 @@
 ---
-keywords: Panoramica e riferimento;attività
-description: Scopri le basi di  Adobe Target. Questo è un buon punto in cui acquisire familiarità con Target, i suoi tipi di attività e altre funzioni.
+keywords: Panoramica e riferimento;tipi di attività;introduzione
+description: Scopri le nozioni di base di Adobe Target. Questo articolo ti introduce a Target, ai suoi tipi di attività e ad altre funzioni.
 title: Come si utilizza Target?
-feature: Overview
+feature: Panoramica
+exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
-source-wordcount: '1525'
-ht-degree: 96%
+source-wordcount: '1528'
+ht-degree: 83%
 
 ---
 
+# Concetti chiave di Target
 
-# Concetti chiave di Target{#target-key-concepts}
-
-Informazioni sui concetti chiave che ti aiuteranno a comprendere le funzionalità di Adobe Target.
+Informazioni sui concetti chiave che consentono di comprendere le funzioni e le funzionalità di [!DNL Adobe Target].
 
 ## Attività e test {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Un’attività determina le esperienze potenziali di un visitatore del sito.
 
-Ad esempio, puoi progettare un&#39;attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un&#39;altra con in evidenza abbigliamento estivo generico. L&#39;attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L&#39;attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni, ad esempio tra date specifiche, o per iniziare quando l&#39;attività viene approvata e per terminare quando viene disattivata.
+Ad esempio, puoi progettare un&#39;attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un&#39;altra con in evidenza abbigliamento estivo generico. L&#39;attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L’attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni. Queste condizioni possono includere l’avvio e la fine dell’attività tra date specifiche o l’inizio quando l’attività viene approvata e la fine quando viene disattivata.
 
-Pianifica con attenzione durante la progettazione di una attività. Determina quando inizierà l&#39;attività e quanto tempo durerà. Quindi, crea un elenco delle offerte e assegna un tipo di pubblico a ciascuna.
+Pianifica con attenzione durante la progettazione di un’attività. Determina quando inizia l&#39;attività e per quanto tempo dura. Quindi, crea un elenco delle offerte e assegna un tipo di pubblico a ciascuna.
 
-Target include diversi tipi di attività. La tabella seguente fornisce una panoramica di ogni tipo di attività con collegamenti per ulteriori informazioni. Per aiutarti a scegliere meglio il tipo di attività migliore, abbiamo anche creato la [Guida alle attività di Adobe Target](/help/c-activities/target-activities-guide.md).
+Target include diversi tipi di attività. La tabella seguente fornisce una panoramica di ogni tipo di attività con collegamenti per ulteriori informazioni. Per aiutarti a scegliere meglio il tipo di attività migliore, il team di Target ha anche creato la [Guida alle attività di Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Tipo di attività | Descrizione |
 |--- |--- |
 | [Test A/B](/help/c-activities/t-test-ab/test-ab.md) | Il test A/B confronta due o più versioni del contenuto del sito web per vedere quale versione migliora maggiormente le conversioni durante un dato periodo di test.<br>**Nota:** ora puoi includere i [consigli nelle attività di test A/B](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
 | [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | L’allocazione automatica identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.<br>**Nota:** ora puoi includere i [consigli nelle attività di allocazione automatica](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
-| [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting automatico](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
+| [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md)<br>![Target Premium](/help/assets/premium.png) | La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per identificare più esperienze ad alte prestazioni definite dall’addetto al marketing. Le attività di Targeting automatico forniscono a ogni visitatore l’esperienza più personalizzata in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare i contenuti e favorire le conversioni.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting automatico](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
 | [Utilizzo dei dati di Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puoi configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per i rapporti. Questo tipo di attività richiede di collegare il tuo account [!DNL Adobe Experience Cloud] sia con [!DNL Analytics] sia con [!DNL Target]. |
 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività. |
 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting delle esperienze](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
@@ -50,11 +50,11 @@ In [!DNL Target Standard], una posizione può essere un qualsiasi elemento in un
 
 Le posizioni vengono combinate con i tipi di pubblico per fornire un numero praticamente infinito di opzioni per indirizzare le informazioni ai clienti. Ad esempio, se un visitatore non è mai stato prima sul tuo sito, puoi presentargli un buono sconto speciale per i nuovi clienti. Allo stesso modo, la pagina potrebbe essere modificata con offerte ottimizzate per i clienti che ritornano.
 
-Inoltre è possibile utilizzare le posizioni per monitorare i movimenti di un visitatore all’interno del sito web o il completamento di specifiche metriche di successo, ad esempio l’aggiunta di un articolo al carrello o un acquisto.
+È inoltre possibile utilizzare le posizioni per monitorare l&#39;avanzamento di un visitatore all&#39;interno del sito Web. Puoi anche utilizzare le posizioni per monitorare se il visitatore completa una metrica di successo specifica, ad esempio l’aggiunta di un articolo al carrello o il completamento di un acquisto.
 
 ## Esperienze e progettazioni di pagine {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Un’esperienza, a volte detta ricetta, definisce il contenuto visualizzato sulla pagina, così come altri elementi della pagina stessa, ad esempio i collegamenti.
+Un’esperienza, a volte detta ricetta, definisce il contenuto visualizzato sulla pagina e altri elementi della pagina, come i collegamenti.
 
 Un’esperienza determina quale offerta visualizzare in una determinata posizione quando sono soddisfatte specifiche condizioni di targeting. Ad esempio, per i visitatori che ritornano al sito, l’esperienza fa sì che nella parte superiore della pagina venga presentata un’offerta di spedizione rapida. Se invece si tratta della prima visita di un visitatore, l’esperienza fa sì che nella stessa posizione venga presentato uno sconto del 10%.
 
@@ -100,7 +100,7 @@ I tipi di pubblico possono essere salvati e riutilizzati in più attività, oppu
 |--- |--- |
 | Pubblico riutilizzabile | I tipi di pubblico riutilizzabili possono essere selezionati per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
-| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Vedere [Audiences](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) per gli esempi. |
+| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Per esempi, consulta [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) . |
 
 Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Per informazioni su come il profilo visitatore tiene traccia delle informazioni 
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03)  ![badge Panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03)  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilizzo dell&#39;audience in  Adobe Target (6:21) ![Logo Panoramica](/help/assets/overview.png)
+### Utilizzo del pubblico in Adobe Target (6:21) ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
