@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: eed38aac559016fb96cb9030e8880c04af98bbb7
+source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
 workflow-type: tm+mt
-source-wordcount: '1579'
+source-wordcount: '1582'
 ht-degree: 80%
 
 ---
@@ -81,7 +81,8 @@ ht-degree: 80%
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
          + [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
-         + [Metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Panoramica dei metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
+         + [Parametri di pagina](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Panoramica sulla sicurezza di Target](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Browser supportati](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
