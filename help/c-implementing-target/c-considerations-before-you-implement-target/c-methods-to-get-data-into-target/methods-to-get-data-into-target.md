@@ -6,10 +6,10 @@ feature: Implementazione
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
-source-wordcount: '1864'
-ht-degree: 93%
+source-wordcount: '1082'
+ht-degree: 89%
 
 ---
 
@@ -22,154 +22,18 @@ I metodi disponibili includono:
 | Metodo | Dettagli |
 | --- | --- |
 | [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)<br>Parametri di pagina (detti anche “parametri mbox”) | I parametri di pagina sono coppie di nome e valore passate direttamente tramite codice di pagina che non sono memorizzati nel profilo del visitatore per un utilizzo futuro.<br>I parametri di pagina sono utili per inviare ulteriori dati di pagina alla destinazione che non devono essere memorizzati con il profilo del visitatore per un futuro targeting. Questi valori vengono invece utilizzati per descrivere la pagina o l&#39;azione che l&#39;utente ha assunto nella pagina specifica. |
-| Attributi di profilo nella pagina (detti anche “attributi di profilo nella mbox”) | Gli attributi di profilo nella pagina sono coppie di nome e valore passate direttamente tramite il codice della pagina archiviato nel profilo del visitatore per un utilizzo futuro.<br>Gli attributi di profilo nella pagina consentono l&#39;archiviazione dei dati specifici dell&#39;utente nel profilo di Target per targeting e segmentazione in un secondo momento. |
-| Attributi di profilo script | Gli attributi di profilo script sono coppie di nome e valore definite nella soluzione di Target. Il valore è determinato dall&#39;esecuzione di un frammento JavaScript sul server di destinazione per ogni chiamata del server.<br>Gli utenti scrivono frammenti di codice di piccole dimensioni che vengono eseguiti per chiamata mbox e prima che un visitatore venga valutato per l&#39;appartenenza al pubblico e all&#39;attività. |
-| Fornitori di dati | Fornitori di dati è una funzionalità che ti consente di trasmettere facilmente dati da terze parti a Target. |
+| [](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)<br>Attributi di profilo nella pagina (detti anche “attributi di profilo nella mbox”) | Gli attributi di profilo nella pagina sono coppie di nome e valore passate direttamente tramite il codice della pagina archiviato nel profilo del visitatore per un utilizzo futuro.<br>Gli attributi di profilo nella pagina consentono l&#39;archiviazione dei dati specifici dell&#39;utente nel profilo di Target per targeting e segmentazione in un secondo momento. |
+| [Attributi di profilo script](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md) | Gli attributi di profilo script sono coppie di nome e valore definite nella soluzione di Target. Il valore è determinato dall&#39;esecuzione di un frammento JavaScript sul server di destinazione per ogni chiamata del server.<br>Gli utenti scrivono frammenti di codice di piccole dimensioni che vengono eseguiti per chiamata mbox e prima che un visitatore venga valutato per l&#39;appartenenza al pubblico e all&#39;attività. |
+| [Fornitori di dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md) | Fornitori di dati è una funzionalità che ti consente di trasmettere facilmente dati da terze parti a Target. |
 | API di aggiornamento del profilo bulk | Tramite l&#39;API, inviare un file .csv a Target con gli aggiornamenti del profilo visitatori per molti visitatori. Ogni profilo visitatore può essere aggiornato con più attributi di profilo nella pagina in una chiamata. |
 | Aggiornamento di singolo profilo API | Quasi identico all&#39;API di aggiornamento del profilo bulk, ma un solo profilo visitatore alla volta viene aggiornato, in linea con la chiamata API anziché con un file .csv. |
 | Attributi del cliente | Gli attributi dei clienti consentono di caricare i dati del profilo visitatori tramite FTP nell&#39;Experience Cloud. Una volta effettuato l&#39;aggiornamento, sfrutta i dati in Adobe Analytics e Adobe Target. |
 
-## Attributi di profilo nella pagina (detti anche “attributi di profilo nella mbox”){#section_57E1C161AA7B444689B40B6F459302B6}
 
-Gli attributi di profilo nella pagina sono coppie di nome e valore passate direttamente tramite il codice della pagina archiviato nel profilo del visitatore per un utilizzo futuro.
 
-Gli attributi di profilo nella pagina consentono l&#39;archiviazione dei dati specifici dell&#39;utente nel profilo di Target per targeting e segmentazione in un secondo momento.
 
-### Formato
 
-Gli attributi di profilo nella pagina vengono passati a Target tramite una chiamata al server come stringa di coppia di nome e valore con il prefisso “profile.” prima del nome dell&#39;attributo.
 
-I nomi e i valori degli attributi sono personalizzabili (sebbene esistano alcuni “nomi riservati” per usi specifici).
-
-Esempi:
-
-* `profile.membershipLevel=silver`
-* `profile.visitCount=3`
-
-### Esempi di casi d&#39;uso
-
-**Informazioni di login**: condividi dati non-PII (personalmente identificabili) con Target in base al login dell’utente. Questo potrebbe essere status di appartenenza, cronologia degli ordini, ecc.
-
-**Informazioni sul negozio**: tracciare quale negozio è la posizione preferita dell’utente.
-
-**Interazioni precedenti**: tenere traccia di ciò che l’utente ha fatto precedentemente sul sito per informare le future personalizzazioni.
-
-### Vantaggi del metodo
-
-I dati vengono inviati a Target in tempo reale e possono essere utilizzati sulla stessa chiamata server su cui entrano i dati.
-
-### Avvertenze
-
-Richiede aggiornamenti del codice della pagina (direttamente o tramite un sistema di gestione dei tag).
-
-Gli attributi e i valori sono visibili nelle chiamate al server, pertanto un visitatore può visualizzare i valori. Se si condividono informazioni quali le gamme di credito o altre informazioni potenzialmente private, questo potrebbe non essere l&#39;approccio migliore.
-
-### Esempi di codice
-
-targetPageParamsAll (aggiunge gli attributi a tutte le chiamate mbox nella pagina):
-
-`function targetPageParamsAll() { return "profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-targetPageParams (aggiunge gli attributi alla mbox globale nella pagina):
-
-`function targetPageParams() { return profile.param1=value1&profile.param2=value2&profile.p3=hello%20world"; }`
-
-Attributi nel codice mboxCreate:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','profile.param1=value1','profile.param2=value2'); </script>`
-
-### Link a informazioni rilevanti
-
-[Attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#concept_01A30B4762D64CD5946B3AA38DC8A201)
-
-[Profilo visitatore](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E)
-
-## Attributi di profilo script {#section_3E27B58C841448C38BDDCFE943984F8D}
-
-Gli attributi di profilo script sono coppie di nome e valore definite nella soluzione di Target. Il valore è determinato dall&#39;esecuzione di un frammento JavaScript sul server di destinazione per ogni chiamata del server.
-
-Gli utenti scrivono frammenti di codice di piccole dimensioni che vengono eseguiti per chiamata mbox e prima che un visitatore venga valutato per l&#39;appartenenza al pubblico e all&#39;attività.
-
-### Formato
-
-Gli attributi di profilo script vengono creati nella sezione Tipi di pubblico di Target. Qualsiasi nome di attributo è valido e il valore è il risultato di una funzione JavaScript scritta dall&#39;utente di Target. Il nome dell&#39;attributo viene automaticamente preceduto da “user. ” in Target per distinguerlo dagli attributi di profilo nella pagina.
-
-Il frammento di codice è scritto nel linguaggio Rhino JS e può fare riferimento a token e altri valori.
-
-### Esempi di casi d&#39;uso
-
-**Abbandono del carrello**: quando il visitatore raggiunge il carrello, imposta lo script del profilo su 1. Quando il visitatore si converte, reimpostarlo a 0. Se il valore è uguale a 1, allora il visitatore ha un elemento nel carrello.
-
-**Conteggio delle visite**: a ogni nuova visita, incrementa il conteggio di 1 per tenere traccia di quanto spesso un visitatore ritorna al sito.
-
-### Vantaggi del metodo
-
-Non richiede aggiornamenti del codice della pagina.
-
-Viene eseguito prima delle decisioni relative all&#39;appartenenza al pubblico e all&#39;attività, pertanto questi attributi di script profilo possono influenzare l&#39;appartenenza a una singola chiamata al server.
-
-Può essere molto robusto. Ben 2000 istruzioni possono essere eseguite per ogni script.
-
-### Avvertenze
-
-Richiede conoscenza di JavaScript.
-
-L&#39;ordine di esecuzione degli script di profilo non può essere garantito, quindi non possono contare l&#39;uno sull&#39;altro.
-
-Il debug può essere difficile da eseguire.
-
-### Esempi di codice
-
-Gli script di profilo sono abbastanza flessibili:
-
-`user.purchase_recency: var dayInMillis = 3600 * 24 * 1000; if (mbox.name == 'orderThankyouPage') {  user.setLocal('lastPurchaseTime', new Date().getTime()); } var lastPurchaseTime = user.getLocal('lastPurchaseTime'); if (lastPurchaseTime) {  return ((new Date()).getTime()-lastPurchaseTime)/dayInMillis; }`
-
-### Link a informazioni rilevanti
-
-[Attributi degli script di profilo](/help/c-target/c-visitor-profile/profile-parameters.md#concept_8C07AEAB0A144FECA8B4FEB091AED4D2)
-
-## Fornitori di dati {#section_14FF3BE20DAA42369E4812D8D50FBDAE}
-
-Fornitori di dati è una funzionalità che ti consente di trasmettere facilmente dati da terze parti a Target.
-
-Nota: Fornitori di dati richiede at.js 1.3 o successive.
-
-### Formato
-
-L&#39;impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
-
-Per ulteriori informazioni sulla struttura di ciascun fornitore di dati, vedi [Fornitori di dati](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Esempi di casi d&#39;uso
-
-Un esempio di terza parte potrebbe essere un servizio meteo, un DMP o persino il tuo servizio web. Puoi utilizzare questi dati per generare tipi di pubblico e contenuti mirati e per arricchire il profilo del visitatore.
-
-### Vantaggi del metodo
-
-Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati terzi, come Demandbase, BlueKai e servizi personalizzati, e di passare i dati a Target come parametri mbox nella richiesta globale di mbox.
-
-Supporta la raccolta di dati da più provider tramite richieste sincrone e asincrone.
-
-L&#39;utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l&#39;impatto sulle prestazioni della pagina.
-
-### Avvertenze
-
-Se i fornitori di dati aggiunti a `window.targetGlobalSettings.dataProviders` sono asincroni, verranno eseguiti in parallelo. La richiesta API dei visitatori verrà eseguita in parallelo con le funzioni aggiunte a `window.targetGlobalSettings.dataProviders` per consentire un tempo minimo di attesa.
-
-at.js non tenterà di memorizzare i dati nella cache. Se il fornitore di dati recupera i dati una sola volta, deve assicurarsi che i dati siano memorizzati nella cache e, quando viene invocata la funzione di fornitore di dati, deve servire i dati della cache per la seconda invocazione.
-
-### Esempi di codice
-
-Diversi esempi sono disponibili in [Fornitori di dati](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
-
-### Link a informazioni rilevanti
-
-Documentazione: [Fornitori di dati](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
-
-### Video di formazione:
-
-* [Utilizzo di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-feature-video-use.html)
-* [Implementazione di Fornitori di dati in Adobe Target](https://helpx.adobe.com/it/target/kt/using/dataProviders-atjs-technical-video-implement.html)
 
 ## API di aggiornamento del profilo bulk {#section_92AB4820A5624C669D9A1F1B6220D4FA}
 
