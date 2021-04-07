@@ -4,8 +4,9 @@ description: Inserire dati in Target utilizzando i parametri di pagina.
 title: Come posso inserire dati in Target utilizzando i parametri di pagina?
 feature: Implementazione
 role: Developer
+exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: d9cfdf397fb4f4d9d1f5632b4fec828edd95444e
 workflow-type: tm+mt
 source-wordcount: '379'
 ht-degree: 45%
@@ -78,4 +79,3 @@ Consigli: [Implementazione in base al tipo di pagina](/help/c-recommendations/pl
 Conferma ordine: [Tracciare le conversioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
 
 Affinità tra categorie: [Affinità tra categorie](/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)
-
