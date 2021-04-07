@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '1590'
+source-wordcount: '1600'
 ht-degree: 80%
 
 ---
@@ -86,6 +86,9 @@ ht-degree: 80%
          + [Attributi di profilo script](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/script-profile-attributes.md)
          + [Attributi di profilo nella pagina](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/in-page-profile-attributes.md)
          + [Fornitori di dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/data-providers.md)
+         + [API di aggiornamento del profilo bulk](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/bulk-profile-update-api.md)
+         + [Aggiornamento di singolo profilo API](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/single-profile-update-api.md)
+         + [Attributi del cliente](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/customer-attributes.md)
          + [Impostazioni API del profilo](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/profile-api-settings.md)
       + [Panoramica sulla sicurezza di Target](c-implementing-target/c-considerations-before-you-implement-target/target-security-overview.md)
       + [Browser supportati](c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md)
