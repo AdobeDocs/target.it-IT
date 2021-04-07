@@ -5,10 +5,10 @@ title: Come posso inserire dati in Target utilizzando i parametri di pagina?
 feature: Implementazione
 role: Developer
 translation-type: tm+mt
-source-git-commit: 5783ef25c48120dc0beee6f88d499a31a0de8bdc
+source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
 workflow-type: tm+mt
 source-wordcount: '379'
-ht-degree: 49%
+ht-degree: 45%
 
 ---
 
@@ -22,13 +22,13 @@ I parametri di pagina sono utili per inviare dati di pagina a Target che non dev
 
 I parametri di pagina vengono passati alla destinazione tramite una chiamata al server come stringa di coppia nome e valore. I nomi dei parametri e i valori sono personalizzabili (anche se ci sono alcuni “nomi riservati” per usi specifici).
 
-### Esempi:
+### Esempi
 
 * `page=productPage`
 
 * `categoryId=homeLoans`
 
-## Esempi di casi d&#39;uso
+## Esempi di casi d’uso
 
 * **Pagine** dei prodotti: Inviare informazioni sul prodotto specifico visualizzato (questo metodo è il funzionamento di Recommendations)
 * **Dettagli** ordine: Invia ID ordine, orderTotal e così via per la raccolta degli ordini
