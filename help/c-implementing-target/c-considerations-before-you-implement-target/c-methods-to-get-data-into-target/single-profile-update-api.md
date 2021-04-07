@@ -1,0 +1,45 @@
+---
+keywords: implementare;implementazione;configurazione;configurazione;aggiornamento profilo singolo
+description: Ottieni i dati in Target utilizzando l’API di aggiornamento del singolo profilo.
+title: Come posso inserire i dati in Target utilizzando l’API di aggiornamento del singolo profilo?
+feature: Implementazione
+role: Developer
+translation-type: tm+mt
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
+workflow-type: tm+mt
+source-wordcount: '195'
+ht-degree: 57%
+
+---
+
+# Aggiornamento di singolo profilo API
+
+Quasi identico all&#39;API di aggiornamento del profilo bulk, ma un solo profilo visitatore alla volta viene aggiornato, in linea con la chiamata API anziché con un file .csv.
+
+## Formato
+
+Il visitatore deve essere identificato tramite il valore mboxPC di Target o il valore mboxThirdPartyId. Experience Cloud ID (ECID) non è supportato.
+
+## Esempi di casi d&#39;uso
+
+Vuoi aggiornare Target in tempo reale quando un visitatore esegue alcune azioni offline. Le azioni possono includere il raggiungimento di un call center, un prestito è finanziato, utilizzando una carta fedeltà in negozio, l&#39;accesso a un chiosco e così via.
+
+## Vantaggi del metodo
+
+Nessun limite al numero di attributi del profilo.
+
+Gli attributi del profilo inviati tramite il sito possono essere aggiornati tramite l&#39;API e viceversa.
+
+## Avvertenze
+
+Limite delle chiamate API di 1 milione per 24 ore
+
+Aggiorna solo i profili. Impossibile creare un profilo per un potenziale utente che Target non ha ancora visto.
+
+## Esempi di codice
+
+GET e POST supportati. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
+
+## Link a informazioni rilevanti
+
+[Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles)
