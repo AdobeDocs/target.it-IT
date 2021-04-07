@@ -1,13 +1,13 @@
 ---
 keywords: implementare;implementazione;configurazione;configurazione;fornitori di dati
-description: Inserire dati in Target utilizzando gli attributi di profilo nella pagina.
+description: Trasferisci i dati in Target utilizzando i provider di dati.
 title: Come posso inserire i dati in Target utilizzando i provider di dati?
 feature: Implementazione
 role: Developer
 translation-type: tm+mt
-source-git-commit: 70d4c5b4166081751246e867d90d43b67efa5469
+source-git-commit: e8c25685341319fea4381386cad1ce0c5b80face
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '301'
 ht-degree: 66%
 
 ---
