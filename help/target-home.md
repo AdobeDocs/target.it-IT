@@ -3,14 +3,14 @@ keywords: Target;home;argomenti popolari;adobe target;standard;premium;documenta
 title: Dove posso trovare la documentazione di Target?
 description: Scopri come utilizzare Adobe Target per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi sui siti web e mobili, le app e altri canali digitali.
 feature: Panoramica
+exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 45%
 
 ---
-
 
 # [!DNL Adobe Target]Guida
 
@@ -18,7 +18,7 @@ ht-degree: 45%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 29 marzo 2021 (  [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 8 aprile 2021 (  [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
