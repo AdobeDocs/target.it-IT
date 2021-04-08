@@ -4,15 +4,15 @@ description: Acquisisci i concetti di base; scopri come Target funziona e si int
 landing-page-description: Prima di iniziare a utilizzare Adobe Target, è necessario implementarlo sul sito, comprendere alcuni concetti e termini di base e acquisire familiarità con il suo funzionamento.
 title: Come Implemento Target?
 feature: Implementazione
-role: Sviluppatori
+role: Developer
+exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
 translation-type: tm+mt
-source-git-commit: 12cc95aca08621a52d5ab99d5ebcc23962caccb5
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '236'
 ht-degree: 27%
 
 ---
-
 
 # Implementare Target
 
