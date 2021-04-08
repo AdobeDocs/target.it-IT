@@ -5,9 +5,9 @@ title: Quanto traffico è necessario per un'attività di successo?
 feature: Personalizzazione automatizzata
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
+source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
 workflow-type: tm+mt
-source-wordcount: '752'
+source-wordcount: '753'
 ht-degree: 14%
 
 ---
@@ -65,7 +65,7 @@ Ricorda che [!DNL Target] fornisce le esperienze in modo casuale fino a quando n
 
 Quando lavori con [!UICONTROL Calcolatore del traffico], considera le seguenti domande frequenti:
 
-### Perché [!DNL Target] non crea modelli personalizzati quando la mia attività di Personalizzazione automatizzata ha abbastanza traffico?
+### Perché i modelli personalizzati non vengono generati anche se la mia attività di Personalizzazione automatizzata ha abbastanza traffico?
 
 In alcune circostanze, il traffico è sufficientemente ampio da consentire la creazione di un modello personalizzato, ma tale traffico potrebbe informare [!DNL Target] che non esiste alcuna differenza significativa tra il modello personalizzato e quello casuale. Anche se il modello è costruito in [!DNL Target] e testato, non viene distribuito perché il modello non è migliore di casuale.
 
