@@ -5,9 +5,9 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '3926'
+source-wordcount: '3938'
 ht-degree: 29%
 
 ---
@@ -21,6 +21,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Aprile 9 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nuove informazioni sulla versione prerelease per Target Standard/Premium 21.4.1 (19 aprile 2021) |
+|  | [Integrare i Consigli con l’e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md#capacity) | È stata aggiunta la seguente sezione: &quot;Linee guida sulla capacità per le opzioni 1 e 2.&quot; |
 | 29 marzo | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nuove domande frequenti aggiunte:<ul><li>I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore?</li></ul> |
 | 23 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
