@@ -4,14 +4,14 @@ description: Apprendi le basi di Adobe Target Standard e Adobe Target Premium. T
 landing-page-description: Personalizza l’esperienza dei clienti per massimizzare le entrate tramite siti web, app mobili, social media e altri canali digitali.
 title: Cos’è Target?
 feature: Panoramica
+exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
 translation-type: tm+mt
-source-git-commit: 345b0f805ef65364b891f6754f4aaf78c163f334
+source-git-commit: cb21fd3183900502db4e2a5b73924e2f9ebf8d97
 workflow-type: tm+mt
 source-wordcount: '947'
 ht-degree: 43%
 
 ---
-
 
 # Introduzione a Target
 
