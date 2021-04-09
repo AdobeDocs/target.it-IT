@@ -5,10 +5,10 @@ title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Note sulla versione
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 60c3dfe28f3618113d4d03da538e4d0e4ac2feb8
+source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 21%
+source-wordcount: '394'
+ht-degree: 24%
 
 ---
 
@@ -16,35 +16,42 @@ ht-degree: 21%
 
 Questo articolo contiene informazioni prerelease. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 1 marzo 2021**
+**Ultimo aggiornamento: 9 aprile 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere le stesse, a seconda della data di rilascio delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
+>**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js hanno esito negativo e hanno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
 >
->Esegui la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di questa data per evitare potenziali problemi con i tuoi siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## Target Standard/Premium 21.2.1 (9 marzo 2021)
+## Target Standard/Premium 21.4.1 (19 aprile 2021)
 
-Questa versione di manutenzione contiene i miglioramenti, le correzioni e le modifiche seguenti.
+Questa versione contiene le seguenti nuove funzioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-I codici tra parentesi sono per uso interno di [!DNL Adobe].
+| Funzione | Dettagli |
+| --- | --- |
+| Supporto delle decisioni su dispositivi per at.js | Le decisioni sul dispositivo consentono agli addetti al marketing e agli sviluppatori di distribuire esperimenti e personalizzazioni sul browser di un utente con latenza vicina allo zero. |
 
-* È stata aumentata la dimensione dell’offerta consentita (TGT-38304):
+Questa versione contiene i miglioramenti, le correzioni e le modifiche seguenti.
 
-   | Tipo | Limite precedente | Nuovo limite |
-   | --- | --- | --- |
-   | HTML | 256 KB | 1024 KB |
-   | Offerte visive dall’interfaccia utente di Target | 64 KB | 1024 KB per ogni esperienza |
-   | Tramite API | 512 KB | 1024 KB |
+* È stato risolto un problema che impediva la sincronizzazione di un&#39;attività dopo la modifica del pubblico in [!UICONTROL Tutti i visitatori]. (TGT-40259)
+* È stato risolto un problema che impediva la duplicazione delle offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l&#39;opzione [!UICONTROL Non consentire duplicati] è abilitata. (TGT-39567)
+* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Amministrazione] > [!UICONTROL Configurazione Scene7] . (TGT-39918)
+* È stato risolto un problema che causava il mapping delle proprietà all&#39;area di lavoro errata. (TGT-39869)
+* [!DNL Target Recommendations] supporta nuovi operatori basati su elenco per le regole di filtro entità. (TGT-39234)
 
-* [!UICONTROL I rapporti ] Approfondimenti personalizzazione per le attività di  [!UICONTROL Targeting automatico]  (AT) e  [!UICONTROL Automated Personalization]  (AP) ora vengono prodotti su base giornaliera. Puoi scegliere un rapporto che fornisce [!UICONTROL Segmenti automatizzati] o [!UICONTROL Attributi importanti] per gli ultimi 15, 30 e 60 giorni. Le opzioni di 45 e 90 giorni sono state rimosse per consentire l’esecuzione giornaliera delle altre impostazioni dell’intervallo di lookback. (TGT-39472)
-* È stato risolto un problema che impediva la visualizzazione della dipendenza corrente quando i clienti fanno clic su [!UICONTROL Modifica dipendenza] nella pagina [!UICONTROL Obiettivi e impostazioni] di un&#39;attività. (TGT-39340)
-* È stato risolto un problema che si verificava durante l&#39;aggiornamento della [!UICONTROL Libreria pubblico] di un&#39;area di lavoro. Prima dell’aggiornamento, vengono visualizzati i tipi di pubblico per l’area di lavoro attualmente selezionata. Dopo l&#39;aggiornamento, vengono visualizzati il [!UICONTROL Area di lavoro predefinita] e i relativi tipi di pubblico. L’area di lavoro corrente e i relativi tipi di pubblico ora persistono dopo l’aggiornamento. (TGT-38871)
-* È stato risolto un problema che si verificava durante la copia di un&#39;attività [!UICONTROL Recommendations] e in seguito durante la modifica dell&#39;attività originale modificando la sequenza di criteri. La modifica nella sequenza di criteri nell’attività originale è stata applicata in modo errato anche all’attività copiata. (TGT-39155)
-* È stato risolto un problema che causava la visualizzazione di un numero errato di prodotti per le esclusioni [!UICONTROL Recommendations]. (TGT-39599)
+   Gli operatori appena aggiunti includono:
+
+   * È Contenuto Nell’Elenco
+   * Non è contenuto nell’elenco
+   * Elenco Contiene Un Elemento In
+   * L&#39;Elenco Non Contiene Un Elemento In
+   * Elenco Contiene Tutti Gli Elementi In
+   * Elenco Non Contiene Tutti Gli Elementi
+
+* È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione consigli. (TGT-39948)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
