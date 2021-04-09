@@ -1,18 +1,18 @@
 ---
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
-description: Scoprite come integrare le e-mail con  Adobe Target Recommendations, utilizzando tra l'altro l'API Target Delivery, i modelli rawbox e i modelli solo per il download.
-title: Come posso integrare Recommendations con l'e-mail?
-feature: Recommendations
+description: Scopri come integrare le e-mail con Adobe Target Recommendations, incluso l’utilizzo dell’API di distribuzione di Target, dei modelli rawbox e dei modelli solo per il download.
+title: Come posso integrare Recommendations con l’e-mail?
+feature: Consigli
+exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
 workflow-type: tm+mt
-source-wordcount: '1490'
-ht-degree: 90%
+source-wordcount: '1548'
+ht-degree: 86%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Integrare Consigli con l’e-mail{#integrate-recommendations-with-email}
+# ![PREMIUM](/help/assets/premium.png) Integrare Consigli con l’e-mail
 
 Informazioni su come integrare le e-mail con i Consigli.
 
@@ -59,13 +59,13 @@ Dove `clientcode` è il codice del client Target.
 
 Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Opzione 2: Utilizzare un modello di e-mail rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
+## Opzione 2: Utilizzare un modello e-mail rawbox {#section_C0D48A42BCCE45D6A68852F722C7C352}
 
 Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Poiché non disponi di [!DNL mbox.js] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
 
 >[!NOTE]
 >
->Quando utilizzate una rawbox e [!DNL Target], vedete l&#39;importante avviso di sicurezza in [Creare inserire nell&#39;elenco Consentiti  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist).
+>Quando utilizzi una rawbox e [!DNL Target], consulta l’importante avviso di sicurezza in [Creare inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist).
 
 Questo approccio ti consente di monitorare le prestazioni dei consigli nelle e-mail, sottoporli normalmente a test con un consiglio e continuare il monitoraggio sul sito.
 
@@ -110,7 +110,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se viene passato `entity.id`, è consigliabile passare anche questo parametro per impedire che la richiesta incrementi il numero di visualizzazioni di pagina conteggiate per un elemento, in modo da non alterare gli algoritmi basati sulla visualizzazione del prodotto. |  |
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> **Best practice** di protezione: Se il dominio utilizzato nell’ `mboxDefault` URL non è inserito nell&#39;elenco Consentiti, potete rischiare di avere una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector o di `mboxDefault` da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, vedere [Creare Inserire nell&#39;elenco Consentiti  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*. |  |
+| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un&#39;immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica dovrà gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell&#39;e-mail. <br> **Best practice** sulla sicurezza: Tieni presente che se il dominio utilizzato nell’ `mboxDefault` URL non viene inserito nell&#39;elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da parte di terze parti, ti consigliamo di utilizzare &quot;host autorizzati&quot; per inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare Inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*. |  |
 | `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
 | `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun “thirdPartyId”, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe rallentare o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
@@ -132,6 +132,15 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non viene specificato quando non esiste alcuna corrispondenza per la richiesta e il parametro `mboxNoRedirect` non è specificato. |
 | `Invalid mbox name:= MBOX_NAME` | Indica che il parametro `mbox` contiene caratteri non validi. |
 | `Mbox name [MBOX_NAME] is too long` | Indica che il parametro `mbox` è più lungo di 250 caratteri. |
+
+## Linee guida per la capacità delle opzioni 1 e 2 {#capacity}
+
+Le seguenti linee guida sulla capacità si applicano alle opzioni dell’API di consegna e del modello e-mail rawbox:
+
+* Le richieste devono essere limitate al numero inferiore di 1.000 richieste al secondo o 25 volte il traffico giornaliero di picco
+* Traffico a gradini di 200 richieste al secondo al minuto
+
+Contatta il tuo account manager se desideri utilizzare limiti di tariffa più elevati.
 
 ## Opzione 3: utilizzare il modello di solo download {#section_518C279AF0094BE780F4EA40A832A164}
 
