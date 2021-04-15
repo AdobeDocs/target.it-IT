@@ -1,25 +1,23 @@
 ---
 keywords: regole di inclusione;criteri di inclusione;consigli;creazione di nuovi criteri;promozione;promozioni;filtro dinamico;dinamico;valori vuoti;ignorare regola di filtro;filtro statico;filtro per valore;corrispondenza attributo entità;corrispondenza attributo profilo;parametro corrispondente;filtro per valore;filtro statico
-description: Scopri come creare regole di inclusione in Adobe Target Recommendations per criteri e promozioni. Aggiungi ulteriori regole di filtro dinamiche o statiche per ottenere risultati migliori.
+description: Scopri come creare regole di inclusione in Adobe Target Recommendations per criteri e promozioni. Per ottenere risultati migliori, aggiungi regole di filtro più dinamiche o statiche.
 title: Come si utilizzano regole di inclusione dinamiche e statiche in Recommendations?
 feature: Consigli
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1100'
-ht-degree: 41%
+source-wordcount: '1841'
+ht-degree: 19%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Utilizzare regole di inclusione dinamiche e statiche{#use-dynamic-and-static-inclusion-rules}
+# ![PREMIUM](/help/assets/premium.png) Utilizzare regole di inclusione dinamiche e statiche
 
-Informazioni sulla creazione di regole di inclusione per criteri e promozioni in [!DNL Adobe Target] e sull’aggiunta di regole di filtro dinamiche o statiche aggiuntive per ottenere risultati migliori per i consigli.
+Informazioni su come creare regole di inclusione per criteri e promozioni in [!DNL Adobe Target] e come aggiungere regole di filtro dinamiche o statiche per ottenere risultati migliori per i consigli.
 
->[!NOTE]
->
->Le regole di inclusione per i criteri e le promozioni possono essere create e utilizzate con processi simili, così come sono simili i rispettivi casi ed esempi di utilizzo. In questa sezione sono trattati sia i criteri e le promozioni che l’uso delle regole di inclusione.
+Le regole di inclusione per i criteri e le promozioni possono essere create e utilizzate con processi simili, così come sono simili i rispettivi casi ed esempi di utilizzo. In questa sezione sono trattati sia i criteri e le promozioni che l’uso delle regole di inclusione.
 
 ## Aggiunta di regole di filtro ai criteri {#section_CD0D74B8D3BE4A75A78C36CF24A8C57F}
 
@@ -45,7 +43,7 @@ Le regole di inclusione dinamica sono più potenti delle regole di inclusione st
 
 * Le regole di inclusione dinamiche distribuiscono i consigli confrontando un attributo nel parametro di profilo di un utente o in una chiamata mbox.
 
-   Ad esempio, potete creare un consiglio &quot;Criteri più popolari&quot; e quindi del set di consigli restituiti, quindi filtrare eventuali consigli (in tempo reale) in base a un attributo trasmesso quando l’utente accede a una pagina in cui vengono visualizzati i consigli.
+   Ad esempio, puoi creare un consiglio &quot;Criteri più popolari&quot;. Dal set di consigli restituiti, potete filtrare eventuali consigli (in tempo reale) in base a un attributo passato quando l’utente accede a una pagina in cui vengono visualizzati i consigli.
 
 * Utilizza le regole statiche per limitare gli elementi inclusi nel consiglio (invece di utilizzare le raccolte).
 
@@ -67,17 +65,29 @@ Per il filtro dinamico sono disponibili le seguenti opzioni:
 | --- | --- |
 | [Filtro statico](/help/c-recommendations/c-algorithms/static-value.md) | Immettere manualmente uno o più valori statici da filtrare. |
 
-## Criteri dinamici ed esempi di promozione
+## Operatori disponibili {#operators}
 
 I criteri e le promozioni dinamici sono molto più potenti dei criteri e delle promozioni statici e producono risultati e un coinvolgimento migliori.
 
-Gli esempi seguenti forniscono idee generali su come utilizzare le promozioni dinamiche nelle attività di marketing:
+Gli esempi seguenti forniscono idee generali su come utilizzare promozioni ed esclusioni dinamiche nelle attività di marketing:
 
 | Operatore | Esempi |
 | --- | --- |
-| È uguale a | Utilizzando l’operatore &quot;è uguale a&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:<ul><li>lo stesso marchio</li><li>la stessa categoria</li><li>la stessa categoria E lo stesso marchio</li><li>lo stesso store</li></ul> |
-| Does Not Equal | Utilizzando l’operatore &quot;è diverso da&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:<ul><li>una serie TV diversa</li><li>un genere diverso</li><li>una serie di prodotti diversi</li><li>un ID di stile diverso</li></ul> |
-| È tra | Utilizzando l&#39;operatore &quot;è tra&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:<ul><li>più costosi</li><li>meno costosi</li><li>più o meno costosi del 30%</li><li>episodi successivi nella stessa stagione</li><li>libri precedenti in una collana</li></ul> |
+| È uguale a <br>(disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;è uguale a&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:<ul><li>Lo stesso marchio</li><li>La stessa categoria</li><li>La stessa categoria E dalla marca della casa</li><li>Lo stesso negozio</li></ul> |
+| È diverso da <br>(disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;è diverso da&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli appartenenti a:<ul><li>Una serie TV diversa</li><li>Un genere diverso</li><li>Una serie di prodotti diversa</li><li>Un ID di stile diverso</li></ul> |
+| Contiene sottostringa<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;contiene sottostringa&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li></li></ul> |  |
+| Non contiene sottostringa<br>(disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;non contiene sottostringa&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li></li></ul> |
+| Inizia con<br> (disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;inizia con&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li></li></ul> |
+| Termina con<br>(disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;termina con&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li></li></ul> |
+| Is Greater Than or Equal To<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;è maggiore o uguale a&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li>Costi uguali o più costosi</li></ul> |
+| Is Less Than or Equal To<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo, Corrispondenza parametro e Filtro statico). | Utilizzando l’operatore &quot;è minore o uguale a&quot;, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto), puoi promuovere altri articoli che:<ul><li>Costi uguali o meno costosi</li><li>Escludere gli articoli meno costosi</li></ul> |
+| Is Between<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l&#39;operatore &quot;è tra&quot; nelle promozioni dinamiche, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:<ul><li>Più costoso</li><li>Meno costoso</li><li>Costo più o meno 30%</li><li>episodi successivi nella stessa stagione</li><li>Libri precedenti in una serie</li></ul> |
+| È contenuto in List<br>(Disponibile con Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l’operatore &quot;è contenuto nell’elenco&quot; nella corrispondenza degli attributi del profilo, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:<ul><li>Disponibile nella posizione geografica del visitatore</li></ul>Quando si utilizza questo operatore, è previsto un elenco nel [lato destro](#caveats) della regola. |
+| Non è contenuto in List<br>(disponibile con corrispondenza attributo profilo e corrispondenza parametro). | Utilizzando l’operatore &quot;non è contenuto nell’elenco&quot; nella corrispondenza degli attributi del profilo, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi escludere altri elementi che sono:<ul><li>Nell’elenco degli ultimi dieci elementi visualizzati dal visitatore</li></ul></ul>Quando si utilizza questo operatore, è previsto un elenco nel [lato destro](#caveats) della regola. |
+| Elenco Contiene Un Elemento In<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l’operatore &quot;elenco contiene un elemento in&quot; nella corrispondenza degli attributi del profilo, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi consigliare altri articoli che sono:<ul><li>Associato a uno dei team preferiti del visitatore</li></ul></ul>Quando si utilizza questo operatore, è previsto un elenco in [entrambi i lati](#caveats) della regola. |
+| Elenco Non contiene un elemento in<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l’operatore &quot;elenco non contiene un elemento in&quot; nella corrispondenza degli attributi dei parametri, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi escludere altri elementi che sono:<ul><li>Contenuti in un elenco di tipi vietati</li></ul>Quando si utilizza questo operatore, è previsto un elenco in [entrambi i lati](#caveats) della regola. |
+| Elenco contiene tutti gli elementi in<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l’operatore &quot;elenco contiene tutti gli elementi in&quot; nella corrispondenza degli attributi del parametro, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:<ul><li></li></ul>Quando si utilizza questo operatore, è previsto un elenco in [entrambi i lati](#caveats) della regola. |
+| Elenco Non contiene tutti gli elementi in<br>(Disponibile con Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro). | Utilizzando l’operatore &quot;elenco non contiene tutti gli elementi in&quot; nella corrispondenza degli attributi dei parametri, quando un visitatore sta visualizzando un articolo sul tuo sito web (ad esempio un prodotto, un articolo o un filmato), puoi promuovere altri articoli che sono:<ul><li></li></ul>Quando si utilizza questo operatore, è previsto un elenco in [entrambi i lati](#caveats) della regola. |
 
 ## Gestione dei valori vuoti durante l&#39;applicazione di filtri per Corrispondenza attributo entità, Corrispondenza attributo profilo e Corrispondenza parametro {#section_7D30E04116DB47BEA6FF840A3424A4C8}
 
@@ -91,16 +101,16 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
-| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza attributo profilo ] e corrispondenza  [!UICONTROL parametro] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
-| [!UICONTROL Non mostrare alcun risultato per questo criterio]<br> (solo criteri) | [!UICONTROL Corrispondenza attributo entità], Corrispondenza attributo  [!UICONTROL profilo] e Corrispondenza  [!UICONTROL parametro] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
-| [!UICONTROL Non promuovere alcun elemento<br> (solo promozioni)] | [!UICONTROL Corrispondenza attributo entità], Corrispondenza attributo  [!UICONTROL profilo] e Corrispondenza  [!UICONTROL parametro] | Questa è l&#39;azione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>[!DNL Target]Corrisponde al modo in cui gestiva i valori vuoti prima dell’aggiunta di questa opzione, ossia non verrà visualizzato alcun risultato per questo criterio. |
+| [!UICONTROL Ignora questa regola di filtro] | [!UICONTROL Corrispondenza attributo profilo ] e corrispondenza  [!UICONTROL parametro] | Questa azione è l&#39;impostazione predefinita per [!UICONTROL Corrispondenza attributo profilo] e [!UICONTROL Corrispondenza parametro].<br>Questa opzione specifica che la regola viene ignorata. Ad esempio, se sono presenti tre regole di filtro e la terza regola non passa alcun valore, invece di non restituire alcun risultato si può semplicemente ignorare la terza regola con valori vuoti. |
+| [!UICONTROL Non mostrare alcun risultato per questo criterio]<br> (solo criteri) | [!UICONTROL Corrispondenza attributo entità], Corrispondenza attributo  [!UICONTROL profilo] e Corrispondenza  [!UICONTROL parametro] | Questa azione è l&#39;impostazione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>Questa azione consente di  [!DNL Target] gestire i valori vuoti prima dell’aggiunta di questa opzione: per questo criterio non viene visualizzato alcun risultato. |
+| [!UICONTROL Non promuovere alcun elemento<br> (solo promozioni)] | [!UICONTROL Corrispondenza attributo entità], Corrispondenza attributo  [!UICONTROL profilo] e Corrispondenza  [!UICONTROL parametro] | Questa azione è l&#39;impostazione predefinita per [!UICONTROL Corrispondenza attributo entità].<br>Questa azione consente di  [!DNL Target] gestire i valori vuoti prima dell’aggiunta di questa opzione: per questo criterio non viene visualizzato alcun risultato. |
 | [!UICONTROL Usa un valore statico] | [!UICONTROL Corrispondenza attributo entità], Corrispondenza attributo  [!UICONTROL profilo] e Corrispondenza  [!UICONTROL parametro] | Se un valore è vuoto, è possibile scegliere di utilizzare un valore statico. |
 
-## Avvertenze {#section_A889FAF794B7458CA074DEE06DD0E345}
+## Avvertenze {#caveats}
 
 >[!IMPORTANT]
 >
->Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. Utilizza i valori [!UICONTROL Valore], [!UICONTROL Margine], [!UICONTROL Inventario] e [!UICONTROL Ambiente] con saggezza sul lato destro se sul lato sinistro sono presenti attributi predefiniti o attributi personalizzati.
+>Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. Utilizza i valori [!UICONTROL Valore], [!UICONTROL Margine], [!UICONTROL Inventario] e [!UICONTROL Ambiente] con saggezza sul lato destro se il lato sinistro dispone di attributi predefiniti o personalizzati.
 
 ![](assets/left_right.png)
 
