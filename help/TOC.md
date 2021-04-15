@@ -4,10 +4,10 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: c9c42f176c39e4eaf909074eb6eadc09236391e1
+source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
 workflow-type: tm+mt
-source-wordcount: '1600'
-ht-degree: 80%
+source-wordcount: '1614'
+ht-degree: 79%
 
 ---
 
@@ -99,6 +99,10 @@ ht-degree: 80%
       + Implementazione Adobe Experience Platform Web SDK {#aep-implementation}
          + [Panoramica dell’SDK web AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
       + Implementazione at.js {#at-js-implementation}
+         + Decisioni su dispositivi {#on-device-decisioning}
+            + [Panoramica sulle decisioni sui dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
+            + [Funzioni supportate per le decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
+            + [Artefatto della regola decisionale su dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
          + Funzionamento di at.js {#at-js}
             + [Panoramica sul funzionamento di at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Gestione at.js della visualizzazione momentanea di altri contenuti](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
