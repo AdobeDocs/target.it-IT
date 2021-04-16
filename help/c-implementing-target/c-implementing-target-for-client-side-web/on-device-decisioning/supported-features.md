@@ -4,10 +4,11 @@ description: Scopri quali funzioni sono supportate per le decisioni sui disposit
 title: Quali funzioni sono supportate in On-Device Decisioning
 feature: at.js
 role: Developer
+exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
 translation-type: tm+mt
-source-git-commit: 5fcc5776e69222e0a232bd92ddfd10cee748e577
+source-git-commit: 62a3b387445977a1bdcd2cf45306c8ff032fca50
 workflow-type: tm+mt
-source-wordcount: '467'
+source-wordcount: '461'
 ht-degree: 11%
 
 ---
@@ -53,11 +54,43 @@ La tabella seguente indica quali regole di pubblico sono supportate o non suppor
 
 Per mantenere una latenza minima per le attività di decisione sui dispositivi con tipi di pubblico basati su geo, l’Adobe consiglia di fornire i valori geografici nella chiamata a [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md). Impostare l&#39;oggetto Geo nel contesto della richiesta. Questo significa che dal browser, un modo per determinare la posizione di ogni visitatore. Ad esempio, puoi eseguire una ricerca IP-to-Geo utilizzando un servizio configurato. Alcuni provider di hosting, come Google Cloud, forniscono questa funzionalità tramite intestazioni personalizzate in ogni `HttpServletRequest`.
 
-(Codice in arrivo)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				city: "SAN FRANCISCO", 
+				countryCode: "US", 
+				stateCode: "CA", 
+				latitude: 37.75, 
+				longitude: -122.4 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 Tuttavia, se non sei in grado di eseguire ricerche IP-to-Geo sul server, ma desideri comunque eseguire le decisioni sul dispositivo per le richieste [getOffers](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) che contengono tipi di pubblico basati su geo, è supportato anche questo. Il lato negativo di questo approccio è che utilizza una ricerca IP-to-Geo remota, che aggiunge latenza a ogni chiamata `getOffers`. Questa latenza deve essere inferiore a una chiamata `getOffers` con decisioni lato server, perché raggiunge una rete CDN situata vicino al server. Specifica solo il campo &quot;ipAddress&quot; nell’oggetto Geo nel contesto della richiesta dell’SDK per recuperare la geolocalizzazione dell’indirizzo IP del visitatore. Se viene fornito un qualsiasi altro campo oltre a &quot;ipAddress&quot;, l’ [!DNL Target] SDK non recupererà i metadati di geolocalizzazione per la risoluzione.
 
-(Codice in arrivo)
+```javascript
+window.adobe.target.getOffers({ 
+	decisioningMethod: "on-device", 
+	request: { 
+		context: { 
+			geo: { 
+				ipAddress: "127.0.0.1" 
+			} 
+		}, 
+		execute: { 
+			pageLoad: {} 
+		} 
+	} 
+})
+```
 
 ### Metodo di allocazione
 
