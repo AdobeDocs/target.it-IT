@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffers;getOffers;getoffers;ottieni offerte;at.js;funzioni;funzione
-description: Utilizzate la funzione adobe.target.getOffers() e le relative opzioni per la libreria Adobe Target at.js  per attivare richieste per ottenere più offerte Target. (at.js 2.x)
+description: Utilizza la funzione adobe.target.getOffers() e le relative opzioni per la libreria at.js di Adobe Target per attivare le richieste per ottenere più offerte Target. (at.js 2.x)
 title: Come si utilizza la funzione adobe.target.getOffers()?
 feature: at.js
 role: Developer
+exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
 workflow-type: tm+mt
-source-wordcount: '1240'
-ht-degree: 90%
+source-wordcount: '1254'
+ht-degree: 89%
 
 ---
-
 
 # adobe.target.getOffers(options) - at.js 2.x
 
@@ -24,6 +24,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
 | consumerId | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave si utilizza per generare l’ID dati supplementare utilizzato per l’integrazione A4T. Questa chiave è una stringa univoca per visitatore. |
+| decisioningMethod | Stringa | No | &quot;lato server&quot;, &quot;sul dispositivo&quot;, &quot;ibrido&quot; |
 | richiesta | Oggetto | Sì | Vedi la tabella Richieste di seguito. |
 | timeout | Numero | No | timeout richiesta. Se non specificato, si utilizza il timeout predefinito di at.js. |
 
@@ -31,7 +32,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 >[!NOTE]
 >
->Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consultare la [Documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
+>Consulta la [documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
 
 | Nome campo | Obbligatorio | Limitazioni | Descrizione |
 | --- | --- | --- | --- |
@@ -74,7 +75,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 | Request > execute > mboxes > mbox > order > total | No | `>=` 0 | Recupera le offerte per una data mbox con i totali dell’ordine specificati. |
 | Request > execute > mboxes > mbox > order > purchasedProductIds | No | Nessun valore vuoto<br>Lunghezza massima di ogni valore = 50<br>Concatenata e separata da virgole<br>Lunghezza totale ID prodotto `<=` 250 | Recupera le offerte per una data mbox con gli ID dei prodotti acquistati dell’ordine specificati. |
 
-## Chiama getOffers() per tutte le viste
+## Chiama getOffers() per tutte le visualizzazioni
 
 ```javascript
 adobe.target.getOffers({
@@ -86,7 +87,26 @@ adobe.target.getOffers({
 });
 ```
 
-## Chiama getOffers() per recuperare le visualizzazioni più recenti con i parametri di profilo e i parametri passati
+## Chiama getOffers() per prendere una decisione sul dispositivo
+
+```javascript
+adobe.target.getOffers({ 
+
+  decisioningMethod:"on-device", 
+  request: { 
+    execute: { 
+      mboxes: [ 
+        { 
+          index: 0, 
+          name: "homepage" 
+        } 
+      ] 
+    } 
+ } 
+}); 
+```
+
+## Chiama getOffers() per recuperare le visualizzazioni più recenti con i parametri e i parametri del profilo passati
 
 ```javascript
 adobe.target.getOffers({
@@ -186,7 +206,7 @@ adobe.target.getOffers({
 }
 ```
 
-Il payload può quindi essere inoltrato a  Adobe Analytics tramite l&#39; [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
+Il payload può quindi essere inoltrato ad Adobe Analytics tramite l’ [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html).
 
 ## Recupera ed esegui il rendering di dati da più mbox tramite getOffers() e applyOffers() {#multiple}
 
@@ -267,9 +287,9 @@ Questo esempio utilizza la variabile count per creare i selettori CSS. In uno sc
 
 Questo esempio utilizza `prefetch > mboxes`, ma puoi anche utilizzare `execute > mboxes`. Se utilizzi la preacquisizione in `getOffers()`, devi anche usare la preacquisizione nella chiamata di `applyOffers()`.
 
-## Chiama getOffers() per eseguire un&#39;operazione pageLoad
+## Chiama getOffers() per eseguire un pageLoad
 
-L&#39;esempio seguente mostra come eseguire un pageLoad utilizzando getOffers() con at.js 2.*x*
+L’esempio seguente mostra come eseguire un pageLoad utilizzando getOffers() con at.js 2.*x*
 
 ```javascript
 adobe.target.getOffers({
