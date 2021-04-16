@@ -1,14 +1,14 @@
 ---
-keywords: implementazione;libreria javascript;js;atjs;decisioni su dispositivi;nelle decisioni sui dispositivi
+keywords: implementazione;libreria javascript;js;atjs;decisioni su dispositivi;decisioni su dispositivi;at.js
 description: Scopri come eseguire le decisioni sul dispositivo con la libreria at.js
 title: Come funziona il Decisioning su dispositivo con la libreria JavaScript at.js?
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 26a67b7d822b7008aea7d26ddf63c03d19a77e53
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '3496'
+source-wordcount: '3497'
 ht-degree: 7%
 
 ---
@@ -111,7 +111,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 1 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | La libreria at.js effettua una richiesta per recuperare l’artefatto della regola JSON dal CDN Akamai più vicino al visitatore. |
 | 5 | La rete CDN di Akamai risponde con l’artefatto della regola JSON. |
 | 6 | L’artefatto della regola JSON viene memorizzato nella cache locale sul browser del visitatore. |
@@ -136,7 +136,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 3 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | La libreria at.js interpreta l’artefatto della regola JSON ed esegue la decisione in memoria per recuperare l’esperienza. |
 | 5 | Gli elementi testati sono nascosti. |
 | 6 | La libreria at.js visualizza il corpo in modo che il resto della pagina possa essere caricato perché il visitatore possa visualizzarlo. |
@@ -169,7 +169,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 3 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | Viene effettuata una richiesta di caricamento pagina ad Adobe Target Edge Network, con tutti i parametri configurati come (ECID, ID cliente, parametri personalizzati, profilo utente e così via). |
 | 5 | In parallelo, at.js invia una richiesta per recuperare l’artefatto della regola JSON dal CDN Akamai più vicino al visitatore. |
 | 6 | (Adobe Target Edge Network) Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio profili richiede tipi di pubblico idonei dalla libreria Pubblico (ad esempio, audience condivisi da [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] e così via). |
@@ -197,7 +197,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 3 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | Viene effettuata una richiesta per recuperare un’esperienza. |
 | 5 | La libreria at.js conferma che l’artefatto della regola JSON è già stato memorizzato nella cache ed esegue la decisione in memoria di recuperare l’esperienza. |
 | 6 | Gli elementi testati sono nascosti. |
