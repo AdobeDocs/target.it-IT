@@ -1,13 +1,13 @@
 ---
 user-guide-title: Guida di Adobe Target
 breadcrumb-title: Guida di Target
-user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate sui siti web e mobili, sulle app, sui social media e su altri canali digitali.
+user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 feature-set: Target
 translation-type: tm+mt
-source-git-commit: 63f56f91cf9a38c4375e811cebb47b4db4af5552
+source-git-commit: 5113a6448c09f69af47072369b2acf2a84a517ee
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 80%
+source-wordcount: '1607'
+ht-degree: 78%
 
 ---
 
@@ -193,7 +193,7 @@ ht-degree: 80%
       + Risoluzione dei problemi relativi all’integrazione di Analytics e Target (A4T) {#troubleshoot-a4t}
          + [Risolvere i problemi di A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
          + [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
-      + Domande frequenti su A4T  {#a4t-faq}
+      + Domande frequenti su A4T {#a4t-faq}
          + [Provisioning iniziale - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
          + [Impostazioni delle attività - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
          + [Visualizzare i rapporti - Domande frequenti su A4T](c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
