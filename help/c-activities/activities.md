@@ -5,10 +5,10 @@ title: Come posso personalizzare i contenuti e testare le progettazioni di pagin
 feature: Attività
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: 9718cd0d7233499e7432c94213d4c832f646e2ab
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '2103'
-ht-degree: 96%
+source-wordcount: '2102'
+ht-degree: 92%
 
 ---
 
@@ -52,6 +52,7 @@ L&#39;elenco Attività presenta tutte le attività:
 | URL | L’URL viene visualizzato in un colore più chiaro sotto il nome.<br>L’URL dell’attività identifica dove viene visualizzata. Consente di identificare rapidamente un’attività e di determinare se su una pagina specifica sia già in esecuzione un test.<br>Se un test viene eseguito su più URL, un collegamento mostra il numero di URL utilizzati. Fai clic sul collegamento per visualizzare l’elenco completo degli URL per l’attività.<br>Puoi eseguire ricerche in base all’URL. Utilizza l’elenco a discesa accanto alla casella di ricerca e seleziona [!UICONTROL Ricerca URL]. |
 | Stato | Lo stato dell’attività può essere uno tra i seguenti:<ul><li>**Live**: l’attività è attualmente in esecuzione.</li><li>**Bozza**: la configurazione dell’attività è iniziata, ma l’attività non è ancora pronta per l’esecuzione.</li><li>**Pianificata**: l’attività è pronta per essere attivata nella data e nell’ora di inizio specificate.</li><li>**Inattiva**: l&#39;attività è stata sospesa o disattivata.</li><li>**Sincronizzazione**: l’attività è stata salvata si sta eseguendo la sua sincronizzazione con la rete di consegna Target.</li><li>**Terminata**: la data e l’ora di fine specificate dell’attività sono state raggiunte e l’attività non viene più distribuita.</li><li>**Archiviata**: l’attività è stata archiviata. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.</li></ul>**Nota**: quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando i metodi API, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente. |
 | Origine | Mostra dove è stata creata l&#39;attività:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
+| Decisioning on-Device Idoneo | Dopo aver creato un’attività che è idonea per le decisioni sui dispositivi, un’etichetta che legge On-Device Decisioning Idoneo è visibile nella pagina Panoramica dell’attività.<br>Questa etichetta non significa che l’attività verrà sempre consegnata tramite decisioni sul dispositivo. Solo quando at.js 2.5.0+ è configurato per utilizzare le decisioni sul dispositivo, questa attività verrà eseguita sul dispositivo. Se at.js 2.5.0+ non è configurato per l’utilizzo sul dispositivo, questa attività verrà comunque recapitata tramite una chiamata al server effettuata da at.js.<br>Consulta  [Decisioni sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Proprietà | Mostra la [proprietà](/help/administrating-target/c-user-management/property-channel/property-channel.md) per l’attività. |
 | Incremento stimato dei ricavi | Mostra l&#39;aumento previsto dei ricavi se il 100% del pubblico visualizza l&#39;esperienza vincente.<br>Calcolato con la seguente formula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K<br>In questa colonna viene visualizzato “---” per le attività prive di dati sufficienti per richiamare una visualizzazione vincente o prive di un preventivo di spesa.<br>Consulta [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni. |
 | Ultimo aggiornamento | La data di ultimo aggiornamento dell&#39;attività e l&#39;autore dell&#39;aggiornamento. |
@@ -108,6 +109,7 @@ Il campo di ricerca include un menu a discesa che consente di restringere la ric
 |--- |--- |
 | Tipo | Test A/B: [Manuale](/help/c-activities/t-test-ab/test-ab.md), [Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) e [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).<br>[Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>[Targeting delle esperienze](/help/c-activities/t-experience-target/experience-target.md)<br>[Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md)<br>[Consigli](/help/c-recommendations/recommendations.md) |
 | Stato | Live<br>Bozza<br>Pianificata<br>Inattiva<br>Sincronizzazione<br>Terminata<br>Archiviata |
+| Decisioning on-Device Idoneo | Sì<br>No |
 | Origine per i rapporti | Target<br>Analytics |
 | Compositore esperienza | Visivo<br>Basato su modulo |
 | Tipo di metrica | Conversione<br>Revenue<br>Engagement |
@@ -117,16 +119,10 @@ Il campo di ricerca include un menu a discesa che consente di restringere la ric
 
 Fai clic su una delle intestazioni seguenti per impostare se le attività sono elencate in ordine crescente o decrescente per &#39;intestazione selezionata.
 
-* Nome attività
-* Tipo di attività
+* Tipo
+* Nome
 
 ![Elenco delle attività in ordine crescente](/help/c-activities/assets/activities_list_ascending.png)
-
-## Suggerimenti {#section_F77F30A246A14B538D9363B7F3639F97}
-
-Per sfruttare al massimo Adobe Target, scopri di più sulle sue funzioni e come sfruttarle. La funzionalità Suggerimenti offre collegamenti a video, casi d’uso, blog, documentazione e molto altro.
-
-La funzionalità Suggerimenti viene visualizzata periodicamente nella pagina Elenco attività. Dopo aver letto o ignorato un suggerimento, esso non viene visualizzato nuovamente fino a quando non sarà disponibile il suggerimento successivo. È possibile disattivare la visualizzazione di tutti i suggerimenti facendo clic sull&#39;icona Aiuto > [!UICONTROL Disattiva Suggerimento del giorno].
 
 ![Disattiva suggerimento del giorno](/help/c-activities/assets/tip-disable-new.png)
 
