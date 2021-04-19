@@ -6,14 +6,18 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '3491'
+source-wordcount: '3506'
 ht-degree: 7%
 
 ---
 
 # Decisioni sul dispositivo per at.js
+
+>[!NOTE]
+>
+>Le decisioni sul dispositivo saranno disponibili con la prossima versione di [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). Data da annunciare presto.
 
 A partire dalla versione 2.5.0, at.js offre funzioni decisionali sul dispositivo. Le decisioni sul dispositivo consentono di memorizzare nella cache le attività [A/B Test](/help/c-activities/t-test-ab/test-ab.md) e [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) (XT) sul browser per eseguire le decisioni in memoria senza una richiesta di rete di blocco alla rete [!DNL Adobe Target] Edge Network.
 
@@ -107,7 +111,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 3 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | La libreria at.js effettua una richiesta per recuperare l’artefatto della regola JSON dal CDN Akamai più vicino al visitatore. |
 | 5 | La rete CDN di Akamai risponde con l’artefatto della regola JSON. |
 | 6 | L’artefatto della regola JSON viene memorizzato nella cache locale sul browser del visitatore. |
@@ -165,7 +169,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 | --- | --- |
 | 3 | Il [!DNL Experience Cloud Visitor ID] viene recuperato dal [servizio Adobe Experience Cloud Identity](https://experienceleague.adobe.com/docs/id-service/using/home.html). |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>La libreria at.js può anche essere caricata in modo asincrono con un frammento pre-hiding facoltativo implementato nella pagina. |
-| 1 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
+| 3 | La libreria at.js nasconde il corpo per evitare sfarfallii. |
 | 4 | Viene effettuata una richiesta di caricamento pagina ad Adobe Target Edge Network, con tutti i parametri configurati come (ECID, ID cliente, parametri personalizzati, profilo utente e così via). |
 | 5 | In parallelo, at.js invia una richiesta per recuperare l’artefatto della regola JSON dal CDN Akamai più vicino al visitatore. |
 | 6 | (Adobe Target Edge Network) Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio profili richiede tipi di pubblico idonei dalla libreria Pubblico (ad esempio, audience condivisi da [!DNL Adobe Analytics], [!DNL Adobe Audience Manager] e così via). |
