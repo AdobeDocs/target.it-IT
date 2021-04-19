@@ -5,9 +5,9 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 70d6279f33f6fdf6875307279a5bda6759f7a897
+source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4144'
 ht-degree: 29%
 
 ---
@@ -24,6 +24,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Sono state aggiunte informazioni su `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stato aggiunto quanto segue:<ul><li>Informazioni sulla chiave `decisioningMethod` .</li><li>Un esempio per &quot;getCallOffers() per prendere una decisione sul dispositivo.&quot;</li></ul> |
 |  | [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Sono state aggiunte le seguenti informazioni:<ul><li>Artefatto decisionale su dispositivo completato</li><li>Artefatto decisionale su dispositivo non riuscito</li></ul> |
+|  | [Attività](/help/c-activities/activities.md) | Sono state aggiunte informazioni sulle decisioni sul dispositivo. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove informazioni su at.js 2.5.0. |
 |  | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Il supporto per i collegamenti di anteprima per le attività [!UICONTROL Automated Personalization] è stato aggiunto con [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Sono state aggiunte informazioni sui seguenti nuovi operatori:<ul><li>È Contenuto Nell’Elenco</li><li> Non è contenuto nell’elenco</li><li>Elenco Contiene Un Elemento In</li><li>L&#39;Elenco Non Contiene Un Elemento In</li><li>Elenco Contiene Tutti Gli Elementi In</li><li>Elenco Non Contiene Tutti Gli Elementi</li></ul> |
