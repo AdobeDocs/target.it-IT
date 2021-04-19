@@ -5,9 +5,9 @@ title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '4182'
+source-wordcount: '4185'
 ht-degree: 81%
 
 ---
@@ -23,7 +23,7 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch è il metodo preferito per aggiornare at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzionalità e spesso correggono i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e sono resi disponibili nel catalogo [!DNL Launch] come aggiornamenti. Per ulteriori informazioni, consulta [Aggiornamento delle estensioni](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) nella *Guida utente del Experience Platform Launch*.
 
-## at.js 2.5.0 (19 aprile 2021)
+## at.js 2.5.0 (data da annunciare)
 
 Questa versione di at.js include i miglioramenti e le modifiche seguenti:
 
