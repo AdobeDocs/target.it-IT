@@ -5,9 +5,9 @@ title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Note sulla versione
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
-source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3
+source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 20%
 
 ---
@@ -32,7 +32,7 @@ Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici 
 
 | Funzione | Dettagli |
 | --- | --- |
-| Supporto delle decisioni su dispositivi per at.js | Le decisioni sul dispositivo consentono agli addetti al marketing e agli sviluppatori di distribuire esperimenti e personalizzazioni sul browser di un utente con latenza vicina allo zero.<br>Per ulteriori informazioni, consulta Decisioni  [sul dispositivo per at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| Supporto delle decisioni su dispositivi per at.js | Le decisioni sul dispositivo consentono agli addetti al marketing e agli sviluppatori di distribuire esperimenti e personalizzazioni sul browser di un utente con latenza vicina allo zero.<br>Per ulteriori informazioni, consulta Decisioni  [sul dispositivo per at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)<br>(Data da comunicare) |
 | ![Operatori basati su ](/help/assets/premium.png) PremiumList per le regole di filtro entità | [!DNL Target Recommendations] supporta nuovi operatori basati su elenco per le regole di filtro entità. (TGT-39234)<br>Gli operatori appena aggiunti includono:<br><ul><li>È Contenuto Nell’Elenco</li><li>Non è contenuto nell’elenco</li><li>Elenco Contiene Un Elemento In</li><li>L&#39;Elenco Non Contiene Un Elemento In</li><li>Elenco Contiene Tutti Gli Elementi In</li><li>Elenco Non Contiene Tutti Gli Elementi</li></ul>Per ulteriori informazioni, consulta &quot;Operatori disponibili&quot; in [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
 Questa versione contiene le seguenti correzioni.
@@ -43,7 +43,7 @@ Questa versione contiene le seguenti correzioni.
 * È stato risolto un problema che causava il mapping delle proprietà all&#39;area di lavoro errata. (TGT-39869)
 * È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione consigli. (TGT-39948)
 
-## at.js versione 2.5.0 (19 aprile 2021)
+## at.js versione 2.5.0 (data da annunciare)
 
 Questa versione di at.js include i miglioramenti e le modifiche seguenti:
 
