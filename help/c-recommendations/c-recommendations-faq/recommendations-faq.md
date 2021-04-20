@@ -2,7 +2,7 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
 description: Visualizza un elenco delle domande frequenti e delle risposte sulle attività di Adobe Target Recommendations.
 title: Dove posso trovare domande e risposte su Target Recommendations?
-feature: Consigli
+feature: Recommendations
 translation-type: tm+mt
 source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
 workflow-type: tm+mt

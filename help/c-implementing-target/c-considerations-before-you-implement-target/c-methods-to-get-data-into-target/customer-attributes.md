@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;attributi del cliente
 description: Inserire dati in Target utilizzando gli attributi del cliente.
 title: Come posso inserire dati in Target utilizzando gli attributi del cliente?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: b6c4a286-7994-492d-bde9-346af7aa314f
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;faq;risoluzione dei problemi;risoluzione problemi
 description: Scopri in che modo un’attività di Targeting automatico in Target fornisce a ogni visitatore l’esperienza più personalizzata in base ai profili dei clienti e al comportamento di visitatori simili.
 title: Cos’è un’attività di targeting automatico?
-feature: Targeting automatico
+feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
 translation-type: tm+mt
 source-git-commit: a45cfbd52df935fa3138eda6cc7f1028c13ff81d

@@ -2,7 +2,7 @@
 keywords: targeting;a4t;geo;geotargeting;precisione geotargeting;paese;stato;città;codice postale;DMA;gestore telefonia mobile;codici città;codici area geografica;codici paese;codici metropolitana;script profilo;script profilo geotargeting;geotargeting mobile
 description: Scopri come creare un pubblico Adobe Target per indirizzare l’attività agli utenti in base alla loro posizione geografica, compreso il loro paese, la loro città, il codice postale e altro ancora.
 title: Posso Eseguire Il Targeting Della Posizione Basata Sui Visitatori?
-feature: Tipi di pubblico
+feature: Audiences
 solution: Target,Analytics
 translation-type: tm+mt
 source-git-commit: 9155c487ed078f8af493755a2b4f067eafc8ae68

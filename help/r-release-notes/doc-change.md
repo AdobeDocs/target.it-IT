@@ -2,7 +2,7 @@
 keywords: registro delle modifiche alla documentazione di target;aggiornamenti alla documentazione;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
 description: Tieniti aggiornato con importanti aggiunte e modifiche alla documentazione del prodotto Adobe Target.
 title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

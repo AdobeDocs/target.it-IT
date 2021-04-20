@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;parametri di pagina
 description: Inserire dati in Target utilizzando i parametri di pagina.
 title: Come posso inserire dati in Target utilizzando i parametri di pagina?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
 translation-type: tm+mt

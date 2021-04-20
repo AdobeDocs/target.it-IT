@@ -3,7 +3,7 @@ keywords: faq mbox.js;domande frequenti mbox.js;document.write;tt.omtrdc.net;blo
 description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Quali sono alcune domande frequenti su Target mbox.js?
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

@@ -2,7 +2,7 @@
 keywords: Targeting delle esperienze;xt;create
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un'attività Experience Targeting (XT) su una pagina abilitata per Target.
 title: Come si crea un'attività di targeting delle esperienze?
-feature: Targeting esperienza
+feature: Experience Targeting
 translation-type: tm+mt
 source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
 workflow-type: tm+mt

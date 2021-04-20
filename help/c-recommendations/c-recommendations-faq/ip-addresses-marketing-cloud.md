@@ -2,7 +2,7 @@
 keywords: Indirizzo IP;indirizzi IP;whitelist;inserire nell'elenco Consentiti;firewall;recs;feed;server;adobe marketing cloud;consigli
 description: Visualizza un elenco di indirizzi IP utilizzati nei server di elaborazione dei feed Recommendations di Target per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
 title: Quali indirizzi IP utilizzano i server di elaborazione dei feed Recommendations?
-feature: Consigli
+feature: Recommendations
 translation-type: tm+mt
 source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
 workflow-type: tm+mt

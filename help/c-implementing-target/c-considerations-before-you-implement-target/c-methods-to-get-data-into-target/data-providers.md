@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;fornitori di dati
 description: Trasferisci i dati in Target utilizzando i provider di dati.
 title: Come posso inserire i dati in Target utilizzando i provider di dati?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
 translation-type: tm+mt

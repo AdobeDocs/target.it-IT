@@ -2,7 +2,7 @@
 keywords: annunci;generatore di competenze;chat sviluppatore;pausa caffè;eventi;forrester;gartner;webinar
 description: Leggi gli annunci e registrati per gli eventi Adobe Target, incluse le sessioni di Skills Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
 title: Dove posso trovare annunci ed eventi di Target?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

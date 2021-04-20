@@ -2,7 +2,7 @@
 keywords: AB;A/B;AB..n;dimensioni campione;calcolatore dimensione campione;allocazione automatica;allocazione automatica;calcolatore
 description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di successo in Adobe Target richiede abbastanza visitatori (dimensioni del campione) per migliorare il tasso di conversione.
 title: Per quanto tempo devo eseguire un test A/B?
-feature: Test A/B
+feature: A/B Tests
 translation-type: tm+mt
 source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
 workflow-type: tm+mt

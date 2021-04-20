@@ -2,7 +2,7 @@
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
 description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a Target Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità?
-feature: Consigli
+feature: Recommendations
 translation-type: tm+mt
 source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
 workflow-type: tm+mt

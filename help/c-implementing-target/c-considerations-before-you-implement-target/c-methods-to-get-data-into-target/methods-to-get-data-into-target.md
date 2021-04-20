@@ -2,7 +2,7 @@
 keywords: implementa;implementazione;impostazione;installazione;parametro di pagina;tomcat;codifica url;attributo profilo di pagina;parametro mbox;attributi profilo di pagina;attributo profilo script;aggiornamento API bulk profilo;aggiornamento API file singolo;attributi cliente;fornitori di dati;fornitori dati;fornitori di dati
 description: Trasferisci i dati in Target (parametri di pagina, attributi di profilo, attributi di profilo di script, fornitori di dati, API di aggiornamento di profili singolo e in blocco, attributi del cliente).
 title: Come posso inserire dati in Target?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: b42eb846-d423-4545-a8fe-0b8048ab689e
 translation-type: tm+mt

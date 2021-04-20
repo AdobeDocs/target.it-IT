@@ -2,7 +2,7 @@
 keywords: Panoramica e riferimento;tipi di attività;introduzione
 description: Scopri le nozioni di base di Adobe Target. Questo articolo ti introduce a Target, ai suoi tipi di attività e ad altre funzioni.
 title: Come si utilizza Target?
-feature: Panoramica
+feature: Overview
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9

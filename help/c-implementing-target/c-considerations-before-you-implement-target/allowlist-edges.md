@@ -2,8 +2,8 @@
 keywords: implementare;implementazione;whitelist;white list;allowlist;allow list;edge;edge
 description: Visualizza un elenco di host per consentirti di elencare gli edge di Adobe Target (nodi di servizio distribuiti geograficamente che garantiscono tempi di risposta ottimali agli utenti finali).
 title: Come Posso Consentire I Nodi Edge Di Target?
-feature: Privacy e sicurezza
-role: Sviluppatori
+feature: Privacy & Security
+role: Developer
 translation-type: tm+mt
 source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
 workflow-type: tm+mt

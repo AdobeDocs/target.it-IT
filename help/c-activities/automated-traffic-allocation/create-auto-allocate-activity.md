@@ -2,7 +2,7 @@
 keywords: creare l'allocazione automatica;test A/B;allocare automaticamente l'attività;nuova attività a/b;allocare automaticamente;allocare automaticamente per la migliore esperienza;allocare;allocare automaticamente
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un'attività di test A/B allocata automaticamente direttamente su una pagina abilitata per Target.
 title: Come si crea un'attività di allocazione automatica?
-feature: Allocazione automatica
+feature: Auto-Allocate
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

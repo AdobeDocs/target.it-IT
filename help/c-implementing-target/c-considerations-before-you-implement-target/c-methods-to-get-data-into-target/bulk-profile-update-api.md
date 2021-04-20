@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;aggiornamento bulk profilo
 description: Ottieni dati in Target utilizzando l’API di aggiornamento collettivo dei profili.
 title: Come posso inserire dati in Target utilizzando l’API di aggiornamento del profilo bulk?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
 translation-type: tm+mt

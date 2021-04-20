@@ -3,7 +3,7 @@ keywords: parametri mbox globali;targetPageParams;stringa di query;array;json;dt
 description: Scopri come utilizzare la funzione targetPageParams per passare ulteriori informazioni di targeting o contesto alla mbox globale di Adobe Target.
 title: Come faccio a trasmettere parametri a una mbox globale?
 feature: at.js
-role: Sviluppatori
+role: Developer
 translation-type: tm+mt
 source-git-commit: a638da983bf39361be36a9cd68f3ef9f7eb39013
 workflow-type: tm+mt

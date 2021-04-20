@@ -3,7 +3,7 @@ keywords: implementazione;mbox.js;libreria di manipolazione dom;target.js;compos
 description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Cosa fa la libreria mbox.js di Target?
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

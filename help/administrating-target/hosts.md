@@ -2,8 +2,8 @@
 keywords: host;gruppo host;risoluzione dei problemi;procedure consigliate;ubox;reindirizzamenti;reindirizzamento;whitelist;inserire nell'elenco Consentiti;blacklist;inserire nell'elenco Bloccati
 description: Scopri come organizzare i siti web e gli ambienti di preproduzione per una gestione semplice e per rapporti separati in Adobe Target.
 title: Cosa sono gli host e come li utilizzo?
-feature: Amministrazione e configurazione
-role: Amministratore
+feature: Administration & Configuration
+role: Administrator
 translation-type: tm+mt
 source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
 workflow-type: tm+mt

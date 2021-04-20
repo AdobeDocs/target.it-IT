@@ -3,7 +3,7 @@ keywords: impostazioni avanzate di mbox.js;client;dominio server;xdomain;livello
 description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Come si configura la libreria mbox.js di Target?
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 17821e60-2692-49af-a225-764bd1b6aec1
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

@@ -2,7 +2,7 @@
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;ottimizzazione motore di ricerca;ottimizzazione motore di ricerca;seo;cluster edge, cluster centrali;at.js;mbox.js;
 description: Scopri come funziona Adobe Target, comprese informazioni sulle librerie JavaScript di Target (at.js e AEP Web SDK), sui centri dati di Adobe e sui test SEO.
 title: Come funziona Target?
-feature: Panoramica
+feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

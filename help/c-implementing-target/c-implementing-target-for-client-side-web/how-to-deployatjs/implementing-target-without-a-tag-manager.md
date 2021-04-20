@@ -2,7 +2,7 @@
 keywords: implementare target;implementazione;implementare at.js;tag manager;decisionale su dispositivo;nelle decisioni sui dispositivi
 description: Scopri come specificare le impostazioni (dettagli account, metodi di implementazione, ecc.) per implementare la libreria at.js di Adobe Target senza utilizzare un gestore di tag.
 title: Posso implementare Target senza un Tag Manager?
-feature: Implementare lato server
+feature: Implement Server-side
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt

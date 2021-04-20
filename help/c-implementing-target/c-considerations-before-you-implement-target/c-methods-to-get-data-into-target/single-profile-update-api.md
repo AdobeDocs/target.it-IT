@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;aggiornamento profilo singolo
 description: Ottieni i dati in Target utilizzando l’API di aggiornamento del singolo profilo.
 title: Come posso inserire i dati in Target utilizzando l’API di aggiornamento del singolo profilo?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
 translation-type: tm+mt

@@ -3,7 +3,7 @@ keywords: implementare;implementazione;at.js;adobe experience platform web sdk;a
 description: Scopri come implementare Adobe Target per il web lato client utilizzando Adobe Experience Platform Web SDK (AEP Web SDK) o la libreria JavaScript at.js di Target.
 title: Come si implementa Target per il web lato client
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

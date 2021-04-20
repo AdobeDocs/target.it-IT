@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;parametro di pagina
 description: Inserire dati in Target utilizzando gli attributi di profilo nella pagina.
 title: Come posso inserire dati in Target utilizzando gli attributi di profilo nella pagina?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: c6000720-a862-4e9c-96a5-055963a79544
 translation-type: tm+mt

@@ -2,7 +2,7 @@
 keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramenti;nuove funzioni;correzioni;aggiornamenti;prerelease
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella prossima versione di Adobe Target, inclusi SDK, API e librerie JavaScript.
 title: Quali nuove funzioni saranno incluse nella prossima versione?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 translation-type: tm+mt
 source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431

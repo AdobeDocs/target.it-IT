@@ -3,7 +3,7 @@ keywords: conferma d’ordine;orderConfirmPage
 description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Come si crea una mbox di conferma d'ordine utilizzando mbox.js?
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 952c2d1b-1ee8-4e9b-bce3-1c439127bb9b
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

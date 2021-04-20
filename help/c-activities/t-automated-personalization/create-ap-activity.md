@@ -2,7 +2,7 @@
 keywords: personalizzazione automatizzata;ap;audience;ensemble;foresta casuale;varianza residua;varianza errore;valore del ciclo di vita
 description: Scoprite come creare un'attività Automated Personalization (AP)  in  Adobe Target utilizzando Visual Experience Composer (VEC).
 title: Come si crea un'attività Automated Personalization ?
-feature: Personalizzazione automatizzata
+feature: Automated Personalization
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

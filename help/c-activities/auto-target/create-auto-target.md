@@ -2,7 +2,7 @@
 keywords: Creare targeting automatico;test A/B;attività di targeting automatico;nuova attività A/B;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
 description: Scopri come utilizzare il Compositore esperienza visivo in Adobe Target per creare l’attività di test A/B di targeting automatico direttamente su una pagina abilitata per Target.
 title: Come si crea un'attività di Targeting automatico?
-feature: Targeting automatico
+feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
 translation-type: tm+mt
 source-git-commit: 73053526e68e08136ab66b9d4c1aa17958cfc76e

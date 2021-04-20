@@ -3,7 +3,7 @@ keywords: Panoramica e riferimento;WebKit
 description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Dove posso trovare informazioni sui cookie mbox.js?
 feature: at.js
-role: Sviluppatori
+role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
 source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f

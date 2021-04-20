@@ -2,7 +2,7 @@
 keywords: Note sulla versione
 description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclusi nelle versioni precedenti di Adobe Target.
 title: Quali funzioni sono incluse nelle versioni precedenti?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 translation-type: tm+mt
 source-git-commit: 2e678fa8a4826f6bfdaef1a04b89b8da7de48d12

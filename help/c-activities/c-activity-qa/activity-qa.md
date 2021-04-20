@@ -2,7 +2,7 @@
 keywords: qa;anteprima;collegamenti di anteprima;adobe target;target
 description: Scopri come utilizzare gli URL di controllo qualità di Adobe Target per eseguire attività di controllo qualità end-to-end con collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
 title: Come Faccio A Controllare Le Attività?
-feature: Attività
+feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
 translation-type: tm+mt
 source-git-commit: 9b6123fd0f9d44e43bd8e6bae1ddd7ef8c00d2e3

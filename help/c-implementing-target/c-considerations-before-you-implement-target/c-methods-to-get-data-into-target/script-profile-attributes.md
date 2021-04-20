@@ -2,7 +2,7 @@
 keywords: implementare;implementazione;configurazione;configurazione;attributi di profilo script
 description: Inserire dati in Target utilizzando gli attributi di profilo di script.
 title: Come posso inserire dati in Target utilizzando gli attributi di profilo di script?
-feature: Implementazione
+feature: Implementation
 role: Developer
 exl-id: c323fb4c-f263-43d4-8523-9f42c2913542
 translation-type: tm+mt

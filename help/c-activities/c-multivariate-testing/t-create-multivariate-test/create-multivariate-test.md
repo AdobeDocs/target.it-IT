@@ -2,7 +2,7 @@
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
 description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un test multivariato (MVT) direttamente su una pagina compatibile con Target.
 title: Come si crea un test multivariato?
-feature: Test multivariati
+feature: Multivariate Tests
 translation-type: tm+mt
 source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
 workflow-type: tm+mt

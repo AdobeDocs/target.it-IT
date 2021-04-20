@@ -2,7 +2,7 @@
 keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
 description: Scoprite perché alcuni siti Web potrebbero non essere aperti in modo affidabile in Visual Experience Composer (VEC). L'estensione del browser VEC Helper consente di caricare i siti Web in modo affidabile all'interno del VEC.
 title: Come si utilizza l'estensione helper di Visual Experience Composer (VEC)?
-feature: Compositore esperienza visivo
+feature: Visual Experience Composer (VEC)
 translation-type: tm+mt
 source-git-commit: e80748b01d23bd5ad433ee976b70a1571733e73f
 workflow-type: tm+mt
