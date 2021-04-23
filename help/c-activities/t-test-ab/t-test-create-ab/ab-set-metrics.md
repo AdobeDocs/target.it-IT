@@ -1,20 +1,20 @@
 ---
 keywords: A/B;metriche di attività;metriche;configurare metriche;metriche obiettivo;impostazioni attività;metrica successo;conversione;ricavi;impegno
-description: Scopri come specificare le metriche in un'attività A/B  Adobe Target per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Partecipazione.
-title: Come si impostano le metriche degli obiettivi in un'attività A/B?
-feature: A/B Tests
+description: Scopri come specificare le metriche in un’attività A/B di Adobe [!DNL Target] per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
+title: Come si impostano le metriche degli obiettivi in un’attività A/B?
+feature: Test A/B
+exl-id: 9e9e8787-c0cd-4aab-bd2d-0e9591e0a07d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '348'
+source-wordcount: '350'
 ht-degree: 85%
 
 ---
 
-
 # Impostare le metriche
 
-Utilizzate le metriche in un&#39;attività A/B [!DNL Adobe Target] per determinare quando una visita ha esito positivo.
+Utilizza le metriche in un’attività A/B [!DNL Adobe Target] per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -55,7 +55,7 @@ Nota che quando denomini o rinomini una metrica, i seguenti caratteri non sono c
 | - | Meno |
 | @ | Chiocciola |
 
-## Video di formazione: metriche attività (7:43)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: metriche attività (7:43)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
