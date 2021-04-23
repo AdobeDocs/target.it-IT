@@ -1,13 +1,13 @@
 ---
 keywords: calcolatore del traffico;personalizzazione automatizzata;ap;stimare il traffico;targeting automatico
-description: Utilizza il Calcolatore del traffico di Adobe Target per determinare se disponi di traffico sufficiente per il successo dell’attività Automated Personalization.
+description: Utilizza il Calcolatore del traffico Adobe [!DNL Target] per determinare se disponi di traffico sufficiente per il successo dell'attività Automated Personalization.
 title: Quanto traffico è necessario per un'attività di successo?
-feature: Automated Personalization
+feature: Personalizzazione automatizzata
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
 translation-type: tm+mt
-source-git-commit: 6ba670ef69fa23c0023636a1920eed15dcd9dd06
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '752'
 ht-degree: 14%
 
 ---
