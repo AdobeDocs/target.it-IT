@@ -1,18 +1,18 @@
 ---
 keywords: MVT;test multivariato;rapporto contributo posizione
-description: Scoprite come utilizzare il rapporto Location Contribution (Contributo posizione) per  attività Adobe Target Experience Targeting che mostra le prestazioni di ogni elemento e di ogni offerta.
-title: Come si utilizza il rapporto Location Contribution (Contributo posizione) per i test multivariati?
-feature: Reports
+description: Scopri come utilizzare il rapporto Contributo posizione per Adobe [!DNL Target] Attività di targeting esperienza che mostra le prestazioni di ogni elemento e di ogni offerta.
+title: Come si utilizza il rapporto Contributo posizione per i test multivariati?
+feature: Rapporti
+exl-id: 2fb7d2b3-d981-44fd-9bb2-021903605a09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '219'
 ht-degree: 83%
 
 ---
 
-
-# Rapporto Contributo Posizione (MVT){#location-contribution-report-mvt}
+# Rapporto Contributo Posizione (MVT)
 
 Nel rapporto Contributo posizione sono incluse le prestazioni di ogni elemento e di ogni offerta.
 
@@ -32,7 +32,7 @@ La seconda tabella fornisce un rapporto a livello di offerta. Mostra tasso di co
 
 ![](assets/locationcontributionbottom.png)
 
-## Video di formazione: Creare un test MVT  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare un test MVT  ![Badge tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Contributo posizione è descritto a partire dal minuto 8:45.
 
