@@ -2,16 +2,16 @@
 keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;massimo;limite;vincolo;carattere;best practice;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;risoluzione dei problemi
 description: Visualizza un elenco di limiti di carattere e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
-feature: Troubleshooting
+feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
+exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 translation-type: tm+mt
-source-git-commit: 38682bb9dfd9f5855fca3144c129d0d422e017a9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1163'
-ht-degree: 60%
+source-wordcount: '1162'
+ht-degree: 59%
 
 ---
-
 
 # Limiti
 
@@ -234,7 +234,7 @@ Alle offerte si applicano i seguenti limiti di dimensione:
 
 * **Limite**: 50 tipi di pubblico/segmenti di reporting per attività.
 
-## Casella di immissione profilo di script nell’interfaccia utente di Target
+## Casella di immissione profilo script nell’ interfaccia utente [!DNL Target]
 
 * **Limite consigliato**: 2.000 caratteri.
 
@@ -273,4 +273,3 @@ Alle offerte si applicano i seguenti limiti di dimensione:
 * **Limite** consigliato: 2.500 caratteri per valore della regola di targeting.
 * **Limite consigliato**: 30.000 valori univoci per pubblico in tutte le regole di targeting.
 * **Limite consigliato**: 100.000 valori di regole di targeting univoci per attività.
-
