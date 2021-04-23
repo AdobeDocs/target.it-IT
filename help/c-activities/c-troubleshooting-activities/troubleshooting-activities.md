@@ -1,20 +1,20 @@
 ---
 keywords: risolvi problemi di Target;risoluzione problemi di Target;contenuto predefinito;test non live;attività non live;targeting non funzionante;visualizzazione esperienza precedente;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina cambiata;messaggio di errore;errore elimina script profilo;AJAX non funziona
-description: Trovate suggerimenti per la risoluzione dei problemi se l'attività Adobe Target  non viene visualizzata sul sito.
-title: Come Posso Risolvere I Problemi Delle Attività?
-feature: Activities
+description: Trova suggerimenti per la risoluzione dei problemi se l'attività Adobe [!DNL Target] non viene visualizzata sul tuo sito.
+title: Come Posso Risolvere I Problemi Relativi Alle Attività?
+feature: Attività
+exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '838'
-ht-degree: 78%
+source-wordcount: '834'
+ht-degree: 77%
 
 ---
 
-
 # Risolvere i problemi relativi alle attività
 
-Se l&#39;attività [!DNL Adobe Target] non viene visualizzata sul sito, questi suggerimenti per la risoluzione dei problemi dovrebbero facilitare la ricerca della soluzione.
+Se l&#39;attività [!DNL Adobe Target] non viene visualizzata sul sito, questi suggerimenti dovrebbero essere utili per trovare la soluzione.
 
 >[!NOTE]
 >
@@ -22,11 +22,11 @@ Se l&#39;attività [!DNL Adobe Target] non viene visualizzata sul sito, questi s
 
 Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le soluzioni suggerite.
 
-## Ho creato un&#39;attività utilizzando l&#39;interfaccia utente di Target e non posso aggiornarla tramite API.
+## Ho creato un’attività utilizzando l’ [!DNL Target] interfaccia utente e non posso aggiornarla tramite API.
 
-Le attività create utilizzando l&#39;interfaccia utente di Target devono essere aggiornate tramite l&#39;interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se originariamente create un&#39;attività utilizzando l&#39;API, ad esempio, ma successivamente modificate l&#39;attività tramite l&#39;interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un&#39;altra chiamata API.
+Le attività create utilizzando l’interfaccia utente di Target devono essere aggiornate tramite l’interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se originariamente crei un’attività utilizzando l’API, ad esempio, ma successivamente modifichi l’attività tramite l’interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
 
-Come procedura ottimale, provate ad aggiornare l&#39;attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato originariamente per creare l&#39;attività.
+Come best practice, prova ad aggiornare l’attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l’attività originariamente.
 
 ## Viene visualizzato il contenuto predefinito.
 
@@ -69,7 +69,7 @@ Assicurati che l’attività sia completa e che sia stata attivata.
 * Prova a utilizzare un altro browser.
 * Utilizza la modalità Privata/Navigazione anonima.
 
-## Sei stato aggiunto di recente a Target ma non puoi creare attività.
+## Sei stato aggiunto di recente a [!DNL Target] ma non puoi creare attività.
 
 **Convalida:** fai clic su Crea attività. Se l’opzione non è disponibile, è molto probabile che non disponi delle autorizzazioni necessarie per creare un’attività.
 
@@ -78,7 +78,7 @@ Assicurati che l’attività sia completa e che sia stata attivata.
 Una volta aggiunto come utente in Target, devi disporre del ruolo Approvatore per creare le attività.
 
 * Chiedi all’amministratore del tuo account di assegnarti il ruolo Approvatore.
-* Se sei l&#39;amministratore, assegna il ruolo di approver da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]** in Target.
+* Se sei l’amministratore, assegnati il ruolo Approvatore da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]** in Target.
 
    Consulta [Assegnare a se stessi il ruolo di Approvatore](/help/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
@@ -137,10 +137,10 @@ Esegui una delle operazioni seguenti:
 * Riprova a eliminarlo. Viene visualizzato il messaggio di operazione eseguita correttamente.
 * Attendi circa 10 minuti per l’importazione di Target Standard/Premium. L’importazione aggiorna l’elenco degli script di profilo.
 
-## Alcune chiamate ajax [!DNL Target] non funzionano.
+## Alcune chiamate AJAX [!DNL Target] non funzionano.
 
 **Nota:**[!DNL Target] se una stessa pagina contiene più chiamate AJAX con lo stesso nome ma diversi parametri, queste non funzioneranno correttamente. Viene effettuata solo la prima chiamata.
 
-## Avete attivato un&#39;attività utilizzando l&#39;API di Target, ma l&#39;attività mostra uno stato di [!UICONTROL Inactive] nell&#39;interfaccia di Target.
+## Hai attivato un&#39;attività utilizzando l&#39;API [!DNL Target], ma l&#39;attività mostra uno stato di [!UICONTROL Inattivo] nell&#39;interfaccia utente [!DNL Target].
 
 Quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando l’API di Target, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente.
