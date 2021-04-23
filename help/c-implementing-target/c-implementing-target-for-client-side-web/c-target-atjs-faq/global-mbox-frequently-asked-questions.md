@@ -1,23 +1,23 @@
 ---
 keywords: risoluzione problemi;domande frequenti;FAQ;domande e risposte;globale;mbox globale
-description: Leggete le domande frequenti e le risposte sulle mbox globali  Adobe Target.
+description: Leggi le domande frequenti (FAQ) e le risposte su Adobe [!DNL Target] mbox globali.
 title: Quali sono le domande frequenti sulla mbox globale?
 feature: at.js
 role: Developer
+exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '314'
-ht-degree: 93%
+source-wordcount: '312'
+ht-degree: 85%
 
 ---
 
-
-# Domande frequenti sulla mbox globale{#global-mbox-frequently-asked-questions}
+# Domande frequenti sulla mbox globale
 
 Elenco delle domande frequenti sulle mbox globali.
 
-## Posso avere più di una mbox globale se il mio account di Target è impostato su più domini? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
+## Posso avere più di una mbox globale se il mio account [!DNL Target] è impostato su più domini? {#section_B7252BA6C3BB4EF4AE9E53F47FD58ABD}
 
 L&#39;account supporta un&#39;unica mbox globale.
 
@@ -25,7 +25,7 @@ Puoi definire un limite per l&#39;esecuzione delle attività aggiungendo a quest
 
 Puoi anche trasmettere un parametro sulla pagina utilizzando [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md) e quindi selezionare tali parametri nella sezione &quot;Configura URL&quot; nel [!UICONTROL Compositore esperienza visivo] o aggiungendo i parametri come “perfezionamenti” nel Compositore esperienza basato su modulo.
 
-## Come faccio a trasferire i dati dei ricavi a una mbox globale di Target? {#section_17AEA933BADA4D169CCEDF5833C41306}
+## Come faccio a trasferire i dati sui ricavi a una mbox globale [!DNL Target]? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
 Per raccogliere le informazioni su ricavi e ordini in target-global-mbox, è necessario inviare a Target i “parametri mbox”. Questi parametri sono coppie nome/valore utilizzate per inviare ulteriori informazioni a Target. In Target viene eseguita la ricerca automatica di tali parametri (nomi riservati) allo scopo di popolare i dati dei ricavi.
 
