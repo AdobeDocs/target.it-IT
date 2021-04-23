@@ -1,18 +1,18 @@
 ---
 keywords: intervallo temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
-description: Scopri come utilizzare le date e le ore di inizio/fine per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico. È inoltre possibile impostare le opzioni relative a Settimana e Partizione giorno.
-title: Posso eseguire il targeting dei visitatori che visitano il mio sito in orari specifici?
-feature: Audiences
+description: Scopri come utilizzare le date e gli orari di inizio/fine per eseguire il targeting degli utenti che visitano il tuo sito durante un intervallo di tempo specifico. È inoltre possibile impostare le opzioni Ripartizione settimanale e giornaliera.
+title: Posso [!DNL Target] Visitatori che visitano il mio sito a orari specifici?
+feature: Tipi di pubblico
+exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '425'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
-
-# Intervallo temporale{#time-frame}
+# Intervallo temporale
 
 Puoi aggiungere date e orari di inizio/fine per rivolgerti agli utenti che visitano il tuo sito durante un intervallo temporale specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
@@ -52,7 +52,7 @@ Per esempio, utilizzando [la funzione tipi di pubblico combinati ad hoc](/help/c
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creazione del contrassegno Panoramica ![Audience](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico ![Badge panoramica](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
