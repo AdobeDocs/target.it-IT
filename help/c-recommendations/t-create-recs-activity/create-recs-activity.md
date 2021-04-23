@@ -1,18 +1,18 @@
 ---
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
-description: Scoprite come utilizzare  Adobe Target Visual Experience Composer (VEC) per creare un'attività Recommendations direttamente su una pagina compatibile con Target.
+description: 'Scopri come utilizzare il Compositore esperienza visivo (VEC) di Adobe per creare un’attività Recommendations direttamente su una pagina abilitata a [!DNL Target]. [!DNL Target] '
 title: Come si crea un'attività Recommendations?
-feature: Recommendations
+feature: Consigli
+exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1309'
 ht-degree: 76%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Creare un’attività Consigli{#create-a-recommendations-activity}
+# ![PREMIUM](/help/assets/premium.png) Creare un’attività Consigli
 
 Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 
@@ -46,17 +46,17 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    Quando fai clic su [!UICONTROL Avanti], il Compositore esperienza visivo si apre e mostra la pagina. Puoi sostituire un elemento corrente con i consigli oppure inserirli.
 
-1. Fate clic su un elemento nella pagina, quindi, se le raccomandazioni sono disponibili nella posizione in cui si trova l&#39;elemento, fate clic su **[!UICONTROL Sostituisci con Recommendations]**, **[!UICONTROL Inserisci Recommendations prima]** o su **[!UICONTROL Inserisci Recommendations dopo]**.
+1. Fai clic su un elemento nella pagina; quindi, se i consigli sono disponibili nella posizione in cui si trova l’elemento, fai clic su **[!UICONTROL Sostituisci con Recommendations]**, **[!UICONTROL Inserisci Recommendations prima]** o su **[!UICONTROL Inserisci Recommendations dopo]**.
 
-   I visitatori del sito visualizzeranno il contenuto consigliato solo se sono idonei per la raccomandazione. I visitatori non idonei per la raccomandazione visualizzeranno il contenuto predefinito.
+   I visitatori del sito visualizzeranno il contenuto consigliato solo se si qualificano per la raccomandazione. I visitatori che non si qualificano per la raccomandazione visualizzeranno il contenuto predefinito.
 
    ![Opzioni per la funzione Consigli](/help/c-recommendations/t-create-recs-activity/assets/Menu_Replace-Insert.png)
 
-   * **[!UICONTROL Sostituisci con Recommendations]**: La sostituzione di un elemento con le raccomandazioni elimina il contenuto corrente e lo sostituisce con le raccomandazioni. Quando i visitatori visitano il sito e si qualificano per la raccomandazione, visualizzeranno gli elementi consigliati nell&#39;area specificata invece del contenuto esistente.
-   * **[!UICONTROL Inserisci Recommendations prima]**: L&#39;inserimento di raccomandazioni prima dell&#39;elemento selezionato posiziona il contenuto consigliato prima di tale elemento. A seconda della costruzione della pagina, la raccomandazione viene visualizzata sopra o a sinistra dell&#39;elemento selezionato.
-   * **[!UICONTROL Inserisci Recommendations dopo]**: L&#39;inserimento di raccomandazioni dopo l&#39;elemento selezionato posiziona il contenuto consigliato dopo tale elemento. A seconda della costruzione della pagina, la raccomandazione viene visualizzata sotto o a destra dell&#39;elemento selezionato.
+   * **[!UICONTROL Sostituisci con Recommendations]**: La sostituzione di un elemento con i consigli elimina il contenuto corrente e lo sostituisce con i consigli. Quando i visitatori visitano il sito e si qualificano per il consiglio, visualizzano gli elementi consigliati nell&#39;area specificata invece del contenuto esistente.
+   * **[!UICONTROL Inserisci Recommendations prima]**: L’inserimento di consigli prima dell’elemento selezionato posiziona il contenuto consigliato prima di tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato sopra o a sinistra dell’elemento selezionato.
+   * **[!UICONTROL Inserisci Recommendations dopo]**: L’inserimento di consigli dopo l’elemento selezionato posiziona il contenuto consigliato dopo tale elemento. A seconda della costruzione della pagina, il consiglio viene visualizzato sotto o a destra dell’elemento selezionato.
 
-   L&#39;opzione **[!UICONTROL Espandi selezione]** consente di espandere la posizione selezionata (contenitore principale) per facilitare l&#39;identificazione e l&#39;inclusione degli elementi di pagina desiderati.
+   L’opzione **[!UICONTROL Espandi selezione]** consente di espandere la posizione selezionata (contenitore principale) per facilitarti di identificare e includere più facilmente gli elementi di pagina desiderati.
 
 1. Seleziona un tipo di pagina.
 
@@ -75,7 +75,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
 1. Seleziona uno o più [criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
-   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, la schermata [!UICONTROL Seleziona criteri] mostra criteri compatibili con il settore verticale e il tipo di pagina selezionato nel passaggio precedente. Puoi modificare queste opzioni per visualizzare altri criteri.
+   I criteri vengono visualizzati sotto forma di schede contenenti informazioni su ciascun criterio. Per impostazione predefinita, la schermata [!UICONTROL Seleziona criteri] visualizza i criteri compatibili con il settore verticale e il tipo di pagina selezionato nel passaggio precedente. Puoi modificare queste opzioni per visualizzare altri criteri.
 
    >[!NOTE]
    >
@@ -89,8 +89,8 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
       Alcuni criteri sono forniti con [!DNL Recommendations]. Con il tuo team puoi inoltre creare criteri personalizzati.
 
-   * Per creare un nuovo criterio, fare clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**, quindi compilare le informazioni relative ai nuovi criteri. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
-   * È inoltre possibile raggruppare i criteri in sequenze. Per creare una nuova sequenza di criteri, fare clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza criteri]**. Per ulteriori informazioni, vedere [Crea sequenza di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md).
+   * Per creare un nuovo criterio, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea criterio]**, quindi inserisci le informazioni per i nuovi criteri. Per informazioni sulla creazione di un nuovo criterio, consulta [Creazione di criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md).
+   * È inoltre possibile raggruppare i criteri in sequenze. Per creare una nuova sequenza di criteri, fai clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza di criteri]**. Per ulteriori informazioni, consulta [Creare sequenze di criteri](/help/c-recommendations/c-algorithms/create-criteria-sequence.md) .
 
 1. Fai clic su **[!UICONTROL Successivo]**.
 1. Seleziona un [design](/help/c-recommendations/c-design-overview/design-overview.md).
@@ -164,8 +164,8 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    * Attivare l’attività
    * Modificare l’attività
-   * Condivisione dell&#39;attività nel feed di Experience Cloud 
-   * QA dell&#39;attività
+   * Condividi l’attività nel feed di Experience Cloud
+   * Controllo qualità dell’attività
    * Visualizzare gli URL dell’esperienza
    * Scaricare dati
    * Modificare la percentuale di partecipanti all’attività che visualizzano l’esperienza di controllo
@@ -178,6 +178,6 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    I conflitti tra attività si verificano quando più attività sono impostate per consegnare il contenuto sulla stessa pagina e possono causare la visualizzazione di contenuto imprevisto.
 
-## Video di formazione: Creare un’attività Consigli (7:15)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare un’attività Consigli (7:15)  ![Badge tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/27688)
