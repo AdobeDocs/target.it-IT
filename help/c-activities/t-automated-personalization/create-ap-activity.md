@@ -1,40 +1,40 @@
 ---
-keywords: personalizzazione automatizzata;ap;audience;ensemble;foresta casuale;varianza residua;varianza errore;valore del ciclo di vita
-description: Scoprite come creare un'attività Automated Personalization (AP)  in  Adobe Target utilizzando Visual Experience Composer (VEC).
-title: Come si crea un'attività Automated Personalization ?
-feature: Automated Personalization
+keywords: personalizzazione automatizzata;ap;tipi di pubblico;insieme;foresta casuale;varianza residua;varianza degli errori;valore del ciclo di vita
+description: Scopri come creare un’attività Automated Personalization (AP) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo.
+title: Come si crea un’attività Automated Personalization?
+feature: Personalizzazione automatizzata
+exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2053'
+source-wordcount: '2052'
 ht-degree: 91%
 
 ---
 
-
 # ![PREMIUM](/help/assets/premium.png) Creare un’attività di personalizzazione automatizzata
 
-Il flusso di lavoro dell&#39;attività [!UICONTROL  Automated Personalization] (AP) in [!DNL Adobe Target] varia a seconda del flusso di lavoro degli altri tipi di attività.
+Il flusso di lavoro dell&#39;attività [!UICONTROL Automated Personalization] (AP) in [!DNL Adobe Target] varia dal flusso di lavoro degli altri tipi di attività.
 
-1. Nell&#39;elenco [!DNL Target] [!UICONTROL Attività], fare clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Automated Personalization]**.
+1. Dall&#39;elenco [!DNL Target] [!UICONTROL Attività], fai clic su **[!UICONTROL Crea attività]** > **[!UICONTROL Automated Personalization]**.
 
    ![Crea attività: Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/assets/ap_create-new.png)
 
-1. Per utilizzare [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC), fate clic su **[!UICONTROL Visual (Predefinito)]**.
+1. Per utilizzare il [!UICONTROL Compositore esperienza visivo] (VEC), fai clic su **[!UICONTROL Visivo (Predefinito)]**.
 
    ![Finestra di dialogo Crea attività di personalizzazione automatizzata](/help/c-activities/t-automated-personalization/assets/ap_url-new.png)
 
-   Se preferite utilizzare [!UICONTROL Form-Based Experience Composer], selezionate [!UICONTROL Form]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md).
+   Se preferisci utilizzare il [!UICONTROL Compositore esperienza basato su moduli], seleziona [!UICONTROL Modulo]. Per ulteriori informazioni, consulta [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md).
 
    >[!NOTE]
    >
-   >Oltre a VEC e [!UICONTROL Form-Based Experience Composer], [!DNL Target] offre la [!UICONTROL Single Page Application VEC] e la VEC for Mobile Apps. Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/c-experiences/experiences.md).
+   >Oltre al Compositore esperienza visivo e al [!UICONTROL Compositore esperienza basato su moduli], [!DNL Target] offre il Compositore esperienza visivo per applicazione a pagina singola] e il Compositore esperienza visivo per app mobili. [!UICONTROL  Per ulteriori informazioni sui vari moduli di composizione, consulta [Esperienze e offerte](/help/c-experiences/experiences.md).
    >
    >Per informazioni sulla risoluzione dei problemi relativi al Compositore esperienza visivo, consulta [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md).
    >
    >L’opzione [!UICONTROL Choose Workplace] (Scegli luogo di lavoro) nell’illustrazione precedente è una funzione di [Target Premium](/help/c-intro/intro.md). Se la tua organizzazione dispone di una licenza di Target Standard, questa opzione non è disponibile.
 
-1. (Condizionale) Se siete un cliente [!DNL Target] Premium, [scegliete un&#39;area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+1. (Condizionale) Se sei un cliente [!DNL Target] Premium, [scegli un&#39;area di lavoro](/help/administrating-target/c-user-management/property-channel/property-channel.md).
 
 1. Verifica o inserisci l’URL di attività, quindi fai clic su **[!UICONTROL Avanti]**.
 
@@ -44,11 +44,11 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL  Automated Personalization] (
 
    La pagina con l’URL specificato viene visualizzata nel Compositore esperienza visivo.
 
-1. Per assegnare un nome all&#39;attività, fate clic sul campo **[!UICONTROL Name]** e digitate il nome dell&#39;attività.
+1. Per assegnare un nome all’attività, fai clic sul campo **[!UICONTROL Nome]** e digita il nome dell’attività.
 
    ![Campo Nome](/help/c-activities/t-automated-personalization/assets/ab_newname-new.png)
 
-   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
+   Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
@@ -142,7 +142,7 @@ Il flusso di lavoro dell&#39;attività [!UICONTROL  Automated Personalization] (
    |--- |--- |
    | Nome | Assegna un nome all’attività. Attribuisci all&#39;attività un nome sufficientemente descrittivo da consentire ai membri del gruppo di riconoscerla nell&#39;elenco delle attività.  Consultate la tabella qui sopra per vedere quali caratteri non sono consentiti nel nome di un’attività. |
    | Finalità | (Facoltativo) Inserire la finalità del test. La finalità aiuta a ricordare lo scopo dell&#39;attività. |
-   | Priorità | L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.<br>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<br>Se questa opzione non è abilitata in  [!UICONTROL Amministrazione] >   Reporting (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.<br>Per abilitare le priorità con granulometria fine, fai clic su  [!UICONTROL Amministrazione] >  [!UICONTROL Rapporti], quindi seleziona l’opzione  [!UICONTROL Abilita ] priorità con granulosità fine per la posizione &quot;Attiva&quot;.<br>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:<ul><li>0 = Bassa</li><li>999 = Alta</li></ul>Per le attività create con le versioni precedenti di Target Standard/Premium, la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.<br>**Nota**: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
+   | Priorità | L’interfaccia utente e le opzioni per Priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999.<br>La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.<br>Se questa opzione non è abilitata in  [!UICONTROL Amministrazione]  >  [!UICONTROL Rapporti]  (opzione predefinita), specifica una priorità: Bassa, Media o Alta.<br>Per abilitare le priorità dettagliate, fai clic su  [!UICONTROL Amministrazione]  >  [!UICONTROL Rapporti], quindi attiva l’opzione  [!UICONTROL Abilita ] priorità precise.<br>Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:<ul><li>0 = Bassa</li><li>999 = Alta</li></ul>Per le attività create con le versioni precedenti di Target Standard/Premium, la priorità Bassa viene convertita in 0, la priorità Media in 5 e la priorità Alta in 10. Se necessario, è possibile modificare questi valori.<br>**Nota**: prima di poter disabilitare questa opzione dopo aver utilizzato le priorità precise, tutte le priorità devono essere impostate su 0, 5 o 10. |
    | Durata | Imposta le date di inizio e di fine dell&#39;attività. |
    | Obiettivo di ottimizzazione | Specifica l&#39;obiettivo di ottimizzazione, costituito da due parametri:<ul><li>Ciò che desideri misurare con l&#39;attività</li><li>L&#39;azione intrapresa da un partecipante a un&#39;attività che dimostra che l&#39;obiettivo è stato raggiunto.</li></ul>È possibile scegliere di assegnare un nome all&#39;obiettivo di ottimizzazione, selezionando i tre punti a destra di “Il mio obiettivo principale”. Le attività personalizzazione automatizzata sono in grado di misurare conversione, RPV e AOV. La conversione può essere ottenuta mediante la visualizzazione di una pagina o di una mbox. È possibile inoltre il tracciamento dei clic.<br>L’obiettivo principale diventa anche la metrica di modellazione, utilizzata dal sistema di modellazione per calcolare il successo dell’esperienza.<br>I visitatori possono essere mantenuti nell&#39;attività per scopi di tracciamento, dopo aver raggiunto l&#39;obiettivo di modellazione. Ad esempio, spesso per aumentare il numero di clic si ricorre a un’attività di Personalizzazione automatizzata che viene impostata come obiettivo di modellazione. Tuttavia è importante capire in che modo un maggior numero di clic porti alla conversione finale, perciò è essenziale effettuare il tracciamento fino alla conversione finale.<br>È possibile fornire la dipendenza su più metriche insieme alla flessibilità necessaria, per scegliere se la metrica debba essere raggiunta o meno per incrementare il conteggio.<br>È necessario definire entrambe le metriche (o più metriche) di successo prima di renderle interdipendenti tra loro.<br>L’opzione Aggiungi dipendenza consente di incrementare la metrica di successo nel caso in cui un’altra metrica di successo venga raggiunta o meno.<br>Per aggiungere una dipendenza:<ol><li>Dopo aver aggiunto ulteriori metriche, fai clic su [!UICONTROL Impostazioni avanzate] sotto il menu a tre punti a destra di Obiettivo aggiuntivo.</li><li>Fai clic sull’opzione [!UICONTROL Aggiungi dipendenza] nella parte inferiore della sezione [!UICONTROL Impostazioni reporting].</li><li>Trascina e rilascia le metriche desiderate dal riquadro di sinistra a quello di destra, quindi fai clic su [!UICONTROL Raggiunto] per scegliere tra [!UICONTROL Raggiunto] e [!UICONTROL Non raggiunto]</li></ol>È possibile modificare o rimuovere le dipendenze dopo averle aggiunte. |
    | Metrica di conversione | Per impostazione predefinita, la metrica di conversione è identica alla metrica di obiettivo ottimizzata. Tuttavia, puoi definire una metrica di conversione separata deselezionando l’opzione [!UICONTROL Uguale all’obiettivo di ottimizzazione]. |
