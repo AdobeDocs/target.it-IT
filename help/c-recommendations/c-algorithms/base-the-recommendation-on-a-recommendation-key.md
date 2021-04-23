@@ -1,21 +1,21 @@
 ---
-keywords: chiave di raccomandazione;logica di raccomandazione;categoria corrente;attributo personalizzato;ultimo elemento acquistato;ultimo elemento visualizzato;elemento più visualizzato;elemento visualizzato;categoria preferita;popolarità;elemento visualizzato di recente;ultimo acquistato;ultimo visualizzato;ultimo visualizzato;ultimo visualizzato;preferito;ultimo visualizzato;recente visualizzato
-description: Scoprite come utilizzare le raccomandazioni basate sulle chiavi che utilizzano il contesto di comportamento dei visitatori per mostrare risultati rilevanti  attività Adobe Target Recommendations.
-title: Come posso basare la raccomandazione su una chiave di raccomandazione?
-feature: Recommendations
+keywords: chiave di consiglio;logica di consiglio;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;articolo più visualizzato;articolo più visualizzato;articolo più visualizzato;categoria preferita;popolarità;articolo visualizzato di recente;ultimo articolo acquistato;ultimo visualizzato;più visualizzato;preferito;visualizzato di recente
+description: Scopri come utilizzare i consigli basati sulle chiavi che utilizzano il contesto di comportamento del visitatore per mostrare i risultati rilevanti nelle attività di Adobe [!DNL Target] Recommendations.
+title: Come posso basare il consiglio su una Chiave consiglio?
+feature: Consigli
 mini-toc-levels: 2
+exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2932'
 ht-degree: 67%
 
 ---
 
-
 # Basare il consiglio su una chiave consiglio
 
-Recommendations basato sulle chiavi utilizza il contesto del comportamento dei visitatori per mostrare risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations].
+Recommendations basato sulle chiavi utilizza il contesto del comportamento del visitatore per mostrare i risultati rilevanti nelle attività [!DNL Adobe Target] [!DNL Recommendations] .
 
 Esistono due tipi di consigli:
 
@@ -24,14 +24,14 @@ Esistono due tipi di consigli:
 
 Ogni criterio è definito nella relativa scheda. Il traffico è suddiviso in modo uniforme tra i diversi test di criteri. In altre parole, in presenza di due criteri, il traffico viene suddiviso in modo uniforme tra di essi. In presenza di due criteri e di due progettazioni, il traffico viene suddiviso in modo uniforme tra le quattro combinazioni. Puoi inoltre specificare una percentuale di visitatori del sito che visualizzano il contenuto predefinito, a scopo di confronto. In tal caso, la percentuale specificata di visitatori visualizza il contenuto predefinito e gli altri sono suddivisi tra i criteri e le combinazioni di progettazione.
 
-1. Create un nuovo criterio, oppure selezionate un criterio esistente e fate clic su **[!UICONTROL Modifica]**.
-1. Per modificare la chiave di raccomandazione, selezionate la nuova chiave dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione], quindi fate clic su **[!UICONTROL Salva]** o **[!UICONTROL Aggiorna]**.
+1. Crea un nuovo criterio o seleziona un criterio esistente e fai clic su **[!UICONTROL Modifica]**.
+1. Per modificare la chiave di raccomandazione, seleziona la nuova chiave dall&#39;elenco a discesa [!UICONTROL Chiave consiglio] , quindi fai clic su **[!UICONTROL Salva]** o **[!UICONTROL Aggiorna]**.
 
-   Poiché diverse logiche sono associate a diverse chiavi di consigli, diversi consigli si prestano a posizionarsi su diversi tipi di pagine. Per ulteriori informazioni su ciascuna chiave di raccomandazione, consultate le sezioni seguenti.
+   Poiché diverse logiche sono associate a diverse chiavi di consigli, diversi consigli si prestano a posizionarsi su diversi tipi di pagine. Per ulteriori informazioni su ciascuna chiave di raccomandazione, consulta le sezioni seguenti.
 
-## Chiavi di raccomandazione
+## Chiavi dei consigli
 
-Le seguenti chiavi di raccomandazione sono disponibili dall&#39;elenco a discesa [!UICONTROL Chiave raccomandazione]:
+Le seguenti chiavi di raccomandazione sono disponibili dall&#39;elenco a discesa [!UICONTROL Chiave consiglio] :
 
 ### Elemento corrente {#current-item}
 
@@ -82,7 +82,7 @@ Quando basi i consigli su attributi personalizzati, seleziona l&#39;attributo pe
 
 Puoi eseguire il filtro in tempo reale all&#39;inizio dell&#39;output di criteri personalizzati. Ad esempio, puoi limitare gli articoli consigliati a quelli della categoria o del marchio preferito dal visitatore. Così puoi combinare calcoli offline e filtri in tempo reale.
 
-Questa funzionalità consente di utilizzare [!DNL Target] per aggiungere personalizzazione alle raccomandazioni calcolate offline o agli elenchi personalizzati. Permette infatti di unire le compenze del personale addetto ai dati alle tecnonologie comprovate di Adobe per la distribuzione, l&#39;applicazione di filtri al momento dell&#39;esecuzione, i test A/B, il targeting, la generazione di rapporti, le integrazioni e altro.
+Grazie a questa funzionalità è possibile utilizzare [!DNL Target] per aggiungere la personalizzazione ai consigli calcolati offline o agli elenchi personalizzati. Permette infatti di unire le compenze del personale addetto ai dati alle tecnonologie comprovate di Adobe per la distribuzione, l&#39;applicazione di filtri al momento dell&#39;esecuzione, i test A/B, il targeting, la generazione di rapporti, le integrazioni e altro.
 
 Con l’aggiunta delle regole di inclusione ai Criteri personalizzati, i consigli non sono più statici ma diventano dinamici, in base agli interessi del visitatore.
 
@@ -110,7 +110,7 @@ Se la chiave è un attributo di profilo personalizzato e il tipo di algoritmo è
 
 * Può essere utilizzato su qualsiasi pagina.
 
-#### Chiave delle raccomandazioni personalizzate
+#### Chiave consiglio personalizzata
 
 Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad esempio, supponi di voler visualizzare filmati consigliati in base all’ultimo filmato che un visitatore ha aggiunto alla sua coda.
 
@@ -157,7 +157,7 @@ Ad esempio, la visualizzazione di “Categoria A” e poi di “Categoria B” i
 
 ### Ultimo articolo acquistato {#last-purchased}
 
-Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
+Il consiglio è determinato in base all&#39;ultimo articolo acquistato da ogni visitatore univoco. Tale dato viene acquisito automaticamente, quindi non è necessario trasmettere alcun valore alla pagina.
 
 #### Logica (criteri)
 
@@ -231,11 +231,11 @@ Il consiglio è determinata dalla popolarità degli elementi sul sito. Il consig
 
 Utilizza la cronologia del visitatore (nell&#39;arco delle sessioni) per presentare gli ultimi elementi *x* visualizzati, in base al numero di posizioni nella progettazione.
 
-Il criterio Elementi visualizzati di recente restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
+Il criterio Articoli visualizzati di recente restituisce risultati specifici per un dato [ambiente](/help/administrating-target/hosts.md). Se due siti appartengono ad ambienti diversi e un visitatore passa da un sito all’altro, ciascun sito mostra solo gli articoli visualizzati di recente per il sito appropriato. Se due siti si trovano nello stesso ambiente e un visitatore passa tra di essi, il visitatore vedrà gli stessi elementi visualizzati di recente per entrambi i siti.
 
 >[!NOTE]
 >
->Non potete utilizzare i criteri [!UICONTROL Elementi visualizzati di recente] per le raccomandazioni di backup.
+>Non è possibile utilizzare i criteri [!UICONTROL Articoli visualizzati di recente] per i consigli di backup.
 
 Puoi filtrare gli articoli o i file multimediali visualizzati di recente in modo che vengano visualizzati solo quelli con uno specifico attributo.
 
@@ -252,23 +252,23 @@ Una società multinazionale con più business potrebbe avere un visitatore che v
 
 >[!NOTE]
 >
->[!UICONTROL Recently Viewed ] Items (Elementi visualizzati di recente) rispetta sia le impostazioni globali di esclusione che le impostazioni della raccolta selezionata per l&#39;attività. Se un elemento è escluso da un&#39;esclusione globale, o non è contenuto nella raccolta selezionata, non verrà visualizzato. Di conseguenza, quando si utilizza un criterio [!UICONTROL Elementi visualizzati di recente], in genere deve essere utilizzata l&#39;impostazione &quot;Tutte le raccolte&quot;.
+>[!UICONTROL Articoli visualizzati di recente ] rispetta sia le impostazioni globali di esclusioni sia l’impostazione di raccolta selezionata per l’attività. Se un elemento è escluso da un’esclusione globale o non è contenuto nella raccolta selezionata, non verrà visualizzato. Pertanto, quando si utilizza un criterio [!UICONTROL Articoli visualizzati di recente] , è consigliabile utilizzare in genere l’impostazione &quot;Tutte le raccolte&quot;.
 
-## Logica raccomandazione
+## Logica consigli
 
 [!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell&#39;attività. La Chiave consiglio determina le opzioni di logica disponibili.
 
-La seguente logica di raccomandazione (criteri) è disponibile dall&#39;elenco a discesa [!UICONTROL Logica raccomandazione]:
+La seguente logica (criteri) per i consigli è disponibile dall’elenco a discesa [!UICONTROL Logica consigli] :
 
 ### Articoli/Media con attributi simili {#similar-attributes}
 
 Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore.
 
-Se selezionate Elementi/File multimediali con attributi simili, potete impostare le regole per la similarità dei contenuti.
+Se selezioni Articoli/Media con attributi simili, puoi impostare regole di somiglianza del contenuto.
 
-L&#39;utilizzo della similarità dei contenuti per generare raccomandazioni è particolarmente efficace per i nuovi elementi, che probabilmente non verranno visualizzati nelle raccomandazioni utilizzando le persone che hanno visualizzato questo, l&#39;hanno visualizzato e altre logiche basate sul comportamento passato. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
+L’utilizzo della somiglianza di contenuto per generare consigli è particolarmente efficace per i nuovi elementi, che probabilmente non verranno visualizzati nei consigli utilizzando le persone che hanno visualizzato questo, hanno visto quello e altre logiche in base al comportamento passato. È inoltre possibile utilizzare la somiglianza del contenuto per generare consigli utili per i nuovi visitatori, che non hanno effettuato acquisti in precedenza o non possiedono altri dati storici.
 
-Per ulteriori informazioni, vedere [Somiglianza dei contenuti](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
+Per ulteriori informazioni, consulta [Somiglianza del contenuto](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -279,9 +279,9 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
 ### Articoli più visualizzati {#most-viewed-logic}
 
-Visualizza gli elementi o i supporti visualizzati più spesso sul sito.
+Visualizza gli elementi o i file multimediali visualizzati più spesso sul sito.
 
-Questa logica consente di visualizzare le raccomandazioni in base agli elementi più visualizzati sul sito per aumentare le conversioni per altri elementi. Ad esempio, un sito multimediale potrebbe visualizzare raccomandazioni nella propria pagina principale per i video più visualizzati, per incoraggiare i visitatori a guardare altri video.
+Questa logica consente di visualizzare consigli basati sugli elementi più visualizzati sul sito per aumentare le conversioni per altri elementi. Ad esempio, un sito multimediale potrebbe visualizzare consigli nella propria home page per i video più visualizzati per incoraggiare i visitatori a guardare altri video.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -294,9 +294,9 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
 Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato.
 
-Questa logica restituisce gli altri prodotti acquistati dopo l&#39;acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce gli altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica consente di aumentare le opportunità di cross-selling mostrando una raccomandazione su una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando una suite, la raccomandazione potrebbe visualizzare altri elementi acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Quando i visitatori rivedono i loro acquisti, dovete fornire loro ulteriori raccomandazioni.
+Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, la raccomandazione potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -310,9 +310,9 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
 Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. Questo criterio restituisce gli altri prodotti acquistati dopo la visualizzazione dell’articolo corrente; il prodotto specificato non è incluso nell’insieme di risultati.
 
-Questa logica restituisce gli altri prodotti acquistati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
+Questa logica restituisce gli altri prodotti acquistati dopo aver visualizzato questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica consente di aumentare le opportunità di cross-selling mostrando una raccomandazione su una pagina di prodotto, ad esempio, che mostra gli elementi che altri visitatori hanno visualizzato l&#39;elemento acquistato. Ad esempio, se il visitatore sta visualizzando un palo da pesca, la raccomandazione potrebbe mostrare altri elementi acquistati, come le caselle di controllo, i wader e gli escursioni di pesca. Quando i visitatori consultano il sito, vengono loro fornite ulteriori raccomandazioni di acquisto.
+Questa logica consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione su una pagina di prodotto, ad esempio, che mostra gli articoli che altri visitatori hanno visualizzato l’articolo acquistato. Ad esempio, se il visitatore sta visualizzando un palo da pesca, la raccomandazione potrebbe mostrare altri oggetti acquistati, come scatole di gestione, waders e lures da pesca. Quando i visitatori navigano nel sito, è possibile fornire loro ulteriori consigli di acquisto.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -328,7 +328,7 @@ Consiglia gli elementi che vengono visualizzati più spesso nella stessa session
 
 Questa logica restituisce gli altri prodotti visualizzati dopo la visualizzazione di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica consente di creare ulteriori opportunità di conversione consigliando gli elementi visualizzati anche dagli altri visitatori che hanno visualizzato un elemento. Ad esempio, i visitatori che visualizzano le bici da strada sul sito possono anche guardare caschi ciclabili, kit ciclabili, serrature e così via. Potete creare una raccomandazione utilizzando questa logica che suggerisce altri prodotti per incrementare le entrate.
+Questa logica ti consente di creare ulteriori opportunità di conversione consigliando gli elementi visualizzati anche da altri visitatori che hanno visualizzato un elemento. Ad esempio, i visitatori che visualizzano le bici da strada sul tuo sito potrebbero anche guardare caschi da bicicletta, kit da ciclismo, serrature e così via. Potete creare una raccomandazione utilizzando questa logica che suggerisce altri prodotti per incrementare i ricavi.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -344,7 +344,7 @@ Consiglia gli articoli in base alla certezza di una relazione tra articoli diver
 
 Ad esempio, se imposti un’affinità molto forte e il progetto include cinque elementi, tre dei quali soddisfano il livello di soglia di connessione, i due elementi che non soddisfano i requisiti di forza minima non vengono visualizzati nei suggerimenti e vengono sostituiti dagli elementi di backup definiti. Gli elementi con affinità più elevata vengono visualizzati per primi.
 
-Ad esempio, un rivenditore online può raccomandare gli elementi nelle visite successive a cui un visitatore ha mostrato interesse durante le sessioni passate. L&#39;attività di ogni sessione del visitatore viene acquisita per calcolare un&#39;affinità basata su un modello di aggiornamento e di frequenza. Quando il visitatore ritorna al sito, l&#39;affinità del sito viene utilizzata per visualizzare le raccomandazioni in base alle azioni passate sul sito.
+Ad esempio, un rivenditore online può consigliare gli articoli nelle visite successive di cui un visitatore ha mostrato interesse nelle sessioni precedenti. L&#39;attività per ogni sessione del visitatore viene acquisita per calcolare un&#39;affinità basata su un modello di aggiornamento e frequenza. Quando il visitatore ritorna al sito, viene utilizzata l&#39;affinità di sito per visualizzare i consigli in base alle azioni precedenti sul sito.
 
 Alcuni clienti con varie raccolte di prodotti e comportamenti diversi sui siti potrebbero ottenere risultati ottimali impostando un’affinità di sito debole.
 
@@ -357,9 +357,9 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
 ### Articoli più venduti {#top-sellers}
 
-Visualizza gli elementi inclusi negli ordini più completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
+Visualizza gli elementi inclusi nella maggior parte degli ordini completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine.
 
-Questa logica consente di creare raccomandazioni per gli articoli più venduti sul sito per aumentare le conversioni e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
+Questa logica ti consente di creare consigli per gli articoli più venduti sul tuo sito per aumentare le conversioni e i ricavi. Questa logica è particolarmente adatta per i nuovi visitatori del sito.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
@@ -368,15 +368,15 @@ Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
 
 ### Recommendations basato su utente {#user-based}
 
-Raccomanda gli elementi in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Tali elementi sono generalmente denominati &quot;Consigliati per l&#39;utente.&quot;
+Consiglia gli articoli in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Questi articoli sono generalmente denominati &quot;Consigliati per te&quot;.
 
-Questo criterio consente di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che di ritorno. L&#39;elenco delle raccomandazioni è ponderato per l&#39;attività più recente del visitatore e viene aggiornato in sessione e diventa più personalizzato man mano che l&#39;utente naviga sul sito.
+Questi criteri ti consentono di fornire contenuti ed esperienze personalizzati sia ai visitatori nuovi che a quelli di ritorno. L’elenco dei consigli è ponderato rispetto all’attività più recente del visitatore, viene aggiornato in sessione e diventa più personalizzato quando l’utente naviga sul sito.
 
-Sia le viste che gli acquisti vengono utilizzati per determinare gli elementi raccomandati. La chiave di raccomandazione specificata (ad es. Elemento corrente) viene utilizzata per applicare eventuali filtri per le regole di inclusione selezionati.
+Per determinare gli elementi consigliati vengono utilizzate sia le viste che gli acquisti. La chiave di consiglio specificata (ad esempio Elemento corrente) viene utilizzata per applicare eventuali filtri di regole di inclusione selezionati.
 
 Sarà possibile, ad esempio:
 
-* Escludete gli elementi che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
+* Escludere gli articoli che non soddisfano determinati criteri (prodotti esauriti, articoli pubblicati più di 30 giorni fa, film classificati R e così via).
 * Limita gli elementi inclusi a una singola categoria o alla categoria corrente.
 
 Questa logica può essere utilizzata con le seguenti chiavi di raccomandazione:
