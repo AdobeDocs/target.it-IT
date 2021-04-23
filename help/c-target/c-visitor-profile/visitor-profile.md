@@ -2,17 +2,17 @@
 keywords: Panoramica e riferimento
 description: Ulteriori informazioni sui profili dei visitatori che contengono informazioni su come i visitatori utilizzano le pagine e altre posizioni di contenuto ottimizzate.
 title: Cosa sono i profili dei visitatori?
-feature: Audiences
+feature: Tipi di pubblico
+exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 78%
 
 ---
 
-
-# Profili dei visitatori{#visitor-profiles}
+# Profili dei visitatori
 
 I profili dei visitatori includono informazioni su come i visitatori utilizzano le pagine e le altre posizioni di contenuto ottimizzate
 
