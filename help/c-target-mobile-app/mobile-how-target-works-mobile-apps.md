@@ -1,18 +1,18 @@
 ---
-description: Scopri come utilizzare l’SDK Mobile  Adobe per mostrare le esperienze ottimali ai visitatori dell’app mobile.
-title: Come funziona Target nelle app mobili?
-feature: Implement Mobile
+description: Scopri come utilizzare Adobe Mobile SDK per mostrare le esperienze ottimali ai visitatori dell’app mobile.
+title: Come funziona [!DNL Target] nelle app mobili?
+feature: Implementare Mobile
 role: Developer
+exl-id: 1a5f34dc-932d-47c7-b730-6d1658343fb4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '189'
-ht-degree: 86%
+ht-degree: 83%
 
 ---
 
-
-# Funzionamento di Target nelle applicazioni per dispositivi mobili{#how-target-works-in-mobile-apps}
+# Funzionamento di [!DNL Target] nelle applicazioni per dispositivi mobili
 
 L’SDK di Adobe Mobile contatta il server di Target per ottenere il contenuto ed altri punti di dati per mostrare l’esperienza più appropriata all’utente.
 
@@ -33,4 +33,3 @@ Una *[metrica di successo](/help/c-activities/r-success-metrics/success-metrics.
 **Funzionamento di Target nell’SDK**
 
 ![](assets/how-target-mobile-works.png)
-
