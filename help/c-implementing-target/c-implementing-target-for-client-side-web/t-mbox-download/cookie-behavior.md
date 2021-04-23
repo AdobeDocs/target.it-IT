@@ -6,14 +6,14 @@ feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1654'
+source-wordcount: '1652'
 ht-degree: 92%
 
 ---
 
-# Cookie mbox.js{#mbox-js-cookies}
+# Cookie mbox.js
 
 Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte, un cookie di terze parti con un cookie di prima parte oppure un cookie di terze parti.
 
@@ -117,7 +117,7 @@ Nel cookie sono conservati una serie di valori per la gestione dell’esperienza
 | check | Un semplice valore di test utilizzato per determinare se un visitatore supporta i cookie. Impostato ogni volta che un visitatore richiede una pagina. |
 | disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file mbox.js. Per impostazione predefinita, la sua durata è di 1 ora. |
 
-## Impatto su Target per i visitatori di Safari a causa di modifiche nel monitoraggio di Apple WebKit {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
+## Impatto su [!DNL Target] per i visitatori di Safari a causa di modifiche nel monitoraggio di Apple WebKit {#section_2A2E5730ED7D4A0985C904AFEA310AAE}
 
 **Come funziona il tracciamento di Adobe Target?**
 
