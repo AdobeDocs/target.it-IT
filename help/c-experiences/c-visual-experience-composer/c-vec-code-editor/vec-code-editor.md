@@ -1,20 +1,20 @@
 ---
 keywords: selettore css;codice personalizzato;editor di codice;Mobile Web Experience Editor
-description: Scoprite come utilizzare il pannello Modifiche in  Adobe Target per visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (Selettore CSS, Mbox e Codice personalizzato).
+description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target] per visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 title: Quali modifiche posso apportare alla mia pagina?
-feature: Visual Experience Composer (VEC)
+feature: Compositore esperienza visivo
+exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2123'
+source-wordcount: '2126'
 ht-degree: 97%
 
 ---
 
+# Modifiche
 
-# Modifiche{#modifications}
-
-Informazioni sulla pagina Modifiche in [!DNL Adobe Target] che consente di visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (Selettore CSS, Mbox e Codice personalizzato).
+Informazioni sulla pagina Modifiche in [!DNL Adobe Target] che consente di visualizzare le modifiche alla pagina e di aggiungere ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
 
 La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e [selezionando un&#39;azione](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
 
