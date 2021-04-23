@@ -1,23 +1,23 @@
 ---
 keywords: targetPageParamsAll;targetpageparamsall;PageParamsAll;pageparamsall;parametri pagina;parametri page;at.js;funzioni;funzione
-description: Utilizzate la funzione targetPageParamsAll() per la libreria JavaScript di Adobe Target at.js  per allegare parametri a tutte le mbox dall'esterno del codice della richiesta.
+description: Utilizza la funzione targetPageParamsAll() per la libreria JavaScript Adobe [!DNL Target] at.js per allegare parametri a tutte le mbox dall'esterno del codice di richiesta.
 title: Come si utilizza la funzione targetPageParamsAll()?
 feature: at.js
 role: Developer
+exl-id: 58fbb62e-30da-486f-b771-6452ad5e27e6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '169'
-ht-degree: 71%
+ht-degree: 72%
 
 ---
-
 
 # targetPageParamsAll()
 
 Questo metodo consente di allegare i parametri a tutte le mbox dall’esterno del codice di richiesta.
 
-Questa funzione è molto utile per includere lo stesso insieme di parametri su più chiamate alla mbox. La funzione deve essere definita dal cliente. Dovrebbe restituire un array di parametri che verranno passati a tutte le richieste mbox nella pagina. Questa funzione può essere definita prima del caricamento di at.js oppure in **[!UICONTROL Administration]** > **[!UICONTROL Implementation]** > **[!UICONTROL Edit]** > **[!UICONTROL Code Settings]** > **[!UICONTROL Library Header]**.
+Questa funzione è molto utile per includere lo stesso insieme di parametri su più chiamate alla mbox. La funzione deve essere definita dal cliente. Dovrebbe restituire un array di parametri che verranno passati a tutte le richieste mbox nella pagina. Questa funzione può essere definita prima che at.js sia caricato o in **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Modifica]** > **[!UICONTROL Impostazioni codice]** > **[!UICONTROL Intestazione libreria]**.
 
 Puoi trasmettere parametri a target-global-mbox utilizzando la funzione targetPageParamsAll() in uno dei seguenti modi:
 
