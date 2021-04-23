@@ -1,18 +1,18 @@
 ---
 keywords: test multivariato;MVT;rapporto prestazioni esperienza
-description: Scoprite come utilizzare il rapporto Experience Performance (Prestazioni esperienza) per  le attività Adobe Target Experience Targeting che mostrano le prestazioni di ogni esperienza nell'attività.
-title: Come si utilizza il rapporto Experience Performance per i test multivariati?
-feature: Reports
+description: Scopri come utilizzare il rapporto Prestazioni esperienza per Adobe [!DNL Target] attività Targeting esperienze che mostrano le prestazioni di ogni esperienza nell’attività.
+title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
+feature: Rapporti
+exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '333'
 ht-degree: 89%
 
 ---
 
-
-# Rapporto Prestazioni Esperienza (MVT){#experience-performance-report-mvt}
+# Rapporto Prestazioni Esperienza (MVT)
 
 Il rapporto Prestazioni esperienza mostra il modo in cui viene eseguita ogni esperienza nell’attività. Questo rapporto include informazioni sul numero di partecipanti, il tasso di conversione, l’incremento e l’affidabilità.
 
@@ -36,7 +36,7 @@ Puoi scegliere di visualizzare le cinque esperienze migliori o peggiori, oppure 
 
 Sotto il grafico, una tabella mostra il numero di partecipanti che hanno visualizzato ogni esperienza, così come altre informazioni rilevanti per la metrica di successo.
 
-## Video di formazione: Creare un test MVT  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare un test MVT  ![Badge tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Il rapporto Prestazioni esperienza è descritto a partire dal minuto 8:20.
 
