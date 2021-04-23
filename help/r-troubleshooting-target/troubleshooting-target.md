@@ -1,16 +1,16 @@
 ---
 keywords: risolvere problemi di Target;risoluzione problemi di Target
-description: Leggi un elenco di argomenti utili per risolvere i problemi in  Adobe Target, inclusi argomenti per la risoluzione di problemi, domande frequenti e altri argomenti utili.
+description: Rivedi un elenco di argomenti che ti aiutano a risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
 title: Come posso risolvere i problemi di Target?
-feature: Troubleshooting
+feature: Risoluzione dei problemi relativi al
+exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '445'
-ht-degree: 91%
+ht-degree: 90%
 
 ---
-
 
 # Risolvere i problemi di Target
 
@@ -33,11 +33,11 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ### Allocazione automatica
 
-* [Panoramica dell&#39;allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
+* [Panoramica dell’allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3)
 
 ### Targeting automatico
 
-* [Risoluzione dei problemi e domande frequenti per la destinazione automatica](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
 ### Personalizzazione automatizzata
 
@@ -56,7 +56,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md)
 
-## Integrazione di Analytics e Target (A4T)
+## Integrazione di Analytics e [!DNL Target] (A4T)
 
 * [Risoluzione di problemi relativi all’integrazione di Analytics e Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
