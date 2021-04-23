@@ -1,16 +1,16 @@
 ---
-keywords: Targeting delle esperienze;xt;create
-description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un'attività Experience Targeting (XT) su una pagina abilitata per Target.
-title: Come si crea un'attività di targeting delle esperienze?
-feature: Experience Targeting
+keywords: Targeting esperienza;xt;creare
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare un’attività Targeting esperienza (XT) su una pagina abilitata per Target.
+title: Come si crea un’attività Targeting esperienze?
+feature: Targeting esperienza
+exl-id: fc7fc37f-40bf-4947-a4d0-e51fa09b6c56
 translation-type: tm+mt
-source-git-commit: 675c4a3383e384f017bdc0c5a70c988bc354189d
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '427'
+source-wordcount: '426'
 ht-degree: 89%
 
 ---
-
 
 # Creare un’attività Targeting esperienze
 
@@ -62,7 +62,7 @@ Per ulteriori informazioni su Targeting esperienza, un esempio di utilizzo e vid
 
    ![Campo Nome](/help/c-activities/t-experience-target/t-xt-create/assets/xt_name-new.png)
 
-   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
+   Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
