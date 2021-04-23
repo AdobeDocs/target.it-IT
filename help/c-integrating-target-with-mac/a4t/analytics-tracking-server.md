@@ -1,16 +1,16 @@
 ---
-keywords: server di tracciamento di Analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione di rapporti;strumenti per sviluppatori
-description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for Target (A4T) se utilizzi una versione precedente di at.js o mbox.js. '
+keywords: server di tracciamento di analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione rapporti;strumenti per sviluppatori
+description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for [!DNL Target] (A4T) se utilizzi una versione precedente di at.js o mbox.js. '
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
+exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 20%
 
 ---
-
 
 # Utilizzare un server di tracciamento di Analytics
 
@@ -30,7 +30,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività viene 
 
 1. Dalla pagina in cui stai creando l&#39;attività, apri la cartella [!DNL Adobe Experience Platform Debugger].
 
-   Se non hai installato il debugger, consulta [Introduzione al debugger di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+   Se non hai installato il debugger, consulta [Introduzione al debugger Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
    ![](assets/Screen_DebuggerTrackServ.png)
 
@@ -77,4 +77,3 @@ Gli Strumenti per sviluppatori devono essere visualizzati in una pagina in cui l
    >[!NOTE]
    >
    >Seleziona [!UICONTROL Analytics come origine per la generazione di rapporti] per l&#39;attività affinché il campo [!UICONTROL Server di tracciamento] sia disponibile.
-
