@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.applyOffers;applyOffers;applyoffers;applica offerte;at.js;funzioni;funzione
-description: Utilizzate la funzione adobe.target.applyOffers() per la libreria JavaScript Adobe Target at.js  applicare più offerte nella risposta. (at.js 2.x)
+description: Utilizza la funzione adobe.target.applyOffers() per la libreria JavaScript Adobe [!DNL Target] at.js per applicare più offerte nella risposta. (at.js 2.x)
 title: Come si utilizza la funzione adobe.target.applyOffers()?
 feature: at.js
 role: Developer
+exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '809'
 ht-degree: 92%
 
 ---
-
 
 # adobe.target.applyOffers(options) - at.js 2.x
 
@@ -23,14 +23,14 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 
 | Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
-| selector | Stringa | No | Elemento HTML o selettore CSS utilizzato per identificare l’elemento HTML in cui [!DNL Target] deve inserire il contenuto dell’offerta. Se non viene fornito un selettore, [!DNL Target] presuppone che l&#39;elemento HTML da utilizzare sia un HEAD HTML. |
+| selector | Stringa | No | Elemento HTML o selettore CSS utilizzato per identificare l’elemento HTML in cui [!DNL Target] deve inserire il contenuto dell’offerta. Se non viene fornito un selettore, [!DNL Target] presuppone che l&#39;elemento HTML da utilizzare sia HTML HEAD. |
 | Risposta | Oggetto | Sì | Oggetto di risposta da `getOffers()`.<br>Vedi la tabella Richieste di seguito. |
 
 ## Risposta
 
 >[!NOTE]
 >
->Per informazioni sui tipi accettabili per tutti i campi elencati di seguito, consultare la [Documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API).
+>Consulta la [documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
 
 | Nome campo | Descrizione |
 | --- | --- |
