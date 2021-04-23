@@ -1,29 +1,29 @@
 ---
-keywords: implementare;implementazione;whitelist;white list;allowlist;allow list;edge;edge
-description: Visualizza un elenco di host per consentirti di elencare gli edge di Adobe Target (nodi di servizio distribuiti geograficamente che garantiscono tempi di risposta ottimali agli utenti finali).
-title: Come Posso Consentire I Nodi Edge Di Target?
-feature: Privacy & Security
+keywords: implementare;implementazione;whitelist;whitelist;white list;inserire nell'elenco Consentiti;elenco consentiti;edge;edge
+description: Visualizza un elenco di host per aiutarti a inserire nell'elenco Consentiti Adobe di  [!DNL Target] bordi (nodi di servizio distribuiti geograficamente che garantiscono tempi di risposta ottimali per gli utenti finali).
+title: Come si Inserire nell'elenco Consentiti i nodi dei bordi [!DNL Target] ?
+feature: Privacy e sicurezza
 role: Developer
+exl-id: 2d8399b9-eec8-40b0-8b35-2812f83ff4dc
 translation-type: tm+mt
-source-git-commit: 806c52e69cce636a56eb067759612f80829418f9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '251'
-ht-degree: 7%
+source-wordcount: '246'
+ht-degree: 6%
 
 ---
 
+# Inserire nell&#39;elenco Consentiti nodi edge [!DNL Target]
 
-# Nodi edge di Target consentiti
-
-Informazioni e un elenco aggiornato di host per facilitare l’elenco dei bordi [!DNL Adobe Target] consentiti.
+Informazioni e un elenco aggiornato di host per aiutarti a inserire nell&#39;elenco Consentiti i bordi [!DNL Adobe Target].
 
 Un edge è un’architettura di servizio geograficamente distribuita che garantisce agli utenti finali che richiedono contenuti in tempi di risposta ottimali, indipendentemente da dove si trovano. Ogni nodo perimetrale dispone di tutte le informazioni necessarie per rispondere alla richiesta di contenuto dell’utente e per tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste degli utenti vengono indirizzate al nodo perimetrale più vicino. Per ulteriori informazioni, consulta [La rete perimetrale](/help/c-intro/how-target-works.md#concept_0AE2ED8E9DE64288A8B30FCBF1040934) in *Come funziona l&#39;Adobe [!DNL Target]*.
 
-Se necessario, è possibile elencare i nodi perimetrali [!DNL Target].
+Se lo desideri, puoi inserire nell&#39;elenco Consentiti i nodi edge [!DNL Target] .
 
-## Indirizzi IP NAT (Network Address Translation) degli edge di Target
+## Indirizzi IP NAT (Network Address Translation) di [!DNL Target] Edge
 
-Elenco degli indirizzi IP in uscita dei bordi [!DNL Target]. Consenti l’elenco di questi IP se intendi far sì che Target raggiunga i tuoi servizi.
+Elenco degli indirizzi IP in uscita dei bordi [!DNL Target]. Inserire nell&#39;elenco Consentiti questi IP se intendi far sì che Target raggiunga i tuoi servizi.
 
 | Posizione Edge | Indirizzi IP Egress |
 | --- | --- |
@@ -37,7 +37,7 @@ Elenco degli indirizzi IP in uscita dei bordi [!DNL Target]. Consenti l’elenco
 
 ## Indirizzi IP edge di Target
 
-Elenco di indirizzi IP dei bordi [!DNL Target]. Consenti questi IP se desideri effettuare chiamate API ai bordi di Target.
+Elenco di indirizzi IP dei bordi [!DNL Target]. Inserire nell&#39;elenco Consentiti questi IP se desideri effettuare chiamate API ai bordi di Target.
 
 | Posizione Edge | Dominio | Indirizzi IP |
 | --- | --- | --- |
@@ -49,8 +49,3 @@ Elenco di indirizzi IP dei bordi [!DNL Target]. Consenti questi IP se desideri e
 | Edge36 (Sydney) | `mboxedge36.tt.omtrdc.net` | 13.238.34.185<br>3.24.250.17<br>3.104.234.91<br>13.211.248.241 |
 | Edge37 (Irlanda) | `mboxedge37.tt.omtrdc.net` | 52.212.193.208<br>52.19.133.54<br>52.51.251.137<br>34.252.156.174<br>5 2.213.168.74<br>34.252.166.160<br>52.18.150.20<br>18.203.205.32 |
 | Edge38 (Singapore) | `mboxedge38.tt.omtrdc.net` | 52.221.145.65<br>52.220.44.99<br>13.250.75.226<br>54.151.139.123 |
-
-
-
-
-
