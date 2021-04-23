@@ -1,20 +1,20 @@
 ---
-keywords: mvt;test multivariato;offerte;combinazioni
-description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare le offerte da includere nel test multivariato (MVT).
-title: Come si creano combinazioni in test multivariati (MVT)?
-feature: Multivariate Tests
+keywords: MVT;test multivariato;offerte;combinazioni
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare le offerte da includere nel test multivariato (MVT).
+title: Come si creano combinazioni nei test multivariati (MVT)?
+feature: Test multivariati
+exl-id: 8b5883de-de76-403d-ae20-c933a8665555
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '511'
+source-wordcount: '512'
 ht-degree: 88%
 
 ---
 
-
 # Creare combinazioni
 
-Utilizzate [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC) in [!DNL Adobe Target] per creare le offerte che desiderate includere nel [!UICONTROL Test multivariato] (MVT).
+Utilizza il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] per creare le offerte che desideri includere nel tuo [!UICONTROL Test multivariato] (MVT).
 
 Per ulteriori informazioni sull’utilizzo del Compositore esperienza visivo per creare e modificare le offerte, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
@@ -65,4 +65,3 @@ Ogni offerta in formato testo/HTML diventa un’esperienza separata nella posizi
 * È necessario disporre di almeno tre elementi per eseguire il test. Se il numero è inferiore, esegui una serie di test A/B.
 * È consigliabile che le alternative per ciascun elemento siano notevolmente diverse tra loro.
 * Anche se non obbligatorio, è buona norma che per ogni elemento sia presente lo stesso numero di alternative.
-
