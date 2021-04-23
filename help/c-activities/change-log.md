@@ -1,16 +1,16 @@
 ---
-keywords: registro delle modifiche dell'attività;registro delle modifiche
-description: Accedete al registro delle modifiche di un'attività  Adobe Target per visualizzare un record di chi ha modificato le attività e quando si sono verificate le modifiche.
-title: Come è possibile visualizzare un registro delle modifiche delle attività?
-feature: Activities
+keywords: registro delle modifiche apportate alle attività;registro delle modifiche
+description: Accedi al registro delle modifiche di un'attività in Adobe [!DNL Target] per visualizzare un record su chi ha modificato le attività e quando si sono verificate le modifiche.
+title: Come posso vedere un registro delle modifiche delle attività?
+feature: Attività
+exl-id: 72a901c1-4fba-4044-b72b-393cab56b936
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '113'
-ht-degree: 53%
+ht-degree: 54%
 
 ---
-
 
 # Registro delle modifiche apportate alle attività
 
