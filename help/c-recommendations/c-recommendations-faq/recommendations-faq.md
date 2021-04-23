@@ -1,16 +1,16 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-description: Visualizza un elenco delle domande frequenti e delle risposte sulle attività di Adobe Target Recommendations.
-title: Dove posso trovare domande e risposte su Target Recommendations?
-feature: Recommendations
+description: Visualizza un elenco delle domande frequenti e delle risposte relative alle attività di Adobe [!DNL Target] Recommendations.
+title: Dove posso trovare domande e risposte su [!DNL Target] Recommendations?
+feature: Consigli
+exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 601406db8e259dc9c578d61fc0408807d7c03a37
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2694'
+source-wordcount: '2691'
 ht-degree: 40%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli
 
@@ -130,7 +130,7 @@ Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave 
 
 ![](assets/content_similarity_example.png)
 
-## Perché Target talvolta non è in grado di mostrare i consigli?  {#section_DB3F40673AED42228E407C05437D99E9}
+## Perché a volte [!DNL Target] non è in grado di mostrare i consigli? {#section_DB3F40673AED42228E407C05437D99E9}
 
 Target a volte non può mostrare consigli a causa del basso numero di consigli disponibili.
 
@@ -223,5 +223,3 @@ Se un visitatore ha due sessioni attive contemporaneamente, gli elementi visuali
 Tieni presente che questo comportamento si verifica ancora se un visitatore è attivo su un dispositivo e poi diventa attivo sull’altro dispositivo qualche minuto dopo. La sessione del primo dispositivo non scade per 30 minuti e può trascorrere fino a cinque minuti prima che lo stato del profilo sia scritto nello stato permanente ed elaborato. Consenti 35 minuti per la scadenza della sessione e il profilo da memorizzare durante il test di questo comportamento.
 
 Se il visitatore non dispone di due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, purché la sessione sia terminata. Consenti la scadenza di 35 minuti per la sessione durante il test di questo comportamento.
-
-
