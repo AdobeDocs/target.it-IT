@@ -1,16 +1,16 @@
 ---
 keywords: risoluzione dei problemi;discrepanze metriche;FAQ;rapporti;nuovo visitatore;nuovi visitatori;visitatori di ritorno;visitatori di ritorno;visita di ritorno;nuova visita
-description: Esplora un elenco delle domande frequenti e delle risposte sui rapporti di Adobe Target.
-title: Dove posso trovare risposte alle domande sul reporting di Target?
-feature: Reports
+description: Esplora un elenco delle domande frequenti e delle risposte relative al reporting di Adobe [!DNL Target] .
+title: Dove posso trovare risposte alle domande su [!DNL Target] reporting?
+feature: Rapporti
+exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1221'
-ht-degree: 23%
+source-wordcount: '1219'
+ht-degree: 24%
 
 ---
-
 
 # Domande frequenti sulla generazione di rapporti
 
