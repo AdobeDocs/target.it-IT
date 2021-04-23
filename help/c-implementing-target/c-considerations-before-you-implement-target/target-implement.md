@@ -1,18 +1,18 @@
 ---
 keywords: document.write;target;implementare;implementare target;dtm;gestione tag dinamica;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
-description: Implementa Adobe Target facendo riferimento alle librerie di Target (at.js o mbox.js) nelle tue pagine web.
-title: Comprendere le librerie JavaScript di Target
-feature: Implementation
+description: Implementa le librerie Adobe [!DNL Target] by referencing the [!DNL Target] (at.js o mbox.js) nelle tue pagine web.
+title: 'Comprendere le librerie JavaScript di  [!DNL Target] '
+feature: Implementazione
 translation-type: tm+mt
-source-git-commit: abfbc08a649b31e7b784659dbf390412b2c15af2
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '476'
 ht-degree: 23%
 
 ---
 
 
-# Comprendere le librerie JavaScript di Target
+# Comprendere le librerie JavaScript di [!DNL Target]
 
 Implementa [!DNL Adobe Target] facendo riferimento alle librerie [!DNL Adobe Target] (Adobe Experience Platform Web SDK o at.js) nelle tue pagine web.
 
@@ -20,7 +20,7 @@ Implementa [!DNL Adobe Target] facendo riferimento alle librerie [!DNL Adobe Tar
 >
 >La libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js o a [!UICONTROL Adobe Experience Platform Web SDK] prima del 31 marzo 2021. Per ulteriori informazioni, consulta [Migrare a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-## Differenze tra le librerie JavaScript di Target {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Differenze tra le [!DNL Target] librerie JavaScript {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 La tabella seguente spiega le differenze tra le librerie JavaScript [!DNL Target]:
 
