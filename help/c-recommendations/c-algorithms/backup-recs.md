@@ -1,26 +1,26 @@
 ---
 keywords: consigli;backup;back up
-description: Scoprite come utilizzare le raccomandazioni di backup in  Adobe Target Recommendations. La raccomandazione che non dispone di un numero sufficiente di elementi raccomandati visualizza i risultati dell'algoritmo di backup.
-title: Come si utilizza una raccomandazione di backup in Recommendations?
-feature: Recommendations
+description: Scopri come utilizzare i consigli di backup in Adobe [!DNL Target] Recommendations. Per i consigli privi di un numero sufficiente di elementi consigliati vengono visualizzati i risultati dell'algoritmo di backup.
+title: Come si utilizza un consiglio di backup in Recommendations?
+feature: Consigli
+exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '520'
-ht-degree: 81%
+ht-degree: 82%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Utilizzare un consiglio di backup
 
-# ![PREMIUM](/help/assets/premium.png) Utilizzare un consiglio di backup{#use-a-backup-recommendation}
-
-Se utilizzate la funzione di raccomandazione di backup in  Adobe Target, tutte le raccomandazioni che non hanno abbastanza elementi raccomandati non visualizzeranno il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
+Se utilizzate la funzione di consiglio di backup in Adobe Target, per i consigli privi di un numero sufficiente di elementi consigliati non verrà visualizzato il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 
 Se non utilizzi un consiglio di backup e per un consiglio non sono presenti elementi sufficienti a popolare completamente la visualizzazione, nel sistema viene visualizzato il contenuto predefinito per l’utente.
 
 >[!NOTE]
 >
->Ulteriori informazioni sono incluse nella sezione [Contenuto dell&#39;argomento Criteri di creazione](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content), inclusa una matrice che spiega i risultati che osserverete quando utilizzate le opzioni [!UICONTROL Rendering progettazione parziale] e [!UICONTROL Mostra Recommendations backup] insieme o separatamente.
+>Ulteriori informazioni sono incluse nella sezione [Contenuto dell&#39;argomento Crea criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content) , inclusa una matrice che spiega i risultati che osserverai quando usi le opzioni [!UICONTROL Rendering progettazione parziale] e [!UICONTROL Mostra Recommendations di backup] insieme o separatamente.
 
 La funzionalità di consiglio di backup utilizza sempre gli elementi più visualizzati sul sito per popolare gli spazi rimanenti dopo l’utilizzo dei dati dell’algoritmo. Ad esempio, supponi che il modello sia configurato per mostrare cinque elementi consigliati e che sia in uso l’algoritmo *Affinità di acquisto*. Se tuttavia i dati sono sufficienti solo per popolare due spazi su cinque, la funzione di consiglio di backup popola gli altri tre con gli elementi più visualizzati.
 
