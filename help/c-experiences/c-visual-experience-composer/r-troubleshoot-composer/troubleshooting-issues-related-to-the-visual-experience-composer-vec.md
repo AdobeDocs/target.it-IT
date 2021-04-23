@@ -1,22 +1,22 @@
 ---
 keywords: Targeting;compositore esperienza visivo;vec;risoluzione dei problemi compositore esperienza visiva;risoluzione dei problemi;tls;tls 1.2
-description: Scoprite come risolvere i problemi che talvolta si verificano in Adobe Target Visual Experience Composer (VEC)  a determinate condizioni.
-title: Come posso risolvere i problemi relativi a Visual Experience Composer (Compositore esperienza visivo)?
-feature: Visual Experience Composer (VEC)
+description: Scopri come risolvere i problemi che a volte si verificano in Adobe [!DNL Target] Compositore esperienza visivo (VEC) in determinate condizioni.
+title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
+feature: Compositore esperienza visivo
+exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '798'
-ht-degree: 90%
+source-wordcount: '800'
+ht-degree: 89%
 
 ---
 
+# Risoluzione dei problemi relativi al Compositore esperienza visivo
 
-# Risoluzione dei problemi relativi a Visual Experience Composer (Compositore esperienza visivo)
+In determinate condizioni si verificano a volte problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 
-A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) a determinate condizioni.
-
-## Quando apro il mio sito web nel Compositore esperienza visivo, le librerie di Target non vengono caricate. (Solo Compositore esperienza visivo) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando apro il sito web nel Compositore esperienza visivo, le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) durante l&#39;apertura del sito web nel Compositore esperienza visivo.
 
@@ -33,7 +33,7 @@ Diversi problemi possono influenzare le prestazioni della pagina nei compositori
 
 Se si verificano problemi con il Compositore esperienza avanzato, prova a disattivarlo e utilizza invece il Compositore esperienza visivo.
 
-Per disabilitare Enhanced Experience Composer (Compositore esperienza avanzato), andate a **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]** e disattivate l&#39;opzione **[!UICONTROL Abilita Enhanced Experience Composer]**.
+Per disabilitare il Compositore esperienza avanzato, passa a **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]** e disattiva l&#39;opzione **[!UICONTROL Abilita Compositore esperienza avanzato]**.
 
 Alcuni utenti visualizzano il seguente messaggio di errore nella console:
 
