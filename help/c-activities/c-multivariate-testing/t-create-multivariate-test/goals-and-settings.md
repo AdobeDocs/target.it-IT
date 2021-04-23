@@ -1,20 +1,20 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni;multivariato;mvt
-description: Scopri come utilizzare la pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target per specificare le informazioni sugli obiettivi di un'attività MVT (Test multivariato).
-title: Come si specificano obiettivi e impostazioni in un'attività Test multivariato (MVT)?
-feature: Multivariate Tests
+description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un’attività Test multivariato (MVT).
+title: Come si specificano obiettivi e impostazioni in un’attività Test multivariato (MVT)?
+feature: Test multivariati
+exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 90%
 
 ---
 
+# Obiettivi e impostazioni (test multivariati)
 
-# Obiettivi e impostazioni (Test multivariati)
-
-La pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target contiene informazioni sugli obiettivi dei test [!UICONTROL Multivariati] (MVT).
+Nella pagina Obiettivi e impostazioni di Adobe Target puoi inserire informazioni sugli obiettivi dei test [!UICONTROL multivariati] (MVT).
 
 * Impostazioni attività
 * Impostazioni reporting
@@ -38,9 +38,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
+Se questa opzione non è abilitata in S[!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-Per abilitare le priorità con granulosità fine, fare clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attivare l&#39;opzione Attiva priorità con granulosità fine nella posizione &quot;Attiva&quot;.
+Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attiva l&#39;opzione Abilita priorità precise.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -154,7 +154,7 @@ Inserisci informazioni sull’attività, utili per te o per gli altri membri del
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Impostazioni attività (3:02) ![Logo esercitazione](/help/assets/tutorial.png)
+### Impostazioni attività (3:02) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
@@ -166,7 +166,7 @@ Questo video include informazioni sulle impostazioni delle attività.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17381)
 
-### Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
+### Creazione di test multivariati (9:25) ![Badge tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test multivariato utilizzando il flusso di lavoro guidato in tre passaggi di Target. Obiettivi e impostazioni sono trattati a partire dal minuto 07:00.
 
