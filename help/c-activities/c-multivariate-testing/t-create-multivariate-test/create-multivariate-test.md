@@ -1,22 +1,22 @@
 ---
 keywords: MVT;test multivariato;creare test multivariato;creazione test multivariato;creare MVT;creazione MVT;come MVT;come test multivariato
-description: Scoprite come utilizzare Visual Experience Composer (VEC) in  Adobe Target per creare un test multivariato (MVT) direttamente su una pagina compatibile con Target.
+description: Scopri come utilizzare il Compositore esperienza visivo in Adobe [!DNL Target] per creare un test multivariato (MVT) direttamente su una pagina abilitata [!DNL Target].
 title: Come si crea un test multivariato?
-feature: Multivariate Tests
+feature: Test multivariati
+exl-id: 7712b747-543a-4e19-b689-bea36c44805c
 translation-type: tm+mt
-source-git-commit: e87786f2df104d66d97cacd83921875dacd78afe
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '569'
-ht-degree: 88%
+source-wordcount: '568'
+ht-degree: 89%
 
 ---
 
-
-# Creazione di un test multivariato{#create-a-multivariate-test}
+# Creazione di un test multivariato
 
 Il [!UICONTROL Compositore esperienza visivo] in [!DNL Adobe Target] è utile per creare i test direttamente su una pagina abilitata per e modificare parti della pagina in [!DNL Target].
 
-L&#39;editor [!DNL Target] point-and-click consente di scegliere qualsiasi posizione e aggiungere più offerte.
+L’ [!DNL Target] editor rapido consente di scegliere qualsiasi posizione e di aggiungere offerte multiple.
 
 Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”. In altre parole, il test viene eseguito su un URL specifico, con l’esperienza progettata per tale pagina.
 
@@ -56,7 +56,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    ![Campo Nome attività](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/assets/activityname.png)
 
-   Il nome dell&#39;attività non può iniziare con i seguenti caratteri:
+   Il nome dell’attività non può iniziare con uno dei seguenti caratteri:
 
    | Carattere | Descrizione |
    |--- |--- |
@@ -113,7 +113,7 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
 1. Fai clic su **[!UICONTROL Salva e chiudi]** per creare l’attività.
 
-## Video di formazione: Creazione di test multivariati (9:25) ![Etichetta esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di test multivariati (9:25) ![Badge tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come pianificare e creare un test multivariato utilizzando il flusso di lavoro guidato a tre passaggi di Target.
 
