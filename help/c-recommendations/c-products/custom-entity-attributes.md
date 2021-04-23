@@ -1,21 +1,21 @@
 ---
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
-description: Scoprite come utilizzare gli attributi di entità personalizzata a valore singolo e multivalore per definire informazioni aggiuntive sugli elementi nel  catalogo Adobe Target Recommendations.
+description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo Adobe [!DNL Target] Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
-feature: Recommendations
+feature: Consigli
 mini-toc-levels: 3
+exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1401'
 ht-degree: 89%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Attributi di entità personalizzati
 
-# ![PREMIUM](/help/assets/premium.png) Attributi di entità personalizzati{#custom-entity-attributes}
-
-Utilizzate gli attributi di entità personalizzati a valore singolo e multivalore in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi nel catalogo.
+Utilizza gli attributi di entità personalizzati a valore singolo e multiplo in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi del catalogo.
 
 ## Limiti {#limits}
 
@@ -25,7 +25,7 @@ La lunghezza massima degli attributi personalizzati delle entità con valore sin
 
 Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
-## Valori attributi entità personalizzati {#section_313331A9F8194A89B5EDD89363018651}
+## Valori degli attributi di entità personalizzati {#section_313331A9F8194A89B5EDD89363018651}
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
@@ -61,7 +61,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 * Gli array devono contenere un unico tipo di valore. Gli array con valori misti (`["AB",1,true]`) non sono supportati.
 * Un attributo con più valori che include un array JSON nidificato (`[10,12,[1,2,3]]`) viene considerato come un attributo a valore singolo.
 
-## Implementazione degli attributi multi-valore {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
+## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
 Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
@@ -109,7 +109,7 @@ Presta attenzione quando modifichi direttamente un file di catalogo CSV raw.
 
 ### Utilizzo delle API
 
-Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in un parametro mbox come valore di stringa contenente un array JSON con escape.
+Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un parametro mbox come valore di stringa contenente un array JSON con escape.
 
 ```javascript
 "execute": {
@@ -127,9 +127,9 @@ Potete trasmettere attributi con più valori utilizzando l&#39;API Delivery in u
   }
 ```
 
-Per informazioni sull&#39;utilizzo delle API di consegna e salvataggio delle entità, consultate la [ documentazione API di Adobe Recommendations](http://developers.adobetarget.com/api/recommendations).
+Per informazioni sull’utilizzo delle API di Consegna e Salva entità, consulta la [documentazione API di Adobe Recommendations](http://developers.adobetarget.com/api/recommendations) .
 
-## Utilizzo di operatori con attributi multi-valore {#section_83C2288A805242D9A02EBC4F07DEE945}
+## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 
 Quando applichi gli operatori agli attributi personalizzati con più valori nelle regole di inclusione degli algoritmi, di catalogo e di esclusione, il risultato sarà *vero* se almeno un valore nell’elenco deve essere soddisfatto (booleano *or*).
 
@@ -140,7 +140,7 @@ Nell’esempio seguente, la regola è `message contains abc`.
 
 Per gli operatori negativi, tutti i valori di attributo devono essere soddisfatti (booleano *and*). Ad esempio, se l’operatore è `notEquals`, il risultato sarà *falso* se viene rilevata una corrispondenza con uno dei valori.
 
-Fare riferimento alle sezioni seguenti per il comportamento dell&#39;operatore nelle regole di inclusione degli algoritmi, nelle regole di catalogo e nelle regole di esclusione.
+Consulta le sezioni seguenti per il comportamento dell’operatore nelle regole di inclusione degli algoritmi, di catalogo e di esclusione.
 
 ### È uguale a
 
@@ -241,7 +241,7 @@ Esempio: `genre does not match abc`
 
 ### Rientra dinamicamente nell’intervallo (disponibile solo negli algoritmi basati su elementi, solo per valori numerici)
 
-Se un qualsiasi valore di attributo numerico si trova all&#39;interno dell&#39;intervallo specificato restituisce true.
+Se un qualunque valore di attributo numerico si trova entro l&#39;intervallo specificato, restituisce vero.
 
 Esempio: `price dynamically ranges in 80% to 120% of 100`
 
@@ -252,9 +252,9 @@ Esempio: `price dynamically ranges in 80% to 120% of 100`
 >
 >*Doppio* è un tipo di dati Java. Per gli operatori che richiedono valori numerici, la conversione in doppio elimina i valori non numerici dalla considerazione nei risultati.
 
-## Attributi multivalore nelle strutture {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
+## Attributi con più valori nelle progettazioni {#section_F672E4F6E1D44B3196B7ADE89334ED4A}
 
-Gli attributi multivalore vengono visualizzati come elenco separato da virgole quando vi viene fatto riferimento in una progettazione.
+Gli attributi con più valori vengono visualizzati come un elenco separato da virgole quando vi si fa riferimento in una progettazione.
 
 Esempio:
 
