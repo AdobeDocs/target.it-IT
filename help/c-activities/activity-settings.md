@@ -1,20 +1,20 @@
 ---
-keywords: Obiettivi e impostazioni;obiettivo;priorità;durata
-description: Scoprite come utilizzare le impostazioni dell'attività in  Adobe Target per gestire l'obiettivo, la priorità e la durata delle attività.
-title: Come Si Specificano Le Impostazioni Dell'Attività?
-feature: Activities
+keywords: Obiettivo e impostazioni;finalità;priorità;durata
+description: Scopri come utilizzare le Impostazioni attività in Adobe [!DNL Target] per gestire la finalità, la priorità e la durata delle attività.
+title: Come Si Specificano Le Impostazioni Delle Attività?
+feature: Attività
+exl-id: 7f34080b-d2ed-4fe5-80ff-3aba16961223
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '416'
 ht-degree: 80%
 
 ---
 
-
 # Impostazioni delle attività
 
-Utilizzate [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#39;obiettivo, la priorità e la durata delle attività.
+Utilizza [!UICONTROL Impostazioni attività] in [!DNL Adobe Target] per gestire l&#39;obiettivo, la priorità e la durata delle attività.
 
 1. Immetti delle note sulla finalità dell&#39;attività.
 
@@ -25,9 +25,9 @@ Utilizzate [!UICONTROL Activity Settings] in [!DNL Adobe Target] per gestire l&#
 
    La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
+   Se questa opzione non è abilitata in [!UICONTROL Amministrazione] > [!UICONTROL Reporting] (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-   Per abilitare le priorità con granulosità fine, fare clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attivare l&#39;opzione [!UICONTROL Abilita priorità con granulosità fine] nella posizione &quot;Attivato&quot;.
+   Per abilitare le priorità dettagliate, fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Reporting], quindi attiva l&#39;opzione [!UICONTROL Abilita priorità precise].
 
    Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
@@ -56,7 +56,7 @@ La pagina [!UICONTROL Obiettivi e impostazioni] include impostazioni aggiuntive 
 * [Test multivariato](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC)
 * [Consigli](/help/c-recommendations/t-create-recs-activity/recs-activity-settings.md#reference_3FDA8388CEEC4159949151C1829E2FBB)
 
-## Video di formazione: Impostazioni attività  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Impostazioni attività  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni sulle impostazioni delle attività.
 
