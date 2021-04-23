@@ -1,37 +1,37 @@
 ---
-keywords: libreria dei contenuti;risorse;ricerca;filtro
-description: Scoprite come cercare offerte di codice e immagini nella libreria  Adobe Target Offers.
-title: Come si fa per cercare contenuti nella libreria delle offerte?
-feature: Experiences and Offers
+keywords: libreria di contenuti;risorse;ricerca;filtro
+description: Scopri come cercare offerte di codice e immagini nella libreria delle offerte Adobe [!DNL Target] offerte .
+title: Come si cerca il contenuto nella libreria delle offerte?
+feature: Esperienze e offerte
+exl-id: 68ff0da5-4556-493e-b6b3-7bcbba320d57
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '259'
+source-wordcount: '261'
 ht-degree: 12%
 
 ---
 
+# Contenuto di ricerca
 
-# Ricerca del contenuto
+Cerca le risorse per parole chiave nella libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
 
-Cercare risorse in base alle parole chiave nella libreria [!UICONTROL Offerte] in [!DNL Adobe Target].
+## Ricerca di offerte di codice per parola chiave
 
-## Cerca offerte di codice per parola chiave
-
-1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]**.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte di codice]**.
 1. Digitare le parole chiave desiderate nella casella [!UICONTROL Cerca].
 
-   È inoltre possibile filtrare gli elenchi a discesa [!UICONTROL Tipo] e [!UICONTROL Origine] per perfezionare ulteriormente la ricerca.
+   Puoi anche filtrare utilizzando gli elenchi a discesa [!UICONTROL Tipo] e [!UICONTROL Origine] per perfezionare ulteriormente la ricerca.
 
 ## Cerca offerte di immagini per parola chiave {#section_2465A71BC95942588F586B1EC8B9E5DB}
 
-1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagini]**.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
 
-1. (Facoltativo) Per passare dalla [!UICONTROL vista a schede] alla [!UICONTROL vista a elenco], fare clic sull&#39;icona [!UICONTROL Visualizzazione a schede] o [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
+1. (Facoltativo) Passa dalla [!UICONTROL Vista a schede] alla [!UICONTROL Vista a elenco], fai clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. Puoi anche utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne quando visualizzi la [!UICONTROL Vista a elenco].
 
-   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
+   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Vista a elenco]:
 
-   ![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![Opzioni Vista a elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
 1. Per visualizzare la casella di ricerca, fai clic sull&#39;icona **[!UICONTROL Solo contenuto]** nell&#39;angolo superiore sinistro.
 
@@ -39,20 +39,20 @@ Cercare risorse in base alle parole chiave nella libreria [!UICONTROL Offerte] i
 
 1. Nella casella di ricerca, digita una parola chiave per le risorse che desideri individuare, quindi premi Invio.
 
-1. (Facoltativo) utilizzare il riquadro **[!UICONTROL Filtri e opzioni]** per perfezionare ulteriormente la ricerca.
+1. (Facoltativo) utilizza il riquadro **[!UICONTROL Filtri e opzioni]** per perfezionare ulteriormente la ricerca.
 
    ![Riquadro Filtro e opzioni](/help/c-experiences/c-manage-content/assets/filter-and-options.png)
 
-   Potete filtrare per:
+   Puoi filtrare per:
 
-   * Tipo di file: Immagini, documenti, contenuti multimediali o archivi.
+   * Tipo di file: Immagini, Documenti, Multimedia o Archivi.
    * Dimensione file: Piccolo, Medio o Grande
-   * Ultima modifica: Ora, Giorno, Settimana, Mese o Anno.
-   * Stato approvazione: Approvato o Rifiutato.
+   * Ultima modifica: Ora, giorno, settimana, mese o anno.
+   * Stato approvazione: Approvato o rifiutato.
    * Stato scadenza: Scaduto.
    * Valutazione media: da 1 a 5.
    * Orientamento: Orizzontale, Verticale o Quadrato.
    * Stile: Colore o Bianco e nero.
-   * Valutazione utilizzo: Da minimo a massimo
+   * Punteggio di utilizzo: Da minimo a massimo
    * Punteggio impression: Da minimo a massimo
-   * Fai clic su Valutazione: da 1 a 5.
+   * Fai clic su Punteggio: da 1 a 5.
