@@ -1,22 +1,22 @@
 ---
 keywords: impostazioni;priorità
-description: Scopri in che modo  Adobe Target determina quale attività (o attività) distribuire a una pagina in modo diverso a seconda dell'interfaccia di Target e della funzione di creazione dell'attività in uso.
-title: In che modo Target assegna la priorità alle diverse attività?
-feature: Activities
+description: Scopri come Adobe [!DNL Target] determines which activity (or activities) to deliver to a page differently depending on which [!DNL Target] e quale funzione di creazione di attività utilizzi.
+title: In che modo  [!DNL Target] assegna la priorità a diverse attività?
+feature: Attività
+exl-id: c32f1699-e564-40dd-8ff1-7c75a672c6ef
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1168'
-ht-degree: 88%
+source-wordcount: '1149'
+ht-degree: 89%
 
 ---
-
 
 # Priorità
 
 Target determina in modo diverso l’attività (o le attività) da consegnare a una pagina, a seconda dell’interfaccia di Target e della funzione di creazione attività (Compositore esperienza visivo o Compositore basato su moduli) che stai utilizzando.
 
-## Solo Visual Experience Composer (Compositore esperienza visivo) di Target Standard/Premium o Compositore basato su moduli che utilizza solo la richiesta globale di Target {#section_4A0A317DFED345649B58B0CB5B410C8B}
+## Solo Compositore esperienza visivo di Target Standard/Premium o solo Compositore esperienza basato su moduli con richiesta globale [!DNL Target] solo {#section_4A0A317DFED345649B58B0CB5B410C8B}
 
 Se la tua società utilizza esclusivamente il Compositore esperienza visivo di Target Standard/Premium, per la stessa chiamata possono essere restituiti i contenuti da più attività. Le attività vengono consegnate in base al seguente flusso decisionale:
 
@@ -40,7 +40,7 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
    * Se il targeting per il pubblico è stato impostato per una sola attività, viene visualizzata tale attività.
    * Se il targeting per il pubblico è stato impostato per tutte le attività o per nessuna, viene visualizzata l’attività che è stata approvata per prima.
 
-## Compositore esperienza basato su moduli di Target Standard/Premium e Compositore esperienza visivo di Target Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
+## Compositore esperienza visivo di Target Standard/Premium basato su moduli e [!DNL Target] Compositore esperienza visivo di Standard/Premium {#section_4620253E1CE942DD830724C7822B175F}
 
 >[!NOTE]
 >
@@ -48,8 +48,8 @@ Se la tua società utilizza esclusivamente il Compositore esperienza visivo di T
 
 Se la tua società utilizza il compositore basato su moduli di Target Standard/Premium e il Compositore esperienza visivo di Target Standard/Premium, può essere fornito il contenuto di più attività del Compositore esperienza visivo, ma solo un’attività dal flusso di lavoro basato su moduli. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server di Target arriva a Target con informazioni sulla richiesta [!DNL Target] e sull&#39;URL.
-1. Target Classic e Standard esegue il pull di tutte le attività in esecuzione nella richiesta [!DNL Target].
+1. La chiamata al server di Target contiene informazioni sulla richiesta [!DNL Target] e sull’URL.
+1. Target Classic e Standard richiamano ogni attività in esecuzione nella richiesta [!DNL Target].
 1. Target tenta di stabilire la corrispondenza tra il visitatore e le attività.
 
    Se il visitatore fa già parte di un test A/B o test multivariato, la corrispondenza con tale test permane fino alla conversione. Se era già in un’attività di targeting di esperienza, la sua corrispondenza con tale attività dovrà essere nuovamente stabilita. Se soddisfa le regole del pubblico, allora il visitatore rientra in tali attività e in esperienze specifiche.
@@ -65,15 +65,15 @@ In presenza di due attività, una con targeting impostato sulla parola chiave di
 
 Se entrambe le attività di targeting hanno la stessa priorità, viene visualizzata l’attività che è stata vista più di recente. Se si tratta di un visitatore sulla pagina in questione, viene visualizzata l’attività attivata più di recente.
 
-## Compositore basato su moduli di Target Standard/Premium con richieste Target non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
+## Compositore esperienza basato su moduli di Target Standard/Premium con richieste [!DNL Target] non globali {#section_C3F5F09B0B2D4EF795C5929D5C426A8C}
 
 >[!NOTE]
 >
 >Queste informazioni si applicano anche alle campagne in esecuzione che sono state create in Target Classic.
 
-Se la società utilizza [!DNL Target] richieste diverse dalla richiesta globale [!DNL Target] nel compositore basato su modulo, è possibile restituire il contenuto di una sola attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
+Se l’azienda utilizza richieste [!DNL Target] diverse dalla richiesta globale [!DNL Target] nel compositore basato su moduli, è possibile restituire il contenuto di una sola attività per chiamata. Le attività vengono consegnate in base al seguente flusso decisionale:
 
-1. La chiamata al server [!DNL Target] arriva a [!DNL Target] con informazioni sulla richiesta e sull&#39;URL [!DNL Target].
+1. La chiamata al server [!DNL Target] arriva a [!DNL Target] con informazioni sulla richiesta [!DNL Target] e sull’URL.
 1. [!DNL Target] richiama ogni attività in esecuzione in quella  [!DNL Target] richiesta.
 1. [!DNL Target] tenta di stabilire la corrispondenza tra il visitatore e l’attività con priorità più elevata.
 
@@ -90,7 +90,7 @@ Se la società utilizza [!DNL Target] richieste diverse dalla richiesta globale 
 >
 >I valori di priorità variano a seconda delle impostazioni. È possibile utilizzare le impostazioni legacy Bassa, Media o Alta, oppure attivare la priorità precisa da 0 a 999. Per ulteriori informazioni, consulta [Impostazioni attività](/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02).
 
-**Due campagne Target Classic utilizzano richieste Target non globali**
+**Due campagne di Target Classic utilizzano richieste Target non globali**
 
 * Campagna 1: homePageHero, offer1, priorità alta
 * Campagna 2: homePageHero, offer2, priorità bassa
