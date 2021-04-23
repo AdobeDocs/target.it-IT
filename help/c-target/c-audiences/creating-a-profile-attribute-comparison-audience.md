@@ -1,18 +1,18 @@
 ---
 keywords: pubblico;propensione;attributo di profilo;confrontare;confronto;creare pubblico;creazione di pubblico
-description: Scoprite come definire un'audience per confrontare due attributi di profilo per la libreria di Target Audience o in un'audience solo per attività.
-title: Posso confrontare due attributi di profilo da usare in Audiences?
-feature: Audiences
+description: Scopri come definire un pubblico per confrontare due attributi di profilo per la tua  [!DNL Target] Libreria pubblico o in un pubblico per sola attività.
+title: Posso confrontare due attributi di profilo da utilizzare nel pubblico?
+feature: Tipi di pubblico
+exl-id: 033e90f1-5a05-4fce-a520-68826860a908
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '419'
 ht-degree: 91%
 
 ---
 
-
-# Creare un pubblico per il confronto degli attributi di profilo{#create-a-profile-attribute-comparison-audience}
+# Creare un pubblico per il confronto degli attributi di profilo
 
 Definisci un pubblico per confrontare due attributi di profilo per la tua [Libreria tipi di pubblico](/help/c-target/c-audiences/audiences.md) oppure in un [pubblico per sola attività](/help/c-target/creating-activity-only-audience.md). L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 
@@ -58,7 +58,7 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](/help/
 
    ![](assets/propensity_score_4.png)
 
-## Video di formazione ![Logo Panoramica](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
+## Video di formazione ![Badge panoramica](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
 Per ulteriori informazioni e uno scenario in cui potresti utilizzare questa funzione, guarda il seguente video:
 
