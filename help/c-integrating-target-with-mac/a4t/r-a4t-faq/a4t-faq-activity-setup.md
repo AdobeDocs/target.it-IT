@@ -1,16 +1,16 @@
 ---
 keywords: FAQ;domande frequenti;analytics for target;a4t;configurazione delle attività
-description: Trova le risposte alle domande sulla configurazione delle attività durante l’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+description: Trova le risposte alle domande sulla configurazione delle attività durante l'utilizzo di Analytics per le attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: Dove posso trovare le domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '514'
-ht-degree: 22%
+source-wordcount: '502'
+ht-degree: 23%
 
 ---
-
 
 # Impostazioni delle attività - Domande frequenti su A4T
 
