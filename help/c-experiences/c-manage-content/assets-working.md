@@ -1,67 +1,67 @@
 ---
 keywords: libreria di contenuti;risorsa;annota;copia;elimina risorsa;scarica risorsa;modifica contenuto;condividi scheda;visualizza proprietà contenuto
-description: Scoprite come gestire le offerte di codice e immagini nella libreria  Adobe Target Offers. Scoprite come visualizzare i dettagli di un'offerta e come modificare, copiare, spostare o eliminare le offerte.
-title: Come si utilizza il contenuto nella libreria delle offerte?
-feature: Experiences and Offers
+description: Scopri come gestire le offerte di codice e immagine nella libreria delle offerte Adobe [!DNL Target] . Scopri come visualizzare i dettagli di un’offerta e come modificare, copiare, spostare o eliminare le offerte.
+title: Come si utilizzano i contenuti nella libreria delle offerte?
+feature: Esperienze e offerte
+exl-id: 2668ba68-29c8-4c3f-bebc-ba62760a8a61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '769'
 ht-degree: 37%
 
 ---
 
+# Utilizzare i contenuti della libreria Risorse
 
-# Operazioni con i contenuti nella libreria Risorse
+Informazioni sulle attività eseguibili su una risorsa nella libreria Contenuto in [!DNL Adobe Target], tra cui l’annotazione, la copia, l’eliminazione, il download, la modifica, la condivisione e la visualizzazione delle proprietà.
 
-Informazioni sulle attività che potete eseguire su una risorsa nella libreria Contenuto in [!DNL Adobe Target], tra cui l&#39;annotazione, la copia, l&#39;eliminazione, il download, la modifica, la condivisione e la visualizzazione delle proprietà.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte di codice]** o **[!UICONTROL Offerte di immagine]**.
 
-1. Fate clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]** o **[!UICONTROL Offerte immagini]**.
-
-   ![Schede Offerte codice e Offerte immagini](/help/c-experiences/c-manage-content/assets/offers-both.png)
+   ![Schede Offerte di codice e Offerte di immagine](/help/c-experiences/c-manage-content/assets/offers-both.png)
 
    Per ulteriori informazioni sulla ricerca nella Libreria offerte e sulla creazione di Smart Collection, consulta [Filtrare e cercare contenuti](/help/c-experiences/c-manage-content/filter-and-search-content.md#concept_3B59B8F025BF4CEA82ECC5199D365276).
 
-1. (Facoltativo) Per passare dalla [!UICONTROL vista a schede] alla [!UICONTROL vista a elenco], fare clic sull&#39;icona [!UICONTROL Visualizzazione a schede] o [!UICONTROL Visualizzazione a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. È inoltre possibile utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne durante la visualizzazione della [!UICONTROL Visualizzazione elenco].
+1. (Facoltativo) Passa dalla [!UICONTROL Vista a schede] alla [!UICONTROL Vista a elenco], fai clic sull&#39;icona [!UICONTROL Vista a schede] o [!UICONTROL Vista a elenco] nell&#39;angolo superiore destro della libreria dei contenuti. Puoi anche utilizzare [!UICONTROL Visualizza impostazioni] per configurare ulteriormente le colonne quando visualizzi la [!UICONTROL Vista a elenco].
 
-   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Visualizzazione elenco]:
+   L&#39;illustrazione seguente mostra le opzioni disponibili quando si visualizza la [!UICONTROL Vista a elenco]:
 
-   ![Opzioni Visualizzazione elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
+   ![Opzioni Vista a elenco](/help/c-experiences/c-manage-content/assets/view-settings-options.png)
 
-1. Eseguite l&#39;azione desiderata, come illustrato nelle sezioni seguenti:
+1. Esegui l’azione desiderata, come descritto nelle sezioni seguenti:
 
 ## Opzioni Offerte codice
 
-Quando visualizzate la pagina [!UICONTROL Code Offers], potete eseguire le seguenti azioni su un elemento posizionando il puntatore del mouse su un&#39;offerta o una cartella, quindi selezionando l&#39;icona appropriata.
+Quando visualizzi la pagina [!UICONTROL Offerte di codice], puoi eseguire le azioni seguenti su un elemento passando con il puntatore del mouse su un&#39;offerta o su una cartella e selezionando l&#39;icona appropriata.
 
-![Icone al passaggio del mouse nella scheda Code Offers (Offerte codice)](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
+![Icone al passaggio del mouse nella scheda Offerte di codice](/help/c-experiences/c-manage-content/assets/code-offers-hover-icons.png)
 
-* **Informazioni**: Visualizza le informazioni dell&#39;offerta.
-* **Modifica**: Modificate la cartella o l’offerta.
-* **Copia**: Copiate l’offerta. Copiando e quindi modificando l&#39;offerta potete facilmente creare una nuova offerta simile.
-* **Sposta**: Fate clic sull&#39;icona Sposta, individuate il percorso in cui desiderate spostare l&#39;offerta o la cartella, quindi fate clic sul  **** Dropicon. Ad esempio, potete spostare una o più cartelle in un’altra per creare sottocartelle. Fate clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
-* **Elimina**: Eliminate l’offerta o la cartella. Vedere [Considerazioni per l&#39;eliminazione di elementi](#delete).
+* **Informazioni**: Visualizza le informazioni dell’offerta.
+* **Modifica**: Modifica la cartella o l’offerta.
+* **Copia**: Copia l’offerta. Copiare e quindi modificare l’offerta consente di creare facilmente una nuova offerta simile.
+* **Sposta**: Fai clic sull’icona Sposta , passa alla posizione in cui desideri spostare l’offerta o la cartella, quindi fai clic sul  **** menu a discesa. Ad esempio, è possibile spostare una o più cartelle in un&#39;altra per creare sottocartelle. Fai clic su [!UICONTROL Cancella selezione] per deselezionare le offerte o le cartelle selezionate.
+* **Elimina**: Elimina l’offerta o la cartella. Consultare [Considerazioni per l&#39;eliminazione di elementi](#delete).
 
 ## Opzioni Offerte immagine
 
-Quando visualizzate la pagina [!UICONTROL Offerte immagine], potete eseguire le seguenti operazioni su un elemento posizionando il puntatore del mouse su un&#39;offerta o una cartella, quindi selezionando l&#39;icona appropriata.
+Quando visualizzi la pagina [!UICONTROL Offerte immagine], puoi eseguire le azioni seguenti su un elemento passando con il mouse su un&#39;offerta o su una cartella e selezionando l&#39;icona appropriata.
 
-L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si visualizza la [!UICONTROL vista a schede].
+L&#39;illustrazione seguente mostra le icone al passaggio del mouse quando si visualizza la [!UICONTROL Vista a schede].
 
-![Icone al passaggio del mouse nella scheda Offerte immagine quando si trova nella vista a schede](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
+![Icone al passaggio del mouse nella scheda Offerte immagine nella vista a schede](/help/c-experiences/c-manage-content/assets/image-offers-hover-icons.png)
 
-L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si visualizza la [!UICONTROL Visualizzazione elenco]. Per visualizzare le icone, fate clic su un elemento nell’elenco.
+L&#39;illustrazione seguente mostra le icone al passaggio del mouse quando si visualizza la [!UICONTROL Vista a elenco]. Per visualizzare le icone, fai clic su un elemento dell’elenco.
 
-![Icone al passaggio del mouse nella scheda Offerte immagine in visualizzazione elenco](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
+![Icone al passaggio del mouse nella scheda Offerte immagine nella vista a elenco](/help/c-experiences/c-manage-content/assets/list-view-hover.png)
 
-* **Selezionate**: Selezionare una o più cartelle in cui eseguire le azioni seguenti:
+* **Seleziona**: Selezionare una o più cartelle in cui eseguire le azioni seguenti:
 
    * Scarica
    * Copia
    * Sposta
-   * Elimina (Vedere [Considerazioni per l&#39;eliminazione di elementi](#delete).)
+   * Elimina (Consultare [Considerazioni per l&#39;eliminazione di elementi](#delete).)
 
-   Selezionate una o più offerte di immagini sulle quali eseguire le azioni seguenti:
+   Seleziona una o più offerte di immagini sulle quali eseguire le azioni seguenti:
 
    * Condividi
    * Scarica
@@ -71,20 +71,20 @@ L&#39;illustrazione seguente mostra le icone del passaggio del mouse quando si v
    * Sposta
 
 
-* **Scarica**: Scaricate l’offerta dell’immagine o la cartella e il relativo contenuto.
-* **Visualizza proprietà**: Visualizzare le proprietà dell&#39;elemento. Fare clic sulla scheda [!UICONTROL Base] e sulla scheda [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Fai clic sull&#39;icona a forma di matita nella pagina delle proprietà per modificare le proprietà e aggiungere altre informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
-* **Altre azioni**: Visualizza opzioni aggiuntive nella vista a schede.
-* **Modifica**: Modificate la cartella o l’offerta.
-* **Annota**: Aggiungete una nota alla risorsa. Fai clic sulla risorsa, quindi seleziona l&#39;area da annotare e digita la nota.
-* **Copia**: Copiate l’offerta. Copiando e quindi modificando l&#39;offerta potete facilmente creare una nuova offerta simile.
+* **Scarica**: Scarica l’offerta immagine o la cartella e il relativo contenuto.
+* **Visualizza proprietà**: Visualizzare le proprietà dell&#39;elemento. Assicurati di fare clic sulla scheda [!UICONTROL Base] e sulla scheda [!UICONTROL Avanzate] per visualizzare tutte le informazioni disponibili. Fai clic sull&#39;icona a forma di matita nella pagina delle proprietà per modificare le proprietà e aggiungere altre informazioni. Puoi aggiungere informazioni su metadati, stato di pubblicazione e dati sulla licenza.
+* **Altre azioni**: Visualizza opzioni aggiuntive nella vista  [!UICONTROL a schede].
+* **Modifica**: Modifica la cartella o l’offerta.
+* **Annota**: Aggiungi una nota alla risorsa. Fai clic sulla risorsa, quindi seleziona l&#39;area da annotare e digita la nota.
+* **Copia**: Copia l’offerta. Copiare e quindi modificare l’offerta consente di creare facilmente una nuova offerta simile.
 
-## Considerazioni per l&#39;eliminazione di elementi {#delete}
+## Considerazioni sull&#39;eliminazione di elementi {#delete}
 
 * È possibile eliminare un’intera cartella contenente un numero qualsiasi di risorse e sottocartelle. Questa funzione è disponibile anche nell’interfaccia di Target e di Adobe Experience Cloud Assets.
 * Se elimini una cartella con un numero elevato di immagini, il processo in esecuzione in background può richiedere tempo (diversi minuti) prima che l’interfaccia si aggiorni per mostrare lo stato finale. Il tempo necessario dipende dal numero di immagini e non dalla dimensione delle immagini. Una stima valida è dieci minuti per 2.000 immagini. È possibile procedere con altri lavori e controllare lo stato finale dopo diversi minuti per verificarne l’eliminazione.
 * Le cartelle non vuote nella libreria Offerta immagini possono essere eliminate. Se le immagini contenute nella cartella non sono indicate in nessuna attività, l’intera cartella e il relativo contenuto vengono eliminati. Se in un’attività vi sono riferimenti ad alcune immagini, vengono eliminate tutte le immagini senza riferimenti, mentre vengono mantenute quelle con riferimenti e le cartelle che le contengono.
 
-## Video di formazione: Il contrassegno Panoramica dell&#39;archivio dei contenuti ![a1/>](/help/assets/overview.png)
+## Video di formazione: Icona dell’ archivio dei contenuti ![Panoramica](/help/assets/overview.png)
 
 Questo video include informazioni sulla gestione del contenuto. (4:56)
 
