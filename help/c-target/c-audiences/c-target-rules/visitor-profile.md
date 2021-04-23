@@ -1,18 +1,18 @@
 ---
 keywords: profilo visitatore;targeting profilo visitatore
-description: Scopri come creare audience in  Adobe Target per i visitatori che soddisfano parametri di profilo specifici, come visitatori nuovi o di ritorno, affinità di categoria e molto altro.
-title: Posso Eseguire Il Targeting Dei Visitatori Che Soddisfano Parametri Di Profilo Specifici?
-feature: Audiences
+description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per rivolgerti ai visitatori che soddisfano parametri di profilo specifici come visitatori nuovi o di ritorno, affinità tra categorie e altro ancora.
+title: Posso [!DNL Target] Visitatori che soddisfano parametri di profilo specifici?
+feature: Tipi di pubblico
+exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '242'
+source-wordcount: '241'
 ht-degree: 83%
 
 ---
 
-
-# Profilo visitatore{#visitor-profile}
+# Profilo visitatore
 
 Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di profilo specifici.
 
@@ -43,7 +43,7 @@ Crea tipi di pubblico per rivolgerti ai visitatori che soddisfano parametri di p
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Video di formazione: Creazione del contrassegno Panoramica ![Audience](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico ![Badge panoramica](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
