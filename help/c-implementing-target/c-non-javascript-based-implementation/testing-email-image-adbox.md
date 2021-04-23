@@ -1,19 +1,19 @@
 ---
-keywords: email;adbox;email image adbox
-description: Scoprite come utilizzare  Adobe Target per testare dinamicamente le immagini nelle e-mail e persino modificare quelle immagini al volo quando qualcuno apre l'e-mail.
-title: Come posso testare un'e-mail Image Adbox?
-feature: Implement Email
+keywords: e-mail;AdBox;email image adbox
+description: Scopri come utilizzare Adobe [!DNL Target] per testare dinamicamente le immagini nelle e-mail e modificarle al volo quando qualcuno apre l’e-mail.
+title: Come posso testare un AdBox immagine per e-mail?
+feature: Implementa e-mail
 role: Developer
+exl-id: 87a918d7-83dc-4277-821b-d90302c59736
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '422'
+source-wordcount: '423'
 ht-degree: 90%
 
 ---
 
-
-# Test AdBox di un&#39;immagine per e-mail{#test-an-email-image-adbox}
+# Test AdBox di un&#39;immagine per e-mail
 
 Esegui un test dinamico delle immagini in un’e-mail, e cambiale al volo quando qualcuno apre l’e-mail.
 
@@ -45,4 +45,4 @@ I valori qui di seguito sono specifici per il tuo caso:
 | email_header | Il nome della AdBox. |
 | `mboxDefault=http%3A%2F%2Fwww.domain.com%2Fheader.jpg` | Obbligatorio. Sostituisci l’URL con il contenuto predefinito appropriato per la AdBox. Deve essere un riferimento assoluto e deve essere codificato nell’URL. |
 | `mboxXDomain=disabled` | Indica a Target di non tentare di impostare un cookie. |
-| `mboxSession=123456` e `mboxPC=123456` | Due valori richiesti da Target per unire il profilo di questo utente con il profilo esistente per il sito. 123456 è l&#39;identificatore univoco generato per e-mail. Inserire in modo dinamico questo valore in ogni URL AdBox e redirector. Questo numero deve essere univoco per ogni e-mail inviata a ciascuna persona. Se un&#39;e-mail settimanale viene inviata a 1000 persone, è necessario generare 1000 ID univoche.<br>L&#39;identificatore univoco per ogni e-mail deve essere assegnato a mboxSession e mboxPC in ciascun URL della AdBox e del redirector. Il formato consigliato per l’identificatore è timestamp-NNNNN, dove NNNNN è un numero casuale di 5 cifre, ma funziona qualsiasi formato alfanumerico. Alcuni servizi e-mail di massa e qualsiasi linguaggio di programmazione sono in grado di generare questo identificatore univoco. |
+| `mboxSession=123456` e `mboxPC=123456` | Due valori richiesti da Target per unire il profilo di questo utente con il profilo esistente per il sito. 123456 è l&#39;identificatore univoco generato per e-mail. Inserire in modo dinamico questo valore in ogni URL AdBox e redirector. Questo numero deve essere univoco per ogni e-mail inviata a ciascuna persona. Se un&#39;e-mail settimanale viene inviata a 1000 persone, è necessario generare 1000 ID univoci.<br>L&#39;identificatore univoco per ogni e-mail deve essere assegnato a mboxSession e mboxPC in ciascun URL della AdBox e del redirector. Il formato consigliato per l’identificatore è timestamp-NNNNN, dove NNNNN è un numero casuale di 5 cifre, ma funziona qualsiasi formato alfanumerico. Alcuni servizi e-mail di massa e qualsiasi linguaggio di programmazione sono in grado di generare questo identificatore univoco. |
