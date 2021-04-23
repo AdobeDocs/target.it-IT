@@ -1,20 +1,20 @@
 ---
-keywords: esperienza;Visual Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza esperienza visivo);Enhanced Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza visivo);Enhanced Experience Composer (Compositore esperienza esperienza visivo);form based Experience Composer (Compositore esperienza esperienza visivo);experience Composer (Compositore esperienza visivo);mista content content;iframe iframe iframe bustibile misto;iframe iframe iframe;iframe bust iframe hit;bust iframe iframe iframe iframe iframe iframe iframe iframe iframe iframe iframe; x-options;x-frame;x-frame;x-options;x-frame; x frame opzioni frame;x frame;x frame;opzioni frame;cross-origin options;cross-origin options;cross-origin;cross-origin issues;workworkflow di autenticazione
-description: Ulteriori informazioni su Adobe Experience Composer (Compositori esperienza visivo) - Visual Experience Composer (Compositore esperienza visivo), Form-Based Experience Composer (Compositore esperienza basato su moduli) e su Single Page Experience Composer (Compositore esperienza visivo a pagina singola).
-title: Quali Experience Composer Offre Target?
-feature: Experiences and Offers
+keywords: esperienza;compositore esperienza visivo;compositore esperienza avanzato;compositore esperienza basato su moduli;compositore moduli;compositore visivo;compositore esperienza;contenuto misto;iframe;iframe busting;iframe bust;x-frame-options;origini incrociate;problemi di origini incrociate;flusso di lavoro di autenticazione
+description: Ulteriori informazioni su Compositori esperienza Adobe - Compositore esperienza visivo, Compositore esperienza basato su moduli e Compositore esperienza visivo a pagina singola.
+title: Quale Compositore esperienza offre [!DNL Target] ?
+feature: Esperienze e offerte
+exl-id: 83daca9f-c154-487e-83cd-e458d50cece2
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '381'
-ht-degree: 79%
+source-wordcount: '383'
+ht-degree: 78%
 
 ---
 
-
 # Esperienze e offerte
 
-Un&#39;esperienza in [!DNL Adobe Target] determina quale contenuto viene visualizzato quando il visitatore soddisfa i criteri di audience per un&#39;attività.
+Un’esperienza in [!DNL Adobe Target] determina il contenuto visualizzato quando il visitatore soddisfa i criteri di pubblico per un’attività.
 
 Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, un video, una combinazione di questi vari elementi su una pagina, un’intera pagina web o un set di pagine, ad esempio un percorso di acquisto o altra sequenza logica di pagine. Può essere anche la risposta di un assistente vocale o di uno script di servizio clienti, o addirittura un gusto personalizzato da un distributore di bevande. Puoi testare o personalizzare le esperienze nelle attività di [!DNL Target].
 
