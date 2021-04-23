@@ -1,30 +1,30 @@
 ---
-keywords: multi-valore;attributi;raccomandazioni;multi-valore;multivalore;multi-valore
-description: Scoprite come lavorare con un campo multivalore in  Adobe Target Recommendations utilizzando operatori multivalore speciali, ad esempio per consigliare filmati con più attori.
-title: Posso usare attributi multivalore in Recommendations?
-feature: Recommendations
+keywords: multivalore;attributi;consigli;valore multiplo;multivalore;multivalore
+description: Scopri come utilizzare un campo multivalore in Adobe [!DNL Target] Recommendations utilizzando operatori multivalore speciali, ad esempio per consigliare filmati con più attori.
+title: Posso utilizzare attributi con più valori in Recommendations?
+feature: Consigli
+exl-id: 82018a9a-0983-458c-9387-3602dab4409b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 1%
 
 ---
 
-
 # Utilizzo di attributi con più valori
 
 A volte può essere utile utilizzare un campo con più valori. Prendi in considerazione gli esempi seguenti:
 
-* Potete offrire i filmati agli utenti. Un dato film ha più attori.
+* Offri film agli utenti. Un dato film ha più attori.
 * Vende biglietti per concerti. Un dato utente ha più bande preferite.
-* Vende vestiti. Una camicia è disponibile in diverse dimensioni.
+* Vende vestiti. Una camicia è disponibile in più dimensioni.
 
-Per gestire le raccomandazioni in questi scenari, potete trasmettere dati con più valori a [!DNL Target Recommendations] e utilizzare operatori multivalore speciali.
+Per gestire i consigli in questi scenari, puoi trasmettere dati con più valori a [!DNL Target Recommendations] e utilizzare operatori multivalore speciali.
 
-Per consentire a [!DNL Recommendations] di identificare dati con più valori, è necessario inviarli come array JSON, come negli esempi di codice riportati di seguito.
+Per consentire a [!DNL Recommendations] di identificare dati con più valori, questi devono essere inviati come array JSON, come negli esempi di codice riportati di seguito.
 
-## Passa un parametro con più valori in JavaScript
+## Trasmettere un parametro con più valori in JavaScript
 
 ```
 function targetPageParams() { 
@@ -41,7 +41,7 @@ function targetPageParams() {
 }
 ```
 
-Per ulteriori informazioni, vedere [Implementazione di attributi con più valori](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Attributi entità personalizzati*.
+Per ulteriori informazioni, consulta [Implementazione di attributi con più valori](/help/c-recommendations/c-products/custom-entity-attributes.md#section_80FEFE49E8AF415D99B739AA3CBA2A14) in *Attributi di entità personalizzati*.
 
 ## Trasmettere un attributo di entità con più valori in un file CSV
 
@@ -60,22 +60,22 @@ Per ulteriori informazioni, vedere [Implementazione di attributi con più valori
 5,Sample Product 5,category1,Save 10%,http://sample.store/products/images/product5_th.jpg,325,http://sample.store/products/product_detail.jsp?productId=5,1000,45,a,"[ ""v1"", ""v2"" ]",,,,,,,,, 
 ```
 
-Quando un attributo di entità, un attributo di profilo o un parametro mbox viene fornito come valore multiplo in base al formato indicato sopra, [!DNL Recommendations] deduce automaticamente che il campo è multivalore.
+Quando un attributo di entità, un attributo di profilo o un parametro mbox viene fornito come valore multiplo in base al formato di cui sopra, [!DNL Recommendations] deduce automaticamente che il campo è multivalore.
 
-I seguenti operatori sono disponibili per l&#39;uso con gli attributi di entità con più valori, profilo e mbox:
+I seguenti operatori sono disponibili per l’utilizzo con attributi di entità con più valori, profili e mbox:
 
-* [!UICONTROL è contenuto in elenco]
+* [!UICONTROL è contenuto nell&#39;elenco]
 * [!UICONTROL non è contenuto nell&#39;elenco]
 
 ## Utilizzo di attributi con più valori nelle regole di inclusione
 
 >[!NOTE]
 >
->Il supporto per la corrispondenza dinamica con attributi con più valori è attualmente disponibile solo in criteri quando si utilizza una regola di corrispondenza attributo di profilo o attributo di parametro (mbox) quando si confronta un singolo valore a sinistra con un lato destro con più valori. Gli attributi multivalore non sono attualmente supportati nelle promozioni, nella corrispondenza degli attributi di entità o negli elenchi a sinistra delle regole di inclusione.
+>Il supporto per la corrispondenza dinamica agli attributi con più valori è attualmente disponibile solo nei criteri quando si utilizza una regola di corrispondenza degli attributi di profilo o degli attributi di parametro (mbox) quando si confronta un singolo valore a sinistra con un lato destro con più valori. Gli attributi con più valori non sono attualmente supportati nelle promozioni, nella corrispondenza degli attributi di entità o negli elenchi sul lato sinistro delle regole di inclusione.
 
 ### Esempio: Escludere gli elementi guardati di recente
 
-Si supponga di voler impedire che vengano consigliati i filmati presenti negli ultimi dieci filmati visualizzati dall’utente. Innanzitutto, scrivete uno script di profilo denominato `user.lastWatchedMovies` per tenere traccia degli ultimi dieci filmati visualizzati come array JSON. Potete quindi escludere gli elementi utilizzando la seguente regola di inclusione:
+Supponiamo di voler evitare che vengano consigliati tutti i film presenti negli ultimi dieci film visualizzati dall’utente. Innanzitutto, scrivi uno script di profilo denominato `user.lastWatchedMovies` per tenere traccia degli ultimi dieci film visualizzati come array JSON. Quindi, puoi escludere gli elementi utilizzando la seguente regola di inclusione:
 
 ```
 `Profile Attribute Matching`
@@ -95,9 +95,9 @@ Rappresentazione API JSON della regola di inclusione:
 } 
 ```
 
-### Esempio: Raccomanda gli elementi dai preferiti dell&#39;utente
+### Esempio: Consiglia gli elementi dai preferiti dell’utente
 
-Supponete di voler consigliare i biglietti solo per i concerti se la band è una delle band preferite dall&#39;utente. Innanzitutto, accertatevi di disporre di una variabile di profilo denominata `profile.favoriteBands` che contenga le bande preferite dall&#39;utente. Quindi, accertatevi che il catalogo includa un attributo `entity.artistPerforming` che includa l&#39;artista che esegue il concerto. Quindi, potete utilizzare la seguente regola di inclusione:
+Supponiamo che tu voglia consigliare i biglietti solo ai concerti se la band è una delle band preferite dall&#39;utente. In primo luogo, assicurati di disporre di una variabile di profilo denominata `profile.favoriteBands` che contiene le bande preferite dell’utente. Quindi, assicurati che il catalogo includa un attributo `entity.artistPerforming` che includa l&#39;artista che esegue il concerto. Quindi, puoi utilizzare la seguente regola di inclusione:
 
 ```
 `Profile Attribute Matching`
@@ -117,9 +117,9 @@ Rappresentazione API JSON della regola di inclusione:
 }
 ```
 
-### Esempio: Creazione API di criteri che consigliano gli elementi dai preferiti di un utente
+### Esempio: Creazione API di criteri per la raccomandazione di elementi dai preferiti di un utente
 
-I criteri che utilizzano regole di filtraggio multivalore, come tutti i criteri, possono essere creati tramite  API Adobe I/O. Una chiamata API di esempio per creare un criterio in cui l&#39;attributo di entità `id` è contenuto nell&#39;elenco di parametri mbox `favorites` è fornita qui:
+I criteri che utilizzano regole di filtro con più valori, come tutti i criteri, possono essere creati tramite API di Adobe I/O. Una chiamata API di esempio per creare un criterio in cui l’attributo di entità `id` è contenuto nell’elenco dei parametri mbox `favorites` è fornita qui:
 
 ```
 curl -X POST \
@@ -156,7 +156,7 @@ curl -X POST \
 }'
 ```
 
-Tale operazione verrebbe associata a JavaScript sulla pagina per trasmettere il contenuto dei preferiti:
+Questo verrebbe associato a JavaScript nella pagina per passare il contenuto dei preferiti:
 
 ```
 <!-- pass in the value of mbox parameter “favorites” as JSON array -->
