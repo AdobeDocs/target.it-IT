@@ -1,30 +1,30 @@
 ---
 keywords: esclusioni
-description: Scoprite come creare esclusioni in  Adobe Target Recommendations per evitare che i prodotti o i contenuti vengano consigliati ai visitatori.
-title: Come si utilizzano le esclusioni nelle attività Recommendations?
-feature: Recommendations
+description: Scopri come creare esclusioni in Adobe [!DNL Target] Recommendations per evitare che prodotti o contenuti vengano consigliati ai visitatori.
+title: Come si utilizzano le esclusioni nelle attività di Recommendations?
+feature: Consigli
+exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '607'
 ht-degree: 44%
 
 ---
 
+# Esclusioni
 
-# Esclusioni{#exclusions}
+Crea un’esclusione in [!DNL Adobe Target Recommendations] per evitare che prodotti o contenuti vengano consigliati ai visitatori. Un’esclusione è un sottoinsieme di prodotti o contenuti che non devono essere consigliati ai visitatori.
 
-Create un&#39;esclusione in [!DNL Adobe Target Recommendations] per evitare che prodotti o contenuti vengano raccomandati ai visitatori. Un&#39;esclusione è un sottoinsieme di prodotti o contenuti che non dovrebbero essere raccomandati ai visitatori.
+Le esclusioni sono disponibili nell’intero account. A differenza delle raccolte, dove si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Recommendations], le esclusioni si applicano a tutte le attività in tutto l&#39;account. Non è possibile assegnare un gruppo di esclusione durante la creazione dell’attività.
 
-Le esclusioni sono disponibili per l&#39;intero account. A differenza delle raccolte, dove si specifica una raccolta specifica per ogni esperienza durante la creazione di un&#39;attività [!UICONTROL Recommendations], le esclusioni si applicano a tutte le attività dell&#39;account. Non è disponibile alcuna opzione per assegnare un gruppo di esclusione durante la creazione dell&#39;attività.
-
-Alcuni esempi di volte in cui si utilizzano le esclusioni:
+Alcuni esempi di utilizzo delle esclusioni includono:
 
 * Prodotti che sono stati interrotti
 * Il catalogo Autunno/Inverno è ora l&#39;unico catalogo che dovrebbe essere presente online. Qualsiasi articolo del catalogo Estate non è più disponibile per l&#39;acquisto.
-* Elementi che potrebbero essere inopportuni da consigliare sulla maggior parte delle pagine/schermi (prodotti per adulti, film NC-17, ecc.)
+* Articoli che potrebbero essere inappropriati da consigliare sulla maggior parte delle pagine/schermi (prodotti per adulti, film NC-17, ecc.)
 * Prodotti con campi di metadati incompleti (miniatura mancante, prezzo o altri metadati importanti)
-* Prodotti che non dovrebbero mai essere raccomandati (forse esiste uno SKU nel sistema per qualcosa, ma non è un articolo acquistabile, o forse è un falso SKU per il team di QA per simulare un acquisto senza ordinare qualcosa, ecc.)
+* Prodotti che non dovrebbero mai essere raccomandati (forse esiste una SKU nel sistema per qualcosa ma non è un articolo acquistabile, o forse è una SKU falsa per il team QA simulare un acquisto senza ordinare effettivamente qualcosa, ecc,)
 
 >[!IMPORTANT]
 >
@@ -54,27 +54,27 @@ Alcuni esempi di volte in cui si utilizzano le esclusioni:
 
 ## Creare un’esclusione utilizzando Ricerca avanzata
 
-È inoltre possibile creare esclusioni utilizzando [!UICONTROL Ricerca avanzata] nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
+Puoi anche creare esclusioni utilizzando [!UICONTROL Ricerca avanzata] nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ( [!UICONTROL Recommendations] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as.png)
+![Finestra di dialogo Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
 Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, è possibile fare clic su [!UICONTROL Salva con nome] > [!UICONTROL Esclusione].
 
 >[!IMPORTANT]
 >
->La funzionalità [!UICONTROL Ricerca avanzata] non fa distinzione tra maiuscole e minuscole; tuttavia, i prodotti restituiti al momento della consegna si basano su ricerche con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
+>La funzionalità [!UICONTROL Ricerca avanzata] non distingue tra maiuscole e minuscole; tuttavia, i prodotti restituiti al momento della consegna si basano sulla ricerca con distinzione tra maiuscole e minuscole. Questa mancata corrispondenza potrebbe creare confusione. Assicurati di considerare la distinzione tra maiuscole e minuscole quando crei esclusioni in base ai risultati utilizzando la funzionalità Ricerca avanzata. Ad esempio, se esegui una ricerca per “Vacanza”, i risultati della ricerca iniziale contengono “Vacanza” e “vacanza”. Se poi crei un’esclusione con l’intento di escludere i prodotti contenenti “vacanza”, verranno esclusi solo i prodotti contenenti “vacanza”. ma non quelli contenenti “Vacanza”.
 
-## Modificare, copiare o eliminare un&#39;esclusione
+## Modificare, copiare o eliminare un’esclusione
 
-Passate il puntatore del mouse sull&#39;esclusione desiderata nell&#39;elenco, quindi fate clic sull&#39;icona appropriata: modificare, copiare o eliminare.
+Passa il puntatore del mouse sull’esclusione desiderata nell’elenco, quindi fai clic sull’icona appropriata: modificare, copiare o eliminare elementi.
 
-![Icone al passaggio del mouse per un&#39;esclusione](/help/c-recommendations/c-products/assets/hover-exclusions.png)
+![Icone al passaggio del mouse per un’esclusione](/help/c-recommendations/c-products/assets/hover-exclusions.png)
 
-È possibile copiare un&#39;esclusione esistente per creare una doppia esclusione da modificare. Questo consente di creare un&#39;esclusione simile con meno sforzi.
+È possibile copiare un’esclusione esistente per creare un’esclusione duplicata da modificare. Questo ti consente di creare un’esclusione simile con meno sforzo.
 
-Tieni presente che le esclusioni sono disponibili per l&#39;intero account. Prima di eliminare un&#39;esclusione, è necessario tenere presente questo aspetto. Le esclusioni eliminate non possono essere recuperate.
+Tieni presente che le esclusioni sono disponibili nell’intero account. Considera questo aspetto prima di eliminare un’esclusione. Le esclusioni eliminate non possono essere recuperate.
 
-## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Logo delle esercitazioni](/help/assets/tutorial.png)
+## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
