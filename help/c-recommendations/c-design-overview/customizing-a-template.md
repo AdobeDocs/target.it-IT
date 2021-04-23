@@ -1,20 +1,20 @@
 ---
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
-description: Scoprite come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in  Adobe Target Recommendations.
-title: Come posso personalizzare un progetto utilizzando Velocity?
-feature: Recommendations
+description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe [!DNL Target] Recommendations.
+title: Come posso personalizzare una progettazione con Velocity?
+feature: Consigli
+exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1027'
-ht-degree: 60%
+ht-degree: 61%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Personalizzare una progettazione con Velocity
 
-# ![PREMIUM](/help/assets/premium.png) Personalizzare una progettazione con Velocity{#customize-a-design-using-velocity}
-
-Utilizzate il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni delle raccomandazioni in [!DNL Adobe Target Recommendations].
+Utilizza il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in [!DNL Adobe Target Recommendations].
 
 ## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
@@ -64,7 +64,7 @@ Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome 
 
 >[!NOTE]
 >
->Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite hardcoded o loop, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
+>Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
 
 Ad esempio, se desideri una progettazione che mostri qualcosa di simile a quanto segue:
 
@@ -119,22 +119,22 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Se desiderate aggiungere del testo dopo il valore di una variabile prima che un tag che indichi che il nome della variabile è terminato, potete farlo utilizzando la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
+>Se desideri aggiungere del testo dopo il valore di una variabile prima che un tag indichi che il nome della variabile è stato completato, utilizza la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
 
 Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato in modo dinamico nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi inoltre utilizzare queste variabili per visualizzare il `dayCount` (numero di giorni di dati utilizzati nel criterio, come “articoli più venduti negli ultimi 2 giorni” ecc.
 
 ## Utilizzo dei numeri nei modelli Velocity
 
-Per impostazione predefinita, i modelli Velocity gestiscono tutti gli attributi di entità come valori stringa. Potrebbe essere utile trattare un attributo di entità come un valore numerico per eseguire un&#39;operazione matematica o confrontarlo con un altro valore numerico. Per gestire un attributo di entità come valore numerico, procedere come segue:
+Per impostazione predefinita, i modelli di Velocity considerano tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un’operazione matematica o confrontarlo con un altro valore numerico. Per trattare un attributo di entità come valore numerico, effettua le seguenti operazioni:
 
-1. Dichiarare una variabile fittizia e inizializzarla in un numero intero o doppio arbitrario.
-1. Assicuratevi che l&#39;attributo di entità che desiderate utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello).
-1. Passate l&#39;attributo dell&#39;entità nel metodo `parseInt` o `parseDouble` sulla variabile fittizia creata al punto 1 per trasformare la stringa in un numero intero o doppio.
-1. Eseguire l&#39;operazione o il confronto matematico sul nuovo valore numerico.
+1. Dichiara una variabile fittizia e la inizializza in un numero intero o doppio arbitrario.
+1. Assicurati che l’attributo di entità che desideri utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello).
+1. Passa l’attributo dell’entità nel metodo `parseInt` o `parseDouble` della variabile fittizia creata nel passaggio 1 per trasformare la stringa in un valore intero o doppio.
+1. Eseguire l&#39;operazione matematica o il confronto sul nuovo valore numerico.
 
 ### Esempio: Calcolo di un prezzo di sconto
 
-Si supponga di voler ridurre il prezzo visualizzato di un articolo di $ 0,99 per applicare uno sconto. Per ottenere questo risultato, potete usare il seguente approccio:
+Supponiamo di voler ridurre il prezzo visualizzato di un articolo di $0,99 per applicare uno sconto. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #set( $Double = 0.1 )
@@ -149,7 +149,7 @@ Si supponga di voler ridurre il prezzo visualizzato di un articolo di $ 0,99 per
 
 ### Esempio: Scelta del numero di stelle da visualizzare in base alla valutazione di un elemento
 
-Si supponga di voler visualizzare un numero appropriato di stelle in base alla media numerica del punteggio cliente di un articolo. Per ottenere questo risultato, potete usare il seguente approccio:
+Supponi di voler visualizzare un numero appropriato di stelle in base alla valutazione numerica media del cliente di un articolo. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #set( $Double = 0.1 )
@@ -174,7 +174,7 @@ Si supponga di voler visualizzare un numero appropriato di stelle in base alla m
 
 ### Esempio: Calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento
 
-Si supponga di memorizzare la lunghezza di un filmato in minuti, ma si desidera visualizzarla in ore e minuti. Per ottenere questo risultato, potete usare il seguente approccio:
+Si supponga di memorizzare la lunghezza di un filmato in minuti, ma di visualizzarne la lunghezza in ore e minuti. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #if( $entity1.get('length_minutes') )
@@ -185,7 +185,7 @@ Si supponga di memorizzare la lunghezza di un filmato in minuti, ma si desidera 
 #end
 ```
 
-## Visualizzazione di un elemento chiave con prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
+## Visualizzazione di un elemento chiave con i prodotti consigliati {#section_7F8D8C0CCCB0403FB9904B32D9E5EDDE}
 
 Puoi modificare la progettazione per mostrare un elemento chiave accanto ad altri prodotti consigliati. Ad esempio, accanto ai consigli potresti voler mostrare l&#39;articolo corrente, come riferimento.
 
@@ -208,9 +208,9 @@ Il risultato è una progettazione come la seguente, dove una colonna mostra l&#3
 
 Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 
-## Esecuzione di sostituzioni in un valore di stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
+## Esecuzione di sostituzioni in un valore stringa {#section_01F8C993C79F42978ED00E39956FA8CA}
 
-È possibile modificare la progettazione per sostituire i valori all&#39;interno di una stringa. Ad esempio, sostituire il delimitatore di punti decimali utilizzato negli Stati Uniti con il delimitatore di virgole utilizzato in Europa e in altri paesi.
+Puoi modificare la progettazione per sostituire i valori all’interno di una stringa. Ad esempio, sostituendo il delimitatore a punti decimali utilizzato negli Stati Uniti con il delimitatore a virgola utilizzato in Europa e in altri paesi.
 
 Il codice seguente mostra una riga singola in un esempio di prezzo di vendita condizionale:
 
@@ -234,7 +234,7 @@ Il codice seguente è un esempio completo di prezzo di vendita:
                                     </span>
 ```
 
-## Personalizzazione delle dimensioni del modello e controllo dei valori vuoti {#default}
+## Personalizzazione delle dimensioni del modello e verifica della presenza di valori vuoti {#default}
 
 Utilizzando uno script Velocity per controllare il ridimensionamento dinamico della visualizzazione dell’entità, il seguente modello gestisce un risultato “da 1 a molti” per evitare che vengano creati elementi HTML vuoti qualora non vi siano sufficienti entità restituite da [!DNL Recommendations]. Questo script è adatto per gli scenari in cui non avrebbe senso utilizzare consigli di backup ed è abilitata l’opzione [!UICONTROL Rendering di modelli parziale].
 
