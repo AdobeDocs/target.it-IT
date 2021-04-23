@@ -1,20 +1,20 @@
 ---
 keywords: multivariato;MVT;metriche;impostare metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;ricavi;impegno
-description: Scoprite come specificare le metriche in un'attività Test multivariato di Adobe Target  per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Partecipazione.
-title: Come si impostano le metriche degli obiettivi in un'attività Test multivariato (MVT)?
-feature: Multivariate Tests
+description: Scopri come specificare le metriche in un’attività Test multivariato di Adobe [!DNL Target] per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
+title: Come si impostano le metriche degli obiettivi in un’attività Test multivariato (MVT)?
+feature: Test multivariati
+exl-id: 8530b3f1-5daa-4a03-a482-93b10eb23208
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '351'
-ht-degree: 83%
+source-wordcount: '352'
+ht-degree: 82%
 
 ---
 
-
 # Impostare le metriche per i test multivariati
 
-Utilizzate le metriche in un test multivariato  Adobe Target per determinare quando una visita ha esito positivo.
+Utilizza le metriche in un test multivariato di Adobe Target per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -53,7 +53,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    | `-` | Meno |
    | `@` | Chiocciola |
 
-## Video di formazione: metriche attività (7:43)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: metriche attività (7:43)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
 
