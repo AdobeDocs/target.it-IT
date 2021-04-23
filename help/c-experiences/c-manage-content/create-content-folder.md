@@ -1,59 +1,59 @@
 ---
 keywords: contenuto;crea cartella;risorse;sposta cartella;copia cartella;elimina cartella;scarica cartella;cartella
 description: Come si creano le cartelle nella libreria Offerte?
-title: Scoprite come creare cartelle nella libreria  Adobe Target Offers per contenere le offerte di codice e immagini, nonché altre cartelle.
-feature: Experiences and Offers
+title: Scopri come creare cartelle nella libreria delle offerte Adobe [!DNL Target] per conservare le offerte di codice e immagine, nonché altre cartelle.
+feature: Esperienze e offerte
+exl-id: 64d1a24a-5ce1-4f64-9ff2-1c2f13a112bb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '279'
 ht-degree: 22%
 
 ---
 
+# Creare cartelle di offerte
 
-# Creare le cartelle delle offerte
+Crea cartelle nella libreria delle offerte di Adobe Target per conservare le offerte di codice, le offerte di immagini e altre cartelle per creare una struttura di sottocartelle.
 
-Create cartelle nella libreria  Adobe Target Offer per contenere offerte di codice, offerte di immagini e altre cartelle e creare una struttura di sottocartelle.
+Il processo di creazione delle cartelle per le offerte di codice e le offerte di immagini è leggermente diverso. Le sezioni che seguono contengono ulteriori informazioni.
 
-Il processo di creazione delle cartelle per le offerte di codice e immagini è leggermente diverso. Le sezioni che seguono contengono ulteriori informazioni.
+## Cartelle delle offerte di codice
 
-## Cartelle delle offerte del codice
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte di codice]**.
 
-1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte codice]**.
-
-   ![Code Offers, scheda](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
+   ![Scheda Offerte codice](/help/c-experiences/c-manage-content/assets/code-offers-tab.png)
 
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
 
-1. Specificate un nome descrittivo per la cartella.
+1. Immetti un nome descrittivo per la cartella.
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-Per informazioni sulle attività che potete eseguire su offerte e cartelle, consultate [Operazioni con i contenuti nella libreria Risorse](/help/c-experiences/c-manage-content/assets-working.md).
+Per informazioni sulle attività eseguibili su offerte e cartelle, consulta [Operazioni con il contenuto della libreria delle risorse](/help/c-experiences/c-manage-content/assets-working.md).
 
 ## Cartelle delle offerte di immagini
 
-1. Fare clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagini]**.
+1. Fai clic su **[!UICONTROL Offerte]** > **[!UICONTROL Offerte immagine]**.
 
-   ![Immagine, scheda](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
+   ![Scheda Offerte immagine](/help/c-experiences/c-manage-content/assets/image-offers-tab.png)
 
 1. Fai clic su **[!UICONTROL Crea]** > **[!UICONTROL Cartella]**.
-1. Specificate un **[!UICONTROL Titolo]** descrittivo per la cartella.
+1. Specifica un **[!UICONTROL Titolo]** descrittivo per la cartella.
 
    Ad esempio, è possibile specificare il tipo di contenuto che conterrà.
 
-   Il nome non può contenere i seguenti caratteri: Segno percentuale `%`,Barra avanti `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Doppie virgolette `"`, Staffa quadrata `[`, Staffa quadrata `]`, Segno più: `+`, Pipe: `|`, punto: `.`, Segno di numero: `#`, parentesi graffe: `{`, parentesi graffe `}`, punto di inserimento `^` o punto e virgola `;`. È possibile utilizzare un trattino ( `- `) invece di questi caratteri.
+   Il nome non può contenere i seguenti caratteri: Segno percentuale `%`,Barra avanti `/`,Barra rovesciata `\`, Due punti `:`, Asterisco `*`, Punto interrogativo `?`, Virgolette doppie `"`, Staffa quadrata `[`, Parentesi quadra chiusa `]`, Segno più: `+`, Pipe: `|`, Punto: `.`, Cancelletto: `#`, Parentesi graffa aperta: `{`, Parentesi graffa aperta `}`, Carrello `^` o Punto e virgola `;`. È possibile utilizzare un trattino ( `- `) invece di questi caratteri.
 
-1. (Facoltativo) Modificare il **[!UICONTROL Nome]**.
+1. (Facoltativo) Modifica il **[!UICONTROL Nome]**.
 1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Privato]**.
 
    Specifica che la cartella è privata in modo che solo tu possa vederne il contenuto.
 
-1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Riordina in Visualizzazione elenco]**.
+1. (Facoltativo) Selezionare la casella di controllo **[!UICONTROL Riordina tabella in Vista a elenco]**.
 
-   Specifica che è possibile riordinare la posizione della cartella nella [!UICONTROL Visualizzazione elenco].
+   Specifica che è possibile riordinare la posizione della cartella nella [!UICONTROL Vista a elenco].
 
 1. Fai clic su **[!UICONTROL Crea]**.
 
-Per informazioni sulle attività che potete eseguire su offerte e cartelle, consultate [Operazioni con i contenuti nella libreria Risorse](/help/c-experiences/c-manage-content/assets-working.md).
+Per informazioni sulle attività eseguibili su offerte e cartelle, consulta [Operazioni con il contenuto della libreria delle risorse](/help/c-experiences/c-manage-content/assets-working.md).
