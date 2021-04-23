@@ -1,20 +1,20 @@
 ---
 keywords: multipagina;test di viaggio;attività multipagina
-description: Scoprite come creare un'attività con più pagine in  Adobe Target consente di creare un brano su più pagine, con una progettazione specifica per ogni pagina.
-title: Come si crea un'attività con più pagine?
-feature: Visual Experience Composer (VEC)
+description: Scopri come creare un’attività multipagina in Adobe [!DNL Target] consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
+title: Come si crea un'attività multipagina?
+feature: Compositore esperienza visivo
+exl-id: d000cc73-4729-4ce0-ab30-756dd3ca8545
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 85%
 
 ---
 
-
 # Attività multipagina
 
-Un&#39;attività multipagina in [!DNL Adobe Target] consente di creare un brano su più pagine, con una progettazione specifica per ogni pagina.
+Un’attività multipagina in [!DNL Adobe Target] consente di creare una storia su più pagine, con una progettazione specifica per ogni pagina.
 
 Ad esempio, ti può essere utile per testare un’offerta di spedizione gratuita per acquisti superiori a un determinato importo. Vorresti che questa offerta venga visualizzata nella pagina di destinazione, in una pagina di categoria e in alcune pagine di prodotto, ma con dimensioni e posizione diverse in ciascun tipo di pagina. L’offerta dovrà essere prominente sulla home page, quindi proposta di nuovo ma più piccola su altre pagine correlate.
 
@@ -46,4 +46,3 @@ Per aggiungere delle pagine a un test:
    Questo menu permette di rinominare le pagine, eseguire un test di reindirizzamento dall&#39;interno dell&#39;attività multipagina ed eliminare la pagina.
 
 1. Il compositore di esperienza visivo permette di progettare il modo in cui l&#39;offerta appare in ogni pagina.
-
