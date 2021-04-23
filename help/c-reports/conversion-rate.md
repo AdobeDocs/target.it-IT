@@ -1,16 +1,16 @@
 ---
 keywords: Targeting
-description: Scoprite come  Adobe Target mostra e calcola il tasso di conversione, l'incremento, la confidenza (rilevanza statistica) e l'intervallo di confidenza per ogni esperienza.
-title: Come si visualizzano tasso di conversione, incremento e livello di confidenza?
-feature: Reports
+description: Scopri come Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità per ogni esperienza.
+title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
+feature: Rapporti
+exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
 source-wordcount: '2187'
 ht-degree: 69%
 
 ---
-
 
 # Tasso di conversione
 
@@ -106,17 +106,17 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 
 Il [rapporto CSV scaricato](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-Per calcolare queste metriche calcolate, scaricate il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività, oppure rivedete i [calcoli statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
+Per calcolare queste metriche calcolate, scarica il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività oppure controlla i calcoli [statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
 >Questo calcolatore è per i rapporti basati su Target e non per la creazioni di rapporti per A4T.
 
-## Esecuzione di calcoli offline per Analytics for Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
+## Esecuzione di calcoli offline per Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
 Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics].
 
-Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t dello studente, per calcolare la varianza è necessaria la &quot;somma dei quadrati&quot;, utilizzata nel denominatore della statistica t. [In questo documento vengono illustrati ](/help/assets/statistical-calculations.pdf) i dettagli delle formule matematiche utilizzate. È possibile recuperare la somma dei quadrati da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
+Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Student, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Questo documento spiega i ](/help/assets/statistical-calculations.pdf) dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
 Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, devi esportare un campione del numero totale di visualizzazioni di pagina per ogni visitatore per un lasso di tempo specificato, come un paio di giorni (servono solo poche migliaia di punti di dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
@@ -147,7 +147,7 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
 * [Creare una richiesta di Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/t-dw-create-request.html)
-* [Best practice di Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
+* [Best practice per la Data Warehouse](https://experienceleague.adobe.com/docs/analytics/export/data-warehouse/data-warehouse-bp.html)
 
 ## Metodologia di conteggio {#concept_EC19BC897D66411BABAF2FA27BCE89AA}
 
@@ -186,26 +186,26 @@ Per le attività Personalizzazione automatica (AP) al momento è supportata solo
 >
 >Di solito, questi conteggi sono determinati dai cookie e dalle attività di sessione. Tuttavia, se il visitatore raggiunge il punto di conversione finale di un’attività e quindi accede nuovamente all’attività, viene considerato come un nuovo partecipante e una nuova visita all’attività. Questo vale anche se i valori PCID e `sessionID` non cambiano.
 
-## Perché Target consiglia di utilizzare i test t-test per studenti? {#t-test}
+## Perché [!DNL Target] consiglia di utilizzare i test t di Student? {#t-test}
 
-I test A/B sono esperimenti per confrontare il valore medio di alcune metriche business in una variante di controllo (nota anche come esperienza) con il valore medio di quella stessa metrica in una o più esperienze alternative.
+I test A/B sono esperimenti per confrontare il valore medio di alcune metriche di business in una variante di controllo (nota anche come esperienza) con il valore medio di quella stessa metrica in una o più esperienze alternative.
 
-[!DNL Target] consiglia di utilizzare due test [ t per ](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.)studenti di esempio, in quanto questi richiedono un numero inferiore di ipotesi rispetto a alternative come i test z, e rappresentano il test statistico appropriato per eseguire confronti omogenei di metriche aziendali (quantitative) tra un&#39;esperienza di controllo e esperienze alternative.
+[!DNL Target] consiglia di utilizzare due test t di  [Student](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.) di esempio, in quanto richiedono meno ipotesi rispetto a alternative come i test z, e sono il test statistico appropriato per eseguire confronti a coppie di metriche di business (quantitative) tra esperienze di controllo ed esperienze alternative.
 
 ### Maggiori dettagli
 
-Quando eseguite test A/B online, ogni utente/visitatore viene assegnato in modo casuale a una singola variante. Successivamente, effettuiamo le misurazioni delle metriche aziendali di interesse (ad esempio conversioni, ordini, entrate, ecc.) per i visitatori in ogni variante. Il test statistico che utilizziamo quindi verifica l&#39;ipotesi che la metrica media aziendale (ad esempio tasso di conversione, ordini per utente, ricavi per utente, ecc.) è uguale al controllo e a una determinata variante alternativa.
+Quando esegui test A/B online, ogni utente/visitatore viene assegnato in modo casuale a una singola variante. Successivamente, effettuiamo le misurazioni delle metriche aziendali di interesse (ad esempio conversioni, ordini, ricavi, ecc.) per i visitatori in ogni variante. Il test statistico che utilizziamo quindi verifica l&#39;ipotesi che la metrica media di business (ad esempio il tasso di conversione, gli ordini per utente, i ricavi per utente, ecc.) è uguale al controllo e a una determinata variante alternativa.
 
-Anche se la stessa metrica aziendale può essere distribuita in base a una distribuzione arbitraria, la distribuzione della media di questa metrica (all&#39;interno di ogni variante) dovrebbe convergere in una distribuzione normale tramite la [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Notate che, anche se non vi è alcuna garanzia sulla velocità con cui questa distribuzione di campionamento del valore medio converge in normale, questa condizione viene generalmente raggiunta, data la portata dei visitatori nei test online.
+Anche se la metrica di business stessa potrebbe essere distribuita in base a una distribuzione arbitraria, la distribuzione della media di questa metrica (all&#39;interno di ogni variante) dovrebbe convergere in una distribuzione normale tramite il [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Tieni presente che, sebbene non vi sia alcuna garanzia sulla velocità con cui questa distribuzione di campionamento della media converge in normale, questa condizione viene generalmente raggiunta data la portata dei visitatori nei test online.
 
-Data questa normalità della media, la statistica del test da utilizzare può essere mostrata seguire una distribuzione t, perché è il rapporto tra un valore normalmente distribuito (la differenza nei mezzi della metrica business) e un termine di scala basato su una stima basata sui dati (l&#39;errore standard della differenza nei mezzi). Il **test t-test dello studente** è quindi il test di ipotesi appropriato, dato che la statistica del test segue una distribuzione t.
+Data questa normalità della media, la statistica del test da utilizzare può essere mostrata come segue una distribuzione t, perché è il rapporto tra un valore normalmente distribuito (la differenza nel mezzo della metrica business) e un termine di scala basato su una stima basata sui dati (l&#39;errore standard della differenza nei mezzi). Il **test t di Student** è quindi il test di ipotesi appropriato, dato che la statistica del test segue una distribuzione t.
 
-### Perché altri test non sono utilizzati
+### Perché non vengono utilizzati altri test
 
-Un **z-test** è inappropriato perché nello scenario di test A/B tipico, il denominatore della statistica di prova non è derivato da una varianza nota, ma deve essere stimato dai dati.
+Un **z-test** è inappropriato perché nel tipico scenario di test A/B, il denominatore della statistica del test non è derivato da una varianza nota e deve essere stimato dai dati.
 
-**I** test al quadrato non sono utilizzati perché sono appropriati per determinare se esiste una relazione qualitativa tra due varianti (ossia un&#39;ipotesi nulla che non esista alcuna differenza tra le varianti). I test T sono più adatti allo scenario di _confronto quantitativo_ delle metriche.
+**I** test a chi al quadrato non sono utilizzati perché sono appropriati per determinare se esiste una relazione qualitativa tra due varianti (ossia un’ipotesi nulla che non vi sia alcuna differenza tra le varianti). I test T sono più appropriati per lo scenario di confronto delle metriche _quantitativamente_.
 
-Il **Mann-Whitney U test** è un test non parametrico, che è appropriato quando la distribuzione di campionamento della metrica media aziendale (per ogni variante) non è normalmente distribuita. Tuttavia, come discusso in precedenza, date le dimensioni del traffico coinvolto nei test online, il teorema dei limiti centrali si applica in genere e quindi il test t può essere applicato in modo sicuro.
+Il **Mann-Whitney U test** è un test non parametrico, appropriato quando la distribuzione del campionamento della metrica media di business (per ogni variante) non viene normalmente distribuita. Tuttavia, come discusso in precedenza, date le dimensioni del traffico coinvolto nei test online, il Central Limit Theorem si applica in genere e quindi il test t può essere applicato in modo sicuro.
 
-Metodi più complessi come **ANOVA** (che generalizza test t su più di due varianti) possono essere applicati quando un test ha più di due esperienze (&quot;test A/Bn&quot;). Tuttavia, ANOVA risponde alla domanda &quot;se tutte le varianti hanno lo stesso significato&quot;, mentre nel test A/Bn tipico siamo più interessati a _quale specifica variante_ è la migliore. In [!DNL Target], pertanto, applichiamo test t regolari confrontando ogni variante con un controllo, con una correzione Bonferroni per tenere conto di confronti multipli.
+Metodi più complessi come **ANOVA** (che generalizzano test t a più di due varianti) possono essere applicati quando un test ha più di due esperienze (&quot;Test A/Bn&quot;). Tuttavia, ANOVA risponde alla domanda &quot;se tutte le varianti hanno la stessa media&quot;, mentre nel tipico test A/Bn siamo più interessati a _quale variante specifica_ è la migliore. In [!DNL Target], quindi applichiamo test t regolari confrontando ogni variante con un controllo, con una correzione Bonferroni per tenere conto di confronti multipli.
