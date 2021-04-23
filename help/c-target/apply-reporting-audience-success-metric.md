@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;pubblico;creazione di rapporti;metrica di successo
-description: Scoprite come scegliere una metrica di successo in  Adobe Target che qualifica l'utente per il pubblico di reporting.
-title: Posso applicare un pubblico di reporting a una metrica di successo?
-feature: Success Metrics
+description: Scopri come scegliere una metrica di successo in Adobe [!DNL Target] che qualifica l’utente per il pubblico di reporting.
+title: Posso applicare un pubblico di reportistica a una metrica di successo?
+feature: Metriche di successo
+exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '298'
 ht-degree: 90%
 
 ---
 
-
-# Applicare un pubblico di reportistica a una metrica di successo{#apply-a-reporting-audience-to-a-success-metric}
+# Applicare un pubblico di reportistica a una metrica di successo
 
 Scegli una metrica di successo che qualifichi l’utente per il pubblico di reportistica.
 
@@ -34,4 +34,3 @@ Considera le seguenti informazioni quando applichi un pubblico per la reportisti
 Per visualizzare la segmentazione nel rapporto, selezionare il pubblico desiderato dall’elenco a discesa Pubblico nel rapporto dell’attività.
 
 ![](assets/reporting_audience_dropdown.png)
-
