@@ -1,18 +1,18 @@
 ---
 keywords: A4T;Adobe Analytics;attività basata su Analytics;suite di rapporti di Analytics;suite di rapporti;integrazione di Target Analytics;configurazione di suite di rapporti
-description: Segui i passaggi necessari per implementare Analytics for Target (A4T) nelle soluzioni Adobe Target e Adobe Analytics.
-title: Come si implementa Analytics for Target (A4T)?
+description: Segui i passaggi necessari per implementare Analytics per le soluzioni [!DNL Target] (A4T) in your Adobe [!DNL Target] e Adobe Analytics.
+title: Come si implementa Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '890'
+source-wordcount: '881'
 ht-degree: 29%
 
 ---
 
-
-# Implementazione di Analytics for Target{#analytics-for-target-implementation}
+# Implementazione di Analytics per [!DNL Target]
 
 Sono necessari diversi passaggi per implementare [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
@@ -30,9 +30,9 @@ I requisiti dell’account utente devono essere soddisfatti prima di poter crear
 
 ## Passaggio 3: Implementare il servizio ID visitatore di Experience Cloud
 
-Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni [!DNL Adobe Experience Cloud]. Implementa o effettua la migrazione alla versione richiesta del servizio ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
+Il servizio ID visitatore consente di identificare gli utenti attraverso le diverse soluzioni [!DNL Adobe Experience Cloud]. Implementa o effettua la migrazione alla versione richiesta dell’ID visitatore di Experience Cloud. Per ulteriori informazioni, consulta “Requisiti di implementazione” in [Prima dell’implementazione](/help/c-integrating-target-with-mac/a4t/before-implement.md).
 
-Consulta [Implementare il servizio Experience Cloud ID per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) nella documentazione *Servizio ID visitatore di Experience Cloud* .
+Consulta [Implementare il servizio ID Experience Cloud per Target](https://experienceleague.adobe.com/docs/id-service/using/implementation/setup-target.html) nella documentazione *Servizio ID visitatore di Experience Cloud* .
 
 ## Passaggio 4: Aggiornare AppMeasurement per JavaScript o s_code
 
@@ -168,4 +168,3 @@ In [!DNL Target], fai clic su **[!UICONTROL Amministrazione > Compositore esperi
 
 * **[!UICONTROL Seleziona per attività consente di scegliere tra e per la creazione di ogni attività.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe imposta Analytics come origine dei rapporti per tutte le attività che hai creato.]**[!DNL Analytics]
-
