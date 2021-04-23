@@ -1,13 +1,13 @@
 ---
 keywords: annunci;generatore di competenze;chat sviluppatore;pausa caffè;eventi;forrester;gartner;webinar
-description: Leggi gli annunci e registrati per gli eventi Adobe Target, incluse le sessioni di Skills Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
-title: Dove posso trovare annunci ed eventi di Target?
-feature: Release Notes
+description: Leggi gli annunci e iscriviti ad Adobi [!DNL Target] eventi, tra cui sessioni di Skills Builder, chat per sviluppatori e product manager, webinar e altro ancora.
+title: Dove posso trovare [!DNL Target] Annunci ed eventi?
+feature: Note sulla versione
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '536'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano c
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Webinar: Come HSBC sfrutta Adobe Target e AI per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
+## Webinar: Come HSBC sfrutta l’Adobe [!DNL Target] e l’intelligenza artificiale per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
 * **[Visualizza la registrazione del webinar qui](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
@@ -49,7 +49,7 @@ Partecipa ad Adobe e HSBC per questo webinar per scoprire:
 
 *Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; Maggio 2020
 
-## Generatore di competenze Adobe Target: Sviluppatore chat, migrazione di Adobe Target mbox.js in at.js {#skill-builder}
+## Adobe [!DNL Target] Generatore di competenze: Sviluppatore chat, esegui la migrazione di mbox.js di Adobe [!DNL Target] in at.js {#skill-builder}
 
 Con mbox.js dichiarato obsoleto il 31 marzo 2021, David Son, Adobe Target Product Manager, ha recentemente ospitato una chat per sviluppatori per discutere i vantaggi della migrazione di mbox.js a at.js.
 
