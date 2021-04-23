@@ -1,19 +1,19 @@
 ---
 keywords: at.js;2.0;1.x;cookie
-description: Dettagli sulla gestione dei cookie da parte di Adobe Target at.js 2.x e at.js 1.x
-title: at.js Cookies
+description: Dettagli sulla gestione dei cookie da parte di Adobe [!DNL Target] at.js 2.x e at.js 1.x
+title: Cookie di at.js
 feature: at.js
 role: Developer
+exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1821'
-ht-degree: 98%
+source-wordcount: '1819'
+ht-degree: 97%
 
 ---
 
-
-# Cookie di at.js {#at-js-cookies}
+# Cookie di at.js
 
 Informazioni su at.js 2.x e at.js 1.*x*: comportamento dei cookie.
 
@@ -112,7 +112,7 @@ Il cookie dispone di diverse impostazioni predefinite. Puoi modificare queste im
 | Nome cookie | mbox. |
 | Dominio cookie | Il primo e il secondo livello dei domini da cui viene distribuito il contenuto. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. |
 | Dominio server | `clientcode.tt.omtrdc.net`, utilizzando il codice cliente per il tuo account. |
-| Durata cookie | Il cookie rimane sul browser del visitatore due anni dopo il suo ultimo accesso. Non puoi modificare la durata del cookie. |
+| Durata cookie | Il cookie rimane sul browser del visitatore per due anni dal suo ultimo accesso. Non puoi modificare la durata del cookie. |
 | Policy P3P | Il cookie viene pubblicato con una policy P3P, come richiesto dall’impostazione predefinita nella maggior parte dei browser. Una policy P3P indica a un browser chi sta erogando il cookie e come verranno utilizzate le informazioni. |
 
 Nel cookie sono conservati una serie di valori per la gestione dell’esperienza dei visitatori in relazione alle campagne:
@@ -124,11 +124,11 @@ Nel cookie sono conservati una serie di valori per la gestione dell’esperienza
 | check | Un semplice valore di test utilizzato per determinare se un visitatore supporta i cookie. Impostato ogni volta che un visitatore richiede una pagina. |
 | disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file mbox.js. Per impostazione predefinita, la sua durata è di 1 ora. |
 
-## Impatto su Target per i visitatori di Safari a causa di modifiche nel monitoraggio di Apple WebKit
+## Impatto su [!DNL Target] per i visitatori di Safari a causa di modifiche nel monitoraggio di Apple WebKit
 
 Considera quanto segue:
 
-### Come funziona il tracciamento di Adobe Target?
+### Come funziona l’Adobe [!DNL Target] Tracking?
 
 | Cookie | Dettagli |
 |--- |--- |
