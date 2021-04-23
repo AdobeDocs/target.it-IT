@@ -1,14 +1,14 @@
 ---
 keywords: elenco attività;attività;tipi di attività;modificare attività;azioni attività;attributo attività;filtro elenco attività;limitazioni attività;personalizzazione;personalizzazione
-description: Scopri come le attività in Adobe Target consentono di personalizzare i contenuti per tipi di pubblico specifici e di testare le progettazioni di pagine
+description: Scopri come le attività in Adobe [!DNL Target] consentono di personalizzare i contenuti per tipi di pubblico specifici e di testare le progettazioni di pagine
 title: Come posso personalizzare i contenuti e testare le progettazioni di pagine con Target?
-feature: Activities
+feature: Attività
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
 translation-type: tm+mt
-source-git-commit: e0a05d024170f819a417e50938c9765327f28b49
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2102'
-ht-degree: 92%
+source-wordcount: '2099'
+ht-degree: 91%
 
 ---
 
@@ -144,7 +144,7 @@ Un maggior numero di elementi nell&#39;attività comporta anche un aumento del t
 
 Per ulteriori limiti del Compositore esperienza visivo, consulta [Limitazioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#section_F33C2EA27F2E417AA036BC199DD6C721).
 
-## Attributi importati in Target per attività aggiornate al di fuori di Target {#section_802B0D174E6A44E1A96F404CA81AAE44}
+## Attributi importati in [!DNL Target] per attività aggiornate al di fuori di [!DNL Target] {#section_802B0D174E6A44E1A96F404CA81AAE44}
 
 Se le attività create in [!DNL Target] vengono aggiornate all&#39;esterno di [!DNL Target] (ad esempio, tramite Adobe I/O), i seguenti attributi di attività vengono importati di nuovo in [!DNL Target]:
 
