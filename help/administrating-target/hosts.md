@@ -2,16 +2,16 @@
 keywords: host;gruppo host;risoluzione dei problemi;procedure consigliate;ubox;reindirizzamenti;reindirizzamento;whitelist;inserire nell'elenco Consentiti;blacklist;inserire nell'elenco Bloccati
 description: Scopri come organizzare i siti web e gli ambienti di preproduzione per una gestione semplice e per rapporti separati in Adobe Target.
 title: Cosa sono gli host e come li utilizzo?
-feature: Administration & Configuration
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1080'
 ht-degree: 22%
 
 ---
-
 
 # Host
 
@@ -65,7 +65,7 @@ Per ordinare l’elenco [!UICONTROL Host], fai clic su un’intestazione di colo
 
 Per cercare nell’elenco [!UICONTROL Host], digita un termine di ricerca nella casella [!UICONTROL Cerca host].
 
-## Crea inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati per l’invio di richieste Target a Target. {#allowlist}
+## Crea inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati a inviare richieste [!DNL Target] a [!DNL Target]. {#allowlist}
 
 È possibile creare un inserire nell&#39;elenco Consentiti che specifichi gli host (domini) autorizzati a inviare richieste [!DNL Target] a [!DNL Target]. Tutti gli altri host che generano richieste ottengono una risposta di errore di autorizzazione con commento. Per impostazione predefinita, qualsiasi host che contiene una richiesta [!DNL Target] si registra con [!DNL Target] nell&#39;ambiente [!UICONTROL Produzione] e ha accesso a tutte le attività attive e approvate. Se non desideri questo approccio, puoi invece utilizzare l’inserire nell&#39;elenco Consentiti per registrare host specifici idonei a effettuare richieste [!DNL Target] e a ricevere contenuti [!DNL Target]. Tutti gli host continuano a essere visualizzati nell’elenco [!UICONTROL Host] e gli ambienti possono ancora essere utilizzati per raggruppare questi host e assegnare livelli diversi a ciascuno di essi, ad esempio se l’host può visualizzare attività attive e/o inattive.
 
