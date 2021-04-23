@@ -1,18 +1,18 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4t;provisioning;adobe experience cloud
-description: Trova le risposte alle domande che vengono spesso poste in merito al provisioning di Analytics for Target (A4T), che consente di utilizzare i rapporti di Analytics per le attività di Target.
+description: Trova le risposte alle domande più frequenti sul provisioning di Analytics per attività [!DNL Target] (A4T), which lets you use Analytics reporting for [!DNL Target] .
 title: Dove posso trovare informazioni sul provisioning iniziale di A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '489'
-ht-degree: 68%
+source-wordcount: '476'
+ht-degree: 66%
 
 ---
 
-
-# Provisioning iniziale - Domande frequenti su A4T{#initial-provisioning-a-t-faq}
+# Provisioning iniziale - Domande frequenti su A4T
 
 Questo argomento contiene le risposte alle domande più frequenti sul provisioning [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
@@ -24,11 +24,11 @@ Per implementare un caso di utilizzo A4T di base con più pagine:
 
 * Sulle pagine rimanenti del sito, dove saranno tracciate solo le metriche Analytics, implementa Analytics. Non è necessario implementare Target sulle pagine in questione. Le metriche Analytics acquisite in queste pagine vengono automaticamente legate all’attività Target per la quale l’utente si è inizialmente qualificato, in base alle informazioni di Target collegate al visitatore del passaggio precedente.
 
-## Come posso sapere se A4T è abilitato sul mio account Target? {#section_4437D284448F4313BF953D4B6EDBACA6}
+## Come posso sapere se A4T è abilitato sul mio account [!DNL Target]? {#section_4437D284448F4313BF953D4B6EDBACA6}
 
 Prima di poter selezionare una suite di rapporti durante la definizione di un’attività di analisi, è necessario disporre sia di un account utente Analytics che di un account utente Target. Gli account utente devono essere configurati come descritto nella documentazione. Consulta [Requisiti delle autorizzazioni utente](/help/c-integrating-target-with-mac/a4t/account-reqs.md#concept_4BC06CAB00BF46FF9362AFE98656B083).
 
-Se sei membro di uno o più gruppi Experience Cloud con accesso ad Analytics e Target e a tutte le suite di rapporti, dovresti vedere l’opzione per creare un test A/B con Analytics in **[!UICONTROL Crea attività]**.
+Se sei membro di uno o più gruppi di Experienci Cloud con accesso ad Analytics e Target e a tutte le suite di rapporti, dovresti vedere l’opzione per creare un test A/B con Analytics in **[!UICONTROL Crea attività]**.
 
 Se si verificano problemi di provisioning, verifica se il provisioning di A4T è stato eseguito correttamente.
 
@@ -36,8 +36,8 @@ Se si verificano problemi di provisioning, verifica se il provisioning di A4T è
 
 Controlla quanto segue se si verifica uno di questi problemi:
 
-* Assicurati che i tuoi account Analytics e Target siano collegati in Experience Cloud.
-* Alcuni clienti utilizzano più accessi aziendali di Analytics nella stessa azienda Experience Cloud. Se utilizzi più accessi, assicurati che l’ultima società Analytics a cui hai effettuato l’accesso sia quella collegata all’account Target per l’integrazione.
+* Assicurati che i tuoi account Analytics e Target siano collegati nell&#39;Experience Cloud.
+* Alcuni clienti utilizzano più accessi aziendali di Analytics nella stessa società di Experienci Cloud. Se utilizzi più accessi, assicurati che l’ultima società Analytics a cui hai effettuato l’accesso sia quella collegata all’account Target per l’integrazione.
 * Se sei stato connesso a Experience Cloud per diverse ore, la sessione di Analytics potrebbe essere scaduta. Disconnettiti, accedi di nuovo e riprova.
 
 ## Perché non vedo le opzioni di Analytics in Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
@@ -48,6 +48,6 @@ Consulta “Perché le suite di rapporti non vengono caricate?” Sopra. La caus
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
-## Perché i rapporti in Target sono vuoti?  {#section_3837104757464CB488C5A83014A669A1}
+## Perché i miei rapporti in [!DNL Target] sono vuoti? {#section_3837104757464CB488C5A83014A669A1}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
