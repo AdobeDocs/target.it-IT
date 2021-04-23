@@ -1,16 +1,16 @@
 ---
-keywords: promozioni;promozioni anteriori;promozioni posteriori;promozioni tipo;elenco di articoli;promuovere per attributo;promuovere una raccolta
-description: Scoprite come aggiungere elementi promossi e controllarne il posizionamento nei vostri progetti  Adobe Target Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
-title: Come si aggiungono le promozioni in Recommendations Design?
-feature: Recommendations
+keywords: promozioni;promozioni anteriori;promozioni posteriori;tipo di promozioni;elenco di articoli;promuovere per attributo;promuovere una raccolta
+description: Scopri come aggiungere elementi promossi e controllarne il posizionamento nelle progettazioni Adobe [!DNL Target] Recommendations. Puoi aggiungere promozioni statiche e dinamiche.
+title: Come si aggiungono le promozioni nei progetti Recommendations?
+feature: Consigli
+exl-id: bd5e5e12-a712-4c4c-9cf8-6b0f4834067b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 56%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Aggiungere promozioni
 
@@ -58,23 +58,23 @@ Le promozioni vengono deduplicate rispetto agli articoli consigliati dai criteri
    * Seleziona **[!UICONTROL Promuovi una raccolta]** e scegli la raccolta di elementi che desideri promuovere.
 
       È possibile creare nuove raccolte da utilizzare per le promozioni. Consulta [Creare una raccolta](/help/c-recommendations/c-products/collections.md#task_1256DFF6842141FCAADD9E1428EF7F08) per ulteriori informazioni.
-   Se si sceglie **[!UICONTROL Elenco di elementi]** come **[!UICONTROL Tipo di promozione]**, è possibile selezionare la casella di controllo **[!UICONTROL Ordine articolo casuale]**, se lo si desidera.
+   Se si sceglie **[!UICONTROL Elenco di elementi]** come **[!UICONTROL Tipo di promozione]**, è possibile selezionare la casella di controllo **[!UICONTROL Ordine casuale degli elementi]**, se necessario.
 
-   L&#39;ordinamento predefinito per [!UICONTROL Elenco di elementi] è basato sull&#39;ordine immesso nell&#39;interfaccia utente o nell&#39;API di Target. Se l&#39;elenco include più elementi rispetto al numero di slot impostati per le promozioni, l&#39;opzione [!UICONTROL Ordine articolo casuale] randomizza gli elementi promossi visualizzati nel progetto. Scegliendo questa opzione [!DNL Target] gli elementi abilitati per le promozioni nel modello vengono selezionati in modo casuale dall’intero set di promozioni per ogni hit.
+   L’ordinamento predefinito per [!UICONTROL Elenco di elementi] si basa sull’ordine immesso nell’interfaccia utente o nell’API di Target. Se l&#39;elenco include più elementi rispetto al numero di slot impostati per le promozioni, l&#39;opzione [!UICONTROL Ordine articoli casuale] randomizza gli elementi promossi visualizzati nella progettazione. Scegliendo questa opzione [!DNL Target] si selezionano in modo casuale gli elementi abilitati per le promozioni nel modello dall’intero set di promozione su ogni hit.
 
-   Se le entità non dispongono di un attributo `entity.value` (ad esempio, non si vendono prodotti), è possibile trasmettere un valore numerico all&#39;attributo `entity.value`, ad esempio la data di pubblicazione. In questo caso, gli elementi promossi possono essere promossi in base alla data di pubblicazione più recente, in ordine decrescente. L&#39;attributo `entity.value` è di tipo double; non accetta le stringhe.
+   Se le entità non dispongono di un attributo `entity.value` (ad esempio, non vendi prodotti) puoi passare un valore numerico all’attributo `entity.value` , ad esempio la data di pubblicazione. In questo caso, gli elementi promossi possono essere promossi in base alla data di pubblicazione più recente, in ordine decrescente. L&#39;attributo `entity.value` è di tipo doppio; non accetta stringhe.
 
-   Se è stata selezionata l&#39;opzione **[!UICONTROL Promuovi per attributo]** o **[!UICONTROL Promuovi una raccolta]**, l&#39;opzione per randomizzare l&#39;ordine non è applicabile.
+   Se hai selezionato l&#39;opzione **[!UICONTROL Promuovi per attributo]** o **[!UICONTROL Promuovi una raccolta]**, l&#39;opzione per randomizzare l&#39;ordine non è applicabile.
 
-   Quando si promuovono elementi specifici utilizzando le opzioni [!UICONTROL Promuovi per attributo] o [!UICONTROL Promuovi una raccolta], l&#39;ordine predefinito in cui vengono presentati gli elementi è basato sull&#39;attributo `entity.value`, in ordine numerico decrescente.
+   Quando promuovi elementi specifici utilizzando le opzioni [!UICONTROL Promuovi per attributo] o [!UICONTROL Promuovi una raccolta] , l&#39;ordine predefinito in cui vengono presentati gli elementi si basa sull&#39;attributo `entity.value`, in ordine numerico decrescente.
 
-   Nella tabella seguente sono illustrate le differenze tra queste opzioni:
+   La tabella seguente illustra le differenze tra queste opzioni:
 
-   | Tipo di promozione | Ordinamento predefinito | Backup | Opzione filtro dinamico |
+   | Tipo di promozione | Ordinamento predefinito | Ordinamento backup | Opzione filtro dinamico |
    | --- | --- | --- | --- |
-   | Elenco di elementi | Ordine immesso nell&#39;interfaccia utente/API di Target | Casuale (se selezionato tramite interfaccia utente/API) | No |
-   | Promuovi per attributo | `entity.value` (ordine decrescente) | Randomized su ogni richiesta (quando non è presente nessun attributo `entity.value`) | Sì |
-   | Promozione di una raccolta | `entity.value` (ordine decrescente) | Randomized su ogni richiesta (quando non è presente nessun attributo `entity.value`) | No |
+   | Elenco elementi | Ordine immesso nell’interfaccia utente/API di Target | Casuale (se selezionato tramite interfaccia utente/API) | No |
+   | Promuovi per attributo | `entity.value` (ordine decrescente) | Randomized su ogni richiesta (quando non è presente alcun attributo `entity.value`) | Sì |
+   | Promuovere una raccolta | `entity.value` (ordine decrescente) | Randomized su ogni richiesta (quando non è presente alcun attributo `entity.value`) | No |
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
