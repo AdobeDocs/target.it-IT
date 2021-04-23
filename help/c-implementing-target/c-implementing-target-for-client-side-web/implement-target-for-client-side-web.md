@@ -1,19 +1,19 @@
 ---
 keywords: implementare;implementazione;at.js;adobe experience platform web sdk;aep web sdk
-description: Scopri come implementare Adobe Target per il web lato client utilizzando Adobe Experience Platform Web SDK (AEP Web SDK) o la libreria JavaScript at.js di Target.
-title: Come si implementa Target per il web lato client
+description: Scopri come implementare la libreria JavaScript Adobe [!DNL Target] for client-side web using the Adobe Experience Platform Web SDK  (AEP Web SDK) or the [!DNL Target] at.js.
+title: Come si implementa [!DNL Target] per web lato client
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
 translation-type: tm+mt
-source-git-commit: 0a685427a047bfc0a2f5e81525b32df70af6d69f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '360'
-ht-degree: 18%
+source-wordcount: '340'
+ht-degree: 17%
 
 ---
 
-# Panoramica: Implementare Target per web lato client
+# Panoramica: implementare [!DNL Target] per web lato client
 
 In un’implementazione lato client di [!DNL Adobe Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG, il [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o un’interfaccia non visiva, il [Compositore esperienza basato su moduli](/help/c-experiences/form-experience-composer.md), per creare esperienze di attività e personalizzazione.
 
