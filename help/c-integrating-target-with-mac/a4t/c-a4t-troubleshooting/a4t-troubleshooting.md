@@ -1,18 +1,18 @@
 ---
 keywords: server di tracciamento di analytics;A4T;segmenti di analytics;suite di rapporti;dati non corretti;orfani;sdid;VisitorAPI.js;mboxMCSDID;phantom;non specificato
-description: Esplorare i problemi comuni riscontrati dai clienti durante l’utilizzo di Analytics for Target (A4T).
-title: Come posso risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
+description: Scopri i problemi comuni riscontrati dai clienti durante l’utilizzo di Analytics for [!DNL Target] (A4T).
+title: Come posso risolvere i problemi relativi all’integrazione di Analytics e  [!DNL Target] A4T?
 feature: Analytics for Target (A4T)
+exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
 translation-type: tm+mt
-source-git-commit: f48c54eb12a416312c3ceb6c1b36c3fc43496e78
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1003'
+source-wordcount: '1000'
 ht-degree: 42%
 
 ---
 
-
-# Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)
+# Risolvere i problemi relativi all’integrazione di Analytics e [!DNL Target] (A4T)
 
 Questo argomento tratta alcuni problemi comuni che sono stati riscontrati durante l’utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
@@ -70,8 +70,8 @@ Le attività A4T richiedono che sia stato specificato un server di tracciamento 
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
-* Appartenere al gruppo Accesso ai servizi Web in Adobe Analytics per poter utilizzare Analytics come origine per la generazione di rapporti per Target
-* È membro di uno o più gruppi Experience Cloud con accesso ad Analytics e Target.
+* Appartiene al gruppo di accesso ai servizi Web in Adobe Analytics per poter utilizzare Analytics come origine per la generazione di rapporti per Target
+* È membro di uno o più gruppi di Experienci Cloud che hanno accesso ad Analytics e Target.
 * Verifica che Analytics e Target siano visualizzati nella sezione App marketing del menu di navigazione di sinistra.
 
 ## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
@@ -95,9 +95,9 @@ Esamina l’implementazione, in particolare nelle pagine in cui i visitatori pos
 * **at.js 1.x**: Nella  [!DNL Target] chiamata , l’ID supplementare è contenuto nel  `mboxMCSDID` parametro . Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 * **at.js 2.x**: Nella  [!DNL Target] chiamata , l’ID supplementare viene restituito nell’intestazione HTTP come valore per  `experienceCloud.analytics.supplementalDataId`. Nella chiamata di [!DNL Analytics], l’ID supplementare è contenuto nel parametro `sdid`.
 
-Il modo più semplice per esaminare l’ID supplementare è utilizzare il debugger di Adobe Experience Platform.
+Il modo più semplice per esaminare l’ID supplementare è utilizzare il debugger Adobe Experience Platform.
 
-Se non hai installato il debugger, consulta [Introduzione al debugger di Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
+Se non hai installato il debugger, consulta [Introduzione al debugger Adobe Experience Platform](https://experienceleague.adobe.com/docs/platform-learn/tutorials/data-ingestion/web-sdk/introduction-to-the-experience-platform-debugger.html).
 
 ![Strumento di debug](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
