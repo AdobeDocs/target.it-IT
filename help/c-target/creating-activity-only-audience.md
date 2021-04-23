@@ -1,18 +1,18 @@
 ---
 keywords: pubblico;regole pubblico;creare pubblico;creazione di pubblico;solo attività;per una sola attività;ad hoc
-description: Scoprite come creare audience solo per l'attività in  Adobe Target che possono essere utilizzate una sola volta nell'attività corrente e non memorizzate nella Libreria Audience.
-title: Posso creare un pubblico da utilizzare solo una volta?
-feature: Audiences
+description: Scopri come creare tipi di pubblico per sola attività in Adobe [!DNL Target] che possono essere utilizzati una tantum nell’attività corrente e non memorizzati nella Libreria tipi di pubblico.
+title: Posso creare un pubblico da utilizzare una sola volta?
+feature: Tipi di pubblico
+exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
 ht-degree: 91%
 
 ---
 
-
-# Creare un pubblico per sola attività{#create-an-activity-only-audience}
+# Creare un pubblico per sola attività
 
 Durante la creazione di un’attività puoi creare tipi di pubblico per sole attività dal flusso di lavoro guidato in tre passaggi. Questi tipi di pubblico specifici possono essere utilizzati in altre aree della stessa attività, ma non vengono memorizzati nella [!UICONTROL Libreria tipi di pubblico] e non possono quindi essere utilizzati in altre attività.
 
@@ -52,4 +52,3 @@ Quando lavori con tipi di pubblico per sola attività, considera quanto segue:
 * I tipi di pubblico per sola attività hanno lo stato [!UICONTROL Utilizzato] o [!UICONTROL Non utilizzato]. I tipi di pubblico per sola attività non utilizzati vengono visualizzate finché l’attività non viene salvata. Se restano inutilizzati e tenti di salvare l’attività, un messaggio di avvertenza ti informa che i tipi di pubblico per sola attività inutilizzati verranno eliminati.
 * Puoi visualizzare i dettagli della definizione del pubblico in una scheda a comparsa dal selettore del pubblico, senza aprire il pubblico.
 * È possibile [combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5) per creare un pubblico per sola attività.
-
