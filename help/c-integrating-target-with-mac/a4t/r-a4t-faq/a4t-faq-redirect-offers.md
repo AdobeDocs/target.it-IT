@@ -1,22 +1,22 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4T;reindirizzamento;offerte di reindirizzamento;adobe-mc-sdid;adobe_mc_ref
-description: Trova le risposte alle domande sull’utilizzo delle offerte di reindirizzamento quando si utilizza Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+description: Trova le risposte alle domande sull'utilizzo delle offerte di reindirizzamento quando si utilizza Analytics per attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '1229'
+source-wordcount: '1218'
 ht-degree: 69%
 
 ---
-
 
 # Offerte di reindirizzamento - Domande frequenti su A4T
 
 Questo argomento contiene le risposte alle domande più frequenti sull’utilizzo delle offerte di reindirizzamento quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
-## Analytics for Target (A4T) supporta le offerte di reindirizzamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
+## Analytics for Adobe Target (A4T) supporta le offerte di reindirizzamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Sì, se l’implementazione utilizza [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
 
@@ -68,14 +68,14 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 | Parametro | Descrizione |
 |--- |--- |
-| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l’ID di dati supplementari (SDID) e l’ID dell’organizzazione Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina. |
+| `adobe_mc_sdid` | Il parametro `adobe_mc_sdid` passa l’ID di dati supplementari (SDID) e l’ID dell’organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina. |
 | `adobe_mc_ref` | Il parametro `adobe_mc_ref` passa l’URL di riferimento della pagina predefinita alla nuova pagina. Se utilizzato con AppMeasurement.js versione 2.1 (o successiva), Analytics utilizza questo valore di parametro come URL di riferimento nella nuova pagina. |
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
 ## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Collabora con il tuo team IT per inserire questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`) nell&#39;elenco consentiti.
+Collabora con il tuo team IT per inserire nell&#39;elenco Consentiti questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`).
 
 ## Cosa succede se non uso A4T con la mia attività di reindirizzamento e non voglio che questi parametri vengano aggiunti ai miei URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
@@ -93,7 +93,7 @@ Se utilizzi A4T e le offerte di reindirizzamento, Target aggiunge i parametri `a
 
 A causa di questa doppia codifica quando l’API dei visitatori tenta di decodificare il valore `adobe_mc_sdid`, non può estrarre il valore SDID e genera un nuovo SDID. Questo processo causa l’invio di valori SDID errati a Target e Analytics e la suddivisione irregolare dei reindirizzamenti nei rapporti di Analytics.
 
-Adobe consiglia di parlare con il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` siano elencati nell’elenco dei valori consentiti in modo che tali valori non vengano trasformati in alcun modo.
+Adobe consiglia di parlare con il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` siano inseriti nell&#39;elenco Consentiti in modo che tali valori non vengano trasformati in alcun modo.
 
 ## Perché l’URL di riferimento deve essere passato alla nuova pagina? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
