@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;libreria di Target;libreria
-description: Scoprite come eseguire il targeting dei visitatori utilizzando audience preesistenti. Per migliorare le prestazioni, si consiglia di utilizzare le categorie di pubblico più recenti.
-title: Posso eseguire il targeting dei visitatori in base a regole di targeting predefinite?
-feature: Audiences
+description: Scopri come effettuare il targeting dei visitatori utilizzando tipi di pubblico legacy predefiniti. Si consiglia di utilizzare le categorie di pubblico più recenti per migliorare le prestazioni.
+title: Posso [!DNL Target] Visitatori in base a regole di targeting predefinite?
+feature: Tipi di pubblico
+exl-id: 7d7b7768-8da4-4c0d-9362-7c1bd6602b61
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '202'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
-
-# Libreria di Target{#target-library}
+# Libreria di Target
 
 Puoi indirizzare l’attività agli utenti in base a regole di targeting predefinite.
 
