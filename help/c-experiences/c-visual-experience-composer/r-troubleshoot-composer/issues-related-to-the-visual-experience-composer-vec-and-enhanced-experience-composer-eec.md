@@ -1,48 +1,48 @@
 ---
-keywords: Targeting;Visual Experience Composer (Compositore esperienza visivo);whitelist;whitelist;whitelist;whitelist;elenco bianco; inserì nell'elenco Consentiti; elenco consentiti;Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato);vec;troubleshoot Visual Experience Composer (Compositore esperienza visivo);risoluzione dei problemi;eec;Enhanced Experience Composer;tls;tls 1.2
-description: Scoprite come risolvere i problemi che talvolta si verificano in  Adobe Target Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) in determinate condizioni.
-title: Come posso risolvere i problemi relativi a Visual Experience Composer (Compositore esperienza visivo) e Enhanced Experience Composer (Compositore esperienza avanzato)?
-feature: Visual Experience Composer (VEC)
+keywords: Targeting;compositore esperienza visivo;whitelist;white list;inserire nell'elenco Consentiti;elenco consentiti;compositore esperienza visivo avanzato;vec;risoluzione dei problemi compositore esperienza visivo;risoluzione dei problemi;eec;compositore esperienza avanzato;tls;tls 1.2
+description: Scopri come risolvere i problemi che a volte si verificano in Adobe [!DNL Target] Compositore esperienza visivo (VEC) e nel Compositore esperienza avanzato (EEC) in determinate condizioni.
+title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
+feature: Compositore esperienza visivo
+exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1403'
-ht-degree: 65%
+source-wordcount: '1404'
+ht-degree: 64%
 
 ---
 
-
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
 
-Problemi di visualizzazione e altri problemi si verificano a volte in [!DNL Adobe Target] Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) a determinate condizioni.
+In determinate condizioni si verificano a volte problemi di visualizzazione e altri problemi nel [!DNL Adobe Target] Compositore esperienza visivo e nel Compositore esperienza avanzato.
 
-## In che modo le politiche di applicazione dei cookie Google Chrome SameSite recentemente annunciate influiscono sul VEC e CEE? {#samesite}
+## In che modo i criteri di implementazione dei cookie SameSite di Google Chrome annunciati di recente influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato? {#samesite}
 
 Con le ultime modifiche (agosto 2020), tutti gli utenti con Chrome 80+ versioni del browser:
 
-* *non* sarà in grado di utilizzare il VEC (con o senza l&#39;estensione VEC Helper installata e attivata) nelle pagine protette da password dei propri siti. Questo perché i cookie di accesso al sito verranno considerati cookie di terze parti e non verranno inviati con la richiesta di accesso. L&#39;unica eccezione è rappresentata dal caso in cui il cookie di login del sito cliente abbia già il parametro SameSite impostato su &quot;none&quot;.
-* *non* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe  protetto e viene rifiutata come non autenticata.
-* La funzione CEE *not* non è disponibile per tutti gli utenti perché non è in grado di impostare l&#39;attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuterà questi cookie, causando il fallimento della CEE.
+* *not* sarà in grado di utilizzare il Compositore esperienza visivo (con o senza l’estensione VEC Helper installata e abilitata) nelle pagine protette da password dei propri siti. Questo perché i cookie di accesso al sito verranno considerati un cookie di terze parti e non verranno inviati con la richiesta di accesso. L’unica eccezione è quando il cookie di accesso al sito del cliente ha già il parametro SameSite impostato su &quot;none&quot;.
+* *not* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe protetto e viene rifiutata come non autenticata.
+* Il Compositore esperienza avanzato *non* funziona per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuterà questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
- Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi del cookie per impostare l&#39;attributo `SameSite="none"`, se necessario. L&#39;estensione [aggiornata è disponibile qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, vedere [Estensione helper di Visual Experience Composer](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi dei cookie per impostare l&#39;attributo `SameSite="none"` quando necessario. L&#39; [estensione aggiornata si trova qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, consulta [Estensione helper del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
-Per i cookie del tuo sito, devi specificare i cookie per nome. Attiva il cursore [!UICONTROL Cookie], quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui viene distribuita la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, vedere [ Adobe Target Cookies](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) nella *Guida utente dell&#39;interfaccia del Experience Cloud*.
+Per i cookie del tuo sito, devi specificare i cookie per nome. Passa il cursore [!UICONTROL Cookie] nella posizione attiva, quindi specifica il cookie per nome e il dominio del cookie. Il nome del cookie è &quot;mbox&quot; e il dominio del cookie è il secondo e il primo livello dei domini da cui distribuisci la mbox. Dato che viene distribuito dal dominio della società, il cookie è un cookie dei siti Web visualizzati. Esempio: `mycompany.com`. Per ulteriori informazioni, consulta [Cookie Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html) nella *Guida utente dell&#39;interfaccia Experience Cloud*.
 
-![I cookie si attivano nell&#39;estensione del supporto VEC](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
+![L’opzione Cookie nell’estensione VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
 ### Alternative e soluzioni alternative
 
-Utilizzare una delle seguenti opzioni per garantire che il VEC e la CEE continui a funzionare come previsto:
+Utilizza una delle seguenti opzioni per garantire che VEC e Compositore esperienza avanzato continuino a funzionare come previsto:
 
-* Scaricate e utilizzate l&#39;estensione [VEC Helper](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en) aggiornata.
-* Utilizzate il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
-* Continuate a utilizzare Chrome, ma impostate il flag `chrome://flags/#same-site-by-default-cookies` su &quot;Disabled&quot;.
+* Scarica e utilizza l&#39;estensione VEC Helper aggiornata [a1/>.](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)
+* Usa il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
+* Continua a utilizzare Chrome, ma imposta il flag `chrome://flags/#same-site-by-default-cookies` su &quot;Disabilitato&quot;.
 
    >[!NOTE]
    >
-   >Questo *non* sarà sufficiente se i cookie hanno già l&#39;attributo SameSite impostato su &quot;Lax&quot; o &quot;Strict&quot; dal server.
+   >Questo *non* sarà sufficiente se nei cookie è già impostato l’attributo SameSite su &quot;Lax&quot; o &quot;Strict&quot; dal server.
 
-## Target supporta gli iframe a più livelli?
+## [!DNL Target] supporta iframe a più livelli?
 
 Target non supporta gli iframe a più livelli. Se il sito web carica un iframe contenente un iframe secondario, le librerie di Target (at.js e mbox.js) interagiscono solo con l’iframe principale. Le librerie di Target non interagiscono con l’iframe secondario.
 
@@ -52,7 +52,7 @@ Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’
 
 Questo può avvenire se l&#39;URL contiene un carattere #. Per risolvere il problema, passa alla modalità Sfoglia nel Compositore esperienza visivo, quindi ritorna alla modalità Componi. L’icona che ruota scompare e la pagina viene caricata correttamente.
 
-## Le intestazioni Content Security Policy (CSP) bloccano le librerie di Target nel mio sito web. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_89A30C7A213D43BFA0822E66B482B803}
+## Le intestazioni Content Security Policy (CSP) bloccano le librerie [!DNL Target] sul mio sito web. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_89A30C7A213D43BFA0822E66B482B803}
 
 Se le intestazioni CSP del tuo sito web bloccano le librerie di Target, quindi caricano il sito web ma ne impediscono la modifica, assicurati che le librerie di Target non siano bloccate.
 
@@ -93,7 +93,7 @@ Se lo stesso ID di elemento DOM è utilizzato in più elementi della pagina, la 
 
 ## Non sono in grado di modificare le esperienze per un sito non compatibile con iFrame. (Compositore esperienza visivo e Compositore esperienza avanzato) {#section_9FE266B964314F2EB75604B4D7047200}
 
-Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Fate clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]**, quindi selezionate la casella di controllo che abilita Enhanced Experience Composer (Compositore esperienza avanzato). Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
+Questo problema può essere affrontato abilitando il Compositore esperienza avanzato. Fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Compositore esperienza visivo]**, quindi seleziona la casella di controllo che abilita il Compositore esperienza avanzato. Il Compositore esperienza avanzato utilizza un proxy gestito da Adobe per caricare la pagina da modificare. Questo consente la modifica su siti non compatibili con iFrame e su siti e pagine cui non è ancora stato aggiunto il codice di Adobe Target. Le attività non vengono fornite al sito fino all&#39;aggiunta del codice. È possibile che alcuni siti non vengano caricati tramite il Compositore esperienza avanzato. In questo caso, deseleziona questa opzione per caricare il Compositore esperienza visivo tramite un iFrame. []
 
 >[!NOTE]
 >
