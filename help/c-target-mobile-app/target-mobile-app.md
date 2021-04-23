@@ -1,19 +1,19 @@
 ---
 keywords: app mobile;processo app mobile;target app mobile;posizioni target mobili;metriche di successo app dispositivi mobili
-description: Scopri come utilizzare  Adobe Target per l’ottimizzazione e la personalizzazione delle app mobili, con test iterativi e personalizzazioni basate su regole e basate su AI.
-title: Posso utilizzare Target con le app mobili?
-feature: Implement Mobile
+description: Scopri come utilizzare Adobe [!DNL Target] per l’ottimizzazione e la personalizzazione delle app mobili, con test iterativi e personalizzazione basata su regole e basata su AI.
+title: Posso utilizzare [!DNL Target] con le app mobili?
+feature: Implementare Mobile
 role: Developer
+exl-id: a0521ef9-b3f9-4e21-ab60-22a3d9c15576
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '145'
 ht-degree: 77%
 
 ---
 
-
-# Target per le app per dispositivi mobili{#target-for-mobile-apps}
+# Target per le app per dispositivi mobili
 
 Adobe Target consente di testare, personalizzare e ottimizzare le esperienze delle applicazioni per dispositivi mobili in base al comportamento degli utenti e al contesto mobile. È possibile fornire interazioni che coinvolgono e convertono mediante test iterativi e personalizzazione basata su regole e basata su AI.
 
