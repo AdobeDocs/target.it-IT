@@ -1,18 +1,18 @@
 ---
 keywords: varianze di dati;analytics;differenze;varianza;a4t;analytics for target;analytics come origine per la generazione di rapporti;discrepanze;discrepanza
-description: Scopri le varianze di dati previste tra Adobe Target e Analytics quando non utilizzi Analytics for Target (A4T), che elimina completamente la varianza di dati.
+description: Scopri le varianze di dati previste tra Adobe [!DNL Target] and Analytics when not using Analytics for [!DNL Target] (A4T), che elimina completamente la varianza di dati.
 title: Qual è la varianza di dati prevista tra Analytics e A4T?
 feature: Analytics for Target (A4T)
+exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '773'
+source-wordcount: '763'
 ht-degree: 49%
 
 ---
 
-
-# Varianze di dati previste tra Adobe Target e Adobe Analytics durante l’utilizzo con e senza A4T
+# Varianze di dati previste tra Adobe [!DNL Target] e Adobe Analytics durante l’utilizzo con e senza A4T
 
 Informazioni sulle varianze di dati previste tra [!DNL Target] e Adobe [!DNL Analytics] quando vengono utilizzati *con* e *senza* Analytics come origine per la generazione di rapporti (A4T). A4T riduce in modo significativo la varianza dei dati.
 
@@ -26,7 +26,7 @@ Di seguito sono riportati alcuni scenari in cui è possibile verificare la varia
 
    Se in Target è impostato un test di reindirizzamento per dividere il traffico 50/50 (o 25/25/25/25 e così via), il comportamento dell’utente potrebbe non essere suddiviso in modo uniforme. Se visualizzi una suddivisione non uniforme, significa semplicemente che un gruppo di utenti non è riuscito a eseguire una chiamata Analytics sulla pagina di destinazione più di quanto non abbiano fatto gli altri gruppi. La mancata esecuzione della chiamata di Analytics per un gruppo ha causato l’esclusione dell’hit di Target per tali utenti, creando così una discrepanza nei dati.
 
-   Adobe spera di risolvere questo problema in futuro, poiché i team Adobe lavorano per A4T su Adobe Experience Platform. I team Adobe stanno determinando come gestire questi diversi eventi che si verificano in momenti diversi della pagina.
+   Adobe spera di affrontare questo problema in futuro, poiché i team di Adobe lavorano per A4T su Adobe Experience Platform. I team di Adobe stanno determinando come gestire questi diversi eventi che si verificano in momenti diversi della pagina.
 
    >[!NOTE]
    >
