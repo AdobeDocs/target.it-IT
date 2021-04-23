@@ -1,24 +1,24 @@
 ---
 keywords: raccolta;Targeting
-description: Scoprite come utilizzare le raccolte in  Adobe Target Recommendations. Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
-title: Come si utilizzano le raccolte nelle attività Recommendations?
-feature: Recommendations
+description: Scopri come utilizzare le raccolte in Adobe [!DNL Target] Recommendations. Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli.
+title: Come si utilizzano le raccolte nelle attività di Recommendations?
+feature: Consigli
+exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '880'
 ht-degree: 60%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Raccolte {#collections}
+# ![PREMIUM](/help/assets/premium.png) Raccolte
 
 Una raccolta è un insieme di prodotti o elementi che sono considerati idonei per essere proposti come consigli. Una raccolta è definita specificando le condizioni che devono essere soddisfatte dagli elementi per farne parte.
 
-Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, potete raggruppare qualsiasi elemento in una categoria che abbia senso per la vostra attività, ad esempio prodotti in una determinata fascia di prezzo o in un determinato colore o elementi che potrebbero essere interessanti in una particolare area geografica.
+Solitamente, una raccolta è un insieme di elementi simili o correlati, come una raccolta di prodotti singoli. Tuttavia, puoi raggruppare qualsiasi elemento in una categoria che ha senso per la tua attività, ad esempio prodotti in una determinata fascia di prezzo o colore o articoli che potrebbero essere interessanti in una particolare area geografica.
 
-Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un&#39;area, ma non in un&#39;altra, potete creare una raccolta che escluda gli elementi non disponibili nell&#39;area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
+Utilizza le raccolte per organizzare i prodotti in raggruppamenti logici. Ad esempio, se alcuni elementi sono disponibili in un’area geografica ma non in un’altra, puoi creare una raccolta che escluda gli elementi non disponibili nell’area del visitatore. Puoi inoltre utilizzare le raccolte per organizzare gli elementi stagionali o qualsiasi altro parametro organizzativo applicabile al tuo business.
 
 Anche i [consigli di backup](/help/c-recommendations/c-algorithms/backup-recs.md) generati per ogni criterio all’interno del consiglio utilizzano questa raccolta, in modo da includere nel consiglio di backup solo gli elementi della raccolta. Le raccolte consentono di garantire la visualizzazione dei soli prodotti che ha senso mostrare in una determinata posizione.
 
@@ -36,13 +36,13 @@ Quando crei o modifichi un’attività di [!DNL Recommendations], il nome della 
 
 ## Creazione di una raccolta {#task_1256DFF6842141FCAADD9E1428EF7F08}
 
-Create una raccolta per organizzare i prodotti o il contenuto da mostrare nelle raccomandazioni.
+Crea una raccolta per organizzare i prodotti o i contenuti che desideri mostrare nei consigli.
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Raccolte]** per visualizzare l&#39;elenco delle raccolte esistenti.
 
    ![Elenco Raccolte](assets/collections_list.png)
 
-   Nella pagina [!UICONTROL Raccolte] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fate clic sul pulsante [!UICONTROL Crea raccolta]. Potete inoltre modificare, copiare ed eliminare le raccolte esistenti posizionando il puntatore del mouse sulla raccolta desiderata e facendo clic sull&#39;icona desiderata.
+   Nella pagina [!UICONTROL Raccolte] viene visualizzato un elenco delle raccolte esistenti. Per creare nuove raccolte, fai clic sul pulsante [!UICONTROL Crea raccolta] . Puoi anche modificare, copiare ed eliminare le raccolte esistenti passando il cursore sulla raccolta desiderata e facendo clic sull’icona desiderata.
 
    ![Icone al passaggio del mouse: modificare, copiare ed eliminare](/help/c-recommendations/c-products/assets/hover-icons.png)
 
@@ -62,7 +62,7 @@ Create una raccolta per organizzare i prodotti o il contenuto da mostrare nelle 
 
    Ad esempio, la raccolta potrebbe essere basata su un ID o categoria di prodotto, un margine, o qualsiasi altro parametro nell’elenco.
 
-   È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Regole multiple sono collegate con un operatore AND. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
+   È possibile aggiungere regole per utilizzare più parametri con cui definire una raccolta. Più regole sono collegate con un operatore AND. Tutte le regole specificate devono essere soddisfatte perché la raccolta venga applicata.
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -70,7 +70,7 @@ Create una raccolta per organizzare i prodotti o il contenuto da mostrare nelle 
 
 Puoi anche creare le raccolte mediante la funzione Ricerca avanzata nella pagina [Ricerca nel catalogo](/help/c-recommendations/c-products/catalog-search.md#save-as) ([!UICONTROL Consigli] > [!UICONTROL Ricerca nel catalogo] > [!UICONTROL Ricerca avanzata]).
 
-![Salva con nome, finestra di dialogo](/help/c-recommendations/c-products/assets/save-as.png)
+![Finestra di dialogo Salva con nome](/help/c-recommendations/c-products/assets/save-as.png)
 
 Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi fare clic su [!UICONTROL Salva come] > [!UICONTROL Raccolta].
 
@@ -80,29 +80,29 @@ Dopo aver creato una ricerca utilizzando “id > contiene”, ad esempio, puoi f
 
 ## Modificare, copiare o eliminare una raccolta
 
-Passate il puntatore del mouse sulla raccolta desiderata nell&#39;elenco, quindi fate clic sull&#39;icona appropriata: modificare, copiare o eliminare.
+Passa il puntatore del mouse sulla raccolta desiderata nell’elenco, quindi fai clic sull’icona appropriata: modificare, copiare o eliminare elementi.
 
 ![Icone al passaggio del mouse per una raccolta](/help/c-recommendations/c-products/assets/hover-collections.png)
 
-Potete copiare una raccolta esistente per creare una raccolta duplicata da modificare. Questo consente di creare un&#39;esclusione simile con meno sforzi.
+Puoi copiare una raccolta esistente per creare una raccolta duplicata da modificare. Questo ti consente di creare un’esclusione simile con meno sforzo.
 
-Tenete presente che le raccolte sono disponibili nell&#39;intero account. Considerate questo aspetto prima di eliminare una raccolta. Le raccolte eliminate non possono essere recuperate.
+Tieni presente che le raccolte sono disponibili nell’intero account. Considera questo aspetto prima di eliminare una raccolta. Impossibile recuperare le raccolte eliminate.
 
-## Utilizzo di una raccolta in un&#39;attività Recommendations
+## Utilizzare una raccolta in un’attività Recommendations
 
-1. Create una raccolta utilizzando uno dei metodi indicati in precedenza.
+1. Crea una raccolta utilizzando uno dei metodi indicati in precedenza.
 
-1. Fare clic su **[!UICONTROL Activities]** e [creare una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modificare un&#39;attività esistente.
+1. Fai clic su **[!UICONTROL Attività]** e [crea una nuova attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md) o modifica un&#39;attività esistente.
 
-1. Dopo aver selezionato un criterio e una progettazione, viene visualizzata la pagina [!UICONTROL Opzioni] in cui si seleziona la raccolta desiderata.
+1. Dopo aver selezionato un criterio e una progettazione, nella pagina [!UICONTROL Opzioni] viene visualizzata la selezione della raccolta desiderata.
 
-   ![Scegli opzione raccolta](/help/c-recommendations/c-products/assets/choose-collection.png)
+   ![Scegliere l&#39;opzione di raccolta](/help/c-recommendations/c-products/assets/choose-collection.png)
 
-1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Esperienze]** (passaggio 2 del flusso di lavoro guidato in tre parti), fate clic su un percorso in cui avete inserito le raccomandazioni, fate clic su **[!UICONTROL Modifica raccolta]**, quindi selezionate la raccolta desiderata.
+1. (Condizionale) Per modificare un&#39;impostazione di raccolta esistente, nella pagina **[!UICONTROL Esperienze]** (passaggio 2 del flusso di lavoro guidato in tre parti) fai clic su una posizione in cui hai inserito i consigli, fai clic su **[!UICONTROL Modifica raccolta]**, quindi seleziona la raccolta desiderata.
 
-   ![Cambia raccolta, opzione](/help/c-recommendations/c-products/assets/change-collection.png)
+   ![Opzione Cambia raccolta](/help/c-recommendations/c-products/assets/change-collection.png)
 
-## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Logo delle esercitazioni](/help/assets/tutorial.png)
+## Video di formazione: Creare raccolte ed esclusioni in Recommendations (7:05) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
