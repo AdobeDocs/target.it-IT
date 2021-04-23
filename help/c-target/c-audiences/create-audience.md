@@ -1,18 +1,18 @@
 ---
 keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
-description: Scopri come creare audience personalizzate e salvarle nella libreria  Adobe Target Audiences per utilizzarle nelle tue attività.
-title: Come Posso Creare Audience?
-feature: Audiences
+description: Scopri come creare tipi di pubblico personalizzati e salvarli nella libreria Adobe [!DNL Target] Audiences da utilizzare nelle attività.
+title: Come Posso Creare Tipi Di Pubblico?
+feature: Tipi di pubblico
+exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '464'
 ht-degree: 94%
 
 ---
 
-
-# Creare tipi di pubblico in Target{#build-audiences-in-target}
+# Creare tipi di pubblico in Target
 
 Puoi creare tipi di pubblico personalizzati e salvarli nella libreria di Target per utilizzarli nelle attività. Puoi copiare un pubblico esistente, modificarlo per crearne uno simile e combinare più tipi di pubblico.
 
@@ -58,7 +58,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    Il pubblico appena creato viene visualizzato nell&#39;elenco dopo alcuni secondi di ritardo dovuti all&#39;elaborazione. Se il pubblico non viene visualizzato immediatamente nell&#39;elenco, prova a cercarlo o ad aggiornare l&#39;elenco.
 
-## Video di formazione: Creazione di tipi di pubblico  ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video include informazioni su come creare i tipi di pubblico.
 
