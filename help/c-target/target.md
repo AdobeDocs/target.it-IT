@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;tipi di pubblico;target percentuale
-description: Scopri come utilizzare i tipi di pubblico in  Adobe Target per distribuire contenuti ed esperienze diversi a tipi di pubblico specifici al fine di ottimizzare le attività di marketing Web.
-title: Come posso utilizzare i tipi di pubblico per indirizzare contenuti diversi a segmenti specifici?
-feature: Audiences
+description: Scopri come utilizzare i tipi di pubblico in Adobe [!DNL Target] per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing web.
+title: Come posso utilizzare i tipi di pubblico per  [!DNL Target] contenuti diversi per segmenti specifici?
+feature: Tipi di pubblico
+exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 89%
+source-wordcount: '357'
+ht-degree: 90%
 
 ---
 
-
-# Tipi di pubblico{#audiences}
+# Tipi di pubblico
 
 Utilizza i tipi di pubblico per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di web marketing presentando al momento giusto i messaggi più appropriati ai vari visitatori.
 
@@ -28,7 +28,7 @@ Quando un visitatore arriva su una pagina in cui hai impostato un&#39;attività,
 
 Se il visitatore è identificato come parte di un pubblico, [!DNL Target]Target determina quale esperienza mostrare, in base ai criteri stabiliti quando hai creato il test.
 
-## Video di formazione: Targeting di attività (2:13)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Targeting di attività (2:13)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare il targeting e i tipi di pubblico.
 
