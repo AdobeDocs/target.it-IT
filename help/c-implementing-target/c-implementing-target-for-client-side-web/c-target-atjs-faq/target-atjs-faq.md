@@ -1,19 +1,19 @@
 ---
 keywords: faq at.js;domande frequenti at.js;faq;visualizzazione temporanea;caricatore;caricatore pagina;cross domain;dimensione file;dimensioni file;dominio x;at.js e mbox.js;solo x;diversi domini;safari;app a pagina singola;selettori mancanti;selettori;applicazione a pagina singola;tt.omtrdc.net;spa;Adobe Experience Manager;AEM;indirizzo ip;httponly;Httponly;protetto;ip;dominio cookie
-description: Leggi le risposte alle domande frequenti sulla libreria JavaScript  Adobe Target at.js.
+description: Leggi le risposte alle domande frequenti sulla libreria JavaScript Adobe [!DNL Target] at.js .
 title: Quali sono le domande e le risposte comuni su at.js?
 feature: at.js
 role: Developer
+exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2703'
-ht-degree: 93%
+source-wordcount: '2700'
+ht-degree: 92%
 
 ---
 
-
-# Domande frequenti su at.js {#at-js-frequently-asked-questions}
+# Domande frequenti su at.js
 
 Risposte alle domande più frequenti su at.js.
 
@@ -84,13 +84,13 @@ Da una prospettiva di risposta-tempo, si può tradurre matematicamente così
 
 Come vedi, [!DNL at.js] 1.0.0 completa le richieste più velocemente. Inoltre, le richieste di [!DNL at.js] sono asincrone, pertanto Target non blocca il rendering della pagina. Anche se il completamento delle richieste impiega qualche secondo, visualizzerai comunque la pagina di cui è stato eseguito il rendering; solo alcune parti della pagina resteranno vuote finché Target non avrà ricevuto una risposta da Target Edge.
 
-## È possibile caricare la libreria di Target in modo asincrono? {#section_AB9A0CA30C5440C693413F1455841470}
+## È possibile caricare la libreria [!DNL Target] in modo asincrono? {#section_AB9A0CA30C5440C693413F1455841470}
 
 La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asincrono.
 
 Per caricare at.js in modo asincrono:
 
-* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). Per ulteriori informazioni, vedere la lezione [Aggiungi  Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) relativa all&#39;implementazione del Experience Cloud  in Siti Web con l&#39;esercitazione Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).[
+* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). Per ulteriori informazioni, consulta la lezione [Aggiungere Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) dell’ esercitazione [Implementare l’Experience Cloud nei siti web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) .
 * Puoi anche caricare at.js in modo asincrono aggiungendo l’attributo async al tag script che carica at.js. Dovresti usare qualcosa del genere:
 
    ```
@@ -110,7 +110,7 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 Puoi evitare sfarfallii utilizzando uno snippet che nasconde preventivamente la pagina (o porzioni specificate), quindi la rivela dopo che at.js e la richiesta globale sono completamente caricate. Lo snippet deve essere aggiunto prima del caricamento di at.js.
 
-Se distribuite at.js tramite un&#39;implementazione di Launch asincrona, accertatevi di includere lo snippet di pre-occultamento direttamente sulle pagine, prima del codice di incorporamento di Launch, come descritto nella sezione [Add the Target Pre-Hiding Snippet](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) della sezione [Implementazione del Experience Cloud  in Siti Web con l&#39;esercitazione di Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
+Se distribuisci at.js tramite un’implementazione asincrona di Launch, accertati di includere lo snippet predefinito direttamente sulle pagine prima del codice di incorporamento di Launch, come descritto nella sezione [Aggiungi Snippet di Target pre-Hiding](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) della sezione [Implementazione dell’Experience Cloud nei siti web con esercitazione Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html).
 
 Durante l’implementazione di at.js tramite un’implementazione sincrona di DTM, puoi aggiungere lo snippet tramite una regola di caricamento della pagina attivata nella parte superiore della pagina.
 
@@ -150,7 +150,7 @@ Per supportare i visitatori Safari, un dominio X migliore può essere “disabil
 
 Non sulla stessa pagina. Tuttavia, durante l’implementazione e il testing di [!DNL at.js], puoi eseguire [!DNL at.js] su alcune pagine e [!DNL mbox.js] su altre fino a quando non avrai completamente convalidato [!DNL at.js].
 
-## È possibile utilizzare il Compositore esperienza visivo di Target nelle applicazioni a pagina singola? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}
+## È possibile utilizzare il Compositore esperienza visivo nelle applicazioni a pagina singola? {#section_459C1BEABD4B4A1AADA6CF4EC7A70DFB}[!DNL Target]
 
 Sì, puoi utilizzare il Compositore esperienza visivo se utilizzi at.js 2.x. Per maggiori informazioni, consulta [Compositore esperienza visivo per applicazione a singola pagina (SPA)](/help/c-experiences/spa-visual-experience-composer.md).
 
@@ -204,7 +204,7 @@ Questi messaggi non sono legati alla funzionalità [!DNL at.js]. La libreria [!D
 
 Di seguito sono riportate le possibili cause principali per questo messaggio di avviso:
 
-* La pagina viene creata in modo dinamico e at.js non riesce a trovare l’elemento.
+* La pagina viene generata in modo dinamico e at.js non è in grado di trovare l’elemento .
 * La pagina viene creata lentamente (a causa di una rete lenta) e at.js non riesce a trovare il selettore nel DOM.
 * La struttura di pagina su cui è in esecuzione l’attività è stata modificata. Se riapri l’attività nel Compositore esperienza visivo dovrebbe comparire un messaggio di avviso. È necessario aggiornare l’attività in modo che tutti gli elementi necessari possano essere trovati.
 * La pagina sottostante fa parte di un’applicazione a pagina singola (Single Page Application, SPA) oppure la pagina contiene elementi che appaiono più in basso e il “meccanismo di polling selettivo” di [!DNL at.js] non riesce a trovarli. Può essere utile aumentare il valore di `selectorsPollingTimeout`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
@@ -212,7 +212,7 @@ Di seguito sono riportate le possibili cause principali per questo messaggio di 
 
    Per ottenere i migliori risultati, scarica e utilizza l’ultima versione di [!DNL at.js]. Per ulteriori informazioni, consulta [Dettagli della versione di at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) e [Scaricare at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2).
 
-## Le chiamate server di Target sono indirizzate al dominio tt.omtrdc.net: di che si tratta? {#section_999C29940E8B4CAD8A957A6B1D440317}
+## Le chiamate server [!DNL Target] sono indirizzate al dominio tt.omtrdc.net: di che si tratta? {#section_999C29940E8B4CAD8A957A6B1D440317}
 
 [!DNL tt.omtrdc.net] è il nome di dominio della rete EDGE di Adobe, utilizzato per ricevere tutte le chiamate server per Target.
 
