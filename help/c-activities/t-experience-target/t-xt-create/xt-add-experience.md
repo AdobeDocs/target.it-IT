@@ -1,20 +1,20 @@
 ---
 keywords: creare un’esperienza;creazione di esperienza;priorità;pubblico;esperienza;compositore esperienza visivo
-description: Scoprite come utilizzare  Adobe Target Visual Experience Composer (VEC) per creare e modificare esperienze sulla pagina in un'attività Experience Targeting (XT).
-title: Come si creano le esperienze in un'attività di targeting delle esperienze?
-feature: Experience Targeting
+description: Scopri come utilizzare l’Adobe  [!DNL Target] Compositore esperienza visivo (VEC) per creare e modificare esperienze sulla pagina in un’attività Targeting esperienza (XT).
+title: Come posso creare esperienze in un’attività Targeting esperienze?
+feature: Targeting esperienza
+exl-id: ec3fcd93-5557-4f69-8f9c-4d00569188ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '987'
 ht-degree: 87%
 
 ---
 
+# Creare esperienze nelle attività Targeting esperienza (XT)
 
-# Creazione di esperienze nelle attività Experience Targeting (XT)
-
-[!UICONTROL Visual Experience Composer] (VEC) in [!DNL Adobe Target] fornisce un&#39;interfaccia visiva per la modifica delle esperienze sulla pagina in un&#39;attività [!UICONTROL Experience Targeting] (XT).
+Il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] offre un’interfaccia visiva per la modifica delle esperienze sulla pagina in un’attività [!UICONTROL Targeting esperienza] (XT).
 
 1. Seleziona gli elementi da modificare e apporta le modifiche desiderate.
 
@@ -26,7 +26,7 @@ ht-degree: 87%
 
    Quando passi il puntatore del mouse sopra gli elementi della pagina, gli elementi vengono evidenziati. Qualsiasi elemento evidenziato può essere modificato utilizzando il Compositore esperienza visivo. Per un elenco delle azioni che possono essere eseguite su un elemento per modificare l’esperienza, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md).
 
-   Se avete creato una richiesta [!DNL Target] sulla pagina utilizzando [!DNL Target Classic], la richiesta [!DNL Target] viene visualizzata come un elemento che mostra il nome della richiesta e può essere modificata come qualsiasi altro elemento.
+   Se hai creato una richiesta [!DNL Target] sulla pagina utilizzando [!DNL Target Classic], la richiesta [!DNL Target] viene visualizzata come un elemento che mostra il nome della richiesta e può essere modificata come qualsiasi altro elemento.
 
    >[!NOTE]
    >
@@ -44,7 +44,7 @@ ht-degree: 87%
    >
    >Oltre a selezionare un pubblico esistente, puoi combinare più tipi di pubblico per creare un pubblico combinato ad hoc anziché crearne uno nuovo. Per ulteriori informazioni, consulta [Combinazione di più tipi di pubblico](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5).
 
-   Quando create un&#39;audience, potete selezionare una posizione e specificare i parametri per tale posizione. In [!UICONTROL Custom] (Crea pubblico > Aggiungi regola > Personalizzato), selezionate la posizione, quindi specificate i parametri desiderati.
+   Quando crei un pubblico, puoi selezionare una posizione e specificare i parametri per tale posizione. In [!UICONTROL Personalizzato] (Crea pubblico > Aggiungi regola > Personalizzato), seleziona la posizione, quindi specifica i parametri desiderati.
 
    >[!NOTE]
    >
