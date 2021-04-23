@@ -1,39 +1,39 @@
 ---
-keywords: regole di inclusione;criteri di inclusione;raccomandazioni;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo profilo
-description: Scoprite come filtrare in modo dinamico in  Adobe Target Recommendations confrontando elementi (entità) con un valore presente nel profilo dell'utente.
-title: In Che Modo È Possibile Filtrare La Corrispondenza Degli Attributi Di Profilo Nelle Attività Recommendations?
-feature: Recommendations
+keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo profilo
+description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli articoli (entità) con un valore presente nel profilo dell’utente.
+title: Come Si Filtra Per Corrispondenza Attributo Profilo Nelle Attività Recommendations?
+feature: Consigli
+exl-id: d4b837af-771b-41b4-982b-f9f08e4753f2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 6%
+ht-degree: 7%
 
 ---
 
+# ![](/help/assets/premium.png) Corrispondenza attributo PREMIUMProfile
 
-# ![Corrispondenza attributo ](/help/assets/premium.png) PREMIUMProfile
+Filtrare dinamicamente in [!DNL Adobe Target] [!DNL Recommendations] confrontando gli articoli (entità) con un valore presente nel profilo dell’utente.
 
-Filtrare in modo dinamico in [!DNL Adobe Target] [!DNL Recommendations] confrontando elementi (entità) con un valore nel profilo dell&#39;utente.
-
-Utilizzate [!UICONTROL Profile Attribute Matching] (Corrispondenza attributo profilo) per mostrare le raccomandazioni che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
+Utilizza [!UICONTROL Corrispondenza attributo profilo] per mostrare i consigli che corrispondono a un valore memorizzato nel profilo del visitatore, ad esempio dimensione o marchio preferito.
 
 >[!NOTE]
 >
->Il processo [per la creazione e l&#39;utilizzo di regole di inclusione](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per criteri e promozioni è simile, così come i casi di utilizzo e gli esempi.
+>Il processo [per la creazione e l&#39;utilizzo delle regole di inclusione](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md) per i criteri e le promozioni è simile, così come i casi d&#39;uso e gli esempi.
 
-Gli scenari seguenti mostrano come utilizzare [!UICONTROL Corrispondenza attributi profilo]:
+Gli scenari seguenti mostrano come utilizzare [!UICONTROL Corrispondenza attributo profilo]:
 
-* Una società che vende occhiali memorizza il colore di fotogramma preferito di un visitatore come &quot;noce&quot;. Per quel visitatore specifico, le raccomandazioni sono configurate per restituire solo i fotogrammi della lente di occhio che corrispondono a &quot;noce&quot; nel colore.
-* Un parametro di profilo può essere definito per la dimensione dell’abbigliamento (ad esempio, Piccolo, Medio o Grande) di un visitatore che naviga nel sito Web della società. È possibile impostare una raccomandazione in modo che corrisponda al parametro del profilo e restituire prodotti specifici solo per le dimensioni di abbigliamento preferite dall&#39;utente.
+* Un&#39;azienda che vende occhiali memorizza il colore di cornice preferito di un visitatore come &quot;noce&quot;. Per quel visitatore specifico, i consigli sono impostati per restituire solo i fotogrammi di occhiali che corrispondono a colore &quot;noce&quot;.
+* È possibile definire un parametro di profilo per le dimensioni dell’abbigliamento (ad esempio, Piccolo, Medio o Grande) di un visitatore che naviga sul sito web dell’azienda. È possibile impostare una raccomandazione in modo che corrisponda al parametro di profilo e restituisca prodotti specifici solo per le dimensioni di abbigliamento preferite dall’utente.
 
-## Esempi di corrispondenza attributi profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
+## Esempi di corrispondenza degli attributi di profilo {#section_9873E2F22E094E479569D05AD5BB1D40}
 
-[!UICONTROL La ] corrispondenza attributi profilo consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
+[!UICONTROL La ] corrispondenza attributo profilo ti consente di consigliare solo gli elementi che corrispondono a un attributo del profilo del visitatore, come negli esempi seguenti.
 
-### Suggerimento di elementi dal marchio preferito dell&#39;utente
+### Consigli articoli del marchio preferito dell’utente
 
-Ad esempio, è possibile utilizzare l&#39;opzione [!UICONTROL Corrispondenza attributo profilo] per creare una regola che raccomanda gli elementi solo se il marchio è uguale al valore o al testo memorizzato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
+Ad esempio, puoi utilizzare l&#39;opzione [!UICONTROL Corrispondenza attributo profilo] per creare una regola che consigli solo gli articoli il cui marchio è uguale al valore o al testo memorizzato in `profile.favoritebrand`. Con tale regola, se un visitatore cerca dei pantaloncini da corsa di una data marca, i consigli che verranno visualizzati proporranno articoli della marca preferita dell’utente (in base al valore memorizzato in `profile.favoritebrand` nel profilo del visitatore).
 
 ![Marchio preferito](/help/c-recommendations/c-algorithms/assets/favorite-brand.png)
 
@@ -42,33 +42,33 @@ Profile Attribute Matching
 brand - equals - the value/text stored in - profile.favoritebrand
 ```
 
-### Corrispondenza tra posti di lavoro e persone in cerca di lavoro
+### Corrispondenza di posti di lavoro a chi cerca lavoro
 
-Supponiamo che tu stia cercando di abbinare i lavori a chi cerca lavoro. Si consiglia solo i lavori che si trovano nella stessa città di chi cerca lavoro.
+Supponiamo che tu stia cercando di abbinare i lavori a chi cerca lavoro. Vuoi consigliare solo i posti di lavoro che si trovano nella stessa città di chi cerca lavoro.
 
-Potete utilizzare le regole di inclusione per far corrispondere la posizione di un cercatore di lavoro dal profilo del visitatore a un elenco di processi, come nell&#39;esempio seguente:
+Puoi utilizzare le regole di inclusione per far corrispondere la posizione di un cercatore di lavoro dal profilo del visitatore a un elenco di lavori, come nell’esempio seguente:
 
-![Città utente](/help/c-recommendations/c-algorithms/assets/city.png)
+![Città dell&#39;utente](/help/c-recommendations/c-algorithms/assets/city.png)
 
 ```
 Profile Attribute Matching
 jobCity - equals - the value/text stored in - profile.usersCity
 ```
 
-### Raccomanda gli elementi in base alle dimensioni
+### Articoli consigliati in base alle dimensioni
 
-Per un esempio visivo di come la corrispondenza attributo profilo influisce sulle raccomandazioni, considerate un sito Web che vende ventole elettriche.
+Per un esempio visivo di come la corrispondenza degli attributi del profilo influisce sui consigli, considera un sito web che vende ventole elettriche.
 
-Quando un visitatore fa clic su diverse immagini dei fan su questo sito Web, ogni pagina imposta il valore del parametro `entity.size` a seconda che le dimensioni della ventola nell&#39;immagine siano piccole o grandi.
+Quando un visitatore fa clic su varie immagini dei fan su questo sito web, ogni pagina imposta il valore del parametro `entity.size` in base al fatto che le dimensioni della ventola nell&#39;immagine siano piccole o grandi.
 
-Si supponga di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo o su grande.
+Supponiamo di aver creato uno script di profilo per tenere traccia e contare il numero di volte in cui il valore di `entity.size` è impostato su piccolo rispetto a grande.
 
-Se il visitatore ritorna quindi alla Home Page, visualizzerà le raccomandazioni filtrate in base al fatto che sia stato fatto clic su un maggior numero di fan piccoli o grandi.
+Se il visitatore ritorna alla home page, visualizzerà i consigli filtrati in base al fatto che sia stato fatto clic su più fan di piccole dimensioni o grandi dimensioni.
 
-Recommendations basato sulla visualizzazione di più piccole fan sul sito Web:
+Recommendations basato sulla visualizzazione di più piccoli fan sul sito web:
 
-![raccomandazioni per i piccoli ventilatori](/help/c-recommendations/c-algorithms/assets/small-fans.png)
+![consigli per piccoli appassionati](/help/c-recommendations/c-algorithms/assets/small-fans.png)
 
-Recommendations basato sulla visualizzazione di più grandi fan sul sito Web:
+Recommendations basato sulla visualizzazione di più grandi fan sul sito web:
 
-![raccomandazioni per i fan di grandi dimensioni](/help/c-recommendations/c-algorithms/assets/large-fans.png)
+![consigli per gli appassionati di grandi dimensioni](/help/c-recommendations/c-algorithms/assets/large-fans.png)
