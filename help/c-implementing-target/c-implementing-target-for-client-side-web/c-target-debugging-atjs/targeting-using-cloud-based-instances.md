@@ -1,19 +1,19 @@
 ---
 keywords: istanze cloud;elenco suffissi pubblici;suffisso pubblico;cookie;cookie di prime parti;cookie di prime parti;azurewebsites.net;cloudapp.net;amazonaws.com;cloudfront.net;herokuapp.com;firebaseapp.com;targetGlobalSettings;cookieDomain
-description: Esplorate i problemi (con le soluzioni) che i clienti devono affrontare quando utilizzano istanze basate su cloud per testare  Adobe Target o per scopi dimostrativi.
-title: Posso utilizzare Target con istanze basate su cloud?
+description: Esplora i problemi (con le soluzioni) riscontrati dai clienti quando si utilizzano istanze basate su cloud per testare Adobe [!DNL Target] o a scopo di bozza.
+title: Posso utilizzare [!DNL Target] con istanze basate su cloud?
 feature: at.js
 role: Developer
+exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '170'
-ht-degree: 81%
+source-wordcount: '169'
+ht-degree: 82%
 
 ---
 
-
-# Utilizzare istanze basate su cloud con Target{#use-cloud-based-instances-with-target}
+# Utilizzare istanze basate su cloud con Target
 
 Informazioni sui problemi riscontrati dai clienti quando si utilizzano istanze basate su cloud per testare [!DNL Adobe Target].
 
