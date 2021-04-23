@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.triggerView;triggerView;triggerview;attiva visualizzazione;at.js;funzioni;funzione;viewName;viewname;nome visualizzazione
-description: Utilizzate la funzione adobe.target.triggerView() per la libreria JavaScript Adobe Target at.js  da utilizzare in applicazioni a pagina singola (SPA). (at.js 2.x)
+description: Utilizza la funzione adobe.target.triggerView() per la libreria JavaScript Adobe [!DNL Target] at.js da utilizzare nelle applicazioni a pagina singola (SPA). (at.js 2.x)
 title: Come si utilizza la funzione adobe.target.triggerView()?
 feature: at.js
 role: Developer
+exl-id: 619d5166-d1d9-49a6-9807-338544782e66
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '284'
 ht-degree: 84%
 
 ---
-
 
 # adobe.target.triggerView (viewName, options) - at.js 2.x
 
@@ -25,7 +25,7 @@ ht-degree: 84%
 | --- | --- | --- | --- |
 | viewName | Stringa | Sì | Passa un nome qualsiasi come tipo di stringa che desideri rappresenti la tua visualizzazione. Questo nome della visualizzazione appare nel pannello [!UICONTROL Modifiche] del Compositore esperienza visivo per consentire agli addetti al marketing di creare azioni ed eseguire le attività A/B e XT. |
 | options | Oggetto | No |  |
-| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Per impostazione predefinita, una notifica viene sempre inviata quando  `triggerView` viene chiamata una chiamata, tranne quando opzioni > pagina sono impostate su false.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
+| options > page | Booleano | No | **TRUE:** il valore predefinito della pagina è vero. Con page=true, si inviano notifiche al backend [!DNL Target] per incrementare il conteggio delle impression.<br>Una notifica viene sempre inviata per impostazione predefinita quando  `triggerView` viene chiamata una, a meno che non quando options > page sia impostato su false.<br>**FALSE:** con page=false, non si inviano le notifiche per incrementare il conteggio delle impression. Da utilizzare solo per eseguire nuovamente il rendering di un componente su una pagina con un’offerta. |
 
 ## Esempio: True
 
