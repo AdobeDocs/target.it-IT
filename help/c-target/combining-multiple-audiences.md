@@ -1,18 +1,18 @@
 ---
 keywords: pubblico;regole del pubblico;combinare il pubblico;esclusione;aggiungere esclusione;escludere;combinazione di tipi di pubblico;pubblico adhoc;pubblico ad hoc
-description: Scopri come combinare più tipi di pubblico (comprese le audience di Adobe Experience Cloud e Target) al volo per creare audience ad hoc.
+description: Scopri come combinare al volo più tipi di pubblico (tra cui quelli di Adobe Experience Cloud e [!DNL Target] ) per creare un pubblico ad hoc.
 title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
-feature: Audiences
+feature: Tipi di pubblico
+exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '905'
 ht-degree: 95%
 
 ---
 
-
-# Combinare più tipi di pubblico{#combine-multiple-audiences}
+# Combinare più tipi di pubblico
 
 Combina al volo più tipi di pubblico (tra cui i tipi di pubblico di Adobe Experience Cloud e di Target) per creare un pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
 
@@ -112,7 +112,7 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    Fai clic sull&#39;attività desiderata per aprirla, quindi fai clic su **[!UICONTROL Modifica attività]**.
 
-1. Fare clic su **[!UICONTROL Configura]** > **[!UICONTROL Audiences]** > **[!UICONTROL Multiple Audiences]**.
+1. Fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Più tipi di pubblico]**.
 
    ![Configura > Tipi di pubblico > Più tipi di pubblico](/help/c-target/assets/combine_multiple_audiences7.png)
 
