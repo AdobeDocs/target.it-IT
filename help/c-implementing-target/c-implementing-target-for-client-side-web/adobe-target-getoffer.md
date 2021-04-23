@@ -1,17 +1,17 @@
 ---
 keywords: adobe.target.getOffer;getOffer;getoffer;ottieni offerta;at.js;funzioni;funzione
-description: Utilizzate la funzione adobe.target.getOffer() e le relative opzioni affinché la libreria  Adobe Target at.js attivi le richieste per ottenere un'offerta Target.
+description: Utilizza la funzione adobe.target.getOffer() e le relative opzioni per l'offerta Adobe [!DNL Target] at.js library to fire requests to get a [!DNL Target] .
 title: Come si utilizza la funzione adobe.target.getOffer()?
 feature: at.js
 role: Developer
+exl-id: 3448fdaa-b5f6-465d-8858-1dfe214bd8c4
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 91%
+source-wordcount: '467'
+ht-degree: 93%
 
 ---
-
 
 # adobe.target.getOffer(options)
 
@@ -129,4 +129,4 @@ I parametri “status” ed “error” trasmessi al callback di errore avranno 
 | Nome | Tipo | Descrizione |
 |--- |--- |--- |
 | status | Stringa | Rappresenta lo stato di errore. Questo parametro può avere i seguenti valori:<ul><li>timeout: Indica che la richiesta è scaduta.</li><li>parseerror: indica che la risposta non può essere analizzata, ad esempio se si riceve HTML o testo normale anziché JSON.</li><li>error: indica un errore generale, ad esempio se si riceve uno stato HTTP diverso da 200 OK</li></ul> |
-| error | Stringa | Contiene dati aggiuntivi come messaggi di eccezione o qualsiasi altra informazione utile per la risoluzione dei problemi. |
+| errore | Stringa | Contiene dati aggiuntivi come messaggi di eccezione o qualsiasi altra informazione utile per la risoluzione dei problemi. |
