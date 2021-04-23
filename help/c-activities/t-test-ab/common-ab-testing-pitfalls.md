@@ -1,22 +1,22 @@
 ---
-keywords: AB;A/B;AB..n;errori;errori;errori;errore;errore;pitfall;rilevanza;vincitore;differenza statistica;statistica;potenza statistica;potenza statistica;allocazione traffico;allocazione;
-description: Scoprite come evitare le insidie e gli errori più comuni che le aziende fanno quando eseguono test A/B in  Adobe Target e in altre soluzioni di test.
-title: Come posso evitare errori comuni di test A/B?
-feature: A/B Tests
+keywords: AB;A/B;AB..n;errori;insidie;errori;errore;insidia;significatività;vincitore;differenza statistica;statistica;potenza statistica;allocazione del traffico;allocazione;
+description: Scopri come evitare le insidie e gli errori più comuni commessi dalle aziende durante l'esecuzione di test A/B in Adobe [!DNL Target] e in altre soluzioni di test.
+title: Come Evitare Errori Comuni Di Test A/B?
+feature: Test A/B
+exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3885'
+source-wordcount: '3887'
 ht-degree: 87%
 
 ---
 
-
 # Dieci insidie frequenti per i test A/B e come evitarle
 
-I test A/B in [!DNL Adobe Target] costituiscono la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale, consentendo agli esperti di marketing di offrire esperienze ottimizzate e mirate ai visitatori e ai clienti. Questa sezione descrive dieci delle insidie più significative a cui le aziende sono soggette durante l&#39;esecuzione di test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
+Il test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea dieci delle insidie più significative a cui le aziende sono vittime durante l&#39;esecuzione di test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 
-## Pitfall 1: Ignorare gli effetti del livello di rilevanza {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Pitfall 1: Ignorare gli effetti del livello di significatività {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Quanto è probabile che il test riporti una differenza significativa nel tasso di conversione tra due offerte, quando in realtà non c&#39;è? Questo è ciò che il *livello di significatività* di un test aiuta a determinare. Tali risultati fuorvianti sono spesso chiamati un falso positivo e, nel mondo delle statistiche, sono chiamati un errore di Tipo I (se si rifiuta erroneamente l&#39;ipotesi null che è effettivamente vera).
 
@@ -56,7 +56,7 @@ Tuttavia, due situazioni garantiscono una particolare attenzione al livello di s
 
    Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
-## Pitfall 2: Dichiarare vincitori di test di offerta multipli senza differenze statisticamente significative {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Pitfall 2: Dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Con il test di offerta multipla, gli addetti al marketing dichiarano spesso l&#39;offerta con il più alto elevatore come il vincitore della prova, anche se non c&#39;è differenza statisticamente significativa fra il vincitore e il secondo classificato. Questa situazione si verifica quando la differenza tra le alternative è minore della differenza tra le alternative e il controllo. La figura seguente illustra questo concetto, con le barre di errore nere che rappresentano gli intervalli di affidabilità del 95% dell&#39;incremento. Il reale incremento per ogni offerta rispetto all&#39;offerta di controllo ha il 95% di probabilità di rientrare nell&#39;intervallo di affidabilità, indicato dalle barre di errore.
 
@@ -104,7 +104,7 @@ Per capire perché ciò avviene, è necessario considerare le diverse azioni int
 
 Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test verrà eseguito. È bene tenere d’occhio i risultati del test in corso, per assicurarsi che sia implementato correttamente. Tuttavia, non bisogna trarre conclusioni o arrestare il test prima che sia stato raggiunto il numero richiesto di visitatori. In altre parole, non sbirciare.
 
-## Pitfall 6: Arresto anticipato dei test {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Pitfall 6: Arresto prematuro dei test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Si potrebbe essere tentati di interrompere un test se nei primi giorni del test, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
@@ -116,21 +116,21 @@ Questo fenomeno è noto come “regressione alla media” e può portare a una d
 
 Anche in questo caso, il modo migliore per evitare questo tipo di errori consiste nel determinare un numero adeguato di visitatori prima di avviare il test, e lasciare quindi che il test venga eseguito finché tale numero di visitatori adeguato sia stato esposto alle offerte in oggetto.
 
-## Pitfall 7: Modifica dell&#39;allocazione del traffico durante il periodo di test {#allocation}
+## Pitfall 7: Modifica dell’allocazione del traffico durante il periodo di prova {#allocation}
 
-È consigliabile non modificare le percentuali di allocazione del traffico durante il periodo di test, in quanto ciò potrebbe distorcere i risultati del test fino alla normalizzazione dei dati.
-Ad esempio, supponete di disporre di un&#39;attività Test A/B in cui l&#39;80% del traffico è assegnato all&#39;Esperienza A (controllo) e il 20% del traffico è assegnato all&#39;Esperienza B. Durante il periodo di test, l&#39;allocazione viene modificata al 50% per ogni esperienza. Alcuni giorni dopo, cambiate l&#39;allocazione del traffico in 100% per l&#39;Esperienza B.
+È consigliabile non modificare le percentuali di allocazione del traffico durante il periodo di test, in quanto questo può distorcere i risultati del test fino alla normalizzazione dei dati.
+Ad esempio, supponi di avere un’attività Test A/B in cui l’80% del traffico è assegnato all’Esperienza A (il controllo) e il 20% del traffico è assegnato all’Esperienza B. Durante il periodo di test, modifichi l’allocazione al 50% per ogni esperienza. Pochi giorni dopo, cambi l’allocazione del traffico al 100% in Esperienza B.
 
 In questo scenario, come vengono assegnati gli utenti alle esperienze?
 
-Se modificate manualmente la suddivisione dell&#39;allocazione a 100% per l&#39;Esperienza B, i visitatori originariamente assegnati all&#39;Esperienza A (il controllo) rimarranno nell&#39;esperienza inizialmente assegnata (Esperienza A). Il cambiamento nell&#39;allocazione del traffico ha un impatto solo sui nuovi operatori.
+Se modifichi manualmente l’allocazione suddivisa in 100% per l’Esperienza B, i visitatori originariamente assegnati all’Esperienza A (il controllo) rimangono nell’esperienza inizialmente assegnata (Esperienza A). Il cambiamento nell’allocazione del traffico ha un impatto solo sui nuovi entranti.
 
-Se desiderate modificare le percentuali o influenzare notevolmente il flusso di visitatori in ogni esperienza, è consigliabile creare una nuova attività o copiare l&#39;attività e quindi modificare le percentuali di allocazione del traffico.
+Se desideri modificare le percentuali o influenzare notevolmente il flusso di visitatori in ogni esperienza, ti consigliamo di creare una nuova attività o di copiare l’attività e quindi modificare le percentuali di allocazione del traffico.
 
-Se modificate le percentuali per esperienze diverse durante il periodo di test, la normalizzazione dei dati richiede alcuni giorni, soprattutto se molti acquirenti restituiscono i visitatori.
-Come altro esempio, se l&#39;allocazione del traffico del test A/B è divisa tra 50/50 e successivamente si modifica la suddivisione in 80/20, per i primi giorni dopo tale modifica i risultati potrebbero apparire distorti. Se il tempo medio di conversione è elevato, il che significa che per un acquisto sono necessarie diverse ore o persino giorni, queste conversioni ritardate possono influenzare i rapporti. Così, in quella prima esperienza in cui il numero è passato dal 50% all&#39;80%, e il tempo medio di conversione è di due giorni, solo i visitatori dal 50% della popolazione si stanno convertendo il primo giorno del test, anche se oggi l&#39;80% della popolazione sta entrando nell&#39;esperienza. Questo fa sembrare il tasso di conversione precipitato, ma si normalizzerà di nuovo dopo che l&#39;80% dei visitatori ha impiegato due giorni per la conversione.
+Se modifichi le percentuali per esperienze diverse durante il periodo di test, occorrono alcuni giorni perché i dati si normalizzino, soprattutto se molti acquirenti sono visitatori di ritorno.
+Un altro esempio: se l’allocazione del traffico del test A/B è divisa tra 50/50 e poi modifichi la suddivisione in 80/20, per i primi giorni dopo la modifica i risultati potrebbero risultare distorti. Se il tempo medio di conversione è elevato, ovvero per effettuare un acquisto sono necessarie diverse ore o persino giorni, queste conversioni ritardate possono influenzare i tuoi rapporti. Quindi, in quella prima esperienza in cui il numero è passato dal 50% all’80% e il tempo medio di conversione è di due giorni, solo i visitatori del 50% della popolazione si stanno convertendo il primo giorno del test, anche se oggi l’80% della popolazione sta entrando nell’esperienza. Questo fa sembrare il tasso di conversione crollato, ma si normalizzerà di nuovo dopo che l’80% dei visitatori ha impiegato due giorni per convertire.
 
-## Pitfall 8: Mancata considerazione degli effetti di novità {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Pitfall 8: Non considerare gli effetti della novità {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Se un test non viene eseguito per il tempo necessario, possono verificarsi anche altre cose inaspettate. Questa volta il problema non legato alla statistica, ma semplicemente alla normale reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si potrà trarre dall&#39;offerta superiore.
 
@@ -138,7 +138,7 @@ Per determinare se le scarse prestazioni della nuova offerta sono dovute all’e
 
 L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento, solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
 
-## Pitfall 9: Mancata considerazione delle differenze nel periodo di riflessione {#section_B166731B5BEE4E578816E351ECDEA992}
+## Pitfall 9: Mancata considerazione delle differenze nel periodo preso in considerazione {#section_B166731B5BEE4E578816E351ECDEA992}
 
 Il periodo di considerazione è il periodo di tempo da quando la soluzione di test A/B presenta un&#39;offerta a un visitatore a quando il visitatore si converte. Ciò può essere importante con le offerte che interessano sostanzialmente il periodo preso in esame, per esempio, un&#39;offerta che implica una scadenza, quale “offerta a tempo limitato, acquista entro domenica”.
 
@@ -162,7 +162,7 @@ Considera l&#39;offerta di sci di seguito. Genera un CTR molto più elevato risp
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 
-## Conclusione: Successo con il test A/B riconoscendo e aggirando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusione: Successo con il test A/B riconoscendo ed evitando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
 
 Dopo aver appreso le comuni insidie dei test A/B, ci auguriamo che tu possa identificare quando e dove potresti esserne caduto vittima. Speriamo anche di averti fornito una migliore comprensione di alcuni dei concetti di statistiche e probabilità coinvolti nei test A/B che spesso si percepiscono come di dominio di persone laureate in matematica.
 
@@ -173,4 +173,3 @@ I passaggi riportati di seguito consentono di evitare queste insidie e concentra
 * Calcola la dimensione del campione (numero di visitatori) prima dell&#39;avvio del test.
 * Attendi il raggiungimento della dimensione del campione calcolato prima di interrompere il test.
 * Regola il livello di affidabilità quando effettui la segmentazione post-test o la valutazione di più alternative, ad esempio utilizzando la correzione Bonferroni.
-
