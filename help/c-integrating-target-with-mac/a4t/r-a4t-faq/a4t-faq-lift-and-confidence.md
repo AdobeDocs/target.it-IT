@@ -1,18 +1,18 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4t;incremento;ad hoc;report builder;affidabilità
-description: Trova le risposte alle domande su incremento e affidabilità durante l’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+description: Trova le risposte alle domande su incremento e affidabilità durante l’utilizzo di Analytics per attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: Dove posso trovare informazioni su incremento e affidabilità con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '510'
-ht-degree: 40%
+source-wordcount: '498'
+ht-degree: 41%
 
 ---
 
-
-# Incremento e affidabilità - Domande frequenti su A4T{#lift-and-confidence-a-t-faq}
+# Incremento e affidabilità - Domande frequenti su A4T
 
 Questo argomento contiene le risposte alle domande che vengono spesso poste in merito all’incremento e all’affidabilità quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
@@ -32,12 +32,12 @@ Il livello di affidabilità è la probabilità che il tasso di conversione misur
 
 Le metriche calcolate non sono attualmente supportate nelle funzioni di incremento e affidabilità. Analytics calcola le metriche a livello di aggregato, anziché a livello di visitatore. In particolare, Affidabilità è un calcolo a livello di visitatore.
 
-Gli eventi non calcolati (standard) sono supportati in incremento e affidabilità. Diventano il numeratore nella funzione di incremento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000 e così via. Le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatore), sono supportate in incremento e affidabilità.
+Gli eventi non calcolati (standard) sono supportati in incremento e affidabilità. Diventano il numeratore nella funzione di incremento; il numeratore non può essere un calcolo stesso. Il denominatore è la normalizzazione delle metriche (impression, visite o visitatori). Alcuni esempi di eventi standard includono ordini, ricavi, conversioni di attività, eventi personalizzati 1-1000 e così via. Le metriche di ottimizzazione comuni, come il tasso di conversazione (Ordini/Visitatori) e RPV (Entrate/Visitatore) sono supportate in incremento e affidabilità.
 
 Esempi di metriche o casi d’uso non supportati sono:
 
 * Valore medio dell’ordine (ricavi/ordine, per visitatore). AOV non supportato perché il numeratore è una metrica calcolata. Invece, si consiglia di considerare le due metriche che influenzano l’AOV - Ricavo per visitatore e Tasso di conversione.
-* Metriche calcolate che corrispondono alla somma degli eventi standard. Ad esempio, è possibile tenere traccia di dieci diversi moduli lead in dieci eventi distinti, quindi aggiungerli insieme per ottenere invii totali. Per tenere traccia di questi eventi, si consiglia di implementare un singolo evento di invio del lead in Analytics e quindi di utilizzare una eVar per raccogliere il tipo di modulo per lead. L’utilizzo di questo metodo richiede un numero inferiore di variabili e garantisce l’utilizzo della singola metrica di invio del lead nelle funzioni di incremento e affidabilità.
+* Metriche calcolate che corrispondono alla somma degli eventi standard. Ad esempio, è possibile tenere traccia di dieci diversi moduli lead in dieci eventi distinti, quindi aggiungerli insieme per ottenere invii totali. Per tenere traccia di questi eventi, si consiglia di implementare un singolo evento di invio per lead in Analytics e quindi di utilizzare un eVar per raccogliere il tipo di modulo per lead. L’utilizzo di questo metodo richiede un numero inferiore di variabili e garantisce l’utilizzo della singola metrica di invio del lead nelle funzioni di incremento e affidabilità.
 
 ## Come gestisce A4T i calcoli di affidabilità?  {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
