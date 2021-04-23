@@ -1,17 +1,17 @@
 ---
-description: Cosa significano termini diversi utilizzati in Adobe Target? Scopri le definizioni dei termini comuni per ottenere di più da Target.
+description: Cosa significano termini diversi utilizzati in Adobe [!DNL Target] ? Trova le definizioni dei termini comuni per ottenere di più [!DNL Target].
 title: Dove posso trovare termini e definizioni utilizzati in Target?
-feature: Overview
+feature: Panoramica
+exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
 translation-type: tm+mt
-source-git-commit: dd938125e2b75bb360d18f540d2638c6e6fd0d9f
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2472'
+source-wordcount: '2470'
 ht-degree: 90%
 
 ---
 
-
-# Glossario{#glossary}
+# Glossario
 
 Definizioni dei termini.
 
