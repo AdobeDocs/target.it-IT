@@ -1,19 +1,19 @@
 ---
 keywords: Implementazione;mbox.js non JavaScript;adbox;redirector;mbox
-description: Scoprite come implementare  Adobe Target in scenari non JavaScript, ad esempio l'utilizzo di un AdBox o di un redirector.
-title: Come posso implementare Target per l'e-mail?
-feature: Implement Email
+description: Scopri come implementare Adobe [!DNL Target] in scenari non JavaScript, ad esempio l’utilizzo di un AdBox o di un redirector.
+title: Come si implementa [!DNL Target] per e-mail?
+feature: Implementa e-mail
 role: Developer
+exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '436'
 ht-degree: 77%
 
 ---
 
-
-# E-mail: implementare Target{#email-implement-target}
+# E-mail: implementare Target
 
 Informazioni sull’implementazione di Target in scenari non JavaScript, ad esempio l’utilizzo di un AdBox o di un redirector.
 
@@ -28,9 +28,9 @@ Gli annunci AdBox e i Redirector possono essere utilizzati con qualsiasi tipo di
 | AdBox | Restituzione di immagini diverse all&#39;annuncio | Per modificare il contenuto di un annuncio | `clientcode&#x200B;.tt.&#x200B;omtrdc&#x200B;.net/&#x200B;m2&#x200B;/&#x200B;clientcode/ubox/&#x200B;image?` | Offerta di reindirizzamento | URL per un&#39;immagine |
 | Redirector | Reindirizza un visitatore a una pagina Web diversa | Per modificare la pagina di destinazione di un annuncio | `clientcode&#x200B;.tt.omtrdc.net/&#x200B;m2/clientcode&#x200B;/ubox/page?` | Offerta di reindirizzamento | URL per una pagina |
 
-## Best practice di protezione {#security}
+## Best practice sulla sicurezza {#security}
 
-Si noti che con Redirector, è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, vedere [Creare Inserire nell&#39;elenco Consentiti  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*.
+Tieni presente che con Redirector puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato di collegamenti redirector da parte di terze parti, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare Inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*.
 
 ## Vincoli {#section_38F559DCF1324271926608BCD4AB1227}
 
