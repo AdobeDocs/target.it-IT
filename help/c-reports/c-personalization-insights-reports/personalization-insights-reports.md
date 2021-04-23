@@ -1,24 +1,24 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata:targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti;attributi importanti
-description: Scopri come utilizzare i report specializzati per  attività Automated Personalization (AP) e Auto-Target (AT) - Segmenti automatizzati e Attributi importanti.
-title: Come si utilizzano i rapporti Personalization Insights?
-feature: Reports
+description: Scopri come utilizzare i rapporti specializzati per le attività di Automated Personalization (AP) e Targeting automatico (AT) - Segmenti automatizzati e Attributi importanti.
+title: Come si utilizzano i rapporti Approfondimenti personalizzazione?
+feature: Rapporti
+exl-id: 89295d95-f179-4277-ae63-453350e1bba8
 translation-type: tm+mt
-source-git-commit: 8919f98c340106b78c13df1a2f4ac948ff5d6737
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '744'
 ht-degree: 69%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Rapporti Approfondimenti personalizzazione{#personalization-insights-reports}
+# ![PREMIUM](/help/assets/premium.png) Rapporti Approfondimenti personalizzazione
 
 Per gli utenti di attività di [!UICONTROL Personalizzazione automatizzata] (AP) e Targeting automatico (TA) sono disponibili due report specializzati: i rapporti [!UICONTROL Segmenti automatizzati] e Attributi importanti.
 
 >[!NOTE]
 >
->Quando usi i rapporti Personalization Insights, prendi in considerazione quanto segue:
+>Quando utilizzi i rapporti Approfondimenti personalizzazione , considera quanto segue:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Per gli utenti di attività di [!UICONTROL Personalizzazione automatizzata] (AP)
 * [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
    >
    >
-* [!UICONTROL I rapporti ] Insightsreport sulla personalizzazione sono disponibili solo se gli  [!UICONTROL obiettivi ] primari selezionati dall&#39;elenco a discesa  [!UICONTROL Metricia ] report.
+* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono disponibili solo se l’ [!UICONTROL obiettivo primario ] è selezionato dall’elenco a discesa  [!UICONTROL Metrica ] rapporto .
    >
    >
 * I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL I rapporti ] Insightsreporting sulla personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
+* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
 
 
 ## Panoramica sui rapporti di Registri di personalizzazione {#section_B47CD4A50FEB43D587F9FACD9FFD6D9D}
 
-L&#39;obiettivo dei rapporti [!UICONTROL Registri di personalizzazione] è fornire maggiori informazioni sulle modalità con cui i modelli di personalizzazione di Target dietro le attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) personalizzano il traffico del visitatore.  L&#39;algoritmo [Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md) è alla base dei modelli di personalizzazione [!DNL Target].
+L&#39;obiettivo dei rapporti [!UICONTROL Registri di personalizzazione] è fornire maggiori informazioni sulle modalità con cui i modelli di personalizzazione di Target dietro le attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT) personalizzano il traffico del visitatore.  L’ [algoritmo Foresta casuale](/help/c-activities/t-automated-personalization/algo-random-forest.md) è la base dei modelli di personalizzazione [!DNL Target].
 
-Poiché l&#39;obiettivo dei report [!UICONTROL Personalization Insights] (Approfondimenti sulla personalizzazione) è capire in che modo i modelli di [!DNL Target] personalizzazione hanno deciso di inviare il visitatore a quale o quali parti di contenuto, i report [!UICONTROL Personalization Insights] riflettono solo un sottosegmento di tutto il traffico gestito dall&#39;attività AP o AT. In particolare, i due rapporti riflettono tutto il traffico che ha utilizzato il modello di personalizzazione. In altre parole, i rapporti [!UICONTROL Registri di personalizzazione] non considerano il traffico di controllo o il traffico gestito dal modello vincitore complessivo.
+Poiché l&#39;obiettivo dei rapporti [!UICONTROL Registri di personalizzazione] è comprendere in che modo i modelli di personalizzazione [!DNL Target] hanno deciso di inviare il visitatore a quale parte di contenuto, i rapporti [!UICONTROL Registri di personalizzazione] riflettono solo un sotto-segmento di tutto il traffico gestito dall&#39;attività di PA o TA. In particolare, i due rapporti riflettono tutto il traffico che ha utilizzato il modello di personalizzazione. In altre parole, i rapporti [!UICONTROL Registri di personalizzazione] non considerano il traffico di controllo o il traffico gestito dal modello vincitore complessivo.
 
-Sono disponibili due report [!UICONTROL Personalization Insights]:
+Sono disponibili due rapporti [!UICONTROL Registri di personalizzazione] :
 
 | Rapporto | Dettagli |
 |--- |--- |
-| [!UICONTROL Segmenti automatizzati] | I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra in che modo i diversi segmenti automatizzati definiti dai modelli di personalizzazione [!DNL Target] hanno risposto alle offerte/esperienze nell&#39;attività. |
+| [!UICONTROL Segmenti automatizzati] | I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione [!DNL Target] rispondono alle offerte/esperienze nell’attività. |
 | [!UICONTROL Attributi importanti] | Nelle varie attività, i vari attributi possono essere più o meno importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa. |
 
 ## Interpretazione degli attributi in Approfondimenti personalizzazione {#section_B5C45E723EC941BDA2A7A642EEB30E4D}
@@ -65,14 +65,14 @@ Esistono due tipi di attributi rappresentati nei rapporti [!UICONTROL Registri d
 | Destinatari condivisi (Adobe Audience Manager o Adobe Analytics) | Destinatari creati tramite Adobe Audience Manager o Adobe Analytics e condivisi con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Destinatari di reporting nell&#39;attività - Segmenti | I destinatari definiti nell&#39;attività di Personalizzazione automatizzata o Targeting automatico durante l&#39;impostazione in “Obiettivi e Metrica”. | `Custom - Reporting Segment - [segment name]` |
 
-## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione  ![Badge tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
-Per ulteriori informazioni, vedere [Utilizzo dei report Personalization Insights in  Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
+Per ulteriori informazioni, consulta [Utilizzo dei rapporti Approfondimenti personalizzazione in Adobe Target](https://helpx.adobe.com/target/kt/using/personalization-insights-report-feature-video-use.html).
 
-## Blog  Adobe
+## Blog di Adobe
 
-* Parte 1: [Togliere il mistero dalla magia della personalizzazione basata sull&#39;intelligenza artificiale](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
-* Parte 2: [Uno sguardo dietro la cortina di AI per la personalizzazione in  Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
-* Parte 3: [MAGIX — la soluzione al problema del riquadro nero della personalizzazione basata sull&#39;intelligenza artificiale](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
+* Parte 1: [Estrarre il mistero dalla magia della personalizzazione guidata dall&#39;intelligenza artificiale](https://theblog.adobe.com/taking-mystery-magic-ai-driven-personalization-part-1/)
+* Parte 2: [Un&#39;occhiata dietro la tenda dell&#39;intelligenza artificiale per la personalizzazione in Adobe Target](https://theblog.adobe.com/a-peek-behind-the-curtain-of-ai-for-personalization-in-adobe-target/)
+* Parte 3: [MAGIX — la soluzione al problema del Black Box della personalizzazione guidata dall&#39;intelligenza artificiale](https://theblog.adobe.com/magix-the-solution-to-the-black-box-issue-of-ai-driven-personalization/)
