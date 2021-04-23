@@ -1,50 +1,49 @@
 ---
 keywords: allocazione automatica del traffico;targeting;allocazione automatica;allocazione automatica
-description: Scoprite come un'attività di allocazione automatica in  Adobe Target identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore.
-title: È possibile assegnare automaticamente le attività con risultati più rapidi e guadagni più elevati?
-feature: Auto-Allocate
+description: Scopri come un’attività di allocazione automatica in Adobe [!DNL Target] identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per il vincitore.
+title: Le attività di allocazione automatica possono ottenere risultati più rapidi e ricavi più elevati?
+feature: Allocazione automatica
+exl-id: 104ad88f-044b-4c2f-bdaf-f023fd1787a5
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '544'
 ht-degree: 0%
 
 ---
 
+# L’allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale
 
-# L&#39;allocazione automatica consente di ottenere risultati di test più rapidi e ricavi maggiori rispetto a un test manuale
-
-Con un&#39;attività A/B manuale, potresti perdere conversioni perché non puoi distribuire l&#39;esperienza vincente a tutto il pubblico fino al completamento dell&#39;attività. La distribuzione del traffico rimane fissa anche dopo aver riconosciuto che alcune esperienze hanno prestazioni migliori di altre, e che l&#39;attività deve eseguire l&#39;intero corso prima di poter agire su un vincitore.
+Con un’attività A/B manuale, potresti perdere conversioni perché non puoi distribuire l’esperienza vincente a tutto il pubblico fino al completamento dell’attività. La distribuzione del traffico rimane fissa anche dopo aver riconosciuto che alcune esperienze stanno superando le altre e l&#39;attività deve eseguire l&#39;intero corso prima di poter agire su un vincitore.
 
 ## Allocazione automatica del traffico
 
-Se si desidera un&#39;opzione per distribuire l&#39;esperienza vincente più spesso e prima nell&#39;attività, rimuovendo o riducendo contemporaneamente il costo di configurazione e di calcolo della scelta delle dimensioni del campione, dei livelli di confidenza e di altri concetti statistici, [!UICONTROL Auto-Allocate] è la scelta migliore.
+Se desideri che un&#39;opzione distribuisca l&#39;esperienza vincente più spesso e prima nell&#39;attività rimuovendo o riducendo contemporaneamente il costo di configurazione e calcolo per la scelta delle dimensioni del campione, dei livelli di affidabilità e di altri concetti statistici, [!UICONTROL Allocazione automatica] è l&#39;opzione migliore.
 
-## Come funziona l&#39;allocazione automatica?
+## Come funziona Allocazione automatica?
 
-[!UICONTROL Auto-] Allocateusa il principio del bandito multi-armato. Se il termine non è familiare, un bandito monomarca è un termine colloquiale per una slot machine (pensare: Las Vegas). Visualizzare l&#39;allocazione automatica del traffico come se avesse più slot machine, in questo caso, varianti di test, e all&#39;inizio tirare tutti i handle in modo uguale. Nel tempo, una o più macchine, o varianti di test, potrebbero pagare più di altre. Quando questo accade, un giocatore naturalmente inizierebbe a tirare le maniglie di quelli che vincono più spesso. In termini di allocazione del traffico, [!DNL Adobe Target] fornirà a più visitatori l&#39;esperienza o le esperienze vincenti.
+[!UICONTROL Allocazione automatica ] utilizza il principio del slot machine. Se il termine non è familiare, un slot machine è un termine colloquiale per una slot machine (pensa: Las Vegas). Visualizza l&#39;allocazione automatica del traffico come se avesse più slot machine, in questo caso, varianti di test, e in primo luogo tirare tutte le maniglie equamente. Nel tempo, una o più macchine, o varianti di test, potrebbero pagare più di altre. Quando questo accade, un giocatore inizierebbe naturalmente a tirare le maniglie di quelli che vincono più spesso. In termini di allocazione del traffico, [!DNL Adobe Target] offrirà a più visitatori l&#39;esperienza o le esperienze che stanno vincendo di più.
 
-Considerate la seguente illustrazione di un&#39;attività A/B di due settimane. Con [!UICONTROL Auto-Allocate], quando emerge un&#39;esperienza vincente, [!UICONTROL Target] trasferisce più traffico a tale vincitore all&#39;inizio del test.
+Prendi in considerazione la seguente illustrazione di un’attività A/B di due settimane. Con [!UICONTROL Allocazione automatica], quando emerge un&#39;esperienza vincente, [!UICONTROL Target] devia più traffico verso tale vincitore all&#39;inizio del test.
 
-![Allocazione automatica dell&#39;illustrazione](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
+![Illustrazione di Allocazione automatica](/help/c-activities/automated-traffic-allocation/assets/Auto-Allocate-test.png)
 
-## In che modo Auto-Allocate offre risultati più rapidi?
+## In che modo l&#39;allocazione automatica mi dà risultati più rapidi?
 
-Il lato positivo è piuttosto chiaro: più visitatori visualizzano le varianti che offrono le migliori prestazioni. E man mano che una singola variante va avanti, ancora più visitatori vengono deviati verso quell&#39;esperienza vincente, mentre il test era ancora in corso. Questa funzione è particolarmente utile se l&#39;attività A/B in esecuzione avviene durante un momento di business principale, ad esempio una vacanza, un lancio di prodotti o un evento di notizie nel mondo.
+Il lato positivo è piuttosto chiaro: più visitatori visualizzano le varianti che offrono le migliori prestazioni. E man mano che una singola variante avanza, ancora più visitatori vengono deviati verso quell&#39;esperienza vincente, mentre il test era ancora in corso. Questa funzione è particolarmente utile se l’attività A/B in esecuzione si verifica durante un momento di business principale, ad esempio una vacanza, un lancio di prodotto o un evento di news a livello mondiale.
 
-## In che modo Auto-Allocate potrebbe fornire maggiori entrate?
+## Come può l&#39;allocazione automatica dare maggiori ricavi?
 
-[!UICONTROL Auto-] Allocatetrova il vincitore più velocemente di una divisione A/B manuale, e consente anche di sfruttare il vincitore immediatamente acquisendo le entrate upside che avrebbero perso in un approccio tradizionale o manuale. Poiché [!UICONTROL Auto-Allocate] reindirizza più traffico all&#39;esperienza con il tasso di conversione più elevato, può aumentare le entrate mentre l&#39;attività viene eseguita e apprende.
+[!UICONTROL L’] allocazione automatica individua il vincitore più rapidamente di una suddivisione manuale A/B, e consente inoltre di sfruttare il vincitore acquisendo immediatamente i ricavi positivi che sarebbero andati persi in un approccio tradizionale o manuale. Poiché [!UICONTROL Allocazione automatica] indirizza più traffico all&#39;esperienza con il più alto tasso di conversione, può aumentare i ricavi mentre l&#39;attività viene eseguita e apprende.
 
-Nell&#39;esempio seguente, [!UICONTROL Auto-Allocate] ha guadagnato più ricavi durante il test spingendo più traffico (40%) nell&#39;Esperienza D, che aveva il tasso di conversione più alto.
+Nell&#39;esempio seguente, [!UICONTROL Allocazione automatica] ha generato più ricavi durante il test spingendo più traffico (40%) verso l&#39;esperienza D, che aveva il tasso di conversione più alto.
 
-![L&#39;allocazione automatica fornisce un&#39;illustrazione delle entrate più elevata](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
+![L&#39;allocazione automatica fornisce un&#39;illustrazione più dettagliata dei ricavi](/help/c-activities/automated-traffic-allocation/assets/five-experiences.png)
 
-## In quali casi devo attenersi all&#39;allocazione manuale del traffico?
+## In quali casi dovrei attenermi all&#39;allocazione manuale del traffico?
 
-Per classificare in ordine le prestazioni di ogni esperienza rispetto agli altri, è più applicabile un test A/B manuale. [!UICONTROL L&#39;] allocazione automatica individua e sfrutta i migliori esecutori, ma non garantisce la differenziazione tra le esperienze con prestazioni inferiori. È consigliabile utilizzare l&#39;allocazione manuale del traffico per controllare completamente la quantità di traffico dei visitatori che vede ogni variante di test e per personalizzare le soglie statistiche rilevanti per la propria attività.
+Quando devi classificare in ordine le prestazioni di ogni esperienza rispetto alle altre, è più applicabile un test A/B manuale. [!UICONTROL L’] allocazione automatica individua e sfrutta i migliori performer ma non garantisce la differenziazione tra le esperienze con prestazioni inferiori. Utilizza l’allocazione manuale del traffico per controllare in modo completo la quantità di traffico dei visitatori che visualizza ogni variante di test e per personalizzare le soglie statistiche rilevanti per la tua attività.
 
-## Guida introduttiva
+## Introduzione
 
-Pronto per avviare la tua prima [!UICONTROL Auto-Allocate] attività? [Scopri come](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
-
+Pronti per avviare la tua prima attività [!UICONTROL Allocazione automatica]? [Scopri come fare qui](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
