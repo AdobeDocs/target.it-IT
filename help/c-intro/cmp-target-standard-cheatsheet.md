@@ -1,18 +1,18 @@
 ---
 keywords: Target Standard;faq;domande frequenti;guida di riferimento rapido;riferimento rapido
-description: Esplora un elenco di domande frequenti sull’utilizzo delle funzionalità in  Adobe Target, insieme a informazioni e collegamenti per ulteriori informazioni.
-title: Dove posso trovare risposte alle mie domande di ottimizzazione e personalizzazione?
-feature: Overview
+description: Esplora un elenco di domande frequenti sull’utilizzo delle funzioni di Adobe Target, oltre a informazioni e collegamenti per ulteriori informazioni.
+title: Dove posso trovare le risposte alle mie domande di ottimizzazione e personalizzazione?
+feature: Panoramica
+exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2917'
+source-wordcount: '2918'
 ht-degree: 96%
 
 ---
 
-
-# Domande frequenti sull’ottimizzazione e la personalizzazione di Target{#target-optimization-and-personalization-faq}
+# Domande frequenti sull’ottimizzazione e la personalizzazione di Target
 
 Un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Target, oltre a informazioni e collegamenti verso ulteriori informazioni.
 
@@ -62,7 +62,7 @@ Utilizza i nostri [rapporti per determinare l’esperienza vincente](/help/c-act
 
 **È possibile eseguire un&#39;attività con un livello di personalizzazione come parte integrante dell&#39;attività?**
 
-Selezionare l&#39;opzione [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Consulta l’opzione [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) .
 
 **Come posso sapere quale tipo di attività si adatta meglio alle mie esigenze?**
 
@@ -133,7 +133,7 @@ Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso 
 Sono disponibili due opzioni:
 
 * Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzato, abilitate la funzione Priorità di fine granulometria (Amministrazione > Visual Experience Composer (Compositore esperienza visivo).
+* Personalizzata, da 0 a 999. Per Personalizzato, abilita la funzione Priorità precise ( Amministrazione > Compositore esperienza visivo).
 
 ## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ Prova le informazioni sulla [risoluzione dei problemi](/help/c-experiences/c-vis
 
 È anche disponibile un [approccio basato su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i  [   Adobe  ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) server proxy.
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i  [inserire nell&#39;elenco Consentiti anche ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) i server proxy di Adobe.
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
@@ -197,7 +197,7 @@ Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help
 
 **Ho più domini. Uno dei domini ha bisogno del Compositore esperienza avanzato, mentre altri hanno bisogno che questo sia disabilitato. Come posso fare?**
 
-Potete sempre utilizzare l&#39;opzione [Enhanced Experience Composer (Compositore esperienza avanzato) a livello di attività](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita (Amministrazione > Visual Experience Composer (Compositore esperienza visivo).
+È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita ( Amministrazione > Compositore esperienza visivo).
 
 **Perché non vedo un&#39;opzione per scambiare le immagini?**
 
