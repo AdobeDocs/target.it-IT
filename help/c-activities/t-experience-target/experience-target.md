@@ -1,16 +1,16 @@
 ---
 keywords: Targeting;targeting esperienza;xt;pagina di destinazione;campagna pagina di destinazione
-description: Scopri come utilizzare le attività Experience Targeting (XT) in  Adobe Target per distribuire contenuti a un pubblico specifico in base a un insieme di regole e criteri definiti dall'esperto di marketing.
-title: Che cos'è un'attività Experience Targeting (XT)?
-feature: Experience Targeting
+description: Scopri come utilizzare le attività di targeting delle esperienze (XT) in Adobe [!DNL Target] per fornire contenuti a un pubblico specifico in base a una serie di regole e criteri definiti dall’addetto al marketing.
+title: Che cos’è un’attività Targeting esperienze (XT)?
+feature: Targeting esperienza
+exl-id: 416d8941-d4de-487f-8fd2-27806b73a63c
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 93%
 
 ---
-
 
 # Targeting esperienza
 
