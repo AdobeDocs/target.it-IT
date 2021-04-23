@@ -1,18 +1,18 @@
 ---
 kewords: Automated Personalization;ap;troublshoot;troubleshooting;model;lift
-description: Esplorate le potenziali sfide cui potreste far fronte quando utilizzate  attività Automated Personalization (AP) in  Adobe Target, insieme alle soluzioni suggerite.
-title: Come Posso Risolvere  Automated Personalization?
-feature: Automated Personalization
+description: Esplora le potenziali sfide che potresti affrontare durante l’utilizzo delle attività di Automated Personalization (AP) in Adobe Target, insieme alle soluzioni suggerite.
+title: Come Posso Risolvere I Problemi Di Automated Personalization?
+feature: Personalizzazione automatizzata
+exl-id: bc23e5db-5b65-44be-be45-c972287a64e7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 91%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Risoluzione dei problemi di Personalizzazione automatizzata{#troubleshoot-automated-personalization}
+# ![PREMIUM](/help/assets/premium.png) Risoluzione dei problemi di Personalizzazione automatizzata
 
 A volte le attività non vanno come previsto. Questo articolo elenca alcuni potenziali problemi che si possono presentare durante l’utilizzo della Personalizzazione automatizzata, con possibili soluzioni.
 
@@ -40,7 +40,7 @@ Ci sono diversi fattori necessari affinché un’attività di Personalizzazione 
 
 ## L’URL della mia attività Personalizzazione automatizzata mostra il contenuto delle offerte su pagine errate.  {#section_82A224406DBF4107B05204BEFBBE458C}
 
-In AP, le regole di verifica degli URL e dei modelli vengono aggiunte al vincolo di immissione della richiesta [!DNL Target] (ad esempio, target-global-mbox), in cui vengono valutate solo una volta. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
+In Personalizzazione automatizzata, le regole di test URL e modelli vengono aggiunte al vincolo di ingresso della richiesta [!DNL Target] (ad esempio, target-global-mbox), dove vengono valutate una sola volta. Quando un utente si qualifica per un&#39;attività, le regole di targeting a livello di richiesta di Target non vengono rivalutate. Tuttavia, il pubblico di destinazione viene aggiunto alle regole di targeting per la posizione.
 
 **Soluzione:** aggiungi le regole di modello necessarie come pubblico di input della campagna. La valutazione del pubblico avviene su ogni richiesta/chiamata.
 
@@ -58,4 +58,3 @@ Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una me
 
 * Se non puoi visualizzare l&#39;anteprima nella nuova scheda (a causa della cache del browser), prova ad aggiornare due o tre volte o a copiare il collegamento e aprirlo in un nuovo browser o una nuova sessione.
 * Rigenera i collegamenti degli URL di esperienza se hai modificato qualsiasi contenuto e condividi i nuovi collegamenti con i tuoi compagni di team.
-
