@@ -1,22 +1,22 @@
 ---
-keywords: allocazione automatizzata del traffico;targeting;Incremento conteggio e Mantieni utente in attività;allocazione del traffico;allocazione automatica;allocazione automatica
-description: Scoprite come utilizzare un'attività di allocazione automatica in  Adobe Target che identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore.
-title: Che cos'è un'attività di allocazione automatica?
-feature: Auto-Allocate
+keywords: allocazione automatica del traffico;targeting;incrementa il conteggio e mantieni l'utente nell'attività;allocazione del traffico;allocazione automatica;allocazione automatica
+description: Scopri come utilizzare un’attività di allocazione automatica in Adobe [!DNL Target] che identifica un vincitore tra due o più esperienze e ridistribuisce automaticamente più traffico per il vincitore.
+title: Cos’è un’attività di allocazione automatica?
+feature: Allocazione automatica
+exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '3386'
+source-wordcount: '3387'
 ht-degree: 73%
 
 ---
 
+# Panoramica dell’allocazione automatica
 
-# Panoramica dell&#39;allocazione automatica
+Un’attività di allocazione automatica in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
-Un&#39;attività di allocazione automatica in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e riassegna automaticamente più traffico al vincitore per aumentare le conversioni mentre il test continua a essere eseguito e imparare.
-
-Durante la creazione di un&#39;attività A/B tramite il flusso di lavoro guidato in tre fasi, potete scegliere l&#39;opzione [!UICONTROL Allocazione automatica per migliorare l&#39;esperienza].
+Durante la creazione di un&#39;attività A/B tramite il flusso di lavoro guidato in tre passaggi, puoi scegliere l&#39;opzione [!UICONTROL Allocazione automatica all&#39;esperienza migliore] .
 
 ## La sfida {#section_85D5A03637204BACA75E19646162ACFF}
 
@@ -82,17 +82,17 @@ L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredi
 
 >[!NOTE]
 >
->Se un&#39;attività ha solo due esperienze, entrambe ottengono lo stesso traffico fino a quando [!DNL Target] non trova un&#39;esperienza vincente con un livello di confidenza del 75%. A quel punto, 2/3 del traffico è assegnato al vincitore e 1/3 al perdente. In seguito, quando un&#39;esperienza raggiunge un livello di confidenza del 95%, il 90% del traffico viene assegnato al vincitore e il 10% al perdente. Manteniamo sempre un certo traffico che viene inviato all&#39;esperienza &quot;perdente&quot; per evitare falsi positivi nel lungo periodo (ossia mantenere qualche esplorazione).
+>Se un’attività ha solo due esperienze, entrambe ottengono la stessa quantità di traffico fino a quando [!DNL Target] non trova un’esperienza vincente con il 75% di affidabilità. A quel punto, 2/3 del traffico è assegnato al vincitore e 1/3 al perdente. In seguito, quando un’esperienza raggiunge il 95% di affidabilità, il 90% di traffico è assegnato al vincitore e il 10% al perdente. Manteniamo sempre del traffico inviato all’esperienza &quot;perdente&quot; per evitare falsi positivi a lungo termine (ovvero mantenere alcune esplorazioni).
 
-Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Auto-Allocate], non sono consentite le seguenti operazioni dall&#39;interfaccia utente:
+Dopo l&#39;attivazione di un&#39;attività [!UICONTROL Allocazione automatica], dall&#39;interfaccia utente non sono consentite le seguenti operazioni:
 
 * Impostazione della modalità di Allocazione traffico su Manuale
 * Modifica del tipo di metrica obiettivo
 * Modifica delle opzioni nel pannello “Impostazioni avanzate”
 
-## Come funziona l&#39;allocazione automatica
+## Come funziona l’allocazione automatica
 
-Per ulteriori informazioni, vedere [Allocazione automatica può fornire risultati di test più rapidi e ricavi più alti rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
+Per ulteriori informazioni, consulta [Allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
 
 ## Avvertenze {#section_5C83F89F85C14FD181930AA420435E1D}
 
@@ -132,11 +132,11 @@ Queste situazioni possono sfalsare i risultati di un test di Allocazione automat
 
 ## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
-Consultate le seguenti domande frequenti e risposte durante l&#39;utilizzo delle attività di [!UICONTROL Allocazione automatica]:
+Consulta le seguenti domande frequenti e risposte mentre lavori con le attività [!UICONTROL Allocazione automatica] :
 
-### Analytics for Target (A4T) supporta le attività di allocazione automatica?
+### Analytics for Adobe Target (A4T) supporta le attività di allocazione automatica?
 
-Sì. Per ulteriori informazioni, consultate [A4T support for Auto-Allocate and Auto-Target activity](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) (Supporto per l&#39;allocazione automatica e la destinazione automatica).
+Sì. Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ###  I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?
 
@@ -174,39 +174,39 @@ Attualmente, la logica favorisce i visitatori che si convertono rapidamente o ch
 
 ### Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?
 
-È possibile utilizzare la [calcolatrice delle dimensioni del campione ](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente per ottenere una stima del periodo di esecuzione del test. (Come per i test A/B tradizionali, applicate la correzione Bonferroni se state eseguendo il test su più offerte o più di una metrica/ipotesi di conversione.) Si noti che questo calcolatore è progettato per i test A/B tradizionali a orizzonte fisso e fornisce solo una stima. L&#39;utilizzo del calcolatore per un&#39;attività di allocazione automatica è facoltativo perché Auto-Allocate indicherà un vincitore. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo scoperto quanto segue:
-* Durante il test di due esperienze, Auto-Allocate trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l&#39;intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande, ma potrebbe essere necessario un tempo supplementare per identificare un vincitore quando la differenza di prestazioni tra le esperienze è ridotta. In questi casi, i test a orizzonte fisso sarebbero generalmente terminati senza un risultato statisticamente significativo.
-* Durante il test di più di due esperienze, Auto-Allocate rileva un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l&#39;intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza supera nettamente tutte le altre esperienze. Se due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre esperienze ma strettamente associate tra loro, l&#39;allocazione automatica potrebbe richiedere più tempo per determinare quale sia più efficace. In questi casi, i test a orizzonte fisso si sarebbero generalmente conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori delle esperienze con prestazioni inferiori, ma non hanno identificato quale fosse superiore.
+Puoi utilizzare il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente per stimare per quanto tempo verrà eseguito il test. (Come per il tradizionale test A/B, applica la correzione Bonferroni se stai testando più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per i tradizionali test A/B a orizzonte fisso e fornisce solo una stima. L’utilizzo del calcolatore per un’attività di allocazione automatica è facoltativo perché l’allocazione automatica dichiarerà un vincitore. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo trovato quanto segue:
+* Quando si sottopongono a test esattamente due esperienze, l’allocazione automatica trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l’intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande, ma potrebbe richiedere più tempo per identificare un vincitore quando la differenza di prestazioni tra le esperienze è piccola. In questi casi, i test a orizzonte fisso sarebbero generalmente terminati senza un risultato statisticamente significativo.
+* Quando si sottopongono a test più di due esperienze, l’allocazione automatica trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l’intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza esegue con maggiore efficienza tutte le altre esperienze. Quando due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre esperienze ma strettamente associate tra loro, l’allocazione automatica potrebbe richiedere un tempo aggiuntivo per determinare quale sia superiore. In questi casi, i test a orizzonte fisso si sarebbero generalmente conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori delle esperienze con prestazioni peggiori, ma non hanno identificato quale fosse superiore.
 
-### È necessario rimuovere un&#39;esperienza meno performante da un&#39;attività di allocazione automatica per accelerare il processo di determinazione di un vincitore?
+### È necessario rimuovere un’esperienza insoddisfacente da un’attività di allocazione automatica per velocizzare il processo di determinazione di un vincitore?
 
-Non c&#39;è davvero motivo di rimuovere un&#39;esperienza meno performante. La funzione Auto-Allocate (Allocazione automatica) consente di distribuire automaticamente esperienze ad alte prestazioni con maggiore frequenza e di distribuire esperienze meno spesso con prestazioni ridotte. Lasciare un&#39;esperienza con prestazioni inferiori nell&#39;attività non influirà in modo significativo sulla velocità di determinazione del vincitore.
+Non c&#39;è alcun motivo per rimuovere un&#39;esperienza insoddisfacente. L’allocazione automatica distribuisce automaticamente esperienze con prestazioni elevate più spesso e fornisce invece esperienze con prestazioni meno frequenti. Lasciare un’esperienza insoddisfacente nell’attività non influisce in modo significativo sulla velocità per determinare un vincitore.
 
-Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. Il traffico servito a un&#39;esperienza con prestazioni inferiori è minimo (20% diviso per il numero di esperienze).
+Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperienze. La quantità di traffico destinata a un’esperienza con prestazioni inferiori è minima (20% diviso per il numero di esperienze).
 
-### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di allocazione automatica? {#change-metric}
+### Posso cambiare la metrica di obiettivo a metà strada attraverso un&#39;attività di allocazione automatica? {#change-metric}
 
-Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Sebbene sia possibile modificare la metrica di obiettivo durante un&#39;attività utilizzando l&#39;interfaccia utente [!DNL Target], è comunque necessario avviare sempre una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
+Non è consigliabile modificare la metrica obiettivo a metà strada all’interno di un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’ [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non forniamo alcuna garanzia su ciò che accade se modifichi la metrica dell’obiettivo in un’attività dopo l’esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL  Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
-### Posso utilizzare l&#39;opzione Ripristina dati rapporto durante l&#39;esecuzione di un&#39;attività di allocazione automatica?
+### È possibile utilizzare l’opzione Ripristina dati dei rapporti durante l’esecuzione di un’attività di allocazione automatica?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Allocazione automatica]. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Allocazione automatica]. Invece di utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Allocazione automatica], create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Target] e [!UICONTROL  Automated Personalization].
+Non è consigliato utilizzare l’opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Allocazione automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Allocazione automatica]. Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Allocazione automatica], crea una nuova attività e disattiva l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization].)
 
-### In che modo Auto-Allocate crea modelli in relazione agli ambienti?
+### Come vengono generati i modelli di allocazione automatica per quanto riguarda gli ambienti?
 
-[!UICONTROL Auto-] Allocatebuild modelli in base al comportamento di traffico e conversione registrato solo nell&#39;ambiente predefinito. Per impostazione predefinita, [!UICONTROL Production] è l&#39;ambiente predefinito, ma può essere modificato in Target [Administration > Environment](/help/administrating-target/environments.md).
+[!UICONTROL L’] allocazione automatica crea modelli in base al comportamento di traffico e conversione registrato solo nell’ambiente predefinito. Per impostazione predefinita, [!UICONTROL Produzione] è l&#39;ambiente predefinito, ma può essere modificato in Target [Amministrazione > Ambienti](/help/administrating-target/environments.md).
 
-Se si verifica un hit in un altro ambiente (non predefinito), il traffico verrà distribuito in base al comportamento di conversione osservato nell&#39;ambiente predefinito. Il risultato di tale hit (conversione o non conversione) verrà registrato a fini di reporting ma non verrà preso in considerazione nel modello [!UICONTROL Auto-Allocate].
+Se un hit si verifica in un altro ambiente (non predefinito), il traffico verrà distribuito in base al comportamento di conversione osservato nell’ambiente predefinito. Il risultato di tale hit (conversione o non conversione) verrà registrato a scopo di reporting ma non verrà preso in considerazione nel modello [!UICONTROL Allocazione automatica] .
 
-Quando si seleziona un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L&#39;ambiente selezionato predefinito per un report sarà sempre l&#39;impostazione predefinita a livello di account selezionata. L&#39;ambiente predefinito non può essere impostato per attività.
+Quando selezioni un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L’ambiente selezionato predefinito per un rapporto sarà sempre quello predefinito a livello di account selezionato. L’ambiente predefinito non può essere impostato per attività.
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Flusso di lavoro di un&#39;attività - Targeting (2:14)  ![Badge di esercitazione](/help/assets/tutorial.png)
+### Flusso di lavoro di un&#39;attività - Targeting (2:14)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare l&#39;allocazione del traffico.
 
@@ -217,7 +217,7 @@ Questo video include informazioni su come impostare l&#39;allocazione del traffi
 
 >[!VIDEO](https://video.tv.adobe.com/v/17385)
 
-### Creazione di test A/B (8:36) ![Logo esercitazione](/help/assets/tutorial.png)
+### Creazione di test A/B (8:36) ![Badge tutorial](/help/assets/tutorial.png)
 
 In questo video viene illustrato come creare un test A/A utilizzando il flusso di lavoro guidato in tre passaggi di Target. L’allocazione automatica del traffico è trattata a partire dal minuto 4:45.
 
