@@ -1,21 +1,21 @@
 ---
-keywords: personalizzazione automatizzata;offerte;target;audience;regole di targeting;targeting
-description: Scoprite come eseguire il targeting di singole offerte per audience specifiche utilizzando un'attività Automated Personalization (AP)  in  Adobe Target.
-title: Come Posso Eseguire Il Targeting  Offerte Automated Personalization?
-feature: Automated Personalization
+keywords: personalizzazione automatizzata;offerte;target;pubblico;regole di targeting;targeting
+description: Scopri come eseguire il targeting di singole offerte per tipi di pubblico specifici utilizzando un’attività Automated Personalization (AP) in Adobe Target.
+title: Come posso [!DNL Target] offrire Automated Personalization?
+feature: Personalizzazione automatizzata
 solution: Target,Analytics
+exl-id: 633308dd-437b-4525-a7f8-69656c7d89be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '372'
 ht-degree: 87%
 
 ---
 
+# ![](/help/assets/premium.png) [!DNL Target] PREMIUMAofferte di personalizzazione automatizzata
 
-# ![PREMIUM](/help/assets/premium.png) Targeting delle offerte di Personalizzazione automatizzata{#target-automated-personalization-offers}
-
-In un&#39;attività [!DNL Adobe Target] [!DNL Automated Personalization] (AP), potete eseguire il targeting delle offerte per audience specifiche.
+In un’attività [!DNL Adobe Target] [!DNL Automated Personalization] (AP), puoi indirizzare le offerte a tipi di pubblico specifici.
 
 Questa funzionalità riduce il numero di offerte per le quali un dato visitatore risulta idoneo (qualificato). Ad esempio, considera un’attività di Personalizzazione automatizzata con tre offerte. L’offerta 1 ha una regola di targeting che ne limita l’esposizione al solo Pubblico A. Due visitatori hanno visto questa attività.
 
