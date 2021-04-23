@@ -1,19 +1,19 @@
 ---
-keywords: sfarfallio;at.js;implementazione;asincrono;asincrono;sincrono;sincrono
-description: Scoprite come at.js e  Adobe Target impediscono lo sfarfallio (il contenuto predefinito viene visualizzato momentaneamente prima di essere sostituito dal contenuto dell'attività) durante il caricamento della pagina o dell'app.
-title: In che modo at.js Manage Flicker?
+keywords: visualizzazione momentanea di altri contenuti;at.js;implementazione;asincrona;asincrona;sincrona;sincrono
+description: Scopri in che modo at.js e Adobe [!DNL Target] impediscono la visualizzazione momentanea di altri contenuti (il contenuto predefinito viene momentaneamente visualizzato prima di essere sostituito dal contenuto dell’attività) durante il caricamento della pagina o dell’app.
+title: In che modo at.js gestisce lo sfarfallio?
 feature: at.js
 role: Developer
+exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '668'
 ht-degree: 76%
 
 ---
 
-
-# Gestione at.js della visualizzazione momentanea di altri contenuti{#how-at-js-manages-flicker}
+# Gestione at.js della visualizzazione momentanea di altri contenuti
 
 Informazioni su come la libreria JavaScript at.js di Target impedisce la visualizzazione momentanea di altri contenuti durante il caricamento della pagina o dell’app.
 
@@ -27,7 +27,7 @@ Se si abilita l&#39;impostazione, quando si configura at.js, at.js imposta l&#39
 
 L&#39;opzione opacità impostata su 0 mantiene il contenuto della pagina nascosto per impedire la visualizzazione momentanea di altri contenuti, ma il browser esegue ancora il rendering della pagina e carica tutte le risorse necessarie come CSS, immagini e così via.
 
-Se l&#39;opacità 0 non funziona nell&#39;implementazione, puoi anche gestire la visualizzazione momentanea di altri contenuti personalizzando `bodyHiddenStyle` e impostarlo su `body {visibility:hidden !important}`. È possibile utilizzare il corpo del valore `{opacity:0 !important}` o `body {visibility:hidden !important}`, a seconda di quale funzioni meglio per la circostanza specifica.
+Se l&#39;opacità 0 non funziona nell&#39;implementazione, puoi anche gestire la visualizzazione momentanea di altri contenuti personalizzando `bodyHiddenStyle` e impostarlo su `body {visibility:hidden !important}`. Puoi utilizzare entrambi i valori body `{opacity:0 !important}` o `body {visibility:hidden !important}`, a seconda di quale sia il migliore per il tuo caso.
 
 La figura seguente mostra le chiamate per Nascondi corpo e Mostra corpo, sia in at.js 1.*x* che in at.js 2.x.
 
@@ -47,9 +47,9 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 È possibile evitare questo fenomeno utilizzando uno snippet per nascondere le pagine che sarà visibile dopo che avrà personalizzato gli elementi HTML rilevanti [!DNL Target].
 
-at.js può essere caricato in modo asincrono, direttamente incorporato nella pagina o tramite un gestore di tag ( Adobe Launch, Dynamic Tag Manager (DTM), ecc.).
+at.js può essere caricato in modo asincrono, direttamente incorporato nella pagina o tramite un gestore di tag (ad Adobe Launch, Dynamic Tag Manager (DTM), ecc.).
 
-Se at.js è incorporato nella pagina, lo snippet deve essere aggiunto prima di caricare at.js. Se caricate at.js tramite un gestore di tag, caricato anche in modo asincrono, dovete aggiungere lo snippet prima di caricare il gestore di tag. Se il gestore di tag viene caricato in modo sincrono, lo script potrebbe essere incluso nel gestore di tag prima di at.js.
+Se at.js è incorporato nella pagina, è necessario aggiungere lo snippet prima di caricare at.js. Se carichi at.js tramite un gestore di tag, caricato anche in modo asincrono, devi aggiungere lo snippet prima di caricare il gestore di tag. Se il gestore di tag viene caricato in modo sincrono, lo script potrebbe essere incluso nel gestore di tag prima di at.js.
 
 Lo snippet di codice per nascondere le pagine è il seguente:
 
@@ -107,11 +107,11 @@ Anziché il valore predefinito:
 body {opacity: 0 !important}
 ```
 
-## Gestisci lo sfarfallio in at.js 2.x per triggerView()
+## Gestione della visualizzazione momentanea di altri contenuti in at.js 2.x per triggerView()
 
 Quando si utilizza `triggerView()` per visualizzare contenuti mirati nell’applicazione a pagina singola, la gestione della visualizzazione momentanea di altri contenuti è preconfigurata. Questo significa che non è necessario aggiungere la logica preliminare manualmente. Al contrario, at.js 2.x nasconde preventivamente la posizione in cui la visualizzazione deve essere mostrata prima di applicare il contenuto mirato.
 
-## Gestire lo sfarfallio con getOffer() e applyOffer()
+## Gestisci la visualizzazione momentanea di altri contenuti con getOffer() e applyOffer()
 
 Poiché sia `getOffer()` che `applyOffer()` sono API di basso livello, non è incorporato alcun controllo sulla visualizzazione momentanea di altri contenuti. Puoi passare un selettore o un elemento HTML come opzione ad `applyOffer()`; in questo caso `applyOffer()` aggiunge il contenuto dell’attività a questo particolare elemento; tuttavia, è necessario assicurarsi che l’elemento sia correttamente nascosto prima di richiamare `getOffer()` e `applyOffer()`.
 
@@ -134,7 +134,7 @@ adobe.target.getOffer({
 });
 ```
 
-## Utilizzo di una mbox regionale con mboxCreate() in at.js 1.x (non supportata in at.js 2.x)
+## Utilizzo di una mbox regionale con mboxCreate() in at.js 1.x (non supportato in at.js 2.x)
 
 Se utilizzi un’implementazione di mbox regionale, utilizza `mboxCreate()` con il provisioning della pagina configurato in modo simile al seguente codice di esempio:
 
