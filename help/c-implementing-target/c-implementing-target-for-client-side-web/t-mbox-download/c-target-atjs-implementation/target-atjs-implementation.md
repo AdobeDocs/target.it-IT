@@ -1,17 +1,17 @@
 ---
 keywords: Target Standard;at.js;implementazione
-description: Scoprite come migrare ad at.js, la nuova libreria di implementazione per  Adobe Target progettata sia per le implementazioni Web tipiche che per le applicazioni a pagina singola (SPA).
+description: Scopri come migrare a at.js, la nuova libreria di implementazione per Adobe [!DNL Target] progettata sia per le tipiche implementazioni web che per le applicazioni a pagina singola (SPA).
 title: Come si effettua la migrazione da mbox.js a at.js?
 feature: at.js
 role: Developer
+exl-id: 1d95faeb-7caa-44d6-b637-a06db393e50e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 91%
 
 ---
-
 
 # Migrare da mbox.js a at.js
 
@@ -60,7 +60,7 @@ La libreria [!DNL at.js] offre diversi miglioramenti rispetto alla libreria [!DN
 
 * Funzioni progettate specificamente per applicazioni a pagina singola/framework MVC
 
-## Video di formazione: at. js - Vantaggi e best practice per l’implementazione  ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: at. js - Vantaggi e best practice per l’implementazione  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
