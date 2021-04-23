@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;origini di traffico;origini di traffico target;traffico da motore di ricerca;motore di ricerca;pagina di destinazione;pagina di destinazione di target;pagina di destinazione di riferimento
-description: Scopri come creare audience in  Adobe Target per eseguire il targeting dei visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al tuo sito.
-title: Posso eseguire il targeting dei visitatori in base al motore di ricerca o al sito di riferimento?
-feature: Audiences
+description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al tuo sito.
+title: Posso [!DNL Target] Visitatori in base al motore di ricerca o al sito di riferimento?
+feature: Tipi di pubblico
+exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '261'
-ht-degree: 85%
+source-wordcount: '260'
+ht-degree: 86%
 
 ---
 
-
-# Origini del traffico{#traffic-sources}
+# Origini del traffico
 
 Crea tipi di pubblico per indirizzare i visitatori in base al motore di ricerca o alla pagina di destinazione che li rimanda al sito.
 
@@ -43,7 +43,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
 
 Puoi rivolgerti agli utenti che arrivano al tuo sito da un motore di ricerca specifico o da una pagina di destinazione specifica.
 
-## Video di formazione: Creazione di tipi di pubblico  ![badge Panoramica](/help/assets/overview.png)
+## Video di formazione: Creazione di tipi di pubblico  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
