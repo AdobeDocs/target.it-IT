@@ -1,20 +1,20 @@
 ---
-keywords: criteri;algoritmo;settore verticale;tipo di pagina;chiave di raccomandazione;logica di raccomandazione;intervallo di dati;origine dati comportamento;progettazione parziale;raccomandazioni di backup;regole di inclusione;ponderazione attributo;categoria corrente;attributo personalizzato;ultimo elemento acquistato;ultimo elemento visualizzato;elemento visualizzato;elemento più visualizzato;categoria preferita;popolarità;ultimo elemento visualizzato;ultimo acquistato;ultimo visualizzato;più visualizzato;preferito;recentemente visualizzato
-description: Scoprite come creare criteri per il controllo del contenuto delle attività di Adobe Recommendations  per mostrare le raccomandazioni più appropriate per l'attività.
+keywords: criteri;algoritmo;settore verticale;tipo di pagina;chiave di consiglio;logica di consiglio;intervallo di dati;origine dati comportamento;progettazione parziale;consigli di backup;regole di inclusione;ponderazione attributi;categoria corrente;attributo personalizzato;ultimo articolo acquistato;ultimo articolo visualizzato;articolo più visualizzato;articolo più visualizzato;categoria preferita;popolarità;ultimo articolo visualizzato;ultimo articolo acquistato;ultimo visualizzato;più visualizzato;preferito;visualizzato di recente
+description: Scopri come creare criteri che controllano il contenuto delle attività di Adobe Recommendations per mostrare i consigli più appropriati per la tua attività.
 title: Come si creano i criteri in Recommendations?
-feature: Recommendations
+feature: Consigli
+exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2485'
+source-wordcount: '2486'
 ht-degree: 63%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Creare criteri
 
-# ![PREMIUM](/help/assets/premium.png) Creare criteri{#create-criteria}
-
-I criteri in [!UICONTROL  Adobe Target] [!UICONTROL Recommendations] controllano il contenuto delle attività [!UICONTROL Recommendations]. Crea dei criteri per visualizzare i consigli più appropriati per l’attività. Questi criteri utilizzano le azioni del visitatore per determinare il contenuto o i prodotti da visualizzare.
+I criteri in [!UICONTROL Adobe Target] [!UICONTROL Recommendations] controllano il contenuto delle attività [!UICONTROL Recommendations]. Crea dei criteri per visualizzare i consigli più appropriati per l’attività. Questi criteri utilizzano le azioni del visitatore per determinare quale contenuto o prodotto visualizzare.
 
 Nelle sezioni seguenti viene illustrato come creare un nuovo criterio.
 
@@ -22,19 +22,19 @@ Nelle sezioni seguenti viene illustrato come creare un nuovo criterio.
 
 Esistono diversi modi per raggiungere la schermata [!UICONTROL Crea nuovo criterio]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
-* Nella schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**, fate clic su **[!UICONTROL Create Criteria]** > **[!UICONTROL Create Criteria]** (Crea criteri). I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
-* Quando create un&#39;attività [!DNL Recommendations] utilizzando [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC), viene immediatamente visualizzata la schermata [!UICONTROL Select Criteria] (Seleziona criteri) dopo aver selezionato un elemento nella pagina e dopo aver fatto clic su [!UICONTROL Replace w/ Recommendations], [!UICONTROL Insert Recommendations Before] oppure [!UICONTROL Insert Recommendations]. Potete quindi selezionare un criterio disponibile oppure fare clic su **[!UICONTROL Crea criteri]**. Se create un nuovo criterio, potete salvare i criteri da usare con altre attività [!DNL Recommendations]. Per ulteriori informazioni, vedere [Creare un&#39;attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
-* Quando modifichi un’attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Posizione Consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fare clic su **[!UICONTROL Crea criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
+* Nella schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!DNL Recommendations].
+* Quando crei un&#39;attività [!DNL Recommendations] utilizzando il [!UICONTROL Compositore esperienza visivo] (VEC), vieni immediatamente portato alla schermata [!UICONTROL Seleziona criteri] dopo aver selezionato un elemento nella pagina e dopo aver fatto clic su [!UICONTROL Sostituisci con Recommendations], [!UICONTROL Inserisci Recommendations prima], o [!UICONTROL Recommendations Inserisci]. Puoi quindi selezionare un criterio disponibile oppure fare clic su **[!UICONTROL Crea criterio]**. Se crei un nuovo criterio, puoi salvare i criteri da utilizzare per altre attività [!DNL Recommendations]. Per ulteriori informazioni, consulta [Creare un’attività Recommendations](/help/c-recommendations/t-create-recs-activity/create-recs-activity.md).
+* Quando modifichi un’attività di [!DNL Recommendations], fai clic su una casella di [!UICONTROL Posizione Consigli] nella pagina e seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!DNL Recommendations].
 
-Nella procedura seguente si presuppone che si possa accedere alla schermata [!UICONTROL Crea nuovi criteri] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+I passaggi seguenti presuppongono l&#39;accesso alla schermata [!UICONTROL Crea nuovo criterio] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** .
 
-1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
 
-1. Fare clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**.
+1. Fai clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**.
 
    ![Creare nuovi criteri](/help/c-recommendations/c-algorithms/assets/CreateNewCriteria_full-new.png)
 
-1. Configurate le informazioni nelle sezioni seguenti.
+1. Configura le informazioni nelle sezioni seguenti.
 
 ## Informazioni di base {#info}
 
@@ -50,9 +50,9 @@ Nella procedura seguente si presuppone che si possa accedere alla schermata [!UI
 
 1. Inserisci una breve **[!UICONTROL descrizione]** dei criteri.
 
-   La descrizione dovrebbe facilitare l&#39;identificazione dei criteri e potrebbe includere informazioni sullo scopo dei criteri.
+   La descrizione dovrebbe aiutarti a identificare i criteri e potrebbe includere informazioni sullo scopo dei criteri.
 
-1. Selezionate un settore verticale in base agli obiettivi dell&#39;attività delle raccomandazioni.
+1. Seleziona un settore verticale in base agli obiettivi dell’attività di consigli.
 
    | Settore verticale | Obiettivo |
    |--- |--- |
@@ -78,13 +78,13 @@ Nella procedura seguente si presuppone che si possa accedere alla schermata [!UI
 
    >[!NOTE]
    >
-   >Se si seleziona **[!UICONTROL Elementi]**/ **[!UICONTROL File multimediali con attributi simili]**, sarà possibile impostare le regole per la similarità dei contenuti [.](#similarity)
+   >Se selezioni **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]**, avrai la possibilità di impostare [regole di somiglianza del contenuto](#similarity).
 
 ## Origine dati {#data-source}
 
 1. Imposta l’**[!UICONTROL Intervallo di dati]** per determinare l’intervallo di tempo dei dati cronologici disponibili sul comportamento dell’utente da utilizzare per determinare quali consigli visualizzare.
 
-   ![Cursore intervallo dati](/help/c-recommendations/c-algorithms/assets/data-range.png)
+   ![Cursore della gamma di dati](/help/c-recommendations/c-algorithms/assets/data-range.png)
 
    Se il sito genera molto traffico e i comportamenti si modificano spesso, scegli una finestra dati più breve. Una finestra più breve consente a [!DNL Recommendations] di essere più reattivo alle modifiche all’interno del mercato e della tua attività. Ad esempio, una finestra più breve implica che [!DNL Recommendations] rileverà le modifiche nel comportamento dei visitatori quando questi iniziano lo shopping stagionale, ad esempio quello natalizio o per il rientro a scuola, raccomandando gli articoli appropriati.
 
@@ -98,47 +98,47 @@ Nella procedura seguente si presuppone che si possa accedere alla schermata [!UI
    * Un mese
    * Due mesi
 
-1. (Condizionale) Selezionare l&#39; **[!UICONTROL Origine dati comportamentale]** desiderata: [!UICONTROL mbox] o [!UICONTROL Analytics].
+1. (Condizionale) Seleziona la **[!UICONTROL Origine dati comportamentali]** desiderata: [!UICONTROL mbox] o [!UICONTROL Analytics].
 
    >[!NOTE]
    >
-   >La sezione [!UICONTROL Origine dati comportamentale] viene visualizzata solo se l&#39;implementazione utilizza [Analytics per Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
+   >La sezione [!UICONTROL Origine dati comportamentali] viene visualizzata solo se l&#39;implementazione utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 
-   ![Sezione Origine dati comportamentale](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
+   ![Sezione Origine dati comportamentali](/help/c-recommendations/c-algorithms/assets/behavioural-data-source.png)
 
    Se si sceglie [!UICONTROL Analytics], selezionare la suite di rapporti desiderata.
 
-   Se i criteri utilizzano [!DNL Adobe Analytics] come origine dati comportamentale, una volta creata, l&#39;ora di disponibilità dei criteri dipende dal fatto che la suite di rapporti selezionata e la finestra di lookback siano state utilizzate per qualsiasi altro criterio, come illustrato di seguito:
+   Se i criteri utilizzano [!DNL Adobe Analytics] come origine dei dati comportamentali, una volta creati, il tempo per la disponibilità dei criteri dipende dal fatto che la suite di rapporti e l’intervallo di lookback selezionati siano stati utilizzati o meno per altri criteri, come illustrato di seguito:
 
    * **Configurazione una tantum della suite di rapporti**: la prima volta che una suite di rapporti viene utilizzata con una specifica finestra di lookback dei dati, [!DNL Target Recommendations] può richiedere da due a sette giorni per scaricare completamente i dati comportamentali della suite di rapporti selezionata da [!DNL Analytics]. Questo intervallo di tempo dipende dal carico del sistema [!DNL Analytics].
    * **Criteri nuovi o modificati che utilizzano una suite di rapporti già disponibile**: se crei un nuovo criterio o ne modifichi uno esistente e la suite di rapporti selezionata è già utilizzata per [!DNL Target Recommendations] con un intervallo di dati uguale o inferiore a quello selezionato, i dati diventano subito disponibili e non è richiesta alcuna configurazione una tantum. In questo caso, oppure se le impostazioni di un algoritmo vengono modificate senza che si modifichi la suite di rapporti o l’intervallo di dati selezionato, l’algoritmo viene eseguito o rieseguito entro 12 ore.
    * **Viene eseguito un algoritmo continuo**: i dati scorrono da [!DNL Analytics] a [!DNL Target Recommendations] su base giornaliera. Ad esempio, per un consiglio di tipo [!UICONTROL Affinità per articoli visualizzati], quando un utente visualizza un prodotto, a [!DNL Analytics] viene trasmessa una chiamata di tracciamento per visualizzazione prodotto quasi in tempo reale. I dati [!DNL Analytics] vengono inviati a [!DNL Target] all’inizio del giorno successivo e [!DNL Target] esegue l’algoritmo in meno di 12 ore.
 
-   Per ulteriori informazioni, vedere [Utilizzare  Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+   Per ulteriori informazioni, consulta [Utilizzare Adobe Analytics con Target Recommendations](/help/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 ## Contenuto {#content}
 
-Le regole di contenuto determinano cosa accade se il numero di elementi raccomandati non corrisponde alla [progettazione delle raccomandazioni](/help/c-recommendations/c-design-overview/design-overview.md). È possibile che i criteri [!DNL Recommendations] restituiscano un numero inferiore di raccomandazioni rispetto alle richieste di progettazione. Ad esempio, se la progettazione include slot per quattro elementi, ma i criteri consigliano solo due elementi, potete lasciare vuoti gli slot rimanenti o utilizzare le raccomandazioni di backup per riempire gli slot aggiuntivi.
+Le regole di contenuto determinano cosa succede se il numero di elementi consigliati non corrisponde alla [progettazione di consigli](/help/c-recommendations/c-design-overview/design-overview.md). È possibile che i criteri [!DNL Recommendations] restituiscano un numero inferiore di consigli rispetto alle richieste di progettazione. Ad esempio, se la progettazione dispone di slot per quattro elementi, ma i criteri determinano solo due elementi da consigliare, puoi lasciare vuoti gli slot rimanenti o utilizzare i consigli di backup per riempirli.
 
 ![Sezione Contenuto](/help/c-recommendations/c-algorithms/assets/content.png)
 
-1. (Facoltativo) Fate scorrere l&#39;opzione **[!UICONTROL Rendering progettazione parziale]** per passare alla posizione &quot;on&quot;.
+1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Rendering progettazione parziale]** in posizione &quot;on&quot;.
 
-   Verranno compilati tutti gli slot possibili, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti. Se questa opzione è disabilitata e il contenuto non è sufficiente per popolare tutti gli slot disponibili, le raccomandazioni non vengono servite e viene invece visualizzato il contenuto predefinito.
+   Il maggior numero possibile di slot verrà riempito, ma il modello di progettazione potrebbe includere spazio vuoto per gli slot rimanenti. Se questa opzione è disabilitata e il contenuto non è sufficiente per popolare tutti gli slot disponibili, i consigli non vengono serviti e viene invece visualizzato il contenuto predefinito.
 
-   Abilitate questa opzione se desiderate che le raccomandazioni siano servite con slot vuoti. Utilizzate le raccomandazioni di backup se desiderate che gli slot delle raccomandazioni siano compilati con contenuto in base ai criteri specificati, con slot vuoti riempiti con contenuto simile o popolare dal sito, come spiegato nel passaggio successivo.
+   Abilita questa opzione se desideri che i consigli siano serviti con slot vuoti. Utilizza i consigli di backup se desideri che gli slot per consigli siano riempiti con contenuto in base ai criteri con slot vuoti riempiti con contenuti simili o popolari dal sito, come spiegato nel passaggio successivo.
 
-1. (Facoltativo) Fate scorrere l&#39;interruttore **[!UICONTROL Mostra Recommendations di backup]** nella posizione &quot;on&quot;.
+1. (Facoltativo) Far scorrere l&#39;interruttore **[!UICONTROL Mostra Recommendations di backup]** in posizione &quot;on&quot;.
 
-   Riempite tutti gli slot vuoti rimanenti nel progetto con una selezione casuale di prodotti più visualizzati da tutto il sito.
+   Riempire gli slot vuoti rimanenti nel progetto con una selezione casuale dei prodotti più visualizzati da tutto il sito.
 
-   L&#39;utilizzo delle raccomandazioni di backup garantisce che la progettazione delle raccomandazioni occupi tutti gli slot disponibili. Supponete di avere una progettazione 4 x 1, come illustrato di seguito:
+   L’utilizzo dei consigli di backup garantisce che la progettazione dei consigli riempia tutti gli slot disponibili. Supponiamo di avere un design 4 x 1, come illustrato di seguito:
 
    ![Design 4 x 1](/help/c-recommendations/c-design-overview/assets/velocity_example.png)
 
-   Supponiamo che i criteri in uso comportino la raccomandazione di due soli elementi. Se attivate l&#39;opzione [!UICONTROL Rendering progettazione parziale], i primi due slot vengono riempiti, ma i due slot rimanenti rimangono vuoti. Tuttavia, se si abilita l&#39;opzione [!UICONTROL Mostra Recommendations di backup], i primi due slot vengono compilati in base ai criteri specificati e i due slot rimanenti vengono compilati in base alle raccomandazioni di backup.
+   Supponiamo che i criteri facciano sì che vengano consigliati solo due elementi. Se abiliti l&#39;opzione [!UICONTROL Rendering progettazione parziale], i primi due slot vengono riempiti, ma i due rimanenti rimangono vuoti. Tuttavia, se si abilita l&#39;opzione [!UICONTROL Mostra Recommendations di backup], i primi due slot vengono riempiti in base ai criteri specificati e i due slot rimanenti vengono riempiti in base ai consigli di backup.
 
-   La seguente matrice mostra il risultato che osserverete quando utilizzate le opzioni [!UICONTROL Design Rendering parziale] e [!UICONTROL Backup Recommendations]:
+   La seguente matrice mostra il risultato che osserverai quando utilizzi le opzioni [!UICONTROL Rendering progettazione parziale] e [!UICONTROL Recommendations di backup] :
 
    | Rendering parziale della progettazione | Consigli di backup | Risultato |
    |--- |--- |--- |
@@ -147,17 +147,17 @@ Le regole di contenuto determinano cosa accade se il numero di elementi raccoman
    | Abilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione ai consigli di backup limita il numero di quelle qualificate al punto che la progettazione non può essere riempita, la progettazione viene parzialmente sottoposta a rendering.<br>Se i criteri non restituiscono alcun consiglio e le regole di inclusione limitano i consigli di backup a zero, la progettazione viene sostituita con il contenuto predefinito. |
    | Disabilitato | Abilitato | I consigli di backup riempiranno le “posizioni” disponibili della progettazione, eseguendone il rendering completo.<br>Se l&#39;applicazione di regole di inclusione limita il numero di consigli di backup qualificate al punto che la progettazione non può essere riempita, la progettazione viene sostituita dal contenuto predefinito e non vengono visualizzati consigli. |
 
-   Per ulteriori informazioni, vedere [Utilizzare una raccomandazione di backup](/help/c-recommendations/c-algorithms/backup-recs.md).
+   Per ulteriori informazioni, consulta [Utilizzare un consiglio di backup](/help/c-recommendations/c-algorithms/backup-recs.md).
 
-1. (Condizionale) Se avete selezionato **[!UICONTROL Mostra Recommendations di backup]** nel passaggio precedente, potete abilitare **[!UICONTROL Applica regole di inclusione alle raccomandazioni di backup]**.
+1. (Condizionale) Se hai selezionato **[!UICONTROL Mostra Recommendations di backup]** nel passaggio precedente, puoi abilitare **[!UICONTROL Applica regole di inclusione ai consigli di backup]**.
 
-   Le regole di inclusione determinano quali elementi vengono inclusi nelle raccomandazioni. Le opzioni disponibili dipendono dal tuo settore verticale.
+   Le regole di inclusione determinano quali elementi vengono inclusi nei consigli. Le opzioni disponibili dipendono dal tuo settore verticale.
 
-   Per ulteriori dettagli consulta  [Specificate le ](#inclusion) regole di inclusione riportate di seguito.
+   Per ulteriori dettagli consulta  [Specifica le ](#inclusion) regole di inclusione riportate di seguito.
 
-1. (Facoltativo) Fate scorrere l&#39;opzione **[!UICONTROL Consiglia elementi precedentemente acquistati]** per passare alla posizione &quot;on&quot;.
+1. (Facoltativo) Fai scorrere l&#39;interruttore **[!UICONTROL Consiglia articoli acquistati in precedenza]** nella posizione &quot;on&quot;.
 
-   Questa impostazione è basata su `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendete gli articoli che le persone tornano ad acquistare nuovamente su base ripetuta, come shampoo o altri articoli personali, dovreste abilitare questa opzione.
+   Questa impostazione è basata su `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi oggetti che le persone ritornano per acquistare di nuovo su base ripetuta, come shampoo o altri oggetti personali, devi abilitare questa opzione.
 
 ## Somiglianza del contenuto {#similarity}
 
@@ -165,7 +165,7 @@ Utilizza le regole di [!UICONTROL somiglianza del contenuto] per formulare consi
 
 >[!NOTE]
 >
->Se avete selezionato **[!UICONTROL Elementi]**/ **[!UICONTROL File multimediali con attributi simili]** come [logica della raccomandazione](#info), avrete la possibilità di impostare regole per la similarità dei contenuti.
+>Se hai selezionato **[!UICONTROL Articoli]**/ **[!UICONTROL Media con attributi simili]** come [logica per i consigli](#info), avrai la possibilità di impostare regole per la similarità dei contenuti.
 
 Le regole di somiglianza del contenuto confrontano le parole chiave dell&#39;attributo dell&#39;elemento e formulano consigli basati su quante parole chiave hanno in comune diversi elementi. I consigli basati sulla somiglianza del contenuto non richiedono dati precedenti per fornire risultati significativi.
 
@@ -181,7 +181,7 @@ Per impostazione predefinita, tutti gli attributi sono impostati su *Riferimento
 
 >[!NOTE]
 >
->L&#39;algoritmo di similarità del contenuto potrebbe utilizzare il campionamento casuale nel calcolo della similarità tra gli elementi. Di conseguenza, le valutazioni delle similarità tra gli elementi potrebbero variare a seconda dell&#39;esecuzione dell&#39;algoritmo.
+>L’algoritmo di somiglianza del contenuto può utilizzare il campionamento casuale nel calcolo della somiglianza tra gli elementi. Di conseguenza, le valutazioni di similarità tra gli elementi potrebbero variare tra le esecuzioni degli algoritmi.
 
 ## Regole di inclusione {#inclusion}
 
@@ -221,11 +221,11 @@ Per creare una semplice regola di inclusione, come accennato in precedenza, per 
    >
    >Questa opzione limita gli elementi visualizzati nel consiglio. Non interessa le pagine in cui viene visualizzato il consiglio. Per limitare le posizioni di visualizzazione per il consiglio, seleziona le pagine in Compositore esperienza.
 
-Per ulteriori informazioni, vedere [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
+Per ulteriori informazioni, consulta [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md).
 
 ## Ponderazione degli attributi  {#weighting}
 
-Potete aggiungere più regole per &quot;indirizzare&quot; l’algoritmo in base a informazioni importanti o metadati relativi al catalogo dei contenuti, in modo che alcuni elementi possano essere visualizzati con maggiore probabilità.
+Puoi aggiungere più regole per &quot;spostare&quot; l’algoritmo in base a informazioni importanti o metadati sul catalogo dei contenuti, in modo che alcuni elementi abbiano più probabilità di essere visualizzati.
 
 Ad esempio, è possibile applicare una ponderazione più elevata agli articoli in vendita in modo che vengano visualizzati più spesso nei consigli. Gli articoli non in offerta non vengono esclusi del tutto, ma sono visualizzati con minore frequenza. È possibile applicare più attributi di ponderazione allo stesso algoritmo, e sottoporli a test con traffico suddiviso nel consiglio.
 
@@ -237,7 +237,7 @@ Ad esempio, è possibile applicare una ponderazione più elevata agli articoli i
 
 1. Inserisci la parola chiave per completare gli attributi della regola.
 
-   Ad esempio, la regola completa potrebbe essere &quot;Category contains substring shoes&quot; (Categoria contiene le sottostringhe).
+   Ad esempio, la regola completa potrebbe essere &quot;Categoria contiene scarpe sottostringhe&quot;.
 
    ![](assets/Recs_AttributeWeighting.png)
 
@@ -251,7 +251,7 @@ Al termine, fai clic su **[!UICONTROL Salva]**.
 
 Se stai creando una nuova attività di [!UICONTROL Consigli] o ne stai modificando una esistente, per impostazione predefinita viene selezionata la casella di controllo **[!UICONTROL Salva criteri per un&#39;altra volta]**. Se non desideri utilizzare i criteri in altre attività, deseleziona la casella di controllo prima di salvarla.
 
-## Video di formazione: Creare criteri in Recommendations (12:33) ![Logo esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare criteri in Recommendations (12:33) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
