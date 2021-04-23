@@ -1,18 +1,18 @@
 ---
 keywords: Targeting;categorie di targeting;condizioni di targeting;Audience Manager;parametri di profilo personalizzati;profilo visitatore;parametri utente personalizzati;regole di targeting
-description: Scopri come utilizzare le categorie (come Browser, Geo, Rete, Sistema operativo, Profilo visitatore) per eseguire il targeting del contenuto.
-title: Quali sono le categorie per il pubblico?
-feature: Audiences
+description: Scopri come utilizzare le categorie (come Browser, Geo, Network, Operating System, Visitor Profile) per eseguire il targeting del contenuto.
+title: Quali sono le categorie di pubblico?
+feature: Tipi di pubblico
+exl-id: 37d6435d-4139-47c5-a871-6595e089d052
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '381'
 ht-degree: 92%
 
 ---
 
-
-# Categorie di pubblico{#categories-for-audiences}
+# Categorie di pubblico
 
 Puoi eseguire il targeting per varie categorie. Ogni categoria funziona come una scheda che consente di creare regole di targeting (o gruppi) per ogni categoria.
 
@@ -28,7 +28,7 @@ Utilizza la casella di ricerca per cercare nellʼelenco [!UICONTROL Tipi di pubb
 
 Puoi ordinare lʼelenco Tipi di pubblico in base al nome o alla data dellʼultima modifica. Per ordinare in base al nome o alla data, fai clic sull’intestazione di colonna, quindi seleziona la visualizzazione dei tipi di pubblico in ordine crescente o decrescente.
 
-## Video di formazione: Creazione di audience ![Logo di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creazione di tipi di pubblico ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene informazioni sull&#39;utilizzo delle categorie di pubblico.
 
