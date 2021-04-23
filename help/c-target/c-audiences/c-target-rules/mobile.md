@@ -1,18 +1,18 @@
 ---
 keywords: targeting;dispositivi mobili;target dispositivi mobili;deviceatlas;iphone;modelli di iphone;device atlas;displaywidth;larghezza display;altezza display;tipo di dispositivo;displayheight;telefono;tablet;modello di dispositivo
-description: Scoprite come creare audience in  Adobe Target per dispositivi mobili basati su parametri quali dispositivo mobile, tipo di dispositivo, fornitore del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
-title: Posso eseguire il targeting dei visitatori in base alle opzioni per dispositivi mobili?
-feature: Audiences
+description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
+title: Posso [!DNL Target] Visitatori in base alle opzioni mobile?
+feature: Tipi di pubblico
+exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '610'
+source-wordcount: '609'
 ht-degree: 93%
 
 ---
 
-
-# Dispositivi mobili{#mobile}
+# Dispositivi mobili
 
 Crea dei tipi di pubblico per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
 
