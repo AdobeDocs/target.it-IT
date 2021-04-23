@@ -1,29 +1,29 @@
 ---
-keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Per  Adobe Target? Inizia subito con il kit di benvenuto  Adobe Target.
-title: Come si inizia a utilizzare Target
-feature: Overview
+keywords: kit di benvenuto;kit di benvenuto target;introduzione;introduzione;guida introduttiva
+description: Ti avvicini ora ad Adobe Target? Inizia subito con l'Adobe [!DNL Target] Kit di benvenuto.
+title: Come iniziare a utilizzare Target
+feature: Panoramica
+exl-id: bb2cc1ca-8be7-425c-b551-59084b6416c3
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '93'
-ht-degree: 0%
+source-wordcount: '92'
+ht-degree: 1%
 
 ---
 
+# Adobe [!DNL Target] kit di benvenuto
 
-#  Adobe Target welcome kit
-
-Benvenuti in  Adobe Target.
+Benvenuto in Adobe Target.
 
 Questo kit di benvenuto contiene i seguenti capitoli:
 
 * [Capitolo 1: Introduzione](/help/c-intro/target-welcome-kit-1.md)
-* [Capitolo 2:  Adobe Target](/help/c-intro/target-welcome-kit-2.md)
-* [Capitolo 3: Sviluppare idee di test e personalizzazione](/help/c-intro/target-welcome-kit-3.md)
-* [Capitolo 4: Suggerimenti per l&#39;utilizzo di Target](/help/c-intro/target-welcome-kit-4.md)
+* [Capitolo 2: Adobe Target a colpo d&#39;occhio](/help/c-intro/target-welcome-kit-2.md)
+* [Capitolo 3: Sviluppa i test e le idee di personalizzazione](/help/c-intro/target-welcome-kit-3.md)
+* [Capitolo 4: Suggerimenti per l’utilizzo di Target](/help/c-intro/target-welcome-kit-4.md)
 * [Capitolo 5: Ispirazione per attività di test e personalizzazione](/help/c-intro/target-welcome-kit-5.md)
-* [Capitolo 6: Possibilità di evitare facilmente le insidie](/help/c-intro/target-welcome-kit-6.md)
-* [Capitolo 7: Creazione ed esecuzione della prima attività Target](/help/c-intro/target-welcome-kit-7.md)
-* [Capitolo 8: Comunicare i risultati dell&#39;attività](/help/c-intro/target-welcome-kit-8.md)
-* [Capitolo 9: Passaggi successivi e risorse](/help/c-intro/target-welcome-kit-9.md)
+* [Capitolo 6: Problemi facilmente evitabili](/help/c-intro/target-welcome-kit-6.md)
+* [Capitolo 7: Creare ed eseguire la prima attività Target](/help/c-intro/target-welcome-kit-7.md)
+* [Capitolo 8: Comunicazione dei risultati dell’attività](/help/c-intro/target-welcome-kit-8.md)
+* [Capitolo 9: Passaggi e risorse successivi](/help/c-intro/target-welcome-kit-9.md)
