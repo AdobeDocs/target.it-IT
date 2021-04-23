@@ -1,20 +1,20 @@
 ---
-keywords: sequenza di criteri;criteri multipli;algoritmi;criteri;criteri di raccomandazione;sequenza;numero limite di elementi restituiti;controllo del livello di slot;slot
-description: Scoprite come impostare sequenze con un massimo di cinque criteri per esercitare un maggiore controllo sugli elementi visualizzati nelle attività di Adobe Target Recommendations .
-title: Come si creano le sequenze di criteri in Recommendations?
-feature: Recommendations
+keywords: sequenza di criteri;criteri multipli;algoritmi;criteri;criteri di consigli;sequenza;numero limite di elementi restituiti;controllo a livello di slot;slot
+description: Scopri come impostare sequenze di criteri fino a cinque per esercitare un maggiore controllo sugli elementi che compaiono nelle attività Adobe [!DNL Target] Recommendations.
+title: Come si creano sequenze di criteri in Recommendations?
+feature: Consigli
+exl-id: 5366c86c-7685-478b-a621-9b3f24296ab7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '834'
 ht-degree: 34%
 
 ---
 
-
 # ![PREMIUM](/help/assets/premium.png) Creare sequenze di criteri
 
-Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli. ] È inoltre possibile limitare il numero di elementi restituiti (talvolta denominati &quot;controllo del livello degli slot&quot;).
+Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercitare un maggiore controllo sugli elementi da visualizzare nelle attività [!UICONTROL Consigli. ] È inoltre possibile limitare il numero di elementi restituiti (talvolta denominati &quot;controllo a livello di slot&quot;).
 
 >[!NOTE]
 >
@@ -22,64 +22,64 @@ Utilizza le sequenze di criteri (fino a cinque criteri per sequenza) per esercit
 
 Per creare una sequenza di criteri, è necessario innanzitutto creare i criteri da includere nella sequenza. Consulta [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) per ulteriori informazioni.
 
-Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mirati, anziché utilizzare consigli di backup più generici, quando un criterio non fornisce abbastanza risultati per completare il progetto. In genere, una sequenza di criteri passa da un targeting più specifico, che potrebbe restituire meno risultati, a un targeting più generale, che in genere restituisce più risultati.
+Utilizzando una sequenza di criteri, è possibile fornire ulteriori consigli mirati, anziché utilizzare consigli di backup più generici, quando un criterio non fornisce abbastanza risultati per completare il progetto. In genere, una sequenza di criteri procede da un targeting più specifico, che potrebbe restituire meno risultati, a un targeting più generale, che in genere restituisce più risultati.
 
 Le sequenze di criteri possono variare in base al tipo di pagina, come illustrato negli esempi seguenti:
 
-| Tipo pagina | Possibile ordine di sequenza |
+| Tipo di pagina | Ordine sequenziale possibile |
 | --- | --- |
-| Pagina prodotto | <ol><li>In base all&#39;articolo corrente, della stessa marca</li><li>In base all&#39;articolo corrente, di tutte le marche</li><li>In base a somiglianza del contenuto</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
+| Pagina di prodotto | <ol><li>In base all&#39;articolo corrente, della stessa marca</li><li>In base all&#39;articolo corrente, di tutte le marche</li><li>In base a somiglianza del contenuto</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
 | Home page | <ol><li>In base all’ultimo acquisto del visitatore </li><li>In base all’articolo preferito del visitatore</li><li>In base alla categoria preferita del visitatore</li><li>In base agli articoli più venduti</li><li>In base agli articoli più visualizzati di tutto il sito</li></ol> |
 
 ## Creare una sequenza di criteri
 
-Le sequenze di criteri vengono create dalla schermata [!UICONTROL Crea sequenza di criteri].
+Puoi creare sequenze di criteri dalla schermata [!UICONTROL Crea sequenza criteri] .
 
 Esistono diversi modi per arrivare alla schermata [!UICONTROL Crea sequenza criteri]. Alcune opzioni dipendono dal modo in cui si raggiunge la schermata.
 
 * Su **[!UICONTROL Consigli]** > **[!UICONTROL Criteri]**, fai clic su **[!UICONTROL Crea criterio]** > **[!UICONTROL Crea sequenza criteri]**. I criteri creati vengono automaticamente resi disponibili per tutte le attività di [!UICONTROL Consigli].
-* Quando si crea un&#39;attività [!UICONTROL Recommendations], nella schermata Select Criteria (Seleziona criteri) fare clic su **[!UICONTROL Create New]** > **[!UICONTROL Create Criteria Sequence]** (Crea sequenza criteri). Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
-* Quando si modifica un&#39;attività [!UICONTROL Recommendations], fare clic in una casella [!UICONTROL Recommendations Location] sulla pagina, quindi selezionare **[!UICONTROL Change Criteria]** (Modifica criteri). Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
+* Quando crei un&#39;attività [!UICONTROL Recommendations], dalla schermata Seleziona criteri fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Potrai salvare la nuova sequenza di criteri da utilizzare con altre attività di [!UICONTROL Consigli].
+* Quando modifichi un&#39;attività [!UICONTROL Recommendations], fai clic in una casella [!UICONTROL Posizione Recommendations] sulla pagina, quindi seleziona **[!UICONTROL Cambia criteri]**. Nella schermata [!UICONTROL Seleziona criteri], fai clic su **[!UICONTROL Crea nuovo]** > **[!UICONTROL Crea sequenza criteri]**. Sarà possibile salvare i nuovi criteri da utilizzare per altre attività di [!UICONTROL Consigli].
 
-La procedura seguente presuppone che si possa accedere alla schermata [!UICONTROL Crea sequenza criteri] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+I passaggi seguenti presuppongono l&#39;accesso alla schermata [!UICONTROL Crea sequenza criteri] utilizzando il primo metodo: la schermata della libreria **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]** .
 
-1. Fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteria]**.
+1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
 
-1. Fare clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza criteri]**.
+1. Fai clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea sequenza criteri]**.
 
    ![](assets/CreateCriteriaSequence.png)
 
-1. Compila le informazioni nella sezione [Informazioni di base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
+1. Compila le informazioni nella sezione [Informazioni di base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info) .
 
-1. Nella sezione **[!UICONTROL Sequenza criteri]**, fare clic su **[!UICONTROL Aggiungi criteri]**.
+1. Nella sezione **[!UICONTROL Sequenza criteri]**, fai clic su **[!UICONTROL Aggiungi criteri]**.
 
-   L’ordine di sequenza definisce l’ordine in cui la progettazione viene riempita. Se i criteri 1 non dispongono di un numero sufficiente di raccomandazioni per completare la progettazione, gli slot rimanenti verranno compilati con i criteri 2 e così via.
+   L&#39;ordine di sequenza definisce l&#39;ordine in cui una progettazione viene riempita. Se i consigli per i criteri 1 non sono sufficienti per completare la progettazione, gli slot rimanenti verranno riempiti con i criteri 2 e così via.
 
    ![Aggiungi criteri](/help/c-recommendations/c-algorithms/assets/add-criteria.png)
 
-1. Nella schermata [!UICONTROL Seleziona criteri], selezionare un criterio, quindi fare clic su **[!UICONTROL Aggiungi]**.
+1. Nella schermata [!UICONTROL Seleziona criteri], seleziona un criterio, quindi fai clic su **[!UICONTROL Aggiungi]**.
 
-   Potete usare la casella di ricerca e i menu a discesa dei filtri per individuare i criteri desiderati.
+   Puoi utilizzare la casella Ricerca e i menu a discesa del filtro per trovare i criteri desiderati.
 
    ![Selezionare criteri](/help/c-recommendations/c-algorithms/assets/select-criteria.png)
 
-1. (Facoltativo) Fare scorrere il simbolo **[!UICONTROL Limitare il numero di elementi restituiti]** per passare alla posizione &quot;on&quot;, quindi specificare il numero di elementi (tra 1 e 50).
+1. (Facoltativo) Fare scorrere il percorso **[!UICONTROL Limita il numero di elementi restituiti]** in posizione &quot;on&quot;, quindi specificare il numero di elementi (tra 1 e 50).
 
    ![Limita il numero di elementi restituiti](/help/c-recommendations/c-algorithms/assets/limit-number.png)
 
-   Per comprendere meglio il valore dell&#39;opzione [!UICONTROL Limita il numero di elementi restituiti] (talvolta denominata &quot;controllo del livello di slot&quot;), prendere in considerazione i seguenti casi di utilizzo:
+   Per comprendere meglio il valore dell&#39;opzione [!UICONTROL Limita il numero di elementi restituiti] (talvolta denominata &quot;controllo del livello di slot&quot;), considera i seguenti casi d&#39;uso:
 
-   * **Caso d’uso 1**: Desiderate disporre di diversi tipi di elementi in un unico vassoio delle raccomandazioni. Ad esempio, si desidera mostrare un mix di abbigliamento (giacca) e top (camicie, T-shirt). A tal fine, utilizzate una raccolta per l&#39;attività che include tutti i potenziali tipi di prodotti che desiderate in qualsiasi slot del vostro progetto. Quindi, impostate il primo criterio con un filtro statico che limiti i criteri in modo che includano solo l&#39;uso esterno e il secondo criterio con un filtro statico che limiti i criteri in modo da includere solo i piani. Infine, aggiungete entrambi i criteri a una sequenza di criteri e limitate i primi criteri a 2 slot.
+   * **Caso d&#39;uso 1**: Desideri disporre di un insieme di diversi tipi di elementi in un&#39;unica barra delle raccomandazioni. Ad esempio, si desidera mostrare un mix di abbigliamento (giacche) e top (camicie, T-shirt). A questo scopo, utilizza una raccolta per l’attività che include tutti i potenziali tipi di prodotto desiderati in qualsiasi slot del progetto. Quindi, imposta il tuo primo criterio con un filtro statico che limita i criteri per includere solo l&#39;usura esterna e imposta il tuo secondo criterio con un filtro statico che limita i criteri a includere solo i piani. Infine, aggiungi entrambi i criteri a una sequenza di criteri e limita i primi criteri a 2 slot.
 
-      Il vassoio delle raccomandazioni potrebbe essere simile al seguente sul sito:
+      L&#39;area delle raccomandazioni potrebbe avere l&#39;aspetto seguente sul sito:
 
       ![Vassoio delle raccomandazioni per i prodotti](/help/c-recommendations/c-algorithms/assets/featured-products.png)
 
-   * **Caso d’uso 2**: Desiderate un mix di articoli alternativi e complementari. Impostate un criterio per utilizzare un algoritmo visualizzato/visualizzato e utilizzate un filtro dinamico che limiti gli elementi raccomandati alla categoria dell&#39;elemento corrente. Impostate il secondo criterio per utilizzare un algoritmo visualizzato/acquistato e utilizzate un filtro dinamico che includa solo gli elementi consigliati che non corrispondono alla categoria dell&#39;elemento corrente. Infine, aggiungete entrambi i criteri a una sequenza e limitate i primi criteri a 2 slot.
+   * **Caso d&#39;uso 2**: Vuoi un mix di articoli alternativi e complementari. Imposta un criterio per utilizzare un algoritmo visualizzato/visualizzato e utilizza un filtro dinamico che limiti gli elementi consigliati alla categoria dell’elemento corrente. Imposta il secondo criterio per utilizzare un algoritmo visualizzato/acquistato e utilizza un filtro dinamico che include solo gli elementi consigliati che non corrispondono alla categoria dell’elemento corrente. Infine, aggiungi entrambi i criteri a una sequenza e limita i primi criteri a 2 slot.
 
-1. Continuate ad aggiungere altri criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
+1. Continua ad aggiungere altri criteri alla sequenza. È possibile aggiungere fino a cinque criteri a una sequenza.
 
-1. Abilitare le opzioni [Contenuto backup](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
+1. Abilita le opzioni [Contenuto di backup](/help/c-recommendations/c-algorithms/create-new-algorithm.md#content).
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
@@ -87,7 +87,7 @@ La procedura seguente presuppone che si possa accedere alla schermata [!UICONTRO
 
    Per ulteriori informazioni sulle opzioni di logica per i consigli, consulta [Criteri](/help/c-recommendations/c-algorithms/algorithms.md).
 
-## Video di formazione: Creare i criteri in Recommendations (12:33)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Creare i criteri in Recommendations (12:33)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
