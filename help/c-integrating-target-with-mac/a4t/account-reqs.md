@@ -1,17 +1,17 @@
 ---
 keywords: Analytics come origine per la generazione di rapporti;a4t;A4T;requisiti
-description: Scopri come configurare i requisiti dell’account utente necessari per creare un’attività basata su Adobe Analytics in Adobe Target utilizzando Analytics for Target (A4T).
+description: Scopri come configurare i requisiti dell’account utente necessari per creare un’attività basata su Adobe Analytics in Adobe [!DNL Target] using Analytics for [!DNL Target] (A4T).
 title: Quali requisiti di autorizzazione utente sono necessari per A4T?
 feature: Analytics for Target (A4T)
 solution: Target,Analytics
+exl-id: f56fc525-92da-4814-86c1-18b3a2765f37
 translation-type: tm+mt
-source-git-commit: a4f67638c00f571565d548afb9c10026c232dfd5
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '307'
 ht-degree: 36%
 
 ---
-
 
 # Requisiti delle autorizzazioni utente
 
@@ -49,13 +49,13 @@ Per utilizzare A4T in una determinata suite di rapporti, devi disporre dell’ac
 
    L’illustrazione seguente è un esempio di un profilo di prodotto con accesso a tutte le suite di rapporti:
 
-   ![Scheda Autorizzazioni di Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
+   ![Scheda Autorizzazione Admin Console](/help/c-integrating-target-with-mac/a4t/assets/permissions-tab.png)
 
 1. Configura l&#39;accesso al gruppo [!UICONTROL Accesso ai servizi Web].
 
    Per poter utilizzare [!DNL Analytics] come origine per la generazione di rapporti, è necessario accedere al gruppo [!UICONTROL Accesso ai servizi Web] in [!DNL Analytics].[!DNL Target]
 
 
-## Adobe Target {#section_26BA212D8D40443E9EE2AB327091425C}
+## Adobe [!DNL Target] {#section_26BA212D8D40443E9EE2AB327091425C}
 
 Non sono necessari privilegi aggiuntivi.
