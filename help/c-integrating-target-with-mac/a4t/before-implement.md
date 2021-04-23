@@ -1,18 +1,18 @@
 ---
 keywords: Consigli
-description: Scopri i requisiti di implementazione per Analytics for Target (A4T) e cosa considerare prima di implementare questa integrazione.
+description: Scopri i requisiti di implementazione per Analytics for [!DNL Target] (A4T) e cosa considerare prima di implementare questa integrazione.
 title: Cosa Devo Sapere Prima Di Implementare A4T?
 feature: Analytics for Target (A4T)
+exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '884'
+source-wordcount: '883'
 ht-degree: 34%
 
 ---
 
-
-# Prima dell’implementazione{#before-you-implement}
+# Prima dell’implementazione
 
 Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
@@ -22,7 +22,7 @@ Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguent
 
 >[!IMPORTANT]
 >
->Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’account per l’integrazione. Utilizza il [modulo di provisioning integrazioni Marketing Cloud](https://www.adobe.com/go/audiences) per richiedere il provisioning.
+>Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’account per l’integrazione. Utilizza il [modulo di provisioning integrazioni di Marketing Cloud](https://www.adobe.com/go/audiences) per richiedere il provisioning.
 
 Questa integrazione A4T richiede l’implementazione delle seguenti versioni della libreria (o più recenti), a seconda che si desideri utilizzare o meno le offerte di reindirizzamento con A4T:
 
@@ -84,7 +84,7 @@ In alcuni casi potrebbe essere utile avere maggiore controllo su quando e come i
 
 ## Pubblico condiviso
 
-Durante la compilazione del [modulo di provisioning delle integrazioni Marketing Cloud](https://www.adobe.com/go/audiences), tieni presente le seguenti informazioni importanti relative all&#39;opzione [!UICONTROL Pubblico condiviso] elencata in &quot;[!UICONTROL Per quali funzionalità stai richiedendo il provisioning]?&quot;
+Durante la compilazione del [modulo di provisioning integrazioni di Marketing Cloud](https://www.adobe.com/go/audiences), tieni presente le seguenti informazioni importanti relative all&#39;opzione [!UICONTROL Pubblico condiviso] elencata in &quot;[!UICONTROL Per quali funzionalità stai richiedendo il provisioning]?&quot;
 
 ![Modulo di richiesta](/help/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
