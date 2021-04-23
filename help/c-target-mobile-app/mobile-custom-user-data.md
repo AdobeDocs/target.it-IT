@@ -1,19 +1,19 @@
 ---
 keywords: app mobile;inviare dati app mobile;app mobile target;dati personalizzati utente mobile;app mobile;dati personalizzati app mobile
-description: Scoprite come inviare ulteriori informazioni sulla posizione o sull'utente per  Adobe Target come coppie nome-valore per facilitare la creazione di audience personalizzate.
-title: Come posso inviare dati utente personalizzati in un'app iOS?
-feature: Implement Mobile
+description: Scopri come inviare informazioni aggiuntive sulla posizione o sull’utente a coppie Adobe [!DNL Target] come nome-valore per facilitare la creazione di tipi di pubblico personalizzati.
+title: Come posso inviare dati utente personalizzati in un’app iOS?
+feature: Implementare Mobile
 role: Developer
+exl-id: c64219ec-8d60-4d05-b2b8-103e8ffcaefc
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
-ht-degree: 90%
+source-wordcount: '354'
+ht-degree: 89%
 
 ---
 
-
-# iOS - Inviare dati utente personalizzati{#ios-send-custom-user-data}
+# iOS - Inviare dati utente personalizzati
 
 Puoi inviare a Target informazioni aggiuntive sulla posizione o sull’utente, sotto forma di coppie nome-valore.
 
