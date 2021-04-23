@@ -1,22 +1,22 @@
 ---
 keywords: affinità;affinità tra categorie
-description: Scoprite l'affinità di categoria in  Adobe Target che acquisisce automaticamente le categorie visitate da un utente e quindi calcola l'affinità dell'utente per la categoria in modo che possa essere mirata e segmentata.
-title: Cos'è l'affinità della categoria?
-feature: Audiences
+description: Scopri l’affinità tra categorie in Adobe [!DNL Target] che acquisisce automaticamente le categorie visitate da un utente e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere indirizzata e segmentata.
+title: Cos’È L’Affinità Tra Categorie?
+feature: Tipi di pubblico
+exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '811'
 ht-degree: 94%
 
 ---
 
-
-# Affinità tra categorie{#category-affinity}
+# Affinità tra categorie
 
 La funzionalità di affinità di categoria acquisisce automaticamente le categorie che un utente visita e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere usata come destinazione e applicata ai segmenti. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata.
 
-## Passaggio di informazioni sull’affinità tra categorie in Target {#section_B0C8E46EEBAC4549AD90352A47787D04}
+## Passaggio di informazioni sull’affinità tra categorie in [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
 Ogni volta che un utente visita il tuo sito, i parametri di profilo specifici per tale visitatore vengono registrati nel database di [!DNL Target]. Questi dati sono associati al cookie dell’utente. Un parametro particolarmente utile è `user.categoryId`, un parametro mbox assegnato a una pagina di prodotto. Quando il visitatore continua a navigare, o torna per un’altra sessione, è possibile registrare le categorie di prodotti che l’utente visualizza. È inoltre possibile registrare le informazioni di categoria trasmettendole con il parametro mbox `user.categoryId` in qualsiasi mbox (compresa una mbox nidificata), come il parametro URL `user.categoryId` oppure come parametri di pagina Target con una mbox globale. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 
