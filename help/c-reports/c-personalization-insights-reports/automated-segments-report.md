@@ -1,24 +1,24 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
-description: Scopri in che modo diversi segmenti definiti  modelli di personalizzazione Adobe Target rispondono alle offerte/esperienze nell'attività visualizzando il rapporto Segmenti automatizzati.
-title: Che cos'è il report Segmenti automatizzati?
-feature: Reports
+description: Scopri in che modo diversi segmenti definiti dai modelli di personalizzazione Adobe [!DNL Target] rispondono alle offerte/esperienze nell’attività visualizzando il rapporto Segmenti automatizzati .
+title: Cos’è il rapporto Segmenti automatizzati?
+feature: Rapporti
+exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2125'
 ht-degree: 92%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Rapporto Segmenti automatizzati{#automated-segments-report}
+# ![PREMIUM](/help/assets/premium.png) Rapporto Segmenti automatizzati
 
 Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
 
 >[!NOTE]
 >
->Quando usi i rapporti Personalization Insights, prendi in considerazione quanto segue:
+>Quando utilizzi i rapporti Approfondimenti personalizzazione , considera quanto segue:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
    >
@@ -26,26 +26,26 @@ Informazioni sul rapporto Segmenti automatizzati, uno dei due rapporti specializ
 * [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
    >
    >
-* [!UICONTROL I rapporti ] Insightsreport sulla personalizzazione sono disponibili solo se gli  [!UICONTROL obiettivi ] primari selezionati dall&#39;elenco a discesa  [!UICONTROL Metricia ] report.
+* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono disponibili solo se l’ [!UICONTROL obiettivo primario ] è selezionato dall’elenco a discesa  [!UICONTROL Metrica ] rapporto .
    >
    >
 * I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
    >
    >
-* [!UICONTROL I rapporti ] Insightsreporting sulla personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
+* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
 
 
 I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
 ## Accedere al rapporto Segmenti automatizzati {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Fare clic su **[!UICONTROL Activities]**, quindi fare clic sull&#39;attività [ Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
+1. Fai clic su **[!UICONTROL Attività]**, quindi fai clic sull&#39;attività [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
 
-   Se si dispone di numerose attività, è possibile filtrare l&#39;elenco selezionando le opzioni tra [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine report], [!UICONTROL Experience Composer], [!UICONTROL Tipo metriche], e gli elenchi a discesa [!UICONTROL Origine attività].
+   Se hai numerose attività, puoi filtrare l’elenco selezionando le opzioni da [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metriche], elenchi a discesa e [!UICONTROL Origine attività] .
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   Viene visualizzato il report [ Automated Personalization Summary](/help/c-reports/reports-ap.md) o [Auto-Target Summary](/help/c-reports/auto-target-summary-report.md), che fornisce informazioni sulle prestazioni delle attività, rappresentato dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
+   Viene visualizzato il rapporto [Riepilogo Automated Personalization](/help/c-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/c-reports/auto-target-summary-report.md) , che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
 
    ![](assets/personalization_insights.png)
 
