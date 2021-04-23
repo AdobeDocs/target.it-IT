@@ -1,22 +1,22 @@
 ---
-keywords: Targeting;analytics;tracking server;analytics for target;a4t
-description: Scoprite come configurare un'attività in  Adobe Target per utilizzare  Adobe Analytics come origine di reporting. Questa integrazione è denominata Analytics for Target (A4T).
+keywords: Targeting;analytics;server di tracciamento;analytics for target;a4t
+description: Scopri come configurare un’attività in Adobe [!DNL Target] to use Adobe Analytics as the reporting source. This integration is called Analytics for [!DNL Target] (A4T).
 title: Come posso utilizzare i dati di Analytics in Target?
 feature: Analytics for Target (A4T)
+exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '554'
-ht-degree: 85%
+source-wordcount: '543'
+ht-degree: 88%
 
 ---
 
-
 # Utilizzo dei dati di Analytics
 
-Potete configurare un&#39;attività in [!DNL Adobe Target] per utilizzare [!DNL Adobe Analytics] come origine di reporting (A4T).
+Puoi configurare un’attività in [!DNL Adobe Target] per utilizzare [!DNL Adobe Analytics] come origine per la generazione di rapporti (A4T).
 
-Per informazioni dettagliate sulla configurazione di Analytics come origine dati per Target, vedete [ Adobe Analytics come origine di reporting per  Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
+Per informazioni dettagliate sulla configurazione di Analytics come origine dati per Target, consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target](/help/c-integrating-target-with-mac/a4t/a4t.md).
 
 Prima di impostare un’attività che utilizza Analytics come origine per la generazione di rapporti, stabilisci l’obiettivo dell’attività, ad esempio il miglioramento dei ricavi per visitatore (RPV) o l’aumento dei clic sul carrello acquisti. Scegli una metrica finale di successo per la campagna. Anche se in Analytics puoi selezionare metriche aggiuntive in qualsiasi momento, è comunque necessario indicare una metrica specifica che si prevede verrà interessata dal test.
 
