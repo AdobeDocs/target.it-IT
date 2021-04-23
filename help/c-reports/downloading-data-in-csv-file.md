@@ -1,18 +1,18 @@
 ---
 keywords: rapporti;scaricare rapporti;CSV;metriche di successo;dettagli ordine
-description: Scopri come scaricare dati da  attività Adobe Target in formato CVS per importare rapidamente dati in Excel, Access o altri programmi di analisi dei dati.
+description: Scopri come scaricare dati da attività Adobe [!DNL Target] in formato CVS per l’importazione rapida in Excel, Access o altri programmi di analisi dei dati.
 title: Come Posso Scaricare I Dati Dei Rapporti In Un File CSV?
-feature: Reports
+feature: Rapporti
+exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '686'
 ht-degree: 82%
 
 ---
 
-
-# Download di dati in un file CSV{#downloading-data-in-a-csv-file}
+# Download di dati in un file CSV
 
 Come scaricare i dati in un formato .csv da importare rapidamente in Excel, Access o altri programmi di analisi dei dati.
 
@@ -25,7 +25,7 @@ Per scaricare i dati in un file CSV:
 1. Fai clic sulla scheda **[!UICONTROL Rapporti]**.
 1. Fai clic sull’icona **[!UICONTROL Scarica]**, quindi seleziona un tipo di rapporto da scaricare per l’analisi in Excel e altri strumenti.
 
-   * [!UICONTROL Esporta rapporti in CSV]
+   * [!UICONTROL Esportare rapporti in formato CSV]
    * [!UICONTROL Esportare i dettagli ordine in CSV]
 
    ![Opzioni di download](/help/c-reports/assets/download-options.png)
@@ -41,7 +41,7 @@ I dati vengono salvati fino alla fine dell’attività.
 
 >[!NOTE]
 >
->Il rapporto CSV include solo i dati non elaborati e non include metriche calcolate come le entrate per visitatore, l&#39;incremento o la confidenza utilizzate per i test A/B. Per calcolare queste metriche calcolate, scaricate il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività, oppure rivedete i [calcoli statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
+>Il rapporto CSV include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B. Per calcolare queste metriche calcolate, scarica il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività oppure controlla i calcoli [statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
 
 ## Esportare i dettagli ordine in CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
@@ -84,7 +84,7 @@ Il rapporto Dettagli ordine mostra informazioni sugli ordini, tra cui:
 
 Le informazioni seguenti si applicano all’opzione Scarica:
 
-* Potete scaricare entrambi i rapporti per Test A/B,  Automated Personalization, Targeting delle esperienze e attività multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
+* Puoi scaricare entrambi i rapporti per attività Test A/B, Automated Personalization, Targeting esperienza e multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
 * L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
 * I tipi di pubblico applicati nell’interfaccia utente di Target per la generazione di rapporti non vengono trasferiti al rapporto scaricato.
