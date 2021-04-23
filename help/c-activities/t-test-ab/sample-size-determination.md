@@ -1,16 +1,16 @@
 ---
 keywords: AB;A/B;AB..n;dimensioni campione;calcolatore dimensione campione;allocazione automatica;allocazione automatica;calcolatore
-description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di successo in Adobe Target richiede abbastanza visitatori (dimensioni del campione) per migliorare il tasso di conversione.
+description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di successo in Adobe [!DNL Target] richiede un numero sufficiente di visitatori (dimensioni del campione) per migliorare il tasso di conversione.
 title: Per quanto tempo devo eseguire un test A/B?
-feature: A/B Tests
+feature: Test A/B
+exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
 translation-type: tm+mt
-source-git-commit: 0ad04a5a0d5384d8f8323ef9c400ac44c47f4c01
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3063'
 ht-degree: 63%
 
 ---
-
 
 # Per quanto tempo si deve eseguire un test A/B?
 
@@ -38,7 +38,7 @@ Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Adobe 
 
 Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md).
 
-## Calcolatore delle dimensioni del campione di Adobe Target {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
+## Adobe [!DNL Target] Calcolatore delle dimensioni del campione {#section_6B8725BD704C4AFE939EF2A6B6E834E6}
 
 Se scegli di utilizzare un&#39;attività manuale [!UICONTROL Test A/B] invece di [!UICONTROL Allocazione automatica], il calcolatore delle dimensioni del campione [!DNL Target] ti aiuta a determinare la dimensione del campione necessaria per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi il calcolatore è utile. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Allocazione automatica] è facoltativo perché [!UICONTROL Allocazione automatica] dichiara un vincitore. Il calcolatore fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
@@ -159,7 +159,7 @@ In generale, l’utilizzo di RPV come metrica richiede il 20-30% di tempo in pi�
 
 Ogni volta che confronti due offerte, la possibilità di ottenere un falso positivo (osservando una differenza statisticamente significativa anche quando non c’è alcuna differenza nel tasso di conversione) è pari al livello di significatività. Ad esempio, in presenza di cinque offerte, A/B/C/D/E, dove A è l’offerta di controllo, vengono effettuati quattro confronti (tra il controllo e B, tra il controllo e C, tra il controllo e D e tra il controllo ed E), e la probabilità di un falso positivo è pari al 18,5% anche quando il livello di affidabilità è del 95%, in quanto Pr (almeno un falso positivo) = 1 - Pr (nessun falso positivo) = 1 - 0,95= 18,5%. Un falso positivo è definito in questo contesto come l’indicazione che il controllo è migliore dell’alternativa, o viceversa, quando in realtà non c’è differenza tra i due.
 
-## Conclusione  {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
+## Conclusione {#section_AEA2427B90AE4E9395C7FF4F9C5CA066}
 
 Utilizzando un&#39;attività [!UICONTROL Allocazione automatica], [!DNL Target] identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere. [!UICONTROL L’allocazione automatica semplifica il raggiungimento degli obiettivi di conversione eliminando le supposizioni.]
 
