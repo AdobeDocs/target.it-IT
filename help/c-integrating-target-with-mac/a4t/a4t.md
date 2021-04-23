@@ -1,18 +1,18 @@
 ---
 keywords: a4t;Analytics;analytics for target;Analytics come origine per la generazione di rapporti;Adobe Analytics come origine di reporting per Target
-description: Utilizza Analytics for Target (A4T) per creare attività basate su metriche di conversione e segmenti di pubblico di Analytics e utilizza i rapporti di Analytics per esaminare i risultati.
-title: Cos’è Analytics for Target (A4T)?
+description: Utilizza Analytics for [!DNL Target] (A4T) per creare attività basate su metriche di conversione e segmenti di pubblico di Analytics e utilizza i rapporti di Analytics per esaminare i risultati.
+title: Cos’è Analytics for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
+exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
 workflow-type: tm+mt
-source-wordcount: '1269'
-ht-degree: 40%
+source-wordcount: '1268'
+ht-degree: 39%
 
 ---
 
-
-# Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)
+# Adobe Analytics come origine per la generazione di rapporti, ad Adobe [!DNL Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) è un’integrazione tra più soluzioni che consente di creare attività basate su metriche di  [!DNL Analytics] conversione e segmenti di pubblico. L’integrazione A4T consente di utilizzare i rapporti [!DNL Analytics] per esaminare i risultati. Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano sulla raccolta dati [!DNL Analytics].
 
@@ -24,13 +24,13 @@ I tre vantaggi principali dell’utilizzo dei dati [!DNL Analytics] in [!DNL Tar
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo [!DNL Analytics] o i segmenti di reporting ai rapporti di attività [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Un’unica fonte di dati elimina la varianza che si verifica quando si raccolgono dati in due sistemi distinti.
-* L&#39;implementazione [!DNL Analytics] esistente raccoglie tutti i dati richiesti. Non è necessario implementare mbox sulle pagine al solo scopo di raccogliere dati per i rapporti. Adobe consiglia ancora di implementare una mbox di conferma dell&#39;ordine per le attività [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+* L&#39;implementazione [!DNL Analytics] esistente raccoglie tutti i dati richiesti. Non è necessario implementare mbox sulle pagine al solo scopo di raccogliere dati per i rapporti. Adobe consiglia ancora di implementare una mbox di conferma dell&#39;ordine per le attività [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 >[!IMPORTANT]
 >
 >Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’integrazione per il tuo account. Utilizza [questo modulo](https://www.adobe.com/go/audiences) per richiedere il provisioning.
 >
->L’integrazione che abilita [!DNL Analytics] come origine dati per [!DNL Target] (A4T) rappresenta la prossima generazione del plug-in Test&amp;Target per SiteCatalyst. Questo plug-in è stato dichiarato obsoleto, ma rimane supportato per i clienti che già lo utilizzano.
+>L’integrazione che abilita [!DNL Analytics] come origine dati per [!DNL Target] (A4T) rappresenta la nuova generazione del plug-in Test&amp;Target per il SiteCatalyst. Questo plug-in è stato dichiarato obsoleto, ma rimane supportato per i clienti che già lo utilizzano.
 
 Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano su [!DNL Analytics].
 
@@ -74,7 +74,7 @@ La tabella seguente mostra quali tipi di attività supportano [!DNL Analytics] c
 | Integrazione del servizio Cloud di AEM 6.2 (o successiva) | Sì | Per ulteriori informazioni, consulta [Integrazione con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) nella documentazione [!DNL Adobe Experience Manager] 6.2 . |
 | Qualsiasi attività utilizzando un’offerta di reindirizzamento | Sì | Ci sono requisiti minimi più severi per le offerte di reindirizzamento con A4T. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
 | Node.JS | Sì | Per ulteriori informazioni, consulta [SDK di Node.js](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) nella guida *SDK di Adobe Target* . |
-| SDK per Java | Sì | Per ulteriori informazioni, consulta [SDK Java](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) nella guida *Adobe Target* SDK. |
+| SDK per Java | Sì | Per ulteriori informazioni, consulta [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) nella guida *Adobe Target* SDK. |
 
 Poiché tutti i tipi di attività non supportano ancora A4T, è consigliabile mantenere o implementare importanti mbox di conversione, ad esempio la mbox `orderConfirmPage` .
 
@@ -110,7 +110,7 @@ Apri [Analytics &amp; Target: Esercitazione sulle best practice per l&#39;analis
 
 I video seguenti contengono ulteriori informazioni sui concetti discussi in questo argomento.
 
-### Analytics for Target (A4T) (4:32) ![Badge panoramica](/help/assets/overview.png)
+### Analytics for Adobe Target (A4T) (4:32) ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare [!DNL Analytics] come origine per la generazione di rapporti in [!DNL Target] per eseguire l&#39;analisi del programma di ottimizzazione.
 
@@ -120,7 +120,7 @@ Questo video spiega come utilizzare [!DNL Analytics] come origine per la generaz
 
 >[!VIDEO](https://video.tv.adobe.com/v/17384)
 
-### Integrazione di Analytics/Target (A4T) (40:33) ![Badge tutorial](/help/assets/tutorial.png)
+### Integrazione di Analytics/Adobe Target (A4T) (40:33) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7)”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
