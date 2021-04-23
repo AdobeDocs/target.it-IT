@@ -1,17 +1,17 @@
 ---
 keywords: mboxDefine;mboxdefine;definizione mbox;mboxUpdate;mboxupdate;aggiornamento mbox;at.js;funzioni;funzione
-description: Utilizzate le funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript di Adobe Target at.js  per definire o aggiornare una mbox. (at.js 1.x)
+description: Utilizza le funzioni mboxDefine() e mboxUpdate() per la libreria JavaScript Adobe [!DNL Target] at.js per definire o aggiornare una mbox. (at.js 1.x)
 title: Come si utilizzano le funzioni mboxDefine() e mboxUpdate()?
 feature: at.js
 role: Developer
+exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '197'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
-
 
 # mboxDefine() e mboxUpdate() - at.js 1.x
 
