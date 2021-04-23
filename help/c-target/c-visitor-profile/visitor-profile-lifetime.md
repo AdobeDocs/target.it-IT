@@ -1,18 +1,18 @@
 ---
 keywords: Panoramica e riferimento
-description: Scopri di più sulla scadenza (per impostazione predefinita, 14 giorni) di un profilo visitatore in  Adobe Target. La durata del profilo può essere estesa contattando  Client Care di Adobe.
-title: Qual è la durata del profilo del visitatore e posso estenderla?
-feature: Audiences
+description: Ulteriori informazioni sulla scadenza di un profilo visitatore (per impostazione predefinita, 14 giorni) in Adobe Target. La durata del profilo può essere estesa contattando l’Assistenza clienti di Adobe.
+title: Qual è la durata del profilo del visitatore e posso estenderlo?
+feature: Tipi di pubblico
+exl-id: 70cb5e3b-ed6d-450d-8c6e-f1bfe8d26e54
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '334'
+source-wordcount: '335'
 ht-degree: 73%
 
 ---
 
-
-# Durata del profilo del visitatore{#visitor-profile-lifetime}
+# Durata del profilo del visitatore
 
 Per impostazione predefinita, un profilo visitatore scade dopo 14 giorni di inattività del visitatore. La durata del profilo può essere estesa.
 
@@ -27,4 +27,4 @@ La libreria JavaScript di [!DNL Target] in uso ([!DNL at.js] o [!DNL mbox.js]) d
 
 La data di scadenza non viene reimpostata per i profili esistenti. Se un visitatore precedente non torna per 15 giorni, il suo profilo scade. Se un visitatore precedente torna prima della scadenza originale del profilo, il profilo viene reimpostato sulla durata estesa. Tutti i nuovi profili dei visitatori sono impostati sulla durata di profilo estesa.
 
-Nello scenario seguente, si supponga che uno o entrambi i siti siano implementati con mbox.js, che richiede un aggiornamento del codice dopo l&#39;aggiornamento del profilo. Se entrambi i siti si trovano sotto un unico codice client e un visitatore visita entrambi i siti, il profilo è impostato sulla durata dei profili in qualsiasi sito sia stato visitato per ultimo. Ad esempio, se la durata del profilo del sito 1 è di 84 giorni e quella del sito 2 è di 14 giorni, e un visitatore visita prima il sito 1 e poi il sito 2, il suo profilo scadrà dopo 14 giorni. Se il visitatore visita prima il sito 2 e poi il sito 1, il profilo scade dopo 84 giorni.
+Nel seguente scenario, si supponga che uno o entrambi i siti siano implementati con mbox.js, che richiede un aggiornamento del codice dopo l’aggiornamento del profilo. Se entrambi i siti si trovano in un unico codice cliente e un visitatore visita entrambi i siti, il profilo è impostato sulla durata dei profili in qualsiasi sito sia stato visitato per ultimo. Ad esempio, se la durata del profilo del sito 1 è di 84 giorni e quella del sito 2 è di 14 giorni, e un visitatore visita prima il sito 1 e poi il sito 2, il suo profilo scadrà dopo 14 giorni. Se il visitatore visita prima il sito 2 e poi il sito 1, il profilo scade dopo 84 giorni.
