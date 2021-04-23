@@ -1,20 +1,20 @@
 ---
 keywords: Targeting esperienza;XT;metriche;impostazione metriche;metrica obiettivo;impostazioni attività;metrica di successo;conversione;entrate;ricavi;coinvolgimento
-description: Scoprite come specificare le metriche in un'attività di targeting delle esperienze di Adobe Target  per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Partecipazione.
-title: Come si impostano le metriche degli obiettivi in un'attività di targeting delle esperienze?
-feature: Experience Targeting
+description: Scopri come specificare le metriche in un’attività Adobe [!DNL Target] Targeting esperienza per determinare quando una visita ha esito positivo, ad esempio Conversione, Entrate e Coinvolgimento.
+title: Come si impostano le metriche degli obiettivi in un’attività di targeting delle esperienze?
+feature: Targeting esperienza
+exl-id: 16249930-8b9c-441c-bd14-5f32332556d2
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '354'
 ht-degree: 83%
 
 ---
 
+# Impostare le metriche nelle attività Targeting esperienza (XT)
 
-# Impostare le metriche nelle attività Experience Targeting (XT)
-
-Utilizzate le metriche in un&#39;attività [!DNL Adobe Target] [!UICONTROL Experience Targeting] (XT) per determinare quando una visita ha esito positivo.
+Utilizza le metriche in un’attività di [!DNL Adobe Target] [!UICONTROL Targeting esperienza] (XT) per determinare quando una visita ha esito positivo.
 
 Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di successo](/help/c-activities/r-success-metrics/success-metrics.md#reference_D011575C85DA48E989A244593D9B9924).
 
@@ -53,7 +53,7 @@ Per informazioni dettagliate sulle metriche di successo, consulta [Metriche di s
    | `-` | Meno |
    | `@` | Chiocciola |
 
-## Video di formazione: metriche attività (7:43)  ![Badge di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: metriche attività (7:43)  ![Badge tutorial](/help/assets/tutorial.png)
 
 
 Questo video contiene informazioni su come utilizzare le metriche di successo.
