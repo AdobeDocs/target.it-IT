@@ -1,36 +1,36 @@
 ---
-keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Scopri gli errori commessi da altri utenti in modo da non creare gli stessi errori quando utilizzi  Adobe Target come parte della tua strategia di test e personalizzazione.
-title: Quali sono gli errori comuni nell'utilizzo di Target e come posso evitarli?
-feature: Overview
+keywords: kit di benvenuto;kit di benvenuto target;introduzione;introduzione;guida introduttiva
+description: Impara dagli errori degli altri in modo da non fare gli stessi quando utilizzi Adobe [!DNL Target] come parte della tua strategia di test e personalizzazione.
+title: Quali sono gli errori comuni quando si utilizza [!DNL Target] e come posso evitarli?
+feature: Panoramica
+exl-id: 17f379bd-81d7-4f4e-b08d-aee42fe5e81f
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '413'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
+# Capitolo 6: Problemi facilmente evitabili
 
-# Capitolo 6: Possibilità di evitare facilmente le insidie
-
-La cosa buona nell&#39;avviare il programma di ottimizzazione e personalizzazione ora è che le persone che lo hanno fatto per un po&#39; hanno già scoperto molti degli errori che sono facili da fare. Conoscendo queste insidie, è possibile facilmente evitarle o porvi rimedio.
+La cosa buona nell&#39;avviare il programma di ottimizzazione e personalizzazione ora è che le persone che lo stanno facendo da un po&#39; hanno già scoperto molti degli errori che sono facili da fare. Conoscendo queste insidie, è possibile facilmente evitarle o porvi rimedio.
 
 >[!NOTE]
 >
->Per informazioni dettagliate, vedere [Dieci comuni insidie di test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md). Oltre alle idee presentate in quell&#39;articolo, tenete questo breve elenco a portata di mano per evitare o correggere questi comuni errori di test e personalizzazione.
+>Per informazioni dettagliate, consulta [Dieci insidie frequenti per i test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md) . Oltre alle idee presentate in quell&#39;articolo, mantieni questo breve elenco a portata di mano per evitare o correggere queste comuni insidie di test e personalizzazione.
 
 | Insidia | Soluzione |
 | --- | --- |
-| Traffico insufficiente per raggiungere risultati statisticamente significativi. | Utilizzare  calcolatore delle dimensioni del campione Adobe Target [in anticipo](https://docs.adobe.com/content/target-microsite/testcalculator.html) per capire quanto deve durare l&#39;esecuzione del test, quindi eseguire il test per completare l&#39;operazione. |
-| Apportare una modifica troppo piccola o invisibile. | Apportare la modifica in modo sufficientemente sostanziale da renderla visibile a pochi metri dallo schermo. |
-| Mancata allineamento delle attività con gli obiettivi aziendali. | Concentrarsi maggiormente sulla metodologia di definizione delle priorità e comunicare tale metodologia alle parti interessate interne. |
-| Avere poco o niente backlog di test. | Coinvolgi gli interessati interni e consente loro di presentare test in linea con gli obiettivi aziendali chiave. |
-| Estensione dei lanci di attività con scadenze scadute | Migliorate la documentazione per le attività e includete dettagli specifici sulla configurazione del test. |
-| Selezione dei dati di metrica del successo dell&#39;attività che non aiutano nel processo decisionale. | Documentate tutte le metriche di test principali e includete metriche aggiuntive per ottenere informazioni aggiuntive. |
-| Modifiche durante il test che potrebbero influenzare i risultati. | Mantieni un calendario delle prossime promozioni e delle modifiche al sito. Comunicare chiaramente i lanci di attività [!DNL Target] per evitare conflitti. |
-| Modifica delle esperienze di test o dei criteri vicini a un lancio dell&#39;attività. | Richiedete l&#39;accesso da parte dei principali soggetti interessati all&#39;inizio del processo di attività di test. |
-| La conclusione di un&#39;attività prima dei risultati è statisticamente significativa. | Verificare la durata del test utilizzando il calcolatore delle dimensioni del Adobe di  [](https://docs.adobe.com/content/target-microsite/testcalculator.html). |
-| Ricezione di risultati negativi o semplici da un&#39;attività [!DNL Target]. | Verificate che l&#39;attività meriti di essere testata. |
-| Non è difficile codificare l&#39;esperienza vincente. | Utilizzate i dati dell&#39;attività per visualizzare il valore per ottenere il buy-in per la codifica. |
-| Non condividere i risultati oltre il team di test. | Espandete le comunicazioni per includere pranzo e informazioni, sviluppate una dashboard di programma e pianificate le riunioni dei partecipanti. |
+| Traffico insufficiente per raggiungere risultati statisticamente significativi. | Utilizza in anticipo il Calcolatore dimensione campione di Adobe Target [per capire per quanto tempo deve essere eseguito il test, quindi eseguilo fino al completamento.](https://docs.adobe.com/content/target-microsite/testcalculator.html) |
+| Apportare un cambiamento troppo piccolo o invisibile. | Rendere la modifica sufficientemente sostanziale da renderla visibile quando si è a pochi metri dallo schermo. |
+| Mancato allineamento delle attività con gli obiettivi aziendali. | Potenziare l&#39;attenzione sulla metodologia di definizione delle priorità e comunicare tale metodologia alle parti interessate interne. |
+| Avere poco o niente backlog di test. | Coinvolgi con le parti interessate interne e consenti loro di inviare test in linea con gli obiettivi aziendali chiave. |
+| Estensione dei lanci di attività con scadenze passate | Migliorare la documentazione per le attività e includere dettagli specifici sulla configurazione del test. |
+| Selezione dei dati delle metriche di successo dell’attività che non sono utili per il processo decisionale. | Documenta tutte le metriche di test principali e include metriche aggiuntive per ottenere informazioni aggiuntive. |
+| Apportare modifiche durante il test che potrebbero influire sui risultati. | Gestisci un calendario delle prossime promozioni e delle modifiche al sito. Comunica chiaramente i lanci di attività [!DNL Target] per evitare conflitti. |
+| Modifica delle esperienze di test o dei criteri in prossimità di un lancio di attività. | Richiedi l’approvazione da parte delle principali parti interessate all’inizio del processo di attività di test. |
+| Concludere un’attività prima che i risultati siano statisticamente significativi. | Verifica la durata del test utilizzando l&#39;Adobe [calcolatore delle dimensioni del campione](https://docs.adobe.com/content/target-microsite/testcalculator.html). |
+| Ricezione di risultati negativi o piatti da un&#39;attività [!DNL Target]. | Verifica che l’attività meriti di essere testata. |
+| Non è difficile codificare l&#39;esperienza vincente. | Utilizza i dati di attività per mostrare valore per ottenere il buy-in per la codifica fissa. |
+| Non condividere i risultati oltre il team di test. | Espandi le comunicazioni per includere pranzo e apprende, sviluppa una dashboard del programma e pianifica le riunioni dei soggetti interessati. |
