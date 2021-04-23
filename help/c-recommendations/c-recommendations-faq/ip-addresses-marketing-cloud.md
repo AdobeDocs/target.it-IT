@@ -1,16 +1,16 @@
 ---
 keywords: Indirizzo IP;indirizzi IP;whitelist;inserire nell'elenco Consentiti;firewall;recs;feed;server;adobe marketing cloud;consigli
-description: Visualizza un elenco di indirizzi IP utilizzati nei server di elaborazione dei feed Recommendations di Target per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
+description: Visualizza un elenco di indirizzi IP utilizzati nei server di elaborazione dei feed  [!DNL Target] Recommendations per consentirti di configurare il firewall per l’autorizzazione degli indirizzi IP provenienti dai server di Adobe.
 title: Quali indirizzi IP utilizzano i server di elaborazione dei feed Recommendations?
-feature: Recommendations
+feature: Consigli
+exl-id: a666cfc4-ed74-44e8-9ff5-212e4fd65c03
 translation-type: tm+mt
-source-git-commit: d90069169a23bc432c7731b3129ca7c9572f6cf4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '138'
-ht-degree: 7%
+source-wordcount: '137'
+ht-degree: 8%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità per i consigli (Recommendations)
 
@@ -29,4 +29,3 @@ Elenco di indirizzi IP utilizzati nei server di elaborazione dei feed [!DNL Adob
 >[!NOTE]
 >
 >Questi indirizzi IP sono stati aggiornati da ultimo il 16 marzo 2021. In precedenza, i server che accedevano ai server FTP erano nel blocco CIDR dell&#39;indirizzo IP 192.243.242.0/24. I server che ospitano le API Recommendations si trovavano nel blocco CIDR dell’indirizzo IP 192.243.224.0/20.
-
