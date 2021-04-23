@@ -1,39 +1,39 @@
 ---
 keywords: personalizzazione automatizzata;offerta;reporting;gruppo;gruppo di rapporti
-description: Scoprite come utilizzare i gruppi di reporting delle offerte in  attività Adobe Target  Automated Personalization. Utilizzando i gruppi di reporting, Target crea un solo modello di personalizzazione per ciascun gruppo di reporting.
-title: È possibile utilizzare i gruppi di rapporti delle offerte in  attività Automated Personalization?
-feature: Reports
+description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe [!DNL Target] Automated Personalization activities. Using reporting groups, [!DNL Target] crea un solo modello di personalizzazione per ciascun gruppo di reporting.
+title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
+feature: Rapporti
+exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '448'
-ht-degree: 61%
+source-wordcount: '441'
+ht-degree: 63%
 
 ---
 
+# ![PREMIUM](/help/assets/premium.png) Gruppi di creazione di rapporti di offerte in Personalizzazione automatizzata
 
-# ![PREMIUM](/help/assets/premium.png) Gruppi di creazione di rapporti di offerte in Personalizzazione automatizzata{#offer-reporting-groups-in-automated-personalization}
-
-Informazioni sull&#39;utilizzo dei gruppi di reporting nelle attività di [ Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
+Informazioni sull&#39;utilizzo dei gruppi di reporting nelle attività di [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
 
 I gruppi di reporting svolgono due funzioni chiave:
 
 * Consentono di vedere le offerte raggruppate nel reporting delle attività di AP.
-* Essi svolgono un ruolo chiave nel funzionamento dei modelli di personalizzazione [!DNL Target].
+* Svolgono un ruolo chiave nel funzionamento dei modelli di personalizzazione [!DNL Target] .
 
-Quando utilizzate i gruppi di reporting, [!DNL Target] crea un solo modello di personalizzazione per ciascun gruppo di reporting invece di ogni offerta nell&#39;attività AP utilizzando i dati di tutte le offerte in tale gruppo.
+Quando utilizzi i gruppi di reporting, [!DNL Target] crea un solo modello di personalizzazione per ciascun gruppo di reporting invece di ogni offerta nella tua attività di AP utilizzando i dati di tutte le offerte in quel gruppo.
 
 Se la configurazione dell&#39;attività non dispone di dati sufficienti per creare un modello di personalizzazione per ciascuna offerta, i gruppi di reporting possono contribuire a ridurre i requisiti di dati per utilizzare la Personalizzazione automatizzata. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nella tua attività di AP.
 
-Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Raggruppando tutte le offerte o raggruppando le offerte con tassi di conversione molto diversi è probabile che riduca l&#39;efficacia dei modelli di personalizzazione [!DNL Target].
+Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Raggruppare tutte le offerte o raggruppare le offerte con tassi di conversione molto diversi riduce probabilmente l’efficacia dei modelli di personalizzazione [!DNL Target].
 
 >[!NOTE]
 >
->Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In altre parole, le offerte eliminate non contribuiscono a determinare i dati utilizzati per i modelli di personalizzazione [!DNL Target] da imparare.
+>Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In altre parole, le offerte eliminate non contribuiscono ai dati utilizzati dai modelli di personalizzazione [!DNL Target] per l’apprendimento.
 
 **Per impostare i gruppi di reporting:**
 
-1. Nella pagina [!UICONTROL Esperienze] di un&#39;attività AP, fare clic sull&#39;icona **[!UICONTROL Gestisci contenuto]**.
+1. Nella pagina [!UICONTROL Esperienze] di un&#39;attività di Personalizzazione automatizzata, fai clic sull&#39;icona **[!UICONTROL Gestisci contenuto]**.
 
    ![](assets/ap_manage_content.png)
 
@@ -46,11 +46,10 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
    ![](assets/ap_manage_content_3.png)
 
-1. (Condizionale) Per assegnare l&#39;offerta selezionata a un gruppo di rapporti esistente, selezionare **[!UICONTROL Esistente]**, selezionare il gruppo di rapporti desiderato dall&#39;elenco a discesa, quindi fare clic su **[!UICONTROL Applica]**.
+1. (Condizionale) Per assegnare l&#39;offerta selezionata a un gruppo di reporting esistente, seleziona **[!UICONTROL Esistente]**, seleziona il gruppo di reporting desiderato dall&#39;elenco a discesa, quindi fai clic su **[!UICONTROL Applica]**.
 
    Oppure
 
    Per creare un nuovo gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, dai un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Applica]**.
 
    ![](assets/ap_reporting_groups.png)
-
