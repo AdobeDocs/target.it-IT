@@ -1,22 +1,22 @@
 ---
-keywords: multivariato;mvt;preview;experience
-description: Scoprite come visualizzare in anteprima ogni esperienza in un'attività Test multivariato (MVT) in  Adobe Target utilizzando Visual Experience Composer (VEC) (Compositore esperienza visivo).
-title: Come visualizzare in anteprima le esperienze per un test multivariato (MVT)
-feature: Multivariate Tests
+keywords: multivariato;MVT;anteprima;esperienze
+description: Scopri come visualizzare in anteprima ogni esperienza in un’attività Test multivariato (MVT) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo.
+title: Come posso visualizzare in anteprima le esperienze per un test multivariato (MVT)
+feature: Test multivariati
+exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
+# Visualizzare un&#39;anteprima delle esperienze per un test multivariato
 
-# Visualizzazione di un&#39;anteprima delle esperienze per un test multivariato{#preview-experiences-for-a-multivariate-test}
+Dato che in [!UICONTROL Test multivariato] in [!DNL Adobe Target] vengono messe a confronto più esperienze su una pagina, è utile visualizzare un&#39;anteprima della pagina con ogni esperienza.
 
-Poiché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esperienze su una pagina, è utile visualizzare l&#39;anteprima della pagina con ogni esperienza.
-
-1. In Visual Experience Composer (VEC), fate clic su **[!UICONTROL Preview]**.
+1. Nel Compositore esperienza visivo, fai clic su **[!UICONTROL Anteprima]**.
 
    Viene visualizzato un elenco di tutte le esperienze.
 
@@ -37,4 +37,3 @@ Poiché un [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più 
    Per impostazione predefinita, tutte le esperienze sono incluse nel test multivariato. Per includere una esperienza che è stata esclusa, selezionala e fai clic su **[!UICONTROL Includi]**.
 
 Fai clic su **[!UICONTROL Esci da modalità anteprima]** per tornare a Compositore esperienza in modo da poter apportare modifiche, o fai clic su **[!UICONTROL Continua]** per passare al riepilogo del test.
-
