@@ -1,19 +1,19 @@
 ---
 keywords: token di risposta;token;plug-in;plug-in;at.js;risposta
-description: Scopri come utilizzare i token di risposta in Adobe Target per ottenere informazioni specifiche da utilizzare nel debug e nell’integrazione con sistemi di terze parti (ad esempio, Clicktale).
+description: Scopri come utilizzare i token di risposta in Adobe [!DNL Target] generare informazioni specifiche da utilizzare nel debug e nell’integrazione con sistemi di terze parti (ad esempio Clicktale).
 title: Cosa sono i token di risposta e come li utilizzo?
-feature: Administration & Configuration
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1575'
+source-wordcount: '1573'
 ht-degree: 76%
 
 ---
 
-
-# Token di risposta{#response-tokens}
+# Token di risposta
 
 I token di risposta consentono di generare automaticamente informazioni specifiche per [!DNL Target] (dettagli dell’attività, informazioni sul profilo utente, informazioni geografiche e così via) da utilizzare durante il debug o l’integrazione con sistemi di terze parti (ad esempio, Clicktale).
 
