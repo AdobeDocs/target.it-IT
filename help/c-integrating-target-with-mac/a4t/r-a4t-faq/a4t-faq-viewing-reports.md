@@ -1,22 +1,22 @@
 ---
 keywords: FAQ;domande frequenti;analytics for target;a4t;rapporto;report;visualizzare rapporti;reporting;metodologia di conteggio;impression;visitatori;visite;metriche predefinite;conversioni di attività;non specificato
-description: Trova le risposte alle domande più frequenti sulla visualizzazione dei rapporti durante l’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics per le attività di Target.
+description: Trova le risposte alle domande più frequenti sulla visualizzazione dei rapporti durante l'utilizzo di Analytics per attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
 title: Trova risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
+exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
 translation-type: tm+mt
-source-git-commit: 2773b934fc27e102c34afc29e5b22fc8725878bd
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '2526'
-ht-degree: 38%
+source-wordcount: '2512'
+ht-degree: 37%
 
 ---
-
 
 # Visualizzare i rapporti - Domande frequenti su A4T
 
 Questo argomento contiene le risposte alle domande più frequenti sulla visualizzazione dei rapporti quando si utilizza [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
-## Posso visualizzare i dati di attività Target in Analysis Workspace? {#workspace}
+## Posso visualizzare i dati delle mie attività [!DNL Target] in Analysis Workspace? {#workspace}
 
 Puoi utilizzare [!DNL Analysis Workspace] per analizzare le attività e le esperienze [!DNL Target]. Il pannello [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ti consente di visualizzare l’incremento e l’affidabilità per fino a tre metriche di successo. Puoi anche approfondire l’uso di tabelle e visualizzazioni.
 
@@ -28,7 +28,7 @@ I segmenti vengono più comunemente utilizzati nella parte superiore di un panne
 
 Un segmento può anche essere disposto su più livelli direttamente all’interno della tabella a forma libera, ma è necessario sovrapporlo all’interno dell’intera tabella per mantenere i calcoli di incremento e affidabilità all’interno del pannello A4T. I segmenti a livello di colonna non sono attualmente supportati nel pannello .
 
-## Quando applico un segmento di hit per una specifica attività di Target, perché vengono restituite esperienze non collegate? {#activity-segmentation}
+## Quando applico un segmento di hit per una specifica attività [!DNL Target], perché vengono restituite esperienze non collegate? {#activity-segmentation}
 
 La variabile di [!DNL Target] inviata ad [!DNL Analytics] ha un periodo di scadenza predefinito di 90 giorni. (Nota: se necessario, questo periodo di scadenza può essere regolato dall’Assistenza clienti). Quando i visitatori navigano nel sito in questa finestra di scadenza, fanno parte di numerose attività [!DNL Target], tutte raccolte nella dimensione .
 
@@ -45,7 +45,7 @@ Per ulteriori informazioni, consulta &quot;Durante la configurazione delle metri
 Esistono diverse opzioni per normalizzare le metriche nel reporting di A4T. Questa metrica, detta anche metodologia di conteggio, diventa il denominatore del calcolo dell’incremento. Inoltre, influisce sul modo in cui i dati vengono aggregati prima dell’applicazione del calcolo dell’affidabilità.
 
 * I ***visitatori univoci*** incrementano una volta quando un utente si qualifica per la prima volta per un&#39;attività.
-* Le ***visite*** incrementano per ogni sessione una volta che un utente (Visitatore unico) entra in un&#39;attività, anche se l&#39;attività non viene visualizzata nelle visite successive.
+* Le ***visite*** incrementano per ogni sessione una volta che un utente (Visitatore univoco) entra in un&#39;attività, anche se l&#39;attività non viene visualizzata nelle visite successive.
 * Le ***impressioni dell’attività*** aumentano ogni volta che il contenuto dell&#39;attività viene servito. (Misurato da [!DNL Target]).
 
 Quando un visitatore visualizza una pagina che contiene un&#39;attività, viene impostata una variabile per quel visitatore che contiene il nome di tale attività. Consulta gli scenari dettagliati di seguito per il confronto di ciascuna metodologia di conteggio.
@@ -75,7 +75,7 @@ Dopo il periodo di classificazione, i dati sono visualizzati in questi rapporti 
 
 Nel caso in cui la classificazione sia stata effettuata per quell’attività e nel rapporto sia ancora presente una riga &quot;Non specificato&quot;, accertati che il rapporto non utilizzi una metrica non[!DNL Target] per visualizzare i dati. A meno che il rapporto non utilizzi una metrica specifica [!DNL Target], la riga &quot;Non specificato&quot; contiene eventi per chiamate non associate a [!DNL Target]. Tale riga non conterrà alcuna informazione associata a [!DNL Target] (ad esempio, visitatori/visite/impression).
 
-## Perché le metriche di Target vengono inviate ad Analytics anche dopo la disattivazione dell’attività? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
+## Perché le metriche [!DNL Target] vengono inviate ad Analytics anche dopo la disattivazione dell’attività? {#section_38AA8380A4D54A18972F1EF3E73E22EF}
 
 La variabile di [!DNL Target] inviata ad [!DNL Analytics] ha un periodo di scadenza predefinito di 90 giorni. Se necessario, questo periodo di scadenza può essere regolato dall’Assistenza clienti. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
 
@@ -93,7 +93,7 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 1 |
+| XYZ | 1 | 5 | 3 | 3 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
@@ -106,14 +106,14 @@ L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volt
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
 | XYZ | 3 | 15 | 3 | 3 |
-| ABC | 1 | 5 | 3 | 1 |
+| ABC | 3 | 5 | 3 | 3 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore di eVar viene reimpostata il 1° aprile, quindi lo puoi vedere nei rapporti. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 1 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 1 |
+| XYZ | 3 | 20 | 4 | 3 | 3 |
+| ABC | 3 | 10 | 2 | 3 | 3 |
 | Totale | 2 | 20 | 3 | 3 | 3 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting [!DNL Target], poiché non stai mettendo un&#39;attività [!DNL Target] contro un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ricevuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile che un utente veda diverse esperienze nella stessa attività, in modo da non doverti preoccupare della contaminazione incrociata del credito d’ordine.
@@ -124,7 +124,7 @@ Per ulteriori informazioni, consulta [Variabili di conversione (eVar](https://ex
 
 Un’origine di impression per il rapporto di un’attività A4T dopo la disattivazione può essere il traffico in modalità QA. Target normalmente non registra gli eventi per un’attività disattivata, ma Analytics non ha un modo per sapere che le impression provengono dalla modalità di controllo qualità. Quando il rapporto di attività di Target viene recuperato da Analytics, mostra queste impression. Questo funziona correttamente perché i clienti devono poter controllare i rapporti A4T anche se l’attività non è attiva utilizzando la modalità di controllo qualità.
 
-## Perché Analytics e Analytics for Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
+## Perché Analytics e Analytics for Adobe Target (A4T) calcolano i numeri per la metrica Visitatori univoci in modo diverso? {#section_0C3B648AB54041F9A2AA839D51791883}
 
 Quando si esegue un test A/B, che utilizza il test t di Student (la metrica di affidabilità) per scegliere un vincitore di un test, uno dei presupposti è che ci sia un orizzonte temporale fisso. Il test non è statisticamente valido a meno che tu non stia esaminando la dimensione del campione fisso.
 
