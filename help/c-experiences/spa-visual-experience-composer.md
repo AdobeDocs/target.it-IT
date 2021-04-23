@@ -1,16 +1,16 @@
 ---
 keywords: vec spa;react;angular;react.js;compositore esperienza visivo spa;opzioni compositore esperienza spa;app a pagina singola;app a pagina singola;spa;opzioni esperienza mobile;visualizzazione target
-description: Scoprite come utilizzare il SPA VEC in  Adobe Target per creare test e personalizzare i contenuti su SPA in modo fai da te, senza dipendenze di sviluppo continue.
-title: Come si utilizza SPA VEC (Single Page App Visual Experience Composer)?
-feature: Visual Experience Composer (VEC)
+description: Scopri come utilizzare il Compositore esperienza visivo SPA in Adobe [!DNL Target] per creare test e personalizzare contenuti in SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori.
+title: Come si utilizza il Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo)?
+feature: Compositore esperienza visivo
+exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3700'
 ht-degree: 92%
 
 ---
-
 
 # Compositore esperienza visivo per app a pagina singola (SPA)
 
@@ -20,7 +20,7 @@ In [!DNL Adobe Target], il [!UICONTROL Compositore esperienza visivo] (VEC) offr
 
 Con la versione più recente si inaugura il Compositore esperienza visivo per le applicazioni a pagina singola (SPA). Il Compositore esperienza visivo per le applicazioni a pagina singola consente agli addetti al marketing di creare test e di personalizzare contenuti nelle SPA in modalità fai-da-te senza dover dipendere sempre dagli sviluppatori. Il Compositore esperienza visivo può essere utile per creare [test A/B](/help/c-activities/t-test-ab/test-ab.md) e attività di [Targeting delle esperienze](/help/c-activities/t-experience-target/experience-target.md) (XT) sui framework più diffusi, come React e Angular.
 
-## Visualizzazioni e applicazioni a pagina singola di Adobe Target
+## Adobe [!DNL Target] Visualizzazioni e applicazioni a pagina singola
 
 Il Compositore esperienza visivo di Adobe Target per applicazioni a pagina singola (SPA) sfrutta un nuovo concetto chiamato Visualizzazioni: un gruppo logico di elementi visivi che insieme formano un’esperienza SPA. Un’applicazione a pagina singola può, infatti, essere considerata come transizione attraverso le visualizzazioni (al posto degli URL) basata sulle interazioni dell’utente. In genere, una visualizzazione può rappresentare un intero sito o elementi visivi raggruppati all&#39;interno di un sito.
 
@@ -32,7 +32,7 @@ Per spiegare ulteriormente cosa sono le visualizzazioni, navighiamo in questo ip
 
 Quando entriamo nella home page, notiamo subito un’immagine protagonista (hero image) che promuove un’offerta di Pasqua e gli ultimi prodotti venduti sul sito. In questo caso, si può definire una visualizzazione come l’intera home page. Questo è utile da sapere, ma torneremo sull’argomento più avanti, nella sezione Implementazione delle visualizzazioni di Adobe Target.
 
-**Collegamento:  [Sito prodotto](https://target.enablementadobe.com/react/demo/#/products)**
+**Collegamento:  [Sito del prodotto](https://target.enablementadobe.com/react/demo/#/products)**
 
 ![sito del prodotto](/help/c-experiences/assets/product-site.png)
 
@@ -46,7 +46,7 @@ All&#39;inizio di questa sezione, abbiamo definito visualizzazioni come l&#39;in
 
 Decidiamo di fare clic sul pulsante Carica altro per esplorare altri prodotti sul sito. In questo caso, l’URL del sito web non cambia. Tuttavia, una visualizzazione qui può rappresentare solo la seconda riga di prodotti visibili qui sopra. Possiamo chiamare questa visualizzazione “Pagina prodotti 2”.
 
-**Collegamento:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+**Collegamento:  [Pagamento](https://target.enablementadobe.com/react/demo/#/checkout)**
 
 ![pagina di checkout](/help/c-experiences/assets/checkout.png)
 
@@ -56,7 +56,7 @@ Il concetto di visualizzazioni si può estendere ulteriormente. Se gli esperti d
 
 Adesso, gli esperti di marketing potrebbero voler eseguire un test A/B per valutare se cambiare il colore da blu a rosso quando si seleziona l’opzione Consegna express per aumentare le conversioni, invece di mantenere il pulsante blu con entrambe le opzioni di consegna.
 
-## Implementazione delle visualizzazioni di Adobe Target
+## Implementazione delle visualizzazioni di Adobe [!DNL Target]
 
 Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sfruttare questo concetto in Target per consentire agli addetti al marketing di eseguire test A/B e XT sulle applicazioni a pagina singola tramite il Compositore esperienza visivo. Questo richiederà una configurazione per sviluppatori una tantum. Seguiamo i passaggi effettuare la configurazione.
 
@@ -66,7 +66,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell’implementazione](/help/c-experiences/assets/imp-200.png)
 
-   Scaricate at.js 2.x tramite l&#39;interfaccia  di Adobe Target, che si trova in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
+   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa la funzione più recente di at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sui siti.
 
@@ -142,7 +142,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
    }
    ```
 
-   **Collegamento:  [Checkout](https://target.enablementadobe.com/react/demo/#/checkout)**
+   **Collegamento:  [Pagamento](https://target.enablementadobe.com/react/demo/#/checkout)**
 
    ![react checkout](/help/c-experiences/assets/react6.png)
 
@@ -393,7 +393,7 @@ Sono state apportate le seguenti modifiche:
 * È stato cambiato il colore di sfondo nella vista Home, che si trova all’URL: [/#/](https://target.enablementadobe.com/react/demo/#/)https://target.enablementadobe.com/react/demo/#/.
 * È stato modificato il colore del pulsante nella vista Prodotti, che si trova sotto l’URL: [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 
-Tenendo presente l&#39;esempio precedente, cosa accade quando si configurano le impostazioni [!UICONTROL Page Delivery] solo per includere: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in un SPA con at.js 2.*x*?
+Con l’esempio precedente, cosa accade quando configuriamo le impostazioni [!UICONTROL Consegna pagine] per includere solo: [https://target.enablementadobe.com/react/demo/#/](https://target.enablementadobe.com/react/demo/#/) in un SPA con at.js 2.*x*?
 
 ![Finestra di dialogo Consegna pagine](/help/c-experiences/assets/spa-page-delivery.png)
 
@@ -409,13 +409,13 @@ L’illustrazione seguente mostrata la richiesta Flusso di Target - Caricamento 
 
 **Risultato**: l’utente vede la pagina Home con sfondo verde. Quando l’utente passa a [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products, viene visualizzato il colore di sfondo blu del pulsante, perché l’azione è memorizzata nella cache nel browser per la visualizzazione Prodotti.
 
-Nota: L&#39;utente che si sposta su [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) non ha attivato il caricamento di una pagina.
+Nota: L&#39;utente che è passato a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products) non ha attivato un caricamento di pagina.
 
 **Percorso utente 2**
 
 * Un utente passa direttamente a [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Payload JSON di at.js 2.*x* invia una query al server Edge per verificare se è necessario eseguire un’attività per l’URL: [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products.
-* Nessuna attività qualificata per [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
+* Non sono disponibili attività qualificate come idonee per [https://target.enablementadobe.com/react/demo/#/products](https://target.enablementadobe.com/react/demo/#/products).
 * Poiché non vi sono attività qualificate come idonee, nessuna azione né visualizzazione deve essere memorizzata nella cache per l’attivazione di at.js 2.*x*.
 
 **Risultato**: anche se hai definito `triggerView()` per la visualizzazione Prodotti e impostato un’azione per la visualizzazione Prodotti tramite il Compositore esperienza visivo per applicazioni a pagina singola, l’azione prevista non viene visualizzata perché non hai creato una regola che includa [](https://target.enablementadobe.com/react/demo/#/products)https://target.enablementadobe.com/react/demo/#/products nelle impostazioni Consegna pagine.
@@ -440,4 +440,4 @@ Questo messaggio viene visualizzato quando aggiungi la prima azione a una Visual
 
 >[!VIDEO](https://video.tv.adobe.com/v/26249)
 
-Per ulteriori informazioni, consultate [Utilizzo di Visual Experience Composer (Compositore esperienza visivo per applicazione SPA pagina singola) in  Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html).
+Per ulteriori informazioni, consulta [Utilizzo del Compositore esperienza visivo per le applicazioni a pagina singola (SPA Compositore esperienza visivo) in Adobe Target](https://helpx.adobe.com/target/kt/using/visual-experience-composer-for-single-page-applications-feature-video-use.html) .
