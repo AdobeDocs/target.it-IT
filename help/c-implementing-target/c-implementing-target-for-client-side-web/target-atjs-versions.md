@@ -1,13 +1,13 @@
 ---
 keywords: versioni at.js;versioni at.js;note sulla versione
-description: Visualizza i dettagli sulle modifiche in ogni versione della libreria JavaScript at.js di Adobe Target.
+description: Visualizza i dettagli sulle modifiche apportate in ogni versione della libreria JavaScript Adobe [!DNL Target] at.js.
 title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: dba3044c94502ea9e25b21a3034dc581de10f431
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '4185'
+source-wordcount: '4184'
 ht-degree: 81%
 
 ---
