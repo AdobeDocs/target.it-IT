@@ -1,13 +1,13 @@
 ---
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
-description: Scopri come integrare le e-mail con Adobe Target Recommendations, incluso l’utilizzo dell’API di distribuzione di Target, dei modelli rawbox e dei modelli solo per il download.
+description: Scopri come integrare le e-mail con Adobe [!DNL Target] Recommendations, including using the [!DNL Target] API di consegna, modelli rawbox e modelli di solo download.
 title: Come posso integrare Recommendations con l’e-mail?
-feature: Recommendations
+feature: Consigli
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 translation-type: tm+mt
-source-git-commit: 37007f451031147ca7e87c66b28b399744fc50d1
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1548'
+source-wordcount: '1540'
 ht-degree: 86%
 
 ---
@@ -78,7 +78,7 @@ Il sistema di posta elettronica utilizzato deve essere in grado di gestire quest
 * In questo caso, la risposta sarà qualsiasi cosa impostata come valore del parametro mboxDefault. Vedi la spiegazione riportata di seguito su questo parametro.
 * Il fornitore di posta elettronica deve disporre di un blocco HTML predefinito per i consigli da utilizzare in questo caso.
 
-### Il server Target riceve un timeout e restituisce senza dati
+### Il server [!DNL Target] riceve un timeout e restituisce senza dati
 
 * In questo caso, il server Target restituirà il seguente contenuto:
 
@@ -122,7 +122,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `mboxNoRedirect`<br>(Facoltativo) | 1 | Per impostazione predefinita, il chiamante viene reindirizzato quando non viene trovato alcun contenuto finale. Utilizzalo per disabilitare il comportamento predefinito. |  |
 | `mbox3rdPartyId` | *xxx* | Utilizzalo se disponi di un ID visitatore personalizzato da utilizzare per il targeting del profilo. |  |
 
-### Potenziali risposte del server Target
+### Potenziali risposte del server [!DNL Target]
 
 | Risposta | Descrizione |
 |--- |--- |
