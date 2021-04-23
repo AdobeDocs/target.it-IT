@@ -1,27 +1,27 @@
 ---
 keywords: Amministrazione;ruolo approvatore;approvatore
-description: Eseguite le prime operazioni  gli amministratori di Adobe Target dopo aver ricevuto l'invito inviato via e-mail all'Adobe Experience Cloud.
+description: Esegui le prime attività che gli amministratori di Adobe [!DNL Target] devono svolgere dopo aver ricevuto l'invito via e-mail a Adobe Experience Cloud.
 title: Dove Posso Iniziare Ad Amministrare Target?
-feature: Administration & Configuration
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: b60236da-20ae-4bab-b261-6a33d2f70e23
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '408'
-ht-degree: 83%
+ht-degree: 82%
 
 ---
 
-
 # Primi passaggi per l&#39;amministratore
 
-Questo articolo contiene i primi passi [!DNL Adobe Target] che gli amministratori devono compiere dopo aver ricevuto l&#39;invito inviato via e-mail a [!DNL Adobe Experience Cloud].
+Questo articolo contiene i primi passi che gli amministratori devono compiere dopo aver ricevuto l&#39;invito a [!DNL Adobe Experience Cloud] .[!DNL Adobe Target]
 
-## Ricevere un invito per Target {#task_3E0817630774431983FAA3D2CB2E75BD}
+## Ricevi un invito per [!DNL Target] {#task_3E0817630774431983FAA3D2CB2E75BD}
 
 Un amministratore di sistema utilizza [!DNL Adobe Admin Console] per aggiungerti come utente ad [!DNL Target] invitandoti a partecipare. L’amministratore di sistema deve quindi aggiungerti a uno o più gruppi specifici per il tuo ruolo. Entrambe queste attività sono eseguite in [Adobe Admin Console](https://adminconsole.adobe.com).
 
-Per ulteriori informazioni, vedere [Gestione di utenti e prodotti  Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nell&#39;Aiuto di *Experience Cloud e servizi di base*.
+Per ulteriori informazioni, consulta [Gestione di utenti e prodotti Experience Cloud](https://experienceleague.adobe.com/docs/core-services/interface/manage-users-and-products/admin-getting-started.html) nella *Guida di Experience Cloud e servizi di base*.
 
 Dopo che l’amministratore di sistema avrà eseguito questi passaggi, riceverai un messaggio e-mail di invito.
 
