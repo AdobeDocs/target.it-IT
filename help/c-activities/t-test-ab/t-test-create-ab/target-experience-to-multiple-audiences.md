@@ -1,20 +1,20 @@
 ---
 keywords: più tipi di pubblico;versioni esperienza;versioni esperienza target
-description: Scoprite come eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B  Adobe Target.
-title: Posso utilizzare più versioni dell'esperienza in un'attività A/B?
-feature: A/B Tests
+description: Scopri come eseguire il targeting delle versioni della stessa esperienza per diversi tipi di pubblico nelle attività Adobe [!DNL Target] A/B.
+title: Posso utilizzare più versioni di esperienza in un’attività A/B?
+feature: Test A/B
+exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '600'
 ht-degree: 92%
 
 ---
 
-
 # Esperienza con più tipi di pubblico un testo A/B
 
-Potete eseguire il targeting delle versioni della stessa esperienza per audience diverse nelle attività A/B [!DNL Adobe Target]. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
+Puoi eseguire il targeting delle versioni della stessa esperienza per diversi tipi di pubblico in [!DNL Adobe Target] attività A/B. È possibile impostare più tipi di pubblico per un’esperienza nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli.
 
 Gli utenti possono passare da un pubblico dell&#39;esperienza all&#39;altro quando cambiano profilo. Non sono bloccati nella stessa esperienza per l&#39;intero ciclo di vita dell&#39;attività.
 
@@ -53,4 +53,3 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 * Scegli tipi di pubblico che si escludono a vicenda. Se l&#39;attività è stata creata nel Compositore esperienza visivo, nel caso in cui un visitatore corrisponda a più di un pubblico, il contenuto per ogni pubblico viene respinto e il contenuto per l&#39;ultimo pubblico in elenco è visualizzato nella pagina.
 * Il pubblico di accesso all&#39;attività definito nel diagramma viene combinato con il pubblico di esperienza utilizzando una condizione E. Per accedere all&#39;attività, un visitatore deve essere idoneo al pubblico di attività e uno dei tipi di pubblico dell&#39;esperienza.
 * Aggiungi gli stessi tipi di pubblico come segmenti per i rapporti. In questo modo, puoi analizzare i risultati del test ad alto livello di esperienza di A rispetto a B e al livello inferiore di esperienza di A rispetto a B per il solo “browser lang ja_JP”. Tale procedimento funziona solo per i rapporti basati su Target e Analytics.
-
