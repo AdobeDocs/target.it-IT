@@ -1,30 +1,30 @@
 ---
-keywords: regole di inclusione;criteri di inclusione;raccomandazioni;promozione;promozioni;filtro dinamico;corrispondenza parametri
-description: Scoprite come filtrare in modo dinamico in  Adobe Target Recommendations confrontando elementi (entità) con un valore presente nella richiesta (API o mbox).
-title: In Che Modo È Possibile Filtrare In Base Ai Parametri Corrispondenti Nelle Attività Recommendations?
-feature: Recommendations
+keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza dei parametri
+description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
+title: Come Si Filtra Per Corrispondenza Parametro Nelle Attività Di Recommendations?
+feature: Consigli
+exl-id: 9ec161b9-1b37-4475-b508-af676126c817
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '331'
 ht-degree: 10%
 
 ---
 
+# ![](/help/assets/premium.png) Corrispondenza parametro PREMIUMP
 
-# ![Corrispondenza ](/help/assets/premium.png) PREMIUMParameter
+Filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
 
-Filtrare in modo dinamico confrontando elementi (entità) con un valore nella richiesta (API o mbox).
+Ad esempio, per consigliare solo i contenuti che corrispondono al parametro di pagina &quot;settore&quot; o ad altri parametri, come le dimensioni del dispositivo o la geolocalizzazione, come negli esempi seguenti.
 
-Ad esempio, si consiglia solo il contenuto che corrisponde al parametro di pagina &quot;industria&quot; o ad altri parametri, come le dimensioni del dispositivo o la geolocalità, come negli esempi seguenti.
-
-* I parametri Mbox per la larghezza e l&#39;altezza dello schermo possono essere utilizzati per i visitatori di dispositivi mobili e consigliamo solo dispositivi mobili e accessori.
-* Create una regola di Recommendations che restituisce solo i telefoni cellulari più venduti che corrispondono o superano l&#39;altezza dello schermo del dispositivo mobile su cui il visitatore utilizza la visualizzazione della pagina.
-* I parametri di geolocalizzazione regionali possono essere utilizzati per restituire raccomandazioni per gli strumenti durante l&#39;inverno. I soffiatori di neve e altri strumenti di riduzione della neve possono essere raccomandati per i visitatori in aree dove nevica ma non consigliato per i visitatori in aree dove non neve.
+* I parametri mbox per la larghezza e l’altezza dello schermo possono essere utilizzati per indirizzare i visitatori mobili e consigliare solo dispositivi e accessori mobili.
+* Crea una regola di consigli che restituisce solo i telefoni cellulari più venduti che corrispondono o superano l’altezza dello schermo del dispositivo mobile che il visitatore sta utilizzando per visualizzare la pagina.
+* I parametri di geolocalizzazione regionali possono essere utilizzati per restituire consigli sugli strumenti durante l’inverno. I soffiatori di neve e altri strumenti di abbattimento della neve possono essere consigliati per i visitatori in aree in cui nevica ma non consigliato per i visitatori in aree in cui non neve.
 
 >[!NOTE]
 >
->Se l&#39;attività è stata creata prima del 31 ottobre 2016, la sua distribuzione non riuscirà se utilizza il filtro &quot;Parametro Matching&quot;. Per risolvere questo problema:
+>Se l’attività è stata creata prima del 31 ottobre 2016, la sua consegna avrà esito negativo se si utilizza il filtro &quot;Corrispondenza parametro&quot;. Per risolvere questo problema:
 >
 >* Crea una nuova attività e aggiungi i relativi criteri.
 >* Utilizza un criterio che non contenga il filtro “Corrispondenza parametro”.
@@ -33,14 +33,14 @@ Ad esempio, si consiglia solo il contenuto che corrisponde al parametro di pagin
 
 ## Esempi di corrispondenza dei parametri
 
-[!UICONTROL La ] corrispondenza dei parametri consente di consigliare il contenuto che corrisponde ai parametri di pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalità, come nell&#39;esempio seguente:
+[!UICONTROL La ] corrispondenza dei parametri consente di consigliare il contenuto che corrisponde ai parametri della pagina o ai parametri del visitatore, come le dimensioni del dispositivo o la geolocalizzazione, come nell’esempio seguente:
 
-[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella  [!DNL Target] chiamata. In questa istanza, [!DNL Target] rileva che un visitatore utilizza un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella chiamata [!DNL Target], e consiglia solo gli elementi che sono dispositivi mobili.
+[!DNL Recommendations] può corrispondere ai valori dei parametri inviati nella  [!DNL Target] chiamata . In questa istanza, [!DNL Target] rileva che un visitatore sta utilizzando un dispositivo mobile, in base ai parametri di altezza e larghezza dello schermo inviati nella chiamata [!DNL Target] e consiglia solo gli elementi che sono dispositivi mobili.
 
-Prendete in considerazione l&#39;esempio seguente di chiamata Target:
+Prendi in considerazione il seguente esempio di chiamata Target:
 
 ![Chiamata Target](/help/c-recommendations/c-algorithms/assets/example-target-call-2.png)
 
-Sulla pagina visualizzata da un visitatore, verranno visualizzati i prodotti per dispositivi mobili.
+Sulla pagina che un visitatore sta visualizzando, vedrà i prodotti per dispositivi mobili.
 
 ![Prodotti per dispositivi mobili](/help/c-recommendations/c-algorithms/assets/phones.png)
