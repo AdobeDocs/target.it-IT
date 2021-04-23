@@ -2,18 +2,18 @@
 keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
-feature: Administration & Configuration
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
 translation-type: tm+mt
-source-git-commit: 86102ed5b49d102660ed38fe0a71612cefcd2caf
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '3020'
+source-wordcount: '3018'
 ht-degree: 59%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Autorizzazioni per utenti Enterprise{#enterprise-user-permissions}
+# ![PREMIUM](/help/assets/premium.png) Autorizzazioni per utenti Enterprise
 
 Le autorizzazioni per gli utenti Enterprise sono un mezzo per amministrare formalmente l&#39;accesso degli utenti a [!DNL Adobe Target] a livello aziendale. Aggiungi gli utenti a [!DNL Target], assegna le autorizzazioni in base ai loro ruoli e crea aree di lavoro per i team in base a dipartimenti, posizioni globali, canali e altri raggruppamenti logici diversi. Puoi assegnare agli utenti i ruoli di [!UICONTROL Osservatore], [!UICONTROL Editor] o [!UICONTROL Approvatore].
 
@@ -295,7 +295,7 @@ Finalità di apprendimento:
 
 >[!VIDEO](https://video.tv.adobe.com/v/19042/)
 
-### Orario ufficio: Aree di lavoro di Target Premium
+### Orario ufficio: [!DNL Target] Aree di lavoro Premium
 
 Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
