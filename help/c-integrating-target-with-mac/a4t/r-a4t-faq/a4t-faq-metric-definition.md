@@ -1,16 +1,16 @@
 ---
 keywords: faq;domande frequenti;analytics for target;a4T;metriche;definizioni metriche
-description: Trova le risposte alle domande sulle definizioni delle metriche e sull’utilizzo di Analytics for Target (A4T). A4T consente di utilizzare i rapporti di Analytics con le attività di Adobe Target.
+description: Trova le risposte alle domande sulle definizioni delle metriche e sull’utilizzo di Analytics per le attività [!DNL Target] (A4T). A4T lets you use Analytics reporting with Adobe [!DNL Target] .
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
+exl-id: 97442622-ba6d-46f8-bfac-72638875d889
 translation-type: tm+mt
-source-git-commit: e45f0d2d2370f9c7aba2c2bd26afdd4c0e401db8
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '380'
-ht-degree: 39%
+source-wordcount: '367'
+ht-degree: 40%
 
 ---
-
 
 # Definizioni delle metriche - Domande frequenti su A4T
 
