@@ -1,16 +1,16 @@
 ---
 keywords: priorità;generare esperienze;esperienza;pubblico;passare a un’altra esperienza;compositore esperienza visivo
-description: Scoprite come i visitatori possono passare da un'esperienza all'altra in un'attività  di Adobe Target Experience Targeting (XT) man mano che i loro profili si evolvono.
-title: I visitatori possono cambiare esperienza in un'attività di targeting delle esperienze?
-feature: Experience Targeting
+description: Scopri come i visitatori possono passare da un’esperienza all’altra in un’attività Adobe [!DNL Target] Targeting esperienza (XT) mentre i loro profili evolvono.
+title: I visitatori possono cambiare esperienze in un’attività Targeting esperienze?
+feature: Targeting esperienza
+exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '915'
-ht-degree: 96%
+source-wordcount: '916'
+ht-degree: 97%
 
 ---
-
 
 # Passare ad altre esperienze in Targeting esperienza
 
@@ -72,4 +72,3 @@ Per sfruttare queste funzionalità in [!DNL Target], è importante comprendere l
    È un aspetto importante da tenere presente negli scenari in cui un visitatore potrebbe qualificarsi per più di un pubblico. Ad esempio, supponiamo di avere due esperienze: una rivolta ai visitatori “Stati Uniti” e l’altra ai visitatori “New York”; un visitatore da New York si qualifica per entrambi i tipi di pubblico. Devi quindi assicurarti che l’esperienza “New York” sia definita prima dell’esperienza “Stati Uniti” nell’interfaccia utente di Target. In tal modo l’esperienza “New York” più mirata avrà una priorità più alta, come illustrato nell’esempio seguente:
 
    ![Priorità New York > Stati Uniti](/help/c-activities/t-experience-target/t-xt-create/assets/xt_priority_ny_us-new.png)
-
