@@ -1,20 +1,20 @@
 ---
 keywords: Compositore esperienza visivo;VEC;carosello
-description: Scoprite come creare un carosello che può essere modificato in  Adobe Target Visual Experience Composer (VEC).
-title: Come si creano i contenuti Carousels in Visual Experience Composer (Compositore esperienza visivo)?
-feature: Visual Experience Composer (VEC)
+description: Scopri come creare un carosello che può essere modificato in Adobe [!DNL Target] Compositore esperienza visivo (VEC).
+title: Come si creano i caroselli di immagini nel Compositore esperienza visivo?
+feature: Compositore esperienza visivo
+exl-id: 50bc11d2-c9fc-4b53-8218-49842b59269a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '154'
-ht-degree: 70%
+source-wordcount: '157'
+ht-degree: 71%
 
 ---
 
-
 # Creazione di caroselli di immagini adatti al Compositore esperienza visivo
 
-In questo argomento viene illustrato come creare un carosello che può essere modificato in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)] (VEC).
+Questo argomento illustra come creare un carosello che possa essere modificato nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 
 Quando esegui i passaggi seguenti, [!DNL Target] saprà sempre che la diapositiva selezionata avrà il “selettore” per la diapositiva corretta, anche se viene modificato nel Compositore esperienza visivo dopo pochi secondi.
 
