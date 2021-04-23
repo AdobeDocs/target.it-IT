@@ -1,18 +1,18 @@
 ---
 keywords: mbox;mbox3rdPartyId;sincronizzazione profilo;sincronizzare profilo;PCID
-description: Scoprite come utilizzare mbox3rdPartyId, che è l'ID visitatore dell'organizzazione, ad esempio l'ID iscrizione o il programma fedeltà dell'organizzazione.
+description: Scopri come utilizzare mbox3rdPartyId, ID visitatore dell’organizzazione, ad esempio l’ID di iscrizione o il programma fedeltà dell’organizzazione.
 title: Come si utilizza la sincronizzazione dei profili in tempo reale per mbox3rdPartyId?
-feature: Audiences
+feature: Tipi di pubblico
+exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '548'
 ht-degree: 76%
 
 ---
 
-
-# Sincronizzazione dei profili in tempo reale per mbox3rdPartyId{#real-time-profile-syncing-for-mbox-rdpartyid}
+# Sincronizzazione dei profili in tempo reale per mbox3rdPartyId
 
 L’ID mbox3rdPartyId l’ID visitatore della tua azienda, ad esempio l’D di registrazione al programma fedeltà.
 
@@ -33,11 +33,11 @@ Quando il visitatore si disconnette, il profilo unito viene mantenuto.
 
 >[!NOTE]
 >
->Se desiderate distinguere tra utenti autenticati (connessi) e utenti non autenticati, utilizzate il servizio Adobe Experience Cloud Identity Service (ECID) invece di mbox3rdPartyID. Dopo che un utente è associato a mbox3rdPartyID, rimane associato all&#39;utente anche dopo la disconnessione.
+>Per distinguere tra utenti autenticati (connessi) e utenti non autenticati, utilizza il servizio Adobe Experience Cloud Identity (ECID) invece di mbox3rdPartyID. Dopo che un utente è associato a mbox3rdPartyID, rimane associato all’utente anche dopo la disconnessione.
 
 >[!NOTE]
 >
->[!DNL Adobe Analytics] gli obiettivi non verranno tracciati nei casi in cui l&#39; [!DNL Adobe Experience Cloud] ID (EDID) cambia (ad esempio, il visitatore modifica i dispositivi), anche se il  [!DNL Target] profilo potrebbe essere unito in base a mbox3rdPartyId e ancora dispone di informazioni sull&#39;attività. Per i visitatori identificati con lo stesso EDID (quelli che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) deve funzionare come previsto.
+>[!DNL Adobe Analytics] Gli obiettivi non vengono tracciati nei casi in cui l’ [!DNL Adobe Experience Cloud] ID (EDID) cambia (ad esempio, il visitatore cambia dispositivo), anche se il  [!DNL Target] profilo potrebbe essere unito in base al valore mbox3rdPartyId e contiene ancora informazioni sull’attività. Per i visitatori identificati con lo stesso EDID (che accedono alla pagina con lo stesso dispositivo), [!DNL Analytics for Target] (A4T) funziona come previsto.
 
 ## Considerazioni {#considerations}
 
