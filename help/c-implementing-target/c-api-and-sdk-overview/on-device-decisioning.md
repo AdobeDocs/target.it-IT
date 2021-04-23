@@ -1,44 +1,44 @@
 ---
-keywords: lato server;lato server;sdk;sdk;su dispositivo;decisione;su dispositivo;ondevice;latenza zero;latenza;near-zero;node.js
-description: Scoprite come utilizzare le decisioni sui dispositivi per memorizzare nella cache le attività A/B e MVT di Target sul server per eseguire le decisioni in memoria a latenza quasi zero.
-title: Che cos'è la funzione di disattivazione del dispositivo?
-feature: Implement Server-side
+keywords: lato server;lato server;sdk;sdk;on-device;decisioning;sul dispositivo;ondevice;latenza zero;latenza;vicino a zero;node.js
+description: 'Scopri come utilizzare le decisioni sui dispositivi per memorizzare nella cache le attività A/B e MVT sul server in modo da eseguire le decisioni in memoria a latenza vicina allo zero. [!DNL Target] '
+title: Cos’è On-Device Decisioning?
+feature: Implementare lato server
 role: Developer
+exl-id: ae782511-6f32-4123-be76-838584e05b39
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '270'
 ht-degree: 0%
 
 ---
 
+# Decisioni su dispositivi
 
-# Decisioni su dispositivo
+Le decisioni sul dispositivo consentono di memorizzare nella cache le attività [!DNL Adobe Target] [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT) sul server ed eseguire le decisioni in memoria a latenza vicina a zero, senza bloccare le richieste di rete sulla rete [!DNL Adobe Target] Edge Network.
 
-Il processo decisionale sul dispositivo consente di memorizzare nella cache le attività [!DNL Adobe Target] [!UICONTROL A/B Test] e [!UICONTROL Experience Targeting] (XT) sul server ed eseguire decisioni in memoria a latenza quasi zero, senza bloccare le richieste di rete sulla [!DNL Adobe Target] Edge Network.
+Per ulteriori informazioni, consulta [Introduzione alle decisioni sul dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) nella documentazione *[SDK per Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
 
-Per ulteriori informazioni, consulta [Introduzione alle decisioni sul dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) nella *[documentazione SDK per Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
+## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da Adobe Target
 
-## Webinar: Personalizzare e testare a latenza zero con decisioni sui dispositivi da  Adobe Target
+Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva dei clienti su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
 
-Più che mai, agli esperti di marketing, ai proprietari di prodotti e agli sviluppatori viene affidato il compito di ottimizzare l&#39;esperienza cliente complessiva su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con archivi di dati e implementazioni complicate non verranno tagliati.
-
-In questo webinar registrato, [!DNL Adobe Target] gli esperti del prodotto illustrano come le decisioni di ottimizzazione dell&#39;esperienza sul dispositivo da eseguire localmente con latenza vicina allo zero possano aprire le porte a nuovi casi d&#39;uso emozionanti, migliorando al contempo le prestazioni del sito per i clienti.
+In questo webinar registrato, [!DNL Adobe Target] gli esperti di prodotto discutono di come lo spostamento delle decisioni di ottimizzazione dell&#39;esperienza critica sul dispositivo da eseguire localmente con latenza vicina allo zero può aprire le porte a nuovi casi d&#39;uso emozionanti e al contempo migliorare le prestazioni del sito per i clienti.
 
 >[!VIDEO](https://video.tv.adobe.com/v/328148)
 
-## Esercitazione: Decisioni su dispositivo
+## Esercitazione: Decisioni su dispositivi
 
-[!DNL Adobe Target] la decisione sul dispositivo consente la distribuzione di contenuti con latenza quasi zero.
+[!DNL Adobe Target] le decisioni sul dispositivo consentono la distribuzione di contenuti con latenza quasi zero.
 
 Questo video di 7 minuti:
 
-* Descrive il processo decisionale del dispositivo, incluso il modo in cui viene confrontato con altri metodi di implementazione [!DNL Target]
-* Mostra come abilitare la decisione sul dispositivo in [!DNL Target]
-* Esaminare un esempio di attività di composer basata su modulo configurata con il contenuto JSON
-* Mostra un esempio di codice SDK Node.JS contenente la configurazione chiave necessaria per le decisioni sul dispositivo
+* Descrive le decisioni sul dispositivo, incluso il confronto con altri metodi di implementazione [!DNL Target]
+* Mostra come abilitare le decisioni sul dispositivo in [!DNL Target]
+* Esamina un esempio di attività del compositore basato su moduli configurata con contenuto JSON
+* Mostra un esempio di codice SDK Node.JS contenente la configurazione chiave necessaria per le decisioni su dispositivi
 * Mostra i risultati in un browser
 
 >[!VIDEO](https://video.tv.adobe.com/v/329032)
 
-Per ulteriori video ed esercitazioni, consultate la guida [ Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html).
+Per ulteriori video ed esercitazioni, consulta la guida [Tutorials Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
