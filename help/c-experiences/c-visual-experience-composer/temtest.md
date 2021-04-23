@@ -1,22 +1,22 @@
 ---
 keywords: test modello;modello;stessa esperienza su pagine simili;test template
-description: Scoprite come utilizzare  Adobe Target Visual Experience Composer (VEC) per includere la stessa esperienza in più pagine con struttura simile o con gli stessi elementi di modello.
+description: Scopri come utilizzare l’Adobe  [!DNL Target] Compositore esperienza visivo (VEC) per includere la stessa esperienza in più pagine con struttura simile o contenenti gli stessi elementi modello.
 title: Posso includere la stessa esperienza in pagine simili?
-feature: Experiences and Offers
+feature: Esperienze e offerte
+exl-id: 4ea95794-496c-4eff-96ec-8a9d1f732c4a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '618'
+source-wordcount: '620'
 ht-degree: 46%
 
 ---
 
-
 # Includere la stessa esperienza in pagine simili
 
-Utilizzate un modello di pagina in [!DNL Adobe Target] per fornire una struttura alle pagine, o se le pagine contengono elementi simili, per testare le varianti in elementi di pagina con struttura simile o nell&#39;intero dominio.
+Utilizza un modello di pagina in [!DNL Adobe Target] per fornire una struttura alle pagine o, se le pagine contengono elementi simili, per testare le varianti di elementi di pagina strutturati in modo simile o nell’intero dominio.
 
-Per funzionare correttamente, questa funzione deve essere utilizzata su pagine con una struttura simile o contenenti elementi di modello strutturati allo stesso modo su tutte le pagine.
+Per funzionare correttamente, questa funzione deve essere utilizzata su pagine con una struttura simile o contenenti elementi modello strutturati allo stesso modo su tutte le pagine.
 
 >[!IMPORTANT]
 >
@@ -29,22 +29,22 @@ Ad esempio, si può utilizzare per eseguire una delle operazioni seguenti:
 * Aggiungere un banner a tutte le pagine di prodotto
 * Modificare il layout di un modello di elemento
 
-Potete specificare le pagine che contengono gli elementi di modifica o applicare la modifica al sito o al dominio.
+È possibile specificare le pagine che includono gli elementi di modifica o applicare la modifica al sito o al dominio.
 
-1. Creare o modificare un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Crea o modifica un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, in [!UICONTROL Visual Experience Composer] (VEC) fate clic sull&#39;icona a forma di ingranaggio, quindi selezionate **[!UICONTROL Page Delivery]**.
+1. Per specificare le pagine in cui verrà visualizzata l&#39;esperienza, nel [!UICONTROL Compositore esperienza visivo] (VEC) fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagine]**.
 
-   ![Icona ingranaggio > Consegna pagina](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
+   ![Icona a forma di ingranaggio > Consegna pagine](/help/c-experiences/c-visual-experience-composer/assets/icon-gear.png)
 
 1. Fai clic su **[!UICONTROL Aggiungi regola modello]**, quindi specifica i criteri per le pagine a cui aggiungere l’esperienza.
 
 1. Specifica l&#39;intervallo di pagine. L&#39;intervallo di pagine può essere uno tra i seguenti:
 
-   * URL Per ulteriori informazioni sul modo in cui Target valuta gli URL, consultate [Domande frequenti su target e audience](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).
+   * URL (Per ulteriori informazioni su come Target valuta gli URL, consulta [Domande frequenti su destinazioni e pubblico](/help/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md).)
    * Dominio
    * Percorso
-   * Frammento hash (#) (eseguite il targeting della parte di un URL che segue il simbolo #.)
+   * Frammento hash (#) (esegui il targeting della parte di un URL che segue il simbolo #.)
    * Query
    * Parametro
 
@@ -67,9 +67,9 @@ Potete specificare le pagine che contengono gli elementi di modifica o applicare
 
    >[!IMPORTANT]
    >
-   >Più elementi utilizzano la logica OR, il che significa che qualsiasi elemento nell&#39;elenco rende vera la condizione.
+   >Per gli elementi multipli viene utilizzato l’operatore logico OR, il che significa che ogni singolo elemento dell’elenco può soddisfare la condizione.
 
-1. Se lo desiderate, inserite criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura nei passaggi precedenti.
+1. Se lo desideri, inserisci criteri aggiuntivi facendo clic su **[!UICONTROL Aggiungi regola modello]** e ripetendo la procedura descritta nei passaggi precedenti.
 
    I criteri multipli sono collegati mediante AND (E). [!DNL Target] aggiunge l&#39;esperienza a tutte le pagine che corrispondono ai criteri specificati.
 
@@ -79,27 +79,27 @@ Potete specificare le pagine che contengono gli elementi di modifica o applicare
 
 ## Casi di utilizzo
 
-Consultate i seguenti casi di utilizzo per trovare i modi per utilizzare le regole dei modelli sul sito:
+Consulta i seguenti casi d’uso per scoprire come utilizzare le regole dei modelli sul tuo sito:
 
-### Eseguire il rendering della stessa attività nell&#39;intero dominio
+### Esegui il rendering della stessa attività in tutto il dominio
 
-Potete prendere in considerazione l&#39;uso delle regole del modello per eseguire il rendering della stessa attività in tutto il dominio per i seguenti casi di utilizzo:
+Puoi considerare l’utilizzo di regole modello per eseguire il rendering della stessa attività in tutto il dominio per i seguenti casi d’uso:
 
-* Per includere un&#39;intestazione o un piè di pagina globale
+* Per includere un’intestazione o un piè di pagina globale
 * Per includere un banner globale (ad esempio, annunci COVID-19)
 * Per includere una promozione globale sulla spedizione gratuita
 
-1. Creare o modificare un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
+1. Crea o modifica un&#39;attività come descritto in [Attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03).
 
-1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, in Visual Experience Composer (Compositore esperienza visivo) fate clic sull&#39;icona a forma di ingranaggio, quindi selezionate **[!UICONTROL Page Delivery]**.
+1. Per specificare il dominio in cui verrà visualizzata l&#39;esperienza, nel Compositore esperienza visivo fai clic sull&#39;icona a forma di ingranaggio, quindi seleziona **[!UICONTROL Consegna pagine]**.
 
-1. Fare clic su **[!UICONTROL Aggiungi regola modello]** > **[!UICONTROL Dominio]**.
+1. Fai clic su **[!UICONTROL Aggiungi regola modello]** > **[!UICONTROL Dominio]**.
 
-1. Dal menu a discesa **[!UICONTROL Scegli valutatore]**, selezionare **[!UICONTROL Contiene]**, quindi specificare il dominio.
+1. Dal menu a discesa **[!UICONTROL Scegli valutatore]**, seleziona **[!UICONTROL Contiene]**, quindi specifica il dominio.
 
    ![Il dominio contiene](/help/c-experiences/c-visual-experience-composer/assets/domain-template-rule.png)
 
-## Video di formazione: Visual Experience Composer (2 di 2) (7:29) ![Logo di esercitazione](/help/assets/tutorial.png)
+## Video di formazione: Compositore esperienza visivo (2 di 2) (7:29) ![Badge tutorial](/help/assets/tutorial.png)
 
 * Rinominare e duplicare un’esperienza
 * Creare un’esperienza con reindirizzamento
