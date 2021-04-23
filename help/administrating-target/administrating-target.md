@@ -1,23 +1,23 @@
 ---
 keywords: configurazione;configurazione;configurazione;configurazione;configurazione;amministrazione
-description: Configurate  Adobe Target, incluse preferenze, implementazione, gestione utenti, proprietà, configurazione Scene7, gestione host e token di risposta.
-title: Come Si Amministra Target?
-feature: Administration & Configuration
+description: Imposta Adobe Target, incluse preferenze, implementazione, gestione utenti, proprietà, configurazione Scene7, gestione host e token di risposta.
+title: Come Posso Amministrare Target?
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: 89023213-b109-4d07-af4e-4b8da481806d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '95'
-ht-degree: 14%
+source-wordcount: '96'
+ht-degree: 11%
 
 ---
 
+# Panoramica dell’amministrazione [!DNL Target]
 
-# Panoramica sull’amministrazione di Target{#administer-target}
+Informazioni utili per l’amministrazione di [!DNL Adobe Target], incluse le impostazioni di configurazione per il Compositore esperienza visivo, il reporting, la configurazione di Scene7, l’implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
 
-Informazioni utili per l&#39;amministrazione di [!DNL Adobe Target], comprese le impostazioni di configurazione per Visual Experience Composer (VEC), il reporting, la configurazione Scene7, l&#39;implementazione, gli host, gli ambienti, i token di risposta e gli utenti.
-
-Per accedere alle voci di menu [!UICONTROL Amministrazione], fare clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, quindi fare clic sulla scheda desiderata sul lato sinistro:
+Per accedere alle voci di menu [!UICONTROL Amministrazione], fai clic su **[!UICONTROL Amministrazione]** nella barra dei menu superiore, quindi fai clic sulla scheda desiderata lungo il lato sinistro:
 
 * [Compositore esperienza visivo](/help/administrating-target/visual-experience-composer-set-up.md)
 * [Generazione di rapporti](/help/administrating-target/reporting.md)
@@ -29,4 +29,4 @@ Per accedere alle voci di menu [!UICONTROL Amministrazione], fare clic su **[!UI
 * [Token di risposta](/help/administrating-target/response-tokens.md)
 * [Utenti](/help/administrating-target/c-user-management/user-management.md)
 
-![ menu Amministrazione Adobe Target](/help/administrating-target/assets/administration.png)
+![Menu Amministrazione di Adobe Target](/help/administrating-target/assets/administration.png)
