@@ -1,20 +1,20 @@
 ---
 keywords: pubblico;selezionare il pubblico;scegliere il pubblico;audience;selettori
-description: L'audience determina quali visitatori del sito vengono immessi nell'attività Adobe Target .
-title: Come si seleziona un pubblico in un'attività A/B di Target?
-feature: A/B Tests
+description: Il pubblico determina quali visitatori del sito vengono inseriti nell'attività Adobe [!DNL Target] .
+title: Come si seleziona un pubblico in un'attività A/B [!DNL Target] A/B?
+feature: Test A/B
+exl-id: 281ae227-c593-4b71-ad12-865430b332be
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
 workflow-type: tm+mt
-source-wordcount: '444'
+source-wordcount: '445'
 ht-degree: 90%
 
 ---
 
-
 # Selezionare il pubblico
 
-L&#39;audience determina quali visitatori del sito vengono immessi nell&#39;attività [!DNL Adobe Target].
+Il pubblico determina quali visitatori del sito vengono inseriti nell’attività [!DNL Adobe Target].
 
 >[!NOTE]
 >
@@ -48,7 +48,7 @@ Puoi anche scegliere di lasciare che Target [allochi automaticamente il traffico
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Utilizzo del pubblico in Adobe Target (6:21)  ![badge Panoramica](/help/assets/overview.png)
+### Utilizzo del pubblico in Adobe Target (6:21)  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
@@ -60,7 +60,7 @@ Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/
 
 >[!VIDEO](https://video.tv.adobe.com/v/17398)
 
-### Flusso di lavoro attività - Targeting (2:14) ![Logo esercitazione](/help/assets/tutorial.png)
+### Flusso di lavoro dell&#39;attività - Targeting (2:14) ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene informazioni su come impostare i tipi di pubblico.
 
