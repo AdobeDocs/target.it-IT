@@ -1,18 +1,18 @@
 ---
-keywords: feed di raccomandazioni;feed;SAINT;ftp;csv;classificazioni;classificazioni di analisi
-description: Scoprite come i feed importano le entità in  Adobe Target Recommendations utilizzando file CSV, il formato di feed di Google Product Search e le classificazioni dei prodotti Analytics.
-title: Come si utilizzano i feed in Target Recommendations?
-feature: Recommendations
+keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni di analisi
+description: Scopri come importare le entità in Adobe [!DNL Target] Recommendations utilizzando file CSV, il formato feed di Google Product Search e le classificazioni di prodotto Analytics.
+title: Come si utilizzano i feed in [!DNL Target] Recommendations?
+feature: Consigli
+exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2522'
 ht-degree: 84%
 
 ---
 
-
-# ![PREMIUM](/help/assets/premium.png) Feed{#feeds}
+# ![PREMIUM](/help/assets/premium.png) Feed
 
 I feed consentono di importare le entità in [!DNL Adobe Target Recommendations]. Le entità possono essere inviate tramite file CSV, il formato feed di Google Product Search e le classificazioni di prodotto Adobe Analytics.
 
@@ -20,18 +20,18 @@ I feed consentono di importare le entità in [!DNL Adobe Target Recommendations]
 
 I feed consentono di trasmettere le [Entità](/help/c-recommendations/c-products/products.md) o di implementare i dati mbox con informazioni non disponibili nella pagina o per le quali l’invio diretto dalla pagina non è sicuro, ad esempio margine, costo del venduto e così via.
 
-I feed consentono di trasmettere informazioni dettagliate sugli elementi in [!DNL Recommendations], ad esempio ID prodotto, categoria, nome, messaggio e altri attributi.
+I feed ti consentono di trasmettere informazioni dettagliate sugli elementi in [!DNL Recommendations], ad esempio ID prodotto, categoria, nome, messaggio e altri attributi.
 
 Dal file di classificazioni di prodotto di [!DNL Target] o da quello di Google Product Search puoi selezionare le colonne che desideri inviare al server di [!DNL Recommendations]. 
 
-Questi dati su ciascun elemento possono essere utilizzati per:
+Questi dati su ogni elemento possono quindi essere utilizzati per:
 
-* Visualizzare i valori nelle progettazioni
-* Definizione delle regole di inclusione dei criteri
+* Visualizza i valori nelle progettazioni
+* Definire le regole di inclusione dei criteri
 * Ordinare gli elementi in raccolte diverse
-* Applicare esclusioni alle raccomandazioni
+* Applicare esclusioni ai consigli
 
-Le descrizioni degli elementi possono essere trasmesse in [!DNL Target] utilizzando feed o mbox. Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
+Le descrizioni degli elementi possono essere passate in [!DNL Target] utilizzando feed o mbox. Se i dati vengono raccolti sia da un feed di entità sia da una mbox, viene data priorità ai dati più recenti. Solitamente i dati più recenti provengono da una mbox, in quanto questa viene visualizzata più spesso. Nel raro caso in cui i dati del feed di entità e i dati della mbox vengano inviati contemporaneamente, verranno utilizzati i secondi.
 
 Nell’elenco dei [!UICONTROL feed], accessibile da **[!UICONTROL Consigli]** > **[!UICONTROL Feed]**, sono incluse informazioni su eventuali feed creati.
 
@@ -51,7 +51,7 @@ La pagina Feed contiene le colonne seguenti:
 >Le entità caricate e gli attributi di entità scadono dopo 61 giorni. Ciò significa:
 >
 >* Il feed deve essere eseguito almeno mensilmente per garantire che il contenuto del catalogo non scada.
->* La rimozione di un elemento dal file del feed non rimuove tale elemento dal catalogo. Per rimuovere l&#39;elemento dal catalogo, eliminate manualmente l&#39;elemento tramite l&#39;interfaccia utente o l&#39;API di Target. In alternativa, modificate gli attributi articolo (ad esempio magazzino) per assicurare che l&#39;articolo sia escluso dal corrispettivo.
+>* La rimozione di un elemento dal file di feed non comporta la rimozione di tale elemento dal catalogo. Per rimuovere l’elemento dal catalogo, elimina manualmente l’elemento tramite l’interfaccia utente o l’API di Target. Oppure, modifica gli attributi dell’articolo (ad esempio l’inventario) per escludere l’articolo dal corrispettivo.
 
 
 ## Tipi di origine
@@ -90,7 +90,7 @@ La sintassi corretta è:
 
 >[!NOTE]
 >
->Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascriverlo, è necessario trasmettere un altro valore al suo posto. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare &quot;NULL&quot; o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
+>Non è possibile sovrascrivere un valore esistente con un valore vuoto. Per sovrascriverlo, è necessario passare un altro valore al suo posto. Nel caso del prezzo di vendita, una soluzione comune è quella di indicare &quot;NULL&quot; o un altro messaggio. Puoi quindi scrivere una regola di modello per escludere gli elementi con tale valore.
 
 Il prodotto è disponibile nell’interfaccia di amministrazione circa due ore dopo il corretto caricamento della relativa entità.
 
@@ -124,7 +124,7 @@ La maggior parte dei venditori caricano i prodotti in Google per far sì che que
 >
 >È necessario consentire il metodo POST sul server che ospita il contenuto del feed di Google.
 
-Poiché gli utenti [!DNL Recommendations] configurano già i feed .xml o .txt da inviare a Google tramite URL o FTP, i feed di entità accettano tali dati di prodotto e li utilizzano per creare il catalogo delle raccomandazioni. Specifica la posizione di tale feed per fare in modo che il server dei consigli recuperi i dati.
+Poiché gli utenti [!DNL Recommendations] configurano già i feed .xml o .txt per l’invio a Google tramite URL o FTP, i feed di entità accettano tali dati di prodotto e li utilizzano per creare il catalogo dei consigli. Specifica la posizione di tale feed per fare in modo che il server dei consigli recuperi i dati.
 
 Se utilizzi Google Product Search per il caricamento del feed di entità, dovrà essere presente una mbox sulla pagina in cui desideri mostrare i consigli o monitorare le visualizzazioni dei prodotti per gli algoritmi di distribuzione basati sulle visualizzazioni.
 
@@ -209,16 +209,16 @@ na3455    RipCurl Watch with Black Dial    Cutting edge matte black with round c
 
 ### Classificazioni di prodotto Analytics {#section_79E430D2C75443BEBC9AA0916A337E0A}
 
-La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, vedere [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella guida *Componenti di Analytics*. È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
+La classificazione di prodotto Analytics è l’unica classificazione disponibile per i consigli. Per ulteriori informazioni su questo file di classificazione, consulta [Informazioni sulle classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/c-classifications.html) nella guida *Componenti di Analytics* . È possibile che non tutte le informazioni necessarie per i consigli siano disponibili nell’implementazione corrente. Per aggiungere elementi al file delle classificazioni, fai quindi riferimento a questa guida.
 
 >[!IMPORTANT]
 >
->Prima di importare i dati di entità in [!DNL Recommendations] utilizzando le classificazioni dei prodotti Analytics, tenete presente che questo non è il metodo preferito.
+>Prima di importare i dati di entità in [!DNL Recommendations] utilizzando le classificazioni di prodotto Analytics, tieni presente che questo non è il metodo preferito.
 >
 > In particolare, tieni conto dei seguenti aspetti:
 >
 >* Gli aggiornamenti agli attributi di entità subiscono un ritardo aggiuntivo fino a 24 ore.
->* [!DNL Target] supporta solo classificazioni di prodotto. Lo SKU del prodotto Analytics deve corrispondere allo stesso livello del [!DNL Recommendations] `entity.id`. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
+>* [!DNL Target] supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello del codice [!DNL Recommendations] `entity.id`. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
 ## Creazione di un feed  {#steps}
@@ -236,7 +236,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Feed di prodotto Google
    * Classificazioni Analytics
 
-   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Potete anche [scaricare una guida CSV del modello](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) per formattare correttamente il feed.
+   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Puoi anche [scaricare una guida CSV del modello](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) per formattare correttamente il feed.
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
@@ -301,7 +301,7 @@ Di seguito sono riportati gli stati possibili per un feed:
 | Attesa del download | Target si sta preparando per il download del file di feed. |
 | Download del file di feed | Target sta eseguendo il download del file di feed. |
 | Importazione elementi | Target sta eseguendo l’importazione di elementi dal file di feed. |
-| Feed importato correttamente alle *ora* | Target ha importato il file di feed nel suo sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno visibili nei consigli distribuiti. Qualora non lo fossero, riprova più tardi e aggiorna la pagina contenente i consigli.<br>Note:<ul><li>Se le modifiche agli attributi di un elemento determinano l&#39;esclusione di un elemento dalle raccomandazioni, l&#39;esclusione verrà riflessa immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento *non viene più* escluso dai consigli, questo verrà applicato al successivo aggiornamento dell’algoritmo, che si verifica entro 24 ore.</li><li>Quando questo stato viene visualizzato, gli aggiornamenti potrebbero non essere ancora inclusi nell&#39;interfaccia utente di Catalog Search. In Ricerca nel catalogo viene visualizzato uno stato separato che indica quando è avvenuto l’ultimo aggiornamento del catalogo ricercabile.</li></ul> |
+| Feed importato correttamente alle *ora* | Target ha importato il file di feed nel suo sistema di distribuzione dei contenuti. Le modifiche apportate agli attributi degli elementi sono state inserite nel sistema di distribuzione dei contenuti e presto saranno visibili nei consigli distribuiti. Qualora non lo fossero, riprova più tardi e aggiorna la pagina contenente i consigli.<br>Note:<ul><li>Se le modifiche apportate agli attributi di un elemento ne determinano l’esclusione dai consigli, l’esclusione viene applicata immediatamente. Se un elemento è stato aggiunto di recente, oppure se a causa delle modifiche apportate agli attributi un elemento *non viene più* escluso dai consigli, questo verrà applicato al successivo aggiornamento dell’algoritmo, che si verifica entro 24 ore.</li><li>Quando viene visualizzato questo stato, è possibile che gli aggiornamenti non vengano ancora rispecchiati nell’interfaccia utente di Ricerca nel catalogo. In Ricerca nel catalogo viene visualizzato uno stato separato che indica quando è avvenuto l’ultimo aggiornamento del catalogo ricercabile.</li></ul> |
 | Impossibile indicizzare | L’operazione di indicizzazione non è riuscita. Riprova. |
 | Server non trovato | I percorsi FTP o URL non sono validi o sono irraggiungibili. |
 
@@ -309,7 +309,7 @@ Per aggiornare un feed (ad esempio, per apportare modifiche alla configurazione 
 
 >[!IMPORTANT]
 >
->Le entità caricate scadono dopo 61 giorni. Significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un’interruzione delle attività di Consigli. Se un elemento non è incluso in un file di feed (o altro metodo di aggiornamento entità) almeno una volta ogni 60 giorni, [!DNL Adobe Target] deduce che l&#39;elemento non è più rilevante e lo rimuove dal catalogo.
+>Le entità caricate scadono dopo 61 giorni. Significa che il file di feed deve essere caricato almeno ogni 60 giorni per evitare un’interruzione delle attività di Consigli. Se un elemento non è incluso in un file di feed (o in un altro metodo di aggiornamento entità) almeno una volta ogni 60 giorni, [!DNL Adobe Target] deduce l’elemento non è più rilevante e lo rimuove dal catalogo.
 
 ### Indicatori di stato dei feed {#section_3C8A236C5CB84C769A9E9E36B8BFABA4}
 
@@ -342,7 +342,7 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Informazioni sui feed in Recommendations (3:01)  ![badge Panoramica](/help/assets/overview.png)
+### Informazioni sui feed in Recommendations (3:01)  ![Badge panoramica](/help/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -351,7 +351,7 @@ Questo video contiene le seguenti informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creare un feed (6:44)  ![Badge di esercitazione](/help/assets/tutorial.png)
+### Creare un feed (6:44)  ![Badge tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
