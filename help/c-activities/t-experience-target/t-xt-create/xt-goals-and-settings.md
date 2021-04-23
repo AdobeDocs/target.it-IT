@@ -1,18 +1,18 @@
 ---
 keywords: impostazioni attività;obiettivi e impostazioni di targeting esperienza;obiettivi e impostazioni XT;targeting esperienza;impostazioni di reporting;metriche obiettivo;metriche di successo;metriche di successo dipendenti;impostazioni avanzate;obiettivo primario;metriche aggiuntive;finalità;priorità;durata;soluzione di reporting;obiettivo;pubblico per il reporting;quale metrica di successo deve essere raggiunta prima di incrementare questa metrica;cosa succede dopo che un utente trova questa metrica di obiettivo;note
-description: Scopri come utilizzare la pagina Goals and Settings (Obiettivi e impostazioni) in  Adobe Target per specificare le informazioni sugli obiettivi di un'attività Experience Targeting (XT).
-title: Come si specificano gli obiettivi e le impostazioni in un'attività di targeting delle esperienze?
-feature: Experience Targeting
+description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe [!DNL Target] per specificare informazioni sugli obiettivi di un’attività Targeting esperienza (XT).
+title: Come si specificano obiettivi e impostazioni in un’attività Targeting esperienze?
+feature: Targeting esperienza
+exl-id: 80cb7eff-4e9c-43d7-a3d8-7a9de79c91b9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1308'
-ht-degree: 93%
+source-wordcount: '1309'
+ht-degree: 94%
 
 ---
 
-
-# Obiettivi e impostazioni nelle attività Experience Targeting (XT)
+# Obiettivi e impostazioni nelle attività di targeting delle esperienze (XT)
 
 Nella pagina Obiettivi e impostazioni è possibile inserire le informazioni sugli obiettivi del test.
 
@@ -38,9 +38,9 @@ L’interfaccia utente e le opzioni per Priorità variano a seconda delle impost
 
 La priorità è utilizzata se più attività vengono assegnate alla stessa posizione con lo stesso pubblico. Se due o più attività vengono assegnate alla posizione, viene visualizzata l’attività con priorità maggiore.
 
-Se questa opzione non è abilitata in Amministrazione (impostazione predefinita), specificate una priorità: Bassa, Media o Alta.
+Se questa opzione non è abilitata in Amministrazione (impostazione predefinita), specifica una priorità: Bassa, Media o Alta.
 
-Per abilitare le priorità con granulosità fine, fare clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting]**, quindi attivare l&#39;opzione Attiva priorità con granulosità fine nella posizione &quot;Attiva&quot;.
+Per abilitare le priorità dettagliate, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Reporting]**, quindi attiva l&#39;opzione Abilita priorità precise.
 
 Se questa opzione è abilitata, specifica un valore compreso tra 0 e 999:
 
