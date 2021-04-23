@@ -1,20 +1,20 @@
 ---
 keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
-description: Scoprite come trasmettere dati dinamici a  offerte Adobe Target. Esplorate i casi aziendali che mostrano il motivo per cui potrebbe essere utile utilizzare le offerte dinamiche, visualizzare esempi e informazioni sull'implementazione.
-title: Come faccio a trasmettere dati dinamici alle offerte?
-feature: Experiences and Offers
+description: Scopri come trasmettere dati dinamici alle offerte Adobe [!DNL Target] . Esplora i casi aziendali che mostrano perché utilizzare offerte dinamiche e visualizza esempi e informazioni sull’implementazione.
+title: Come faccio a trasmettere i dati dinamici alle offerte?
+feature: Esperienze e offerte
+exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '518'
-ht-degree: 78%
+source-wordcount: '520'
+ht-degree: 77%
 
 ---
 
-
 # Trasmettere i dati dinamici nelle offerte
 
-Potete visualizzare dinamicamente le informazioni sui visitatori memorizzate nel profilo [!DNL Adobe Target]. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
+Puoi visualizzare in modo dinamico le informazioni sui visitatori memorizzate nel profilo [!DNL Adobe Target]. Analogamente, le informazioni relative all’attività (come il nome dell’attività o dell’esperienza) possono inoltre essere utilizzate per creare una singola offerta in grado di restituire in modo dinamico contenuti personalizzati in base agli interessi del visitatore, al comportamento passato e al profilo complessivo.
 
 ## Casi aziendali
 
@@ -52,21 +52,21 @@ Consulta ulteriori esempi in [Panoramica della progettazione](/help/c-recommenda
 
 ## Implementazione
 
-Per i parametri di profilo passati in una mbox, utilizzate la sintassi:
+Per i parametri di profilo trasmessi in una mbox, utilizza la sintassi:
 
 `${profile.parameter}`
 
-Per i parametri di profilo creati in uno script di profilo, utilizzare la sintassi seguente:
+Per i parametri di profilo creati in uno script di profilo, utilizza la sintassi:
 
 `${user.parameter}`
 
-Quando si utilizzano gli attributi dinamici in una struttura [!DNL Recommendations], è necessario inserire una barra rovesciata ( \ ) prima del simbolo del dollaro ( $ ) per consentire il corretto rendering del valore dinamico:
+Quando utilizzi gli attributi dinamici in un progetto [!DNL Recommendations], devi inserire una barra inversa ( \ ) prima del simbolo del dollaro ( $ ) affinché il valore dinamico possa essere visualizzato correttamente:
 
 `\${user.endpoint.lastViewedEntity}`
 
 Queste variabili sono sostituite con il valore sul lato server, quindi nessuna virgoletta o altro JavaScript è necessario per la visualizzazione corretta.
 
-I valori predefiniti possono essere specificati anche per i valori che si desidera esporre alle offerte. La sintassi è simile alla seguente:
+È inoltre possibile specificare i valori predefiniti per i valori che si desidera esporre alle offerte. La sintassi è simile alla seguente:
 
 `${user.testAttribute default="All Items!"}`
 
