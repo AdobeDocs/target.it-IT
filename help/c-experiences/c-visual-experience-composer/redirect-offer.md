@@ -1,20 +1,20 @@
 ---
 kewords: redirect;redirect url;send to different page
-description: Scoprite come utilizzare l'opzione Reindirizza a URL in  Adobe Target quando desiderate inviare il visitatore a una pagina diversa invece di mostrare il contenuto sulla stessa pagina.
-title: È possibile reindirizzare una pagina a un altro URL?
-feature: Visual Experience Composer (VEC)
+description: Scopri come utilizzare l’opzione Reindirizza all’URL in Adobe [!DNL Target] quando desideri inviare il visitatore a una pagina diversa anziché mostrare il contenuto della stessa pagina.
+title: Posso reindirizzare una pagina a un URL diverso?
+feature: Compositore esperienza visivo
+exl-id: bd448482-0079-4689-aa24-65ecbb31b8ae
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '434'
-ht-degree: 84%
+source-wordcount: '437'
+ht-degree: 85%
 
 ---
 
-
 # Reindirizzamento a un URL
 
-Utilizzate l&#39;opzione [!UICONTROL Reindirizza a URL] in [!DNL Adobe Target] per inviare il visitatore a una pagina diversa invece di mostrare il contenuto sulla stessa pagina.
+Utilizza l&#39;opzione [!UICONTROL Reindirizza all&#39;URL] in [!DNL Adobe Target] quando desideri inviare il visitatore a una pagina diversa anziché mostrare il contenuto della stessa pagina.
 
 Supponi di dover sottoporre a test due pagine completamente diverse, anziché semplici contenuti all&#39;interno di una pagina. In questo caso, il test A/B confronta la pagina A con la pagina B. Configura una campagna di test A/B con due esperienze: una che punta alla pagina predefinita A e l&#39;altra con reindirizza alla pagina B. Nel menu Azione esperienza, che si trova facendo clic sull&#39;etichetta della lettera dell&#39;esperienza, scegli **[!UICONTROL Reindirizza a URL]** e specifica l&#39;URL della pagina B. L&#39;offerta viene configurata per reindirizzare il visitatore a una pagina diversa.
 
