@@ -1,16 +1,16 @@
 ---
 keywords: Tracciamento clic;tracciamento dei clic;clic; AppMeasurement
-description: Scopri come  Adobe Target consente di monitorare i clic su qualsiasi elemento come metrica di successo.
-title: Cos’è Monitoraggio clic?
-feature: Success Metrics
+description: Scopri come Adobe [!DNL Target] consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo.
+title: Cos’è il tracciamento dei clic?
+feature: Metriche di successo
+exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '886'
 ht-degree: 91%
 
 ---
-
 
 # Tracciamento dei clic
 
@@ -18,7 +18,7 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->I clic di tracciamento non sono supportati nella richiesta Target globale quando viene utilizzata come posizione in un&#39;attività basata su modulo.
+>Il tracciamento dei clic non è supportato nella richiesta Target globale quando viene utilizzata come posizione in un’attività basata su moduli.
 
 ## Impostazione del tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
 
@@ -74,7 +74,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
    Per ulteriori informazioni, consulta [Navigare tra gli elementi utilizzando il percorso DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opzioni del Compositore esperienza visivo*.
 
 * È possibile passare a una pagina diversa per monitorare i clic su una pagina in cui non è possibile modificare il contenuto. Questa pagina diversa deve essere inclusa nell’attività utilizzando [la funzione multipagina](/help/c-experiences/c-visual-experience-composer/multipage-activity.md#concept_277E096063E14813AC5D8EDFA1D2ED48) e [!DNL at.js] o [!DNL mbox.js] deve essere implementato su di essa.
-* Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modificate il selettore degli elementi CSS in modo che corrisponda a più elementi.
+* Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modifica il selettore degli elementi CSS in modo che corrisponda a più elementi.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Gli eventi clic vengono inviati a [!DNL Target] nella stessa pagina del clic.
 * Se la metrica di tracciamento dei clic è la metrica di obiettivo di un&#39;attività A4T, il visitatore deve fare clic su tale elemento entro 60 secondi dal caricamento della pagina in modo da tenere traccia della metrica.
