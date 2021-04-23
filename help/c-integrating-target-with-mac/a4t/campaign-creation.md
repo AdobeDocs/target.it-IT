@@ -1,16 +1,16 @@
 ---
 keywords: a4T;A4T;Analytics come fonte di origine per i rapporti per Target
-description: Scopri come configurare un’attività in Adobe Target che utilizza Adobe Analytics come origine per la generazione di rapporti (A4T).
+description: Scopri come configurare un’attività in Adobe [!DNL Target] che utilizza Adobe Analytics come origine per la generazione di rapporti (A4T).
 title: Come si crea un’attività che utilizza A4T?
 feature: Analytics for Target (A4T)
+exl-id: 6a09764a-8bf1-4f69-b871-fb23136f933e
 translation-type: tm+mt
-source-git-commit: 4abf975095c5e29eea42d67119a426a3922d8d79
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '649'
 ht-degree: 35%
 
 ---
-
 
 # Creare un’attività che utilizza Analytics come origine per la generazione di rapporti
 
