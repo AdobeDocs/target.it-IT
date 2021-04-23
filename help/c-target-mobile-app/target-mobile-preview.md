@@ -1,19 +1,19 @@
 ---
 keywords: qa;anteprima;collegamenti di anteprima;mobile;anteprima mobile
-description: Usa i collegamenti di anteprima per dispositivi mobili per eseguire una QA end-to-end per le attività delle app mobili. Potete iscrivervi a esperienze diverse senza dispositivi di prova speciali.
-title: Come si utilizza Mobile Preview Link in Target Mobile?
-feature: Implement Mobile
+description: Utilizza i collegamenti di anteprima mobile per eseguire un controllo qualità end-to-end per le attività delle app mobili. Puoi iscriverti a diverse esperienze senza particolari dispositivi di test.
+title: Come si utilizza il collegamento di anteprima mobile in [!DNL Target] Mobile?
+feature: Implementare Mobile
 role: Developer
+exl-id: c66325b3-3995-401e-a1e3-839fdb1cf762
 translation-type: tm+mt
-source-git-commit: ce3c04494d9a5985fda36ff119bfcea8e8f18a32
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '609'
+source-wordcount: '610'
 ht-degree: 82%
 
 ---
 
-
-# Anteprima mobile di Target{#target-mobile-preview}
+# Anteprima mobile di Target
 
 Il collegamento di anteprima su dispositivi mobili ti permette di verificare il funzionamento delle attività nell’app mobile e di iscriverti a diverse esperienze direttamente dal tuo dispositivo, senza dover utilizzare particolari dispositivi di prova.
 
@@ -31,8 +31,8 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
 
    Per istruzioni su come scaricare l&#39;SDK appropriato, vedi:
 
-   * **iOS:** [prima dell&#39;](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) avvio nell&#39;Aiuto *di* Mobile Services iOS.
-   * **Android:** [prima di ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) avviare l&#39;Aiuto *di* Mobile Services per Android.
+   * **iOS:** [prima di ](https://experienceleague.adobe.com/docs/mobile-services/ios/getting-started-ios/requirements.html) iniziare la Guida iOS di  *Mobile Services*.
+   * **Android:** [prima di ](https://experienceleague.adobe.com/docs/mobile-services/android/getting-started-android/requirements.html) iniziare la Guida di  *Mobile Services per Android*.
 
 1. **Impostazione di uno schema URL:** il collegamento di anteprima utilizza uno schema URL per aprire l&#39;app. È necessario specificare uno schema URL univoco per l&#39;anteprima.
 
@@ -77,13 +77,13 @@ La funzionalità di anteprima mobile consente di testare completamente le attivi
      }
    ```
 
-   Per far funzionare l&#39;anteprima Mobile per Android, devi anche aggiungere il seguente frammento di codice in [!DNL AndroidManifest.xml] se utilizzi la versione 5 dell&#39;SDK Mobile  Adobe:
+   Per il corretto funzionamento dell’anteprima mobile su Android, è necessario aggiungere anche il seguente frammento di codice in [!DNL AndroidManifest.xml] se si utilizza la versione 5 dell’SDK di Adobe Mobile:
 
    ```javascript
    <activity android:name="com.adobe.marketing.mobile.FullscreenMessageActivity" />
    ```
 
-   Se utilizzi la versione 4 dell’SDK Mobile per  Adobe, usa il seguente frammento di codice:
+   Se utilizzi la versione 4 dell’SDK di Adobe Mobile, utilizza il seguente frammento di codice:
 
    ```javascript
    <activity android:name="com.adobe.mobile.MessageFullScreenActivity" />
