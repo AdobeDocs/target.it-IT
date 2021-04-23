@@ -1,18 +1,18 @@
 ---
 keywords: Consigli;impostazioni;preferenze;settore verticale;filtrare criteri incompatibili;gruppo host predefinito;URL base miniature;token API consigli
-description: 'Scoprite come implementare le attività di Recommendations in  Adobe Target. Assicurati che la tua implementazione soddisfi i requisiti preliminari necessari. '
+description: 'Scopri come implementare le attività Recommendations in Adobe Target. Assicurati che la tua implementazione soddisfi i requisiti prerequisiti necessari. '
 title: Come Si Implementano Le Attività Recommendations?
-feature: Recommendations
+feature: Consigli
+exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1619'
+source-wordcount: '1620'
 ht-degree: 95%
 
 ---
 
-
-# ![PREMIUMPlan e implementa Recommendations ](/help/assets/premium.png)   {#plan-and-implement-recommendations}
+# ![](/help/assets/premium.png) PREMIUMPlan e implementa Recommendations
 
 Che cosa è necessario sapere prima di creare un’attività di Consigli.
 
@@ -26,7 +26,7 @@ Che cosa è necessario sapere prima di creare un’attività di [!DNL Recommenda
 |--- |--- |--- |
 | ![Passaggio 1](/help/c-recommendations/assets/step1_red.png) | Libreria JavaScript | Ogni pagina richiede un riferimento a at.js versione 0.9.1 (o successiva) o mbox. js versione 55 (o successiva). Questo passaggio di implementazione è obbligatorio in tutte le pagine in cui verrà utilizzata un&#39;attività di Target e può includere chiavi quali un ID di prodotto o di categoria.<BR>Per informazioni su at. js, consulta [Implementazione di at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).<br>Per ulteriori informazioni su mbox.js, consulta [Implementazione di mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md). |
 | ![Passaggio 2](/help/c-recommendations/assets/step2_red.png) | Chiavi | La chiave determina il tipo di prodotto o contenuto visualizzato nei consigli. Ad esempio, la chiave può essere una categoria di prodotti. Consulta [Basare il consiglio su una Chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
-| ![Passaggio 3](/help/c-recommendations/assets/step3_red.png) | Attributi | Gli attributi forniscono informazioni più specifiche sui prodotti da mostrare. Ad esempio, potrebbe essere utile mostrare i prodotti entro una determinata fascia di prezzo, o prodotti con un certo livello di scorte. Gli attributi possono essere indicati nella mbox o attraverso un [feed](/help/c-recommendations/c-products/feeds.md).<br>Consultate  [Specificare le regole](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion) di inclusione. |
+| ![Passaggio 3](/help/c-recommendations/assets/step3_red.png) | Attributi | Gli attributi forniscono informazioni più specifiche sui prodotti da mostrare. Ad esempio, potrebbe essere utile mostrare i prodotti entro una determinata fascia di prezzo, o prodotti con un certo livello di scorte. Gli attributi possono essere indicati nella mbox o attraverso un [feed](/help/c-recommendations/c-products/feeds.md).<br>Consulta  [Specificare le regole di inclusione](/help/c-recommendations/c-algorithms/create-new-algorithm.md#inclusion). |
 | ![Passaggio 4](/help/c-recommendations/assets/step4_red.png) | Esclusioni | Le esclusioni determinano quali elementi specifici non includere nei consigli.<br>Consulta [Esclusioni](/help/c-recommendations/c-products/exclusions.md). |
 | ![Passaggio 5](/help/c-recommendations/assets/step5_red.png) | Dettagli di acquisto | I dettagli di acquisto forniscono informazioni sugli elementi acquistati e sull’ordine una volta completato l’acquisto. |
 
@@ -204,7 +204,7 @@ Nella pagina di ringraziamento può essere utile mostrare il totale dell&#39;ord
 
 Utilizza le impostazioni per gestire l’implementazione di [!DNL Recommendations].
 
-Per accedere alle opzioni [!UICONTROL Recommendations Settings], aprire [!DNL Target] in [!DNL Adobe Experience Cloud], quindi fare clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Settings]**.
+Per accedere alle opzioni [!UICONTROL Impostazioni Recommendations], apri [!DNL Target] in [!DNL Adobe Experience Cloud], quindi fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Impostazioni]**.
 
 ![](assets/recs_settings.png)
 
@@ -212,7 +212,7 @@ Sono disponibili le seguenti opzioni:
 
 | Impostazione | Descrizione |
 |--- |--- |
-| Mbox globale personalizzata | (Facoltativo) Specifica la mbox globale personalizzata utilizzata per le attività di [!DNL Target]. Per impostazione predefinita, la mbox globale utilizzata da [!DNL Target] è utilizzata per [!DNL Recommendations].<br>Nota: Questa opzione è impostata nella pagina  [!DNL Target]  Amministrazione. Apri [!DNL Target], quindi fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Visual Experience Composer (Compositore esperienza visivo)]. |
+| Mbox globale personalizzata | (Facoltativo) Specifica la mbox globale personalizzata utilizzata per le attività di [!DNL Target]. Per impostazione predefinita, la mbox globale utilizzata da [!DNL Target] viene utilizzata per [!DNL Recommendations].<br>Nota: Questa opzione è impostata nella pagina  [!DNL Target]  Amministrazione. Apri [!DNL Target], quindi fai clic su [!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo]. |
 | Settore verticale | Il settore verticale è utilizzato per aiutare a categorizzare i criteri per i consigli. Questo consente ai membri del gruppo di individuare criteri rilevanti per una determinata pagina, ad esempio quelli più adatti per la pagina del carrello o per una pagina con contenuti multimediali. |
 | Filtra criteri incompatibili | Abilita questa opzione per mostrare solo i criteri per i quali la pagina selezionata trasmette i dati richiesti. Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Per fare in modo che i criteri incompatibili siano disponibili per l’attività, deseleziona questa opzione.<br>È consigliabile disattivare l’opzione se utilizzi una soluzione di gestione tag.<br>Per ulteriori informazioni su questa opzione, consulta [Domande frequenti su Recommendations](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md). |
 | Gruppo host predefinito | Seleziona il gruppo host predefinito.<br>Il gruppo di host può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti di sviluppo e produzione, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.<br>Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell&#39;ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).<br>**Nota:** dopo aver modificato l’ambiente selezionato, fai clic su Cerca per aggiornare i risultati restituiti.<br>Il filtro [!UICONTROL Ambiente] è disponibile nelle seguenti posizioni nell’interfaccia utente [!DNL Target]:<ul><li>Ricerca nel catalogo (Recommendations > Ricerca nel catalogo)</li><li>Finestra di dialogo Crea raccolta ([!UICONTROL Recommendations > Raccolte > Crea nuova])</li><li>Finestra di dialogo Aggiorna raccolta ([!UICONTROL Recommendations > Raccolte > Modifica])</li><li>Finestra di dialogo Crea esclusione ([!UICONTROL Recommendations > Esclusioni > Crea nuova])</li><li>Finestra di dialogo Aggiorna esclusione ([!UICONTROL Recommendations > Esclusioni > Modifica])</li></ul>Per ulteriori informazioni, consulta [Host](/help/administrating-target/hosts.md). |
