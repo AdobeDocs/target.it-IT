@@ -1,21 +1,21 @@
 ---
-keywords: dedupa;consenti duplicati;escludere offerte duplicate;personalizzazione automatizzata;non consentire offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
-description: Gestire le esclusioni  attività Adobe Target  Automated Personalization (AP). Creare gruppi di esclusione ed escludere offerte duplicate, esperienze specifiche e contenuto predefinito.
-title: In che modo è possibile gestire le esclusioni  attività Automated Personalization?
-feature: Automated Personalization
+keywords: deduplicazione;consentire duplicati;escludere offerte duplicate;personalizzazione automatizzata;disabilitare offerte duplicate;escludere;contenuto predefinito;gruppo di esclusione;
+description: Gestisci le esclusioni nelle attività Adobe [!DNL Target] Automated Personalization (AP). Crea gruppi di esclusione ed esclude offerte duplicate, esperienze specifiche e contenuto predefinito.
+title: Come si gestiscono le esclusioni nelle attività di Automated Personalization?
+feature: Personalizzazione automatizzata
 solution: Target,Analytics
+exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '986'
-ht-degree: 89%
+source-wordcount: '987'
+ht-degree: 90%
 
 ---
 
-
 # ![Badge Premium](/help/assets/premium.png) Gestire le esclusioni
 
-Gestire le esclusioni creando gruppi di esclusione, escludendo le offerte duplicate, escludendo esperienze specifiche ed escludendo il contenuto predefinito nelle attività di [!UICONTROL  Automated Personalization] (AP) in [!DNL Adobe Target] [!UICONTROL  Automated Personalization] (AP).
+Gestisci le esclusioni creando gruppi di esclusione, escludendo le offerte duplicate, esperienze specifiche e contenuti predefiniti nelle attività [!UICONTROL Automated Personalization] (AP) in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP).
 
 ## Creare gruppi di esclusione {#task_AAAA6C7239A84F7696C8492F04B575A2}
 
@@ -99,7 +99,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
 **Per escludere il contenuto predefinito utilizzando il Compositore di esperienza visiva:**
 
-1. Durante la creazione o la modifica di un&#39;attività AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), selezionare il contenuto da sostituire e fare clic per accedere a **[!UICONTROL Change Text/HTML]**, **[!UICONTROL Change Image]** o **[!UICONTROL Change Background Color]**.[
+1. Durante la [creazione o modifica di un&#39;attività AP](/help/c-activities/t-automated-personalization/create-ap-activity.md), seleziona il contenuto che desideri sostituire e fai clic su per accedere a **[!UICONTROL Cambia testo/HTML]**, **[!UICONTROL Cambia immagine]** o **[!UICONTROL Cambia colore di sfondo]**.
 1. Nella finestra di dialogo, crea il nuovo contenuto e deseleziona **Includi** a destra del contenuto predefinito (oppure deseleziona Immagine/video predefinito nella schermata Seleziona contenuto).
 
    A seconda del tipo di contenuto/offerta, la casella di controllo [!UICONTROL Includi] è in un percorso leggermente diverso.
