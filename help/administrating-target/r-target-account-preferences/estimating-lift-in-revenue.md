@@ -1,25 +1,25 @@
 ---
 keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore stimato
-description: Stimate l'incremento che potreste ottenere se ogni visitatore visualizza l'esperienza vincente, se le tendenze continuano come hanno durante il test.
-title: Cosa posso stimare l'incremento delle entrate?
-feature: Administration & Configuration
+description: Stimare l’incremento che si potrebbe ottenere se ogni visitatore visualizza l’esperienza vincente, se le tendenze continuano come hanno durante il test.
+title: Cosa posso stimare l’incremento dei ricavi?
+feature: Amministrazione e configurazione
 role: Administrator
+exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 88%
 
 ---
 
+# Stimare l’Incremento dei ricavi
 
-# Stimare l’Incremento dei ricavi{#estimate-lift-in-revenue}
-
-Utilizzate [!DNL Adobe Target] per stimare l&#39;incremento delle entrate che otterreste se tutti gli utenti visualizzassero l&#39;esperienza vincente.
+Utilizza [!DNL Adobe Target] per stimare l’incremento dei ricavi potenziali se tutti gli utenti visualizzano l’esperienza vincente.
 
 >[!NOTE]
 >
->Al momento l&#39;incremento stimato non è disponibile per le attività [!UICONTROL Experience Targeting] (XT) di Experience Targeting.
+>Al momento la stima dell’incremento non è disponibile per le attività [!UICONTROL Targeting esperienza] (XT).
 
 La funzione per la stima dell’incremento è disattivata per impostazione predefinita. Può essere attivata nelle preferenze dell’account. Solo gli utenti amministratore di Experience Cloud possono abilitare o disabilitare questa funzione. Se la stima dell’incremento è disattivata, i campi corrispondenti non vengono visualizzati nell’interfaccia. La disattivazione della funzione non si traduce in una perdita di dati, compresi i dati utilizzati per le stime. Le stime si basano sui dati raccolti indipendentemente dallo stato di attivazione della funzione.
 
