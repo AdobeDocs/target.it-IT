@@ -1,16 +1,16 @@
 ---
 keywords: entità;attributi di entità;passare informazioni a Recommendations;dati comportamentali;contatore dati;definire URL relativo;visualizzare livello di inventario;definire prezzo;definire margine di profitto;attributi personalizzati
-description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a Target Recommendations.
+description: Scopri come utilizzare gli attributi di entità per trasmettere informazioni su prodotti o contenuti a [!DNL Target] Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità?
-feature: Recommendations
+feature: Consigli
+exl-id: 4ed5fad3-b8b6-4675-a741-9f85cf73fcf1
 translation-type: tm+mt
-source-git-commit: 9f844f6a6fb1d0da6790706e7a49130d69e779d9
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1079'
 ht-degree: 55%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Attributi di entità
 
@@ -31,7 +31,7 @@ In generale, se utilizzi at.js 1, l’elemento mbox delle informazioni di visual
 
 >[!NOTE]
 >
->Se utilizzi at.js 2.*x*,  `mboxCreate`  (come utilizzato nell&#39;esempio seguente) non è più supportato. Trasmettere informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Per un esempio, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
+>Se utilizzi at.js 2.*x*,  `mboxCreate`  (come utilizzato nell&#39;esempio seguente) non è più supportato. Trasmettere informazioni su prodotti o contenuti a [!DNL Recommendations] utilizzando at.js 2.*x*, utilizza  [targetPageParams](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparams.md). Ad esempio, consulta [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md).
 
 ```javascript
 <div class="mboxDefault"></div><script language="JavaScript1.2"> 
