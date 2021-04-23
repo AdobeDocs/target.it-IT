@@ -1,19 +1,19 @@
 ---
 keywords: Implementazione;mbox.js non JavaScript;redirector;costi per clic; ricavi per clic
-description: Scoprite come utilizzare i redirector nelle implementazioni e-mail, in modo simile a come utilizzate una mbox nelle attività Adobe Target .
-title: Come si utilizzano i redirector?
-feature: Implement Email
+description: Scopri come utilizzare i redirector nelle implementazioni e-mail, in modo simile a come utilizzi una mbox nelle attività di Adobe [!DNL Target] .
+title: Come si lavora con i redirector?
+feature: Implementa e-mail
 role: Developer
+exl-id: 1e7b99e4-857b-4d0f-afbd-2c5ce6bf0557
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '681'
 ht-degree: 66%
 
 ---
 
-
-# Lavorare con i redirector{#work-with-redirectors}
+# Lavorare con i redirector
 
 È possibile utilizzare un redirector in modo simile a come si utilizza una mbox nei test.
 
@@ -46,7 +46,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `yourclientcode` è il codice client dell’azienda. Il codice cliente della tua azienda è tutto minuscolo e non ha caratteri speciali.
 
-      Il codice client è disponibile nella parte superiore della pagina [!UICONTROL Amministrazione > Implementazione] dell&#39;interfaccia [!DNL Target].
+      Il codice cliente è disponibile nella parte superiore della pagina [!UICONTROL Amministrazione > Implementazione] dell’ interfaccia [!DNL Target] .
 
    * `redirectorlink_456` è il nome dell’elemento mbox redirector che appare nel tuo account, da utilizzare nelle campagne e nei test.
 
@@ -54,14 +54,14 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
    * Dove `http%3A%2F%2Fwww%2Eyourcompany%2Ecom%2Fusualdestination%2Ehtm` è la destinazione predefinita.
 
-      Deve essere codificata in URL e deve essere un riferimento assoluto. Potete utilizzare il [Riferimento codifica URL HTML](https://www.w3schools.com/tags/ref_urlencode.asp) per codificare rapidamente gli URL.
+      Deve essere codificata in URL e deve essere un riferimento assoluto. Puoi utilizzare il [riferimento HTML per la codifica degli URL](https://www.w3schools.com/tags/ref_urlencode.asp) per codificare rapidamente i tuoi URL.
 
       >[!IMPORTANT]
       >
-      >Si noti che con Redirector è possibile essere esposti al rischio di una vulnerabilità di reindirizzamento aperto. Per evitare l&#39;uso non autorizzato di collegamenti Redirector da parte di terzi, si consiglia di utilizzare &quot;host autorizzati&quot; per  inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. In Target gli host vengono utilizzati per  i domini inserire nell&#39;elenco Consentiti cui si desidera consentire i reindirizzamenti. Per ulteriori informazioni, vedere [Creare Inserire nell&#39;elenco Consentiti  che specificano gli host autorizzati a inviare chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*.
+      >Tieni presente che con Redirector puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato di collegamenti redirector da parte di terze parti, si consiglia di utilizzare &quot;host autorizzati&quot; per inserire nell&#39;elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare Inseriti nell&#39;elenco Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist) in *Host*.
 
 1. Convalida il Redirector.
-   1. *Best practice* di protezione: Assicurarsi che il dominio utilizzato nel redirector sia inserito nell&#39;elenco Consentiti, come indicato sopra. Se utilizzi un dominio non inserito nell&#39;elenco Consentiti,  Adobe bloccherà le chiamate a tale dominio per impedire agli attori malintenzionati di utilizzare il Redirector per reindirizzare a domini potenzialmente dannosi.
+   1. *Best practice* sulla sicurezza: Assicurati che il dominio utilizzato nel redirector sia inserito nell&#39;elenco Consentiti, come indicato sopra. Se utilizzi un dominio non inserito nell&#39;elenco Consentiti, Adobe bloccherà le chiamate a tale dominio per impedire agli attori dannosi di utilizzare il Redirector per reindirizzare a domini potenzialmente dannosi.
    1. Inserisci l&#39;URL del redirector in un browser e aggiornalo.
    1. Accedi all&#39;account, aggiorna l’elenco di mbox e verifica che il nuovo redirector sia presente nell&#39;elenco come una mbox.
 1. Se esegui il test di destinazioni diverse per un annuncio, crea [offerte di reindirizzamento](/help/c-experiences/c-visual-experience-composer/redirect-offer.md#task_9578678D42784F5EB9638F8AC8C911FA) per ogni versione.
@@ -88,7 +88,7 @@ Prima di poter utilizzare un redirector, è necessario crearlo.
 
 1. Invia l&#39;URL completo del redirector alla tua rete di visualizzazione annunci come destinazione dell&#39;annuncio.
 
-## Utilizzare un redirector per passare costi per clic e ricavi per clic {#concept_3078EF48E9C44B34992D62AAB9628853}
+## Utilizzare un redirector per trasmettere i costi per clic e i ricavi per clic {#concept_3078EF48E9C44B34992D62AAB9628853}
 
 Informazioni su come utilizzare un redirector per trasmettere costi per clic e ricavi per clic.
 
@@ -98,7 +98,7 @@ Puoi utilizzare un redirector per trasmettere i costi per clic.
 
 >[!NOTE]
 >
->La best practice consiste nel determinare il valore del costo utilizzando la metrica di coinvolgimento **Valutazione per visita**.
+>Si consiglia di determinare il valore del costo utilizzando la metrica di coinvolgimento **Punteggio per visita** .
 
 Aggiungi `&mboxPageValue=-value` all’URL. Nota il valore negativo.
 
@@ -115,7 +115,7 @@ Per utilizzare un redirector per trasmettere i ricavi per clic.
 
 >[!NOTE]
 >
->La best practice consiste nel determinare il valore delle entrate utilizzando la metrica di coinvolgimento **Valutazione per visita**.
+>Si consiglia di determinare il valore dei ricavi utilizzando la metrica di coinvolgimento **Punteggio per visita** .
 
 Aggiungi `&mboxPageValue=value` all’URL.
 
