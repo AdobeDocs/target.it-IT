@@ -1,24 +1,24 @@
 ---
-keywords: targeting automatico;targeting;allocazione traffico;domande frequenti;domande frequenti;domande frequenti;risoluzione dei problemi;risoluzione dei problemi;traffico
-description: Esplora argomenti sulla risoluzione dei problemi e Domande frequenti sulle attività di Auto-Target in  Adobe Target.
-title: Come Posso Risolvere I Problemi Relativi Alle Attività Di Auto-Target?
-feature: Auto-Target
+keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;FAQ;risoluzione dei problemi;risoluzione dei problemi;traffico
+description: Esplora gli argomenti relativi alla risoluzione dei problemi e le domande frequenti sulle attività di Targeting automatico in Adobe Target.
+title: Come Posso Risolvere I Problemi Relativi Alle Attività Di Targeting Automatico?
+feature: Targeting automatico
+exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1919'
 ht-degree: 68%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMArisoluzione dei problemi e domande frequenti di Target
 
-# ![Risoluzione dei problemi e domande frequenti su ](/help/assets/premium.png) PREMIUMAuto-Target
-
-Risoluzione dei problemi e domande frequenti su [!UICONTROL Auto-Target] in [!DNL Adobe Target].
+Risoluzione dei problemi e domande frequenti su [!UICONTROL Targeting automatico] in [!DNL Adobe Target].
 
 ## Domande frequenti sul Targeting automatico {#section_5C120A2B11D14D9BAF767BBAB50FED23}
 
-Consultate le seguenti domande frequenti e risposte durante l&#39;utilizzo delle attività di [!UICONTROL Auto-Target]:
+Consulta le seguenti domande frequenti e risposte mentre lavori con le attività di [!UICONTROL Targeting automatico] :
 
 ### Quali sono le procedure consigliate per impostare un’attività di [!UICONTROL Targeting automatico]?
 
@@ -33,13 +33,13 @@ Consultate le seguenti domande frequenti e risposte durante l&#39;utilizzo delle
 
 * Cerca di non apportare modifiche sostanziali alle esperienze durante il corso dell&#39;attività.
 
-### È consigliabile utilizzare Auto Target con una suddivisione 90(Control)/10(Targeting) fino alla creazione dei modelli?
+### Utilizziamo l&#39;opzione Auto [!DNL Target] con una suddivisione 90(Control)/10(Target) fino a quando i modelli non vengono generati?
 
-La suddivisione ottimale dell&#39;allocazione del traffico dipende da cosa si desidera ottenere.
+La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
-Se l&#39;obiettivo è quello di personalizzare il traffico il più possibile, potete mantenere il controllo del 90% con targeting e del 10% per la durata dell&#39;attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di esperienza degli algoritmi personalizzati rispetto al controllo, allora una divisione 50/50 è la migliore per il ciclo di vita dell&#39;attività.
+Se l’obiettivo è quello di personalizzare il traffico il più possibile, puoi mantenere un controllo del 90% mirato e del 10% per la durata dell’attività. Se l&#39;obiettivo è quello di eseguire un esperimento confrontando il livello di efficacia degli algoritmi personalizzati rispetto al controllo, allora una suddivisione 50/50 è la migliore per la durata dell&#39;attività.
 
-La best practice consiste nel mantenere la suddivisione dell&#39;allocazione del traffico per il ciclo di vita dell&#39;attività in modo che i visitatori non passino da un&#39;esperienza con targeting a un&#39;altra.
+Si consiglia di mantenere la suddivisione del traffico per la durata dell’attività in modo che i visitatori non passino da un’esperienza di targeting a quella di controllo.
 
 <!-- 
 ### Do the check marks indicating a model is built for that experience update if the report date range changes?
@@ -72,15 +72,15 @@ Se desideri apportare modifiche sostanziali al contenuto nell’attività di [!U
 
 ### Quanto tempo devo aspettare per la generazione dei modelli? {#how-long}
 
-Il tempo necessario per la creazione dei modelli nell&#39;attività [!UICONTROL Auto-Target] dipende in genere dal traffico nelle posizioni dell&#39;attività selezionate e dai tassi di conversione associati alla metrica di successo dell&#39;attività.
+Il periodo di tempo necessario alla generazione dei modelli nell&#39;attività di [!UICONTROL Targeting automatico] dipende in genere dal traffico delle posizioni dell&#39;attività selezionate e dai tassi di conversione associati alla metrica di successo dell&#39;attività.
 
-[!UICONTROL Il ] targeting automatico non tenterà di creare un modello personalizzato per una determinata esperienza fino a quando non ci saranno almeno 50 conversioni per tale esperienza. Inoltre, se il modello costruito è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; del blocco, utilizzando [una metrica nota come AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non sarà utilizzato per servire il traffico in modo personalizzato.
+[!UICONTROL Il ] Targeting automatico non tenterà di creare un modello personalizzato per una determinata esperienza fino a quando non ci saranno almeno 50 conversioni per tale esperienza. Inoltre, se il modello generato è di qualità insufficiente (come determinato dalla valutazione offline sui dati &quot;test&quot; di sospensione, utilizzando [una metrica nota come AUC](https://en.wikipedia.org/wiki/Receiver_operating_characteristic#Area_under_the_curve)), il modello non verrà utilizzato per gestire il traffico in modo personalizzato.
 
-Altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Auto-Target]:
+Alcuni altri punti da tenere a mente sulla creazione di modelli di [!UICONTROL Targeting automatico]:
 
-* Una volta che un&#39;attività è live, [!UICONTROL Auto-Target] considera fino agli ultimi 45 giorni di dati serviti in modo casuale quando si tenta di creare modelli (ad esempio, controllare il traffico, più alcuni dati serviti in modo casuale aggiuntivi conservati dal nostro algoritmo).
-* Quando [!UICONTROL Revenue per Visit] è la metrica di successo, queste attività in genere richiedono più dati per creare modelli a causa della maggiore varianza di dati che generalmente esiste nelle entrate da visita rispetto al tasso di conversione.
-* Poiché i modelli sono basati su un&#39;esperienza specifica, sostituire un&#39;esperienza con un&#39;altra significa che è necessario raccogliere il traffico sufficiente (ovvero almeno 50 conversioni) per la nuova esperienza prima di poter ricostruire i modelli personalizzati.
+* Una volta che un&#39;attività è attiva, [!UICONTROL Targeting automatico] considera fino agli ultimi 45 giorni di dati serviti in modo casuale durante il tentativo di creazione di modelli (cioè il traffico di controllo, più alcuni dati forniti in modo casuale dal nostro algoritmo).
+* Quando [!UICONTROL Ricavo per visita] è la metrica di successo, in genere queste attività richiedono più dati per generare modelli a causa della varianza di dati più elevata che esiste in genere nei ricavi da visita rispetto al tasso di conversione.
+* Poiché i modelli sono generati in base all’esperienza, sostituire un’esperienza con un’altra significa che è necessario raccogliere per la nuova esperienza un traffico sufficiente (ovvero almeno 50 conversioni) prima di poter ricostruire i modelli personalizzati.
 
 ### L’attività contiene un modello generato. Le visite a quell’esperienza sono personalizzate? 
 
@@ -98,21 +98,21 @@ Questa funzione ti permette di indirizzare tutto il traffico di controllo a una 
 
 Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come controllo](/help/c-activities/t-automated-personalization/experience-as-control.md).
 
-### Posso cambiare la metrica obiettivo a metà strada attraverso un&#39;attività di targeting automatico? {#change-metric}
+### Posso cambiare la metrica di obiettivo a metà strada attraverso un&#39;attività di Targeting automatico? {#change-metric}
 
-Non è consigliabile modificare la metrica obiettivo a metà di un&#39;attività. Sebbene sia possibile modificare la metrica di obiettivo durante un&#39;attività utilizzando l&#39;interfaccia utente [!DNL Target], è comunque necessario avviare sempre una nuova attività. Non garantiamo cosa accade se si modifica la metrica di obiettivo in un&#39;attività dopo che è in esecuzione.
+Non è consigliabile modificare la metrica obiettivo a metà strada all’interno di un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’ [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non forniamo alcuna garanzia su ciò che accade se modifichi la metrica dell’obiettivo in un’attività dopo l’esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Auto-Allocate], [!UICONTROL Auto-Target] e [!UICONTROL  Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine di reporting.
+Questa raccomandazione si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
-### Posso utilizzare l&#39;opzione Reimposta dati rapporto durante l&#39;esecuzione di un&#39;attività di targeting automatico?
+### Posso utilizzare l’opzione Ripristina dati dei rapporti durante l’esecuzione di un’attività di Targeting automatico?
 
-Non è consigliabile utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target]. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Auto-Target]. Invece di utilizzare l&#39;opzione [!UICONTROL Reimposta dati rapporto] per le attività [!UICONTROL Auto-Target], create una nuova attività e disattivate l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Auto-Allocate] e [!UICONTROL  Automated Personalization].
+L&#39;utilizzo dell&#39;opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Targeting automatico] non è consigliato. Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Targeting automatico]. Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Targeting automatico], crea una nuova attività e disattiva l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Automated Personalization].)
 
-### Cosa succede se rimuovo una singola esperienza da un&#39;attività di targeting automatico?
+### Cosa succede se rimuovo una singola esperienza da un’attività di Targeting automatico?
 
-[!DNL Target] crea un modello per esperienza, quindi rimuovendo un&#39;esperienza  [!DNL Target] si crea un modello in meno e non si influenzano i modelli per le altre esperienze.
+[!DNL Target] crea un modello per esperienza, quindi rimuovendo un’esperienza  [!DNL Target] si crea solo un modello in meno e non si influenzano i modelli per le altre esperienze.
 
-Ad esempio, se disponete di un&#39;attività [!UICONTROL Auto-Target] con otto esperienze e non vi piace le prestazioni di un&#39;esperienza. Potete rimuovere quell&#39;esperienza e ciò non influirà sui modelli per le sette esperienze rimanenti.
+Ad esempio, supponi di avere un&#39;attività [!UICONTROL Targeting automatico] con otto esperienze e di non apprezzare le prestazioni di un&#39;esperienza. È possibile rimuovere tale esperienza e non influenzerà i modelli per le sette esperienze rimanenti.
 
 ## Risoluzione dei problemi di [!UICONTROL Targeting automatico] {#section_23995AB813F24525AF294D20A20875C8}
 
@@ -149,4 +149,3 @@ Si tratta di un comportamento previsto.
 In un’attività di [!UICONTROL Targeting automatico], una volta conseguita la conversione per una metrica di conversione (che si tratti di obiettivo di ottimizzazione o di corrispondenza), l’utente viene rilasciato dall’esperienza e l’attività viene riavviata.
 
 Prendiamo ad esempio un’attività con una metrica di conversione (C1) e una metrica aggiuntiva (A1). A1 dipende da C1. Quando un visitatore accede all’attività per la prima volta e i criteri di conversione per A1 e C1 non vengono soddisfatti, la metrica A1 non consegue la conversione a causa della dipendenza dalla metrica di successo. Se il visitatore consegue la conversione per C1 e poi per A1, la conversione A1 non risulta perché, non appena ottenuta la conversione per C1, il visitatore viene rilasciato.
-
