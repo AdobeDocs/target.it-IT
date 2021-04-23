@@ -1,14 +1,14 @@
 ---
 keywords: eventi personalizzati;at.js;richiesta non riuscita;richiesta riuscita;rendering contenuti non riuscito;rendering contenuti riuscito;libreria caricata;richiedi riavvio;inizio rendering contenuti;rendering contenuti senza offerte;reindirizzamento rendering contenuti
-description: Utilizza eventi personalizzati per la libreria JavaScript at.js di Adobe Target per ricevere notifiche quando una richiesta o un’offerta mbox ha esito negativo o positivo.
+description: Utilizza eventi personalizzati per la libreria JavaScript Adobe [!DNL Target] at.js per ricevere notifiche quando una richiesta o un'offerta mbox ha esito negativo o positivo.
 title: Come si utilizzano gli eventi personalizzati at.js?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
 translation-type: tm+mt
-source-git-commit: ac4452036f4df35cd80184fc3184f7b676b642dc
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '655'
 ht-degree: 87%
 
 ---
