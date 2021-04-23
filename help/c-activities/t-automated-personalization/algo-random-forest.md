@@ -1,16 +1,16 @@
 ---
-keywords: foresta casuale;albero decisionale;app; Automated Personalization
-description: Scoprite come  Adobe Target utilizza l'algoritmo Foresta casuale sia nelle attività di  Automated Personalization (AP) che in Auto-Target.
-title: In che modo Target utilizza l'algoritmo Foresta casuale?
-feature: Automated Personalization
+keywords: foresta casuale;albero decisionale;app;Automated Personalization
+description: Scopri come Adobe [!DNL Target] utilizza l'algoritmo Foresta casuale sia nelle attività di Automated Personalization (AP) che di Targeting automatico.
+title: In che modo  [!DNL Target] utilizza l'algoritmo Foresta casuale?
+feature: Personalizzazione automatizzata
+exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '1419'
 ht-degree: 95%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Algoritmo Foresta casuale
 
@@ -43,11 +43,11 @@ Il nostro esempio comporterebbe l&#39;albero sottostante:
 
 ![](assets/decsion_tree_2.png)
 
-## Come vengono utilizzati gli alberi decisionali della Random Forest? {#section_536C105EF9F540C096D60450CAC6F627}
+## Come vengono utilizzati gli alberi decisionali da Foresta casuale? {#section_536C105EF9F540C096D60450CAC6F627}
 
 Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia, hanno alcuni svantaggi. Il problema maggiore è che si adattano “troppo” ai dati, in questo modo un singolo albero predice male i dati futuri che non sono stati utilizzati per generare l&#39;albero iniziale. Questa sfida è conosciuta come il [compromesso bias-variance](https://en.wikipedia.org/wiki/Bias%E2%80%93variance_tradeoff) nell&#39;apprendimento statistico. Gli algoritmi di Foresta casuale aiutano a superare questa sfida. Al livello più alto, una Foresta casuale è una raccolta di alberi decisionali che vengono generati in modo leggermente diverso sullo stesso insieme di dati che “vota” insieme per produrre un modello migliore rispetto a un singolo albero. Gli alberi sono generati selezionando casualmente un sottoinsieme di dati di visite con la sostituzione (nota come insaccamento), così come un sottoinsieme degli attributi, in modo che la foresta sia costituita da alberi decisionali leggermente diversi. Questo metodo introduce piccole variazioni nelle strutture create in Foresta casuale. L&#39;aggiunta in questa quantità controllata di varianza consente di migliorare la precisione predittiva dell&#39;algoritmo.
 
-## In che modo gli algoritmi di personalizzazione di Target utilizzano Random Forest? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
+## In che modo gli algoritmi di personalizzazione di Target utilizzano Foresta casuale? {#section_32FB53CAD8DF40FB9C0F1217FBDBB691}
 
 **Come vengono generati i modelli**
 
@@ -78,7 +78,7 @@ Le trasformazioni di funzionalità dipendono dal tipo di attributo. Pricipalment
 
 Per le funzionalità categoriche, viene mantenuto un insieme di tutte le funzionalità possibili e la probabilità di trasformazione viene utilizzata per ridurre la dimensione dei dati. Per le caratteristiche numeriche, il ridimensionamento assicura che le funzioni siano confrontabili a livello globale.
 
-**Equilibrare l&#39;apprendimento rispetto alla personalizzazione con il Bandito Multi-Armed**
+**Apprendimento di bilanciamento contro personalizzazione con slot machine**
 
 Una volta che Target ha generato modelli di personalizzazione per personalizzare il traffico, c&#39;è un chiaro compromesso che devi affrontare per i futuri visitatori della tua attività: dovresti personalizzare tutto il traffico in base al modello attuale o continuare a imparare dai nuovi visitatori fornendo loro offerte casuali? Vuoi assicurarti che l&#39;algoritmo di personalizzazione apprenda sempre nuove tendenze nei visitatori, personalizzando contemporaneamente la maggior parte del traffico.
 
