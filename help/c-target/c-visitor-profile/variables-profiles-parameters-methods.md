@@ -1,18 +1,18 @@
 ---
 keywords: variabili;profili;parametri;profili incorporati;metodi;variabili URL;profili geo;profili di terze parti;variabili mbox;variabili di campagna;attributi dei clienti
-description: Visualizzare un elenco di profili, variabili e parametri utili negli script di profilo in  Adobe Target.
+description: Visualizza un elenco di vari profili, variabili e parametri utili negli script di profilo in Adobe Target.
 title: Quali profili, variabili e parametri vengono utilizzati in Target?
-feature: Audiences
+feature: Tipi di pubblico
+exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '593'
 ht-degree: 88%
 
 ---
 
-
-# Glossario di profili e variabili{#profile-and-variable-glossary}
+# Glossario di profili e variabili
 
 Questa pagina elenca i profili, le variabili e i parametri utili negli script dei profili.
 
@@ -43,7 +43,7 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | user.setLocal(&#39;param_name&#39;,&#39;value&#39;); |  |
 | user.get(&#39;param_name&#39;) |  |
 | user.parameter | Attributi permanenti del profilo creati dagli script di profilo. Fa anche riferimento a profili “di sistema” come geolocalizzazione, conteggio delle visite, ecc. |
-| profile.get(&#39;param_name&#39;) | Il modo corretto per ottenere un parametro di profilo da utilizzare in uno script di profilo è il metodo profile.get(&#39;param_name&#39;). |
+| profile.get(&#39;param_name&#39;) | Il modo corretto per ottenere un parametro di profilo da utilizzare in uno script di profilo è il metodo profile.get(&#39;param_name&#39;) . |
 | profile.param(&#39;param_name&#39;); |  |
 | profile.parameter(&#39;parameter_name&#39;); | Parametri mbox che sono resi persistenti a causa del loro profilo.  Prefisso. |
 | profile.browserTime | Ora locale del browser del visitatore. Per l&#39;ora di sistema, creare un nuovo oggetto di data nello script del profilo |
@@ -92,4 +92,4 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 
 Gli attributi del cliente possono essere indicati in script di profilo, formattati come `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tenete presente che gli spazi in `datasourceName` devono essere rimossi da qualsiasi chiamata API.
+Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tieni presente che gli spazi nel `datasourceName` devono essere rimossi da qualsiasi chiamata API.
