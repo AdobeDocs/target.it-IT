@@ -1,20 +1,20 @@
 ---
-keywords: personalizzazione automatizzata;ap;audience;ensemble;foresta casuale;bandit multarmata;thompson sampling;ml;machine learning
-description: Scoprite come utilizzare  attività Automated Personalization (AP) in  Adobe Target che utilizzano l'apprendimento automatico avanzato per far corrispondere diverse varianti di offerta a ciascun visitatore.
-title: Che cos'è un'attività Automated Personalization (AP) ?
-feature: Automated Personalization
+keywords: personalizzazione automatizzata;app;tipi di pubblico;insieme;foresta casuale;slot machine;campionamento;campionamento thompson;ml;apprendimento automatico
+description: Scopri come utilizzare le attività di Automated Personalization (AP) in Adobe [!DNL Target] che utilizzano l’apprendimento automatico avanzato per abbinare diverse varianti di offerta a ogni visitatore.
+title: Che cos’è un’attività Automated Personalization (AP)?
+feature: Personalizzazione automatizzata
+exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '1032'
-ht-degree: 88%
+source-wordcount: '1033'
+ht-degree: 89%
 
 ---
 
+# ![](/help/assets/premium.png) PREMIUMAutomated Personalization (AP)
 
-# ![Personalizzazione ](/help/assets/premium.png) PREMIUMAutomated (AP)
-
-[!UICONTROL  attività Automated Personalization] (AP) in  [!DNL Adobe Target] combinazione di offerte o messaggi e utilizza l&#39;machine learning avanzato per far corrispondere diverse varianti di offerta a ogni visitatore in base al suo profilo cliente individuale, al fine di personalizzare il contenuto e promuovere l&#39;incremento.
+[!UICONTROL Le attività di Automated Personalization]  (AP) in  [!DNL Adobe Target] combinano offerte o messaggi e utilizzano l’apprendimento automatico avanzato per abbinare diverse varianti di offerta a ogni visitatore in base al suo profilo cliente individuale, al fine di personalizzare il contenuto e favorire l’incremento.
 
 >[!NOTE]
 >
@@ -22,7 +22,7 @@ ht-degree: 88%
 
 Analogamente al [!UICONTROL Targeting automatico], la [!UICONTROL Personalizzazione automatizzata] utilizza un algoritmo Foresta casuale, uno dei principali metodi di raccolta di dati scientifici, come algoritmo principale di personalizzazione per determinare l’esperienza migliore da mostrare a un visitatore. La [!UICONTROL Personalizzazione automatizzata] può essere utile nella fase di individuazione dei test. È inoltre utile per consentire all&#39;apprendimento automatico di determinare il contenuto più efficace indirizzato a diversi visitatori. Nel corso del tempo, l&#39;algoritmo impara a prevedere il contenuto più efficace e visualizza il più probabile per raggiungere i tuoi obiettivi.
 
-Per ulteriori informazioni sulle differenze tra [!UICONTROL  Automated Personalization] e [!UICONTROL Auto-Target], vedere [Auto-Target](/help/c-activities/auto-target/auto-target-to-optimize.md).
+Per ulteriori informazioni sulle differenze tra [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico], consulta [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 Gli addetti al marketing implementano un file sul sito che permette loro di selezionare rapidamente qualsiasi contenuto e quindi creare visivamente e selezionare le opzioni di contenuto aggiuntivo per tale area, utilizzando il Compositore esperienza visivo ([!UICONTROL Visual Experience Composer, VEC]). L&#39;algoritmo determina automaticamente quale parte di contenuto distribuire a ogni singolo visitatore, sulla base di tutti i dati comportamentali di cui il sistema dispone su di esso, così da fornire un&#39;esperienza personalizzata. Poiché la [!UICONTROL Personalizzazione automatizzata] può adattarsi ai cambiamenti del comportamento del visitatore, può essere eseguita senza impostare una data di termine per produrre un incremento e una personalizzazione costanti. Tale funzione è talvolta indicata come modalità di “connessione permanente”. L’addetto al marketing non deve eseguire un test, analizzare i risultati e quindi stabilire un vincitore per un’idea dell’incremento ottenuto a partire dall’ottimizzazione, il quale è un ordine standard di operazioni per implementare il risultato di una attività A/B standard.
 
@@ -74,7 +74,7 @@ I dati offline, ad esempio le informazioni CRM o i punteggi di propensione di ab
 
 Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi di [!UICONTROL personalizzazione automatizzata] e [!UICONTROL targeting automatico], consulta [Raccolta dati di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/ap-data.md).
 
-## ![Video Panoramica ](/help/assets/overview.png) badgeTraining: Tipi di attività
+## ![Video introduttivo ](/help/assets/overview.png) badgeTraining: Tipi di attività
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium]. La [!UICONTROL personalizzazione automatizzata] è discussa a partire dal minuto 5:55.
 
