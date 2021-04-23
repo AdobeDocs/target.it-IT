@@ -1,16 +1,16 @@
 ---
 keyword: traffic estimate;traffic estimator;estimate;traffic;confidence;statistical power;lift;bonferroni;conversion rate;visitors per day;duration
-description: Scoprite come utilizzare Traffic Estimator (Utilità di stima traffico) che consente di sapere se il traffico è sufficiente per garantire il successo dell'attività Test multivariato  Adobe Target.
-title: Quanto traffico è necessario per un'attività Test multivariato (MVT)?
-feature: Multivariate Tests
+description: Scopri come utilizzare il Calcolatore del traffico che ti consente di sapere se disponi di traffico sufficiente per il successo dell’attività Test multivariato di Adobe [!DNL Target] .
+title: Quanto traffico è necessario per un’attività Test multivariato (MVT)?
+feature: Test multivariati
+exl-id: 2b32f4a7-b9b4-40bf-a17b-88225bc88787
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '502'
 ht-degree: 92%
 
 ---
-
 
 # Stimare il traffico necessario per il successo del test
 
@@ -61,4 +61,3 @@ Il Calcolatore del traffico fornisce un feedback che consente di sapere se dispo
    Adegua i valori finché il Calcolatore del traffico indica che il traffico è sufficiente, quindi progetta il test di conseguenza.
 
    ![](assets/estimatorok.png)
-
