@@ -5,9 +5,9 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: f29701f5357e86b694acdf3a48fa7eace8d382cb
+source-git-commit: 7b9870fc79a41e387f557dd36edf5a7af4b443c7
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '905'
 ht-degree: 30%
 
 ---
@@ -20,7 +20,8 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 19 aprile 2021 | [Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Sono stati aggiunti i seguenti nuovi articoli:<ul><li>[Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funzioni supportate per le decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefatto della regola decisionale su dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| Aprile 26 | [Decisioni sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | È stata aggiunta la sezione Risoluzione dei problemi . |
+| Aprile 19 | [Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Sono stati aggiunti i seguenti nuovi articoli:<ul><li>[Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funzioni supportate per le decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefatto della regola decisionale su dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Sono state aggiunte informazioni su `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stato aggiunto quanto segue:<ul><li>Informazioni sulla chiave `decisioningMethod` .</li><li>Un esempio per &quot;getCallOffers() per prendere una decisione sul dispositivo.&quot;</li></ul> |
 |  | [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Sono state aggiunte le seguenti informazioni:<ul><li>Artefatto decisionale su dispositivo completato</li><li>Artefatto decisionale su dispositivo non riuscito</li></ul> |
