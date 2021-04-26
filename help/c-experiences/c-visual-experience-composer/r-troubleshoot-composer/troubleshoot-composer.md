@@ -1,20 +1,20 @@
 ---
 keywords: Targeting;compositore esperienza visivo;compositore esperienza visivo avanzato;VEC;risoluzione dei problemi del compositore esperienza visivo;risoluzione dei problemi;compositore esperienza avanzato;TLS;TLS 1.2
-description: Scoprite come risolvere i problemi che talvolta si verificano in Visual Experience Composer (VEC) e Enhanced Experience Composer (EEC) in determinate condizioni.
-title: Come si risolve il problema con Visual Experience Composer (Compositore esperienza visivo) e Enhanced Experience Composer (Compositore esperienza avanzato)?
-feature: Visual Experience Composer (VEC)
+description: Scopri come risolvere i problemi che a volte si verificano nel Compositore esperienza visivo e nel Compositore esperienza avanzato in determinate condizioni.
+title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
+feature: Compositore esperienza visivo
+exl-id: a971627c-662e-487b-bf0c-f73d196e3e71
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '252'
 ht-degree: 78%
 
 ---
 
-
 # Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato
 
-A volte si verificano problemi di visualizzazione in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC) e in [!UICONTROL Enhanced Experience Composer] (EEC) a determinate condizioni.
+A volte si verificano problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) e nel [!UICONTROL Compositore esperienza avanzato] (EEC) in determinate condizioni.
 
 Il Compositore esperienza visivo è una delle funzionalità principali di [!DNL Adobe Target]. Il Compositore esperienza visivo è un editor che consente agli addetti al marketing e ai designer di creare e modificare il contenuto mediante un’interfaccia visiva, che permette di operare molte scelte di progettazione senza dover intervenire direttamente sul codice. Il compositore offre anche opzioni per modificare il codice HTML e JavaScript.
 
