@@ -6,9 +6,9 @@ feature: Privacy e sicurezza
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '1160'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -33,7 +33,7 @@ Istruzioni per lavorare con [!DNL Adobe] Client Care per implementare il support
    >
    >L’autorità di certificazione di Adobe, DigiCert, non può rilasciare un certificato fino al completamento di questo passaggio. Pertanto, [!DNL Adobe] non può soddisfare la richiesta di implementazione CNAME fino al completamento di questo passaggio.
 
-1. [Compila questo ](https://experienceleague.adobe.com/docs/core-services/assets/FPC_Request_Form.xlsx?lang=en) modulo e includilo quando  [apri un ticket di assistenza clienti Adobe per richiedere il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME:
+1. [Compila questo ](/help/assets/FPC_Request_Form.xlsx) modulo e includilo quando  [apri un ticket di assistenza clienti Adobe per richiedere il supporto](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) CNAME:
 
    * Adobe di codice client [!DNL Target]:
    * Nomi host del certificato SSL (esempio: `target.example.com target.example.org`):
