@@ -5,22 +5,16 @@ title: Come posso risolvere i problemi di On-Device Decisioning con la libreria 
 feature: at.js
 role: Developer
 translation-type: tm+mt
-source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
+source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '257'
 ht-degree: 0%
 
 ---
 
 # Risoluzione dei problemi relativi alle decisioni sul dispositivo per at.js
 
-Completa i seguenti passaggi per risolvere i problemi relativi alle decisioni sui dispositivi in Adobe Target con la libreria JavaScript at.js :
-
-1. Abilita il registro della console per at.js
-1. Verifica il download dell’artefatto della regola nella scheda Rete del browser
-1. Verifica il download dell’artefatto della regola utilizzando gli eventi personalizzati at.js
-
-Le sezioni seguenti descrivono ogni passaggio in modo più dettagliato:
+Completa i seguenti passaggi per risolvere i problemi relativi alle decisioni sul dispositivo in [!DNL Adobe Target] con la libreria JavaScript at.js:
 
 ## Passaggio 1: Abilita il registro della console per at.js
 
