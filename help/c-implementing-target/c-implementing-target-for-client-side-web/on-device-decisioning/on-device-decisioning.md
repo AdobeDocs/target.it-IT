@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
 translation-type: tm+mt
-source-git-commit: ee314b04ece148b453f64a8e5d0374b94fdaed33
+source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
-source-wordcount: '3748'
-ht-degree: 6%
+source-wordcount: '3506'
+ht-degree: 7%
 
 ---
 
@@ -329,63 +329,3 @@ Puoi filtrare tutte le attività che possono essere prese con decisioni sul disp
 1. Crea e attiva un tipo di attività [supportato dalle decisioni sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md) e verifica che le decisioni sul dispositivo siano idonee.
 1. Imposta il **[!UICONTROL Metodo di decisione]** su **[!UICONTROL &quot;Hybrid&quot;]** o **[!UICONTROL &quot;On-device only&quot;]** tramite l’interfaccia utente delle impostazioni di at.js.
 1. Scarica e distribuisci at.js 2.5.0+ nelle tue pagine.
-
-## Risoluzione dei problemi relativi al
-
-Completa i seguenti passaggi per risolvere i problemi relativi alle decisioni sul dispositivo:
-
-1. Abilita il registro della console per at.js
-1. Verifica il download dell’artefatto della regola nella scheda Rete del browser
-1. Verifica il download dell’artefatto della regola utilizzando gli eventi personalizzati at.js
-
-Le sezioni seguenti descrivono ogni passaggio in modo più dettagliato:
-
-### Passaggio 1: Abilita il registro della console per at.js
-
-L’aggiunta del parametro URL `mboxDebug=1` consente ad at.js di stampare i messaggi nella console del browser in uso.
-
-Tutti i messaggi contengono il prefisso &quot;AT:&quot; per una comoda panoramica. Per verificare che un artefatto sia stato caricato correttamente, il registro della console deve contenere messaggi simili ai seguenti:
-
-```
-AT: LD.ArtifactProvider fetching artifact - https://assets.adobetarget.com/your-client-cide/production/v1/rules.json
-AT: LD.ArtifactProvider artifact received - status=200
-```
-
-La figura seguente mostra questi messaggi nel registro della console:
-
-![Registro della console con messaggi di artefatto](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/browser-console.png)
-
-### Passaggio 2: Verifica il download dell’artefatto della regola nella scheda Rete del browser
-
-Apri la scheda Rete del browser.
-
-Ad esempio, per aprire DevTools in Google Chrome:
-
-1. Premere Ctrl+Maiusc+J (Windows) o Comando+Opzione+J (Mac).
-1. Passa alla scheda Rete .
-1. Filtra le chiamate per parola chiave &quot;rules.json&quot; per assicurarti che venga visualizzato solo il file delle regole di artefatto.
-
-   Inoltre, puoi filtrare per &quot;/delivery|rules.json/&quot; per visualizzare tutte le chiamate [!DNL Target] e le regole di artefatto.json.
-
-   ![Scheda Rete in Google Chrome](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/assets/rule-json.png)
-
-### Passaggio 3: Verifica il download dell’artefatto della regola utilizzando gli eventi personalizzati at.js
-
-La libreria at.js invia due nuovi eventi personalizzati per supportare le decisioni sui dispositivi.
-
-* `adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`
-* `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`
-
-Puoi abbonarti per ascoltare questi eventi personalizzati nella tua applicazione e intervenire in caso di successo o guasto del download del file delle regole di artefatto.
-
-L’esempio seguente mostra un esempio di codice che ascolta gli eventi di successo e di errore del download degli artefatti:
-
-```javascript
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED, function(e) { 
-  console.log("Artifact successfully downloaded", e.detail);
-}, false);
-
-document.addEventListener(adobe.target.event.ARTIFACT_DOWNLOAD_FAILED, function(e) { 
-  console.log("Artifact failed to download", e.detail);
-}, false);
-```
