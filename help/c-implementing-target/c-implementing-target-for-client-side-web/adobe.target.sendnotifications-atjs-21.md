@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 71b7167d-729c-4d43-8f54-f43619e14f32
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 500fcd353c1faee05bdaa45359ed4c7b0034f1f1
 workflow-type: tm+mt
-source-wordcount: '634'
-ht-degree: 95%
+source-wordcount: '635'
+ht-degree: 94%
 
 ---
 
@@ -58,7 +58,7 @@ Questa funzione invia una notifica al server Edge di Target quando viene eseguit
 | Request > notifications > view > key | Stringa | No | `<=` 512 caratteri. | Chiave visualizzazione. Chiave impostata per la visualizzazione tramite l’API. |
 | Request > notifications > view > state | Stringa | No |  | Token dello stato della visualizzazione. |
 
-**Nota**: i seguenti caratteri sono consentiti per `Request > notifications > mbox > name`:
+**Nota**: I seguenti caratteri non sono  ** consentiti per  `Request > notifications > mbox > name`:
 
 ```
 - '-, ./=`:;&!@#$%^&*()+|?~[]{}'
