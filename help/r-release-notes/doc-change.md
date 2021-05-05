@@ -5,10 +5,10 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
 workflow-type: tm+mt
-source-wordcount: '932'
-ht-degree: 30%
+source-wordcount: '957'
+ht-degree: 29%
 
 ---
 
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 5 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione del caffè della community Adobe Target Q&amp;A che si terrà mercoledì 12 maggio 2021 alle 8.00. (PDT, GMT-7). |
 | Aprile 27 | [Impostazioni dei cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Argomento aggiornato per indicare che la durata del cookie (`deviceIdLifetime`) è sovrascrittura nella versione 2.3.1 o successiva di at.js. |
 |  | [Guida di Adobe Target](/help/target-home.md) | Sono state aggiunte informazioni su Adobe Summit. |
 | Aprile 26 | [Risoluzione dei problemi relativi alle decisioni sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nuovo argomento. |
