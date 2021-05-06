@@ -5,10 +5,10 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
+source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 27%
+source-wordcount: '1074'
+ht-degree: 26%
 
 ---
 
@@ -21,6 +21,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Maggio 6 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?</li></ul> |
+|  | [Decisioni su dispositivi](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente post sul blog Adobe Tech Blog:<ul><li>Parte 1: Eseguire l’SDK Adobe Target NodeJS per la sperimentazione e la personalizzazione sulle piattaforme Edge (Akamai Edge Workers)</li></ul> |
 | Maggio 5 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione del caffè della community Adobe Target Q&amp;A che si terrà mercoledì 12 maggio 2021 alle 8.00. (PDT, GMT-7). |
 | Aprile 27 | [Impostazioni dei cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Argomento aggiornato per indicare che la durata del cookie (`deviceIdLifetime`) è sovrascrittura nella versione 2.3.1 o successiva di at.js. |
 |  | [Guida di Adobe Target](/help/target-home.md) | Sono state aggiunte informazioni su Adobe Summit. |
