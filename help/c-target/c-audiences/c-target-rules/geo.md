@@ -6,10 +6,10 @@ feature: Tipi di pubblico
 solution: Target,Analytics
 exl-id: e4a71a4d-e8f3-4f94-a1a7-fd250f4d5095
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
-source-wordcount: '997'
-ht-degree: 69%
+source-wordcount: '993'
+ht-degree: 62%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 69%
 
 Utilizza i tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting degli utenti in base alla loro posizione geografica, compreso il loro paese, stato/provincia, città, CAP, DMA o gestore di telefonia mobile.
 
-I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al relativo paese, Stato/provincia, città, codice postale, latitudine, longitudine, DMA o gestore di telefonia mobile. Questi dati vengono inviati con ogni richiesta di Target e si basano sull’indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
+I parametri di geolocalizzazione consentono di eseguire il targeting di campagne ed esperienze in base alla posizione geografica dei visitatori. Puoi includere o escludere i visitatori in base al relativo paese, Stato/provincia, città, codice postale, latitudine, longitudine, DMA o gestore di telefonia mobile. Questi dati vengono inviati con ogni richiesta [!DNL Target] e si basano sull&#39;indirizzo IP del visitatore. Seleziona questi parametri come qualsiasi altro valore di targeting.
 
 ## Creare un pubblico con geotargeting {#section_49CBFFAAC8694C4AAD3DE4B2DB7B05DE}
 
@@ -44,7 +44,7 @@ I parametri di geolocalizzazione consentono di eseguire il targeting di campagne
 1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Salva]**.
 
-L’illustrazione seguente mostra un pubblico che include gli utenti che accedono all’attività da una latitudine maggiore di 44° e una longitudine minore di 22°.
+L’illustrazione seguente mostra un pubblico che include gli utenti che accedono all’attività da una latitudine maggiore di 44° e una longitudine inferiore a 22°.
 
 ![](assets/target_geo.png)
 
@@ -116,7 +116,7 @@ Ad esempio, utilizza:
 
 **Come funziona il geotargeting per i dispositivi mobili?**
 
-La maggior parte degli utenti di dispositivi mobili accede al contenuto tramite WiFi, il che significa che il geotargeting basato su IP di Target è preciso quanto quello su un desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39; [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
+La maggior parte degli utenti di dispositivi mobili accede ai contenuti tramite WiFi, il che significa che il geotargeting basato su IP di [!DNL Target] è preciso quanto quello di un desktop. Le connessioni basate su stazioni cellulari possono essere meno precise in quanto l&#39;indirizzo IP del visitatore si basa sulla stazione dalla quale viene prelevato il segnale. Alcuni problemi di geolocalizzazione mobile possono essere risolti utilizzando l&#39; [API di geolocalizzazione](https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API).
 
 **Come vengono gestiti i visitatori provenienti da AOL nella funzione Geo?**
 
@@ -133,7 +133,7 @@ A causa del modo in cui AOL proxy il traffico, [!DNL Target] può eseguire il ta
 
 **Come posso testare le mie attività simulando di essere un utente proveniente da una posizione diversa?**
 
-* **at.js 1.*x***: Puoi sovrascrivere l’indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il  `mboxOverride.browserIp url` parametro . Quindi, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata a visitatori di Aukland in Nuova Zelanda, utilizza lo stile di URL proposto di seguito supponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
+* **at.js 1.*x***: Puoi sovrascrivere l’indirizzo IP con un indirizzo IP di una posizione diversa e utilizzare il  `mboxOverride.browserIp url` parametro . Quindi, se la tua azienda è nel Regno Unito ma la campagna globale è indirizzata ai visitatori di Auckland, Nuova Zelanda, utilizza questo stile di URL presupponendo che `60.234.0.39` sia un indirizzo IP di Auckland:
 
    `https://www.mycompany.com?mboxOverride.browserIp=60.234.0.39`
 
@@ -143,7 +143,7 @@ A causa del modo in cui AOL proxy il traffico, [!DNL Target] può eseguire il ta
    >
    >`mboxOverride.browserIp` è supportato in at.js 1.*x*. Questa funzionalità non è supportata in at.js 2.*x*.
 
-* **at.js 1.*x***: Per sovrascrivere l’indirizzo IP con at.js 2.*x*, installa un&#39;estensione/plug-in del browser (ad esempio X-Forwarded-For Header per Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrata-for nelle richieste di pagina.
+* **Equivalente in at.js 2.*x***: Per sovrascrivere l’indirizzo IP con at.js 2.*x*, installa un&#39;estensione/plug-in del browser (ad esempio X-Forwarded-For Header per Chrome o Firefox). Questa estensione ti consente di trasmettere l’intestazione x-inoltrata-for nelle richieste di pagina.
 
 **Come vengono mappati territori come Porto Rico e Hong Kong nella struttura di geotargeting?**
 
