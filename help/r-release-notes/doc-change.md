@@ -5,10 +5,10 @@ title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: e9ac9ae5dfec4d838b7fb3bef2f9756e4cbb61e5
+source-git-commit: eaa4266337129807714a0d1bda8f2baa87b7afbf
 workflow-type: tm+mt
-source-wordcount: '957'
-ht-degree: 29%
+source-wordcount: '1044'
+ht-degree: 27%
 
 ---
 
@@ -20,6 +20,7 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Maggio 6 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?</li></ul> |
 | Maggio 5 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione del caffè della community Adobe Target Q&amp;A che si terrà mercoledì 12 maggio 2021 alle 8.00. (PDT, GMT-7). |
 | Aprile 27 | [Impostazioni dei cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Argomento aggiornato per indicare che la durata del cookie (`deviceIdLifetime`) è sovrascrittura nella versione 2.3.1 o successiva di at.js. |
 |  | [Guida di Adobe Target](/help/target-home.md) | Sono state aggiunte informazioni su Adobe Summit. |
