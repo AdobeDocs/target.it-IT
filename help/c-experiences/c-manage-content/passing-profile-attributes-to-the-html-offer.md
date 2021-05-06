@@ -1,14 +1,14 @@
 ---
 keywords: dati dinamici;risorse;dati;offerte;offerte personalizzate;offerte personali;sostituzione token
-description: Scopri come trasmettere dati dinamici alle offerte Adobe [!DNL Target] . Esplora i casi aziendali che mostrano perché utilizzare offerte dinamiche e visualizza esempi e informazioni sull’implementazione.
+description: Scopri come passare dati dinamici in [!DNL Adobe Target] Offerte. Esplora i casi aziendali che mostrano perché utilizzare offerte dinamiche e visualizza esempi e informazioni sull’implementazione.
 title: Come faccio a trasmettere i dati dinamici alle offerte?
 feature: Esperienze e offerte
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5055efce2069d3aca7008b1d78b84c131f05faf3
 workflow-type: tm+mt
-source-wordcount: '520'
-ht-degree: 77%
+source-wordcount: '519'
+ht-degree: 78%
 
 ---
 
