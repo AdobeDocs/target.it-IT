@@ -1,20 +1,20 @@
 ---
 keywords: mvt;test multivariato;best practice per test multivariato;procedure consigliate mvt;combinazioni mvt;rapporti mvt
-description: Scoprite come migliorare le prestazioni, evitare problemi e correggere i problemi noti che possono verificarsi durante la creazione ed esecuzione di attività Test multivariato in  Adobe Target.
-title: Quali best practice per i test multivariati?
-feature: Multivariate Tests
-translation-type: tm+mt
+description: Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di attività di test multivariato in Adobe Target.
+title: Quali sono le best practice per i test multivariati?
+feature: Test multivariati
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '627'
-ht-degree: 91%
+workflow-type: ht
+source-wordcount: '629'
+ht-degree: 100%
 
 ---
 
 
 # Best practice relative ai test multivariati
 
-Suggerimenti per migliorare le prestazioni, evitare problemi e correggere i problemi noti che possono verificarsi durante la creazione ed esecuzione di attività [!UICONTROL Test multivariato] (MVT) in [!DNL Adobe Target].
+Suggerimenti per migliorare le prestazioni, evitare problemi e correggere problemi noti che potrebbero verificarsi durante la creazione ed esecuzione di attività di [!UICONTROL Test multivariato] (MVT) in [!DNL Adobe Target].
 
 ## Pianificare {#section_4D4A1F6226F042379BF48DB753608579}
 
@@ -25,7 +25,7 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere i prob
 
    Assicurati di comprendere le differenze di contenuto per ogni offerta e di creare tutte le offerte immagine, testo e HTML che prevedi di utilizzare nel test MVT.
 
-## Creare  {#section_C59C722CA82E48ABA58A4A7FA758F193}
+## Creare {#section_C59C722CA82E48ABA58A4A7FA758F193}
 
 * Non includere più combinazioni del necessario per il test.
 
@@ -44,14 +44,14 @@ Suggerimenti per migliorare le prestazioni, evitare problemi e correggere i prob
    Assicurati che con il Calcolatore del traffico sia possibile convalidare la configurazione del test in modo da poter ottenere i risultati desiderati.
 * È consigliabile che le alternative per ciascun elemento siano notevolmente diverse tra loro.
 
-## Analizzare  {#section_9A2118CF1039451681C13D9AE79A58AB}
+## Analizzare {#section_9A2118CF1039451681C13D9AE79A58AB}
 
 * Utilizza spesso il [rapporto Contributo posizione](/help/c-reports/location-contribution-report.md) per monitorare le prestazioni di ogni elemento e di ogni offerta.
 * Nel [rapporto Prestazioni esperienza](/help/c-reports/experience-performance-report.md) basa le tue decisioni sui dati riportati utilizzando i filtri Migliori 5 e Peggiori 5.
 
    L’utilizzo del filtro [!UICONTROL Tutto] rende difficile estrarre le informazioni desiderate ed è possibile che nel grafico non vengano visualizzate tutte le esperienze. Usa il filtro [!UICONTROL Tutto] per trovare un’esperienza specifica che non rientri tra le cinque migliori o peggiori.
 
-## Eseguire il followup  {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
+## Eseguire il followup {#section_1C44A767F6AB4441A3EAA8AC995F46B0}
 
 * Sebbene in [!DNL Target] sia possibile modificare un’attività live, è importante considerare che la modifica di un’attività in corso potrebbe reimpostare il test. Pertanto, i rapporti potrebbero non riconoscere alcune delle modifiche. È importante apportare modifiche alle offerte HTML solo nella libreria di offerte.
 
