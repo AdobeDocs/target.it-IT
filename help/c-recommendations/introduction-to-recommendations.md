@@ -1,14 +1,14 @@
 ---
-keywords: Recommendations;introduzione;webinar;demo
+keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività di Recommendations in Adobe [!DNL Target] che visualizzano automaticamente contenuti che potrebbero interessare ai clienti in base all'attività utente precedente o ad altri algoritmi.
-title: Cosa sono le attività di Recommendations?
+title: Quali sono le attività di Recommendations (Consigli)?
 feature: Consigli
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2115'
-ht-degree: 94%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +41,9 @@ Gli addetti al marketing utilizzano [!DNL Adobe Target] per promuovere esperienz
 * **Giochi**: le aziende di gaming usano [!DNL Target] per consigliare giochi e contenuti pertinenti agli utenti sulle loro console.
 * **Vendite B2B**: [le aziende business-to-business usano Target per consigliare video, white paper e articoli di blog ai potenziali clienti B2B; per fornire download; e per fornire assistenza ai clienti esistenti](https://theblog.adobe.com/testing-shifts-high-gear-intel).
 
-* **Viaggi**:  [Un sistema di prenotazione viaggi tedesco utilizza Target per consigliare hotel e altro ancora ai viaggiatori](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
+* **Viaggi**: [un sistema di prenotazione di viaggi tedesco utilizza Target per consigliare hotel e altri servizi ai viaggiatori](https://2017.summit.adobe.com/na/sessions/summit-online/online-2017/#17608).
 
-* **Retail**: [un grande rivenditore BB utilizza Target per consigliare categorie e prodotti di rilievo ai visitatori che ritornano sul suo sito sial dal browser che dalla sua app mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/)2.
+* **Retail**: [un grande rivenditore B2B utilizza Target per consigliare categorie e prodotti di rilievo ai visitatori che ritornano sul suo sito sial dal browser che dalla sua app mobile](https://theblog.adobe.com/optimization-personalization-b2b-powerhouse-grainger/).
 
 Questi sono solo alcuni esempi di come i nostri clienti usano Target per distribuire consigli personalizzati.
 
@@ -129,7 +129,7 @@ Un’attività di [!DNL Recommendations] è composta dai seguenti elementi:
 
 ![Illustrazione che mostra gli elementi che compongono un’attività di Consigli: pubblico, criteri e progettazioni](/help/c-recommendations/assets/intro-12.png)
 
-Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. Abbiamo già tenuto [webinar precedenti sulla creazione di tipi di pubblico](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
+Con [!DNL Target] sono già inclusi 14 tipi di pubblico, 42 criteri e 10 modelli di progettazione. Puoi personalizzare ciascuno di questi elementi o aggiungerne altri. Abbiamo già tenuto altri [webinar su come creare i tipi di pubblico](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) in [!DNL Target]. Questa sezione tratta come definire i criteri, i quali a loro volta definiscono quali articoli verranno consigliati.
 
 Target utilizza il concetto di scheda dei criteri. Una scheda di criteri è come una ricetta per la personalizzazione.
 
