@@ -2,13 +2,13 @@
 keywords: Panoramica e riferimento;tipi di attività;introduzione
 description: Scopri le nozioni di base di Adobe Target. Questo articolo ti introduce a Target, ai suoi tipi di attività e ad altre funzioni.
 title: Come si utilizza Target?
-feature: Overview
+feature: Panoramica
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
 translation-type: tm+mt
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
 workflow-type: tm+mt
 source-wordcount: '1528'
-ht-degree: 83%
+ht-degree: 85%
 
 ---
 
@@ -34,7 +34,7 @@ Target include diversi tipi di attività. La tabella seguente fornisce una panor
 | [Utilizzo dei dati di Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puoi configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per i rapporti. Questo tipo di attività richiede di collegare il tuo account [!DNL Adobe Experience Cloud] sia con [!DNL Analytics] sia con [!DNL Target]. |
 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività. |
 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting delle esperienze](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
-| [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l&#39;apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti ed effettuare le conversioni. |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | Automated Personalization (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti e promuovere le conversioni. |
 | [Consigli](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | Un consiglio determina il modo in cui un prodotto viene suggerito a un utente del sito web, a seconda delle attività dell&#39;utente sul sito.<br>Ad esempio, potrebbe essere utile incoraggiare l&#39;acquirente di uno zaino a considerare l&#39;acquisto di scarpe e bastoncini da trekking. Puoi creare un consiglio che mostra gli elementi spesso acquistati insieme con l&#39;algoritmo “Chi ha acquistato questo ha acquistato anche”. Oppure, potrebbe essere utile incoraggiare i visitatori a trascorrere più tempo sul sito multimediale, consigliando un video simile a quello che stanno visualizzando, mediante l&#39;algoritmo “Chi ha visualizzato questo ha visualizzato anche”.<br>**Nota:** ora puoi includere i consigli nelle attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Posizioni {#section_F18FBF1ED23340ED9F39C51971A4E874}
@@ -100,7 +100,7 @@ I tipi di pubblico possono essere salvati e riutilizzati in più attività, oppu
 |--- |--- |
 | Pubblico riutilizzabile | I tipi di pubblico riutilizzabili possono essere selezionati per qualsiasi attività. Se modifichi uno di questi tipi di pubblico, la modifica viene applicata a tutte le attività che lo utilizzano. |
 | Segmenti personalizzati | I segmenti personalizzati (o segmenti specifici della campagna) sono specifici per una determinata campagna in Target Classic. Vengono creati come parte della campagna e non possono essere riutilizzati in altre campagne. |
-| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Per esempi, consulta [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html) . |
+| Pubblico condiviso | Il pubblico può essere condiviso tra le diverse soluzioni [!DNL Adobe Experience Cloud]. Consulta [Tipi di pubblico](https://experienceleague.adobe.com/docs/core-services/interface/audiences/audience-library.html?lang=it) per alcuni esempi. |
 
 Per informazioni su come il profilo visitatore tiene traccia delle informazioni sui visitatori del sito, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md#concept_5E53D1A6DF224D7BAE76F4AE390B9DA1).
 
@@ -108,7 +108,7 @@ Per informazioni su come il profilo visitatore tiene traccia delle informazioni 
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Tipi di attività (9:03)  ![Badge panoramica](/help/assets/overview.png)
+### Tipi di attività (9:03) ![Icona Panoramica](/help/assets/overview.png)
 
 Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Premium].
 
@@ -118,7 +118,7 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Utilizzo del pubblico in Adobe Target (6:21) ![Badge panoramica](/help/assets/overview.png)
+### Utilizzo dei tipi di pubblico in Adobe Target (6:21) ![Icona Panoramica](/help/assets/overview.png)
 
 Questo video spiega come utilizzare i tipi di pubblico in [!DNL Target Standard/Premium].
 
