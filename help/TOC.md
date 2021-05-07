@@ -7,14 +7,14 @@ translation-type: tm+mt
 source-git-commit: a73525a7c2096235d583f54865fcdcbc4b36e7c0
 workflow-type: tm+mt
 source-wordcount: '1607'
-ht-degree: 78%
+ht-degree: 89%
 
 ---
 
 
 # Guida di Adobe Target {#using}
 
-+ [Pagina principale della guida di Adobe Target](target-home.md)
++ [Home della guida di Adobe Target](target-home.md)
 + Note sulla versione di Target {#release-notes}
    + [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md)
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
@@ -32,19 +32,19 @@ ht-degree: 78%
    + [Comprendere l’interfaccia utente di Target](/help/c-intro/understand-the-target-ui.md)
    + Kit di benvenuto Adobe Target {#welcome}
       + [Panoramica del kit di benvenuto di Target](/help/c-intro/target-welcome-kit.md)
-      + [Capitolo 1: Introduzione](/help/c-intro/target-welcome-kit-1.md)
+      + [Capitolo 1: introduzione](/help/c-intro/target-welcome-kit-1.md)
       + [Capitolo 2: Scoprite subito](/help/c-intro/target-welcome-kit-2.md)
-      + [Capitolo 3: Sviluppa idee di test e personalizzazione](/help/c-intro/target-welcome-kit-3.md)
-      + [Capitolo 4: Suggerimenti per l’utilizzo di Target](/help/c-intro/target-welcome-kit-4.md)
-      + [Capitolo 5: Ispirazione per attività di test e personalizzazione](/help/c-intro/target-welcome-kit-5.md)
-      + [Capitolo 6: Problemi facilmente evitabili](/help/c-intro/target-welcome-kit-6.md)
-      + [Capitolo 7: Creare ed eseguire la prima attività Target](/help/c-intro/target-welcome-kit-7.md)
-      + [Capitolo 8: Comunicazione dei risultati dell’attività](/help/c-intro/target-welcome-kit-8.md)
-      + [Capitolo 9: Passaggi e risorse successivi](/help/c-intro/target-welcome-kit-9.md)
+      + [Capitolo 3: Sviluppare idee di test e personalizzazione](/help/c-intro/target-welcome-kit-3.md)
+      + [Capitolo 4: suggerimenti per l’utilizzo di Target](/help/c-intro/target-welcome-kit-4.md)
+      + [Capitolo 5: ispirazione per attività di test e personalizzazione](/help/c-intro/target-welcome-kit-5.md)
+      + [Capitolo 6: problemi facilmente evitabili](/help/c-intro/target-welcome-kit-6.md)
+      + [Capitolo 7: creare ed eseguire la prima attività Target](/help/c-intro/target-welcome-kit-7.md)
+      + [Capitolo 8: comunicare i risultati dell’attività](/help/c-intro/target-welcome-kit-8.md)
+      + [Capitolo 9: passaggi successivi e risorse](/help/c-intro/target-welcome-kit-9.md)
    + [Glossario](c-intro/glossary.md)
    + [Come funziona Target](c-intro/how-target-works.md)
    + [Formazione e certificazione](c-intro/training-and-certification.md)
-   + [Video di formazione su Target Standard e Premium](c-intro/target-standard-premium-training-videos.md)
+   + [Video di formazione su Target Standard e Premium ](c-intro/target-standard-premium-training-videos.md)
    + [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](c-intro/cmp-target-standard-cheatsheet.md)
 + Amministrare Target {#administer}
    + [Panoramica sull’amministrazione di Target](administrating-target/administrating-target.md)
@@ -79,7 +79,7 @@ ht-degree: 78%
          + [Criteri cookie Google Chrome samesite](c-implementing-target/c-considerations-before-you-implement-target/c-privacy/google-chrome-samesite-cookie-policies.md)
          + [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md)
          + [Direttive Content Security Policy (CSP)](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
-         + [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+         + [Nodi edge dell’elenco Consentiti di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
       + Metodi per immettere i dati in Target {#methods}
          + [Panoramica dei metodi](c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
          + [Parametri di pagina](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/page-parameters.md)
@@ -96,14 +96,14 @@ ht-degree: 78%
       + [CNAME e Adobe Target](c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md)
    + Web lato client: implementare Target {#client-side}
       + [Panoramica: implementazione di Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md)
-      + Implementazione Adobe Experience Platform Web SDK {#aep-implementation}
+      + Implementazione di Adobe Experience Platform Web SDK {#aep-implementation}
          + [Panoramica dell’SDK web AEP](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md)
-      + Implementazione at.js {#at-js-implementation}
-         + Decisioni su dispositivi {#on-device-decisioning}
+      + Implementazione di at.js {#at-js-implementation}
+         + Decisioning sul dispositivo {#on-device-decisioning}
             + [Panoramica sulle decisioni sui dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)
             + [Funzioni supportate](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)
             + [Artefatto della regola](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)
-            + [Risoluzione dei problemi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+            + [Risoluzione dei problemi relativi al](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
          + Funzionamento di at.js {#at-js}
             + [Panoramica sul funzionamento di at.js](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
             + [Gestione at.js della visualizzazione momentanea di altri contenuti](c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md)
@@ -182,12 +182,12 @@ ht-degree: 78%
       + [Test AdBox di un&#39;immagine per e-mail](c-implementing-target/c-non-javascript-based-implementation/testing-email-image-adbox.md)
       + [Lavorare con i redirector](c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md)
 + Integrare Target con Experience Cloud {#integrate}
-   + di Analytics come origine per la generazione di rapporti per Adobe Target (A4T) {#a4t}
+   +  Analytics come origine per la generazione di rapporti per Adobe Target (A4T){#a4t}
       + [Panoramica di A4T](c-integrating-target-with-mac/a4t/a4t.md)
       + [Prima dell’implementazione](c-integrating-target-with-mac/a4t/before-implement.md)
       + [Implementazione di Analytics for Target](c-integrating-target-with-mac/a4t/a4timplementation.md)
       + [Requisiti delle autorizzazioni utente](c-integrating-target-with-mac/a4t/account-reqs.md)
-      + [Creare un’attività che utilizza Analytics come origine per la generazione di rapporti](c-integrating-target-with-mac/a4t/campaign-creation.md)
+      + [Creare un’attività che utilizza Analytics come origine per la generazione rapporti](c-integrating-target-with-mac/a4t/campaign-creation.md)
       + [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md)
       + [Utilizzare un server di tracciamento di Analytics](c-integrating-target-with-mac/a4t/analytics-tracking-server.md)
       + [Generazione di rapporti per A4T](c-integrating-target-with-mac/a4t/reporting.md)
@@ -229,27 +229,27 @@ ht-degree: 78%
          + [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Allocazione automatica {#auto-allocate}
       + [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Creare un’attività di allocazione automatica](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Creare un’attività](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
       + [L’allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Targeting automatico {#auto-target}
       + [Panoramica del Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md)
-      + [Creare un’attività di Targeting automatico](/help/c-activities/auto-target/create-auto-target.md)
+      + [Creare un’attività](/help/c-activities/auto-target/create-auto-target.md)
       + [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
-   + Personalizzazione automatizzata {#automated-personalization}
-      + [Panoramica su Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization.md)
+   + Automated Personalization {#automated-personalization}
+      + [Panoramica su Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
       + [Algoritmo Foresta casuale](c-activities/t-automated-personalization/algo-random-forest.md)
-      + [Creare un&#39;attività di personalizzazione automatizzata](c-activities/t-automated-personalization/create-ap-activity.md)
+      + [Creare un&#39;attività di Automated Personalization](c-activities/t-automated-personalization/create-ap-activity.md)
       + [Caricare dati per gli algoritmi di personalizzazione Target](c-activities/t-automated-personalization/uploading-data-for-the-target-personalization-algorithms.md)
       + [Raccolta di dati per gli algoritmi di personalizzazione Target](c-activities/t-automated-personalization/ap-data.md)
       + [Stimare il traffico necessario per il successo](c-activities/t-automated-personalization/ap-traffic-estimator.md)
       + [Anteprima delle esperienze per un test di Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
-      + [Targeting delle offerte di Personalizzazione automatizzata](c-activities/t-automated-personalization/ap-target-offers.md)
+      + [Targeting delle offerte di Automated Personalization](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestire le esclusioni](c-activities/t-automated-personalization/managing-exclusions.md)
-      + [Selezionare il controllo per l’attività Personalizzazione automatizzata o Targeting automatico](c-activities/t-automated-personalization/experience-as-control.md)
-      + [Domande frequenti sulla Personalizzazione automatizzata](c-activities/t-automated-personalization/automated-personalization-faq.md)
-      + [Anteprima delle attività Personalizzazione automatizzata con URL di anteprima dell’esperienza](c-activities/t-automated-personalization/experience-preview.md)
-      + [Risolvere i problemi relativi alla personalizzazione automatica](c-activities/t-automated-personalization/ap-trouble.md)
+      + [Selezionare il controllo per l’attività Automated Personalization o Targeting automatico](c-activities/t-automated-personalization/experience-as-control.md)
+      + [Domande frequenti sulla Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
+      + [Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza](c-activities/t-automated-personalization/experience-preview.md)
+      + [Risolvere i problemi relativi a Automated Personalization](c-activities/t-automated-personalization/ap-trouble.md)
    + Targeting esperienza {#experience-targeting}
       + [Panoramica su Targeting esperienza](c-activities/t-experience-target/experience-target.md)
       + Creare un’attività Targeting esperienze {#create-targeting}
@@ -342,7 +342,7 @@ ht-degree: 78%
          + [Risoluzione dei problemi relativi al Compositore esperienza visivo e Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
          + [Risoluzione dei problemi relativi al Compositore esperienza visivo ](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
          + [Risoluzione dei problemi relativi al Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
-         + [Abilitazione dei contenuti misti nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
+         + [Consentire contenuto misto nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Scenari di modifica delle pagine](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
          + [Estensione Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Reindirizzare a un URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
@@ -357,7 +357,7 @@ ht-degree: 78%
       + [Creare offerte remote](c-experiences/c-manage-content/about-remote-offers.md)
       + [Creare offerte JSON](c-experiences/c-manage-content/create-json-offer.md)
       + [Utilizzare i contenuti della libreria](c-experiences/c-manage-content/assets-working.md)
-      + [Contenuto di ricerca](c-experiences/c-manage-content/filter-and-search-content.md)
+      + [Ricercare contenuto ](c-experiences/c-manage-content/filter-and-search-content.md)
       + [Trasmettere i dati dinamici nelle offerte](c-experiences/c-manage-content/passing-profile-attributes-to-the-html-offer.md)
       + [Frammenti di esperienza AEM](c-experiences/c-manage-content/aem-experience-fragments.md)
 + Rapporti {#reports}
@@ -368,12 +368,12 @@ ht-degree: 78%
       + [Visualizzare più metriche in un rapporto](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Escludere i valori estremi](c-reports/c-report-settings/excluding-extreme-orders.md)
    + [Rapporto di riepilogo del Targeting automatico](c-reports/auto-target-summary-report.md)
-   + [Rapporto di riepilogo per Personalizzazione automatizzata](c-reports/reports-ap.md)
+   + [Rapporto di riepilogo per Automated Personalization](c-reports/reports-ap.md)
    + Rapporto Approfondimenti personalizzazione {#insights}
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapporto Attributi importanti](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Gruppi di reporting di offerte in Personalizzazione automatizzata](c-reports/offer-reporting-groups-in-automated-personalization.md)
+   + [Gruppi di reporting di offerte in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
    + [Rapporto Prestazioni Esperienza (MVT)](c-reports/experience-performance-report.md)
    + [Rapporto Contributo Posizione (MVT)](c-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
@@ -429,5 +429,5 @@ ht-degree: 78%
    + [Risolvere i problemi di Target](r-troubleshooting-target/troubleshooting-target.md)
    + [Limiti](r-troubleshooting-target/target-limits.md)
 + API di Target {#apis}
-   + [Panoramica API di Adobe Target](/help/api/api-overview.md)
-+ [Risorse e informazioni di contatto](cmp-resources-and-contact-information.md)
+   + [Panoramica delle API di Adobe Target](/help/api/api-overview.md)
++ [Risorse e informazioni di contatto ](cmp-resources-and-contact-information.md)
