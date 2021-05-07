@@ -1,32 +1,32 @@
 ---
-keywords: registro delle modifiche alla documentazione di target;aggiornamenti alla documentazione;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
+keywords: registro delle modifiche alla documentazione di target;documentazione di aggiornamenti;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
 description: Tieniti aggiornato con importanti aggiunte e modifiche alla documentazione del prodotto Adobe [!DNL Target] .
-title: Dove posso visualizzare gli aggiornamenti alla documentazione per Target?
+title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
 source-git-commit: 0fd1f43f7cd48123eab7d6f412babb7a670398c7
 workflow-type: tm+mt
 source-wordcount: '1074'
-ht-degree: 26%
+ht-degree: 62%
 
 ---
 
 # Modifiche alla documentazione
 
-In questa pagina sono elencate le modifiche significative apportate alla documentazione del prodotto [!DNL Adobe Target] .
+Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 aprile 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Maggio 6 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?</li></ul> |
-|  | [Decisioni su dispositivi](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente post sul blog Adobe Tech Blog:<ul><li>Parte 1: Eseguire l’SDK Adobe Target NodeJS per la sperimentazione e la personalizzazione sulle piattaforme Edge (Akamai Edge Workers)</li></ul> |
+|  | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente post sul blog Adobe Tech Blog:<ul><li>Parte 1: Eseguire l’SDK Adobe Target NodeJS per la sperimentazione e la personalizzazione sulle piattaforme Edge (Akamai Edge Workers)</li></ul> |
 | Maggio 5 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione del caffè della community Adobe Target Q&amp;A che si terrà mercoledì 12 maggio 2021 alle 8.00. (PDT, GMT-7). |
 | Aprile 27 | [Impostazioni dei cookie](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-cookies.md) | Argomento aggiornato per indicare che la durata del cookie (`deviceIdLifetime`) è sovrascrittura nella versione 2.3.1 o successiva di at.js. |
 |  | [Guida di Adobe Target](/help/target-home.md) | Sono state aggiunte informazioni su Adobe Summit. |
 | Aprile 26 | [Risoluzione dei problemi relativi alle decisioni sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md) | Nuovo argomento. |
-| Aprile 19 | [Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Sono stati aggiunti i seguenti nuovi articoli:<ul><li>[Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funzioni supportate per le decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefatto della regola decisionale su dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
+| Aprile 19 | [Decisioning sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) | Sono stati aggiunti i seguenti nuovi articoli:<ul><li>[Decisioning sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md)</li><li>[Funzioni supportate per le decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/supported-features.md)</li><li>[Artefatto della regola decisionale su dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/rule-artifact.md)</li></ul> |
 |  | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#on-device-decisioning) | Sono state aggiunte informazioni su `decisioningMethod`. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stato aggiunto quanto segue:<ul><li>Informazioni sulla chiave `decisioningMethod` .</li><li>Un esempio per &quot;getCallOffers() per prendere una decisione sul dispositivo.&quot;</li></ul> |
 |  | [Eventi personalizzati at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/atjs-custom-events.md) | Sono state aggiunte le seguenti informazioni:<ul><li>Artefatto decisionale su dispositivo completato</li><li>Artefatto decisionale su dispositivo non riuscito</li></ul> |
@@ -48,37 +48,37 @@ In questa pagina sono elencate le modifiche significative apportate alla documen
 | 29 marzo | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#persist-across-devices) | Nuove domande frequenti aggiunte:<ul><li>I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore?</li></ul> |
 | 23 marzo | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Nuove note sulla versione per la versione 2.4.1 di at.js. |
-|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiornate le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole perché gli aggiornamenti agli articoli del catalogo si riflettano sul mio sito?</li></ul> |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Il seguente paragrafo è stato aggiornato:<ul><li>Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?</li></ul> |
 | 22 marzo | [Indirizzi IP utilizzati dai server di elaborazione dei feed della funzionalità Consigli](/help/c-recommendations/c-recommendations-faq/ip-addresses-marketing-cloud.md) | Elenco aggiornato degli indirizzi IP. |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiornata la sezione &quot;Numero di entità&quot; in &quot;Entità&quot;. |
 |  | [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) | Nuove informazioni su at.js 2.** xunder &quot;Come posso testare le mie attività come se fossi un utente proveniente da una posizione diversa?&quot; |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.2.1 | È stata aggiunta la seguente sezione: <ul><li>Modifiche all&#39;indirizzo IP per i server di elaborazione dei feed Recommendations (16 marzo 2021)</li></ul> |
 | 19 marzo | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#deactivated) | Le seguenti FAQ sono state aggiunte:<ul><li>Perché continuo a vedere più impression dopo la disattivazione dell’attività?</li></ul> |
 | 12 marzo | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | È stata aggiunta la seguente nuova esercitazione:<ul><li>Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico</li></ul> |
-| 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti di dimensione dell’offerta consentiti.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
-|  | [Inserire nell&#39;elenco Consentiti nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
-|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15.99 invece di 15.99). |
+| 9 marzo | [Limiti](/help/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti consentiti di dimensione dell’offerta.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
+|  | [Inserisci nell’elenco Consentiti i nodi edge di Target](/help/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
+|  | [Attributi di entità](/help/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15,99 invece di 15.99). |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.2.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.1.1 (19 gennaio 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 febbraio | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Sono state aggiornate le seguenti domande frequenti:<ul><li>Dove possono essere applicati i segmenti in Analysis Workspace?</li></ul> |
+| 22 febbraio | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | Il seguente paragrafo è stato aggiornato:<ul><li>Dove possono essere applicati i segmenti in Analysis Workspace?</li></ul> |
 | 16 febbraio | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | È stato aggiornato il testo per la dimensione del limite dell’offerta nelle note sulla versione prerelease. |
-| 11 febbraio | [Come funziona Target](/help/c-intro/how-target-works.md) | È stata aggiornata la sezione &quot;Bots&quot;. |
-| 10 febbraio | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione di caffè Q&amp;A nella community Adobe Target mercoledì 24 febbraio 2021. |
+| 11 febbraio | [Come funziona Target](/help/c-intro/how-target-works.md) | È stata aggiornata la sezione “Bots”. |
+| 10 febbraio | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sulla pausa caffè Q&amp;A nella community Adobe Target mercoledì 24 febbraio 2021. |
 | 8 febbraio | [Anteprima mobile di Target](/help/c-target-mobile-app/target-mobile-preview.md) | È stato aggiunto lo snippet di codice da aggiungere al file AndroidManifest.xml per la versione 4 dell’SDK Adobe Mobile. |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato chiarito il seguente problema noto:<ul><li>Le raccolte, le esclusioni, i criteri e le progettazioni creati tramite API non sono visibili nell’interfaccia utente di Target e possono essere modificati solo tramite API. Allo stesso modo, se crei uno di questi elementi nell’interfaccia utente di Target e successivamente li modifichi tramite API, tali modifiche non verranno applicate nell’interfaccia utente di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.</li></ul> |
-| 1 febbraio | [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: &quot;Domande frequenti.&quot; |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato riformulato più chiaramente:<ul><li>Raccolte, esclusioni, criteri e progettazioni creati mediante API non sono visibili nell’interfaccia dell’utente Target e possono essere modificati solo tramite API. Allo stesso modo, se crei uno di questi elementi nell’interfaccia utente di Target e successivamente li modifichi tramite API, tali modifiche non verranno applicate nell’interfaccia utente di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche.</li></ul> |
+| 1 febbraio | [Rapporto di riepilogo per Automated Personalization](/help/c-reports/reports-ap.md) | È stata aggiunta una nuova sezione: “Domande frequenti”. |
 | Gennaio 27 | [Creare offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md) | Argomento aggiornato. |
 |  | [Creare offerte remote](/help/c-experiences/c-manage-content/about-remote-offers.md) | Argomento aggiornato. |
-| Gennaio 26 | [Tasso di conversione](/help/c-reports/conversion-rate.md) | È stato chiarito in che modo Target utilizza la &quot;somma dei quadrati&quot; nei test t di Student. |
-| Gennaio 22 | [Tasso di conversione](/help/c-reports/conversion-rate.md#t-test) | È stata aggiunta la seguente sezione: &quot;Perché Target consiglia di utilizzare i test t di Student?&quot; |
-| Gennaio 21 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stata aggiunta una nuova sezione: &quot;I rapporti sulle attività A4T includono una riga con un gran numero di eventi &quot;non specificati&quot;.&quot; |
-|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | È stata aggiornata la sezione seguente: &quot;Perché viene visualizzato &quot;non specificato&quot; nei rapporti di Analytics? Che cosa significa?&quot; |
-| Gennaio 20 | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuovo argomento. |
+| Gennaio 26 | [Tasso di conversione](/help/c-reports/conversion-rate.md) | È stato chiarito in che modo Target utilizza la “somma dei quadrati” nei test t di Student. |
+| Gennaio 22 | [Tasso di conversione](/help/c-reports/conversion-rate.md#t-test) | È stata aggiunta la seguente sezione: “Perché Target consiglia di utilizzare i test t di Student”? |
+| Gennaio 21 | [Risolvere i problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md) | È stata aggiunta una nuova sezione: “I rapporti sulle attività A4T includono una riga con un numero elevato di eventi ‘non specificati’”. |
+|  | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md) | È stata aggiornata la sezione seguente: Perché viene visualizzato “non specificato” nei rapporti di Analytics? Che cosa significa?&quot; |
+| Gennaio 20 | [Tutorial per Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | Nuovo argomento. |
 | Gennaio 19 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Nuove informazioni sulla versione di Target 21.1.1 (19 gennaio 2021). |
-|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il testo per il parametro `productPurchasedID` . |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto durante la copia di un&#39;attività [!UICONTROL Recommendation] con una promozione attiva. Qualsiasi modifica nell’attività duplicata influisce anche sull’attività originale e viceversa. È inclusa una soluzione alternativa temporanea. |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il testo per il parametro `productPurchasedID`. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | È stato aggiunto un problema noto durante la copia di un’attività [!UICONTROL Consiglio] con una promozione attiva. Qualsiasi modifica nell’attività duplicata influisce anche sull’attività originale e viceversa. È inclusa una soluzione alternativa temporanea. |
 |  | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.1.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
