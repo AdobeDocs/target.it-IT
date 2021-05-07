@@ -1,5 +1,5 @@
 ---
-keywords: video di formazione;youtube;video;formazione video;tutorial;tutorial;video
+keywords: video di formazione;youtube;video;formazione video;tutorial;esercitazioni;video
 description: Guarda i video di formazione per trarre il massimo da [!DNL Target] Standard and [!DNL Target] Premium.
 title: Dove posso trovare i video di formazione [!DNL Target] ?
 feature: Panoramica
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '161'
-ht-degree: 44%
+ht-degree: 78%
 
 ---
 
@@ -32,12 +32,12 @@ I video di formazione sono inclusi negli argomenti pertinenti di questa guida. F
 
 ## Adobe [!DNL Target] - Tutorials e video
 
-Una raccolta di video ed esercitazioni che evidenziano le funzionalità di Target disponibili nella pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) .
+Nella pagina [Adobe Target Experience League](https://guided.adobe.com/#recommended/solutions/target) è disponibile una raccolta di video e tutorial che evidenziano le funzionalità di Target.
 
 ![Video di Experience League](/help/c-intro/assets/experience-league.png)
 
 ## Adobe [!DNL Target] Tutorials {#tutorials}
 
-Le presentazioni video su concetti e strumenti [!DNL Target] sono disponibili nella pagina [Tutorials Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html) .
+Le presentazioni video su concetti e strumenti di [!DNL Target] sono disponibili nella pagina dedicata ai [tutorial di Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it).
 
 ![Esercitazioni di Adobe Target](/help/c-intro/assets/adobe-target-tutorials-new.png)
