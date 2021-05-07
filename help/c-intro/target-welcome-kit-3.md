@@ -1,90 +1,90 @@
 ---
-keywords: kit di benvenuto;kit di benvenuto di destinazione;introduzione;introduzione;guida introduttiva
-description: Scopri sei passaggi che delineano un processo collaudato per migliorare le idee di test e personalizzazione prima di creare attività in  Adobe Target.
+keywords: kit di benvenuto;kit di benvenuto target;intro;introduzione;guida introduttiva
+description: Scopri i sei passaggi di un processo collaudato per migliorare le idee di test e personalizzazione prima di creare attività in Adobe Target.
 title: Come posso sviluppare le mie idee di test e personalizzazione?
-feature: Overview
-translation-type: tm+mt
+feature: Panoramica
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '706'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '707'
+ht-degree: 100%
 
 ---
 
 
-# Capitolo 3: Sviluppare le idee di test e personalizzazione
+# Capitolo 3: Sviluppare idee di test e personalizzazione
 
-Per la prima attività, potete testare qualcosa di super semplice come cambiare il colore o copiare su un pulsante di chiamata all&#39;azione. Solo per bagnarti i piedi. A più lungo termine, tuttavia, sarà necessario stabilire un processo formale e ripetibile per elaborare idee per attività di test e personalizzazione che aiutino a maturare il programma di ottimizzazione e personalizzazione. I sei passaggi seguenti delineano un processo collaudato per fare proprio questo, insieme ai dettagli su cosa fare in ogni fase.
+Per la prima attività, puoi testare qualcosa di molto semplice come cambiare il colore o il testo di un pulsante di invito all’azione. Solo per fare un po’ di pratica. A lungo termine, tuttavia, vorrai stabilire un processo formale e ripetibile per elaborare idee per attività di test e personalizzazione che contribuiscano a maturare il tuo programma di ottimizzazione e personalizzazione. I sei passaggi seguenti delineano un processo collaudato per fare proprio questo, e sono completati da dettagli su cosa fare in ogni fase.
 
-![Esecuzione iterativa del diagramma della strategia di ottimizzazione e personalizzazione](/help/c-intro/assets/six-steps.png)
+![Diagramma di esecuzione iterativa della strategia di ottimizzazione e personalizzazione](/help/c-intro/assets/six-steps.png)
 
-## Passaggio 1: Strategizza
+## Passaggio 1: Elaborare una strategia
 
-Identificare le opportunità per le attività in linea con gli obiettivi aziendali.
+Identifica le opportunità per le attività in linea con gli obiettivi di business.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Attività potenziali di Brainstorming [!DNL Target] basate sulle prestazioni del sito, sull&#39;analisi della concorrenza e sui risultati dei test passati.
-* Sviluppare idee per attività di revisione, feedback e registrazione.
+* Brainstorming sulle potenziali attività [!DNL Target] basate sui dati sulle prestazioni del sito, sull’analisi della concorrenza e sui risultati dei test passati.
+* Sviluppare idee per attività di revisione, feedback e approvazione.
 
-Ad esempio, cercate una pagina sul sito con un elevato tasso di rimbalzo, considerate la causa del problema e i modi per ridurre il tasso di rimbalzo.
+Ad esempio, cerca una pagina del sito con un tasso di mancato recapito elevato, quindi considera le possibili cause del problema e possibili soluzioni per ridurre il tasso di mancato recapito.
 
-## Passaggio 2: Priorità
+## Passaggio 2: Stabilire le priorità
 
-Classifica e pianifica le attività in base all&#39;allineamento dell&#39;azienda, al livello di sforzo e al potenziale impatto.
+Classifica e programma le attività in base all’allineamento con gli obiettivi di business, al livello di impegno e al potenziale impatto.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Classificazione delle attività potenziali in base a più criteri per aumentare le probabilità di successo e allinearsi con gli obiettivi aziendali.
-* Ricercare i risultati delle esperienze passate per determinare il potenziale dei test successivi.
-* Revisione e condivisione della tabella di marcia dei test con priorità con le parti interessate interne.
+* Classificare le attività potenziali in base a più criteri per aumentare le probabilità di successo e allinearsi agli obiettivi di business.
+* Ricercare i risultati di precedenti esperienze sottoposte a test per determinare eventuali test di follow-up.
+* Rivedere e condividere con le parti interessate interne la tabella di marcia dei test, con relative priorità.
 
-Ad esempio, date la priorità a un&#39;attività di facile implementazione che possa fornire buoni risultati basati su attività simili precedenti, rispetto a una che possa fornire buoni risultati, ma che richieda sforzi e risorse tecniche significativi o che possa ottenere un push indietro da parte delle parti interessate.
+Ad esempio, assegna dai precedenza a un’attività di facile implementazione che può fornire buoni risultati in base a precedenti attività simili, rispetto a una che potrebbe fornire buoni risultati ma richiede più lavoro e risorse tecniche o che potrebbe essere rimandata dalle parti interessate.
 
-## Passaggio 3: Progettazione
+## Passaggio 3: Progettare
 
-Progettazione e sviluppo di piani di attività con informazioni dettagliate e visualizzazione dell&#39;esperienza approvata.
+Progetta e sviluppa un piano di attività con informazioni dettagliate e visualizzazioni dell’esperienza approvate.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Finalizzazione dei criteri di immissione dell&#39;attività e delle metriche necessarie per determinare le prestazioni dell&#39;attività.
-* Completamento e approvazione dei progetti finali per le esperienze di attività.
-* Documentazione dei requisiti per l&#39;attività [!DNL Target], compresi i criteri di immissione dei test, le metriche di reporting e le modifiche dell&#39;esperienza.
+* Finalizzare i criteri e le metriche di immissione dell’attività necessari per determinarne le prestazioni.
+* Completare e approvare i progetti finali per le esperienze dell’attività.
+* Documentare i requisiti per l’attività [!DNL Target], compresi i criteri di immissione dei test, le metriche per la generazione dei rapporti e le modifiche delle esperienze.
 
-Utilizzate Activity Planner, fornito più avanti nel kit di benvenuto, per documentare i dettagli dell&#39;attività, incluse le metriche che verranno utilizzate per misurare le prestazioni dell&#39;attività, ad esempio clic su un pulsante di chiamata all&#39;azione, avvii video o ricavi generati. Accertatevi di includere screenshot o immagini delle progettazioni di esperienze che pianificate di sottoporre a test o personalizzare.
+Utilizza Activity Planner, fornito più avanti nel kit di benvenuto, per documentare i dettagli dell’attività, comprese le metriche da utilizzare per misurarne le prestazioni, ad esempio i clic su un pulsante di invito all’azione, gli avvii di un video o i ricavi generati. Accertati di includere schermate o immagini delle progettazioni delle esperienze che intendi testare o personalizzare.
 
-## Passaggio 4: Creazione ed esecuzione
+## Passaggio 4: Creare ed eseguire
 
-Create ed eseguite l&#39;attività all&#39;interno di [!DNL Target], sviluppate eventuale codice, eseguite il test di QA e avviate l&#39;attività.
+Crea ed esegui l’attività in [!DNL Target], sviluppa eventuale codice, effettua test di controllo qualità e avvia l’attività.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Creazione di un&#39;attività, applicazione di eventuali audience, sviluppo di eventuale codice e applicazione di metriche all&#39;attività.
-* Protezione dell&#39;accesso da parte di tutte le parti interessate.
-* Avvio dell&#39;attività e revisione delle metriche a un&#39;ora, a 24 ore e periodicamente per la durata dell&#39;attività.
+* Creare un’attività, applicare eventuali tipi di pubblico, sviluppare eventuale codice e applicare metriche all’attività.
+* Assicurarsi l’approvazione da parte di tutte le parti interessate.
+* Avviare l’attività e rivedere le metriche a un’ora, a 24 ore e periodicamente per tutta la durata dell’attività.
 
-Ad esempio, se desiderate eseguire il targeting dei nuovi visitatori con un&#39;offerta di lightbox per il 10% del loro primo ordine, dovreste avere i vostri creativi che sviluppano la progettazione e la copia della scatola luminosa, ottenere l&#39;accesso degli interessati al progetto, far scrivere il codice per i vostri sviluppatori, QA in un ambiente di pre-produzione, e quindi avviare l&#39;attività. Quindi monitorate l&#39;attività per assicurarvi che non produca alcun impatto negativo di rilievo.
+Ad esempio, se desideri offrire ai nuovi visitatori uno sconto del 10% sul primo ordine, mediante un’offerta lightbox: chiedi ai creativi di progettare la grafica e il testo per il lightbox; ottieni l’approvazione delle parti interessate; chiedi agli sviluppatori di scrivere il codice necessario ed eseguire il controllo qualità in un ambiente di staging; quindi avvia l’attività. A questo punto, monitora l’attività per assicurarti che non produca alcun impatto negativo importante.
 
-## Passaggio 5: Analizza
+## Passaggio 5: Analizzare
 
-Analizzare le prestazioni dell&#39;attività e riepilogare i risultati, le informazioni e le raccomandazioni dell&#39;attività.
+Analizza le prestazioni dell’attività e riepiloga i risultati, gli insight ed eventuali consigli.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Sfruttare l&#39;analisi dei dati e le best practice per comprendere i risultati delle attività.
-* Analisi delle prestazioni del pubblico per trovare segmenti di visitatori importanti.
-* Documentazione di approfondimenti, risultati e raccomandazioni.
+* Sfruttare l’analisi dei dati e le best practice per comprendere i risultati delle attività.
+* Analizzare le prestazioni del pubblico per individuare segmenti di visitatori di alto valore.
+* Documentare insight, risultati e consigli.
 
-Ad esempio, potete scoprire che i visitatori di ritorno preferiscono un&#39;esperienza diversa rispetto ai nuovi visitatori.
+Ad esempio, potresti scoprire che i visitatori di ritorno preferiscono un’esperienza diversa dai nuovi visitatori.
 
-## Passaggio 6: Agisci e ripeti
+## Passaggio 6: Agire e ripetere
 
-Operazionalizzare esperienze vincenti per realizzare un valore aziendale e iterare sulle informazioni approfondite.
+È possibile utilizzare le esperienze vincenti per realizzare valore aziendale e iterare in base alle informazioni raccolte.
 
-Effettuate questa operazione tramite:
+A tale scopo:
 
-* Comunicazione di informazioni, risultati e raccomandazioni sulle attività ai soggetti interessati.
-* Ottenere l&#39;approvazione delle parti interessate da eseguire in base alle raccomandazioni di attività.
-* Definizione ed esecuzione del piano per implementare l&#39;esperienza vincente.
+* Comunicare alle parti interessate insight, risultati e consigli sull’attività.
+* Ottenere l’approvazione delle parti interessate da eseguire in base ai consigli per l’attività.
+* Definire ed eseguire il piano per implementare l’esperienza vincente.
 
-Ad esempio, se l&#39;attività lightbox è riuscita ad aumentare gli acquisti dei visitatori alla prima visita, potreste voler mantenere attiva l&#39;attività. Assicuratevi di comunicare il valore che il test ha portato a parti interessate e dirigenti utilizzando il modello di riepilogo esecutivo incluso nel kit di benvenuto. E considerare come si può riapplicare questo apprendimento; è possibile eseguire il targeting per i nuovi acquirenti con una seconda offerta per ottenere più valore da ogni cliente.
+Ad esempio, se l’attività lightbox è riuscita ad aumentare gli acquisti dei nuovi visitatori, puoi mantenerla attiva. Assicurati di comunicare alle parti interessate e ai dirigenti il valore che il test ha portato, utilizzando il modello di riepilogo esecutivo incluso nel kit di benvenuto. E considera come riapplicare quanto appreso dal test: forse è possibile indirizzare ai nuovi acquirenti anche una seconda offerta, per ottenere più valore da ogni cliente.
