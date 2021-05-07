@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 88%
+ht-degree: 89%
 
 ---
 
@@ -48,7 +48,7 @@ Le notifiche proattive sono avvisi e-mail, inviati ai clienti registrati, relati
 
 >[!NOTE]
 >
->Devi registrarti per ricevere gli avvisi. Contatta il tuo Customer Success Manager (CSM) [!DNL Adobe] o Account Executive (AE) [!DNL Adobe] per avviare il processo di registrazione.
+>Devi registrarti per ricevere gli avvisi. Contatta il tuo [!DNL Adobe] Customer Success Manager (CSM) o [!DNL Adobe] Account Executive (AE) per avviare il processo di registrazione.
 
 Le seguenti illustrazioni sono esempi di notifiche proattive con avvisi via e-mail:
 
