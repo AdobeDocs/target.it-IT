@@ -1,9 +1,9 @@
 ---
 source-git-commit: b58048fcf65b4d691a95788a7963ccdd4ecf1505
-workflow-type: tm+mt
-translation-type: tm+mt
+workflow-type: ht
+translation-type: ht
 source-wordcount: '427'
-ht-degree: 86%
+ht-degree: 100%
 
 ---
 # Articolo di Contribute
@@ -16,13 +16,13 @@ Questo progetto ha adottato il [Codice di condotta Adobe Open Source](code-of-co
 
 ## Informazioni sui contributi ai contenuti Adobe
 
-Consulta la [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html).
+Consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/help/it-IT/contributor/contributor-guide/introduction.html).
 
 Il modo in cui contribuisci dipende da chi sei e dal tipo di modifiche con cui desideri contribuire:
 
 ### Modifiche minori
 
-Se contribuisci con piccoli aggiornamenti, visita l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, usa l’interfaccia utente GitHub per apportare le modifiche. See the general [Adobe Docs contributor guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for more information.
+Se contribuisci con piccoli aggiornamenti, visita l’articolo e fai clic sul collegamento **Modifica** nell’articolo, per passare alla sorgente dell’articolo su GitHub. Quindi, usa l’interfaccia utente GitHub per apportare le modifiche. Per ulteriori informazioni, consulta la [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/help/it-IT/contributor/contributor-guide/introduction.html).
 
 Le correzioni o i chiarimenti di minore entità inviati per la documentazione e gli esempi di codice in questo repository sono coperti dalle condizioni d’uso Adobe.
 
@@ -44,14 +44,14 @@ Se sei un autore dei contenuti, un program manager o sviluppatore del team del p
 
 I collaboratori della community possono utilizzare l’interfaccia utente di GitHub per applicare modifiche di base o eseguire il fork del repository per lasciare contributi importanti.
 
-See the [Adobe Docs Contributor Guide](https://docs.adobe.com/help/en/contributor/contributor-guide/introduction.html) for details.
+Per informazioni dettagliate, consulta [Guida per i collaboratori per la documentazione di Adobe](https://docs.adobe.com/help/it-IT/contributor/contributor-guide/introduction.html).
 
 ## Come utilizzare il linguaggio Markdown per formattare l’argomento
 
 Tutti gli articoli di questo archivio sono scritti nel linguaggio Flavored Markdown di GitHub. Se non conosci il linguaggio Markdown, consulta:
 
-* [Nozioni di base sulle marcature](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
-* [Foglio di lavoro per la stampa](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
+* [Nozioni di base su Markdown](https://help.github.com/articles/getting-started-with-writing-and-formatting-on-github/)
+* [Foglio di riferimento per markdown stampabile](https://guides.github.com/pdfs/markdown-cheatsheet-online.pdf)
 
 ## Etichette
 
