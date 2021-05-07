@@ -8,21 +8,21 @@ translation-type: tm+mt
 source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
 workflow-type: tm+mt
 source-wordcount: '2940'
-ht-degree: 33%
+ht-degree: 58%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti relative ai consigli
 
-Elenco delle domande frequenti sulle attività di [!DNL Adobe Target] [!DNL Recommendations] .
+Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
 
 ## Perché [!UICONTROL Ricerca nel catalogo] non mostra i risultati corretti quando eseguo una ricerca su un attributo personalizzato con un valore numerico?
 
 Quando esegui una ricerca di catalogo su un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come un tipo di stringa anziché come valore numerico.
 
-Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [apri un problema del cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
+Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [apri un problema cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
 
-## Quanto tempo ci vuole perché gli aggiornamenti agli articoli del catalogo si riflettano sul mio sito?
+## Quanto tempo trascorre prima che gli aggiornamenti degli articoli nel catalogo vengano rispecchiati nel sito?
 
 L’intervallo di tempo e i risultati variano a seconda di come vengono aggiornati gli elementi.
 
@@ -48,11 +48,11 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 * Attributi degli articoli utilizzati in una promozione in base a una raccolta o un attributo associato all’attività.
 * Categoria di articoli in cui l’articolo viene visualizzato, per “Categoria corrente” o “Categoria preferita” nell’algoritmo “Articoli più venduti” o “Articoli più visualizzati”.
 * Classificazione degli articoli consigliati quando l’attributo modificato è un attributo personalizzato utilizzato come chiave personalizzata per un algoritmo.
-* Classificazione degli elementi consigliati in base a uno o più attributi modificati quando la logica dei consigli è &quot;Articoli con attributi simili&quot;, quando vengono utilizzati i fattori di ponderazione &quot;Somiglianza del contenuto&quot; o quando vengono utilizzati i fattori &quot;Ponderazione degli attributi&quot;.
+* Classificazione degli articoli consigliati in base a uno o più attributi modificati quando la logica dei consigli è “Articoli con attributi simili”, quando vengono utilizzati i fattori di ponderazione “Somiglianza del contenuto” o quando vengono utilizzati i fattori “Ponderazione degli attributi”.
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Gli aggiornamenti possono richiedere più di 60 minuti per riflettersi nell’interfaccia utente di Ricerca nel catalogo; La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa &quot;Aggiornamenti completati&quot;. Anche se la funzione Ricerca nel catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti sui tempi elencati sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
+>Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca nel catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti sui tempi elencati sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
 
 ## Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?
 
@@ -89,11 +89,11 @@ names.push("$escaper.escapeJavaScript($entity4.name)")
 
 ## Perché non tutti i criteri, inclusi i criteri personalizzati, sono disponibili per la selezione durante la creazione di un’attività Consigli? {#section_B2265AC8B8A94E0298D495A05C5D817F}
 
-I criteri disponibili si basano sulla categoria corrente. Quando crei offerte di consigli, il selettore degli algoritmi visualizza i criteri in base all’ID della categoria.
+I criteri disponibili si basano sulla categoria corrente. Quando si creano offerte di consigli, il selettore di algoritmi visualizza i criteri in base all’ID di categoria.
 
 Se la posizione in cui stai applicando questo criterio non contiene l’ID di categoria, sono disponibili solo alcuni criteri nella selezione algoritmi.
 
-Se utilizzi una posizione in cui l’ID categoria è presente nella mbox, il selettore dei criteri contiene tutti i criteri applicabili.
+Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
 [!DNL Target] dispone di un’impostazione  [Filter Incompatible ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Criteria (Filtra criteri incompatibili) per controllare il filtraggio intelligente del selettore dell’algoritmo.
 
@@ -124,27 +124,27 @@ Il seguente elenco contiene casi speciali in cui [!DNL Target] non visualizza la
 
 Considera le seguenti informazioni se noti che una raccolta, che in precedenza non lo era, va a zero:
 
-* Puoi salvare nuovamente la raccolta e vedere se aggiorna il numero. Salvando nuovamente, la raccolta esegue tutti gli algoritmi che utilizzano tale raccolta.
+* Puoi salvare nuovamente la raccolta e vedere se il numero si aggiorna. Salvando nuovamente, la raccolta esegue nuovamente tutti gli algoritmi che la utilizzano.
 * Stai guardando nell’ambiente giusto? Vai su [!DNL /target/products.html#recsSettings] e controlla (come mostrato di seguito).
 
    ![](assets/product_catalog.png)
 
-* L’indice è aggiornato? Vai su [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (ad esempio, &quot;indicizzato 3 ore fa&quot;). Se necessario, puoi aggiornare l’indice.
+* L’indice è aggiornato? Vai su [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, “indicizzato 3 ore fa”). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
 * Il feed è stato eseguito correttamente? Qualcuno ha cambiato la directory FTP, la password e così via?
-* [!DNL Target]In gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una qualche rappresentazione nell’interfaccia utente per l’addetto al marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere che gli aggiornamenti dell’interfaccia utente siano sincronizzati. Puoi usare [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
+* [!DNL Target]In gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una qualche rappresentazione nell’interfaccia utente per l’addetto al marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
 
 ## Qual è la differenza tra Ponderazione attributi generale e Ponderazione attributi relativa alle somiglianze di contenuti? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
 La ponderazione degli attributi esiste in due forme: “ponderazione attributi standard” e “ponderazione attributi per somiglianza di contenuti”.
 
-La “ponderazione attributi standard” si applica, se non a tutti, alla maggior parte di tipi di criteri (non solo alla Somiglianza contenuti). Questo tipo di ponderazione dà più peso a determinati valori di attributo. Nell’esempio seguente, i prodotti Nike ottengono un errore nei consigli di output.
+La “ponderazione attributi standard” si applica, se non a tutti, alla maggior parte di tipi di criteri (non solo alla Somiglianza contenuti). Questo tipo di ponderazione dà più peso a determinati valori di attributo. Nell’esempio seguente, i prodotti Nike ottengono un aumento dei consigli in uscita.
 
 ![](assets/attribute_weighting_example.png)
 
 La “ponderazione attributi per somiglianza contenuto” si applica solo ai criteri di Somiglianza contenuti.
 
-Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave dei consigli” (l’elemento attualmente visualizzato). Nel seguente esempio (marca x 16), a un visitatore che ha visualizzato le sneaker Nike, verranno probabilmente consigliati altri prodotti Nike (non necessariamente solo sneaker), invece di scarpe di altre marche. Se un visitatore sta visualizzando sneaker Adidas, è più probabile che i prodotti Adidas consigliati vengano visualizzati.
+Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave dei consigli” (l’elemento attualmente visualizzato). Nel seguente esempio (marca x 16), a un visitatore che ha visualizzato le sneaker Nike, verranno probabilmente consigliati altri prodotti Nike (non necessariamente solo sneaker), invece di scarpe di altre marche. A un visitatore che visualizza delle sneaker Adidas, verranno probabilmente consigliati prodotti Adidas.
 
 ![](assets/content_similarity_example.png)
 
@@ -152,7 +152,7 @@ Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave 
 
 [!DNL Target] a volte non può mostrare consigli a causa del basso numero di consigli disponibili.
 
-Il numero di valori generati per criterio è tre volte il numero di entità specificato nel progetto. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 3x, quindi è possibile finire con meno di 3x valori al momento della consegna. Per attenuare questa situazione, aumenta il numero di entità nella progettazione nascondendo altre entità.
+Il numero di valori generati per criterio è pari a tre volte il numero di entità specificato nel modello. Il filtro runtime (ad esempio inventario, corrispondenza degli attributi mbox) viene applicato dopo la generazione di valori 3x, quindi è possibile finire con meno di 3x valori al momento della consegna. Per limitare questa situazione, aumenta il numero di entità nel modello nascondendo altre entità.
 
 Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aumentare il numero di entità richieste. In questo esempio, il numero di entità richieste è 30 (3x10).
 
@@ -167,20 +167,20 @@ Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aum
 
 ## Qual è il limite di dimensione di una chiamata API per inserire/aggiornare prodotti? È possibile aggiornare 50.000 prodotti con una chiamata utilizzando l’API al posto di un feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
 
-[!DNL Target] impone un limite per i post di 50 MB a livello di applicazione; tuttavia, questo accade solo quando trasmetti l’intestazione del tipo di  `application/x-www-form-urlencoded` contenuto.
+[!DNL Target] impone un limite per i post di 50 MB a livello di applicazione; tuttavia, ciò si verifica solo quando trasmetti l’intestazione del tipo di contenuto `application/x-www-form-urlencoded`.
 
-Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se non riesce, puoi suddividerlo in batch. Adobe consiglia ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotti per diminuire la probabilità di un timeout a causa del carico di sistema.
+Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se questa avesse esito negativo, puoi suddividerla in batch. Adobe consiglia ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotto per diminuire la possibilità di un timeout dovuto al carico del sistema.
 
-## È necessario specificare il nome mbox per la creazione di criteri, promozioni o regole di test di modelli Recommendations? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## È necessario specificare il nome mbox per creare in Recommendations criteri, promozioni o regole di test di modelli? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
 Durante la creazione di un criterio di Consigli, promozioni o una regola di test di modelli basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
 Per selezionare il parametro desiderato:
 
-* Durante la creazione di un criterio, una promozione o una regola di test del modello, seleziona un nome di parametro dall’elenco. Inizia a digitare i primi caratteri del nome del parametro desiderato o il nome completo del parametro desiderato.
+* Durante la creazione di un criterio, una promozione o una regola di test del modello, seleziona un nome di parametro dall’elenco. Inizia a digitare i primi caratteri del nome del parametro desiderato o il suo nome completo.
 * Se ricordi il nome mbox ma non il nome del parametro, usa la casella di controllo per filtrare una mbox nota trasmettendo il parametro desiderato.
 
-Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. La regola di test di criteri, promozioni o modelli funziona in base al parametro su tutte le mbox che trasmettono tale parametro.
+Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il criterio, la promozione o la regola di test del modello funzionano sulla base del parametro su tutte le mbox che trasmettono tale parametro.
 
 Se modifichi una regola di test di criteri, una promozione o un criterio, i criteri di filtraggio vengono visualizzati con il nome mbox fornito durante la creazione.
 
@@ -190,7 +190,7 @@ Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico l
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed?  {#section_20F1AF4839A447B9889B246D6E873538}
 
-Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare la dimensione del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se la dimensione del file supera 1 GB, può idealmente essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella pagina [[!DNL Target] Limitazioni](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) sono disponibili altri limiti alla lunghezza delle colonne richieste.
+Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella [[!DNL Target] pagina Limitazioni di ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) sono disponibili altri limiti per la lunghezza delle colonne richieste.
 
 ## È possibile escludere un’entità in modo dinamico? {#exclude}
 
@@ -204,21 +204,21 @@ L’esclusione viene eseguita solo per la chiamata corrente [!DNL Target]; gli e
 >
 >Se escludi troppe entità, i consigli si comportano come se non ci fossero abbastanza entità per riempire il modello di consigli.
 
-Per escludere `entityIds`, aggiungi il token `&excludes=${mbox.excludedIds}` all’URL di contenuto dell’offerta. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
+Per escludere `entityIds` aggiungi in coda il token `&excludes=${mbox.excludedIds}` per l’URL di contenuto dell’offerta. Quando l&#39;URL di contenuto viene estratto, i parametri necessari vengono sostituiti mediante i parametri di richiesta mbox correnti.
 
 Per impostazione predefinita, questa funzione è attiva per i consigli appena creati. I consigli esistenti devono essere salvati per supportare le entità a esclusione dinamica.
 
 ## Cosa significa la risposta NO_CONTENT a volte restituita nella traccia di contenuto di Recommendations?
 
-NO_CONTENT viene restituito quando i consigli non sono disponibili per l’algoritmo e la combinazione di chiavi richiesti. In generale, questa situazione si verifica quando i backup vengono disabilitati per l&#39;algoritmo e una o più delle seguenti situazioni sono ugualmente vere:
+NO_CONTENT viene restituito quando i consigli non sono disponibili per la combinazione di algoritmo e chiave richiesta. In generale, questa situazione si verifica quando i backup vengono disabilitati per l’algoritmo e si verifica anche una o più delle seguenti situazioni:
 
 * I risultati non sono ancora pronti.
 
-   Questa situazione si verifica in genere quando si salva un’attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell’attività.
+   Questa situazione si verifica in genere al primo salvataggio di un’attività appena creata o dopo che sono state apportate modifiche alla raccolta, ai criteri o alle promozioni utilizzate nell’attività.
 
-* I risultati sono pronti, ma non ancora memorizzati nella cache del server perimetrale più vicino, per la combinazione di algoritmo/chiave richiesta.
+* I risultati sono pronti, ma non ancora memorizzati nella cache del server edge più vicino, per la combinazione di algoritmo/chiave richiesta.
 
-   La richiesta avvia un&#39;operazione di caching, quindi questo problema dovrebbe risolversi da solo dopo alcuni ricaricamenti delle pagine e/o dopo pochi minuti.
+   La richiesta avvia un’operazione di caching, quindi questo problema dovrebbe risolversi da solo dopo alcuni ricaricamenti delle pagine e/o dopo pochi minuti.
 
 * I risultati sono pronti, ma non disponibili per il valore chiave fornito.
 
@@ -226,7 +226,7 @@ NO_CONTENT viene restituito quando i consigli non sono disponibili per l’algor
 
 * Il rendering parziale del modello è disabilitato e non sono disponibili risultati sufficienti per riempire il modello.
 
-   Questa situazione si verifica in genere quando si dispone di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare situazioni, abilitare i backup e non applicare la regola di inclusione ai backup, o utilizzare i criteri in sequenza con criteri filtrati in modo meno aggressivo.
+   Questa situazione si verifica in genere quando disponi di una regola di inclusione dinamica, che filtra in modo aggressivo molti elementi dai possibili risultati. Per evitare questa situazione, abilita i backup e non applicare la regola di inclusione ai backup, o utilizza i criteri in sequenza con criteri filtrati in modo meno aggressivo.
 
 ## I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore? {#persist-across-devices}
 
