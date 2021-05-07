@@ -1,5 +1,5 @@
 ---
-keywords: Experience Cloud;accesso;lingua;lingua predefinita interfaccia utente;lingua predefinita
+keywords: Experience Cloud;accedi;lingua;lingua predefinita interfaccia;lingua predefinita
 description: Scopri come accedere all’interfaccia utente e alla documentazione di  [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] .
 title: Come posso accedere a [!DNL Target] da Adobe Experience Cloud?
 feature: Panoramica
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '398'
-ht-degree: 62%
+ht-degree: 88%
 
 ---
 
@@ -20,7 +20,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/).
 
-1. Fai clic sull&#39; **[!UICONTROL icona dell&#39;app]** nella barra di navigazione, quindi fai clic su **[!UICONTROL Target]**.
+1. Fai clic sull’**[!UICONTROL icona dell’app]** nella barra di navigazione, quindi fai clic su **[!UICONTROL Target]**.
 
    Puoi anche fare clic sul pannello [!DNL Target] nella finestra principale per accedere a [!DNL Target] (o a qualsiasi altra soluzione [!DNL Adobe Experience Cloud] a cui hai accesso).
 
@@ -32,11 +32,11 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Modificare la lingua predefinita per l’ [!DNL Target] interfaccia utente {#language}
 
-1. Dopo aver effettuato l&#39;accesso a [!DNL Adobe Experience Cloud ] o [!DNL Target], fai clic sull&#39;avatar del tuo profilo, quindi fai clic su **[!UICONTROL Modifica preferenze]**.
+1. Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud ] o [!DNL Target], fai clic sull’avatar del tuo profilo e poi su **[!UICONTROL Modifica preferenze]**.
 
    ![Modifica profilo](/help/c-intro/assets/change-language.png)
 
-1. Fai clic su **[!UICONTROL Adobe Account]** per accedere al tuo profilo [!DNL Adobe].
+1. Fai clic su **[!UICONTROL Account Adobe]** per accedere al tuo profilo [!DNL Adobe].
 
    ![Account Adobe](/help/c-intro/assets/adobe-account.png)
 
@@ -48,7 +48,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Seleziona la prima lingua (principale), quindi un’eventuale seconda lingua.
 
-   L’ [!DNL Target] interfaccia utente è disponibile nelle seguenti lingue: tuttavia, le notifiche sono disponibili in più lingue:
+   L’interfaccia utente [!DNL Target] è disponibile nelle seguenti lingue (sebbene le notifiche siano disponibili in più lingue):
 
    * Inglese
    * Spagnolo
@@ -67,13 +67,13 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 ## Modifica la lingua per la documentazione del prodotto [!DNL Target] {#doc-lang}
 
-Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). [!DNL Target]La documentazione di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
+Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione [!DNL Target] di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 
 Per passare rapidamente alla versione originale inglese, fai clic sul collegamento disponibile nell’intestazione della pagina.
 
 ![Passare alla lingua originale](/help/c-intro/assets/mt-original.png)
 
-Puoi anche cambiare rapidamente la lingua passando a una delle lingue supportate facendo clic sull’ icona Cambia lingua in alto a destra nell’intestazione della pagina ( ![cambia lingua](/help/c-intro/assets/icon-language-switcher.png) ).
+Puoi anche cambiare rapidamente la lingua passando a una delle lingue supportate facendo clic sull’ icona Cambia lingua in alto a destra nell’intestazione della pagina (![cambia lingua](/help/c-intro/assets/icon-language-switcher.png)).
 
 ![cambia lingua](/help/c-intro/assets/language-switcher.png)
 
