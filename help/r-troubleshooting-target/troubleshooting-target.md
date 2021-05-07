@@ -1,6 +1,6 @@
 ---
 keywords: risolvere problemi di Target;risoluzione problemi di Target
-description: Rivedi un elenco di argomenti che ti aiutano a risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
+description: Riguarda l’elenco di argomenti che consentono di risolvere i problemi di Adobe Target, inclusi gli argomenti relativi alla risoluzione dei problemi, le domande frequenti (FAQ) e altri argomenti utili.
 title: Come posso risolvere i problemi di Target?
 feature: Risoluzione dei problemi relativi al
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
@@ -8,7 +8,7 @@ translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 89%
+ht-degree: 97%
 
 ---
 
@@ -39,11 +39,11 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 * [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 
-### Personalizzazione automatizzata
+### Automated Personalization
 
-* [Domande frequenti sulla Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
-* [Risoluzione dei problemi di Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md)
+* [Domande frequenti sulla Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Risoluzione dei problemi di Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
+* [Rapporto di riepilogo per Automated Personalization](/help/c-reports/reports-ap.md)
 
 ### Test multivariato (MVT)
 
@@ -137,7 +137,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 * [Domande frequenti su Target per le app per dispositivi mobili](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
 
-## Decisioni su dispositivi
+## Decisioning sul dispositivo
 
 * [Risoluzione dei problemi relativi alle decisioni sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
