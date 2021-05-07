@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;faq;domande frequenti;guida di riferimento rapido;riferimento rapido
-description: Esplora un elenco di domande frequenti sull’utilizzo delle funzioni di Adobe Target, oltre a informazioni e collegamenti per ulteriori informazioni.
-title: Dove posso trovare le risposte alle mie domande di ottimizzazione e personalizzazione?
+description: Esplora un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Target, oltre a informazioni e collegamenti per ulteriori informazioni.
+title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Panoramica
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
 translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2918'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Un elenco di domande frequenti sull’utilizzo delle funzionalità di Adobe Targ
 
 **Come posso vedere come altri clienti hanno sfruttato Adobe Target per ottenere risultati migliori?**
 
-Qui ci sono solo alcune [storie di successo dei nostri clienti](https://www.adobe.com/in/marketing-cloud/target/resources.html#x). Scopri come altri clienti hanno sfruttato Target per migliorare l&#39;ottimizzazione e la personalizzazione per raggiungere gli obiettivi aziendali.
+Qui ci sono solo alcune [storie di successo dei nostri clienti](https://www.adobe.com/it/marketing-cloud/target/resources.html#x). Scopri come altri clienti hanno sfruttato Target per migliorare l&#39;ottimizzazione e la personalizzazione per raggiungere gli obiettivi aziendali.
 
 Si noti che alcuni di questi casi di studio sfruttano le funzionalità di Adobe Target Premium.
 
@@ -62,7 +62,7 @@ Utilizza i nostri [rapporti per determinare l’esperienza vincente](/help/c-act
 
 **È possibile eseguire un&#39;attività con un livello di personalizzazione come parte integrante dell&#39;attività?**
 
-Consulta l’opzione [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) .
+Consulta l’opzione [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
 **Come posso sapere quale tipo di attività si adatta meglio alle mie esigenze?**
 
@@ -133,7 +133,7 @@ Utilizza l&#39;impostazione di priorità disponibile nel passaggio 3 del flusso 
 Sono disponibili due opzioni:
 
 * Predefinita, con tre livelli (Bassa/Media/Alta)
-* Personalizzata, da 0 a 999. Per Personalizzato, abilita la funzione Priorità precise ( Amministrazione > Compositore esperienza visivo).
+* Personalizzata, da 0 a 999. Per personalizzare, abilita la funzione Priorità precise (Amministrazione > Compositore esperienza visivo).
 
 ## Tipi di pubblico {#section_FA6314777ABC46D8B198D6F388051460}
 
@@ -189,7 +189,7 @@ Prova le informazioni sulla [risoluzione dei problemi](/help/c-experiences/c-vis
 
 È anche disponibile un [approccio basato su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) che può essere d’aiuto.
 
-Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i  [inserire nell&#39;elenco Consentiti anche ](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6) i server proxy di Adobe.
+Leggi inoltre le informazioni su quando e perché il [Compositore esperienza avanzato](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) può essere utile. Potrebbe essere necessario contattare il reparto IT per inserire i [anche i proxy server di Adobe nell&#39;elenco Consentiti](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md#concept_E284B3F704C04406B174D9050A2528A6).
 
 **Ho un sito reattivo. Durante la creazione di un&#39;attività, come posso essere sicuro che sto prendendo in considerazione i dispositivi chiave?**
 
@@ -197,7 +197,7 @@ Prova la funzione dei [riquadri di visualizzazione per dispositivi mobili](/help
 
 **Ho più domini. Uno dei domini ha bisogno del Compositore esperienza avanzato, mentre altri hanno bisogno che questo sia disabilitato. Come posso fare?**
 
-È sempre possibile utilizzare l&#39;opzione [Compositore esperienza avanzato a livello di attività](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per ignorare l&#39;impostazione predefinita ( Amministrazione > Compositore esperienza visivo).
+È sempre possibile utilizzare l’opzione [Compositore esperienza avanzato a livello di attività](/help/c-experiences/experiences.md#section_34265986611B4AB8A0E4D6ACC25EF91D) per bypassare l’impostazione predefinita (Amministrazione > Compositore esperienza visivo).
 
 **Perché non vedo un&#39;opzione per scambiare le immagini?**
 
@@ -235,7 +235,7 @@ Utilizza l’[approccio basato su moduli](/help/c-experiences/form-experience-co
 
 **È possibile garantire che la stessa esperienza venga fornita in modo coerente su tutti i dispositivi di un utente?**
 
-Consulta il nostro servizio [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
+Consulta il nostro servizio [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=it), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
 
 Se fai parte della Cooperativa, un semplice flag nella pagina Obiettivi e impostazioni abilita la funzione. Inoltre, il reporting cambia per riflettere Persone anziché Visitatori. Contatta Adobe per maggiori informazioni su questa funzione in quanto non è disponibile in tutte le regioni.
 
@@ -290,7 +290,7 @@ Tieni presente che Target raccoglie i dati per questo scopo dal momento in cui s
 
 **Cosa posso fare per semplificare questo processo?**
 
-[Analytics per Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) è molto comodo a tale scopo. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
+[Analytics for Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE) è molto comodo a tale scopo. Se disponi di Adobe Analytics, per evitare questa restrizione è sufficiente scegliere Analytics come origine. Ora è possibile eseguire analisi su qualsiasi pubblico in qualsiasi punto e non è necessario definire a priori i tipi di pubblico per i rapporti.
 
 **È possibile eseguire calcoli di reporting offline?**
 
