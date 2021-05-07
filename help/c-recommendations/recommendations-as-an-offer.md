@@ -1,13 +1,13 @@
 ---
 keywords: Recommendations;consigli;offerta
-description: Scopri come utilizzare  Adobe Recommendations come offerta nei test A/B (inclusi allocazioni automatiche e targeting automatico) e nelle attività Experience Targeting (XT).
-title: Come si utilizza Recommendations come offerta in altri tipi di attività?
-feature: Recommendations
-translation-type: tm+mt
+description: Scopri come utilizzare Adobe Recommendations come offerta all’interno di test A/B (tra cui Allocazione automatica e Targeting automatico) e attività di Experience Targeting (XT).
+title: Come si utilizza la funzione Recommendations (Consigli) come offerta in altri tipi di attività?
+feature: Consigli
+translation-type: ht
 source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
-workflow-type: tm+mt
-source-wordcount: '556'
-ht-degree: 92%
+workflow-type: ht
+source-wordcount: '557'
+ht-degree: 100%
 
 ---
 
@@ -121,6 +121,6 @@ Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella p
 
 ![Stato di un’offerta Consigli](/help/c-recommendations/assets/recs-offer-status.png)
 
-## Video di formazione: Recommendations come offerta ![Logo Panoramica](/help/assets/overview.png)
+## Video di formazione: Recommendations (Consigli) come offerta ![Icona Panoramica](/help/assets/overview.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/28878)
