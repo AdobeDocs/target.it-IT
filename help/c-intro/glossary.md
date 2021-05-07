@@ -1,5 +1,5 @@
 ---
-description: Cosa significano termini diversi utilizzati in Adobe [!DNL Target] ? Trova le definizioni dei termini comuni per ottenere di più [!DNL Target].
+description: Cosa significano termini diversi utilizzati in Adobe [!DNL Target] ? Scopri le definizioni dei termini più comuni, per sfruttare al meglio [!DNL Target].
 title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Panoramica
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
@@ -7,7 +7,7 @@ translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 90%
+ht-degree: 99%
 
 ---
 
@@ -51,7 +51,7 @@ La libreria [!DNL at.js] è una nuova libreria di implementazione per [!DNL Adob
 
 **pubblico**
 
-Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Un gruppo di persone con le stesse caratteristiche, ad esempio un nuovo visitatore, un visitatore di ritorno o help/c-integrating-target-with-mac/a4t/a4t-at-aa.mds dal Midwest. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
+Un gruppo di partecipanti a un’attività con caratteristiche simili, che visualizzeranno un’attività con targeting. Gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Se un visitatore viene identificato come parte di un pubblico, Target determina quale esperienza mostrare, in base ai criteri stabiliti durante la creazione dell’attività.
 
 **Allocazione automatica**
 
@@ -61,9 +61,9 @@ L’allocazione automatica identifica un vincitore tra due o più esperienze e, 
 
 La funzione Targeting automatico utilizza l’apprendimento automatico avanzato per individuare più esperienze ad alte prestazioni definite dall’addetto al marketing. Inoltre, indica l’esperienza più adatta per ogni visitatore in base al suo profilo cliente individuale e al comportamento dei visitatori precedenti con profili simili, al fine di personalizzare contenuti e favorire le conversioni.
 
-**personalizzazione automatizzata**
+**Automated Personalization**
 
-La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l&#39;apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti ed effettuare le conversioni.
+Automated Personalization (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti e promuovere le conversioni.
 
 ## B {#section_03D02D426DB44F2CA79314F73BB2DD84}
 
@@ -185,7 +185,7 @@ La rappresentazione visiva di un&#39;attività in Target Standard.
 
 **Compositore esperienza basato su moduli**
 
-Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Personalizzazione automatizzata e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
+Interfaccia non visiva per la creazione di esperienze, utile per creare le esperienze da utilizzare nelle attività di Test A/B, Targeting esperienza, Automated Personalization e Consigli quando il Compositore esperienza visivo non è disponibile o se non risulta pratico. Ad esempio, puoi utilizzare il compositore basato su moduli per creare esperienze e offerte da distribuire tramite e-mail, chioschi e assistenti vocali.
 
 ## G  {#section_D7B3B62BD3A449EFAA11DF9704773B28}
 
@@ -247,11 +247,11 @@ Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di of
 
 Un visitatore viene incluso nel segmento Nuovi visitatori se viene soddisfatta una delle seguenti condizioni:
 
-* È la prima volta che il visitatore visita il sito.
-* È la prima volta che il visitatore visita il sito dopo aver cancellato i cookie.
-* È la prima volta che il visitatore visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
+* È la prima volta che visita il sito.
+* È la prima volta che visita il sito dopo aver cancellato i cookie.
+* È la prima volta che visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
 
-Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) nelle domande e risposte relative ai rapporti. Contrasto con &quot;Visitatore di ritorno&quot; di seguito.
+Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in “Domande frequenti sulla generazione di rapporti”. Confronta con “Visitatore di ritorno”, di seguito.
 
 ## O {#section_A2C1A057EC87445CBDB535E80C371105}
 
@@ -293,9 +293,9 @@ Trasmette valori all’elemento mbox della pagina di destinazione come parametri
 
 **Visitatore di ritorno**
 
-Il visitatore viene incluso nel segmento Visitatori di ritorno se l’utente ha visitato il sito in precedenza, se ne è andato per almeno 30 minuti, e lo ha nuovamente visitato con gli stessi cookie. Se un visitatore ritorna entro la durata del suo profilo, diventa un visitatore di ritorno.
+Un visitatore viene incluso nel segmento Visitatore di ritorno se ha già visitato il sito, è uscito da almeno 30 minuti ed è tornato di nuovo sul sito con gli stessi cookie. Fino a quando un visitatore ritorna entro la durata del suo profilo, viene considerato un visitatore di ritorno.
 
-Per ulteriori informazioni, consulta [Modalità di conteggio delle metriche Nuovi visitatori e Visitatori di ritorno](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in Domande e risposte sui rapporti. Contrasto con &quot;Nuovo visitatore&quot; sopra.
+Per ulteriori informazioni, consulta [Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno?](/help/c-reports/reporting-frequently-asked-questions.md#methodology) in “Domande frequenti sulla generazione di rapporti”. Confronta con “Nuovo visitatore”, qui sopra.
 
 **ruolo**
 
@@ -349,9 +349,9 @@ Tutte le variabili di pagina e URL di pagina di riferimento vengono trasmesse au
 
 ## V  {#section_0B85CE959BA948CDAC3BAEFB4EEDFAD2}
 
-**visit**
+**visita**
 
-A volte una visita viene definita sessione. Una visita termina dopo 30 minuti di inattività, il che significa che sono passati almeno 30 minuti tra le richieste del server a Target.
+A volte una visita viene definita sessione. Una visita termina dopo 30 minuti di inattività, ossia dopo che sono trascorsi almeno 30 minuti dopo l’ultima richiesta del server a Target.
 
 **visitatore**
 
