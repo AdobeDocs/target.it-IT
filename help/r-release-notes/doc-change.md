@@ -5,10 +5,10 @@ title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: a69737f49a52cde703627f91d4b97609c1796ee6
 workflow-type: tm+mt
-source-wordcount: '1089'
-ht-degree: 61%
+source-wordcount: '1101'
+ht-degree: 60%
 
 ---
 
@@ -20,7 +20,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Maggio 10 | Domande frequenti sui consigli | Sono state aggiunte le seguenti domande frequenti: &quot;Posso utilizzare un algoritmo creato in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?&quot; |
+| Maggio 10 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti: &quot;Posso utilizzare un algoritmo creato in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?&quot; |
+|  | [Implementare [!DNL Target] using [!DNL Dynamic Tag Manager]  (DTM)](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md) | Indica che [!DNL Adobe Dynamic Tag Manager] non è più supportato. Invece, [!DNL Adobe] consiglia di implementare con [[!DNL Adobe Experience Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). |
 | Maggio 6 | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?</li><li>Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?</li></ul> |
 |  | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente post sul blog Adobe Tech Blog:<ul><li>Parte 1: Eseguire l’SDK Adobe Target NodeJS per la sperimentazione e la personalizzazione sulle piattaforme Edge (Akamai Edge Workers)</li></ul> |
 | Maggio 5 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sull&#39;interruzione del caffè della community Adobe Target Q&amp;A che si terrà mercoledì 12 maggio 2021 alle 8.00. (PDT, GMT-7). |
