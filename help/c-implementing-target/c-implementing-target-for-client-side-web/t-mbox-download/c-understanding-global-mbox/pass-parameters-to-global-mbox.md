@@ -1,15 +1,15 @@
 ---
-keywords: parametri mbox globali;targetPageParams;stringa di query;array;json;dtm;Dynamic Tag Management
+keywords: parametri mbox globali;targetPageParams;stringa query;array;json;dtm
 description: Scopri come utilizzare la funzione targetPageParams per passare informazioni di targeting o di contesto aggiuntive alla mbox globale Adobe [!DNL Target] .
 title: Come faccio a trasmettere parametri a una mbox globale?
 feature: at.js
 role: Developer
 exl-id: 37d143af-83a8-48fd-91eb-58f21f8c7b94
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '385'
-ht-degree: 63%
+source-wordcount: '382'
+ht-degree: 60%
 
 ---
 
