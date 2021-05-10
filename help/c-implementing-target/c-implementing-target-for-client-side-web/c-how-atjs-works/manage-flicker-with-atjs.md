@@ -6,9 +6,9 @@ feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '663'
 ht-degree: 76%
 
 ---
@@ -47,7 +47,7 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 È possibile evitare questo fenomeno utilizzando uno snippet per nascondere le pagine che sarà visibile dopo che avrà personalizzato gli elementi HTML rilevanti [!DNL Target].
 
-at.js può essere caricato in modo asincrono, direttamente incorporato nella pagina o tramite un gestore di tag (ad Adobe Launch, Dynamic Tag Manager (DTM), ecc.).
+at.js può essere caricato in modo asincrono, direttamente incorporato nella pagina o tramite un gestore di tag (ad esempio [!DNL Adobe Experience Platform Launch]).
 
 Se at.js è incorporato nella pagina, è necessario aggiungere lo snippet prima di caricare at.js. Se carichi at.js tramite un gestore di tag, caricato anche in modo asincrono, devi aggiungere lo snippet prima di caricare il gestore di tag. Se il gestore di tag viene caricato in modo sincrono, lo script potrebbe essere incluso nel gestore di tag prima di at.js.
 
