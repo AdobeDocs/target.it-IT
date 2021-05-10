@@ -1,13 +1,13 @@
 ---
-keywords: document.write;target;implementare;implementare target;dtm;gestione tag dinamica;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
+keywords: document.write;target;implementare;implementare target;dtm;at.js;mbox.js;target.js;mbox;adobe experience platform web skd;aep web sdk;web sdk
 description: Implementa le librerie Adobe [!DNL Target] by referencing the [!DNL Target] (at.js o mbox.js) nelle tue pagine web.
 title: 'Comprendere le librerie JavaScript di  [!DNL Target] '
 feature: Implementazione
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 23%
+source-wordcount: '473'
+ht-degree: 24%
 
 ---
 
@@ -26,7 +26,7 @@ La tabella seguente spiega le differenze tra le librerie JavaScript [!DNL Target
 
 | Riferimento alla libreria | Descrizione |
 |--- |--- |
-| Adobe Experience Platform Web SDK | Il [!UICONTROL Adobe Experience Platform Web SDK] consente di interagire con i vari servizi presenti in [!DNL Experience Cloud] (incluso [!DNL Target]) tramite Adobe Experience Edge Network. Se scegli di eseguire la migrazione a [!DNL Adobe Experience Platform Web SDK], consulta [Cos’è Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) nella *Guida all’SDK per web*. |
+| Tutorial per Adobe Experience Platform Web SDK | Il [!UICONTROL Adobe Experience Platform Web SDK] consente di interagire con i vari servizi presenti in [!DNL Experience Cloud] (incluso [!DNL Target]) tramite Adobe Experience Edge Network. Se scegli di eseguire la migrazione a [!DNL Adobe Experience Platform Web SDK], consulta [Cos’è Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) nella *Guida all’SDK per web*. |
 | at.js | at.js sostituisce mbox.js per le implementazioni di [!DNL [!DNL Target]] .<br>Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza, evita gli avvisi document.write in Google Chrome e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola.<br>Per ulteriori informazioni, consulta [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
 
 ## Impatto di at.js sul tempo di caricamento della pagina {#section_16630CD0FF0A498EB596A51381366A5A}
