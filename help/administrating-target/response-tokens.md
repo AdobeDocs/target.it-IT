@@ -6,10 +6,10 @@ feature: Amministrazione e configurazione
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1573'
-ht-degree: 76%
+source-wordcount: '1498'
+ht-degree: 74%
 
 ---
 
@@ -95,30 +95,6 @@ Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!
 </html>
 ```
 
-Le istruzioni seguenti spiegano come aggiungere un gestore di eventi personalizzati di [!DNL at.js] utilizzando Adobe Dynamic Tag Manager (DTM):
-
-1. Accedi a DTM.
-1. Individua la proprietà appropriata.
-1. Apri lo strumento Target.
-
-   Poiché DTM non supporta at.js nativamente, è necessario utilizzare l’editor di codice.
-
-1. Nell’editor di codice aggiungi il seguente codice a [!DNL at.js]:
-
-   ```json
-   document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-     console.log("Request succeeded", e.detail); 
-   });
-   ```
-
-Se desideri avere tutto in un singolo file, aggiungi lo snippet seguente al piè di pagina della libreria nella [pagina Configurazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812).
-
-```json
-document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(e) { 
-  console.log("Request succeeded", e.detail); 
-});
-```
-
 ## Domande frequenti sui token di risposta {#section_3DD5F32C668246289CDF9B4CDE1F536D}
 
 **Quale ruolo è autorizzato ad attivare o disattivare i token di risposta?**
@@ -133,7 +109,7 @@ Potrai visualizzare i token di risposta, ma at.js non sarà in grado di utilizza
 
 I token di risposta verranno consegnati alle risposte di [!DNL at.js] Target, ma non alle risposte [!DNL mbox.js].
 
-**È possibile avere attivi allo stesso tempo sia plug-in di Target Classic che i token di risposta?**
+**[!DNL Target Classic]È possibile avere attivi allo stesso tempo sia plug-in di che i token di risposta?**
 
 Plug-in e token di risposta saranno disponibili in parallelo; tuttavia, i plug-in diventeranno obsoleti in futuro.
 
@@ -231,7 +207,7 @@ Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codic
 </script>
 ```
 
-## Debug (simile al plug-in ttMeta)  {#section_DB3392B6E80749C1BFB520732EDF3BCE}
+## Debug (simile al plug-in ttMeta) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
 
 L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiungendo il seguente codice alla pagina HTML:
 
@@ -283,7 +259,7 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
 </script>
 ```
 
-## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Badge tutorial](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
+## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Icona Tutorial ](/help/assets/tutorial.png) {#section_3AA0A6C8DBD94A528337A2525E3E05D5}
 
 Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 
