@@ -5,10 +5,10 @@ title: Dove posso trovare domande e risposte su [!DNL Target] Recommendations?
 feature: Consigli
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 translation-type: tm+mt
-source-git-commit: 32eeec786af7aba747881ac84ef17d7a0124a45a
+source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
-source-wordcount: '2940'
-ht-degree: 58%
+source-wordcount: '2995'
+ht-degree: 57%
 
 ---
 
@@ -241,3 +241,9 @@ Se un visitatore ha due sessioni attive contemporaneamente, gli elementi visuali
 Questo comportamento si verifica ancora se un visitatore è attivo su un dispositivo e poi diventa attivo sull&#39;altro dispositivo qualche minuto dopo. La sessione del primo dispositivo non scade per 30 minuti e può trascorrere fino a cinque minuti prima che lo stato del profilo sia scritto nello stato permanente ed elaborato. Consenti 35 minuti per la scadenza della sessione e il profilo da memorizzare durante il test di questo comportamento.
 
 Se il visitatore non dispone di due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, purché la sessione sia terminata. Consenti la scadenza di 35 minuti per la sessione durante il test di questo comportamento.
+
+## Posso utilizzare un algoritmo creato in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
+
+Un algoritmo creato in [!DNL Recommendations Classic] non è supportato in [!DNL Recommendations Premium]. È possibile utilizzare l’algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo può creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’ interfaccia utente di [!DNL Target Premium] . Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta [[!DNL Recommendations Classic] versus [!DNL Recommendations] attività in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+
+
