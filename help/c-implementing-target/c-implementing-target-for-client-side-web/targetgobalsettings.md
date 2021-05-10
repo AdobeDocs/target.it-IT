@@ -6,18 +6,16 @@ feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2221'
-ht-degree: 29%
+source-wordcount: '2200'
+ht-degree: 31%
 
 ---
 
 # targetGlobalSettings()
 
 È possibile modificare le impostazioni nella libreria at.js con `targetGlobalSettings()`, anziché configurare le impostazioni nell’interfaccia utente [!DNL Target] di Standard/Premium o con le API REST.
-
-In alcune situazioni, specialmente quando at.js viene fornito tramite [!DNL Dynamic Tag Management] (DTM) può essere necessario bypassare alcune impostazioni.
 
 ## Impostazioni {#section_42C759AE9B524A43B8659018677224B8}
 
@@ -382,7 +380,7 @@ Dopo aver specificato le impostazioni `cspScriptNonce` e `cspStyleNonce` , at.js
 
 ## Personalizzazione ibrida {#server-state}
 
-`serverState` è un’impostazione disponibile in at.js v2.2+ che può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un’integrazione ibrida di Target. L’integrazione ibrida significa che stai utilizzando sia at.js v2.2+ sul lato client che l’API di consegna o un SDK Target sul lato server per distribuire le esperienze. `serverState` consente a at.js v2.2+ di applicare le esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina trasmessa.
+`serverState` è un’impostazione disponibile in at.js v2.2+ che può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un’integrazione ibrida di Target. Per integrazione ibrida si intende l’utilizzo sia di at.js v2.2+ sul lato client che dell’API di consegna o di un SDK Target sul lato server per distribuire le esperienze. `serverState` consente a at.js v2.2+ di applicare le esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina trasmessa.
 
 ### Prerequisiti
 
