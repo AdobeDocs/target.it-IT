@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2770'
-ht-degree: 88%
+source-wordcount: '2765'
+ht-degree: 89%
 
 ---
 
@@ -289,7 +289,7 @@ In Target, il cookie di terze parti è memorizzato in `<CLIENTCODE>.tt.omtrdc.ne
 
 Tuttavia, con at.js 2.*x* non si utilizza più HTTP GET, ma HTTP POST. HTTP POST viene ora utilizzato tramite at.js 2.*x* per inviare payload JSON ai server Edge di Target. Questo significa che ora la richiesta di reindirizzamento per verificare se un browser supporta i cookie di terze parti non viene più riconosciuta come valida. Infatti le richieste HTTP GET sono transazioni idempotenti, mentre HTTP POST non lo è e non deve essere ripetuto arbitrariamente. Di conseguenza, il tracciamento tra più domini in at.js 2.*x* non è più supportato come funzionalità integrata. Solo at.js 1.*x* supporta il tracciamento tra più domini come funzionalità integrata.
 
-Se desideri utilizzare il tracciamento tra più domini, devi installare la [libreria ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) in combinazione con at.js 2.*x*. La libreria ECID consente di gestire gli ID persistenti utilizzati per identificare lo stesso visitatore su domini diversi.
+Se desideri utilizzare il tracciamento tra più domini, devi installare la [libreria ECID v4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it) in combinazione con at.js 2.*x*. La libreria ECID consente di gestire gli ID persistenti utilizzati per identificare lo stesso visitatore su domini diversi.
 
 >[!NOTE]
 >
@@ -364,7 +364,6 @@ Le tabelle seguenti contengono una spiegazione di at.js. 2.*x* compatibilità co
 | Estensione Adobe Launch | [Sì](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
 | Strumento di debug | Sì |
 | Auditor | Le regole per at.js 2.*x* non sono ancora state aggiornate |
-| Dynamic Tag Manager (DTM) | Sì |
 | Opt-in | No. Le funzioni Opt-in per i requisiti del regolamento [RGPD](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) sono supportate in [at.js versione 2.1.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 | Personalizzazione avanzata AEM fornita da Adobe Target | No |
 
