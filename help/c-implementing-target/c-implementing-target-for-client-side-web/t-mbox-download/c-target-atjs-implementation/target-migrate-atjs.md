@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: d612ca74-521b-437e-aa9a-b1065e460d45
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '851'
-ht-degree: 96%
+source-wordcount: '856'
+ht-degree: 92%
 
 ---
 
@@ -77,7 +77,7 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    **Utilizzi un gestore di tag?**
 
-   * Dynamic Tag Management
+   * Adobe Experience Platform Launch
    * Ensighten
    * Tealium
    * Signal/BrightTag
@@ -86,7 +86,11 @@ Attieniti alla procedura seguente per eseguire e controllare la migrazione da [!
 
    >[!NOTE]
    >
-   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità. [Dynamic Tag Management](https://dtm.adobe.com) di Adobe è gratuita per i clienti [!DNL Target] ed è il metodo consigliato per distribuire [!DNL Target]. Per ulteriori informazioni, vedi [Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management](https://experienceleague.adobe.com/docs/dtm/implementing/overview.html).
+   >Se attualmente non stai utilizzando un gestore di tag per distribuire [!DNL Target], ora potrebbe essere un buon momento per prendere in considerazione questa possibilità.
+   >
+   >[!DNL Platform Launch] è la piattaforma di gestione tag di nuova generazione di  [!DNL Adobe] ed è il metodo preferito da implementare  [!DNL Adobe Target]. [!DNL Platform Launch] offre ai clienti un modo semplice di implementare e gestire i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate.
+   >
+   >Per ulteriori informazioni, vedere [Implementare [!DNL Target] utilizzando [!DNL Adobe Platform Launch]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Verifica che tutte le attività e le integrazioni correnti funzionino come previsto.
 
