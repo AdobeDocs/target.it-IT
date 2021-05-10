@@ -6,10 +6,10 @@ feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '2700'
-ht-degree: 92%
+source-wordcount: '2687'
+ht-degree: 93%
 
 ---
 
@@ -90,7 +90,7 @@ La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asi
 
 Per caricare at.js in modo asincrono:
 
-* L’approccio consigliato è tramite un gestore tag come Adobe Launch o Adobe Dynamic Tag Manager (DTM). Per ulteriori informazioni, consulta la lezione [Aggiungere Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) dell’ esercitazione [Implementare l’Experience Cloud nei siti web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) .
+* L’approccio consigliato è tramite [!DNL Adobe Experience Platform Launch]. Per ulteriori informazioni, consulta la lezione [Aggiungere Adobe Target](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/implement-solutions/target.html) dell’ esercitazione [Implementare l’Experience Cloud nei siti web con Launch](https://experienceleague.adobe.com/docs/experience-cloud/implementing-in-websites-with-launch/index.html) .
 * Puoi anche caricare at.js in modo asincrono aggiungendo l’attributo async al tag script che carica at.js. Dovresti usare qualcosa del genere:
 
    ```
