@@ -1,29 +1,21 @@
 ---
 keywords: at.js;non produzione;non produzione;distribuire
-description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Come si distribuisce at.js in un ambiente non di produzione?
 feature: at.js
 role: Developer
+exl-id: 607b2b5b-bb2a-4443-abc0-452b421fc009
 translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '392'
-ht-degree: 82%
+source-wordcount: '306'
+ht-degree: 80%
 
 ---
 
-
-# Distribuzione di at.js in un ambiente non di produzione
+# Distribuire at.js in un ambiente non di produzione
 
 Informazioni sulle tecniche per distribuire in modo sicuro at.js in un ambiente non di produzione.
-
-## Distribuzione a DTM Staging
-
-Se utilizzi DTM, puoi facilmente salvare at.js nella configurazione di Adobe Target Tool.
-
-Dopo aver salvato la libreria, utilizza lo strumento switch di DTM per testarlo sul codice di produzione. Questo permetterà ai tuoi consulenti Adobe di supportarti più facilmente.
-
-Per ulteriori informazioni, vedi l&#39;[Opzione 3: Implementare la destinazione manualmente con la libreria JavaScript di Target ospitata da DTM](https://experienceleague.adobe.com/docs/dtm/implementing/target/add-target/t-implementing-target-manually-js-hosted-dtm.html) nelle *Procedure consigliate per l’implementazione di Adobe Target tramite la Dynamic Tag Management*.
 
 ## Utilizzare l&#39;estensione di Chrome Requestly per eseguire il mapping a un altro file
 
