@@ -6,16 +6,16 @@ feature: Implementare lato server
 role: Developer
 exl-id: cb57f6b8-43cb-485d-a7ea-12db8170013f
 translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
 workflow-type: tm+mt
-source-wordcount: '1692'
-ht-degree: 52%
+source-wordcount: '1687'
+ht-degree: 53%
 
 ---
 
 # Implementare [!DNL Target] senza un sistema per la gestione dei tag
 
-Informazioni sull&#39;implementazione di [!DNL Adobe Target] senza l&#39;utilizzo di un gestore di tag ([!DNL Adobe Experience Platform Launch] o [!DNL Dynamic Tag Manager]).
+Informazioni sull&#39;implementazione di [!DNL Adobe Target] senza l&#39;utilizzo di un gestore di tag ([!DNL Adobe Experience Platform Launch]).
 
 >[!NOTE]
 >
@@ -94,7 +94,7 @@ Per ulteriori informazioni, consulta [Impostazioni API del profilo](/help/c-impl
 
 Genera un token di autorizzazione per utilizzare gli strumenti di debug [!DNL Target] avanzati. Fai clic su **[!UICONTROL Genera nuovo token di autenticazione]**.
 
-![Genera nuovo token di autenticazione](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
+![Generare un nuovo token di autenticazione](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/assets/debugger-auth-token.png)
 
 ### Privacy
 
@@ -177,11 +177,11 @@ Per scaricare [!DNL at.js] utilizzando l&#39;API.
 
    Il caricamento di questa URL avvia il download del file [!DNL at.js] personalizzato.
 
-## Implementazione at.js {#concept_03CFA86973A147839BEB48A06FEE5E5A}
+## Implementazione di at.js {#concept_03CFA86973A147839BEB48A06FEE5E5A}
 
 at.js dovrebbe essere implementato nell’elemento `<head>` di ogni pagina del sito Web.
 
-Un&#39;implementazione tipica di Target che non utilizza un gestore di tag come [Platform launch di Adobi](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) o [Dynamic Tag Management](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-using-dynamic-tag-management.md#concept_3A40AF6FFC0E4FD2AA81B303A79D0B96) si presenta così:
+Un&#39;implementazione tipica di Target che non utilizza un gestore di tag come [Platform launch Adobe](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md#topic_5234DDAEB0834333BD6BA1B05892FC25) ha un aspetto simile al seguente:
 
 ```
 <!doctype html> 
