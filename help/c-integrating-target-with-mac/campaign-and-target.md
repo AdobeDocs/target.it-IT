@@ -5,10 +5,10 @@ title: Come posso integrare [!DNL Target] con Adobe Campaign?
 feature: Integrazioni
 exl-id: 605b8fe4-e32f-43bc-9131-245008b655e1
 translation-type: tm+mt
-source-git-commit: f3a9ee9827d635d335cb9707d3d92d0de1bd0304
+source-git-commit: 2a78828c0d04add812a73ea04f4b3927d3dbc392
 workflow-type: tm+mt
-source-wordcount: '367'
-ht-degree: 37%
+source-wordcount: '382'
+ht-degree: 42%
 
 ---
 
@@ -36,13 +36,13 @@ Ci sono diverse limitazioni:
 
 Utilizza sia [!DNL Target] che [!DNL Campaign] per configurare diverse parti dell&#39;integrazione:
 
-    * La casella non elaborata e l’esperienza in [!DNL Target]
-    
-    >[!NOTE]
-     > 
-    >Quando si utilizza una rawbox e [!DNL Target], see the important security notice under [Create allowlists that specify hosts that are authorized to send mbox calls to Target] (/help/administrating-target/hosts.md#inserire nell&#39;elenco Consentiti).
-    
-    * Consegna in [!DNL Campaign]
+* La casella non elaborata e l&#39;esperienza in [!DNL Target]
+
+>[!NOTE]
+>
+>Quando utilizzi una rawbox e [!DNL Target], consulta l’importante avviso di sicurezza in [Creare elenchi di Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a Target](/help/administrating-target/hosts.md#allowlist).
+
+* La consegna in [!DNL Campaign]
 
 ## Prima di iniziare {#section_FF19BF1BCA064260930BF6C141313B0E}
 
