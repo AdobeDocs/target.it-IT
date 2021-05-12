@@ -4,8 +4,7 @@ title: Dove posso trovare la documentazione [!DNL Target] ?
 description: Scopri come utilizzare Adobe [!DNL Target] per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi sui siti web e mobili, le app e altri canali digitali.
 feature: Panoramica
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-translation-type: tm+mt
-source-git-commit: 5d3d284f75ee00b7fd92b0083c6009334a5db2e5
+source-git-commit: 9bf6dacce317eff03fd295f7f4fc108fa362b993
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 95%
@@ -18,7 +17,7 @@ ht-degree: 95%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 10 maggio 2021 ([Vedi che cosa è cambiato](r-release-notes/doc-change.md))**
+**Ultimo aggiornamento: 12 maggio 2021 ([Vedi che cosa è cambiato](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -37,7 +36,7 @@ Nelle sezioni seguenti sono disponibili collegamenti utili all’interno della p
 - [Analisti](#analysts)
 - [Addetti al controllo qualità](#qa)
 
-## Tutti gli utenti [!DNL Target] {#all}
+## Tutti gli utenti [!DNL Target]  {#all}
 
 Esperti di marketing, sviluppatori, amministratori, analisti e addetti al controllo qualità.
 
@@ -69,12 +68,12 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [Amministrare Target](administrating-target/administrating-target.md): illustra come aggiungere utenti e configurare l’account [!DNL Target].
 
-## Analisti  {#analysts}
+## Analisti {#analysts}
 
 - [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà il contenuto e le esperienze in attività mirate.
 - [Rapporti](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
 
-## Addetti al controllo qualità  {#qa}
+## Addetti al controllo qualità {#qa}
 
 - [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
 
