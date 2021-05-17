@@ -4,11 +4,10 @@ description: Visualizza i dettagli sulle modifiche apportate in ogni versione de
 title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '4184'
-ht-degree: 81%
+source-wordcount: '4181'
+ht-degree: 88%
 
 ---
 
@@ -23,7 +22,7 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >
 >[Adobe Experience Platform ](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) Launch è il metodo preferito per aggiornare at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzionalità e spesso correggono i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e sono resi disponibili nel catalogo [!DNL Launch] come aggiornamenti. Per ulteriori informazioni, consulta [Aggiornamento delle estensioni](https://experienceleague.adobe.com/docs/launch/using/reference/manage-resources/extensions/extension-upgrade.html) nella *Guida utente del Experience Platform Launch*.
 
-## at.js 2.5.0 (data da annunciare)
+## at.js 2.5.0 (13 maggio 2021)
 
 Questa versione di at.js include i miglioramenti e le modifiche seguenti:
 
@@ -41,36 +40,36 @@ Questa release di at.js è una versione di manutenzione e include i migliorament
 
 ## at.js 2.4.0 (14 gennaio 2021)
 
-Questa versione di at.js è una versione di manutenzione e include le seguenti correzioni:
+Questa versione di at.js è una versione di manutenzione che include i miglioramenti e le correzioni seguenti:
 
-* Aggiunge il supporto per l’id di piattaforma/profilo unificato agli ID cliente API di consegna.
-* Corregge l&#39;iniezione di tag di stile non valida.
+* È stato aggiunto il supporto per l’ID di piattaforma/profilo unificato agli ID cliente dell’API Delivery.
+* È stata corretta l’iniezione di tag di stile non valida.
 
 ## at.js 2.3.3 (13 novembre 2020)
 
-Questa versione di at.js è una versione di manutenzione e include la seguente correzione:
+Questa versione di at.js è una versione di manutenzione e include la correzione seguente:
 
 * È stato risolto un problema relativo al tracciamento dei clic mbox e A4T. Con 0n-clic, Target ha attivato una chiamata API di consegna con i parametri mbox e mbox corretti. Tuttavia, l’identificatore SDID non corrisponde a quello della chiamata [!DNL Analytics] , pertanto non vi sono stati hit di unione e conversione. (TNT-38372)
 
 ## at.js 2.3.2 (24 luglio 2020)
 
-Questa versione di at.js è una versione di manutenzione e include la seguente correzione:
+Questa versione di at.js è una versione di manutenzione e include la correzione seguente:
 
 * È stato corretto un bug a causa del quale uno script o un codice aggiungeva proprietà predefinite alla finestra o al documento.
 
 ## at.js 1.8.2 (15 giugno 2020)
 
-Questa versione di at.js è una versione di manutenzione e include la seguente correzione:
+Questa versione di at.js è una versione di manutenzione e include la correzione seguente:
 
-* È stato risolto un problema che si verificava con l’utilizzo di CNAME e Edge override, at.js 1.** xmay crea il dominio del server in modo non corretto, causa di un errore nella  [!DNL Target] richiesta. (TNT-35064)
+* È stato risolto un problema che si verificava con l’utilizzo di CNAME e Edge override, at.js 1.*x* poteva creare il dominio del server in modo errato, causando un errore nella richiesta di [!DNL Target]. (TNT-35064)
 
 ## Versioni di at.js 2.3.1 (15 giugno 2020)
 
 Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
-* È stata impostata l’impostazione `deviceIdLifetime` sostituibile tramite [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
-* È stato risolto un problema che si verificava con l’utilizzo di CNAME e Edge override, at.js 2.** xmay crea il dominio del server in modo non corretto, causa di un errore nella  [!DNL Target] richiesta. (TNT-35065)
-* È stato risolto un problema che si verificava durante l’utilizzo dell’ estensione [!DNL Target] [!DNL Launch] v2 e dell’ estensione [!DNL Adobe Analytics] [!DNL Launch] , [!DNL Target] ritardava la chiamata [!DNL Analytics] `sendBeacon` . (TNT-36407, TNT-35990, TNT-36000)
+* L’impostazione `deviceIdLifetime` ora può essere sostituita tramite [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md). (TNT-36349)
+* È stato risolto un problema che si verificava con l’utilizzo di CNAME e Edge override, at.js 2.*x* poteva creare il dominio del server in modo errato, causando un errore nella richiesta di [!DNL Target]. (TNT-35065)
+* È stato risolto un problema che si verificava durante l’utilizzo delle estensioni [!DNL Target] [!DNL Launch] v2 e [!DNL Adobe Analytics] [!DNL Launch], a causa del quale [!DNL Target] ritardava la chiamata di [!DNL Analytics] `sendBeacon`. (TNT-36407, TNT-35990, TNT-36000)
 
 ## at.js versione 2.3.0 (25 marzo 2020)
 
@@ -99,7 +98,7 @@ Questa versione di at.js include i miglioramenti e le correzioni seguenti:
    >
    >Aggiorna l’estensione ECID Launch alla versione 4.4 per sfruttare questo miglioramento delle prestazioni.
 
-* La versione 2.2 di at.js fornisce anche una nuova impostazione denominata `serverState`. Questa impostazione può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un’integrazione ibrida di Target. L’integrazione ibrida significa che stai utilizzando sia at.js v2.2+ sul lato client che l’API di consegna o un SDK Target sul lato server per distribuire le esperienze. `serverState` consente a at.js v2.2+ di applicare le esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina trasmessa. Per ulteriori informazioni, consulta &quot;serverState&quot; in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
+* La versione 2.2 di at.js fornisce anche una nuova impostazione denominata `serverState`. Questa impostazione può essere utilizzata per ottimizzare le prestazioni della pagina quando viene implementata un’integrazione ibrida di Target. Per integrazione ibrida si intende l’utilizzo sia di at.js v2.2+ sul lato client che dell’API di consegna o di un SDK Target sul lato server per distribuire le esperienze. `serverState` consente a at.js v2.2+ di applicare le esperienze direttamente dal contenuto recuperato sul lato server e restituito al client come parte della pagina trasmessa. Per ulteriori informazioni, consulta “serverState” in [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#server-state).
 
 ## at.js versione 1.8.0 (10 ottobre 2019)
 
@@ -295,7 +294,7 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 * In questa versione sono stati aggiunti svariati miglioramenti a livello di prestazioni, tra cui call stack più brevi durante l’ispezione di un profilo CPU in Chrome.
 * at.js 1.3.0 non supporta più la consegna di contenuti in Microsoft Internet Explorer 9. Per un elenco dei browser supportati, consulta [Browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Da adesso in poi, tutte le richieste vengono eseguite tramite `XMLHttpRequest` con supporto CORS, senza richieste JSONP. Questa modifica migliora notevolmente la sicurezza.
 
-## at.js versione 1.2.3 {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
+## at.js versione 1.2.3  {#section_CE4D14AF00D04F4C8A2F0513F5EA1A84}
 
 È ora disponibile la versione 1.2.3 di [!DNL at.js].
 
@@ -310,7 +309,7 @@ Ecco i miglioramenti e le correzioni che sono stati inclusi nella versione 1.6.0
 * È stato corretto un problema che impediva il corretto funzionamento di `getOffer() params` se `targetPageParams()` restituiva una stringa vuota. (TNT-28359)
 * È stato risolto un problema nella generazione dell’ID di sessione quando si utilizza solo x. (TNT-28361)
 
-## at.js versione 1.2.1 {#section_F757C8174BBA4F68AC5524ADC3D9C5E3}
+## at.js versione 1.2.1  {#section_F757C8174BBA4F68AC5524ADC3D9C5E3}
 
 È ora disponibile la versione 1.2.1 di [!DNL at.js].
 
@@ -331,7 +330,7 @@ La versione 1.2 di [!DNL at.js] è ora disponibile come una versione di manutenz
 * Sono state apportate modifiche per garantire che `sdidParamExpiry` sia inizializzato correttamente e passato all’API visitatore. Questa è una regressione che è stata aggiunta a `at.js 1.1.0`. Non influisce sulle versioni precedenti di [!DNL at.js]. Questa modifica riguarda soltanto i clienti che usano offerte di reindirizzamento e A4T. (TNT-27791)
 * Sono state apportate modifiche per garantire che `SCRIPT` venga eseguito indipendentemente dal tipo di attributo utilizzato. (TNT-27865)
 
-## at.js versione 1.1.0 {#section_8F494E1EA94E48A9B169F5CF9FE6DC56}
+## at.js versione 1.1.0  {#section_8F494E1EA94E48A9B169F5CF9FE6DC56}
 
 **Data:** 2 agosto 2017
 
@@ -365,7 +364,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.7 di [!DNL
 
 * Correzione di un problema relativo a una chiave di asset mancante dalle azioni `insertAfter` e `insertBefore` nel Compositore esperienza visivo. Questi problemi erano correlati alla migrazione da offerte visive a modelli di offerte.
 
-## at.js versione 0.9.6 {#section_EEFA6413F2F947AD8C4A88128B90245D}
+## at.js versione 0.9.6  {#section_EEFA6413F2F947AD8C4A88128B90245D}
 
 **Data:** 13 aprile 2017
 
@@ -401,9 +400,9 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 
 * Le chiamate mbox si attivano in Microsoft Internet Explorer 11 quando i browser legacy sono disabilitati nelle impostazioni at.js.
 * Il contenuto predefinito viene renderizzato in caso di mancata riuscita di un’offerta remota dinamica (ad esempio, se l’URL non è corretto e genera un errore 404).
-* Garantisce che gli elementi vengano rivelati rapidamente quando è impossibile trovare i selettori di tracciamento clic del Compositore esperienza visivo nel DOM.
+* Gli elementi vengono visualizzati rapidamente qualora non sia possibile trovare nel DOM i selettori per il tracciamento dei clic del Compositore esperienza visivo.
 
-## at.js versione 0.9.2  {#section_148549CBB4F046BAA8F79C79B64EC889}
+## at.js versione 0.9.2 {#section_148549CBB4F046BAA8F79C79B64EC889}
 
 **Data:** 21 settembre 2016
 
@@ -419,7 +418,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 * Corregge un problema in 0.9.0 che influenzava le implementazioni che usavano at.js su alcune pagine e mbox.js su altre.
 * Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## at.js versione 0.9.0  {#section_2981CC9792F245389B39BB5B69F84C4E}
+## at.js versione 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
 **Versione di Target:** 16.6.1
 
