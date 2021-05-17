@@ -4,11 +4,10 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Note sulla versione
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '30798'
-ht-degree: 99%
+source-wordcount: '31071'
+ht-degree: 98%
 
 ---
 
@@ -23,6 +22,32 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2021
+
+### at.js versione 2.5.0 (13 maggio 2021)
+
+Questa versione di at.js include i miglioramenti e le modifiche seguenti:
+
+* [Supporto ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisionale su dispositivo per at.js.
+* [Supporto dei ](/help/c-activities/c-activity-qa/activity-qa.md) collegamenti di anteprima per le attività di Automated Personalization
+
+Questa versione rimuove anche il supporto per Microsoft Internet Explorer 10, Internet Explorer 11 e tutte le versioni precedenti. Microsoft Edge continua a essere supportato in at.js 2.5.0 e versioni successive.
+
+### Target Standard/Premium 21.4.1 (19 aprile 2021)
+
+Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+| Funzione | Dettagli |
+| --- | --- |
+| Supporto delle decisioni sul dispositivo per at.js<br>(data da annunciare) | Le decisioni sul dispositivo consentono agli addetti al marketing e agli sviluppatori di distribuire esperimenti e personalizzazioni sul browser di un utente con latenza vicina allo zero.<br>Per ulteriori informazioni, consulta Decisioni  [sul dispositivo per at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![Operatori basati su ](/help/assets/premium.png) PremiumList per le regole di filtro entità | [!DNL Target Recommendations] supporta nuovi operatori basati su elenco per le regole di filtro entità. (TGT-39234)<br>Gli operatori appena aggiunti includono:<br><ul><li>È Contenuto Nell’Elenco</li><li>Non è contenuto nell’elenco</li><li>Elenco Contiene Un Elemento In</li><li>L&#39;Elenco Non Contiene Un Elemento In</li><li>Elenco Contiene Tutti Gli Elementi In</li><li>Elenco Non Contiene Tutti Gli Elementi</li></ul>Per ulteriori informazioni, consulta &quot;Operatori disponibili&quot; in [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+
+Questa versione contiene le seguenti correzioni.
+
+* È stato risolto un problema che impediva la sincronizzazione di un&#39;attività dopo la modifica del pubblico in [!UICONTROL Tutti i visitatori]. (TGT-40259)
+* È stato risolto un problema che impediva la duplicazione delle offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l&#39;opzione [!UICONTROL Non consentire duplicati] è abilitata. (TGT-39567)
+* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Amministrazione] > [!UICONTROL Configurazione Scene7] . (TGT-39918)
+* È stato risolto un problema che causava il mapping delle proprietà all&#39;area di lavoro errata. (TGT-39869)
+* È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione consigli. (TGT-39948)
 
 ### at.js 2.4.1 (23 marzo 2021)
 
@@ -838,7 +863,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e 
 
 * Abbiamo aggiunto diversi miglioramenti per rendere Target ancora più sicuro. (TGT-31090, TGT-31089, TGT-31143)
 
-### Target Standard/Premium 18.7.1 (25 luglio 2018)  {#section_A4A9C20EB677455F84FF0BA389F645E5}
+### Target Standard/Premium 18.7.1 (25 luglio 2018) {#section_A4A9C20EB677455F84FF0BA389F645E5}
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
@@ -963,7 +988,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e 
 * La riga Backup di download CSV dei Consigli ora ha &quot;*&quot; davanti (doppie virgolette che racchiudono un asterisco) invece di * (un singolo asterisco).
 * La riga dei Più venduti/Più visualizzati nel file CSV scaricabile dei Consigli non ha più una virgola davanti.
 
-### Modifiche alla piattaforma di Target (19 giugno 2018)  {#section_0638BD69F3C640479A2A258AD78C0884}
+### Modifiche alla piattaforma di Target (19 giugno 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
 
 Questa versione include i seguenti miglioramenti:
 
@@ -977,11 +1002,11 @@ Questa versione include i seguenti miglioramenti:
 
    Per ulteriori informazioni, consulta [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md#concept_2A794199DC1A4D349FFFBC7DCF1FEB89). (TNT-26714, TNT-28288)
 
-### API per il download di Target (5 giugno 2018)  {#section_B8729DA10F18433C8D8E01B04F308ED2}
+### API per il download di Target (5 giugno 2018) {#section_B8729DA10F18433C8D8E01B04F308ED2}
 
 Puoi usare l&#39;API Download di Recommendations per scaricare le raccomandazioni in un file CSV che può essere visualizzato in un editor di fogli di calcolo o di testo. Per migliorare la sicurezza, a partire dal **5 giugno 2018**, Target bloccherà le richieste HTTP e autorizzerà solo quelle HTTPS.
 
-### Target Standard/Premium 18.5.1 (22 maggio 2018)  {#section_7C1427793C2A48DBAC39F8290717DC5B}
+### Target Standard/Premium 18.5.1 (22 maggio 2018) {#section_7C1427793C2A48DBAC39F8290717DC5B}
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
@@ -1130,7 +1155,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.3.1 (20 marzo 2018)  {#section_880706BE15544A03A2C951F267F4AEC5}
+### Target Standard/Premium 18.3.1 (20 marzo 2018) {#section_880706BE15544A03A2C951F267F4AEC5}
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
@@ -1242,7 +1267,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  </tbody> 
 </table>
 
-### Target Standard/Premium 18.1.1 (23 gennaio 2018)  {#section_3A2216543B064D6F82EC03E1F8AEC74D}
+### Target Standard/Premium 18.1.1 (23 gennaio 2018) {#section_3A2216543B064D6F82EC03E1F8AEC74D}
 
 Questa versione include i miglioramenti e le funzioni seguenti:
 
@@ -1336,7 +1361,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.11.1 (8 novembre 2017)  {#section_324A9B1DA0B14F5999FEE41F15B13A44}
+### Target Standard/Premium 17.11.1 (8 novembre 2017) {#section_324A9B1DA0B14F5999FEE41F15B13A44}
 
 Questa versione include i miglioramenti e le funzioni seguenti (i codici tra parentesi sono per uso interno di Adobe):
 
@@ -1423,7 +1448,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
 * Nella libreria Pubblico e nella Libreria delle offerte è possibile filtrare in base all’Area di lavoro (funzione disponibile per gli utenti Target Premium con autorizzazioni per gli utenti Enterprise). (TGT-26813)
 * Sono stati apportati miglioramenti nell&#39;interfaccia utente dei Rapporti per ottimizzare lo scorrimento degli elenchi a discesa dei filtri all&#39;interno delle tabelle e dei posizionamenti. (TGT-23713 e TGT-26819)
 
-### Modifiche alla piattaforma Target (13 ottobre 2017)  {#section_6C298C5C3D01415CB4B658EB2166096C}
+### Modifiche alla piattaforma Target (13 ottobre 2017) {#section_6C298C5C3D01415CB4B658EB2166096C}
 
 <table id="table_8457FAE3508F454F9DFDEF093FBD7E40"> 
  <thead> 
@@ -1443,7 +1468,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.9.1 (25 settembre 2017 e 12 ottobre 2017)  {#section_ECC5DD8B6ED443788B46F53E25FC896E}
+### Target Standard/Premium 17.9.1 (25 settembre 2017 e 12 ottobre 2017) {#section_ECC5DD8B6ED443788B46F53E25FC896E}
 
 Questa versione include i miglioramenti e le funzioni seguenti (i codici tra parentesi sono per uso interno di Adobe):
 
@@ -1519,7 +1544,7 @@ Per ulteriori informazioni, consulta [Abilitazione di contenuto misto nel browse
 
 * È stato migliorato il flusso di lavoro quando la sessione Target di un utente scade durante la configurazione delle opzioni nelle pagine Amministrazione, Tipi di pubblico e Consigli. Quando l&#39;utente fa clic su Salva viene visualizzato il messaggio di sessione scaduta; effettuando di nuovo il log in, una finestra di dialogo informa l&#39;utente che l&#39;accesso è andato a buon fine e l&#39;interfaccia utente rimane nella stessa pagina di Target senza perdita di dati. (TGT-25557)
 
-### Modifiche alla piattaforma Target (27 settembre 2017)  {#section_AC32516DFBA64AD2AC9A74171D452778}
+### Modifiche alla piattaforma Target (27 settembre 2017) {#section_AC32516DFBA64AD2AC9A74171D452778}
 
 <table id="table_701D8D53D1DF4F28ADAC6EC221B0208A"> 
  <thead> 
@@ -1552,7 +1577,7 @@ Per ulteriori informazioni, consulta [Abilitazione di contenuto misto nel browse
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.8.1 (22 agosto 2017)  {#section_71A554D072F04B18B359C1626529E5D8}
+### Target Standard/Premium 17.8.1 (22 agosto 2017) {#section_71A554D072F04B18B359C1626529E5D8}
 
 <table id="table_AAC16F89060D4CC09762A370B86C0885"> 
  <thead> 
@@ -1603,7 +1628,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
  </tbody> 
 </table>
 
-### Target Standard/Premium 17.7.3 (3 agosto 2017)  {#section_D90CB766679442C7A0642E5D79657674}
+### Target Standard/Premium 17.7.3 (3 agosto 2017) {#section_D90CB766679442C7A0642E5D79657674}
 
 <table id="table_C81EA97B251547169BC9681E5DDB4B8F"> 
  <thead> 
@@ -1718,7 +1743,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni d
 
    Questo processo di importazione verrà eseguito quando verrà aperta la pagina attività, con un ritardo massimo di dieci minuti. (KB-1526)
 
-### Target Standard/Premium 17.6.2 (22 giugno 2017)  {#section_F0372B07B56E454CB048CE79FF56E9CD}
+### Target Standard/Premium 17.6.2 (22 giugno 2017) {#section_F0372B07B56E454CB048CE79FF56E9CD}
 
 <table id="table_8C4DB1B83B874E4C85CE9FF352E7B857"> 
  <thead> 
@@ -1754,7 +1779,7 @@ Questa versione di [!DNL Target] include i miglioramenti e le correzioni seguent
 * È stato corretto un problema che a volte causava un errore di conteggio sul diagramma di attività nell&#39;interfaccia utente, quando veniva applicata l&#39;eliminazione automatica dei duplicati dopo la creazione di gruppi di esclusione.
 * È stato risolto un problema a causa del quale le inclusioni manuali potevano non venire riportate correttamente nell&#39;interfaccia utente quando veniva modificata un&#39;attività esistente tramite il Gruppo di esclusione.
 
-### Target Standard/Premium 17.6.1 (8 giugno 2017)  {#section_1D05FE23CE3744DDB5D28E933341F575}
+### Target Standard/Premium 17.6.1 (8 giugno 2017) {#section_1D05FE23CE3744DDB5D28E933341F575}
 
 <table id="table_47117524922A472AA977C652B581B356"> 
  <thead> 
@@ -1815,7 +1840,7 @@ Questa versione di [!DNL Target] si concentra su correzioni back end e include i
 * È stato corretto un problema che causaca il malfunzionamento dell&#39;impostazione “Incrementa il conteggio, rilascia l&#39;utente e consenti il reinserimento”, nelle impostazioni avanzate delle attività. (TNT-26556)
 * È stato risolto un problema che impediva la rimozione da Target dei dati degli Attributi dei clienti dopo che questi erano stati aggiornati con NULL nell&#39;interfaccia utente di Experience Cloud. (TNT-26462)
 
-### Modifiche alla Piattaforma Target (13 aprile 2017)  {#section_B59C26405EB7482AA80820D6D39B9C44}
+### Modifiche alla Piattaforma Target (13 aprile 2017) {#section_B59C26405EB7482AA80820D6D39B9C44}
 
 <table id="table_6167ECB7B44F40DCADF299F46F1F795C"> 
  <thead> 
@@ -1893,7 +1918,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni r
 * [!DNL Target] ora supporta il passaggio da un ambiente a un altro (gruppi host) per le attività di [!UICONTROL Automated Personalization].
 * Le attività di [!UICONTROL Automated Personalization] supportano ora i gruppi host.
 
-### Target Standard/Premium 17.2.1 (21 febbraio 2017)  {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
+### Target Standard/Premium 17.2.1 (21 febbraio 2017) {#section_FC6412353DE64E848FFD5E8EFF72C7C7}
 
 >[!NOTE]
 >
@@ -1924,7 +1949,7 @@ Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioram
 
    È comunque possibile aggiungere un’altra posizione all’attività e assegnare la mbox globale a tale posizione, con il contenuto predefinito. Così facendo l’oggetto mbox globale viene collegato all’attività e Target può contare la metrica per la generazione di rapporti.
 
-### Modifiche alla piattaforma Target (18 gennaio 2017)  {#section_EA41802B2B24426FBA88D25E17DBE360}
+### Modifiche alla piattaforma Target (18 gennaio 2017) {#section_EA41802B2B24426FBA88D25E17DBE360}
 
 <table id="table_3A2CD47252894F119B0E60BF6A9285B0"> 
  <thead> 
@@ -2136,7 +2161,7 @@ Questa versione include i seguenti miglioramenti:
 
 * L’opzione [!UICONTROL Rendering con JavaScript] non è attualmente supportata se viene utilizzata con codice personalizzato nel Compositore esperienza visivo.
 
-### Modifiche alla piattaforma Target (settembre 2016)  {#section_1955146045A247D393DB824669A2A916}
+### Modifiche alla piattaforma Target (settembre 2016) {#section_1955146045A247D393DB824669A2A916}
 
 <table id="table_8FDAEED5D84C4C718AB863BD6C383F20"> 
  <thead> 
