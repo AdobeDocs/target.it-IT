@@ -4,19 +4,22 @@ description: Scopri i requisiti di implementazione per Analytics for [!DNL Targe
 title: Cosa Devo Sapere Prima Di Implementare A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '883'
-ht-degree: 34%
+source-wordcount: '897'
+ht-degree: 33%
 
 ---
 
-# Prima dell’implementazione
+# Prima di implementare Analytics for Target (A4T) con at.js
 
 Diverse modifiche si verificano nel processo di raccolta dei dati quando si abilita [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
-Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguenti e considera l&#39;impatto sui processi di reporting:
+Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguenti e considera l&#39;impatto sui processi di reporting.
+
+>[!NOTE]
+>
+>Questo articolo si applica solo alle implementazioni di at.js .
 
 ## Requisiti di implementazione {#section_A0D2EF18033D4C3997B08A6EBB34C17A}
 
@@ -39,7 +42,7 @@ Questa integrazione richiede l&#39;implementazione delle seguenti versioni della
 Per utilizzare le offerte di reindirizzamento con A4T, devi implementare le seguenti versioni della libreria (o successive). L’ordine nell’elenco corrisponde all’ordine delle operazioni.
 
 * [!DNL Experience Cloud Visitor ID Service]: visitorAPI.js versione 2.3.0
-* [!DNL Adobe Target]: at.js versione 1.6.2
+* [!DNL Adobe Target]: versione at.js 1.6.2
 
    **Nota:** la libreria mbox.js non supporta le offerte di reindirizzamento con A4T. L’implementazione deve utilizzare at.js.
 
