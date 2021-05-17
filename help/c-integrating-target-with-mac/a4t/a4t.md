@@ -1,22 +1,25 @@
 ---
-keywords: a4t;Analytics;analytics for target;Analytics come origine per la generazione di rapporti;Adobe Analytics come origine di reporting per Target
-description: Utilizza Analytics for [!DNL Target] (A4T) per creare attività basate su metriche di conversione e segmenti di pubblico di Analytics e utilizza i rapporti di Analytics per esaminare i risultati.
-title: Cos’è Analytics for [!DNL Target] (A4T)?
+keywords: a4t;analytics;analytics for target;origine per la generazione di rapporti di analytics;adobe analytics come origine per la generazione di rapporti per target;atjs;at.js;adobe experience platform web sdk;platform web sdk;platform sdk
+description: Utilizzare i rapporti [!DNL Analytics] for [!DNL Target] (A4T) to create activities based on [!DNL Analytics] conversion metrics and audience segments and use [!DNL Analytics] per esaminare i risultati.
+title: Cos’è [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1268'
-ht-degree: 39%
+source-wordcount: '1127'
+ht-degree: 30%
 
 ---
 
-# Adobe Analytics come origine per la generazione di rapporti, ad Adobe [!DNL Target] (A4T)
+# [!DNL Adobe Analytics] come origine per la generazione di rapporti per  [!DNL Adobe Target] (A4T)
 
 [!DNL Adobe Analytics for Target] (A4T) è un’integrazione tra più soluzioni che consente di creare attività basate su metriche di  [!DNL Analytics] conversione e segmenti di pubblico. L’integrazione A4T consente di utilizzare i rapporti [!DNL Analytics] per esaminare i risultati. Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano sulla raccolta dati [!DNL Analytics].
 
-## Panoramica di A4T {#section_92B66069210C40DBA937790E8CC596CF}
+>[!NOTE]
+>
+>Il supporto A4T in un’implementazione [!DNL Adobe Experience Platform Web SDK] discussa in questo articolo è pianificato per essere disponibile con la versione 2.5.0 di [!DNL Platform Web SDK] (24 maggio 2021).
+
+## Panoramica {#section_92B66069210C40DBA937790E8CC596CF}
 
 L’ integrazione [!DNL Analytics for Target] tra [!DNL Analytics] e [!DNL Target] fornisce potenti strumenti di analisi e risparmio di tempo per il programma di ottimizzazione.
 
@@ -24,17 +27,11 @@ I tre vantaggi principali dell’utilizzo dei dati [!DNL Analytics] in [!DNL Tar
 
 * Gli addetti al marketing possono applicare dinamicamente le metriche di successo [!DNL Analytics] o i segmenti di reporting ai rapporti di attività [!DNL Target] in qualsiasi momento. Non è necessario specificare tutte le impostazioni prima di eseguire l’attività.
 * Un’unica fonte di dati elimina la varianza che si verifica quando si raccolgono dati in due sistemi distinti.
-* L&#39;implementazione [!DNL Analytics] esistente raccoglie tutti i dati richiesti. Non è necessario implementare mbox sulle pagine al solo scopo di raccogliere dati per i rapporti. Adobe consiglia ancora di implementare una mbox di conferma dell&#39;ordine per le attività [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP).
-
->[!IMPORTANT]
->
->Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’integrazione per il tuo account. Utilizza [questo modulo](https://www.adobe.com/go/audiences) per richiedere il provisioning.
->
->L’integrazione che abilita [!DNL Analytics] come origine dati per [!DNL Target] (A4T) rappresenta la nuova generazione del plug-in Test&amp;Target per il SiteCatalyst. Questo plug-in è stato dichiarato obsoleto, ma rimane supportato per i clienti che già lo utilizzano.
+* L&#39;implementazione [!DNL Analytics] esistente raccoglie tutti i dati richiesti. Non è necessario implementare mbox sulle pagine al solo scopo di raccogliere dati per i rapporti.
 
 Se utilizzi [!DNL Analytics] come origine per la generazione di rapporti per un’attività, tutti i rapporti e le segmentazioni per tale attività si basano su [!DNL Analytics].
 
-Tutte le metriche [!DNL Analytics], comprese le metriche calcolate, sono disponibili in [!DNL Target] e nel rapporto [!UICONTROL Attività di Target] in [!DNL Analytics]. Allo stesso modo, qualsiasi segmento disponibile in [!DNL Analytics] può essere applicato a entrambe le soluzioni. Puoi applicare la metrica o il pubblico al rapporto in [!DNL Target] dopo l’avvio dell’attività, o anche dopo il completamento dell’attività.
+Tutte le metriche [!DNL Analytics], comprese le metriche calcolate, sono disponibili in [!DNL Target] e nel rapporto [!UICONTROL Attività di Target] in [!DNL Analytics], con una sola eccezione. Le metriche calcolate per [!UICONTROL Incremento e affidabilità] non sono supportate. Allo stesso modo, qualsiasi segmento disponibile in [!DNL Analytics] può essere applicato a entrambe le soluzioni. Puoi applicare la metrica o il pubblico al rapporto in [!DNL Target] dopo l’avvio dell’attività, o anche dopo il completamento dell’attività.
 
 Ogni metrica è inclusa, comprese eventuali metriche personalizzate o calcolate integrate in [!DNL Analytics].
 
@@ -45,36 +42,31 @@ Considerazioni importanti per l’utilizzo di A4T:
 * Per utilizzare [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], sia tu che la tua azienda dovete avere accesso a [!DNL Analytics] e a [!DNL Target]. [Contatta il rappresentante del tuo account](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per accedere a queste soluzioni.
 * L’origine per la generazione di rapporti è impostata per ogni attività. [!DNL Target] continua a raccogliere i dati da utilizzare nei rapporti e  [!DNL Target] i dati sono ancora disponibili se preferisci basare un’attività sui dati raccolti da  [!DNL Target].
 * Utilizzare un&#39;origine per la generazione di rapporti o l&#39;altra. Non è possibile raccogliere dati per una singola attività da entrambe le origini.
-* Quando utilizzi A4T, tutte le metriche di successo disponibili per le attività sono metriche [!DNL Analytics]. Tuttavia, la metrica obiettivo può essere basata su una chiamata mbox. Ad esempio, puoi utilizzare le funzionalità di tracciamento dei clic predefinite di Target con A4T invece di dover implementare il codice di tracciamento dei clic [!DNL Analytics].
+* Quando utilizzi A4T, tutte le metriche di successo disponibili per le attività sono metriche [!DNL Analytics]. Tuttavia, la metrica di obiettivo può essere basata su una chiamata mbox se utilizzi at.js. Ad esempio, puoi utilizzare le funzionalità di tracciamento dei clic predefinite di Target con A4T invece di dover implementare il codice di tracciamento dei clic [!DNL Analytics].
 * Quando visualizzi il reporting di un’attività A4T nell’interfaccia utente [!DNL Target], stai visualizzando i dati [!DNL Analytics]. Ad esempio, se utilizzi la metrica [!UICONTROL Visitatore] in [!DNL Target], stai utilizzando la metrica [!DNL Analytics] [!UICONTROL Visitatore], non la metrica [!DNL Target] [!UICONTROL Visitatori], che è ora denominata [!UICONTROL Partecipanti]. Questa differenza è particolarmente importante per le metriche del traffico di base ([!UICONTROL Visitatori], [!UICONTROL Visite], [!UICONTROL Visualizzazioni pagina]) e le metriche di conversione.
 * Tutte le attività [!DNL Target] esistenti continuano a utilizzare la raccolta dati [!DNL Target] e non vengono influenzate dall’abilitazione di A4T.
-* È consentita una sola metrica basata su mbox quando si utilizza [!DNL Analytics] come origine per la generazione di rapporti.
-* Una chiamata server-to-server da [!DNL Target] a [!DNL Analytics] invia informazioni sull&#39;attività e sull&#39;esperienza a [!DNL Analytics]. Questa integrazione non comporta più chiamate server per [!DNL Target] o [!DNL Analytics].
+* È consentita una sola metrica basata su mbox quando si utilizza A4T.
+* Una chiamata server-to-server da [!DNL Target] a [!DNL Analytics] invia informazioni sull&#39;attività e sull&#39;esperienza a [!DNL Analytics]. Questa integrazione non comporta chiamate server aggiuntive per [!DNL Target] o [!DNL Analytics].
 
    In alcune situazioni, le classificazioni da [!DNL Target] a [!DNL Analytics] non riescono e le attività non mostrano dati in [!DNL Analytics]. Consulta [Risoluzione dei problemi relativi all’integrazione di Analytics e Target (A4T)](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md). Puoi anche [contattare l&#39;Assistenza clienti](/help/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB) per ulteriore assistenza.
 
+## Implementare A4T
+
+Per informazioni sull’implementazione di A4T con at.js e [!DNL Adobe Experience Platform Web SDK], consulta [Analytics for [!DNL Target] implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md).
+
 ## Tipi di attività supportati {#section_F487896214BF4803AF78C552EF1669AA}
 
-La tabella seguente mostra quali tipi di attività supportano [!DNL Analytics] come origine per la generazione di rapporti in [!DNL Target] (A4T):
+Le sezioni seguenti contengono informazioni sui tipi di attività supportati quando si utilizza [!DNL Adobe Experience Platform Web SDK] o at.js:
 
 | Tipi di attività | Compatibile con A4T? | Note, se applicabili |
 |--- |--- |--- |
-| Attività A/B con suddivisione manuale del traffico | Sì |  |
-| Attività A/B con Allocazione automatica | Sì | Consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
-| Attività A/B con Targeting automatico | Sì | Consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
-| Targeting esperienza (XT) | Sì |  |
-| Test multivariato (MVT) | Sì | Richiede metriche obiettivo basate su mbox per ottenere il rapporto [!UICONTROL Contributo elemento] . Il rapporto [!UICONTROL Contributo elemento] al momento non supporta le metriche [!DNL Analytics]. |
-| Attività di Personalizzazione automatizzata (AP) | No |  |
-| Attività di Consigli | Sì |  |
-| App mobile | Sì | Supportato con l’SDK di Mobile Services, versione 4.13.1 o successiva. Per ulteriori informazioni, consulta la [documentazione di Mobile Services](https://experienceleague.adobe.com/docs/mobile-services/using/home.html). |
-| E-mail | No |  |
-| API di distribuzione lato server | Sì | Per ulteriori informazioni, consulta [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| SDK di NodeJS | Sì | Per ulteriori informazioni, consulta [Lato server: implementare Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md). |
-| Integrazione del servizio Cloud di AEM 6.1 (o precedente) | No |  |
-| Integrazione del servizio Cloud di AEM 6.2 (o successiva) | Sì | Per ulteriori informazioni, consulta [Integrazione con Adobe Target](https://helpx.adobe.com/experience-manager/6-2/sites/administering/using/target.html) nella documentazione [!DNL Adobe Experience Manager] 6.2 . |
-| Qualsiasi attività utilizzando un’offerta di reindirizzamento | Sì | Ci sono requisiti minimi più severi per le offerte di reindirizzamento con A4T. Per ulteriori informazioni, consulta [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md). |
-| Node.JS | Sì | Per ulteriori informazioni, consulta [SDK di Node.js](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/nodejs-sdk) nella guida *SDK di Adobe Target* . |
-| SDK per Java | Sì | Per ulteriori informazioni, consulta [Java SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/java-sdk) nella guida *Adobe Target* SDK. |
+| [Attività A/B con suddivisione manuale del traffico](/help/c-activities/t-test-ab/test-ab.md) | Sì |  |
+| [Attività A/B con Allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md) | Sì | Consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) |
+| [Attività A/B con Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) | Sì | Consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). |
+| [Targeting esperienza (XT)](/help/c-activities/t-experience-target/experience-target.md) | Sì |  |
+| [Test multivariato (MVT)](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Sì | Richiede metriche obiettivo basate su mbox per ottenere il rapporto [!UICONTROL Contributo elemento] . Il rapporto [!UICONTROL Contributo elemento] al momento non supporta le metriche [!DNL Analytics]. |
+| [Attività di Personalizzazione automatizzata (AP)](/help/c-activities/t-automated-personalization/automated-personalization.md) | No |  |
+| [Attività di Consigli](/help/c-recommendations/recommendations.md) | Sì |  |
 
 Poiché tutti i tipi di attività non supportano ancora A4T, è consigliabile mantenere o implementare importanti mbox di conversione, ad esempio la mbox `orderConfirmPage` .
 
@@ -84,7 +76,7 @@ Per visualizzare i rapporti A4T in [!DNL Target], fai clic su **[!UICONTROL Atti
 
 >[!NOTE]
 >
->È possibile utilizzare l’elenco a discesa [!UICONTROL Origine per la generazione di rapporti] nella parte superiore della pagina [!UICONTROL Attività] per visualizzare solo le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti.
+>Puoi utilizzare l&#39;elenco a discesa [!UICONTROL Origine per i rapporti] nella parte superiore della pagina [!UICONTROL Attività] per visualizzare solo le attività che utilizzano A4T.
 
 Per passare dalla [!UICONTROL Vista tabella] alla [!UICONTROL Vista grafico] del rapporto, fai clic sull’icona appropriata in alto a destra nel rapporto.
 
@@ -129,4 +121,12 @@ Questo video è una registrazione di “ [Office Hours](/help/cmp-resources-and-
 * Informazioni sui rapporti ideali da utilizzare in Analytics
 * Risposte alle domande più frequenti su A4T
 
-[Office hours dell&#39;integrazione di Analytics e Target (A4T)](https://helpx.adobe.com/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+[Office hours dell&#39;integrazione di Analytics e Target (A4T)](https://helpx.adobe.com/it/customer-care-office-hours/target/analytics-target-A4T-integration.html)
+
+>[!MORELIKETHIS]
+>
+>* [Implementazione  [!DNL Target] di Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md): Contiene informazioni sull’implementazione per at.js e l’SDK per web di Platform.
+>* [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md)
+* [Cos’è Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html): Contiene informazioni generali sull’SDK per web di Platform.
+* [Panoramica](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html) di Target: Contiene informazioni specifiche su  [!DNL Target] e  [!DNL Platform Web SDK].
+
