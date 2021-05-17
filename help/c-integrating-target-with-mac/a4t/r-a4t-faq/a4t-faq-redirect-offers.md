@@ -4,11 +4,10 @@ description: Trova le risposte alle domande sull'utilizzo delle offerte di reind
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 69%
+source-wordcount: '1355'
+ht-degree: 62%
 
 ---
 
@@ -73,7 +72,7 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
-## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare?  {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
+## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
 Collabora con il tuo team IT per inserire nell&#39;elenco Consentiti questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`).
 
@@ -106,3 +105,23 @@ Con [!DNL at.js] versione 0.9.6 (o successiva) e [!DNL AppMeasurement.js] 2.1 (o
 ## Posso usare le offerte di reindirizzamento personalizzate/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
 No, è necessario utilizzare un’offerta di reindirizzamento integrata per attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T). Dal punto di vista di [!DNL Target], le offerte HTML sono opache: [!DNL Target] non può sapere che un particolare pezzo di HTML contiene JavaScript che crea un’istanza di un reindirizzamento.
+
+## Le [!DNL Adobe Experience Platform Web SDK] supportano le offerte di reindirizzamento per A4T? {#platform}
+
+Le seguenti domande frequenti forniscono ulteriori informazioni sull’utilizzo di A4T e sulle offerte di reindirizzamento con [!DNL Platform Web SDK].
+
+>[!NOTE]
+>
+>Il supporto A4T in un’implementazione [!DNL Adobe Experience Platform Web SDK] discussa in questo articolo è pianificato per essere disponibile con la versione 2.5.0 di [!DNL Platform Web SDK] (24 maggio 2021).
+
+### Analytics for Target (A4T) supporta le offerte di reindirizzamento?
+
+Sì, A4T tramite Platform Web SDK supporta [offerte di reindirizzamento](/help/c-experiences/c-manage-content/offer-redirect.md).
+
+### Il [!UICONTROL Compositore esperienza visivo] (VEC) e il [!UICONTROL Compositore esperienza basato su moduli] sono supportati?
+
+Sì, il [[!UICONTROL Compositore esperienza visivo]](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (VEC) e il [[!UICONTROL Compositore esperienza basato su moduli]](/help/c-experiences/form-experience-composer.md) sono supportati se utilizzi offerte di reindirizzamento integrate.
+
+### Posso usare le offerte di reindirizzamento personalizzate/HTML con [!DNL Platform Web SDK]?
+
+No, devi utilizzare un’offerta di reindirizzamento integrata per attività che utilizzano A4T. Dal punto di vista [!DNL Target], le offerte HTML sono opache. [!DNL Target] non è in grado di sapere che un particolare pezzo di HTML contiene JavaScript che crea un&#39;istanza di un reindirizzamento.
