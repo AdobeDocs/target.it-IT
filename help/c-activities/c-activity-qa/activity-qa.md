@@ -4,11 +4,10 @@ description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL
 title: Come Faccio A Controllare Le Attività?
 feature: Attività
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
 workflow-type: tm+mt
-source-wordcount: '1545'
-ht-degree: 78%
+source-wordcount: '1525'
+ht-degree: 79%
 
 ---
 
@@ -21,9 +20,6 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 Il controllo di qualità delle attività permette di testare completamente le attività Target prima di pubblicarle. La funzionalità Controllo di qualità attività include:
 
 * Collegamenti da condividere con i membri del gruppo, che non cambiano mai né richiedono di essere generati di nuovo, anche in seguito a modifiche apportate alle esperienze o attività.. Questo consente di testare completamente le attività nell’intero percorso dell’utente.
-
-   Il supporto per i collegamenti di anteprima per le attività [!UICONTROL Automated Personalization] è stato aggiunto con [at.js 2.5.0](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-
 * Possibilità di rispettare o meno le condizioni di pubblico, per testare i criteri di targeting o per ignorarli al fine di verificare come si presentano le esperienze senza dover soddisfare le condizioni di pubblico.
 * Il rapporto di controllo qualità viene acquisito per permettere agli addetti al marketing di confermare che le metriche aumentano come previsto, e i relativi dati sono tenuti separati dai rapporti di produzione (per la generazione di rapporti non A4T).
 * Possibilità di visualizzare in anteprima un’esperienza in isolamento o in combinazione con altre attività live che soddisfano i criteri di consegna (pagina/richiesta Target/pubblico).
@@ -67,7 +63,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
 
 ## Considerazioni {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* Il collegamento [!UICONTROL Controllo di qualità attività] viene visualizzato nella pagina [!UICONTROL Panoramica] di tutti i tipi di attività eccetto Personalizzazione automatica. È possibile utilizzare i [collegamenti di anteprima](/help/c-activities/t-automated-personalization/experience-preview.md#task_586C6655A6FD4AF08F5678FC3F481EFC) per le attività di Personalizzazione automatica.
+* Il collegamento [!UICONTROL Controllo di qualità attività] viene visualizzato nella pagina [!UICONTROL Panoramica] di tutti i tipi di attività eccetto Personalizzazione automatica. 
 * I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova a generare i collegamenti di anteprima. Per evitare che questo problema si verifichi di nuovo, archivia le attività salvate che non vengono più utilizzate attivamente.
 * Gli URL controllo qualità delle attività sono disponibili per le attività in cui Analytics è impostato come origine per la creazione di rapporti (A4T). I risultati generati durante l’esecuzione del controllo qualità utilizzando la funzione Controllo di qualità attività confluiranno nella stessa suite di rapporti dei dati dell’attività, anche dopo che l’attività sarà stata pubblicata.
 * La funzione Controllo di qualità attività non visualizza i contenuti di attività archiviate o scadute. Se si disattiva un’attività terminata, è necessario salvare nuovamente l&#39;attività affinché la funzione Controllo di qualità attività funzioni.
