@@ -5,10 +5,10 @@ title: Cosa sono i token di risposta e come li utilizzo?
 feature: Amministrazione e configurazione
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: ed4e6715c120fe692c7f3f84f6b869b5ad9bd1b7
+source-git-commit: ddffc7d687d25cc87bb220af80bfec2c51b85542
 workflow-type: tm+mt
-source-wordcount: '1576'
-ht-degree: 30%
+source-wordcount: '1551'
+ht-degree: 29%
 
 ---
 
@@ -263,58 +263,6 @@ Puoi inviare dati a Google Analytics tramite at.js aggiungendo il seguente codic
   }); 
  
   function isEmpty(val) { 
-    return (val === undefined || val == null || val.length <= 0) ? true : false; 
-  } 
- 
-  function key(obj) { 
-     return Object.keys(obj) 
-    .map(function(k) { return k + "" + obj[k]; }) 
-    .join(""); 
-  } 
- 
-  function distinct(arr) { 
-    var result = arr.reduce(function(acc, e) { 
-      acc[key(e)] = e; 
-      return acc; 
-    }, {}); 
-   
-    return Object.keys(result) 
-    .map(function(k) { return result[k]; }); 
-  } 
-</script>
-```
-
-## Debug (simile al plug-in ttMeta) {#section_DB3392B6E80749C1BFB520732EDF3BCE}
-
-L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiungendo il seguente codice alla pagina HTML:
-
-```javascript
-<script type="text/javascript" > 
-  document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function (e) { 
-    window.ttMETA= typeof(window.ttMETA)!="undefined" ? window.ttMETA : []; 
- 
-    var tokens=e.detail.responseTokens; 
- 
-    if (isEmpty(tokens)) { 
-      return; 
-    } 
-     
-    var uniqueTokens = distinct(tokens); 
- 
-    uniqueTokens.forEach(function(token) { 
-      window.ttMETA.push({ 
-        'CampaignName': token["activity.name"], 
-        'CampaignId' : token["activity.id"], 
-        'RecipeName': token["experience.name"], 
-        'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
-        'MboxName': e.detail.mbox}); 
-      console.log(ttMETA); 
-    }); 
-  }); 
- 
-  function isEmpty(val){ 
     return (val === undefined || val == null || val.length <= 0) ? true : false; 
   } 
  
