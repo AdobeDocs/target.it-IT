@@ -4,7 +4,7 @@ description: Utilizzare i rapporti [!DNL Analytics] for [!DNL Target] (A4T) to c
 title: Cos’è [!DNL Analytics] for [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
 workflow-type: tm+mt
 source-wordcount: '1127'
 ht-degree: 30%
@@ -17,7 +17,7 @@ ht-degree: 30%
 
 >[!NOTE]
 >
->Il supporto A4T in un’implementazione [!DNL Adobe Experience Platform Web SDK] discussa in questo articolo è pianificato per essere disponibile con la versione 2.5.0 di [!DNL Platform Web SDK] (24 maggio 2021).
+>Il supporto A4T in un’implementazione [!DNL Adobe Experience Platform Web SDK] discussa in questo articolo è pianificato per essere disponibile con la versione 2.5.0 di [!DNL Platform Web SDK] (1° giugno 2021).
 
 ## Panoramica {#section_92B66069210C40DBA937790E8CC596CF}
 
