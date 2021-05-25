@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Note sulla versione
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: d102e3b93e258199bad40de089443eda3a07d7fe
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 58%
+source-wordcount: '639'
+ht-degree: 55%
 
 ---
 
@@ -19,7 +19,7 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 >
 >**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
 >
->Esegui la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di questa data per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+>Esegui la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js per evitare potenziali problemi con i tuoi siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
 
