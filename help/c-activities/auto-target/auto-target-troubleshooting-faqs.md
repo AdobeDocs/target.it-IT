@@ -4,10 +4,9 @@ description: Esplora gli argomenti relativi alla risoluzione dei problemi e le d
 title: Come posso risolvere i problemi relativi alle attività di Targeting automatico?
 feature: Targeting automatico
 exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1919'
+source-wordcount: '1920'
 ht-degree: 99%
 
 ---
@@ -33,7 +32,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con le attività
 
 * Cerca di non apportare modifiche sostanziali alle esperienze durante il corso dell&#39;attività.
 
-### Utilizziamo l&#39;opzione Auto [!DNL Target] con una suddivisione 90(Control)/10(Target) fino a quando i modelli non vengono generati?
+### Utilizza [!UICONTROL Targeting automatico] con una suddivisione 90(Controllo)/10(Target) fino a quando i modelli non vengono generati?
 
 La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
