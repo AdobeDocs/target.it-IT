@@ -5,11 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
-source-wordcount: '1162'
-ht-degree: 92%
+source-wordcount: '1184'
+ht-degree: 90%
 
 ---
 
@@ -36,6 +35,12 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 * **Limite consigliato**: 10.000 attività live attive.
 
 * **Limite consigliato**: 10.000 attività salvate (e non terminate) primarie.
+
+## Chiamate API di Target
+
+* **Limite**: 50 chiamate al minuto.
+
+   Se effettui più di 50 chiamate API al minuto, [!DNL Target] restituisce un messaggio di errore &quot;503 HTTP status&quot;.
 
 ## Tipi di pubblico
 
