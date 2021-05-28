@@ -5,10 +5,10 @@ title: Cosa sono i token di risposta e come li utilizzo?
 feature: Amministrazione e configurazione
 role: Administrator
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
+source-git-commit: fe63e3922ec0e4457c72d041cabb8e863f99cbd8
 workflow-type: tm+mt
-source-wordcount: '1598'
-ht-degree: 28%
+source-wordcount: '1622'
+ht-degree: 27%
 
 ---
 
@@ -84,7 +84,14 @@ Il processo utilizzato per ascoltare le risposte [!DNL Target] e i token di risp
 
 Utilizzare la classe dell&#39;oggetto Handle, che dispone di un oggetto metadati e di un oggetto dati per ascoltare le risposte [!DNL Target] e leggere i token di risposta.
 
-Il codice di esempio seguente aggiunge un gestore di eventi personalizzati [!DNL Platform Web SDK] direttamente alla pagina HTML:
+L&#39;esempio di risposta seguente aggiunge un gestore di eventi personalizzati [!DNL Platform Web SDK] direttamente alla pagina HTML (la tabella spiega gli oggetti utilizzati nel codice):
+
+| Oggetto | Informazioni |
+| --- | --- |
+| Tipo - Personalization.decision | Se la decisione è stata presa dal provider [!DNL Target] o Offer Decisioning. |
+| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fornisce i metadati e i valori del token di risposta alla pagina. |
+| Meta | Metadati passati alla pagina. |
+| Dati | Valori dei metadati passati alla pagina. |
 
 ```html
 <html>
@@ -139,13 +146,6 @@ Il codice di esempio seguente aggiunge un gestore di eventi personalizzati [!DNL
 
 </html>
 ```
-
-| Oggetto | Informazioni |
-| --- | --- |
-| Tipo - Personalization.decision | [!DNL Target] e i dati Offer decisioning vengono trasmessi qui. |
-| DecisionProvider - TGT | TGT-[!DNL Target]. [!DNL Target] fornisce i metadati e i valori del token di risposta alla pagina. |
-| Meta | Metadati passati alla pagina. |
-| Dati | Valori dei metadati passati alla pagina. |
 
 ### ![at.js ](/help/assets/atjs.png) badgeat.js utilizzando eventi personalizzati
 
@@ -218,7 +218,7 @@ Come accennato in precedenza, i token di risposta funzionano sulle informazioni 
 
 ## Invia dati a Google Analytics
 
-Nelle sezioni seguenti viene descritto come inviare dati [!DNL Target] alle Google Analytics:
+Le sezioni seguenti descrivono come inviare dati [!DNL Target] alle Google Analytics. I dati inviati dai token di risposta possono essere inviati ad altre integrazioni di terze parti.
 
 ### ![AEP ](/help/assets/platform.png) badgeInvio di dati a Google Analytics tramite SDK per web di Platform
 
