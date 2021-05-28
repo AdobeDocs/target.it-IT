@@ -4,11 +4,10 @@ description: Dove posso trovare idee e ispirazioni per le mie attività di test 
 title: Dove posso trovare ispirazione per i miei tentativi di test e personalizzazione?
 feature: Panoramica
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
-source-wordcount: '1053'
-ht-degree: 99%
+source-wordcount: '1054'
+ht-degree: 100%
 
 ---
 
@@ -24,7 +23,7 @@ Dopo aver identificato i tipi di pubblico, esegui test di esperienza utente e ri
 
 Ad esempio, quando un visitatore che rientra in un pubblico di “giocatori seri” per una società di telecomunicazioni visita il sito web dell’azienda, fornisci un’esperienza con testo e immagini che suonano familiari ai giocatori e un’offerta per Internet ad alta velocità.
 
-## Idea 2: [!DNL Target] visitatori nuovi e clienti ripetuti in modo diverso.
+## Idea 2: Eseguire il targeting in modo differenziato per visitatori nuovi e clienti frequenti.
 
 Gli esperti di marketing digitale riconoscono intuitivamente che i clienti esistenti hanno più valore di quelli nuovi, ma troppo spesso non danno priorità a programmi di marketing pensati per far sì che i primi continuino a tornare. Per evitare questa insidia comune, analizza le metriche dei clienti frequenti per determinare il comportamento sul sito che li caratterizza. Utilizza questi insight per creare campagne mirate per i visitatori con uno o due acquisti, offrendo incentivi che li incoraggiano a effettuare visite aggiuntive al sito.
 
