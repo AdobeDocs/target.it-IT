@@ -5,11 +5,10 @@ title: Come posso inserire i dati in [!DNL Target] utilizzando l'API di aggiorna
 feature: Implementazione
 role: Developer
 exl-id: 8331866c-0b84-4d08-83b4-f7f82c67cd21
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '193'
-ht-degree: 58%
+source-wordcount: '189'
+ht-degree: 59%
 
 ---
 
@@ -41,6 +40,7 @@ Aggiorna solo i profili. Impossibile creare un profilo per un potenziale utente 
 
 GET e POST supportati. `https://CLIENT.tt.omtrdc.net/m2/client/profile/update?mboxPC=1368007744041-575948.01_00&profile.attr1=0&profile.attr2=1...`
 
-## Link a informazioni rilevanti
+>[!MORELIKETHIS]
+>
+>* [Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles)
 
-[Aggiornamento di profili](https://developers.adobetarget.com/api/#updating-profiles)
