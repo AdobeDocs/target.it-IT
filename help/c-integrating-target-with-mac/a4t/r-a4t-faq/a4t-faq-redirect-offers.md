@@ -4,10 +4,10 @@ description: Trova le risposte alle domande sull'utilizzo delle offerte di reind
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 3be6ad187b99472ccd3019e6998eba4953e2f5b5
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1361'
-ht-degree: 62%
+source-wordcount: '1341'
+ht-degree: 63%
 
 ---
 
@@ -109,10 +109,6 @@ No, è necessario utilizzare un’offerta di reindirizzamento integrata per atti
 ## ![Badge Adobe Experience Platform Web SDK](/help/assets/platform.png) supporta le offerte di reindirizzamento  [!DNL Adobe Experience Platform Web SDK] per A4T? {#platform}
 
 Le seguenti domande frequenti forniscono ulteriori informazioni sull’utilizzo di A4T e sulle offerte di reindirizzamento con [!DNL Platform Web SDK].
-
->[!NOTE]
->
->Il supporto A4T in un’implementazione [!DNL Adobe Experience Platform Web SDK] discussa in questo articolo è pianificato per essere disponibile con la versione 2.5.0 di [!DNL Platform Web SDK] (1° giugno 2021).
 
 ### Analytics for Target (A4T) supporta le offerte di reindirizzamento?
 
