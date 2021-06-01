@@ -5,10 +5,9 @@ title: Come si utilizza il CNAME in Target?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-translation-type: tm+mt
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: 0327f4450ad7b764b01091a106e3dfd3160ffbaf
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1192'
 ht-degree: 2%
 
 ---
@@ -140,6 +139,13 @@ Utilizza il seguente set di comandi (nel terminale della riga di comando macOS o
    >[!NOTE]
    >
    >Se questo comando non riesce ma il comando `validateEdgeFpsslSni` precedente ha esito positivo, attendi che gli aggiornamenti DNS si propaghino completamente. Ai record DNS è associato [TTL (time-to-live)](https://en.wikipedia.org/wiki/Time_to_live#DNS_records) che determina il tempo di scadenza della cache per le risposte DNS di tali record. Di conseguenza, potrebbe essere necessario attendere almeno quanto i TTL. È possibile utilizzare il comando `dig target.example.com` o [la Casella degli strumenti di G Suite](https://toolbox.googleapps.com/apps/dig/#CNAME) per cercare i TTL specifici.
+
+### Come si utilizza un collegamento di rinuncia con CNAME
+
+Se utilizzi CNAME, il collegamento di rinuncia deve contenere il parametro &quot;client=`clientcode` , ad esempio:
+`https://my.cname.domain/optout?client=clientcode`.
+
+Sostituisci `clientcode` con il tuo codice client, quindi aggiungi il testo o l&#39;immagine da collegare all&#39; [URL di rinuncia](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#reference_E7A62B7B99C94B3A806CB262D16E27FC).
 
 ## Limitazioni note
 
