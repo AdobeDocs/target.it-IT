@@ -5,11 +5,10 @@ title: In che modo [!DNL Target] gestisce i problemi di privacy?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
 workflow-type: tm+mt
-source-wordcount: '658'
-ht-degree: 70%
+source-wordcount: '676'
+ht-degree: 65%
 
 ---
 
@@ -52,7 +51,11 @@ Puoi aggiungere un collegamento di rinuncia ai siti per consentire ai visitatori
 1. Aggiungi al sito il seguente collegamento:
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
-1. Sostituisci il testo `clientcode` con il tuo codice cliente e aggiungi il testo o l’immagine da collegare all’URL di rinuncia.
+
+1. (Condizionale) Se utilizzi CNAME, il collegamento deve contenere il parametro &quot;client=`clientcode` , ad esempio:
+https://my.cname.domain/optout?client=clientcode.
+
+1. Sostituisci `clientcode` con il tuo codice client e aggiungi il testo o l’immagine da collegare all’URL di rinuncia.
 
 Il visitatore che fa clic sul collegamento sarà escluso da qualsiasi richiesta mbox richiamata dalle relative sessioni di navigazione fino all’eliminazione dei cookie o per due anni (a seconda di quale dei due eventi si verifica prima). Questo funziona impostando un cookie per il visitatore denominato `disableClient` nel dominio `clientcode.tt.omtrdc.net`.
 
