@@ -4,10 +4,10 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche alla documen
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
+source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
-source-wordcount: '1288'
-ht-degree: 54%
+source-wordcount: '1334'
+ht-degree: 53%
 
 ---
 
@@ -21,6 +21,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 1 giugno | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Le seguenti FAQ sono state aggiunte:<ul><li>Come si utilizza un collegamento di rinuncia con CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | È stata aggiornata la sezione &quot;Collegamento di rinuncia&quot; per spiegare come utilizzare il collegamento di rinuncia con CNAME. |
+|  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Sono state aggiunte informazioni su [!DNL Adobe Experience Platform Web SDK]. |
+|  | [Implementazione  [!DNL Target] di Analytics](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | È stata aggiunta una nuova sezione:<ul><li>Passaggi di implementazione per un&#39;implementazione [!DNL Adobe Experience Platform Web SDK]</li></ul> |
+|  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Sono state aggiunte informazioni sull’utilizzo delle offerte di reindirizzamento con A4T e l’SDK per web della piattaforma. |
+|  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sull’utilizzo dei token di risposta con [!DNL Adobe Experience Platform Web SDK]. |
 | Maggio 27 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiunta una sezione per le chiamate API [!DNL Target] . Il limite è di 50 chiamate al minuto. |
 | Maggio 20 | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente post sul blog Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: Esegui [!DNL Adobe Target] SDK di NodeJS per la sperimentazione e la personalizzazione sulle piattaforme edge (AWS Lambda@Edge)</li></ul> |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: &quot;L&#39;archiviazione delle attività [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione.&quot; |
