@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Note sulla versione
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 259f92328be9d8694740c1d7fbd342335bfd2878
+source-git-commit: 18b9a56b8aef2fdfb8a4431fec4ae3a65adcf067
 workflow-type: tm+mt
-source-wordcount: '532'
-ht-degree: 28%
+source-wordcount: '544'
+ht-degree: 27%
 
 ---
 
@@ -31,8 +31,8 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 
 | Funzione | Dettagli |
 | --- | --- |
-| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | L’SDK per web di Platform ora supporta i reindirizzamenti [!DNL Target] quando si utilizza A4T. Le offerte di reindirizzamento in [!DNL Adobe Target] causano il reindirizzamento di un browser a una nuova pagina. |
-| Token di risposta | L’SDK per web di Platform ora supporta i token di risposta [!DNL Target] . I token di risposta ti consentono di trasmettere automaticamente informazioni specifiche di [!DNL Adobe Target] alla pagina web del tuo marchio. Queste informazioni possono includere dettagli sull’attività, l’offerta, l’esperienza, il profilo utente, le informazioni geografiche e altro ancora. Questi dettagli forniscono dati di risposta aggiuntivi da condividere con sistemi interni o di terze parti o da utilizzare per il debug. |
+| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | L’SDK per web di Platform ora supporta i reindirizzamenti [!DNL Target] quando si utilizza A4T. Le offerte di reindirizzamento in [!DNL Adobe Target] causano il reindirizzamento di un browser a una nuova pagina.<br>Per ulteriori informazioni, consulta Offerte di reindirizzamento . |
+| Token di risposta | L’SDK per web di Platform ora supporta i token di risposta [!DNL Target] .<br> I token di risposta ti consentono di trasmettere automaticamente informazioni specifiche  [!DNL Adobe Target] alla pagina web del tuo marchio. Queste informazioni possono includere dettagli sull’attività, l’offerta, l’esperienza, il profilo utente, le informazioni geografiche e altro ancora. Questi dettagli forniscono dati di risposta aggiuntivi da condividere con sistemi interni o di terze parti o da utilizzare per il debug.<br>Per ulteriori informazioni, consulta Token di  [risposta](/help/administrating-target/response-tokens.md). |
 
 ## [!DNL Target Standard/Premium] 21.5.1 (8 giugno 2021)
 
