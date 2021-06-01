@@ -4,8 +4,7 @@ description: 'Scopri come visualizzare in anteprima l’attività Adobe [!DNL Ta
 title: Come posso visualizzare in anteprima e avviare un'attività Recommendations?
 feature: Consigli
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f4972f04906cb3476f50abedd6cec847e015daf9
 workflow-type: tm+mt
 source-wordcount: '1350'
 ht-degree: 17%
@@ -77,7 +76,7 @@ L’utilizzo di un collegamento di controllo qualità consente di visualizzare i
 >* La modalità di controllo qualità di Target è &quot;persistente&quot; e viene salvata in un cookie. Se non esci dalla modalità di controllo qualità, continuerai a visualizzare i risultati del controllo qualità in tutto il sito. Per uscire dalla modalità di controllo qualità, utilizza il [bookmarklet](/help/c-activities/c-activity-qa/activity-qa-bookmark.md).
    >
    >
-* In modalità Controllo qualità, la navigazione nel sito non influirà sugli [!UICONTROL Articoli visualizzati di recente] o [!UICONTROL Articoli acquistati di recente] del tuo profilo.&quot; Questo comportamento si verifica per progettazione per evitare l’inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un criterio [!UICONTROL Articoli visualizzati di recente] o [!UICONTROL Recommendations basato su utente], sfoglia prima il sito al di fuori della modalità di controllo qualità, quindi utilizza la stessa sessione per aprire un collegamento alla modalità di controllo qualità.
+* In modalità Controllo qualità, la navigazione nel sito non influirà sugli [!UICONTROL Articoli visualizzati di recente] o sugli [!UICONTROL Articoli acquistati di recente] del profilo. Questo comportamento si verifica per progettazione per evitare l’inquinamento involontario dei dati comportamentali di produzione. Per visualizzare in anteprima i risultati di un criterio [!UICONTROL Articoli visualizzati di recente] o [!UICONTROL Recommendations basato su utente], sfoglia prima il sito al di fuori della modalità di controllo qualità, quindi utilizza la stessa sessione per aprire un collegamento alla modalità di controllo qualità.
 
 
 ## Utilizzo del download CSV per visualizzare in anteprima le raccomandazioni
