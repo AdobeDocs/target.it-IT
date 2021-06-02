@@ -4,15 +4,15 @@ description: Dai uno sguardo ad alto livello ad Adobe Target. Scopri le attivit�
 title: Dove posso trovare un’introduzione ad alto livello per Target?
 feature: Panoramica
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2520'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
-# Capitolo 2: Adobe [!DNL Target]
+# Capitolo 2: Panoramica di Adobe [!DNL Target]
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], potrebbe essere utile ottenere una panoramica ad alto livello della soluzione. In questo capitolo, scopri le funzionalità chiave della soluzione, i punti di contatto del brand su cui puoi utilizzarla, le opzioni di implementazione, le funzioni e i flussi di lavoro importanti dell’interfaccia utente, le funzioni di governance e il suo ruolo generale in [!DNL Adobe Experience Cloud]. A meno che non siano indicati come funzionalità di [!DNL Adobe Target Premium], gli elementi descritti in questo capitolo sono disponibili sia con [!DNL Adobe Target Premium] che con [!DNL Adobe Target Standard]. Per ulteriori informazioni su Target, vedi [Introduzione a Target](/help/c-intro/intro.md).
 
@@ -22,7 +22,7 @@ I test e la personalizzazione sono i due tipi di funzionalità che [!DNL Target]
 
 In un’attività di test, confronti una variante di un’esperienza digitale con una o più altre varianti per scoprire quella che determina l’azione desiderata dal maggior numero di visitatori. [!DNL Target] offre le seguenti funzionalità di test: Test A/B, Multivariate testing (MVT) e Allocazione automatica.
 
-Con un’attività di personalizzazione, distribuisci un’esperienza digitale personalizzata per un gruppo specifico di visitatori o per ogni singolo visitatore. [!DNL Target] offre le seguenti funzionalità di personalizzazione: Experience Targeting, Targeting automatico, Automated Personalization e Recommendations.
+Con un’attività di personalizzazione, distribuisci un’esperienza digitale personalizzata per un gruppo specifico di visitatori o per ogni singolo visitatore. [!DNL Target] offre le seguenti funzionalità di personalizzazione: Targeting esperienza, Targeting automatico, Automated Personalization e Consigli.
 
 Per informazioni più approfondite su quando e come utilizzare ciascuna funzionalità, consulta [Tipi di attività di Target](/help/c-activities/target-activities-guide.md).
 
@@ -32,9 +32,9 @@ Per informazioni più approfondite su quando e come utilizzare ciascuna funziona
 | Allocazione automatica | Tra due o più esperienze, identifica quella che porta i migliori risultati e, di conseguenza, ridistribuisci il traffico verso la più efficace per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere. Utilizza l’intelligenza artificiale fornita da [!DNL Adobe Sensei]. [Per saperne di più](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md). |
 | Targeting automatico<br>(Premium) | Sfrutta l’intelligenza artificiale di Adobe Sensei in [!DNL Target] per determinare e fornire la migliore esperienza per diversi visitatori in base al loro profilo cliente individuale e al comportamento di visitatori precedenti con profili simili. Il Targeting automatico consente la personalizzazione su larga scala. [Per saperne di più](/help/c-activities/auto-target/auto-target-to-optimize.md). |
 | Automated Personalization<br>(Premium) | Utilizza algoritmi di machine learning avanzati e automazione basati su [!DNL Adobe Sensei] per rivedere diverse combinazioni di immagini, testi e altri elementi in un’offerta e fornire la migliore combinazione a ogni visitatore in base al migliore raggiungimento degli obiettivi aziendali, come un aumento delle conversioni o dei ricavi per visitatore. [Per saperne di più](/help/c-activities/t-automated-personalization/automated-personalization.md). |
-| Targeting esperienza (XT) | Fornisci contenuti a un pubblico specifico sulla base di una serie di regole e criteri definiti dagli utenti. **[!UICONTROL Experience Targeting]** è utile per indirizzare un’esperienza o un contenuto specifico a un determinato pubblico quando si capisce che un pubblico è prezioso e si ha una buona sensazione delle ripercussioni dell’esperienza su di esso. [Per saperne di più](/help/c-activities/t-experience-target/experience-target.md). |
+| Targeting esperienza (XT) | Fornisci contenuti a un pubblico specifico sulla base di una serie di regole e criteri definiti dagli utenti. **[!UICONTROL Targeting esperienza]** è utile per indirizzare un’esperienza o un contenuto specifico a un determinato pubblico quando si capisce che un pubblico è prezioso e si ha una buona sensazione delle ripercussioni dell’esperienza su di esso. [Per saperne di più](/help/c-activities/t-experience-target/experience-target.md). |
 | Multivariate Testing (MVT) | Confronta tutte le possibili combinazioni di varianti di elementi sulla pagina o esperienza digitale, ad esempio tre diverse immagini di sfondo, due varianti di testo e due diversi colori di pulsante. MVT determina quale combinazione funziona al meglio per un pubblico specifico e quali elementi influiscono maggiormente sui risultati. [Per saperne di più](/help/c-activities/c-multivariate-testing/multivariate-testing.md). |
-| Recommendations<br>(Premium) | Utilizza l’intelligenza artificiale di Adobe Sensei per suggerire automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base alla loro attività precedente e a quella di altri clienti. [Per saperne di più](/help/c-recommendations/recommendations.md). |
+| Consigli<br>(Premium) | Utilizza l’intelligenza artificiale di Adobe Sensei per suggerire automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base alla loro attività precedente e a quella di altri clienti. [Per saperne di più](/help/c-recommendations/recommendations.md). |
 
 ## Canali
 
@@ -42,9 +42,9 @@ Puoi utilizzare [!DNL Target] per testare e personalizzare le esperienze digital
 
 | Canale | Dettagli |
 | --- | --- |
-| Sito web | [!DNL Target] può essere utilizzato per eseguire attività di test A/B, Multivariate Testing, Experience Targeting, Allocazione automatica, Targeting automatico, Automated Personalization e Recommendations su pagine di siti web mobili e applicazioni a pagina singola (SPA) e multipagina per migliorare il coinvolgimento di visitatori e clienti, aumentare le conversioni e far crescere i ricavi. |
+| Sito web | [!DNL Target] può essere utilizzato per eseguire attività di test A/B, Multivariate Testing, Targeting esperienza, Allocazione automatica, Targeting automatico, Automated Personalization e Consigli su pagine di siti web mobili e applicazioni a pagina singola (SPA) e multipagina per migliorare il coinvolgimento di visitatori e clienti, aumentare le conversioni e far crescere i ricavi. |
 | Web per dispositivi mobili | [!DNL Target] può essere utilizzato per eseguire tutti gli stessi tipi di attività che esegui sul sito web sulle pagine del sito web mobile in modo da migliorare in modo simile il coinvolgimento di visitatori e clienti, aumentare le conversioni e far crescere i ricavi. |
-| App mobile | [!DNL Target] può essere utilizzato per testare e personalizzare le esperienze delle app mobili in base al comportamento degli utenti e al contesto mobile. Con [!DNL Target] puoi fornire interazioni che coinvolgono e convertono mediante test iterativi ma anche Experience Targeting e personalizzazione basata su AI. Per utilizzare [!DNL Target] nell’app mobile, devi usare l’SDK di Adobe Mobile Services. |
+| App mobile | [!DNL Target] può essere utilizzato per testare e personalizzare le esperienze delle app mobili in base al comportamento degli utenti e al contesto mobile. Con [!DNL Target] puoi fornire interazioni che coinvolgono e convertono mediante test iterativi ma anche Targeting esperienza e personalizzazione basata su AI. Per utilizzare [!DNL Target] nell’app mobile, devi usare l’SDK di Adobe Mobile Services. |
 | IoT/Ovunque | [!DNL Target] offre un’implementazione lato server, per consentire di utilizzare le stesse funzionalità di test e personalizzazione nelle attività utilizzate sul sito web tradizionale, sul sito mobile e sulle app mobili nelle e-mail e nei punti di contatto privi di browser o privi di codice JavaScript. Ad esempio, puoi testare e personalizzare chioschi, set-top box, console di gioco, assistenti vocali e altri punti di contatto non tradizionali. |
 
 ## Implementazioni
