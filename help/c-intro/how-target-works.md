@@ -1,22 +1,22 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;SEO (Search Engine Optimization);SEO (Search Engine Optimization);seo;cluster edge, cluster centrali;at.js;mbox.js;
-description: Scopri come le librerie JavaScript di Adobe [!DNL Target] works, including information about the [!DNL Target] at.js e AEP Web SDK), i centri dati di Adobe e i test SEO.
-title: Come funziona [!DNL Target] ?
+description: Scopri come funzionano in Adobe  [!DNL Target] works, including information about the [!DNL Target]  le librerie JavaScript (at.js e AEP Web SDK), i data center di Adobe e i test SEO (Search Engine Optimization).
+title: Come funziona  [!DNL Target] ?
 feature: Panoramica
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2563'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# Come funziona l&#39;Adobe [!DNL Target]
+# Come funziona Adobe [!DNL Target]
 
 Scopri come funziona [!DNL Adobe Target], comprese informazioni su [!DNL Adobe Experience Platform Web SDK] e le librerie JavaScript (at.js e mbox.js). Questo articolo introduce anche i vari tipi di attività che è possibile creare utilizzando [!DNL Target]. È inoltre possibile avere informazioni su rete Edge [!DNL Target], SEO (Search Engine Optimization) e sul modo in cui [!DNL Target] rileva i bot.
 
-## [!DNL Target]SDK per web e librerie JavaScript di Platform {#libraries}
+## [!DNL Target] SDK per web e librerie JavaScript di Platform {#libraries}
 
 [!DNL Target] si integra con i siti web utilizzando [!DNL AEP Web SDK] o le librerie JavaScript:
 
@@ -33,7 +33,7 @@ Fai riferimento a [!DNL AEP Web SDK] o at.js in ogni pagina del sito. Ad esempio
 Le risorse seguenti contengono informazioni dettagliate utili per implementare AEP Web SDK o at.js:
 
 * [Adobe Experience Platform Web SDK Extension](https://experienceleague.adobe.com/docs/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html?lang=it#configure-the-aep-web-sdk-extension)
-* [ [!DNL Target] Implementazione con Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementare  [!DNL Target]  con Adobe Experience Platform Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta al sistema di targeting. La richiesta aiuta a determinare quale contenuto distribuire al visitatore. Questo processo avviene in tempo reale. Il sistema elabora e soddisfa una richiesta di contenuto ogni volta che viene caricata una pagina. Il contenuto è gestito dalle regole delle attività e delle esperienze controllate dagli addetti al marketing, e ne viene eseguito il targeting per i singoli visitatori del sito. Viene distribuito il contenuto al quale è più probabile che ogni visitatore del sito risponda, interagisca o alla fine acquisti. I contenuti personalizzati consentono di massimizzare i tassi di risposta, i tassi di acquisizione e i ricavi.
 
@@ -56,7 +56,7 @@ Consulta [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test
 
 ### [!UICONTROL Allocazione automatica]
 
-[!UICONTROL L’allocazione automatica identifica un vincitore tra due o più esperienze. ] [!UICONTROL L’allocazione automatica ridistribuisce automaticamente più traffico per l’esperienza vincente, il che consente di aumentare le conversioni mentre il test continua a essere eseguito e ad apprendere.]
+[!UICONTROL L’allocazione automatica identifica un vincitore tra due o più esperienze. ] [!UICONTROL L’allocazione] automatica ridistribuisce automaticamente più traffico per l’esperienza vincente, il che consente di aumentare le conversioni mentre il test continua a essere eseguito e ad apprendere.
 
 Per ulteriori informazioni, consulta [[!UICONTROL Allocazione automatica]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -72,13 +72,13 @@ Automated Personalization (AP) combina offerte o messaggi e utilizza l’apprend
 
 Per ulteriori informazioni, consulta [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9).
 
-### Targeting esperienza (XT)
+### [!UICONTROL Targeting esperienza] (XT)
 
 La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.
 
 Il Targeting dell’esperienza, tra cui il geotargeting, è utile per definire regole che rivolgono un’esperienza o un contenuto specifico a un determinato pubblico. È possibile definire diverse regole in un’attività per fornire diverse varianti di contenuto a tipi di pubblico diversi. Quando i visitatori visualizzano il tuo sito, la funzione Targeting esperienza (XT) li valuta per determinare se soddisfano i criteri impostati. Se soddisfano i criteri, vengono inclusi nell&#39;attività e viene visualizzata l&#39;esperienza progettata per i tipi di pubblico idonei. Puoi creare esperienze per più tipi di pubblico all&#39;interno di una singola attività.
 
-Per ulteriori informazioni, consulta [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
+Per ulteriori informazioni, consulta [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md#task_A53DF336CB9F4D7BB87EF2106099EFC4).
 
 ### [!UICONTROL Test multivariato] (MVT)
 
@@ -86,7 +86,7 @@ Multivariate Testing (MVT) confronta le combinazioni di offerte tra gli elementi
 
 Per ulteriori informazioni, consulta [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md#concept_628695CDC71B449B8DCC2F5654C11499).
 
-### [!UICONTROL Consigli]
+### [!UICONTROL Recommendations]
 
 Le attività di generazione dei consigli visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
@@ -180,7 +180,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    Adobe continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i client che devono utilizzare URL separati per i test, Adobe è sicuro che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target][ fornisce best practice](https://docs.adobe.com/content/target-microsite/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://docs.adobe.com/content/target-microsite/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato mentre il processo di codifica fissa del test vincente viene completato.
 
@@ -213,6 +213,6 @@ In particolare, per il traffico proveniente da bot noti [!DNL Target] non:
 * non crea né recupera un profilo visitatore;
 * non registra eventuali attributi di profilo né esegue gli script di profilo;
 * non consulta i segmenti Adobe Audience Manager (AAM) (se applicabile);
-* Utilizzare il traffico da bot per modellare e fornire contenuti personalizzati per le attività di Recommendations, Targeting automatico, Automated Personalization o [!UICONTROL Allocazione automatica]
+* Utilizza il traffico da bot per modellare e trasmettere contenuti personalizzati per le attività di Recommendations (Consigli), Targeting automatico, Automated Personalization o [!UICONTROL Allocazione automatica]
 * non registra a fini di reporting una visita all’attività;
 * Registra i dati da inviare alla piattaforma [!DNL Adobe Experience Cloud]
