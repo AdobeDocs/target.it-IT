@@ -1,14 +1,14 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto target;intro;introduzione;guida introduttiva
-description: Utilizza il modello Risultati del riepilogo esecutivo per aiutarti a comunicare i tuoi successi con le attività di Adobe [!DNL Target] .
-title: Come posso condividere i risultati delle mie attività  [!DNL Target] con la mia organizzazione?
+description: Utilizza il modello Risultati di riepilogo esecutivo per comunicare i tuoi successi in merito alle attività di Adobe  [!DNL Target] .
+title: Come posso condividere i risultati delle attività di  [!DNL Target]  con la mia organizzazione?
 feature: Panoramica
 exl-id: 35dd83d6-30fd-4568-a59e-b5748b192eb9
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '218'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
