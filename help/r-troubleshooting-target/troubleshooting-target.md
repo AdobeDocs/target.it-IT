@@ -4,11 +4,10 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Risoluzione dei problemi relativi al
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-translation-type: tm+mt
 source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
 workflow-type: tm+mt
 source-wordcount: '452'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -41,9 +40,9 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ### Automated Personalization
 
-* [Domande frequenti sulla Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Domande frequenti sulla Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Risoluzione dei problemi di Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Rapporto di riepilogo per Automated Personalization](/help/c-reports/reports-ap.md)
+* [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md)
 
 ### Test multivariato (MVT)
 
@@ -51,7 +50,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione dei problemi di test multivariati](/help/c-activities/c-multivariate-testing/best-practices.md)
 * [Stimare il traffico necessario per il successo del test](/help/c-activities/c-multivariate-testing/t-create-multivariate-test/traffic-estimator.md)
 
-### Consigli
+### Recommendations
 
 * [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md)
 * [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md)
@@ -139,7 +138,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Decisioning sul dispositivo
 
-* [Risoluzione dei problemi relativi alle decisioni sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
+* [Risoluzione dei problemi relativi al decisioning sul dispositivo per at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/troubleshooting-on-device-decisioning.md)
 
 ## Generazione di rapporti
 
@@ -148,7 +147,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Stato del sistema
 
@@ -165,7 +164,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 ## Compositore esperienza visivo
 
 * [Domande frequenti sull’ottimizzazione e la personalizzazione di Target](/help/c-intro/cmp-target-standard-cheatsheet.md)
-* [Risoluzione dei problemi relativi al Compositore esperienza visivo ](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
+* [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshoot-composer.md)
 * [Best practice e limitazioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/experience-composer-best-practices.md)
 * [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/visual-experience-composer.md).
