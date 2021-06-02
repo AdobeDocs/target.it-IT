@@ -1,15 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;consigli;Target Premium;Automated Personalization;personalizzazione automatizzata;targeting automatico;auto-targeting;autorizzazioni;cos’è adobe target;
-description: Scopri le nozioni di base di Adobe [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target] Premium che include funzioni avanzate non disponibili nel prodotto standard.
+description: Scopri le nozioni di base di Adobe  [!DNL Target] Standard and Adobe [!DNL Target] Premium. [!DNL Target]  Premium include funzioni avanzate non disponibili nel prodotto Standard.
 landing-page-description: Personalizza l’esperienza dei clienti per massimizzare le entrate tramite siti web, app mobili, social media e altri canali digitali.
 title: Cos’è Target?
 feature: Panoramica
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '939'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -67,7 +66,7 @@ Un consiglio determina in che modo un prodotto viene suggerito a un cliente, in 
 
 ### Consigli come offerta
 
-[Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) consente di includere consigli all’interno di attività di [!UICONTROL test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e di [!UICONTROL Experience Targeting] (XT).
+[Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md) consente di includere consigli all’interno di attività di [!UICONTROL test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e di [!UICONTROL Targeting esperienza].
 
 Questo apre a funzionalità tutte nuove, ad esempio:
 
@@ -90,7 +89,7 @@ Con [!DNL Recommendations Classic] vengono visualizzati automaticamente prodotti
 
 Per ulteriori informazioni, consulta la [documentazione di Recommendations Classic](/help/assets/adobe-recommendations-classic.pdf).
 
-## Experience League: Adobe [!DNL Target] Kit di benvenuto {#kit}
+## Experience League: Kit di benvenuto di Adobe [!DNL Target]  {#kit}
 
 Crea il tuo programma di ottimizzazione e personalizzazione su [!DNL Adobe Target] con questo kit di benvenuto. Il kit di benvenuto include informazioni chiave, strumenti e risorse utili per preparare e avviare la prima attività [!DNL Target]. Il kit include idee per ottenere risultati in breve tempo e strategie di ottimizzazione a lungo termine.
 
