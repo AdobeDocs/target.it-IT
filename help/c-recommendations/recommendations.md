@@ -1,18 +1,18 @@
 ---
-keywords: Recommendations;consigli;criteri Recommendations;criter consigli;algoritmi Recommendations;algoritmi consigli:attività;criteri;recommendations targeting;targeting consigli
-description: Scopri le attività di Recommendations in Adobe [!DNL Target] che visualizzano automaticamente contenuti che potrebbero interessare ai clienti in base all'attività utente precedente o ad altri algoritmi.
-title: Cos'è [!DNL Target] Recommendations?
+keywords: Recommendations;consigli;criteri Recommendations;criteri consigli;algoritmi Recommendations;algoritmi consigli:attività;criteri;recommendations targeting;targeting consigli
+description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
+title: Cos’è la funzione Consigli di  [!DNL Target] ?
 feature: Consigli
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '929'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Consigli 
+# ![PREMIUM](/help/assets/premium.png) Consigli
 
 Le attività [!DNL Adobe Target Recommendations] consentono di visualizzare automaticamente prodotti, servizi o contenuti che potrebbero interessare i visitatori in base alle loro attività precedenti, preferenze o ad altri algoritmi. [!DNL Target Recommendations] permette di indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza. [!DNL Recommendations] consente di fornire ai visitatori contenuti pertinenti al momento giusto e nel posto giusto.
 
@@ -60,7 +60,7 @@ Prima di iniziare a utilizzare [!DNL Recommendations] (Consigli), è utile acqui
 | Progettazioni | Le progettazioni definiscono l’aspetto dei consigli in un’attività [!DNL Recommendations], ad esempio una riga, una colonna, una tabella o una griglia. L’illustrazione nella parte superiore di questo articolo mostra una progettazione 4x1. Per ulteriori informazioni, consulta [Creare una progettazione](/help/c-recommendations/c-design-overview/create-design.md). |
 | Posizioni | Le posizioni si riferiscono a un’area di contenuto specifica su una pagina web, un’app mobile o un’e-mail in cui esegui un’attività a scopo di personalizzazione e ottimizzazione. |
 | Tipi di pubblico | I tipi di pubblico sono gruppi di partecipanti simili a un’attività che visualizzeranno un’attività mirata. Un pubblico è un gruppo di persone con le stesse caratteristiche, ad esempio nuovi visitatori, visitatori di ritorno o visitatori provenienti da una specifica area geografica. La funzione Pubblico consente di indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing digitale presentando al momento giusto i messaggi più appropriati ai vari visitatori. Per ulteriori informazioni, consulta [Tipi di pubblico](/help/c-target/target.md). |
-| Consigli come offerta | Funzione che consente di includere i consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e di Experience Targeting (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md). |
+| Consigli come offerta | Funzione che consente di includere i consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e di Targeting esperienza (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
 ## Video di formazione: Tipi di attività ![Icona Panoramica](/help/assets/overview.png)
 
