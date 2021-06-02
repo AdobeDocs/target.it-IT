@@ -1,14 +1,14 @@
 ---
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
-description: Scopri le attività di Recommendations in Adobe [!DNL Target] che visualizzano automaticamente contenuti che potrebbero interessare ai clienti in base all'attività utente precedente o ad altri algoritmi.
-title: Quali sono le attività di Recommendations (Consigli)?
+description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
+title: Quali sono le attività Consigli?
 feature: Consigli
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2115'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -20,7 +20,7 @@ Il webinar *Introduzione alla funzione Consigli* include una descrizione approfo
 
 ## Introduzione
 
-Conosciamo tutti i tipi di consigli che vediamo nel settore retail. Sempre più spesso, i clienti si aspettano di ricevere questi consigli e li utilizzano come punto di partenza per scoprire altre possibilità. Se pensi al tuo comportamento di shopping, concorderai che in effetti funzionano. Ci è capitato praticamente a tutti di acquistare un prodotto che ci era stato consigliato da qualche parte, in un negozio fisico o una proprietà digitale.
+Ormai siamo tutti abituati ai vari tipi di consigli che vediamo nel settore retail. Sempre più spesso, i clienti si aspettano di ricevere questi consigli e li utilizzano come punto di partenza per scoprire altre possibilità. Se pensi al tuo comportamento di shopping, concorderai che in effetti funzionano. Ci è capitato praticamente a tutti di acquistare un prodotto che ci era stato consigliato da qualche parte, in un negozio fisico o una proprietà digitale.
 
 L’illustrazione seguente mostra alcuni articoli consigliati: accessori acquistati spesso insieme a un telefono nuovo, come stazione di ricarica, custodie e cuffie.
 
@@ -57,7 +57,7 @@ Per essere efficaci, i consigli devono essere pertinenti e personalizzati. Per g
 * **Modelli sofisticati** con cui ottenere informazioni importanti dai milioni di articoli presenti nel catalogo ed eventi di interazione. [!DNL Target] ha sofisticate funzionalità di apprendimento automatico che attingono a dieci anni di esperienza, e gestisce miliardi di consigli all’anno.
 * **Contesto dell’utente** per assicurare che i consigli siano puntuali e rilevanti per i singoli utenti. Non vorrai consigliare un video a chi lo ha già visto, né la stessa camicia a un utente che l’ha appena messa nel carrello. Il profilo utente di Target è molto articolato e può essere utilizzato per generare consigli personalizzati.
 
-## Implementare [!DNL Target] Recommendations
+## Implementare le attività Consigli di [!DNL Target]
 
 Inizia con una strategia.
 
@@ -115,7 +115,7 @@ Se trasmetti informazioni sull’utente e il contesto al punto dell’interazion
 
 Oltre al comportamento dell’utente sotto forma di dati aggregati, è necessario trasmettere a [!DNL Target] il contesto specifico in cui vengono visualizzati i consigli. Questo include informazioni sulla pagina e sul profilo utente. [!DNL Target] utilizza queste informazioni per generare consigli personalizzati. Ad esempio, in un sito web per la vendita al dettaglio, è importante sapere quale prodotto e categoria di prodotti sta attualmente visualizzando il visitatore. Vorrai conoscere anche informazioni sull’utente (marchio preferito, categoria di prodotti preferita, livello fedeltà e così via). Tutte queste consentono a [!DNL Target] di filtrare gli articoli e migliorare la personalizzazione dei consigli.
 
-## Crea la prima attività di Consigli
+## Creare la prima attività Consigli
 
 Cos’è un’attività di [!DNL Recommendations]?
 
@@ -195,6 +195,6 @@ Ad esempio, nel contesto dei contenuti, puoi escludere i film che il visitatore 
 
 Una volta completate le attività illustrate qui sopra nel funnel per la generazione dei consigli, si passa alla fase di creazione finale. Per una dimostrazione all’interno di [!DNL Target], guarda la demo a partire dal minuto 21:00 nel *webinar sulle nozioni di base di Adobe Target*, dal collegamento che segue.
 
-## Adobe [!DNL Target] Webinar sulle nozioni di base: Introduzione a Recommendations {#intro-to-recs}
+## Webinar sulle nozioni di base di Adobe [!DNL Target]: introduzione alla funzione Consigli {#intro-to-recs}
 
 [Introduzione alla funzione Consigli](https://forums.adobe.com/external-link.jspa?url=https%3A%2F%2Fadobecustomersuccess.adobeconnect.com%2Fp8gt31drhs3e%2F%3FOWASP_CSRFTOKEN%3D4bd6cac5d0806167ee0a5449ba93d6300548d09c922bcb751c38973897a5703a)
