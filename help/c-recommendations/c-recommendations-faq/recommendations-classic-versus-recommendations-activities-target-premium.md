@@ -1,18 +1,18 @@
 ---
 keywords: consigli;algoritmi consigli;attività consigli;recommendations classic
-description: Rivedi le informazioni per comprendere le differenze tra le attività legacy di Recommendations Classic e Recommendations in [!DNL Target] Premium.
-title: Qual è la differenza tra Recommendations Classic e Recommendations in [!DNL Target] Premium?
+description: Rivedi le informazioni per comprendere le differenze tra le precedenti attività di Recommendations Classic e le attività Consigli in [!DNL Target] Premium.
+title: Qual è la differenza tra Recommendations Classic e la funzione Consigli in [!DNL Target] Premium?
 feature: Consigli
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '661'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
-# ![](/help/assets/premium.png) PREMIUMRRecommendations Classic rispetto alle attività Recommendations in  [!DNL Target] Premium
+# ![PREMIUM](/help/assets/premium.png) Confronto tra Recommendations Classic e le attività Consigli in [!DNL Target] Premium
 
 Informazioni per aiutarti a scegliere tra Recommendations Classic e le attività Consigli di Target Premium.
 
