@@ -1,14 +1,13 @@
 ---
 keywords: aggiornamento del sistema;risoluzione dei problemi;manutenzione;stato del sistema;stato di aggiornamento
-description: Visualizza lo stato corrente di Adobe [!DNL Target] per aiutarti a determinare se i problemi che potresti incontrare sono dovuti ad aggiornamenti del sistema o a manutenzione ordinaria.
-title: Dove posso visualizzare lo stato di [!DNL Target] e di altri prodotti Adobe?
+description: Visualizza lo stato corrente di Adobe  [!DNL Target]  per determinare se eventuali problemi riscontrati sono dovuti ad aggiornamenti del sistema o a manutenzione ordinaria.
+title: Dove posso visualizzare lo stato di  [!DNL Target]  e di altri prodotti Adobe?
 feature: Note sulla versione
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '329'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
