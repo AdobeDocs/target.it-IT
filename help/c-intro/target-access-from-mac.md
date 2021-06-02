@@ -1,14 +1,14 @@
 ---
 keywords: Experience Cloud;accedi;lingua;lingua predefinita interfaccia;lingua predefinita
-description: Scopri come accedere all’interfaccia utente e alla documentazione di  [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] .
-title: Come posso accedere a [!DNL Target] da Adobe Experience Cloud?
+description: Scopri come accedere all’interfaccia utente e alla documentazione di [!DNL Target] from the Adobe Experience Cloud, set your default view, and change the language of the [!DNL Target] .
+title: Come posso accedere a  [!DNL Target]  da Adobe Experience Cloud?
 feature: Panoramica
 exl-id: a5ac8d33-69c3-4e21-9f0f-baab430a6b76
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '398'
-ht-degree: 88%
+ht-degree: 100%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 88%
 
 Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Cloud], l’impostazione della pagina di destinazione predefinita e la modifica della lingua dell’interfaccia utente di [!DNL Target].
 
-## Accedi all&#39;Adobe [!DNL Target] e imposta la visualizzazione predefinita
+## Accedere ad Adobe [!DNL Target] e impostare la visualizzazione predefinita
 
 1. Accedi a [Adobe Experience Cloud](https://experience.adobe.com/).
 
@@ -30,7 +30,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
    ![Pagina di destinazione](/help/c-intro/assets/pagepref-new.png)
 
-## Modificare la lingua predefinita per l’ [!DNL Target] interfaccia utente {#language}
+## Modificare la lingua predefinita per l’interfaccia utente di [!DNL Target] {#language}
 
 1. Dopo aver effettuato l’accesso a [!DNL Adobe Experience Cloud ] o [!DNL Target], fai clic sull’avatar del tuo profilo e poi su **[!UICONTROL Modifica preferenze]**.
 
@@ -65,7 +65,7 @@ Informazioni sull’accesso a [!DNL Adobe Target] da [!DNL Adobe Experience Clou
 
 1. Esci da [!DNL Adobe Experience Cloud] o [!DNL Target], quindi effettua di nuovo l’accesso per rendere attive le modifiche.
 
-## Modifica la lingua per la documentazione del prodotto [!DNL Target] {#doc-lang}
+## Modificare la lingua per la documentazione di [!DNL Target] {#doc-lang}
 
 Le impostazioni del sistema operativo o del browser in uso dovrebbero rilevare la lingua preferita e visualizzare la documentazione nella relativa lingua (se disponibile). La documentazione [!DNL Target] di viene tradotta automaticamente e sincronizzata con la versione inglese entro poche ore dalla modifica della documentazione inglese.
 
