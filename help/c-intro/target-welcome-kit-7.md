@@ -1,14 +1,14 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto target;intro;introduzione;guida introduttiva
-description: Iniziamo con la tua prima attività in Adobe [!DNL Target] in modo da ottenere il ROI sul tuo investimento.
+description: Iniziamo con la tua prima attività in Adobe  [!DNL Target]  in modo da ottenere un ROI sul tuo investimento.
 title: Devo creare la mia prima attività in Target. Dove inizio?
 feature: Panoramica
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Esempio: Una società di media verifica la copia corrente per un’offerta di ab
 
 ## Percorso 2: Personalizzazione per un pubblico specifico
 
-Puoi impostare un’attività [Experience Targeting](/help/c-activities/t-experience-target/experience-target.md) (XT) che esegue il targeting di un pubblico specifico che sai essere prezioso con un’offerta o un’esperienza che risuonerebbe con loro.
+Puoi impostare un’attività [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) (XT) che esegue il targeting di un pubblico specifico che sai essere prezioso con un’offerta o un’esperienza che risuonerebbe con loro.
 
 Esempio: Una compagnia aerea prende di mira i suoi membri livello platino con un’offerta speciale che raddoppia i loro punti sul prossimo acquisto di volo per premiarli e costruire ulteriormente la fedeltà dei clienti.
 
@@ -106,6 +106,6 @@ Al termine dell’attività, documenta i risultati, assicurandoti di collegarli 
 
 I risultati dell’attività forniscono spesso informazioni approfondite sulle azioni da intraprendere successivamente. Se una variazione di esperienza ha avuto un enorme successo, potrebbe essere utile codificarla nel sito web. Potresti vedere delle opportunità di applicare tale successo su altre pagine simili. I risultati potrebbero indicare un ulteriore lavoro da eseguire per migliorare l’esperienza del cliente su questa pagina. Utilizza questa area per documentare gli insegnamenti chiave dell’attività e ciò che farai in base a tali insegnamenti.
 
-## Apri [!DNL Target] e crea e avvia l&#39;attività
+## Aprire [!DNL Target] quindi creare e avviare l’attività
 
 Hai compilato il tuo Activity Planner. Ora è il momento di entrare nella soluzione e creare la tua attività. [!DNL Target] consente di modificare facilmente la pagina web nel [!UICONTROL Compositore esperienza visivo].
