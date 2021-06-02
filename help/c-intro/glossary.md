@@ -1,13 +1,12 @@
 ---
-description: Cosa significano termini diversi utilizzati in Adobe [!DNL Target] ? Scopri le definizioni dei termini più comuni, per sfruttare al meglio [!DNL Target].
+description: Cosa significano i vari termini utilizzati in Adobe [!DNL Target] ? Scopri le definizioni dei termini più comuni, per sfruttare al meglio [!DNL Target].
 title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Panoramica
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '2470'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +120,7 @@ Viene visualizzato se il visitatore non soddisfa i requisiti del test o se il co
 
 **progettazione**
 
-HTML abilitato per i modelli che visualizza gli elementi consigliati alla pagina Web. Una progettazione definisce l’aspetto dei consigli in un&#39;attività di Consigli.
+HTML abilitato per i modelli che visualizza gli elementi consigliati alla pagina Web. Una progettazione definisce l’aspetto dei consigli in un’attività Consigli.
 
 **durata**
 
@@ -231,7 +230,7 @@ Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo 
 
 **mbox.js**
 
-Prima di 16.3.1, [!DNL Target] richiedeva una chiamata a [!DNL mbox.js] per creare l’elemento mbox globale necessario affiché [!DNL Adobe Target] distribuisse le attività [!DNL Target]Target, tracciasse i clic e monitorasse la maggior parte delle metriche di successo. Questo file contiene le librerie necessarie per tutte le attività. Non è necessario mantenere diverse versioni del file specifiche per le singole attività. La libreria [!DNL at.js] sostituisce [!DNL mbox.js] per le implementazioni di [!DNL Target].
+Prima di 16.3.1, [!DNL Target] richiedeva una chiamata a [!DNL mbox.js] per creare l’elemento mbox globale necessario affinché [!DNL Adobe Target] distribuisse le attività [!DNL Target] Target, tracciasse i clic e monitorasse la maggior parte delle metriche di successo. Questo file contiene le librerie necessarie per tutte le attività. Non è necessario mantenere diverse versioni del file specifiche per le singole attività. La libreria [!DNL at.js] sostituisce [!DNL mbox.js] per le implementazioni di [!DNL Target].
 
 **parametro mbox**
 
