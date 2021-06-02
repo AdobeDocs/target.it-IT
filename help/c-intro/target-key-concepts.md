@@ -1,30 +1,30 @@
 ---
-keywords: Panoramica e riferimento;tipi di attività;introduzione
-description: Scopri le nozioni di base di Adobe Target. Questo articolo ti introduce a Target, ai suoi tipi di attività e ad altre funzioni.
+keywords: Panoramica e riferimenti;tipi di attività;introduzione
+description: Scopri le nozioni di base di Adobe Target. Questo articolo presenta Target, i suoi tipi di attività e altre funzioni.
 title: Come si utilizza Target?
 feature: Panoramica
 exl-id: c9555d79-d505-41ff-ba4b-ab94793f9efa
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: 094756ac64e2740e81834fde4b07d4b643ac39b9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1528'
-ht-degree: 85%
+ht-degree: 100%
 
 ---
 
 # Concetti chiave di Target
 
-Informazioni sui concetti chiave che consentono di comprendere le funzioni e le funzionalità di [!DNL Adobe Target].
+Informazioni sui concetti chiave utili a comprendere le funzionalità di [!DNL Adobe Target].
 
 ## Attività e test {#section_BEA0A0C51A8847579B566060206DE7E8}
 
 Un’attività determina le esperienze potenziali di un visitatore del sito.
 
-Ad esempio, puoi progettare un&#39;attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un&#39;altra con in evidenza abbigliamento estivo generico. L&#39;attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L’attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni. Queste condizioni possono includere l’avvio e la fine dell’attività tra date specifiche o l’inizio quando l’attività viene approvata e la fine quando viene disattivata.
+Ad esempio, puoi progettare un&#39;attività che sottopone a test due diverse pagine di destinazione, una con informazioni in evidenza sulle scarpe estive da donna e un&#39;altra con in evidenza abbigliamento estivo generico. L&#39;attività determina le condizioni che controllano quando ciascuna di queste pagine di destinazione viene visualizzata e le metriche che determinano quale pagina ha più successo. L’attività è configurata per iniziare e terminare quando vengono soddisfatte determinate condizioni. Queste condizioni possono includere l’avvio e la fine dell’attività entro date specifiche, oppure l’inizio quando l’attività viene approvata e la fine quando viene disattivata.
 
-Pianifica con attenzione durante la progettazione di un’attività. Determina quando inizia l&#39;attività e per quanto tempo dura. Quindi, crea un elenco delle offerte e assegna un tipo di pubblico a ciascuna.
+Pianifica con attenzione durante la progettazione di un’attività. Determina quando deve iniziare l’attività e per quanto tempo dura. Quindi, crea un elenco delle offerte e assegna un tipo di pubblico a ciascuna.
 
-Target include diversi tipi di attività. La tabella seguente fornisce una panoramica di ogni tipo di attività con collegamenti per ulteriori informazioni. Per aiutarti a scegliere meglio il tipo di attività migliore, il team di Target ha anche creato la [Guida alle attività di Adobe Target](/help/c-activities/target-activities-guide.md).
+Target include diversi tipi di attività. La tabella seguente fornisce una panoramica di ogni tipo di attività con collegamenti per ulteriori informazioni. Per aiutarti a scegliere meglio il tipo di attività più appropriato, il team di Target ha anche creato la [Guida alle attività di Adobe Target](/help/c-activities/target-activities-guide.md).
 
 | Tipo di attività | Descrizione |
 |--- |--- |
@@ -50,11 +50,11 @@ In [!DNL Target Standard], una posizione può essere un qualsiasi elemento in un
 
 Le posizioni vengono combinate con i tipi di pubblico per fornire un numero praticamente infinito di opzioni per indirizzare le informazioni ai clienti. Ad esempio, se un visitatore non è mai stato prima sul tuo sito, puoi presentargli un buono sconto speciale per i nuovi clienti. Allo stesso modo, la pagina potrebbe essere modificata con offerte ottimizzate per i clienti che ritornano.
 
-È inoltre possibile utilizzare le posizioni per monitorare l&#39;avanzamento di un visitatore all&#39;interno del sito Web. Puoi anche utilizzare le posizioni per monitorare se il visitatore completa una metrica di successo specifica, ad esempio l’aggiunta di un articolo al carrello o il completamento di un acquisto.
+È inoltre possibile utilizzare le posizioni per monitorare l’avanzamento di un visitatore all’interno del sito Web. Puoi anche utilizzare le posizioni per monitorare se il visitatore completa una metrica di successo specifica, ad esempio l’aggiunta di un articolo al carrello o il completamento di un acquisto.
 
 ## Esperienze e progettazioni di pagine {#section_B806FB752EC1470784755C1EB3D4AC70}
 
-Un’esperienza, a volte detta ricetta, definisce il contenuto visualizzato sulla pagina e altri elementi della pagina, come i collegamenti.
+Un’esperienza, a volte detta “ricetta”, definisce il contenuto visualizzato sulla pagina e altri elementi della pagina stessa, ad esempio i collegamenti.
 
 Un’esperienza determina quale offerta visualizzare in una determinata posizione quando sono soddisfatte specifiche condizioni di targeting. Ad esempio, per i visitatori che ritornano al sito, l’esperienza fa sì che nella parte superiore della pagina venga presentata un’offerta di spedizione rapida. Se invece si tratta della prima visita di un visitatore, l’esperienza fa sì che nella stessa posizione venga presentato uno sconto del 10%.
 
