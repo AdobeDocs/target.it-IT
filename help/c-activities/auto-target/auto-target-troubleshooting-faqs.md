@@ -21,10 +21,10 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con le attività
 
 ### Quali sono le procedure consigliate per impostare un’attività di [!UICONTROL Targeting automatico]?
 
-* Decidi se il valore aziendale di una metrica di uccesso di un Ricavo per visita (RPV) vale i requisiti di traffico aggiuntivi. RPV richiede in genere almeno 1.000 conversioni per esperienza perché un&#39;attività funzioni rispetto alla conversione.
+* Decidi se il valore aziendale di una metrica di successo di un Ricavo per visita (RPV) vale i requisiti di traffico aggiuntivi. RPV richiede in genere almeno 1.000 conversioni per esperienza perché un&#39;attività funzioni rispetto alla conversione.
 * In base ai tuoi obiettivi, decidi la ripartizione tra il controllo e le esperienze personalizzate prima di iniziare l&#39;attività.
 * Determina se disponi di traffico sufficiente per la pagina in cui l’attività di [!UICONTROL Targeting automatico] verrà eseguita affinché i modelli di personalizzazione compilino in un tempo ragionevole.
-   * Se stai sopttoponendo a test l&#39;algoritmo di personalizzazione, non è consigliabile modificare le esperienze o aggiungere/rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
+   * Se stai sottoponendo a test l&#39;algoritmo di personalizzazione, non è consigliabile modificare le esperienze o aggiungere/rimuovere attributi di profilo mentre l&#39;attività è in esecuzione.
 
 * È consigliabile completare un’attività A/B tra le offerte e le posizioni che prevedi di utilizzare nell’attività di [!UICONTROL Targeting automatico] per garantire che le posizioni e le offerte abbiano un impatto sull’obiettivo di ottimizzazione. Se un’attività A/B non riesce a dimostrare una differenza significativa, il [!UICONTROL Targeting automatico] probabilmente non riuscirà a generare incrementi.
 
