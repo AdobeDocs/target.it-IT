@@ -1,14 +1,13 @@
 ---
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
-description: Visualizza un elenco delle domande frequenti e delle risposte relative alle attività di Adobe [!DNL Target] Recommendations.
-title: Dove posso trovare domande e risposte su [!DNL Target] Recommendations?
+description: Visualizza un elenco delle domande e risposte più frequenti sulle attività Consigli di Adobe [!DNL Target] .
+title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
 feature: Consigli
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-translation-type: tm+mt
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 57%
+ht-degree: 98%
 
 ---
 
@@ -16,9 +15,9 @@ ht-degree: 57%
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
 
-## Perché [!UICONTROL Ricerca nel catalogo] non mostra i risultati corretti quando eseguo una ricerca su un attributo personalizzato con un valore numerico?
+## Perché la [!UICONTROL ricerca nel catalogo] non mostra i risultati corretti quando eseguo una ricerca su un attributo personalizzato con un valore numerico?
 
-Quando esegui una ricerca di catalogo su un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come un tipo di stringa anziché come valore numerico.
+Quando esegui sul catalogo la ricerca di un attributo personalizzato con un valore numerico, l’attributo personalizzato viene considerato come di tipo stringa anziché come valore numerico.
 
 Attualmente, non è disponibile alcuna funzionalità che consenta ai clienti di modificare il tipo di un attributo. Per apportare una modifica, [apri un problema cliente](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) facendo riferimento agli attributi che richiedono la modifica del tipo da stringa a numerico.
 
@@ -28,19 +27,19 @@ L’intervallo di tempo e i risultati variano a seconda di come vengono aggiorna
 
 | Origine | Dettagli |
 | --- | --- |
-| Attributi degli articoli aggiornati tramite mbox o API | <ul><li>Recommendations viene aggiornato entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
-| Attributi degli articoli aggiornati tramite feed | <ul><li>Recommendations viene aggiornato dopo l’acquisizione dei feed (2-8 ore).</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l’acquisizione dei feed (2-8 ore) e dopo l’indice del catalogo successivo (3-8 ore). La ricerca nel catalogo viene aggiornata entro 5-16 ore totali.</li></ul> |
-| Elemento eliminato dal catalogo tramite [!DNL Target] interfaccia utente o API | <ul><li>Recommendations viene aggiornato entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
-| Elemento aggiunto al catalogo tramite mbox o API | <ul><li>Recommendations viene aggiornato dopo l’esecuzione dell’algoritmo. Le esecuzioni degli algoritmi sono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l&#39;indice del catalogo (3-8 ore).</li></ul> |
-| Elemento aggiunto al catalogo tramite feed | <ul><li>Recommendations viene aggiornato dopo l’acquisizione del feed (2-8 ore). Le esecuzioni successive degli algoritmi vengono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni. Recommendations viene aggiornato entro 2-32 ore totali.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l’inserimento dei feed (2-8 ore) e dopo l’indice del catalogo (3-8 ore). La ricerca nel catalogo viene aggiornata entro 5-16 ore totali.</li></ul> |
+| Attributi degli articoli aggiornati tramite mbox o API | <ul><li>I consigli vengono aggiornati entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l’indicizzazione del catalogo (3-8 ore).</li></ul> |
+| Attributi degli elementi aggiornati tramite feed | <ul><li>I consigli vengono aggiornati dopo l’acquisizione dei feed (2-8 ore).</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l’acquisizione dei feed (2-8 ore) e dopo la successiva indicizzazione del catalogo (3-8 ore). La ricerca nel catalogo viene aggiornata entro 5-16 ore totali.</li></ul> |
+| Elemento eliminato dal catalogo tramite API o interfaccia utente di [!DNL Target] | <ul><li>I consigli vengono aggiornati entro 15 minuti.</li><li>I consigli e gli attributi degli elementi esistenti vengono visualizzati finché non sono disponibili aggiornamenti.</li><li>La ricerca nel catalogo viene aggiornata dopo l’indicizzazione del catalogo (3-8 ore).</li></ul> |
+| Elemento aggiunto al catalogo tramite mbox o API | <ul><li>I consigli vengono aggiornati dopo l’esecuzione dell’algoritmo. Le esecuzioni degli algoritmi sono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l’indicizzazione del catalogo (3-8 ore).</li></ul> |
+| Elemento aggiunto al catalogo tramite feed | <ul><li>I consigli vengono aggiornati dopo l’acquisizione del feed (2-8 ore). Le esecuzioni successive degli algoritmi vengono pianificate ogni 12 ore per gli algoritmi a 1-2 giorni e ogni 24 ore per gli algoritmi a 7+ giorni. I consigli vengono aggiornati entro 2-32 ore totali.</li><li>I consigli esistenti vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto non è una chiave richiesta.</li><li>I consigli di backup vengono visualizzati finché non sono disponibili aggiornamenti se l’elemento aggiunto è una chiave richiesta.</li><li>La ricerca nel catalogo viene aggiornata dopo l’inserimento dei feed (2-8 ore) e dopo l’indicizzazione del catalogo (3-8 ore). La ricerca nel catalogo viene aggiornata entro 5-16 ore totali.</li></ul> |
 
-Dopo aver importato un file di feed o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche si riflettono in meno di 60 minuti:
+Dopo aver importato un file di feed, o ricevuto aggiornamenti di entità tramite API o mbox, le seguenti modifiche verranno riportate in meno di 60 minuti:
 
-* Se un elemento è stato escluso in precedenza ma ora deve essere incluso, verrà incluso nella prossima esecuzione dell’algoritmo (12-24 ore).
+* Se un elemento è stato escluso in precedenza ma ora deve essere incluso, verrà incluso nella successiva esecuzione dell’algoritmo (12-24 ore).
 
-   Questa situazione si verifica perché [!DNL Target] applica esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online scompare rapidamente ma l’esclusione offline non scompare fino all’esecuzione dell’algoritmo successivo.
+   Questa situazione si verifica perché [!DNL Target] applica le esclusioni sia online che offline. Quando un elemento viene escluso di recente, l’esclusione online viene applicata rapidamente. Quando un elemento è stato incluso di recente, l’esclusione online viene applicata rapidamente mentre quella offline viene applicata solo alla successiva esecuzione dell’algoritmo.
 
-* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso secondo &quot;Attributi articolo aggiornati...&quot;. la linea temporale di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
+* Se un elemento è stato incluso in precedenza ma ora deve essere escluso, l’elemento viene escluso secondo la tempistica “Attributi elemento aggiornati…” di cui sopra a seconda della sorgente dei feed (15 minuti tramite mbox/API o 12-24 ore tramite feed).
 
 Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritmo successivo (entro 12-24 ore):
 
@@ -52,25 +51,25 @@ Le modifiche seguenti vengono applicate solo dopo l’esecuzione dell’algoritm
 
 >[!NOTE]
 >
->Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca nel catalogo non è ancora aggiornata, il sito riflette gli aggiornamenti sui tempi elencati sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
+>Un file di feed viene considerato importato quando il suo stato cambia da “Importazione elementi” a “Preparazione aggiornamenti indice di ricerca”. Possono trascorrere più di 60 minuti prima che gli aggiornamenti vengano rispecchiati nell’interfaccia utente di Ricerca nel catalogo. La funzione Ricerca nel catalogo è aggiornata quando lo stato del feed diventa “Aggiornamenti completati”. Anche se la funzione Ricerca nel catalogo non risulta ancora aggiornata, gli aggiornamenti vengono visualizzati nel sito in base alle tempistiche riportate qui sopra. Nella pagina Ricerca nel catalogo viene indicata l’ora dell’ultimo aggiornamento dell’indice di Ricerca nel catalogo.
 
-## Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri di Recommendations  si rifletta sul sito?
+## Quanto tempo ci vuole affinché una modifica alla configurazione delle impostazioni di attività, offerte, promozioni o criteri della funzione [!UICONTROL Consigli] venga riportata sul sito?
 
 * Una modifica alle impostazioni di promozione può richiedere fino a cinque ore per essere visualizzata sul sito.
-* Una modifica alle impostazioni di altri criteri potrebbe non essere applicata fino all’esecuzione dell’algoritmo successivo:
+* Una modifica alle impostazioni di altri criteri potrebbe essere applicata solo alla successiva esecuzione dell’algoritmo:
 
-   * Alcune impostazioni di criteri (ad esempio, &quot;aggiunta di una regola di inclusione dinamica&quot;) vengono riflesse istantaneamente.
-   * Non è possibile incorporare altre impostazioni di criteri (ad esempio &quot;rimozione di una regola di inclusione dinamica&quot;, modifica dell’intervallo di lookback e così via) finché non viene eseguito l’algoritmo successivo.
-   * Le esecuzioni dell’algoritmo vengono attivate da queste modifiche ma possono richiedere fino a 24 ore per essere completate. Anche gli algoritmi vengono eseguiti su base pianificata ogni 12-24 ore.
+   * Alcune impostazioni di criteri (ad esempio, “aggiunta di una regola di inclusione dinamica”) vengono applicate subito.
+   * Non è possibile incorporare altre impostazioni di criteri (ad esempio “rimozione di una regola di inclusione dinamica”, modifica dell’intervallo di lookback e così via) fino alla successiva esecuzione dell’algoritmo.
+   * Le esecuzioni dell’algoritmo vengono attivate da queste modifiche, ma il loro completamento può richiedere fino a 24 ore. Inoltre, gli algoritmi vengono eseguiti su base pianificata ogni 12-24 ore.
 
-## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?
+## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, clic sul prodotto A e acquisto del prodotto B) si rifletta nei consigli *ricevuti dall&#39;utente*?
 
-* Il prodotto/contenuto attualmente visualizzato/acquistato influisce sui consigli che l&#39;utente riceve sulla stessa richiesta di contenuto pageview/[!DNL Target].
-* Con tale richiesta viene aggiornato il comportamento storico degli utenti, ad esempio &quot;ultimo prodotto visualizzato&quot;, &quot;prodotto più visualizzato&quot; e la cronologia generale di visualizzazione/acquisto, influenzando i consigli ricevuti dall’utente sulla successiva richiesta di contenuto pageview/[!DNL Target]. Ad esempio, gli algoritmi &quot;Articoli visualizzati di recente&quot; e &quot;Consigliati per te&quot; vengono aggiornati con ogni visualizzazione/acquisto del prodotto e si riflettono sulla successiva richiesta di contenuto.
+* Il prodotto/contenuto attualmente visualizzato/acquistato influisce sui consigli che l’utente riceve sulla stessa richiesta di contenuto pageview/[!DNL Target].
+* Con tale richiesta viene aggiornato il comportamento storico degli utenti, ad esempio “ultimo prodotto visualizzato”, “prodotto più visualizzato” e la cronologia generale di visualizzazione/acquisto, influenzando i consigli ricevuti dall’utente sulla successiva richiesta di contenuto pageview/[!DNL Target]. Ad esempio, gli algoritmi “Articoli visualizzati di recente” e “Consigliati per te” vengono aggiornati con ogni visualizzazione/acquisto di prodotto e si riflettono sulla successiva richiesta di contenuto.
 
-## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, facendo clic sul prodotto A e acquistando il prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?
+## Quanto tempo ci vuole affinché il comportamento di un utente (ad esempio, clic sul prodotto A e acquisto del prodotto B) si rifletta nei consigli *ricevuti dagli altri utenti*?
 
-Il comportamento degli utenti in aggregato viene incorporato nell’elaborazione di algoritmi offline, con ogni esecuzione di algoritmi che si verifica ogni 12-24 ore.
+Il comportamento degli utenti in aggregato viene incorporato nell’elaborazione offline dell’algoritmo ogni volta che l’algoritmo viene eseguito, ogni 12-24 ore.
 
 ## Cosa devo fare se l’array è interrotto dalla presenza di caratteri speciali? {#section_D27214116EE443638A60887C7D1C534E}
 
@@ -95,32 +94,32 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-[!DNL Target] dispone di un’impostazione  [Filter Incompatible ](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) Criteria (Filtra criteri incompatibili) per controllare il filtraggio intelligente del selettore dell’algoritmo.
+L’impostazione [Filtra criteri incompatibili](/help/c-recommendations/plan-implement.md#concept_C1E1E2351413468692D6C21145EF0B84) di [!DNL Target] consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
 
 >[!NOTE]
 >
->Questa impostazione è valida solo per le attività create nel Compositore esperienza visivo. Questa impostazione non si applica alle attività create nel Compositore esperienza basato su moduli ([!DNL Target] non ha contesto di posizione).
+>Questa impostazione è valida solo per le attività create nel Compositore esperienza visivo. Questa impostazione non è applicabile alle attività create nel Compositore esperienza basato su moduli ([!DNL Target] non dispone di contesto di posizione).
 
 Per accedere all’impostazione [!UICONTROL Filtra criteri incompatibili], fai clic su [!UICONTROL Consigli] > [!UICONTROL Impostazioni]:
 
 ![](assets/recs_settings_filter.png)
 
-Se l’impostazione [!UICONTROL Filtra criteri incompatibili] non è abilitata,  non filtra gli algoritmi nel Selettore degli algoritmi e vengono visualizzati tutti gli algoritmi.[!DNL Target]
+Se l’impostazione [!UICONTROL Filtra criteri incompatibili] non è abilitata, [!DNL Target] non filtra gli algoritmi nel Selettore degli algoritmi e vengono visualizzati tutti gli algoritmi.
 
-Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, nelle attività del Compositore esperienza visivo [!DNL Target] legge entityId e category Id dalla posizione selezionata, quindi visualizza gli algoritmi basati su `currentItem|currentCategory` (se i rispettivi valori sono presenti in tale posizione). Di conseguenza, per impostazione predefinita, solo gli algoritmi compatibili per la posizione selezionata vengono visualizzati nel selettore algoritmi.
+Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, nelle attività del Compositore esperienza visivo, [!DNL Target] legge il codice entityId e l’ID di categoria dalla posizione selezionata, quindi visualizza gli algoritmi basati su `currentItem|currentCategory` (se i rispettivi valori sono presenti in tale posizione). Di conseguenza, per impostazione predefinita, solo gli algoritmi compatibili per la posizione selezionata vengono visualizzati nel selettore algoritmi.
 
 Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, è comunque possibile visualizzare gli algoritmi non compatibili deselezionando la casella [!UICONTROL Compatibile] durante la selezione dei criteri.
 
 ![](assets/compatible_checkbox.png)
 
-Il seguente elenco contiene casi speciali in cui [!DNL Target] non visualizza la casella di controllo [!UICONTROL Compatibile]:
+L’elenco seguente contiene casi speciali in cui [!DNL Target] non visualizza la casella [!UICONTROL Compatibile]:
 
 * Sia entityId che l’ID di categoria sono presenti nella posizione, quindi non viene filtrato nulla.
 * Stai utilizzando [!DNL mbox.js] versione 55 o precedente.
 * La pagina non genera chiamate mbox (!config.isAutoCreateGlobalMbox &amp;&amp; !config.isRegionalMbox)
-* [!DNL Target] i parametri non sono definiti.
+* I parametri di [!DNL Target] non sono definiti.
 
-## Cosa devo fare se una raccolta in Consigli va a zero (0)?  {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
+## Cosa devo fare se una raccolta in Consigli va a zero (0)? {#section_E2DB2FE67CF24EEC81412BFF3FA6385D}
 
 Considera le seguenti informazioni se noti che una raccolta, che in precedenza non lo era, va a zero:
 
@@ -132,7 +131,7 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 * L’indice è aggiornato? Vai su [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, “indicizzato 3 ore fa”). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
 * Il feed è stato eseguito correttamente? Qualcuno ha cambiato la directory FTP, la password e così via?
-* [!DNL Target]In gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una qualche rappresentazione nell’interfaccia utente per l’addetto al marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
+* [!DNL Target]In gli aggiornamenti alla consegna (sulla pagina o nell’app del cliente) accadono il più rapidamente possibile. Tuttavia, [!DNL Target] deve anche fornire una rappresentazione nell’interfaccia utente per l’addetto marketing. [!DNL Target] non ritarda gli aggiornamenti di consegna per attendere la sincronizzazione con gli aggiornamenti dell’interfaccia utente. Puoi usare [mboxTrace](/help/c-activities/c-troubleshooting-activities/content-trouble.md) per vedere cosa c’è nel sistema nel momento in cui arriva una richiesta.
 
 ## Qual è la differenza tra Ponderazione attributi generale e Ponderazione attributi relativa alle somiglianze di contenuti? {#section_FCD96598CBB44B16A4C6C084649928FF}
 
@@ -148,7 +147,7 @@ Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave 
 
 ![](assets/content_similarity_example.png)
 
-## Perché a volte [!DNL Target] non è in grado di mostrare i consigli? {#section_DB3F40673AED42228E407C05437D99E9}
+## Perché talvolta [!DNL Target] non è in grado di mostrare i consigli? {#section_DB3F40673AED42228E407C05437D99E9}
 
 [!DNL Target] a volte non può mostrare consigli a causa del basso numero di consigli disponibili.
 
@@ -165,15 +164,15 @@ Il seguente JavaScript può essere utilizzato all&#39;inizio del modello per aum
 #end 
 ```
 
-## Qual è il limite di dimensione di una chiamata API per inserire/aggiornare prodotti? È possibile aggiornare 50.000 prodotti con una chiamata utilizzando l’API al posto di un feed?  {#section_434FE1F187B7436AA39B7C14C7895168}
+## Qual è il limite di dimensione di una chiamata API per inserire/aggiornare prodotti? È possibile aggiornare 50.000 prodotti con una chiamata utilizzando l’API al posto di un feed? {#section_434FE1F187B7436AA39B7C14C7895168}
 
 [!DNL Target] impone un limite per i post di 50 MB a livello di applicazione; tuttavia, ciò si verifica solo quando trasmetti l’intestazione del tipo di contenuto `application/x-www-form-urlencoded`.
 
 Potresti sicuramente provare a inviare 50.000 prodotti con una sola chiamata. Se questa avesse esito negativo, puoi suddividerla in batch. Adobe consiglia ai clienti di suddividere le chiamate in 5.000 o 10.000 batch di prodotto per diminuire la possibilità di un timeout dovuto al carico del sistema.
 
-## È necessario specificare il nome mbox per creare in Recommendations criteri, promozioni o regole di test di modelli? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
+## È necessario specificare il nome mbox per creare criteri, promozioni o regole di test di modelli per Consigli? {#section_FFA42ABCC5954B48A46526E32A3A88A2}
 
-Durante la creazione di un criterio di Consigli, promozioni o una regola di test di modelli basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
+Durante la creazione di un criterio, promozioni o una regola di test di modelli per Consigli basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 
 Per selezionare il parametro desiderato:
 
@@ -184,13 +183,13 @@ Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro.
 
 Se modifichi una regola di test di criteri, una promozione o un criterio, i criteri di filtraggio vengono visualizzati con il nome mbox fornito durante la creazione.
 
-## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico?  {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
+## Perché non riesco a salvare la mia attività di consigli legacy dopo aver definito un nuovo pubblico? {#section_1E47C40B1FE7479BAC3EE0F50CE7C2C4}
 
 Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico lo stesso nome di un pubblico esistente, non puoi salvare l&#39;attività di Consigli legacy (attività di Consigli creata prima di ottobre 2016).
 
-## Qual è la dimensione massima di un file CSV per un caricamento del feed?  {#section_20F1AF4839A447B9889B246D6E873538}
+## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella [[!DNL Target] pagina Limitazioni di ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) sono disponibili altri limiti per la lunghezza delle colonne richieste.
+Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella [[!DNL Target]  pagina Limitazioni di ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) sono disponibili altri limiti per la lunghezza delle colonne richieste.
 
 ## È possibile escludere un’entità in modo dinamico? {#exclude}
 
@@ -198,7 +197,7 @@ Nella stringa di query, puoi trasmettere gli ID per le entità da escludere dai 
 
 Per abilitare la funzionalità di esclusione, utilizzate il parametro mbox `excludedIds`. Questo parametro punta a un elenco di ID di entità separati da virgola. Ad esempio, `mboxCreate(..., "excludedIds=1,2,3,4,5")`. Il valore viene inviato al momento della richiesta delle raccomandazioni.
 
-L’esclusione viene eseguita solo per la chiamata corrente [!DNL Target]; gli elementi non vengono esclusi nelle chiamate successive [!DNL Target] a meno che il valore `excludedIds` non venga nuovamente passato. Per escludere gli elementi nel carrello dai consigli su ogni pagina, continua a trasmettere il valore `excludedIds` su ogni pagina.
+L’esclusione viene eseguita solo per la chiamata [!DNL Target] corrente; gli elementi non vengono esclusi nelle chiamate [!DNL Target] successive a meno che il valore `excludedIds` non venga nuovamente trasmesso. Per escludere gli elementi nel carrello dai consigli su ogni pagina, continua a trasmettere il valore `excludedIds` su ogni pagina.
 
 >[!NOTE]
 >
@@ -230,17 +229,17 @@ NO_CONTENT viene restituito quando i consigli non sono disponibili per la combin
 
 ## I consigli basati sugli elementi visualizzati di recente persistono su più dispositivi per un singolo visitatore? {#persist-across-devices}
 
-Quando un visitatore avvia una sessione, l’ID della sessione è associato a un singolo computer Edge e su questo computer Edge viene memorizzata una cache di profilo temporanea. Le richieste successive dalla stessa sessione leggono questa cache del profilo, inclusi gli elementi visualizzati di recente.
+Quando un visitatore avvia una sessione, l’ID della sessione è associato a un singolo dispositivo perimetrale su cui viene memorizzata una cache di profilo temporanea. Le richieste successive dalla stessa sessione leggono questa cache del profilo, inclusi gli elementi visualizzati di recente.
 
-Al termine della sessione (generalmente, quando scade dopo 30 minuti di nessuna attività), lo stato della sessione, inclusi gli elementi visualizzati di recente, viene quindi mantenuto in un archivio di profilo più permanente nello stesso margine geografico.
+Al termine della sessione (generalmente, quando scade dopo 30 minuti di inattività), lo stato della sessione, inclusi gli elementi visualizzati di recente, viene mantenuto in un archivio di profili più permanente nello stesso ambiente edge geografico.
 
-Le sessioni successive da diversi dispositivi possono quindi accedere a questi elementi visualizzati di recente, purché la nuova sessione sia collegata al profilo del cliente tramite lo stesso ID Marketing Cloud (MCID), ID Experience Cloud (ECID) o CustomerID/mbox3rdPartyId.
+Successive sessioni da diversi dispositivi possono quindi accedere a questi elementi visualizzati di recente, purché la nuova sessione sia collegata al profilo del cliente tramite lo stesso Marketing Cloud ID (MCID), Experience Cloud ID (ECID) o CustomerID/mbox3rdPartyId.
 
-Se un visitatore ha due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo non aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, a meno che i dispositivi non siano costretti a condividere l&#39;ID sessione. Esiste una soluzione potenziale per il problema, ma [!DNL Target] non supporta direttamente la condivisione di un ID sessione su più dispositivi. Il cliente deve gestire autonomamente questa condivisione ID.
+Se un visitatore ha due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo non aggiornano quelli sull’altro dispositivo, a meno che i dispositivi non siano costretti a condividere lo stesso ID sessione. Esiste una potenziale soluzione a questo problema, tuttavia [!DNL Target] non supporta direttamente la condivisione dello stesso ID sessione su più dispositivi. Il cliente deve gestire autonomamente tale condivisione di ID.
 
-Questo comportamento si verifica ancora se un visitatore è attivo su un dispositivo e poi diventa attivo sull&#39;altro dispositivo qualche minuto dopo. La sessione del primo dispositivo non scade per 30 minuti e può trascorrere fino a cinque minuti prima che lo stato del profilo sia scritto nello stato permanente ed elaborato. Consenti 35 minuti per la scadenza della sessione e il profilo da memorizzare durante il test di questo comportamento.
+Questo comportamento si verifica anche se un visitatore è attivo su un dispositivo e poi, qualche minuto dopo, diventa attivo sull’altro dispositivo. La sessione del primo dispositivo non scade per 30 minuti e possono trascorrere fino a cinque minuti prima che lo stato del profilo sia scritto nello stato permanente ed elaborato. Quando esegui il test di questo comportamento, considera che la scadenza della sessione e la memorizzazione del profilo possono quindi richiedere 35 minuti.
 
-Se il visitatore non dispone di due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano gli elementi visualizzati di recente sull&#39;altro dispositivo, purché la sessione sia terminata. Consenti la scadenza di 35 minuti per la sessione durante il test di questo comportamento.
+Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano quelli sull’altro dispositivo, purché la sessione sia terminata. Quando esegui il test di questo comportamento, considera che la scadenza della sessione può richiedere 35 minuti.
 
 ## Posso utilizzare un algoritmo creato in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
 
