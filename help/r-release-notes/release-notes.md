@@ -7,7 +7,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
 workflow-type: tm+mt
 source-wordcount: '701'
-ht-degree: 50%
+ht-degree: 84%
 
 ---
 
@@ -17,7 +17,7 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
+>**Terminazione di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
 >
 >Esegui la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js per evitare potenziali problemi con i tuoi siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
@@ -36,8 +36,8 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 
 Questa versione di at.js include i miglioramenti e le modifiche seguenti:
 
-* [Supporto ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisionale su dispositivo per at.js.
-* [Supporto dei ](/help/c-activities/c-activity-qa/activity-qa.md) collegamenti di anteprima per le attività di Automated Personalization
+* Supporto di [Decisioning sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) per at.js.
+* Supporto dei [collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) per le attività di Automated Personalization
 
 Questa versione rimuove anche il supporto per Microsoft Internet Explorer 10, Internet Explorer 11 e tutte le versioni precedenti. Microsoft Edge continua a essere supportato in at.js 2.5.0 e versioni successive.
 
@@ -47,16 +47,16 @@ Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici 
 
 | Funzione | Dettagli |
 | --- | --- |
-| Supporto delle decisioni sul dispositivo per at.js<br>(data da annunciare) | Le decisioni sul dispositivo consentono agli addetti al marketing e agli sviluppatori di distribuire esperimenti e personalizzazioni sul browser di un utente con latenza vicina allo zero.<br>Per ulteriori informazioni, consulta Decisioni  [sul dispositivo per at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
-| ![Operatori basati su ](/help/assets/premium.png) PremiumList per le regole di filtro entità | [!DNL Target Recommendations] supporta nuovi operatori basati su elenco per le regole di filtro entità. (TGT-39234)<br>Gli operatori appena aggiunti includono:<br><ul><li>È Contenuto Nell’Elenco</li><li>Non è contenuto nell’elenco</li><li>Elenco Contiene Un Elemento In</li><li>L&#39;Elenco Non Contiene Un Elemento In</li><li>Elenco Contiene Tutti Gli Elementi In</li><li>Elenco Non Contiene Tutti Gli Elementi</li></ul>Per ulteriori informazioni, consulta &quot;Operatori disponibili&quot; in [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
+| Supporto del decisioning sul dispositivo per at.js<br>(Data non ancora annunciata) | Il decisioning sul dispositivo consente agli addetti al marketing e agli sviluppatori di rilasciare esperienze sperimentali e personalizzazioni sul browser di un utente con latenza pressoché pari a zero.<br>Per ulteriori informazioni, consulta [Decisioning sul dispositivo per at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) |
+| ![Premium](/help/assets/premium.png) Operatori basati su elenco per regole di filtro delle entità | [!DNL Target Recommendations] supporta nuovi operatori basati su elenco per le regole di filtro delle entità. (TGT-39234)<br>I nuovi operatori includono:<br><ul><li>È contenuto nell’elenco</li><li>Non è contenuto nell’elenco</li><li>L’elenco contiene un elemento in</li><li>L’elenco non contiene un elemento in</li><li>L’elenco contiene tutti gli elementi in</li><li>L’elenco non contiene tutti gli elementi in</li></ul>Per ulteriori informazioni, consulta “Operatori disponibili” in [Utilizzare regole di inclusione dinamiche e statiche](/help/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators). |
 
-Questa versione contiene le seguenti correzioni.
+Questa versione include le seguenti correzioni.
 
-* È stato risolto un problema che impediva la sincronizzazione di un&#39;attività dopo la modifica del pubblico in [!UICONTROL Tutti i visitatori]. (TGT-40259)
-* È stato risolto un problema che impediva la duplicazione delle offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l&#39;opzione [!UICONTROL Non consentire duplicati] è abilitata. (TGT-39567)
-* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Amministrazione] > [!UICONTROL Configurazione Scene7] . (TGT-39918)
-* È stato risolto un problema che causava il mapping delle proprietà all&#39;area di lavoro errata. (TGT-39869)
-* È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione consigli. (TGT-39948)
+* È stato risolto un problema che impediva la sincronizzazione di un’attività dopo la modifica del pubblico in [!UICONTROL Tutti i visitatori]. (TGT-40259)
+* È stato risolto un problema che impediva la duplicazione delle offerte quando vengono utilizzate in posizioni diverse nelle attività [!UICONTROL Automated Personalization] anche se l’opzione [!UICONTROL Non consentire duplicati] è abilitata. (TGT-39567)
+* È stato risolto un problema che impediva il caricamento corretto della pagina [!UICONTROL Amministrazione] > [!UICONTROL Configurazione Scene7]. (TGT-39918)
+* È stato risolto un problema che causava il mapping delle proprietà sull’area di lavoro errata. (TGT-39869)
+* È stato risolto un problema che causava un caricamento infinito se la richiesta non riusciva dopo la modifica dell’ambiente durante la creazione di un’esclusione di consigli. (TGT-39948)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
