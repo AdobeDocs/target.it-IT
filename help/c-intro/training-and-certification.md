@@ -1,14 +1,13 @@
 ---
 keywords: formazione;certificazione;target;corsi online;corsi;corso;corsi
-description: Trova Adobi [!DNL Target] corsi e certificazioni offerti da Adobe Training Services.
+description: Trova i corsi e le certificazioni per Adobe  [!DNL Target]  offerti da Adobe Training Services.
 title: Dove posso trovare i corsi di formazione e certificazione?
 feature: Panoramica
 exl-id: 72c4ed91-2d27-4f58-aaf9-3470b2fa7b65
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '92'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
