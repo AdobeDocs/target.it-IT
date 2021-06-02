@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: ef524775dc64e00e75f05c48534a0f8dd57fa705
 workflow-type: tm+mt
 source-wordcount: '1184'
-ht-degree: 90%
+ht-degree: 98%
 
 ---
 
@@ -81,8 +81,8 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 ### Numero di entità
 
 * Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99.
-* Il limite consigliato per le migliori prestazioni è quello di mantenere il catalogo con meno di un milione di elementi per ambiente e meno di dieci milioni di elementi per tutti gli ambienti.
-* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Se hai tra un milione e dieci milioni di elementi per ambiente, le prestazioni dell&#39;interfaccia utente [!UICONTROL Ricerca nel catalogo] sono influenzate. [!DNL Target Recommendations]Tuttavia, continua a produrre e a fornire raccomandazioni.
+* Per prestazioni ottimali, si consiglia di mantenere il catalogo entro il limite di un milione di elementi per ambiente e di dieci milioni di elementi per tutti gli ambienti.
+* Il limite massimo è di dieci milioni di elementi per ambiente e 100 milioni di elementi per tutti gli ambienti. Se hai tra un milione e dieci milioni di elementi per ambiente, le prestazioni dell’interfaccia utente [!UICONTROL Ricerca nel catalogo] ne risentono. Tuttavia, [!DNL Target Recommendations] continua a produrre e a fornire i consigli.
 
 ### Attributi personalizzati entità
 
@@ -225,7 +225,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 ## Script di profilo
 
-* **Limite consigliato per gli script di profilo attivi (quelli abilitati)**: 300
+* **Limite consigliato per gli script di profilo attivi (abilitati)**: 300
 
 * **Limite consigliato di script di profilo totali per account**: 2.000
 
@@ -239,7 +239,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 * **Limite**: 50 tipi di pubblico/segmenti di reporting per attività.
 
-## Casella di immissione profilo script nell’ interfaccia utente [!DNL Target]
+## Casella di immissione profilo di script nell’interfaccia utente di [!DNL Target]
 
 * **Limite consigliato**: 2.000 caratteri.
 
