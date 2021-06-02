@@ -1,14 +1,14 @@
 ---
 keywords: kit di benvenuto;kit di benvenuto target;intro;introduzione;guida introduttiva
-description: Leggi i suggerimenti del nostro gruppo di esperti sull'utilizzo di Adobe [!DNL Target] come parte delle tue attività di test e personalizzazione.
+description: Leggi i suggerimenti del nostro gruppo di esperti sull’utilizzo di Adobe  [!DNL Target]  come parte delle tue attività di test e personalizzazione.
 title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Panoramica
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Per istruzioni dettagliate, consulta [Attributi personalizzati](https://experien
 
 Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md).
 
-## Suggerimento 2: Personalizza più profondamente combinando i tipi di pubblico [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
+## Suggerimento 2: personalizza in modo più avanzato, combinando i tipi di pubblico di [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
 
 La fusione dei tipi di pubblico che vivono in diverse soluzioni [!DNL Adobe Experience Cloud] può offrirti una comprensione molto più ampia dei tuoi clienti e la possibilità di personalizzare in modo più approfondito. Ad esempio, anche se [!DNL Target] fornisce dati sul pubblico in tempo reale, [!DNL Adobe Analytics] fornisce dati sullo storico del pubblico. Combinare questi due elementi può aiutarti a identificare quando il comportamento di un cliente è coerente e quando potrebbe esserci l’opportunità di agire su un nuovo comportamento. Fai clic sul menu a discesa accanto a “Tutti i visitatori” durante la creazione di un’attività. Quindi, seleziona le caselle di massimo venti tipi di pubblico, fai clic su “Combina più tipi di pubblico” e poi su “Salva”.
 
@@ -36,7 +36,7 @@ Per istruzioni dettagliate, consulta [Combinazione di più tipi di pubblico](/he
 
 **Buono a sapersi**: [!DNL Adobe Audience Manager] i tipi di pubblico sono disponibili in [!DNL Target] automaticamente. Ma la condivisione del pubblico [!DNL Adobe Analytics] richiede una configurazione manuale. È sufficiente selezionare la casella con l’etichetta “Rendi questo un pubblico Experience Cloud” durante il processo di creazione del pubblico in [!DNL Analytics]. Quindi, da [!DNL Target], fai clic su “Importa tipi di pubblico di Experience Cloud”.
 
-## Suggerimento 3: Esporta dati da [!DNL Target] per l&#39;utilizzo con strumenti di terze parti.
+## Suggerimento 3: esporta dati da [!DNL Target] da utilizzare con strumenti di terze parti.
 
 Con i token di risposta, gli amministratori possono estrarre facilmente i dati da [!DNL Target] e in strumenti di terze parti. Questa funzione può essere utile quando desideri aggiungere i dati ai dati raccolti in uno strumento di sondaggio. Ad esempio, se un sondaggio mostra un campione di una popolazione con un punteggio di esperienza pari a “9” e un’altra con un punteggio di esperienza pari a “4”, puoi utilizzare i tuoi dati per vedere chi ha visto l’esperienza A e chi ha visto l’esperienza B. Puoi inoltre utilizzare i token di risposta per esportare i dati [!DNL Target] nel data warehouse interno. Fai clic su “Amministrazione”, quindi attiva il pulsante accanto al token di risposta desiderato. Quindi, crea un’attività. I dati sono quindi pronti per essere trasferiti al fornitore di terze parti. Puoi verificare che [!DNL Target] stia esportando i dati utilizzando gli strumenti di debug.
 
