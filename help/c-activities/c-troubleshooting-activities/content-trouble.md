@@ -4,11 +4,11 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Attività
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1415'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -121,7 +121,7 @@ Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizza
 
 Se target.js non viene caricato durante la distribuzione, mbox.js invia al visitatore il cookie “em-disabled”. Questo cookie impedisce alle offerte create tramite il Compositore esperienza visivo di essere visualizzate sul sito. I visitatori con questo cookie non vedono il contenuto del test né vengono conteggiati in tali rapporti di attività. Tutti gli altri contenuti dell’offerta (da campagne in Target Classic per esempio) continuano ad essere caricati. Il cookie ha una durata di 30 minuti dal momento del caricamento non riuscito.
 
-## Gli articoli più venduti non compaiono in Consigli  {#section_3920C857270A406C80BE6CBAC8221ECD}
+## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 La chiamata *`SiteCatalyst: purchase`* non può essere utilizzata per i dati del traffico dell’algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
 
@@ -149,7 +149,7 @@ Il contenuto di Target potrebbe essere visualizzato momentaneamente o non essere
 
 Per ovviare a questo problema, puoi disabilitare la personalizzazione AEM nelle pagine in cui Target è in esecuzione.
 
-## Errore nella consegna di offerte di reindirizzamento e offerte remote a causa di un URL non valido.  {#section_7D09043B687F43B39DAEDF17D00375AC}
+## Errore nella consegna di offerte di reindirizzamento e offerte remote a causa di un URL non valido. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
 Se l’offerta di reindirizzamento o l’offerta remota utilizza un URL non valido, la sua consegna potrebbe non riuscire.
 
@@ -173,7 +173,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114t2/)
 
-### Debug Adobe Target di base ![Badge tutorial](/help/assets/tutorial.png)
+### Debug di base per Adobe Target ![Icona tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115t2/)
 
