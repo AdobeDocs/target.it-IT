@@ -1,18 +1,17 @@
 ---
 keywords: interfaccia utente target;interfaccia utente;ui
 description: Acquisisci familiarità con l’interfaccia utente e trova collegamenti a informazioni più approfondite per trarre il massimo da Target.
-title: Come si utilizza l'interfaccia utente  [!DNL Target] ?
+title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Panoramica
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-translation-type: tm+mt
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
 workflow-type: tm+mt
 source-wordcount: '816'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
-# Comprendere l’interfaccia utente di [!DNL Target]
+# Interfaccia utente di [!DNL Target]
 
 L’interfaccia utente è strutturata in un formato logico e intuitivo per trarre il massimo da [!DNL Adobe Target]. La seguente breve panoramica consente di acquisire familiarità con [!DNL Target] e fornisce collegamenti per accedere a informazioni più approfondite e istruzioni dettagliate.
 
@@ -86,7 +85,7 @@ Un’esperienza può essere un’offerta, un’immagine, un testo, un pulsante, 
 
 Consulta [Offerte](/help/c-experiences/c-manage-content/manage-content.md) per informazioni approfondite sui tipi di offerta disponibili in [!DNL Target] e per ulteriori informazioni sull’interfaccia utente dell’elenco [!UICONTROL Offerte].
 
-## Consigli
+## Recommendations
 
 Fai clic sulla scheda **[!UICONTROL Recommendations]** (Consigli) per accedere a [!DNL Target Recommendations].
 
@@ -94,7 +93,7 @@ Fai clic sulla scheda **[!UICONTROL Recommendations]** (Consigli) per accedere a
 >
 >Le attività Consigli sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza [!DNL Target Premium]. Per ulteriori informazioni, consulta [Target Premium](/help/c-intro/intro.md#premium) in *Introduzione a Target*.
 
-![Consigli](/help/c-intro/assets/recommendations.png)
+![Recommendations](/help/c-intro/assets/recommendations.png)
 
 Le attività di generazione dei [!UICONTROL consigli] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I consigli aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
