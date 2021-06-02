@@ -1,14 +1,14 @@
 ---
 keywords: risolvi problemi di Target;risoluzione problemi di Target;contenuto predefinito;test non live;attività non live;targeting non funzionante;visualizzazione esperienza precedente;impossibile creare attività;creare attività;struttura pagina modificata;struttura pagina cambiata;messaggio di errore;errore elimina script profilo;AJAX non funziona
-description: Trova suggerimenti per la risoluzione dei problemi se l'attività Adobe [!DNL Target] non viene visualizzata sul tuo sito.
+description: Trova suggerimenti per la risoluzione dei problemi, qualora l’attività Adobe  [!DNL Target]  non venga visualizzata sul tuo sito.
 title: Come posso risolvere i problemi relativi alle attività?
 feature: Attività
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: tm+mt
+translation-type: ht
 source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '834'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -22,7 +22,7 @@ Se l’attività [!DNL Adobe Target] non viene visualizzata sul sito, questi sug
 
 Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le soluzioni suggerite.
 
-## Ho creato un’attività utilizzando l’ [!DNL Target] interfaccia utente e non posso aggiornarla tramite API.
+## Ho creato un’attività utilizzando l’interfaccia utente di [!DNL Target] e non posso aggiornarla tramite API.
 
 Le attività create utilizzando l’interfaccia utente di Target devono essere aggiornate tramite l’interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un’attività utilizzando l’API ma successivamente la modifichi tramite l’interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul back-end e possono essere aggiornate effettuando un’altra chiamata API.
 
@@ -141,6 +141,6 @@ Esegui una delle operazioni seguenti:
 
 **Nota:** se una stessa pagina contiene più chiamate AJAX di [!DNL Target] con lo stesso nome ma diversi parametri, queste non funzioneranno correttamente. Viene effettuata solo la prima chiamata.
 
-## Hai attivato un&#39;attività utilizzando l&#39;API [!DNL Target], ma l&#39;attività mostra uno stato di [!UICONTROL Inattivo] nell&#39;interfaccia utente [!DNL Target].
+## Hai attivato un’attività utilizzando l’API di [!DNL Target], ma l’attività risulta [!UICONTROL inattiva] nell’interfaccia utente di [!DNL Target].
 
 Quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando l’API di Target, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente.
