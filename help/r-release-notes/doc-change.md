@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
-source-wordcount: '1349'
-ht-degree: 84%
+source-wordcount: '1374'
+ht-degree: 83%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 3 giugno | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sulla pausa caffè Q&amp;A della community Adobe Target che si terrà mercoledì 9 giugno 2021 alle 8.00. (PDT, GMT-7). |
 | 1 giugno | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Le seguenti FAQ sono state aggiunte:<ul><li>Come si utilizza un collegamento di rinuncia con CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | È stata aggiornata la sezione &quot;Collegamento di rinuncia&quot; per spiegare come utilizzare il collegamento di rinuncia con CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Sono state aggiunte informazioni su [!DNL Adobe Experience Platform Web SDK]. |
