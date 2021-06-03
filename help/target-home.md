@@ -1,13 +1,13 @@
 ---
 keywords: Target;home;argomenti popolari;adobe target;standard;premium;documentazione target;documentazione adobe target
-title: Dove posso trovare la documentazione [!DNL Target] ?
-description: Scopri come utilizzare Adobe [!DNL Target] per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi sui siti web e mobili, le app e altri canali digitali.
+title: Dove posso trovare la documentazione di [!DNL Target] ?
+description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Panoramica
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 7bb1f896dd92b41d04eb0dfd39116ff1c132fe50
+source-git-commit: 591ab4cee103c854b9a5e27a60e769e1f90112e5
 workflow-type: tm+mt
 source-wordcount: '697'
-ht-degree: 94%
+ht-degree: 99%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 94%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 1 giugno 2021 (  [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 3 giugno 2021 (  [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -51,9 +51,9 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 ## Esperti di marketing {#marketers}
 
 - [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
-- [Audience](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
+- [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
-- [Recommendations](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
+- [Consigli](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
 
 ## Sviluppatori {#developers}
 
@@ -70,7 +70,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Analisti {#analysts}
 
-- [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà il contenuto e le esperienze in attività mirate.
+- [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Rapporti](c-reports/reports.md): illustra come interpretare le prestazioni delle attività.
 
 ## Addetti al controllo qualità {#qa}
