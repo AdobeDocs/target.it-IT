@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Note sulla versione
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: c0c38ef739de71df314a1bdeae17c521280fb910
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 84%
+source-wordcount: '685'
+ht-degree: 86%
 
 ---
 
@@ -30,7 +30,6 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 | Funzione | Dettagli |
 | --- | --- |
 | Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | L’SDK per web di Platform ora supporta i reindirizzamenti [!DNL Target] quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta  [Analytics  [!DNL Target] for implementation](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-| Token di risposta | L’SDK per web di Platform ora supporta i token di risposta [!DNL Target] .<br>Per ulteriori informazioni, consulta Token di  [risposta](/help/administrating-target/response-tokens.md). |
 
 ## at.js versione 2.5.0 (13 maggio 2021)
 
