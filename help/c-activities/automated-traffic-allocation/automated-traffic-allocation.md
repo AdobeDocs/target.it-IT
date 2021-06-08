@@ -4,11 +4,10 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Allocazione automatica
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3387'
-ht-degree: 73%
+ht-degree: 76%
 
 ---
 
@@ -36,19 +35,19 @@ L’allocazione automatica esegue tutti i confronti impliciti tra le esperienze 
 
 L’allocazione automatica assegna nuovi visitatori alle esperienze fino a quando l’intervallo di affidabilità della migliore esperienza non si sovrappone a quello di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma l’allocazione automatica utilizza intervalli di affidabilità in base alla [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) che compensa le valutazioni ripetute. A questo punto, abbiamo un vincitore reale. Quando Allocazione automatica si arresta, purché non vi siano dipendenze temporali rilevanti per i visitatori che giungono alla pagina, vi è almeno un 95% di probabilità che Allocazione automatica restituisca un’esperienza la cui vera risposta non sia inferiore all’1% (relativo) rispetto alla vera risposta dell’esperienza vincente.
 
-## Quando utilizzare Allocazione automatica, A/B o Personalizzazione automatizzata  {#section_3F73B0818A634E4AAAA60A37B502BFF9}
+## Quando utilizzare Allocazione automatica, A/B o Personalizzazione automatizzata {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
 * Utilizza l&#39;**Allocazione automatica** quando vuoi ottimizzare l&#39;attività fin dall&#39;inizio e identificare le esperienze vincenti il più rapidamente possibile. Fornendo con maggiore frequenza le esperienze che hanno prestazioni migliori, aumentano le prestazioni complessive di attività.
 * Utilizza un **[Test A/B](/help/c-activities/t-test-ab/test-ab.md#task_05E33EB15C4D4459B5EAFF90A94A7977)** standard quando vuoi caratterizzare le prestazioni di tutte le esperienze prima di ottimizzare il sito. Un test A/B ti aiuta a classificare tutte le tue esperienze, mentre l&#39;Allocazione automatica del traffico trova i migliori risultati ma non garantisce la differenziazione fra quelli minori.
 * Usa la [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) quando desideri algoritmi di ottimizzazione della complessità più elevata, ad esempio modelli di apprendimento automatico che generano stime basate su attributi di profilo individuali. L’Allocazione automatica del traffico esamina il comportamento aggregato delle esperienze (proprio come i test A/B standard) e non distingue tra i visitatori.
 
-## Vantaggi chiave  {#section_0913BF06F73C4794862561388BBDDFF0}
+## Vantaggi chiave {#section_0913BF06F73C4794862561388BBDDFF0}
 
 * Mantiene la rigorosità di un test A/B
 * Trova un vincitore statisticamente significativo più velocemente rispetto a un test A/B manuale.
 * Fornisce un maggiore incremento medio della campagna rispetto a un test A/B manuale.
 
-## Terminologia {#section_670F8785BA894745B43B6D4BFF953188}
+## Terminologia  {#section_670F8785BA894745B43B6D4BFF953188}
 
 I seguenti termini sono utili quando si parla di Allocazione automatica:
 
@@ -130,13 +129,13 @@ Queste situazioni possono sfalsare i risultati di un test di Allocazione automat
 
    Ad esempio, “i saldi al 30% finiscono oggi” incita il visitatore ad eseguire oggi stesso la conversione, mentre “50% di sconto sul primo acquisto” non crea lo stesso senso di urgenza.
 
-## Domande frequenti {#section_0E72C1D72DE74F589F965D4B1763E5C3}
+## Domande frequenti  {#section_0E72C1D72DE74F589F965D4B1763E5C3}
 
 Consulta le seguenti domande frequenti e risposte mentre lavori con le attività [!UICONTROL Allocazione automatica] :
 
 ### Analytics for Adobe Target (A4T) supporta le attività di allocazione automatica?
 
-Sì. Per ulteriori informazioni, consulta [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
+Sì. Per ulteriori informazioni, consulta [Supporto di A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md).
 
 ###  I visitatori di ritorno vengono riallocati automaticamente alle esperienze con prestazioni elevate?
 
@@ -174,7 +173,7 @@ Attualmente, la logica favorisce i visitatori che si convertono rapidamente o ch
 
 ### Posso utilizzare il Calcolatore dimensione campione quando utilizzo Allocazione automatica, per stimare in quanto tempo verrà identificato il vincitore?
 
-Puoi utilizzare il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) esistente per stimare per quanto tempo verrà eseguito il test. (Come per il tradizionale test A/B, applica la correzione Bonferroni se stai testando più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per i tradizionali test A/B a orizzonte fisso e fornisce solo una stima. L’utilizzo del calcolatore per un’attività di allocazione automatica è facoltativo perché l’allocazione automatica dichiarerà un vincitore. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo trovato quanto segue:
+Puoi utilizzare il [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) esistente per stimare per quanto tempo verrà eseguito il test. (Come per il tradizionale test A/B, applica la correzione Bonferroni se stai testando più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per i tradizionali test A/B a orizzonte fisso e fornisce solo una stima. L’utilizzo del calcolatore per un’attività di allocazione automatica è facoltativo perché l’allocazione automatica dichiarerà un vincitore. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo trovato quanto segue:
 * Quando si sottopongono a test esattamente due esperienze, l’allocazione automatica trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l’intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande, ma potrebbe richiedere più tempo per identificare un vincitore quando la differenza di prestazioni tra le esperienze è piccola. In questi casi, i test a orizzonte fisso sarebbero generalmente terminati senza un risultato statisticamente significativo.
 * Quando si sottopongono a test più di due esperienze, l’allocazione automatica trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l’intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza esegue con maggiore efficienza tutte le altre esperienze. Quando due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre esperienze ma strettamente associate tra loro, l’allocazione automatica potrebbe richiedere un tempo aggiuntivo per determinare quale sia superiore. In questi casi, i test a orizzonte fisso si sarebbero generalmente conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori delle esperienze con prestazioni peggiori, ma non hanno identificato quale fosse superiore.
 
@@ -186,11 +185,11 @@ Il 20% dei visitatori viene assegnato in modo casuale attraverso tutte le esperi
 
 ### Posso cambiare la metrica di obiettivo a metà strada attraverso un&#39;attività di allocazione automatica? {#change-metric}
 
-Non è consigliabile modificare la metrica obiettivo a metà strada all’interno di un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’ [!DNL Target] interfaccia utente, è sempre necessario avviare una nuova attività. Non forniamo alcuna garanzia su ciò che accade se modifichi la metrica dell’obiettivo in un’attività dopo l’esecuzione.
+Non è consigliabile modificare la metrica obiettivo a metà strada all’interno di un’attività. Anche se è possibile modificare la metrica dell’obiettivo durante un’attività utilizzando l’interfaccia utente [!DNL Target], è sempre necessario avviare una nuova attività. Non forniamo alcuna garanzia su ciò che accade se modifichi la metrica dell’obiettivo in un’attività dopo l’esecuzione.
 
-Questa raccomandazione si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
+Questo consiglio si applica alle attività [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] che utilizzano [!DNL Target] o [!DNL Analytics] (A4T) come origine per la generazione di rapporti.
 
-### È possibile utilizzare l’opzione Ripristina dati dei rapporti durante l’esecuzione di un’attività di allocazione automatica?
+### È possibile utilizzare l’opzione Reimposta dati dei rapporti durante l’esecuzione di un’attività di allocazione automatica?
 
 Non è consigliato utilizzare l’opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Allocazione automatica] . Anche se rimuove i dati di reporting visibili, questa opzione non rimuove tutti i record di formazione dal modello [!UICONTROL Allocazione automatica]. Invece di utilizzare l&#39;opzione [!UICONTROL Ripristina dati rapporto] per le attività [!UICONTROL Allocazione automatica], crea una nuova attività e disattiva l&#39;attività originale. (Nota: Questa guida si applica anche alle attività [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization].)
 
@@ -206,7 +205,7 @@ Quando selezioni un altro ambiente, il rapporto mostra il traffico e le conversi
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Flusso di lavoro di un&#39;attività - Targeting (2:14)  ![Badge tutorial](/help/assets/tutorial.png)
+### Flusso di lavoro di un&#39;attività - Targeting (2:14) ![Icona Tutorial](/help/assets/tutorial.png)
 
 Questo video include informazioni su come impostare l&#39;allocazione del traffico.
 
