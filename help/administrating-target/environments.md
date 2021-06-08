@@ -5,11 +5,10 @@ title: Cosa sono gli ambienti e come li utilizzo?
 feature: Amministrazione e configurazione
 role: Administrator
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
 workflow-type: tm+mt
-source-wordcount: '683'
-ht-degree: 63%
+source-wordcount: '698'
+ht-degree: 61%
 
 ---
 
@@ -27,14 +26,17 @@ Per gestire gli ambienti, fai clic su **[!UICONTROL Amministrazione]** > **[!UIC
 
 ![Elenco ambienti](/help/administrating-target/assets/environments.png)
 
-## Aggiungi un ambiente {#section_32097D0993724DF3A202D164D3F18674}
+## Aggiungere un ambiente {#section_32097D0993724DF3A202D164D3F18674}
 
 1. Nell&#39;elenco [!UICONTROL Ambienti], fai clic su **[!UICONTROL Aggiungi ambiente]**.
 1. Specifica un nome descrittivo per l’ambiente.
 1. Specifica la modalità attiva desiderata per l’ambiente: [!UICONTROL Attività attive] o [!UICONTROL Attività attive e inattive].
+
+   Se specifichi [!UICONTROL Attività attive e inattive], gli host di questo ambiente visualizzano anche le attività inattive.
+
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Imposta l’ambiente predefinito per la generazione di rapporti {#section_4F8539B07C0C45E886E8525C344D5FB0}
+## Imposta l’ambiente predefinito per il reporting {#section_4F8539B07C0C45E886E8525C344D5FB0}
 
 È possibile selezionare l’ambiente che si desidera utilizzare come impostazione predefinita per tutti i rapporti di attività.
 
