@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
-source-wordcount: '1433'
-ht-degree: 82%
+source-wordcount: '1484'
+ht-degree: 79%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 giugno | [Prima di implementare Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | È stata aggiunta una nota che indica che at.js 1.8.0 o successivo non funziona più con le versioni API dei visitatori precedenti alla 2.5.0 per il passaggio dei parametri [!DNL Adobe Audience Manager] (AAM). |
+|  | [Ambienti](/help/administrating-target/environments.md) | È stata aggiunta una nota che indica che se si specifica [!UICONTROL Attività attive e inattive], anche gli host di questo ambiente visualizzano le attività inattive. |
 | 7 giugno | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 aprile 2021)
