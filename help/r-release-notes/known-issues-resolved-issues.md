@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Note sulla versione
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 943513649b5f3513d3b118172d4207d983c53eef
+source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
-source-wordcount: '4409'
+source-wordcount: '4438'
 ht-degree: 98%
 
 ---
@@ -23,11 +23,15 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
+### [!DNL Adobe Experience Platform] i nomi dei segmenti non vengono visualizzati nel rapporto  [!UICONTROL Attributi importanti ] .
+
+[!DNL Adobe Experience Platform] i nomi dei segmenti non vengono visualizzati nel rapporto  [!UICONTROL Attributi importanti per le attività di ] Automated Personalization [!UICONTROL  (AP) e ] Targeting automatico   (AT). (TOP-3813)
+
 ### L&#39;archiviazione delle attività [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione
 
 Il tentativo di archiviare le attività inattive [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciarli nello stato [!UICONTROL Inattivo]. (TGT-40885)
 
-### Metriche di Analytics for Adobe Target (A4T) per attività di allocazione automatica e targeting automatico
+### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
 
 L’interfaccia utente [!DNL Target] consente agli utenti di selezionare metriche di coinvolgimento e ricavi non supportate come metrica principale di obiettivo per l’ottimizzazione nelle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Le metriche di conversione sono supportate; le metriche di coinvolgimento e ricavi *non* sono supportate. Se selezioni metriche di obiettivo di coinvolgimento o di ricavi, non viene generato un modello di ottimizzazione.
 
@@ -41,7 +45,7 @@ Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /car
 
 I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova i collegamenti di anteprima. Archivia le attività salvate che non vengono più utilizzate attivamente per impedire che questo problema continui a verificarsi. (TNT-37294)
 
-### Modalità di controllo qualità per le attività di Recommendations
+### Modalità di controllo qualità per le attività Consigli
 
 Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attività sono basati su elementi o su categorie. (TNT-37455)
 
@@ -68,9 +72,9 @@ Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzame
 
 ### Consigli
 
-Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Recommendations]:
+Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Consigli]:
 
-* Quando copi un’attività [!UICONTROL Recommendation] con una promozione attiva, qualsiasi modifica nell’attività duplicata influisce attualmente anche sull’attività originale, e viceversa. (TGT-39155)
+* Quando copi un’attività [!UICONTROL Consigli] con una promozione attiva, qualsiasi modifica nell’attività duplicata influisce attualmente anche sull’attività originale, e viceversa. (TGT-39155)
 
    Come soluzione temporanea:
 
@@ -78,7 +82,7 @@ Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Re
    * Duplica l’attività
    * Abilita nuovamente le promozioni in ogni attività
 
-* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione JSON Recommendations, restituisce un tipo di HTML.
+* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione di consigli JSON, restituisce un tipo HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
 * Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra dei consigli. (TGT-33426)
@@ -110,7 +114,7 @@ Di seguito sono riportati problemi noti relativi a at.js:
 
    Questo problema è relativo solo alle attività Consigli che utilizzano il Compositore esperienza visivo.
 
-   **Soluzione alternativa**: disabilita l’opzione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Recommendations > Impostazioni]. Dopo aver disabilitato questa impostazione, nel selettore dei criteri verranno visualizzati tutti i criteri (compatibili e non). (TGT-25949)
+   **Soluzione alternativa**: disabilita l’opzione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Consigli > Impostazioni]. Dopo aver disabilitato questa impostazione, nel selettore dei criteri verranno visualizzati tutti i criteri (compatibili e non). (TGT-25949)
 
 * Dopo l’aggiornamento alla versione 1.0 di at.js, le mbox non funzionano nei browser Microsoft Explorer 11 a causa dell’interazione tra at.js e Visitor API 2.2.0. Questo problema riguarda le versioni 0.9.6 e successive di at.js. (TNT-27600)
 * at.js potrebbe non funzionare con le app Cordova/Hybrid perché non supportano i cookie di prima parte. (TNT-26166)
@@ -137,7 +141,7 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 
 Il 10 maggio 2020 Adobe ha aggiornato i file del provider GEO, il che ha introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole benché i valori nei tipi di pubblico esistenti non avessero una virgola. Questa modifica non ha interessato tutti i server di consegna Adobe. Di conseguenza, i tipi di pubblico che utilizzano tali valori potrebbero non aver qualificato tutti i visitatori corretti tra il 10 maggio e il 22 luglio 2020.
 
-### Rapporti : dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’ [!DNL Target] interfaccia utente. {#csv}
+### Generazione rapporti: dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’interfaccia utente di [!DNL Target].  {#csv}
 
 I rapporti generati per il download come file .csv non sono coerenti se l’attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
 
@@ -153,7 +157,7 @@ Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta �
 
 Questo problema è stato risolto con la versione Target Standard/Premium 20.10.1.
 
-### Reporting di Analytics for Adobe Target (A4T)
+### Generazione rapporti di Analytics for Adobe Target (A4T)
 
 Sono stati risolti i seguenti problemi relativi a A4T:
 
@@ -240,7 +244,7 @@ Quando mbox.js viene scaricato per la prima volta dopo il provisioning, il campo
 
 at.js verrà scaricato con `global_mbox_autocreate = false` per un tenant nuovo. Se mbox. js viene scaricato per primo, global\_mbox\_autocreate è impostato su “true” e anche at.js sarà scaricato con `global_mbox_autocreate = true`. (TGT-15929)
 
-### Supporto delle autorizzazioni Enterprise nelle API [!DNL Target] {#api}
+### Supporto delle autorizzazioni Enterprise nelle API di [!DNL Target]  {#api}
 
 Le offerte di codice create dall’interfaccia utente di Target nella libreria Offerte possono essere visualizzate nell’area di lavoro predefinita se l’elenco delle offerte viene rimosso utilizzando API GET. Il problema verrà risolto nella prima settimana di marzo 2019. Dopo la correzione, le offerte di codice verranno visualizzate nell’area di lavoro appropriata quando vengono richiamate dalle API. Questo problema *non* influisce sulle offerte create dalle API. Ad esempio, le offerte di codice create dalle API vengono visualizzate nell’area di lavoro in cui sono state create o recuperate utilizzando API GET o dall’interfaccia utente di Target.
 
@@ -260,7 +264,7 @@ Per determinare se questo problema ha interessato il reporting di Target, contat
 
 ### Consigli
 
-* L’indice del feed di Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
+* L’indice del feed Consigli può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
 
    Questo problema è stato risolto con la versione 19.4.2 di Target.
 
@@ -351,7 +355,7 @@ L’algoritmo per l’estrazione del dominio di primo livello che deve essere ut
 
 Questo problema è stato risolto nella versione 1.2 di at.js.
 
-### Autorizzazioni per gli utenti Enterprise per [!DNL Target] Premium
+### Autorizzazioni utente Enterprise per [!DNL Target] Premium
 
 Come parte della migrazione delle autorizzazioni Enterprise, la gestione degli utenti Target Premium è stata spostata dall’interfaccia utente di Adobe Target ad Adobe Admin Console.
 
@@ -438,11 +442,11 @@ Risolto nella versione 17.3.1 di Target (30 marzo 2017).
 
 ### Regole di esclusione globale
 
-Le regole di esclusione globale impiegano 10-20 minuti per propagarsi alla rete Edge per Recommendations Premium. (RECS-5270)
+Le regole di esclusione globale impiegano 10-20 minuti per propagarsi alla rete Edge la funzione Premium Consigli. (RECS-5270)
 
 Risolto nella versione 17.2.2.0 di Recommendations (6 marzo 2017).
 
-### Reporting di Analytics for Adobe Target (A4T)
+### Generazione rapporti di Analytics for Adobe Target (A4T)
 
 I rapporti non vengono aggiornati quando si cambia la metrica di reporting. Questo problema interessa solo l’interfaccia utente. Non vi è alcun impatto sulla raccolta dei dati di reporting o sulla consegna. (TGT-22970)
 
