@@ -4,8 +4,7 @@ description: Scopri come interpretare i risultati di un’attività di allocazio
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Allocazione automatica
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -22,7 +21,7 @@ Molti addetti al marketing commettono l’errore di dichiarare un’esperienza v
 >
 >Per informazioni generali sulla dichiarazione di un vincitore, consulta [Dieci insidie frequenti per i test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
-## Identificare l&#39;esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
+## Identificare l’esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
 Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target] mostra un badge nella parte superiore della pagina dell&#39;attività che indica “Ancora nessun vincitore” finché l&#39;attività non raggiunge il numero minimo di conversioni con sufficiente affidabilità.
 
@@ -48,7 +47,7 @@ I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Alloca
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere basata sui risultati del calcolatore delle dimensioni del campione Adobe Target [a1/>. ](https://docs.adobe.com/content/target-microsite/testcalculator.html) Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere basata sui risultati del calcolatore delle dimensioni del campione Adobe Target [a1/>. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprendere i rapporti Incremento e Affidabilità nelle attività di Allocazione automatica {#lift-confidence}
 
@@ -62,7 +61,7 @@ Un vincitore si trova quando l’intervallo di affidabilità del 95% dell’espe
 
 Accanto all’esperienza attuale o vincente viene riportato anche un numero di &quot;Affidabilità&quot;. Questa cifra viene riportata solo fino a quando l’esperienza principale non raggiunge almeno il 60% di affidabilità. Se esattamente due esperienze sono presenti nell’esperimento di allocazione automatica, questo numero rappresenta il livello di affidabilità che l’esperienza sta ottenendo meglio rispetto all’altra esperienza. Se nell’esperimento di allocazione automatica sono presenti più di due esperienze, questo numero rappresenta il livello di affidabilità che l’esperienza sta ottenendo meglio dell’esperienza definita di controllo. Se l’esperienza &quot;Controllo&quot; è vincente, non viene segnalata alcuna figura di &quot;Affidabilità&quot;.
 
-## Domande frequenti {#section_C8E068512A93458D8C006760B1C0B6A2}
+## Domande frequenti  {#section_C8E068512A93458D8C006760B1C0B6A2}
 
 **L’attività è in corso da un paio di giorni. Perché tutti i valori di affidabilità mostrano ancora 0%?**
 
@@ -74,5 +73,5 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
    L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza un [calcolatore delle dimensioni del campione](https://docs.adobe.com/content/target-microsite/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
+* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
