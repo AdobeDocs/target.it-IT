@@ -4,11 +4,10 @@ description: Iniziamo con la tua prima attività in Adobe  [!DNL Target]  in mod
 title: Devo creare la mia prima attività in Target. Dove inizio?
 feature: Panoramica
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '1730'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -92,7 +91,7 @@ Se l’attività richiede l’assistenza di un designer, uno sviluppatore web o 
 
 Per trarre una conclusione statisticamente significativa dal test, è necessario inserire un certo numero di visitatori nella popolazione di test. Pensaci, se solo due persone partecipano al test, sarai sicuro dei risultati?
 
-[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [Calcolatore dimensione campione](https://docs.adobe.com/content/target-microsite/testcalculator.html) di Adobe consente di determinare il periodo di tempo necessario per eseguire un test in base all’affidabilità necessaria nei risultati. Fai clic sul collegamento [!UICONTROL Ulteriori informazioni] in questa casella per aprire e utilizzare il calcolatore.
+[!DNL Target] si basa su principi statistici per determinare i risultati di un test, che sono statisticamente validi. Il [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) di Adobe consente di determinare il periodo di tempo necessario per eseguire un test in base all’affidabilità necessaria nei risultati. Fai clic sul collegamento [!UICONTROL Ulteriori informazioni] in questa casella per aprire e utilizzare il calcolatore.
 
 ### Quanto è importante questa attività?
 
