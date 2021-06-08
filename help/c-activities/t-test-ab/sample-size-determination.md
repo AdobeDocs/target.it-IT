@@ -4,8 +4,7 @@ description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di succes
 title: Per quanto tempo devo eseguire un test A/B?
 feature: Test A/B
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
 workflow-type: tm+mt
 source-wordcount: '3063'
 ht-degree: 63%
@@ -42,7 +41,7 @@ Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](
 
 Se scegli di utilizzare un&#39;attività manuale [!UICONTROL Test A/B] invece di [!UICONTROL Allocazione automatica], il calcolatore delle dimensioni del campione [!DNL Target] ti aiuta a determinare la dimensione del campione necessaria per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi il calcolatore è utile. L&#39;utilizzo del calcolatore per un&#39;attività [!UICONTROL Allocazione automatica] è facoltativo perché [!UICONTROL Allocazione automatica] dichiara un vincitore. Il calcolatore fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
-Prima di configurare il test A/B, accedi al calcolatore delle dimensioni del campione di Adobe Target [a1/>.](https://docs.adobe.com/content/target-microsite/testcalculator.html)
+Prima di configurare il test A/B, accedi al calcolatore delle dimensioni del campione di Adobe Target [a1/>.](https://experienceleague.adobe.com/tools/calculator/testcalculator.html)
 
 ![Calcolatore delle dimensioni del campione di Adobe Target](/help/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
