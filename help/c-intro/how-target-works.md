@@ -4,11 +4,10 @@ description: Scopri come funzionano in Adobe  [!DNL Target] works, including inf
 title: Come funziona  [!DNL Target] ?
 feature: Panoramica
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-translation-type: ht
-source-git-commit: b673a925bd16c9f786b884dc36fbd7155f26f51c
-workflow-type: ht
+source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+workflow-type: tm+mt
 source-wordcount: '2563'
-ht-degree: 100%
+ht-degree: 99%
 
 ---
 
@@ -153,7 +152,7 @@ Adobe tutela l’esperienza utente attraverso l’ottimizzazione e la salvaguard
 * Adobe utilizza un approccio multilivello per garantire che le applicazioni forniscano il livello massimo di disponibilità e di affidabilità ai clienti.
 * [!DNL Target] Consulting offre assistenza nell’implementazione e supporto continuo per il prodotto.
 
-## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
@@ -180,7 +179,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    Adobe continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i client che devono utilizzare URL separati per i test, Adobe è sicuro che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://docs.adobe.com/content/target-microsite/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato mentre il processo di codifica fissa del test vincente viene completato.
 
