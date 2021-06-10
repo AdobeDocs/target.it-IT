@@ -1,14 +1,13 @@
 ---
 keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di esperienza;frammenti;XF
 description: Scopri come utilizzare AEM frammenti di esperienza nelle attività Adobe [!DNL Target] . Combina la facilità d'uso e la potenza di AEM con le potenti funzionalità AI e ML in [!DNL Target].
-title: Come Si Utilizzano I Frammenti Esperienza Adobe Experience Manager (AEM)?
+title: Come Si Utilizzano I Frammenti Esperienza Di Adobe Experience Manager (AEM)?
 feature: Esperienze e offerte
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 603d98a972d1b421dae2047b70d65d0037b7a068
 workflow-type: tm+mt
-source-wordcount: '1132'
-ht-degree: 31%
+source-wordcount: '1155'
+ht-degree: 30%
 
 ---
 
@@ -47,6 +46,7 @@ Per utilizzare i frammenti di esperienza [!DNL AEM] in [!DNL Target], esegui le 
 
 Per ulteriori informazioni, consulta:
 
+* **Adobe I/O**:  [Integrazione con Adobe Target tramite Adobe I/0](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html) nella documentazione  _sulla_ guida utente per l’amministrazione.
 * **[!DNL AEM]6.3**:  [Scelta di Adobe Analytics e ](https://docs.adobe.com/docs/en/aem/6-3/administer/integration/marketing-cloud/opt-in.html) targeting di Adobe nella documentazione di  _Adobe Experience Manager 6.3_ .
 * **[!DNL AEM]6.4**:  [Scelta di Adobe Analytics e ](https://helpx.adobe.com/experience-manager/6-4/sites/administering/using/opt-in.html) targeting di Adobe nella documentazione di  _Adobe Experience Manager 6.4_ .
 * **[!DNL AEM]6.5**:  [Scelta di Adobe Analytics e ](https://helpx.adobe.com/experience-manager/6-5/sites/administering/using/opt-in.html) targeting di Adobe nella documentazione di  *Adobe Experience Manager 6.5* .
