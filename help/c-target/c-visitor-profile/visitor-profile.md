@@ -4,21 +4,22 @@ description: Ulteriori informazioni sui profili dei visitatori che contengono in
 title: Cosa sono i profili dei visitatori?
 feature: Tipi di pubblico
 exl-id: 199085a6-1519-4c73-8189-33b4ea4fff24
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 4c3c76b01ab158a8cab31de487f1cd7c8199339b
 workflow-type: tm+mt
-source-wordcount: '113'
-ht-degree: 78%
+source-wordcount: '107'
+ht-degree: 55%
 
 ---
 
 # Profili dei visitatori
 
-I profili dei visitatori includono informazioni su come i visitatori utilizzano le pagine e le altre posizioni di contenuto ottimizzate
+I profili dei visitatori includono informazioni su come i visitatori utilizzano le pagine e le altre posizioni di contenuto ottimizzate.
 
-Se Target viene utilizzato insieme ad altre soluzioni Adobe Marketing Suite, come Adobe Analytics, Experience Cloud Audiences condivide le informazioni sui visitatori tra le diverse soluzioni.
+Se si utilizza [!DNL Adobe Target] con altre soluzioni [!DNL Adobe Experience Cloud], ad esempio [!DNL Adobe Analytics], [!DNL Experience Cloud Audiences] condivide le informazioni sul visitatore tra le soluzioni.
 
-Per impostazione predefinita, le informazioni di profilo di Target vengono memorizzate in un singolo cookie di prima parte. La configurazione può essere facilmente modificata per distribuire anche cookie di terze parti.
+Per impostazione predefinita, le informazioni di profilo [!DNL Target] vengono memorizzate in un singolo cookie di prime parti. La configurazione può essere facilmente modificata per distribuire anche cookie di terze parti.
+
+Le sezioni che seguono contengono le informazioni seguenti:
 
 - [Durata del profilo del visitatore](visitor-profile-lifetime.md)
 - [Attributi del profilo](profile-parameters.md)
