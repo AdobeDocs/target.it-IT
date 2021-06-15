@@ -4,11 +4,10 @@ description: Scopri come creare attività di allocazione automatica e targeting 
 title: A4T supporta le attività di allocazione automatica e targeting automatico?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 103ee22a4bf37569f8a02a91af194ebcdc79f3b4
 workflow-type: tm+mt
-source-wordcount: '963'
-ht-degree: 2%
+source-wordcount: '979'
+ht-degree: 3%
 
 ---
 
@@ -55,7 +54,7 @@ Per iniziare:
 
 1. Utilizza la scheda **[!UICONTROL Rapporti]** per visualizzare i rapporti dell&#39;attività in base alle metriche [!DNL Adobe Analytics] selezionate. Fai clic su **[!UICONTROL Visualizza in Analytics]** per acquisire dati di reporting in profondità e segmentarli ulteriormente.
 
-## Metriche dell&#39;obiettivo supportate {#supported}
+## Metriche dell’obiettivo supportate {#supported}
 
 [!UICONTROL A4] Tfor  [!UICONTROL Auto-] Allocateand  [!UICONTROL Auto-] Targetlet è possibile scegliere uno dei seguenti tipi di metriche come metrica di obiettivo principale per l’ottimizzazione:
 
@@ -82,6 +81,7 @@ Alcune limitazioni e note si applicano sia alle attività [!UICONTROL Allocazion
 
 ### Allocazione automatica e Targeting automatico
 
+* Quando utilizzi [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], devi sempre visualizzare i rapporti in [!DNL Analytics].
 * L’origine per la generazione di rapporti non può essere modificata da [!DNL Analytics] a [!DNL Target] o viceversa dopo l’attivazione di un’attività.
 * Sebbene le metriche calcolate non siano supportate come metriche dell’obiettivo primario, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell’obiettivo principale. Ad esempio, se desideri ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, seleziona un evento personalizzato corrispondente a &quot;completamenti del modulo&quot; come metrica di obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione per visita per tenere conto della distribuzione del traffico irregolare, quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
 * [!DNL Target] utilizza il modello di attribuzione &quot;Same Touch&quot; (Stesso contatto) nella funzione di allocazione  [!UICONTROL automatica ] : Analytics for Target (A4T).
