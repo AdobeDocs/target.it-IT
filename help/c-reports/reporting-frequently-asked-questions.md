@@ -4,17 +4,22 @@ description: Esplora un elenco delle domande frequenti e delle risposte relative
 title: Dove posso trovare risposte alle domande su [!DNL Target] reporting?
 feature: Rapporti
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 24%
+source-wordcount: '1321'
+ht-degree: 30%
 
 ---
 
 # Domande frequenti sulla generazione di rapporti
 
 Elenco delle domande frequenti sulla generazione di rapporti in [!DNL Adobe Target].
+
+## Per quanto tempo persistono i dati per i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?
+
+[!UICONTROL I modelli di Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting vengono addestrati negli ultimi 45 giorni del comportamento degli utenti (profili utente, eventi di impression ed eventi di conversione) per l’attività.
+
+[!UICONTROL I modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano il comportamento degli utenti, i record di formazione e i dati decisionali del modello per 90 giorni per produrre rapporti   Approfondimenti. Dopo 90 giorni, i record di formazione e le decisioni relative ai modelli vengono scartati. [!UICONTROL Anche i modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano per due anni i dati aggregati di impression/offerta a livello di offerta e conversione a scopo di reporting. Questi dati sono solo dati a livello aggregato e non contengono dati di profilo a livello individuale.
 
 ## Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno? {#methodology}
 
@@ -28,13 +33,13 @@ Le informazioni seguenti spiegano più dettagliatamente come vengono conteggiati
 
 Un visitatore viene incluso nel segmento Nuovi visitatori se viene soddisfatta una delle seguenti condizioni:
 
-* È la prima volta che il visitatore visita il sito.
-* È la prima volta che il visitatore visita il sito dopo aver cancellato i cookie.
-* È la prima volta che il visitatore visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
+* È la prima volta che visita il sito.
+* È la prima volta che visita il sito dopo aver cancellato i cookie.
+* È la prima volta che visita il sito da quando la [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md) è scaduta.
 
 ### Visitatori di ritorno
 
-Il visitatore viene incluso nel segmento Visitatori di ritorno se l’utente ha visitato il sito in precedenza, se ne è andato per almeno 30 minuti, e lo ha nuovamente visitato con gli stessi cookie. Se un visitatore ritorna entro la durata del suo profilo, diventa un visitatore di ritorno.
+Un visitatore viene incluso nel segmento Visitatore di ritorno se ha già visitato il sito, è uscito da almeno 30 minuti ed è tornato di nuovo sul sito con gli stessi cookie. Fino a quando un visitatore ritorna entro la durata del suo profilo, viene considerato un visitatore di ritorno.
 
 Supponiamo che la durata del profilo sia impostata per 14 giorni (impostazione predefinita). Un visitatore è incluso nel segmento Visitatori di ritorno se sono soddisfatte le seguenti condizioni:
 
@@ -66,7 +71,7 @@ Alcuni visitatori hanno raggiunto la metrica di conversione, configurata come &q
 
 Nelle attività Targeting esperienze (XT) deve essere sempre presente un’esperienza di controllo. Se utilizzi un’attività XT in modo simile a un’[!UICONTROL attività Test A/B], come spesso avviene, i dati sull’esperienza di controllo sono utili. Se ritieni che non siano utili nei tuoi rapporti, puoi semplicemente ignorarli.
 
-## Perché il numero di visite in [!DNL Target] è inferiore rispetto ad altre soluzioni [!DNL Adobe Experience Cloud]?{#section_7E626FDB417E41B8B58BBF30FB207409}
+## Perché il numero di visite in [!DNL Target] è inferiore rispetto ad altre soluzioni [!DNL Adobe Experience Cloud]? {#section_7E626FDB417E41B8B58BBF30FB207409}
 
 I numeri delle metriche, ad esempio le visite, segnalati da [!DNL Target] sono sempre inferiori ai numeri riportati in altre soluzioni [!DNL Experience Cloud] per diversi motivi:
 
