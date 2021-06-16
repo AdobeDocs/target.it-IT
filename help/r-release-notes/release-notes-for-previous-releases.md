@@ -4,7 +4,7 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Note sulla versione
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '31071'
 ht-degree: 99%
@@ -233,8 +233,8 @@ A partire dalla versione del 20 maggio, lo stato di Batch profili restituirà so
 
 Risposte API precedenti e nuove:
 
-`ProfileBatchStatus Api
-http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
+`ProfileBatchStatus Api`
+`http://<<edge>>/m2/<<client>>/profile/batchStatus?batchId=<batchid>`
 
 **Attualmente la risposta si presenta così:**
 
