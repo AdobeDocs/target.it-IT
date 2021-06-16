@@ -4,11 +4,10 @@ description: Scopri come utilizzare i rapporti specializzati per le attività di
 title: Come si utilizzano i rapporti Approfondimenti personalizzazione?
 feature: Rapporti
 exl-id: 89295d95-f179-4277-ae63-453350e1bba8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '744'
-ht-degree: 69%
+source-wordcount: '862'
+ht-degree: 59%
 
 ---
 
@@ -65,7 +64,17 @@ Esistono due tipi di attributi rappresentati nei rapporti [!UICONTROL Registri d
 | Destinatari condivisi (Adobe Audience Manager o Adobe Analytics) | Destinatari creati tramite Adobe Audience Manager o Adobe Analytics e condivisi con Target. | `Custom - Experience Cloud Segment - [segment name]` |
 | Destinatari di reporting nell&#39;attività - Segmenti | I destinatari definiti nell&#39;attività di Personalizzazione automatizzata o Targeting automatico durante l&#39;impostazione in “Obiettivi e Metrica”. | `Custom - Reporting Segment - [segment name]` |
 
-## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione  ![Badge tutorial](/help/assets/tutorial.png)
+## Domande frequenti 
+
+Elenco delle domande frequenti sui rapporti [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti].
+
+### Per quanto tempo persistono i dati per i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?
+
+[!UICONTROL I modelli di Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting vengono addestrati negli ultimi 45 giorni del comportamento degli utenti (profili utente, eventi di impression ed eventi di conversione) per l’attività.
+
+[!UICONTROL I modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano il comportamento degli utenti, i record di formazione e i dati decisionali del modello per 90 giorni per produrre rapporti   Approfondimenti. Dopo 90 giorni, i record di formazione e le decisioni relative ai modelli vengono scartati. [!UICONTROL Anche i modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano per due anni i dati aggregati di impression/offerta a livello di offerta e conversione a scopo di reporting. Questi dati sono solo dati a livello aggregato e non contengono dati di profilo a livello individuale.
+
+## Video di formazione: Utilizzo dei rapporti Approfondimenti personalizzazione ![Badge tutorial](/help/assets/tutorial.png)
 
 >[!VIDEO](https://video.tv.adobe.com/v/25601/)
 
