@@ -5,8 +5,7 @@ title: Come posso inserire i dati in [!DNL Target] utilizzando i parametri di pa
 feature: Implementazione
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
 source-wordcount: '377'
 ht-degree: 46%
@@ -48,7 +47,7 @@ I dati vengono inviati a Target in tempo reale e possono essere utilizzati nella
 
    Oltre ai caratteri menzionati sul sito IETF, Target consente i seguenti caratteri nelle stringhe di query:
 
-   `&lt; > # % ” { } | \\ ^ \[\] \``
+   ```< > # % " { } | \ ^ [ ] ` ```
 
    Tutto il resto deve avere la codifica URL. Lo standard specifica il formato seguente ( [https://www.ietf.org/rfc/rfc1738.txt](https://www.ietf.org/rfc/rfc1738.txt) ), come illustrato di seguito:
 
