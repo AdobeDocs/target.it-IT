@@ -5,11 +5,10 @@ title: Come si utilizza la funzione adobe.target.trackEvent()?
 feature: at.js
 role: Developer
 exl-id: 36005236-ce18-4845-b4fb-e52056018bc7
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
 workflow-type: tm+mt
-source-wordcount: '329'
-ht-degree: 70%
+source-wordcount: '328'
+ht-degree: 69%
 
 ---
 
@@ -26,7 +25,7 @@ Di seguito sono riportati i dettagli API:
 | mbox | Stringa | Sì | Nome mbox <br>**Nota**: Se una chiamata trackEvent() viene attivata con un nome mbox già attivato sulla pagina, l’identificatore SDID di trackEvent() viene reimpostato e sarà diverso dalle chiamate Target nella pagina. Tuttavia, l’attivazione di una chiamata trackEvent() con un nome mbox diverso mantiene l’identificatore SDID della chiamata trackEvent() coerente con le chiamate Page Load Request/triggerView() sulla pagina. |
 | selector | Stringa | No | Selettori CSS utilizzati per trovare gli elementi HTML. I listener di eventi verranno allegati agli elementi trovati. |
 | type | Stringa | No | Rappresenta un tipo di evento registrato. Può trattarsi sia di eventi HTML noti come: click, mouseown, ecc, così come di eventi HTML personalizzati. |
-| preventDefault | Booleano | No | Indica se utilizzare `event.preventDefault()` nella chiamata di ritorno del listener di eventi. Predefinito su false.<br>**Nota**: sono supportati solo `form[submit] and `a[click]”. Altri scenari non sono supportati a causa della complessità e delle enormi quantità di scenari da supportare. |
+| preventDefault | Booleano | No | Indica se utilizzare `event.preventDefault()` nella chiamata di ritorno del listener di eventi. Predefinito su false.<br>**Nota**: Sono supportati solo  `form[submit]` e  `a[click]` . Altri scenari non sono supportati a causa della complessità e delle enormi quantità di scenari da supportare. |
 | params | Oggetto | No | Parametri mbox. Un oggetto di coppie chiave-valore che presenta la struttura seguente:<br>`{ "param1": "value1", "param2": "value2"}` |
 | timeout | Numero | No | Timeout in millisecondi.<br>Se non viene specificato, viene utilizzato il valore predefinito:<br>`...timeoutInSeconds: 0.15...}` |
 | success | Funzione | No | Funzione di callback utilizzata per indicare che quell’evento è stato segnalato. |
