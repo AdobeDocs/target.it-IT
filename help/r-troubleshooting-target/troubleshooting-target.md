@@ -4,9 +4,9 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Risoluzione dei problemi relativi al
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 85a17944c7d5924edb1bbabb7531274249ceaaa8
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '452'
+source-wordcount: '458'
 ht-degree: 98%
 
 ---
@@ -37,12 +37,14 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 ### Targeting automatico
 
 * [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+* [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Automated Personalization
 
 * [Domande frequenti sulla Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Risoluzione dei problemi di Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
 * [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md)
+* [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Test multivariato (MVT)
 
