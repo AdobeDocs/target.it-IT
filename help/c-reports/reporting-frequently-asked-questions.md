@@ -4,22 +4,16 @@ description: Esplora un elenco delle domande frequenti e delle risposte relative
 title: Dove posso trovare risposte alle domande su [!DNL Target] reporting?
 feature: Rapporti
 exl-id: 1a345a67-5050-4bd3-858d-99731d2c1dd3
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
 workflow-type: tm+mt
-source-wordcount: '1321'
-ht-degree: 30%
+source-wordcount: '1219'
+ht-degree: 33%
 
 ---
 
 # Domande frequenti sulla generazione di rapporti
 
 Elenco delle domande frequenti sulla generazione di rapporti in [!DNL Adobe Target].
-
-## Per quanto tempo persistono i dati per i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?
-
-[!UICONTROL I modelli di Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting vengono addestrati negli ultimi 45 giorni del comportamento degli utenti (profili utente, eventi di impression ed eventi di conversione) per l’attività.
-
-[!UICONTROL I modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano il comportamento degli utenti, i record di formazione e i dati decisionali del modello per 90 giorni per produrre rapporti   Approfondimenti. Dopo 90 giorni, i record di formazione e le decisioni relative ai modelli vengono scartati. [!UICONTROL Anche i modelli Automated Personalization]  (AP) e  [!UICONTROL Auto-] Targeting conservano per due anni i dati aggregati di impression/offerta a livello di offerta e conversione a scopo di reporting. Questi dati sono solo dati a livello aggregato e non contengono dati di profilo a livello individuale.
 
 ## Come vengono conteggiate le metriche Nuovi visitatori e Visitatori di ritorno? {#methodology}
 
