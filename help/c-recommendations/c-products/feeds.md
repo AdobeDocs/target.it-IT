@@ -2,12 +2,11 @@
 keywords: feed consigli;feed;SAINT;ftp;csv;classificazioni;classificazioni di analisi
 description: Scopri come importare le entità in Adobe [!DNL Target] Recommendations utilizzando file CSV, il formato feed di Google Product Search e le classificazioni di prodotto Analytics.
 title: Come si utilizzano i feed in [!DNL Target] Recommendations?
-feature: Consigli
+feature: Recommendations
 exl-id: 7b336a9e-23f4-4b09-9c8f-b9cb68162b1b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 062a47e2dd76fe6dc87a71ad7b17355d57d769dd
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2513'
 ht-degree: 84%
 
 ---
@@ -221,7 +220,7 @@ La classificazione di prodotto Analytics è l’unica classificazione disponibil
 >* [!DNL Target] supporta solo le classificazioni di prodotto. Il codice SKU del prodotto Analytics deve essere mappato sullo stesso livello del codice [!DNL Recommendations] `entity.id`. Le classificazioni personalizzate di Analytics possono essere progettate tramite Adobe Consulting Services. Per eventuali domande, contatta il tuo Account Manager.
 
 
-## Creazione di un feed  {#steps}
+## Creazione di un feed {#steps}
 
 Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Recommendations].
 
@@ -236,7 +235,7 @@ Crea un feed per inserire le informazioni sui prodotti o i servizi in [!DNL Reco
    * Feed di prodotto Google
    * Classificazioni Analytics
 
-   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Puoi anche [scaricare una guida CSV del modello](https://recspm2.experiencecloud.adobe.com/content/mac/default/target/files/EntityFileUploadTemplate.csv) per formattare correttamente il feed.
+   Per informazioni sui tipi di feed di prodotto Google e CSV, consulta [Panoramica sui feed](/help/c-recommendations/c-products/feeds.md#concept_D1E9C7347C5D4583AA69B02E79607890). Puoi anche [scaricare una guida CSV del modello](/help/c-recommendations/c-products/assets/EntityFileUploadTemplate.csv) per formattare correttamente il feed.
 
 1. (Condizionale) Se hai selezionato **[!UICONTROL CSV]** o **[!UICONTROL Feed prodotto Google]**, specifica il percorso in cui il feed è accessibile.
 
@@ -284,7 +283,7 @@ Durante l’indicizzazione, prodotti e intestazioni dei feed vengono visualizzat
 
 Lo stato “Completato” indica che il file è stato trovato e analizzato correttamente. Le informazioni non sono disponibili per l’utilizzo all’interno di [!DNL Recommendations] finché il file non viene indicizzato, operazione che può richiedere un po’ di tempo, a seconda della dimensione del file. Se il processo non riesce, il file non è stato trovato (ad esempio, hai utilizzato un URL o informazioni FTP errati), o si è verificato un errore di analisi.
 
-## Stati e indicatori dei feed  {#concept_E475986720D1400999868B3DFD14A7A0}
+## Stati e indicatori dei feed {#concept_E475986720D1400999868B3DFD14A7A0}
 
 Informazioni sui possibili stati dei feed e sui relativi indicatori.
 
@@ -342,7 +341,7 @@ Lo stato visualizzato sarà giallo, perché l’indice doveva essere eseguito ci
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Informazioni sui feed in Recommendations (3:01)  ![Badge panoramica](/help/assets/overview.png)
+### Informazioni sui feed in Recommendations (3:01) ![Icona Panoramica](/help/assets/overview.png)
 
 Questo video contiene le seguenti informazioni:
 
@@ -351,7 +350,7 @@ Questo video contiene le seguenti informazioni:
 
 >[!VIDEO](https://video.tv.adobe.com/v/27695)
 
-### Creare un feed (6:44)  ![Badge tutorial](/help/assets/tutorial.png)
+### Creare un feed (6:44) ![Icona Tutorial](/help/assets/tutorial.png)
 
 Questo video contiene le seguenti informazioni:
 
