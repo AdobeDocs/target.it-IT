@@ -5,8 +5,7 @@ title: Come si effettua l’aggiornamento da at.js versione 1.x alla versione 2.
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
 workflow-type: tm+mt
 source-wordcount: '2765'
 ht-degree: 89%
@@ -46,7 +45,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 | Chiamata | Dettagli |
 | --- | --- |
-| 3 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
+| 1 | Si richiama `triggerView()` nell’applicazione a pagina singola per eseguire il rendering della visualizzazione e applicare azioni per modificare gli elementi visuali. |
 | 2 | Il contenuto mirato per la visualizzazione viene letto dalla cache. |
 | 3 | Il contenuto mirato viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito. |
 | 4 | Si invia la richiesta di notifica all&#39;archivio profili di [!DNL Target] per conteggiare il visitatore nell&#39;attività e nelle metriche incrementali. |
@@ -391,7 +390,7 @@ Le tabelle seguenti contengono una spiegazione di at.js. 2.*x* compatibilità co
 | `?mboxDisable` | Sì |
 | `?mboxTrace` | Sì |
 | `?mboxSession` | No |
-| `?mboxOverride.browserIp` | No |
+| `?mboxOverride.browserIp` | Sì |
 
 ## Token di risposta {#response-tokens}
 
