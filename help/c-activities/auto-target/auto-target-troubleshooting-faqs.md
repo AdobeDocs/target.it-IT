@@ -7,7 +7,7 @@ exl-id: 934f738e-560a-4847-9608-432ecfa2afe7
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
 workflow-type: tm+mt
 source-wordcount: '1920'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -32,7 +32,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con le attività
 
 * Cerca di non apportare modifiche sostanziali alle esperienze durante il corso dell&#39;attività.
 
-### Utilizza [!UICONTROL Targeting automatico] con una suddivisione 90(Controllo)/10(Target) fino a quando i modelli non vengono generati?
+### È consigliato utilizzare il [!UICONTROL Targeting automatico] con una suddivisione 90(Controllo)/10(Target) fino a quando i modelli non vengono generati?
 
 La suddivisione ottimale del traffico dipende da cosa desideri eseguire.
 
