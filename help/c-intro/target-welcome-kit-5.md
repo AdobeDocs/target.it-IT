@@ -5,7 +5,7 @@ title: Dove posso trovare ispirazione per i miei tentativi di test e personalizz
 feature: Panoramica
 exl-id: ac4eb710-3f8b-417f-ad8a-ebe48771170d
 source-git-commit: d1579a56e46b806c3e4a0cb1748e5682b0900d11
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1054'
 ht-degree: 100%
 
@@ -49,7 +49,7 @@ Se i visitatori che arrivano da Google ricevono contenuti scaduti o esauriti, co
 
 Ad esempio, includi i consigli in una pagina di dettaglio del prodotto che mostri ai visitatori che hanno visto un prodotto non disponibile consigli simili e personalizzati o articoli visualizzati di recente in base al loro comportamento di visitatori durante la sessione e all’affinità tra categorie. Gli utenti possono visualizzarli con un solo clic, offrendo un’altra opportunità a te di interagire con loro sul sito web o a loro di effettuare un acquisto.
 
-![Illustrazione di Recommendations](/help/c-intro/assets/recs-illustration.png)
+![Illustrazione di Consigli](/help/c-intro/assets/recs-illustration.png)
 
 ## Idea 7: Incorporare le tattiche economiche comportamentali nei test.
 
