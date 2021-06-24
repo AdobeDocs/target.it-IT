@@ -4,11 +4,10 @@ description: Scopri come Adobe [!DNL Target] mostra e calcola il tasso di conver
 title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
 feature: Rapporti
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2187'
-ht-degree: 69%
+ht-degree: 68%
 
 ---
 
@@ -54,7 +53,7 @@ Consulta [Livello di affidabilità e intervallo di affidabilità](/help/c-report
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-I dati Valore medio dell’ordine, Ricavo per visita e Vendite vengono visualizzati per ogni esperienza se una mbox [Ordine effettuato](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/orderconfirm-create.md) (`orderConfirmPage`) è stata inserita e selezionata come mbox di conversione.
+I dati AOV, RPV e Vendite vengono visualizzati per ogni esperienza se hai inserito una mbox Inserisci ordine (`orderConfirmPage`) e l&#39;hai selezionata come mbox di conversione.
 
 ## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
@@ -102,7 +101,7 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 * **Dimensione del campione:** al crescere del campione l’intervallo si ridurrà. Questo rapporto è quello preferenziale, perché indica che i rapporti si avvicinano al valore effettivo della metrica di successo.
 * **Deviazione standard più piccola:** più risultati simili, come AOV simili o numeri simili o visitatori con conversioni ogni giorno, riducono la deviazione standard.
 
-## Calcolo dell’affidabilità e modalità di esecuzione offline  {#section_86F7C231943043A5B8B6BFE67B706E3B}
+## Calcolo dell’affidabilità e modalità di esecuzione offline {#section_86F7C231943043A5B8B6BFE67B706E3B}
 
 Il [rapporto CSV scaricato](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
