@@ -7,7 +7,7 @@ exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: 921245d9b8e2f5d99c0abf1606df9d4fd553a7b5
 workflow-type: tm+mt
 source-wordcount: '2995'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -189,7 +189,7 @@ Assicurati che il pubblico abbia un nome univoco. Se hai assegnato al pubblico l
 
 ## Qual è la dimensione massima di un file CSV per un caricamento del feed? {#section_20F1AF4839A447B9889B246D6E873538}
 
-Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella [[!DNL Target]  pagina Limitazioni di ](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1) sono disponibili altri limiti per la lunghezza delle colonne richieste.
+Non vi è alcun limite stabilito sul numero di righe o sulle dimensioni del file per il caricamento del file CSV di un feed. Tuttavia, come best practice, Adobe consiglia di limitare le dimensioni del file CSV a 1 GB per evitare errori durante il processo di caricamento dei file. Se le dimensioni del file superano 1 GB, idealmente può essere suddiviso in più file di feed. Il numero massimo di colonne di attributi personalizzati è 100 e gli attributi personalizzati sono limitati a 4096 caratteri. Nella pagina Limitazioni di [[!DNL Target]  sono disponibili altri limiti per la lunghezza delle colonne richieste](/help/r-troubleshooting-target/target-limits.md#reference_BEFE60C3AAA442FF94D4EBFB9D3CC9B1). 
 
 ## È possibile escludere un’entità in modo dinamico? {#exclude}
 
@@ -241,8 +241,8 @@ Questo comportamento si verifica anche se un visitatore è attivo su un disposit
 
 Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi visualizzati di recente su un dispositivo aggiornano quelli sull’altro dispositivo, purché la sessione sia terminata. Quando esegui il test di questo comportamento, considera che la scadenza della sessione può richiedere 35 minuti.
 
-## Posso utilizzare un algoritmo creato in [!DNL Adobe Recommendations Classic] in [!DNL Recommendations Premium]?
+## Posso utilizzare in [!DNL Recommendations Premium] un algoritmo creato in [!DNL Adobe Recommendations Classic]?
 
-Un algoritmo creato in [!DNL Recommendations Classic] non è supportato in [!DNL Recommendations Premium]. È possibile utilizzare l’algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo può creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’ interfaccia utente di [!DNL Target Premium] . Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta [[!DNL Recommendations Classic] versus [!DNL Recommendations] attività in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
+Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!DNL Recommendations Premium]. È possibile utilizzare un algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo potrà creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’interfaccia utente di [!DNL Target Premium]. Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta Attività [[!DNL Recommendations Classic] versus [!DNL Recommendations] in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
 
