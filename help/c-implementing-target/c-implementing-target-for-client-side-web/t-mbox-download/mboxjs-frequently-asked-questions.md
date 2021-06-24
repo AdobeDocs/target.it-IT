@@ -5,11 +5,10 @@ title: Quali sono alcune domande frequenti su [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 0e207896-d45b-45f9-8556-6532fda72a45
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '432'
-ht-degree: 71%
+source-wordcount: '329'
+ht-degree: 75%
 
 ---
 
@@ -19,19 +18,9 @@ Risposte alle domande più frequenti su mbox.js.
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
+>**Terminazione di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
 >
 >È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-## Qual è l’impatto di mbox.js sui tempi di caricamento pagina? {#section_90B3B94FE0BF4B369577FCB97B67F089}
-
-Per ulteriori informazioni, consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits).
-
-## Perché compaiono messaggi di avviso “blocco del parser” in Google Chrome quando si utilizzano mbox.js e document.write? {#section_355A3A5BF02F42EEB8271C96EF41590A}
-
-Questo messaggio della console viene visualizzato quando si utilizza Chrome in molti scenari in cui la funzione `document.write` viene utilizzata all’interno del file mbox.js. Questo è un messaggio di avviso e non dovrebbe influenzare il processo di configurazione dell’attività.
-
-Il modo migliore per prevenire questa situazione consiste nella [migrazione dell’implementazione di Target alla libreria JavaScript at. js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA), che non utilizza la funzione `document.write`. L’utilizzo di at.js fornisce molti vantaggi rispetto a mbox.js. Per ulteriori informazioni, consulta [Domande frequenti su at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-atjs-faq/target-atjs-faq.md#concept_D6EFE8D84A06476DB5ABD494D7E8C769).
 
 ## Perché le mie mbox non vengono lanciate sulle mie pagine web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
