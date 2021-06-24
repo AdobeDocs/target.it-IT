@@ -4,9 +4,9 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Risoluzione dei problemi relativi al
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: c0eae79da63e2f269f603b4d9fd2a5a1170e2687
+source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '452'
 ht-degree: 98%
 
 ---
@@ -41,9 +41,9 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ### Automated Personalization
 
-* [Domande frequenti sulla Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
+* [Domande frequenti su Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Risoluzione dei problemi di Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
-* [Rapporto di riepilogo per Personalizzazione automatizzata](/help/c-reports/reports-ap.md)
+* [Rapporto di riepilogo per Automated Personalization](/help/c-reports/reports-ap.md)
 * [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
 ### Test multivariato (MVT)
@@ -124,11 +124,6 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 * [Limitazioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-limitations.md)
 * [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Vedi [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md).
-
-### mbox.js
-
-* [Domande frequenti su mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-frequently-asked-questions.md)
-* [Dettagli sulle versioni di mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mboxjs-change-log.md)
 
 ## Problemi noti
 
