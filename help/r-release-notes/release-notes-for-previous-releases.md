@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
 workflow-type: tm+mt
 source-wordcount: '31047'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1936,7 +1936,7 @@ Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioram
 * I nomi delle metriche vengono ora visualizzati nella pagina [!UICONTROL Obiettivi e impostazioni] senza che gli utenti debbano espandere ogni singola metrica per visualizzarne il nome per intero. Questo miglioramento consente agli utenti di modificare le metriche più rapidamente e in modo più efficiente. (TGT-21276)
 * È ora possibile applicare le regole di inclusione di [!DNL Recommendations] ai criteri personalizzati (aggiornamento tramite CSV), come per qualsiasi altro criterio. (TGT-21896)
 * È stata migliorata l&#39;interfaccia utente e la fruibilità della pagina [!UICONTROL Offerte], specialmente quando si creano o gestiscono cartelle e si creano offerte. (TGT-22509 e TGT-22187)
-* È stata migliorata l&#39;esperienza dell&#39;utente nel [!UICONTROL Compositore esperienza visivo], quando si selezionano gli elementi da nascondere. 
+* È stata migliorata l&#39;esperienza dell&#39;utente nel [!UICONTROL Compositore esperienza visivo], quando si selezionano gli elementi da nascondere.
 (TGT-22224)
 * È stata migliorata l&#39;esperienza dell&#39;utente durante la creazione di attività utilizzando il [!UICONTROL Compositore esperienza basato su moduli]. Quando si sceglie una posizione mbox, il bordo di convalida rimane evidenziato dopo aver fatto clic su [!UICONTROL Avanti]. (TGT-22221)
 * Sono stati ottimizzati i rapporti scaricati per distinguere tra le offerte attive ed eliminate. (TGT-22449)
