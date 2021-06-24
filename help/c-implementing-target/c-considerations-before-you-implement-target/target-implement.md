@@ -3,10 +3,9 @@ keywords: document.write;target;implementare;implementare target;dtm;at.js;mbox.
 description: Implementa le librerie Adobe [!DNL Target] by referencing the [!DNL Target] (at.js o mbox.js) nelle tue pagine web.
 title: 'Comprendere le librerie JavaScript di  [!DNL Target] '
 feature: Implementazione
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '473'
+source-wordcount: '452'
 ht-degree: 24%
 
 ---
@@ -18,16 +17,16 @@ Implementa [!DNL Adobe Target] facendo riferimento alle librerie [!DNL Adobe Tar
 
 >[!NOTE]
 >
->La libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js o a [!UICONTROL Adobe Experience Platform Web SDK] prima del 31 marzo 2021. Per ulteriori informazioni, consulta [Migrare a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) o [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+>La libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js o a [!UICONTROL Adobe Experience Platform Web SDK] prima del 31 marzo 2021.
 
-## Differenze tra le [!DNL Target] librerie JavaScript {#section_40117C78C2F84FECAC4F1BA40CC4F171}
+## Differenze tra le librerie JavaScript [!DNL Target] {#section_40117C78C2F84FECAC4F1BA40CC4F171}
 
 La tabella seguente spiega le differenze tra le librerie JavaScript [!DNL Target]:
 
 | Riferimento alla libreria | Descrizione |
 |--- |--- |
 | Tutorial per Adobe Experience Platform Web SDK | Il [!UICONTROL Adobe Experience Platform Web SDK] consente di interagire con i vari servizi presenti in [!DNL Experience Cloud] (incluso [!DNL Target]) tramite Adobe Experience Edge Network. Se scegli di eseguire la migrazione a [!DNL Adobe Experience Platform Web SDK], consulta [Cos’è Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) nella *Guida all’SDK per web*. |
-| at.js | at.js sostituisce mbox.js per le implementazioni di [!DNL [!DNL Target]] .<br>Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza, evita gli avvisi document.write in Google Chrome e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola.<br>Per ulteriori informazioni, consulta [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md). |
+| at.js | at.js sostituisce mbox.js per le implementazioni di [!DNL [!DNL Target]] .<br>Tra gli altri vantaggi, at.js migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza, evita gli avvisi document.write in Google Chrome e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. |
 
 ## Impatto di at.js sul tempo di caricamento della pagina {#section_16630CD0FF0A498EB596A51381366A5A}
 
