@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
 workflow-type: tm+mt
 source-wordcount: '4438'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -27,9 +27,9 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 [!DNL Adobe Experience Platform] i nomi dei segmenti non vengono visualizzati nel rapporto  [!UICONTROL Attributi importanti per le attività di ] Automated Personalization [!UICONTROL  (AP) e ] Targeting automatico   (AT). (TOP-3813)
 
-### L&#39;archiviazione delle attività [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione
+### Possibili problemi di sincronizzazione nell&#39;archiviazione di attività [!UICONTROL Targeting automatico]
 
-Il tentativo di archiviare le attività inattive [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciarli nello stato [!UICONTROL Inattivo]. (TGT-40885)
+Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
 
 ### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
 
@@ -141,7 +141,7 @@ I clienti non possono eseguire operazioni CRUD sulle attività di allocazione au
 
 Il 10 maggio 2020 Adobe ha aggiornato i file del provider GEO, il che ha introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole benché i valori nei tipi di pubblico esistenti non avessero una virgola. Questa modifica non ha interessato tutti i server di consegna Adobe. Di conseguenza, i tipi di pubblico che utilizzano tali valori potrebbero non aver qualificato tutti i visitatori corretti tra il 10 maggio e il 22 luglio 2020.
 
-### Generazione rapporti: dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’interfaccia utente di [!DNL Target].  {#csv}
+### Generazione rapporti: dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’interfaccia utente di [!DNL Target]. {#csv}
 
 I rapporti generati per il download come file .csv non sono coerenti se l’attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
 
@@ -244,7 +244,7 @@ Quando mbox.js viene scaricato per la prima volta dopo il provisioning, il campo
 
 at.js verrà scaricato con `global_mbox_autocreate = false` per un tenant nuovo. Se mbox. js viene scaricato per primo, global\_mbox\_autocreate è impostato su “true” e anche at.js sarà scaricato con `global_mbox_autocreate = true`. (TGT-15929)
 
-### Supporto delle autorizzazioni Enterprise nelle API di [!DNL Target]  {#api}
+### Supporto delle autorizzazioni Enterprise nelle API di [!DNL Target] {#api}
 
 Le offerte di codice create dall’interfaccia utente di Target nella libreria Offerte possono essere visualizzate nell’area di lavoro predefinita se l’elenco delle offerte viene rimosso utilizzando API GET. Il problema verrà risolto nella prima settimana di marzo 2019. Dopo la correzione, le offerte di codice verranno visualizzate nell’area di lavoro appropriata quando vengono richiamate dalle API. Questo problema *non* influisce sulle offerte create dalle API. Ad esempio, le offerte di codice create dalle API vengono visualizzate nell’area di lavoro in cui sono state create o recuperate utilizzando API GET o dall’interfaccia utente di Target.
 
@@ -307,7 +307,7 @@ La ricerca di una stringa contenente caratteri speciali (ad esempio uno spazio o
 
 Corretto a novembre 2018.
 
-### at.js  {#at-js-3}
+### at.js {#at-js-3}
 
 Quando si utilizza la versione 1.6.0 di at.js i reindirizzamenti di Analytics for Target (A4T) si verificano ma senza qualificazione dell&#39;attività.
 
@@ -434,7 +434,7 @@ Per il criterio Visualizzato di recente, le regole dinamiche basate su entità n
 
 Questo problema è stato risolto con il rilascio della funzionalità Consigli (22 marzo 2018). Dopo il rilascio della funzionalità Consigli, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
 
-### at.js  {#at-js-7}
+### at.js {#at-js-7}
 
 Quando gli utenti tentano di scaricare at.js dalla pagina dei dettagli Implementazioni dopo l’aggiornamento delle impostazioni di at.js, mbox.js viene scaricato al suo posto. (TGT-23069)
 
