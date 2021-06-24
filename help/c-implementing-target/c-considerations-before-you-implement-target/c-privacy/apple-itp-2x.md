@@ -5,11 +5,10 @@ title: In che modo [!DNL Target] gestisce il supporto Apple ITP?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: 05a62be5-ccfb-4d5c-b511-35023b95e567
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 50%
+source-wordcount: '910'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +28,7 @@ Queste versioni di ITP includono le seguenti restrizioni:
 
 ## Qual è l&#39;impatto per un cliente di Adobe [!DNL Target]? {#impact}
 
-[!DNL Target] fornisce librerie JavaScript da implementare sulle pagine in modo che [!DNL Target] possa offrire ai tuoi visitatori una personalizzazione in tempo reale. Tre librerie JavaScript di Target ([at.js 1.x, at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md) e [mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md)) inseriscono cookie lato client [!DNL Target] nei browser dei visitatori tramite l’API `document.cookie`. Di conseguenza, i cookie [!DNL Target] sono interessati da Apple ITP 2.x e scadranno dopo sette giorni (con ITP 2.1) e dopo un giorno (con ITP 2.2 e ITP 2.3).
+[!DNL Target] fornisce librerie JavaScript da implementare sulle pagine in modo che [!DNL Target] possa offrire ai tuoi visitatori una personalizzazione in tempo reale. Sono disponibili tre librerie JavaScript di Target at.js 1.x, at.js 2.x che inseriscono cookie lato client [!DNL Target] sui browser dei visitatori tramite l’ API `document.cookie` . Di conseguenza, i cookie [!DNL Target] sono interessati da Apple ITP 2.x e scadranno dopo sette giorni (con ITP 2.1) e dopo un giorno (con ITP 2.2 e ITP 2.3).
 
 Apple ITP 2.x ha un impatto [!DNL Target] nelle seguenti aree:
 
@@ -54,7 +53,7 @@ Per attenuare l’impatto di future versioni di ITP 2.x su Target, completa le s
 
    La libreria ECID abilita il framework di identificazione delle persone per le soluzioni Experience Cloud di base. La libreria ECID ti consente di identificare gli stessi visitatori del sito e i relativi dati in diverse soluzioni Experience Cloud, assegnando identificatori permanenti e univoci. La libreria ECID verrà aggiornata frequentemente per attenuare l’impatto di eventuali modifiche relative a ITP sulla tua implementazione.
 
-   Per ITP 2.x, [la libreria ECID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) deve essere utilizzata per la mitigazione.
+   Per ITP 2.x, [la libreria ECID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it) deve essere utilizzata per la mitigazione.
 
 1. Utilizza il CNAME di Adobe e registrati al programma Managed Certificate di Adobe Analytics.
 
