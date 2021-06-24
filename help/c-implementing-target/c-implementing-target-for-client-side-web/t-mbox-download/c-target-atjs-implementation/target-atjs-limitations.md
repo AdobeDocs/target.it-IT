@@ -1,17 +1,16 @@
 ---
 keywords: limitazioni del compositore esperienza visivo;supporto del browser;integrazioni;plug-in;considerazioni asincrone
-description: Scoprite l'implementazione legacy di mbox.js  Adobe Target. Esegui la migrazione all’SDK Web Adobe Experience Platform (AEP Web SDK) o all’ultima versione di at.js.
+description: Scopri l’implementazione legacy di mbox.js di Adobe Target. Esegui la migrazione a Adobe Experience Platform Web SDK (AEP Web SDK) o all’ultima versione di at.js.
 title: Quali sono le differenze tra at.js e mbox.js?
 feature: at.js
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 2fd0db66-0b47-41c0-86b6-44e711d70027
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 92%
+source-wordcount: '436'
+ht-degree: 91%
 
 ---
-
 
 # Limitazioni di at.js
 
@@ -28,9 +27,8 @@ Esistono alcune differenze tra at.js e mbox.js. In questa sezione vengono elenca
 Alcune funzioni di [!DNL mbox.js] non sono disponibili in [!DNL at.js]. Gli [oggetti e i metodi interni di mbox.js](/help/c-target/c-visitor-profile/variables-profiles-parameters-methods.md#section_8C78059D15D9452F95636A5640188537) (come `mbox`, `mboxCurrent`, `mboxFactoryDefault`, `mboxFactories` e altri) non sono più supportati da [!DNL at.js] (ad esempio: `mboxFactoryDefault`). È una scelta progettuale, pensata per scoraggiare gli utenti da eseguire “hacking” su [!DNL at.js] per sviluppare funzionalità non supportate che a lungo termine possono paralizzare un&#39;implementazione e renderne impossibile l&#39;aggiornamento. Gli unici metodi esposti sono descritti nelle pagine API di questa documentazione. Per questo motivo:
 
 * Le [integrazioni](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/target-atjs-integrations.md#concept_C100BC4F073C4B57A608B309D0157B39) legacy basate su pagina con altre soluzioni Adobe potrebbero non funzionare e devono essere aggiornate alle più recenti integrazioni lato server.
-* [I plug-in personalizzati sviluppati per mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) potrebbero non funzionare se non aggiornati per [!DNL at.js].
 
-   Assicurati di includere eventuali [plug-in](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md#concept_F5D4C0A4DACF41409CC42FDD93B13FAF) come parte del test.
+   Assicurati di includere eventuali plug-in come parte del test.
 
 ## Considerazioni asincrone {#section_B586360A3DD34E2995AE25A18E3FB953}
 
@@ -55,4 +53,3 @@ Poiché tutte le mbox sono ora asincrone, non bloccano il rendering della pagina
 * La manipolazione DOM e le offerte di Reindirizzamento devono essere consegnate attraverso la mbox globale creata automaticamente in [!DNL at.js] nella sezione `<head>`.
 
    Una funzione `mboxCreate()` nella parte superiore della sezione `<body>` probabilmente provocherà una visualizzazione momentanea del contenuto predefinito.
-
