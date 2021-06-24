@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Note sulla versione
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 41fd231ff37bf26b955b86bf70b880e1dae0c2eb
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '4438'
+source-wordcount: '4390'
 ht-degree: 99%
 
 ---
@@ -100,7 +100,7 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 Di seguito sono riportati problemi noti relativi a at.js:
 
 * Utilizzando le versioni at.js precedenti alla versione 2.2.0, nel monitoraggio dei clic non sono incluse le conversioni in Analytics for Target (A4T) se il codice Adobe Analytics non è presente sugli elementi di pagina (come i pulsanti). Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* Se crei un’esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un’esperienza predefinita), questa potrebbe non essere conteggiata nei rapporti, in Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il [plug-in ttMeta](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-plugins.md) potrebbe non funzionare correttamente.
+* Se crei un’esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un’esperienza predefinita), questa potrebbe non essere conteggiata nei rapporti, in Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il plug-in ttMeta potrebbe non funzionare correttamente.
 
    Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza. (TNT-33366)
 
@@ -229,12 +229,6 @@ Per ulteriori informazioni e una correzione, consulta “In che modo i criteri d
 Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
 
 Questo problema è stato risolto con la versione 19.7.1 di Target.
-
-### mbox.js
-
-La libreria mbox.js non supporta linguaggi di template lato client, come Handlebar e Mustache. La libreria at.js *supporta* tali linguaggi.
-
-**Nota**: la libreria mbox.js non verrà più sviluppata. Tutti i clienti devono migrare da mbox.js a at.js. Per ulteriori informazioni, consulta [Migrazione a at.js da mbox.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA).
 
 ### Implementazione: Creazione automatica mbox globale
 
