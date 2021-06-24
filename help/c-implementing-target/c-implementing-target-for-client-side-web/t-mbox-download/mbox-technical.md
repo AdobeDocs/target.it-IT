@@ -5,11 +5,10 @@ title: Come funziona la libreria [!DNL Target] mbox.js?
 feature: at.js
 role: Developer
 exl-id: 62f0cbd2-17f0-43f4-98d3-ea39f314525e
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 74%
+source-wordcount: '299'
+ht-degree: 78%
 
 ---
 
@@ -19,22 +18,9 @@ Informazioni utili per il personale tecnico, per comprendere l’implementazione
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
+>**Terminazione di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
 >
 >È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
-
-Target Standard richiede [!DNL mbox.js] versione 58 o successiva. Per istruzioni sul download e l’aggiornamento di [!DNL mbox.js], consulta [Implementazione della mbox](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/mbox-download.md#task_4EAE26BB84FD4E1D858F411AEDF4B420).
-
-Per Target Standard, [!DNL mbox.js] esegue una chiamata a un altro file JavaScript, [!DNL target.js]. [!DNL Target.js] è in hosting presso Adobe e viene aggiornato automaticamente da Adobe. Non è necessario eseguire alcuna operazione per aggiornare [!DNL target.js], e non sono presenti personalizzazioni specifiche per cliente.
-
-[!DNL Target.js] crea una mbox denominata `target-global-mbox` nella sezione `<head>` della pagina.
-
-[!DNL Target.js] viene richiamato da [!DNL mbox.js] tramite una riga di codice JavaScript aggiunto al campo [!UICONTROL Extra JavaScript] in [!DNL mbox.js]. L’unico modo per disabilitare [!DNL target.js] consiste nel non includere questa riga di codice; così facendo viene disabilitato anche [!DNL Target].
-
-[!DNL Target.js] ha due funzioni in [!DNL Target]:
-
-* Manipolazione di DOM
-* Abilita gli elementi visivi del [!UICONTROL Compositore esperienza visivo]
 
 ## Manipolazione di DOM {#section_169F8D4C077948DCB4F891ABBB03FF63}
 
@@ -53,5 +39,3 @@ Quando si utilizza il [!UICONTROL Compositore esperienza visivo] per impostare l
 ## Considerazioni per siti Angular e applicazioni a pagina singola {#section_16D76F16077A434FAE8CEC6FD43BE6D7}
 
 Se si implementa Target in un sito Angular o in applicazioni a pagina singola, è necessario utilizzare la libreria at.js invece di mbox.js.
-
-Per ulteriori informazioni, consulta [Implementazione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#concept_8AC8D169E02944B1A547A0CAD97EAC17).
