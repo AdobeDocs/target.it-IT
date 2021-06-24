@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 146395f5453093ca34b259a143ff4e4c63be949b
 workflow-type: tm+mt
 source-wordcount: '330'
-ht-degree: 68%
+ht-degree: 100%
 
 ---
 
@@ -25,13 +25,13 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >
 >Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.5.2 (Data da determinare)
+## [!DNL Target Standard/Premium] 21.5.2 (data da definire)
 
 Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
 | Funzione | Dettagli |
 | --- | --- |
-| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | I seguenti miglioramenti si applicano agli algoritmi di popolarità [!DNL Recommendations]:<ul><li>Una nuova opzione &quot;Intervallo di lookback&quot; (intervallo di dati) di sei ore sarà disponibile per tutti gli algoritmi di popolarità (Più venduti/Più venduti) quando [!DNL Target] è l’origine dei dati comportamentali. (Questo intervallo di lookback è *non* disponibile quando [!DNL Adobe Analytics] è l’origine dei dati comportamentali.)</li><li>Se selezionato, i seguenti algoritmi verranno eseguiti approssimativamente ogni tre ore (anziché ogni 12 ore).<ul><li>Più visualizzati</li><li>Più acquistati</li><li>Più visualizzate per categoria</li><li>Più acquistati per categoria</li><li>Visualizzato più da attributo personalizzato (utilizzando la funzione groupBy)</li><li>La maggior parte degli acquisti effettuati dall&#39;attributo personalizzato (utilizzando la funzione groupBy)</li></ul></ul>(TOP-1086) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | I seguenti miglioramenti si applicano agli algoritmi di popolarità di [!DNL Recommendations]:<ul><li>Una nuova opzione “Intervallo di lookback” (intervallo di dati) di sei ore sarà disponibile per tutti gli algoritmi di popolarità (Più visualizzati/Più venduti) quando si utilizza [!DNL Target] come origine dei dati comportamentali. (Questo intervallo di lookback *non* è disponibile quando l’origine dei dati comportamentali è [!DNL Adobe Analytics].)</li><li>Se selezionato, i seguenti algoritmi verranno eseguiti approssimativamente ogni tre ore (anziché ogni 12 ore).<ul><li>Articoli più visualizzati</li><li>Più acquistati</li><li>Più visualizzati per categoria</li><li>Più acquistati per categoria</li><li>Più visualizzati per attributo personalizzato (utilizzando la funzione groupBy)</li><li>Più acquistati per attributo personalizzato (utilizzando la funzione groupBy)</li></ul></ul>(TOP-1086) |
 
 Questa versione include le seguenti correzioni.
 
