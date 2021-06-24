@@ -5,11 +5,10 @@ title: Come posso implementare [!DNL Target] con mbox.js?
 feature: at.js
 role: Developer
 exl-id: 105095d7-8e29-413b-a7f4-e46e2e30e91f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
-source-wordcount: '280'
-ht-degree: 47%
+source-wordcount: '268'
+ht-degree: 65%
 
 ---
 
@@ -17,11 +16,11 @@ ht-degree: 47%
 
 Per utilizzare [!DNL Adobe Target Standard] o [!DNL Target Premium], aggiungi una riga di codice per chiamare mbox.js.
 
-Puoi utilizzare uno dei due riferimenti di libreria: i valori [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js]. [I vantaggi di at.](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) js spiegano le differenze tra le librerie mbox.js e at.js.
+Puoi utilizzare uno dei due riferimenti di libreria: i valori [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js].
 
 >[!IMPORTANT]
 >
->**Terminazione di mbox.js**: A partire dal 31 marzo 2021,  [!DNL Adobe Target] non supporta più la libreria mbox.js . Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto positivo sulle pagine che hanno [!DNL Target] attività in esecuzione servendo il contenuto predefinito.
+>**Terminazione di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e le pagine che hanno attività [!DNL Target] in esecuzione, si troveranno a utilizzare il contenuto predefinito.
 >
 >È consigliabile che tutti i clienti effettuino la migrazione alla versione più recente della nuova [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js prima di tale data, per evitare potenziali problemi con i siti. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
