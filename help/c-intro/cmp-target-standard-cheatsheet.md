@@ -4,10 +4,9 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Panoramica
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '2918'
+source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+workflow-type: tm+mt
+source-wordcount: '2847'
 ht-degree: 100%
 
 ---
@@ -35,14 +34,6 @@ Visita il [forum Target Community](/help/cmp-resources-and-contact-information.m
 **Quali browser supporta Target?**
 
 Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](/help/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md#reference_01B4BF99E7D545A7998773202A2F6100). Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
-
-## Librerie JavaScript di Target (at.js e mbox.js) {#section_C2AC78DFDAD84981A8C84DF20893E340}
-
-**Quale file JavaScript di implementazione devo utilizzare, at.js o mbox.js?**
-
-at.js è la nostra libreria JavaScript più recente e più grande. mbox.js è la nostra versione precedente. Consulta [Vantaggi di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-atjs-implementation.md#benefits) per comprendere le differenze tra le due librerie. Tutti i nuovi clienti devono utilizzare at.js.
-
-Tutti i clienti mbox.js già esistenti devono migrare a at.js. Ulteriori informazioni sui passaggi [per la migrazione da mbox.js a at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-target-atjs-implementation/target-migrate-atjs.md#task_DE55DCE9AC2F49728395665DE1B1E6EA) prima di effettuare la transizione.
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -310,7 +301,7 @@ Abbiamo cercato di rendere i rapporti più intuitivi possibile con caratteristic
 
 Abbiamo una soluzione anche per questo grazie alla [funzionalità Token di risposta](/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4).
 
-## Risoluzione dei problemi {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
+## Risoluzione dei problemi relativi al {#section_6B8B4DC62AE34066A8C55915E9EC6C19}
 
 **Come posso conoscere lo stato di disponibilità di Adobe Target?**
 
