@@ -2,13 +2,12 @@
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
 description: Scopri come utilizzare gli URL di anteprima dell’esperienza per Adobe [!DNL Target] attività Automated Personalization per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività sia attiva.
 title: Come posso utilizzare gli URL di anteprima esperienza nelle attività di Automated Personalization?
-feature: Personalizzazione automatizzata
+feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 568760262622b1097dca9384ed9d1360cfadfb6f
 workflow-type: tm+mt
-source-wordcount: '784'
-ht-degree: 65%
+source-wordcount: '758'
+ht-degree: 67%
 
 ---
 
@@ -19,8 +18,6 @@ Gli URL di anteprima dell’esperienza possono essere generati per le attività 
 >[!NOTE]
 >
 >Gli URL di anteprima delle esperienze per Automated Personalization sono diversi dalla modalità di controllo qualità delle attività. La modalità di controllo qualità delle attività consente di creare URL per altri tipi di attività. Per ulteriori informazioni, consulta [Controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md).
->
->Gli URL di anteprima delle esperienze per le attività di Personalizzazione automatizzata sono disponibili solo quando si utilizza at.js 1.x. Gli URL di anteprima delle esperienze per le attività di Personalizzazione automatizzata non sono attualmente supportati per at.js 2.x.
 
 Utilizza gli URL di anteprima dell’esperienza per condividere esperienze con i membri del team e per eseguire il controllo qualità tra browser e ambienti, senza creare un’attività di controllo qualità separata. Questa funzione è particolarmente utile in caso di siti complessi o se le policy di sicurezza non consentono la visualizzazione del sito in un simulatore.
 
