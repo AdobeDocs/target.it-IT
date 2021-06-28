@@ -4,11 +4,10 @@ description: Scopri come configurare un’attività in Adobe [!DNL Target] to us
 title: Come posso utilizzare i dati di Analytics in Target?
 feature: Analytics for Target (A4T)
 exl-id: 85605ff9-c09a-4a1a-9784-bdacda377e1d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '543'
-ht-degree: 88%
+source-wordcount: '536'
+ht-degree: 80%
 
 ---
 
@@ -30,7 +29,7 @@ Analytics for Target richiede un server di tracciamento per riportare correttame
 
 >[!NOTE]
 >
->Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività, non è necessario specificare un server di tracciamento durante la creazione dell’attività se utilizzi at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 Durante l&#39;impostazione di un&#39;attività dopo aver impostato Analytics come origine per la generazione di rapporti, non è possibile impostare tipi di pubblico per la generazione dei rapporti. I segmenti di Analytics sono disponibili nel rapporto Attività di Target.
 
