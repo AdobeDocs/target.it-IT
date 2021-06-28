@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che a volte si verificano in Adobe
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Compositore esperienza visivo
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: f2088fd0f1b0a46fa07e6069b2d84d63208a2813
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1347'
-ht-degree: 63%
+source-wordcount: '1341'
+ht-degree: 61%
 
 ---
 
@@ -43,7 +43,7 @@ Utilizza una delle seguenti opzioni per garantire che VEC e Compositore esperien
 
 ## [!DNL Target] supporta iframe a più livelli?
 
-Target non supporta gli iframe a più livelli. Se il sito web carica un iframe contenente un iframe secondario, le librerie di Target (at.js e mbox.js) interagiscono solo con l’iframe principale. Le librerie di Target non interagiscono con l’iframe secondario.
+[!DNL Target] non supporta gli iframe a più livelli. Se il sito web carica un iframe con un iframe secondario, at.js interagisce solo con l’iframe principale. [!DNL Target]Le librerie di non interagiscono con l’iframe secondario.
 
 Come soluzione alternativa, puoi aggiungere all’esperienza una pagina con l’URL dell’iframe secondario.
 
