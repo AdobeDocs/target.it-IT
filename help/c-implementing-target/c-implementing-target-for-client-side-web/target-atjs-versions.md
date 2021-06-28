@@ -4,10 +4,10 @@ description: Visualizza i dettagli sulle modifiche apportate in ogni versione de
 title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '4181'
-ht-degree: 88%
+source-wordcount: '4143'
+ht-degree: 89%
 
 ---
 
@@ -26,16 +26,16 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 
 Questa versione di at.js include i miglioramenti e le modifiche seguenti:
 
-* [Supporto ](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) decisionale su dispositivo per at.js.
-* [Supporto dei ](/help/c-activities/c-activity-qa/activity-qa.md) collegamenti di anteprima per le attività di Automated Personalization
+* Supporto di [Decisioning sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) per at.js.
+* Supporto dei [collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) per le attività di Automated Personalization
 
-Questa versione rimuove anche il supporto per Microsoft Internet Explorer 10 e versioni successive.
+A partire da questa versione, non è più supportato Microsoft Internet Explorer 10 o versioni successive.
 
 ## at.js 2.4.1 (23 marzo 2021)
 
 Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema a causa del quale `targetPageParams` veniva incluso nelle richieste mbox. `targetPageParams` deve essere incluso solo nelle  `pageLoad` richieste . (TNT-40247)
+* È stato risolto un problema a causa del quale `targetPageParams` veniva incluso nelle richieste mbox. `targetPageParams` deve essere incluso solo nelle richieste `pageLoad`. (TNT-40247)
 * Ottimizzazione dei globali di finestre e documenti che fanno riferimento nell&#39;estensione [!DNL Adobe Experience Platform Launch]. (TNT-37124)
 
 ## at.js 2.4.0 (14 gennaio 2021)
@@ -406,7 +406,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 
 **Data:** 21 settembre 2016
 
-* È stata aggiunta un’impostazione `optoutEnabled` per abilitare o disabilitare la rinuncia a Device Graph. Se questa impostazione si trova su `true` e il visitatore ha rinunciato al monitoraggio, il browser del visitatore non effettuerà chiamate mbox. Device Graph è attualmente in versione beta. Questa impostazione si trova su `false` come impostazione predefinita ma deve trovarsi su `true` se si sta utilizzando Device Graph (Grafico dispositivo). Un’opzione simile è disponibile anche in mbox.js v.61.
+* È stata aggiunta un’impostazione `optoutEnabled` per abilitare o disabilitare la rinuncia a Device Graph. Se questa impostazione si trova su `true` e il visitatore ha rinunciato al monitoraggio, il browser del visitatore non effettuerà chiamate mbox. Device Graph è attualmente in versione beta. Questa impostazione si trova su `false` come impostazione predefinita ma deve trovarsi su `true` se si sta utilizzando Device Graph (Grafico dispositivo). 
 * È stato aggiunto il supporto di `CustomEvent` per il meccanismo di notifica. In precedenza, il meccanismo di notifica degli eventi at.js non poteva essere utilizzato tramite API DOM standard, come ad esempio `document.addEventListener()`. Ora è possibile utilizzare `document.addEventListener()` per effettuare la sottoscrizione a eventi at.js, come ad esempio eventi di richiesta e di rendering del contenuto.
 * È stato risolto un problema relativo alle offerte create nel Compositore esperienza visivo. Prima di questa versione, Target nascondeva i selettori e li mostrava solo in caso di corrispondenza di tutti i selettori. In at.js 0.9.2 Target mostra i selettori non appena corrispondono.
 
@@ -416,7 +416,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 
 * Fornisce a at.js un timeout per il servizio ID visitatore, indipendente dal timeout proprio del servizio.
 * Corregge un problema in 0.9.0 che influenzava le implementazioni che usavano at.js su alcune pagine e mbox.js su altre.
-* Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+* Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 ## at.js versione 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
 
@@ -451,10 +451,6 @@ Questa è la prima versione ufficiale della libreria [!DNL at.js].
 [!DNL at.js] è una nuova libreria di implementazione per [!DNL Target], progettata sia per le tipiche implementazioni web sia per le applicazioni a pagina singola.
 
 [!DNL at.js] sostituisce [!DNL mbox.js] per le implementazioni di [!DNL Adobe Target].
-
->[!NOTE]
->
->Anche se [!DNL at.js] sostituisce [!DNL mbox.js], mbox.js continuerà a essere supportato. Tuttavia, per la maggior parte delle persone, [!DNL at.js] offre alcuni vantaggi in più rispetto a [!DNL mbox.js]. Questo ti dà il tempo di provare [!DNL at.js] e di cambiarne l’implementazione nelle pagine.
 
 Ad esempio, [!DNL at.js] migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola.
 
