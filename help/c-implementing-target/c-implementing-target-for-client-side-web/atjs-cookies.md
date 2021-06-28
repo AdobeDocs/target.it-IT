@@ -5,10 +5,9 @@ title: Cookie di at.js
 feature: at.js
 role: Developer
 exl-id: 101be093-72fa-4f66-95bd-4b60e584a059
-translation-type: tm+mt
-source-git-commit: 7bcc560c56dab8cf8fc69ff9f8b0f087061c258b
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1827'
+source-wordcount: '1828'
 ht-degree: 96%
 
 ---
@@ -35,7 +34,7 @@ Tuttavia, con at.js 2.x non si utilizza più HTTP GET, ma HTTP POST. Il nuovo me
 
 Pertanto, né i cookie di terze parti, né il tracciamento tra domini diversi sono supportati in at.js 2.0.0.
 
-## at.js 1.*x*: comportamento dei cookie {#at-js-1x-cookie-behavior}
+## Mappatura payload dei parametri at.js 1.*x*: comportamento dei cookie {#at-js-1x-cookie-behavior}
 
 Per di at.js 1.*x*, il comportamento del cookie dipende dal fatto di essere un cookie di prima parte, un cookie di terze parti con un cookie di prima parte oppure un cookie di terze parti da solo.
 
@@ -122,7 +121,7 @@ Nel cookie sono conservati una serie di valori per la gestione dell’esperienza
 | session ID | Un ID univoco per una sessione utente. Per impostazione predefinita, la sua durata è di 30 minuti. |
 | pc ID | Un ID semi-permanente per il browser di un visitatore. Dura 14 giorni. |
 | check | Un semplice valore di test utilizzato per determinare se un visitatore supporta i cookie. Impostato ogni volta che un visitatore richiede una pagina. |
-| disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file mbox.js. Per impostazione predefinita, la sua durata è di 1 ora. |
+| disable | Impostato se il tempo di caricamento del visitatore supera il timeout configurato nel file [!DNL Adobe Experience Platform Web SDK] o at.js . Per impostazione predefinita, la sua durata è di 1 ora. |
 
 ## Impatto su [!DNL Target] per i visitatori di Safari a causa di modifiche nel monitoraggio di Apple WebKit
 
