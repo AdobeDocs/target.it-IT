@@ -4,11 +4,10 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Attività
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-translation-type: ht
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
-workflow-type: ht
-source-wordcount: '1415'
-ht-degree: 100%
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '1268'
+ht-degree: 97%
 
 ---
 
@@ -117,10 +116,6 @@ Per ulteriori informazioni, vedi i video di formazione seguenti:
 
 Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando il debugger di Adobe Experience Cloud](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/target-debugging-atjs.md).
 
-## Se target.js non viene caricato durante la distribuzione {#section_ABBA5EFDFFB749D8BEE172DB1F973058}
-
-Se target.js non viene caricato durante la distribuzione, mbox.js invia al visitatore il cookie “em-disabled”. Questo cookie impedisce alle offerte create tramite il Compositore esperienza visivo di essere visualizzate sul sito. I visitatori con questo cookie non vedono il contenuto del test né vengono conteggiati in tali rapporti di attività. Tutti gli altri contenuti dell’offerta (da campagne in Target Classic per esempio) continuano ad essere caricati. Il cookie ha una durata di 30 minuti dal momento del caricamento non riuscito.
-
 ## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
 La chiamata *`SiteCatalyst: purchase`* non può essere utilizzata per i dati del traffico dell’algoritmo di acquisto. Utilizza al suo posto la chiamata *`orderConfirmPage`*.
@@ -132,12 +127,6 @@ Le attività basate su moduli create con [!DNL Target Standard/Premium] potrebbe
 ## Il codice personalizzato non produce i risultati previsti in Internet Explorer 8. {#section_FAC3651F19144D12A37A3E4F14C06945}
 
 Target non supporta più Internet Explorer 8.
-
-## Il contenuto JavaScript distribuito dalla richiesta globale di [!DNL Target] non viene caricato quando si utilizza mbox.js. {#section_03EC9B9C410B4F52A7FCD81840311709}
-
-Effettua l’aggiornamento a [!DNL mbox.js] versione 58 o successiva.
-
-La versione 58 o successiva di mbox.js esegue il contenuto non-JavaScript per la richiesta globale di [!DNL Target] subito dopo il tag HTML `BODY`. Il contenuto JavaScript all’interno dei tag `<script>` per la richiesta globale di [!DNL Target] viene eseguito dopo che l’evento `DOMContentLoaded` è stato attivato. Questo ordine di consegna dei contenuti assicura che il contenuto JavaScript per la richiesta globale di [!DNL Target] sia consegnato e renderizzato correttamente.
 
 ## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
