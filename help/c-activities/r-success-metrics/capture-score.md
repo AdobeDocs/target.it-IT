@@ -4,11 +4,10 @@ description: Scopri la metrica di coinvolgimento Punteggio di acquisizione in Ad
 title: Qual è la metrica Punteggio di acquisizione?
 feature: Metriche di successo
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '766'
-ht-degree: 51%
+source-wordcount: '765'
+ht-degree: 48%
 
 ---
 
@@ -54,7 +53,7 @@ Si consiglia di assegnare valori nella richiesta [!DNL Target]. Questo consente 
 
 >[!NOTE]
 >
->Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del Punteggio di pagina del sito nel file [!DNL at.js] o [!DNL mbox.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell&#39;account per l&#39;assistenza.
+>Per semplificare la manutenzione, è possibile configurare le assegnazioni di valore del punteggio di pagina del sito nel file [!DNL at.js] con una logica condizionale JavaScript. Questo elimina la necessità di aggiungere altro codice alle tue pagine. Contatta il tuo consulente dell&#39;account per l&#39;assistenza.
 
 È possibile combinare i due metodi, ma questo potrebbe causare un punteggio più alto del previsto. Ad esempio, se assegni un valore di 10 a ciascuna delle tre richieste [!DNL Target] e nessun punteggio a una quarta richiesta, passando il parametro URL `?mboxPageValue=5`, il tuo punteggio di pagina sarà 50, di cui 30 per le tre richieste con i valori assegnati e 5 per ciascuna delle quattro richieste sulla pagina.
 
