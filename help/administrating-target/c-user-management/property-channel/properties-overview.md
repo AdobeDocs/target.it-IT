@@ -5,10 +5,9 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Amministrazione e configurazione
 role: Administrator
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1454'
+source-wordcount: '1452'
 ht-degree: 66%
 
 ---
@@ -82,7 +81,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 >[!NOTE]
 >Per ulteriori informazioni sulla configurazione delle aree di lavoro, guarda il video di formazione sottostante.
 
-### Ottieni l&#39;ID area di lavoro {#workspace-id}
+### Ottieni l&#39;ID dell&#39;area di lavoro {#workspace-id}
 
 Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) devi passare l’ID workspace.
 
@@ -151,7 +150,7 @@ Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessar
 
       Per ulteriori informazioni, consulta [Aggiungi parametri di Target globali](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) nella documentazione *Adobe Experience Platform Launch* .
 
-   * **Tramite la funzione targetPageParams():** inserisci il seguente codice nei  `<head>` tag, sopra il riferimento at.js o mbox.js.
+   * **Tramite la funzione targetPageParams():** inserisci il seguente codice nei  `<head>` tag, sopra il riferimento at.js.
 
       ![](assets/property_token_1.png)
 
