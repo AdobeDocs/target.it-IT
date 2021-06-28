@@ -4,10 +4,9 @@ description: Trova suggerimenti per la risoluzione dei problemi, qualora l’att
 title: Come posso risolvere i problemi relativi alle attività?
 feature: Attività
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
-source-wordcount: '834'
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+workflow-type: tm+mt
+source-wordcount: '780'
 ht-degree: 100%
 
 ---
@@ -104,15 +103,6 @@ Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla ca
 * Interrompi la modifica dinamica della classe o degli elementi di pari livello come descritto sopra.
 
 Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
-
-## Mbox.js estrae tutto il codice successivo dalla sezione head e nella sezione body.
-
-**Convalida:** visualizza l’origine per determinare se una delle dichiarazioni segue il file mbox.js prima del tag di chiusura `</body>`.
-
-**Opzioni:**
-
-* Posiziona mbox.js come ultimo elemento all’interno della sezione `<head>` della pagina.
-* Utilizza div id univoci per gli elementi di primo livello all’interno della sezione body.
 
 ## Altre attività sono in esecuzione sulla stessa pagina.
 
