@@ -5,11 +5,10 @@ title: In che modo [!DNL Target] utilizza TLS per fornire protezione?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: 964a642a-830a-4556-a92a-d300670cd2fa
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1237'
-ht-degree: 59%
+source-wordcount: '1140'
+ht-degree: 55%
 
 ---
 
@@ -37,7 +36,7 @@ Tuttavia, se sei uno dei clienti che utilizzano TLS 1.1 senza supportare TLS 1.2
 
 Anche se consigliamo vivamente a tutti di utilizzare fin da ora TLS 1.2, se sei un nuovo cliente ma *NON* supporti questo protocollo, contatta l’Assistenza clienti informandola che hai bisogno di TLS 1.1 per il Compositore esperienza avanzato. Tuttavia, pianifica di passare a TLS 1.2 perché non sarà più supportato oltre il 1° marzo 2020.
 
-## Consegna attività {#section_46CA5943E4354B259014C2BF340AECD6}
+## Consegna delle attività {#section_46CA5943E4354B259014C2BF340AECD6}
 
 A partire dal 1° marzo 2020 i server di Target non supporteranno più TLS 1.1. In seguito a questo cambiamento, i server di Target non accetteranno più richieste da visitatori con dispositivi o browser Web più datati che non supportano TLS 1.2 (o versioni successive). Di conseguenza, i dispositivi e i browser più vecchi che supportano solo TLS 1.1 (o supportano TLS 1.1 per impostazione predefinita) non riceveranno più il contenuto dell&#39;attività da Adobe Target. Il contenuto predefinito del sito viene eseguito.
 
@@ -90,21 +89,20 @@ Per controllare la versione TLS sul tuo sito web utilizzando Google Chrome:
 
 ## Comportamento previsto con i browser che supportano le versioni TLS inferiori alla 1.2 {#section_B5DA97A34EF248EB927610A5DA71EF2F}
 
-Questa sezione descrive cosa aspettarsi con i browser che supportano le versioni TLS inferiori alla 1.2 solo quando si utilizza un’implementazione at.js o mbox.js. A scopo di confronto, questa sezione descrive anche cosa aspettarsi con i browser che supportano TLS 1.2.
+Questa sezione descrive cosa aspettarsi con i browser che supportano le versioni TLS inferiori alla 1.2 solo quando si utilizza un’implementazione at.js. A scopo di confronto, questa sezione descrive anche cosa aspettarsi con i browser che supportano TLS 1.2.
 
 ### Endpoint centrali
 
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
 | at.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file at.js viene scaricato.</li></ul> |
-| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li></ul>Con TLS 1.2 abilitato:<ul><li>Il file mbox.js viene scaricato.</li></ul> |
 
 ### Endpoint Edge
 
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
 | at.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
-| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li><li>L&#39;utente visualizza un messaggio “Impossibile connettersi in modo sicuro a questa pagina”. Il messaggio spiega che ciò potrebbe essere causato perché il sito utilizza impostazioni di protezione TLS obsolete o non sicure.</li><li>Non vengono visualizzati errori di console.</li><li>Viene servito il contenuto predefinito.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta</li></ul> |
 
 ### Attività con targeting per il pubblico della versione del browser (Internet Explorer, versioni 6, 7 o 8)
 
@@ -114,5 +112,5 @@ Questa sezione descrive cosa aspettarsi con i browser che supportano le versioni
 
 | Implementazione JavaScript di Target | Dettagli |
 |--- |--- |
+| [!DNL Adobe Experience Platform Web SDK] | L’SDK di Platform non è supportato nelle versioni di Internet Explorer precedenti alla versione 10. |
 | at.js | at.js non è supportato nelle versioni di Internet Explorer precedenti alla versione 10. |
-| mbox.js | Con TLS 1.0 o TLS 1.1 abilitato:<ul><li>Viene servito il contenuto predefinito.</li><li>Non viene attivata alcuna richiesta di Target.</li><li>Non viene visualizzato alcun errore di console.</li><li>Utilizzando gli strumenti di sviluppo del browser, nella scheda Rete, vedrai “200 OK”. Ciò significa che la richiesta è riuscita.</li></ul>Con TLS 1.2 abilitato:<ul><li>Viene servito il contenuto dell’offerta.</li></ul> |
