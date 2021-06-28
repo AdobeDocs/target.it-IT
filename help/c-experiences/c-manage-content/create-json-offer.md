@@ -4,11 +4,10 @@ description: Scopri come creare offerte JSON in Adobe [!DNL Target] da utilizzar
 title: Come si creano offerte JSON?
 feature: Esperienze e offerte
 exl-id: 793665a4-4cd6-458f-8225-ba23e503a115
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 54%
+source-wordcount: '403'
+ht-degree: 53%
 
 ---
 
@@ -28,7 +27,6 @@ Quando lavori con le offerte JSON, considera quanto segue:
 * Nel browser, le offerte JSON possono essere recuperate SOLO tramite at.js 1.2.3 (o versione successiva) e utilizzando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md) filtrando le azioni tramite l’azione `setJson`.
 * Le offerte JSON vengono consegnate come oggetti JSON nativi anziché come stringhe. I consumatori di questi oggetti non devono più gestire gli oggetti come stringhe e convertirli in oggetti JSON.
 * Le offerte JSON non vengono applicate automaticamente, a differenza di altre offerte (come le offerte HTML), perché sono offerte non visive. Gli sviluppatori devono scrivere il codice per ottenere l’offerta in modo esplicito utilizzando [getOffer()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffer.md).
-* Le offerte JSON non sono supportate se utilizzi mbox.js.
 
 ## Creare un’offerta JSON {#section_BB9C72D59DEA4EFB97A906AE7569AD7A}
 
@@ -85,7 +83,7 @@ La matrice di azioni avrà questa struttura:
 
 Per estrarre l’offerta JSON è necessario eseguire iterazioni attraverso le azioni e trovare l’azione con l’azione `setJson` , quindi eseguire iterazioni attraverso la matrice del contenuto.
 
-## Caso di utilizzo {#section_85B07907B51A43239C8E3498EF58B1E5}
+## Caso d’uso {#section_85B07907B51A43239C8E3498EF58B1E5}
 
 Supponiamo che la seguente offerta JSON arrivi alla tua pagina web:
 
