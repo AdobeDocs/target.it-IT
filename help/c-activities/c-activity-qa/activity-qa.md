@@ -4,9 +4,9 @@ description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL
 title: Come Faccio A Controllare Le Attività?
 feature: Attività
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '1525'
+source-wordcount: '1523'
 ht-degree: 79%
 
 ---
@@ -74,7 +74,7 @@ Il controllo di qualità delle attività permette di testare completamente le at
    Puoi anche forzare manualmente l’uscita dalla modalità di controllo qualità caricando una pagina del sito con il parametro `at_preview_token` con un valore vuoto (ad esempio, `https://www.mysite.com/?at_preview_token=`).
 
 * Se hai specificato un URL durante la creazione dei [perfezionamenti dell’attività nel Compositore basato su modulo](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) o nelle [opzioni di consegna della pagina nel Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81), l’URL del controllo qualità non funzionerà perché il controllo qualità dell’attività aggiunge parametri all’URL. Per risolvere questo problema, fai clic su URL di controllo qualità per passare al sito, rimuovi dall’URL i parametri aggiunti, quindi carica il nuovo l’URL.
-* Se disponi di at.js 1.*x*, o mbox.js, la modalità di controllo qualità delle attività non sarà persistente se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi è necessario aggiungere i parametri di anteprima a ciascun URL a cui si accede. Lo stesso vale se hai implementato [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
+* Se disponi di at.js 1.*x*, la modalità di controllo qualità delle attività non sarà persistente se utilizzi Safari o un altro browser che blocca i cookie di terze parti. In questi casi è necessario aggiungere i parametri di anteprima a ciascun URL a cui si accede. Lo stesso vale se hai implementato [CNAME](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md).
 * Se un’attività utilizza più tipi di pubblico per le esperienze (ad esempio, se nella stessa attività sono inclusi un sito britannico e uno statunitense), i collegamenti di controllo qualità non vengono generati per le quattro combinazioni (Esperienza A/sito US, Esperienza A/sito UK, Esperienza B/sito US, Esperienza B/sito UK). Vengono creati solo due collegamenti di controllo qualità (Esperienza A ed Esperienza B) e la pagina verrà visualizzata dagli utenti che risultano idonei per il pubblico appropriato. Un visitatore britannico per il controllo qualità non può vedere il sito US.
 * Tutti i parametri e i valori `at_preview` sono già codificati nell’URL. Nella maggior parte dei casi tutto funziona come previsto; tuttavia, alcuni clienti potrebbero usare bilanciatori di carico o server web che tentano di codificare nuovamente i parametri della stringa di query.
 
