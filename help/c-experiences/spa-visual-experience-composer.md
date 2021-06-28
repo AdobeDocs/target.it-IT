@@ -4,10 +4,9 @@ description: Scopri come utilizzare il Compositore esperienza visivo SPA in Adob
 title: Come si utilizza il Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo)?
 feature: Compositore esperienza visivo
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '3700'
+source-wordcount: '3699'
 ht-degree: 92%
 
 ---
@@ -62,9 +61,9 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
 1. Installa at.js 2.x.
 
-   Innanzitutto, dobbiamo installare at.js 2.x. Questa versione di at.js è stata sviluppata pensando alle applicazioni a pagina singola. Le versioni precedenti di at.js e mbox.js non supportano le visualizzazioni di Adobe Target e il Compositore esperienza visivo per applicazioni a pagina singola.
+   Innanzitutto, dobbiamo installare at.js 2.x. Questa versione di at.js è stata sviluppata pensando alle applicazioni a pagina singola. Le versioni precedenti di at.js e non supportano le visualizzazioni di Adobe Target e il Compositore esperienza visivo per applicazioni a pagina singola.
 
-   ![Finestra di dialogo dei dettagli dell’implementazione](/help/c-experiences/assets/imp-200.png)
+   ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/c-experiences/assets/imp-200.png)
 
    Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
 
