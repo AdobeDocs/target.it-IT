@@ -4,11 +4,10 @@ description: Scopri come risolvere i problemi che a volte si verificano in Adobe
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Compositore esperienza visivo
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
 source-wordcount: '800'
-ht-degree: 89%
+ht-degree: 87%
 
 ---
 
@@ -16,14 +15,14 @@ ht-degree: 89%
 
 In determinate condizioni si verificano a volte problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC).
 
-## Quando apro il sito web nel Compositore esperienza visivo, le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo) {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
+## Quando apro il sito web nel Compositore esperienza visivo, le librerie [!DNL Target] non vengono caricate. (Solo Compositore esperienza visivo)  {#section_8A7D3F4AD2CC4C3B823EE9432B97E06F}
 
 Target aggiunge due parametri (`mboxEdit=1` e `mboxDisable=1`) durante l&#39;apertura del sito web nel Compositore esperienza visivo.
 
 Se il sito (specialmente le applicazioni per pagina singola) taglia i nostri parametri o li rimuove mentre navighi da una pagina all&#39;altra (senza un ricaricamento della pagina) la funzionalità di Target sono compromesse e le librerie di Target non vengono caricate. 
 Per evitare questo problema, assicurati di non tagliare o rimuovere questi due parametri.
 
-## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo) {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
+## La pagina non si apre nel Compositore esperienza avanzato, o si carica lentamente. Le attività o le esperienze si caricano lentamente nel Compositore esperienza visivo. (Solo Compositore esperienza visivo)  {#section_71E7601BE9894E3DA3A7FBBB72B6B0C1}
 
 Diversi problemi possono influenzare le prestazioni della pagina nei compositori esperienza di Target. Alcuni problemi comuni includono:
 
@@ -118,8 +117,8 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
 * Hai immesso un URL non valido.
 * Non hai inserito un URL predefinito nella pagina di configurazione dell&#39;account.
 
-Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna mbox.js sul tuo sito web.
+Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna at.js sul tuo sito web.
 
-## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo) {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
+## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
 Durante l&#39;utilizzo della modalità Sfoglia, se accedi a un URL privo di target.js o che contiene un&#39;intestazione non compatibile con i frame, il Compositore esperienza visivo potrebbe non funzionare. A causa di problemi di sicurezza del browser, in Target non è possibile accedere all&#39;URL di destinazione.
