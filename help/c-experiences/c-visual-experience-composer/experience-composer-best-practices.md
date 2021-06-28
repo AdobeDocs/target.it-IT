@@ -1,42 +1,37 @@
 ---
 keywords: compositore esperienza visivo;best practice compositore esperienza visivo;limitazioni compositore esperienza visivo;avvertenze compositore esperienza visivo;procedure ottimali compositore esperienza visivo;vec
-description: Scoprite le best practice per far funzionare le esperienze come previsto quando utilizzate Visual Experience Composer (VEC) in  Adobe Target.
-title: Quali sono le best practice e i limiti di Visual Experience Composer (Compositore esperienza visivo)?
-feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Scopri le best practice per far funzionare le esperienze come previsto quando utilizzi il Compositore esperienza visivo in Adobe Target.
+title: Quali sono le best practice e limitazioni del Compositore esperienza visivo?
+feature: Compositore esperienza visivo
+exl-id: cf51bfec-d7fa-4ec1-a5dc-35edefefd3e4
+source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
 workflow-type: tm+mt
-source-wordcount: '2460'
-ht-degree: 95%
+source-wordcount: '2399'
+ht-degree: 93%
 
 ---
 
-
 # Best practice e limitazioni del Compositore esperienza visivo
 
-Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Sono inoltre disponibili altri suggerimenti e limitazioni da tenere presenti quando si utilizza Visual Experience Composer (VEC) in [!DNL Adobe Target].
+Le best practice seguenti consentono di ottenere più facilmente il funzionamento previsto per le esperienze. Sono inoltre disponibili altri suggerimenti e limitazioni di cui tenere conto quando si utilizza il Compositore esperienza visivo in [!DNL Adobe Target].
 
 Segui queste best practice per evitare che si verifichino problemi imprevisti con le esperienze che progetti.
 
-## Best practice {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
+## Best practice  {#section_86CF28C99CFF40329E4CBAFE4DD78BB4}
 
-**Per mbox.js versione 57 e successive e per at.js, inserisci il riferimento a mbox.js o at.js nella parte superiore della sezione `<head>` della pagina.**
+**Posiziona il riferimento at.js nella parte superiore della  `<head>` sezione della pagina.**
 
-Se utilizzi anche il servizio API visitatore, inserisci il relativo script prima di mbox.js o at.js.
-
-**Per le versioni di mbox.js precedenti alla 57, posiziona il codice mbox.js il più in basso possibile nella sezione `<head>` della pagina.**
-
-Inserisci mbox.js alla fine della sezione `<head>`, senza dichiarazioni aggiuntive successive. In caso contrario, eventuali tag di script o di collegamento verranno spostati nella sezione `<body>`.
+Se utilizzi anche il servizio API visitatore, inserisci lo script API del visitatore sopra at.js.
 
 **Puoi abilitare il Compositore esperienza avanzato a livello di account (abilitato per tutte le attività create nell’account) o a livello della singola attività.**
 
-Per abilitare Enhanced Experience Composer (Compositore esperienza avanzato) a livello di account, fate clic su [!UICONTROL Amministrazione > Visual Experience Composer (Compositore esperienza visivo)], quindi passate alla posizione Attivato.
+Per abilitare il Compositore esperienza avanzato a livello di account, fai clic su [!UICONTROL Amministrazione > Compositore esperienza visivo], quindi attiva il pulsante.
 
 Per abilitare il Compositore esperienza avanzato a livello di attività durante la creazione di un&#39;attività nel Compositore esperienza visivo, fai clic su [!UICONTROL Configura > URL], quindi attiva il pulsante.
 
-**Potete  inserire nell&#39;elenco Consentiti alcuni indirizzi IP se Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) non viene caricato sulle pagine sicure del sito.**
+**Puoi inserire nell&#39;elenco Consentiti alcuni indirizzi IP se il Compositore esperienza visivo avanzato non viene caricato su pagine protette del sito.**
 
-I problemi di caricamento di Enhanced Visual Experience Composer (Compositore esperienza visivo avanzato) possono essere risolti  inserire nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del sito non necessitano di questi indirizzi IP inseriti nell&#39;elenco Consentiti.
+Per risolvere i problemi di caricamento del Compositore esperienza visivo avanzato, inserire nell&#39;elenco Consentiti i seguenti indirizzi IP. Si tratta degli indirizzi IP per il server Adobe utilizzato per il proxy del Compositore esperienza avanzato. Sono necessari solo per modificare le attività. I visitatori del tuo sito non hanno bisogno di questi indirizzi IP inseriti nell&#39;elenco Consentiti.
 
 Stati Uniti: 52.55.99.45, 54.80.158.92, e 54.204.197.253
 
@@ -226,7 +221,7 @@ Se utilizzi il Compositore esperienza avanzato su un sito non attivo, ad esempio
 
 La soluzione consiste nel comprimere la barra dell&#39;esperienza e della pagina facendo clic sulle icone con freccia sinistra nella parte superiore.
 
-## Limitazioni {#section_F33C2EA27F2E417AA036BC199DD6C721}
+## Limitazioni  {#section_F33C2EA27F2E417AA036BC199DD6C721}
 
 **Funzione Sposta**
 
@@ -234,7 +229,7 @@ Un elemento non può essere spostato all&#39;esterno di un contenitore seguito d
 
 **Sulle mbox sono disponibili solo le offerte di sostituzione.**
 
-Azioni come Modifica classe e Ridisponi non sono consentite all&#39;interno di una mbox. Il contenuto di una mbox viene distribuito da mbox.js.
+Azioni come Modifica classe e Ridisponi non sono consentite all&#39;interno di una mbox.
 
 **Evitare di ridisporre e spostare lo stesso elemento.**
 
