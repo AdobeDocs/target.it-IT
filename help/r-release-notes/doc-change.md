@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1569'
+source-wordcount: '1563'
 ht-degree: 90%
 
 ---
@@ -19,7 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | È stata aggiunta una matrice di compatibilità per mostrare quali tipi di attività supportano la modalità Attività quando si utilizzano librerie JavaScript di Target diverse. |
+| 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]</li><li>URL di anteprima</li></ul> |
 | 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative a [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
 | 16 giugno | [[!DNL Target] note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 1.0.0 dell’SDK Python [!DNL Adobe Target]. |
 |  | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Per quanto tempo persistono i dati per i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?</li></ul> |
