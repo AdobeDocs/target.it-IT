@@ -4,9 +4,9 @@ description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL
 title: Come Faccio A Controllare Le Attività?
 feature: Attività
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
+source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
 workflow-type: tm+mt
-source-wordcount: '1785'
+source-wordcount: '1760'
 ht-degree: 36%
 
 ---
@@ -94,7 +94,7 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
 * L&#39;interfaccia utente [!UICONTROL Modalità di controllo qualità di Target] mostra solo il primo URL di un&#39;esperienza in un&#39;attività multipagina. Si presume infatti che si stia creando un test di percorso e che si passi dall’URL1 all’URL2. Tuttavia, se desideri passare all’URL2 indipendentemente, copia tutti i parametri URL forniti per l’URL1 e applicali all’URL2 dopo aver inserito un segno &quot;?&quot;, come nell’URL1.
 
-## Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]
+## Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA] {#compatibility}
 
 [!DNL Target] supporta le seguenti librerie JavaScript:
 
@@ -128,18 +128,13 @@ Per accedere e condividere un URL di anteprima, dalla pagina **[!UICONTROL Panor
 
 La tabella seguente elenca i vari tipi di attività e indica se la funzione URL di anteprima è supportata per ogni libreria o API:
 
-| Tipo di attività | at.js 1.x | at.js 2.x | SDK per web per Platform | API di consegna | API amministratore |
-| --- | --- | --- | --- | --- | --- |
-| [!UICONTROL Test A/B] | Sì | Sì | Sì | Non applicabile | Sì |
-| [!UICONTROL Allocazione automatica] | Sì | Sì | Sì | Non applicabile | Sì |
-| [!UICONTROL Targeting automatico] | Sì | Sì | Sì | Non applicabile | Sì |
-| [!UICONTROL Personalizzazione automatizzata] (AP) | Sì | Sì | No | Non applicabile | Sì |
-| [!UICONTROL Targeting esperienza] (XT) | Sì | Sì | Sì | Non applicabile | Sì |
-| [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì | Non applicabile | Sì |
-| [!UICONTROL Recommendations] | Sì | Sì | Sì | Non applicabile | Sì |
-
-
-
-
-
+| Tipo di attività | at.js 1.x | at.js 2.x | SDK per web per Platform |
+| --- | --- | --- | --- |
+| [!UICONTROL Test A/B] | Sì | Sì | Sì |
+| [!UICONTROL Allocazione automatica] | Sì | Sì | Sì |
+| [!UICONTROL Targeting automatico] | Sì | Sì | Sì |
+| [!UICONTROL Personalizzazione automatizzata] (AP) | Sì | Sì | Sì |
+| [!UICONTROL Targeting esperienza] (XT) | Sì | Sì | Sì |
+| [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì |
+| [!UICONTROL Recommendations] | Sì | Sì | Sì |
 
