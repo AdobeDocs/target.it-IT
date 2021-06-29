@@ -1,13 +1,13 @@
 ---
-keywords: qa;modalità qa; qa attività;url qa;url qa
+keywords: qa;modalità qa; qa attività;url qa;url qa;url di anteprima;url di anteprima
 description: Scopri come utilizzare gli URL di controllo qualità di Adobe [!DNL Target] per eseguire attività di controllo qualità end-to-end in modo semplice, con collegamenti di anteprima che non cambiano mai, targeting di pubblico facoltativo e rapporti di controllo qualità mantenuti separati dai dati delle attività live.
 title: Come Faccio A Controllare Le Attività?
 feature: Attività
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: b8002e951eb524df8c5fa3caed61ed30951ce85a
+source-git-commit: 0d24bcf335980291891e3198a13ec283d1dd325f
 workflow-type: tm+mt
-source-wordcount: '1586'
-ht-degree: 37%
+source-wordcount: '1785'
+ht-degree: 36%
 
 ---
 
@@ -94,7 +94,7 @@ Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in
 
 * L&#39;interfaccia utente [!UICONTROL Modalità di controllo qualità di Target] mostra solo il primo URL di un&#39;esperienza in un&#39;attività multipagina. Si presume infatti che si stia creando un test di percorso e che si passi dall’URL1 all’URL2. Tuttavia, se desideri passare all’URL2 indipendentemente, copia tutti i parametri URL forniti per l’URL1 e applicali all’URL2 dopo aver inserito un segno &quot;?&quot;, come nell’URL1.
 
-## Compatibilità libreria JavaScript di Target
+## Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]
 
 [!DNL Target] supporta le seguenti librerie JavaScript:
 
@@ -113,6 +113,32 @@ La tabella seguente elenca i vari tipi di attività e indica se la modalità [!U
 | [!UICONTROL Targeting esperienza] (XT) | Sì | Sì | Sì |
 | [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì |
 | [!UICONTROL Recommendations] | Sì | Sì | Sì |
+
+## URL di anteprima {#preview}
+
+Gli URL di anteprima dell’esperienza possono essere generati per tutti i tipi di attività [!DNL Target]. Gli URL di anteprima consentono di visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività sia attiva a scopo di anteprima e controllo qualità. Gli URL di anteprima dell’esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
+
+Per informazioni sul funzionamento degli URL di anteprima con le attività [!UICONTROL Automated Personalization] (AP), consulta [Anteprima delle attività Automated Personalization con URL di anteprima esperienza](/help/c-activities/t-automated-personalization/experience-preview.md).
+
+Per accedere e condividere un URL di anteprima, dalla pagina **[!UICONTROL Panoramica]** di un&#39;attività, fai clic sul collegamento **[!UICONTROL Controllo qualità attività]** .
+
+>[!NOTE]
+>
+>Il collegamento [!UICONTROL Controllo di qualità attività] e l&#39;URL di anteprima sono gli stessi per tutte le attività diverse dalle attività di Personalizzazione automatizzata [!DNL Target].
+
+La tabella seguente elenca i vari tipi di attività e indica se la funzione URL di anteprima è supportata per ogni libreria o API:
+
+| Tipo di attività | at.js 1.x | at.js 2.x | SDK per web per Platform | API di consegna | API amministratore |
+| --- | --- | --- | --- | --- | --- |
+| [!UICONTROL Test A/B] | Sì | Sì | Sì | Non applicabile | Sì |
+| [!UICONTROL Allocazione automatica] | Sì | Sì | Sì | Non applicabile | Sì |
+| [!UICONTROL Targeting automatico] | Sì | Sì | Sì | Non applicabile | Sì |
+| [!UICONTROL Personalizzazione automatizzata] (AP) | Sì | Sì | No | Non applicabile | Sì |
+| [!UICONTROL Targeting esperienza] (XT) | Sì | Sì | Sì | Non applicabile | Sì |
+| [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì | Non applicabile | Sì |
+| [!UICONTROL Recommendations] | Sì | Sì | Sì | Non applicabile | Sì |
+
+
 
 
 
