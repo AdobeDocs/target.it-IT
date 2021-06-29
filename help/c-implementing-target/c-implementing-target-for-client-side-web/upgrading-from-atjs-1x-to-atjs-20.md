@@ -5,9 +5,9 @@ title: Come si effettua l’aggiornamento da at.js versione 1.x alla versione 2.
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: a4e2d388266e318276ca38417b7d3f3c210e9ed3
+source-git-commit: 7ea556bf95ec6baba2ede58c09296eadb32498d3
 workflow-type: tm+mt
-source-wordcount: '2765'
+source-wordcount: '2761'
 ht-degree: 89%
 
 ---
@@ -217,7 +217,7 @@ I clienti che usano `mboxCreate()` per il tracciamento delle conversione devono 
 
 Se `mboxCreate()` non viene sosituito con `getOffer()` o `applyOffer()`, la consegna delle offerte potrebbe non riuscire.
 
-### È possibile usare at.js 2.*x* in alcune pagine, e at.js 1.*x* o mbox.js in altre pagine?
+### È possibile usare at.js 2.*x* in alcune pagine, e at.js 1.** xis su altre pagine?
 
 Sì, il profilo del visitatore è mantenuto su più pagine utilizzando diverse versioni e librerie. Il formato del cookie è lo stesso.
 
@@ -248,7 +248,7 @@ In sostanza, il concetto di mbox globale era stato introdotto per comunicare a [
 
 ### Il nome della mbox globale in at.js ha ancora importanza?
 
-I clienti possono specificare un nome per la mbox globale tramite [!UICONTROL Target > Amministrazione > Implementazione > Modifica impostazioni at.js]. I server perimetrali [!DNL Target] utilizzano questa impostazione per tradurre execute > pageload nel nome della mbox globale visualizzato nell’interfaccia utente [!DNL Target]. Questo consente ai clienti di continuare a utilizzare le API lato server, il compositore basato su moduli, gli script di profilo e creare tipi di pubblico utilizzando il nome della mbox globale. Inoltre, consigliamo vivamente di configurare lo stesso nome della mbox globale anche nella pagina [!UICONTROL Amministrazione > Compositore esperienza visivo] , nel caso in cui si disponga di pagine che utilizzano ancora at.js 1.*x* o mbox.js, come mostrato nelle illustrazioni di seguito.
+I clienti possono specificare un nome per la mbox globale tramite [!UICONTROL Target > Amministrazione > Implementazione > Modifica impostazioni at.js]. I server perimetrali [!DNL Target] utilizzano questa impostazione per tradurre execute > pageload nel nome della mbox globale visualizzato nell’interfaccia utente [!DNL Target]. Questo consente ai clienti di continuare a utilizzare le API lato server, il compositore basato su moduli, gli script di profilo e creare tipi di pubblico utilizzando il nome della mbox globale. Inoltre, consigliamo vivamente di configurare lo stesso nome della mbox globale anche nella pagina [!UICONTROL Amministrazione > Compositore esperienza visivo] , nel caso in cui si disponga di pagine che utilizzano ancora at.js 1.*x*, come illustrato nelle illustrazioni seguenti.
 
 ![Modificare la finestra di dialogo at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/assets/modify-atjs.png)
 
