@@ -3,10 +3,9 @@ keywords: compositore esperienza visivo;vec;url predefinito;compositore esperien
 description: Scopri come configurare il Compositore esperienza visivo (VEC) Adobe [!DNL Target] specificandone le impostazioni generali, la configurazione del riquadro di visualizzazione mobile e i selettori CSS.
 title: Come si configura il Compositore esperienza visivo?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '719'
 ht-degree: 50%
