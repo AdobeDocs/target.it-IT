@@ -3,13 +3,12 @@ keywords: aggiungere utente;gestire utente;autorizzazioni utente
 description: Scopri come utilizzare Adobe Admin Console per gestire gli utenti e le loro autorizzazioni e i loro diritti in Adobe Target.
 title: Come si aggiungono utenti e si gestiscono le autorizzazioni?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '913'
-ht-degree: 46%
+ht-degree: 47%
 
 ---
 
@@ -103,7 +102,7 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
    | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
    | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
+   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
 Per ulteriori informazioni, vedi [Gestione delle autorizzazioni del prodotto in Admin Console](https://helpx.adobe.com/enterprise/help/manage-permissions-and-roles.html) nella *guida utente della versione Enterprise*.
 
