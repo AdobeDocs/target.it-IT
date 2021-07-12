@@ -3,13 +3,12 @@ keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodo
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '3018'
-ht-degree: 59%
+ht-degree: 60%
 
 ---
 
@@ -92,7 +91,7 @@ I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devo
 | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
 | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
 | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
+| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
 ### Canale
 
@@ -121,7 +120,7 @@ Ogni ruolo dispone di diversi livelli di autorizzazioni:
 | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
 | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
 | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
+| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
 È importante notare che il ruolo di ogni utente si applica a ogni pagina, proprietà o sito dell&#39;account che include i tag di [!DNL Target], come illustrato di seguito:
 
@@ -253,7 +252,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in [!DNL Target] Premium
 
 * La funzionalità Autorizzazioni Enterprise non è supportata nelle [chiamate API di Adobe I/O](https://developers.adobetarget.com).
 
-## Domande frequenti {#faqs}
+## Domande frequenti  {#faqs}
 
 Le domande frequenti sulle autorizzazioni Enterprise includono:
 
@@ -299,7 +298,7 @@ Finalità di apprendimento:
 
 Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
 
-* Creazione di un’area di lavoro (profilo prodotto)
+* Creare un’area di lavoro (profilo prodotto)
 * Creazione delle proprietà
 * Aggiunta di utenti
 * Aggiornamento dell’implementazione
