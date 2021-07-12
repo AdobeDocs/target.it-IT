@@ -3,9 +3,9 @@ keywords: ambiente;risoluzione dei problemi;procedure consigliate;ubox;reindiriz
 description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare i siti e gli ambienti di pre-produzione in modo da semplificare la gestione e la generazione di rapporti separati.
 title: Cosa sono gli ambienti e come li utilizzo?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: a72b28aa6522a0628c2d04c3b803538b935fd6f6
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 61%
