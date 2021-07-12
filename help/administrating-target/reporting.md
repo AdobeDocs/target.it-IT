@@ -3,10 +3,9 @@ keywords: rapporto;rapporti;rapporto;soluzione experience cloud;fuso orario;fuso
 description: Utilizza [!DNL Target] o Adobe Analytics come origine per la generazione di rapporti, specifica il fuso orario e il formato della valuta predefiniti, aggiungi gli indirizzi IP da escludere dal rapporto e altro ancora.
 title: Come si configura il reporting in Target?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: fd83e60e-64a6-4d0e-909f-480d13bac32b
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 36%
