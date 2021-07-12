@@ -1,17 +1,16 @@
 ---
 keywords: integrazione;ruoli;autorizzazioni utente;admin console
-description: Scoprite come concedere alle  integrazioni Adobe I/O esistenti l'accesso a tutte le aree di lavoro con il ruolo desiderato in  Adobe Target.
-title: Come posso concedere  Adobe I/O Access a Workspace e assegnare ruoli?
-feature: Administration & Configuration
-role: Administrator
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+description: Scopri come concedere alle integrazioni di Adobe I/O esistenti l’accesso a tutte le aree di lavoro con il ruolo desiderato in Adobe Target.
+title: Come si concede l’accesso Adobe I/O alle aree di lavoro e si assegnano i ruoli?
+feature: Amministrazione e configurazione
+role: Admin
+exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 82%
+source-wordcount: '623'
+ht-degree: 84%
 
 ---
-
 
 # ![PREMIUM](/help/assets/premium.png) Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli
 
@@ -23,7 +22,7 @@ Le [!UICONTROL Autorizzazioni Enterprise] consentono ai clienti [!DNL Target] di
 
 La funzione [!UICONTROL Autorizzazioni Enterprise] permette di estendere a più team i programmi di ottimizzazione, in modo facile ed efficace. Questa funzionalità era già disponibile nell’interfaccia utente di [!DNL Target], ma è supportata dalle API amministratore solo dall’inizio del 2019. Nella versione di febbraio 2019 di [!DNL Target], Adobe ha aggiornato le API amministratore per consentire l’utilizzo dell’account di integrazione per accedere a tutte le aree di lavoro create nell’organizzazione. Precedentemente, le API amministratore erano limitate alla sola area di lavoro predefinita. Con l’aggiornamento di febbraio 2019 è possibile accedere a tutte le aree di lavoro con accesso di tipo [!UICONTROL Approvatore].
 
-Con la versione di [!DNL Target] settembre 2019, [!DNL Target] [!UICONTROL Enterprise Permissions] offre ai clienti i seguenti controlli di accesso:
+Con la versione di [!DNL Target] settembre 2019, [!DNL Target] [!UICONTROL Autorizzazioni Enterprise] offre ai clienti i seguenti controlli di accesso:
 
 * Possibilità di scegliere le aree di lavoro a cui applicare l’integrazione
 * Possibilità di applicare un ruolo all’integrazione Adobe I/O: [!UICONTROL Approvatore], [!UICONTROL Editor] o [!UICONTROL Osservatore].
@@ -39,11 +38,11 @@ Questo aggiornamento supporta i casi d’uso seguenti:
 
 >[!NOTE]
 >
->Se non viene eseguita, dopo il rilascio della versione di settembre 2019 di [!DNL Target] verranno attivati i controlli di accesso e potresti essere in grado di accedere solo all’area di lavoro predefinita, qualora questa sia l’impostazione corrente. L’impostazione preventiva delle integrazioni non comporta alcun impatto negativo. Conviene quindi eseguirla quanto prima possibile. A seconda del numero di aree di lavoro nell’organizzazione, questo processo richiede solo pochi clic per aggiungere un’integrazione esistente nelle aree di lavoro con il ruolo desiderato.
+>Se non viene eseguita, dopo il rilascio della versione di settembre 2019 di [!DNL Target] verranno attivati i controlli di accesso e potresti essere in grado di accedere solo all’area di lavoro predefinita, qualora questa sia l’impostazione corrente. L’impostazione preventiva delle integrazioni non comporta alcun impatto negativo. Conviene quindi eseguirla quanto prima possibile. A seconda del numero di aree di lavoro nell’organizzazione, questo processo richiede solo pochi clic per aggiungere un’integrazione esistente alle aree di lavoro con il ruolo desiderato.
 
 **Per consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli:**
 
-1. Aprire il **[Adobe Admin Console](https://adminconsole.adobe.com)**.
+1. Apri **[Adobe Admin Console](https://adminconsole.adobe.com)**.
 
 1. Fai clic sulla scheda **[!UICONTROL Prodotti]**, quindi seleziona il nome del prodotto desiderato.
 
@@ -66,4 +65,4 @@ Questo aggiornamento supporta i casi d’uso seguenti:
    | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
    | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore dispone dell&#39;autorizzazione aggiuntiva per attivare le attività. |
+   | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
