@@ -3,10 +3,9 @@ keywords: risolvere problemi in target;risoluzione problemi target;utenti;gestio
 description: Risoluzione dei problemi di gestione degli utenti in Adobe Target.
 title: Come posso risolvere i problemi con la gestione degli utenti?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 4848b811-04f8-4857-8309-f5d3f9086197
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '86'
 ht-degree: 30%
