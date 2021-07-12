@@ -4,9 +4,9 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Panoramica
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '2847'
+source-wordcount: '2755'
 ht-degree: 100%
 
 ---
@@ -223,12 +223,6 @@ Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 
 Utilizza l’[approccio basato su moduli](/help/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) per creare attività.
-
-**È possibile garantire che la stessa esperienza venga fornita in modo coerente su tutti i dispositivi di un utente?**
-
-Consulta il nostro servizio [Device Co-op](https://experienceleague.adobe.com/docs/device-co-op/using/home.html?lang=it), che consente di collegare in modo deterministico e probabilistico più dispositivi di un utente attraverso la potenza di una cooperativa.
-
-Se fai parte della Cooperativa, un semplice flag nella pagina Obiettivi e impostazioni abilita la funzione. Inoltre, il reporting cambia per riflettere Persone anziché Visitatori. Contatta Adobe per maggiori informazioni su questa funzione in quanto non è disponibile in tutte le regioni.
 
 **Perché non vedo l&#39;offerta/esperienza desiderata e vedo invece altre attività?**
 
