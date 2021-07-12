@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceb98a1f940bb4253aa75639b67f2277f25acbbd
+source-git-commit: 2bc095f487521d2578085abb130d20f22b47f145
 workflow-type: tm+mt
-source-wordcount: '1563'
+source-wordcount: '1575'
 ht-degree: 90%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 11 | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
 | 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]</li><li>URL di anteprima</li></ul> |
 | 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative a [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
 | 16 giugno | [[!DNL Target] note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 1.0.0 dell’SDK Python [!DNL Adobe Target]. |
