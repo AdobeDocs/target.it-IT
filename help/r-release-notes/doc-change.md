@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
+source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
 workflow-type: tm+mt
-source-wordcount: '1643'
-ht-degree: 87%
+source-wordcount: '1663'
+ht-degree: 86%
 
 ---
 
@@ -23,6 +23,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: &quot;Come posso consigliare solo nuovi articoli o video?&quot; |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato nella sezione &quot;Chiamate API Target&quot;. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiornata la descrizione della chiave `consumerId`. |
+|  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Il passaggio 1 è stato aggiornato per indicare che la modifica viene salvata automaticamente dopo la selezione di una nuova mbox. |
 |  | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
 | 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]</li><li>URL di anteprima</li></ul> |
 | 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative a [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
