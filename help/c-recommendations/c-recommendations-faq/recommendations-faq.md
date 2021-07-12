@@ -4,10 +4,10 @@ description: Visualizza un elenco delle domande e risposte più frequenti sulle 
 title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
 feature: Consigli
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 36cfb8886df7912fdedc303749bb020575079856
+source-git-commit: 3149a5606730ed7a95c85f51c2bf3827c30c4340
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 94%
+source-wordcount: '3129'
+ht-degree: 95%
 
 ---
 
@@ -245,21 +245,17 @@ Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi vis
 
 Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!DNL Recommendations Premium]. È possibile utilizzare un algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo potrà creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’interfaccia utente di [!DNL Target Premium]. Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta Attività [[!DNL Recommendations Classic] versus [!DNL Recommendations] in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## Come posso consigliare gli articoli che non hanno più di 60 giorni? {#less-than-60}
+## Come posso consigliare solo nuovi articoli o video? {#recommend-new-articles}
 
-Ad esempio, un cliente [!DNL Target] ha utilizzato il seguente approccio per consigliare gli articoli di meno di 60 giorni.
+Alcuni clienti di media e pubblicazione possono voler garantire che gli elementi consigliati includano solo gli articoli o i video più recenti. Ad esempio, un cliente [!DNL Target] ha utilizzato il seguente approccio per consigliare gli articoli di meno di 60 giorni:
 
-Questo cliente non utilizza un feed di dati. Tutti i dati raccolti sugli articoli provengono dal livello dati e vengono passati a [!DNL Target] nelle visualizzazioni di pagina.
+1. Passa la data di pubblicazione dell’articolo, in formato MMDD, come attributo di entità personalizzato.
+1. Crea uno script di profilo che sia la data odierna meno 60 giorni, anche in formato AAAAMMGG.
+1. Utilizza un filtro di inclusione dinamica nei criteri in modo che `publish date > today’s date minus 60 days`.
 
-Questo cliente ha utilizzato il seguente approccio:
+### Passa la data di pubblicazione come attributo di entità personalizzato:
 
-* È stata passata la data di pubblicazione in formato AAAAMMGG come parametro entità.
-* È stato creato uno script di profilo che corrisponde alla data odierna meno 60 giorni, anche in formato YYMMDD.
-* Utilizzato un filtro di inclusione dinamica nei criteri in modo che `publish date > today’s date minus 60 days`.
-
-Questo cliente ha acquisito i seguenti campi di dati:
-
-| Campo dati | Esempio |
+| Attributo di entità | Esempio |
 | --- | --- |
 | issueDate | 2021218 |
 | lastViewDate | 2021701 |
@@ -267,16 +263,14 @@ Questo cliente ha acquisito i seguenti campi di dati:
 | publishDate | 20210113 |
 | publishDateDisplay | 13 gennaio 2021 |
 
-Questo cliente ha utilizzato la seguente regola di inclusione utilizzando la corrispondenza degli attributi del profilo:
-
-![Regola di inclusione di esempio](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
-
-Questo cliente ha utilizzato il seguente script di profilo:
+### Configura lo script del profilo:
 
 ![Script di profilo di esempio](/help/c-recommendations/c-recommendations-faq/assets/sample-profile-script.png)
 
+### Configura la regola di inclusione:
+
+![Regola di inclusione di esempio](/help/c-recommendations/c-recommendations-faq/assets/sample-inclusion-rule.png)
+
 >[!NOTE]
 >
->Questo esempio può anche essere eseguito con la corrispondenza dei parametri e il passaggio del valore `priorDate60` come parametro mbox.
-
-
+>Questo esempio può essere eseguito anche utilizzando la corrispondenza dei parametri e passando il valore `priorDate60` come parametro mbox.
