@@ -3,10 +3,9 @@ keywords: configurazione;configurazione;configurazione;configurazione;configuraz
 description: Imposta Adobe Target, incluse preferenze, implementazione, gestione utenti, proprietà, configurazione Scene7, gestione host e token di risposta.
 title: Come Posso Amministrare Target?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 89023213-b109-4d07-af4e-4b8da481806d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '96'
 ht-degree: 11%
