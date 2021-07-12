@@ -3,10 +3,9 @@ keywords: incremento ricavi;ricavi;stima incremento ricavi;calcolo ricavi;valore
 description: Stimare l’incremento che si potrebbe ottenere se ogni visitatore visualizza l’esperienza vincente, se le tendenze continuano come hanno durante il test.
 title: Cosa posso stimare l’incremento dei ricavi?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: a3c5e20e-f5d5-4b6f-b169-59d5916584ab
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '527'
 ht-degree: 88%
