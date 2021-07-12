@@ -3,10 +3,9 @@ keywords: aggiungere utente;gestire utente;autorizzazioni utente
 description: Scopri come gestire gli utenti in Adobe [!DNL Target] Standard and manage enterprise properties and permissions in Adobe [!DNL Target] Premium.
 title: Come Si Configura La Gestione Utente?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 3bf0c23c-7382-43d2-af54-734221063872
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '230'
 ht-degree: 20%
