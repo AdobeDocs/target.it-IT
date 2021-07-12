@@ -3,10 +3,9 @@ keywords: host;gruppo host;risoluzione dei problemi;procedure consigliate;ubox;r
 description: Scopri come organizzare i siti web e gli ambienti di preproduzione per una gestione semplice e per rapporti separati in Adobe Target.
 title: Cosa sono gli host e come li utilizzo?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1080'
 ht-degree: 22%
@@ -59,7 +58,7 @@ Dopo aver aggiunto un host all’elenco degli [!UICONTROL host], assicurati che 
 >
 >L&#39;ambiente [!UICONTROL Produzione] non può essere eliminato, anche se lo si rinomina. Si presume che in questo ambiente vengano eseguiti attività e test finali e attivi. L’ambiente predefinito non consente di visualizzare le campagne inattive.
 
-## Ordinare o cercare nell’elenco Host {#section_068B23C9D8224EB78BC3B7C8580251B0}
+## Ordinare o cercare l’elenco Host {#section_068B23C9D8224EB78BC3B7C8580251B0}
 
 Per ordinare l’elenco [!UICONTROL Host], fai clic su un’intestazione di colonna ([!UICONTROL Nome], [!UICONTROL Ambiente] o [!UICONTROL Ultima richiesta]) per ordinare l’elenco in ordine crescente o decrescente.
 
