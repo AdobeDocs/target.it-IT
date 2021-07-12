@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Note sulla versione
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: ef77d22f2f10a9f492fd464f44c67b8edfaf7863
+source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
 workflow-type: tm+mt
-source-wordcount: '31047'
+source-wordcount: '31019'
 ht-degree: 100%
 
 ---
@@ -93,7 +93,6 @@ I codici tra parentesi sono per uso interno di [!DNL Adobe].
 * È stato risolto un problema che causava la visualizzazione del conteggio dei prodotti errato nelle raccolte di [!UICONTROL Consigli]. (TGT-39162)
 * È stato aggiunto il filtro [!UICONTROL Ultimo aggiornamento] a [!UICONTROL Ricerca nel catalogo] per [!UICONTROL Consigli]. (TGT-38340)
 * È stato risolto un problema relativo alla funzione [!UICONTROL Consigli] che causava il blocco della pagina [!UICONTROL Crea sequenza] dopo la modifica del settore verticale. (TGT-38160)
-* È stato risolto un problema che impediva il salvataggio dell’attività se Device Co-op era abilitato e l’utente cambiava l’origine per la generazione di rapporti da [!DNL Target] ad [!DNL Analytics] (A4T). (TGT-38163)
 * È stato risolto un problema che impediva agli utenti di rimuovere un pubblico da un’offerta in un’attività [!UICONTROL Automated Personalization] (AP). (TGT-39058)
 * È stato risolto un problema che causava la visualizzazione errata dell’intervallo di tempo (date di inizio e di fine) nelle schede [!UICONTROL Informazioni pubblico] per alcuni clienti. (TGT-39150)
 * È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco delle attività nell’[!UICONTROL Area di lavoro predefinita]. (TGT-38526)
