@@ -5,11 +5,10 @@ title: Come si utilizza la funzione adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 12f2aa501dc42fd7e31ecfb5ac38283032079c6b
 workflow-type: tm+mt
-source-wordcount: '1242'
-ht-degree: 90%
+source-wordcount: '1293'
+ht-degree: 85%
 
 ---
 
@@ -23,10 +22,10 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 | Chiave | Tipo | Obbligatorio | Descrizione |
 | --- | --- | --- | --- |
-| consumerId | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave si utilizza per generare l’ID dati supplementare utilizzato per l’integrazione A4T. Questa chiave è una stringa univoca per visitatore. |
-| decisioningMethod | Stringa | No | &quot;lato server&quot;, &quot;sul dispositivo&quot;, &quot;ibrido&quot; |
-| richiesta | Oggetto | Sì | Vedi la tabella Richieste di seguito. |
-| timeout | Numero | No | timeout richiesta. Se non specificato, si utilizza il timeout predefinito di at.js. |
+| `consumerId` | Stringa | No | Il valore predefinito è la mbox globale del client, se non specificato. Questa chiave viene utilizzata per generare l’ID dati supplementare (SDID) utilizzato per l’integrazione A4T. Questa chiave è una stringa univoca per visitatore.<br>Quando utilizzi  `getOffers()`, ogni chiamata genera un nuovo SDID. Se sulla stessa pagina sono presenti più richieste mbox e desideri mantenere l’identificatore SDID (in modo che corrisponda all’identificatore SDID di target-global-mbox e all’identificatore SDID di Adobe Analytics), utilizza il parametro `consumerId` .<br>Se  `getOffers()` include tre mbox (denominate &quot;mbox1&quot;, &quot;mbox2&quot; e &quot;mbox3&quot;), includi:  `consumerId: "mbox1, mbox2, mbox3"` nella  `getOffers()` chiamata. |
+| `decisioningMethod` | Stringa | No | &quot;lato server&quot;, &quot;sul dispositivo&quot;, &quot;ibrido&quot; |
+| `request` | Oggetto | Sì | Vedi la tabella Richieste di seguito. |
+| `timeout` | Numero | No | Timeout richiesta. Se non specificato, si utilizza il timeout predefinito di at.js. |
 
 ## Richiesta
 
