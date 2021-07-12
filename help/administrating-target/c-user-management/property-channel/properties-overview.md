@@ -3,9 +3,9 @@ keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gesti
 description: Scopri come aggiungere utenti ad Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiorna la tua implementazione; e specifica ruoli e autorizzazioni.
 title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Amministrazione e configurazione
-role: Administrator
+role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
 workflow-type: tm+mt
 source-wordcount: '1452'
 ht-degree: 66%
