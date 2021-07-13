@@ -3,9 +3,9 @@ description: Cosa significano i vari termini utilizzati in Adobe [!DNL Target] ?
 title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Panoramica
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '2470'
+source-wordcount: '2417'
 ht-degree: 100%
 
 ---
@@ -226,11 +226,7 @@ Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo 
 
 **mbox**
 
-“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
-
-**mbox.js**
-
-Prima di 16.3.1, [!DNL Target] richiedeva una chiamata a [!DNL mbox.js] per creare l’elemento mbox globale necessario affinché [!DNL Adobe Target] distribuisse le attività [!DNL Target] Target, tracciasse i clic e monitorasse la maggior parte delle metriche di successo. Questo file contiene le librerie necessarie per tutte le attività. Non è necessario mantenere diverse versioni del file specifiche per le singole attività. La libreria [!DNL at.js] sostituisce [!DNL mbox.js] per le implementazioni di [!DNL Target].
+“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di mbox è detta *mbox di conversione*.
 
 **parametro mbox**
 
