@@ -4,11 +4,10 @@ description: Scopri come ridurre al minimo gli effetti dei conteggi gonfiati per
 title: Come posso ridurre al minimo i conteggi gonfiati per visite e visitatori in A4T?
 feature: Analytics for Target (A4T)
 exl-id: 308711f7-e630-4f6b-8a6d-a1f36ed7902d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1362'
-ht-degree: 48%
+source-wordcount: '1346'
+ht-degree: 47%
 
 ---
 
@@ -27,9 +26,6 @@ Informazioni che consentono di ridurre al minimo gli effetti dei conteggi gonfia
 >* Adobe Analytics: appMeasurement.js versione 2.1.
 >* Adobe Target: at.js versione 0.9.6 o successiva (eccetto versione 1.1.0 se si utilizza il reindirizzamento con A4T).
 
->
->  
-La libreria mbox.js non supporta le offerte di reindirizzamento con A4T. L’implementazione deve utilizzare at.js.
 
 ## Cosa è cambiato? {#section_9CCF45F5D66D48EBA88F3A178B27D986}
 
@@ -49,7 +45,7 @@ Le cause identificate dei dati parziali includono le seguenti:
 * **Pagine lente:** [!DNL Target] le chiamate sono nella parte superiore della pagina e le  [!DNL Analytics] chiamate solitamente sono nella parte inferiore della pagina. Se la pagina viene caricata lentamente, aumenta la probabilità che un visitatore lasci la pagina dopo che la chiamata [!DNL Target] viene attivata, ma prima della chiamata [!DNL Analytics] . Le pagine lente possono essere particolarmente problematiche sui siti web mobili, dove le connessioni sono spesso più lente.
 * **Errori di pagina:** se ci sono errori JavaScript o altri scenari in cui ciascuno dei punti di contatto non si attiva (servizio Experience Cloud ID, Target e Analytics), risultati di dati parziali.
 * **Offerte di reindirizzamento nell’ [!DNL Target] attività:** per le offerte di reindirizzamento nelle attività che utilizzano A4T, l’implementazione deve soddisfare determinati requisiti minimi. Inoltre, è necessario conoscere informazioni importanti. Per ulteriori informazioni, consulta [Offerte di reindirizzamento: domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_FA9384C2AA9D41EDBCE263FFFD1D9B58).
-* **Versioni precedenti delle librerie:** nell’ultimo anno Adobe ha apportato diversi miglioramenti alle librerie JavaScript (  [!DNL appMeasurement.js],  `at.js/mbox.js` e  `visitorAPI.js`) per garantire che i dati vengano inviati nel modo più efficiente possibile. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
+* **Versioni precedenti delle librerie:** nell’ultimo anno Adobe ha apportato diversi miglioramenti alle librerie JavaScript (  [!DNL appMeasurement.js],  `at.js` e  `visitorAPI.js`) per garantire che i dati vengano inviati nel modo più efficiente possibile. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md#concept_046BC89C03044417A30B63CE34C22543).
 
 ## Quali sono le best practice per ridurre i dati parziali? {#section_065C38501527451C8058278054A1818D}
 
@@ -58,7 +54,7 @@ Esamina i seguenti passaggi per ridurre la raccolta parziale dei dati:
 | Passaggio | Attività |
 | --- | --- |
 | ![Passaggio 1](assets/step1_icon.png) | Assicurati che la suite di rapporti selezionata in [!DNL Target] sia la stessa di quella sulle pagine in cui viene presentata l&#39;attività. |
-| ![Passaggio 2](assets/step2_icon.png) | Assicurati che le librerie visitorAPI.js, appMeasurement.js, at.js / mbox.js siano in versioni compatibili con A4T. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
+| ![Passaggio 2](assets/step2_icon.png) | Assicurati che le librerie visitorAPI.js, appMeasurement.js e at.js siano in versioni compatibili con A4T. Per ulteriori informazioni sui requisiti di implementazione, consulta [Prima di implementare](/help/c-integrating-target-with-mac/a4t/before-implement.md). |
 | ![Passaggio 3](assets/step3_icon.png) | Assicurati che l’identificatore SDID sia impostato su tutte le chiamate [!DNL Target] e [!DNL Analytics] che lasciano la pagina e che corrispondano.<br/>Utilizza un analizzatore di rete o uno strumento di debug per garantire che il  `mboxMCSDID` parametro sulle  [!DNL Target] chiamate corrisponda al parametro SDID nella  [!DNL Analytics] chiamata . |
 | ![Passaggio 4](assets/step4_icon.png) | Verifica che le librerie di implementazione nei tuoi siti vengano caricate nell&#39;ordine corretto. Per ulteriori informazioni, consulta [Implementazione di Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
@@ -99,6 +95,6 @@ Quando si crea la suite di rapporti virtuale, specificare la seguente configuraz
 
 Per ridurre al minimo i risultati orfani, è possibile creare una [suite di rapporti virtuale](https://experienceleague.adobe.com/docs/analytics/components/virtual-report-suites/vrs-workflow/vrs-create.html) che escluda tali risultati, come spiegato in precedenza.
 
-## Che cosa significa questo per i rapporti di [!DNL Target]? {#section_AAD354C722BE46D4875507F0FCBA5E36}
+## Che cosa significa questo per i rapporti di [!DNL Target]?  {#section_AAD354C722BE46D4875507F0FCBA5E36}
 
 Una volta che si verifica questa modifica, potresti notare una diminuzione dei nuovi visitatori e delle visite ai test live perché [!DNL Adobe] non elabora i dati parziali in arrivo. Le conversioni e i risultati di altre metriche [!DNL Analytics] non cambieranno.
