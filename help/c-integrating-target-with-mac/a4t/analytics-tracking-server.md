@@ -1,26 +1,25 @@
 ---
 keywords: server di tracciamento di analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione rapporti;strumenti per sviluppatori
-description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for [!DNL Target] (A4T) se utilizzi una versione precedente di at.js o mbox.js. '
+description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics for [!DNL Target] (A4T) se utilizzi una versione precedente di at.js. '
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 20%
+source-wordcount: '693'
+ht-degree: 19%
 
 ---
 
 # Utilizzare un server di tracciamento di Analytics
 
-Se utilizzi una versione precedente di at.js o mbox.js, devi specificare un server di tracciamento di Analytics per le attività che utilizzano [!DNL Adobe Analytics] per [!DNL Adobe Target] (A4T).
+Se utilizzi una versione precedente di at.js, devi specificare un server di tracciamento di Analytics per le attività che utilizzano [!DNL Adobe Analytics] per [!DNL Adobe Target] (A4T).
 
 >[!NOTE]
 >
->Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza mbox.js versione 61 (o successiva) o at.js versione 0.9.1 (o successiva). La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 >
->Il team [!DNL Target] supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+>Il team [!DNL Target] supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli della versione at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 Per garantire che i dati da [!DNL Target] vadano nella posizione corretta in [!DNL Analytics], A4T richiede l’invio di un server di tracciamento Analytics in tutte le chiamate a Modstats da [!DNL Target]. Per le implementazioni che utilizzano più server di tracciamento, utilizza [!DNL Adobe Experience Platform Debugger] o gli strumenti per sviluppatori del browser per determinare il server di tracciamento corretto per l&#39;attività.
 
