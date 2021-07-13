@@ -4,16 +4,28 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb0a62ecc5609e7b8ef5f6a4fb5a94f8ba025fec
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 86%
+source-wordcount: '1803'
+ht-degree: 83%
 
 ---
 
 # Modifiche alla documentazione
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
+
+## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 giugno 2021)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione del ROI significativo, delle informazioni e dei risparmi di tempo dell’integrazione di Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Interruzione del caffè della comunità Q&amp;A da tenersi mercoledì 21 luglio 2021 alle 8.00 (PDT, GMT-7).</li></ul> |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: &quot;Come posso consigliare solo nuovi articoli o video?&quot; |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato nella sezione &quot;Chiamate API Target&quot;. |
+|  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiornata la descrizione della chiave `consumerId`. |
+|  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Il passaggio 1 è stato aggiornato per indicare che la modifica viene salvata automaticamente dopo la selezione di una nuova mbox. |
+|  | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
+| 30 giugno | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.5.1 (8 giugno 2021)
 
