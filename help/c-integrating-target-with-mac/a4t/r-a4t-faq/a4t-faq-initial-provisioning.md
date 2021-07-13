@@ -4,11 +4,10 @@ description: Trova le risposte alle domande più frequenti sul provisioning di A
 title: Dove posso trovare informazioni sul provisioning iniziale di A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4b098444-3e5b-45e3-b635-1857c2c8d183
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '476'
-ht-degree: 66%
+source-wordcount: '473'
+ht-degree: 63%
 
 ---
 
@@ -20,7 +19,7 @@ Questo argomento contiene le risposte alle domande più frequenti sul provisioni
 
 Per implementare un caso di utilizzo A4T di base con più pagine:
 
-* Implementa le librerie JavaScript sia per Target (at.js o mbox.js) che per Analytics sull’URL/pagina di destinazione dell’attività. L’implementazione di entrambe le soluzioni unisce i dati di Target con quelli di Analytics per ogni visitatore. Questi dati rimangono in Analytics finché non raggiungeranno la scadenza predefinita impostata su 90 giorni.
+* Implementa le librerie JavaScript sia per Target che per Analytics sull’URL/pagina di destinazione dell’attività. L’implementazione di entrambe le soluzioni unisce i dati di Target con quelli di Analytics per ogni visitatore. Questi dati rimangono in Analytics finché non raggiungeranno la scadenza predefinita impostata su 90 giorni.
 
 * Sulle pagine rimanenti del sito, dove saranno tracciate solo le metriche Analytics, implementa Analytics. Non è necessario implementare Target sulle pagine in questione. Le metriche Analytics acquisite in queste pagine vengono automaticamente legate all’attività Target per la quale l’utente si è inizialmente qualificato, in base alle informazioni di Target collegate al visitatore del passaggio precedente.
 
@@ -40,11 +39,11 @@ Controlla quanto segue se si verifica uno di questi problemi:
 * Alcuni clienti utilizzano più accessi aziendali di Analytics nella stessa società di Experienci Cloud. Se utilizzi più accessi, assicurati che l’ultima società Analytics a cui hai effettuato l’accesso sia quella collegata all’account Target per l’integrazione.
 * Se sei stato connesso a Experience Cloud per diverse ore, la sessione di Analytics potrebbe essere scaduta. Disconnettiti, accedi di nuovo e riprova.
 
-## Perché non vedo le opzioni di Analytics in Target?  {#section_EDD996AFB08B4DB196DD934BE55BF48D}
+## Perché non vedo le opzioni di Analytics in Target? {#section_EDD996AFB08B4DB196DD934BE55BF48D}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” Sopra. La causa principale di questo problema è la stessa.
 
-## Perché non vedo i rapporti A4T in Analytics?  {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
+## Perché non vedo i rapporti A4T in Analytics? {#section_FEB41E7B7E4F4F78897E4D9F021DEA59}
 
 Consulta “Perché le suite di rapporti non vengono caricate?” qui sopra. La causa principale di questo problema è la stessa.
 
