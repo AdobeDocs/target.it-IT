@@ -4,10 +4,10 @@ description: Trova le risposte alle domande sull'utilizzo delle offerte di reind
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: ea5a451e71f390ddacc6ccea583112dd831184dc
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1341'
-ht-degree: 63%
+source-wordcount: '1298'
+ht-degree: 62%
 
 ---
 
@@ -31,8 +31,6 @@ L’implementazione deve soddisfare i seguenti requisiti minimi:
 * Adobe Analytics: [!DNL appMeasurement.js] versione 2.1.
 * Adobe Target: [!DNL at.js] versione 1.6.2 o successiva.
 
-   La libreria [!DNL mbox.js] non supporta le offerte di reindirizzamento con A4T. L’implementazione deve utilizzare [!DNL at.js].
-
 Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindirizzamento sia nella pagina a cui il visitatore viene reindirizzato.
 
 ## Perché a volte sono presenti discrepanze di dati tra A4T e Analytics?
@@ -50,10 +48,6 @@ Si consiglia di utilizzare il compositore basato su moduli per creare un’attiv
 Potrebbe essere utile usare offerte di reindirizzamento per tutte le esperienze dell’attività, inclusa quella predefinita (esperienza di controllo), ad esempio, per inserire le stesse condizioni in tutte le esperienze. Supponiamo che sia stata impostata un’offerta di reindirizzamento per tutte le esperienze eccetto quella predefinita: la velocità dell’esperienza priva di offerta di reindirizzamento sarà avvantaggiata. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio a scopo di test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio a scopo di personalizzazione. Dopo aver determinato l’esperienza “vincitrice”, rimuovi il reindirizzamento per migliorare le prestazioni di caricamento della pagina.
 
 Per ulteriori informazioni su questo problema, consulta le informazioni sulle “Offerte di reindirizzamento” nella tabella [Problemi noti](/help/r-release-notes/known-issues-resolved-issues.md#redirect).
-
-## Posso usare le offerte di reindirizzamento con A4T se utilizzo la libreria JavaScript mbox.js? {#section_D2A8B182B7254D61A8BB2BCBA0C0F64A}
-
-La libreria [!DNL mbox.js] non supporta le offerte di reindirizzamento con A4T. L’implementazione deve utilizzare [!DNL at.js].
 
 ## Il Compositore esperienza visivo e il Compositore esperienza basato su moduli sono entrambi supportati? {#section_FDA26FE7909B48539DA770559E687677}
 
