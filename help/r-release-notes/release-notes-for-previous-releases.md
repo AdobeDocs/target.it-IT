@@ -4,10 +4,10 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Note sulla versione
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 5f678604a768bb8587cd465676e24d544d2ad67c
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '31019'
-ht-degree: 100%
+source-wordcount: '31324'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,33 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2021
+
+### Python SDK 1.0.0 (16 giugno 2021)
+
+È ora disponibile il nuovo [!DNL Adobe Target] SDK Python con funzionalità di decisione sul dispositivo. Questa nuova aggiunta rafforza la suite [!DNL Target] di SDK lato server. Questi SDK ti aiutano a integrare con [!DNL Target] e a velocizzare il tuo tempo di valutazione nella lingua scelta. Le integrazioni lato server stanno diventando una scelta popolare dato che il mercato si sta spostando verso un mondo senza cookie in cui i dati di prime parti sono preziosi. Gli SDK di Target sono disponibili nei linguaggi di programmazione più popolari del mercato (Python, Java, JavaScript, C# / .Net).
+
+Per ulteriori informazioni, consulta la [documentazione Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) nella [guida SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
+
+### Target Standard/Premium 21.5.1 (7 giugno 2021)
+
+Questa versione include i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| ![Badge Premium](/help/assets/premium.png) API [!DNL Recommendations] per [!UICONTROL Ricerca catalogo] | Cerca nel catalogo di prodotti e contenuti [!DNL Recommendations] a livello di programmazione tramite API per identificare gli elementi che corrispondono a un criterio di ricerca e semplificare l’amministrazione del catalogo.<br>**Limitazioni e note**:<ul><li>La ricerca nel catalogo tramite API non è supportata per gli ambienti con più di 2.000.000 elementi.</li><li>I risultati della ricerca nel catalogo tramite API vengono aggiornati più rapidamente dei risultati della ricerca nel catalogo tramite l’interfaccia utente di [!DNL Target]. La ricerca nel catalogo nell’interfaccia utente di [!DNL Target] può richiedere tempo aggiuntivo per riflettere i risultati più recenti.</li></ul>Per ulteriori informazioni, consulta [Ricerca di entità](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) nella guida delle API di *[!DNL Adobe Target][!DNL Recommendations]*. |
+
+Questa versione di manutenzione contiene le seguenti correzioni.
+
+* È stato risolto un problema che causava la modifica dell&#39;area di lavoro predefinita in un&#39;altra area di lavoro durante l&#39;aggiornamento della pagina [!UICONTROL Audiences] . (TGT-38871)
+* È stato risolto un problema in [!UICONTROL Amministrazione] > [!UICONTROL Implementazione] che a volte causava un messaggio di errore che diceva: &quot;La mbox globale potrebbe non essere sincronizzata. Prova a salvarlo di nuovo.&quot;
+
+### ![Badge Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versione 2.5.0 (1° giugno 2021)
+
+Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti elementi:
+
+| Funzione | Dettagli |
+| --- | --- |
+| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js versione 2.5.0 (13 maggio 2021)
 
