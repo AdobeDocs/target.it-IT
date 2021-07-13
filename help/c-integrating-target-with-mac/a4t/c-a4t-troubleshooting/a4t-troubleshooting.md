@@ -4,11 +4,10 @@ description: Scopri i problemi comuni riscontrati dai clienti durante l’utiliz
 title: Come posso risolvere i problemi relativi all’integrazione di Analytics e  [!DNL Target] A4T?
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
 workflow-type: tm+mt
-source-wordcount: '1000'
-ht-degree: 42%
+source-wordcount: '992'
+ht-degree: 39%
 
 ---
 
@@ -16,7 +15,7 @@ ht-degree: 42%
 
 Questo argomento tratta alcuni problemi comuni che sono stati riscontrati durante l’utilizzo di [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T).
 
-## Le attività non mostrano dati in Analytics, ma sono elencate come “non specificato”.{#unspecified}
+## Le attività non mostrano dati in Analytics, ma sono elencate come “non specificato”. {#unspecified}
 
 Ci sono diversi motivi per cui i dati possono verificarsi come &quot;non specificato&quot;:
 
@@ -58,15 +57,15 @@ Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite
 
 I dettagli dell’incremento e dell’affidabilità di Target non sono disponibili in Analytics. Sono, tuttavia, disponibili nei rapporti di Target.
 
-## Le attività non vengono visualizzate nei rapporti di Analytics.  {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
+## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
 Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta  [Utilizzo di un ](/help/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) server di tracciamento di Analytics per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
 >[!NOTE]
 >
->Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza mbox.js versione 61 (o successiva) o at.js versione 0.9.1 (o successiva). La libreria mbox.js o at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
+>Non è necessario specificare un server di tracciamento durante la creazione dell’attività se si utilizza at.js versione 0.9.1 (o successiva). La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
-## I miei segmenti di Analytics non compaiono in Target.  {#section_DEE87F1557834F448E99381D3D02EEEF}
+## I miei segmenti di Analytics non compaiono in Target. {#section_DEE87F1557834F448E99381D3D02EEEF}
 
 Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a creare attività A4T:
 
@@ -74,7 +73,7 @@ Assicurati di disporre delle autorizzazioni necessarie prima di iniziare a crear
 * È membro di uno o più gruppi di Experienci Cloud che hanno accesso ad Analytics e Target.
 * Verifica che Analytics e Target siano visualizzati nella sezione App marketing del menu di navigazione di sinistra.
 
-## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti.  {#section_B5C3D56EF0344407AE67ABEB93037F5A}
+## Le metriche per percentuale di mancato recapito, mancato recapito e uscite sembrano positive nei rapporti. {#section_B5C3D56EF0344407AE67ABEB93037F5A}
 
 Queste metriche che appaiono positive nei rapporti sono un problema noto.
 
@@ -88,7 +87,7 @@ Se utilizzi più origini di reporting, le suite di rapporti devono essere presen
 
 Se la suite di rapporti che stai cercando non viene ancora visualizzata, contatta l’ [Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per abilitarla.
 
-## Non trovo nei rapporti la quantità di dati che mi aspettavo.  {#section_75002584FA63456D8D9086172925DD8D}
+## Non trovo nei rapporti la quantità di dati che mi aspettavo. {#section_75002584FA63456D8D9086172925DD8D}
 
 Esamina l’implementazione, in particolare nelle pagine in cui i visitatori possono qualificarsi per le esperienze, e assicurati che gli ID dei dati supplementari corrispondano alle chiamate di [!DNL Target] e [!DNL Analytics]. 
 
@@ -101,6 +100,6 @@ Se non hai installato il debugger, consulta [Introduzione al debugger Adobe Expe
 
 ![Strumento di debug](/help/c-integrating-target-with-mac/a4t/assets/debugger.png)
 
-Se nella chiamata di [!DNL Target] non è presente alcun ID di dati supplementare, verifica che il file [!DNL VisitorAPI.js] sia stato caricato prima di [!DNL at.js] o [!DNL mbox.js]. Se nella chiamata di [!DNL Analytics] non è presente alcun ID di dati supplementare, verifica che la chiamata di [!DNL Target] venga attivata prima della chiamata di [!DNL Analytics].
+Se nella chiamata [!DNL Target] non è presente alcun ID di dati supplementare, verifica che il file [!DNL VisitorAPI.js] sia caricato prima di [!DNL at.js]. Se nella chiamata di [!DNL Analytics] non è presente alcun ID di dati supplementare, verifica che la chiamata di [!DNL Target] venga attivata prima della chiamata di [!DNL Analytics].
 
 Per ulteriori informazioni, consulta [Implementazione di Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#concept_CE78750AC2A4487D8ACD9369B3EAC85A) o contatta l’[Assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
