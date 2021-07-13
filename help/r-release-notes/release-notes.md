@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Note sulla versione
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: bdf8fdc0c7d92cb59270518861693ec22eb596f2
+source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
-source-wordcount: '719'
-ht-degree: 76%
+source-wordcount: '661'
+ht-degree: 70%
 
 ---
 
@@ -23,24 +23,20 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021)
+
+Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici tra parentesi sono per uso interno di [!DNL Adobe].
+
+| Funzione | Dettagli |
+| --- | --- |
+| Analytics for Target (A4T) | Facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; sulla pagina [!UICONTROL Rapporti] da un&#39;attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), [!DNL Analysis Workspace] viene ora aperto. In precedenza, il collegamento apriva il rapporto [!DNL Analytics] . (TGT-36959) |
+| ![Premium](/help/assets/premium.png) [!DNL Recommendations] | I seguenti miglioramenti si applicano agli algoritmi di popolarità di [!DNL Recommendations]:<ul><li>È disponibile una nuova opzione &quot;intervallo di lookback&quot; (intervallo di dati) di sei ore per tutti gli algoritmi di popolarità (Più venduti/Più venduti) quando [!DNL Target] è l’origine dei dati comportamentali. (Questo intervallo di lookback *non* è disponibile quando l’origine dei dati comportamentali è [!DNL Adobe Analytics].)</li><li>Quando è selezionata questa opzione, i seguenti algoritmi vengono eseguiti approssimativamente ogni tre ore (anziché ogni 12 ore).<ul><li>Articoli più visualizzati</li><li>Più acquistati</li><li>Più visualizzati per categoria</li><li>Più acquistati per categoria</li><li>Più visualizzati per attributo personalizzato (utilizzando la funzione groupBy)</li><li>Più acquistati per attributo personalizzato (utilizzando la funzione groupBy)</li></ul></ul>Data di rilascio da annunciare. (TOP-1086) |
+
 ## Python SDK 1.0.0 (16 giugno 2021)
 
 È ora disponibile il nuovo [!DNL Adobe Target] SDK Python con funzionalità di decisione sul dispositivo. Questa nuova aggiunta rafforza la suite [!DNL Target] di SDK lato server. Questi SDK ti aiutano a integrare con [!DNL Target] e a velocizzare il tuo tempo di valutazione nella lingua scelta. Le integrazioni lato server stanno diventando una scelta popolare dato che il mercato si sta spostando verso un mondo senza cookie in cui i dati di prime parti sono preziosi. Gli SDK di Target sono disponibili nei linguaggi di programmazione più popolari del mercato (Python, Java, JavaScript, C# / .Net).
 
 Per ulteriori informazioni, consulta la [documentazione Python SDK](https://adobetarget-sdks.gitbook.io/docs/sdk-reference-guides/python-sdk) nella [guida SDK Adobe Target](https://adobetarget-sdks.gitbook.io/docs/).
-
-## Target Standard/Premium 21.5.1 (7 giugno 2021)
-
-Questa versione include i seguenti miglioramenti:
-
-| Funzione | Dettagli |
-| --- | --- |
-| ![Badge Premium](/help/assets/premium.png) API [!DNL Recommendations] per [!UICONTROL Ricerca catalogo] | Cerca nel catalogo di prodotti e contenuti [!DNL Recommendations] a livello di programmazione tramite API per identificare gli elementi che corrispondono a un criterio di ricerca e semplificare l’amministrazione del catalogo.<br>**Limitazioni e note**:<ul><li>La ricerca nel catalogo tramite API non è supportata per gli ambienti con più di 2.000.000 elementi.</li><li>I risultati della ricerca nel catalogo tramite API vengono aggiornati più rapidamente dei risultati della ricerca nel catalogo tramite l’interfaccia utente di [!DNL Target]. La ricerca nel catalogo nell’interfaccia utente di [!DNL Target] può richiedere tempo aggiuntivo per riflettere i risultati più recenti.</li></ul>Per ulteriori informazioni, consulta [Ricerca di entità](http://developers.adobetarget.com/api/recommendations/#tag/Searching-Entities) nella guida delle API di *[!DNL Adobe Target][!DNL Recommendations]*. |
-
-Questa versione di manutenzione contiene le seguenti correzioni.
-
-* È stato risolto un problema che causava la modifica dell&#39;area di lavoro predefinita in un&#39;altra area di lavoro durante l&#39;aggiornamento della pagina [!UICONTROL Audiences] . (TGT-38871)
-* È stato risolto un problema in [!UICONTROL Amministrazione] > [!UICONTROL Implementazione] che a volte causava un messaggio di errore che diceva: &quot;La mbox globale potrebbe non essere sincronizzata. Prova a salvarlo di nuovo.&quot;
 
 ## ![Badge Adobe Experience Platform Web SDK](/help/assets/platform.png) [!DNL Adobe Experience Platform Web SDK] versione 2.5.0 (1° giugno 2021)
 
@@ -49,15 +45,6 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 | Funzione | Dettagli |
 | --- | --- |
 | Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
-
-## at.js versione 2.5.0 (13 maggio 2021)
-
-Questa versione di at.js include i miglioramenti e le modifiche seguenti:
-
-* Supporto di [Decisioning sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md) per at.js.
-* Supporto dei [collegamenti di anteprima](/help/c-activities/c-activity-qa/activity-qa.md) per le attività di Automated Personalization
-
-Questa versione rimuove anche il supporto per Microsoft Internet Explorer 10, Internet Explorer 11 e tutte le versioni precedenti. Microsoft Edge continua a essere supportato in at.js 2.5.0 e versioni successive.
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
