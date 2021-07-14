@@ -5,9 +5,9 @@ title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Panoramica
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -109,7 +109,7 @@ Molti esperti di marketing lanciano programmi di ottimizzazione per la segmentaz
 * Qual è il tasso di conversione per la pagina?
 * Per quanto tempo si prevede che sarà necessario eseguire il test prima di poterlo chiamare completo?
 
-**Suggerimento utile**: utilizza il [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) di Target per determinare le dimensioni del campione necessarie per il successo del test.
+**Suggerimento utile**: utilizza il [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) di Target per determinare le dimensioni del campione necessarie per il successo del test.
 
 ## Suggerimento 12: progetta test più semplici per assicurarti di poterli creare e implementare.
 
