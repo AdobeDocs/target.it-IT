@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;SEO (Search Engine Optimization);SEO (Search Engine Optimization);seo;cluster edge, cluster centrali;at.js;mbox.js;
-description: Scopri come utilizzare librerie JavaScript di Adobe [!DNL Target] works, including information about the [!DNL Target] at.js e Experience Platform Web SDK), centri dati di Adobe e test SEO.
+description: Scopri come funzionano in Adobe  [!DNL Target] works, including information about the [!DNL Target]  le librerie JavaScript (at.js ed Experience Platform Web SDK), i data center di Adobe e i test SEO (Search Engine Optimization).
 title: Come funziona  [!DNL Target] ?
 feature: Panoramica
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
 workflow-type: tm+mt
 source-wordcount: '2532'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Scopri come funziona [!DNL Adobe Target], comprese informazioni su [!DNL Adobe E
 
 [!DNL Target] si integra con i siti web utilizzando [!DNL Experience Platform Web SDK] o le librerie JavaScript:
 
-* **Adobe Experience Platform Web SDK:** l&#39; [Experience Platform Web ](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) SDK è una nuova libreria JavaScript lato client. Experience Platform Web SDK consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi nel [!DNL Experience Cloud] (incluso [!DNL Target]) tramite [!DNL Experience Platform] Edge Network. Adobe consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **Adobe Experience Platform Web SDK:** [Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) è una nuova libreria JavaScript lato client. AEP Web SDK consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. Adobe consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
 * **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. Adobe consiglia a tutti i clienti che utilizzano at.js di aggiornare le implementazioni alla versione [più recente di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A).
 * **mbox.js:** la libreria mbox.js è la libreria di implementazione legacy per [!DNL Target]. La libreria mbox.js non è più supportata dopo il 31 marzo 2021.
 
@@ -51,7 +51,7 @@ Consulta [Creare un test A/B](/help/c-activities/t-test-ab/t-test-create-ab/test
 
 ### [!UICONTROL Allocazione automatica]
 
-[!UICONTROL L’allocazione automatica identifica un vincitore tra due o più esperienze. ] [!UICONTROL L’allocazione] automatica ridistribuisce automaticamente più traffico per l’esperienza vincente, il che consente di aumentare le conversioni mentre il test continua a essere eseguito e ad apprendere.
+[!UICONTROL L’allocazione automatica] identifica un vincitore tra due o più esperienze. [!UICONTROL L’allocazione] automatica ridistribuisce automaticamente più traffico per l’esperienza vincente, il che consente di aumentare le conversioni mentre il test continua a essere eseguito e ad apprendere.
 
 Per ulteriori informazioni, consulta [[!UICONTROL Allocazione automatica]](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4).
 
@@ -103,7 +103,7 @@ La soluzione [!DNL Target] è ospitata su data center di Adobe (propri o noleggi
 
 Le località del cluster centrale contengono sia un centro di raccolta dati sia un centro di elaborazione dati. Le posizioni del cluster Edge contengono solo un centro raccolta dati. Ogni suite di rapporti viene assegnata a un centro di elaborazione dati specifico.
 
-I dati relativi all’attività del sito del cliente vengono raccolti dai sette cluster Edge più vicini. Questi dati vengono indirizzati alla destinazione cluster centrale predefinita di un cliente (una delle tre posizioni seguenti: Oregon, Dublino, Singapore) per la lavorazione. I dati del profilo del visitatore vengono memorizzati nel cluster Edge più vicino al visitatore del sito. Le posizioni dei cluster edge includono le posizioni del cluster centrale e Virginia, Mumbai, Sydney e Tokyo.
+I dati relativi all’attività del sito del cliente vengono raccolti dai sette cluster Edge più vicini. Questi dati vengono indirizzati alla destinazione cluster centrale predefinita di un cliente (una delle tre posizioni seguenti: Oregon, Dublino, Singapore) per la lavorazione. I dati del profilo del visitatore vengono memorizzati nel cluster Edge più vicino al visitatore del sito. Le posizioni dei cluster Edge includono le posizioni del cluster centrale e Virginia, Mumbai, Sydney e Tokyo.
 
 Invece di rispondere a tutte le richieste di targeting da un’unica posizione, le richieste vengono elaborate dal cluster Edge più vicino al visitatore. Questo processo contribuisce a mitigare l’impatto del tempo di viaggio in rete/Internet.
 
@@ -148,7 +148,7 @@ Adobe tutela l’esperienza utente attraverso l’ottimizzazione e la salvaguard
 * Adobe utilizza un approccio multilivello per garantire che le applicazioni forniscano il livello massimo di disponibilità e di affidabilità ai clienti.
 * [!DNL Target] Consulting offre assistenza nell’implementazione e supporto continuo per il prodotto.
 
-## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)  {#concept_C0C865663CAB4251B66A1F250FD25E6A}
+## Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO) {#concept_C0C865663CAB4251B66A1F250FD25E6A}
 
 Le funzionalità di test di [!DNL Adobe Target] sono conformi alle linee guida dei motori di ricerca.
 
@@ -175,9 +175,9 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    Adobe continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i client che devono utilizzare URL separati per i test, Adobe è sicuro che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
-   L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato durante il processo di codifica hardware del test vincente viene completato.
+   L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato durante il completamento del processo di codifica fissa.
 
    È importante considerare anche le modifiche apportate dal test. Il semplice aggiornamento del colore dei pulsanti o di altri elementi non testuali minori presenti nella pagina non avrà alcuna influenza sulla classificazione organica. Tuttavia, le modifiche al testo devono essere hardcoded.
 
