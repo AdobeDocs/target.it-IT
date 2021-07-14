@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
 workflow-type: tm+mt
 source-wordcount: '1803'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -39,24 +39,24 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
 | 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]</li><li>URL di anteprima</li></ul> |
 | 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative a [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
-| 16 giugno | [[!DNL Target] note sulla versione (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 1.0.0 dell’SDK Python [!DNL Adobe Target]. |
-|  | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Per quanto tempo persistono i dati per i modelli [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?</li></ul> |
-| 8 giugno | [Prima di implementare Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | È stata aggiunta una nota che indica che at.js 1.8.0 o successivo non funziona più con le versioni API dei visitatori precedenti alla 2.5.0 per il passaggio dei parametri [!DNL Adobe Audience Manager] (AAM). |
-|  | [Ambienti](/help/administrating-target/environments.md) | È stata aggiunta una nota che indica che se si specifica [!UICONTROL Attività attive e inattive], anche gli host di questo ambiente visualizzano le attività inattive. |
-|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>[!DNL Adobe Experience Platform] i nomi dei segmenti non vengono visualizzati nel rapporto  [!UICONTROL Attributi importanti ] .</li></ul> |
+| 16 giugno | Note sulla versione (corrente) di [[!DNL Target] ](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 1.0.0 dell’SDK Python per [!DNL Adobe Target]. |
+|  | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Per quanto tempo persistono i dati per i modelli di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?</li></ul> |
+| 8 giugno | [Prima di implementare Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | È stata aggiunta una nota che indica che at.js 1.8.0 o successivo non funziona più con le versioni delle API Visitor precedenti alla 2.5.0 per il passaggio dei parametri di [!DNL Adobe Audience Manager] (AAM). |
+|  | [Ambienti](/help/administrating-target/environments.md) | È stata aggiunta una nota che indica che se si specifica [!UICONTROL Attività attive e inattive], gli host di questo ambiente visualizzano anche le attività inattive. |
+|  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti].</li></ul> |
 | 7 giugno | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.5.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 aprile 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 3 giugno | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Nuove informazioni sulla pausa caffè Q&amp;A della community Adobe Target che si terrà mercoledì 9 giugno 2021 alle 8.00. (PDT, GMT-7). |
+| 3 giugno | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla sessione Adobe Target Community Q&amp;A Coffee Break che si terrà mercoledì 9 giugno 2021 alle 16:00 (CET). |
 | 1 giugno | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Le seguenti FAQ sono state aggiunte:<ul><li>Come si utilizza un collegamento di rinuncia con CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | È stata aggiornata la sezione “Collegamento di rinuncia” per spiegare come utilizzare il collegamento di rinuncia con CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Sono state aggiunte informazioni su [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Implementazione di Analytics per [!DNL Target]  ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | È stata aggiunta una nuova sezione:<ul><li>Passaggi per l’implementazione di [!DNL Adobe Experience Platform Web SDK]</li></ul> |
 |  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Sono state aggiunte informazioni sull’utilizzo delle offerte di reindirizzamento con A4T e Platform Web SDK. |
-|  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sull’utilizzo dei token di risposta con [!DNL Adobe Experience Platform Web SDK].<br>**Nota**: Questa funzionalità verrà rilasciata in una versione futura dell’SDK per web di Platform (data da determinare). |
+|  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sull’utilizzo dei token di risposta con [!DNL Adobe Experience Platform Web SDK].<br>**Nota**: questa funzionalità verrà rilasciata in una versione futura di Platform Web SDK (data da determinare). |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Nuove informazioni sulla versione di Adobe Experience Platform Web SDK 2.5.0 (1° giugno 2021). |
 | Maggio 27 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiunta una sezione per le chiamate API di [!DNL Target]. Il limite è di 50 chiamate al minuto. |
 | Maggio 20 | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente articolo di Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: eseguire l’SDK NodeJS di [!DNL Adobe Target] a scopo di sperimentazione e personalizzazione su piattaforme edge (AWS Lambda@Edge)</li></ul> |
