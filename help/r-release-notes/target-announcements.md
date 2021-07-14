@@ -7,13 +7,13 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
 workflow-type: tm+mt
 source-wordcount: '602'
-ht-degree: 80%
+ht-degree: 88%
 
 ---
 
 # Annunci ed eventi di Target
 
-Annunci e informazioni sui prossimi eventi, tra cui sessioni di [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni di [!DNL Target] Coffee Break.
+Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
 ## Riconoscimento per [!DNL Adobe Target]
 
@@ -46,7 +46,7 @@ David Son, [!DNL Target] Senior Product Manager risponderà alle tue domande rig
 
 ## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da Adobe Target
 
-Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva dei clienti su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
+Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva del cliente su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
 
 In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano come le decisioni di ottimizzazione dell’esperienza critica sul dispositivo, eseguite localmente con latenza zero, possano aprire le porte a nuovi casi d’uso interessanti e al contempo migliorare le prestazioni del sito per i clienti.
 
