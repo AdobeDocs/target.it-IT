@@ -7,7 +7,7 @@ exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
 source-git-commit: 31e9fe2d699a42910f9b1b5e0dc459ed9bd88763
 workflow-type: tm+mt
 source-wordcount: '447'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -39,7 +39,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
 * [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
 
-### Automated Personalization
+### Automated Personalization (AP)
 
 * [Domande frequenti su Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization-faq.md)
 * [Risoluzione dei problemi di Automated Personalization](/help/c-activities/t-automated-personalization/ap-trouble.md)
@@ -62,7 +62,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 * [Risoluzione di problemi relativi all’integrazione di Analytics e Target](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/a4t-troubleshooting.md)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. Consulta [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md).
 * Domande frequenti su A4T
-   * [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
+   * [Minimizzazione dei conteggi gonfiati per visite e visitatori in A4T](/help/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md)
    * [Provisioning iniziale - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-initial-provisioning.md)
    * [Configurazione delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md)
    * [Visualizzazione dei rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md)
@@ -143,7 +143,7 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO) ](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
 
 ## Stato del sistema
 
