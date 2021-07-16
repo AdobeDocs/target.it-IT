@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '1803'
+source-wordcount: '1834'
 ht-degree: 89%
 
 ---
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 16 | [Note sulla versione di Target (corrente) ](/help/r-release-notes/release-notes.md)<br><br>[e dettagli sulla versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.6.0 di at.js. |
+|  | [Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco Consentiti. |
 | Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione del ROI significativo, delle informazioni e dei risparmi di tempo dell’integrazione di Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Interruzione del caffè della comunità Q&amp;A da tenersi mercoledì 21 luglio 2021 alle 8.00 (PDT, GMT-7).</li></ul> |
 |  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: &quot;Come posso consigliare solo nuovi articoli o video?&quot; |
 |  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato nella sezione &quot;Chiamate API Target&quot;. |
