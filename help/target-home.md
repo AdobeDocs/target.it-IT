@@ -1,10 +1,10 @@
 ---
 keywords: Target;home;argomenti popolari;adobe target;standard;premium;documentazione target;documentazione adobe target
 title: Dove posso trovare la documentazione di [!DNL Target] ?
-description: Scopri come utilizzare Adobe [!DNL Target] per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
+description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Panoramica
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: bfcd67d441290614521deb4f7c798e08dfe0b303
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
 source-wordcount: '692'
 ht-degree: 96%
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 12 luglio 2021 ( [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 16 luglio 2021 ( [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
 
 >[!NOTE]
 >
@@ -50,7 +50,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Esperti di marketing {#marketers}
 
-- [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
+- [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di.[!DNL Target]
 - [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
 - [Consigli](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
@@ -66,7 +66,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Amministratori di Target e Adobe Experience Cloud {#admins}
 
-- [Amministrare Target](administrating-target/administrating-target.md): illustra come aggiungere utenti e configurare l’account [!DNL Target].
+- [Amministrare Target](administrating-target/administrating-target.md): illustra come aggiungere utenti e configurare l’account.[!DNL Target]
 
 ## Analisti {#analysts}
 
@@ -75,7 +75,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 ## Addetti al controllo qualità {#qa}
 
-- [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di [!DNL Target].
+- [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di.[!DNL Target]
 
 ## Risorse aggiuntive {#additional}
 
