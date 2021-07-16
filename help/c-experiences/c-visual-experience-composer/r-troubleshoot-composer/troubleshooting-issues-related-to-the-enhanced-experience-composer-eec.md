@@ -4,14 +4,14 @@ description: Scopri come risolvere i problemi che a volte si verificano in Adobe
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Compositore esperienza visivo
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: b14c9bb4bc0363c77de084c7ae7110e73c5f2f13
+source-git-commit: b623b7ac3793aa340f0d3072e7453bd988b733ac
 workflow-type: tm+mt
-source-wordcount: '429'
-ht-degree: 53%
+source-wordcount: '435'
+ht-degree: 55%
 
 ---
 
-# Risoluzione dei problemi relativi al [!UICONTROL Compositore esperienza avanzato]
+# Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]
 
 A volte si verificano problemi di visualizzazione nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza avanzato] (EEC) a determinate condizioni.
 
@@ -21,9 +21,15 @@ Questo problema può essere risolto inserire nell&#39;elenco Consentiti i seguen
 
 Chiedi al team IT di inserire nell&#39;elenco Consentiti i seguenti indirizzi IP:
 
-* 52.55.99.45
-* 52.51.238.221
-* 52.193.67.35
+* 34.253.100.20
+* 34.248.100.23
+* 52.49.228.246
+* 54.205.42.123
+* 107.22.177.39
+* 52.201.5.105
+* 52.193.211.177
+* 18.180.24.249
+* 52.194.154.154
 
 È possibile visualizzare il seguente messaggio di errore in [!DNL Target]:
 
