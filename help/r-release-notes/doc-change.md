@@ -1,10 +1,10 @@
 ---
 keywords: registro delle modifiche alla documentazione di target;documentazione di aggiornamenti;nuovi argomenti;modifiche;aggiornamenti;aggiornamento
 description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate alla documentazione di Adobe  [!DNL Target] '
-title: Dove posso visualizzare la documentazione di aggiornamenti per Target?
+title: Dove posso vedere gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
+source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
 workflow-type: tm+mt
 source-wordcount: '1845'
 ht-degree: 88%
