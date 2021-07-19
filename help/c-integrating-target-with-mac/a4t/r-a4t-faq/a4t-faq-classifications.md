@@ -4,11 +4,10 @@ description: Trova le risposte alle domande sulle classificazioni e sull’utili
 title: Dove posso trovare informazioni sulle classificazioni con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: cdb79c82fe1e7158a2f2014df661bd6fa852df92
 workflow-type: tm+mt
-source-wordcount: '257'
-ht-degree: 59%
+source-wordcount: '297'
+ht-degree: 51%
 
 ---
 
@@ -30,5 +29,6 @@ Il formato stringa della variabile TNT è `activityID:experienceID:targettype|ev
 * Event = 2 rappresenta l’impression di un’attività.
 * Event = 3-32766 rappresenta l’id della metrica di successo di analytics.
 * Event = 32767 rappresenta una conversione di attività.
+* L’evento -1 o 65535 rappresenta la rimozione dell’utente dall’attività o dall’esperienza. Questa situazione si verifica spesso quando il visitatore si converte. Il visitatore viene rilasciato dall’esperienza ed è ora disponibile per qualificarsi per qualsiasi altra esperienza.
 
-Puoi importare il file di classificazione con frequenza dall&#39;interfaccia utente utilizzando un [importazione browser](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/browser-import.html) o un [importazione FTP](https://docs.adobe.com/help/en/analytics/components/classifications/classifications-importer/import-file.html). È inoltre possibile interagire con i Servizi di ingegneria per ottenere il file come una tabella di consultazione insieme a un feed di dati clickstream.
+Puoi importare il file di classificazione con frequenza dall&#39;interfaccia utente utilizzando un [importazione browser](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/browser-import.html?lang=en) o un [importazione FTP](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/import-file.html?lang=en). È inoltre possibile interagire con i Servizi di ingegneria per ottenere il file come una tabella di consultazione insieme a un feed di dati clickstream.
