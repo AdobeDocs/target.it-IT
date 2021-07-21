@@ -4,17 +4,16 @@ description: Scopri come utilizzare gli attributi del profilo per impostare test
 title: Posso utilizzare gli script di profilo per testare attività reciprocamente esclusive?
 feature: Tipi di pubblico
 exl-id: b0b23887-3339-411e-9f5c-64f9d1ba778c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 78%
+source-wordcount: '699'
+ht-degree: 74%
 
 ---
 
-# Utilizzare gli script di profilo per testare attività reciprocamente esclusive 
+# Utilizzare gli script di profilo per testare attività reciprocamente esclusive
 
-Puoi utilizzare gli attributi del profilo per impostare test che confrontano due o più attività ma non consentono a uno stesso visitatore di partecipare a ciascuna attività.
+Puoi utilizzare gli attributi di profilo in [!DNL Adobe Target] per impostare test che confrontano due o più attività ma non consentono agli stessi visitatori di partecipare a ogni attività.
 
 La verifica delle attività reciprocamente esclusive impedisce al visitatore di un’attività di influenzare i risultati del test per le altre attività. Quando un visitatore partecipa a più attività, può essere difficile determinare se l’incremento positivo o negativo deriva dall’esperienza del visitatore con una sola attività o se le interazioni tra più attività ne hanno influenzato i risultati.
 
