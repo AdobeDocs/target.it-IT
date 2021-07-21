@@ -1,48 +1,47 @@
 ---
 keywords: targeting;dispositivi mobili;target dispositivi mobili;deviceatlas;iphone;modelli di iphone;device atlas;displaywidth;larghezza display;altezza display;tipo di dispositivo;displayheight;telefono;tablet;modello di dispositivo
-description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
-title: Posso [!DNL Target] Visitatori in base alle opzioni mobile?
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
+title: Posso indirizzare i visitatori in base alle opzioni mobile?
 feature: Tipi di pubblico
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '609'
-ht-degree: 93%
+source-wordcount: '624'
+ht-degree: 43%
 
 ---
 
 # Dispositivi mobili
 
-Crea dei tipi di pubblico per indirizzare l’attività a chi usa specifici dispositivi mobili, in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo (in pixel) e altro ancora.
+Crea tipi di pubblico in [!DNL Adobe Target] per indirizzare l’attività a chi usa specifici dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore, dimensioni dello schermo e altro ancora.
 
-Ad esempio, potrebbe essere utile mostrare contenuti diversi agli utenti che arrivano sulla pagina utilizzando un telefono o un computer. In questo caso, è possibile selezionare il tipo di pubblico per dispositivi mobili, quindi selezionare l’opzione **[!UICONTROL È un telefono cellulare]** e aggiungere eventuali dettagli specifici rilevanti, come tipo di telefono, dimensioni dello schermo (in pixel) e così via.
+Ad esempio, potrebbe essere utile mostrare contenuti diversi agli utenti che visitano la pagina utilizzando un telefono o un computer. In tal caso, puoi selezionare il pubblico [!UICONTROL Mobile], quindi selezionare l&#39;opzione **[!UICONTROL È un telefono cellulare]**. Puoi quindi aggiungere eventuali dettagli specifici rilevanti, ad esempio il tipo di telefono, le dimensioni dello schermo (in pixel) e così via.
 
 Il targeting per i dispositivi mobili è fornito da [DeviceAtlas](https://deviceatlas.com/device-data/user-agent-tester), un servizio di dotMobi. DeviceAtlas è un database completo di dispositivi mobili basato su dati compilati da numerose fonti, inclusi produttori e operatori di rete. Questi dati vengono poi verificati, incrociati e convalidati per generare un database ampio e accurato dei dispositivi mobili.
 
 Il rilevamento del dispositivo viene eseguito analizzando le stringhe Utente-Agente. Alcuni produttori di dispositivi, come ad esempio Apple, disabilitano questa funzionalità (non forniscono informazioni sufficienti nel documentazione per gli utenti).
 
-Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Pertanto non è possibile rilevare i modelli di iPhone (come iPhone 5S, iPhone SE, iPhone 6, e così via) utilizzando un semplice metodo basato su parole chiave.
+Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Il risultato è che non è possibile rilevare i modelli di iPhone (come iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e così via) utilizzando un semplice metodo basato su parole chiave.
 
-Per risolvere questo problema, Target raccoglie dati aggiuntivi per rilevare accuratamente iPhone e altri dispositivi Apple utilizzando i seguenti parametri:
+Per risolvere questo problema, [!DNL Target] raccoglie dati aggiuntivi per rilevare con precisione iPhone e altri dispositivi Apple utilizzando i seguenti parametri:
 
 | Parametro | Tipo | Descrizione |
 |--- |--- |--- |
-| devicePixelRatio | Stringa | Rapporto tra pixel fisici e pixel indipendenti dalla periferica (dips) nel browser.  per es. “1,5” o “2” |
+| devicePixelRatio | Stringa | Rapporto tra pixel fisici e pixel indipendenti dalla periferica (dips) nel browser. Ad esempio, &quot;1.5&quot; o &quot;2&quot; |
 | screenOrientation | Stringa | Il motore JavaScript del dispositivo e del browser supportano l&#39;Orientamento del Dispositivo. Può essere orizzontale o verticale. |
 | webGLRenderer | Stringa | Rendering del browser del driver grafico. |
 
 >[!NOTE]
 >
->I clienti che usano SDK mobile non hanno necessità di utilizzare questa funzione. I clienti che utilizzano at.js devono [eseguire l’aggiornamento alla versione 1.5.0 di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (o successiva).
+>I clienti che utilizzano l’SDK di Mobile non devono eseguire alcuna operazione per applicare questa funzionalità. I clienti che utilizzano at.js devono [eseguire l’aggiornamento alla versione 1.5.0 di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A) (o successiva).
 
-È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate tra loro mediante l&#39;operatore O.
+È possibile scegliere più di una proprietà per i dispositivi mobili. Le selezioni multiple sono collegate tra loro con un operatore OR.
 
 I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#39;SDK mobile) possono raccogliere questi parametri e trasmetterli come parametri mbox.
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
-1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Mobile]**.
+1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
+1. Trascina **[!UICONTROL Mobile]** nel riquadro di audience builder.
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * Nome marketing del dispositivo
@@ -57,16 +56,16 @@ I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#
 
    >[!NOTE]
    >
-   >Le nuove modifiche introdotte in iOS 12.2 incidono sulla creazione di un pubblico con regole definite dai modelli Nome marketing del dispositivo e Modello dispositivo che specificano modelli di iPhone. Non è più possibile impostare come destinazione gli utenti che utilizzano iPhone con iOS 12.2. Tuttavia il targeting funziona correttamente per gli utenti di iPhone con una versione di iOS diversa da 12.2.
+   >A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli di iPhone è interessata. [!DNL Target] non può più eseguire il targeting degli utenti che hanno installato iPhone con iOS 12.2 (o versioni successive) su di essi. Tuttavia, se tali utenti non hanno iOS 12.2 (o versioni successive), il targeting per il modello iPhone continua a funzionare correttamente.
    >
-   >L’aggiornamento iOS 12.2 non influenza l’identificazione dei seguenti modelli, poiché questi non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, iPad con display Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
+   >L’aggiornamento iOS 12.2 (o successivo) non influisce sull’identificazione dei seguenti modelli, perché questi modelli non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad / Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
 
    >[!NOTE]
    >
    >Puoi eseguire il targeting per gestore di telefonia mobile utilizzando le [impostazioni Geo](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
-1. Fai clic su **[!UICONTROL Salva]**.
+1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 L’illustrazione seguente mostra un pubblico che include i visitatori che utilizzano dispositivi mobili prodotti da Google.
 
