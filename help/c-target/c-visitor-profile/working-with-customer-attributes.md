@@ -1,14 +1,13 @@
 ---
 keywords: gestione delle relazioni con i clienti;servizio record cliente;crs;crm;mbox3rdpartyid;attributi cliente;targeting;csv;crm;adobe experience cloud people
-description: Scopri come utilizzare i dati dei clienti aziendali da un database CRM (Customer Relationship Management) per il targeting del contenuto in Adobe Target.
+description: Scopri come utilizzare i dati dei clienti aziendali da un database CRM (Customer Relationship Management) per il targeting del contenuto in [!DNL Adobe Target].
 title: Cosa sono gli attributi del cliente e come li utilizzo?
 feature: Tipi di pubblico
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
 workflow-type: tm+mt
-source-wordcount: '1501'
-ht-degree: 39%
+source-wordcount: '1496'
+ht-degree: 38%
 
 ---
 
@@ -20,7 +19,7 @@ I dati dei clienti aziendali raccolti attraverso più fonti e memorizzati all&#3
 
 ## Panoramica degli attributi del cliente {#section_B4099971FA4B48598294C56EAE86B45A}
 
-[Gli ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html) attributi del cliente nel  [!DNL People] servizio fanno parte di  [!DNL Adobe Experience Cloud] e forniscono alle aziende uno strumento per spingere i dati dei propri clienti sulla  [!DNL Experience Cloud] piattaforma.
+[Gli ](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/attributes.html?lang=it) attributi del cliente nel  [!DNL People] servizio fanno parte di  [!DNL Adobe Experience Cloud] e forniscono alle aziende uno strumento per spingere i dati dei propri clienti sulla  [!DNL Experience Cloud] piattaforma.
 
 I dati inseriti nell&#39;[!DNL Experience Cloud] sono disponibili per tutti i flussi di lavoro di [!DNL Experience Cloud]. [!DNL Target] utilizza questi dati per il targeting dei clienti fidelizzati in base agli attributi. [!DNL Adobe Analytics] utilizza questi attributi che possono essere utili per l&#39;analisi e la segmentazione.
 
@@ -34,11 +33,11 @@ Considera le seguenti informazioni mentre lavori con gli attributi del cliente e
    >
    >[!DNL at.js] (qualsiasi versione) o  [!DNL mbox.js] versione 58 o successiva è necessario.
 
-* [!DNL Adobe] non garantisce che il 100% dei dati dell’attributo del cliente (profilo visitatore) provenienti dai database CRM sia integrato nel  [!DNL Experience Cloud] e, quindi, sia disponibile per l’utilizzo per il targeting in  [!DNL Target]. Nel nostro design attuale, c&#39;è la possibilità che una piccola percentuale di dati (fino allo 0,1% dei batch di produzione di grandi dimensioni) potrebbe non essere integrata.
+* [!DNL Adobe] non garantisce che il 100% dei dati dell’attributo del cliente (profilo visitatore) provenienti dai database CRM sia integrato nel  [!DNL Experience Cloud] e, quindi, sia disponibile per l’utilizzo per il targeting in  [!DNL Target]. Nella progettazione attuale, è possibile che una piccola percentuale di dati (fino allo 0,1% dei batch di produzione di grandi dimensioni) potrebbe non essere integrata.
 * La durata dei dati degli attributi del cliente importati da [!DNL Experience Cloud] a [!DNL Target] dipende dalla durata del profilo del visitatore, che per impostazione predefinita è di 14 giorni. Per ulteriori informazioni, consulta [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
 * Se i parametri `vst.*` sono l’unica cosa che identifica il visitatore, il profilo &quot;autenticato&quot; esistente non verrà recuperato fintanto che `authState` è NON AUTENTICATO (0). Il profilo entra in gioco solo se `authState` viene modificato in AUTENTICATO (1).
 
-   Ad esempio, se il parametro `vst.myDataSource.id` viene utilizzato per identificare il visitatore (dove `myDataSource` è l’alias dell’origine dati) e non è presente alcun ID MCID o di terze parti, l’utilizzo del parametro `vst.myDataSource.authState=0` non permetterà di recuperare il profilo che potrebbe essere stato creato tramite un’importazione di Attributi cliente. Se il comportamento desiderato è quello di recuperare il profilo autenticato, il `vst.myDataSource.authState` deve avere il valore 1 (AUTENTICATO).
+   Ad esempio, se il parametro `vst.myDataSource.id` viene utilizzato per identificare il visitatore (dove `myDataSource` è l’alias dell’origine dati) e non è presente alcun ID MCID o di terze parti, l’utilizzo del parametro `vst.myDataSource.authState=0` non recupera il profilo che potrebbe essere stato creato tramite un’importazione di Attributi cliente. Se il comportamento desiderato è quello di recuperare il profilo autenticato, il `vst.myDataSource.authState` deve avere il valore 1 (AUTENTICATO).
 
 * Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
@@ -80,12 +79,12 @@ Le istruzioni dettagliate per il completamento di ciascuna delle seguenti attivi
    >
    >Il nome dell’origine dati e il nome dell’attributo non possono contenere un punto.
 
-   Il file di dati deve soddisfare i requisiti per il caricamento del file e non deve superare i 100 MB. Se il tuo file è troppo grande o hai dei dati che dovranno essere caricati su base ricorrente, puoi invece FTP i tuoi file.
+   Il file di dati deve soddisfare i requisiti per il caricamento del file e non deve superare i 100 MB. Se il tuo file è troppo grande o hai dei dati che devono essere caricati su base ricorrente, puoi invece FTP i tuoi file.
 
    * **HTTPS:** puoi trascinare il file di dati .csv o fare clic su  **** Sfoglia per caricare dal file system.
    * **FTP:** fai clic sul collegamento FTP per  [caricare il file tramite FTP](https://experienceleague.adobe.com/docs/core-services/interface/customer-attributes/t-upload-attributes-ftp.html). Il primo passo è quello di fornire una password per il server FTP fornito da Adobe. Specifica la password, quindi fai clic su **[!UICONTROL Fine]**.
 
-   Ora puoi trasferire il file CSV/ZIP/GZIP al server FTP. Una volta che questo trasferimento di file è riuscito, crea un nuovo file con lo stesso nome ed estensione .fin . Trasferisci questo file vuoto al server. Indica la fine del trasferimento e [!DNL Experience Cloud] inizia a elaborare il file di dati.
+   Ora puoi trasferire il file CSV/ZIP/GZIP al server FTP. Una volta completato il trasferimento di file, crea un file con lo stesso nome e un&#39;estensione `.fin`. Trasferisci questo file vuoto al server. Indica la fine del trasferimento e [!DNL Experience Cloud] inizia a elaborare il file di dati.
 
 1. Convalida dello schema.
 
@@ -141,7 +140,7 @@ Passa `mbox3rdPartyId` come parametro alla mbox globale all&#39;interno del meto
 
 ### Utilizzo del servizio Experience Cloud ID
 
-Se utilizzi il servizio Experience Cloud ID, devi impostare un ID cliente e uno stato di autenticazione per utilizzare gli attributi del cliente nel targeting. Per ulteriori informazioni, consulta [ID cliente e stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) nella *Guida del servizio ID di Experience Cloud*.
+Se utilizzi il servizio ID Experience Cloud, devi impostare un ID cliente e uno stato di autenticazione per utilizzare gli attributi del cliente nel targeting. Per ulteriori informazioni, consulta [ID cliente e stato di autenticazione](https://experienceleague.adobe.com/docs/id-service/using/reference/authenticated-state.html) nella *Guida del servizio ID di Experience Cloud*.
 
 Per ulteriori informazioni sull&#39;utilizzo degli attributi del cliente in [!DNL Target], consulta le risorse seguenti:
 
