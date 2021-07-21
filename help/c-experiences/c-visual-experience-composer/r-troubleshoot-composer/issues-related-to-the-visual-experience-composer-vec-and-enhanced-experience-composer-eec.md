@@ -4,9 +4,9 @@ description: Scopri come risolvere i problemi che a volte si verificano in Adobe
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Compositore esperienza visivo
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 1da930f2dfe13fc7710da000f0d13d6aacd223b1
+source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
 workflow-type: tm+mt
-source-wordcount: '1545'
+source-wordcount: '1554'
 ht-degree: 49%
 
 ---
@@ -19,6 +19,13 @@ Problemi di visualizzazione e altri problemi si verificano a volte nel [!DNL Ado
 
 Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato quando utilizzi le seguenti versioni di Chrome:
 
+>[!NOTE]
+>
+>La seguente modifica interessa tutti e tre gli aggiornamenti descritti di seguito:
+>
+> * *not* sarà in grado di utilizzare il Compositore esperienza visivo (con o senza l’estensione VEC Helper installata e abilitata) nelle pagine protette da password dei propri siti. I cookie di accesso al sito sono considerati un cookie di terze parti e vengono inviati con la richiesta di accesso. L’unica eccezione è quando il cookie di accesso al sito dispone già del parametro SameSite impostato su &quot;none&quot;.
+
+
 **Chrome 94 (21 settembre 2021)**: Con le imminenti modifiche pianificate per la versione di Chrome 94 (21 settembre 2021), le seguenti modifiche hanno un impatto su tutti gli utenti con le versioni del browser Chrome 94+:
 
 * Il flag della riga di comando `--disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure` verrà rimosso.
@@ -29,7 +36,6 @@ Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e 
 
 **Chrome 80 (agosto 2020)**: Con le modifiche implementate ad agosto 2020, tutti gli utenti con versioni del browser Chrome 80+:
 
-* *not* sarà in grado di utilizzare il Compositore esperienza visivo (con o senza l’estensione VEC Helper installata e abilitata) nelle pagine protette da password dei propri siti. I cookie di accesso al sito sono considerati un cookie di terze parti e vengono inviati con la richiesta di accesso. L’unica eccezione è quando il cookie di accesso al sito dispone già del parametro SameSite impostato su &quot;none&quot;.
 * *not* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe protetto e viene rifiutata come non autenticata.
 * Il Compositore esperienza avanzato *non* funziona per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
