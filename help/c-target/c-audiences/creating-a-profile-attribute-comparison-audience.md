@@ -1,41 +1,42 @@
 ---
 keywords: pubblico;propensione;attributo di profilo;confrontare;confronto;creare pubblico;creazione di pubblico
-description: Scopri come definire un pubblico per confrontare due attributi di profilo per la tua  [!DNL Target] Libreria pubblico o in un pubblico per sola attività.
+description: Scopri come definire un pubblico per confrontare due attributi di profilo.
 title: Posso confrontare due attributi di profilo da utilizzare nel pubblico?
 feature: Tipi di pubblico
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '419'
-ht-degree: 91%
+source-wordcount: '421'
+ht-degree: 66%
 
 ---
 
 # Creare un pubblico per il confronto degli attributi di profilo
 
-Definisci un pubblico per confrontare due attributi di profilo per la tua [Libreria tipi di pubblico](/help/c-target/c-audiences/audiences.md) oppure in un [pubblico per sola attività](/help/c-target/creating-activity-only-audience.md). L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
+Definisci un pubblico in [!DNL Adobe Target] per confrontare due attributi di profilo per la tua [Libreria pubblico](/help/c-target/c-audiences/audiences.md) o in un [pubblico per sola attività](/help/c-target/creating-activity-only-audience.md). L’uso degli operatori, quali maggiore di, minore o uguale a, definisce un pubblico per confrontare in modo dinamico i valori di due attributi di profilo diversi.
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile solo per la categoria [Profilo visitatore](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
+>Questa funzionalità è disponibile solo per la categoria [[!UICONTROL Profilo visitatore]](/help/c-target/c-audiences/c-target-rules/visitor-profile.md#concept_E972690B9A4C4372A34229FA37EDA38E).
 
 ## Panoramica {#section_303CBC78194D49A2A004945D425441E1}
 
-I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di Target. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Se una delle regole incluse utilizza la categoria profilo visitatore, puoi definire una regola basata sul valore specifico di un attributo profilo visitatore o confrontare il valore di tale attributo con un altro attributo del profilo visitatore.
+I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Se una delle regole incluse utilizza la categoria [!UICONTROL Profilo visitatore] , puoi definire una regola basata sul valore specifico di un attributo di profilo visitatore o confrontare il valore di tale attributo con un altro attributo di profilo visitatore.
 
-Ad esempio, immagina di lavorare per una società di arredamento e di caricare due punteggi propensione cliente su Target:
+Ad esempio, immagina di lavorare per una società di arredamento e di caricare due punteggi propensione cliente su [!DNL Target]:
 
 * Probabilità di acquisto di mobili per la sala da pranzo nei prossimi 90 giorni
 * Probabilità di acquisto di mobili per il soggiorno nei prossimi 90 giorni
 
-Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. Target consente quindi di confrontare in modo dinamico il punteggio della propensione per la sala da pranzo e il soggiorno per un visitatore specifico per determinare se tale visitatore è destinato a questo pubblico.
+Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. [!DNL Target] consente quindi di confrontare in modo dinamico il punteggio della propensione per la sala da pranzo e il soggiorno per un visitatore specifico per determinare se tale visitatore è destinato a questo pubblico.
 
 Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](/help/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md#concept_0069C0EFB56C4700BB33F2F35C2B9B17).
 
 ## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
-1. Fai clic su **[!UICONTROL Audience]** > **[!UICONTROL Crea audience]** > **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Profilo visitatore]**.
+1. Fai clic su **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Crea pubblico]**.
+1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
+1. Trascina **[!UICONTROL Profilo visitatore]** nel riquadro generatore di pubblico.
 1. Nell&#39;elenco a discesa **[!UICONTROL Profilo visitatore]**, seleziona un attributo:
 
    ![Punteggio tendenza 1](assets/propensity_score_1.png)
@@ -46,17 +47,19 @@ Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](/help/
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Scegli il tipo di confronto]**, scegli **[!UICONTROL Attributo]**.
 
-   Il tipo di confronto “valore statico” consente di confrontare l&#39;attributo del profilo del visitatore in base a valori specifici.
+   Il tipo di confronto &quot;valore statico&quot; ti consente di confrontare l’attributo del profilo visitatore in base a valori specifici.
 
    ![Punteggio tendenza 3](assets/propensity_score_3.png)
 
    >[!NOTE]
    >
-   >Se utilizzi una delle categorie di profili visitatore predefiniti al passaggio 1 (ad esempio, Nuovo visitatore o Visitatore di ritorno), puoi scegliere solo l’opzione valore statico. Le opzioni di confronto dinamiche non sono disponibili per le categorie predefinite. Gli altri esempi in cui le opzioni di confronto dinamiche non sono disponibili includono “Prima pagina di sessione”, “Non in altri test”, “Diverso dalla prima pagina di sessione” e “Affinità categoria”.
+   >Se utilizzi una delle categorie di profili visitatore predefiniti (ad esempio, Nuovo visitatore o Visitatore di ritorno), puoi scegliere solo l’opzione valore statico. Le opzioni di confronto dinamiche non sono disponibili per le categorie predefinite. Gli altri esempi in cui le opzioni di confronto dinamiche non sono disponibili includono “Prima pagina di sessione”, “Non in altri test”, “Diverso dalla prima pagina di sessione” e “Affinità categoria”.
 
 1. Scegli l&#39;attributo da confrontare con l&#39;attributo iniziale.
 
    ![](assets/propensity_score_4.png)
+
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ## Video di formazione ![Badge panoramica](/help/assets/overview.png) {#section_3BB8DBF3418F4520B3E274B6F40AF8F3}
 
