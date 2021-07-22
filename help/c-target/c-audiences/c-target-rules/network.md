@@ -1,24 +1,23 @@
 ---
 keywords: Targeting;rete;rete di target;isp;nome di dominio;velocità di connessione;isp target;nome di dominio target;velocità di connessione target
-description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] in base a dettagli di rete come ISP, Domain Name e Connection Speed.
-title: Posso [!DNL Target] Visitatori in base alle opzioni di rete?
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] in base ai dettagli della rete.
+title: Posso indirizzare i visitatori in base alle opzioni di rete?
 feature: Tipi di pubblico
 exl-id: 0a479d6d-ca17-43b8-9a42-8e68f31d4d54
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
 workflow-type: tm+mt
-source-wordcount: '509'
-ht-degree: 94%
+source-wordcount: '517'
+ht-degree: 78%
 
 ---
 
 # Rete
 
-Puoi creare un pubblico in base ai dettagli della rete.
+Puoi creare tipi di pubblico in [!DNL Adobe Target] in base ai dettagli della rete, ad esempio ISP, nome di dominio e velocità di connessione.
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
-1. Dai un nome al pubblico.
-1. Fai clic su **[!UICONTROL Aggiungi regola]** > **[!UICONTROL Rete]**.
+1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
+1. Trascina **[!UICONTROL Rete]** nel riquadro di audience builder.
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
    * **ISP:** un ISP è un’organizzazione che fornisce accesso a Internet ai suoi abbonati, di solito ad una tariffa mensile o annuale. Molti ISP forniscono servizi aggiuntivi, come web hosting o e-mail. Il campo ISP è un ISP commerciale o un&#39;altra entità come un business o un istituto scolastico.
@@ -47,13 +46,13 @@ Puoi creare un pubblico in base ai dettagli della rete.
 
       Puoi verificare l’ISP e i valori dei nomi di dominio. [](https://www.whoismyisp.org)https://www.whoismyisp.org è una buona risorsa a scopo di targeting. Puoi utilizzare gli indirizzi IP di esempio riportati nella tabella precedente oppure immettere il tuo. Quindi inserisci il parametro `mboxOverride.browserIp= URL` per simulare l&#39;indirizzo IP.
 
-   * **Nome di dominio:** è il nome di dominio per l’indirizzo IP del visitatore. Non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. Di solito è molto simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
-   * **Velocità di connessione:** questa è la velocità di connessione del visitatore a Internet. Le opzioni includono: banda larga, cavo, dialup, mobile, oc3, oc12, satellite, t1, t2, wireless, e xdsl.
+   * **Nome di dominio:** questo nome è il nome di dominio per l’indirizzo IP del visitatore. Questo nome non è il nome di dominio del sito web che utilizzi con [!DNL Target]. Questo nome di dominio è correlato all&#39;indirizzo IP del visitatore ed è talvolta chiamato hostname. È simile al nome dell&#39;ISP. A volte il nome host fa riferimento ai nomi più vecchi delle aziende che hanno modificato il loro nome ISP ma non il dominio.
+   * **Velocità di connessione:** questa velocità corrisponde alla velocità di connessione del visitatore a Internet. Le opzioni includono: banda larga, cavo, dialup, mobile, oc3, oc12, satellite, t1, t2, wireless, e xdsl.
 
       Questo campo si basa sul tipo di connessione e non sulla velocità effettiva. [!DNL Target] non può determinare la velocità di connessione esatta. Il tipo di connessione a banda larga viene utilizzato quando non è presente alcuna indicazione di altri tipi di connessione e quindi non è possibile scegliere un tipo specifico.
 
-1. (Facoltativo) Fai clic su **[!UICONTROL Aggiungi regola]** per impostare regole aggiuntive per il pubblico.
-1. Fai clic su **[!UICONTROL Salva]**.
+1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 L’illustrazione seguente mostra un pubblico che include i visitatori con una connessione AT&amp;T e velocità di connessione [!UICONTROL Mobile].
 
