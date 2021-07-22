@@ -6,8 +6,8 @@ feature: Note sulla versione
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 21c7675085bf5dc06bf9b1b38a82b2be4d4b0f76
 workflow-type: tm+mt
-source-wordcount: '653'
-ht-degree: 82%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -39,7 +39,7 @@ Questa versione contiene le nuove funzioni e i miglioramenti seguenti. I codici 
 
 | Funzione | Dettagli |
 | --- | --- |
-| Analytics for Target (A4T) | Facendo clic sul collegamento &quot;[!UICONTROL Visualizza in Analytics]&quot; sulla pagina [!UICONTROL Rapporti] da un&#39;attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), [!DNL Analysis Workspace] viene ora aperto. In precedenza, il collegamento apriva il rapporto [!DNL Analytics] . (TGT-36959) |
+| [!UICONTROL Analytics for Target] (A4T) | Facendo clic sul collegamento “[!UICONTROL Visualizza in Analytics]” sulla pagina [!UICONTROL Rapporti] da un’attività che utilizza [!DNL Analytics] come origine per la generazione di rapporti (A4T), ora viene aperto [!DNL Analysis Workspace]. In precedenza, il collegamento apriva la funzione di generazione rapporti di [!DNL Analytics]. (TGT-36959) |
 
 ## Python SDK 1.0.0 (16 giugno 2021)
 
@@ -53,7 +53,7 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 
 | Funzione | Dettagli |
 | --- | --- |
-| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di. [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) |
+| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
