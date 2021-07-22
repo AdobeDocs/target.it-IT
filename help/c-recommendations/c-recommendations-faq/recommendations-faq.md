@@ -5,9 +5,9 @@ title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL T
 feature: Consigli
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3129'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -98,7 +98,7 @@ L’impostazione [Filtra criteri incompatibili](/help/c-recommendations/plan-imp
 
 >[!NOTE]
 >
->Questa impostazione si applica solo alle attività create nel [!UICONTROL Compositore esperienza visivo] (VEC). Questa impostazione non è applicabile alle attività create nel Compositore esperienza basato su moduli ([!DNL Target] non dispone di contesto di posizione).
+>Questa impostazione è valida solo per le attività create in [!UICONTROL Compositore esperienza visivo]. Questa impostazione non è applicabile alle attività create nel Compositore esperienza basato su moduli ([!DNL Target] non dispone di contesto di posizione).
 
 Per accedere all’impostazione [!UICONTROL Filtra criteri incompatibili], fai clic su [!UICONTROL Consigli] > [!UICONTROL Impostazioni]:
 
@@ -245,15 +245,15 @@ Se il visitatore non ha due sessioni attive contemporaneamente, gli elementi vis
 
 Gli algoritmi creati in [!DNL Recommendations Classic] non sono supportati in [!DNL Recommendations Premium]. È possibile utilizzare un algoritmo legacy in [!DNL Target Premium]; tuttavia, l’algoritmo potrà creare problemi di sincronizzazione durante la disattivazione o l’eliminazione dell’attività nell’interfaccia utente di [!DNL Target Premium]. Per ulteriori informazioni sulle differenze tra le due soluzioni, consulta Attività [[!DNL Recommendations Classic] versus [!DNL Recommendations] in [!DNL Target Premium]](/help/c-recommendations/c-recommendations-faq/recommendations-classic-versus-recommendations-activities-target-premium.md).
 
-## Come posso consigliare solo nuovi articoli o video? {#recommend-new-articles}
+## Come posso consigliare solo articoli o video nuovi? {#recommend-new-articles}
 
-Alcuni clienti di media e pubblicazione desiderano assicurarsi che gli elementi consigliati includano solo gli articoli o i video più recenti. Ad esempio, un cliente [!DNL Target] ha utilizzato il seguente approccio per consigliare agli articoli di meno di 60 giorni di età:
+Alcuni clienti dei settori comunicazione ed editoria desiderano assicurarsi che gli elementi consigliati includano solo gli articoli o i video più recenti. Ad esempio, un cliente [!DNL Target] ha utilizzato il seguente approccio per consigliare articoli usciti da meno di 60 giorni:
 
-1. Passa la data di pubblicazione dell’articolo, in formato MMDD, come attributo di entità personalizzato.
-1. Crea uno script di profilo che sia la data odierna meno 60 giorni, anche in formato AAAAMMGG.
-1. Utilizza un filtro di inclusione dinamica nei criteri in modo che `publish date > today’s date minus 60 days`.
+1. La data di pubblicazione dell’articolo, in formato AAAAMMGG, viene passata come attributo di entità personalizzato.
+1. Si crea uno script di profilo che corrisponde alla data odierna meno 60 giorni, anche questa in formato AAAAMMGG.
+1. Si utilizza un filtro di inclusione dinamica nei criteri, in modo che `publish date > today’s date minus 60 days`.
 
-### Passa la data di pubblicazione come attributo di entità personalizzato:
+### La data di pubblicazione viene passata come attributo di entità personalizzato:
 
 | Attributo di entità | Esempio |
 | --- | --- |
