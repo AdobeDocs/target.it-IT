@@ -6,8 +6,8 @@ feature: Panoramica
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
 source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 96%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 21 luglio 2021 ( [Vedi che cosa è cambiato](r-release-notes/doc-change.md) )**
+**Ultimo aggiornamento: 21 luglio 2021 ([Vedi che cosa è cambiato](r-release-notes/doc-change.md))**
 
 >[!NOTE]
 >
@@ -42,7 +42,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 
 - [Note sulla versione di Target](r-release-notes/release-notes.md): contiene informazioni sulla versione corrente, informazioni sui problemi noti che interessano [!DNL Target], un elenco di modifiche importanti alla presente documentazione e un archivio delle note sulle versioni passate.
 - [Introduzione a Target](c-intro/intro.md): spiega i concetti principali della soluzione [!DNL Target].
-- Integra Target con Adobe Experience Cloud: Spiega come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [tipi di pubblico di Experience Cloud](/help/c-integrating-target-with-mac/mmp.md) e [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
+- Integrare Target con Adobe Experience Cloud: come integrare [!DNL Target] con altre soluzioni [!DNL Experience Cloud], tra cui [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), [Experience Cloud Audiences](/help/c-integrating-target-with-mac/mmp.md) e [Adobe Campaign](/help/c-integrating-target-with-mac/campaign-and-target.md).
 - [Adobe Target Tutorials](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it): fornisce esercitazioni e video per trarre il massimo da Target.
 - [Risoluzione dei problemi di Target](r-troubleshooting-target/troubleshooting-target.md): fornisce collegamenti alle informazioni sulla risoluzione dei problemi contenute in questa guida, incluse informazioni sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri e così via) che influenzano le attività e altri elementi in [!DNL Target].
 - [Target per le app per dispositivi mobili](c-target-mobile-app/target-mobile-app.md): illustra come utilizzare [!DNL Target] per l’ottimizzazione e la personalizzazione delle app per dispositivi mobili.
