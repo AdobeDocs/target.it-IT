@@ -5,7 +5,7 @@ title: Come posso risolvere i problemi relativi alle attività?
 feature: Attività
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
 source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '780'
 ht-degree: 100%
 
