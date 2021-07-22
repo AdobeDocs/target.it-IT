@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
 workflow-type: tm+mt
 source-wordcount: '1876'
-ht-degree: 87%
+ht-degree: 97%
 
 ---
 
@@ -23,9 +23,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Luglio 19 | [Classificazioni - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Sono state aggiunte informazioni sul codice evento -1 o 65535. |
 | Luglio 16 | [Note sulla versione di Target (corrente) ](/help/r-release-notes/release-notes.md)<br><br>[e dettagli sulla versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.6.0 di at.js. |
 |  | [Risoluzione dei problemi relativi a [!UICONTROL Compositore esperienza avanzato]](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md#section_D29E96911D5C401889B5EACE267F13CF) | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco Consentiti. |
-| Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione del ROI significativo, delle informazioni e dei risparmi di tempo dell’integrazione di Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Interruzione del caffè della comunità Q&amp;A da tenersi mercoledì 21 luglio 2021 alle 8.00 (PDT, GMT-7).</li></ul> |
-|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: &quot;Come posso consigliare solo nuovi articoli o video?&quot; |
-|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato nella sezione &quot;Chiamate API Target&quot;. |
+| Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione dei benefici a livello di ritorno sull’investimento, informazioni approfondite e risparmi di tempo dell’integrazione Adobe Analytics + [!DNL Adobe Target].</li><li>Community Q&amp;A Coffee Break [!DNL Adobe Target], mercoledì 21 luglio 2021 alle 08.00 (PDT, GMT-7).</li></ul> |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: “Come posso consigliare solo articoli o video nuovi?” |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il testo nella sezione “Chiamate API Target”. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiornata la descrizione della chiave `consumerId`. |
 |  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Il passaggio 1 è stato aggiornato per indicare che la modifica viene salvata automaticamente dopo la selezione di una nuova mbox. |
 |  | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
@@ -35,14 +35,14 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione del ROI significativo, delle informazioni e dei risparmi di tempo dell’integrazione di Adobe Analytics + [!DNL Adobe Target].</li><li>[!DNL Adobe Target] Interruzione del caffè della comunità Q&amp;A da tenersi mercoledì 21 luglio 2021 alle 8.00 (PDT, GMT-7).</li></ul> |
-|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: &quot;Come posso consigliare solo nuovi articoli o video?&quot; |
-|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Testo aggiornato nella sezione &quot;Chiamate API Target&quot;. |
+| Luglio 12 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Quantificazione dei benefici a livello di ritorno sull’investimento, informazioni approfondite e risparmi di tempo dell’integrazione Adobe Analytics + [!DNL Adobe Target].</li><li>Community Q&amp;A Coffee Break [!DNL Adobe Target], mercoledì 21 luglio 2021 alle 08.00 (PDT, GMT-7).</li></ul> |
+|  | [Domande frequenti sui consigli](/help/c-recommendations/c-recommendations-faq/recommendations-faq.md#less-than-60) | Sono state aggiunte le seguenti domande frequenti: “Come posso consigliare solo articoli o video nuovi?” |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stato aggiornato il testo nella sezione “Chiamate API Target”. |
 |  | [adobe.target.getOffers() - at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) | È stata aggiornata la descrizione della chiave `consumerId`. |
 |  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | Il passaggio 1 è stato aggiornato per indicare che la modifica viene salvata automaticamente dopo la selezione di una nuova mbox. |
 |  | Experience Cloud Device Co-op | Argomento rimosso. Questa funzionalità è stata dichiarata obsoleta. |
-| 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità con la libreria JavaScript di Target [!UICONTROL Modalità QA]</li><li>URL di anteprima</li></ul> |
-| 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla versione prerelease relative a [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
+| 29 giugno | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Sono state aggiunte le seguenti sezioni:<ul><li>Compatibilità della [!UICONTROL Modalità QA] con la libreria JavaScript di Target</li><li>URL di anteprima</li></ul> |
+| 24 giugno | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiornate le note sulla pre-release di [!DNL Target Standard/Premium] 21.6.1 (30 giugno 2021). |
 | 16 giugno | Note sulla versione (corrente) di [[!DNL Target] ](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 1.0.0 dell’SDK Python per [!DNL Adobe Target]. |
 |  | [Rapporti Approfondimenti personalizzazione](/help/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Per quanto tempo persistono i dati per i modelli di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?</li></ul> |
 | 8 giugno | [Prima di implementare Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | È stata aggiunta una nota che indica che at.js 1.8.0 o successivo non funziona più con le versioni delle API Visitor precedenti alla 2.5.0 per il passaggio dei parametri di [!DNL Adobe Audience Manager] (AAM). |
@@ -58,7 +58,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 1 giugno | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Le seguenti FAQ sono state aggiunte:<ul><li>Come si utilizza un collegamento di rinuncia con CNAME</li></ul> |
 |  | [Privacy](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | È stata aggiornata la sezione “Collegamento di rinuncia” per spiegare come utilizzare il collegamento di rinuncia con CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | Sono state aggiunte informazioni su [!DNL Adobe Experience Platform Web SDK]. |
-|  | [Implementazione di Analytics per [!DNL Target]  ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | È stata aggiunta una nuova sezione:<ul><li>Passaggi per l’implementazione di [!DNL Adobe Experience Platform Web SDK]</li></ul> |
+|  | [Implementazione di Analytics per  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | È stata aggiunta una nuova sezione:<ul><li>Passaggi per l’implementazione di [!DNL Adobe Experience Platform Web SDK]</li></ul> |
 |  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Sono state aggiunte informazioni sull’utilizzo delle offerte di reindirizzamento con A4T e Platform Web SDK. |
 |  | [Token di risposta](/help/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sull’utilizzo dei token di risposta con [!DNL Adobe Experience Platform Web SDK].<br>**Nota**: questa funzionalità verrà rilasciata in una versione futura di Platform Web SDK (data da determinare). |
 |  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Nuove informazioni sulla versione di Adobe Experience Platform Web SDK 2.5.0 (1° giugno 2021). |
