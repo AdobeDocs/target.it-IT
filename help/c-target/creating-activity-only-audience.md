@@ -1,52 +1,47 @@
 ---
 keywords: pubblico;regole pubblico;creare pubblico;creazione di pubblico;solo attività;per una sola attività;ad hoc
-description: Scopri come creare tipi di pubblico per sola attività in Adobe [!DNL Target] che possono essere utilizzati una tantum nell’attività corrente e non memorizzati nella Libreria tipi di pubblico.
+description: Scopri come creare tipi di pubblico per sola attività in Adobe [!DNL Target] da utilizzare una sola volta.
 title: Posso creare un pubblico da utilizzare una sola volta?
 feature: Tipi di pubblico
 exl-id: 5fe0507a-75d1-47bc-a941-8c8eeeaf3b75
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
 workflow-type: tm+mt
-source-wordcount: '398'
-ht-degree: 91%
+source-wordcount: '388'
+ht-degree: 64%
 
 ---
 
 # Creare un pubblico per sola attività
 
-Durante la creazione di un’attività puoi creare tipi di pubblico per sole attività dal flusso di lavoro guidato in tre passaggi. Questi tipi di pubblico specifici possono essere utilizzati in altre aree della stessa attività, ma non vengono memorizzati nella [!UICONTROL Libreria tipi di pubblico] e non possono quindi essere utilizzati in altre attività.
+Crea tipi di pubblico per sola attività dal flusso di lavoro guidato in tre passaggi [!DNL Adobe Target] durante la creazione di un’attività. Questi tipi di pubblico specifici possono essere utilizzati in altre aree della stessa attività, ma non vengono memorizzati nella [!UICONTROL Libreria tipi di pubblico] e non possono quindi essere utilizzati in altre attività.
 
 I tipi di pubblico per sola attività forniscono i seguenti vantaggi:
 
-* È possibile utilizzare i tipi di pubblico per sola attività per creare un pubblico da utilizzare una sola volta, senza archiviarlo nella [!UICONTROL Libreria tipi di pubblico]. In tal modo si evita di riempire la [!UICONTROL Libreria] con tipi di pubblico che non verranno più utilizzati.
-* I tipi di pubblico per sola attività non sono visibili nella [!UICONTROL Libreria tipi di pubblico]. In tal modo si evita il rischio che possano essere modificate da parte di altri membri della tua organizzazione.
+* È possibile utilizzare i tipi di pubblico per sola attività per creare un pubblico da utilizzare una sola volta, senza archiviarlo nella [!UICONTROL Libreria tipi di pubblico]. I tipi di pubblico per sola attività consentono di evitare che la [!UICONTROL Libreria tipi di pubblico] venga riempita di tipi di pubblico che non desideri utilizzare mai più.
+* I tipi di pubblico per sola attività non sono visibili nella [!UICONTROL Libreria tipi di pubblico]. Poiché questi tipi di pubblico non sono visibili nella libreria, vengono protetti da modifiche indesiderate apportate da altri utenti della tua organizzazione.
 
-1. Quando crei un’[attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina di **[!UICONTROL Target]**, fai clic sull’icona dei tre puntini di sospensione verticali e quindi su **[!UICONTROL Sostituisci pubblico]**.
+1. Durante la creazione di un [attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Targeting]** fai clic sui tre puntini di sospensione verticali, quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
-1. Nella pagina [!UICONTROL Scegli il pubblico], fai clic su **[!UICONTROL Pubblico per sola attività]**.
+1. Fai clic su **[!UICONTROL Crea pubblico]**.
+
+1. Fai clic su **[!UICONTROL Solo per questa attività]**.
 
    ![](assets/activity-only-aud.png)
 
-1. Fai clic su **[!UICONTROL Crea pubblico]**.
 1. Inserisci un nome descrittivo per il pubblico.
-1. Fai clic su **[!UICONTROL + Aggiungi regola]**.
+1. Trascina e rilascia gli attributi desiderati nel generatore di pubblico.
 
-   Le regole consentono di limitare il pubblico a un sottoinsieme di visitatori del sito.
+   Le regole consentono di limitare il pubblico a un sottoinsieme di visitatori del sito. Ogni tipo di regola ha i propri parametri. Consulta [Categorie di pubblico](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) per ulteriori informazioni su come configurare ogni tipo di regola per la definizione del pubblico.
 
-1. Seleziona un tipo di regola.
-
-   Ogni tipo di regola ha i propri parametri. Consulta [Categorie di pubblico](/help/c-target/c-audiences/c-target-rules/target-rules.md#concept_E3A77E42F1644503A829B5107B20880D) per ulteriori informazioni su come configurare ogni tipo di regola per la definizione del pubblico.
-
-1. Definisci i parametri della regola.
-1. Fai clic su **[!UICONTROL Salva]**.
+1. Fai clic su **[!UICONTROL Fine]**.
 
 ## Considerazioni
 
 Quando lavori con tipi di pubblico per sola attività, considera quanto segue:
 
-* È possibile creare tipi di pubblico per sola attività nel Compositore esperienza visivo o nel Compositore esperienza basato su moduli. Questa funzionalità sostituisce le regole di perfezionamento delle versioni precedenti di Target.
+* Puoi creare tipi di pubblico per sola attività nel [!UICONTROL Compositore esperienza visivo] (VEC) o nel [!UICONTROL Compositore esperienza basato su moduli]. Questa funzionalità sostituisce le regole di perfezionamento delle versioni precedenti di [!DNL Target].
 * Puoi creare un pubblico da archiviare nella [!UICONTROL Libreria tipi di pubblico] per riutilizzarlo in altre attività, oppure un pubblico per una sola attività. Dopo aver salvato il pubblico, non puoi cambiare tipo di pubblico.
 * I perfezionamenti per le attività esistenti vengono trasferiti ai tipi di pubblico per sola attività.
 * I tipi di pubblico per sola attività hanno lo stato [!UICONTROL Utilizzato] o [!UICONTROL Non utilizzato]. I tipi di pubblico per sola attività non utilizzati vengono visualizzate finché l’attività non viene salvata. Se restano inutilizzati e tenti di salvare l’attività, un messaggio di avvertenza ti informa che i tipi di pubblico per sola attività inutilizzati verranno eliminati.
