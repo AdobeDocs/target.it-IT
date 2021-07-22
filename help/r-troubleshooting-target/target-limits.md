@@ -1,14 +1,14 @@
 ---
-keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;numero massimo;limite;vincolo;carattere;best practice; orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;risoluzione dei problemi
+keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;numero massimo;limite;vincolo;carattere;best practice;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;risoluzione dei problemi
 description: Visualizza una lista sui limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profili, valori, parametri, ecc.) che influenzano le attività e altri elementi in Adobe Target.
 title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1206'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -38,7 +38,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ## Chiamate API di Target
 
-* **Limite**: 50 chiamate al minuto per le API di amministrazione, reporting e aggiornamento collettivo dei profili. Questo limite non si applica alle API di aggiornamento di Consegna e profilo singolo.
+* **Limite**: 50 chiamate al minuto per le API di amministrazione, reporting e aggiornamento in blocco dei profili. Questo limite non si applica alle API di aggiornamento di Consegna e profilo singolo.
 
    Se effettui più di 50 chiamate API al minuto, [!DNL Target] restituisce un messaggio di errore “503 HTTP status”.
 
