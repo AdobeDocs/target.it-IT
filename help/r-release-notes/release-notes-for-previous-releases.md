@@ -5,7 +5,7 @@ title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Note sulla versione
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: 2f4641f748095c83ffba6e7a1b27d860ce0188e8
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '31324'
 ht-degree: 100%
 
@@ -48,7 +48,7 @@ Questa versione di [!DNL Platform Web SDK] include il supporto per i seguenti el
 
 | Funzione | Dettagli |
 | --- | --- |
-| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di. [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md) |
+| Supporto dei reindirizzamenti con [!UICONTROL Analytics for Target] (A4T) | Platform Web SDK ora supporta i [!DNL Target]reindirizzamenti quando si utilizza [A4T](/help/c-integrating-target-with-mac/a4t/a4t.md).<br>Per ulteriori informazioni, consulta [Analytics per l’implementazione di  [!DNL Target] ](/help/c-integrating-target-with-mac/a4t/a4timplementation.md). |
 
 ### at.js versione 2.5.0 (13 maggio 2021)
 
@@ -498,7 +498,7 @@ Questa versione include le seguenti nuove funzionalità e miglioramenti:
 | --- | --- |
 | ![Badge Premium](/help/assets/premium.png)<br>Consigli in attività di Test A/B e Targeting esperienza | Lo stato di un’offerta (algoritmo) di tipo Consigli viene visualizzato nella pagina Panoramica per le attività Test A/B e Targeting esperienza che contengono offerte di tipo Consigli. Gli stati includono: Risultati pronti, Risultati non pronti ed Errore di feed. (TGT-33649)<br>Consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md#status). |
 | Supporto per il tracciamento tra domini diversi per at.js 2.0+ tramite la libreria Experience Cloud ID (ECID) | In precedenza, il tracciamento tra domini diversi non era supportato in at.js 2.*x*. Con questa versione, i clienti che usano at.js 2.0 o versioni successive possono utilizzare il tracciamento tra domini diversi tramite la libreria ECID. Per il corretto funzionamento del tracciamento tra domini diversi, la libreria ECID deve essere installata sulla pagina insieme at.js 2.0 o versione successiva. È necessario utilizzare la [libreria Experience Cloud ID 4.3.0+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it).<br>Consulta [Supporto del tracciamento tra più domini in at.js 2.x](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#cross-domain). |
-| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | I clienti di Target ora possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa versione, Target introduce un’integrazione diretta con la libreria ECID 4.3, che sfrutta un cookie lato server per mitigare ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di implementare la [libreria ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html) insieme alla libreria JavaScript di Target per mitigare eventuali versioni future di ITP. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
+| Supporto di Target per Apple ITP 2.1 e ITP 2.2 tramite la libreria Experience Cloud ID (ECID) 4.3 | I clienti di Target ora possono mitigare Apple ITP 2.1 e ITP 2.2 sfruttando il programma di certificazione CNAME di Adobe.<br>Con questa versione, Target introduce un’integrazione diretta con la libreria ECID 4.3, che sfrutta un cookie lato server per mitigare ITP 2.1 e ITP 2.2. Si consiglia vivamente ai clienti di Target di implementare la [libreria ECID 4.3+](https://experienceleague.adobe.com/docs/id-service/using/release-notes/release-notes.html?lang=it) insieme alla libreria JavaScript di Target per mitigare eventuali versioni future di ITP. La libreria ECID continuerà a essere migliorata per offrire una soluzione solida per i criteri dei cookie in continua evoluzione introdotti dai browser.<br>Consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md). |
 
 **Miglioramenti, correzioni e modifiche**
 
@@ -561,7 +561,7 @@ Siamo felici di annunciare le seguenti funzionalità in at.js 2.1.0:
 
 | Funzionalità/Miglioramento | Descrizione |
 | --- | --- |
-| Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo) | Il Compositore di esperienze visive SPA include i seguenti miglioramenti per permetterti di lavorare in modo più rapido ed efficiente:<ul><li>Facendo clic su un’azione nell’app a pagina singola, viene evidenziato l’elemento del sito dove l’azione verrà applicata. Ogni azione del Compositore esperienza visivo creata in una visualizzazione presenta quattro icone corrispondenti: Informazioni, Modifica, Sposta ed Elimina. La nuova funzionalità Sposta di questa versione consente di spostare l’azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già esistente nel pannello delle modifiche. (TGT-33746)</li><li>Potrai eseguire molte azioni prima che la pagina si carichi nel Compositore esperienza visivo, anche qualora non possa essere caricata completamente (ad esempio, se il codice personalizzato non è più operativo). Nell’interfaccia utente di Target, le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate. (TGT-33851 e TGT-34149)</li></ul>Per ulteriori informazioni, consulta [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md). |
+| Compositore esperienza visivo per app a pagina singola (SPA VEC) | Il Compositore di esperienze visive SPA include i seguenti miglioramenti per permetterti di lavorare in modo più rapido ed efficiente:<ul><li>Facendo clic su un’azione nell’app a pagina singola, viene evidenziato l’elemento del sito dove l’azione verrà applicata. Ogni azione del Compositore esperienza visivo creata in una visualizzazione presenta quattro icone corrispondenti: Informazioni, Modifica, Sposta ed Elimina. La nuova funzionalità Sposta di questa versione consente di spostare l’azione in un evento di caricamento pagina o in qualsiasi altra visualizzazione già esistente nel pannello delle modifiche. (TGT-33746)</li><li>Potrai eseguire molte azioni prima che la pagina si carichi nel Compositore esperienza visivo, anche qualora non possa essere caricata completamente (ad esempio, se il codice personalizzato non è più operativo). Nell’interfaccia utente di Target, le azioni che possono essere modificate solo dopo il caricamento del sito risultano disabilitate. (TGT-33851 e TGT-34149)</li></ul>Per ulteriori informazioni, consulta [Compositore esperienza visivo per app a pagina singola](/help/c-experiences/spa-visual-experience-composer.md). |
 
 #### Miglioramenti, correzioni e modifiche
 
@@ -1401,7 +1401,7 @@ Questa versione include i miglioramenti e le funzioni seguenti (i codici tra par
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Offerte </p> </td> 
-   <td colname="col2"> <p> Un utente che dispone dell'autorizzazione “Editor” non può modificare un'offerta riferita a un'attività in tempo reale o pianificata. </p> <p> <p>Nota: se un cliente Target Premium utilizza le <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it" format="html" scope="external">autorizzazioni utente Enterprise</a> e seleziona l’opzione Tutte le aree di lavoro, Target applica l’autorizzazione più elevata dell’utente in tutte le aree di lavoro. Se l'autorizzazione più elevata è “Editor”, Target limita la modifica come indicato sopra </p>. </p> <p>Queste restrizioni si applicano a tutte le offerte, non solo a quelle create in Target. (TGT-27276) </p> </td> 
+   <td colname="col2"> <p> Un utente che dispone dell'autorizzazione “Editor” non può modificare un'offerta riferita a un'attività in tempo reale o pianificata. </p> <p> <p>Nota: se un cliente Target Premium utilizza le <a href="https://experienceleague.adobe.com/docs/target/using/administer/manage-users/enterprise/property-channel.html?lang=it" format="html" scope="external">autorizzazioni utente Enterprise</a> e seleziona l’opzione Tutte le aree di lavoro, Target applica l’autorizzazione più elevata dell’utente in tutte le aree di lavoro. Se l'autorizzazione più elevata è “Editor”, Target limita la modifica come indicato sopra. </p>  </p> <p>Queste restrizioni si applicano a tutte le offerte, non solo a quelle create in Target. (TGT-27276) </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Token di risposta </p> </td> 
@@ -1581,7 +1581,7 @@ Per ulteriori informazioni, consulta [Abilitazione di contenuto misto nel browse
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>27 settembre 2017</b> </p> <p> La versione 1.2.0 di <span class="filepath">at.js</span> è ora disponibile in una versione di manutenzione che contiene per lo più correzioni di bug. Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A" format="dita" scope="local">Dettagli della versione di at.js.</a> </p> <p> 
      <ul id="ul_D11024549C3643C7A756988087498D24"> 
       <li id="li_E1B3994125B64F6AB20B29FE8BCD8459"> <p>È stato risolto un problema che impediva azioni predefinite per i casi speciali di tracciamento dei clic. (TNT-28089) </p> </li> 
@@ -1643,7 +1643,7 @@ Questa versione di [!DNL Target] include i miglioramenti, le correzioni e le mod
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p><b>3 agosto 2017</b> </p> <p> È ora disponibile la versione 1.1 di <span class="filepath">at.js</span>. Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">Scarica at.js</a>. </p> <p>I miglioramenti e le correzioni seguenti sono inclusi nella versione 1.1 di <span class="filepath">at.js</span>: </p> <p> 
      <ul id="ul_B7408267413347888938E2E7D48ABDBD"> 
       <li id="li_4DDF6DCFE6014C6795B6A9C9DFB54C21"> <p>È stata aggiunta la gestione dei token di risposta. Per ulteriori informazioni, consulta <a href="/help/administrating-target/response-tokens.md#concept_2B21B222F6A344D68CA5929817E836C4" format="dita" scope="local">Token di risposta</a>. </p> </li> 
@@ -1877,7 +1877,7 @@ Questa versione di [!DNL Target] si concentra su correzioni back end e include i
  </thead>
  <tbody> 
   <tr> 
-   <td colname="col1"> <p> <span class="filepath"> at.js  </span> </p> </td> 
+   <td colname="col1"> <p> <span class="filepath"> at.js </span> </p> </td> 
    <td colname="col2"> <p> È ora disponibile la versione 0.9.6 di <span class="filepath">at.js</span>. Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_1E1F958F9CCC4E35AD97581EFAF659E2" format="dita" scope="local">Scarica at.js</a>. </p> <p>I miglioramenti e le correzioni seguenti sono inclusi nella versione 0.9.6 di <span class="filepath">at.js</span>: </p> <p> 
      <ul id="ul_108DF85393614C69988E299485D338FD"> 
       <li id="li_4117C900982240B5AFFCFE1B2716A443"> <p>Supporto per le offerte di reindirizzamento per A4T. Dopo aver scaricato e installato la versione 0.9.6 di <span class="filepath">at.js</span>, è possibile utilizzare le offerte di reindirizzamento in attività che utilizzano <span class="keyword">Adobe Analytics</span> come origine per la generazione di rapporti per <span class="keyword">Target</span> (A4T). Oltre alla versione 0.9.6 di <span class="filepath">at.js</span>, l’implementazione deve soddisfare altri requisiti minimi al fine di usare le offerte di reindirizzamento e A4T. Per ulteriori informazioni e importanti informazioni aggiuntive che dovresti conoscere, consulta <a href="/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">Offerte di reindirizzamento: domande frequenti su A4T.</a> </p> </li> 
@@ -1992,7 +1992,7 @@ Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioram
       <li id="li_93E866BBFE374E93BCDB65BCFAC33B62"> <p> I nomi mbox possono ora contenere caratteri speciali, tra cui il simbolo e commerciale (&amp;). (TNT-26144) </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">Configurazioni at.js</a>. </p> </li> 
       <li id="li_99309046030B4D93B59113C01A8789DA"> <p>È stata aggiunta l’impostazione <span class="codeph">secureOnly</span> che indica se <span class="codeph">at.js</span> deve utilizzare solo HTTPS o può passare da HTTP a HTTPS in base al protocollo della pagina. Si tratta di un’impostazione avanzata con impostazione predefinita False e può essere bypassata tramite <span class="codeph">targetGlobalSettings </span>. (TNT-26183) </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md#concept_8DACBC47ABDE4279BB102B42609FE506" format="dita" scope="local">targetGlobalSettings()</a>. </p> </li> 
       <li id="li_D84D578C43A24D4896795999F841CEB8"> <p>L'opzione <span class="wintitle">Supporto di browser legacy</span> è disponibile nelle versioni 0.9.3 e precedenti di <span class="codeph">at.js</span>. Questa opzione è stata rimossa nella versione 0.9.4 di <span class="codeph">at.js</span>. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#concept_2FA0456607D04F82B0539C5BF5309812" format="dita" scope="local">Configurazioni at.js</a>. </p> </li> 
-     </ul> </p> <p>Per informazioni dettagliate sulle modifiche apportate a ogni versione di <span class="codeph">at.js</span>, vedi <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html" format="html" scope="external">Dettagli sulla versione di at.js.</a> </p> </td> 
+     </ul> </p> <p>Per informazioni dettagliate sulle modifiche apportate a ogni versione di <span class="codeph">at.js</span>, vedi <a href="https://experienceleague.adobe.com/docs/target/using/implement-target/client-side/target-atjs-versions.html?lang=it" format="html" scope="external">Dettagli sulla versione di at.js.</a> </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -2266,11 +2266,11 @@ La versione 16.8.1 di Adobe Target Standard/Premium (23 agosto 2016) prevede le 
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Gestione di host e ambiente (gruppo host) </p> </td> 
-   <td colname="col2"> <p>Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati. </p> <p>Per facilitare la gestione, gli host sono raccolti in ambienti. Gli ambienti preimpostati includono Produzione, Staging e Sviluppo. È inoltre possibile aggiungere nuovi ambienti. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic </span>. </p> <p>Per ulteriori informazioni, consulta <a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">Host.</a> </p> </td> 
+   <td colname="col2"> <p>Organizza siti e ambienti di preproduzione per gestirli facilmente e per generare rapporti separati. </p> <p>Per facilitare la gestione, gli host sono raccolti in ambienti. Gli ambienti preimpostati includono Produzione, Staging e Sviluppo. È inoltre possibile aggiungere nuovi ambienti. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic</span>. </p> <p>Per ulteriori informazioni, consulta <a href="/help/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E" format="dita" scope="local">Host.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Affinità tra categorie </p> </td> 
-   <td colname="col2"> <p>La funzione di affinità tra categorie acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente con la categoria in modo che possa essere indirizzata e segmentata. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic </span>. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local">Affinità tra categorie.</a> </p> </td> 
+   <td colname="col2"> <p>La funzione di affinità tra categorie acquisisce automaticamente le categorie visitate da un utente e calcola l'affinità dell'utente con la categoria in modo che possa essere indirizzata e segmentata. Questo è utile per assicurare che il targeting del contenuto sia rivolto ai visitatori per i quali la probabilità di azione su tali informazioni è più elevata. </p> <p>Questa funzionalità è pari a quella di <span class="keyword">Target Classic</span>. </p> <p>Per ulteriori informazioni, consulta <a href="/help/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC" format="dita" scope="local">Affinità tra categorie.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Attivare/disattivare il Compositore esperienza avanzato a livello di attività </p> </td> 
