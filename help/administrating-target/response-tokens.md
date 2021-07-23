@@ -1,13 +1,13 @@
 ---
 keywords: token di risposta;token;plug-in;plug-in;at.js;risposta
-description: Scopri come utilizzare i token di risposta in Adobe [!DNL Target] informazioni specifiche per l’output da utilizzare nel debug e nell’integrazione con strumenti di terze parti.
+description: Scopri come utilizzare i token di risposta in [!DNL Adobe Target] per ottenere informazioni specifiche per il debug e l’integrazione con strumenti di terze parti.
 title: Cosa sono i token di risposta e come li utilizzo?
-feature: Amministrazione e configurazione
+feature: Amministrazione & configurazione
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1644'
+source-wordcount: '1642'
 ht-degree: 27%
 
 ---
@@ -180,7 +180,7 @@ Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!
 
 I token di risposta possono essere attivati o disattivati solo dagli utenti con il ruolo [!DNL Target] [!UICONTROL Amministratore] .
 
-**Cosa succede se eseguo [!DNL Platform Web SDK] 2.6.0 (o versioni precedenti)?
+**Cosa succede se eseguo  [!DNL Platform Web SDK] 2.6.0 (o versioni precedenti)?**
 
 Non hai accesso ai token di risposta.
 
