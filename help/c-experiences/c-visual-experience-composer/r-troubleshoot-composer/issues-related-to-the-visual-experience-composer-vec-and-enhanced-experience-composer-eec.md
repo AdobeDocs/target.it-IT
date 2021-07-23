@@ -4,9 +4,9 @@ description: Scopri come risolvere i problemi che a volte si verificano in Adobe
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Compositore esperienza visivo
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 13b980bbcd63bf6fd6b3ac880a80bd7bd4b67653
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1554'
+source-wordcount: '1561'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e 
 >
 >La seguente modifica interessa tutti e tre gli aggiornamenti descritti di seguito:
 >
-> * *not* sarà in grado di utilizzare il Compositore esperienza visivo (con o senza l’estensione VEC Helper installata e abilitata) nelle pagine protette da password dei propri siti. I cookie di accesso al sito sono considerati un cookie di terze parti e vengono inviati con la richiesta di accesso. L’unica eccezione è quando il cookie di accesso al sito dispone già del parametro SameSite impostato su &quot;none&quot;.
+> * Sarà *not* in grado di utilizzare il Compositore esperienza visivo (con o senza l’estensione VEC Helper installata e abilitata) nelle pagine dei siti protette da password. I cookie di accesso al sito sono considerati un cookie di terze parti e vengono inviati con la richiesta di accesso. L’unica eccezione è quando il cookie di accesso al sito dispone già del parametro SameSite impostato su `none` e `Secure.`
 
 
 **Chrome 94 (21 settembre 2021)**: Con le imminenti modifiche pianificate per la versione di Chrome 94 (21 settembre 2021), le seguenti modifiche hanno un impatto su tutti gli utenti con le versioni del browser Chrome 94+:
@@ -36,7 +36,7 @@ Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e 
 
 **Chrome 80 (agosto 2020)**: Con le modifiche implementate ad agosto 2020, tutti gli utenti con versioni del browser Chrome 80+:
 
-* *not* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio di Adobe protetto e viene rifiutata come non autenticata.
+* *not* sarà in grado di scaricare le librerie [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un dominio [!DNL Adobe] protetto e viene rifiutata come non autenticata.
 * Il Compositore esperienza avanzato *non* funziona per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
 ### Determinare quali cookie sono bloccati
@@ -56,7 +56,7 @@ Per determinare quali cookie sono bloccati a causa dei criteri di imposizione de
 
 ### Estensione Google VEC Helper
 
-Adobe ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi dei cookie per impostare l&#39;attributo `SameSite="none"` quando necessario. L&#39; [estensione aggiornata si trova qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, consulta [Estensione helper del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+[!DNL Adobe] ha inviato un&#39;estensione VEC Helper aggiornata a Google Chrome Store. Questa estensione sovrascrive gli attributi dei cookie per impostare l&#39;attributo `SameSite="none"` quando necessario. L&#39; [estensione aggiornata si trova qui](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en). Per ulteriori informazioni sull&#39;installazione e l&#39;utilizzo dell&#39;estensione VEC Helper, consulta [Estensione helper del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
 
 Per i cookie del tuo sito, devi specificare i cookie per nome.
 
@@ -74,7 +74,7 @@ Utilizza una delle seguenti opzioni per garantire che VEC e Compositore esperien
 
 * Scarica e utilizza l&#39;estensione VEC Helper aggiornata [a1/>.](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak?hl=en)
 * Usa il browser Mozilla Firefox. Firefox non ha ancora applicato questo criterio.
-* Utilizza i seguenti flag per eseguire Google Chrome dalla riga di comando fino al 21 settembre 2021. Dopo il 21 settembre, il tuo sito web non funzionerà più nel Compositore esperienza visivo. Se esegui l’aggiornamento a Chrome 94, devi generare manualmente i cookie con `SameSite=none` e `Secure` sui tuoi siti web.
+* Utilizza i seguenti flag per eseguire Google Chrome dalla riga di comando fino al 21 settembre 2021. Dopo il 21 settembre, le funzioni che richiedono i cookie non funzioneranno più nel Compositore esperienza visivo, come le pop di accesso o di consenso dei cookie. Se esegui l’aggiornamento a Chrome 94, devi generare manualmente i cookie con `SameSite=none` e `Secure` sui tuoi siti web.
 
    ```
    --disable-features=SameSiteByDefaultCookies,CookiesWithoutSameSiteMustBeSecure
