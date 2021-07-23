@@ -5,10 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: a8abace2ea33ea1e72dbd23b9e9a996e96d2ea2b
-workflow-type: ht
-source-wordcount: '1206'
-ht-degree: 100%
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+workflow-type: tm+mt
+source-wordcount: '1215'
+ht-degree: 99%
 
 ---
 
@@ -118,6 +118,10 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 * **Limite**: 2.000 esperienze per attività Targeting esperienza, Test A/B, Test multivariato (MVT) e Targeting automatico.
 
    30.000 esperienze per attività Automated Personalization.
+
+### Modifiche per esperienza
+
+* **Limite**: 50 per esperienza su qualsiasi attività
 
 ## mbox
 
