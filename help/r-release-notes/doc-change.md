@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso vedere gli aggiornamenti alla documentazione per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: db274f15be33c4bbbe1e7ba1a0c4880de48d3e77
+source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
 workflow-type: tm+mt
-source-wordcount: '1876'
-ht-degree: 97%
+source-wordcount: '1920'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 23 | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | È stata aggiornata la sezione seguente per fornire ulteriori dettagli:<ul><li>In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?</li></ul> |
+|  | [Limiti](/help/r-troubleshooting-target/target-limits.md) | È stata aggiunta la sezione &quot;Modifiche per esperienza&quot; in &quot;Esperienze&quot;. |
 | Luglio 21 | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | È stata aggiornata la sezione seguente:<ul><li>In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?</li></ul> |
 | Luglio 19 | [Classificazioni - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Sono state aggiunte informazioni sul codice evento -1 o 65535. |
 | Luglio 16 | [Note sulla versione di Target (corrente) ](/help/r-release-notes/release-notes.md)<br><br>[e dettagli sulla versione di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.6.0 di at.js. |
