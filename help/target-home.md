@@ -53,7 +53,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Attività](c-activities/activities.md): illustra come configurare, gestire e eseguire il controllo qualità delle attività di.[!DNL Target]
 - [Tipi di pubblico](c-target/target.md): illustra come determinare chi visualizzerà i contenuti e le esperienze in attività mirate.
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
-- [Consigli](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
+- [Recommendations](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
 
 ## Sviluppatori {#developers}
 
