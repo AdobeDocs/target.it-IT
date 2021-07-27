@@ -5,9 +5,9 @@ title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Panoramica
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Confrontare le prestazioni di conversione di diversi tipi di pubblico all’inte
 
 Ad esempio, un cliente di servizi finanziari ha condotto una campagna promozionale per una carta di credito che coinvolgeva incentivi per eventi sportivi professionali. Mediante test multivariati fattoriali parziali delle pagine di destinazione, il cliente è stato in grado di bilanciare in modo ottimale la messaggistica sui benefici della carta di credito con incentivi sportivi per indirizzare tipi di pubblico distinti dalla sua base di clienti. Questo approccio ha permesso all’azienda di sfruttare e massimizzare la conversione durante una finestra sensibile al tempo che circonda un importante evento sportivo.
 
-## Suggerimento 17: Rendi i test utili solo avviandoli se sai di poter agire sui dati.
+## Suggerimento 17: affinché i test siano utili, avviali solo se sai di poter agire sui dati.
 
 Un test è inutile se non hai chiaro come agire sui dati. Ciò include la conoscenza della metrica di successo chiave, ciò che deve accadere per spingere un vincitore, come seguirai i risultati dei test e cosa farai con le informazioni sul pubblico. Per un test rapido e di successo, è fondamentale che ogni gruppo coinvolto nel test (sviluppatori, creativi, specialisti di test e altri) sia consapevole del suo ruolo prima del lancio del test.
 
