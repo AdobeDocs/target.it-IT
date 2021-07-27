@@ -5,10 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: d919f1abe634290780fe943286a9149cb0bd7f27
+source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
 workflow-type: tm+mt
-source-wordcount: '1215'
-ht-degree: 99%
+source-wordcount: '1319'
+ht-degree: 91%
 
 ---
 
@@ -59,6 +59,24 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 ## Parametro categoryId
 
 * **Limite**: 250 caratteri.
+
+## Consegna dei contenuti {#content-delivery}
+
+* **Limite**: 100 richieste di consegna  [!DNL Target] contenuti simultanee.
+
+   Se un cliente supera i 100 richieste di consegna contenuti simultanee [!DNL Target] per una determinata sessione utente, tutte le richieste successive per quella sessione utente vengono bloccate. Due o più richieste sono considerate simultanee se vengono tutte inviate al server [!DNL Target] prima che la risposta venga ricevuta per una qualsiasi di esse. [!DNL Target] elabora in sequenza le richieste simultanee per la stessa sessione.
+
+* **Comportamento** errore:
+
+   * API di consegna e mbox batch v2:
+      * Codice di errore: HTTP 420 - Troppe richieste
+      * Messaggio di errore: &quot;Troppe richieste con lo stesso ID sessione&quot;
+   * API mbox legacy:
+      * Contenuto predefinito con commento &quot;Troppe richieste con lo stesso ID sessione&quot;
+   * at.js:
+      * Contenuto predefinito visualizzato
+
+
 
 ## Attributi del cliente
 
