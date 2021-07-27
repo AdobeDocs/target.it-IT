@@ -5,10 +5,10 @@ title: Come posso implementare con Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
+source-git-commit: 36d9f041315c215c8a2e56b4c208f2f8c9e6dd7d
 workflow-type: tm+mt
-source-wordcount: '406'
-ht-degree: 7%
+source-wordcount: '453'
+ht-degree: 6%
 
 ---
 
@@ -32,4 +32,5 @@ Oltre alla documentazione [!DNL Platform Web SDK] di cui sopra, gli argomenti di
 | [Tipi di pubblico](/help/c-target/target.md) | I tipi di pubblico in [!DNL Adobe Target] determinano chi visualizza contenuti ed esperienze in un’attività con targeting.<br>Consulta  [Utilizzare l&#39;](/help/c-target/c-audiences/audiences.md#use-list) elenco Tipi di pubblico e  [Combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md). |
 | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Le offerte di reindirizzamento consentono ai browser dei visitatori di reindirizzare a una nuova pagina.<br>Consulta  [Supporta  [!DNL Adobe Experience Platform Web SDK] le offerte di reindirizzamento per A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Token di risposta](/help/administrating-target/response-tokens.md) | I token di risposta consentono di inviare dati di Target a Google Analytics e ad altre integrazioni di terze parti.<br>Per un esempio di codice per eseguire questa attività, consulta  [Invio di dati a Google Analytics tramite ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK per web di Platform. |
+| [Implementazione di un&#39;applicazione a pagina singola](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/spa-implementation.html?lang=en) | [!UICONTROL Adobe Experience Platform Web ] SDKfornisce funzioni avanzate che consentono all’azienda di eseguire personalizzazioni su tecnologie lato client di nuova generazione, come le applicazioni a pagina singola (SPA).<br>Questo argomento si trova nella guida  *Panoramica di Platform Web SDK* . |
 | [Modifiche alla crittografia di TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS (Transport Layer Security) ti aiuta a mantenere gli standard di sicurezza più elevati e a promuovere la sicurezza dei dati dei clienti. |
