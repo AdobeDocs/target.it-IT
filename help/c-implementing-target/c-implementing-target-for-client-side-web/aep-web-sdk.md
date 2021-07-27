@@ -5,7 +5,7 @@ title: Come posso implementare con Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 0cfab8d09b74b3eb0ead33a0c37f9dab68a88305
+source-git-commit: eb3cae982ecb62f7745549562ea144228ad895fa
 workflow-type: tm+mt
 source-wordcount: '406'
 ht-degree: 7%
@@ -23,7 +23,7 @@ Per ulteriori informazioni, consulta i seguenti collegamenti nella guida *Adobe 
 
 ## Documentazione consigliata in questa guida
 
-Oltre alla documentazione [!DNL Platform Web SKD] di cui sopra, gli argomenti di questa guida contengono anche informazioni specifiche sulle [!DNL Platform Web SDK] relative alle funzioni e alle funzionalità [!DNL Target].
+Oltre alla documentazione [!DNL Platform Web SDK] di cui sopra, gli argomenti di questa guida contengono anche informazioni specifiche sulle [!DNL Platform Web SDK] relative alle funzioni e alle funzionalità [!DNL Target].
 
 | Funzione | Descrizione/Collegamento |
 | --- | --- |
