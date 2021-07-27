@@ -5,10 +5,10 @@ title: Come posso implementare con Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 054ec2658e311e6eeae475ee02dbfce48242331f
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '274'
-ht-degree: 4%
+source-wordcount: '406'
+ht-degree: 6%
 
 ---
 
@@ -25,7 +25,11 @@ Per ulteriori informazioni, consulta i seguenti collegamenti nella guida *Adobe 
 
 Oltre alla documentazione [!DNL Platform Web SKD] di cui sopra, gli argomenti di questa guida contengono anche informazioni specifiche sulle [!DNL Platform Web SDK] relative alle funzioni e alle funzionalità [!DNL Target].
 
-| Argomento | Descrizione |
+| Funzione | Descrizione/Collegamento |
 | --- | --- |
-| [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in modo semplice e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live. [!UICONTROL Il ] controllo qualità delle attività ti consente di testare completamente  [!DNL Target] le attività prima di avviarle in diretta. |
+| [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) è un’integrazione tra più soluzioni che consente di creare attività basate su metriche di  [!DNL Analytics] conversione e segmenti di pubblico. L’integrazione A4T consente di utilizzare i rapporti [!DNL Analytics] per esaminare i risultati.<br>Consulta  [Tipi di attività ](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) supportati e Passaggi  [di implementazione per un’implementazione Adobe Experience Platform Web SDK](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
+| [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Gli URL di controllo qualità in [!DNL Adobe Target] consentono di verificare in modo semplice e completo la qualità delle attività tramite collegamenti di anteprima che restano invariati, l’eventuale definizione di un pubblico di destinazione e rapporti di controllo qualità mantenuti separati dai dati delle attività live. [!UICONTROL Il ] controllo qualità delle attività ti consente di testare completamente  [!DNL Target] le attività prima di avviarle in diretta.<br>Per ulteriori informazioni, consulta  [Compatibilità della modalità di controllo qualità della libreria JavaScript di Target ](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) e  [Anteprima ](/help/c-activities/c-activity-qa/activity-qa.md#preview) degli URL. |
+| [Tipi di pubblico](/help/c-target/target.md) | I tipi di pubblico in [!DNL Adobe Target] determinano chi visualizza contenuti ed esperienze in un’attività con targeting.<br>Consulta  [Utilizzare l&#39;](/help/c-target/c-audiences/audiences.md#use-list) elenco Tipi di pubblico e  [Combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md). |
+| [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Le offerte di reindirizzamento consentono ai browser dei visitatori di reindirizzare a una nuova pagina.<br>Consulta  [Supporta  [!DNL Adobe Experience Platform Web SDK] le offerte di reindirizzamento per A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Token di risposta](/help/administrating-target/response-tokens.md) | I token di risposta consentono di inviare dati di Target a Google Analytics e ad altre integrazioni di terze parti.<br>Per un esempio di codice per eseguire questa attività, consulta  [Invio di dati a Google Analytics tramite ](/help/administrating-target/response-tokens.md#platform-web-sdk) SDK per web di Platform. |
+| [Modifiche alla crittografia di TLS (Transport Layer Security)](/help/c-implementing-target/c-considerations-before-you-implement-target/tls-transport-layer-security-encryption.md) | TLS (Transport Layer Security) ti aiuta a mantenere gli standard di sicurezza più elevati e a promuovere la sicurezza dei dati dei clienti. |
