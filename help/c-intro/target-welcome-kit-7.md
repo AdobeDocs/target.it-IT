@@ -5,9 +5,9 @@ title: Devo creare la mia prima attività in Target. Dove inizio?
 feature: Panoramica
 exl-id: 4d07b088-a577-4c82-b35f-18d0be8428d8
 source-git-commit: a30a81635d5556eb1822a67b637b37df26daeecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1730'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
