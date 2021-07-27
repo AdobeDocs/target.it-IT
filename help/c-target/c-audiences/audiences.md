@@ -4,7 +4,7 @@ description: Scopri come utilizzare l’elenco [!UICONTROL Tipi di pubblico] in 
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Tipi di pubblico
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: f7d73de376c2345b628e3ebadb1d4ab4dc598693
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
 source-wordcount: '767'
 ht-degree: 32%
@@ -30,7 +30,7 @@ Esistono due tipi di pubblico in [!DNL Target]:
 
    In [!DNL Target], è possibile configurare i tipi di pubblico per reportistica solo se [!DNL Target] è utilizzato come origine per la generazione di rapporti. Se utilizzi [ Adobe Analytics come origine per la generazione di rapporti](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T), devi configurare i tipi di pubblico per la generazione di rapporti in [!DNL Analytics].
 
-## Utilizza l&#39;elenco [!UICONTROL Tipi di pubblico]
+## Utilizza l&#39;elenco [!UICONTROL Tipi di pubblico] {#use-list}
 
 Per accedere all’elenco [!UICONTROL Tipi di pubblico], fai clic su **[!UICONTROL Tipi di pubblico]** nella barra dei menu superiore:
 
