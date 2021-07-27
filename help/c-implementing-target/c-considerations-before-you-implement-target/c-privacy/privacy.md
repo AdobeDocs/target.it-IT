@@ -5,10 +5,10 @@ title: In che modo [!DNL Target] gestisce i problemi di privacy?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: b379beeea179930af2c1311cd011fdb6c837b374
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 65%
+source-wordcount: '728'
+ht-degree: 56%
 
 ---
 
@@ -18,11 +18,11 @@ ht-degree: 65%
 
 ## Raccolta di indirizzi IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
-L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target per la durata della sessione (in memoria, senza persistenza).
+L&#39;indirizzo IP di un visitatore del tuo sito Web viene trasmesso a un DPC (Adobe Data Processing Center). In base alla configurazione di rete per il visitatore, l&#39;indirizzo IP non rappresenta necessariamente l&#39;indirizzo IP del relativo computer. Potrebbe essere ad esempio l&#39;indirizzo IP esterno di un firewall con traduzione degli indirizzi di rete (Network Address Translation, NAT), di un proxy HTTP o di un gateway Internet. Target non memorizza gli indirizzi IP dell&#39;utente o dati PII (personalmente identificabili). Gli indirizzi IP vengono utilizzati solo da Target durante la sessione (in memoria, mai persistente).
 
 ## Sostituzione dell’ultimo ottetto degli indirizzi IP {#section_AE84EB0D7CE04E93B279B77732ADD61E}
 
-Adobe ha sviluppato una nuova impostazione “privacy by design”, che può essere abilitata dall’Assistenza clienti di Adobe per Adobe Target. Quando questa impostazione è abilitata, l’ultimo ottetto (l’ultima parte) dell’indirizzo IP viene immediatamente oscurato quando l’indirizzo IP viene raccolto da Adobe. Questa forma di anonimizzazione viene eseguita prima di qualsiasi elaborazione dell’indirizzo IP, inclusa l’operazione di lookup geografico.
+Adobe ha sviluppato una nuova impostazione “privacy by design”, che può essere abilitata dall’Assistenza clienti di Adobe per Adobe Target. Quando questa impostazione è abilitata, l’ultimo ottetto (l’ultima parte) dell’indirizzo IP viene immediatamente oscurato quando l’indirizzo IP viene raccolto da Adobe. Questa anonimizzazione viene eseguita prima di qualsiasi elaborazione dell’indirizzo IP, incluso prima di una geo-lookup opzionale dell’indirizzo IP.
 
 Quando questa funzione è abilitata, l’indirizzo IP è reso sufficientemente anonimo da non essere più identificabile come dato personale. Di conseguenza, è possibile utilizzare Adobe Target in conformità alle leggi sulla riservatezza dei dati nei paesi che non consentono la raccolta di informazioni personali. L’ottenimento di informazioni a livello di città sarà probabilmente influenzato in modo significativo dall’oscuramento dell’indirizzo IP. L’ottenimento di informazioni a livello di area e nazionale dovrebbe essere influenzato solo leggermente.
 
@@ -32,7 +32,7 @@ Sono disponibili le seguenti opzioni:
 * Ultimo ottetto: Target nasconde l’ultimo ottetto dell’indirizzo IP.
 * IP completo: Target nasconde l’intero indirizzo IP.
 
-Target riceve l’indirizzo IP completo e lo offusca (se impostato su Ultimo ottetto o IP completo) come specificato. Target conserva quindi in memoria l’indirizzo IP offuscato per tutta la durata della sessione.
+Target riceve l’indirizzo IP completo e lo offusca (se impostato su Ultimo ottetto o IP completo) come specificato. Target tiene quindi in memoria l’indirizzo IP offuscato durante la sessione.
 
 >[!NOTE]
 >
@@ -60,6 +60,12 @@ https://my.cname.domain/optout?client=clientcode.
 Il visitatore che fa clic sul collegamento sarà escluso da qualsiasi richiesta mbox richiamata dalle relative sessioni di navigazione fino all’eliminazione dei cookie o per due anni (a seconda di quale dei due eventi si verifica prima). Questo funziona impostando un cookie per il visitatore denominato `disableClient` nel dominio `clientcode.tt.omtrdc.net`.
 
 Anche se utilizzi un’implementazione di cookie di prima parte, la rinuncia viene impostata tramite un cookie di terze parti. Se il cliente utilizza solo un cookie di prima parte, Target controlla se è impostato un cookie di rinuncia.
+
+## Raccolta di dati sull’utilizzo delle funzioni {#feature-usage}
+
+I dati di utilizzo delle singole funzioni vengono raccolti per scopi interni di [!DNL Adobe] per identificare se le funzioni di [!DNL Target] hanno prestazioni come previsto o se sono in fase di sottoutilizzazione. Vengono raccolte varie misurazioni della latenza per contribuire a risolvere i problemi di prestazioni. I dati personali non vengono raccolti.
+
+È possibile rinunciare alla generazione di rapporti sui dati di utilizzo impostando `telemetryEnabled` nel file di configurazione su `false`.
 
 ## Normative sulla privacy e la protezione dei dati
 
