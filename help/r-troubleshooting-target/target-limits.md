@@ -5,9 +5,9 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: fef58e90557d99c927a59472a6eab328a7ffc1ba
+source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
 workflow-type: tm+mt
-source-wordcount: '1319'
+source-wordcount: '1322'
 ht-degree: 91%
 
 ---
@@ -62,7 +62,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ## Consegna dei contenuti {#content-delivery}
 
-* **Limite**: 100 richieste di consegna  [!DNL Target] contenuti simultanee.
+* **Limite**: 100 richieste di consegna  [!DNL Target] contenuti simultanee per sessione utente.
 
    Se un cliente supera i 100 richieste di consegna contenuti simultanee [!DNL Target] per una determinata sessione utente, tutte le richieste successive per quella sessione utente vengono bloccate. Due o più richieste sono considerate simultanee se vengono tutte inviate al server [!DNL Target] prima che la risposta venga ricevuta per una qualsiasi di esse. [!DNL Target] elabora in sequenza le richieste simultanee per la stessa sessione.
 
