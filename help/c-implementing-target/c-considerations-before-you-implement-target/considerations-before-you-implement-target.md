@@ -5,10 +5,10 @@ title: Cosa Devo Sapere Prima Di Implementare?
 feature: Implementazione
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
 workflow-type: tm+mt
-source-wordcount: '122'
-ht-degree: 67%
+source-wordcount: '117'
+ht-degree: 70%
 
 ---
 
@@ -20,7 +20,7 @@ Questa sezione include informazioni specifiche che gli sviluppatori devono racco
 
 >[!IMPORTANT]
 >
->Le modifiche a at.js o Adobe Experience Platform Web SDK non sono supportate dall’Assistenza clienti di Adobe.
+>Le modifiche a at.js o a [!DNL Adobe Experience Platform Web SDK] non sono supportate dall’Assistenza clienti di Adobe.
 
 - [Preparare l’implementazione di Target](prepare-to-implement-target.md)
 - [Privacy](c-privacy/privacy.md)
