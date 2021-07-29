@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Note sulla versione
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
-source-wordcount: '4390'
-ht-degree: 100%
+source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+workflow-type: tm+mt
+source-wordcount: '4419'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,10 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Il Compositore esperienza avanzato non supporta le richieste di PUT.
+
+Attualmente, un problema con il Compositore esperienza avanzato impedisce il supporto delle richieste PUT e causa un errore di timeout 504. (TGT-41493)
 
 ### I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti].
 
