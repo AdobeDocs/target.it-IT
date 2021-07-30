@@ -5,10 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 2403f63a6b993818fdc845d17f1a0dde72be664d
+source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
 workflow-type: tm+mt
-source-wordcount: '1322'
-ht-degree: 91%
+source-wordcount: '1320'
+ht-degree: 90%
 
 ---
 
@@ -243,7 +243,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 ## Parametro productPurchasedId
 
-* **Limite**: 47 caratteri per valore separato da virgole e 250 caratteri in totale. I singoli valori più lunghi di 47 caratteri possono essere troncati dal sistema. Le lunghezze totali superiori a 250 caratteri possono causare un errore 400.
+* **Limite**: 50 caratteri per valore separato da virgole e 250 caratteri in totale. I singoli valori più lunghi di 50 caratteri vengono troncati dal sistema. Le lunghezze totali superiori ai 250 caratteri generano un errore 400.
 
 ## Script di profilo
 
