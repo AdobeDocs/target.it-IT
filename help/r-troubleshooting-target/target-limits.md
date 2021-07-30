@@ -5,10 +5,10 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: ee626e29186f56bbcfc29f4c148c8bdd4f62319e
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 90%
+source-wordcount: '1364'
+ht-degree: 86%
 
 ---
 
@@ -115,9 +115,15 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
    Gli attributi personalizzati delle entità con più valori possono contenere un massimo di 500 valori. Ogni singolo valore è limitato a 100 caratteri. Il numero totale di caratteri su tutti i valori deve rispettare le limitazioni di lunghezza massima degli attributi personalizzati delle entità a valore singolo (vedi sopra).
 
-### Parametri entityID
+### entity.id
 
-* **Limite**: 1.000 caratteri.
+* **Limite per le implementazioni che richiedono l’acquisizione di informazioni** di acquisto: 50 caratteri.
+
+   Questo limite viene applicato perché il parametro mbox `productPurchasedId` acquisisce entity.ids, che limita il conteggio dei caratteri a 50.
+
+* **Limite per le implementazioni che richiedono solo algoritmi basati sulla visualizzazione:**: 1.000 caratteri.
+
+   Gli algoritmi basati sulla visualizzazione includono visualizzazione/visualizzazione, più visualizzate, più visualizzate di recente e così via.
 
 ## excludedIds {#excludedid}
 
