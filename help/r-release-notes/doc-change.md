@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
 workflow-type: tm+mt
-source-wordcount: '2036'
+source-wordcount: '2045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Luglio 30 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiornate le sezioni seguenti:<ul><li>entity.id</li><li>Parametro productPurchasedId</li></ul> |
 | Luglio 29 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!DNL Adobe Target] Community Q&amp;A Coffee Break: Mercoledì 11 agosto 2021. |
 |  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | È stata aggiornata una nota importante per indicare che è necessario modificare e salvare nuovamente le attività interessate create nel Compositore esperienza visivo dopo aver personalizzato una mbox globale. |
 |  | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Il Compositore esperienza avanzato non supporta le richieste di PUT.</li></ul> |
