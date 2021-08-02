@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 0271c55efba15071e67101ffdb6448f4f4e3b77a
 workflow-type: tm+mt
-source-wordcount: '2064'
-ht-degree: 97%
+source-wordcount: '2077'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 2 agosto | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Distribuzione del traffico delle attività di allocazione automatica tramite A4T</li></ul> |
+|  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni per la prossima versione dell’API di distribuzione di Target. |
 | Luglio 30 | [Limiti](/help/r-troubleshooting-target/target-limits.md) | Sono state aggiornate le sezioni seguenti:<ul><li>entity.id</li><li>Parametro productPurchasedId</li></ul> |
 | Luglio 29 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!DNL Adobe Target] Community Q&amp;A Coffee Break: Mercoledì 11 agosto 2021. |
 |  | [Personalizzare una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | È stata aggiornata una nota importante per indicare che è necessario modificare e salvare nuovamente le attività interessate create nel Compositore esperienza visivo dopo aver personalizzato una mbox globale. |
