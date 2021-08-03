@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Note sulla versione
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
+source-git-commit: 113e4627d491ea10192359c755dba29fc92e8e22
 workflow-type: tm+mt
-source-wordcount: '273'
-ht-degree: 74%
+source-wordcount: '336'
+ht-degree: 61%
 
 ---
 
@@ -24,6 +24,12 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >**Termine del ciclo di vita di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine che hanno attività [!DNL Target] in esecuzione, che presenteranno il contenuto predefinito.
 >
 >Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.8.1 (4 agosto 2021)
+
+Questa versione di manutenzione contiene molti miglioramenti back-end, tra cui la seguente modifica rivolta al cliente:
+
+* È stato risolto un problema a causa del quale i rapporti per le attività [!UICONTROL Personalizzazione automatica] create nel [!UICONTROL Compositore esperienza basato su moduli] facevano riferimento alle offerte eliminate nei rapporti. Questo problema causava la visualizzazione del seguente messaggio di errore: &quot;Si sono verificati problemi durante il recupero dei dati per questo report. Contatta l’Assistenza clienti Adobe se il problema persiste.&quot; (TGT-41028)
 
 ## API di consegna Target (data da determinare)
 
