@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Note sulla versione
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 1584be51a24dda2f380a505ff1b81f7fd83b814f
+source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
-source-wordcount: '4480'
-ht-degree: 98%
+source-wordcount: '4505'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,9 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 ### Distribuzione del traffico delle attività di allocazione automatica tramite A4T {#aa-a4t}
 
-In alcuni casi, la distribuzione del traffico delle attività [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) potrebbe variare a seconda del tasso di conversione riportato per ogni esperienza. Ciò si verifica più spesso per le attività con un’alta proporzione di traffico di visitatori di ritorno. I clienti interessati riceveranno una notifica delle attività interessate. (TOP-131)
+In alcuni casi, la distribuzione del traffico delle attività [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) potrebbe variare a seconda del tasso di conversione riportato per ogni esperienza. Ciò si verifica più spesso per le attività con un’alta proporzione di traffico di visitatori di ritorno. I clienti interessati riceveranno una notifica delle attività interessate.
+
+Fino a quando questo problema non viene risolto, utilizza [!UICONTROL Allocazione automatica] con reporting standard [!DNL Target] o utilizza test A/B standard con [!DNL Analytics] rapporti come alternativa a [!UICONTROL Allocazione automatica] con reporting [!DNL Analytics]. (TOP-131)
 
 ### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
 
