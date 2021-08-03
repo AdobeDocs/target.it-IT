@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Risoluzione dei problemi relativi al
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 498cfbd34b5fff46ab5f8f5d95a69f7b90fc9671
+source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
 ht-degree: 87%
@@ -58,7 +58,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ## Parametro categoryId
 
-* **Limite**: 250 caratteri.
+* **Limite**: 256 caratteri.
 
 ## Consegna dei contenuti {#content-delivery}
 
@@ -196,7 +196,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
    **Endpoint API di consegna**:
 
-   * Parametri mbox: 50
+   * Parametri mbox: 100
    * Lunghezza massima del nome del parametro mbox: 128
    * Il valore del parametro mbox non può essere null
    * Valore del parametro mbox: 5000
