@@ -5,10 +5,9 @@ title: Come si utilizza la funzione targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-translation-type: tm+mt
-source-git-commit: 824743300725bbd39077882a0971a9ccb4f753ab
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2200'
+source-wordcount: '2280'
 ht-degree: 31%
 
 ---
@@ -71,44 +70,44 @@ ht-degree: 31%
 * **Valore** predefinito: Consulta  [Fornitori di ](#data-providers) dati di seguito.
 * **Descrizione**: Consulta  [Fornitori di ](#data-providers) dati di seguito.
 
-### decisionMethod {#on-device-decisioning}
+### decisioningMethod {#on-device-decisioning}
 
 * **Tipo**: String
 * **Valore** predefinito: lato server
 * **Altri valori**: su dispositivo, ibrido
 * **Descrizione**: Consulta Metodi di Decisioning di seguito.
 
-**Metodi di decisione**
+   **Metodi di decisione**
 
-Con le decisioni sui dispositivi, Target introduce una nuova impostazione denominata [!UICONTROL Metodo di decisione] che determina il modo in cui at.js distribuisce le esperienze. Il valore di `decisioningMethod` è tre: solo lato server, solo su dispositivo e ibrido. Quando `decisioningMethod` è impostato in `targetGlobalSettings()`, agisce come metodo di decisione predefinito per tutte le decisioni [!DNL Target].
+   Con le decisioni sui dispositivi, Target introduce una nuova impostazione denominata [!UICONTROL Metodo di decisione] che determina il modo in cui at.js distribuisce le esperienze. Il valore di `decisioningMethod` è tre: solo lato server, solo su dispositivo e ibrido. Quando `decisioningMethod` è impostato in `targetGlobalSettings()`, agisce come metodo di decisione predefinito per tutte le decisioni [!DNL Target].
 
-[!UICONTROL Solo] lato server:
+   **[!UICONTROL Solo]** lato server:
 
-[!UICONTROL Solo lato server è ] il metodo decisionale predefinito impostato automaticamente quando at.js 2.5+ viene implementato e distribuito sulle proprietà web.
+   [!UICONTROL Solo lato server è ] il metodo decisionale predefinito impostato automaticamente quando at.js 2.5+ viene implementato e distribuito sulle proprietà web.
 
-Se si utilizza [!UICONTROL solo lato server] come configurazione predefinita, tutte le decisioni vengono prese sulla rete Edge [!DNL Target], che comporta una chiamata al server di blocco. Questo approccio può introdurre una latenza incrementale, ma offre anche vantaggi significativi, come la possibilità di applicare le funzionalità di machine-learning di Target che includono attività di [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) e [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
+   Se si utilizza [!UICONTROL solo lato server] come configurazione predefinita, tutte le decisioni vengono prese sulla rete Edge [!DNL Target], che comporta una chiamata al server di blocco. Questo approccio può introdurre una latenza incrementale, ma offre anche vantaggi significativi, come la possibilità di applicare le funzionalità di machine-learning di Target che includono attività di [Recommendations](/help/c-recommendations/recommendations.md), [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md) (AP) e [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md).
 
-Inoltre, migliorare le esperienze personalizzate utilizzando il profilo utente di Target, persistente tra sessioni e canali, può fornire risultati efficaci per la tua azienda.
+   Inoltre, migliorare le esperienze personalizzate utilizzando il profilo utente di Target, persistente tra sessioni e canali, può fornire risultati efficaci per la tua azienda.
 
-Infine, [!UICONTROL solo lato server] consente di utilizzare Adobe Experience Cloud e perfezionare i tipi di pubblico su cui è possibile eseguire il targeting tramite i segmenti Audience Manager e Adobe Analytics.
+   Infine, [!UICONTROL solo lato server] consente di utilizzare Adobe Experience Cloud e perfezionare i tipi di pubblico su cui è possibile eseguire il targeting tramite i segmenti Audience Manager e Adobe Analytics.
 
-[!UICONTROL Solo] su dispositivo:
+   **[!UICONTROL Solo]** su dispositivo:
 
-[!UICONTROL On-Device ] è solo il metodo decisionale che deve essere impostato in at.js 2.5+ quando le decisioni su un dispositivo devono essere utilizzate solo in tutte le pagine web.
+   [!UICONTROL On-Device ] è solo il metodo decisionale che deve essere impostato in at.js 2.5+ quando le decisioni su un dispositivo devono essere utilizzate solo in tutte le pagine web.
 
-Le decisioni sul dispositivo possono fornire esperienze e attività di personalizzazione a una velocità sorprendente, perché le decisioni vengono prese da un artefatto di regole memorizzate nella cache che contiene tutte le attività che si qualificano per le decisioni sul dispositivo.
+   Le decisioni sul dispositivo possono fornire esperienze e attività di personalizzazione a una velocità sorprendente, perché le decisioni vengono prese da un artefatto di regole memorizzate nella cache che contiene tutte le attività che si qualificano per le decisioni sul dispositivo.
 
-Per ulteriori informazioni sulle attività idonee per le decisioni sui dispositivi, consulta la sezione sulle funzionalità supportate .
+   Per ulteriori informazioni sulle attività idonee per le decisioni sui dispositivi, consulta la sezione sulle funzionalità supportate .
 
-Questo metodo decisionale deve essere utilizzato solo se le prestazioni sono altamente critiche in tutte le pagine che richiedono decisioni da [!DNL Target]. Inoltre, ricorda che quando viene selezionato questo metodo decisionale, le attività [!DNL Target] non idonee per le decisioni su dispositivi non verranno consegnate o eseguite. La libreria at.js 2.5+ è configurata per cercare solo l’artefatto delle regole memorizzate nella cache per prendere decisioni.
+   Questo metodo decisionale deve essere utilizzato solo se le prestazioni sono altamente critiche in tutte le pagine che richiedono decisioni da [!DNL Target]. Inoltre, ricorda che quando viene selezionato questo metodo decisionale, le attività [!DNL Target] non idonee per le decisioni su dispositivi non verranno consegnate o eseguite. La libreria at.js 2.5+ è configurata per cercare solo l’artefatto delle regole memorizzate nella cache per prendere decisioni.
 
-Ibrido:
+   **Ibrido**:
 
- Hybridis è il metodo decisionale che deve essere impostato in at.js 2.5+ quando è necessario eseguire sia le decisioni sui dispositivi che le attività che richiedono una chiamata di rete alla rete Adobe Target Edge.
+    Hybridis è il metodo decisionale che deve essere impostato in at.js 2.5+ quando è necessario eseguire sia le decisioni sui dispositivi che le attività che richiedono una chiamata di rete alla rete Adobe Target Edge.
 
-Quando gestisci sia le attività di decisione sul dispositivo che quelle sul lato server, può essere un po&#39; complicato e noioso pensare a come distribuire ed eseguire il provisioning [!DNL Target] sulle tue pagine. Con ibrido come metodo decisionale, [!DNL Target] sa quando deve effettuare una chiamata al server alla rete Adobe Target Edge per le attività che richiedono l’esecuzione lato server e anche quando eseguire solo decisioni sul dispositivo.
+   Quando gestisci sia le attività di decisione sul dispositivo che quelle sul lato server, può essere un po&#39; complicato e noioso pensare a come distribuire ed eseguire il provisioning [!DNL Target] sulle tue pagine. Con ibrido come metodo decisionale, [!DNL Target] sa quando deve effettuare una chiamata al server alla rete Adobe Target Edge per le attività che richiedono l’esecuzione lato server e anche quando eseguire solo decisioni sul dispositivo.
 
-L’artefatto delle regole JSON include i metadati per informare at.js se una mbox ha un’attività lato server in esecuzione o un’attività decisionale sul dispositivo. Questo metodo decisionale assicura che le attività che intendi consegnare rapidamente vengano eseguite tramite le decisioni sui dispositivi e per le attività che richiedono una personalizzazione basata su ML più potente, tali attività vengono eseguite tramite la rete Adobe Target Edge.
+   L’artefatto delle regole JSON include i metadati per informare at.js se una mbox ha un’attività lato server in esecuzione o un’attività decisionale sul dispositivo. Questo metodo decisionale assicura che le attività che intendi consegnare rapidamente vengano eseguite tramite le decisioni sui dispositivi e per le attività che richiedono una personalizzazione basata su ML più potente, tali attività vengono eseguite tramite la rete Adobe Target Edge.
 
 ### defaultContentHiddenStyle
 
@@ -151,6 +150,12 @@ L’artefatto delle regole JSON include i metadati per informare at.js se una mb
 * **Tipo**: Sting
 * **Valore** predefinito: true
 * **Descrizione**: Rappresenta l’ID ORG IMS.
+
+### optinEnabled
+
+* **Tipo**: Booleano
+* **Valore** predefinito: false
+* **Descrizione**:  [!DNL Target] fornisce supporto per la funzionalità opt-in tramite  [!DNL Adobe Platform Launch] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Platform Launch] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare Opt-in nella libreria at.js [!DNL Target], aggiungi l&#39;impostazione `optinEnabled=true` . In [!DNL Platform Launch] devi selezionare &quot;abilita&quot; dall&#39;elenco a discesa [!UICONTROL Opt-in RGPD] nella visualizzazione di installazione dell&#39;estensione Launch. Per ulteriori informazioni, consulta la [documentazione sul Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) .
 
 ### optoutEnabled
 
@@ -238,7 +243,7 @@ window.targetGlobalSettings = {
 };
 ```
 
-## Fornitori di dati {#data-providers}
+## Fornitori dati  {#data-providers}
 
 Questa impostazione consente ai clienti di raccogliere dati da fornitori di dati terzi, come Demandbase, BlueKai e servizi personalizzati, e di passare i dati a Target come parametri mbox nella richiesta globale di mbox. Supporta la raccolta di dati da più provider tramite richieste sincrone e asincrone. L&#39;utilizzo di questo approccio semplifica la gestione della visualizzazione momentanea del contenuto della pagina predefinito, inclusi i timeout indipendenti per ogni provider per limitare l&#39;impatto sulle prestazioni della pagina.
 
