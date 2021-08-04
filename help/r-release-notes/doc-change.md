@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 23c1ffedd7a036ce9ce2e91eb882d0e5a3a1cb91
+source-git-commit: 1252790ab8050781ae93bba502e920e9f1c2f224
 workflow-type: tm+mt
-source-wordcount: '2143'
+source-wordcount: '2149'
 ht-degree: 95%
 
 ---
@@ -19,7 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 4 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md): 21.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
+| 4 agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
+|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md): 21.6.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 giugno 2021)
 
