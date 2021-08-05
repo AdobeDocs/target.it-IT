@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d577ef0268e5f1bca4bf78a8c5ad4d0547adb68f
+source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
 workflow-type: tm+mt
-source-wordcount: '2149'
-ht-degree: 95%
+source-wordcount: '2108'
+ht-degree: 96%
 
 ---
 
@@ -15,17 +15,11 @@ ht-degree: 95%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe [!DNL Target] Standard/Premium 21.8.1 (4 agosto 2021)
-
-| Data | Argomento | Modifiche |
-| --- | --- | --- |
-| 4 agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
-|  | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md): 21.8.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
-
 ## Adobe [!DNL Target] Standard/Premium 21.6.1 (30 giugno 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
 | 3 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione [!UICONTROL API di consegna Target] . |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima versione [!DNL Target Standard/Premium] 21.8.1 (4 agosto 2021). |
 | 2 agosto | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Distribuzione del traffico delle attività di allocazione automatica tramite A4T</li></ul> |
