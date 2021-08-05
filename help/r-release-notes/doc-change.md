@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42d9d7ed422bd5334a7f5e6467b0257f7ff4ab50
+source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
 workflow-type: tm+mt
-source-wordcount: '2108'
-ht-degree: 96%
+source-wordcount: '2138'
+ht-degree: 95%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 5 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nota che indica che la versione [!DNL Target Standard/Premium] 18.8.1 è in ritardo. |
+|  | [Panoramica dell’allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso cambiare l&#39;origine per la generazione di rapporti a metà strada attraverso un&#39;attività [!UICONTROL Allocazione automatica]?</li></ul> |
 | 4 agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
 | 3 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione [!UICONTROL API di consegna Target] . |
 |  | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima versione [!DNL Target Standard/Premium] 21.8.1 (4 agosto 2021). |
