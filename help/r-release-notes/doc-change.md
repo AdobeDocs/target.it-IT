@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: 083a92c53d11d865738b456acf47cf9663fddcd1
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 95%
+source-wordcount: '2181'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 9 agosto | [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md) | Argomento aggiornato. |
+| 6 agosto | [Prima di implementare Analytics for Target (A4T) con at.js](/help/c-integrating-target-with-mac/a4t/before-implement.md) | Nota aggiornata:<ul><li>at.js 1.8.0+ e at.js 2.x+ non funzionano più con le versioni API dei visitatori precedenti alla 2.5.0 per il passaggio dei parametri Adobe Audience Manager (AAM).</li></ul> |
 | 5 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | È stata aggiunta una nota che indica che la versione [!DNL Target Standard/Premium] 18.8.1 è in ritardo. |
 |  | [Panoramica dell’allocazione automatica](/help/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#change-reporting) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso cambiare l&#39;origine per la generazione di rapporti a metà strada attraverso un&#39;attività [!UICONTROL Allocazione automatica]?</li></ul> |
 | 4 agosto | [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
