@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Note sulla versione
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 2d11409e9bab2db5d12c5961c7336040b8544614
+source-git-commit: 14a1755bf3f3e47baea3a2105679c9d2951948a4
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 65%
+source-wordcount: '705'
+ht-degree: 62%
 
 ---
 
@@ -23,6 +23,13 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 >Per evitare potenziali problemi con i siti, passa alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
+
+## [!DNL Target] node.js SDK 2.1.8 (11 agosto 2021)
+
+* Aggiunta raccolta dati di telemetria SDK
+* Codice openapi del client API di consegna automatica
+
+Per ulteriori informazioni su questa versione e sulle versioni precedenti, consulta il [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) nella [documentazione SDK di Target node.js](https://github.com/adobe/target-nodejs-sdk) su Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (data da definire)
 
