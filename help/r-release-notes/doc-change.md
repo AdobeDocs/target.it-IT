@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Note sulla versione
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fe70f357e2298f1656d713aae5fae800e6775d64
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2214'
+source-wordcount: '2231'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 19 agosto | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Il seguente paragrafo è stato aggiornato:<ul><li>A4T supporta le suite di rapporti virtuali?</li></ul> |
 | 16 agosto | [Note sulla versione di Target (attuale)](/help/r-release-notes/release-notes.md)<br>e<br>[dettagli sulla versione at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte note sulla versione per at.js 2.6.1. |
 |  | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stata aggiunta la sezione &quot;Best practice&quot;. |
 | 11 agosto | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per l’ SDK node.js versione 2.2.0 di [!DNL Target] . |
