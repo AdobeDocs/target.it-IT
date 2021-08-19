@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Note sulla versione
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '581'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
@@ -30,10 +30,10 @@ Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Tar
 * **08.00 (PDT, UTC -7)**
 * **[Fai clic qui per ulteriori informazioni e per registrarti](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
 
-James McTiernan risponderà alle domande dei clienti relative alle aree di competenza in [!DNL Target]:[!DNL Adobe Target]
+James McTiernan, Principal Solutions Consultant per [!DNL Adobe Target], risponderà alle domande dei clienti relative alle sue aree di competenza su [!DNL Target]:
 
-* Recommendations
-* Test A/B e multivariato (MVT)
+* Consigli
+* Test A/B e multivariati (MVT)
 * Personalizzazione
 
 ## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da Adobe Target
