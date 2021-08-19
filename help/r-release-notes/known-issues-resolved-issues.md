@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 131a938470a45144ad3ab487b6bccfa306abcaf1
 workflow-type: tm+mt
 source-wordcount: '4505'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -35,7 +35,7 @@ L’interfaccia utente [!DNL Target] consente agli utenti di selezionare metrich
 
 Per un elenco delle metriche di obiettivo supportate e non supportate, consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Il Compositore esperienza avanzato non supporta le richieste di PUT.
+### Il Compositore esperienza avanzato non supporta le richieste PUT.
 
 Attualmente, un problema con il Compositore esperienza avanzato impedisce il supporto delle richieste PUT e causa un errore di timeout 504. (TGT-41493)
 
