@@ -8,7 +8,7 @@ exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
 source-git-commit: 7badceff58e00f8406d24621534d24ea4067a224
 workflow-type: tm+mt
 source-wordcount: '1364'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
@@ -62,17 +62,17 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ## Consegna dei contenuti {#content-delivery}
 
-* **Limite**: 100 richieste di consegna  [!DNL Target] contenuti simultanee per sessione utente.
+* **Limite**: 100 richieste simultanee[!DNL Target] di consegna contenuti per sessione utente.
 
-   Se un cliente supera i 100 richieste di consegna contenuti simultanee [!DNL Target] per una determinata sessione utente, tutte le richieste successive per quella sessione utente vengono bloccate. Due o più richieste sono considerate simultanee se vengono tutte inviate al server [!DNL Target] prima che la risposta venga ricevuta per una qualsiasi di esse. [!DNL Target] elabora in sequenza le richieste simultanee per la stessa sessione.
+   Se un cliente supera le 100 richieste simultanee di consegna contenuti [!DNL Target] per una determinata sessione utente, tutte le richieste successive nella stessa sessione utente vengono bloccate. Due o più richieste sono considerate simultanee se vengono tutte inviate al server [!DNL Target] prima che venga ricevuta la risposta per una di esse. [!DNL Target] elabora in sequenza le richieste simultanee per la stessa sessione.
 
-* **Comportamento** errore:
+* **Comportamento di errore**:
 
-   * API di consegna e mbox batch v2:
+   * API di consegna e Batch Mbox v2:
       * Codice di errore: HTTP 420 - Troppe richieste
-      * Messaggio di errore: &quot;Troppe richieste con lo stesso ID sessione&quot;
+      * Messaggio di errore: “Troppe richieste con lo stesso ID sessione”
    * API mbox legacy:
-      * Contenuto predefinito con commento &quot;Troppe richieste con lo stesso ID sessione&quot;
+      * Contenuto predefinito con commento “Troppe richieste con lo stesso ID sessione”
    * at.js:
       * Contenuto predefinito visualizzato
 
@@ -117,13 +117,13 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ### entity.id
 
-* **Limite per le implementazioni che richiedono l’acquisizione di informazioni** di acquisto: 50 caratteri.
+* **Limite per le implementazioni che richiedono l’acquisizione di informazioni di acquisto**: 50 caratteri.
 
-   Questo limite viene applicato perché il parametro mbox `productPurchasedId` acquisisce entity.ids, che limita il conteggio dei caratteri a 50.
+   Questo limite viene applicato perché il parametro mbox `productPurchasedId` acquisisce entity.ids, che prevede un limite massimo di 50 caratteri.
 
 * **Limite per le implementazioni che richiedono solo algoritmi basati sulla visualizzazione:**: 1.000 caratteri.
 
-   Gli algoritmi basati sulla visualizzazione includono visualizzazione/visualizzazione, più visualizzate, più visualizzate di recente e così via.
+   Gli algoritmi basati sulla visualizzazione includono visualizzazione/visualizzazione, più visualizzate, visualizzate di recente e così via.
 
 ## excludedIds {#excludedid}
 
@@ -249,7 +249,7 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
 ## Parametro productPurchasedId
 
-* **Limite**: 50 caratteri per valore separato da virgole e 250 caratteri in totale. I singoli valori più lunghi di 50 caratteri vengono troncati dal sistema. Le lunghezze totali superiori ai 250 caratteri generano un errore 400.
+* **Limite**: 50 caratteri per valore separato da virgole e 250 caratteri in totale. Singoli valori che superano i 50 caratteri possono essere troncati dal sistema. Un totale di caratteri superiore a 250 può generare un errore 400.
 
 ## Script di profilo
 
