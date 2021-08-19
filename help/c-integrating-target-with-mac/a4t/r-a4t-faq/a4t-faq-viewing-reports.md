@@ -4,10 +4,9 @@ description: Trova le risposte alle domande più frequenti sulla visualizzazione
 title: Trova risposte alle domande sulla visualizzazione di rapporti con A4T?
 feature: Analytics for Target (A4T)
 exl-id: a02eeb34-3975-424b-a046-e51f10ae1823
-translation-type: tm+mt
-source-git-commit: 0136e1a17181ed6bc39b112ee464eff5af7785b0
+source-git-commit: 8b8091557fc1df48830bfa3211aa789b2c987f2d
 workflow-type: tm+mt
-source-wordcount: '2512'
+source-wordcount: '2538'
 ht-degree: 37%
 
 ---
@@ -18,7 +17,7 @@ Questo argomento contiene le risposte alle domande più frequenti sulla visualiz
 
 ## Posso visualizzare i dati delle mie attività [!DNL Target] in Analysis Workspace? {#workspace}
 
-Puoi utilizzare [!DNL Analysis Workspace] per analizzare le attività e le esperienze [!DNL Target]. Il pannello [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html) ti consente di visualizzare l’incremento e l’affidabilità per fino a tre metriche di successo. Puoi anche approfondire l’uso di tabelle e visualizzazioni.
+Puoi utilizzare [!DNL Analysis Workspace] per analizzare le attività e le esperienze [!DNL Target]. Il pannello [Analytics for Target](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/panels/a4t-panel.html?lang=it) ti consente di visualizzare l’incremento e l’affidabilità per fino a tre metriche di successo. Puoi anche approfondire l’uso di tabelle e visualizzazioni.
 
 Per informazioni ed esempi dettagliati, apri [Analytics &amp; Target: Esercitazione sulle best practice per l&#39;analisi](https://spark.adobe.com/page/Lo3Spm4oBOvwF/), fornita da Adobe Experience League.
 
@@ -93,28 +92,28 @@ Il 1° gennaio, l’utente entra nel sito, vede l’attività XYZ una volta e vi
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 1 | 5 | 3 | 3 |
+| XYZ | 1 | 5 | 1 | 1 |
 
 L’utente torna il 1° febbraio, visualizza altre cinque pagine, non incontra altre attività di Target e l’attività originale non è più attiva. Anche se l’attività non è più attiva, continua a seguire l’utente tramite la persistenza eVar. I dati ora si presentano così:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 10 | 2 | 3 |
+| XYZ | 1 | 10 | 2 | 1 |
 
 L’utente torna il 1° marzo e vede una nuova attività: ABC. Anche questa volta l’utente visualizza cinque pagine. Poiché l’attività XYZ continua a seguire l’utente attraverso la persistenza e questo utente ha quindi impostato ABC, vedrai due voci nel rapporto:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci |
 |--- |--- |--- |--- |--- |
-| XYZ | 3 | 15 | 3 | 3 |
-| ABC | 3 | 5 | 3 | 3 |
+| XYZ | 1 | 15 | 3 | 1 |
+| ABC | 1 | 5 | 1 | 1 |
 
 L’utente poi torna il 1° aprile, visualizza altre cinque pagine ed effettua un acquisto. La scadenza di 90 giorni di quel primo valore di eVar viene reimpostata il 1° aprile, quindi lo puoi vedere nei rapporti. Tutte le attività di Target che l’utente ha visto ricevono credito per la conversione, ma il numero totale di conversioni viene deduplicato:
 
 | Nome attività | Istanze (impression) | Visualizzazioni pagina | Visite | Visitatori univoci | Ordini |
 |--- |--- |--- |--- |--- |--- |
-| XYZ | 3 | 20 | 4 | 3 | 3 |
-| ABC | 3 | 10 | 2 | 3 | 3 |
-| Totale | 2 | 20 | 3 | 3 | 3 |
+| XYZ | 1 | 20 | 4 | 1 | 1 |
+| ABC | 1 | 10 | 2 | 1 | 1 |
+| Totale | 2 | 20 | 1 | 1 | 1 |
 
 Poiché entrambe le esperienze sono state viste prima della conversione, entrambe ottengono &quot;credito&quot; per l’ordine. Tuttavia, nel sistema è stato effettuato un solo ordine e il totale riflette questa situazione. Per il reporting [!DNL Target], poiché non stai mettendo un&#39;attività [!DNL Target] contro un&#39;altra attività per vedere quale ha più successo, non importa che tutte le attività visualizzate dall&#39;utente abbiano ricevuto credito. Stai confrontando i risultati di due elementi all’interno della singola attività. Non è possibile che un utente veda diverse esperienze nella stessa attività, in modo da non doverti preoccupare della contaminazione incrociata del credito d’ordine.
 
@@ -134,7 +133,7 @@ La metrica [!UICONTROL Visitatori unici] mostra il numero di persone che sono st
 
 È possibile ridurre il tempo in cui la variabile [!DNL Target] persiste fino a una sessione; tuttavia, ciò è problematico per i test in cui è improbabile che l’evento di conversione si verifichi entro la stessa sessione.
 
-## Perché lo stesso visitatore a volte viene conteggiato in più esperienze in Analytics?  {#section_1397E972D31C4207A142E4D2D6D794A2}
+## Perché lo stesso visitatore a volte viene conteggiato in più esperienze in Analytics? {#section_1397E972D31C4207A142E4D2D6D794A2}
 
 Di seguito sono elencati i motivi per cui lo stesso visitatore potrebbe essere conteggiato in più esperienze in [!DNL Analytics]:
 
@@ -142,9 +141,9 @@ Di seguito sono elencati i motivi per cui lo stesso visitatore potrebbe essere c
 * Se il visitatore utilizza il `mbox3rdPartyId`, quando il visitatore anonimo viene unito al profilo ID di terze parti, [!DNL Target] potrebbe porre il visitatore in un’esperienza diversa per farlo corrispondere all’ID di terze parti. Per ulteriori informazioni, consulta [Sincronizzazione dei profili in tempo reale per mbox3rdPartyID](/help/c-target/c-visitor-profile/3rd-party-id.md#concept_BF4113593F614987B1D3E359AE1C5732).
 * [!DNL Analytics] potrebbe tenere traccia di dispositivi diversi come lo stesso visitatore in un modo diverso rispetto a  [!DNL Target] quelli tracciati: la configurazione dell’ID di terze parti in  [!DNL Target] è diversa da in Analytics.
 
-## A4T supporta le suite di rapporti virtuali?
+## A4T supporta le suite di rapporti virtuali? {#virtual}
 
-Le suite di rapporti virtuali *non* sono incluse nell’elenco Suite di rapporti e i tipi di pubblico di suite di rapporti virtuali non sono supportati nelle funzioni di reporting di A4T.
+Sebbene le suite di rapporti virtuali non siano incluse nell’elenco [!UICONTROL Suite di rapporti], tutti i dati A4T condivisi con una suite di rapporti collegata a una suite di rapporti virtuale in [!DNL Analytics] hanno accesso a tali dati. Qualsiasi pubblico creato da una suite di rapporti virtuale non può essere condiviso nuovamente in [!DNL Target].
 
 ## Posso cambiare la percentuale di allocazione del traffico in un’attività che utilizza A4T dopo che l’attività è stata attivata?
 
