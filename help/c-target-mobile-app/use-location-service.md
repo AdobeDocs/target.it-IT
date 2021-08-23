@@ -1,24 +1,23 @@
 ---
-keywords: app mobile;posizione dell'app mobile;destinazione dell'app mobile;posizione dell'app mobile;posizione dell'app mobile;servizio di localizzazione;servizio di posizione cloud dell'esperienza Adobe;punti di interesse;sdk;posizione
-description: Scoprite come utilizzare Adobe Experience Platform Location Service per abilitare le app mobili con la consapevolezza della posizione.
-title: Come si utilizza il servizio posizione Adobe ?
-feature: Implement Mobile
+keywords: app mobile;posizione app mobile;target app mobile;posizioni target mobili;servizio posizione;servizio posizione;servizio posizione adobe experience cloud;punti di interesse;sdk;posizione
+description: Scopri come utilizzare Adobe Experience Platform Location Service per abilitare le app mobili con la consapevolezza della posizione.
+title: Come si utilizza il servizio posizione Adobe?
+feature: Implementare Mobile
 role: Developer
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 130d78e6-f361-4e8a-aa0e-f31bfd6b4dfa
+source-git-commit: fd7d3900f9e5d1a6c3d13fd2452de8528f8fd248
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '178'
 ht-degree: 1%
 
 ---
 
-
 # Utilizzare il servizio posizione
 
-La posizione è un contesto importante per comprendere e interagire con gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell&#39;app e renderla un&#39;esperienza più personalizzata e coinvolgente.
+La posizione è un contesto importante per comprendere e coinvolgere gli utenti dei dispositivi mobili. Utilizzando questo contesto, gli sviluppatori di app mobili possono migliorare la progettazione dell’app e renderla un’esperienza più personalizzata e coinvolgente.
 
-Adobe Experience Platform Location Service (Location Service) è un servizio di geolocalizzazione che consente alle app mobili con consapevolezza della posizione di comprendere il contesto della posizione utilizzando interfacce SDK ricche e facili da usare, accompagnate da un database flessibile di punti di interesse (POI).
+[!DNL Adobe Experience Platform Location Service] ([!DNL Location Service]) è un servizio di geolocalizzazione che consente alle app mobili dotate di awareness della posizione di contestualizzare quest&#39;ultima mediante l&#39;uso di interfacce SDK avanzate e facili da usare, associate a un database flessibile di punti di interesse (POI).
 
-Puoi utilizzare Location Service con Target per sfruttare le regole in [ Adobe Experience Platform Launch](https://experienceleague.adobe.com/docs/launch/using/overview.html) per allegare i dati di Place agli eventi dell&#39;SDK Adobe Target .
+Puoi utilizzare [!DNL Location Service] con [!DNL Target] per sfruttare le regole con i tag [in [!DNL Adobe Experience Platform]](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html) per allegare i dati di Places agli eventi SDK [!DNL Adobe Target].
 
-Per ulteriori informazioni, vedere [Utilizzare il servizio di localizzazione con  Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) nella [guida Adobe Experience Platform Location Service](https://experienceleague.adobe.com/docs/places/using/home.html).
+Per ulteriori informazioni, consulta [Utilizzare il servizio posizione con Adobe Target](https://experienceleague.adobe.com/docs/places/using/use-places-with-other-solutions/places-target/places-target.html) nella [guida al servizio posizione Adobe Experience Platform](https://experienceleague.adobe.com/docs/places/using/home.html).
