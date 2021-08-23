@@ -4,7 +4,7 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Allocazione automatica
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 369b0392eec693de3ec5cae104830940ffd5594e
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '3454'
 ht-degree: 50%
@@ -33,7 +33,7 @@ In tali test, la maggior parte dei prodotti, tra cui [!DNL Target], utilizza il 
 
 [!UICONTROL L’allocazione automatica esegue tutti i confronti impliciti tra le esperienze e produce un vincitore “reale”. ] Non vi è alcuna nozione di esperienza di “controllo” nel test.
 
-[!UICONTROL L’] allocazione automatica assegna in modo intelligente nuovi visitatori alle esperienze fino a quando l’intervallo di affidabilità della migliore esperienza non si sovrappone all’intervallo di affidabilità di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma [!UICONTROL Allocazione automatica] utilizza intervalli di affidabilità in base alla [Disuguaglianza Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) che compensa le valutazioni ripetute. A questo punto, c&#39;è un vero vincitore. Quando [!UICONTROL Allocazione automatica] si arresta, purché non vi sia una notevole dipendenza dal tempo per i visitatori che arrivano alla pagina, vi è almeno un 95% di probabilità che [!UICONTROL Allocazione automatica] restituisca un&#39;esperienza la cui vera risposta non sia inferiore all&#39;1% (relativo) rispetto alla vera risposta dell&#39;esperienza vincente.
+[!UICONTROL L’] allocazione automatica assegna in modo intelligente nuovi visitatori alle esperienze fino a quando l’intervallo di affidabilità della migliore esperienza non si sovrappone all’intervallo di affidabilità di qualsiasi altra esperienza. Normalmente questo processo potrebbe produrre falsi positivi, ma [!UICONTROL Allocazione automatica] utilizza intervalli di affidabilità in base alla [Disuguaglianza Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) che compensa le valutazioni ripetute. A questo punto, c&#39;è un vero vincitore. Quando [!UICONTROL Allocazione automatica] si arresta, purché non vi sia una notevole dipendenza dal tempo per i visitatori che arrivano alla pagina, vi è almeno un 95% di probabilità che [!UICONTROL Allocazione automatica] restituisca un&#39;esperienza la cui vera risposta non sia inferiore all&#39;1% (relativo) rispetto alla vera risposta dell&#39;esperienza vincente.
 
 ## Quando utilizzare [!UICONTROL Allocazione automatica] rispetto a A/B o [!UICONTROL Automated Personalization] {#section_3F73B0818A634E4AAAA60A37B502BFF9}
 
