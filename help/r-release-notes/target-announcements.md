@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Note sulla versione
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
-workflow-type: ht
-source-wordcount: '581'
-ht-degree: 100%
+source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -26,15 +26,16 @@ Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Tar
 
 ## Community Q&amp;A Coffee Break [!DNL Adobe Target]
 
-* **Mercoledì 11 agosto 2021**
+* **Mercoledì 8 settembre 2021**
 * **08.00 (PDT, UTC -7)**
-* **[Fai clic qui per ulteriori informazioni e per registrarti](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-8-11-21-8am-pt-jim-mctiernan/m-p/410332/thread-id/2742).**
+* **[Fai clic qui per ulteriori informazioni e per registrarti](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-9-8-21-8am-pt-vishal-chordia/td-p/419497).**
 
-James McTiernan, Principal Solutions Consultant per [!DNL Adobe Target], risponderà alle domande dei clienti relative alle sue aree di competenza su [!DNL Target]:
+Vishal Chordia, Senior Product Manager per [!DNL Adobe Target], risponderà alle domande dei clienti relative alle sue aree di competenza:
 
-* Consigli
-* Test A/B e multivariati (MVT)
-* Personalizzazione
+* [!DNL Adobe Experience Platform]
+* Personalizzazione basata sul pubblico
+* [!DNL Real-time Customer Data Platform] Integrazione (RTCDP) con  [!DNL Target]
+* Argomenti generali [!DNL Target]
 
 ## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da Adobe Target
 
