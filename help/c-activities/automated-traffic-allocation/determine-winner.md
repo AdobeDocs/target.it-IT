@@ -4,7 +4,7 @@ description: Scopri come interpretare i risultati di un’attività di allocazio
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Allocazione automatica
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 4c696f55f56a116cff61c2c307f750e72cc0107c
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
 source-wordcount: '1136'
 ht-degree: 47%
@@ -41,13 +41,13 @@ Al termine di un&#39;attività A/B, Allocazione automatica garantisce che il vin
 
 Non utilizziamo l’affidabilità basata sul valore p per l&#39;Allocazione automatica.
 
-La colonna Affidabilità in un&#39;attività di Allocazione automatica (illustrata di seguito) visualizza la probabilità che un&#39;esperienza sia il vincitore entro l&#39;1% di margine di errore (cioè l&#39;algoritmo utilizza un effetto minimo rilevabile dell&#39;1% tra il tasso di conversione migliore e il secondo migliore). L&#39;algoritmo utilizza la [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_(probability_theory)) per calcolare questa probabilità.
+La colonna Affidabilità in un&#39;attività di Allocazione automatica (illustrata di seguito) visualizza la probabilità che un&#39;esperienza sia il vincitore entro l&#39;1% di margine di errore (cioè l&#39;algoritmo utilizza un effetto minimo rilevabile dell&#39;1% tra il tasso di conversione migliore e il secondo migliore). L&#39;algoritmo utilizza la [disuguaglianza di Bernstein](https://en.wikipedia.org/wiki/Bernstein_inequalities_%28probability_theory%29) per calcolare questa probabilità.
 
 I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Allocazione automatica non utilizza i valori p. I valori p calcolano “liberamente” la probabilità che una determinata esperienza sia diversa dal controllo. Questi valori p possono essere utilizzati solo per determinare se un’esperienza è diversa dal controllo. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere basata sui risultati del calcolatore delle dimensioni del campione Adobe Target [a1/>. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html) Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere basata sui risultati del calcolatore delle dimensioni del campione Adobe Target [a1/>. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprendere i rapporti Incremento e Affidabilità nelle attività di Allocazione automatica {#lift-confidence}
 
