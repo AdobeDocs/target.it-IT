@@ -5,8 +5,7 @@ title: Come si attiva [!DNL Target] nell'SDK di Adobe Mobile?
 feature: Implementare Mobile
 role: Developer
 exl-id: c34bd50c-e17f-4dfb-8470-8f4c8639ee9f
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c9c335c241727c4eff1d27f52853e32b8d18b6a5
 workflow-type: tm+mt
 source-wordcount: '259'
 ht-degree: 79%
@@ -17,7 +16,7 @@ ht-degree: 79%
 
 Aggiungi l’SDK di Adobe Mobile Services all’app.
 
-1. Se non hai installato l’SDK di Adobe Mobile Services nell’app, utilizza le credenziali di Google Analytics o di Experience Cloud e scarica l’SDK dal sito web di [Adobe Mobile Services](https://mobilemarketing.adobe.com).
+1. Se non hai installato l’SDK di Adobe Mobile Services nell’app, utilizza le credenziali di Google Analytics o di Experience Cloud e scarica l’SDK dal sito web di [Adobe Mobile Services](https://mobilemarketing.adobe.com/).
 
 1. Aggiungi l’SDK di Adobe Mobile Services all’app.
 
