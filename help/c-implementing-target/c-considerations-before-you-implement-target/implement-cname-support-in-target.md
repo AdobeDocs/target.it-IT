@@ -5,10 +5,10 @@ title: Come si utilizza il CNAME in Target?
 feature: Privacy e sicurezza
 role: Developer
 exl-id: bf533771-6d46-48ba-964c-3ad9ce9f7352
-source-git-commit: 1f27ebfb7fb4203558f4d10e5e98cced04a82f2b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1191'
-ht-degree: 1%
+source-wordcount: '1176'
+ht-degree: 2%
 
 ---
 
@@ -66,7 +66,7 @@ Puoi fornire il tuo certificato. Tuttavia, [!DNL Adobe] non consiglia questa pra
 
 ### Per quanto tempo scade il nuovo certificato SSL?
 
-I certificati rilasciati prima del 1° settembre 2020 sono certificati biennali. I certificati rilasciati a partire dal 1° settembre 2020 sono certificati annuali. Per ulteriori informazioni sul passaggio a certificati annuali [qui](https://www.digicert.com/position-on-1-year-certificates), consulta la sezione dedicata al passaggio a certificati annuali.
+I certificati rilasciati prima del 1° settembre 2020 sono certificati biennali. I certificati rilasciati a partire dal 1° settembre 2020 sono certificati annuali.
 
 ### Quali nomi host dovrei scegliere? Quanti nomi host per dominio devo scegliere?
 
