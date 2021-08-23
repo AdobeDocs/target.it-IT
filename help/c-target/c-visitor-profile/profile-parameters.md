@@ -4,7 +4,7 @@ description: Scopri gli attributi specifici del visitatore memorizzati nel profi
 title: Cosa Sono Gli Attributi Del Profilo?
 feature: Tipi di pubblico
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '2403'
 ht-degree: 50%
@@ -33,7 +33,7 @@ Per impostare gli attributi del profilo:
 
    | Tipo di parametro | Descrizione |
    |--- |--- |
-   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota:  ha un limite di 50 attributi univoci di profilo per chiamata mbox. [!DNL Target] Se devi passare più di 50 attributi di profilo a [!DNL Target], trasmettili utilizzando il metodo API Aggiornamento profilo . Per ulteriori informazioni, consulta [Aggiornamento profilo nella documentazione [!DNL Adobe Target] API](http://developers.adobetarget.com/api/#updating-profiles). |
+   | mbox | Passaggio diretto attraverso il codice della pagina quando viene creata la mbox. Consulta [Trasmettere parametri a una mbox globale](/help/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md).<br>**** Nota:  ha un limite di 50 attributi univoci di profilo per chiamata mbox. [!DNL Target] Se devi passare più di 50 attributi di profilo a [!DNL Target], trasmettili utilizzando il metodo API Aggiornamento profilo . Per ulteriori informazioni, consulta [Aggiornamento profilo nella documentazione [!DNL Adobe Target] API](https://developers.adobetarget.com/api/#updating-profiles). |
    | Profilo | Definito direttamente con uno snippet di codice JavaScript. Questi snippet possono memorizzare i totali correnti come il denaro totale speso dal consumatore e vengono eseguiti su ogni richiesta mbox. Consulta Attributi degli script di profilo di seguito. |
 
 ## Attributi degli script di profilo {#concept_8C07AEAB0A144FECA8B4FEB091AED4D2}
