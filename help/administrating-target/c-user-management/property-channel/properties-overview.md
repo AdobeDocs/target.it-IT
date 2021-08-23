@@ -2,12 +2,12 @@
 keywords: aggiungi utente;progetto;gruppo utenti;proprietà;area di lavoro;gestisci proprietà;proprietà;at_property;ruoli;autorizzazioni
 description: Scopri come aggiungere utenti ad Adobe Target; creare aree di lavoro, gruppi di utenti e proprietà; aggiorna la tua implementazione; e specifica ruoli e autorizzazioni.
 title: Come Si Configurano Le Autorizzazioni Enterprise?
-feature: Amministrazione e configurazione
+feature: Amministrazione & configurazione
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '1452'
+source-wordcount: '1458'
 ht-degree: 66%
 
 ---
@@ -148,7 +148,7 @@ Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessar
 
    * **Tramite un “parametro globale” in [!DNL Adobe Launch]:**
 
-      Per ulteriori informazioni, consulta [Aggiungi parametri di Target globali](https://docs.adobelaunch.com/extension-reference/web/adobe-target-extension#add-global-mbox-params) nella documentazione *Adobe Experience Platform Launch* .
+      Per ulteriori informazioni, consulta [Aggiungi parametri di Target globali](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) nella documentazione *Adobe Experience Platform Launch* .
 
    * **Tramite la funzione targetPageParams():** inserisci il seguente codice nei  `<head>` tag, sopra il riferimento at.js.
 
