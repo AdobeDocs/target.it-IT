@@ -4,9 +4,9 @@ description: Scopri gli attributi specifici del visitatore memorizzati nel profi
 title: Cosa Sono Gli Attributi Del Profilo?
 feature: Tipi di pubblico
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2403'
 ht-degree: 50%
 
 ---
@@ -142,7 +142,7 @@ Le seguenti linee guida hanno lo scopo di facilitare la scrittura di script di p
    * Gli script di profilo devono essere testati sulle prestazioni prima di essere aggiunti a [!DNL Target]. Tutti gli script di profilo vengono eseguiti su ogni richiesta mbox. Se gli script di profilo non vengono eseguiti correttamente, l’esecuzione delle richieste mbox richiede più tempo, il che può influire sul traffico e sulla conversione.
    * Se gli script di profilo diventano troppo complessi, è consigliabile utilizzare invece i [token di risposta](/help/administrating-target/response-tokens.md).
 
-* Per ulteriori informazioni, consulta la documentazione del motore JS Rhino : [https://www.mozilla.org/rhino/doc.html](https://www.mozilla.org/rhino/doc.html).
+* Per ulteriori informazioni, consulta la documentazione del motore JS Rhino .
 
 ## Debug degli script di profilo {#section_E9F933DE47EC4B4E9AF2463B181CE2DA}
 
