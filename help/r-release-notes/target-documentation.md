@@ -4,11 +4,10 @@ description: Accedi alla documentazione di Adobe  [!DNL Target]  compresi aiuto 
 title: Dove posso trovare la documentazione per Target?
 feature: Note sulla versione
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
-translation-type: ht
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
-workflow-type: ht
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+workflow-type: tm+mt
 source-wordcount: '466'
-ht-degree: 100%
+ht-degree: 98%
 
 ---
 
@@ -26,11 +25,11 @@ Segue una breve descrizione dei tipi di documentazione più comuni disponibili p
 | [Documentazione di Adobe Experience Platform Launch Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informazioni sull’implementazione di [!DNL Target] utilizzando [!DNL Adobe Experience Platform Launch], la piattaforma di gestione dei tag di nuova generazione di [!DNL Adobe]. Questo è il metodo preferito per implementare [!DNL Target]. |
 | [Sessioni “Office Hours” del Servizio clienti di Adobe](/help/cmp-resources-and-contact-information.md#concept_58EA30379D3B48C4848BA2A8C464A5B7) | Informazioni su “Office Hours”, un’iniziativa nata dal team di assistenza clienti di Adobe. Queste sessioni sono progettate per informare e aiutare i partecipanti a risolvere problemi e fornire suggerimenti e trucchi utili per le soluzioni [!DNL Adobe Experience Cloud], tra cui [!DNL Target]. |
 | [Serie di webinar sui fondamenti di Target](https://landing.adobe.com/acs/2018/na/adobe-target/registration.html) | Informazioni sulla registrazione e collegamenti alle sessioni precedenti della serie di webinar sui fondamenti di [!DNL Target], una serie di webinar su Customer Success offerta dalla community. |
-| [Sviluppatori Adobe Target](http://developers.adobetarget.com/) | Le informazioni sul sito per sviluppatori Adobe Target sono utili per implementare [!DNL Target] su applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Puoi anche esportare i dati [!DNL Target] in soluzioni di terze parti. |
+| [Sviluppatori Adobe Target](https://developers.adobetarget.com/) | Le informazioni sul sito per sviluppatori Adobe Target sono utili per implementare [!DNL Target] su applicazioni lato client, applicazioni lato server, app mobili, IoT e altro ancora. Puoi anche esportare i dati [!DNL Target] in soluzioni di terze parti. |
 | [API per la funzione Consigli di Target](https://developers.adobetarget.com/api/recommendations/) | Informazioni sulle API [!UICONTROL Recommendations] che consentono di interagire in modo programmatico con i server di consigli [!DNL Target]. Queste API possono essere integrate con una serie di applicazioni per eseguire funzioni che vengono normalmente eseguite mediante l’interfaccia utente [!DNL Target]. |
 | [API di distribuzione lato server](https://developers.adobetarget.com/api/delivery-api/) | Informazioni sulle risorse che compongono Adobe Target Delivery API. |
 | [SDK per Target lato server](https://adobetarget-sdks.gitbook.io/docs/) | Spiega come implementare [!DNL Target] lato server utilizzando gli SDK. |
-| [Documentazione Adobe.IO per Target](http://developers.adobetarget.com/api/#introduction) | Informazioni sulle API REST per l’amministrazione e i profili di Adobe Target, basate sull’integrazione Adobe.IO per gestire attività, tipi di pubblico, offerte, proprietà, rapporti, mbox, ambienti e profili. |
+| [Documentazione Adobe.IO per Target](https://developers.adobetarget.com/api/#introduction) | Informazioni sulle API REST per l’amministrazione e i profili di Adobe Target, basate sull’integrazione Adobe.IO per gestire attività, tipi di pubblico, offerte, proprietà, rapporti, mbox, ambienti e profili. |
 | [SDK di Adobe Experience Platform Mobile](https://aep-sdks.gitbook.io/docs/using-mobile-extensions/adobe-target) | Informazioni sull’implementazione di [!DNL Target] nelle app mobili. |
 
 Oltre alle risorse di cui sopra, visita la [Community Target di Adobe Experience League](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community), dove è possibile:
