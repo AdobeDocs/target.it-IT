@@ -5,7 +5,7 @@ title: Come si utilizza la funzione adobe.target.getOffers()?
 feature: at.js
 role: Developer
 exl-id: ed5f06c8-d837-4ea1-a857-c6c46424aa1f
-source-git-commit: 22b94dd303a25be3bfa1d120b13c9c9cc2cc7680
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '1285'
 ht-degree: 85%
@@ -31,7 +31,7 @@ Questa funzione ti consente di recuperare più offerte passando più mbox. Inolt
 
 >[!NOTE]
 >
->Consulta la [documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
+>Consulta la [documentazione API di consegna](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
 
 | Nome campo | Obbligatorio | Limitazioni | Descrizione |
 | --- | --- | --- | --- |
