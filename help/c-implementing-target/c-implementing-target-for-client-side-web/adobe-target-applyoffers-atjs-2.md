@@ -5,11 +5,10 @@ title: Come si utilizza la funzione adobe.target.applyOffers()?
 feature: at.js
 role: Developer
 exl-id: a6f4c755-e5a0-4228-90f3-0f9d3b092cd8
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '809'
-ht-degree: 92%
+ht-degree: 93%
 
 ---
 
@@ -30,7 +29,7 @@ Questa funzione ti consente di applicare più di un’offerta recuperata da `ado
 
 >[!NOTE]
 >
->Consulta la [documentazione API di consegna](http://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
+>Consulta la [documentazione API di consegna](https://developers.adobetarget.com/api/delivery-api/#tag/Delivery-API) per informazioni sui tipi accettabili per tutti i campi elencati di seguito.
 
 | Nome campo | Descrizione |
 | --- | --- |
