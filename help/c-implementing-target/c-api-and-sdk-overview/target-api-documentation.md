@@ -5,11 +5,10 @@ title: Come posso passare da API legacy ad Adobe I/O?
 feature: Implementare lato server
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '605'
-ht-degree: 87%
+ht-degree: 82%
 
 ---
 
@@ -21,7 +20,7 @@ Con il ritiro di Adobe Target Classic, le API che sono connesse al tuo account T
 
 Per ulteriori informazioni sulla documentazione API di Target, vedi [API di Target e SDK di NodeJS](/help/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
 
-## Terminologia {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
+## Terminologia  {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 
 | Termine | Descrizione |
 |--- |--- |
@@ -39,7 +38,7 @@ Le API legacy verranno ritirate insieme a Target Classic:
 
 Le API di Recommendations Classic non saranno influenzate da questa linea temporale.
 
-## Metodi equivalenti  {#section_DDB42CCC172545B09CB728D794CC466B}
+## Metodi equivalenti {#section_DDB42CCC172545B09CB728D794CC466B}
 
 Nella tabella seguente sono elencati i nuovi metodi delle API di Target equivalenti ai metodi API legacy. Le nuove API restituiscono JSON quando confrontate con la risposta XML fornita dalle API legacy.
 
@@ -47,26 +46,26 @@ I nuovi metodi delle API sono collegati alla sezione corrispondente nel sito del
 
 | Raggruppamento | Metodo API legacy | Nuovo metodo API | Note |
 |--- |--- |--- |--- |
-| Campagna/attività | Crea campagna | [Crea attività AB](http://developers.adobetarget.com/api/#create-ab-activity)<br>[Crea attività XT](http://developers.adobetarget.com/api/#create-xt-activity) | Le nuove API forniscono metodi di creazione separati per AB e XT |
-|  | Aggiorna campagna | [Aggiorna l&#39;attività AB](http://developers.adobetarget.com/api/#update-ab-activity)<br>[Aggiorna l&#39;attività XT](http://developers.adobetarget.com/api/#update-xt-activity) |  |
+| Campagna/attività | Crea campagna | [Crea attività AB](https://developers.adobetarget.com/api/#create-ab-activity)<br>[Crea attività XT](https://developers.adobetarget.com/api/#create-xt-activity) | Le nuove API forniscono metodi di creazione separati per AB e XT |
+|  | Aggiorna campagna | [Aggiorna l&#39;attività AB](https://developers.adobetarget.com/api/#update-ab-activity)<br>[Aggiorna l&#39;attività XT](https://developers.adobetarget.com/api/#update-xt-activity) |  |
 |  | Copia campagna | N/D | Utilizza le API Crea attività |
-|  | Elenco campagne | [Elenco attività](http://developers.adobetarget.com/api/#list-activities) |  |
-|  | Stato campagna | [Aggiorna stato attività](http://developers.adobetarget.com/api/#update-activity-state) |  |
-|  | Visualizza campagna | [Ottieni l&#39;attività AB da ID](http://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Ottieni l&#39;attività XT per ID](http://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
+|  | Elenco campagne | [Elenco attività](https://developers.adobetarget.com/api/#list-activities) |  |
+|  | Stato campagna | [Aggiorna stato attività](https://developers.adobetarget.com/api/#update-activity-state) |  |
+|  | Visualizza campagna | [Ottieni l&#39;attività AB da ID](https://developers.adobetarget.com/api/#get-ab-activity-by-id)<br>[Ottieni l&#39;attività XT per ID](https://developers.adobetarget.com/api/#get-xt-activity-by-id) |  |
 |  | ID campagna di terze parti | N/D | Se si utilizza un thirdpartyID, puoi utilizzare i metodi di attività rilevanti |
-| Offerte | Crea offerta | [Crea offerta](http://developers.adobetarget.com/api/#create-offer) |  |
-|  | Ottieni offerta | [Ottieni offerta per ID](http://developers.adobetarget.com/api/#get-offer-by-id) |  |
-|  | Elenco offerte | [Elenco offerte](http://developers.adobetarget.com/api/#list-offers) |  |
+| Offerte | Crea offerta | [Crea offerta](https://developers.adobetarget.com/api/#create-offer) |  |
+|  | Ottieni offerta | [Ottieni offerta per ID](https://developers.adobetarget.com/api/#get-offer-by-id) |  |
+|  | Elenco offerte | [Elenco offerte](https://developers.adobetarget.com/api/#list-offers) |  |
 |  | Elenco cartelle | N/D | Le cartelle non sono supportate in Target Standard/Premium |
-| Generazione di rapporti | Rapporto prestazioni campagna | [Ottieni rapporto prestazioni AB](http://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Ottieni rapporto prestazioni XT](http://developers.adobetarget.com/api/#get-xt-performance-report) |  |
-|  | Rapporto audit | [Ottieni rapporto audit](http://developers.adobetarget.com/api/#get-audit-report) |  |
-|  | Rapporto contenuto 1-1 | [Ottieni rapporto prestazioni AP](http://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
-| Impostazioni account | Ottieni gruppi host | [Elenco ambienti](http://developers.adobetarget.com/api/#list-environments) |  |
+| Generazione di rapporti | Rapporto prestazioni campagna | [Ottieni rapporto prestazioni AB](https://developers.adobetarget.com/api/#get-ab-performance-report)<br>[Ottieni rapporto prestazioni XT](https://developers.adobetarget.com/api/#get-xt-performance-report) |  |
+|  | Rapporto audit | [Ottieni rapporto audit](https://developers.adobetarget.com/api/#get-audit-report) |  |
+|  | Rapporto contenuto 1-1 | [Ottieni rapporto prestazioni AP](https://developers.adobetarget.com/api/#get-ap-activity-performance-report) |  |
+| Impostazioni account | Ottieni gruppi host | [Elenco ambienti](https://developers.adobetarget.com/api/#list-environments) |  |
 
 ## Eccezioni {#section_09CF9A0E289149279783B4801D1B6D4C}
 
 Se hai bisogno di un&#39;eccezione, contatta il tuo Customer Success Manager.
 
-## Aiuto  {#section_591F850E2B7A4342B1C233693425415C}
+## Aiuto {#section_591F850E2B7A4342B1C233693425415C}
 
 Ti invtiamo a contattare l’Assistenza clienti di Adobe Target (tt-support@adobe.com) per eventuali o se hai bisogno di aiuto nella transizione alle nuove API di Target su Adobe I/O.
