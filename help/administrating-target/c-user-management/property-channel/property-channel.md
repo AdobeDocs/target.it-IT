@@ -2,13 +2,13 @@
 keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
-feature: Amministrazione e configurazione
+feature: Amministrazione & configurazione
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 60%
+source-wordcount: '3020'
+ht-degree: 59%
 
 ---
 
@@ -42,7 +42,7 @@ I termini seguenti vengono utilizzati in questa sezione e potrebbero essere nuov
 
 ### Proprietà
 
-Le proprietà sono simili in natura alle proprietà all&#39;interno di [!DNL Adobe Platform Launch] in quanto utilizzano un frammento univoco di codice per differenziarle.
+Le proprietà sono simili in natura alle proprietà all&#39;interno di [!DNL Adobe Experience Platform] in quanto utilizzano un frammento univoco di codice per differenziarle.
 
 Una proprietà web è una libreria di regole e un codice incorporato. Una proprietà web può essere un raggruppamento di uno o più domini e sottodomini.
 
@@ -264,7 +264,7 @@ Le attività create prima della migrazione continuano a essere eseguite nello st
 
 ### Perché viene visualizzato un messaggio di errore a indicare che nessuna proprietà è associata a questa attività, anche se è stata assegnata una proprietà?
 
-Se dopo l’implementazione di [!DNL Target] con [!DNL Adobe Experience Platform Launch] si riceve un messaggio di errore per indicare che non è presente alcuna proprietà associata all’attività, passa il parametro `at_property` insieme alla funzione `targetPageParams`.
+Se hai implementato [!DNL Target] con tag in [!DNL Adobe Experience Platform] e ricevi un messaggio di errore che indica che non è presente alcuna proprietà associata all’attività, passa il parametro `at_property` con la funzione `targetPageParams` .
 
 ### Se una pagina di reindirizzamento e l’URL attività appartengono a proprietà diverse, vengono registrate le conversioni con tracciamento dei clic?
 
