@@ -5,10 +5,10 @@ title: Quali sono le domande e le risposte comuni su at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '2609'
-ht-degree: 75%
+source-wordcount: '2543'
+ht-degree: 77%
 
 ---
 
@@ -89,7 +89,7 @@ La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asi
 
 Per caricare at.js in modo asincrono:
 
-* L’approccio consigliato è tramite [!DNL Adobe Experience Platform Launch]. Per ulteriori informazioni, consulta la lezione [Aggiungere Adobe Target](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html) dell’ esercitazione [Implementare l’Experience Cloud nei siti web con Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html) .
+* L’approccio consigliato è tramite tag in [!DNL Adobe Experience Platform].
 * Puoi anche caricare at.js in modo asincrono aggiungendo l’attributo async al tag script che carica at.js. Usa una cosa simile:
 
    ```
@@ -109,7 +109,7 @@ Caricare at.js in modo asincrono è un ottimo modo per evitare di bloccare il re
 
 Puoi evitare questo fenomeno utilizzando uno snippet per nascondere la pagina (o parti specificate) e quindi la rivela dopo il caricamento di at.js e della richiesta globale. Lo snippet deve essere aggiunto prima del caricamento di at.js.
 
-Se distribuisci at.js tramite un’implementazione asincrona di Launch, accertati di includere lo snippet predefinito direttamente sulle pagine prima del codice di incorporamento di Launch, come descritto nella sezione [Aggiungi Snippet di Target pre-Hiding](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/implement-solutions/target.html#add-the-target-pre-hiding-snippet) della sezione [Implementazione dell’Experience Cloud nei siti web con esercitazione Launch](https://experienceleague.adobe.com/docs/launch-learn/implementing-in-websites-with-launch/index.html).
+Se distribuisci at.js tramite un’implementazione asincrona [!DNL Adobe Experience Platform], assicurati di includere lo snippet per nascondere le pagine direttamente, prima di implementare [!DNL Target] utilizzando il codice di incorporamento [!DNL Adobe Experience Platform] .
 
 Durante l’implementazione di at.js tramite un’implementazione sincrona di DTM, puoi aggiungere lo snippet tramite una regola di caricamento della pagina attivata nella parte superiore della pagina.
 
