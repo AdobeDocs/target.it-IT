@@ -5,10 +5,10 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Amministrazione & configurazione
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1458'
-ht-degree: 66%
+source-wordcount: '1460'
+ht-degree: 64%
 
 ---
 
@@ -24,11 +24,11 @@ Nella tabella seguente sono elencate le attività da eseguire per creare proprie
 
 | Attività | Eseguita in |
 |--- |--- |
-| 1. Aggiungere utenti (facoltativo) | [!DNL Adobe Admin Console for Enterprise] |
+| 1. Aggiungi utenti (facoltativo) | [!DNL Adobe Admin Console for Enterprise] |
 | 2. Creare un’area di lavoro (profilo prodotto) | [!DNL Adobe Admin Console for Enterprise] |
 | 3. Creare gruppi di utenti (facoltativo) | [!DNL Adobe Admin Console for Enterprise] |
 | 4. Creare proprietà | Interfaccia utente [!DNL Target] |
-| 5: Aggiornare l’implementazione per includere il parametro `at_property` | [!DNL Target] Interfaccia utente, funzioni at.js o  [!DNL Adobe Experience Platform Launch] |
+| 5: Aggiorna l’implementazione per includere il parametro `at_property` | [!DNL Target] Interfaccia utente, funzioni at.js o tag in  [!DNL Adobe Experience Platform] |
 | 6. Specificare ruoli e autorizzazioni | [!DNL Adobe Admin Console for Enterprise] |
 
 Per le attività eseguite in [!DNL Adobe Admin Console for Enterprise], accedi alla console seguendo questi passaggi:
@@ -146,9 +146,9 @@ Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessar
 
    Esistono diversi modi per aggiornare l&#39;implementazione di [!DNL Target]. Ad esempio, è possibile utilizzare i seguenti metodi per le pagine Web:
 
-   * **Tramite un “parametro globale” in [!DNL Adobe Launch]:**
+   * **Tramite un &quot;parametro globale nei tag in   [!DNL Adobe Experience Platform]:**
 
-      Per ulteriori informazioni, consulta [Aggiungi parametri di Target globali](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) nella documentazione *Adobe Experience Platform Launch* .
+      Per ulteriori informazioni, consulta [Aggiungi parametri di destinazione globale](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) nella documentazione *Panoramica sui tag* .
 
    * **Tramite la funzione targetPageParams():** inserisci il seguente codice nei  `<head>` tag, sopra il riferimento at.js.
 
