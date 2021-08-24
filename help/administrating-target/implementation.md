@@ -2,13 +2,13 @@
 keywords: implementare;implementazione
 description: Scopri come implementare Adobe [!DNL Target] sul tuo sito. Imposta le impostazioni globali, il metodo di implementazione (AEP Web SDK o at.js) e altro ancora.
 title: Come si implementa [!DNL Target] sul sito personale?
-feature: Amministrazione e configurazione
+feature: Amministrazione & configurazione
 role: Admin
 exl-id: 7cbe95cf-82f7-490f-a3f1-cc882ca489a6
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '143'
-ht-degree: 18%
+source-wordcount: '152'
+ht-degree: 3%
 
 ---
 
@@ -20,7 +20,7 @@ Per ulteriori informazioni, consulta i vari argomenti in [Implementare Target](/
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Platform Launch] è il metodo preferito da implementare  [!DNL Target]. [!DNL Launch] offre ai clienti un modo semplice di implementare e gestire tutti i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. Per ulteriori informazioni, consulta [Implementare Target con Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
+>I tag in [!DNL Adobe Experience Platform] sono il metodo preferito per implementare [!DNL Target]. I tag in [!DNL Adobe Experience Platform] sono la nuova generazione di funzionalità di gestione tag di [!DNL Adobe]. I tag forniscono ai clienti un modo semplice di implementare e gestire i tag di analisi, marketing e annunci pubblicitari necessari per fornire ai clienti esperienze personalizzate. Per ulteriori informazioni, vedere [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md).
 
 1. Per accedere alla pagina [!UICONTROL Implementazione], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]**.
 
