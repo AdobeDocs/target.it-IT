@@ -4,15 +4,14 @@ description: I riquadri di visualizzazione per dispositivi mobili consentono di 
 title: Come si utilizzano i riquadri di visualizzazione per dispositivi mobili per esperienze reattive?
 feature: Compositore esperienza visivo
 exl-id: 1062e7a1-10b4-4746-bce9-67017978578d
-translation-type: tm+mt
-source-git-commit: cb42be6b0791711d3a9ddf5680cf6d6e32045579
+source-git-commit: 2041a335c0396d1147ff57ee416942228daa7aa5
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 36%
+source-wordcount: '1159'
+ht-degree: 39%
 
 ---
 
-# Riquadri di visualizzazione per dispositivi mobili per esperienze reattive
+# Riquadri di visualizzazione mobili per esperienze dinamiche
 
 I riquadri di visualizzazione per dispositivi mobili consentono di visualizzare in anteprima le attività [!DNL Adobe Target] su schermi di varie dimensioni.
 
@@ -32,7 +31,7 @@ Di seguito sono riportati i riquadri di visualizzazione e le risoluzioni per i d
 
 >[!NOTE]
 >
->Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, vedere [https://viewportsizer.com/devices/](https://viewportsizer.com/devices/). Consulta il sito web del produttore del dispositivo per le informazioni più precise e aggiornate.
+>Ci sono vari siti web che elencano le misure del riquadro di visualizzazione dei dispositivi più popolari. Ad esempio, vedete `https://viewportsizer.com/devices/`. Consulta il sito web del produttore del dispositivo per le informazioni più precise e aggiornate.
 
 | Dispositivo | Dimensioni riquadro di visualizzazione (larghezza x altezza) | Risoluzione del dispositivo (larghezza x altezza) |
 |---|---|---|
@@ -45,7 +44,7 @@ Di seguito sono riportati i riquadri di visualizzazione e le risoluzioni per i d
 | iPhone 11 Xs Max | 414 x 896 | 1242 x 2688 |
 | iPhone 11 | 414 x 896 | 828 x 1792 |
 | iPhone 11 Xr | 414 x 896 | 828 x 1792 |
-| iPhone 11 Pro | 375 x 812 | 1125 x 2436 |
+| iPhone 12 Pro | 375 x 812 | 1125 x 2436 |
 | iPhone 11 X | 375 x 812 | 1125 x 2436 |
 | iPhone 11 Xs | 375 x 812 | 1125 x 2436 |
 | iPhone X | 375 x 812 | 1125 x 2436 |
@@ -96,7 +95,7 @@ Se il sito non è reattivo, utilizza il Compositore web mobile per visualizzare 
 >
 >Puoi modificare un’esperienza dall’interno di riquadri di visualizzazione per dispositivi mobili. Tuttavia, queste modifiche si applicano a tutti i riquadri di visualizzazione e dispositivi, non solo al riquadro di visualizzazione in cui si lavora. Analogamente, la modifica di un&#39;esperienza nella normale visualizzazione desktop cambia la pagina per tutte le dimensioni dello schermo, non solo la visualizzazione sul desktop. Attualmente, [!DNL Target] non supporta le modifiche di pagina specifiche per il riquadro di visualizzazione.
 
-## Configurazione del riquadro di visualizzazione mobile {#task_B4B161499DC0470584ED922A4D20FCAB}
+## Configurazione riquadro di visualizzazione mobile {#task_B4B161499DC0470584ED922A4D20FCAB}
 
 Configura i riquadri di visualizzazione per dispositivi mobili che desideri rendere disponibili durante la creazione delle esperienze.
 
@@ -133,9 +132,9 @@ Configura i riquadri di visualizzazione per dispositivi mobili che desideri rend
 
 >[!NOTE]
 >
->Se tenti di eliminare una finestra mobile in uso, viene visualizzato il seguente messaggio: &quot;Questo riquadro di visualizzazione è attualmente associato a una o più attività. È necessario rimuovere il riquadro di visualizzazione da tali attività prima di poterla eliminare.&quot;
+>Se tenti di eliminare una finestra mobile in uso, viene visualizzato il seguente messaggio: &quot;Questo riquadro di visualizzazione è attualmente associato a una o più attività. Per eliminarlo, rimuovilo da tali attività.” 
 
-## Creare un&#39;esperienza reattiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
+## Creare un’esperienza reattiva {#task_D6332438B5EE48CCA8AF199270F1CAEF}
 
 Aggiungi i riquadri di visualizzazione per dispositivi mobili alle attività [!DNL Target] per creare esperienze reattive per gli schermi mobili.
 
@@ -166,7 +165,7 @@ Aggiungi i riquadri di visualizzazione per dispositivi mobili alle attività [!D
 
 I video seguenti contengono ulteriori informazioni sui concetti descritti in questo articolo.
 
-### Compositore esperienza visivo (2 di 2) (7:29)  ![Badge panoramica](/help/assets/overview.png)
+### Compositore esperienza visivo (2 di 2) (7:29) ![Icona Panoramica](/help/assets/overview.png)
 
 Il video demo seguente include informazioni sull&#39;utilizzo del Compositore esperienza visivo per lavorare con i riquadri di visualizzazione per dispositivi mobili:
 
