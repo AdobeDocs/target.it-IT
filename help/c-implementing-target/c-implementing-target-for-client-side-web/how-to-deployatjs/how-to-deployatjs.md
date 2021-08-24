@@ -1,13 +1,13 @@
 ---
 keywords: implementare;at.js;libreria JavaScript
-description: Scopri come distribuire la libreria JavaScript Adobe [!DNL Target] at.js utilizzando Adobe Experience Platform Launch o senza un gestore di tag.
+description: Scopri come distribuire la libreria JavaScript Adobe [!DNL Target] at.js utilizzando i tag in Adobe Experience Platform o senza un gestore di tag.
 title: Come si distribuisce at.js?
 feature: Implementare lato server
 role: Developer
 exl-id: a11b916a-923e-43d2-af0f-8efde7cd547e
-source-git-commit: 82629fb4c543220796fc99d9c034ebb725e1a645
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '288'
+source-wordcount: '289'
 ht-degree: 6%
 
 ---
