@@ -2,12 +2,12 @@
 keywords: Consigli;impostazioni;preferenze;settore verticale;filtrare criteri incompatibili;gruppo host predefinito;URL base miniature;token API consigli
 description: 'Scopri come implementare le attività Recommendations in Adobe Target. Assicurati che la tua implementazione soddisfi i requisiti prerequisiti necessari. '
 title: Come Si Implementano Le Attività Recommendations?
-feature: Recommendations
+feature: Consigli
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '1551'
-ht-degree: 94%
+source-wordcount: '1553'
+ht-degree: 93%
 
 ---
 
@@ -121,7 +121,7 @@ Per informazioni sugli attributi negli esempi, consulta [Attributi di entità](/
 
 È richiesta una formattazione JSON valida.
 
-La funzione `targetPageParams` mostrata di seguito è particolarmente utile se utilizzi una soluzione di gestione tag per implementare le pagine. [!DNL Adobe Experience Platform Launch] posiziona il riferimento at.js/mbox.js e la  `targetPageParams` funzione nella pagina e consente di configurare i valori. È opportuno inserire la funzione prima della chiamata at.js/mbox.js, oppure collocarla nella sezione JavaScript Extra della at.js/mbox.js.
+La funzione `targetPageParams` mostrata di seguito è particolarmente utile se utilizzi una soluzione di gestione tag per implementare le pagine. I tag in [!DNL Adobe Experience Platform] inseriscono il riferimento at.js/mbox.js e la funzione `targetPageParams` nella pagina e consentono di configurare i valori. È opportuno inserire la funzione prima della chiamata at.js/mbox.js, oppure collocarla nella sezione JavaScript Extra della at.js/mbox.js.
 
 ## Tutte le pagine {#section_A22061788BAB42BB82BA087DEC3AA4AD}
 
