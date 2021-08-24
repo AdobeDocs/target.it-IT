@@ -5,7 +5,7 @@ title: Come si utilizza la funzione targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: 4fa34643969c1f60ca79e195c1bca4043adadcd9
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
 source-wordcount: '2317'
 ht-degree: 30%
@@ -155,7 +155,7 @@ ht-degree: 30%
 
 * **Tipo**: Booleano
 * **Valore** predefinito: false
-* **Descrizione**:  [!DNL Target] fornisce supporto per la funzionalità opt-in tramite  [!DNL Adobe Platform Launch] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Platform Launch] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare Opt-in nella libreria at.js [!DNL Target], aggiungi l&#39;impostazione `optinEnabled=true` . In [!DNL Platform Launch] devi selezionare &quot;abilita&quot; dall&#39;elenco a discesa [!UICONTROL Opt-in RGPD] nella visualizzazione di installazione dell&#39;estensione Launch. Per ulteriori informazioni, consulta la [documentazione sul Platform launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Per ulteriori informazioni su questa impostazione in relazione alle normative sulla privacy e la protezione dei dati, tra cui il Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea e il California Consumer Privacy Act (CCPA), consulta [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
+* **Descrizione**:  [!DNL Target] fornisce supporto per la funzionalità opt-in tramite  [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare Opt-in nella libreria at.js [!DNL Target], aggiungi l&#39;impostazione `optinEnabled=true` . In [!DNL Adobe Experience Platform] devi selezionare &quot;abilita&quot; dall&#39;elenco a discesa [!UICONTROL Opt-in RGPD] nella visualizzazione di installazione dell&#39;estensione. Per ulteriori informazioni, consulta la [documentazione Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) . Per ulteriori informazioni su questa impostazione in relazione alle normative sulla privacy e la protezione dei dati, tra cui il Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea e il California Consumer Privacy Act (CCPA), consulta [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md).
 
 ### optoutEnabled
 
