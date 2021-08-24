@@ -4,9 +4,9 @@ description: Scopri come utilizzare il Compositore esperienza visivo SPA in Adob
 title: Come si utilizza il Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo)?
 feature: Compositore esperienza visivo
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
 workflow-type: tm+mt
-source-wordcount: '3699'
+source-wordcount: '3702'
 ht-degree: 92%
 
 ---
@@ -65,7 +65,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/c-experiences/assets/imp-200.png)
 
-   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x è distribuibile anche tramite [Adobe Launch](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni di Adobe Target non sono aggiornate e supportate al momento.
+   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa la funzione più recente di at.js 2.x: [triggerView()](/help/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-triggerview-atjs-2.md) sui siti.
 
