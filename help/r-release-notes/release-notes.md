@@ -1,20 +1,20 @@
 ---
 keywords: Note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramenti;correzioni;correzioni di bug;aggiornamenti
-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di [!DNL Adobe Target], compresi SDK, API e librerie JavaScript.
-landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di [!DNL Adobe Target].
+description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target], compresi SDK, API e librerie JavaScript.
+landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target].
 title: Quali nuove funzioni sono incluse nella versione corrente?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 95fdb1dcee873f7a414a3aecdc363fca2b621c01
 workflow-type: tm+mt
-source-wordcount: '694'
-ht-degree: 61%
+source-wordcount: '692'
+ht-degree: 99%
 
 ---
 
 # Note sulla versione di Target (corrente)
 
-Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Inoltre, se applicabile, sono incluse anche le note sulla versione per API, SDK di Target, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
+Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione per API di Target, SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 >[!IMPORTANT]
 >
@@ -26,30 +26,30 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 ## at.js 2.6.1 (16 agosto 2021)
 
-* Correzione di bug per &quot;Nessun artefatto memorizzato nella cache disponibile per la modalità ibrida&quot; quando si utilizzano le decisioni sul dispositivo.
+* Correzione di un bug relativo all’errore “Nessun artefatto nella cache disponibile per la modalità ibrida” quando si utilizzano le decisioni sul dispositivo.
 
 ## [!DNL Target] node.js SDK 2.2.0 (11 agosto 2021)
 
 * Aggiunta raccolta dati di telemetria SDK
-* Codice openapi del client API di consegna automatica
+* Codegen openapi del client API di consegna automatica
 
-Per ulteriori informazioni su questa versione e sulle versioni precedenti, consulta il [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) nella [documentazione SDK di Target node.js](https://github.com/adobe/target-nodejs-sdk) su Github.
+Per ulteriori informazioni su questa versione e sulle versioni precedenti, consulta il [Change log](https://github.com/adobe/target-nodejs-sdk/blob/main/CHANGELOG.md) nella [documentazione dell’SDK node.js di Target](https://github.com/adobe/target-nodejs-sdk) su Github.
 
 ## [!DNL Target Standard/Premium] 21.8.1 (10 agosto 2021)
 
-Questa versione di manutenzione contiene molti miglioramenti back-end, tra cui la seguente modifica rivolta al cliente:
+Questa versione di manutenzione contiene molti miglioramenti al back-end, tra cui la seguente modifica visualizzata dal cliente:
 
-* È stato risolto un problema a causa del quale i rapporti per le attività [!UICONTROL Personalizzazione automatica] create nel [!UICONTROL Compositore esperienza basato su moduli] facevano riferimento alle offerte eliminate nei rapporti. Questo problema causava la visualizzazione del seguente messaggio di errore: &quot;Si sono verificati problemi durante il recupero dei dati per questo report. Contatta l’Assistenza clienti Adobe se il problema persiste.&quot; (TGT-41028)
+* È stato risolto un problema a causa del quale i rapporti per le attività [!UICONTROL Auto Personalization] create nel [!UICONTROL Compositore esperienze basato su moduli] facevano riferimento alle offerte eliminate nei rapporti. Questo problema causava la visualizzazione di un messaggio di tipo: “Si sono verificati dei problemi nel recupero dei dati per questo rapporto. Se il problema persiste, contatta l’Assistenza clienti Adobe.” (TGT-41028)
 
 ## [!DNL Target Delivery API] (3 agosto 2021)
 
-Questa versione contiene i seguenti miglioramenti:
+Questo rilascio contiene i seguenti miglioramenti:
 
 * Il limite per i parametri mbox è stato aumentato a 100 parametri. Il limite precedente era di 50 parametri. (TNT-41717)
 * Il limite per `categoryId` è stato aumentato a 256 caratteri. Il limite precedente era di 128 caratteri.
-* I seguenti dettagli [!DNL Adobe Audience Manager] (AAM) sono stati aggiunti all’API di consegna:
+* Sono stati aggiunti i seguenti dettagli di [!DNL Adobe Audience Manager] (AAM) all’API di consegna:
 
-   * UUID AAM: ID AAM interno utilizzato per identificare in modo univoco un utente.
+   * AAM UUID: ID interno di AAM utilizzato per identificare in modo univoco un utente.
    * dataPartnerId: ID per un partner dati.
    * dataPartnerUserId: ID utente fornito da un partner dati.
 
@@ -69,7 +69,7 @@ Questa versione contiene i seguenti miglioramenti:
 
 | Risorsa | Dettagli |
 |--- |--- |
-| [Note sulla versione: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=en) | Dettagli sulle modifiche apportate a ogni versione dell’SDK per web di Platform. |
+| [Note sulla versione: Adobe Target Platform Experience Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it) | Dettagli sulle modifiche apportate a ogni versione di Platform Web SDK. |
 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL Adobe Target]. |
 
 ## Modifiche alla documentazione, precedenti note sulla versione e note sulla versione di Experience Cloud
