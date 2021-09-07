@@ -1,13 +1,13 @@
 ---
 keywords: FAQ;domande frequenti;analytics for target;a4T;classificazioni;classificazione;importatore di classificazioni;post-tnt-action;codici evento
-description: Trova le risposte alle domande sulle classificazioni e sull’utilizzo di Analytics per le attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for [!DNL Target] .
+description: Trova le risposte alle domande sulle classificazioni e sull’utilizzo di [!UICONTROL Analytics for Target] (A4T).
 title: Dove posso trovare informazioni sulle classificazioni con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 875f6c1c-1bda-40a9-96f2-d58c00d91d20
-source-git-commit: 8917fe56b7150d897e0d12b67b1914ef7cc8e92d
+source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
-source-wordcount: '299'
-ht-degree: 46%
+source-wordcount: '317'
+ht-degree: 29%
 
 ---
 
@@ -15,15 +15,25 @@ ht-degree: 46%
 
 Questo argomento contiene le risposte alle domande più frequenti sulle classificazioni e sull’utilizzo di [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target] (A4T).
 
-## Dopo aver utilizzato la funzione di importazione classificazioni per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
+## Dopo aver utilizzato [!UICONTROL Importazione classificazioni] per scaricare le classificazioni, come associo un nome di attività al valore post-tnt-action? {#section_6045DAC488B248418F430E663C38D001}
 
 È possibile scaricare le classificazioni per la stringa A4T/TNT dalla funzione di [importazione classificazioni](https://experienceleague.adobe.com/docs/analytics/components/classifications/classifications-importer/c-working-with-saint.html) degli Strumenti di amministrazione. La variabile è denominata “TNT” nell’elenco di esportazione. I dati scaricati includono i nomi descrittivi per attività, esperienze e così via.
 
-Questo file di consultazione è utile per i clienti che ricevono il feed di dati clickstream di Adobe. Il file fornisce nomi descrittivi per le colonne `post_tnt` e `post_tnt_action`.
+Questo file di ricerca è utile per i clienti che ricevono il feed di dati clickstream di [!DNL Adobe]. Il file fornisce nomi descrittivi per le colonne `post_tnt` e `post_tnt_action`.
 
-Il formato stringa della variabile TNT è `activityID:experienceID:targettype|event`.
+Per le attività [!UICONTROL A/B Test] e [!UICONTROL Targeting esperienza] (XT) standard, il formato della stringa TNT è:
 
-* targettype = 0 (control/random) o 1 (target) per le attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].
+```
+activityID:experienceID:targettype|event
+```
+
+Per le attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico], il formato della stringa TNT è:
+
+```
+activityId:experienceId:targettype:algorithmId|event
+```
+
+* `targettype` =  `targettype` e  `algorithmId` sono identificatori interni utilizzati dalle attività  [!UICONTROL Allocazione automatica ] e   Targeting automatico.
 * Event = 0 rappresenta l’entrata di un’esperienza.
 * Event = 1 rappresenta una visita all’esperienza.
 * Event = 2 rappresenta l’impression di un’attività.
