@@ -2,13 +2,13 @@
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
 description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel catalogo Adobe [!DNL Target] Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
-feature: Consigli
+feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
+source-git-commit: 73e213bfbf2b84f982549ff265aa9c98d9f3a461
 workflow-type: tm+mt
-source-wordcount: '1401'
-ht-degree: 89%
+source-wordcount: '1397'
+ht-degree: 88%
 
 ---
 
@@ -62,7 +62,7 @@ Dopo che un attributo personalizzato viene inviato come array JSON valido, viene
 
 ## Implementazione di attributi con più valori {#section_80FEFE49E8AF415D99B739AA3CBA2A14}
 
-Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams`, API Consegna e API Salva entità per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
+Gli attributi di entità personalizzate con più valori sono supportati quando si utilizzano feed (CSV), `targetPageParams` e l’API di consegna per caricare i prodotti. I nuovi valori sostituiscono quelli correnti; non vengono aggiunti. Gli array vuoti ([]) vengono considerati privi di valori.
 
 Le virgolette doppie devono essere precedute dalla sequenza di escape. Ad esempio, `"[""test"", ""value""]"` è un array JSON valido che può essere utilizzato in CSV.
 

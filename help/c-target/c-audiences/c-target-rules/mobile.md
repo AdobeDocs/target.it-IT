@@ -1,13 +1,13 @@
 ---
 keywords: targeting;dispositivi mobili;target dispositivi mobili;deviceatlas;iphone;modelli di iphone;device atlas;displaywidth;larghezza display;altezza display;tipo di dispositivo;displayheight;telefono;tablet;modello di dispositivo
-description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei dispositivi mobili in base a parametri come dispositivo mobile, tipo di dispositivo, fornitore del dispositivo, dimensioni dello schermo (in pixel) e altro ancora.
+description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseguire il targeting dei dispositivi mobili.
 title: Posso indirizzare i visitatori in base alle opzioni mobile?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
 workflow-type: tm+mt
-source-wordcount: '624'
-ht-degree: 43%
+source-wordcount: '669'
+ht-degree: 40%
 
 ---
 
@@ -56,12 +56,6 @@ I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#
 
    >[!NOTE]
    >
-   >A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli di iPhone è interessata. [!DNL Target] non può più eseguire il targeting degli utenti che hanno installato iPhone con iOS 12.2 (o versioni successive) su di essi. Tuttavia, se tali utenti non hanno iOS 12.2 (o versioni successive), il targeting per il modello iPhone continua a funzionare correttamente.
-   >
-   >L’aggiornamento iOS 12.2 (o successivo) non influisce sull’identificazione dei seguenti modelli, perché questi modelli non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad / Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
-
-   >[!NOTE]
-   >
    >Puoi eseguire il targeting per gestore di telefonia mobile utilizzando le [impostazioni Geo](/help/c-target/c-audiences/c-target-rules/geo.md#concept_5B4D99DE685348FB877929EE0F942670).
 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
@@ -70,6 +64,20 @@ I clienti che utilizzano un&#39;integrazione personalizzata (non con at.js o l&#
 L’illustrazione seguente mostra un pubblico che include i visitatori che utilizzano dispositivi mobili prodotti da Google.
 
 ![Targeting di dispositivi mobili](assets/target_mobile.png)
+
+## Considerazioni
+
+Quando esegui il targeting dei dispositivi mobili, considera le seguenti informazioni:
+
+### Dispositivi di targeting con iOS 12.2 o versione successiva
+
+A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli di iPhone è interessata. [!DNL Target] non può più eseguire il targeting degli utenti che hanno installato iPhone con iOS 12.2 (o versioni successive) su di essi. Tuttavia, se tali utenti non hanno iOS 12.2 (o versioni successive), il targeting per il modello iPhone continua a funzionare correttamente.
+
+L’aggiornamento iOS 12.2 (o successivo) non influisce sull’identificazione dei seguenti modelli, perché questi modelli non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad / Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
+
+### Dispositivi di targeting con Safari 14.0.2 (o versioni successive)
+
+Quando si utilizzano regole mobili per indirizzare i dispositivi che eseguono Safari versione 14.0.2 (o successiva) su macOS, a causa di un problema noto che coinvolge gli agenti utente di Apple e DeviceAtlas, [!DNL Target] identifica Safari sui dispositivi Mac come versione iPad in modo errato. Questo problema verrà affrontato in futuro.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
