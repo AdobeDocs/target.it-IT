@@ -2,12 +2,12 @@
 keywords: annunci;generatore di competenze;sviluppatore chat;pausa caffè;eventi;forrester;gartner;webinar
 description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target] , incluse le sessioni Skill Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
-feature: Note sulla versione
+feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: a4df99785825c0a85ec4b984900a90dd8f2ecf50
-workflow-type: tm+mt
-source-wordcount: '578'
-ht-degree: 94%
+workflow-type: ht
+source-wordcount: '576'
+ht-degree: 100%
 
 ---
 
@@ -34,8 +34,8 @@ Vishal Chordia, Senior Product Manager per [!DNL Adobe Target], risponderà alle
 
 * [!DNL Adobe Experience Platform]
 * Personalizzazione basata sul pubblico
-* [!DNL Real-time Customer Data Platform] Integrazione (RTCDP) con  [!DNL Target]
-* Argomenti generali [!DNL Target]
+* Integrazione di [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
+* Argomenti generali su [!DNL Target]
 
 ## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da Adobe Target
 
