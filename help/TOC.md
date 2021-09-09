@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
 source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -211,7 +211,7 @@ ht-degree: 99%
          + [Esperienza con più tipi di pubblico un testo A/B](c-activities/t-test-ab/t-test-create-ab/target-experience-to-multiple-audiences.md)
    + Allocazione automatica {#auto-allocate}
       + [Panoramica dell’allocazione automatica](c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
-      + [Creare un’attività di Targeting automatico](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
+      + [Creare un’attività di allocazione automatico](/help/c-activities/automated-traffic-allocation/create-auto-allocate-activity.md)
       + [Interpretare i rapporti di allocazione automatica](c-activities/automated-traffic-allocation/determine-winner.md)
       + [L’allocazione automatica può fornire risultati di test più rapidi e ricavi più elevati rispetto a un test manuale](/help/c-activities/automated-traffic-allocation/faster-results-higher-revenue.md)
    + Targeting automatico {#auto-target}
