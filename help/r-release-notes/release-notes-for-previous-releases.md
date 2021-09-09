@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: f509fca07305d72cfc3ffd99d0e9a21b19dc6521
 workflow-type: tm+mt
 source-wordcount: '31345'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -1956,7 +1956,7 @@ Questa versione di [!DNL Target] include i seguenti miglioramenti e correzioni r
 
 >[!NOTE]
 >
->[!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) supporta ora le implementazioni di [!DNL at.js] con l’integrazione di [!UICONTROL Adobe Target Cloud Services]. Per ulteriori informazioni, consulta [Pacchetti di funzionalità](https://experienceleague.adobe.com/docs/) e [Integrazione con Adobe Target](https://experienceleague.adobe.com/docs/) nella documentazione di *Adobe Experience Manager 6.2*.
+>[!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) supporta ora le implementazioni di [!DNL at.js] con l’integrazione di [!UICONTROL Adobe Target Cloud Services]. Per ulteriori informazioni, consulta [Pacchetti di funzionalità](https://experienceleague.adobe.com/docs/?lang=it) e [Integrazione con Adobe Target](https://experienceleague.adobe.com/docs/) nella documentazione di *Adobe Experience Manager 6.2*.
 
 Questa versione di [!DNL Target] è incentrata sulla fruibilità e sui miglioramenti delle prestazioni, e include i seguenti miglioramenti e correzioni (i codici tra parentesi sono per uso interno di Adobe):
 

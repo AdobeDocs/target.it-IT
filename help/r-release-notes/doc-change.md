@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: e81a27bc321fa83cc1b2449e5df32edfa37d5198
 workflow-type: tm+mt
 source-wordcount: '2317'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -21,8 +21,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 7 settembre | [Mobile](/help/c-target/c-audiences/c-target-rules/mobile.md) | È stata aggiornata la sezione &quot;Considerazioni&quot; con informazioni sul targeting dei dispositivi che eseguono Safari 14.0.2 (o versioni successive). |
 |  | [Classificazioni - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-classifications.md) | Sono state aggiornate le informazioni su `targettype` e `algorithmId`, identificatori interni utilizzati dalle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. |
-| 24 agosto | [Implementazione di  [!DNL Target]  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] è stato riclassificato come suite di tecnologie di raccolta dati in  [!DNL Adobe Experience Platform]. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. |
-| 23 agosto | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente evento:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]<ul><li>Mercoledì 8 settembre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
+| 24 agosto | [Implementazione di [!DNL Target] tilizzando  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | [!DNL Adobe Experience Platform Launch] è stato ridefinito come suite di tecnologie di raccolta dati in [!DNL Adobe Experience Platform]. Di conseguenza, sono state introdotte diverse modifiche terminologiche nella documentazione del prodotto. |
+| 23 agosto | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]<ul><li>Mercoledì 8 settembre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 19 agosto | [Visualizzare i rapporti - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-viewing-reports.md#virtual) | Il seguente paragrafo è stato aggiornato:<ul><li>A4T supporta le suite di rapporti virtuali?</li></ul> |
 | 16 agosto | [Note sulla versione di Target (attuale)](/help/r-release-notes/release-notes.md)<br>e<br>[dettagli sulla versione at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte le note sulla versione di at.js 2.6.1. |
 |  | [Decisioning sul dispositivo](/help/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stata aggiunta la sezione “Best practice”. |
