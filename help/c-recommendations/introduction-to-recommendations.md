@@ -2,12 +2,12 @@
 keywords: Recommendations;consigli;intro;introduzione;webinar;demo
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Quali sono le attività Consigli?
-feature: Consigli
+feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
 source-git-commit: cf65cfb6641ce837717658e6fd5d0013e65f7875
-workflow-type: tm+mt
-source-wordcount: '2107'
-ht-degree: 99%
+workflow-type: ht
+source-wordcount: '2106'
+ht-degree: 100%
 
 ---
 
@@ -104,7 +104,7 @@ Successivamente, devi aggiungere dei tag o sfruttare l’implementazione esisten
 
 È necessario assicurarsi che [!DNL Target] sia a conoscenza degli articoli che gli utenti visualizzano e acquistano. Se nel tuo contesto l’acquisto non è rilevante, potrebbe essere utile tenere traccia di un altro tipo di evento di conversione, ad esempio download di un PDF, completamento di un sondaggio, abbonamento a una newsletter, video guardato e così via.
 
-Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, è più semplice configurarlo utilizzando un gestore di tag, come i tag in [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). È anche possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
+Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, sarà più semplice impostare questo passaggio utilizzando un gestore di tag, come [[!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md). È anche possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
 
 ### Inserire i consigli nel contesto giusto
 
