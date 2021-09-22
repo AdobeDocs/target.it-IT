@@ -2,12 +2,11 @@
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
 description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe [!DNL Target] Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
-feature: Consigli
+feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '1026'
 ht-degree: 61%
 
 ---
@@ -137,10 +136,10 @@ Per impostazione predefinita, i modelli di Velocity considerano tutti gli attrib
 Supponiamo di voler ridurre il prezzo visualizzato di un articolo di $0,99 per applicare uno sconto. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('priceBeforeDiscount') != '' )
-    #set( $discountedPrice = $Double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
+    #set( $discountedPrice = $double.parseDouble($entity1.get('priceBeforeDiscount')) - 0.99 )
     Item price: $$discountedPrice
 #else
     Item price unavailable
@@ -152,10 +151,10 @@ Supponiamo di voler ridurre il prezzo visualizzato di un articolo di $0,99 per a
 Supponi di voler visualizzare un numero appropriato di stelle in base alla valutazione numerica media del cliente di un articolo. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
-#set( $Double = 0.1 )
+#set( $double = 0.1 )
 
 #if( $entity1.get('rating') != '' )
-    #set( $rating = $Double.parseDouble($entity1.get('rating')) )
+    #set( $rating = $double.parseDouble($entity1.get('rating')) )
     #if( $rating >= 4.5 )
         <img src="5_stars.jpg">
     #elseif( $rating >= 3.5 )
