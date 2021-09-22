@@ -2,19 +2,18 @@
 keywords: consigli;domande frequenti;FAQ
 description: Rivedi un elenco delle domande frequenti (FAQ) e le relative risposte sulle progettazioni di Adobe [!DNL Target] Recommendations.
 title: Dove posso rispondere alle domande di progettazione per [!DNL Target] Recommendations?
-feature: Consigli
+feature: Recommendations
 exl-id: e970f734-9bc7-43b8-af1b-75e527d6353c
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 85%
+source-wordcount: '456'
+ht-degree: 70%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Domande frequenti sulle progettazioni
 
-Elenco delle domande frequenti sulle progettazioni dei consigli [!DNL Adobe Target].
+Elenco delle domande frequenti sulle progettazioni di [!DNL Adobe Target] [!DNL Recommendations] .
 
 ## Nel prezzo consigliato dell’articolo non vengono visualizzati i due valori a destra del punto decimale. Come è possibile visualizzarli?
 
@@ -30,7 +29,7 @@ Per risolvere il problema sono disponibili due opzioni:
 
    `"entity.value" : 35.00, "entity.displayValue" : "$35.00"`
 
-## Perché la categoria non viene visualizzata nella progettazione? Sto utilizzando $entity1.categoryId. {#section_073309B8051049C7953D396A93EA0713}
+## Perché la categoria non viene visualizzata nella progettazione? Sto utilizzando `$entity1.categoryId`. {#section_073309B8051049C7953D396A93EA0713}
 
 L&#39;ID categoria non può essere visualizzato nella progettazione. Poiché è possibile archiviare più categorie, il sistema non saprebbe quale categoria visualizzare.
 
@@ -38,7 +37,7 @@ L&#39;ID categoria non può essere visualizzato nella progettazione. Poiché è 
 
 L&#39;aggiornamento delle modifiche alla progettazione in uso richiede un po&#39; di tempo. Per modificare immediatamente la progettazione, crea una nuova progettazione, selezionala nell’attività e salva il consiglio.
 
-## Come posso acquisire le informazioni chiave da visualizzare nella progettazione? Esempio: se vogliamo visualizzare la categoria del prodotto chiave, come posso codificare tale valore nel progetto Velocity?  {#section_F08043B14BA24BC8815FEF25F4F84C39}
+## Come posso acquisire le informazioni chiave da visualizzare nella progettazione? Esempio: se vogliamo visualizzare la categoria del prodotto chiave, come posso codificare tale valore nel progetto Velocity? {#section_F08043B14BA24BC8815FEF25F4F84C39}
 
 Il parametro `$key. *`value`*` acquisisce la maggior parte delle informazioni relative al prodotto chiave da visualizzare nella progettazione. Esempio: per visualizzare la miniatura del prodotto chiave, puoi utilizzare `$key.thumbnailURL`.
 
@@ -50,6 +49,6 @@ La versione 1.7 senza l’aggiunta di strumenti o librerie ulteriori. È disponi
 
 L’invio di uno spazio unificatore JavaScript sembra eseguire questa operazione. Chiedi agli sviluppatori di inviare il valore `\u00A0`. Esempio: `entity.message=\u00A0`. Considera l&#39;utilizzo di questo valore come impostazione predefinita se non è presente alcun valore, anziché null.
 
-## Posso utilizzare uno script di profilo in una progettazione Consigli? {#section_6BD55203984A4D80A0C6F241AD7806DF}
+## Posso utilizzare uno script di profilo in una progettazione [!DNL Recommendations]? {#section_6BD55203984A4D80A0C6F241AD7806DF}
 
-Sì. Tuttavia, è necessario aggiungere una barra rovesciata (\) prima di $ nel nome dello script del profilo.
+Sì. Per utilizzare uno script di profilo in una progettazione [!DNL Recommendations], racchiudi il nome in `\${...}`. Ad esempio, se lo script di profilo è denominato `user.basket`, fai riferimento a `\${user.basket}` nella progettazione. La barra rovesciata implica che lo script del profilo non viene rappresentato da Velocity. Pertanto, non è possibile eseguire alcuna operazione sullo script del profilo in un modello Velocity. Il valore verrà stampato direttamente sulla pagina.

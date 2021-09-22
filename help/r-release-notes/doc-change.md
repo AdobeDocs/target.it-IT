@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
+source-git-commit: c7d5c8eb50b28ee3f7651e510d005e3f37912f62
 workflow-type: tm+mt
-source-wordcount: '2520'
+source-wordcount: '2536'
 ht-degree: 94%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 22 settembre | [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md) | Il seguente paragrafo è stato aggiornato:<ul><li>Posso utilizzare uno script di profilo in una progettazione [!DNL Recommendations]?</li></ul> |
 | 22 settembre | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Sono state aggiunte le seguenti considerazioni:<ul><li>Le metriche di tracciamento dei clic non sono collegate ad alcuna esperienza specifica in un’attività.</li><li>Utilizza i tipi di pubblico se è necessario limitare l’ambito delle metriche di tracciamento dei clic.</li><li>Più attività possono definire una metrica di tracciamento dei clic per lo stesso selettore. In tal caso, quando un visitatore è idoneo per una di queste attività e fa clic sul selettore, la metrica di tracciamento dei clic aumenta per tutte le attività associate per le quali il visitatore si è qualificato.</li></ul> |
 |  | [Implementazione di [!DNL Target] tilizzando  [!DNL Adobe Experience Platform]](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | È stata aggiunta una nota nella sezione &quot;Vantaggi dell’implementazione di at.js utilizzando l’ [!DNL Target] estensione&quot;. |
 |  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la sezione &quot;Considerazioni&quot; con nuove informazioni. |
