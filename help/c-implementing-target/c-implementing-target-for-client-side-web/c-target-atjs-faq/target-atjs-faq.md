@@ -5,16 +5,16 @@ title: Quali sono le domande e le risposte comuni su at.js?
 feature: at.js
 role: Developer
 exl-id: 937f880a-1842-4655-be44-0a5614c2dbcc
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '2543'
-ht-degree: 77%
+source-wordcount: '2521'
+ht-degree: 60%
 
 ---
 
 # Domande frequenti su at.js
 
-Risposte alle domande più frequenti su at.js.
+Risposte alle domande più frequenti sulla libreria JavaScript at.js [!DNL Adobe Target] .
 
 ## Quali vantaggi offre at.js rispetto a mbox.js? {#section_FE30D01A577C46ACB0F787B85F5E0F6B}
 
@@ -47,45 +47,45 @@ Le sezioni seguenti illustrano la sequenza di azioni per i visitatori nuovi e pe
 1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
 
    * Crea un&#39;istanza dell&#39;oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
+   * La libreria [!DNL Target] tenta di recuperare i dati [!DNL Experience Cloud Visitor ID].
    * Poiché questo visitatore è una nuova, l’API del visitatore genera una richiesta cross-domain a demdex.net.
-   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Dopo il recupero dei dati [!DNL Experience Cloud Visitor ID], viene avviata una richiesta a [!DNL Target].
 
 ### Visitatori di ritorno
 
 1. L&#39;API dei visitatori viene caricata, analizzata ed eseguita.
 1. at.js / mbox.js è caricato, analizzato ed eseguito.
-1. Se la creazione automatica della mbox globale è abilitata, la libreria JavaScript di Target:
+1. Se la creazione automatica mbox globale è abilitata, la libreria JavaScript [!DNL Target]:
 
    * Crea un&#39;istanza dell&#39;oggetto Visitatore.
-   * La libreria di Target cerca di recuperare i dati dell&#39;ID visitatore di Experience Cloud.
+   * La libreria [!DNL Target] tenta di recuperare i dati [!DNL Experience Cloud Visitor ID].
    * L&#39;API dei visitatori recupera i dati dai cookie.
-   * Dopo il recupero dei dati dell&#39;ID visitatore di Experience Cloud, viene generata una richiesta a Target.
+   * Dopo il recupero dei dati [!DNL Experience Cloud Visitor ID], viene avviata una richiesta a [!DNL Target].
 
 >[!NOTE]
 >
->Per i nuovi visitatori, quando è presente l&#39;API dei visitatori, Target deve connettersi più volte per assicurare che la richiesta includa i dati dell&#39;ID visitatore di Experience Cloud. Per i visitatori di ritorno, Target si connette solo per recuperare il contenuto personalizzato.
+>Per i nuovi visitatori, quando è presente l’API visitatore, [!DNL Target] deve connettersi più volte per assicurarsi che le richieste [!DNL Target] contengano dati [!DNL Experience Cloud Visitor ID]. Per i visitatori di ritorno, [!DNL Target] passa il cursore solo su [!DNL Target] per recuperare il contenuto personalizzato.
 
 ## Perché mi sembra di notare tempi di risposta più lenti dopo l’aggiornamento da una versione precedente di at.js alla versione 1.0.0? {#section_DFBA5854FFD142B49AD87BFAA09896B0}
 
-[!DNL at.js] versione 1.0.0 o successiva attiva tutte le richieste in parallelo. Le versioni precedenti eseguono le richieste in modo sequenziale, ovvero le richieste formano una coda e Target le elabora a turno, aspettando il completamento della richiesta corrente.
+[!DNL at.js] versione 1.0.0 o successiva attiva tutte le richieste in parallelo. Le richieste vengono eseguite in sequenza nelle versioni precedenti, il che significa che le richieste vengono messe in coda e [!DNL Target] attende il completamento della prima richiesta prima di passare alla richiesta successiva.
 
-Il modo in cui le versioni precedenti di [!DNL at.js] eseguono le richieste è suscettibile al cosiddetto blocco del primo elemento. In [!DNL at.js] 1.0.0 o versione successiva, l’esecuzione delle richieste in Target avviene in parallelo.
+Il modo in cui le versioni precedenti di [!DNL at.js] eseguono le richieste è suscettibile al cosiddetto blocco del primo elemento. In [!DNL at.js] 1.0.0 o versione successiva, l’esecuzione delle richieste in avviene in parallelo.[!DNL Target]
 
 Se controlli la cascata delle schede di rete di [!DNL at.js] 0.9.1, ad esempio, vedrai che la successiva richiesta di si avvia solo dopo che la precedente è stata completata. [!DNL Target] Questa sequenza non avviene con [!DNL at.js] 1.0.0 e versioni successive, dove tutte le richieste partono essenzialmente nello stesso momento.
 
 Dal punto di vista matematico del tempo di risposta, questa sequenza può essere riassunta in questo modo
 
 <ul class="simplelist"> 
- <li> at.js 0.9.1: tempo di risposta di tutte le richieste di Target = somma del tempo di risposta delle singole richieste </li> 
- <li> at.js 1.0.0 e versioni successive: tempo di risposta di tutte le richieste di Target = tempo di risposta massimo delle richieste </li> 
+ <li> at.js 0.9.1: Tempo di risposta di tutte le richieste di Target = somma del tempo di risposta delle richieste </li> 
+ <li> at.js 1.0.0 e versioni successive: Tempo di risposta di tutte le richieste di Target = tempo massimo di risposta delle richieste </li> 
 </ul>
 
-La libreria [!DNL at.js] versione 1.0.0 completa le richieste più rapidamente. Inoltre, le richieste di [!DNL at.js] sono asincrone, pertanto non blocca il rendering della pagina. [!DNL Target] Anche se il completamento delle richieste impiega qualche secondo, visualizzerai comunque la pagina di cui è stato effettuato il rendering; solo alcune parti della pagina resteranno vuote finché Target non avrà ricevuto una risposta dal server Edge di Target.
+La libreria [!DNL at.js] versione 1.0.0 completa le richieste più rapidamente. Inoltre, le richieste di [!DNL at.js] sono asincrone, pertanto non blocca il rendering della pagina. [!DNL Target] Anche se il completamento delle richieste impiega qualche secondo, visualizzerai comunque la pagina di cui è stato effettuato il rendering; solo alcune parti della pagina resteranno vuote finché [!DNL Target] non avrà ricevuto una risposta dal server Edge [!DNL Target] .
 
 ## È possibile caricare la libreria [!DNL Target] in modo asincrono? {#section_AB9A0CA30C5440C693413F1455841470}
 
-La release di at.js 1.0.0 permette di caricare la libreria di Target in modo asincrono.
+La versione 1.0.0 di at.js consente di caricare la libreria [!DNL Target] in modo asincrono.
 
 Per caricare at.js in modo asincrono:
 
@@ -115,7 +115,7 @@ Durante l’implementazione di at.js tramite un’implementazione sincrona di DT
 
 Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momentanea di altri contenuti](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/manage-flicker-with-atjs.md).
 
-## at.js è compatibile con l’integrazione Adobe Experience Manager (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
+## at.js è compatibile con l’integrazione [!DNL Adobe Experience Manager] (Experience Manager)? {#section_6177AE10542344239753764C6165FDDC}
 
 [!DNL Adobe Experience Manager] 6.2 con FP-11577 (o versioni successive) supporta ora le implementazioni di [!DNL at.js] con l’integrazione di [!UICONTROL Adobe Target Cloud Services.]
 
@@ -149,7 +149,7 @@ Per supportare i visitatori Safari, un dominio X migliore può essere “disabil
 
 Sì, se utilizzi at.js 2.x puoi utilizzare il Compositore esperienza visivo per il tuo SPA. Per ulteriori informazioni, consulta [Compositore esperienza visivo per pagina singola (SPA)](/help/c-experiences/spa-visual-experience-composer.md).
 
-## Posso utilizzare il debugger di Adobe Experience Cloud con le implementazioni di at.js? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
+## Posso utilizzare il debugger [!DNL Adobe Experience Cloud] con le implementazioni di at.js? {#section_FF3CF4C5FD2F4DB1BF1A6B39DA161637}
 
 Sì. È inoltre possibile utilizzare mboxTrace per il debug o gli Strumenti per sviluppatori del browser per controllare le richieste di rete, filtrando “mbox” per isolare le chiamate mbox.
 
@@ -159,13 +159,13 @@ Sì, come con mbox.js.
 
 ## Perché le mie mbox non vengono lanciate sulle mie pagine web? {#section_4BA5DA424B734324AAB51E4588FA50F5}
 
-I clienti di Target utilizzano talvolta istanze basate su cloud con [!DNL Target] per test o semplici prove di concetto. Questi domini, e molti altri, fanno parte dell’[elenco dei suffissi pubblici](https://publicsuffix.org/list/public_suffix_list.dat).
+[!DNL Target]I clienti di utilizzano talvolta istanze basate su cloud con [!DNL Target] per test o semplici prove di concetto. Questi domini, e molti altri, fanno parte dell’[elenco dei suffissi pubblici](https://publicsuffix.org/list/public_suffix_list.dat).
 
 I browser moderni non salvano i cookie se si utilizzano questi domini, a meno che non si personalizzi l’impostazione `cookieDomain` utilizzando targetGlobalSettings(). Per ulteriori informazioni, consulta [Utilizzo di istanze basate su Cloud con Target](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-target-debugging-atjs/targeting-using-cloud-based-instances.md).
 
 ## Gli indirizzi IP possono essere utilizzati come dominio dei cookie quando si utilizza at.js? {#section_8BEEC91A3410459D9E442840A3C88AF7}
 
-Sì, se utilizzi [at.js versione 1.2 o successive](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). Tuttavia, l’Adobe consiglia vivamente di utilizzare sempre l’ultima versione.
+Sì, se utilizzi [at.js versione 1.2 o successive](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#reference_DBB5EDB79EC44E558F9E08D4774A0F7A). [!DNL Adobe] consiglia tuttavia di utilizzare sempre la versione più recente.
 
 >[!NOTE]
 >
@@ -201,8 +201,8 @@ Di seguito sono riportate le possibili cause principali per questo messaggio di 
 
 * La pagina viene generata in modo dinamico e at.js non è in grado di trovare l’elemento .
 * La pagina viene creata lentamente (a causa di una rete lenta) e at.js non riesce a trovare il selettore nel DOM.
-* La struttura di pagina su cui è in esecuzione l’attività è stata modificata. Se riapri l’attività nel Compositore esperienza visivo dovrebbe comparire un messaggio di avviso. Aggiorna l’attività in modo che possano essere trovati tutti gli elementi necessari.
-* La pagina sottostante fa parte di un’applicazione a pagina singola (Single Page Application, SPA) oppure la pagina contiene elementi che appaiono più in basso e il “meccanismo di polling selettivo” di [!DNL at.js] non riesce a trovarli. Può essere utile aumentare il valore di `selectorsPollingTimeout`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+* La struttura della pagina su cui è in esecuzione l&#39;attività[!UICONTROL y è stata modificata. Se riapri l’attività nel ]Compositore esperienza visivo (VEC), riceverai un messaggio di avviso. Aggiorna l’attività in modo che possano essere trovati tutti gli elementi necessari.
+* La pagina sottostante fa parte di un’ [!UICONTROL applicazione a pagina singola] (SPA) oppure la pagina contiene elementi che appaiono più in basso e il [!DNL at.js] &quot;meccanismo di polling selettivo&quot; non riesce a trovarli. Può essere utile aumentare il valore di `selectorsPollingTimeout`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 * Qualsiasi metrica di rilevamento dei clic tenta di aggiungersi a ogni pagina, indipendentemente dall’URL su cui è stata impostata la metrica. Anche se innocua, questa situazione fa apparire molti di questi messaggi.
 
    Per ottenere i migliori risultati, scarica e utilizza l’ultima versione di [!DNL at.js]. Per ulteriori informazioni, consulta [Dettagli della versione di at.js.](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) e [Scaricare at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md).
@@ -211,17 +211,17 @@ Di seguito sono riportate le possibili cause principali per questo messaggio di 
 
 [!DNL tt.omtrdc.net] è il nome di dominio della rete EDGE di Adobe, utilizzato per ricevere tutte le chiamate server per Target.
 
-## Perché at.js e mbox.js non utilizzano i flag HttpOnly e Secure? {#section_74527E3B41B54B0A83F217C3E664ED1F}
+## Perché at.js non utilizza sempre i flag HttpOnly e Secure? {#section_74527E3B41B54B0A83F217C3E664ED1F}
 
-HttpOnly può essere impostato solo tramite codice basato su server. I cookie Target, come mbox, vengono creati e salvati tramite il codice JavaScript, quindi Target non può utilizzare il flag di cookie HttpOnly.
+HttpOnly può essere impostato solo tramite codice basato su server. [!DNL Target]I cookie , come mbox, vengono creati e salvati tramite il codice JavaScript, quindi non può utilizzare il flag di cookie HttpOnly.[!DNL Target] [!DNL Target] utilizza l’impostazione HttpOnly per i cookie di terze parti impostati dal lato server quando è abilitato l’attraversamento di più domini.
 
-È possibile impostare il flag Secure tramite JavaScript solo se la pagina è stata caricata tramite HTTPS. Se la pagina viene inizialmente caricata tramite HTTP, JavaScript non può impostare questo flag. Inoltre, se viene utilizzato il flag Secure, il cookie è disponibile solo sulle pagine HTTPS.
+È possibile impostare il flag Secure tramite JavaScript solo se la pagina è stata caricata tramite HTTPS. Se la pagina viene inizialmente caricata tramite HTTP, JavaScript non può impostare questo flag. Inoltre, se viene utilizzato il flag Secure, il cookie è disponibile solo sulle pagine HTTPS. Per le pagine caricate tramite HTTPS, [!DNL Target] imposta gli attributi Secure e SameSite=None .
 
-Per garantire che Target possa correttamente tenere traccia degli utenti e per far sì che i cookie vengano generati dal lato del cliente, Target non utilizza nessuno di questi flag.
+Per garantire che [!DNL Target] possa tracciare correttamente gli utenti e che i cookie siano generati lato client, [!DNL Target] non utilizza nessuno di questi flag, tranne nelle situazioni sopra menzionate.
 
 ## Con quale frequenza at.js attiva una richiesta di rete? {#section_57C5235DF7694AF093A845D73EABADFD}
 
-Adobe Target esegue tutte le sue decisioni sul lato server. Ciò significa che at.js at.js genera una richiesta di rete ogni volta che la pagina si ricarica o viene richiamata un&#39;API pubblica di at.js.
+[!DNL Target] esegue tutte le sue decisioni sul lato server. Ciò significa che at.js at.js genera una richiesta di rete ogni volta che la pagina si ricarica o viene richiamata un&#39;API pubblica di at.js.
 
 ## Nel migliore dei casi, possiamo aspettarci che l&#39;utente non verifichi effetti visibili sul caricamento della pagina dovuti al fatto che si nasconde, sostituisce e visualizza il contenuto? {#section_CB3C566AD61F417FAC0EC5AC706723EB}
 
@@ -234,11 +234,11 @@ La richiesta at.js è un `XMLHttpRequest` asincrono, quindi eseguiamo i seguenti
 1. La pagina viene caricata.
 1. at.js nasconde anticipatamente il BODY HTML. È presente un&#39;impostazione per nascondere anticipatamente un particolare contenitore invece del BODY HTML.
 1. La richiesta at.js viene attivata.
-1. Dopo aver ricevuto la risposta di Target, Target estrae i selettori CSS.
-1. Utilizzando i selettori CSS, Target crea tag STYLE per nascondere anticipatamente gli elementi DOM che saranno personalizzati.
+1. Dopo aver ricevuto la risposta [!DNL Target] , [!DNL Target] estrae i selettori CSS.
+1. Utilizzando i selettori CSS, [!DNL Target] crea tag STYLE per nascondere anticipatamente gli elementi DOM che verranno personalizzati.
 1. Il BODY HTML che nasconde anticipatamente STYLE viene rimosso.
-1. Target avvia il polling per gli elementi DOM.
-1. Se viene trovato un elemento DOM, Target applica le modifiche DOM e l&#39;elemento che nasconde anticipatamente STYLE viene rimosso.
+1. [!DNL Target] avvia il polling per gli elementi DOM.
+1. Se viene trovato un elemento DOM, [!DNL Target] applica le modifiche DOM e l&#39;elemento che nasconde anticipatamente STYLE viene rimosso.
 1. Se gli elementi DOM non vengono trovati, un timeout globale nasconde gli elementi per evitare di avere una pagina interrotta.
 
 ## Quanto spesso il contenuto della pagina è completamente caricato e visibile quando at.js rivela infine l’elemento che l’attività sta modificando? {#section_01AFF476EFD046298A2E17FE3ED85075}
@@ -249,17 +249,17 @@ at.js non blocca il rendering della pagina. Un utente potrebbe notare alcune are
 
 ## In che modo una pagina interamente salvata nella cache influirà sullo scenario precedente? Sarebbe più probabile che il contenuto dell’attività diventi visibile notevolmente dopo il caricamento del resto del contenuto della pagina? {#section_CE76335A3E0B41CB8253DEE5E060FCDA}
 
-Se una pagina viene salvata nella cache in una rete CDN vicina alla posizione dell&#39;utente, ma non vicina a Target Edge, l&#39;utente potrebbe vedere alcuni ritardi. I bordi degli obiettivi sono ben distribuiti in tutto il mondo, quindi la maggior parte delle volte questo non è un problema.
+Se una pagina viene memorizzata nella cache su una rete CDN vicina alla posizione dell&#39;utente, ma non vicina al [!DNL Target] Edge di , l&#39;utente potrebbe rilevare alcuni ritardi. [!DNL Target] I bordi sono ben distribuiti in tutto il mondo, quindi questo non è un problema la maggior parte del tempo.
 
 ## È possibile che un’immagine protagonista venga visualizzata e poi scambiata dopo un breve ritardo? {#section_C25B07B25B854AAE8DEE1623D0FA62A3}
 
 Considerando lo scenario seguente:
 
-Il timeout di Target è di cinque secondi. Un utente carica una pagina che ha un&#39;attività per personalizzare un&#39;immagine protagonista. at.js invia la richiesta per determinare se c&#39;è un&#39;attività da applicare, ma non è presente una risposta iniziale. Supponiamo che l&#39;utente veda il contenuto regolare dell&#39;immagine protagonista, perché non è stata ricevuta alcuna risposta da Target sull&#39;esistenza di un&#39;attività associata. Dopo quattro secondi, Target restituisce una risposta con il contenuto dell&#39;attività.
+Il timeout di [!DNL Target] è di cinque secondi. Un utente carica una pagina che ha un&#39;attività per personalizzare un&#39;immagine protagonista. at.js invia la richiesta per determinare se c&#39;è un&#39;attività da applicare, ma non è presente una risposta iniziale. Supponiamo che l&#39;utente veda il contenuto regolare dell&#39;immagine protagonista, perché non è stata ricevuta alcuna risposta da [!DNL Target] sull&#39;esistenza di un&#39;attività associata. Dopo quattro secondi, [!DNL Target] restituisce una risposta con il contenuto dell&#39;attività.
 
 A questo punto, è possibile che la versione alternativa venga mostrata? Perciò dopo quattro secondi, l&#39;immagine protagonista potrebbe essere scambiata e l&#39;utente potrebbe notare questo scambio di immagini?
 
-Inizialmente, l&#39;elemento DOM dell’immagine protagonista è nascosto. Dopo aver ricevuto una risposta da Target, at.js applica le modifiche DOM, come la sostituzione dell&#39;IMG e la visualizzazione dell&#39;immagine protagonista personalizzata.
+Inizialmente, l&#39;elemento DOM dell’immagine protagonista è nascosto. Dopo aver ricevuto una risposta da [!DNL Target], at.js applica le modifiche DOM, come la sostituzione dell’IMG e la visualizzazione dell’immagine protagonista personalizzata.
 
 ## Quale doctype HTML richiede at.js?
 
@@ -269,4 +269,4 @@ La sintassi è:
 
 `<!DOCTYPE html>`
 
-Il doctype HTML5 assicura che la pagina venga caricata in modalità standard. Durante il caricamento in modalità quirks, alcune API JS dalle quali dipende at.js sono disabilitate. Target disabilita at.js in modalità quirks.
+Il doctype HTML5 assicura che la pagina venga caricata in modalità standard. Durante il caricamento in modalità quirks, alcune API JS dalle quali dipende at.js sono disabilitate. [!DNL Target] disabilita at.js in modalità quirks.

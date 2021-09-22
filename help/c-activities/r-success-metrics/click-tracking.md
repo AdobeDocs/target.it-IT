@@ -1,13 +1,13 @@
 ---
 keywords: Tracciamento clic;tracciamento dei clic;clic; AppMeasurement
-description: Scopri come Adobe [!DNL Target] consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo.
+description: Scopri come [!DNL Adobe Target] consente di tenere traccia dei clic su qualsiasi elemento come metrica di successo.
 title: Cos’è il tracciamento dei clic?
-feature: Metriche di successo
+feature: Success Metrics
 exl-id: 9181424b-179e-49fc-b760-b764a0c3458a
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
+source-git-commit: f4b490c489427130e78d84b573b2d290a8a60585
 workflow-type: tm+mt
-source-wordcount: '885'
-ht-degree: 91%
+source-wordcount: '929'
+ht-degree: 60%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 91%
 
 >[!NOTE]
 >
->Il tracciamento dei clic non è supportato nella richiesta Target globale quando viene utilizzata come posizione in un’attività basata su moduli.
+>Il tracciamento dei clic non è supportato nella richiesta globale [!DNL Target] quando viene utilizzata come posizione in un’attività basata su moduli.
 
-## Impostazione del tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
+## Configurare il tracciamento dei clic {#section_5540C5A533114E57BAE022A600B02E72}
 
 1. Quando imposterai gli obiettivi dell&#39;attività nella pagina [!UICONTROL Obiettivi e impostazioni], seleziona la metrica di successo **[!UICONTROL Conversione]**.
 1. Per eseguire tale azione, seleziona **[!UICONTROL Scegli un elemento]**, quindi fai clic su **[!UICONTROL Seleziona elementi]**.
@@ -28,19 +28,19 @@ ht-degree: 91%
 
 1. Seleziona gli elementi di cui desideri tenere traccia.
 
-   Per suggerimenti sulla selezione degli elementi, consulta la sezione Considerazioni, di seguito.
+   Per suggerimenti sulla selezione degli elementi, consulta la sezione *Considerazioni* di seguito.
 
-1. Fai clic sul segno di spunta nella parte superiore dello schermo per salvare le selezioni.
+1. Fai clic su **[!UICONTROL Salva]** nella parte superiore dello schermo per salvare le selezioni.
 
 Quando un partecipante all’attività fa clic su un elemento selezionato, tale clic viene conteggiato come conversione.
 
 ## Pannello Elementi selezionati {#selected-elements}
 
-Per le attività Test A/B, Targeting esperienza, Personalizzazione automatizzata e Test multivariato, nel pannello [!UICONTROL Elementi selezionati] a destra vengono elencati tutti gli elementi selezionati per il tracciamento dei clic.
+Per le attività [!UICONTROL Test A/B], [!UICONTROL Targeting esperienza] (XT), [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Test multivariato] (MVT), un pannello [!UICONTROL Elementi selezionati] elenca gli elementi selezionati per il tracciamento dei clic sul lato destro.
 
 ![Pannello Elementi selezionati](/help/c-activities/r-success-metrics/assets/selected-elements.png)
 
-Puoi applicare diverse azioni quando passi il cursore su un elemento nel pannello [!UICONTROL Elementi selezionati]. La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
+Puoi applicare diverse azioni quando passi il cursore su un elemento nel pannello [!UICONTROL Elementi selezionati] . La tabella seguente descrive ogni azione che è possibile eseguire su un elemento:
 
 | Azione | Descrizione |
 | --- | --- |
@@ -54,7 +54,7 @@ Se conosci già il percorso DOM del selettore, puoi aggiungerlo manualmente face
 
 ![Icona Aggiungi elemento](/help/c-activities/r-success-metrics/assets/add-element.png)
 
-### Menu a comparsa in Elementi selezionati
+### Popup Elementi selezionati
 
 Dopo aver selezionato più elementi per il tracciamento dei clic, puoi fare clic sul collegamento [!UICONTROL Elementi selezionati] durante il passaggio [!UICONTROL Obiettivi e impostazioni] dell’attività per visualizzare l’elenco completo degli elementi selezionati per il tracciamento dei clic. L’elenco contiene il percorso DOM completo dell’elemento, che ti permette di convalidare facilmente l’utilizzo dell’elemento selezionato per il tracciamento dei clic.
 
@@ -68,7 +68,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    ![Illustrazione del percorso DOM](/help/c-activities/r-success-metrics/assets/click-tracking-dom.png)
 
-   Come per la creazione di esperienze, al passaggio 1 nel flusso di lavoro di creazione attività, puoi scegliere un elemento con il selettore del percorso DOM nella parte inferiore della pagina. Quando selezioni un elemento dal percorso DOM, nel Compositore esperienza visivo l’elemento corrispondente è visualizzato come Selezionato. Per deselezionare un elemento selezionato, puoi fare clic di nuovo su di esso nel selettore del percorso DOM o sulla casella Selezionato nel Compositore esperienza visivo.
+   Come per la creazione di esperienze al passaggio 1 nel flusso di lavoro per la creazione di attività, il selettore del percorso DOM nella parte inferiore della pagina consente di scegliere un elemento. Quando selezioni un elemento dal percorso DOM, nel Compositore esperienza visivo l’elemento corrispondente è visualizzato come Selezionato. Per deselezionare un elemento selezionato, puoi fare di nuovo clic sull’elemento nel selettore del percorso DOM o fare clic sulla casella Selezionato all’interno del Compositore esperienza visivo.
 
    Per ulteriori informazioni, consulta [Navigare tra gli elementi utilizzando il percorso DOM](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) in *Opzioni del Compositore esperienza visivo*.
 
@@ -76,7 +76,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 * Se selezioni più di un elemento, quando un partecipante fa clic su uno qualsiasi degli elementi scelti, il clic viene conteggiato. Per contare ogni elemento separatamente, imposta le metriche di successo individuali per ogni elemento. Per contare un elemento facendo clic su più elementi in una pagina, modifica il selettore degli elementi CSS in modo che corrisponda a più elementi.
 * Assicurati di selezionare il livello di elemento di cui desideri tenere traccia. Ad esempio, quando definisci un pulsante, assicurati di selezionare il collegamento e non il testo del pulsante.
 * Gli eventi clic vengono inviati a [!DNL Target] nella stessa pagina del clic.
-* Se la metrica di tracciamento dei clic è la metrica di obiettivo di un&#39;attività A4T, il visitatore deve fare clic su tale elemento entro 60 secondi dal caricamento della pagina in modo da tenere traccia della metrica.
+* Se la metrica di tracciamento dei clic è la metrica di obiettivo di un&#39;attività [!UICONTROL Analytics for Target] (A4T), il visitatore deve fare clic su questo elemento entro 60 secondi dal caricamento della pagina per consentire il tracciamento della metrica.
 * Il tracciamento dei clic non funziona su elementi che includono caratteri di escape nei rispettivi selettori, inclusi i seguenti:
 
    | Carattere | Descrizione |
@@ -87,7 +87,7 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
    | $ | Simbolo del dollaro |
    | `[ ]` | Parentesi quadre |
 
-* Se si utilizza il tracciamento dei clic [!DNL at.js] e si utilizza anche Analytics AppMeasurement, il tracciamento dei clic [!DNL at.js] annulla tutti gli altri gestori eventi di clic. Di conseguenza, il gestore di clic AppMeasurement non viene mai eseguito.
+* Se si utilizza il tracciamento dei clic [!DNL at.js][!DNL Analytics] e si utilizza anche AppMeasurement, il tracciamento dei clic [!DNL at.js] annulla tutti gli altri gestori eventi di clic. Di conseguenza, il gestore di clic AppMeasurement non viene mai eseguito.
 
    [!DNL at.js] gestisce in modo particolare il tracciamento dei clic quando l’elemento sottostante è un tag `A` (collegamento) o un tag `FORM`.
 
@@ -95,23 +95,29 @@ Ci sono diversi fattori da considerare quando si selezionano gli elementi:
 
    1. Invocare `event.preventDefault()`.
 
-   1. Attivare la richiesta di Target.
+   1. Attivare la richiesta [!DNL Target].
 
-   1. In base al successo della richiesta di Target o all&#39;errore di callback, eseguire il comportamento predefinito:
+   1. In [!DNL Target] richiesta riuscita o callback di errore, eseguire il comportamento predefinito:
 
       * Tag (collegamento)`A`: il comportamento predefinito consiste nel passare all&#39;URL definito dall&#39;attributo href.
       * Tag `FORM`: il comportamento predefinito consiste nell’inviare il modulo.
 
-   Questo comportamento predefinito potrebbe interferire con il tracciamento dei clic di Analytics. Se si utilizza Analytics, per il tracciamento dei clic è necessario fare affidamento su Analytics anziché su Target.
+   Questo comportamento predefinito potrebbe interferire con il tracciamento dei clic [!DNL Analytics]. Se utilizzi [!DNL Analytics], fai riferimento a [!DNL Analytics] per il tracciamento dei clic anziché [!DNL Target].
 
-* Il tracciamento dei clic non viene registrato nelle pagine in cui la pagina e l’URL attività appartengono a proprietà diverse. Le autorizzazioni per utenti Enterprise sono una funzione di Target Premium. Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+* Il tracciamento dei clic non viene registrato nelle pagine in cui la pagina e l’URL attività appartengono a proprietà diverse. Le autorizzazioni per gli utenti Enterprise sono una funzione [!DNL Target Premium]. Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md).
+
+* Le metriche di tracciamento dei clic non sono collegate ad alcuna esperienza specifica in un’attività.
+
+* Utilizza i tipi di pubblico se è necessario limitare l’ambito delle metriche di tracciamento dei clic.
+
+* Più attività possono definire una metrica di tracciamento dei clic per lo stesso selettore. In tal caso, quando un visitatore è idoneo per una di queste attività e fa clic sul selettore, la metrica di tracciamento dei clic aumenta per tutte le attività associate per le quali il visitatore si è qualificato.
 
 ## Video di formazione {#section_36607204DAE146E3B8E2C609D244EDB1}
 
 Questo video include informazioni sulla creazione di metriche di successo per il tracciamento dei clic.
 
 * Le metriche per “Obiettivo”
-* Concetti e creazione di metriche per conversione, ricavi e coinvolgimento
+* Comprendere e generare le metriche [!UICONTROL Conversione], [!UICONTROL Entrate] e [!UICONTROL Coinvolgimento]
 * Creazione di una metrica di tracciamento dei clic
 
 >[!VIDEO](https://video.tv.adobe.com/v/17380)
