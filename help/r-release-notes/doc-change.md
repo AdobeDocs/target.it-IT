@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a1a4cb6294692836530c445d5f9546b5323479bb
+source-git-commit: c9824b9c0a994b61aac89f131162000f5ab2eaf1
 workflow-type: tm+mt
-source-wordcount: '2549'
+source-wordcount: '2570'
 ht-degree: 93%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 27 settembre | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]<ul><li>Mercoledì 13 ottobre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 settembre | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modificato `$Double` in `$double` negli esempi di codice per evitare possibili ambiguità. |
 |  | [Domande frequenti sulle progettazioni](/help/c-recommendations/c-design-overview/template-faq.md) | Il seguente paragrafo è stato aggiornato:<ul><li>Posso utilizzare uno script di profilo in una progettazione [!DNL Recommendations]?</li></ul> |
 |  | [Tracciamento dei clic](/help/c-activities/r-success-metrics/click-tracking.md) | Sono state aggiunte le seguenti considerazioni:<ul><li>Le metriche di tracciamento dei clic non sono collegate ad alcuna esperienza specifica in un’attività.</li><li>Utilizza i tipi di pubblico se è necessario limitare l’ambito delle metriche di tracciamento dei clic.</li><li>Più attività possono definire una metrica di tracciamento dei clic per lo stesso selettore. In tal caso, quando un visitatore è idoneo per una di queste attività e fa clic sul selettore, la metrica di tracciamento dei clic aumenta per tutte le attività associate per le quali il visitatore si è qualificato.</li></ul> |
