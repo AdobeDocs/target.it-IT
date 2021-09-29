@@ -2,12 +2,12 @@
 keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di esperienza;frammenti;XF
 description: Scopri come utilizzare AEM frammenti di esperienza nelle attività Adobe [!DNL Target] . Combina la facilità d'uso e la potenza di AEM con le potenti funzionalità AI e ML in [!DNL Target].
 title: Come Si Utilizzano I Frammenti Esperienza Di Adobe Experience Manager (AEM)?
-feature: Esperienze e offerte
+feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: a13070602a9761bf49923c4add4a0f740b253a2d
+source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
 workflow-type: tm+mt
-source-wordcount: '1157'
-ht-degree: 30%
+source-wordcount: '1125'
+ht-degree: 31%
 
 ---
 
@@ -142,7 +142,6 @@ Puoi utilizzare frammenti di esperienza nelle attività [!DNL Target] utilizzand
 
 * [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. Il frammento di esperienza importato dovrebbe essere disponibile in [!DNL Target] entro dieci minuti, ma questo intervallo di tempo dovrebbe accorciarsi andando avanti.
 * Il frammento di esperienza è attualmente importato in [!DNL Target] come offerta HTML. Il frammento di esperienza nella versione &quot;principale&quot; rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
-* Puoi importare le offerte JSON come frammenti di esperienza in [!DNL Target]. Tuttavia, queste offerte vengono importate come offerte HTML. Le offerte JSON (frammenti di esperienza) non sono attualmente completamente supportate nell’ interfaccia utente di [!DNL Target] .
 * Non è possibile creare frammenti di esperienza utilizzando Adobe IO. È necessario creare frammenti di esperienza utilizzando AEM, come spiegato in precedenza.
 
 ## Video di formazione: Utilizzo di frammenti di esperienza AEM con Adobe Target ![Badge tutorial](/help/assets/overview.png) {#section_C0EDC54063464F41A182492D2045BC64}
