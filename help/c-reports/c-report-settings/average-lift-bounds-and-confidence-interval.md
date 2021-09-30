@@ -4,7 +4,7 @@ description: Scopri come interpretare i rapporti di Adobe [!DNL Target] che incl
 title: Come si visualizza l'incremento medio, i limiti di incremento e l'intervallo di affidabilità?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
 workflow-type: tm+mt
 source-wordcount: '836'
 ht-degree: 71%
@@ -111,7 +111,7 @@ Pertanto, i limiti di incremento per l’esperienza B saranno:
 >
 >Potrebbero esserci lievi varianze tra i calcoli manuali svolti utilizzando le formule di cui sopra e i numeri visualizzati nel rapporto. La differenza può essere attribuita al fatto che i numeri delle visualizzazioni di pagina utilizzati nei calcoli manuali sono arrotondati. L’incremento mostrato nel rapporto [!DNL Target] si basa sui numeri esatti ottenuti dal coinvolgimento totale e dal conteggio del coinvolgimento. I numeri di coinvolgimento possono essere ottenuti tramite l&#39;API di rapporto sulle prestazioni.
 
-## Quando i limiti di incremento non vengono visualizzati? {#section_C5622E1E94684DAD937249B51A9E42CC}
+## Quando non vengono visualizzati i limiti di incremento? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
 In alcuni casi, [!DNL Target] non visualizza i limiti di incremento:
 
