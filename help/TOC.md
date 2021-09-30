@@ -3,9 +3,9 @@ user-guide-title: 'Guida di Adobe [!DNL Target] '
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
-workflow-type: ht
-source-wordcount: '1541'
+source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
+workflow-type: tm+mt
+source-wordcount: '1535'
 ht-degree: 100%
 
 ---
@@ -149,7 +149,6 @@ ht-degree: 100%
       + [Attivare Target nell’SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
       + [iOS - Creare una posizione di destinazione e una metrica di successo](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - Inviare dati utente personalizzati](c-target-mobile-app/mobile-custom-user-data.md)
-      + [Inviare informazioni sull’attività ad Adobe Analytics](c-target-mobile-app/mobile-send-activity-information-analytics.md)
       + [Anteprima mobile di Target](c-target-mobile-app/target-mobile-preview.md)
       + [Preacquisire il contenuto dell’offerta](c-target-mobile-app/prefetch-offer-content.md)
       + [Target per app per dispositivi mobili - Domande frequenti](/help/c-target-mobile-app/target-for-mobile-apps-faq.md)
