@@ -4,9 +4,9 @@ description: Scopri come interpretare i rapporti di Adobe [!DNL Target] che incl
 title: Come si visualizza l'incremento medio, i limiti di incremento e l'intervallo di affidabilità?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '836'
 ht-degree: 71%
 
 ---
@@ -49,7 +49,7 @@ L’affidabilità di un’esperienza o di un’offerta rappresenta la probabilit
 
 ## Comprendere come viene determinato l’intervallo di affidabilità per l’incremento {#pdf}
 
-Scarica [Intervallo di affidabilità per Lift pdf](/help/assets/confidence_interval_lift.pdf) per ulteriori informazioni.
+Scarica il [Intervallo di affidabilità per il file pdf di incremento](/help/assets/confidence_interval_lift.pdf) per ulteriori informazioni.
 
 ## Come vengono calcolati i limiti di incremento? {#section_1D360781D972483693680BE0F07AEAD1}
 

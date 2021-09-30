@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
+source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
 workflow-type: tm+mt
-source-wordcount: '2633'
+source-wordcount: '2634'
 ht-degree: 92%
 
 ---
