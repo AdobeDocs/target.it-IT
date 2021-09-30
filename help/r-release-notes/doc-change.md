@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ea3485a8db00a5aa5ef5bede3006dd62dca5559a
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '2613'
-ht-degree: 93%
+source-wordcount: '2633'
+ht-degree: 92%
 
 ---
 
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 30 settembre | Invia informazioni sull&#39;attività a [!DNL Adobe Analytics] | È stato rimosso l’intero argomento perché i passaggi descritti non sono più necessari per inviare [!DNL Target] informazioni sull’attività dell’app mobile a [!DNL Analytics] per la segmentazione post-hoc. |
+|  | [Incremento medio, limiti di incremento e intervallo di affidabilità](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | È stato aggiunto un file pdf per spiegare come viene calcolato l’intervallo di affidabilità per l’incremento. |
 |  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modificato `targetPageParams` in `targetPageParamsAll` nel &quot;Passaggio 5 Aggiorna l’implementazione per includere il parametro `at_property` .&quot; |
 | 27 settembre | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]<ul><li>Mercoledì 13 ottobre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 settembre | [Personalizzare una progettazione con Velocity](/help/c-recommendations/c-design-overview/customizing-a-template.md) | Modificato `$Double` in `$double` negli esempi di codice per evitare possibili ambiguità. |

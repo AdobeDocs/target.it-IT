@@ -2,13 +2,12 @@
 keywords: Target;rapporti;impostazioni dei rapporti;ambiente;incremento;limiti di incremento;varianza;affidabilità;controllo
 description: Scopri come interpretare i rapporti di Adobe [!DNL Target] che includono punti di dati e rappresentazioni di visualizzazione per aiutarti a comprendere i limiti di incremento e il livello di affidabilità delle tue attività.
 title: Come si visualizza l'incremento medio, i limiti di incremento e l'intervallo di affidabilità?
-feature: Rapporti
+feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 5ad5725336c9b0cb5f2e15dbda28c6907e8ea431
 workflow-type: tm+mt
-source-wordcount: '817'
-ht-degree: 73%
+source-wordcount: '835'
+ht-degree: 71%
 
 ---
 
@@ -20,7 +19,7 @@ I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione
 >
 >Questa funzione è disponibile solo quando i rapporti vengono visualizzati nella vista [!UICONTROL Tabella] . Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
-## Interpreta i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
+## Interpretare i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
 L&#39;illustrazione seguente mostra le informazioni [!UICONTROL Limiti di incremento e Livello di affidabilità] :
 
@@ -47,6 +46,10 @@ La lunghezza della barra box plot rappresenta in modo immediato la grandezza del
 ### Affidabilità
 
 L’affidabilità di un’esperienza o di un’offerta rappresenta la probabilità che l’incremento dell’esperienza o dell’offerta a essa associata rispetto all’esperienza o all’offerta di controllo sia “reale” (non casuale). Tipicamente, 95% è il livello consigliato di affidabilità per considerare l’incremento significativo.
+
+## Comprendere come viene determinato l’intervallo di affidabilità per l’incremento {#pdf}
+
+Scarica [Intervallo di affidabilità per Lift pdf](/help/assets/confidence_interval_lift.pdf) per ulteriori informazioni.
 
 ## Come vengono calcolati i limiti di incremento? {#section_1D360781D972483693680BE0F07AEAD1}
 
