@@ -5,9 +5,9 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: c01357ec17bb0881c38325e0ff3c98c126ace3d1
+source-git-commit: aeb80fadbab4f1f11452c84b3fc0e1479569c5e4
 workflow-type: tm+mt
-source-wordcount: '1456'
+source-wordcount: '1432'
 ht-degree: 63%
 
 ---
@@ -108,8 +108,6 @@ Le proprietà appartengono a canali specifici (Web, mobile, e-mail e API/altro).
 1. In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Proprietà]** per visualizzare l&#39;elenco [!UICONTROL Proprietà].
 1. Fai clic su **Crea proprietà**.
 
-   ![Finestra di dialogo Nuova proprietà](/help/administrating-target/c-user-management/property-channel/assets/new_property1.png)
-
    Compila i campi:
 
    * **Nome proprietà (obbligatorio):** specifica un nome descrittivo per la proprietà.
@@ -144,7 +142,7 @@ Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessar
 
    Esistono diversi modi per aggiornare l&#39;implementazione di [!DNL Target]. Ad esempio, è possibile utilizzare i seguenti metodi per le pagine Web:
 
-   * **Tramite un &quot;parametro globale nei tag in   [!DNL Adobe Experience Platform]:**
+   * **Tramite un parametro globale nei tag in   [!DNL Adobe Experience Platform]:**
 
       Per ulteriori informazioni, consulta [Aggiungi parametri di destinazione globale](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/target/overview.html?lang=en#add-global-mbox-params) nella documentazione *Panoramica sui tag* .
 
@@ -161,12 +159,6 @@ Per utilizzare la funzionalità [!DNL Target] autorizzazioni utente, è necessar
       ```
 
       Per ulteriori informazioni su come eseguire questa operazione con at.js, consulta [targetPageParamsAll](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
-
-   * **Tramite la funzione mboxCreate():**
-
-      ![](assets/property_token_3.png)
-
-      Per ulteriori informazioni su come eseguire questa procedura con at.js, vedi  [](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md) targetPageParamsAlland   [mboxCreate(mbox,params)](/help/c-implementing-target/c-implementing-target-for-client-side-web/mboxcreate-atjs.md).
 
 ## Passaggio 6: Specificare ruoli e autorizzazioni {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 
