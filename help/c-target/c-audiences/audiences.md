@@ -2,11 +2,11 @@
 keywords: pubblico;regole del pubblico;creare un pubblico;creazione di pubblico;pubblico di destinazione;rapporti sul pubblico;report sul pubblico;segmento;parametri di profilo personalizzati;definizione del pubblico;elenco di tipi di pubblico;audience
 description: Scopri come utilizzare l’elenco [!UICONTROL Tipi di pubblico] in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: a2b3bf75e8b14c3068b8dba59f31d2577d9cec29
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '759'
 ht-degree: 32%
 
 ---
@@ -45,7 +45,7 @@ L&#39;elenco [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi 
 
    >[!NOTE]
    >
-   >L&#39;origine [!DNL Adobe Experience Platform] si trova in un programma di test Beta, ma è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). I tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o [combinati con i tipi di pubblico esistenti](/help/c-target/combining-multiple-audiences.md).
+   >La sorgente [!DNL Adobe Experience Platform] è disponibile per tutti i clienti [!DNL Target] che utilizzano l’ [SDK per web Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). I tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o [combinati con i tipi di pubblico esistenti](/help/c-target/combining-multiple-audiences.md).
 
 I tipi di pubblico predefiniti, come &quot;[!UICONTROL Nuovi visitatori]&quot; e &quot;[!UICONTROL Visitatori di ritorno]&quot;, non possono essere rinominati.
 

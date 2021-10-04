@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: b1dfa0906c710b5dfe68a5c57387dec368a9153d
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '2634'
+source-wordcount: '2649'
 ht-degree: 92%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 4 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Aggiornate note sulla versione prerelease relative a Target Standard/Premium 21.10.1 (6 ottobre 2021). |
 | 30 settembre | Invia informazioni sull&#39;attività a [!DNL Adobe Analytics] | È stato rimosso l’intero argomento perché i passaggi descritti non sono più necessari per inviare [!DNL Target] informazioni sull’attività dell’app mobile a [!DNL Analytics] per la segmentazione post-hoc. |
 |  | [Incremento medio, limiti di incremento e intervallo di affidabilità](/help/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | È stato aggiunto un file pdf per spiegare come viene calcolato l’intervallo di affidabilità per l’incremento. |
 |  | [Configurare le autorizzazioni Enterprise](/help/administrating-target/c-user-management/property-channel/properties-overview.md) | Modificato `targetPageParams` in `targetPageParamsAll` nel &quot;Passaggio 5 Aggiorna l’implementazione per includere il parametro `at_property` .&quot; |

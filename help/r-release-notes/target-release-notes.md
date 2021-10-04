@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 0d5d31a421acb595702e6420c74e969124cc3daf
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '264'
-ht-degree: 93%
+source-wordcount: '292'
+ht-degree: 84%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 93%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 27 settembre 2021**
+**Ultimo aggiornamento: 4 ottobre 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -32,6 +32,7 @@ Questa versione include le seguenti nuove funzionalità:
 | Funzione | Dettagli |
 | --- | --- |
 | Aggiornamento dell&#39;interfaccia utente Audiences | Stiamo gradualmente riscrivendo l’intera interfaccia utente di [!DNL Target] utilizzando un nuovo stack tecnologico per poter offrire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza di utilizzo in tutto il prodotto. La sezione [Amministrazione](/help/administrating-target/administrating-target.md) è stata aggiornata nel 2020. La sezione [!UICONTROL Audiences] è il secondo aggiornamento principale dell&#39;interfaccia utente. |
+| ![Badge Premium ](/help/assets/premium.png) Criteri di Recommendations creazione e modifica | Il flusso di lavoro [!UICONTROL Recommendations Criteria] per la creazione e la modifica è stato semplificato per semplificare la scelta dell&#39;algoritmo e delle impostazioni consigliate per raggiungere gli obiettivi. |
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 

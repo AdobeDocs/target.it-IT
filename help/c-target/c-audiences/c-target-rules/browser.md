@@ -2,11 +2,11 @@
 keywords: opzioni browser;tipo;tipo di browser;lingua del browser;lingua;versione;versione del browser
 description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per rivolgerti agli utenti che visitano la pagina utilizzando un browser specifico o opzioni specifiche del browser.
 title: È possibile indirizzare i visitatori in base al tipo di browser?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 8420bbe3-b58a-4ddb-89bb-0265dab6b5fc
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 76%
 
 ---
@@ -40,7 +40,7 @@ Esistono due modi per indirizzare i browser:
 
    1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-   1. Trascina **[!UICONTROL Browser]** nel riquadro audience builder.
+   1. Trascina **[!UICONTROL Browser]** in Audience Builder.
 
       ![Regole > Browser](assets/target_browser.png)
 

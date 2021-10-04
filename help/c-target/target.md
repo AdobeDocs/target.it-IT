@@ -1,12 +1,12 @@
 ---
 keywords: Targeting;pubblico
 description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target] per indirizzare contenuti ed esperienze diversi a tipi di pubblico specifici per ottimizzare le attività di marketing web.
-title: Come posso utilizzare i tipi di pubblico per indirizzare contenuti diversi a segmenti specifici?
-feature: Tipi di pubblico
+title: Come posso utilizzare [!UICONTROL Tipi di pubblico] per indirizzare contenuti diversi a segmenti specifici?
+feature: Audiences
 exl-id: 5c52ddf1-11e1-4b99-9f74-1af03190136a
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '316'
+source-wordcount: '315'
 ht-degree: 43%
 
 ---

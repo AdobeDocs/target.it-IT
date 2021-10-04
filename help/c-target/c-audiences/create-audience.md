@@ -2,11 +2,11 @@
 keywords: pubblico;regole del pubblico;creare pubblico;creazione pubblico
 description: Scopri come creare tipi di pubblico personalizzati e salvarli nella libreria  [!DNL Adobe Target] [!UICONTROL Audiences] per utilizzarli nelle attività.
 title: Come Posso Creare Tipi Di Pubblico?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '517'
 ht-degree: 61%
 
 ---
@@ -60,7 +60,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
 1. (Condizionale) Continua ad aggiungere e definire gli attributi desiderati.
 
-   Per creare un altro contenitore, fai clic su **[!UICONTROL Aggiungi contenitore]** oppure trascina semplicemente un altro attributo nel frame centrale. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
+   Per creare un altro contenitore, fai clic su **[!UICONTROL Aggiungi contenitore]** o semplicemente trascina un altro attributo nel riquadro Audience Builder. È quindi possibile regolare l’operatore (AND o OR) utilizzando l’elenco a discesa.
 
 1. Fai clic su **[!UICONTROL Fine]**.
 

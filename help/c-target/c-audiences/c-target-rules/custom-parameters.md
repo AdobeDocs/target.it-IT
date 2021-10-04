@@ -2,11 +2,11 @@
 keywords: parametri personalizzati;parametri personalizzati di target;targetpageparams;parametri mbox di targeting
 description: Scopri come trasmettere parametri personalizzati a [!DNL Adobe Target] per l’utilizzo in audience.
 title: Posso indirizzare i visitatori in base a parametri personalizzati?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: b74cccdc43c34367819ed8a908a304b567d7ecbb
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '459'
 ht-degree: 41%
 
 ---
@@ -21,7 +21,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Personalizzato]** nel riquadro di Generatore di pubblico.
+1. Trascina **[!UICONTROL Personalizzato]** in Audience Builder.
 
    Per selezionare il parametro desiderato:
 
@@ -56,7 +56,7 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
 1. (Facoltativo) Imposta regole aggiuntive per il pubblico.
 1. Fai clic su **[!UICONTROL Fine]**.
 
-I [dettagli della definizione di una scheda a comparsa](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) del pubblico visualizzano il nome del parametro nella sezione Regole. Non esiste un riferimento al mbox utilizzato per il filtraggio.
+I [dettagli della definizione di una scheda a comparsa](/help/c-target/c-audiences/audiences.md#section_11B9C4A777E14D36BA1E925021945780) del pubblico visualizzano il nome del parametro nella sezione Regole. **** Non esiste un riferimento al mbox utilizzato per il filtraggio.
 
 >[!NOTE]
 >
