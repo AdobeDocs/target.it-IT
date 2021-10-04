@@ -2,13 +2,13 @@
 keywords: ambiente;risoluzione dei problemi;procedure consigliate;ubox;reindirizzamenti;reindirizzamento;whitelist;blacklist;inserii nell'elenco Bloccati;inserire nell'elenco Consentiti
 description: Scopri come utilizzare gli ambienti in Adobe [!DNL Target] per organizzare i siti e gli ambienti di pre-produzione in modo da semplificare la gestione e la generazione di rapporti separati.
 title: Cosa sono gli ambienti e come li utilizzo?
-feature: Amministrazione e configurazione
+feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: be7b5478006af231aae2b78e4a8c0066e3cb4a5b
+source-git-commit: cc4ea47aff73a6a1f67bec56f048a19b5e009c05
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 61%
+source-wordcount: '696'
+ht-degree: 62%
 
 ---
 
@@ -77,7 +77,12 @@ Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Cons
 >
 >Le attività Recommendations sono disponibili come parte della soluzione [!DNL Target] Premium . Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
 
-Un ambiente può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti [!UICONTROL Sviluppo] e [!UICONTROL Produzione], marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento. I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
+Un ambiente può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi di host per ambienti [!UICONTROL Sviluppo] e [!UICONTROL Produzione], marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento.
+
+>[!NOTE]
+>
+>I consigli distribuiti dipendono dal gruppo di host specificato nella richiesta.
+
 
 Se i prodotti non vengono visualizzati, assicurati di utilizzare il gruppo host corretto. Ad esempio, se imposti che il consiglio usi un ambiente di gestione temporanea e imposti il gruppo host su Gestione temporanea, potrebbe essere necessario ricreare le raccolte nell&#39;ambiente di gestione temporanea perché si visualizzino i prodotti. Per visualizzare i prodotti disponibili in ogni ambiente, utilizza Ricerca catalogo con ogni ambiente. Puoi anche visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Recommendations per un ambiente selezionato (gruppo di host).
 
