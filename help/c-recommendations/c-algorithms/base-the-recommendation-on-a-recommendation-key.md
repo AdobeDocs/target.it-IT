@@ -5,9 +5,9 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: c3092f63dbcb91aca4afe2ba35715cbd3f658506
+source-git-commit: 17004e002e6ff7eb0a50f637561c5ec25823a2eb
 workflow-type: tm+mt
-source-wordcount: '3143'
+source-wordcount: '3142'
 ht-degree: 47%
 
 ---
@@ -207,7 +207,7 @@ Utilizza questo algoritmo nelle pagine generali, ad esempio nelle pagine princip
 >
 >[!UICONTROL Articoli visualizzati di recente ] rispetta sia le impostazioni globali di esclusioni sia l’impostazione di raccolta selezionata per l’attività. Se un elemento è escluso da un’esclusione globale o non è contenuto nella raccolta selezionata, non verrà visualizzato. Pertanto, quando si utilizza un criterio [!UICONTROL Articoli visualizzati di recente] , è consigliabile utilizzare in genere l’impostazione &quot;Tutte le raccolte&quot;.
 
-### Consigliato per te {#user-based}
+### Consigliato per te {#recommended-for-you}
 
 Consiglia gli articoli in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore.
 
