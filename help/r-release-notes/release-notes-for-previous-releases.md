@@ -4,10 +4,10 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 1c64ee21bd644c5de93a37a6f815f599ade568da
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '31555'
-ht-degree: 100%
+source-wordcount: '31881'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,23 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2021
+
+### [!DNL Target Standard/Premium] 21.9.1 (14 settembre 2021)
+
+Questa versione di manutenzione include i seguenti miglioramenti, correzioni e modifiche.
+
+* Sono stati risolti dei problemi che impedivano ai clienti di accedere al [!UICONTROL Compositore esperienza visivo] (VEC) a causa di nuovi criteri di sicurezza per i cookie di terze parti in alcuni browser web. Questo problema è stato discusso in &quot;Pagine non caricate nel Compositore esperienza visivo o Compositore esperienza avanzato (EEC) quando si utilizza Google Chrome versione 80+&quot; in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md).
+* È stato risolto un problema a causa del quale i nomi delle offerte nel Compositore esperienza visivo visualizzavano il percorso dell’offerta invece del nome descrittivo dell’offerta. (TGT-41300)
+* I nomi delle esperienze ora si riflettono in [!DNL Analysis Workspace] per le attività A4T (TGT-38674)
+* È stato risolto un problema in [!DNL Recommendations] a causa del quale l’ID entità veniva erroneamente applicato a una promozione in un’attività duplicata all’attività originale. (TGT-41482)
+* È stato risolto un problema che impediva la corretta visualizzazione del pulsante &quot;Modifica criteri&quot; nella pagina [!UICONTROL Esperienze] per le attività [!DNL Recommendations] nel Compositore esperienza visivo. (TGT-39512)
+* È stato risolto un problema che impediva la sincronizzazione delle attività quando venivano duplicate e copiate in un’area di lavoro di test. (TGT-40686)
+* È stato risolto un problema che impediva modifiche a un selettore con [frammenti esperienza](/help/c-experiences/c-manage-content/aem-experience-fragments.md) quando si utilizzava &quot;[!UICONTROL Inserisci dopo]&quot; nel Compositore esperienza visivo. (TGT-41802)
+* È stato risolto un problema che impediva l’invio al backend di contenuto JSON vuoto in un’offerta. [!DNL Target] ora invia l’oggetto JSON anche se è vuoto. (TGT-41555)
+* È stato risolto un problema che causava l&#39;apertura del reporting precedente [!DNL Analytics] invece di [!DNL Analysis Workspace] quando i clienti facevano clic su &quot;[!UICONTROL Visualizza in Analytics]&quot; durante la visualizzazione di un rapporto. (TGT-41867)
+* Sono stati aggiunti ulteriori chiarimenti al messaggio dell’interfaccia utente visualizzato quando un cliente tenta di selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per un’attività [!UICONTROL Automated Personalization]. Il messaggio indica che &quot;[!DNL Target] è l&#39;unica origine supportata per le attività [!UICONTROL Automated Personalization].&quot; (TGT-41954)
+* È stato aggiunto un ulteriore chiarimento al messaggio di errore quando i clienti tentano di separare gli host con &quot;nuova riga&quot; invece delle virgole. (TGT-40671)
+* È stato risolto un problema che causava alcune date di &quot;[!UICONTROL Ultimo aggiornamento]&quot; delle attività diverse dall&#39;interfaccia utente inglese per i clienti spagnoli e giapponesi (quando visualizzavano l&#39;interfaccia utente in spagnolo e giapponese). (TGT-38980)
 
 ### at.js 2.6.1 (16 agosto 2021)
 

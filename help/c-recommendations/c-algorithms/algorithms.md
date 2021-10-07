@@ -1,20 +1,19 @@
 ---
 keywords: consigli;attività consigli;criteri;algoritmo;chiave consiglio;chiave personalizzata;settore verticale;retail;e-commerce;generazione di lead;b2b;servizi finanziari;media;pubblicazione
-description: Scopri come utilizzare i criteri in Adobe [!DNL Target] Recommendations. I criteri sono regole che determinano il contenuto da consigliare in base a un set predeterminato di comportamenti dei visitatori.
+description: Scopri come utilizzare i criteri in Adobe [!DNL Target] [!DNL Recommendations].
 title: Come si utilizzano i criteri in [!DNL Target] Recommendations?
-feature: Consigli
+feature: Recommendations
 exl-id: a6e4c857-f991-4293-9d33-8d7c2ca5dade
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
 workflow-type: tm+mt
-source-wordcount: '1086'
-ht-degree: 52%
+source-wordcount: '700'
+ht-degree: 24%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Criteri
 
-I criteri in [!DNL Adobe Target] sono regole che determinano quali prodotti o contenuti consigliare in base a un set predeterminato di comportamenti dei visitatori. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
+I criteri in [!DNL Adobe Target] [!DNL Recommendations] sono regole che determinano quali prodotti o contenuti consigliare in base a un set predeterminato di comportamenti dei visitatori. I criteri possono essere basati sulle tendenze popolari, sui comportamenti attuali e passati di un visitatore o su prodotti e contenuti simili. È possibile sottoporre e test più tipi di consigli tra loro aggiungendo più criteri.
 
 Nelle sezioni seguenti vengono illustrate ulteriori informazioni sulle chiavi dei criteri e sulla logica dei consigli che è possibile utilizzare per ogni chiave. Fai clic sui collegamenti per ulteriori informazioni.
 
@@ -30,76 +29,47 @@ Durante la creazione di un criterio, seleziona un settore verticale in base agli
 
 Altre opzioni di criteri cambiano in base al verticale di settore selezionato. Puoi impostare il settore verticale predefinito nella pagina **[!UICONTROL Recommendations > Impostazioni]** oppure puoi specificare il settore verticale per ogni criterio.
 
-## Chiave consiglio {#section_885B3BB1B43048A88A8926F6B76FC482}
+## Tipo di algoritmo {#section_885B3BB1B43048A88A8926F6B76FC482}
 
-La chiave dei consigli selezionata determina il tipo di criterio. Esistono diversi tipi di criteri che vengono rappresentati come schede di criteri quando imposti un’attività di [!DNL Recommendations].
+Il tipo di algoritmo selezionato determina gli algoritmi disponibili. Esistono diversi tipi di algoritmi, che vengono rappresentati come schede di criteri quando imposti un’attività [!DNL Recommendations].
 
-![Pagina Criteri](/help/c-recommendations/c-algorithms/assets/criteria-page.png)
+![Pagina Criteri](assets/criteria-page.png)
 
-Nella tabella seguente sono illustrati i vari tipi di criteri e le relative chiavi di accompagnamento. Fai clic sui collegamenti per ulteriori informazioni su ciascuna chiave.
+La tabella seguente spiega i vari tipi di algoritmi e i relativi algoritmi.
 
-| Tipo di criteri | Chiavi |
-|--- |--- |
-| Attività sulla pagina corrente | Consiglia gli elementi o articoli in base alle azioni degli utenti sulla pagina corrente. Ad esempio, i visitatori che visualizzano un particolare elemento potrebbero volerne consultare altri della stessa categoria.<ul><li>[Elemento corrente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-item)</li><li>[Categoria corrente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#current-category)</li></ul> |
-| Personalizzato | Consiglia gli elementi o articoli in base agli attributi personalizzati.<ul><li>[Attributo personalizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#custom)</li></ul>Quando basi i consigli su attributi personalizzati, seleziona l&#39;attributo personalizzato, quindi il tipo di consiglio. |
-| Comportamento passato | Consiglia gli articoli in base alle reazioni passate dei visitatori a un articolo. Per esempio, chi ha già acquistato un articolo di una data marca sarà più propenso ad acquistare un altro articolo della stessa marca.<ul><li>[Ultimo articolo acquistato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-purchased)</li><li>[Ultimo articolo visualizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#last-viewed)</li><li>[Articolo più visualizzato](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed-logic)</li><li>[Categoria preferita](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#favorite-category)</li></ul> |
-| Popolarità | Consiglia gli articoli più popolari, ad esempio i video più popolari in una categoria correlata o i prodotti visualizzati più spesso sul sito.<ul><li>[Popolarità](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#popularity)</li></ul> |
-| [Articoli visualizzati di recente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#recently-viewed) | Consiglia gli articoli che un visitatore ha visualizzato più di recente, ad esempio gli articoli che un visitatore ha visualizzato l&#39;ultima volta che ha visitato il tuo sito o gli articoli che hanno la tendenza più elevata al momento. |
+| Tipo di algoritmo | Quando utilizzare | Algoritmi disponibili |
+| --- | --- | --- |
+| [!UICONTROL Basato sulla popolarità] | Puoi formulare consigli in base alla popolarità complessiva di un elemento all’interno del tuo sito o in base alla popolarità degli articoli all’interno della categoria, del marchio, del genere e così via preferiti o più visualizzati da un utente. | <ul><li>Più visualizzati nel sito</li><li>Più visualizzate per categoria</li><li>Più visualizzato per attributo articolo</li><li>Articoli più venduti in tutto il sito</li><li>Più venduti per categoria</li><li>Principali venduti per attributo articolo</li><li>Metrica di Analytics in alto</li></ul> |
+| [!UICONTROL Basato su articolo] | formulare raccomandazioni in base al risultato di elementi simili a un elemento che l’utente sta visualizzando o ha visualizzato di recente. | <ul><li>Chi ha visualizzato questo ha visualizzato anche quello</li><li>Chi ha visualizzato questo ha acquistato anche quello</li><li>Chi ha comprato questo ha acquistato anche quello</li><li>Articoli con attributi simili</li></ul> |
+| [!UICONTROL Basato su utente] | Eseguite raccomandazioni in base al comportamento dell&#39;utente. | <ul><li>Articoli visualizzati di recente</li><li>Consigliato per te</li></ul> |
+| Basato sul carrello | (Disponibile a breve) Effettua raccomandazioni in base al contenuto del carrello dell’utente. | <ul><li>Chi ha visualizzato questi ha visualizzato quelli</li><li>Chi li ha visti, li ha comprati</li><li>Chi ha comprato questi ha acquistato quelli</li></ul> |
+| [!UICONTROL Criteri personalizzati] | Crea consigli in base a un file personalizzato caricato. | <ul><li>Algoritmo personalizzato</li></ul> |
 
-## Utilizzo di una chiave di raccomandazione personalizzata {#custom-key}
+Per ulteriori informazioni su ciascun algoritmo, consulta [Basare il consiglio su una chiave di raccomandazione](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+
+## Utilizzo di una chiave di consiglio personalizzata {#custom-key}
 
 Puoi anche basare i consigli sul valore di un attributo di profilo personalizzato.
 
 >[!NOTE]
 >
->I parametri di profilo personalizzati possono essere trasmessi a Target tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md).
+>I parametri di profilo personalizzati possono essere passati a [!DNL Target] tramite JavaScript, API o integrazioni. Per ulteriori informazioni sugli attributi di profilo personalizzati, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md).
 
 Ad esempio, si supponga di voler visualizzare filmati consigliati in base al filmato che un utente ha aggiunto più di recente alla coda.
 
-1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa [!UICONTROL Chiave consiglio] (ad esempio, [!UICONTROL Ultima visualizzazione aggiunta a watchlist]).
+1. Fai clic su **[!UICONTROL Recommendations]** > **[!UICONTROL Criteri]**.
 
-1. Seleziona la [!UICONTROL Logica consigli] (ad esempio, [!UICONTROL Persone che hanno visualizzato questo, l&#39;hanno visualizzato]).
+1. Fai clic su **[!UICONTROL Crea criteri]** > **[!UICONTROL Crea criteri]**.
 
-   ![Finestra di dialogo Crea nuovo criterio](/help/c-recommendations/c-algorithms/assets/custom-key1.png)
+1. Compila le informazioni nella sezione [Informazioni di base](/help/c-recommendations/c-algorithms/create-new-algorithm.md#info).
 
-Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, è necessario spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità.
+1. Nella sezione [Algoritmo consigliato](/help/c-recommendations/c-algorithms/create-new-algorithm.md#rec-algo), seleziona **[!UICONTROL Elemento basato]** dall&#39;elenco **[!UICONTROL Tipo di algoritmo]**.
 
-Ad esempio, supponi di voler visualizzare gli articoli più venduti del marchio preferito di un utente.
+1. Selezionare **[!UICONTROL Persone che hanno visualizzato questo, hanno visualizzato anche questo]** dall&#39;elenco **[!UICONTROL Algorithm]**.
 
-1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa [!UICONTROL Chiave consiglio] (ad esempio, [!UICONTROL Marchio preferito]).
+1. Seleziona l’attributo di profilo personalizzato dall’elenco **[!UICONTROL Chiave consiglio]** (ad esempio, [!UICONTROL Ultima visualizzazione aggiunta a watchlist]).
 
-1. Seleziona la [!UICONTROL Logica consigli] che desideri utilizzare con questa chiave (ad esempio, [!UICONTROL Più venduti]).
-
-   Viene visualizzata l’opzione [!UICONTROL Raggruppa per valore univoco di].
-
-1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In questo caso [!UICONTROL Marchio preferito] corrisponde a `entity.brand`.
-
-   [!DNL Recommendations] ora genera un elenco &quot;Più venduti&quot; per ogni marchio e mostra all’utente l’elenco &quot;Più venduti&quot; appropriato in base al valore memorizzato nell’attributo  [!UICONTROL Favorite ] Brandprofile.
-
-   ![Attributo Più venduti](/help/c-recommendations/c-algorithms/assets/custom-key2.png)
-
-## Criteri/algoritmi {#criteria-algorithms}
-
-[!DNL Target Recommendations]In sono utilizzati algoritmi sofisticati per determinare quando le azioni di un visitatore soddisfano i criteri impostati nell&#39;attività. La Chiave consiglio determina le opzioni di logica disponibili.
-
-| Criteri | Descrizione |
-|--- |--- |
-| [Articoli/Media con attributi simili](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#similar-attributes) | Consiglia articoli o media simili in base all’attività corrente o al comportamento passato del visitatore. |
-| [Chi ha visualizzato questo ha visualizzato anche quello](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-viewed) | Consiglia gli elementi che vengono visualizzati più spesso nella stessa sessione in cui viene visualizzato l’elemento specificato. |
-| [Chi ha visualizzato questo ha acquistato anche quello](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#viewed-bought) | Consiglia gli articoli che vengono acquistati più spesso nella stessa sessione in cui viene visualizzato l’articolo specificato. |
-| [Chi ha comprato questo ha acquistato anche quello](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#bought-bought) | Consiglia gli articoli che sono acquistati più spesso dai clienti contemporaneamente all’articolo specificato. |
-| [Affinità sito](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#site-affinity) | Consiglia gli articoli in base alla certezza di una relazione tra articoli diversi. |
-| [Articoli più venduti](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#top-sellers) | Articoli inclusi nella maggioranza degli ordini completati. Più unità dello stesso articolo in un unico ordine vengono conteggiate come un ordine. |
-| [Articoli più visualizzati](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#most-viewed) | Articoli o elementi multimediali visualizzati più spesso. |
-| [Recommendations basato su utente](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#user-based) | Consiglia gli articoli in base alla cronologia di navigazione, visualizzazione e acquisto di ogni visitatore. Questi articoli sono generalmente denominati &quot;Consigliati per te&quot;. |
-
->[!NOTE]
->
->Se modifichi i criteri di un consiglio attivo, i dati di rapporto relativi andranno persi.
-
-Puoi anche utilizzare informazioni conosciute aggiuntive su un visitatore per migliorare i consigli.
-
-Tutti i criteri di un giorno vengono eseguiti due volte al giorno. Tutti i criteri di una settimana e più vengono eseguiti una volta al giorno. I criteri di affinità per sito vengono eseguiti una volta al giorno. I criteri di backup vengono eseguiti due volte al giorno.
+   ![Finestra di dialogo Crea nuovo criterio](assets/custom-key1.png)
 
 ## Visualizzazione delle informazioni sui criteri {#section_7162DE58E4594FD688A4D7FDB829FD8B}
 
