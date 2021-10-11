@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 7a52f7c046fb00672ef1b13704308be39f89c7ad
+source-git-commit: 088912db2bd404978ec1403144779b0b87ba95f1
 workflow-type: tm+mt
-source-wordcount: '2727'
+source-wordcount: '2741'
 ht-degree: 91%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 11 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nuove informazioni sulla versione di Target Standard/Premium 21.10.2 (13 ottobre 2021). |
 | 6 ottobre | [Creare tipi di pubblico in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Testo e immagini aggiornati per riflettere l&#39;interfaccia utente aggiornata [!DNL Target] [!UICONTROL Audiences]. Modifiche simili sono state apportate in tutti gli argomenti [!UICONTROL Tipi di pubblico]. |
 |  | [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) | Sono state aggiornate le seguenti sezioni:<ul><li>Informazioni di base</li><li>Origine dati</li></ul> |
 |  | [Caricare criteri personalizzati](/help/c-recommendations/c-algorithms/recommendations-csv.md) | Sono state aggiornate le istruzioni per riflettere il nuovo flusso di lavoro. |
