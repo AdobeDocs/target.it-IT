@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 53a7bd5bb258f2f12f68d3b4cfdfc77d5519c913
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '2750'
-ht-degree: 91%
+source-wordcount: '2778'
+ht-degree: 90%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 14 ottobre | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Sono state aggiunte le seguenti domande frequenti: &quot;Posso utilizzare una metrica binomiale [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Allocazione automatica]?&quot; |
 | 13 ottobre | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.10.2 | Nuove informazioni sulla versione [!DNL Target Standard/Premium] 21.10.2 (13 ottobre 2021). |
 | 11 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nuove informazioni sulla versione di Target Standard/Premium 21.10.2 (13 ottobre 2021). |
 | 6 ottobre | [Creare tipi di pubblico in [!DNL Target]](/help/c-target/c-audiences/create-audience.md) | Testo e immagini aggiornati per riflettere l&#39;interfaccia utente aggiornata [!DNL Target] [!UICONTROL Audiences]. Modifiche simili sono state apportate in tutti gli argomenti [!UICONTROL Tipi di pubblico]. |

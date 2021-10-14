@@ -4,11 +4,10 @@ description: Trova le risposte alle domande sulla configurazione delle attività
 title: Dove posso trovare le domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 15ca5e92af5ebc66caa52ffc1dc04e1fbcbb2ed3
 workflow-type: tm+mt
-source-wordcount: '502'
-ht-degree: 23%
+source-wordcount: '553'
+ht-degree: 20%
 
 ---
 
@@ -28,7 +27,7 @@ Per ulteriori informazioni, consulta &quot;Durante la configurazione delle metri
 
 ## Ho appena creato un’attività. Perché non vedo dati in arrivo? {#section_9F8092BE4225442896F926540292F221}
 
-Quando viene creata un&#39;attività, [!DNL Target] invia un file di classificazione a [!DNL Analytics]. Anche se [!DNL Analytics] acquisisce ed elabora i dati, nei rapporti questo non viene visualizzato finché il file di classificazione non viene aggiornato. Questo processo può richiedere fino a 24 ore. Se dopo 48 ore non vedi i tuoi dati, [contatta l’assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai che lancerai un’attività, puoi crearla con qualche giorno di anticipo e le classificazioni vengono inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. Tieni presente che l’elaborazione dei dati in [!DNL Analytics] richiede 45-90 minuti.
+Quando viene creata un&#39;attività, [!DNL Target] invia un file di classificazione a [!DNL Analytics]. Anche se [!DNL Analytics] acquisisce ed elabora i dati, nei rapporti questo non viene visualizzato finché il file di classificazione non viene aggiornato. Questo processo può richiedere fino a 24 ore. Se dopo 48 ore non vedi i tuoi dati, [contatta l’assistenza clienti](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C). In alternativa, se sai di avviare un’attività, puoi crearla con qualche giorno di anticipo e le classificazioni vengono inviate quando l’attività viene salvata. e in questo modo al momento dell’avvio i dati potranno essere visualizzati nei rapporti. Tieni presente che l’elaborazione dei dati in [!DNL Analytics] richiede 45-90 minuti.
 
 ## Perché non è possibile selezionare Analytics come origine per la generazione di rapporti quando si crea un’attività? {#section_9F4F69C3085F4C2480AF439127EB27CD}
 
@@ -53,3 +52,8 @@ Se le percentuali non vengono corrette a metà attività, un visitatore che iniz
 
 * Dopo essere stato nel &quot;bucket&quot; di traffico mirato, il visitatore può essere inviato a un’esperienza diversa da quella da visita per visitare se i modelli di apprendimento automatico determinano che una diversa esperienza è rilevante per la nuova visita.
 * Dopo essere stato assegnato al &quot;bucket&quot; di traffico di controllo, un visitatore visualizzerà sempre la stessa esperienza perché l’assegnazione dell’esperienza è basata su un hash pseudo-casuale deterministico del visitorId del visitatore.
+
+
+## Posso utilizzare una metrica binomiale [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Allocazione automatica]? {#binomial}
+
+Non è possibile utilizzare una metrica [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un&#39;attività [!UICONTROL Allocazione automatica]. Come soluzione alternativa è possibile definire un evento personalizzato che raggiunga lo stesso obiettivo e utilizzarlo come metrica di obiettivo di ottimizzazione.
