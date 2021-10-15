@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per eseg
 title: Posso indirizzare i visitatori in base alle opzioni mobile?
 feature: Audiences
 exl-id: 73d5c80c-bfa2-4806-8c04-652781b70bf2
-source-git-commit: 1ad86925fb18df469fd1b80205f29f79a20ce4b6
+source-git-commit: 05619301a4cd145d07abb4bf5fbe9fd44bb3d65f
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '667'
 ht-degree: 40%
 
 ---
@@ -21,7 +21,7 @@ Il targeting per i dispositivi mobili è fornito da [DeviceAtlas](https://device
 
 Il rilevamento del dispositivo viene eseguito analizzando le stringhe Utente-Agente. Alcuni produttori di dispositivi, come ad esempio Apple, disabilitano questa funzionalità (non forniscono informazioni sufficienti nel documentazione per gli utenti).
 
-Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Il risultato è che non è possibile rilevare i modelli di iPhone (come iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e così via) utilizzando un semplice metodo basato su parole chiave.
+Ad esempio, i dispositivi Apple non condividono token specifici del modello di dispositivo nell&#39;UA. Il risultato è che non è possibile rilevare i modelli iPhone (come iPhone 12 Pro, iPhone 12, iPhone 11 Pro Max e così via) utilizzando un semplice metodo basato su parole chiave.
 
 Per risolvere questo problema, [!DNL Target] raccoglie dati aggiuntivi per rilevare con precisione iPhone e altri dispositivi Apple utilizzando i seguenti parametri:
 
@@ -71,13 +71,13 @@ Quando esegui il targeting dei dispositivi mobili, considera le seguenti informa
 
 ### Dispositivi di targeting con iOS 12.2 o versione successiva
 
-A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli di iPhone è interessata. [!DNL Target] non può più eseguire il targeting degli utenti che hanno installato iPhone con iOS 12.2 (o versioni successive) su di essi. Tuttavia, se tali utenti non hanno iOS 12.2 (o versioni successive), il targeting per il modello iPhone continua a funzionare correttamente.
+A causa delle nuove modifiche introdotte in iOS 12.2, la creazione di un pubblico con regole definite da [!UICONTROL Nome marketing dispositivo] e [!UICONTROL Modello dispositivo] che specificano modelli iPhone è interessata. [!DNL Target] non può più eseguire il targeting degli utenti che hanno installato su di essi gli iPhone con iOS 12.2 (o versioni successive). Tuttavia, se tali utenti non dispongono di iOS 12.2 (o versione successiva), il targeting del modello iPhone continua a funzionare correttamente.
 
-L’aggiornamento iOS 12.2 (o successivo) non influisce sull’identificazione dei seguenti modelli, perché questi modelli non supportano l’aggiornamento a iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad / Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
+L’aggiornamento iOS 12.2 (o successivo) non influisce sull’identificazione dei seguenti modelli perché questi modelli non supportano l’aggiornamento ad iOS 12.2: iPhone, iPhone 3G, iPhone 3GS, iPhone 4, iPhone 4s, iPhone 5, iPhone 5c, iPad, iPad 2, display iPad / Retina, iPad Retina (4a generazione), iPod Touch 4 e iPod Touch 5.
 
 ### Dispositivi di targeting con Safari 14.0.2 (o versioni successive)
 
-Quando si utilizzano regole mobili per indirizzare i dispositivi che eseguono Safari versione 14.0.2 (o successiva) su macOS, a causa di un problema noto che coinvolge gli agenti utente di Apple e DeviceAtlas, [!DNL Target] identifica Safari sui dispositivi Mac come versione iPad in modo errato. Questo problema verrà affrontato in futuro.
+Quando si utilizzano regole mobili per indirizzare l’attività ai dispositivi che eseguono Safari versione 14.0.2 (o successiva) su macOS, a causa di un problema noto che coinvolge gli agenti utente Apple e DeviceAtlas, [!DNL Target] identifica Safari in modo errato sui dispositivi Mac e iPad. Questo problema verrà affrontato in futuro.
 
 ## Video di formazione: Creazione di tipi di pubblico
 
