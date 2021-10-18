@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: f6efc1e921535abdd11501979d6f44e84e443a1f
+source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
 workflow-type: tm+mt
-source-wordcount: '358'
-ht-degree: 55%
+source-wordcount: '317'
+ht-degree: 67%
 
 ---
 
@@ -25,37 +25,15 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >
 >Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
-## [!DNL Target Standard/Premium] 21.10.2 (13 ottobre 2021)
+## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 
-Sono stati aggiunti i seguenti miglioramenti quando si utilizza [!DNL Target] [!UICONTROL Audiences] con [!DNL Adobe Experience Platform Web SDK]:
+Questa versione di manutenzione include i seguenti miglioramenti, correzioni e modifiche:
 
-* Icone di avviso, popovers e messaggi aggiunti in varie posizioni nell’ interfaccia utente di [!DNL Target] per indicare che il pubblico è stato eliminato dalla sorgente e non è più disponibile per l’uso nelle attività di [!DNL Target] .
-
-   Le illustrazioni seguenti mostrano alcuni luoghi in cui vengono visualizzate le icone, i popovers e i messaggi:
-
-   *  Pagina elenco attività
-
-      ![Pubblico eliminato al messaggio sorgente nella pagina dell’elenco Attività](assets/deleted-at-source-audiences-list.png)
-
-   * Pagine [!UICONTROL Panoramica] dell&#39;attività:
-
-      ![Pubblico eliminato al messaggio sorgente nella pagina della panoramica](assets/deleted-at-source-overview.png)
-
-   *  Passaggi delle esperienze del flusso di lavoro per la creazione di attività:
-
-      ![Pubblico eliminato al messaggio sorgente nella pagina   Esperienze](assets/deleted-at-source-experiences.png)
-
-   *  Passaggio di targeting del flusso di lavoro per la creazione di attività:
-
-      ![Pubblico eliminato al messaggio sorgente nella pagina   Targeting](assets/deleted-at-source-targeting.png)
-
-   * [!UICONTROL Obiettivi e ] impostazioni del flusso di lavoro per la creazione di attività:
-
-      ![Pubblico eliminato al messaggio sorgente nella pagina  [!UICONTROL Obiettivi e ] impostazioni](assets/deleted-at-source-goals-settings.png)
-
-   * Miglioramenti del pubblico ([!UICONTROL Sostituisci pubblico] nel passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività):
-
-* Se tenti di utilizzare la funzione Combina pubblico e uno dei tipi di pubblico è stato eliminato all&#39;origine, [!UICONTROL Salva] viene disattivato.
+* Sono stati risolti i problemi che impedivano ai clienti di aprire [!UICONTROL A4T] pannello in [!DNL Analysis Workspace] facendo clic sul pulsante [!UICONTROL Visualizzazione in Analytics] ingresso pulsante [!DNL Target] reporting delle attività. (TGT-42099, TGT-42100)
+* È stato risolto un problema che causava il [!UICONTROL Modifica progettazione] pulsante non visualizzato durante la modifica [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) attività che utilizzano [!UICONTROL Compositore esperienza basato su moduli]. (TGT-41980)
+* È stato risolto un problema che impediva la [!UICONTROL Compatibile] visualizzazione di una casella di controllo nella selezione dei criteri durante la creazione di una nuova [!UICONTROL Recommendations] attività. (TGT-42053)
+* È stato corretto un messaggio di errore non corretto quando non era possibile selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per mancanza di [!DNL Analytics] autorizzazioni. (TGT-41954)
+* Sono state implementate più correzioni di accessibilità per migliorare la navigazione da tastiera in tutti gli [!DNL Target] Interfaccia utente.
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
