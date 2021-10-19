@@ -4,7 +4,7 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 564d81972a246170d878d87050fbd8b96b681e90
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
 source-wordcount: '2789'
 ht-degree: 90%
@@ -19,7 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 19 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.3 (19 ottobre 2021). |
+| 19 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.3 (19 ottobre 2021). |
 | 14 ottobre | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Sono state aggiunte le seguenti domande frequenti: &quot;Posso usare un binomio [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un [!UICONTROL Allocazione automatica] attività?&quot; |
 | 13 ottobre | [Note sulla versione](/help/r-release-notes/release-notes.md): 21.10.2 | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.2 (13 ottobre 2021). |
 | 11 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Nuove informazioni sulla versione di Target Standard/Premium 21.10.2 (13 ottobre 2021). |

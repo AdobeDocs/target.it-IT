@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 11466abc2996976449d2a2a6de8c04ae1fffd442
+source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
 workflow-type: tm+mt
-source-wordcount: '857'
-ht-degree: 48%
+source-wordcount: '976'
+ht-degree: 44%
 
 ---
 
@@ -24,37 +24,47 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
 
+## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
+
+Questa versione di manutenzione include i seguenti miglioramenti, correzioni e modifiche:
+
+* Sono stati risolti i problemi che impedivano ai clienti di aprire [!UICONTROL A4T] pannello in [!DNL Analysis Workspace] facendo clic sul pulsante [!UICONTROL Visualizzazione in Analytics] ingresso pulsante [!DNL Target] reporting delle attività. (TGT-42099, TGT-42100)
+* È stato risolto un problema che causava il [!UICONTROL Modifica progettazione] pulsante per non visualizzare durante la modifica [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) attività che utilizzano [!UICONTROL Compositore esperienza basato su moduli]. (TGT-41980)
+* È stato risolto un problema che impediva la [!UICONTROL Compatibile] visualizzazione di una casella di controllo nella selezione dei criteri durante la creazione di una nuova [!UICONTROL Recommendations] attività. (TGT-42053)
+* È stato corretto un messaggio di errore errato visualizzato quando non era possibile selezionare [!DNL Analytics] come origine per la generazione di rapporti (A4T) per mancanza di [!DNL Analytics] autorizzazioni. (TGT-41954)
+* Sono state implementate più correzioni di accessibilità per migliorare la navigazione da tastiera in tutti gli [!DNL Target] Interfaccia utente.
+
 ## [!DNL Target Standard/Premium] 21.10.2 (13 ottobre 2021)
 
-Sono stati aggiunti i seguenti miglioramenti quando si utilizza [!DNL Target] [!UICONTROL Audiences] con [!DNL Adobe Experience Platform Web SDK]:
+Sono stati aggiunti i seguenti miglioramenti quando si utilizza [!DNL Target] [!UICONTROL Tipi di pubblico] con [!DNL Adobe Experience Platform Web SDK]:
 
-* Icone di avviso, popovers e messaggi aggiunti in varie posizioni nell’ interfaccia utente di [!DNL Target] per indicare che il pubblico è stato eliminato dalla sorgente e non è più disponibile per l’uso nelle attività di [!DNL Target] .
+* Sono state aggiunte icone di avviso, popovers e messaggi in diverse aree della [!DNL Target] Interfaccia utente per indicare che il pubblico è stato eliminato dal sorgente e non è più disponibile per l’utilizzo in [!DNL Target] attività.
 
    Le illustrazioni seguenti mostrano alcuni luoghi in cui vengono visualizzate le icone, i popovers e i messaggi:
 
-   *  Pagina elenco attività
+   * [!UICONTROL Attività] pagina elenco
 
       ![Pubblico eliminato al messaggio sorgente nella pagina dell’elenco Attività](assets/deleted-at-source-audiences-list.png)
 
-   * Pagine [!UICONTROL Panoramica] dell&#39;attività:
+   * Attività [!UICONTROL Panoramica] pagine:
 
       ![Pubblico eliminato al messaggio sorgente nella pagina della panoramica](assets/deleted-at-source-overview.png)
 
-   *  Passaggi delle esperienze del flusso di lavoro per la creazione di attività:
+   * [!UICONTROL Esperienze] passaggio del flusso di lavoro per la creazione di attività:
 
-      ![Pubblico eliminato al messaggio sorgente nella pagina   Esperienze](assets/deleted-at-source-experiences.png)
+      ![Pubblico eliminato al messaggio sorgente su [!UICONTROL Esperienze] page](assets/deleted-at-source-experiences.png)
 
-   *  Passaggio di targeting del flusso di lavoro per la creazione di attività:
+   * [!UICONTROL Targeting] passaggio del flusso di lavoro per la creazione di attività:
 
-      ![Pubblico eliminato al messaggio sorgente nella pagina   Targeting](assets/deleted-at-source-targeting.png)
+      ![Pubblico eliminato al messaggio sorgente su [!UICONTROL Targeting] page](assets/deleted-at-source-targeting.png)
 
-   * [!UICONTROL Obiettivi e ] impostazioni del flusso di lavoro per la creazione di attività:
+   * [!UICONTROL Obiettivi e impostazioni] passaggio del flusso di lavoro per la creazione di attività:
 
-      ![Pubblico eliminato al messaggio sorgente nella pagina  [!UICONTROL Obiettivi e ] impostazioni](assets/deleted-at-source-goals-settings.png)
+      ![Pubblico eliminato al messaggio sorgente sul [!UICONTROL Obiettivi e impostazioni] page](assets/deleted-at-source-goals-settings.png)
 
-   * Miglioramenti del pubblico ([!UICONTROL Sostituisci pubblico] nel passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività):
+   * Ottimizzazioni del pubblico ([!UICONTROL Sostituisci pubblico] sulla [!UICONTROL Targeting] passaggio del flusso di lavoro per la creazione di attività):
 
-* Se tenti di utilizzare la funzione Combina pubblico e uno dei tipi di pubblico è stato eliminato all&#39;origine, [!UICONTROL Salva] viene disattivato.
+* Se tenti di utilizzare la funzione Combina pubblico e uno dei tipi di pubblico è stato eliminato all&#39;origine, [!UICONTROL Salva] è disabilitato.
 
 ## [!DNL Target Standard/Premium] 21.10.1 (6 ottobre 2021)
 
@@ -62,10 +72,10 @@ Questa versione include le seguenti nuove funzionalità:
 
 | Funzione | Dettagli |
 | --- | --- |
-|  Aggiornamento di Audiences UI | Come parte del continuo sforzo del team [!DNL Adobe Target] per migliorare l&#39;esperienza utente per gli utenti [!DNL Target], questa versione aggiorna le pagine [!UICONTROL Audiences] e [!UICONTROL Script di profilo] nell&#39;interfaccia utente [!DNL Target] . Questo aggiornamento unisce e standardizza i pattern di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Un [progetto di audience builder aggiornato](/help/c-target/c-audiences/create-audience.md)</li><li>Supporto delle regole di esclusione nel generatore di regole di libreria [!UICONTROL Audience]</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti della sessione</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/c-target/target.md).<br>**NOTA**: La nuova   interfaccia utente di Audiences è stata temporaneamente disabilitata per tutti i clienti, eccetto quelli attualmente in un programma  [!DNL Target] Beta. Questo aggiornamento dell’interfaccia utente verrà riabilitato per un sottoinsieme di clienti martedì 19 ottobre e per tutti i clienti rimanenti giovedì 21 ottobre 2021. |
-| [!UICONTROL Aggiornamento ] dell&#39;interfaccia utente Script di profilo | Anche la libreria [!UICONTROL Script di profilo] è stata aggiornata e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all&#39;interno dell&#39;editor di codice</li><li>Parametri dei token (mbox o profilo) completi automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md). |
-| ![Badge ](/help/assets/premium.png) PremiumCriteri di Recommendations creazione e modifica | Il flusso di lavoro [!UICONTROL Recommendations Criteria] per la creazione e la modifica dei criteri è stato semplificato per semplificare la scelta dell&#39;algoritmo e delle impostazioni consigliate per raggiungere gli obiettivi.<br>Per ulteriori informazioni, consulta  [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
-| ![Miglioramenti ](/help/assets/premium.png) della frequenza di aggiornamento degli algoritmi e dell&#39;intervallo di lookback di Premium | È ora possibile eseguire gli algoritmi &quot;Più visualizzato&quot; e &quot;Più venduti&quot; con un intervallo di lookback di sei ore per acquisire il contenuto con tendenze più recenti. Quando l’intervallo di lookback di sei ore è selezionato, i risultati delle raccomandazioni vengono aggiornati ogni 3-6 ore nel corso della giornata.<br>Per ulteriori informazioni, consulta  [Origine dati ](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in  *Creare criteri*. |
+| [!UICONTROL Tipi di pubblico] Aggiornamento dell&#39;interfaccia | Come parte del [!DNL Adobe Target] sforzi continui del team per migliorare l&#39;esperienza utente per [!DNL Target] utenti, questa versione aggiorna il [!UICONTROL Tipi di pubblico] e [!UICONTROL Script di profilo] nelle pagine [!DNL Target] Interfaccia utente. Questo aggiornamento unisce e standardizza i pattern di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Un rinfrescato [progettazione di audience builder](/help/c-target/c-audiences/create-audience.md)</li><li>Supporto delle regole di esclusione nel [!UICONTROL Pubblico] generatore di regole libreria</li><li>Un nuovo filtro &quot;Audience Source&quot; per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti della sessione</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/c-target/target.md).<br>**NOTA**: Il nuovo [!UICONTROL Tipi di pubblico] L’interfaccia utente è stata temporaneamente disabilitata per tutti i clienti eccetto quelli attualmente in un [!DNL Target] Programma beta. Questo aggiornamento dell’interfaccia utente verrà riabilitato per un sottoinsieme di clienti martedì 19 ottobre e per tutti i clienti rimanenti giovedì 21 ottobre 2021. |
+| [!UICONTROL Script di profilo] Aggiornamento dell&#39;interfaccia | La [!UICONTROL Script di profilo] è stata aggiornata anche la libreria e include un&#39;interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all&#39;interno dell&#39;editor di codice</li><li>Parametri dei token (mbox o profilo) completi automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/c-target/c-visitor-profile/visitor-profile.md). |
+| ![Badge Premium](/help/assets/premium.png) Creare e modificare i criteri di Recommendations | La [!UICONTROL Criteri di Recommendations] il flusso di lavoro di creazione e modifica è stato semplificato per semplificare la scelta dell’algoritmo e delle impostazioni consigliate per raggiungere gli obiettivi.<br>Per ulteriori informazioni, consulta [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md). |
+| ![Badge Premium](/help/assets/premium.png) Miglioramenti della frequenza di aggiornamento dell’intervallo di lookback e dell’algoritmo di Recommendations | È ora possibile eseguire gli algoritmi &quot;Più visualizzato&quot; e &quot;Più venduti&quot; con un intervallo di lookback di sei ore per acquisire il contenuto con tendenze più recenti. Quando l’intervallo di lookback di sei ore è selezionato, i risultati delle raccomandazioni vengono aggiornati ogni 3-6 ore nel corso della giornata.<br>Per ulteriori informazioni, consulta [Origine dati](/help/c-recommendations/c-algorithms/create-new-algorithm.md#data-source) in *Creare criteri*. |
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
