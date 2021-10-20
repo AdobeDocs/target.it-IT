@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
+source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
 workflow-type: tm+mt
-source-wordcount: '2820'
-ht-degree: 94%
+source-wordcount: '2807'
+ht-degree: 95%
 
 ---
 
@@ -20,7 +20,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 20 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.4 (21 ottobre 2021). |
-|  | [Pianificare e implementare la funzione Consigli](/help/c-recommendations/plan-implement.md#section_D37E48700F074556B925D0CA0291405E) | Lo snippet di codice è stato aggiornato nella sezione &quot;Pagina carrello&quot;. |
 |  | [Pianificare e implementare la funzione Consigli](/help/c-recommendations/plan-implement.md) | Intero argomento aggiornato. |
 | 19 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.3 (19 ottobre 2021). |
 | 14 ottobre | [Impostazioni delle attività - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-activity-setup.md#binomial) | Sono state aggiunte le seguenti domande frequenti: &quot;Posso usare un binomio [!DNL Analytics] con un segmento applicato come obiettivo di ottimizzazione in un [!UICONTROL Allocazione automatica] attività?&quot; |
