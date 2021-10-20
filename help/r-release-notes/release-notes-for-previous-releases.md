@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '32456'
+source-wordcount: '32512'
 ht-degree: 98%
 
 ---
@@ -22,6 +22,14 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2021
+
+### [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| Recommendations basato su carrello | Una nuova famiglia di algoritmi per distribuire consigli basati sui contenuti del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 

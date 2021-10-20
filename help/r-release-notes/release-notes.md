@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '976'
-ht-degree: 44%
+source-wordcount: '1032'
+ht-degree: 42%
 
 ---
 
@@ -23,6 +23,14 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 >Per evitare potenziali problemi con i siti, passa alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
 
 (I codici tra parentesi sono per uso interno di [!DNL Adobe].)
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| Recommendations basato su carrello | Una nuova famiglia di algoritmi per distribuire consigli basati sui contenuti del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 

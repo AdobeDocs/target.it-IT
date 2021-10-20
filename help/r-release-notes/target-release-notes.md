@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7cb6baeb7ef9e9cf0efb76866a3eae8dfd38af34
+source-git-commit: 68670f0b7753ee34c186a380004620ae4ba0cfd1
 workflow-type: tm+mt
-source-wordcount: '319'
-ht-degree: 67%
+source-wordcount: '375'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 67%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 18 ottobre 2021**
+**Ultimo aggiornamento: 20 ottobre 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >**Termine del ciclo di vita di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine che hanno attività [!DNL Target] in esecuzione, che presenteranno il contenuto predefinito.
 >
 >Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| Recommendations basato su carrello | Una nuova famiglia di algoritmi per distribuire consigli basati sui contenuti del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 
