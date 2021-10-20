@@ -1,13 +1,13 @@
 ---
 keywords: progettazione personalizzata;velocity;decimale;virgola;personalizzare una progettazione
-description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe [!DNL Target] Recommendations.
+description: Scopri come utilizzare il linguaggio di progettazione open-source Velocity per personalizzare le progettazioni dei consigli in Adobe  [!DNL Target]  Recommendations.
 title: Come posso personalizzare una progettazione con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
 source-git-commit: 2e3610b58c7f96baa378f513d61d9c66bd7960f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1026'
-ht-degree: 61%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Utilizza il linguaggio di progettazione open-source Velocity per personalizzare 
 
 ## Panoramica di Velocity {#section_C431ACA940BC4210954C7AEFF6D03EA5}
 
-Le informazioni su Velocity sono disponibili all’indirizzo [](https://velocity.apache.org)https://velocity.apache.org.
+Le informazioni su Velocity sono disponibili all’indirizzo [https://velocity.apache.org](https://velocity.apache.org).
 
 La logica, la sintassi e altro di Velocity possono essere utilizzati integralmente per la progettazione di un consiglio. Ciò significa che è possibile creare cicli *for*, istruzioni *If* e altro codice utilizzando Velocity anziché JavaScript.
 
@@ -63,7 +63,7 @@ Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome 
 
 >[!NOTE]
 >
->Il numero massimo di entità a cui è possibile fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
+>Il numero massimo di entità a cui puoi fare riferimento in una progettazione, tramite codifica fissa o cicli, è 99. La lunghezza dello script del modello può contenere fino a 65.000 caratteri.
 
 Ad esempio, se desideri una progettazione che mostri qualcosa di simile a quanto segue:
 
@@ -118,7 +118,7 @@ sku: $entity3.prodId<br/> Price: $$entity3.value
 
 >[!NOTE]
 >
->Se desideri aggiungere del testo dopo il valore di una variabile prima che un tag indichi che il nome della variabile è stato completato, utilizza la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
+>Se desideri aggiungere del testo dopo il valore di una variabile prima di un tag che indica la fine del nome della variabile, utilizza la notazione formale per racchiudere il nome della variabile. Ad esempio: `${entity1.thumbnailUrl}.gif`.
 
 Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili nelle progettazioni, in modo che una progettazione possa essere utilizzata per testare più criteri e il nome dei criteri possa essere visualizzato in modo dinamico nella progettazione. Questo mostra al visitatore che sta guardando “articoli più venduti” o “persone che hanno visto questo hanno acquistato questo.” Puoi inoltre utilizzare queste variabili per visualizzare il `dayCount` (numero di giorni di dati utilizzati nel criterio, come “articoli più venduti negli ultimi 2 giorni” ecc.
 
@@ -126,14 +126,14 @@ Puoi inoltre utilizzare `algorithm.name` e `algorithm.dayCount` come variabili n
 
 Per impostazione predefinita, i modelli di Velocity considerano tutti gli attributi di entità come valori stringa. È possibile trattare un attributo di entità come un valore numerico per eseguire un’operazione matematica o confrontarlo con un altro valore numerico. Per trattare un attributo di entità come valore numerico, effettua le seguenti operazioni:
 
-1. Dichiara una variabile fittizia e la inizializza in un numero intero o doppio arbitrario.
-1. Assicurati che l’attributo di entità che desideri utilizzare non sia vuoto (richiesto per il parser di modelli di Target Recommendations per convalidare e salvare il modello).
-1. Passa l’attributo dell’entità nel metodo `parseInt` o `parseDouble` della variabile fittizia creata nel passaggio 1 per trasformare la stringa in un valore intero o doppio.
-1. Eseguire l&#39;operazione matematica o il confronto sul nuovo valore numerico.
+1. Dichiara una variabile fittizia e inizializzala in un valore arbitrario intero (int) o con precisione doppia (double).
+1. Assicurati che l’attributo di entità che desideri utilizzare non sia vuoto (obbligatorio affinché il parser di modelli di Target Recommendations possa convalidare e salvare il modello).
+1. Passa l’attributo dell’entità nel metodo `parseInt` o `parseDouble` della variabile fittizia creata nel passaggio 1 per trasformare la stringa in un valore intero o con precisione doppia.
+1. Esegui l’operazione matematica o il confronto sul nuovo valore numerico.
 
-### Esempio: Calcolo di un prezzo di sconto
+### Esempio: calcolo di un prezzo scontato
 
-Supponiamo di voler ridurre il prezzo visualizzato di un articolo di $0,99 per applicare uno sconto. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
+Supponiamo di voler ridurre il prezzo visualizzato per un articolo di $0,99 per applicare uno sconto. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #set( $double = 0.1 )
@@ -146,9 +146,9 @@ Supponiamo di voler ridurre il prezzo visualizzato di un articolo di $0,99 per a
 #end
 ```
 
-### Esempio: Scelta del numero di stelle da visualizzare in base alla valutazione di un elemento
+### Esempio: scelta del numero di stelle da visualizzare in base alla valutazione di un elemento
 
-Supponi di voler visualizzare un numero appropriato di stelle in base alla valutazione numerica media del cliente di un articolo. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
+Supponi di voler visualizzare un numero appropriato di stelle in base alla valutazione numerica media dei clienti di un articolo. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #set( $double = 0.1 )
@@ -171,9 +171,9 @@ Supponi di voler visualizzare un numero appropriato di stelle in base alla valut
 #end
 ```
 
-### Esempio: Calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento
+### Esempio: calcolo del tempo in ore e minuti in base alla lunghezza in minuti di un elemento
 
-Si supponga di memorizzare la lunghezza di un filmato in minuti, ma di visualizzarne la lunghezza in ore e minuti. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
+Supponi di memorizzare la lunghezza di un filmato in minuti, ma di volerla visualizzare in ore e minuti. Per ottenere questo risultato, puoi utilizzare il seguente approccio:
 
 ```
 #if( $entity1.get('length_minutes') )
