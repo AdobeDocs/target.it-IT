@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 42fa0bbe0c7ab23cd41352ea011d351aa5a277d2
+source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
 workflow-type: tm+mt
-source-wordcount: '2807'
-ht-degree: 95%
+source-wordcount: '2830'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 21 ottobre | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione di caffè Q&amp;A nella community (10 novembre 2021)</li><li>[!DNL Adobe Target] Interruzione di caffè Q&amp;A nella community (8 dicembre 2021)</li></ul> |
 | 20 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.4 (21 ottobre 2021). |
 |  | [Pianificare e implementare la funzione Consigli](/help/c-recommendations/plan-implement.md) | Intero argomento aggiornato. |
 | 19 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.3 (19 ottobre 2021). |
