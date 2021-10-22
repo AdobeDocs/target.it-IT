@@ -2,12 +2,12 @@
 keywords: debug mbox;risoluzione dei problemi di mbox;problemi di mbox;visualizzazione momentanea;mboxDebug;mboxTrace;token;debugger;priorità;priorità di attività;Adobe Experience Cloud Debugger;orderConfirmPage mbox;SiteCatalyst acquisto di mbox;articolo più venduto
 description: Trova suggerimenti per risolvere eventuali problemi se nella pagina non viene visualizzato il contenuto previsto. Scopri come eseguire il debug della distribuzione dei contenuti in Adobe Target.
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
-feature: Attività
+feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: f028d2b439fee5c2a622748126bb0a34d550a395
-workflow-type: ht
-source-wordcount: '1268'
-ht-degree: 100%
+source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+workflow-type: tm+mt
+source-wordcount: '1628'
+ht-degree: 68%
 
 ---
 
@@ -19,7 +19,7 @@ Se nella pagina non viene visualizzato il contenuto previsto, puoi adottare alcu
 * Utilizza mboxTrace o mboxDebug per risolvere problemi relativi alla richiesta di [!DNL Target].
 * Adobe Experience Cloud Debugger è uno strumento facile da usare che fornisce molte informazioni in comune con mboxDebug, per risolvere i problemi di richiesta di [!DNL Target].
 
-mboxDebug è particolarmente utile quando esegui la configurazione di [!DNL Target] sulla pagina per assicurarti che la richiesta di [!DNL Target] sia attiva e che il cookie sia impostato. Tuttavia, non fornisce il livello di dettaglio necessario durante il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
+mboxDebug è particolarmente utile quando si configura [!DNL Target] nella pagina per verificare che la richiesta Target sia attiva e che il cookie sia impostato. Tuttavia, non fornisce il livello di dettaglio necessario durante il debug della distribuzione dei contenuti. Se l’attività non viene visualizzata nella pagina o un contenuto indesiderato viene visualizzato, esamina ed esegui il debug della pagina nel dettaglio tramite mboxTrace.
 
 ## Recuperare il token di autorizzazione per gli strumenti di debug {#section_BED130298E794D1FA229DB7C3358BA54}
 
@@ -56,7 +56,7 @@ Sono disponibili i seguenti parametri:
 
 | Opzioni mboxTrace | Risultato |
 |--- |--- |
-| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js, sarà necessario controllare la richiesta di rete e guardare in Anteprima (Chrome) o Risposta (Firefox). |
+| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js, è necessario controllare la richiesta di rete e guardare in Anteprima (Chrome) o Risposta (Firefox). |
 | `?mboxTrace=json` | Visualizzazione nel registro della console come stringa letterale JSON |
 | `?mboxTrace=window` | Visualizzazione in una finestra popup come stringa JSON |
 | `?mboxTrace=disable` | Disattiva la modalità di sessione di tracciamento |
@@ -65,7 +65,7 @@ Sono disponibili i seguenti parametri:
 
 `https://www.mysite.com/page.html?mboxTrace=window&authorization=f543abf-0111-4061-9619-d41d665c59a6`
 
-Il risultato mostra informazioni estremamente dettagliate sul contenuto. mboxTrace mostra i dettagli sulla tua campagna o attività e profilo. Inoltre, fornisce uno snapshot del profilo prima dell’esecuzione e uno snapshot di ciò che è stato modificato dopo l’esecuzione. In aggiunta, mostra quali campagne o attività sono state valutate per ogni posizione.
+L’output visualizza informazioni dettagliate sul contenuto. mboxTrace mostra i dettagli sulla tua campagna o attività e profilo. Fornisce inoltre un’istantanea del profilo prima dell’esecuzione e un’istantanea di ciò che è cambiato dopo l’esecuzione. In aggiunta, mostra quali campagne o attività sono state valutate per ogni posizione.
 
 Alcune delle informazioni includono ID di destinazione e di segmento associati e non associati:
 
@@ -85,7 +85,7 @@ Alcune delle informazioni includono ID di destinazione e di segmento associati e
 
 Non devi includere `=console`, `=json` o `=window` nel parametro di query. Una volta completati i dettagli mboxTrace, aggiungi `=disable` e premi **[!UICONTROL Invio]** per tornare alla modalità di visualizzazione normale.
 
-mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori vedranno la tua solita struttura dei consigli.
+mboxTrace non influenza il normale funzionamento e aspetto del tuo sito. I visitatori visualizzano il tuo normale design Recommendations.
 
 ## mboxDebug {#mboxdebug}
 
@@ -132,11 +132,11 @@ Target non supporta più Internet Explorer 8.
 
 Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
 
-## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione AEM. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
+## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
 Il contenuto di Target potrebbe essere visualizzato momentaneamente o non essere visualizzato, se un elemento DOM fa parte del targeting di personalizzazione di Adobe Experience Manager (AEM) e di un’attività di Target.
 
-Per ovviare a questo problema, puoi disabilitare la personalizzazione AEM nelle pagine in cui Target è in esecuzione.
+Per risolvere questa situazione, puoi disabilitare la personalizzazione AEM sulle pagine in cui Target è in esecuzione.
 
 ## Errore nella consegna di offerte di reindirizzamento e offerte remote a causa di un URL non valido. {#section_7D09043B687F43B39DAEDF17D00375AC}
 
@@ -150,9 +150,45 @@ Per le offerte remote, la risposta di [!DNL Target] può contenere `/* invalid r
 
 Puoi controllare la risposta di [!DNL Target] nel browser o utilizzando mboxTrace. Per ulteriori informazioni sugli URL validi, consulta [https://tools.ietf.org/html/std66](https://tools.ietf.org/html/std66).
 
-## Le richieste di Target non si attivano sul sito.
+## [!DNL Target]Le richieste di non si attivano sul sito.
 
 at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
+
+## Assicurati che [!DNL Target] le attività gestiscono correttamente gli URL con parametri di stringa di query {#query-strings}
+
+La [!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l’attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
+
+Per impostazione predefinita, la [!UICONTROL Compositore esperienza visivo] (VEC) apre la pagina specificata nel [Impostazioni del Compositore esperienza visivo](/help/administrating-target/visual-experience-composer-set-up.md). Puoi anche specificare una pagina diversa durante la creazione dell’attività.
+
+Per visualizzare una pagina diversa dopo l’apertura del Compositore esperienza visivo, fai clic sul pulsante **[!UICONTROL Icona Configura ingranaggio]** > seleziona **[!UICONTROL Consegna pagine]** > quindi specifica l’URL desiderato nel [!UICONTROL URL attività] campo .
+
+![Configurare l’interfaccia utente delle impostazioni di Consegna pagine](assets/configure-page-delivery.png)
+
+Ma cosa succede se l&#39;URL contiene parametri della stringa di query? Funzionerà e mostrerà il contenuto personalizzato? In questo scenario, indipendentemente dal pubblico di destinazione, puoi includere regole di modello oltre all’URL di base per definire i parametri di query.
+
+Per includere regole di modello aggiuntive, è possibile utilizzare le seguenti opzioni:
+
+### Opzione 1: Replicare l&#39;URL e mantenerlo nella regola del modello con l&#39;opzione &quot;contiene&quot;.
+
+Questa opzione assicura che questo URL sia idoneo per l’attività, ma tieni presente che sono presenti casi d’angolo ad esso associati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
+
+In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive &quot;contiene&quot; lo stesso URL, separate da un operatore OR:
+
+![Replicare l’URL nelle regole del modello](assets/option1.png)
+
+### Opzione 2: Limita la condizione URL &quot;contiene&quot; solo con la stringa di query.
+
+Il caso d’angolo discusso nell’opzione precedente viene applicato in questa opzione, ma qui l’impostazione condizionale è limitata solo alla stringa di query.
+
+In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive &quot;contiene&quot; solo la stringa di query, separate da un operatore OR:
+
+![La regola del modello contiene solo la stringa di query](assets/option2.png)
+
+### Opzione 3: Invece di eseguire il targeting dell’URL completo, sfrutta una parte specifica dell’URL.
+
+In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano un [!UICONTROL Query] con [!UICONTROL type] > [!UICONTROL è (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
+
+![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
 
 ## Video di formazione
 
