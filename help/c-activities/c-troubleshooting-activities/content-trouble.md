@@ -4,7 +4,7 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b91e1be7d28085902110eb9d000dfa1113a54938
+source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
 workflow-type: tm+mt
 source-wordcount: '1628'
 ht-degree: 68%
@@ -154,7 +154,7 @@ Puoi controllare la risposta di [!DNL Target] nel browser o utilizzando mboxTrac
 
 at.js non attiva le richieste di Target se utilizzi un doctype non valido. at.js richiede il doctype HTML5.
 
-## Assicurati che [!DNL Target] le attività gestiscono correttamente gli URL con parametri di stringa di query {#query-strings}
+## Assicurati che [!DNL Target] le attività gestiscono correttamente gli URL con parametri di stringa di query. {#query-strings}
 
 La [!UICONTROL URL attività] determina la pagina che qualifica i visitatori per l’attività ed esegue il rendering delle esperienze di attività per gli utenti. Quando viene richiesto durante la creazione dell’attività, la digitazione dell’URL completo non sempre assicura che il contenuto venga distribuito sulla pagina del sito, in particolare con gli URL che contengono parametri della stringa di query.
 
