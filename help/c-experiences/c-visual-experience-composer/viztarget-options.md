@@ -4,10 +4,10 @@ description: Esplora le opzioni disponibili nel Compositore esperienza visivo di
 title: Come si utilizzano le opzioni del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
+source-git-commit: 823694603c0248316e471f0b15070c0a34356620
 workflow-type: tm+mt
-source-wordcount: '2608'
-ht-degree: 76%
+source-wordcount: '2626'
+ht-degree: 71%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 76%
 
 Quando fai clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
 
-## Opzioni del Compositore esperienza visivo
+## Opzioni VEC
 
 Le varie azioni del Compositore esperienza visivo sono disponibili come opzioni di menu raggruppate per rendere il processo più veloce ed efficiente:
 
@@ -25,11 +25,11 @@ Le varie azioni del Compositore esperienza visivo sono disponibili come opzioni 
 >
 >Le opzioni disponibili dipendono dal tipo di attività che si sta modificando.
 
-### Modifica
+### [!UICONTROL Modifica]
 
 Sono disponibili le seguenti opzioni:
 
-#### Testo/HTML {#edit-text-html}
+#### [!UICONTROL Testo/HTML] {#edit-text-html}
 
 Modifica il codice HTML per l&#39;elemento, ad esempio il testo per un&#39;area di testo, un pulsante o collegamento.
 
@@ -46,13 +46,13 @@ I seguenti tag HTML5 possono essere nidificati:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### Colore di sfondo
+#### [!UICONTROL Colore di sfondo]
 
 Utilizza il settore colori per selezionare o configurare un colore di sfondo. È possibile selezionare un campione di colore e regolarlo utilizzando i valori RGB o i codici esadecimali. La x rossa nel selettore colore rende lo sfondo trasparente.
 
 **Nota**: questa opzione non è disponibile se è impostata un’immagine di sfondo.
 
-#### Stili {#styles}
+#### [!UICONTROL Stili] {#styles}
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
@@ -72,7 +72,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 >
 >Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi utilizzare il menu Stili , come spiegato qui.
 
-* **Sfondo**
+* **[!UICONTROL Sfondo]**
 
    Cambia il colore e l’immagine di sfondo.
 
@@ -86,7 +86,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
       * Fai clic sull’elenco a discesa in alto per selezionare border-box, padding-box, content-box o text (Casella bordo, Casella margine, Casella contenuto, Testo).
       * Fai clic sull’elenco a discesa in alto per selezionare auto audio o audio (Audio automatico, Audio).
 
-* **Composizione tipografica**
+* **[!UICONTROL Composizione tipografica]**
 
    Puoi modificare la composizione tipografica di un elemento. Le modifiche tipografiche sono semplici e veloci.
 
@@ -94,28 +94,28 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    È possibile modificare i seguenti stili di composizione tipografica:
 
-   * Dimensione font
-   * Spessore font
-   * Stile font
-   * Colore (specifica il codice del colore o utilizza il selettore del colore)
-   * Spaziatura tra parole
-   * Altezza riga
-   * Allineamento testo
+   * [!UICONTROL Dimensione font]
+   * [!UICONTROL Spessore font]
+   * [!UICONTROL Stile font]
+   * [!UICONTROL Colore] (specifica il codice del colore o utilizza il selettore del colore)
+   * [!UICONTROL Spaziatura tra parole]
+   * [!UICONTROL Altezza riga]
+   * [!UICONTROL Allineamento testo]
 
-* **Margine**
+* **[!UICONTROL Margine]**
 
    Modifica il margine dell’elemento selezionato. È possibile modificare il margine sinistro, destro, inferiore e superiore.
 
    Fai clic sull’icona a discesa di ciascun margine per scegliere tra le opzioni seguenti:
 
-   * Automatico
-   * Valore (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
+   * [!UICONTROL Automatico]
+   * [!UICONTROL Valore] (trascina il cursore per impostare il margine o specifica il numero di pixel per ciascun margine)
 
    Il margine supporta valori positivi e negativi.
 
    Target supporta anche altre unità di misura, come rem, pc, em. Per ulteriori informazioni su queste unità, vedi [Suggerimenti e trucchi per i fogli di stile web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
-* **Spaziatura**
+* **[!UICONTROL Spaziatura]**
 
    Modifica la spaziatura per l’elemento selezionato. È possibile modificare la spaziatura sinistra, destra, inferiore e superiore.
 
@@ -125,65 +125,66 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
-* **Bordo**
+* **[!UICONTROL Bordo]**
 
    Fai clic sulle icone dei bordi nella parte superiore del pannello per modificare il bordo dell’elemento selezionato.
 
    È possibile modificare i seguenti stili per ciascun bordo (superiore, destro, inferiore e sinistro):
 
-   * Stile del bordo (nessuno, nascosto, punteggiato, tratteggiato, linea continua o linea doppia)
-   * Colore del bordo (specifica il codice del colore o utilizza il selettore colore)
-   * Spessore del bordo (trascina il cursore per selezionare lo spessore del bordo o specifica lo spessore in pixel)
+   * [!UICONTROL Stile bordo] (Nessuno, nascosto, punteggiato, tratteggiato, pieno o doppio)
+   * [!UICONTROL Colore bordo] (specifica il codice del colore o utilizza il selettore del colore)
+   * [!UICONTROL Larghezza bordo] (trascina il cursore per selezionare la larghezza di un bordo o specifica la larghezza in pixel)
 
    Il bordo supporta valori di spessore a partire da 0.
 
    Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
-* **Posizione**
+* **[!UICONTROL Posizione]**
 
    Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare i valori superiore, inferiore, sinistro, destro e [Indice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posizione.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
-   * Statiche
-   * Relativo
-   * Assoluto
-   * In rilievo
-   * Fisso
+   * [!UICONTROL Statiche]
+   * [!UICONTROL Relativo]
+   * [!UICONTROL Assoluto]
+   * [!UICONTROL In rilievo]
+   * [!UICONTROL Fisso]
 
    Fai clic sull’icona a discesa per ciascuna posizione per scegliere tra le seguenti opzioni:
 
-   * Automatico
-   * Valore (trascina il cursore per posizionare l’elemento o specifica il numero di pixel a cui spostare l’elemento)
+   * [!UICONTROL Automatico]
+   * [!UICONTROL Valore] (trascinate il cursore per posizionare l’elemento o specificate il numero di pixel da spostare)
 
    La posizione supporta valori positivi e negativi.
 
    Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
-* **Dimensioni**
+* **[!UICONTROL Dimensioni]**
 
    Modifica la larghezza e l’altezza dell’elemento selezionato.
 
    Fai clic sull’icona a discesa accanto a [!UICONTROL Larghezza] e [!UICONTROL Altezza] per scegliere tra le seguenti opzioni:
 
-   * Automatico
-   * Valore (trascina il cursore per ridimensionare l’elemento o specifica il numero di pixel per ciascuna dimensione)
+   * [!UICONTROL Automatico]
+   * [!UICONTROL Valore] (trascina il cursore per ridimensionare l’elemento o specifica il numero di pixel per ciascuna dimensione)
 
-* **Filtro**
+* **[!UICONTROL Filtro]**
 
    Trascina il cursore per ogni opzione filtro o specifica la percentuale desiderata:
 
-   * Seppia
-   * Contrasto
-   * Luminosità
-   * Scala di grigi
-   * Sfocatura
-   * Opacità
-   * Inverti
-   * Hue-rotate
-   * Saturazione
+   * [!UICONTROL Seppia]
+   * [!UICONTROL Contrasto]
+   * [!UICONTROL Luminosità]
+   * [!UICONTROL Scala di grigi]
+   * [!UICONTROL Sfocatura]
+   * [!UICONTROL Opacità]
+   * [!UICONTROL Inverti]
+*
+[!UICONTROL  Hue-rotate]
+   * [!UICONTROL Saturazione]
 
-* **Editor CSS**
+* **[!UICONTROL Editor CSS]**
 
    Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, l’editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.
 
@@ -201,23 +202,23 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    >
    >È possibile applicare un’immagine di sfondo utilizzando l’Editor CSS, ma potrebbe causare sfarfallii. Verifica le modifiche prima di implementarle.
 
-#### Classe CSS
+#### [!UICONTROL Classe CSS]
 
 Specifica la classe CSS predefinita utilizzata per l’elemento. Se vengono selezionati più elementi, separa le classi CSS con uno spazio.
 
 Disponibile per attività di [!UICONTROL A/B], [!UICONTROL personalizzazione automatizzata] e [!UICONTROL test multivariato].
 
-#### Collegamento
+#### [!UICONTROL Collegamento]
 
 Modifica l’URL nel collegamento.
 
 Utilizza Modifica collegamento per aggiornare il selettore in modo che indirizzi allo stesso elemento immagine. Tuttavia, il collegamento a un elemento immagine diverso non è supportato. Per eseguire il collegamento a un elemento immagine diverso, elimina l’azione originale dall’editor di codice e utilizza il [!UICONTROL Compositore esperienza visivo] per applicare l’azione all’altro elemento immagine.
 
-### Inserisci prima
+### [!UICONTROL Inserisci prima]
 
 Sono disponibili le seguenti opzioni:
 
-#### Immagine, HTML e testo
+#### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -233,15 +234,15 @@ Il comportamento dell’elemento inserito dipende dalla struttura della pagina, 
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Frammento esperienza
+#### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Inserisci dopo
+### [!UICONTROL Inserisci dopo]
 
 Sono disponibili le seguenti opzioni:
 
-#### Immagine, HTML e testo
+#### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -257,15 +258,15 @@ Il comportamento dell’elemento inserito dipende dalla struttura della pagina, 
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Frammento esperienza
+#### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Sostituisci con
+### [!UICONTROL Sostituisci con]
 
 Sono disponibili le seguenti opzioni:
 
-#### Immagine
+#### [!UICONTROL Immagine]
 
 Consente di selezionare una diversa immagine dalla libreria Contenuto. Le immagini disponibili per la sostituzione includono le immagini caricate nella cartella delle risorse di Experience Cloud o nella libreria di contenuti in Target.
 
@@ -283,7 +284,7 @@ La funzione Consigli supporta la funzione Sostituisci con nei tag DIV, SECTION e
 
 **Nota:** lo scambio delle immagini richiede un account Adobe Scene7 Publishing System.
 
-#### Offerta HTML
+#### [!UICONTROL Offerta HTML]
 
 Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
@@ -295,51 +296,51 @@ Un’offerta HTML può contenere fino a 256 KB.
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### Frammento esperienza
+#### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### Layout
+### [!UICONTROL Layout]
 
 Sono disponibili le seguenti opzioni:
 
-#### Ridisponi
+#### [!UICONTROL Ridisponi]
 
 Trascina l’elemento in un’altra posizione nello stesso elemento padre o DIV. Gli altri elementi vengono spostati per fare spazio all’elemento ridisposto.
 
 **Nota:** il tracciamento dei clic non funziona sugli elementi ridisposti.
 
-#### Ridimensiona
+#### [!UICONTROL Ridimensiona]
 
 Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], nell’angolo in basso a destra dell’elemento viene visualizzata una maniglia che consente di trascinare tale angolo per ridimensionare. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
-#### Sposta {#move}
+#### [!UICONTROL Sposta] {#move}
 
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: per garantire che gli elementi spostati non siano nascosti dietro ad altri elementi.)
 
 In alcune situazioni, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
 
-#### Nascondi
+#### [!UICONTROL Nascondi]
 
 Consnete di nascondere l’elemento. Lo spazio vuoto viene conservato, ma il contenuto viene rimosso.
 
-#### Rimuovi
+#### [!UICONTROL Rimuovi]
 
 Rimuovi l’elemento. Lo spazio vuoto dietro l&#39;immagine viene rimosso e lo spazio in cui l&#39;elemento si trovava viene compresso.
 
 **Nota:** gli elementi di una mbox classica (una mbox creata in una campagna di Target Classic) non possono essere rimossi con questa opzione.
 
-### Espandi sezione
+### [!UICONTROL Espandi sezione]
 
 Consente di selezionare l’elemento padre in aggiunta all’elemento selezionato originariamente. Quando selezioni un elemento padre, tutti i relativi figli vengono selezionati automaticamente. Puoi espandere la selezione più volte.
 
-### Vai al link
+### [!UICONTROL Vai al link]
 
 Consente di aprire la destinazione del collegamento.
 
-### Annulla/Ripristina
+### [!UICONTROL Annulla]/[!UICONTROL Ripeti]
 
 Annulla le modifiche apportate alle attività durante una sessione di modifica. Puoi inoltre ripristinare le modifiche precedentemente annullate.
 
@@ -357,14 +358,21 @@ Il Compositore esperienza visivo supporta [Componenti web](https://developer.moz
 >
 >Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
 
-La maggior parte delle azioni del Compositore esperienza visivo è supportata su eventi personalizzati e all’interno di eventi personalizzati. Le azioni seguenti non sono disponibili:
+La maggior parte delle azioni del Compositore esperienza visivo è supportata su eventi personalizzati e all’interno di eventi personalizzati, con le seguenti eccezioni:
 
-* Modifica
-   * Testo/HTML
-   * Collegamento
-   * Modifica origine
+Le azioni seguenti non sono disponibili sugli elementi personalizzati:
 
-* Sostituisci contenuto
+* [!UICONTROL Modifica]
+   * [!UICONTROL Testo/HTML]
+   * [!UICONTROL Collegamento]
+   * [!UICONTROL Modifica origine]
+
+* [!UICONTROL Sostituisci contenuto]
+
+L’azione seguente non è disponibile all’interno di elementi personalizzati:
+
+* [!UICONTROL Layout]
+   * [!UICONTROL Ridisponi]
 
 ## Navigare tra gli elementi utilizzando il percorso DOM {#dom-path}
 
