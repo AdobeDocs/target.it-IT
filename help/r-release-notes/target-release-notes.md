@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 5850e9b94d1e188b86f50092f30a6de9cfea9855
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 57%
+source-wordcount: '413'
+ht-degree: 53%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 20 ottobre 2021**
+**Ultimo aggiornamento: 25 ottobre 2021**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -24,6 +24,14 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 >**Termine del ciclo di vita di mbox.js**: a partire dal 31 marzo 2021, [!DNL Adobe Target] non supporta più la libreria mbox.js. Dopo il 31 marzo 2021, tutte le chiamate effettuate da mbox.js avranno esito negativo e avranno un impatto sulle pagine che hanno attività [!DNL Target] in esecuzione, che presenteranno il contenuto predefinito.
 >
 >Per evitare potenziali problemi con i siti, effettua la migrazione alla versione più recente del nuovo [!DNL Adobe Experience Platform Web SDK] o della libreria JavaScript at.js. Per ulteriori informazioni, consulta [Panoramica: implementare Target per web lato client](/help/c-implementing-target/c-implementing-target-for-client-side-web/implement-target-for-client-side-web.md).
+
+## [!DNL Target Standard/Premium] 21.10.5 (26 ottobre 2021)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+| Funzione | Dettagli |
+| --- | --- |
+| [!UICONTROL Compositore esperienza visivo] | È stato aggiunto il supporto per i componenti web. Le esperienze e le offerte personalizzate possono essere create e testate su elementi personalizzati e su elementi all’interno di elementi personalizzati. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
 
