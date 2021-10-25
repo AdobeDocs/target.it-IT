@@ -1,20 +1,19 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica HTML;modifica testo/HTML;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;link;collegamento al compositore esperienza visivo;modifica classe CSS;classe CSS;sostituire l’offerta;sostituisci l’offerta;scambiare immagine;scambia immagine;rimuovere elemento;rimuovi elemento;nascondere una voce;nascondi voce;riorganizzare;spostare elemento;sposta elemento;ridimensionare elemento;ridimensiona elemento;elemento;espandere la selezione;passa a questo collegamento;passare a un link;passa a un link;navigare;annullare;ripeti;annulla/ripristina
-description: Esplorate le opzioni disponibili in  Adobe Target Visual Experience Composer (VEC). È sufficiente fare clic su un elemento per vedere quali opzioni sono disponibili per tale elemento.
-title: Come si utilizzano le opzioni di Visual Experience Composer (VEC)?
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;offerta di scambio;scambio di offerte;scambio di immagini;rimozione elemento;rimozione elemento;elemento;nascondere elemento;elemento;sposta elemento;elemento;spostamento elemento;elemento;ridimensionamento elemento;ridimensionamento elemento;ridimensionamento;espandi selezione;naviga a questo collegamento;naviga collegamento;naviga;collega;naviga;collegamento;annulla;annulla;ripristina;annulla/ripristina;eventi personalizzati;componenti web
+description: Esplora le opzioni disponibili nel Compositore esperienza visivo di Adobe Target. Fai clic su un elemento per vedere quali opzioni sono disponibili per tale elemento.
+title: Come si utilizzano le opzioni del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
-translation-type: tm+mt
-source-git-commit: bb27f6e540998f7dbe7642551f7a5013f2fd25b4
+exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
+source-git-commit: 3779c64b5e09accda3063548d29d9d3a0c339ed6
 workflow-type: tm+mt
-source-wordcount: '2480'
-ht-degree: 93%
+source-wordcount: '2608'
+ht-degree: 76%
 
 ---
 
-
 # Opzioni del Compositore esperienza visivo
 
-Quando fate clic su un elemento di pagina in [!DNL Adobe Target] [!UICONTROL Visual Experience Composer] (VEC), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
+Quando fai clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
 
 ## Opzioni del Compositore esperienza visivo
 
@@ -44,7 +43,7 @@ I seguenti tag HTML5 possono essere nidificati:
 | --- | --- |
 | `<a>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>`, `<div>`, `<figure>`, `<figcaption>` |
 | `<ins>` | `<h1-h6>`, `<p>`, `<ul>`, `<ol>`, `<menu>` |
-| `<del>` | `<ul>`,  `<ol>`,  `<menu>`,  `<h1-h6>`,  `<p>` |
+| `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
 #### Colore di sfondo
@@ -57,21 +56,21 @@ Utilizza il settore colori per selezionare o configurare un colore di sfondo. È
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
-Per accedere al pannello [!UICONTROL Stili], fare clic su un elemento di pagina all&#39;interno del VEC, quindi fare clic su **[!UICONTROL Modifica]** > **[!UICONTROL Stili]**.
+Per accedere al [!UICONTROL Stili] fai clic su un elemento di pagina nel Compositore esperienza visivo, quindi fai clic su **[!UICONTROL Modifica]** > **[!UICONTROL Stili]**.
 
 Il pannello [!UICONTROL Stili] viene visualizzato sul lato destro del Compositore esperienza visivo. Il pannello contiene un elenco di stili che consente di modificare o aggiungere formattazione all’elemento selezionato. Se hai familiarità con l’utilizzo di Cascading Style Sheet (CSS) o se ricevi del codice dallo sviluppatore, un editor CSS in tempo reale consente di visualizzare le modifiche e aggiungere stili.
 
 ![Pannello Stili](/help/c-experiences/c-visual-experience-composer/assets/styles-panel-new.png)
 
-Quando si applicano stili diversi, è sempre possibile ripristinare le modifiche facendo clic sull’icona [!UICONTROL Ripristina] in alto a destra nel pannello [!UICONTROL Stili], dopo aver apportato una modifica a una sezione. Considera che facendo clic sull’icona [!UICONTROL Ripristina], vengono ripristinate tutte le modifiche nel pannello della sezione corrente.
+Quando applichi stili diversi, puoi sempre ripristinare le modifiche facendo clic sul pulsante [!UICONTROL Ripristina] che viene visualizzata nell’angolo in alto a destra del [!UICONTROL Stili] dopo aver modificato una sezione. Fai clic su [!UICONTROL Ripristina] ripristina tutte le modifiche apportate al pannello della sezione corrente.
 
 Espandi ogni sezione per modificare o aggiungere stili, come descritto di seguito. Per salvare le modifiche, fai clic sull’icona Indietro nella parte superiore del pannello per tornare alla visualizzazione principale del pannello, quindi fai clic su **[!UICONTROL Salva]**.
 
-I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli di sezione indicano che sono state apportate modifiche agli stili corrispondenti. In questo modo è facile rivedere le modifiche prima di fare clic su [!UICONTROL Salva].
+I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli di sezione indicano che sono stati modificati gli stili corrispondenti. Questo indicatore visivo facilita la revisione delle modifiche prima di fare clic su [!UICONTROL Salva].
 
 >[!NOTE]
 >
->Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi usare il menu Stili, come spiegato qui.
+>Le azioni rapide per le modifiche di layout, il colore di sfondo, il ridimensionamento e lo spostamento sono disponibili anche come azioni separate nel menu del Compositore esperienza visivo. Queste opzioni possono essere utilizzate come azioni separate oppure puoi utilizzare il menu Stili , come spiegato qui.
 
 * **Sfondo**
 
@@ -91,7 +90,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Puoi modificare la composizione tipografica di un elemento. Le modifiche tipografiche sono semplici e veloci.
 
-   Anche se l’editor Rich Text (Modifica testo/HTML) è disponibile per eseguire regolazioni precise, questa opzione permette di usare azioni rapide per apportare modifiche all’intero elemento. Se desideri applicare modifiche di composizione tipografica a una sola parte del testo (non al testo completo), utilizza l’[editor Rich Text](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
+   Anche se l’editor Rich Text (Modifica testo/HTML) è disponibile per la regolazione fine, questa opzione permette di intervenire rapidamente per modificare l’intero elemento. Se desideri applicare modifiche di composizione tipografica a una sola parte del testo (non al testo completo), utilizza l’[editor Rich Text](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md).
 
    È possibile modificare i seguenti stili di composizione tipografica:
 
@@ -114,7 +113,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Il margine supporta valori positivi e negativi.
 
-   Target supporta anche altre unità di misura, come rem, pc, em ecc. Per ulteriori informazioni su queste unità, vedere [Suggerimenti e trucchi CSS per i fogli di stile Web](https://www.w3.org/Style/Examples/007/units.en.html).
+   Target supporta anche altre unità di misura, come rem, pc, em. Per ulteriori informazioni su queste unità, vedi [Suggerimenti e trucchi per i fogli di stile web CSS](https://www.w3.org/Style/Examples/007/units.en.html).
 
 * **Spaziatura**
 
@@ -124,7 +123,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La spaziatura supporta valori di larghezza a partire da 0.
 
-   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **Bordo**
 
@@ -138,11 +137,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    Il bordo supporta valori di spessore a partire da 0.
 
-   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **Posizione**
 
-   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare la posizione superiore, inferiore, sinistra, destra e [Z-index](https://www.w3schools.com/cssref/pr_pos_z-index.asp) dell&#39;elemento.
+   Sposta l’elemento selezionato dalla posizione corrente. È possibile modificare i valori superiore, inferiore, sinistro, destro e [Indice Z](https://www.w3schools.com/cssref/pr_pos_z-index.asp) posizione.
 
    Fai clic sull’elenco a discesa [!UICONTROL Statico] per scegliere tra le seguenti opzioni di posizione:
 
@@ -159,7 +158,7 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    La posizione supporta valori positivi e negativi.
 
-   Target supporta anche [altre unità di dimensione](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em, ecc.
+   Target supporta anche [altre unità](https://www.w3.org/Style/Examples/007/units.en.html), come rem, pc, em.
 
 * **Dimensioni**
 
@@ -192,11 +191,11 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
 
    ![Editor CSS con modifiche](/help/c-experiences/c-visual-experience-composer/assets/css-changes.png)
 
-   Osserva i punti blu accanto alle opzioni [!UICONTROL Composizione tipografica], [!UICONTROL Bordo] e [!UICONTROL Dimensione] dell’illustrazione precedente. Questi punti indicano che sono state apportate modifiche a tali sezioni. Se apri questi pannelli di sezione, i punti blu vengono visualizzati accanto alle opzioni modificate.
+   Osserva i punti blu accanto alle opzioni [!UICONTROL Composizione tipografica], [!UICONTROL Bordo] e [!UICONTROL Dimensione] dell’illustrazione precedente. Questi punti indicano che queste sezioni sono state modificate. Se apri questi pannelli di sezione, i punti blu vengono visualizzati accanto alle opzioni modificate.
 
    Se per impostazione predefinita lo stile desiderato non è disponibile negli [!UICONTROL Stili], è possibile digitare il codice desiderato.
 
-   Considera che l’Editor CSS mostra i dettagli solo per la sessione in corso. Se salvi le modifiche e quindi riapri l’editor, i dettagli relativi alla modifica precedente non vengono visualizzati nell’editor, anche se selezioni di nuovo lo stesso elemento.
+   L’Editor CSS mostra i dettagli solo per la sessione corrente. Se salvi le modifiche e quindi riapri l’editor, i dettagli relativi alla modifica precedente non vengono visualizzati nell’editor, anche se selezioni di nuovo lo stesso elemento.
 
    >[!IMPORTANT]
    >
@@ -290,7 +289,7 @@ Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
 **Nota:**[!DNL Target] le offerte HTML sono memorizzate sui server di
 
-Le dimensioni di un&#39;offerta HTML non possono superare i 256 KB.
+Un’offerta HTML può contenere fino a 256 KB.
 
 #### Consiglio
 
@@ -312,15 +311,15 @@ Trascina l’elemento in un’altra posizione nello stesso elemento padre o DIV.
 
 #### Ridimensiona
 
-Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], una maniglia compare nell’angolo in basso a destra dell’elemento e consente di trascinarlo per ridimensionare. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
+Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], nell’angolo in basso a destra dell’elemento viene visualizzata una maniglia che consente di trascinare tale angolo per ridimensionare. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
-#### Sposta  {#move}
+#### Sposta {#move}
 
-Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: supporto per assicurare che gli elementi spostati non risultino nascosti dietro ad altri elementi.)
+Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: per garantire che gli elementi spostati non siano nascosti dietro ad altri elementi.)
 
-In alcuni casi, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
+In alcune situazioni, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
 
 #### Nascondi
 
@@ -347,6 +346,25 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 ## Considerazioni {#considerations}
 
 * Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render).
+
+## Supporto di elementi personalizzati (26 ottobre 2021) {#custom}
+
+Il Compositore esperienza visivo supporta [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) per creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati. Questa funzionalità è disponibile nel Compositore esperienza visivo per tutti [!DNL Target] tipi di attività.
+
+>[!NOTE]
+>
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) 2.7.0 (o successiva). Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
+>
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md).
+
+La maggior parte delle azioni del Compositore esperienza visivo è supportata su eventi personalizzati e all’interno di eventi personalizzati. Le azioni seguenti non sono disponibili:
+
+* Modifica
+   * Testo/HTML
+   * Collegamento
+   * Modifica origine
+
+* Sostituisci contenuto
 
 ## Navigare tra gli elementi utilizzando il percorso DOM {#dom-path}
 
