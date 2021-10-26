@@ -1,14 +1,13 @@
 ---
 keywords: elenco attività;attività;tipi di attività;modificare attività;azioni attività;attributo attività;filtro elenco attività;limitazioni attività;personalizzazione;personalizzazione
-description: Scopri come le attività in Adobe [!DNL Target] consentono di personalizzare i contenuti per tipi di pubblico specifici e di testare le progettazioni di pagine
+description: Scopri come eseguire le attività in Adobe [!DNL Target] consente di personalizzare il contenuto per tipi di pubblico specifici e di testare le progettazioni di pagine
 title: Come posso personalizzare i contenuti e testare le progettazioni di pagine con Target?
-feature: Attività
+feature: Activities
 exl-id: 7e61525d-b2db-44f6-a7c2-df5a8d28eca2
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 1a51324bebbdbe959c06f77813bb6b3dfefd72c6
 workflow-type: tm+mt
-source-wordcount: '2099'
-ht-degree: 91%
+source-wordcount: '2066'
+ht-degree: 92%
 
 ---
 
@@ -32,10 +31,10 @@ Target include diversi tipi di attività. La tabella seguente fornisce una panor
 | [Utilizzo dei dati di Analytics](/help/c-activities/t-test-ab/t-test-create-ab/create-a4t.md) (A4T) | Puoi configurare un&#39;attività per utilizzare [!DNL Adobe Analytics] come origine per i rapporti. Questo tipo di attività richiede di collegare il tuo account [!DNL Adobe Experience Cloud] sia con [!DNL Analytics] sia con [!DNL Target]. |
 | [Test multivariato](/help/c-activities/c-multivariate-testing/multivariate-testing.md) | Il test multivariato (Multivariate Testing, MVT) confronta le combinazioni di offerte negli elementi di una pagina per determinare quale combinazione funziona al meglio per un pubblico specifico e identifica quale elemento influisce maggiormente sul successo dell’attività. |
 | [Targeting esperienza](/help/c-activities/t-experience-target/experience-target.md) | La funzione Targeting esperienza (XT) fornisce contenuti a un pubblico specifico basato su una serie di regole e criteri definiti dagli addetti al marketing.<br>**Nota:** ora puoi includere i [consigli nelle attività di targeting delle esperienze](/help/c-recommendations/recommendations-as-an-offer.md). Questa funzionalità richiede una [licenza di Target Premium](/help/c-intro/intro.md#premium). |
-| [Personalizzazione automatizzata](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | La personalizzazione automatizzata (AP) combina offerte o messaggi e utilizza l&#39;apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti ed effettuare le conversioni. |
+| [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md)<br>![Target Premium](/help/assets/premium.png) | Automated Personalization (AP) combina offerte o messaggi e utilizza l’apprendimento automatico avanzato per abbinare diverse varianti a ciascun visitatore in base al suo profilo cliente, per personalizzare i contenuti e promuovere le conversioni. |
 | [Consigli](/help/c-recommendations/recommendations.md)<br>![Target Premium](/help/assets/premium.png) | Un consiglio determina il modo in cui un prodotto viene suggerito a un utente del sito web, a seconda delle attività dell&#39;utente sul sito.<br>Ad esempio, potrebbe essere utile incoraggiare l&#39;acquirente di uno zaino a considerare l&#39;acquisto di scarpe e bastoncini da trekking. Puoi creare un consiglio che mostra gli elementi spesso acquistati insieme con l&#39;algoritmo “Chi ha acquistato questo ha acquistato anche”. Oppure, potrebbe essere utile incoraggiare i visitatori a trascorrere più tempo sul sito multimediale, consigliando un video simile a quello che stanno visualizzando, mediante l&#39;algoritmo “Chi ha visualizzato questo ha visualizzato anche”.<br>**Nota:** ora puoi includere i consigli nelle attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md). |
 
-## Elenco attività {#section_DE8E2DB30D534962A931EF8BB48240F5}
+## Attività, elenco {#section_DE8E2DB30D534962A931EF8BB48240F5}
 
 L’elenco [!UICONTROL Attività] è la vista predefinita all’apertura di [!DNL Target]. Puoi creare nuove attività da questa pagina e gestire quelle esistenti.
 
@@ -52,7 +51,7 @@ L&#39;elenco Attività presenta tutte le attività:
 | URL | L’URL viene visualizzato in un colore più chiaro sotto il nome.<br>L’URL dell’attività identifica dove viene visualizzata. Consente di identificare rapidamente un’attività e di determinare se su una pagina specifica sia già in esecuzione un test.<br>Se un test viene eseguito su più URL, un collegamento mostra il numero di URL utilizzati. Fai clic sul collegamento per visualizzare l’elenco completo degli URL per l’attività.<br>Puoi eseguire ricerche in base all’URL. Utilizza l’elenco a discesa accanto alla casella di ricerca e seleziona [!UICONTROL Ricerca URL]. |
 | Stato | Lo stato dell’attività può essere uno tra i seguenti:<ul><li>**Live**: l’attività è attualmente in esecuzione.</li><li>**Bozza**: la configurazione dell’attività è iniziata, ma l’attività non è ancora pronta per l’esecuzione.</li><li>**Pianificata**: l’attività è pronta per essere attivata nella data e nell’ora di inizio specificate.</li><li>**Inattiva**: l&#39;attività è stata sospesa o disattivata.</li><li>**Sincronizzazione**: l’attività è stata salvata si sta eseguendo la sua sincronizzazione con la rete di consegna Target.</li><li>**Terminata**: la data e l’ora di fine specificate dell’attività sono state raggiunte e l’attività non viene più distribuita.</li><li>**Archiviata**: l’attività è stata archiviata. È possibile attivare un&#39;attività archiviata per utilizzarla nuovamente.</li></ul>**Nota**: quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando i metodi API, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente. |
 | Origine | Mostra dove è stata creata l&#39;attività:<ul><li>Adobe Target</li><li>Adobe Target Classic</li><li>Adobe Experience Manager (AEM)</li><li>Adobe Mobile Services (AMS)</li></ul> |
-| Decisioning on-Device Idoneo | Dopo aver creato un’attività che è idonea per le decisioni sui dispositivi, un’etichetta che legge On-Device Decisioning Idoneo è visibile nella pagina Panoramica dell’attività.<br>Questa etichetta non significa che l’attività verrà sempre consegnata tramite decisioni sul dispositivo. Solo quando at.js 2.5.0+ è configurato per utilizzare le decisioni sul dispositivo, questa attività verrà eseguita sul dispositivo. Se at.js 2.5.0+ non è configurato per l’utilizzo sul dispositivo, questa attività verrà comunque recapitata tramite una chiamata al server effettuata da at.js.<br>Consulta  [Decisioni sul dispositivo](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
+| Decisioning on-Device Idoneo | Dopo aver creato un’attività che è idonea per le decisioni sui dispositivi, un’etichetta che legge On-Device Decisioning Idoneo è visibile nella pagina Panoramica dell’attività.<br>Questa etichetta non significa che l’attività verrà sempre consegnata tramite decisioni sul dispositivo. Solo quando at.js 2.5.0+ è configurato per utilizzare le decisioni sul dispositivo, questa attività verrà eseguita sul dispositivo. Se at.js 2.5.0+ non è configurato per l’utilizzo sul dispositivo, questa attività verrà comunque recapitata tramite una chiamata al server effettuata da at.js.<br>Vedi [Decisioni su dispositivi](/help/c-implementing-target/c-implementing-target-for-client-side-web/on-device-decisioning/on-device-decisioning.md). |
 | Proprietà | Mostra la [proprietà](/help/administrating-target/c-user-management/property-channel/property-channel.md) per l’attività. |
 | Incremento stimato dei ricavi | Mostra l&#39;aumento previsto dei ricavi se il 100% del pubblico visualizza l&#39;esperienza vincente.<br>Calcolato con la seguente formula:<br>`(<winning experience> - <control experience>)*<total number of visitors>`<br>Se nella forma condensata è presente solo una cifra prima del decimale, il risultato viene arrotondato al massimo a una cifra decimale. Ad esempio: $ 1,6 M, $ 60 K, $ 900, $ 8,5 K, $ 205 K<br>In questa colonna viene visualizzato “---” per le attività prive di dati sufficienti per richiamare una visualizzazione vincente o prive di un preventivo di spesa.<br>Consulta [Stima dell’incremento dei ricavi](/help/administrating-target/r-target-account-preferences/estimating-lift-in-revenue.md) per maggiori informazioni. |
 | Ultimo aggiornamento | La data di ultimo aggiornamento dell&#39;attività e l&#39;autore dell&#39;aggiornamento. |
@@ -126,7 +125,7 @@ Fai clic su una delle intestazioni seguenti per impostare se le attività sono e
 
 ![Disattiva suggerimento del giorno](/help/c-activities/assets/tip-disable-new.png)
 
-## Limitazioni {#section_049D4684403A4E07B998067EB8E9BE56}
+## Limitazioni  {#section_049D4684403A4E07B998067EB8E9BE56}
 
 Ogni attività di Target presenta le seguenti limitazioni di contenuto:
 
@@ -176,12 +175,3 @@ Questo video spiega i tipi di attività disponibili in [!DNL Target Standard/Pre
 
 >[!VIDEO](https://video.tv.adobe.com/v/17386)
 
-### Gestione delle attività (5:55) ![Badge panoramica](/help/assets/overview.png)
-
-Questo video spiega come utilizzare l&#39;elenco Attività per gestire le attività.
-
-* Definizione del termine *attività*
-* Trovare le attività nell’elenco Attività
-* Modificare, disattivare, copiare ed eliminare le attività
-
->[!VIDEO](https://video.tv.adobe.com/v/18550)
