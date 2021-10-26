@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni saranno incluse nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 3fb58864e265653b48e851c8dff404589bb867a6
 workflow-type: tm+mt
-source-wordcount: '420'
-ht-degree: 53%
+source-wordcount: '430'
+ht-degree: 51%
 
 ---
 
@@ -31,7 +31,7 @@ Questa versione di manutenzione contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!UICONTROL Compositore esperienza visivo] | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati. |
+| [!UICONTROL Compositore esperienza visivo] | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati.<br>Questa versione coinciderà con la versione 2.7.0 di at.js. |
 
 ## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
 
