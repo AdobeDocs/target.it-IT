@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3e15b8d06cb8185be27a8e0210ecfcfc5002b7e7
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '2865'
-ht-degree: 94%
+source-wordcount: '2875'
+ht-degree: 93%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 27 ottobre | [Pianificare e implementare [!DNL Recommendations]](/help/c-recommendations/plan-implement.md#cart) | Sono state aggiunte ulteriori informazioni sui consigli basati su carrello. |
 | 26 ottobre | [CNAME e [!DNL Target]](/help/c-implementing-target/c-considerations-before-you-implement-target/implement-cname-support-in-target.md) | Intero argomento aggiornato. |
 | 25 ottobre | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 21.10.5 (28 ottobre 2021). |
 | 22 ottobre | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#query-strings) | È stata aggiunta la seguente sezione:<ul><li>Assicurati che [!DNL Target] le attività gestiscono correttamente gli URL con parametri di stringa di query</li></ul> |

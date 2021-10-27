@@ -4,10 +4,10 @@ description: 'Scopri come implementare le attività Recommendations in Adobe Tar
 title: Come Si Implementano Le Attività Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 962464a98f2a7771525d432ba1b51c828f5a8df6
+source-git-commit: 1128d4b2d29f78492e5a5ec420c1177aec8d9e75
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 36%
+source-wordcount: '1545'
+ht-degree: 30%
 
 ---
 
@@ -82,7 +82,7 @@ function targetPageParams() {
 }
 ```
 
-### Aggiunte/visualizzazioni carrello/pagine di pagamento
+### Aggiunte/visualizzazioni carrello/pagine di pagamento {#cart}
 
 Su una pagina del carrello, puoi consigliare gli elementi in base al contenuto del carrello corrente del visitatore. A tal fine, trasmetti gli ID di tutti gli elementi nel carrello corrente del visitatore utilizzando il parametro speciale `cartIds`.
 
@@ -93,6 +93,22 @@ function targetPageParams() {
       }
 }
 ```
+
+La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Consigliato]&quot; algoritmo basato su utenti e al &quot;[!UICONTROL Chi li ha visti, li ha comprati]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato quelli]&quot; algoritmi basati su elementi.
+
+[!DNL Target] utilizza tecniche di filtro collaborativo per determinare le somiglianze per ogni elemento nel carrello del visitatore, quindi combina queste somiglianze comportamentali tra ciascun elemento per ottenere un elenco unito.
+
+[!DNL Target] offre anche agli esperti di marketing la possibilità di osservare il comportamento dei visitatori in una singola sessione o in più sessioni:
+
+* **All&#39;interno di una singola sessione**: In base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
+
+* **In più sessioni**: In base a ciò che altri visitatori hanno fatto in più sessioni. 
+
+Indipendentemente dal fatto che tu guardi il comportamento dei visitatori in una singola sessione o in più sessioni, [!DNL Target] formula raccomandazioni per questo visitatore in base agli elementi nel carrello corrente.
+
+Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di inchiostro e carta. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche avere bisogno di pane e gelatina.
+
+Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base alla preferenza o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se il visitatore non vuole necessariamente guardare entrambi i film nella stessa seduta. Oppure, a un visitatore piace il gioco della bacheca &quot;Codenames&quot; e potrebbe anche piacere il gioco della bacheca &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente.
 
 ### Escludere gli elementi già presenti nel carrello del visitatore
 
