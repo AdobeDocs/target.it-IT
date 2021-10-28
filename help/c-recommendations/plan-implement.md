@@ -4,7 +4,7 @@ description: 'Scopri come implementare le attività Recommendations in Adobe Tar
 title: Come Si Implementano Le Attività Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 152d9f0b942956363aece1ba279aeaa7b93f43e6
+source-git-commit: 2910fd1130030df79b96160b64e6bd1bdf295814
 workflow-type: tm+mt
 source-wordcount: '1545'
 ht-degree: 30%
@@ -108,7 +108,7 @@ La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Cons
 
    Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base alla preferenza o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se il visitatore non vuole necessariamente guardare entrambi i film nella stessa seduta. Oppure, a un visitatore piace il gioco della bacheca &quot;Codenames&quot; e potrebbe anche piacere il gioco della bacheca &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
 
-Indipendentemente dal fatto che tu guardi il comportamento dei visitatori in una singola sessione o in più sessioni, [!DNL Target] formula raccomandazioni per questo visitatore in base agli elementi nel carrello corrente.
+Indipendentemente dal fatto che tu guardi il comportamento dei visitatori in una singola sessione o in più sessioni, [!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel carrello corrente.
 
 ### Escludere gli elementi già presenti nel carrello del visitatore
 
