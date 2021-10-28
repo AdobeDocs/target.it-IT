@@ -1,13 +1,13 @@
 ---
 keywords: versioni at.js;versioni at.js;note sulla versione
-description: Visualizza i dettagli sulle modifiche apportate in ogni versione della libreria JavaScript Adobe [!DNL Target] at.js.
+description: Visualizza i dettagli delle modifiche in ogni versione dell’Adobe [!DNL Target] Libreria JavaScript at.js.
 title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
-source-git-commit: eddde1bae345e2e28ca866662ba9664722dedecd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '4228'
-ht-degree: 89%
+source-wordcount: '4278'
+ht-degree: 88%
 
 ---
 
@@ -20,11 +20,17 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >
 >Il team di Target supporta entrambi at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata.
 >
->I tag in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) sono il metodo preferito per aggiornare at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzionalità e spesso correggono i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e sono resi disponibili nel catalogo [!DNL Adobe Experience Platform] come aggiornamenti. Per ulteriori informazioni, consulta [Aggiornamenti delle estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) nella guida *Panoramica dei tag* .
+>Tag in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per aggiornare at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzionalità e spesso correggono i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e sono resi disponibili nel [!DNL Adobe Experience Platform] catalogo come aggiornamenti. Per ulteriori informazioni, consulta [Aggiornamenti delle estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in *Panoramica sui tag* guida.
+
+## at.js versione 2.7.0 (28 ottobre 2021)
+
+Questa versione contiene i seguenti miglioramenti:
+
+* È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). Questa versione di at.js è necessaria per creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati. Questa funzionalità è inclusa nella [!DNL Target Standard/Premium] Versione 21.10.5.
 
 ## at.js 2.6.1 (16 agosto 2021)
 
-* Correzione di bug per &quot;Nessun artefatto memorizzato nella cache disponibile per la modalità ibrida&quot; quando si utilizzano le decisioni sul dispositivo.
+* Correzione di un bug relativo all’errore “Nessun artefatto nella cache disponibile per la modalità ibrida” quando si utilizzano le decisioni sul dispositivo.
 
 ## at.js 2.6.0 (16 luglio 2021)
 
@@ -50,7 +56,7 @@ A partire da questa versione, non è più supportato Microsoft Internet Explorer
 Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
 * È stato risolto un problema a causa del quale `targetPageParams` veniva incluso nelle richieste mbox. `targetPageParams` deve essere incluso solo nelle richieste `pageLoad`. (TNT-40247)
-* Ottimizzazione dei globali di finestre e documenti che fanno riferimento nell&#39;estensione [!DNL Adobe Experience Platform]. (TNT-37124)
+* Ottimizzazione dei globali di finestre e documenti che fanno riferimento in [!DNL Adobe Experience Platform] estensione. (TNT-37124)
 
 ## at.js 2.4.0 (14 gennaio 2021)
 
@@ -63,7 +69,7 @@ Questa versione di at.js è una versione di manutenzione che include i miglioram
 
 Questa versione di at.js è una versione di manutenzione e include la correzione seguente:
 
-* È stato risolto un problema relativo al tracciamento dei clic mbox e A4T. Con 0n-clic, Target ha attivato una chiamata API di consegna con i parametri mbox e mbox corretti. Tuttavia, l’identificatore SDID non corrisponde a quello della chiamata [!DNL Analytics] , pertanto non vi sono stati hit di unione e conversione. (TNT-38372)
+* È stato risolto un problema relativo al tracciamento dei clic mbox e A4T. Con 0n-clic, Target ha attivato una chiamata API di consegna con i parametri mbox e mbox corretti. Tuttavia, l’identificatore SDID non corrisponde a quello nel [!DNL Analytics] call, quindi non c&#39;è stato hit stitching e conversione. (TNT-38372)
 
 ## at.js 2.3.2 (24 luglio 2020)
 
@@ -89,7 +95,7 @@ Questa release di at.js è una versione di manutenzione e include i migliorament
 
 Questa release di at.js è una versione di manutenzione e include i miglioramenti e le correzioni seguenti:
 
-* È supportata l’impostazione dei nonce nell’informativa sulla sicurezza dei contenuti sui tag SCRIPT e STYLE aggiunti al DOM della pagina quando si applicano le offerte Target distribuite. I clienti possono impostare `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` in modo che at.js possa impostare lo script e i nonce dei tag di stile corrispondenti sulle offerte applicate. Per ulteriori informazioni, consulta [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) .
+* È supportata l’impostazione dei nonce nell’informativa sulla sicurezza dei contenuti sui tag SCRIPT e STYLE aggiunti al DOM della pagina quando si applicano le offerte Target distribuite. I clienti possono impostare `targetGlobalSettings.cspScriptNonce` e `targetGlobalSettings.cspStyleNonce` in modo che at.js possa impostare lo script e i nonce dei tag di stile corrispondenti sulle offerte applicate. Vedi  [targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) per ulteriori dettagli.
 * È stato risolto un problema che si verificava durante la compilazione di at.js con il compilatore Google Closure per la distribuzione di Google Tag Manager.
 * Il cookie di controllo at.js è stato rinominato da `check` a `at_check` per evitare conflitti con le implementazioni dei clienti.
 

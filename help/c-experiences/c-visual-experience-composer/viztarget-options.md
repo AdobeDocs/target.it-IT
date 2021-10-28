@@ -4,9 +4,9 @@ description: Esplora le opzioni disponibili nel Compositore esperienza visivo di
 title: Come si utilizzano le opzioni del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: aaf2bc5de5e7fd7c1bb459bf869a043fa7447fbd
+source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
 workflow-type: tm+mt
-source-wordcount: '2626'
+source-wordcount: '2624'
 ht-degree: 71%
 
 ---
@@ -348,7 +348,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 * Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md#render).
 
-## Supporto di elementi personalizzati (28 ottobre 2021) {#custom}
+## Supporto di elementi personalizzati {#custom}
 
 Il Compositore esperienza visivo supporta [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components) per creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati. Questa funzionalità è disponibile nel Compositore esperienza visivo per tutti [!DNL Target] tipi di attività.
 
