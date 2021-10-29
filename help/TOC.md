@@ -4,7 +4,7 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
 source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1535'
 ht-degree: 100%
 
