@@ -4,7 +4,7 @@ description: Scopri come creare criteri che controllano il contenuto delle attiv
 title: Come si creano i criteri in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 4117407d38112f5161a40fb6175957fb164df954
 workflow-type: tm+mt
 source-wordcount: '2810'
 ht-degree: 53%
@@ -81,7 +81,6 @@ I passaggi seguenti presuppongono l’accesso al [!UICONTROL Creare nuovi criter
    | [!UICONTROL Basato su utente] | Eseguite raccomandazioni in base al comportamento dell&#39;utente. | <ul><li>Articoli visualizzati di recente</li><li>Consigliato per te</li></ul> |
 
    |[!UICONTROL Criteri personalizzati]|Effettua le raccomandazioni in base a un file personalizzato caricato.|<ul><li>Algoritmo personalizzato</li></ul>|
-
 
    >[!NOTE]
    >
