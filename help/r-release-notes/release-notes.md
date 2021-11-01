@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1144'
-ht-degree: 82%
+source-wordcount: '1153'
+ht-degree: 81%
 
 ---
 
@@ -44,7 +44,7 @@ Questa versione di manutenzione contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Recommendations basato su carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli basati sul contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations basato su carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli basati sul contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md)e &quot;Basato su carrello&quot; in [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 

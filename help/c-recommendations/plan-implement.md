@@ -4,10 +4,10 @@ description: 'Scopri come implementare le attività Recommendations in Adobe Tar
 title: Come Si Implementano Le Attività Recommendations?
 feature: Recommendations
 exl-id: b6edb504-a8b6-4379-99c1-6907e71601f9
-source-git-commit: 6d601c0099e9e8451571af7b75641620a94578fc
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '1544'
-ht-degree: 30%
+source-wordcount: '1295'
+ht-degree: 36%
 
 ---
 
@@ -94,21 +94,7 @@ function targetPageParams() {
 }
 ```
 
-La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Consigliato]&quot; algoritmo basato su utenti e al &quot;[!UICONTROL Chi li ha visti, li ha comprati]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato quelli]&quot; algoritmi basati su elementi.
-
-[!DNL Target] utilizza tecniche di filtro collaborativo per determinare le somiglianze per ogni elemento nel carrello del visitatore, quindi combina queste somiglianze comportamentali tra ciascun elemento per ottenere un elenco unito.
-
-[!DNL Target] offre anche agli esperti di marketing la possibilità di osservare il comportamento dei visitatori in una singola sessione o in più sessioni:
-
-* **All&#39;interno di una singola sessione**: In base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
-
-   Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di inchiostro e carta. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche avere bisogno di pane e gelatina.
-
-* **In più sessioni**: In base a ciò che altri visitatori hanno fatto in più sessioni.
-
-   Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base alla preferenza o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se il visitatore non vuole necessariamente guardare entrambi i film nella stessa seduta. Oppure, a un visitatore piace il gioco della bacheca &quot;Codenames&quot; e potrebbe anche piacere il gioco della bacheca &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
-
-[!DNL Target] formula raccomandazioni per ogni visitatore in base agli elementi nel carrello corrente, indipendentemente dal fatto che osservi il comportamento del visitatore in una singola sessione o in più sessioni.
+Per ulteriori informazioni [!UICONTROL Basato sul carrello] consigli, vedi [Basato sul carrello](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md#cart-based) in *Basare il consiglio su una chiave consiglio*.
 
 ### Escludere gli elementi già presenti nel carrello del visitatore
 

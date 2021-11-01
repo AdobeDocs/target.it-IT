@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
-source-wordcount: '32575'
+source-wordcount: '32584'
 ht-degree: 99%
 
 ---
@@ -37,13 +37,13 @@ Questa versione di manutenzione contiene i seguenti miglioramenti:
 | --- | --- |
 | [!UICONTROL Compositore esperienza visivo] | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi all’interno di elementi personalizzati.<br>Per ulteriori informazioni, consulta [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-### [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
+## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
 
 Questa versione di manutenzione contiene i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Recommendations basato su carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli basati sul contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md) e &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md). |
+| Recommendations basato su carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli basati sul contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md)e &quot;Basato su carrello&quot; in [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 
