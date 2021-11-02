@@ -4,9 +4,9 @@ description: Scopri come creare criteri che controllano il contenuto delle attiv
 title: Come si creano i criteri in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 2a4cae206bf634bf3fbec65c5c4b289aadefede1
+source-git-commit: 3cccd4879133a8d222b970c92ebcef3df7a028a3
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2832'
 ht-degree: 53%
 
 ---
@@ -87,7 +87,9 @@ I passaggi seguenti presuppongono l’accesso al [!UICONTROL Creare nuovi criter
 
 1. Se necessario, seleziona un **Attributo elemento** e **Attributo profilo da abbinare**, **Chiave dei consigli**, **Chiave filtro** e/o **Metrica di Analytics** per configurare l’algoritmo.
 
-Per ulteriori informazioni sulla scelta di una Chiave consiglio, consulta [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
+Le opzioni di configurazione dell’algoritmo rimanenti variano a seconda dell’algoritmo selezionato. Per completare la configurazione dell’algoritmo, seleziona un [!UICONTROL Chiave dei consigli], [!UICONTROL Chiave filtro], [!UICONTROL Base della co-occorrenza], [!UICONTROL Metrica di Analytics]e/o [!UICONTROL Attributo elemento] e [!UICONTROL Attributo profilo da abbinare].
+
+Per ulteriori informazioni sulla scelta di un [!UICONTROL Chiave dei consigli], vedi [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md).
 
 ## [!UICONTROL Origine dati] {#data-source}
 
