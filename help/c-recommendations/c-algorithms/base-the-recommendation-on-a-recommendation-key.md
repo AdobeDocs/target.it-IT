@@ -5,9 +5,9 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '3850'
+source-wordcount: '3834'
 ht-degree: 41%
 
 ---
@@ -25,10 +25,6 @@ Esistono cinque tipi di algoritmi in [!DNL Target Recommendations]:
 * [!UICONTROL Criteri personalizzati]
 
 Ogni tipo di algoritmo fornisce algoritmi diversi appropriati per il relativo tipo, come illustrato nella tabella seguente:
-
->[!NOTE]
->
->La [!UICONTROL Basato sul carrello] Il tipo è descritto nella tabella seguente e sarà presto disponibile.
 
 | Tipo di algoritmo | Quando utilizzare | Algoritmi disponibili |
 | --- | --- | --- |
@@ -54,11 +50,11 @@ La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Cons
 
 [!DNL Target] offre anche agli esperti di marketing la possibilità di osservare il comportamento dei visitatori in una singola sessione o in più sessioni:
 
-* **All&#39;interno di una singola sessione**: In base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
+* **[!UICONTROL Sessione singola]**: In base a ciò che hanno fatto altri visitatori all’interno di una singola sessione.
 
    Osservare il comportamento all’interno di una singola sessione potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base a un utilizzo, un’occasione o un evento. Ad esempio, un visitatore sta acquistando una stampante e potrebbe anche aver bisogno di inchiostro e carta. Oppure, un visitatore sta comprando burro di arachidi e potrebbe anche avere bisogno di pane e gelatina.
 
-* **In più sessioni**: In base a ciò che altri visitatori hanno fatto in più sessioni.
+* **[!UICONTROL Più sessioni]**: In base a ciò che altri visitatori hanno fatto in più sessioni.
 
    Osservare il comportamento in più sessioni potrebbe avere senso quando si ha la sensazione che i prodotti si &quot;incontrino&quot; fortemente in base alla preferenza o al gusto del visitatore. Ad esempio, a un visitatore piace Star Wars e potrebbe piacere anche Indiana Jones, anche se il visitatore non vuole necessariamente guardare entrambi i film nella stessa seduta. Oppure, a un visitatore piace il gioco della bacheca &quot;Codenames&quot; e potrebbe anche piacere il gioco della bacheca &quot;Avalon&quot;, anche se il visitatore non può giocare entrambi i giochi contemporaneamente. 
 

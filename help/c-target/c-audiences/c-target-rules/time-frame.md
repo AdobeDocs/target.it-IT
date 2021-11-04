@@ -2,29 +2,28 @@
 keywords: intervallo temporale;data di inizio;data di fine;date di inizio/fine;pianificazione di target;ripartizione settimanale;ripartizione giornaliera;ripartizione
 description: Scopri come utilizzare le date e gli orari di inizio e fine per eseguire il targeting degli utenti che visitano il tuo sito durante un intervallo di tempo specifico.
 title: Posso Eseguire il targeting dei visitatori che visitano il mio sito a orari specifici?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: b46966a8dbb2ff6d2efbfb8f126783f750c2f08c
+source-git-commit: d075a2904fde233c54a80b1a670ecdb13a931ebf
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '424'
 ht-degree: 45%
 
 ---
 
 # Intervallo temporale
 
-Puoi aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il tuo sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
+Puoi aggiungere date e ore di inizio e fine in [!DNL Adobe Target] per eseguire il targeting degli utenti che visitano il sito durante un intervallo di tempo specifico. Puoi anche impostare le opzioni Ripartizione settimanale e giornaliera per creare pattern ricorrenti per il targeting del pubblico.
 
-Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), è possibile indirizzare gli utenti che spendono meno a contenuti specifici nei tre giorni che precedono il Black Friday e ad altri contenuti dopo il Black Friday.
+Ad esempio, utilizzando [funzionalità di pubblico combinato e ad hoc](/help/c-target/combining-multiple-audiences.md#concept_A7386F1EA4394BD2AB72399C225981E5), è possibile indirizzare gli utenti che spendono meno su contenuti specifici nei tre giorni che precedono il Black Friday e su altri contenuti dopo il Black Friday.
 
 1. Nell’interfaccia di [!DNL Target] fai clic su **[!UICONTROL Pubblico]** > **[!UICONTROL Crea pubblico]**.
-1. 
-   1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
-1. Trascina **[!UICONTROL Intervallo di tempo]** nel riquadro generatore di pubblico.
+1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
+1. Trascinamento della selezione **[!UICONTROL Intervallo temporale]** nel riquadro audience builder (generatore di pubblico).
 
    ![](assets/target_timeframe_dialog.png)
 
-1. Specifica le date e le ore [!UICONTROL Start] e [!UICONTROL Fine] per il pubblico.
+1. Specifica la [!UICONTROL Inizio] e [!UICONTROL Fine] date e ore del pubblico.
 
    Lascia la data di inizio vuota per avviare il targeting in base alla pianificazione dellʼattività. Lascia la data di fine vuota per continuare il targeting fino alla data e allʼora di fine dellʼattività.
 
@@ -38,9 +37,9 @@ Ad esempio, utilizzando la [funzione tipi di pubblico combinati ad hoc](/help/c-
 
    ![Ripartizione settimanale e giornaliera](assets/week_and_day_parting.png)
 
-   È possibile utilizzare le opzioni [!UICONTROL Frequenza], ad esempio, per visualizzare un&#39;opzione &quot;Chat Now&quot; ai visitatori solo durante i giorni e le ore in cui è attivo il call center.
+   Si potrebbe utilizzare [!UICONTROL Frequenza] ad esempio, per visualizzare un’opzione &quot;Chat Now&quot; ai visitatori solo durante i giorni e le ore in cui il call center è attivo.
 
-   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Fai clic su **[!UICONTROL Aggiungi frequenza]** per specificare i pattern aggiuntivi, come desiderato.
+   Seleziona uno o più giorni della settimana, quindi imposta gli orari di inizio e fine. Fai clic su **[!UICONTROL Aggiungi frequenza]** per specificare pattern aggiuntivi, come desiderato.
 
    >[!NOTE]
    >
