@@ -5,10 +5,10 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 44abee48d19116535efd8bb352f379e77d9987fd
+source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
 workflow-type: tm+mt
-source-wordcount: '3820'
-ht-degree: 41%
+source-wordcount: '3877'
+ht-degree: 40%
 
 ---
 
@@ -90,7 +90,7 @@ Consiglia gli articoli che sono acquistati più spesso dai clienti contemporanea
 
 Questa logica restituisce gli altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, la raccomandazione potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
+Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, il consiglio potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
 Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
 
@@ -139,7 +139,11 @@ Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete seleziona
 
 ### Più visualizzato per attributo articolo
 
-(Informazioni disponibili a breve)
+Consiglia articoli o contenuti multimediali simili agli elementi o ai file multimediali più visualizzati sul sito.
+
+Questo algoritmo consente di selezionare l&#39;attributo dell&#39;elemento su cui si desidera basare il consiglio, ad esempio, &quot;Nome&quot; o &quot;Marchio&quot;.
+
+Seleziona quindi gli attributi di profilo memorizzati nel profilo del visitatore in base ai quali desideri confrontarli, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Mostra più visualizzata&quot;.
 
 ### Articoli più venduti in tutto il sito {#top-sellers}
 
@@ -208,7 +212,7 @@ Consiglia gli articoli che sono acquistati più spesso dai clienti contemporanea
 
 Questa logica restituisce gli altri prodotti acquistati dopo l’acquisto di questo; il prodotto specificato non è incluso nel set di risultati.
 
-Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, la raccomandazione potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
+Questa logica ti consente di aumentare le opportunità di vendita incrociata visualizzando una raccomandazione in una pagina di riepilogo del carrello, ad esempio, che mostra gli articoli acquistati anche da altri acquirenti. Ad esempio, se il visitatore sta acquistando un seme, il consiglio potrebbe visualizzare altri articoli acquistati insieme alla tuta, come cravatta, scarpe da vestito e gemelli. Man mano che i visitatori esaminano i loro acquisti, fornisci loro ulteriori consigli.
 
 Se selezioni questo algoritmo, puoi selezionare le seguenti chiavi Recommendations:
 
