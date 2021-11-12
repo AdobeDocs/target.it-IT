@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
 workflow-type: tm+mt
-source-wordcount: '2912'
+source-wordcount: '2920'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 12 | [Integrare [!DNL Recommendations] con e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Sono state aggiunte nuove informazioni introduttive. |
 | 28 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle seguenti versioni:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.7.0 di at.js. |
 |  | [Opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom) | È stata aggiunta la seguente sezione: &quot;Supporto di elementi personalizzati.&quot; |
