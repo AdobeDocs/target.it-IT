@@ -1,19 +1,19 @@
 ---
 keywords: Targeting
-description: Scopri come Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità per ogni esperienza.
+description: Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’incremento, l’affidabilità e l’intervallo di affidabilità per ogni esperienza.
 title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
-feature: Rapporti
+feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '2187'
-ht-degree: 68%
+source-wordcount: '2136'
+ht-degree: 58%
 
 ---
 
 # Tasso di conversione
 
-Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l’affidabilità (rilevanza statistica) e l’intervallo di affidabilità.
+Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l’affidabilità e l’intervallo di affidabilità.
 
 Nell’illustrazione seguente viene mostrata l’intestazione del grafico per un’attività di esempio, in cui sono evidenziate le intestazioni [!UICONTROL Tasso di conversione], [!UICONTROL Incremento] e [!UICONTROL Affidabilità].
 
@@ -45,44 +45,25 @@ Incremento = (TC esperienza - TC controllo) / TS controllo
 
 Se il controllo è uguale a 0, non vi è alcuna percentuale di incremento.
 
-## Affidabilità (rilevanza statistica) {#section_35DB6724813D40C7B0808DE18FE595C1}
-
-Questo numero rappresenta la probabilità che i risultati vengano duplicati se il test venisse eseguito nuovamente. L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
-
-Consulta [Livello di affidabilità e intervallo di affidabilità](/help/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
 
 ## Dati retail {#section_30A674731BA6440E9BB93C421BE990EE}
 
-I dati AOV, RPV e Vendite vengono visualizzati per ogni esperienza se hai inserito una mbox Inserisci ordine (`orderConfirmPage`) e l&#39;hai selezionata come mbox di conversione.
+I dati AOV, RPV e Vendite vengono visualizzati per ogni esperienza se hai inserito un ordine di posizione (`orderConfirmPage`) mbox e l’ha selezionata come mbox di conversione.
 
-## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Intervallo di affidabilità e affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
-Per ogni esperienza vengono visualizzati il livello di affidabilità e l’intervallo di affidabilità.
-
-Le conversioni e le variabili continue per le metriche basate su Target, ad esempio le metriche di ricavi e di coinvolgimento, vengono calcolate nel modo seguente:
-
-* **Conversione:** sì o no
-* **Tutte le altre:** valori compresi in un intervallo
+Per ogni esperienza, vengono visualizzati l’intervallo di affidabilità e affidabilità.
 
 Puoi eseguire calcoli offline per for Target (A4T), ma richiede un passaggio con esportazioni di dati in [!DNL Analytics]Analytics. Per ulteriori informazioni, vedi “Esecuzione di calcoli offline per Analytics for Target (A4T)”, di seguito.
 
-### Livello di affidabilità {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
+### Affidabilità {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-Il *livello di affidabilità* è rappresentato dalla percentuale più scura nella colonna del Tasso di conversione per ogni esperienza.
+L’affidabilità di un’esperienza o di un’offerta visualizzata è una probabilità (espressa in percentuale) di ottenere un risultato meno estremo di quello effettivamente osservato, se l’ipotesi null è vera, ovvero se non c’è differenza nei tassi di conversione tra l’esperienza o l’offerta e l’esperienza/offerta di controllo. In termini di valori p, questa affidabilità visualizzata è 1 - valore p. In parole povere, una maggiore affidabilità indica che i dati sono meno coerenti con il presupposto che l&#39;offerta/esperienza di controllo e non di controllo abbiano tassi di conversione uguali. L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 
-Il livello di affidabilità, o significatività statistica, indica la probabilità che il successo di un’esperienza non fosse casuale. Un livello di affidabilità elevato indica che:
+Prima di prendere qualsiasi decisione di business, attendi di avere un campione sufficientemente grande e che le quattro barre di affidabilità su una o più esperienze rimangano coerenti per un periodo di tempo continuativo, al fine di garantire che i risultati siano stabili.
 
-* Le prestazioni dell’esperienza sono significativamente diverse da quelle dell’esperienza di controllo.
-* Le prestazioni dell’esperienza non sono dovute esclusivamente a elementi di disturbo.
-* Una ripetizione del test restituirebbe probabilmente gli stessi risultati.
-
-Se il livello di affidabilità è superiore al 90% o al 95%, il risultato può essere considerato statisticamente significativo. Prima di prendere qualsiasi decisione di business, attendi di avere un campione sufficientemente grande e che le quattro barre di affidabilità su una o più esperienze rimangano coerenti per un periodo di tempo continuativo, al fine di garantire che i risultati siano stabili.
-
->[!NOTE]
->
->L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
 ### Intervallo di affidabilità {#section_F582738DFE1648C78B93D81EBC6CACF7}
 
@@ -90,11 +71,11 @@ Se il livello di affidabilità è superiore al 90% o al 95%, il risultato può e
 >
 >Attualmente, l’intervallo di affidabilità viene calcolato solo per le metriche binarie.
 
-L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il valore effettivo per un determinato livello di affidabilità. L’intervallo di affidabilità viene visualizzato come una percentuale +/- di colore grigio chiaro nella colonna Tasso di conversione. Nell’esempio riportato di seguito, l’intervallo di affidabilità per l’incremento di Esperienza B è +/-15,65%.
+La *intervallo di confidenza* è un intervallo di stime entro cui il valore reale della metrica può essere trovato a un determinato livello di affidabilità. Target mostra sempre intervalli di affidabilità del 95%. L’intervallo di affidabilità viene visualizzato come una percentuale +/- di colore grigio chiaro nella colonna Tasso di conversione. Nell’esempio riportato di seguito, l’intervallo di affidabilità per l’incremento di Esperienza B è +/-15,65%.
 
 ![](assets/conversion_rate.png)
 
-**Esempio:** il valore RPV di un’esperienza è 10 $, il suo livello di affidabilità è 95% e il suo **intervallo di affidabilità** è compreso tra 5 e 15 $. Se il test venisse eseguito più volte, il 95% delle volte l’RPV sarebbe compreso tra 5 $ e 15 $.
+**Esempio:** Un RPV osservato da un&#39;esperienza è di $ 10, e il suo 95% **intervallo di confidenza** è da 5 a 15 dollari. Sconosciuto per noi, il suo RPV vero è $12. Quindi, se il test è stato eseguito più volte, il 95% delle volte l’intervallo di affidabilità calcolato conterrà il valore _true_ valore del valore RPV di 12 $.
 
 **Che cosa influisce sull’intervallo di affidabilità?** La formula segue metodi statistici standard per il calcolo degli intervalli di affidabilità.
 
@@ -105,7 +86,7 @@ L’*intervallo di affidabilità* rappresenta l’intervallo in cui si trova il 
 
 Il [rapporto CSV scaricato](/help/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-Per calcolare queste metriche calcolate, scarica il file Excel [Complete Confidence Calculator](/help/assets/complete_confidence_calculator.xlsx) di Target per inserire il valore dell&#39;attività oppure controlla i calcoli [statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
+Per calcolare queste metriche calcolate, scarica il [Calcolatore di affidabilità completo](/help/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività o rivedere il [calcoli statistici utilizzati da Target](/help/assets/statistical-calculations.pdf).
 
 >[!NOTE]
 >
@@ -115,7 +96,7 @@ Per calcolare queste metriche calcolate, scarica il file Excel [Complete Confide
 
 Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics].
 
-Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Student, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Questo documento spiega i ](/help/assets/statistical-calculations.pdf) dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
+Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Student, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Questo documento spiega i dettagli](/help/assets/statistical-calculations.pdf) delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
 Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, devi esportare un campione del numero totale di visualizzazioni di pagina per ogni visitatore per un lasso di tempo specificato, come un paio di giorni (servono solo poche migliaia di punti di dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
@@ -189,22 +170,22 @@ Per le attività Personalizzazione automatica (AP) al momento è supportata solo
 
 I test A/B sono esperimenti per confrontare il valore medio di alcune metriche di business in una variante di controllo (nota anche come esperienza) con il valore medio di quella stessa metrica in una o più esperienze alternative.
 
-[!DNL Target] consiglia di utilizzare due test t di  [Student](https://en.wikipedia.org/wiki/Student%27s_t-test#:~:text=The%20t%2Dtest%20is%20any,the%20test%20statistic%20were%20known.) di esempio, in quanto richiedono meno ipotesi rispetto a alternative come i test z, e sono il test statistico appropriato per eseguire confronti a coppie di metriche di business (quantitative) tra esperienze di controllo ed esperienze alternative.
+[!DNL Target] consiglia di utilizzare [Test t di Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test), poiché richiedono meno presupposti rispetto a alternative quali i test z, e rappresentano il test statistico appropriato per eseguire confronti in coppia di metriche di business (quantitative) tra esperienze di controllo ed esperienze alternative.
 
 ### Maggiori dettagli
 
 Quando esegui test A/B online, ogni utente/visitatore viene assegnato in modo casuale a una singola variante. Successivamente, effettuiamo le misurazioni delle metriche aziendali di interesse (ad esempio conversioni, ordini, ricavi, ecc.) per i visitatori in ogni variante. Il test statistico che utilizziamo quindi verifica l&#39;ipotesi che la metrica media di business (ad esempio il tasso di conversione, gli ordini per utente, i ricavi per utente, ecc.) è uguale al controllo e a una determinata variante alternativa.
 
-Anche se la metrica di business stessa potrebbe essere distribuita in base a una distribuzione arbitraria, la distribuzione della media di questa metrica (all&#39;interno di ogni variante) dovrebbe convergere in una distribuzione normale tramite il [Central Limit Theorem](https://en.wikipedia.org/wiki/Central_limit_theorem). Tieni presente che, sebbene non vi sia alcuna garanzia sulla velocità con cui questa distribuzione di campionamento della media converge in normale, questa condizione viene generalmente raggiunta data la portata dei visitatori nei test online.
+Anche se la metrica di business stessa potrebbe essere distribuita in base a qualche distribuzione arbitraria, la distribuzione della media di questa metrica (all’interno di ogni variante) dovrebbe convergere in una distribuzione normale tramite il [Teorema del limite centrale](https://en.wikipedia.org/wiki/Central_limit_theorem). Tieni presente che, sebbene non vi sia alcuna garanzia sulla velocità con cui questa distribuzione di campionamento della media converge in normale, questa condizione viene generalmente raggiunta data la portata dei visitatori nei test online.
 
-Data questa normalità della media, la statistica del test da utilizzare può essere mostrata come segue una distribuzione t, perché è il rapporto tra un valore normalmente distribuito (la differenza nel mezzo della metrica business) e un termine di scala basato su una stima basata sui dati (l&#39;errore standard della differenza nei mezzi). Il **test t di Student** è quindi il test di ipotesi appropriato, dato che la statistica del test segue una distribuzione t.
+Data questa normalità della media, la statistica del test da utilizzare può essere mostrata come segue una distribuzione t, perché è il rapporto tra un valore normalmente distribuito (la differenza nel mezzo della metrica business) e un termine di scala basato su una stima basata sui dati (l&#39;errore standard della differenza nei mezzi). La **test t** è quindi il test di ipotesi appropriato, dato che la statistica del test segue una distribuzione t.
 
 ### Perché non vengono utilizzati altri test
 
-Un **z-test** è inappropriato perché nel tipico scenario di test A/B, il denominatore della statistica del test non è derivato da una varianza nota e deve essere stimato dai dati.
+A **test z** è tecnicamente inappropriato perché nel tipico scenario di test A/B, il denominatore della statistica del test non è derivato da una varianza nota e deve essere stimato dai dati. Tuttavia, per dimensioni di campione sufficienti, le prove z e t sono identiche.
 
-**I** test a chi al quadrato non sono utilizzati perché sono appropriati per determinare se esiste una relazione qualitativa tra due varianti (ossia un’ipotesi nulla che non vi sia alcuna differenza tra le varianti). I test T sono più appropriati per lo scenario di confronto delle metriche _quantitativamente_.
+**Prove a chi al quadrato** non sono utilizzati perché sono appropriati per determinare se esiste una relazione qualitativa tra due varianti (ossia un’ipotesi nulla che non vi sia alcuna differenza tra le varianti). I test T sono più appropriati per lo scenario di _quantitativamente_ confronto delle metriche.
 
-Il **Mann-Whitney U test** è un test non parametrico, appropriato quando la distribuzione del campionamento della metrica media di business (per ogni variante) non viene normalmente distribuita. Tuttavia, come discusso in precedenza, date le dimensioni del traffico coinvolto nei test online, il Central Limit Theorem si applica in genere e quindi il test t può essere applicato in modo sicuro.
+La **Prova U di Mann-Whitney** è un test non parametrico, appropriato quando la distribuzione del campionamento della metrica media d&#39;affari (per ogni variante) non è normalmente distribuita. Tuttavia, come discusso in precedenza, date le dimensioni del traffico coinvolto nei test online, il Central Limit Theorem si applica in genere e quindi il test t può essere applicato in modo sicuro.
 
-Metodi più complessi come **ANOVA** (che generalizzano test t a più di due varianti) possono essere applicati quando un test ha più di due esperienze (&quot;Test A/Bn&quot;). Tuttavia, ANOVA risponde alla domanda &quot;se tutte le varianti hanno la stessa media&quot;, mentre nel tipico test A/Bn siamo più interessati a _quale variante specifica_ è la migliore. In [!DNL Target], quindi applichiamo test t regolari confrontando ogni variante con un controllo, con una correzione Bonferroni per tenere conto di confronti multipli.
+Metodi più complessi come **ANOVA** (che generalizzano test t a più di due varianti) può essere applicato quando un test ha più di due esperienze (&quot;test A/Bn&quot;). Tuttavia, ANOVA risponde alla domanda &quot;se tutte le varianti hanno la stessa media&quot;, mentre nel tipico test A/Bn siamo più interessati _quale variante specifica_ è la migliore. In [!DNL Target]Pertanto, applichiamo test t regolari confrontando ogni variante con un controllo, con una correzione Bonferroni per tenere conto di confronti multipli.

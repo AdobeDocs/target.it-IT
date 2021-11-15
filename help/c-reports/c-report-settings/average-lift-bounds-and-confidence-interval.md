@@ -1,31 +1,31 @@
 ---
 keywords: Target;rapporti;impostazioni dei rapporti;ambiente;incremento;limiti di incremento;varianza;affidabilità;controllo
-description: Scopri come interpretare i rapporti di Adobe [!DNL Target] che includono punti di dati e rappresentazioni di visualizzazione per aiutarti a comprendere i limiti di incremento e il livello di affidabilità delle tue attività.
-title: Come si visualizza l'incremento medio, i limiti di incremento e l'intervallo di affidabilità?
+description: Scopri come interpretare l’Adobe [!DNL Target] rapporti, che includono punti di dati e rappresentazioni di visualizzazione per aiutarti a comprendere i limiti di incremento e il livello di affidabilità delle attività.
+title: Come si visualizza l’incremento medio, i limiti di incremento e l’intervallo di affidabilità?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 905de3cd4f4f660fc7c192a2f68f0660002e47b0
+source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
 workflow-type: tm+mt
-source-wordcount: '836'
-ht-degree: 71%
+source-wordcount: '882'
+ht-degree: 62%
 
 ---
 
 # Incremento medio, limiti di incremento e intervallo di affidabilità
 
-I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione che consentono di comprendere i limiti di incremento e il livello di affidabilità associati all’attività [!DNL Adobe Target] per determinare più accuratamente un vincitore.
+I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione che consentono di comprendere i limiti di incremento e il livello di affidabilità associati al [!DNL Adobe Target] per determinare più accuratamente un vincitore.
 
 >[!NOTE]
 >
->Questa funzione è disponibile solo quando i rapporti vengono visualizzati nella vista [!UICONTROL Tabella] . Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
+>Questa funzione è disponibile solo quando i rapporti vengono visualizzati in [!UICONTROL Tabella] Visualizza. Questa funzionalità non è disponibile per le attività che utilizzano [Analytics come origine per la generazione di rapporti (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE).
 
 ## Interpretare i dati {#section_62C0D7E76F3D49A7B3C371C82AEF27D5}
 
-L&#39;illustrazione seguente mostra le informazioni [!UICONTROL Limiti di incremento e Livello di affidabilità] :
+L&#39;illustrazione seguente mostra [!UICONTROL Limiti di incremento e livello di affidabilità] informazioni:
 
 ![Rapporto di incremento medio e livello di affidabilità](/help/c-reports/c-report-settings/assets/lift-screenshot-new.png)
 
-Le informazioni sull’incremento e sull’affidabilità nell’ interfaccia utente per la generazione di rapporti [!DNL Target] includono:
+Le informazioni sull’incremento e sull’affidabilità nel [!DNL Target] l&#39;interfaccia utente di reportistica include:
 
 ### Incremento
 
@@ -33,23 +33,23 @@ Il numero elevato e la freccia riflettono il valore atteso dell’incremento. Qu
 
 ### Limiti di incremento
 
-Intervallo di affidabilità dell’incremento del 95%. Viene visualizzato come un intervallo, sotto all’incremento medio. Consulta [Esempio di calcolo](#example) di seguito per un esempio di come vengono calcolati questi limiti di incremento.
+Intervallo di affidabilità dell’incremento del 95%. Viene visualizzato come un intervallo, sotto all’incremento medio. Vedi [Esempio di calcolo](#example) di seguito per un esempio di come vengono calcolati questi limiti di incremento.
 
 ### Grafico a trama
 
-Il grafico a box plot nell’ interfaccia [!DNL Target] rappresenta il valore previsto e l’intervallo di affidabilità del 95% della metrica di successo in questione. Immaginalo come una modalità grafica per visualizzare le informazioni sull’incremento e i suoi limiti.
+Il grafico a boxplot nel [!DNL Target] l’interfaccia rappresenta il valore previsto e l’intervallo di affidabilità del 95% della metrica di successo in questione. Immaginalo come una modalità grafica per visualizzare le informazioni sull’incremento e i suoi limiti.
 
-Esistono alcuni modi principali [!DNL Target] per interpretare le informazioni sull’affidabilità, uno dei quali è il colore. Nel grafico, la sovrapposizione tra l’intervallo di affidabilità di un’esperienza specifica e l’intervallo di affidabilità del controllo è indicata in grigio. L’intervallo di affidabilità di un’esperienza specifica superiore o inferiore rispetto a quello del controllo viene invece indicato rispettivamente in verde o rosso.
+Ci sono alcuni modi chiave [!DNL Target] consente di interpretare le informazioni sull’affidabilità, una delle quali è costituita dal colore. Nel grafico, la sovrapposizione tra l’intervallo di affidabilità di un’esperienza specifica e l’intervallo di affidabilità del controllo è indicata in grigio. L’intervallo di affidabilità di un’esperienza specifica superiore o inferiore rispetto a quello del controllo viene invece indicato rispettivamente in verde o rosso.
 
 La lunghezza della barra box plot rappresenta in modo immediato la grandezza dell’intervallo di affidabilità. A seconda dei dati che vengono raccolti nell’attività, la barra si sposta e cambia. L’intervallo di affidabilità è derivato dalla varianza e dalla dimensione del campione (numero di visitatori). Minore è la varianza e maggiore è la dimensione del campione, più ridotto sarà l’intervallo di affidabilità.
 
 ### Affidabilità
 
-L’affidabilità di un’esperienza o di un’offerta rappresenta la probabilità che l’incremento dell’esperienza o dell’offerta a essa associata rispetto all’esperienza o all’offerta di controllo sia “reale” (non casuale). Tipicamente, 95% è il livello consigliato di affidabilità per considerare l’incremento significativo.
+L’affidabilità di un’esperienza o di un’offerta visualizzata è una probabilità (espressa in percentuale) di ottenere un risultato _meno estremo_ rispetto a quello effettivamente osservato, _se l&#39;ipotesi null è vera_, ovvero se non vi è alcuna differenza nei tassi di conversione tra l’esperienza o l’offerta e l’esperienza/offerta di controllo. In termini di valori p, questa affidabilità visualizzata è `1 - p-value`. In parole povere, una maggiore affidabilità indica che i dati sono meno coerenti con il presupposto che l&#39;offerta/esperienza di controllo e non di controllo abbiano tassi di conversione uguali.
 
 ## Comprendere come viene determinato l’intervallo di affidabilità per l’incremento {#pdf}
 
-Scarica il [Intervallo di affidabilità per il file pdf di incremento](/help/assets/confidence_interval_lift.pdf) per ulteriori informazioni.
+Scarica la [Intervallo di affidabilità per il file pdf di incremento](/help/assets/confidence_interval_lift.pdf) per ulteriori informazioni.
 
 ## Come vengono calcolati i limiti di incremento? {#section_1D360781D972483693680BE0F07AEAD1}
 
@@ -109,11 +109,11 @@ Pertanto, i limiti di incremento per l’esperienza B saranno:
 
 >[!NOTE]
 >
->Potrebbero esserci lievi varianze tra i calcoli manuali svolti utilizzando le formule di cui sopra e i numeri visualizzati nel rapporto. La differenza può essere attribuita al fatto che i numeri delle visualizzazioni di pagina utilizzati nei calcoli manuali sono arrotondati. L’incremento mostrato nel rapporto [!DNL Target] si basa sui numeri esatti ottenuti dal coinvolgimento totale e dal conteggio del coinvolgimento. I numeri di coinvolgimento possono essere ottenuti tramite l&#39;API di rapporto sulle prestazioni.
+>Potrebbero esserci lievi varianze tra i calcoli manuali svolti utilizzando le formule di cui sopra e i numeri visualizzati nel rapporto. La differenza può essere attribuita al fatto che i numeri delle visualizzazioni di pagina utilizzati nei calcoli manuali sono arrotondati. L’incremento mostrato nella [!DNL Target] Il rapporto si basa sui numeri esatti ottenuti dal coinvolgimento totale e dal conteggio del coinvolgimento. I numeri di coinvolgimento possono essere ottenuti tramite l&#39;API di rapporto sulle prestazioni.
 
 ## Quando non vengono visualizzati i limiti di incremento? {#section_C5622E1E94684DAD937249B51A9E42CC}
 
 In alcuni casi, [!DNL Target] non visualizza i limiti di incremento:
 
 * Per qualsiasi attività, quando il numero totale di visite o visitatori è inferiore a 30.
-* Per le attività [!UICONTROL Allocazione automatica] , non vengono visualizzati limiti di incremento finché un’esperienza non raggiunge un livello di affidabilità del 60%.
+* Per [!UICONTROL Allocazione automatica] attività, non vengono visualizzati limiti di incremento finché un’esperienza non raggiunge il 60% di affidabilità.
