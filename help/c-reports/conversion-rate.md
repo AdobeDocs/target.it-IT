@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’i
 title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '2136'
+source-wordcount: '2138'
 ht-degree: 58%
 
 ---
@@ -50,7 +50,7 @@ Se il controllo è uguale a 0, non vi è alcuna percentuale di incremento.
 
 I dati AOV, RPV e Vendite vengono visualizzati per ogni esperienza se hai inserito un ordine di posizione (`orderConfirmPage`) mbox e l’ha selezionata come mbox di conversione.
 
-## Intervallo di affidabilità e affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
+## Livello di affidabilità e intervallo di affidabilità {#concept_0D0002A1EBDF420E9C50E2A46F36629B}
 
 Per ogni esperienza, vengono visualizzati l’intervallo di affidabilità e affidabilità.
 
@@ -58,7 +58,9 @@ Puoi eseguire calcoli offline per for Target (A4T), ma richiede un passaggio con
 
 ### Affidabilità {#section_26FE5E44BDD5478792A65FCFD83DCCDC}
 
-L’affidabilità di un’esperienza o di un’offerta visualizzata è una probabilità (espressa in percentuale) di ottenere un risultato meno estremo di quello effettivamente osservato, se l’ipotesi null è vera, ovvero se non c’è differenza nei tassi di conversione tra l’esperienza o l’offerta e l’esperienza/offerta di controllo. In termini di valori p, questa affidabilità visualizzata è 1 - valore p. In parole povere, una maggiore affidabilità indica che i dati sono meno coerenti con il presupposto che l&#39;offerta/esperienza di controllo e non di controllo abbiano tassi di conversione uguali. L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
+L’affidabilità di un’esperienza o di un’offerta visualizzata è una probabilità (espressa in percentuale) di ottenere un risultato meno estremo di quello effettivamente osservato, se l’ipotesi null è vera (in sostanza, se non c’è differenza nei tassi di conversione tra l’esperienza o l’offerta e l’esperienza/offerta di controllo). In termini di valori p, questa affidabilità visualizzata è 1 - valore p. In parole povere, una maggiore affidabilità indica che i dati sono meno coerenti con il presupposto che l&#39;offerta/esperienza di controllo e non di controllo abbiano tassi di conversione uguali.
+
+L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
 ![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
 

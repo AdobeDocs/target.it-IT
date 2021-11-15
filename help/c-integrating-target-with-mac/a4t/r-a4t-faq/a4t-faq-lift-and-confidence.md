@@ -4,9 +4,9 @@ description: Trova risposte alle domande su incremento e affidabilità durante l
 title: Dove posso trovare informazioni su incremento e affidabilità con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 4e3a94554dd9c1e8cc6e98eda10d454536bc9b1f
+source-git-commit: 36c1a897c159b5662a4a2a6127f8bcabbd7101b8
 workflow-type: tm+mt
-source-wordcount: '527'
+source-wordcount: '536'
 ht-degree: 29%
 
 ---
@@ -40,7 +40,7 @@ Esempi di metriche o casi d’uso non supportati sono:
 
 ## Come gestisce A4T i calcoli di affidabilità? {#section_66115EAF1BA34F7A8FCED7B08DA4F99C}
 
-A4T calcola valori di affidabilità/p in un modo diverso dai normali test t utilizzando metriche binarie. In particolare, i calcoli utilizzati da A4T consentono a ogni utente di ottenere un risultato metrico continuo (non solo 1 o 0 per ogni utente), in modo che la varianza (o, in modo relativo, la deviazione standard) per ogni esperienza debba essere calcolata esattamente. Gli ordini estremi non vengono considerati. Inoltre, il calcolo dell’affidabilità non applica una correzione Bonferroni per offerte multiple.
+[!DNL Adobe Analytics] tratta tutte le metriche come non binarie e quindi calcola valori di affidabilità/p in un modo diverso dall’uso delle metriche binarie in un normale test t. In particolare, i calcoli utilizzati da A4T consentono a ogni utente di ottenere un risultato metrico continuo (non solo 1 o 0 per ogni utente), in modo che la varianza (o, in modo relativo, la deviazione standard) per ogni esperienza debba essere calcolata in modo appropriato. Gli ordini estremi non vengono considerati. Inoltre, il calcolo dell’affidabilità non applica una correzione Bonferroni per offerte multiple.
 
 ## L’incremento e l’affidabilità funzionano in Ad Hoc e Report Builder? Se non sono funzioni native, posso intervenire io? {#section_D8BB69AE700B4C5CB5FD28DB51F9A4E9}
 
