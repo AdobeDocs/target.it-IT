@@ -4,9 +4,9 @@ description: Scopri come utilizzare i dati dei clienti aziendali da un database 
 title: Cosa sono gli attributi del cliente e come li utilizzo?
 feature: Audiences
 exl-id: 4a36230a-ae86-42a2-b6fe-60e7ab45e1a8
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: 19b012a0fcbf5195b12990f0a634a90597850899
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1571'
 ht-degree: 35%
 
 ---
@@ -31,7 +31,7 @@ Considera le seguenti informazioni mentre lavori con gli attributi del cliente e
 * Tieni presente le limitazioni relative al caricamento dei file, come documentato in [Informazioni su file di dati e origini dati per Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in *Guida ai componenti dell’interfaccia centrale di Experience Cloud*. Come best practice:
 
    * Caricare singoli file di grandi dimensioni (all&#39;interno del [limiti](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en)). I file singoli di grandi dimensioni sono preferiti rispetto a più file più piccoli.
-   * Se devi dividere il caricamento in più file, assicurati che i file siano elaborati completamente prima di inviare i nuovi file e assicurati che siano trascorsi almeno 30 minuti tra più caricamenti.
+   * Se devi dividere il caricamento in più file, assicurati che i file siano completamente elaborati prima di inviare i nuovi file. Verificare che ogni file di un batch sia completamente elaborato prima di inviare il batch successivo.
 
 * [!DNL Adobe] non garantisce che il 100% dei dati dell’attributo del cliente (profilo visitatore) provenienti dai database CRM sia integrato nel [!DNL Experience Cloud] e, quindi, possono essere utilizzati per il targeting in [!DNL Target]. Nella progettazione attuale, è possibile che una piccola percentuale di dati (fino allo 0,1% dei batch di produzione di grandi dimensioni) potrebbe non essere integrata.
 * Durata dei dati degli attributi del cliente importati da [!DNL Experience Cloud] a [!DNL Target] dipende dalla durata del profilo del visitatore, che per impostazione predefinita è di 14 giorni. Per ulteriori informazioni, consulta [Durata del profilo del visitatore](/help/c-target/c-visitor-profile/visitor-profile-lifetime.md#concept_D9F21B416F1F49159F03036BA2DD54FD).
