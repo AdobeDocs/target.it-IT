@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0a39adb3194acf4d5c4827658aff008db5248f33
+source-git-commit: b063432da8690a25c3178c286075b7c930fe4891
 workflow-type: tm+mt
-source-wordcount: '2920'
-ht-degree: 98%
+source-wordcount: '2976'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 16 | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | È stato aggiornato &quot;In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?&quot; con informazioni sulla versione più recente dell&#39;estensione helper. |
+|  | [Estensione Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata la sezione &quot;Ottieni e installa l’estensione VEC Helper per browser&quot;. |
 | Novembre 12 | [Integrare [!DNL Recommendations] con e-mail](/help/c-recommendations/c-recommendations-faq/integrating-recs-email.md) | Sono state aggiunte nuove informazioni introduttive. |
 | 28 ottobre | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulle seguenti versioni:<ul><li>at.js 2.7.0</li><li>[!DNL Adobe Target Standard/Premium] 21.10.5.</li></ul> |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.7.0 di at.js. |
