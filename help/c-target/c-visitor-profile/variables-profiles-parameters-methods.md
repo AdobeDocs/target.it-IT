@@ -2,13 +2,12 @@
 keywords: variabili;profili;parametri;profili incorporati;metodi;variabili URL;profili geo;profili di terze parti;variabili mbox;variabili di campagna;attributi dei clienti
 description: Visualizza un elenco di vari profili, variabili e parametri utili negli script di profilo in Adobe Target.
 title: Quali profili, variabili e parametri vengono utilizzati in Target?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 96ef9a56-fe76-428e-a164-c01829fdf45d
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '593'
-ht-degree: 88%
+source-wordcount: '592'
+ht-degree: 86%
 
 ---
 
@@ -85,11 +84,11 @@ Questa pagina elenca i profili, le variabili e i parametri utili negli script de
 | Parametri passati con mbox di ordine:<ul><li>mbox.param(&#39;orderId&#39;)</li><li>mbox.param(&#39;orderTotal&#39;)</li><li>mbox.param(&#39;productPurchasedId&#39;)</li></ul> |
 | mbox3rdPartyId | Parametro mbox per sincronizzare un ID cliente per mboxPCID di Target. Un ID cliente è un ID utilizzato dalla società per tenere traccia dei visitatori, ad esempio un ID CRM, un ID di appartenenza o qualcosa di simile. Questo ID può quindi essere utilizzato per aggiungere informazioni tramite le API di profilo e [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md). |
 | mboxPageValue | In ogni mbox chiamata alla pagina viene assegnato un valore. |
-| mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all&#39;URL della pagina in cui lo cerca il mbox.js. |
+| mboxDebug | Utilizzato solo per informazioni di debug. Aggiunto all’URL della pagina in cui lo cerca at.js. |
 | mboxOverride.browserIp | Imposta un geo diverso rispetto alla posizione effettiva in modo da poter testare come qualcosa apparirebbe in un&#39;altra posizione.<br>**Nota:** l&#39;utilizzo dei parametri mboxOverride deve essere utilizzato solo durante il test dell&#39;attività e non in produzione. L’utilizzo di eventuali parametri  mboxOverride  può causare discrepanze nella creazione di rapporti quando si utilizza [Analytics for Target](/help/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Utilizza la [modalità di controllo qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) durante il test per garantire che l’attività funzioni come previsto prima di pubblicarla nell’ambiente live. |
 
 ## Attributi del cliente {#section_62B4821EB6564FF4A14159A837AD4EDB}
 
 Gli attributi del cliente possono essere indicati in script di profilo, formattati come `crs.get('<Datasource Name>.<Attribute name>')`.
 
-Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Tieni presente che gli spazi nel `datasourceName` devono essere rimossi da qualsiasi chiamata API.
+Questi attributi sono disponibili anche come token negli script di profilo e direttamente nelle offerte senza prima richiedere uno script di profilo. Il token deve essere nel formato: `${crs.datasourceName.attributeName}`. Gli spazi nel `datasourceName` deve essere rimosso da qualsiasi chiamata API.

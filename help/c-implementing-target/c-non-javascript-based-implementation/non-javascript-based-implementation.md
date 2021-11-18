@@ -1,14 +1,14 @@
 ---
-keywords: Implementazione;mbox.js non JavaScript;adbox;redirector;mbox
-description: Scopri come implementare Adobe [!DNL Target] in scenari non JavaScript, ad esempio l’utilizzo di un AdBox o di un redirector.
+keywords: Implementazione;at.js non JavaScript;adbox;redirector;mbox
+description: Scopri come implementare Adobe [!DNL Target] in scenari non JavaScript, ad esempio l'utilizzo di un AdBox o di un redirector.
 title: Come si implementa [!DNL Target] per e-mail?
-feature: Implementa e-mail
+feature: Implement Email
 role: Developer
 exl-id: 3287cf3d-3ed4-471f-aa06-25bb12e23ead
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '435'
-ht-degree: 81%
+source-wordcount: '432'
+ht-degree: 78%
 
 ---
 
@@ -16,9 +16,9 @@ ht-degree: 81%
 
 Informazioni sull’implementazione di Target in scenari non JavaScript, ad esempio l’utilizzo di un AdBox o di un redirector.
 
-È possibile tenere traccia delle visite agli annunci e ad altri contenuti fuori sito. Puoi inoltre identificare lo stesso utente sul sito e all&#39;esterno di esso, per fornirgli un&#39;esperienza web coerente. Utilizzando un&#39;unica URL, l&#39;AdBox consente il test senza JavaScript, [!DNL at.js] o [!DNL mbox.js].
+È possibile tenere traccia delle visite agli annunci e ad altri contenuti fuori sito. Puoi inoltre identificare lo stesso utente sul sito e all&#39;esterno di esso, per fornirgli un&#39;esperienza web coerente. Utilizzando un singolo URL, l&#39;AdBox consente il test senza JavaScript o [!DNL at.js].
 
-Un AdBox è utile per i siti che non hanno [!DNL at.js], come gli affiliati. Se la tua attività richiede una creatività dinamica (ad esempio, nell&#39;annuncio è necessario mostrare un prodotto che è stato abbandonato nel carrello), non è possibile utilizzare un AdBox.
+Un AdBox è utile per i siti privi di [!DNL at.js], ad esempio affiliati. Se la tua attività richiede una creatività dinamica (ad esempio, nell&#39;annuncio è necessario mostrare un prodotto che è stato abbandonato nel carrello), non è possibile utilizzare un AdBox.
 
 Gli annunci AdBox e i Redirector possono essere utilizzati con qualsiasi tipo di attività. La tabella seguente mette a confronto AdBox e Redirector, e il loro utilizzo:
 

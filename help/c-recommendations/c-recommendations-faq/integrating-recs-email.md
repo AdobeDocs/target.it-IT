@@ -4,10 +4,10 @@ description: Scopri come integrare le e-mail con le API di consegna di Adobe [!D
 title: Come posso integrare Consigli con l’e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: cd7b60ce00d9890cf7e84047621641fb9e8d2c8f
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1711'
-ht-degree: 81%
+source-wordcount: '1712'
+ht-degree: 80%
 
 ---
 
@@ -82,7 +82,7 @@ Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](http
 
 ## Metodo 2: Utilizzare un modello e-mail rawbox {#rawbox}
 
-Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Poiché non disponi di [!DNL mbox.js] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
+Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Perché non hai il [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] per utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
 
 >[!NOTE]
 >

@@ -4,9 +4,9 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 4a4a0a3178c40288214bdfb0fa16f7ba83ed39cc
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1630'
 ht-degree: 68%
 
 ---
@@ -56,7 +56,7 @@ Sono disponibili i seguenti parametri:
 
 | Opzioni mboxTrace | Risultato |
 |--- |--- |
-| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js, è necessario controllare la richiesta di rete e guardare in Anteprima (Chrome) o Risposta (Firefox). |
+| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js (ora obsoleto), devi controllare la richiesta di rete e cercare in Anteprima (Chrome) o Risposta (Firefox). |
 | `?mboxTrace=json` | Visualizzazione nel registro della console come stringa letterale JSON |
 | `?mboxTrace=window` | Visualizzazione in una finestra popup come stringa JSON |
 | `?mboxTrace=disable` | Disattiva la modalità di sessione di tracciamento |
@@ -170,7 +170,7 @@ Per includere regole di modello aggiuntive, è possibile utilizzare le seguenti 
 
 ### Opzione 1: Replicare l&#39;URL e mantenerlo nella regola del modello con l&#39;opzione &quot;contiene&quot;.
 
-Questa opzione assicura che questo URL sia idoneo per l’attività, ma tieni presente che sono presenti casi d’angolo ad esso associati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
+Questa opzione assicura che questo URL sia idoneo per l’attività, ma tieni presente che sono presenti casi d’angolo ad esso collegati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
 
 In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive &quot;contiene&quot; lo stesso URL, separate da un operatore OR:
 

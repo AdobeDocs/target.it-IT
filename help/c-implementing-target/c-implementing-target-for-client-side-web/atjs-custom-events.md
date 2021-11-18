@@ -1,15 +1,14 @@
 ---
 keywords: eventi personalizzati;at.js;richiesta non riuscita;richiesta riuscita;rendering contenuti non riuscito;rendering contenuti riuscito;libreria caricata;richiedi riavvio;inizio rendering contenuti;rendering contenuti senza offerte;reindirizzamento rendering contenuti
-description: Utilizza eventi personalizzati per la libreria JavaScript Adobe [!DNL Target] at.js per ricevere notifiche quando una richiesta o un'offerta mbox ha esito negativo o positivo.
+description: Utilizzare eventi personalizzati per l’Adobe [!DNL Target] Libreria JavaScript at.js da notificare quando una richiesta o un’offerta mbox ha esito negativo o positivo.
 title: Come si utilizzano gli eventi personalizzati at.js?
 feature: at.js
 role: Developer
 exl-id: 4073210b-b782-48a7-8b69-29eb5cd98fd5
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '655'
-ht-degree: 87%
+source-wordcount: '656'
+ht-degree: 83%
 
 ---
 
@@ -17,7 +16,7 @@ ht-degree: 87%
 
 Informazioni su `at.js custom events`, che consente di sapere quando una richiesta o un’offerta mbox ha esito negativo o positivo.
 
-Storicamente, mbox.js non ha permesso di sapere ad altri codici JavaScript in esecuzione sulla pagina cosa succede dietro le quinte. Con l&#39;avanzamento di at.js, abbiamo avuto un&#39;occasione unica per risolvere questo problema.
+Storicamente, mbox.js (ora obsoleto) non ha permesso ad altri codici JavaScript in esecuzione sulla pagina di sapere cosa succede dietro le quinte. Con l&#39;avanzamento di at.js, abbiamo avuto un&#39;occasione unica per risolvere questo problema.
 
 I nostri clienti richiedono di essere informati in diversi scenari, tra cui:
 
@@ -38,7 +37,7 @@ Per assicurarti che gli eventi possano essere usati in scenari diversi, gli even
 | mbox | Stringa | Nome Mbox |
 | message | Stringa | Contiene una descrizione leggibile, come l&#39;accaduto, il messaggio di errore, ecc. |
 | tracking | Oggetto | Contiene `sessionId` e `deviceId`. In alcuni casi, `deviceId` potrebbe mancare perché [!DNL Target] non è riuscito a recuperarlo dal server Edge. |
-| type | Stringa | **Artefatto decisionale su dispositivo**<br> riuscitoConstant:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>Valore stringa:  `artifactDownloadSucceeded`<br>Descrizione: Chiamata eseguita quando l&#39;artefatto decisionale del dispositivo viene scaricato correttamente.<br>**Artefatto**<br> fallimentareConstant nelle decisioni sul dispositivo:  `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Valore stringa:  `artifactDownloadFailed`<br>Descrizione: Chiamato quando l&#39;artifact di decisione sul dispositivo non è stato scaricato. |
+| type | Stringa | **Artefatto decisionale su dispositivo completato**<br> Costante:<br>`adobe.target.event.ARTIFACT_DOWNLOAD_SUCCEEDED`<br>Valore stringa: `artifactDownloadSucceeded`<br>Descrizione: Chiamata eseguita quando l&#39;artefatto decisionale del dispositivo viene scaricato correttamente.<br>**Artefatto decisionale su dispositivo non riuscito**<br> Costante: `adobe.target.event.ARTIFACT_DOWNLOAD_FAILED`<br>Valore stringa: `artifactDownloadFailed`<br>Descrizione: Chiamato quando l&#39;artifact di decisione sul dispositivo non è stato scaricato. |
 
 ## Utilizzo {#section_0500FF09D3A04450B5DC8F85C6F793E0}
 
@@ -48,7 +47,7 @@ document.addEventListener(adobe.target.event.REQUEST_SUCCEEDED, function(event) 
 });
 ```
 
-## Video di formazione: Token di risposta ed eventi personalizzati at. js ![Badge tutorial](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
+## Video di formazione: Token di risposta ed eventi personalizzati at.js ![Badge tutorial](/help/assets/tutorial.png) {#section_ED304A7137DC42A4BDCD6D57C989F1FA}
 
 Guarda il video seguente e scopri come utilizzare i token di risposta e gli eventi personalizzati at.js per condividere le informazioni del profilo da Target a sistemi di terze parti.
 

@@ -2,12 +2,12 @@
 keywords: contatti;note legali;supporto tecnico;assistenza tecnica;supporto;servizio;funzionalità;fatturazione;feedback
 description: Informazioni sulle risorse aggiuntive per scoprire di più sulle funzionalità di Adobe  [!DNL Target]  e su come contattare Adobe in caso di necessità di assistenza con  [!DNL Target].
 title: Dove posso trovare risorse e informazioni di contatto per Target?
-feature: Note sulla versione, Panoramica
+feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: dd20791535e47c83d0f0ac60addfe0888748f86a
-workflow-type: ht
-source-wordcount: '1222'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '1221'
+ht-degree: 99%
 
 ---
 
@@ -48,7 +48,7 @@ Le attuali sessioni registrate di Target includono:
 | [Workspaces di Target Premium](https://helpx.adobe.com/it/customer-care-office-hours/target/premium-workspaces.html)<br>27:49<br>4 settembre 2018 | Contenuti:<ul><li>Creare un’area di lavoro (profilo prodotto)</li><li>Creazione delle proprietà</li><li>Aggiunta di utenti</li><li>Aggiornamento dell’implementazione</li></ul>Per ulteriori informazioni, consulta [Autorizzazioni per gli utenti Enterprise](/help/administrating-target/c-user-management/property-channel/property-channel.md). |
 | [Compositore esperienza visivo (VEC)](https://helpx.adobe.com/it/customer-care-office-hours/target/visual-experience-composer.html)<br>50:23<br>dicembre 2017 | Contenuti:<ul><li>Funzionamento del Compositore esperienza visivo</li><li>Come evitare i problemi più comuni con Compositore esperienza visivo</li><li>Procedure utili che puoi utilizzare con Compositore esperienza visivo</li></ul>Per ulteriori informazioni su questo manuale, vedi [Esperienze](/help/c-experiences/experiences.md). |
 | [Adobe Target: integrazione di Analytics per Target (A4T)](https://helpx.adobe.com/it/customer-care-office-hours/target/analytics-target-A4T-integration.html)<br> 40:33<br>gennaio 2018 | Contenuti:<ul><li>Configurare e convalidare il funzionamento dell&#39;integrazione </li><li>Funzionamento dell&#39;integrazione</li><li>Informazioni sui rapporti ideali da utilizzare in Analytics</li><li>Risposte alle domande più frequenti su A4T</li></ul>Per ulteriori informazioni su questo manuale, vedi [Adobe Analytics come origine per la generazione di rapporti per Adobe Target (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md). |
-| [at.js - Vantaggi e best practice per l’implementazione](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>aprile 2018 | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto mbox.js</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul> |
+| [at.js - Vantaggi e best practice per l’implementazione](https://helpx.adobe.com/it/customer-care-office-hours/target/at-js-advantages-implementation-best-practices.html)<br>26:43<br>aprile 2018 | Contenuti: <ul><li>Funzionamento della libreria at.js</li><li>Vantaggi di at.js rispetto a mbox.js obsoleto</li><li>Gestione at.js della visualizzazione momentanea di altri contenuti</li><li>Gestione degli errori in at.js</li><li>Metodi di debug</li><li>Problemi noti e percorsi futuri</li></ul> |
 
 >[!NOTE]
 >

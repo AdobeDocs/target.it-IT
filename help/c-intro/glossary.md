@@ -1,12 +1,12 @@
 ---
 description: Cosa significano i vari termini utilizzati in Adobe  [!DNL Target] ? Scopri le definizioni dei termini più comuni, per sfruttare al meglio  [!DNL Target].
 title: Dove posso trovare termini e definizioni utilizzati in Target?
-feature: Panoramica
+feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: 3c79b2ce70e456275ddf6774a35ae5c36f0ae99d
-workflow-type: ht
-source-wordcount: '2417'
-ht-degree: 100%
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+workflow-type: tm+mt
+source-wordcount: '2425'
+ht-degree: 99%
 
 ---
 
@@ -226,7 +226,11 @@ Un&#39;area di contenuto specifica su una pagina, spesso inserita in un singolo 
 
 **mbox**
 
-“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di mbox è detta *mbox di conversione*.
+“Marketing box,” la posizione nella pagina Web in cui viene visualizzato il contenuto e registrato il comportamento dei visitatori. Alcuni elementi mbox non visualizzano nulla. Possono ad esempio monitorare i movimenti di un visitatore all&#39;interno del sito Web o verificare se il visitatore abbia completato una metrica di successo specifica, ad esempio l&#39;aggiunta di un elemento al carrello o la finalizzazione di un acquisto. Questo tipo di elemento mbox è detto *mbox di conversione*.
+
+**mbox.js**
+
+A [!DNL Target] Libreria di implementazione JavaScript obsoleta.
 
 **parametro mbox**
 

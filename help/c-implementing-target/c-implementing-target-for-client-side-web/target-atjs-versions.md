@@ -4,9 +4,9 @@ description: Visualizza i dettagli delle modifiche in ogni versione dell’Adobe
 title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
-source-wordcount: '4278'
+source-wordcount: '4280'
 ht-degree: 88%
 
 ---
@@ -435,7 +435,7 @@ I seguenti miglioramenti e correzioni sono inclusi nella versione 0.9.6 di [!DNL
 **Data:** 14 luglio 2016
 
 * Fornisce a at.js un timeout per il servizio ID visitatore, indipendente dal timeout proprio del servizio.
-* Corregge un problema in 0.9.0 che influenzava le implementazioni che usavano at.js su alcune pagine e mbox.js su altre.
+* Corregge un problema in 0.9.0 che influenzava le implementazioni che usavano at.js su alcune pagine e mbox.js (ora obsoleto) su altre.
 * Se utilizzi Adobe Analytics come origine per la generazione di rapporti dell’attività e la versione 61 (o successiva) di mbox.js o la versione 0.9.1 (o successiva) di at.js, non è necessario specificare un server di tracciamento durante la creazione di attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di tracciamento] nella pagina [!UICONTROL Obiettivi e impostazioni].
 
 ## at.js versione 0.9.0 {#section_2981CC9792F245389B39BB5B69F84C4E}
