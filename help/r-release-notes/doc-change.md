@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 885510848b141b646971658e2fd20440d2344efc
+source-git-commit: ace63c1cb6818ad01feed8087673adc4899a3b8f
 workflow-type: tm+mt
-source-wordcount: '3017'
+source-wordcount: '3045'
 ht-degree: 95%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Novembre 18 | [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stata aggiunta una nota nella riga Mbox che indica che le mbox non sono più supportate nel [!UICONTROL Compositore esperienza visivo] (VEC) nelle pagine che utilizzano at.js 2.*x*. |
 | Novembre 16 | [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sono state aggiunte informazioni sulle limitazioni relative al caricamento di file con un collegamento a [Informazioni su file di dati e origini dati per Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=en) in *Guida ai componenti dell’interfaccia centrale di Experience Cloud*. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md) | È stato aggiornato &quot;In che modo i criteri di implementazione dei cookie SameSite di Google Chrome influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?&quot; con informazioni sulla versione più recente dell&#39;estensione helper. |
 |  | [Estensione Adobe Target VEC Helper](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata la sezione &quot;Ottieni e installa l’estensione VEC Helper per browser&quot;. |
