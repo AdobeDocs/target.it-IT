@@ -5,9 +5,9 @@ title: Cosa sono i token di risposta e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
 workflow-type: tm+mt
-source-wordcount: '1613'
+source-wordcount: '1620'
 ht-degree: 27%
 
 ---
@@ -57,7 +57,7 @@ Una differenza fondamentale tra plug-in e token di risposta è che i plug-in dis
    |  | `profile.thirdPartyId` | Restituisce l’ID di terze parti del visitatore. |
    |  | `profile.categoryAffinity` | Restituisce la categoria preferita del visitatore. |
    |  | `profile.categoryAffinities` | Restituisce una matrice delle 5 categorie principali del visitatore, sotto forma di stringhe. |
-   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`option.name`<br>`option.id` | Dettagli dell’attività corrente. “Opzione” equivale a “offerta”. |
+   | Attività | `activity.name`<br>`activity.id`<br>`experience.name`<br>`experience.id`<br>`offer.name`<br>`offer.id` | Dettagli dell’attività corrente.<br> Tieni presente che i valori per i parametri dell’offerta vengono valutati a livello di esperienza. |
    | Geo | `geo.country`<br>`geo.state`<br>`geo.city`<br>`geo.zip`<br>`geo.dma`<br>`geo.domainName`<br>`geo.ispName`<br>`geo.connectionSpeed`<br>`geo.mobileCarrier` | Consulta [Geo](/help/c-target/c-audiences/c-target-rules/geo.md) per ulteriori informazioni sull’utilizzo del geotargeting nelle attività. |
    | Metodo di allocazione traffico<br>(Si applica a [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] solo attività.) | `experience.trafficAllocationId` | Restituisce 0 se un visitatore ha ricevuto un’esperienza dal traffico &quot;di controllo&quot; e 1 se ha ricevuto un’esperienza dalla distribuzione del traffico &quot;mirata&quot;. |
    |  | `experience.trafficAllocationType` | Restituisce &quot;control&quot; o &quot;target&quot;. |
