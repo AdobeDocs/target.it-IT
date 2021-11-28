@@ -4,9 +4,9 @@ description: Scopri come trasmettere dati dinamici a [!DNL Adobe Target] Offerte
 title: Come faccio a trasmettere i dati dinamici alle offerte?
 feature: Experiences and Offers
 exl-id: b8f9c6eb-1000-41a2-aa3f-bc42c1ef5669
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: ae4b2e85db508e4ef00f8ed4c59e0e35782708b6
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '531'
 ht-degree: 63%
 
 ---
@@ -81,4 +81,4 @@ Puoi inoltre usare le funzioni escape e unescape per visualizzare i valori. Se i
 
 Per i parametri di offerta (offer.name, offer.id) utilizzati nel contenuto di un’offerta:
 
-Se l’offerta è uno dei diversi set di un’esperienza, il valore dell’ultima offerta aggiunta popola il valore del parametro. Ciò significa che questi parametri vengono valutati a livello di esperienza.
+Se l’offerta è una delle diverse offerte impostate su un’esperienza, il valore dell’ultima offerta aggiunta popola il valore del parametro. Ciò significa che questi parametri vengono valutati a livello di esperienza.
