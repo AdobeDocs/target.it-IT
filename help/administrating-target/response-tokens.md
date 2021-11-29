@@ -5,10 +5,10 @@ title: Cosa sono i token di risposta e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 8016425901e76487ce3fa469e8e114e18448d2c6
+source-git-commit: 20b0f7e0eddcf40d5ea891e03e7c7c891d952b8c
 workflow-type: tm+mt
-source-wordcount: '1620'
-ht-degree: 27%
+source-wordcount: '1631'
+ht-degree: 26%
 
 ---
 
@@ -42,7 +42,7 @@ Una differenza fondamentale tra plug-in e token di risposta è che i plug-in dis
 
    ![](assets/response_tokens-new.png)
 
-1. Attiva i token di risposta desiderati, ad esempio `activity.id` e `option.id`.
+1. Attiva i token di risposta desiderati, ad esempio `activity.id` e `offer.id`.
 
    Per impostazione predefinita sono disponibili i seguenti parametri:
 
@@ -435,8 +435,8 @@ L’equivalente del plug-in ttMeta per scopi di debug può essere creato aggiung
         'CampaignId' : token["activity.id"], 
         'RecipeName': token["experience.name"], 
         'RecipeId': token["experience.id"], 
-        'OfferId': token["option.id"], 
-        'OfferName': token["option.name"], 
+        'OfferId': token["offer.id"], 
+        'OfferName': token["offer.name"], 
         'MboxName': e.detail.mbox}); 
       console.log(ttMETA); 
     }); 
@@ -471,5 +471,7 @@ Il video seguente spiega come utilizzare i token di risposta e gli eventi person
 >[!NOTE]
 >
 >La [!DNL Target] [!UICONTROL Amministrazione] interfaccia utente del menu (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni si trovano in posizioni leggermente diverse.
+>
+>Il video cita `option.name` e `option.id`che sono stati sostituiti con `offer.name` e `offer.id`, rispettivamente.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23253/)
