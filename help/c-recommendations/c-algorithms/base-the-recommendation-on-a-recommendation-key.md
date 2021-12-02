@@ -5,9 +5,9 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 48cdfce8ed39e2bf2cc2d808484db5cf996b57d7
 workflow-type: tm+mt
-source-wordcount: '3894'
+source-wordcount: '3937'
 ht-degree: 40%
 
 ---
@@ -168,7 +168,7 @@ Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete seleziona
 
 ### Metrica di Analytics in alto
 
-(Informazioni disponibili a breve)
+Visualizza &quot;Top x&quot; dove x è arbitrario [!DNL Analytics] metrica. Quando utilizzi i dati comportamentali provenienti dalle mbox, puoi utilizzare solo Top Sold o Top Viewed (x = &quot;Sold&quot; o x = &quot;Viewed&quot;). Se utilizzi dati comportamentali da [!DNL Adobe Analytics], puoi utilizzare x = &quot;Aggiunte al carrello&quot; o altri [!DNL Analytics] metrica.
 
 ## [!UICONTROL Basato su articolo]
 
