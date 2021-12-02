@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '1153'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -44,7 +44,7 @@ Questa versione di manutenzione include i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md)e &quot;Basato su carrello&quot; in [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta la sezione &quot;In base al carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), le sezioni &quot;Aggiunte al carrello, visualizzazioni carrello e pagine dipagamento&quot; ed &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare le attività Consigli](/help/c-recommendations/plan-implement.md) e la sezione &quot;In base al carrello&quot; in [Basare i consigli su una chiave di consigli](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ## [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 

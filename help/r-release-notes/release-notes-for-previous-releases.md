@@ -7,7 +7,7 @@ exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
 source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
 workflow-type: tm+mt
 source-wordcount: '32584'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -43,7 +43,7 @@ Questa versione di manutenzione include i seguenti miglioramenti:
 
 | Funzione | Dettagli |
 | --- | --- |
-| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta &quot;Basato su carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), &quot;Il carrello aggiunge/visualizza carrello/pagine di pagamento&quot; e &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare Recommendations](/help/c-recommendations/plan-implement.md)e &quot;Basato su carrello&quot; in [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
+| Consigli in base al carrello | È stata aggiunta una nuova famiglia di algoritmi per distribuire consigli in base al contenuto del carrello del visitatore.<br>Per ulteriori informazioni, consulta la sezione &quot;In base al carrello&quot; in [Creare criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md), le sezioni &quot;Aggiunte al carrello, visualizzazioni carrello e pagine dipagamento&quot; ed &quot;Escludi elementi già presenti nel carrello del visitatore&quot; in [Pianificare e implementare le attività Consigli](/help/c-recommendations/plan-implement.md) e la sezione &quot;In base al carrello&quot; in [Basare i consigli su una chiave di consigli](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md). |
 
 ### [!DNL Target Standard/Premium] 21.10.3 (19 ottobre 2021)
 
@@ -2470,11 +2470,11 @@ La versione 16.7.1 di Adobe Target Standard/Premium (21 luglio 2016) prevede le 
    <td colname="col1"> Impostazioni prioritarie per le attività </td> 
    <td colname="col2"> <p>È ora possibile impostare livelli di priorità da 0 a 999 per le attività. Questo permette un controllo più preciso sull'attività da visualizzare quando vengono assegnate più attività allo stesso percorso con lo stesso pubblico. </p> <p>Questa opzione deve essere attivata in <span class="wintitle">Amministrazione</span> &gt; <span class="wintitle">Generazione rapporti</span>. </p> <p>L'opzione Priorità a grana fine si applica alle attività di Test A/B, Automated Personalization, Targeting esperienza e Test multivariati. </p> <p>Per maggiori informazioni, vedi i seguenti argomenti: </p> <p> 
      <ul id="ul_FD92CD06CF25480887AC171274262E18"> 
-      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>Test A/B: </b><a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">obiettivi e impostazioni</a> </li> 
-      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization: </b><a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a> </li> 
-      <li id="li_84B893C214994246AB36E28E84C51460"><b>Targeting esperienza: </b><a href="/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">Obiettivi e impostazioni</a> </li> 
-      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>Test multivariato: </b><a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">Obiettivi e impostazioni</a> </li> 
-      <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>Attività: </b><a href="/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local">Impostazioni attività</a> </li> 
+      <li id="li_D321FAED82944D2685DA69EB310D80BE"><b>Test A/B: </b> <a href="/help/c-activities/t-test-ab/t-test-create-ab/ab-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">obiettivi e impostazioni</a> </li> 
+      <li id="li_12ECDFD71DB94E22A85AB13B487E8503"><b>Automated Personalization: </b> <a href="/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9" format="dita" scope="local">Automated Personalization</a> </li> 
+      <li id="li_84B893C214994246AB36E28E84C51460"><b>Targeting esperienza: </b> <a href="/help/c-activities/t-experience-target/t-xt-create/xt-goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">Obiettivi e impostazioni</a> </li> 
+      <li id="li_26533B659C0E49D6A6D3B3FEBE9CA930"><b>Test multivariato: </b> <a href="/help/c-activities/c-multivariate-testing/t-create-multivariate-test/goals-and-settings.md#reference_B25389FD6F3A4989801E740364B089CC" format="dita" scope="local">Obiettivi e impostazioni</a> </li> 
+      <li id="li_FBACF2B73B2E491BBB85618153AC4568"><b>Attività: </b> <a href="/help/c-activities/activity-settings.md#task_C6B2FF8374724933BE79A83549B9CD02" format="dita" scope="local">Impostazioni attività</a> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 

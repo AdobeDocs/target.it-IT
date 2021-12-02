@@ -7,7 +7,7 @@ exl-id: 887b7956-1d61-439a-8339-c150deb9a378
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
 workflow-type: tm+mt
 source-wordcount: '1630'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -56,7 +56,7 @@ Sono disponibili i seguenti parametri:
 
 | Opzioni mboxTrace | Risultato |
 |--- |--- |
-| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js (ora obsoleto), devi controllare la richiesta di rete e cercare in Anteprima (Chrome) o Risposta (Firefox). |
+| `?mboxTrace=console` | Visualizzazione nel registro della console come oggetti.<br>Per at.js, invece di aprire una nuova finestra del browser o di eseguire l’output sulla console come in mbox.js, sarà necessario controllare la richiesta di rete e guardare in Anteprima (Chrome) o Risposta (Firefox). |
 | `?mboxTrace=json` | Visualizzazione nel registro della console come stringa letterale JSON |
 | `?mboxTrace=window` | Visualizzazione in una finestra popup come stringa JSON |
 | `?mboxTrace=disable` | Disattiva la modalità di sessione di tracciamento |
@@ -97,7 +97,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 
 | Parametri URL | Finalità |
 |--- |--- |
-| `mboxDebug=1` | Debugger<br>L’aggiunta di questo parametro a qualsiasi URL in cui sono definite delle richieste di Target determina l’apertura di una finestra a comparsa con dettagli utili al debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL Fai clic su un URL con richiesta di Target per visualizzarne la risposta di [!DNL Target]. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
+| `mboxDebug=1` | Debugger<br>L’aggiunta di questo parametro a qualsiasi URL in cui sono definite delle richieste di Target determina l’apertura di una finestra a comparsa con dettagli utili al debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL. Fai clic su un URL con richiesta di Target per visualizzarne la risposta di [!DNL Target]. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
 | `mboxDebug=x-cookie` | Modifica il cookie |
 | `mboxDisable=1` | Disattiva le mbox sulla pagina |
 | `mboxDebug=x-profile` | Visualizza i profili impostati. |
