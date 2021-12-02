@@ -5,9 +5,9 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 2fce52a95f127372cc32c593b86ccf5500cbeb2c
+source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
 workflow-type: tm+mt
-source-wordcount: '3877'
+source-wordcount: '3894'
 ht-degree: 40%
 
 ---
@@ -34,7 +34,7 @@ Diversi algoritmi di consigli si prestano a posizionarsi su diversi tipi di pagi
 
 ## Basato sul carrello {#cart-based}
 
-La [!UICONTROL Basato sul carrello] Il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore.
+La [!UICONTROL Basato sul carrello] Il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di raccomandazione sono fornite tramite il parametro mbox `cartIds` in valori separati da virgole. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Consigliato]&quot; algoritmo basato su utenti e al &quot;[!UICONTROL Chi li ha visti, li ha comprati]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato quelli]&quot; algoritmi basati su elementi.
 
