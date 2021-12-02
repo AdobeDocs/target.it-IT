@@ -5,33 +5,33 @@ title: Come posso integrare Consigli con l’e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
 source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1712'
-ht-degree: 80%
+ht-degree: 100%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) Integrare [!DNL Recommendations] con e-mail
+# ![PREMIUM](/help/assets/premium.png) Integrare [!DNL Recommendations] con l’e-mail 
 
 [!DNL Adobe Target] supporta la personalizzazione in fase di invio dei consigli nelle e-mail.
 
-Tre metodi di integrazione [!DNL Target Recommendations] con il provider di servizi e-mail (ESP) sono disponibili. Le funzionalità di ESP determinano il metodo da utilizzare. L’account manager o il consulente di riferimento può aiutarti a scegliere l’opzione più adatta alle tue esigenze.
+Sono disponibili tre metodi di integrazione [!DNL Target Recommendations] con il provider di servizi e-mail (ESP). Il metodo scelto dipende dalle funzionalità del proprio ESP. L’account manager o il consulente di riferimento può aiutarti a scegliere l’opzione più adatta alle tue esigenze.
 
 | Metodo | Dettagli |
 | --- | --- |
-| [Metodo 1: [!DNL Adobe Target Delivery API]](#delivery-api) (Preferito) | Utilizza la [!DNL Adobe Target Delivery API] per effettuare richieste di consigli per cliente/per e-mail. |
-| [Metodo 2: [!DNL Adobe Rawbox API]](#rawbox) | Utilizza la [!DNL Adobe Target Rawbox API] per effettuare richieste di consigli per cliente/per e-mail. |
-| [Metodo 3: [!DNL Recommendations Download API]](#download-api) | Utilizza l’API Download di Recommendations per richiedere consigli in massa per un elenco di prodotti o categorie in formato CSV. |
+| [Metodo 1: [!DNL Adobe Target Delivery API]](#delivery-api) (preferito) | Utilizza [!DNL Adobe Target Delivery API] per effettuare richieste per cliente/per e-mail per le attività Consigli. |
+| [Metodo 2: [!DNL Adobe Rawbox API]](#rawbox) | Utilizza [!DNL Adobe Target Rawbox API] per effettuare richieste per cliente/per e-mail per le attività Consigli. |
+| [Metodo 3: [!DNL Recommendations Download API]](#download-api) | Utilizza Recommendations Download API per richiedere consigli in serie per un elenco di prodotti o categorie in formato CSV. |
 
-L’utilizzo del metodo 1 o del metodo 2 richiede che ESP effettui chiamate a un’API esterna in base a cliente/per e-mail e attendi la restituzione del contenuto. Questi metodi non sono supportati da tutti i sistemi di gestione delle risorse (ESP); contatta il tuo ESP per determinare se è compatibile con questo modello di integrazione.
+Per i metodi 1 e 2, il tuo ESP deve effettuare chiamate a un’API esterna per cliente/per e-mail e attendedere che venga restituito il contenuto appropriato. Questi metodi non sono supportati da tutt gli ESP; contatta il tuo ESP per determinare se è compatibile con questo modello di integrazione.
 
-L’utilizzo del metodo 3 richiede che ESP unisca all’elenco delle e-mail un elenco di raccomandazioni per ID prodotto o ID categoria. Questo metodo può essere basato su un attributo come l’ultimo prodotto visualizzato del cliente, l’ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’iscrizione, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati ed è compatibile con questo modello di integrazione.
+Per il metodo 3, il tuo ESP deve unre all’elenco delle e-mail un elenco di consigli per ID prodotto o ID categoria. Questo metodo può essere basato su un attribut, ad esempio ultimo prodotto visualizzato dal cliente, ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’unione di tali elenchi, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati e se è compatibile con questo modello di integrazione.
 
-La personalizzazione in tempo aperto dei consigli non è supportata da [!DNL Adobe Target].
+La personalizzazione dei consigli in base all’ora di apertura non è supportata da [!DNL Adobe Target].
 
 >[!IMPORTANT]
 >
->Le seguenti linee guida sulla capacità si applicano ai metodi dell’API di consegna e del modello e-mail rawbox descritti di seguito (metodi 1 e 2):
+>Le seguenti linee guida sulla capacità si applicano ai metodi modelli e-mail con API di consegna e con modelli e-mail rawbox, descritti di seguito (metodi 1 e 2):
 >
 >* Le richieste devono essere limitate al minore tra i seguenti valori: 1.000 richieste al secondo o 25 volte il traffico giornaliero di picco.
 >* Il traffico deve essere scaglionato in porzioni di 200 richieste al secondo al minuto.
@@ -39,7 +39,7 @@ La personalizzazione in tempo aperto dei consigli non è supportata da [!DNL Ado
 > 
 >Se desideri utilizzare limiti più elevati, contatta il tuo account manager.
 
-## Metodo 1: Utilizza l’API di consegna (preferita) {#delivery-api}
+## Metodo 1 - Utilizzare le API di consegna (preferito) {#delivery-api}
 
 L&#39;API di consegna è una richiesta POST che funziona con e-mail di build-time. Questa opzione è il metodo preferito per l&#39;e-mail di build-time.
 
@@ -72,17 +72,17 @@ curl -X POST \
 }'
 ```
 
-Dove `clientcode` è il codice del client [!DNL Target]
+Dove `clientcode` è il codice del client [!DNL Target].
 
 >[!NOTE]
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Per ulteriori informazioni, consulta [Documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
+Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
 
-## Metodo 2: Utilizzare un modello e-mail rawbox {#rawbox}
+## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 
-Un rawbox è simile a una richiesta mbox, ma per ambienti non Web, come ad esempio provider di servizi di posta elettronica (ESP). Perché non hai il [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] per utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox in e-mail.
+Un rawbox è simile a una richiesta mbox, ma per ambienti non web, come ad esempio i provider di servizi e-mail (ESP). Poiché non disponi di [!DNL Adobe Experience Platform Web SDK] o [!DNL at.js] da utilizzare nelle richieste rawbox, devi creare le richieste manualmente. Gli esempi qui sotto spiegano come lavorare con le richieste rawbox nell&#39;e-mail.
 
 >[!NOTE]
 >
@@ -105,7 +105,7 @@ Il sistema e-mail utilizzato deve essere in grado di gestire i seguenti scenari:
 
    `//ERROR: application server timeout`
 
-* L’applicazione e-mail deve cercare quel testo e deve essere in grado di gestire l’errore. Il provider di posta elettronica dispone di più opzioni per gestire questo caso:
+* L&#39;applicazione e-mail deve cercare quel testo ed essere in grado di gestire l&#39;errore. Il provider di posta elettronica dispone di più opzioni per gestire questo caso:
 
    * Provare immediatamente un&#39;altra chiamata del server (consigliato, possibilmente con un contatore di tentativi).
    * Escludere quella particolare e-mail e passare a quella successiva.
@@ -131,8 +131,8 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
 | `entity.event.detailsOnly` | true | Se viene passato `entity.id`, è consigliabile passare anche questo parametro per impedire che la richiesta incrementi il numero di visualizzazioni di pagina conteggiate per un elemento, in modo da non alterare gli algoritmi basati sulla visualizzazione del prodotto. |  |
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
-| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà il contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un’immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider di posta elettronica deve gestire il caso in cui questo valore viene restituito e inserire un HTML predefinito nell’e-mail. <br> **Best practice sulla sicurezza**: se il dominio utilizzato nell’URL `mboxDefault` non è inserito nell’elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da terze parti, Adobe consiglia di utilizzare “host autorizzati” per inserire nell’elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare elenchi Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) in *Host*. |  |
-| `mboxHost` | *mbox_host* | Il dominio che viene aggiunto all’ambiente predefinito (gruppo host) quando la chiamata viene attivata. |  |
+| `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà il contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un’immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider e-mail dovrà gestire il caso in cui questo valore venga restituito e inserire nell’e-mail il contenuto HTML predefinito. <br> **Best practice sulla sicurezza**: se il dominio utilizzato nell’URL `mboxDefault` non è inserito nell’elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da terze parti, Adobe consiglia di utilizzare “host autorizzati” per inserire nell’elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare elenchi Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a  [!DNL Target]](/help/administrating-target/hosts.md#allowlist) in *Host*. |  |
+| `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
 | `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun “thirdPartyId”, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
 ### Parametri opzionali
@@ -149,12 +149,12 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 |--- |--- |
 | //ERRORE: | Generato dal bilanciamento del carico quando non può restituire il contenuto |
 | Completato | Il parametro `mboxNoRedirect` è impostato su “true” e il server non restituisce alcun consiglio (ad esempio, non vi è alcuna corrispondenza per l’elemento mbox o la cache del server non è inizializzata). |
-| richiesta errata | Il parametro `mbox` è mancante.<ul><li>Il parametro `mboxDefault` o `mboxNoRedirect` non è specificato.</li><li>Il parametro di richiesta `mboxTrace` è specificato ma `mboxNoRedirect` non lo è.</li><li>`mboxTarget`non viene specificato quando i nomi mbox terminano con `-clicked` suffisso</li></ul> |
+| richiesta errata | Il parametro `mbox` è mancante.<ul><li>Il parametro `mboxDefault` o `mboxNoRedirect` non è specificato.</li><li>Il parametro di richiesta `mboxTrace` è specificato ma `mboxNoRedirect` non lo è.</li><li>Il parametro `mboxTarget` non viene specificato quando i nomi mbox terminano con il suffisso `-clicked`.</li></ul> |
 | `Cannot redirect to default content, please specify mboxDefault parameter` | `mboxDefault` non viene specificato quando non esiste alcuna corrispondenza per la richiesta e il parametro `mboxNoRedirect` non è specificato. |
 | `Invalid mbox name:= MBOX_NAME` | Indica che il parametro `mbox` contiene caratteri non validi. |
 | `Mbox name [MBOX_NAME] is too long` | Indica che il parametro `mbox` è più lungo di 250 caratteri. |
 
-## Metodo 3: Utilizzare l’API di download di Recommendations {#download-api}
+## Metodo 3: Utilizzare Recommendations Download API {#download-api}
 
 Configura un consiglio come al solito, ma scegli **solo download** nella sezione di presentazione, anziché una combinazione di modello e mbox. Quindi, in ESP, indica al sistema l&#39;ID del consiglio creato. ESP accede ai dati del consiglio tramite API. Questi dati mostrano quali elementi devono essere consigliati per una particolare categoria o elemento chiave, come ad esempio gli elementi in un carrello abbandonato. ESP memorizza questi dati, li collega all&#39;aspetto e alle caratteristiche relativi, visualizza le informazioni su ciascun elemento e le distribuisce nelle e-mail.
 
