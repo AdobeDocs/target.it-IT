@@ -35,7 +35,6 @@ La personalizzazione dei consigli in base all’ora di apertura non è supportat
 >
 >* Le richieste devono essere limitate al minore tra i seguenti valori: 1.000 richieste al secondo o 25 volte il traffico giornaliero di picco.
 >* Il traffico deve essere scaglionato in porzioni di 200 richieste al secondo al minuto.
-
 > 
 >Se desideri utilizzare limiti più elevati, contatta il tuo account manager.
 
