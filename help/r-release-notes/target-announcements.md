@@ -4,28 +4,16 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 421825ea51b3eb4d3ce39205ee84c1e426154400
-workflow-type: ht
-source-wordcount: '628'
-ht-degree: 100%
+source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
 # Annunci ed eventi di Target
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
-
-## Community Q&amp;A Coffee Break [!DNL Adobe Target] (10 novembre 2021)
-
-* **Mercoledì 10 novembre 2021**
-* **08:00 PST (17:00 CET)**
-* **[Ulteriori informazioni e registrazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/at-community-q-amp-a-coffee-break-11-10-21-cristinel-quot-muti/td-p/426696)**
-
-Cristinel “Muti” Anastasoaie, Senior Product Manager di [!DNL Adobe Target], risponderà alle domande relative ai suoi settori di competenza:
-
-* Interfaccia utente di [!DNL Target]
-* [!DNL Target] integrazioni
-* [!UICONTROL Autorizzazioni Enterprise] e [!UICONTROL aree di lavoro]
 
 ## Sessione [!DNL Adobe Target] Community Q&amp;A Coffee Break (8 dicembbre 2021)
 
