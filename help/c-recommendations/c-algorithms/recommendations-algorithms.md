@@ -1,17 +1,17 @@
 ---
 keywords: algoritmi di consigli;formazione del modello;distribuzione del modello;distribuzione del contenuto;basato su elementi;basato su utenti;basato sulla popolarità;basato su carrello;criteri personalizzati
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], compresi l'addestramento dei modelli e il servizio dei modelli.
-title: Dove Posso Imparare La Scienza Dietro Gli Algoritmi Recommendations?
+title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 7c84c22fe87ddb41587899438381e2dfd2801d86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2797'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/assets/premium.png) La scienza dietro gli algoritmi Recommendations
+# ![PREMIUM](/help/assets/premium.png) La scienza alla base degli algoritmi di raccomandazioni di Target
 
 Una descrizione dettagliata degli algoritmi utilizzati in [!DNL Adobe Target Recommendations], compresi i dettagli logici e matematici della formazione dei modelli e il processo di elaborazione dei modelli.
 
@@ -106,7 +106,7 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
 
       Per evitare una complessità significativa nel calcolo delle somiglianze tra tutti gli elementi N x N, il *tf-idf* il vettore viene troncato per contenere solo le sue 500 voci più grandi, quindi calcola le somiglianze coseno tra gli elementi utilizzando questa rappresentazione vettoriale troncata. Questo approccio risulta più robusto per i calcoli con somiglianza vettoriale sparsa, rispetto ad altre tecniche di approssimazione del vicino più vicino (ANN), come l’hashing sensibile alla posizione.
 
-* **Servizio del modello**: Questo processo è identico alle tecniche di filtro collaborativo articolo-elemento descritte nella sezione precedente.
+   * **Servizio del modello**: Questo processo è identico alle tecniche di filtro collaborativo articolo-elemento descritte nella sezione precedente.
 
 ## Raccomandazioni multi-chiave
 
@@ -137,7 +137,7 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
 
    ![Formula](assets/formula4.png)
 
-   * **Valutazione modello similarità articolo**: La valutazione del modello viene effettuata prendendo le raccomandazioni generate nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando cronologicamente gli utilizzi degli elementi di ogni utente nel set di dati di test, quindi formulando 100 raccomandazioni per i sottoinsiemi ordinati di elementi nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero informazioni, la [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision)), viene utilizzato per valutare la qualità di queste raccomandazioni. Questa metrica tiene conto dell’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco dei consigli, una proprietà importante per i sistemi di classificazione.
+   * **Valutazione modello similarità articolo**: La valutazione del modello viene effettuata prendendo le raccomandazioni generate nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando cronologicamente gli utilizzi degli elementi di ogni utente nel set di dati di test, quindi formulando 100 raccomandazioni per i sottoinsiemi ordinati di elementi nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero informazioni, la [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), viene utilizzato per valutare la qualità di queste raccomandazioni. Questa metrica tiene conto dell’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco dei consigli, una proprietà importante per i sistemi di classificazione.
    * **Selezione del modello**: Dopo la valutazione offline, viene selezionato il modello con la precisione media media più elevata e vengono calcolati tutti i consigli relativi ai singoli elementi.
    * **Filtro offline**: La fase finale della formazione del modello è l&#39;applicazione di eventuali filtri dinamici applicabili. Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache globale per essere disponibili per il servizio.
 

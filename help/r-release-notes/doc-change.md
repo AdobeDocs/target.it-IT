@@ -4,10 +4,10 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f673a98b0fc61912b28d1e801e5e4b60c1b15b86
+source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
 workflow-type: tm+mt
-source-wordcount: '3078'
-ht-degree: 99%
+source-wordcount: '3087'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Dicembre 7 | [La scienza alla base degli algoritmi di raccomandazioni di Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuovo argomento. |
 | Dicembre 2 | [Basare i consigli su una chiave di consigli](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | È stato aggiornato l&#39;algoritmo basato su carrello per includere che le chiavi di raccomandazione siano fornite tramite il parametro mbox cartIds in valori separati da virgole. Vengono considerati solo i primi 10 valori. |
 | 18 novembre | [Modifiche](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stata aggiunta una nota nella riga Mbox che indica che le mbox non sono più supportate nel [!UICONTROL Compositore esperienza visivo] nelle pagine che utilizzano at.js 2.*x*. |
 | 16 novembre | [Attributi del cliente](/help/c-target/c-visitor-profile/working-with-customer-attributes.md) | Sono state aggiunte informazioni sulle limitazioni relative al caricamento di file, con un collegamento a [Ffile di dati e origini dati per Attributi del cliente](https://experienceleague.adobe.com/docs/core-services/interface/services/customer-attributes/crs-data-file.html?lang=it) nella *guida ai componenti dell’interfaccia centrale di Experience Cloud*. |
