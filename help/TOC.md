@@ -3,10 +3,10 @@ user-guide-title: 'Guida di Adobe [!DNL Target] '
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 49a79f60949af1b7fdeff70092d8919cae37e7f3
-workflow-type: ht
-source-wordcount: '1535'
-ht-degree: 100%
+source-git-commit: 24ce5035d84aa9331e3dc01f695a307db8e55507
+workflow-type: tm+mt
+source-wordcount: '1540'
+ht-degree: 99%
 
 ---
 
@@ -378,6 +378,7 @@ ht-degree: 100%
       + [Creare criteri](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Creare sequenze di criteri](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
+      + [Gli algoritmi di Science Behind Recommendations](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Caricare criteri personalizzati](c-recommendations/c-algorithms/recommendations-csv.md)
       + Regole di inclusione dinamiche e statiche {#dynamic-static}
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
