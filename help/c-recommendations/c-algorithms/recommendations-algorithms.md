@@ -4,9 +4,9 @@ description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], c
 title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Target?
 feature: Recommendations
 mini-toc-levels: 2
-source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
+source-git-commit: 85958d8398fb934e1e5428fb5c562e5463f72c55
 workflow-type: tm+mt
-source-wordcount: '2797'
+source-wordcount: '2841'
 ht-degree: 0%
 
 ---
@@ -53,13 +53,13 @@ Un esempio di tale somiglianza è la co-occorrenza tra gli elementi: un conteggi
 
 Ad esempio, se
 
-![Formula](assets/formula.png)
+![Formula per l’algoritmo visualizzato/acquistato](assets/formula.png)
 
 allora l&#39;articolo B non dovrebbe essere consigliato con l&#39;articolo A. Sono forniti i dettagli completi di questo calcolo della somiglianza del rapporto di probabilità del log [in questo PDF](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf).
 
 Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato nel seguente diagramma schematico:
 
-![Schema](assets/diagram1.png)
+![Diagramma schematico di un algoritmo visualizzato/acquistato](assets/diagram1.png)
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
@@ -83,7 +83,7 @@ In questo tipo di algoritmo, due elementi sono considerati correlati se i loro n
 
 Anche se il modello di distribuzione e la distribuzione dei contenuti di [!DNL Target]Gli algoritmi di somiglianza del contenuto sono identici ad altri algoritmi basati su elementi, i passaggi di formazione del modello sono drasticamente diversi e comportano una serie di fasi di elaborazione e preelaborazione del linguaggio naturale, come illustrato nel diagramma seguente. Il nucleo del calcolo della somiglianza è l’utilizzo della somiglianza del coseno dei vettori tf-idf modificati che rappresentano ogni elemento del catalogo.
 
-![Diagramma 2](assets/diagram2.png)
+![Diagramma che mostra il flusso del processo di somiglianza del contenuto](assets/diagram2.png)
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
@@ -96,13 +96,13 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
    * **creazione n-grammo**: Dopo i passaggi precedenti, ogni parola viene trattata come un token. Il processo di combinazione di sequenze contigue di token in un unico token è noto come creazione n-grammo. [!DNL Target]Gli algoritmi considerano fino a 2 grammi.
    * **calcolo tf-idf**: Il passaggio successivo prevede la creazione di vettori tf-idf per riflettere l’importanza relativa dei token nella descrizione dell’elemento. Per ogni token/termine t in un elemento i, in un catalogo D con |D| elementi, il termine TF(t, i) è calcolato per primo (il numero di volte in cui il termine appare nella voce i) e la frequenza del documento DF(t, D). In sostanza, il numero di elementi in cui il token esiste. La misura tf-idf viene quindi
 
-      ![Formula](assets/formula2.png)
+      ![Formula che mostra la misura tf-idf](assets/formula2.png)
 
       [!DNL Target] utilizza Apache Spark&#39;s *tf-idf* implementazione di funzionalità, che sotto la cappa hash ogni token a uno spazio di 218 token. In questo passaggio, l&#39;incremento e la sottrazione degli attributi specificati dal cliente vengono applicati anche regolando le frequenze dei termini in ciascun vettore in base alle impostazioni specificate nel [criteri](/help/c-recommendations/c-algorithms/create-new-algorithm.md#similarity).
 
    * **Calcolo della somiglianza degli elementi**: Il calcolo della somiglianza dell’elemento finale viene effettuato utilizzando una somiglianza approssimativa del coseno. Per due elementi: *A* e *B*, con i vettori a e tB, la somiglianza del coseno è definita come:
 
-      ![Formula](assets/formula3.png)
+      ![Formula che mostra il calcolo della somiglianza dell&#39;elemento](assets/formula3.png)
 
       Per evitare una complessità significativa nel calcolo delle somiglianze tra tutti gli elementi N x N, il *tf-idf* il vettore viene troncato per contenere solo le sue 500 voci più grandi, quindi calcola le somiglianze coseno tra gli elementi utilizzando questa rappresentazione vettoriale troncata. Questo approccio risulta più robusto per i calcoli con somiglianza vettoriale sparsa, rispetto ad altre tecniche di approssimazione del vicino più vicino (ANN), come l’hashing sensibile alla posizione.
 
@@ -121,7 +121,7 @@ Questi algoritmi si basano sulle tecniche di filtro collaborativo di base descri
 
 La logica dei passaggi di formazione e valutazione del modello è mostrata nel diagramma seguente:
 
-![Diagramma](assets/diagram3.png)
+![Diagramma che mostra la logica dei passaggi di formazione e valutazione del modello](assets/diagram3.png)
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
@@ -135,7 +135,7 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
 
    La fase di formazione calcola diversi tipi di somiglianze vettoriali: Somiglianza LLR ([discusso qui](/help/c-recommendations/c-algorithms/assets/log-likelihood-ratios-recommendation-algorithms.pdf)), somiglianza del coseno (definita in precedenza) e similarità L2 normalizzata, definita come:
 
-   ![Formula](assets/formula4.png)
+   ![Formula che mostra il calcolo della formazione](assets/formula4.png)
 
    * **Valutazione modello similarità articolo**: La valutazione del modello viene effettuata prendendo le raccomandazioni generate nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando cronologicamente gli utilizzi degli elementi di ogni utente nel set di dati di test, quindi formulando 100 raccomandazioni per i sottoinsiemi ordinati di elementi nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero informazioni, la [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), viene utilizzato per valutare la qualità di queste raccomandazioni. Questa metrica tiene conto dell’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco dei consigli, una proprietà importante per i sistemi di classificazione.
    * **Selezione del modello**: Dopo la valutazione offline, viene selezionato il modello con la precisione media media più elevata e vengono calcolati tutti i consigli relativi ai singoli elementi.
@@ -149,7 +149,7 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
 
 Questi processi sono illustrati nell’immagine seguente, in cui un visitatore ha visualizzato l’articolo A e l’articolo B acquistato. I singoli consigli vengono recuperati con i punteggi di similarità offline visualizzati sotto ogni etichetta di articolo. Dopo il recupero, i consigli vengono uniti con punteggi di somiglianza ponderati sommati. Infine, in uno scenario in cui il cliente ha specificato che gli articoli visualizzati e acquistati in precedenza devono essere filtrati, il passaggio di filtro rimuove gli elementi A e B dall’elenco dei consigli.
 
-![Diagramma](assets/diagram4.png)
+![Diagramma che mostra l’elaborazione di algoritmi con più chiavi](assets/diagram4.png)
 
 ## Basato sulla popolarità
 
