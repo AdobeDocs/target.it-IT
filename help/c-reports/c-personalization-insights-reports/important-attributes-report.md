@@ -1,59 +1,58 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;FAQ;domande frequenti;attributi importanti
-description: Scopri come utilizzare il rapporto Attributi importanti in Adobe [!DNL Target] che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
+description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapporto che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
 title: Qual è il rapporto Attributi importanti?
-feature: Rapporti
+feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
 workflow-type: tm+mt
-source-wordcount: '1656'
-ht-degree: 92%
+source-wordcount: '1661'
+ht-degree: 86%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Rapporto Attributi importanti
 
-Informazioni sul rapporto Attributi importanti, uno dei due rapporti specializzati disponibili per gli utenti delle attività di Personalizzazione automatizzata (AP) e Targeting automatico (AT).
+Informazioni sulle [!UICONTROL Attributi importanti] , uno dei due rapporti specializzati disponibili per gli utenti di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività.
 
 >[!NOTE]
 >
->Quando utilizzi i rapporti Approfondimenti personalizzazione , considera quanto segue:
+>Quando utilizzi [!UICONTROL Approfondimenti personalizzazione] rapporti:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
-   >
-   >
-* [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
-   >
-   >
-* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono disponibili solo se l’ [!UICONTROL obiettivo primario ] è selezionato dall’elenco a discesa  [!UICONTROL Metrica ] rapporto .
-   >
-   >
-* I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
-   >
-   >
-* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
+>
+>* [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
+>
+>* [!UICONTROL Approfondimenti personalizzazione] i rapporti sono disponibili solo se [!UICONTROL Obiettivo principale] è selezionato tra i [!UICONTROL Metrica rapporto] elenco a discesa.
+>
+>* I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
+>
+>* [!UICONTROL Approfondimenti personalizzazione] i rapporti vengono generati solo per le attività che si trovano in [!UICONTROL Live] sono stati attivati e ricevono traffico per almeno 15 giorni.
 
 
 Nelle varie attività, i vari attributi possono essere più o meno importanti per il modo in cui il modello decide di personalizzare. Questo rapporto mostra gli attributi principali che hanno influenzato il modello e la loro importanza relativa.
 
-## Accedere al rapporto Attributi importanti {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
+## Accedere al [!UICONTROL Attributi importanti] rapporto {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Fai clic su **[!UICONTROL Attività]**, quindi fai clic sull&#39;attività [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
+1. Fai clic su **[!UICONTROL Attività]**, quindi fai clic sul [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) attività dall’elenco.
 
    Se hai numerose attività, puoi filtrare l’elenco selezionando le opzioni che ti interessano dagli elenchi a discesa [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metrica] e [!UICONTROL Origine attività].
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   Viene visualizzato il rapporto [Riepilogo Automated Personalization](/help/c-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/c-reports/auto-target-summary-report.md) , che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Tieni presente che Targeting automatico ha un&#39;ulteriore icona di grafico per la visualizzazione grafica del rapporto di [!UICONTROL Riepilogo].
+   La [Riepilogo Automated Personalization](/help/c-reports/reports-ap.md) o [Riepilogo del Targeting automatico](/help/c-reports/auto-target-summary-report.md) viene visualizzato un rapporto che fornisce informazioni sulle prestazioni delle attività, rappresentate dall’icona della prima schermata. Le due icone aggiuntive rappresentano le due [!UICONTROL Approfondimenti personalizzazione] rapporti: [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti].
 
-   ![](assets/personalization_insights.png)
+   ![Rapporto di riepilogo per l’attività Automated Personalization](assets/summary-report-ap.png)
+
+   Tieni presente che [!UICONTROL Targeting automatico] dispone di un’ulteriore icona grafico per la visualizzazione grafica del [!UICONTROL Riepilogo] rapporto.
+
+   ![Rapporto di riepilogo per l’attività di Targeting automatico](assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
-   >Il rapporto [!UICONTROL Attributi importanti] non sarà disponibile per almeno 15 giorni dopo l’attivazione dell’attività. Durante questo periodo iniziale, non potrai accedere a questo rapporto o fare clic sull’icona di [!UICONTROL Attributi importanti]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, sarà disponibile il rapporto [!UICONTROL Attributi importanti].
+   >Il rapporto [!UICONTROL Attributi importanti] non sarà disponibile per almeno 15 giorni dopo l’attivazione dell’attività. Durante questo periodo iniziale, non potrai accedere a questo rapporto o fare clic sull’icona di [!UICONTROL Attributi importanti]. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, la [!UICONTROL Attributi importanti] il rapporto è disponibile.
 
-1. A 15 giorni dall&#39;attivazione dell&#39;attività, puoi fare clic sull&#39;icona **[!UICONTROL Attributi importanti]**.
+1. A 15 giorni dall’attivazione dell’attività, fai clic sul pulsante **[!UICONTROL Attributi importanti]** icona.
 
    ![](assets/model_attribute_ranking.png)
 
