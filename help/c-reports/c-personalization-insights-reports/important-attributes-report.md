@@ -4,10 +4,10 @@ description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapport
 title: Qual è il rapporto Attributi importanti?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 3cfe0bcfd47d21a97793748ec7f82da5864acb6c
+source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
 workflow-type: tm+mt
-source-wordcount: '1661'
-ht-degree: 86%
+source-wordcount: '1709'
+ht-degree: 82%
 
 ---
 
@@ -58,7 +58,13 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
-   A differenza del rapporto di [!UICONTROL Riepilogo] (rapporto sulle prestazioni), [!UICONTROL Registri di personalizzazione], incluso [!UICONTROL Attributi importanti], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
+   A differenza di [!UICONTROL Riepilogo] rapporto (rapporto sulle prestazioni), [!UICONTROL Approfondimenti personalizzazione], tra cui [!UICONTROL Attributi importanti], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni.
+
+   >[!NOTE]
+   >
+   >La [!DNL Target] L’interfaccia utente ti consente attualmente di scegliere intervalli di date di 45 giorni e 90 giorni. Tuttavia, [!DNL Target] il backend non elabora questi due intervalli. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente viene aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni.
+
+   Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
    ![](assets/personalization_insights_calendar_1.png)
 
