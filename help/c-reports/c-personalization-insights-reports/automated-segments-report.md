@@ -1,50 +1,46 @@
 ---
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;targeting automatico;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;segmenti automatizzati;FAQ;domande frequenti
-description: Scopri in che modo diversi segmenti definiti dai modelli di personalizzazione Adobe [!DNL Target] rispondono alle offerte/esperienze nell’attività visualizzando il rapporto Segmenti automatizzati .
+description: Scopri come diversi segmenti definiti da Adobe [!DNL Target] i modelli di personalizzazione rispondono alle offerte/esperienze nell’attività visualizzando il rapporto Segmenti automatizzati .
 title: Cos’è il rapporto Segmenti automatizzati?
-feature: Rapporti
+feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: 6f5e999859847e93e66372a9e7dc9814f7e2c84d
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '2108'
+source-wordcount: '2107'
 ht-degree: 82%
 
 ---
 
 # ![PREMIUM](/help/assets/premium.png) Rapporto Segmenti automatizzati
 
-Informazioni sul rapporto [!UICONTROL Segmenti automatizzati], uno dei due rapporti specializzati disponibili per gli utenti di attività [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT).
+Informazioni sulle [!UICONTROL Segmenti automatizzati] , uno dei due rapporti specializzati disponibili per gli utenti di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività.
 
 >[!NOTE]
 >
 >Quando utilizzi i rapporti Approfondimenti personalizzazione , considera quanto segue:
 >
 >* Le attività di AP e AT sono disponibili come parte della soluzione [!DNL Target Premium]. Non sono disponibili in [!DNL Target Standard] senza una licenza di [!DNL Target Premium].
-   >
-   >
-* [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
-   >
-   >
-* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono disponibili solo se l’ [!UICONTROL obiettivo primario ] è selezionato dall’elenco a discesa  [!UICONTROL Metrica ] rapporto .
-   >
-   >
-* I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
-   >
-   >
-* [!UICONTROL I rapporti ] Approfondimenti personalizzazione sono generati solo per le attività che si trovano in   Livestatus e sono state attivate e ricevono traffico per almeno 15 giorni.
+>
+>* [!UICONTROL I rapporti di Approfondimenti personalizzazione sono disponibili solo per le attività di AP e AT che utilizzano un obiettivo di ottimizzazione delle conversioni. ] Anche le attività in cui l&#39;obiettivo di ottimizzazione è stato modificato in conversione da ricavi dopo che l&#39;attività era già attiva non sono supportate.
+>
+>* [!UICONTROL Approfondimenti personalizzazione] i rapporti sono disponibili solo se [!UICONTROL Obiettivo principale] è selezionato tra i [!UICONTROL Metrica rapporto] elenco a discesa.
+>
+>* I rapporti Approfondimenti personalizzati sono supportati solo nell’[ambiente predefinito](/help/administrating-target/hosts.md).
+>
+>* [!UICONTROL Approfondimenti personalizzazione] i rapporti vengono generati solo per le attività che si trovano in [!UICONTROL Live] sono stati attivati e ricevono traffico per almeno 15 giorni.
 
 
 I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;attività di AP/AT. Questo rapporto mostra come i diversi segmenti automatizzati definiti dai modelli di personalizzazione di Target rispondono alle offerte/esperienze dell&#39;attività.
 
 ## Accedere al rapporto Segmenti automatizzati {#section_8E8F997AAAF44A1B9EE06EB6FB652801}
 
-1. Fai clic su **[!UICONTROL Attività]**, quindi fai clic sull&#39;attività [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) desiderata dall&#39;elenco.
+1. Fai clic su **[!UICONTROL Attività]**, quindi fai clic sul [Automated Personalization](/help/c-activities/t-automated-personalization/automated-personalization.md#task_8AAF837796D74CF893CA2F88BA1491C9) o [Targeting automatico](/help/c-activities/auto-target/auto-target-to-optimize.md) attività dall’elenco.
 
-   Se hai numerose attività, puoi filtrare l’elenco selezionando le opzioni da [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metriche], elenchi a discesa e [!UICONTROL Origine attività] .
+   Se hai molte attività, puoi filtrare l’elenco selezionando le opzioni dalla [!UICONTROL Tipo], [!UICONTROL Stato], [!UICONTROL Proprietà], [!UICONTROL Origine per i rapporti], [!UICONTROL Compositore esperienza], [!UICONTROL Tipo di metriche]e [!UICONTROL Origine attività] elenchi a discesa.
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   Viene visualizzato il rapporto [Riepilogo Automated Personalization](/help/c-reports/reports-ap.md) o [Riepilogo Targeting automatico](/help/c-reports/auto-target-summary-report.md) , che fornisce informazioni sulle prestazioni delle attività, rappresentate dall&#39;icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Il Targeting automatico ha un&#39;icona di grafico aggiuntiva per la visualizzazione grafica del report [!UICONTROL Summary] .
+   La [Riepilogo Automated Personalization](/help/c-reports/reports-ap.md) o [Riepilogo del Targeting automatico](/help/c-reports/auto-target-summary-report.md) viene visualizzato un rapporto che fornisce informazioni sulle prestazioni delle attività, rappresentate dall’icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Il Targeting automatico ha un’icona grafico aggiuntiva per la visualizzazione grafica del [!UICONTROL Riepilogo] rapporto.
 
    ![](assets/personalization_insights.png)
 
@@ -58,7 +54,7 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
-   A differenza del rapporto [!UICONTROL Riepilogo] (rapporto sulle prestazioni), [!UICONTROL Registri di personalizzazione], incluso [!UICONTROL Segmenti automatizzati], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che &quot;Start&quot; è disabilitato. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
+   A differenza di [!UICONTROL Riepilogo] rapporto (rapporto sulle prestazioni), [!UICONTROL Approfondimenti personalizzazione], tra cui [!UICONTROL Segmenti automatizzati], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che &quot;Start&quot; è disabilitato. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
    ![](assets/personalization_insights_calendar_1.png)
 
@@ -111,7 +107,7 @@ Ci sono vari motivi per cui i rapporti di [!UICONTROL Registri di personalizzazi
 
 * Non sono trascorsi 15 giorni dall’attivazione dell’attività. I rapporti di Segmenti automatizzati e Attributi importanti non saranno disponibili per almeno 15 giorni dopo l&#39;attivazione dell&#39;attività. Durante questo periodo iniziale, non potrai accedere a questi rapporti o fare clic sulle icone di Segmenti automatizzati e Attributi importanti.
 * L&#39;attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un traffico personalizzato sufficiente, saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
-* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Ad Adobe, in una versione futura verrà aggiunto il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
+* L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Approfondimenti personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Ad Adobe, in una versione futura verrà aggiunto il supporto per le attività con obiettivo di ottimizzazione dei ricavi.
 
 **Cos&#39;è un attributo?**
 
@@ -149,7 +145,7 @@ No, il rapporto dell&#39;interfaccia utente contiene specifiche informazioni. Il
 
 **Posso visualizzare [!UICONTROL Registri di personalizzazione] per un intervallo di date personalizzato?**
 
-Il rapporto di Registri di personalizzazione (sia [!UICONTROL Segmenti automatizzati] che [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
+Rapporti Approfondimenti personalizzazione (entrambi [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
 
 **Come viene creato [!UICONTROL Registri di personalizzazione]?**
 

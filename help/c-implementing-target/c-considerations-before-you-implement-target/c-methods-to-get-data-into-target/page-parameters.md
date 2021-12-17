@@ -1,14 +1,14 @@
 ---
 keywords: implementare;implementazione;configurazione;configurazione;parametri di pagina
-description: Recupera i dati in [!DNL Target] utilizzando i parametri di pagina.
-title: Come posso inserire i dati in [!DNL Target] utilizzando i parametri di pagina?
-feature: Implementazione
+description: Inserire dati in [!DNL Target] utilizzo dei parametri di pagina.
+title: Come inserire i dati in [!DNL Target] Utilizzo dei parametri di pagina
+feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: c91465cccc244d79b6540004237a5ce7156233bb
+source-git-commit: a4ef9fdc34ac167cd927dacb66a2f2cc53e8ddd8
 workflow-type: tm+mt
-source-wordcount: '377'
-ht-degree: 46%
+source-wordcount: '372'
+ht-degree: 45%
 
 ---
 
@@ -30,8 +30,8 @@ I parametri di pagina vengono passati alla destinazione tramite una chiamata al 
 
 ## Esempi di casi d’uso
 
-* **Pagine** dei prodotti: Inviare informazioni sul prodotto specifico visualizzato (questo metodo è il funzionamento di Recommendations)
-* **Dettagli** ordine: Invia ID ordine, orderTotal e così via per la raccolta degli ordini
+* **Pagine dei prodotti**: Inviare informazioni sul prodotto specifico visualizzato (questo metodo è il funzionamento di Recommendations)
+* **Dettagli ordine**: Invia ID ordine, orderTotal e così via per la raccolta degli ordini
 * **Affinità tra categorie**: invia informazioni visualizzate per categoria a Target per conoscere l’affinità dell’utente a particolari categorie di siti
 * **Dati di terze parti**: invia informazioni da fonti di dati di terze parti, ad esempio i provider di targeting del meteo, i dati dell’account (DemandBase), i dati demografici (ad esempio Experian) e altro ancora.
 
@@ -66,10 +66,6 @@ targetPageParamsAll (aggiunge i parametri a tutte le chiamate mbox nella pagina)
 targetPageParams (aggiunge i parametri alla MBOX globale nella pagina):
 
 `function targetPageParams() { return "param1=value1&param2=value2&p3=hello%20world";`
-
-Parametri nel codice mboxCreate:
-
-`<div class="mboxDefault"> default content to replace by offer </div> <script> mboxCreate('mboxName','param1=value1','param2=value2'); </script>`
 
 ## Link a informazioni rilevanti
 
