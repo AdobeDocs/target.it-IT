@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: bfa58435fcaa90cad9cd3808fabbdd2554e5e5a5
-workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+workflow-type: ht
+source-wordcount: '581'
+ht-degree: 100%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
-## Sessione [!DNL Adobe Target] Community Q&amp;A Coffee Break (8 dicembbre 2021)
+## Sessione [!DNL Adobe Target] Community Q&amp;A Coffee Break (8 dicembre 2021)
 
 * **Mercoledì 8 dicembre 2021**
 * **08:00 PST (17:00 CET)**
