@@ -4,9 +4,9 @@ breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
 source-git-commit: 235f481907ef89fcbbd31a2209f48d596aebdf12
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1541'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -147,7 +147,7 @@ ht-degree: 99%
       + [Panoramica su Target per le app per dispositivi mobili](c-target-mobile-app/target-mobile-app.md)
       + [Funzionamento di Target nelle applicazioni per dispositivi mobili](c-target-mobile-app/mobile-how-target-works-mobile-apps.md)
       + [Attivare Target nell’SDK](c-target-mobile-app/mobile-enable-target-in-sdk.md)
-      + [iOS - Creare una posizione di destinazione e una metrica di successo](c-target-mobile-app/mobile-create-location-and-metric.md)
+      + [iOS - Creare una posizione e una metrica di successo per Target](c-target-mobile-app/mobile-create-location-and-metric.md)
       + [iOS - Inviare dati utente personalizzati](c-target-mobile-app/mobile-custom-user-data.md)
       + [Anteprima mobile di Target](c-target-mobile-app/target-mobile-preview.md)
       + [Preacquisire il contenuto dell’offerta](c-target-mobile-app/prefetch-offer-content.md)
@@ -378,7 +378,7 @@ ht-degree: 99%
       + [Creare criteri](c-recommendations/c-algorithms/create-new-algorithm.md)
       + [Creare sequenze di criteri](c-recommendations/c-algorithms/create-criteria-sequence.md)
       + [Basare il consiglio su una chiave consiglio](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md)
-      + [La scienza alla base degli algoritmi di raccomandazioni di Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
+      + [La scienza alla base degli algoritmi di Recommendations di Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md)
       + [Caricare criteri personalizzati](c-recommendations/c-algorithms/recommendations-csv.md)
       + Regole di inclusione dinamiche e statiche {#dynamic-static}
          + [Utilizzare regole di inclusione dinamiche e statiche](c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md)
