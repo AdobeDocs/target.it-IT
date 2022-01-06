@@ -4,9 +4,9 @@ description: 'Resta aggiornato sulle importanti aggiunte e modifiche apportate a
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e758c2a585ecbcf5fdcbc72a0268b957a9a8106f
+source-git-commit: 7336522ab5fbe96b887b990437de105a579d9fd8
 workflow-type: tm+mt
-source-wordcount: '3153'
+source-wordcount: '3163'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Gennaio 6 | [Note sulla versione di Target (prerelease)](/help/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 22.1.1. |
 | Dicembre 17 | [Rapporto Attributi importanti](/help/c-reports/c-personalization-insights-reports/important-attributes-report.md) | È stata aggiunta la seguente nota sugli intervalli di date durante la visualizzazione dei rapporti Attributi importanti:<ul><li>La [!DNL Target] L’interfaccia utente ti consente attualmente di scegliere intervalli di date di 45 giorni e 90 giorni. Tuttavia, [!DNL Target] il backend non elabora questi due intervalli. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente viene aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni.</li></ul> |
 | 7 dicembre | [La scienza alla base degli algoritmi di Recommendations di Target](/help/c-recommendations/c-algorithms/recommendations-algorithms.md) | Nuovo argomento. |
 | 2 dicembre | [Basare i consigli su una chiave di consigli](/help/c-recommendations/c-algorithms/base-the-recommendation-on-a-recommendation-key.md) | È stato aggiornato l’algoritmo basato su carrello per fare in modo che le chiavi di consigli siano fornite tramite il parametro mbox cartIds in valori separati da virgole. Vengono considerati solo i primi 10 valori. |
