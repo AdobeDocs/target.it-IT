@@ -1,13 +1,13 @@
 ---
-keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;offerta di scambio;scambio di offerte;scambio di immagini;rimozione elemento;rimozione elemento;elemento;nascondere elemento;elemento;sposta elemento;elemento;spostamento elemento;elemento;ridimensionamento elemento;ridimensionamento elemento;ridimensionamento;espandi selezione;naviga a questo collegamento;naviga collegamento;naviga;collega;naviga;collegamento;annulla;annulla;ripristina;annulla/ripristina;eventi personalizzati;componenti web
-description: Esplora le opzioni disponibili nel Compositore esperienza visivo di Adobe Target. Fai clic su un elemento per vedere quali opzioni sono disponibili per tale elemento.
-title: Come si utilizzano le opzioni del Compositore esperienza visivo?
+keywords: opzioni compositore esperienza visivo;opzioni compositore esperienza;opzioni esperienza;modifica testo;modifica html;modifica testo/html;modifica colore di sfondo;colore di sfondo;inserisci elemento;modifica collegamento;collegamento;collegamento compositore esperienza visivo;modifica classe css;offerta di scambio;scambio di offerte;scambio di immagini;rimozione elemento;rimozione elemento;elemento;nascondere elemento;elemento;sposta elemento;elemento;spostamento elemento;elemento;ridimensionamento elemento;ridimensionamento elemento;ridimensionamento;espandere la selezione;passare a questo collegamento;navigare tra collegamenti;navigare;collegamenti;navigare;annullare;annullare/ripetere;eventi personalizzati;componenti web;decisione offerta;offer decisioning
+description: Esplorare le opzioni disponibili nella [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo).
+title: Come si utilizzano i [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 89b995f20491fe0a51c91f8a1fe7e6b1ccc7f974
+source-git-commit: fb9c9e4d2a3d0cf330724dfd02e329fedc388f01
 workflow-type: tm+mt
-source-wordcount: '2624'
-ht-degree: 71%
+source-wordcount: '2810'
+ht-degree: 65%
 
 ---
 
@@ -15,21 +15,19 @@ ht-degree: 71%
 
 Quando fai clic su un elemento di pagina nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo), un menu mostra le opzioni disponibili per quel tipo di elemento. Inoltre, nella parte inferiore della pagina viene visualizzato un percorso DOM che consente di navigare facilmente nella struttura della pagina.
 
-## Opzioni VEC
-
-Le varie azioni del Compositore esperienza visivo sono disponibili come opzioni di menu raggruppate per rendere il processo più veloce ed efficiente:
+Le varie [!UICONTROL Compositore esperienza visivo] Le azioni (VEC) sono raggruppate in opzioni di menu appropriate per rendere il lavoro più rapido ed efficiente:
 
 ![Menu delle opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/c-vec-code-editor/assets/vec-options.png)
 
 >[!NOTE]
 >
->Le opzioni disponibili dipendono dal tipo di attività che si sta modificando.
+>Le opzioni disponibili dipendono dal tipo di attività che si sta creando o modificando.
 
-### [!UICONTROL Modifica]
+## [!UICONTROL Modifica]
 
 Sono disponibili le seguenti opzioni:
 
-#### [!UICONTROL Testo/HTML] {#edit-text-html}
+### [!UICONTROL Testo/HTML] {#edit-text-html}
 
 Modifica il codice HTML per l&#39;elemento, ad esempio il testo per un&#39;area di testo, un pulsante o collegamento.
 
@@ -46,13 +44,13 @@ I seguenti tag HTML5 possono essere nidificati:
 | `<del>` | `<ul>`, `<ol>`, `<menu>`, `<h1-h6>`, `<p>` |
 | `<label>` | `<p>` |
 
-#### [!UICONTROL Colore di sfondo]
+### [!UICONTROL Colore di sfondo]
 
 Utilizza il settore colori per selezionare o configurare un colore di sfondo. È possibile selezionare un campione di colore e regolarlo utilizzando i valori RGB o i codici esadecimali. La x rossa nel selettore colore rende lo sfondo trasparente.
 
 **Nota**: questa opzione non è disponibile se è impostata un’immagine di sfondo.
 
-#### [!UICONTROL Stili] {#styles}
+### [!UICONTROL Stili] {#styles}
 
 Il pannello [!UICONTROL Stili] consente di visualizzare o modificare il valore degli stili esistenti per l’elemento selezionato. Inoltre, è possibile aggiungere ulteriore formattazione.
 
@@ -64,7 +62,7 @@ Il pannello [!UICONTROL Stili] viene visualizzato sul lato destro del Compositor
 
 Quando applichi stili diversi, puoi sempre ripristinare le modifiche facendo clic sul pulsante [!UICONTROL Ripristina] che viene visualizzata nell’angolo in alto a destra del [!UICONTROL Stili] dopo aver modificato una sezione. Fai clic su [!UICONTROL Ripristina] ripristina tutte le modifiche apportate al pannello della sezione corrente.
 
-Espandi ogni sezione per modificare o aggiungere stili, come descritto di seguito. Per salvare le modifiche, fai clic sull’icona Indietro nella parte superiore del pannello per tornare alla visualizzazione principale del pannello, quindi fai clic su **[!UICONTROL Salva]**.
+Espandi ogni sezione per modificare o aggiungere stili, come descritto di seguito. Per salvare le modifiche, fai clic sul pulsante [!UICONTROL Indietro] icona nella parte superiore del pannello per tornare alla visualizzazione principale del pannello, quindi fai clic su **[!UICONTROL Salva]**.
 
 I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli di sezione indicano che sono stati modificati gli stili corrispondenti. Questo indicatore visivo facilita la revisione delle modifiche prima di fare clic su [!UICONTROL Salva].
 
@@ -202,23 +200,31 @@ I punti blu nel pannello principale e accanto a ogni opzione nei vari pannelli d
    >
    >È possibile applicare un’immagine di sfondo utilizzando l’Editor CSS, ma potrebbe causare sfarfallii. Verifica le modifiche prima di implementarle.
 
-#### [!UICONTROL Classe CSS]
+### [!UICONTROL Classe CSS]
 
 Specifica la classe CSS predefinita utilizzata per l’elemento. Se vengono selezionati più elementi, separa le classi CSS con uno spazio.
 
 Disponibile per attività di [!UICONTROL A/B], [!UICONTROL personalizzazione automatizzata] e [!UICONTROL test multivariato].
 
-#### [!UICONTROL Collegamento]
+### [!UICONTROL Collegamento]
 
 Modifica l’URL nel collegamento.
 
 Utilizza Modifica collegamento per aggiornare il selettore in modo che indirizzi allo stesso elemento immagine. Tuttavia, il collegamento a un elemento immagine diverso non è supportato. Per eseguire il collegamento a un elemento immagine diverso, elimina l’azione originale dall’editor di codice e utilizza il [!UICONTROL Compositore esperienza visivo] per applicare l’azione all’altro elemento immagine.
 
-### [!UICONTROL Inserisci prima]
+## [!UICONTROL Inserisci prima]
 
 Sono disponibili le seguenti opzioni:
 
-#### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
+### [!UICONTROL Decisione di offerta]
+
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare l&#39;offerta e l&#39;esperienza migliori ai clienti utilizzando offer decisioning.
+
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
+
+Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -230,19 +236,27 @@ Il comportamento dell’elemento inserito dipende dalla struttura della pagina, 
 
 **Nota:** l’inserimento di un’immagine richiede che [!DNL Adobe Scene7 Publishing System] sia attivato, in modo da avere accesso alla libreria delle immagini.
 
-#### Consiglio
+### Consiglio
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Frammento esperienza]
+### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Inserisci dopo]
+## [!UICONTROL Inserisci dopo]
 
 Sono disponibili le seguenti opzioni:
 
-#### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
+### [!UICONTROL Decisione di offerta]
+
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare l&#39;offerta e l&#39;esperienza migliori ai clienti utilizzando offer decisioning.
+
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
+
+Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Immagine], [!UICONTROL HTML]e [!UICONTROL Testo]
 
 Consente di aggiungere qualsiasi tipo di elemento alla pagina, e di modificare il contenuto esistente. Puoi aggiungere testo, codice, elenchi e così via per creare esperienze diverse da testare.
 
@@ -254,19 +268,27 @@ Il comportamento dell’elemento inserito dipende dalla struttura della pagina, 
 
 **Nota:** l’inserimento di un’immagine richiede che [!DNL Adobe Scene7 Publishing System] sia attivato, in modo da avere accesso alla libreria delle immagini.
 
-#### Consiglio
+### Consiglio
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Frammento esperienza]
+### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Sostituisci con]
+## [!UICONTROL Sostituisci contenuto]
 
 Sono disponibili le seguenti opzioni:
 
-#### [!UICONTROL Immagine]
+### [!UICONTROL Decisione di offerta]
+
+Aggiungi un [offerta creata in [!DNL Adobe Journey Optimizer]](https://experienceleague.adobe.com/docs/journey-optimizer/using/offer-decisioniong/get-started/starting-offer-decisioning.html){target=_blank} per presentare l&#39;offerta e l&#39;esperienza migliori ai clienti utilizzando offer decisioning.
+
+**Nota:** Questa opzione è disponibile durante la modifica o la creazione [manuale [!UICONTROL Test A/B]](/help/c-activities/t-test-ab/test-ab.md#types) o [[!UICONTROL Targeting esperienza]](/help/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa opzione non è disponibile per altri tipi di attività.
+
+Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/c-integrating-target-with-mac/ajo/offer-decision.md).
+
+### [!UICONTROL Immagine]
 
 Consente di selezionare una diversa immagine dalla libreria Contenuto. Le immagini disponibili per la sostituzione includono le immagini caricate nella cartella delle risorse di Experience Cloud o nella libreria di contenuti in Target.
 
@@ -284,7 +306,7 @@ La funzione Consigli supporta la funzione Sostituisci con nei tag DIV, SECTION e
 
 **Nota:** lo scambio delle immagini richiede un account Adobe Scene7 Publishing System.
 
-#### [!UICONTROL Offerta HTML]
+### [!UICONTROL Offerta HTML]
 
 Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
@@ -292,55 +314,55 @@ Seleziona un’offerta diversa dalla [!UICONTROL libreria dei contenuti].
 
 Un’offerta HTML può contenere fino a 256 KB.
 
-#### Consiglio
+### Consiglio
 
 Includi consigli all’interno di attività di test A/B (tra cui Allocazione automatica e Targeting automatico) e targeting delle esperienze (XT). Per ulteriori informazioni, consulta [Consigli come offerta](/help/c-recommendations/recommendations-as-an-offer.md).
 
-#### [!UICONTROL Frammento esperienza]
+### [!UICONTROL Frammento esperienza]
 
 Inserisci frammenti esperienza creati in [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target] per aiutare l’ottimizzazione o la personalizzazione. Per ulteriori informazioni, consulta [Frammenti esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md).
 
-### [!UICONTROL Layout]
+## [!UICONTROL Layout]
 
 Sono disponibili le seguenti opzioni:
 
-#### [!UICONTROL Ridisponi]
+### [!UICONTROL Ridisponi]
 
 Trascina l’elemento in un’altra posizione nello stesso elemento padre o DIV. Gli altri elementi vengono spostati per fare spazio all’elemento ridisposto.
 
 **Nota:** il tracciamento dei clic non funziona sugli elementi ridisposti.
 
-#### [!UICONTROL Ridimensiona]
+### [!UICONTROL Ridimensiona]
 
 Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTROL Ridimensiona], nell’angolo in basso a destra dell’elemento viene visualizzata una maniglia che consente di trascinare tale angolo per ridimensionare. Tieni premuto il tasto Maiusc per mantenere le stesse proporzioni.
 
 **Nota:** gli elementi in linea non possono essere ridimensionati.
 
-#### [!UICONTROL Sposta] {#move}
+### [!UICONTROL Sposta] {#move}
 
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: per garantire che gli elementi spostati non siano nascosti dietro ad altri elementi.)
 
 In alcune situazioni, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
 
-#### [!UICONTROL Nascondi]
+### [!UICONTROL Nascondi]
 
 Consnete di nascondere l’elemento. Lo spazio vuoto viene conservato, ma il contenuto viene rimosso.
 
-#### [!UICONTROL Rimuovi]
+### [!UICONTROL Rimuovi]
 
 Rimuovi l’elemento. Lo spazio vuoto dietro l&#39;immagine viene rimosso e lo spazio in cui l&#39;elemento si trovava viene compresso.
 
 **Nota:** gli elementi di una mbox classica (una mbox creata in una campagna di Target Classic) non possono essere rimossi con questa opzione.
 
-### [!UICONTROL Espandi sezione]
+## [!UICONTROL Espandi sezione]
 
 Consente di selezionare l’elemento padre in aggiunta all’elemento selezionato originariamente. Quando selezioni un elemento padre, tutti i relativi figli vengono selezionati automaticamente. Puoi espandere la selezione più volte.
 
-### [!UICONTROL Vai al link]
+## [!UICONTROL Vai al link]
 
 Consente di aprire la destinazione del collegamento.
 
-### [!UICONTROL Annulla]/[!UICONTROL Ripeti]
+## [!UICONTROL Annulla]/[!UICONTROL Ripeti]
 
 Annulla le modifiche apportate alle attività durante una sessione di modifica. Puoi inoltre ripristinare le modifiche precedentemente annullate.
 
