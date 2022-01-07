@@ -1,20 +1,26 @@
 ---
 keywords: privacy;indirizzo ip;geosegmentazione;opt out;opt-out;privacy dei dati;regolamenti governativi;regolamenti;rgpd;ccpa
-description: Scopri in che modo Adobe [!DNL Target] rispetta le leggi sulla privacy dei dati applicabili, tra cui la raccolta e la gestione degli indirizzi IP e le istruzioni di rinuncia.
-title: In che modo [!DNL Target] gestisce i problemi di privacy?
-feature: Privacy e sicurezza
+description: Adobe [!DNL Target] rispetta le leggi sulla privacy dei dati applicabili, inclusa la raccolta e la gestione degli indirizzi IP, e le istruzioni di rinuncia.
+title: Come funziona [!DNL Target] Gestire i problemi di privacy?
+feature: Privacy & Security
 role: Developer
 exl-id: fb632923-fa36-4553-88a6-f27860472eb6
-source-git-commit: bc5fd0695121ff99838b3df2a59b36b3a89b2cac
+source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
 workflow-type: tm+mt
-source-wordcount: '669'
-ht-degree: 60%
+source-wordcount: '738'
+ht-degree: 55%
 
 ---
 
 # Privacy
 
-[!DNL Adobe Target] ha abilitato processi e impostazioni che ti consentono di utilizzare  [!DNL Target] in conformità alle leggi sulla privacy dei dati applicabili.
+[!DNL Adobe Target] ha attivato processi e impostazioni che consentono di utilizzare [!DNL Target] in conformità alle leggi sulla privacy dei dati applicabili.
+
+## Raccolta di dati sull’utilizzo delle funzioni
+
+Dati di utilizzo delle singole funzioni raccolti per uso interno [!DNL Adobe] per stabilire se [!DNL Target] le funzioni vengono eseguite come previsto o per identificare le funzioni che sono in fase di sottoutilizzazione. Vengono raccolte varie misurazioni della latenza per contribuire a risolvere i problemi di prestazioni. I dati personali non vengono raccolti.
+
+Puoi rinunciare a segnalare i dati di utilizzo negli SDK impostando `telemetryEnabled` su false nelle opzioni di inizializzazione del client. Per ulteriori informazioni, consulta [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## Raccolta di indirizzi IP {#section_91BDB8105EBF4B85B7B8B8A14675AC85}
 
@@ -36,7 +42,7 @@ Target riceve l’indirizzo IP completo e lo offusca (se impostato su Ultimo ott
 
 >[!NOTE]
 >
->[Contatta Adobe Client ](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) Carto per determinare quale impostazione stai utilizzando o per abilitare la funzione di offuscamento dell’IP.
+>[Contattare l’Assistenza clienti di Adobe](/help/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per determinare quale impostazione si sta utilizzando o per abilitare la funzione di oscuramento dell’IP.
 
 ## Geosegmentazione {#section_BB69F96559BD44BDA4177537C4A5345A}
 
@@ -52,8 +58,7 @@ Puoi aggiungere un collegamento di rinuncia ai siti per consentire ai visitatori
 
    `<a href="https://clientcode.tt.omtrdc.net/optout"> Your Opt Out Language Here</a>`
 
-1. (Condizionale) Se utilizzi CNAME, il collegamento deve contenere il parametro &quot;client=`clientcode` , ad esempio:
-https://my.cname.domain/optout?client=clientcode.
+1. (Condizionale) Se utilizzi CNAME, il collegamento deve contenere il valore &quot;client=`clientcode` ad esempio: https://my.cname.domain/optout?client=clientcode.
 
 1. Sostituisci `clientcode` con il tuo codice client e aggiungi il testo o l’immagine da collegare all’URL di rinuncia.
 
@@ -63,4 +68,4 @@ Anche se utilizzi un’implementazione di cookie di prima parte, la rinuncia vie
 
 ## Normative sulla privacy e la protezione dei dati
 
-Consulta [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell&#39;Unione Europea, il California Consumer Privacy Act (CCPA) e altri requisiti internazionali sulla privacy, e come questi regolamenti influiscono sulla tua organizzazione e su Adobe Target.
+Vedi [Normative sulla privacy e la protezione dei dati](/help/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) per informazioni sul Regolamento generale sulla protezione dei dati (RGPD) dell’Unione Europea, sul California Consumer Privacy Act (CCPA) e su altri requisiti internazionali sulla privacy, e su come questi regolamenti influiscono sulla tua organizzazione e su Adobe Target.
