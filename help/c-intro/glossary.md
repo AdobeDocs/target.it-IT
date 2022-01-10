@@ -3,10 +3,10 @@ description: Cosa significano i vari termini utilizzati in Adobe  [!DNL Target] 
 title: Dove posso trovare termini e definizioni utilizzati in Target?
 feature: Overview
 exl-id: 7385844a-1472-409c-aca2-dd9f4bf95534
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '2425'
-ht-degree: 100%
+source-git-commit: 2ec0808000fab6698802d25397aaac96865d592a
+workflow-type: tm+mt
+source-wordcount: '2493'
+ht-degree: 97%
 
 ---
 
@@ -271,6 +271,10 @@ Consente ai visitatori di rinunciare a tutte le operazioni di tracciamento e con
 **conteggio di pagina**
 
 Una metrica di coinvolgimento che calcola il numero di pagine visualizzate in una visita, dal momento in cui il visitatore vede per la prima volta il primo elemento mbox di visualizzazione dell’attività.
+
+**visualizzazione a pagina**
+
+Visualizzazione pagina indica una singola visualizzazione di un’applicazione mobile o browser, e-mail o pagina web di un sito Internet, incluse le visualizzazioni a schermo dell’applicazione, gli stati a schermo dell’applicazione, le pagine web mobile e le pagine di social network. Le visualizzazioni di pagina si verificano ogni volta che una pagina web viene caricata o aggiornata, viene caricata un’applicazione, quando il contenuto di destinazione viene renderizzato o generato o viene mostrato tramite un messaggio e-mail aperto o visualizzato.
 
 **priorità**
 
