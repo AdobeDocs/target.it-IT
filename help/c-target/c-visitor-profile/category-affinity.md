@@ -2,12 +2,12 @@
 keywords: affinità;affinità tra categorie
 description: Scopri l’affinità tra categorie in Adobe [!DNL Target] che acquisisce automaticamente le categorie visitate da un utente e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere indirizzata e segmentata.
 title: Cos’È L’Affinità Tra Categorie?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: c19163020cdcb41a17ea6b65b5b500fadc9c7512
+source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
 workflow-type: tm+mt
-source-wordcount: '793'
-ht-degree: 74%
+source-wordcount: '798'
+ht-degree: 68%
 
 ---
 
@@ -17,7 +17,7 @@ La funzione di affinità tra categorie in [!DNL Adobe Target] acquisisce automat
 
 ## Passaggio di informazioni sull’affinità tra categorie in [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
-Ogni volta che un utente visita il tuo sito, i parametri di profilo specifici per tale visitatore vengono registrati nel database di [!DNL Target]. Questi dati sono associati al cookie dell’utente. Un parametro utile è `user.categoryId`, un parametro mbox assegnato a una pagina di prodotto. Quando il visitatore continua a navigare, o torna per un’altra sessione, è possibile registrare le categorie di prodotti che l’utente visualizza. È inoltre possibile registrare le informazioni di categoria trasmettendole con il parametro mbox `user.categoryId` in qualsiasi mbox (compresa una mbox nidificata), come il parametro URL `user.categoryId` oppure come parametri di pagina Target con una mbox globale. Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
+Ogni volta che un utente visita il tuo sito, i parametri di profilo specifici per tale visitatore vengono registrati nel database di [!DNL Target]. Questi dati sono associati al cookie dell’utente. Un parametro utile è `user.categoryId`, un parametro mbox assegnato a una pagina di prodotto. Quando il visitatore continua a navigare, o torna per un’altra sessione, è possibile registrare le categorie di prodotti che l’utente visualizza. È inoltre possibile registrare le informazioni di categoria trasmettendole con il parametro mbox `user.categoryId` in qualsiasi mbox (compresa una mbox nidificata), come il parametro URL `user.categoryId` oppure come parametri di pagina con una mbox globale. [!DNL Target] Per ulteriori dettagli, rivolgiti al rappresentante del tuo account.
 
 Per includere un elemento in più categorie, separa le categorie con una virgola. Ad esempio:
 
@@ -25,15 +25,15 @@ Per includere un elemento in più categorie, separa le categorie con una virgola
 
 In base alla frequenza e recency delle visite alle categorie di prodotti, viene registrata l’eventuale affinità di categoria per un utente. L’affinità di categoria può essere utilizzata per indirizzare le tue attività a specifici tipi di visitatori.
 
-È possibile utilizzare `user.categoryAffinities[]` in uno script di profilo per restituire una matrice delle affinità che un visitatore ha popolato.
+È possibile utilizzare `user.categoryAffinities[]` in uno script di profilo per restituire una matrice delle affinità che un visitatore ha popolato. Per ulteriori informazioni, consulta [user.categoryAffinities in Oggetti e metodi negli attributi del profilo](/help/c-target/c-visitor-profile/profile-parameters.md#objects).
 
 >[!IMPORTANT]
 >
->L’attributo `user.categoryId` utilizzato per l’algoritmo di affinità tra categorie è diverso dall’attributo `entity.categoryId` utilizzato per i consigli di prodotti e contenuti [!DNL Adobe Target Recommendations]. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare i consigli sulla categoria della pagina corrente o dell’elemento corrente. Per utilizzare entrambe le funzionalità, passa entrambi i valori ad Adobe Target.
+>La `user.categoryId` l’attributo utilizzato per l’algoritmo di affinità tra categorie è diverso da `entity.categoryId` attributo utilizzato per [!DNL Adobe Target Recommendations]consigli su prodotti e contenuti. `user.categoryId` è richiesto per tenere traccia della categoria preferita di un utente. `entity.categoryId` è richiesto per basare i consigli sulla categoria della pagina corrente o dell’elemento corrente. Passa entrambi i valori a [!DNL Target] se desideri utilizzare entrambe le funzionalità.
 
 ## Business case per affinità tra categorie {#section_D6FF913E88E6486B8FBCE117CA8B253B}
 
-L’attività di un visitatore in una sessione, ad esempio la categoria che visualizza più spesso, può essere usata per il targeting nelle visite successive. Ogni pagina di categoria che un utente visualizza durante una sessione viene acquisita e la sua categoria “preferita” è calcolata sulla base di un modello di recency e frequenza. Poi, ogni volta che il visitatore torna alla home page, l’area delle immagini protagonista può essere utilizzata per mostrare i contenuti relativi alla categoria preferita dell’utente.
+L’attività di un visitatore in una sessione, ad esempio la categoria che visualizza più spesso, può essere utilizzata per il targeting nelle visite successive. Ogni pagina di categoria che un utente visualizza durante una sessione viene acquisita e la sua categoria “preferita” è calcolata sulla base di un modello di recency e frequenza. Poi, ogni volta che il visitatore torna alla home page, l’area delle immagini protagonista può essere utilizzata per mostrare i contenuti relativi alla categoria preferita dell’utente.
 
 ## Esempio di utilizzo dell’affinità tra categorie {#section_A4AC0CA550924CB4875F4F4047554C18}
 
@@ -100,7 +100,7 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico con
 
 ### Creare un pubblico da utilizzare per Affinità tra categorie {#section_A27C600BBA664FE7A74F8FE076B78F40}
 
-1. Dall&#39;elenco **[!UICONTROL Tipi di pubblico]**, fai clic su **[!UICONTROL Crea pubblico]**.
+1. Da **[!UICONTROL Tipi di pubblico]** elenco, fai clic su **[!UICONTROL Crea pubblico]**.
 
    Oppure
 
@@ -114,7 +114,7 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico con
 
 1. Seleziona la categoria desiderata:
 
-   ![Affinità tra categorie > Categoria](/help/c-target/c-visitor-profile/assets/affinity-category.png)
+   ![Affinità tra categorie > Categoria](assets/affinity-category.png)
 
    Le categorie includono:
 
@@ -138,4 +138,4 @@ Le sezioni seguenti contengono informazioni utili per utilizzare un pubblico con
 
 ### Utilizzare il pubblico con Affinità tra categorie in unʼattività {#section_91526B942D1B4AEBB8FCDF4EBFF931CF}
 
-Puoi utilizzare i tipi di pubblico con affinità tra categorie in qualsiasi attività. Durante il flusso di lavoro guidato in tre passaggi, scegli il pubblico desiderato nel passaggio [!UICONTROL Target] .
+Puoi utilizzare i tipi di pubblico con affinità tra categorie in qualsiasi attività. Durante il flusso di lavoro guidato in tre passaggi, nella sezione [!UICONTROL Target] scegli il pubblico desiderato.
