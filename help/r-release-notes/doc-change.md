@@ -4,9 +4,9 @@ description: Tieniti aggiornato con importanti aggiunte e modifiche al [!DNL Ado
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4c18eb0febccf1a93ef0e423c46eeb08f8817b43
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '3245'
+source-wordcount: '3266'
 ht-degree: 97%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Gennaio 19 | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | È stata aggiunta la seguente sezione: &quot;at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando vst.* parameters&quot; |
 | Gennaio 12 | [Tutorial per Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | È stato aggiunto un collegamento all’esercitazione con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con SDK per web. |
 | Gennaio 11 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (19 gennaio 2022)</li></ul> |
 | Gennaio 7 | [Note sulla versione](/help/r-release-notes/release-notes.md) | Nuove informazioni sulla versione 2.8.0 di at.js. |

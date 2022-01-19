@@ -1,19 +1,19 @@
 ---
 keywords: affinità;affinità tra categorie
-description: Scopri l’affinità tra categorie in Adobe [!DNL Target] che acquisisce automaticamente le categorie visitate da un utente e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere indirizzata e segmentata.
+description: Scopri l’affinità tra categorie in [!DNL Adobe Target] che acquisisce automaticamente le categorie visitate da un utente e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere indirizzata e segmentata.
 title: Cos’È L’Affinità Tra Categorie?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 064620bea693ab52af9819b3409a386c1faf8864
+source-git-commit: f2a1bdf07703f119191087e86e5968b0080528b4
 workflow-type: tm+mt
-source-wordcount: '798'
+source-wordcount: '801'
 ht-degree: 68%
 
 ---
 
 # Affinità tra categorie
 
-La funzione di affinità tra categorie in [!DNL Adobe Target] acquisisce automaticamente le categorie visitate da un utente e quindi calcola l’affinità dell’utente per la categoria in modo che possa essere utilizzata per il targeting e la segmentazione. L’affinità tra categorie aiuta a garantire che il contenuto sia indirizzato ai visitatori che hanno più probabilità di agire in base a tali informazioni.
+La funzione di affinità tra categorie in [!DNL Adobe Target] acquisisce automaticamente le categorie sul sito visitate da un utente e quindi calcola l’affinità dell’utente per ogni categoria in modo che possa essere indirizzata e segmentata. L’affinità tra categorie aiuta a garantire che il contenuto sia indirizzato ai visitatori che hanno più probabilità di agire in base a tali informazioni.
 
 ## Passaggio di informazioni sull’affinità tra categorie in [!DNL Target] {#section_B0C8E46EEBAC4549AD90352A47787D04}
 
