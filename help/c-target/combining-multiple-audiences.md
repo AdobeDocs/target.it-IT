@@ -1,27 +1,27 @@
 ---
 keywords: pubblico;regole del pubblico;combinare il pubblico;esclusione;aggiungere esclusione;escludere;combinazione di tipi di pubblico;pubblico adhoc;pubblico ad hoc
-description: Scopri come combinare al volo più tipi di pubblico (tra cui quelli di Adobe Experience Cloud e [!DNL Target] ) per creare un pubblico ad hoc.
+description: Scopri come combinare più tipi di pubblico (tra cui i tipi di pubblico di Adobe Experience Cloud e [!DNL Target] audience) per creare al volo tipi di pubblico ad hoc.
 title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
-feature: Tipi di pubblico
+feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 20a5201b5c05b1f083252ac73b3b4bbc91e97aaa
+source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '927'
 ht-degree: 69%
 
 ---
 
 # Combinare più tipi di pubblico
 
-Combina al volo più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform] e [!DNL Target] ) per creare un pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
+Combinare più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!DNL Adobe Experience Platform]e [!DNL Target] audience) per creare al volo tipi di pubblico ad hoc. Puoi anche creare regole di esclusione ed escludere un determinato pubblico da una regola.
 
 >[!NOTE]
 >
->L&#39;origine [!DNL Adobe Experience Platform] si trova in un programma di test Beta, ma è disponibile per tutti i clienti [!DNL Target] che utilizzano [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). I tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] possono essere utilizzati così come sono o [combinati con i tipi di pubblico esistenti](/help/c-target/combining-multiple-audiences.md).
+>La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento).
 
 Supponi di avere un pubblico “Nuovi visitatori” e un pubblico “Utenti Chrome”. Per un&#39;attività specifica, è possibile combinare questi gruppi di pubblico esistenti per indirizzare nuovi visitatori che utilizzano browser Chrome. Anziché creare un terzo pubblico e archiviarlo nella libreria [!UICONTROL Pubblico], è possibile combinare questi due gruppi di pubblico durante la creazione dell&#39;attività o durante la modifica di un&#39;attività esistente.
 
-Ad esempio, puoi rivolgerti a tutti i clienti fidelizzati. Ad esempio, puoi includere un pubblico specifico [!DNL Audience Manager] per lo stato di fedeltà e combinarlo con un pubblico [!DNL Target] composto da persone che hanno firmato per il tuo programma fedeltà durante la sessione corrente. Combinare questi due tipi di pubblico è più semplice che creare un terzo pubblico permanente.
+Ad esempio, puoi rivolgerti a tutti i clienti fidelizzati. Ad esempio, puoi includere un [!DNL Audience Manager] pubblico per lo stato fedeltà e combinarlo con un [!DNL Target] pubblico composto da persone che hanno firmato per il tuo programma fedeltà durante la sessione corrente. Combinare questi due tipi di pubblico è più semplice che creare un terzo pubblico permanente.
 
 È possibile combinare fino a dieci gruppi di pubblico utilizzando gli operatori AND/OR (E/O).
 
@@ -31,23 +31,23 @@ Ad esempio, puoi rivolgerti a tutti i clienti fidelizzati. Ad esempio, puoi incl
 
 Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] dell’attività durante il flusso di lavoro guidato in tre passaggi.
 
-1. Durante la creazione di un [attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), nella pagina **[!UICONTROL Targeting]** fai clic sui tre puntini di sospensione verticali, quindi fai clic su **[!UICONTROL Sostituisci pubblico]**.
+1. Durante la creazione di un’ [attività](/help/c-activities/activities.md#concept_D317A95A1AB54674BA7AB65C7985BA03), sul **[!UICONTROL Targeting]** fare clic sui tre puntini di sospensione verticali, quindi fare clic su **[!UICONTROL Sostituisci pubblico]**.
 
    ![Risultato passaggio](assets/edit_audience.png)
 
 1. Nella pagina [!UICONTROL Scegli pubblico] seleziona le caselle di controllo accanto ai gruppi di pubblico desiderati che desideri utilizzare come blocchi predefiniti per il pubblico combinato.
 
-   Fai clic sul pulsante [!UICONTROL Filtri] per limitare la ricerca del pubblico desiderato. Puoi filtrare i tipi di pubblico in base alla loro origine: ([!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform] (beta)).
+   Fai clic sul pulsante [!UICONTROL Filtri] per limitare la ricerca del pubblico desiderato. Puoi filtrare i tipi di pubblico in base alla loro origine: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
 
    ![Risultato passaggio](assets/combine_multiple_audiences1.png)
 
-1. Fai clic su **[!UICONTROL Combina pubblico]** nell&#39;angolo in alto a destra.
+1. Fai clic su **[!UICONTROL Combinare tipi di pubblico]** nell&#39;angolo in alto a destra.
 
    ![Risultato passaggio](assets/combine_multiple_audiences2.png)
 
 1. (Condizionale) Modifica il nuovo pubblico combinato come desiderato.
 
-   La finestra di dialogo [!UICONTROL Modifica pubblico] consente di trascinare ulteriori blocchi predefiniti per il pubblico dal lato sinistro al nuovo pubblico combinato. Puoi anche aggiungere regole di esclusione per escludere i tipi di pubblico.
+   La [!UICONTROL Modifica pubblico] consente di trascinare e rilasciare ulteriori blocchi predefiniti per il pubblico dal lato sinistro al nuovo pubblico combinato. Puoi anche aggiungere regole di esclusione per escludere i tipi di pubblico.
 
    1. Utilizza la funzionalità di trascinamento della selezione per aggiungere tipi di pubblico all’interno di una sezione esistente come modulo di livello 2.
 
@@ -61,7 +61,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
       >
       >L’operatore (AND oppure OR) deve rimanere lo stesso quando combini gruppi di pubblico. Non puoi combinare e abbinare gli operatori.
 
-   1. Per aggiungere un&#39;esclusione a una regola, fai clic su **[!UICONTROL Escludi]**.
+   1. Per aggiungere un’esclusione a una regola, fai clic su **[!UICONTROL Escludi]**.
 
       ![](assets/combine_multiple_audiences3a.png)
 
@@ -113,7 +113,7 @@ Puoi creare un pubblico combinato specifico durante la modifica di un&#39;attivi
 
    Fai clic sull&#39;attività desiderata per aprirla, quindi fai clic su **[!UICONTROL Modifica attività]**.
 
-1. Fai clic su **[!UICONTROL Configura]** > **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Più tipi di pubblico]**.
+1. Fai clic sul pulsante **[!UICONTROL Configura]** > **[!UICONTROL Tipi di pubblico]** > **[!UICONTROL Più tipi di pubblico]**.
 
    ![Configura > Tipi di pubblico > Più tipi di pubblico](assets/combine_multiple_audiences7.png)
 
