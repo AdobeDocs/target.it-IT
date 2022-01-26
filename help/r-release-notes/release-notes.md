@@ -6,9 +6,9 @@ title: Quali nuove funzioni sono incluse nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 8fe168950effe60ead262c842fe9d89d1e376e57
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1140'
-ht-degree: 96%
+ht-degree: 100%
 
 ---
 
@@ -26,7 +26,7 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 ## at.js versione 2.8.0 (7 gennaio 2022)
 
-La [!DNL Target] La libreria JavaScript at.js ora raccoglie dati di telemetria relativi all’utilizzo delle funzioni e alle prestazioni. I dati personali non vengono raccolti. La rinuncia a questa funzione è disponibile impostando `telemetryEnabled` false in `targetGlobalSettings`. Per ulteriori informazioni, consulta [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+La [!DNL Target] libreria JavaScript at.js ora raccoglie dati di telemetria relativi all’utilizzo delle funzioni e alle prestazioni. I dati personali non vengono raccolti. La rinuncia a questa funzione è disponibile impostando `telemetryEnabled` false in `targetGlobalSettings`. Per ulteriori informazioni, consulta [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## [!DNL Target Standard/Premium] 21.10.5 (28 ottobre 2021)
 
@@ -72,7 +72,7 @@ Sono stati aggiunti i seguenti miglioramenti quando si utilizzano [!DNL Target] 
 
    * Passaggio [!UICONTROL Esperienze] del flusso di lavoro per la creazione di attività:
 
-      ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Esperienze] ](assets/deleted-at-source-experiences.png)
+      ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Esperienze]](assets/deleted-at-source-experiences.png)
 
    * Passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività:
 
