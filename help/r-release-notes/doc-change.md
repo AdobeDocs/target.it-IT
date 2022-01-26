@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7c8620df9cefe422f499d4edb681d024e74529ce
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3318'
 ht-degree: 99%
 
 ---
@@ -15,13 +15,22 @@ ht-degree: 99%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
+## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 gennaio 2022)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| Gennaio 26 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte nuove informazioni sulla versione di Target Standard/Premium 22.1.2. |
+|  | [Creazione di un pubblico](/help/c-target/c-audiences/audiences.md) | Nuove informazioni su [!DNL Adobe Experience Platform] pubblico. |
+|  | [Combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md) | Nuove informazioni su [!DNL Adobe Experience Platform] pubblico. |
+| Gennaio 21 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Aggiunte informazioni sulla versione 1.8.3 di at.js. |
+| Gennaio 19 | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | È stata aggiunta la seguente sezione: &quot;at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando vst.* parameters&quot; |
+| 12 gennaio | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte nuove informazioni sulla versione di Target Standard/Premium 22.1.1. |
+|  | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | È stato aggiunto un collegamento all’esercitazione con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |
+
 ## [!DNL Adobe Target Standard/Premium] 21.10.1 (6 ottobre 2021)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Gennaio 21 | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md#183) | Aggiunte informazioni sulla versione 1.8.3 di at.js. |
-| Gennaio 19 | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](/help/c-implementing-target/c-implementing-target-for-client-side-web/upgrading-from-atjs-1x-to-atjs-20.md#vst) | È stata aggiunta la seguente sezione: &quot;at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando vst.* parameters&quot; |
-| 12 gennaio | [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | È stato aggiunto un collegamento all’esercitazione con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |
 | Gennaio 11 | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (19 gennaio 2022)</li></ul> |
 | 7 gennaio | [Note sulla versione](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla versione 2.8.0 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.8.0 di at.js. |

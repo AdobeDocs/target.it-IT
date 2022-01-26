@@ -4,10 +4,10 @@ description: Scopri come combinare più tipi di pubblico (tra cui i tipi di pubb
 title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 0ac66c49b319b1ab1791fd91428fd2764f48c3ec
 workflow-type: tm+mt
-source-wordcount: '927'
-ht-degree: 69%
+source-wordcount: '937'
+ht-degree: 68%
 
 ---
 
@@ -18,6 +18,8 @@ Combinare più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!DNL Ad
 >[!NOTE]
 >
 >La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento).
+>
+>Per ulteriori informazioni consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/c-target/c-audiences/audiences.md#aep).
 
 Supponi di avere un pubblico “Nuovi visitatori” e un pubblico “Utenti Chrome”. Per un&#39;attività specifica, è possibile combinare questi gruppi di pubblico esistenti per indirizzare nuovi visitatori che utilizzano browser Chrome. Anziché creare un terzo pubblico e archiviarlo nella libreria [!UICONTROL Pubblico], è possibile combinare questi due gruppi di pubblico durante la creazione dell&#39;attività o durante la modifica di un&#39;attività esistente.
 

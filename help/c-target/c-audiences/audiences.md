@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 91bfeb8896fd3ddc7d198481db317bde04b05f79
+source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
 workflow-type: tm+mt
-source-wordcount: '772'
-ht-degree: 32%
+source-wordcount: '1044'
+ht-degree: 26%
 
 ---
 
@@ -47,7 +47,9 @@ La [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi utilizzare
    >
    >La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](/help/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/c-target/combining-multiple-audiences.md).
    >
-   >Gli utenti devono avere [!UICONTROL Approvatore] o lo stato precedente in [!DNL Target] per configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-Time Customer Data Platform]).
+   >Gli utenti devono avere [!UICONTROL Approvatore] o lo stato precedente in [!DNL Target] per configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
+   >
+   >Per ulteriori informazioni consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](#aep).
 
 Tipi di pubblico predefiniti, ad esempio &quot;[!UICONTROL Nuovi visitatori]&quot; e &quot;[!UICONTROL Visitatori di ritorno],&quot; non può essere rinominato.
 
@@ -102,6 +104,29 @@ Keep the following points in mind as you work with imported audiences:
 
 * Expression target audiences are no longer supported in Target Standard/Premium. 
 * Target Standard/Premium does not support some deprecated audiences or has improved operators for ease of use. Because of this, the definition of an imported audience, although working as per definition, does not mean that same is now available for creation in the Standard/Premium interface. For example, Social Audiences are visible with their rules but Target Standard/Premium does not allow social audiences to be created.-->
+
+## Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform] {#aep}
+
+Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] forniscono dati più ricchi sui clienti che consentono una personalizzazione più incisiva. La [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), integrato in [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali. Questo processo ti consente di creare profili cliente da utilizzare in tempo reale per fornire esperienze cliente personalizzate su tutti i canali e dispositivi.
+
+Collegamento [!DNL Target] al [!DNL Real-time Customer Data Platform], i clienti possono arricchire la personalizzazione web sbloccando nuovi segmenti che in precedenza potevano essere inaccessibili a [!DNL Target] per abilitare la personalizzazione in tempo reale di millisecondi nella prima pagina della visita web di un cliente. Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] ti consente di espandere i punti dati disponibili per una personalizzazione più ricca.
+
+Per maggiori informazioni, vedi i seguenti argomenti:
+
+* [Note sulla versione delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
+* [Connessione di personalizzazione personalizzata](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} nel *Panoramica sulle destinazioni* guida
+* [Connessione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} nel *Panoramica sulle destinazioni* guida
+* [Configurare le destinazioni di personalizzazione per la stessa pagina e i casi d’uso di personalizzazione della pagina successivi](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+La tabella seguente mostra il tempo di valutazione dei segmenti per gli eventi provenienti da diversi scenari di implementazione:
+
+| Scenario | Segmento perimetrale (valutazione in millisecondi) | Segmento in streaming (valutazione dei minuti) | Valutazione dei segmenti in batch |
+| --- | --- | --- | --- |
+| Eventi/dati dagli SDK Adobe Experience Platform | Sì | Sì | N/D |
+| Eventi da at.js | No | Sì | N/D |
+| Eventi dagli SDK di Target Mobile | No | Sì | N/D |
+| Eventi da caricamento batch | No | No | Sì |
+| Eventi da dati offline (streaming) | No | Sì | Sì |
 
 ## Video di formazione: Utilizzo del pubblico ![Badge tutorial](/help/assets/tutorial.png)
 

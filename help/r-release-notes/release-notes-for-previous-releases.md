@@ -4,10 +4,10 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: cc260620cf87feebcd4c43f45f05406ac845cf5b
+source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
 workflow-type: tm+mt
-source-wordcount: '32584'
-ht-degree: 100%
+source-wordcount: '32655'
+ht-degree: 99%
 
 ---
 
@@ -20,6 +20,14 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >[!NOTE]
 >
 >Consulta [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
+
+## Note sulla versione - 2022
+
+### [!DNL Target Standard/Premium] 22.1.2 (12 gennaio 2022)
+
+| Funzione | Dettagli |
+| --- | --- |
+| Utilizzare le decisioni relative alle offerte in [!DNL Target] attività | Ora puoi utilizzare [!DNL Adobe Journey Optimizer] prendere decisioni in [!DNL Adobe Target] Attività di test A/B e targeting delle esperienze (XT) per determinare e distribuire l’offerta migliore successiva per i visitatori su web e dispositivi mobili.<br>**Nota**: Questa funzionalità è disponibile per [!DNL Target] clienti che hanno accesso anche a [!DNL Offer Decisioning] e hanno un [!DNL Target] implementazione basata su Adobe Experience Platform Web SDK.<br>Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
 
 ## Note sulla versione - 2021
 
@@ -37,7 +45,7 @@ Questa versione di manutenzione include i seguenti miglioramenti:
 | --- | --- |
 | [!UICONTROL Compositore esperienza visivo] | È stato aggiunto il supporto per [Componenti web](https://developer.mozilla.org/en-US/docs/Web/Web_Components). È possibile creare e testare esperienze e offerte personalizzate su elementi personalizzati e su elementi al loro interno.<br>Per ulteriori informazioni, consulta la sezione sulle [opzioni del Compositore esperienza visivo](/help/c-experiences/c-visual-experience-composer/viztarget-options.md#custom). |
 
-## [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
+### [!DNL Target Standard/Premium] 21.10.4 (21 ottobre 2021)
 
 Questa versione di manutenzione include i seguenti miglioramenti:
 
@@ -73,7 +81,7 @@ Sono stati aggiunti i seguenti miglioramenti quando si utilizzano [!DNL Target] 
 
    * Passaggio [!UICONTROL Esperienze] del flusso di lavoro per la creazione di attività:
 
-      ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Esperienze] ](assets/deleted-at-source-experiences.png)
+      ![Messaggio di pubblico eliminato alla sorgente nella pagina [!UICONTROL Esperienze]](assets/deleted-at-source-experiences.png)
 
    * Passaggio [!UICONTROL Targeting] del flusso di lavoro per la creazione di attività:
 
