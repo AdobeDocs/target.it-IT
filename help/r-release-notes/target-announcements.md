@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '571'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,13 +21,13 @@ Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Tar
 * **08:00 PST (17:00 CET)**
 * **[Ulteriori informazioni e registrazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
 
-Jon Tehero, Group Product Manager per [!DNL Adobe Target], risponderà alle tue domande relative ai suoi settori di competenza:
+Jon Tehero, Group Product Manager di [!DNL Adobe Target], risponderà alle domande riguardanti le sue aree di competenza:
 
 * [!DNL Adobe Target] integrazione con [!DNL Adobe Journey Optimizer] (AJO)
 * Interfaccia utente [!DNL Adobe Target]
 * Argomenti generali su [!DNL Adobe Target]
 
-## Webinar: Personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
+## Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
 Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva del cliente su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
 
