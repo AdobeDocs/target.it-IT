@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 315ddd7444e96e473285c30c32f2ce379e0380ac
+source-git-commit: a7f28b4d94cb18bb3e50c7b04918a516f0d10616
 workflow-type: tm+mt
-source-wordcount: '32655'
+source-wordcount: '32598'
 ht-degree: 99%
 
 ---
@@ -23,11 +23,9 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 
 ## Note sulla versione - 2022
 
-### [!DNL Target Standard/Premium] 22.1.2 (12 gennaio 2022)
+### [!DNL Target Standard/Premium] 22.1.1 (12 gennaio 2022)
 
-| Funzione | Dettagli |
-| --- | --- |
-| Utilizzare le decisioni relative alle offerte in [!DNL Target] attività | Ora puoi utilizzare [!DNL Adobe Journey Optimizer] prendere decisioni in [!DNL Adobe Target] Attività di test A/B e targeting delle esperienze (XT) per determinare e distribuire l’offerta migliore successiva per i visitatori su web e dispositivi mobili.<br>**Nota**: Questa funzionalità è disponibile per [!DNL Target] clienti che hanno accesso anche a [!DNL Offer Decisioning] e hanno un [!DNL Target] implementazione basata su Adobe Experience Platform Web SDK.<br>Per ulteriori informazioni, consulta [Utilizzare le decisioni sulle offerte](/help/c-integrating-target-with-mac/ajo/offer-decision.md). |
+Questa versione include correzioni di bug e funzionalità preliminari necessarie per integrazioni future.
 
 ## Note sulla versione - 2021
 
