@@ -4,10 +4,10 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 54d68bd528bac2ef3867943c670445c7c9e147e0
+source-git-commit: fd1d276cd01221be1fbde7931b4350edefe1965c
 workflow-type: tm+mt
-source-wordcount: '1044'
-ht-degree: 26%
+source-wordcount: '1105'
+ht-degree: 25%
 
 ---
 
@@ -107,9 +107,20 @@ Keep the following points in mind as you work with imported audiences:
 
 ## Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform] {#aep}
 
-Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] forniscono dati più ricchi sui clienti che consentono una personalizzazione più incisiva. La [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCP), integrato in [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali. Questo processo ti consente di creare profili cliente da utilizzare in tempo reale per fornire esperienze cliente personalizzate su tutti i canali e dispositivi.
+Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] forniscono dati più ricchi sui clienti che consentono una personalizzazione più incisiva. La [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html){target=_blank} (RTCDP), costruito su [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali. Questo processo ti consente di creare profili cliente da utilizzare in tempo reale per fornire esperienze cliente personalizzate su tutti i canali e dispositivi.
 
 Collegamento [!DNL Target] al [!DNL Real-time Customer Data Platform], i clienti possono arricchire la personalizzazione web sbloccando nuovi segmenti che in precedenza potevano essere inaccessibili a [!DNL Target] per abilitare la personalizzazione in tempo reale di millisecondi nella prima pagina della visita web di un cliente. Utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] ti consente di espandere i punti dati disponibili per una personalizzazione più ricca.
+
+Questa integrazione sblocca i casi d’uso chiave con RTCDP:
+
+* Personalizzazione a pagina singola/hit successivo
+* Personalizzazione di utenti sconosciuti/nuovi
+
+Le caratteristiche principali includono:
+
+* Integrazione diretta di Target con RTCDP/[!DNL Adobe Experience Platform] sul bordo (rimozione della dipendenza da [!DNL Audience Core services] - AAM)
+* [!UICONTROL Scheda Destinazioni Edge di Target] con applicazione della governance
+* Segmentazione Edge e profilo Edge con profilo unificato
 
 Per maggiori informazioni, vedi i seguenti argomenti:
 
@@ -117,6 +128,12 @@ Per maggiori informazioni, vedi i seguenti argomenti:
 * [Connessione di personalizzazione personalizzata](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} nel *Panoramica sulle destinazioni* guida
 * [Connessione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} nel *Panoramica sulle destinazioni* guida
 * [Configurare le destinazioni di personalizzazione per la stessa pagina e i casi d’uso di personalizzazione della pagina successivi](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+
+### Blog e video di Adobe Target:
+
+[[!DNL Adobe] announces Same Page Enhanced Personalization with [!DNL Adobe Target] e [!DNL Real-time Customer Data Platform]](https://blog.adobe.com/en/publish/2021/10/05/adobe-announces-same-page-enhanced-personalization-with-adobe-target-real-time-customer-data-platform){target=_blank}
+
+### Informazioni aggiuntive
 
 La tabella seguente mostra il tempo di valutazione dei segmenti per gli eventi provenienti da diversi scenari di implementazione:
 
