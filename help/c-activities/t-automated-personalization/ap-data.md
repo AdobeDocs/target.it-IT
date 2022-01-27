@@ -4,7 +4,7 @@ description: Scopri quale Adobe di dati [!DNL Target] raccoglie e utilizza per c
 title: Quali dati vengono raccolti per creare algoritmi di apprendimento automatico?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: d191274f18098edeba1f6f87c75d9ca20ba0c412
+source-git-commit: 330e48f55e8342a8ac5f27abae392b3950b300db
 workflow-type: tm+mt
 source-wordcount: '2085'
 ht-degree: 49%
@@ -77,7 +77,7 @@ Per bloccare una o più feature specifiche da [!DNL Target] algoritmi di apprend
 | Nome attributo | Descrizione attributo | Valori di esempio | Nome del sistema |
 | --- | --- | --- | --- |
 | Geo - City | La città da cui il visitatore ha effettuato l’accesso all’attività. | San Francisco | Geo_City |
-| Geo - Country | Il paese da cui il visitatore ha effettuato l’accesso all’attività. | Germania | Geo_County |
+| Geo - Country | Il paese da cui il visitatore ha effettuato l’accesso all’attività. | Germania | Geo_Country |
 | Geo - DMA | L’area di marketing designata (DMA) da cui il visitatore ha effettuato l’accesso all’attività. | Charlottesville | Geo_DMA |
 | Geo - Latitude | La latitudine da cui il visitatore ha effettuato l’accesso all’attività. | 47,269<br>Arrotondato a 3 cifre decimali (precisione di circa 100 metri) | GEO_Latitude |
 | Geo - Longitude | La longitudine da cui il visitatore ha effettuato l’accesso all’attività. | -122,269<br>Arrotondato a 3 cifre decimali (precisione di circa 100 metri) | GEO_Longitude |
