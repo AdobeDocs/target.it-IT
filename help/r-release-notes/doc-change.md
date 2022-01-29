@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9887358f905b8fda8cf42f0cbd721c1ad13632d4
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '3329'
+source-wordcount: '3349'
 ht-degree: 99%
 
 ---
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 28 gennaio | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Aggiunte informazioni sulla versione 2.8.1 di at.js. |
+|  | [Dettagli sulle versioni di at.js](/help/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.8.1 di at.js. |
 | Gennaio 27 | [Frammenti di esperienza AEM](/help/c-experiences/c-manage-content/aem-experience-fragments.md) | Argomento aggiornato e informazioni aggiunte su [!DNL AEM as a Cloud Service] e [!DNL Adobe I/0]. |
 | Gennaio 26 | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte nuove informazioni sulla versione di Target Standard/Premium 22.1.2. |
 |  | [Creazione di un pubblico](/help/c-target/c-audiences/audiences.md) | Nuove informazioni su [!DNL Adobe Experience Platform] pubblico. |

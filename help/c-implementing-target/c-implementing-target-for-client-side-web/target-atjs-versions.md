@@ -5,10 +5,10 @@ title: Cosa è incluso in ogni versione di at.js?
 feature: at.js
 role: Developer
 exl-id: ec1f1459-d539-4eac-a8f1-33a2d4910dec
-source-git-commit: bb1ec772b7d6abbded11c4523784b3730a8dabb9
+source-git-commit: 7d21394391899744121b0c86405413f91cee1b15
 workflow-type: tm+mt
-source-wordcount: '4357'
-ht-degree: 87%
+source-wordcount: '4390'
+ht-degree: 88%
 
 ---
 
@@ -22,9 +22,15 @@ Dettagli sulle modifiche in ogni versione della libreria JavaScript at.js [!DNL 
 >
 >Tag in [Adobe Experience Platform](/help/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) è il metodo preferito per aggiornare at.js. Gli sviluppatori di estensioni aggiungono continuamente nuove funzionalità e spesso correggono i bug. Questi aggiornamenti vengono assemblati in nuove versioni di un&#39;estensione e sono resi disponibili nel [!DNL Adobe Experience Platform] catalogo come aggiornamenti. Per ulteriori informazioni, consulta [Aggiornamenti delle estensioni](https://experienceleague.adobe.com/docs/experience-platform/tags/ui/extensions/extension-upgrade.html) in *Panoramica sui tag* guida.
 
+## at.js versione 2.8.1 (28 gennaio 2022)
+
+* Fisso `pageLoad` non viene mappato su target-global-mbox in [!UICONTROL Su Device Decisioning] Modalità di esecuzione ibrida (ODD).
+* È stato risolto un problema relativo ai dettagli di analytics per la richiesta mbox.
+* Sono state aggiornate le dipendenze di sviluppo per correggere le vulnerabilità di sicurezza.
+
 ## at.js versione 2.8.0 (7 gennaio 2022)
 
-La [!DNL Target] La libreria JavaScript at.js ora raccoglie dati di telemetria relativi all’utilizzo delle funzioni e alle prestazioni. I dati personali non vengono raccolti. La rinuncia a questa funzione è disponibile impostando `telemetryEnabled` false in `targetGlobalSettings`. Per ulteriori informazioni, consulta [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
+La [!DNL Target] libreria JavaScript at.js ora raccoglie dati di telemetria relativi all’utilizzo delle funzioni e alle prestazioni. I dati personali non vengono raccolti. La rinuncia a questa funzione è disponibile impostando `telemetryEnabled` false in `targetGlobalSettings`. Per ulteriori informazioni, consulta [telemetryEnabled in targetGlobalSettings](/help/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry).
 
 ## at.js versione 2.7.0 (28 ottobre 2021)
 
