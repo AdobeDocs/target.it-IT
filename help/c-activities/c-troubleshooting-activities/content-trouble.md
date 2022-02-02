@@ -4,10 +4,10 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
+source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
 workflow-type: tm+mt
-source-wordcount: '1630'
-ht-degree: 100%
+source-wordcount: '1649'
+ht-degree: 98%
 
 ---
 
@@ -98,10 +98,7 @@ Per utilizzare mboxDebug, aggiungi un parametro mboxDebug alla fine dell’URL. 
 | Parametri URL | Finalità |
 |--- |--- |
 | `mboxDebug=1` | Debugger<br>L’aggiunta di questo parametro a qualsiasi URL in cui sono definite delle richieste di Target determina l’apertura di una finestra a comparsa con dettagli utili al debug. Vengono inserite informazioni sui cookie, valori PCid e ID di sessione e sono visibili tutti gli URL. Fai clic su un URL con richiesta di Target per visualizzarne la risposta di [!DNL Target]. Maggiori dettagli sono disponibili in [mbox_debug.pdf](/help/assets/mbox_debug.pdf). |
-| `mboxDebug=x-cookie` | Modifica il cookie |
 | `mboxDisable=1` | Disattiva le mbox sulla pagina |
-| `mboxDebug=x-profile` | Visualizza i profili impostati. |
-| `mboxDebug=x-time` | Mostra il tempo di risposta per ogni richiesta di [!DNL Target] |
 | `mboxOverride.browserIp=<Insert IP address>` | Testa geotargeting<br>Testa il geotargeting con questo parametro URL. Digita un indirizzo IP come valore per questo attributo e il geotargeting di Test&amp;Target valuterà tale indirizzo IP rispetto a qualsiasi geotargeting o segmentazione impostata in una campagna. |
 
 >[!NOTE]
@@ -189,6 +186,19 @@ In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e
 In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e regole di modello aggiuntive specificano una [!UICONTROL Query] con [!UICONTROL tipo] > [!UICONTROL è (distinzione maiuscole/minuscole)] > type=Summers%20Offers, separati da un operatore OR:
 
 ![Regola del modello che sfrutta una parte specifica dell’URL](assets/option3.png)
+
+## escape delle virgolette doppie in [!DNL Target] il valore dell&#39;attributo del profilo non funziona come previsto. {#escape}
+
+Quando invii valori contenenti virgolette doppie in un [!DNL Target] attributo profilo, devi eseguirne l’escape doppio come mostrato di seguito.
+
+```
+adobe.target.trackEvent({
+    "mbox": "data-collection",
+    "params":    {
+        "profile.tagLine": "Escape \\\"Double Quotes\\\" like this."
+    }
+});
+```
 
 ## Video di formazione
 
