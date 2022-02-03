@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 119d961377d654adc6581bb6b391b53c95da203b
+source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3412'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 3 febbraio | [Creazione di un pubblico](/help/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione e un video: &quot;Video: Personalizzazione con hit successivo con Real-time CDP e [!DNL Adobe Target].&quot; |
 | 2 febbraio | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: &quot;escape delle virgolette doppie in [!DNL Target] il valore dell&#39;attributo del profilo non funziona come previsto.&quot; |
 | 1 febbraio | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versione 2.2.1. |
 
