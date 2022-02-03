@@ -4,9 +4,9 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 62c17b5a4bce2cf9a2412b2bbe1aff064b8c6b17
+source-git-commit: 5d3e5a15a262d29bd1d95af71baae52ed288b33e
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1203'
 ht-degree: 23%
 
 ---
@@ -124,11 +124,11 @@ Le caratteristiche principali includono:
 
 Per maggiori informazioni, vedi i seguenti argomenti:
 
-* [Note sulla versione delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank}
-* [Configurare le destinazioni di personalizzazione per la personalizzazione della stessa pagina e della pagina successiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank}
+* [Note sulla versione delle destinazioni](https://experienceleague.adobe.com/docs/experience-platform/release-notes/latest.html?lang=en#destinations){target=_blank} nel *Note sulla versione di Adobe Experience Platform*
+* [Configurare le destinazioni di personalizzazione per la personalizzazione della stessa pagina e della pagina successiva](https://experienceleague.adobe.com/docs/experience-platform/destinations/ui/activate/configure-personalization-destinations.html){target=_blank} nel *Panoramica sulle destinazioni* guida.
 * [Connessione di personalizzazione personalizzata](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/custom-personalization.html){target=_blank} nel *Panoramica sulle destinazioni* guida
 * [Connessione Adobe Target](https://experienceleague.adobe.com/docs/experience-platform/destinations/catalog/personalization/adobe-target-connection.html){target=_blank} nel *Panoramica sulle destinazioni* guida
-* [Configurare le destinazioni di personalizzazione per la stessa pagina e i casi d’uso di personalizzazione della pagina successivi](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank}
+* [Configurare le destinazioni di personalizzazione per la stessa pagina e i casi d’uso di personalizzazione della pagina successivi](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} nel *Panoramica sulle destinazioni* guida
 
 ### Informazioni aggiuntive
 
