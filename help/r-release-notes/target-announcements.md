@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fb4a22e5a315ec05df190acfe825297600f872e7
-workflow-type: ht
-source-wordcount: '571'
-ht-degree: 100%
+source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
+workflow-type: tm+mt
+source-wordcount: '578'
+ht-degree: 94%
 
 ---
 
@@ -15,17 +15,20 @@ ht-degree: 100%
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
-## Community Q&amp;A Coffee Break [!DNL Adobe Target] (19 gennaio 2022)
+## Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)
 
-* **Mercoledì 19 gennaio 2022**
+* **Mercoledì 23 febbraio 2022**
 * **08:00 PST (17:00 CET)**
-* **[Ulteriori informazioni e registrazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/new-in-2022-at-community-q-amp-a-coffee-break-1-19-22-8am-pt-jon/td-p/434460)**
+* **[Ulteriori informazioni e registrazione](https://adobe.ly/3skO6DV)**
 
-Jon Tehero, Group Product Manager di [!DNL Adobe Target], risponderà alle domande riguardanti le sue aree di competenza:
+Vishal Chordia, Senior Product Manager, risponderà alle domande dei clienti riguardanti i seguenti ambiti di competenza:
 
-* [!DNL Adobe Target] integrazione con [!DNL Adobe Journey Optimizer] (AJO)
-* Interfaccia utente [!DNL Adobe Target]
-* Argomenti generali su [!DNL Adobe Target]
+* [!DNL Adobe Experience Platform]
+* Personalizzazione basata sul pubblico
+* Integrazione di [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
+* Argomenti generali su [!DNL Target]
+
+L&#39;ingegnere del supporto tecnico Mihnea Docea assisterà Vishal.
 
 ## Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
