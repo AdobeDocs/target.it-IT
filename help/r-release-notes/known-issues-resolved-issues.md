@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: bef2b493e8964f468d4f766c932a96d32e994a03
-workflow-type: ht
-source-wordcount: '4504'
-ht-degree: 100%
+source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+workflow-type: tm+mt
+source-wordcount: '4561'
+ht-degree: 98%
 
 ---
 
@@ -22,6 +22,10 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
+
+### Compositore esperienza visivo (VEC) caricamento di siti web con Service Workers
+
+Sono presenti alcune limitazioni correnti quando si tenta di utilizzare il Compositore esperienza visivo per aprire un sito web che utilizza i Service Workers. Una soluzione è quella di disabilitare i Servizi di lavoro dalla scheda Strumenti per sviluppatori Chrome > Applicazione , quindi di abilitare la casella di controllo &quot;Bypass for network&quot; nella sezione Servizi di lavoro . (KB-2006)
 
 ### Distribuzione del traffico delle attività Allocazione automatica tramite A4T {#aa-a4t}
 
