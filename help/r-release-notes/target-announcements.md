@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '578'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -21,14 +21,14 @@ Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Tar
 * **08:00 PST (17:00 CET)**
 * **[Ulteriori informazioni e registrazione](https://adobe.ly/3skO6DV)**
 
-Vishal Chordia, Senior Product Manager, risponderà alle domande dei clienti riguardanti i seguenti ambiti di competenza:
+Vishal Chordia, Senior Product Manager, risponderà alle domande dei clienti relative alle sue aree di competenza:
 
 * [!DNL Adobe Experience Platform]
 * Personalizzazione basata sul pubblico
 * Integrazione di [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
 * Argomenti generali su [!DNL Target]
 
-L&#39;ingegnere del supporto tecnico Mihnea Docea assisterà Vishal.
+L’ingegnere del supporto tecnico Mihnea Docea assisterà Vishal.
 
 ## Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
