@@ -4,9 +4,9 @@ description: Scopri quale Adobe di dati [!DNL Target] raccoglie e utilizza per c
 title: Quali dati vengono raccolti per creare algoritmi di apprendimento automatico?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 999c305228864aff40bddc39d5e07850855e2942
+source-git-commit: 32f2c32c697f5afa169d9e453fdc454dda533f8b
 workflow-type: tm+mt
-source-wordcount: '2077'
+source-wordcount: '2062'
 ht-degree: 49%
 
 ---
@@ -41,7 +41,7 @@ La tabella seguente mostra i dati forniti dal cliente raccolti da [!UICONTROL Au
 | Parametri URL | URL | URL ed eventuali parametri URL per la pagina attualmente visualizzata. | Personalizzato - Parametro URL - [Parametro URL] |
 | URL di riferimento | REF | URL di riferimento ed eventuali parametri URL per l’URL di riferimento. | Personalizzato - [Parametro URL di riferimento] - [Valore parametro] |
 | Tipi di pubblico condivisi di Adobe Experience Cloud | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altri [!DNL Adobe Experience Cloud] soluzioni (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome del pubblico] |
-| Tipi di pubblico Adobe Experience Platform RTCDP | UPS | Tipi di pubblico AEP RTCDP condivisi con [!DNL Target] tramite Destinazioni.<br>Questa funzionalità non è ancora disponibile [!DNL Target] ma sarà implementato in futuro. |  |
+| Tipi di pubblico Adobe Experience Platform RTCDP | UPS | Tipi di pubblico AEP RTCDP condivisi con [!DNL Target] tramite Destinazioni. |  |
 
 ## Blocco delle funzioni da [!DNL Target] algoritmi di apprendimento automatico
 
