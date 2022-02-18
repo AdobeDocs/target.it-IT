@@ -5,9 +5,9 @@ title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4738'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -23,17 +23,17 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Compositore esperienza visivo (VEC) caricamento di siti web con Service Workers
+### Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi
 
-Esistono alcune limitazioni attuali quando si tenta di utilizzare il Compositore esperienza visivo per aprire un sito web che utilizza [Lavoratori del servizio](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
+Attualmente esistono alcune limitazioni riguardanti l’utilizzo del Compositore esperienza visivo per aprire un sito web che utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW, Service Workers).
 
-Un SW è una tecnologia web che può essere utilizzata per intercettare le richieste per il dominio in cui sono installati da una pagina web. Il SW sopravvive alla visita della pagina e si attiva nelle visite successive. Il SW decide quali richieste passare e quali vengono invece intercettate e servite da una cache.
+Un SW è una tecnologia web che può essere utilizzata per intercettare le richieste verso il dominio in cui è installato da una pagina web. SW sopravvive alla visita della pagina e si attiva nelle visite successive. SW decide quali richieste passare e quali vengono invece intercettate e servite da una cache.
 
-L&#39;SW può controllare la memorizzazione in cache; può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG, le richieste di AJAX, il loro contenuto e le relative intestazioni di risposta, incluse quelle che [Estensione VEC Helper di Target](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, come X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
+SW può controllare la memorizzazione in cache; può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG, le richieste AJAX, il loro contenuto e le relative intestazioni di risposta, incluse quelle che l’[estensione VEC Helper di Target](/help/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, come X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
 
-Sfortunatamente, le API di estensione Chrome che intercettano richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW perché la pagina web non viene caricata all’interno del Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
+Sfortunatamente, le API di estensione di Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, dato che la pagina web non viene caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
 
-Come potenziale soluzione alternativa, è possibile disabilitare i Servizi di lavoro dalla scheda Strumenti per sviluppatori Chrome > Applicazione , quindi per abilitare la casella di controllo &quot;Bypass for network&quot; nella sezione Servizi di lavoro . (KB-2006)
+Come potenziale soluzione alternativa, puoi disabilitare i processi di lavoro dei serivizi dalla scheda Chrome Developer Tools > Application, quindi abilitare la casella di controllo “Bypass for network” nella sezione Service Workers. (KB-2006)
 
 ### Distribuzione del traffico delle attività Allocazione automatica tramite A4T {#aa-a4t}
 
