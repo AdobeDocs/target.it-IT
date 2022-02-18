@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
 workflow-type: tm+mt
 source-wordcount: '3449'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -19,10 +19,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 10 febbraio | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Compositore esperienza visivo (VEC) caricamento di siti web con Service Workers</li></ul> |
-| 7° febbraio | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)</li></ul> |
-| 3° febbraio | [Creazione di tipi di pubblico](/help/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione e un video: &quot;Video: Personalizzazione con hit successivo con Real-time CDP e [!DNL Adobe Target].&quot; |
-| 2° febbraio | [Risolvere i problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: &quot;escape delle virgolette doppie in [!DNL Target] il valore dell&#39;attributo del profilo non funziona come previsto.&quot; |
+| 10 febbraio | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi</li></ul> |
+| 7 febbraio | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)</li></ul> |
+| 3 febbraio | [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
+| 2 febbraio | [Soluzione di problemi relativi alla distribuzione dei contenuti](/help/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: “L’utilizzo del carattere di escape per le virgolette doppie nel valore dell’attributo del profilo in [!DNL Target] non funziona come previsto.” |
 | 1° febbraio | [Note sulla versione di Target (corrente)](/help/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.2.1 di [!DNL Target Standard/Premium] |
 
 ## [!DNL Adobe Target Standard/Premium] 22.1.1 (12 gennaio 2022)
