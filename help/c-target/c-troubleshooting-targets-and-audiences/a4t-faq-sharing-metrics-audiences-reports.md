@@ -1,14 +1,13 @@
 ---
 keywords: Domande Frequenti,Domande Frequenti,Analytics Per Target,Segmenti,A4T,Condividere Rapporti
-description: Trova domande frequenti sulla condivisione di metriche, tipi di pubblico e rapporti durante l'utilizzo di Analytics per attività [!DNL Target] (A4T). A4T lets you use Analytics reporting for Adobe [!DNL Target] .
+description: Trova domande frequenti sulla condivisione di metriche, tipi di pubblico e rapporti durante l’utilizzo di Analytics per [!DNL Target] (A4T). A4T consente ad Adobe di utilizzare i rapporti di Analytics [!DNL Target] attività.
 title: Dove è possibile trovare domande frequenti sulla condivisione di metriche, tipi di pubblico e rapporti in A4T?
 feature: Analytics for Target (A4T)
-exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a,6f250901-f109-4c2e-a023-ccc4c2b404b1,6f250901-f109-4c2e-a023-ccc4c2b404b1,59084e19-dfac-4796-a0b4-1da27ca9d43a
-translation-type: tm+mt
-source-git-commit: a92e88b46c72971d5d3c752593d651d8290b674e
+exl-id: 59084e19-dfac-4796-a0b4-1da27ca9d43a
+source-git-commit: 5a3e46b94bfece0583a5f2603e3edca35a7c97e0
 workflow-type: tm+mt
-source-wordcount: '241'
-ht-degree: 69%
+source-wordcount: '247'
+ht-degree: 65%
 
 ---
 
@@ -26,4 +25,4 @@ Per ulteriori informazioni, consulta [Gestione segnalibri](https://experiencelea
 
 Se utilizzi metriche e segmenti speciali con un test, puoi creare un gruppo di utenti per il team di ottimizzazione. Condividi tali metriche e segmenti con il gruppo anziché con singoli membri, per assicurarti che tutti abbiano accesso ai segmenti e alle metriche. Solo gli amministratori possono condividere con i gruppi.
 
-Consulta [Condivisione di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) e [Condivisione di metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
+Vedi [Condivisione di segmenti](https://experienceleague.adobe.com/docs/analytics/components/segmentation/segmentation-workflow/t-seg-share.html) e [Condivisione delle metriche calcolate](https://experienceleague.adobe.com/docs/analytics/components/calculated-metrics/calcmetric-workflow/cm-sharing.html).
