@@ -5,9 +5,9 @@ title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Ta
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 7b9dad2f17496103b8fc2f91468ddcb665c339fa
+source-git-commit: 2e249f11375ab964e662e6d7bbab58b982add8ae
 workflow-type: tm+mt
-source-wordcount: '2840'
+source-wordcount: '2839'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Gli algoritmi per i consigli di filtro collaborativo per elemento si basano sull
 
 Per le persone che hanno visualizzato/acquistato questo elemento hanno visualizzato/acquistato anche questi elementi, l&#39;obiettivo è quello di calcolare una somiglianza s(A,B) tra tutte le coppie di elementi. Per un dato elemento A, i consigli principali sono quindi ordinati in base alla loro somiglianza s(A,B).
 
-Un esempio di tale somiglianza è la co-occorrenza tra gli elementi: un conteggio semplice del numero di utenti che hanno acquistato entrambi gli articoli. Anche se intuitivo, una tale metrica è ingenua in quanto è tendenziosa nel raccomandare elementi popolari. Ad esempio, se in un negozio di alimentari la maggior parte delle persone acquista il pane, il pane avrà un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece una metrica di somiglianza più sofisticata nota come rapporto di probabilità del registro (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino congiuntamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Per la concretezza, considera un caso di [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello] algoritmo. La somiglianza LLR è grande quando la probabilità che B sia stato acquistato è indipendente dal fatto che qualcuno abbia visto o meno A.
+Un esempio di tale somiglianza è la co-occorrenza tra gli elementi: un conteggio semplice del numero di utenti che hanno acquistato entrambi gli articoli. Anche se intuitivo, una tale metrica è ingenua in quanto è tendenziosa nel raccomandare elementi popolari. Ad esempio, se in un negozio di alimentari la maggior parte delle persone acquista il pane, il pane avrà un&#39;elevata co-occorrenza con tutti gli articoli, ma non è necessariamente una buona raccomandazione. [!DNL Target] utilizza invece una metrica di somiglianza più sofisticata nota come rapporto di probabilità del registro (LLR). Questa quantità è grande quando la probabilità che due articoli, A e B, si verifichino congiuntamente è molto diversa dalla probabilità che non si verifichino contemporaneamente. Per la concretezza, considera un caso di [!UICONTROL Chi ha visualizzato questo ha acquistato anche quello] algoritmo. La somiglianza LLR è grande quando la probabilità che B sia stato acquistato è *not* indipendentemente dal fatto che qualcuno abbia visualizzato A.
 
 Ad esempio, se
 
