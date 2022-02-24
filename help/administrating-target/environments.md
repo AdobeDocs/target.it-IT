@@ -5,9 +5,9 @@ title: Cosa sono gli ambienti e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 820a116a-15f9-4ba0-94f3-8e35aa0f90da
-source-git-commit: c335fde454e31c6d82ebc8b0b5570f3c65d18541
+source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '680'
 ht-degree: 60%
 
 ---
@@ -73,9 +73,7 @@ Quando un ambiente non è più necessario, è possibile eliminarlo.
 
 Puoi visualizzare in anteprima il contenuto delle raccolte ed esclusioni di Consigli per un ambiente selezionato (gruppo di host).
 
->[!NOTE]
->
->Le attività Recommendations sono disponibili come parte del [!DNL Target] Soluzione Premium. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
+{{premium-note}}
 
 Un ambiente può essere utilizzato per separare gli elementi disponibili nel catalogo per usi diversi. Ad esempio, puoi utilizzare i gruppi host per [!UICONTROL Sviluppo] e [!UICONTROL Produzione] ambienti, marchi diversi o diverse aree geografiche. Per impostazione predefinita, i risultati dell&#39;anteprima in Ricerca nel catalogo, Raccolte ed Esclusioni si basano sul gruppo di host predefinito. Puoi anche selezionare un gruppo di host diverso per visualizzare in anteprima i risultati, utilizzando il filtro Ambiente. Per impostazione predefinita, gli elementi appena aggiunti sono disponibili in tutti i gruppi di host, a meno che non sia specificato un ID ambiente al momento della creazione o dell&#39;aggiornamento dell&#39;elemento.
 
