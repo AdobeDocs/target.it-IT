@@ -4,7 +4,7 @@ description: Scopri come interpretare i risultati di un’attività di allocazio
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
+source-git-commit: 9e559f0695a6a72c6a98c278d8099b41d5ee8744
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 44%
@@ -78,7 +78,7 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 * L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza un [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
 
-## Sono disponibili i distintivi &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?
+### Sono disponibili i distintivi &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?
 
 I simboli &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono attualmente disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Anche questi badge non sono disponibili se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge &quot;stella&quot; vincitore mostrato in un [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] le attività che utilizzano A4T devono essere ignorate.
 
