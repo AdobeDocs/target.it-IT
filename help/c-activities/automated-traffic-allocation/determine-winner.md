@@ -1,25 +1,25 @@
 ---
 keywords: allocazione automatica del traffico;targeting;vincitore;garanzia statistica;affidabilità;determinare vincitore;incremento;affidabilità;impostazione predefinita;esperienza predefinita;allocazione automatica;allocazione automatica
-description: Scopri come interpretare i risultati di un’attività di allocazione automatica A/B in Adobe [!DNL Target] esaminando importanti indicatori, tra cui incremento e affidabilità.
+description: Scopri come interpretare i risultati di un’attività di allocazione automatica A/B in Adobe [!DNL Target] esaminando indicatori importanti, compresi incremento e fiducia.
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
-feature: Allocazione automatica
+feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: c78598da8f13f1e2c4489a317ce151779ca4be61
+source-git-commit: 1ba2d735984a9baac592bfd1a55f1ef3da5ac6b7
 workflow-type: tm+mt
-source-wordcount: '1136'
-ht-degree: 47%
+source-wordcount: '1233'
+ht-degree: 44%
 
 ---
 
 # Interpretare i rapporti di allocazione automatica
 
-Interpreta i risultati di un&#39;attività [!UICONTROL Allocazione automatica] A/B in [!UICONTROL Adobe Target] esaminando importanti indicatori, tra cui incremento e affidabilità.
+Interpretare i risultati di un [!UICONTROL Allocazione automatica] Attività A/B in [!UICONTROL Adobe Target] esaminando indicatori importanti, compresi incremento e fiducia.
 
 Molti addetti al marketing commettono l’errore di dichiarare un’esperienza vincente prima che i risultati indichino chiaramente quale sia l’esperienza migliore. Ora abbiamo reso più facile determinare il vincitore.
 
 >[!NOTE]
 >
->Per informazioni generali sulla dichiarazione di un vincitore, consulta [Dieci insidie frequenti per i test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
+>Per informazioni generali sulla dichiarazione di un vincitore, vedi [Dieci insidie frequenti per i test A/B e come evitarle](/help/c-activities/t-test-ab/common-ab-testing-pitfalls.md).
 
 ## Identificare l’esperienza vincente {#section_24007470CF5B4D30A06610CE8DD23CE3}
 
@@ -47,7 +47,7 @@ I test A/B normali calcolano l’affidabilità in base ai valori p. L&#39;Alloca
 
 >[!IMPORTANT]
 >
->Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere basata sui risultati del calcolatore delle dimensioni del campione Adobe Target [a1/>. ](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+>Target mostra un vincitore dopo un numero minimo predefinito di conversioni; tuttavia, la decisione finale di scegliere il vincitore dovrebbe sempre essere sui risultati di Adobe Target [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it). Target non considera i tassi di conversione di base di un sito e altri aspetti importanti inseriti nel calcolatore per determinare la durata dell’attività. Di conseguenza, Target potrebbe visualizzare un vincitore prima del previsto sulla base di un numero minimo di conversioni. Per ulteriori informazioni, consulta [Calcolatore dimensioni campione](/help/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ## Comprendere i rapporti Incremento e Affidabilità nelle attività di Allocazione automatica {#lift-confidence}
 
@@ -63,7 +63,9 @@ Accanto all’esperienza attuale o vincente viene riportato anche un numero di &
 
 ## Domande frequenti  {#section_C8E068512A93458D8C006760B1C0B6A2}
 
-**L’attività è in corso da un paio di giorni. Perché tutti i valori di affidabilità mostrano ancora 0%?**
+Considera le seguenti risposte alle domande frequenti:
+
+### L’attività è in corso da un paio di giorni. Perché tutti i valori di affidabilità mostrano ancora 0%?
 
 Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività viene visualizzato 0% per i seguenti motivi:
 
@@ -73,5 +75,13 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
    L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 
-* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza un [calcolatore delle dimensioni del campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
+* L&#39;allocazione automatica inizia a mostrare un valore di affidabilità solo dopo che l&#39;esperienza vincente avrà raccolto il 60% di affidabilità. Questi livelli di affidabilità generalmente appaiono in circa la metà del tempo necessario per completare un normale test A/B (anche se questo non è garantito). Per determinare per quanto tempo deve essere eseguito un normale test A/B, utilizza un [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html): il tasso di conversione del controllo plug in &quot;Tasso di conversione di base&quot;, &quot;5%&quot; per &quot;Incremento&quot; e 95% per &quot;Affidabilità&quot;. In genere, i valori di affidabilità iniziano a comparire dopo che ogni esperienza ha accumulato almeno il 50% dei campioni richiesti per esperienza. Questo ti dà un&#39;idea di quando potrai iniziare a vedere valori di affidabilità.
 * Se il rapporto presenta 0% per tutte le esperienze, è probabile che sia ancora troppo presto nel corso dell’attività.
+
+## Sono disponibili i distintivi &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?
+
+I simboli &quot;Ancora nessun vincitore&quot; e &quot;Vincitore&quot; non sono attualmente disponibili nel [!UICONTROL A4T] pannello in [!DNL Analysis Workspace]. Anche questi badge non sono disponibili se lo stesso rapporto viene visualizzato in [!DNL Target]. Un badge &quot;stella&quot; vincitore mostrato in un [!DNL Target] rapporto per un [!UICONTROL Allocazione automatica] le attività che utilizzano A4T devono essere ignorate.
+
+Per ulteriori informazioni su questa e altre limitazioni e note, consulta [Allocazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa) in *Supporto per A4T per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività*.
+
+

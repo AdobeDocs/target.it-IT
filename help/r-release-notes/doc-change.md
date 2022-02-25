@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 82b4a1a73ef9ead96ca60c1ac0c8ee4b8aad2057
+source-git-commit: f203a7298ca0ee2c5f58fe5b0fdb43a13bb9680b
 workflow-type: tm+mt
-source-wordcount: '3449'
-ht-degree: 100%
+source-wordcount: '3493'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e Targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
+|  | [Interpretare i rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i distintivi &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?</li></ul> |
 | 10 febbraio | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi</li></ul> |
 | 7 febbraio | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)</li></ul> |
 | 3 febbraio | [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
