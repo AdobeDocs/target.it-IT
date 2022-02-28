@@ -4,10 +4,10 @@ description: Scopri come utilizzare mbox3rdPartyId, che corrisponde all’ID vis
 title: Come si utilizza la sincronizzazione dei profili in tempo reale per mbox3rdPartyId?
 feature: Audiences
 exl-id: ed409225-fa35-49da-87d1-1770221f2ae0
-source-git-commit: 47772ebbdec10f78ec120d2e4437eccad969b338
+source-git-commit: 8969b3b04b8f02a4ae9860bafe4b0a1c80a6f35e
 workflow-type: tm+mt
-source-wordcount: '705'
-ht-degree: 92%
+source-wordcount: '737'
+ht-degree: 84%
 
 ---
 
@@ -57,11 +57,13 @@ Quando il visitatore si disconnette, il profilo unito viene mantenuto.
       * `customerIds` è il nome del parametro utilizzato quando lo si imposta direttamente nel payload dell’API di consegna e in genere viene eseguito su implementazioni lato server o IoT (Internet of Things).
       * A differenza di `mbox3rdPartyId`/`thirdPartyId`, in questo approccio è possibile inviare più ID come elenco, ma poiché [!DNL Target] supporta solo un singolo ID cliente per ogni ID TnT, utilizza il primo ID nell’elenco con un alias noto (alias configurato nell’interfaccia di Attributi del cliente).
 
+   È possibile utilizzare `mbox3rdPartyId`/`thirdPartyId` if [!DNL Target] è la tua unica [!DNL Adobe Experience Cloud] e non desideri utilizzare Attributi del cliente. Per tutti gli altri casi, si consiglia di utilizzare `setCustomerId`/`customerIds` per l’invio degli ID cliente.
+
    >[!IMPORTANT]
    >
    > Utilizzando entrambi gli approcci menzionati qui sopra in modo intercambiabile per un singolo visitatore, è possibile che si verifichino unioni di profili [!DNL Target] non autenticati e autenticati.
    >
    >Adobe consiglia di non utilizzare insieme `mbox3rdPartyId`/`thirdPartyId` e `setCustomerID`/`customerIds`.
    >
-   >Se devi utilizzare entrambi gli approcci in modo intercambiabile, assicurati che il primo ID nell’elenco utilizzato da `setCustomerID`/`customerIds` sia quello utilizzato da `thirdPartyId`/`mbox3rdPartyId` e viceversa.
+   >Se devi utilizzare entrambi gli approcci in modo intercambiabile, assicurati che il primo ID nell’elenco utilizzato da `setCustomerID`/`customerIds` è utilizzato da `thirdPartyId`/`mbox3rdPartyId` e viceversa.
 
