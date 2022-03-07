@@ -5,14 +5,14 @@ title: Come posso implementare con Experience Platform Web SDK?
 feature: AEP Web SDK
 role: Developer
 exl-id: afcd741f-bb7e-4bc2-b96c-ec10d5d6f4c5
-source-git-commit: 636016be6e8a6adc8c4b7fb09af93bb89e28373a
+source-git-commit: 7cded87ef6c9a61a6f259a8ea458c31a8c6c9e39
 workflow-type: tm+mt
-source-wordcount: '534'
-ht-degree: 5%
+source-wordcount: '554'
+ht-degree: 8%
 
 ---
 
-# Tutorial per Adobe Experience Platform Web SDK
+# Adobe Experience Platform Web SDK
 
 [!DNL Adobe Experience Platform Web SDK] (AEP Web SDK) è una libreria JavaScript lato client che consente ai clienti di [!DNL Adobe Experience Cloud] per interagire con i vari servizi dell&#39;Experience Cloud (tra cui [!DNL Target]) attraverso [!UICONTROL Adobe Experience Platform Edge Network]. Oltre alla libreria JavaScript, è presente un [!DNL Adobe Experience Platform] per informazioni sulle configurazioni dell&#39;SDK per web.
 
@@ -34,6 +34,7 @@ Oltre al [!DNL Platform Web SDK] documentazione di cui sopra, gli argomenti cont
 | [Controllo di qualità delle attività](/help/c-activities/c-activity-qa/activity-qa.md) | Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire attività di controllo qualità end-to-end con collegamenti di anteprima che non cambiano mai, targeting del pubblico facoltativo e reporting di controllo qualità mantenuti separati dai dati delle attività live. [!UICONTROL Controllo di qualità delle attività] consente di testare completamente il [!DNL Target] attività prima di lanciarle in diretta.<br>Vedi [Compatibilità con la modalità di controllo qualità della libreria JavaScript di Target](/help/c-activities/c-activity-qa/activity-qa.md#compatibility) e [URL di anteprima](/help/c-activities/c-activity-qa/activity-qa.md#preview). |
 | [[!UICONTROL Analytics for Target] (A4T)](/help/c-integrating-target-with-mac/a4t/a4t.md) | [!DNL Adobe Analytics for Target] (A4T) è un’integrazione tra più soluzioni che consente di creare attività basate su [!DNL Analytics] metriche di conversione e segmenti di pubblico. L’integrazione A4T consente di utilizzare [!DNL Analytics] rapporti per esaminare i risultati.<br>Vedi [Tipi di attività supportati](/help/c-integrating-target-with-mac/a4t/a4t.md#section_F487896214BF4803AF78C552EF1669AA) e [Passaggi per l’implementazione di un’implementazione Adobe Experience Platform Web SDK](/help/c-integrating-target-with-mac/a4t/a4timplementation.md#platform). |
 | [Tipi di pubblico](/help/c-target/target.md) | Tipi di pubblico in [!DNL Adobe Target] determina chi visualizza contenuti ed esperienze in un’attività con targeting.<br>Vedi [Utilizzare l&#39;elenco Tipi di pubblico](/help/c-target/c-audiences/audiences.md#use-list) e [Combinare più tipi di pubblico](/help/c-target/combining-multiple-audiences.md). |
+| [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md) | L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva.<ul>Vedi [Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform]](/help/c-target/c-audiences/audiences.md#aep). |
 | [Decisioni di offerta](/help/c-integrating-target-with-mac/ajo/offer-decision.md) | Aggiungi le decisioni di offerta create in Adobe Journey Optimizer alle attività Target (test A/B manuale o targeting delle esperienze) per determinare e fornire l’offerta migliore successiva per i visitatori su web e dispositivi mobili. |
 | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md) | Le offerte di reindirizzamento consentono ai browser dei visitatori di reindirizzare a una nuova pagina.<br>Vedi [Effettua la [!DNL Adobe Experience Platform Web SDK] supportare le offerte di reindirizzamento per A4T?](/help/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) |
 | [Token di risposta](/help/administrating-target/response-tokens.md) | I token di risposta consentono di inviare dati di Target a Google Analytics e ad altre integrazioni di terze parti.<br>Vedi [Invio di dati a Google Analytics tramite SDK per web di Platform](/help/administrating-target/response-tokens.md#platform-web-sdk) per visualizzare un esempio di codice su come eseguire questa attività. |
