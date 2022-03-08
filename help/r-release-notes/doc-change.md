@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 023c667310b1897f92295612e74e71b3b6791886
+source-git-commit: cf82b0e56ee3657de1d8a5a22db211630c25a2a9
 workflow-type: tm+mt
-source-wordcount: '3519'
+source-wordcount: '3536'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 8 marzo | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in &quot;Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform]:&quot;<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e Targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i distintivi &quot;No Winner&quot;, &quot;Winner&quot; e &quot;star&quot; per [!UICONTROL Allocazione automatica] attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T)?</li></ul> |

@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 149910ecf17c55bc7722703a6dd1c7d62a861882
-workflow-type: ht
-source-wordcount: '578'
-ht-degree: 100%
+source-git-commit: 91fe1cc485daa89936b0560039901dc3e78ad27f
+workflow-type: tm+mt
+source-wordcount: '579'
+ht-degree: 94%
 
 ---
 
@@ -15,18 +15,18 @@ ht-degree: 100%
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
-## Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)
+## Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)
 
-* **Mercoledì 23 febbraio 2022**
-* **08:00 PST (17:00 CET)**
-* **[Ulteriori informazioni e registrazione](https://adobe.ly/3skO6DV)**
+* **Mercoledì 30 marzo 2022**
+* **8:00 (PDT, UTC -7)**
+* **[Ulteriori informazioni e registrazione](https://adobe.ly/3sIS5Mg)**
 
-Vishal Chordia, Senior Product Manager, risponderà alle domande dei clienti relative alle sue aree di competenza:
+Ryan Pizzuto, Consulente senior per le soluzioni, risponderà alle domande dei clienti relative alle sue seguenti aree di competenza:
 
-* [!DNL Adobe Experience Platform]
-* Personalizzazione basata sul pubblico
-* Integrazione di [!DNL Real-time Customer Data Platform] (RTCDP) con [!DNL Target]
-* Argomenti generali su [!DNL Target]
+* [!UICONTROL Targeting automatico]
+* [!UICONTROL Personalizzazione automatizzata]
+* [!UICONTROL Recommendations]
+* Generale [!UICONTROL Adobe Target] argomenti
 
 L’ingegnere del supporto tecnico Mihnea Docea assisterà Vishal.
 
