@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a7854c30ac1ed5212a0f56f188bc83aa564814dc
-workflow-type: ht
-source-wordcount: '4738'
-ht-degree: 100%
+source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+workflow-type: tm+mt
+source-wordcount: '4819'
+ht-degree: 98%
 
 ---
 
@@ -34,6 +34,10 @@ SW può controllare la memorizzazione in cache; può memorizzare in cache la pag
 Sfortunatamente, le API di estensione di Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, dato che la pagina web non viene caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
 
 Come potenziale soluzione alternativa, puoi disabilitare i processi di lavoro dei serivizi dalla scheda Chrome Developer Tools > Application, quindi abilitare la casella di controllo “Bypass for network” nella sezione Service Workers. (KB-2006)
+
+### Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli {#ad-hoc}
+
+Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). L’eliminazione delle posizioni può causare la corruzione dell’attività. La [!DNL Target] il team sta lavorando a una correzione. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzali con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
 
 ### Distribuzione del traffico delle attività Allocazione automatica tramite A4T {#aa-a4t}
 
