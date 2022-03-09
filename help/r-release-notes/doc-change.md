@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a6228810b182c3a234e33e3a3f25a271316807c6
+source-git-commit: 36ed858c1f241e69e9aa1a8cadbe2c128f99665c
 workflow-type: tm+mt
-source-wordcount: '3561'
-ht-degree: 99%
+source-wordcount: '3582'
+ht-degree: 98%
 
 ---
 
@@ -19,9 +19,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 9 marzo | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
-| 8 marzo | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)</li></ul> |
-| 7 marzo | [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in &quot;Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform]:&quot;<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
+| 9 marzo | [Problemi noti e problemi risolti](/help/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Deleting locations that have ad-hoc offers in activities created in the Form-Based Experience Composer</li></ul> |
+|  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/c-target/c-visitor-profile/3rd-party-id.md) | Updated following sentence regarding profile syncing: &quot;Updates are synced with the profile store every 5-10 minutes.&quot; |
+| 8 marzo | [Annunci ed eventi di Target](/help/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (March 30, 2022)</li></ul> |
+| 7 marzo | [Creare tipi di pubblico](/help/c-target/c-audiences/audiences.md#aep) | [!DNL Adobe Experience Platform]<ul><li>Personalization use cases</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
