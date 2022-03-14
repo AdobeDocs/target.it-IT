@@ -1,6 +1,6 @@
 ---
-source-git-commit: f3ca5805ae94f79a66f4aa52a46b4fd06909bf86
-workflow-type: ht
+source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+workflow-type: tm+mt
 source-wordcount: '21'
 ht-degree: 100%
 
@@ -11,6 +11,6 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Questa funzionalità è disponibile con la licenza [Target Premium](/help/c-intro/intro.md#premium). Questa funzionalità non è disponibile in [!DNL Target Standard].
+>Questa funzionalità è disponibile con la licenza [Target Premium](/help/main/c-intro/intro.md#premium). Questa funzionalità non è disponibile in [!DNL Target Standard].
 
 
