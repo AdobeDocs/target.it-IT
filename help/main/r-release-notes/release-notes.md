@@ -5,39 +5,50 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: dd8c0f3781625985f53aeb3b659fb4498a3e10e8
 workflow-type: tm+mt
-source-wordcount: '773'
-ht-degree: 100%
+source-wordcount: '671'
+ht-degree: 49%
 
 ---
 
 # Note sulla versione di Target (corrente)
 
-Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione per API di Target, SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
+Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Inoltre, le note sulla versione di [!DNL Target] API, SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma sono inclusi, se applicabile.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Target Standard/Premium 22.2.1 (1° febbraio 2022)
+## [!DNL Target Standard/Premium] 22.3.1 (rilascio scaglionato, data da determinare)
 
-Questa versione di manutenzione contiene le correzioni e i miglioramenti seguenti relativi alla nuova interfaccia [!UICONTROL Tipi di pubblico], annunciata in Target Standard/Premium versione 22.1.2, che nelle prossime sei settimane verrà gradualmente implementata per i clienti in tutte le aree geografiche. Le correzioni apportate allineano le funzionalità dei tipi di pubblico creati in [!DNL Adobe Target Standard/Premium].
+Questa versione contiene le seguenti modifiche e miglioramenti:
 
-* È stato risolto un problema che impediva ai tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic] di essere assegnati come tipi di pubblico nella generazione dei rapporti. (TGT-43140)
-* È stata aggiunta l’opzione [!UICONTROL Elimina] nell’elenco [!UICONTROL Tipi di pubblico] per i tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic]. È stata aggiunta anche la funzionalità di eliminazione in blocco. (TGT-42914)
+* È stato risolto un problema che causava il ripristino dello script originale non modificato dopo la modifica, l’attivazione e la disattivazione dello script da parte delle modifiche apportate agli script di profilo. Lo script di profilo rimane ora nello stato modificato. (TGT-43249)
+* È stato risolto un problema che causava il seguente messaggio di errore in [!DNL Target] Interfaccia utente per lo spostamento di un pubblico utilizzato in un’attività con stato &quot;bozza&quot;: &quot;Non possiamo completare la tua richiesta. Se il problema persiste, contatta l&#39;assistenza clienti Adobe.&quot; (TGT-43212)
+* È stato risolto un problema che causava il [!UICONTROL Includi] e [!UICONTROL Escludi] opzioni da disattivare per i tipi di pubblico combinati durante la modifica di un’attività. (TGT-43422)
+* È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco dei tipi di pubblico disponibili durante la modifica di un’attività. (TGT-43404)
+* È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP da &quot;[!UICONTROL IP da escludere [!DNL Target] dati di reporting]&quot; [!UICONTROL Amministrazione] > [!UICONTROL Reporting]. (TGT-43384)
+* È stato risolto un problema che impediva l’uso di numeri negativi nel criterio del pubblico che verificava se una variabile fosse &quot;maggiore di&quot;, &quot;maggiore o uguale a&quot;, &quot;minore di&quot; o &quot;minore o uguale a&quot;. (TGT-43367)
+* È stato risolto un problema che impediva ai clienti di visualizzare il [!UICONTROL Dettagli del pubblico] durante la creazione di tipi di pubblico combinati. (TGT-43303)
+* È stato risolto un problema che causava il [!DNL Target] Interfaccia utente o nuova [!UICONTROL Tipi di pubblico] Interfaccia utente per timeout prematuro per alcuni clienti. (TGT-42590 e TGT-43273)
 
-## at.js versione 2.8.1 (28 gennaio 2022)
+## [!DNL Target] Versione di Platform (30 marzo)
 
-* È stato corretto un problema che impediva la mappatura di `pageLoad` su target-global-mbox nella funzione [!UICONTROL Decisioning sul dispositivo] in modalità di esecuzione ibrida.
-* È stato risolto un problema relativo ai dettagli di analisi per richieste mbox.
-* Sono state aggiornate le dipendenze di sviluppo per correggere alcune vulnerabilità di sicurezza.
+Questa versione contiene i seguenti miglioramenti:
 
-## [!DNL Target Standard/Premium] 22.1.2 (26 gennaio 2022)
+* Le metriche di tracciamento dei clic includeranno il payload di Analytics nelle richieste API di consegna per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T) e gli eventi di processo sul lato client. (TNT-43073)
 
-| Funzione | Dettagli |
-| --- | --- |
-| Tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target] | Ora puoi sfruttare e utilizzare i tipi di pubblico [!DNL Adobe Experience Platform] in [!DNL Target]. I team [!DNL Target], [!DNL Experience Platform] [!DNL Destinations] e [!DNL Unified Profile Service] sono lieti di annunciare la disponibilità generale dei casi d’uso “Personalizzazione della stessa pagina/pagina successiva”.<br>L’utilizzo dei tipi di pubblico creati in [!DNL Adobe Experience Platform] fornisce dati più completi sui clienti, per una personalizzazione più incisiva. [Real-time Customer Data Platform](https://experienceleague.adobe.com/docs/experience-platform/rtcdp/overview.html?lang=it){target=_blank} (RTCDP), integrata in [!DNL Adobe Experience Platform], consente alle aziende di unire dati noti e anonimi provenienti da più origini aziendali per creare profili cliente da utilizzare per fornire ai clienti esperienze personalizzate in tempo reale su tutti i canali e dispositivi.<br>Per ulteriori informazioni, consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep) in *Creare tipi di pubblico* e [Casi d’uso per la personalizzazione della stessa pagina/pagina successiva](https://www.adobe.com/go/destinations-edge-personalization-en){target=_blank} nella guida *Panoramica sulle destinazioni*. |
-| Aggiornamento dell’interfaccia utente di [!UICONTROL Audiences] | Come parte degli sforzi continui del team di [!DNL Adobe Target] per migliorare l’esperienza utente per gli utenti [!DNL Target], questa versione aggiorna le pagine [!UICONTROL Tipi di pubblico] e [!UICONTROL Script di profilo] nell’interfaccia utente [!DNL Target]. Questo aggiornamento unisce e standardizza i disegni di progettazione precedentemente incoerenti, aggiungendo nuovi miglioramenti, ad esempio:<ul><li>Possibilità di selezionare ed eliminare più tipi di pubblico contemporaneamente</li><li>Una [progettazione di audience builder](/help/main/c-target/c-audiences/create-audience.md) rinnovata</li><li>Supporto della regola di esclusione nel generatore di regole della libreria [!UICONTROL Pubblico]</li><li>Un nuovo filtro “Origine pubblico” per consentire un rilevamento più rapido del pubblico</li><li>Opzioni di ricerca e filtro persistenti nella sessione</li><li>Possibilità di spostare i tipi di pubblico tra aree di lavoro diverse per i clienti [!DNL Target Premium].</li></ul>Per ulteriori informazioni, consulta [Tipi di pubblico](/help/main/c-target/target.md).<br>**NOTA**: questa funzione verrà implementata gradualmente nelle prossime otto settimane per i clienti in diverse aree geografiche. |
-| Aggiornamento dell’interfaccia [!UICONTROL Script di profilo] | Anche la libreria [!UICONTROL Script di profilo] è stata aggiornata e include un’interfaccia aggiornata insieme a diversi aggiornamenti di produttività:<ul><li>Possibilità di selezionare ed eliminare contemporaneamente più script di profilo</li><li>Un nuovo editor di codice per gli script di profilo</li><li>Evidenziazione della sintassi e controllo degli errori all’interno dell’editor di codice</li><li>Parametri dei token (mbox o profilo) che si completano automaticamente tramite scelte rapide da tastiera</li></ul>Per ulteriori informazioni, consulta [Profili dei visitatori](/help/main/c-target/c-visitor-profile/visitor-profile.md).<br>**NOTA**: questa funzione verrà implementata gradualmente nelle prossime otto settimane per i clienti in diverse aree geografiche. |
+## [!DNL Target Standard] Aggiornamento del pubblico (28 marzo)
+
+Questa versione contiene il seguente aggiornamento:
+
+* Il nuovo [!UICONTROL Tipi di pubblico] L’interfaccia utente sarà abilitata per tutti [!DNL Target Standard] clienti.
+
+## Correzioni di ingegneri Target Standard/Premium (22 marzo 2022)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+* È stata aggiunta la possibilità di restituire [!DNL Analytics] dati di payload per `prefetch` visualizzazioni e `pageLoad` fare clic sulle metriche quando si utilizza il [!UICONTROL API di consegna] con attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T). (TNT-43198)
+* È stato aggiornato l’elenco degli agenti utente che applicano il filtro bot per consentire l’utilizzo di un tipo di browser comunemente utilizzato in Giappone. (TNT-43867)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 

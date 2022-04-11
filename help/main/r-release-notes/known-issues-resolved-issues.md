@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
 workflow-type: tm+mt
-source-wordcount: '4819'
-ht-degree: 98%
+source-wordcount: '4818'
+ht-degree: 99%
 
 ---
 
@@ -25,7 +25,7 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 ### Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi
 
-Attualmente esistono alcune limitazioni riguardanti l’utilizzo del Compositore esperienza visivo per aprire un sito web che utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW, Service Workers).
+Attualmente esistono alcune limitazioni riguardanti l’utilizzo del Compositore esperienza visivo per aprire un sito web che utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) {target=_blank} (SW, Service Workers).
 
 Un SW è una tecnologia web che può essere utilizzata per intercettare le richieste verso il dominio in cui è installato da una pagina web. SW sopravvive alla visita della pagina e si attiva nelle visite successive. SW decide quali richieste passare e quali vengono invece intercettate e servite da una cache.
 
@@ -37,7 +37,7 @@ Come potenziale soluzione alternativa, puoi disabilitare i processi di lavoro de
 
 ### Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli {#ad-hoc}
 
-Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). L’eliminazione delle posizioni può causare la corruzione dell’attività. La [!DNL Target] il team sta lavorando a una correzione. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzali con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
+Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli, se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). Se si eliminano le posizioni, l’attività potrebbe danneggiarsi. Il team [!DNL Target] è al lavoro per correggere questo problema. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzarle con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
 
 ### Distribuzione del traffico delle attività Allocazione automatica tramite A4T {#aa-a4t}
 
@@ -59,7 +59,7 @@ Attualmente, un problema con il Compositore esperienza avanzato impedisce il sup
 
 I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti] per le attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). (TOP-3813)
 
-### Possibili problemi di sincronizzazione nell&#39;archiviazione di attività [!UICONTROL Targeting automatico]
+### Archiviazione [!UICONTROL Targeting automatico] potrebbero causare problemi di sincronizzazione
 
 Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
 

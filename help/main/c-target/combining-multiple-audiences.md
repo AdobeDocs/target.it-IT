@@ -4,10 +4,10 @@ description: Scopri come combinare più tipi di pubblico (tra cui i tipi di pubb
 title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 866455ac115b6797b5f103cdf1ae10c8a68f7234
 workflow-type: tm+mt
-source-wordcount: '937'
-ht-degree: 68%
+source-wordcount: '931'
+ht-degree: 65%
 
 ---
 
@@ -17,7 +17,7 @@ Combinare più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!DNL Ad
 
 >[!NOTE]
 >
->La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento).
+>La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento.
 >
 >Per ulteriori informazioni consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 
@@ -25,7 +25,7 @@ Supponi di avere un pubblico “Nuovi visitatori” e un pubblico “Utenti Chro
 
 Ad esempio, puoi rivolgerti a tutti i clienti fidelizzati. Ad esempio, puoi includere un [!DNL Audience Manager] pubblico per lo stato fedeltà e combinarlo con un [!DNL Target] pubblico composto da persone che hanno firmato per il tuo programma fedeltà durante la sessione corrente. Combinare questi due tipi di pubblico è più semplice che creare un terzo pubblico permanente.
 
-È possibile combinare fino a dieci gruppi di pubblico utilizzando gli operatori AND/OR (E/O).
+È possibile combinare fino a 20 tipi di pubblico utilizzando gli operatori AND e OR.
 
 È possibile creare e utilizzare il pubblico combinato in varie posizioni in tutta l’interfaccia utente di [!DNL Target].
 
@@ -37,13 +37,13 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
    ![Risultato passaggio](assets/edit_audience.png)
 
-1. Nella pagina [!UICONTROL Scegli pubblico] seleziona le caselle di controllo accanto ai gruppi di pubblico desiderati che desideri utilizzare come blocchi predefiniti per il pubblico combinato.
+1. Nella pagina **[!UICONTROL Scegli pubblico]** seleziona le caselle di controllo accanto ai gruppi di pubblico desiderati che desideri utilizzare come blocchi predefiniti per il pubblico combinato.
 
-   Fai clic sul pulsante [!UICONTROL Filtri] per limitare la ricerca del pubblico desiderato. Puoi filtrare i tipi di pubblico in base alla loro origine: [!DNL Adobe Target], [!DNL Adobe Target Classic], [!DNL Experience Cloud], [!DNL Adobe Experience Platform].
+   Utilizza la [!UICONTROL Cerca tipi di pubblico] per limitare la ricerca del pubblico desiderato.
 
    ![Risultato passaggio](assets/combine_multiple_audiences1.png)
 
-1. Fai clic su **[!UICONTROL Combinare tipi di pubblico]** nell&#39;angolo in alto a destra.
+1. Fai clic su **[!UICONTROL Combinare più tipi di pubblico]** nell&#39;angolo in alto a destra.
 
    ![Risultato passaggio](assets/combine_multiple_audiences2.png)
 
@@ -57,7 +57,7 @@ Puoi creare un pubblico combinato specifico nella pagina di [!UICONTROL Target] 
 
       ![](assets/combine_multiple_audiences3.png)
 
-      Osserva che l’operatore tra i due tipi di pubblico definiti dal browser è “AND” (E). Seleziona l’elenco a discesa e cambialo in “OR” (O) per creare un nuovo pubblico combinato per i nuovi visitatori che utilizzano Firefox o Safari. Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente i browser Firefox e Safari.
+      Osserva che l’operatore tra i due tipi di pubblico definiti dal browser è “AND” (E). Seleziona la [!UICONTROL E] elenco a discesa e modificalo in &quot;OR&quot; (O) per creare un nuovo pubblico combinato per i nuovi visitatori che utilizzano Firefox o Safari. Fai attenzione a evitare la creazione di regole che escludano tutti i potenziali membri del pubblico. Ad esempio, non è possibile che qualcuno visiti una pagina utilizzando contemporaneamente i browser Firefox e Safari.
 
       >[!NOTE]
       >

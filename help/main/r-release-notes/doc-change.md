@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3eec0717d1ade69c9d33407409ec87b9b2d6f1a3
 workflow-type: tm+mt
-source-wordcount: '3582'
+source-wordcount: '3664'
 ht-degree: 98%
 
 ---
@@ -15,14 +15,25 @@ ht-degree: 98%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
+## Adobe Target Standard/Premium 22.3.1 (4-6 aprile 2022) versione scaglionata)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| 4 aprile | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.3.1 di [!DNL Target Standard/Premium] |
+
 ## Adobe Target Standard/Premium 22.2.1 (1° febbraio 2022)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target] Versione di Platform. |
+| 28 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target] Versione di Platform. |
+| 22 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
+|  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.3.1 di [!DNL Target Standard/Premium]. |
+| 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
 | 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
 |  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: &quot;Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti.&quot; |
 | 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)</li></ul> |
-| 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in &quot;Utilizzare i tipi di pubblico da [!DNL Adobe Experience Platform]:&quot;<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
+| 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
@@ -208,7 +219,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Implementare Target senza un sistema per la gestione dei tag](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md) | Sono state aggiunte informazioni sul decisioning sul dispositivo. |
 |  | [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | È stato aggiunto il supporto per i collegamenti di anteprima per le attività di [!UICONTROL Automated Personalization] con [at.js 2.5.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
 |  | [Utilizzare regole di inclusione dinamiche e statiche](/help/main/c-recommendations/c-algorithms/use-dynamic-and-static-inclusion-rules.md#operators) | Sono state aggiunte informazioni sui nuovi operatori seguenti:<ul><li>È contenuto nell’elenco</li><li> Non è contenuto nell’elenco</li><li>L’elenco contiene un elemento in</li><li>L’elenco non contiene un elemento in</li><li>L’elenco contiene tutti gli elementi in</li><li>L’elenco non contiene tutti gli elementi in</li></ul> |
-|  | [Cookie di Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=it)<br> (guida *Servizi e amministrazione di Experience Cloud*) | Sono state aggiunte ulteriori informazioni su “ID sessione”. |
+|  | [Cookie di Adobe Target](https://experienceleague.adobe.com/docs/core-services/interface/ec-cookies/cookies-target.html?lang=it)<br>(guida *Servizi e amministrazione di Experience Cloud*) | Sono state aggiunte ulteriori informazioni su “ID sessione”. |
 |  | [Note sulla versione](/help/main/r-release-notes/release-notes.md): 21.4.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.2.1 (9 marzo 2021)
@@ -230,7 +241,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 12 marzo | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#tutorial) | È stata aggiunta la seguente nuova esercitazione:<ul><li>Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico</li></ul> |
 | 9 marzo | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#offer-size) | <ul><li>Sono stati aggiornati i limiti consentiti di dimensione dell’offerta.</li><li>È stato corretto il limite di caratteri per il parametro categoryId.</li></ul> |
 |  | [Inserisci nell’elenco Consentiti i nodi edge di Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md) | Gli indirizzi IP edge [!DNL Target] sono stati aggiornati. |
-|  | [Attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15,99 invece di 15.99). |
+|  | [Attributi di entità](/help/main/c-recommendations/c-products/entity-attributes.md) | È stato aggiunto del testo per indicare che entity.value deve essere in formato decimale (ad esempio 15.99 invece di 15,99). |
 |  | [Note sulla versione](/help/main/r-release-notes/release-notes.md): 21.2.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.1.1 (19 gennaio 2021)

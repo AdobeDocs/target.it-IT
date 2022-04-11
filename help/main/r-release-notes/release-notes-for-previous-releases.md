@@ -1,13 +1,13 @@
 ---
-keywords: Note sulla versione
+keywords: Note sulla versione;note sulla versione prerelease;miglioramenti futuri;correzioni future;funzioni future;prossima versione
 description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclusi nelle versioni precedenti di Adobe Target.
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '32988'
-ht-degree: 100%
+source-wordcount: '33051'
+ht-degree: 99%
 
 ---
 
@@ -22,6 +22,13 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2022
+
+### Target Standard/Premium 22.2.1 (1° febbraio 2022)
+
+Questa versione di manutenzione contiene le correzioni e i miglioramenti seguenti relativi alla nuova interfaccia [!UICONTROL Tipi di pubblico], annunciata in Target Standard/Premium versione 22.1.2, che nelle prossime sei settimane verrà gradualmente implementata per i clienti in tutte le aree geografiche. Le correzioni apportate allineano le funzionalità dei tipi di pubblico creati in [!DNL Adobe Target Standard/Premium].
+
+* È stato risolto un problema che impediva ai tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic] di essere assegnati come tipi di pubblico nella generazione dei rapporti. (TGT-43140)
+* È stata aggiunta l’opzione [!UICONTROL Elimina] nell’elenco [!UICONTROL Tipi di pubblico] per i tipi di pubblico importati da [!DNL Adobe Experience Platform], [!DNL Adobe Experience Cloud] e [!DNL Adobe Target Classic]. È stata aggiunta anche la funzionalità di eliminazione in blocco. (TGT-42914)
 
 ### at.js versione 2.8.1 (28 gennaio 2022)
 
@@ -1166,7 +1173,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
 
 Questa versione di [!DNL Target] include i seguenti miglioramenti, correzioni e modifiche:
 
-* La riga Backup di download CSV dei Consigli ora ha &quot;*&quot; davanti (doppie virgolette che racchiudono un asterisco) invece di * (un singolo asterisco).
+* La riga Backup del download CSV di Recommendations ora ha un &quot;&#42;&quot; (doppie virgolette che racchiudono un asterisco) invece di &#42; (un singolo asterisco).
 * La riga dei Più venduti/Più visualizzati nel file CSV scaricabile dei Consigli non ha più una virgola davanti.
 
 ### Modifiche alla piattaforma di Target (19 giugno 2018) {#section_0638BD69F3C640479A2A258AD78C0884}
@@ -1233,7 +1240,6 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_F2AF7E1AFBD6461990EF1D83D1989582"> <p>Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri. (TGT-28483) </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E" format="dita" scope="local">Compositore esperienza basato su moduli</a>. </p> </li> 
       <li id="li_517F0A174587416B8621D6F710C1AC48"> <p>Ora per creare i criteri e le promozioni della funzione Consigli e le regole per il test dei modelli è possibile utilizzare il parametro mbox direttamente senza che sia necessario specificare il nome mbox. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge. In alternativa, puoi applicare un filtro o sul parametro mbox con il nome mbox. </p> <p>Questo miglioramento è stato esteso anche alla creazione di tipi di pubblico personalizzati. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-recommendations/c-recommendations-faq/recommendations-faq.md#concept_EF272DE4AC6C47B19026BFBE816F5DB8" format="dita" scope="local">Domande frequenti sui consigli.</a> </p> </li> 
       <li id="li_AAB242830D1E47B78E58A980B717C736"> <p>L'interfaccia utente delle schede di progettazione dei consigli è stata aggiornata. </p> </li> 
-      <li id="li_1BE3178663E54F4CA8714FE3ACDBB97B"> <p>La documentazione API per la funzione Consigli di Target (Target Recommendations API) è disponibile sul <a href="https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html" format="html" scope="external">sito Adobe I/O Adobe Target</a> (https://www.adobe.io/apis/experiencecloud/target/docs/getting-started.html). </p> </li> 
      </ul> </p> </td> 
   </tr> 
  </tbody> 

@@ -5,10 +5,10 @@ title: Come funziona [!DNL Target] Gestisci le normative sulla privacy e la prot
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
 workflow-type: tm+mt
-source-wordcount: '2193'
-ht-degree: 58%
+source-wordcount: '2209'
+ht-degree: 57%
 
 ---
 
@@ -31,8 +31,9 @@ In qualità di titolare del trattamento, dovrai individuare i dati personali ela
 
 Per ulteriori informazioni, consulta:
 
-* [Sito web API di Adobe del regolamento generale sulla protezione dei dati](https://www.adobe.io/apis/experienceplatform/gdpr.html)
-* [Documentazione RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en)
+* [Panoramica di Adobe Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html){target=-blank}
+* [Guida all’API di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/api/overview.html){target=_blank}
+* [Panoramica dell’interfaccia utente di Privacy Service](https://experienceleague.adobe.com/docs/experience-platform/privacy/ui/overview.html){target=_blank}
 
 ## California Consumer Privacy Act (CCPA) - Panoramica
 
