@@ -5,10 +5,10 @@ title: Posso preacquisire il contenuto dell’offerta per le app mobili?
 feature: Implement Mobile
 role: Developer
 exl-id: 83a96a41-cf27-4ed8-8169-277f3ef3f249
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e152d3d68eede9c7606e546e30bd3e65bb8bcb9a
 workflow-type: tm+mt
-source-wordcount: '246'
-ht-degree: 47%
+source-wordcount: '216'
+ht-degree: 54%
 
 ---
 
@@ -21,7 +21,6 @@ Questo processo consente di ridurre il tempo di caricamento, evita l’esecuzion
 Quando utilizzi il metodo di preacquisizione con gli SDK per dispositivi mobili iOS e Android, considera le seguenti limitazioni:
 
 * Il contenuto di preacquisizione non rimane tra un avvio dell’app e quello successivo. Viene memorizzato nella cache per tutto il tempo in cui l’app rimane attiva oppure fino alla chiamata del metodo `clearPrefetchCache()`.
-* La funzionalità di preacquisizione non è supportata per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] metodi di allocazione del traffico, per [!UICONTROL Automated Personalization] o [!UICONTROL Recommendations] tipi di attività, o [offerte di consigli in un’attività A/B o XT](/help/main/c-recommendations/recommendations-as-an-offer.md).
 
 Per ulteriori informazioni, inclusi i metodi di preacquisizione, le classi pubbliche e gli esempi di codice, vedi:
 
