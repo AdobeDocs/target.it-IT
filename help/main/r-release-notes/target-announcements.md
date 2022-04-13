@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
 workflow-type: tm+mt
-source-wordcount: '579'
-ht-degree: 94%
+source-wordcount: '584'
+ht-degree: 93%
 
 ---
 
@@ -15,20 +15,21 @@ ht-degree: 94%
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
-## Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)
+## Community Q&amp;A Coffee Break [!DNL Adobe Target] (27 aprile 2022)
 
-* **Mercoledì 30 marzo 2022**
+* **Mercoledì 27 aprile 2022**
 * **8:00 (PDT, UTC -7)**
-* **[Ulteriori informazioni e registrazione](https://adobe.ly/3sIS5Mg)**
+* **[Ulteriori informazioni sulla registrazione](https://adobe.ly/371Uny2)**
 
-Ryan Pizzuto, Consulente senior per le soluzioni, risponderà alle domande dei clienti relative alle sue seguenti aree di competenza:
+James McTiernan, consulente principale delle soluzioni, risponderà alle domande dei clienti riguardanti i seguenti ambiti di competenza:
 
-* [!UICONTROL Targeting automatico]
-* [!UICONTROL Personalizzazione automatizzata]
-* [!UICONTROL Recommendations]
-* Generale [!UICONTROL Adobe Target] argomenti
+* [!UICONTROL Test A/B] attività
+* [!UICONTROL Test multivariato] attività
+* [!UICONTROL Attività di Consigli]
+* Personalizzazione
+* Argomenti [!UICONTROL Adobe Target] generali
 
-L’ingegnere del supporto tecnico Mihnea Docea assisterà Vishal.
+Simon Chen, ingegnere del supporto tecnico, assisterà James.
 
 ## Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
