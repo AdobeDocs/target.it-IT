@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '3692'
-ht-degree: 98%
+source-wordcount: '3725'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| Aprile 14 | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Sono state aggiunte informazioni alla sezione Ridisponi per spiegare come gestire il comportamento non coerente del Compositore esperienza visivo con il [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute a un caricamento lento degli elementi DOM. |
 | 13 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (27 aprile 2022)</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target] Versione di Platform. |
 | 4 aprile | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiornate le informazioni sulle [!DNL Target Standard/Premium] Versione 22.3.1. |

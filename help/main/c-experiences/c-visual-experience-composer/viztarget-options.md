@@ -4,10 +4,10 @@ description: Esplorare le opzioni disponibili nella [!DNL Adobe Target] [!UICONT
 title: Come si utilizzano i [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 20db97843e2b60f3186d46f7b70d2b2bc35acaf4
 workflow-type: tm+mt
-source-wordcount: '2810'
-ht-degree: 65%
+source-wordcount: '2907'
+ht-degree: 62%
 
 ---
 
@@ -330,7 +330,9 @@ Sono disponibili le seguenti opzioni:
 
 Trascina l’elemento in un’altra posizione nello stesso elemento padre o DIV. Gli altri elementi vengono spostati per fare spazio all’elemento ridisposto.
 
-**Nota:** il tracciamento dei clic non funziona sugli elementi ridisposti.
+**Nota**: Il tracciamento dei clic non funziona sugli elementi ridisposti.
+
+Attualmente, alcune azioni del Compositore esperienza visivo, come [!UICONTROL Ridisponi] e [!UICONTROL Sposta], si supponga che gli elementi di pari livello degli elementi padre di origine e di destinazione siano completamente caricati. Se si verifica un caricamento lento sotto gli elementi DOM padre (origine o destinazione), queste azioni del Compositore esperienza visivo possono causare comportamenti incoerenti. Stiamo lavorando a un approccio più affidabile per far funzionare le azioni VEC in elementi DOM a carico lento. Come soluzione alternativa temporanea, puoi utilizzare [!UICONTROL Codice personalizzato] in questi scenari per eseguire il rendering delle esperienze.
 
 ### [!UICONTROL Ridimensiona]
 
@@ -343,6 +345,8 @@ Consente di ridimensionare un elemento nella pagina. Quando selezioni [!UICONTRO
 Consnete di spostare gli elementi nella pagina. A differenza dell’opzione [!UICONTROL Ridisponi], [!UICONTROL Sposta] non cambia la posizione degli altri elementi per lasciare spazio all’elemento spostato. Utilizza i tasti freccia per regolare meglio lo spostamento. (Miglioramento pianificato: per garantire che gli elementi spostati non siano nascosti dietro ad altri elementi.)
 
 In alcune situazioni, ad esempio quando una limitazione CSS richiede che un elemento resti all’interno del suo elemento padre, non puoi spostare l’elemento al di fuori di quest’ultimo. Un elemento non può essere spostato all’esterno di un contenitore seguito dalla proprietà CSS `overflow: hidden`.
+
+Vedi [!UICONTROL Ridisponi] per ulteriori informazioni sui comportamenti incoerenti con [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute a un caricamento lento degli elementi DOM.
 
 ### [!UICONTROL Nascondi]
 
