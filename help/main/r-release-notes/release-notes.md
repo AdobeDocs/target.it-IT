@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: a03975f8f14db3cb8be0850130aab8d34c4c7fc0
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '701'
-ht-degree: 47%
+source-wordcount: '489'
+ht-degree: 65%
 
 ---
 
@@ -24,37 +24,15 @@ Questa versione contiene il seguente aggiornamento:
 
 * È stato risolto un problema per garantire che l’ultimo ottetto degli indirizzi IP sia correttamente offuscato quando acquisito utilizzando gli script di profilo. (TNT-44076)
 
-## [!DNL Target Standard/Premium] 22.3.1 (rilascio scaglionato, data da determinare)
+## [!DNL Target Standard/Premium] 22.3.1 (5 aprile 2022)
 
 Questa versione contiene le seguenti modifiche e miglioramenti:
 
-* È stato risolto un problema che causava il ripristino dello script originale non modificato dopo la modifica, l’attivazione e la disattivazione dello script da parte delle modifiche apportate agli script di profilo. Lo script di profilo rimane ora nello stato modificato. (TGT-43249)
-* È stato risolto un problema che causava il seguente messaggio di errore in [!DNL Target] Interfaccia utente per lo spostamento di un pubblico utilizzato in un’attività con stato &quot;bozza&quot;: &quot;Non possiamo completare la tua richiesta. Se il problema persiste, contatta l&#39;assistenza clienti Adobe.&quot; (TGT-43212)
 * È stato risolto un problema che causava il [!UICONTROL Includi] e [!UICONTROL Escludi] opzioni da disattivare per i tipi di pubblico combinati durante la modifica di un’attività. (TGT-43422)
 * È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco dei tipi di pubblico disponibili durante la modifica di un’attività. (TGT-43404)
 * È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP da &quot;[!UICONTROL IP da escludere [!DNL Target] dati di reporting]&quot; [!UICONTROL Amministrazione] > [!UICONTROL Reporting]. (TGT-43384)
 * È stato risolto un problema che impediva l’uso di numeri negativi nel criterio del pubblico che verificava se una variabile fosse &quot;maggiore di&quot;, &quot;maggiore o uguale a&quot;, &quot;minore di&quot; o &quot;minore o uguale a&quot;. (TGT-43367)
 * È stato risolto un problema che impediva ai clienti di visualizzare il [!UICONTROL Dettagli del pubblico] durante la creazione di tipi di pubblico combinati. (TGT-43303)
-* È stato risolto un problema che causava il [!DNL Target] Interfaccia utente o nuova [!UICONTROL Tipi di pubblico] Interfaccia utente per timeout prematuro per alcuni clienti. (TGT-42590 e TGT-43273)
-
-## [!DNL Target] Versione di Platform (30 marzo)
-
-Questa versione contiene i seguenti miglioramenti:
-
-* Le metriche di tracciamento dei clic includeranno il payload di Analytics nelle richieste API di consegna per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T) e gli eventi di processo sul lato client. (TNT-43073)
-
-## [!DNL Target Standard] Aggiornamento del pubblico (28 marzo)
-
-Questa versione contiene il seguente aggiornamento:
-
-* Il nuovo [!UICONTROL Tipi di pubblico] L’interfaccia utente sarà abilitata per tutti [!DNL Target Standard] clienti.
-
-## Correzioni di ingegneri Target Standard/Premium (22 marzo 2022)
-
-Questa versione di manutenzione contiene i seguenti miglioramenti:
-
-* È stata aggiunta la possibilità di restituire [!DNL Analytics] dati di payload per `prefetch` visualizzazioni e `pageLoad` fare clic sulle metriche quando si utilizza il [!UICONTROL API di consegna] con attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T). (TNT-43198)
-* È stato aggiornato l’elenco degli agenti utente che applicano il filtro bot per consentire l’utilizzo di un tipo di browser comunemente utilizzato in Giappone. (TNT-43867)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 

@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
+source-git-commit: 2db3e4d9302e0db86fa060bbd83361387755bd17
 workflow-type: tm+mt
-source-wordcount: '33051'
+source-wordcount: '33165'
 ht-degree: 99%
 
 ---
@@ -22,6 +22,25 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2022
+
+### [!DNL Target] Versione di Platform (30 marzo)
+
+Questa versione contiene i seguenti miglioramenti:
+
+* Le metriche di tracciamento dei clic includeranno il payload di Analytics nelle richieste API di consegna per le attività che utilizzano Analytics come origine per la generazione di rapporti (A4T) e gli eventi di processo sul lato client. (TNT-43073)
+
+### [!DNL Target Standard] Aggiornamento del pubblico (28 marzo)
+
+Questa versione contiene il seguente aggiornamento:
+
+* Il nuovo [!UICONTROL Tipi di pubblico] L’interfaccia utente sarà abilitata per tutti [!DNL Target Standard] clienti.
+
+### Correzioni di ingegneri Target Standard/Premium (22 marzo 2022)
+
+Questa versione di manutenzione contiene i seguenti miglioramenti:
+
+* È stata aggiunta la possibilità di restituire [!DNL Analytics] dati di payload per `prefetch` visualizzazioni e `pageLoad` fare clic sulle metriche quando si utilizza il [!UICONTROL API di consegna] con attività che utilizzano [!UICONTROL Analytics come origine per la generazione di rapporti] (A4T). (TNT-43198)
+* È stato aggiornato l’elenco degli agenti utente che applicano il filtro bot per consentire l’utilizzo di un tipo di browser comunemente utilizzato in Giappone. (TNT-43867)
 
 ### Target Standard/Premium 22.2.1 (1° febbraio 2022)
 
