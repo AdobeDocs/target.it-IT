@@ -4,10 +4,10 @@ description: Scopri gli attributi specifici del visitatore memorizzati nel profi
 title: Cosa Sono Gli Attributi Del Profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
-source-wordcount: '2402'
-ht-degree: 50%
+source-wordcount: '2423'
+ht-degree: 49%
 
 ---
 
@@ -72,6 +72,9 @@ Considera le seguenti informazioni:
 
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`.
 * Salva le variabili accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo processo è utile nelle situazioni in cui desideri fare riferimento alla data e all’ora dell’ultima richiesta.
+
+   Questi valori persistono come uno script di profilo, ma puoi accedervi solo all’interno dello script impostato.
+
 * I parametri e i valori sono sensibili all’uso di maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori ricevuti durante l’attività o il test.
 * Per ulteriore sintassi JavaScript, vedi la sezione “Riferimento JavaScript per i parametri del profilo di script”, più avanti.
 * Il parametro rimane nel profilo dopo la disattivazione dello script. Gli utenti i cui profili contengono già un parametro utilizzato nel pubblico di un’attività si qualificano in tale attività.
