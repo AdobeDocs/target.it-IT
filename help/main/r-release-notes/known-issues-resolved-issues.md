@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 51bac0ba4000b3884c096f434c4590b28f178b42
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '4818'
+source-wordcount: '4783'
 ht-degree: 99%
 
 ---
@@ -77,9 +77,6 @@ Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attivit�
 
 ### Offerte di reindirizzamento {#redirect}
 
-Di seguito sono riportati i problemi noti relativi alle offerte di reindirizzamento:
-
-* Un numero limitato di clienti ha segnalato maggiore varianza nella distribuzione del traffico quando si utilizza un’offerta di reindirizzamento in attività configurate con Analytics for Target (A4T).
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
 ### Annullare il caricamento di una pagina nel Compositore esperienza visivo (VEC) {#cancel}

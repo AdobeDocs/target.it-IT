@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3b6666b55a6dee9ce137802888dbf23f893b2cae
+source-git-commit: 2aee434066576ccd09222b402c113c5d16bcc706
 workflow-type: tm+mt
-source-wordcount: '3751'
-ht-degree: 97%
+source-wordcount: '3777'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 26 aprile | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Come posso ridurre al minimo le discrepanze nella distribuzione del traffico quando utilizzo le offerte di reindirizzamento nelle attività A4T?</li></ul> |
 | 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target] rilascio della piattaforma pianificato per il 17 aprile 2022. |
 | 20 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.4.1 di [!DNL Target Standard/Premium]. |
 | Aprile 14 | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Sono state aggiunte informazioni alla sezione Ridisponi per spiegare come gestire il comportamento non coerente del Compositore esperienza visivo con il [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute a un caricamento lento degli elementi DOM. |

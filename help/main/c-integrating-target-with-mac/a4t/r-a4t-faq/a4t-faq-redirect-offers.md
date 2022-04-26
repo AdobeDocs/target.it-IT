@@ -4,10 +4,10 @@ description: Trova risposte alle domande sull’utilizzo delle offerte di reindi
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
-source-wordcount: '1303'
-ht-degree: 61%
+source-wordcount: '1468'
+ht-degree: 54%
 
 ---
 
@@ -36,6 +36,21 @@ Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindi
 ## Perché a volte sono presenti discrepanze di dati tra A4T e Analytics?
 
 È possibile riscontrare alcune discrepanze di dati. Per ulteriori informazioni, consulta [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
+## Come posso ridurre al minimo le discrepanze nella distribuzione del traffico quando utilizzo le offerte di reindirizzamento nelle attività A4T? {#discrepancies}
+
+Un numero limitato di clienti ha segnalato livelli più elevati di varianza nella distribuzione del traffico quando utilizzano offerte di reindirizzamento in attività configurate con [!UICONTROL Analytics for Target] (A4T).
+
+Considera i seguenti aspetti:
+
+* Ordine errato di [!DNL Target] e [!DNL Analytics] le chiamate potrebbero essere responsabili di livelli più elevati di varianza.
+
+   La [!DNL Target] la chiamata deve precedere [!DNL Analytics] effettua la chiamata sulla pagina sorgente (dove si verifica il reindirizzamento) e sulla pagina di destinazione (dove il reindirizzamento termina).
+
+* Assicurati di utilizzare le offerte di reindirizzamento nelle attività di reindirizzamento A4T.
+* Se sono presenti più [!DNL Target] richieste di posizione nella pagina sorgente (dove si verifica il reindirizzamento), [!DNL Adobe] consiglia di eseguire l&#39;attività di reindirizzamento al primo [!DNL Target] richiesta di posizione.
+
+   Esecuzione dell’attività di reindirizzamento sulla prima [!DNL Target] la richiesta di posizione riduce le possibilità che eventuali qualifiche di attività si verifichino su altri [!DNL Target] richieste di posizione e vengono conteggiate nel rapporto. I visitatori reindirizzati non devono essere conteggiati nei rapporti di altre attività, in quanto non vedranno le esperienze.
 
 ## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
