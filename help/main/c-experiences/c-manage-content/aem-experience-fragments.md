@@ -4,10 +4,10 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
+source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
 workflow-type: tm+mt
-source-wordcount: '1277'
-ht-degree: 55%
+source-wordcount: '1324'
+ht-degree: 53%
 
 ---
 
@@ -150,11 +150,13 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 * Non puoi creare frammenti di esperienza utilizzando [!DNL Adobe I/O]. Crea frammenti di esperienza utilizzando AEM, come spiegato in precedenza.
 * Se aggiorni il frammento esperienza in AEM, il frammento esperienza deve essere pubblicato ed esportato in [!DNL Target] di nuovo [!DNL Target] può utilizzare le modifiche più recenti.
 
-## Rimozione delle librerie client dai frammenti esperienza esportati in Target
+## Rimozione di ClientLibs e HTML estranei dai frammenti esperienza esportati in Target
 
-Quando si utilizza un’offerta di frammento di esperienza con [!DNL Target] in una pagina consegnata da AEM, la pagina di destinazione contiene già tutte le librerie client necessarie. Inoltre, non è necessario usare anche il codice HTML estraneo nell&#39;offerta XF.
+Quando si utilizzano offerte di frammenti di esperienza con [!DNL Target] in una pagina consegnata da AEM, la pagina di destinazione contiene già tutte le librerie client necessarie. Inoltre, non sono necessari elementi HTML estranei nell’offerta.
 
-Per ulteriori informazioni, consulta [questo post di blog](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+A volte intere pagine di HTML avvolgono il frammento di esperienza e causano problemi. Assicurati che il frammento di esperienza sia un piccolo pezzo di HTML e non una pagina HTML completa con HTML, HEAD, BODY e così via.
+
+Per ulteriori informazioni, consultare il seguente post di blog: [AEM 6.5: Rimozione delle librerie client dai frammenti esperienza esportati in Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Video di formazione: Utilizzo AEM frammenti di esperienza con [!DNL Adobe Target]
 
