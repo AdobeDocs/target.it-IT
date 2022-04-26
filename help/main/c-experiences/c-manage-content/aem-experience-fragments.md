@@ -4,10 +4,10 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 726cc500cd2a633adbd3c8ef5777e810bd7144a9
+source-git-commit: 8eab87951f860d07f6f05a53f81e94c56e7563c8
 workflow-type: tm+mt
-source-wordcount: '1218'
-ht-degree: 57%
+source-wordcount: '1277'
+ht-degree: 55%
 
 ---
 
@@ -149,6 +149,12 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 * Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 * Non puoi creare frammenti di esperienza utilizzando [!DNL Adobe I/O]. Crea frammenti di esperienza utilizzando AEM, come spiegato in precedenza.
 * Se aggiorni il frammento esperienza in AEM, il frammento esperienza deve essere pubblicato ed esportato in [!DNL Target] di nuovo [!DNL Target] può utilizzare le modifiche più recenti.
+
+## Rimozione delle librerie client dai frammenti esperienza esportati in Target
+
+Quando si utilizza un’offerta di frammento di esperienza con [!DNL Target] in una pagina consegnata da AEM, la pagina di destinazione contiene già tutte le librerie client necessarie. Inoltre, non è necessario usare anche il codice HTML estraneo nell&#39;offerta XF.
+
+Per ulteriori informazioni, consulta [questo post di blog](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
 
 ## Video di formazione: Utilizzo AEM frammenti di esperienza con [!DNL Adobe Target]
 
