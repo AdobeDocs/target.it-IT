@@ -5,9 +5,9 @@ title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
+source-git-commit: effb33c127474f35e6961dbf6acb75d6f0173b8e
 workflow-type: tm+mt
-source-wordcount: '3132'
+source-wordcount: '3133'
 ht-degree: 57%
 
 ---
@@ -214,7 +214,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
    * Quando crei un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui deve essere creato l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
    * Quando copi un&#39;attività, un pubblico o un&#39;offerta nella vista Tutte le aree di lavoro, devi selezionare l&#39;area di lavoro in cui copiare l&#39;elemento. Possono essere selezionate solamente le aree di lavoro per cui si possiedono le autorizzazioni dell&#39;editor o dell&#39;approvatore.
 
-* Qualsiasi impostazione nelle seguenti pagine di amministrazione può essere controllata da qualsiasi Approvatore in qualsiasi area di lavoro:
+* Qualsiasi impostazione per il seguente amministratoreLe pagine di razione possono essere controllate da qualsiasi Approvatore in qualsiasi area di lavoro:
 
    * Compositore esperienza visivo
    * Generazione di rapporti
