@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali sono le nuove funzioni e i miglioramenti inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 25dac5f4712fec80323df9b0e00feb9750f5b155
+source-git-commit: 97ec17366e567f7e2f4cb0bf24a39c653718431f
 workflow-type: tm+mt
-source-wordcount: '178'
-ht-degree: 71%
+source-wordcount: '180'
+ht-degree: 58%
 
 ---
 
@@ -24,10 +24,10 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 Questa versione contiene la seguente correzione:
 
 * È stato risolto un problema a causa del quale tre algoritmi basati su carrello utilizzavano la stessa condizione Acquisto/Acquisto sul [!DNL Target] backend. (TGT-43456)
-* Abilitato [!DNL Target] Aggiornamento dei token dell’interfaccia utente per le organizzazioni abilitate per T2E e PBA (Policy Based Authentication) (TGT-42590).
+* Abilitato [!DNL Target] Aggiornamento token interfaccia utente per le organizzazioni abilitate con [Account ID aziendale](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e autenticazione basata su criteri (PBA). (TGT-42590)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
-Per ricevere notifiche prioritarie sui prossimi miglioramenti per Target e altre soluzioni Adobe Experience Cloud, iscriviti ad Adobe Priority Product Update:
+Per ricevere notifiche anticipate sui miglioramenti dei prodotti in arrivo a [!DNL Target] e altri [!DNL Adobe Experience Cloud] soluzioni, iscriviti al [!DNL Adobe Priority Product Update]:
 
 [https://www.adobe.com/subscription/priority-product-update.html](https://www.adobe.com/subscription/priority-product-update.html)
