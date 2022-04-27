@@ -5,10 +5,10 @@ title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 05bcbe3fb81ce88a8c03d8109a656dfbda0c0d40
 workflow-type: tm+mt
-source-wordcount: '3018'
-ht-degree: 59%
+source-wordcount: '3132'
+ht-degree: 57%
 
 ---
 
@@ -261,6 +261,22 @@ Le domande frequenti sulle autorizzazioni Enterprise includono:
 Sfortunatamente non è possibile spostare le attività da un&#39;area di lavoro a un&#39;altra. Tuttavia, puoi copiare un’attività in qualsiasi area di lavoro sapendo che i dati di reporting non vengono trasferiti. Per ulteriori informazioni, vedere “Copia/modifica di un&#39;attività quando si utilizzano aree di lavoro” in [Copia/modifica di un&#39;attività quando si utilizzano aree di lavoro](/help/main/c-activities/edit-activity.md#section_45A92E1DD3934523B07E71EF90C4F8B6).
 
 Le attività create prima della migrazione continuano a essere eseguite nello stesso modo nell&#39;area di lavoro predefinita, a meno che non siano proprietà modificate e assegnate. Le attività in un’area di lavoro specifica rispettano le proprietà assegnate a quell’area di lavoro e, pertanto, il comportamento potrebbe non rimanere lo stesso di prima della migrazione.
+
+### Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra? {#move-audience}
+
+Sì, puoi spostare i tipi di pubblico tra le aree di lavoro utilizzando [!UICONTROL Altre azioni] l&#39;opzione [!UICONTROL Tipi di pubblico] pagina.
+
+1. Fai clic sul pulsante **[!UICONTROL Altre azioni]** pulsante (i tre puntini di sospensione), quindi fare clic su **[!UICONTROL Sposta]**.
+
+   ![Altre azioni > Sposta](/help/main/administrating-target/c-user-management/property-channel/assets/move-audience.png)
+
+1. Seleziona l’area di lavoro desiderata dal **[!UICONTROL Area di lavoro]** elenco a discesa, quindi fai clic su **[!UICONTROL Sposta]**.
+
+   ![Selezionare il pubblico desiderato da spostare nella nuova area di lavoro](/help/main/administrating-target/c-user-management/property-channel/assets/workspace-move.png)
+
+>[!NOTE]
+>
+>Devi disporre dei diritti appropriati per modificare un pubblico. Inoltre, il pubblico non deve essere utilizzato in altre attività. Se il pubblico viene utilizzato in altre attività e desideri comunque spostare il pubblico in un’altra workstation, rimuovi il pubblico dalle altre attività in cui viene utilizzato.
 
 ### Perché viene visualizzato un messaggio di errore a indicare che nessuna proprietà è associata a questa attività, anche se è stata assegnata una proprietà?
 
