@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
 workflow-type: tm+mt
-source-wordcount: '3817'
-ht-degree: 96%
+source-wordcount: '3854'
+ht-degree: 95%
 
 ---
 
@@ -15,7 +15,14 @@ ht-degree: 96%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.3.1 (4-6 aprile 2022) versione scaglionata)
+## Adobe Target Standard/Premium 22.4.1 (28 aprile)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra?</li></ul> |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.4.1 e di Target Platform (27 aprile 2022). |
+
+## Adobe Target Standard/Premium 22.3.1 (5 aprile)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
