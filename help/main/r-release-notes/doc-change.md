@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3854'
-ht-degree: 95%
+source-wordcount: '3908'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra?</li></ul> |
+|  | Panoramica dell’[[!UICONTROL allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Può un [!UICONTROL Allocazione automatica] l’attività regola l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?</li><li>Does [!UICONTROL Allocazione automatica] mostrare un’esperienza vincente a un visitatore di ritorno se l’esperienza vincente è diversa da quella che il visitatore ha visto quando si qualifica per l’attività?</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.4.1 e di Target Platform (27 aprile 2022). |
 
 ## Adobe Target Standard/Premium 22.3.1 (5 aprile)

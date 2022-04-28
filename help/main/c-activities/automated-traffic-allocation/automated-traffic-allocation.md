@@ -4,10 +4,10 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
 workflow-type: tm+mt
-source-wordcount: '3453'
-ht-degree: 50%
+source-wordcount: '3559'
+ht-degree: 49%
 
 ---
 
@@ -206,6 +206,16 @@ Utilizzo della [!UICONTROL Ripristina dati dei rapporti] opzione per [!UICONTROL
 Se un hit si verifica in un altro ambiente (non predefinito), il traffico viene distribuito in base al comportamento di conversione osservato nell’ambiente predefinito. Il risultato di tale hit (conversione o non conversione) è registrato a scopo di reporting ma non è considerato nella variabile [!UICONTROL Allocazione automatica] modello.
 
 Quando selezioni un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L’ambiente selezionato predefinito per un rapporto è l’impostazione predefinita a livello di account selezionata. L’ambiente predefinito non può essere impostato per attività.
+
+### Può un [!UICONTROL Allocazione automatica] l’attività regola l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?
+
+Ad esempio, l’attività può considerare il mese di dicembre per decidere come allocare il traffico, invece di esaminare i dati del visitatore di settembre (quando il test è iniziato)?
+
+No, [!UICONTROL Allocazione automatica] considera le prestazioni dell&#39;intera attività.
+
+### Does [!UICONTROL Allocazione automatica] mostrare un’esperienza vincente a un visitatore di ritorno se l’esperienza vincente è diversa da quella che il visitatore ha visto quando si qualifica per l’attività?
+
+[!UICONTROL Allocazione automatica] utilizza decisioni permanenti per gli stessi motivi [!UICONTROL Test A/B] le attività sono appiccicose. L’allocazione del traffico funziona solo per i nuovi visitatori.
 
 ## Video di formazione {#section_893E5B36DC4A415C9B1D287F51FCCB83}
 
