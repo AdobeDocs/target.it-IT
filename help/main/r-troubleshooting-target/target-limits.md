@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in Adobe Target?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bdfa05b8eb259bbd23e27ec0dce9c3cac41a5ab1
 workflow-type: tm+mt
 source-wordcount: '1363'
 ht-degree: 100%
@@ -192,7 +192,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 256
+   * Lunghezza massima valore del parametro del profilo: 5000
 
    **Endpoint API di consegna**:
 
@@ -203,7 +203,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 256
+   * Lunghezza massima valore del parametro del profilo: 5000
 
 
 
