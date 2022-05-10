@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
 workflow-type: tm+mt
-source-wordcount: '3908'
-ht-degree: 94%
+source-wordcount: '3919'
+ht-degree: 96%
 
 ---
 
@@ -15,46 +15,47 @@ ht-degree: 94%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.4.1 (28 aprile)
+## Adobe Target Standard/Premium 22.4.1 (April 28)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra?</li></ul> |
-|  | Panoramica dell’[[!UICONTROL allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Può un [!UICONTROL Allocazione automatica] l’attività regola l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?</li><li>Does [!UICONTROL Allocazione automatica] mostrare un’esperienza vincente a un visitatore di ritorno se l’esperienza vincente è diversa da quella che il visitatore ha visto quando si qualifica per l’attività?</li></ul> |
-|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.4.1 e di Target Platform (27 aprile 2022). |
+| 10 maggio | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.5.1 di [!DNL Target Standard/Premium]. |
+| Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Can I move an audience from one workspace to another?</li></ul> |
+|  | Panoramica dell’[[!UICONTROL allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Sono state aggiunte le seguenti domande frequenti:<ul><li></li><li></li></ul> |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
 
-## Adobe Target Standard/Premium 22.3.1 (5 aprile)
+## Adobe Target Standard/Premium 22.3.1 (April 5)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni per i seguenti eventi:<ul><li>Webinar: Personalizzazione in tempo reale con Adobe Target (28 aprile 2022)</li><li>[!DNL Adobe Target] Interruzione di caffè Q&amp;A nella community (25 maggio 2022)</li></ul> |
-|  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Come posso ridurre al minimo le discrepanze nella distribuzione del traffico quando utilizzo le offerte di reindirizzamento nelle attività A4T?</li></ul> |
-|  | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la seguente sezione:<ul><li>Rimozione di ClientLibs e HTML estranei dai frammenti esperienza esportati in Target</li></ul> |
-| 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target] rilascio della piattaforma pianificato per il 17 aprile 2022. |
+| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Added information for the following events:<ul><li>Webinar: Real-Time Personalization with Adobe Target (April 28, 2022)</li><li>[!DNL Adobe Target]</li></ul> |
+|  | [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) (Offerte di reindirizzamento: domande frequenti su A4T). | Sono state aggiunte le seguenti domande frequenti:<ul><li>How can I minimize discrepancies in traffic distribution when using redirect offers in A4T activities?</li></ul> |
+|  | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la seguente sezione:<ul><li>Removing ClientLibs and extraneous HTML from Experience Fragments exported to Target</li></ul> |
+| 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] |
 | 20 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.4.1 di [!DNL Target Standard/Premium]. |
-| Aprile 14 | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Sono state aggiunte informazioni alla sezione Ridisponi per spiegare come gestire il comportamento non coerente del Compositore esperienza visivo con il [!UICONTROL Sposta] e [!UICONTROL Ridisponi] azioni dovute a un caricamento lento degli elementi DOM. |
-| 13 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (27 aprile 2022)</li></ul> |
-|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target] Versione di Platform. |
-| 4 aprile | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiornate le informazioni sulle [!DNL Target Standard/Premium] Versione 22.3.1. |
+| 14 aprile | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Sono state aggiunte informazioni alla sezione Ridisponi per spiegare come gestire il comportamento non coerente del Compositore esperienza visivo con le azioni [!UICONTROL Sposta] e [!UICONTROL Ridisponi] causato da un caricamento lento degli elementi DOM. |
+| 13 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (27 aprile 2022)</li></ul> |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione della piattaforma [!DNL Target]. |
+| 4 aprile | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiornate le informazioni sulla versione 22.3.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.2.1 (1° febbraio 2022)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target] Versione di Platform. |
-| 28 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target] Versione di Platform. |
-| 22 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
+| 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione della piattaforma [!DNL Target]. |
+| 28 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione della piattaforma [!DNL Target]. |
+| 22 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target Standard/Premium]con correzioni tecniche. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.3.1 di [!DNL Target Standard/Premium]. |
-| 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
-| 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
-|  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: &quot;Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti.&quot; |
-| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (30 marzo 2022)</li></ul> |
+| 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione [!DNL Target Standard/Premium] con correzioni tecniche. |
+| 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto: <ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
+|  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Updates are synced with the profile store every 5-10 minutes.” (Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti). |
+| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
-| 10 febbraio | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi</li></ul> |
-| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (23 febbraio 2022)</li></ul> |
+| 10 febbraio | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: <ul><li>Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi</li></ul> |
+| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (23 febbraio 2022)</li></ul> |
 | 3 febbraio | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
 | 2 febbraio | [Soluzione di problemi relativi alla distribuzione dei contenuti](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: “L’utilizzo del carattere di escape per le virgolette doppie nel valore dell’attributo del profilo in [!DNL Target] non funziona come previsto.” |
 | 1° febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.2.1 di [!DNL Target Standard/Premium] |
@@ -79,7 +80,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 11 gennaio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] (19 gennaio 2022)</li></ul> |
+| 11 gennaio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (19 gennaio 2022)</li></ul> |
 | 7 gennaio | [Note sulla versione](/help/main/r-release-notes/release-notes.md) | Aggiunte informazioni sulla versione 2.8.0 di at.js. |
 |  | [Dettagli sulle versioni di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Aggiunte informazioni sulla versione 2.8.0 di at.js. |
 |  | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#telemetry) | Nuove informazioni sull&#39;impostazione `telemetry`. |
@@ -120,7 +121,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 30 settembre | Inviare informazioni sull’attività a [!DNL Adobe Analytics] | È stato rimosso l’intero argomento perché i passaggi descritti non sono più necessari per inviare [!DNL Target] informazioni sull’attività dell’app mobile a [!DNL Analytics] per la segmentazione post-hoc. |
 |  | [Incremento medio, limiti di incremento e intervallo di affidabilità](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#pdf) | È stato aggiunto un file pdf per spiegare come viene calcolato l’intervallo di affidabilità per l’incremento. |
 |  | [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md) | È stato modificato `targetPageParams` in `targetPageParamsAll` nel “Passaggio 5 Aggiorna l’implementazione per includere il parametro `at_property`”. |
-| 27 settembre | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]<ul><li>Mercoledì 13 ottobre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
+| 27 settembre | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target] <ul><li>Mercoledì 13 ottobre 2021</li><li>08.00 (PDT, UTC -7)</li></ul></li></ul> |
 | 22 settembre | [Personalizzare una progettazione con Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | `$Double` è stato modificato in `$double` negli esempi di codice, per evitare possibili ambiguità. |
 |  | [Domande frequenti sulle progettazioni](/help/main/c-recommendations/c-design-overview/template-faq.md) | Il seguente paragrafo è stato aggiornato:<ul><li>Posso utilizzare uno script di profilo in una progettazione [!DNL Recommendations]?</li></ul> |
 |  | [Tracciamento dei clic](/help/main/c-activities/r-success-metrics/click-tracking.md) | È stata aggiunta la seguente sezione:<ul><li>Le metriche di tracciamento dei clic non sono collegate ad alcuna esperienza specifica in un’attività.</li><li>Utilizza i tipi di pubblico se è necessario limitare l’ambito delle metriche di tracciamento dei clic.</li><li>Più attività possono definire una metrica di tracciamento dei clic per lo stesso selettore. In tal caso, quando un visitatore è idoneo a una di queste attività e fa clic sul selettore, la metrica di tracciamento dei clic aumenta per tutte le attività associate per le quali il visitatore è qualificato.</li></ul> |
@@ -156,12 +157,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 4 agosto | [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md) | Nuove informazioni sull&#39;impostazione `optinEnabled`. |
 | 3 agosto | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione dell’[!UICONTROL API di consegna di Target]. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima versione di [!DNL Target Standard/Premium] 21.8.1 (4 agosto 2021). |
-| 2 agosto | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Distribuzione del traffico delle attività Allocazione automatica tramite A4T</li></ul> |
+| 2 agosto | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: <ul><li>Distribuzione del traffico delle attività Allocazione automatica tramite A4T</li></ul> |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla prossima versione dell’[!UICONTROL API di consegna di Target]. |
 | 30 Luglio | [Limiti](/help/main/r-troubleshooting-target/target-limits.md) | Sono state aggiornate le seguenti sezioni:<ul><li>entity.id</li><li>Parametro productPurchasedId</li></ul> |
 | 29 Luglio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla sessione Community Q&amp;A Coffee Break su [!DNL Adobe Target]: mercoledì 11 agosto 2021. |
 |  | [Personalizzare una mbox globale](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/customize-global-mbox.md) | È stata aggiornata una nota importante per indicare che è necessario modificare e salvare nuovamente le attività interessate create nel Compositore esperienza visivo dopo aver personalizzato una mbox globale. |
-|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>Il Compositore esperienza avanzato non supporta le richieste PUT.</li></ul> |
+|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: <ul><li>Il Compositore esperienza avanzato non supporta le richieste PUT.</li></ul> |
 | 27 Luglio | [Tutorial per Adobe Experience Platform Web SDK](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/aep-web-sdk.md) | È stata aggiunta una nuova sezione:<ul><li>Documentazione consigliata</li></ul> |
 |  | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#content-delivery) | È stata aggiunta una nuova sezione:<ul><li>Consegna dei contenuti</li></ul> |
 | 26 Luglio | [Utilizzo di Adobe Target con Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/personalization/adobe-target/target-overview.html?lang=it) nella guida *Panoramica di Adobe Experience Platform Web SDK* | È stata aggiunta una nuova sezione:<ul><li>Diagramma del sistema di Platform Web SDK</li></ul> |
@@ -195,7 +196,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Rapporti Approfondimenti personalizzazione](/help/main/c-reports/c-personalization-insights-reports/personalization-insights-reports.md) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Per quanto tempo persistono i dati per i modelli di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico]?</li></ul> |
 | 8 giugno | [Prima di implementare Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | È stata aggiunta una nota che indica che at.js 1.8.0 o successivo non funziona più con le versioni delle API Visitor precedenti alla 2.5.0 per il passaggio dei parametri di [!DNL Adobe Audience Manager] (AAM). |
 |  | [Ambienti](/help/main/administrating-target/environments.md) | È stata aggiunta una nota che indica che se si specifica [!UICONTROL Attività attive e inattive], gli host di questo ambiente visualizzano anche le attività inattive. |
-|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:<ul><li>I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti].</li></ul> |
+|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: <ul><li>I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti].</li></ul> |
 | 7 giugno | [Note sulla versione](/help/main/r-release-notes/release-notes.md): 21.5.1 | Questa versione include miglioramenti e correzioni. Consulta le Note sulla versione per saperne di più e trovare i collegamenti verso la relativa documentazione. Questa versione include anche molti aggiornamenti della documentazione. |
 
 ## Adobe [!DNL Target] Standard/Premium 21.4.1 (19 aprile 2021)
@@ -207,12 +208,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md) | È stata aggiornata la sezione “Collegamento di rinuncia” per spiegare come utilizzare il collegamento di rinuncia con CNAME. |
 |  | [[!DNL Adobe Analytics] as the reporting source for [!DNL Adobe Target] (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sono state aggiunte informazioni su [!DNL Adobe Experience Platform Web SDK]. |
 |  | [Implementazione di Analytics per  [!DNL Target] ](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md#platform) | È stata aggiunta una nuova sezione:<ul><li>Passaggi per l’implementazione di [!DNL Adobe Experience Platform Web SDK]</li></ul> |
-|  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) | Sono state aggiunte informazioni sull’utilizzo delle offerte di reindirizzamento con A4T e Platform Web SDK. |
+|  | [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#platform) (Offerte di reindirizzamento: domande frequenti su A4T). | Sono state aggiunte informazioni sull’utilizzo delle offerte di reindirizzamento con A4T e Platform Web SDK. |
 |  | [Token di risposta](/help/main/administrating-target/response-tokens.md) | Sono state aggiunte informazioni sull’utilizzo dei token di risposta con [!DNL Adobe Experience Platform Web SDK].<br>**Nota**: questa funzionalità verrà rilasciata in una versione futura di Platform Web SDK (data da determinare). |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Nuove informazioni sulla versione di Adobe Experience Platform Web SDK 2.5.0 (1° giugno 2021). |
 | 27 maggio | [Limiti](/help/main/r-troubleshooting-target/target-limits.md) | È stata aggiunta una sezione per le chiamate API di [!DNL Target]. Il limite è di 50 chiamate al minuto. |
 | 20 maggio | [Decisioning sul dispositivo](/help/main/c-implementing-target/c-api-and-sdk-overview/on-device-decisioning.md) | È stato aggiunto un collegamento al seguente articolo di Adobe Tech Blog:<ul><li>Adobe Tech Blog - Parte 2: eseguire l’SDK NodeJS di [!DNL Adobe Target] a scopo di sperimentazione e personalizzazione su piattaforme edge (AWS Lambda@Edge)</li></ul> |
-|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: “Possibili problemi di sincronizzazione nell&#39;archiviazione di attività [!UICONTROL Targeting automatico]” |
+|  | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto:  “Possibili problemi di sincronizzazione nell&#39;archiviazione di attività [!UICONTROL Targeting automatico]” |
 | 17 maggio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Aggiunte informazioni sulla versione 2.5.0 di at.js. |
 |  | [Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) | Argomento aggiornato per indicare che i collegamenti di anteprima sono disponibili per le attività di [!UICONTROL Automated Personalization] (AP) con at.js 2.5.0 (e versioni successive). |
 |  | [Browser supportati](/help/main/c-implementing-target/c-considerations-before-you-implement-target/supported-browsers.md) | Indica che la versione di at.js 2.5.0 rimuove il supporto per Microsoft Internet Explorer 10, Internet Explorer 11 e tutte le versioni precedenti. Microsoft Edge continua a essere supportato in at.js 2.5.0 e versioni successive. |
