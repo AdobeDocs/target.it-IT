@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '3943'
-ht-degree: 96%
+source-wordcount: '4029'
+ht-degree: 94%
 
 ---
 
@@ -19,7 +19,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| Maggio 11 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.5.1 e di Target Platform (11-13 maggio 2022). |
+| Maggio 11 | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Sono stati aggiunti collegamenti di informazioni e registrazione per i seguenti webinar:<ul><li>Merci sportive di Dick: Personalizzazione e cambiamento del paesaggio nel retail</li><li>Adobe: Insider del settore della personalizzazione - Servizi finanziari e assicurazioni</li><li>Banca nazionale della città: Come raggiungere l’1% più importante nell’ottimizzazione digitale</li><li>Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target]</li><li>Banca nazionale della città: Da zero a eroe - Avvio e ridimensionamento di un programma di personalizzazione</li><li>Adobe: Opportunità di ottimizzazione ad alto impatto</li><li>Adobe: Registratore di settore della personalizzazione - Retail</li></ul>È stata aggiunta la registrazione per il seguente webinar:<ul><li>Personalizzazione in tempo reale con [!DNL Adobe Target]</li></ul> |
+|  | [Direttive Content Security Policy (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md) | È stata aggiunta la sezione domande frequenti. |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.5.1 e di Target Platform (11-13 maggio 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28 aprile)
 

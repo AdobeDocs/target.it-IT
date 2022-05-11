@@ -4,9 +4,9 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db632225d21c2e061e82269bec168341b410575a
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '452'
 ht-degree: 100%
 
 ---
@@ -144,6 +144,10 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 ## Ottimizzazione dei motori di ricerca (SEO)
 
 * [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/c-how-atjs-works/how-atjs-works.md)
+
+## Sicurezza
+
+* [Direttive Content Security Policy (CSP)](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/content-security-policy.md)
 
 ## Stato del sistema
 
