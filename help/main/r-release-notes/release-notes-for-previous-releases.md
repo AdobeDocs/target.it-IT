@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '33321'
+source-wordcount: '33448'
 ht-degree: 99%
 
 ---
@@ -23,6 +23,19 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 
 ## Note sulla versione - 2022
 
+### [!DNL Target Standard/Premium] 22.4.1 (28 aprile 2022)
+
+Questa versione include la seguente correzione:
+
+* È stato risolto un problema a causa del quale tre algoritmi basati su carrello utilizzavano la stessa condizione Acquisto/Acquisto sul backend di [!DNL Target]. (TGT-43456)
+* Abilitato [!DNL Target] Aggiornamento token interfaccia utente per le organizzazioni abilitate con [Account ID aziendale](https://helpx.adobe.com/enterprise/using/identity.html){target=_blank} e autenticazione basata su criteri (PBA). (TGT-42590)
+
+### [!DNL Target] versione di platform (27 aprile 2022)
+
+Questa versione contiene le seguenti modifiche:
+
+* Con questa versione puoi preacquisire il contenuto per [!UICONTROL Personalizzazione automatica] (AP) e [!UICONTROL Targeting automatico] (AT) attività (in precedenza non restituite da [!DNL Target]). Questo potrebbe modificare le esperienze visualizzate dagli utenti finali in caso di una chiamata di preacquisizione (nessuna modifica al flusso di esecuzione) se un’attività di AP/AT si trova nel percorso di consegna ed è più alta in priorità rispetto ad altre attività AB/XT che utilizzano la stessa posizione per la consegna dei contenuti.
+
 ### [!DNL Target] Versione di Platform (30 marzo)
 
 Questa versione contiene i seguenti miglioramenti:
@@ -31,7 +44,7 @@ Questa versione contiene i seguenti miglioramenti:
 
 ### [!DNL Target Standard] Aggiornamento del pubblico (28 marzo)
 
-Questa versione contiene il seguente aggiornamento:
+Questa versione contiene i seguenti aggiornamenti:
 
 * Il nuovo [!UICONTROL Tipi di pubblico] L’interfaccia utente sarà abilitata per tutti [!DNL Target Standard] clienti.
 
@@ -67,21 +80,21 @@ Questa versione di manutenzione contiene le correzioni e i miglioramenti seguent
 
 Questa versione include correzioni di bug e funzionalità preliminari necessarie per integrazioni future.
 
-### Versione di Target Platform (13 aprile 2022)
+### Versione della piattaforma Target (13 aprile 2022)
 
-Questa versione contiene il seguente aggiornamento:
+Questa versione contiene i seguenti aggiornamenti:
 
-* È stato risolto un problema per garantire che l’ultimo ottetto degli indirizzi IP sia correttamente offuscato quando acquisito utilizzando gli script di profilo. (TNT-44076)
+* È stato risolto un problema per garantire che l’ultimo ottetto di indirizzi IP sia offuscato correttamente quando viene acquisito utilizzando gli script di profilo. (TNT-44076)
 
 ### [!DNL Target Standard/Premium] 22.3.1 (5 aprile 2022)
 
-Questa versione contiene le seguenti modifiche e miglioramenti:
+Questa versione contiene le modifiche e i miglioramenti seguenti:
 
-* È stato risolto un problema che causava il [!UICONTROL Includi] e [!UICONTROL Escludi] opzioni da disattivare per i tipi di pubblico combinati durante la modifica di un’attività. (TGT-43422)
+* È stato risolto un problema che causava la disabilitazione delle opzioni [!UICONTROL Includi] e [!UICONTROL Escludi] per i tipi di pubblico combinati durante la modifica di un’attività. (TGT-43422)
 * È stato risolto un problema che impediva ad alcuni clienti di visualizzare l’elenco dei tipi di pubblico disponibili durante la modifica di un’attività. (TGT-43404)
-* È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP da &quot;[!UICONTROL IP da escludere [!DNL Target] dati di reporting]&quot; [!UICONTROL Amministrazione] > [!UICONTROL Reporting]. (TGT-43384)
-* È stato risolto un problema che impediva l’uso di numeri negativi nel criterio del pubblico che verificava se una variabile fosse &quot;maggiore di&quot;, &quot;maggiore o uguale a&quot;, &quot;minore di&quot; o &quot;minore o uguale a&quot;. (TGT-43367)
-* È stato risolto un problema che impediva ai clienti di visualizzare il [!UICONTROL Dettagli del pubblico] durante la creazione di tipi di pubblico combinati. (TGT-43303)
+* È stato risolto un problema che impediva ad alcuni clienti di eliminare un indirizzo IP dall’elenco “[!UICONTROL IPs to exclude from [!DNL Target] reporting data]” (IP da escludere dai dati di reporting di Target) in [!UICONTROL Amministrazione] > [!UICONTROL Generazione rapporti]. (TGT-43384)
+* È stato risolto un problema che impediva l’uso di numeri negativi nel criterio di pubblico che verifica se una variabile è “maggiore di”, “maggiore o uguale a”, “minore di”; o “minore o uguale a”. (TGT-43367)
+* È stato risolto un problema che impediva ai clienti di visualizzare la scheda [!UICONTROL Audience Details] (Dettagli del pubblico) durante la creazione di tipi di pubblico combinati. (TGT-43303)
 
 ### at.js versione 2.8.0 (7 gennaio 2022)
 
@@ -1106,7 +1119,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
    <td colname="col1"> <p>Attività A/B e di targeting esperienza (XT) </p> </td> 
    <td colname="col2"> <p>Modifica ed elimina le esperienze direttamente dal diagramma di attività. Ora puoi passare al Compositore esperienza visivo (VEC) per un'esperienza specifica o eliminare un'esperienza direttamente dal diagramma. </p> <p> <img src="assets/experience_edit.png" id="image_FA6E5F07B04A4B4BA02EA71EDB6908A7" /> </p> <p>Consulta: </p> <p> 
      <ul id="ul_CB0C1146716F4C09BF924CF3DFA7DC1A"> 
-      <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>Attività A/B: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">Aggiungi esperienza</a> </p> </li> 
+      <li id="li_3767DD36F597481FB312CC577CD668F0"> <p>Attività A/B: <a href="/help/main/c-activities/t-test-ab/t-test-create-ab/ab-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">Aggiungi esperienza </a> </p> </li> 
       <li id="li_E2990CA178C6446BA7206643A3164FEF"> <p>Attività Targeting esperienza: <a href="/help/main/c-activities/t-experience-target/t-xt-create/xt-add-experience.md#task_454646F2895242D3B92DC395A0CE1A00" format="dita" scope="local">Creare esperienze </a> </p> </li> 
      </ul> </p> <p>(TGT-30229) </p> </td> 
   </tr> 
@@ -2104,7 +2117,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
  <tbody> 
   <tr> 
    <td colname="col1"> <p>Analytics for Target (A4T) </p> <p>Offerte di reindirizzamento </p> </td> 
-   <td colname="col2"> <p><b>Aggiornato il 13 aprile 2017.</b> </p> <p>È ora possibile utilizzare le offerte di reindirizzamento nelle attività che utilizzano <span class="keyword">Analytics</span> come origine per la generazione rapporti. </p> <p>Queste librerie devono essere incluse sia nella pagina con l'offerta di reindirizzamento sia nella pagina a cui il visitatore viene reindirizzato. Come parte di questa modifica, i nuovi parametri URL verranno aggiunti automaticamente agli URL di reindirizzamento se il servizio ID visitatore è implementato nel sito, indipendentemente dal fatto che si stia utilizzando Analytics come origine per la generazione rapporti per quell'attività. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">Offerte di reindirizzamento - Domande frequenti su A4T.</a> </p> </td> 
+   <td colname="col2"> <p><b>Aggiornato il 13 aprile 2017.</b> </p> <p>È ora possibile utilizzare le offerte di reindirizzamento nelle attività che utilizzano <span class="keyword">Analytics</span> come origine per la generazione rapporti. </p> <p>Queste librerie devono essere incluse sia nella pagina con l'offerta di reindirizzamento sia nella pagina a cui il visitatore viene reindirizzato. Come parte di questa modifica, i nuovi parametri URL verranno aggiunti automaticamente agli URL di reindirizzamento se il servizio ID visitatore è implementato nel sito, indipendentemente dal fatto che si stia utilizzando Analytics come origine per la generazione rapporti per quell'attività. </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#concept_21BF213F10E1414A9DCD4A98AF207905" format="dita" scope="local">Redirect Offers - A4T FAQ</a> (Offerte di reindirizzamento: domande frequenti su A4T). </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> <p>Tipi di pubblico </p> </td> 

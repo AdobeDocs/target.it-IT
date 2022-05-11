@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d92340218f6e5f906aef15584740a179ace30a77
+source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
 workflow-type: tm+mt
-source-wordcount: '3919'
+source-wordcount: '3943'
 ht-degree: 96%
 
 ---
@@ -15,23 +15,29 @@ ht-degree: 96%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.4.1 (April 28)
+## Adobe Target Standard/Premium 22.5.1 (versione scaglionata; (11-13 maggio 2022)
+
+| Data | Argomento | Modifiche |
+| --- | --- | --- |
+| Maggio 11 | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.5.1 e di Target Platform (11-13 maggio 2022). |
+
+## Adobe Target Standard/Premium 22.4.1 (28 aprile)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 10 maggio | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.5.1 di [!DNL Target Standard/Premium]. |
-| Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Can I move an audience from one workspace to another?</li></ul> |
-|  | Panoramica dell’[[!UICONTROL allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Sono state aggiunte le seguenti domande frequenti:<ul><li></li><li></li></ul> |
-|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | [!DNL Target Standard/Premium] |
+| Aprile 28 | [autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#move-audience) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra?</li></ul> |
+|  | Panoramica dell’[[!UICONTROL allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#section_0E72C1D72DE74F589F965D4B1763E5C3) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Può un [!UICONTROL Allocazione automatica] l’attività regola l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?</li><li>Does [!UICONTROL Allocazione automatica] mostrare un’esperienza vincente a un visitatore di ritorno se l’esperienza vincente è diversa da quella che il visitatore ha visto quando si qualifica per l’attività?</li></ul> |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target Standard/Premium] Versioni 22.4.1 e di Target Platform (27 aprile 2022). |
 
-## Adobe Target Standard/Premium 22.3.1 (April 5)
+## Adobe Target Standard/Premium 22.3.1 (5 aprile)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Added information for the following events:<ul><li>Webinar: Real-Time Personalization with Adobe Target (April 28, 2022)</li><li>[!DNL Adobe Target]</li></ul> |
-|  | [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) (Offerte di reindirizzamento: domande frequenti su A4T). | Sono state aggiunte le seguenti domande frequenti:<ul><li>How can I minimize discrepancies in traffic distribution when using redirect offers in A4T activities?</li></ul> |
-|  | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la seguente sezione:<ul><li>Removing ClientLibs and extraneous HTML from Experience Fragments exported to Target</li></ul> |
-| 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | [!DNL Target] |
+| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni per i seguenti eventi:<ul><li>Webinar: Personalizzazione in tempo reale con Adobe Target (28 aprile 2022)</li><li>[!DNL Adobe Target] Interruzione di caffè Q&amp;A nella community (25 maggio 2022)</li></ul> |
+|  | [Redirect offers - A4T FAQ](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) (Offerte di reindirizzamento: domande frequenti su A4T). | Sono state aggiunte le seguenti domande frequenti:<ul><li>Come posso ridurre al minimo le discrepanze nella distribuzione del traffico quando utilizzo le offerte di reindirizzamento nelle attività A4T?</li></ul> |
+|  | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la seguente sezione:<ul><li>Rimozione di ClientLibs e HTML estranei dai frammenti esperienza esportati in Target</li></ul> |
+| 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease relative al [!DNL Target] rilascio della piattaforma pianificato per il 17 aprile 2022. |
 | 20 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.4.1 di [!DNL Target Standard/Premium]. |
 | 14 aprile | [Opzioni del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md) | Sono state aggiunte informazioni alla sezione Ridisponi per spiegare come gestire il comportamento non coerente del Compositore esperienza visivo con le azioni [!UICONTROL Sposta] e [!UICONTROL Ridisponi] causato da un caricamento lento degli elementi DOM. |
 | 13 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (27 aprile 2022)</li></ul> |
