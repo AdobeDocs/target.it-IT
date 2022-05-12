@@ -4,9 +4,9 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: db632225d21c2e061e82269bec168341b410575a
+source-git-commit: a820a1cbc56332cc6414dc9f5ce4578fa0349481
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1165'
 ht-degree: 30%
 
 ---
@@ -34,7 +34,9 @@ Anche Kai Motoyama, Tecnico di Assistenza Tecnica, sarà al centro del dibattito
 
 Registrati ai seguenti webinar per vedere come vengono utilizzati i clienti [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-### Merci sportive di Dick: Personalizzazione e cambiamento del paesaggio nel retail
+### Merci sportive di Dick: Personalizzazione e cambiamento del paesaggio nel retail (19 maggio 2022)
+
++++Clicca su me
 
 * **Giovedì 19 maggio 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
@@ -49,15 +51,22 @@ Scopri come Dick’s Sporting Goods sta guidando una crescita a due cifre mentre
 * Impatto globale sul business grazie alla scalabilità delle attività di personalizzazione e sperimentazione su web e dispositivi mobili
 * Suggerimenti e trucchi per l&#39;utilizzo dei dati di analisi per trasformare i visitatori medi in atleti di ritorno
 
-### Adobe: Insider del settore della personalizzazione - Servizi finanziari e assicurazioni
++++
+
+### Adobe: Insider del settore della personalizzazione - Servizi finanziari e assicurazioni (24 maggio 2022)
+
++++Clicca su me
 
 * **Martedì 24 maggio 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
 * **[Ulteriori informazioni e informazioni sulla registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Join Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Consulente Target, Premier Support Adobe), per scoprire come i brand rispondono ai cambiamenti immediati della domanda e al contempo porre la personalizzazione al centro dell&#39;impegno dei clienti. Scopri in che modo le società di servizi finanziari supportano e informano i clienti di tutto il mondo preoccupati per i recenti modelli di inflazione e le circostanze relative ai loro investimenti. 
+Join Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Consulente Target, Premier Support Adobe), per scoprire come i brand rispondono ai cambiamenti immediati della domanda e al contempo porre la personalizzazione al centro dell&#39;impegno dei clienti. Scopri in che modo le società di servizi finanziari supportano e informano i clienti di tutto il mondo preoccupati per i recenti modelli di inflazione e le circostanze relative ai loro investimenti.
++++ 
 
-### Banca nazionale della città: Come raggiungere l’1% più importante nell’ottimizzazione digitale
+### Banca nazionale della città: Come raggiungere l’1% migliore nell’ottimizzazione digitale (26 maggio 2022)
+
++++Clicca su me
 
 * **Giovedì 26 maggio 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
@@ -72,7 +81,11 @@ Scopri come la City National Bank sta sfruttando [!DNL Target] a:
 * Accelerare la crescita del business con un maggiore coinvolgimento e adozione di offerte personalizzate
 * Ottimizza le campagne multicanale per ottimizzare il time-to-value e il ROI.
 
-### Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target]
++++
+
+### Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target] (2 giugno 2022)
+
++++Clicca su me
 
 * **Giovedì 2 giugno 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
@@ -85,15 +98,22 @@ Join Jordan Ison (Consulente principale per soluzioni esperte presso [!DNL Adobe
 * Visita guidata dettagliata [!DNL Adobe Analytics] e [!DNL Target] flussi di lavoro per personalizzazione, targeting e test
 * Casi d’uso principali per sbloccare gli attributi che predicono il comportamento dei visitatori e gli attributi più importanti per le visualizzazioni chiave e l’analisi della segmentazione
 
-### Banca nazionale della città: Da zero a eroe - Avvio e ridimensionamento di un programma di personalizzazione
++++
+
+### Banca nazionale della città: Da zero a eroe - Avvio e scalabilità di un programma di personalizzazione (9 giugno 2022)
+
++++Clicca su me
 
 * **Giovedì 9 giugno 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
 * **Ulteriori informazioni sulla registrazione saranno presto disponibili**
 
 Unisciti a Heather Adkins (SVP Marketing Technology) per scoprire le best practice per diventare una &quot;banca di relazioni&quot; per aumentare la fedeltà al marchio e come spingere le persone e i processi a creare e scalare programmi di personalizzazione di successo.
++++
 
-### Adobe: Opportunità di ottimizzazione ad alto impatto
+### Adobe: Opportunità di ottimizzazione ad alto impatto (16 giugno 2022)
+
++++Clicca su me
 
 * **Giovedì 16 giugno 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
@@ -106,13 +126,18 @@ Partecipa a Kaitlin White (Adobe Product Marketing Manager) quando condividiamo 
 * Utilizzo dell’affinità cliente per la personalizzazione
 * E molte altre idee per aiutarti a scoprire opportunità di alto impatto nella tua organizzazione
 
-### Adobe: Registratore di settore della personalizzazione - Retail 
++++
+
+### Adobe: Registri di personalizzazione nel settore - Retail (21 giugno 2022)
+
++++Clicca su me
 
 * **Giovedì 21 giugno 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
 * **[Ulteriori informazioni e informazioni sulla registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Unisciti a Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Consulente Target, Premier Support di Adobe) per discutere come le vendite di e-commerce al dettaglio stanno aumentando vertiginosamente man mano che i modelli e i comportamenti di acquisto dei consumatori cambiano, con una maggiore domanda di beni e servizi in alcuni mercati.
++++
 
 ## Registrazioni dei webinar passati e delle sessioni di skill-builder
 
