@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target
 title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1997fb8e290541fc9e194d582ccc2587595ccfa7
+source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
 workflow-type: tm+mt
-source-wordcount: '1165'
-ht-degree: 30%
+source-wordcount: '1388'
+ht-degree: 25%
 
 ---
 
@@ -17,11 +17,15 @@ Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Tar
 
 ## Community Q&amp;A Coffee Break [!DNL Adobe Target]  (25 maggio 2022)
 
+Brent Kostak e Drew Burns del [!DNL Adobe Target] Il team di Product Marketing risponderà alle domande dei clienti relative alle loro aree di competenza.
+
++++Clicca su me
+
 * **Mercoledì 25 maggio 2022**
 * **8:00 (PDT, UTC -7)**
 * **[Ulteriori informazioni sulla registrazione](https://adobe.ly/3LbOj4G)**
 
-Brent Kostak e Drew Burns del [!DNL Adobe Target] Il team di Product Marketing risponderà alle domande dei clienti relative alle loro aree di competenza. I clienti sono invitati a pubblicare domande riguardanti i seguenti argomenti che sono stati trattati durante il webinar Real-time Personalization 4/28/22 (accesso registrazione qui sotto):
+I clienti sono invitati a pubblicare domande riguardanti i seguenti argomenti che sono stati trattati durante il webinar Real-time Personalization 4/28/22 (accesso registrazione qui sotto):
 
 * Creazione di tipi di pubblico condivisi con [!DNL Adobe Target] e Real-Time CDP
 * Creazione di strategie per risolvere i problemi di frammentazione dei dati
@@ -29,6 +33,7 @@ Brent Kostak e Drew Burns del [!DNL Adobe Target] Il team di Product Marketing r
 * Distribuzione di messaggi, contenuti e offerte pertinenti in tempo reale per stimolare il coinvolgimento
 
 Anche Kai Motoyama, Tecnico di Assistenza Tecnica, sarà al centro del dibattito che fornirà ulteriore supporto.
++++
 
 ## [!DNL Adobe Target] serie di webinar {#webinar-series}
 
@@ -36,13 +41,15 @@ Registrati ai seguenti webinar per vedere come vengono utilizzati i clienti [!DN
 
 ### Merci sportive di Dick: Personalizzazione e cambiamento del paesaggio nel retail (19 maggio 2022)
 
+Scopri le best practice sull’aumento esponenziale dei programmi di personalizzazione su larga scala. Scopri come Dick&#39;s Sporting Goods utilizza [!DNL Adobe Target] per coinvolgere i migliori atleti e marchi.
+
 +++Clicca su me
 
 * **Giovedì 19 maggio 2022**
 * **1:00 alle 2:00 p.m. (EDT, UTC-4)**
 * **[Ulteriori informazioni e informazioni sulla registrazione](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
-Join Shawn Wilkinson (eCommerce Perssonalization Manager) per scoprire come [!DNL Target] sta aiutando a trasformare i visitatori comuni in atleti di ritorno.
+Join Shawn Wilkinson (eCommerce Perssonalization Manager) per scoprire come [!DNL Target] sta aiutando Dick&#39;s Sporting Goods a trasformare i visitatori medi in atleti di ritorno.
 
 Scopri come Dick’s Sporting Goods sta guidando una crescita a due cifre mentre scompriamo:
 
@@ -55,6 +62,8 @@ Scopri come Dick’s Sporting Goods sta guidando una crescita a due cifre mentre
 
 ### Adobe: Insider del settore della personalizzazione - Servizi finanziari e assicurazioni (24 maggio 2022)
 
+Scopri in che modo le società di servizi finanziari supportano e informano i clienti che utilizzano la personalizzazione per prepararsi a modelli di inflazione e strategie di investimento.
+
 +++Clicca su me
 
 * **Martedì 24 maggio 2022**
@@ -65,6 +74,8 @@ Join Christopher Young (Director, Industry Strategy Financial Services) e James 
 +++ 
 
 ### Banca nazionale della città: Come raggiungere l’1% migliore nell’ottimizzazione digitale (26 maggio 2022)
+
+Visualizza il kit di strumenti e i casi d’uso per l’implementazione di strategie di personalizzazione interfunzionali. Scopri come CNB è passata dal 26% inferiore del suo settore all’1% superiore con [!DNL Adobe Target].
 
 +++Clicca su me
 
@@ -85,6 +96,8 @@ Scopri come la City National Bank sta sfruttando [!DNL Target] a:
 
 ### Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target] (2 giugno 2022)
 
+Scopri come l’intelligenza artificiale continua a ridefinire le aspettative dei consumatori man mano che i modelli di apprendimento automatico e le informazioni sui dati aprono nuove porte per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per coinvolgere i consumatori con esperienze personalizzate che contano. Visita passo passo [!DNL Adobe Analytics] + [!DNL Adobe Target] flussi di lavoro per personalizzazione, targeting e test.
+
 +++Clicca su me
 
 * **Giovedì 2 giugno 2022**
@@ -102,6 +115,8 @@ Join Jordan Ison (Consulente principale per soluzioni esperte presso [!DNL Adobe
 
 ### Banca nazionale della città: Da zero a eroe - Avvio e scalabilità di un programma di personalizzazione (9 giugno 2022)
 
+Scopri le best practice per diventare una &quot;banca di relazioni&quot; per aumentare la fedeltà al marchio. Scopri come spingere le persone e i processi a creare e scalare programmi di personalizzazione di successo.
+
 +++Clicca su me
 
 * **Giovedì 9 giugno 2022**
@@ -112,6 +127,8 @@ Unisciti a Heather Adkins (SVP Marketing Technology) per scoprire le best practi
 +++
 
 ### Adobe: Opportunità di ottimizzazione ad alto impatto (16 giugno 2022)
+
+Scopri come, entrando nel nuovo sistema normale, più digitale che mai, è fondamentale che le organizzazioni sfruttino tutte le opportunità per offrire esperienze digitali eccezionali. Abbastanza buono non è più abbastanza buono. Ci vogliono grandi esperienze per restare competitivi.
 
 +++Clicca su me
 
@@ -129,6 +146,8 @@ Partecipa a Kaitlin White (Adobe Product Marketing Manager) quando condividiamo 
 +++
 
 ### Adobe: Registri di personalizzazione nel settore - Retail (21 giugno 2022)
+
+Il 2022 ha dato alle imprese un ambiente dinamico e in rapida evoluzione per funzionare e funzionare. Scopri come gli esperti del settore vedono nuove tendenze dei consumatori prendere forma mentre la vita inizia a tornare alla normalità per i lavoratori e i viaggiatori. 
 
 +++Clicca su me
 
