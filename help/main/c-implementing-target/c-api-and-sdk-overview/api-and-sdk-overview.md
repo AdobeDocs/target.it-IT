@@ -5,7 +5,7 @@ title: Dove posso saperne di più [!DNL Target] API e SDK di distribuzione lato 
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: db288fbb4ddf011b7051257fdc8126d1158c8469
 workflow-type: tm+mt
 source-wordcount: '395'
 ht-degree: 23%
@@ -37,7 +37,7 @@ Collegamento: [API di distribuzione lato server](https://developers.adobetarget.
 
 `/rest/v1/delivery`
 
-Gettata [!DNL Target] API di consegna, puoi:
+Utilizzo della [!DNL Target] API di consegna, puoi:
 
 * Offri esperienze su diversi canali web, compresi SPA e dispositivi mobili, nonché dispositivi IoT non basati su browser, come televisori collegati, chioschi o schermi digitali in-store.
 * Distribuisci esperienze da qualsiasi piattaforma o applicazione lato server in grado di effettuare chiamate HTTP/s.
