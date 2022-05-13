@@ -5,10 +5,10 @@ title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: fb8dd952de5145a9f661c98df3b9ab1f344876e7
+source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
 workflow-type: tm+mt
-source-wordcount: '3150'
-ht-degree: 57%
+source-wordcount: '3149'
+ht-degree: 59%
 
 ---
 
@@ -24,9 +24,9 @@ Le autorizzazioni per gli utenti aziendali sono un mezzo per amministrare formal
 >
 >Le [!DNL Target] l’implementazione può utilizzare qualsiasi versione di at.js.
 
-Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul pulsante [!UICONTROL Amministrazione] nella parte superiore della [!DNL Target] Interfaccia utente.
+Per verificare se la tua organizzazione dispone di una licenza Standard o Premium, fai clic sul collegamento [!UICONTROL Amministrazione] in alto nell’interfaccia utente di [!DNL Target].
 
-* **[!DNL Target Standard]Clienti**: Se vedi la [!UICONTROL Utenti] scheda ([!UICONTROL Amministrazione > Utenti]) (e non il [!UICONTROL Proprietà] , la tua organizzazione dispone di un [!DNL Target Standard] licenza.  I clienti [!DNL Target Standard] possono seguire le istruzioni riportate in [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
+* Clienti **[!DNL Target Standard]**: se è presente la scheda [!UICONTROL Utenti] ([!UICONTROL Amministrazione > Utenti]) (e non la scheda [!UICONTROL Proprietà]), la tua organizzazione dispone di una licenza [!DNL Target Standard]  I clienti [!DNL Target Standard] possono seguire le istruzioni riportate in [Utenti](/help/main/administrating-target/c-user-management/c-user-management/user-management.md) per aggiungere utenti e assegnare autorizzazioni in [!DNL Adobe Admin Console].
 
 * **[!DNL Target Premium]Clienti**: Se vedi la [!UICONTROL Proprietà] scheda ([!UICONTROL Amministrazione > Proprietà]) e [!UICONTROL Utenti] la tua organizzazione dispone di un [!DNL Target Premium] licenza. I clienti [!DNL Target Premium] devono seguire le istruzioni contenute in questo articolo e in [Configurare le autorizzazioni Enterprise](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md).
 
@@ -88,8 +88,8 @@ I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devo
 
 | Ruolo | Descrizione |
 |--- |--- |
-| Approvatore | Può creare, modificare, attivare o interrompere le attività. |
-| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+| Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
+| Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
 | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
 | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
@@ -117,8 +117,8 @@ Ogni ruolo dispone di diversi livelli di autorizzazioni:
 
 | Ruolo | Descrizione |
 |--- |--- |
-| Approvatore | Può creare, modificare, attivare o interrompere le attività. |
-| Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+| Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
+| Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
 | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
 | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
@@ -231,7 +231,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 * Quando si visualizzano i tipi di pubblico dalla pagina [!DNL Audiences], questa viene caricata più lentamente del previsto. Se interagite in qualsiasi modo con la barra di ricerca, la pagina dei tipi di pubblico si visualizzerà più velocemente. Questo problema è noto e verrà risolto in un prossimo aggiornamento. Questo problema non influisce sulla selezione dei destinatari durante il flusso di lavoro della creazione di attività.
 * Le risorse seguenti fanno parte del nuovo modello di autorizzazioni Enterprise:
 
-   * Attività, gruppi di destinatari e offerte di codice create all&#39;interno di Target Standard/Premium dopo che il cliente è abilitato alle autorizzazioni. (Nota: i clienti devono avere il diritto di Target Premium.)
+   * Attività, tipi di pubblico e offerte di codice create in [!DNL Target Standard/Premium] sono disponibili per l&#39;uso dopo che il cliente è abilitato per le autorizzazioni. (Nota: i clienti devono avere diritto [!DNL Target Premium].)
    * È possibile aggiungere proprietà alle attività esistenti nell’area di lavoro predefinita; tuttavia, tale approccio è soggetto a modifiche.
    * Solo le nuove risorse (come attività, offerte di codice e tipi di pubblico) create all&#39;interno di Target Premium (dopo l&#39;abilitazione delle autorizzazioni Enterprise) sono disponibili per limitare le autorizzazioni.
    * Le risorse esterne sono disponibili solo per gli utenti nell&#39;area di lavoro predefinita. Il ruolo di un utente nell&#39;area di lavoro predefinita si applica globalmente (a tutte le richieste Target e a tutte le risorse Target).
@@ -313,7 +313,7 @@ Finalità di apprendimento:
 
 ### Orario ufficio: [!DNL Target] Aree di lavoro Premium
 
-Questo video è una registrazione di “ Office Hours”, un’iniziativa condotta dal team di assistenza clienti Adobe.
+Questo video è una registrazione di “Office Hours”, un’iniziativa condotta dal team di assistenza clienti di Adobe.
 
 * Creare un’area di lavoro (profilo prodotto)
 * Creazione delle proprietà
@@ -322,6 +322,6 @@ Questo video è una registrazione di “ Office Hours”, un’iniziativa condot
 
 >[!NOTE]
 >
->La [!DNL Target] [!UICONTROL Amministrazione] interfaccia utente del menu (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
+>L’interfaccia utente di [!DNL Target] del menu [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse.
 
 >[!VIDEO](https://video.tv.adobe.com/v/23643/)
