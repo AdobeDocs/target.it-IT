@@ -16,7 +16,7 @@ ht-degree: 29%
 
 Se utilizzi le direttive [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) per l’mplementazione di [!DNL Adobe Target], aggiungi le seguenti direttive CSP quando utilizzi [at.js 2.1 o versione successiva](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md):
 
-* `connect-src` con `*.tt.omtrdc.net` inserito nell’elenco Consentiti. Necessario per consentire la richiesta di rete all’edge [!DNL Target] .
+* `connect-src` con `*.tt.omtrdc.net` inserito nell’elenco Consentiti. Necessario per consentire la richiesta di rete all’edge [!DNL Target].
 * `style-src unsafe-inline`. Necessario per il controllo di pre-hiding e sfarfallio.
 * `script-src unsafe-inline`. Necessario per consentire l’esecuzione di JavaScript che potrebbe far parte di un’offerta HTML.
 

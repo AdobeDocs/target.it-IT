@@ -7,7 +7,7 @@ exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 94b46380d064e0d0c98eee30f09ddd19772dcbe1
 workflow-type: tm+mt
 source-wordcount: '4783'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -59,7 +59,7 @@ Attualmente, un problema con il Compositore esperienza avanzato impedisce il sup
 
 I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti] per le attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). (TOP-3813)
 
-### Archiviazione [!UICONTROL Targeting automatico] potrebbero causare problemi di sincronizzazione
+### L&#39;archiviazione di attività di [!UICONTROL Auto-Target] (Targeting automatico) potrebbe causare problemi di sincronizzazione
 
 Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
 
@@ -131,7 +131,7 @@ Di seguito sono riportati problemi noti relativi a at.js:
    >
    >Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.
 
-* Quando si carica una pagina nel Compositore esperienza visivo (VEC), Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryId è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
+* Quando si carica una pagina nel Compositore esperienza visivo (VEC), Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
    Quando si utilizza at.js, la casella di controllo Compatibilità è nascosta e non è quindi possibile visualizzare gli algoritmi non compatibili.
 
@@ -232,7 +232,7 @@ Ad esempio, per lo stesso visitatore, se il conteggio di conversione è impostat
 * Il Pubblico: “tutti i visitatori qualificati” per le conversioni a livello di visita incrementa una sola volta. Questo è il comportamento atteso.
 * Il Pubblico: “nuovi visitatori” per le conversioni a livello di visita incrementa erroneamente ogni volta, invece di una sola volta. Questo non è il comportamento atteso.
 
-Se il conteggio delle conversioni è impostato per incrementare &quot;a ogni impression:&quot;
+Se il conteggio delle conversioni è impostato per incrementare “a ogni impression:”
 
 * Il Pubblico: “tutti i visitatori qualificati” per le conversioni a livello di visitatore incrementa in modo errato una sola volta, invece di incrementare ogni volta. Questo non è il comportamento atteso.
 * Il Pubblico: “nuovi visitatori” per le conversioni a livello di visitatore aumenta ogni volta. Questo è il comportamento atteso.
@@ -247,7 +247,7 @@ Questo problema noto riguarda la decisione di Google di modificare il comportame
 
 Per ulteriori informazioni e una correzione, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
-### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata.
+### Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente quando si utilizza come controllo un’esperienza personalizzata
 
 Il rapporto grafico per un’attività di Targeting automatico non viene riprodotto correttamente per le modalità “differenziali” (Incremento medio e Incremento giornaliero) in assenza di dati (visite 0) in qualsiasi esperienza. Questa situazione può verificarsi nella fase iniziale di un’attività quando si utilizza come controllo un’esperienza personalizzata. Per le altre modalità (Media corrente per controllo e destinazione, Giornaliero per controllo e destinazione, Visite) funziona correttamente. Non appena sono presenti alcuni dati (numero di visite diverso da zero), il rapporto viene riprodotto come previsto.
 
@@ -334,7 +334,7 @@ Risolto con il rilascio della versione 1.6.2 di at.js.
 
 Le attività nell&#39;area di lavoro predefinita eliminate tramite API continuano a essere visualizzate nell&#39;interfaccia utente di Target. Come soluzione alternativa, elimina tutte le attività nell&#39;area di lavoro predefinita utilizzando l&#39;interfaccia utente di Target. (TGT-31315)
 
-Risolto il 25 ottobre 2018.
+Risolto il 25 ottobre 2018
 
 ### Rapporti a livello di offerta di Automated Personalization (AP)
 
@@ -387,7 +387,7 @@ Questo problema è stato risolto il 30 agosto 2017
 
 Un problema relativo alla versione 17.6.2 potrebbe aver interessato le attività create e/o aggiornate tra il 22 giugno 2017 e il 29 giugno 2017. Il problema ha riguardato le seguenti attività:
 
-* Eventuali esperienze che sono state riorganizzate in Targeting esperienza (XT) sono tornate all’ordine originale.
+* Eventuali esperienze che sono state riorganizzate in Targeting esperienza (XT) sono tornate all’ordine originale
 * Eventuali regole di segmenti locali per l’attività (non salvate in un pubblico) sono andate perse: tipi di pubblico combinati, perfezionamenti di posizione ed eventuali regole su metriche di successo.
 
 Questo problema non interessa nessun’altra attività.

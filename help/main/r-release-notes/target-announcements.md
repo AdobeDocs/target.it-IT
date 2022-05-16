@@ -1,7 +1,7 @@
 ---
 keywords: annunci;generatore di competenze;sviluppatore chat;pausa caffè;eventi;forrester;gartner;webinar
-description: Leggi gli annunci e registrati per gli eventi su Adobe [!DNL Target] , incluse le sessioni Skill Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
-title: Dove posso trovare annunci ed eventi relativi a [!DNL Target] ?
+description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Target] , incluse le sessioni Skill Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
+title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
