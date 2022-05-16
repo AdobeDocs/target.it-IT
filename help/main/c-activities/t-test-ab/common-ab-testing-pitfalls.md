@@ -1,21 +1,21 @@
 ---
-keywords: AB;A/B;AB..n;errori;insidie;errori;errore;insidia;significatività;vincitore;differenza statistica;statistica;potenza statistica;allocazione del traffico;allocazione;
-description: Scopri come evitare le insidie e gli errori più comuni commessi dalle aziende durante l’esecuzione di un test A/B in Adobe [!DNL Target] e altre soluzioni di test.
-title: Come Evitare Errori Comuni Di Test A/B?
+keywords: AB;A/B;AB...n;errori;insidie;errore;insidia;significatività;vincitore;differenza statistica;statistica;potenza statistica;allocazione del traffico;allocazione;
+description: Scopri come evitare le insidie e gli errori più comuni commessi dalle aziende durante l’esecuzione di test A/B in Adobe  [!DNL Target]  e altre soluzioni di test.
+title: Come posso evitare gli errori comuni relativi ai test A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3884'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Dieci insidie frequenti per i test A/B e come evitarle
 
-Test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli esperti di marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea dieci delle insidie più significative a cui le aziende sono vittime durante l&#39;esecuzione di test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
+Il test A/B in [!DNL Adobe Target] costituisce la spina dorsale della maggior parte dei programmi di ottimizzazione del marketing digitale e aiuta gli addetti al marketing a offrire esperienze ottimizzate e mirate ai loro visitatori e clienti. Questa sezione delinea dieci delle insidie più significative che possono presentarsi alle aziende durante l’esecuzione di un test A/B. Illustra inoltre metodi per evitare tali insidie, in modo da ottenere un maggiore ROI attraverso le attività di testing e una maggiore fiducia nei risultati evidenziati dai test A/B.
 
-## Pitfall 1: Ignorare gli effetti del livello di significatività {#section_55F5577A13C6470BA1417C2B735C6B1D}
+## Insidia 1: ignorare gli effetti del livello di significatività {#section_55F5577A13C6470BA1417C2B735C6B1D}
 
 Quanto è probabile che il test riporti una differenza significativa nel tasso di conversione tra due offerte, quando in realtà non c&#39;è? Questo è ciò che il *livello di significatività* di un test aiuta a determinare. Tali risultati fuorvianti sono spesso chiamati un falso positivo e, nel mondo delle statistiche, sono chiamati un errore di Tipo I (se si rifiuta erroneamente l&#39;ipotesi null che è effettivamente vera).
 
@@ -55,7 +55,7 @@ Tuttavia, due situazioni garantiscono una particolare attenzione al livello di s
 
    Applicando la correzione Bonferroni all&#39;esempio precedente, si utilizzerebbe un livello di significatività di 5%/4 = 1,25%, che corrisponde al livello di affidabilità del 98,75% per un singolo test (100%-1,25% = 98,75%). Quando si hanno quattro test, come nell&#39;esempio precedente, questa regolazione mantiene il livello di affidabilità effettivo al 95%.
 
-## Pitfall 2: Dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
+## Insidia 2: dichiarare i vincitori di test di offerta multipla senza differenza statisticamente significativa {#section_FA83977C71DB4F69B3D438AF850EF3B6}
 
 Con il test di offerta multipla, gli addetti al marketing dichiarano spesso l&#39;offerta con il più alto elevatore come il vincitore della prova, anche se non c&#39;è differenza statisticamente significativa fra il vincitore e il secondo classificato. Questa situazione si verifica quando la differenza tra le alternative è minore della differenza tra le alternative e il controllo. La figura seguente illustra questo concetto, con le barre di errore nere che rappresentano gli intervalli di affidabilità del 95% dell&#39;incremento. Il reale incremento per ogni offerta rispetto all&#39;offerta di controllo ha il 95% di probabilità di rientrare nell&#39;intervallo di affidabilità, indicato dalle barre di errore.
 
@@ -67,9 +67,9 @@ In questo caso entrambe le offerte A e B dovrebbero essere considerate i vincito
 
 In genere non è possibile eseguire il test abbastanza a lungo da identificare le prestazioni reali relative delle alternative e spesso la differenza di prestazioni tra le alternative è troppo piccola per incidere notevolmente sul tasso di conversione. In questi casi, è possibile interpretare il risultato come un pareggio e utilizzare altre considerazioni, ad esempio la strategia o l&#39;allineamento con altri elementi della pagina, per determinare quale offerta implementare. Con test multipli, è necessario essere aperti a più di un vincitore, che in alcuni casi presenta notevoli possibilità per la direzione da prendere con lo sviluppo del sito web.
 
-Nota che per identificare l&#39;offerta con il più alto tasso di conversione, si devono confrontare tutte le offerte con ogni altra offerta. Nell&#39;esempio precedente, si dispone di n = 5 offerte. Pertanto è necessario effettuare n(n-1)/2 confronti ossia 5*(5-1)/2 = 10 confronti. In questo caso, la correzione Bonferroni richiede che il livello di significatività del test sia 5%/10 = 0,5%, il che corrisponde a un livello di affidabilità del 99,5%. Tuttavia, un livello di affidabilità elevato potrebbe richiedere di eseguire il test per un periodo di tempo eccessivo.
+Nota che per identificare l&#39;offerta con il più alto tasso di conversione, si devono confrontare tutte le offerte con ogni altra offerta. Nell’esempio precedente, si dispone di n = 5 offerte, pertanto è necessario effettuare n(n-1)/2 confronti ossia 5 &#42; (5-1)/2 = 10 confronti. In questo caso, la correzione Bonferroni richiede che il livello di significatività del test sia 5%/10 = 0,5%, il che corrisponde a un livello di affidabilità del 99,5%. Tuttavia, un livello di affidabilità elevato potrebbe richiedere di eseguire il test per un periodo di tempo eccessivo.
 
-## Pitfall 3: Ignorare gli effetti della potenza statistica {#section_0D517079B7D547CCAA75F80981CBE12A}
+## Insidia 3: ignorare gli effetti della potenza statistica {#section_0D517079B7D547CCAA75F80981CBE12A}
 
 La potenza statistica è la probabilità che un test rilevi una reale differenza nel tasso di conversione tra le offerte. A causa della natura casuale o “stocastica” degli eventi di conversione, un test potrebbe non mostrare una differenza statisticamente significativa, anche quando esiste una reale differenza nel tasso di conversione tra due offerte nel lungo periodo. Chiamala sfortuna o caso. Il mancato rilevamento di una reale differenza nel tasso di conversione è chiamato un falso negativo o un errore di Tipo II.
 
@@ -81,7 +81,7 @@ Oggi gli addetti al marketing tendono a condurre molti test con una potenza stat
 
 Per evitare di condurre test con potenza statistica insufficiente, considera che uno standard tipico per un test con potenza adeguata include un livello di affidabilità del 95% e una potenza statistica dell&#39;80%. Tale test offre una probabilità del 95% di evitare un falso positivo e un 80% di probabilità di evitare un falso negativo.
 
-## Passaggio 4: Utilizzo di test a una coda {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
+## Insidia 4: utilizzare test a una coda {#section_8BB136D1DD6341FA9772F4C31E9AA37C}
 
 I test a una coda richiedono una differenza più ridotta osservata nei tassi di conversione tra le offerte per chiamare un vincitore a un certo livello di significatività. Questo sembra interessante perché i vincitori possono essere chiamati prima e più spesso di quando si effettuano test a due code. Ma in linea con il detto “nessuno dà niente per niente”, i test a una coda hanno un costo.
 
@@ -89,7 +89,7 @@ In un test a una coda, si verifica se l&#39;offerta B è migliore dell&#39;offer
 
 Potresti visualizzare un test a una coda che mette un&#39;offerta sotto processo con un giudice che ha già la sua idea. In un test a una coda, hai già deciso quale sarà l&#39;offerta vincente e lo dimostri, piuttosto che dare ad ogni esperienza una pari possibilità di dimostrasi come il vincitore. I test a una coda devono essere utilizzati solo nelle rare situazioni in cui si è interessati solo se un&#39;offerta è migliore rispetto agli altri e non il contrario. Per evitare il problema del test a una coda, utilizza una soluzione di test A/B che utilizza sempre test a due code, ad esempio [!DNL Adobe Target].
 
-## Pitfall 5: Test di monitoraggio {#section_EA42F8D5967B439284D863C46706A1BA}
+## Insidia 5: monitorare i test {#section_EA42F8D5967B439284D863C46706A1BA}
 
 Gli addetti al marketings controllano frequentemente i test A/B finché il test non determina un risultato significativo. Dopotutto, perché ttoporre a test dopo aver raggiunto l&#39;importanza statistica?
 
@@ -103,7 +103,7 @@ Per capire perché ciò avviene, è necessario considerare le diverse azioni int
 
 Per evitare questo problema, prima di avviare un test è necessario determinare un periodo di tempo adeguato in cui il test verrà eseguito. È bene tenere d’occhio i risultati del test in corso, per assicurarsi che sia implementato correttamente. Tuttavia, non bisogna trarre conclusioni o arrestare il test prima che sia stato raggiunto il numero richiesto di visitatori. In altre parole, non sbirciare.
 
-## Pitfall 6: Arresto prematuro dei test {#section_DF01A97275E44CA5859D825E0DE2F49F}
+## Insidia 6: arrestare anticipatamente i test {#section_DF01A97275E44CA5859D825E0DE2F49F}
 
 Si potrebbe essere tentati di interrompere un test se nei primi giorni del test, una delle offerte ha risultati nettamente migliori o peggiori delle altre. Tuttavia, con un numero ridotto di osservazioni, c&#39;è un&#39;alta probabilità che un incremento positivo o negativo sia imputabile unicamente al caso, perché il tasso di conversione è calcolato dalla media di un numero basso di visitatori. Man mano che il test raccoglie più punti di dati, i tassi di conversione convergono verso i loro reali valori a lungo termine.
 
@@ -115,21 +115,21 @@ Questo fenomeno è noto come “regressione alla media” e può portare a una d
 
 Anche in questo caso, il modo migliore per evitare questo tipo di errori consiste nel determinare un numero adeguato di visitatori prima di avviare il test, e lasciare quindi che il test venga eseguito finché tale numero di visitatori adeguato sia stato esposto alle offerte in oggetto.
 
-## Pitfall 7: Modifica dell’allocazione del traffico durante il periodo di prova {#allocation}
+## Insidia 7: modificare l’allocazione del traffico durante il periodo di test {#allocation}
 
-È consigliabile non modificare le percentuali di allocazione del traffico durante il periodo di test, in quanto questo può distorcere i risultati del test fino alla normalizzazione dei dati.
-Ad esempio, supponi di avere un’attività Test A/B in cui l’80% del traffico è assegnato all’Esperienza A (il controllo) e il 20% del traffico è assegnato all’Esperienza B. Durante il periodo di test, modifichi l’allocazione al 50% per ogni esperienza. Pochi giorni dopo, cambi l’allocazione del traffico al 100% in Esperienza B.
+Ti consigliamo di non modificare le percentuali di allocazione del traffico durante il periodo di test, in quanto può distorcere i risultati del test fino alla normalizzazione dei dati.
+Ad esempio, supponi di avere un’attività Test A/B in cui l’80% del traffico è assegnato all’Esperienza A (il controllo) e il 20% del traffico è assegnato all’Esperienza B. Durante il periodo di test, modifichi l’allocazione di ogni esperienza al 50%. Pochi giorni dopo, modifichi l’allocazione del traffico dell’Esperienza B al 100%.
 
-In questo scenario, come vengono assegnati gli utenti alle esperienze?
+In questa situazione, come vengono assegnati gli utenti alle esperienze?
 
-Se modifichi manualmente l’allocazione suddivisa in 100% per l’Esperienza B, i visitatori originariamente assegnati all’Esperienza A (il controllo) rimangono nell’esperienza inizialmente assegnata (Esperienza A). Il cambiamento nell’allocazione del traffico ha un impatto solo sui nuovi entranti.
+Se modifichi manualmente la suddivisione dell’allocazione al 100% per l’Esperienza B, i visitatori originariamente assegnati all’Esperienza A (il controllo) rimangono nell’esperienza inizialmente assegnata (Esperienza A). La modifica dell’allocazione del traffico influenza solo i nuovi partecipanti.
 
 Se desideri modificare le percentuali o influenzare notevolmente il flusso di visitatori in ogni esperienza, ti consigliamo di creare una nuova attività o di copiare l’attività e quindi modificare le percentuali di allocazione del traffico.
 
-Se modifichi le percentuali per esperienze diverse durante il periodo di test, occorrono alcuni giorni perché i dati si normalizzino, soprattutto se molti acquirenti sono visitatori di ritorno.
-Un altro esempio: se l’allocazione del traffico del test A/B è divisa tra 50/50 e poi modifichi la suddivisione in 80/20, per i primi giorni dopo la modifica i risultati potrebbero risultare distorti. Se il tempo medio di conversione è elevato, ovvero per effettuare un acquisto sono necessarie diverse ore o persino giorni, queste conversioni ritardate possono influenzare i tuoi rapporti. Quindi, in quella prima esperienza in cui il numero è passato dal 50% all’80% e il tempo medio di conversione è di due giorni, solo i visitatori del 50% della popolazione si stanno convertendo il primo giorno del test, anche se oggi l’80% della popolazione sta entrando nell’esperienza. Questo fa sembrare il tasso di conversione crollato, ma si normalizzerà di nuovo dopo che l’80% dei visitatori ha impiegato due giorni per convertire.
+Se modifichi le percentuali di diverse esperienze durante il periodo di test, occorrono alcuni giorni perché i dati si normalizzino, soprattutto se molti acquirenti sono visitatori di ritorno.
+Per fare un altro esempio, se l’allocazione del traffico del Test A/B è suddivisa 50/50 e in seguito modifichi la suddivisione in 80/20, per i primi giorni dopo la modifica i risultati potrebbe apparire distorti. Se il tempo medio di conversione è elevato, ovvero per qualcuno sono necessarie diverse ore o anche giorni per effettuare un acquisto, queste conversioni ritardate potrebbero influenzare i report. Così, in quella prima esperienza in cui il numero è passato da 50% a 80% e il tempo medio di conversione è di due giorni, solo i visitatori che fanno parte del 50% della popolazione eseguiranno la conversione nel primo giorno del test, anche se oggi l’80% della popolazione accede all’esperienza. Questo fa risultare un brusco calo del tasso di conversione, che tuttavia si normalizza nuovamente trascorsi i due giorni necessari alla conversione per l’80% dei visitatori.
 
-## Pitfall 8: Non considerare gli effetti della novità {#section_90F0D24C40294A8F801B1A6D6DEF9003}
+## Insidia 8: non considerare gli effetti “novità” {#section_90F0D24C40294A8F801B1A6D6DEF9003}
 
 Se un test non viene eseguito per il tempo necessario, possono verificarsi anche altre cose inaspettate. Questa volta il problema non legato alla statistica, ma semplicemente alla normale reazione al cambiamento da parte dei visitatori. Se cambi una parte consolidata del sito web, i visitatori di ritorno potrebbero, in un primo momento, essere meno coinvolti dalla nuova offerta per via di un cambiamento al loro flusso di lavoro abituale. Questo può causare un temporaneo calo nelle prestazioni di una nuova offerta superiore, fino a quando i visitatori di ritorno si abituano; è un piccolo prezzo da pagare in considerazione dei guadagni a lungo termine che si potrà trarre dall&#39;offerta superiore.
 
@@ -137,7 +137,7 @@ Per determinare se le scarse prestazioni della nuova offerta sono dovute all’e
 
 L’effetto novità può anche funzionare al contrario. I visitatori spesso reagiscono positivamente a un cambiamento, solo perché introduce qualcosa di nuovo. Dopo un po&#39;, passata lla novità, il tasso di conversione scende. Questo effetto è più difficile da identificare, ma può essere rilevata da un attento monitoraggio dei cambiamenti nel tasso di conversione.
 
-## Pitfall 9: Mancata considerazione delle differenze nel periodo in esame {#section_B166731B5BEE4E578816E351ECDEA992}
+## Insidia 9: non considerare eventuali differenze nel periodo preso in esame {#section_B166731B5BEE4E578816E351ECDEA992}
 
 Il periodo di considerazione è il periodo di tempo da quando la soluzione di test A/B presenta un&#39;offerta a un visitatore a quando il visitatore si converte. Ciò può essere importante con le offerte che interessano sostanzialmente il periodo preso in esame, per esempio, un&#39;offerta che implica una scadenza, quale “offerta a tempo limitato, acquista entro domenica”.
 
@@ -149,7 +149,7 @@ La figura seguente mostra due offerte che due visitatori diversi vedono allo ste
 
 Per evitare questa insidia, lascia un certo tempo per i visitatori che sono stati esposti alle offerte di test per la conversione dopo che è stata interrotta una nuova voce nel test. Questo passaggio dà un equo confronto delle offerte.
 
-## Pitfall 10: Utilizzo di metriche che non riflettono gli obiettivi aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
+## Insidia 10: utilizzare metriche che non riflettono le finalità aziendali {#section_F0CD6DC7993B4A6F9BEEBB31CD1D9BEE}
 
 Gli addetti al marketing potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella canalizzazione superiore, ad esempio il CTR (tasso di click-through), per raggiungere un numero adeguato di conversioni di test più velocemente. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l&#39;offerta stessa, ad esempio un&#39;offerta di sconto, porta semplicemente a minori ricavi.
 
@@ -161,7 +161,7 @@ Considera l&#39;offerta di sci di seguito. Genera un CTR molto più elevato risp
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 
-## Conclusione: Successo con il test A/B riconoscendo ed evitando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
+## Conclusione: successo del test A/B riconoscendo ed evitando le insidie {#section_54D33248163A481EBD4421A786FE2B15}
 
 Dopo aver appreso le comuni insidie dei test A/B, ci auguriamo che tu possa identificare quando e dove potresti esserne caduto vittima. Speriamo anche di averti fornito una migliore comprensione di alcuni dei concetti di statistiche e probabilità coinvolti nei test A/B che spesso si percepiscono come di dominio di persone laureate in matematica.
 
