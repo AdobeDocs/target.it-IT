@@ -5,7 +5,7 @@ title: Dove posso trovare la documentazione per Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '465'
 ht-degree: 100%
 
@@ -19,7 +19,7 @@ Segue una breve descrizione dei tipi di documentazione più comuni disponibili p
 
 | Tipo di documentazione | Descrizione |
 | --- | --- |
-| [Documentazione del prodotto Adobe Target](/help/main/target-home.md)<br> (questa guida) | Informazioni generali, passaggi e schermate relative all’interazione con [!DNL Target] tramite l’interfaccia utente. Questa guida descrive tutte le azioni e le opzioni disponibili, tra cui “gotchas” da evitare. Questa è la risorsa più dettagliata per l’utilizzo dell’interfaccia utente di [!DNL Target]. |
+| [Documentazione del prodotto Adobe Target](/help/main/target-home.md)<br>(questa guida) | Informazioni generali, passaggi e schermate relative all’interazione con [!DNL Target] tramite l’interfaccia utente. Questa guida descrive tutte le azioni e le opzioni disponibili, tra cui “gotchas” da evitare. Questa è la risorsa più dettagliata per l’utilizzo dell’interfaccia utente di [!DNL Target]. |
 | [Esercitazioni di Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it) | Video ed esercitazioni per imparare a usare i numerosi componenti di [!DNL Target]. |
 | [Libreria di contenuti di Adobe Experience League Target](https://guided.adobe.com/#recommended/solutions/target) | Una raccolta di video ed esercitazioni che evidenziano le funzionalità di [!DNL Target] disponibili nella pagina [!DNL Adobe Target Experience League]. |
 | [Documentazione di Adobe Experience Platform Target](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) | Informazioni sull’implementazione di [!DNL Target] utilizzando i tag in [!DNL Adobe Experience Platform], la piattaforma di gestione dei tag di nuova generazione di [!DNL Adobe]. Questo è il metodo preferito per implementare [!DNL Target]. |
