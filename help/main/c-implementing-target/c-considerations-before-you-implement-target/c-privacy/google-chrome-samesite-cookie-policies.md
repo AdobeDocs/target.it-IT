@@ -1,110 +1,110 @@
 ---
 keywords: google;samesite;cookie;chrome 80;ietf
-description: Scopri come Adobe [!DNL Target] gestisce lo standard SameSite IETF introdotto con Google Chrome versione 80 e ciò che è necessario fare per rispettare questi criteri.
-title: Come funziona [!DNL Target] Gestire le politiche dei cookie Samesite di Google?
+description: Scopri come Adobe  [!DNL Target]  gestisce lo standard IETF di SameSite introdotto con Google Chrome versione 80 e cosa devi fare per rispettare questi criteri.
+title: Come gestisce  [!DNL Target]  i criteri per cookie SameSite di Google?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1948'
-ht-degree: 7%
+ht-degree: 100%
 
 ---
 
 # Criteri per cookie SameSite di Google Chrome
 
-Google inizierà a imporre nuovi criteri per i cookie per impostazione predefinita per gli utenti che iniziano con Chrome 80, che verrà rilasciato all&#39;inizio del 2020. Questo articolo spiega tutto ciò di cui hai bisogno per conoscere i nuovi criteri per i cookie SameSite e come [!DNL Adobe Target] supporta questi criteri e come utilizzare [!DNL Target] per rispettare i nuovi criteri per cookie SameSite di Google Chrome.
+Google inizierà a imporre nuovi criteri per i cookie per impostazione predefinita per gli utenti a partire da Chrome 80, rilasciato all’inizio del 2020. Questo articolo spiega tutto ciò che devi sapere riguardo i nuovi criteri per i cookie SameSite, il modo in cui [!DNL Adobe Target] supporta questi criteri e come utilizzare [!DNL Target] per rispettare i nuovi criteri per i cookie SameSite di Google Chrome.
 
 A partire da Chrome 80, gli sviluppatori web devono specificare esplicitamente quali cookie possono funzionare tra siti web diversi. Questo è il primo di molti annunci che Google prevede di fare per migliorare la privacy e la sicurezza sul web.
 
-Dato che Facebook è stato sul posto per quanto riguarda la privacy e la sicurezza, altri importanti attori come Apple, e ora Google, sono stati rapidi a sfruttare l&#39;opportunità di creare nuove identità come campioni di privacy e sicurezza. Apple ha guidato il pacchetto annunciando all’inizio di quest’anno le modifiche ai suoi cookie policy tramite ITP 2.1 e recentemente ITP 2.2. In ITP 2.1, Apple blocca completamente i cookie di terze parti e conserva i cookie creati sul browser per soli sette giorni. In ITP 2.2, i cookie vengono conservati per un solo giorno. L’annuncio di Google non è altrettanto aggressivo di quello di Apple, ma è il primo passo verso lo stesso obiettivo finale. Per ulteriori informazioni sui criteri di Apple, vedi [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
+Dato che Facebook si è ritrovato in una posizione difficile per quanto riguarda la privacy e la sicurezza, altri principali attori come Apple e ora Google hanno approfittato rapidamente dell’opportunità di crearsi nuove identità come campioni in fatto di privacy e sicurezza. Apple ha guidato il gruppo annunciando all’inizio di quest’anno le modifiche ai suoi criteri per i cookie tramite ITP 2.1 e recentemente ITP 2.2. Con ITP 2.1, Apple blocca completamente i cookie di terze parti e conserva i cookie creati sul browser per soli sette giorni. Con ITP 2.2, i cookie vengono conservati per un solo giorno. L’annuncio di Google non è affatto così aggressivo come quello di Apple, ma è il primo passo verso lo stesso obiettivo finale. Per ulteriori informazioni sui criteri di Apple, consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/apple-itp-2x.md).
 
 ## Cosa sono i cookie e come vengono utilizzati?
 
-Prima di conoscere le modifiche apportate ai criteri dei cookie da Google, è necessario verificare quali sono i cookie e come vengono utilizzati. In parole povere, i cookie sono piccoli file di testo memorizzati nel browser web che vengono utilizzati per ricordare gli attributi utente.
+Prima di scoprire le modifiche apportate ai criteri per i cookie di Google, soffermiamoci su cosa sono i cookie e come vengono utilizzati. In breve, i cookie sono piccoli file di testo archiviati nel browser web che vengono utilizzati per memorizzare gli attributi dell’utente.
 
-I cookie sono importanti perché migliorano l’esperienza dell’utente quando naviga sul web. Ad esempio, se effettui acquisti su un sito web eCommerce e aggiungi qualcosa al carrello ma non accedi o acquista in quella visita, i cookie ricordano i tuoi articoli e li tengono nel carrello per la tua prossima visita. Oppure, immagina di essere stato costretto a reinserire il tuo nome utente e password ogni volta che visiti il tuo sito web preferito di social media. Anche i cookie risolvono questo problema, perché memorizzano informazioni che aiutano i siti a identificare chi siete. Questi cookie sono chiamati cookie di prime parti perché vengono creati e utilizzati dal sito web visitato.
+I cookie sono importanti perché migliorano l’esperienza dell’utente durante la navigazione sul web. Ad esempio, se effettui acquisti su un sito web eCommerce e aggiungi qualcosa al carrello, ma non accedi o acquisti durante quella visita, i cookie memorizzano gli articoli e li tengono nel carrello per la tua prossima visita. Oppure immagina di dover reinserire nome utente e password ogni volta che visiti il sito web del tuo social media preferito. I cookie risolvono anche questo problema, perché memorizzano informazioni che aiutano i siti a identificare chi sei. Questi cookie sono chiamati cookie di prima parte perché vengono creati e utilizzati dal sito web visitato.
 
 Esistono anche i cookie di terze parti. Per comprenderli meglio, consideriamo questo esempio:
 
-Supponiamo che un&#39;ipotetica società di social media denominata &quot;Amici&quot; fornisca un pulsante Condividi implementato da altri siti per consentire agli utenti di amici di condividere i contenuti del sito sul feed Amici. Ora, un utente legge un articolo su un sito web di notizie che utilizza il pulsante Condividi e lo fa clic per pubblicare automaticamente sul proprio account Amici.
+Supponiamo che un’ipotetica società di social media denominata “Friends” fornisca un pulsante Condividi implementato da altri siti per consentire agli utenti di Friends di condividere i contenuti del sito sul feed di Friends. A questo punto, un utente legge un articolo su un sito web di notizie che utilizza il pulsante Condividi e fa clic su di esso per pubblicare automaticamente sul proprio account Friends.
 
-Per questo motivo, il browser recupera il pulsante Condivisione amici da `platform.friends.com` quando l&#39;articolo è caricato. All’interno di questo processo, il browser allega i cookie Friends, che contengono le credenziali di accesso dell’utente, alla richiesta ai server Friends. Questo consente agli amici di pubblicare l’articolo nel proprio feed per conto dell’utente senza richiedere all’utente di effettuare l’accesso.
+Perché ciò accada, il browser recupera il pulsante Condividi di Friends da `platform.friends.com` quando l’articolo viene caricato. All’interno di questo processo, il browser allega i cookie di Friends, che contengono le credenziali di accesso dell’utente, alla richiesta ai server di Friends. Questo consente a Friends di pubblicare l’articolo nel proprio feed per conto dell’utente senza richiedere all’utente di effettuare l’accesso.
 
-Tutto ciò è possibile utilizzando cookie di terze parti. In questo caso, il cookie di terze parti viene salvato nel browser per `platform.friends.com`, affinché `platform.friends.com` può creare il post nell’app Amici per conto dell’utente.
+Tutto ciò è possibile utilizzando cookie di terze parti. In questo caso, il cookie di terze parti viene salvato nel browser per `platform.friends.com`, affinché `platform.friends.com` possa creare il post nell’app Friends per conto dell’utente.
 
-Se immaginate per un momento come ottenere questo caso d’uso senza cookie di terze parti, l’utente dovrebbe seguire molti passaggi manuali. In primo luogo, l&#39;utente dovrebbe copiare il link all&#39;articolo della notizia. In secondo luogo, l’utente dovrebbe accedere all’app Amici separatamente. Quindi, l&#39;utente faceva clic sul pulsante Crea post . Quindi l&#39;utente copiava e incolla il collegamento nel campo di testo, e infine clicca su Post. Come puoi vedere, i cookie di terze parti aiutano enormemente l’esperienza dell’utente in quanto i passaggi manuali possono essere drasticamente ridotti.
+Prova a immaginare come sarebbe possibile realizzare questo caso d’uso senza cookie di terze parti: l’utente dovrebbe seguire molti passaggi manuali. Prima di tutto, dovrebbe copiare il link all’articolo, quindi dovrebbe accedere all’app Friends separatamente. In seguito, l’utente fa clic sul pulsante Crea post, copia e incolla il collegamento nel campo di testo e infine clicca su Pubblica. Come puoi vedere, i cookie di terze parti aiutano enormemente l’esperienza dell’utente in quanto i passaggi manuali possono essere ridotti drasticamente.
 
-Più in generale, i cookie di terze parti consentono di memorizzare i dati sul browser di un utente senza richiedere all’utente di visitare esplicitamente un sito web.
+Più in generale, i cookie di terze parti consentono di archiviare dati sul browser di un utente senza richiedere all’utente di visitare esplicitamente un sito web.
 
 ## Problemi di sicurezza
 
-Anche se i cookie migliorano le esperienze degli utenti e la pubblicità dei contenuti, possono anche introdurre vulnerabilità di sicurezza come attacchi CSRF (Cross-Site Request Forgery). Ad esempio, se un utente accede a un sito bancario per pagare le fatture delle carte di credito e lascia il sito senza disconnettersi e poi accede a un sito dannoso nella stessa sessione, può verificarsi un attacco CSRF. Il sito dannoso potrebbe includere codice che invia una richiesta al sito bancario che viene eseguito al caricamento della pagina. Poiché l’utente è ancora autenticato nel sito bancario, il cookie di sessione può essere utilizzato per avviare un attacco CSRF per avviare un evento di trasferimento di fondi dal conto bancario dell’utente. Questo perché ogni volta che visiti un sito, tutti i cookie vengono allegati nella richiesta HTTP. E a causa di questi problemi di sicurezza, Google sta cercando di mitigarli.
+Nonostante i cookie migliorino le esperienze degli utenti e alimentino la pubblicità, possono anche introdurre vulnerabilità a livello di sicurezza come attacchi CSRF (Cross-Site Request Forgery). Ad esempio, se un utente accede a un sito bancario per pagare le fatture delle carte di credito, lascia il sito senza disconnettersi e poi accede a un sito dannoso nella stessa sessione, può verificarsi un attacco CSRF. Il sito dannoso potrebbe includere del codice che invia una richiesta al sito bancario e viene eseguito al caricamento della pagina. Poiché l’utente è ancora autenticato nel sito bancario, il cookie di sessione può essere utilizzato per avviare un attacco CSRF con lo scopo di effettuare un trasferimento di fondi dal conto bancario dell’utente. Ciò accade perché ogni volta che visiti un sito, tutti i cookie vengono allegati alla richiesta HTTP. Dati questi problemi di sicurezza, Google sta cercando di mitigarli.
 
-## Come funziona [!DNL Target] utilizzare i cookie?
+## In che modo [!DNL Target] utilizza i cookie?
 
-Detto questo, vediamo come [!DNL Target] utilizza i cookie. Per utilizzare [!DNL Target] in primo luogo, è necessario installare il [!DNL Target] Libreria JavaScript sul sito. Questo consente di inserire un cookie di prima parte nel browser dell’utente che visita il sito. Quando l’utente interagisce con il sito web, puoi trasmettere i dati comportamentali e di interesse dell’utente a [!DNL Target] tramite la libreria JavaScript. La [!DNL Target] La libreria JavaScript utilizza cookie di prime parti per estrarre informazioni di identificazione sull’utente da mappare ai dati di comportamento e interesse dell’utente. Questi dati vengono quindi utilizzati da [!DNL Target] per potenziare le attività di personalizzazione.
+Detto questo, vediamo il modo in cui [!DNL Target] utilizza i cookie. Per utilizzare [!DNL Target], devi innanzitutto installare la libreria JavaScript di [!DNL Target] sul tuo sito. Questo consente di inserire un cookie di prima parte nel browser dell’utente che visita il sito. Quando l’utente interagisce con il sito web, puoi trasmettere i dati di comportamento e di interesse dell’utente a [!DNL Target] tramite la libreria JavaScript. La libreria JavaScript di [!DNL Target] utilizza cookie di prime parti per estrarre informazioni di identificazione sull’utente da mappare ai dati di comportamento e di interesse dell’utente. Questi dati vengono quindi utilizzati da [!DNL Target] per potenziare le attività di personalizzazione.
 
-Target utilizza anche (a volte) cookie di terze parti. Se possiedi più siti web che vivono su domini diversi e desideri tenere traccia del percorso di utenti su tali siti web, puoi utilizzare i cookie di terze parti sfruttando il tracciamento tra domini diversi. Attivando il tracciamento tra più domini nel [!DNL Target] Libreria JavaScript, il tuo account inizierà a utilizzare cookie di terze parti. Quando un utente passa da un dominio all’altro, il browser comunica con il server back-end di [!DNL Target]e in questo processo viene creato e inserito un cookie di terze parti sul browser dell’utente. Tramite il cookie di terze parti presente nel browser dell’utente, [!DNL Target] è in grado di fornire un&#39;esperienza coerente tra domini diversi per un singolo utente.
+Target utilizza (a volte) anche cookie di terze parti. Se possiedi più siti web esistenti su domini diversi e desideri monitorare il percorso utente su tali siti web, puoi utilizzare i cookie di terze parti sfruttando il tracciamento tra domini diversi. Attivando il tracciamento tra domini diversi nella libreria JavaScript di [!DNL Target], il tuo account inizierà a utilizzare cookie di terze parti. Quando un utente passa da un dominio all’altro, il browser comunica con il server backend di [!DNL Target] e durante questo processo viene creato e inserito un cookie di terze parti nel browser dell’utente. Tramite il cookie di terze parti presente nel browser dell’utente, [!DNL Target] è in grado di fornire un’esperienza coerente su domini diversi per un singolo utente.
 
-## Nuova ricetta di cookie di Google
+## Nuova ricetta dei cookie di Google
 
-Per garantire la protezione quando i cookie vengono inviati tra siti diversi in modo da proteggere gli utenti, Google prevede di aggiungere il supporto per uno standard IETF denominato SameSite, che richiede agli sviluppatori web di gestire i cookie con il componente attributo SameSite nell’intestazione Set-Cookie.
+Per garantire la protezione degli utenti quando i cookie vengono inviati tra siti diversi, Google prevede di aggiungere il supporto per uno standard IETF denominato SameSite, che richiede agli sviluppatori web di gestire i cookie con il componente di attributo SameSite nell’intestazione Set-Cookie.
 
 Tre valori diversi possono essere passati nell’attributo SameSite: Strict, Lax o None (Rigoroso, Tollerante, Nessuno).
 
 | Valore | Descrizione |
 | --- | --- |
-| Strict (Rigoroso) | I cookie con questa impostazione sono accessibili solo quando si visita il dominio in cui sono stati inizialmente impostati. In altre parole, Strict impedisce completamente che il cookie possa essere utilizzato tra siti diversi. Questa opzione è ideale per le applicazioni che richiedono elevata sicurezza, come le banche. |
-| Lax (Tollerante) | I cookie con questa impostazione vengono inviati solo su richieste dello stesso sito o nella navigazione di livello superiore con richieste HTTP non idempotenti, come `HTTP GET`. Pertanto, questa opzione viene utilizzata se il cookie può essere utilizzato da terze parti, ma con un ulteriore vantaggio in termini di sicurezza che protegge gli utenti dal essere vittime degli attacchi CSRF. |
-| None (Nessuno) | I cookie con questa impostazione funzioneranno come i cookie di oggi. |
+| Strict (Rigoroso) | I cookie con questa impostazione sono accessibili solo quando si visita il dominio in cui sono stati inizialmente impostati. In altre parole, Strict impedisce completamente che il cookie possa essere utilizzato tra siti diversi. Questa opzione è indicata per le applicazioni che richiedono una protezione elevata, ad esempio per i siti delle banche. |
+| Lax (Tollerante) | I cookie con questa impostazione vengono inviati solo per le richieste dello stesso sito o nella navigazione di livello superiore con richieste HTTP non idempotenti, come `HTTP GET`. Pertanto questa opzione va utilizzata se il cookie può essere usato da terze parti, pur proteggendo gli utenti da attacchi CSRF (Cross-Site Request Forgery). |
+| None (Nessuno) | I cookie con questa impostazione continuano a funzionare così come fanno attualmente. |
 
-Tenendo presente quanto sopra, Chrome 80 introduce due impostazioni indipendenti per gli utenti: &quot;SameSite by default cookies&quot; e &quot;Cookies without SameSite must be secure&quot; devono essere protetti.&quot; Queste impostazioni saranno abilitate per impostazione predefinita in Chrome 80.
+Tenendo conto di quanto sopra, Chrome 80 introduce due impostazioni indipendenti per gli utenti: “SameSite by default cookies” (Cookie SameSite per impostazione predefinita) e “Cookies without SameSite must be secure” (Cookie senza SameSite devono essere protetti). Queste impostazioni saranno abilitate per impostazione predefinita in Chrome 80.
 
 ![Finestra di dialogo SameSite](/help/main/c-implementing-target/c-considerations-before-you-implement-target/assets/samesite.png)
 
-* **Cookie SameSite per impostazione predefinita**: Con questa impostazione, tutti i cookie che non specificano l’attributo SameSite verranno automaticamente costretti a utilizzare `SameSite = Lax`.
-* **I cookie senza SameSite devono essere protetti**: Con questa impostazione, i cookie privi dell’attributo SameSite o con `SameSite = None` devono essere sicure. In questo contesto, protetto significa che tutte le richieste del browser devono seguire il protocollo HTTPS. I cookie che non aderiscono a questo requisito vengono rifiutati. Per soddisfare questo requisito, tutti i siti web devono utilizzare HTTPS.
+* **SameSite by default cookies** (Cookie SameSite per impostazione predefinita): con questa impostazione, tutti i cookie che non specificano l’attributo SameSite verranno automaticamente costretti a utilizzare `SameSite = Lax`.
+* **Cookies without SameSite must be secure** (Cookie senza SameSite devono essere protetti): con questa impostazione, i cookie privi dell’attributo SameSite o con `SameSite = None` devono essere protetti. In questo contesto, protetti significa che tutte le richieste del browser devono seguire il protocollo HTTPS. I cookie che non aderiscono a questo requisito vengono rifiutati. Per soddisfare questo requisito, tutti i siti web devono utilizzare HTTPS.
 
 ## Target segue le best practice di sicurezza di Google
 
-Ad Adobe, desideriamo sempre supportare le ultime best practice del settore per la sicurezza e la privacy. Siamo felici di annunciare che [!DNL Target] supporta le nuove impostazioni di protezione e privacy introdotte da Google.
+In Adobe, desideriamo sempre supportare le più recenti best practice del settore in termini di sicurezza e privacy. Siamo lieti di annunciare che [!DNL Target] supporta le nuove impostazioni di sicurezza introdotte da Google.
 
-Per l’impostazione &quot;SameSite by default cookies&quot; (Cookie SameSite per impostazione predefinita), [!DNL Target] continuerà a fornire personalizzazione senza alcun impatto e intervento da parte tua. [!DNL Target] utilizza i cookie di prima parte che continueranno a funzionare correttamente in quanto il flag `SameSite = Lax` viene applicato da Google Chrome.
+Per l’impostazione “SameSite by default cookies” (Cookie SameSite per impostazione predefinita), [!DNL Target] continuerà a distribuire la personalizzazione senza alcun impatto e intervento da parte tua. [!DNL Target] utilizza i cookie di prima parte e continuerà a funzionare correttamente in quanto Google Chrome applica il flag `SameSite = Lax`.
 
-Per l’opzione &quot;Cookies without SameSite must be secure&quot;, se non si opta per la funzione di tracciamento tra domini diversi in [!DNL Target], i cookie di prime parti in [!DNL Target] continuerà a lavorare.
+Per l’opzione “Cookies without SameSite must be secure” (Cookie senza SameSite devono essere protetti), se non scegli di usare la funzione di tracciamento tra domini diversi in [!DNL Target], i cookie di prime parti in [!DNL Target] continueranno a funzionare.
 
-Tuttavia, quando scegli di utilizzare il tracciamento tra più domini per sfruttare [!DNL Target] tra più domini, Chrome richiede `SameSite = None` e flag Secure da utilizzare per i cookie di terze parti. Ciò significa che devi assicurarti che i tuoi siti utilizzino il protocollo HTTPS. Librerie lato client in [!DNL Target] utilizzerà automaticamente il protocollo HTTPS e allegherà il `SameSite = None` e flag Secure ai cookie di terze parti in [!DNL Target] per garantire che tutte le attività continuino a essere eseguite.
+Tuttavia, se scegli di utilizzare il tracciamento tra domini diversi per sfruttare tali funzioni di [!DNL Target], Chrome richiede che vengano usati i flag `SameSite = None` e Secure per i cookie di terze parti. Devi quindi assicurarti che i tuoi siti utilizzino il protocollo HTTPS. Le librerie lato client in [!DNL Target] utilizzeranno automaticamente il protocollo HTTPS e allegheranno i flag `SameSite = None` e Secure ai cookie di terze parti in [!DNL Target] per garantire che tutte le attività continuino a essere eseguite.
 
 ## Cosa devi fare?
 
-Per capire cosa devi fare per avere [!DNL Target] continua a funzionare per gli utenti di Google Chrome 80+, consulta la tabella seguente, di cui vedrai le seguenti colonne:
+Per capire cosa devi fare perché [!DNL Target] continui a funzionare per gli utenti di Google Chrome 80+, consulta la tabella sottostante, che include le seguenti colonne:
 
-* **Libreria JavaScript di Target**: Se utilizzi at.js 1.*x* o at.js 2.*x* sui siti.
-* **SameSite per cookie predefiniti = Abilitato**: Se i tuoi utenti dispongono di &quot;SameSite by default cookies&quot; abilitato, quale impatto ha su di te ed è disponibile tutto ciò che devi fare per [!DNL Target] per continuare a lavorare.
-* **I cookie senza SameSite devono essere protetti = Abilitati**: Se gli utenti dispongono dell’opzione &quot;Cookies without SameSite must be secure&quot;, quale impatto ha su di te ed è disponibile qualsiasi operazione da eseguire per [!DNL Target] continua a lavorare.
-
-| Libreria JavaScript di Target | “SameSite by default cookies” = Abilitato | “Cookies without SameSite must be secure” = Abilitato |
-| --- | --- | --- |
-| Mappatura payload dei parametri at.js 1.*x* con cookie di prime parti. | Nessun impatto. | Nessun impatto se non utilizzi il tracciamento tra domini diversi. |
-| Mappatura payload dei parametri at.js 1.*x* con il tracciamento tra domini diversi abilitato. | Nessun impatto. | Devi abilitare il protocollo HTTPS per il tuo sito.<br>[!DNL Target] utilizza un cookie di terze parti per tenere traccia degli utenti e Google richiede che i cookie di terze parti abbiano `SameSite = None` e flag Secure. Il flag Secure richiede che i siti utilizzino il protocollo HTTPS. |
-| Payload JSON di at.js 2.*x* | Nessun impatto. | Nessun impatto. |
-
-## Cosa fa? [!DNL Target] Devo fare?
-
-Quindi, cosa abbiamo dovuto fare nella nostra piattaforma per aiutarti a rispettare i nuovi criteri per i cookie SameSite di Google Chrome 80+?
+* **Libreria JavaScript di Target**: utilizzo di at.js 1.*x* o di at.js 2.*x* nei tuoi siti.
+* **“SameSite by default cookies” = Abilitato**: impatto se l’opzione “SameSite by default cookies” è abilitata e attività da eseguire affinché [!DNL Target] continui a funzionare.
+* **“Cookies without SameSite must be secure” = Abilitato**: impatto se l’opzione “Cookies without SameSite must be secure” è abilitata in e attività da eseguire affinché [!DNL Target] continui a funzionare.
 
 | Libreria JavaScript di Target | “SameSite by default cookies” = Abilitato | “Cookies without SameSite must be secure” = Abilitato |
 | --- | --- | --- |
-| Mappatura payload dei parametri at.js 1.*x* con cookie di prime parti. | Nessun impatto. | Nessun impatto se non utilizzi il tracciamento tra domini diversi. |
-| Mappatura payload dei parametri at.js 1.*x* con il tracciamento tra domini diversi abilitato. | Nessun impatto. | Mappatura payload dei parametri at.js 1.*x* con il tracciamento tra domini diversi abilitato. |
-| Payload JSON di at.js 2.*x* | Nessun impatto. | Nessun impatto. |
+| at.js 1.*x* con cookie di prime parti. | Nessun impatto. | Nessun impatto, se non utilizzi il tracciamento tra domini diversi. |
+| at.js 1.*x* con tracciamento tra domini diversi abilitato. | Nessun impatto. | Devi abilitare il protocollo HTTPS nel tuo sito.<br>[!DNL Target] utilizza un cookie di terze parti per monitorare gli utenti e Google richiede che i cookie di terze parti abbiano i flag `SameSite = None` e Secure. Il flag Secure richiede l’utilizzo del protocollo HTTPS da parte dei siti. |
+| at.js 2.*x* | Nessun impatto. | Nessun impatto. |
 
-## Qual è l’impatto se non passi all’utilizzo del protocollo HTTPS?
+## Cosa deve fare [!DNL Target]?
 
-L’unico caso d’uso che influisce su di te è l’utilizzo della funzione di tracciamento tra più domini in [!DNL Target] da at.js 1.*x*. Senza passare a HTTPS, un requisito di Google, vedrai un picco di visitatori univoci nei tuoi domini perché il cookie di terze parti utilizzato verrà rilasciato da Google. E poiché il cookie di terze parti verrà eliminato, [!DNL Target] non sarà in grado di fornire un&#39;esperienza coerente e personalizzata per quell&#39;utente mentre l&#39;utente si sposta da un dominio all&#39;altro. Il cookie di terze parti viene utilizzato principalmente per identificare un singolo utente che naviga tra i domini che possiedi.
+Cosa abbiamo dovuto fare nella nostra piattaforma per aiutarti a rispettare i nuovi criteri per i cookie SameSite di Google Chrome 80+?
+
+| Libreria JavaScript di Target | “SameSite by default cookies” = Abilitato | “Cookies without SameSite must be secure” = Abilitato |
+| --- | --- | --- |
+| at.js 1.*x* con cookie di prime parti. | Nessun impatto. | Nessun impatto, se non utilizzi il tracciamento tra domini diversi. |
+| at.js 1.*x* con tracciamento tra domini diversi abilitato. | Nessun impatto. | at.js 1.*x* con tracciamento tra domini diversi abilitato. |
+| at.js 2.*x* | Nessun impatto. | Nessun impatto. |
+
+## Qual è l’impatto se non si passa all’utilizzo del protocollo HTTPS?
+
+L’unico caso d’uso che avrà un impatto su di te è l’utilizzo della funzione di tracciamento tra domini diversi in [!DNL Target] attraverso at.js 1.*x*. Se non passi a HTTPS, un requisito di Google, vedrai un picco di visitatori univoci nei tuoi domini perché il cookie di terze parti utilizzato verrà rimosso da Google. Poiché il cookie di terze parti verrà rimosso, [!DNL Target] non sarà in grado di fornire un’esperienza coerente e personalizzata per l’utente mentre si sposta da un dominio all’altro. Il cookie di terze parti viene utilizzato principalmente per identificare un singolo utente che naviga tra i domini che possiedi.
 
 ## Conclusione
 
-Come il settore fa grandi progressi nella creazione di un web più sicuro per i consumatori, [!DNL Adobe] è assolutamente impegnato ad aiutare i nostri clienti a fornire esperienze personalizzate in modo da garantire sicurezza e privacy agli utenti finali. Tutto quello che devi fare è seguire le best practice di cui sopra e sfruttare [!DNL Target] per rispettare i nuovi criteri per cookie SameSite di Google Chrome.
+Mentre il settore fa grandi progressi nella creazione di un web più sicuro per i consumatori, [!DNL Adobe] si impegna totalmente ad aiutare i propri clienti a fornire esperienze personalizzate che garantiscano sicurezza e privacy agli utenti finali. Tutto ciò che devi fare è seguire le best practice di cui sopra e sfruttare [!DNL Target] per rispettare i nuovi criteri per i cookie SameSite di Google Chrome.
