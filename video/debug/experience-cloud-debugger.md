@@ -1,25 +1,25 @@
 ---
-keywords: experience cloud debugger;traccia mbox
-description: Adobe di debug [!DNL Target] utilizzo di Adobe Experience Cloud Debugger.
-title: Debug [!DNL Target] con il Experience Cloud Debugger
+keywords: experience cloud debugger;mbox trace
+description: Debug di Adobe  [!DNL Target]  utilizzando Adobe Experience Cloud Debugger.
+title: Debug di  [!DNL Target]  con Experience Cloud Debugger
 feature: Troubleshooting
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '71'
-ht-degree: 9%
+ht-degree: 100%
 
 ---
 
 
-# Debug [!DNL Target] con il Experience Cloud Debugger
+# Debug di [!DNL Target] con Experience Cloud Debugger
 
-Debug [!DNL Adobe Target] utilizzando [!DNL Adobe Experience Cloud Debugger].
+Debug di [!DNL Adobe Target] utilizzando [!DNL Adobe Experience Cloud Debugger].
 
 ## Aggiungi estensione
 
 >[!VIDEO](https://video.tv.adobe.com/v/23114/?quality=12)
 
-## Base [!DNL Target] Debug
+## Debug di base di [!DNL Target]
 
 >[!VIDEO](https://video.tv.adobe.com/v/23115/?quality=12)
 
@@ -29,6 +29,6 @@ Debug [!DNL Adobe Target] utilizzando [!DNL Adobe Experience Cloud Debugger].
 
 ## Risorse aggiuntive
 
-+ [Debugger Adobe Experience Cloud in Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=en)
-+ [Documentazione di aiuto sulla risoluzione dei problemi di Target](/help/main/r-troubleshooting-target/troubleshooting-target.md)
-+ [Come utilizzare il video sul Experience Cloud Debugger](https://helpx.adobe.com/marketing-cloud-core/kt/using/experience-cloud-debugger-feature-video-use.html)
++ [Adobe Experience Cloud Debugger nel Chrome Store](https://chrome.google.com/webstore/detail/adobe-experience-cloud-de/ocdmogmohccmeicdhlhhgepeaijenapj?hl=it)
++ [Documentazione di supporto sulla risoluzione dei problemi di Target](/help/main/r-troubleshooting-target/troubleshooting-target.md)
++ [Utilizzo del video su Experience Cloud Debugger](https://experienceleague.adobe.com/docs/platform-learn/data-collection/debugger/experience-cloud/use-the-experience-cloud-debugger.html?lang=it)
