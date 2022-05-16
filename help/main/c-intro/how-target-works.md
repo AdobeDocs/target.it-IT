@@ -1,13 +1,13 @@
 ---
 keywords: Adobe Experience Platform Web SDK;aep web sdk;aep sdk;SEO (Search Engine Optimization);SEO (Search Engine Optimization);seo;cluster edge, cluster centrali;at.js;mbox.js;
-description: Adobe [!DNL Target] lavori, comprese informazioni sul [!DNL Target] Librerie JavaScript (at.js e Experience Platform Web SDK), centri dati Adobe e test SEO.
+description: Scopri come funziona Adobe  [!DNL Target] , comprese informazioni sulle librerie JavaScript di  [!DNL Target]  (at.js ed Experience Platform Web SDK), sui data center di Adobe e sui test SEO (Search Engine Optimization).
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2536'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -28,7 +28,7 @@ Fai riferimento a [!DNL Experience Platform Web SDK] o at.js in ogni pagina del 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare Experience Platform Web SDK o at.js:
 
 * [Estensione Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it)
-* [Implementare [!DNL Target] con Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
+* [Implementare  [!DNL Target]  con Adobe Experience Platform](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md)
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta al sistema di targeting. La richiesta aiuta a determinare quale contenuto distribuire al visitatore. Questo processo avviene in tempo reale. Il sistema elabora e soddisfa una richiesta di contenuto ogni volta che viene caricata una pagina. Il contenuto è gestito dalle regole delle attività e delle esperienze controllate dagli addetti al marketing, e ne viene eseguito il targeting per i singoli visitatori del sito. Viene distribuito il contenuto al quale è più probabile che ogni visitatore del sito risponda, interagisca o alla fine acquisti. I contenuti personalizzati consentono di massimizzare i tassi di risposta, i tassi di acquisizione e i ricavi.
 
@@ -97,7 +97,7 @@ I database di attività e contenuti, i dati [!DNL Analytics], le API e le interf
 
 Ogni nodo di Edge include tutte le informazioni necessarie per rispondere alla richiesta di contenuto del visitatore e tenere traccia dei dati di analisi relativi a tale richiesta. Le richieste dei visitatori vengono indirizzate al nodo Edge più vicino.
 
-Per ulteriori informazioni, vedi il documento [Panoramica sulla sicurezza di Adobe Target](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf).
+Per ulteriori informazioni, consulta il white paper [Adobe Target Security Overview](https://www.adobe.com/content/dam/cc/en/security/pdfs/AdobeTargetSecurityOverview.pdf) (Panoramica sulla sicurezza di Adobe Target).
 
 La soluzione [!DNL Target] è ospitata su data center di Adobe (propri o noleggiati) in tutto il mondo.
 
@@ -175,7 +175,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    Adobe continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i client che devono utilizzare URL separati per i test, Adobe è sicuro che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [ fornisce best practice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Esegui esperimenti solo per la durata strettamente necessaria**: Adobe ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] [fornisce best practice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) per determinare quando un test ha raggiunto questo obiettivo. Si consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato durante il completamento del processo di codifica fissa.
 
