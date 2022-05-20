@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 71190b0f6c66d4c448121a330e7c07b6255ae8be
+source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '461'
 ht-degree: 30%
 
 ---
@@ -24,7 +24,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 * **11 maggio**: regione Asia-Pacifico (APAC)
-* **12 maggio**: Regione Nord America (NA)
+* **12 maggio**: Regione delle Americhe
 * **13 maggio**: Area Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione contiene i miglioramenti e le correzioni seguenti:
