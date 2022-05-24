@@ -3,10 +3,10 @@ user-guide-title: 'Guida di Adobe [!DNL Target] '
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 8f3eb3adcbd27a0f2592684266d9b6419151f890
+source-git-commit: 074a5f5f36aa198310da856e82d41515122c4579
 workflow-type: tm+mt
-source-wordcount: '1560'
-ht-degree: 99%
+source-wordcount: '1566'
+ht-degree: 98%
 
 ---
 
@@ -194,6 +194,7 @@ ht-degree: 99%
    + [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md)
    + [Integrare Target con Adobe Experience Manager](/help/main/c-integrating-target-with-mac/aem-target-integration.md)
    + [Integrare Target con Adobe Audience Manager](/help/main/c-integrating-target-with-mac/audience-manager-target-integration.md)
+   + [Integrare con Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md)
    + [Integrare Target con Adobe Campaign](c-integrating-target-with-mac/campaign-and-target.md)
 + Attività {#activities}
    + [Panoramica sulle attività](c-activities/activities.md)
