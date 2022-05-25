@@ -4,7 +4,7 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 9489655d18170c581f2abf8502f01c7b7e0626b7
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
 source-wordcount: '33448'
 ht-degree: 99%
@@ -36,7 +36,7 @@ Questa versione contiene le seguenti modifiche:
 
 * Con questa versione puoi preacquisire il contenuto per [!UICONTROL Personalizzazione automatica] (AP) e [!UICONTROL Targeting automatico] (AT) attività (in precedenza non restituite da [!DNL Target]). Questo potrebbe modificare le esperienze visualizzate dagli utenti finali in caso di una chiamata di preacquisizione (nessuna modifica al flusso di esecuzione) se un’attività di AP/AT si trova nel percorso di consegna ed è più alta in priorità rispetto ad altre attività AB/XT che utilizzano la stessa posizione per la consegna dei contenuti.
 
-### [!DNL Target] Versione di Platform (30 marzo)
+### [!DNL Target] versione di Platform (30 marzo)
 
 Questa versione contiene i seguenti miglioramenti:
 

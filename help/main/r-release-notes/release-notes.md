@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 953b511db6d2c7ccf883d8e256c4e0ab22718862
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 54%
+source-wordcount: '723'
+ht-degree: 93%
 
 ---
 
@@ -18,28 +18,40 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] 22.5.1 (rilascio scaglionato; (11-13 maggio 2022)
+## Versione della piattaforma Target (25 maggio 2022)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* Aggiunto [Suggerimenti client agente utente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) supporto.
+* È stato risolto un problema che causava in modo intermittente timeout durante il rendering [!UICONTROL Decisioni di offerta] in [!UICONTROL Targeting esperienza] Attività (XT). (TNT-44611)
+
+## at.js versione 2.9.0 (27 maggio 2022)
+
+* Aggiunto [Suggerimenti client agente utente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) supporto.
+* È stato corretto un bug a causa del quale più richieste mbox sulla stessa pagina avevano ID impression diversi.
+
+## [!DNL Target Standard/Premium] 22.5.1 (rilascio scaglionato; 11-13 maggio 2022)
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **11 maggio**: regione Asia-Pacifico (APAC)
+* **11 maggio**: area geografica Asia-Pacifico (APAC)
 * **12 maggio**: Regione delle Americhe
-* **13 maggio**: Area Europa, Medio Oriente e Africa (EMEA)
+* **13 maggio**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
-Questa versione contiene i miglioramenti e le correzioni seguenti:
+Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato risolto un problema che causava un errore JavaScript e impediva ad alcuni clienti di accedere ai dettagli dell’attività per alcuni [!UICONTROL Automated Personalization] (AP) attività. (TGT-43526)
-* È stato risolto un problema che impediva ad alcuni clienti di aggiungere (o modificare) un&#39;offerta specifica a un&#39;attività di Personalizzazione automatizzata. (TGT-43503)
-* È stato risolto un problema in [!DNL Target] Interfaccia utente che ha visualizzato il seguente messaggio di errore: &quot;La mbox globale potrebbe non essere sincronizzata. Prova a salvarla di nuovo.” Questo problema era relativo a un’interfaccia utente e non aveva alcun impatto sulle implementazioni dei clienti. (TGT-43475)
-* È stato risolto un problema che impediva a un cliente di modificare i perfezionamenti e i tipi di pubblico a livello di esperienza per un’attività se i perfezionamenti e i tipi di pubblico venivano creati prima del nuovo [!UICONTROL Tipi di pubblico] Interfaccia utente distribuita. (TGT-43433)
-* È stato risolto un problema che consentiva ai clienti di selezionare un duplicato [!DNL Adobe Audience Manager] (AAM) tipi di pubblico durante la modifica dei tipi di pubblico di reporting per un’attività. (TGT-43430)
+* È stato risolto un problema che causava un errore JavaScript e impediva ad alcuni clienti di accedere ai dettagli di alcune attività [!UICONTROL Automated Personalization] (AP). (TGT-43526)
+* È stato risolto un problema che impediva ad alcuni clienti di aggiungere (o modificare) un’offerta specifica a un’attività AP. (TGT-43503)
+* È stato risolto un problema nell’interfaccia utente di [!DNL Target] a causa del quale veniva visualizzato il seguente messaggio di errore: “La mbox globale potrebbe non essere sincronizzata. Prova a salvarla di nuovo.” Questo problema era relativo alla sola interfaccia utente e non aveva alcun impatto sulle implementazioni dei clienti. (TGT-43475)
+* È stato risolto un problema che impediva a un cliente di modificare perfezionamenti e tipi di pubblico a livello di esperienza per un’attività, se questi erano stati creati prima dell’implementazione della nuova interfaccia utente [!UICONTROL Tipi di pubblico]. (TGT-43433)
+* È stato risolto un problema a causa del quale i clienti potevano selezionare tipi di pubblico [!DNL Adobe Audience Manager] (AAM) duplicati durante la modifica dei tipi di pubblico di reporting per un’attività. (TGT-43430)
 * È stato risolto un problema che impediva ai clienti di creare tipi di pubblico duplicati, ma in aree di lavoro diverse. (TGT-43423)
-* È stato risolto un problema che impediva ai clienti di eliminare le posizioni con offerte ad hoc nelle attività create in [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43315)
-* È stato risolto un problema che impediva ai clienti di accedere alle offerte di codice dopo aver fatto clic su offerte di immagini e aver quindi aggiornato l’interfaccia utente. (TGT-43566)
-* È stato risolto un problema che causava il ripristino dello script originale non modificato dopo la modifica, l’attivazione e la disattivazione dello script da parte delle modifiche apportate agli script di profilo. Lo script di profilo rimane ora nello stato modificato. (TGT-43249)
-* È stato risolto un problema che causava il seguente errore durante il tentativo di spostare un pubblico in un&#39;altra area di lavoro: &quot;Non possiamo completare la tua richiesta. Contatta l’Assistenza clienti Adobe se il problema persiste&quot;. (TGT-43212)
-* È stato corretto un errore che causava un errore durante la clonazione di modifiche al codice personalizzato per le pagine app a pagina singola (SPA). (TGT-43137)
-* È stato risolto un problema che causava la modifica della promozione originale dopo la duplicazione di un’esperienza e la successiva modifica della promozione. (TGT-41775)
+* È stato risolto un problema che impediva ai clienti di eliminare le posizioni con offerte ad hoc nelle attività create nel [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43315)
+* È stato risolto un problema che impediva ai clienti di accedere alle offerte con codice dopo aver fatto clic su offerte con immagini e aver quindi aggiornato l’interfaccia utente. (TGT-43566)
+* È stato risolto un problema che causava il ripristino dello script originale non modificato dopo che uno script di profilo veniva modificato, attivato e quindi disattivato. Ora vengono mantenute le modifiche applicate allo script di profilo. (TGT-43249)
+* È stato risolto un problema che generava il seguente errore se si tentava di spostare un pubblico in un’altra area di lavoro: “Impossibile completare la richiesta. Se il problema persiste, contatta l’Assistenza clienti di Adobe.” (TGT-43212)
+* È stato corretto un errore che si verificava se si clonavano modifiche al codice personalizzato per le pagine di app a pagina singola (SPA). (TGT-43137)
+* È stato risolto un problema che interessava la modifica della promozione originale dopo la duplicazione di un’esperienza e la successiva modifica della promozione. (TGT-41775)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 

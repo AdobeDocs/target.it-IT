@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d7bb5becfabccc283bb3528985dc3f9f85b628d3
+source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
 workflow-type: tm+mt
-source-wordcount: '1388'
-ht-degree: 25%
+source-wordcount: '1263'
+ht-degree: 98%
 
 ---
 
@@ -15,163 +15,141 @@ ht-degree: 25%
 
 Annunci e informazioni sui prossimi eventi, comprese le sessioni [!DNL Adobe Target] Skill Builder, chat per sviluppatori, webinar e sessioni [!DNL Target] Coffee Break.
 
-## Community Q&amp;A Coffee Break [!DNL Adobe Target]  (25 maggio 2022)
+## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
-Brent Kostak e Drew Burns del [!DNL Adobe Target] Il team di Product Marketing risponderà alle domande dei clienti relative alle loro aree di competenza.
+Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-+++Clicca su me
+### Dick’s Sporting Goods: Personalizzazione e come sta cambiando il settore retail (19 maggio 2022)
 
-* **Mercoledì 25 maggio 2022**
-* **8:00 (PDT, UTC -7)**
-* **[Ulteriori informazioni sulla registrazione](https://adobe.ly/3LbOj4G)**
+Scopri le best practice sul potenziamento delle iniziative di personalizzazione su larga scala. Scopri come Dick’s Sporting Goods utilizza [!DNL Adobe Target] per coinvolgere i migliori atleti e brand.
 
-I clienti sono invitati a pubblicare domande riguardanti i seguenti argomenti che sono stati trattati durante il webinar Real-time Personalization 4/28/22 (accesso registrazione qui sotto):
+* [Collegamento di registrazione](https://video.tv.adobe.com/v/343042){target=_blank}
 
-* Creazione di tipi di pubblico condivisi con [!DNL Adobe Target] e Real-Time CDP
-* Creazione di strategie per risolvere i problemi di frammentazione dei dati
-* Distribuzione di flussi di lavoro end-to-end per la personalizzazione secondo millisecondi
-* Distribuzione di messaggi, contenuti e offerte pertinenti in tempo reale per stimolare il coinvolgimento
++++Fai clic qui
 
-Anche Kai Motoyama, Tecnico di Assistenza Tecnica, sarà al centro del dibattito che fornirà ulteriore supporto.
-+++
+Partecipa a Shawn Wilkinson (eCommerce Personalization Manager) per scoprire come [!DNL Target] sta aiutando Dick&#39;s Sporting Goods a trasformare i visitatori medi in atleti di ritorno.
 
-## [!DNL Adobe Target] serie di webinar {#webinar-series}
+Scopri come Dick’s Sporting Goods stimola una crescita a due cifre. Verranno trattati i seguenti argomenti:
 
-Registrati ai seguenti webinar per vedere come vengono utilizzati i clienti [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
-
-### Merci sportive di Dick: Personalizzazione e cambiamento del paesaggio nel retail (19 maggio 2022)
-
-Scopri le best practice sull’aumento esponenziale dei programmi di personalizzazione su larga scala. Scopri come Dick&#39;s Sporting Goods utilizza [!DNL Adobe Target] per coinvolgere i migliori atleti e marchi.
-
-+++Clicca su me
-
-* **Giovedì 19 maggio 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://changing-landscape.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-Join Shawn Wilkinson (eCommerce Perssonalization Manager) per scoprire come [!DNL Target] sta aiutando Dick&#39;s Sporting Goods a trasformare i visitatori medi in atleti di ritorno.
-
-Scopri come Dick’s Sporting Goods sta guidando una crescita a due cifre mentre scompriamo:
-
-* Come pianificare e lanciare un programma di personalizzazione ad alte prestazioni per il retail
-* Perché ottenere il buy-in all&#39;interno dell&#39;organizzazione è fondamentale per superare i blocchi stradali e gli ostacoli
-* Impatto globale sul business grazie alla scalabilità delle attività di personalizzazione e sperimentazione su web e dispositivi mobili
-* Suggerimenti e trucchi per l&#39;utilizzo dei dati di analisi per trasformare i visitatori medi in atleti di ritorno
+* Come pianificare e lanciare un’iniziativa di personalizzazione ad alte prestazioni per il retail
+* Perché è fondamentale ottenere il sostegno in ogni area dell’organizzazione al fine di superare eventuali ostacoli
+* Impatto globale sul business grazie ad attività di personalizzazione e sperimentazione su grande scala su web e dispositivi mobili
+* Suggerimenti per l’utilizzo dei dati analitici in ambito retail per convertire i visitatori medi in atleti fidelizzati
 
 +++
 
-### Adobe: Insider del settore della personalizzazione - Servizi finanziari e assicurazioni (24 maggio 2022)
+### Adobe: Personalization Industry Insider - Servizi finanziari e assicurativi (24 maggio 2022)
 
-Scopri in che modo le società di servizi finanziari supportano e informano i clienti che utilizzano la personalizzazione per prepararsi a modelli di inflazione e strategie di investimento.
+Scopri come le società di servizi finanziari supportano e informano i clienti mediante la personalizzazione per prepararsi a modelli di inflazione e strategie di investimento.
 
-+++Clicca su me
++++Fai clic qui
 
 * **Martedì 24 maggio 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-Join Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Consulente Target, Premier Support Adobe), per scoprire come i brand rispondono ai cambiamenti immediati della domanda e al contempo porre la personalizzazione al centro dell&#39;impegno dei clienti. Scopri in che modo le società di servizi finanziari supportano e informano i clienti di tutto il mondo preoccupati per i recenti modelli di inflazione e le circostanze relative ai loro investimenti.
+Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro delle interazioni con i clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
 +++ 
 
-### Banca nazionale della città: Come raggiungere l’1% migliore nell’ottimizzazione digitale (26 maggio 2022)
+### City National Bank: Come arrivare al primo 1% nell’ottimizzazione digitale (26 maggio 2022)
 
-Visualizza il kit di strumenti e i casi d’uso per l’implementazione di strategie di personalizzazione interfunzionali. Scopri come CNB è passata dal 26% inferiore del suo settore all’1% superiore con [!DNL Adobe Target].
+Kit di strumenti e casi d’uso per l’implementazione di strategie di personalizzazione interfunzionali. Scopri come CNB è passata dall’ultimo 26% nel suo settore, al primo 1% con [!DNL Adobe Target].
 
-+++Clicca su me
++++Fai clic qui
 
 * **Giovedì 26 maggio 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://digital-optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://digital-optimization.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-Unisciti a Heather Adkins (SVP Marketing Technology Manager) per scoprire come City National Bank è diventata una delle più sofisticate banche di relazioni abilitate per il digitale.
+Heather Adkins (SVP Marketing Technology Manager) spiega come City National Bank è diventata una delle più sofisticate banche in termini di relazioni abilitate dal digitale.
 
-Scopri come la City National Bank sta sfruttando [!DNL Target] a:
+Scopri come City National Bank utilizza [!DNL Target] per:
 
-* Attività di test e sperimentazione su scala, personalizzazione e automazione AI
+* Attività di test e sperimentazione, personalizzazione e automazione IA su scala
 * Incentivare le esperienze vincenti su più canali per sviluppare relazioni autentiche
-* Accelerare la crescita del business con un maggiore coinvolgimento e adozione di offerte personalizzate
-* Ottimizza le campagne multicanale per ottimizzare il time-to-value e il ROI.
+* Accelerare la crescita del business con un maggiore coinvolgimento e tasso di adozione tramite offerte personalizzate
+* Ottimizzare le campagne multicanale per incrementare il time-to-value e il ROI
 
 +++
 
 ### Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target] (2 giugno 2022)
 
-Scopri come l’intelligenza artificiale continua a ridefinire le aspettative dei consumatori man mano che i modelli di apprendimento automatico e le informazioni sui dati aprono nuove porte per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per coinvolgere i consumatori con esperienze personalizzate che contano. Visita passo passo [!DNL Adobe Analytics] + [!DNL Adobe Target] flussi di lavoro per personalizzazione, targeting e test.
+Scopri come l’intelligenza artificiale continua a ridefinire le aspettative dei consumatori man mano che i modelli di apprendimento automatico e le informazioni sui dati aprono nuove porte per gli esperti di marketing, gli sviluppatori e i proprietari di prodotti, consentendo loro di coinvolgere i consumatori con esperienze personalizzate di alto valore. Lasciati guidare alla scoperta dei flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Adobe Target] per la personalizzazione, il targeting e il testing.
 
-+++Clicca su me
++++Fai clic qui
 
 * **Giovedì 2 giugno 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://analytics.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-Join Jordan Ison (Consulente principale per soluzioni esperte presso [!DNL Adobe]) per discutere:
+Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
 
-* In che modo gli esperti di marketing, gli sviluppatori e i team di prodotto possono aprire la &quot;black box&quot; dell’intelligenza artificiale per indirizzare le future strategie di test e personalizzazione
-* Superare le sfide nell&#39;ottimizzazione di web, app mobili, e-mail, IoT e ogni punto di contatto digitale per una conversione e un coinvolgimento più elevati
-* Visita guidata dettagliata [!DNL Adobe Analytics] e [!DNL Target] flussi di lavoro per personalizzazione, targeting e test
-* Casi d’uso principali per sbloccare gli attributi che predicono il comportamento dei visitatori e gli attributi più importanti per le visualizzazioni chiave e l’analisi della segmentazione
+* In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera” dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
+* Superare le sfide dell’ottimizzazione per web, app mobili, e-mail, IoT e ogni punto di contatto digitale per incrementare il tasso di conversione e coinvolgimento
+* Flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Target] per la personalizzazione, il targeting e il testing.
+* Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori, e quelli più importanti per visualizzazioni chiave e analisi della segmentazione
 
 +++
 
-### Banca nazionale della città: Da zero a eroe - Avvio e scalabilità di un programma di personalizzazione (9 giugno 2022)
+### City National Bank: Zero to Hero - Avvio e scalabilità di un’iniziativa di personalizzazione (9 giugno 2022)
 
-Scopri le best practice per diventare una &quot;banca di relazioni&quot; per aumentare la fedeltà al marchio. Scopri come spingere le persone e i processi a creare e scalare programmi di personalizzazione di successo.
+Scopri le best practice da seguire per diventare una “relationship bank” in grado di incrementare il livello di fidelizzazione al brand. Comprendi come indirizzare persone e processi verso la creazione e la scalabilità di programmi di personalizzazione di successo.
 
-+++Clicca su me
++++Fai clic qui
 
 * **Giovedì 9 giugno 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **Ulteriori informazioni sulla registrazione saranno presto disponibili**
+* **19:00 - 20:00 (CET)**
+* **Ulteriori informazioni e registrazione (a breve)**
 
-Unisciti a Heather Adkins (SVP Marketing Technology) per scoprire le best practice per diventare una &quot;banca di relazioni&quot; per aumentare la fedeltà al marchio e come spingere le persone e i processi a creare e scalare programmi di personalizzazione di successo.
+Heather Adkins (SVP Marketing Technology) parla delle best practice per diventare una “relationship bank” al fine di aumentare il livello di fidelizzazione al brand, e come indirizzare persone e processi verso la creazione e la scalabilità di programmi di personalizzazione di successo.
 +++
 
 ### Adobe: Opportunità di ottimizzazione ad alto impatto (16 giugno 2022)
 
-Scopri come, entrando nel nuovo sistema normale, più digitale che mai, è fondamentale che le organizzazioni sfruttino tutte le opportunità per offrire esperienze digitali eccezionali. Abbastanza buono non è più abbastanza buono. Ci vogliono grandi esperienze per restare competitivi.
+Con il definirsi di una nuova normalità, più digitale che mai, è fondamentale che le organizzazioni possano sfruttare ogni opportunità di offrire esperienze digitali eccezionali. Non è più sufficiente accontentarsi di esperienze discrete. Per restare competitivi, occorre offrire esperienze eccellenti.
 
-+++Clicca su me
++++Fai clic qui
 
 * **Giovedì 16 giugno 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://optimization.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-Partecipa a Kaitlin White (Adobe Product Marketing Manager) quando condividiamo strategie sperimentate per aiutarti a avviare il tuo programma di personalizzazione, tra cui:
+Kaitlin White (Adobe Product Marketing Manager) condivide strategie comprovate che potranno aiutarti ad avviare iniziative di personalizzazione:
 
-* Idee pronte all’uso per l’acquisizione di nuovi lead o clienti
-* Correzione dell&#39;attrito dell&#39;utente per un&#39;esperienza più intuitiva
-* Utilizzo dell’affinità cliente per la personalizzazione
-* E molte altre idee per aiutarti a scoprire opportunità di alto impatto nella tua organizzazione
+* Pensare fuori dagli schemi per acquisire nuovi lead o clienti
+* Correggere le situazioni di attrito per fornire esperienze più intuitive
+* Attingere alle affinità per estendere la personalizzazione
+* E molte altre idee per scoprire opportunità di alto impatto nella tua organizzazione
 
 +++
 
-### Adobe: Registri di personalizzazione nel settore - Retail (21 giugno 2022)
+### Adobe: Personalization Industry Insider - Retail (21 giugno 2022)
 
-Il 2022 ha dato alle imprese un ambiente dinamico e in rapida evoluzione per funzionare e funzionare. Scopri come gli esperti del settore vedono nuove tendenze dei consumatori prendere forma mentre la vita inizia a tornare alla normalità per i lavoratori e i viaggiatori. 
+Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore vedono prendere forma nuove tendenze dei consumatori, mentre lavoratori e viaggiatori iniziano a tornare alla normalità. 
 
-+++Clicca su me
++++Fai clic qui
 
 * **Giovedì 21 giugno 2022**
-* **1:00 alle 2:00 p.m. (EDT, UTC-4)**
-* **[Ulteriori informazioni e informazioni sulla registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-Unisciti a Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Consulente Target, Premier Support di Adobe) per discutere come le vendite di e-commerce al dettaglio stanno aumentando vertiginosamente man mano che i modelli e i comportamenti di acquisto dei consumatori cambiano, con una maggiore domanda di beni e servizi in alcuni mercati.
+Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
 +++
 
-## Registrazioni dei webinar passati e delle sessioni di skill-builder
+## Registrazioni di sessioni Skill Builder e webinar passati
 
-Registrati e visualizza le registrazioni di eventi recenti:
+Registrati e guarda le registrazioni di eventi recenti:
 
 ### Personalizzazione in tempo reale con [!DNL Adobe Target]
 
-**[Registrati per visualizzare la registrazione del webinar](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+**[Registrati per guardare la registrazione del webinar](https://real-time.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
-In questa sessione, scopri come [!DNL Adobe Target] colma il divario sulla combinazione di dati tra più origini per la personalizzazione in tempo reale durante la discussione:
+In questa sessione, scopri come [!DNL Adobe Target] colma il divario per combinare dati da più origini per la personalizzazione in tempo reale. Vengono trattati i seguenti argomenti:
 
-* Perché le prestazioni di personalizzazione e la velocità contano per promuovere una crescita aziendale più rapida
-* Come i team possono creare strategie per i dati di prime parti e risolvere i problemi di frammentazione dei dati
-* Flussi di lavoro end-to-end per la distribuzione di esperienze personalizzate in millisecondi
-* Casi d’uso unici per i brand per coinvolgere clienti e potenziali clienti in tempo reale con messaggi, contenuti e offerte pertinenti
+* Perché per promuovere una crescita aziendale più rapida contano velocità e prestazioni di personalizzazione
+* In che modo i team possono creare strategie per dati prime parti e risolvere problemi di frammentazione dei dati
+* Flussi di lavoro end-to-end per la consegna di esperienze personalizzate in millisecondi
+* Casi d’uso unici per i brand per coinvolgere clienti e potenziali clienti con messaggi, contenuti e offerte pertinenti in tempo reale
 
 ### Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
@@ -183,7 +161,7 @@ In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano c
 
 ### Webinar: Come HSBC sfrutta Adobe [!DNL Target] e l’IA per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
-* **[Visualizza la registrazione del webinar qui](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[Visualizza la registrazione del webinar](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 McKinsey Digital riporta che “abbiamo compiuto cinque anni di carriera nell’adozione digitale di consumatori e business in circa otto settimane”. *
 
@@ -199,7 +177,7 @@ Iscriviti ad Adobe e HSBC per questo webinar per scoprire:
 
 ### Adobe [!DNL Target] Skill Builder: chat per sviluppatori, migrazione di Adobe [!DNL Target] mbox.js in at.js {#skill-builder}
 
-* **[Visualizza la registrazione del webinar qui](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[Visualizza la registrazione del webinar](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 
 Con l’imminente rimozione di mbox.js il 31 marzo 2021, David Son, Product Manager di Adobe Target, ha recentemente condotto una chat per sviluppatori in cui si parla dei vantaggi della migrazione di mbox.js a at.js.
 
