@@ -4,10 +4,10 @@ description: I conflitti si verificano quando più attività sono impostate per 
 title: Come Posso Evitare Conflitti Tra Attività?
 feature: Visual Experience Composer (VEC)
 exl-id: 1af90dd1-69c9-41ec-8785-095dcc557b32
-source-git-commit: 430b2ebb053460ec04c01da53aadacaba9e99599
+source-git-commit: b34701113ebdc9f539e5a3d7163aa3dd85368af3
 workflow-type: tm+mt
-source-wordcount: '349'
-ht-degree: 72%
+source-wordcount: '352'
+ht-degree: 66%
 
 ---
 
@@ -17,7 +17,7 @@ La [!UICONTROL Conflitti] nella scheda [!UICONTROL Panoramica dell’attività] 
 
 Un conflitto tra attività si verifica quando più attività sono configurate per distribuire contenuto alla stessa pagina. Se si verifica un conflitto tra attività, è possibile che nella pagina non venga visualizzato il contenuto previsto.
 
-Se l&#39;attività include potenziali conflitti, nella pagina di panoramica dell’attività diventa disponibile la scheda [!UICONTROL Conflitti]. Sono indicate tutte le attività che fanno riferimento allo stesso URL, indipendentemente dall&#39;eventuale targeting di un pubblico in ogni attività. Apri questa scheda per un elenco delle attività potenzialmente in conflitto. Fai clic su un’attività nell’elenco per visualizzarne la pagina di panoramica. Se il conflitto altera l’esperienza prevista, modifica l’attività.
+La [!UICONTROL Conflitti] è disponibile nella pagina di panoramica dell’attività e può informarti se l’attività contiene potenziali conflitti. Sono indicate tutte le attività che fanno riferimento allo stesso URL, indipendentemente dall&#39;eventuale targeting di un pubblico in ogni attività. Apri questa scheda per un elenco delle attività potenzialmente in conflitto. Fai clic su un’attività nell’elenco per visualizzarne la pagina di panoramica. Se il conflitto altera l’esperienza prevista, modifica l’attività.
 
 La [!UICONTROL Conflitti] l’elenco consente di:
 
