@@ -7,7 +7,7 @@ exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
 workflow-type: tm+mt
 source-wordcount: '2423'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -73,7 +73,7 @@ Considera le seguenti informazioni:
 * Fai riferimento agli attributi dello script di profilo (incluso se stesso) nel codice con `user.get('parameterName')`.
 * Salva le variabili che possono essere accessibili alla successiva esecuzione dello script (alla successiva richiesta mbox) con `user.setLocal('variable_name', 'value')`. Fai riferimento alla variabile con `user.getLocal('variable_name')`. Questo processo è utile nelle situazioni in cui vuoi fare riferimento alla data e all’ora dell’ultima richiesta.
 
-   Questi valori persistono come uno script di profilo, ma puoi accedervi solo all’interno dello script impostato.
+   Questi valori persistono come uno script di profilo, ma puoi accedervi solo all’interno dello script in cui sono stati impostati.
 
 * I parametri e i valori fanno distinzione tra maiuscole e minuscole. Usa le stesse maiuscole e minuscole dei parametri e dei valori che ricevi durante l’attività o il test.
 * Per ulteriore sintassi JavaScript, consulta la sezione “Riferimento JavaScript per i parametri del profilo di script” qui di seguito.
