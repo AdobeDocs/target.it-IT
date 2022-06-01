@@ -4,7 +4,7 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a40aba388ae89079f6977082fd77c7670618a4e1
+source-git-commit: 6826a9e434ba9d8a2f1a8a56b5ca053445aac1fc
 workflow-type: tm+mt
 source-wordcount: '1404'
 ht-degree: 84%
@@ -15,7 +15,7 @@ ht-degree: 84%
 
 Annunci e informazioni sulle prossime versioni [!DNL Adobe Target] eventi, compresi [!DNL Target] Sessioni di pausa caffè, [!DNL Target] serie di webinar, [!DNL Target] Sessioni di Skills Builder, chat per sviluppatori e altro ancora. I collegamenti alle registrazioni passate sono inclusi, se disponibili.
 
-## Interruzione del cookie della community Adobe Target (29 giugno 2022)
+## Interruzione del caffè della community Adobe Target (29 giugno 2022)
 
 +++Fai clic qui
 
