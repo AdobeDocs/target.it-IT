@@ -4,9 +4,9 @@ description: 'Scopri come visualizzare in anteprima il tuo Adobe [!DNL Target] A
 title: Come posso visualizzare in anteprima e avviare un'attività Recommendations?
 feature: Recommendations
 exl-id: 60391778-4d48-4c41-a7c5-fedcfabf2530
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7732f3af0fd995309035a8a214afd438ab7a1823
 workflow-type: tm+mt
-source-wordcount: '1349'
+source-wordcount: '1381'
 ht-degree: 17%
 
 ---
@@ -120,17 +120,17 @@ Modifica [!DNL Recommendations] raccolte, criteri, promozioni o impostazioni di 
 
 Per evitare di interrompere un’attività live, è consigliabile adottare il seguente approccio quando modifichi un’attività live:
 
-1. Duplica l’attività e i criteri da modificare.
-1. Apporta modifiche all’attività e ai criteri duplicati e attendi che l’algoritmo generi risultati.
-1. Visualizza l’anteprima della nuova attività modificata e verifica che i risultati siano come desiderato.
-1. Attiva la nuova attività.
-1. Disattiva la vecchia attività.
+1. Duplica l’attività originale (attività 1) e i criteri da modificare per creare una nuova attività (attività 2).
+1. Apporta modifiche all’attività duplicata (attività 2) e ai criteri e attendi che l’algoritmo generi i risultati.
+1. Visualizza l’anteprima della nuova attività modificata (attività 2) e verifica che i risultati siano quelli desiderati.
+1. Attiva la nuova attività (attività 2).
+1. Disattiva l’attività originale (attività 1).
 
 Se è necessario mantenere i risultati storici dei rapporti nella stessa attività, è possibile adottare un approccio alternativo che potrebbe causare un’interruzione temporanea della disponibilità dei consigli:
 
-1. Duplica l’attività e i criteri da modificare.
-1. Apporta modifiche all’attività e ai criteri duplicati e attendi che l’algoritmo generi risultati.
-1. Visualizza l’anteprima della nuova attività modificata e verifica che i risultati siano come desiderato.
-1. Sospendi l’attività esistente e scambia le impostazioni/i criteri con i nuovi criteri.
-1. Visualizza l’anteprima dell’attività esistente e verifica che i risultati siano come desiderato.
-1. Riattiva l’attività.
+1. Duplica l’attività originale (attività 1) e i criteri da modificare per creare una nuova attività (attività 2).
+1. Apporta modifiche all’attività duplicata (attività 2) e ai criteri e attendi che l’algoritmo generi i risultati.
+1. Visualizza l’anteprima della nuova attività modificata (attività 2) e verifica che i risultati siano quelli desiderati.
+1. Sospendi la nuova attività modificata (attività 2) e sostituisci le impostazioni/i criteri con l’attività originale (attività 1).
+1. Visualizza l’anteprima dell’attività originale (attività 1) e verifica che i risultati siano come desiderato.
+1. Riattiva l’attività originale (attività 1).
