@@ -5,10 +5,10 @@ title: Come posso aggiungere utenti e gestire le autorizzazioni?
 feature: Administration & Configuration
 role: Admin
 exl-id: 535c28c7-179d-4edc-b140-880b9dfe1d59
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '911'
-ht-degree: 100%
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+workflow-type: tm+mt
+source-wordcount: '917'
+ht-degree: 99%
 
 ---
 
@@ -71,7 +71,7 @@ Tutte le operazioni di gestione dell’utente devono essere eseguite in [!DNL Ad
 È possibile creare gruppi di utenti, ad esempio sviluppatori, analisti, addetti al marketing, dirigenti e così via, e assegnare privilegi a più prodotti Adobe e aree di lavoro. Per assegnare a un nuovo membro del team tutti i privilegi appropriati per i diversi prodotti Adobe, sarà sufficiente aggiungerlo a un gruppo di utenti specifico.
 
 1. [In Admin Console](/help/main/administrating-target/c-user-management/c-user-management/user-management.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic su **[!UICONTROL Utenti]** > **[!UICONTROL Gruppi utenti]** per creare nuovi gruppi di utenti o modificare quelli esistenti.
-1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/it/enterprise/using/users.html) nella *guida utente della versione Enterprise*.
+1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) nella *guida utente della versione Enterprise*.
 
 ## Specificare ruoli e autorizzazioni {#roles-permissions}
 
@@ -98,7 +98,7 @@ Devono essere gli utenti amministratori di sistema ad aggiungere gli utenti al s
    | Ruolo | Descrizione |
    |--- |--- |
    | Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
-   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
+   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. Può modificare i tipi di pubblico nelle attività live. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
    | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 

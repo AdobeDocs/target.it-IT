@@ -5,10 +5,10 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 63%
+source-wordcount: '1437'
+ht-degree: 67%
 
 ---
 
@@ -47,7 +47,7 @@ Per le attività eseguite in [!DNL Adobe Admin Console for Enterprise], accedi a
 Quando si inizia a utilizzare la nuova funzionalità [!UICONTROL Proprietà], tutte le attività di gestione degli utenti devono essere eseguite in [!DNL Adobe Admin Console for Enterprise]. Tuttavia, tutti gli utenti esistenti in [!DNL Target] verranno migrati da [!DNL Target] ad [!DNL Admin Console for Enterprise].
 
 1. [In Admin Console](/help/main/administrating-target/c-user-management/property-channel/properties-overview.md#section_79796E0227D048F59BAE0AB02E544EBE), fai clic sulla scheda **[!UICONTROL Utenti]** nella parte superiore della pagina > **[!UICONTROL Aggiungi utenti]** per creare nuovi utenti o modificare quelli esistenti.
-1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/enterprise/help/users.html) nella *guida utente della versione Enterprise*.
+1. Segui le istruzioni contenute in [Gestire utenti e gruppi in Experience Cloud](https://helpx.adobe.com/it/enterprise/using/users.html) nella *guida utente della versione Enterprise*.
 
 ## Passaggio 2: Creare un’area di lavoro (profilo prodotto) {#section_B82EB409B67C4D9D9D20CE30E48DB1DC}
 
@@ -168,7 +168,7 @@ Per utilizzare [!DNL Target] funzionalità di autorizzazione utente, è necessar
 
 1. Fai clic sul nome del profilo desiderato (ad esempio, Area di lavoro predefinita).
 
-   ![Area di lavoro predefinita](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
+   ![Default Workspace (Area di lavoro predefinita)](/help/main/administrating-target/c-user-management/c-user-management/assets/default-workspace-new.png)
 
 1. Fai clic su **[!UICONTROL Utenti]**.
 
@@ -178,12 +178,12 @@ Per utilizzare [!DNL Target] funzionalità di autorizzazione utente, è necessar
 
 1. Seleziona il ruolo di autorizzazioni desiderato (Approvatore, Editor, Osservatore o Editore) utilizzando l’elenco a discesa per ogni utente nella [!UICONTROL Ruolo del prodotto] colonna.
 
-   ![Elenco a discesa Ruolo prodotto](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
+   ![Elenco a discesa Product Role (Ruolo prodotto)](/help/main/administrating-target/c-user-management/c-user-management/assets/product-role-new.png)
 
    | Ruolo | Descrizione |
    |--- |--- |
-   | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
-   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+   | Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
+   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. Può modificare i tipi di pubblico nelle attività live. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
    | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
@@ -195,7 +195,7 @@ I video seguenti contengono ulteriori informazioni sui concetti descritti in que
 
 >[!NOTE]
 >
->La [!DNL Target] [!UICONTROL Amministrazione] interfaccia utente del menu (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L’interfaccia utente di [!DNL Target] del menu [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nei video seguenti sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
 
 ### Come configurare le aree di lavoro di Adobe Target (6:55) ![Badge tutorial](/help/main/assets/tutorial.png)
 
