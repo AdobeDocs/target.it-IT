@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '723'
-ht-degree: 93%
+source-wordcount: '837'
+ht-degree: 83%
 
 ---
 
@@ -17,6 +17,20 @@ ht-degree: 93%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] correzioni per l&#39;ingegneria dei clienti (rilascio scaglionato: (7-9 giugno 2022)
+
+Questa versione sarà disponibile in base al seguente programma scaglionato:
+
+* **7 giugno**: regione Asia-Pacifico (APAC)
+* **8 giugno**: Regione delle Americhe
+* **9 giugno**: Area Europa, Medio Oriente e Africa (EMEA)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* Utenti con [!UICONTROL Editor] Il ruolo non può più modificare i tipi di pubblico nelle attività live. (TGT-43582)
+* È stato introdotto un miglioramento per il nuovo [!UICONTROL Tipi di pubblico] per evitare uno stato incoerente tra il vecchio database in cui i tipi di pubblico sono stati memorizzati in passato e la nuova architettura che recupera le informazioni direttamente dal back-end. (TGT-43552)
+* È stato risolto un problema che impediva ad alcuni clienti di salvare il pubblico combinato causato dalla creazione di contenitori &quot;vuoti&quot; da parte dell’interfaccia utente di Target. (TGT-43588)
 
 ## Versione della piattaforma Target (25 maggio 2022)
 

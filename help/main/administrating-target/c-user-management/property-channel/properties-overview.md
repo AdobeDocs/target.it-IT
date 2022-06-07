@@ -5,10 +5,10 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: f4fddfe7b4476a501361c3b5f87c0146b8aea605
+source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
-source-wordcount: '1437'
-ht-degree: 67%
+source-wordcount: '1431'
+ht-degree: 68%
 
 ---
 
@@ -183,7 +183,7 @@ Per utilizzare [!DNL Target] funzionalità di autorizzazione utente, è necessar
    | Ruolo | Descrizione |
    |--- |--- |
    | Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
-   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. Può modificare i tipi di pubblico nelle attività live. |
+   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
    | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
 
