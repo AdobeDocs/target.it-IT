@@ -4,10 +4,10 @@ description: Scopri come utilizzare Adobe [!DNL Target] Gli URL di controllo qua
 title: Come Faccio A Controllare Le Attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '1759'
-ht-degree: 36%
+source-wordcount: '1800'
+ht-degree: 38%
 
 ---
 
@@ -93,6 +93,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
    | `adobe_mc_sdid` |  |  | Passa la [!DNL Supplemental Data Id] (SDID) e [!DNL Experience Cloud Org Id] dalla pagina predefinita alla nuova pagina. Il passaggio di questi ID consente [!UICONTROL Analytics for Target] (A4T) per &quot;unire&quot; insieme i [!DNL Target] richiesta nella pagina predefinita con [!DNL Analytics] nella nuova pagina. |
 
 * La [!UICONTROL Modalità di controllo qualità di Target] L’interfaccia utente mostra solo il primo URL di un’esperienza in un’attività multipagina. Si presume infatti che si stia creando un test di percorso e che si passi dall’URL1 all’URL2. Tuttavia, se desideri passare all’URL2 indipendentemente, copia tutti i parametri URL forniti per l’URL1 e applicali all’URL2 dopo aver inserito un segno &quot;?&quot;, come nell’URL1.
+* I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova i collegamenti di anteprima. Archivia le attività salvate che non vengono più utilizzate attivamente per impedire che questo problema continui a verificarsi.
 
 ## Compatibilità della [!UICONTROL Modalità QA] con la libreria JavaScript di Target {#compatibility}
 

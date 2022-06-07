@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
 workflow-type: tm+mt
-source-wordcount: '4549'
-ht-degree: 100%
+source-wordcount: '4507'
+ht-degree: 98%
 
 ---
 
@@ -51,18 +51,6 @@ I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati ne
 
 Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
 
-### Consegna delle pagine {#page-delivery}
-
-Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Questi spazi aggiuntivi sono cosmetici e non influiscono sulla creazione di definizioni di pubblico e sulla consegna delle offerte. (TGT-35920)
-
-### Collegamenti di anteprima Controllo di qualità
-
-I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. Riprova i collegamenti di anteprima. Archivia le attività salvate che non vengono più utilizzate attivamente per impedire che questo problema continui a verificarsi. (TNT-37294)
-
-### Modalità di controllo qualità per le attività Consigli
-
-Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attività sono basati su elementi o su categorie. (TNT-37455)
-
 ### Offerte di reindirizzamento {#redirect}
 
 * Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
@@ -84,14 +72,6 @@ Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attivit�
 ### Consigli
 
 Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Consigli]:
-
-* Quando copi un’attività [!UICONTROL Consigli] con una promozione attiva, qualsiasi modifica nell’attività duplicata influisce attualmente anche sull’attività originale, e viceversa. (TGT-39155)
-
-   Come soluzione temporanea:
-
-   * Disattiva le promozioni di attività
-   * Duplica l’attività
-   * Abilita nuovamente le promozioni in ogni attività
 
 * Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione di consigli JSON, restituisce un tipo HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
@@ -148,10 +128,6 @@ Tutti i pacchetti Analytics correnti possono aggiungere questo modello con Attri
 
 I clienti non possono eseguire operazioni CRUD sulle attività di allocazione automatica tramite la versione v3 dell’API A/B Activities in Adobe I/O.
 
-### Geotargeting
-
-Il 10 maggio 2020 Adobe ha aggiornato i file del provider GEO, il che ha introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole benché i valori nei tipi di pubblico esistenti non avessero una virgola. Questa modifica non ha interessato tutti i server di consegna Adobe. Di conseguenza, i tipi di pubblico che utilizzano tali valori potrebbero non aver qualificato tutti i visitatori corretti tra il 10 maggio e il 22 luglio 2020.
-
 ### Generazione rapporti: dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’interfaccia utente di [!DNL Target] {#csv}
 
 I rapporti generati per il download come file .csv non sono coerenti se l’attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
@@ -160,7 +136,27 @@ L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia
 
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
-Quando i problemi noti di cui sopra vengono risolti, vengono spostati nelle sezioni seguenti. Se necessario, vengono aggiunte note aggiuntive.
+Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nelle sezioni seguenti. Se necessario, vengono aggiunte altre note.
+
+### Geotargeting
+
+Il 10 maggio 2020 Adobe ha aggiornato i file del provider GEO, il che ha introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole benché i valori nei tipi di pubblico esistenti non avessero una virgola. Questa modifica non ha interessato tutti i server di consegna Adobe. Di conseguenza, i tipi di pubblico che utilizzano tali valori potrebbero non aver qualificato tutti i visitatori corretti tra il 10 maggio e il 22 luglio 2020.
+
+### Copia di un [!UICONTROL Recommendations] attività
+
+Durante la copia di un [!UICONTROL Recommendations] attività con una promozione attiva, qualsiasi modifica nell’attività duplicata influisce attualmente anche sull’attività originale, e viceversa. (TGT-39155)
+
+Questo problema è stato risolto nel [!DNL Target Standard/Premium] Versione 21.2.1.
+
+### Modalità di controllo qualità per le attività Consigli
+
+Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attività sono basati su elementi o su categorie. (TNT-37455)
+
+Questo problema è stato risolto nel gennaio 2022. (TNT-37455)
+
+### Consegna delle pagine {#page-delivery}
+
+Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Questi spazi aggiuntivi sono cosmetici e non influiscono sulla creazione di definizioni di pubblico e sulla consegna delle offerte. (TGT-35920)
 
 ### Offerte di immagini che mostrano l’etichetta “Elaborazione”
 
