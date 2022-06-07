@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3e1555704059e04d8d5dfec293fd6b7f3cc73bbf
+source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
 workflow-type: tm+mt
-source-wordcount: '4507'
+source-wordcount: '4506'
 ht-degree: 98%
 
 ---
@@ -90,15 +90,6 @@ In un’attività MVT, il vincitore mostrato nella tabella e nel grafico non è 
 
 Di seguito sono riportati problemi noti relativi a at.js:
 
-* Utilizzando le versioni at.js precedenti alla versione 2.2.0, nel monitoraggio dei clic non sono incluse le conversioni in Analytics for Target (A4T) se il codice Adobe Analytics non è presente sugli elementi di pagina (come i pulsanti). Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
-* Se crei un’esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un’esperienza predefinita), questa potrebbe non essere conteggiata nei rapporti, in Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il plug-in ttMeta potrebbe non funzionare correttamente.
-
-   Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza. (TNT-33366)
-
-   >[!NOTE]
-   >
-   >Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.
-
 * Quando si carica una pagina nel Compositore esperienza visivo (VEC), Target deve determinare se l’impostazione mbox globale è abilitata o disabilitata e se entityID o categoryID è presente nel percorso in cui l’utente sta tentando di applicare il consiglio nel Compositore esperienza visivo. L’elenco dei criteri viene filtrato sulla base di queste informazioni. L’elenco predefinito contiene algoritmi filtrati, ma la casella di controllo [Compatibile](/help/main/c-recommendations/t-create-recs-activity/algo-select-recs.md) consente di visualizzare l’elenco completo degli algoritmi.
 
    Quando si utilizza at.js, la casella di controllo Compatibilità è nascosta e non è quindi possibile visualizzare gli algoritmi non compatibili.
@@ -137,6 +128,18 @@ L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nelle sezioni seguenti. Se necessario, vengono aggiunte altre note.
+
+### at.js
+
+* Se crei un’esperienza senza modifiche utilizzando at.js 2.1.1 o versioni precedenti (ad esempio, un’esperienza predefinita), questa potrebbe non essere conteggiata nei rapporti, in Analytics for Target (A4T), Adobe Analytics o Google Analytics. Inoltre, il plug-in ttMeta potrebbe non funzionare correttamente.
+
+   Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza.
+
+   Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.  (TNT-33366)
+
+* Utilizzando le versioni at.js precedenti alla 2.2.0, il tracciamento dei clic non segnala le conversioni in [!UICONTROL Analytics for Target] (A4T) se [!DNL Adobe Analytics] il codice non è presente negli elementi della pagina (ad esempio nei pulsanti).
+
+   Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
 ### Geotargeting
 
