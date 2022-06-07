@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '4138'
-ht-degree: 98%
+ht-degree: 97%
 
 ---
 
@@ -70,7 +70,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
-| 10 febbraio | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md) | Il seguente problema noto è stato aggiunto: <ul><li>Caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi</li></ul> |
+| 10 febbraio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Sono state aggiunte informazioni sul caricamento di siti web con Service Workers nel Compositore esperienza visivo. |
 | 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Community Q&amp;A Coffee Break [!DNL Adobe Target]  (23 febbraio 2022)</li></ul> |
 | 3 febbraio | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
 | 2 febbraio | [Soluzione di problemi relativi alla distribuzione dei contenuti](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: “L’utilizzo del carattere di escape per le virgolette doppie nel valore dell’attributo del profilo in [!DNL Target] non funziona come previsto.” |
