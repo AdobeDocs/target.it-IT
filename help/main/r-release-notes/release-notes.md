@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
 workflow-type: tm+mt
 source-wordcount: '837'
-ht-degree: 83%
+ht-degree: 89%
 
 ---
 
@@ -32,24 +32,24 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato introdotto un miglioramento per il nuovo [!UICONTROL Tipi di pubblico] per evitare uno stato incoerente tra il vecchio database in cui i tipi di pubblico sono stati memorizzati in passato e la nuova architettura che recupera le informazioni direttamente dal back-end. (TGT-43552)
 * È stato risolto un problema che impediva ad alcuni clienti di salvare il pubblico combinato causato dalla creazione di contenitori &quot;vuoti&quot; da parte dell’interfaccia utente di Target. (TGT-43588)
 
-## Versione della piattaforma Target (25 maggio 2022)
+## Versione della piattaforma di destinazione (25 maggio 2022)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Aggiunto [Suggerimenti client agente utente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) supporto.
-* È stato risolto un problema che causava in modo intermittente timeout durante il rendering [!UICONTROL Decisioni di offerta] in [!UICONTROL Targeting esperienza] Attività (XT). (TNT-44611)
+* È stato aggiunto il supporto [per i User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* È stato risolto un problema che causava timeout in modo intermittente durante il rendering [!UICONTROL Decisioni di offerta] nelle attività di [!UICONTROL Experience Targeting] (XT). (TNT-44611)
 
 ## at.js versione 2.9.0 (27 maggio 2022)
 
-* Aggiunto [Suggerimenti client agente utente](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md) supporto.
-* È stato corretto un bug a causa del quale più richieste mbox sulla stessa pagina avevano ID impression diversi.
+* È stato aggiunto il supporto [per i User Agent Client Hints](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/user-agent-and-client-hints.md).
+* È stato corretto un errore per cui più richieste di mbox sulla stessa pagina avevano ID di impression diversi.
 
 ## [!DNL Target Standard/Premium] 22.5.1 (rilascio scaglionato; 11-13 maggio 2022)
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 * **11 maggio**: area geografica Asia-Pacifico (APAC)
-* **12 maggio**: Regione delle Americhe
+* **12 maggio**: area geografica delle Americhe
 * **13 maggio**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
