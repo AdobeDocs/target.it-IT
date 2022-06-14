@@ -5,9 +5,9 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '837'
+source-wordcount: '834'
 ht-degree: 89%
 
 ---
@@ -18,7 +18,7 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target Standard/Premium] correzioni per l&#39;ingegneria dei clienti (rilascio scaglionato: (7-9 giugno 2022)
+## [!DNL Target Standard/Premium] 22.6.1 (versione scaglionata: (7-9 giugno 2022)
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 

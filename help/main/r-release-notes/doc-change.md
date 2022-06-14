@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: a605bc14ea60d982e4120fb0c19daba37ea3524b
 workflow-type: tm+mt
-source-wordcount: '4138'
+source-wordcount: '4132'
 ht-degree: 98%
 
 ---
@@ -19,8 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 7 giugno | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
-| 6 giugno | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease per [!DNL Target Standard/Premium] release correzioni tecniche per i clienti. |
+| 7 giugno | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per [!DNL Target Standard/Premium] Versione 22.6.1. |
+| 6 giugno | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni sulla versione prerelease per [!DNL Target Standard/Premium] Versione 22.6.1. |
 | 31 maggio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Sono state aggiunte informazioni sulle prossime [!DNL Adobe Target] Interruzione del caffè nella Comunità (29 giugno 2022) |
 | 25 maggio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla [!DNL Target] versione di Platform (25 maggio 2022) e rilascio di at.js 2.9.0 (27 maggio 2022). |
 |  | [Dettagli sulle versioni di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) | Sono state aggiunte informazioni sulla versione 2.9.0 di at.js. |
