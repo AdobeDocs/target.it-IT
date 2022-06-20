@@ -5,10 +5,10 @@ title: Come inserire i dati in [!DNL Target] Utilizzo dell’API di aggiornament
 feature: Implementation
 role: Developer
 exl-id: 068658fc-7082-425a-87c1-dd0de03cdc71
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 95566b428d7404b0f336221881849c13707bb314
 workflow-type: tm+mt
-source-wordcount: '376'
-ht-degree: 79%
+source-wordcount: '392'
+ht-degree: 76%
 
 ---
 
@@ -21,7 +21,8 @@ Questa opzione è simile agli attributi del cliente con alcune differenze:
 * Gli attributi del cliente utilizzano un caricamento FTP mentre l&#39;API di aggiornamento del profilo bulk di Target utilizza un&#39;API HTTP post.
 * I dati degli attributi dei clienti possono essere condivisi con Analytics. L&#39;aggiornamento del profilo bulk è utilizzabile solo in Target.
 * Gli attributi del cliente supportano la creazione di un profilo per una destinazione utente non ancora visibile. L&#39;API di aggiornamento del profilo bulk aggiorna solo i profili di Target esistenti.
-* Gli Attributi cliente richiedono l&#39;utilizzo di Experience Cloud ID (ECID). L&#39;API di aggiornamento del profilo bulk richiede l&#39;ID TNT o `mbox3rdPartyId`.
+* Gli attributi del cliente richiedono l’uso dell’ID Experience Cloud (ECID) e l’uso di un ID sorgente, come l’ID CRM o l’ID fedeltà.
+* L&#39;API di aggiornamento del profilo bulk richiede l&#39;ID TNT o `mbox3rdPartyId`.
 * Non puoi inviare i seguenti caratteri in `mbox3rdPartyID`: segno più (+) e barra (/).
 
 ## Formato
