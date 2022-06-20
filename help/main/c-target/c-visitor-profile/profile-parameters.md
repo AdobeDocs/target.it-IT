@@ -4,7 +4,7 @@ description: Scopri gli attributi specifici del visitatore che vengono memorizza
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 66c37704ba4d2fd530cf964987846bc8cb1da809
+source-git-commit: 4defa243e1e8afb02a481e979ac78c89642beb8a
 workflow-type: tm+mt
 source-wordcount: '2423'
 ht-degree: 100%
@@ -245,7 +245,7 @@ I parametri del profilo di script possono fare riferimento agli oggetti e ai met
 | --- | --- |
 | `page.url` | L’URL corrente. |
 | `page.protocol` | Il protocollo utilizzato per la pagina (http o https). |
-| `page.domain` | Il dominio dell’URL corrente (tutto ciò che precede la prima barra). Ad esempio, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blu e&size=small`. |
+| `page.domain` | Il dominio dell’URL corrente (tutto ciò che precede la prima barra). Ad esempio, `www.acme.com` in `http://www.acme.com/categories/men_jeans?color=blue&size=small`. |
 | `page.query` | La stringa di query per la pagina corrente. Tutto ciò che segue il segno “?”. Ad esempio, `blue&size=small` in `http://www.acme.com/categories/mens_jeans?color=blue&size=small`. |
 | `page.param(‘<par_name>’)` | Il valore del parametro indicato da `<par_name>`. Se l’URL corrente è la pagina di ricerca di Google e hai inserito `page.param('hl')`, riceverai “en” per l’URL `http://www.google.com/search?hl=en& q=what+is+asdf&btnG=Google+Search`. |
 | `page.referrer` | Le stesse operazioni di cui sopra valgono per la pagina di provenienza e quella di destinazione (ad esempio referrer.url è l’indirizzo URL della pagina di provenienza). |
