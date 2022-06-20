@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: aa6042e50dc23e120a7b84452cc970e7b514eef0
+source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
-source-wordcount: '503'
-ht-degree: 82%
+source-wordcount: '489'
+ht-degree: 84%
 
 ---
 
@@ -28,7 +28,6 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Utenti con [!UICONTROL Editor] Il ruolo non può più modificare i tipi di pubblico nelle attività live. (TGT-43582)
 * È stato introdotto un miglioramento per il nuovo [!UICONTROL Tipi di pubblico] per evitare uno stato incoerente tra il vecchio database in cui i tipi di pubblico sono stati memorizzati in passato e la nuova architettura che recupera le informazioni direttamente dal back-end. (TGT-43552)
 * È stato risolto un problema che impediva ad alcuni clienti di salvare il pubblico combinato causato dalla creazione di contenitori &quot;vuoti&quot; da parte dell’interfaccia utente di Target. (TGT-43588)
 
