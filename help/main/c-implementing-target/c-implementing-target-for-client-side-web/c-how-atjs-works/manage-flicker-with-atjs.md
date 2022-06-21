@@ -5,10 +5,10 @@ title: In che modo at.js gestisce lo sfarfallio?
 feature: at.js
 role: Developer
 exl-id: f6c26973-e046-42ed-91db-95c8a4210a9d
-source-git-commit: a62a0a3a4dd08ce93daff68a50613ad58af6de58
+source-git-commit: c30d98a052570df4e2461966988801c20d7fb3c0
 workflow-type: tm+mt
-source-wordcount: '662'
-ht-degree: 76%
+source-wordcount: '675'
+ht-degree: 68%
 
 ---
 
@@ -108,7 +108,7 @@ body {opacity: 0 !important}
 
 ## Gestione della visualizzazione momentanea di altri contenuti in at.js 2.x per triggerView()
 
-Quando si utilizza `triggerView()` per visualizzare contenuti mirati nell’applicazione a pagina singola, la gestione della visualizzazione momentanea di altri contenuti è preconfigurata. Questo significa che non è necessario aggiungere la logica preliminare manualmente. Al contrario, at.js 2.x nasconde preventivamente la posizione in cui la visualizzazione deve essere mostrata prima di applicare il contenuto mirato.
+Il DOM pre-hiding si applica solo al caricamento della pagina iniziale. Per SPA, il DOM viene aggiornato quando `triggerView()` viene chiamato. Potrebbe esserci un breve sfarfallio tra il momento in cui il SPA esegue il rendering del contenuto nel DOM e gli aggiornamenti di at.js [!DNL Target] offerte.  Per ridurre la visualizzazione momentanea di altri contenuti, se utilizzi `triggerView` per modificare il contenuto del caricamento della pagina, è necessario chiamare &#39;triggerView&#39; non appena viene eseguito il rendering della pagina.
 
 ## Gestisci la visualizzazione momentanea di altri contenuti con getOffer() e applyOffer()
 
