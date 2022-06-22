@@ -7,28 +7,28 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
 workflow-type: tm+mt
 source-wordcount: '1404'
-ht-degree: 87%
+ht-degree: 100%
 
 ---
 
 # Annunci ed eventi di Target
 
-Annunci e informazioni sulle prossime versioni [!DNL Adobe Target] eventi, compresi [!DNL Target] Sessioni di pausa caffè, [!DNL Target] serie di webinar, [!DNL Target] Sessioni di Skills Builder, chat per sviluppatori e altro ancora. I collegamenti alle registrazioni passate sono inclusi, se disponibili.
+Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
 
-## Interruzione del caffè della community Adobe Target (29 giugno 2022)
+## Adobe Target Community Coffee Break (29 giugno 2022)
 
 +++Fai clic qui
 
 * **Mercoledì 29 giugno 2022**
-* **dalle 8:00 alle 9:00 (PDT, UTC-7)**
-* **[Ulteriori informazioni e registrazione](https://adobe.ly/3wKhcQS) {target=_blank}**
+* **dalle 17:00 alle 18:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://adobe.ly/3wKhcQS){target=_blank}**
 
-A noi si uniranno Jordan Ison, Kati McKinney, Justine Lee e Kaela Cusack del team Adobe Solutions Consulting, per chattare direttamente con te in relazione alle loro aree di competenza. Risponderanno inoltre a tutte le domande relative agli argomenti trattati durante la Personalizzazione con precisione del 22/6: Webinar su Adobe Analytics e Target (ulteriori informazioni di seguito):
+A noi si uniranno Jordan Ison, Kati McKinney, Justine Lee e Kaela Cusack del team Adobe Solutions Consulting, per chattare direttamente con te in relazione alle loro aree di competenza. Risponderanno inoltre a tutte le domande relative agli argomenti trattati durante il webinar del 2 giugno 2022 Personalization with Precision: Adobe Analytics &amp; Target (ulteriori informazioni di seguito):
 
 * In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera” dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
-* Come superare le sfide nell&#39;ottimizzazione di web, app mobili, e-mail, IoT e ogni punto di contatto digitale per una conversione e un coinvolgimento più elevati
-* Flussi di lavoro Adobe Analytics e Adobe Target per la personalizzazione, il targeting e il test
-* Informazioni sui casi di utilizzo per sbloccare gli attributi che predicono il comportamento dei visitatori e gli attributi più importanti per le visualizzazioni chiave e l’analisi della segmentazione
+* Come superare le sfide poste dall’ottimizzazione di web, app per dispositivi mobili, e-mail, IoT e ciascun punto di contatto digitale per incrementare tasso di conversione e coinvolgimento
+* Flussi di lavoro di Adobe Analytics e Adobe Target per la personalizzazione, il targeting e il testing
+* Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori e quali fra questi attributi sono i più importanti per visualizzazioni chiave e analisi della segmentazione
 
 +++
 
@@ -89,7 +89,7 @@ Kaitlin White (Adobe Product Marketing Manager) condivide strategie comprovate c
 
 ### Adobe: Personalization Industry Insider - Retail (21 giugno 2022)
 
-Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore vedono nuove tendenze dei consumatori prendere forma mentre la vita inizia a tornare alla normalità per i lavoratori e i viaggiatori. 
+Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore rilevano nuove tendenze dei consumatori, mentre lavoratori e viaggiatori iniziano a tornare alla normalità. 
 
 +++Fai clic qui
 
@@ -102,7 +102,7 @@ Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consu
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
-Accedi alle registrazioni di eventi passati:
+Accedi alle registrazioni degli eventi precedenti:
 
 ### Dick’s Sporting Goods: Personalizzazione e come sta cambiando il settore retail (19 maggio 2022)
 
@@ -181,7 +181,7 @@ In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano c
 
 ### Webinar: Come HSBC sfrutta Adobe [!DNL Target] e l’IA per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
 
-* **[Collegamento di registrazione](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
+* **[Collegamento alla registrazione](https://seminars.adobeconnect.com/ps4ozlg7qfdy/?proto=true).**
 
 +++Fai clic qui
 
@@ -202,5 +202,5 @@ Iscriviti ad Adobe e HSBC per questo webinar per scoprire:
 
 Con l’imminente rimozione di mbox.js il 31 marzo 2021, David Son, Product Manager di Adobe Target, ha recentemente condotto una chat per sviluppatori in cui si parla dei vantaggi della migrazione di mbox.js a at.js.
 
-* **[Collegamento di registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
+* **[Collegamento alla registrazione](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).**
 

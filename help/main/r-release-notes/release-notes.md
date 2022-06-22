@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 7455d680d3ca9ea2fe2a613429f9895b94e79812
 workflow-type: tm+mt
 source-wordcount: '489'
-ht-degree: 84%
+ht-degree: 99%
 
 ---
 
@@ -22,14 +22,14 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **7 giugno**: regione Asia-Pacifico (APAC)
-* **8 giugno**: Regione delle Americhe
-* **9 giugno**: Area Europa, Medio Oriente e Africa (EMEA)
+* **7 giugno**: area geografica Asia Pacifico (APAC)
+* **8 giugno**: area geografica delle Americhe
+* **9 giugno**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato introdotto un miglioramento per il nuovo [!UICONTROL Tipi di pubblico] per evitare uno stato incoerente tra il vecchio database in cui i tipi di pubblico sono stati memorizzati in passato e la nuova architettura che recupera le informazioni direttamente dal back-end. (TGT-43552)
-* È stato risolto un problema che impediva ad alcuni clienti di salvare il pubblico combinato causato dalla creazione di contenitori &quot;vuoti&quot; da parte dell’interfaccia utente di Target. (TGT-43588)
+* È stato introdotto un miglioramento per la nuova pagina [!UICONTROL Tipi di pubblico] per evitare uno stato di mancata coerenza tra il vecchio database, in cui erano precedentemente archiviati i tipi di pubblico, e la nuova architettura, che recupera le informazioni direttamente dal back-end. (TGT-43552)
+* È stato risolto un problema che impediva ad alcuni clienti di salvare i tipi di pubblico combinati a causa dell’interfaccia di Target che creava contenitori “vuoti”. (TGT-43588)
 
 ## Versione della piattaforma di destinazione (25 maggio 2022)
 
