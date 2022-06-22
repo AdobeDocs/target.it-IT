@@ -5,9 +5,9 @@ title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4506'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -137,7 +137,7 @@ Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nell
 
    Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.  (TNT-33366)
 
-* Utilizzando le versioni at.js precedenti alla 2.2.0, il tracciamento dei clic non segnala le conversioni in [!UICONTROL Analytics for Target] (A4T) se [!DNL Adobe Analytics] il codice non è presente negli elementi della pagina (ad esempio nei pulsanti).
+* Utilizzando le versioni at.js precedenti alla 2.2.0, il tracciamento dei clic non riporta le conversioni in [!UICONTROL Analytics for Target] (A4T), se il codice di [!DNL Adobe Analytics] non è presente sugli elementi della pagina (come i pulsanti).
 
    Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
 
@@ -145,11 +145,11 @@ Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nell
 
 Il 10 maggio 2020 Adobe ha aggiornato i file del provider GEO, il che ha introdotto alcune incongruenze. Ad esempio, sono stati aggiunti alcuni valori contenenti virgole benché i valori nei tipi di pubblico esistenti non avessero una virgola. Questa modifica non ha interessato tutti i server di consegna Adobe. Di conseguenza, i tipi di pubblico che utilizzano tali valori potrebbero non aver qualificato tutti i visitatori corretti tra il 10 maggio e il 22 luglio 2020.
 
-### Copia di un [!UICONTROL Recommendations] attività
+### Copia di un’attività [!UICONTROL Recommendations]
 
-Durante la copia di un [!UICONTROL Recommendations] attività con una promozione attiva, qualsiasi modifica nell’attività duplicata influisce attualmente anche sull’attività originale, e viceversa. (TGT-39155)
+Quando si copia un’attività [!UICONTROL Recommendations] con una promozione attiva, eventuali modifiche apportate all’attività duplicata al momento hanno un impatto anche sull’attività originale e viceversa. (TGT-39155)
 
-Questo problema è stato risolto nel [!DNL Target Standard/Premium] Versione 21.2.1.
+Questo problema è stato risolto con la versione 21.2.1 di [!DNL Target Standard/Premium].
 
 ### Modalità di controllo qualità per le attività Consigli
 
