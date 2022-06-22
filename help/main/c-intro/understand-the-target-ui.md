@@ -4,9 +4,9 @@ description: Acquisisci familiarità con l’interfaccia utente e trova collegam
 title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 6df387b22e9ef0ee56649057c37f474a8e4fe128
+source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
 workflow-type: tm+mt
-source-wordcount: '1291'
+source-wordcount: '1313'
 ht-degree: 47%
 
 ---
@@ -115,6 +115,11 @@ Per modificare le preferenze per le notifiche:
    * Condiviso con me: Quando qualcuno condivide con te un oggetto.
    * Aggiornamenti sul contenuto: Quando un utente modifica, elimina o commenta un oggetto creato o seguito.
    * Altri:
+
+   >[!NOTE]
+   >
+   >Le uniche categorie di notifica applicabili a &quot;Nuove versioni&quot; e &quot;Aggiornamenti sul contenuto&quot; [!DNL Target]. Le altre categorie si applicano ad altre soluzioni di Adobe.
+
 
 1. Seleziona le categorie a cui vuoi assegnare la priorità alta.
 1. Seleziona le notifiche per le quali desideri visualizzare gli avvisi nel browser.
