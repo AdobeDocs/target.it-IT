@@ -5,9 +5,9 @@ title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Ta
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2854'
+source-wordcount: '2858'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formazione modello**:
 
@@ -126,7 +126,7 @@ La logica dei passaggi di formazione e valutazione del modello è mostrata nel d
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formazione modello**:
 

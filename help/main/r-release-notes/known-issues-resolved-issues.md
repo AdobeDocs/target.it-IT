@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '4520'
-ht-degree: 99%
+source-wordcount: '4524'
+ht-degree: 98%
 
 ---
 
@@ -135,11 +135,11 @@ Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nell
 
    Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza.
 
-   Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.  (TNT-33366)
+   Questo problema è stato corretto in at.js 2.2.0. Eseguire l’aggiornamento a [versione più recente o at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} o utilizza la soluzione alternativa di cui sopra solo per le versioni at.js precedenti alla 2.2.0.  (TNT-33366)
 
 * Utilizzando le versioni at.js precedenti alla 2.2.0, il tracciamento dei clic non riporta le conversioni in [!UICONTROL Analytics for Target] (A4T), se il codice di [!DNL Adobe Analytics] non è presente sugli elementi della pagina (come i pulsanti).
 
-   Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+   Questo problema è stato corretto in at.js 2.2.0. [Aggiorna alla versione più recente di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} se si verifica questo problema.
 
 ### Geotargeting
 

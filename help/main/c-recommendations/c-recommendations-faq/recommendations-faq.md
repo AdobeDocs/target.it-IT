@@ -4,9 +4,9 @@ description: Visualizza un elenco delle domande e risposte più frequenti sulle 
 title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '3133'
+source-wordcount: '3135'
 ht-degree: 99%
 
 ---
@@ -94,7 +94,7 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-L’impostazione [Filtra criteri incompatibili](https://developer.adobe.com/target/implement/recommendations/) di [!DNL Target] consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
+[!DNL Target] ha [Filtra criteri incompatibili](https://developer.adobe.com/target/implement/recommendations/)Impostazione {target=_blank} per controllare il filtro intelligente del selettore dell&#39;algoritmo.
 
 >[!NOTE]
 >

@@ -5,9 +5,9 @@ title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1400'
 ht-degree: 88%
 
 ---
@@ -126,7 +126,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Consulta la sezione [Documentazione API di Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/) per informazioni sull’utilizzo delle API di Consegna e Salva entità .
+Consulta la sezione [Documentazione API di Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} per informazioni sull&#39;utilizzo delle API di Consegna e Salva entità.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 

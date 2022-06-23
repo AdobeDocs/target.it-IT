@@ -4,10 +4,10 @@ description: Scopri come utilizzare le raccolte in Adobe [!DNL Target] Recommend
 title: Come si utilizzano le raccolte nelle attività di Recommendations?
 feature: Recommendations
 exl-id: e62f501b-3521-4456-9ea1-e4b8a2b478c6
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 60%
+source-wordcount: '886'
+ht-degree: 59%
 
 ---
 
@@ -45,7 +45,7 @@ Crea una raccolta per organizzare i prodotti o i contenuti che desideri mostrare
 
    ![Icone al passaggio del mouse: modificare, copiare ed eliminare](/help/main/c-recommendations/c-products/assets/hover-icons.png)
 
-   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Consulta [Impostazioni](https://developer.adobe.com/target/implement/recommendations/) per modificare il gruppo host predefinito.
+   Il “Numero di elementi” segnalato per ogni raccolta nella visualizzazione elenco [!UICONTROL Raccolte] è il numero di prodotti che corrispondono alle regole per tale raccolta all’interno del [gruppo host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Vedi [Impostazioni](https://developer.adobe.com/target/implement/recommendations/){target=_blank} per modificare il gruppo host predefinito.
 
 1. Fai clic su **[!UICONTROL Crea raccolta]**.
 

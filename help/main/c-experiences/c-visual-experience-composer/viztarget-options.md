@@ -4,10 +4,10 @@ description: Esplorare le opzioni disponibili nella [!DNL Adobe Target] [!UICONT
 title: Come si utilizzano i [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
 workflow-type: tm+mt
-source-wordcount: '2928'
-ht-degree: 62%
+source-wordcount: '2932'
+ht-degree: 61%
 
 ---
 
@@ -372,7 +372,7 @@ Annulla le modifiche apportate alle attività durante una sessione di modifica. 
 
 ## Considerazioni {#considerations}
 
-* Se un’offerta contiene contenuti HTML, consulta la sezione su come avviene il rendering di contenuti HTML in at.js, in [Funzionamento di at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/).
+* Se un’offerta contiene contenuto HTML, consulta &quot;Rendering di offerte con contenuto HTML&quot; in [Funzionamento di at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} per ulteriori informazioni.
 
 ## Supporto di elementi personalizzati {#custom}
 
@@ -380,7 +380,7 @@ Il Compositore esperienza visivo supporta [Componenti web](https://developer.moz
 
 >[!NOTE]
 >
->Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) 2.7.0 (o successiva). Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (o versione successiva). Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
 >
 >Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
 
