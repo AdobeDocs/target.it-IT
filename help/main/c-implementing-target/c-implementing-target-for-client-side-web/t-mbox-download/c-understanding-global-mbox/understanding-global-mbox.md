@@ -1,0 +1,30 @@
+---
+keywords: mbox globale;;implementare at.js
+description: Scopri la mbox globale in Adobe Target, un nome utilizzato per fare riferimento alla singola chiamata al server effettuata nella parte superiore di ogni pagina web nel tuo [!DNL Target] implementazione.
+title: Cos'è una mbox globale?
+feature: at.js
+role: Developer
+exl-id: 84d15feb-f5df-4879-ae35-a7f455c1b20f
+source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+workflow-type: tm+mt
+source-wordcount: '222'
+ht-degree: 79%
+
+---
+
+# Comprendere la mbox globale
+
+Informazioni sulla mbox globale, ossia la singola chiamata del server effettuata nella parte superiore di ogni pagina Web nell’implementazione [!DNL Adobe Target].
+
+Per impostazione predefinita, la mbox globale è denominata `target-global-mbox`. Se necessario, puoi rinominarla per il tuo account.
+
+Ci sono varie differenze tra una mbox normale (non globale) e la mbox globale, tra cui:
+
+| Mbox normale | Mbox globale |
+|--- |--- |
+| In una mbox normale in genere i contenuti sono racchiusi con un tag `<DIV>`. | La mbox globale è “vuota” e non racchiude alcun contenuto. |
+| Il contenuto di una sola attività può essere fornito in una mbox normale. | Il contenuto di più attività può essere fornito in una risposta a una mbox globale. |
+
+Se si forniscono più attività tramite la mbox globale o tramite più mbox normali, [!DNL Target] [determina la priorità](/help/main/c-activities/priority.md#concept_1780C11FEA57440499F0047DD6900E0F) in base alla quale le attività vengono fornite a una pagina web.
+
+Dati aggiuntivi a livello di pagina possono essere inviati a [!DNL Target] insieme alla mbox globale utilizzando la funzione `targetPageParams`. Questa procedura è simile alla funzionalità del parametro mbox. Per ulteriori informazioni, consulta [Trasmissione di parametri a una mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
