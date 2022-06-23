@@ -5,10 +5,10 @@ title: In che modo  [!DNL Target]  gestisce le normative sulla privacy e la prot
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: 2dad7d51935cd1550f60218e63277b84ce9088ac
-workflow-type: ht
-source-wordcount: '2209'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '2229'
+ht-degree: 99%
 
 ---
 
@@ -54,7 +54,7 @@ Se hai già affrontato la preparazione per la legge europea sulla privacy (RGPD)
 
 ## Funzionalità opt-in di Adobe [!DNL Target] e [!DNL Adobe Experience Platform] {#section_6F7B53F5E40C4425934627B653E831B0}
 
-[!DNL Target] fornisce supporto per la funzionalità opt-in tramite i tag in [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare la funzione di opt-in in [!DNL Target] at.js, utilizza `targetGlobalSettings` e aggiungi l’impostazione `optinEnabled=true`. In [!DNL Adobe ExperiencePlatform], seleziona “abilita” dall’elenco a discesa [!UICONTROL GDPR Opt-In] (Opt-in RGPD) nella visualizzazione di installazione dell’estensione. Consulta [Implement  [!DNL Target]  using  [!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) (Implementazione di Target utilizzando Adobe Experience Platform) per ulteriori dettagli.
+[!DNL Target] fornisce supporto per la funzionalità opt-in tramite i tag in [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare la funzione di opt-in in [!DNL Target] at.js, utilizza `targetGlobalSettings` e aggiungi l’impostazione `optinEnabled=true`. In [!DNL Adobe ExperiencePlatform], seleziona “abilita” dall’elenco a discesa [!UICONTROL GDPR Opt-In] (Opt-in RGPD) nella visualizzazione di installazione dell’estensione. Consulta [Implement  [!DNL Target]  using  [!DNL Adobe Experience Platform] (Implementazione di Target utilizzando Adobe Experience Platform) per ulteriori dettagli.](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
 
 Il seguente snippet di codice mostra come abilitare l’impostazione `optinEnabled=true`:
 
@@ -132,7 +132,7 @@ Anche i profili dei visitatori di [!DNL Target] che sono stati inattivi per 90 g
 
 | ID utente | Tipo ID dello spazio dei nomi | ID dello spazio dei nomi | Definizione |
 |--- |--- |--- |--- |
-| Experience Cloud ID (ECID) | Standard | 4 | [!UICONTROL Adobe Experience Cloud ID] precedentemente conosciuto come ID visitatore o Experience Cloud ID. È possibile utilizzare l’API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
+| Experience Cloud ID (ECID) | Standard | 4 | [!UICONTROL Adobe Experience Cloud ID] precedentemente conosciuto come ID visitatore o Experience Cloud ID. È possibile utilizzare l&#39;API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
 | ID TnT/ID cookie(TNTID) | Standard | 9 | Identificatore di [!DNL Target] impostato come cookie nel browser del visitatore. È possibile utilizzare l’API JavaScript per individuare questo ID (consulta i dettagli di seguito). |
 | ID di terze parti/ID CRM  (THIRDPARTYID) | Specifico di [!DNL Target] | N/D | Se fornisci a [!DNL Target] il tuo CRM o altre informazioni di identificazione univoche dei tuoi clienti. |
 
@@ -148,7 +148,7 @@ Attualmente, [!DNL Adobe] non offre una soluzione per la gestione dei consensi, 
 
 [!DNL Target] fornisce supporto per la funzionalità opt-in tramite [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. L’utilizzo di [!DNL Adobe Experience Platform] per gestire l’opt-in rappresenta l’approccio consigliato. Esiste un ulteriore controllo granulare in [!DNL Adobe Experience Platform] per nascondere alcuni elementi della pagina prima dell’attivazione di [!DNL Target] che potrebbe essere utile da sfruttare come parte della strategia di consenso.
 
-Per ulteriori informazioni su RGPD, CCPA e [!DNL Adobe Experience Platform], consulta la pagina relativa alla [libreria JavaScript di Adobe Privacy e al RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=it). Inoltre, consulta la sezione precedente *Funzionalità di opt-in di Adobe Target e Adobe Experience Platform*.
+Per ulteriori informazioni su RGPD, CCPA e [!DNL Adobe Experience Platform], consulta la pagina relativa alla [libreria JavaScript di Adobe Privacy e al RGPD](https://experienceleague.adobe.com/docs/experience-platform/privacy/home.html?lang=en). Inoltre, consulta la sezione precedente *Funzionalità di opt-in di Adobe Target e Adobe Experience Platform*.
 
 ### `AdobePrivacy.js` invia informazioni all’API RGPD? {#section_1EB8A2BAAD31474C97C1D455F41DA739}
 
@@ -284,7 +284,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 | Campo | Descrizione |
 |--- |--- |
-| Sample_Parameter | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, è stato caricato un parametro nel profilo di [!DNL Target], utilizzando l’API di aggiornamento del profilo. Per ulteriori informazioni, consulta [Metodi per immettere i dati in [!DNL Target]](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-methods-to-get-data-into-target/methods-to-get-data-into-target.md). |
+| Sample_Parameter | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, è stato caricato un parametro nel profilo di [!DNL Target], utilizzando l’API di aggiornamento del profilo. Per ulteriori informazioni, consulta [Metodi per immettere i dati in [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
 | user.ReturnTimeOfDay | Questo campo standard include l&#39;ora del giorno dell&#39;ultima visita di ritorno dell&#39;utente. |
 | firstSessionStart | Questo campo standard include l&#39;ora del giorno in cui è iniziata la prima sessione dell&#39;utente. |
 | user.sessionCountScript | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, uno script di profilo incrementa il numero di sessioni che il visitatore ha effettuato sul sito del Titolare del trattamento dei dati. Per ulteriori informazioni, consulta [Attributi del profilo](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 ### [!DNL Target] supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/privacy.md#concept_639482A343DB4963A6144378E1D8D7F0).
+Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
 
 ### Devo fare qualcosa per evitare che i miei dati vengano condivisi o venduti a terzi?
 

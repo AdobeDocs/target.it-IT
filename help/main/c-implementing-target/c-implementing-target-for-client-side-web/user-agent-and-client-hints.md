@@ -5,10 +5,10 @@ title: User Agent e Client Hints
 feature: at.js
 role: Developer
 exl-id: 22d29bfe-e022-44b2-913f-c8c32c65bc48
-source-git-commit: c351044163a6fb32ca72fa015724d3b0388c059a
-workflow-type: ht
-source-wordcount: '1332'
-ht-degree: 100%
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+workflow-type: tm+mt
+source-wordcount: '1344'
+ht-degree: 96%
 
 ---
 
@@ -18,7 +18,7 @@ ht-degree: 100%
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo si applicano alla versione [2.9.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) di at.js (o successiva).
+>Le informazioni contenute in questo articolo si applicano alla versione [2.9.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) di at.js (o successiva).
 
 
 Ogni volta che un browser Web effettua una richiesta a un server, incluso nell’intestazione della richiesta, sono presenti informazioni sul browser e sull’ambiente in cui viene eseguito il browser. Fin dai primi giorni di Internet, questi dati sono stati aggregati in una singola stringa denominata user-agent.
@@ -172,7 +172,7 @@ Utilizzo dello script di profilo: `user.clientHint('sec-ch-ua-arch')`
 Entropia: documentazione elevata: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Bitness)Attributo pubblico {target=_blank}: esposto agli utenti tramite script di profilo.
 Utilizzo dello script di profilo: `user.clientHint('sec-ch-ua-bitness')`
 
-#### Sec-CH-UA-Full-Version-List
+#### Sec-CH-UA-Elenco completo delle versioni
 
 Entropia: documentazione elevata: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Full-Version-List)Attributo pubblico {target=_blank}: utilizzo dello script del profilo del browser: `user.clientHint('sec-ch-ua-full-version-list')`
 
@@ -180,11 +180,11 @@ Entropia: documentazione elevata: [https://developer.mozilla.org/en-US/docs/Web/
 
 Entropia: documentazione bassa: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Mobile)Attributo pubblico {target=_blank}: utilizzo script profilo mobile: `user.clientHint('sec-ch-ua-mobile')`
 
-#### Sec-CH-UA-Model
+#### Modello Sec-CH-UA
 
 Entropia: documentazione elevata: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Model)Attributo pubblico {target=_blank}: utilizzo script profilo mobile: `user.clientHint('sec-ch-ua-model')`
 
-#### Sec-CH-UA-Platform
+#### Piattaforma Sec-CH-UA
 
 Entropia: documentazione bassa: [https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/Sec-CH-UA-Platform)Attributo pubblico {target=_blank}: utilizzo dello script del profilo del sistema operativo: `user.clientHint('sec-ch-ua-platform')`
 
@@ -205,4 +205,4 @@ A partire dalla versione at.js 2.9.0, gli User Agent Client Hints vengono raccol
 
 ### SDK lato server
 
-Per ulteriori informazioni su come trasmettere gli Client hints tramite SDK lato server, vedi [Client Hints](https://adobetarget-sdks.gitbook.io/docs/core-principles/audience-targeting#client-hints) {target=_blank} nella documentazione *SDK per Adobe Target*.
+Per ulteriori informazioni su come trasmettere gli hint client tramite SDK lato server, vedi [Suggerimenti client](https://developer.adobe.com/target/implement/server-side/sdk-guides/core-principles/audience-targeting/){target=_blank} in *Targeting del pubblico* in *SDK per Adobe Target* documentazione.

@@ -5,10 +5,10 @@ title: Come Si Configurano Le Autorizzazioni Enterprise?
 feature: Administration & Configuration
 role: Admin
 exl-id: 6494fc86-d2d3-4382-9d2e-63be435ba935
-source-git-commit: 4251832a5983ea8950e54d52df5d27bf395894e0
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 68%
+source-wordcount: '1444'
+ht-degree: 67%
 
 ---
 
@@ -83,7 +83,7 @@ Gli utenti possono fare parte di più aree di lavoro e possono anche avere ruoli
 
 ### Ottieni l&#39;ID dell&#39;area di lavoro {#workspace-id}
 
-Per sfruttare le autorizzazioni Enterprise nelle [API di Target](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md) devi passare l’ID workspace.
+Per sfruttare le autorizzazioni Enterprise nelle [API di Target](https://developer.adobe.com/target/implement/server-side/) devi passare l’ID workspace.
 
 1. In [Adobe Admin Console](https://adminconsole.adobe.com), fai clic sulla scheda [!UICONTROL Prodotti], quindi sul prodotto nel menu a sinistra per visualizzare l’elenco di PLC(workspace).
 1. Fai clic sulla voce PLC(workspace) desiderata, quindi individua l’ID “profiles” nell’URL, come mostrato di seguito.
@@ -158,7 +158,7 @@ Per utilizzare [!DNL Target] funzionalità di autorizzazione utente, è necessar
       </script>
       ```
 
-      Per ulteriori informazioni su come eseguire questa procedura con at.js, consulta [targetPageParamsAll](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetpageparamsall.md).
+      Per ulteriori informazioni su come eseguire questa procedura con at.js, consulta [targetPageParamsAll](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparamsall/).
 
 ## Passaggio 6: Specificare ruoli e autorizzazioni {#section_8C425E43E5DD4111BBFC734A2B7ABC80}
 

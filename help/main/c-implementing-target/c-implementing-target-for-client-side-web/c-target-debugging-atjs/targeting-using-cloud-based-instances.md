@@ -5,10 +5,10 @@ title: Posso usare [!DNL Target] con istanze basate su cloud?
 feature: at.js
 role: Developer
 exl-id: 220371a9-ba57-4e67-b82f-8fec6f9d2833
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '167'
-ht-degree: 70%
+source-wordcount: '175'
+ht-degree: 67%
 
 ---
 
@@ -26,4 +26,4 @@ Questi domini, e molti altri, fanno parte dell’[elenco dei suffissi pubblici](
 
 La [!DNL at.js] La libreria JavaScript utilizza i cookie per tenere traccia degli utenti e garantire che [!DNL Target] presenta sempre un’esperienza coerente. Se la [!DNL Target] La libreria JavaScript non può salvare i cookie, [!DNL Target] le richieste sono disabilitate.
 
-**Soluzione:** come best practice, se vuoi utilizzare istanze basate su cloud con domini inclusi nellʼelenco dei suffissi pubblici, personalizza lʼimpostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md).
+**Soluzione:** come best practice, se vuoi utilizzare istanze basate su cloud con domini inclusi nellʼelenco dei suffissi pubblici, personalizza lʼimpostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).

@@ -5,10 +5,10 @@ title: Come posso passare da API legacy ad Adobe I/O?
 feature: Implement Server-side
 role: Developer
 exl-id: 4b4274a9-b91a-4a79-9b40-8b1909a2d1d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 83%
+source-wordcount: '608'
+ht-degree: 82%
 
 ---
 
@@ -18,7 +18,7 @@ Informazioni sulla transizione dalle API legacy di Target alle nuove API su Adob
 
 Con il ritiro di Adobe Target Classic, le API che sono connesse al tuo account Target Classic sono state rese non disponibili. Questo documento è utile per effettuare la transizione dalle API legacy di Target alle nuove API su Adobe I/O.
 
-Per ulteriori informazioni sulla documentazione API di Target, vedi [API di Target e SDK di NodeJS](/help/main/c-implementing-target/c-api-and-sdk-overview/api-and-sdk-overview.md#concept_5718EC1FF2ED4436935D0BCCD7AA29A6).
+Per ulteriori informazioni sulla documentazione API di Target, vedi [API di Target e SDK di NodeJS](https://developer.adobe.com/target/implement/server-side/).
 
 ## Terminologia  {#section_D8286EDAE3B24D208DA432AEF2E88FD9}
 

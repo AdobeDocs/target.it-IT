@@ -4,16 +4,16 @@ description: Segui i passaggi necessari per implementare Analytics per [!DNL Tar
 title: Come si implementa Analytics per [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1142'
-ht-degree: 24%
+source-wordcount: '1153'
+ht-degree: 25%
 
 ---
 
 # Implementazione di Analytics per [!DNL Target]
 
-Sono necessari diversi passaggi per implementare [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T). Il processo varia a seconda che implementi A4T con [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html) o con at.js.
+Sono necessari diversi passaggi per implementare [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!DNL Adobe Target] (A4T). Il processo varia a seconda che implementi A4T con [[!DNL Adobe Experience Platform Web SDK]](https://experienceleague.adobe.com/docs/experience-platform/edge/home.html?lang=it) o con at.js.
 
 ## ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) Passaggi per l’implementazione di un’implementazione Adobe Experience Platform Web SDK {#platform}
 
@@ -33,7 +33,7 @@ Creare una configurazione Edge utilizzando [!DNL Adobe Experience Platform] medi
 
 ### Passaggio 4: Installare e configurare l’SDK per web di Platform
 
-Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di tracciamento e di analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
+Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
 
 ### Passaggio 5: Abilitare le opzioni per l’utilizzo di A4T
 
@@ -116,9 +116,9 @@ Questa configurazione ha un effetto globale, il che significa che ogni chiamata 
 }
 ```
 
-Il payload può quindi essere inoltrato ad Analytics tramite il [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività di Allocazione automatica e Targeting automatico, devi anche inoltrare l’ID sessione. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://adobetarget-sdks.gitbook.io/docs/integration-with-experience-cloud/analytics-for-target-a4t-reporting) in *SDK per Adobe Target* guida.
+Il payload può quindi essere inoltrato ad Analytics tramite il [API di inserimento dati](https://helpx.adobe.com/analytics/kb/data-insertion-api-post-method-adobe-analytics.html). Per le attività di Allocazione automatica e Targeting automatico, devi anche inoltrare l’ID sessione. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/) in *SDK per Adobe Target* guida.
 
-Se non desideri usare un’impostazione globale e preferisci un approccio più on-demand, utilizza la funzione at.js [getOffers()](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/adobe-target-getoffers-atjs-2.md) di passaggio **analyticsLogging: &quot;client_side&quot;**. Il payload di Analytics viene restituito solo per questa chiamata e il [!DNL Target] il backend non inoltra il payload a [!DNL Analytics]. Con questo approccio, ogni at.js [!DNL Target] La richiesta restituisce il payload per impostazione predefinita, ma solo se desiderato e specificato.
+Se non desideri usare un’impostazione globale e preferisci un approccio più on-demand, utilizza la funzione at.js [getOffers()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/) di passaggio **analyticsLogging: &quot;client_side&quot;**. Il payload di Analytics viene restituito solo per questa chiamata e il [!DNL Target] il backend non inoltra il payload a [!DNL Analytics]. Con questo approccio, ogni at.js [!DNL Target] La richiesta restituisce il payload per impostazione predefinita, ma solo se desiderato e specificato.
 
 Ad esempio:
 

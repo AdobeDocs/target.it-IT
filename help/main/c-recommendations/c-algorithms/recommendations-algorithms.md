@@ -5,9 +5,9 @@ title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Ta
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2839'
+source-wordcount: '2854'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](/help/main/c-recommendations/plan-implement.md#pass-behavioral) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formazione modello**:
 
@@ -88,7 +88,7 @@ Anche se il modello di distribuzione e la distribuzione dei contenuti di [!DNL T
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite [Feed catalogo, API Entità o da aggiornamenti su pagina](/help/main/c-recommendations/plan-implement.md#rec-catalog).
+* **Dati di input**: Come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite [Feed catalogo, API Entità o da aggiornamenti su pagina](https://developer.adobe.com/target/implement/recommendations/).
 
 * **Formazione modello**:
 
@@ -126,7 +126,7 @@ La logica dei passaggi di formazione e valutazione del modello è mostrata nel d
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](/help/main/c-recommendations/plan-implement.md#pass-behavioral) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
+* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/) o [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md).
 
 * **Formazione modello**:
 

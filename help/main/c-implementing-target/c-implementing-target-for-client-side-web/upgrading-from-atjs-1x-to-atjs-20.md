@@ -5,10 +5,10 @@ title: Come si effettua l’aggiornamento da at.js versione 1.x alla versione 2.
 feature: at.js
 role: Developer
 exl-id: f5ec6bf1-f38c-4681-a6c1-b862272ee55d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '2821'
-ht-degree: 87%
+source-wordcount: '2874'
+ht-degree: 85%
 
 ---
 
@@ -22,9 +22,9 @@ Di seguito sono riportati alcuni vantaggi dell’utilizzo di at.js 2.*x* che non
 * Migliora enormemente le esperienze degli utenti finali sul sito, in quanto le offerte appaiono immediatamente tramite la cache senza l’implementazione di chiamate al server tradizionali.
 * Una semplice riga di codice e una configurazione per sviluppatori una tantum per consentire agli esperti di marketing di creare ed eseguire attività A/B e XT tramite il Compositore esperienza visivo sull’applicazione a pagina singola.
 
-## Payload JSON di at.js 2.*x* diagrammi di sistema
+## at.js 2.*x* diagrammi di sistema
 
-I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.*x* tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.*x*, consulta [Implementazione di un’applicazione a pagina singola](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/target-atjs-single-page-application.md).
+I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.*x* tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.*x*, consulta [Implementazione di un’applicazione a pagina singola](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
 
 ![Flusso di Target con at.js 2.*x*](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -33,7 +33,7 @@ I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.*x*
 | 1 | La chiamata restituisce l&#39;[!DNL Experience Cloud ID] se l’utente è autenticato; un’altra chiamata sincronizza l’ID cliente. |
 | 2 | La libreria at.js viene caricata in modo sincrono e nasconde il corpo del documento.<br>at.js si carica anche in modo asincrono con un&#39;opzione che nasconde lo snippet implementato sulla pagina. |
 | 3 | Si effettua una richiesta di caricamento della pagina, con tutti i parametri configurati (MCID, SDID e ID cliente). |
-| 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede un pubblico idoneo dalla libreria Pubblico (ad esempio, pubblico condiviso da Adobe Analytics, Audience Manager, ecc.).<br>Gli attributi del cliente vengono inviati all’archivio profili in un processo batch. |
+| 4 | Gli script di profilo vengono eseguiti e quindi inseriti nell’archivio profili. L’archivio richiede un pubblico idoneo dalla libreria Pubblico (ad esempio, pubblico condiviso da Adobe Analytics, Gestione dell&#39;audience, ecc.).<br>Gli attributi del cliente vengono inviati all’archivio profili in un processo batch. |
 | 5 | In base ai parametri di richiesta dell’URL e ai dati di profilo, [!DNL Target] determina le attività ed esperienze da restituire al visitatore per la pagina corrente e le visualizzazioni future. |
 | 6 | Il contenuto di destinazione viene rinviato alla pagina, includendo facoltativamente i valori di profilo per ulteriore personalizzazione.<br>Il contenuto mirato sulla pagina corrente viene mostrato il più rapidamente possibile senza che venga visualizzato momentaneamente il contenuto predefinito.<br>Contenuto mirato per le viste mostrate come risultato delle azioni dell&#39;utente in un’applicazione a pagina singola memorizzata nella cache del browser, in modo da applicarla immediatamente senza una chiamata al server aggiuntiva quando si attivano le viste tramite `triggerView()`. |
 | 7 | I dati Analytics vengono inviati ai server di raccolta dati. |
@@ -54,7 +54,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
 ## Implementare at.js 2.*x* {#deploy-atjs-200}
 
-1. Implementare at.js 2.*x* tramite tag in [[!DNL Adobe Experience Platform]](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) estensione.
+1. Implementare at.js 2.*x* tramite tag in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) estensione.
 
    >[!NOTE]
    >
@@ -62,7 +62,7 @@ Ora, ovunque si implementi `triggerView()` nell’applicazione a pagina singola,
 
    Oppure
 
-   Scarica manualmente at.js 2.*x* utilizzando l’interfaccia utente di Target e implementalo con il [metodo che preferisci](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/how-to-deployatjs.md).
+   Scarica manualmente at.js 2.*x* utilizzando l’interfaccia utente di Target e implementalo con il [metodo che preferisci](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/how-to-deployatjs/).
 
 ## Funzioni at.js obsolete
 
@@ -72,10 +72,10 @@ In at.js 2.*x* sono state rimosse diverse funzioni.
 >
 >Se queste funzioni obsolete sono ancora in uso sul tuo sito quando viene implementato at.js 2.*x*, verranno visualizzati degli avvisi nella console. L’approccio consigliato durante l’aggiornamento consiste nel testare la distribuzione di at.js 2.*x* in un ambiente di verifica, assicurarsi di controllare tutti gli avvisi registrati nella console e tradurre le funzioni obsolete in nuove funzioni introdotte in at.js 2.*x*.
 
-Di seguito puoi trovare le funzioni obsolete e i loro equivalenti. Per un elenco completo delle funzioni, consulta [Funzioni di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/cmp-atjs-functions.md).
+Di seguito puoi trovare le funzioni obsolete e i loro equivalenti. Per un elenco completo delle funzioni, consulta [Funzioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-functions/).
 
 >[!NOTE]
->Payload JSON di at.js 2.*x* non nasconde più preventivamente in automatico `mboxDefault` elementi contrassegnati. I clienti dovranno quindi nasconderli manualmente sul sito o tramite uno strumento di gestione dei tag.
+>at.js 2.*x* non nasconde più preventivamente in automatico `mboxDefault` elementi contrassegnati. I clienti dovranno quindi nasconderli manualmente sul sito o tramite uno strumento di gestione dei tag.
 
 ### mboxCreate(mbox,params)
 
@@ -223,7 +223,7 @@ Sì, il profilo del visitatore è mantenuto su più pagine utilizzando diverse v
 
 ### Nuovo utilizzo dell’API in at.js 2.*x*
 
-Payload JSON di at.js 2.*x utilizza una nuova API, che chiamiamo API Delivery.* Per eseguire il debug se at.js sta chiamando correttamente il server perimetrale [!DNL Target], filtra la scheda Rete degli strumenti per sviluppatori del tuo browser con “delivery”, “`tt.omtrdc.net`” o con il tuo codice client. Noterai inoltre che [!DNL Target] invia un payload JSON invece di coppie chiave-valore.
+at.js 2.*x utilizza una nuova API, che chiamiamo API Delivery.* Per eseguire il debug se at.js sta chiamando correttamente il server perimetrale [!DNL Target], filtra la scheda Rete degli strumenti per sviluppatori del tuo browser con “delivery”, “`tt.omtrdc.net`” o con il tuo codice client. Noterai inoltre che [!DNL Target] invia un payload JSON invece di coppie chiave-valore.
 
 ### Non si utilizza più la Mbox globale di Target
 
@@ -317,7 +317,7 @@ Quando si effettua una chiamata di preacquisizione al backend [!DNL Target], avv
 
 ### Per gestire la visualizzazione temporanea di altri contenuti è necessario aggiungere codice per nasconderli preventivamente prima di richiamare `triggerView()`?
 
-No, non è necessario aggiungere codice per nascondere contenuti preventivamente prima di richiamare `triggerView()`. Payload JSON di at.js 2.*x gestisce la logica relativa ai contenuti nascosti anticipatamente e visualizzati temporaneamente prima di mostrare e applicare la visualizzazione.*
+No, non è necessario aggiungere codice per nascondere contenuti preventivamente prima di richiamare `triggerView()`. at.js 2.*x gestisce la logica relativa ai contenuti nascosti anticipatamente e visualizzati temporaneamente prima di mostrare e applicare la visualizzazione.*
 
 ### Che at.js 1.*x* i parametri per la creazione di tipi di pubblico non sono supportati in at.js 2.*x*? {#audience-parameters}
 
@@ -333,7 +333,7 @@ I seguenti parametri at.js 1.x sono *NOT* attualmente supportato per la creazion
 * devicePixelRatio
 * vst.* parametri ([vedi sotto](#vst))
 
-### Payload JSON di at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.* parametri {#vst}
+### at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.* parametri {#vst}
 
 Clienti su at.js 1.*x* sono stati in grado di usare vst.* Parametri mbox per creare tipi di pubblico. Questo è stato un effetto collaterale non intenzionale di come at.js 1.*x* invia parametri mbox a [!DNL Target] back-end. Dopo la migrazione a at.js 2.*x*, poiché at.js 2 non è più possibile creare tipi di pubblico utilizzando questi parametri.*x* invia i parametri mbox in modo diverso.
 
@@ -365,10 +365,10 @@ Le tabelle seguenti contengono una spiegazione di at.js. 2.*x* compatibilità co
 | Tipi di pubblico | Sì |
 | Attributi del cliente | Sì |
 | Frammenti esperienza AEM | Sì |
-| [!DNL Adobe Experience Platform] estensione | [Sì](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/cmp-implementing-target-using-adobe-launch.md) |
+| [!DNL Adobe Experience Platform] estensione | [Sì](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/) |
 | Strumento di debug | Sì |
 | Auditor | Le regole per at.js 2.*x* non sono ancora state aggiornate |
-| Opt-in | No. Le funzioni Opt-in per i requisiti del regolamento [RGPD](/help/main/c-implementing-target/c-considerations-before-you-implement-target/c-privacy/cmp-privacy-and-general-data-protection-regulation.md) sono supportate in [at.js versione 2.1.0](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md). |
+| Opt-in | No. Le funzioni Opt-in per i requisiti del regolamento [RGPD](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/) sono supportate in [at.js versione 2.1.0](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/). |
 | Personalizzazione avanzata AEM fornita da Adobe Target | No |
 
 ### Funzioni
@@ -408,12 +408,12 @@ Questa sezione delinea le mappature tra at.js 1.*x* e at.js 2.*x*.
 Prima di passare alla mappatura dei parametri, gli endpoint utilizzati da queste versioni della libreria sono cambiati:
 
 * at.js 1.*x* - `http://<client code>.tt.omtrdc.net/m2/<client code>/mbox/json`
-* Payload JSON di at.js 2.*x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
+* at.js 2.*x* - `http://<client code>.tt.omtrdc.net/rest/v1/delivery`
 
 Un’altra differenza significativa è che:
 
 * at.js 1.*x* - Il codice client è parte del percorso
-* Payload JSON di at.js 2.*x* - Il codice client viene inviato come parametro della stringa query, ad esempio:
+* at.js 2.*x* - Il codice client viene inviato come parametro della stringa query, ad esempio:
    `http://<client code>.tt.omtrdc.net/rest/v1/delivery?client=democlient`
 
 Le seguenti sezioni riportano tutte nell’elenco il parametro di at.js 1.*x* , la sua descrizione e il corrispondente 2.*x* Payload JSON (se applicabile):
@@ -762,8 +762,8 @@ La versione viene inviata come parametro della stringa di query tramite il param
 
 ## Video di formazione: at.js 2.*x* diagramma architettonico ![Badge panoramica](/help/main/assets/overview.png)
 
-Payload JSON di at.js 2.*x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud.* Questo video spiega come tutti questo elementi funzionano insieme.
+at.js 2.*x migliora il supporto di Adobe Target per le applicazioni a pagina singola e consente l’integrazione con altre soluzioni Experience Cloud.* Questo video spiega come tutti questo elementi funzionano insieme.
 
 >[!VIDEO](https://video.tv.adobe.com/v/26250)
 
-Vedi [Informazioni su at.js 2.*x* lavori](https://helpx.adobe.com/target/kt/using/atjs20-diagram-technical-video-understand.html) per ulteriori informazioni.
+Vedi [Informazioni su at.js 2.*x* lavori](https://experienceleague.adobe.com/docs/target-learn/tutorials/implementation/understanding-how-atjs-20-works.html?lang=it) per ulteriori informazioni.

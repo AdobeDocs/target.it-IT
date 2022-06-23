@@ -5,10 +5,10 @@ title: Come inserire i dati in [!DNL Target] Utilizzo dei parametri di pagina
 feature: Implementation
 role: Developer
 exl-id: a285eadc-b71e-49a8-9071-397ada283baf
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '372'
-ht-degree: 45%
+source-wordcount: '385'
+ht-degree: 44%
 
 ---
 
@@ -69,8 +69,8 @@ targetPageParams (aggiunge i parametri alla MBOX globale nella pagina):
 
 ## Link a informazioni rilevanti
 
-Consigli: [Implementazione in base al tipo di pagina](/help/main/c-recommendations/plan-implement.md#reference_DE38BB07BD3C4511B176CDAB45E126FC)
+Consigli: [Implementazione in base al tipo di pagina](https://developer.adobe.com/target/implement/recommendations/)
 
-Conferma ordine: [Tracciare le conversioni](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/how-to-deployatjs/implementing-target-without-a-tag-manager.md#task_E85D2F64FEB84201A594F2288FABF053)
+Conferma ordine: [Tracciare le conversioni](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/)
 
 Affinità tra categorie: [Affinità tra categorie](/help/main/c-target/c-visitor-profile/category-affinity.md#concept_75EC1E1123014448B8B92AD16B2D72CC)

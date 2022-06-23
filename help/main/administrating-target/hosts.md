@@ -5,9 +5,9 @@ title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 22%
 
 ---
@@ -86,7 +86,7 @@ Se [!DNL Target] la richiesta viene effettuata su un host non autorizzato, la ch
 
 >[!IMPORTANT]
 >
->**Best practice sulla sicurezza**: Se utilizzi la funzionalità ubox di [!DNL Target], questo inserire nell&#39;elenco Consentiti controlla anche l’elenco dei domini a cui il tuo [redirector](/help/main/c-implementing-target/c-non-javascript-based-implementation/working-with-redirectors.md) può navigare. Assicurati di aggiungere eventuali domini a cui desideri reindirizzare quando utilizzi ubox come parte della tua implementazione. Se l&#39;inserire nell&#39;elenco Consentiti viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
+>**Best practice sulla sicurezza**: Se utilizzi la funzionalità ubox di [!DNL Target], questo inserire nell&#39;elenco Consentiti controlla anche l’elenco dei domini a cui il tuo [redirector](https://developer.adobe.com/target/implement/email/working-with-redirectors/) può navigare. Assicurati di aggiungere eventuali domini a cui desideri reindirizzare quando utilizzi ubox come parte della tua implementazione. Se l&#39;inserire nell&#39;elenco Consentiti viene lasciato non specificato, [!DNL Adobe] non è in grado di verificare gli URL di reindirizzamento e di proteggerli da potenziali reindirizzamenti dannosi.
 >
 >L&#39;inserire nell&#39;elenco Consentiti ha la precedenza sugli ambienti. Elimina tutti gli host prima di utilizzare la funzione di inserire nell&#39;elenco Consentiti, nell’elenco degli host vengono visualizzati solo gli host consentiti dall’inserire nell&#39;elenco Consentiti. A questo punto puoi spostare gli host nell’ambiente desiderato.
 
@@ -125,6 +125,6 @@ Se si verificano problemi con gli host, prova i seguenti suggerimenti di risoluz
 
 Un dominio viene visualizzato in questo elenco se si richiede a [!DNL Target] è creato dal dominio . Spesso, è possibile vedere domini da motori spider, siti di traduzione linguistica o unità disco locali. Se il dominio elencato non è tra quelli utilizzati dal team, è possibile fare clic su [!UICONTROL Elimina] per rimuoverlo.
 
-**My [!DNL Target] La richiesta restituisce /* no display - unauthorized mbox host */.**
+**My [!DNL Target] richiesta restituisce /&#42; no display - host mbox non autorizzati &#42;/.**
 
-Se [!DNL Target] La richiesta viene effettuata su un host non autorizzato, la richiesta risponde con /* no display - unauthorized mbox host */.
+Se [!DNL Target] La richiesta viene effettuata su un host non autorizzato, la richiesta risponde con /&#42; no display - host mbox non autorizzati &#42;/.

@@ -4,10 +4,10 @@ description: Acquisisci familiarità con l’interfaccia utente e trova collegam
 title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 417ed843cd3c9f2598a569f673c8b8515bc90464
+source-git-commit: 3a180f083436b88cdf5953a1d5c6d590a9b2613a
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 47%
+source-wordcount: '1373'
+ht-degree: 45%
 
 ---
 
@@ -92,7 +92,9 @@ Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configu
    * `Feed {target.feed.name} has been deactivated`
    * `Feed {target.feed.name} has failed to import from source`
 
-Puoi contrassegnare tutte le notifiche come notifiche di lettura o visualizzare tutte le notifiche nella parte inferiore del pannello.
+Puoi contrassegnare le singole notifiche come lette passando il mouse sulla notifica desiderata e facendo clic sul segno di spunta. Puoi contrassegnare tutte le notifiche come di lettura o visualizzare tutte le notifiche facendo clic su [!UICONTROL &quot;Segna come letto&quot;] o [!UICONTROL &quot;Visualizza tutto&quot;] nella parte inferiore del pannello.
+
+Puoi anche impostare un promemoria per ricevere nuovamente una notifica passando il mouse su una notifica e facendo clic su &quot;[!UICONTROL Ricordami]&quot;, quindi seleziona quando desideri ricevere una notifica: 5 minuti, 15 minuti, un&#39;ora o domani.
 
 ### Annunci
 

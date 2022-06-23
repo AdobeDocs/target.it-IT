@@ -4,9 +4,9 @@ description: Scopri come eseguire il targeting dei visitatori utilizzando [!DNL 
 title: Posso indirizzare i visitatori in base alle pagine del sito?
 feature: Audiences
 exl-id: 4c770b7b-775f-4483-aced-43f18a9a68c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '883'
+source-wordcount: '891'
 ht-degree: 21%
 
 ---
@@ -127,7 +127,7 @@ Utilizza:
 
    Se questo comportamento non soddisfa le tue esigenze, considera l&#39;esecuzione di una delle seguenti azioni:
 
-   * Pass [Parametri mbox](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/t-mbox-download/c-understanding-global-mbox/pass-parameters-to-global-mbox.md) a [!DNL Target] da utilizzare a scopo di targeting.
+   * Pass [Parametri mbox](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/) a [!DNL Target] da utilizzare a scopo di targeting.
    * Utilizza un [Attività Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) anziché un’attività della pagina di destinazione. Le attività di test A/B non cambiano le esperienze per lo stesso visitatore.
    * Utilizza un [profilo visitatore](/help/main/c-target/c-audiences/c-target-rules/visitor-profile.md) invece.
 

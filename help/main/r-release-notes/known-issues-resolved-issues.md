@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a72dab23ce3fc6ac415ec6c75358fb119d2802ce
-workflow-type: ht
-source-wordcount: '4506'
-ht-degree: 100%
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+workflow-type: tm+mt
+source-wordcount: '4520'
+ht-degree: 99%
 
 ---
 
@@ -135,11 +135,11 @@ Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nell
 
    Come soluzione alternativa, inserisci uno spazio vuoto nel contenuto dell’esperienza.
 
-   Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.  (TNT-33366)
+   Questo problema è stato corretto in at.js 2.2.0. Esegui l’aggiornamento all’[ultima versione di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/) oppure, solo per le versioni di at.js precedenti alla 2.2.0, utilizza la soluzione alternativa indicata qui sopra.  (TNT-33366)
 
 * Utilizzando le versioni at.js precedenti alla 2.2.0, il tracciamento dei clic non riporta le conversioni in [!UICONTROL Analytics for Target] (A4T), se il codice di [!DNL Adobe Analytics] non è presente sugli elementi della pagina (come i pulsanti).
 
-   Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/target-atjs-versions.md).
+   Questo problema è stato corretto in at.js 2.2.0. Se riscontri questo problema, [effettua l’aggiornamento all’ultima versione di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
 
 ### Geotargeting
 

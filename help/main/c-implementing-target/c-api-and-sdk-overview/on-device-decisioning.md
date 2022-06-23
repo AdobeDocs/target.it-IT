@@ -5,10 +5,10 @@ title: Cos’è On-Device Decisioning?
 feature: Implement Server-side
 role: Developer
 exl-id: ae782511-6f32-4123-be76-838584e05b39
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '693'
-ht-degree: 10%
+source-wordcount: '700'
+ht-degree: 9%
 
 ---
 
@@ -16,7 +16,10 @@ ht-degree: 10%
 
 Le decisioni sul dispositivo consentono di memorizzare nella cache [!DNL Adobe Target] [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) attività sul server ed esegui decisioni in memoria a latenza vicina a zero, senza bloccare le richieste di rete al [!DNL Adobe Target] Rete Edge.
 
-Per ulteriori informazioni, consulta [Introduzione alle decisioni sul dispositivo](https://adobetarget-sdks.gitbook.io/docs/on-device-decisioning/introduction-to-on-device-decisioning) in *[Documentazione degli SDK per Adobe Target](https://adobetarget-sdks.gitbook.io/docs/)*.
+Per ulteriori informazioni, consulta gli argomenti:
+
+* [Decisioni sul dispositivo per lato client](https://developer.adobe.com/target/implement/client-side/){target=_blank}
+* [Decisioni sul dispositivo per lato server](https://developer.adobe.com/target/implement/server-side/sdk-guides/on-device-decisioning/){target=_blank}
 
 ## Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 

@@ -5,9 +5,9 @@ title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: f818125aa493be50da52f03fbbeccd1479c1193a
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '3149'
+source-wordcount: '3150'
 ht-degree: 59%
 
 ---
@@ -251,7 +251,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 
    In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
 
-* La funzionalità Autorizzazioni Enterprise non è supportata nelle [chiamate API di Adobe I/O](https://developers.adobetarget.com).
+* La funzionalità Autorizzazioni Enterprise non è supportata nelle [chiamate API di Adobe I/O](https://developer.adobe.com/target/).
 
 ## Domande frequenti  {#faqs}
 
@@ -263,7 +263,7 @@ Sfortunatamente non è possibile spostare le attività da un&#39;area di lavoro 
 
 Le attività create prima della migrazione continuano a essere eseguite nello stesso modo nell&#39;area di lavoro predefinita, a meno che non siano proprietà modificate e assegnate. Le attività in un’area di lavoro specifica rispettano le proprietà assegnate a quell’area di lavoro e, pertanto, il comportamento potrebbe non rimanere lo stesso di prima della migrazione.
 
-### Posso spostare un pubblico da un&#39;area di lavoro a un&#39;altra? {#move-audience}
+### È possibile spostare un pubblico da un’area di lavoro a un’altra? {#move-audience}
 
 Sì, puoi spostare i tipi di pubblico tra le aree di lavoro utilizzando [!UICONTROL Altre azioni] l&#39;opzione [!UICONTROL Tipi di pubblico] pagina.
 

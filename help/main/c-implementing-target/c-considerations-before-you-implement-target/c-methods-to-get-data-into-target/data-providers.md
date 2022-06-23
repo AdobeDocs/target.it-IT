@@ -5,10 +5,10 @@ title: Come inserire i dati in [!DNL Target] Utilizzo di Fornitori di dati?
 feature: Implementation
 role: Developer
 exl-id: 05fe9190-4d36-43e2-9fc7-c354a6821bfb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '298'
-ht-degree: 67%
+source-wordcount: '322'
+ht-degree: 62%
 
 ---
 
@@ -22,7 +22,7 @@ Nota: I provider di dati richiedono at.js 1.3 o versione successiva.
 
 L&#39;impostazione `window.targetGlobalSettings.dataProviders` è un array dei fornitori di dati.
 
-Per ulteriori informazioni sulla struttura di ciascun fornitore di dati, vedi [Fornitori di dati](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Per ulteriori informazioni sulla struttura di ciascun fornitore di dati, vedi [Fornitori di dati](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Esempi di casi d’uso
 
@@ -44,11 +44,11 @@ at.js non cerca di memorizzare i dati nella cache. Se il fornitore di dati recup
 
 ## Esempi di codice
 
-Diversi esempi sono disponibili in [Fornitori di dati](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers).
+Diversi esempi sono disponibili in [Fornitori di dati](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
 
 ## Link a informazioni rilevanti
 
-Documentazione: [Fornitori di dati](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/targetgobalsettings.md#data-providers)
+Documentazione: [Fornitori di dati](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/)
 
 ## Video di formazione:
 

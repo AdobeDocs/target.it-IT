@@ -5,10 +5,10 @@ title: Cosa Devo Sapere Prima Di Implementare?
 feature: Implementation
 role: Developer
 exl-id: e05394f3-fe81-47ee-9f7f-b73a6f9946b3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '116'
-ht-degree: 69%
+source-wordcount: '159'
+ht-degree: 50%
 
 ---
 
@@ -22,11 +22,11 @@ Questa sezione include informazioni specifiche che gli sviluppatori devono racco
 >
 >Modifiche a at.js o [!DNL Adobe Experience Platform Web SDK] non sono supportati dall’Assistenza clienti di Adobe.
 
-- [Preparare l’implementazione di Target](prepare-to-implement-target.md)
-- [Privacy](c-privacy/privacy.md)
-- [Metodi per immettere i dati in Target](c-methods-to-get-data-into-target/methods-to-get-data-into-target.md)
-- [Target panoramica sulla sicurezza](target-security-overview.md)
-- [Browser supportati](supported-browsers.md)
-- [Modifiche alla crittografia di TLS (Transport Layer Security)](tls-transport-layer-security-encryption.md)
-- [CNAME e Adobe Target](implement-cname-support-in-target.md)
-- [Elenco consentiti nodi edge di Target](/help/main/c-implementing-target/c-considerations-before-you-implement-target/allowlist-edges.md)
+- [Preparare l’implementazione di Target](https://developer.adobe.com/target/before-implement/prepare-to-implement-target/)
+- [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/)
+- [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
+- [Panoramica sulla sicurezza di Target](https://developer.adobe.com/target/before-implement/target-security-overview/)
+- [Browser supportati](https://developer.adobe.com/target/before-implement/supported-browsers/)
+- [Modifiche alla crittografia di TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/)
+- [CNAME e Adobe Target](https://developer.adobe.com/target/before-implement/implement-cname-support-in-target/)
+- [Inserisci nell’elenco Consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/)

@@ -4,10 +4,10 @@ description: Scopri come integrare le e-mail con le API di consegna di Adobe [!D
 title: Come posso integrare Consigli con l’e-mail?
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 100%
+source-wordcount: '1713'
+ht-degree: 99%
 
 ---
 
@@ -77,7 +77,7 @@ Dove `clientcode` è il codice del client [!DNL Target].
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://developers.adobetarget.com/api/#server-side-delivery).
+Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://developer.adobe.com/target/implement/delivery-api/).
 
 ## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 

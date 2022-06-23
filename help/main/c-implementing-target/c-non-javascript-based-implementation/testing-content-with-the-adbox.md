@@ -5,10 +5,10 @@ title: Come si crea un AdBox per un'immagine?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
 workflow-type: tm+mt
-source-wordcount: '327'
-ht-degree: 72%
+source-wordcount: '337'
+ht-degree: 70%
 
 ---
 
@@ -18,7 +18,7 @@ Utilizza un AdBox per distribuire immagini in un&#39;implementazione off-site ut
 
 Un AdBox è come una mbox, ma è controllato da un URL piuttosto che da JavaScript. Gli AdBox sono creati con un URL AdBox speciale che carica una mbox di tipo annuncio (o AdBox) nel tuo account Adobe. Utilizza questo AdBox al posto della mbox nelle tue attività. Utilizza l&#39;URL AdBox anziché un riferimento diretto all&#39;immagine in email o altre implementazioni non JavaScript.
 
-Per capire come selezionare la configurazione giusta vedi [Implementazioni non basate su JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4).
+Per capire come selezionare la configurazione giusta vedi [Implementazioni non basate su JavaScript](https://developer.adobe.com/target/implement/email/).
 
 1. Crea l&#39;URL AdBox:
 
@@ -48,7 +48,7 @@ Per capire come selezionare la configurazione giusta vedi [Implementazioni non b
 
 1. Crea l&#39;attività.
 
-   Consulta [Implementazioni non basate su JavaScript](/help/main/c-implementing-target/c-non-javascript-based-implementation/non-javascript-based-implementation.md#concept_4799C58B081A43F6B3B8CC25A8D5D7C4) per l’installazione che permette di raggiungere gli obbiettivi.
+   Consulta [Implementazioni non basate su JavaScript](https://developer.adobe.com/target/implement/email/) per l’installazione che permette di raggiungere gli obbiettivi.
 1. Domande e risposte complete sull&#39;attività.
 
    Come best practice, crea una pagina fittizia e verifica che tutte le esperienze, il contenuto predefinito e i rapporti agiscano come previsto su tutti i tipi di browser, per tutti gli ambienti.
