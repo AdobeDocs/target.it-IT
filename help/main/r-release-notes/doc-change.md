@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '1050'
-ht-degree: 88%
+source-wordcount: '1097'
+ht-degree: 84%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 24 giugno | [Portale guida per sviluppatori di Adobe Target](https://developer-stage.adobe.com/target/){target=_blank} | Avviato il *Guida per gli sviluppatori di Adobe Target* portale per consolidare tutti [!DNL Target] contenuti per sviluppatori in un unico comodo portale. Il portale include informazioni sull&#39;implementazione [!DNL Target] e [!DNL Recommendations], [!DNL Target] SDK e [!DNL Target] API. |
+|  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per [!DNL Target Standard/Premium] Versione 22.6.2. |
 | 14 giugno | [Pianificare e implementare Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Sono stati aggiornati gli esempi di codice nelle sezioni seguenti:<ul><li>Aggiunte/visualizzazioni carrello/pagine di pagamento</li><li>Escludere gli elementi già presenti nel carrello del visitatore</li></ul> |
 | 7 giugno | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione per [!DNL Target Standard/Premium] Versione 22.6.1. |
 

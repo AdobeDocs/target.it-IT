@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 49517f858b39a70df7643125e703f31bf45b7336
 workflow-type: tm+mt
-source-wordcount: '516'
-ht-degree: 91%
+source-wordcount: '589'
+ht-degree: 84%
 
 ---
 
@@ -17,6 +17,14 @@ ht-degree: 91%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target Standard/Premium] 22.6.2 (24 giugno 2022)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* Gli utenti con il ruolo di [!UICONTROL editor] non possono più modificare i tipi di pubblico nelle attività live. (TGT-43582)
+* Se un cliente tenta di salvare un pubblico con un punto esclamativo ( ! ) come primo carattere del nome del pubblico (ad esempio !Londra). (TGT-43643)
+* È stato risolto un problema a causa del quale alcune schede dei dettagli di definizione del pubblico per alcuni clienti indicavano che un’attività terminata è ancora in esecuzione. (TGT-43527)
 
 ## [!DNL Target Standard/Premium] 22.6.1 (versione scaglionata: (7-9 giugno 2022)
 
