@@ -1,17 +1,17 @@
 ---
 keywords: Target;home;argomenti popolari;adobe target;target standard;target premium;documentazione target;documentazione adobe target;home
-title: Dove posso trovare la documentazione di  [!DNL Target] ?
+title: Guida dei professionisti di Adobe Target
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: f8c5492d001166c054752d9577bb6b9ddc846e48
 workflow-type: tm+mt
-source-wordcount: '524'
-ht-degree: 90%
+source-wordcount: '528'
+ht-degree: 88%
 
 ---
 
-# [!DNL Adobe Target] Guida
+# Guida dei professionisti di Adobe Target
 
 ![banner](assets/target-home-banner-simple.png)
 
