@@ -4,10 +4,10 @@ description: 'Scopri come specificare un server di tracciamento di Analytics per
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '695'
-ht-degree: 26%
+source-wordcount: '697'
+ht-degree: 25%
 
 ---
 
@@ -19,7 +19,7 @@ Se utilizzi una versione precedente di at.js, devi specificare un server di trac
 >
 >Se utilizzi la versione 0.9.1 (o successiva) di at.js, non devi specificare un server di tracciamento durante la creazione dell’attività. La libreria at.js invia automaticamente i valori del server di tracciamento a [!DNL Target]. Durante la creazione di attività, puoi lasciare vuoto il campo [!UICONTROL Server di monitoraggio] nella pagina [!UICONTROL Obiettivi e impostazioni].
 >
->La [!DNL Target] Il team supporta sia at.js 1 che at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli della versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+>La [!DNL Target] Il team supporta sia at.js 1 che at.js 1.*x* e at.js 2.*x*. Esegui l’aggiornamento più recente di una delle versioni principali di at.js per assicurarti di eseguire una versione supportata. Per ulteriori informazioni, consulta [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 Per garantire che i dati [!DNL Target] passa alla posizione corretta in [!DNL Analytics], A4T richiede l’invio di un server di tracciamento Analytics in tutte le chiamate a Modstats da [!DNL Target]. Per le implementazioni che utilizzano più server di tracciamento, utilizza il [!DNL Adobe Experience Platform Debugger] o gli Strumenti per sviluppatori del browser per determinare il server di tracciamento corretto per l&#39;attività.
 

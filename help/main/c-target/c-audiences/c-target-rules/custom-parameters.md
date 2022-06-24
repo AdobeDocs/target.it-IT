@@ -4,10 +4,10 @@ description: Scopri come trasmettere parametri personalizzati a [!DNL Adobe Targ
 title: Posso indirizzare i visitatori in base a parametri personalizzati?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '467'
-ht-degree: 41%
+source-wordcount: '469'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 41%
 
 I parametri personalizzati sono parametri mbox in [!DNL Adobe Target]. Se trasmetti parametri mbox a mbox o utilizza la `targetPageParams` tali parametri vengono visualizzati qui per l&#39;utilizzo in audience.
 
-Per ulteriori informazioni, consulta [Trasmettere parametri a una mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Per ulteriori informazioni, consulta [Trasmettere parametri a una mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 Durante la creazione di un pubblico personalizzato basato su un parametro mbox, `mboxParameter` non richiede più di specificare `mboxName`. Il nome dell’elemento mbox è ora facoltativo. Questa modifica consente di utilizzare parametri da più elementi mbox o di fare riferimento a un parametro che non è ancora stato registrato nella rete Edge.
 

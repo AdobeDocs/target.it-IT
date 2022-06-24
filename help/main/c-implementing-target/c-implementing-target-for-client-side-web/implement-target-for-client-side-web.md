@@ -5,9 +5,9 @@ title: Come si implementa [!DNL Target] per web lato client
 feature: at.js
 role: Developer
 exl-id: 34c1e39b-acae-4547-b67f-584bcd59913f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '253'
 ht-degree: 27%
 
 ---
@@ -24,7 +24,7 @@ Implementazione [!DNL Adobe Target] lato client, è necessario utilizzare una de
 
 * [Libreria JavaScript at.js di Target](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
 
-   La libreria JavaScript at.js migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. Se scegli di eseguire la migrazione a at.js, consulta [Funzionamento di at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} e [Generatore di competenze Adobe Target: Sviluppatore chat, migrazione di Adobe Target mbox.js in at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true).
+   La libreria JavaScript at.js migliora i tempi di caricamento delle pagine per le implementazioni web, migliora la sicurezza e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. Se scegli di eseguire la migrazione a at.js, consulta [Funzionamento di at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} e [Generatore di competenze Adobe Target: Sviluppatore chat, migrazione di Adobe Target mbox.js in at.js](https://seminars.adobeconnect.com/ptdo6mfo6qn6/?proto=true){target=_blank}.
 
 
 

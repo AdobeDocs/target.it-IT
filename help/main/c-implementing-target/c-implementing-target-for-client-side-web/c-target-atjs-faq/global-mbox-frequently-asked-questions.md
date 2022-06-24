@@ -5,10 +5,10 @@ title: Quali sono le domande frequenti sulla mbox globale?
 feature: at.js
 role: Developer
 exl-id: ec8399df-5222-44bd-9e61-dfce8fd1694d
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '318'
-ht-degree: 64%
+source-wordcount: '322'
+ht-degree: 60%
 
 ---
 
@@ -22,7 +22,7 @@ L&#39;account supporta un&#39;unica mbox globale.
 
 Puoi definire un limite per l&#39;esecuzione delle attività aggiungendo a queste delle regole URL. Per ulteriori informazioni, consulta [Includere la stessa esperienza in pagine simili](/help/main/c-experiences/c-visual-experience-composer/temtest.md#task_2539D51A18044F82B0D9895636546781).
 
-Puoi anche trasmettere un parametro sulla pagina utilizzando [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} e quindi seleziona questi parametri nella sezione &quot;configura URL&quot; nella sezione [!UICONTROL Compositore esperienza visivo] (VEC) o aggiungendo i parametri come &quot;perfezionamenti&quot; nel Compositore esperienza basato su moduli.
+Puoi anche trasmettere un parametro sulla pagina utilizzando [targetPageParams](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetpageparams/){target=_blank} e quindi seleziona questi parametri nella sezione &quot;configura URL&quot; nella sezione [!UICONTROL Compositore esperienza visivo] (VEC){target=_blank} o aggiungendo i parametri come &quot;perfezionamenti&quot; nel Compositore esperienza basato su moduli.
 
 ## Come faccio a trasferire i dati dei ricavi a un [!DNL Target] mbox globale? {#section_17AEA933BADA4D169CCEDF5833C41306}
 
@@ -30,7 +30,7 @@ Per raccogliere le informazioni su ricavi e ordini in target-global-mbox, è nec
 
 Per `orderConfirmPage`, è necessario trasmettere `orderTotal`, `orderId` e `productPurchasedId`.
 
-Questi parametri devono essere inviati a target-global-mbox tramite `targetPageParams()`. Per ulteriori informazioni, consulta [Trasmissione di parametri a una mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/).
+Questi parametri devono essere inviati a target-global-mbox tramite `targetPageParams()`. Per ulteriori informazioni, consulta [Trasmissione di parametri a una mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/pass-parameters-to-global-mbox/){target=_blank}.
 
 Può essere utile aggiungere il targeting all’elemento di conversione, in modo che quando viene visualizzata la pagina di conferma vengano conteggiate in Target unicamente le conversioni su target-global-mbox, come mostrato di seguito:
 

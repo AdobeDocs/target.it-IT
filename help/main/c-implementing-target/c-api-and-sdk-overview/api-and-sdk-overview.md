@@ -5,9 +5,9 @@ title: Dove posso saperne di più [!DNL Target] API e SDK di distribuzione lato 
 feature: Implement Server-side
 role: Developer
 exl-id: cdee007f-f54d-4cf3-9575-6319da3434a5
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '383'
+source-wordcount: '385'
 ht-degree: 21%
 
 ---
@@ -53,6 +53,6 @@ La [!DNL Adobe Target] il portale della documentazione SDK lato server consente 
 
 ## API per la funzione Consigli di Target
 
-Collegamento: [API Recommendations di Target](https://developer.adobe.com/target/).
+Collegamento: [API Recommendations di Target](https://developer.adobe.com/target/){target=_blank}.
 
 Le API di Recommendations consentono di interagire in modo programmatico con [!DNL Target] server delle raccomandazioni. Queste API possono essere integrate con una serie di stack di applicazioni per eseguire funzioni normalmente eseguite tramite il [!DNL Target] interfaccia utente.

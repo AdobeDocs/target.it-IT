@@ -4,9 +4,9 @@ description: Scopri come caricare dati offline, come le informazioni CRM, durant
 title: Come posso caricare i dati per gli algoritmi di personalizzazione?
 feature: Automated Personalization
 exl-id: c750e0e5-8ebd-49a2-9705-05f593aaf0b9
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '303'
 ht-degree: 63%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 63%
 
 I dati offline, come le informazioni CRM o i punteggi di propensione di abbandono dei clienti, possono essere incredibilmente preziosi quando si creano modelli di personalizzazione in [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) attività.
 
-Sono disponibili diversi modi per immettere dati in algoritmi di [!UICONTROL Personalizzazione automatizzata] (AP) e [!UICONTROL Targeting automatico. ] Oltre ai metodi di [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/), nei nostri algoritmi vengono utilizzati anche i tipi di pubblico condivisi di Experience Cloud (Adobe Analytics, Gestione dell&#39;audience){target=_blank} e i tipi di pubblico per la generazione di rapporti in attività.
+Sono disponibili diversi modi per immettere dati in algoritmi di [!UICONTROL Personalizzazione automatizzata] (AP) e [!UICONTROL Targeting automatico. ] Oltre ai metodi di [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)Nei nostri algoritmi vengono utilizzati anche {target=_blank}, i tipi di pubblico condivisi di Experience Cloud (Adobe Analytics, Gestione dell&#39;audience){target=_blank} e i tipi di pubblico per la generazione di rapporti in-attività.
 
 Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi di Personalizzazione automatizzata e Targeting automatico, consulta [Raccolta dati di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

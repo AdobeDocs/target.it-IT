@@ -4,9 +4,9 @@ description: Scopri come aggiungere una decisione di offerta creata in [!DNL Ado
 title: Come Si Utilizzano Le Decisioni Di Offerta?
 feature: Integrations
 exl-id: cec46d5c-bb5e-4cc9-8785-370f158d3f8e
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Per ulteriori informazioni [!DNL Adobe Journey Optimizer] e le decisioni sulle o
 
 Per utilizzare le decisioni sulle offerte in [!DNL Target], è necessario quanto segue:
 
-* [!DNL Adobe Target Standard] o [!DNL Adobe Target Premium] implementato utilizzando [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+* [!DNL Adobe Target Standard] o [!DNL Adobe Target Premium] implementato utilizzando [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
    La funzione non è disponibile durante l’implementazione di [!DNL Target] con at.js o altro [!DNL Target] SDK.
 
@@ -100,7 +100,7 @@ In [!DNL Adobe Journey Optimizer], puoi creare un’offerta protagonista per la 
 
 Quando lavori con le decisioni relative alle offerte, considera quanto segue:
 
-* L’integrazione di offer decisioning funziona per [!DNL Target] implementazioni basate su [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Questa funzione non è disponibile durante l’implementazione di [!DNL Target] con at.js o altro [!DNL Target] SDK.
+* L’integrazione di offer decisioning funziona per [!DNL Target] implementazioni basate su [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Questa funzione non è disponibile durante l’implementazione di [!DNL Target] con at.js o altro [!DNL Target] SDK.
 
 * L’integrazione di Target/Adobe Journey Optimizer supporta [manuale [!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md#types) e [[!UICONTROL Targeting esperienza]](/help/main/c-activities/t-experience-target/experience-target.md) Solo attività (XT). Questa funzione non è disponibile per altri tipi di attività.
 

@@ -4,9 +4,9 @@ description: Scopri come utilizzare il Compositore esperienza visivo SPA in Adob
 title: Come si utilizza il Compositore esperienza visivo per app a pagina singola (SPA Compositore esperienza visivo)?
 feature: Visual Experience Composer (VEC)
 exl-id: fd3dcfaa-e5c6-45a1-8229-9c206562e5b0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3722'
+source-wordcount: '3726'
 ht-degree: 91%
 
 ---
@@ -65,7 +65,7 @@ Ora che abbiamo capito cosa sono le visualizzazioni di Adobe Target, possiamo sf
 
    ![Finestra di dialogo dei dettagli dell&#39;implementazione](/help/main/c-experiences/assets/imp-200.png)
 
-   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/). Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
+   Scarica at.js 2.x tramite l’interfaccia utente di Adobe Target disponibile in [!UICONTROL Amministrazione > Implementazione]. at.js 2.x può essere distribuito anche tramite tag in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. Tuttavia, le estensioni Adobe Target non sono aggiornate e supportate al momento.
 
 1. Implementa l’ultima funzione di at.js 2.x: [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/){target=_blank} sui siti.
 
@@ -354,7 +354,7 @@ Se desideri utilizzare le attività A/B di targeting automatico, sposta tutte le
 | --- | --- |
 | [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md) | Sì |
 | [Experience Cloud Audiences](/help/main/c-integrating-target-with-mac/mmp.md) | Sì |
-| [Attributi del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/) | Sì |
+| [Attributi del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/){target=_blank} | Sì |
 | [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | Sì |
 
 ## Funzioni supportate {#supported-features}

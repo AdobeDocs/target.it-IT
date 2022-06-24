@@ -5,9 +5,9 @@ title: Come funziona il Decisioning su dispositivo con la libreria JavaScript at
 feature: at.js
 role: Developer
 exl-id: 5ad6032b-9865-4c80-8800-705673657286
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3552'
+source-wordcount: '3560'
 ht-degree: 18%
 
 ---
@@ -35,7 +35,7 @@ L’SDK di Adobe Target JS offre ai clienti la flessibilità di scegliere tra pr
 * Targeting del pubblico
 * Metodo di allocazione
 
-Per ulteriori informazioni, consulta [Funzioni supportate per le decisioni su dispositivi](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Per ulteriori informazioni, consulta [Funzioni supportate per le decisioni su dispositivi](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 ## Come funziona il processo decisionale su dispositivo?
 
@@ -88,7 +88,7 @@ L’elenco seguente corrisponde ai numeri nel diagramma:
 
 Le decisioni sul dispositivo possono fornire esperienze e attività di personalizzazione a una velocità sorprendente, perché derivano da un artefatto di regole memorizzate nella cache che contiene tutte le attività che si qualificano per le decisioni sul dispositivo.
 
-Per ulteriori informazioni sulle attività idonee per le decisioni su dispositivi, consulta [Funzioni supportate nelle decisioni su dispositivi](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/).
+Per ulteriori informazioni sulle attività idonee per le decisioni su dispositivi, consulta [Funzioni supportate nelle decisioni su dispositivi](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank}.
 
 Questo metodo decisionale deve essere utilizzato solo se le prestazioni sono altamente critiche in tutte le pagine che richiedono decisioni da [!DNL Target]. Inoltre, ricorda che quando viene selezionato questo metodo decisionale, le attività [!DNL Target] che non possono avvalersi delle decisioni su dispositivo non verranno consegnate o eseguite. La libreria at.js 2.5.0+ è configurata per cercare solo l’artefatto delle regole memorizzate nella cache per prendere decisioni.
 
@@ -249,7 +249,7 @@ Dopo aver abilitato la [!UICONTROL Decisioning su dispositivo] interruttore, [!D
 
 ### Impostazioni globali
 
-È possibile configurare un valore predefinito [!UICONTROL Decisioning, metodo] per tutti [!DNL Target] decisioni. I vari metodi decisionali sono [!UICONTROL Solo lato server], [!UICONTROL Solo su dispositivo]e [!UICONTROL Ibrido]. Il metodo decisionale selezionato nell&#39;interfaccia utente di Target è configurato in `window.targetGlobalSettings` in `decisioningMethod` campo . Ulteriori informazioni sulle `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+È possibile configurare un valore predefinito [!UICONTROL Decisioning, metodo] per tutti [!DNL Target] decisioni. I vari metodi decisionali sono [!UICONTROL Solo lato server], [!UICONTROL Solo su dispositivo]e [!UICONTROL Ibrido]. Il metodo decisionale selezionato nell&#39;interfaccia utente di Target è configurato in `window.targetGlobalSettings` in `decisioningMethod` campo . Ulteriori informazioni sulle `decisioningMethod` in [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ```javascript
 <head> 
@@ -321,6 +321,6 @@ Puoi filtrare tutte le attività che richiedono decisioni su dispositivi idonee 
 
    La prima generazione di artifact delle regole JSON può richiedere fino a 10 minuti.
 
-1. Crea e attiva un [tipo di attività supportato dalle decisioni sul dispositivo](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/)e verifica che le decisioni sul dispositivo siano idonee.
+1. Crea e attiva un [tipo di attività supportato dalle decisioni sul dispositivo](https://developer.adobe.com/target/implement/client-side/atjs/on-device-decisioning/supported-features/){target=_blank} e verifica che le decisioni sul dispositivo siano idonee.
 1. Imposta la **[!UICONTROL Decisioning, metodo]** a **[!UICONTROL &quot;Ibrido&quot;]** o **[!UICONTROL &quot;Solo su dispositivo&quot;]** tramite l’interfaccia utente delle impostazioni di at.js.
 1. Scarica e distribuisci at.js 2.5.0+ nelle tue pagine.

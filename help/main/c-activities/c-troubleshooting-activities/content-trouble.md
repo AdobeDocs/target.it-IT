@@ -4,10 +4,10 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1664'
-ht-degree: 97%
+source-wordcount: '1668'
+ht-degree: 96%
 
 ---
 
@@ -111,7 +111,7 @@ Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
-Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/).
+Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando il debugger di Adobe Experience Cloud](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target non supporta più Internet Explorer 8.
 
 ## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/).
+Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione di Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 

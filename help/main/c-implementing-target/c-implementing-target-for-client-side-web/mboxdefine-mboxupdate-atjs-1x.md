@@ -5,9 +5,9 @@ title: Come si utilizzano le funzioni mboxDefine() e mboxUpdate()?
 feature: at.js
 role: Developer
 exl-id: 48261be0-c4d0-4961-9712-ef7e0d2cb1c0
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '222'
 ht-degree: 63%
 
 ---
@@ -28,7 +28,7 @@ Crea una mappatura interna tra un nodeId e un nome mbox, ma non esegue la richie
 
 ## mboxUpdate {#section_D20B3E551884452A996305C12D5959D5}
 
-Esegue la richiesta e applica l&#39;offerta all&#39;elemento identificato da `nodeId` in `mboxDefine()`. Può essere utilizzato anche per aggiornare una mbox iniziata da `mboxCreate`. Incorporato in [!DNL at.js] principalmente per facilitare la transizione da [!DNL mbox.js] (ora obsoleto) in [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` potrebbe essere sostituito da [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} e [adobe.target.applyOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank} utilizzando l&#39;opzione del selettore.
+Esegue la richiesta e applica l&#39;offerta all&#39;elemento identificato da `nodeId` in `mboxDefine()`. Può essere utilizzato anche per aggiornare una mbox iniziata da `mboxCreate`. Incorporato in [!DNL at.js] principalmente per facilitare la transizione da [!DNL mbox.js] (ora obsoleto) in [!DNL at.js]. `mboxDefine()`/ `mboxUpdate()` potrebbe essere sostituito da [adobe.target.getOffer()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffer/){target=_blank} e [adobe.target.applyOffer(){target=_blank}](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-applyoffer/){target=_blank} utilizzando l&#39;opzione del selettore.
 
 ## Esempio {#section_9C1E75D9E4BA4DC7879D2B69877EB01A}
 

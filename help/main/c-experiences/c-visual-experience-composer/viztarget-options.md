@@ -4,9 +4,9 @@ description: Esplorare le opzioni disponibili nella [!DNL Adobe Target] [!UICONT
 title: Come si utilizzano i [!UICONTROL Compositore esperienza visivo] Opzioni (VEC)?
 feature: Visual Experience Composer (VEC)
 exl-id: 50993d6c-5025-488a-8b33-9ed7c142de6e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2932'
+source-wordcount: '2936'
 ht-degree: 61%
 
 ---
@@ -380,9 +380,9 @@ Il Compositore esperienza visivo supporta [Componenti web](https://developer.moz
 
 >[!NOTE]
 >
->Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (o versione successiva). Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati è supportato in [versione at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} 2.7.0 (o versioni successive){target=_blank}. Assicurati che il tuo sito web disponga della versione richiesta distribuita. Se utilizzi [Estensione helper del Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md), deve anche avere la versione richiesta di at.js distribuita. Le opzioni del Compositore esperienza visivo descritte sopra non sono visibili e sono disponibili per l’uso con le versioni non supportate di at.js.
 >
->Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/).
+>Il supporto del Compositore esperienza visivo per gli elementi personalizzati non è attualmente supportato con [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}.
 
 La maggior parte delle azioni del Compositore esperienza visivo è supportata su eventi personalizzati e all’interno di eventi personalizzati, con le seguenti eccezioni:
 

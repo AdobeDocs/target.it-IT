@@ -4,9 +4,9 @@ description: Dai uno sguardo ad alto livello ad Adobe Target. Scopri le attivit�
 title: Dove posso trovare un’introduzione ad alto livello per Target?
 feature: Overview
 exl-id: 19238d4c-b7e1-418d-96e5-c46a3769f7bf
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2532'
+source-wordcount: '2536'
 ht-degree: 99%
 
 ---
@@ -52,8 +52,8 @@ Molti di voi potrebbero voler utilizzare [!DNL Target] per testare e personalizz
 
 | Tipo di implementazione | Dettagli |
 | --- | --- |
-| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il **[!UICONTROL Compositore esperienza visivo]** (VEC)) o un’interfaccia non visiva (il **[!UICONTROL Compositore esperienza basato su moduli]**) per creare esperienze di test e personalizzazione. [Per saperne di più](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/). |
-| Lato server | In questo tipo di implementazione di [!DNL Target], un dispositivo client richiede un’esperienza tramite il server, il server invia la richiesta a [!DNL Target], [!DNL Target] invia nuovamente la risposta al server e il server decide quale esperienza distribuire al dispositivo client affinché esegua il rendering. L’esperienza non deve necessariamente essere visualizzata in un browser; può essere visualizzata in un’e-mail o un chiosco, tramite un assistente vocale oppure tramite altre esperienze non visive o su un dispositivo non basato su browser. Poiché il server risiede tra il client e [!DNL Target], questo tipo di implementazione è ideale anche se hai bisogno di maggiore controllo e sicurezza oppure in presenza di processi di backend complessi che devono essere eseguiti sul server. [Per saperne di più](https://developer.adobe.com/target/implement/server-side/). |
+| Lato client | In un’implementazione lato client di [!DNL Target], [!DNL Target] distribuisce le esperienze associate a un’attività direttamente al browser client. Il browser determina quale esperienza visualizzare e la visualizza. Con un’implementazione lato client, puoi utilizzare un editor WYSIWYG (il **[!UICONTROL Compositore esperienza visivo]** (VEC)) o un’interfaccia non visiva (il **[!UICONTROL Compositore esperienza basato su moduli]**) per creare esperienze di test e personalizzazione. [Ulteriori informazioni](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank}. |
+| Lato server | In questo tipo di implementazione di [!DNL Target], un dispositivo client richiede un’esperienza tramite il server, il server invia la richiesta a [!DNL Target], [!DNL Target] invia nuovamente la risposta al server e il server decide quale esperienza distribuire al dispositivo client affinché esegua il rendering. L’esperienza non deve necessariamente essere visualizzata in un browser; può essere visualizzata in un’e-mail o un chiosco, tramite un assistente vocale oppure tramite altre esperienze non visive o su un dispositivo non basato su browser. Poiché il server risiede tra il client e [!DNL Target], questo tipo di implementazione è ideale anche se hai bisogno di maggiore controllo e sicurezza oppure in presenza di processi di backend complessi che devono essere eseguiti sul server. [Ulteriori informazioni](https://developer.adobe.com/target/implement/server-side/){target=_blank}. |
 | Implementazione ibrida | In questa implementazione, scegli l’approccio di implementazione più adatto per un dato caso d’uso. Ad esempio, puoi utilizzare un’implementazione lato client per eseguire test A/B su un’offerta in un hero banner sulla home page, ma anche un’implementazione lato server per determinare i risultati della ricerca interna da visualizzare su un browser client, un’esperienza da visualizzare su un dashboard smart car o una risposta vocale da consegnare tramite assistente vocale. |
 
 ## Elementi dell’attività

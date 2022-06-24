@@ -5,10 +5,10 @@ title: Dove Posso Trovare Informazioni Su [!DNL Target] Cookie?
 feature: at.js
 role: Developer
 exl-id: 1c4e5b0b-8ae4-4526-aea0-318a33f4d247
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1553'
-ht-degree: 58%
+source-wordcount: '1557'
+ht-degree: 57%
 
 ---
 
@@ -20,7 +20,7 @@ Il comportamento del cookie dipende dal fatto di essere un cookie di prima parte
 >
 >Questo argomento contiene informazioni su `mboxSession` e `mboxPC`. Le best practice di implementazione consigliano di non collegare o archiviare informazioni sensibili con i dati dei cookie: `mboxSession` o `mboxPC`.
 
-Vedi anche [Eliminare il cookie di Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/).
+Vedi anche [Eliminare il cookie di Target](https://developer.adobe.com/target/before-implement/privacy/cookie-deleting/){target=_blank}.
 
 ## Quando utilizzare un cookie di prima parte o di terze parti {#section_F71B29420C004A7FA3B1921E619B326E}
 
@@ -137,5 +137,5 @@ Da Apple:
 
 | Funzionalità interessate | Dettagli |
 |--- |--- |
-| Supporto per rinuncia | Le modifiche di tracciamento WebKit di Apple interrompono il supporto dell’opzione di rinuncia.<br>[!DNL Target]La funzione di rinuncia di utilizza un cookie nel dominio `clientcode.tt.omtrdc.net`. Per ulteriori dettagli, consulta [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).<br>[!DNL Target] supporta due tipi di rinuncia:<ul><li>Uno per il cliente (il cliente gestisce il collegamento di rinuncia).</li><li>Una via [!DNL Adobe] che esclude l&#39;utente da tutti [!DNL Target] funzionalità per tutti i clienti.</li></ul>Entrambi i metodi utilizzano il cookie di terze parti. |
+| Supporto per rinuncia | Le modifiche di tracciamento WebKit di Apple interrompono il supporto dell’opzione di rinuncia.<br>[!DNL Target]La funzione di rinuncia di utilizza un cookie nel dominio `clientcode.tt.omtrdc.net`. Per ulteriori dettagli, consulta [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.<br>[!DNL Target] supporta due tipi di rinuncia:<ul><li>Uno per il cliente (il cliente gestisce il collegamento di rinuncia).</li><li>Una via [!DNL Adobe] che esclude l&#39;utente da tutti [!DNL Target] funzionalità per tutti i clienti.</li></ul>Entrambi i metodi utilizzano il cookie di terze parti. |
 | [!DNL Target] attività | I clienti possono scegliere le loro [lunghezza del profilo](/help/main/c-target/c-visitor-profile/visitor-profile-lifetime.md) per i [!DNL Target] conti (fino a 90 giorni). Il problema è che se la durata del profilo dell’account è superiore a 30 giorni e il cookie di prima parte viene eliminato perché il dominio del cliente è stato contrassegnato come dominio di tracciamento degli utenti tra siti diversi, il comportamento dei visitatori Safari è interessato nelle seguenti aree in [!DNL Target]:<br>**[!DNL Target] rapporti **: Se un utente Safari accede a un’attività , ritorna dopo 30 giorni e quindi si converte, viene conteggiato come due visitatori e una conversione.<br>[!DNL Analytics]Questo comportamento è lo stesso per le attività che utilizzano come origine per la generazione di rapporti (A4T).<br>** Profilo e appartenenza all’attività&#x200B;**:<ul><li>I dati del profilo vengono cancellati quando scade il cookie di prima parte.</li><li>L’appartenenza all’attività viene cancellata quando scade il cookie di prima parte.</li><li> [!DNL Target] non funziona in Safari per gli account che utilizzano un’implementazione di cookie di terze parti oppure di cookie di prima parte e di terze parti. Questo comportamento non è una novità. Safari non consente i cookie di terze parti da un po&#39;.</li></ul><br>**Suggerimenti**: Se si teme che il dominio del cliente possa essere contrassegnato come un dominio che tiene traccia dei visitatori attraverso sessioni diverse, è più sicuro impostare la durata del profilo in un massimo di 30 giorni [!DNL Target]. Questo limite garantisce che gli utenti siano tracciati in modo simile in Safari e in tutti gli altri browser. |

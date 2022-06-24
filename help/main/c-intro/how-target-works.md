@@ -4,10 +4,10 @@ description: Scopri come funziona Adobe  [!DNL Target] , comprese informazioni s
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2565'
-ht-degree: 98%
+source-wordcount: '2571'
+ht-degree: 96%
 
 ---
 
@@ -19,8 +19,8 @@ Scopri come funziona [!DNL Adobe Target], comprese informazioni su [!DNL Adobe E
 
 [!DNL Target] si integra con i siti web utilizzando [!DNL Experience Platform Web SDK] o le librerie JavaScript:
 
-* **Adobe Experience Platform Web SDK:** La [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} è una nuova libreria JavaScript lato client. AEP Web SDK consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. Adobe consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
-* **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. Adobe consiglia a tutti i clienti che utilizzano at.js di aggiornare le implementazioni alla versione [più recente di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Adobe Experience Platform Web SDK:** La [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} è una nuova libreria JavaScript lato client. L’SDK per web di Experience Platform consente ai clienti di: [!DNL Adobe Experience Cloud] interagire con i vari servizi nel [!DNL Experience Cloud] (tra cui [!DNL Target]){target=_blank} attraverso [!DNL Experience Platform] Rete Edge. Adobe consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. Adobe consiglia a tutti i clienti che utilizzano at.js di aggiornare le proprie implementazioni al [versione più recente di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 * **mbox.js:** la libreria mbox.js è la libreria di implementazione legacy per [!DNL Target]. La libreria mbox.js non è più supportata dopo il 31 marzo 2021.
 
 Fai riferimento a [!DNL Experience Platform Web SDK] o at.js in ogni pagina del sito. Ad esempio, puoi aggiungere una di queste librerie all’intestazione globale. In alternativa, puoi utilizzare i [tag in Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/tags/home.html?lang=it) per implementare [!DNL Target].
@@ -131,7 +131,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni del visitatore rimangono limitate per i clienti [!DNL Target] in Cina. A causa del firewall e della mancanza di cluster Edge nel paese, le esperienze dei siti con [!DNL Target] implementato possono essere influenzate. Le esperienze possono essere lente per il rendering e possono essere influenzate dai caricamenti di pagina. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l’utilizzo dell’interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/).
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [inserire nell&#39;elenco Consentiti nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

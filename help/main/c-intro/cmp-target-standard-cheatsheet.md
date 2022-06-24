@@ -4,10 +4,10 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2789'
-ht-degree: 98%
+source-wordcount: '2795'
+ht-degree: 96%
 
 ---
 
@@ -309,10 +309,10 @@ Siamo spiacenti di sapere che stai avendo dei problemi. Consulta [Risoluzione de
 
 **Abbiamo una SKU Mobile. Posso creare attività mobili?**
 
-Per ottimizzare e personalizzare su dispositivi mobili, devi utilizzare le [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) e l’[SDK Adobe](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/). Scopri ulteriori dettagli su [Target per le app per dispositivi mobili](https://developer.adobe.com/target/implement/mobile/).
+Per ottimizzare e personalizzare su dispositivi mobili, devi utilizzare [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) insieme al [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Maggiori informazioni [Target per le app per dispositivi mobili](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
 
 ## API di Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Dove posso saperne di più sulle API di Target?**
 
-È disponibile una documentazione completa sulle API. Consulta [Documentazione di API di distribuzione, SDK di NodeJS e API Consigli](https://developer.adobe.com/target/implement/server-side/).
+È disponibile una documentazione completa sulle API. Vedi [Documentazione di API di distribuzione, SDK di NodeJS e API di Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.

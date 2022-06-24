@@ -5,10 +5,10 @@ title: Come si crea un AdBox per un'immagine?
 feature: Implement Email
 role: Developer
 exl-id: c66cfbc2-633a-46f2-8d9f-dbd18f7e880e
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '339'
-ht-degree: 66%
+source-wordcount: '341'
+ht-degree: 65%
 
 ---
 
@@ -18,7 +18,7 @@ Utilizza un AdBox per distribuire immagini in un&#39;implementazione off-site ut
 
 Un AdBox è come una mbox, ma è controllato da un URL piuttosto che da JavaScript. Gli AdBox sono creati con un URL AdBox speciale che carica una mbox di tipo annuncio (o AdBox) nel tuo account Adobe. Utilizza questo AdBox al posto della mbox nelle tue attività. Utilizza l&#39;URL AdBox anziché un riferimento diretto all&#39;immagine in email o altre implementazioni non JavaScript.
 
-Per capire come selezionare la configurazione giusta vedi [Implementazioni non basate su JavaScript](https://developer.adobe.com/target/implement/email/).
+Per capire come selezionare la configurazione giusta vedi [Implementazioni non basate su JavaScript](https://developer.adobe.com/target/implement/email/){target=_blank}.
 
 1. Crea l&#39;URL AdBox:
 

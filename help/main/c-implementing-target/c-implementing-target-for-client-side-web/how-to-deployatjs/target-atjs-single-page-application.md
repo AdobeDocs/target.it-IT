@@ -5,10 +5,10 @@ title: Posso implementare? [!DNL Target] per le applicazioni a pagina singola (S
 feature: Implement Server-side
 role: Developer
 exl-id: 624f8e62-b443-4093-8e05-9320a365ea07
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2790'
-ht-degree: 70%
+source-wordcount: '2794'
+ht-degree: 69%
 
 ---
 
@@ -187,7 +187,7 @@ Adesso, gli esperti di marketing potrebbero voler eseguire un test A/B per valut
 
 ## Diagrammi di sistema di at.js 2.x
 
-I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.x, consulta [Implementazione di un’applicazione a pagina singola](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/).
+I seguenti diagrammi ti aiutano a comprendere il flusso di lavoro di at.js 2.x tramite Visualizzazioni e come questo migliori l’integrazione con le applicazioni a pagina singola. Per una migliore introduzione dei concetti utilizzati in at.js 2.x, consulta [Implementazione di un’applicazione a pagina singola](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/target-atjs-single-page-application/){target=_blank}.
 
 ![Flusso di Target con at.js 2.x](/help/main/c-implementing-target/c-implementing-target-for-client-side-web/assets/system-diagram-atjs-20.png)
 
@@ -233,7 +233,7 @@ Come best practice relative alle applicazioni a pagina singola:
 * Attiva un evento personalizzato prima che inizi il rendering della visualizzazione
 * Attiva un evento personalizzato quando termina il rendering della visualizzazione
 
-at.js 2.x ha aggiunto una nuova API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)Funzione {target=_blank}. Utilizza `triggerView()` per notificare ad at.js quando sta per essere eseguito il rendering di una visualizzazione.
+at.js 2.x ha aggiunto una nuova API [triggerView()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-triggerview-atjs-2/)Funzione {target=_blank}. Utilizza `triggerView(){target=_blank}` per notificare ad at.js quando sta per essere eseguito il rendering di una visualizzazione.
 
 Per vedere come combinare eventi personalizzati, at.js 2.x, e Analytics, vediamo un esempio. Questo esempio presuppone che la pagina HTML contenga l’API del visitatore, seguita da at.js 2.x, seguita da AppMeasurement.
 
@@ -268,7 +268,7 @@ document.addEventListener("at-view-end", function(e) {
 >
 >È necessario attivare gli eventi `at-view-start` e `at-view-end`. Questi eventi non fanno parte degli eventi personalizzati di at.js
 
-Anche se questi esempi utilizzano il codice JavaScript, tutto questo può essere semplificato se utilizzi un gestore di tag, ad esempio i tag in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/).
+Anche se questi esempi utilizzano il codice JavaScript, tutto questo può essere semplificato se utilizzi un gestore di tag, ad esempio i tag in [Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}.
 
 Se segui la procedura precedente, dovresti disporre di una soluzione A4T solida per le applicazioni a pagina singola.
 

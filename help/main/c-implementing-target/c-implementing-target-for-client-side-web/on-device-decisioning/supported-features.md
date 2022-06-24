@@ -5,9 +5,9 @@ title: Quali funzioni sono supportate in On-Device Decisioning
 feature: at.js
 role: Developer
 exl-id: 3531ff55-c3db-44c1-8d0a-d7ec2ccb6505
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '480'
 ht-degree: 13%
 
 ---
@@ -51,7 +51,7 @@ La tabella seguente indica quali regole di pubblico sono supportate o non suppor
 
 ### Geotargeting per le decisioni su dispositivi
 
-Per mantenere una latenza minima per le attività di decisione sui dispositivi con tipi di pubblico basati su geo, l’Adobe consiglia di fornire i valori geo direttamente nella chiamata a [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/). Impostare l&#39;oggetto Geo nel contesto della richiesta. Questo significa che dal browser, un modo per determinare la posizione di ogni visitatore. Ad esempio, puoi eseguire una ricerca IP-to-Geo utilizzando un servizio configurato. Alcuni provider di hosting, come Google Cloud, forniscono questa funzionalità tramite intestazioni personalizzate in ogni `HttpServletRequest`.
+Per mantenere una latenza minima per le attività di decisione sui dispositivi con tipi di pubblico basati su geo, l’Adobe consiglia di fornire i valori geo direttamente nella chiamata a [getOffers](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/adobe-target-getoffers-atjs-2/){target=_blank}. Impostare l&#39;oggetto Geo nel contesto della richiesta. Questo significa che dal browser, un modo per determinare la posizione di ogni visitatore. Ad esempio, puoi eseguire una ricerca IP-to-Geo utilizzando un servizio configurato. Alcuni provider di hosting, come Google Cloud, forniscono questa funzionalità tramite intestazioni personalizzate in ogni `HttpServletRequest`.
 
 ```javascript
 window.adobe.target.getOffers({ 

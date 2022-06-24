@@ -5,9 +5,9 @@ title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '3150'
+source-wordcount: '3152'
 ht-degree: 59%
 
 ---
@@ -251,7 +251,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 
    In una versione futura, Target lavorerà su pagine in cui non è presente alcun token `at_property` o su pagine in cui è presente un token `at_property` diverso.
 
-* La funzionalità Autorizzazioni Enterprise non è supportata nelle [chiamate API di Adobe I/O](https://developer.adobe.com/target/).
+* La funzionalità Autorizzazioni per gli utenti Enterprise non è supportata in [Adobe I/O di chiamate API](https://developer.adobe.com/target/){target=_blank}.
 
 ## Domande frequenti  {#faqs}
 

@@ -5,10 +5,10 @@ title: Come si utilizza la funzione targetGlobalSettings()?
 feature: at.js
 role: Developer
 exl-id: 14080cf6-6a15-4829-b95d-62c068898564
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2411'
-ht-degree: 95%
+source-wordcount: '2419'
+ht-degree: 92%
 
 ---
 
@@ -26,7 +26,7 @@ ht-degree: 95%
 * **Valore predefinito**: body { opacity: 0 }
 * **Descrizione**: utilizzato solo quando `globalMboxAutocreate === true` per minimizzare il rischio di sfarfallio.
 
-   Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momentanea di altri contenuti](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/).
+   Per ulteriori informazioni, consulta [Gestione at.js della visualizzazione momentanea di altri contenuti](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/manage-flicker-with-atjs/){target=_blank}.
 
 ### bodyHidingEnabled
 
@@ -155,7 +155,7 @@ ht-degree: 95%
 
 * **Tipo**: booleano
 * **Valore predefinito**: false
-* **Descrizione**: [!DNL Target] fornisce supporto per la funzionalità di opt-in tramite [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare la funzione di opt-in nella libreria at.js di [!DNL Target], aggiungi l’impostazione `optinEnabled=true`. In [!DNL Adobe Experience Platform], è necessario selezionare “abilita” dall’elenco a discesa [!UICONTROL Opt-In GDPR] nella visualizzazione di installazione dell’estensione. Consulta la sezione [Documentazione di Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} per ulteriori dettagli. Per ulteriori informazioni su questa impostazione in relazione alle normative sulla privacy e la protezione dei dati, tra cui il Regolamento generale sulla protezione dei dati (GDPR) dell’Unione Europea e il California Consumer Privacy Act (CCPA), consulta [Normative sulla privacy e la protezione dei dati](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/).
+* **Descrizione**: [!DNL Target] fornisce supporto per la funzionalità di opt-in tramite [!DNL Adobe Experience Platform] per supportare la strategia di gestione dei consensi. La funzionalità opt-in consente ai clienti di controllare come e quando viene attivato il tag di [!DNL Target]. È inoltre presente un’opzione tramite [!DNL Adobe Experience Platform] per pre-approvare il tag di [!DNL Target]. Per abilitare la capacità di utilizzare la funzione di opt-in nella libreria at.js di [!DNL Target], aggiungi l’impostazione `optinEnabled=true`. In [!DNL Adobe Experience Platform], è necessario selezionare “abilita” dall’elenco a discesa [!UICONTROL Opt-In GDPR] nella visualizzazione di installazione dell’estensione. Consulta la sezione [Documentazione di Adobe Experience Platform](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank} per ulteriori dettagli. Per ulteriori informazioni su questa impostazione in quanto riguarda le normative sulla privacy e la protezione dei dati, tra cui il Regolamento generale sulla protezione dei dati (RGPD){target=_blank} dell’Unione europea e il California Consumer Privacy Act (CCPA), vedi [Normative sulla privacy e la protezione dei dati](https://developer.adobe.com/target/before-implement/privacy/cmp-privacy-and-general-data-protection-regulation/){target=_blank}.
 
 ### optoutEnabled
 
@@ -398,7 +398,7 @@ Dopo aver specificato le impostazioni `cspScriptNonce` e `cspStyleNonce`, at.js 
 È necessaria un’integrazione ibrida di [!DNL Target].
 
 * **Lato server**: devi utilizzare la nuova [API di consegna](https://developers.adobetarget.com/api/delivery-api/) o gli [SDK di Target](https://developers.adobetarget.com/api/delivery-api/#section/SDKs).
-* **Lato client**: devi utilizzare [at.js versione 2.2 o successiva](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/).
+* **Lato client**: È necessario utilizzare [at.js versione 2.2 o successiva](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 ### Esempi di codice
 

@@ -4,9 +4,9 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1339'
+source-wordcount: '1341'
 ht-degree: 27%
 
 ---
@@ -45,7 +45,7 @@ La [!UICONTROL Tipi di pubblico] contiene i tipi di pubblico che puoi utilizzare
 
    >[!NOTE]
    >
-   >La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/). Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
+   >La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o [combinato con tipi di pubblico esistenti](/help/main/c-target/combining-multiple-audiences.md).
    >
    >Gli utenti devono avere [!UICONTROL Approvatore] o lo stato precedente in [!DNL Target] per configurare [!DNL Target] [!UICONTROL Destinazioni] schede in AEP/RTCDP ([!DNL Real-time Customer Data Platform]).
    >

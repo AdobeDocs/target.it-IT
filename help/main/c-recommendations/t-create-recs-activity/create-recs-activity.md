@@ -4,10 +4,10 @@ description: Scopri come utilizzare l’Adobe [!DNL Target] Compositore esperien
 title: Come si crea un'attività Recommendations?
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: b1e8ea2370fc15f4bfcd960ab2960cafe2db92b8
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1313'
-ht-degree: 76%
+source-wordcount: '1315'
+ht-degree: 75%
 
 ---
 
@@ -78,7 +78,7 @@ Utilizza il Compositore esperienza visivo di Target per creare attività Consigl
 
    >[!NOTE]
    >
-   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei Consigli (**[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Criteri non compatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://developer.adobe.com/target/implement/recommendations/).
+   >Non tutti i criteri vengono eseguiti correttamente su ogni pagina. La pagina o mbox deve passare `entity.id` o `entity.categoryId` per rendere compatibili i consigli per l’elemento o la categoria corrente. In generale, è consigliabile mostrare solo i criteri compatibili. Tuttavia, se desideri che i criteri non compatibili siano disponibili per l’attività, deseleziona la casella di controllo **[!UICONTROL Compatibile]**. L&#39;opzione [!UICONTROL Compatibile] potrebbe non essere visualizzata, a seconda delle impostazioni dei Consigli (**[!UICONTROL Consigli]** > **[!UICONTROL Impostazioni]** > **[!UICONTROL Criteri non compatibili]**). Per ulteriori informazioni, consulta [Impostazioni](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
    ![Finestra di dialogo Seleziona criteri](/help/main/c-recommendations/t-create-recs-activity/assets/SCRN_SelectCriteria2.png)
 

@@ -5,16 +5,16 @@ title: In che modo  [!DNL Target]  gestisce le direttive Content Security Policy
 feature: Privacy & Security
 role: Developer
 exl-id: 31457b16-ed21-4540-8d0c-abfb49d1fbe9
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '336'
-ht-degree: 97%
+source-wordcount: '338'
+ht-degree: 90%
 
 ---
 
 # Direttive Content Security Policy (CSP)
 
-Se utilizzi le direttive [Content Security Policy](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) per l’mplementazione di [!DNL Adobe Target], aggiungi le seguenti direttive CSP quando utilizzi [at.js 2.1 o versione successiva](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/):
+Se utilizzi [Informativa sulla sicurezza dei contenuti](https://en.wikipedia.org/wiki/Content_Security_Policy) (CSP) per [!DNL Adobe Target] Implementazione, aggiungi le seguenti direttive CSP quando utilizzi [at.js 2.1 o successivo](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}:
 
 * `connect-src` con `*.tt.omtrdc.net` inserito nell’elenco Consentiti. Necessario per consentire la richiesta di rete all’edge [!DNL Target].
 * `style-src unsafe-inline`. Necessario per il controllo di pre-hiding e sfarfallio.

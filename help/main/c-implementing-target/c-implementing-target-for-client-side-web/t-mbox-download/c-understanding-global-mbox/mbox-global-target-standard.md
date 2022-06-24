@@ -5,9 +5,9 @@ title: Posso utilizzare una mbox globale da un'implementazione legacy?
 feature: at.js
 role: Developer
 exl-id: 1eb6836b-6b3c-4494-af67-cd72a4f357e2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '311'
 ht-degree: 40%
 
 ---
@@ -44,4 +44,4 @@ Le seguenti domande frequenti possono essere utilizzate per risolvere i problemi
 
 ### Perché la mbox globale non viene caricata o perché c&#39;è latenza nel caricamento della mbox globale quando la pagina viene caricata?
 
-Assicurati che il riferimento at.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, vedi [Domande frequenti sulla mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/).
+Assicurati che il riferimento at.js sia la prima chiamata JavaScript sulla pagina. Per altre soluzioni a questo problema, vedi [Domande frequenti sulla mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/){target=_blank}.

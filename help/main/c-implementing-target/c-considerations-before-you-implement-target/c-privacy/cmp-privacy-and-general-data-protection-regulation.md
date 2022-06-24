@@ -5,10 +5,10 @@ title: In che modo  [!DNL Target]  gestisce le normative sulla privacy e la prot
 feature: Privacy & Security
 role: Developer
 exl-id: 5013a9d2-a463-4787-90ee-3248d9cb02b2
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '2231'
-ht-degree: 98%
+source-wordcount: '2235'
+ht-degree: 97%
 
 ---
 
@@ -284,7 +284,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 | Campo | Descrizione |
 |--- |--- |
-| Sample_Parameter | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, è stato caricato un parametro nel profilo di [!DNL Target], utilizzando l’API di aggiornamento del profilo. Per ulteriori informazioni, consulta [Metodi per immettere i dati in [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/). |
+| Sample_Parameter | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, è stato caricato un parametro nel profilo di [!DNL Target], utilizzando l’API di aggiornamento del profilo. Per ulteriori informazioni, consulta [Metodi per immettere i dati in [!DNL Target]](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. |
 | user.ReturnTimeOfDay | Questo campo standard include l&#39;ora del giorno dell&#39;ultima visita di ritorno dell&#39;utente. |
 | firstSessionStart | Questo campo standard include l&#39;ora del giorno in cui è iniziata la prima sessione dell&#39;utente. |
 | user.sessionCountScript | Molte informazioni nel profilo di [!DNL Target] sono caricate o fornite direttamente dal Titolare del trattamento dei dati. In questo esempio, uno script di profilo incrementa il numero di sessioni che il visitatore ha effettuato sul sito del Titolare del trattamento dei dati. Per ulteriori informazioni, consulta [Attributi del profilo](/help/main/c-target/c-visitor-profile/profile-parameters.md). |
@@ -295,7 +295,7 @@ La tabella seguente contiene la descrizione dei campi JSON del profilo illustrat
 
 ### [!DNL Target] supporta l’omissione dell’IP? {#section_428907B0CD9842D9B245B38C66A53C6A}
 
-Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/).
+Se scegli di utilizzarla come parte della strategia di implementazione RGPD o CCPA, [!DNL Target] supporta l’omissione dell’IP. Per ulteriori informazioni, consulta [Privacy](https://developer.adobe.com/target/before-implement/privacy/privacy/){target=_blank}.
 
 ### Devo fare qualcosa per evitare che i miei dati vengano condivisi o venduti a terzi?
 

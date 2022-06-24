@@ -5,10 +5,10 @@ title: Come gestisce  [!DNL Target]  i criteri per cookie SameSite di Google?
 feature: Privacy & Security
 role: Developer
 exl-id: 5abd2065-3692-4a6d-9ac9-6d416604c2d2
-source-git-commit: c196b7e41101978ee029f93d5cd71c9b2d5b99f1
+source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
 workflow-type: tm+mt
-source-wordcount: '1955'
-ht-degree: 99%
+source-wordcount: '1957'
+ht-degree: 98%
 
 ---
 
@@ -18,7 +18,7 @@ Google inizierà a imporre nuovi criteri per i cookie per impostazione predefini
 
 A partire da Chrome 80, gli sviluppatori web devono specificare esplicitamente quali cookie possono funzionare tra siti web diversi. Questo è il primo di molti annunci che Google prevede di fare per migliorare la privacy e la sicurezza sul web.
 
-Dato che Facebook si è ritrovato in una posizione difficile per quanto riguarda la privacy e la sicurezza, altri principali attori come Apple e ora Google hanno approfittato rapidamente dell’opportunità di crearsi nuove identità come campioni in fatto di privacy e sicurezza. Apple ha guidato il gruppo annunciando all’inizio di quest’anno le modifiche ai suoi criteri per i cookie tramite ITP 2.1 e recentemente ITP 2.2. Con ITP 2.1, Apple blocca completamente i cookie di terze parti e conserva i cookie creati sul browser per soli sette giorni. Con ITP 2.2, i cookie vengono conservati per un solo giorno. L’annuncio di Google non è affatto così aggressivo come quello di Apple, ma è il primo passo verso lo stesso obiettivo finale. Per ulteriori informazioni sui criteri di Apple, consulta [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/).
+Dato che Facebook si è ritrovato in una posizione difficile per quanto riguarda la privacy e la sicurezza, altri principali attori come Apple e ora Google hanno approfittato rapidamente dell’opportunità di crearsi nuove identità come campioni in fatto di privacy e sicurezza. Apple ha guidato il gruppo annunciando all’inizio di quest’anno le modifiche ai suoi criteri per i cookie tramite ITP 2.1 e recentemente ITP 2.2. Con ITP 2.1, Apple blocca completamente i cookie di terze parti e conserva i cookie creati sul browser per soli sette giorni. Con ITP 2.2, i cookie vengono conservati per un solo giorno. L’annuncio di Google non è affatto così aggressivo come quello di Apple, ma è il primo passo verso lo stesso obiettivo finale. Per ulteriori informazioni sui criteri di Apple, vedi [Apple Intelligent Tracking Prevention (ITP) 2.x](https://developer.adobe.com/target/before-implement/privacy/apple-itp-2x/){target=_blank}.
 
 ## Cosa sono i cookie e come vengono utilizzati?
 
