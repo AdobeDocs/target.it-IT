@@ -4,10 +4,10 @@ description: Scopri come utilizzare Multivariate Testing (MVT) in Adobe [!DNL Ta
 title: Cos’è un test multivariato?
 feature: Multivariate Tests
 exl-id: c8b60011-cb3a-4e28-b84f-06910687b14b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
 workflow-type: tm+mt
 source-wordcount: '1460'
-ht-degree: 87%
+ht-degree: 84%
 
 ---
 
