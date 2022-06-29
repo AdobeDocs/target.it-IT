@@ -1,13 +1,13 @@
 ---
 keywords: contenuto misto;protetto;non protetto;chrome;risoluzione dei problemi;vec;compositore esperienza visivo;non sicuro;http;https;firefox;internet explorer
-description: Alcuni browser bloccano la visualizzazione di una pagina se contiene un misto di contenuti sicuri e non sicuri. Scopri come consentire i contenuti misti in Chrome, Firefox ed Edge.
-title: Come posso consentire i contenuti misti nel mio browser?
+description: Scopri come abilitare i contenuti misti in Chrome, Firefox e Edge. È possibile abilitare i contenuti misti quando un browser blocca la visualizzazione di una pagina, in quanto il contenuto protetto è misto a contenuto non protetto.
+title: Come abilitare i contenuti misti nel browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '588'
-ht-degree: 100%
+source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
+workflow-type: tm+mt
+source-wordcount: '593'
+ht-degree: 93%
 
 ---
 
@@ -17,7 +17,7 @@ I contenuti misti si verificano se la richiesta iniziale è protetta tramite HTT
 
 I browser moderni potrebbero bloccare la visualizzazione di una pagina o visualizzare messaggi di avviso in caso di combinazione di contenuto sicuro e contenuto non sicuro.
 
-Viene visualizzato un messaggio di avviso se il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Target] tenta di aprire una pagina con contenuti misti. Questo messaggio spiega come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
+Viene visualizzato un messaggio di avviso se il [!UICONTROL Compositore esperienza visivo] (VEC) in [!DNL Adobe Target] tenta di aprire una pagina con contenuti misti. Questo messaggio spiega come disattivare il blocco nel browser. La disattivazione del blocco consente di aprire un sito HTTP o un sito con chiamate miste (HTTPS e HTTP).
 
 ![Avviso contenuti misti](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/mixed_content_warning.png)
 
