@@ -4,7 +4,7 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
 workflow-type: tm+mt
 source-wordcount: '1334'
 ht-degree: 95%
@@ -25,7 +25,7 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
 +++Fai clic qui
 
-* **Giovedì 21 giugno 2022**
+* **Giovedì 11 agosto 2022**
 * **19:00 - 20:00 (CET)**
 * **[Ulteriori informazioni e registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
