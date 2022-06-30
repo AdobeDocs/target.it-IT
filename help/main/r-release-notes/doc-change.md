@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ffa5f219f29f066ec8de0b3f325fc278ff97de62
+source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
-source-wordcount: '1095'
+source-wordcount: '1106'
 ht-degree: 89%
 
 ---
@@ -19,8 +19,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 24 giugno | [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} | Avviato il *Guida per gli sviluppatori di Adobe Target* per consolidare tutti [!DNL Target] contenuti per sviluppatori in un unico comodo portale. Il portale include informazioni sull&#39;implementazione [!DNL Target] e [!DNL Recommendations], [!DNL Target] SDK e [!DNL Target] API. |
+| 30 giugno | [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} | Avviato il *Guida per gli sviluppatori di Adobe Target* per consolidare tutti [!DNL Target] contenuti per sviluppatori in un unico comodo portale. Il portale include informazioni sull&#39;implementazione [!DNL Target] e [!DNL Recommendations], [!DNL Target] SDK e [!DNL Target] API. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.6.2 di [!DNL Target Standard/Premium]. |
+|  | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono stati aggiunti collegamenti di registrazione per le sessioni dei webinar precedenti. |
 | 14 giugno | [Pianificare e implementare Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Sono stati aggiornati gli esempi di codice nelle sezioni seguenti:<ul><li>Aggiunte al carrello/Visualizzazioni carrello/Pagine di pagamento</li><li>Escludere gli elementi già presenti nel carrello del visitatore</li></ul> |
 | 7 giugno | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.6.1 di [!DNL Target Standard/Premium]. |
 
