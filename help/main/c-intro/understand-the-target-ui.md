@@ -1,12 +1,12 @@
 ---
-keywords: interfaccia utente target;interfaccia utente;ui;annunci;eventi
+keywords: interfaccia utente target;interfaccia utente;ui;annunci;eventi;notifiche
 description: Acquisisci familiarità con l’interfaccia utente e trova collegamenti a informazioni più approfondite per trarre il massimo da [!DNL Target].
 title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: 5dc59dbc712acb66b305a8dfb884aecb43a4b224
+source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
 workflow-type: tm+mt
-source-wordcount: '1344'
+source-wordcount: '1345'
 ht-degree: 46%
 
 ---
@@ -53,7 +53,7 @@ Il pannello contiene le schede per [!UICONTROL Notifiche] e [!UICONTROL Annunci]
 
 ![Notifiche](assets/notifications.png)
 
-Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configurare notifiche e annunci.
+Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configurare notifiche e annunci:
 
 ### Notifiche
 
