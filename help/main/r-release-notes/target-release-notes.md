@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 6450b9d247f21f578a5bef15422765dc2a2ed32d
 workflow-type: tm+mt
 source-wordcount: '203'
-ht-degree: 75%
+ht-degree: 100%
 
 ---
 
@@ -24,7 +24,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 * Gli utenti con il ruolo di [!UICONTROL editor] non possono più modificare i tipi di pubblico nelle attività live. (TGT-43582)
-* Se un cliente tenta di salvare un pubblico con un punto esclamativo ( ! ) come primo carattere del nome del pubblico (ad esempio !Londra). (TGT-43643)
+* Viene visualizzato un messaggio di avvertenza se un cliente tenta di salvare un pubblico il cui nome contiene un punto esclamativo ( ! ) come primo carattere (esempio: !Londra). (TGT-43643)
 * È stato risolto un problema a causa del quale alcune schede dei dettagli di definizione del pubblico per alcuni clienti indicavano che un’attività terminata è ancora in esecuzione. (TGT-43527)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
