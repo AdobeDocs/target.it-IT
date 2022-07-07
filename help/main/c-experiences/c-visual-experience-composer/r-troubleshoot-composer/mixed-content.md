@@ -1,13 +1,13 @@
 ---
 keywords: contenuto misto;protetto;non protetto;chrome;risoluzione dei problemi;vec;compositore esperienza visivo;non sicuro;http;https;firefox;internet explorer
-description: Scopri come abilitare i contenuti misti in Chrome, Firefox e Edge. È possibile abilitare i contenuti misti quando un browser blocca la visualizzazione di una pagina, in quanto il contenuto protetto è misto a contenuto non protetto.
+description: Scopri come consentire contenuti misti in Chrome, Firefox ed Edge. È possibile abilitare i contenuti misti quando un browser blocca la visualizzazione di una pagina in presenza di contenuti protetti e contenuti non protetti.
 title: Come abilitare i contenuti misti nel browser
 feature: Visual Experience Composer (VEC)
 exl-id: a2209af6-65e5-427e-b2cb-53b803728ef3
 source-git-commit: 5e6bb16ad752b85e9a7dad088d15f5f6d3897ee9
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '593'
-ht-degree: 93%
+ht-degree: 100%
 
 ---
 
