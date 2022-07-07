@@ -5,9 +5,9 @@ title: Dove posso trovare la documentazione per Target?
 feature: Release Notes
 exl-id: 8e06c57b-94e6-41e4-a30c-8e10ab4882b5
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '486'
-ht-degree: 92%
+ht-degree: 100%
 
 ---
 
