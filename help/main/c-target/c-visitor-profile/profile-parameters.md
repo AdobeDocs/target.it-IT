@@ -5,9 +5,9 @@ title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2441'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -177,7 +177,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 **È possibile utilizzare script di profilo per acquisire informazioni da una pagina che si trova in un livello di dati?**
 
-Gli script di profilo non sono in grado di leggere la pagina direttamente poiché vengono eseguiti lato server. I dati devono essere trasmessi mediante una richiesta mbox o altri  [metodi per l’immissione di dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. Una volta che i dati sono in [!DNL Target], gli script di profilo possono leggerli come un parametro mbox o un parametro di profilo.
+Gli script di profilo non sono in grado di leggere la pagina direttamente poiché vengono eseguiti lato server. I dati devono essere trasmessi mediante una richiesta mbox o altri  [metodi per acquisire dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}. Una volta che i dati sono in [!DNL Target], gli script di profilo possono leggerli come un parametro mbox o un parametro di profilo.
 
 ## Riferimento JavaScript per i parametri del profilo di script
 
