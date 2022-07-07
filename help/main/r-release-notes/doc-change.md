@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
 workflow-type: tm+mt
 source-wordcount: '1106'
-ht-degree: 89%
+ht-degree: 99%
 
 ---
 
@@ -19,7 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 30 giugno | [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} | Avviato il *Guida per gli sviluppatori di Adobe Target* per consolidare tutti [!DNL Target] contenuti per sviluppatori in un unico comodo portale. Il portale include informazioni sull&#39;implementazione [!DNL Target] e [!DNL Recommendations], [!DNL Target] SDK e [!DNL Target] API. |
+| 30 giugno | [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} | È stata pubblicata la *Guida per gli sviluppatori di Adobe Target* per consolidare in un unico portale tutti i contenuti per sviluppatori di [!DNL Target]. Il portale include informazioni sull’implementazione di [!DNL Target] e [!DNL Recommendations], SDK di [!DNL Target] e API di [!DNL Target]. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.6.2 di [!DNL Target Standard/Premium]. |
 |  | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono stati aggiunti collegamenti di registrazione per le sessioni dei webinar precedenti. |
 | 14 giugno | [Pianificare e implementare Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Sono stati aggiornati gli esempi di codice nelle sezioni seguenti:<ul><li>Aggiunte al carrello/Visualizzazioni carrello/Pagine di pagamento</li><li>Escludere gli elementi già presenti nel carrello del visitatore</li></ul> |
@@ -97,6 +97,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Creazione di tipi di pubblico](/help/main/c-target/c-audiences/audiences.md) | Sono state aggiunte informazioni sui tipi di pubblico di [!DNL Adobe Experience Platform]. |
 |  | [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md) | Sono state aggiunte informazioni sui tipi di pubblico di [!DNL Adobe Experience Platform]. |
 | 21 gennaio | [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Sono state aggiunte informazioni sulla versione 1.8.3 di at.js. |
-| 19 gennaio | [Aggiornamento da at.js 1.** a at.js 2.x *x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | È stata aggiunta la seguente sezione: “at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.*” |
+| 19 gennaio | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | È stata aggiunta la seguente sezione: “at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.*” |
 | 12 gennaio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte nuove informazioni sulla versione di Target Standard/Premium 22.1.1. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | È stato aggiunto un collegamento all’esercitazione con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |
+|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | È stato aggiunto un collegamento al tutorial con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |
