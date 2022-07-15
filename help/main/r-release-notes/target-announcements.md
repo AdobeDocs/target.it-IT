@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1334'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -19,7 +19,7 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-### Adobe: Registri di personalizzazione nel settore - Retail (11 agosto 2022)
+### Adobe: Personalization Industry Insider - Retail (11 agosto 2022)
 
 Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore rilevano nuove tendenze dei consumatori, mentre lavoratori e viaggiatori iniziano a tornare alla normalità.
 
@@ -34,13 +34,13 @@ Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consu
 
 ### Serie di webinar pianificati
 
-Le seguenti serie di webinar sono previste per il prossimo futuro:
+Le seguenti serie di webinar sono pianificate per il prossimo futuro:
 
-* Insider del settore: Insider del settore della personalizzazione: Viaggi e ospitalità
-* Insider del settore: Insider del settore della personalizzazione: Media e intrattenimento
-* Generatori di competenze: Nuovi utenti/product manager Premium, sviluppatori di dispositivi mobili, addetti al marketing, analisti, utenti aziendali
+* Industry Insiders: Personalization Industry Insider: viaggi e ospitalità
+* Industry Insiders: Personalization Industry Insider: media e intrattenimento
+* Skill Builder: nuovi utenti, utenti Premium o product manager, sviluppatori per dispositivi mobili, addetti al marketing, analisti, utenti aziendali
 
-Controlla le date e le informazioni di registrazione nel [Community Adobe Target](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
+Controlla le date e le informazioni sulla registrazione in [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
