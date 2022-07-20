@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: fa6324606b32f265084615fd1c13ce6c49921b48
+source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
 workflow-type: tm+mt
-source-wordcount: '746'
-ht-degree: 100%
+source-wordcount: '966'
+ht-degree: 78%
 
 ---
 
@@ -17,6 +17,15 @@ ht-degree: 100%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target] versione di platform (20 luglio 2022)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+| Funzione | Descrizione |
+| --- | --- |
+| Miglioramento della precisione di valutazione del pubblico e riduzione della latenza degli utenti finali tramite il supporto IPv6 (TNT-43364, TNT-44692) | Le geolocalizzazioni dei visitatori ora sono determinate dagli indirizzi IPv6, se disponibili, anziché solo dagli indirizzi IPv4. Le API di distribuzione supportano anche i parametri di input IPv6. I filtri e l’inserimento nell’elenco Consentiti supportano sia gli indirizzi IPv4 che IPv6. Il supporto di IPv6 in questa versione significa che i visitatori verranno inclusi in modo più preciso nei tipi di pubblico (più accuratamente qualificati per le attività o da includere nei criteri di filtro). Inoltre, migliora la latenza dei dati, in quanto i client IPv6 si instradano direttamente, evitando il sovraccarico del gateway IPv6-to-IPv4. |
+| È stato risolto un problema di gestione del payload lato client di A4T (TNT-44926) | Con l’integrazione lato server di A4T, se Adobe Target identifica una richiesta come proveniente da un bot, non inoltra il payload ad Analytics e non esiste un evento mod_stats in registrato nel [!DNL Target] registri. Con questa versione, la registrazione lato client di A4T è stata migliorata in modo che il comportamento relativo al payload A4T sia lo stesso di quello relativo al lato server di A4T: I visitatori identificati come bot sono esclusi [!DNL Target] conteggio/reporting. (Nota che il problema in questione era limitato alle implementazioni che utilizzavano la gestione del carico utile sul lato client; lato server non interessato. Con questa versione, il comportamento è ora coerente sia per la gestione del payload lato server che per quello lato client.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 giugno 2022)
 
