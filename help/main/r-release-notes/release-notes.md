@@ -6,9 +6,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: d54f3c4c75031788316a94acf3d14a8db2a17366
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '966'
-ht-degree: 78%
+ht-degree: 100%
 
 ---
 
@@ -18,14 +18,14 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] versione di platform (20 luglio 2022)
+## Versione della piattaforma [!DNL Target] (20 luglio 2022)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
 | Funzione | Descrizione |
 | --- | --- |
-| Miglioramento della precisione di valutazione del pubblico e riduzione della latenza degli utenti finali tramite il supporto IPv6 (TNT-43364, TNT-44692) | Le geolocalizzazioni dei visitatori ora sono determinate dagli indirizzi IPv6, se disponibili, anziché solo dagli indirizzi IPv4. Le API di distribuzione supportano anche i parametri di input IPv6. I filtri e l’inserimento nell’elenco Consentiti supportano sia gli indirizzi IPv4 che IPv6. Il supporto di IPv6 in questa versione significa che i visitatori verranno inclusi in modo più preciso nei tipi di pubblico (più accuratamente qualificati per le attività o da includere nei criteri di filtro). Inoltre, migliora la latenza dei dati, in quanto i client IPv6 si instradano direttamente, evitando il sovraccarico del gateway IPv6-to-IPv4. |
-| È stato risolto un problema di gestione del payload lato client di A4T (TNT-44926) | Con l’integrazione lato server di A4T, se Adobe Target identifica una richiesta come proveniente da un bot, non inoltra il payload ad Analytics e non esiste un evento mod_stats in registrato nel [!DNL Target] registri. Con questa versione, la registrazione lato client di A4T è stata migliorata in modo che il comportamento relativo al payload A4T sia lo stesso di quello relativo al lato server di A4T: I visitatori identificati come bot sono esclusi [!DNL Target] conteggio/reporting. (Nota che il problema in questione era limitato alle implementazioni che utilizzavano la gestione del carico utile sul lato client; lato server non interessato. Con questa versione, il comportamento è ora coerente sia per la gestione del payload lato server che per quello lato client.) |
+| Miglioramento della precisione di valutazione del pubblico e riduzione della latenza per l’utente finale tramite il supporto IPv6 (TNT-43364, TNT-44692) | Le geolocalizzazioni dei visitatori ora sono determinate dagli indirizzi IPv6, se disponibili, anziché solo dagli indirizzi IPv4. Le API di consegna supportano anche i parametri di input IPv6. I filtri e l’elenco Consentiti supportano sia gli indirizzi IPv4 che IPv6. Grazie al supporto di IPv6 in questa versione, i visitatori verranno inclusi in modo più preciso nei tipi di pubblico (verranno qualificati per le attività o inclusi nei criteri di filtro in modo più accurato). Anche la latenza dei dati risulterà migliorata, in quanto i client IPv6 verranno instradati direttamente, evitando il sovraccarico del gateway IPv6-IPv4. |
+| È stato risolto un problema di gestione del payload lato client di A4T (TNT-44926) | Con l’integrazione lato server di A4T, se Adobe Target identifica una richiesta come proveniente da un bot, il payload non viene inoltrato ad Analytics e nei registri di [!DNL Target] non viene registrato alcun evento mod_stats. Con questa versione, la registrazione lato client di A4T è stata migliorata in modo che il comportamento relativo al payload A4T corrisponda a quello lato server di A4T: i visitatori identificati come bot vengono esclusi dal conteggio e dal reporting di [!DNL Target]. (Il problema in questione era limitato alle implementazioni che utilizzavano la gestione del payload lato client; il lato server non ne era interessato. Con questa versione, il comportamento è ora coerente sia per la gestione del payload lato server che per quello lato client.) |
 
 ## [!DNL Target Standard/Premium] 22.6.2 (30 giugno 2022)
 
@@ -53,7 +53,7 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato introdotto un miglioramento per la nuova pagina [!UICONTROL Tipi di pubblico] per evitare uno stato di mancata coerenza tra il vecchio database, in cui erano precedentemente archiviati i tipi di pubblico, e la nuova architettura, che recupera le informazioni direttamente dal back-end. (TGT-43552)
 * È stato risolto un problema che impediva ad alcuni clienti di salvare i tipi di pubblico combinati a causa dell’interfaccia di Target che creava contenitori “vuoti”. (TGT-43588)
 
-## Versione della piattaforma di destinazione (25 maggio 2022)
+## Versione della piattaforma Target (25 maggio 2022)
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
