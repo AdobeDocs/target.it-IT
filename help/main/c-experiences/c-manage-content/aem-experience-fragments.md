@@ -4,10 +4,10 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 3ef51f832c6e6afd8cd76c75c5c71505d11119bc
+source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
 workflow-type: tm+mt
-source-wordcount: '1324'
-ht-degree: 53%
+source-wordcount: '1369'
+ht-degree: 52%
 
 ---
 
@@ -105,6 +105,10 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 
 **Per utilizzare frammenti di esperienza utilizzando il Compositore esperienza visivo:**
 
+>[!NOTE]
+>
+>Frammenti di esperienza esportati come JSON in [!DNL Target] non può essere utilizzato nelle attività create utilizzando il Compositore esperienza visivo; solo i frammenti di esperienza HTML sono supportati nelle attività basate su VEC. Se desideri utilizzare i frammenti di esperienza JSON, utilizzali nelle attività create utilizzando [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+
 1. In [!DNL Target], durante la creazione o la modifica di un’esperienza nel [Compositore esperienza visivo](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), fai clic sul percorso nella pagina in cui desideri inserire il contenuto [!DNL AEM], quindi seleziona l’opzione desiderata per visualizzare l’elenco [!UICONTROL Scegli un frammento di esperienza].
 
    * [!UICONTROL Inserisci prima]
@@ -146,11 +150,11 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 ## Considerazioni {#considerations}
 
 * [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. Il frammento di esperienza importato dovrebbe diventare disponibile in [!DNL Target] entro dieci minuti; tuttavia, in futuro dovrebbe richiedere meno tempo.
-* Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
+* Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML o JSON. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 * Non puoi creare frammenti di esperienza utilizzando [!DNL Adobe I/O]. Crea frammenti di esperienza utilizzando AEM, come spiegato in precedenza.
 * Se aggiorni il frammento esperienza in AEM, il frammento esperienza deve essere pubblicato ed esportato in [!DNL Target] di nuovo [!DNL Target] può utilizzare le modifiche più recenti.
 
-## Rimozione di ClientLibs e HTML estranei dai frammenti esperienza esportati in Target
+## Rimozione di ClientLibs e HTML estranei dai frammenti di esperienza esportati in Target
 
 Quando si utilizzano offerte di frammenti di esperienza con [!DNL Target] in una pagina consegnata da AEM, la pagina di destinazione contiene già tutte le librerie client necessarie. Inoltre, non sono necessari elementi HTML estranei nell’offerta.
 
