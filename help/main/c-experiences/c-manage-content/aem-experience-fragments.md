@@ -4,9 +4,9 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: cc166a54ea4760b8024c05a98931d60cf46e7183
+source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
 workflow-type: tm+mt
-source-wordcount: '1369'
+source-wordcount: '1371'
 ht-degree: 52%
 
 ---
@@ -90,7 +90,7 @@ Dopo aver eseguito le attività precedenti, il frammento di esperienza viene vis
 >
 >* [!DNL Target] cerca attualmente frammenti di esperienza per importare ogni dieci minuti. Il frammento di esperienza importato dovrebbe diventare disponibile in [!DNL Target] entro dieci minuti; tuttavia, in futuro dovrebbe richiedere meno tempo.
 >
->* Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
+>* Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML o JSON. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 
 
 Passa il puntatore del mouse su un frammento di esperienza nell’elenco, quindi fai clic sull’icona [!UICONTROL Visualizza] ![Visualizza icona](assets/icon_info.png) per visualizzare ulteriori informazioni sul frammento di esperienza, compreso l’URL pubblico di consegna dell’offerta e il percorso [!DNL AEM].
@@ -104,10 +104,6 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 >I frammenti di esperienza non sono supportati in [!DNL Recommendations] attività. Tuttavia, per utilizzare i frammenti di esperienza per i consigli è possibile creare un [!UICONTROL Test A/B] attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) o un [!UICONTROL Targeting esperienza] (XT) e [includere consigli come offerta](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md).
 
 **Per utilizzare frammenti di esperienza utilizzando il Compositore esperienza visivo:**
-
->[!NOTE]
->
->Frammenti di esperienza esportati come JSON in [!DNL Target] non può essere utilizzato nelle attività create utilizzando il Compositore esperienza visivo; solo i frammenti di esperienza HTML sono supportati nelle attività basate su VEC. Se desideri utilizzare i frammenti di esperienza JSON, utilizzali nelle attività create utilizzando [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
 1. In [!DNL Target], durante la creazione o la modifica di un’esperienza nel [Compositore esperienza visivo](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), fai clic sul percorso nella pagina in cui desideri inserire il contenuto [!DNL AEM], quindi seleziona l’opzione desiderata per visualizzare l’elenco [!UICONTROL Scegli un frammento di esperienza].
 
@@ -135,6 +131,10 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
    * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
    * **Test multivariato (MVT):** [Creare un test multivariato](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
    * **Recommendationfs:** [Creare un’attività di Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
+
+>[!NOTE]
+>
+>Frammenti di esperienza esportati come JSON in [!DNL Target] non può essere utilizzato nelle attività create utilizzando il Compositore esperienza visivo; solo i frammenti di esperienza HTML sono supportati nelle attività basate su VEC. Se desideri utilizzare i frammenti di esperienza JSON, utilizzali nelle attività create utilizzando [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
 **Per utilizzare frammenti di esperienza tramite il Compositore esperienza basato su moduli:**
 
