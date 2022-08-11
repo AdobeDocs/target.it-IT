@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
-workflow-type: ht
-source-wordcount: '4524'
-ht-degree: 100%
+source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
+workflow-type: tm+mt
+source-wordcount: '4651'
+ht-degree: 97%
 
 ---
 
@@ -209,6 +209,12 @@ Per sincronizzare nuovamente e correggere la generazione rapporti:
 1. Elimina le attività originali (interessate).
 
 (TGT-38522, CSO 20201006007)
+
+### Indicatore di disponibilità del modello di Targeting automatico e Automated Personalization {#at-ap-model}
+
+La funzionalità di disponibilità del modello per le attività di Targeting automatico e Automated Personalization non è riuscita a intermittenza dal 1° giugno 2022 al 19 luglio 2022. Ciò significa che l’interfaccia utente di Target per la generazione di rapporti potrebbe non essere riuscita a mostrare un segno di spunta verde che indica che un modello è stato creato correttamente, anche se le esperienze o le offerte venivano servite su base personalizzata nelle attività di Targeting automatico o Automated Personalization.
+
+Tieni presente che **modello personalizzato** non è stato influenzato e i modelli sono stati costruiti con successo per tutto il periodo. Questo errore ha interessato solo il sistema di disponibilità del modello. **Anche i dati di segnalazione non sono stati influenzati**. In altre parole, le prestazioni (visite, conversioni e tassi di conversione) di esperienze e offerte non sono state influenzate. Potrebbe non essere stato visualizzato solo il segno di spunta verde che indica la disponibilità del modello personalizzato.
 
 ### Generazione di rapporti {#conversions-audiences}
 
