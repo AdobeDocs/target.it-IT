@@ -4,9 +4,9 @@ description: Scopri come creare attività di allocazione automatica e targeting 
 title: A4T supporta le attività di allocazione automatica e targeting automatico?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e8fc28ef2497c1dfea523a769c9c817cbd74fea2
+source-git-commit: 6235324c7a8952cca3a238b1948351ddc454862f
 workflow-type: tm+mt
-source-wordcount: '1695'
+source-wordcount: '1248'
 ht-degree: 2%
 
 ---
@@ -18,7 +18,7 @@ La [!DNL Adobe Target]-to-[!DNL Adobe Analytics] integrazione, nota come [Analyt
 L’integrazione A4T consente di:
 
 * Utilizzo [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)Capacità di slot machine per indirizzare il traffico verso esperienze vincenti.
-* Utilizzo [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)L’algoritmo di apprendimento automatico del gruppo di scegliere un’esperienza migliore per ogni visitatore. Il Targeting automatico sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
+* Utilizzo [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)L&#39;algoritmo di apprendimento automatico del gruppo di scegliere una migliore esperienza per ogni visitatore. Il Targeting automatico sceglie l’esperienza migliore in base ai profili, ai comportamenti e al contesto degli utenti durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
 
 Assicurati di [implementato A4T per l’utilizzo con attività di test A/B e targeting delle esperienze](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se utilizzi `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore a [!DNL Analytics]. Per ulteriori informazioni, consulta [Reporting di Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} nel *SDK per Adobe Target* guida.
 
@@ -37,11 +37,12 @@ Per iniziare:
 
    ![Sezione Origine per i rapporti nella pagina Obiettivi e impostazioni](/help/main/c-integrating-target-with-mac/a4t/assets/a4t-select.png)
 
-1. Scegli una metrica di obiettivo primario. Il primo menu a discesa consente di specificare un obiettivo in [!DNL Adobe Target] (che sarà successivamente monitorato da [!DNL Adobe Analytics] come metrica &quot;Conversioni di attività&quot;), o, per utilizzare un [!DNL Analytics] come obiettivo.
+1. Scegli una metrica di obiettivo primario.
 
-   * Per utilizzare [!DNL Adobe Target] per specificare l&#39;obiettivo di ottimizzazione, scegli **[!UICONTROL Conversione]**, quindi specifica l’azione che deve essere eseguita dal pubblico per indicare che l’obiettivo di conversione è stato raggiunto.
-   * Se invece selezioni **[!UICONTROL Utilizzare una metrica di Analytics]**, ti verrà quindi data una scelta del tipo di criterio di ottimizzazione da utilizzare.  Vedi [Metriche di obiettivo supportate e criteri di ottimizzazione](#supported) qui sotto per ulteriori informazioni. Dopo aver specificato il criterio di ottimizzazione, puoi selezionare una metrica compatibile da [!DNL Analytics] da utilizzare come obiettivo di ottimizzazione. Puoi utilizzare un [!DNL Analytics] metrica di conversione o [!DNL Analytics] evento personalizzato.
+   * Per utilizzare [!DNL Adobe Target] per specificare l&#39;obiettivo di ottimizzazione, scegli **[!UICONTROL Conversione]** .
+   * Scegli **[!UICONTROL Utilizzare una metrica di Analytics]** quindi seleziona una metrica da [!DNL Analytics] da utilizzare come obiettivo di ottimizzazione. Puoi utilizzare un [!DNL Analytics] metrica di conversione o [!DNL Analytics] evento personalizzato.
 
+   Vedi [Metriche dell’obiettivo supportate](#supported) qui sotto per ulteriori informazioni.
 
 1. Salva e attiva l’attività.
 
@@ -51,11 +52,9 @@ Per iniziare:
 
    [!UICONTROL Targeting automatico] utilizza la metrica selezionata per ottimizzare l’attività, indirizzando i visitatori a una migliore esperienza personalizzata.
 
-1. Utilizza la **[!UICONTROL Rapporti]** per visualizzare i rapporti dell’attività e fai clic su **[!UICONTROL Visualizzazione in Analytics]** per acquisire e segmentare ulteriormente i dati di reporting in un’area di lavoro Adobe Analytics. Segui le esercitazioni riportate di seguito per scoprire come impostare i rapporti in Workspace:
-* Allocazione automatica: vedere [Come impostare rapporti A4T in Analysis Workspace per le attività di allocazione automatica](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*
-* Targeting automatico: vedere [Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
+1. Utilizza la **[!UICONTROL Rapporti]** per visualizzare i rapporti dell’attività in base alla scelta di [!DNL Adobe Analytics] metriche. Fai clic su **[!UICONTROL Visualizzazione in Analytics]** per acquisire e segmentare ulteriormente i dati di reporting.
 
-## Metriche di obiettivo supportate e criteri di ottimizzazione {#supported}
+## Metriche dell’obiettivo supportate {#supported}
 
 [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] consente di scegliere uno dei seguenti tipi di metriche come metrica di obiettivo principale per l’ottimizzazione:
 
@@ -63,24 +62,18 @@ Per iniziare:
 * [!DNL Adobe Analytics] metriche di conversione
 * [!DNL Adobe Analytics] eventi personalizzati
 
-Tuttavia, [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] i modelli si ottimizzano per **normalizzato** versioni di queste metriche, con la normalizzazione esatta a seconda del tipo di attività. Le opzioni per i criteri di ottimizzazione per ciascun tipo di attività sono illustrate nella tabella seguente:
+[!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] richiede di scegliere una metrica basata su un evento binomiale. Un evento binomiale si verifica o non si verifica. Gli eventi binari includono un clic, una conversione, un ordine e così via. Questi tipi di eventi sono anche talvolta denominati eventi Bernoulli, binari o discreti.
 
-| Tipo di attività | Origine metrica | Criterio di ottimizzazione | Descrizione |
-|---------------|---------------|-----------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Allocazione automatica | Analytics | Massimizza tasso di conversione del visitatore univoco | I modelli tentano di trovare l’Esperienza con il più alto tasso di conversione del visitatore univoco, definito come il numero di visitatori per i quali la metrica di analisi è diversa da zero, diviso per il numero totale di visitatori (che hanno ricevuto tale Esperienza). Ciò significa che la metrica viene trattata come binaria - 0 o 1 per ogni visitatore univoco nell’attività.   Utilizza questa opzione se ti interessa solo la frazione di utenti che esegue una particolare azione o se più eventi di conversione per un singolo utente non hanno senso. |
-| Allocazione automatica | Analytics | Massimizza valore della metrica per visitatore | I modelli tentano di trovare l’Esperienza con il valore di metrica più alto per visitatore, che è definito come il valore totale della metrica per tutti gli utenti esposti a tale Esperienza, diviso per il numero totale di visitatori che hanno ricevuto tale Esperienza. Questo significa che la metrica può assumere qualsiasi valore per ogni visitatore univoco nell’attività. Ad esempio, se un visitatore si converte più volte, ogni conversione verrà conteggiata.  Utilizza questa opzione se sei interessato a massimizzare una metrica continua come i ricavi totali o se più eventi di conversione per un singolo utente hanno più significato di uno (ad esempio, più ordini valgono più di uno) |
-| Allocazione automatica | Target | (non configurabile) | La metrica viene trattata come binaria e il tasso di conversione del visitatore univoco viene massimizzato. |
-| Targeting automatico | Analytics | Massimizza tasso di conversione della visita univoca | A differenza di Allocazione automatica o di test A/B manuali, la natura personalizzata del Targeting automatico significa che l’esperienza visualizzata da un visitatore può cambiare per ogni nuova visita. Il tasso appropriato è quindi un tasso di conversione normalizzato per le visite, definito come la frazione di visite in cui viene registrata una metrica diversa da zero. Questo è il tasso di conversione ottimizzato dal Targeting automatico.   Simile all’allocazione automatica, questa opzione deve essere selezionata quando si considera la frazione di visite in cui si verifica una conversione, ovvero quando più eventi di conversione si verificano per una singola visita non sono importanti. |
-| Targeting automatico | Analytics | Massimizza valore della metrica per visita | Quando la metrica per cui viene ottimizzata è continua (ad esempio, le entrate) o quando la presenza di più eventi di conversione in una singola visita è significativa (ad esempio, più ordini), puoi scegliere di massimizzare il valore della metrica per visita. Il &quot;tasso&quot; ottimizzato è il valore totale della metrica, diviso per il numero di visite. |
-| Targeting automatico | Target | (non configurabile) | La metrica viene trattata come binaria e il tasso di conversione di visita univoco viene massimizzato. |
+[!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] non supporta l’ottimizzazione per le metriche continue. Le metriche continue includono ricavi, numero di prodotti ordinati, durata della sessione, numero di visualizzazioni di pagina nella sessione e così via. Questi tipi di metriche non supportati vengono talvolta definiti anche metriche non binomiali o non Bernoulli.
 
+I seguenti tipi di metriche non sono supportati come metriche dell’obiettivo primario:
 
+* [!DNL Adobe Target] metriche di coinvolgimento e ricavi
+* [!DNL Adobe Analytics] metriche di coinvolgimento e ricavi
 
-Tieni presente che a seconda del criterio di ottimizzazione, alcuni [!DNL Adobe Analytics] le metriche non saranno supportate.
+   È possibile selezionare un [!DNL Analytics] metrica di coinvolgimento o ricavi come metrica principale dell’obiettivo, perché [!DNL Target] non è in grado di identificare ed escludere tutte le metriche di coinvolgimento e ricavi da [!DNL Analytics]. Seleziona solo metriche di conversione binomiali o eventi personalizzati da [!DNL Analytics].
 
-* [!DNL Adobe Analytics] le metriche calcolate non sono supportate.
-* [!DNL Adobe Analytics] le metriche devono sempre essere segmentabili e se il valore per visitatore/visita viene ottimizzato, la metrica deve avere una polarità positiva (ovvero, i valori positivi sono migliori di quelli negativi)
-* [!DNL Adobe Analytics] metrica utilizzata in [!DNL Auto-Target] le attività devono essere disponibili nelle esportazioni di DataWarehouse.
+* [!DNL Adobe Analytics] metriche calcolate
 
 ## Limitazioni e note
 
@@ -90,8 +83,10 @@ Alcune limitazioni e note si applicano a entrambi [!UICONTROL Allocazione automa
 
 * Quando utilizzi [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico], dovresti sempre visualizzare i rapporti in [!DNL Analytics].
 * Impossibile modificare l&#39;origine per la generazione di rapporti da [!DNL Analytics] a [!DNL Target] o viceversa dopo l’attivazione di un’attività.
-* Sebbene le metriche calcolate non siano supportate come metriche dell’obiettivo primario, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell’obiettivo principale. Ad esempio, se desideri ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, seleziona un evento personalizzato corrispondente a &quot;completamenti del modulo&quot; come metrica di obiettivo principale. Come spiegato in [Metriche di obiettivo supportate e criteri di ottimizzazione](#supported), a seconda del tipo di attività e del criterio di ottimizzazione, [!DNL Target] normalizza automaticamente le metriche di conversione, pertanto non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
-
+* Sebbene le metriche calcolate non siano supportate come metriche dell’obiettivo primario, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell’obiettivo principale. Ad esempio, se desideri ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, seleziona un evento personalizzato corrispondente a &quot;completamenti del modulo&quot; come metrica di obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione per visita per tenere conto della distribuzione del traffico irregolare, quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
+* Quando utilizzi [!DNL Adobe Analytics] come origine per la generazione di rapporti per [!UICONTROL Allocazione automatica] o [!UICONTROL Targeting automatico] attività, devi sempre visualizzare i rapporti in [!DNL Analytics].
+* Impossibile modificare l&#39;origine per la generazione di rapporti da [!DNL Analytics] a [!DNL Target] o viceversa dopo l’attivazione di un’attività.
+* Sebbene le metriche calcolate non siano supportate come metriche dell’obiettivo primario, spesso è possibile ottenere il risultato desiderato selezionando invece un evento personalizzato come metrica dell’obiettivo principale. Ad esempio, se desideri ottimizzare per una metrica come &quot;completamenti del modulo per visitatore&quot;, seleziona un evento personalizzato corrispondente a &quot;completamenti del modulo&quot; come metrica di obiettivo principale. [!DNL Target] normalizza automaticamente le metriche di conversione in base a ogni visitatore per [!UICONTROL Allocazione automatica] attività , quindi non è necessario utilizzare una metrica calcolata per eseguire la normalizzazione.
 
 ### Allocazione automatica {#aa}
 
@@ -102,19 +97,15 @@ Alcune limitazioni e note si applicano a entrambi [!UICONTROL Allocazione automa
 
 ### Targeting automatico {#at}
 
-* **Frequenza di formazione**: [!UICONTROL Targeting automatico] I modelli continuano a allenarsi ogni 24 ore, come al solito. Tuttavia, i dati evento di conversione provenienti da [!DNL Analytics] è ritardato di sei a 24 ore in più. Questo ritardo significa la distribuzione del traffico per [!DNL Target] segue gli ultimi eventi registrati in [!DNL Analytics]. Questo ritardo ha l&#39;effetto più grande nelle prime 48 ore dopo l&#39;attivazione iniziale di un&#39;attività. Le prestazioni dell’attività si rispecchieranno più strettamente [!DNL Analytics] comportamento di conversione dopo cinque giorni. Considera l&#39;utilizzo di [!UICONTROL Allocazione automatica] anziché [!UICONTROL Targeting automatico] per le attività di breve durata in cui la maggior parte del traffico avviene nei primi cinque giorni della vita dell’attività.
+* [!UICONTROL Targeting automatico] I modelli continuano a allenarsi ogni 24 ore, come al solito. Tuttavia, i dati evento di conversione provenienti da [!DNL Analytics] è ritardato di sei a 24 ore in più. Questo ritardo significa la distribuzione del traffico per [!DNL Target] segue gli ultimi eventi registrati in [!DNL Analytics]. Questo ritardo ha l&#39;effetto più grande nelle prime 48 ore dopo l&#39;attivazione iniziale di un&#39;attività. Le prestazioni dell&#39;attività si rispecchieranno più strettamente [!DNL Analytics] comportamento di conversione dopo cinque giorni. Considera l&#39;utilizzo di [!UICONTROL Allocazione automatica] anziché [!UICONTROL Targeting automatico] per le attività a breve termine in cui la maggior parte del traffico si verifica entro i primi cinque giorni della vita dell’attività.
 * Quando utilizzi [!DNL Analytics] come origine dati per un [!UICONTROL Targeting automatico] attività, le sessioni terminano dopo sei ore. Le conversioni che si verificano dopo sei ore non sono conteggiate.
 
 Per ulteriori informazioni, consulta [Modelli di attribuzione e finestre di lookback](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/attribution/models.html) in *Guida agli strumenti di Analytics*.
 
-## Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico e Allocazione automatica {#tutorial}
+## Esercitazione: Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico {#tutorial}
 
-Sebbene siano disponibili funzionalità avanzate di analisi in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], alcune modifiche all&#39;impostazione predefinita [!UICONTROL Analytics for Target] Per interpretare correttamente le attività di Allocazione automatica e Targeting automatico , è necessario disporre di un pannello .
+Sebbene siano disponibili funzionalità avanzate di analisi in [!DNL Adobe Analytics] [!UICONTROL Analysis Workspace], alcune modifiche all&#39;impostazione predefinita [!UICONTROL Analytics for Target] Per interpretare correttamente le attività di Targeting automatico sono necessari i pannelli . Queste modifiche sono necessarie a causa delle differenze tra le attività di sperimentazione (manuale A/B e [!UICONTROL Allocazione automatica]) e attività di personalizzazione ([!UICONTROL Targeting automatico]).
 
-Tali modifiche sono necessarie a causa delle definizioni sfumate dei tassi di conversione descritte in [Metriche di obiettivo supportate e criteri di ottimizzazione](#supported), nonché le differenze tra le attività di sperimentazione (manuale A/B e [!UICONTROL Allocazione automatica]) e attività di personalizzazione ([!UICONTROL Targeting automatico]).
+Questa esercitazione illustra le modifiche consigliate per l’analisi [!UICONTROL Targeting automatico] attività [!UICONTROL Area di lavoro].
 
-Queste esercitazioni illustrano le modifiche consigliate per l’analisi [!UICONTROL A4T] [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività [!UICONTROL Area di lavoro].
-
-Per ulteriori informazioni, consulta 
-* [Come impostare rapporti A4T in Analysis Workspace per le attività di allocazione automatica](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
-* [Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
+Per ulteriori informazioni, consulta [Come impostare rapporti A4T in Analysis Workspace per le attività di Targeting automatico](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html) in *Tutorials Adobe Target*.
