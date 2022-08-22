@@ -4,9 +4,9 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
-source-wordcount: '1877'
+source-wordcount: '1878'
 ht-degree: 70%
 
 ---
@@ -21,7 +21,7 @@ Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant for
 
 Per ulteriori informazioni, consulta la sezione [Post del blog Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
-## [!DNL Adobe Target] Coda D&amp;A della community
+## [!DNL Adobe Target] Coffee break comunitario Q&amp;A (31 agosto 2022)
 
 * **Mercoledì 31 agosto 2022**
 * **dalle 9:00 alle 10:00 (PDT, UTC-7)**
@@ -58,7 +58,7 @@ Esploriamo le idee su:
 * Creazione di esperienze iper-personalizzate
 +++
 
-## [!DNL Adobe Target] Generatori di competenze - Ottimizzazione esperienza mobile (6 settembre 2022)
+### [!DNL Adobe Target] Generatori di competenze - Ottimizzazione esperienza mobile (6 settembre 2022)
 
 Le esperienze mobili stanno alimentando l&#39;innovazione nel modo in cui i team di marketing e ingegneri utilizzano strategie basate sui prodotti per la personalizzazione cross-channel nel web e nell&#39;app. Partecipa a [!DNL Adobe] Skill Builders session e scopri come [!DNL Adobe Target] sblocca un nuovo potenziale di coinvolgimento e crescita dei profitti per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per creare comunità di prodotti fiorenti.
 
@@ -70,7 +70,7 @@ Le esperienze mobili stanno alimentando l&#39;innovazione nel modo in cui i team
 
 +++
 
-## [!DNL Adobe Target] Generatori di competenze - Personalizzazione guidata dall’intelligenza artificiale e Recommendations (15 settembre 2022)
+### [!DNL Adobe Target] Generatori di competenze - Personalizzazione guidata dall’intelligenza artificiale e Recommendations (15 settembre 2022)
 
 L’automazione nella sperimentazione e nella personalizzazione continua a stimolare le conversioni più elevate e il ROI per i team di marketing, ingegneri e prodotti. Partecipa a [!DNL Adobe] Skill Builders session e scopri come utilizzare [!DNL Adobe Target] casi d’uso e funzionalità avanzati basati sull’intelligenza artificiale con consigli su prodotti e contenuti per restare al passo con la concorrenza e vincere ogni esperienza.
 
