@@ -4,47 +4,122 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 8e84f1727f30ed8e57da8063a8497f5362bb7ce7
-workflow-type: ht
-source-wordcount: '1334'
-ht-degree: 100%
+source-git-commit: 1930b89b420b48d64cc5a302850a060f157dcc71
+workflow-type: tm+mt
+source-wordcount: '1877'
+ht-degree: 70%
 
 ---
 
-# Annunci ed eventi di Target
+# [!DNL Adobe Target] annunci ed eventi
 
 Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono le sessioni Coffee Break su [!DNL Target], le serie di webinar su [!DNL Target], le sessioni Skill Builder dedicate a [!DNL Target], le chat per sviluppatori e altro ancora. Se disponibili, sono inclusi i collegamenti alle registrazioni precedenti.
+
+## [!DNL Target] leader nominato nel Gartner Magic Quadrant per i motori di personalizzazione (2022)
+
+Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant for Personalization Engines (PE) per il quinto anno consecutivo. [!DNL Adobe] hanno inoltre ricevuto punteggi di rilievo e aumenti significativi su base annua in tutti e tre i casi d’uso principali: Digital Marketing, Digital Commerce, e servizi e supporto. [!DNL Target] ha inoltre ricevuto i punteggi più elevati per le nostre funzionalità di test tra tutti i fornitori valutati.
+
+Per ulteriori informazioni, consulta la sezione [Post del blog Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Coda D&amp;A della community
+
+* **Mercoledì 31 agosto 2022**
+* **dalle 9:00 alle 10:00 (PDT, UTC-7)**
+* **[Informazioni di registrazione](https://adobe.ly/3buoDUt){target=_blank}**
+
+Saremo uniti da Senior [!DNL Adobe] Premier Support Consulente Moses Maxen per chiacchierare del tuo [!DNL Adobe Target] questioni relative ai temi trattati di recente [Webinar 8/11/22 Retail Personalization Industry Insiders](https://video.tv.adobe.com/v/346323){target=_blank}, così come le sue aree di competenza con [!DNL Target]:
+
+* Le vendite al dettaglio di e-commerce stanno aumentando vertiginosamente a fronte del cambiamento dei modelli e dei comportamenti di acquisto dei consumatori negli ultimi mesi, con una maggiore domanda di beni e servizi in alcuni mercati, compresi i beni imballati al consumo
+* Strategie di ottimizzazione e personalizzazione correlate
+* [!DNL Target] Implementazione
+* [!DNL Adobe] Funzioni di Sensei
+* Flussi di lavoro nell’interfaccia utente core
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
+### Collezione dello chef: Ricette per personalizzazione (30 agosto 2022)
+
+Partecipa a [!DNL Adobe Target] [!DNL ]collaborano con loro per scoprire come ottenere il massimo valore da Target. Basato sul nostro eBook più recente, &quot;Collezione di Chef: Idee per la personalizzazione&quot;.
+
++++Fai clic qui
+
+* **Giovedì 30 agosto 2022**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form) {target=_blank}**
+
+Approfondiremo le storie dei nostri clienti &quot;chef&quot; e ciò che hanno cucinato nelle loro cucine di personalizzazione.
+
+Esploriamo le idee su:
+
+* Come utilizzare la personalizzazione per generare fedeltà
+* Ottimizzazione per un vantaggio competitivo
+* Creazione di esperienze iper-personalizzate
++++
+
+## [!DNL Adobe Target] Generatori di competenze - Ottimizzazione esperienza mobile (6 settembre 2022)
+
+Le esperienze mobili stanno alimentando l&#39;innovazione nel modo in cui i team di marketing e ingegneri utilizzano strategie basate sui prodotti per la personalizzazione cross-channel nel web e nell&#39;app. Partecipa a [!DNL Adobe] Skill Builders session e scopri come [!DNL Adobe Target] sblocca un nuovo potenziale di coinvolgimento e crescita dei profitti per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per creare comunità di prodotti fiorenti.
+
++++Fai clic qui
+
+* **Giovedì 6 settembre 2022**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
++++
+
+## [!DNL Adobe Target] Generatori di competenze - Personalizzazione guidata dall’intelligenza artificiale e Recommendations (15 settembre 2022)
+
+L’automazione nella sperimentazione e nella personalizzazione continua a stimolare le conversioni più elevate e il ROI per i team di marketing, ingegneri e prodotti. Partecipa a [!DNL Adobe] Skill Builders session e scopri come utilizzare [!DNL Adobe Target] casi d’uso e funzionalità avanzati basati sull’intelligenza artificiale con consigli su prodotti e contenuti per restare al passo con la concorrenza e vincere ogni esperienza.
+
++++Fai clic qui
+
+* **Giovedì 15 settembre 2022**
+* **19:00 - 20:00 (CET)**
+* **[Ulteriori informazioni e registrazione](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/) {target=_blank}**
+
++++
+
+## Registrazioni di sessioni Skill Builder e webinar passati
+
+Accedere alle registrazioni di eventi passati (se disponibili):
+
+### Attivazione fedeltà in tempo reale (25 agosto 2022)
+
+La crescente lealtà in un periodo di problemi accelerati della catena di approvvigionamento, carenze di servizi e personale limitato è una sfida che la maggior parte dei marchi di viaggio, ospitalità e ristorazione si trova ad affrontare. Nell’era dell’intelligenza artificiale, in che modo i brand possono scalare le esperienze senza le risorse necessarie che hanno lasciato il settore. Il progresso digitale ha accelerato 20-25 volte più velocemente per supportare non solo le aspettative più rapide dei clienti, ma anche per scalare i team attraverso l&#39;automazione.
+
++++Fai clic qui
+
+* **Giovedì 25 agosto 2022**
+* **Dalle 10:00 alle 11:00 (PDT, UTC-7)**
+* **[Ulteriori informazioni e registrazione](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
+
+Nel 2022, i sistemi hanno raggiunto un punto di svolta nella capacità di fornire un&#39;intelligenza continua per garantire l&#39;attivazione fedeltà in tempo reale.
+
+Argomenti da esplorare:
+
+* L&#39;accelerazione dell&#39;interruzione digitale e l&#39;aumento dell&#39;intelligenza artificiale
+* Perché i primi adottori stanno vincendo sia nella crescita di punta che in quella di fondo
+* Automazione della personalizzazione nei viaggi
+* Attivazione fedeltà in tempo reale in azione
++++
+
 ### Adobe: Personalization Industry Insider - Retail (11 agosto 2022)
 
 Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore rilevano nuove tendenze dei consumatori, mentre lavoratori e viaggiatori iniziano a tornare alla normalità.
 
+* [Collegamento di registrazione](https://video.tv.adobe.com/v/346323) {target=_blank}
+
 +++Fai clic qui
 
 * **Giovedì 11 agosto 2022**
-* **19:00 - 20:00 (CET)**
+* **1:00 alle 2:00 p.m. (1)**
 * **[Ulteriori informazioni e registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/) {target=_blank}**
 
 Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
 +++
-
-### Serie di webinar pianificati
-
-Le seguenti serie di webinar sono pianificate per il prossimo futuro:
-
-* Industry Insiders: Personalization Industry Insider: viaggi e ospitalità
-* Industry Insiders: Personalization Industry Insider: media e intrattenimento
-* Skill Builder: nuovi utenti, utenti Premium o product manager, sviluppatori per dispositivi mobili, addetti al marketing, analisti, utenti aziendali
-
-Controlla le date e le informazioni sulla registrazione in [Adobe Target Community](https://experienceleaguecommunities.adobe.com/t5/adobe-target/ct-p/adobe-target-community){target=_blank}.
-
-## Registrazioni di sessioni Skill Builder e webinar passati
-
-Accedi alle registrazioni degli eventi precedenti:
 
 ### Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target] (2 giugno 2022)
 
