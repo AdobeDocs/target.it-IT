@@ -4,10 +4,10 @@ description: Scopri come creare criteri che controllano il contenuto delle attiv
 title: Come si creano i criteri in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
 workflow-type: tm+mt
-source-wordcount: '2832'
-ht-degree: 53%
+source-wordcount: '2835'
+ht-degree: 52%
 
 ---
 
@@ -170,10 +170,6 @@ Per ulteriori informazioni sulla scelta di un [!UICONTROL Chiave dei consigli], 
 
    Per ulteriori dettagli consulta [Specificare le regole di inclusione](#inclusion) sotto.
 
-1. (Facoltativo) Fai scorrere il **[!UICONTROL Consiglia gli articoli acquistati in precedenza]** passa alla posizione &quot;on&quot;.
-
-   Questa impostazione è basata su `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi oggetti che le persone ritornano per acquistare di nuovo su base ripetuta, come shampoo o altri oggetti personali, devi abilitare questa opzione.
-
 ## Somiglianza del contenuto {#similarity}
 
 Utilizza le regole di [!UICONTROL somiglianza del contenuto] per formulare consigli basati su attributi di elemento o file multimediale.
@@ -219,6 +215,10 @@ Le opzioni di regola di inclusione variano secondo il settore verticale. Per imp
 Le regole di inclusione sono unite con l&#39;operatore “AND” (E). Gli articoli verranno inclusi in un consiglio solo se vengono soddisfatte tutte le regole.
 
 Per creare una semplice regola di inclusione, come accennato in precedenza, per visualizzare solo le scarpe da donna con una disponibilità di oltre 50 pezzi e un prezzo tra 25 $ e 45 $, attieniti alla seguente procedura:
+
+1. (Condizionale) Fai scorrere il **[!UICONTROL È possibile consigliare gli articoli acquistati di recente?]** passa alla posizione &quot;on&quot;.
+
+   Questa impostazione è basata su `productPurchasedId`. Il comportamento predefinito è quello di sconsigliare gli articoli acquistati in precedenza. Nella maggior parte dei casi non si desidera promuovere articoli che un cliente ha recentemente acquistato. È utile se si vendono oggetti che le persone solitamente acquistano una sola volta, ad esempio nel caso di un kayak. Se vendi oggetti che le persone ritornano per acquistare di nuovo su base ripetuta, come shampoo o altri oggetti personali, devi abilitare questa opzione.
 
 1. Imposta la fascia di prezzo per i prodotti da consigliare.
 1. Imposta la quantità di disponibilità minima i prodotti da consigliare.
