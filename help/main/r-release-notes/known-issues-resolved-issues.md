@@ -5,9 +5,9 @@ title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: 27ed2c43ae41f434df8598a1b8cf4986279abfe3
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4651'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -69,16 +69,16 @@ Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automa
 
 * Per i siti web delle applicazioni a pagina singola, l’annullamento del caricamento non consente di modificare le azioni nel pannello [!UICONTROL Modifiche].
 
-### Consigli
+### Recommendations
 
-Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Consigli]:
+Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Recommendations]:
 
-* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione di consigli JSON, restituisce un tipo HTML.
+* Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione de Recommendations JSON, restituisce un tipo HTML.
 * Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
 * Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
-* Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra dei consigli. (TGT-33426)
+* Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra de Recommendations. (TGT-33426)
 * Raccolte, esclusioni, criteri e progettazioni creati mediante API non sono visibili nell’interfaccia dell’utente Target e possono essere modificati solo tramite API. Allo stesso modo, se crei uno di questi elementi nell’interfaccia utente di Target e successivamente li modifichi tramite API, tali modifiche non vengono riportate nell’interfaccia utente di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche. (TGT-35777)
-* Le attività Consigli create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
+* Le attività Recommendations create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
 * I criteri e le schede di progettazione non mostrano il numero corretto di attività in cui vengono utilizzati. Se i criteri o la progettazione vengono utilizzati in un’attività A/B, la scheda potrebbe mostrare in modo errato che la progettazione o i criteri non vengono utilizzati, anche quando la progettazione o i criteri vengono utilizzati nell’attività. (TGT-36621, TGT-37217)
 
@@ -94,9 +94,9 @@ Di seguito sono riportati problemi noti relativi a at.js:
 
    Quando si utilizza at.js, la casella di controllo Compatibilità è nascosta e non è quindi possibile visualizzare gli algoritmi non compatibili.
 
-   Questo problema è relativo solo alle attività Consigli che utilizzano il Compositore esperienza visivo.
+   Questo problema è relativo solo alle attività Recommendations che utilizzano il Compositore esperienza visivo.
 
-   **Soluzione alternativa**: disabilita l’opzione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Consigli > Impostazioni]. Dopo aver disabilitato questa impostazione, nel selettore dei criteri verranno visualizzati tutti i criteri (compatibili e non). (TGT-25949)
+   **Soluzione alternativa**: disabilita l’opzione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Recommendations > Impostazioni]. Dopo aver disabilitato questa impostazione, nel selettore dei criteri verranno visualizzati tutti i criteri (compatibili e non). (TGT-25949)
 
 * Dopo l’aggiornamento alla versione 1.0 di at.js, le mbox non funzionano nei browser Microsoft Explorer 11 a causa dell’interazione tra at.js e Visitor API 2.2.0. Questo problema riguarda le versioni 0.9.6 e successive di at.js. (TNT-27600)
 * at.js potrebbe non funzionare con le app Cordova/Hybrid perché non supportano i cookie di prima parte. (TNT-26166)
@@ -151,7 +151,7 @@ Quando si copia un’attività [!UICONTROL Recommendations] con una promozione a
 
 Questo problema è stato risolto con la versione 21.2.1 di [!DNL Target Standard/Premium].
 
-### Modalità di controllo qualità per le attività Consigli
+### Modalità di controllo qualità per le attività Recommendations
 
 Un problema noto impedisce l’anteprima se i criteri utilizzati nell’attività sono basati su elementi o su categorie. (TNT-37455)
 
@@ -212,9 +212,9 @@ Per sincronizzare nuovamente e correggere la generazione rapporti:
 
 ### Indicatore di disponibilità del modello di Targeting automatico e Automated Personalization {#at-ap-model}
 
-La funzionalità di disponibilità del modello per le attività di Targeting automatico e Automated Personalization non è riuscita a intermittenza dal 1° giugno 2022 al 19 luglio 2022. Ciò significa che l’interfaccia utente di Target per la generazione di rapporti potrebbe non essere riuscita a mostrare un segno di spunta verde che indica che un modello è stato creato correttamente, anche se le esperienze o le offerte venivano servite su base personalizzata nelle attività di Targeting automatico o Automated Personalization.
+Dal 1° giugno 2022 al 19 luglio 2022, si sono verificati errori intermittenti nella funzionalità Disponibilità del modello per le attività di Targeting automatico e Automated Personalization. Nell’interfaccia utente di Target per la generazione di rapporti non veniva visualizzato un segno di spunta verde per indicare che un modello era stato creato correttamente, anche se le esperienze o le offerte venivano servite su base personalizzata nelle attività di Targeting automatico o Automated Personalization.
 
-Tieni presente che **modello personalizzato** non è stato influenzato e i modelli sono stati costruiti con successo per tutto il periodo. Questo errore ha interessato solo il sistema di disponibilità del modello. **Anche i dati di segnalazione non sono stati influenzati**. In altre parole, le prestazioni (visite, conversioni e tassi di conversione) di esperienze e offerte non sono state influenzate. Potrebbe non essere stato visualizzato solo il segno di spunta verde che indica la disponibilità del modello personalizzato.
+Questo problema non ha influito sulla **creazione stessa del modello personalizzato**, e i modelli sono stati comunque creati con successo per tutto questo periodo. Questo errore ha interessato solo il sistema di disponibilità del modello. **I dati di reporting non hanno risentito in alcun modo da questo problema**. In altre parole, le prestazioni (visite, conversioni e tassi di conversione) di esperienze e offerte non sono state interessate da questo problema. L’unico effetto riscontrabile poteva essere la mancata visualizzazione del segno di spunta verde indicante la disponibilità del modello personalizzato.
 
 ### Generazione di rapporti {#conversions-audiences}
 
@@ -272,13 +272,13 @@ Il problema *non* ti riguarda se:
 
 Per determinare se questo problema ha interessato il reporting di Target, contatta l’[Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#concept_34A1CA16F2244D42930BB77846A5ABBB).
 
-### Consigli
+### Recommendations
 
-* L’indice del feed Consigli può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
+* L’indice del feed Recommendations può mostrare il messaggio “In attesa dell’indice” se gli elementi nel feed sono identici a quelli della precedente esecuzione. Questo non influisce sull’assimilazione del prodotto per la consegna. (RECS-6663)
 
    Questo problema è stato risolto con la versione 19.4.2 di Target.
 
-* L’elaborazione dei feed Consigli richiede più tempo del previsto. (COR-2836)
+* L’elaborazione dei feed Recommendations richiede più tempo del previsto. (COR-2836)
 
    Risolto nella versione 16.10.1 di Target.
 
@@ -341,13 +341,13 @@ Se si ricarica il Compositore esperienza visivo al passaggio 1 del flusso di lav
 
 Questo problema è stato risolto nella versione 18.9.1.
 
-### Attività Consigli che utilizza una regola di promozione attributi
+### Attività Recommendations che utilizza una regola di promozione attributi
 
-Quando si modifica o si copia un&#39;attività di Consigli che utilizza una regola di promozione attributi, viene visualizzato l&#39;errore “Campo mancante” quando si fa clic su Salva.
+Quando si modifica o si copia un&#39;attività de Recommendations che utilizza una regola di promozione attributi, viene visualizzato l&#39;errore “Campo mancante” quando si fa clic su Salva.
 
 Questo problema è stato risolto nella versione 17.8.1.
 
-### Consigli di backup
+### Recommendations de backup
 
 I consigli di backup mostrano erroneamente lo stato “Abilitato” nelle schede degli articoli visualizzati di recente nell’interfaccia utente di Target. (TGT-29308)
 
@@ -442,7 +442,7 @@ Risolto nella versione 17.4.1 di Target (27 aprile 2017).
 
 Per il criterio Visualizzato di recente, le regole dinamiche basate su entità non produrranno alcun consiglio se il parametro entity.id non viene passato alla richiesta mbox. (RECS-6241)
 
-Questo problema è stato risolto con il rilascio della funzionalità Consigli (22 marzo 2018). Dopo il rilascio della funzionalità Consigli, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
+Questo problema è stato risolto con il rilascio della funzionalità Recommendations (22 marzo 2018). Dopo il rilascio della funzionalità Recommendations, Target ignora le regole dinamiche basate su entità se entity.id non viene passato alla richiesta mbox.
 
 ### at.js {#at-js-7}
 
@@ -452,7 +452,7 @@ Risolto nella versione 17.3.1 di Target (30 marzo 2017).
 
 ### Regole di esclusione globale
 
-Le regole di esclusione globale impiegano 10-20 minuti per propagarsi alla rete Edge la funzione Premium Consigli. (RECS-5270)
+Le regole di esclusione globale impiegano 10-20 minuti per propagarsi alla rete Edge la funzione Premium Recommendations. (RECS-5270)
 
 Risolto nella versione 17.2.2.0 di Recommendations (6 marzo 2017).
 
