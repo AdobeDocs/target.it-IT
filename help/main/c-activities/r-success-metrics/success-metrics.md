@@ -4,9 +4,9 @@ description: Scopri le metriche di successo in Adobe [!DNL Target] che consente 
 title: Cosa sono le metriche di successo?
 feature: Success Metrics
 exl-id: 38d5314d-4950-4106-a058-0d221faf5a24
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 7dd3e3167b7dcb4de9e2980e6fc41661a2574abc
 workflow-type: tm+mt
-source-wordcount: '1172'
+source-wordcount: '1171'
 ht-degree: 43%
 
 ---
@@ -27,7 +27,7 @@ Metriche dei ricavi impostate su &quot;[!UICONTROL Incrementa il conteggio e man
 
 >[!NOTE]
 >
->Per le attività che utilizzano [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T) la metrica obiettivo utilizza sempre il valore &quot;[!UICONTROL Incrementa il conteggio e mantieni l’utente nell’attività]&quot; e &quot;[!UICONTROL A ogni impression]&quot; impostazioni. Questo è *not* configurabile.
+>Per le attività che utilizzano [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T), la metrica obiettivo utilizzerà sempre il valore &quot;[!UICONTROL Incrementa il conteggio e mantieni l’utente nell’attività]&quot; e &quot;[!UICONTROL A ogni impression]&quot; impostazioni. Questo è *not* configurabile.
 
 Sono disponibili le seguenti metriche di successo:
 
@@ -75,7 +75,7 @@ Ad esempio, potresti rendere valida una conversione di test solo se un visitator
 
 La funzionalità di dipendenza è *not* supportati per i seguenti elementi:
 
-* [!UICONTROL Attività di Consigli. ] Questa funzionalità è supportata da tutti gli altri tipi di attività.
+* Attività di [!UICONTROL Consigli. ] Questa funzionalità è supportata da tutti gli altri tipi di attività.
 * Se utilizzi [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T).
 * Con il tipo di metrica “Visualizzazione di una pagina”.
 * Con il tipo di metrica “Clic su un elemento” per le attività del Compositore esperienza visivo.
