@@ -4,7 +4,7 @@ description: Scopri come interpretare i risultati di un’attività di allocazio
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
 source-wordcount: '1233'
 ht-degree: 45%
@@ -55,7 +55,7 @@ Nelle attività di allocazione automatica, la prima esperienza (per impostazione
 
 Il valore numerico &quot;Incremento&quot; e i limiti del 95% per ogni esperienza vengono sempre calcolati con riferimento all’esperienza &quot;Controllo&quot; definita. L’esperienza definita &quot;Controllo&quot; non può avere un incremento relativo a se stessa, pertanto per questa esperienza viene riportato un valore &quot;—&quot; vuoto. A differenza dei test A/B, nei test di allocazione automatica, se un’esperienza funziona in modo peggiore del controllo definito, non viene riportato un valore di incremento negativo; viene invece visualizzato &quot;—&quot;.
 
-Le barre dell’intervallo di affidabilità visualizzate rappresentano l’intervallo di affidabilità del 95% intorno alla stima media del tasso di conversione di un’esperienza. Questi vengono anche codificati in base al colore dell’esperienza definita di &quot;controllo&quot;. La barra dell’esperienza &quot;Controllo&quot; è sempre di colore grigio. Le parti degli intervalli di affidabilità al di sotto dell’intervallo di affidabilità dell’esperienza &quot;Controllo&quot; sono colorate di rosso e le parti degli intervalli di affidabilità al di sopra dell’esperienza &quot;Controllo&quot; sono colorate di verde.
+Le barre dell’intervallo di affidabilità visualizzate rappresentano l’intervallo di affidabilità del 95% intorno alla stima media del tasso di conversione di un’esperienza. Questi vengono anche codificati in base al colore dell’esperienza definita di &quot;controllo&quot;. La barra dell’esperienza &quot;Control&quot; è sempre colorata di grigio. Le parti degli intervalli di affidabilità al di sotto dell’intervallo di affidabilità dell’esperienza &quot;Control&quot; sono colorate di rosso e le parti degli intervalli di affidabilità al di sopra dell’esperienza &quot;Control&quot; sono colorate di verde.
 
 Un vincitore si trova quando l’intervallo di affidabilità del 95% dell’esperienza principale non si sovrappone ad altre esperienze. L’esperienza vincente viene designata con un badge a stella verde a sinistra del nome dell’esperienza e nel banner &quot;Vincitore&quot;. Quando nessuna stella è visibile, lo striscione dice &quot;Ancora nessun vincitore&quot; e un vincitore non è ancora stato trovato.
 
@@ -71,7 +71,7 @@ Nella colonna [!UICONTROL Affidabilità] del rapporto per tutte le attività vie
 
 * I test A/B manuali e l&#39;allocazione automatica utilizzano statistiche diverse per visualizzare i valori di affidabilità.
 
-   I test A/B manuali utilizzano valori p basati sul [test t di Student](https://en.wikipedia.org/wiki/Student%27s_t-test). Un valore p rappresenta la probabilità di trovare la differenza osservata (o una differenza maggiore) tra un’esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori p possono essere utilizzati solo per determinare se i dati osservati sono coerenti quando un’esperienza specifica e il controllo sono uguali. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
+   I test A/B manuali utilizzano valori p basati su [Test t di Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test). Un valore p rappresenta la probabilità di trovare la differenza osservata (o una differenza maggiore) tra un’esperienza e il controllo, dato che in realtà non esiste una differenza simile. Questi valori p possono essere utilizzati solo per determinare se i dati osservati sono coerenti quando un’esperienza specifica e il controllo sono uguali. Questi valori non possono essere utilizzati per determinare se un&#39;esperienza è diversa da un&#39;altra esperienza (non controllo).
 
    L&#39;allocazione automatica mostra la probabilità che una determinata esperienza sia un vero vincitore in tutte le esperienze dell&#39;attività. Questo significa che solo un&#39;esperienza vincente (che è più probabile che sia il vincitore), avrà un valore di affidabilità diverso da zero. Tutte le altre hanno più probabilità di essere perdenti e presentano il valore 0%.
 

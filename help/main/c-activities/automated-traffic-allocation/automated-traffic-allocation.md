@@ -4,14 +4,14 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 393ab5b9e2b8fbdf0dcee0640775c73bf6899afe
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '3559'
-ht-degree: 49%
+source-wordcount: '3567'
+ht-degree: 50%
 
 ---
 
-# Panoramica dell’[!UICONTROL allocazione automatica]
+# Panoramica sulla funzione [!UICONTROL Allocazione automatica]
 
 Un [!UICONTROL Allocazione automatica] attività in [!DNL Adobe Target] identifica un vincitore tra due o più esperienze e, di conseguenza, ridistribuisce automaticamente più traffico per aumentare le conversioni, mentre il test continua a essere eseguito e ad apprendere.
 
@@ -29,7 +29,7 @@ I test A/B standard hanno un costo intrinseco. Devi investire del traffico per m
 
 Un normale test A/B in [!DNL Target] mostra solo confronti in coppia di sfidanti con controllo. Ad esempio, se un’attività ha esperienze: A, B, C e D dove A è il controllo, una normale [!DNL Target] Il test A/B confronterebbe A con B, A con C e A con D.
 
-In tali prove, la maggior parte dei prodotti, compresi [!DNL Target], utilizza un test t di Student per produrre un&#39;affidabilità basata sul valore p. Questo valore di affidabilità viene quindi utilizzato per determinare se lo sfidante è sufficientemente diverso dal controllo. Tuttavia, [!DNL Target] non esegue automaticamente i confronti impliciti (B con C, B con D e C con D) necessari per trovare l’esperienza &quot;migliore&quot;. Di conseguenza, l’addetto al marketing deve analizzare manualmente i risultati per determinare l’esperienza “migliore”.
+In tali prove, la maggior parte dei prodotti, compresi [!DNL Target], utilizza [Test t di Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test){target=_blank} per generare un&#39;affidabilità basata sul valore p. Questo valore di affidabilità viene quindi utilizzato per determinare se lo sfidante è sufficientemente diverso dal controllo. Tuttavia, [!DNL Target] non esegue automaticamente i confronti impliciti (B con C, B con D e C con D) necessari per trovare l’esperienza &quot;migliore&quot;. Di conseguenza, l’addetto al marketing deve analizzare manualmente i risultati per determinare l’esperienza “migliore”.
 
 [!UICONTROL L’allocazione automatica esegue tutti i confronti impliciti tra le esperienze e produce un vincitore “reale”. ] Non vi è alcuna nozione di esperienza di “controllo” nel test.
 
@@ -207,13 +207,13 @@ Se un hit si verifica in un altro ambiente (non predefinito), il traffico viene 
 
 Quando selezioni un altro ambiente, il rapporto mostra il traffico e le conversioni per tale ambiente. L’ambiente selezionato predefinito per un rapporto è l’impostazione predefinita a livello di account selezionata. L’ambiente predefinito non può essere impostato per attività.
 
-### Può un [!UICONTROL Allocazione automatica] l’attività regola l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?
+### Con un’attività [!UICONTROL Allocazione automatica], è possibile regolare l’intervallo di lookback nel corso di un test per prendere in considerazione l’evoluzione delle tendenze nel tempo?
 
 Ad esempio, l’attività può considerare il mese di dicembre per decidere come allocare il traffico, invece di esaminare i dati del visitatore di settembre (quando il test è iniziato)?
 
 No, [!UICONTROL Allocazione automatica] considera le prestazioni dell&#39;intera attività.
 
-### Does [!UICONTROL Allocazione automatica] mostrare un’esperienza vincente a un visitatore di ritorno se l’esperienza vincente è diversa da quella che il visitatore ha visto quando si qualifica per l’attività?
+### La funzione [!UICONTROL Allocazione automatica] mostra un’esperienza vincente a un visitatore che ritorna, se l’esperienza vincente è diversa da quella che aveva visto quando si è qualificato per l’attività?
 
 [!UICONTROL Allocazione automatica] utilizza decisioni permanenti per gli stessi motivi [!UICONTROL Test A/B] le attività sono appiccicose. L’allocazione del traffico funziona solo per i nuovi visitatori.
 

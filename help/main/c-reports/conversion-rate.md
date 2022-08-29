@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’i
 title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '2138'
-ht-degree: 58%
+source-wordcount: '2146'
+ht-degree: 53%
 
 ---
 
@@ -98,9 +98,9 @@ Per calcolare queste metriche calcolate, scarica il [Calcolatore di affidabilit�
 
 Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics].
 
-Per A4T usiamo il calcolo del test t di Student per variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo del test t di Student, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Questo documento spiega i dettagli](/help/main/assets/statistical-calculations.pdf) delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
+Per A4T utilizziamo un [Test t di Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test)Calcolo di {target=_blank} per le variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo della prova t del Welch, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Questo documento spiega i dettagli](/help/main/assets/statistical-calculations.pdf) delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 
-Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, devi esportare un campione del numero totale di visualizzazioni di pagina per ogni visitatore per un lasso di tempo specificato, come un paio di giorni (servono solo poche migliaia di punti di dati). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
+Ad esempio, se esegui l’ottimizzazione per le visualizzazioni di pagina per visitatore, esporta un campione del numero totale di visualizzazioni di pagina per visitatore per un intervallo di tempo specificato, forse per un paio di giorni (solo poche migliaia di punti di dati sono necessari). Dovresti poi quadrare ogni valore e sommare i totali (è importante eseguire le operazioni in questo ordine). Questo valore di “somma dei quadrati” viene quindi utilizzato nel Calcolatore di affidabilità completo. Per questi valori consulta la sezione “ricavi” del foglio di calcolo.
 
 **Per eseguire la funzione di esportazione dei dati di [!DNL Analytics]:**
 
@@ -113,9 +113,9 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
    | Campo | Istruzioni |
    |--- |--- |
    | Request Name (Nome richiesta) | Specifica un nome per la richiesta. |
-   | Reporting Date (Data rapporto) | Specifica un periodo di tempo e una granularità.<br>Per la prima richiesta si consiglia di scegliere non più di un’ora o un giorno di dati.  L’elaborazione dei file di Data Warehouse richiede più tempo per periodo di tempo più lunghi, pertanto è sempre consigliabile richiedere prima dati per un periodo di tempo breve, per assicurarsi che il file restituisca il risultato atteso. Quindi, passa a Request Manager (Gestione richieste), duplica la richiesta e richiedi più dati la seconda volta. Inoltre, se seleziona una granularità diversa da Nessuno, la dimensione del file aumenterà drasticamente.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
+   | Reporting Date (Data rapporto) | Specifica un periodo di tempo e una granularità.<br>Per la prima richiesta si consiglia di scegliere non più di un’ora o un giorno di dati.  L’elaborazione dei file di Data Warehouse richiede più tempo per periodo di tempo più lunghi, pertanto è sempre consigliabile richiedere prima dati per un periodo di tempo breve, per assicurarsi che il file restituisca il risultato atteso. Quindi, passa a Request Manager (Gestione richieste), duplica la richiesta e richiedi più dati la seconda volta. Inoltre, se si imposta la granularità su qualcosa di diverso da Nessuno, la dimensione del file aumenterà drasticamente.<br>![Data Warehouse](/help/main/c-reports/assets/datawarehouse.png) |
    | Available Segments (Segmenti disponibili) | Applica un segmento, se necessario. |
-   | Breakdowns (Suddivisioni) | Seleziona le dimensioni desiderate: le dimensioni standard sono pronte all’uso, mentre quelle personalizzate includono eVar e prop. Si consiglia di utilizzare l’ID visitatore se sono necessarie informazioni a livello dell’ID visitatore, anziché “ID visitatore di Experience Cloud”.<ul><li>ID visitatore è l’ID finale utilizzato da Analytics. Si tratterà di AID (se il cliente è un’azienda) o MID (se il cliente è nuovo o se ha cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC).</li><li>L’ID visitatore di Experience Cloud sarà impostato solo per i clienti che sono nuovi o che hanno cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC.</li></ul> |
+   | Breakdowns (Suddivisioni) | Seleziona le dimensioni desiderate: le dimensioni standard sono pronte all’uso, mentre quelle personalizzate includono eVar e prop. Si consiglia di utilizzare &quot;ID visitatore&quot; se sono necessarie informazioni a livello di ID visitatore, anziché &quot;ID visitatore Experience Cloud&quot;.<ul><li>ID visitatore è l’ID finale utilizzato da Analytics. Si tratterà di AID (se il cliente è un’azienda) o MID (se il cliente è nuovo o se ha cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC).</li><li>L’ID visitatore di Experience Cloud sarà impostato solo per i clienti che sono nuovi o che hanno cancellato i cookie da quando è stato avviato il servizio ID visitatore di MC.</li></ul> |
    | Metrics (Metriche) | Seleziona la metrica desiderata. La metrica standard è OOTB, mentre quella personalizzata include eventi personalizzati. |
    | Report Preview (Anteprima rapporto) | Rivedi le impostazioni prima di pianificare il rapporto.<br>![Data Warehouse 2](/help/main/c-reports/assets/datawarehouse2.png) |
    | Schedule Delivery (Pianifica consegna) | Immetti l’indirizzo email a cui deve essere consegnato il file, assegna un nome al file, quindi seleziona [!UICONTROL Send Immediately] (Invia subito).<br>Nota: il file può essere consegnato via FTP da [!UICONTROL Opzioni di consegna avanzate]<br>![Pianifica consegna](/help/main/c-reports/assets/datawarehouse3.png). |
@@ -124,7 +124,7 @@ Ad esempio, per ottimizzare le visualizzazioni di pagina per ogni visitatore, de
 
    La consegna dei file può richiedere fino a 72 ore, a seconda della quantità di dati richiesti. Puoi controllare l’avanzamento della richiesta in qualsiasi momento facendo clic su [!UICONTROL Tools] > [!UICONTROL Data Warehouse] > [!UICONTROL Request Manager] (Strumenti > Data Warehouse > Gestione richieste).
 
-   Per richiedere nuovamente dati già richiesti in passato, puoi duplicare una richiesta precedente da [!UICONTROL Request Manager] (Gestione richieste).
+   Se desideri richiedere nuovamente i dati richiesti in passato, puoi duplicare una richiesta precedente da [!UICONTROL Request Manager] se necessario.
 
 Per ulteriori informazioni su [!DNL Data Warehouse], consulta i seguenti collegamenti nella documentazione di [!DNL Analytics]:
 
@@ -168,7 +168,7 @@ Per le attività Personalizzazione automatica (AP) al momento è supportata solo
 >
 >Di solito, questi conteggi sono determinati dai cookie e dalle attività di sessione. Tuttavia, se il visitatore raggiunge il punto di conversione finale di un’attività e quindi accede nuovamente all’attività, viene considerato come un nuovo partecipante e una nuova visita all’attività. Questo vale anche se i valori PCID e `sessionID` non cambiano.
 
-## Perché [!DNL Target] consiglia di utilizzare i test t di Student? {#t-test}
+## Perché [!DNL Target] consiglia di utilizzare i test t di Welch? {#t-test}
 
 I test A/B sono esperimenti per confrontare il valore medio di alcune metriche di business in una variante di controllo (nota anche come esperienza) con il valore medio di quella stessa metrica in una o più esperienze alternative.
 

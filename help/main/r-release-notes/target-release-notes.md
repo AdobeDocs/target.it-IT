@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8f4228720632fd037c7568c328f899362c0baa32
+source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
 workflow-type: tm+mt
-source-wordcount: '284'
-ht-degree: 54%
+source-wordcount: '295'
+ht-degree: 52%
 
 ---
 
@@ -29,7 +29,7 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* È stato aggiunto il supporto per più domini nella versione 2.9.0 di at.js .
+* Aggiunta di un [!UICONTROL Tra domini] opzione durante il download di at.js 2.9.0 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti (TGT-43674)
 * È stato risolto un problema che causava [!UICONTROL Offerte decisionali] per non funzionare correttamente all&#39;interno del [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo). (TGT-43866)
 * È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante la selezione della [!UICONTROL Clic su un elemento] obiettivo di conversione durante la creazione di un [!UICONTROL Multivariate Testing] Attività (MVT). (TGT-43842)
 * È stato risolto un problema che impediva la [!UICONTROL Impressioni] dalla visualizzazione nel file di rapporto CSV scaricato per [!UICONTROL Automated Personalization] (AP) attività. (TGT-43780)
