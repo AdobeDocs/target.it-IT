@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b410998ccafb9860e94eb4547ec52b3ecb7cdbb7
 workflow-type: tm+mt
 source-wordcount: '1878'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -17,7 +17,7 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 ## [!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)
 
-Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] hanno inoltre ricevuto punteggi di rilievo e aumenti significativi su base annua in tutti e tre i casi d’uso principali: Digital Marketing, Digital Commerce, e servizi e supporto. [!DNL Target] ha inoltre ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
+Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha inoltre ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
 Per ulteriori informazioni, consulta il [Post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
