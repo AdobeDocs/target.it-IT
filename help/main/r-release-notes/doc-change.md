@@ -5,9 +5,9 @@ title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: eaf27594f471c694101217ec2c8ac780fe017d96
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1194'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -15,11 +15,11 @@ ht-degree: 94%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## Adobe Target Standard/Premium 22.8.1 (versione scaglionata: (17-18 agosto 2022)
+## Adobe Target Standard/Premium 22.8.1 (rilascio graduale: 17-18 agosto 2022)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 agosto | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte le informazioni sul seguente annuncio:<ul><li>[!DNL Target] leader nominato nel Gartner Magic Quadrant per i motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi in programma:<ul><li>[!DNL Adobe Target] Coffee break comunitario Q&amp;A (31 agosto 2022)</li><li>Collezione dello chef: Ricette per personalizzazione (30 agosto 2022)</li><li>[!DNL Adobe Target] Generatori di competenze - Ottimizzazione esperienza mobile (6 settembre 2022)</li><li>[!DNL Adobe Target] Generatori di competenze - Personalizzazione guidata dall’intelligenza artificiale e Recommendations (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
+| 22 agosto | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti annunci:<ul><li>[!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi previsti:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (31 agosto 2022)</li><li>Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)</li><li>[!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)</li><li>[!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
 | 22 agosto | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.8.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (rilascio graduale: 7-9 maggio 2022)
@@ -81,13 +81,13 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione [!DNL Target Standard/Premium] con correzioni tecniche. |
 | 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
 |  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Updates are synced with the profile store every 5-10 minutes.” (Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti). |
-| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (30 marzo 2022)</li></ul> |
+| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
 | 10 febbraio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Sono state aggiunte informazioni sul caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi. |
-| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (23 febbraio 2022)</li></ul> |
+| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (23 febbraio 2022)</li></ul> |
 | 3 febbraio | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
 | 2 febbraio | [Soluzione di problemi relativi alla distribuzione dei contenuti](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: “L’utilizzo del carattere di escape per le virgolette doppie nel valore dell’attributo del profilo in [!DNL Target] non funziona come previsto.” |
 | 1° febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.2.1 di [!DNL Target Standard/Premium] |
