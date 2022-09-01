@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 6c74ea26dfe1bf66f0557a442f06a6d44ddbd0e5
+source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
 workflow-type: tm+mt
 source-wordcount: '411'
 ht-degree: 38%
@@ -29,7 +29,7 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 Questa versione include i miglioramenti e le correzioni seguenti:
 
-* Aggiunta di un [!UICONTROL Tra domini] opzione durante il download di at.js 2.9.1 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti (TGT-43674)
+* Aggiunta di un [!UICONTROL Tra domini] durante il download di at.js 2.9.1 (e versioni successive) per consentire o disabilitare l’impostazione dei cookie di terze parti. (TGT-43674)
 * Notifiche aggiornate nel [!DNL Target] Interfaccia utente per informare i clienti che le attività sono state abilitate, disabilitate e hanno raggiunto le soglie di obiettivo e incremento. (TGT-35811)
 * Aggiunta la possibilità di bloccare gli attributi tramite API in [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] attività.
 * È stato risolto un problema che causava [!UICONTROL Offerte decisionali] per non funzionare correttamente all&#39;interno del [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo). (TGT-43866)
