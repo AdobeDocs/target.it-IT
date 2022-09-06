@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 20a9242f7aacbf1de966bc022c91796e82155e5b
+source-git-commit: 46bb2b5f8c3160efd32a8f972fcae362cf272cb0
 workflow-type: tm+mt
-source-wordcount: '411'
-ht-degree: 38%
+source-wordcount: '395'
+ht-degree: 40%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 38%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 1 settembre 2022**
+**Ultimo aggiornamento: 6 settembre 2022**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -31,7 +31,6 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 
 * Aggiunta di un [!UICONTROL Tra domini] durante il download di at.js 2.9.1 (e versioni successive) per consentire o disabilitare l’impostazione dei cookie di terze parti. (TGT-43674)
 * Notifiche aggiornate nel [!DNL Target] Interfaccia utente per informare i clienti che le attività sono state abilitate, disabilitate e hanno raggiunto le soglie di obiettivo e incremento. (TGT-35811)
-* Aggiunta la possibilità di bloccare gli attributi tramite API in [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] attività.
 * È stato risolto un problema che causava [!UICONTROL Offerte decisionali] per non funzionare correttamente all&#39;interno del [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo). (TGT-43866)
 * È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante la selezione della [!UICONTROL Clic su un elemento] obiettivo di conversione durante la creazione di un [!UICONTROL Multivariate Testing] Attività (MVT). (TGT-43842)
 * È stato risolto un problema che impediva la [!UICONTROL Impressioni] dalla visualizzazione nel file di rapporto CSV scaricato per [!UICONTROL Automated Personalization] (AP) attività. (TGT-43780)
