@@ -4,9 +4,9 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare [!DNL Target] Annunci e informazioni sull'evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: a37a530a4ea163070e82820801f7acdfa1eae7c5
+source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
-source-wordcount: '1757'
+source-wordcount: '1614'
 ht-degree: 92%
 
 ---
@@ -46,31 +46,18 @@ Accedere alle registrazioni di eventi passati (se disponibili):
 
 Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di tecnici e addetti al marketing sfruttano strategie basate sui prodotti per la personalizzazione multicanale sul web e nelle app. Partecipa alla sessione Skill Builders [!DNL Adobe] e scopri come [!DNL Adobe Target] sfrutta un nuovo potenziale coinvolgimento e la crescita dei ricavi per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per creare community di successo.
 
-+++Dettagli
-
-* **Giovedì 6 settembre 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
-
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
 Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro eBook più recente, &quot;Chef&#39;s Collection: Idee per la personalizzazione&quot;.
 
 +++Dettagli
 
-* **Giovedì 30 agosto 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://chefs-collection-webinar.dxfieldmarketing.adobeevents.com/register/registration/form){target=_blank}**
-
-Approfondiremo le storie dei nostri clienti &quot;chef&quot; e ciò che hanno cucinato nelle loro cucine di personalizzazione.
-
-Esaminiamo le idee su:
+Esplora idee su:
 
 * Come utilizzare la personalizzazione per fidelizzare i clienti
 * Ottimizzazione per ottenere un vantaggio competitivo
 * Creazione di esperienze iper-personalizzate
+
 +++
 
 ### Attivazione della fidelizzazione in tempo reale (25 agosto 2022)
@@ -78,10 +65,6 @@ Esaminiamo le idee su:
 In un periodo caratterizzato da problemi accelerati della catena di approvvigionamento, dalle carenze di servizi e di personale limitato, una delle sfide che la maggior parte dei brand del turismo, del settore alberghiero e delle catene di ristorazione stanno affrontando è quella di aumentare la fidelizzazione. Nell’era dell’intelligenza artificiale, in che modo i brand possono ridimensionare le esperienze senza le risorse necessarie che hanno abbandonato il settore. Il progresso digitale si è velocizzato di 20-25 volte non solo per supportare le aspettative più rapide dei clienti, ma anche per ridimensionare i team attraverso l’automazione.
 
 +++Dettagli
-
-* **Giovedì 25 agosto 2022**
-* **Dalle 19:00 alle 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://dxfieldmarketing.adobeevents.com/api/redirect_to_page?page=registration&amp;event_id=e54793e9-107f-4e4e-8373-5a380974392b){target=_blank}**
 
 Nel 2022, i sistemi hanno raggiunto un punto di svolta nella capacità di fornire informazioni costanti per garantire l’attivazione della fidelizzazione in tempo reale.
 
@@ -91,6 +74,7 @@ Argomenti che esploreremo:
 * Perché i primi che le hanno adottate stanno guadagnando sia con la crescita del fatturato lordo che con quella del risultato netto
 * Automazione della personalizzazione nei viaggi
 * Attivazione della fidelizzazione in tempo reale nei fatti
+
 +++
 
 ### [!DNL Adobe]: Personalization Industry Insider - Retail (11 agosto 2022)
@@ -101,11 +85,8 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
 +++Dettagli
 
-* **Giovedì 11 agosto 2022**
-* **dalle 22:00 alle 23:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://industry-insiders.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
+
 +++
 
 ### [!DNL Adobe]: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target] (2 giugno 2022)
@@ -115,10 +96,6 @@ Scopri come l’intelligenza artificiale continua a ridefinire le aspettative de
 * [Collegamento di registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Dettagli
-
-* **Giovedì 2 giugno 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
 
@@ -137,11 +114,8 @@ Scopri le best practice da seguire per diventare una “relationship bank” in 
 
 +++Dettagli
 
-* **Giovedì 9 giugno 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
 Heather Adkins (SVP Marketing Technology) parla delle best practice per diventare una “relationship bank” al fine di aumentare il livello di fidelizzazione al brand, e come indirizzare persone e processi verso la creazione e la scalabilità di programmi di personalizzazione di successo.
+
 +++
 
 ### [!DNL Adobe]: Opportunità di ottimizzazione ad alto impatto (16 giugno 2022)
@@ -151,10 +125,6 @@ Con il definirsi di una nuova normalità, più digitale che mai, è fondamentale
 * [Collegamento di registrazione](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
 +++Dettagli
-
-* **Giovedì 16 giugno 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
 Kaitlin White (Adobe Product Marketing Manager) condivide strategie comprovate che potranno aiutarti ad avviare iniziative di personalizzazione:
 
@@ -193,7 +163,8 @@ Scopri come le società di servizi finanziari supportano e informano i clienti m
 +++Dettagli
 
 Partecipa a questa sessione con Christopher Young (Director, Industry Strategy Financial Services) e James Capasso (Target Consultant, Adobe Premier Support) e scopri come i brand rispondono a cambiamenti immediati della domanda e al contempo pongono la personalizzazione al centro delle interazioni con i clienti. Scopri come le società di servizi finanziari supportano e informano i clienti in tutto il mondo preoccupati dai recenti modelli di inflazione e dalle attuali circostanze di investimento.
-+++ 
+
++++
 
 ### City National Bank: Come arrivare al primo 1% nell’ottimizzazione digitale (26 maggio 2022)
 
@@ -238,6 +209,7 @@ In questa sessione, scopri come [!DNL Adobe Target] colma il divario per combina
 Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva del cliente su siti, app e ovunque si connettano con i loro clienti. Gli strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
 
 In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano come le decisioni di ottimizzazione dell’esperienza critica sul dispositivo, eseguite localmente con latenza zero, possano aprire le porte a nuovi casi d’uso interessanti e al contempo migliorare le prestazioni del sito per i clienti.
+
 +++
 
 ### Webinar: Come HSBC sfrutta Adobe [!DNL Target] e l’IA per ottimizzare e distribuire rapidamente la personalizzazione su larga scala
@@ -257,6 +229,7 @@ Iscriviti ad Adobe e HSBC per questo webinar per scoprire:
 * Come HSBC ha realizzato un programma di successo in scala che fornisce oltre 3000 attività
 
 *Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maggio 2020
+
 +++
 
 ### [!DNL Adobe Target] Skill Builder: chat per sviluppatori, migrazione di [!DNL Adobe Target] mbox.js in at.js {#skill-builder}
