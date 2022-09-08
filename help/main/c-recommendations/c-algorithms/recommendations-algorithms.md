@@ -5,10 +5,10 @@ title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Ta
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
 workflow-type: tm+mt
-source-wordcount: '2864'
-ht-degree: 0%
+source-wordcount: '2858'
+ht-degree: 1%
 
 ---
 
@@ -118,7 +118,7 @@ Gli algoritmi includono:
 
 Le ultime aggiunte alla [!DNL Target] suite di algoritmi di consigli [!UICONTROL Consigliato] e una serie di algoritmi di consigli basati su carrello. Entrambi i tipi di algoritmi utilizzano tecniche di filtro collaborativo per formare consigli basati su singoli elementi. Quindi, al momento del servizio, più elementi nella cronologia di navigazione dell&#39;utente (per [!UICONTROL Consigliato]) o il carrello corrente dell’utente (per i consigli basati su carrello) viene utilizzato per recuperare questi consigli basati su elementi, che vengono quindi uniti per formare l’elenco finale dei consigli. Tenete presente che esistono molti tipi di algoritmi di raccomandazione personalizzati. La scelta di un algoritmo chiave multipla significa che i consigli sono immediatamente disponibili dopo che un visitatore dispone di una cronologia di navigazione e i consigli possono essere aggiornati per rispondere al comportamento più recente dei visitatori.
 
-Questi algoritmi si basano sulle tecniche di filtro collaborativo di base descritte nella sezione consigli basati su elementi, ma incorporano anche la regolazione degli iperparametri per determinare la metrica di somiglianza ottimale tra gli elementi. L&#39;algoritmo esegue una suddivisione cronologica dei dati comportamentali per ogni utente e prepara i modelli di raccomandazioni sui dati precedenti mentre tenta di prevedere gli elementi che un utente visualizza o acquista in un secondo momento. La metrica di somiglianza che produce l&#39;ottimale [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision) viene quindi scelto.
+Questi algoritmi si basano sulle tecniche di filtro collaborativo di base descritte nella sezione consigli basati su elementi, ma incorporano anche la regolazione degli iperparametri per determinare la metrica di somiglianza ottimale tra gli elementi. L&#39;algoritmo esegue una suddivisione cronologica dei dati comportamentali per ogni utente e prepara i modelli di raccomandazioni sui dati precedenti mentre tenta di prevedere gli elementi che un utente visualizza o acquista in un secondo momento. La metrica di somiglianza che produce l&#39;ottimale [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval) viene quindi scelto.
 
 La logica dei passaggi di formazione e valutazione del modello è mostrata nel diagramma seguente:
 
@@ -138,7 +138,7 @@ Di seguito sono riportati i dettagli relativi a questi passaggi:
 
    ![Formula che mostra il calcolo della formazione](assets/formula4.png)
 
-   * **Valutazione modello similarità articolo**: La valutazione del modello viene effettuata prendendo le raccomandazioni generate nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando cronologicamente gli utilizzi degli elementi di ogni utente nel set di dati di test, quindi formulando 100 raccomandazioni per i sottoinsiemi ordinati di elementi nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero informazioni, la [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)#Mean_average_precision), viene utilizzato per valutare la qualità di queste raccomandazioni. Questa metrica tiene conto dell’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco dei consigli, una proprietà importante per i sistemi di classificazione.
+   * **Valutazione modello similarità articolo**: La valutazione del modello viene effettuata prendendo le raccomandazioni generate nel passaggio precedente e facendo previsioni sul set di dati del test. La fase di punteggio online viene imitata ordinando cronologicamente gli utilizzi degli elementi di ogni utente nel set di dati di test, quindi formulando 100 raccomandazioni per i sottoinsiemi ordinati di elementi nel tentativo di prevedere visualizzazioni e acquisti successivi. Una metrica di recupero informazioni, la [Precisione media media media media](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval), viene utilizzato per valutare la qualità di queste raccomandazioni. Questa metrica tiene conto dell’ordine dei consigli e favorisce gli elementi rilevanti più in alto nell’elenco dei consigli, una proprietà importante per i sistemi di classificazione.
    * **Selezione del modello**: Dopo la valutazione offline, viene selezionato il modello con la precisione media media più elevata e vengono calcolati tutti i consigli relativi ai singoli elementi.
    * **Filtro offline**: La fase finale della formazione del modello è l&#39;applicazione di eventuali filtri dinamici applicabili. Dopo questo passaggio, i consigli precalcolati vengono memorizzati nella cache globale per essere disponibili per il servizio.
 
