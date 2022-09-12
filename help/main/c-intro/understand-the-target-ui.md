@@ -4,10 +4,10 @@ description: Acquisisci familiarità con l’interfaccia utente e trova collegam
 title: Come si utilizza l’interfaccia di [!DNL Target] ?
 feature: Overview
 exl-id: ce4c72b2-b635-406b-9830-650816445a64
-source-git-commit: be0f2289afd0c808b3ab4cb390bd28bedd8a315d
+source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
 workflow-type: tm+mt
 source-wordcount: '1345'
-ht-degree: 46%
+ht-degree: 49%
 
 ---
 
@@ -55,11 +55,11 @@ Il pannello contiene le schede per [!UICONTROL Notifiche] e [!UICONTROL Annunci]
 
 Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configurare notifiche e annunci:
 
-### Notifiche
+### Notifiche {#notifications}
 
 [!DNL Target] le notifiche degli eventi includono quanto segue:
 
-* **Attività**: Notifiche per tutti i tipi di attività quando un&#39;attività viene approvata o disattivata, manualmente o quando raggiunge la data di inizio o di fine. La notifica include il nome dell’attività con un collegamento alla pagina di panoramica dell’attività.
+* **Attività**: notifiche per tutti i tipi di attività quando un&#39;attività viene approvata o disattivata, manualmente o alla sua data di inizio o di fine. La notifica include il nome dell’attività con un collegamento alla pagina di panoramica dell’attività.
 
    Le notifiche sono configurabili e vengono ricevute, per impostazione predefinita, da amministratori di prodotto, editori e approvatori nell’area di lavoro dell’attività per [!DNL Target Premium] conti. Per [!DNL Target Standard] account, notifiche vengono ricevute da tutti gli editori e approvatori.
 
@@ -78,7 +78,7 @@ Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configu
    * `Profile Script {target.profileScript.name} has been activated`
    * `Profile Script {target.profileScript.name} has been deactivated`
 
-* **Feed Recommendations**: Notifiche quando un [!DNL Recommendations] il feed è attivato o disattivato, manualmente o tramite [!DNL Target]. Le notifiche vengono inviate anche quando un [!DNL Recommendations] il feed non riesce.
+* **Feed di**[!DNL Recommendations]: notifiche quando un feed di Recommendations viene attivato o disattivato, manualmente o da [!DNL Target]. Le notifiche vengono inviate anche quando un [!DNL Recommendations] il feed non riesce.
 
    Le notifiche sono configurabili e vengono ricevute, per impostazione predefinita, da amministratori di prodotto e approvatori per [!DNL Target Premium] conti. [!DNL Recommendations] è un [!DNL Target Premium] e non è disponibile in [!DNL Target Standard].
 
@@ -86,6 +86,7 @@ Le sezioni seguenti contengono informazioni su ciascuna scheda e su come configu
 
    * `Feed  {target.feed.name} has been activated`
    * `Feed {target.feed.name} has been deactivated`
+   * `Feed {target.feed.name} has failed`
    * `Feed {target.feed.name} has failed to import from source`
 
 Puoi contrassegnare le singole notifiche come lette passando il mouse sulla notifica desiderata e facendo clic sul segno di spunta. Puoi contrassegnare tutte le notifiche come di lettura o visualizzare tutte le notifiche facendo clic su [!UICONTROL &quot;Segna come letto&quot;] o [!UICONTROL &quot;Visualizza tutto&quot;] nella parte inferiore del pannello.
@@ -177,7 +178,7 @@ Fai clic sulla scheda **[!UICONTROL Recommendations]** (Consigli) per accedere a
 
 ![Recommendations](/help/main/c-intro/assets/recommendations.png)
 
-Le attività di generazione dei [!UICONTROL consigli] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. Recommendations aiuta a indirizzare i clienti verso articoli rilevanti di cui potrebbero ignorare l’esistenza.
+Le attività di generazione dei [!UICONTROL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare i clienti in base alle loro attività precedenti o ad altri algoritmi. I Recommendations aiutano a indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza.
 
 Consulta [Recommendations](/help/main/c-recommendations/recommendations.md) (Consigli) per informazioni dettagliate su [!UICONTROL Recommendations] in [!DNL Target] e per ulteriori informazioni sull’interfaccia utente di [!UICONTROL Recommendations].
 
