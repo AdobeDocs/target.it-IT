@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 3d8da94a52046e70a89dc24d7923f743bee5c458
 workflow-type: tm+mt
-source-wordcount: '612'
-ht-degree: 80%
+source-wordcount: '632'
+ht-degree: 78%
 
 ---
 
@@ -39,6 +39,10 @@ Questa versione include i miglioramenti e le correzioni seguenti:
 * È stato risolto un problema che causava la visualizzazione di un avviso di timeout di rete nel [!DNL Target] Interfaccia utente per il recupero dei parametri. (TGT-43737)
 * Sono stati apportati aggiornamenti all’interfaccia utente per garantire che alcune azioni di trascinamento della selezione siano accessibili da tastiera. (TGT-42969)
 * Sono stati apportati aggiornamenti all’interfaccia utente per garantire che le stringhe di testo siano localizzate correttamente.
+
+## at.js versione 2.10.0 (13 settembre 2022)
+
+* Aggiunta di un [!UICONTROL Tra domini] durante il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l’impostazione dei cookie di terze parti. (TGT-43674)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
