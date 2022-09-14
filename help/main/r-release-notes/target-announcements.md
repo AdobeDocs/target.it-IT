@@ -7,7 +7,7 @@ exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 6faecb3cb0bbe08c9420389c8f038edf46842d2f
 workflow-type: tm+mt
 source-wordcount: '1614'
-ht-degree: 92%
+ht-degree: 98%
 
 ---
 
@@ -48,7 +48,7 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
-Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro eBook più recente, &quot;Chef&#39;s Collection: Idee per la personalizzazione&quot;.
+Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization“.
 
 +++Dettagli
 
@@ -68,7 +68,7 @@ In un periodo caratterizzato da problemi accelerati della catena di approvvigion
 
 Nel 2022, i sistemi hanno raggiunto un punto di svolta nella capacità di fornire informazioni costanti per garantire l’attivazione della fidelizzazione in tempo reale.
 
-Argomenti che esploreremo:
+Argomenti da trattare:
 
 * L’accelerazione della rivoluzione digitale e l’aumento dell’intelligenza artificiale
 * Perché i primi che le hanno adottate stanno guadagnando sia con la crescita del fatturato lordo che con quella del risultato netto
@@ -99,7 +99,7 @@ Scopri come l’intelligenza artificiale continua a ridefinire le aspettative de
 
 Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
 
-* In che modo gli esperti di marketing, gli sviluppatori e i team di prodotto possono aprire la &quot;black box&quot; dell’intelligenza artificiale per indirizzare le future strategie di test e personalizzazione
+* In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera“ dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
 * Superare le sfide dell’ottimizzazione per web, app mobili, e-mail, IoT e ogni punto di contatto digitale per incrementare il tasso di conversione e coinvolgimento
 * Flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Target] per la personalizzazione, il targeting e il testing.
 * Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori, e quelli più importanti per visualizzazioni chiave e analisi della segmentazione
@@ -145,7 +145,7 @@ Scopri le best practice sul potenziamento delle iniziative di personalizzazione 
 
 Unisciti a Shawn Wilkinson (eCommerce Personalization Manager) per scoprire come [!DNL Target] sta aiutando Dick’s Sporting Goods a trasformare i visitatori medi in atleti fidelizzati.
 
-Scopri come Dick&#39;s Sporting Goods guida la crescita a due cifre mentre scompriamo:
+Scopri come Dick’s Sporting Goods stimola una crescita a due cifre. Verranno trattati i seguenti argomenti:
 
 * Come pianificare e lanciare un’iniziativa di personalizzazione ad alte prestazioni per il retail
 * Perché è fondamentale ottenere il sostegno in ogni area dell’organizzazione al fine di superare eventuali ostacoli
@@ -206,7 +206,7 @@ In questa sessione, scopri come [!DNL Adobe Target] colma il divario per combina
 
 +++Dettagli
 
-Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva del cliente su siti, app e ovunque si connettano con i loro clienti. Gli strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
+Più che mai, gli esperti di marketing, i proprietari dei prodotti e gli sviluppatori hanno il compito di ottimizzare l’esperienza complessiva del cliente su siti, app e ovunque si connettano con i loro clienti. Strumenti multipli con silos di dati e implementazioni complicate non lo taglieranno.
 
 In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano come le decisioni di ottimizzazione dell’esperienza critica sul dispositivo, eseguite localmente con latenza zero, possano aprire le porte a nuovi casi d’uso interessanti e al contempo migliorare le prestazioni del sito per i clienti.
 
@@ -218,17 +218,17 @@ In questo webinar registrato, gli esperti dei prodotti Adobe Target illustrano c
 
 +++Dettagli
 
-McKinsey Digital riporta che &quot;abbiamo compiuto cinque anni di carriera nell&#39;adozione digitale di consumatori e business in circa otto settimane&quot;. *
+McKinsey Digital riporta che “abbiamo compiuto cinque anni di carriera nell’adozione digitale di consumatori e business in circa otto settimane“. *
 
 Le richieste dei consumatori si stanno evolvendo rapidamente e HSBC ha adottato l’ottimizzazione con Adobe Target per testare e personalizzare rapidamente nuovi percorsi di clienti, riducendo alcuni sviluppi e lanci da 6 mesi a 1 settimana!
 
 Iscriviti ad Adobe e HSBC per questo webinar per scoprire:
 
-* Come gli sforzi di ottimizzazione e personalizzazione di HSBC guidano un rapido cambiamento nell&#39;organizzazione
+* Come gli sforzi di ottimizzazione e personalizzazione di HSBC guidano un rapido cambiamento nell’organizzazione
 * Come AI e Analytics accelerano i loro sforzi e forniscono un impatto commerciale chiaro e significativo
 * Come HSBC ha realizzato un programma di successo in scala che fornisce oltre 3000 attività
 
-*Articolo McKinsey: &quot;[Il ripristino COVID-19 sarà digitale](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#),&quot; maggio 2020
+*Articolo McKinsey: “[The COVID-19 recovery will be digital](https://www.mckinsey.com/business-functions/mckinsey-digital/our-insights/the-covid-19-recovery-will-be-digital-a-plan-for-the-first-90-days#)”, maggio 2020
 
 +++
 
