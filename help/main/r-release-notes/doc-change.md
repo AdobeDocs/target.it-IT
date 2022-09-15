@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: ccd44c6fbd942fc88b505e0609458c4457cdaf78
 workflow-type: tm+mt
-source-wordcount: '1224'
-ht-degree: 99%
+source-wordcount: '1241'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 agosto | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un [!DNL Recommendations] il feed non riesce. |
+| 15 settembre | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: Nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
+| 13 settembre | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un [!DNL Recommendations] il feed non riesce. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.9.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.8.1 (rilascio graduale: 17-18 agosto 2022)
