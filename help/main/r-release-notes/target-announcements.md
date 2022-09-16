@@ -4,7 +4,7 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare [!DNL Target] Annunci e informazioni sull'evento?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: ffd65de77b01c782e8db9e9d12920d74afb2def8
+source-git-commit: bcb90bf8bc1943d9f91b6132d0d8b41afaebec2b
 workflow-type: tm+mt
 source-wordcount: '1837'
 ht-degree: 87%
@@ -91,16 +91,16 @@ Esplora idee su:
 
 In un periodo caratterizzato da problemi accelerati della catena di approvvigionamento, dalle carenze di servizi e di personale limitato, una delle sfide che la maggior parte dei brand del turismo, del settore alberghiero e delle catene di ristorazione stanno affrontando è quella di aumentare la fidelizzazione. Nell’era dell’intelligenza artificiale, in che modo i brand possono ridimensionare le esperienze senza le risorse necessarie che hanno abbandonato il settore. Il progresso digitale si è velocizzato di 20-25 volte non solo per supportare le aspettative più rapide dei clienti, ma anche per ridimensionare i team attraverso l’automazione.
 
-+++Dettagli
+* +++Dettagli
 
-Nel 2022, i sistemi hanno raggiunto un punto di svolta nella capacità di fornire informazioni costanti per garantire l’attivazione della fidelizzazione in tempo reale.
+   Nel 2022, i sistemi hanno raggiunto un punto di svolta nella capacità di fornire informazioni costanti per garantire l’attivazione della fidelizzazione in tempo reale.
 
-Argomenti da trattare:
+   Argomenti da trattare:
 
-* L’accelerazione della rivoluzione digitale e l’aumento dell’intelligenza artificiale
-* Perché i primi che le hanno adottate stanno guadagnando sia con la crescita del fatturato lordo che con quella del risultato netto
-* Automazione della personalizzazione nei viaggi
-* Attivazione della fidelizzazione in tempo reale nei fatti
+   * L’accelerazione della rivoluzione digitale e l’aumento dell’intelligenza artificiale
+   * Perché i primi che le hanno adottate stanno guadagnando sia con la crescita del fatturato lordo che con quella del risultato netto
+   * Automazione della personalizzazione nei viaggi
+   * Attivazione della fidelizzazione in tempo reale nei fatti
 
 +++
 
@@ -110,9 +110,9 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
 * [Collegamento di registrazione](https://video.tv.adobe.com/v/346323){target=_blank}
 
-+++Dettagli
+* +++Dettagli
 
-Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
+   Michael Klein (Director, Industry Strategy Retail) e Leina Betzer (Target Consultant, Adobe Premier Support) parlano di come le vendite da e-commerce nel settore retail stanno aumentando vertiginosamente con l’evolversi dei modelli e dei comportamenti di acquisto, con una maggiore domanda di beni e servizi in alcuni mercati.
 
 +++
 
