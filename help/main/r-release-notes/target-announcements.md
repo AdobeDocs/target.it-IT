@@ -1,13 +1,13 @@
 ---
 keywords: annunci;generatore di competenze;sviluppatore chat;pausa caffè;eventi;forrester;gartner;webinar
 description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Target] , incluse le sessioni Skill Builder, le chat per sviluppatori e product manager, i webinar e altro ancora.
-title: Dove posso trovare [!DNL Target] Annunci e informazioni sull'evento?
+title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: b5fc060ca944a9bf59b353fa3eda6399e4d1a8e8
 workflow-type: tm+mt
 source-wordcount: '1894'
-ht-degree: 85%
+ht-degree: 86%
 
 ---
 
@@ -17,9 +17,9 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 
 ## [!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)
 
-Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le nostre funzionalità di test tra tutti i fornitori valutati.
+Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
-Per ulteriori informazioni, consulta il [Post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
@@ -85,13 +85,13 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 ### Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)
 
-Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization“.
+Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
 
 * [Collegamento di registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
 
    +++Dettagli
 
-   Esplora idee su:
+   Trova spunti su:
 
    * Come utilizzare la personalizzazione per fidelizzare i clienti
    * Ottimizzazione per ottenere un vantaggio competitivo
@@ -140,7 +140,7 @@ Scopri come l’intelligenza artificiale continua a ridefinire le aspettative de
 
    Jordan Ison (Principal Expert Solution Consultant presso [!DNL Adobe]) affronta i seguenti argomenti:
 
-   * In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera“ dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
+   * In che modo esperti di marketing, sviluppatori e team di prodotto possono aprire la “scatola nera” dell’intelligenza artificiale per indirizzare le future strategie di testing e personalizzazione
    * Superare le sfide dell’ottimizzazione per web, app mobili, e-mail, IoT e ogni punto di contatto digitale per incrementare il tasso di conversione e coinvolgimento
    * Flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Target] per la personalizzazione, il targeting e il testing.
    * Casi d’uso principali per individuare gli attributi che consentono di prevedere il comportamento dei visitatori, e quelli più importanti per visualizzazioni chiave e analisi della segmentazione
@@ -259,7 +259,7 @@ Kit di strumenti e casi d’uso per l’implementazione di strategie di personal
 
    +++Dettagli
 
-   McKinsey Digital riporta che “abbiamo compiuto cinque anni di carriera nell’adozione digitale di consumatori e business in circa otto settimane“. *
+   McKinsey Digital riporta che “abbiamo compiuto cinque anni di carriera nell’adozione digitale di consumatori e business in circa otto settimane”. *
 
    Le richieste dei consumatori si stanno evolvendo rapidamente e HSBC ha adottato l’ottimizzazione con Adobe Target per testare e personalizzare rapidamente nuovi percorsi di clienti, riducendo alcuni sviluppi e lanci da 6 mesi a 1 settimana!
 
@@ -273,7 +273,7 @@ Kit di strumenti e casi d’uso per l’implementazione di strategie di personal
 
 +++
 
-### [!DNL Adobe Target] Skill Builder: chat per sviluppatori, migrazione di [!DNL Adobe Target] mbox.js in at.js {#skill-builder}
+### [!DNL Adobe Target] Skill Builder: chat per sviluppatori, migrazione di mbox.js di [!DNL Adobe Target] in at.js {#skill-builder}
 
 Con l’imminente rimozione di mbox.js il 31 marzo 2021, David Son, Product Manager di Adobe Target, ha recentemente condotto una chat per sviluppatori in cui si parla dei vantaggi della migrazione di mbox.js a at.js.
 
