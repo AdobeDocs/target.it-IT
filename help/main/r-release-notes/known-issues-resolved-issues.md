@@ -4,7 +4,7 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ef761f8135675dc0942a6a016a0c19368bc35436
+source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -26,12 +26,6 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 ### Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli {#ad-hoc}
 
 Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli, se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). Se si eliminano le posizioni, l’attività potrebbe danneggiarsi. Il team [!DNL Target] è al lavoro per correggere questo problema. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzarle con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
-
-### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
-
-L’interfaccia utente [!DNL Target] consente agli utenti di selezionare metriche di coinvolgimento e ricavi non supportate come metrica principale di obiettivo per l’ottimizzazione nelle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Le metriche di conversione sono supportate; le metriche di coinvolgimento e ricavi *non* sono supportate. Se selezioni metriche di obiettivo di coinvolgimento o di ricavi, non viene generato un modello di ottimizzazione.
-
-Per un elenco delle metriche di obiettivo supportate e non supportate, consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Il Compositore esperienza avanzato non supporta le richieste PUT.
 
@@ -122,6 +116,12 @@ L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nelle sezioni seguenti. Se necessario, vengono aggiunte altre note.
+
+### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
+
+L’interfaccia utente [!DNL Target] consente agli utenti di selezionare metriche di coinvolgimento e ricavi non supportate come metrica principale di obiettivo per l’ottimizzazione nelle attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]. Le metriche di conversione sono supportate; le metriche di coinvolgimento e ricavi *non* sono supportate. Se selezioni metriche di obiettivo di coinvolgimento o di ricavi, non viene generato un modello di ottimizzazione.
+
+Per un elenco delle metriche di obiettivo supportate e non supportate, consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
 ### Distribuzione del traffico [!DNL Auto-Allocate] attività che utilizzano A4T {#aa-a4t}
 
