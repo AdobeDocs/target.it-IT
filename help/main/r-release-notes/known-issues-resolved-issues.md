@@ -4,7 +4,7 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 3db78f6bf8e83dffd14a737404738457437d85ef
+source-git-commit: 1fa008032a77dcb8f6210a65cbb5afd448499e3a
 workflow-type: tm+mt
 source-wordcount: '4617'
 ht-degree: 95%
@@ -22,10 +22,6 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 ## Problemi noti {#section_AEDC98B67CF24C9F8E0CF0D2EB9ACAEF}
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
-
-### Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli {#ad-hoc}
-
-Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli, se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). Se si eliminano le posizioni, l’attività potrebbe danneggiarsi. Il team [!DNL Target] è al lavoro per correggere questo problema. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzarle con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
 
 ### Il Compositore esperienza avanzato non supporta le richieste PUT.
 
@@ -116,6 +112,10 @@ L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 
 Man mano che i problemi noti di cui sopra vengono risolti, vengono spostati nelle sezioni seguenti. Se necessario, vengono aggiunte altre note.
+
+### Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli {#ad-hoc}
+
+Evita di eliminare le posizioni in un’attività creata nel Compositore esperienza basato su moduli, se tali posizioni utilizzano offerte ad hoc (offerte create all’interno dell’attività). Se si eliminano le posizioni, l’attività potrebbe danneggiarsi. Il team [!DNL Target] è al lavoro per correggere questo problema. Come soluzione alternativa, puoi creare offerte globali dalla [!UICONTROL Libreria offerte] e utilizzarle con le posizioni, oppure puoi creare nuove esperienze, se necessario. (KB-2014)
 
 ### Metriche di Analytics for Adobe Target (A4T) per le attività di Allocazione automatica e Targeting automatico
 
