@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 3c64945eb1898457a9d6a3e7bbfa64420bf1250a
+source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -301,8 +301,8 @@ I seguenti limiti di dimensione si applicano alle offerte:
 
    Si riferisce al numero di valori separati da riga nell’area di testo di destinazione. Ad esempio, se si inseriscono 1.000 codici postali in un campo di destinazione CAP.
 
-### Regole di targeting
+### Regole di targeting {#targeting-rules}
 
 * **Limite consigliato**: 2.500 caratteri per valore della regola di targeting.
-* **Limite consigliato**: 30.000 valori univoci per pubblico in tutte le regole di targeting.
+* **Limite consigliato**: 50,000 valori univoci per pubblico in tutte le regole di targeting.
 * **Limite consigliato**: 100.000 valori di regole di targeting univoci per attività.
