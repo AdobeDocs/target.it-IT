@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 07d71ccf934a1c638c37285372c3ec3199ec2000
+source-git-commit: bd12d615b784b26e2b5a7b9e391f3e7d5a9cc8c5
 workflow-type: tm+mt
-source-wordcount: '468'
-ht-degree: 32%
+source-wordcount: '473'
+ht-degree: 31%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 32%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 7 settembre 2022**
+**Ultimo aggiornamento: 27 settembre 2022**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -40,7 +40,7 @@ Questa versione contiene le seguenti nuove funzioni, miglioramenti e correzioni:
 * È stato risolto un problema che impediva ad alcuni clienti di archiviare [!UICONTROL Test A/B] attività che utilizzano [!UICONTROL Targeting automatico]. (TGT-40978)
 * Aggiunta la possibilità di utilizzare automaticamente una singola offerta in più posizioni all&#39;interno di un singolo gruppo di reporting. (TGT-43974)
 * È stata aggiunta la possibilità di filtrare i frammenti di esperienza per tipo (HTML o JSON) in [!UICONTROL Offerte] elenco. (TGT-43121)
-* È stato risolto un problema che consentiva ai clienti di inserire JSON [!UICONTROL Frammento esperienza] offerte quando utilizzi il Compositore esperienza visivo. Le offerte JSON possono essere inserite solo utilizzando [!UICONTROL Esperienza basata su moduli] compositore. (TGT-43846)
+* È stato risolto un problema che consentiva ai clienti di inserire JSON [!UICONTROL Frammento esperienza] offerte quando si utilizza il Compositore esperienza visivo, che non è supportato. Le offerte JSON possono essere inserite solo quando si utilizza il [!UICONTROL Esperienza basata su moduli] compositore. (TGT-43846)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
