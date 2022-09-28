@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 7deebcf7f6f6b0044748f598c53f165402d1cda3
 workflow-type: tm+mt
 source-wordcount: '1257'
-ht-degree: 98%
+ht-degree: 99%
 
 ---
 
@@ -19,8 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 settembre | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Coffee break comunitario Q&amp;A (28 settembre 2022)</li></ul> |
-| 15 settembre | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: Nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
+| 22 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Coffee break comunitario Q&amp;A (28 settembre 2022)</li></ul> |
+| 15 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
 | 13 settembre | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un feed [!DNL Recommendations] non riesce. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.9.1 di [!DNL Target Standard/Premium]. |
 
@@ -28,7 +28,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 agosto | [[!DNL Adobe Target] annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti annunci:<ul><li>[!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi previsti:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (31 agosto 2022)</li><li>Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)</li><li>[!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)</li><li>[!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
+| 22 agosto | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti annunci:<ul><li>[!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi previsti:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (31 agosto 2022)</li><li>Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)</li><li>[!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)</li><li>[!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
 | 22 agosto | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.8.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (rilascio graduale: 7-9 maggio 2022)
