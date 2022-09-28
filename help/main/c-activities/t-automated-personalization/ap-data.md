@@ -4,9 +4,9 @@ description: Scopri quale Adobe di dati [!DNL Target] raccoglie e utilizza per c
 title: Quali dati vengono raccolti per creare algoritmi di apprendimento automatico?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
 workflow-type: tm+mt
-source-wordcount: '2062'
+source-wordcount: '2085'
 ht-degree: 49%
 
 ---
@@ -41,7 +41,8 @@ La tabella seguente mostra i dati forniti dal cliente raccolti da [!UICONTROL Au
 | Parametri URL | URL | URL ed eventuali parametri URL per la pagina attualmente visualizzata. | Personalizzato - Parametro URL - [Parametro URL] |
 | URL di riferimento | REF | URL di riferimento ed eventuali parametri URL per l’URL di riferimento. | Personalizzato - [Parametro URL di riferimento] - [Valore parametro] |
 | Tipi di pubblico condivisi di Adobe Experience Cloud | AAM | Tutti i tipi di pubblico condivisi con [!DNL Target] da altri [!DNL Adobe Experience Cloud] soluzioni (ad esempio, [!DNL Adobe Audience Manager] e [!DNL Adobe Analytics], tramite [[!DNL Experience Cloud Audience Library]](https://experienceleague.adobe.com/docs/core-services/interface/services/audiences/audience-library.html){target=_blank}). | Personalizzato - Pubblico Experience Cloud - [Nome del pubblico] |
-| Tipi di pubblico Adobe Experience Platform RTCDP | UPS | Tipi di pubblico AEP RTCDP condivisi con [!DNL Target] tramite Destinazioni. |  |
+| Tipi di pubblico CDP in tempo reale di Adobe Experience Platform | UPS | AEP Tipi di pubblico CDP in tempo reale condivisi con [!DNL Target] tramite Destinazioni. |  |
+| Attributi CDP in tempo reale di Adobe Experience Platform | AEP | Attributi CDP in tempo reale AEP condivisi con [!DNL Target] tramite Destinazioni. Questa funzione è attualmente in versione beta. |  |
 
 ## Blocco delle funzioni da [!DNL Target] algoritmi di apprendimento automatico
 
