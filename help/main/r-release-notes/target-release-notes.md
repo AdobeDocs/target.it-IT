@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 224f95c21db67d27b31f0a3fc44216ee6033f874
+source-git-commit: f567203808ef31191754773079450bc7a323dde7
 workflow-type: tm+mt
 source-wordcount: '526'
 ht-degree: 28%
@@ -31,7 +31,7 @@ Questa versione contiene le seguenti nuove funzioni, miglioramenti e correzioni:
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!DNL Adobe Experience Manager] (AEM) frammenti di esperienza | La funzionalità dei frammenti di esperienza AEM è stata aggiornata con le seguenti modifiche:<ul><li>È stata aggiunta la possibilità di filtrare AEM frammenti di esperienza per tipo (HTML o JSON) in [!UICONTROL Offerte] elenco. (TGT-43121)</li><li>È stato risolto un problema che consentiva ai clienti di inserire JSON [!UICONTROL Frammento esperienza] offerte quando si utilizza il Compositore esperienza visivo, che non è supportato. Le offerte JSON possono essere inserite solo quando si utilizza il [!UICONTROL Esperienza basata su moduli] compositore. (TGT-43846)</li></ul>Per ulteriori informazioni, consulta AEM [frammenti esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
+| [!DNL Adobe Experience Manager] (AEM) frammenti di esperienza | Gli aggiornamenti alla funzionalità frammenti di esperienza AEM includono:<ul><li>È stata aggiunta la possibilità di filtrare AEM frammenti di esperienza per tipo (HTML o JSON) in [!UICONTROL Offerte] elenco. (TGT-43121)</li><li>È stato risolto un problema che consentiva ai clienti di inserire JSON [!UICONTROL Frammento esperienza] offerte quando si utilizza il Compositore esperienza visivo, che non è supportato. Le offerte JSON possono essere inserite solo quando si utilizza il [!UICONTROL Esperienza basata su moduli] compositore. (TGT-43846)</li></ul>Per ulteriori informazioni, consulta AEM [frammenti esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
 | Nuovo [!UICONTROL Compositore esperienza visivo] estensione per Google Chrome | Nuovo [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] L’estensione (VEC) per Chrome è disponibile in Chrome Web Store.<br>A partire da gennaio 2023, la [!DNL Target] L’estensione VEC Helper smetterà di funzionare in Google Chrome perché Google non consente le estensioni che utilizzano Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno.<br>I seguenti collegamenti mostrano le due estensioni in Chrome Web Store:<ul><li>[Nuova estensione](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Vecchia estensione](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul> |
 | Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]<br>(Data esatta di rilascio da determinare.) | Tieni presente le seguenti modifiche:<ul><li>È stato aggiunto il supporto per le metriche binarie e di ottimizzazione in [!UICONTROL Analytics for Target] Generazione di rapporti per A4T per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività</li><li>È stato rimosso il messaggio di avviso sulle metriche binarie per [!UICONTROL Targeting automatico] attività</li><li>Comportamento mantenuto per le attività esistenti fino al 20 febbraio 2023. Dopo questa data, le attività verranno interrotte per forzare la migrazione delle attività esistenti a nuovi comportamenti</li><li>A partire dal 20 febbraio 2023, supporto per `averagetimespentonsite`, `bouncerate`e `entries` metriche in [!DNL Target] le attività diventeranno obsolete.</li></ul> |
 
@@ -39,7 +39,7 @@ Questa versione contiene le seguenti nuove funzioni, miglioramenti e correzioni:
 * Miglioramento delle prestazioni della [!DNL Target] Interfaccia utente per il caricamento di tipi di pubblico che si avvicinano alla [limite consigliato per le regole di targeting](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
 * È stato risolto un problema che impediva la corretta visualizzazione di alcuni componenti nel [!UICONTROL Modifiche] sul pannello [!UICONTROL Esperienze] quando crei o modifichi attività nel Compositore esperienza visivo dopo il passaggio da [!UICONTROL Componi] a [!UICONTROL Sfoglia] modalità. (TGT-43300)
 * È stato risolto un problema che impediva ad alcuni clienti di archiviare [!UICONTROL Test A/B] attività che utilizzano [!UICONTROL Targeting automatico]. (TGT-40978)
-* Aggiunta la possibilità di utilizzare automaticamente una singola offerta in più posizioni all&#39;interno di un singolo gruppo di reporting. (TGT-43974)
+* Aggiunta la possibilità di utilizzare automaticamente una singola offerta in più posizioni all&#39;interno di un singolo gruppo di reporting. (TGT-40689)
 
 ## Informazioni in anteprima {#section_7B9D4AAFC6A74388B9D7DEF0658D8B63}
 
