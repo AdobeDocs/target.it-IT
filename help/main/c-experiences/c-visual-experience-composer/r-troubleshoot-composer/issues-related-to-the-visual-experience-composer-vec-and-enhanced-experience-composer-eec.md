@@ -4,14 +4,14 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
 source-wordcount: '1421'
 ht-degree: 52%
 
 ---
 
-# Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato
+# Risoluzione dei problemi relativi al [!UICONTROL Compositore esperienza visivo] e [!UICONTROL Compositore esperienza avanzato]
 
 I problemi di visualizzazione e altri problemi si verificano a volte nel [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) e [!UICONTROL Compositore esperienza avanzato] (CEE) a determinate condizioni.
 
@@ -36,7 +36,7 @@ Tieni presente le modifiche che influiscono sul Compositore esperienza visivo e 
 
 **Chrome 80 (agosto 2020)**: Con le modifiche implementate ad agosto 2020, tutti gli utenti con versioni del browser Chrome 80+:
 
-* Sarà *not* essere in grado di scaricare [!DNL Target] durante la modifica di un’attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un [!DNL Adobe] e viene rifiutato come non autenticato.
+* Sarà *not* essere in grado di scaricare [!DNL Target] durante la modifica di un&#39;attività (quando queste non sono già sul sito). Questo perché la chiamata di download viene effettuata dal dominio del cliente verso un [!DNL Adobe] e viene rifiutato come non autenticato.
 * La CEE *not* funziona per tutti gli utenti perché non è in grado di impostare l’attributo SameSite per i cookie su `adobemc.com domain`. Senza questo attributo, il browser rifiuta questi cookie, causando il mancato funzionamento del Compositore esperienza avanzato.
 
 ### Determinare quali cookie sono bloccati

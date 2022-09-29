@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l’estensione helper del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 85c1dc84f57130c2638484124191e7ae4dfac9e4
+source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
 workflow-type: tm+mt
-source-wordcount: '1011'
-ht-degree: 67%
+source-wordcount: '1058'
+ht-degree: 58%
 
 ---
 
@@ -15,9 +15,11 @@ ht-degree: 67%
 
 La [!DNL Adobe Target] [!UICONTROL Compositore esperienza visivo] (VEC) L’estensione Helper per per il browser Google Chrome consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo (VEC), per creare e verificare rapidamente le esperienze web.
 
->[!NOTE]
+Il browser VEC Helper è un’estensione Chrome. Questa estensione non è necessaria quando si utilizza Mozilla Firefox.
+
+>[!IMPORTANT]
 >
->Il browser VEC Helper è un’estensione Chrome. Questa estensione non è necessaria quando si utilizza Mozilla Firefox.
+>A partire da gennaio 2023, la [!DNL Target] L’estensione VEC Helper smetterà di funzionare in Google Chrome perché Google non consente le estensioni che utilizzano Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno. Per ulteriori informazioni, consulta [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension).
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
@@ -31,7 +33,7 @@ Un SW è una tecnologia web che può essere utilizzata per intercettare le richi
 
 SW può controllare la memorizzazione in cache; può memorizzare in cache la pagina web stessa, le risorse statiche come JS, CSS, IMG, le richieste AJAX, il loro contenuto e le relative intestazioni di risposta, incluse quelle che l’[estensione VEC Helper di Target](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) tenta di rimuovere, come X-Frame-Options: SAMEORIGIN, CSP (Content-Security-Policy) o Set-Cookie.
 
-Sfortunatamente, le API di estensione di Chrome che intercettano le richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW, dato che la pagina web non viene caricata nel Compositore esperienza visivo a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
+Sfortunatamente, le API di estensione Chrome che intercettano richieste web non ricevono le richieste intercettate e gestite da un SW. Pertanto, l’estensione non può correggere le intestazioni e i cookie se la richiesta di pagina web è stata servita da una cache da un SW perché la pagina web non viene caricata all’interno del VEC a causa delle intestazioni X-Frame-Options o CSP anch’esse memorizzate nella cache.
 
 Come potenziale soluzione alternativa, puoi disabilitare i processi di lavoro dei serivizi dalla scheda Chrome Developer Tools > Application, quindi abilitare la casella di controllo “Bypass for network” nella sezione Service Workers.
 
