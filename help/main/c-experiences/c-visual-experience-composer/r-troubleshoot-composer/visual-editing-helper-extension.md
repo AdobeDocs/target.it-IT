@@ -3,10 +3,10 @@ keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
 description: Scopri perché alcuni siti web potrebbero non essere aperti in modo affidabile nel [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo). La [!UICONTROL Helper per editing video] l’estensione del browser consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo.
 title: Come si utilizzano i [!UICONTROL Helper per editing video] Estensione?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 70ab1ec7f5313d8c1f8ecaa9b436d95919cf479a
+source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
 workflow-type: tm+mt
-source-wordcount: '601'
-ht-degree: 30%
+source-wordcount: '568'
+ht-degree: 27%
 
 ---
 
@@ -56,12 +56,6 @@ Tieni presente che utilizzando [Compositore esperienza avanzato](/help/main/admi
 
    * Se si tenta di caricare un sito web utilizzando il Compositore esperienza visivo che non riesce a caricarsi, viene visualizzato un messaggio per suggerirti di installare il [!UICONTROL Helper per editing video] estensione del browser.
    * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
-
-## Ulteriore aiuto su questa funzione
-
-* [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md)
-* [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md)
-* [Risoluzione dei problemi relativi al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
 
 
 
