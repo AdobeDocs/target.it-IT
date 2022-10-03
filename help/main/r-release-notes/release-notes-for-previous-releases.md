@@ -4,7 +4,7 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 6bef27637c06f39ffc0e755f19e8a0870ec749e5
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -2289,7 +2289,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
       <li id="li_0B634602BB044AEDB26DAF78189AB833"> <p>L'interfaccia utente per i rapporti è stata riprogettata. </p> </li> 
       <li id="li_309435D10AE84E8795C4CCC1F36747F7"> <p>I rapporti di Target ora hanno un'opzione che permette di reimpostare i dati di generazione rapporti per rimuovere i dati obsoleti. (TGT-5933) </p> </li> 
       <li id="li_9D30BFCC4CD6461B9DDCD5797A5E2B3A"> <p>Le opzioni di metodologia di conteggio per la generazione rapporti includono Visitatori (impostazione predefinita), Visite e Impression di attività. (TGT-10002) </p> </li> 
-     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-reports/c-report-settings/report-settings.md#concept_4BB6A7FDAB6F4806A632F9CD989B8BFA" format="dita" scope="local">Impostazioni dei rapporti</a> e <a href="/help/main/c-reports/conversion-rate.md#concept_EC19BC897D66411BABAF2FA27BCE89AA" format="dita" scope="local">Metodologia di conteggio.</a> </p> <p>I seguenti miglioramenti di generazione rapporti sono ora disponibili per i rapporti CSV scaricabili: </p> <p> 
+     </ul> </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Impostazioni dei rapporti</a> e <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Metodologia di conteggio.</a> </p> <p>I seguenti miglioramenti di generazione rapporti sono ora disponibili per i rapporti CSV scaricabili: </p> <p> 
      <ul id="ul_18B0636A41B94F9F903ABFE3E13285DA"> 
       <li id="li_2422075AA0A34F868809C5D580FC5D4B"> <p>Il rapporto CSV a livello di offerta dispone ora di ulteriori dettagli riguardanti ogni offerta. (TGT-18995) </p> </li> 
       <li id="li_659D126E846348D4BE4544962F41539F"> <p>Ora i file CSV scaricati a livello di offerta includono sempre i dati dei segmenti di controllo e di destinazione per i rapporti di <span class="wintitle">Automated Personalization</span>. (TGT-22000) </p> </li> 
@@ -2955,7 +2955,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Visualizzare l'intervallo di affidabilità nei rapporti di Target per variabili continue </td> 
-   <td colname="col2"> <p>Visualizza l'intervallo di affidabilità per le metriche di tipo ricavo (RPV, AOV, Vendite, Ordini) e per le metriche di coinvolgimento. </p> <p>Ad esempio, se RPV = 200,00 e l'intervallo di affidabilità = 50,00, per RPV si dovrebbe ottenere 200,00 +/- 50,00 </p> <p>Questa modifica è applicabile ai test A/B, Targeting esperienza e multivariati. </p> <p>Consulta <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Livello di affidabilità e intervallo di affidabilità.</a> </p> </td> 
+   <td colname="col2"> <p>Visualizza l'intervallo di affidabilità per le metriche di tipo ricavo (RPV, AOV, Vendite, Ordini) e per le metriche di coinvolgimento. </p> <p>Ad esempio, se RPV = 200,00 e l'intervallo di affidabilità = 50,00, per RPV si dovrebbe ottenere 200,00 +/- 50,00 </p> <p>Questa modifica è applicabile ai test A/B, Targeting esperienza e multivariati. </p> <p>Consulta <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Livello di affidabilità e intervallo di affidabilità.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Miglioramento delle regole dell'URL del Compositore esperienza visivo </td> 
@@ -3212,7 +3212,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> Intervallo di affidabilità per metriche binarie </td> 
-   <td colname="col2"> <p>I rapporti aggiornati che utilizzano i dati basati su Target mostrano l’intervallo di affidabilità dell’incremento rispetto a quello di controllo. </p> <p>Consulta <a href="/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B" format="dita" scope="local">Livello di affidabilità e intervallo di affidabilità.</a> </p> </td> 
+   <td colname="col2"> <p>I rapporti aggiornati che utilizzano i dati basati su Target mostrano l’intervallo di affidabilità dell’incremento rispetto a quello di controllo. </p> <p>Consulta <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Livello di affidabilità e intervallo di affidabilità.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Download dei dati dei rapporti dell’attività per l’esportazione </td> 

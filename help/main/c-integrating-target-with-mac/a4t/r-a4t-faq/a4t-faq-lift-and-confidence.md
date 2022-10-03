@@ -4,10 +4,10 @@ description: Trova risposte alle domande su incremento e affidabilità durante l
 title: Dove posso trovare informazioni su incremento e affidabilità con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 42fd179b-944a-4a0a-b299-85ea4a7ea244
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '546'
-ht-degree: 28%
+source-wordcount: '541'
+ht-degree: 25%
 
 ---
 
@@ -17,7 +17,7 @@ Questo argomento contiene le risposte alle domande più frequenti sull’increme
 
 ## Posso eseguire calcoli offline per A4T? {#section_55B5B750E17D414CAECBEECE27B15D81}
 
-Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics]. Per ulteriori informazioni, vedi “Esecuzione di calcoli offline per Analytics per Target” (A4T) in [Livello di affidabilità e intervallo di affidabilità](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics]. Per ulteriori informazioni, consulta [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Come viene calcolato l’incremento? {#section_8CAE788EED5646C4B1D64A0D22070734}
 
@@ -25,7 +25,7 @@ L’incremento è la differenza percentuale tra i risultati della pagina di cont
 
 ## Come viene calcolata l’affidabilità? {#section_97DB24D833E742988318CA65DA65DAD9}
 
-Il livello di affidabilità è una probabilità, espressa in percentuale, pari a `1 - p-value`, dove `p-value` è calcolato da un test t. Vedi [Tasso di conversione](/help/main/c-reports/conversion-rate.md#concept_0D0002A1EBDF420E9C50E2A46F36629B).
+Il livello di affidabilità è una probabilità, espressa in percentuale, pari a `1 - p-value`, dove `p-value` è calcolato da un test t. Vedi [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Perché non riesco a vedere l’incremento e l’affidabilità sulle metriche calcolate? {#lift-confidence}
 

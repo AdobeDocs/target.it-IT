@@ -4,9 +4,9 @@ description: Scopri come interpretare il rapporto di riepilogo di Automated Pers
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
 workflow-type: tm+mt
-source-wordcount: '671'
+source-wordcount: '673'
 ht-degree: 40%
 
 ---
@@ -38,7 +38,7 @@ Il rapporto a [!UICONTROL livello di attività] consente di confrontare le prest
 
 ![Rapporto a livello di attività](/help/main/c-reports/assets/box_plot_ap.png)
 
-Si applicano comunque le regole standard di interpretazione dei risultati per il test A/B, tra cui incremento, affidabilità, trend, durata e così via. Per ulteriori informazioni sull’interpretazione dei risultati, vedi [Tasso di conversione](/help/main/c-reports/conversion-rate.md#concept_2D9FEDE8F94A485DAC86D611BFBDC844).
+Si applicano comunque le regole standard di interpretazione dei risultati per il test A/B, tra cui incremento, affidabilità, trend, durata e così via. Per ulteriori informazioni sull’interpretazione dei risultati, vedi [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 ## Report Offer Level (Livello di offerta) {#section_CAA6409879E349C6906E2BE8156D87A1}
 
