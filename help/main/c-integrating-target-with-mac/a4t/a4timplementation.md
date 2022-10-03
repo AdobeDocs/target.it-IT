@@ -4,9 +4,9 @@ description: Segui i passaggi necessari per implementare Analytics per [!DNL Tar
 title: Come si implementa Analytics per [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
 workflow-type: tm+mt
-source-wordcount: '1157'
+source-wordcount: '1155'
 ht-degree: 25%
 
 ---
@@ -33,7 +33,7 @@ Creare una configurazione Edge utilizzando [!DNL Adobe Experience Platform] medi
 
 ### Passaggio 4: Installare e configurare l’SDK per web di Platform
 
-Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di tracciamento e di analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
+Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
 
 ### Passaggio 5: Abilitare le opzioni per l’utilizzo di A4T
 
@@ -192,7 +192,7 @@ Adobe consiglia di rimuovere l’integrazione precedente per semplificare l’im
 
 ### Passaggio 10: Abilitare le opzioni per l’utilizzo di Analytics come origine per la creazione di rapporti per Target
 
-In [!DNL Target], fai clic su **[!UICONTROL Amministrazione > Compositore esperienza visivo]** e scegli **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]** per abilitare le opzioni.
+In [!DNL Target], fai clic su **[!UICONTROL Amministrazione > Reporting]** e scegli **[!UICONTROL Seleziona per attività]** o **[!UICONTROL Adobe Analytics]** per abilitare le opzioni.
 
 * **[!UICONTROL Seleziona per attività consente di scegliere tra e per la creazione di ogni attività.]**[!DNL Target][!DNL Analytics]
 * **[!UICONTROL Adobe imposta Analytics come origine dei rapporti per tutte le attività che hai creato.]**[!DNL Analytics]
