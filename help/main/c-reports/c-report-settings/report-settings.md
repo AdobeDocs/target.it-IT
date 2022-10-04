@@ -4,10 +4,10 @@ description: Scopri come configurare le impostazioni dei rapporti in Adobe Targe
 title: Come Si Configurano Le Impostazioni Dei Rapporti?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1918'
-ht-degree: 68%
+source-wordcount: '1917'
+ht-degree: 66%
 
 ---
 
@@ -57,7 +57,7 @@ Seleziona il predefinito desiderato dall&#39;elenco a discesa **[!UICONTROL Pred
 1. Seleziona il predefinito da modificare.
 1. Modifica la configurazione del rapporto come preferisci (metriche, intervalli di date, destinatari, impostazioni avanzate e così via).
 
-   Una volta fatto clic su [!UICONTROL Salva] dopo aver modificato la configurazione del report, compare un asterisco (*) dopo il nome della preimpostazione per indicare che è stata modificata, come illustrato di seguito:
+   Dopo aver fatto clic su [!UICONTROL Salva] dopo aver modificato la configurazione del report, viene visualizzato un asterisco ( &#42; ) viene visualizzato dopo il nome del predefinito per indicare che il predefinito è stato modificato, come illustrato di seguito:
 
    ![Predefinito per rapporto con asterisco](/help/main/c-reports/c-report-settings/assets/report_preset_asterisk-new.png)
 
@@ -167,7 +167,7 @@ Fai clic sul pulsante **[!UICONTROL Scarica]** icona per scaricare i dati del ra
 
 ![Icona di download](/help/main/c-reports/c-report-settings/assets/download-icon.png)
 
-Per ulteriori informazioni, consulta [Download di dati in un file CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75).
+Per ulteriori informazioni, consulta [Download di dati in un file CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md).
 
 ## Aggiorna {#section_E203729F2F314DF3856D2EE67C60B370}
 
@@ -192,7 +192,7 @@ Puoi visualizzare il rapporto in vari formati, a seconda del tipo di attività. 
 
 I rapporti includono diversi punti di dati e rappresentazioni di visualizzazione che consentono di comprendere i limiti di incremento e il livello di affidabilità associati all’attività. Ciò consente di determinare più accuratamente un vincitore.
 
-Per ulteriori informazioni, consulta [Incremento medio, limiti di incremento e intervallo di confidenza](/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129).
+Per ulteriori informazioni, consulta [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
 Considera i seguenti aspetti:
 

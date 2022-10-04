@@ -4,7 +4,7 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2795'
 ht-degree: 96%
@@ -166,7 +166,7 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 
 **Sono stanco del messaggio “Consenti al browser di caricare script” quando si tenta di caricare la pagina nel Compositore esperienza visivo. Come posso evitarlo?**
 
-Questo è dovuto al fatto che il sito ha contenuto misto, è un sito che recupera sia le risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
+Questo perché il tuo sito ha contenuti misti; è un sito che recupera sia le risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
 In questo caso, segui le istruzioni [Consentire contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
@@ -279,7 +279,7 @@ Tieni presente che Target raccoglie i dati per questo scopo dal momento in cui s
 
 **È possibile eseguire calcoli di reporting offline?**
 
-Usa le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell’ordine in formato CSV](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) nella pagina Rapporti per scaricare i dati di reporting desiderati.
+Usa le opzioni [Esporta rapporti in formato CSV e Scarica i dettagli dell’ordine in formato CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) nella pagina Rapporti per scaricare i dati di reporting desiderati.
 
 **Posso cambiare l’esperienza di controllo per valutare i rapporti o cambiare la metodologia di conteggio da visitatori a visite?**
 
@@ -315,4 +315,4 @@ Per ottimizzare e personalizzare su dispositivi mobili, devi utilizzare [attivit
 
 **Dove posso saperne di più sulle API di Target?**
 
-È disponibile una documentazione completa sulle API. Vedi [Documentazione di API di distribuzione, SDK di NodeJS e API di Recommendations](https://developer.adobe.com/target/implement/server-side/){target=_blank}.
+È disponibile una documentazione completa sulle API. Vedi [Documentazione di API di distribuzione, SDK di NodeJS e API di Recommendations](https://developer.adobe.com/target/implementa/lato server/){target=_blank}.

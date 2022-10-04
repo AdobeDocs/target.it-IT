@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
 workflow-type: tm+mt
-source-wordcount: '1219'
-ht-degree: 98%
+source-wordcount: '1217'
+ht-degree: 97%
 
 ---
 
@@ -255,22 +255,23 @@ ht-degree: 98%
    + [Panoramica sui rapporti](c-reports/reports.md)
    + Impostazioni dei rapporti {#settings}
       + [Panoramica sulle impostazioni dei rapporti](c-reports/c-report-settings/report-settings.md)
-      + [Incremento medio, limiti di incremento e intervallo di affidabilità](c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md)
       + [Visualizzare più metriche in un rapporto](c-reports/c-report-settings/view-multiple-metrics.md)
       + [Escludere i valori estremi](c-reports/c-report-settings/excluding-extreme-orders.md)
+      + [Download di dati in un file CSV](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md)
    + Metodologia statistica {#statistical-methodology}
       + [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)
-   + [Rapporto di riepilogo del Targeting automatico](c-reports/auto-target-summary-report.md)
-   + [Rapporto di riepilogo per Automated Personalization](c-reports/reports-ap.md)
+   + Rapporti sulla personalizzazione {#personalization-reports}
+      + [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
+      + [Rapporto di riepilogo per Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
+      + [Gruppi di reporting di offerte in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Rapporto Approfondimenti personalizzazione {#insights}
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)
       + [Rapporto Attributi importanti](c-reports/c-personalization-insights-reports/important-attributes-report.md)
-   + [Gruppi di reporting di offerte in Automated Personalization](c-reports/offer-reporting-groups-in-automated-personalization.md)
-   + [Rapporto Prestazioni Esperienza (MVT)](c-reports/experience-performance-report.md)
-   + [Rapporto Contributo Posizione (MVT)](c-reports/location-contribution-report.md)
+   + Report test multivariati {#multivariate-test-reports}
+      + [Rapporto Prestazioni Esperienza (MVT)](/help/main/c-reports/multivariate-test-reports/experience-performance-report.md)
+      + [Rapporto Contributo Posizione (MVT)](/help/main/c-reports/multivariate-test-reports/location-contribution-report.md)
    + [Reporting di Analytics for Target (A4T)](c-reports/analytics-for-target-a4t-reporting.md)
-   + [Download di dati in un file CSV](c-reports/downloading-data-in-csv-file.md)
    + [Domande frequenti sulla generazione di rapporti](c-reports/reporting-frequently-asked-questions.md)
 + Consigli {#recommendations}
    + [Panoramica sulla funzione Consigli](c-recommendations/recommendations.md)

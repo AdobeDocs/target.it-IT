@@ -3,7 +3,7 @@ keywords: rapporti;metodologia statistica;calcoli statistici;statistiche;media;t
 description: Informazioni sui calcoli statistici utilizzati nel manuale [!UICONTROL Test A/B] attività [!DNL Adobe Target].
 title: Come posso imparare i calcoli statistici utilizzati in [!UICONTROL Test A/B] Attività?
 feature: Reports
-source-git-commit: 4fc3de2a15f117a4356d67fcffd7f9b881e1179a
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1078'
 ht-degree: 2%
@@ -132,6 +132,6 @@ Infine, la Confidence riportata in [!DNL Target] è definito come:
 
 ## Esecuzione dei calcoli offline
 
-Il [rapporto CSV scaricato](/help/main/c-reports/downloading-data-in-csv-file.md#concept_3F276FF2BBB2499388F97451D6DE2E75) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
+Il [rapporto CSV scaricato](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
 Per calcolare queste quantità statistiche, scarica il [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività.

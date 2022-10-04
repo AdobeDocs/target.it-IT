@@ -4,10 +4,10 @@ description: Scopri come eseguire un’attività di Targeting automatico in [!DN
 title: Cos’è un’attività di targeting automatico?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
-source-wordcount: '1991'
-ht-degree: 70%
+source-wordcount: '1987'
+ht-degree: 66%
 
 ---
 
@@ -63,7 +63,7 @@ I seguenti termini sono utili quando si parla di [!UICONTROL Targeting automatic
 |---|---|
 | Slot machine | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
 | Foresta casuale | Foresta casuale è uno dei principali metodi di apprendimento automatico. In termini di scienza dei dati, si tratta di una classificazione di insieme, o metodo di regressione, che funziona costruendo molti alberi decisionali basati su visitatori e attributi di visita. In Target, l’algoritmo Foresta casuale determina quale esperienza possa avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. Per ulteriori informazioni sulla foresta casuale in Target, consulta [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il “costo” della ricerca dell’esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 ## Funzionamento di [!UICONTROL Targeting automatico] {#section_77240E2DEB7D4CD89F52BE0A85E20136}
 
@@ -89,8 +89,8 @@ L’elenco a discesa [!UICONTROL Personalizza allocazione] consente di scegliere
 
 | Obiettivo dell’attività | Allocazione del traffico consigliata | Compromessi |
 |--- |--- |--- |
-| **Valuta algoritmo di personalizzazione (50/50)**: se l’obiettivo è quello di testare l’algoritmo, assegna il 50% dei visitatori all’algoritmo di controllo e l’altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. È consigliata quando il controllo è impostato su “Esperienze casuali”. | 50% al controllo / 50% all’esperienza personalizzata. | <ul><li>Massimizza la precisione dell&#39;incremento tra controllo e personalizzazione</li><li>Un numero relativamente inferiore di visitatori ha un’esperienza personalizzata</li></ul> |
-| **Massimizza traffico personalizzazione (90/10)**: se il tuo obiettivo è invece quello di creare un’attività “sempre attiva”, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, noterai che, in cambio della personalizzazione di una proporzione più ampia del traffico, hai una precisione inferiore nell’incremento esatto. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica. | Una buona pratica è quella di allocare 10%-30% al controllo / 70%-90% all’esperienza personalizzata | <ul><li>Massimizza il numero di visitatori che ricevono un&#39;esperienza personalizzata</li><li>Massimizza l&#39;incremento</li><li>Meno precisione nel determinare l&#39;incremento per l&#39;attività</li></ul> |
+| **Valuta algoritmo di personalizzazione (50/50)**: se l’obiettivo è quello di testare l’algoritmo, assegna il 50% dei visitatori all’algoritmo di controllo e l’altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. Consigliato per l’utilizzo con &quot;esperienze casuali&quot; come controllo. | 50% al controllo / 50% all’esperienza personalizzata. | <ul><li>Massimizza la precisione dell&#39;incremento tra controllo e personalizzazione</li><li>Un numero relativamente inferiore di visitatori ha un’esperienza personalizzata</li></ul> |
+| **Massimizza traffico personalizzazione (90/10)**: Se l’obiettivo è quello di creare un’attività &quot;sempre attiva&quot;, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, noterai che, in cambio della personalizzazione di una proporzione più ampia del traffico, hai una precisione inferiore nell’incremento esatto. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica. | Una buona pratica è quella di allocare 10%-30% al controllo / 70%-90% all’esperienza personalizzata | <ul><li>Massimizza il numero di visitatori che ricevono un&#39;esperienza personalizzata</li><li>Massimizza l&#39;incremento</li><li>Meno precisione nel determinare l&#39;incremento per l&#39;attività</li></ul> |
 | **Personalizza allocazione** | Suddividi manualmente la percentuale come desiderato. | <ul><li>Potresti non ottenere i risultati desiderati. Se non sei sicuro, segui i suggerimenti per una delle opzioni precedenti</li></ul> |
 
 Per regolare la percentuale di controllo, fai clic sulle icone nella colonna Allocazione. Non è possibile ridurre il gruppo di controllo sotto il 10%.
@@ -113,7 +113,7 @@ Esistono diversi scenari in cui si preferisce il [!UICONTROL Targeting automatic
 
 * L&#39;algoritmo prevede la propensione di un visitatore per la conversione (o i ricavi stimati dalla conversione) al fine di offrire la migliore esperienza.
 * Un visitatore è idoneo per una nuova esperienza al termine di una sessione esistente (a meno che il visitatore non si trovi nel gruppo di controllo, nel qual caso l’esperienza che il visitatore viene assegnato alla prima visita rimane la stessa per le visite successive).
-* All&#39;interno di una sessione, la stima non cambia, per mantenere la coerenza visiva.
+* All&#39;interno di una sessione, la previsione non cambia, per mantenere la coerenza visiva.
 
 **L&#39;algoritmo si adatta alle modifiche nel comportamento dei visitatori.**
 
@@ -159,7 +159,7 @@ Per il [!UICONTROL Targeting automatico] è possibile utilizzare semplici regole
 
 ## Creazione di rapporti e [!UICONTROL Targeting automatico] {#section_42EE7F5E65E84F89A872FE9921917F76}
 
-Per ulteriori informazioni, consulta [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/auto-target-summary-report.md) nella sezione [Rapporti](/help/main/c-reports/reports.md).
+Per ulteriori informazioni, consulta [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md).
 
 ## Video di formazione: Informazioni sulle attività di Targeting automatico ![Badge panoramica](/help/main/assets/overview.png)
 

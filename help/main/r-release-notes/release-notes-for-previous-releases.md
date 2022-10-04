@@ -4,7 +4,7 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '34593'
 ht-degree: 96%
@@ -1472,7 +1472,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1"> <p>Rapporti </p> </td> 
-   <td colname="col2"> <p>Le informazioni su incremento e limiti nei rapporti sono più complete e utili, con una descrizione che specifica come avviene il calcolo dei limiti. (TGT-28729) </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-reports/c-report-settings/average-lift-bounds-and-confidence-interval.md#topic_AFFDC672A8A34D028B100EF6BE5D8129" format="dita" scope="local">Incremento medio, limiti di incremento e intervallo di confidenza</a>. </p> </td> 
+   <td colname="col2"> <p>Le informazioni su incremento e limiti nei rapporti sono più complete e utili, con una descrizione che specifica come avviene il calcolo dei limiti. (TGT-28729) </p> <p>Per ulteriori informazioni, consulta <a href="/help/main/c-reports/statistical-methodology/statistical-calculations.md" format="dita" scope="local">Incremento medio, limiti di incremento e intervallo di confidenza</a>. </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p>Attività di Automated Personalization (AP) e Targeting automatico </p> </td> 
@@ -3153,7 +3153,7 @@ Questa versione include i miglioramenti e le funzioni seguenti:
   </tr> 
   <tr> 
    <td colname="col1" class="premium"> <p class="Premium">Automated Personalization </p> <p>Rapporto basato sulla conversione </p> </td> 
-   <td colname="col2"> <p> Se l’obiettivo di ottimizzazione è una metrica di conversione, il rapporto di Dettagli offerta mostra ora l’impatto delle maggiori variabili predittive negli incrementi e nelle conversioni incrementali. Questo rapporto era in precedenza basato soltanto sui ricavi; questa opzione assicura quindi che anche le attività prive di dati di ricavo possano produrre informazioni rilevanti e fruibili. </p> <p>Consulta <a href="/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A" format="dita" scope="local">Rapporti per Automated Personalization.</a> </p> </td> 
+   <td colname="col2"> <p> Se l’obiettivo di ottimizzazione è una metrica di conversione, il rapporto di Dettagli offerta mostra ora l’impatto delle maggiori variabili predittive negli incrementi e nelle conversioni incrementali. Questo rapporto era in precedenza basato soltanto sui ricavi; questa opzione assicura quindi che anche le attività prive di dati di ricavo possano produrre informazioni rilevanti e fruibili. </p> <p>Consulta <a href="/help/main/c-reports/personalization-reports/reports-ap.md" format="dita" scope="local">Rapporti per Automated Personalization.</a> </p> </td> 
   </tr> 
   <tr> 
    <td colname="col1"> Integrazione e-mail di Adobe Campaign con Target Standard </td> 

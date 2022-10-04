@@ -4,10 +4,10 @@ description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapport
 title: Qual è il rapporto Attributi importanti?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '1717'
-ht-degree: 83%
+ht-degree: 81%
 
 ---
 
@@ -40,13 +40,13 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. Fai clic su **[!UICONTROL Rapporto]**.
 
-   La [Riepilogo Automated Personalization](/help/main/c-reports/reports-ap.md) o [Riepilogo del Targeting automatico](/help/main/c-reports/auto-target-summary-report.md) viene visualizzato un rapporto che fornisce informazioni sulle prestazioni delle attività, rappresentate dall’icona della prima schermata. Le due icone aggiuntive rappresentano le due [!UICONTROL Approfondimenti personalizzazione] rapporti: [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti].
+   La [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) viene visualizzato un rapporto che fornisce informazioni sulle prestazioni delle attività, rappresentate dall’icona della prima schermata. Le due icone aggiuntive rappresentano le due [!UICONTROL Approfondimenti personalizzazione] rapporti: [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti].
 
-   ![Rapporto di riepilogo per l’attività Automated Personalization](assets/summary-report-ap.png)
+   ![Rapporto di riepilogo per l’attività Automated Personalization](/help/main/c-reports/assets/summary-report-ap.png)
 
    Tieni presente che [!UICONTROL Targeting automatico] dispone di un’ulteriore icona grafico per la visualizzazione grafica del [!UICONTROL Riepilogo] rapporto.
 
-   ![Rapporto di riepilogo per l’attività di Targeting automatico](assets/personalization_insights.png)
+   ![Rapporto di riepilogo per l’attività di Targeting automatico](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -54,7 +54,7 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. A 15 giorni dall’attivazione dell’attività, fai clic sul pulsante **[!UICONTROL Attributi importanti]** icona.
 
-   ![](assets/model_attribute_ranking.png)
+   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
@@ -66,16 +66,15 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
    Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   ![](assets/personalization_insights_calendar_1.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Puoi accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Scegli la durata].
 
-   ![](assets/personalization_insights_calendar_2.png)
+   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Esamina i dati del rapporto [!UICONTROL Attributi importanti].
 
-   ![](assets/model_attribute_ranking_report.png)
-
+   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Facoltativo) [Scarica il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri programmi.
 
@@ -118,7 +117,7 @@ Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti autom
 
 **Come viene creato [!UICONTROL Registri di personalizzazione]?**
 
-[!UICONTROL Registri di personalizzazione] viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [arXiv.org](https://arxiv.org/abs/1706.07160).
+[!UICONTROL Registri di personalizzazione] viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [Sito web arXiv.org](https://arxiv.org/abs/1706.07160).
 
 **[!UICONTROL Registri di personalizzazione] è disponibile per obiettivi di modeling/obiettivi primari basati sui profitti?**
 
@@ -136,7 +135,7 @@ Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esper
 * Attività dal volume ridotto con alcune offerte o esperienze prive di modelli.
 * Attività dal volume ridotto in cui i modelli sono stati creati prima per alcune offerte o esperienze rispetto ad altre. Questo si verifica, ad esempio, se un modello aggiuntivo è stato creato il giorno 22 e si esaminano i dati relativi ai giorni 10-24.
 * Regole di targeting di una particolare offerta in base alle quali alcuni visitatori non possono visualizzare una determinata offerta o esperienza.
-* Assenza di intervalli di affidabilità nella generazione dei rapporti Approfondimenti. Tuttavia, se i tassi di conversione non si discostano troppo, è possibile che il modello distribuisca il traffico in modo che sia più elevato nella quantità di punti, ma che i numeri non siano “statisticamente diversi”.
+* Assenza di intervalli di affidabilità nella generazione dei rapporti Approfondimenti. Tuttavia, se i tassi di conversione sono abbastanza vicini, il modello potrebbe servire il traffico in modo che sia più alto nella quantità di punti, ma non sono numeri &quot;statisticamente diversi&quot;.
 
 È utile sapere come funziona il modello in base al quale viene distribuito il traffico. Ogni persona riceve i contenuti in base al suo profilo totale. Tuttavia, i rapporti Approfondimenti generalizzano questo comportamento per facilitarne l’interpretazione. Di conseguenza, i segmenti non si escludono a vicenda. Di conseguenza questo tipo di comportamento può interessare singoli segmenti perché una stessa persona può essere inclusa in più segmenti.
 

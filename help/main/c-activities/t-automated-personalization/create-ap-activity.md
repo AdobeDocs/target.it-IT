@@ -4,10 +4,10 @@ description: Scopri come creare un’ [!UICONTROL Automated Personalization] (AP
 title: Come creare un [!UICONTROL Automated Personalization] Attività?
 feature: Automated Personalization
 exl-id: eadc2bbc-310b-479f-b75b-253e8d7aa812
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
 workflow-type: tm+mt
 source-wordcount: '2048'
-ht-degree: 91%
+ht-degree: 89%
 
 ---
 
@@ -86,7 +86,7 @@ La [!UICONTROL Automated Personalization] Flusso di lavoro delle attività (AP) 
 
 1. (Facoltativo) Fai clic su **[!UICONTROL Offerte]** per selezionare parti di contenuto e assegnarle a gruppi di reporting o per consentire solamente a determinati visitatori di visualizzare alcune offerte con targeting.
 
-   Per ulteriori informazioni, consulta [Gruppi di reporting delle offerte in Personalizzazione automatizzata](/help/main/c-reports/offer-reporting-groups-in-automated-personalization.md#concept_194128C0B56B4B26AAB57DB49892960C).
+   Per ulteriori informazioni, consulta [Gruppi di reporting delle offerte in Personalizzazione automatizzata](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md).
 
    Utilizza l&#39;elenco [!UICONTROL Posizione] per filtrare le offerte in base alla posizione. Utilizza l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le offerte in base ai gruppi di rapporti. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le [!UICONTROL Offerte non assegnate] così da poter assegnare un gruppo di rapporti a un&#39;offerta attualmente non assegnata ad alcun gruppo di rapporti.
 
@@ -120,8 +120,8 @@ La [!UICONTROL Automated Personalization] Flusso di lavoro delle attività (AP) 
 
    ![Elenco a discesa Obiettivo di allocazione traffico](/help/main/c-activities/t-automated-personalization/assets/traffic-allocation-goal-ap.png)
 
-   * **Valuta algoritmo di personalizzazione (50/50):** se l’obiettivo è quello di testare l’algoritmo, assegna il 50% dei visitatori all’algoritmo di controllo e l’altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. È consigliata quando il controllo è impostato su “Esperienze casuali”.
-   * **Massimizza traffico personalizzazione (90/10):** se il tuo obiettivo è invece quello di creare un’attività “sempre attiva”, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, considera che la personalizzazione di una proporzione maggiore del traffico va a scapito della precisione nell’incremento rilevato. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica.
+   * **Valuta algoritmo di personalizzazione (50/50):** se l’obiettivo è quello di testare l’algoritmo, assegna il 50% dei visitatori all’algoritmo di controllo e l’altro 50% a quello di destinazione. Questa suddivisione fornisce la stima più accurata dell’incremento. Consigliato per l’utilizzo con &quot;esperienze casuali&quot; come controllo.
+   * **Massimizza traffico personalizzazione (90/10):** Se l’obiettivo è quello di creare un’attività &quot;sempre attiva&quot;, inserisci il 10% dei visitatori nel controllo affinché ci siano abbastanza dati per consentire agli algoritmi di continuare a imparare nel tempo. In questo caso, considera che la personalizzazione di una proporzione maggiore del traffico va a scapito della precisione nell’incremento rilevato. Indipendentemente dall’obiettivo, questa è la suddivisione del traffico consigliata quando si utilizza come controllo un’esperienza specifica.
    * **Personalizza allocazione**: specifica manualmente la percentuale di suddivisione, in base alle tue esigenze.
 
 1. (Condizionale) Dall’elenco a discesa [!UICONTROL Controllo], [seleziona un’esperienza specifica da usare come controllo](/help/main/c-activities/t-automated-personalization/experience-as-control.md) oppure seleziona [!UICONTROL Esperienza casuale.]
@@ -164,4 +164,4 @@ La [!UICONTROL Automated Personalization] Flusso di lavoro delle attività (AP) 
 
 Dopo aver fatto clic su **[!UICONTROL Crea]** verrà visualizzato il riepilogo attività. Fai clic su **Anteprima esperienze** per poter vedere in anteprima l&#39;aspetto che avranno le tue esperienze quando saranno distribuite. Appare un riquadro a comparsa che puoi utilizzare per visualizzare e condividere i collegamenti alle esperienze di Personalizzazione automatizzata sul tuo sito per ottenere una “anteprima fedele” al di fuori del Compositore esperienza visivo di Target. Per condividere l’anteprima, è necessario condividere i collegamenti dal messaggio. Non è possibile fare clic su un collegamento e poi copiare l&#39;URL direttamente dalla pagina, perché l&#39;URL contiene un parametro che visualizza la pagina correttamente solo quando si accede alla pagina dal collegamento nel messaggio.
 
-Per informazioni sull’attività di reporting, consulta [Rapporti per Personalizzazione automatizzata](/help/main/c-reports/reports-ap.md#concept_C02BAFC922114A44846998FD956E345A).
+Per informazioni sull’attività di reporting, consulta [Rapporti per Personalizzazione automatizzata](/help/main/c-reports/personalization-reports/reports-ap.md).
