@@ -4,10 +4,10 @@ description: Scopri come scegliere una metrica di successo in [!DNL Adobe Target
 title: Posso applicare un pubblico di reportistica a una metrica di successo?
 feature: Success Metrics
 exl-id: 6b2f6669-6178-4da4-850d-8b1ce796a50d
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 54%
+source-wordcount: '301'
+ht-degree: 52%
 
 ---
 
@@ -17,7 +17,7 @@ Scegli una metrica di successo che qualifichi l’utente per il pubblico di repo
 
 Per tutte le attività, l’elenco a discesa [!UICONTROL Applicato a] consente di applicare un pubblico a una metrica di successo in modo da poter visualizzare i numeri per i rapporti una volta conseguita tale metrica e per le azioni successive.
 
-![](assets/success_metric.png)
+![immagine success_metric](assets/success_metric.png)
 
 Ad esempio, supponi di aver creato un’attività per tutti i visitatori che accedono all’attività dalla pagina principale e arrivano alla pagina di conversione; inoltre, desideri approfondire l’analisi per i visitatori che hanno aggiunto al carrello articoli per un valore superiore ai 50 $ prima della conversione.
 
@@ -32,4 +32,4 @@ Considera le seguenti informazioni quando applichi un pubblico per la reportisti
 
 Per visualizzare la segmentazione nel reporting, seleziona il pubblico desiderato dal [!UICONTROL Pubblico] elenco a discesa nel rapporto dell’attività.
 
-![](assets/reporting_audience_dropdown.png)
+![immagine a discesa reporting_audience](assets/reporting_audience_dropdown.png)

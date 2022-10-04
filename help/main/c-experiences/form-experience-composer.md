@@ -4,9 +4,9 @@ description: Scopri come utilizzare l’Adobe [!DNL Target] Compositore esperien
 title: Come si utilizza il Compositore esperienza basato su moduli?
 feature: Form-based Experience Composer
 exl-id: d06a271b-f058-4c83-af75-da2a29774967
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '856'
+source-wordcount: '871'
 ht-degree: 46%
 
 ---
@@ -29,7 +29,7 @@ Se stai creando un [!UICONTROL Recommendations] attività , non ci sono esperien
 
    La [!UICONTROL Compositore esperienza basato su moduli] si apre.
 
-   ![](assets/location_refinements.png)
+   ![immagine location_perfezionements](assets/location_refinements.png)
 
    Questa schermata è diversa se crei un [!UICONTROL Recommendations] attività. [!UICONTROL Le attività di consigli non includono esperienze.]
 
@@ -46,13 +46,13 @@ Se stai creando un [!UICONTROL Recommendations] attività , non ci sono esperien
 
 1. Fai clic su **[!UICONTROL Aggiungere perfezionamenti al pubblico]**, scegli uno o più [pubblico](/help/main/c-target/target.md#concept_A782F8481A5041EBA75103CB26376522) per questa attività, fai clic su **[!UICONTROL Fine]**.
 
-   ![](assets/location_refinements_2.png)
+   ![immagine location_perfezionements_2](assets/location_refinements_2.png)
 
    In [!UICONTROL Compositore esperienza basato su moduli], i perfezionamenti sono stati sostituiti da funzionalità complete per i tipi di pubblico. I perfezionamenti per le attività esistenti sono stati trasferiti ai tipi di [pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md#concept_A6BADCF530ED4AE1852E677FEBE68483).
 
 1. Seleziona il tipo di contenuto da visualizzare in tale posizione.
 
-   ![](assets/form_content.png)
+   ![immagine form_content](assets/form_content.png)
 
 1. Specifica il contenuto per il tipo selezionato.
 
@@ -96,11 +96,11 @@ Se stai creando un [!UICONTROL Recommendations] attività , non ci sono esperien
 
    Durante la selezione dei criteri di consigli nel compositore esperienza basato su moduli, è ora disponibile un collegamento diretto alla scheda dei criteri selezionati per poter modificare in modo semplice e veloce i criteri.
 
-   ![](assets/change_criteria.png)
+   ![immagine change_criteria](assets/change_criteria.png)
 
    Dalla pagina di targeting del workflow guidato in tre fasi di Target:
 
-   ![](assets/change_criteria_2.png)
+   ![immagine change_criteria_2](assets/change_criteria_2.png)
 
    **Aggiungi decisione offerta:**
 

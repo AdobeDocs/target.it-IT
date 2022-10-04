@@ -4,10 +4,10 @@ description: Scopri come utilizzare le date e gli orari di inizio e fine per ese
 title: Posso Eseguire il targeting dei visitatori che visitano il mio sito a orari specifici?
 feature: Audiences
 exl-id: 814d545d-baee-4f8b-a2ed-ed68fceaeb7f
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '424'
-ht-degree: 45%
+source-wordcount: '428'
+ht-degree: 44%
 
 ---
 
@@ -21,7 +21,7 @@ Ad esempio, utilizzando [funzionalità di pubblico combinato e ad hoc](/help/mai
 1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
 1. Trascinamento della selezione **[!UICONTROL Intervallo temporale]** nel riquadro audience builder (generatore di pubblico).
 
-   ![](assets/target_timeframe_dialog.png)
+   ![immagine target_timeframe_dialog](assets/target_timeframe_dialog.png)
 
 1. Specifica la [!UICONTROL Inizio] e [!UICONTROL Fine] date e ore del pubblico.
 

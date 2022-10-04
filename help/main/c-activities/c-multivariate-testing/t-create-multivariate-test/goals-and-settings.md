@@ -4,10 +4,10 @@ description: Scopri come utilizzare la pagina Obiettivi e impostazioni in Adobe 
 title: Come si specificano obiettivi e impostazioni in un’attività Test multivariato (MVT)?
 feature: Multivariate Tests
 exl-id: 823a1435-ccb9-4357-9c33-a0968d704b7a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1279'
-ht-degree: 91%
+source-wordcount: '1282'
+ht-degree: 90%
 
 ---
 
@@ -21,9 +21,9 @@ Nella pagina Obiettivi e impostazioni di Adobe Target puoi inserire informazioni
 
 Le impostazioni disponibili dipendono dall’utilizzo di Target o Analytics come origine di dati.
 
-![](assets/mvt_settings.png)
+![immagine mvt_settings](assets/mvt_settings.png)
 
-## Impostazioni attività  {#section_DCBDC354261F420EBD4B43EA34947BAC}
+## Impostazioni attività {#section_DCBDC354261F420EBD4B43EA34947BAC}
 
 Sono disponibili le seguenti opzioni:
 

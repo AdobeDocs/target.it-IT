@@ -4,9 +4,9 @@ description: Scopri come creare tipi di pubblico personalizzati e salvarli nel [
 title: Come Posso Creare Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '518'
+source-wordcount: '521'
 ht-degree: 61%
 
 ---
@@ -37,7 +37,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
 1. Fai clic su **[!UICONTROL Tipi di pubblico]** nella barra superiore del menu.
 
-   ![](assets/audiences_list.png)
+   ![immagine audiences_list](assets/audiences_list.png)
 
 1. Da [!UICONTROL Tipi di pubblico] elenco, fai clic su **[!UICONTROL Crea pubblico]**.
 

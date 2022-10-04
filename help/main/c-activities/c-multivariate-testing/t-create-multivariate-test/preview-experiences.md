@@ -4,10 +4,10 @@ description: Scopri come visualizzare in anteprima ogni esperienza in un’attiv
 title: Come posso visualizzare in anteprima le esperienze per un test multivariato (MVT)
 feature: Multivariate Tests
 exl-id: 33c3ef24-eb58-437b-bae5-fdca25317c25
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 68%
+source-wordcount: '202'
+ht-degree: 67%
 
 ---
 
@@ -19,7 +19,7 @@ Perché [!UICONTROL Test multivariato] in [!DNL Adobe Target] confronta più esp
 
    Viene visualizzato un elenco di tutte le esperienze.
 
-   ![](assets/preview.png)
+   ![immagine di anteprima](assets/preview.png)
 
 1. Fai clic su una delle esperienze nell&#39;elenco per visualizzarla.
 

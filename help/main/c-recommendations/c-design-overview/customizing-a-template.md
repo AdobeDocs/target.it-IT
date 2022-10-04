@@ -4,10 +4,10 @@ description: Scopri come utilizzare il linguaggio di progettazione open-source V
 title: Come posso personalizzare una progettazione con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1026'
-ht-degree: 100%
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -67,7 +67,7 @@ Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome 
 
 Ad esempio, se desideri una progettazione che mostri qualcosa di simile a quanto segue:
 
-![](assets/velocity_example.png)
+![immagine velocity_example](assets/velocity_example.png)
 
 puoi utilizzare il codice seguente:
 
@@ -203,7 +203,7 @@ A tale scopo, crea una colonna nella progettazione che utilizzi l’attributo `$
 
 Il risultato è una progettazione come la seguente, dove una colonna mostra l&#39;elemento chiave.
 
-![](assets/rec_key.png)
+![rec_key immagine](assets/rec_key.png)
 
 Quando si crea un’attività [!DNL Recommendations] e l’elemento chiave viene ricavato dal profilo del visitatore, ad esempio “ultimo articolo acquistato”, [!DNL Target] mostra un prodotto casuale nel [!UICONTROL Compositore esperienza visivo]. Questo perché non è disponibile un profilo mentre progetti l&#39;attività. Tuttavia, quando la pagina verrà visualizzata dai visitatori, ogni visitatore vedrà l&#39;elemento chiave previsto.
 

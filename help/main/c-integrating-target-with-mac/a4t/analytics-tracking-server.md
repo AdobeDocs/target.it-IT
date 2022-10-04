@@ -1,12 +1,12 @@
 ---
 keywords: server di tracciamento di analytics;A4T;debugger di Adobe Experience Cloud;debugger di Adobe Experience Platform;origine per la generazione rapporti;strumenti per sviluppatori
-description: 'Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics per [!DNL Target] (A4T) se utilizzi una versione precedente di at.js. '
+description: Scopri come specificare un server di tracciamento di Analytics per le attività che utilizzano Analytics per [!DNL Target] (A4T) se utilizzi una versione precedente di at.js.
 title: Come si utilizza un server di tracciamento di Analytics?
 feature: Analytics for Target (A4T)
 exl-id: 8066d6a6-661e-428b-9d5c-18537a80fb43
-source-git-commit: 34ff1a79c8e0988df410a45b8b9b20dda057d099
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: '686'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Il debugger deve essere visualizzato in una pagina in cui l&#39;attività viene 
 
 1. Fai clic su **[!UICONTROL Analytics]** nel menu di navigazione a sinistra.
 
-   ![](assets/Screen_DebuggerTrackServ.png)
+   ![Immagine Screen_DebuggerTrackServ](assets/Screen_DebuggerTrackServ.png)
 
    La [!DNL Analytics] il server di tracciamento si trova in [!UICONTROL Hostname] della sezione del debugger.
 

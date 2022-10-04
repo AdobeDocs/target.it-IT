@@ -5,10 +5,10 @@ title: Come si gestiscono le esclusioni nelle attività di Automated Personaliza
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: d9e9f2a2-5914-4b81-acae-eaf388646652
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '985'
-ht-degree: 90%
+source-wordcount: '1001'
+ht-degree: 88%
 
 ---
 
@@ -119,7 +119,7 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
    È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l&#39;offerta predefinita esclusa.
 
-   ![](assets/exclude_content_vec_4.png)
+   ![immagine exclude_content_vec_4](assets/exclude_content_vec_4.png)
 
 **Per escludere il contenuto predefinito utilizzando il Compositore esperienza basato su moduli:**
 
@@ -130,14 +130,14 @@ L’esclusione del contenuto predefinito è molto utile per cambiare l’aspetto
 
    Per contenuto testo/HTML:
 
-   ![](assets/exclude_content_form_1.png)
+   ![immagine exclude_content_form_1](assets/exclude_content_form_1.png)
 
    Per contenuto immagine/video:
 
-   ![](assets/exclude_content_form_2.png)
+   ![immagine exclude_content_form_2](assets/exclude_content_form_2.png)
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
    È possibile visualizzare le esperienze create dalle offerte specificate in [!UICONTROL Gestione contenuto]. Noterai che non vengono create esperienze in [!UICONTROL Gestione contenuto] utilizzando l&#39;offerta predefinita esclusa.
 
-   ![](assets/exclude_content_form_3.png)
+   ![immagine exclude_content_form_3](assets/exclude_content_form_3.png)

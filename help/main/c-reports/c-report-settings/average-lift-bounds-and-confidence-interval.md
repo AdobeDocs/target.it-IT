@@ -4,10 +4,10 @@ description: Scopri come interpretare l’Adobe [!DNL Target] rapporti, che incl
 title: Come si visualizza l’incremento medio, i limiti di incremento e l’intervallo di affidabilità?
 feature: Reports
 exl-id: 0453aec1-cca5-462c-8eed-0d40bb4cf323
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '882'
-ht-degree: 62%
+source-wordcount: '911'
+ht-degree: 60%
 
 ---
 
@@ -57,18 +57,18 @@ I limiti di incremento rappresentano gli intervalli di affidabilità al 95% dell
 
 I limiti di incremento vengono calcolati con la seguente formula:
 
-![](assets/lift_diagram.png)
+![immagine incremento_diagramma](assets/lift_diagram.png)
 
 Vi sono dei calcoli aggiuntivi per ottenere l’input per i limiti di incremento:
 
 * **Valore-t:** il dato statistico cruciale per il livello di affidabilità al 95% è di 1,96. Ulteriori informazioni sul [valore-t](https://en.wikipedia.org/wiki/T-statistic).
 * **Varianza dell’incremento:** l’errore standard della metrica di successo dell’esperienza N e l’errore standard della metrica di successo dell’esperienza di controllo sono necessari per determinare la varianza dell’incremento, la quale è calcolata con la seguente formula (illustrata per un caso in cui la metrica di successo è la conversione).
 
-   ![](assets/lift_variance.png)
+   ![immagine lift_variance](assets/lift_variance.png)
 
 * **Errore standard per tasso di conversione/metrica di successo:** l’errore standard viene calcolato nello stesso modo per l’esperienza N e per il controllo, con la seguente formula (illustrata per un caso in cui la metrica di successo è la conversione). Ulteriori informazioni su [Errore standard](https://en.wikipedia.org/wiki/Standard_error).
 
-   ![](assets/standard_error.png)
+   ![immagine standard_error](assets/standard_error.png)
 
    >[!NOTE]
    >
@@ -87,25 +87,25 @@ Basandoci sulle formule, possiamo calcolare gli input necessari per i limiti di 
 
 **Errore standard per l’esperienza A (controllo)**
 
-![](assets/standard_error_A.png)
+![immagine standard_error_A](assets/standard_error_A.png)
 
 **Errore standard per l’esperienza B**
 
-![](assets/standard_error_B.png)
+![immagine standard_error_B](assets/standard_error_B.png)
 
 **Varianza di incremento per l’esperienza B**
 
-![](assets/lift_variance_B.png)
+![immagine lift_variance_B](assets/lift_variance_B.png)
 
 **Limiti di incremento per l’esperienza B**
 
 Incremento atteso per l’esperienza B:
 
-![](assets/lift_bounds_B.png)
+![immagine lift_bounds_B](assets/lift_bounds_B.png)
 
 Pertanto, i limiti di incremento per l’esperienza B saranno:
 
-![](assets/lift_bounds_B2.png)
+![immagine lift_bounds_B2](assets/lift_bounds_B2.png)
 
 >[!NOTE]
 >

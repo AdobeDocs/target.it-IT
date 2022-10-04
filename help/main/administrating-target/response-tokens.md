@@ -5,10 +5,10 @@ title: Cosa sono i token di risposta e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1690'
-ht-degree: 25%
+source-wordcount: '1697'
+ht-degree: 26%
 
 ---
 
@@ -40,7 +40,7 @@ Una differenza fondamentale tra plug-in e token di risposta è che i plug-in dis
 
 1. In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
 
-   ![](assets/response_tokens-new.png)
+   ![response_tokens-new image](assets/response_tokens-new.png)
 
 1. Attiva i token di risposta desiderati, ad esempio `activity.id` e `offer.id`.
 
@@ -72,7 +72,7 @@ Una differenza fondamentale tra plug-in e token di risposta è che i plug-in dis
 
    Fai clic su **[!UICONTROL Aggiungi token di risposta]**, specifica il nome del token, quindi fai clic su **[!UICONTROL Attiva]**.
 
-   ![](assets/response_token_create.png)
+   ![response_token_create immagine](assets/response_token_create.png)
 
 1. Crea un’attività.
 

@@ -4,10 +4,10 @@ description: Visualizza lo stato corrente di Adobe  [!DNL Target]  per determina
 title: Dove posso visualizzare lo stato di  [!DNL Target]  e di altri prodotti Adobe?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '327'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '334'
+ht-degree: 97%
 
 ---
 
@@ -25,7 +25,7 @@ Per accedere alla pagina di [!UICONTROL stato del sistema], visita il seguente U
 
 Per visualizzare lo stato delle soluzioni [!DNL Experience Cloud], tra cui [!DNL Target], fai clic sulla scheda [!UICONTROL Experience Cloud].
 
-![](assets/system_status.png)
+![immagine system_status](assets/system_status.png)
 
 La parte superiore della pagina contiene informazioni sugli eventi di manutenzione in corso e include un collegamento per la sottoscrizione agli aggiornamenti per le singole soluzioni.
 
@@ -35,7 +35,7 @@ Una notifica interna al prodotto compare sempre durante il rilascio mensile di [
 
 La parte inferiore della pagina contiene un calendario degli ultimi sette giorni con stati per ogni soluzione ogni giorno. Passa il mouse su un indicatore di stato per ulteriori informazioni:
 
-![](assets/system_status_indicator.png)
+![immagine system_status_indicators](assets/system_status_indicator.png)
 
 ## Notifiche proattive
 

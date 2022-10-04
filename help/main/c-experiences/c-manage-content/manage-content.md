@@ -4,10 +4,10 @@ description: Scopri come gestire il codice e le offerte di immagini utilizzando 
 title: Come posso gestire le offerte di codice e immagine?
 feature: Experiences and Offers
 exl-id: d8c24656-64d6-4a4b-a5f2-bcde57180007
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '552'
-ht-degree: 37%
+source-wordcount: '563'
+ht-degree: 36%
 
 ---
 
@@ -25,7 +25,7 @@ Utilizza la [!UICONTROL Offerte] libreria in [!DNL Adobe Target] per gestire il 
 
 1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Tipo]** elenco a discesa per filtrare le offerte per tipo (offerta HTML, [Frammenti esperienza](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md), [Offerta di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md), [Offerta remota](/help/main/c-experiences/c-manage-content/about-remote-offers.md), [Offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md)e [Cartelle](/help/main/c-experiences/c-manage-content/create-content-folder.md)).
 
-   ![](assets/offers_filter.png)
+   ![offers_filter image](assets/offers_filter.png)
 
 1. (Facoltativo) Fai clic sul pulsante **[!UICONTROL Origine]** elenco a discesa per filtrare le offerte in base all’origine (Adobe Target, Adobe Target Classic e Adobe Experience Manager).
 
@@ -66,7 +66,7 @@ Puoi visualizzare i dettagli della definizione di un’offerta su una scheda a c
 
 Ad esempio, se passi il cursore del mouse su un’offerta nella pagina per accedere alla seguente scheda di definizione dell’offerta per un’offerta HTML [!UICONTROL Contenuto] , quindi facendo clic sull’icona delle informazioni:
 
-![](assets/offer-card-html.png)
+![immagine offer-card-html](assets/offer-card-html.png)
 
 Sono disponibili le seguenti informazioni:
 
@@ -79,11 +79,11 @@ Sono disponibili le seguenti informazioni:
 
 Fai clic sulla scheda [!UICONTROL Utilizzo offerta] per visualizzare le attività che fanno riferimento a un’offerta di codice nella scheda a comparsa della definizione di ogni offerta. Questa funzionalità non è applicabile alle offerte di immagine. In questo modo puoi evitare un impatto su altre attività mentre modifichi le offerte. Informazioni [!UICONTROL Attività live] e [!UICONTROL Attività inattive].
 
-![](assets/offer-card-usage.png)
+![immagine offer-card-usage](assets/offer-card-usage.png)
 
 Di seguito è illustrata la scheda di definizione di un’offerta di reindirizzamento:
 
-![](assets/offer-card-redirect.png)
+![immagine di reindirizzamento con carta di offerta](assets/offer-card-redirect.png)
 
 Sono disponibili le seguenti informazioni:
 
@@ -99,7 +99,7 @@ Sono disponibili le seguenti informazioni:
 
 Di seguito è illustrata la scheda di definizione di un’offerta remota:
 
-![](assets/offer-card-remote.png)
+![immagine remota con carta di credito](assets/offer-card-remote.png)
 
 Sono disponibili le seguenti informazioni:
 

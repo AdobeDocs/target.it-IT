@@ -4,10 +4,10 @@ description: Visualizza un elenco delle domande e risposte più frequenti sulle 
 title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3135'
-ht-degree: 99%
+source-wordcount: '3153'
+ht-degree: 98%
 
 ---
 
@@ -102,7 +102,7 @@ Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il 
 
 Per accedere all’impostazione [!UICONTROL Filtra criteri incompatibili], fai clic su [!UICONTROL Consigli] > [!UICONTROL Impostazioni]:
 
-![](assets/recs_settings_filter.png)
+![immagine recs_settings_filter](assets/recs_settings_filter.png)
 
 Se l’impostazione [!UICONTROL Filtra criteri incompatibili] non è abilitata, [!DNL Target] non filtra gli algoritmi nel Selettore degli algoritmi e vengono visualizzati tutti gli algoritmi.
 
@@ -110,7 +110,7 @@ Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, nell
 
 Se l’impostazione [!UICONTROL Filtra criteri incompatibili] è abilitata, è comunque possibile visualizzare gli algoritmi non compatibili deselezionando la casella [!UICONTROL Compatibile] durante la selezione dei criteri.
 
-![](assets/compatible_checkbox.png)
+![immagine compatibile_check](assets/compatible_checkbox.png)
 
 L’elenco seguente contiene casi speciali in cui [!DNL Target] non visualizza la casella [!UICONTROL Compatibile]:
 
@@ -126,7 +126,7 @@ Considera le seguenti informazioni se noti che una raccolta, che in precedenza n
 * Puoi salvare nuovamente la raccolta e vedere se il numero si aggiorna. Salvando nuovamente, la raccolta esegue nuovamente tutti gli algoritmi che la utilizzano.
 * Stai guardando nell’ambiente giusto? Vai su [!DNL /target/products.html#recsSettings] e controlla (come mostrato di seguito).
 
-   ![](assets/product_catalog.png)
+   ![immagine product_catalog](assets/product_catalog.png)
 
 * L’indice è aggiornato? Vai su [!DNL /target/products.html#productSearch] e controlla da quante ore esiste l’indice (per esempio, “indicizzato 3 ore fa”). Se necessario, puoi aggiornare l’indice.
 * Hai modificato qualcosa nel livello di feed o di dati che ha comportato la mancata corrispondenza delle entità alle regole di raccolta? Assicurati che le maiuscole e le minuscole corrispondano.
@@ -139,13 +139,13 @@ La ponderazione degli attributi esiste in due forme: “ponderazione attributi s
 
 La “ponderazione attributi standard” si applica, se non a tutti, alla maggior parte di tipi di criteri (non solo alla Somiglianza contenuti). Questo tipo di ponderazione dà più peso a determinati valori di attributo. Nell’esempio seguente, i prodotti Nike ottengono un aumento dei consigli in uscita.
 
-![](assets/attribute_weighting_example.png)
+![immagine attribute_weight_example](assets/attribute_weighting_example.png)
 
 La “ponderazione attributi per somiglianza contenuto” si applica solo ai criteri di Somiglianza contenuti.
 
 Questo tipo di ponderazione è più dinamico e si basa sull’attuale “chiave dei consigli” (l’elemento attualmente visualizzato). Nel seguente esempio (marca x 16), a un visitatore che ha visualizzato le sneaker Nike, verranno probabilmente consigliati altri prodotti Nike (non necessariamente solo sneaker), invece di scarpe di altre marche. A un visitatore che visualizza delle sneaker Adidas, verranno probabilmente consigliati prodotti Adidas.
 
-![](assets/content_similarity_example.png)
+![immagine content_similarity_example](assets/content_similarity_example.png)
 
 ## Perché talvolta [!DNL Target] non è in grado di mostrare i consigli? {#section_DB3F40673AED42228E407C05437D99E9}
 

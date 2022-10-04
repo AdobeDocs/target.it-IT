@@ -4,10 +4,10 @@ description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono 
 title: Cos’è la funzione Consigli di  [!DNL Target] ?
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '928'
-ht-degree: 100%
+source-wordcount: '931'
+ht-degree: 99%
 
 ---
 
@@ -32,7 +32,7 @@ Le attività [!DNL Adobe Target Recommendations] consentono di visualizzare auto
 
 Nella figura seguente vengono illustrati i consigli in una pagina web:
 
-![](assets/velocity_example.png)
+![immagine velocity_example](assets/velocity_example.png)
 
 Un consiglio determina in che modo un prodotto viene suggerito a un visitatore, in base alle sue attività sul sito. Ad esempio:
 

@@ -4,9 +4,9 @@ description: Scopri come utilizzare Adobe [!DNL Target] Gli URL di controllo qua
 title: Come Faccio A Controllare Le Attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1829'
+source-wordcount: '1832'
 ht-degree: 37%
 
 ---
@@ -57,7 +57,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 
    Puoi navigare nel sito per visualizzare le altre pagine, perché [!UICONTROL Controllo di qualità delle attività] la modalità è persistente. Questa situazione è vera per le implementazioni at.js con versione 2.*x* o successiva. Per at.js 1.*x* implementazioni , questa situazione è vera solo se il browser del visitatore non blocca i cookie di terze parti.
 
-1. Per visualizzare i rapporti generati dagli URL di collegamento dell’attività, fai clic su **[!UICONTROL Rapporti]** fai clic su **[!UICONTROL Impostazioni]** icona (  ![](assets/icon_gear.png) ), quindi seleziona **[!UICONTROL Traffico in modalità QA]** dal **[!UICONTROL Ambiente]** elenco a discesa.
+1. Per visualizzare i rapporti generati dagli URL di collegamento dell’attività, fai clic su **[!UICONTROL Rapporti]** fai clic su **[!UICONTROL Impostazioni]** icona (  ![icona_ingranaggio](assets/icon_gear.png) ), quindi seleziona **[!UICONTROL Traffico in modalità QA]** dal **[!UICONTROL Ambiente]** elenco a discesa.
 
 ## Considerazioni {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 

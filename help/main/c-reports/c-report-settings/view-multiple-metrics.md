@@ -4,10 +4,10 @@ description: Scopri come selezionare più metriche da visualizzare in un rapport
 title: Come si visualizzano più metriche in un rapporto?
 feature: Reports
 exl-id: 8d8aedd8-4583-4131-8ae0-df14e071940a
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '433'
-ht-degree: 59%
+source-wordcount: '444'
+ht-degree: 58%
 
 ---
 
@@ -27,7 +27,7 @@ Tieni presente le informazioni seguenti quando lavori con più metriche nei rapp
 1. Per visualizzare un rapporto, fai clic su **[!UICONTROL Attività]**, scegli l’attività desiderata dall’elenco, quindi fai clic sulla scheda **[!UICONTROL Rapporti]**.
 1. Fai clic sull&#39;elenco a discesa **[!UICONTROL Metrica rapporto]** per visualizzare gli elenchi [!UICONTROL Metriche visualizzate] e [!UICONTROL Metriche nascoste].
 
-   ![](assets/multiple_metrics.png)
+   ![immagine multiple_metrics](assets/multiple_metrics.png)
 
    Puoi utilizzare la [!UICONTROL casella di ricerca] per trovare rapidamente le metriche disponibili da aggiungere all&#39;elenco [!UICONTROL Metriche visualizzate].
 
@@ -46,10 +46,10 @@ Tieni presente le informazioni seguenti quando lavori con più metriche nei rapp
 1. Al termine, fai clic su **[!UICONTROL Salva]**.
 1. (Condizionale) Durante la visualizzazione del rapporto nel [!UICONTROL Vista a tabella], passa il puntatore del mouse sull’intestazione di colonna di qualsiasi metrica per visualizzare una freccia blu. Fai clic sulla freccia per espandere la tabella e visualizzare i parametri di [!UICONTROL Incremento] e [!UICONTROL Affidabilità] per tale metrica.
 
-   ![](assets/multiple_metrics_table.png)
+   ![immagine multiple_metrics_table](assets/multiple_metrics_table.png)
 
    È possibile espandere solo una metrica/colonna alla volta. Fai nuovamente clic sulla freccia per comprimere le colonne.
 
 1. (Condizionale) Quando visualizzi il rapporto nella Vista grafico, puoi selezionare singole metriche da visualizzare dall’elenco a discesa:
 
-   ![](assets/multiple_metrics_graph.png)
+   ![immagine multiple_metrics_graph](assets/multiple_metrics_graph.png)

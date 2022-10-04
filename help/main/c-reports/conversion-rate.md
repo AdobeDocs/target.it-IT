@@ -4,9 +4,9 @@ description: Adobe [!DNL Target] mostra e calcola il tasso di conversione, l’i
 title: Come si visualizzano il tasso di conversione, l’incremento e il livello di affidabilità?
 feature: Reports
 exl-id: b4cfe926-eb36-4ce1-b56c-7378150b0b09
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2150'
+source-wordcount: '2164'
 ht-degree: 52%
 
 ---
@@ -17,7 +17,7 @@ Per ogni esperienza viene riportato il tasso di conversione, l’incremento, l�
 
 Nell’illustrazione seguente viene mostrata l’intestazione del grafico per un’attività di esempio, in cui sono evidenziate le intestazioni [!UICONTROL Tasso di conversione], [!UICONTROL Incremento] e [!UICONTROL Affidabilità].
 
-![](assets/conversion-rate.jpg)
+![immagine a tasso di conversione](assets/conversion-rate.jpg)
 
 >[!NOTE]
 >
@@ -29,7 +29,7 @@ Mostra il tasso di conversione mediano, l’affidabilità, l’intervallo e il n
 
 Esamina, ad esempio, la seguente colonna del rapporto sul tasso di conversione:
 
-![](assets/conversion-rate-detail.jpg)
+![immagine dettagliata a tasso di conversione](assets/conversion-rate-detail.jpg)
 
 La prima riga rappresenta l’esperienza di controllo. Mostra un tasso di conversione del 15%, con tre conversioni. La seconda, Esperienza B, mostra un tasso di conversione del 15%, con un intervallo di affidabilità di +/-15,65% e tre conversioni.
 
@@ -62,7 +62,7 @@ L’affidabilità di un’esperienza o di un’offerta visualizzata è una proba
 
 L’affidabilità raggiunge il 100,00%, quando maggiore o uguale a 99,995%.
 
-![](assets/conf_report.png)  ![](assets/conf_report_detail.png)
+![immagine conf_report](assets/conf_report.png)  ![immagine conf_report_detail](assets/conf_report_detail.png)
 
 Prima di prendere qualsiasi decisione di business, attendi di avere un campione sufficientemente grande e che le quattro barre di affidabilità su una o più esperienze rimangano coerenti per un periodo di tempo continuativo, al fine di garantire che i risultati siano stabili.
 
@@ -75,7 +75,7 @@ Prima di prendere qualsiasi decisione di business, attendi di avere un campione 
 
 La *intervallo di confidenza* è un intervallo di stime entro cui il valore reale della metrica può essere trovato a un determinato livello di affidabilità. Target mostra sempre intervalli di affidabilità del 95%. L’intervallo di affidabilità viene visualizzato come una percentuale +/- di colore grigio chiaro nella colonna Tasso di conversione. Nell’esempio riportato di seguito, l’intervallo di affidabilità per l’incremento di Esperienza B è +/-15,65%.
 
-![](assets/conversion_rate.png)
+![immagine a tasso di conversione](assets/conversion_rate.png)
 
 **Esempio:** Un RPV osservato da un&#39;esperienza è di $ 10, e il suo 95% **intervallo di confidenza** è da 5 a 15 dollari. Sconosciuto per noi, il suo RPV vero è $12. Quindi, se il test è stato eseguito più volte, il 95% delle volte l’intervallo di affidabilità calcolato conterrà il valore _true_ valore del valore RPV di 12 $.
 

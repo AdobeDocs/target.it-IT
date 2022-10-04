@@ -4,9 +4,9 @@ description: Scopri come creare esclusioni in Adobe [!DNL Target] Recommendation
 title: Come si utilizzano le esclusioni nelle attività di Recommendations?
 feature: Recommendations
 exl-id: e41487c7-6d47-4958-8e4b-616a2ad56b3c
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '624'
 ht-degree: 42%
 
 ---
@@ -35,7 +35,7 @@ Alcuni esempi di utilizzo delle esclusioni includono:
 
 1. Fai clic su **[!UICONTROL Consigli]** > **[!UICONTROL Esclusioni]** per visualizzare l&#39;elenco delle esclusioni esistenti.
 
-   ![](assets/exclusions_list.png)
+   ![immagine esclusions_list](assets/exclusions_list.png)
 
    Il “Numero di elementi” segnalato per ogni esclusione nella visualizzazione elenco [!UICONTROL Esclusioni] è il numero di prodotti che corrispondono alle regole per tale esclusione all’interno del [gruppo di host](/help/main/administrating-target/hosts.md) Consigli (ambiente) predefinito configurato. Vedi [Impostazioni](https://developer.adobe.com/target/implement/recommendations/){target=_blank} per modificare il gruppo host predefinito.
 

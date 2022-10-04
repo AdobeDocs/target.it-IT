@@ -4,10 +4,10 @@ description: Utilizza  [!DNL Analytics]  for  [!DNL Target]  (A4T) per creare at
 title: Cos’è  [!DNL Analytics]  for  [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 5bb80b03-8209-4932-a838-0e11c5865133
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '1125'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '1140'
+ht-degree: 98%
 
 ---
 
@@ -79,15 +79,15 @@ Per passare dalla [!UICONTROL Vista tabella] alla [!UICONTROL Vista grafico] del
 
 La figura seguente illustra la [!UICONTROL Vista grafico] di un rapporto A4T con l’elenco a discesa [!UICONTROL Metrica rapporto] contenente le metriche obiettivo di [!DNL Analytics] disponibili:
 
-![](assets/a4t_report_graph1.png)
+![immagine a4t_report_graph1](assets/a4t_report_graph1.png)
 
 La figura seguente illustra la [!UICONTROL Vista grafico] di un rapporto A4T con l’elenco a discesa [!UICONTROL Pubblico] contenente i tipi di pubblico di [!DNL Analytics] disponibili:
 
-![](assets/a4t_report_graph2.png)
+![immagine a4t_report_graph2](assets/a4t_report_graph2.png)
 
 La figura seguente illustra la [!UICONTROL Vista tabella] di un rapporto A4T:
 
-![](assets/a4t_report_table.png)
+![immagine a4t_report_table](assets/a4t_report_table.png)
 
 Per visualizzare il rapporto in [!DNL Analytics] anziché in [!DNL Target], fai clic su **[!UICONTROL Visualizza in Analytics]** nella parte superiore del rapporto.
 

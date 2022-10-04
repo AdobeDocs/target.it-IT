@@ -4,10 +4,10 @@ description: Rivedi le informazioni per comprendere le differenze tra le precede
 title: Qual è la differenza tra Recommendations Classic e la funzione Consigli in [!DNL Target] Premium?
 feature: Recommendations
 exl-id: 07548155-9548-4870-b886-6cb4ff37a0bd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '660'
-ht-degree: 100%
+source-wordcount: '669'
+ht-degree: 98%
 
 ---
 
@@ -46,7 +46,7 @@ Per ulteriori informazioni, consulta [Consigli come offerta](/help/main/c-recomm
 
 [!DNL Target Recommendations]in è inclusa una libreria di criteri che contiene insiemi preconfigurati di regole e configurazioni. In [!DNL Recommendations Classic], per costruire ogni consiglio dovevi compilare manualmente un modulo e scegliere da un lungo elenco di regole. Ora, quando crei un’attività di [!DNL Recommendations], ti basta scegliere un set di criteri pre-configurati. Puoi ancora creare consigli personalizzati, ma la libreria di criteri contiene molte delle configurazioni più comuni, precompilate per semplificare il processo e utilizzando un linguaggio chiaro per tutti. Questi criteri preconfigurati possono essere utilizzati così come sono, oppure copiati e modificati per soddisfare esigenze specifiche.
 
-![](assets/overview_criteria.png)
+![immagine overview_criteria](assets/overview_criteria.png)
 
 I criteri sono preconfigurati e ordinati per settori verticali, tipi di pagina e implementazione. Ad esempio, puoi cercare i criteri che si applicano al settore verticale, per l&#39;utilizzo in una pagina del prodotto, mostrando prodotti all&#39;interno di una determinata categoria (come definito dal parametro `entity.categoryID`).
 
@@ -68,10 +68,10 @@ Il flusso di lavoro di [!DNL Recommendations] è stato semplificato. Anziché co
 
 In [!DNL Recommendations Classic] c&#39;erano sei opzioni di targeting. Per le attività di Consigli viene utilizzata l&#39;intera gamma di opzioni di targeting di Target. Definisci un pubblico utilizzando [!DNL Target] o altri gruppi di pubblico di [!DNL Adobe Experience Cloud] (ad esempio [!DNL Audience Manager] e [!DNL Analytics]), quindi seleziona la percentuale di partecipanti all’attività che visualizzano ogni progetto e le percentuali che vedono il controllo.
 
-![](assets/overview_targeting.png)
+![immagine overview_targeting](assets/overview_targeting.png)
 
 ## Generazione di rapporti {#section_25C2FCCE4BC1488496C517C0470B5CD6}
 
 In [!DNL Target], [!DNL Recommendations] fornisce una funzione di creazione di rapporti migliorata che sfrutta le funzionalità offerte da [!DNL Target] e [!DNL Experience Cloud]. Anziché mostrare semplicemente l’incremento previsto da [!DNL Recommendations] rispetto ai risultati privi di consigli, puoi visualizzare informazioni complete relative all’attività di [!DNL Recommendations].
 
-![](assets/overview_report.png)
+![immagine overview_report](assets/overview_report.png)

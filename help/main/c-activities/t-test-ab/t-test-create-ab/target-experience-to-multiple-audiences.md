@@ -4,9 +4,9 @@ description: Scopri come eseguire il targeting delle versioni della stessa esper
 title: Posso utilizzare più versioni di esperienza in un’attività A/B?
 feature: A/B Tests
 exl-id: 7afe36f0-ec46-4d63-bfff-45d2c8923a04
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '597'
+source-wordcount: '599'
 ht-degree: 92%
 
 ---
@@ -39,7 +39,7 @@ In questo caso, sono necessarie le versioni dell&#39;esperienza specifiche per a
 
 1. Fai clic su **[!UICONTROL Aggiungi pubblico]** quindi seleziona il primo pubblico a cui desideri rivolgerti. Ripeti per ogni pubblico.
 
-   ![](assets/exp-versions.png)
+   ![immagine a versioni exp](assets/exp-versions.png)
 
    Se il pubblico non esiste ancora, fai clic su [Crea pubblico](/help/main/c-target/c-audiences/create-audience.md#task_E18BD77A9A8F4ED0AC50569F94556558) e configuralo.
 

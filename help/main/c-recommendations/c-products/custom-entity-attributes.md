@@ -5,10 +5,10 @@ title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1400'
-ht-degree: 88%
+source-wordcount: '1411'
+ht-degree: 87%
 
 ---
 
@@ -28,7 +28,7 @@ Gli attributi personalizzati delle entità con più valori possono contenere un 
 
 Gli attributi di entità personalizzati possono contenere uno o più valori. I valori degli attributi di entità vengono mostrati nella visualizzazione del prodotto.
 
-![](assets/multi-value_product.png)
+![immagine multi-valore_prodotto](assets/multi-value_product.png)
 
 Un attributo di entità personalizzato con un valore singolo è formato come un attributo di entità predefinito a valore singolo:
 
@@ -93,11 +93,11 @@ Puoi gestire i file CSV in formato raw tramite un editor di testo o un foglio di
 
 Il CSV raw sarà simile a questo:
 
-![](assets/multi-value_example_raw.png)
+![immagine multi-valore_esempio_raw](assets/multi-value_example_raw.png)
 
 Lo stesso catalogo si presenterà così in un foglio di calcolo:
 
-![](assets/multi-value_example_excel.png)
+![immagine multi-valore_esempio_excel](assets/multi-value_example_excel.png)
 
 Durante la conversione in formato .csv, il foglio di calcolo aggiunge virgolette doppie attorno al contenuto delle celle per evitare che le virgole all’interno della cella agiscano come separatori di colonna. Vengono inoltre aggiunte virgolette doppie intorno ai valori di stringa JSON inclusi negli attributi con più valori personalizzati. Questo può rendere complicato lavorare direttamente sul file raw. Ad esempio:
 

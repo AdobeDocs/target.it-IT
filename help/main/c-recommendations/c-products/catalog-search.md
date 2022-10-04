@@ -4,9 +4,9 @@ description: Scopri come utilizzare la ricerca nel catalogo di Recommendations p
 title: Come si utilizza la ricerca nel catalogo di Recommendations?
 feature: Recommendations
 exl-id: 925fea97-e2c5-4883-84e3-fd357a8ee8d9
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1039'
+source-wordcount: '1041'
 ht-degree: 22%
 
 ---
@@ -33,7 +33,7 @@ Puoi utilizzare una ricerca semplice o avanzata per individuare gli elementi nel
 
 1. (Facoltativo) Per perfezionare la ricerca, seleziona un’opzione di ricerca dal menu delle opzioni visualizzato facendo clic sulla freccia rivolta verso il basso nel campo di ricerca.
 
-   ![](assets/searchproductsmenu.png)
+   ![searchproductsmenu immagine](assets/searchproductsmenu.png)
 
    Le opzioni di ricerca includono:
 

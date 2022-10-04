@@ -4,9 +4,9 @@ description: Scopri come creare criteri che controllano il contenuto delle attiv
 title: Come si creano i criteri in Recommendations?
 feature: Recommendations
 exl-id: 3f4f59b2-6637-4c33-bf17-bff11bef7173
-source-git-commit: 81cd39140eb21d2718f3899ed6b28217023bd680
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2835'
+source-wordcount: '2843'
 ht-degree: 52%
 
 ---
@@ -184,7 +184,7 @@ Utilizzare la somiglianza di contenuto per generare consigli è particolarmente 
 
 Quando selezioni **[!UICONTROL Basato su articolo]**/ **[!UICONTROL Media con attributi simili]**, puoi creare regole per aumentare o diminuire l’importanza degli attributi di elementi specifici nella determinazione dei consigli. Per gli articoli quali i libri, si potrebbe voler aumentare l&#39;importanza di attributi come *genere*, *autore*, *serie*, e così via, per consigliare libri simili.
 
-![](assets/ContentSimilarity.png)
+![Immagine ContentSimilarity](assets/ContentSimilarity.png)
 
 Poiché la somiglianza del contenuto utilizza parole chiave per confrontare elementi, alcuni attributi, ad esempio *messaggio* o *descrizione*, possono introdurre “rumore” nel confronto. È possibile creare regole per ignorare questi attributi.
 
@@ -224,7 +224,7 @@ Per creare una semplice regola di inclusione, come accennato in precedenza, per 
 1. Imposta la quantità di disponibilità minima i prodotti da consigliare.
 1. Configura il consiglio perché mostri gli articoli solo quando sono soddisfatti determinati criteri.
 
-   ![](assets/Recs_InclusionRules.png)
+   ![Immagine Recs_InclusionRules](assets/Recs_InclusionRules.png)
 
    Puoi specificare che gli articoli siano inclusi solo quando uno degli attributi nell&#39;elenco viene soddisfatto o non corrisponde a uno o più condizioni specificate.
 
@@ -254,7 +254,7 @@ Ad esempio, è possibile applicare una ponderazione più elevata agli articoli i
 
    Ad esempio, la regola completa potrebbe essere &quot;Categoria contiene scarpe sottostringhe&quot;.
 
-   ![](assets/Recs_AttributeWeighting.png)
+   ![Immagine Recs_AttributeWeighting](assets/Recs_AttributeWeighting.png)
 
 1. Selezionare il peso da assegnare alla regola.
 

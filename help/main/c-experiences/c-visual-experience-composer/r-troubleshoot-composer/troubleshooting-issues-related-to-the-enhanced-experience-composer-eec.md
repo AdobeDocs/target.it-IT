@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '454'
-ht-degree: 44%
+source-wordcount: '469'
+ht-degree: 40%
 
 ---
 
@@ -35,7 +35,7 @@ Chiedi al team IT di inserire nell&#39;elenco Consentiti i seguenti indirizzi IP
 
 `Error: Your website domain (ISP) is blocking the [!UICONTROL Enhanced Experience Composer]. You can allowlist the [!UICONTROL Enhanced Experience Composer]'s IP addresses or turn off [!UICONTROL Enhanced Experience Composer] in [!UICONTROL Configure] > [!UICONTROL Page Delivery] menu.`
 
-![](assets/EEC_error.png)
+![Immagine EEC_error](assets/EEC_error.png)
 
 Di seguito sono riportati possibili cause per questo messaggio di errore e soluzioni per correggere la situazione:
 
@@ -56,17 +56,17 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 1. Apri il sito interessato in Firefox.
 1. Fai clic sull&#39;icona **[!UICONTROL Mostra informazioni del sito]** nella barra degli indirizzi del browser.
 
-   ![](assets/firefox_more_info.png)
+   ![immagine firefox_more_info](assets/firefox_more_info.png)
 
 1. Fai clic su **[!UICONTROL Mostra dettagli di connessione]** > **[!UICONTROL Ulteriori informazioni]**.
 
-   ![](assets/firefox_more_info_2.png)
+   ![immagine firefox_more_info_2](assets/firefox_more_info_2.png)
 
 1. Verifica la versione di TLS alla voce Dettagli tecnici:
 
-   ![](assets/firefox_more_info_3.png)
+   ![immagine firefox_more_info_3](assets/firefox_more_info_3.png)
 
-1. Se scopri che il tuo sito web visualizza TLS 1.0, consulta: [Modifiche alla crittografia di TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione TLS e il dominio .
+1. Se scopri che il tuo sito web visualizza TLS 1.0, consulta [Modifiche alla crittografia di TLS (Transport Layer Security)](https://developer.adobe.com/target/before-implement/tls-transport-layer-security-encryption/){target=_blank} per informazioni sui criteri di supporto per TLS di Target. Per risolvere la situazione (valido fino al 12 settembre 2018){target=_blank}, contatta [Assistenza clienti](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C) per la configurazione con la versione TLS e il dominio .
 
 ## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
 

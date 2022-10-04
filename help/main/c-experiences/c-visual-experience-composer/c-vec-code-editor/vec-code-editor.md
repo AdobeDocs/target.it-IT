@@ -4,10 +4,10 @@ description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target]
 title: Quali modifiche posso apportare alla mia pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 23d4ce21d6c262d36e406b149f93781a1a37ff8b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2137'
-ht-degree: 93%
+source-wordcount: '2185'
+ht-degree: 91%
 
 ---
 
@@ -21,7 +21,7 @@ La pagina delle modifiche mostra tutte le modifiche apportate alla pagina in Com
 
 Nella pagina [!UICONTROL Modifiche] vengono visualizzate tutte le modifiche apportate alla pagina nel Compositore esperienza visivo. Ogni modifica apportata viene visualizzata come un’azione o un elemento separato [!UICONTROL nell’elenco delle modifiche].
 
-![](assets/codeeditor_page_mods.png)
+![immagine codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 Utilizza la pagina Modifiche per apportare piccole modifiche al selettore scelto da Target quando utilizzi il Compositore esperienza visivo per configurare il modo in cui viene distribuito il contenuto. È possibile modificare sia il contenuto che un attributo HTML. È inoltre possibile modificare il codice per creare l&#39;equivalente di un&#39;offerta HTML all&#39;interno di una mbox.
 
@@ -29,39 +29,39 @@ Utilizza la pagina Modifiche per:
 
 * Visualizzare un&#39;azione intrapresa nel compositore visivo.
 
-   ![](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange immagine](assets/codeeditor_viewchange.png)
 
 * Modificare un&#39;azione esistente. Passa il mouse sulla modifica desiderata, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
-   ![](assets/codeeditor_edit.png)
+   ![codeeditor_modifica immagine](assets/codeeditor_edit.png)
 
    Apporta le modifiche.
 
-   ![](assets/codeeditor_changechange1.png)
+   ![codeeditor_changechange1 immagine](assets/codeeditor_changechange1.png)
 
 * Elimina un&#39;azione esistente. Passa il mouse sulla modifica desiderata, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]**.
 
-   ![](assets/codeditor_delete.png)
+   ![codeditor_delete image](assets/codeditor_delete.png)
 
 * Aggiungi una nuova modifica. Fai clic su **[!UICONTROL Aggiungi modifica]** o sull&#39;icona +, quindi specifica le modifiche come descritto di seguito.
 
-   ![](assets/codeeditor_new.png)
+   ![codeeditor_nuova immagine](assets/codeeditor_new.png)
 
    Dopo la creazione di una modifica, Target visualizza un&#39;icona + nella parte superiore del pannello Modifiche, invece che nel pulsante Aggiungi modifica nella parte inferiore del pannello.
 
 * Ancora il pannello Modifiche in verticale lungo il lato dell’interfaccia di Target oppure in orizzontale lungo il bordo inferiore. Fai clic sull&#39;icona [!UICONTROL Ancora] per passare tra le due impostazioni.
 
-   ![](assets/codeditor_dock.png)
+   ![immagine codeditor_dock](assets/codeditor_dock.png)
 
    Nella figura seguente viene illustrato il pannello Modifiche ancorato nella parte inferiore dello schermo:
 
-   ![](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom immagine](assets/codeeditor_dock_bottom.png)
 
 ## Aggiungere modifiche {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
 1. Per visualizzare la pagina delle [!UICONTROL modifiche] per un’esperienza selezionata, nella compositore esperienza visivo fai clic sull’icona &lt;/> **[!UICONTROL Modifiche]**.
 
-   ![](assets/codeeditor_icon_big.png)
+   ![codeeditor_icon_big image](assets/codeeditor_icon_big.png)
 
    >[!NOTE]
    >
@@ -69,11 +69,11 @@ Utilizza la pagina Modifiche per:
 
    Viene visualizzata la pagina delle [!UICONTROL modifiche], che suddivide lo schermo tra la modalità visiva e il pannello Modifiche a destra. Fai clic sull’icona [!UICONTROL Ancora] per ancorare il pannello Modifiche in verticale lungo il lato dell’interfaccia di Target oppure in orizzontale lungo il bordo inferiore. Nota che l&#39;esperienza A nella figura seguente non ha modifiche precedenti.
 
-   ![](assets/codeeditor_page.png)
+   ![immagine codeeditor_page](assets/codeeditor_page.png)
 
    L&#39;esperienza B mostra le modifiche precedenti nel pannello [!UICONTROL Modifiche] a destra.
 
-   ![](assets/codeeditor_page_mods.png)
+   ![immagine codeeditor_page_mods](assets/codeeditor_page_mods.png)
 
 1. Per aggiungere una modifica:
 
@@ -82,7 +82,7 @@ Utilizza la pagina Modifiche per:
 
    Il pannello Modifiche visualizza:
 
-   ![](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add immagine](assets/codeeditor_page_mods_add.png)
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Tipo di modifica]**, scegli il tipo desiderato:
 
@@ -104,7 +104,7 @@ I selettori per le azioni visive successive dipendono dagli elementi HTML aggiun
 
 Il pannello Codice personalizzato viene comunemente utilizzato per aggiungere JavaScript o CSS all&#39;inizio della pagina.
 
-![](assets/codeeditor_custom.png)
+![codeeditor_immagine personalizzata](assets/codeeditor_custom.png)
 
 Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
@@ -215,7 +215,7 @@ Questo messaggio indica che la struttura della pagina è cambiata dall&#39;ultim
 
 I selettori mancanti potrebbero essere raggiunti utilizzando la modalità Sfoglia. È consigliabile eliminare e quindi ricreare ogni esperienza per assicurarsi che il contenuto venga visualizzato come previsto, come indicato nel messaggio di avviso.
 
-![](assets/code_editor_2.png)
+![immagine code_editor_2](assets/code_editor_2.png)
 
 ***Quando elimino un elemento, viene visualizzato un avviso che indica che “L&#39;eliminazione di questa azione può influire sulle azioni successive.” Cosa significa?***
 

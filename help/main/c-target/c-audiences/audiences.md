@@ -4,9 +4,9 @@ description: Scopri come utilizzare i tipi di pubblico in [!DNL Adobe Target].
 title: Come si utilizza l'elenco dei tipi di pubblico?
 feature: Audiences
 exl-id: 7af7f101-f550-4fdc-bcd9-90e4107b0415
-source-git-commit: 342d26bdda5740d23682768b15a788921a0a3001
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1500'
+source-wordcount: '1505'
 ht-degree: 24%
 
 ---
@@ -86,7 +86,7 @@ Le informazioni sull’utilizzo del pubblico possono aiutarti a evitare un impat
 
 Se un pubblico è [combinato con un altro pubblico](/help/main/c-target/combining-multiple-audiences.md) e il pubblico combinato viene utilizzato per creare un&#39;attività, le informazioni di utilizzo per entrambi i tipi di pubblico elencano la nuova attività creata.
 
-![](assets/audience_definition_list_usage.png)
+![immagine audience_definition_list_usage](assets/audience_definition_list_usage.png)
 
 <!--The following audience definition card is for an audience imported from the Adobe Experience Cloud. In this instance, the audience was imported from Adobe Audience Manager (AAM).
 

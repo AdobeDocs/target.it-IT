@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in Adobe [!DNL Target] per eseg
 title: È possibile indirizzare i visitatori in base al motore di ricerca o al sito di riferimento?
 feature: Audiences
 exl-id: 61902d29-36ea-4d9a-8650-f6f6690a545b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '266'
-ht-degree: 64%
+source-wordcount: '270'
+ht-degree: 63%
 
 ---
 
@@ -24,7 +24,7 @@ Puoi combinare più origini di traffico per creare una regola di targeting compl
    1. Assegna un nome al pubblico e aggiungi una descrizione facoltativa.
 1. Trascinamento della selezione **[!UICONTROL Origini del traffico]** nel riquadro audience builder (generatore di pubblico).
 
-   ![](assets/target_traffic_source.png)
+   ![immagine target_traffic_source](assets/target_traffic_source.png)
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 

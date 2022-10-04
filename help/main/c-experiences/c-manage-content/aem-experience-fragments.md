@@ -4,10 +4,10 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 470a56c6b1839902af963b1b28b8d56d2089c170
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1371'
-ht-degree: 52%
+source-wordcount: '1379'
+ht-degree: 51%
 
 ---
 
@@ -117,7 +117,7 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
    >
    >L’opzione [!UICONTROL Scambia con frammento esperienza] non è disponibile per le immagini. Se vuoi utilizzare questa opzione con un’immagine, fai clic sull’elemento che la contiene.
 
-   ![](assets/experience_fragment_list.png)
+   ![immagine experience_fragment_list](assets/experience_fragment_list.png)
 
 1. Seleziona il frammento di esperienza desiderato, quindi fai clic su **[!UICONTROL Fine]**.
 1. Termina la configurazione dell’attività.
@@ -140,7 +140,7 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
 
 1. In [!DNL Target], durante la creazione o la modifica di un’esperienza nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), seleziona il percorso nella pagina in cui desideri inserire il contenuto di [!DNL AEM], quindi seleziona **[!UICONTROL Cambia frammento esperienza]** per visualizzare l’elenco [!UICONTROL Scegli un frammento esperienza].
 
-   ![](assets/experience_fragment_list.png)
+   ![immagine experience_fragment_list](assets/experience_fragment_list.png)
 
    La [!UICONTROL Frammento esperienza] visualizza il contenuto creato in [!DNL AEM] che ora è disponibile in modo nativo da [!DNL Target].
 

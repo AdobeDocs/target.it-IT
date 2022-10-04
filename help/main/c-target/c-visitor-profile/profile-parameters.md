@@ -4,10 +4,10 @@ description: Scopri gli attributi specifici del visitatore che vengono memorizza
 title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
-workflow-type: ht
-source-wordcount: '2441'
-ht-degree: 100%
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+workflow-type: tm+mt
+source-wordcount: '2457'
+ht-degree: 99%
 
 ---
 
@@ -109,11 +109,11 @@ Fai clic su **[!UICONTROL View full details]** (Visualizza dettagli completi) pe
 
 Quando uno script di profilo è disabilitato, viene contrassegnato da un’icona gialla di avviso nell’interfaccia utente di Target, come illustrato di seguito:
 
-![](assets/profile_script_invalid.png)
+![profile_script_immagine non valida](assets/profile_script_invalid.png)
 
 Al passaggio del mouse puoi visualizzare dettagli sugli errori, come illustrato di seguito:
 
-![](assets/profile_script_hover.png)
+![profile_script_hover image](assets/profile_script_hover.png)
 
 Il sistema disabilita gli script di profilo in alcune circostanze. I motivi più frequenti sono:
 
@@ -161,7 +161,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
    Ogni volta che carichi una pagina del sito con [!DNL Target], una parte della risposta di [!DNL Target] contiene il valore dello script di profilo specificato, come illustrato di seguito:
 
-   ![](assets/debug_profile_script_1.png)
+   ![immagine debug_profile_script_1](assets/debug_profile_script_1.png)
 
 * **Utilizza lo strumento di debug mboxTrace per eseguire il debug degli script di profilo.**
 
@@ -171,7 +171,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
    L’aggiunta di questi parametri fornisce qualche informazione in più rispetto al token di risposta, perché si ottiene un’istantanea del profilo precedente all&#39;esecuzione e una successiva. Vengono inoltre visualizzati tutti i profili disponibili.
 
-   ![](assets/debug_profile_script_2.png)
+   ![immagine debug_profile_script_2](assets/debug_profile_script_2.png)
 
 ## Domande frequenti sugli script di profilo {#section_1389497BB6D84FC38958AE43AAA6E712}
 

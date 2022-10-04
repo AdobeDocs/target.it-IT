@@ -4,10 +4,10 @@ description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di succes
 title: Per quanto tempo devo eseguire un test A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3060'
-ht-degree: 63%
+source-wordcount: '3072'
+ht-degree: 59%
 
 ---
 
@@ -61,11 +61,11 @@ Un test A/B si basa su cinque parametri definiti dall’utente. Questi parametri
 
 Per un test A/B, la rilevanza statistica, la potenza statistica, l’incremento rilevabile con affidabilità minima e il tasso di conversione linea di base sono impostati dall’analista; il numero di visitatori richiesti viene quindi calcolato a partire da queste cifre. Questo articolo illustra questi elementi e fornisce linee guida su come determinare queste metriche per un test specifico.
 
-![](assets/samplesize.png)
+![immagine campionesizzata](assets/samplesize.png)
 
 La figura seguente illustra i quattro possibili risultati di un test A/B:
 
-![](assets/outcomes.png)
+![immagine dei risultati](assets/outcomes.png)
 
 È auspicabile evitare falsi positivi o falsi negativi, Tuttavia, l’ottenimento di zero falsi positivi non può mai essere garantito da un test statistico. È sempre possibile che le tendenze osservate non siano rappresentative dei tassi di conversione sottostanti. Ad esempio, in un test per verificare se è più probabile che una moneta dia testa o croce, è possibile ottenere dieci teste su dieci lanci solo per caso. La significatività statistica e la potenza aiutano a quantificare il numero di falsi positivi e falsi negativi e consentono di mantenerli a livelli ragionevoli per un determinato test.
 
@@ -109,11 +109,11 @@ Supponiamo ad esempio che due offerte (A e B) abbiano tassi di conversione effet
 
 L’immagine in basso mostra le distribuzioni delle probabilità.
 
-![](assets/probability_distributions.png)
+![immagine probabilità_distribuzioni](assets/probability_distributions.png)
 
 A motivo dell’ampia sovrapposizione tra i due intervalli, il test non può determinare se i tassi di conversione siano diversi. Pertanto, con questo test su 100 visitatori non è possibile distinguere tra le due offerte. Tuttavia, se Target espone le offerte a 5.000 visitatori ciascuna, esiste una probabilità del 95% che i tassi di conversione osservati diminuiscano negli intervalli rispettivamente dal 9% all’11% e dal 14% al 16%.
 
-![](assets/probability_distributions2.png)
+![immagine probabilità_distribuzioni2](assets/probability_distributions2.png)
 
 In questo caso, è improbabile che il test arrivi a conclusioni errate, pertanto il test con 5.000 visitatori può distinguere tra le due offerte. Il test con 5.000 visitatori ha un intervallo di affidabilità di circa +/-1%. Questo significa che il test può rilevare differenze di circa l’1%. Pertanto, sarebbero necessari ancora più visitatori se i tassi di conversione effettivi delle offerte fossero, ad esempio, del 10% e del 10,5%, anziché del 10% e del 15%.
 
@@ -131,15 +131,15 @@ Nel Calcolatore dimensione campione (disponibile dal collegamento fornito in pre
 
 Esiste un compromesso tra l’incremento minimo che può essere identificato in modo affidabile dal test e il numero richiesto di visitatori. L’immagine qui sotto, che è valida per un tasso di conversione linea di base (il controllo) del 5%, mostra ricavi marcatamente decrescenti all’aumentare del numero di visitatori. L’incremento minimo che può essere rilevato in modo affidabile migliora enormemente quando si aggiungono i primi visitatori al test, ma richiede un numero sempre maggiore di visitatori per migliorare il test. L’immagine aiuta a trovare un compromesso adeguato tra il tempo necessario per eseguire il test (determinato dal numero di visitatori richiesti e dal traffico del sito) e l’incremento minimo rilevabile in modo affidabile.
 
-![](assets/samplesizecontrol.png)
+![immagine samplesizecontrol](assets/samplesizecontrol.png)
 
-In questo esempio, potresti decidere che la capacità di rilevare un incremento del 5% (corrispondente a un tasso di conversione dell’offerta alternativa di (100% + 5%) * 5% = 5,25%) in 80 test su 100 sia adeguata e che quindi sia necessario un campione di 100.000 visitatori per ogni offerta. Se il sito ha 20.000 visitatori al giorno e stai eseguendo un test per due offerte, il test deve essere eseguito per un numero di giorni pari a 2 * 100.000/20.000, ossia 10 giorni, prima che sia possibile determinare se l’offerta alternativa è significativamente superiore all’offerta di controllo, dal punto di vista statistico.
+In questo esempio, puoi decidere di poter rilevare un incremento del 5% (corrispondente a un tasso di conversione dell’offerta alternativa di (100%+5%)&#42;5% = 5,25%) in 80 test su 100 è adeguato, pertanto hai bisogno di un campione di 100.000 visitatori per ogni offerta. Se il sito ha 20.000 visitatori al giorno e stai eseguendo un test per due offerte, il test dovrebbe essere eseguito per 2&#42;100.000/20.000 = 10 giorni prima che sia possibile determinare se l’offerta alternativa è significativamente superiore all’offerta di controllo, dal punto di vista statistico.
 
 È sempre consigliabile arrotondare sempre il tempo necessario alla settimana intera più vicina, per evitare effetti legati a un singolo giorno della settimana. Così, in questo esempio, il test verrà eseguito per due settimane prima di valutare i risultati.
 
 ### Metrica Ricavo per visita {#section_C704C0861C9B4641AB02E911648D2DC2}
 
-Quando utilizzi la metrica Ricavo per visita (RPV), viene aggiunta un’origine di varianza ulteriore, perché RPV è il prodotto del ricavo per ordine e del tasso di conversione (RPV = ricavo/n° visitatori = (ricavo per ordine * n° ordini)/n° visitatori = ricavo per ordine * (n° visitatori * CTR)/n° visitatori = ricavo per ordine * CTR), ciascuno con la propria varianza. La varianza del tasso di conversione può essere stimata direttamente utilizzando un modello matematico, ma la varianza dei ricavi per ordine è specifica per l’attività. Utilizza quindi questa varianza nota rispetto alle attività passate oppure esegui il test A/B per alcuni giorni per stimare la varianza nei ricavi. La varianza viene calcolata in base ai valori di Somma vendite, Somma vendite al quadrato e Numero di visitatori che si trovano nel file CSV scaricabile. Una volta stabilito questo valore, utilizza il foglio di calcolo per calcolare il tempo necessario per completare il test.
+Quando utilizzi il Ricavo per visita (RPV) come metrica, viene aggiunta un’origine di varianza aggiuntiva perché RPV è il prodotto del ricavo per ordine e del tasso di conversione (RPV = ricavo/n° visitatori = (ricavo per ordine) &#42; #order) / # visitatori = Ricavo per ordine &#42; (#visitatori &#42; CTR) / #visitatori = Ricavo per ordine &#42; CTR), ciascuno con la propria varianza. La varianza del tasso di conversione può essere stimata direttamente utilizzando un modello matematico, ma la varianza dei ricavi per ordine è specifica per l’attività. Utilizza quindi questa varianza nota rispetto alle attività passate oppure esegui il test A/B per alcuni giorni per stimare la varianza nei ricavi. La varianza viene calcolata in base ai valori di Somma vendite, Somma vendite al quadrato e Numero di visitatori che si trovano nel file CSV scaricabile. Una volta stabilito questo valore, utilizza il foglio di calcolo per calcolare il tempo necessario per completare il test.
 
 Con il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) puoi configurare più facilmente la metrica RPV. Quando apri il calcolatore, viene visualizzata una scheda etichettata [!UICONTROL Metrica RPV]. Per usare la versione RPV del calcolatore, ti serviranno le seguenti informazioni:
 

@@ -5,9 +5,9 @@ title: Cosa sono gli host e come li utilizzo?
 feature: Administration & Configuration
 role: Admin
 exl-id: 31c661c0-686d-440e-ad58-864fb853b1c4
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1086'
+source-wordcount: '1089'
 ht-degree: 22%
 
 ---
@@ -20,11 +20,11 @@ L’obiettivo principale della gestione host è quello di garantire che nessun c
 
 Un host è qualsiasi dominio da cui un [!DNL Target] richiesta effettuata. Su un sito web, di solito è il `location.hostname` dell&#39;URL che crea la proprietà [!DNL Target] richiesta.
 
-Per impostazione predefinita, [!DNL Target] non limita un host che può fare [!DNL Target] richieste e ricevi [!DNL Target] risposte. Quando i nuovi host eseguono richieste, queste funzionano automaticamente. Questo processo consente anche di eseguire test su domini diversi che non conosci o che non puoi prevedere. Se desideri ignorare questo comportamento predefinito, puoi impostare un inserire nell&#39;elenco Consentiti o un inserire nell&#39;elenco Bloccati per limitare con quali host lavorare [!DNL Target].
+Per impostazione predefinita, [!DNL Target] non limita un host che può fare [!DNL Target] richieste e ricevi [!DNL Target] risposte. Quando i nuovi host eseguono richieste, queste funzionano automaticamente. Questo processo consente inoltre di eseguire test su domini diversi che non si conoscono o non si possono prevedere. Se desideri ignorare questo comportamento predefinito, puoi impostare un inserire nell&#39;elenco Consentiti o un inserire nell&#39;elenco Bloccati per limitare con quali host lavorare [!DNL Target].
 
 Per gestire gli host, fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Host]**.
 
-![](assets/hosts_list.png)
+![immagine host_list](assets/hosts_list.png)
 
 ## Riconoscere gli host {#concept_0D4B43E23AA9408F8B28A57ED754BF65}
 

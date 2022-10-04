@@ -4,9 +4,9 @@ description: Scopri la metrica di coinvolgimento Punteggio di acquisizione in Ad
 title: Qual è la metrica Punteggio di acquisizione?
 feature: Success Metrics
 exl-id: 3446cdef-7ee0-40dd-bf17-27def56668d4
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '769'
 ht-degree: 48%
 
 ---
@@ -17,7 +17,7 @@ La metrica di coinvolgimento Punteggio di acquisizione in [!DNL Adobe Target] ca
 
 Nell&#39;esempio seguente viene illustrato come viene calcolato il coinvolgimento del punteggio in una campagna che verifica due esperienze, una con l&#39;immagine di un gatto e l&#39;altra con l&#39;immagine di un cane.
 
-![](assets/example_score.png)
+![immagine example_score](assets/example_score.png)
 
 In questo esempio, il primo visitatore sperimenta l&#39;esperienza del gatto. Supponiamo che un [!DNL Target] La richiesta passa in un punteggio di pagina in base al valore della pagina. Se l’addetto al marketing ha raccolto il coinvolgimento del conteggio delle pagine su una metrica di successo associata a `**any Target request**`, il punteggio di visita si accumula per qualsiasi richiesta vista dopo la richiesta di visualizzazione intorno all&#39;immagine del gatto.
 
@@ -25,7 +25,7 @@ La prima pagina aggiunge 1 al punteggio, la seconda pagina 0,25, la terza 0,10 e
 
 Prendi in considerazione i costi di acquisizione e i ricavi del collegamento di affiliazione passando adbox e reindirizzamenti, come descritto nel seguente flusso di pagina. In questo esempio, tieni presente che [!DNL Target] le richieste nella pagina dell&#39;articolo passano un punteggio, che potrebbe rappresentare un CPM noto.
 
-![](assets/example_score2.png)
+![immagine example_score2](assets/example_score2.png)
 
 ## Assegnazione di un punteggio di pagina
 

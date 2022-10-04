@@ -4,9 +4,9 @@ description: Visualizza le domande frequenti (FAQ) sul targeting delle esperienz
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '950'
 ht-degree: 64%
 
 ---
@@ -80,7 +80,7 @@ Lʼutente diventa idoneo per la prima esperienza/il primo pubblico che viene vis
 
 Ad esempio, nellʼillustrazione seguente, un utente in California che utilizza un dispositivo Windows è idoneo sia per l’esperienza A (pubblico Windows) che per l’esperienza C (pubblico californiano). A questo utente verrà presentata lʼesperienza A perché è presente nellʼelenco sopra lʼesperienza C nella pagina Destinazioni.
 
-![](assets/audiences_order.png)
+![audiences_order immagine](assets/audiences_order.png)
 
 ## Perché esistono nomi diversi per uno stesso pubblico in [!DNL Target], Adobe Audience Manager (AAM) e nella libreria Pubblico nei servizi di base? {#section_F67E61A607B6444C8DAA4F99C3E95AED}
 

@@ -4,9 +4,9 @@ description: Scopri come creare un Adobe [!DNL Target] Progettazione Recommendat
 title: Come si crea un design in Recommendations?
 feature: Recommendations
 exl-id: 0f10ee9d-7210-4e02-9342-e4f85cf46e8c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1017'
+source-wordcount: '1029'
 ht-degree: 35%
 
 ---
@@ -46,11 +46,11 @@ Potete creare una progettazione basata su una progettazione predefinita oppure u
 
 1. Passa il puntatore del mouse sulla scheda della progettazione che desideri creare, quindi fai clic sul pulsante **[!UICONTROL Copia]** icona.
 
-   ![](assets/Card_CopyDesign.png)
+   ![Immagine Card_CopyDesign](assets/Card_CopyDesign.png)
 
    La [!UICONTROL Creare una progettazione] viene visualizzata la finestra di dialogo.
 
-   ![](assets/createDesign.png)
+   ![immagine createDesign](assets/createDesign.png)
 
 1. In **[!UICONTROL Informazioni]** aggiungi un **[!UICONTROL Nome contenuto]** e l&#39;immagine di anteprima opzionale da visualizzare sulla scheda di progettazione.
 
@@ -104,7 +104,7 @@ L’esempio seguente mostra come è possibile restituire le risposte JSON durant
 
 1. Assicurati che l&#39;opzione “Progettazione HTML” sia disattivata:
 
-   ![](assets/html_design_toggle.png)
+   ![immagine html_design_toggle](assets/html_design_toggle.png)
 
 1. Il codice seguente è un esempio di ciò che è possibile incollare nella progettazione:
 
@@ -169,7 +169,7 @@ L’esempio seguente mostra come è possibile restituire le risposte JSON durant
 
 Dopo che l&#39;algoritmo è stato eseguito e si dispone dei risultati, la risposta dovrebbe essere simile a questa:
 
-![](assets/json_recommendation.png){width=&quot;575px&quot;}
+![immagine json_recommendation](assets/json_recommendation.png){width=&quot;575px&quot;}
 
 ## Ulteriori suggerimenti sugli oggetti JSON {#section_C305673C68944749969DB239E3221DC2}
 

@@ -4,9 +4,9 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2795'
+source-wordcount: '2800'
 ht-degree: 96%
 
 ---
@@ -212,13 +212,13 @@ Un metodo consiste nell’usare l’[Editor di codice personalizzato](/help/main
 
 Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare a creare la tua esperienza.
 
-![](assets/vec2.png)
+![immagine vec2](assets/vec2.png)
 
 **Come posso passare all&#39;esperienza scelta dal passaggio 2 del flusso di lavoro guidato in tre parti di Target (pagina targeting)?**
 
 Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
 
-![](assets/thumbnail_experiences.png)
+![immagine thumbnail_experience](assets/thumbnail_experiences.png)
 
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 

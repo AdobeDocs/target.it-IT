@@ -4,10 +4,10 @@ description: Scopri come utilizzare il Compositore esperienza visivo (VEC) in Ad
 title: Come si crea un test multivariato?
 feature: Multivariate Tests
 exl-id: 7712b747-543a-4e19-b689-bea36c44805c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '566'
-ht-degree: 89%
+source-wordcount: '570'
+ht-degree: 88%
 
 ---
 
@@ -88,11 +88,11 @@ Il [!UICONTROL test multivariato] richiede un rapporto di tipo “page-first”.
 
    L’illustrazione seguente indica che l’attività non dispone di traffico sufficiente.
 
-   ![](assets/estimator.png)
+   ![immagine stimatore](assets/estimator.png)
 
    L’illustrazione seguente indica che l’attività non dispone di traffico sufficiente.
 
-   ![](assets/estimator2.png)
+   ![immagine estimatore2](assets/estimator2.png)
 
 1. Fai clic su **[!UICONTROL Successivo]** per passare alla pagina [!UICONTROL Targeting.]
 

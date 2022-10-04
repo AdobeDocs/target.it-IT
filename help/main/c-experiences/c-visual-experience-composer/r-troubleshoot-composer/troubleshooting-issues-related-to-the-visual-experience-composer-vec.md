@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '796'
-ht-degree: 87%
+source-wordcount: '804'
+ht-degree: 86%
 
 ---
 
@@ -82,12 +82,12 @@ Se né il Compositore esperienza visivo né il Compositore esperienza avanzato f
 
       * Cambia la condizione per l&#39;URL di origine da **[!UICONTROL È uguale a]** a **[!UICONTROL Contiene]** e immetti l&#39;URL dell&#39;attività da caricare nel Compositore esperienza visivo.
 
-      ![](assets/chrome_extension.png)
+      ![immagine chrome_extension](assets/chrome_extension.png)
 
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-   ![](assets/requestly.png)
+   ![immagine richiesta](assets/requestly.png)
 
    Ora dovresti essere in grado di caricare la pagina rapidamente con il Compositore esperienza visivo.
 
@@ -102,7 +102,7 @@ Se né il Compositore esperienza visivo né il Compositore esperienza avanzato f
 1. Fai clic su **[!UICONTROL Aggiungi]**.
 1. Fai clic su **[!UICONTROL Avvia]**.
 
-![](assets/firefox_extension.png)
+![immagine firefox_extension](assets/firefox_extension.png)
 
 Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibile caricare le pagine nel Compositore esperienza visivo, anche se il Compositore esperienza avanzato è disattivato.
 

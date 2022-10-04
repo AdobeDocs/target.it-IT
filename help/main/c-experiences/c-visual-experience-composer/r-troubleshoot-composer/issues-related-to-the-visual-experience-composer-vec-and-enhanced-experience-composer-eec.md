@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: d829cd63-950f-4bb4-aa58-0247f85de383
-source-git-commit: d3e6ec7fc65bde2c82f830111d40622cd8bc8a4d
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1421'
-ht-degree: 52%
+source-wordcount: '1427'
+ht-degree: 51%
 
 ---
 
@@ -90,11 +90,11 @@ Se le intestazioni CSP del tuo sito web bloccano le librerie di Target, quindi c
 >
 >Oltre alle seguenti informazioni, puoi utilizzare l’estensione [Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per il browser Google Chrome.
 
-![](assets/cps_headers.png)
+![immagine cps_headers](assets/cps_headers.png)
 
 Come soluzione alternativa, è possibile configurare una regola con Requestly per rimuovere le intestazioni CSP, come illustrato di seguito:
 
-![](assets/cps_headers_2.png)
+![immagine cps_headers_2](assets/cps_headers_2.png)
 
 È possibile configurare con Requestly una regola simile per qualsiasi intestazione che impedisce il caricamento di una risorsa all&#39;interno del Compositore esperienza visivo.
 

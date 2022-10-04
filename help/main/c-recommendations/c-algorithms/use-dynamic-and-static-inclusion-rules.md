@@ -5,10 +5,10 @@ title: Come si utilizzano regole di inclusione dinamiche e statiche in Recommend
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: 49b20e75-ee55-4239-94a0-6d175e2d4811
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '2078'
-ht-degree: 17%
+source-wordcount: '2094'
+ht-degree: 16%
 
 ---
 
@@ -22,7 +22,7 @@ Le regole di inclusione per i criteri e le promozioni possono essere create e ut
 
 Durante la [creazione di criteri](/help/main/c-recommendations/c-algorithms/create-new-algorithm.md#task_8A9CB465F28D44899F69F38AD27352FE), fai clic su **[!UICONTROL Aggiungi regola di filtro]** in **[!UICONTROL Regole di inclusione]**.
 
-![](assets/inclusion_options_new.png)
+![inclusione_options_nuova immagine](assets/inclusion_options_new.png)
 
 Le opzioni disponibili dipendono dal settore verticale selezionato e della chiave consiglio.
 
@@ -30,7 +30,7 @@ Le opzioni disponibili dipendono dal settore verticale selezionato e della chiav
 
 Durante la [creazione di una promozione](/help/main/c-recommendations/t-create-recs-activity/adding-promotions.md#task_CC5BD28C364742218C1ACAF0D45E0E14), seleziona **[!UICONTROL Promuovi per attributo]**, quindi fai clic su **[!UICONTROL Aggiungi regola filtro]**.
 
-![](assets/inclusion_options.png)
+![immagine included_options](assets/inclusion_options.png)
 
 ## Tipi di filtro {#section_0125F1ED10A84C0EB45325122460EBCD}
 
@@ -93,9 +93,9 @@ Puoi scegliere diverse opzioni per gestire i valori vuoti durante il filtraggio 
 
 In precedenza, non veniva restituito alcun risultato se un valore era vuoto. L&#39;elenco a discesa “Se *x* è vuoto” consente di scegliere l&#39;azione da eseguire se i criteri hanno valori vuoti, come illustrato di seguito:
 
-![](assets/empty_value.png)
+![immagine empty_value](assets/empty_value.png)
 
-Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranaggio (![](assets/icon_gear.png)), quindi scegli l’azione desiderata:
+Per selezionare l’azione desiderata, passa il puntatore sull’icona a forma di ingranaggio (![icona_ingranaggio](assets/icon_gear.png)), quindi scegli l’azione desiderata:
 
 | Azione | Disponibile per | Dettagli |
 |--- |--- |--- |
@@ -110,7 +110,7 @@ Per selezionare l’azione desiderata, passa il puntatore sull’icona ingranagg
 >
 >Gli attributi di tipi di dati diversi potrebbero non essere compatibili nelle promozioni o nei criteri dinamici in fase di esecuzione con gli operatori “è uguale a” e “è diverso da”. Utilizzo [!UICONTROL Valore], [!UICONTROL Margine], [!UICONTROL Inventario]e [!UICONTROL Ambiente] i valori sono disponibili sulla destra se sul lato sinistro sono presenti attributi predefiniti o attributi personalizzati.
 
-![](assets/left_right.png)
+![immagine sinistra_destra](assets/left_right.png)
 
 Nella tabella seguente vengono mostrate regole efficaci e regole che potrebbero invece non essere compatibili in fase di esecuzione:
 

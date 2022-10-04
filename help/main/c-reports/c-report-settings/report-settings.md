@@ -4,9 +4,9 @@ description: Scopri come configurare le impostazioni dei rapporti in Adobe Targe
 title: Come Si Configurano Le Impostazioni Dei Rapporti?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1917'
+source-wordcount: '1923'
 ht-degree: 66%
 
 ---
@@ -276,16 +276,16 @@ Se passi il cursore del mouse sopra una delle esperienze in grigio, sul grafico 
 
 Ad esempio, la figura seguente mostra il grafico di un’attività con 26 esperienze:
 
-![](assets/graph_1.png)
+![immagine graph_1](assets/graph_1.png)
 
 Il grafico mostra le linee delle prime 16 esperienze (alcune si sovrappongono, quindi sembra che siano meno di 16). Il punto colorato nel riquadro Esperienze a sinistra indica il colore associato all’esperienza corrispondente.
 
 Se scorri verso il basso nel riquadro Esperienze, puoi notare che i nomi delle esperienze dalla 17 alla 26 sono in grigio, come illustrato nella figura seguente:
 
-![](assets/graph_2.png)
+![immagine graph_2](assets/graph_2.png)
 
 Se passi il cursore del mouse sopra una delle esperienze in grigio, sul grafico viene visualizzata temporaneamente la corrispondente linea grigia.
 
 Supponiamo che desideri visualizzare la linea dell’esperienza R e nascondere quella linea dell’esperienza P. Fai clic sul nome dell’esperienza P per deselezionarla, quindi fai clic sul nome dell’esperienza R per selezionarla, come illustrato di seguito:
 
-![](assets/graph_3.png)
+![immagine graph_3](assets/graph_3.png)

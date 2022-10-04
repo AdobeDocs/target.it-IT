@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico in [!DNL Adobe Target] per indi
 title: Posso Indirizzare I Visitatori Che Soddisfano Parametri Di Profilo Specifici?
 feature: Audiences
 exl-id: aca45b80-660d-4b8e-a0d7-84627b8fd77b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '247'
-ht-degree: 47%
+source-wordcount: '251'
+ht-degree: 46%
 
 ---
 
@@ -21,7 +21,7 @@ Crea un pubblico in [!DNL Adobe Target] per indirizzare l’attività ai visitat
 
 1. Fai clic su **[!UICONTROL Seleziona]**, quindi scegli una delle seguenti opzioni:
 
-   ![](assets/target_visitor_profile.png)
+   ![immagine target_visitor_profile](assets/target_visitor_profile.png)
 
    I parametri del profilo del visitatore vengono trasmessi tramite mbox (profilo). Puoi eseguire il targeting dei visitatori nuovi o di ritorno, o includere tutti gli utenti.
 

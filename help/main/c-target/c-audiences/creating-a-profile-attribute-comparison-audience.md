@@ -4,10 +4,10 @@ description: Scopri come definire un pubblico per confrontare due attributi di p
 title: Posso confrontare due attributi di profilo da utilizzare nel pubblico?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '428'
-ht-degree: 62%
+source-wordcount: '431'
+ht-degree: 63%
 
 ---
 
@@ -57,7 +57,7 @@ Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](htt
 
 1. Scegli l&#39;attributo da confrontare con l&#39;attributo iniziale.
 
-   ![](assets/propensity_score_4.png)
+   ![immagine propensity_score_4](assets/propensity_score_4.png)
 
 1. Fai clic su **[!UICONTROL Fine]**.
 

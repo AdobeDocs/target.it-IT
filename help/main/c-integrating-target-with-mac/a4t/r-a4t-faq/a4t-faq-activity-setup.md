@@ -4,9 +4,9 @@ description: Trova le risposte alle domande sulla configurazione dell’attivit�
 title: Dove posso trovare le domande frequenti sulle impostazioni delle attività con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 8a8cdbb9-89f6-4e4a-a53e-8f33adab4d61
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '563'
+source-wordcount: '565'
 ht-degree: 20%
 
 ---
@@ -36,7 +36,7 @@ Quando viene creata un’attività, [!DNL Target] invia un file di classificazio
 1. In [!DNL Target], fai clic su **[!UICONTROL Amministrazione]**.
 1. Nell’elenco a discesa **[!UICONTROL Soluzione Experience Cloud utilizzata per i rapporti]**, fai clic su **[!UICONTROL Seleziona per attività]**.
 
-![](assets/select-per-activity.png)
+![immagine select-per-activity](assets/select-per-activity.png)
 
 L’elenco a discesa **[!UICONTROL Origine per i rapporti]** è abilitato nella schermata **[!UICONTROL Obiettivi e impostazioni]** per la creazione e la modifica delle attività.
 

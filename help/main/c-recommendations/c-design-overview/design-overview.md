@@ -4,9 +4,9 @@ description: Scopri come utilizzare le progettazioni in Adobe [!DNL Target] Reco
 title: Come si utilizzano i progetti in Recommendations?
 feature: Recommendations
 exl-id: 348b1d77-49c9-4a6b-ba85-7ba051713d5b
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '197'
+source-wordcount: '200'
 ht-degree: 32%
 
 ---
@@ -19,7 +19,7 @@ Progettazioni in [!DNL Adobe Target Recommendations] definite la modalità di vi
 
 [!DNL Target] può fornire una visuale completa dei consigli, come illustrato nella figura seguente. La progettazione può includere HTML, JavaScript e CSS. Questo design si chiama design 4 x 1: quattro spazi in una fila.
 
-![](assets/velocity_example.png)
+![immagine velocity_example](assets/velocity_example.png)
 
 Target può anche inviare i consigli come oggetti JSON che possono essere utilizzati in messaggi di posta elettronica, dispositivi IoT (Internet of Things), console o i casi di utilizzo vocale (Amazon Alexa o Google Home).
 

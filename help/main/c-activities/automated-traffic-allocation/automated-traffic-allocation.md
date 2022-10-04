@@ -4,9 +4,9 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '3568'
+source-wordcount: '3570'
 ht-degree: 50%
 
 ---
@@ -66,7 +66,7 @@ Man mano che più visitatori accedono all’attività, alcune esperienze inizian
 
 Nell&#39;illustrazione seguente viene mostrato come potrebbe comportarsi l&#39;algoritmo durante un test con quattro esperienze:
 
-![](assets/auto-allocate.png)
+![allocazione automatica dell&#39;immagine](assets/auto-allocate.png)
 
 L&#39;illustrazione mostra come il traffico assegnato a ogni esperienza progredisca nell&#39;acro di parecchi turni della durata dell&#39;attività, finché non sia possibile determinare un chiaro vincitore.
 

@@ -4,10 +4,10 @@ description: Scopri come eseguire il targeting dei visitatori che utilizzano un 
 title: È possibile indirizzare i visitatori in base al sistema operativo?
 feature: Audiences
 exl-id: 0d6b6b1c-5c00-49f5-ae2b-c70eb3f713fc
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '136'
-ht-degree: 47%
+source-wordcount: '139'
+ht-degree: 46%
 
 ---
 
@@ -29,7 +29,7 @@ Puoi rivolgerti ai visitatori utilizzando [!DNL Adobe Target] che utilizzano un 
 
 L&#39;illustrazione seguente mostra un pubblico che include i visitatori che utilizzano un sistema operativo Macintosh.
 
-![](assets/target_os.png)
+![immagine target_os](assets/target_os.png)
 
 ## Video di formazione: Creazione di tipi di pubblico
 

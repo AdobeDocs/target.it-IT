@@ -1,13 +1,13 @@
 ---
 keywords: Targeting delle esperienze;test pagina di destinazione
-description: 'Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi. Scopri come utilizzare i selettori di elementi nell’Adobe [!DNL Target] Compositore esperienza visivo. '
+description: Un selettore di elementi è un’espressione CSS che può identificare uno o più elementi. Scopri come utilizzare i selettori di elementi nell’Adobe [!DNL Target] Compositore esperienza visivo.
 title: Posso utilizzare i selettori di elementi nel Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: f4ddb30a-f599-4fe5-861c-2deeeb9a70dd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '426'
-ht-degree: 80%
+source-wordcount: '429'
+ht-degree: 79%
 
 ---
 
@@ -19,7 +19,7 @@ Puoi trovare informazioni di base sui selettori CSS nel documento sui [selettori
 
 Puoi specificare se utilizzare l’ID o la classe degli elementi nelle preferenze dell’account. Fai clic su **[!UICONTROL Amministrazione > Compositore esperienza visivo]**, quindi scegli i selettori CSS preferiti.
 
-![](assets/css_selectors.png)
+![immagine css_selectors](assets/css_selectors.png)
 
 >[!NOTE]
 >

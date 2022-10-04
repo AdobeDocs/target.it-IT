@@ -4,10 +4,10 @@ description: Scopri come interpretare i risultati di un’attività di allocazio
 title: Come Interpreto I Rapporti Di Allocazione Automatica?
 feature: Auto-Allocate
 exl-id: 4ed00eee-8939-4958-9be6-b45a8c08afbc
-source-git-commit: 66c662e367b64ca51c5d9246cb097a12755d9aff
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1233'
-ht-degree: 45%
+source-wordcount: '1235'
+ht-degree: 44%
 
 ---
 
@@ -29,7 +29,7 @@ Quando utilizzi la funzione di [!UICONTROL Allocazione automatica], [!DNL Target
 
 Quando viene dichiarata l&#39;esperienza migliore, in [!DNL Target] appare la scritta “Vincitore: esperienza X”.
 
-![](assets/winner.png)
+![immagine vincente](assets/winner.png)
 
 >[!NOTE]
 >

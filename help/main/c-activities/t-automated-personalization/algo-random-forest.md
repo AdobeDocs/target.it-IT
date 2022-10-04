@@ -4,10 +4,10 @@ description: Adobe [!DNL Target] utilizza l’algoritmo Foresta casuale sia nell
 title: Come funziona [!DNL Target] Utilizzare l'algoritmo Foresta casuale?
 feature: Automated Personalization
 exl-id: 07a89525-4071-4434-ac96-c59a4f4422ad
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
 workflow-type: tm+mt
-source-wordcount: '1417'
-ht-degree: 95%
+source-wordcount: '1427'
+ht-degree: 94%
 
 ---
 
@@ -34,13 +34,13 @@ Diciamo che il codice postale è più predittivo. Questa variabile forma il prim
 
 Questa azione sarebbe il primo livello del nostro albero decisionale:
 
-![](assets/decsion_tree_1.png)
+![immagine decsion_tree_1](assets/decsion_tree_1.png)
 
 L&#39;albero decisionale porrebbe la domanda: “Qual è la variabile più predittiva?” Nel nostro esempio, abbiamo solo due variabili, quindi la risposta qui è chiaramente di genere. L&#39;albero ora cercherebbe di completare un esercizio simile per dividere i dati *all&#39;interno di ogni ramo*. Per prima cosa, consideriamo il ramo 11111, 22222 e 33333. In questi codici di avviamento postale, se ci fosse una differenza di conversione tra uomini e donne, ci sarebbero due foglie (uomini e donne) e questo ramo sarebbe completo. Nell&#39;altro ramo, 44444 e 55555, supponiamo che non ci sia differenza statistica tra le conversioni di donne e uomini. In questo caso, il primo ramo diventa la divisione finale.
 
 Il nostro esempio comporterebbe l&#39;albero sottostante:
 
-![](assets/decsion_tree_2.png)
+![immagine decsion_tree_2](assets/decsion_tree_2.png)
 
 ## Come vengono utilizzati gli alberi decisionali da Foresta casuale? {#section_536C105EF9F540C096D60450CAC6F627}
 
@@ -52,7 +52,7 @@ Gli alberi decisionali possono essere un potente strumento statistico. Tuttavia,
 
 Nel diagramma seguente viene riepilogato il modo in cui vengono generati i modelli per le attività di Targeting automatico o Personalizzazione automatizzata:
 
-![](assets/random_forest_flow.png)
+![immagine random_forest_flow](assets/random_forest_flow.png)
 
 1. Target raccoglie i dati sui visitatori, mentre serve esperienze/offerte in modo casuale
 1. Una volta che Target raggiunge una massa critica di dati, svolge funzioni ingegneristiche
