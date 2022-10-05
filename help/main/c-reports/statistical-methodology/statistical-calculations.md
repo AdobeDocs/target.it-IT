@@ -3,7 +3,7 @@ keywords: rapporti;metodologia statistica;calcoli statistici;statistiche;media;t
 description: Informazioni sui calcoli statistici utilizzati nel manuale [!UICONTROL Test A/B] attività [!DNL Adobe Target].
 title: Come posso imparare i calcoli statistici utilizzati in [!UICONTROL Test A/B] Attività?
 feature: Reports
-source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
+source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
 workflow-type: tm+mt
 source-wordcount: '1096'
 ht-degree: 2%
@@ -12,7 +12,7 @@ ht-degree: 2%
 
 # Calcoli statistici nei test A/Bn
 
-In questa pagina sono documentati i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target]. Sono fornite le definizioni necessarie [!UICONTROL Tasso di conversione], [!UICONTROL Intervallo di affidabilità del tasso di conversione], [!UICONTROL Lift], [!UICONTROL Intervallo di affidabilità per incremento]e [!UICONTROL Affidabilità].
+Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target]. Sono fornite le definizioni necessarie [!UICONTROL Tasso di conversione], [!UICONTROL Intervallo di affidabilità del tasso di conversione], [!UICONTROL Lift], [!UICONTROL Intervallo di affidabilità per incremento]e [!UICONTROL Affidabilità].
 
 >[!NOTE]
 >
