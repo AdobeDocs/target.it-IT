@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '34597'
+source-wordcount: '34887'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,32 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2022
+
+### [!DNL Target] Standard/Premium 22.9.1 (rilascio scaglionato dal 13 all’15 settembre 2022)
+
+Questa versione sarà disponibile in base al seguente programma scaglionato:
+
+* **13 settembre**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **14 settembre**: area geografica delle Americhe
+* **15 settembre**: area geografica Asia-Pacifico (APAC)
+
+Questa versione include i miglioramenti e le correzioni seguenti:
+
+* È stata aggiunta l’opzione [!UICONTROL Tra domini diversi] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti. (TGT-43674)
+* Sono state aggiornate le notifiche nell’interfaccia utente di [!DNL Target] per informare i clienti nel caso in cui l’importazione di feed [!DNL Recommendations] non riesca. (TGT-35811)
+* È stato risolto un problema che causava il mal funzionamento di [!UICONTROL Offerte decisionali] all’interno del [!UICONTROL Compositore esperienza visivo] (VEC). (TGT-43866)
+* È stato risolto un problema che causava la visualizzazione di un messaggio di errore durante la selezione dell’obiettivo di conversione [!UICONTROL Clic su un elemento] durante la creazione di un’attività [!UICONTROL Multivariate Testing] (MVT). (TGT-43842)
+* È stato risolto un problema che impediva la visualizzazione della colonna [!UICONTROL Impression] nel file di rapporto CSV scaricato per le attività [!UICONTROL Automated Personalization] (AP). (TGT-43780)
+* È stato risolto un problema che impediva ai clienti di modificare le offerte HTML/JSON dopo la duplicazione delle esperienze durante l’utilizzo del [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43633)
+* È stato risolto un problema che impediva ai clienti di copiare un’attività di [!UICONTROL Test A/B] da un’area di lavoro non predefinita a un’altra area di lavoro non predefinita. (TGT-41910)
+* È stato risolto un problema affinché i clienti possano visualizzare correttamente gli utilizzi di oggetti [!DNL Recommendations] (progettazioni, criteri, raccolte e così via) in attività [!UICONTROL Test A/B] e [!UICONTROL Targeting dell’esperienza] (XT) che contengono consigli, nonché eliminare gli oggetti di criteri non più in uso dall’nterfaccia utente di [!DNL Target] e dal sistema back-end della funzionalità [!DNL Recommendations]. (TGT-42331)
+* È stato risolto un problema che causava la visualizzazione di un avviso di timeout di rete nell’[!DNL Target] Interfaccia utente per il recupero dei parametri. (TGT-43737)
+* Sono stati apportati aggiornamenti all’interfaccia utente per garantire che alcune azioni di trascinamento della selezione siano accessibili da tastiera. (TGT-42969)
+* Sono stati apportati aggiornamenti all’interfaccia utente per garantire che le stringhe di testo siano localizzate correttamente.
+
+### at.js versione 2.10.0 (13 settembre 2022)
+
+* È stata aggiunta l’opzione [!UICONTROL Tra domini diversi] per il download di at.js 2.10.0 (e versioni successive) per consentire o disabilitare l’impostazione di cookie di terze parti. (TGT-43674)
 
 ### [!DNL Target Standard/Premium] 22.8.1 (rilascio graduale 17-18 agosto 2022)
 
