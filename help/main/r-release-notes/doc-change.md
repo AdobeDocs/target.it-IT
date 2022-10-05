@@ -6,8 +6,8 @@ feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: dc0f55deeb3b7a988d072a6b11e6dc4170d0fdab
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 96%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 96%
 
 Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Target].
 
-## [!DNL Adobe Target] Standard/Premium 22.10.1 (versione scaglionata dal 5 al 7 ottobre 2022)
+## [!DNL Adobe Target] Standard/Premium 22.10.1 (rilascio scaglionato dal 5 al 7 ottobre 2022)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
@@ -27,7 +27,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 3 ottobre | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Aggiornate le date per la [!DNL Target Standard/Premium] Versione 22.10.1. |
-| 22 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Coffee break comunitario Q&amp;A (28 settembre 2022)</li></ul> |
+| 22 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (28 settembre 2022)</li></ul> |
 | 15 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
 | 13 settembre | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un feed [!DNL Recommendations] non riesce. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.9.1 di [!DNL Target Standard/Premium]. |
