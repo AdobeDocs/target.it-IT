@@ -5,9 +5,9 @@ title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
 source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '4593'
-ht-degree: 95%
+ht-degree: 100%
 
 ---
 
@@ -119,7 +119,7 @@ L’interfaccia utente [!DNL Target] consente agli utenti di selezionare metrich
 
 Per un elenco delle metriche di obiettivo supportate e non supportate, consulta [Supporto A4T per le attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md). (TNT-38409)
 
-### Distribuzione del traffico [!DNL Auto-Allocate] attività che utilizzano A4T {#aa-a4t}
+### Distribuzione del traffico delle attività [!DNL Auto-Allocate] tramite A4T {#aa-a4t}
 
 In alcuni casi, la distribuzione del traffico delle attività [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics for Target] (A4T) potrebbe variare a seconda del tasso di conversione riportato per ogni esperienza. Ciò si verifica più spesso per le attività con un’alta proporzione di traffico da parte di visitatori di ritorno. (TOP-131)
 
@@ -155,9 +155,9 @@ Questo problema è stato risolto nel gennaio 2022. (TNT-37455)
 
 Se aggiungi una regola del modello, ad esempio l’URL contiene (/checkout, /cart) nella [consegna pagine](/help/main/c-activities/t-experience-target/t-xt-create/xt-activity-url.md), alla regola vengono anteposti degli spazi in più. Questi spazi aggiuntivi sono cosmetici e non influiscono sulla creazione di definizioni di pubblico e sulla consegna delle offerte. (TGT-35920)
 
-### Offerte di immagini che mostrano l’etichetta &quot;Elaborazione&quot;
+### Offerte di immagini con etichetta “Elaborazione”
 
-Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta di &quot;elaborazione&quot; per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta solo di un problema relativo all’etichetta: le offerte di immagini possono ancora essere utilizzate nelle attività e consegnate. (MCUI-10264, TGT-37458)
+Le offerte di immagini nella pagina Offerte talvolta mantengono l’etichetta “elaborazione” per diverse ore dopo il caricamento delle immagini. Nella maggior parte dei casi si tratta solo di un problema relativo all’etichetta: le offerte di immagini possono ancora essere utilizzate nelle attività e consegnate. (MCUI-10264, TGT-37458)
 
 Questo problema è stato risolto con la versione Target Standard/Premium 20.10.1.
 
@@ -194,7 +194,7 @@ Per ulteriori domande, contatta il tuo Customer Success Manager (CSM) o [l’ass
 
 ### Generazione rapporti di Targeting automatico {#at-metrics}
 
-È stato risolto un problema che ha interessato [!DNL Adobe Target Premium] utenti [!UICONTROL Targeting automatico] rapporto del 15 settembre, 2:30 p.m. (PDT) al 6 ottobre, 9:25 (PDT). Quando visualizzi i rapporti per le metriche di conversione interessate (configurate utilizzando &quot;[!UICONTROL Visualizzazione di una pagina]&quot; o &quot;[!UICONTROL Clic su mbox]&quot;), i tassi di conversione sono riportati in modo errato. Al momento non è presente alcun problema di consegna noto.
+È stato risolto un problema che ha interessato la generazione rapporti di [!UICONTROL Targeting automatico] per gli utenti di [!DNL Adobe Target Premium] dalle 14:30 (PDT) del 15 settembre alle 09:25 (PDT) del 6 ottobre. Quando si visualizzavano i rapporti per le metriche di conversione interessate (configurate utilizzando l’opzione “[!UICONTROL Visualizzazione di una pagina]” o “[!UICONTROL Clic su una mbox]”), i tassi di conversione non venivano riportati correttamente. Al momento non è presente alcun problema di consegna noto.
 
 Per sincronizzare nuovamente e correggere la generazione rapporti:
 
@@ -230,7 +230,7 @@ Questo problema è stato risolto.
 
 ### Quando si utilizza Google Chrome versione 80+ non vengono caricate le pagine nel Compositore esperienza visivo (VEC) o Compositore esperienza avanzato (EEC)
 
-Questo problema noto riguarda la decisione di Google di modificare il comportamento predefinito dei cookie senza l’attributo SameSite a partire da Chrome versione 80. Prima della modifica Chrome impostava tutti i cookie senza l’attributo SameSite su &quot;SameSite=None&quot; e ora imposta il valore predefinito su &quot;SameSite=Lax&quot;, cambiando il modo in cui i cookie vengono inviati sulle richieste di GET e POST. Consulta [Aggiornamenti SameSite](https://www.chromium.org/updates/same-site).
+Questo problema noto riguarda la decisione di Google di modificare il comportamento predefinito dei cookie senza l’attributo SameSite a partire da Chrome versione 80. Prima della modifica, Chrome impostava tutti i cookie senza l’attributo SameSite su &quot;SameSite=None&quot; mentre ora imposta il valore predefinito su &quot;SameSite=Lax&quot;, cambiando il modo in cui i cookie vengono inviati nelle richieste GET e POST. Consulta [Aggiornamenti SameSite](https://www.chromium.org/updates/same-site).
 
 Per ulteriori informazioni e una correzione, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
@@ -402,7 +402,7 @@ Il problema è stato risolto nella versione 0.9.7 di at.js rilasciata il 22 magg
 
 ### Reporting: attività A/B e di Targeting esperienza (XT)
 
-Tra il 27 aprile alle 21:00 PST e il 5 maggio alle 06:00 PST, le attività A/B e XT create o modificate con qualsiasi metrica utilizzando l’azione di conversione &quot;Visualizza una pagina&quot; (non basate su altre metriche) potrebbero avere conversioni registrate in modo errato. La questione è ora risolta; tuttavia, il reporting sull’azione di conversione &quot;Visualizzazione di una pagina&quot; per queste attività durante il periodo di tempo interessato potrebbe non essere accurato e, sfortunatamente, non può essere corretto. Per queste attività consigliamo di fare affidamento solo sui dati registrati prima o dopo il periodo interessato per tutte le decisioni basate sulle azioni di conversione &quot;Visualizzazione di una pagina&quot;.
+Per le attività A/B e XT create o modificate tra il 27 aprile alle 21:00 PST e il 5 maggio alle 06:00 PST con qualsiasi metrica utilizzando l’azione di conversione “Visualizzazione di una pagina” (non basate su altre metriche), le conversioni potrebbero essere registrate in modo errato. Questo problema ora è risolto, tuttavia, la reportistica sull’azione di conversione “Visualizzazione di una pagina” per queste attività durante il periodo di tempo indicato, potrebbe non essere accurata e, sfortunatamente, potrebbe non essere rettificata. Per queste attività consigliamo di basarsi solo sui dati registrati prima o dopo tale periodo per prendere decisioni basate sulle azioni di conversione “Visualizzazione di una pagina”.
 
 Questo problema non interessa i dati di reporting per altre metriche, che possono quindi essere utilizzati.
 
