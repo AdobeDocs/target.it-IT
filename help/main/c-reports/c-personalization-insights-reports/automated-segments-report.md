@@ -4,9 +4,9 @@ description: Scopri come diversi segmenti definiti da Adobe [!DNL Target] i mode
 title: Cos’è il rapporto Segmenti automatizzati?
 feature: Reports
 exl-id: d21517b7-770b-4618-9899-7ac4948c2a8b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '2126'
+source-wordcount: '2143'
 ht-degree: 74%
 
 ---
@@ -42,7 +42,7 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
    La [Riepilogo Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md) o [Riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md) viene visualizzato un rapporto che fornisce informazioni sulle prestazioni delle attività, rappresentate dall’icona della prima schermata. Le altre due icone rappresentano i due rapporti di Registri di personalizzazione: Segmenti automatizzati e Attributi importanti. Il Targeting automatico ha un’icona grafico aggiuntiva per la visualizzazione grafica del [!UICONTROL Riepilogo] rapporto.
 
-   ![](/help/main/c-reports/assets/personalization_insights.png)
+   ![Rapporto Approfondimenti personalizzazione in Adobe Target](/help/main/c-reports/assets/personalization_insights.png)
 
    >[!IMPORTANT]
    >
@@ -56,11 +56,11 @@ I vari visitatori rispondono in modo diverso alle offerte/esperienze nell&#39;at
 
    A differenza di [!UICONTROL Riepilogo] rapporto (rapporto sulle prestazioni), [!UICONTROL Approfondimenti personalizzazione], tra cui [!UICONTROL Segmenti automatizzati], è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni e 60 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che &quot;Start&quot; è disabilitato. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendario nel rapporto Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Puoi accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Scegli la durata].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Elenco a discesa Durata in Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Esamina i dati del rapporto [!UICONTROL Segmenti automatizzati].
 

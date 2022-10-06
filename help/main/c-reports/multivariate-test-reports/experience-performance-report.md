@@ -4,10 +4,10 @@ description: Scopri come utilizzare ad Adobe il rapporto Prestazioni esperienza 
 title: Come si utilizza il rapporto Prestazioni esperienza per i test multivariati?
 feature: Reports
 exl-id: 83ca691c-4392-42f5-9251-f374bf28cc4b
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '332'
-ht-degree: 90%
+source-wordcount: '338'
+ht-degree: 88%
 
 ---
 
@@ -17,7 +17,7 @@ Il rapporto Prestazioni esperienza mostra il modo in cui viene eseguita ogni esp
 
 Puoi selezionare una o più esperienze per confrontarle. Per aprire un’esperienza in una scheda del browser, fai clic su di essa e seleziona **[!UICONTROL Anteprima]**.
 
-![](/help/main/c-reports/assets/experienceperformancetable.png)
+![Rapporto Prestazioni esperienza in Adobe Target](/help/main/c-reports/assets/experienceperformancetable.png)
 
 La parte superiore del rapporto mostra la metrica, le date di inizio e fine e il pubblico utilizzato nel rapporto. Puoi modificare ciascuno di questi fattori.
 

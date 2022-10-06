@@ -4,10 +4,10 @@ description: Scopri come interpretare il rapporto di riepilogo di Automated Pers
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '673'
-ht-degree: 40%
+source-wordcount: '679'
+ht-degree: 39%
 
 ---
 
@@ -46,7 +46,7 @@ Il rapporto a [!UICONTROL livello di offerta] per l’esperienza Foresta casuale
 
 Fai clic sull’algoritmo dell’esperienza (Foresta casuale o controllo) per visualizzare il [!UICONTROL Livello di offerta] rapporto.
 
-![](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
+![Rapporto a livello di offerta in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
 Le offerte possono essere visualizzate all’interno di gruppi di rapporti, che possono essere compressi e espansi. Seleziona [!UICONTROL Gruppo di rapporti] nell’elenco a discesa per visualizzare le informazioni aggregate da gruppi di rapporti, anziché da offerte.
 

@@ -4,10 +4,10 @@ description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapport
 title: Qual è il rapporto Attributi importanti?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1717'
-ht-degree: 81%
+source-wordcount: '1744'
+ht-degree: 80%
 
 ---
 
@@ -54,7 +54,7 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
 1. A 15 giorni dall’attivazione dell’attività, fai clic sul pulsante **[!UICONTROL Attributi importanti]** icona.
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking.png)
+   ![Icona Attributi importanti in un rapporto Adobe Target](/help/main/c-reports/assets/model_attribute_ranking.png)
 
 1. Seleziona l&#39;intervallo di date desiderato.
 
@@ -66,15 +66,15 @@ Nelle varie attività, i vari attributi possono essere più o meno importanti pe
 
    Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Le due decisioni che puoi prendere per l&#39;intervallo di date sono “Data di fine” e “Durata”. Noterai che “Start” è inattivo. La data di inizio cambia automaticamente in base alla data di fine e alla durata selezionate.
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
+   ![Calendario in un rapporto Adobe Target](/help/main/c-reports/assets/personalization_insights_calendar_1.png)
 
    Puoi accedere agli intervalli di date fissi disponibili dall&#39;elenco a discesa [!UICONTROL Scegli la durata].
 
-   ![](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
+   ![Scegliere l’elenco a discesa Durata in un rapporto](/help/main/c-reports/assets/personalization_insights_calendar_2.png)
 
 1. Esamina i dati del rapporto [!UICONTROL Attributi importanti].
 
-   ![](/help/main/c-reports/assets/model_attribute_ranking_report.png)
+   ![Rapporto Attributi importanti in Adobe Target](/help/main/c-reports/assets/model_attribute_ranking_report.png)
 
 1. (Facoltativo) [Scarica il rapporto in formato CSV](/help/main/c-reports/c-report-settings/report-settings.md#section_77E65C50BAAF4AB79242DB3A8778ADEF) per l&#39;analisi in Excel e altri programmi.
 

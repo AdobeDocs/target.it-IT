@@ -3,9 +3,9 @@ keywords: rapporti;metodologia statistica;calcoli statistici;statistiche;media;t
 description: Informazioni sui calcoli statistici utilizzati nel manuale [!UICONTROL Test A/B] attività [!DNL Adobe Target].
 title: Come posso imparare i calcoli statistici utilizzati in [!UICONTROL Test A/B] Attività?
 feature: Reports
-source-git-commit: 4baa78ac1119e86002c415f09b9481ad351fdcfc
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '1096'
+source-wordcount: '1092'
 ht-degree: 2%
 
 ---
@@ -48,21 +48,21 @@ Qui,
 
 L’intervallo di affidabilità del tasso di conversione è definito in modo intuitivo come intervallo di possibili tassi di conversione coerente con i dati sottostanti.
 
-Durante gli esperimenti, il tasso di conversione per una determinata esperienza è un *stima* del tasso di conversione &quot;vero&quot;. quantificare l&#39;incertezza di questa stima, [!DNL Target] utilizza un intervallo di affidabilità. [!DNL Target] segnala sempre un intervallo di affidabilità del 95%, il che significa che nel lungo periodo il 95% degli intervalli di affidabilità calcolati include il tasso di conversione effettivo dell’esperienza.
+Durante gli esperimenti, il tasso di conversione per una determinata esperienza è un *stima* del tasso di conversione &quot;vero&quot;. quantificare l&#39;incertezza di questa stima, [!DNL Target] utilizza un intervallo di affidabilità. [!DNL Target] segnala sempre un intervallo di affidabilità del 95%, il che significa che alla fine, il 95% degli intervalli di affidabilità calcolati include il tasso di conversione effettivo dell’esperienza.
 
 Un intervallo di affidabilità del 95% del tasso di conversione *μ<sub>ν</sub>* è definito come intervallo di valori:
 
 <p style="text-align:center;"><img width="30%" src="img/confidence_interval.png"></p>
 
-dove l&#39;errore standard per la media è definito come
+Se l&#39;errore standard per la media è definito come
 
 <p style="text-align:center;"><img width="75px" src="img/se_conv_continuous.png"></p>
 
-se si utilizza una stima imparziale della deviazione standard del campione:
+Se si utilizza una stima imparziale della deviazione standard del campione:
 
 <p style="text-align:center;"><img width="200px" src="img/stdev_definition.png"></p>
 
-Tieni presente che quando la campagna è una campagna a tasso di conversione (ad esempio, la metrica di conversione è binaria), l’errore standard si riduce a:
+Quando la campagna è una campagna a tasso di conversione (ad esempio, la metrica di conversione è binaria), l’errore standard si riduce a:
 
 <p style="text-align:center;"><img width="150px" src="img/se_conv.png"></p>
 
@@ -76,7 +76,7 @@ L’incremento tra un’esperienza  *ν* e l&#39;esperienza di controllo *ν<sub
 
 <p style="text-align:center;"><img width="15%" src="img/lift_definition.png"></p>
 
-dove i singoli tassi di conversione sono definiti sopra. Più semplicemente,
+Dove i singoli tassi di conversione sono definiti sopra. Più semplicemente,
 
 ```
 Lift(Experience N) = (Performance_Experience_N - Performance_Control)/ Performance_Control
@@ -86,7 +86,7 @@ Se il tasso di conversione dell’esperienza di controllo *ν<sub>0</sub>* è 0,
 
 ## [!DNL Confidence Interval of Lift]
 
-Il grafico a boxplot nel [!UICONTROL Incremento medio e intervallo di affidabilità] rappresenta il valore medio e il 95% [!UICONTROL Intervallo di affidabilità dell’incremento]. Il grafico a discesa è grigio quando esiste una sovrapposizione nell’intervallo di affidabilità di una determinata esperienza senza controllo con l’intervallo di affidabilità dell’esperienza di controllo ed è verde o rosso quando l’intervallo di affidabilità di una determinata esperienza è superiore o inferiore all’intervallo di affidabilità dell’esperienza di controllo.
+Il grafico a boxplot nel [!UICONTROL Incremento medio e intervallo di affidabilità] rappresenta il valore medio e il 95% [!UICONTROL Intervallo di affidabilità dell’incremento]. Il box plot è grigio quando vi è una sovrapposizione nell’intervallo di affidabilità di una determinata esperienza senza controllo con l’intervallo di affidabilità dell’esperienza di controllo. La boxplot è verde o rosso quando l’intervallo di affidabilità di un’esperienza è superiore o inferiore all’intervallo di affidabilità dell’esperienza di controllo.
 
 Errore standard dell’incremento tra un’esperienza  *ν* e l&#39;esperienza di controllo  *ν<sub>0</sub>* è definito come:
 
@@ -100,7 +100,7 @@ Questo calcolo utilizza il metodo &quot;Delta&quot; e viene descritto [più dett
 
 ## [!UICONTROL Affidabilità]
 
-L’ultima colonna mostra l’affidabilità in un [!DNL Target] rapporto. L&#39;affidabilità di un&#39;esperienza è una probabilità (indicata come percentuale) di ottenere un risultato meno estremo di quello effettivamente osservato, data l&#39;ipotesi null è vera. In termini di valori p, l’affidabilità visualizzata è *1 - p-value*. Intuitivamente, una maggiore affidabilità significa che è meno probabile che l’esperienza di controllo e non di controllo abbia tassi di conversione uguali.
+L’ultima colonna mostra l’affidabilità in un [!DNL Target] rapporto. L&#39;affidabilità di un&#39;esperienza è una probabilità (indicata come percentuale) di ottenere un risultato meno estremo di quello osservato, data l&#39;ipotesi null è vera. In termini di valori p, l’affidabilità visualizzata è *1 - p-value*. Intuitivamente, una maggiore affidabilità significa che è meno probabile che l’esperienza di controllo e non di controllo abbia tassi di conversione uguali.
 
 In [!DNL Target], a due code **Test t di Welch** viene eseguita tra l’esperienza di test e l’esperienza di controllo per verificare se i mezzi di prova e di controllo sono gli stessi. Perché di solito non sappiamo se le dimensioni del campione e le varianze di due gruppi sono le stesse prima di eseguire l&#39;esperimento, e [!DNL Target] consente anche di inviare percentuali di traffico diverse a ogni esperienza, non si presuppone che la varianza per ogni esperienza sia uguale. Così, il test t di Welch è scelto invece del test t di Student.
 
@@ -110,17 +110,17 @@ La *t*-statistica è definita come la differenza dei mezzi di qualsiasi due vari
 
 <p style="text-align:center;"><img width="100px" src="img/t_value.png"></p>
 
-dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono i mezzi *ν*  e *ν<sub>0</sub>* e l&#39;errore standard della differenza tra *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono forniti da:
+Dove *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono i mezzi *ν*  e *ν<sub>0</sub>* e l&#39;errore standard della differenza tra *μ<sub>v</sub>* e *μ<sub>v0</sub>* sono forniti da:
 
 <p style="text-align:center;"><img width="150px" src="img/standard_error_diff.png"></p>
 
-dove *Þ<sup>2</sup><sub>v</sub>* e *Þ<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze *ν*  e *ν<sub>0</sub>* rispettivamente *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono dimensioni del campione per *ν* e *ν<sub>0</sub>* rispettivamente.
+Dove *Þ<sup>2</sup><sub>v</sub>* e *Þ<sup>2</sup><sub>v<sub>0</sub></sub>* sono le varianze di due esperienze *ν*  e *ν<sub>0</sub>* rispettivamente *N<sub>v</sub>* e *N<sub>v<sub>0</sub></sub>* sono dimensioni del campione per *ν* e *ν<sub>0</sub>* rispettivamente.
 
 Per il test t di Welch, il grado di libertà è calcolato come segue:
 
 <p style="text-align:center;"><img width="180px" src="img/degree_of_freedom.png"></p>
 
-e il grado di libertà per *ν*  e *ν<sub>0</sub>* sono definiti come:
+E grado di libertà per *ν*  e *ν<sub>0</sub>* sono definiti come:
 
 <p style="text-align:center;"><img width="100px" src="img/df_v.png"></p>
 

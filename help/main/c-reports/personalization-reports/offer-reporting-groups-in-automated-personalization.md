@@ -4,10 +4,10 @@ description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe
 title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
 workflow-type: tm+mt
-source-wordcount: '446'
-ht-degree: 62%
+source-wordcount: '463'
+ht-degree: 59%
 
 ---
 
@@ -34,16 +34,16 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
 1. Sulla [!UICONTROL Esperienze] pagina di un’attività di Personalizzazione automatizzata, fai clic sul pulsante **[!UICONTROL Gestire il contenuto]** icona.
 
-   ![](/help/main/c-reports/assets/ap_manage_content.png)
+   ![Icona Gestione contenuto](/help/main/c-reports/assets/ap_manage_content.png)
 
 1. Fai clic sulla scheda **[!UICONTROL Offerte]** nella parte superiore della finestra di dialogo [!UICONTROL Gestisci contenuto].
 1. (Facoltativo) Aggiungi esperienze specifiche a un gruppo di reporting passando il mouse sull&#39;offerta desiderata e facendo clic sull&#39;icona della cartella **[!UICONTROL Gruppo di rapporti]**.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_2.png)
+   ![Icona Gruppo di rapporti](/help/main/c-reports/assets/ap_manage_content_2.png)
 
 1. (Facoltativo) Si possono raccogliere le esperienze in gruppo di reporting selezionando la casella di spunta relativa alle esperienze desiderate e facendo clic sull&#39;icona della cartella **[!UICONTROL Gruppo di rapporti]** nell&#39;angolo in alto a destra della finestra di dialogo.
 
-   ![](/help/main/c-reports/assets/ap_manage_content_3.png)
+   ![Icona Gruppo di rapporti](/help/main/c-reports/assets/ap_manage_content_3.png)
 
 1. (Condizionale) Per assegnare l&#39;offerta selezionata a un gruppo di reporting esistente, seleziona **[!UICONTROL Esistente]**, seleziona il gruppo di reporting desiderato dall’elenco a discesa, quindi fai clic su **[!UICONTROL Applica]**.
 
@@ -51,4 +51,4 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
    Per creare un nuovo gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, dai un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Applica]**.
 
-   ![](/help/main/c-reports/assets/ap_reporting_groups.png)
+   ![Nuova icona per creare un nuovo gruppo di rapporti](/help/main/c-reports/assets/ap_reporting_groups.png)
