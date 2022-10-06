@@ -4,7 +4,7 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '615'
 ht-degree: 76%
@@ -24,7 +24,7 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 * **10 ottobre**: area geografica Asia-Pacifico (APAC)
-* **11 ottobre**: area geografica delle Americhe
+* **12 ottobre**: area geografica delle Americhe
 * **13 ottobre**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:

@@ -5,7 +5,7 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7f5b4265adbb0e98b7250f99b0268ba5b70dec7c
+source-git-commit: 36c05ee2531009ea74ef9085404d12e389cef743
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 81%
@@ -23,7 +23,7 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 * **10 ottobre**: area geografica Asia-Pacifico (APAC)
-* **11 ottobre**: area geografica delle Americhe
+* **12 ottobre**: area geografica delle Americhe
 * **13 ottobre**: area geografica Europa, Medio Oriente e Africa (EMEA)
 
 Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
