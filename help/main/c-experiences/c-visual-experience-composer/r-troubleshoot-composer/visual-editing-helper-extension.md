@@ -3,10 +3,10 @@ keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
 description: Scopri perché alcuni siti web potrebbero non essere aperti in modo affidabile nel [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo). La [!UICONTROL Helper per editing video] l’estensione del browser consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo.
 title: Come si utilizzano i [!UICONTROL Helper per editing video] Estensione?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 0c6d2df47a9115bcbd3c0d8a5ea7d401df29d6c8
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '568'
-ht-degree: 27%
+source-wordcount: '595'
+ht-degree: 26%
 
 ---
 
@@ -28,10 +28,10 @@ La [!DNL Adobe Experience Cloud] [!UICONTROL Helper per editing video] l’esten
 
 ## Vantaggi dell&#39;utilizzo [!UICONTROL Helper per editing video] estensione
 
-* Tutte le intestazioni di busting iframe, come `X-Frame-Options` e `Content-Security-Policy`, vengono rimossi implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
+* Tutte le intestazioni non compatibili con iframe, ad esempio `X-Frame-Options` e `Content-Security-Policy`, vengono rimossi implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
 * Se una pagina web non contiene ancora la libreria di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
 
-Tieni presente che utilizzando [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+Utilizzo della [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
 
 * [Riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza [!UICONTROL Compositore esperienza avanzato] (CEE) n.
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
@@ -56,6 +56,8 @@ Tieni presente che utilizzando [Compositore esperienza avanzato](/help/main/admi
 
    * Se si tenta di caricare un sito web utilizzando il Compositore esperienza visivo che non riesce a caricarsi, viene visualizzato un messaggio per suggerirti di installare il [!UICONTROL Helper per editing video] estensione del browser.
    * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo viene visualizzato un messaggio per suggerirti di installare l’estensione.
+* Se provi a utilizzare la nuova estensione e poi torna alla [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesce a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
+
 
 
 

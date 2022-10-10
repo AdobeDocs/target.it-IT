@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: dddca90ac9280b6bab25b7e01d5ced33d1feead5
+source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
 workflow-type: tm+mt
-source-wordcount: '1320'
-ht-degree: 97%
+source-wordcount: '1327'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 10 ottobre | [[!UICONTROL Helper per editing video] estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuovo articolo. |
 | 4 ottobre | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuovo argomento.<br>Le informazioni contenute in questo articolo sostituiscono le *Calcoli di Adobe Target per test A/B* file pdf precedentemente disponibile per il download su questo sito. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.10.1 di [!DNL Target Standard/Premium]. |
 
