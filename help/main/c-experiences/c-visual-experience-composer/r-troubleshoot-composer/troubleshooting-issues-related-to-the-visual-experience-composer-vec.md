@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
-source-wordcount: '804'
-ht-degree: 86%
+source-wordcount: '869'
+ht-degree: 80%
 
 ---
 
@@ -106,7 +106,7 @@ Se né il Compositore esperienza visivo né il Compositore esperienza avanzato f
 
 Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibile caricare le pagine nel Compositore esperienza visivo, anche se il Compositore esperienza avanzato è disattivato.
 
-## La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo) {#section_87B3BEA4B6174CFDA6C9A69A1A051FA1}
+## La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo) {#does-not-load}
 
 * Il browser non è supportato.
 * Il browser sta bloccando una pagina non sicura su un sito sicuro.
@@ -115,7 +115,11 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
 * Hai immesso un URL non valido.
 * Non hai inserito un URL predefinito nella pagina di configurazione dell&#39;account.
 
-Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna at.js sul tuo sito web.
+   Assicurati che questa impostazione sia abilitata, quindi scarica e aggiorna at.js sul tuo sito web.
+
+* Se provi a utilizzare il [nuovo [!UICONTROL Helper per editing video] estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) e poi tornare alla [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesce a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
+
+* Se il sito web non viene caricato nel Compositore esperienza visivo o si comporta in modo imprevisto, è possibile accettare i cookie sul sito web nel browser prima di provare a caricare il sito web in [!DNL Target].
 
 ## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
