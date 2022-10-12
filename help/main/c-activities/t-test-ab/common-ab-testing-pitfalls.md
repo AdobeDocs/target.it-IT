@@ -5,9 +5,9 @@ title: Come posso evitare gli errori comuni relativi ai test A/B?
 feature: A/B Tests
 exl-id: db085819-1a85-4936-bdc9-7501cf9b26ce
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '3898'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -33,7 +33,7 @@ Nel test A/B, gli addetti al marketing utilizzano spesso livelli di affidabilit�
 
 Come illustrato nel grafico riportato di seguito, più test si eseguono, più è probabile che almeno uno di questi test si tradurrà in un falso positivo. Ad esempio, se si eseguono 10 test utilizzando un livello di affidabilità del 95%, vi è circa un 40% di probabilità di rilevare uno o più falsi positivi (dato che non esiste un vero e proprio incremento: Pr (di almeno un falso positivo) = 1 - Pr (di nessun falso positivo) = 1 - 0,95^10 = 40%).
 
-![immagine a cascata1](assets/pitfalls1.png)
+![immagine pitfalls1](assets/pitfalls1.png)
 
 In un&#39;azienda di marketing, 95% di solito costituisce un compromesso ragionevole tra il rischio di un falso positivo e falsi negativi.
 
@@ -59,7 +59,7 @@ Tuttavia, due situazioni garantiscono una particolare attenzione al livello di s
 
 Con il test di offerta multipla, gli addetti al marketing dichiarano spesso l&#39;offerta con il più alto elevatore come il vincitore della prova, anche se non c&#39;è differenza statisticamente significativa fra il vincitore e il secondo classificato. Questa situazione si verifica quando la differenza tra le alternative è minore della differenza tra le alternative e il controllo. La figura seguente illustra questo concetto, con le barre di errore nere che rappresentano gli intervalli di affidabilità del 95% dell&#39;incremento. Il reale incremento per ogni offerta rispetto all&#39;offerta di controllo ha il 95% di probabilità di rientrare nell&#39;intervallo di affidabilità, indicato dalle barre di errore.
 
-![immagine di errore 2](assets/pitfalls2.png)
+![immagine pitfalls2](assets/pitfalls2.png)
 
 Le offerte A e B hanno il più alto incremento osservato durante il test e sarebbe improbabile che l&#39;offerta C risulti migliore di tali offerte in un test futuro, perché l&#39;intervallo di affidabilità di C non coincide nemmeno in parte con gli intervalli di affidabilità di A o B. Tuttavia, anche se l&#39;offerta A ha l&#39;incremento osservato più alto durante il test, è abbastanza probabile che l&#39;offerta B possa dare risultati migliori in un test futuro, perché vi è un’area di sovrapposizione nei rispettivi intervalli di affidabilità.
 
@@ -77,7 +77,7 @@ Esistono due fattori chiave che determinano la potenza di un test. La prima è l
 
 Oggi gli addetti al marketing tendono a condurre molti test con una potenza statistica insufficiente. In altre parole, utilizzano un campione troppo ridotto. Ciò significa che hanno meno probabilità di rilevare dei positivi, anche quando esiste realmente una differenza notevole nel tasso di conversione. In realtà, se esegui continuamente test con potenza ridotta, il numero di falsi positivi può essere paragonabile o addirittura dominare il numero di veri positivi. Questo comporta spesso l&#39;introduzione di cambiamenti neutri a un sito (una perdita di tempo) o addirittura di cambiamenti che riducono i tassi di conversione.
 
-![immagine 3](assets/pitfalls3.png)
+![immagine pitfalls3](assets/pitfalls3.png)
 
 Per evitare di condurre test con potenza statistica insufficiente, considera che uno standard tipico per un test con potenza adeguata include un livello di affidabilità del 95% e una potenza statistica dell&#39;80%. Tale test offre una probabilità del 95% di evitare un falso positivo e un 80% di probabilità di evitare un falso negativo.
 
@@ -109,7 +109,7 @@ Si potrebbe essere tentati di interrompere un test se nei primi giorni del test,
 
 La figura seguente mostra cinque offerte che hanno lo stesso tasso di conversione a lungo termine. L&#39;offerta B ha avuto un tasso di conversione scarso per i primi 2.000 visitatori e ci vuole molto tempo prima che il tasso di conversione stimato corrisponda al reale tasso a lungo termine.
 
-![immagine a cascata4](assets/pitfalls4.png)
+![immagine pitfalls4](assets/pitfalls4.png)
 
 Questo fenomeno è noto come “regressione alla media” e può portare a una delusione quando un&#39;offerta che ha dato buoni risultati nei giorni iniziali di un test non riesce a mantenere tale livello di prestazioni nel lungo periodo. Inoltre, se una buona offerta non viene implementata a causa di risultati inizialmente scarsi ma di natura del tutto casuale, si rischia di perdere opportunità di business.
 
@@ -145,7 +145,7 @@ Tali offerte spingono i visitatori a convertire prima e saranno favorite se il t
 
 La figura seguente mostra due offerte che due visitatori diversi vedono allo stesso tempo in una domenica pomeriggio. Il periodo di considerazione per l&#39;offerta a è breve e il visitatore converte più tardi nello stesso giorno. Tuttavia, l&#39;offerta B ha un periodo di esame più lungo e il visitatore che ha visto offerta B riflette sull&#39;offerta per un po&#39; e finisce per convertire il lunedì mattina. Se si interrompe il test domenica notte, la conversione associata all&#39;offerta A viene conteggiata per offrire una metrica di conversione, mentre la conversione associata all&#39;offerta B non viene conteggiata alla metrica di conversione di B. Ciò mette l&#39;offerta B in uno svantaggio significativo.
 
-![immagine a cascata5](assets/pitfalls5.png)
+![immagine pitfalls5](assets/pitfalls5.png)
 
 Per evitare questa insidia, lascia un certo tempo per i visitatori che sono stati esposti alle offerte di test per la conversione dopo che è stata interrotta una nuova voce nel test. Questo passaggio dà un equo confronto delle offerte.
 
@@ -153,11 +153,11 @@ Per evitare questa insidia, lascia un certo tempo per i visitatori che sono stat
 
 Gli addetti al marketing potrebbero essere tentati di utilizzare metriche di conversione ad alto traffico e a bassa varianza nella canalizzazione superiore, ad esempio il CTR (tasso di click-through), per raggiungere un numero adeguato di conversioni di test più velocemente. Tuttavia, valuta attentamente se il CTR è un proxy adeguato per l&#39;obiettivo di business che desideri raggiungere. Offerte con CTR più alto possono portare facilmente a minori ricavi. Questo può accadere quando le offerte attraggono i visitatori con una propensione più bassa a comprare o quando l&#39;offerta stessa, ad esempio un&#39;offerta di sconto, porta semplicemente a minori ricavi.
 
-![immagine a cascata6](assets/pitfalls6.png)
+![immagine pitfalls6](assets/pitfalls6.png)
 
 Considera l&#39;offerta di sci di seguito. Genera un CTR molto più elevato rispetto all&#39;offerta del ciclismo, ma poiché i visitatori spendono in media molto di più quando seguono l&#39;offerta del ciclismo, il ricavo atteso per un’offerta di ciclismo presentata a un dato visitatore è più alto. Pertanto, un test A/B con metrica CTR potrebbe scegliere un&#39;offerta che non massimizza i ricavi, che rappresentano la finalità aziendale fondamentale.
 
-![immagine di insights7](assets/pitfalls7.png)
+![immagine pitfalls7](assets/pitfalls7.png)
 
 Per evitare questo problema, monitora con attenzione le metriche aziendali per identificare l&#39;impatto commerciale delle offerte o, meglio ancora, utilizza se possibile una metrica più vicina all&#39;obiettivo aziendale.
 
