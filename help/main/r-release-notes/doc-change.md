@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
 workflow-type: tm+mt
 source-wordcount: '1348'
-ht-degree: 95%
+ht-degree: 98%
 
 ---
 
@@ -19,16 +19,16 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 10 ottobre | [[!UICONTROL Helper per editing video] estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuovo articolo. |
+| 10 ottobre | Estensione [[!UICONTROL Helper per editing video]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuovo articolo. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | È stato aggiornato &quot;[La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot; sezione. |
-| 4 ottobre | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuovo argomento.<br>Le informazioni contenute in questo articolo sostituiscono le *Calcoli di Adobe Target per test A/B* file pdf precedentemente disponibile per il download su questo sito. |
+| 4 ottobre | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuovo argomento.<br>Le informazioni contenute in questo articolo sostituiscono il file pdf dei *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.10.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.9.1 (rilascio scaglionato dal 13 al 15 settembre 2022)
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 3 ottobre | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Aggiornate le date per la [!DNL Target Standard/Premium] Versione 22.10.1. |
+| 3 ottobre | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Aggiornate le date per la versione 22.10.1 di [!DNL Target Standard/Premium]. |
 | 22 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (28 settembre 2022)</li></ul> |
 | 15 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
 | 13 settembre | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un feed [!DNL Recommendations] non riesce. |
@@ -99,7 +99,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.3.1 di [!DNL Target Standard/Premium]. |
 | 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione [!DNL Target Standard/Premium] con correzioni tecniche. |
 | 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
-|  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Updates are synced with the profile store every 5-10 minutes.” (Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti). |
+|  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti.” |
 | 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
