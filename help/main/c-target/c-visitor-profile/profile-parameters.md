@@ -5,9 +5,9 @@ title: Cosa sono gli attributi del profilo?
 feature: Audiences
 exl-id: 6c689629-bbd3-461e-9a68-5b16d4eb4250
 source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2457'
-ht-degree: 99%
+ht-degree: 100%
 
 ---
 
@@ -91,7 +91,7 @@ La scheda [!UICONTROL Info script] contiene le seguenti informazioni: nome, desc
 
 ![Scheda di informazioni Script di profilo](assets/profile_script_info_card.png)
 
-Fai clic su **[!UICONTROL View full details]** (Visualizza dettagli completi) per visualizzare i tipi di pubblico e le attività che si riferiscono allo script di profilo selezionato.
+Fai clic su **[!UICONTROL Visualizza dettagli completi]** per visualizzare i tipi di pubblico e le attività che si riferiscono allo script di profilo selezionato.
 
 ![Scheda di informazioni Script di profilo > scheda Utilizzo script](assets/profile_script_info_card_usage_tab.png)
 
@@ -109,11 +109,11 @@ Fai clic su **[!UICONTROL View full details]** (Visualizza dettagli completi) pe
 
 Quando uno script di profilo è disabilitato, viene contrassegnato da un’icona gialla di avviso nell’interfaccia utente di Target, come illustrato di seguito:
 
-![profile_script_immagine non valida](assets/profile_script_invalid.png)
+![immagine profile_script _invalid](assets/profile_script_invalid.png)
 
 Al passaggio del mouse puoi visualizzare dettagli sugli errori, come illustrato di seguito:
 
-![profile_script_hover image](assets/profile_script_hover.png)
+![immagine profile_script_hover](assets/profile_script_hover.png)
 
 Il sistema disabilita gli script di profilo in alcune circostanze. I motivi più frequenti sono:
 
@@ -165,7 +165,7 @@ Per eseguire il debug degli script di profilo possono essere utilizzati i seguen
 
 * **Utilizza lo strumento di debug mboxTrace per eseguire il debug degli script di profilo.**
 
-   Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Generate Authorization Token]** (Genera token di autorizzazione) nella sezione [!UICONTROL Strumenti di debug].
+   Questo metodo richiede un token di autorizzazione che può essere generato facendo clic su **[!UICONTROL Target]** > **[!UICONTROL Amministrazione]** > **[!UICONTROL Implementazione]** > **[!UICONTROL Genera token di autorizzazione]** nella sezione [!UICONTROL Strumenti di debug].
 
    Quindi aggiungi questi due parametri all’URL della tua pagina dopo il “?”: `mboxTrace=window&authorization=YOURTOKEN`.
 
