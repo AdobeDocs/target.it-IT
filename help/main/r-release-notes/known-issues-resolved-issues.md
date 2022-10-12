@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: ed05b32e6da730e5b42b387bbe84e75abd4087c4
-workflow-type: ht
-source-wordcount: '4593'
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+workflow-type: tm+mt
+source-wordcount: '4528'
 ht-degree: 100%
 
 ---
@@ -98,12 +98,6 @@ Quando una metrica di successo è impostata per essere incrementata a ogni impre
 Quando utilizzi le impression e le conversioni dell’attività Target in Analysis Workspace, applica il modello di Attribution IQ “Same Touch” (Stesso contatto) alle metriche per garantire un conteggio accurato. Per applicare un [modello di attribuzione non predefinito](https://experienceleague.adobe.com/docs/analytics/analyze/analysis-workspace/build-workspace-project/column-row-settings/column-settings.html?lang=it), fai clic con il pulsante destro del mouse sulla metrica per **modificare le impostazioni delle colonne > abilitare Usa modello di attribuzione non predefinito > seleziona Stesso modello di contatto**. Senza l’applicazione di questo modello, le metriche vengono sovrascritte.
 
 Tutti i pacchetti Analytics correnti possono aggiungere questo modello con Attribution IQ. Se non hai accesso ad Attribution IQ, utilizza i dati A4T in Reports &amp; Analytics.
-
-### Generazione rapporti: dati non coerenti nel rapporto .csv scaricabile rispetto al rapporto visualizzato nell’interfaccia utente di [!DNL Target] {#csv}
-
-I rapporti generati per il download come file .csv non sono coerenti se l’attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata.
-
-L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia utente [!DNL Target].
 
 ## Problemi risolti {#section_FD2FC86E7C734D60B1EDC9DEF60E1014}
 

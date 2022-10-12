@@ -4,10 +4,10 @@ description: Scopri come scaricare dati da Adobe [!DNL Target] attività in form
 title: Come Posso Scaricare I Dati Dei Rapporti In Un File CSV?
 feature: Reports
 exl-id: b4387184-8730-4367-8bc3-52d8fbe2583e
-source-git-commit: abbb81f2c9d5503c72eb427e7ae20a560b1daf95
+source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
 workflow-type: tm+mt
-source-wordcount: '685'
-ht-degree: 82%
+source-wordcount: '727'
+ht-degree: 54%
 
 ---
 
@@ -29,9 +29,9 @@ Per scaricare i dati in un file CSV:
 
    ![Opzioni di download](/help/main/c-reports/assets/download-options.png)
 
-## Esportare un rapporto in formato CSV {#section_38BD9743EB254453B5F4A0A6F2720CD3}
+## [!UICONTROL Esportare un rapporto in formato CSV] {#section_38BD9743EB254453B5F4A0A6F2720CD3}
 
-Il rapporto Metriche di successo mostra informazioni sulle metriche di successo, nonché le metriche seguenti che non sono disponibili nell’interfaccia utente di Target:
+La [!UICONTROL Metriche di successo] il rapporto mostra informazioni sulle metriche di successo e le metriche seguenti che non sono disponibili nel [!DNL Target] Interfaccia utente:
 
 * Tempo di conversione medio in ore, per vedere quanto tempo ci vuole in media affinché un visitatore raggiunga il punto di conversione
 * Somma dei ricavi al quadrato, per calcoli di affidabilità statistica offline
@@ -40,24 +40,24 @@ I dati vengono salvati fino alla fine dell’attività.
 
 >[!NOTE]
 >
->Il rapporto CSV include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B. Per calcolare queste metriche calcolate, scarica il [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività o per rivedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
+>Il rapporto CSV include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B. Per calcolare queste metriche calcolate, scarica la [!DNL Target] [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività o per rivedere [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md).
 
-## Esportare i dettagli ordine in CSV {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
+## [!UICONTROL Esportare i dettagli ordine in CSV] {#section_96B3F578F91F4CA3AFE38BACA2A0F11E}
 
-Il rapporto Dettagli ordine mostra informazioni sugli ordini, tra cui:
+La [!UICONTROL Dettagli ordine] il rapporto mostra informazioni sugli ordini, tra cui:
 
 * Data e ora dell’ordine
 * Importo dell’ordine (se è stato inserito una mbox Inserisci ordine)
 
-   Il rapporto Dettagli ordine funziona solo se si dispone di ordini.
+   La [!UICONTROL Dettagli ordine] il rapporto funziona solo se si dispone di ordini.
 
 * Flag ordine (per ordini duplicati o estremi)
 
-   Un ordine viene contrassegnato come estremo se è superiore a +/-3 deviazioni standard dal valore medio degli ordini in base all’ultimo mese di dati (fino al momento in cui è stato effettuato il calcolo). Da un’attività verranno esclusi gli ordini estremi dopo che sarà stata eseguita per un’ora o dopo 15 ordini, a seconda di quale evento si verifica per primo. Per ulteriori informazioni, consulta [Esclusione di ordini estremi](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
+   Un ordine viene contrassegnato come estremo se è superiore a +/- 3 deviazioni standard dal valore medio dell&#39;ordine. Questo calcolo utilizza l’ultimo mese di dati (fino al momento in cui è stato effettuato il calcolo). Da un’attività verranno esclusi gli ordini estremi dopo che sarà stata eseguita per un’ora o dopo 15 ordini, a seconda di quale evento si verifica per primo. Per ulteriori informazioni, consulta [Esclusione di ordini estremi](/help/main/c-reports/c-report-settings/excluding-extreme-orders.md#task_2AE7743FFCDD466DAEEB720BE5F33DAA).
 
 * ID prodotto
 
-   La lunghezza totale degli ID prodotto, concatenati con virgole, non deve superare i 255 caratteri; in caso contrario gli ID non verranno visualizzati correttamente nel rapporto. Ad esempio, se l’ordine ha prodotti con ID “aa, bb”, la lunghezza totale è “aa, bb” = 5.
+   La lunghezza totale degli ID prodotto, concatenati con virgole, non deve superare i 255 caratteri oppure gli ID non vengono visualizzati correttamente nel rapporto. Ad esempio, se l’ordine ha prodotti con ID “aa, bb”, la lunghezza totale è “aa, bb” = 5.
 
 * Esperienza
 
@@ -70,20 +70,21 @@ Il rapporto Dettagli ordine mostra informazioni sugli ordini, tra cui:
 >[!NOTE]
 >
 >* I dati del rapporto di ordine includono quattro settimane di dati per l’ambiente predefinito (gruppo host) e due settimane per tutti gli ambienti non predefiniti.
->* Nelle metriche dei ricavi impostate su “Incrementa il conteggio e mantieni utente attivo” vengono riportati i dettagli solo per il primo ordine effettuato dallo stesso visitatore. Tutti gli ordini successivi aumentano il conteggio delle conversioni, ma non il valore di Ricavo per visita, Valore medio dell’ordine e Vendite, e non verranno inclusi nel rapporto Dettagli ordine.
+>* Metriche dei ricavi impostate su &quot;[!UICONTROL Incrementa il conteggio e mantieni l’utente nell’attività]&quot; dettagli dell&#39;ordine di registro solo per il primo ordine effettuato dallo stesso visitatore. Tutti gli ordini successivi aumentano il conteggio delle conversioni, ma non aggiungono ricavi a RPV/AOV/Vendite, e non sono inclusi nel [!UICONTROL Dettagli ordine] rapporto.
 
 
 ## Best practice
 
-* Per registrare un record dell’ordine, è necessario trasmettere il parametro `orderTotal`.
+* Per registrare un record dell&#39;ordine, il `orderTotal` deve essere trasmesso.
 * I valori trasmessi tramite il parametro mbox `ProductPurchasedId` sono elencati nel rapporto Dettagli ordine.
-* Si consiglia di includere sia un `orderID` sia un valore `orderTotal`. Questo consente di ignorare automaticamente eventuali ordini duplicati.
+* Si consiglia di includere un `orderID` e `orderTotal`. Questo consente di ignorare automaticamente eventuali ordini duplicati.
 
 ## Avvertenze  {#section_49B9590904A645B18E694B4EFFFC1DEF}
 
-Le informazioni seguenti si applicano all’opzione Scarica:
+Le seguenti informazioni si applicano al [!UICONTROL Scarica] opzione:
 
-* Puoi scaricare entrambi i rapporti per attività Test A/B, Automated Personalization, Targeting esperienza e multivariato. Non è possibile scaricare il rapporto Metriche di successo per le attività Consigli.
-* L’opzione Scarica non è disponibile per le attività Test A/B e Targeting esperienza create con una versione di Target precedente alla versione 15.7.1 (luglio 2015).
+* È possibile scaricare entrambi i rapporti per [!UICONTROL Test A/B], [!UICONTROL Automated Personalization], [!UICONTROL Targeting esperienza]e [!UICONTROL Multivariato] attività. Non è possibile scaricare [!UICONTROL Metriche di successo] rapporto [!UICONTROL Recommendations] attività.
+* La [!UICONTROL Scarica] opzione non disponibile per [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] attività create prima [!DNL Target] versione 15.7.1 (luglio 2015).
 * Le esperienze a cui non sono associati dati non vengono registrate nel rapporto scaricato.
-* I tipi di pubblico applicati nell’interfaccia utente di Target per la generazione di rapporti non vengono trasferiti al rapporto scaricato.
+* Tipi di pubblico applicati nel [!DNL Target] l’interfaccia utente per la generazione di rapporti non viene trasferita al rapporto di download.
+* I rapporti generati per il download come file .csv non sono coerenti se l’attività utilizza più di una metrica. Il rapporto scaricabile viene generato solo in base alle impostazioni del rapporto e considera lo stesso valore per qualsiasi altra metrica utilizzata. L’origine di riferimento è sempre il rapporto visualizzato nell’interfaccia utente [!DNL Target].
