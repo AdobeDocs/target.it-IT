@@ -4,9 +4,9 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: fc1dcc2b6de1248c35191c1ecd7b36aeb891fd3f
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '4528'
+source-wordcount: '4326'
 ht-degree: 100%
 
 ---
@@ -23,21 +23,9 @@ Informazioni sui problemi noti per [!DNL Adobe Target]. Include inoltre informaz
 
 Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
-### Il Compositore esperienza avanzato non supporta le richieste PUT.
-
-Attualmente, un problema con il Compositore esperienza avanzato impedisce il supporto delle richieste PUT e causa un errore di timeout 504. (TGT-41493)
-
-### I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti].
-
-I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti] per le attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). (TOP-3813)
-
 ### L&#39;archiviazione di attività di [!UICONTROL Auto-Target] (Targeting automatico) potrebbe causare problemi di sincronizzazione
 
 Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
-
-### Offerte di reindirizzamento {#redirect}
-
-* Alcune attività di reindirizzamento nelle implementazioni at.js possono generare la ripetizione ciclica dell’URL di anteprima (l’offerta viene consegnata ripetutamente). Utilizza la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) invece di eseguire anteprima e controllo qualità. Questo problema non ha alcun impatto sull’effettiva consegna dell’offerta. (TGT-23019)
 
 ### Annullare il caricamento di una pagina nel Compositore esperienza visivo (VEC) {#cancel}
 
@@ -86,12 +74,6 @@ Di seguito sono riportati problemi noti relativi a at.js:
 * at.js potrebbe non funzionare con le app Cordova/Hybrid perché non supportano i cookie di prima parte. (TNT-26166)
 
    **Soluzione alternativa**: configura at.js con l’opzione “Solo x” attivata e passa `mboxThirdPartyId` nelle chiamate per la gestione degli utenti.
-
-### Metriche di successo
-
-Le metriche di successo con l’opzione avanzata “Come verrà incrementato il conteggio?” impostata su “a ogni impression” o “a ogni impression (esclusi aggiornamenti pagina)” non possono essere utilizzate come metriche di successo da cui dipende un’altra metrica.
-
-Quando una metrica di successo è impostata per essere incrementata a ogni impression, Target conta il visitatore ogni volta che visita questa metrica di successo. Quindi, Target reimposta su 0 la metrica di successo “Appartenenza” in modo da contare di nuovo l’impression successiva. Pertanto, se un’altra metrica richiede che questa metrica sia stata vista per prima, Target non è in grado di capire se l’utente ha visto la prima metrica.
 
 ### Analytics for [!DNL Target] (A4T)
 

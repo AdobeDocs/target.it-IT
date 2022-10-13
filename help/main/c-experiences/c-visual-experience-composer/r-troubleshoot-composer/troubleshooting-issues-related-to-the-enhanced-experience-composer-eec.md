@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza avanzato?
 feature: Visual Experience Composer (VEC)
 exl-id: 7dea7707-5d9f-49c4-9ccd-618eeb7b3568
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '469'
-ht-degree: 40%
+source-wordcount: '490'
+ht-degree: 43%
 
 ---
 
@@ -71,3 +71,7 @@ Per controllare la versione TLS sul tuo sito web con Firefox (altri browser hann
 ## Ricevo errori di timeout o “accesso negato” durante il caricamento di siti con proxy abilitato. (Solo Compositore esperienza avanzato) {#section_60CBB9022DC449F593606C0E6252302D}
 
 Assicurati che nel tuo ambiente gli IP proxy non siano bloccati.
+
+## Problemi noti
+
+* Attualmente, un problema con il Compositore esperienza avanzato impedisce il supporto delle richieste PUT e causa un errore di timeout 504. (TGT-41493)

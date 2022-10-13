@@ -4,9 +4,9 @@ description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapport
 title: Qual è il rapporto Attributi importanti?
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: b0bf54d47ac44afc3597f308ea38fd479c54026d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1776'
 ht-degree: 80%
 
 ---
@@ -148,3 +148,9 @@ Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esper
 * Scopri gli attributi cruciali per l&#39;apprendimento del modello.
 * Scopri gli attributi utilizzati nei modelli di personalizzazione e la loro importanza.
 * Individua le opportunità per ulteriori punti di dati da trasmettere a Target per informare ulteriormente la tua personalizzazione.
+
+## Problemi noti
+
+Il seguente problema è attualmente oggetto di indagine da parte della [!DNL Target] squadra di ingegneria.
+
+* I nomi dei segmenti [!DNL Adobe Experience Platform] non vengono visualizzati nel rapporto [!UICONTROL Attributi importanti] per le attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Auto-Target] (AT). (TOP-3813)
