@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 6071d3d73038e9d23eff3e4fb4a5418b231ae23a
+source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
 workflow-type: tm+mt
-source-wordcount: '1894'
-ht-degree: 100%
+source-wordcount: '1927'
+ht-degree: 97%
 
 ---
 
@@ -21,9 +21,23 @@ Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant ded
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break
+
+Drew Burns, Group Product Marketing Manager per [!DNL Adobe Target], risponderà al tuo [!DNL Target] domande relative all’ultimo annuncio entusiasmante sulle funzioni di intelligenza e controllo dell’intelligenza artificiale recentemente migliorate, nonché su tutte le funzioni di personalizzazione dell’intelligenza artificiale.
+
+* **Mercoledì 26 ottobre**
+* **dalle 18:00 alle 19:00 (CET)**
+* **[Informazioni sulla registrazione](https://adobe.ly/3e6gqHe){target=_blank}**
+
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
+
+Nessuno pianificato a quest&#39;ora.
+
+## Registrazioni di sessioni Skill Builder e webinar passati
+
+Accedere alle registrazioni di eventi passati (se disponibili):
 
 ### Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)
 
@@ -31,38 +45,26 @@ Ti preghiamo dii unirti a noi per questo webinar speciale sull&#39;annuncio del 
 
 Siamo entusiasti di condividere alcune notizie &quot;molto grandi&quot; in termini di personalizzazione su larga scala con [!DNL Adobe Target]: nuovi filtri e informazioni che miglioreranno la capacità degli utenti [!DNL Target] di mettere a punto le attività di personalizzazione basate sull’intelligenza artificiale per avere un impatto diretto sulle metriche aziendali più importanti in base alle singole attività.
 
-+++Dettagli
+* [Collegamento di registrazione](https://video.tv.adobe.com/v/3410117){target=_blank}
 
-Questo nuovo annuncio di prodotto è tempestivo e ipercritico, in quanto, negli ultimi anni, abbiamo visto la necessità di un aumento della personalizzazione, indipendentemente dal settore. È diventato un modo per le aziende di differenziarsi in modo critico dalla concorrenza in tutto il percorso del cliente. La personalizzazione può essere molto efficace &quot;ovunque&quot; a partire dal primo contatto di un visitatore, sfruttando i dati di base per i casi di utilizzo di acquisizione, fino ai casi di utilizzo del servizio clienti e dei casi di fidelizzazione.
+   +++Dettagli
 
-In questa sessione, scopri come è possibile sovrascrivere l’incremento della conversione sfruttando le nuove funzioni di [!DNL Adobe Target] mentre parliamo di:
+   Questo nuovo annuncio di prodotto è tempestivo e ipercritico, in quanto, negli ultimi anni, abbiamo visto la necessità di un aumento della personalizzazione, indipendentemente dal settore. È diventato un modo per le aziende di differenziarsi in modo critico dalla concorrenza in tutto il percorso del cliente. La personalizzazione può essere molto efficace &quot;ovunque&quot; a partire dal primo contatto di un visitatore, sfruttando i dati di base per i casi di utilizzo di acquisizione, fino ai casi di utilizzo del servizio clienti e dei casi di fidelizzazione.
 
-* Controlli del modello migliorati all&#39;interno delle attività di [!UICONTROL Automated Personalization] e [!UICONTROL Targeting Automatico]
-* Sblocco della possibilità di valutare gli attributi del profilo e i segmenti di alto valore da [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
-* Come i brand possono offrire velocità e decisioni più veloci ottimizzando i loro algoritmi basati sull’intelligenza artificiale
-* Casi d’uso specifici per la distribuzione di personalizzazione da 1 a 1
+   In questa sessione, scopri come è possibile sovrascrivere l’incremento della conversione sfruttando le nuove funzioni di [!DNL Adobe Target] mentre parliamo di:
 
-* **Martedì 11 ottobre 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://fine-tuning-ai-powered-personalization-in-adobe-target.dxfieldmarketing.adobeevents.com/){target=_blank}**
+   * Controlli del modello migliorati all&#39;interno delle attività di [!UICONTROL Automated Personalization] e [!UICONTROL Targeting Automatico]
+   * Sblocco della possibilità di valutare gli attributi del profilo e i segmenti di alto valore da [!DNL Adobe]s [!DNL Real-Time Customer Data Platform]
+   * Come i brand possono offrire velocità e decisioni più veloci ottimizzando i loro algoritmi basati sull’intelligenza artificiale
+   * Casi d’uso specifici per la distribuzione di personalizzazione da 1 a 1
 
 +++
-
-## Registrazioni di sessioni Skill Builder e webinar passati
-
-Accedere alle registrazioni di eventi passati (se disponibili):
 
 ### [!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)
 
 L’automazione nella sperimentazione e nella personalizzazione continua a stimolare le conversioni e il Ritorno sull’investimento (ROI) più elevati per i team di addetti al marketing, tecnici e di prodotto. Partecipa alla sessione Skill Builders [!DNL Adobe] e scopri come utilizzare [!DNL Adobe Target] casi d’uso e funzionalità avanzati basati sull’intelligenza artificiale con consigli sui prodotti e contenuti per restare all’avanguardia rispetto alla concorrenza e guadagnare su ogni esperienza.
 
-+++Dettagli
-
-* **Giovedì 15 settembre 2022**
-* **19:00 - 20:00 (CET)**
-* **[Ulteriori informazioni e registrazione](https://adobe-target-skill-builders-expedition-series.dxfieldmarketing.adobeevents.com/){target=_blank}**
-
-+++
+* [Collegamento di registrazione](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)
 
