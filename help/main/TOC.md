@@ -3,10 +3,10 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: afb2e988aebb1aa1795bf79cae100350af501952
+source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
 workflow-type: tm+mt
-source-wordcount: '1217'
-ht-degree: 97%
+source-wordcount: '1214'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,6 @@ ht-degree: 97%
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
    + [Note sulla versione di Target (prerelease)](r-release-notes/target-release-notes.md)
    + [Panoramica della documentazione di Target](/help/main/r-release-notes/target-documentation.md)
-   + [Newsletter Target Insider](/help/main/r-release-notes/target-insider-newsletter.md)
    + [Problemi noti e problemi risolti](r-release-notes/known-issues-resolved-issues.md)
    + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
    + [Modifiche alla documentazione](r-release-notes/doc-change.md)
@@ -234,7 +233,7 @@ ht-degree: 97%
          + [Risoluzione dei problemi relativi al Compositore esperienza avanzato](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-enhanced-experience-composer-eec.md)
          + [Consentire contenuto misto nel browser](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md)
          + [Scenari di modifica delle pagine](c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md)
-         + [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
+         + [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md)
          + [Estensione Helper per Compositore esperienze visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md)
       + [Reindirizzamento a un URL](c-experiences/c-visual-experience-composer/redirect-offer.md)
       + [Creazione di caroselli di immagini adatti al Compositore esperienza visivo](c-experiences/c-visual-experience-composer/vec-carousels.md)
