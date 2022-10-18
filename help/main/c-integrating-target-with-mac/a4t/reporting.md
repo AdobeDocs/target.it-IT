@@ -4,10 +4,10 @@ description: Scopri come utilizzare Analytics per [!DNL Target] (A4T). A4T conse
 title: Come si utilizza il reporting in A4T?
 feature: Analytics for Target (A4T)
 exl-id: cab5dc5f-166a-468e-8382-ae734684afdd
-source-git-commit: 493ecd762b5228d33377ac8263b90a0f9c73127e
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1300'
-ht-degree: 47%
+source-wordcount: '1312'
+ht-degree: 45%
 
 ---
 
@@ -77,7 +77,7 @@ Durante la creazione di attività, devi specificare un obiettivo per l’attivit
 
 ## Esecuzione di calcoli offline per Analytics for Adobe Target (A4T) {#section_B34BD016C8274C97AC9564F426B9607E}
 
-Puoi eseguire calcoli offline per A4T, ma è necessario un ulteriore passaggio di esportazione dei dati di [!DNL Analytics].
+Puoi eseguire calcoli offline per gli intervalli di affidabilità e affidabilità per A4T utilizzando [!DNL Target] [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel, ma richiede un passaggio con esportazioni di dati in [!DNL Analytics].
 
 Per A4T utilizziamo un [Test t di Welch](https://en.wikipedia.org/wiki/Welch%27s_t-test)Calcolo di {target=_blank} per le variabili continue (anziché metriche binarie). In Analytics, un visitatore viene sempre tracciato e ogni azione intrapresa viene conteggiata. Pertanto, se il visitatore effettua più acquisti o visita una metrica di successo più volte, tali hit aggiuntivi vengono conteggiati. Questo rende la metrica una variabile continua. Per eseguire il calcolo della prova t del Welch, è necessaria la &quot;somma dei quadrati&quot; per calcolare la varianza, che viene utilizzata nel denominatore della statistica t. [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) spiega i dettagli delle formule matematiche utilizzate. La somma dei quadrati può essere recuperata da [!DNL Analytics]. Per ottenere la somma dei quadrati è necessario eseguire un’esportazione a livello del visitatore per la metrica che desideri ottimizzare, per un periodo di tempo campione.
 

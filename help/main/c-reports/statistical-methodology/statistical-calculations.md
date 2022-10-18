@@ -3,10 +3,10 @@ keywords: rapporti;metodologia statistica;calcoli statistici;statistiche;media;t
 description: Informazioni sui calcoli statistici utilizzati nel manuale [!UICONTROL Test A/B] attività [!DNL Adobe Target].
 title: Come posso imparare i calcoli statistici utilizzati in [!UICONTROL Test A/B] Attività?
 feature: Reports
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1092'
-ht-degree: 2%
+source-wordcount: '1091'
+ht-degree: 5%
 
 ---
 
@@ -16,7 +16,7 @@ Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A
 
 >[!NOTE]
 >
->Le informazioni contenute in questo articolo sostituiscono le *Calcoli di Adobe Target per test A/B* file pdf precedentemente disponibile per il download su questo sito.
+>Le informazioni contenute in questo articolo sostituiscono il file pdf dei *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito.
 
 ![Rapporto di Target che mostra [!UICONTROL Tasso di conversione], [!UICONTROL Incremento medio e intervallo di affidabilità]e [!UICONTROL Affidabilità] di un’attività Test A/B.](/help/main/c-reports/statistical-methodology/img/target_report.png)
 
@@ -138,4 +138,4 @@ Infine, il clima di fiducia [!DNL Target] è definito come:
 
 Il [rapporto CSV scaricato](/help/main/c-reports/c-report-settings/downloading-data-in-csv-file.md) include solo dati non elaborati; non include metriche calcolate come ricavi per visitatore, incremento o affidabilità, utilizzate per i test A/B.
 
-Per calcolare queste quantità statistiche, scarica il [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività.
+Per calcolare queste quantità statistiche, scarica il [!DNL Target] [Calcolatore di affidabilità completo](/help/main/assets/complete_confidence_calculator.xlsx) File Excel per inserire il valore dell&#39;attività.

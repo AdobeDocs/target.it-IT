@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1363'
-ht-degree: 97%
+source-wordcount: '1458'
+ht-degree: 91%
 
 ---
 
@@ -19,6 +19,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 18 ottobre | [[!UICONTROL Creare un’attività di Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | È stato aggiornato il testo per indicare che, sebbene sia possibile creare fino a 30.000 esperienze in un test di Personalizzazione automatizzata, l’algoritmo fornisce migliori prestazioni quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato il [!UICONTROL Duplicati di visualizzazione] opzione . |
+|  | [Domande frequenti su Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | È stato aggiornato il testo per indicare che, sebbene sia possibile creare fino a 30.000 esperienze in un test di Personalizzazione automatizzata, l’algoritmo fornisce migliori prestazioni quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato il [!UICONTROL Duplicati di visualizzazione] opzione . |
 | 14 ottobre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione [!DNL Adobe Target] Interruzione di caffè Q&amp;A nella community (26 ottobre 2022). |
 | 10 ottobre | Estensione [[!UICONTROL Helper per editing video]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuovo articolo. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | È stato aggiornato &quot;[La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)&quot; sezione. |

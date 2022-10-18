@@ -4,10 +4,10 @@ description: Esplora un elenco delle domande frequenti e delle risposte sulle at
 title: Come posso trovare le domande frequenti sulle attività di Automated Personalization?
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
 workflow-type: tm+mt
-source-wordcount: '1990'
-ht-degree: 88%
+source-wordcount: '2004'
+ht-degree: 76%
 
 ---
 
@@ -25,7 +25,7 @@ Per ulteriori informazioni, consulta [Utilizzare un’esperienza specifica come 
 
 ## Come posso confrontare la Personalizzazione automatizzata con un’esperienza predefinita? {#section_46C1A620A2384C2C8392D6716DD18495}
 
-Non esiste un’opzione diretta per confrontare la Personalizzazione automatizzata con un’esperienza predefinita. Tuttavia, per ovviare al problema, se un’offerta o un’esperienza predefinita esiste come parte dell’attività complessiva, per comprenderne le prestazioni di base puoi fare clic sul segmento “Controllo” nei rapporti e individuare l’offerta specifica nel rapporto risultante a livello di offerta. Il tasso di conversione registrato per questa offerta può essere confrontato con il tasso di conversione dell’intero segmento “Foresta casuale”. Questo permette di confrontare le prestazioni della macchina rispetto all’offerta predefinita.
+Non esiste un’opzione diretta per confrontare la Personalizzazione automatizzata con un’esperienza predefinita. Tuttavia, come soluzione alternativa, se un’offerta o un’esperienza predefinita esiste come parte dell’attività complessiva, per comprenderne le prestazioni di base puoi fare clic sul segmento &quot;Controllo&quot; nei rapporti e individuare tale offerta particolare nel rapporto risultante a livello di offerta. Il tasso di conversione registrato per questa offerta può essere utilizzato per confrontare con il tasso di conversazione dell’intero segmento &quot;Foresta casuale&quot;. Questo permette di confrontare le prestazioni della macchina rispetto all’offerta predefinita.
 
 ## Quali sono le best practice per impostare un’attività di Personalizzazione automatizzata? {#section_E155B26282BE49B58EA2683413D11DE6}
 
@@ -39,8 +39,8 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
 
    Esistono tre scenari da considerare in base all’obiettivo dell’attività e al tipo di controllo selezionato:
 
-   * **Controllo: esperienze casuali; obiettivo dell’attività: testare l’efficacia dell’algoritmo di personalizzazione**: se l’obiettivo è quello di valutare l’algoritmo di personalizzazione, è necessaria un’immagine più precisa dell’incremento. Inoltre, vorrai probabilmente un confronto con il tasso di conversione per esperienze/offerte rispetto a un semplice test A/B (controllo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
-   * **Controllo: esperienze casuali; obiettivo dell’attività: massimizzare il traffico personalizzato**: se l’algoritmo va bene e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. In questo caso tuttavia le informazioni sull’incremento saranno meno precise, dato che gli intervalli di affidabilità del traffico di controllo saranno maggiori a causa del minor traffico veicolato verso le esperienze di controllo.
+   * **Controllo: esperienze casuali; obiettivo dell’attività: testare l’efficacia dell’algoritmo di personalizzazione**: Se l’obiettivo è quello di valutare l’algoritmo di personalizzazione, allora avrai bisogno di avere un’immagine più precisa dell’incremento. Inoltre, vorrai probabilmente un confronto con il tasso di conversione per esperienze/offerte rispetto a un semplice test A/B (controllo casuale). In tal caso, si consiglia di utilizzare un’allocazione del 50% a un controllo composto da esperienze distribuite in modo casuale.
+   * **Controllo: esperienze casuali e obiettivo dell’attività: massimizzare il traffico personalizzato**: Se l’algoritmo è a tuo agio e desideri che la quantità massima di traffico sia personalizzata, si consiglia di allocare al controllo dal 10% al 30% del traffico. Il compromesso è la precisione che sarà possibile vedere nelle informazioni sull’incremento (in quanto gli intervalli di affidabilità del traffico di controllo saranno più ampi perché vi è meno traffico verso di loro).
    * **Controllo: esperienza specifica; entrambi i tipi di obiettivo**: se desideri confrontare con i modelli di personalizzazione un’esperienza specifica definita dagli esperti di marketing, si consiglia di allocare al controllo dal 10% al 30% del traffico. Quando selezioni una sola esperienza come controllo, tale traffico non viene distribuito su ogni offerta/esperienza nell’attività.
 
 * Le regole di targeting devono essere utilizzate con la massima parsimonia possibile perché possono interferire con la capacità di ottimizzazione del modello.
@@ -56,7 +56,9 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL 
 
 ### Quali sono alcuni dei limiti della Personalizzazione automatizzata? {#section_08BA09ED51B547299963C94FE6417CFA}
 
-Target supporta fino a 30.000 esperienze, ma funziona al meglio quando sono create meno di 10.000 esperienze.
+[!DNL Target] supporta fino a 30.000 esperienze, ma funziona al meglio quando sono create meno di 10.000 esperienze.
+
+Lo stesso limite viene applicato anche quando l’attività ha abilitato il [!UICONTROL Duplicati di visualizzazione] opzione .
 
 ### Come viene implementato il targeting a livello di offerta? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 
