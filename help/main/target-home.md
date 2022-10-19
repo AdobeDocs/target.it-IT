@@ -17,7 +17,7 @@ ht-degree: 100%
 
 [!DNL Adobe Target] è la soluzione di [!DNL Adobe Experience Cloud] che offre tutto il necessario per adattare e personalizzare l&#39;esperienza dei clienti in modo da massimizzare i ricavi sui siti web e mobili, applicazioni, social media e altri canali digitali.
 
-**Ultimo aggiornamento: 18 ottobre 2022 ([vedi cosa è cambiato](r-release-notes/doc-change.md))**
+**Ultimo aggiornamento: 18 ottobre 2022 ([Vedi che cosa è cambiato](r-release-notes/doc-change.md))**
 
 Nelle sezioni seguenti sono disponibili collegamenti utili all’interno della presente guida, organizzati secondo i destinatari in base alle tipiche mansioni di lavoro:
 
@@ -47,7 +47,7 @@ Esperti di marketing, sviluppatori, amministratori, analisti e addetti al contro
 - [Esperienze e offerte](c-experiences/experiences.md): illustra come specificare quale contenuto visualizzare quando un visitatore soddisfa i criteri di pubblico per un’attività.
 - [Recommendations](c-recommendations/recommendations.md): illustra come le attività di [!DNL Recommendations] visualizzano automaticamente prodotti o contenuti che potrebbero interessare ai clienti in base all’attività dell’utente precedente o ad altri algoritmi.
 
-## Sviluppatori {#developers}
+## Sviluppatori  {#developers}
 
 - [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}: questo portale fornisce risorse e guide per gli sviluppatori di [!DNL Adobe Target], inclusa la documentazione di API e SDK per implementare [!DNL Target].
 
