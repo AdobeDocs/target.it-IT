@@ -4,10 +4,10 @@ description: Scopri l’affinità tra categorie in [!DNL Adobe Target] che acqui
 title: Cos’È L’Affinità Tra Categorie?
 feature: Audiences
 exl-id: 9478a7fb-e4b5-46d9-be73-b72cb99c3e5e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
 workflow-type: tm+mt
-source-wordcount: '801'
-ht-degree: 68%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -49,6 +49,10 @@ L’algoritmo di affinità tra categorie funziona come segue:
 * Se è già stato fatto clic su una categoria (visualizzata), facendo nuovamente clic su di essa non si sottrae 1 da tutte le altre categorie
 * Se fai clic su una sesta categoria, la categoria con il punteggio inferiore tra le prime cinque categorie viene eliminata dal calcolo
 * Alla fine della sessione, tutti i valori vengono divisi per 2
+
+>[!NOTE]
+>
+>Quando diverse categorie vengono passate all&#39;interno di una singola chiamata mbox, l&#39;ordine delle categorie in `categoryAffinities` non è garantito. Una categoria arbitraria viene registrata per prima e riceve un punteggio di 10.
 
 ### Esempio: algoritmo di affinità tra categorie
 
