@@ -4,10 +4,10 @@ description: Trova informazioni sui problemi noti in Adobe Target, incluse infor
 title: Dove posso trovare informazioni sui problemi noti e sui problemi risolti?
 feature: Release Notes
 exl-id: 6eb854f7-ed46-4673-afeb-0b44970598cd
-source-git-commit: 34461e3fb6022a0d241cba2e6e31c3113006ee94
+source-git-commit: 5408c0ae5318250fa1f035f8cb8211a16600cf24
 workflow-type: tm+mt
-source-wordcount: '4229'
-ht-degree: 100%
+source-wordcount: '3974'
+ht-degree: 98%
 
 ---
 
@@ -27,32 +27,16 @@ Nelle sezioni seguenti sono elencati i problemi noti per [!DNL Target]:
 
 Il tentativo di archiviare le attività inattive di [!UICONTROL Targeting automatico] potrebbe causare problemi di sincronizzazione. Fino a quando questo problema non viene risolto, non archiviare le attività di [!UICONTROL Targeting automatico]. Lasciale nello stato [!UICONTROL inattivo]. (TGT-40885)
 
-### Annullare il caricamento di una pagina nel Compositore esperienza visivo (VEC) {#cancel}
-
-* Al momento si verifica il seguente problema noto quando si annulla il caricamento di un’attività [!UICONTROL Test A/B] o [!UICONTROL Targeting esperienze] (XT) nel Compositore esperienze visivo in presenza di un URL di reindirizzamento.
-
-   Nel passaggio 1 del flusso di lavoro guidato nel Compositore esperienze visivo, durante l’annullamento del caricamento della pagina, viene visualizzato il pannello [!UICONTROL Modifiche] nel Compositore esperienze visivo e viene applicato il modello di reindirizzamento all’URL (ad esempio, “Esperienza B”). Quando ritorni al passaggio 1 dal passaggio 2 o 3, si verifica la seguente situazione.
-
-   In “Esperienza B”, per impostazione predefinita, viene eseguito il rendering del modello di caricamento del sito web annullato e il pannello [!UICONTROL Modifiche] è accessibile. Questo non dovrebbe accadere, perché questa esperienza ha un reindirizzamento al modello di URL applicato. Dovrebbe essere visualizzato il modello di reindirizzamento all’URL.
-
-   Per visualizzare lo stato corretto dell’esperienza nel Compositore esperienza visivo:
-
-   Se passi a un’altra esperienza e quindi torni a “Esperienza B”, [!DNL Target] visualizza il reindirizzamento al modello URL applicato a questa esperienza e il pannello [!UICONTROL Modifiche] non è accessibile. (TGT-32138)
-
-* Per i siti web delle applicazioni a pagina singola, l’annullamento del caricamento non consente di modificare le azioni nel pannello [!UICONTROL Modifiche].
-
 ### Recommendations
 
 Di seguito sono riportati i problemi noti relativi alle attività [!UICONTROL Recommendations]:
 
 * Quando [!DNL Target] restituisce un’offerta JSON con getOffer(), restituisce con il tipo di JSON. Tuttavia, se restituisci una progettazione de Recommendations JSON, restituisce un tipo HTML.
-* Le entità scadono correttamente una volta trascorsi 60 giorni senza ricevere aggiornamenti tramite feed o API; tuttavia, dopo la scadenza le entità scadute non vengono rimosse dall’indice di ricerca del catalogo. (IRI-857)
-* Le sovrapposizioni “Informazioni sull’utilizzo” per i criteri e le progettazioni non riflettono l’utilizzo in attività A/B e Targeting esperienza. (TGT-34331)
+* Le entità scadute scadono correttamente dopo 60 giorni dalla ricezione di aggiornamenti tramite feed o API; tuttavia, le entità scadute non vengono rimosse dall’indice di ricerca del catalogo dopo la scadenza. Anche le entità eliminate tramite feed o API non vengono attualmente rimosse dall’indice di ricerca nel catalogo. (IRI-857)
 * Le offerte Consigli nelle attività A/B e Targeting esperienza non presentano un’anteprima visiva della barra de Recommendations. (TGT-33426)
 * Raccolte, esclusioni, criteri e progettazioni creati mediante API non sono visibili nell’interfaccia dell’utente Target e possono essere modificati solo tramite API. Allo stesso modo, se crei uno di questi elementi nell’interfaccia utente di Target e successivamente li modifichi tramite API, tali modifiche non vengono riportate nell’interfaccia utente di Target. Gli elementi modificati tramite API devono continuare a essere modificati tramite API per evitare la perdita di eventuali modifiche. (TGT-35777)
 * Le attività Recommendations create tramite API sono visibili nell’interfaccia, ma possono essere modificate solo tramite API.
 * Lo stato del feed dei criteri personalizzati visualizzato nell’elenco (scheda) Criteri viene aggiornato ogni dieci minuti e in alcune rare circostanze potrebbe contenere dati risalenti a oltre dieci minuti prima. Lo stato visualizzato nella vista di modifica dei criteri personalizzati viene recuperato in tempo reale ed è sempre aggiornato. (TGT-35896, TGT-36173)
-* I criteri e le schede di progettazione non mostrano il numero corretto di attività in cui vengono utilizzati. Se i criteri o la progettazione vengono utilizzati in un’attività A/B, la scheda potrebbe mostrare in modo errato che la progettazione o i criteri non vengono utilizzati, anche quando la progettazione o i criteri vengono utilizzati nell’attività. (TGT-36621, TGT-37217)
 
 ### Attività di test multivariato (MVT)
 
