@@ -184,7 +184,7 @@ Questo problema è stato risolto.
 
 ### Quando si utilizza Google Chrome versione 80+ non vengono caricate le pagine nel Compositore esperienza visivo (VEC) o Compositore esperienza avanzato (EEC)
 
-Questo problema noto riguarda la decisione di Google di modificare il comportamento predefinito dei cookie senza l’attributo SameSite a partire da Chrome versione 80. Prima della modifica, Chrome impostava tutti i cookie senza l’attributo SameSite su &quot;SameSite=None&quot; mentre ora imposta il valore predefinito su &quot;SameSite=Lax&quot;, cambiando il modo in cui i cookie vengono inviati nelle richieste GET e POST. Consulta [Aggiornamenti SameSite](https://www.chromium.org/updates/same-site).
+Questo problema noto riguarda la decisione di Google di modificare il comportamento predefinito dei cookie senza l’attributo SameSite a partire da Chrome versione 80. Prima della modifica, Chrome impostava tutti i cookie senza l’attributo SameSite su “SameSite=None” mentre ora imposta il valore predefinito su “SameSite=Lax”, cambiando il modo in cui i cookie vengono inviati nelle richieste GET e POST. Consulta [Aggiornamenti SameSite](https://www.chromium.org/updates/same-site).
 
 Per ulteriori informazioni e una correzione, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
