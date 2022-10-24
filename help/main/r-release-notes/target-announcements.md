@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1927'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -23,7 +23,7 @@ Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud
 
 ## [!DNL Adobe Target] Community Q&amp;A Coffee Break
 
-Drew Burns, Group Product Marketing Manager per [!DNL Adobe Target], risponderà al tuo [!DNL Target] domande relative all’ultimo annuncio entusiasmante sulle funzioni di intelligenza e controllo dell’intelligenza artificiale recentemente migliorate, nonché su tutte le funzioni di personalizzazione dell’intelligenza artificiale.
+Drew Burns, Group Product Marketing Manager di [!DNL Adobe Target], risponderà alle domande su [!DNL Target] relative all’ultimo interessante annuncio sulle funzioni di intelligenza e controllo dell’intelligenza artificiale recentemente migliorate, nonché su tutte le funzioni di personalizzazione.
 
 * **Mercoledì 26 ottobre**
 * **dalle 18:00 alle 19:00 (CET)**
@@ -33,7 +33,7 @@ Drew Burns, Group Product Marketing Manager per [!DNL Adobe Target], risponderà
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Adobe Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-Nessuno pianificato a quest&#39;ora.
+Nessuna pianificata in questo momento.
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
@@ -43,13 +43,13 @@ Accedere alle registrazioni di eventi passati (se disponibili):
 
 Ti preghiamo dii unirti a noi per questo webinar speciale sull&#39;annuncio del prodotto!
 
-Siamo entusiasti di condividere alcune notizie &quot;molto grandi&quot; in termini di personalizzazione su larga scala con [!DNL Adobe Target]: nuovi filtri e informazioni che miglioreranno la capacità degli utenti [!DNL Target] di mettere a punto le attività di personalizzazione basate sull’intelligenza artificiale per avere un impatto diretto sulle metriche aziendali più importanti in base alle singole attività.
+Siamo entusiasti di condividere alcune notizie “molto grandi” in termini di personalizzazione su larga scala con [!DNL Adobe Target]: nuovi filtri e informazioni che miglioreranno la capacità degli utenti [!DNL Target] di mettere a punto le attività di personalizzazione basate sull’intelligenza artificiale per avere un impatto diretto sulle metriche aziendali più importanti in base alle singole attività.
 
 * [Collegamento di registrazione](https://video.tv.adobe.com/v/3410117){target=_blank}
 
    +++Dettagli
 
-   Questo nuovo annuncio di prodotto è tempestivo e ipercritico, in quanto, negli ultimi anni, abbiamo visto la necessità di un aumento della personalizzazione, indipendentemente dal settore. È diventato un modo per le aziende di differenziarsi in modo critico dalla concorrenza in tutto il percorso del cliente. La personalizzazione può essere molto efficace &quot;ovunque&quot; a partire dal primo contatto di un visitatore, sfruttando i dati di base per i casi di utilizzo di acquisizione, fino ai casi di utilizzo del servizio clienti e dei casi di fidelizzazione.
+   Questo nuovo annuncio di prodotto è tempestivo e ipercritico, in quanto, negli ultimi anni, abbiamo visto la necessità di un aumento della personalizzazione, indipendentemente dal settore. È diventato un modo per le aziende di differenziarsi in modo critico dalla concorrenza in tutto il percorso del cliente. La personalizzazione può essere molto efficace “ovunque” a partire dal primo contatto di un visitatore, sfruttando i dati di base per i casi di utilizzo di acquisizione, fino ai casi di utilizzo del servizio clienti e dei casi di fidelizzazione.
 
    In questa sessione, scopri come è possibile sovrascrivere l’incremento della conversione sfruttando le nuove funzioni di [!DNL Adobe Target] mentre parliamo di:
 
