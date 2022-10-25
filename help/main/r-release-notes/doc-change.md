@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 80481a149d436f13bd510c4c4287d447799afbb4
+source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '1488'
 ht-degree: 98%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 25 ottobre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.10.3 di [!DNL Target Standard/Premium]. |
 | 19 ottobre | [Affinità tra categorie](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | È stata aggiunta una nota che spiega il punteggio quando diverse categorie vengono passate all’interno di una singola chiamata mbox. |
 | 18 ottobre | [Creare un’attività di [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Il testo è stato aggiornato per indicare che anche se è possibile creare fino a 30.000 esperienze in un test AP, l’algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati]. |
 |  | [Domande frequenti su Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Il testo è stato aggiornato per indicare che anche se è possibile creare fino a 30.000 esperienze in un test AP, l’algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati]. |
