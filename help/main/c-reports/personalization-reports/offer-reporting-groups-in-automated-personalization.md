@@ -4,10 +4,10 @@ description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe
 title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
+source-git-commit: b3be11cda61b5bf54ee390a192d9f60273f8f12e
 workflow-type: tm+mt
-source-wordcount: '542'
-ht-degree: 47%
+source-wordcount: '698'
+ht-degree: 38%
 
 ---
 
@@ -24,7 +24,7 @@ Quando si utilizzano gruppi di reporting, [!DNL Target] crea un modello di perso
 
 Se la configurazione dell’attività non dispone di dati sufficienti per creare un modello di personalizzazione per ogni offerta, i gruppi di reporting possono contribuire a ridurre i requisiti di dati da utilizzare [!UICONTROL Automated Personalization]. I gruppi di reporting consentono inoltre di risolvere il problema “Avvio a freddo” per le nuove offerte raggruppando offerte simili, in modo che ogni modello abbia più dati su cui basarsi. I gruppi di modeling possono essere utilizzati anche per attività in cui le nuove offerte vengono introdotte regolarmente nella tua attività di AP.
 
-Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Raggruppare tutte le offerte o raggruppare le offerte con tassi di conversione molto diversi riduce probabilmente l’efficacia della [!DNL Target] modelli di personalizzazione.
+Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tutte le offerte di un gruppo. È consigliabile raggruppare offerte a cui gruppi simili di visitatori rispondono in modo simile. In altre parole, offerte per gruppi con tassi di conversione simili. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti. Raggruppare tutte le offerte o raggruppare le offerte con tassi di conversione diversi riduce probabilmente l’efficacia della [!DNL Target] modelli di personalizzazione.
 
 >[!NOTE]
 >
@@ -41,7 +41,7 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
    ![Icona Gruppo di rapporti](/help/main/c-reports/assets/ap_manage_content_2.png)
 
-1. (Facoltativo) Si possono raccogliere le esperienze in gruppo di reporting selezionando la casella di spunta relativa alle esperienze desiderate e facendo clic sull&#39;icona della cartella **[!UICONTROL Gruppo di rapporti]** nell&#39;angolo in alto a destra della finestra di dialogo.
+1. (Facoltativo) Per raccogliere in batch le esperienze in un gruppo di reporting, seleziona la casella di controllo per le esperienze rilevanti e fai clic sul pulsante **[!UICONTROL Gruppo di reporting]** nell’angolo in alto a destra della finestra di dialogo.
 
    ![Icona Gruppo di rapporti](/help/main/c-reports/assets/ap_manage_content_3.png)
 
@@ -49,9 +49,17 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 
    Oppure
 
-   Per creare un nuovo gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, dai un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Applica]**.
+   Per creare un gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, denomina il nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Applica]**.
 
    ![Nuova icona per creare un nuovo gruppo di rapporti](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+È possibile utilizzare [!UICONTROL Posizione] elenco per filtrare le offerte in base alla posizione. Utilizza l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le offerte in base ai gruppi di rapporti. È inoltre possibile utilizzare l&#39;elenco [!UICONTROL Gruppo di rapporti] per filtrare le [!UICONTROL Offerte non assegnate] così da poter assegnare un gruppo di rapporti a un&#39;offerta attualmente non assegnata ad alcun gruppo di rapporti.
+
+Per informazioni su come indirizzare un’offerta a tipi di pubblico specifici, consulta [Offerte Personalizzazione automatizzata di Target](/help/main/c-activities/t-automated-personalization/ap-target-offers.md#task_F207ED7A41B84FD39BB6FCBFABF4B23E).
+
+## Avvertenze
+
+* È importante comprendere che i gruppi di reporting influiscono su come [!DNL Target] crea i suoi modelli. Di conseguenza, [!DNL Adobe] consiglia di utilizzare i gruppi di reporting solo se si prevede di sostituire o aggiungere nuove offerte mentre un&#39;attività è in esecuzione. Se viene introdotta una nuova offerta in un’attività live, inserirla in un gruppo con offerte simili esistenti consente al computer di utilizzare i dati già raccolti per le altre offerte del gruppo per conoscere la nuova offerta. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti.
 
 ## Visualizzare le offerte in un gruppo di reporting
 
