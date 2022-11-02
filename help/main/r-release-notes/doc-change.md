@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1488'
-ht-degree: 100%
+source-wordcount: '1486'
+ht-degree: 98%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 2 novembre | Problemi noti e problemi risolti | È stata rimossa la pagina e sono stati trasferiti i problemi rilevanti alle pagine appropriate in modo che le informazioni siano contestuali. |
 | 25 ottobre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.10.3 di [!DNL Target Standard/Premium]. |
 | 19 ottobre | [Affinità tra categorie](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | È stata aggiunta una nota che spiega il punteggio quando diverse categorie vengono passate all’interno di una singola chiamata mbox. |
 | 18 ottobre | [Creare un’attività di [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Il testo è stato aggiornato per indicare che anche se è possibile creare fino a 30.000 esperienze in un test AP, l’algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati]. |
@@ -103,7 +104,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 22 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione di [!DNL Target Standard/Premium]con correzioni tecniche. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.3.1 di [!DNL Target Standard/Premium]. |
 | 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione [!DNL Target Standard/Premium] con correzioni tecniche. |
-| 9 marzo | [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#ad-hoc) | Il seguente problema noto è stato aggiunto:<ul><li>Eliminazione di posizioni con offerte ad hoc nelle attività create nel Compositore esperienza basato su moduli</li></ul> |
 |  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti.” |
 | 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |

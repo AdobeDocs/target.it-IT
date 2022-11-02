@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 1b737f963fe63770cb04d05f3414ed946548d882
-workflow-type: ht
-source-wordcount: '455'
-ht-degree: 100%
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+workflow-type: tm+mt
+source-wordcount: '451'
+ht-degree: 98%
 
 ---
 
@@ -37,9 +37,9 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 * Sono state aggiunte descrizioni comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di navigare nel generatore di pubblico in modo più efficiente e per scoprire come utilizzare funzioni che potrebbero non essere familiari. (TGT-44139)
 * È stata aggiunta una funzionalità per impedire ai clienti di modificare un’attività disabilitata da [!DNL Target] perché utilizza metriche non supportate. Un messaggio nell’interfaccia utente indica ai clienti di duplicare l’attività e quindi aggiornare la metrica di conversione.
 
-   Con questa versione le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività di [!DNL Target] diventeranno obsolete per le nuove attività. Le attività esistenti possono continuare a utilizzare tali metriche fino a febbraio 2023. (TGT-43860, TGT-43861, TGT-43650)
+   Con questa versione le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività di [!DNL Target] diventeranno obsolete per le nuove attività. Le attività esistenti possono continuare a utilizzare queste metriche fino a maggio 2023.
 
-* È stata aggiunta una descrizione comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un’attività di [!UICONTROL targeting automatico] che utilizza A4T. (TGT-43713)
+* È stata aggiunta una descrizione comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un’attività di [!UICONTROL targeting automatico] che utilizza A4T.
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 

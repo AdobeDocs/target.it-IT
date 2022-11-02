@@ -3,9 +3,9 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 3f22cb3b11dfdc679127f62d1486d9ba8c42dfa3
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1214'
+source-wordcount: '1209'
 ht-degree: 98%
 
 ---
@@ -19,7 +19,6 @@ ht-degree: 98%
    + [Note sulla versione di Target (corrente)](r-release-notes/release-notes.md)
    + [Note sulla versione di Target (prerelease)](r-release-notes/target-release-notes.md)
    + [Panoramica della documentazione di Target](/help/main/r-release-notes/target-documentation.md)
-   + [Problemi noti e problemi risolti](r-release-notes/known-issues-resolved-issues.md)
    + [Aggiornamenti dello stato del sistema e notifiche proattive](r-release-notes/system-status-updates.md)
    + [Modifiche alla documentazione](r-release-notes/doc-change.md)
    + [Note sulla versione per le versioni precedenti](r-release-notes/release-notes-for-previous-releases.md)

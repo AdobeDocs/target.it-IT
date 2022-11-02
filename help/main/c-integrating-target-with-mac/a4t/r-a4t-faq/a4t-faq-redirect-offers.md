@@ -4,10 +4,10 @@ description: Trova risposte alle domande sull’utilizzo delle offerte di reindi
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '1477'
-ht-degree: 54%
+source-wordcount: '1431'
+ht-degree: 52%
 
 ---
 
@@ -18,10 +18,6 @@ Questo argomento contiene le risposte alle domande più frequenti sull’utilizz
 ## Analytics for Adobe Target (A4T) supporta le offerte di reindirizzamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
 Sì, se l&#39;implementazione utilizza [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
-
->[!NOTE]
->
->A causa di un problema noto, un numero limitato di clienti con reindirizzamenti A4T ottengono una percentuale più alta di hit non uniti. Consulta [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Quali sono i requisiti minimi per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
@@ -60,9 +56,7 @@ Se utilizzi una versione precedente e non supportata di at.js, si potrebbe verif
 
 Si consiglia di utilizzare il compositore basato su moduli per creare un’attività di reindirizzamento per aumentare la velocità di reindirizzamento della pagina a causa della posizione in cui il codice viene eseguito sulla pagina. Inoltre, è consigliato creare un’offerta di reindirizzamento per ogni esperienza, anche per quella predefinita, dove il reindirizzamento riporta alla pagina originale. La creazione di un&#39;offerta di reindirizzamento per ogni esperienza garantisce che, se si verifica un conteggio errato, questo si verifichi in tutte le esperienze. I rapporti e le analisi sono ancora validi per il test.
 
-Potrebbe essere utile usare offerte di reindirizzamento per tutte le esperienze dell’attività, inclusa quella predefinita (esperienza di controllo), ad esempio, per inserire le stesse condizioni in tutte le esperienze. Supponiamo che sia stata impostata un’offerta di reindirizzamento per tutte le esperienze eccetto quella predefinita: la velocità dell’esperienza priva di offerta di reindirizzamento sarà avvantaggiata. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio a scopo di test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio a scopo di personalizzazione. Dopo aver determinato l’esperienza “vincitrice”, rimuovi il reindirizzamento per migliorare le prestazioni di caricamento della pagina.
-
-Per ulteriori informazioni su questo problema, consulta le informazioni sulle “Offerte di reindirizzamento” nella tabella [Problemi noti](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
+Potrebbe essere utile usare offerte di reindirizzamento per tutte le esperienze dell’attività, inclusa quella predefinita (esperienza di controllo), ad esempio, per inserire le stesse condizioni in tutte le esperienze. Supponiamo che sia stata impostata un’offerta di reindirizzamento per tutte le esperienze eccetto quella predefinita: la velocità dell’esperienza priva di offerta di reindirizzamento sarà avvantaggiata. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio a scopo di test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio a scopo di personalizzazione. Dopo aver determinato il vincitore, rimuovi il reindirizzamento per migliorare le prestazioni di caricamento della pagina.
 
 ## Il Compositore esperienza visivo e il Compositore esperienza basato su moduli sono entrambi supportati? {#section_FDA26FE7909B48539DA770559E687677}
 

@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 0c69f9dd1b572c363425e11a5ce1d9c717650922
-workflow-type: ht
-source-wordcount: '0'
-ht-degree: 100%
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+workflow-type: tm+mt
+source-wordcount: '1032'
+ht-degree: 99%
 
 ---
 
@@ -36,9 +36,9 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 * Sono state aggiunte descrizioni comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di navigare nel generatore di pubblico in modo più efficiente e per scoprire come utilizzare funzioni che potrebbero non essere familiari. (TGT-44139)
 * È stata aggiunta una funzionalità per impedire ai clienti di modificare un’attività disabilitata da [!DNL Target] perché utilizza metriche non supportate. Un messaggio nell’interfaccia utente indica ai clienti di duplicare l’attività e quindi aggiornare la metrica di conversione.
 
-   Con questa versione le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività di [!DNL Target] diventeranno obsolete per le nuove attività. Le attività esistenti possono continuare a utilizzare tali metriche fino a febbraio 2023. (TGT-43860, TGT-43861, TGT-43650)
+   Con questa versione le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività di [!DNL Target] diventeranno obsolete per le nuove attività. Le attività esistenti possono continuare a utilizzare queste metriche fino a maggio 2023.
 
-* È stata aggiunta una descrizione comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un’attività di [!UICONTROL targeting automatico] che utilizza A4T. (TGT-43713)
+* È stata aggiunta una descrizione comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di selezionare un criterio di ottimizzazione durante la creazione o la modifica di un’attività di [!UICONTROL targeting automatico] che utilizza A4T.
 
 ## [!DNL Target] Standard/Premium 22.10.1 (rilascio scaglionato dal 10 al 13 ottobre 2022)
 

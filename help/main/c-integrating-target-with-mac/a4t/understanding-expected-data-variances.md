@@ -4,10 +4,10 @@ description: Scopri le varianze di dati previste tra Adobi [!DNL Target] e Analy
 title: Qual è la varianza di dati prevista tra Analytics e A4T?
 feature: Analytics for Target (A4T)
 exl-id: 9e63f309-8ec1-4ed5-a1f9-6c3098a7b8f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 48%
+source-wordcount: '733'
+ht-degree: 46%
 
 ---
 
@@ -26,10 +26,6 @@ Di seguito sono riportati alcuni scenari in cui è possibile verificare la varia
    Se in Target è impostato un test di reindirizzamento per dividere il traffico 50/50 (o 25/25/25/25 e così via), il comportamento dell’utente potrebbe non essere suddiviso in modo uniforme. Se visualizzi una suddivisione non uniforme, significa semplicemente che un gruppo di utenti non è riuscito a eseguire una chiamata Analytics sulla pagina di destinazione più di quanto non abbiano fatto gli altri gruppi. La mancata esecuzione della chiamata di Analytics per un gruppo ha causato l’esclusione dell’hit di Target per tali utenti, creando così una discrepanza nei dati.
 
    Adobe spera di affrontare questo problema in futuro, poiché i team di Adobe lavorano per A4T su Adobe Experience Platform. I team di Adobe stanno determinando come gestire questi diversi eventi che si verificano in momenti diversi della pagina.
-
-   >[!NOTE]
-   >
-   >A causa di un problema noto, un numero limitato di clienti con reindirizzamenti A4T ottengono una percentuale più alta di hit non uniti. Consulta [Problemi noti e problemi risolti](/help/main/r-release-notes/known-issues-resolved-issues.md#redirect).
 
 ## Varianza dei dati prevista quando *non si utilizza* A4T {#expected-not-using-a4t}
 
