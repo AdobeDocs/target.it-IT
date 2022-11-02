@@ -4,10 +4,10 @@ description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe
 title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 60655a93b515095bd8c67a4af2193d36789ab96e
+source-git-commit: a4219573c1ce253b1c2e163483fb6d901176ed70
 workflow-type: tm+mt
-source-wordcount: '457'
-ht-degree: 52%
+source-wordcount: '542'
+ht-degree: 47%
 
 ---
 
@@ -30,7 +30,7 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
 >
 >Se un’offerta viene eliminata o sostituita da un particolare gruppo di modeling, viene rimosso dal gruppo anche il traffico storico relativo a quell’offerta specifica. In altre parole, le offerte eliminate non contribuiscono ai dati utilizzati per il [!DNL Target] modelli di personalizzazione da imparare.
 
-**Per impostare i gruppi di reporting:**
+## Imposta gruppi di reporting
 
 1. Sulla **[!UICONTROL Esperienze]** pagina di un’attività di Personalizzazione automatizzata, fai clic sul pulsante **[!UICONTROL Gestire il contenuto]** icona.
 
@@ -52,3 +52,17 @@ Questo approccio funziona bene se i visitatori rispondono allo stesso modo a tut
    Per creare un nuovo gruppo di reporting a cui assegnare l&#39;offerta selezionata, seleziona **[!UICONTROL Nuovo]**, dai un nome al nuovo gruppo di reporting, quindi fai clic su **[!UICONTROL Applica]**.
 
    ![Nuova icona per creare un nuovo gruppo di rapporti](/help/main/c-reports/assets/ap_reporting_groups.png)
+
+## Visualizzare le offerte in un gruppo di reporting
+
+1. Fai clic su **[!UICONTROL Attività]**, fai clic sul [!UICONTROL Automated Personalization] dall’elenco, quindi fai clic sul pulsante **[!UICONTROL Rapporti]** per visualizzare la scheda [Livello di offerta](/help/main/c-reports/personalization-reports/reports-ap.md) rapporto.
+
+   Se hai numerose attività, puoi filtrare l’elenco selezionando [!UICONTROL Personalizzazione automatizzata] dall’elenco a discesa [!UICONTROL Tipo].
+
+1. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Target]** nella tabella per visualizzare le offerte e le offerte non raggruppate all’interno dei gruppi di reporting.
+
+   ![Gruppi di offerte: Controllo e targeting](/help/main/c-reports/c-report-settings/assets/offer-groups.png)
+
+Per informazioni sull&#39;utilizzo [!UICONTROL Automated Personalization] (compresi i [!UICONTROL Livello di offerta] rapporto), vedi [Report di riepilogo di Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md).
+
+

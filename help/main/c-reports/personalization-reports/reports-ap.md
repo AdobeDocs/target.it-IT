@@ -4,10 +4,10 @@ description: Scopri come interpretare il rapporto di riepilogo di Automated Pers
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: 79d51e39b733ee13270f924912251e45c8597917
+source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
 workflow-type: tm+mt
 source-wordcount: '679'
-ht-degree: 39%
+ht-degree: 34%
 
 ---
 
@@ -48,11 +48,11 @@ Fai clic sull’algoritmo dell’esperienza (Foresta casuale o controllo) per vi
 
 ![Rapporto a livello di offerta in Adobe Target](/help/main/c-reports/assets/ap_OfferLevelRpt.png)
 
-Le offerte possono essere visualizzate all’interno di gruppi di rapporti, che possono essere compressi e espansi. Seleziona [!UICONTROL Gruppo di rapporti] nell’elenco a discesa per visualizzare le informazioni aggregate da gruppi di rapporti, anziché da offerte.
-
 >[!NOTE]
 >
->L’icona dell’orologio indica che il modello dell’algoritmo è ancora in corso. L’icona del segno di spunta indica che l’algoritmo di base è stato stabilito.
+>Un’icona dell’orologio indica che il modello dell’algoritmo è ancora in fase di creazione. Un’icona di spunta indica che l’algoritmo di base è stato stabilito.
+
+Le offerte possono essere visualizzate in [gruppi di rapporti](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)e questi gruppi di reporting possono essere compressi ed espansi. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Target]** nella tabella per visualizzare le informazioni aggregate per gruppi di rapporti, anziché per offerte.
 
 ## Segmenti automatizzati
 
