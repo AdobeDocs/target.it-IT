@@ -5,9 +5,9 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1001'
 ht-degree: 99%
 
 ---
@@ -30,7 +30,6 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 | Funzione | Dettagli |
 | --- | --- |
-| [!DNL Recommendations] | Aggiunti nomi descrittivi nel reporting di [!UICONTROL Analytics for Target] (A4T). Precedentemente, [!DNL Target] elencava solo ID esperienza. Questo miglioramento allinea il reporting tra [!DNL Adobe Analytics] e [!DNL Target] e aiuta i clienti a semplificare la creazione di rapporti in A4T. (TGT-41853) |
 | Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL targeting automatico]<br> (disponibile per il testing per alcuni clienti selezionati. Sarà disponibile per tutti i clienti in una versione futura). | In particolare, tieni conto dei seguenti cambiamenti:<ul><li>È stato aggiunto il supporto per metriche binarie e di ottimizzazione nel reporting di [!UICONTROL Analytics for Target] (A4T) per le attività di [!UICONTROL Allocazione automatica] e [!UICONTROL targeting automatico]</li><li>Il comportamento delle attività esistenti verrà mantenuto fino al febbraio 2023. Dopo tale data, le attività verranno interrotte e sarà necessario effettuarne la migrazione ai nuovi comportamenti.</li><li>A partire dal 20 febbraio 2023, il supporto per le metriche `averagetimespentonsite`, `bouncerate` e `entries` nelle attività [!DNL Target] sarà ritirato.</li></ul> |
 
 * Sono state aggiunte descrizioni comando nell’interfaccia utente di [!DNL Target] per consentire ai clienti di navigare nel generatore di pubblico in modo più efficiente e per scoprire come utilizzare funzioni che potrebbero non essere familiari. (TGT-44139)
