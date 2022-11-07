@@ -6,9 +6,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 145f4bd2b3353e429ce968622e47653170a60fda
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
