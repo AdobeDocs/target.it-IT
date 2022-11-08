@@ -4,7 +4,7 @@ description: Scopri come interpretare il rapporto di riepilogo di Automated Pers
 title: Come si utilizzano i rapporti di riepilogo di Automated Personalization?
 feature: Reports
 exl-id: 2708eba4-72d5-4e6b-b01b-d27de03463b2
-source-git-commit: e591ced47eb3a0622b57796cef1f3bd9199a980c
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '679'
 ht-degree: 34%
@@ -52,7 +52,7 @@ Fai clic sull’algoritmo dell’esperienza (Foresta casuale o controllo) per vi
 >
 >Un’icona dell’orologio indica che il modello dell’algoritmo è ancora in fase di creazione. Un’icona di spunta indica che l’algoritmo di base è stato stabilito.
 
-Le offerte possono essere visualizzate in [gruppi di rapporti](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)e questi gruppi di reporting possono essere compressi ed espansi. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Target]** nella tabella per visualizzare le informazioni aggregate per gruppi di rapporti, anziché per offerte.
+Le offerte possono essere visualizzate in [gruppi di rapporti](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)e questi gruppi di reporting possono essere compressi ed espansi. Fai clic su **[!UICONTROL Controllo]** o **[!UICONTROL Target]** nella tabella per visualizzare le informazioni aggregate per gruppi di rapporti, anziché per offerte.
 
 ## Segmenti automatizzati
 

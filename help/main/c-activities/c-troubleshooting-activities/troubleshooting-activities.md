@@ -4,10 +4,10 @@ description: Trova suggerimenti per la risoluzione dei problemi, qualora l’att
 title: Come posso risolvere i problemi relativi alle attività?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '779'
-ht-degree: 100%
+source-wordcount: '852'
+ht-degree: 50%
 
 ---
 
@@ -19,28 +19,28 @@ Se l’attività [!DNL Adobe Target] non viene visualizzata sul sito, questi sug
 >
 >Oltre alle seguenti informazioni sulla risoluzione di problemi, consulta [Risoluzione dei problemi di Target](/help/main/r-troubleshooting-target/troubleshooting-target.md#reference_A9DB82675D044BD8861F6752A4EE6839) per collegamenti ad ulteriori argomenti, domande frequenti e altre informazioni utili sulle attività di risoluzione dei problemi e altre funzionalità in [!DNL Adobe Target].
 
-Nelle seguenti sezioni sono descritti problemi che potresti incontrare con le soluzioni suggerite.
+Le sezioni seguenti contengono problemi che potresti incontrare con le soluzioni suggerite.
 
 ## Ho creato un’attività utilizzando l’interfaccia utente di [!DNL Target] e non posso aggiornarla tramite API.
 
-Le attività create utilizzando l’interfaccia utente di Target devono essere aggiornate tramite l’interfaccia utente di Target. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un’attività utilizzando l’API ma successivamente la modifichi tramite l’interfaccia utente di Target, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul back-end e possono essere aggiornate effettuando un’altra chiamata API.
+Attività create utilizzando [!DNL Target] L’interfaccia utente deve essere aggiornata tramite [!DNL Target] Interfaccia utente. Le attività create tramite API devono essere aggiornate tramite API. Se originariamente crei un’attività utilizzando l’API, ad esempio, ma successivamente modifichi l’attività tramite il [!DNL Target] Interfaccia utente, non tutte le modifiche vengono aggiornate. Tutte le modifiche sono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
 
 Come best practice, prova ad aggiornare l’attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l’attività stessa.
 
 ## Viene visualizzato il contenuto predefinito.
 
-Assicurati che l’attività sia completa e che sia stata attivata.
+Assicurati che l&#39;attività sia completa e sia stata attivata.
 
 ## L’attività non è live.
 
-**Convalida:** apri la scheda della panoramica per visualizzare se il test è contrassegnato come inattivo o come bozza.
+**Convalida:** Vai a [!UICONTROL Panoramica] controlla se il test è contrassegnato come inattivo o come bozza.
 
 **Opzioni:**
 
 * Attiva il test.
 * Utilizza i collegamenti di anteprima per visualizzare il test inattivo.
 
-## L’utente non soddisfa le condizioni per il targeting del pubblico.
+## Non ti qualifichi per le condizioni di targeting del pubblico.
 
 **Convalida:** rivedi le condizioni di targeting nella pagina della panoramica.
 
@@ -49,13 +49,13 @@ Assicurati che l’attività sia completa e che sia stata attivata.
 * Fai in modo di soddisfare le condizioni e riprova.
 * Utilizza i collegamenti di anteprima per ignorare le condizioni di targeting.
 
-## La pagina non soddisfa le condizioni di targeting.
+## La pagina non soddisfa le condizioni di targeting della pagina.
 
-**Convalida:** nella pagina della panoramica verifica se la pagina non soddisfa le condizioni di targeting.
+**Convalida:** Sulla [!UICONTROL Panoramica] , determina se la pagina non soddisfa le condizioni di targeting.
 
 **Opzioni:**
 
-* Apri il Compositore esperienza visivo e fai clic su URL\> Avanzate\>pagina corrente.
+* Vai a [!UICONTROL Compositore esperienza visivo], fai clic su URL > Avanzate > pagina corrente.
 
 ## Viene visualizzata un’esperienza precedente anziché quella nuova.
 
@@ -64,51 +64,50 @@ Assicurati che l’attività sia completa e che sia stata attivata.
 **Opzioni:**
 
 * Elimina il contenuto della cache e i cookie e riprova.
-
 * Prova a utilizzare un altro browser.
 * Utilizza la modalità Privata/Navigazione anonima.
 
 ## Sei stato aggiunto di recente a [!DNL Target] ma non puoi creare attività.
 
-**Convalida:** fai clic su Crea attività. Se l’opzione non è disponibile, è molto probabile che non disponi delle autorizzazioni necessarie per creare un’attività.
+**Convalida:**[!UICONTROL  fai clic su Crea attività]. Se l’opzione non è disponibile, è molto probabile che non disponi delle autorizzazioni necessarie per creare un’attività.
 
 **Opzioni:**
 
-Una volta aggiunto come utente in Target, devi disporre del ruolo Approvatore per creare le attività.
+Dopo aver aggiunto come utente in [!DNL Target], è necessario disporre del [!UICONTROL Approvatore] per creare attività.
 
-* Chiedi all’amministratore del tuo account di assegnarti il ruolo Approvatore.
-* Se sei l’amministratore, assegnati il ruolo Approvatore da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]** in Target.
+* Chiedi all&#39;amministratore del tuo account di renderti approvatore.
+* Se sei l’amministratore, assegnati il [!UICONTROL Approvatore] ruolo da **[!UICONTROL Amministrazione]** > **[!UICONTROL Utenti]** in [!DNL Target].
 
    Consulta [Assegnare a se stessi il ruolo di Approvatore](/help/main/administrating-target/start-target.md#task_15CAA437A71444E2932B333D5E66A3C7).
 
 ## La struttura della pagina è cambiata dal momento della configurazione dell’attività.
 
-**Convalida:** apri Compositore esperienza visivo per l’attività esistente. Ricerca un messaggio di avviso che indica che i selettori (o la struttura) sono cambiati.
+**Convalida:**[!UICONTROL  apri Compositore esperienza visivo per l’attività esistente. ] Ricerca un messaggio di avviso che indica che i selettori (o la struttura) sono cambiati.
 
 **Opzioni:**
 
 * Ricrea l’attività.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni sull’effetto delle modifiche alle pagine [!DNL Target]la possibilità di visualizzare, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## La struttura della pagina viene modificata durante il caricamento (in fase di esecuzione).
 
 **Convalida:** interpella lo sviluppatore.
 
-**Nota:** per consentire a Target di riconoscere dove dovrebbero essere applicate le modifiche all’attività, evita di inserire in modo dinamico elementi con la stessa classe o di modificare in modo dinamico la classe di eventuali elementi di pari livello.
+**Nota:** Per [!DNL Target] per riconoscere dove devono essere applicate le modifiche all’attività, evita di inserire in modo dinamico un elemento con la stessa classe o di modificare in modo dinamico la classe di eventuali elementi di pari livello.
 
 **Opzioni:**
 
-* Aggiorna il codice della pagina in modo da identificare in modo univoco ogni elemento che sarà oggetto di test (utilizzando un id).
+* Aggiorna il codice della pagina in modo da identificare in modo univoco ogni elemento testato (utilizzando un id).
 * Interrompi la modifica dinamica della classe o degli elementi di pari livello come descritto sopra.
 
-Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla capacità di visualizzazione di Target, vedi [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
+Per ulteriori informazioni sull’effetto delle modifiche alle pagine [!DNL Target]la possibilità di visualizzare, vedere [Scenari di modifica delle pagine](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-scenarios.md#concept_A458A95F65B4401588016683FB1694DB).
 
 ## Altre attività sono in esecuzione sulla stessa pagina.
 
-**Convalida:** utilizza la scheda Conflitti per vedere se altre attività sono in esecuzione.
+**Convalida:** Utilizza la [!UICONTROL Conflitti] per vedere se altre attività sono in esecuzione.
 
-**Nota:** la scheda Conflitti non funziona con il modulo Test modelli.
+**Nota:**[!UICONTROL  la scheda Conflitti non funziona con il modulo Test modelli.]
 
 **Opzioni:**
 
@@ -118,19 +117,25 @@ Per ulteriori informazioni su come le modifiche alla pagina influiscono sulla ca
 
 ## Quando elimini uno script di profilo, viene visualizzato un messaggio di errore.
 
-**Convalida:** se elimini uno script di profilo da Target Standard/Premium, viene visualizzato il messaggio di errore “Impossibile eliminare lo script del profilo”.
+**Convalida:**[!DNL Target] se elimini uno script di profilo da , viene visualizzato il messaggio di errore “Impossibile eliminare lo script del profilo”.
 
 **Opzioni:**
 
 Esegui una delle operazioni seguenti:
 
-* Riprova a eliminarlo. Viene visualizzato il messaggio di operazione eseguita correttamente.
-* Attendi circa 10 minuti per l’importazione di Target Standard/Premium. L’importazione aggiorna l’elenco degli script di profilo.
+* Elimina nuovamente lo script del profilo. Viene visualizzato il messaggio di operazione eseguita correttamente.
+* Attendi circa 10 minuti per la [!DNL Target] Importazione da eseguire. L’importazione aggiorna l’elenco degli script di profilo.
 
 ## Alcune chiamate AJAX di [!DNL Target] non funzionano.
 
-**Nota:** se una stessa pagina contiene più chiamate AJAX di [!DNL Target] con lo stesso nome ma diversi parametri, queste non funzioneranno correttamente. Viene effettuata solo la prima chiamata.
+**Nota:** Ajax multiplo [!DNL Target] le chiamate con lo stesso nome ma con parametri diversi non funzionano sulla stessa pagina. Viene effettuata solo la prima chiamata.
 
 ## Hai attivato un’attività utilizzando l’API di [!DNL Target], ma l’attività risulta [!UICONTROL inattiva] nell’interfaccia utente di [!DNL Target].
 
-Quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente utilizzando l’API di Target, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente.
+Quando esegui determinate azioni, ad esempio l’attivazione di un’attività al di fuori dell’interfaccia utente tramite la [!DNL Target] API, l’aggiornamento può richiedere fino a dieci minuti per propagarsi all’interfaccia utente.
+
+## Dopo la conversione dell’attività, il visitatore non è in alcuna esperienza.
+
+Se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa [!DNL Target] richiesta come qualifica dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore visualizza il contenuto predefinito. [!DNL Adobe] consiglia di non inviare la conversione e la qualifica dell’attività nella stessa richiesta.
+
+Se desideri inviare entrambe le impostazioni nella stessa richiesta, puoi utilizzare [!UICONTROL Impostazioni avanzate] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.

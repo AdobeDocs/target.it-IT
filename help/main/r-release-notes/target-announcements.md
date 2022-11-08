@@ -4,9 +4,9 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: d48765f7cb8ec229b0baf06e9b4383f507263725
-workflow-type: ht
-source-wordcount: '1927'
+source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
+workflow-type: tm+mt
+source-wordcount: '1876'
 ht-degree: 100%
 
 ---
@@ -20,14 +20,6 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!DNL Adobe Target] Community Q&amp;A Coffee Break
-
-Drew Burns, Group Product Marketing Manager di [!DNL Adobe Target], risponderà alle domande su [!DNL Target] relative all’ultimo interessante annuncio sulle funzioni di intelligenza e controllo dell’intelligenza artificiale recentemente migliorate, nonché su tutte le funzioni di personalizzazione.
-
-* **Mercoledì 26 ottobre**
-* **dalle 18:00 alle 19:00 (CET)**
-* **[Informazioni sulla registrazione](https://adobe.ly/3e6gqHe){target=_blank}**
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 

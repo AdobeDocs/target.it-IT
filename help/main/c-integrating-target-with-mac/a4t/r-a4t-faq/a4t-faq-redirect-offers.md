@@ -4,10 +4,10 @@ description: Trova risposte alle domande sull’utilizzo delle offerte di reindi
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '1431'
-ht-degree: 52%
+source-wordcount: '1456'
+ht-degree: 51%
 
 ---
 
@@ -70,7 +70,7 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 | Parametro | Descrizione |
 |--- |--- |
-| `adobe_mc_sdid` | La `adobe_mc_sdid` passa l&#39;ID di dati supplementari (SDID) e l&#39;ID dell&#39;organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina. |
+| `adobe_mc_sdid` | La `adobe_mc_sdid` passa l&#39;ID di dati supplementari (SDID) e l&#39;ID dell&#39;organizzazione di Experience Cloud dalla pagina predefinita alla nuova pagina. Questi ID consentono a A4T di &quot;unire&quot; la richiesta di Target nella pagina predefinita con la richiesta di Analytics nella nuova pagina.<br>Il formato previsto per passare sdid nell&#39;url (per le app ibride o da un&#39;app al sito web o da un sito web a un altro) è `ex. adobe_mc_sdid=SDID=123|MCORGID=123456789@AdobeOrg|TS=1498569322` |
 | `adobe_mc_ref` | Il parametro `adobe_mc_ref` passa l’URL di riferimento della pagina predefinita alla nuova pagina. Se utilizzato con AppMeasurement.js versione 2.1 (o successiva), Analytics utilizza questo valore di parametro come URL di riferimento nella nuova pagina. |
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.

@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
 workflow-type: tm+mt
 source-wordcount: '1209'
 ht-degree: 98%
@@ -134,6 +134,7 @@ ht-degree: 98%
       + [Visualizzare un’anteprima delle esperienze per un test di Automated Personalization](c-activities/t-automated-personalization/ap-preview-experiences.md)
       + [Targeting delle offerte di Automated Personalization](c-activities/t-automated-personalization/ap-target-offers.md)
       + [Gestire le esclusioni](c-activities/t-automated-personalization/managing-exclusions.md)
+      + [Gruppi di reporting di offerte in Automated Personalization](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md)
       + [Selezionare il controllo per l’attività Automated Personalization o Targeting automatico](c-activities/t-automated-personalization/experience-as-control.md)
       + [Domande frequenti su Automated Personalization](c-activities/t-automated-personalization/automated-personalization-faq.md)
       + [Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza](c-activities/t-automated-personalization/experience-preview.md)
@@ -261,7 +262,6 @@ ht-degree: 98%
    + Rapporti sulla personalizzazione {#personalization-reports}
       + [Rapporto di riepilogo del Targeting automatico](/help/main/c-reports/personalization-reports/auto-target-summary-report.md)
       + [Rapporto di riepilogo per Automated Personalization](/help/main/c-reports/personalization-reports/reports-ap.md)
-      + [Gruppi di reporting di offerte in Automated Personalization](/help/main/c-reports/personalization-reports/offer-reporting-groups-in-automated-personalization.md)
    + Rapporto Approfondimenti personalizzazione {#insights}
       + [Panoramica sui rapporti Approfondimenti personalizzazione](c-reports/c-personalization-insights-reports/personalization-insights-reports.md)
       + [Rapporto Segmenti automatizzati](c-reports/c-personalization-insights-reports/automated-segments-report.md)

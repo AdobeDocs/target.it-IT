@@ -4,9 +4,9 @@ description: Scopri come trasmettere parametri personalizzati a [!DNL Adobe Targ
 title: Posso indirizzare i visitatori in base a parametri personalizzati?
 feature: Audiences
 exl-id: f0669888-6b9e-4738-9ed4-0418ea56fffa
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '497'
 ht-degree: 40%
 
 ---
@@ -29,6 +29,10 @@ Durante la creazione di un pubblico personalizzato basato su un parametro mbox, 
    * Se ricordi il nome mbox ma non il nome del parametro, utilizza la variabile [!UICONTROL Filtra per] elenco a discesa per filtrare su una mbox nota trasmettendo il parametro desiderato.
 
    Con uno di questi metodi, non esiste alcun collegamento tra mbox e il parametro. Il pubblico funziona in base al parametro per tutte le mbox che trasmettono quel parametro.
+
+   >[!NOTE]
+   >
+   >La mbox selezionata dalla [!UICONTROL Filtra per] l’elenco a discesa non viene salvato durante la creazione dell’attività. Questa opzione consente di filtrare i parametri in base alla mbox selezionata.
 
    Se modifichi un pubblico esistente, i criteri di filtraggio vengono visualizzati con il nome mbox fornito durante la creazione.
 

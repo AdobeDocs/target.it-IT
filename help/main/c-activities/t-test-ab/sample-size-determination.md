@@ -4,10 +4,10 @@ description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di succes
 title: Per quanto tempo devo eseguire un test A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
 workflow-type: tm+mt
-source-wordcount: '3072'
-ht-degree: 59%
+source-wordcount: '3085'
+ht-degree: 58%
 
 ---
 
@@ -49,7 +49,7 @@ Prima di configurare il test A/B, accedi ad Adobe Target [Calcolatore dimensione
 
 Questo può comportare molti falsi positivi, che portano all’implementazione di offerte che non forniscono l’incremento previsto alla fine. Un incremento scarso di per sé è un risultato insoddisfacente, ma una conseguenza ancora più grave è che, nel tempo, l&#39;incapacità di prevedere con precisione l&#39;incremento erode la fiducia dell&#39;organizzazione nei test come pratica.
 
-Questo articolo illustra i fattori che devono essere controbilanciati nel determinare una dimensione del campione e presenta un calcolatore sotto forma di foglio di calcolo utile per stimare le dimensioni campione appropriate. Il calcolo della dimensione del campione utilizzando il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) prima dell’inizio di qualsiasi test A/B assicura che vengano sempre eseguiti test A/B di alta qualità conformi agli standard statistici.
+Questo articolo illustra i fattori che devono essere equilibrati quando viene determinata la dimensione di un campione e introduce un calcolatore per stimare una dimensione adeguata del campione. Il calcolo della dimensione del campione utilizzando il Calcolatore dimensione campione (disponibile dal collegamento fornito in precedenza) prima dell’inizio di qualsiasi test A/B assicura che vengano sempre eseguiti test A/B di alta qualità conformi agli standard statistici.
 
 Un test A/B si basa su cinque parametri definiti dall’utente. Questi parametri sono interconnessi in modo che, quando ne vengono definiti quattro, il quinto può essere ricavato:
 
@@ -58,6 +58,11 @@ Un test A/B si basa su cinque parametri definiti dall’utente. Questi parametri
 * Incremento rilevabile con affidabilità minima
 * Tasso di conversione linea di base
 * Numero di visitatori
+
+>[!IMPORTANT]
+>
+>Per ottenere risultati precisi, è necessario ricaricare la pagina prima di modificare i numeri dei parametri.
+
 
 Per un test A/B, la rilevanza statistica, la potenza statistica, l’incremento rilevabile con affidabilità minima e il tasso di conversione linea di base sono impostati dall’analista; il numero di visitatori richiesti viene quindi calcolato a partire da queste cifre. Questo articolo illustra questi elementi e fornisce linee guida su come determinare queste metriche per un test specifico.
 
