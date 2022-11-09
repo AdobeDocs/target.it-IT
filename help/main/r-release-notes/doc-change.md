@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '1609'
-ht-degree: 93%
+source-wordcount: '1596'
+ht-degree: 94%
 
 ---
 
@@ -23,7 +23,6 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | È stata aggiornata la descrizione per la `adobe_mc_sdid` nella tabella. |
 |  | [Risoluzione dei problemi relativi alle attività](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | È stata aggiunta una nuova sezione: &quot;Dopo la conversione dell’attività, il visitatore non è in alcuna esperienza.&quot; |
 |  | [Parametri personalizzati](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | Aggiunta nota relativa alla mbox selezionata dalla [!UICONTROL Filtra per] l’elenco a discesa non viene salvato durante la creazione dell’attività. Questa opzione consente di filtrare i parametri in base alla mbox selezionata. |
-|  | [Limiti di Target](/help/main/r-troubleshooting-target/target-limits.md#mbox-parameters) | Correzione della lunghezza massima del valore del parametro del profilo. Il limite è di 256 caratteri. |
 | 2 novembre | Problemi noti e problemi risolti | È stata rimossa la pagina e sono stati trasferiti i problemi rilevanti alle pagine appropriate in modo che le informazioni siano nel contesto. |
 | 25 ottobre | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.10.3 di [!DNL Target Standard/Premium]. |
 | 19 ottobre | [Affinità tra categorie](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | È stata aggiunta una nota che spiega il punteggio quando diverse categorie vengono passate all’interno di una singola chiamata mbox. |

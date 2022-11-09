@@ -4,9 +4,9 @@ description: Trova suggerimenti per la risoluzione dei problemi, qualora l’att
 title: Come posso risolvere i problemi relativi alle attività?
 feature: Activities
 exl-id: 6aa0486a-9ca3-4545-ae06-9b02e586d777
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
-source-wordcount: '852'
+source-wordcount: '863'
 ht-degree: 50%
 
 ---
@@ -136,6 +136,6 @@ Quando esegui determinate azioni, ad esempio l’attivazione di un’attività a
 
 ## Dopo la conversione dell’attività, il visitatore non è in alcuna esperienza.
 
-Se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa [!DNL Target] richiesta come qualifica dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore visualizza il contenuto predefinito. [!DNL Adobe] consiglia di non inviare la conversione e la qualifica dell’attività nella stessa richiesta.
+In rari casi, se la metrica di conversione dell’attività per qualificarsi per un’esperienza viene inviata nella stessa richiesta della qualifica dell’attività, il visitatore potrebbe non trovarsi in alcuna esperienza dopo l’invio della richiesta. In questa situazione, il visitatore visualizza il contenuto e l’ID esperienza predefiniti acquisiti tramite token pari a -1. [!DNL Adobe] non consiglia di inviare la qualifica e la conversione dell’attività nello stesso [!DNL Target] richiesta.
 
-Se desideri inviare entrambe le impostazioni nella stessa richiesta, puoi utilizzare [!UICONTROL Impostazioni avanzate] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.
+Se desideri inviare entrambe le metriche nella stessa richiesta, puoi utilizzare [!UICONTROL Impostazioni avanzate] per specificare che il visitatore rimane nella stessa esperienza dopo la conversione.

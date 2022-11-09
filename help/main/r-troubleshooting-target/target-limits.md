@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
 workflow-type: tm+mt
 source-wordcount: '1348'
 ht-degree: 97%
@@ -192,7 +192,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 256
+   * Lunghezza massima valore del parametro del profilo: 5000
 
    **Endpoint API di consegna**:
 
@@ -203,7 +203,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
    * Parametri del profilo: 50
    * Lunghezza massima del nome del parametro: 128
    * Il valore del parametro di profilo non può essere null
-   * Lunghezza massima valore del parametro del profilo: 256
+   * Lunghezza massima valore del parametro del profilo: 5000
 
 
 
