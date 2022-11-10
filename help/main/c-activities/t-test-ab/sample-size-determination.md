@@ -1,12 +1,12 @@
 ---
 keywords: AB;A/B;AB..n;dimensioni campione;calcolatore dimensione campione;allocazione automatica;allocazione automatica;calcolatore
-description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di successo in Adobe [!DNL Target] richiede un numero sufficiente di visitatori (dimensioni del campione) per migliorare il tasso di conversione.
+description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di successo in [!DNL Adobe Target] richiede un numero sufficiente di visitatori (dimensioni del campione) per migliorare il tasso di conversione.
 title: Per quanto tempo devo eseguire un test A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 0dacdf32d145414ad90d6597b45439d3c022e3c9
+source-git-commit: 216134ba7d0ce7ebdad2ba477b9ad1e9fab1dff2
 workflow-type: tm+mt
-source-wordcount: '3093'
+source-wordcount: '3092'
 ht-degree: 57%
 
 ---
@@ -41,9 +41,9 @@ Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](
 
 Se si sceglie di utilizzare un manuale [!UICONTROL Test A/B] anziché [!UICONTROL Allocazione automatica], [!DNL Target] Il calcolatore delle dimensioni del campione consente di determinare la dimensione del campione necessaria per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi il calcolatore è utile. Utilizzo del calcolatore per un [!UICONTROL Allocazione automatica] l’attività è facoltativa perché [!UICONTROL Allocazione automatica] dichiara un vincitore per te. Il calcolatore fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
-Prima di configurare il test A/B, accedi al [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
+Prima di configurare il test A/B, accedi al [!DNL Adobe Target] [Calcolatore dimensioni campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it).
 
-![Calcolatore delle dimensioni del campione di Adobe Target](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it)
+![Calcolatore delle dimensioni del campione di Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
 È importante determinare una dimensione del campione adeguata (numero di visitatori) prima di eseguire un test A/B, al fine di stabilire il tempo di esecuzione dell’attività prima di valutare i risultati. Il semplice monitoraggio dell’attività fino a raggiungere la rilevanza statistica determina una notevole sottostima dell’intervallo di affidabilità, rendendo il test inaffidabile. Questo accade perché, quando viene rilevato un risultato statisticamente significativo, il test viene interrotto e viene dichiarato un vincitore. Tuttavia, se il risultato non è statisticamente significativo, il test continuerà. Questa procedura favorisce fortemente un esito positivo, aumentando il livello dei falsi positivi e quindi distorcendo il livello di significatività effettiva del test.
 
