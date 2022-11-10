@@ -4,9 +4,9 @@ description: Scopri come utilizzare un’attività di allocazione automatica in 
 title: Cos’è un’attività di allocazione automatica?
 feature: Auto-Allocate
 exl-id: 2d1ddd71-2ca6-4f00-9d0c-eb25ede8fdb8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
 workflow-type: tm+mt
-source-wordcount: '3570'
+source-wordcount: '3565'
 ht-degree: 50%
 
 ---
@@ -173,7 +173,10 @@ Attualmente, la logica favorisce i visitatori che si convertono rapidamente o ch
 
 ### Posso usare il Calcolatore dimensione campione quando utilizzo [!UICONTROL Allocazione automatica] per stimare quanto tempo ci vuole per identificare il vincitore?
 
-È possibile utilizzare [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it) per ottenere una stima di quanto tempo viene eseguito il test. (Come per il tradizionale test A/B, applica la correzione Bonferroni se stai testando più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per i tradizionali test A/B a orizzonte fisso e fornisce solo una stima. Utilizzo del calcolatore per un [!UICONTROL Allocazione automatica] l’attività è facoltativa perché [!UICONTROL Allocazione automatica] dichiara un vincitore per te. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi. Nei nostri esperimenti, abbiamo trovato quanto segue:
+È possibile utilizzare [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) per ottenere una stima di quanto tempo viene eseguito il test. (Come per il tradizionale test A/B, applica la correzione Bonferroni se stai testando più di due offerte o più di una metrica/ipotesi di conversione.) Questo calcolatore è progettato per i tradizionali test A/B a orizzonte fisso e fornisce solo una stima. Utilizzo del calcolatore per un [!UICONTROL Allocazione automatica] l’attività è facoltativa perché [!UICONTROL Allocazione automatica] dichiara un vincitore per te. Non è necessario scegliere un punto fisso per esaminare i risultati del test. I valori forniti sono sempre statisticamente validi.
+
+Nei nostri esperimenti, abbiamo trovato quanto segue:
+
 * Quando si sottopongono a test esattamente due esperienze, [!UICONTROL Allocazione automatica] trova un vincitore più rapidamente del test a orizzonte fisso (ovvero l’intervallo temporale suggerito dal calcolatore delle dimensioni del campione) quando la differenza di prestazioni tra le esperienze è grande. Tuttavia, [!UICONTROL Allocazione automatica] potrebbe essere necessario più tempo per identificare un vincitore quando la differenza di prestazioni tra le esperienze è ridotta. In questi casi, i test a orizzonte fisso sarebbero generalmente terminati senza un risultato statisticamente significativo.
 * Quando si sottopongono a test più di due esperienze, [!UICONTROL Allocazione automatica] trova un vincitore più rapidamente rispetto al test a orizzonte fisso (ovvero l’intervallo di tempo suggerito dal calcolatore delle dimensioni del campione) quando una singola esperienza esegue con maggiore efficienza tutte le altre esperienze. Quando due o più esperienze sono entrambe &quot;vincenti&quot; rispetto ad altre esperienze ma strettamente collegate tra loro, [!UICONTROL Allocazione automatica] potrebbe essere necessario più tempo per determinare quale sia superiore. In questi casi, i test a orizzonte fisso si sarebbero generalmente conclusi concludendo che le esperienze &quot;vincenti&quot; erano migliori delle esperienze con prestazioni peggiori, ma non hanno identificato quale fosse superiore.
 

@@ -4,10 +4,10 @@ description: Scopri per quanto tempo eseguire un test A/B. Un test A/B di succes
 title: Per quanto tempo devo eseguire un test A/B?
 feature: A/B Tests
 exl-id: 4f4ce387-bbbe-44af-965b-affc3ee09d74
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: 8a18a2981bc7afb86d07f105c2c0c4cae58881eb
 workflow-type: tm+mt
-source-wordcount: '3085'
-ht-degree: 58%
+source-wordcount: '3088'
+ht-degree: 57%
 
 ---
 
@@ -41,7 +41,7 @@ Per ulteriori informazioni, consulta [Panoramica dell’allocazione automatica](
 
 Se si sceglie di utilizzare un manuale [!UICONTROL Test A/B] anziché [!UICONTROL Allocazione automatica], [!DNL Target] Il calcolatore delle dimensioni del campione consente di determinare la dimensione del campione necessaria per il successo del test. Un test A/B manuale è un test a orizzonte fisso, quindi il calcolatore è utile. Utilizzo del calcolatore per un [!UICONTROL Allocazione automatica] l’attività è facoltativa perché [!UICONTROL Allocazione automatica] dichiara un vincitore per te. Il calcolatore fornisce una stima approssimativa della dimensione del campione necessaria. Continua a leggere per ulteriori informazioni su come utilizzare il calcolatore.
 
-Prima di configurare il test A/B, accedi ad Adobe Target [Calcolatore dimensione campione](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it).
+Prima di configurare il test A/B, accedi al [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6).
 
 ![Calcolatore delle dimensioni del campione di Adobe Target](/help/main/c-activities/t-test-ab/assets/sample_size_calculator-new.png)
 
@@ -61,8 +61,7 @@ Un test A/B si basa su cinque parametri definiti dall’utente. Questi parametri
 
 >[!IMPORTANT]
 >
->Per ottenere risultati precisi, è necessario ricaricare la pagina prima di modificare i numeri dei parametri.
-
+>Per ottenere risultati precisi, è necessario ricaricare la pagina prima di modificare i numeri dei parametri. Ripeti questo processo ogni volta che cambi un numero di parametro.
 
 Per un test A/B, la rilevanza statistica, la potenza statistica, l’incremento rilevabile con affidabilità minima e il tasso di conversione linea di base sono impostati dall’analista; il numero di visitatori richiesti viene quindi calcolato a partire da queste cifre. Questo articolo illustra questi elementi e fornisce linee guida su come determinare queste metriche per un test specifico.
 
