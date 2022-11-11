@@ -5,9 +5,9 @@ title: Dove posso trovare la documentazione aggiornata per Target?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: f1cbc46323f71c2fa091cd2c9a3e49d34676e7a1
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '0'
-ht-degree: 100%
+ht-degree: 0%
 
 ---
 
@@ -109,13 +109,13 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.3.1 di [!DNL Target Standard/Premium]. |
 | 17 marzo | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione [!DNL Target Standard/Premium] con correzioni tecniche. |
 |  | [Sincronizzazione dei profili in tempo reale per mbox3rdPartyId](/help/main/c-target/c-visitor-profile/3rd-party-id.md) | È stata aggiornata la seguente frase relativa alla sincronizzazione dei profili: “Gli aggiornamenti vengono sincronizzati con l’archivio dei profili ogni 5-10 minuti.” |
-| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (30 marzo 2022)</li></ul> |
+| 8 marzo | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (30 marzo 2022)</li></ul> |
 | 7 marzo | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#aep) | È stata aggiunta una nuova sezione in “Utilizza i tipi di pubblico da [!DNL Adobe Experience Platform]”<ul><li>Casi di utilizzo della personalizzazione</li></ul> |
 | 25 febbraio | [Supporto A4T per attività di allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md) | Sono state aggiornate le seguenti sezioni:<ul><li>[Allocazione automatica e targeting automatico](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#both)</li><li>[Allocazione automatica](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#aa)</li></ul> |
 |  | [Interpretare i rapporti di allocazione automatica](/help/main/c-activities/automated-traffic-allocation/determine-winner.md) | È stata aggiunta la risposta a una nuova domanda frequente:<ul><li>Sono disponibili i badge (distintivi) “No Winner”, “Winner” e “star” per le attività di [!UICONTROL Allocazione automatica] che utilizzano [!UICONTROL Analytics come origine di reporting] (A4T)?</li></ul> |
 |  | [Creare un pubblico per sola attività](/help/main/c-target/creating-activity-only-audience.md) | Sono state aggiunte informazioni nella sezione “Considerazioni” relativa alle regole di esclusione. |
 | 10 febbraio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | Sono state aggiunte informazioni sul caricamento di siti web in Compositore esperienza visivo tramite processi di lavoro dei servizi. |
-| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (23 febbraio 2022)</li></ul> |
+| 7 febbraio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Interruzione caffè Q&amp;A nella community (23 febbraio 2022)</li></ul> |
 | 3 febbraio | [Creare tipi di pubblico](/help/main/c-target/c-audiences/audiences.md#RTCDP) | È stata aggiunta una nuova sezione con video: “Video: Personalizzazione dell’hit successivo con Real-time CDP e [!DNL Adobe Target].” |
 | 2 febbraio | [Soluzione di problemi relativi alla distribuzione dei contenuti](/help/main/c-activities/c-troubleshooting-activities/content-trouble.md#escape) | È stata aggiunta la seguente sezione: “L’utilizzo del carattere di escape per le virgolette doppie nel valore dell’attributo del profilo in [!DNL Target] non funziona come previsto.” |
 | 1° febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.2.1 di [!DNL Target Standard/Premium] |
