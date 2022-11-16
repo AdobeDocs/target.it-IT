@@ -4,14 +4,14 @@ description: Scopri come eseguire un’attività di Targeting automatico in [!DN
 title: Cos’è un’attività di targeting automatico?
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: d90e541588f51e16dd9b11ead1ece77e9ca1408b
+source-git-commit: e79f7b277f82debcf9a3780eae4ad26c320efc00
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1989'
 ht-degree: 66%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Panoramica del Targeting automatico
+# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Targeting automatico] panoramica
 
 [!UICONTROL Targeting automatico] attività [!DNL Adobe Target] utilizza l’apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall’addetto al marketing al fine di personalizzare i contenuti e favorire le conversioni. La funzione Targeting automatico fornisce a ogni visitatore l’esperienza più personalizzata in base al profilo del singolo cliente e al comportamento dei visitatori precedenti con profili simili.
 
@@ -46,7 +46,7 @@ A differenza di un’attività A/B in cui l’allocazione dell’esperienza per 
 Ci sono alcune considerazioni importanti da tenere a mente quando si utilizza [!UICONTROL Targeting automatico]:
 
 * Non è possibile cambiare un&#39;attività specifica da [!UICONTROL Targeting automatico] ad Automated Personalization e viceversa.
-* Non puoi passare dall’allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico], e viceversa dopo che un’attività è attiva.
+* Non puoi passare dall’allocazione manuale del traffico (test A/B tradizionale) al [!UICONTROL Targeting automatico], e viceversa dopo che un’attività viene salvata come bozza.
 * Un modello è costruito per identificare le prestazioni della strategia personalizzata rispetto al traffico distribuito in modo casuale rispetto all’invio di tutto il traffico all’esperienza vincente complessiva. Questo modello considera gli hit e le conversioni solo nell’ambiente predefinito.
 
    Il traffico proveniente da un secondo set di modelli viene generato per ciascun gruppo di modeling (AP) o per esperienza (AT). Per ciascuno di questi modelli, vengono considerati hit e conversioni in tutti gli ambienti.
