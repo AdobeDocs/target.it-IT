@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 10c1d2bc2957b11c7e0296fb28b4dc7fd141cc31
-workflow-type: ht
-source-wordcount: '1876'
-ht-degree: 100%
+source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
+workflow-type: tm+mt
+source-wordcount: '1990'
+ht-degree: 94%
 
 ---
 
@@ -20,6 +20,22 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 Gartner ha nominato [!DNL Adobe Target] leader nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE) per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)
+
+* **Martedì 29 novembre 2022**
+* **dalle 8:00 alle 9:00 (PST GMT-8)**
+* **[Informazioni sulla registrazione](https://adobe.ly/3UtQoxv){target=_blank}**
+
+Ci uniremo a Cristinel Anastasoaie, Senior Product Manager per [!DNL Adobe Target], che risponderà alle tue domande relative al [!DNL Adobe Target] webinar [Personalizzazione basata sull’intelligenza artificiale e Recommendations](#AI).
+
+Assicurati di rivedere la registrazione del webinar e quindi portare le tue domande di follow-up per informazioni complete, spiegazioni più approfondite e suggerimenti strategici per i tuoi casi d&#39;uso unici.
+
+* Ottimizzare raccomandazioni in tempo reale, attività di personalizzazione con un solo clic e offerte automatizzate
+* Creare e avviare attività di personalizzazione basate sull’intelligenza artificiale utilizzando [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo)
+* Integra con [!DNL Adobe Experience Platform] (AEP) per la condivisione in tempo reale di segmenti e attributi di profilo
+
+[!DNL Adobe] Simon Chen, tecnico del supporto, fornirà ulteriori informazioni e risposte alle tue domande.
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
@@ -52,7 +68,7 @@ Siamo entusiasti di condividere alcune notizie “molto grandi” in termini di 
 
 +++
 
-### [!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)
+### [!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022) {#AI}
 
 L’automazione nella sperimentazione e nella personalizzazione continua a stimolare le conversioni e il Ritorno sull’investimento (ROI) più elevati per i team di addetti al marketing, tecnici e di prodotto. Partecipa alla sessione Skill Builders [!DNL Adobe] e scopri come utilizzare [!DNL Adobe Target] casi d’uso e funzionalità avanzati basati sull’intelligenza artificiale con consigli sui prodotti e contenuti per restare all’avanguardia rispetto alla concorrenza e guadagnare su ogni esperienza.
 
