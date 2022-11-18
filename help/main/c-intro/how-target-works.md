@@ -5,9 +5,9 @@ title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
 source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '2583'
-ht-degree: 98%
+ht-degree: 100%
 
 ---
 
@@ -178,7 +178,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    [!DNL Adobe] continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i casi in cui è necessario utilizzare URL separati per i test, [!DNL Adobe] è sicura che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Eseguire esperimenti solo per la durata strettamente necessaria**: [!DNL Adobe] ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] fornisce le best practice e [!DNL Adobe Target] [Calcolatore dimensioni campione] (/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) per determinare quando il test ha raggiunto questo punto. [!DNL Adobe] consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Eseguire esperimenti solo per la durata strettamente necessaria**: [!DNL Adobe] ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] fornisce le best practice e il [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) di [!DNL Adobe Target] per determinare quando il test ha raggiunto questo punto. [!DNL Adobe] consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato durante il completamento del processo di codifica fissa.
 
