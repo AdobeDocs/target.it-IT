@@ -4,10 +4,10 @@ description: Segui i passaggi necessari per implementare Analytics per [!DNL Tar
 title: Come si implementa Analytics per [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: a9504930865531788bbd60f01ee1cc88b125706e
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 25%
+source-wordcount: '1161'
+ht-degree: 24%
 
 ---
 
@@ -48,7 +48,7 @@ Le sezioni seguenti descrivono i passaggi necessari per implementare questa inte
 
 ### Passaggio 1: Richiedere il provisioning per Analytics e Target
 
-Dopo l’implementazione [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], è necessario effettuare il provisioning per [!DNL Analytics] e [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](https://www.adobe.com/go/audiences).
+Dopo l’implementazione [!DNL Analytics] come origine per la generazione di rapporti per [!DNL Target], è necessario effettuare il provisioning per [!DNL Analytics] e [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}.
 
 ### Passaggio 2: Configurare le autorizzazioni utente
 

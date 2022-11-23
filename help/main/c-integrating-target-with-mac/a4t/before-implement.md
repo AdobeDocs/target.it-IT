@@ -1,13 +1,13 @@
 ---
-keywords: Consigli
+keywords: Recommendations
 description: Scopri i requisiti di implementazione per Analytics per [!DNL Target] (A4T) e cosa considerare prima di implementare questa integrazione.
 title: Cosa Devo Sapere Prima Di Implementare A4T?
 feature: Analytics for Target (A4T)
 exl-id: 1c98b20b-4dd1-4011-b0cd-5096471af095
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
-source-wordcount: '983'
-ht-degree: 28%
+source-wordcount: '995'
+ht-degree: 29%
 
 ---
 
@@ -25,7 +25,7 @@ Prima di decidere di utilizzare questa integrazione, consulta le sezioni seguent
 
 >[!IMPORTANT]
 >
->Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’account per l’integrazione. Utilizza la [Modulo di provisioning integrazioni Marketing Cloud](https://www.adobe.com/go/audiences) per richiedere il provisioning.
+>Prima di poter iniziare a utilizzare A4T, è necessario richiedere il provisioning dell’account per l’integrazione. Utilizza la [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank} per richiedere il provisioning.
 
 Questa integrazione A4T richiede l’implementazione delle seguenti versioni della libreria (o più recenti), a seconda che si desideri utilizzare o meno le offerte di reindirizzamento con A4T.
 
@@ -97,7 +97,7 @@ In alcuni casi potrebbe essere utile avere maggiore controllo su quando e come i
 
 ## Pubblico condiviso
 
-Durante il riempimento [Modulo di provisioning integrazioni Marketing Cloud](https://www.adobe.com/go/audiences), essere a conoscenza delle seguenti importanti informazioni riguardanti [!UICONTROL Pubblico condiviso] opzione elencata in &quot;[!UICONTROL Per quali funzionalità richiedi il provisioning]?&quot;
+Durante il riempimento [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}, tieni presente le seguenti informazioni importanti relative al [!UICONTROL Pubblico condiviso] opzione elencata in &quot;[!UICONTROL Per quali funzionalità richiedi il provisioning]?&quot;
 
 ![Modulo di richiesta](/help/main/c-integrating-target-with-mac/a4t/assets/request-form.png)
 
