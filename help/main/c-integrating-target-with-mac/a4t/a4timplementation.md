@@ -4,9 +4,9 @@ description: Segui i passaggi necessari per implementare Analytics per [!DNL Tar
 title: Come si implementa Analytics per [!DNL Target] (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: b5269b9e-01ef-449a-bb03-3dcc2cd68af7
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: f19d7de5b248ab1a55e7aad47d2e445eadf69717
 workflow-type: tm+mt
-source-wordcount: '1161'
+source-wordcount: '1162'
 ht-degree: 24%
 
 ---
@@ -21,7 +21,7 @@ Le sezioni seguenti descrivono i passaggi necessari per implementare questa inte
 
 ### Passaggio 1: Richiedi il provisioning per [!DNL Analytics] e [!DNL Target]
 
-Prima di implementare A4T, è necessario eseguire il provisioning per [!DNL Analytics] e [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](https://adobe.allegiancetech.com/cgi-bin/qwebcorporate.dll?idx=X8SVES).
+Prima di implementare A4T, è necessario eseguire il provisioning per [!DNL Analytics] e [!DNL Target]. [Utilizza questo modulo per richiedere il provisioning](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y).
 
 ### Passaggio 2: Configurare le autorizzazioni utente
 
@@ -33,7 +33,7 @@ Creare una configurazione Edge utilizzando [!DNL Adobe Experience Platform] medi
 
 ### Passaggio 4: Installare e configurare l’SDK per web di Platform
 
-Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di monitoraggio e analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
+Per iniziare a consegnare [!DNL Target] esperienze e applicazione [!DNL Analytics] a fini di tracciamento e di analisi, [Installa](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) e [configurare](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/configuring-the-sdk.html) l’SDK per web di Platform sulle pagine del sito.
 
 ### Passaggio 5: Abilitare le opzioni per l’utilizzo di A4T
 
