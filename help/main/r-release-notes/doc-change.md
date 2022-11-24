@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
 workflow-type: tm+mt
 source-wordcount: '1639'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -20,7 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 23 novembre | [Prima di implementare Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | È stato aggiornato il collegamento alla [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
-| 16 novembre | [Annunci ed eventi Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per il seguente evento:<ul><li>[!DNL Adobe Target] Coffee break Community Q&amp;A (29 novembre)</li></ul> |
+| 16 novembre | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per il seguente evento:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)</li></ul> |
 | 8 novembre | [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | È stata aggiunta una nota importante relativa al fatto che per ottenere risultati precisi è necessario ricaricare la pagina prima di modificare qualsiasi numero di parametro nel [!UICONTROL Calcolatore dimensioni campione] di [!DNL Adobe Target]. È stata aggiunta anche una nota nel [calcolatrore](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){target=_blank} stesso. |
 |  | [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | È stata aggiornata la descrizione del parametro `adobe_mc_sdid` nella tabella. |
 |  | [Risoluzione dei problemi relativi alle attività](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | È stata aggiunta una nuova sezione: “Dopo la conversione dell’attività, il visitatore non è in alcuna esperienza.” |
@@ -30,7 +30,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 19 ottobre | [Affinità tra categorie](/help/main/c-target/c-visitor-profile/category-affinity.md#section_8B86C7FF50294208866ABF16F07D5EB9) | È stata aggiunta una nota che spiega il punteggio quando diverse categorie vengono passate all’interno di una singola chiamata mbox. |
 | 18 ottobre | [Creare un’attività di [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/create-ap-activity.md) | Il testo è stato aggiornato per indicare che anche se è possibile creare fino a 30.000 esperienze in un test AP, l’algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati]. |
 |  | [Domande frequenti su Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization-faq.md) | Il testo è stato aggiornato per indicare che anche se è possibile creare fino a 30.000 esperienze in un test AP, l’algoritmo fornisce prestazioni migliori quando si utilizzano meno di 10.000 esperienze. Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati]. |
-| 14 ottobre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull’evento Community Q&amp;A Coffee Break (26 ottobre 2022) di [!DNL Adobe Target]. |
+| 14 ottobre | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sull’evento Community Q&amp;A Coffee Break (26 ottobre 2022) di [!DNL Adobe Target]. |
 | 10 ottobre | Estensione [[!UICONTROL Helper per editing video]](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Nuovo articolo. |
 |  | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md) | La sezione “[La pagina non viene visualizzata nel Compositore esperienza visivo (solo Compositore esperienza visivo)](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#does-not-load)” è stata aggiornata. |
 | 4 ottobre | [Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md) | Nuovo argomento.<br>Le informazioni contenute in questo articolo sostituiscono il file pdf dei *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito. |
@@ -41,8 +41,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 3 ottobre | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Aggiornate le date per la versione 22.10.1 di [!DNL Target Standard/Premium]. |
-| 22 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (28 settembre 2022)</li></ul> |
-| 15 settembre | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
+| 22 settembre | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (28 settembre 2022)</li></ul> |
+| 15 settembre | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sul seguente webinar:<ul><li>Personalizzazione ottimizzata basata sull’intelligenza artificiale: nuove funzioni in [!DNL Adobe Target] (11 ottobre 2022)</li></ul> |
 | 13 settembre | [Interfaccia utente di  [!DNL Target] ](/help/main/c-intro/understand-the-target-ui.md) | Sono state aggiunte informazioni sulle notifiche quando un feed [!DNL Recommendations] non riesce. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.9.1 di [!DNL Target Standard/Premium]. |
 
@@ -50,7 +50,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 22 agosto | Annunci ed eventi di [[!DNL Adobe Target] ](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti annunci:<ul><li>[!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi previsti:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (31 agosto 2022)</li><li>Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)</li><li>[!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)</li><li>[!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
+| 22 agosto | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti annunci:<ul><li>[!DNL Target] è stato nominato leader nel Quadrante magico di Gartner dedicato ai motori di personalizzazione (2022)</li></ul>Sono state aggiunte informazioni sui seguenti eventi previsti:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (31 agosto 2022)</li><li>Chef&#39;s Collection: Recipes for Personalization (30 agosto 2022)</li><li>[!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)</li><li>[!DNL Adobe Target] Skill Builders: personalizzazione basata sull’intelligenza artificiale e consigli (15 settembre 2022)</li></ul>È stato aggiunto un collegamento di registrazione per la seguente sessione del webinar precedente:<ul><li>Adobe: Personalization Industry Insider - Retail (11 agosto 2022)</li></ul> |
 | 22 agosto | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.8.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.6.1 (rilascio graduale: 7-9 maggio 2022)
