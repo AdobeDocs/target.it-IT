@@ -5,9 +5,9 @@ title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
 source-git-commit: 5dbecfe8eace9da735cfb5a365b0aac6c4e43c68
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1990'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -24,18 +24,18 @@ Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud
 ## [!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)
 
 * **Martedì 29 novembre 2022**
-* **dalle 8:00 alle 9:00 (PST GMT-8)**
+* **dalle 17:00 alle 18:00 CET)**
 * **[Informazioni sulla registrazione](https://adobe.ly/3UtQoxv){target=_blank}**
 
-Ci uniremo a Cristinel Anastasoaie, Senior Product Manager per [!DNL Adobe Target], che risponderà alle tue domande relative al [!DNL Adobe Target] webinar [Personalizzazione basata sull’intelligenza artificiale e Recommendations](#AI).
+A noi si uniranno Cristinel Anastasoaie, Senior Product Manager di [!DNL Adobe Target], che risponderà alle tue domande relative al webinar [!DNL Adobe Target] su [Personalizzazione basata sull’intelligenza artificiale e consigli](#AI).
 
-Assicurati di rivedere la registrazione del webinar e quindi portare le tue domande di follow-up per informazioni complete, spiegazioni più approfondite e suggerimenti strategici per i tuoi casi d&#39;uso unici.
+Assicurati di rivedere la registrazione del webinar e quindi portare le tue domande di follow-up per informazioni complete, spiegazioni più approfondite e suggerimenti strategici per i tuoi casi d’uso specifici.
 
-* Ottimizzare raccomandazioni in tempo reale, attività di personalizzazione con un solo clic e offerte automatizzate
-* Creare e avviare attività di personalizzazione basate sull’intelligenza artificiale utilizzando [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo)
-* Integra con [!DNL Adobe Experience Platform] (AEP) per la condivisione in tempo reale di segmenti e attributi di profilo
+* Consigli di ottimizzazione in tempo reale, attività di personalizzazione con un solo clic e offerte automatizzate
+* Creare e avviare attività di personalizzazione basate sull’intelligenza artificiale utilizzando il [!UICONTROL Compositore esperienza visivo] (VEC)
+* Integrazione con [!DNL Adobe Experience Platform] (AEP) per la condivisione in tempo reale di segmenti e attributi di profilo
 
-[!DNL Adobe] Simon Chen, tecnico del supporto, fornirà ulteriori informazioni e risposte alle tue domande.
+[!DNL Adobe] Simon Chen, ingegnere del supporto tecnico, fornirà ulteriori informazioni approfondite e risposte alle tue domande.
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
