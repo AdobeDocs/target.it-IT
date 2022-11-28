@@ -4,9 +4,9 @@ description: Scopri quale Adobe di dati [!DNL Target] raccoglie e utilizza per c
 title: Quali dati vengono raccolti per creare algoritmi di apprendimento automatico?
 feature: Automated Personalization
 exl-id: 7114a6d6-4779-471e-9b91-646aa49e102a
-source-git-commit: ca1f42b95399fbd136aee27ccec9ed0e38876234
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '2085'
+source-wordcount: '2029'
 ht-degree: 49%
 
 ---
@@ -23,7 +23,7 @@ La tabella seguente mostra i dati raccolti da [!UICONTROL Automated Personalizat
 
 | Categoria dati | Prefisso di sistema | Descrizione | Nome visualizzato in [!UICONTROL Informazioni approfondite] rapporti |
 | --- | --- | --- | --- |
-| Parametri ambiente | ENV | Informazioni sull’ambiente di un utente, compresi sistema operativo, browser e ora del giorno/giorno della settimana. | Browser - [Nome attributo]<br>Sistema operativo - [Valore] |
+| Parametri ambiente | ENV | Informazioni sull’ambiente di un utente, compresi il sistema operativo, il browser e l’ora del giorno/giorno della settimana. | Browser - [Nome attributo]<br>Sistema operativo - [Valore] |
 | Informazioni geografiche | GEO | Informazioni sulla posizione geografica di un utente, ottenute tramite ricerca IP. | Geo - [attributo geo] |
 | Dispositivo mobile | MOB | Informazioni sul dispositivo mobile di un utente. | Dispositivo - [attributo dispositivo]<br>Mobile - [attributo mobile] |
 | Segmenti di reporting di Target | SEG | Segmenti di reporting configurati in [!DNL Target] rapporti. | Segmento di reporting -[Nome segmento] |
@@ -48,9 +48,7 @@ La tabella seguente mostra i dati forniti dal cliente raccolti da [!UICONTROL Au
 
 Le funzionalità possono essere bloccate [!DNL Target] algoritmi di apprendimento automatico, che ne impediscono l’utilizzo in qualsiasi [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization] modello o attività.
 
-Per bloccare una categoria di feature da [!DNL Target] algoritmi di apprendimento automatico, contatto [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) e specifica le categorie di funzionalità che desideri bloccare, utilizzando i prefissi di sistema forniti sopra.
-
-Per bloccare una o più feature specifiche da [!DNL Target] algoritmi di apprendimento automatico, contatto [Adobe Customer Care](/help/main/cmp-resources-and-contact-information.md#section_CC8B206F58D6495C9372D5C0D4055CF6) e specifica i nomi di funzionalità specifici che devono essere bloccati, utilizzando i seguenti nomi di sistema forniti. Le sezioni seguenti contengono informazioni dettagliate sui vari tipi di dati, tra cui nomi di attributi, descrizioni e valori di esempio.
+Per ulteriori informazioni, consulta [Panoramica dell’API dei modelli (Inserire nell&#39;elenco Bloccati)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.
 
 ## Dati mobili e sul dispositivo {#device-mobile}
 

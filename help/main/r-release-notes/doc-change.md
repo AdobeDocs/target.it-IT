@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 231cf7972b7343e02245d12ea9380df8d4b125da
+source-git-commit: 3274423523c0dfddef202cc161882ea6d25a1dff
 workflow-type: tm+mt
-source-wordcount: '1639'
-ht-degree: 98%
+source-wordcount: '1681'
+ht-degree: 96%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 28 novembre | [Panoramica dell’API dei modelli (Inserire nell&#39;elenco Bloccati)](https://developer-stage.adobe.com/target/before-administer/models-api/){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*. | API per nuovi modelli.<br>Le funzionalità possono essere bloccate [!DNL Target] algoritmi di apprendimento automatico, che ne impediscono l’utilizzo in qualsiasi [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization] modello o attività. |
 | 23 novembre | [Prima di implementare Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | È stato aggiornato il collegamento alla [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 novembre | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per il seguente evento:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)</li></ul> |
 | 8 novembre | [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | È stata aggiunta una nota importante relativa al fatto che per ottenere risultati precisi è necessario ricaricare la pagina prima di modificare qualsiasi numero di parametro nel [!UICONTROL Calcolatore dimensioni campione] di [!DNL Adobe Target]. È stata aggiunta anche una nota nel [calcolatrore](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){target=_blank} stesso. |
