@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 8c348f40be8df5018d63c6b6fe75e1f8e804eafc
-workflow-type: ht
-source-wordcount: '1001'
-ht-degree: 100%
+source-git-commit: 6a2071e08b60db90021239a14a1167f79a3ed879
+workflow-type: tm+mt
+source-wordcount: '1056'
+ht-degree: 94%
 
 ---
 
@@ -17,6 +17,12 @@ ht-degree: 100%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## Versione API dei modelli (23 novembre 2022)
+
+Il nuovo [!DNL Adobe Target] L’API Models, denominata anche API Inserire nell&#39;elenco Bloccati, consente agli utenti di visualizzare e gestire l’elenco di funzioni utilizzate nei modelli di apprendimento automatico per [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività.
+
+Per ulteriori informazioni, consulta [Panoramica API dei modelli](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (rilascio scaglionato dal 25 al 27 ottobre 2022)
 
