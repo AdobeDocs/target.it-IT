@@ -4,10 +4,10 @@ description: Trova risposte alle domande sull’utilizzo delle offerte di reindi
 title: Dove posso trovare le domande frequenti sulle offerte di reindirizzamento con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 4706057f-bd8b-4562-94e0-be22b2e19297
-source-git-commit: 8890d29a71506095a166321e324a000b5ad862a6
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '1456'
-ht-degree: 51%
+source-wordcount: '1471'
+ht-degree: 46%
 
 ---
 
@@ -17,11 +17,13 @@ Questo argomento contiene le risposte alle domande più frequenti sull’utilizz
 
 ## Analytics for Adobe Target (A4T) supporta le offerte di reindirizzamento? {#section_46B8B03ED4D542C6AD875F5F61176298}
 
-Sì, se l&#39;implementazione utilizza [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
++++Risposta Sì, se l&#39;implementazione utilizza [!DNL at.js]. Tuttavia, l’implementazione deve soddisfare i requisiti minimi elencati di seguito per utilizzare le [offerte di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md#task_33C80CD722564303B687948261484F94) nelle attività che utilizzano Analytics come origine per la generazione di rapporti.
+
++++
 
 ## Quali sono i requisiti minimi per utilizzare le offerte di reindirizzamento con A4T? {#section_FA9384C2AA9D41EDBCE263FFFD1D9B58}
 
-L’implementazione deve soddisfare i seguenti requisiti minimi:
++++Risposta L&#39;implementazione deve soddisfare i seguenti requisiti minimi:
 
 * Servizio ID visitatore di Experience Cloud: [!DNL visitorAPI.js] versione 2.3.0 o successiva.
 * Adobe Analytics: [!DNL appMeasurement.js] versione 2.1.
@@ -29,13 +31,17 @@ L’implementazione deve soddisfare i seguenti requisiti minimi:
 
 Le tre librerie devono essere incluse sia nella pagina con l’offerta di reindirizzamento sia nella pagina a cui il visitatore viene reindirizzato.
 
++++
+
 ## Perché a volte sono presenti discrepanze di dati tra A4T e Analytics?
 
-È possibile riscontrare alcune discrepanze di dati. Per ulteriori informazioni, consulta [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
++++Risposta Sono previste discrepanze di dati. Per ulteriori informazioni, consulta [Varianze di dati previste tra Target e Analytics durante l’utilizzo con e senza A4T](/help/main/c-integrating-target-with-mac/a4t/understanding-expected-data-variances.md).
+
++++
 
 ## Come ridurre al minimo le discrepanze nella distribuzione del traffico quando si utilizzano offerte di reindirizzamento nelle attività A4T? {#discrepancies}
 
-Un numero limitato di clienti ha segnalato livelli più elevati di varianza nella distribuzione del traffico quando utilizzano offerte di reindirizzamento in attività configurate con [!UICONTROL Analytics for Target] (A4T).
++++Risposta Un numero limitato di clienti ha segnalato livelli più elevati di varianza nella distribuzione del traffico quando utilizzano offerte di reindirizzamento in attività configurate con [!UICONTROL Analytics for Target] (A4T).
 
 Considera i seguenti aspetti:
 
@@ -48,9 +54,11 @@ Considera i seguenti aspetti:
 
    Esecuzione dell’attività di reindirizzamento sulla prima [!DNL Target] la richiesta di posizione riduce le possibilità che eventuali qualifiche di attività si verifichino su altri [!DNL Target] richieste di posizione e vengono conteggiate nel rapporto. I visitatori reindirizzati non devono essere conteggiati nei rapporti di altre attività, in quanto non vedranno le esperienze.
 
++++
+
 ## Perché a volte vengono conteggiate le visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento? {#section_B8F6CC2190B84CF08D945E797C5AF07B}
 
-Quando si utilizza at.js versione 1.6.3 o successiva, il conteggio delle visualizzazioni di pagina su entrambe le pagine non è un problema. Questa situazione di tipo “race condition” interessa solo i clienti che utilizzano versioni precedenti. Il team di Target gestisce solo due versioni di at.js: la versione corrente e quella immediatamente precedente. Aggiorna at.js per assicurarti di eseguire un [versione supportata](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
++++Risposta Quando si utilizza at.js versione 1.6.3 o successiva, il conteggio delle visualizzazioni di pagina in entrambe le pagine non è un problema. Questa situazione di tipo “race condition” interessa solo i clienti che utilizzano versioni precedenti. Il team di Target gestisce solo due versioni di at.js: la versione corrente e quella immediatamente precedente. Aggiorna at.js per assicurarti di eseguire un [versione supportata](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 Se utilizzi una versione precedente e non supportata di at.js, si potrebbe verificare una situazione di tipo “race condition” a causa della quale potrebbe essere attivata una chiamata Analytics prima che sulla prima pagina sia stato eseguito il reindirizzamento. Questa situazione può determinare il conteggio delle visualizzazioni di pagina nella pagina originale e nella pagina di reindirizzamento. Questa situazione si traduce in una visualizzazione di pagina in più sulla prima pagina, anche se il visitatore non ha mai effettivamente “visualizzato” questa prima pagina.
 
@@ -58,15 +66,19 @@ Si consiglia di utilizzare il compositore basato su moduli per creare un’attiv
 
 Potrebbe essere utile usare offerte di reindirizzamento per tutte le esperienze dell’attività, inclusa quella predefinita (esperienza di controllo), ad esempio, per inserire le stesse condizioni in tutte le esperienze. Supponiamo che sia stata impostata un’offerta di reindirizzamento per tutte le esperienze eccetto quella predefinita: la velocità dell’esperienza priva di offerta di reindirizzamento sarà avvantaggiata. Le offerte di reindirizzamento sono consigliate solo per scenari temporanei, ad esempio a scopo di test. Le offerte di reindirizzamento non sono consigliate per scenari permanenti, ad esempio a scopo di personalizzazione. Dopo aver determinato il vincitore, rimuovi il reindirizzamento per migliorare le prestazioni di caricamento della pagina.
 
++++
+
 ## Il Compositore esperienza visivo e il Compositore esperienza basato su moduli sono entrambi supportati? {#section_FDA26FE7909B48539DA770559E687677}
 
-Sì, entrambi i compositori sono supportati purché si utilizzano le offerte di reindirizzamento integrate.
++++Risposta Sì, entrambi i compositori sono supportati purché si utilizzano le offerte di reindirizzamento integrate.
 
 Se utilizzi un codice personalizzato per il reindirizzamento, assicurati di compilare i due nuovi parametri associati agli URL di reindirizzamento (`adobe_mc_sdid` e `adobe_mc_ref`, descritti di seguito).
 
++++
+
 ## Quali sono i nuovi parametri della stringa di query aggiunti agli URL di reindirizzamento? {#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682}
 
-I seguenti parametri di stringa di richiesta sono associati alle offerte di reindirizzamento:
++++Risposta I seguenti parametri della stringa di query sono associati alle offerte di reindirizzamento:
 
 | Parametro | Descrizione |
 |--- |--- |
@@ -75,13 +87,17 @@ I seguenti parametri di stringa di richiesta sono associati alle offerte di rein
 
 Questi parametri vengono aggiunti automaticamente agli URL di reindirizzamento quando si utilizzano le offerte di reindirizzamento integrate nel Compositore esperienza visivo e nel Compositore esperienza basato su modulo quando il servizio ID visitatore viene implementato nella pagina. Se utilizzi un codice di reindirizzamento personalizzato nel Compositore esperienza visivo o nel Compositore basato su moduli, assicurati di passare questi parametri con il codice personalizzato.
 
++++
+
 ## I miei server web rimuovono questi parametri dai miei URL, cosa devo fare? {#section_0C2DDB72939F4875B6D0428B8DCB38E5}
 
-Collabora con il tuo team IT per disporre di questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`) inserita nell&#39;elenco Consentiti.
++++Risposta Collabora con il tuo team IT per disporre di questi parametri ( `adobe_mc_sdid` e `adobe_mc_ref`) inserita nell&#39;elenco Consentiti.
+
++++
 
 ## Cosa succede se non uso A4T con la mia attività di reindirizzamento e non voglio che questi parametri vengano aggiunti ai miei URL? {#section_9E608D75FF9349FE96C65FEDD7539F45}
 
-Utilizza un reindirizzamento con codice personalizzato se:
++++Risposta Utilizzare un reindirizzamento con codice personalizzato se:
 
 * Non utilizzi A4T con l’attività di reindirizzamento
 * Hai implementato il servizio ID visitatore
@@ -89,25 +105,33 @@ Utilizza un reindirizzamento con codice personalizzato se:
 
 Tuttavia, come best practice, è possibile mantenere il parametro `adobe_mc_ref` nell’URL per segnalare correttamente le informazioni di riferimento a [!DNL Analytics].
 
++++
+
 ## Perché i parametri adobe_mc_ref e adobe_mc_sdid sono codificati con doppio URL nella mia implementazione? {#section_5EFE5F012B944C40865731EA18E7E79E}
 
-Se utilizzi A4T e le offerte di reindirizzamento, Target aggiunge i parametri `adobe_mc_ref` e `adobe_mc_sdid` all’URL. Questi valori sono già codificati nell’URL. Nella maggior parte dei casi tutto funziona come previsto, tuttavia alcuni clienti potrebbero usare bilanciatori di carico o server web che tentano di codificare nuovamente i parametri della stringa di query.
++++Risposta Se utilizzi A4T e le offerte di reindirizzamento, Target aggiunge la `adobe_mc_ref` e `adobe_mc_sdid` all&#39;URL. Questi valori sono già codificati nell’URL. Nella maggior parte dei casi tutto funziona come previsto, tuttavia alcuni clienti potrebbero usare bilanciatori di carico o server web che tentano di codificare nuovamente i parametri della stringa di query.
 
 A causa di questa doppia codifica quando l’API dei visitatori tenta di decodificare il valore `adobe_mc_sdid`, non può estrarre il valore SDID e genera un nuovo SDID. Questo processo causa l’invio di valori SDID errati a Target e Analytics e la suddivisione irregolare dei reindirizzamenti nei rapporti di Analytics.
 
 L&#39;Adobe consiglia di parlare con il team IT per assicurarsi che `adobe_mc_ref` e `adobe_mc_sdid` sono inseriti nell&#39;elenco Consentiti in modo che questi valori non vengano trasformati in alcun modo.
 
++++
+
 ## Perché l’URL di riferimento deve essere passato alla nuova pagina? {#section_91AB8B0891F6416CBF7E973DCAF54EB5}
 
-Supponiamo che un visitatore faccia clic su un collegamento [!DNL `www.google.com`] alla tua homepage (`www.mysite.com/index.html`) su cui è live un’attività di reindirizzamento e viene quindi reindirizzata a una nuova pagina (`www.mysite.com/index2.html`).
++++Risposta Supponiamo che un visitatore faccia clic su un collegamento [!DNL `www.google.com`] alla tua homepage (`www.mysite.com/index.html`) su cui è live un’attività di reindirizzamento e viene quindi reindirizzata a una nuova pagina (`www.mysite.com/index2.html`).
 
 In precedenza, la richiesta di [!DNL Analytics] della nuova pagina avrebbe segnalato l’URL di riferimento [!DNL `www.mysite.com/index.html`] anziché [!DNL `www.google.com`]. Questo causava una segnalazione inesatta in [!DNL Analytics] associata agli URL di riferimento (ad esempio nei rapporti Canale marketing,). Nei rapporti andava perso il fatto che il visitatore era giunto al sito da [!DNL `www.google.com`].
 
 Con [!DNL at.js] versione 0.9.6 (o successiva) e [!DNL AppMeasurement.js] 2.1 (o successiva), il [!DNL Analytics] richiesta nella nuova pagina segnala un URL di riferimento di [!DNL `www.google.com`].
 
++++
+
 ## Posso usare le offerte di reindirizzamento personalizzate/HTML? {#section_E49F9A83A286488C8F1098A040203D7E}
 
-No, è necessario utilizzare un’offerta di reindirizzamento integrata per attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T). Dal punto di vista di [!DNL Target], le offerte HTML sono opache: [!DNL Target] non può sapere che un particolare pezzo di HTML contiene JavaScript che crea un’istanza di un reindirizzamento.
++++Risposta No, è necessario utilizzare un&#39;offerta di reindirizzamento integrata per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T). Dal punto di vista di [!DNL Target], le offerte HTML sono opache: [!DNL Target] non può sapere che un particolare pezzo di HTML contiene JavaScript che crea un’istanza di un reindirizzamento.
+
++++
 
 ## ![Badge Adobe Experience Platform Web SDK](/help/main/assets/platform.png) Effettua la [!DNL Adobe Experience Platform Web SDK] supportare le offerte di reindirizzamento per A4T? {#platform}
 
@@ -115,12 +139,18 @@ Le seguenti domande frequenti forniscono ulteriori informazioni sull’utilizzo 
 
 ### Analytics for Target (A4T) supporta le offerte di reindirizzamento?
 
-Sì, A4T tramite l’SDK per web di Platform supporta [offerte di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
++++Risposta Sì, supporta A4T tramite l’SDK per web di Platform [offerte di reindirizzamento](/help/main/c-experiences/c-manage-content/offer-redirect.md).
+
++++
 
 ### Sono [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) e [!UICONTROL Compositore esperienza basato su moduli] supportato?
 
-Sì, il [[!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (Compositore esperienza visivo) e [[!UICONTROL Compositore esperienza basato su moduli]](/help/main/c-experiences/form-experience-composer.md) sono supportate se utilizzi offerte di reindirizzamento integrate.
++++Risposta Sì, la [[!UICONTROL Compositore esperienza visivo]](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (Compositore esperienza visivo) e [[!UICONTROL Compositore esperienza basato su moduli]](/help/main/c-experiences/form-experience-composer.md) sono supportate se utilizzi offerte di reindirizzamento integrate.
+
++++
 
 ### Posso utilizzare le offerte di reindirizzamento personalizzate/HTML con [!DNL Platform Web SDK]?
 
-No, devi utilizzare un’offerta di reindirizzamento integrata per attività che utilizzano A4T. Da [!DNL Target] prospettiva, le offerte HTML sono opache. [!DNL Target] Non è possibile sapere che un particolare pezzo di HTML contiene JavaScript che crea un&#39;istanza di un reindirizzamento.
++++Risposta No, è necessario utilizzare un’offerta di reindirizzamento integrata per le attività che utilizzano A4T. Da [!DNL Target] prospettiva, le offerte HTML sono opache. [!DNL Target] Non è possibile sapere che un particolare pezzo di HTML contiene JavaScript che crea un&#39;istanza di un reindirizzamento.
+
++++

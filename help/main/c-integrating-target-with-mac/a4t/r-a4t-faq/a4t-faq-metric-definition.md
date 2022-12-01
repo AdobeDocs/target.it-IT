@@ -4,10 +4,10 @@ description: Trova risposte alle domande sulle definizioni metriche e sull’uti
 title: Dove posso trovare informazioni sulle definizioni delle metriche con A4T?
 feature: Analytics for Target (A4T)
 exl-id: 97442622-ba6d-46f8-bfac-72638875d889
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: aff96eca1380f4274dba0c1567f6e41d42f4b5ab
 workflow-type: tm+mt
-source-wordcount: '373'
-ht-degree: 38%
+source-wordcount: '377'
+ht-degree: 29%
 
 ---
 
@@ -17,11 +17,13 @@ Questo argomento contiene le risposte alle domande più frequenti sulle definizi
 
 ## Qual è la scadenza per l’appartenenza all’attività? Per quanto tempo dopo che i visitatori accedono all’attività, le loro azioni vengono conteggiate nell’attività se non la visualizzano nuovamente? {#section_41B4958F33534E4B96DEE0C981227A79}
 
-La scadenza predefinita per un’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questa impostazione può essere regolata da ClientCare. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
++++Risposta La scadenza predefinita per l’attività è di 90 giorni dopo l’ultima interazione di un visitatore con l’attività. Se necessario, questa impostazione può essere regolata da ClientCare. Tuttavia, questa impostazione è globale per tutte le attività, quindi non deve essere regolata per un solo caso.
+
++++
 
 ## Durante la configurazione delle metriche dell’obiettivo, perché non posso accedere alle opzioni Impostazioni avanzate? {#adv-settings}
 
-La [!UICONTROL Impostazioni avanzate] le opzioni non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
++++Risposta [!UICONTROL Impostazioni avanzate] le opzioni non sono disponibili per le attività che utilizzano [!DNL Analytics] come origine per la generazione di rapporti (A4T).
 
 Per le attività che utilizzano A4T, la metrica obiettivo utilizza sempre il valore &quot;[!UICONTROL Incrementa il conteggio e mantieni l’utente nell’attività]&quot; e &quot;[!UICONTROL A ogni impression]&quot; impostazioni. Queste impostazioni sono *not* configurabile.
 
@@ -29,10 +31,16 @@ Per le attività non A4T, puoi utilizzare il [Opzioni Impostazioni avanzate](/he
 
 ![Impostazioni avanzate](/help/main/c-activities/r-success-metrics/assets/advanced-settings.png)
 
++++
+
 ## Quali sono le metriche calcolate e come sostituiscono la mbox SiteCatalyst:Event che utilizzo abitualmente? {#section_D59F4719E6B94758A2187427C17F8EF3}
 
-Le metriche calcolate consentono di creare metriche personalizzate derivate da segmenti o calcoli matematici. In passato, potresti aver utilizzato la mbox `SiteCatlayst:Event` dove `evar27=shoes` e l’evento è `purchase` (acquisto). Ora crei un segmento in cui `evar27=shoes` e quindi crei una metrica calcolata in cui l’evento è `purchase` (acquisto) con il segmento applicato. Queste metriche possono essere create in qualsiasi momento, anche dopo che l’attività è in corso. Possono quindi essere utilizzate in qualsiasi rapporto in Analytics.
++++Risposta Le metriche calcolate consentono di creare metriche personalizzate derivate da segmenti o calcoli matematici. In passato, potresti aver utilizzato la mbox `SiteCatlayst:Event` dove `evar27=shoes` e l’evento è `purchase` (acquisto). Ora crei un segmento in cui `evar27=shoes` e quindi crei una metrica calcolata in cui l’evento è `purchase` (acquisto) con il segmento applicato. Queste metriche possono essere create in qualsiasi momento, anche dopo che l’attività è in corso. Possono quindi essere utilizzate in qualsiasi rapporto in Analytics.
+
++++
 
 ## A4T attribuisce conversioni a più campagne? {#section_7F15C727206440CD86B3A8CE77087DF9}
 
-Sì, utilizzando l’impostazione &quot;Allocazione completa&quot;.
++++Risposta Sì, utilizzando l&#39;impostazione &quot;Allocazione completa&quot;.
+
++++
