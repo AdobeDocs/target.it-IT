@@ -6,9 +6,9 @@ title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 5566393192b131b837fece1bb2a6781e2f953190
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '1055'
-ht-degree: 94%
+ht-degree: 100%
 
 ---
 
@@ -18,11 +18,11 @@ Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e 
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
-## Versione API dei modelli (23 novembre 2022)
+## Rilascio di Models API (23 novembre 2022)
 
-Il nuovo [!DNL Adobe Target] L’API Models, denominata anche API Inserire nell&#39;elenco Bloccati, consente agli utenti di visualizzare e gestire l’elenco di funzioni utilizzate nei modelli di apprendimento automatico per [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività.
+Le nuove Models API di [!DNL Adobe Target], dette anche “API per modelli” o “API per elenco Bloccati”, consentono agli utenti di visualizzare e gestire l’elenco dielle funzioni utilizzate nei modelli di apprendimento automatico per le attività di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (TA).
 
-Per ulteriori informazioni, consulta [Panoramica API dei modelli](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nel *Guida per gli sviluppatori di Adobe Target*.
+Per ulteriori informazioni, consulta [Panoramica di Models API](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*.
 
 ## [!DNL Target] Standard/Premium 22.10.3 (rilascio scaglionato dal 25 al 27 ottobre 2022)
 
@@ -59,7 +59,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 | --- | --- |
 | [!DNL Adobe Experience Manager] Frammenti esperienza (AEM) | Gli aggiornamenti relativi alla funzionalità dei frammenti di esperienza AEM includono:<ul><li>È stata aggiunta la possibilità di filtrare i Frammenti di esperienza di (AEM) per tipo (HTML o JSON) nell’elenco delle [!UICONTROL Offerte]. (TGT-43121)</li><li>È stato risolto un problema che consentiva ai clienti di inserire offerte di [!UICONTROL Frammenti di esperienza] JSON utilizzando il Compositore esperienza visivo (VEC), azione che non è supportata. Le offerte JSON possono essere inserite esclusivamente utilizzando il [!UICONTROL Compositore esperienza basato su moduli]. (TGT-43846)</li></ul>Per ulteriori informazioni, consulta i [Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). |
 | Nuova estensione [!UICONTROL Compositore esperienza visivo] per Google Chrome | Nel Chrome Web Store, è disponibile una nuova estensione per il [!UICONTROL Compositore esperienza visivo] (VEC) di [!DNL Adobe Target] per Chrome.<br>A partire dal mese di gennaio 2023, l’attuale estensione [!DNL Target] VEC Helper cesserà di funzionare in Google Chrome perché Google non consentirà l’utilizzo di estensioni basate su Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno.<br>I seguenti collegamenti mostrano le due estensioni nel Chrome Web Store:<ul><li>[Nuova estensione](https://chrome.google.com/webstore/detail/adobe-experience-cloud-vi/kgmjjkfjacffaebgpkpcllakjifppnca){target=_blank}</li><li>[Estensione precedente](https://chrome.google.com/webstore/detail/adobe-target-vec-helper/ggjpideecfnbipkacplkhhaflkdjagak){target=_blank}</li></ul>Per ulteriori informazioni, consulta [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). |
-| Aggiornamenti della documentazione | Gli aggiornamenti principali della documentazione includono:<ul><li>La [Documentazione delle API per l’amministrazione e il reporting di Adobe Target](https://developer.adobe.com/target/administer/admin-api/){target=_blank} nuova e aggiornata include una copertura completa degli endpoint API di amministrazione e reporting, tra cui proprietà, offerte, host, ambienti, client, tipi di pubblico, attività e molto altro ancora.<br>Consulta la documentazione e altri contenuti per sviluppatori nella sezione Guida per gli sviluppatori di [[!DNL Adobe Target] ](https://developer.adobe.com/target/){target=_blank}.</li><li>[Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target].<br>Le informazioni contenute in questo articolo sostituiscono il file pdf dei *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito.</li></ul> |
+| Aggiornamenti della documentazione | Gli aggiornamenti principali della documentazione includono:<ul><li>La [Documentazione delle API per l’amministrazione e il reporting di Adobe Target](https://developer.adobe.com/target/administer/admin-api/){target=_blank} nuova e aggiornata include una copertura completa degli endpoint API di amministrazione e reporting, tra cui proprietà, offerte, host, ambienti, client, tipi di pubblico, attività e molto altro ancora.<br>Consulta la documentazione e altri contenuti per sviluppatori nella sezione [[!DNL Adobe Target] [!UICONTROL Guida per gli sviluppatori]](https://developer.adobe.com/target/){target=_blank}.</li><li>[Calcoli statistici nei test A/Bn](/help/main/c-reports/statistical-methodology/statistical-calculations.md)<br>Questo articolo documenta i calcoli statistici dettagliati utilizzati nei test A/Bn manuali in [!DNL Adobe Target].<br>Le informazioni contenute in questo articolo sostituiscono il file pdf dei *Calcoli di Adobe Target per test A/B* precedentemente disponibile per il download su questo sito.</li></ul> |
 
 * È stato risolto un problema che impediva la corretta visualizzazione delle informazioni sulle regole del pubblico nella finestra [!UICONTROL Perfezionamenti dei tipi di pubblico]. (TGT-43917)
 * Sono state migliorate le prestazioni dell’interfaccia utente di [!DNL Target] durante il caricamento dei tipi di pubblico che si avvicinano al [limite consigliato per le regole di targeting](/help/main/r-troubleshooting-target/target-limits.md#targeting-rules). (TGT-43675)
