@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 195028613dec0294c816703b9145e720e3209d74
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1761'
-ht-degree: 100%
+source-wordcount: '1778'
+ht-degree: 99%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 14 dicembre | [Impostazioni dei rapporti](/help/main/c-reports/c-report-settings/report-settings.md#environment) | È stata aggiunta una nota nella sezione &quot;Ambiente&quot; sull’utilizzo di [!DNL Adobe Experience Platform] (AEP) per inviare dati di metrica a [!DNL Target]. |
 | 29 novembre | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Testo semplificato con aggiunta del seguente paragrafo:<ul><li>Le informazioni geografiche di un visitatore sono determinate dall’indirizzo IP di origine di una richiesta di posizione [!DNL Target] (richiesta mbox). La risoluzione IP-to-geo viene eseguita per la prima chiamata di una nuova sessione. Ciò significa che, se l’indirizzo IP di un visitatore cambia durante la sessione di una visita, le informazioni geografiche si basano comunque sull’indirizzo IP della prima chiamata.</li></ul> |
 | 28 novembre | [Panoramica di Models API (Inserimento in elenco Bloccati)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. | Nuove API per modelli.<br>È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization]. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sul rilascio di Models API (23 novembre 2022). |

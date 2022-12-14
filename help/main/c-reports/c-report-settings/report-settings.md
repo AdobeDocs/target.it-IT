@@ -4,10 +4,10 @@ description: Scopri come configurare le impostazioni dei rapporti in Adobe Targe
 title: Come Si Configurano Le Impostazioni Dei Rapporti?
 feature: Reports
 exl-id: 337579d1-c678-43b6-9e80-b5abe159c2d3
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7de7bb1b3bc70a559d41edece8cae2d388cb0dda
 workflow-type: tm+mt
-source-wordcount: '1923'
-ht-degree: 66%
+source-wordcount: '1959'
+ht-degree: 65%
 
 ---
 
@@ -145,9 +145,14 @@ Seleziona la metodologia desiderata:
 
 Seleziona l’esperienza di controllo da utilizzare per calcolare e confrontare l’incremento.
 
-### Ambiente
+### Ambiente {#environment}
 
 Seleziona l’ambiente (gruppo host) da utilizzare per il rapporto. Per ulteriori informazioni, consulta [Host](/help/main/administrating-target/hosts.md#concept_516BB01EBFBD4449AB03940D31AEB66E).
+
+>[!NOTE]
+>
+>Se la tua organizzazione utilizza [Adobe Experience Platform](https://experienceleague.adobe.com/docs/experience-platform/landing/home.html){target=_blank} (AEP) per inviare dati di metriche a [!DNL Target], l’ambiente in AEP Datastream deve corrispondere all’ambiente nel [!DNL Target] impostazioni del report.
+
 
 ### Ripristina dati dei rapporti
 
