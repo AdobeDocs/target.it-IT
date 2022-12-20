@@ -4,10 +4,10 @@ description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe
 title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 3a11b368838adb4a6b4f99249db260da8f3f423b
+source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
 workflow-type: tm+mt
-source-wordcount: '698'
-ht-degree: 38%
+source-wordcount: '868'
+ht-degree: 30%
 
 ---
 
@@ -60,6 +60,14 @@ Per informazioni su come indirizzare un’offerta a tipi di pubblico specifici, 
 ## Avvertenze
 
 * È importante comprendere che i gruppi di reporting influiscono su come [!DNL Target] crea i suoi modelli. Di conseguenza, [!DNL Adobe] consiglia di utilizzare i gruppi di reporting solo se si prevede di sostituire o aggiungere nuove offerte mentre un&#39;attività è in esecuzione. Se viene introdotta una nuova offerta in un’attività live, inserirla in un gruppo con offerte simili esistenti consente al computer di utilizzare i dati già raccolti per le altre offerte del gruppo per conoscere la nuova offerta. È sconsigliabile mettere tutte le offerte in un unico gruppo di rapporti.
+
+* Le attività di Personalizzazione automatizzata hanno combinazioni di posizione+offerta (modelli). Quando [!DNL Target] i dati registrati nelle relazioni, [!DNL Target] considera tali combinazioni in modo che sia chiaro da quale evento (visualizzazione, clic e così via) è arrivata l&#39;offerta.
+
+   Ad esempio, un’attività potrebbe avere diverse posizioni e diverse offerte, che potrebbero sovrapporsi. Se un visitatore visualizza più di una di queste offerte in posizioni diverse, [!DNL Target] registra i dati solo per tali offerte. Se lo stesso visitatore fa clic successivamente su un’offerta, [!DNL Target] registra un evento solo da tale combinazione (non per tutte le combinazioni).
+
+   Allo stesso modo, se il clic proviene da una posizione diversa, presente in una metrica, ma che non visualizza un’offerta, questo evento viene registrato nell’attività, ma non per alcuna combinazione offerta+posizione. Di conseguenza, questa offerta non viene visualizzata nel gruppo di reporting delle offerte.
+
+   Questo comportamento è dovuto al fatto che il clic potrebbe essere effettuato da una mbox diversa e non dalla mbox che ha servito l&#39;offerta. Per questo motivo, la metrica è associata all’attività , ma non all’offerta.
 
 ## Visualizzare le offerte in un gruppo di reporting
 
