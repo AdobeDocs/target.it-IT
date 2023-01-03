@@ -4,7 +4,7 @@ description: Informazioni sulle risorse aggiuntive per scoprire di più sulle fu
 title: Dove posso trovare risorse e informazioni di contatto per Target?
 feature: Release Notes,Overview
 exl-id: 0433133c-933a-4d30-bab6-589395f0c9d6
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 69c610d930582defa031103ea0ba848753e675a9
 workflow-type: tm+mt
 source-wordcount: '1223'
 ht-degree: 98%
@@ -120,7 +120,7 @@ Siamo lieti di ricevere qualsiasi suggerimento o commento sulla soluzione. È po
 
 ### Note legali {#section_A6E1844D4AC2485CADBF6D05116E3D59}
 
-* © 2022 Adobe Systems Incorporated. All Rights Reserved.
+* © 2023 Adobe Systems Incorporated. All Rights Reserved.
 * Published by Adobe Systems Incorporated.
 
 [Termini d&#39;uso](https://www.adobe.com/legal/terms.html)
