@@ -4,9 +4,9 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 14179bd7081d4910df83f3e9138758975c992bd3
+source-git-commit: 92851dc763f9bc6bb5a26a449d0f08bceceb583f
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 52%
 
 ---
@@ -29,7 +29,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 * È stato aggiunto il supporto per le offerte JSON in [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460)
 * È stata aggiunta la possibilità di cercare e filtrare le offerte per tag AEM. (TGT-43837)
-* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nel flusso di lavoro del Compositore esperienza visivo. L&#39;opzione è ora &quot;[!UICONTROL HTML XF]&quot;.
+* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nel flusso di lavoro del Compositore esperienza visivo. L&#39;opzione è ora &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Aggiunta la possibilità di visualizzare i metadati dell’offerta del frammento esperienza nella descrizione dei comandi per le informazioni sull’offerta. (TGT-43838)
 * Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni dall&#39;AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e [!UICONTROL Attributi importanti] nei rapporti [!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e per migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
 * È stata rimossa la possibilità di modificare le [!UICONTROL Come obiettivo di ottimizzazione] l&#39;impostazione [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è stata pubblicata. (TGT-43923)
