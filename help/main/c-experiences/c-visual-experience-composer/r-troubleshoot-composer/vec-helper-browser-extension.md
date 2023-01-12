@@ -4,10 +4,10 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l’estensione helper del Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: 3f38db69-046d-42c9-8c09-eca11d404b12
-source-git-commit: 8612928e647c6c11a40b499001261be3a8521648
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1058'
-ht-degree: 58%
+source-wordcount: '1108'
+ht-degree: 59%
 
 ---
 
@@ -19,15 +19,17 @@ Il browser VEC Helper è un’estensione Chrome. Questa estensione non è necess
 
 >[!IMPORTANT]
 >
->A partire da gennaio 2023, la [!DNL Target] L’estensione VEC Helper smetterà di funzionare in Google Chrome perché Google non consente le estensioni che utilizzano Manifest V2. Scarica la nuova estensione per continuare a creare visivamente i tuoi siti web in [!DNL Target] a partire dal nuovo anno. Per ulteriori informazioni, consulta [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md).
+>La corrente [!DNL Target] L’estensione VEC Helper documentata in questo articolo è stata creata utilizzando Manifest v2. Google ha recentemente annunciato che non consentirà più nuove estensioni create utilizzando Manifest v2.
+>
+>L&#39;estensione esistente funziona ancora in Google Chrome. In futuro, [!DNL Adobe] diventerà obsoleta l&#39;estensione helper documentata in questo argomento e richiederà ai clienti di passare alla nuova [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). Riceverai una notifica tramite note sulla versione e testo in questo articolo quando questa estensione smetterà di funzionare. Tuttavia, a causa dei miglioramenti della sicurezza in Manifest v3, [!DNL Adobe] consiglia di scaricare la nuova estensione per continuare a creare visivamente i siti web in [!DNL Target].
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
 * Il sito web dispone di criteri di sicurezza rigidi.
 * Il sito web si trova in un iframe.
 * La libreria at.js non è ancora implementata sul sito web.
-* Il sito per il controllo qualità e/o il sito di stage del cliente non è disponibile nel mondo esterno (il sito è interno).
-* Attualmente esistono alcune limitazioni riguardanti l’utilizzo del Compositore esperienza visivo per aprire un sito web che utilizza [processi di lavoro dei servizi](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API) {target=_blank} (SW, Service Workers).
+* Il sito per il controllo qualità o il sito di staging del cliente non è disponibile nel mondo esterno (è un sito interno).
+* Esistono alcune limitazioni attuali quando si tenta di utilizzare il Compositore esperienza visivo per aprire un sito web che utilizza [Lavoratori del servizio](https://developer.mozilla.org/en-US/docs/Web/API/Service_Worker_API){target=_blank} (SW).
 
 Un SW è una tecnologia web che può essere utilizzata per intercettare le richieste verso il dominio in cui è installato da una pagina web. SW sopravvive alla visita della pagina e si attiva nelle visite successive. SW decide quali richieste passare e quali vengono invece intercettate e servite da una cache.
 
@@ -48,7 +50,7 @@ L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento 
 
    Nota che utilizzando il Compositore esperienza avanzato (EEC), l’estensione non inserisce at.js, ma la funzionalità Cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
 
-* [Riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza [!UICONTROL Compositore esperienza avanzato] (CEE) n.
+* [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato].
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
 * I partner che gestiscono siti web e account [!DNL Target] di più clienti ora hanno a disposizione un meccanismo semplice per supportare il caricamento del Compositore esperienza visivo, anziché gestire più regole in strumenti di terze parti.
 
@@ -72,7 +74,7 @@ L’estensione VEC Helper per il browser Chrome risolve problemi di caricamento 
 
    ![L’opzione Cookie nell’estensione VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/assets/cookies-vec-helper.png)
 
-   Per ulteriori informazioni sulla `SameSite=None` correzione dell’attributo del browser, vedi &quot;In che modo i criteri di imposizione dei cookie SameSite di Google Chrome annunciati di recente influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?&quot; in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
+   Per ulteriori informazioni sulla correzione dell’attributo del browser `SameSite=None`, consulta “In che modo i criteri di imposizione dei cookie SameSite di Google Chrome recentemente annunciati influiscono sul Compositore esperienza visivo e sul Compositore esperienza avanzato?” in [Risoluzione dei problemi relativi al Compositore esperienza visivo e al Compositore esperienza avanzato](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/issues-related-to-the-visual-experience-composer-vec-and-enhanced-experience-composer-eec.md#samesite).
 
 ## Note
 

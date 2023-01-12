@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
 workflow-type: tm+mt
-source-wordcount: '1824'
-ht-degree: 100%
+source-wordcount: '1830'
+ht-degree: 97%
 
 ---
 
@@ -19,15 +19,17 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 12 gennaio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata una nota importante che spiega lo stato dell&#39;attuale [!UICONTROL Compositore esperienza visivo] estensione helper. |
+|  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease relative alla versione 22.13.3. |
 | 21 dicembre | [Personalizzare una progettazione utilizzando Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | È stato chiarito che gli attributi di entità inviati a [!DNL Recommendations] nella mbox `productPage` o nel caricamento del CSV possono essere visualizzati in una progettazione, ad eccezione degli attributi con più valori. |
 | 20 dicembre | [Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Sono state aggiunte ulteriori informazioni sui gruppi di reporting in “Avvertenze”. |
 | 14 dicembre | [Impostazioni dei rapporti](/help/main/c-reports/c-report-settings/report-settings.md#environment) | È stata aggiunta una nota nella sezione “Ambiente” sull’utilizzo di [!DNL Adobe Experience Platform] (AEP) per inviare dati metrici a [!DNL Target]. |
 | 29 novembre | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Testo semplificato con aggiunta del seguente paragrafo:<ul><li>Le informazioni geografiche di un visitatore sono determinate dall’indirizzo IP di origine di una richiesta di posizione [!DNL Target] (richiesta mbox). La risoluzione IP-to-geo viene eseguita per la prima chiamata di una nuova sessione. Ciò significa che, se l’indirizzo IP di un visitatore cambia durante la sessione di una visita, le informazioni geografiche si basano comunque sull’indirizzo IP della prima chiamata.</li></ul> |
-| 28 novembre | [Panoramica di Models API (Inserimento in elenco Bloccati)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. | Nuove API per modelli.<br>È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization]. |
+| 28 novembre | [Panoramica dell’API dei modelli (Inserire nell&#39;elenco Bloccati)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in *Guida per gli sviluppatori di Adobe Target*. | Nuove API per modelli.<br>È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization]. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sul rilascio di Models API (23 novembre 2022). |
 | 23 novembre | [Prima di implementare Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | È stato aggiornato il collegamento al [Modulo di provisioning integrazioni Experience Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 novembre | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per il seguente evento:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)</li></ul> |
-| 8 novembre | [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | È stata aggiunta una nota importante relativa al fatto che per ottenere risultati precisi è necessario ricaricare la pagina prima di modificare qualsiasi numero di parametro nel [!UICONTROL Calcolatore dimensioni campione] di [!DNL Adobe Target]. È stata aggiunta anche una nota nel [calcolatrore](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){target=_blank} stesso. |
+| 8 novembre | [Per quanto tempo si deve eseguire un test A/B?](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) | È stata aggiunta una nota importante relativa al fatto che per ottenere risultati precisi è necessario ricaricare la pagina prima di modificare qualsiasi numero di parametro nel [!UICONTROL Calcolatore dimensioni campione] di [!DNL Adobe Target]. È stata aggiunta anche una nota nel [calcolatrice](https://experienceleague.adobe.com/tools/calculator/testcalculator.html?lang=it){target=_blank}. |
 |  | [Offerte di reindirizzamento: domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#section_BA73E8B3CFCC4CBEB5BE3F76B2BC8682) | È stata aggiornata la descrizione del parametro `adobe_mc_sdid` nella tabella. |
 |  | [Risoluzione dei problemi relativi alle attività](/help/main/c-activities/c-troubleshooting-activities/troubleshooting-activities.md) | È stata aggiunta una nuova sezione: “Dopo la conversione dell’attività, il visitatore non è in alcuna esperienza.” |
 |  | [Parametri personalizzati](/help/main/c-target/c-audiences/c-target-rules/custom-parameters.md) | È stata aggiunta una nota relativa al fatto che la mbox selezionata dall’elenco a discesa [!UICONTROL Filtra per] non viene salvata durante la creazione dell’attività. Questa opzione consente di filtrare i parametri in base alla mbox selezionata. |
