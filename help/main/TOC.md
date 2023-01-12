@@ -3,7 +3,7 @@ user-guide-title: Guida di Adobe Target per professionisti aziendali
 breadcrumb-title: Guida di Target
 user-guide-description: Scopri come adattare e personalizzare l’esperienza dei clienti per massimizzare le entrate dai siti web e mobili, dalle app, dai social media e da altri canali digitali.
 feature-set: Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: d35ca5955b42772387c08a36e5b9e4ac207718a0
 workflow-type: tm+mt
 source-wordcount: '1212'
 ht-degree: 98%
@@ -123,7 +123,7 @@ ht-degree: 98%
    + Targeting automatico {#auto-target}
       + [Panoramica del Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
       + [Creare un’attività di Targeting automatico](/help/main/c-activities/auto-target/create-auto-target.md)
-      + [Risoluzione dei problemi di Targeting automatico e domande frequenti](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
+      + [Domande frequenti sul Targeting automatico e risoluzione dei problemi](/help/main/c-activities/auto-target/auto-target-troubleshooting-faqs.md)
       + [Creazione di rapporti e Targeting automatico](/help/main/c-activities/auto-target/reporting-and-auto-target.md)
    + Automated Personalization {#automated-personalization}
       + [Panoramica su Automated Personalization](c-activities/t-automated-personalization/automated-personalization.md)
