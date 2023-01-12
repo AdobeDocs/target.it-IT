@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 3456da329e25f3d8e8f591fce0b851580d385455
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '1830'
-ht-degree: 97%
+source-wordcount: '1853'
+ht-degree: 96%
 
 ---
 
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 12 gennaio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata una nota importante che spiega lo stato dell&#39;attuale [!UICONTROL Compositore esperienza visivo] estensione helper. |
+|  | [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte informazioni che spiegano il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!UICONTROL Regole modello] sono valutati come targeting URL. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease relative alla versione 22.13.3. |
 | 21 dicembre | [Personalizzare una progettazione utilizzando Velocity](/help/main/c-recommendations/c-design-overview/customizing-a-template.md) | È stato chiarito che gli attributi di entità inviati a [!DNL Recommendations] nella mbox `productPage` o nel caricamento del CSV possono essere visualizzati in una progettazione, ad eccezione degli attributi con più valori. |
 | 20 dicembre | [Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Sono state aggiunte ulteriori informazioni sui gruppi di reporting in “Avvertenze”. |

@@ -4,10 +4,10 @@ description: Visualizza le domande frequenti (FAQ) sul targeting delle esperienz
 title: Dove posso trovare domande e risposte su Target e tipi di pubblico?
 feature: Audiences
 exl-id: f829bd4a-852a-4eb1-85d1-89e74c14b37e
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: f3b420631681a922b66b0e58febda536e9812815
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 64%
+source-wordcount: '969'
+ht-degree: 62%
 
 ---
 
@@ -37,14 +37,17 @@ Il targeting dell&#39;URL del pubblico cerca una corrispondenza esatta dell&#39;
 
 Oltre al targeting del pubblico sull’URL, puoi anche specificare valori specifici che possono essere presenti nella query.
 
+Targeting degli URL del pubblico e targeting URL aggiunto tramite [!UICONTROL Regole modello] vengono valutati come targeting URL (consulta il targeting URL di seguito).
+
 ### Targeting URL
 
-Per applicare il targeting URL, durante la creazione di un pubblico, fai clic su Aggiungi regola, fai clic su Pagine del sito, seleziona un’opzione dal primo elenco a discesa (Pagina corrente, Pagina precedente o Pagina di destinazione), seleziona URL dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
+Per applicare il targeting URL durante la creazione di un pubblico, fai clic su [!UICONTROL Aggiungi regola], fai clic su [!UICONTROL Pagine del sito], seleziona un’opzione dal primo elenco a discesa ([!UICONTROL Pagina corrente], [!UICONTROL Pagina precedente]oppure [!UICONTROL Pagina di destinazione]), seleziona [!UICONTROL URL] dal secondo elenco a discesa, specifica un valutatore, quindi specifica l’URL desiderato.
 
 ![Pagine del sito > Pagina corrente > URL](/help/main/c-target/c-troubleshooting-targets-and-audiences/assets/site-url.png)
 
 Il targeting URL trasforma l’URL in un set di regole per valutare:
 
+* URL = `example.com/path1?query=something`
 * Dominio URL = `example.com`
 * Percorso = percorso1/percorso2/percorso3
 * queryStringParam1 = test123
