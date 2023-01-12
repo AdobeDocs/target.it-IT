@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c2760c9f6b7285ae97f010821cf3abf0b463536b
+source-git-commit: 02105c00a856e755ef2fd0bb41620fd35ed609d2
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 61%
+source-wordcount: '561'
+ht-degree: 37%
 
 ---
 
@@ -19,16 +19,24 @@ Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
-## [!DNL Target] Standard/Premium 23.1.1 (25-26 gennaio 2023)
+## [!DNL Target] Standard/Premium 22.13.3 (25-26 gennaio 2023)
 
 Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
 
 * È stato aggiunto il supporto per le offerte JSON in [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460)
-* È stata aggiunta la possibilità di cercare e filtrare le offerte per tag AEM. (TGT-43837)
-* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nel flusso di lavoro del Compositore esperienza visivo. L&#39;opzione è ora &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
+* Implementato [Modalità QA](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata.
+* Nomi di esperienza in [!DNL Recommendations] le attività ora vengono visualizzate con nomi descrittivi in modo che i clienti possano correlare meglio i dati in [!DNL Adobe Analytics] con quello [!DNL Target] Interfaccia utente. (TGT-41853)
+* È stato risolto un problema che causava un &quot;errore 500&quot; in [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) attività che contengono consigli. Questo problema è stato causato quando [!DNL Target] impossibile eliminare correttamente gli oggetti criteri dal [!DNL Target] Interfaccia utente e [!DNL Recommendations] backend non più in uso. (TGT-44383)
+* È stata rimossa la posizione dal nome dell’offerta visualizzato nel [!UICONTROL Livello di offerta] rapporto [!UICONTROL Automated Personalization] attività. Questa modifica rende il rapporto più leggibile. (TGT-44294)
+* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nella [!UICONTROL Compositore esperienza visivo] Flusso di lavoro (VEC). L&#39;opzione è ora &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
 * Aggiunta la possibilità di visualizzare i metadati dell’offerta del frammento esperienza nella descrizione dei comandi per le informazioni sull’offerta. (TGT-43838)
 * Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni dall&#39;AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e [!UICONTROL Attributi importanti] nei rapporti [!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e per migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
-* È stata rimossa la possibilità di modificare le [!UICONTROL Come obiettivo di ottimizzazione] l&#39;impostazione [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è stata pubblicata. (TGT-43923)
+* Possibilità di modificare la [!UICONTROL Come obiettivo di ottimizzazione] l&#39;impostazione [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è stata pubblicata. (TGT-43923)
+* È stato risolto un problema che causava problemi con la posizione di lavoro predefinita nel [!DNL Target] backend per l’aggiornamento da [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 e TGT-44306)
+* Il collegamento sul [!UICONTROL Implementazione] page ([!UICONTROL Amministrazione] > [!UICONTROL Implementazione]) per &quot;Metodi di implementazione con On-Device Decisioning&quot;, indica la pagina che spiega come utilizzare le decisioni sui dispositivi per tutti gli SDK supportati: Node.js, Java, .NET e Python. Per ulteriori informazioni, consulta [Guida introduttiva agli SDK di Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
+* È stato risolto un problema che causava problemi di caricamento dei file durante l&#39;utilizzo di [!DNL Scene7] e [!DNL Target].
+* Miglioramento dell’accessibilità dei [!DNL Target] Interfaccia utente per le persone con disabilità tramite i risultati di un controllo interno dell’usabilità. Questi miglioramenti dell’accessibilità includono l’accesso a funzioni che in precedenza non erano accessibili tramite la tastiera, miglioramenti al testo alt, la possibilità di eseguire lo zoom di parti dell’interfaccia utente per renderle più utilizzabili, una migliore messa a fuoco da tastiera e altro ancora.   (TGT-42759)
+* Sono state apportate diverse correzioni di localizzazione in tutto il [!DNL Target] Interfaccia utente.
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
