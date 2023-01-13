@@ -7,7 +7,7 @@ exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: c12df34c9c7392a0ea50e8d1dea32147e8b7b165
 workflow-type: tm+mt
 source-wordcount: '562'
-ht-degree: 37%
+ht-degree: 52%
 
 ---
 
@@ -23,14 +23,14 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
 
-* È stato aggiunto il supporto per le offerte JSON in [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460)
+* È stato aggiunto il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460)
 * Implementato [Modalità QA](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata. (TGT-44341)
 * Nomi di esperienza in [!DNL Recommendations] le attività ora vengono visualizzate con nomi descrittivi in modo che i clienti possano correlare meglio i dati in [!DNL Adobe Analytics] con quello [!DNL Target] Interfaccia utente. (TGT-41853)
 * È stato risolto un problema che causava un &quot;errore 500&quot; in [!UICONTROL Test A/B] e [!UICONTROL Targeting esperienza] (XT) attività che contengono consigli. Questo problema è stato causato quando [!DNL Target] impossibile eliminare correttamente gli oggetti criteri dal [!DNL Target] Interfaccia utente e [!DNL Recommendations] backend non più in uso. (TGT-44383)
 * È stata rimossa la posizione dal nome dell’offerta visualizzato nel [!UICONTROL Livello di offerta] rapporto [!UICONTROL Automated Personalization] attività. Questa modifica rende il rapporto più leggibile. (TGT-44294)
-* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nella [!UICONTROL Compositore esperienza visivo] Flusso di lavoro (VEC). L&#39;opzione è ora &quot;[!UICONTROL HTML XF].&quot; (TGT-44132)
-* Aggiunta la possibilità di visualizzare i metadati dell’offerta del frammento esperienza nella descrizione dei comandi per le informazioni sull’offerta. (TGT-43838)
-* Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni dall&#39;AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e [!UICONTROL Attributi importanti] nei rapporti [!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e per migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
+* &quot; rinominato[!UICONTROL Frammento esperienza]&quot; nella [!UICONTROL Compositore esperienza visivo] Flusso di lavoro (VEC). L&#39;opzione è ora “[!UICONTROL HTML XF]”. (TGT-44132)
+* È stata ggiunta la possibilità di visualizzare i metadati dell’offerta del frammento esperienza nella descrizione dei comandi per le informazioni sull’offerta. (TGT-43838)
+* Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni da AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e rapporti [!UICONTROL Attributi importanti] nell’[!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
 * Possibilità di modificare la [!UICONTROL Come obiettivo di ottimizzazione] l&#39;impostazione [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è stata pubblicata. (TGT-43923)
 * È stato risolto un problema che causava problemi con la posizione di lavoro predefinita nel [!DNL Target] backend per l’aggiornamento da [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 e TGT-44306)
 * Il collegamento sul [!UICONTROL Implementazione] page ([!UICONTROL Amministrazione] > [!UICONTROL Implementazione]) per &quot;Metodi di implementazione con On-Device Decisioning&quot;, indica la pagina che spiega come utilizzare le decisioni sui dispositivi per tutti gli SDK supportati: Node.js, Java, .NET e Python. Per ulteriori informazioni, consulta [Guida introduttiva agli SDK di Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
