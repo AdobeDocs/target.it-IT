@@ -1,12 +1,13 @@
 ---
-keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser
+keywords: vec;compositore esperienza visivo; vec;iframe;estensione;browser;faq
 description: Scopri perché alcuni siti web potrebbero non essere aperti in modo affidabile nel [!UICONTROL Compositore esperienza visivo]. L’estensione del browser [!UICONTROL Helper per editing video] consente di caricare i siti web in modo affidabile nel Compositore esperienza visivo.
 title: Come si utilizza l’estensione [!UICONTROL Helper per editing video]?
 feature: Visual Experience Composer (VEC)
-source-git-commit: 6fd90da68bfe9a78202e9289dc639d41e3daa48f
+exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '595'
-ht-degree: 89%
+source-wordcount: '712'
+ht-degree: 83%
 
 ---
 
@@ -16,7 +17,7 @@ L’estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per 
 
 >[!IMPORTANT]
 >
->Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md).
+>Questa nuova estensione sostituisce la precedente [Estensione Target VEC Helper per browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md). Vedi la nota importante nella parte superiore di quell&#39;articolo.
 
 ## Motivi per cui alcuni siti web potrebbero non aprirsi in modo affidabile nel Compositore esperienza visivo
 
@@ -28,10 +29,10 @@ L’estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per 
 
 ## Vantaggi dell’utilizzo dell’estensione [!UICONTROL Helper per editing video]
 
-* Tutte le intestazioni non compatibili con iframe, ad esempio `X-Frame-Options` e `Content-Security-Policy`, vengono rimossi implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
+* Tutte le intestazioni non compatibili con iframe, come `X-Frame-Options` e `Content-Security-Policy` vengono rimosse implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
 * Se una pagina web non contiene ancora la libreria di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
 
-Utilizzo della [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+Utilizzando il [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
 
 * [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato].
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
@@ -56,8 +57,14 @@ Utilizzo della [Compositore esperienza avanzato](/help/main/administrating-targe
 
    * Se il caricamento di un sito web utilizzando il Compositore esperienza visivo non riesce, appare un messaggio per suggerirti di installare l’estensione del browser [!UICONTROL Helper per editing video].
    * Se at.js o alloy.js non è ancora implementato sul sito web, nel Compositore esperienza visivo appare un messaggio per suggerirti di installare l’estensione.
-* Se provi a utilizzare la nuova estensione e poi torna alla [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesce a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
+* Se provi a utilizzare la nuova estensione e poi torni all’[estensione precedente](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) e [!DNL Target] non riesci a caricare il sito web, cancella tutti i dati del browser e disabilita la nuova estensione.
 
+## Domande frequenti 
 
+### Se l&#39;estensione è attiva, esegui qualsiasi operazione quando utilizzata al di fuori di [!DNL Adobe Target] o [!UICONTROL Adobe Journey Optimizer] (AJO)?
 
+L&#39;estensione si attiva solo quando il sito web in questione viene caricato all&#39;interno di un iFrame in [!DNL Adobe] prodotti ([!DNL Target], [!DNL AJO]). Al di fuori di questo flusso, l&#39;estensione non cerca di aggiungere, rimuovere o modificare intestazioni e l&#39;estensione non cerca di inserire codice all&#39;interno del sito web.
 
+### Cosa fa l&#39;estensione quando è attiva nella [!DNL Adobe Target] VEC?
+
+Quando un sito web viene caricato all&#39;interno di un iFrame in [!DNL Adobe] prodotti ([!DNL Target], [!DNL AJO]), l&#39;estensione inserisce il codice (in bundle con l&#39;estensione ) sul sito web e scarica i file helper dal [!DNL Adobe] CDN per abilitare l’authoring visivo.

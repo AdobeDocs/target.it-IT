@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: f3b420631681a922b66b0e58febda536e9812815
+source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1864'
 ht-degree: 96%
 
 ---
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 13 gennaio | Estensione [Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | È stata aggiunta una sezione Domande frequenti . |
 | 12 gennaio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata una nota importante che spiega lo stato dell&#39;attuale [!UICONTROL Compositore esperienza visivo] estensione helper. |
 |  | [Domande frequenti su destinazioni e pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte informazioni che spiegano il targeting degli URL del pubblico e il targeting degli URL aggiunti tramite [!UICONTROL Regole modello] sono valutati come targeting URL. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note sulla versione prerelease relative alla versione 22.13.3. |
