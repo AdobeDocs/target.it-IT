@@ -4,7 +4,7 @@ description: Scopri perché alcuni siti web potrebbero non essere aperti in modo
 title: Come si utilizza l’estensione [!UICONTROL Helper per editing video]?
 feature: Visual Experience Composer (VEC)
 exl-id: e5aeb8b9-fab5-4ad4-882e-2106d2c9daab
-source-git-commit: 9abe955fdeed2e8579fa41340b34e8b8761f04dc
+source-git-commit: 30ad6712d9722854384721ca20d38a605930c4d7
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 83%
@@ -32,7 +32,7 @@ L’estensione del browser [!DNL Adobe Experience Cloud] [!UICONTROL Helper per 
 * Tutte le intestazioni non compatibili con iframe, come `X-Frame-Options` e `Content-Security-Policy` vengono rimosse implicitamente dal sito web. Non è necessario creare regole complesse di Requestly.
 * Se una pagina web non contiene ancora la libreria di [!DNL Target] at.js, puoi utilizzare l’estensione per inserire la libreria in modo da creare esperienze per il sito web. Puoi quindi creare attività e controlli qualità tramite collegamenti di anteprima.
 
-Utilizzando il [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
+   Utilizzando il [Compositore esperienza avanzato](/help/main/administrating-target/visual-experience-composer-set-up.md#eec), l’estensione non inserisce at.js, ma la funzionalità per cookie SameSite è ancora presente. Per inserire at.js nella pagina web, disattiva il Compositore esperienza avanzato.
 
 * [I riquadri di visualizzazione per dispositivi mobili](/help/main/c-experiences/c-visual-experience-composer/mobile-viewports.md) sono supportati anche senza il [!UICONTROL Compositore esperienza avanzato].
 * I clienti non ancora pratici di [!DNL Target] possono utilizzare l’estensione per fare prove con [!DNL Target] anche se i loro sviluppatori IT non hanno ancora implementato [!DNL Target] sui loro siti web.
