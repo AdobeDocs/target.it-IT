@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 5ad7427df49f6091f69fadac96fd55e7b48a4cda
+source-git-commit: 24df83c228ef5ebb9f0cd2234a689244625be9a2
 workflow-type: tm+mt
-source-wordcount: '562'
-ht-degree: 100%
+source-wordcount: '586'
+ht-degree: 96%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 100%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 19 gennaio 2023**
+**Ultimo aggiornamento: 23 gennaio 2023**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -24,8 +24,8 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
 
 * È stato aggiunto il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460)
-* È stata implementata la [modalità Controllo qualità](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività Automated Personalization. (TGT-44341)
-* I nomi di esperienza nelle attività [!DNL Recommendations] ora vengono visualizzati con nomi descrittivi in modo che i clienti possano correlare meglio i dati in [!DNL Adobe Analytics] con l’interfaccia utente di [!DNL Target]. (TGT-41853)
+* Implementato [Modalità QA](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata per determinati clienti. Questa funzionalità sarà disponibile per tutti i clienti dopo una fase di test iniziale. (TGT-44341)
+* Aggiunti nomi descrittivi nel reporting di [!UICONTROL Analytics for Target] (A4T). Precedentemente, [!DNL Target] elencava solo ID esperienza. Questo miglioramento allinea il reporting tra [!DNL Adobe Analytics] e [!DNL Target] e aiuta i clienti a semplificare la creazione di rapporti in A4T. (TGT-41853)
 * È stato risolto un problema che causava un “errore 500” nelle attività [!UICONTROL Test A/B] e di [!UICONTROL Targeting dell’esperienza] (XT) che contengono consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
 * È stata rimossa la posizione dal nome dell’offerta visualizzato nel rapporto [!UICONTROL Livello di offerta] delle attività di [!UICONTROL Automated Personalization]. Questa modifica rende il rapporto più leggibile. (TGT-44294)
 * È stata rinominata l’opzione “[!UICONTROL Frammento di esperienza]” nel flusso di lavoro del [!UICONTROL Compositore esperienza visivo]. L&#39;opzione è ora “[!UICONTROL HTML XF]”. (TGT-44132)
