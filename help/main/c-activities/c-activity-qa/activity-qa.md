@@ -4,10 +4,10 @@ description: Scopri come utilizzare Adobe [!DNL Target] Gli URL di controllo qua
 title: Come Faccio A Controllare Le Attività?
 feature: Activities
 exl-id: 5c606d61-6d13-4a9b-9a23-4840f1754d3c
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
 workflow-type: tm+mt
-source-wordcount: '1832'
-ht-degree: 37%
+source-wordcount: '1881'
+ht-degree: 36%
 
 ---
 
@@ -20,7 +20,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 * Collegamenti da condividere con i membri del team che non cambiano mai o richiedono la rigenerazione, indipendentemente dagli aggiornamenti apportati alle esperienze o attività. Questa funzione consente di testare completamente le attività in tutto il percorso di utenti.
 * Possibilità di rispettare o meno le condizioni di pubblico, per testare i criteri di targeting o per ignorarli al fine di verificare come si presentano le esperienze senza dover soddisfare le condizioni di pubblico.
 * Il rapporto di controllo qualità viene acquisito per permettere agli addetti al marketing di confermare che le metriche aumentano come previsto, e i relativi dati sono tenuti separati dai rapporti di produzione (per la generazione di rapporti non A4T).
-* Possibilità di visualizzare in anteprima un’esperienza in isolamento o con altre attività live che soddisfano i criteri di consegna (pagina/richiesta Target/pubblico).
+* Possibilità di visualizzare in anteprima un’esperienza in isolamento o con altre attività live che soddisfano i criteri di consegna (pagina/[!DNL Target] richiesta/pubblico).
 * Capacità di eseguire il controllo qualità sull’intero percorso dell’utente. Puoi accedere al tuo sito una volta con il collegamento di controllo qualità e quindi navigare nell’intero sito in modalità di controllo qualità dell’attività. Resterai in tale modalità fino alla fine della sessione o fino a quando utilizzi il [Bookmarklet di controllo qualità di Target](/help/main/c-activities/c-activity-qa/activity-qa-bookmark.md#concept_A8A3551A4B5342079AFEED5ECF93E879)[!UICONTROL  per uscire dalla modalità di controllo qualità dell’attività]. Questa funzione è utile se si dispone di un’attività che si estende su più pagine web.
 
    >[!NOTE]
@@ -29,7 +29,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 
 ## Accesso e condivisione di un URL di controllo qualità {#section_1C59BAA247B247BDB125D1BE8EAD4547}
 
-1. Da un’ [!UICONTROL Panoramica] fai clic su **[!UICONTROL Controllo di qualità delle attività]** link.
+1. Da un’ [!UICONTROL Panoramica] pagina, fai clic su **[!UICONTROL Controllo di qualità delle attività]**.
 
    ![Collegamento Controllo di qualità attività](assets/qa_link.png)
 
@@ -51,7 +51,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 1. Fai clic su **[!UICONTROL Fine]** per salvare le modifiche.
 1. Condividi gli URL di collegamento dell’attività con i membri dell’organizzazione a scopo di test.
 
-   I collegamenti alle attività non scadono mai e non è necessario inviare nuovamente i collegamenti se un utente modifica un’attività o un’esperienza. Tuttavia, se applichi un pubblico diverso dal [!UICONTROL Libreria Pubblico], invece di modificare semplicemente l’attività, viene generato un nuovo collegamento che devi condividere.
+   I collegamenti alle attività non scadono mai e non è necessario inviare nuovamente i collegamenti se un utente modifica un’attività o un’esperienza. Tuttavia, se applichi un pubblico diverso dal [!UICONTROL Libreria Pubblico], invece di modificare semplicemente l’attività, viene generato un nuovo collegamento da condividere.
 
    Ogni URL di collegamento di un’attività (per l’esperienza A, l’esperienza B e così via) consente di avviare il percorso di utenti dall’esperienza corrispondente. Fai clic sull’URL generato per un’esperienza, quindi continua con la normale navigazione sul sito per visualizzare le esperienze su più pagine (se esistono più pagine). Per ogni esperienza viene generato un solo URL, anche se l’esperienza si estende su più pagine (test di modelli o test multipagina).
 
@@ -61,9 +61,14 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 
 ## Considerazioni {#section_B256EDD7BFEC4A6DA72A8A6ABD196D78}
 
-* La [!UICONTROL Controllo di qualità delle attività] viene visualizzato il collegamento [!UICONTROL Panoramica] pagina di tutti i tipi di attività tranne [!UICONTROL Targeting automatico] e [!UICONTROL Automated Personalization] (AP).
+* La [!UICONTROL Controllo di qualità delle attività] viene visualizzato il collegamento [!UICONTROL Panoramica] pagina di tutti i tipi di attività tranne [!UICONTROL Automated Personalization] (AP).
+
+   >[!NOTE]
+   >
+   >[Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata è attualmente disponibile per determinati clienti in un programma beta. Questa funzionalità sarà disponibile per tutti i clienti dopo una fase di test iniziale.
+
 * [!UICONTROL I collegamenti di anteprima Controllo di qualità delle attività per le attività salvate potrebbero non venire caricati se nel tuo account sono presenti troppe attività salvate. ] Il nuovo tentativo dei collegamenti di anteprima dovrebbe funzionare. Per evitare che questa situazione continui, archivia le attività salvate che non vengono più utilizzate attivamente.
-* [!UICONTROL Gli URL controllo qualità delle attività sono disponibili per le attività in cui Analytics è impostato come origine per la creazione di rapporti (A4T). ] Hit generati durante l’esecuzione del controllo qualità utilizzando [!UICONTROL Controllo di qualità delle attività] passa alla stessa suite di rapporti in cui i dati dell’attività scorrono anche dopo che l’attività è diventata attiva.
+* [!UICONTROL Controllo di qualità delle attività] Gli URL sono disponibili con le attività con [Analytics come origine per la generazione di rapporti](/help/main/c-integrating-target-with-mac/a4t/a4t.md) (A4T). Hit generati durante l’esecuzione del controllo qualità utilizzando [!UICONTROL Controllo di qualità delle attività] passa alla stessa suite di rapporti in cui i dati dell’attività scorrono anche dopo che l’attività è diventata attiva.
 * [!UICONTROL La funzione Controllo di qualità attività non visualizza i contenuti di attività archiviate o scadute. ] Se disattivi un’attività terminata, devi salvare nuovamente l’attività per [!UICONTROL Controllo di qualità delle attività] per lavorare.
 * Attività importate in [!DNL Target Standard/Premium] (da [!DNL Target Classic], ad esempio) non supportano gli URL di controllo qualità.
 * In [!UICONTROL Allocazione automatica] e [!UICONTROL Recommendations] attività, il modello non è interessato dalle visite acquisite in [!UICONTROL Controllo di qualità delle attività].
@@ -78,7 +83,7 @@ Utilizzare gli URL di controllo qualità in [!DNL Adobe Target] per eseguire att
 
    A causa di questa doppia codifica, quando [!DNL Target] tenta di decodificare il `at_preview_token`, [!DNL Target] Impossibile estrarre il valore corretto del token. L&#39;anteprima non funziona.
 
-   Adobe consiglia di parlare con il team IT per assicurarsi che tutti i parametri di anteprima siano inseriti nell&#39;elenco Consentiti in modo che tali valori non vengano trasformati in alcun modo.
+   [!DNL Adobe] consiglia di parlare con il team IT per assicurarsi che tutti i parametri di anteprima siano inseriti nell&#39;elenco Consentiti in modo che tali valori non vengano trasformati in alcun modo.
 
    Nella tabella seguente sono elencati i parametri che possono essere inseriti nell&#39;elenco Consentiti nel dominio:
 
@@ -114,6 +119,10 @@ La tabella seguente elenca i vari tipi di attività e indica se: [!UICONTROL Con
 | [!UICONTROL Targeting esperienza] (XT) | Sì | Sì | Sì |
 | [!UICONTROL Test multivariato] (MVT) | Sì | Sì | Sì |
 | [!UICONTROL Recommendations] | Sì | Sì | Sì |
+
+>[!NOTE]
+>
+>[Controllo di qualità delle attività](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata è attualmente disponibile per determinati clienti in un programma beta. Questa funzionalità sarà disponibile per tutti i clienti dopo una fase di test iniziale.
 
 ## URL di anteprima {#preview}
 

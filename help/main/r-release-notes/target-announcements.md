@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 693d36fb70e93b88bfc4bafa1a5b8ddbb02293b2
-workflow-type: ht
-source-wordcount: '1873'
-ht-degree: 100%
+source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+workflow-type: tm+mt
+source-wordcount: '1931'
+ht-degree: 95%
 
 ---
 
@@ -20,6 +20,20 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 Nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE), Gartner ha nominato [!DNL Adobe Target] leader per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
+
+## [!DNL Adobe Target] Community Q&amp;A Coffee Break
+
+* **Casi d’uso per dispositivi mobili e autenticati per l’ottimizzazione dell’esperienza**
+* **Mercoledì 1 febbraio 2023**
+* **8:00 - 9:00 (PST, GMT-8)**
+* **[Registrazione](https://adobe.ly/3IWsAiX){target=_blank}**
+
+A noi farà parte Brent Kostak, Product Marketing Manager per [!DNL Adobe Target], che parlerà direttamente con te in questo thread del tuo [!DNL Target] domande relative a Mobile e casi d’uso autenticati per Experience Optimization:
+
+* Flussi di lavoro per l’impostazione dell’attività in [!DNL Target]
+* Metriche del ciclo di vita del cliente per il test e il targeting delle esperienze mobile
+* Sfruttare l’intelligenza artificiale/ML per la personalizzazione cross-channel nel web e nell’app
+* SDK per dispositivi mobili e API per implementazioni flessibili che supportano le piattaforme iOS e Android
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
@@ -37,7 +51,7 @@ Ti preghiamo dii unirti a noi per questo webinar speciale sull&#39;annuncio del 
 
 Siamo entusiasti di condividere alcune notizie “molto grandi” in termini di personalizzazione su larga scala con [!DNL Adobe Target]: nuovi filtri e informazioni che miglioreranno la capacità degli utenti [!DNL Target] di mettere a punto le attività di personalizzazione basate sull’intelligenza artificiale per avere un impatto diretto sulle metriche aziendali più importanti in base alle singole attività.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/3410117){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/3410117){target=_blank}
 
    +++Dettagli
 
@@ -56,13 +70,13 @@ Siamo entusiasti di condividere alcune notizie “molto grandi” in termini di 
 
 L’automazione nella sperimentazione e nella personalizzazione continua a stimolare le conversioni e il Ritorno sull’investimento (ROI) più elevati per i team di addetti al marketing, tecnici e di prodotto. Partecipa alla sessione Skill Builders [!DNL Adobe] e scopri come utilizzare [!DNL Adobe Target] casi d’uso e funzionalità avanzati basati sull’intelligenza artificiale con consigli sui prodotti e contenuti per restare all’avanguardia rispetto alla concorrenza e guadagnare su ogni esperienza.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/3409352/){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/3409352/){target=_blank}
 
 ### [!DNL Adobe Target] Skill Builders: ottimizzazione delle esperienze mobili (6 settembre 2022)
 
 Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di tecnici e addetti al marketing sfruttano strategie basate sui prodotti per la personalizzazione multicanale sul web e nelle app. Partecipa alla sessione Skill Builders [!DNL Adobe] e scopri come [!DNL Adobe Target] sfrutta un nuovo potenziale coinvolgimento e la crescita dei ricavi per gli esperti di marketing, gli sviluppatori e i proprietari dei prodotti per creare community di successo.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/347360){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/347360){target=_blank}
 
    +++Dettagli
 
@@ -80,7 +94,7 @@ Le esperienze mobili stanno stimolando l’innovazione nel modo in cui i team di
 
 Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove idee su come sfruttare appieno Target. Basato sul nostro ultimo eBook “Chef’s Collection: Ideas for Personalization”.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/346970/){target=_blank}
 
    +++Dettagli
 
@@ -96,7 +110,7 @@ Unisciti al team di [!DNL Adobe Target] [!DNL ] mentre vengono proposte nuove id
 
 In un periodo caratterizzato da problemi accelerati della catena di approvvigionamento, dalle carenze di servizi e di personale limitato, una delle sfide che la maggior parte dei brand del turismo, del settore alberghiero e delle catene di ristorazione stanno affrontando è quella di aumentare la fidelizzazione. Nell’era dell’intelligenza artificiale, in che modo i brand possono ridimensionare le esperienze senza le risorse necessarie che hanno abbandonato il settore. Il progresso digitale si è velocizzato di 20-25 volte non solo per supportare le aspettative più rapide dei clienti, ma anche per ridimensionare i team attraverso l’automazione.
 
-* **[Registrati per guardare la registrazione del webinar](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registrati per visualizzare la registrazione del webinar](https://real-time-loyalty-activation.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Dettagli
 
@@ -115,7 +129,7 @@ In un periodo caratterizzato da problemi accelerati della catena di approvvigion
 
 Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Scopri come gli esperti del settore rilevano nuove tendenze dei consumatori, mentre lavoratori e viaggiatori iniziano a tornare alla normalità.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/346323){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/346323){target=_blank}
 
    +++Dettagli
 
@@ -127,7 +141,7 @@ Il 2022 ha portato alle imprese un ambiente dinamico e in rapida evoluzione. Sco
 
 Scopri come l’intelligenza artificiale continua a ridefinire le aspettative dei consumatori man mano che i modelli di apprendimento automatico e le informazioni sui dati aprono nuove porte per gli esperti di marketing, gli sviluppatori e i proprietari di prodotti, consentendo loro di coinvolgere i consumatori con esperienze personalizzate di alto valore. Lasciati guidare alla scoperta dei flussi di lavoro basati su [!DNL Adobe Analytics] e [!DNL Adobe Target] per la personalizzazione, il targeting e il testing.
 
-* [Collegamento di registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [Collegamento alla registrazione](https://analytics.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++Dettagli
 
@@ -144,7 +158,7 @@ Scopri come l’intelligenza artificiale continua a ridefinire le aspettative de
 
 Scopri le best practice da seguire per diventare una “relationship bank” in grado di incrementare il livello di fidelizzazione al brand. Comprendi come indirizzare persone e processi verso la creazione e la scalabilità di programmi di personalizzazione di successo.
 
-* [Collegamento di registrazione](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [Collegamento alla registrazione](https://zero-to-hero.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++Dettagli
 
@@ -156,7 +170,7 @@ Scopri le best practice da seguire per diventare una “relationship bank” in 
 
 Con il definirsi di una nuova normalità, più digitale che mai, è fondamentale che le organizzazioni possano sfruttare ogni opportunità di offrire esperienze digitali eccezionali. Non è più sufficiente accontentarsi di esperienze discrete. Per restare competitivi, occorre offrire esperienze eccellenti.
 
-* [Collegamento di registrazione](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
+* [Collegamento alla registrazione](https://optimization.dxfieldmarketing.adobeevents.com/){target=_blank}
 
    +++Dettagli
 
@@ -173,7 +187,7 @@ Con il definirsi di una nuova normalità, più digitale che mai, è fondamentale
 
 Scopri le best practice sul potenziamento delle iniziative di personalizzazione su larga scala. Scopri come Dick’s Sporting Goods utilizza [!DNL Adobe Target] per coinvolgere i migliori atleti e brand.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/343042){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/343042){target=_blank}
 
    +++Dettagli
 
@@ -192,7 +206,7 @@ Scopri le best practice sul potenziamento delle iniziative di personalizzazione 
 
 Scopri come le società di servizi finanziari supportano e informano i clienti mediante la personalizzazione per prepararsi a modelli di inflazione e strategie di investimento.
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/343240){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/343240){target=_blank}
 
    +++Dettagli
 
@@ -204,7 +218,7 @@ Scopri come le società di servizi finanziari supportano e informano i clienti m
 
 Kit di strumenti e casi d’uso per l’implementazione di strategie di personalizzazione interfunzionali. Scopri come CNB è passata dall’ultimo 26% nel suo settore, al primo 1% con [!DNL Adobe Target].
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/343344){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/343344){target=_blank}
 
    +++Dettagli
 
@@ -221,7 +235,7 @@ Kit di strumenti e casi d’uso per l’implementazione di strategie di personal
 
 ### Personalizzazione in tempo reale con [!DNL Adobe Target]
 
-* **[Registrati per guardare la registrazione del webinar](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
+* **[Registrati per visualizzare la registrazione del webinar](https://real-time.dxfieldmarketing.adobeevents.com/){target=_blank}**
 
    +++Dettagli
 
@@ -236,7 +250,7 @@ Kit di strumenti e casi d’uso per l’implementazione di strategie di personal
 
 ### Webinar: personalizzare e testare a latenza zero con decisioni su dispositivi da [!DNL Adobe Target]
 
-* [Collegamento di registrazione](https://video.tv.adobe.com/v/328148){target=_blank}
+* [Collegamento alla registrazione](https://video.tv.adobe.com/v/328148){target=_blank}
 
    +++Dettagli
 
