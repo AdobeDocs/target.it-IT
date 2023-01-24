@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
 workflow-type: tm+mt
-source-wordcount: '741'
-ht-degree: 94%
+source-wordcount: '784'
+ht-degree: 90%
 
 ---
 
@@ -26,6 +26,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 | --- | --- |
 | Automated Personalization (AP) | È stato aggiunto il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli.<br>Per ulteriori informazioni, consulta [Creare offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md). (TGT-41460) |
 | Recommendations | Nomi descrittivi in [!UICONTROL Analytics for Target] È ora disponibile il reporting per A4T. Precedentemente, [!DNL Target] elencava solo ID esperienza. Questo miglioramento allinea il reporting tra [!DNL Adobe Analytics] e [!DNL Target] e aiuta i clienti a semplificare la creazione di rapporti in A4T. (TGT-41853) |
+| Frammenti esperienza AEM | È stata aggiunta la possibilità di distinguere tra [!DNL Adobe Experience Manager] tipi di frammento (AEM XF) esportati in [!DNL Target]. Invece dell’opzione &quot;Frammento esperienza&quot;, [!DNL Target] ora consente di filtrare e cercare i dati utilizzando &quot;HTML XF&quot; e &quot;JSON XF&quot;. <br>[Per ulteriori informazioni, consulta i Frammenti esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md). (TGT-44132) |
 | Controllo di qualità delle attività | Implementato [Modalità QA](/help/main/c-activities/c-activity-qa/activity-qa.md) per le attività di Personalizzazione automatizzata per determinati clienti. Questa funzionalità sarà disponibile per tutti i clienti dopo una fase di test iniziale. (TGT-44341) |
 
 * È stato risolto un problema che causava un “errore 500” nelle attività [!UICONTROL Test A/B] e di [!UICONTROL Targeting dell’esperienza] (XT) che contengono consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
