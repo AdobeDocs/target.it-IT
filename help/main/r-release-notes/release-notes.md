@@ -5,9 +5,9 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
+source-git-commit: 50703e9709d515cbee18569fedb6139e9bf18ccd
 workflow-type: tm+mt
-source-wordcount: '775'
+source-wordcount: '756'
 ht-degree: 91%
 
 ---
@@ -36,7 +36,6 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 * È stato risolto un problema che causava un “errore 500” nelle attività [!UICONTROL Test A/B] e di [!UICONTROL Targeting dell’esperienza] (XT) che contengono consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
 * È stata rimossa la posizione dal nome dell’offerta visualizzato nel rapporto [!UICONTROL Livello di offerta] delle attività di [!UICONTROL Automated Personalization]. Questa modifica rende il rapporto più leggibile. (TGT-44294)
-* È stata rinominata l’opzione “[!UICONTROL Frammento di esperienza]” nel flusso di lavoro del [!UICONTROL Compositore esperienza visivo]. L&#39;opzione è ora “[!UICONTROL HTML XF]”. (TGT-44132)
 * Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni da AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e rapporti [!UICONTROL Attributi importanti] nell’[!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
 * È stata rimossa la possibilità di modificare l’impostazione [!UICONTROL Identica all’obiettivo di ottimizzazione] sulla pagina [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è in esecuzione. (TGT-43923)
 * È stato risolto un problema che causava errori con l’ambiente di lavoro predefinito nel back-end di [!DNL Target] in caso di aggiornamento da [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 e TGT-44306)
