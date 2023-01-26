@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: d49b339bef9b24ca83a262983abe1a2fac44d7e5
+source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
 workflow-type: tm+mt
-source-wordcount: '603'
-ht-degree: 89%
+source-wordcount: '569'
+ht-degree: 90%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 89%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 25 gennaio 2023**
+**Ultimo aggiornamento: 26 gennaio 2023**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -32,7 +32,6 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 | Funzione | Dettagli |
 | --- | --- |
 | [Offerta JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) supporto in Automated Personalization (AP) | È stato aggiunto il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. (TGT-41460) |
-| Recommendations | Nomi descrittivi in [!UICONTROL Analytics for Target] È ora disponibile il reporting per A4T. Precedentemente, [!DNL Target] elencava solo ID esperienza. Questo miglioramento allinea il reporting tra [!DNL Adobe Analytics] e [!DNL Target] e aiuta i clienti a semplificare la creazione di rapporti in A4T. (TGT-41853) |
 | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la possibilità di distinguere tra [!DNL Adobe Experience Manager] tipi di frammento (AEM XF) esportati in [!DNL Target]. Invece dell’opzione &quot;Frammento esperienza&quot;, [!DNL Target] ora consente di filtrare e cercare i dati utilizzando &quot;HTML XF&quot; e &quot;JSON XF&quot;. (TGT-44132) |
 
 * È stato risolto un problema che causava un “errore 500” nelle attività [!UICONTROL Test A/B] e di [!UICONTROL Targeting dell’esperienza] (XT) che contengono consigli. Questo problema si verificava quando [!DNL Target] non riusciva a eliminare correttamente gli oggetti di criteri dall’interfaccia utente di [!DNL Target] e dal back-end di [!DNL Recommendations] non più in uso. (TGT-44383)
