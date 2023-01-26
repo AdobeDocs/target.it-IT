@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 57030f8f3c1758c60ef00184b4b6d3dee30731fa
+source-git-commit: 62b0c6ca313ab5990b5e0bc6d33e913fd0bdd5ef
 workflow-type: tm+mt
-source-wordcount: '722'
-ht-degree: 92%
+source-wordcount: '746'
+ht-degree: 89%
 
 ---
 
@@ -38,6 +38,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 * Sono state rimosse le opzioni del calendario di 45 giorni e 90 giorni da AP e [!UICONTROL Targeting automatico] [!UICONTROL Approfondimenti personalizzazione] e rapporti [!UICONTROL Attributi importanti] nell’[!DNL Target] Interfaccia utente. A causa dei pattern di utilizzo e nel tentativo di migliorare le prestazioni, questi intervalli di date sono stati dichiarati obsoleti. L’interfaccia utente è stata aggiornata per riflettere gli intervalli attualmente consentiti: 15, 30 e 60 giorni. (TGT-39357)
 * È stata rimossa la possibilità di modificare l’impostazione [!UICONTROL Identica all’obiettivo di ottimizzazione] sulla pagina [!UICONTROL Obiettivi e impostazioni] dopo che l’attività è in esecuzione. (TGT-43923)
 * È stato risolto un problema che causava errori con l’ambiente di lavoro predefinito nel back-end di [!DNL Target] in caso di aggiornamento da [!DNL Target Standard] a [!DNL Target Premium]. (TGT-44081 e TGT-44306)
+* È stata apportata una modifica per consentire [!DNL Analytics] suite di rapporti che contengono il carattere punto &quot;.&quot; nei loro nomi da utilizzare nel [!DNL Target] Interfaccia utente per creare [!DNL Analytics] feed di classificazione.
 * È stato modificato il collegamento sulla pagina [!UICONTROL Implementazione] ([!UICONTROL Amministrazione] > [!UICONTROL Implementazione]) per “Metodi di implementazione con Decisioning sul dispositivo”, in modo che indichi la pagina di spiegazione su come utilizzare Decisioning sul dispositivo per tutti gli SDK supportati: Node.js, Java, .NET e Python. Per ulteriori informazioni, consulta [Guida introduttiva agli SDK di Target](https://developer.adobe.com/target/implement/server-side/sdk-guides/getting-started/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 * È stato risolto un problema che causava errori durante il caricamento dei file utilizzando [!DNL Scene7] e [!DNL Target].
 * È stata migliorata l’accessibilità dell’interfaccia utente di [!DNL Target] per le persone con disabilità utilizzando i risultati di una verifica interna in termini di usabilità. I miglioramenti dell’accessibilità includono l’accesso a funzioni che in precedenza non erano raggiungibili tramite la tastiera, miglioramenti al testo alternativo, la possibilità di eseguire lo zoom di parti dell’interfaccia utente per renderle più utilizzabili, l’attivazione della tastiera migliorata e molto altro ancora.   (TGT-42759)
