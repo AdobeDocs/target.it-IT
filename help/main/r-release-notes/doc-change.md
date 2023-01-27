@@ -27,7 +27,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 13 gennaio | Estensione [Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | È stata aggiunta una sezione Domande frequenti . |
+| 13 gennaio | [Estensione Helper per editing video](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) | Aggiunta di una sezione delle Domande frequenti. |
 | 12 gennaio | [Estensione Adobe Target VEC Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) | È stata aggiornata una nota importante che spiega lo stato della corrente estensione Helper del [!UICONTROL Compositore esperienza visivo]. |
 |  | [Domande frequenti su target e tipi di pubblico](/help/main/c-target/c-troubleshooting-targets-and-audiences/troubleshooting-targets-and-audiences.md) | Sono state aggiunte informazioni per chiarire che il targeting degli URL del pubblico e quelli aggiunti tramite [!UICONTROL Regole modello] sono valutati come targeting degli URL. |
 |  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte le note prerelease sulla versione 22.13.3. |
