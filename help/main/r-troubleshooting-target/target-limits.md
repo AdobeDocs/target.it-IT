@@ -5,7 +5,7 @@ title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Tar
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 495feb03fb338ff70ad6b25a7e01a572bed723e4
+source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
 workflow-type: tm+mt
 source-wordcount: '1387'
 ht-degree: 94%
@@ -163,17 +163,17 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * **Limite**: 250 caratteri.
 
-Per API di consegna (at.js 2.*x* integrazioni ), mbox batch V2 e AEP Web SDK (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) ed uno dei seguenti caratteri:
+   Per API di consegna (at.js 2.*x* integrazioni ), mbox batch V2 e AEP Web SDK (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) ed uno dei seguenti caratteri:
 
-```
-- , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
-```
+   ```
+   - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
+   ```
 
-Per at.js 1.*x* integrazioni, nomi mbox *impossibile* contengono uno dei seguenti caratteri:
+   Per at.js 1.*x* integrazioni, nomi mbox *impossibile* contengono uno dei seguenti caratteri:
 
-```
-' " %22 %27 < > %3C %3E 
-```
+   ```
+   ' " %22 %27 < > %3C %3E 
+   ```
 
 ### Parametri mbox {#mbox-parameters}
 
