@@ -4,10 +4,10 @@ description: Scopri come creare tipi di pubblico personalizzati e salvarli nel [
 title: Come Posso Creare Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
-source-wordcount: '521'
-ht-degree: 61%
+source-wordcount: '539'
+ht-degree: 59%
 
 ---
 
@@ -46,6 +46,15 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
    Per copiare un pubblico esistente, dai [!UICONTROL Tipi di pubblico] elenco, fai clic su **[!UICONTROL Altre azioni]** icona (icona dei puntini di sospensione), quindi fai clic su **[!UICONTROL Duplica]**. Ora puoi modificare il pubblico per crearne uno simile.
 
 1. Inserisci un nome descrittivo e univoco per il pubblico e una descrizione facoltativa.
+
+   I nomi dei tipi di pubblico non possono iniziare con i seguenti caratteri:
+
+   `=  +  -  !  @`
+
+   I nomi dei tipi di pubblico non possono contenere le seguenti sequenze di caratteri:
+
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+
 1. Trascina e rilascia gli attributi desiderati dal **[!UICONTROL Attributi]** a destra del riquadro di audience builder.
 
    ![Trascinare gli attributi](assets/drag-attribute.png)
