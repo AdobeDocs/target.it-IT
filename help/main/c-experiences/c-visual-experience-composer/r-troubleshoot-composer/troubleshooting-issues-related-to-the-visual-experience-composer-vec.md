@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che si verificano a volte nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: ed6b1ef266f2e26cd80b6fa5099a42f6031448b5
+source-git-commit: 3d2dec3d897e98be84e8a46c5d5bd274615f46bc
 workflow-type: tm+mt
-source-wordcount: '869'
-ht-degree: 80%
+source-wordcount: '971'
+ht-degree: 69%
 
 ---
 
@@ -123,4 +123,8 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
 
 ## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Durante l&#39;utilizzo della modalità Sfoglia, se accedi a un URL privo di target.js o che contiene un&#39;intestazione non compatibile con i frame, il Compositore esperienza visivo potrebbe non funzionare. A causa di problemi di sicurezza del browser, in Target non è possibile accedere all&#39;URL di destinazione.
+Durante l&#39;utilizzo della modalità Sfoglia, se si accede a un URL che non ha [!DNL Target] librerie implementate ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) o contiene un&#39;intestazione di buster del frame, il Compositore esperienza visivo sembra non funzionare. A causa di problemi di sicurezza del browser, [!DNL Target] non è in grado di accedere correttamente all’URL a cui sei passato o l’URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
+
+Questo problema si verifica perché il Compositore esperienza visivo carica la pagina web in un `<iframe>`. Gli attuali meccanismi di sicurezza dei browser impediscono [!DNL Target] L’interfaccia utente non può accedere agli elementi del frame specificato a causa dei criteri della stessa origine. I browser bloccano gli script che tentano di accedere a un frame con un&#39;origine diversa e che include informazioni come il `location.href`.
+
+È necessario utilizzare il nuovo [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md) (consigliato) o [vecchia estensione](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/vec-helper-browser-extension.md) per inserire [!DNL Target] libreria nelle pagine per poterle sfogliare in modo ottimale.
