@@ -4,24 +4,28 @@ description: Scopri come utilizzare [!DNL Adobe Experience Manager] frammenti di
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) Frammenti esperienza?
 feature: Experiences and Offers
 exl-id: 3dd811a4-c7be-443d-a5ad-5b9adcaf1a2c
-source-git-commit: 358b1d97ba6b9e6ffa276f096596d09d7197b82b
+source-git-commit: 5ddaaa69edec92f35368e33d51c42b66ed400511
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 57%
+source-wordcount: '1448'
+ht-degree: 50%
 
 ---
 
 # Frammenti esperienza AEM
 
-Utilizzare i frammenti esperienza creati in [!DNL Adobe Experience Manager] AEM [!DNL Target] attività per facilitare l’ottimizzazione o la personalizzazione.
+Utilizza frammenti di esperienza (XF) creati in [!DNL Adobe Experience Manager] AEM [!DNL Target] attività per facilitare l’ottimizzazione o la personalizzazione.
 
 >[!NOTE]
 >
->Questa funzione richiede che [!DNL Adobe Experience Manager] (AEM) cliente. Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A) sotto.
+>Quando lavori con AEM frammenti di esperienza in , considera quanto segue [!DNL Target]:
+> 
+>* Questa funzione richiede che [!DNL Adobe Experience Manager] (AEM) cliente. Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A) sotto.
+>* Questa funzione è disponibile per i seguenti tipi di attività: [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting esperienza] (XT). Questa funzione non è disponibile in [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Recommendations] attività.
+
 
 Utilizzo dei frammenti di esperienza creati in [!DNL AEM] in [!DNL Target] consente di combinare la facilità d&#39;uso e la potenza delle [!DNL AEM] con potenti capacità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per testare e personalizzare le esperienze su larga scala.
 
-[!DNL AEM] riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. [!DNL AEM] consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un&#39;unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo. [!DNL AEM] regola automaticamente ogni esperienza utilizzando i tuoi contenuti.
+[!DNL AEM] riunisce tutti i contenuti e le risorse in una posizione centrale per alimentare la tua strategia di personalizzazione. [!DNL AEM] consente di creare facilmente contenuti per desktop, tablet e dispositivi mobili in un&#39;unica posizione senza scrivere codice. Non è necessario creare pagine per ogni dispositivo. [!DNL AEM] regola automaticamente ogni esperienza per ogni dispositivo utilizzando il contenuto.
 
 [!DNL Target] consente di fornire esperienze personalizzate in scala su una combinazione di approcci di apprendimento automatico basati sulle regole e guidati da intelligenze automatizzate che incorporano variabili comportamentali, contestuali e offline. Con [!DNL Target], è possibile configurare ed eseguire facilmente [Test A/B](/help/main/c-activities/t-test-ab/test-ab.md) e [Multivariato](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md) Attività (MVT) per determinare le offerte, i contenuti e le esperienze migliori.
 
@@ -93,9 +97,13 @@ Dopo aver eseguito le attività precedenti, il frammento di esperienza viene vis
 >* Il frammento di esperienza viene importato in [!DNL Target] come offerta HTML o JSON. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
 
 
-Puoi filtrare ed eseguire ricerche per [!UICONTROL HTML XF] e [!UICONTROL JSON XF] per distinguere meglio i tipi di frammenti di esperienza esportati in [!DNL Target].
+Puoi filtrare ed eseguire ricerche per [!UICONTROL XF di HTML] e [!UICONTROL XF JSON] per distinguere meglio i tipi di frammenti di esperienza esportati in [!DNL Target].
 
-Passa il puntatore del mouse su un frammento di esperienza nell’elenco, quindi fai clic sull’icona [!UICONTROL Visualizza] ![Visualizza icona](assets/icon_info.png) per visualizzare ulteriori informazioni sul frammento di esperienza, compreso l’URL pubblico di consegna dell’offerta e il percorso [!DNL AEM].
+![Filtrare per tipo di frammento esperienza: HTML o JSON nell’interfaccia utente di Target](/help/main/c-experiences/c-manage-content/assets/fragment-types.png)
+
+Passa il puntatore del mouse su un frammento esperienza nell’elenco, quindi fai clic sul pulsante [!UICONTROL Visualizza] icona ![Icona Visualizza](assets/icon_info.png) per visualizzare ulteriori informazioni sul frammento di esperienza, tra cui nome, tipo, ID offerta, percorso offerta e ultime modifiche. Fai clic sulla scheda Utilizzo offerta per visualizzare le attività che fanno riferimento a questa offerta.
+
+![Informazioni a comparsa sui frammenti esperienza](/help/main/c-experiences/c-manage-content/assets/xf-info-popup.png)
 
 Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite il [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
@@ -131,8 +139,6 @@ Puoi utilizzare frammenti di esperienza nelle attività di [!DNL Target] tramite
    * **Targeting automatico:** [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
    * **Personalizzazione automatizzata (AP):** [Creazione di un’attività di personalizzazione automatica](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
    * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
-   * **Test multivariato (MVT):** [Creare un test multivariato](/help/main/c-activities/c-multivariate-testing/t-create-multivariate-test/create-multivariate-test.md#task_BF870FA60A8245AB8F0B775BE32EA710)
-   * **Recommendationfs:** [Creare un’attività di Recommendations](/help/main/c-recommendations/t-create-recs-activity/create-recs-activity.md#task_6874328773C64C44A73F0A130AD3F96F)
 
 >[!NOTE]
 >
