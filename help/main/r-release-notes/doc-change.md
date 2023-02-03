@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
 workflow-type: tm+mt
 source-wordcount: '1978'
-ht-degree: 97%
+ht-degree: 98%
 
 ---
 
@@ -22,8 +22,8 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 2 febbraio | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | È stata aggiornata la seguente sezione:<ul><li>Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia</li></ul> |
 |  | [Creare tipi di pubblico in Target](/help/main/c-target/c-audiences/create-audience.md) | È stato aggiunto un elenco di caratteri e sequenze di caratteri che non possono essere utilizzati nei nomi dei tipi di pubblico. |
 | 31 gennaio | [Limiti](/help/main/r-troubleshooting-target/target-limits.md#mbox-names) | È stato aggiunto l’elenco dei caratteri consentiti e non consentiti nei nomi mbox. |
-| 25 gennaio | [Creare offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indica che il supporto per le offerte JSON in [!UICONTROL Automated Personalization] È ora disponibile l’utilizzo di attività tramite il Compositore esperienza basato su moduli . |
-|  | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: Casi d’uso per dispositivi mobili e autenticati per l’ottimizzazione dell’esperienza</li></ul> |
+| 25 gennaio | [Crea offerte JSON](/help/main/c-experiences/c-manage-content/create-json-offer.md) | Indica che è ora disponibile il supporto per le offerte JSON nelle attività di [!UICONTROL Automated Personalization] (AP) utilizzando il Compositore esperienza basato su moduli. |
+|  | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break: Casi d’uso autenticati e per dispositivi mobili per l’ottimizzazione dell’esperienza</li></ul> |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.13.3 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Adobe Target] Standard/Premium 22.10.1 (rilascio scaglionato dal 10 al 13 ottobre 2022)
