@@ -4,7 +4,7 @@ description: Scopri come creare tipi di pubblico personalizzati e salvarli nel [
 title: Come Posso Creare Tipi Di Pubblico?
 feature: Audiences
 exl-id: 59057461-d958-4d38-9725-53aacbe1f7eb
-source-git-commit: aac542bd5adfb60a97a090a0e98f3e883eb49bd1
+source-git-commit: a185edee86f6d07b488cf5dd3fe7e5dc3f4e87b3
 workflow-type: tm+mt
 source-wordcount: '539'
 ht-degree: 59%
@@ -53,7 +53,7 @@ Ad esempio, la regola seguente è destinata ai visitatori che utilizzano Chrome 
 
    I nomi dei tipi di pubblico non possono contenere le seguenti sequenze di caratteri:
 
-   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  [  ]`
+   `;=  ;+  ;-  ;@  ,=  ,+  ,-  ,@  ["  "]  ['  ]'`
 
 1. Trascina e rilascia gli attributi desiderati dal **[!UICONTROL Attributi]** a destra del riquadro di audience builder.
 
