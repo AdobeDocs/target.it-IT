@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 894f0d70c3f6575b21026d326562e108dc8670c8
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1999'
+ht-degree: 100%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 10 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.14.5 di [!DNL Target Standard/Premium]. |
 | 8 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione di at.js 2.10.1. |
 | 2 febbraio | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | È stata aggiornata la seguente sezione:<ul><li>Il Compositore esperienza visivo sembra non funzionare durante l’utilizzo della modalità Sfoglia</li></ul> |
 |  | [Creare tipi di pubblico in Target](/help/main/c-target/c-audiences/create-audience.md) | È stato aggiunto un elenco di caratteri e sequenze di caratteri che non possono essere utilizzati nei nomi dei tipi di pubblico. |

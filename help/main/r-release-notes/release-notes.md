@@ -5,10 +5,10 @@ landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzi
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
+source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
-source-wordcount: '813'
-ht-degree: 91%
+source-wordcount: '891'
+ht-degree: 85%
 
 ---
 
@@ -17,6 +17,19 @@ ht-degree: 91%
 Queste note sulla versione forniscono informazioni su funzioni, miglioramenti e correzioni per ciascuna versione di [!DNL Adobe Target Standard] e [!DNL Target Premium]. Sono inoltre incluse, ove applicabili, le note sulla versione di API di [!DNL Target], SDK, [!DNL Adobe Experience Platform Web SDK], at.js e altre modifiche alla piattaforma.
 
 I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
+
+## [!DNL Target] Standard/Premium 22.14.5 (13-15 febbraio 2023)
+
+Questa versione sarà disponibile in base al seguente programma scaglionato:
+
+* **13 febbraio**: Regione delle Americhe
+* **15 febbraio**: Area Europa, Medio Oriente e Africa (EMEA)
+* **15 febbraio**: regione Asia-Pacifico (APAC)
+
+Questa versione include le seguenti correzioni:
+
+* È stato risolto un problema che causava il seguente messaggio di errore anche se una proprietà era specificata nelle attività di Automated Personalization (AP): &quot;Errori: Almeno una proprietà deve appartenere a un&#39;area di lavoro non predefinita&quot; (TGT-44607)
+* È stato risolto un potenziale problema di sicurezza che influisce sui feed Recommendations lato server. (TGT-43769)
 
 ## at.js versione 2.10.1 (2 febbraio 2023)
 
