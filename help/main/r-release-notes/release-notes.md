@@ -1,14 +1,14 @@
 ---
-keywords: Note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramenti;correzioni;correzioni di bug;aggiornamenti
+keywords: note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramenti;correzioni;correzioni di bug;aggiornamenti
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target], compresi SDK, API e librerie JavaScript.
 landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target].
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: 839ca14d658115ebdb2d4b3239f3ea5efff1fa60
+source-git-commit: 7541293203ebb78296227b8c15beb767970e3bd2
 workflow-type: tm+mt
 source-wordcount: '813'
-ht-degree: 93%
+ht-degree: 91%
 
 ---
 
