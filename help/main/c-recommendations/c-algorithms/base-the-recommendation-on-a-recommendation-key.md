@@ -5,10 +5,10 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
 workflow-type: tm+mt
-source-wordcount: '3936'
-ht-degree: 40%
+source-wordcount: '3942'
+ht-degree: 37%
 
 ---
 
@@ -34,7 +34,7 @@ Diversi algoritmi di consigli si prestano a posizionarsi su diversi tipi di pagi
 
 ## Basato sul carrello {#cart-based}
 
-La [!UICONTROL Basato sul carrello] Il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di raccomandazione sono fornite tramite il parametro mbox `cartIds` in valori separati da virgole. Vengono considerati solo i primi 10 valori.
+La [!UICONTROL Basato sul carrello] Il tipo di algoritmo consente di consigliare gli elementi in base al contenuto del carrello corrente del visitatore. Le chiavi di raccomandazione sono fornite tramite [parametro mbox `cartIds`](https://developer.adobe.com/target/implement/recommendations/#cart-addscart-viewscheckout-pages){target=_blank} in valori separati da virgole. Vengono considerati solo i primi 10 valori.
 
 La logica dei consigli basati sul carrello è simile alla &quot;[!UICONTROL Consigliato]&quot; algoritmo basato su utenti e al &quot;[!UICONTROL Chi li ha visti, li ha comprati]&quot; e &quot;[!UICONTROL Chi ha comprato questi ha acquistato quelli]&quot; algoritmi basati su elementi.
 
@@ -168,7 +168,7 @@ Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete seleziona
 
 ### Metrica di Analytics in alto
 
-Visualizza la &quot;Top x&quot; in cui *x* è arbitrario [!DNL Analytics] metrica. Quando utilizzi i dati comportamentali provenienti dalle mbox, puoi utilizzare Top Sold o Top Viewed (x = &quot;Sold&quot; o x = &quot;Viewed&quot;). Se utilizzi dati comportamentali da [!DNL Adobe Analytics], puoi utilizzare x = &quot;Aggiunte al carrello&quot; o altri [!DNL Analytics] metrica.
+Visualizza la &quot;Top x&quot; in cui *x* è arbitrario [!DNL Analytics] metrica. Quando utilizzi i dati comportamentali provenienti dalle mbox, puoi utilizzare Top Sold o Top Viewed (x = &quot;Sold&quot; o x = &quot;Viewed&quot;). Se utilizzi dati comportamentali provenienti da [!DNL Adobe Analytics], puoi utilizzare x = &quot;Aggiunte al carrello&quot; o altri [!DNL Analytics] metrica.
 
 ## [!UICONTROL Basato su articolo]
 
@@ -356,22 +356,22 @@ Utilizza la [!UICONTROL Ultimo articolo acquistato] chiave di consigli sul sito:
 
 Puoi basare i consigli sul valore di un attributo di profilo personalizzato. Ad esempio, supponi di voler visualizzare filmati consigliati in base all’ultimo filmato che un visitatore ha aggiunto alla sua coda.
 
-1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa **[!UICONTROL Chiave consigliata]** (ad esempio, “Ultimo filmato aggiunto alla watchlist”).
+1. Seleziona l’attributo di profilo personalizzato dal **[!UICONTROL Chiave dei consigli]** elenco a discesa (ad esempio, &quot;Ultimo filmato aggiunto alla watchlist&quot;).
 1. Seleziona quindi la **[!UICONTROL Logica consigliata]** (ad esempio “Persone che hanno visualizzato questo, hanno visualizzato anche quello”).
 
    ![Finestra di dialogo per creare un nuovo criterio](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-1.png)
 
-Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti della marca preferita di un visitatore.
+Se l’attributo di profilo personalizzato non corrisponde direttamente a un singolo ID entità, devi spiegare a [!DNL Recommendations] come desideri che avvenga la corrispondenza a un’entità. Ad esempio, supponi di voler visualizzare gli articoli più venduti del marchio preferito di un visitatore.
 
-1. Seleziona l’attributo di profilo personalizzato dall’elenco a discesa **[!UICONTROL Chiave consiglio]** (ad esempio, “Marchio preferito”).
+1. Seleziona l’attributo di profilo personalizzato dal **[!UICONTROL Chiave dei consigli]** elenco a discesa (ad esempio, &quot;Marchio preferito&quot;).
 
 1. Quindi seleziona la **[!UICONTROL Logica consigli]** che desideri utilizzare con questa chiave (ad esempio, “Più venduti”).
 
    Viene visualizzata l’opzione [!UICONTROL Raggruppa per valore univoco di].
 
-1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In questo caso “Marchio preferito” corrisponde a `entity.brand`.
+1. Seleziona l’attributo di entità che corrisponde alla chiave scelta. In questo caso &quot;Marchio preferito&quot; corrisponde a `entity.brand`.
 
-   [!DNL Recommendations] ora genera un elenco “Più venduti” per ogni marchio e mostra al visitatore l’elenco “Più venduti” appropriato in base al valore memorizzato nell’attributo di profilo Marchio preferito del visitatore.
+   [!DNL Recommendations] ora genera un elenco &quot;Più venduti&quot; per ogni marchio e mostra al visitatore l’elenco &quot;Più venduti&quot; appropriato in base al valore memorizzato nell’attributo di profilo Marchio preferito del visitatore.
 
    ![Finestra di dialogo per creare un nuovo criterio 2](/help/main/c-recommendations/c-algorithms/assets/create-new-criteria-2.png)
 
