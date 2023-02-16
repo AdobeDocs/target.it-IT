@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 85%
+ht-degree: 89%
 
 ---
 
@@ -33,7 +33,7 @@ Questa versione include le seguenti correzioni:
 
 ## at.js versione 2.10.1 (2 febbraio 2023)
 
-* È stato corretto un bug a causa del quale le attività che coinvolgono regole di pubblico contenenti parametri con punti nei loro nomi non restituivano l’esperienza prevista per le decisioni sul dispositivo.
+* È stato corretto un bug a causa del quale le attività che coinvolgono regole di pubblico contenenti parametri nel cui nome è presente il carattere punto non restituivano l’esperienza prevista per le decisioni sul dispositivo.
 * È stato corretto un bug introdotto in at.js 2.6.0 a causa del quale at.js attivava una chiamata di consegna, anche quando `mboxDisable` è stato abilitato.
 
 Per informazioni su tutte le versioni di at.js, vedi [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
