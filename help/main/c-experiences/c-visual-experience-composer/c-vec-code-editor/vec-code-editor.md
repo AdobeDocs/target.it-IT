@@ -4,7 +4,7 @@ description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target]
 title: Quali modifiche posso apportare alla mia pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 85319079e00db70184950d36778f2e4060b44209
+source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
 workflow-type: tm+mt
 source-wordcount: '2227'
 ht-degree: 88%
@@ -139,17 +139,17 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 * Scambio su DOM-ready, utilizzando jQuery
 
-L&#39;esempio seguente che utilizza JQuery presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte.
+   L&#39;esempio seguente che utilizza JQuery presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte.
 
-```javascript
-<style>#default_content {visibility:hidden;}</style> 
-<script> 
-jQuery( document ).ready(function() { 
-    jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
-    jQuery("#default_content").css("visibility","visible"); 
-}); 
-</script> 
-```
+   ```javascript
+   <style>#default_content {visibility:hidden;}</style> 
+   <script> 
+   jQuery( document ).ready(function() { 
+       jQuery("#default_content").html( "<span style='color:red'>Hello <strong>Again</strong></span>" ); 
+       jQuery("#default_content").css("visibility","visible"); 
+   }); 
+   </script> 
+   ```
 
 * Scambio su DOM-ready, non jQuery (non supporta Internet Explorer 8)
 
