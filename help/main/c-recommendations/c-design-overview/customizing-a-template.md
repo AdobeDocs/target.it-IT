@@ -4,10 +4,10 @@ description: Scopri come utilizzare il linguaggio di progettazione open-source V
 title: Come posso personalizzare una progettazione con Velocity?
 feature: Recommendations
 exl-id: 035d7988-80d8-4080-bb0d-1d0e9f8856d1
-source-git-commit: e93747d07b980aa29a8985c3872fd704d520e0cd
+source-git-commit: b143ecfa248fcffe0ea8e3be65eea5c4c6fecc66
 workflow-type: tm+mt
-source-wordcount: '1066'
-ht-degree: 78%
+source-wordcount: '1067'
+ht-degree: 76%
 
 ---
 
@@ -61,7 +61,9 @@ $entities[0].categoriesList[2]
 
 Per ulteriori informazioni sulle variabili Velocity (attributi), consulta [https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables](https://velocity.apache.org/engine/releases/velocity-1.7/user-guide.html#variables).
 
-Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome dello script deve essere annullato con un \. Ad esempio, `\${user.script_name}`.
+Se utilizzi uno script di profilo nella progettazione, il $ che precede il nome dello script deve essere annullato con un `\` (barra rovesciata). Ad esempio:
+
+`\${user.script_name}`
 
 >[!NOTE]
 >
