@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 419f675b0fdf0d48a0ddd5250c29e339020a278d
+source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
-source-wordcount: '2053'
-ht-degree: 98%
+source-wordcount: '2072'
+ht-degree: 97%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 23 febbraio | [Migrare Target da at.js 2.*x* su Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | È stata aggiunta una nuova esercitazione. |
 | 21 febbraio | [Elenco consentiti nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco Consentiti per tutte le aree nel [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
 |  | [Modifiche](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stato aggiunto del testo che spiega che l&#39;esempio che utilizza JQuery presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte. |
 | 10 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.14.5 di [!DNL Target Standard/Premium]. |
