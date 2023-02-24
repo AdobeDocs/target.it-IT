@@ -1,5 +1,5 @@
 ---
-keywords: note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramenti;correzioni;correzioni di bug;aggiornamenti
+keywords: note sulla versione;nuove funzioni;versioni;aggiornamenti;aggiornamento;versione;miglioramento;miglioramenti;correzioni;correzioni di bug;aggiornamenti
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target], compresi SDK, API e librerie JavaScript.
 landing-page-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella versione corrente di  [!DNL Adobe Target].
 title: Cosa è incluso nella versione corrente?
@@ -8,7 +8,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: abf4c005a3c0e3b2e0e9f1402bb2af3444634942
 workflow-type: tm+mt
 source-wordcount: '891'
-ht-degree: 89%
+ht-degree: 100%
 
 ---
 
@@ -22,19 +22,19 @@ I codici dei problemi tra parentesi sono per uso interno di [!DNL Adobe].
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **13 febbraio**: Regione delle Americhe
-* **15 febbraio**: Area Europa, Medio Oriente e Africa (EMEA)
-* **15 febbraio**: regione Asia-Pacifico (APAC)
+* **13 febbraio**: area geografica delle Americhe
+* **15 febbraio**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **15 febbraio**: area geografica Asia-Pacifico (APAC)
 
 Questa versione include le seguenti correzioni:
 
-* È stato risolto un problema che causava il seguente messaggio di errore anche se una proprietà era specificata nelle attività di Automated Personalization (AP): &quot;Errori: Almeno una proprietà deve appartenere a un&#39;area di lavoro non predefinita&quot; (TGT-44607)
-* È stato risolto un potenziale problema di sicurezza che influisce sui feed Recommendations lato server. (TGT-43769)
+* È stato risolto un problema che causava il seguente messaggio di errore, anche se una proprietà era specificata nelle attività di Automated Personalization (AP): “Errori: almeno una proprietà deve appartenere a un’area di lavoro non predefinita” (TGT-44607)
+* È stato risolto un potenziale problema di sicurezza che influiva sui feed di Recommendations lato server. (TGT-43769)
 
 ## at.js versione 2.10.1 (2 febbraio 2023)
 
 * È stato corretto un bug a causa del quale le attività che coinvolgono regole di pubblico contenenti parametri nel cui nome è presente il carattere punto non restituivano l’esperienza prevista per le decisioni sul dispositivo.
-* È stato corretto un bug introdotto in at.js 2.6.0 a causa del quale at.js attivava una chiamata di consegna, anche quando `mboxDisable` è stato abilitato.
+* È stato corretto un bug introdotto in at.js 2.6.0 a causa del quale at.js attivava una chiamata di consegna, anche quando `mboxDisable` era abilitato.
 
 Per informazioni su tutte le versioni di at.js, vedi [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 

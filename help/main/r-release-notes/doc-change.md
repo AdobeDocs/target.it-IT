@@ -117,7 +117,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sui seguenti eventi:<ul><li>Webinar: Personalizzazione in tempo reale con Adobe Target (28 aprile 2022)</li><li>Sessione [!DNL Adobe Target] Community Q&amp;A Coffee Break (25 maggio 2022)</li></ul> |
+| 26 aprile | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni per i seguenti eventi:<ul><li>Webinar: Personalizzazione in tempo reale con Adobe Target (28 aprile 2022)</li><li>Sessione [!DNL Adobe Target] Community Q&amp;A Coffee Break (25 maggio 2022)</li></ul> |
 |  | [Offerte di reindirizzamento - Domande frequenti su A4T](/help/main/c-integrating-target-with-mac/a4t/r-a4t-faq/a4t-faq-redirect-offers.md#discrepancies) | Sono state aggiunte le seguenti domande frequenti:<ul><li>Come ridurre al minimo le discrepanze nella distribuzione del traffico quando si utilizzano offerte di reindirizzamento nelle attività A4T?</li></ul> |
 |  | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | È stata aggiunta la seguente sezione:<ul><li>Rimozione di ClientLibs e HTML estranei dai frammenti di esperienza esportati in Target</li></ul> |
 | 21 aprile | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative al rilascio della piattaforma [!DNL Target] pianificato per il 17 aprile 2022. |
