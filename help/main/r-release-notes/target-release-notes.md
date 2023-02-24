@@ -1,13 +1,13 @@
 ---
 keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramenti;nuove funzioni;correzioni;aggiornamenti;prerelease
 description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di Adobe Target.
-title: Quali nuove funzioni e miglioramenti saranno inclusi in futuro [!DNL Target] Rilasciare?
+title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: 3ddc6c2c8ed86ebdac77eb76c0eb5dfd913553c7
-workflow-type: tm+mt
+workflow-type: ht
 source-wordcount: '264'
-ht-degree: 73%
+ht-degree: 100%
 
 ---
 
@@ -23,14 +23,14 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 Questa versione sarà disponibile in base al seguente programma scaglionato:
 
-* **13 febbraio**: Regione delle Americhe
-* **15 febbraio**: Area Europa, Medio Oriente e Africa (EMEA)
-* **15 febbraio**: regione Asia-Pacifico (APAC)
+* **13 febbraio**: area geografica delle Americhe
+* **15 febbraio**: area geografica Europa, Medio Oriente e Africa (EMEA)
+* **15 febbraio**: area geografica Asia-Pacifico (APAC)
 
 Questa versione include le seguenti correzioni:
 
-* È stato risolto un problema che causava il seguente messaggio di errore anche se una proprietà era specificata nelle attività di Automated Personalization (AP): &quot;Errori: Almeno una proprietà deve appartenere a un&#39;area di lavoro non predefinita&quot; (TGT-44607)
-* È stato risolto un potenziale problema di sicurezza che influisce sui feed Recommendations lato server. (TGT-43769)
+* È stato risolto un problema che causava il seguente messaggio di errore, anche se una proprietà era specificata nelle attività di Automated Personalization (AP): “Errori: almeno una proprietà deve appartenere a un’area di lavoro non predefinita” (TGT-44607)
+* È stato risolto un potenziale problema di sicurezza che influiva sui feed di Recommendations lato server. (TGT-43769)
 
 ## Note aggiuntive sulla versione e dettagli sulla versione
 
