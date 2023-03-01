@@ -4,10 +4,10 @@ description: Scopri come utilizzare le attività di Automated Personalization (A
 title: Che cos’è un’attività di Automated Personalization (AP)?
 feature: Automated Personalization
 exl-id: 3654dce4-0d6c-42a3-8be7-e081ec478075
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1055'
-ht-degree: 81%
+source-wordcount: '1049'
+ht-degree: 89%
 
 ---
 
@@ -23,7 +23,7 @@ Analogamente al [!UICONTROL Targeting automatico], la [!UICONTROL Personalizzazi
 
 Per ulteriori informazioni su come [!UICONTROL Automated Personalization] differisce da [!UICONTROL Targeting automatico], vedi [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md).
 
-Gli addetti al marketing implementano un file sul sito che permette loro di selezionare rapidamente qualsiasi contenuto e quindi creare visivamente e selezionare le opzioni di contenuto aggiuntivo per tale area, utilizzando il Compositore esperienza visivo ([!UICONTROL Visual Experience Composer, VEC]). L&#39;algoritmo determina automaticamente quale parte di contenuto distribuire a ogni singolo visitatore, sulla base di tutti i dati comportamentali di cui il sistema dispone su di esso, così da fornire un&#39;esperienza personalizzata. Poiché la [!UICONTROL Personalizzazione automatizzata] può adattarsi ai cambiamenti del comportamento del visitatore, può essere eseguita senza impostare una data di termine per produrre un incremento e una personalizzazione costanti. Questo a volte è indicato come modalità “sempre attiva”. L’addetto al marketing non deve eseguire un test, analizzare i risultati e quindi stabilire un vincitore per un’idea dell’incremento ottenuto a partire dall’ottimizzazione, il quale è un ordine standard di operazioni per implementare il risultato di una attività A/B standard.
+Gli addetti al marketing implementano un file sul sito che permette loro di selezionare rapidamente qualsiasi contenuto e quindi creare visivamente e selezionare le opzioni di contenuto aggiuntivo per tale area, utilizzando il Compositore esperienza visivo ([!UICONTROL Visual Experience Composer, VEC]). L&#39;algoritmo determina automaticamente quale parte di contenuto distribuire a ogni singolo visitatore, sulla base di tutti i dati comportamentali di cui il sistema dispone su di esso, così da fornire un&#39;esperienza personalizzata. Poiché la [!UICONTROL Personalizzazione automatizzata] può adattarsi ai cambiamenti del comportamento del visitatore, può essere eseguita senza impostare una data di termine per produrre un incremento e una personalizzazione costanti. Tale funzione è talvolta indicata come modalità di “connessione permanente”. L’addetto al marketing non deve eseguire un test, analizzare i risultati e quindi stabilire un vincitore per un’idea dell’incremento ottenuto a partire dall’ottimizzazione, il quale è un ordine standard di operazioni per implementare il risultato di una attività A/B standard.
 
 I seguenti termini sono utili quando si parla della [!UICONTROL Personalizzazione automatizzata]:
 
@@ -31,7 +31,7 @@ I seguenti termini sono utili quando si parla della [!UICONTROL Personalizzazion
 |---|---|
 | Slot machine | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
 | Foresta casuale | Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel linguaggio della scienza dei dati, indica una classificazione di raccolta, o metodo di regressione, che funziona costruendo un gran numero di alberi decisionali basati su visitatori e attributi di visita. In Target, l’algoritmo Foresta casuale determina quale esperienza possa avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. Per ulteriori informazioni sulla foresta casuale in Target, consulta [Algoritmo Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md). |
-| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è determinare quale esperienza è la migliore complessivamente (non personalizzata), riducendo al minimo il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
+| Campionamento di Thompson | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il “costo” della ricerca dell’esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. Per ulteriori informazioni, consulta [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling). |
 
 Quando utilizzi la [!UICONTROL personalizzazione automatizzata], considera i dettagli seguenti:
 
@@ -47,7 +47,7 @@ Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel li
 
 **Il modello di personalizzazione si adatta ai cambiamenti del comportamento dei visitatori.**
 
-* La slot machine assicura che il modello &quot;spenda&quot; sempre una piccola frazione di traffico per continuare a imparare per tutta la durata dell&#39;attività e per prevenire un eccessivo sfruttamento delle tendenze apprese in precedenza.
+* La slot machine assicura che il modello “spenda” sempre una piccola frazione di traffico per continuare ad apprendere per tutta la durata dell&#39;attività e per prevenire lo sfruttamento eccessivo delle tendenze precedentemente apprese.
 * I modelli sottostanti vengono rigenerati ogni 24 ore, utilizzando i dati di comportamento dei visitatori più recenti per garantire che Target sfrutti sempre le preferenze mutevoli dei visitatori.
 * Se l&#39;algoritmo non può determinare le esperienze vincenti per i singoli visitatori, mostra automaticamente l&#39;esperienza con i migliori risultati a livello generale, mentre continua a cercare vincitori personalizzati. L’esperienza che offre prestazioni migliori viene individuata tramite il [campione di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling).
 
@@ -67,9 +67,9 @@ Foresta casuale è uno dei principali metodi di apprendimento automatico. Nel li
 
 I dati offline, ad esempio le informazioni CRM o i punteggi di propensione di abbandono dei clienti, possono essere estremamente utili nella generazione di modelli di personalizzazione. Sono disponibili diversi modi per immettere dati in algoritmi di [!UICONTROL Personalizzazione automatizzata] (AP) e [!UICONTROL Targeting automatico].
 
-* [Parametri mbox](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [Parametri del profilo](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
-* [API lato server per lʼaggiornamento del profilo](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}
+* [Parametri mbox](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [Parametri del profilo](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}
+* [API lato server per lʼaggiornamento del profilo](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/)
 
 Per informazioni sui dati raccolti e utilizzati automaticamente dagli algoritmi di [!UICONTROL personalizzazione automatizzata] e [!UICONTROL targeting automatico], consulta [Raccolta dati di Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/ap-data.md).
 

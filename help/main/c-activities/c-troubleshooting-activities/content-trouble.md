@@ -4,10 +4,10 @@ description: Trova suggerimenti per risolvere eventuali problemi se nella pagina
 title: Come posso risolvere i problemi relativi alla distribuzione dei contenuti?
 feature: Activities
 exl-id: 887b7956-1d61-439a-8339-c150deb9a378
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1667'
-ht-degree: 95%
+source-wordcount: '1664'
+ht-degree: 97%
 
 ---
 
@@ -111,7 +111,7 @@ Il debugger di Adobe Experience Cloud facilita e velocizza la comprensione dell&
 
 Per ulteriori informazioni, vedi i video di formazione seguenti:
 
-Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html){target=_blank}.
+Per informazioni più dettagliate, consulta [Eseguire il debug di at.js utilizzando Adobe Experience Cloud Debugger](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/){target=_blank}.
 
 ## Gli articoli più venduti non compaiono in Recommendations {#section_3920C857270A406C80BE6CBAC8221ECD}
 
@@ -127,7 +127,7 @@ Target non supporta più Internet Explorer 8.
 
 ## Cookie di Target non impostato {#section_77AFEB541C0B495EB67E29A4475DF960}
 
-Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targetglobalsettings.html){target=_blank}.
+Se nel sito è presente un sottodominio, ad esempio [!DNL us.domain.com], ma è necessario impostare il cookie di Target su [!DNL domain.com] (anziché [!DNL us.domain.com]), devi sovrascrivere l’impostazione `cookieDomain`. Per ulteriori informazioni, consulta [targetGlobalSettings()](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/targetglobalsettings/){target=_blank}.
 
 ## Il contenuto di Target viene visualizzato momentaneamente o non viene visualizzato se un elemento fa anche parte della personalizzazione di Adobe Experience Manager. {#section_9E1DABEB75AB431FB9F09887E6DD07D3}
 
@@ -165,7 +165,7 @@ Ma cosa succede se l’URL contiene parametri della stringa di query? Funzioner�
 
 Per includere regole di modello aggiuntive, è possibile utilizzare le seguenti opzioni:
 
-### Opzione 1: replicare l’URL e mantenerlo nella regola del modello con l’opzione &quot;contiene&quot;.
+### Opzione 1: replicare l’URL e mantenerlo nella regola del modello con l’opzione “contiene”.
 
 Questa opzione assicura che l’URL sia idoneo per l’attività. Tuttavia esistono casi limite ad esso associati che possono influenzare i dati di reporting con record aggiuntivi per gli URL che contengono l’URL di base.
 
@@ -173,7 +173,7 @@ In questo caso, l’URL è `https://shopping.mycart.com?type=Summers%20Offers` e
 
 ![Replicare l’URL nelle regole del modello](assets/option1.png)
 
-### Opzione 2: limita la condizione URL &quot;contiene&quot; con solo la stringa di query.
+### Opzione 2: limita la condizione URL “contiene” con solo la stringa di query.
 
 Il caso limite discusso nell’opzione precedente viene applicato in questa opzione, ma qui l’impostazione condizionale è limitata solo alla stringa di query.
 

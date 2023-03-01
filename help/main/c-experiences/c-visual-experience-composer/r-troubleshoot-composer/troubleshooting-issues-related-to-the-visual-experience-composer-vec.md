@@ -4,10 +4,10 @@ description: Scopri come risolvere i problemi che a volte si verificano nell’A
 title: Come posso risolvere i problemi relativi al Compositore esperienza visivo?
 feature: Visual Experience Composer (VEC)
 exl-id: ca251025-25e8-4e56-9b59-81310fc763c1
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '975'
-ht-degree: 68%
+source-wordcount: '971'
+ht-degree: 69%
 
 ---
 
@@ -123,7 +123,7 @@ Dopo aver impostato un&#39;estensione, apri Target. Dovrebbe essere ora possibil
 
 ## Il Compositore esperienza visivo sembra non funzionare quando uso la modalità Sfoglia. (Solo Compositore esperienza visivo)  {#section_FA2A18E8FD6A4274B2E395DBAA2FB407}
 
-Quando si utilizza la modalità Sfoglia, se si accede a un URL che non dispone di [!DNL Target] librerie implementate ([at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/overview.html){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank}) o contiene un’intestazione frame-buster, il Compositore esperienza visivo sembra non funzionare. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all’URL a cui sei passato oppure l’URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
+Quando si utilizza la modalità Sfoglia, se si accede a un URL che non dispone di [!DNL Target] librerie implementate ([at.js](https://developer.adobe.com/target/implement/client-side/){target=_blank} or [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}) o contiene un’intestazione frame-buster, il Compositore esperienza visivo sembra non funzionare. A causa di problemi di sicurezza del browser, [!DNL Target] non può accedere correttamente all’URL a cui sei passato oppure l’URL del Compositore esperienza visivo non viene aggiornato in modo coerente se la pagina viene caricata.
 
 Questo problema si verifica perché il Compositore esperienza visivo carica la pagina web in un `<iframe>`. Gli attuali meccanismi di sicurezza dei browser impediscono [!DNL Target] L’interfaccia utente non accede agli elementi del frame specificato a causa del criterio relativo alla stessa origine. I browser bloccano gli script che tentano di accedere a un frame con un’origine diversa e che include informazioni quali `location.href`.
 

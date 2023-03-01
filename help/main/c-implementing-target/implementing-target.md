@@ -6,10 +6,10 @@ title: Come posso implementare [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '199'
-ht-degree: 2%
+source-wordcount: '184'
+ht-degree: 7%
 
 ---
 
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], devi implementarlo sul tuo sito.
 
-Il [Portale della Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contiene informazioni da conoscere prima dell’implementazione [!DNL Target].
+Il [Portale della Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} contiene informazioni da conoscere prima dell’implementazione [!DNL Target].
 
 Il portale per sviluppatori include informazioni sui seguenti tipi di implementazione:
 
@@ -28,11 +28,11 @@ Il portale per sviluppatori include informazioni sui seguenti tipi di implementa
 * **App mobili**: informazioni per implementare utilizzando [!DNL Adobe Experience Platform Mobile] SDK.
 * **E-mail**: informazioni per aiutarti a implementare [!DNL Target] nelle email.
 
-Per ulteriori informazioni, vedere [Portale della Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+Per ulteriori informazioni, vedere [Portale della Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}.
 
 >[!NOTE]
 >
->Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (il *Guida di Adobe Target Practitioner*) è ora incluso in [Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
+>Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (il *Guida di Adobe Target Practitioner*) è ora incluso in [Portale per sviluppatori](https://developer.adobe.com/target/){target=_blank}.
 
 
 

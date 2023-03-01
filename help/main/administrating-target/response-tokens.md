@@ -5,10 +5,10 @@ title: Cosa sono i token di risposta e come si utilizzano?
 feature: Administration & Configuration
 role: Admin
 exl-id: d0c1e914-3172-466d-9721-fe0690abd30b
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
-source-wordcount: '1675'
-ht-degree: 27%
+source-wordcount: '1669'
+ht-degree: 28%
 
 ---
 
@@ -26,8 +26,8 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
 
 | SDK di Target | Azioni suggerite |
 |--- |--- |
-| [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download dell’ultima versione di Platform Web SDK, consulta [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} nel *Panoramica di Platform Web SDK* guida. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta [Note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) nel *Panoramica di Platform Web SDK* guida. |
-| [at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
+| [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | Assicurati di utilizzare Platform Web SDK versione 2.6.0 o successiva. Per informazioni sul download dell’ultima versione di Platform Web SDK, consulta [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html){target=_blank} nel *Panoramica di Platform Web SDK* guida. Per informazioni sulle nuove funzionalità in ogni versione di Platform Web SDK, consulta [Note sulla versione](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html) nel *Panoramica di Platform Web SDK* guida. |
+| [at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/){target=_blank} | Assicurati di utilizzare at.js nella versione 1.1 o successiva. Per informazioni su come scaricare l’ultima versione di at.js, consulta [Scaricare at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}. For information about new functionality in each version of at.js, see [at.js Version Details](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.<br>I clienti che utilizzano at.js sono incoraggiati a utilizzare i token di risposta e ad abbandonare i plug-in. Alcuni plug-in che si basano su metodi interni esistenti in mbox.js (ora obsoleto), ma non in at.js, vengono consegnati ma non hanno esito positivo. |
 
 ## Utilizzo dei token di risposta {#section_A9E141DDCBA84308926E68D05FD2AC62}
 
@@ -36,7 +36,7 @@ Una differenza chiave tra plug-in e token di risposta è che i plug-in forniscon
    Per ulteriori informazioni:
 
    * **Platform Web SDK**: vedi [Installare l’SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/fundamentals/installing-the-sdk.html) nel *Panoramica di Platform Web SDK* guida.
-   * **at.js**: vedi [Scarica at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-without-a-tag-manager.html){target=_blank}.
+   * **at.js**: vedi [Scarica at.js](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-without-a-tag-manager/){target=_blank}.
 
 1. In entrata [!DNL Target], fai clic su **[!UICONTROL Amministrazione]** > **[!UICONTROL Token di risposta]**.
 
@@ -149,7 +149,7 @@ L’esempio di risposta seguente aggiunge una [!DNL Platform Web SDK] gestore ev
 
 ### ![Badge at.js](/help/main/assets/atjs.png) at.js utilizzando eventi personalizzati
 
-Usa gli [eventi personalizzati di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/atjs-custom-events.html) per ascoltare la risposta della e leggere i token di risposta.{target=_blank}[!DNL Target]
+Usa gli [eventi personalizzati di at.js](https://developer.adobe.com/target/implement/client-side/atjs/atjs-functions/atjs-custom-events/) per ascoltare la risposta della e leggere i token di risposta.{target=_blank}[!DNL Target]
 
 Il codice di esempio seguente aggiunge un gestore di eventi personalizzati di [!DNL at.js] direttamente alla pagina HTML:
 
@@ -226,7 +226,7 @@ Le sezioni seguenti descrivono come inviare [!DNL Target] dati alle Google Analy
 
 >[!NOTE]
 >
->Assicurati che la coppia di valori chiave del token di risposta sia sotto `alloy("sendEvent"` oggetto.
+>Assicurati che la coppia di valori chiave del token di risposta sia sotto `alloy(“sendEvent”` oggetto.
 
 ```
 <script type="text/javascript"> 

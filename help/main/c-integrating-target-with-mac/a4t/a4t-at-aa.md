@@ -4,7 +4,7 @@ description: Scopri come creare attività di allocazione automatica e targeting 
 title: A4T supporta le attività di allocazione automatica e targeting automatico?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
+source-git-commit: 3ac61272ee1ccd72a8670966f181e7798cbe9f76
 workflow-type: tm+mt
 source-wordcount: '1246'
 ht-degree: 2%
@@ -20,7 +20,7 @@ L’integrazione di A4T consente di:
 * Utilizzare [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)La funzionalità multi-armed bandit di per indirizzare il traffico verso esperienze vincenti.
 * Utilizzare [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)Con l’algoritmo di machine learning di puoi scegliere l’esperienza migliore per ogni visitatore. Targeting automatico sceglie la migliore esperienza in base ai profili, ai comportamenti e al contesto degli utenti, durante l’utilizzo di un’ [!DNL Adobe Analytics] metrica di obiettivo e [!DNL Adobe Analytics]Funzionalità avanzate di reporting e analisi.
 
-Assicurati di avere [A4T implementato per l’utilizzo con attività di test A/B e Targeting esperienza](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se sta usando `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore per [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione di rapporti di Analytics for Target (A4T)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/integration/a4t-reporting.html){target=_blank} nel *SDK per Adobe Target* guida.
+Assicurati di avere [A4T implementato per l’utilizzo con attività di test A/B e Targeting esperienza](/help/main/c-integrating-target-with-mac/a4t/a4timplementation.md). Se sta usando `analyticsLogging = client_side`, è inoltre necessario trasmettere `sessionId` valore per [!DNL Analytics]. Per ulteriori informazioni, consulta [Generazione di rapporti di Analytics for Target (A4T)](https://developer.adobe.com/target/implement/server-side/sdk-guides/integration-with-experience-cloud/a4t-reporting/){target=_blank} nel *SDK per Adobe Target* guida.
 
 Per iniziare:
 
