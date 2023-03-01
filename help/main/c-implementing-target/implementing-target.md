@@ -1,14 +1,14 @@
 ---
 keywords: implementare;implementazione
-description: Comprendere i concetti di base, acquisire familiarità con il modo in cui [!DNL Target] funziona e si integra con la tua infrastruttura e capisce come vengono tracciati i visitatori.
+description: Comprendere i concetti di base, avere familiarità con le modalità [!DNL Target] funziona e si integra con la tua infrastruttura, e scopri come vengono tracciati i visitatori.
 landing-page-description: Prima di iniziare a utilizzare Adobe Target, devi implementarlo sul sito.
-title: Come si implementa [!DNL Target]?
+title: Come posso implementare [!DNL Target]?
 feature: Implementation
 role: Developer
 exl-id: 2ad3d33c-467c-48fc-8aa2-4d5c21708a71
-source-git-commit: dfbe46289b09ffd95e0e30b8b5bd2af215e8ed81
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '190'
+source-wordcount: '199'
 ht-degree: 2%
 
 ---
@@ -17,22 +17,22 @@ ht-degree: 2%
 
 Prima di iniziare a utilizzare [!DNL Adobe Target], devi implementarlo sul tuo sito.
 
-La [Portale guida per sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} contiene informazioni che devi conoscere prima di implementare [!DNL Target].
+Il [Portale della Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} contiene informazioni da conoscere prima dell’implementazione [!DNL Target].
 
 Il portale per sviluppatori include informazioni sui seguenti tipi di implementazione:
 
-* **Lato client**: Informazioni sull’implementazione tramite [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
-* **Lato server**: Informazioni sull&#39;implementazione dell&#39;utilizzo degli SDK Node.JS, JAVA, .NET e Python.
-* **Ibrido**: Informazioni sull’implementazione se utilizzi una combinazione di implementazioni lato client e lato server.
-* **Recommendations**: Informazioni utili per l’implementazione [!DNL Recommendations], [Target Premium](/help/main/c-intro/intro.md#premium) offerta.
-* **App mobili**: Informazioni utili per implementare utilizzando [!DNL Adobe Experience Platform Mobile] SDK.
-* **E-mail**: Informazioni utili per l’implementazione [!DNL Target] nelle e-mail.
+* **Lato client**: informazioni sull’implementazione tramite [!DNL Adobe Experience Platform Web SDK] o [!DNL Target Web SDK] (at.js).
+* **Lato server**: informazioni sull’implementazione di utilizzando gli SDK Node.JS, JAVA, .NET e Python.
+* **Ibrido**: informazioni sull’implementazione di se utilizzi una combinazione di implementazioni lato client e lato server.
+* **Recommendations**: informazioni per aiutarti a implementare [!DNL Recommendations], a [Target Premium](/help/main/c-intro/intro.md#premium) offerta.
+* **App mobili**: informazioni per implementare utilizzando [!DNL Adobe Experience Platform Mobile] SDK.
+* **E-mail**: informazioni per aiutarti a implementare [!DNL Target] nelle email.
 
-Per ulteriori informazioni, consulta la sezione [Portale guida per sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}.
+Per ulteriori informazioni, vedere [Portale della Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 >[!NOTE]
 >
->Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (la sezione *Guida ai professionisti di Adobe Target*) è ora incluso nella [Portale per sviluppatori](https://developer.adobe.com/target/){target=_blank}.
+>Tutte le informazioni precedentemente incluse nel *Implementare Target* in questa guida (il *Guida di Adobe Target Practitioner*) è ora incluso in [Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html?lang=en){target=_blank}.
 
 
 

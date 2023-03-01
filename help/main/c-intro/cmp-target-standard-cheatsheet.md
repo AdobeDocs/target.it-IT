@@ -4,10 +4,10 @@ description: Esplora un elenco di domande frequenti sull’utilizzo delle funzio
 title: Dove posso trovare le risposte alle mie domande su ottimizzazione e personalizzazione?
 feature: Overview
 exl-id: 75e29d2a-78e7-40aa-b134-36a7cc8b3ed8
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 7c15a0795e94b6c6317cb5b4018899be71f03a40
 workflow-type: tm+mt
-source-wordcount: '2800'
-ht-degree: 96%
+source-wordcount: '2796'
+ht-degree: 97%
 
 ---
 
@@ -33,7 +33,7 @@ Visita il [forum Target Community](/help/main/cmp-resources-and-contact-informat
 
 **Quali browser supporta Target?**
 
-Per favore, leggi le nostre [Browser supportati](https://developer.adobe.com/target/before-implement/supported-browsers/)Matrice {target=_blank} per ulteriori dettagli. Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
+Per maggiori dettagli, consulta la nostra griglia dei [browser supportati](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html?lang=en). {target=_blank} Si noti che sono disponibili due funzioni: il supporto dell&#39;interfaccia Experience Cloud di Target Standard/Premium e il supporto del browser per gli utenti finali su desktop/dispositivi.
 
 ## Attività {#section_CB95B3BF9934445DB98E8A7E22FC2CF6}
 
@@ -155,7 +155,7 @@ Utilizza i controlli di allocazione della percentuale disponibili nel [passaggio
 Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
-* [Attributi del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Attributi del cliente](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
 ## Esperienze {#section_5959536B8D6A4BEA8FAA1273338F3451}
@@ -166,7 +166,7 @@ Consulta [Regole modello](/help/main/c-experiences/c-visual-experience-composer/
 
 **Sono stanco del messaggio “Consenti al browser di caricare script” quando si tenta di caricare la pagina nel Compositore esperienza visivo. Come posso evitarlo?**
 
-Questo perché il tuo sito ha contenuti misti; è un sito che recupera sia le risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
+Questo perché il tuo sito ha contenuti misti, è un sito che recupera sia risorse HTTP che HTTPS. Richiedi che il tuo team IT si muova completamente su HTTPS.
 
 In questo caso, segui le istruzioni [Consentire contenuti misti nel browser](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/mixed-content.md#concept_46D022D50280468C9EF6D5DF6EFC911C) per consentire al browser di caricare contenuti misti. Questa è una caratteristica di sicurezza della maggior parte dei browser moderni.
 
@@ -218,7 +218,7 @@ Utilizza le funzioni Componi e Sfoglia per passare alla pagina scelta e iniziare
 
 Fai clic sulla miniatura di fronte al nome dell’esperienza al passaggio 2 e si aprirà l&#39;esperienza scelta.
 
-![immagine thumbnail_experience](assets/thumbnail_experiences.png)
+![immagine miniatura_esperienze](assets/thumbnail_experiences.png)
 
 **Sono un ex utente di Target Classic. Posso sfruttare le mie mbox per alcuni casi di utilizzo?**
 
@@ -258,7 +258,7 @@ Dai un&#39;occhiata alle seguenti funzioni del prodotto:
 
 * [Analytics for Target (A4T)](/help/main/c-integrating-target-with-mac/a4t/a4t.md#concept_7540C8C04259434AB6EE33B09F47A1DE)
 
-* [Attributi del cliente](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/customer-attributes/)
+* [Attributi del cliente](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/customer-attributes.html)
 
 * [Tipi di pubblico](/help/main/c-integrating-target-with-mac/mmp.md)
 
@@ -309,10 +309,10 @@ Siamo spiacenti di sapere che stai avendo dei problemi. Consulta [Risoluzione de
 
 **Abbiamo una SKU Mobile. Posso creare attività mobili?**
 
-Per ottimizzare e personalizzare su dispositivi mobili, devi utilizzare [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) insieme al [Adobe SDK](https://developer.adobe.com/target/implement/mobile/enable-target-in-sdk/){target=_blank}. Maggiori informazioni [Target per le app per dispositivi mobili](https://developer.adobe.com/target/implement/mobile/){target=_blank}.
+Per ottimizzare e personalizzare su dispositivi mobili, devi utilizzare le [attività basate su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E) e l’[SDK Adobe](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/enable-target-in-sdk.html){target=_blank}. Check out more details about [Target for mobile apps](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/overview.html){target=_blank}.
 
 ## API di Target {#section_714E85EFF6E3400389EF2E40D538E1DA}
 
 **Dove posso saperne di più sulle API di Target?**
 
-È disponibile una documentazione completa sulle API. Vedi [Documentazione di API di distribuzione, SDK di NodeJS e API di Recommendations](https://developer.adobe.com/target/implementa/lato server/){target=_blank}.
+È disponibile una documentazione completa sulle API. Consulta [Documentazione di API di distribuzione, SDK di NodeJS e API Consigli](https://experienceleague.corp.adobe.com/docs/target-dev/developer/server-side/server-side-overview.html){target=_blank}.
