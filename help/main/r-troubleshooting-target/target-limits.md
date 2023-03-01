@@ -1,14 +1,14 @@
 ---
 keywords: limite di caratteri;parametri mbox;api di distribuzione in batch;parametri di profilo;limiti;profili incorporati;numero massimo;limite;vincolo;carattere;best practice;orderid;orderTotal;mbox3rdPartyID;categoria;categoryID;risoluzione dei problemi
-description: Visualizza un elenco di limiti di carattere e altri limiti che influiscono sulle attività e su altri elementi in [!DNL Adobe Target].
+description: Visualizzare un elenco dei limiti dei caratteri e altri limiti che influenzano le attività e altri elementi in [!DNL Adobe Target].
 title: Quali sono i vari caratteri, dimensioni e altri limiti in [!DNL Adobe Target]?
 feature: Troubleshooting
 mini-toc-levels: 3
 exl-id: b318ab16-1382-4f3a-8764-064adf384d6b
-source-git-commit: 48254593f95d50de25753db256f9319e9e29ba38
+source-git-commit: 0a8842f0c29b61ee8cd362edf3e4e4afecbe847a
 workflow-type: tm+mt
-source-wordcount: '1387'
-ht-degree: 94%
+source-wordcount: '1582'
+ht-degree: 83%
 
 ---
 
@@ -66,17 +66,33 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
    Se un cliente supera le 100 richieste simultanee di consegna contenuti [!DNL Target] per una determinata sessione utente, tutte le richieste successive nella stessa sessione utente vengono bloccate. Due o più richieste sono considerate simultanee se vengono tutte inviate al server [!DNL Target] prima che venga ricevuta la risposta per una di esse. [!DNL Target] elabora in sequenza le richieste simultanee per la stessa sessione.
 
-* **Comportamento di errore**:
+   * **Comportamento di errore**:
 
-   * API di consegna e Batch Mbox v2:
-      * Codice di errore: HTTP 420 - Troppe richieste
-      * Messaggio di errore: “Troppe richieste con lo stesso ID sessione”
-   * API mbox legacy:
-      * Contenuto predefinito con commento “Troppe richieste con lo stesso ID sessione”
-   * at.js:
-      * Contenuto predefinito visualizzato
+      * API di consegna e Batch Mbox v2:
+         * Codice di errore: HTTP 420 - Troppe richieste
+         * Messaggio di errore: “Troppe richieste con lo stesso ID sessione”
+      * API mbox legacy:
+         * Contenuto predefinito con commento “Troppe richieste con lo stesso ID sessione”
+      * at.js:
+         * Contenuto predefinito visualizzato
 
 
+
+* **Limite**: 50 mbox per [!DNL Target] richiesta mbox batch di consegna del contenuto.
+
+   Oltre 50 mbox per [!DNL Target] la richiesta mbox batch di consegna del contenuto genera un codice di errore di risposta `HTTP 400` con messaggio di errore `size must be between 0 and 50`.
+
+   Le richieste Batch Mbox vengono elaborate in sequenza, aumentando il tempo di risposta complessivo con ogni iterazione. Più mbox nella richiesta batch, più latenza di risposta è prevista e quindi possibili timeout. Se il rendering dell’esperienza è bloccato su queste richieste batch ad alta latenza, la latenza potrebbe ridurre l’esperienza utente in attesa del rendering delle esperienze.
+
+* **Limite**: dimensione corpo HTTP POST di 60 MB per [!DNL Target] richieste di distribuzione dei contenuti.
+
+   Superiore a 60 MB sulle dimensioni del corpo HTTP POST di un [!DNL Target] la richiesta di consegna del contenuto genera un codice di errore di risposta `HTTP 413 Request Entity Too Large`.
+
+* **Limite consigliato**: 50 notifiche per [!DNL Target] richiesta batch di consegna.
+
+   Oltre 50 notifiche per [!DNL Target] è probabile che la richiesta batch di consegna determini un aumento della latenza di risposta e timeout.
+
+   Le richieste di notifica batch vengono elaborate in sequenza, aumentando il tempo di risposta complessivo con ogni iterazione. Maggiore è il numero di notifiche nella richiesta batch, maggiore è la latenza di risposta prevista e quindi possibili timeout. Alcuni clienti possono accettare una latenza aggiuntiva nelle richieste di notifica in batch, ma tieni presente che i timeout e gli eventuali nuovi tentativi successivi potrebbero causare una latenza ancora maggiore.
 
 ## Attributi del cliente
 
@@ -139,7 +155,7 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 ### Esperienze per attività
 
-* **Limite**: 2.000 esperienze per [!UICONTROL Targeting esperienza] (XT), [!UICONTROL Test A/B], [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Targeting automatico] attività.
+* **Limite**: 2.000 esperienze per [!UICONTROL Targeting esperienza] XT [!UICONTROL Test A/B], [!UICONTROL Test multivariato] (MVT), e [!UICONTROL Targeting automatico] attività.
 
    30.000 esperienze per attività Automated Personalization.
 
@@ -163,13 +179,13 @@ Limiti dei caratteri e altri limiti (dimensioni dell’offerta, pubblico, profil
 
 * **Limite**: 250 caratteri.
 
-   Per API di consegna (at.js 2.*x* integrazioni ), mbox batch V2 e AEP Web SDK (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) ed uno dei seguenti caratteri:
+   Per l’API di consegna (at.js 2.*x*), Batch mbox V2 e integrazioni AEP Web SDK (alloy.js), nomi mbox *può* contengono caratteri alfanumerici (A-Z, a-z, 0-9) e uno qualsiasi dei seguenti caratteri:
 
    ```
    - , . _ / = ` : ; & ! @ # $ % ^ & * ( ) _ + | ? ~ [ ] { }
    ```
 
-   Per at.js 1.*x* integrazioni, nomi mbox *impossibile* contengono uno dei seguenti caratteri:
+   Per at.js 1.*x* integrazioni, nomi mbox *non può* contiene uno dei seguenti caratteri:
 
    ```
    ' " %22 %27 < > %3C %3E 
