@@ -7,7 +7,7 @@ exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: 71b94d57ed1da951a1bd4ae6d5746f57ebabe927
 workflow-type: tm+mt
 source-wordcount: '2072'
-ht-degree: 97%
+ht-degree: 100%
 
 ---
 
@@ -19,9 +19,9 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 23 febbraio | [Migrare Target da at.js 2.*x* su Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html){target=_blank} | È stata aggiunta una nuova esercitazione. |
-| 21 febbraio | [Elenco consentiti nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco Consentiti per tutte le aree nel [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
-|  | [Modifiche](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stato aggiunto del testo che spiega che l&#39;esempio che utilizza JQuery presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte. |
+| 23 febbraio | [Migra Target da at.js 2.*x* su Platform Web SDK](https://experienceleague.adobe.com/docs/platform-learn/migrate-target-to-websdk/introduction.html?lang=it){target=_blank} | È stato aggiunto un nuovo tutorial. |
+| 21 febbraio | [Inserire nell’lenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco consentiti per tutte le aree nella [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+|  | [Modifiche](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stato aggiunto del testo che spiega che l’esempio che utilizza JQuery presuppone che il sito web dell’utente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte. |
 | 10 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.14.5 di [!DNL Target Standard/Premium]. |
 | 8 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione di at.js 2.10.1. |
 | 2 febbraio | [Risoluzione dei problemi relativi al Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/troubleshooting-issues-related-to-the-visual-experience-composer-vec.md#section_FA2A18E8FD6A4274B2E395DBAA2FB407) | È stata aggiornata la seguente sezione:<ul><li>Il Compositore esperienza visivo sembra non funzionare durante l’utilizzo della modalità Sfoglia</li></ul> |
