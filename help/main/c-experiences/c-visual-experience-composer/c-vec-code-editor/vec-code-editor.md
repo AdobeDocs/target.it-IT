@@ -1,21 +1,21 @@
 ---
 keywords: selettore css;codice personalizzato;editor di codice;Mobile Web Experience Editor
-description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target] per visualizzare le modifiche alla pagina e aggiungere ulteriori modifiche (selettore CSS, Mbox e codice personalizzato).
-title: Quali modifiche posso apportare alla mia pagina?
+description: Scopri come utilizzare il pannello Modifiche in Adobe [!DNL Target] per visualizzare le modifiche apportate alla pagina e aggiungere ulteriori modifiche (Selettore CSS, Mbox e Codice personalizzato).
+title: Quali modifiche è possibile apportare alla pagina?
 feature: Visual Experience Composer (VEC)
 exl-id: 23456a4b-9457-4f05-989e-a7c39ce17cc2
-source-git-commit: 21efc55e68b66a94c73fbf7d3d7e7b6f8f6b1f82
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '2227'
-ht-degree: 88%
+source-wordcount: '2250'
+ht-degree: 87%
 
 ---
 
 # Modifiche
 
-Informazioni sulle [!UICONTROL Modifiche] in [!DNL Adobe Target] che consente di visualizzare le modifiche alla pagina e di aggiungere ulteriori modifiche (selettore CSS, Mbox e Codice personalizzato).
+Informazioni su [!UICONTROL Modifiche] pagina in [!DNL Adobe Target] che consente di visualizzare le modifiche alla pagina e di aggiungere ulteriori modifiche (selettore CSS, mbox e codice personalizzato).
 
-La [!UICONTROL Modifiche] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo e consente di apportare ulteriori modifiche facendo clic su ogni elemento della pagina e [selezione di un’azione](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
+Il [!UICONTROL Modifiche] mostra tutte le modifiche apportate alla pagina nel Compositore esperienza visivo (VEC) e consente di apportare ulteriori modifiche facendo clic su ciascun elemento della pagina e [selezione di un’azione](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#reference_3BD1BEEAFA584A749ED2D08F14732E81). Ogni modifica apportata viene visualizzata come un&#39;azione o un elemento separato [!UICONTROL nell&#39;elenco delle modifiche]. Puoi anche aggiungere modifiche, compresi i seguenti tipi di modifica: Selettore CSS, Mbox. e Codice personalizzato.
 
 ## Panoramica sulle modifiche {#section_EE27E7572AA74397BBDED563B2B3D509}
 
@@ -29,19 +29,19 @@ Utilizza la pagina Modifiche per:
 
 * Visualizzare un&#39;azione intrapresa nel compositore visivo.
 
-   ![codeeditor_viewchange immagine](assets/codeeditor_viewchange.png)
+   ![codeeditor_viewchange image](assets/codeeditor_viewchange.png)
 
 * Modificare un&#39;azione esistente. Passa il mouse sulla modifica desiderata, quindi fai clic sull&#39;icona **[!UICONTROL Modifica]**.
 
-   ![codeeditor_modifica immagine](assets/codeeditor_edit.png)
+   ![codeeditor_edit immagine](assets/codeeditor_edit.png)
 
    Apporta le modifiche.
 
-   ![codeeditor_changechange1 immagine](assets/codeeditor_changechange1.png)
+   ![immagine codeeditor_changechange1](assets/codeeditor_changechange1.png)
 
 * Elimina un&#39;azione esistente. Passa il mouse sulla modifica desiderata, quindi fai clic sull&#39;icona **[!UICONTROL Elimina]**.
 
-   ![codeditor_delete image](assets/codeditor_delete.png)
+   ![immagine codeditor_delete](assets/codeditor_delete.png)
 
 * Aggiungi una nuova modifica. Fai clic su **[!UICONTROL Aggiungi modifica]** o sull&#39;icona +, quindi specifica le modifiche come descritto di seguito.
 
@@ -55,7 +55,7 @@ Utilizza la pagina Modifiche per:
 
    Nella figura seguente viene illustrato il pannello Modifiche ancorato nella parte inferiore dello schermo:
 
-   ![codeeditor_dock_bottom immagine](assets/codeeditor_dock_bottom.png)
+   ![codeeditor_dock_bottom image](assets/codeeditor_dock_bottom.png)
 
 ## Aggiungere modifiche {#section_C7ABCD5731A048CB8F90EDC31A32EDF9}
 
@@ -82,15 +82,15 @@ Utilizza la pagina Modifiche per:
 
    Il pannello Modifiche visualizza:
 
-   ![codeeditor_page_mods_add immagine](assets/codeeditor_page_mods_add.png)
+   ![codeeditor_page_mods_add image](assets/codeeditor_page_mods_add.png)
 
 1. Dall&#39;elenco a discesa **[!UICONTROL Tipo di modifica]**, scegli il tipo desiderato:
 
    | Tipo di modifica | Dettagli |
    |--- |--- |
    | Selettore CSS | Nella casella Selettore elemento CSS, specifica l&#39;elemento CSS che desideri modificare, seleziona un tipo di azione (Imposta contenuto o Imposta attributo), quindi compila le informazioni richieste e il contenuto desiderato. |
-   | Mbox | Specifica il nome mbox e il contenuto desiderato.<p>**Nota**: Le mbox non sono più supportate nel Compositore esperienza visivo nelle pagine che utilizzano at.js 2.*x*.<p>Come soluzioni alternative:<ul><li>Se utilizzi at.js 2.*x*, aggiungi una modifica al selettore CSS invece di una modifica alla mbox e aggiungi il contenuto sul selettore utilizzato dalla mbox. </li><li>Utilizza le attività basate su moduli (funziona con mbox e at.js 1.*x* e at.js 2.*x*).</li><li>Utilizza at.js 1.*x* nel Compositore esperienza visivo.</li></ul> |
-   | Codice personalizzato | Specifica un nome facoltativo, seleziona o deseleziona l’opzione [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], quindi aggiungi il codice personalizzato.<p>Se selezioni [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], il codice personalizzato viene aggiunto alla sezione `<head>` e l’esecuzione non attende il corpo o eventi di caricamento della pagina. Aggiungi solo gli elementi `<script>` e `<style>`. L’aggiunta di tag `<div>` e di altri elementi potrebbe causare la comparsa di elementi `<head>` rimanenti nel `<body>`. Se utilizzi at.js, tutte le offerte verranno recapitate in modo asincrono.<p>  Se deselezioni [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], il codice personalizzato viene eseguito subito dopo il tag `<body>`. Racchiudi tutto il codice in un unico `<div>` per conservare la struttura DOM. Se utilizzi at.js, tutte le offerte verranno recapitate in modo asincrono.<p>Se HTML per `<BODY>` contiene `<SCRIPT>` e `<DIV>`, quindi `<DIV>` viene aggiunto a `<BODY>` e `<SCRIPT>` viene eseguito in `<HEAD>`. Inoltre, `<SCRIPT>` che carica un file esterno viene aggiunto a `<HEAD>`.<p>**Nota**: gli script vengono eseguiti in modo asincrono. Ciò significa che non è possibile, ad esempio, utilizzare `document.write` o metodi di scripting simili.<p>Il codice personalizzato fornisce un&#39;interfaccia non visiva per visualizzare, modificare e aggiungere nuove azioni nel Compositore esperienza visivo, nel Compositore esperienza basato su moduli e nell&#39;editor di offerte HTML. Il pannello fornisce una visualizzazione del codice di un&#39;esperienza e facilita la creazione di esperienze più complesse, l&#39;ottimizzazione di quelle esistenti e la risoluzione di problemi.<p>Il codice personalizzato è destinato agli utenti avanzati che hanno dimestichezza con HTML, JavaScript e CSS. La visualizzazione codice consente di modificare o perfezionare le modifiche o correggere i problemi del selettore. Può inoltre essere utilizzato per aggiungere nuove azioni e un codice personalizzato. È possibile aggiungere più di un codice personalizzato e facoltativamente assegnare un nome a ciascuno di essi.<p>**Nota**: il codice personalizzato è attualmente disponibile solo per attività A/B e per l’esperienza di targeting (XT). Il codice personalizzato è disabilitato in caso di sovrapposizione e se viene applicata un&#39;offerta di reindirizzamento.<p>Il codice personalizzato supporta i seguenti casi di utilizzo:<ul><li>Aggiunta di JavaScript, HTML o CSS personalizzati da eseguire nella parte superiore della pagina</li><li>Visualizzazione o modifica del codice generato dal Compositore esperienza visivo dopo aver apportato modifiche</li><li>Impostazione del contenuto HTML per un selettore (solo selettore CSS)</li><li>Impostazione di un attributo su un elemento HTML</li><li>Aggiunta di contenuto dell&#39;offerta da consegnare in una mbox regionale</li><li>Scambio su DOM-ready, utilizzando jQuery</li><li>Scambio su DOM-ready, non jQuery (non supporta Internet Explorer 8)</li><li>Scambio con meccanismo DOM tramite plug-in “elementOnLoad”</li><li>Reindirizzamento personalizzato</li></ul>Il codice personalizzato fornisce:<ul><li>Numeri di linea per un migliore uso.</li><li>Colorazione della sintassi che consente di evitare errori di sintassi nelle offerte HTML.</li><li>La possibilità di creare più codici personalizzati e fornire un nome facoltativo per ciascuno di essi. La creazione di più codici personalizzati semplifica il debug futuro. Invece di creare un codice personalizzato per eseguire diverse modifiche, puoi creare un codice personalizzato distinto per ogni modifica con un nome descrittivo. L&#39;uso di codici personalizzati separati rende le modifiche più modulari e gestibili. Tieni presente che l&#39;esecuzione di più codici personalizzati in un&#39;attività non è garantita nella sequenza in cui sono stati creati.</li></ul>Il pannello Modifiche suddivide lo schermo tra la modalità visiva e la modalità codice. Entrambe le modalità rimangono sincronizzate. Ogni modifica apportata visivamente ha una riga corrispondente nella vista Codice. Allo stesso modo, ogni modifica inserita nella vista Codice viene visualizzata nell&#39;esperienza visiva. Facendo clic su una qualsiasi riga della vista Codice, viene selezionato l&#39;elemento corrispondente nella pagina visiva.<p>Il codice personalizzato supporta HTML, script e stili. Qualsiasi codice HTML o script valido può essere aggiunto o modificato. |
+   | Mbox | Specifica il nome mbox e il contenuto desiderato.<p>**Nota**: le mbox non sono più supportate nel Compositore esperienza visivo nelle pagine che utilizzano at.js 2.*x*.<p>Come soluzioni alternative:<ul><li>Se utilizzi at.js 2.*x*, aggiungi una modifica del selettore CSS invece di una modifica Mbox e aggiungi il contenuto del selettore che la mbox stava utilizzando. </li><li>Utilizzare attività basate su moduli (funziona con mbox e at.js 1.*x* e at.js 2.*x*).</li><li>Utilizzare at.js 1.*x* nel Compositore esperienza visivo.</li></ul> |
+   | Codice personalizzato | Specifica un nome facoltativo, seleziona o deseleziona l’opzione [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], quindi aggiungi il codice personalizzato.<p>Se selezioni [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], il codice personalizzato viene aggiunto alla sezione `<head>` e l’esecuzione non attende il corpo o eventi di caricamento della pagina. Aggiungi solo gli elementi `<script>` e `<style>`. L’aggiunta di tag `<div>` e di altri elementi potrebbe causare la comparsa di elementi `<head>` rimanenti nel `<body>`. Se utilizzi at.js, tutte le offerte verranno consegnate in modo asincrono.<p>  Se deselezioni [!UICONTROL Aggiungi codice nella sezione `<HEAD>`], il codice personalizzato viene eseguito subito dopo il tag `<body>`. Racchiudi tutto il codice in un unico `<div>` per conservare la struttura DOM. Se utilizzi at.js, tutte le offerte verranno consegnate in modo asincrono.<p>Se HTML per `<BODY>` contiene `<SCRIPT>` e `<DIV>`, quindi `<DIV>` è aggiunto a `<BODY>` e `<SCRIPT>` viene eseguito in `<HEAD>`. Inoltre, `<SCRIPT>` che carica un file esterno viene aggiunto a `<HEAD>`.<p>**Nota**: gli script vengono eseguiti in modo asincrono. Ciò significa che non è possibile, ad esempio, utilizzare `document.write` o metodi di scripting simili.<p>Il codice personalizzato fornisce un&#39;interfaccia non visiva per visualizzare, modificare e aggiungere nuove azioni nel Compositore esperienza visivo, nel Compositore esperienza basato su moduli e nell&#39;editor di offerte HTML. Il pannello fornisce una visualizzazione del codice di un&#39;esperienza e facilita la creazione di esperienze più complesse, l&#39;ottimizzazione di quelle esistenti e la risoluzione di problemi.<p>Il codice personalizzato è destinato agli utenti avanzati che hanno dimestichezza con HTML, JavaScript e CSS. La visualizzazione codice consente di modificare o perfezionare le modifiche o correggere i problemi del selettore. Può inoltre essere utilizzato per aggiungere nuove azioni e un codice personalizzato. È possibile aggiungere più di un codice personalizzato e facoltativamente assegnare un nome a ciascuno di essi.<p>**Nota**: il codice personalizzato è attualmente disponibile solo per attività A/B e per l’esperienza di targeting (XT). Il codice personalizzato è disabilitato in caso di sovrapposizione e se viene applicata un&#39;offerta di reindirizzamento.<p>Il codice personalizzato supporta i seguenti casi di utilizzo:<ul><li>Aggiunta di JavaScript, HTML o CSS personalizzati da eseguire nella parte superiore della pagina</li><li>Visualizzazione o modifica del codice generato dal Compositore esperienza visivo dopo aver apportato modifiche</li><li>Impostazione del contenuto HTML per un selettore (solo selettore CSS)</li><li>Impostazione di un attributo su un elemento HTML</li><li>Aggiunta di contenuto dell&#39;offerta da consegnare in una mbox regionale</li><li>Scambio su DOM-ready, utilizzando jQuery</li><li>Scambio su DOM-ready, non jQuery (non supporta Internet Explorer 8)</li><li>Scambio con meccanismo DOM tramite plug-in “elementOnLoad”</li><li>Reindirizzamento personalizzato</li></ul>Il codice personalizzato fornisce:<ul><li>Numeri di linea per un migliore uso.</li><li>Colorazione della sintassi che consente di evitare errori di sintassi nelle offerte HTML.</li><li>La possibilità di creare più codici personalizzati e fornire un nome facoltativo per ciascuno di essi. La creazione di più codici personalizzati semplifica il debug futuro. Invece di creare un codice personalizzato per eseguire diverse modifiche, puoi creare un codice personalizzato distinto per ogni modifica con un nome descrittivo. L&#39;uso di codici personalizzati separati rende le modifiche più modulari e gestibili. Tieni presente che l&#39;esecuzione di più codici personalizzati in un&#39;attività non è garantita nella sequenza in cui sono stati creati.</li></ul>Il pannello Modifiche suddivide lo schermo tra la modalità visiva e la modalità codice. Entrambe le modalità rimangono sincronizzate. Ogni modifica apportata visivamente ha una riga corrispondente nella vista Codice. Allo stesso modo, ogni modifica inserita nella vista Codice viene visualizzata nell&#39;esperienza visiva. Facendo clic su una qualsiasi riga della vista Codice, viene selezionato l&#39;elemento corrispondente nella pagina visiva.<p>Il codice personalizzato supporta HTML, script e stili. Qualsiasi codice HTML o script valido può essere aggiunto o modificato. |
 
 1. Aggiungi ulteriori modifiche in base alle esigenze.
 
@@ -139,7 +139,7 @@ Utilizza la scheda **[!UICONTROL Codice personalizzato]** per:
 
 * Scambio su DOM-ready, utilizzando jQuery
 
-   L&#39;esempio seguente che utilizza JQuery presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte.
+   L’esempio che segue, che utilizza JQuery, presuppone che il sito web del cliente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte.
 
    ```javascript
    <style>#default_content {visibility:hidden;}</style> 
@@ -210,6 +210,10 @@ Ogni modifica crea un nuovo elemento nel pannello Modifiche. La seconda azione m
 Se utilizzi la funzione codice personalizzato per due attività con targeting allo stesso URL, JavaScript viene integrato nella pagina da entrambe le attività. Target determina automaticamente l&#39;ordine del contenuto recapitato. Assicurati che il codice non dipenda dal posizionamento. Spetta a te verificare che non vi siano conflitti nel codice.
 
 ## Risoluzione dei problemi    Codice personalizzato {#section_6C965CBC31C348D7AA5B57B63DAB9E7F}
+
+**Il codice personalizzato non viene eseguito quando si utilizza `triggerView`.**
+
+Le offerte di codice personalizzato nel Compositore esperienza visivo non vengono sottoposte a rendering quando `triggerView()` viene chiamato con `{page: false}` come opzione.
 
 **Ho ricevuto un avviso rispetto al fatto che un&#39;azione non può essere applicata a causa di modifiche strutturali a una pagina. Cosa significa?**
 

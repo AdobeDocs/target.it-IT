@@ -1,19 +1,19 @@
 ---
 keywords: attività;tipi di attività;modificare attività;modifica; bozza
 description: Scopri i diversi modi in cui puoi modificare un’attività esistente in Adobe Target, incluso il salvataggio di un’attività come bozza.
-title: Come si modifica un'attività o si salva come bozza?
+title: Come posso modificare un’attività o salvarla come bozza?
 feature: Activities
 exl-id: 5f2a930a-9950-430e-a898-50af1f917ec1
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
 workflow-type: tm+mt
-source-wordcount: '1126'
-ht-degree: 95%
+source-wordcount: '1211'
+ht-degree: 91%
 
 ---
 
 # Modificare un’attività o salvarla come bozza
 
-Informazioni sui diversi modi in cui puoi modificare un’attività esistente in [!DNL Adobe Target], incluso il salvataggio di un’attività come bozza.
+Informazioni sulle diverse modalità di modifica di un’attività esistente in [!DNL Adobe Target], incluso il salvataggio di un&#39;attività come bozza.
 
 In Target è possibile modificare le attività esistenti tramite le funzioni disponibili in diverse aree dell’interfaccia utente. La procedura varia a seconda del metodo scelto.
 
@@ -105,3 +105,11 @@ Tieni in considerazione le seguenti informazioni quando utilizzi la funzionalit�
 * Quando copi un’attività in un’area di lavoro diversa, l’attività viene copiata nell’altra area di lavoro senza essere aperta nel flusso di creazione dell’attività. Una volta copiata correttamente l’attività, un messaggio indica che l’attività è stata copiata correttamente e include un collegamento per aprire la nuova attività.
 
 Se l’ambiente in uso non dispone della funzionalità Autorizzazioni per gli utenti Enterprise, tutte le attività vengono aperte in modalità di modifica prima della copia.
+
+## Best practice
+
+* Come best practice, prova ad aggiornare l’attività utilizzando lo stesso metodo (interfaccia utente o API) utilizzato per creare l’attività stessa.
+
+   Attività create utilizzando [!DNL Target] L’interfaccia utente deve essere aggiornata tramite [!DNL Target] UI. Le attività create tramite API devono essere aggiornate tramite API. Se, ad esempio, crei un’attività utilizzando l’API, ma successivamente la modifichi tramite l’ [!DNL Target] Non tutte le modifiche vengono aggiornate. Tutte le modifiche vengono memorizzate sul backend e possono essere aggiornate effettuando un’altra chiamata API.
+
+
