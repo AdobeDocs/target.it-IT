@@ -4,9 +4,9 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: A4T supporta [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
 workflow-type: tm+mt
-source-wordcount: '1354'
+source-wordcount: '1382'
 ht-degree: 2%
 
 ---
@@ -76,25 +76,25 @@ Per iniziare:
 
 | Nome della metrica | Non più supportato in: |
 | --- | --- |
-| [!UICONTROL averagepagedepth] | Tasso di conversione, RPV |
-| [!UICONTROL averagetimespentonsite] | Tasso di conversione, RPV |
-| [!UICONTROL rimbalzo] | Tasso di conversione, RPV |
-| [!UICONTROL mancati recapiti] | Tasso di conversione, RPV |
-| [!UICONTROL voci] | Tasso di conversione, RPV |
-| [!UICONTROL uscite] | Tasso di conversione, RPV |
-| [!UICONTROL visualizzazioni pagina] | RPV |
-| [!UICONTROL ricaricamenti] | RPV |
-| [!UICONTROL visitatori] | Tasso di conversione, RPV |
-| [!UICONTROL visite] | RPV |
+| [!UICONTROL averagepagedepth] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL averagetimespentonsite] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL rimbalzo] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL mancati recapiti] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL voci] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL uscite] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL visualizzazioni pagina] | Massimizzare il valore della metrica |
+| [!UICONTROL ricaricamenti] | Massimizzare il valore della metrica |
+| [!UICONTROL visitatori] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL visite] | Massimizzare il valore della metrica |
 
 ### Impatto su [!UICONTROL Targeting automatico] attività
 
 | Nome della metrica | Non più supportato in: |
 | --- | --- |
-| [!UICONTROL rimozioni cartone] | RPV |
-| [!UICONTROL visualizzazioni pagina] | RPV |
-| [!UICONTROL visitatori] | Tasso di conversione, RPV |
-| [!UICONTROL visite] | RPV |
+| [!UICONTROL rimozioni cartone] | Massimizzare il valore della metrica |
+| [!UICONTROL visualizzazioni pagina] | Massimizzare il valore della metrica |
+| [!UICONTROL visitatori] | Tasso di conversione, massimizzare il valore della metrica |
+| [!UICONTROL visite] | Massimizzare il valore della metrica |
 
 ## Limitazioni e note
 
