@@ -4,10 +4,10 @@ description: Scopri come funziona  [!DNL Adobe Target]  e informazioni su librer
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
-workflow-type: ht
-source-wordcount: '2583'
-ht-degree: 100%
+source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
+workflow-type: tm+mt
+source-wordcount: '2562'
+ht-degree: 98%
 
 ---
 
@@ -19,7 +19,7 @@ Scopri come funziona [!DNL Adobe Target], comprese informazioni sulle librerie J
 
 [!DNL Target] si integra con i siti web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:** [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} è una nuova libreria JavaScript lato client. [!DNL Experience Platform Web SDK] consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi di [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. [!DNL Adobe] consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **[!DNL Adobe Experience Platform Web SDK]:** Il [Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} è una nuova libreria JavaScript lato client. [!DNL Experience Platform Web SDK] consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi di [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. [!DNL Adobe] consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
 * **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. [!DNL Adobe] consiglia a tutti i clienti che utilizzano at.js di aggiornare le implementazioni alla [versione più recente di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
 
 >[!NOTE]
@@ -134,7 +134,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni del visitatore rimangono limitate per i clienti [!DNL Target] in Cina. A causa del firewall e della mancanza di cluster Edge nel paese, le esperienze dei siti con [!DNL Target] implementato possono essere influenzate. Le esperienze possono essere lente per il rendering e possono essere influenzate dai caricamenti di pagina. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l’utilizzo dell’interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [Inserire nell’elenco Consentiti i nodi Edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Se necessario, puoi inserire nell’elenco Consentiti i cluster di Edge [!DNL Target]. Per ulteriori informazioni, consulta [elenco Consentiti nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 
@@ -178,7 +178,7 @@ Le linee guida sono state pubblicate su [Google Webmaster Central Blog](https://
 
    [!DNL Adobe] continua a cercare soluzioni valide per allinearsi completamente alle linee guida dei motori di ricerca. Per i casi in cui è necessario utilizzare URL separati per i test, [!DNL Adobe] è sicura che la corretta implementazione dei tag canonici attenui il rischio associato a questo approccio.
 
-* **Eseguire esperimenti solo per la durata strettamente necessaria**: [!DNL Adobe] ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] fornisce le best practice e il [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) di [!DNL Adobe Target] per determinare quando il test ha raggiunto questo punto. [!DNL Adobe] consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
+* **Eseguire esperimenti solo per la durata strettamente necessaria**: [!DNL Adobe] ritiene che la “durata strettamente necessaria” sia il tempo necessario a raggiungere la rilevanza statistica. [!DNL Target] fornisce best practice e [!DNL Adobe Target] [Calcolatore dimensioni campione](/help/main/c-activities/t-test-ab/sample-size-determination.md#section_6B8725BD704C4AFE939EF2A6B6E834E6) per determinare quando il test ha raggiunto questo punto. [!DNL Adobe] consiglia di incorporare l’implementazione hardcoded dei test vincenti nel flusso di lavoro dei test e di assegnare le risorse appropriate.
 
    L’utilizzo della piattaforma [!DNL Target] per “pubblicare” i test vincenti non è consigliato come soluzione permanente. Se il test vincente viene pubblicato per il 100% degli utenti il 100% del tempo, questo approccio può essere utilizzato durante il completamento del processo di codifica fissa.
 
