@@ -5,10 +5,10 @@ title: Come si configura il Compositore esperienza visivo?
 feature: Administration & Configuration
 role: Admin
 exl-id: cf6c9ece-6745-477e-81ac-a3e9a9fddb09
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '717'
-ht-degree: 50%
+source-wordcount: '726'
+ht-degree: 57%
 
 ---
 
@@ -30,7 +30,7 @@ Puoi specificare le impostazioni generali del Compositore esperienza visivo.
 
 ![Sezione Impostazioni generali](/help/main/administrating-target/assets/general-settings.png)
 
-Sono disponibili le seguenti opzioni:
+Sono disponibili le seguenti impostazioni:
 
 ### URL predefinito
 
@@ -57,7 +57,7 @@ Questa opzione è utile se, ad esempio:
 
 L&#39;attivazione delle istantanee esperienza genera miniature per le tue esperienze nel diagramma del flusso di lavoro dell&#39;attività. La disabilitazione delle istantanee potrebbe determinare prestazioni più veloci per alcuni utenti.
 
-## ![Badge Premium](/help/main/assets/premium.png) Configurazione di riquadri di visualizzazione per dispositivi mobili
+## [!BADGE Premium]{type=Positive url="/help/main/c-intro/intro.md#premium newtab=true" tooltip="Vedi cosa è incluso in Target Premium."}
 
 Puoi aggiungere dispositivi da utilizzare quando visualizzi le esperienze in anteprima. A ogni dispositivo è associato un pubblico.
 
@@ -103,6 +103,6 @@ In questo video trovi informazioni sulle preferenze dell&#39;account.
 
 >[!NOTE]
 >
->La [!DNL Target] [!UICONTROL Amministrazione] interfaccia utente del menu (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario per il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in posizioni leggermente diverse. I video aggiornati verranno pubblicati a breve.
+>L’interfaccia utente di [!DNL Target] del menu [!UICONTROL Amministrazione] (precedentemente [!UICONTROL Configurazione]) è stato riprogettato per fornire prestazioni migliori, ridurre il tempo di manutenzione necessario durante il rilascio di nuove funzioni e migliorare l’esperienza utente nel prodotto. Le informazioni contenute nel video seguente sono generalmente corrette; tuttavia, le opzioni potrebbero trovarsi in punti leggermente diversi. I video aggiornati verranno pubblicati a breve.
 
 >[!VIDEO](https://video.tv.adobe.com/v/17379)

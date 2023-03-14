@@ -2,17 +2,18 @@
 keywords: integrazione;ruoli;autorizzazioni utente;admin console
 description: Scopri come concedere alle integrazioni di Adobe I/O esistenti l’accesso a tutte le aree di lavoro con il ruolo desiderato in Adobe Target.
 title: Come si concede l’accesso Adobe I/O alle aree di lavoro e si assegnano i ruoli?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 62f6399f-c590-470c-ac3b-e0c84db63112
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: fa11f93058b69e5e59e0ee20c65cffa4a1344ca0
 workflow-type: tm+mt
-source-wordcount: '621'
-ht-degree: 84%
+source-wordcount: '620'
+ht-degree: 87%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli
+# Consentire alle integrazioni Adobe I/O di accedere alle aree di lavoro e assegnare ruoli
 
 Le [!UICONTROL Autorizzazioni Enterprise] consentono ai clienti [!DNL Target] di utilizzare una singola organizzazione, ma di suddividerla in più aree di lavoro per i diversi team o flussi di lavoro.
 
@@ -62,7 +63,7 @@ Questo aggiornamento supporta i casi d’uso seguenti:
 
    | Ruolo | Descrizione |
    |--- |--- |
-   | Approvatore | Può creare, modificare, attivare o interrompere le attività. |
-   | Editor | può creare e modificare le attività prima che siano in diretta, ma non può approvare l&#39;avvio di un&#39;attività. |
+   | Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
+   | Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
    | Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
    | Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
