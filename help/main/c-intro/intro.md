@@ -1,14 +1,14 @@
 ---
 keywords: Target Standard;Recommendations;consigli;Target Premium;Automated Personalization;personalizzazione automatizzata;targeting automatico;auto-targeting;autorizzazioni;cos’è adobe target;
-description: Scopri le basi dell’Adobe [!DNL Target] Standard ed Adobe [!DNL Target] Premium. [!DNL Target] Premium include funzionalità avanzate non disponibili nel prodotto Standard.
+description: Scopri le nozioni di base di Adobe [!DNL Target] Standard e Adobe [!DNL Target] Premium. [!DNL Target] Premium include funzionalità avanzate non disponibili nel prodotto Standard.
 landing-page-description: Personalizza l’esperienza dei clienti per massimizzare le entrate tramite siti web, app mobili, social media e altri canali digitali.
 title: Cos’è Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 2494d0c88e33135c9df266e9c7216fcf7f6427ce
 workflow-type: tm+mt
-source-wordcount: '942'
-ht-degree: 99%
+source-wordcount: '1017'
+ht-degree: 89%
 
 ---
 
@@ -26,13 +26,13 @@ Le best practice di settore sono integrate in [!DNL Target Standard]. [!DNL Targ
 
 ## Target Premium {#premium}
 
+[!BADGE Premium]{type=Positive}
+
 [!DNL Target Premium] è un’offerta avanzata [!DNL Target] che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard].
 
-Tutti gli articoli [!DNL Target Premium] di questa guida includono il badge Premium nella parte superiore di ogni pagina:
+Tutti [!DNL Target Premium] Gli articoli nelle guide di Target includono il badge Premium nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Premium è cliccabile e include un collegamento a questa sezione.
 
-![Badge Premium](/help/main/assets/premium.png)
-
-In Target Premium sono incluse le seguenti funzionalità:
+[!DNL Target Premium] include le seguenti funzionalità:
 
 ### Automated Personalization
 
@@ -78,6 +78,14 @@ Questo apre a funzionalità tutte nuove, ad esempio:
 ### Autorizzazioni per gli utenti Enterprise
 
 La funzionalità [Autorizzazioni per gli utenti aziendali](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#concept_E396B16FA2024ADBA27BC056138F9838) consente di creare progetti diversi (denominati “profili di prodotto” in [!DNL Adobe Admin Console for Enterprise]). [!UICONTROL Autorizzazioni per gli utenti aziendali] consente di assegnare a un singolo utente diverse autorizzazioni che ne determinano i diritti di accesso per ciascun progetto. Questi progetti distinti possono essere paragonati al modo in cui le suite di rapporti funzionano in [!DNL Adobe Analytics]. In ogni progetto possono essere inclusi utenti specifici con ruoli specifici applicabili a un insieme di proprietà. Il risultato è che i clienti possono limitare l’accesso alla visualizzazione, alla modifica, all’approvazione e alla pubblicazione ai propri utenti. È possibile limitare gli utenti in base all’area geografica, all’ambiente (dev/stage/prod), al canale o ad altri criteri personalizzati.
+
+## Funzioni beta {#beta}
+
+[!BADGE Beta]{type=Informative}
+
+Il [!DNL Adobe Target] team spesso attiva le funzioni per alcuni clienti a scopo di test e feedback prima di abilitarle per tutti i clienti nelle versioni future.
+
+Articoli in [!DNL Target] Le guide che descrivono le funzioni beta includono il badge beta nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Beta è cliccabile e include un collegamento a questa sezione.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
