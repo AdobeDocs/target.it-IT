@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: e458793e4d0110d97f3f5124cbe6e54520d3f0e9
+source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
 workflow-type: tm+mt
-source-wordcount: '400'
-ht-degree: 57%
+source-wordcount: '555'
+ht-degree: 44%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 57%
 
 Questo articolo contiene informazioni di pre-release. Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
 
-**Ultimo aggiornamento: 8 marzo 2023**
+**Ultimo aggiornamento: 14 marzo 2023**
 
 Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle versioni. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -27,13 +27,28 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 * **9 marzo**: area geografica Europa, Medio Oriente e Africa (EMEA)
 * **9 marzo**: area geografica Asia-Pacifico (APAC)
 
-Questa versione contiene le nuove funzioni e i miglioramenti seguenti:
+Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
 
 | Funzione | Dettagli |
 | --- | --- |
 | Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] | [!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.<P>Tieni presente le seguenti modifiche nelle metriche supportate:<ul><li>[!DNL Target] ha mantenuto il comportamento precedente per le attività esistenti fino a (DATA DA DETERMINARE). Dopo questa data, le attività che utilizzano metriche non supportate verranno interrotte per forzare la migrazione delle attività esistenti al nuovo comportamento.</li></ul>Per ulteriori informazioni, consulta [Metriche obiettivo supportate](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *Supporto A4T per attività di allocazione automatica e targeting automatico*. |
 | [!UICONTROL Allocazione automatica] utilizzo [!UICONTROL Analytics for Target] (A4T) | Nuovo tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Allocazione automatica] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
 | [!UICONTROL Targeting automatico] utilizzo [!UICONTROL Analytics for Target] (A4T) | Nuovo tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Targeting automatico] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+
+Questa versione include le seguenti correzioni:
+
+* Aggiornamenti per la creazione di componenti web personalizzati con [!UICONTROL Compositore esperienza visivo] (VEC):
+
+   * È stata corretta la selezione degli elementi DOM dell’ombreggiatura nel Compositore esperienza visivo, migliorando il processo di authoring in modo che non vi sia alcuna dipendenza da [!DNL Target] tipo di implementazione durante la creazione della directory principale shadow. Ora, la selezione degli elementi DOM ombra nel Compositore esperienza visivo dovrebbe funzionare per qualsiasi sito web.
+   * È stato risolto un problema che impediva il caricamento di elementi HTML utilizzando #Shadow DOM nel Compositore esperienza visivo. (TGT-35801)
+   * Sono stati risolti i problemi relativi al Compositore esperienza visivo con i siti web SPA che utilizzavano ShadowDOM. (TGT-43169)
+   * È stato risolto un problema relativo all’obiettivo di ottimizzazione: &quot;clic su un elemento&quot; che non identificava correttamente il selettore CSS in ShadowDOM.
+
+>[!NOTE]
+>
+>Per garantire la trasmissione delle modifiche create nel Compositore esperienza visivo, assicurati di utilizzare una [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) con una versione superiore a 2.8.
+
+**Problema noto**: tracciamento dei clic su un elemento principale ombra quando si utilizza [!DNL Adobe Experience Platform Web SDK] non funziona correttamente. (TNT-47012)
 
 ## at.js versione 2.10.2 (7 marzo 2023)
 
