@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 8cdf362d9e45153b26bca5a45ed59ef557adc016
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '555'
-ht-degree: 44%
+source-wordcount: '446'
+ht-degree: 52%
 
 ---
 
@@ -27,13 +27,9 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 * **9 marzo**: area geografica Europa, Medio Oriente e Africa (EMEA)
 * **9 marzo**: area geografica Asia-Pacifico (APAC)
 
-Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
-
-| Funzione | Dettagli |
-| --- | --- |
-| Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] | [!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.<P>Tieni presente le seguenti modifiche nelle metriche supportate:<ul><li>[!DNL Target] ha mantenuto il comportamento precedente per le attività esistenti fino a (DATA DA DETERMINARE). Dopo questa data, le attività che utilizzano metriche non supportate verranno interrotte per forzare la migrazione delle attività esistenti al nuovo comportamento.</li></ul>Per ulteriori informazioni, consulta [Metriche obiettivo supportate](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) in *Supporto A4T per attività di allocazione automatica e targeting automatico*. |
-| [!UICONTROL Allocazione automatica] utilizzo [!UICONTROL Analytics for Target] (A4T) | Nuovo tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Allocazione automatica] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html){target=_blank}</li></ul> |
-| [!UICONTROL Targeting automatico] utilizzo [!UICONTROL Analytics for Target] (A4T) | Nuovo tutorial:<ul><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per [!UICONTROL Targeting automatico] attività](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html){target=_blank}</li></ul> |
+>[!NOTE]
+>
+>A causa di problemi che sono stati successivamente risolti, la sezione &quot;Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]La funzione &quot; rilasciata l’8 e il 9 marzo è stata temporaneamente rimossa. Dopo ulteriori test interni, la funzione verrà rilasciata nuovamente nelle prossime settimane.
 
 Questa versione include le seguenti correzioni:
 

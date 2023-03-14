@@ -4,10 +4,10 @@ description: Scopri come creare [!UICONTROL Allocazione automatica] e [!UICONTRO
 title: A4T supporta [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] Attività?
 feature: Analytics for Target (A4T)
 exl-id: 3302f26d-c445-4779-8435-be142d5cea8c
-source-git-commit: 8c9436b7f56b7fe6cc971c940ec5a29fc0f548f5
+source-git-commit: 2c4f5666b65bfc36885aad3907639a309e8c69f2
 workflow-type: tm+mt
-source-wordcount: '1382'
-ht-degree: 2%
+source-wordcount: '1292'
+ht-degree: 1%
 
 ---
 
@@ -62,39 +62,18 @@ Per iniziare:
 * [!DNL Adobe Analytics] metriche di conversione
 * [!DNL Adobe Analytics] eventi personalizzati
 
-[!DNL Target] consente di scegliere metriche basate su eventi binomiali o metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività.
+[!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] richiede di scegliere una metrica basata su un evento binomiale. Un evento binomiale si verifica o meno. Gli eventi binomiali includono un clic, una conversione, un ordine e così via. Questi tipi di eventi sono talvolta indicati anche come eventi di Bernoulli, binari o discreti.
 
-* **Metriche basate su eventi binomiali**: un evento binomiale si verifica o meno. Gli eventi binomiali includono un clic, una conversione, un ordine e così via. Questi tipi di eventi sono talvolta indicati anche come eventi di Bernoulli, binari o discreti.
+[!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] non supporta l’ottimizzazione per le metriche continue. Le metriche continue includono ricavi, numero di prodotti ordinati, durata della sessione, numero di visualizzazioni di pagina nella sessione e così via. Questi tipi di metriche non supportati sono talvolta denominati anche metriche non binomiali o non di Bernoulli.
 
-* **Metriche basate su eventi continui**. Le metriche continue includono ricavi, numero di prodotti ordinati, durata della sessione, numero di visualizzazioni di pagina nella sessione e così via. Questi tipi di eventi sono a volte indicati anche come metriche non binomiali o non di Bernoulli.
+I seguenti tipi di metriche non sono supportati come metriche obiettivo primarie:
 
->[!IMPORTANT]
->
->A partire dal [!DNL Adobe Target Standard/Premium] versione 22.15.1 (8 e 9 marzo 2023), [!DNL Target] continua a supportare le attività esistenti con metriche non supportate (elencate nelle tabelle seguenti). Tuttavia, dopo il 9 settembre 2023 queste metriche non saranno più supportate nelle attività esistenti e tutte le attività che utilizzano metriche non supportate verranno interrotte per forzare la migrazione delle attività esistenti al nuovo comportamento.
+* [!DNL Adobe Target] metriche di coinvolgimento e ricavi
+* [!DNL Adobe Analytics] metriche di coinvolgimento e ricavi
 
-### Impatto su [!UICONTROL Allocazione automatica] attività
+   È possibile selezionare una [!DNL Analytics] metrica di coinvolgimento o ricavo come metrica di obiettivo principale perché [!DNL Target] non può identificare ed escludere tutte le metriche di coinvolgimento e ricavi da [!DNL Analytics]. Seleziona solo metriche di conversione binomiali o eventi personalizzati da [!DNL Analytics].
 
-| Nome della metrica | Non più supportato in: |
-| --- | --- |
-| [!UICONTROL averagepagedepth] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL averagetimespentonsite] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL rimbalzo] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL mancati recapiti] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL voci] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL uscite] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL visualizzazioni pagina] | Massimizzare il valore della metrica |
-| [!UICONTROL ricaricamenti] | Massimizzare il valore della metrica |
-| [!UICONTROL visitatori] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL visite] | Massimizzare il valore della metrica |
-
-### Impatto su [!UICONTROL Targeting automatico] attività
-
-| Nome della metrica | Non più supportato in: |
-| --- | --- |
-| [!UICONTROL rimozioni cartone] | Massimizzare il valore della metrica |
-| [!UICONTROL visualizzazioni pagina] | Massimizzare il valore della metrica |
-| [!UICONTROL visitatori] | Tasso di conversione, massimizzare il valore della metrica |
-| [!UICONTROL visite] | Massimizzare il valore della metrica |
+* [!DNL Adobe Analytics] metriche calcolate
 
 ## Limitazioni e note
 
