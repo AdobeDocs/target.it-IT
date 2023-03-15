@@ -2,16 +2,17 @@
 keywords: Recommendations;consigli;criteri Recommendations;criteri consigli;algoritmi Recommendations;algoritmi consigli:attività;criteri;recommendations targeting;targeting consigli
 description: Scopri le attività Consigli in Adobe [!DNL Target] che consentono di visualizzare automaticamente contenuti che potrebbero interessare ai clienti in base alle precedenti attività dell’utente o ad altri algoritmi.
 title: Cos’è la funzione Consigli di  [!DNL Target] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 0d986e17-bc99-4c08-a963-7f9a6619609a
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '931'
+source-wordcount: '930'
 ht-degree: 99%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Consigli
+# Consigli
 
 Le attività [!DNL Adobe Target Recommendations] consentono di visualizzare automaticamente prodotti, servizi o contenuti che potrebbero interessare i visitatori in base alle loro attività precedenti, preferenze o ad altri algoritmi. [!DNL Target Recommendations] permette di indirizzare i clienti verso elementi rilevanti di cui potrebbero non essere a conoscenza. [!DNL Recommendations] consente di fornire ai visitatori contenuti pertinenti al momento giusto e nel posto giusto.
 

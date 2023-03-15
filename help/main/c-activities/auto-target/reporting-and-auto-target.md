@@ -2,15 +2,16 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;FAQ;risoluzione dei problemi;risoluzione dei problemi;reporting;report;report di riepilogo del targeting automatico;report di riepilogo;segmenti automatizzati;attributi importanti
 description: Scopri come interpretare [!UICONTROL Targeting automatico] rapporti di attività in [!DNL Target].
 title: Come interpreto un [!UICONTROL Targeting automatico] Segnalare?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
-source-git-commit: b160d50c81a1ce9eccdf7dc54531f23670bb2fae
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '196'
-ht-degree: 22%
+source-wordcount: '195'
+ht-degree: 24%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Reporting e [!UICONTROL Targeting automatico]
+# Creazione di rapporti e [!UICONTROL Targeting automatico]
 
 Informazioni su come interpretare il [!UICONTROL Riepilogo del Targeting automatico] rapporti in [!DNL Adobe Target], compreso il [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] rapporti.
 

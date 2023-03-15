@@ -2,16 +2,17 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza dei parametri
 description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
 title: Come Si Filtra Per Corrispondenza Parametro Nelle Attività Di Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 9ec161b9-1b37-4475-b508-af676126c817
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '329'
 ht-degree: 10%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Corrispondenza parametro
+# Corrispondenza parametro
 
 Filtrare dinamicamente confrontando gli articoli (entità) con un valore nella richiesta (API o mbox).
 

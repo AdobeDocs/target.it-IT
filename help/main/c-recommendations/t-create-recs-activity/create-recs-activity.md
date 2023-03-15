@@ -2,16 +2,17 @@
 keywords: creare consigli;attività consigli;nuovi consigli;panoramica consigli
 description: Scopri come utilizzare l’Adobe [!DNL Target] Compositore esperienza visivo per creare un’attività Recommendations direttamente su un [!DNL Target]Pagina abilitata.
 title: Come si crea un'attività Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: c83073d5-f852-4f09-8343-e4658fbf6f43
-source-git-commit: 719eb95049dad3bee5925dff794871cd65969f79
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1315'
-ht-degree: 75%
+source-wordcount: '1312'
+ht-degree: 76%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Creare un’attività Consigli
+# Creare un’attività Consigli
 
 Utilizza il Compositore esperienza visivo di Target per creare attività Consigli direttamente su una pagina abilitata per Target e modificare parti della pagina in Target.
 

@@ -2,17 +2,18 @@
 keywords: esperienza;controllo;personalizzazione automatizzata;target automatico
 description: Scopri come selezionare un’esperienza da utilizzare come controllo durante la creazione di un’attività Automated Personalization (AP) o Targeting automatico in Adobe Target.
 title: Come posso utilizzare un’esperienza specifica come controllo in un’attività di Personalizzazione automatizzata?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 solution: Target,Analytics
 exl-id: a0a36ace-3cba-4d8d-9bbd-e35204ff6453
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '765'
-ht-degree: 95%
+source-wordcount: '764'
+ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Selezionare il controllo per un’attività di Personalizzazione automatizzata o Targeting automatico
+# Selezionare il controllo per l’attività Automated Personalization o Targeting automatico
 
 Durante la creazione di un’attività [Personalizzazione automatizzata](/help/main/c-activities/t-automated-personalization/automated-personalization.md) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md), puoi scegliere di usare come controllo un’esperienza casuale o selezionarne una specifica.
 
@@ -22,9 +23,9 @@ Le opzioni per l’impostazione di un controllo nelle attività di personalizzaz
 
 Nelle attività di personalizzazione automatizzata e targeting automatico sono disponibili due opzioni per il controllo: esperienze distribuite in modo casuale o un’esperienza specifica.
 
-* **Distribuzione casuale**: tutte le esperienze presenti nell’attività vengono distribuite in modo casuale, senza considerare il profilo del visitatore, in base alla percentuale di traffico del controllo. Questo è utile per rispondere ad esempio alla domanda: “Se un’esperienza o offerta viene distribuita in modo casuale ai visitatori, senza prendere in considerazione i loro profili, qual è il tasso di conversione per tale esperienza o offerta?” Il controllo è simile a un test A/B nell’attività AI. Queste informazioni sul tasso di conversione non personalizzato per ogni esperienza o offerta possono essere utili per comprendere quando analizzare i risultati dell’attività.
+* **Distribuzione casuale**: Per un controllo casuale, la percentuale di traffico del controllo viene distribuita in modo casuale a tutte le esperienze dell’attività, senza considerare il profilo del visitatore. Potete considerare il controllo come un aiuto per rispondere alla domanda, &quot;Se distribuisco in modo casuale un’esperienza (o offerta) ai visitatori e non considero i loro profili, qual è il tasso di conversione per quell’esperienza (o offerta)?&quot; Il controllo è simile a un test A/B nell’attività AI. Queste informazioni sul tasso di conversione non personalizzato per ogni esperienza o offerta possono essere utili per comprendere quando analizzare i risultati dell’attività.
 
-* **Esperienza specifica**: è possibile confrontare il traffico distribuito dai modelli di personalizzazione di Target rispetto a una specifica esperienza definita dall’addetto al marketing (ad esempio, la pagina home predefinita). Con questa opzione, la percentuale di traffico di controllo viene veicolata in modo casuale unicamente all’esperienza definita come controllo.
+* **Esperienza specifica**: Un controllo esperienza specifico consente di confrontare il traffico distribuito dai modelli di personalizzazione di Target rispetto a una specifica esperienza definita dall’addetto al marketing (ad esempio, la pagina home predefinita). Con questa opzione, la percentuale di traffico di controllo viene veicolata in modo casuale unicamente all’esperienza definita come controllo.
 
 ## Specificare come controllo un’esperienza specifica
 

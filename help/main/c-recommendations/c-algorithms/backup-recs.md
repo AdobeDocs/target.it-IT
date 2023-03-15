@@ -2,16 +2,17 @@
 keywords: consigli;backup;back up
 description: Scopri come utilizzare i consigli di backup in Adobe [!DNL Target] Recommendations. Per i consigli privi di un numero sufficiente di elementi consigliati vengono visualizzati i risultati dell'algoritmo di backup.
 title: Come si utilizza un consiglio di backup in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 070aa8ef-5691-4106-b5cf-45eb9f6f334c
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '518'
 ht-degree: 82%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Utilizzare un consiglio di backup
+# Utilizzare un consiglio di backup
 
 Se utilizzate la funzione di consiglio di backup in Adobe Target, per i consigli privi di un numero sufficiente di elementi consigliati non verrà visualizzato il contenuto predefinito. Al loro posto saranno visualizzati i risultati dell’algoritmo di backup.
 

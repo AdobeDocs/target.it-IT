@@ -2,17 +2,18 @@
 keywords: attributi di entità multivalore;attributi di entità personalizzati;JSON valido;valore di attributo di entità;vettore JSON;array JSON;matrice JSON;multivalore;con più valori
 description: Scopri come utilizzare gli attributi di entità personalizzati a valore singolo e multiplo per definire informazioni aggiuntive sugli elementi nel tuo Adobe [!DNL Target] Catalogo Recommendations.
 title: Come Si Utilizzano Gli Attributi Di Entità Personalizzati?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 3
 exl-id: d7d0b04a-0f50-4d30-9cbe-c0347a3d3715
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1411'
-ht-degree: 87%
+source-wordcount: '1408'
+ht-degree: 89%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Attributi di entità personalizzati
+# Attributi di entità personalizzati
 
 Utilizzare attributi di entità personalizzati a valore singolo e multiplo in [!DNL Adobe Target Recommendations] per definire informazioni aggiuntive sugli elementi nel catalogo.
 
@@ -36,7 +37,7 @@ Un attributo di entità personalizzato con un valore singolo è formato come un 
 
 Un attributo di entità personalizzato con più valori deve essere inviato come array JSON valido:
 
-`entity.genre=[“genre1”, “genre2”]`
+`entity.genre=["genre1", "genre2"]`
 
 Esempi di array JSON validi supportati da [!DNL Recommendations]:
 
@@ -126,7 +127,7 @@ Puoi trasmettere attributi con più valori utilizzando l’API di consegna in un
   }
 ```
 
-Consulta la sezione [Documentazione API di Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank} per informazioni sull&#39;utilizzo delle API di Consegna e Salva entità.
+Per informazioni sull’utilizzo delle API per consegnare e salvare entità, consulta la [documentazione sulle API di Adobe Recommendations](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
 
 ## Utilizzo di operatori con attributi con più valori {#section_83C2288A805242D9A02EBC4F07DEE945}
 

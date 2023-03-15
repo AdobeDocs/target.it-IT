@@ -2,16 +2,17 @@
 keywords: e-mail;ESP;provider di servizi di posta elettronica;rawbox;API di consegna;modello di solo download;modello di posta elettronica;elaborazione batch;e-mail build-time
 description: Scopri come integrare le e-mail con le API di consegna di Adobe [!DNL Target Recommendations], including using the [!DNL Target] , modelli rawbox e modelli di solo download.
 title: Come posso integrare Consigli con l’e-mail?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: a0a20b99a76ba0346f00e3841a345e916ffde8ea
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '1715'
-ht-degree: 99%
+source-wordcount: '1712'
+ht-degree: 97%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Integrare [!DNL Recommendations] con l’e-mail 
+# Integrare [!DNL Recommendations] con l’e-mail
 
 [!DNL Adobe Target] supporta la personalizzazione in fase di invio dei consigli nelle e-mail.
 
@@ -25,7 +26,7 @@ Sono disponibili tre metodi di integrazione [!DNL Target Recommendations] con il
 
 Per i metodi 1 e 2, il tuo ESP deve effettuare chiamate a un’API esterna per cliente/per e-mail e attendedere che venga restituito il contenuto appropriato. Questi metodi non sono supportati da tutt gli ESP; contatta il tuo ESP per determinare se è compatibile con questo modello di integrazione.
 
-Per il metodo 3, il tuo ESP deve unre all’elenco delle e-mail un elenco di consigli per ID prodotto o ID categoria. Questo metodo può essere basato su un attribut, ad esempio ultimo prodotto visualizzato dal cliente, ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’unione di tali elenchi, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati e se è compatibile con questo modello di integrazione.
+Per il metodo 3, il tuo ESP deve unre all’elenco delle e-mail un elenco di consigli per ID prodotto o ID categoria. Questo metodo può essere basato su un attributo come l&#39;ultimo prodotto visualizzato del cliente, l&#39;ultimo prodotto acquistato o la categoria più visualizzata. Tuttavia, per eseguire l’unione di tali elenchi, l’ESP deve avere accesso a questi dati nel suo profilo cliente. Contatta il tuo ESP per determinare se ha accesso a questi dati e se è compatibile con questo modello di integrazione.
 
 La personalizzazione dei consigli in base all’ora di apertura non è supportata da [!DNL Adobe Target].
 
@@ -77,7 +78,7 @@ Dove `clientcode` è il codice del client [!DNL Target].
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Vedi [Documentazione API di consegna](https://developer.adobe.com/target/implement/delivery-api/){target=_blank} per ulteriori informazioni.
+Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://developer.adobe.com/target/implement/delivery-api/).{target=_blank}
 
 ## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 
@@ -124,7 +125,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 
 | Parametro | Valore | Descrizione | Convalida |
 |--- |--- |--- |--- |
-| `client_code` | *client_code* | Il codice del client utilizzato nella funzione Consigli. Il tuo consulente Adobe può fornire questo valore. |  |
+| `client_code` | *client_code* | Il codice del client utilizzato in Recommendations. Il tuo consulente Adobe può fornire questo valore. |  |
 | `mbox` | *mboxName* | Il nome mbox che viene utilizzato per il targeting. | Stessa convalida come per tutte le chiamate mbox.<br>Limite di 250 caratteri.<br>Non può contenere i seguenti caratteri: `', ", %22, %27, <, >, %3C, %3E` |
 | `mboxXDomain` | disabilitato | Impedisce che la risposta imposti un cookie in ambienti non Web. |  |
 | `entity.id`<br>(Richiesto per determinati tipi di criteri: view/view, view/bought, bought/bought) | *entity_id* | Il productId sul quale il consiglio è basato, come ad esempio un prodotto abbandonato nel carrello o un acquisto precedente.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.id`. |  |
@@ -132,7 +133,7 @@ https://client_code.tt.omtrdc.net/m2/client_code/ubox/raw?mbox=mbox_name&mboxSes
 | `entity.categoryId`<br>(Richiesto per determinati tipi di criteri: più visti per categoria e più venduti per categoria) | *category_id* | La categoria su cui si basa il consiglio, ad esempio i più venduti in una categoria.<br>Se richiesto dai criteri, la chiamata rawbox deve includere `entity.categoryId`. |  |
 | `mboxDefault` | *`https://www.default.com`* | Se il parametro `mboxNoRedirect` non è presente, `mboxDefault` deve essere un URL assoluto che restituirà il contenuto predefinito se non è disponibile alcun consiglio. Può trattarsi di un’immagine o di un altro contenuto statico.<br>Se il parametro `mboxNoRedirect` è presente, `mboxDefault` può essere qualsiasi testo che indichi che non vi sono consigli, ad esempio `no_content`.<br>Il provider e-mail dovrà gestire il caso in cui questo valore venga restituito e inserire nell’e-mail il contenuto HTML predefinito. <br> **Best practice sulla sicurezza**: se il dominio utilizzato nell’URL `mboxDefault` non è inserito nell’elenco Consentiti, puoi essere esposto a un rischio di vulnerabilità di reindirizzamento aperto. Per evitare l’uso non autorizzato dei collegamenti redirector o di `mboxDefault` da terze parti, Adobe consiglia di utilizzare “host autorizzati” per inserire nell’elenco Consentiti i domini URL di reindirizzamento predefiniti. Target utilizza gli host per inserire nell&#39;elenco Consentiti i domini a cui desideri consentire i reindirizzamenti. Per ulteriori informazioni, consulta [Creare elenchi Consentiti che specificano gli host autorizzati per l’invio di chiamate mbox a  [!DNL Target]](/help/main/administrating-target/hosts.md#allowlist) in *Host*. |  |
 | `mboxHost` | *mbox_host* | Si tratta del dominio che viene aggiunto all&#39;ambiente predefinito (gruppo di host) quando la chiamata viene attivata. |  |
-| `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun “thirdPartyId”, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
+| `mboxPC` | Vuoto | (Richiesto per i consigli che utilizzano il profilo di un visitatore.)<br>Se non è stato fornito alcun &quot;thirdPartyId&quot;, viene generato un nuovo tntId e viene restituito come parte della risposta. Altrimenti rimane vuoto.<br>**Nota**: assicurati di fornire un valore univoco di `mboxSession` e `mboxPC` per ciascun destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo. | 1 &lt; Lunghezza &lt; 128<br>Non può contenere più di un singolo “.” (punto).<br>L&#39;unico punto consentito è per il suffisso di posizione del profilo. |
 
 ### Parametri opzionali
 

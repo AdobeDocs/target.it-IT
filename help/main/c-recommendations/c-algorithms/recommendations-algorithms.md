@@ -2,17 +2,18 @@
 keywords: algoritmi di consigli;formazione del modello;distribuzione del modello;distribuzione del contenuto;basato su elementi;basato su utenti;basato sulla popolarità;basato su carrello;criteri personalizzati
 description: Scopri gli algoritmi utilizzati in [!DNL Target Recommendations], compresi l'addestramento dei modelli e il servizio dei modelli.
 title: Dove posso imparare la scienza dietro gli algoritmi Recommendations di Target?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 71e16b11e73056fb02b2aa97f2bc6415bb187291
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '2858'
+source-wordcount: '2839'
 ht-degree: 1%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) La scienza alla base degli algoritmi di raccomandazioni di Target
+# La scienza alla base degli algoritmi di Recommendations di Target
 
 Una descrizione dettagliata degli algoritmi utilizzati in [!DNL Adobe Target Recommendations], compresi i dettagli logici e matematici della formazione dei modelli e il processo di elaborazione dei modelli.
 
@@ -64,7 +65,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione modello**:
 
@@ -126,7 +127,7 @@ La logica dei passaggi di formazione e valutazione del modello è mostrata nel d
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} o da [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione modello**:
 

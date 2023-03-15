@@ -2,16 +2,17 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;statico;filtro statico
 description: Scopri come immettere manualmente uno o più valori statici per filtrare utilizzando le regole di inclusione in Adobe [!DNL Target] Recommendations.
 title: Come Posso Filtrare Per Valori Statici Nelle Attività Di Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 217e19bf-521f-4913-9b41-099c9af8b393
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
 workflow-type: tm+mt
-source-wordcount: '226'
-ht-degree: 46%
+source-wordcount: '225'
+ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Filtro statico
+# Filtro statico
 
 Immetti manualmente uno o più valori statici per filtrare utilizzando le regole di inclusione in [!DNL Adobe Target] [!DNL Recommendations].
 
