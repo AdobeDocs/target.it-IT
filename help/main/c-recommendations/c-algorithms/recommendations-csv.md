@@ -2,16 +2,17 @@
 keywords: creazione di criteri personalizzati;algoritmi;criteri;criteri di consigli;csv;ftp;caricamento csv
 description: Scopri come caricare un file CSV per personalizzare i consigli in Adobe [!DNL Target] Recommendations.
 title: Come si caricano i criteri personalizzati in Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 33434121-e0ae-4b82-b1dd-78b9738026cb
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '705'
+source-wordcount: '704'
 ht-degree: 39%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Caricare criteri personalizzati
+# Caricare criteri personalizzati
 
 Carica un file CSV per personalizzare i consigli in [!DNL Adobe Target].
 

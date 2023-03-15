@@ -2,16 +2,17 @@
 keywords: rapporti;targeting automatico;AT;rapporto
 description: Scopri come interpretare il rapporto di riepilogo del Targeting automatico in Adobe Target. Da questo rapporto puoi passare ai rapporti Segmenti automatizzati e Attributi importanti .
 title: Come si utilizza il rapporto di riepilogo del Targeting automatico?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 098fcc0e-8e17-4898-ab2f-ec74472562ff
-source-git-commit: 90be7394b4493a99dd07ebcd74dc4945526a0933
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '688'
 ht-degree: 53%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapporto di riepilogo del Targeting automatico
+# Rapporto di riepilogo del Targeting automatico
 
 Informazioni su come interpretare il [!UICONTROL Riepilogo del Targeting automatico] rapporti in [!DNL Adobe Target].
 

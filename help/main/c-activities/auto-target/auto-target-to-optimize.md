@@ -2,16 +2,17 @@
 keywords: targeting automatico;targeting;allocazione del traffico;domande frequenti;FAQ;risoluzione dei problemi;risoluzione dei problemi
 description: Scopri come [!UICONTROL Targeting automatico] attività in [!DNL Target] fornisce a ogni visitatore l’esperienza più personalizzata in base ai profili dei clienti e al comportamento di visitatori simili.
 title: Cosa è un [!UICONTROL Targeting automatico] Attività?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 59ca30dc-45a0-4129-b832-84e1132d3b69
-source-git-commit: 3e567236b30db453e2cd1bbb7c92c58ae4528ff4
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1970'
+source-wordcount: '1965'
 ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) [!UICONTROL Targeting automatico] panoramica
+# [!UICONTROL Panoramica del Targeting automatico]
 
 [!UICONTROL Targeting automatico] attività [!DNL Adobe Target] utilizza l’apprendimento automatico avanzato per scegliere tra più esperienze ad alte prestazioni definite dall’addetto al marketing al fine di personalizzare i contenuti e favorire le conversioni. [!UICONTROL Targeting automatico] fornisce a ogni visitatore l’esperienza più personalizzata in base al profilo del singolo cliente e al comportamento dei visitatori precedenti con profili simili.
 
@@ -62,7 +63,7 @@ I seguenti termini sono utili quando si parla di [!UICONTROL Targeting automatic
 
 | Termine | Definizione |
 |---|---|
-| [Bandit multi-armata](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
+| [Slot machine](https://en.wikipedia.org/wiki/Multi-armed_bandit){target=_blank} | Un approccio slot machine per l&#39;ottimizzazione equilibra l&#39;apprendimento esplorativo e lo sfruttamento di tale apprendimento. |
 | [Foresta casuale](/help/main/c-activities/t-automated-personalization/algo-random-forest.md) | Foresta casuale è uno dei principali metodi di apprendimento automatico. In termini di scienza dei dati, si tratta di una classificazione di insieme, o metodo di regressione, che funziona costruendo molti alberi decisionali basati su visitatori e attributi di visita. Within [!DNL Target], Foresta casuale viene utilizzato per determinare quale esperienza dovrebbe avere la più alta probabilità di conversione (o il più alto ricavo per visita) per ogni visitatore specifico. |
 | [Campionamento di Thompson](https://en.wikipedia.org/wiki/Thompson_sampling){target=_blank} | L’obiettivo del campionamento di Thompson è quello di determinare quale esperienza è la migliore complessivamente (non personalizzata), minimizzando il &quot;costo&quot; della ricerca di tale esperienza. Il campionamento di Thompson sceglie sempre un vincitore, anche in assenza di differenza statistica tra due esperienze. |
 

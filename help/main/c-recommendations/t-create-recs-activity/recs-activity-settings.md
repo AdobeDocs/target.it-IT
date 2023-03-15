@@ -2,16 +2,17 @@
 keywords: Consigli;Impostazioni;nome;finalità;priorità;durata;impostazioni di generazione rapporti;altri metadati
 description: Scopri come configurare le impostazioni utilizzate per descrivere e controllare un’attività Recommendations in Adobe Target.
 title: Come Si Configurano Le Impostazioni Delle Attività Di Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 77bb14fc-342d-41cd-8084-e21067f277af
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '396'
 ht-degree: 84%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Impostazioni dell’attività Consigli
+# Impostazioni delle attività di Consigli
 
 Informazioni sulle impostazioni utilizzabili per descrivere e controllare un [!UICONTROL Recommendations] attività in [!DNL Adobe Target].
 

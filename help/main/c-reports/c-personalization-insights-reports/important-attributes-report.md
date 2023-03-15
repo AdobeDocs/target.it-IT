@@ -2,16 +2,17 @@
 keywords: Targeting;rapporto AP;rapporti di personalizzazione automatizzata;targeting automatico;auto targeting;rapporto di targeting automatico;report di targeting automatico;personalizzazione;approfondimenti;FAQ;domande frequenti;attributi importanti
 description: Scopri come utilizzare il [!UICONTROL Attributi importanti] rapporto che mostra gli attributi principali che hanno influenzato il modello di personalizzazione e la loro importanza relativa.
 title: Qual è il rapporto Attributi importanti?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: 33d85fcbfc971c188f4154cca5b4d21103b4dbb7
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '1724'
+source-wordcount: '1723'
 ht-degree: 81%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Rapporto Attributi importanti
+# Rapporto Attributi importanti
 
 Informazioni sulle [!UICONTROL Attributi importanti] , uno dei due rapporti specializzati disponibili per gli utenti di [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività.
 

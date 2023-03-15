@@ -2,16 +2,17 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;consigli;caratteri speciali;ponderazione degli attributi;somiglianza contenuti
 description: Visualizza un elenco delle domande e risposte più frequenti sulle attività Consigli di Adobe [!DNL Target] .
 title: Dove posso trovare domande e risposte sulla funzione Consigli di  [!DNL Target] ?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aaa52923-1c2d-44ae-bd89-671329222077
-source-git-commit: 4abd24f63dd65e65a1d8b07647630eeb640e7a1d
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '3402'
+source-wordcount: '3399'
 ht-degree: 91%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Domande frequenti relative ai consigli
+# Consigli Domande frequenti
 
 Elenco delle domande frequenti sulle attività relative alle attività di [!DNL Adobe Target] [!DNL Recommendations].
 
@@ -94,7 +95,7 @@ Se la posizione in cui stai applicando questo criterio non contiene l’ID di ca
 
 Se utilizzi una posizione in cui l’ID di categoria è presente nella mbox, il selettore di criteri contiene tutti i criteri applicabili.
 
-[!DNL Target] ha [Filtra criteri incompatibili](https://developer.adobe.com/target/implement/recommendations/)Impostazione {target=_blank} per controllare il filtro intelligente del selettore dell&#39;algoritmo.
+L’impostazione [!DNL Target]Filtra criteri incompatibili[](https://developer.adobe.com/target/implement/recommendations/) di {target=_blank} consente di controllare il filtraggio intelligente del selettore dell’algoritmo.
 
 >[!NOTE]
 >

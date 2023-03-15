@@ -2,16 +2,17 @@
 keywords: personalizzazione automatizzata;offerta;reporting;gruppo;gruppo di rapporti;app
 description: Scopri come utilizzare i gruppi di reporting delle offerte in Adobe [!DNL Target] [!UICONTROL Automated Personalization] attività.
 title: Posso utilizzare i gruppi di reporting delle offerte nelle attività di Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: 9058a6c5-c651-480f-9b23-d0782a13b042
-source-git-commit: 748051dccf4a0df49ac05e699fa14801c148d45e
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '867'
 ht-degree: 30%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png)[!UICONTROL  Gruppi di creazione di rapporti di offerte in Personalizzazione automatizzata]
+# Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]
 
 Informazioni sull’utilizzo dei gruppi di reporting in [!DNL Adobe Target] [Automated Personalization](/help/main/c-activities/t-automated-personalization/automated-personalization.md) (AP) attività.
 

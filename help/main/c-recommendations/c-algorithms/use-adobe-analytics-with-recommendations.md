@@ -2,16 +2,17 @@
 keywords: origine dati comportamentali;analytics;consigli;criteri;variabili prodotto
 description: Scopri come utilizzare [!DNL Adobe Analytics] come origine dei dati comportamentali per utilizzare i dati comportamentali basati sulla visualizzazione e/o sull’acquisto da [!DNL Analytics] in [!DNL Target Recommendations].
 title: Come si utilizza [!DNL Adobe Analytics] con [!DNL Target Recommendations]?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: d2b7e840-9546-4a8e-bec4-1ebea5a79672
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '799'
 ht-degree: 2%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Utilizzo [!DNL Adobe Analytics] con [!DNL Recommendations]
+# Utilizzo [!DNL Adobe Analytics] con [!DNL Recommendations]
 
 Utilizzo [!DNL Adobe Analytics] come origine di dati comportamentali consente ai client di utilizzare i dati comportamentali basati sulla visualizzazione e/o sull’acquisto da [!DNL Analytics] in [!DNL Adobe Target] [!DNL Recommendations] attività. Questa funzione è particolarmente utile nelle situazioni in cui [!DNL Target Recommendations] la configurazione è nuova e [!DNL Analytics] ha molti dati storici da utilizzare.
 
@@ -85,7 +86,7 @@ Ora è il momento di mappare queste variabili su [!DNL Target] per la fornitura 
 
 1. Fai clic su **[!UICONTROL Salva]**.
 
-## Domande frequenti 
+## Domande frequenti
 
 Considera le seguenti domande frequenti mentre utilizzi [!DNL Analytics] con [!DNL Target]:
 

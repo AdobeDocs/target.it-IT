@@ -2,16 +2,17 @@
 keywords: Creare targeting automatico;test A/B;attività di targeting automatico;nuova attività A/B;targeting automatico;targeting automatico per esperienze personalizzate;personalizzato;ottimizzazione
 description: Scopri come utilizzare il Compositore esperienza visivo (VEC) in Adobe [!DNL Target] per creare l’attività Targeting automatico A/B Test direttamente su un [!DNL Target]Pagina abilitata.
 title: Come si crea un'attività di Targeting automatico?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Auto-Target
 exl-id: 5521740c-eee2-4ba2-8931-cf56d56a4561
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '927'
 ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Creare un’attività di Targeting automatico
+# Creare un’attività di Targeting automatico
 
 Utilizza la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo) in [!DNL Adobe Target] per creare [!UICONTROL Targeting automatico] [!UICONTROL Test A/B] attività direttamente su un [!DNL Target]pagina abilitata e per modificare parti della pagina [!DNL Target].
 

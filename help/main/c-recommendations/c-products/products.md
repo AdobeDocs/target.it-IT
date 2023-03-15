@@ -2,16 +2,17 @@
 keywords: prodotto;collezioni
 description: Scopri le entità in Adobe [!DNL Target] Recommendations. Le entità si riferiscono agli elementi che desideri consigliare utilizzando [!DNL Target], ad esempio articoli, film o prodotti.
 title: Come si utilizzano le entità?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: ffe23eea-b914-4c86-ad54-c63c1cc1c0d7
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '105'
+source-wordcount: '104'
 ht-degree: 74%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Entità
+# Entità
 
 Le entità si riferiscono agli elementi che desideri consigliare. Le entità possono essere qualsiasi cosa, ad esempio prodotti, contenuti (articoli, presentazioni, immagini, filmati, programmi TV ecc.), annunci di lavoro, ristoranti e così via.
 

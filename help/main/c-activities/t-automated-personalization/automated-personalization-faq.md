@@ -2,16 +2,17 @@
 keywords: risoluzione dei problemi;domande frequenti;FAQ;FAQ;personalizzazione automatizzata;controllo;esperienza predefinita;best practice
 description: Esplora un elenco delle domande frequenti e delle risposte sulle attività di Automated Personalization (AP) in Adobe Target.
 title: Come posso trovare le domande frequenti sulle attività di Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 2bf62cc1-1781-4021-a400-2884e0bae893
-source-git-commit: 6857ba1a6410d3140a83a052efc50e9dd1776fd9
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '2004'
-ht-degree: 76%
+source-wordcount: '2003'
+ht-degree: 77%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Domande frequenti su Automated Personalization
+# Domande frequenti su Automated Personalization
 
 Elenco delle domande frequenti sulla Personalizzazione automatizzata.
 
@@ -50,7 +51,7 @@ Non esiste un’opzione diretta per confrontare la Personalizzazione automatizza
    * Non esiste alcuna personalizzazione tra le offerte in un gruppo di rapporti: le offerte sono tutte considerate uguali dal modello di personalizzazione.
    * Non mettere mai tutte le offerte di un’attività in un singolo gruppo di rapporti. Questa decisione farà sì che tutte le offerte siano indirizzate in modo uniforme a tutti i visitatori che accedono all’attività.
 
-## Domande frequenti 
+## Domande frequenti
 
 Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL Automated Personalization] attività:
 
@@ -58,7 +59,7 @@ Consulta le seguenti domande frequenti e risposte mentre lavori con [!UICONTROL 
 
 [!DNL Target] supporta fino a 30.000 esperienze, ma funziona al meglio quando sono create meno di 10.000 esperienze.
 
-Lo stesso limite viene applicato anche quando l’attività ha abilitato il [!UICONTROL Duplicati di visualizzazione] opzione .
+Lo stesso limite viene applicato anche quando l’attività ha abilitato l’opzione [!UICONTROL Disabilita duplicati].
 
 ### Come viene implementato il targeting a livello di offerta? {#section_9D7A86EA93D74E9B8C81072A681263A4}
 

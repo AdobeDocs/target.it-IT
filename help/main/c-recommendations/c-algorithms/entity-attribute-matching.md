@@ -2,16 +2,17 @@
 keywords: regole di inclusione;criteri di inclusione;consigli;promozione;promozioni;filtro dinamico;dinamico;corrispondenza attributo entità
 description: Scopri come filtrare dinamicamente in Adobe [!DNL Target] Recommendations confrontando un pool di articoli potenziali con un articolo specifico con cui l’utente ha interagito.
 title: Come Si Filtra Per Corrispondenza Attributo Entità Nelle Attività Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: aadd3132-d590-4dc9-b01b-bedf41bc7441
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '523'
+source-wordcount: '522'
 ht-degree: 0%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Corrispondenza attributo entità
+# Corrispondenza attributo entità
 
 Filtrare dinamicamente in [!DNL Adobe Target] [!DNL Recommendations] confrontando un pool di potenziali articoli consigliati con un articolo specifico con cui l’utente ha interagito.
 

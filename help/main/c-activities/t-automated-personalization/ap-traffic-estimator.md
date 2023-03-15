@@ -2,16 +2,17 @@
 keywords: calcolatore del traffico;personalizzazione automatizzata;ap;stimare il traffico;targeting automatico
 description: Utilizza l’Adobe [!DNL Target] Calcolatore del traffico per determinare se il traffico dell’attività Automated Personalization è sufficiente per il successo.
 title: Quanto traffico è necessario per un'attività di successo?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 11f9e239-700b-45cd-bf77-39f7f8967a2e
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '749'
 ht-degree: 14%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Stimare il traffico necessario per il successo
+# Stimare il traffico necessario per il successo
 
 La [!DNL Adobe Target] [!UICONTROL Calcolatore del traffico] fornisce un feedback che ti permette di sapere se disponi di traffico sufficiente per il tuo [!UICONTROL Automated Personalization] attività per il successo.
 

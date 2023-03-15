@@ -2,16 +2,17 @@
 keywords: Automated Personalization;app;anteprima;escludere l’esperienza;
 description: Scopri come visualizzare in anteprima ogni esperienza in un’attività Automated Personalization (AP) in Adobe [!DNL Target] utilizzando il Compositore esperienza visivo.
 title: Come posso visualizzare in anteprima le esperienze Automated Personalization nel Compositore esperienza visivo?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: b346e9cb-f4db-4777-8671-cf714bed465a
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '257'
 ht-degree: 47%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
+# !Anteprima delle esperienze di Personalizzazione automatizzata nel Compositore esperienza visivo
 
 Perché [!DNL Adobe Target] [!UICONTROL Automated Personalization] (AP) l&#39;attività confronta più offerte su una pagina, è utile visualizzare un&#39;anteprima della pagina con ogni esperienza.
 

@@ -2,16 +2,17 @@
 keywords: Anteprima esperienza;URL esperienza;generare URL;visualizzare gli URL esperienza
 description: Scopri come utilizzare gli URL di anteprima dell’esperienza, ad Adobe [!DNL Target] Attività di Automated Personalization per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività sia attiva.
 title: Come posso utilizzare gli URL di anteprima esperienza nelle attività di Automated Personalization?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Automated Personalization
 exl-id: 9f329b8a-5f86-4cae-a3be-eed24fa0a9cd
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '720'
-ht-degree: 50%
+source-wordcount: '719'
+ht-degree: 51%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Anteprima delle attività di Automated Personalization con URL di anteprima dell’esperienza
+# Anteprima delle attività Automated Personalization con URL di anteprima dell’esperienza
 
 Gli URL di anteprima dell’esperienza possono essere generati per [!DNL Target] [!UICONTROL Automated Personalization] attività per visualizzare il contenuto dell’esperienza direttamente sul sito prima che l’attività sia attiva a scopo di anteprima e controllo qualità. Gli URL di anteprima dell’esperienza ignorano il targeting per forzare la visualizzazione di una particolare esperienza.
 

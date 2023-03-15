@@ -2,16 +2,17 @@
 keywords: consigli;attività consigli;criteri;algoritmo
 description: Scopri come selezionare i criteri (regole che determinano quali prodotti o contenuti consigliare) da utilizzare nel tuo Adobe [!DNL Target] Attività Recommendations.
 title: Come si selezionano i criteri per un’attività Recommendations?
+badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 119227ec-88c3-4de9-b2cf-f7d5fa2e98f6
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
 workflow-type: tm+mt
-source-wordcount: '404'
+source-wordcount: '403'
 ht-degree: 72%
 
 ---
 
-# ![PREMIUM](/help/main/assets/premium.png) Selezionare criteri
+# Selezionare criteri
 
 Seleziona la [criteri](/help/main/c-recommendations/c-algorithms/algorithms.md) per utilizzare [!DNL Adobe Target Recommendations] attività. I criteri sono regole che determinano i prodotti da consigliare in base a un set predeterminato di comportamenti dei visitatori.
 
