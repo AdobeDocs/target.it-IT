@@ -1,11 +1,12 @@
 ---
 keywords: Target Standard;Recommendations;consigli;Target Premium;Automated Personalization;personalizzazione automatizzata;targeting automatico;auto-targeting;autorizzazioni;cos’è adobe target;
-description: Scopri le nozioni di base di Adobe [!DNL Target] Standard e Adobe [!DNL Target] Premium. [!DNL Target] Premium include funzionalità avanzate non disponibili nel prodotto Standard.
+description: Scopri le basi dell’Adobe [!DNL Target] Standard ed Adobe [!DNL Target] Premium. [!DNL Target] Premium include funzionalità avanzate non disponibili nel prodotto Standard.
 landing-page-description: Personalizza l’esperienza dei clienti per massimizzare le entrate tramite siti web, app mobili, social media e altri canali digitali.
+short-description: Personalize your customers' experience to maximize revenue on your web and mobile sites, apps, social media, and other digital channels.
 title: Cos’è Target?
 feature: Overview
 exl-id: 0e729c71-618b-4ab8-93a3-d37e73ec2740
-source-git-commit: b92b1af7052e1db4d7540c29ce68b13c169da625
+source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '1026'
 ht-degree: 88%
@@ -30,7 +31,7 @@ Le best practice di settore sono integrate in [!DNL Target Standard]. [!DNL Targ
 
 [!DNL Target Premium] è un’offerta avanzata [!DNL Target] che richiede una licenza per aggiungere funzionalità Premium a [!DNL Target Standard].
 
-Tutti [!DNL Target Premium] articoli in [!DNL Target] le guide includono [!UICONTROL Premium] badge nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il [!UICONTROL Premium] Il badge è cliccabile e include un collegamento a questa sezione.
+Tutto [!DNL Target Premium] articoli [!DNL Target] le guide includono [!UICONTROL Premium] nella parte superiore di ogni pagina o in linea vicino al testo interessato. La [!UICONTROL Premium] è possibile fare clic su badge e include un collegamento a questa sezione.
 
 **[!DNL Target Premium]include le seguenti funzionalità:**
 
@@ -83,9 +84,9 @@ La funzionalità [Autorizzazioni per gli utenti aziendali](/help/main/administra
 
 [!BADGE Beta]{type=Informative}
 
-Il [!DNL Adobe Target] team abilita spesso nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni saranno abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] e annunciate nelle note sulla versione.
+La [!DNL Adobe Target] il team spesso abilita nuove funzioni per determinati clienti a scopo di test e feedback. Al termine del periodo di test, queste funzioni sono abilitate per tutti i clienti in futuro [!DNL Target Standard/Premium] versioni e annunciate nelle note sulla versione.
 
-Articoli in [!DNL Target] Le guide che descrivono le funzioni beta includono il badge beta nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Beta è cliccabile e include un collegamento a questa sezione.
+Articoli [!DNL Target] le guide che descrivono le funzioni Beta includono il badge Beta nella parte superiore di ogni pagina o in linea vicino al testo interessato. Il badge Beta può essere cliccato e include un collegamento a questa sezione.
 
 ## Recommendations Classic {#section_9554068100054D2DBDB298CBE5A0E413}
 
