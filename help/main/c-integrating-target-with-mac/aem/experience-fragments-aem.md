@@ -1,0 +1,174 @@
+---
+keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di esperienza;frammenti;XF
+description: Scopri come utilizzare [!DNL Adobe Experience Manager] [!UICONTROL Frammenti esperienza] in [!DNL Adobe Target] attività.
+title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti esperienza]?
+feature: Integrations
+source-git-commit: 0135831b56c48b0adca49e843c5ddd6574358aa4
+workflow-type: tm+mt
+source-wordcount: '1346'
+ht-degree: 32%
+
+---
+
+# AEM [!UICONTROL Frammenti esperienza]
+
+Utilizzo [!UICONTROL Frammenti esperienza] (XF) creati in [!DNL Adobe Experience Manager] AEM [!DNL Target] attività per facilitare l’ottimizzazione o la personalizzazione.
+
+>[!NOTE]
+>
+>Quando lavori con AEM, considera quanto segue [!UICONTROL Frammenti esperienza] in [!DNL Target]:
+> 
+>* Questa funzione richiede che [!DNL Adobe Experience Manager] (AEM) cliente. Per ulteriori informazioni, consulta [Requisiti](#section_AE6F0971E1574B3AA324003599B96E5A) sotto.
+>* Questa funzione è disponibile per i seguenti tipi di attività: [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting esperienza] (XT). Questa funzione non è disponibile in [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Recommendations] attività.
+>
+>* Puoi consumare [!UICONTROL Frammenti esperienza] in [!DNL Target] attività che utilizzano [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (Compositore esperienza visivo) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+
+
+Per saperne di più su AEM [!UICONTROL Frammenti esperienza] e Frammenti di contenuto, vedi [AEM [!UICONTROL Frammenti esperienza] Panoramica dei frammenti di contenuto e](/help/main/c-integrating-target-with-mac/aem/aem-experience-and-content-fragments.md).
+
+## Requisiti {#requirements}
+
+È necessario effettuare il provisioning con il [!UICONTROL Frammenti esperienza] funzionalità di [!DNL Target]. Inoltre, devi utilizzare [!DNL AEM] as a Cloud Service o [!DNL AEM] 6.4 (o successiva). Il rappresentante del tuo account può aiutarti a rispettare i requisiti per utilizzare questa funzione:
+
+* [!DNL Adobe Experience Manager ] as a Cloud Service
+* [!DNL Adobe Experience Manager] 6.5.
+* [!DNL Adobe Experience Manager] 6.4.
+* Account [!DNL Adobe Target Standard] o [!DNL Adobe Target Premium].
+
+[!DNL Adobe Experience Manager] Le versioni 6.3 e 6.4 hanno raggiunto la fine del ciclo di vita e non sono più supportate (ad eccezione dei clienti che hanno acquistato un supporto esteso).
+
+Per abilitare l’integrazione e ottenere i dettagli di autenticazione, contatta l’[Assistenza clienti per Adobe Target](/help/main/cmp-resources-and-contact-information.md#reference_ACA3391A00EF467B87930A450050077C).
+
+## Creazione e configurazione [!UICONTROL Frammenti esperienza] in [!DNL AEM] {#section_745C8EFE29F547A2958FDBF61A5ADF7B}
+
+Per utilizzare [!DNL AEM] [!UICONTROL Frammenti esperienza] in [!DNL Target], devi eseguire le seguenti operazioni:
+
+### Passaggio 1: Integrare [!DNL AEM] con [!DNL Target]
+
+Per ulteriori informazioni, consulta:
+
+* **AEM as a Cloud Service**: [Integrazione con Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/integrating-adobe-target.html){target=_blank} in *Experience Manager as a Cloud Service* guida.
+* **Adobe I/O**: [Integrazione con Adobe Target tramite Adobe I/O](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/integration-ims-adobe-io.html?lang=it){target=_blank} nella *Guida all’amministrazione*.
+* **[!DNL AEM]6.5**: [Scelta di Adobe Analytics e Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/opt-in.html?lang=it){target=_blank} nella documentazione di *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.4**: [Scelta di Adobe Analytics e Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-release-information/aem-release-updates/previous-updates/aem-previous-versions.html?lang=it){target=_blank} nella documentazione di *Adobe Experience Manager 6.4*.
+
+### Passaggio 2: Creare il frammento esperienza
+
+[!UICONTROL Frammenti esperienza] vengono create in [!DNL AEM]. Per ulteriori informazioni, consulta:
+
+* **AEM as a Cloud Service**: [[!UICONTROL Frammenti esperienza]](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/authoring/fundamentals/experience-fragments.html?lang=en){target=_blank} in *Experience Manager as a Cloud Service* guida.
+* **[!DNL AEM]6.5**: [[!UICONTROL Frammenti di esperienza]](https://experienceleague.adobe.com/docs/experience-manager-65/authoring/authoring/experience-fragments.html?lang=it){target=_blank} nella documentazione di *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.4**: [[!UICONTROL Frammenti di esperienza]](https://experienceleague.adobe.com/docs/experience-manager-64/authoring/authoring/experience-fragments.html?lang=it){target=_blank} nella documentazione di *Adobe Experience Manager 6.4*.
+
+### Passaggio 3: Configura [!DNL AEM] per condividere il frammento esperienza con [!DNL Target]
+
+1. Da [!DNL AEM], seleziona il frammento esperienza desiderato o la cartella che lo contiene, quindi fai clic su **[!UICONTROL Proprietà]**.
+2. Fa clic sulla scheda **[!UICONTROL Servizi cloud]**, poi, dall&#39;elenco a discesa **[!UICONTROL Configurazione del servizio cloud]**, seleziona **[!UICONTROL Adobe Target]**.
+
+   Il passaggio precedente presuppone che un utente dell’azienda abbia creato la configurazione di [!DNL Adobe Target].
+
+3. Fai clic su **[!UICONTROL Salva e chiudi]**.
+
+### Passaggio 4: Pubblica il frammento esperienza ed esportalo in [!DNL Target]
+
+A seconda della versione di [!DNL AEM], consulta i seguenti collegamenti per istruzioni dettagliate:
+
+* **AEM as a Cloud Service**: [Esportazione [!UICONTROL Frammenti esperienza] ad Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/sites/integrations/experience-fragments-target.html?lang=en){target=_blank} in *Experience Manager as a Cloud Service* guida.
+* **[!DNL AEM]6.5**: [Esportazione di un frammento di esperienza in Target](https://experienceleague.adobe.com/docs/experience-manager-65/administering/integration/experience-fragments-target.html?lang=en){target=_blank} nella documentazione di *Adobe Experience Manager 6.5*.
+* **[!DNL AEM]6.4**: [Esportazione di un frammento di esperienza in Target](https://experienceleague.adobe.com/docs/experience-manager-64/administering/integration/experience-fragments-target.html?lang=it){target=_blank} nella documentazione di *Adobe Experience Manager 6.4*.
+
+## Utilizzo [!UICONTROL Frammenti esperienza] in [!DNL Target] attività {#section_17CE4BE6B2B74CCEBAE0C68DEB84ABB9}
+
+Dopo aver eseguito le attività precedenti, il frammento esperienza viene visualizzato nella sezione [!UICONTROL Offerte] in [!DNL Target].
+
+[!DNL Target] cerca attualmente [!UICONTROL Frammenti esperienza] per importare ogni dieci minuti. Il frammento esperienza importato deve essere disponibile in [!DNL Target] entro dieci minuti, ma questo intervallo di tempo dovrebbe accorciarsi andando avanti.
+
+Il frammento esperienza viene importato in [!DNL Target] come offerta HTML o JSON. La versione &quot;principale&quot; del frammento di esperienza rimane in [!DNL AEM]. Non è possibile modificare il frammento di esperienza in [!DNL Target].
+
+Puoi filtrare ed eseguire ricerche per [!UICONTROL XF di HTML] e [!UICONTROL XF JSON] per distinguere meglio i tipi di frammenti esperienza esportati in [!DNL Target].
+
+![Filtrare per tipi di frammento esperienza: HTML o JSON nell’interfaccia utente di Target](/help/main/c-integrating-target-with-mac/aem/assets/fragment-types.png)
+
+Passa il puntatore del mouse su un frammento esperienza nell’elenco, quindi fai clic sul pulsante [!UICONTROL Visualizza] icona ![Icona Info](/help/main/c-integrating-target-with-mac/aem/assets/icon-info.png) per visualizzare ulteriori informazioni sul frammento esperienza, tra cui [!UICONTROL Nome], [!UICONTROL Tipo], [!UICONTROL ID offerta], [!UICONTROL Percorso offerta], e informazioni sulle ultime modifiche. Fai clic sul pulsante [!UICONTROL Utilizzo dell’offerta] per visualizzare le attività che fanno riferimento a questa offerta.
+
+![Informazioni a comparsa Frammento esperienza](/help/main/c-integrating-target-with-mac/aem/assets/xf-info-popup.png)
+
+Puoi consumare [!UICONTROL Frammenti esperienza] in [!DNL Target] attività che utilizzano [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (Compositore esperienza visivo) o [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+
+
+>[!TIP]
+>
+>Utilizzare intelligenza artificiale, apprendimento automatico e consigli con [!UICONTROL Frammenti esperienza]:
+>
+>* Per utilizzare completamente le [!DNL Target] Funzionalità AI e ML, puoi selezionare [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4) o [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md) durante la creazione di un test A/B.
+>
+>* [!UICONTROL Frammenti esperienza] non sono supportati in [!DNL Recommendations] attività. Tuttavia, da utilizzare [!UICONTROL Frammenti esperienza] per i consigli è possibile creare un [!UICONTROL Test A/B] attività [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]) o un [!UICONTROL Targeting esperienza] (XT) e [includere consigli come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md).
+
+
+**Per utilizzare frammenti di esperienza utilizzando il Compositore esperienza visivo:**
+
+1. In [!DNL Target], durante la creazione o la modifica di un’esperienza nel [Compositore esperienza visivo](/help/main/c-experiences/experiences.md#concept_A2E10F6AFB3D4AEAB6951EE14688848D), fai clic sul percorso nella pagina in cui desideri inserire il contenuto [!DNL AEM], quindi seleziona l’opzione desiderata per visualizzare l’elenco [!UICONTROL Scegli un frammento di esperienza].
+
+   * [!UICONTROL Inserisci prima]
+   * [!UICONTROL Inserisci dopo]
+   * [!UICONTROL Scambia con frammento di esperienza]
+
+   La [!UICONTROL Frammento esperienza] visualizza il contenuto creato in [!DNL AEM] che ora è disponibile in modo nativo da [!DNL Target].
+
+   >[!NOTE]
+   >
+   >L’opzione [!UICONTROL Scambia con frammento esperienza] non è disponibile per le immagini. Se vuoi utilizzare questa opzione con un’immagine, fai clic sull’elemento che la contiene.
+
+   ![immagine experience_fragment_list](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
+
+1. Seleziona il frammento esperienza desiderato, quindi fai clic su **[!UICONTROL Fine]**.
+1. Termina la configurazione dell’attività.
+
+   Per ulteriori informazioni sulla configurazione dei vari tipi di attività, consulta i seguenti argomenti:
+
+   * **Test A/B:** [Creare un test A/B](/help/main/c-activities/t-test-ab/t-test-create-ab/test-create-ab.md)
+   * **Allocazione automatica:** [Allocazione automatica](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md#concept_A1407678796B4C569E94CBA8A9F7F5D4)
+   * **Targeting automatico:** [Targeting automatico](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * **Personalizzazione automatizzata (AP):** [Creazione di un’attività di personalizzazione automatica](/help/main/c-activities/t-automated-personalization/create-ap-activity.md#task_8AAF837796D74CF893CA2F88BA1491C9)
+   * **Targeting delle esperienze (XT):** [Creare un’attività di targeting delle esperienze](/help/main/c-activities/t-experience-target/t-xt-create/xt-create.md#task_D6B3429AC31549E1A70EDF04B3DDC765)
+   * **Recommendations in un’attività Test A/B o XT:** [Recommendations come offerta](/help/main/c-recommendations/recommendations-as-an-offer.md)
+
+   [!UICONTROL Frammenti esperienza] esportato come JSON in [!DNL Target] non può essere utilizzato nelle attività create utilizzando il Compositore esperienza visivo; Solo HTML [!UICONTROL Frammenti esperienza] sono supportate nelle attività basate su VEC. Se desideri utilizzare JSON [!UICONTROL Frammenti esperienza], utilizzali nelle attività create utilizzando [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+
+**Per utilizzare frammenti di esperienza tramite il Compositore esperienza basato su moduli:**
+
+1. In [!DNL Target], durante la creazione o la modifica di un’esperienza nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md#task_FAC842A6535045B68B4C1AD3E657E56E), seleziona il percorso nella pagina in cui desideri inserire il contenuto di [!DNL AEM], quindi seleziona **[!UICONTROL Cambia frammento esperienza]** per visualizzare l’elenco [!UICONTROL Scegli un frammento esperienza].
+
+   ![immagine experience_fragment_list](/help/main/c-integrating-target-with-mac/aem/assets/experience_fragment_list.png)
+
+   La [!UICONTROL Frammento esperienza] visualizza il contenuto creato in [!DNL AEM] che ora è disponibile in modo nativo da [!DNL Target].
+
+1. Seleziona il frammento esperienza desiderato, quindi fai clic su **[!UICONTROL Salva]**.
+1. Termina la configurazione dell’attività.
+
+## Considerazioni {#considerations}
+
+* [!DNL Target] cerca attualmente [!UICONTROL Frammenti esperienza] per importare ogni dieci minuti. Il frammento esperienza importato deve essere disponibile in [!DNL Target] entro dieci minuti, ma questo intervallo di tempo dovrebbe accorciarsi andando avanti.
+* Il frammento esperienza viene importato in [!DNL Target] come offerta HTML o JSON. La versione &quot;principale&quot; del frammento esperienza rimane in [!DNL AEM]. Non puoi modificare il frammento esperienza in [!DNL Target].
+* Non è possibile creare [!UICONTROL Frammenti esperienza] utilizzo [!DNL Adobe I/O]. Crea [!UICONTROL Frammenti esperienza] utilizzando AEM, come spiegato in precedenza.
+* Se aggiorni il frammento esperienza in AEM, devi pubblicare ed esportare il frammento esperienza in [!DNL Target] di nuovo [!DNL Target] può utilizzare le modifiche più recenti.
+
+## Rimozione di ClientLibs e HTML estranei da [!UICONTROL Frammenti esperienza] esportato in [!UICONTROL Target]
+
+Quando si utilizzano le offerte Frammento esperienza con [!DNL Target] in una pagina consegnata da AEM, la pagina di destinazione contiene già tutte le librerie client necessarie. Inoltre, non sono necessari elementi HTML estranei nell’offerta.
+
+A volte intere pagine di HTML eliminano il frammento esperienza e causano problemi. Assicurati che il frammento esperienza sia un piccolo frammento di HTML e non una pagina HTML completa con HTML, HEAD, BODY e così via.
+
+Per ulteriori informazioni, consultare il seguente post di blog: [AEM 6.5: Rimozione di ClientLibs da [!UICONTROL Frammenti esperienza] esportato in Target](https://www.linkedin.com/pulse/aem-65-removing-clientlibs-from-experience-fragments-exported-haser){target=_blank}.
+
+## Video di formazione: Utilizzo di AEM [!UICONTROL Frammenti esperienza] con [!DNL Adobe Target]
+
+Il video seguente illustra come configurare e utilizzare [!UICONTROL Frammenti esperienza]:
+
+>[!VIDEO](https://video.tv.adobe.com/v/22383)
+
+>[!NOTE]
+>
+>La funzione di deeplink [!DNL AEM] discussa in 4:54 è stata rimossa.
+
+Per informazioni più dettagliate, consulta [Utilizzo [!UICONTROL Frammenti esperienza] con Adobe Target](https://experienceleague.adobe.com/docs/experience-manager-learn/sites/personalization/experience-fragment-target-offer-feature-video-use.html?lang=it) sulla *Video e Tutorials di AEM Sites* pagina.
