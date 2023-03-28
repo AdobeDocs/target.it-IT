@@ -4,7 +4,7 @@ title: Guida di Adobe Target per professionisti aziendali
 description: Scopri come utilizzare Adobe  [!DNL Target]  per personalizzare l’esperienza dei clienti al fine di massimizzare i ricavi su siti web e mobili, app e altri canali digitali.
 feature: Overview
 exl-id: 6003a663-4c0c-4179-8025-aee2ae107c5c
-source-git-commit: cbbaea46460b298cbff5015fcf60c37a8aff7751
+source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
 workflow-type: tm+mt
 source-wordcount: '521'
 ht-degree: 100%
