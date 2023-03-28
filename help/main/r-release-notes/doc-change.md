@@ -5,7 +5,7 @@ title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
 source-git-commit: db5740419f8d32ef7a6302f50bbb9b462795ce75
-workflow-type: ht
+workflow-type: tm+mt
 source-wordcount: '2197'
 ht-degree: 100%
 

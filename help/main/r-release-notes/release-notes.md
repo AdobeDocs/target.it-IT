@@ -9,7 +9,7 @@ exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
 source-git-commit: 207095a1db483abcc59f7806a67e559ee8694397
 workflow-type: tm+mt
 source-wordcount: '599'
-ht-degree: 69%
+ht-degree: 100%
 
 ---
 
@@ -29,22 +29,22 @@ Questa versione sarà disponibile in base al seguente programma scaglionato:
 
 >[!NOTE]
 >
->A causa di problemi che sono stati risolti nel frattempo, le metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]&quot; la funzionalità rilasciata l&#39;8 e il 9 marzo è stata temporaneamente rimossa. Dopo ulteriori test interni, la funzione verrà rilasciata di nuovo nelle prossime settimane.
+>A causa di problemi che sono stati nel frattempo risolti, la funzione “metriche A4T ottimizzate per l’[!UICONTROL allocazione automatica] e il [!UICONTROL targeting automatico]”, rilasciata l’8 e il 9 marzo, è stata temporaneamente rimossa. Dopo ulteriori test interni, la funzione verrà rilasciata di nuovo nelle prossime settimane.
 
 Questa versione include le seguenti correzioni:
 
-* Aggiornamenti per la creazione di componenti web personalizzati con la [!UICONTROL Compositore esperienza visivo] (Compositore esperienza visivo):
+* Aggiornamenti per la creazione di componenti web personalizzati con il [!UICONTROL Compositore esperienza visivo]:
 
-   * È stata corretta la selezione degli elementi DOM ombra nel Compositore esperienza visivo, ottimizzando il processo di authoring in modo che non vi sia alcuna dipendenza dal [!DNL Target] tipo di implementazione durante la creazione della radice shadow. Ora, la selezione degli elementi DOM ombra nel Compositore esperienza visivo dovrebbe funzionare per qualsiasi sito web.
+   * È stata corretta la selezione di elementi shadow DOM nel Compositore esperienza visivo, ottimizzando il processo di authoring in modo che non vi sia alcuna dipendenza dal tipo di implementazione di [!DNL Target] durante la creazione della radice shadow. Ora, la selezione di elementi shadow DOM nel Compositore esperienza visivo dovrebbe funzionare per qualsiasi sito web.
    * È stato risolto un problema che impediva il caricamento di elementi HTML utilizzando #Shadow DOM nel Compositore esperienza visivo. (TGT-35801)
-   * Sono stati risolti i problemi del Compositore esperienza visivo con SPA siti web che utilizzano ShadowDOM. (TGT-43169)
-   * È stato risolto un problema relativo all’obiettivo di ottimizzazione: &quot;clic su un elemento&quot; che non identificava correttamente il selettore CSS in ShadowDOM.
+   * Sono stati risolti alcuni problemi del Compositore esperienza visivo che si verificavano con siti web SPA che utilizzano ShadowDOM. (TGT-43169)
+   * È stato risolto un problema relativo all’obiettivo di ottimizzazione “clic su un elemento” che non identificava correttamente il selettore CSS in ShadowDOM.
 
 >[!NOTE]
 >
->Per garantire la consegna delle modifiche create nel Compositore esperienza visivo, assicurati di utilizzare un [!DNL Target] SDK ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html){target=_blank} (alloy.js)) con una versione maggiore di 2.8.
+>Per garantire la consegna delle modifiche create nel Compositore esperienza visivo, assicurati di utilizzare un SDK di [!DNL Target] ([at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} or [Adobe Experience Platform Web SDK](https://experienceleague.adobe.com/docs/experience-platform/edge/release-notes.html?lang=it){target=_blank} (alloy.js)) con una versione successiva alla versione 2.8.
 
-**Problema noto**: Tracciamento dei clic su un elemento radice ombra quando si utilizza [!DNL Adobe Experience Platform Web SDK] non funziona correttamente. (TNT-47012)
+**Problema noto**: il tracciamento dei clic su un elemento radice shadow durante l’utilizzo di [!DNL Adobe Experience Platform Web SDK] non funziona correttamente. (TNT-47012)
 
 ## at.js versione 2.10.2 (7 marzo 2023)
 
@@ -52,7 +52,7 @@ Questa versione include le seguenti correzioni:
 
 Per informazioni su tutte le versioni di at.js, consulta [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} in the [Adobe Target Developer Guide](https://developer.adobe.com/target/){target=_blank}.
 
-## Note aggiuntive sulla versione e dettagli sulla versione
+## Note aggiuntive e dettagli sulla versione
 
 | Risorsa | Dettagli |
 |--- |--- |

@@ -53,7 +53,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
 
-## Note aggiuntive sulla versione e dettagli sulla versione
+## Note aggiuntive e dettagli sulla versione
 
 | Risorsa | Dettagli |
 |--- |--- |
