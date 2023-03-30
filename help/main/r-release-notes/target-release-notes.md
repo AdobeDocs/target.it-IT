@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
+source-git-commit: 4dd74f10c4a6aa9b056ab9f528a38851576f38f7
 workflow-type: tm+mt
-source-wordcount: '240'
-ht-degree: 78%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -25,7 +25,7 @@ Questa versione contiene la seguente nuova funzione:
 
 | Funzione | Dettagli |
 |--- |--- |
-| Frammenti di contenuto AEM per personalizzazione e sperimentazione headless | Utilizzo [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti di contenuto] in [!DNL Target] attività. Combina la facilità d&#39;uso e la potenza delle AEM con le potenti funzionalità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per testare e personalizzare le esperienze su larga scala. |
+| Frammenti di contenuto AEM per personalizzazione e sperimentazione headless | Utilizzo [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti di contenuto] in [!DNL Target] attività. Combina la facilità d&#39;uso e la potenza delle AEM con le potenti funzionalità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per aiutare la personalizzazione e la sperimentazione headless. |
 
 ## Note aggiuntive e dettagli sulla versione
 
