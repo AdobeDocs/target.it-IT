@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1c9728b447ee1402cc133d38845a25da3038d0ca
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '2259'
+source-wordcount: '2273'
 ht-degree: 97%
 
 ---
@@ -22,6 +22,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Note aggiornate sulla versione per la versione delle metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] funzionalità che consente di scegliere metriche basate su eventi o metriche binomiali basati su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività. |
 |  | [Supporto A4T per [!UICONTROL attività di allocazione] automatica e [!UICONTROL targeting automatico]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | Sezione aggiornata per includere informazioni sulle metriche supportate (e non supportate) per le attività di [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] che utilizzano [!UICONTROL Analytics for Target] (A4T) |
 |  | [Tutorial di Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it){target=_blank} | Sono state aggiornate le seguenti esercitazioni:<ul><li>[Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Allocazione automatica] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank}</li><li>[Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Targeting automatico] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank}</li></ul> |
+|  | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni per il [!DNL Adobe Experience Manager] (AEM) e [!DNL Adobe Target] [!UICONTROL Frammenti di contenuto] rilascio. (6 aprile 2023) |
 | 28 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 23.3.1 di [!DNL Target Standard/Premium]. |
 
 ## [!DNL Target] Standard/Premium 22.15.1 (8-9 marzo 2023)

@@ -1,19 +1,21 @@
 ---
-keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di contenuto;frammenti;CF;cf
+keywords: esperienza;json;aem;adobe experience manager;esportare in adobe target;frammenti di contenuto;frammenti;CF;cf;headless;personalizzazione;sperimentazione
 description: Scopri come utilizzare [!DNL Adobe Experience Manager] [!UICONTROL Frammenti di contenuto] in [!DNL Adobe Target] attività.
 title: Come si utilizza [!DNL Adobe Experience Manager] (AEM) [!UICONTROL Frammenti di contenuto]?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: a29a52c38e80781697a9925bc1dd88bf9d99ebe1
+source-git-commit: c5629159f55bf3daa09a8ddbe739dfcd6272d285
 workflow-type: tm+mt
-source-wordcount: '748'
+source-wordcount: '760'
 ht-degree: 4%
 
 ---
 
 # AEM [!UICONTROL Frammenti di contenuto]
 
-Utilizzo [!UICONTROL Frammenti di contenuto] (CF) creati in [!DNL Adobe Experience Manager] AEM [!DNL Target] attività per facilitare l’ottimizzazione o la personalizzazione.
+Utilizzo [!UICONTROL Frammenti di contenuto] (CF) creati in [!DNL Adobe Experience Manager] AEM [!DNL Target] attività per aiutare la personalizzazione e la sperimentazione headless.
+
+Frammenti di contenuto AEM per personalizzazione e sperimentazione headless
 
 >[!NOTE]
 >
