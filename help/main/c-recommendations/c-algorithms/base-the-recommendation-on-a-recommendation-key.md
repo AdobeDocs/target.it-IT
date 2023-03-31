@@ -5,9 +5,9 @@ title: Come posso basare il consiglio su una Chiave consiglio?
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: 49764f18-88fb-41be-b2a0-e7ced9de742c
-source-git-commit: 597c20d248c28d167d3b8b2fde962267af89ca8f
+source-git-commit: 8d2622f0d9c9fa3f1e866deed827552ead947270
 workflow-type: tm+mt
-source-wordcount: '3942'
+source-wordcount: '3999'
 ht-degree: 37%
 
 ---
@@ -164,7 +164,11 @@ Se selezionate l&#39;algoritmo Più visualizzato per categoria, potete seleziona
 
 ### Principali venduti per attributo articolo
 
-(Informazioni disponibili a breve)
+Consiglia articoli o supporti simili agli articoli o ai supporti più acquistati sul sito.
+
+Questo algoritmo consente di selezionare l&#39;attributo dell&#39;elemento su cui si desidera basare il consiglio, ad esempio, &quot;Nome&quot; o &quot;Marchio&quot;.
+
+Seleziona quindi gli attributi di profilo memorizzati nel profilo del visitatore in base ai quali desideri confrontarli, ad esempio &quot;Marchio preferito&quot;, &quot;Ultimo elemento aggiunto al carrello&quot; o &quot;Mostra più visualizzata&quot;.
 
 ### Metrica di Analytics in alto
 
