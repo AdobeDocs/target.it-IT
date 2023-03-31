@@ -6,10 +6,10 @@ short-description: Learn about the new features, enhancements, and fixes include
 title: Cosa è incluso nella versione corrente?
 feature: Release Notes
 exl-id: 3ffead4f-113c-4153-b0b1-fc2aff710063
-source-git-commit: db093dd3812e211a0e1437b522adcd5f87bc2e41
+source-git-commit: 8af339769c00f30c0a2e900eca6759d5936e1936
 workflow-type: tm+mt
-source-wordcount: '896'
-ht-degree: 59%
+source-wordcount: '843'
+ht-degree: 63%
 
 ---
 
@@ -45,8 +45,6 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 * È stato risolto un problema che causava la creazione di nuove richieste POST [!DNL Recommendations] feed con errore durante l’utilizzo di [!UICONTROL Classificazioni di Analytics] con suite di rapporti con punti nel loro nome. (TGT-44598)
 * Collegamenti aggiornati nella [!DNL Target] Interfaccia utente per puntare al nuovo [Estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
 * Protezione avanzata per impedire tentativi di falsificazione delle richieste lato server (SSRF) in [!DNL Recommendations] feed. (TGT-43769)
-* È stato risolto un problema che impediva ai clienti di visualizzare in anteprima le immagini in [!DNL Recommendations] progetta se il nome dell&#39;immagine contiene [GB18030 caratteri](https://en.wikipedia.org/wiki/GB_18030){target=_blank}. (TGT-44614)
-* È stato risolto un problema che causava [GB18030 caratteri](https://en.wikipedia.org/wiki/GB_18030){target=_blank} da evitare nel [!UICONTROL Modifiche] pannello durante la modifica [!UICONTROL Testo/HTML] di un’attività [!UICONTROL Esperienze] pagina. (TGT-44600)
 * Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
 
 ## at.js versione 2.10.2 (7 marzo 2023)
