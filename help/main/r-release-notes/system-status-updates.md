@@ -1,13 +1,13 @@
 ---
 keywords: aggiornamento del sistema;risoluzione dei problemi;manutenzione;stato del sistema;stato di aggiornamento
-description: Visualizza lo stato corrente di Adobe  [!DNL Target]  per determinare se eventuali problemi riscontrati sono dovuti ad aggiornamenti del sistema o a manutenzione ordinaria.
-title: Dove posso visualizzare lo stato di  [!DNL Target]  e di altri prodotti Adobe?
+description: Visualizza lo stato di [!DNL Adobe Target] per aiutarti a determinare se i problemi che potresti incontrare sono dovuti ad aggiornamenti del sistema o a manutenzione ordinaria.
+title: Dove posso visualizzare lo stato di [!DNL Target] e altri [!DNL Adobe] Prodotti?
 feature: Release Notes
 exl-id: 928dc038-0c3b-49e9-91d1-e53cec5dff63
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
-workflow-type: ht
-source-wordcount: '334'
-ht-degree: 100%
+source-git-commit: 880a6fe927f67d143e6fa85e52775716f3d5fb51
+workflow-type: tm+mt
+source-wordcount: '317'
+ht-degree: 64%
 
 ---
 
@@ -17,25 +17,23 @@ Utilizza la pagina [!UICONTROL Stato del sistema di Adobe] e le notifiche proatt
 
 ## Aggiornamenti dello stato del sistema
 
-Utilizza la pagina [!UICONTROL Stato del sistema di Adobe] per visualizzare lo stato attuale di [!DNL Target] e di altri prodotti [!DNL Adobe] e soluzioni [!DNL Adobe Experience Cloud]. Questa pagina è utile per determinare se eventuali problemi riscontrati sono dovuti a un aggiornamento del sistema o a un intervento di manutenzione ordinaria.
+Utilizza la [!UICONTROL Stato del sistema di Adobe] per visualizzare lo stato di [!DNL Target] e altri [!DNL Adobe] prodotti e [!DNL Adobe Experience Cloud] soluzioni. Questa pagina è utile per determinare se eventuali problemi riscontrati sono dovuti a un aggiornamento del sistema o a un intervento di manutenzione ordinaria.
 
-Per accedere alla pagina di [!UICONTROL stato del sistema], visita il seguente URL:
+>[!NOTE]
+>
+>Una notifica interna al prodotto compare sempre durante il rilascio mensile di [!DNL Target], ma talvolta si verificano aggiornamenti minori e vengono elencati in questa pagina.
 
-[https://status.adobe.com](https://status.adobe.com)
+1. Accedere al [[!UICONTROL Stato del sistema]](https://status.adobe.com/it){target=_blank}.
 
-Per visualizzare lo stato delle soluzioni [!DNL Experience Cloud], tra cui [!DNL Target], fai clic sulla scheda [!UICONTROL Experience Cloud].
+1. Per visualizzare lo stato delle soluzioni [!DNL Experience Cloud], tra cui [!DNL Target], fai clic sulla scheda [!UICONTROL Experience Cloud].
 
-![immagine system_status](assets/system_status.png)
+   ![immagine system_status](assets/system_status.png)
 
-La parte superiore della pagina contiene informazioni sugli eventi di manutenzione in corso e include un collegamento per la sottoscrizione agli aggiornamenti per le singole soluzioni.
+   La parte superiore della pagina contiene informazioni sugli eventi di manutenzione in corso e include un collegamento per gestire gli abbonamenti per gli aggiornamenti per le singole soluzioni.
 
-Nell’illustrazione precedente, [!DNL Adobe Analytics], [!DNL Adobe Target] e [!DNL Adobe Campaign] erano sottoposti ad aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l&#39;utilizzo di [!DNL Target].
+   Nell&#39;illustrazione precedente, [!DNL Adobe Advertising], [!DNL Adobe Analytics]e [!DNL Adobe Audience Manager] e altre soluzioni hanno recentemente completato gli aggiornamenti di manutenzione. Tutti gli altri prodotti e soluzioni funzionavano normalmente. È sempre buona prassi controllare questa pagina se si verificano problemi durante l&#39;utilizzo di [!DNL Target].
 
-Una notifica interna al prodotto compare sempre durante il rilascio mensile di [!DNL Target], ma talvolta si verificano aggiornamenti minori e vengono elencati in questa pagina.
-
-La parte inferiore della pagina contiene un calendario degli ultimi sette giorni con stati per ogni soluzione ogni giorno. Passa il mouse su un indicatore di stato per ulteriori informazioni:
-
-![immagine system_status_indicators](assets/system_status_indicator.png)
+1. (Facoltativo) Filtrare l’elenco per prodotti, aree geografiche o intervalli di date. Fai clic sul pulsante [!UICONTROL Maggiore], [!UICONTROL Minore], [!UICONTROL Potenziale]oppure [!UICONTROL Manutenzione] collegamenti per filtrare ulteriormente i risultati.
 
 ## Notifiche proattive
 
