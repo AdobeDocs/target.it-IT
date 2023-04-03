@@ -4,24 +4,16 @@ description: Scopri come i visitatori possono passare da un’esperienza all’a
 title: I visitatori possono cambiare esperienze in un’attività Targeting esperienze?
 feature: Experience Targeting
 exl-id: 8d931764-8ba7-4eac-99db-60659086b8be
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '914'
-ht-degree: 97%
+source-wordcount: '762'
+ht-degree: 96%
 
 ---
 
 # Passare ad altre esperienze in Targeting esperienza
 
 Informazioni su come i visitatori possono passare da un’esperienza all’altra in un’attività Targeting esperienze (XT) mentre i loro profili evolvono.
-
->[!NOTE]
->
->**21 settembre 2017**
->
->Con la versione del 21 settembre 2017, in Target è cambiato il modo in cui gli utenti vengono inseriti nelle esperienze di attività di targeting esperienza (campagne Pagina di destinazione in Target Classic). Per tutte le attività nuove ed esistenti, gli utenti dovranno soddisfare le regole di targeting dell’esperienza su ogni impression per continuare a vedere il contenuto dell’esperienza e per essere conteggiati nei rapporti. In precedenza, se l’utente non era più qualificato per alcuna esperienza, avrebbe continuato a vedere il contenuto dell’ultima esperienza per la quale si era qualificato, e ad essere conteggiato nei rapporti per tale esperienza.
->
->Con questa versione tale modifica avviene automaticamente per tutte le attività esistenti e per ogni nuova attività creata dopo il rilascio. Se desideri continuare con il metodo precedente (prima del 21 settembre), puoi creare il pubblico utilizzando script di profilo in modo che un utente debba soddisfare una condizione solo una volta per continuare a rientrare in tale pubblico in futuro. Quindi, utilizza questo pubblico per ogni esperienza nell’attività.
 
 Il targeting delle esperienze permette di controllare l’esperienza che viene visualizzata dai visitatori con l’evolversi del loro profilo. Di seguito sono elencati alcuni scenari in cui i profili dei visitatori possono evolversi e per i quali potresti voler presentare contenuti diversi:
 

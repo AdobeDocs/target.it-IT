@@ -4,9 +4,9 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
 workflow-type: tm+mt
-source-wordcount: '2294'
+source-wordcount: '2312'
 ht-degree: 95%
 
 ---
@@ -20,6 +20,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
 | 3 aprile | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!UICONTROL Community Adobe Target] Coffee break previsto per mercoledì 12 aprile 2023. |
+|  | [Inserire nell’elenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stata aggiunta una nota a inserire nell&#39;elenco Consentiti tutto [!DNL Adobe Analytics] Blocchi di indirizzi IP. |
 | 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Note aggiornate sulla versione per la versione delle metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] funzionalità che consente di scegliere metriche basate su eventi o metriche binomiali basati su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività. |
 |  | [Supporto A4T per [!UICONTROL attività di allocazione] automatica e [!UICONTROL targeting automatico]](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) | È stata aggiornata la sezione &quot;Metriche obiettivo supportate&quot; per includere informazioni sulle metriche supportate (e non supportate) per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività che utilizzano [!UICONTROL Analytics for Target] (A4T) |
 |  | [Tutorial di Adobe Target](https://experienceleague.adobe.com/docs/target-learn/tutorials/overview.html?lang=it){target=_blank} | Sono state aggiornate le seguenti esercitazioni:<ul><li>[Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Allocazione automatica] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank}</li><li>[Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Targeting automatico] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank}</li></ul> |
