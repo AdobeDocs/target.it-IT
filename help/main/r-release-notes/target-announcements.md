@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 4d39b2743027241119da6b0531b968d6e2c2c69e
+source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
 workflow-type: tm+mt
-source-wordcount: '1890'
-ht-degree: 97%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -24,7 +24,7 @@ Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud
 ## [!UICONTROL Adobe Target Community Q&amp;A Coffee Break]
 
 * **Mercoledì 12 aprile 2023**
-* **dalle 8:00 alle 9:00 (PDT, GMT -7)
+* **dalle 8:00 alle 9:00 (PDT, GMT -7)**
 * **[Informazioni di registrazione](https://adobe.ly/42gQGfv){target=_blank}**
 
 Join Matthew Bailie e Georgia FRailey, entrambi Consulenti Senior Solutions per [!DNL Adobe Target], che vi parlerà direttamente del vostro [!DNL Adobe Target] domande relative [!DNL Target] Caratteristiche dell’intelligenza artificiale, in particolare [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico].
