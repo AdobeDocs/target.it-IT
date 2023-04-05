@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: ceae12da7ee3580a943da180e8705fc5d4ab646a
+source-git-commit: c6e14884dd0972a2de8c659ddb7a6fd659d083fc
 workflow-type: tm+mt
-source-wordcount: '2312'
-ht-degree: 95%
+source-wordcount: '2336'
+ht-degree: 94%
 
 ---
 
@@ -19,6 +19,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
+| 5 aprile | [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | È stato aggiunto del testo che indica che [!UICONTROL Analytics come origine per la generazione di rapporti] (A4t) non è supportato nelle attività che utilizzano decisioni sulle offerte. |
 | 3 aprile | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!UICONTROL Community Adobe Target] Coffee break previsto per mercoledì 12 aprile 2023. |
 |  | [Inserire nell’elenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stata aggiunta una nota a inserire nell&#39;elenco Consentiti tutto [!DNL Adobe Analytics] Blocchi di indirizzi IP. |
 | 30 marzo | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Note aggiornate sulla versione per la versione delle metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] funzionalità che consente di scegliere metriche basate su eventi o metriche binomiali basati su eventi continui quando si utilizza [!UICONTROL A4T] per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico] attività. |
