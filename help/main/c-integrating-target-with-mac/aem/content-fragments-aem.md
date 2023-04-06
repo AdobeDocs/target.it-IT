@@ -4,10 +4,10 @@ description: Scopri come utilizzare la funzione di [!DNL Adobe Experience Manage
 title: Come posso utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM)?
 badgeBeta: label="Beta" type="Informative" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html#beta newtab=true" tooltip="What are Target Beta release features?"
 feature: Integrations
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: 27dfb1c2d3f25cec1e74994a6af832c08e107ae1
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 92%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -19,7 +19,7 @@ Frammenti di contenuto di AEM per personalizzazione e sperimentazione headless
 
 >[!NOTE]
 >
->Questa funzione verrà rilasciata il 6 aprile 2023.
+>Questa funzione verrà rilasciata il 12 aprile 2023.
 
 >[!NOTE]
 >
