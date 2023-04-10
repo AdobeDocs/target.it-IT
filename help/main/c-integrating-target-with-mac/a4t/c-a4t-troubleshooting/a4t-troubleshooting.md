@@ -4,10 +4,10 @@ description: Esplora i problemi comuni riscontrati dai clienti durante l’utili
 title: Come posso risolvere i problemi relativi all’integrazione di Analytics e [!DNL Target]  (A4T)?
 feature: Analytics for Target (A4T)
 exl-id: 7d155cbe-e799-43b5-afc2-1aea43f432ba
-source-git-commit: 152257a52d836a88ffcd76cd9af5b3fbfbdc0839
-workflow-type: ht
-source-wordcount: '987'
-ht-degree: 100%
+source-git-commit: 0be54d82e25eb919102f6098c1b1db76ab291675
+workflow-type: tm+mt
+source-wordcount: '960'
+ht-degree: 90%
 
 ---
 
@@ -35,7 +35,7 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 >[!NOTE]
 >
->A volte i dati vengono visualizzati correttamente nei rapporti, ma successivamente vengono elencati come “non specificati” perché è stata aggiunta una nuova attività per la quale non è ancora stata completata la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
+>A volte i dati vengono visualizzati correttamente nei rapporti, ma poi vengono ripristinati come &quot;non specificato&quot; perché è stata aggiunta una nuova attività che non ha completato la classificazione. Tieni presente che in genere la classificazione impiega da 24 a 72 ore per classificare i rapporti dopo il primo salvataggio.
 >
 >Quando compare la dicitura “non specificato” non viene perso alcun dato. I dati vengono assegnati correttamente all’attività o all’esperienza appropriata dopo l’esecuzione della classificazione.
 
@@ -43,15 +43,11 @@ Se suddividi la riga “Non specificata” per la dimensione “Analytics for Ta
 
 Nel rapporto potrebbe essere visualizzata una riga di eventi con dicitura “[!UICONTROL Non specificata]”, a seconda della metrica con cui visualizzi i dati.
 
-Solitamente, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, la riga con dicitura [!UICONTROL “Non specificata”] include tutte le [!UICONTROL Visualizzazioni di pagina], le [!UICONTROL Visite] e i [!UICONTROL Visitatori unici] non associati ad attività [!DNL Target].
+Solitamente, questa riga viene visualizzata se si sceglie una metrica comune nel rapporto che non è specifica di [!DNL Target] (ad esempio, [!UICONTROL Visualizzazioni di pagina], [!UICONTROL Visite], [!UICONTROL Visitatori unici] e così via). In questo caso, il [!UICONTROL &quot;Non specificato&quot;] la riga include tutte le [!UICONTROL Visualizzazioni pagina], [!UICONTROL Visite]e [!UICONTROL Visitatori unici] non associati a [!DNL Target] attività.
 
-Quella riga non includerà alcuna informazione associata a [!DNL Target] (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [“Unspecified”, “None”, “Other”, and “Unknown” in reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) (“Non specificata”, “Nessuno,” “Altro,” e “Sconosciuto” nel reporting) in *Note tecniche di Analytics*.
+Quella riga non ne avrà alcuna [!DNL Target]Informazioni associate (ad esempio, nessun visitatore, visita o impression). Per ulteriori informazioni, consulta [&quot;Non specificato&quot;, &quot;Nessuno&quot;, &quot;Altro&quot; e &quot;Sconosciuto&quot; nel reporting](https://experienceleague.adobe.com/docs/analytics/technotes/unspecified.html?lang=it) in *Note tecniche di Analytics*.
 
-Se scegli una metrica specifica di [!DNL Target] nel rapporto, la riga con dicitura [!UICONTROL “Non specificata”] non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] dietro ogni richiesta inviata da quella pagina, che non è comune o necessaria.
-
-## I miei dati di Analytics mostrano un conteggio di visite e visitatori gonfiato dall’avvio di A4T. {#section_4BE374E573D44FB7918611699B74F58E}
-
-Per ulteriori informazioni, consulta [Minimizzare i conteggi gonfiati per visite e visitatori in A4T](/help/main/c-integrating-target-with-mac/a4t/c-a4t-troubleshooting/minimizing-inflated-visit-and-visitor-counts-a4t.md#concept_A515C2DE126E44B6AD97754C2C6D5235).
+Se scegli una [!DNL Target]una metrica specifica nel rapporto, che [!UICONTROL &quot;Non specificato&quot;] la riga non viene visualizzata. L’unico modo per evitare di averla nel rapporto è impostare una chiamata [!DNL Target] dietro ogni richiesta inviata da quella pagina, che non è comune o necessaria.
 
 ## L’incremento stimato nella metrica delle entrate non mostra dati corretti. {#section_35D766E5E4D347C39E15D08AA883FBB0}
 
@@ -59,7 +55,7 @@ I dettagli dell’incremento e dell’affidabilità di Target non sono disponibi
 
 ## Le attività non vengono visualizzate nei rapporti di Analytics. {#section_F7001EB4670F4B3497CC7DA60BBDA6D5}
 
-Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta  [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) (Utilizzo di un server di tracciamento di Analytics) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
+Le attività A4T richiedono che sia stato specificato un server di tracciamento di Analytics. Consulta [Using an Analytics Tracking Server](/help/main/c-integrating-target-with-mac/a4t/analytics-tracking-server.md#task_72077BA7E93C4A65A715A18F32228823) (Utilizzo di un server di tracciamento di Analytics) per assicurarti che il server di tracciamento di Analytics sia configurato correttamente.
 
 >[!NOTE]
 >
