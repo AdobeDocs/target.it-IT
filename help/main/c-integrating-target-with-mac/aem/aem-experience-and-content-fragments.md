@@ -3,10 +3,10 @@ keywords: aem;experience manager;adobe experience manager;integrare;integrazione
 description: Scopri come utilizzare i frammenti di esperienza e di contenuto di [!DNL Adobe Experience Manager] nelle attività [!DNL Adobe Target] .
 title: Come posso utilizzare i [!UICONTROL rrammenti di esperienza] e i [!UICONTROL rammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) ?
 feature: Integrations
-source-git-commit: c1dae830d40173a7b0988d18dacc47ccb0dc7209
+source-git-commit: 02ecd1fea95937ab53e6787ca8b56cb62bca38fd
 workflow-type: tm+mt
-source-wordcount: '374'
-ht-degree: 84%
+source-wordcount: '383'
+ht-degree: 76%
 
 ---
 
@@ -26,9 +26,21 @@ Le funzioni [!UICONTROL Frammenti di esperienza] e [!UICONTROL Frammenti di cont
 
 Quando utilizzi i [!UICONTROL frammenti di esperienza] e [!UICONTROL frammenti di contenuto] di AEM in [!DNL Target], considera quanto segue:
 * Queste funzionalità sono disponibili solo per chi è cliente [!DNL Adobe Experience Manager] (AEM). Assicurati di soddisfare i requisiti di ogni tipo di frammento: [Frammento di esperienza](/help/main/c-integrating-target-with-mac/aem/experience-fragments-aem.md#requirements) o [Frammento di contenuto](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md#requirements).
-* Queste funzionalità sono disponibili per i seguenti tipi di attività: [!UICONTROL Test A/B], [!UICONTROL Allocazione automatica], [!UICONTROL Targeting automatico], [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting dell’esperienza] (XT). Questa funzione non è disponibile per [!UICONTROL Test multivariato] (MVT) e [!UICONTROL Recommendations] attività.
-* Puoi sfruttare i [!UICONTROL frammenti di esperienza] nelle attività di [!DNL Target] utilizzando il [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) o il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
-* Puoi sfruttare i [!UICONTROL frammenti di contenuto] solo nel [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+* [!UICONTROL Frammenti esperienza] e [!UICONTROL Frammenti di contenuto] sono disponibili per i seguenti tipi di attività:
+
+   * [[!UICONTROL Test A/B]](/help/main/c-activities/t-test-ab/test-ab.md)
+   * [[!UICONTROL Allocazione automatica]](/help/main/c-activities/automated-traffic-allocation/automated-traffic-allocation.md)
+   * [[!UICONTROL Targeting automatico]](/help/main/c-activities/auto-target/auto-target-to-optimize.md)
+   * [[!UICONTROL Personalizzazione automatizzata] (AP)](/help/main/c-activities/t-automated-personalization/automated-personalization.md)
+   * [[!UICONTROL Targeting esperienza] (XT)](/help/main/c-activities/t-experience-target/experience-target.md)
+
+* [!UICONTROL Frammenti esperienza] e [!UICONTROL Frammenti di contenuto] non sono disponibili per i seguenti tipi di attività:
+
+   * [[!UICONTROL Test multivariato] (MVT)](/help/main/c-activities/c-multivariate-testing/multivariate-testing.md)
+   * [[!UICONTROL Raccomandazioni]](/help/main/c-recommendations/recommendations.md)
+
+* Puoi consumare [!UICONTROL Frammenti esperienza] in [!DNL Target] attività che utilizzano [Compositore esperienza visivo](/help/main/c-experiences/c-visual-experience-composer/visual-experience-composer.md) (Compositore esperienza visivo) e [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
+* Puoi sfruttare i [!UICONTROL frammenti di contenuto] solo nelle attività di [!DNL Target] che utilizzano il [Compositore esperienza basato su moduli](/help/main/c-experiences/form-experience-composer.md).
 
 ## Qual è la differenza tra [!UICONTROL frammenti esperienza] e [!UICONTROL frammenti di contenuto]?
 
