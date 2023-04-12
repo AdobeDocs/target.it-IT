@@ -6,9 +6,9 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '3214'
+source-wordcount: '3215'
 ht-degree: 58%
 
 ---
@@ -258,7 +258,7 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 
 Le domande frequenti sulle autorizzazioni Enterprise includono:
 
-### Cosa succede se un utente dispone di più ruoli e autorizzazioni?
+### Cosa succede se un utente dispone di più ruoli e autorizzazioni? [#multiple-role]
 
 Se un utente dispone di più ruoli e autorizzazioni, viene applicato il ruolo con le autorizzazioni dell&#39;utente. Ad esempio, se un utente ha [!UICONTROL Osservatore] e [!UICONTROL Approvatore] ruoli, [!UICONTROL Approvatore] il ruolo viene applicato.
 

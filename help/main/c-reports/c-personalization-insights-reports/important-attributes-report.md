@@ -5,10 +5,10 @@ title: Qual è il rapporto Attributi importanti?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Reports
 exl-id: c1069ca7-e221-4865-a82e-6cff5b4c0055
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
 workflow-type: tm+mt
-source-wordcount: '1723'
-ht-degree: 81%
+source-wordcount: '1847'
+ht-degree: 75%
 
 ---
 
@@ -90,7 +90,9 @@ La tabella seguente spiega come interpretare il rapporto e ne descrive gli eleme
 
 ## Domande frequenti sugli attributi importanti {#section_740910A52FA646B4AC9452F98C2F5719}
 
-**I rapporti Registri di personalizzazione non sono ancora disponibili per la mia attività. Perché?**
+Consulta le seguenti Domande frequenti per le risposte alle domande più frequenti sull’utilizzo dei [!UICONTROL Attributi importanti] rapporto.
+
+### I rapporti Registri di personalizzazione non sono ancora disponibili per la mia attività. Perché?
 
 Ci sono vari motivi per cui i rapporti [!UICONTROL Approfondimenti personalizzazione] potrebbero non essere ancora disponibili per la tua attività:
 
@@ -98,33 +100,39 @@ Ci sono vari motivi per cui i rapporti [!UICONTROL Approfondimenti personalizzaz
 * L&#39;attività non ha avuto traffico a sufficienza durante il periodo di tempo specificato. Trascorsi 15 giorni, supponendo che la tua attività abbia un [traffico personalizzato sufficiente](/help/main/c-activities/auto-target/auto-target-to-optimize.md#section_BA4D83BE40F14A96BE7CBC7C7CF2A8FB), saranno disponibili i rapporti Segmenti automatizzati e Attributi importanti.
 * L&#39;attività ha un obiettivo di ottimizzazione dei profitti. Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
-**Cos&#39;è un attributo?**
+### Cos&#39;è un attributo?
 
 Un attributo è un&#39;informazione su un visitatore o sulla sua visita specifica che gli algoritmi di personalizzazione utilizzano per imparare a personalizzare il traffico. Gli attributi possono essere, ad esempio, il tipo di browser, la posizione, l&#39;orario della visita e così via.
 
 Per ulteriori informazioni sugli attributi utilizzati da [!DNL Target] nei modelli di personalizzazione, consulta [Raccolta di dati per gli algoritmi di personalizzazione di Target](/help/main/c-activities/t-automated-personalization/ap-data.md). Per ulteriori informazioni su come caricare in Target nuovi attributi da utilizzare nei modelli di personalizzazione di Target, vedi [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
 
-**Le informazioni nei rapporti di [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] sono le stesse del file CSV scaricabile?**
+### Vedo uno o più attributi che non voglio che il modello utilizzi per la formazione. Posso rimuovere quegli attributi dal modello di formazione? {#models-api}
+
+La [!UICONTROL API dei modelli], denominata anche API di Inserire nell&#39;elenco Bloccati, consente agli utenti di visualizzare e gestire l’elenco degli attributi (chiamati anche funzioni) utilizzati nei modelli di apprendimento automatico per [!UICONTROL Automated Personalization] (AP) e [!UICONTROL Targeting automatico] (AT) attività. Se desideri escludere uno o più attributi dall’utilizzo da parte dei modelli per le attività di AP o AT, puoi utilizzare l’API Modelli per aggiungere tali attributi al &quot;inserire nell&#39;elenco Bloccati&quot;.
+
+Per informazioni dettagliate, consulta [Panoramica API dei modelli](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} in the *Adobe Target Developer Guide*. To use the API to block attributes, see [Models API](https://developer.adobe.com/target/administer/models-api/){target=_blank}.
+
+### Le informazioni nei rapporti di [!UICONTROL Segmenti automatizzati] e [!UICONTROL Attributi importanti] sono le stesse del file CSV scaricabile?
 
 No, il rapporto dell&#39;interfaccia utente contiene specifiche informazioni. Il file CSV scaricabile contiene ulteriori dettagli. Il download del rapporto di Registri di segmento automatizzato comprende altri Segmenti automatizzati oltre ai segmenti principali inclusi nell&#39;interfaccia utente, così come le prestazioni di quei segmenti rispetto alle offerte o esperienze. Il rapporto di Attributi importanti include i principali 100 attributi dei visitatori e l&#39;importanza relativa, mentre l&#39;interfaccia utente include solo i 10 attributi principali.
 
-**Posso visualizzare Registri di personalizzazione per un intervallo di date personalizzato?**
+### Posso visualizzare Registri di personalizzazione per un intervallo di date personalizzato?
 
 Il rapporto di Registri di personalizzazione (sia per [!UICONTROL Segmenti automatizzati] sia per [!UICONTROL Attributi importanti]) è disponibile solo per intervalli di date fissi: 15 giorni, 30 giorni, 45 giorni, 60 giorni e 90 giorni. Questi intervalli di date fissi consentono a [!UICONTROL Registri di personalizzazione] di utilizzare una gamma di dati abbastanza ampia da ridurre la probabilità di trarre informazioni da un modello di breve durata all&#39;interno dell&#39;attività. Puoi selezionare queste durate per qualsiasi data di fine (laddove vi siano dati a sufficienza per soddisfare la durata).
 
-**Come viene creato [!UICONTROL Registri di personalizzazione]?**
+### Come viene creato [!UICONTROL Registri di personalizzazione]?
 
 [!UICONTROL Registri di personalizzazione] viene creato tramite una tecnica di Adobe in attesa di licenza denominata MAGIX (Model Agnostic Globally Interpretable Explanations). Per ulteriori informazioni su MAGIX, consulta il documento pubblicato del team di ricerca Adobe sul sito [Sito web arXiv.org](https://arxiv.org/abs/1706.07160).
 
-**[!UICONTROL Registri di personalizzazione] è disponibile per obiettivi di modeling/obiettivi primari basati sui profitti?**
+### Sono [!UICONTROL Approfondimenti personalizzazione] disponibile per obiettivi di modeling/obiettivi primari basati sui profitti?
 
 Attualmente, [!UICONTROL Registri di personalizzazione] è disponibile solo per le attività con obiettivo di ottimizzazione della conversione. Il supporto per le attività di ottimizzazione dei profitti verrà aggiunto in una versione futura.
 
-**Qual è il punteggio di importanza dell&#39;attributo nel rapporto relativo agli Attributi importanti?**
+### Qual è il punteggio di importanza dell&#39;attributo nel rapporto relativo agli Attributi importanti?
 
 Il punteggio di importanza nella sezione “Classifica di Importanza degli Attributi” del rapporto fornisce input sulle variabili, utilizzate dall&#39;algoritmo per apprendere, che sono state più importanti nel determinare la suddivisione di tutti i visitatori nei segmenti che identificava. Ha assegnato un punteggio percentuale ai 100 attributi principali utilizzati dal modello.
 
-**Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?**
+### Perché alcune offerte/esperienze con un tasso di conversione inferiore ricevono una maggiore quantità di traffico rispetto ad altre per un determinato segmento automatizzato?
 
 Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esperienza a basso tasso di conversione in un segmento automatizzato, tra cui:
 
@@ -136,7 +144,7 @@ Vi sono vari motivi per cui potresti vedere più visite per un’offerta o esper
 
 È utile sapere come funziona il modello in base al quale viene distribuito il traffico. Ogni persona riceve i contenuti in base al suo profilo totale. Tuttavia, i rapporti Approfondimenti generalizzano questo comportamento per facilitarne l’interpretazione. Di conseguenza, i segmenti non si escludono a vicenda. Di conseguenza questo tipo di comportamento può interessare singoli segmenti perché una stessa persona può essere inclusa in più segmenti.
 
-**Come posso sfruttare le informazioni in Registri di personalizzazione?**
+### Come posso sfruttare le informazioni in Registri di personalizzazione?
 
 * Scopri un nuovo gruppo di destinatari: se vedi un segmento automatizzato dalle prestazioni particolarmente buone, puoi creare un gruppo di destinatari per riutilizzare il segmento in altri rapporti.
 * Verifica le tue ipotesi sui tipi di visitatori che risponderanno a determinate esperienze.
