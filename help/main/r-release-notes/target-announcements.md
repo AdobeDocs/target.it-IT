@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
+source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
 workflow-type: tm+mt
-source-wordcount: '1984'
-ht-degree: 93%
+source-wordcount: '1937'
+ht-degree: 94%
 
 ---
 
@@ -20,14 +20,6 @@ Annunci e informazioni sui prossimi eventi di [!DNL Adobe Target], che includono
 Nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE), Gartner ha nominato [!DNL Adobe Target] leader per il quinto anno consecutivo. [!DNL Adobe] ha inoltre ricevuto punteggi di alto livello e incrementi significativi su base annua in tutti e tre i casi d’uso principali: Marketing digitale, Commercio digitale e Servizio clienti e supporto. [!DNL Target] ha ricevuto i punteggi più elevati per le funzionalità di testing tra tutti i fornitori valutati.
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
-
-## [!UICONTROL Adobe Target Community Q&amp;A Coffee Break]
-
-* **Mercoledì 12 aprile 2023**
-* **dalle 8:00 alle 9:00 (PDT, GMT -7)**
-* **[Informazioni di registrazione](https://adobe.ly/42gQGfv){target=_blank}**
-
-Join Matthew Bailie e Georgia FRailey, entrambi Consulenti Senior Solutions per [!DNL Adobe Target], che vi parlerà direttamente del vostro [!DNL Adobe Target] domande relative [!DNL Target] Caratteristiche dell’intelligenza artificiale, in particolare [!UICONTROL Automated Personalization] e [!UICONTROL Targeting automatico].
 
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
