@@ -1,27 +1,27 @@
 ---
-keywords: aree di lavoro;gestisci proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto
+keywords: aree di lavoro;gestire proprietà;autorizzazioni;configurazione prodotto;profilo prodotto;ruoli;progetto;osservatore;editor;approvatore;editore
 description: Scopri come creare aree di lavoro separate (profili di prodotto) e quindi assegnare agli utenti ruoli e autorizzazioni diversi per singole pagine, proprietà o siti web.
 title: Cosa sono le autorizzazioni utente Enterprise e come le utilizzo?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Administration & Configuration
 role: Admin
 exl-id: 838abe87-dba7-4274-97b4-31a7905846dc
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 8f2e0bd2bd89b9d65c0ad4497677c925b2225fa5
 workflow-type: tm+mt
-source-wordcount: '3168'
-ht-degree: 59%
+source-wordcount: '3214'
+ht-degree: 58%
 
 ---
 
 # Autorizzazioni per gli utenti aziendali
 
-Autorizzazioni per gli utenti aziendali sono un mezzo per amministrare formalmente l&#39;accesso degli utenti a livello aziendale a [!DNL Adobe Target]. Aggiungi utenti a [!DNL Target], assegna le autorizzazioni in base ai loro ruoli e crea aree di lavoro per i team in base a reparti, posizioni globali, canali e altri raggruppamenti logici diversi. Puoi assegnare agli utenti i ruoli di [!UICONTROL Osservatore], [!UICONTROL Editor]oppure [!UICONTROL Approvatore].
+Autorizzazioni per gli utenti aziendali sono un mezzo per amministrare formalmente l&#39;accesso degli utenti a livello aziendale a [!DNL Adobe Target]. Aggiungi utenti a [!DNL Target], assegna le autorizzazioni in base ai loro ruoli e crea aree di lavoro per i team in base a reparti, posizioni globali, canali e altri raggruppamenti logici diversi. Puoi assegnare agli utenti i ruoli di [!UICONTROL Osservatore], [!UICONTROL Editor], [!UICONTROL Approvatore]oppure [!UICONTROL Editore].
 
 ## Determinare se si dispone dell&#39;accesso alle autorizzazioni per gli utenti aziendali
 
 >[!NOTE]
 >
->Le funzionalità Proprietà e Autorizzazioni sono disponibili come parte della soluzione [!DNL Target] Premium. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
+>Le funzionalità [!UICONTROL Proprietà e Autorizzazioni] sono disponibili come parte della soluzione [!DNL Target] Premium. Non sono disponibili in [!DNL Target] Standard senza una licenza [!DNL Target] Premium.
 >
 >Le [!DNL Target] l’implementazione può utilizzare qualsiasi versione di at.js.
 
@@ -89,10 +89,10 @@ I ruoli e le autorizzazioni determinano i livelli di accesso che gli utenti devo
 
 | Ruolo | Descrizione |
 |--- |--- |
-| Responsabile approvazione | Può creare, modificare, attivare o interrompere le attività. |
-| Editor | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
-| Osservatore | Può visualizzare le attività, ma non può crearle o modificarle. |
-| Editore | Simile al ruolo Osservatore (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo Editore è anche autorizzato ad attivare le attività. |
+| [!UICONTROL Approvatore] | Può creare, modificare, attivare o interrompere le attività. |
+| [!UICONTROL Editor] | Può creare e modificare le attività prima che siano in diretta, ma non può approvare l’avvio di un’attività. |
+| [!UICONTROL Osservatore] | Può visualizzare le attività, ma non può crearle o modificarle. |
+| [!UICONTROL Editore] | Simile al [!UICONTROL Osservatore] ruolo (può visualizzare le attività, ma non può crearle o modificarle). Tuttavia, il ruolo [!UICONTROL Editore] è anche autorizzato ad attivare le attività. |
 
 ### Canale
 
@@ -257,6 +257,10 @@ Quando utilizzi o configuri proprietà e autorizzazioni in , considera quanto se
 ## Domande frequenti {#faqs}
 
 Le domande frequenti sulle autorizzazioni Enterprise includono:
+
+### Cosa succede se un utente dispone di più ruoli e autorizzazioni?
+
+Se un utente dispone di più ruoli e autorizzazioni, viene applicato il ruolo con le autorizzazioni dell&#39;utente. Ad esempio, se un utente ha [!UICONTROL Osservatore] e [!UICONTROL Approvatore] ruoli, [!UICONTROL Approvatore] il ruolo viene applicato.
 
 ### Posso spostare un&#39;attività da un&#39;area di lavoro a un&#39;altra?
 
