@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 7a0a20362d960cce293b30c210a53d438616da58
+source-git-commit: b3aa03d61483468e9434051c69505a3ddcf04df9
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '1984'
+ht-degree: 93%
 
 ---
 
@@ -33,7 +33,28 @@ Join Matthew Bailie e Georgia FRailey, entrambi Consulenti Senior Solutions per 
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
 
-Nessuna pianificata in questo momento.
+### Offri sempre esperienze personalizzate ai clienti!
+
+* **Giovedì 27 aprile 2023**
+* **dalle 9:00 alle 10:00 (BST, GMT +1), dalle 10.00 alle 11.00 (CEST, GMT +2)**
+* **[Informazioni di registrazione](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+
+Con [!DNL Adobe Target]Funzioni avanzate di test e personalizzazione. Assicurati di essere ovunque si trovi il cliente, offrendo esperienze contestuali dinamiche su web, dispositivi mobili e dispositivi digitali.
+
++++Dettagli
+
+Il webinar tratterà:
+
+* Perché la personalizzazione è una parte critica di qualsiasi strategia
+* Identificazione e utilizzo di diversi tipi di attività
+* Spotlight - Casi d&#39;uso del settore
+* Recommendations per stimolare la personalizzazione
+* Demo di [!DNL Target] Interfaccia utente, evidenziazione
+   * Creazione di pubblico
+   * Configurazione [!UICONTROL Targeting esperienza] Attività (XT)
+   * Configurazione [!UICONTROL Targeting automatico] e [!UICONTROL Personalizzazione automatica] attività
+
++++
 
 ## Registrazioni di sessioni Skill Builder e webinar passati
 
