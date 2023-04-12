@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 1b46d42e082b4f797064df1ff0c1b75907af4dd0
+source-git-commit: 72c2a09f120e97a031e564cc5422bdd35cdf8f9c
 workflow-type: tm+mt
-source-wordcount: '2386'
-ht-degree: 93%
+source-wordcount: '2403'
+ht-degree: 92%
 
 ---
 
@@ -21,6 +21,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 12 aprile | [Rapporto Attributi importanti](/help/main/c-reports/c-personalization-insights-reports/important-attributes-report.md#models-api) | È stata aggiunta la seguente domanda frequente:<ul><li>Vedo uno o più attributi che non voglio che il modello utilizzi per la formazione. Posso rimuovere quegli attributi dal modello di formazione?</li></ul> |
 |  | [Autorizzazioni per gli utenti Enterprise](/help/main/administrating-target/c-user-management/property-channel/property-channel.md#multiple-roles) | È stata aggiunta la seguente domanda frequente:<ul><li>Cosa succede se un utente dispone di più ruoli e autorizzazioni?</li></ul> |
+|  | [Frammenti di contenuto](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md) di AEM | Nuovo argomento. Questa funzione si trova nello stato &quot;prerelease&quot; a scopo di test. |
 | 5 aprile | [Utilizzare le decisioni sulle offerte](/help/main/c-integrating-target-with-mac/ajo/offer-decision.md) | È stato aggiunto del testo che indica che [!UICONTROL Analytics come origine per la generazione di rapporti] (A4t) non è supportato nelle attività che utilizzano decisioni sulle offerte. |
 | 3 aprile | [[!DNL Adobe Target] Annunci ed eventi](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla [!UICONTROL Community Adobe Target] Coffee break previsto per mercoledì 12 aprile 2023. |
 |  | [Inserire nell’elenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stata aggiunta una nota a inserire nell&#39;elenco Consentiti tutto [!DNL Adobe Analytics] Blocchi di indirizzi IP. |
