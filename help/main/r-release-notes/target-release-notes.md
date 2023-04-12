@@ -4,10 +4,10 @@ description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi n
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
-source-git-commit: 01ade219f81bc1d43fd13321e8fc4f23b230856c
+source-git-commit: c9e588149cd53c9af886e4918e1c83a3e52d9e4e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '272'
+ht-degree: 57%
 
 ---
 
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Questo articolo contiene informazioni pre-rilascio per le prossime [!DNL Adobe Target] versioni, incluse SDK, API e librerie JavaScript.
 
-**Ultimo aggiornamento: 30 marzo 2023**
+**Ultimo aggiornamento: 12 aprile 2023**
 
 >[!NOTE]
 >
@@ -25,11 +25,15 @@ Per visualizzare informazioni sulla versione corrente, consulta [Note sulla vers
 
 ## [!DNL Adobe Experience Manager] (AEM) e [!DNL Adobe Target] [!UICONTROL Frammenti di contenuto] rilascio (12 aprile 2023)
 
+>[!NOTE]
+>
+>Questa funzione sarà disponibile come versione prerelease il 12 aprile 2023 e sarà disponibile per la versione GA (General Availability) del 26 aprile 2023.
+
 Questa versione contiene la seguente nuova funzione:
 
 | Funzione | Dettagli |
 |--- |--- |
-| AEM [!UICONTROL Frammenti di contenuto] per personalizzazione e sperimentazione headless | Puoi utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target]. Combina la facilità d&#39;uso e la potenza delle AEM con le potenti funzionalità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per aiutare la personalizzazione e la sperimentazione headless. |
+| AEM [!UICONTROL Frammenti di contenuto] per personalizzazione e sperimentazione headless | Puoi utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target]. Combina la facilità d&#39;uso e la potenza delle AEM con le potenti funzionalità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per aiutare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, consulta [AEM [!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md). |
 
 ## Note aggiuntive e dettagli sulla versione
 
