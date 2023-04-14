@@ -1,25 +1,25 @@
 ---
 keywords: note sulla versione;versioni;aggiornamenti;versione futura;miglioramenti;nuove funzioni;correzioni;aggiornamenti;prerelease
-description: Scopri le nuove funzioni, i miglioramenti e le correzioni inclusi nella prossima versione di [!DNL Adobe Target], tra cui SDK, API e librerie JavaScript.
+description: Scopri le nuove funzioni, i miglioramenti e le correzioni, compresi SDK, API e librerie JavaScript, inclusi nella prossima versione di  [!DNL Adobe Target].
 title: Quali nuove funzioni e miglioramenti saranno inclusi nella prossima versione [!DNL Target] ?
 feature: Release Notes
 exl-id: f2783042-f6ee-4f73-b487-ede11d55d530
 source-git-commit: ab4afd18d55a2b44bb31787360cec6089250c69a
 workflow-type: tm+mt
 source-wordcount: '325'
-ht-degree: 51%
+ht-degree: 73%
 
 ---
 
 # Note sulla versione (prerelease) di [!DNL Target]
 
-Questo articolo contiene informazioni pre-rilascio per le prossime [!DNL Adobe Target] versioni, incluse SDK, API e librerie JavaScript.
+Questo articolo contiene informazioni prerelease per le prossime versioni di [!DNL Adobe Target], incluse SDK, API e librerie JavaScript.
 
 **Ultimo aggiornamento: 13 aprile 2023**
 
 >[!NOTE]
 >
->Date di rilascio, funzioni e altre informazioni sono soggette a cambiamenti senza preavviso.
+>Date di rilascio, funzioni e altre informazioni sono soggette a modifica senza preavviso.
 >
 >Per visualizzare informazioni sulla versione corrente, consulta [Note sulla versione di Target](release-notes.md). Le informazioni su queste pagine potrebbero essere uguali, a seconda della tempistica delle release. I codici tra parentesi sono per uso interno di [!DNL Adobe].
 
@@ -29,7 +29,7 @@ Questa versione include le nuove funzioni, i miglioramenti e le correzioni segue
 
 | Funzione | Dettagli |
 |--- |--- |
-| AEM [!UICONTROL Frammenti di contenuto] per personalizzazione e sperimentazione headless | Puoi utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target]. Combina la facilità d&#39;uso e la potenza delle AEM con le potenti funzionalità di intelligenza artificiale (AI) e apprendimento automatico (ML) in [!DNL Target] per aiutare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, consulta [AEM [!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTA**: Questa funzione è disponibile come versione prerelease a partire dal 12 aprile 2023. Come funzione prerelease, puoi sperimentare con [!UICONTROL Frammenti di contenuto] utilizzo di ambienti di sviluppo e di staging, ma non di ambienti di produzione. Questa funzione sarà disponibile per GA (Disponibilità generale) nel [!DNL Target Standard/Premium] Versione 23.4.1. |
+| [!UICONTROL Frammenti di contenuto] di AEM per personalizzazione e sperimentazione headless | Puoi utilizzare i [!UICONTROL frammenti di contenuto] di [!DNL Adobe Experience Manager] (AEM) nelle attività di [!DNL Target]. Combina la facilità d’uso e la potenza di AEM con le potenti capacità dell’intelligenza artificiale (IA) e dell’apprendimento automatico (ML) in [!DNL Target] per facilitare la personalizzazione e la sperimentazione headless.<P>Per ulteriori informazioni, consulta [AEM [!UICONTROL Frammenti di contenuto]](/help/main/c-integrating-target-with-mac/aem/content-fragments-aem.md).<P>**NOTA**: Questa funzione è disponibile come versione prerelease a partire dal 12 aprile 2023. Come funzione prerelease, puoi sperimentare con [!UICONTROL Frammenti di contenuto] utilizzo di ambienti di sviluppo e di staging, ma non di ambienti di produzione. Questa funzione sarà disponibile per GA (Disponibilità generale) nel [!DNL Target Standard/Premium] Versione 23.4.1. |
 | Attributi del profilo Real-Time CDP condivisi con [!DNL Target] | [!UICONTROL Attributi del profilo di Real-Time CDP] può essere condiviso con [!DNL Target] da utilizzare nelle offerte HTML e JSON.<P>Per ulteriori informazioni, consulta [Condividere gli attributi del profilo Real-Time CDP con [!DNL Target]](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md#rtcdp-profile-attributes). |
 
 ## Note aggiuntive e dettagli sulla versione
