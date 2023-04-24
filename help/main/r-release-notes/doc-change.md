@@ -4,10 +4,10 @@ description: Resta aggiornato sulle importanti aggiunte e modifiche apportate al
 title: Dove posso trovare la documentazione aggiornata per  [!DNL Target]?
 feature: Release Notes
 exl-id: 36d19598-eb46-4be6-a652-658b653287cb
-source-git-commit: 9ae9cc67512d689b4b5a825c67abfca5ff8821b4
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2441'
-ht-degree: 97%
+source-wordcount: '2461'
+ht-degree: 93%
 
 ---
 
@@ -47,7 +47,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 21 febbraio | [Inserire nell’elenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco consentiti per tutte le aree nella [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank}. |
+| 21 febbraio | [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank} | È stato aggiornato l’elenco degli indirizzi IP da inserire nell&#39;elenco consentiti per tutte le aree nella [Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}. |
 |  | [Modifiche](/help/main/c-experiences/c-visual-experience-composer/c-vec-code-editor/vec-code-editor.md) | È stato aggiunto del testo che spiega che l’esempio che utilizza JQuery presuppone che il sito web dell’utente abbia jQuery disponibile sulla pagina quando [!DNL Target] esegue le offerte. |
 | 10 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.14.5 di [!DNL Target Standard/Premium]. |
 | 8 febbraio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte le note sulla versione di at.js 2.10.1. |
@@ -70,7 +70,7 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 20 dicembre | [Gruppi di reporting di offerte in [!UICONTROL Automated Personalization]](/help/main/c-activities/t-automated-personalization/offer-reporting-groups-in-automated-personalization.md) | Sono state aggiunte ulteriori informazioni sui gruppi di reporting in “Avvertenze”. |
 | 14 dicembre | [Impostazioni dei rapporti](/help/main/c-reports/c-report-settings/report-settings.md#environment) | È stata aggiunta una nota nella sezione “Ambiente” sull’utilizzo di [!DNL Adobe Experience Platform] (AEP) per inviare dati metrici a [!DNL Target]. |
 | 29 novembre | [Geo](/help/main/c-target/c-audiences/c-target-rules/geo.md) | Testo semplificato con aggiunta del seguente paragrafo:<ul><li>Le informazioni geografiche di un visitatore sono determinate dall’indirizzo IP di origine di una richiesta di posizione [!DNL Target] (richiesta mbox). La risoluzione IP-to-geo viene eseguita per la prima chiamata di una nuova sessione. Ciò significa che, se l’indirizzo IP di un visitatore cambia durante la sessione di una visita, le informazioni geografiche si basano comunque sull’indirizzo IP della prima chiamata.</li></ul> |
-| 28 novembre | [Panoramica di Models API (inserimento nell’elenco bloccati)](https://developer.adobe.com/target/before-administer/models-api/){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. | Nuove API per modelli.<br>È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization]. |
+| 28 novembre | [Panoramica di Models API (inserimento nell’elenco bloccati)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/administration/models-api/models-api.html){target=_blank} nella *Guida per gli sviluppatori di Adobe Target*. | Nuove API per modelli.<br>È possibile bloccare alcune funzionalità per evitare che vengano utilizzate dagli algoritmi di apprendimento automatico di [!DNL Target], in modo da impedirne l’utilizzo nei modelli o nelle attività di [!UICONTROL Targeting automatico] o [!UICONTROL Automated Personalization]. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sul rilascio di Models API (23 novembre 2022). |
 | 23 novembre | [Prima di implementare Analytics for Target (A4T) con at.js](/help/main/c-integrating-target-with-mac/a4t/before-implement.md) | È stato aggiornato il collegamento al [Modulo di provisioning integrazioni Marketing Cloud](https://survey.adobe.com/jfe/form/SV_ekBHTLSoP5Zki2y){target=_blank}. |
 | 16 novembre | [Annunci ed eventi di Adobe Target](/help/main/r-release-notes/target-announcements.md) | Sono state aggiunte informazioni sulla registrazione per il seguente evento:<ul><li>[!DNL Adobe Target] Community Q&amp;A Coffee Break (29 novembre)</li></ul> |
@@ -110,10 +110,10 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 
 | Data | Argomento | Modifiche |
 | --- | --- | --- |
-| 30 giugno | [Guida per gli sviluppatori di Adobe Target](https://developer.adobe.com/target/){target=_blank} | È stata pubblicata la *Guida per gli sviluppatori di Adobe Target* per consolidare in un unico portale tutti i contenuti per sviluppatori di [!DNL Target]. Il portale include informazioni sull’implementazione di [!DNL Target] e [!DNL Recommendations], SDK di [!DNL Target] e API di [!DNL Target]. |
+| 30 giugno | [Guida per gli sviluppatori di Adobe Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank} | È stata pubblicata la *Guida per gli sviluppatori di Adobe Target* per consolidare in un unico portale tutti i contenuti per sviluppatori di [!DNL Target]. Il portale include informazioni sull’implementazione di [!DNL Target] e [!DNL Recommendations], SDK di [!DNL Target] e API di [!DNL Target]. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.6.2 di [!DNL Target Standard/Premium]. |
 |  | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md) | Sono stati aggiunti collegamenti per le registrazione di webinar precedenti. |
-| 14 giugno | [Pianificare e implementare le raccomandazioni](https://developer.adobe.com/target/implement/recommendations/){target=_blank} | Sono stati aggiornati gli esempi di codice nelle sezioni seguenti:<ul><li>Aggiunte al carrello/Visualizzazioni carrello/Pagine di pagamento</li><li>Escludere gli elementi già presenti nel carrello del visitatore</li></ul> |
+| 14 giugno | [Pianificare e implementare le raccomandazioni](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} | Sono stati aggiornati gli esempi di codice nelle sezioni seguenti:<ul><li>Aggiunte al carrello/Visualizzazioni carrello/Pagine di pagamento</li><li>Escludere gli elementi già presenti nel carrello del visitatore</li></ul> |
 | 7 giugno | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte note sulla versione 22.6.1 di [!DNL Target Standard/Premium]. |
 
 ## Adobe Target Standard/Premium 22.5.1 (rilascio scaglionato; 11-13 maggio 2022)
@@ -123,12 +123,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | 7 giugno | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease sulla versione 22.6.1 di [!DNL Target Standard/Premium]. |
 | 31 maggio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Sono state aggiunte informazioni sul prossimo evento [!DNL Adobe Target] Community Coffee Break (29 giugno 2022) |
 | 25 maggio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione della piattaforma [!DNL Target] (25 maggio 2022) e sulla versione 2.9.0 di at.js (27 maggio 2022). |
-|  | [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Sono state aggiunte informazioni sulla versione 2.9.0 di at.js. |
-|  | [User-agent e Client Hints](https://developer.adobe.com/target/implement/client-side/atjs/user-agent-and-client-hints/){target=_blank} | Nuovo argomento. |
+|  | [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Sono state aggiunte informazioni sulla versione 2.9.0 di at.js. |
+|  | [User-agent e Client Hints](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/user-agent-and-client-hints.html){target=_blank} | Nuovo argomento. |
 |  | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | È stato aggiunto un collegamento per la registrazione del seguente webinar: Dick’s Sporting Goods: Personalizzazione e come sta cambiando il settore retail (19 maggio 2022) |
 | 23 maggio | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte note prerelease per la versione at.js 2.9.0 (25 maggio 2022). |
 | 11 maggio | [Annunci ed eventi di Target](/help/main/r-release-notes/target-announcements.md#webinar-series) | Sono stati aggiunti collegamenti alle pagine di informazioni e registrazione per i seguenti webinar:<ul><li>Dick’s Sporting Goods: Personalizzazione e come sta cambiando il settore retail</li><li>Adobe: Personalization Industry Insider - Servizi finanziari e assicurativi</li><li>City National Bank: Come arrivare al primo 1% nell’ottimizzazione digitale</li><li>Adobe: Personalizzazione con precisione - [!DNL Adobe Analytics] e [!DNL Target]</li><li>City National Bank: Zero to Hero - Avvio e scalabilità di un’iniziativa di personalizzazione</li><li>Adobe: Opportunità di ottimizzazione ad alto impatto</li><li>Adobe: Personalization Industry Insider - Retail</li></ul>È stata aggiunta la registrazione del seguente webinar:<ul><li>Personalizzazione in tempo reale con [!DNL Adobe Target]</li></ul> |
-|  | [Direttive Content Security Policy (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/){target=_blank} | È stata aggiunta la sezione domande frequenti. |
+|  | [Direttive Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html){target=_blank} | È stata aggiunta la sezione domande frequenti. |
 |  | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.5.1 di [!DNL Target Standard/Premium] e la piattaforma Target (11-13 maggio 2022). |
 
 ## Adobe Target Standard/Premium 22.4.1 (28 aprile)
@@ -181,12 +181,12 @@ Elenco di modifiche importanti apportate alla documentazione di [!DNL Adobe Targ
 | --- | --- | --- |
 | 31 gennaio | [Note sulla versione di Target (prerelease)](/help/main/r-release-notes/target-release-notes.md) | Sono state aggiunte informazioni prerelease relative alla versione 22.2.1 di [!DNL Target Standard/Premium]. |
 | 28 gennaio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 2.8.1 di at.js. |
-|  | [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Sono state aggiunte informazioni sulla versione 2.8.1 di at.js. |
+|  | [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Sono state aggiunte informazioni sulla versione 2.8.1 di at.js. |
 | 27 gennaio | [Frammenti di esperienza AEM](/help/main/c-experiences/c-manage-content/aem-experience-fragments.md) | L’argomento è stato aggiornato con informazioni su [!DNL AEM as a Cloud Service] e [!DNL Adobe I/0]. |
 | 26 gennaio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.1.2 di [!DNL Target Standard/Premium]. |
 |  | [Creazione di tipi di pubblico](/help/main/c-target/c-audiences/audiences.md) | Sono state aggiunte informazioni sui tipi di pubblico di [!DNL Adobe Experience Platform]. |
 |  | [Combinare più tipi di pubblico](/help/main/c-target/combining-multiple-audiences.md) | Sono state aggiunte informazioni sui tipi di pubblico di [!DNL Adobe Experience Platform]. |
-| 21 gennaio | [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | Sono state aggiunte informazioni sulla versione 1.8.3 di at.js. |
-| 19 gennaio | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank} | È stata aggiunta la seguente sezione: “at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.*” |
+| 21 gennaio | [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | Sono state aggiunte informazioni sulla versione 1.8.3 di at.js. |
+| 19 gennaio | [Aggiornamento da at.js 1.*x* a at.js 2.*x*](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} | È stata aggiunta la seguente sezione: “at.js 2.*x* non supporta la creazione di tipi di pubblico utilizzando i parametri vst.*” |
 | 12 gennaio | [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md) | Sono state aggiunte informazioni sulla versione 22.1.1 di [!DNL Target Standard/Premium]. |
-|  | [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} | È stato aggiunto un collegamento al tutorial con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |
+|  | [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} | È stato aggiunto un collegamento al tutorial con istruzioni per l’implementazione di [!DNL Adobe Experience Cloud] con Web SDK. |

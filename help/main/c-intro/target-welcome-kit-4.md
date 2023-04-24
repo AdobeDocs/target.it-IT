@@ -4,7 +4,7 @@ description: Leggi i suggerimenti del nostro gruppo di esperti sull’utilizzo d
 title: Dove posso trovare suggerimenti per l’utilizzo di Target?
 feature: Overview
 exl-id: 86437ad1-83ea-4670-b503-6c3c1fff0c16
-source-git-commit: 4564e0b95bbd19f20c75e5e83d452d12a5403083
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '2899'
 ht-degree: 73%
@@ -25,7 +25,7 @@ Per istruzioni dettagliate, consulta [Attributi personalizzati](https://experien
 
 **Buono a sapersi**: poiché [!DNL Target] è una piattaforma aperta e agnostica che funziona bene con tecnologie diverse, puoi aggiungere dati di gestione delle relazioni con i clienti o dati acquistati in modi diversi. Ciò significa che puoi scegliere un metodo che funzioni al meglio per la tua organizzazione.
 
-Vedi [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank} per ulteriori informazioni.
+Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html).{target=_blank}
 
 ## Suggerimento 2: personalizza in modo più avanzato, combinando i tipi di pubblico di [!DNL Target] con altri tipi di pubblico di Adobe Experience Cloud.
 

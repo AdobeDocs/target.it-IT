@@ -4,10 +4,10 @@ description: Riguarda l’elenco di argomenti che consentono di risolvere i prob
 title: Come posso risolvere i problemi di Target?
 feature: Troubleshooting
 exl-id: c72443f0-1ea2-4f81-9bc3-495a8d459083
-source-git-commit: b2d37cdecab49e432587412882b7c2601fa6f418
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '497'
-ht-degree: 87%
+source-wordcount: '508'
+ht-degree: 82%
 
 ---
 
@@ -96,7 +96,7 @@ Nelle sezioni seguenti sono disponibili informazioni sulla risoluzione di proble
 
 ## Mbox globale
 
-* [Mbox globale](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Mbox globale](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ## Host/Ambienti
 
@@ -108,23 +108,23 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ### Implementazione generale
 
-* [Browser supportati](https://developer.adobe.com/target/before-implement/supported-browsers/)
-* [Utilizzo di istanze basate su cloud con Target](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/targeting-using-cloud-based-instances/)
+* [Browser supportati](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/supported-browsers.html)
+* [Utilizzo di istanze basate su cloud con Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/targeting-using-cloud-based-instances.html)
 
 ### Mboxs globali
 
-* [Domande frequenti sulle mbox globali](https://developer.adobe.com/target/implement/client-side/atjs/global-mbox/global-mbox-faq/)
+* [Domande frequenti sulle mbox globali](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/global-mbox/global-mbox-faq.html)
 
 ### at.js
 
-* [Domande frequenti su at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-faq/target-atjs-faq/)
-* [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://developer.adobe.com/target/implement/client-side/target-debugging-atjs/target-debugging-atjs/)
-* [Dettagli sulle versioni di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/)
+* [Domande frequenti su at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-faq.html/)
+* [Debugging di at.js utilizzando il debugger Adobe Experience Cloud](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/functions-overview/target-debugging-atjs.html)
+* [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html)
 * Video “Office hours”, un&#39;iniziativa portata avanti dal team di assistenza clienti di Adobe. 
 
 ## App mobili
 
-* [Domande frequenti su Target per le app per dispositivi mobili](https://developer.adobe.com/target/implement/mobile/mobile-faq/)
+* [Domande frequenti su Target per le app per dispositivi mobili](https://experienceleague.corp.adobe.com/docs/target-dev/developer/mobile-apps/mobile-faq.html)
 
 ## Generazione di rapporti
 
@@ -133,11 +133,11 @@ Nelle seguenti sezioni sono disponibili informazioni sulla risoluzione di proble
 
 ## Ottimizzazione dei motori di ricerca (SEO)
 
-* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://developer.adobe.com/target/implement/client-side/atjs/how-atjs-works/how-atjs-works/)
+* [Test di usabilità per l’ottimizzazione per i motori di ricerca (SEO)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/at-js/how-atjs-works.html)
 
 ## Sicurezza
 
-* [Direttive Content Security Policy (CSP)](https://developer.adobe.com/target/before-implement/privacy/content-security-policy/)
+* [Direttive Content Security Policy (CSP)](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/content-security-policy.html)
 
 ## Stato del sistema
 

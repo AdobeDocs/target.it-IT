@@ -5,10 +5,10 @@ title: Come posso integrare Consigli con l’e-mail?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: 08fcb507-2c91-444a-b8ac-26165e359f6f
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '1712'
-ht-degree: 97%
+source-wordcount: '1715'
+ht-degree: 96%
 
 ---
 
@@ -78,7 +78,7 @@ Dove `clientcode` è il codice del client [!DNL Target].
 >
 >Assicurati di fornire un valore univoco per `sessionId` e uno tra `tntId` o `thirdPartyId` per ogni destinatario e-mail (ad esempio, per ogni chiamata API). Se non fornisci valori univoci per questi campi, la risposta API potrebbe risultare lenta o non riuscire a causa del numero elevato di eventi generati in un singolo profilo.
 
-Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://developer.adobe.com/target/implement/delivery-api/).{target=_blank}
+Per ulteriori informazioni, consulta la [documentazione sulle API di consegna](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/delivery-api/overview.html).{target=_blank}
 
 ## Metodo 2 - Utilizzare un modello di e-mail rawbox {#rawbox}
 

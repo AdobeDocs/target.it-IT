@@ -4,10 +4,10 @@ description: Scopri come combinare più tipi di pubblico (tra cui i tipi di pubb
 title: Posso combinare più tipi di pubblico per creare un nuovo pubblico?
 feature: Audiences
 exl-id: 1d9bff9c-f63b-4e15-9809-71b046158b71
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
-source-wordcount: '960'
-ht-degree: 64%
+source-wordcount: '961'
+ht-degree: 63%
 
 ---
 
@@ -17,7 +17,7 @@ Combinare più tipi di pubblico (tra cui [!DNL Adobe Experience Cloud], [!DNL Ad
 
 >[!NOTE]
 >
->La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank}. Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento.
+>La [!DNL Adobe Experience Platform] l&#39;origine è disponibile per tutti [!DNL Target] i clienti che utilizzano [Adobe Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html?lang=en){target=_blank}. Tipi di pubblico disponibili dal [!DNL Adobe Experience Platform] può essere utilizzato così come è o combinato con tipi di pubblico esistenti, come spiegato in questo argomento.
 >
 >Per ulteriori informazioni consulta [Utilizzare i tipi di pubblico da Adobe Experience Platform](/help/main/c-target/c-audiences/audiences.md#aep).
 

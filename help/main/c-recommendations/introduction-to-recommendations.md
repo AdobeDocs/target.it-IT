@@ -5,10 +5,10 @@ title: Quali sono le attività Consigli?
 badgePremium: label="Premium" type="Positive" url="https://experienceleague.adobe.com/docs/target/using/introduction/intro.html?lang=en#premium newtab=true" tooltip="See what's included in Target Premium."
 feature: Recommendations
 exl-id: bc4d9a46-ea21-4687-b8a0-7f2e1dc33ebf
-source-git-commit: bde5506033fbca1577fad1cda1af203702fc4bb3
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2113'
-ht-degree: 91%
+source-wordcount: '2114'
+ht-degree: 90%
 
 ---
 
@@ -105,7 +105,7 @@ Successivamente, devi aggiungere dei tag o sfruttare l’implementazione esisten
 
 È necessario assicurarsi che [!DNL Target] sia a conoscenza degli articoli che gli utenti visualizzano e acquistano. Se l’acquisto non è rilevante per il tuo contesto, puoi tenere traccia di un diverso tipo di evento di conversione, ad esempio download di un PDF, completamento di un sondaggio, abbonamento a una newsletter, visualizzazione di un video e così via.
 
-Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, è più semplice configurarlo utilizzando un gestore di tag come i tag in [[!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/){target=_blank}. È inoltre possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
+Se utilizzi già [!DNL Target] per eseguire attività Test A/B sul tuo sito, potresti aver già completato questo passaggio. Oppure, se utilizzi già [!DNL Adobe Analytics] per generare rapporti sulle visite al sito e sul comportamento di conversione, puoi usare [!DNL Analytics] come origine dei dati comportamentali. In caso contrario, è più semplice configurarlo utilizzando un gestore di tag come i tag in [[!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}. È inoltre possibile inviare interazioni offline o in-app a [!DNL Target] tramite API in tempo reale.
 
 ### Inserire i consigli nel contesto giusto
 

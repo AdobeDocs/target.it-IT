@@ -6,10 +6,10 @@ badgePremium: label="Premium" type="Positive" url="https://experienceleague.adob
 feature: Recommendations
 mini-toc-levels: 2
 exl-id: c156952b-8eda-491d-a68e-d3d09846f640
-source-git-commit: 07062b7df75300bd7558a24da5121df454520e42
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
 workflow-type: tm+mt
-source-wordcount: '2839'
-ht-degree: 1%
+source-wordcount: '2842'
+ht-degree: 0%
 
 ---
 
@@ -65,7 +65,7 @@ Il flusso logico dell’implementazione effettiva dell’algoritmo è mostrato n
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: Dati comportamentali, sotto forma di visualizzazioni e acquisti di visitatori raccolti quando [implementare Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione modello**:
 
@@ -89,7 +89,7 @@ Anche se il modello di distribuzione e la distribuzione dei contenuti di [!DNL T
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: Come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite [Feed catalogo, API Entità o da aggiornamenti su pagina](https://developer.adobe.com/target/implement/recommendations/){target=_blank}.
+* **Dati di input**: Come descritto in precedenza, questo algoritmo si basa esclusivamente sui dati del catalogo (acquisiti in [!DNL Target] tramite [Feed catalogo, API Entità o da aggiornamenti su pagina](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank}.
 
 * **Formazione modello**:
 
@@ -127,7 +127,7 @@ La logica dei passaggi di formazione e valutazione del modello è mostrata nel d
 
 Di seguito sono riportati i dettagli relativi a questi passaggi:
 
-* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://developer.adobe.com/target/implement/recommendations/){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
+* **Dati di input**: È identico ai metodi di filtro collaborativo (CF) per elemento. [!UICONTROL Entrambi Consigliati] e gli algoritmi basati su carrello utilizzano i dati comportamentali, sotto forma di visualizzazioni e acquisti di utenti raccolti quando [implementare Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/recommendations.html){target=_blank} or from [Adobe Analytics](/help/main/c-recommendations/c-algorithms/use-adobe-analytics-with-recommendations.md){target=_blank}.
 
 * **Formazione modello**:
 

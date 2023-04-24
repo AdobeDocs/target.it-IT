@@ -4,10 +4,10 @@ description: Scopri come funziona  [!DNL Adobe Target]  e informazioni su librer
 title: Come funziona  [!DNL Target] ?
 feature: Overview
 exl-id: 8a93e061-0be7-4ecc-b511-2210094547f2
-source-git-commit: 612089bcde266804efa6a54be89eff55329d4bfc
-workflow-type: ht
-source-wordcount: '2562'
-ht-degree: 100%
+source-git-commit: 2a25fdb42ce4470f9126b7e0e7f6fd9e60c350e5
+workflow-type: tm+mt
+source-wordcount: '2565'
+ht-degree: 98%
 
 ---
 
@@ -19,8 +19,8 @@ Scopri come funziona [!DNL Adobe Target], comprese informazioni sulle librerie J
 
 [!DNL Target] si integra con i siti web utilizzando [!DNL Experience Platform Web SDK] o at.js:
 
-* **[!DNL Adobe Experience Platform Web SDK]:**[Experience Platform Web SDK](https://developer.adobe.com/target/implement/client-side/aep-web-sdk/){target=_blank} è una nuova libreria JavaScript lato client. [!DNL Experience Platform Web SDK] consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi di [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. [!DNL Adobe] consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
-* **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. [!DNL Adobe] consiglia a tutti i clienti che utilizzano at.js di aggiornare le implementazioni alla [versione più recente di at.js](https://developer.adobe.com/target/implement/client-side/atjs/target-atjs-versions/){target=_blank}.
+* **[!DNL Adobe Experience Platform Web SDK]:**[Experience Platform Web SDK](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/aep-web-sdk.html){target=_blank} è una nuova libreria JavaScript lato client. [!DNL Experience Platform Web SDK] consente ai clienti di [!DNL Adobe Experience Cloud] di interagire con i vari servizi di [!DNL Experience Cloud] (incluso [!DNL Target]) tramite la rete Edge di [!DNL Experience Platform]. [!DNL Adobe] consiglia a tutti i nuovi clienti [!DNL Target] di implementare [!DNL Experience Platform Web SDK].
+* **at.js:** la libreria at.js è una libreria di implementazione per [!DNL Target]. La libreria at.js migliora i tempi di caricamento delle pagine per le implementazioni Web e fornisce migliori opzioni di implementazione per le applicazioni a pagina singola. at.js viene aggiornato frequentemente con nuove funzionalità. [!DNL Adobe] consiglia a tutti i clienti che utilizzano at.js di aggiornare le implementazioni alla [versione più recente di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank}.
 
 >[!NOTE]
 >
@@ -30,8 +30,8 @@ Fai riferimento a [!DNL Experience Platform Web SDK] o at.js in ogni pagina del 
 
 Le risorse seguenti contengono informazioni dettagliate utili per implementare [!DNL Experience Platform Web SDK] o at.js:
 
-* [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html?lang=it)
-* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://developer.adobe.com/target/implement/client-side/atjs/how-to-deployatjs/implement-target-using-adobe-launch/)
+* [[!DNL Adobe Experience Platform Web SDK] Estensione](https://experienceleague.adobe.com/docs/experience-platform/tags/extensions/adobe/sdk/overview.html){target=_blank}
+* [Implementare [!DNL Target] utilizzando [!DNL Adobe Experience Platform]](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/deploy-at-js/implement-target-using-adobe-launch.html){target=_blank}
 
 Ogni volta che un visitatore richiede una pagina ottimizzata per [!DNL Target], viene inviata una richiesta al sistema di targeting. La richiesta aiuta a determinare quale contenuto distribuire al visitatore. Questo processo avviene in tempo reale. Il sistema elabora e soddisfa una richiesta di contenuto ogni volta che viene caricata una pagina. Il contenuto è gestito dalle regole delle attività e delle esperienze controllate dagli addetti al marketing, e ne viene eseguito il targeting per i singoli visitatori del sito. Viene distribuito il contenuto al quale è più probabile che ogni visitatore del sito risponda, interagisca o alla fine acquisti. I contenuti personalizzati consentono di massimizzare i tassi di risposta, i tassi di acquisizione e i ricavi.
 
@@ -134,7 +134,7 @@ Il servizio [!DNL Target Recommendations] è ospitato in un data center [!DNL Ad
 >
 >[!DNL Adobe Target] al momento non dispone di un cluster Edge in Cina e le prestazioni del visitatore rimangono limitate per i clienti [!DNL Target] in Cina. A causa del firewall e della mancanza di cluster Edge nel paese, le esperienze dei siti con [!DNL Target] implementato possono essere influenzate. Le esperienze possono essere lente per il rendering e possono essere influenzate dai caricamenti di pagina. Inoltre, gli addetti al marketing possono riscontrare una latenza durante l’utilizzo dell’interfaccia utente di creazione di [!DNL Target].
 
-Se necessario, puoi inserire nell’elenco consentiti i cluster edge di [!DNL Target]. Per ulteriori informazioni, consulta [Inserire nell’elenco consentiti i nodi edge di Target](https://developer.adobe.com/target/before-implement/privacy/allowlist-edges/){target=_blank}.
+Se necessario, puoi inserire nell’elenco consentiti i cluster edge di [!DNL Target]. Per ulteriori informazioni, consulta [Inserire nell’elenco consentiti i nodi edge di Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/privacy/allowlist-edges.html){target=_blank}.
 
 ## Esperienza di utilizzo protetta {#concept_40A5E781D90A41E4955F80EA9E5F8F96}
 

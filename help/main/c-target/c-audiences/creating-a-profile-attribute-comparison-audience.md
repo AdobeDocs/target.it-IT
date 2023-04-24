@@ -4,10 +4,10 @@ description: Scopri come definire un pubblico per confrontare due attributi di p
 title: Posso confrontare due attributi di profilo da utilizzare nel pubblico?
 feature: Audiences
 exl-id: 033e90f1-5a05-4fce-a520-68826860a908
-source-git-commit: 293b2869957c2781be8272cfd0cc9f82d8e4f0f0
+source-git-commit: 1383088bb2f6be0432e6f140400d8723048c8530
 workflow-type: tm+mt
 source-wordcount: '431'
-ht-degree: 63%
+ht-degree: 60%
 
 ---
 
@@ -23,14 +23,14 @@ Definire un pubblico in [!DNL Adobe Target] per confrontare due attributi di pro
 
 I tipi di pubblico sono definiti da regole che determinano chi è incluso o escluso da un&#39;attività di [!DNL Target]. Una definizione di pubblico può includere più regole e ogni regola può includere più parametri. Se una delle regole incluse utilizza il [!UICONTROL Profilo visitatore] categoria , puoi definire una regola basata sul valore specifico di un attributo di profilo visitatore o confrontare il valore di tale attributo con un altro attributo di profilo visitatore.
 
-Ad esempio, immagina di lavorare per una società di arredamento e di caricare due punteggi propensione cliente su [!DNL Target]:
+Ad esempio, supponiamo che tu lavori per una società di arredamento e che tu abbia caricato due punteggi di propensione dei clienti in [!DNL Target]:
 
 * Probabilità di acquisto di mobili per la sala da pranzo nei prossimi 90 giorni
 * Probabilità di acquisto di mobili per il soggiorno nei prossimi 90 giorni
 
 Puoi creare un pubblico la cui propensione ad acquistare mobili per la sala da pranzo è maggiore della propensione ad acquistarne per il soggiorno. [!DNL Target] consente quindi di confrontare in modo dinamico il punteggio della propensione per la sala da pranzo e il soggiorno per un visitatore specifico per determinare se tale visitatore è destinato a questo pubblico.
 
-Per ulteriori informazioni, consulta [Metodi per immettere i dati in Target](https://developer.adobe.com/target/before-implement/methods-to-get-data-into-target/methods-to-get-data-into-target/){target=_blank}.
+Per ulteriori informazioni, consulta [Metodi per ottenere dati in Target](https://experienceleague.corp.adobe.com/docs/target-dev/developer/implementation/methods/methods-to-get-data-into-target.html){target=_blank}.
 
 ## Creare un pubblico per il confronto degli attributi di profilo {#section_7A62FD47D5C74C3EBC3417ACDBB85013}
 
