@@ -4,10 +4,10 @@ description: Leggi gli annunci e registrati per gli eventi su Adobe  [!DNL Targe
 title: Dove posso trovare annunci ed eventi relativi a  [!DNL Target] ?
 feature: Release Notes
 exl-id: 02bbc049-ab41-469b-8f7b-dc93ffb8ae73
-source-git-commit: 73a595f17601348ef3f1dc9c92fa927dc60265e2
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '1937'
-ht-degree: 94%
+source-wordcount: '2152'
+ht-degree: 85%
 
 ---
 
@@ -21,6 +21,29 @@ Nel suo ultimo Magic Quadrant dedicato ai motori di personalizzazione (PE), Gart
 
 Per ulteriori informazioni, consulta il [post del blog di Adobe Experience Cloud](https://business.adobe.com/blog/the-latest/adobe-once-again-named-a-leader-in-the-2022-gartner-magic-quadrant-for-personalization-engines-report?mkt_tok=MDgyLVZMTi0zMzcAAAGGHqjw1DEtV7p2v7f1c2eB4fKlit9iqFUHbMFAjxcNgBw6KBEUjUk670zmlm4hCMQ3R-Cw0eEnAwSthQ1K_I8c1-Yj7vtwUFMqCp6FisLA){target=_blank}.
 
+## [!UICONTROL Community Adobe Target] Interruzione caffè Q&amp;A: Ottimizzazione e personalizzazione dell’esperienza mobile per ambienti autenticati
+
+* **Mercoledì 26 aprile 2023**
+* **13:00 (EDT, UTC-4)**
+* **[Informazioni sulla registrazione](https://experienceleaguecommunities.adobe.com/t5/adobe-target-discussions/upcoming-webinar-4-26-23-mobile-experience-optimization-amp/td-p/586372){target=_blank}**
+
+Iscriviti [!DNL Adobe Target] Brent Kostak, Marketing Manager, spiega come [!DNL Target] e [Real-time Customer Data Platform](/help/main/c-integrating-target-with-mac/integrating-with-rtcdp.md) (RTCDP) può stimolare un maggiore coinvolgimento, ricavi e fedeltà dei clienti all&#39;interno dei settori regolamentati.
+
++++Dettagli
+
+I brand devono offrire esperienze altamente personalizzate e pertinenti in base a esigenze e comportamenti specifici dei clienti. Con le domande su un futuro senza cookie nella tecnologia di marketing, i settori regolamentati stanno cercando di adottare un framework di coinvolgimento del cliente più solido, ottimizzando al tempo stesso ogni interazione del cliente per i contenuti e le offerte giusti.
+
+In che modo i marchi dei settori dei servizi finanziari e assicurativi, retail, viaggi e ospitalità e delle telecomunicazioni possono adottare le migliori pratiche per l&#39;ottimizzazione e la personalizzazione in ambienti autenticati? Comprendere l’importanza sulle app mobili per il coinvolgimento e la fidelizzazione dei clienti fedeli, come possono i brand abilitare il self-service digitale o aumentare l’adozione di nuove funzioni con esperienze personalizzate?
+
+In questa sessione, scopri come [!DNL Target] e [!DNL Real-Time Customer Data Platform] può stimolare un maggiore coinvolgimento, ricavi e fedeltà dei clienti all&#39;interno dei settori regolamentati mentre discutiamo di:
+
+* Come i team forniscono esperienze personalizzate ai visitatori anonimi e autenticati
+* Comprendere le autorizzazioni dei consumatori e gli standard sulla privacy con la personalizzazione
+* Contenuto e offerte personalizzati ai visitatori autenticati tramite identità anonime
+* Casi d’uso univoci per siti autenticati e sicuri su web e dispositivi mobili
+
++++
+
 ## Serie di webinar su [!DNL Adobe Target] {#webinar-series}
 
 Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzano [!DNL Target] per raggiungere i loro obiettivi di personalizzazione e ottimizzazione:
@@ -29,7 +52,7 @@ Registrati per partecipare ai seguenti webinar e scopri come i clienti utilizzan
 
 * **Giovedì 27 aprile 2023**
 * **dalle 9:00 alle 10:00 (BST, GMT +1), dalle 10.00 alle 11.00 (CEST, GMT +2)**
-* **[Informazioni di registrazione](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
+* **[Informazioni sulla registrazione](https://adobetargetemea2023.experienceleague.adobeevents.com/){target=_blank}**
 
 Con [!DNL Adobe Target]Funzioni avanzate di test e personalizzazione. Assicurati di essere ovunque si trovi il cliente, offrendo esperienze contestuali dinamiche su web, dispositivi mobili e dispositivi digitali.
 

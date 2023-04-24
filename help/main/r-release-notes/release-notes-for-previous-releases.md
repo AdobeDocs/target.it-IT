@@ -4,9 +4,9 @@ description: Visualizza un elenco di funzioni, miglioramenti e correzioni inclus
 title: Quali funzioni sono incluse nelle versioni precedenti?
 feature: Release Notes
 exl-id: e4d261a1-d3aa-46ea-b1ce-efa76a90dc71
-source-git-commit: 2fc704a1779414a370ffd00ef5442fce36e7a5dd
+source-git-commit: 0628e4b4d5cd4998a1bc2d87fd27e99accabd42e
 workflow-type: tm+mt
-source-wordcount: '35960'
+source-wordcount: '36438'
 ht-degree: 96%
 
 ---
@@ -22,6 +22,34 @@ Le note sulla versione vengono ordinate in ordine decrescente per mese e anno di
 >Consulta [Note sulla versione di Target (corrente)](/help/main/r-release-notes/release-notes.md#reference_8FE40B43A5A34DDF8F26A53D55EE036A) per informazioni sulle versioni di Target del mese corrente (piattaforma e Target Standard/Premium).
 
 ## Note sulla versione - 2023
+
+### [!DNL Target] Standard/Premium 23.3.1 (28-30 marzo 2023)
+
+Questa versione include le nuove funzioni, i miglioramenti e le correzioni seguenti:
+
+| Funzione | Dettagli |
+|--- |--- |
+| Metriche A4T ottimizzate per [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico]<p>(Data di rilascio: 30 marzo 2023) | [!DNL Target] consente di scegliere le metriche basate su eventi binomiali o le metriche basate su eventi continui quando si utilizza [!UICONTROL A4T] per attività di [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].<P>In particolare, tieni conto delle seguenti modifiche nelle metriche supportate:<ul><li>[!DNL Target] ha mantenuto il comportamento precedente per le attività esistenti fino al 9 settembre 2023. Dopo tale data, le attività che utilizzando le metriche non supportate verranno interrotte e sarà necessario effettuarne la migrazione ai nuovi comportamenti.</li></ul>Per ulteriori informazioni, consulta “Metriche obiettivo supportate” nell’articolo [supporto di A4T per le attività](/help/main/c-integrating-target-with-mac/a4t/a4t-at-aa.md#supported) [!UICONTROL Allocazione automatica] e [!UICONTROL Targeting automatico].<br>Con questa funzione sono stati aggiornati i seguenti tutorial:<ul><li>[Configurazione dei rapporti A4T in  [!DNL Analysis Workspace]  per le attività di [!UICONTROL Allocazione automatica] ](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-allocate-activities.html?lang=it){target=_blank}</li><li>[Configurazione dei rapporti A4T in [!DNL Analysis Workspace] per le attività di [!UICONTROL Targeting automatico]](https://experienceleague.adobe.com/docs/target-learn/tutorials/integrations/set-up-a4t-reports-in-analysis-workspace-for-auto-target-activities.html?lang=it){target=_blank}</li></ul> |
+
+* Miglioramento della sincronizzazione del pubblico e delle attività in modo che gli elementi creati in [!DNL Adobe Experience Platform] e [!DNL Adobe Audience Manager] siano disponibili più rapidamente nell’interfaccia di [!DNL Target]. (TGT-44568)
+* L’interfaccia è stata migliorata per consentire agli utenti di rimuovere l’[!UICONTROL URL predefinito] in [!UICONTROL Amministrazione] > [!UICONTROL Compositore esperienza visivo] > [!UICONTROL URL predefinito]. Questa modifica consente ai clienti di impostare di nuovo l’URL predefinito su una stringa vuota, cosa che in precedenza non era possibile dopo la configurazione iniziale. (TGT-44577)
+* Sono state rimosse le restrizioni che impedivano di modificare o eliminare i tipi di pubblico predefiniti (tipi di pubblico con nomi riservati). (TGT-44655)
+* È stata disabilitata l’opzione “[!UICONTROL Fine]” mentre le icone di caricamento sono visibili nell’interfaccia di [!DNL Target] durante la creazione di tipi di [pubblico combinato](/help/main/c-target/combining-multiple-audiences.md). (TGT-44079)
+* È stato corretto il collegamento [!UICONTROL Lingua] nella parte inferiore della pagina [!UICONTROL Tipi di pubblico] in modo che si colleghi correttamente alla pagina “[!UICONTROL Preferenze di comunicazione dell&#39;account]”. (TGT-43562)
+* È stato risolto un problema che a volte impediva ai clienti di creare attività di [!UICONTROL test A/B] dopo aver selezionato l’opzione [!UICONTROL Adobe Analytics] in [!UICONTROL Amministrazione] > [!UICONTROL Reporting] > [!UICONTROL Soluzione di reporting Experience Cloud]. (TGT-44844)
+* È stato risolto un problema che impediva ai clienti di visualizzare l’ultima esperienza in un’attività di [!UICONTROL test multivariato] con molte esperienze all’interno del [!UICONTROL Compositore esperienza visivo]. Il [percorso DOM](/help/main/c-experiences/c-visual-experience-composer/viztarget-options.md#dom-path) nella parte inferiore del Compositore esperienza visivo a volte impediva ai clienti di visualizzare l’ultima esperienza. (TGT-44578)
+* È stato risolto un problema a causa del quale l’URL di navigazione nel Compositore esperienza visivo non rifletteva la pagina corrente visibile in una normale sessione del browser se la pagina richiedeva un’autorizzazione o richiamava reindirizzamenti. (TGT-44350)
+* È stato risolto un problema che impediva ai clienti di modificare l’impostazione [!UICONTROL Filtra criteri incompatibili] in [!UICONTROL Recommendations] > [!UICONTROL Impostazioni]. (TGT-44398)
+* È stato risolto un problema a causa del quale le richieste POST per la creazione di nuovi feed [!DNL Recommendations] non riuscivano durante l’utilizzo di [!UICONTROL Classificazioni Analytics] con suite di rapporti il cui nome contiene il carattere punto. (TGT-44598)
+* I collegamenti nell’interfaccia di [!DNL Target] sono stati aggiornati per puntare alla nuova [estensione Visual Editing Helper](/help/main/c-experiences/c-visual-experience-composer/r-troubleshoot-composer/visual-editing-helper-extension.md). (TGT-44459)
+* Protezione avanzata per impedire tentativi di falsificazione di richieste lato server (SSRF) nei feed di [!DNL Recommendations]. (TGT-43769)
+* Sono state apportate diverse correzioni di localizzazione in tutta l’interfaccia utente di [!DNL Target].
+
+### at.js versione 2.10.2 (7 marzo 2023)
+
+* È stato risolto un problema che causava la restituzione di un errore della funzione `trackEvent`.
+
+Per informazioni su tutte le versioni di at.js, consulta [Dettagli sulle versioni di at.js](https://experienceleague.corp.adobe.com/docs/target-dev/developer/client-side/at-js-implementation/target-atjs-versions.html){target=_blank} in the [Adobe Target Developer Guide](https://experienceleague.corp.adobe.com/docs/target-dev/developer/overview.html){target=_blank}.
 
 ### [!DNL Target] Standard/Premium 22.15.1 (8-9 marzo 2023)
 
